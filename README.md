@@ -1,1 +1,3 @@
-# 2025-2-prometheus-14Team
+# AItom
+
+* 촉매 합성법 제공 챗봇
