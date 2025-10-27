@@ -1,0 +1,944 @@
+{
+  "metadata": {
+    "title": "Lithium nitrate regulated carbonate electrolytes for practical Li-metal batteries: Mechanisms, principles and strategies",
+    "authors": "; ; ",
+    "journal": "Journal of Energy Chemistry",
+    "date": "2023-02-28",
+    "doi": "10.1016/j.jechem.2022.11.017",
+    "abstract": "",
+    "uri": "https://api.elsevier.com/content/article/pii/S2095495622006143",
+    "pii": "S2095495622006143"
+  },
+  "fulltext": {
+    "full-text-retrieval-response": {
+      "scopus-eid": "2-s2.0-85145328539",
+      "originalText": "serial JL 286353 291210 291711 291744 291809 31 Journal of Energy Chemistry JOURNALENERGYCHEMISTRY 2022-11-21 2022-11-21 2023-01-02 2023-01-02 2023-03-21T19:57:12 1-s2.0-S2095495622006143 S2095-4956(22)00614-3 S2095495622006143 10.1016/j.jechem.2022.11.017 S300 S300.3 FULL-TEXT 1-s2.0-S2095495622X00090 2024-06-03T13:21:35.167045Z 0 0 20230201 20230228 2023 2022-11-21T16:04:52.01023Z absattachment articleinfo articletitlenorm authfirstinitialnorm authfirstsurnamenorm cid cids contenttype copyright crossmark dateloaded dateloadedtxt datesearch datesort dateupdated dco docsubtype doctype doi eid ewtransactionid hubeid indexeddate issn issnnorm itemstage itemtransactionid itemweight openaccess openarchive pg pgfirst pglast pii piinorm pubdateend pubdatestart pubdatetxt pubyr sortorder srctitle srctitlenorm srctype ssids alllist content subj subheadings suppl tomb volfirst volissue volumelist webpdf webpdfpagecount yearnav figure e-component body mmlmath acknowledge affil appendices articletitle auth authfirstini authfull authkeywords authlast grantnumber grantsponsor grantsponsorid primabst pubtype ref specialabst vitae 2095-4956 20954956 false 77 77 C Volume 77 57 581 600 581 600 202302 February 2023 2023-02-01 2023-02-28 2023 article rev © 2022 Science Press and Dalian Institute of Chemical Physics, Chinese Academy of Sciences. All rights reserved. LITHIUMNITRATEREGULATEDCARBONATEELECTROLYTESFORPRACTICALLIMETALBATTERIESMECHANISMSPRINCIPLESSTRATEGIES WANG K 1 Introduction and scope 1.1 Practical Li-metal batteries 1.2 Liquid electrolyte for practical Li-metal batteries 1.3 Scope of this review 2 Mechanisms of LiNO3 to stabilize LMA in carbonate electrolyte 2.1 Participating in Li+-solvated structure 2.2 Tailoring the electrical double layer (EDL) 2.3 Manipulating inorganic-rich SEI 2.4 Regulating Li deposition morphology 3 Dissolution and insolubility principle of LiNO3 in carbonate electrolytes 3.1 Dissolution principle of LiNO3 additive 3.2 Insolubility of LiNO3 in single carbonate and commercial linear/cyclic carbonate electrolytes 4 Strategies to introduce LiNO3 additive into carbonate electrolytes 4.1 Chemical solubilization 4.1.1 Solvent carrier strategy 4.1.2 Co-solvent reservoir strategy 4.1.3 Lewis acid regulation strategy 4.1.4 Intrinsic cation design strategy 4.1.5 Single cyclic carbonate strategy 4.2 Physical release 4.2.1 Intrinsic carrier strategy 4.2.2 Exogenous carrier strategy 4.3 Pre-reaction 4.3.1 Pre-immersion reaction strategy 4.3.2 Pre-embedding reaction strategy 5 Summaries and outlooks Acknowledgments Appendix A Supplementary material References TIAN 2021 1623 1669 Y WANG 2020 1903864 X WANG 2021 5370 L LIU 2018 833 845 B LIN 2017 194 206 D LIU 2022 654 664 H GAO 2021 666 687 M LIN 2018 5262 Z SHEN 2021 21604 21612 Z WANG 2022 278 M DAI 2021 253 270 Y LI 2022 268 276 Y WANG 2020 14966 14973 L WANG 2022 2200744 L YUAN 2011 269 284 L YANG 2022 2200197 X JIANG 2022 2200197 W KUPPAN 2017 14309 S ZHANG 2018 14483 14517 M YUAN 2021 25624 25638 S REN 2019 1662 1676 X HAN 2020 2004793 B JIAO 2018 739 746 S REN 2019 896 902 X ZHAO 2022 2575 Y HUANG 2022 Y ZHAO 2020 362 371 H RUSTOMJI 2017 4263 C YU 2020 3075 3081 Y ZENG 2018 674 681 Z WANG 2020 4188 Q WANG 2021 2003752 Z GOODENOUGH 2010 587 603 J TAN 2021 2100046 J FAN 2018 715 722 X ZHAO 2022 327 336 H TAN 2022 221 230 L FAN 2018 174 185 X CHEN 2018 1706102 S YUAN 2021 105847 S ZHENG 2017 17012 J ZHAO 2018 992 996 Q CHEN 2021 178 185 J LI 2020 306 319 S DING 2013 4450 4456 F DAI 2018 17515 17521 H MARKEVICH 2017 1321 1326 E SU 2019 284 292 C GUO 2015 59 63 J SHI 2018 22201 22209 P HUANG 2021 19232 19240 K YAN 2018 14055 14059 C TAN 2021 2102134 Y YUE 2019 594 602 H MAO 2020 105282 M LEE 2020 2000567 S QIAN 2015 135 144 J HUANG 2021 20717 20722 J HOU 2022 202201406 L KIM 2022 1 13 S MAY 2021 1162 1169 R ZHAO 2020 26053 26060 Q LIU 2021 3661 3671 S GUO 2022 569 576 Z PIAO 2022 2108400 Z PHAM 2022 2107492 T LIU 2022 e202210522 S ZHANG 2020 3252 3257 X TAN 2022 2325 2334 J YANG 2017 1701169 C JIE 2020 1910777 Y HORSTMANN 2021 5289 5314 B LI 2018 1706375 S ZHAI 2020 2001257 P ZHENG 2020 2701 2750 J PIAO 2022 e2206009 Z ZHENG 2021 2312 2346 X HOU 2020 7 17 Z WANG 2021 2007945 X PIAO 2021 1839 1848 N XU 2021 4215 4220 R YAN 2019 9422 9429 C GOODENOUGH 2013 1167 1176 J FU 2021 2010602 L XIONG 2014 840 845 S XIONG 2012 78 86 S CAO 2022 W LIU 2022 421 427 H ZHANG 2022 5431 S GAO 2020 1864 1879 X ELY 2013 A662 A668 D PEI 2017 1132 1139 A LIU 2018 3656 Y LI 2019 1 8 S HWANG 2019 2174 2184 J YANG 2021 1413 1421 H ZHAO 2022 e202116214 Q ZHANG 2021 3310 3317 S ZHANG 2018 5301 5305 X JIE 2020 3505 3510 Y XIAO 2020 2004688 D WANG 2022 e202206682 Z ZHANG 2020 2001740 W LI 2020 14935 14941 S ZHANG 2020 2003800 W WANG 2021 106353 X ZHAO 2021 1 7 R LIU 2019 505 511 H LIU 2020 229 236 Y WEN 2021 2109377 Y LIU 2021 9232 9235 D WEN 2022 2204768 Z LEE 2022 35645 35653 M WU 2019 18504 18510 L BROWN 2019 A2523 A2527 Z WU 2020 4300 4307 L SAHALIE 2019 226912 N GU 2021 2102128 S ZHU 2022 422 428 Y XIE 2022 e202204776 J ZHANG 2019 254 259 Y LIU 2019 4564 4574 M ZHOU 2022 482 490 S LUO 2022 2205677 C CHO 2022 S LEE 2021 509 519 J YANG 2022 2202349 H WANG 2020 2000769 X LIU 2020 176 Q LI 2018 15517 15522 X FU 2022 12 20 L HOU 2022 e202201406 L WANGX2023X581 WANGX2023X581X600 WANGX2023X581XK WANGX2023X581X600XK 2025-01-02T00:00:00.000Z 2025-01-02T00:00:00.000Z http://creativecommons.org/licenses/by-nc-nd/4.0/ © 2022 Science Press and Dalian Institute of Chemical Physics, Chinese Academy of Sciences. All rights reserved. 2023-01-05T07:08:35.788Z http://vtw.elsevier.com/data/voc/AddOnTypes/50.7/aggregated-refined Scientific Research Fund of Zhejiang Provincial Education Department Y202250795 Basic Public Welfare Research Special Project of Zhejiang Province LZY22B040001 NSFC 12205252 NSFC National Natural Science Foundation of China http://data.elsevier.com/vocabulary/SciValFunders/501100001809 http://sws.geonames.org/1814991/ Entrepreneur Team Introduction Program of Zhejiang 2019R01006 Zhejiang University IZQ2021KJ2032 ZJU Zhejiang University http://data.elsevier.com/vocabulary/SciValFunders/501100004835 http://sws.geonames.org/1814991/ Independent Scientific Research Project of Quzhou Research Institute IZQ2021RCZX007 Science and Technology Project of Quzhou Research Institute Institute of Zhejiang University-Quzhou The authors are grateful for the support by the Leading Innovative and Entrepreneur Team Introduction Program of Zhejiang ( 2019R01006 ), the National Natural Science Foundation of China (NSFC: 12205252 ), A Project Supported by Scientific Research Fund of Zhejiang Provincial Education Department ( Y202250795 ), the Research Funds of Institute of Zhejiang University-Quzhou, the Basic Public Welfare Research Special Project of Zhejiang Province ( LZY22B040001 ), the Science and Technology Project of Quzhou Research Institute, Zhejiang University ( IZQ2021KJ2032 ) and the Independent Scientific Research Project of Quzhou Research Institute, Zhejiang University ( IZQ2021RCZX007 ). item S2095-4956(22)00614-3 S2095495622006143 1-s2.0-S2095495622006143 10.1016/j.jechem.2022.11.017 286353 2023-03-29T20:31:34.515546Z 2023-02-01 2023-02-28 1-s2.0-S2095495622006143-main.pdf https://s3-eu-west-1.amazonaws.com/prod-ucs-content-store-eu-west/content/pii:S2095495622006143/MAIN/application/pdf/317ab545e0d17efc29846e31e033baab/main.pdf main.pdf pdf true 9986257 MAIN 20 1-s2.0-S2095495622006143-main_1.png https://s3-eu-west-1.amazonaws.com/prod-ucs-content-store-eu-west/content/pii:S2095495622006143/PREVIEW/image/png/2c7d605ecbd039c2d35c7979a28c47c2/main_1.png main_1.png png 52090 849 656 IMAGE-WEB-PDF 1 1-s2.0-S2095495622006143-fx1.jpg https://s3-eu-west-1.amazonaws.com/prod-ucs-content-store-eu-west/content/pii:S2095495622006143/fx1/DOWNSAMPLED/image/jpeg/eafa1558f4c1419cc34f25d11b71b40b/fx1.jpg fx1 fx1.jpg jpg 5382 155 111 IMAGE-DOWNSAMPLED 1-s2.0-S2095495622006143-fx2.jpg https://s3-eu-west-1.amazonaws.com/prod-ucs-content-store-eu-west/content/pii:S2095495622006143/fx2/DOWNSAMPLED/image/jpeg/5c8c67f7ac735eaf53dd8cbdab52e0cc/fx2.jpg fx2 fx2.jpg jpg 4670 155 111 IMAGE-DOWNSAMPLED 1-s2.0-S2095495622006143-fx3.jpg https://s3-eu-west-1.amazonaws.com/prod-ucs-content-store-eu-west/content/pii:S2095495622006143/fx3/DOWNSAMPLED/image/jpeg/bc611fcf32698a90f561d086396cd968/fx3.jpg fx3 fx3.jpg jpg 5989 155 111 IMAGE-DOWNSAMPLED 1-s2.0-S2095495622006143-fx4.jpg https://s3-eu-west-1.amazonaws.com/prod-ucs-content-store-eu-west/content/pii:S2095495622006143/fx4/DOWNSAMPLED/image/jpeg/40d85f0944a647636d310d46da89666e/fx4.jpg fx4 fx4.jpg jpg 5906 155 111 IMAGE-DOWNSAMPLED 1-s2.0-S2095495622006143-ga1.jpg https://s3-eu-west-1.amazonaws.com/prod-ucs-content-store-eu-west/content/pii:S2095495622006143/ga1/DOWNSAMPLED/image/jpeg/14e64ff488ee31e72a5894be96326282/ga1.jpg ga1 true ga1.jpg jpg 28230 245 245 IMAGE-DOWNSAMPLED 1-s2.0-S2095495622006143-gr1.jpg https://s3-eu-west-1.amazonaws.com/prod-ucs-content-store-eu-west/content/pii:S2095495622006143/gr1/DOWNSAMPLED/image/jpeg/78e6047a2f01a10832abad411a1ae17a/gr1.jpg gr1 gr1.jpg jpg 156671 708 708 IMAGE-DOWNSAMPLED 1-s2.0-S2095495622006143-gr10.jpg https://s3-eu-west-1.amazonaws.com/prod-ucs-content-store-eu-west/content/pii:S2095495622006143/gr10/DOWNSAMPLED/image/jpeg/3d0d9a82af67cb6834f64a9a6b742629/gr10.jpg gr10 gr10.jpg jpg 157669 629 758 IMAGE-DOWNSAMPLED 1-s2.0-S2095495622006143-gr11.jpg https://s3-eu-west-1.amazonaws.com/prod-ucs-content-store-eu-west/content/pii:S2095495622006143/gr11/DOWNSAMPLED/image/jpeg/4d5273cfa23b3a282491ccbf2a5a6499/gr11.jpg gr11 gr11.jpg jpg 154126 549 758 IMAGE-DOWNSAMPLED 1-s2.0-S2095495622006143-gr12.jpg https://s3-eu-west-1.amazonaws.com/prod-ucs-content-store-eu-west/content/pii:S2095495622006143/gr12/HIGHRES/image/jpeg/a52030a152faee6b0031373dd63d1049/gr12.jpg gr12 gr12.jpg jpg 146153 572 657 IMAGE-DOWNSAMPLED 1-s2.0-S2095495622006143-gr13.jpg https://s3-eu-west-1.amazonaws.com/prod-ucs-content-store-eu-west/content/pii:S2095495622006143/gr13/HIGHRES/image/jpeg/77eb07aea465e81ac4b0d91edd7039e6/gr13.jpg gr13 gr13.jpg jpg 180882 691 754 IMAGE-DOWNSAMPLED 1-s2.0-S2095495622006143-gr14.jpg https://s3-eu-west-1.amazonaws.com/prod-ucs-content-store-eu-west/content/pii:S2095495622006143/gr14/DOWNSAMPLED/image/jpeg/5a6d6952299cd3a7d17375a11d6ca0d6/gr14.jpg gr14 gr14.jpg jpg 153436 609 756 IMAGE-DOWNSAMPLED 1-s2.0-S2095495622006143-gr15.jpg https://s3-eu-west-1.amazonaws.com/prod-ucs-content-store-eu-west/content/pii:S2095495622006143/gr15/DOWNSAMPLED/image/jpeg/c01064536cb8dc4432eef7d920d06009/gr15.jpg gr15 gr15.jpg jpg 65351 277 628 IMAGE-DOWNSAMPLED 1-s2.0-S2095495622006143-gr2.jpg https://s3-eu-west-1.amazonaws.com/prod-ucs-content-store-eu-west/content/pii:S2095495622006143/gr2/DOWNSAMPLED/image/jpeg/e70536745129ad5ba49d840e59df2937/gr2.jpg gr2 gr2.jpg jpg 180317 582 759 IMAGE-DOWNSAMPLED 1-s2.0-S2095495622006143-gr3.jpg https://s3-eu-west-1.amazonaws.com/prod-ucs-content-store-eu-west/content/pii:S2095495622006143/gr3/HEAD-TAIL/image/jpeg/51db33aa604c012e3d25ebb8833c7c95/gr3.jpg gr3 gr3.jpg jpg 141389 473 628 IMAGE-DOWNSAMPLED 1-s2.0-S2095495622006143-gr4.jpg https://s3-eu-west-1.amazonaws.com/prod-ucs-content-store-eu-west/content/pii:S2095495622006143/gr4/HEAD-ONLY-JATS/image/jpeg/1d9af036187f5f9368c45fb4c06d96a2/gr4.jpg gr4 gr4.jpg jpg 144621 458 756 IMAGE-DOWNSAMPLED 1-s2.0-S2095495622006143-gr5.jpg https://s3-eu-west-1.amazonaws.com/prod-ucs-content-store-eu-west/content/pii:S2095495622006143/gr5/DOWNSAMPLED/image/jpeg/b00047282e532307714b0573676ef82a/gr5.jpg gr5 gr5.jpg jpg 66017 385 535 IMAGE-DOWNSAMPLED 1-s2.0-S2095495622006143-gr6.jpg https://s3-eu-west-1.amazonaws.com/prod-ucs-content-store-eu-west/content/pii:S2095495622006143/gr6/DOWNSAMPLED/image/jpeg/aacd7f71f5a1ce171222595c5871f252/gr6.jpg gr6 gr6.jpg jpg 141148 623 754 IMAGE-DOWNSAMPLED 1-s2.0-S2095495622006143-gr7.jpg https://s3-eu-west-1.amazonaws.com/prod-ucs-content-store-eu-west/content/pii:S2095495622006143/gr7/DOWNSAMPLED/image/jpeg/296dc956f7e10e181b19e193532a040f/gr7.jpg gr7 gr7.jpg jpg 184635 543 751 IMAGE-DOWNSAMPLED 1-s2.0-S2095495622006143-gr8.jpg https://s3-eu-west-1.amazonaws.com/prod-ucs-content-store-eu-west/content/pii:S2095495622006143/gr8/DOWNSAMPLED/image/jpeg/80117a8639965ae63909c4ba6618d1ce/gr8.jpg gr8 gr8.jpg jpg 182721 611 753 IMAGE-DOWNSAMPLED 1-s2.0-S2095495622006143-gr9.jpg https://s3-eu-west-1.amazonaws.com/prod-ucs-content-store-eu-west/content/pii:S2095495622006143/gr9/DOWNSAMPLED/image/jpeg/688b4409ab52b3717b8209343106782a/gr9.jpg gr9 gr9.jpg jpg 136660 502 628 IMAGE-DOWNSAMPLED 1-s2.0-S2095495622006143-fx1.sml https://s3-eu-west-1.amazonaws.com/prod-ucs-content-store-eu-west/content/pii:S2095495622006143/fx1/THUMBNAIL/image/gif/6f2ccb3b01afa231ebf7d19432d9ad5f/fx1.sml fx1 fx1.sml sml 10736 164 117 IMAGE-THUMBNAIL 1-s2.0-S2095495622006143-fx2.sml https://s3-eu-west-1.amazonaws.com/prod-ucs-content-store-eu-west/content/pii:S2095495622006143/fx2/HIGHRES/image/gif/24d65e9ddbf3cffb4af437be7a36cb2e/fx2.sml fx2 fx2.sml sml 13825 164 117 IMAGE-THUMBNAIL 1-s2.0-S2095495622006143-fx3.sml https://s3-eu-west-1.amazonaws.com/prod-ucs-content-store-eu-west/content/pii:S2095495622006143/fx3/THUMBNAIL/image/gif/37589fbce1c12ed487a03344280de052/fx3.sml fx3 fx3.sml sml 12717 164 117 IMAGE-THUMBNAIL 1-s2.0-S2095495622006143-fx4.sml https://s3-eu-west-1.amazonaws.com/prod-ucs-content-store-eu-west/content/pii:S2095495622006143/fx4/THUMBNAIL/image/gif/09ad2430325dad0620e4b26a51e23d68/fx4.sml fx4 fx4.sml sml 12669 164 117 IMAGE-THUMBNAIL 1-s2.0-S2095495622006143-ga1.sml https://s3-eu-west-1.amazonaws.com/prod-ucs-content-store-eu-west/content/pii:S2095495622006143/ga1/THUMBNAIL/image/gif/f8c4398c982d265a7e205cda8096d870/ga1.sml ga1 true ga1.sml sml 17718 164 164 IMAGE-THUMBNAIL 1-s2.0-S2095495622006143-gr1.sml https://s3-eu-west-1.amazonaws.com/prod-ucs-content-store-eu-west/content/pii:S2095495622006143/gr1/HIGHRES/image/gif/542fd7fc72159c6f69782618722f9374/gr1.sml gr1 gr1.sml sml 17538 164 164 IMAGE-THUMBNAIL 1-s2.0-S2095495622006143-gr10.sml https://s3-eu-west-1.amazonaws.com/prod-ucs-content-store-eu-west/content/pii:S2095495622006143/gr10/THUMBNAIL/image/gif/4c1a9cecb9212b62971ecb1d2606a349/gr10.sml gr10 gr10.sml sml 18532 163 197 IMAGE-THUMBNAIL 1-s2.0-S2095495622006143-gr11.sml https://s3-eu-west-1.amazonaws.com/prod-ucs-content-store-eu-west/content/pii:S2095495622006143/gr11/THUMBNAIL/image/gif/add8e0931e2937e25231cc53314fc195/gr11.sml gr11 gr11.sml sml 21439 159 219 IMAGE-THUMBNAIL 1-s2.0-S2095495622006143-gr12.sml https://s3-eu-west-1.amazonaws.com/prod-ucs-content-store-eu-west/content/pii:S2095495622006143/gr12/THUMBNAIL/image/gif/b3ed5a4052248fb708024b2d036669b1/gr12.sml gr12 gr12.sml sml 17848 164 188 IMAGE-THUMBNAIL 1-s2.0-S2095495622006143-gr13.sml https://s3-eu-west-1.amazonaws.com/prod-ucs-content-store-eu-west/content/pii:S2095495622006143/gr13/THUMBNAIL/image/gif/c6fb6ab6ec36aad7112392c32ec4d93f/gr13.sml gr13 gr13.sml sml 15793 164 179 IMAGE-THUMBNAIL 1-s2.0-S2095495622006143-gr14.sml https://s3-eu-west-1.amazonaws.com/prod-ucs-content-store-eu-west/content/pii:S2095495622006143/gr14/THUMBNAIL/image/gif/d7439e6b2f77cf95ea2036b324fa2d18/gr14.sml gr14 gr14.sml sml 18844 163 203 IMAGE-THUMBNAIL 1-s2.0-S2095495622006143-gr15.sml https://s3-eu-west-1.amazonaws.com/prod-ucs-content-store-eu-west/content/pii:S2095495622006143/gr15/THUMBNAIL/image/gif/efc09c80107a21c65f27d6b41a164a78/gr15.sml gr15 gr15.sml sml 9161 97 219 IMAGE-THUMBNAIL 1-s2.0-S2095495622006143-gr2.sml https://s3-eu-west-1.amazonaws.com/prod-ucs-content-store-eu-west/content/pii:S2095495622006143/gr2/THUMBNAIL/image/gif/f13bc2e0d27ce08096863af50cb630fb/gr2.sml gr2 gr2.sml sml 21445 164 214 IMAGE-THUMBNAIL 1-s2.0-S2095495622006143-gr3.sml https://s3-eu-west-1.amazonaws.com/prod-ucs-content-store-eu-west/content/pii:S2095495622006143/gr3/THUMBNAIL/image/gif/d74dad2d26f77cff3c658bd1ee295041/gr3.sml gr3 gr3.sml sml 21390 164 217 IMAGE-THUMBNAIL 1-s2.0-S2095495622006143-gr4.sml https://s3-eu-west-1.amazonaws.com/prod-ucs-content-store-eu-west/content/pii:S2095495622006143/gr4/THUMBNAIL/image/gif/e097c80779170bd302852a2104c9fd28/gr4.sml gr4 gr4.sml sml 20691 133 219 IMAGE-THUMBNAIL 1-s2.0-S2095495622006143-gr5.sml https://s3-eu-west-1.amazonaws.com/prod-ucs-content-store-eu-west/content/pii:S2095495622006143/gr5/THUMBNAIL/image/gif/0cd101ad5b7ae529d6de6ab7134daaa1/gr5.sml gr5 gr5.sml sml 11860 158 219 IMAGE-THUMBNAIL 1-s2.0-S2095495622006143-gr6.sml https://s3-eu-west-1.amazonaws.com/prod-ucs-content-store-eu-west/content/pii:S2095495622006143/gr6/THUMBNAIL/image/gif/8812c88faa7b04d4896f408282190da2/gr6.sml gr6 gr6.sml sml 12988 164 198 IMAGE-THUMBNAIL 1-s2.0-S2095495622006143-gr7.sml https://s3-eu-west-1.amazonaws.com/prod-ucs-content-store-eu-west/content/pii:S2095495622006143/gr7/THUMBNAIL/image/gif/a864237b3a7069433fcd5f1d08b05851/gr7.sml gr7 gr7.sml sml 21354 158 219 IMAGE-THUMBNAIL 1-s2.0-S2095495622006143-gr8.sml https://s3-eu-west-1.amazonaws.com/prod-ucs-content-store-eu-west/content/pii:S2095495622006143/gr8/THUMBNAIL/image/gif/da6507a79f3ebfc578e76db292de8895/gr8.sml gr8 gr8.sml sml 20083 164 202 IMAGE-THUMBNAIL 1-s2.0-S2095495622006143-gr9.sml https://s3-eu-west-1.amazonaws.com/prod-ucs-content-store-eu-west/content/pii:S2095495622006143/gr9/THUMBNAIL/image/gif/9289d92b73d458c8ca947329c5cc5191/gr9.sml gr9 gr9.sml sml 21634 164 205 IMAGE-THUMBNAIL 1-s2.0-S2095495622006143-fx1_lrg.jpg https://s3-eu-west-1.amazonaws.com/prod-ucs-content-store-eu-west/content/pii:S2095495622006143/THUMBNAIL/image/jpeg/5a6d522b57e609090be718d4b067797f/fx1_lrg.jpg fx1 fx1_lrg.jpg jpg 34778 689 492 IMAGE-HIGH-RES 1-s2.0-S2095495622006143-fx2_lrg.jpg https://s3-eu-west-1.amazonaws.com/prod-ucs-content-store-eu-west/content/pii:S2095495622006143/HIGHRES/image/jpeg/fd852584b4574af23609ee9e56215d30/fx2_lrg.jpg fx2 fx2_lrg.jpg jpg 27661 689 492 IMAGE-HIGH-RES 1-s2.0-S2095495622006143-fx3_lrg.jpg https://s3-eu-west-1.amazonaws.com/prod-ucs-content-store-eu-west/content/pii:S2095495622006143/HIGHRES/image/jpeg/9226952ce2b566037e8d2513d2314ec5/fx3_lrg.jpg fx3 fx3_lrg.jpg jpg 37569 689 492 IMAGE-HIGH-RES 1-s2.0-S2095495622006143-fx4_lrg.jpg https://s3-eu-west-1.amazonaws.com/prod-ucs-content-store-eu-west/content/pii:S2095495622006143/HIGHRES/image/jpeg/fe691f847d676bd2beb8682b2ecd80fd/fx4_lrg.jpg fx4 fx4_lrg.jpg jpg 45578 689 492 IMAGE-HIGH-RES 1-s2.0-S2095495622006143-ga1_lrg.jpg https://s3-eu-west-1.amazonaws.com/prod-ucs-content-store-eu-west/content/pii:S2095495622006143/HIGHRES/image/jpeg/5c7b0a61d40c0322d919e20172847cba/ga1_lrg.jpg ga1 true ga1_lrg.jpg jpg 188739 1085 1085 IMAGE-HIGH-RES 1-s2.0-S2095495622006143-gr1_lrg.jpg https://s3-eu-west-1.amazonaws.com/prod-ucs-content-store-eu-west/content/pii:S2095495622006143/MAIN/image/jpeg/222df8f268d8953775b8e61cc1a1a59e/gr1_lrg.jpg gr1 gr1_lrg.jpg jpg 943285 3139 3137 IMAGE-HIGH-RES 1-s2.0-S2095495622006143-gr10_lrg.jpg https://s3-eu-west-1.amazonaws.com/prod-ucs-content-store-eu-west/content/pii:S2095495622006143/DOWNSAMPLED/image/jpeg/554f79b86d0dc9449584a70212dee816/gr10_lrg.jpg gr10 gr10_lrg.jpg jpg 898278 2783 3354 IMAGE-HIGH-RES 1-s2.0-S2095495622006143-gr11_lrg.jpg https://s3-eu-west-1.amazonaws.com/prod-ucs-content-store-eu-west/content/pii:S2095495622006143/HIGHRES/image/jpeg/f789ceb50cd5147f991f6f87eb1bec6f/gr11_lrg.jpg gr11 gr11_lrg.jpg jpg 864440 2431 3354 IMAGE-HIGH-RES 1-s2.0-S2095495622006143-gr12_lrg.jpg https://s3-eu-west-1.amazonaws.com/prod-ucs-content-store-eu-west/content/pii:S2095495622006143/HIGHRES/image/jpeg/468a997724fa0d09fb88b259b3608b3b/gr12_lrg.jpg gr12 gr12_lrg.jpg jpg 766268 2531 2908 IMAGE-HIGH-RES 1-s2.0-S2095495622006143-gr13_lrg.jpg https://s3-eu-west-1.amazonaws.com/prod-ucs-content-store-eu-west/content/pii:S2095495622006143/HIGHRES/image/jpeg/9639d364f2f9113e0f410a8ee2a58b6f/gr13_lrg.jpg gr13 gr13_lrg.jpg jpg 968192 3063 3340 IMAGE-HIGH-RES 1-s2.0-S2095495622006143-gr14_lrg.jpg https://s3-eu-west-1.amazonaws.com/prod-ucs-content-store-eu-west/content/pii:S2095495622006143/HIGHRES/image/jpeg/26cdcd749f80e50e82335c6a5232eedd/gr14_lrg.jpg gr14 gr14_lrg.jpg jpg 888826 2696 3348 IMAGE-HIGH-RES 1-s2.0-S2095495622006143-gr15_lrg.jpg https://s3-eu-west-1.amazonaws.com/prod-ucs-content-store-eu-west/content/pii:S2095495622006143/HIGHRES/image/jpeg/c32671bfb0fd30f12ce87d18f465eb00/gr15_lrg.jpg gr15 gr15_lrg.jpg jpg 352765 1228 2782 IMAGE-HIGH-RES 1-s2.0-S2095495622006143-gr2_lrg.jpg https://s3-eu-west-1.amazonaws.com/prod-ucs-content-store-eu-west/content/pii:S2095495622006143/HEAD-TAIL/image/jpeg/159bf5ffdc498abbc968a416919cefef/gr2_lrg.jpg gr2 gr2_lrg.jpg jpg 1038016 2579 3362 IMAGE-HIGH-RES 1-s2.0-S2095495622006143-gr3_lrg.jpg https://s3-eu-west-1.amazonaws.com/prod-ucs-content-store-eu-west/content/pii:S2095495622006143/MAIN/image/jpeg/c68d72a99679b6b5ec9fb4de52feab91/gr3_lrg.jpg gr3 gr3_lrg.jpg jpg 808757 2097 2782 IMAGE-HIGH-RES 1-s2.0-S2095495622006143-gr4_lrg.jpg https://s3-eu-west-1.amazonaws.com/prod-ucs-content-store-eu-west/content/pii:S2095495622006143/HIGHRES/image/jpeg/6c1b7ef7c76ce6841dbc250554507996/gr4_lrg.jpg gr4 gr4_lrg.jpg jpg 978003 2029 3348 IMAGE-HIGH-RES 1-s2.0-S2095495622006143-gr5_lrg.jpg https://s3-eu-west-1.amazonaws.com/prod-ucs-content-store-eu-west/content/pii:S2095495622006143/HIGHRES/image/jpeg/e505f587f8aca064dcbb5eee50d3f181/gr5_lrg.jpg gr5 gr5_lrg.jpg jpg 367211 1706 2368 IMAGE-HIGH-RES 1-s2.0-S2095495622006143-gr6_lrg.jpg https://s3-eu-west-1.amazonaws.com/prod-ucs-content-store-eu-west/content/pii:S2095495622006143/DOWNSAMPLED/image/jpeg/5b10e0065b217818e2f5ec78bbddd064/gr6_lrg.jpg gr6 gr6_lrg.jpg jpg 784773 2760 3340 IMAGE-HIGH-RES 1-s2.0-S2095495622006143-gr7_lrg.jpg https://s3-eu-west-1.amazonaws.com/prod-ucs-content-store-eu-west/content/pii:S2095495622006143/HEAD-ONLY-JATS/image/jpeg/f8acf93453e22cb67fcd84b19b9dcad4/gr7_lrg.jpg gr7 gr7_lrg.jpg jpg 1042017 2406 3325 IMAGE-HIGH-RES 1-s2.0-S2095495622006143-gr8_lrg.jpg https://s3-eu-west-1.amazonaws.com/prod-ucs-content-store-eu-west/content/pii:S2095495622006143/HIGHRES/image/jpeg/c114df27ef88e7d74b565e817501e23b/gr8_lrg.jpg gr8 gr8_lrg.jpg jpg 1035481 2707 3336 IMAGE-HIGH-RES 1-s2.0-S2095495622006143-gr9_lrg.jpg https://s3-eu-west-1.amazonaws.com/prod-ucs-content-store-eu-west/content/pii:S2095495622006143/HIGHRES/image/jpeg/3100b01788071ee3a38746a31e08d8b0/gr9_lrg.jpg gr9 gr9_lrg.jpg jpg 865592 2226 2782 IMAGE-HIGH-RES 1-s2.0-S2095495622006143-mmc1.docx https://s3-eu-west-1.amazonaws.com/prod-ucs-content-store-eu-west/content/pii:S2095495622006143/mmc1/MAIN/application/vnd.openxmlformats-officedocument.wordprocessingml.document/fbd89063b4278751a68dc2477227052b/mmc1.docx mmc1 mmc1.docx docx 53057 APPLICATION 1-s2.0-S2095495622006143-si1.svg https://s3-eu-west-1.amazonaws.com/prod-ucs-content-store-eu-west/content/pii:S2095495622006143/STRIPIN/image/svg+xml/4e0333aaf40c08de701735446ce33096/si1.svg si1 si1.svg svg 10096 ALTIMG 1-s2.0-S2095495622006143-si2.svg https://s3-eu-west-1.amazonaws.com/prod-ucs-content-store-eu-west/content/pii:S2095495622006143/STRIPIN/image/svg+xml/8d6c15b7f6f978c8a82549cd07b3a161/si2.svg si2 si2.svg svg 19911 ALTIMG 1-s2.0-S2095495622006143-si3.svg https://s3-eu-west-1.amazonaws.com/prod-ucs-content-store-eu-west/content/pii:S2095495622006143/STRIPIN/image/svg+xml/18c9f73115346cbb973860b55ac282a6/si3.svg si3 si3.svg svg 21337 ALTIMG 1-s2.0-S2095495622006143-si4.svg https://s3-eu-west-1.amazonaws.com/prod-ucs-content-store-eu-west/content/pii:S2095495622006143/STRIPIN/image/svg+xml/c948aaa152967653936ae3a1d3c1b0b6/si4.svg si4 si4.svg svg 16493 ALTIMG 1-s2.0-S2095495622006143-si5.svg https://s3-eu-west-1.amazonaws.com/prod-ucs-content-store-eu-west/content/pii:S2095495622006143/STRIPIN/image/svg+xml/864ae679748b688ddf66162d571eec60/si5.svg si5 si5.svg svg 12258 ALTIMG 1-s2.0-S2095495622006143-si6.svg https://s3-eu-west-1.amazonaws.com/prod-ucs-content-store-eu-west/content/pii:S2095495622006143/STRIPIN/image/svg+xml/062853d32113e8f16eee8032637b2f1f/si6.svg si6 si6.svg svg 16940 ALTIMG 1-s2.0-S2095495622006143-am.pdf am am.pdf pdf 3220702 AAM-PDF https://s3-eu-west-1.amazonaws.com/prod-ucs-content-store-eu-west/content/egi:10PHR6WVC9T/MAIN/application/pdf/6c30fbdf42e6c3672f2f9fec01207228/am.pdf JECHEM 2847 S2095-4956(22)00614-3 10.1016/j.jechem.2022.11.017 Science Press and Dalian Institute of Chemical Physics, Chinese Academy of Sciences Fig. 1 Schematic illustration of the key aspects of lithium nitrate regulated carbonate electrolyte for practical Li-metal batteries in this review. Fig. 2 (a–e) Participating in Li+-solvated structure: (a) Comparison of DN values of different solvents and NO3 − to Li+; (b) Raman spectra of the pure FEC and DME, 0.4 M LiPF6-DME, 0.5 M LiPF6 + 0.65 M LiNO3-DME, FD, and FDN electrolytes; (c) Snapshots obtained by MD simulation at 298 K and Li+ primary coordinated shells (within 2.75 Å of Li+) by ball and stick models, and calculated radial distribution functions (g(r), solid lines) and coordination numbers (n(r)), dash lines) for BE and BE-FEC-SL/LiNO3; (d) Binding energies of Li+ in typical solvation shells from MD of BE-FEC-SL/LiNO3; (e) 2D schematics of Li+-solvated structure in FD and FDN electrolytes; (f–h) Tailoring the EDL: (f) Schematics of the EDL principle (g) Schematics of a grim competitive journey of solvated Li+ from bulk electrolyte to LMA (IHP/OHP stands for inner/outer Helmholtz plane); (h) Correlation between the energy barrier of Li+ and specific adsorption in the IHP/OHP. (a) Reproduced with permission from Ref. [63]. Copyright 2020, Wiley-VCH. (c, d) Reproduced with permission from Ref. [81]. Copyright 2021, American Chemical Society. (b, e) Reproduced with permission from Ref. [80]. Copyright 2021, Wiley-VCH. (f) Reproduced with permission from Ref. [82]. Copyright 2020, Wiley-VCH. (g, h) Reproduced with permission from Ref. [83]. Copyright 2019, American Chemical Society. Fig. 3 (a) Schematics of the cell inner configuration and relative HOMO-LUMO energy levels of additives, Li salts, and solvents; (b) HOMO-LUMO energy levels of LiNO3, common carbonate solvents, and Li salts; (c) Electrostatic potential and population analysis of a single electron reduction process of NO3 −; (d) Elemental spectra by XPS of SEI formed in LiNO3-free and LiNO3-containing electrolyte; (e) Schematics of the formed SEI and plated Li morphology; (f) CV curves of lithium-copper (Li-Cu) half cells for LiNO3-free and LiNO3-containing electrolytes between 0 and 3 V at 5 mV s−1; (g) The crater with around 130 nm sputtered by a Ga+ beam and corresponding O, F, N, and NO distributions in the sputtered cross section; (h) HRTEM of the SEI formed in BE-FEC-SL/LiNO3; (i) Structure schematics of the inorganic-rich SEI formed in the LiNO3-containing electrolyte for uniform Li deposition. (d, e, g and i) Reproduced with permission from Ref. [63]. Copyright 2020, Wiley-VCH. (c) Reproduced with permission from Ref. [59]. Copyright 2022, Wiley-VCH. (f) Reproduced with permission from Ref. [65]. Copyright 2022, Wiley-VCH. (h) Reproduced with permission from Ref. [81]. Copyright 2021, American Chemical Society. Fig. 4 (a) SEM images of the Li nucleation morphology at 1 mA cm−2 and 0.1 mA h cm−2 in 1 M LiPF6 EC/DEC electrolyte without/with LiNO3; (b, d) Surface and cross-section morphology of LMA in lithium-lithium (Li-Li) battery after 100 h in FEC/EC/DEC without/with 0.15 M (C2H5)4N+NO3 − (TEAN); (c) Top-view SEM images of Li and PCl5-LiNO3 (PN)-Li anodes after 30 cycles at 1 mA cm−2 and 3 mA h cm−2; (e) Li deposition morphology at different times in FEC/EC/DEC without/with 0.15 M TEAN at 1 mA cm−2; (f) Li deposition microscopy in BE and BE-FEC-SL/LiNO3 to 5 mA h cm−2; (g) AFM images of 1.0 mm × 1.0 mm areas of the surface of LMA and LiNO3-treated LMA. (a) Reproduced with permission from Ref. [94]. Copyright 2018, The Author(s). (b, d and e) Reproduced with permission from Ref. [64]. Copyright 2022, American Chemical Society. (c) Reproduced with permission from Ref. [95]. Copyright 2020, American Chemical Society. (f) Reproduced with permission from Ref. [81]. Copyright 2021, American Chemical Society. (g) Reproduced with permission from Ref. [96]. Copyright 2019, The Royal Society of Chemistry. Fig. 5 (a) Molecular structures of LiNO3 and commonly used Li salts (Inorganic Li salts includeLiPF6, LiBF4, LiAsF6, and LiClO4; organic Li salts include LiFSI, LiTFSI, LiDFOB, and LiBOB); (b) Schematics of the equilibrium between dissociation and recombination. Increasing the solubility of LiNO3 by facilitating the dissociation of LiNO3; equilibrium state between dissociation and recombination; increasing the solubility of LiNO3 by preventing the recombination of Li+ and NO3 −. (b) Reproduced with permission from Ref. [97]. Copyright 2021, American Chemical Society. Fig. 6 (a–c) LiNO3 in single carbonate: (a) Molecular structures and physical parameters of common carbonates; (b) Arrhenius plot of ionic conductivity of LiNO3/EC electrolytes at various concentrations as a function of temperature; (c) ATR-FTIR spectra of LiNO3/EC solutions (0.1–0.7LiNO3 is 0.1–0.7 M LiNO3 in EC); (d) Solubility map for LiNO3 for carbonate electrolytes with/without Lewis acid salt (Al3+). The solid line is the theoretical solubility limit assuming a linear mixing rule for the dielectric constant; (e) The competition of LiNO3 and LiFSI in EC; (f) LiNO3 is insoluble in 1 M LiPF6/EC-DMC; (g) Solubility illustration of LiNO3 in carbonate electrolytes. (b–e, g) Reproduced with permission from Ref. [98]. Copyright 2021, Wiley-VCH. (f) Reproduced with permission from Ref. [81]. Copyright 2021, American Chemical Society. Fig. 7 A brief timeline of the representative work to introduce LiNO3 additive into carbonate electrolytes for practical LMBs. (a) Reproduced with permission from Ref. [94]. Copyright 2018, The Author(s). (b) Reproduced with permission from Ref. [100]. Copyright 2018, Wiley-VCH. (d) Reproduced with permission from Ref. [109]. Copyright 2018, Elsevier. (e) Reproduced with permission from Ref. [110]. Copyright 2019, Elsevier. (f) Reproduced with permission from Ref. [104]. Copyright 2020, Wiley-VCH. (g) Reproduced with permission from Ref. [105]. Copyright 2020, Wiley-VCH. (i) Reproduced with permission from Ref. [95]. Copyright 2019, American Chemical Society. (j) Reproduced with permission from Ref. [101]. Copyright 2019, Wiley-VCH. (k) Reproduced with permission from Ref. [102]. Copyright 2020, Wiley-VCH. (m) Reproduced with permission from Ref. [85]. Copyright 2021, Wiley-VCH. (n) Reproduced with permission from Ref. [107]. Copyright 2021, Elsevier. (o) Reproduced with permission from Ref. [80]. Copyright 2021, Wiley-VCH. (q) Reproduced with permission from Ref. [111]. Copyright 2021, Wiley-VCH. (r) Reproduced with permission from Ref. [63]. Copyright 2020, Wiley-VCH. (w) Reproduced with permission from Ref. [67]. Copyright 2022, Wiley-VCH. (x) Reproduced with permission from Ref. [64]. Copyright 2022, American Chemical Society. (y) Reproduced with permission from Ref. [65]. Copyright 2022, Wiley-VCH. Fig. 8 Solvent carrier strategies. (a) SL: dissolution of LiNO3 in commercial carbonate electrolytes with/without SL carrier; (b) TEGDME: schematics of the effect and electrochemical performance of the LiPF6 and dual-salt electrolytes on the deposition of LMA; (c) TMU: Li+-solvated structures in 1 M LiPF6 EC/EMC + 2 wt% FEC electrolyte (CCE) without/with TMU/LiNO3; (d) DMSO: Li+-solvated structure with NO3 − involved; (e) Py: schematics of the Li+-solvated structure in commercial carbonate and LiNO3 modified carbonate electrolytes; (f) VC: SEM images of LMA without/with VC/LiNO3 after 20 cycles; (g) TGM: LUMO-HOMO of solvents/solutes; (h) tmCyclam: molecular structure of the Li(tmCyclam)NO3 molecule and schematics of the cascading improvement by LiNO3/tmCyclam addition. (a) Reproduced with permission from Ref. [81]. Copyright 2021, American Chemical Society. (b) Reproduced with permission from Ref. [99]. Copyright 2021, American Chemical Society. (c) Reproduced with permission from Ref. [65]. Copyright 2022, Wiley-VCH. (d) Reproduced with permission from Ref. [63]. Copyright 2020, Wiley-VCH. (e) Reproduced with permission from Ref. [112]. Copyright 2021, The Royal Society of Chemistry. (f) Reproduced with permission from Ref. [49]. Copyright 2014, Elsevier. (g) Reproduced with permission from Ref. [113]. Copyright 2022, Wiley-VCH. (h) Reproduced with permission from Ref. [114]. Copyright 2022, American Chemical Society. Fig. 9 Co-solvent reservoir strategies. (a) EGD: photographs of EC + LiNO3 + DMC/EDG solutions with different LiNO3 concentrations after 6 months; (b) TEP: N 1s spectra of the plated LMA after the 1st cycle; (c) VC: linear sweep voltammetry (LSV) of Li deposition on LMA; (d) GBL: Li plating morphology on Cu in the electrolyte with/without LiNO3 at 0.1 mA cm−2 and 1 mA h cm−2; (e) TMP: schematics for Li growth and impact of ionic conductivity in carbonates with/without TMP/LiNO3; (f) TEGDME: schematics of the SEI formed in the EC/DMC and LiNO3-containing electrolyte; (g) 30 v% DME: schematics of the Li+-slovated sheath and the SEI formed in the FEC/LiNO3 and EC/DEC electrolytes; (h) 70 v% DME: schematics of the Li+-solvated structure in FD and FDN electrolytes. (a) Reproduced with permission from Ref. [97]. Copyright 2021, American Chemical Society. (b) Reproduced with permission from Ref. [116]. Copyright 2019, The Author(s). (c) Reproduced with permission from Ref. [115]. Copyright 2019, American Chemical Society. (d) Reproduced with permission from Ref. [101]. Copyright 2019, Wiley-VCH. (e) Reproduced with permission from Ref. [103]. Copyright 2022, Wiley-VCH. (f) Reproduced with permission from Ref. [102]. Copyright 2020, Wiley-VCH. (g) Reproduced with permission from Ref. [100]. Copyright 2018, Wiley-VCH. (h) Reproduced with permission from Ref. [80]. Copyright 2021, Wiley-VCH. Fig. 10 Lewis acid regulation strategies. (a) Solubilization mechanism of Lewis acid; (b–g) Ionic Lewis acid: (b) Al3+: effect of Lewis acid on the solubility of LiNO3; (c) Cu2+: optical images of electrolytes with different components; (d) Sn2+: schematics of the solvated sheath in Sn2 +-mediated carbonate electrolyte; (e) In3+: schematics of the wavy SEI formation mechanism in In3 + solubilized LiNO3-containing electrolyte; (f) Ag+: schematics of the Li nucleation and growth process on LMA and uniform Ag-Li alloy layer; (g) Mg2+/Zn2+: schematics of the role of multivalence ion in the SEI formation on LMA in the Mg2+/LiNO3-containing electrolyte; (h, i) Group Lewis acid: (h) TPFPB/TPFPP: digital images of electrolytes with either a single or dual additives and schematics of SEI/CEI formation in 1 M LiPF6-FEC/EMC (ADV) electrolyte; (i) LiBF4: schematics of the SEI/CEI formation in the LiBF4-LiNO3 dual-additive electrolyte. (a, b) Reproduced with permission from Ref. [98]. Copyright 2021, Wiley-VCH. (c) Reproduced with permission from Ref. [52]. Copyright 2018, Wiley-VCH. (d) Reproduced with permission from Ref. [104]. Copyright 2020, Wiley-VCH. (e) Reproduced with permission from Ref. [106]. Copyright 2020, Wiley-VCH. (f) Reproduced with permission from Ref. [117]. Copyright 2020, The Royal Society of Chemistry. (g) Reproduced with permission from Ref. [67]. Copyright 2022, Wiley-VCH. (h) Reproduced with permission from Ref. [105]. Copyright 2020, Wiley-VCH. (i) Reproduced with permission from Ref. [107]. Copyright 2021, Elsevier. Fig. 11 Intrinsic cation design strategies. (a) Organic macrocation: molecular formulas and binding energies of LiNO3, TMAN, TEAN, TBAN, and Li deposition process with TBAN; (b–f) Inorganic macrocation: (b, c) univalent macrocation: (b) K+: schematics of Li deposition process with/without KNO3; (c) K+/Cs+/Rb+: optical images of the 0.1 M KNO3/CsNO3/RbNO3 electrolyte without/with 0.1 M 18-crown-6; (d–f) multivalent macrocation: (d) Mg2+: schematics of the Li+-solvated structure of the electrolyte without (baseline)/with 0.05 M and 0.1 M Mg(NO3)2; (e) Cu2+: SEM image of the SEI formed by the electrolyte with Cu(NO3)2; (f) In3+: schematics of the Li+-solvated structure of the electrolyte with In(NO3)3. (a) Reproduced with permission from Ref. [64]. Copyright 2022, American Chemical Society. (b) Reproduced with permission from Ref. [118]. Copyright 2019, Elsevier. (c) Reproduced with permission from Ref. [119]. Copyright 2021, Wiley-VCH. (d) Reproduced with permission from Ref. [56]. Copyright 2020, Wiley-VCH. (e) Reproduced with permission from Ref. [108]. Copyright 2021, Elsevier. (f) Reproduced with permission from Ref. [120]. Copyright 2022, Science Press and Dalian Institute of Chemical Physics. Fig. 12 Intrinsic carrier strategies. (a–c) Modified separator as LiNO3 carrier: (a) PP carrier: schematics of the fabrication process and the mechanism of the biscuit-like PP/LiNO3/PP separator; (b) GF carrier: schematics of the SEI formation and evolution over continuous Li deposition/dissolution and the effects of LiNO3/FEC additives; (c) GPE carrier: schematics of the Li deposition on LMA using GPE with/without LiNO3; (d–g) Modified current collector as LiNO3 carrier: (d) Cu@C carrier: schematics of the preparation of 3D composite host and Li plating/stripping process; (e) CNF-PAN carrier: schematics of Li deposition behavior on LiNO3-containing CNF-PAN carrier; (f) BPEI-Ag carrier: schematics of the synthesis of BPEI-Ag/LiNO3 particles in solution; (g) EI-CuCM carrier: schematics of the one-step fabrication process and working principle of zeroVE-Li. (a) Reproduced with permission from Ref. [110]. Copyright 2019, Elsevier. (b) Reproduced with permission from Ref. [122]. Copyright 2019, American Chemical Society. (c) Reproduced with permission from Ref. [123]. Copyright 2019, American Chemical Society. (d) Reproduced with permission from Ref. [109]. Copyright 2018, Elsevier. (e) Reproduced with permission from Ref. [124]. Copyright 2022, Elsevier. (f) Reproduced with permission from Ref. [126]. Copyright 2022, Wiley-VCH. (g) Reproduced with permission from Ref. [125]. Copyright 2022, Wiley-VCH. Fig. 13 Exogenous LiNO3 carrier strategies. (a) S2VP micelle carrier: schematics of the effect of S2VP/LiNO3 micelle layer on stabilizing Li plating; (b) PVDF-HFP carrier: schematics of the fabrication and working principle of LiNO3 sustained-release film (LNO-SRF); (c) COF carrier: schematics of the improved electrochemical performance with LiNO3-containing COF film; (d) PVC carrier: preparation of the LiNO3-PVC interlayer and the activation energy of crystalline/dissociated LiNO3; (e) SSM carrier: schematics of the fabrication of the LiNO3-rich layer and the corresponding LiNO3-rich LMA; (f) MOF carrier: schematics of LiNO3 encapsulated into MOF-808 and its sustained release in electrolyte. (a) Reproduced with permission from Ref. [127]. Copyright 2021, Elsevier. (b) Reproduced with permission from Ref. [94]. Copyright 2018, The Author(s). (c) Reproduced with permission from Ref. [111]. Copyright 2021, Wiley-VCH. (d) Reproduced with permission from Ref. [128]. Copyright 2022, Wiley-VCH. (e) Reproduced with permission from Ref. [129]. Copyright 2020, Wiley-VCH. (f) Reproduced with permission from Ref. [130]. Copyright 2020, The Author(s). Fig. 14 Pre-reaction strategies. (a–c) Pre-immersion reaction strategies: (a) LMA pre-immersion reaction in PN DME solution: schematics of formation of PN interface on LMA and digital images of Li surface before/after treating by LiNO3, PCl5, and PN-containing DME solution; (b) LMA pre-immersion reaction in LiNO3-containing DEGDME solution: AFM images of 1.0 × 1.0 μm2 areas of the surface of cycled bare LMA and cycled LiNO3-treated LMA after 10 cycles at 0.18 mA cm−2; (c) Li on stainless steel without/with Mn(NO3)2 pre-immersion reaction for 1 min; (d, e) Pre-embedding reaction strategy: (d) LiNO3 in Li: schematics of the fabrication of Li/LiNO3 (LLNO) composite; (e) KNO3 in Li: schematics for dissolution process of KNO3 from Li/KNO3 (LKNO) electrode to electrolyte and effect of KNO3 on cycling. (a) Reproduced with permission from Ref. [95]. Copyright 2019, American Chemical Society. (b) Rreproduced with permission from Ref. [96]. Copyright 2019, The Royal Society of Chemistry. (c) Reproduced with permission from Ref. [131]. Copyright 2018, The Royal Society of Chemistry. (d) Reproduced with permission from Ref. [85]. Copyright 2021, Wiley-VCH. (e) Reproduced with permission from Ref. [132]. Copyright 2022, The Authors. Fig. 15 Radar plots of the physical and electrochemical performance of (a–e) chemical solubilization: (a) solvent carrier, (b) co-solvent reservoir, (c) Lewis acid regulation, (d) intrinsic cation design, (e) single cyclic carbonate; (f, g) physical release: (f) intrinsic carrier, (g) exogenous carrier; (h, i) pre-reaction: (h) pre-immersion reaction, (i) pre-embedding reaction. The introduction ability, pracitcality, safety, side reaction, energy density, and overpotential are based on statistics from Table S1. Review Lithium nitrate regulated carbonate electrolytes for practical Li-metal batteries: Mechanisms, principles and strategies Kun Wang a b Wenbing Ni a b Liguang Wang a b Lu Gan a b Jing Zhao a b Zhengwei Wan a b Wei Jiang a b Waqar Ahmad a b Miaomiao Tian a b Min Ling a b ⁎ Jun Chen a b ⁎ Chengdu Liang a b ⁎ a Zhejiang Provincial Key Laboratory of Advanced Chemical Engineering Manufacture Technology, College of Chemical and Biological Engineering, Zhejiang University, Hangzhou 310027, Zhejiang, China Zhejiang Provincial Key Laboratory of Advanced Chemical Engineering Manufacture Technology College of Chemical and Biological Engineering Zhejiang University Hangzhou 310027 Zhejiang China Zhejiang Provincial Key Laboratory of Advanced Chemical Engineering Manufacture Technology, College of Chemical and Biological Engineering, Zhejiang University, Hangzhou 310027, Zhejiang, China b Institute of Zhejiang University-Quzhou, Quzhou 324000, Zhejiang, China Institute of Zhejiang University-Quzhou Quzhou 324000 Zhejiang China Institute of Zhejiang University-Quzhou, Quzhou 324000, Zhejiang, China ⁎ Corresponding authors. Graphical abstracts This review unravels the grievances between LMA, LiNO3 and carbonate electrolytes, and enables a comprehensive analysis of LMA stabilizing mechanism with LiNO3, dissolution principle of LiNO3 in carbonate electrolytes, and LiNO3 introduction strategies. This review converges attention on a point that the LiNO3-introduction into commercial carbonate electrolytes is an imperious choice to realize practical LMBs with commercial 4 V layered cathode. Li-metal batteries (LMBs) regain research prominence owing to the ever-increasing high-energy requirements. Commercially available carbonate electrolytes exhibit unfavourable parasitic reactions with Li-metal anode (LMA), leading to the formation of unstable solid electrolyte interphase (SEI) and the breed of Li dendrites/dead Li. Significantly, lithium nitrate (LiNO3), an excellent film-forming additive, proves crucial to construct a robust Li3N/Li2O/Li x NO y -rich SEI after combining with ether-based electrolytes. Thus, the given challenge leads to natural ideas which suggest the incorporation of LiNO3 into commercial carbonate for practical LMBs. Regrettably, LiNO3 demonstrates limited solubility (∼800 ppm) in commercial carbonate electrolytes. Thence, developing stable SEI and dendrite-free LMA with the incorporation of LiNO3 into carbonate electrolytes is an efficacious strategy to realize robust LMBs via a scalable and cost-effective route. Therefore, this review unravels the grievances between LMA, LiNO3 and carbonate electrolytes, and enables a comprehensive analysis of LMA stabilizing mechanism with LiNO3, dissolution principle of LiNO3 in carbonate electrolytes, and LiNO3 introduction strategies. This review converges attention on a point that the LiNO3-introduction into commercial carbonate electrolytes is an imperious choice to realize practical LMBs with commercial 4 V layered cathode. Keywords Li-metal battery Carbonate electrolyte Lithium nitrate Stabilization mechanism Dissolution principle Introduction strategy 1 Introduction and scope Li-ion batteries (LIBs) have gradually dominated the market of portable and consumer electronics owing to competitive commercial advantages over the past 25 years. Unfortunately, in facing the upcoming boom in electric vehicles (EVs), mileage anxiety appears progressively because even the state-of-the-art intercalation-dominated LIBs deliver insufficient specific energy (below 300 Wh kg−1 at the cell level), inaccessible to meet the ever-increasing energy density requirements of electric automotives and achieve the dual-carbon goal [1–3]. Therefore, conversion-based Li-metal batteries (LMBs) have regained tremendous research interest in recent five years. Compared with the upper capacity limitation of graphite anode (372 mA h g−1, calculated as LiC6), Li-metal anode (LMA) exhibits high-energy competitive features including 10-time-graphite theoretical capacity (3860 mA h g−1), low electrochemical potential (−3.04 V vs. the standard hydrogen electrode), and extra-low theoretical density (0.534 g cm−3), considered as the “holy grail” and an imperious candidate for the next-generation battery technology [4–7]. 1.1 Practical Li-metal batteries The gravimetric energy density of a Li-metal full cell depends on the specific capacity and voltage window of the anode and cathode, as depicted by Eq. (1) [8]. (1) E = C c × C a C c + C a × V c - V a Where E represents the energy density, C c/C a and V c/V a represent the specific capacity and potential window of the cathode/anode in Eq. (1), respectively. Lithium-oxygen (Li-O2) batteries and lithium-sulfur (Li-S) batteries based on the bidirectional cathode/anode conversion reaction exhibit promising gravimetric energy density of ∼900 Wh kg−1 and ∼600 Wh kg−1, respectively, due to the ultrahigh specific capacity of O2 cathode and S cathode (1672 mA h g−1) in addition to the advantages of employing LMA [9–12]. However, the intercalation-type cathodes are still the most promising cathodes for practical LMBs, including low-voltage Li4Ti5O12 (LTO), 3-V-class LiFePO4 (LFP) cathodes, 4-V-class LiCoO2 (LCO), LiNi x Co y Mn/Al z O2 (x + y + z = 1) (NCM/NCA), Li-rich Mn-based cathodes, 5-V-class LiCoPO4, and LiNi0.5Mn1.5O4 cathodes [13–19]. Among these cathodes, Li-LTO batteries and Li-LFP batteries fail to exhibit significant energy density improvement toward current Li-based batteries due to the capacity/voltage limitations of cathodes. The 5 V LMBs are subject to the suitable electrolyte for ultrahigh-voltage cathode, and 4 V LMBs effectively achieve higher specific energy while in line with market practicality by replacing graphite with metallic Li [20,21]. When incorporating advanced 4-V-class cathodes, dreamy 500 Wh kg−1 (a new goal set in automotive field) specific-energy LMBs can be realized, which suggests a fossil-fueled-cars-matched ∼800 km driving range on a single charge for an electric vehicle (EV) [8,22]. 1.2 Liquid electrolyte for practical Li-metal batteries In a practical 4 V Li-metal full cell, the rational design of liquid electrolyte needs to take into account both the high-voltage cathode and LMA. Ether-based electrolytes have been widely employed in LMBs for the fine compatibility between ethers and LMA. Nevertheless, the anodic limit of conventional ethers is below 4 V, which is suitable for low-voltage LMBs such as Li-LTO batteries, Li-LFP batteries, and Li-S batteries, yet stopped at high-voltage LMBs. High-concentration ehter electrolytes, localized high-concentration ether electrolytes, and fluorinated ether electrolytes are proposed to extend the anodic potential limitation of ether-based solvents [21,23–27]. However, in consideration of cost-effectiveness and environmental friendliness, large consumption of expensive Li salts and refractory fluorinated ethers is difficult to associate with practical LMBs. New organic solvents and electrolyte systems such as liquefied gas electrolytes, amide-based electrolytes, phosphate-based electrolytes, sulfonate-based electrolytes, and ionic-liquid-based electrolytes are developed to match high-voltage LMBs; however, they have temporarily stayed in the laboratory stage and not been commercialized due to various industrial application issues [28–32]. Carbonate-based electrolytes, closest to practicality among all types of solvents, have been employed in commercial LIBs for over 30 years. Their anodic limit is around 4.3 V due to their unique structures between the lone-pair electrons of ethereal oxygen and π*CO antibonding orbital, which is sufficient for most 4 V cathodes [26,33]. Nevertheless, commercial carbonate electrolytes, which generate stable solid electrolyte interphase (SEI) to passivate graphite anode, are incompatible with LMA and cause interfacial parasitic reactions. These continuous reactions deplete electrolyte components, consume active Li over time, produce gas, lead to the increasing resistance by thickening SEI, and ultimately drive Li to deposit in non-uniform, mossy, low-density, mechanically fragile structures during charging/discharging process, which limit lifetime and compromise the safety of LMBs [34–37]. Therefore, versatile strategies are developed to improve the compatibility between carbonates and LMA including high-concentration carbonate electrolytes, localized high-concentration carbonate electrolytes, fluorinated carbonate electrolytes, new Li salts, and additives [38–43]. Among these efforts, considering cost-effectiveness and environmental friendliness, the intentional finding and designing of the additives of interest to facilitate interfacial stability at the LMA and cathode provide the straightforward pathway to realize practical LMBs, because even ppm-level additive dosage can effectively optimize Li deposition morphology and efficiency under the premise of keeping commercial electrolyte systems unchanged. Additives can be divided into two types according to their functions: Li-deposition-regulation additives and film-forming additives [44]. Li-deposition-regulation additive is to adjust current distribution during depositing process to achieve uniform Li deposition by changing the reactivity of the LMA surface, which contains cesium ion (Cs+), rubidium ion (Rb+), and cetyltrimethylammonium chloride (CTAC) [45,46]. Film-forming additive can participate in the formation of SEI as a reactant to change the composition and structure of SEI and improve the physicochemical properties of SEI, which contains fluoroethylene carbonate (FEC), difluoroethylene carbonate (DFEC), vinylene carbonate (VC), lithium difluorophosphate (LiPO2F2), boric acid (BA), lithium nitrate (LiNO3), lithium fluoride (LiF), tris(trimethylsilyl)borate (TMSB), trace water (H2O), heptafluorobutyric anhydride (HFA), lithium difluorophosphate (LiDFP), and magnesium nitrate (Mg(NO3)2) [47–58]. Among these additives, LiNO3, an inorganic anionic film-forming additive, has been widely proved to construct a robust Li3N/Li2O/Li x NO y -rich SEI to effectively stabilize LMA by dissolving into ether-based electrolyte [59–62]. Unfortunately, numerous researches reveal that LiNO3 has poor solubility (∼800 ppm) in commercial carbonate electrolytes [63–68]. Therefore, the scientific introduction of LiNO3 additives into carbonates to stabilize LMAs in commercial carbonate electrolytes attracts extensive research interest for practical LMBs with 4-V-class cathode. 1.3 Scope of this review To date, there have been several superior reviews on liquid/solid electrolyte design, additives, interface regulation, SEI modification, LMA design, LMA current collectors, LiF additive, Li+-solvated structures in carbonates for LMBs, and even LiNO3 additive for Li batteries and Li-S batteries [20,34,44,69–79]. Unfortunately, a systematic review on regulating LiNO3 solvation chemistry in carbonates and how to introduce LiNO3 additive into carbonates is rarely reported, although the significance of low-cost LiNO3 coupling commercial carbonate electrolytes to stabilize LMA for practical LMBs is widely recognized. As illustrated in Fig. 1 , this review exclusively focuses on the grievances between LMA, LiNO3 and carbonates; a comprehensive analysis of stabilizing LMA mechanism of LiNO3, dissolution principle of LiNO3 in carbonate electrolyte, and LiNO3 introduction strategies is innovatively conducted for the first time; and it is expected that the direct introduction of LiNO3 into commercial carbonate electrolytes facilitates practical LMBs application with commercial 4-V-class cathodes. 2 Mechanisms of LiNO3 to stabilize LMA in carbonate electrolyte 2.1 Participating in Li+-solvated structure The anion of LiNO3 (NO3 −) owns the relatively high electron donating ability. As depicted in Fig. 2 (a), NO3 − exhibits an electron donor number (DN) value of 22 for Li+, which is lagrer than most carbonates such as ethylene carbonate (EC) (16), dimethyl carbonate (DMC) (17), propylene carbonate (PC) (15), and FEC (9) [63]. This means that the addition of NO3 − in the carbonate electrolyte can participate in Li+-solvated structure and squeeze out carbonate molecules in the Li+-solvated shell. This conclusion can be corroborated by Raman spectra and molecular dynamics (MD) simulation. The Raman spectra characterize the Li+ solvation structures of the pure FEC and dimethoxyethane (DME), 0.4 M LiPF6-DME, 0.5 M LiPF6 + 0.65 M LiNO3-DME, FEC-DME (FD), and FEC-DME/LiNO3 (FDN) electrolytes (Fig. 2b). The addition of LiNO3 slightly reduces the value of blueshift of PF6 − in FD electrolyte, resulting from the complete interaction of Li+ between NO3 − and PF6 −, which suggests that NO3 − enters into the solvation sheath of FDN electrolyte and then substitutes part of PF6 − anions [80]. Fig. 2(c) exhibits the snapshots of Li+ primary coordinated shells (within 2.75 Å), calculated radial distribution functions (g(r), solid lines) and coordination numbers (n(r)), dash lines) of the basic electrolyte (BE) and FEC/sulfolane (SL)/LiNO3-containing BE (BE-FEC-SL/LiNO3) [81]. It can be seen that additive-free BE, EC, and DMC molecules occupy the main parts in the first Li+-solvated shell; yet in the electrolyte with the addition of FEC-SL/LiNO3, the coordination numbers of EC and DMC slightly reduce and SL, NO3 −, and FEC appear in the primary Li+-solvated structure. Fig. 2(d) exhibits the binding energies of Li+ in typical solvation shells of BE-FEC-SL/LiNO3, NO3 −-involved solvation structures have lower binding energies, which means NO3 − is more inclined to coordinate with Li+ [81]. Fig. 2(e) exhibits the Li+-solvated structure without/with LiNO3 in FD electrolyte and FDN electrolyte, which intuitively demonstrats the participation of NO3 − in the Li+-solvated structure [80]. The interaction between Li+ and NO3 − greatly decreases the number of carbonate molecules surrounding Li+, which leads to the reduced reduction of solvent molecules during plating process. 2.2 Tailoring the electrical double layer (EDL) In the inner of a cell, Li+ exists in a solvated form in the liquid electrolyte. When a specific potential is employed in the battery system, the solvated Li+ is attracted to the LMA surface to form the EDL structure under the electric field. Noting that the formation of the EDL is earlier than that of SEI. Fig. 2(f) exhibits schematics of the EDL principle, and it demonstrates that only the species in direct coordination with Li+ can be vastly electrostatically brought to LMA surface [82]. That is, NO3 − owns large DN numbers to participate in the Li+-solvated structure, as mentioned in Section 2.1, thus can enter into the EDL. This conclusion is confirmed in Fig. 2(g), in the bulk electrolyte, FSI− appears in the diffusion layer, outer Helmholtz plane (OHP), and inner Helmholtz plane (IHP) [83]. While in the electrolyte with NO3 −, FSI− appears in the diffusion layer and OHP and NO3 − appears in the diffusion layer and IHP, this phenomenon means that the solvated NO3 − tailores the IHP, which plays a crucial role in the formation and chemical composition of SEI. The significant reduction in desolvation energy barrier (E a2) in IHP of NO3 −-containing electrolyte relative to bulk electrolyte is further revealed in Fig. 2(h), which means that NO3 −-containing IHP facilitates Li+ desolvation during plating [83]. Therefore, more efforts in tailoring the primary Li+-solvated structure and IHP are expected to explore the thermodynamics and dynamics of Li+ in the liquid electrolyte for LMBs, which play a foremost role in stabilizing LMA. 2.3 Manipulating inorganic-rich SEI LiNO3 is an excellent inorganic anionic film-forming additive, that is, its key role in stabilizing LMA is to form inorganic-rich SEI. According to Goodenough’s theory, the priority of reductive or oxidative decomposition of electrolyte components depends on the lowest unoccupied molecular orbital (LUMO) and the highest occupied molecular (HOMO) energy levels (Fig. 3 a) [84]. Precisely, the lower the LUMO, the easier to be reduced and the higher the HOMO, the more easily oxidized. In general, it is expected that the LUMO of solvents is higher than that of anode while HOMO lower than that of cathode to guarantee solvents not to be decomposed oxidatively and reductively, while Li salts and additives do it instead. Fig. 3(b) summarizes the HOMO and LUMO energy levels of LiNO3, common carbonates, and Li salts, it can be seen that the LUMO of LiNO3 (−1.53 eV) is similar to that of Li salts including LiPF6 (−2.15 eV), LiTFSI (−2.36 eV), LiBOB (−2.83 eV), and LiBF4 (−1.49 eV) except LiFSI (−0.39 eV), and lower than that of carbonates including EC (−0.60 eV), DMC (−0.37 eV), ethyl methyl carbonate (EMC) (−0.26 eV), diethyl carbonate (DEC) (−0.27 eV), PC (−0.78 eV), and FEC (−0.80 eV). Noting that the formation of SEI strongly depends on the composition of the primary Li+-solvated structure and IHP, that is, it is LiNO3, not other Li salts, to first reductively decompose on the LMA surface to form SEI, which further protects solvents from being decomposed. As for LiNO3, its three O atoms have the same spin population (0.4) and its N atom owns the main negative charge (0.88), which implies that it accepts few electrons to deform and plenty of electrons to break the NO bonds (Fig. 3c) [59]. As a strong oxidant, it is easy enough to react with LMA, and the reduction reaction process can be described by Eqs. (2) and (3) [85]. (2) L i N O 3 + 2 L i → L i N O 2 + L i 2 O Δ H = - 406 k J m o l - 1 (3) L i N O 2 + 6 L i → L i 3 N + 2 L i 2 O Δ H = - 857 k J m o l - 1 From the reaction equations, we can see that eight electrons are needed from LMA to completely decompose LiNO3, and one LiNO3 decomposition can produce two Li2O and one Li3N. In-depth X-ray photoelectron spectroscopy (XPS) (Fig. 3d), time-of-flight secondary ion mass spectroscopy (ToF-SIMS) (Fig. 3g), and high-resolution transmission electron microscope (HRTEM) (Fig. 3h) can be employed to detect the reduction products. Cyclic voltammetry (CV) curves of Li-Cu half cells can auxiliarily verify that the reduction potential of NO3 − is around 1.7 V vs. Li+/Li (Fig. 3f) [63,65,81]. It can be seen LiNO3-containing electrolyte forms smooth and thin inorganic-rich SEI, compared with the fragile and thick SEI formed by the LiNO3-free electrolyte (Fig. 3e) [63]. The inorganic-rich SEI is about 20 nm thickness (Fig. 3h) and mainly composed of Li2O, Li3N, and LiF. The Li2O and Li3N come from the decomposition of LiNO3 and LiF is from FEC in the LiNO3, FEC-containing electrolyte (Fig. 3i) [63,86,87]. Li3N provides high ionic conductivity (10−3 S cm−1) and low electronic conductivity (<10−12 S cm−1); Li2O and LiF exhibit high mechanical strength and interfacial energy, which effectively passivate the LMA and guarantee the fluky transport of Li+ during plating process [88,89]. 2.4 Regulating Li deposition morphology As mentioned above, NO3 − ions participate in the primary Li+-solvated structure, which in turn modulate the IHP in the EDL, resulting in a robust Li2O/Li3N/Li x NO y -rich SEI. Actually, the SEI unambiguously guides different morphologies of Li deposition [90]. In the growth process of Li dendrites, there is a critical thermodynamic radius r aq and a critical kinetic radius r k. (4) r a q = - 2 γ N E Ω z F η + Δ G f Ω (5) r k = - 2 γ N E Ω z F η Where γ NE represents the interfacial energy between Li and electrolyte, Ω is the molar volume of Li, z is the charge number, F is the Faraday constant, η is the overpotential, ΔG f is the conversion free energy per molar volume. The Li can nucleate only after overcoming r aq, and only when a nucleus is larger than r k, the nucleus grows into a crystal, otherwise, gradually disappears [91,92]. Furthermore, the Li-nucleus size is proportional to the reciprocal of the overpotential, and the Li-nucleus density is proportional to the third power of the overpotential [93]. Therefore, the LiNO3 regulating Li deposition mechanism can be drawn by combining the above conclusions. First, the reductive decomposition of LiNO3 generates an uniform Li2O/Li3N-rich SEI with fast Li-ion conduction, which reduces the Li nucleation overpotential. Second, the decreased overpotential leads to a big Li-nucleus size in low density, which means that most Li fails to nucleate owing to the lower radius than r aq. Third, the big-size Li nucleus laterally grow in a low-density status because these bits of Li nucleus exceeds the critical kinetic radius r k. Therefore, the addition of LiNO3 tends to promote dense Li deposition into spherical structures rather than needle-shaped dendrites (Fig. 4 a) [94]. Fig. 4(b–d) exhibits the dense, crack-free, and dendrite-free Li deposition morphology in LiNO3-containing chemical environment after several cycles compared to the counterpart [64,95]. Atomic force microscope (AFM) is employed to observe uniform and smooth Li deposition morphology of LiNO3-treated LMA as well as concave and convex expansion structure in LiNO3-free chemical environment (Fig. 4g) [96]. In-situ optical microscopy clearly shows the continuous growth of Li dendrites and dead Li with the increasing deposition time (Fig. 4e) or deposition capacity (Fig. 4f) in the absence of LiNO3, in stark contrast to the uniform and dense Li deposition with LiNO3 [64,81]. Stable inorganic-rich SEI and dense Li deposition caused by the reduction decomposition of LiNO3 lead to the reduced cell polarization and improved coulombic efficiency, thus the increased electrochemical performance of the cell. 3 Dissolution and insolubility principle of LiNO3 in carbonate electrolytes 3.1 Dissolution principle of LiNO3 additive The dissolution of ionic compounds highly relys on the Gutmann DN of the anion and acceptor number (AN) of the cation, which is related to their binding energy, the dielectric constant, and the DN value of the solvent [64]. In terms of LiNO3, its cation (Li+) has a small size and leads to a high local density of positive charge and the AN value of Li+ is 0.4 kcal mol−1. The anion (NO3 −) is a small anionic structure compared to the complex anionic groups of other Li salts (Fig. 5 a), thus endowing a relatively high negative charge and a high DN value (22 kcal mol−1). These properties of Li+ and NO3 − give LiNO3 a quite high binding energy (−4.63 eV) [64]. As for the dissolution of LiNO3, the strong binding energy of LiNO3 means its great coulombic force between Li+ and NO3 − in solid LiNO3 and limited solubility (∼800 ppm) in carbonate electrolyte. Fig. 5(b) exhibits the schematics of the equilibrium between dissociation and recombination of LiNO3 [97]. The maximum solubility of LiNO3 in the solvent is determined by the dynamic equilibrium between the dissociation (dissolution) of LiNO3 and the recombination (precipitation) of the solvated Li+-NO3 −. Consequently, to promote the dissolution of LiNO3, there are two routes. One is to facilitate the dissociation of LiNO3 by decreasing the dissociation energy, which requires the high dielectric constant and high DN value of solvent to increase LiNO3 ionization; the other is to prevent the Li+-NO3 − recombination by increasing the recombination energy, which requires that the carbonate co-solvent particpates in the Li+-solvated structure and owns functional groups to drive NO3 − away from this Li+-solvated aggregate [97]. 3.2 Insolubility of LiNO3 in single carbonate and commercial linear/cyclic carbonate electrolytes The great coulombic force between Li+ and NO3 − leads to the insolubility of LiNO3 in carbonate electrolyte. From the solvent perspective, the solubility of solvent to LiNO3 depends on the dielectric constant and DN value of the solvent. Fig. 6 (a) exhibits the molecular structures and physical parameters including dielectric constant, DN number, and solubility to LiNO3 of the common carbonates. It can be seen that cyclic carbonates exhibit fine solubility for LiNO3 (e.g. EC: 0.7 M and PC: 0.2 M) compared to linear carbonates (e.g. DMC/PC< 0.1 M) due to the apparently high dielectric constant (e.g. EC: 89.6, PC: 64.9 and DMC: 3.1, DEC: 2.8) under similar DN numbers. Obviously, this conclusion corrects the inherent perception that LiNO3 is completely insoluble in carbonates. However, the ionic conductivity of the LiNO3/EC electrolyte is lower under similar concentrations to other Li salts electrolyte, indicating the less mobility and dissociation of active Li+ in the electrolyte (Fig. 6b) [98]. Attenuated total reflectance fourier transform infrared spectroscopy (ATR-FTIR) can be employed to confirm that the ionization of LiNO3 is promoted at low concentration; it cannot be fully dissociated at high concentration, but exists in the form of Li+/NO3 −/EC solvation sheath (Fig. 6c) [98]. The equilibrium dissociation reaction can be depicted as Eq. (6) [98]. (6) L i ( E C ) x + + N O 3 - ↔ L i + ( N O 3 - ) ( E C ) x - y + y E C Therefore, LiNO3-containing electrolytes solubilized by single cyclic carbonate are often difficult to be directly applied due to its low ionic conductivity. Commercial electrolytes tend to adopt linear carbonates to improve the viscosity/ionic conductivity and lower the melting point of cyclic carbonates, in the case of the latter high dielectric constant. However, even LiNO3 is employed as the sole Li source, DMC as EC co-solvent, the actual solubility of LiNO3 is lower than the theoretical value (Fig. 6d), implying that the addition of DMC affects the dissociation of LiNO3 [98]. Furthermore, even EC is employed as the single solvent, LiFSI and LiNO3 as the shared Li salts, the actual solubility of LiNO3 is also lower than the theoretical value due to LiFSI factor (Fig. 6e) [98]. Thus, it is not difficult to understand that LiNO3 is nearly insoluble in the terminated cyclic/linear mixed carbonate electrolytes (dual Li salts matching dual solvent system) (Fig. 6f) [81]. Therefore, the conclusion can be drawn that in the cyclic/linear carbonate electrolytes, Li salts with complex anions, such as LiFSI and LiPF6, can be effectively dissociated and dissolved in the mixed carbonates; yet, linear carbonate and Li salts occupy cyclic carbonates and prevent cyclic carbonates such as EC and PC to dissolve LiNO3, which creates an illusion that LiNO3 is nearly insoluble (Fig. 6g) [98]. 4 Strategies to introduce LiNO3 additive into carbonate electrolytes Practical LMBs are the development trend in the near/mid-term, carbonate electrolytes have long-term service for LIBs, and LiNO3 is a low-cost but highly effective additive in stabilizing LMA. Thus, coordinating the three points reasonably and developing LiNO3 modified carbonates for practical LMBs evolve into a concerned subject. The key of the subject lies in how to introduce LiNO3 due to the poor solubility of LiNO3 in the commercial cyclic/linear carbonates. Fig. 7 exhibits a brief timeline of the representative work to introduce LiNO3 into carbonate electrolytes for practical LMBs, where three strategies have been developed to address this solubility issue from 2018 to the present. The most popular strategy is chemical solubilization, which overcomes the solubility limitation of LiNO3 in carbonates by manipulating the electrolyte solvation structure or designing suitable cations for NO3 − anion. Five routes including solvent carrier (Fig. 7p, r, s and y), co-solvent reservoir (Fig. 7b, j, k, o, t and z), ionic/group Lewis acid (Fig. 7c, f, g, h, n and w), inorganic/organic cation design (Fig. 7l, v and x), and single carbonate (Fig. 7u) have been developed to chemically solubilize LiNO3 [52,56,63–65,67,80,81,97–108]. Another strategy is physical release, which introduces LiNO3 into the interior of the cell through physical methods and slowly releases and replenishes LiNO3 as the limited LiNO3 is consumed for continuous SEI formation in the electrolyte, such as intrinsic/exogenous carrier (Fig. 7a, d, e and q) [94,109–111]. The last strategy is pre-reaction, which is to achieve the purpose of introducing LiNO3 by reacting LiNO3 with LMA in advance, such as pre-immersion/embedding reaction (Fig. 7i and m) [85,95]. 4.1 Chemical solubilization Chemical solubilization is to overcome the solubility limitation of LiNO3 in carbonates by chemical means, that is, increasing the conversion of insoluble solid LiNO3 in carbonates into soluble NO3 − and Li+. There are several feasible means can be implemented. The first route is to seek a polar solvent that dissolves LiNO3 massively as a carrier and add both into carbonates. The second route is to find carbonate co-solvent, which can just be used as a reservoir for LiNO3 in the mixed electrolyte. The third route is to seek Lewis acid to tune the solvation structure and liberate cyclic carbonates to solubilize LiNO3. The fourth route is to design large cations around NO3 − to weaken the huge coulombic force between NO3 − anion and cation to achieve solubilization. The fifth route is to solubilize LiNO3 with cyclic carbonates alone. Just as mentioned above, there are five strategies for the chemical solubilization of LiNO3 as follows. 4.1.1 Solvent carrier strategy Solvent carrier strategy is to hunt for an exogenous solvent as LiNO3 carrier to achieve LiNO3 solubilization in conventional carbonates. Generally, the carrier solvent dissolves high-concentration LiNO3 first, then the LiNO3-containing carrier as additive is added into carbonate electrolyte. On the one hand, the solvent carrier serves as LiNO3 reservoir in carbonate electrolyte; on the other hand, the LiNO3-containing carrier additive is miscible with carbonate to regulate the Li+-solvated structure together. Fig. 8 exhibits the exogenous solvent carrier strategies, where we can see that the strongly polar solvents such as SL, tetraethylene glycol dimethyl ether (TEGDME), tetramethylurea (TMU), dimethyl sulfoxide (DMSO), pyridine (Py), vinylene carbonate (VC), tetraglyme (TGM), and 1,4,8,11-tetramethyl-1,4,8,11-tetraazacylcotetradecane (tmCyclam) have been employed as carrier solvents to achieve LiNO3 solubilization. It can clearly see the insoluble precipitation of 0.1 M LiNO3 in the conventional carbonate electrolyte; while it dissolves into carbonate by SL carrier to form a homogeneous and transparent liquid in the electrolyte with carrier, which indicates that LiNO3 gets fully dissolved (Fig. 8a) [81]. The exogenous carrier such as Py owns high DN number to dissolve LiNO3 and cannot destroy the original carbonate structure (Fig. 8e) [112], yet it participates in the Li+-solvated structure together with LiNO3 (e.g. TMU/LiNO3 and DMSO/LiNO3) (Fig. 8c and d) to involve in the formation of SEI and cathode electrolyte interphase (CEI) [63,65]. Therefore, when choosing a carrier, a solvent with high LUMO and low HOMO energy level such as TGM is necessary to reduce the side reaction of SEI formation caused by carrier (Fig. 8g) [113]. The TEGDME/LiNO3-containing carbonate electrolytes formed stable SEI and dense Li deposition (Fig. 8b); the circular Li deposition morphology was formed in VC/LiNO3-containing carbonates instead of bulk dendrites in VC/LiNO3-free carbonates (Fig. 8f) [49,99]. And also, tmCyclam is found to promote LiNO3 dissociation and the SEI enhancer (tmCyclam/LiNO3) tunes SEI composition and formation of dense Li deposition (Fig. 8h) [114]. Although the significant improvement is available due to the successful introduction of LiNO3 by the carriers, these highly polar solvents participate in the Li+-solvated structure and tailore the EDL together with LiNO3, undoubtedly reacting seriously with LMA and 4-V-class cathode intrinsically, and thus weaken the effects of LiNO3. Therefore, while choosing a carrier solvent to stabilize LiNO3, the following parameters such as dielectric constant, DN value, and HOMO-LUMO energy level require a comprehensive investigation. Ideally, a solvent carrier owns two key features. The first feature is the high polarity, keeping high dielectric constant and DN value, to dissolve high-concentration of LiNO3, resulting in attaining miscibility with carbonates. The second feature is about the energy levels, where high LUMO and low HOMO energy level prohibit the side reactions both with cathode and LMA, or its decomposition products both with LMA and 4-V-class cathode, to realize desired CEI and SEI together with LiNO3. 4.1.2 Co-solvent reservoir strategy Co-solvent reservoir strategy is to seek a carbonate co-solvent as LiNO3 reservoir to achieve LiNO3 solubilization in carbonates. Generally, these co-solvents act as a solvent to dissolve Li salts together with carbonate and dissolve LiNO3 additive alone, which means they need occupy a high content in the electrolyte compared to exogenous carrier additives. Fig. 9 exhibits the co-solvent reservoir strategies, where we can see that the polar solvents such as ethylene glycol diacetate (EGD), triethyl phosphate (TEP), VC, γ-butyrolactone (GBL), TEGDME, dimethoxyethane (30 and 70 v% DME), and trimethyl phosphate (TMP) have been employed as carbonate co-solvents to solubilize LiNO3. Compared with EC and DMC to dissolve 0.2 M LiNO3 in the presence of precipitate, the combination of EC and EGD instead of DMC effectively solubilizes LiNO3 even to 0.6 M (Fig. 9a) [97]. The co-solvent reservoirs such as TEGDME (Fig. 9f) and DME (Fig. 9g and h) also participate in the Li+-solvated structure together with NO3 − and affect the effect of stabilizing LMA by NO3 − [80,100,102]. The LiNO3 successfully introduced by VC increases the overpotential of Li electrodeposition on the LMA, which suppresses the growth of Li crystal nucleus and the formation of Li dendrites (Fig. 9c) [115]. In addition, it is revealed that the addition of TMP/LiNO3 disperses Li growth direction to avoid dendritic Li caused by one-direction Li growth (Fig. 9e) [103]. Therefore, Li3N/Li x NO y -rich SEI by TEP/LiNO3 (Fig. 9b) and dense Li deposition morphology by GBL/LiNO3 (Fig. 9d) are achieved [101,116]. Noting that the co-solvent reservoirs, same as exogenous carriers, participate in the Li+-solvation structure, tailore the EDL together with NO3 −, and affect the effect of stabilizing LMA by NO3 −. Thus, co-solvent parameters such as dielectric constant, DN value, and HOMO-LUMO energy level also need enough attention. Compared with carrier additives, the incorporation of co-solvents reservoir has increased a lot, which requires their dielectric constant and DN value to be higher than that of carbonates while lower than that of carriers to facilitate LiNO3-dissolution; however, their LUMO needs strictly higher and HOMO needs strictly lower than carriers so as to avoid their unwanted decomposition reaction both with cathode and LMA. In addition, it is noted that most researches gathered in facilitating LiNO3 dissociation except EGD co-solvent, thus, the co-solvent strategy preventing Li+-NO3 − recombination is called for more attention here, which may creates new discoveries. 4.1.3 Lewis acid regulation strategy Lewis acid regulation strategy is to employ electron-deficient ions or groups to integrate large anionic (e.g. FSI− and PF6 −) and linear carbonates (e.g. DMC and DEC), which is just combined with cyclic carbonates (e.g. EC) in electrolyte, so that cyclic carbonates are free to dissolve LiNO3 (Fig. 10 a) [98]. These electron-deficient ions or groups are called as Lewis acid, which are divided into strong electron-deficient metal cations and weak electron-deficient groups. Fig. 10(b–h) exhibits the Lewis acid regulation strategies, where we can see that strong Lewis acid cations such as aluminum ion (Al3+), tin ion (Sn2+), Cu2+, indium ion (In3+), silver ion (Ag+), magnesium ion (Mg2+), zinc ion (Zn2+) and weak Lewis acid groups such as lithium tetrafluoroborate (LiBF4), tris(pentafluorophenyl)boron (TPFPB)/tris(pentafluorophenyl)phosphine (TPFPP) have been employed to solubilize LiNO3 in carbonate electrolyte. The phenomenon that the solubilization of LiNO3 in cyclic/linear carbonate (EC/DMC) but not in linear carbonate (DMC) is achieved by Lewis acid Al3+ confirms the above solubilization mechanism of Lewis acid (Fig. 10b) [98]. Trace of Lewis acid Cu2+ (0.2 wt% CuF2) solubilizes 1 wt% LiNO3 in the routine carbonate-based electrolyte (Fig. 10c) [52]. The ionic Lewis acids such as Sn2+ (Fig. 10d), In3+ (Fig. 10e), Mg2+, and Zn2+ (Fig. 10g) participate in the Li+-solvated structure, manipulate the component of SEI (e.g. Ag-Li alloy layer by Lewis acid Ag+ in Fig. 10f), and regulate Li deposition together with NO3 − [67,104,106,117]. Generally, the groups act as Lewis acid through an atom in the group such as electron-deficient boron (B) atom of LiBF4/TPFPB and electron-deficient phosphorus (P) atom of TPFPP. The group Lewis acids TPFPB and TPFPP effectively solubilize LiNO3 in carbonates due to electron-deficient B of TPFPB and P of TPFPP (Fig. 10h), they also participate in the solvated structure and affect SEI component and Li deposition (e.g. TPFPB/TPFPP in Fig. 10h and LiBF4 in Fig. 10i) [105,107]. Herein, it should be noted that the addition of Lewis acid, especially metal ionic Lewis acid, poses a concern of complex metal deposition on LMA and the separator, which induces uncontrollable risks of cell short circuit due to their involvement in SEI formation and Li deposition process. Therefore, in addition to the solubilizing effect of LiNO3, the rational selection and design of either ionic Lewis acids or group Lewis acids should consider facilitating the formation of robust SEI and dense Li deposition. 4.1.4 Intrinsic cation design strategy LiNO3 is considered as an anionic film-forming additive, that is, NO3 − plays a major role in stabilizing LMA. While, the insolubility of LiNO3 in carbonates is due to its great coulombic force between small Li+ and NO3 −. Therefore, intrinsic cation design strategy is to design complex cations or large cations to replace Li+ to weaken the interaction between cations and NO3 − anions, so as to achieve the introduction of NO3 − into carbonate electrolytes. Fig. 11 exhibits the intrinsic cation design strategies, where we can see that organic macrocation ((C4H9)4N+) and inorganic macrocation such as univalent macrocation (K+/Cs+/Rb+) and multivalent macrocation (Mg2+/Cu2+/In3+) have been employed to solubilize LiNO3. As the size of the organic cation gradually increases, the binding energy between cation and NO3 − progressively decreases from −4.63 eV (LiNO3) to −2.55 eV ((CH3)4N+NO3 −, TMAN), −2.31 eV (TEAN), and eventually −2.21 eV ((C4H9)4N+NO3 −, TBAN). Consequently, based on the weakened binding energy, it successfully introduce NO3 − to form Li3N-rich SEI (Fig. 11a) [64]. The inorganic univalent macrocation such as K+ is also employed to introduce NO3 −; in addition to forming the inorganic-rich SEI by the introduced NO3 −, the electrostatic shielding effect of K+ synergistically regulates the uniform Li+ flux to avoid the unrestricted growth of Li dendrites (Fig. 11b) [118]. Nevertheless, when the concentration of K+/Cs+/Rb+ nitrate reaches to 0.1 M, there is still some insoluble precipitation due to the insufficient solubilization caused by simply increasing the cation size, so the exogenous crown ether (18-crown-6) carrier is employed to synergistically introduce NO3 − (Fig. 11c) [119]. In addition to univalent macrocation, the multivalent macrocation such as Mg2+ is also employed to introduce NO3 − and it is confirmed that Mg2+ participates in the Li+-solvated structure, tailors the SEI, and regulates Li deposition together with NO3 − (Fig. 11d) [56]. Besides, the bivalent Cu2+ and trivalent In3+ without crystal water are unable to achieve a large amount of dissolution; while Cu(NO3)2 (Fig. 11e) and In(NO3)3 (Fig. 11f) with crystal water could successfully achieve solubilization due to the synergistic effect of crystal water and macrocation strategies, thus, participating in the Li+-solvated structure and regulating the spherical deposition morphology [108,120]. Of note, the crystal water in electrolyte is removed by molecular sieve after introducing nitrate. Here, it should be noted that potential side reactions induced by newly introduced cations should be taken into account when selecting macrocation to introduce NO3 −. An ideal design is that the cation not only helps to dissolve LiNO3, but also synergistically contributes to the improved electrochemical performances of the cell [108,121]. 4.1.5 Single cyclic carbonate strategy Single cyclic carbonate strategy is to employ cyclic carbonates with large dielectric constant and DN value to directly dissolve LiNO3 in single cyclic carbonates. As mentioned above, cyclic carbonates such as EC generally have high enough dielectric constant to dissolve LiNO3 alone, and commercial electrolytes reduce the viscosity and melting point of cyclic carbonates by adding linear carbonates to the former, yet resulting in low solubility of LiNO3 [98]. Therefore, cyclic carbonates can be used alone to dissolve LiNO3, however, corresponding modification strategies should be employed simultaneously to solve the issues caused by the absence of linear carbonates. 4.2 Physical release Physical release is to physically introduce LiNO3 into carbonates and release slowly to replenish with the continuous consumption of the limited LiNO3 in carbonates during SEI formation, thus, maintaining a constant amount of LiNO3 in the carbonate electrolytes. There are two routes surrounding the introduction of LiNO3 into intrinsic components of the cell or exogenous components for the physical release of LiNO3 as follows. 4.2.1 Intrinsic carrier strategy Intrinsic carrier strategy is to introduce LiNO3 into the inherent components of the cell such as separator and current collector, then the LiNO3-containing carriers slowly release LiNO3 into carbonate electrolyte with the continuous consumption of the dissolved limited LiNO3 in electrolyte during SEI formation. Fig. 12 exhibits the intrinsic carrier strategies, where we can see that separators such as polypropylene (PP), glass fiber (GF), gel polymer electrolyte (GPE) and current collector such as carbon-coated copper (Cu@C), gradient carbon nanotubes-polyaniline (CNF-PAN), branched polyethyleneimine-silver (BPEI-Ag), electron-insulating polymer film-Cu/carbon fiber mat (EI-CuCM) have been employed as carrier to introduce LiNO3 into carbonate electrolytes. The PP separator carrier constructed by the biscuit-like PP/LiNO3/PP effectively loads LiNO3, and the LiNO3 particles enter the carbonate electrolyte in the form of Li+ and NO3 − to stabilize LMA despite its limited solubility (Fig. 12a) [110]. The strategy of soaking GF separator in LiNO3-containing solution and then drying can also introduce LiNO3 into the carbonate electrolyte, which well stabilizes the LMA together with FEC (Fig. 12b) [122]. The GPE intercalated with LiNO3 can also act as a LiNO3 separator carrier to generate a robust Li3N/Li2O/Li x NO y -rich SEI to effectively stabilize LMA (Fig. 12c) [123]. Interestingly, LiNO3 is also added into the current collector to contruct LiNO3-containing current collector carrier. The LiNO3-containing carbon-coated 3D Cu current collector host (Fig. 12d), LiNO3-containing conductivity gradients CNF-PAN current collector (Fig. 12e), LiNO3-containing BPEI-Ag current collector (Fig. 12f), and LiNO3-containing zero-volume-expansion Li-metal-composite-anode current collector (zeroVE-Li) (Fig. 12g) are developed as LiNO3 carrier to release LiNO3 into carbonates and stabilize the LMA [109,124–126]. Undoubtedly, the pre-storage of LiNO3 inevitably decreases the gravimetric specific energy of the cell due to the increase in total mass caused by the addition of LiNO3 and other appendages that cannot supply energy. In addition, it is necessary to pay attention to the influence of the introduction of a large amount of insoluble LiNO3 into the separator/current collector and its possible entry into the electrolyte on the transport of Li+ in the electrolyte and electron from current collector. 4.2.2 Exogenous carrier strategy Exogenous carrier strategy is to introduce exogenous carriers loaded with LiNO3 into the cell system, then conduct sustained release into electrolyte from the LiNO3-containing carrier during the consumption for SEI formation. Fig. 13 exhibits the exogenous carrier strategies, where we can see that polystyrene-block-poly (2-vinyl pyridine) (S2VP) micelle, poly-(vinylidene fluorideco-hexafluoropropylene) (PVDF-HFP), covalent organic framework (COF), polymeric vinylene carbonate (PVC), stainless steel mesh (SSM), and metal organic framework (MOF) have been employed as carrier to introduce LiNO3 into carbonate electrolytes. LiNO3-containing S2VP micelle (Fig. 13a)/PVDF-HFP (Fig. 13b)/COF (Fig. 13c)/PVC (Fig. 13d)/SSM (Fig. 13e) film covering on the surface of LMA regulates uniform Li+ flux and generates N-rich inorganic SEI [94,111,127–129]. In addition, compared to other films with crystalline LiNO3, PVC film with dissociated LiNO3 in a state of low activation energy benefits the fast LiNO3-release into carbonates. However, it should be pointed out that a LiNO3-loaded film is bound to increase the overall weight of the cell leading to reduce the gravimetric specific energy, and the existence of the film also blocks the Li+ transport and increases the internal polarization of the cell during charging/discharging. Therefore, a film that is both light and thin enough, does not hinder the solvated Li+ transport, and is loaded with a suitable amount of LiNO3 is desired. LiNO3 is also encapsulated in the MOF-808 and added into the electrolyte together, which effectively generates a stable Li3N-rich SEI (Fig. 13f) [130]. Nevertheless, it should be considered that adding such small amounts of LiNO3-loaded MOF to a coin cell can be unmanageable, that is, it may not be well quantified at very small doses. 4.3 Pre-reaction Pre-reaction is to pretreat the surface or bulk of LMA with LiNO3 solution or LiNO3 powders to form a stable SEI before assemblying the cell, so as to stabilize LMA in carbonate electrolyte during working process. There are two routes surrounding the surface or bulk pretreatment of LMA as follows. 4.3.1 Pre-immersion reaction strategy Pre-immersion reaction strategy is to pre-immerse LMA in a nitrate-containing solution to react and form a stable Li3N-rich SEI on the surface of LMA before the cell assembly. Fig. 14 (a–c) exhibits the pre-immersion reaction strategies, where we can see that PCl5-LiNO3 (PN)-containing DME solution, LiNO3-containing diethylene glycol dimethyl ether (DEGDME) solution, and Mn(NO3)2-containing solution have been employed to immerse LMA and react with LMA. The LMA forms a robust Li3N/Li3PO4/LiCl-rich SEI in PN-containing DME solution, which achieve the combination of the fast Li-ion conductor (Li3N) and strong mechanical stability (Li3PO4), compared to the SEI formed in PCl5 or LiNO3-containing DME solution alone (Fig. 14a) [95]. The SEI formed in LiNO3-containing DEGDME solution enables LMA a dense and uniform morphology after cycling for 10 cycles in carbonate electrolyte, compared to the uneven shape of bare LMA (Fig. 14b) [96]. In addition, LMA is also pre-immersed in Mn(NO3)2-containing carbonate solution, which shows the reactive discoloration and results in stable Li deposition with a prolonged lifespan compared to the untreated LMA (Fig. 14c) [131]. Herein, two points should be noted. One is the selection of the solvent and auxiliary solute for the LMA pre-immersion, which plays a key role in the formation of SEI. The solvent in good compatibility with metallic Li and the solute that reductively generates ideal SEI components should be considered emphatically. The other is that before the cell is assembled using carbonates, the residue from the previous solution and reaction needs to be washed off to avoid unnecessary side reactions. Besides, it cannot get repaired once the SEI formed by the pretreatment is damaged during working, which will lead to rapid failure of the cell. 4.3.2 Pre-embedding reaction strategy Pre-embedding reaction strategy is to pre-intercalate nitrates powders into the metallic Li to react stably and conduct Li protection task during working. A repeated mechanical rolling/folding method is employed to pre-intercalate LiNO3 powders into the metallic Li so that metallic Li and LiNO3 powders react uniformly and fully to generate Li3N/LiN x O y /Li2O, thus, achieving bulk-to-surface Li protection in carbonate electrolytes (Fig. 14d) [85]. In addition to forming a stable Li3N-rich SEI, K+ introduced by KNO3 can form an electrostatic shield to regulate the Li+ deposition behavior (Fig. 14e) [132]. Noting that the proportion of LiNO3/KNO3 in the LMA as well as the physical uniformity and reactive uniformity of LiNO3/KNO3 in the LMA need to be strictly controlled, because these factors have a significant impact on the deposition effect of Li on the LMA. In conclusion, versatile introduction strategies for LiNO3 into carbonate electrolytes mainly adopt the following routes: (1) the polar solvents provide the soluble reservoir for LiNO3 in carbonate electrolytes (solvent carrier and co-solvent reservoir); (2) the electron-deficient ions or groups regulate the solubility environment of LiNO3 in carbonate electrolytes (Lewis acid regulation); (3) organic and inorganic macrocations decrease the impeditive coulombic force between Li+ and NO3 − (intrinsic cation design); (4) single cyclic carbonates provide the direct solubility environment of LiNO3; (5) physical release strategies provide a embedding medium for LiNO3 in carbonate electrolytes (intrinsic and exogenous carrier); (6) pre-reaction strategies directly provide the desired SEI by LiNO3 pre-reaction with LMA (pre-immersion and pre-embedding reaction). A summary of these strategies to introduce LiNO3 into carbonate electrolytes for practical LMBs is exhibited in Table S1 (Supporting Information). The radar plots of each strategy based on six dimensions of introduction ability, practicality, safety, side reaction, energy density, and overpotential are summarized in Fig. 15 for a clear comparison. Notwithstanding the present promising results, these strategies still have great room to improve in order to meet the practical requirements. The severe side reactions with LMA/cathode resulting from polar solvent carrier/reservoir, the complex metal depositions by Lewis acid, and the increased polarization and the reduced gravimetric specific energy by the addition of exogenous carrier are of particular concern and should be properly resolved. 5 Summaries and outlooks Practical LMBs are promising energy storage devices, but are prone to form unstable SEI and generate continuous dendrites and dead Li in carbonate-based electrolytes. LiNO3, an excellent inorganic anionic film-forming additive, widely proves effective to construct a robust Li3N/Li2O/Li x NO y -rich SEI to effectively stabilize LMA, yet has a limited solubility in the commercial carbonate electrolytes. Therefore, generating inorganic-rich SEI and dendrite-free LMA via introducing LiNO3 into carbonate electrolyte is of feasible and cost-effective concern for practical LMBs. This review highlights the grievances between LMA, LiNO3 and carbonates, and an in-depth investigation of the LMA stabilizing mechanism originated from LiNO3 has been clarified, including participating in Li+-solvated structure, tailoring the EDL, manipulating inorganic-rich SEI, and regulating Li deposition morphology. Moreover, the dissolution principle of LiNO3 in carbonate electrolytes is also demonstrated, such as solubility principle as well as insoluble cause in single carbonates and commercial cyclic/linear mixed carbonate electrolytes. Finally, the introduction strategies of LiNO3 in carbonate electrolytes have also been emphasized, such as chemical solubilization, physical release, and pre-reaction. To the best of our knowledge, although significant advances have been made in LiNO3 stabilizing LMA in commercial carbonates, more efforts need to be directed to achieve new breakthrough and enhanced efficiency so as to overcome the challenges in front of the practical application. (1) Other strategies or additives can be employed to synergistically stabilize the LMA with LiNO3 in carbonate electrolytes. LiNO3 reductively decomposes on the surface of LMA to form Li3N-rich SEI, which is a fast-ion conductor for Li+, yet suffers from insufficient mechanical strength to completely inhibit the puncture by dendrite growth. Thus, additives that participate in the Li+-solvated structure and their reduction products with low-electron conductivity, strong Young's modulus, and high interfacial energy such as LiF can be introduced to form a more desirable SEI together with Li3N. Moreover, it is well known that LiNO3 is a sacrificial additive, with a maxium dosage of ∼5 wt%, which depletes quite readily as the SEI turns consumptive. Therefore, a more dense and stable SEI helps to suppress the consumption of LiNO3. (2) The addition of highly polar carriers, reservoirs, and metal ions in the chemical solubilization strategy leads to complex chemical reactions or metal deposition, which needs to be properly addressed so as to avoid the side effects that weaken the effect of stabilizing LMA by the introduced LiNO3. The best results are both the successful introduction of NO3 − by these additions and the fact that they favor the desired SEI formation or dense Li deposition. (3) In the 4-V-class LMBs, there are still some issues such as the dissolution of transition metal cations and the gas generation of the electrolyte catalytically decomposed by active oxygen radicals from the layered cathodes. Thus, in addition to introducing LiNO3, smart electrolyte design also needs to address these issues to stabilize the LMA in carbonate electrolytes. (4) Safety hazards such as flammability and explosion are of great significance in promoting liquid LMBs to solid LMBs. Thus, designing non-flammable electrolyte combined with LiNO3 is possible solution towards the stabilized LMA for safe LMBs. Furthermore, in addition to insolubility issue, LiNO3 itself is a strong oxidant and noxious combustion supporting agent, which is a notable source of potential unsafety. Therefore, the development of safer and soluble NO3 −-containing reagent (such as isosorbide dinitrate) to form Li3N-rich SEI may be a finer alternative [133]. (5) As the ex-situ characterizations fail to provide the real-time information on the Li+-solvated structure, gas generation, SEI/CEI evolution, and Li deposition behavior, the advances in the field of non-destructive and in-situ SEI characterizations are highly demanded to get in-depth understanding about how LiNO3-incorporation is improving the performance of practical LMBs. In addition, the purpose of introducing LiNO3 into carbonates is of great importance for the practical LMBs, thus, the pouch cell and standard parametric designs such as low negative/positive ratio and electrolyte/cathode ratio are needed in order to align academic research to industrial production. Declaration of competing interest The authors declare that they have no known competing financial interests or personal relationships that could have appeared to influence the work reported in this paper. Acknowledgments The authors are grateful for the support by the Leading Innovative and Entrepreneur Team Introduction Program of Zhejiang (2019R01006), the National Natural Science Foundation of China (NSFC:12205252), A Project Supported by Scientific Research Fund of Zhejiang Provincial Education Department (Y202250795), the Research Funds of Institute of Zhejiang University-Quzhou, the Basic Public Welfare Research Special Project of Zhejiang Province (LZY22B040001), the Science and Technology Project of Quzhou Research Institute, Zhejiang University (IZQ2021KJ2032) and the Independent Scientific Research Project of Quzhou Research Institute, Zhejiang University (IZQ2021RCZX007). Appendix A Supplementary material Supplementary data to this article can be found online at https://doi.org/10.1016/j.jechem.2022.11.017. Appendix A Supplementary material The following are the Supplementary data to this article: Supplementary data 1 References [1] Y. Tian G. Zeng A. Rutt T. Shi H. Kim J. Wang J. Koettgen Y. Sun B. Ouyang T. Chen Z. Lun Z. Rong K. Persson G. Ceder Chem. Rev. 121 2021 1623 1669 Y. Tian, G. Zeng, A. Rutt, T. Shi, H. Kim, J. Wang, J. Koettgen, Y. Sun, B. Ouyang, T. Chen, Z. Lun, Z. Rong, K. Persson, G. Ceder, Chem. Rev. 121 (2021) 1623–1669. [2] X. Wang Y.L. Ding Y.P. Deng Z. Chen Adv. Energy Mater. 10 2020 1903864 X. Wang, Y.L. Ding, Y.P. Deng, Z. Chen, Adv. Energy Mater. 10 (2020) 1903864. [3] L. Wang T. Liu A. Dai V. De Andrade Y. Ren W. Xu S. Lee Q. Zhang L. Gu S. Wang T. Wu H. Jin J. Lu Nat. Commun. 12 2021 5370 L. Wang, T. Liu, A. Dai, V. De Andrade, Y. Ren, W. Xu, S. Lee, Q. Zhang, L. Gu, S. Wang, T. Wu, H. Jin, J. Lu, Nat. Commun. 12 (2021) 5370. [4] B. Liu J.G. Zhang W. Xu Joule 2 2018 833 845 B. Liu, J.G. Zhang, W. Xu, Joule 2 (2018) 833–845. [5] D. Lin Y. Liu Y. Cui Nat. Nanotechnol. 12 2017 194 206 D. Lin, Y. Liu, Y. Cui, Nat. Nanotechnol. 12 (2017) 194–206. [6] H. Liu J. Di P. Wang R. Gao H. Tian P. Ren Q. Yuan W. Huang R. Liu Q. Liu M. Feng Carbon Energy 4 2022 654 664 H. Liu, J. Di, P. Wang, R. Gao, H. Tian, P. Ren, Q. Yuan, W. Huang, R. Liu, Q. Liu, M. Feng, Carbon Energy 4 (2022) 654–664. [7] M. Gao H. Li L. Xu Q. Xue X. Wang Y. Bai C. Wu J. Energy Chem. 59 2021 666 687 M. Gao, H. Li, L. Xu, Q. Xue, X. Wang, Y. Bai, C. Wu, J. Energy Chem. 59 (2021) 666–687. [8] Z. Lin T. Liu X. Ai C. Liang Nat. Commun. 9 2018 5262 Z. Lin, T. Liu, X. Ai, C. Liang, Nat. Commun. 9 (2018) 5262. [9] Z.Z. Shen Y.Z. Zhang C. Zhou R. Wen L.J. Wan J. Am. Chem. Soc. 143 2021 21604 21612 Z.Z. Shen, Y.Z. Zhang, C. Zhou, R. Wen, L.J. Wan, J. Am. Chem. Soc. 143 (2021) 21604–21612. [10] M. Wang A.E. Emre J.Y. Kim Y. Huang L. Liu V. Cecen Y. Huang N.A. Kotov Nat. Commun. 13 2022 278 M. Wang, A.E. Emre, J.Y. Kim, Y. Huang, L. Liu, V. Cecen, Y. Huang, N.A. Kotov, Nat. Commun. 13 (2022) 278. [11] Y.Y. Dai C.M. Xu X.H. Liu X.X. He Z. Yang W.H. Lai L. Li Y. Qiao S.L. Chou Carbon Energy 3 2021 253 270 Y.Y. Dai, C.M. Xu, X.H. Liu, X.X. He, Z. Yang, W.H. Lai, L. Li, Y. Qiao, S.L. Chou, Carbon Energy 3 (2021) 253–270. [12] Y. Li H. Zhang R. Zhang J. Sha L. Ma D. Zhao C. Shi N. Zhao J. Energy Chem. 73 2022 268 276 Y. Li, H. Zhang, R. Zhang, J. Sha, L. Ma, D. Zhao, C. Shi, N. Zhao, J. Energy Chem. 73 (2022) 268–276. [13] L. Wang A. Dai W. Xu S. Lee W. Cha R. Harder T. Liu Y. Ren G. Yin P. Zuo J. Wang J. Lu J. Wang J. Am. Chem. Soc. 142 2020 14966 14973 L. Wang, A. Dai, W. Xu, S. Lee, W. Cha, R. Harder, T. Liu, Y. Ren, G. Yin, P. Zuo, J. Wang, J. Lu, J. Wang, J. Am. Chem. Soc. 142 (2020) 14966–14973. [14] L. Wang X. Lei T. Liu A. Dai D. Su K. Amine J. Lu T. Wu Adv. Mater. 34 2022 2200744 L. Wang, X. Lei, T. Liu, A. Dai, D. Su, K. Amine, J. Lu, T. Wu, Adv. Mater. 34 (2022) 2200744. [15] L.X. Yuan Z.H. Wang W.X. Zhang X.L. Hu J.T. Chen Y.H. Huang J.B. Goodenough Energy Environ. Sci. 4 2011 269 284 L.X. Yuan, Z.H. Wang, W.X. Zhang, X.L. Hu, J.T. Chen, Y.H. Huang, J.B. Goodenough, Energy Environ. Sci. 4 (2011) 269–284. [16] X. Yang C. Wang P. Yan T. Jiao J. Hao Y. Jiang F. Ren W. Zhang J. Zheng Y. Cheng X. Wang W. Yang J. Zhu S. Pan M. Lin L. Zeng Z. Gong J. Li Y. Yang Adv. Energy Mater. 12 2022 2200197 X. Yang, C. Wang, P. Yan, T. Jiao, J. Hao, Y. Jiang, F. Ren, W. Zhang, J. Zheng, Y. Cheng, X. Wang, W. Yang, J. Zhu, S. Pan, M. Lin, L. Zeng, Z. Gong, J. Li, Y. Yang, Adv. Energy Mater. 12 (2022) 2200197. [17] W. Jiang X. Zhu R. Huang S. Zhao X. Fan M. Ling C. Liang L. Wang Adv. Energy Mater. 12 2022 2200197 W. Jiang, X. Zhu, R. Huang, S. Zhao, X. Fan, M. Ling, C. Liang, L. Wang, Adv. Energy Mater. 12 (2022) 2200197. [18] S. Kuppan Y. Xu Y. Liu G. Chen Nat. Commun. 8 2017 14309 S. Kuppan, Y. Xu, Y. Liu, G. Chen, Nat. Commun. 8 (2017) 14309. [19] M. Zhang N. Garcia-Araez A.L. Hector J. Mater. Chem. A 6 2018 14483 14517 M. Zhang, N. Garcia-Araez, A.L. Hector, J. Mater. Chem. A 6 (2018) 14483–14517. [20] S. Yuan T. Kong Y. Zhang P. Dong Y. Zhang X. Dong Y. Wang Y. Xia Angew. Chem. Int. Ed. Engl. 60 2021 25624 25638 S. Yuan, T. Kong, Y. Zhang, P. Dong, Y. Zhang, X. Dong, Y. Wang, Y. Xia, Angew. Chem. Int. Ed. Engl. 60 (2021) 25624–25638. [21] X. Ren L. Zou X. Cao M.H. Engelhard W. Liu S.D. Burton H. Lee C. Niu B.E. Matthews Z. Zhu C. Wang B.W. Arey J. Xiao J. Liu J.G. Zhang W. Xu Joule 3 2019 1662 1676 X. Ren, L. Zou, X. Cao, M.H. Engelhard, W. Liu, S.D. Burton, H. Lee, C. Niu, B.E. Matthews, Z. Zhu, C. Wang, B.W. Arey, J. Xiao, J. Liu, J.G. Zhang, W. Xu, Joule 3 (2019) 1662–1676. [22] B. Han D. Xu S.S. Chi D. He Z. Zhang L. Du M. Gu C. Wang H. Meng K. Xu Z. Zheng Y. Deng Adv. Mater. 32 2020 2004793 B. Han, D. Xu, S.S. Chi, D. He, Z. Zhang, L. Du, M. Gu, C. Wang, H. Meng, K. Xu, Z. Zheng, Y. Deng, Adv. Mater. 32 (2020) 2004793. [23] S. Jiao X. Ren R. Cao M.H. Engelhard Y. Liu D. Hu D. Mei J. Zheng W. Zhao Q. Li N. Liu B.D. Adams C. Ma J. Liu J.G. Zhang W. Xu Nat. Energy 3 2018 739 746 S. Jiao, X. Ren, R. Cao, M.H. Engelhard, Y. Liu, D. Hu, D. Mei, J. Zheng, W. Zhao, Q. Li, N. Liu, B.D. Adams, C. Ma, J. Liu, J.G. Zhang, W. Xu, Nat. Energy 3 (2018) 739–746. [24] X. Ren L. Zou S. Jiao D. Mei M.H. Engelhard Q. Li H. Lee C. Niu B.D. Adams C. Wang J. Liu J.G. Zhang W. Xu ACS Energy Lett. 4 2019 896 902 X. Ren, L. Zou, S. Jiao, D. Mei, M.H. Engelhard, Q. Li, H. Lee, C. Niu, B.D. Adams, C. Wang, J. Liu, J.G. Zhang, W. Xu, ACS Energy Lett. 4 (2019) 896–902. [25] Y. Zhao T. Zhou T. Ashirov M.E. Kazzi C. Cancellieri L.P.H. Jeurgens J.W. Choi A. Coskun Nat. Commun. 13 2022 2575 Y. Zhao, T. Zhou, T. Ashirov, M.E. Kazzi, C. Cancellieri, L.P.H. Jeurgens, J.W. Choi, A. Coskun, Nat. Commun. 13 (2022) 2575. [26] Y. Huang R. Li S. Weng H. Zhang C. Zhu D. Lu C. Sun X. Huang T. Deng L. Fan L. Chen X. Wang X. Fan Energy Environ. Sci. 2022 10.1039/D2EE01756C Y. Huang, R. Li, S. Weng, H. Zhang, C. Zhu, D. Lu, C. Sun, X. Huang, T. Deng, L. Fan, L. Chen, X. Wang, X. Fan, Energy Environ. Sci. (2022), DOI: 10.1039/D2EE01756C. [27] H. Zhao J. Gu Y. Gao Q. Hou Z. Ren Y. Qi K. Zhang C. Shen J. Zhang K. Xie J. Energy Chem. 51 2020 362 371 H. Zhao, J. Gu, Y. Gao, Q. Hou, Z. Ren, Y. Qi, K. Zhang, C. Shen, J. Zhang, K. Xie, J. Energy Chem. 51 (2020) 362–371. [28] C.S. Rustomji Y. Yang T.K. Kim J. Mac Y.J. Kim E. Caldwell H. Chung Y.S. Meng Science 356 2017 4263 C.S. Rustomji, Y. Yang, T.K. Kim, J. Mac, Y.J. Kim, E. Caldwell, H. Chung, Y.S. Meng, Science 356 (2017) 4263. [29] Y. Yu G. Huang J.Y. Du J.Z. Wang Y. Wang Z.J. Wu X.B. Zhang Energy Environ. Sci. 13 2020 3075 3081 Y. Yu, G. Huang, J.Y. Du, J.Z. Wang, Y. Wang, Z.J. Wu, X.B. Zhang, Energy Environ. Sci. 13 (2020) 3075–3081. [30] Z. Zeng V. Murugesan K.S. Han X. Jiang Y. Cao L. Xiao X. Ai H. Yang J.G. Zhang M.L. Sushko J. Liu Nat. Energy 3 2018 674 681 Z. Zeng, V. Murugesan, K.S. Han, X. Jiang, Y. Cao, L. Xiao, X. Ai, H. Yang, J.G. Zhang, M.L. Sushko, J. Liu, Nat. Energy 3 (2018) 674–681. [31] Q. Wang Z. Yao C. Zhao T. Verhallen D.P. Tabor M. Liu F. Ooms F. Kang A. Aspuru-Guzik Y.S. Hu M. Wagemaker B. Li Nat. Commun. 11 2020 4188 Q. Wang, Z. Yao, C. Zhao, T. Verhallen, D.P. Tabor, M. Liu, F. Ooms, F. Kang, A. Aspuru-Guzik, Y.S. Hu, M. Wagemaker, B. Li, Nat. Commun. 11 (2020) 4188. [32] Z. Wang F. Zhang Y. Sun L. Zheng Y. Shen D. Fu W. Li A. Pan L. Wang J. Xu J. Hu X. Wu Adv. Energy Mater. 11 2021 2003752 Z. Wang, F. Zhang, Y. Sun, L. Zheng, Y. Shen, D. Fu, W. Li, A. Pan, L. Wang, J. Xu, J. Hu, X. Wu, Adv. Energy Mater. 11 (2021) 2003752. [33] J.B. Goodenough Y. Kim Chem. Mater. 22 2010 587 603 J.B. Goodenough, Y. Kim, Chem. Mater. 22 (2010) 587–603. [34] J. Tan J. Matz P. Dong J. Shen M. Ye Adv. Energy Mater. 11 2021 2100046 J. Tan, J. Matz, P. Dong, J. Shen, M. Ye, Adv. Energy Mater. 11 (2021) 2100046. [35] X. Fan L. Chen O. Borodin X. Ji J. Chen S. Hou T. Deng J. Zheng C. Yang S.C. Liou K. Amine K. Xu C. Wang Nat. Nanotechnol. 13 2018 715 722 X. Fan, L. Chen, O. Borodin, X. Ji, J. Chen, S. Hou, T. Deng, J. Zheng, C. Yang, S.C. Liou, K. Amine, K. Xu, C. Wang, Nat. Nanotechnol. 13 (2018) 715–722. [36] H.J. Zhao J. Wang H.Y. Shao K. Xu Y.H. Deng Energy Environ. Mater. 5 2022 327 336 H.J. Zhao, J. Wang, H.Y. Shao, K. Xu, Y.H. Deng, Energy Environ. Mater. 5 (2022) 327–336. [37] L. Tan C. Wei Y. Zhang S. Xiong H. Li J. Feng J. Energy Chem. 69 2022 221 230 L. Tan, C. Wei, Y. Zhang, S. Xiong, H. Li, J. Feng, J. Energy Chem. 69 (2022) 221–230. [38] X. Fan L. Chen X. Ji T. Deng S. Hou J. Chen J. Zheng F. Wang J. Jiang K. Xu C. Wang Chem 4 2018 174 185 X. Fan, L. Chen, X. Ji, T. Deng, S. Hou, J. Chen, J. Zheng, F. Wang, J. Jiang, K. Xu, C. Wang, Chem 4 (2018) 174–185. [39] S. Chen J. Zheng D. Mei K.S. Han M.H. Engelhard W. Zhao W. Xu J. Liu J.G. Zhang Adv. Mater. 30 2018 1706102 S. Chen, J. Zheng, D. Mei, K.S. Han, M.H. Engelhard, W. Zhao, W. Xu, J. Liu, J.G. Zhang, Adv. Mater. 30 (2018) 1706102. [40] S. Yuan S. Weng F. Wang X. Dong Y. Wang Z. Wang C. Shen J.L. Bao X. Wang Y. Xia Nano Energy 83 2021 105847 S. Yuan, S. Weng, F. Wang, X. Dong, Y. Wang, Z. Wang, C. Shen, J.L. Bao, X. Wang, Y. Xia, Nano Energy 83 (2021) 105847. [41] J. Zheng M.H. Engelhard D. Mei S. Jiao B.J. Polzin J.G. Zhang W. Xu Nat. Energy 2 2017 17012 J. Zheng, M.H. Engelhard, D. Mei, S. Jiao, B.J. Polzin, J.G. Zhang, W. Xu, Nat. Energy 2 (2017) 17012. [42] Q. Zhao Z. Tu S. Wei K. Zhang S. Choudhury X. Liu L.A. Archer Angew. Chem. Int. Ed. Engl. 57 2018 992 996 Q. Zhao, Z. Tu, S. Wei, K. Zhang, S. Choudhury, X. Liu, L.A. Archer, Angew. Chem. Int. Ed. Engl. 57 (2018) 992–996. [43] J. Chen T. Liu L. Gao Y. Qian Y. Liu X. Kong J. Energy Chem. 60 2021 178 185 J. Chen, T. Liu, L. Gao, Y. Qian, Y. Liu, X. Kong, J. Energy Chem. 60 (2021) 178–185. [44] S. Li Z. Luo L. Li J. Hu G. Zou H. Hou X. Ji Energy Storage Mater. 32 2020 306 319 S. Li, Z. Luo, L. Li, J. Hu, G. Zou, H. Hou, X. Ji, Energy Storage Mater. 32 (2020) 306–319. [45] F. Ding W. Xu G.L. Graff J. Zhang M.L. Sushko X. Chen Y. Shao M.H. Engelhard Z. Nie J. Xiao X. Liu P.V. Sushko J. Liu J.G. Zhang J. Am. Chem. Soc. 135 2013 4450 4456 F. Ding, W. Xu, G.L. Graff, J. Zhang, M.L. Sushko, X. Chen, Y. Shao, M.H. Engelhard, Z. Nie, J. Xiao, X. Liu, P.V. Sushko, J. Liu, J.G. Zhang, J. Am. Chem. Soc. 135 (2013) 4450–4456. [46] H. Dai K. Xi X. Liu C. Lai S. Zhang J. Am. Chem. Soc. 140 2018 17515 17521 H. Dai, K. Xi, X. Liu, C. Lai, S. Zhang, J. Am. Chem. Soc. 140 (2018) 17515–17521. [47] E. Markevich G. Salitra F. Chesneau M. Schmidt D. Aurbach ACS Energy Lett. 2 2017 1321 1326 E. Markevich, G. Salitra, F. Chesneau, M. Schmidt, D. Aurbach, ACS Energy Lett. 2 (2017) 1321–1326. [48] C.C. Su M. He R. Amine Z. Chen R. Sahore N. Dietz Rago K. Amine Energy Storage Mater. 17 2019 284 292 C.C. Su, M. He, R. Amine, Z. Chen, R. Sahore, N. Dietz Rago, K. Amine, Energy Storage Mater. 17 (2019) 284–292. [49] J. Guo Z. Wen M. Wu J. Jin Y. Liu Electrochem. Commun. 51 2015 59 63 J. Guo, Z. Wen, M. Wu, J. Jin, Y. Liu, Electrochem. Commun. 51 (2015) 59–63. [50] P. Shi L. Zhang H. Xiang X. Liang Y. Sun W. Xu A.C.S. Appl Mater. Interfaces 10 2018 22201 22209 P. Shi, L. Zhang, H. Xiang, X. Liang, Y. Sun, W. Xu, ACS Appl. Mater. Interfaces 10 (2018) 22201–22209. [51] K. Huang S. Bi B. Kurt C. Xu L. Wu Z. Li G. Feng X. Zhang Angew. Chem. Int. Ed. Engl. 60 2021 19232 19240 K. Huang, S. Bi, B. Kurt, C. Xu, L. Wu, Z. Li, G. Feng, X. Zhang, Angew. Chem. Int. Ed. Engl. 60 (2021) 19232–19240. [52] C. Yan Y.X. Yao X. Chen X.B. Cheng X.Q. Zhang J.Q. Huang Q. Zhang Angew. Chem. Int. Ed. Engl. 57 2018 14055 14059 C. Yan, Y.X. Yao, X. Chen, X.B. Cheng, X.Q. Zhang, J.Q. Huang, Q. Zhang, Angew. Chem. Int. Ed. Engl. 57 (2018) 14055–14059. [53] Y.H. Tan G.X. Lu J.H. Zheng F. Zhou M. Chen T. Ma L.L. Lu Y.H. Song Y. Guan J. Wang Z. Liang W.S. Xu Y. Zhang X. Tao H.B. Yao Adv. Mater. 33 2021 2102134 Y.H. Tan, G.X. Lu, J.H. Zheng, F. Zhou, M. Chen, T. Ma, L.L. Lu, Y.H. Song, Y. Guan, J. Wang, Z. Liang, W.S. Xu, Y. Zhang, X. Tao, H.B. Yao, Adv. Mater. 33 (2021) 2102134. [54] H. Yue Y. Yang Y. Xiao Z. Dong S. Cheng Y. Yin C. Ling W. Yang Y. Yu S. Yang J. Mater. Chem. A 7 2019 594 602 H. Yue, Y. Yang, Y. Xiao, Z. Dong, S. Cheng, Y. Yin, C. Ling, W. Yang, Y. Yu, S. Yang, J. Mater. Chem. A 7 (2019) 594–602. [55] M. Mao B. Huang Q. Li C. Wang Y.-B. He F. Kang Nano Energy 78 2020 105282 M. Mao, B. Huang, Q. Li, C. Wang, Y.-B. He, F. Kang, Nano Energy 78 (2020) 105282. [56] S.H. Lee J.Y. Hwang J. Ming Z. Cao H.A. Nguyen H.G. Jung J. Kim Y.K. Sun Adv. Energy Mater. 10 2020 2000567 S.H. Lee, J.Y. Hwang, J. Ming, Z. Cao, H.A. Nguyen, H.G. Jung, J. Kim, Y.K. Sun, Adv. Energy Mater. 10 (2020) 2000567. [57] J. Qian W. Xu P. Bhattacharya M. Engelhard W.A. Henderson Y. Zhang J.G. Zhang Nano Energy 15 2015 135 144 J. Qian, W. Xu, P. Bhattacharya, M. Engelhard, W.A. Henderson, Y. Zhang, J.G. Zhang, Nano Energy 15 (2015) 135–144. [58] J. Huang J. Liu J. He M. Wu S. Qi H. Wang F. Li J. Ma Angew. Chem. Int. Ed. Engl. 60 2021 20717 20722 J. Huang, J. Liu, J. He, M. Wu, S. Qi, H. Wang, F. Li, J. Ma, Angew. Chem. Int. Ed. Engl. 60 (2021) 20717–20722. [59] L.P. Hou N. Yao J. Xie P. Shi S.Y. Sun C.B. Jin C.M. Chen Q.B. Liu B.Q. Li X.Q. Zhang Q. Zhang Angew. Chem. Int. Ed. Engl. 61 2022 202201406 L.P. Hou, N. Yao, J. Xie, P. Shi, S.Y. Sun, C.B. Jin, C.M. Chen, Q.B. Liu, B.Q. Li, X.Q. Zhang, Q. Zhang, Angew. Chem. Int. Ed. Engl. 61 (2022) 202201406. [60] S. Kim S.O. Park M.Y. Lee J.A. Lee I. Kristanto T.K. Lee D. Hwang J. Kim T.U. Wi H.W. Lee S.K. Kwak N.S. Choi Energy Storage Mater. 45 2022 1 13 S. Kim, S.O. Park, M.Y. Lee, J.A. Lee, I. Kristanto, T.K. Lee, D. Hwang, J. Kim, T.U. Wi, H.W. Lee, S.K. Kwak, N.S. Choi, Energy Storage Mater. 45 (2022) 1–13. [61] R. May K.J. Fritzsching D. Livitz S.R. Denny L.E. Marbella ACS Energy Lett. 6 2021 1162 1169 R. May, K.J. Fritzsching, D. Livitz, S.R. Denny, L.E. Marbella, ACS Energy Lett. 6 (2021) 1162–1169. [62] Q. Zhao X. Liu J. Zheng Y. Deng A. Warren Q. Zhang L. Archer Proc. Natl. Acad. Sci. USA 117 2020 26053 26060 Q. Zhao, X. Liu, J. Zheng, Y. Deng, A. Warren, Q. Zhang, L. Archer, Proc. Natl. Acad. Sci. USA 117 (2020) 26053–26060. [63] S. Liu X. Ji N. Piao J. Chen N. Eidson J. Xu P. Wang L. Chen J. Zhang T. Deng S. Hou T. Jin H. Wan J. Li J. Tu C. Wang Angew. Chem. Int. Ed. Engl. 60 2021 3661 3671 S. Liu, X. Ji, N. Piao, J. Chen, N. Eidson, J. Xu, P. Wang, L. Chen, J. Zhang, T. Deng, S. Hou, T. Jin, H. Wan, J. Li, J. Tu, C. Wang, Angew. Chem. Int. Ed. Engl. 60 (2021) 3661–3671. [64] Z. Guo X. Song Q. Zhang N. Zhan Z. Hou Q. Gao Z. Liu Z. Shen Y. Zhao ACS Energy Lett. 7 2022 569 576 Z. Guo, X. Song, Q. Zhang, N. Zhan, Z. Hou, Q. Gao, Z. Liu, Z. Shen, Y. Zhao, ACS Energy Lett. 7 (2022) 569–576. [65] Z. Piao P. Xiao R. Luo J. Ma R. Gao C. Li J. Tan K. Yu G. Zhou H.M. Cheng Adv. Mater. 34 2022 2108400 Z. Piao, P. Xiao, R. Luo, J. Ma, R. Gao, C. Li, J. Tan, K. Yu, G. Zhou, H.M. Cheng, Adv. Mater. 34 (2022) 2108400. [66] T.D. Pham A. Bin Faheem J. Kim H.M. Oh K.K. Lee Small 18 2022 2107492 T.D. Pham, A. Bin Faheem, J. Kim, H.M. Oh, K.K. Lee, Small 18 (2022) 2107492. [67] S. Liu J. Xia W. Zhang H. Wan J. Zhang J. Xu J. Rao T. Deng S. Hou B. Nan C. Wang Angew. Chem. Int. Ed. Engl. 2022 e202210522 S. Liu, J. Xia, W. Zhang, H. Wan, J. Zhang, J. Xu, J. Rao, T. Deng, S. Hou, B. Nan, C. Wang, Angew. Chem. Int. Ed. Engl. (2022) e202210522. [68] X.Q. Zhang T. Li B.Q. Li R. Zhang P. Shi C. Yan J.Q. Huang Q. Zhang Angew. Chem. Int. Ed. Engl. 59 2020 3252 3257 X.Q. Zhang, T. Li, B.Q. Li, R. Zhang, P. Shi, C. Yan, J.Q. Huang, Q. Zhang, Angew. Chem. Int. Ed. Engl. 59 (2020) 3252–3257. [69] J. Tan M. Ye J. Shen Mater. Horiz. 9 2022 2325 2334 J. Tan, M. Ye, J. Shen, Mater. Horiz. 9 (2022) 2325–2334. [70] X. Li, R. Zhao, Y. Fu, A. Manthiram, eScience 1 (2021) 108–123. [71] C. Yang K. Fu Y. Zhang E. Hitz L. Hu Adv. Mater. 29 2017 1701169 C. Yang, K. Fu, Y. Zhang, E. Hitz, L. Hu, Adv. Mater. 29 (2017) 1701169. [72] Y. Jie X. Ren R. Cao W. Cai S. Jiao Adv. Funct. Mater. 30 2020 1910777 Y. Jie, X. Ren, R. Cao, W. Cai, S. Jiao, Adv. Funct. Mater. 30 (2020) 1910777. [73] B. Horstmann J. Shi R. Amine M. Werres X. He H. Jia F. Hausen I. Cekic-Laskovic S. Wiemers-Meyer J. Lopez D. Galvez-Aranda F. Baakes D. Bresser C.C. Su Y. Xu W. Xu P. Jakes R.A. Eichel E. Figgemeier U. Krewer J.M. Seminario P.B. Balbuena C. Wang S. Passerini Y. Shao-Horn M. Winter K. Amine R. Kostecki A. Latz Energy Environ. Sci. 14 2021 5289 5314 B. Horstmann, J. Shi, R. Amine, M. Werres, X. He, H. Jia, F. Hausen, I. Cekic-Laskovic, S. Wiemers-Meyer, J. Lopez, D. Galvez-Aranda, F. Baakes, D. Bresser, C.C. Su, Y. Xu, W. Xu, P. Jakes, R.A. Eichel, E. Figgemeier, U. Krewer, J.M. Seminario, P.B. Balbuena, C. Wang, S. Passerini, Y. Shao-Horn, M. Winter, K. Amine, R. Kostecki, A. Latz, Energy Environ. Sci. 14 (2021) 5289–5314. [74] S. Li M. Jiang Y. Xie H. Xu J. Jia J. Li Adv. Mater. 30 2018 1706375 S. Li, M. Jiang, Y. Xie, H. Xu, J. Jia, J. Li, Adv. Mater. 30 (2018) 1706375. [75] P. Zhai L. Liu X. Gu T. Wang Y. Gong Adv. Energy Mater. 10 2020 2001257 P. Zhai, L. Liu, X. Gu, T. Wang, Y. Gong, Adv. Energy Mater. 10 (2020) 2001257. [76] J. Zheng M.S. Kim Z. Tu S. Choudhury T. Tang L.A. Archer Chem. Soc. Rev. 49 2020 2701 2750 J. Zheng, M.S. Kim, Z. Tu, S. Choudhury, T. Tang, L.A. Archer, Chem. Soc. Rev. 49 (2020) 2701–2750. [77] Z. Piao R. Gao Y. Liu G. Zhou H.M. Cheng Adv. Mater. 2022 e2206009 Z. Piao, R. Gao, Y. Liu, G. Zhou, H.M. Cheng, Adv. Mater. (2022) e2206009. [78] X. Zheng L. Huang X. Ye J. Zhang F. Min W. Luo Y. Huang Chem 7 2021 2312 2346 X. Zheng, L. Huang, X. Ye, J. Zhang, F. Min, W. Luo, Y. Huang, Chem 7 (2021) 2312–2346. [79] Z. Hou J. Zhang W. Wang Q. Chen B. Li C. Li J. Energy Chem. 45 2020 7 17 Z. Hou, J. Zhang, W. Wang, Q. Chen, B. Li, C. Li, J. Energy Chem. 45 (2020) 7–17. [80] X. Wang S. Wang H. Wang W. Tu Y. Zhao S. Li Q. Liu J. Wu Y. Fu C. Han F. Kang B. Li Adv. Mater. 33 2021 2007945 X. Wang, S. Wang, H. Wang, W. Tu, Y. Zhao, S. Li, Q. Liu, J. Wu, Y. Fu, C. Han, F. Kang, B. Li, Adv. Mater. 33 (2021) 2007945. [81] N. Piao S. Liu B. Zhang X. Ji X. Fan L. Wang P.F. Wang T. Jin S.C. Liou H. Yang J. Jiang K. Xu M.A. Schroeder X. He C. Wang ACS Energy Lett. 6 2021 1839 1848 N. Piao, S. Liu, B. Zhang, X. Ji, X. Fan, L. Wang, P.F. Wang, T. Jin, S.C. Liou, H. Yang, J. Jiang, K. Xu, M.A. Schroeder, X. He, C. Wang, ACS Energy Lett. 6 (2021) 1839–1848. [82] R. Xu X. Shen X.X. Ma C. Yan X.Q. Zhang X. Chen J.F. Ding J.Q. Huang Angew. Chem. Int. Ed. Engl. 60 2021 4215 4220 R. Xu, X. Shen, X.X. Ma, C. Yan, X.Q. Zhang, X. Chen, J.F. Ding, J.Q. Huang, Angew. Chem. Int. Ed. Engl. 60 (2021) 4215–4220. [83] C. Yan H.R. Li X. Chen X.Q. Zhang X.B. Cheng R. Xu J.Q. Huang Q. Zhang J. Am. Chem. Soc. 141 2019 9422 9429 C. Yan, H.R. Li, X. Chen, X.Q. Zhang, X.B. Cheng, R. Xu, J.Q. Huang, Q. Zhang, J. Am. Chem. Soc. 141 (2019) 9422–9429. [84] J.B. Goodenough K.S. Park J. Am. Chem. Soc. 135 2013 1167 1176 J.B. Goodenough, K.S. Park, J. Am. Chem. Soc. 135 (2013) 1167–1176. [85] L. Fu X. Wang L. Wang M. Wan Y. Li Z. Cai Y. Tan G. Li R. Zhan Z.W. Seh Y. Sun Adv. Funct. Mater. 31 2021 2010602 L. Fu, X. Wang, L. Wang, M. Wan, Y. Li, Z. Cai, Y. Tan, G. Li, R. Zhan, Z.W. Seh, Y. Sun, Adv. Funct. Mater. 31 (2021) 2010602. [86] S. Xiong K. Xie Y. Diao X. Hong J. Power Sources 246 2014 840 845 S. Xiong, K. Xie, Y. Diao, X. Hong, J. Power Sources 246 (2014) 840–845. [87] S. Xiong K. Xie Y. Diao X. Hong Electrochim. Acta 83 2012 78 86 S. Xiong, K. Xie, Y. Diao, X. Hong, Electrochim. Acta 83 (2012) 78–86. [88] W. Cao W. Chen M. Lu C. Zhang D. Tian L. Wang F. Yu J. Energy Chem. 2022 10.1016/j.jechem.2022.09.025 W. Cao, W. Chen, M. Lu, C. Zhang, D. Tian, L. Wang, F. Yu, J. Energy Chem. (2022), DOI: 10.1016/j.jechem.2022.09.025. [89] H. Liu J. Zhang Y. Liu Y. Wei S. Ren L. Pan Y. Su J. Xiao H. Fan Y. Lin Y. Su Y. Zhang J. Energy Chem. 69 2022 421 427 H. Liu, J. Zhang, Y. Liu, Y. Wei, S. Ren, L. Pan, Y. Su, J. Xiao, H. Fan, Y. Lin, Y. Su, Y. Zhang, J. Energy Chem. 69 (2022) 421–427. [90] S. Zhang R. Li N. Hu T. Deng S. Weng Z. Wu D. Lu H. Zhang J. Zhang X. Wang L. Chen L. Fan X. Fan Nat. Commun. 13 2022 5431 S. Zhang, R. Li, N. Hu, T. Deng, S. Weng, Z. Wu, D. Lu, H. Zhang, J. Zhang, X. Wang, L. Chen, L. Fan, X. Fan, Nat. Commun. 13 (2022) 5431. [91] X. Gao Y.N. Zhou D. Han J. Zhou D. Zhou W. Tang J.B. Goodenough Joule 4 2020 1864 1879 X. Gao, Y.N. Zhou, D. Han, J. Zhou, D. Zhou, W. Tang, J.B. Goodenough, Joule 4 (2020) 1864–1879. [92] D.R. Ely R.E. García J. Electrochem. Soc. 160 2013 A662 A668 D.R. Ely, R.E. García, J. Electrochem. Soc. 160 (2013) A662–A668. [93] A. Pei G. Zheng F. Shi Y. Li Y. Cui Nano Lett. 17 2017 1132 1139 A. Pei, G. Zheng, F. Shi, Y. Li, Y. Cui, Nano Lett. 17 (2017) 1132–1139. [94] Y. Liu D. Lin Y. Li G. Chen A. Pei O. Nix Y. Li Y. Cui Nat. Commun. 9 2018 3656 Y. Liu, D. Lin, Y. Li, G. Chen, A. Pei, O. Nix, Y. Li, Y. Cui, Nat. Commun. 9 (2018) 3656. [95] S. Li Q. Liu X. Wang Q. Wu L. Fan W. Zhang Z. Shen L. Wang M. Ling Y. Lu A.C.S. Mater Lett. 2 2019 1 8 S. Li, Q. Liu, X. Wang, Q. Wu, L. Fan, W. Zhang, Z. Shen, L. Wang, M. Ling, Y. Lu, ACS Mater. Lett. 2 (2019) 1–8. [96] J.Y. Hwang S.J. Park C.S. Yoon Y.K. Sun Energy Environ. Sci. 12 2019 2174 2184 J.Y. Hwang, S.J. Park, C.S. Yoon, Y.K. Sun, Energy Environ. Sci. 12 (2019) 2174–2184. [97] H. Yang X. Chen N. Yao N. Piao Z. Wang K. He H.M. Cheng F. Li ACS Energy Lett. 6 2021 1413 1421 H. Yang, X. Chen, N. Yao, N. Piao, Z. Wang, K. He, H.M. Cheng, F. Li, ACS Energy Lett. 6 (2021) 1413–1421. [98] Q. Zhao N.W. Utomo A.L. Kocen S. Jin Y. Deng V.X. Zhu S. Moganty G.W. Coates L.A. Archer Angew. Chem. Int. Ed. Engl. 61 2022 e202116214 Q. Zhao, N.W. Utomo, A.L. Kocen, S. Jin, Y. Deng, V.X. Zhu, S. Moganty, G.W. Coates, L.A. Archer, Angew. Chem. Int. Ed. Engl. 61 (2022) e202116214. [99] S. Zhang G. Yang Z. Liu X. Li X. Wang R. Chen F. Wu Z. Wang L. Chen Nano Lett. 21 2021 3310 3317 S. Zhang, G. Yang, Z. Liu, X. Li, X. Wang, R. Chen, F. Wu, Z. Wang, L. Chen, Nano Lett. 21 (2021) 3310–3317. [100] X.Q. Zhang X. Chen X.B. Cheng B.Q. Li X. Shen C. Yan J.Q. Huang Q. Zhang Angew. Chem. Int. Ed. Engl. 57 2018 5301 5305 X.Q. Zhang, X. Chen, X.B. Cheng, B.Q. Li, X. Shen, C. Yan, J.Q. Huang, Q. Zhang, Angew. Chem. Int. Ed. Engl. 57 (2018) 5301–5305. [101] Y. Jie X. Liu Z. Lei S. Wang Y. Chen F. Huang R. Cao G. Zhang S. Jiao Angew. Chem. Int. Ed. Engl. 59 2020 3505 3510 Y. Jie, X. Liu, Z. Lei, S. Wang, Y. Chen, F. Huang, R. Cao, G. Zhang, S. Jiao, Angew. Chem. Int. Ed. Engl. 59 (2020) 3505–3510. [102] D. Xiao Q. Li D. Luo G. Li H. Liu L. Shui S. Gourley G. Zhou X. Wang Z. Chen Small 16 2020 2004688 D. Xiao, Q. Li, D. Luo, G. Li, H. Liu, L. Shui, S. Gourley, G. Zhou, X. Wang, Z. Chen, Small 16 (2020) 2004688. [103] Z. Wang Y. Wang B. Li J.C. Bouwer K. Davey J. Lu Z. Guo Angew. Chem. Int. Ed. Engl. 61 2022 e202206682 Z. Wang, Y. Wang, B. Li, J.C. Bouwer, K. Davey, J. Lu, Z. Guo, Angew. Chem. Int. Ed. Engl. 61 (2022) e202206682. [104] W. Zhang Q. Wu J. Huang L. Fan Z. Shen Y. He Q. Feng G. Zhu Y. Lu Adv. Mater. 32 2020 2001740 W. Zhang, Q. Wu, J. Huang, L. Fan, Z. Shen, Y. He, Q. Feng, G. Zhu, Y. Lu, Adv. Mater. 32 (2020) 2001740. [105] S. Li W. Zhang Q. Wu L. Fan X. Wang X. Wang Z. Shen Y. He Y. Lu Angew. Chem. Int. Ed. Engl. 59 2020 14935 14941 S. Li, W. Zhang, Q. Wu, L. Fan, X. Wang, X. Wang, Z. Shen, Y. He, Y. Lu, Angew. Chem. Int. Ed. Engl. 59 (2020) 14935–14941. [106] W. Zhang Z. Shen S. Li L. Fan X. Wang F. Chen X. Zang T. Wu F. Ma Y. Lu Adv. Funct. Mater. 30 2020 2003800 W. Zhang, Z. Shen, S. Li, L. Fan, X. Wang, F. Chen, X. Zang, T. Wu, F. Ma, Y. Lu, Adv. Funct. Mater. 30 (2020) 2003800. [107] X. Wang S. Li W. Zhang D. Wang Z. Shen J. Zheng H.L. Zhuang Y. He Y. Lu Nano Energy 89 2021 106353 X. Wang, S. Li, W. Zhang, D. Wang, Z. Shen, J. Zheng, H.L. Zhuang, Y. He, Y. Lu, Nano Energy 89 (2021) 106353. [108] R. Zhao X. Li Y. Si S. Tang W. Guo Y. Fu Energy Storage Mater. 37 2021 1 7 R. Zhao, X. Li, Y. Si, S. Tang, W. Guo, Y. Fu, Energy Storage Mater. 37 (2021) 1–7. [109] H. Liu X. Yue X. Xing Q. Yan J. Huang V. Petrova H. Zhou P. Liu Energy Storage Mater. 16 2019 505 511 H. Liu, X. Yue, X. Xing, Q. Yan, J. Huang, V. Petrova, H. Zhou, P. Liu, Energy Storage Mater. 16 (2019) 505–511. [110] Y. Liu X. Qin D. Zhou H. Xia S. Zhang G. Chen F. Kang B. Li Energy Storage Mater. 24 2020 229 236 Y. Liu, X. Qin, D. Zhou, H. Xia, S. Zhang, G. Chen, F. Kang, B. Li, Energy Storage Mater. 24 (2020) 229–236. [111] Y. Wen J. Ding Y. Yang X. Lan J. Liu R. Hu M. Zhu Adv. Funct. Mater. 32 2021 2109377 Y. Wen, J. Ding, Y. Yang, X. Lan, J. Liu, R. Hu, M. Zhu, Adv. Funct. Mater. 32 (2021) 2109377. [112] D. Liu X. Xiong Q. Liang X. Wu H. Fu Chem. Commun. 57 2021 9232 9235 D. Liu, X. Xiong, Q. Liang, X. Wu, H. Fu, Chem. Commun. 57 (2021) 9232–9235. [113] Z. Wen W. Fang X. Wu Z. Qin H. Kang L. Chen N. Zhang X. Liu G. Chen Adv. Funct. Mater. 32 2022 2204768 Z. Wen, W. Fang, X. Wu, Z. Qin, H. Kang, L. Chen, N. Zhang, X. Liu, G. Chen, Adv. Funct. Mater. 32 (2022) 2204768. [114] M.A. Lee H.J. Leem J. Yu H.S. Kim A.C.S. Appl Mater. Interfaces 14 2022 35645 35653 M.A. Lee, H.J. Leem, J. Yu, H.S. Kim, ACS Appl. Mater. Interfaces 14 (2022) 35645–35653. [115] L.N. Wu J. Peng Y.K. Sun F.M. Han Y.F. Wen C.G. Shi J.J. Fan L. Huang J.T. Li S.G. Sun A.C.S. Appl Mater. Interfaces 11 2019 18504 18510 L.N. Wu, J. Peng, Y.K. Sun, F.M. Han, Y.F. Wen, C.G. Shi, J.J. Fan, L. Huang, J.T. Li, S.G. Sun, ACS Appl. Mater. Interfaces 11 (2019) 18504–18510. [116] Z.L. Brown S. Heiskanen B.L. Lucht J. Electrochem. Soc. 166 2019 A2523 A2527 Z.L. Brown, S. Heiskanen, B.L. Lucht, J. Electrochem. Soc. 166 (2019) A2523–A2527. [117] L.N. Wu J. Peng F.M. Han Y.K. Sun T. Sheng Y.Y. Li Y. Zhou L. Huang J.T. Li S.G. Sun J. Mater. Chem. A 8 2020 4300 4307 L.N. Wu, J. Peng, F.M. Han, Y.K. Sun, T. Sheng, Y.Y. Li, Y. Zhou, L. Huang, J.T. Li, S.G. Sun, J. Mater. Chem. A 8 (2020) 4300–4307. [118] N.A. Sahalie A.A. Assegie W.N. Su Z.T. Wondimkun B.A. Jote B. Thirumalraj C.J. Huang Y.W. Yang B.J. Hwang J. Power Sources 437 2019 226912 N.A. Sahalie, A.A. Assegie, W.N. Su, Z.T. Wondimkun, B.A. Jote, B. Thirumalraj, C.J. Huang, Y.W. Yang, B.J. Hwang, J. Power Sources 437 (2019) 226912. [119] S. Gu S.W. Zhang J. Han Y. Deng C. Luo G. Zhou Y. He G. Wei F. Kang W. Lv Q.H. Yang Adv. Funct. Mater. 31 2021 2102128 S. Gu, S.W. Zhang, J. Han, Y. Deng, C. Luo, G. Zhou, Y. He, G. Wei, F. Kang, W. Lv, Q.H. Yang, Adv. Funct. Mater. 31 (2021) 2102128. [120] Y. Zhu X. Li Y. Si X. Zhang P. Sang Y. Fu J. Energy Chem. 73 2022 422 428 Y. Zhu, X. Li, Y. Si, X. Zhang, P. Sang, Y. Fu, J. Energy Chem. 73 (2022) 422–428. [121] J. Xie S.Y. Sun X. Chen L.P. Hou B.Q. Li H.J. Peng J.Q. Huang X.Q. Zhang Q. Zhang Angew. Chem. Int. Ed. Engl. 61 2022 e202204776 J. Xie, S.Y. Sun, X. Chen, L.P. Hou, B.Q. Li, H.J. Peng, J.Q. Huang, X.Q. Zhang, Q. Zhang, Angew. Chem. Int. Ed. Engl. 61 (2022) e202204776. [122] Y. Zhang Y. Zhong S. Liang B. Wang X. Chen H. Wang A.C.S. Mater Lett. 1 2019 254 259 Y. Zhang, Y. Zhong, S. Liang, B. Wang, X. Chen, H. Wang, ACS Mater. Lett. 1 (2019) 254–259. [123] M. Liu Z. Cheng K. Qian T. Verhallen C. Wang M. Wagemaker Chem. Mater. 31 2019 4564 4574 M. Liu, Z. Cheng, K. Qian, T. Verhallen, C. Wang, M. Wagemaker, Chem. Mater. 31 (2019) 4564–4574. [124] S. Zhou C. Fu Z. Chang Y. Zhang D. Xu Q. He S. Chai X. Meng M. Feng Y. Zhang J. Lin A. Pan Energy Storage Mater. 47 2022 482 490 S. Zhou, C. Fu, Z. Chang, Y. Zhang, D. Xu, Q. He, S. Chai, X. Meng, M. Feng, Y. Zhang, J. Lin, A. Pan, Energy Storage Mater. 47 (2022) 482–490. [125] C. Luo H. Hu T. Zhang S. Wen R. Wang Y. An S.S. Chi J. Wang C. Wang J. Chang Z. Zheng Y. Deng Adv. Mater. 34 2022 2205677 C. Luo, H. Hu, T. Zhang, S. Wen, R. Wang, Y. An, S.S. Chi, J. Wang, C. Wang, J. Chang, Z. Zheng, Y. Deng, Adv. Mater. 34 (2022) 2205677. [126] S. Cho D.Y. Kim J.I. Lee J. Kang H. Lee G. Kim D.H. Seo S. Park Adv. Funct. Mater. 2022 10.1002/adfm.202208629 S. Cho, D.Y. Kim, J.I. Lee, J. Kang, H. Lee, G. Kim, D.H. Seo, S. Park, Adv. Funct. Mater. (2022), doi: 10.1002/adfm.202208629. [127] J.I. Lee S. Cho T.T. Vu S. Kim S. Ryu J. Moon S. Park Energy Storage Mater. 38 2021 509 519 J.I. Lee, S. Cho, T.T. Vu, S. Kim, S. Ryu, J. Moon, S. Park, Energy Storage Mater. 38 (2021) 509–519. [128] H. Yang Q. Liu Y. Wang Z. Ma P. Tang X. Zhang H.M. Cheng Z. Sun F. Li Small 18 2022 2202349 H. Yang, Q. Liu, Y. Wang, Z. Ma, P. Tang, X. Zhang, H.M. Cheng, Z. Sun, F. Li, Small 18 (2022) 2202349. [129] X. Wang H. Wang M. Liu W. Li Small 16 2020 2000769 X. Wang, H. Wang, M. Liu, W. Li, Small 16 (2020) 2000769. [130] Q. Liu Y. Xu J. Wang B. Zhao Z. Li H.B. Wu Nano-micro. Lett. 12 2020 176 Q. Liu, Y. Xu, J. Wang, B. Zhao, Z. Li, H.B. Wu, Nano-micro. Lett. 12 (2020) 176. [131] X. Li S. Guo H. Deng K. Jiang Y. Qiao M. Ishida H. Zhou J. Mater. Chem. A 6 2018 15517 15522 X. Li, S. Guo, H. Deng, K. Jiang, Y. Qiao, M. Ishida, H. Zhou, J. Mater. Chem. A 6 (2018) 15517–15522. [132] L. Fu X. Wang Z. Chen Y. Li E. Mao Z.W. Seh Y. Sun Carbon Energy 4 2022 12 20 L. Fu, X. Wang, Z. Chen, Y. Li, E. Mao, Z.W. Seh, Y. Sun, Carbon Energy 4 (2022) 12–20. [133] L.P. Hou N. Yao J. Xie P. Shi S.Y. Sun C.B. Jin C.M. Chen Q.B. Liu B.Q. Li X.Q. Zhang Q. Zhang Angew. Chem. 134 2022 e202201406 L.P. Hou, N. Yao, J. Xie, P. Shi, S.Y. Sun, C.B. Jin, C.M. Chen, Q.B. Liu, B.Q. Li, X.Q. Zhang, Q. Zhang, Angew. Chem. 134 (2022) e202201406. Kun Wang received his B.S. degree in 2017 and M.S. degree in 2020 at Central South University. He is now pursuing his Ph.D. degree under the supervision of Prof. Chengdu Liang and Prof. Min Ling at Zhejiang University. His research interest focuses on electrolyte and interface for lithium-metal batteries. Jun Chen received his Ph.D. degree in 2021 at Beijing Normal University, China. Currently, he is working as a full faculty member at Institute of Zhejiang University-Quzhou. His research interest focuses on electrodes (modified by ion beam technology), binders and electrolytes for energy storage applications including lithium-ion batteries, sodium-ion batteries, and lithium-metal batteries. Min Ling received his Ph.D. degree in 2015 at Griffith University, Australia. Afterward, he was a postdoctoral fellow at Lawrence Berkeley National Lab until 2017. Currently, he is working as a full faculty member at Zhejiang University. His research interest focuses on binders and electrolytes for energy storage applications including lithium-ion batteries, sodium-ion batteries, lithium-metal batteries, and lithium-sulfur batteries. Chengdu Liang received his Ph.D. in 2005 in Materials Chemistry and Analytical Chemistry at the University of Tennessee Knoxville, America. After a short period of postdoctoral research at the Chemical Science Division of Oak Ridge National Laboratory (ORNL), he started his career as a staff scientist at the Center for Nanophase Materials Sciences of ORNL in 2006. Currently, he is working as a full faculty member at Zhejiang University. His research interest focuses on the synthesis of advanced materials for energy storage applications including lithium-ion batteries, lithium-sulfur batteries, sodium-ion batteries, fuel cells, and heterogeneous catalysis.",
+      "scopus-id": "85145328539",
+      "coredata": {
+        "eid": "1-s2.0-S2095495622006143",
+        "dc:description": "Li-metal batteries (LMBs) regain research prominence owing to the ever-increasing high-energy requirements. Commercially available carbonate electrolytes exhibit unfavourable parasitic reactions with Li-metal anode (LMA), leading to the formation of unstable solid electrolyte interphase (SEI) and the breed of Li dendrites/dead Li. Significantly, lithium nitrate (LiNO3), an excellent film-forming additive, proves crucial to construct a robust Li3N/Li2O/Li x NO y -rich SEI after combining with ether-based electrolytes. Thus, the given challenge leads to natural ideas which suggest the incorporation of LiNO3 into commercial carbonate for practical LMBs. Regrettably, LiNO3 demonstrates limited solubility (∼800 ppm) in commercial carbonate electrolytes. Thence, developing stable SEI and dendrite-free LMA with the incorporation of LiNO3 into carbonate electrolytes is an efficacious strategy to realize robust LMBs via a scalable and cost-effective route. Therefore, this review unravels the grievances between LMA, LiNO3 and carbonate electrolytes, and enables a comprehensive analysis of LMA stabilizing mechanism with LiNO3, dissolution principle of LiNO3 in carbonate electrolytes, and LiNO3 introduction strategies. This review converges attention on a point that the LiNO3-introduction into commercial carbonate electrolytes is an imperious choice to realize practical LMBs with commercial 4 V layered cathode.",
+        "openArchiveArticle": "false",
+        "prism:coverDate": "2023-02-28",
+        "openaccessUserLicense": null,
+        "prism:aggregationType": "Journal",
+        "prism:url": "https://api.elsevier.com/content/article/pii/S2095495622006143",
+        "dc:creator": [
+          {
+            "@_fa": "true",
+            "$": "Wang, Kun"
+          },
+          {
+            "@_fa": "true",
+            "$": "Ni, Wenbing"
+          },
+          {
+            "@_fa": "true",
+            "$": "Wang, Liguang"
+          },
+          {
+            "@_fa": "true",
+            "$": "Gan, Lu"
+          },
+          {
+            "@_fa": "true",
+            "$": "Zhao, Jing"
+          },
+          {
+            "@_fa": "true",
+            "$": "Wan, Zhengwei"
+          },
+          {
+            "@_fa": "true",
+            "$": "Jiang, Wei"
+          },
+          {
+            "@_fa": "true",
+            "$": "Ahmad, Waqar"
+          },
+          {
+            "@_fa": "true",
+            "$": "Tian, Miaomiao"
+          },
+          {
+            "@_fa": "true",
+            "$": "Ling, Min"
+          },
+          {
+            "@_fa": "true",
+            "$": "Chen, Jun"
+          },
+          {
+            "@_fa": "true",
+            "$": "Liang, Chengdu"
+          }
+        ],
+        "link": [
+          {
+            "@_fa": "true",
+            "@rel": "self",
+            "@href": "https://api.elsevier.com/content/article/pii/S2095495622006143"
+          },
+          {
+            "@_fa": "true",
+            "@rel": "scidir",
+            "@href": "https://www.sciencedirect.com/science/article/pii/S2095495622006143"
+          }
+        ],
+        "dc:format": "application/json",
+        "openaccessType": null,
+        "pii": "S2095-4956(22)00614-3",
+        "prism:volume": "77",
+        "prism:publisher": "Science Press and Dalian Institute of Chemical Physics, Chinese Academy of Sciences.",
+        "dc:title": "Lithium nitrate regulated carbonate electrolytes for practical Li-metal batteries: Mechanisms, principles and strategies",
+        "prism:copyright": "© 2022 Science Press and Dalian Institute of Chemical Physics, Chinese Academy of Sciences. All rights reserved.",
+        "openaccess": "0",
+        "prism:issn": "20954956",
+        "dcterms:subject": [
+          {
+            "@_fa": "true",
+            "$": "Li-metal battery"
+          },
+          {
+            "@_fa": "true",
+            "$": "Carbonate electrolyte"
+          },
+          {
+            "@_fa": "true",
+            "$": "Lithium nitrate"
+          },
+          {
+            "@_fa": "true",
+            "$": "Stabilization mechanism"
+          },
+          {
+            "@_fa": "true",
+            "$": "Dissolution principle"
+          },
+          {
+            "@_fa": "true",
+            "$": "Introduction strategy"
+          }
+        ],
+        "openaccessArticle": "false",
+        "prism:publicationName": "Journal of Energy Chemistry",
+        "openaccessSponsorType": null,
+        "prism:pageRange": "581-600",
+        "prism:endingPage": "600",
+        "pubType": "rev",
+        "prism:coverDisplayDate": "February 2023",
+        "prism:doi": "10.1016/j.jechem.2022.11.017",
+        "prism:startingPage": "581",
+        "dc:identifier": "doi:10.1016/j.jechem.2022.11.017",
+        "openaccessSponsorName": null
+      },
+      "objects": {
+        "object": [
+          {
+            "@category": "standard",
+            "@height": "155",
+            "@width": "111",
+            "@_fa": "true",
+            "$": "https://api.elsevier.com/content/object/eid/1-s2.0-S2095495622006143-fx1.jpg?httpAccept=%2A%2F%2A",
+            "@multimediatype": "JPEG image file",
+            "@type": "IMAGE-DOWNSAMPLED",
+            "@size": "5382",
+            "@ref": "fx1",
+            "@mimetype": "image/jpeg"
+          },
+          {
+            "@category": "standard",
+            "@height": "155",
+            "@width": "111",
+            "@_fa": "true",
+            "$": "https://api.elsevier.com/content/object/eid/1-s2.0-S2095495622006143-fx2.jpg?httpAccept=%2A%2F%2A",
+            "@multimediatype": "JPEG image file",
+            "@type": "IMAGE-DOWNSAMPLED",
+            "@size": "4670",
+            "@ref": "fx2",
+            "@mimetype": "image/jpeg"
+          },
+          {
+            "@category": "standard",
+            "@height": "155",
+            "@width": "111",
+            "@_fa": "true",
+            "$": "https://api.elsevier.com/content/object/eid/1-s2.0-S2095495622006143-fx3.jpg?httpAccept=%2A%2F%2A",
+            "@multimediatype": "JPEG image file",
+            "@type": "IMAGE-DOWNSAMPLED",
+            "@size": "5989",
+            "@ref": "fx3",
+            "@mimetype": "image/jpeg"
+          },
+          {
+            "@category": "standard",
+            "@height": "155",
+            "@width": "111",
+            "@_fa": "true",
+            "$": "https://api.elsevier.com/content/object/eid/1-s2.0-S2095495622006143-fx4.jpg?httpAccept=%2A%2F%2A",
+            "@multimediatype": "JPEG image file",
+            "@type": "IMAGE-DOWNSAMPLED",
+            "@size": "5906",
+            "@ref": "fx4",
+            "@mimetype": "image/jpeg"
+          },
+          {
+            "@category": "standard",
+            "@height": "245",
+            "@width": "245",
+            "@_fa": "true",
+            "$": "https://api.elsevier.com/content/object/eid/1-s2.0-S2095495622006143-ga1.jpg?httpAccept=%2A%2F%2A",
+            "@multimediatype": "JPEG image file",
+            "@type": "IMAGE-DOWNSAMPLED",
+            "@size": "28230",
+            "@ref": "ga1",
+            "@mimetype": "image/jpeg"
+          },
+          {
+            "@category": "standard",
+            "@height": "708",
+            "@width": "708",
+            "@_fa": "true",
+            "$": "https://api.elsevier.com/content/object/eid/1-s2.0-S2095495622006143-gr1.jpg?httpAccept=%2A%2F%2A",
+            "@multimediatype": "JPEG image file",
+            "@type": "IMAGE-DOWNSAMPLED",
+            "@size": "156671",
+            "@ref": "gr1",
+            "@mimetype": "image/jpeg"
+          },
+          {
+            "@category": "standard",
+            "@height": "629",
+            "@width": "758",
+            "@_fa": "true",
+            "$": "https://api.elsevier.com/content/object/eid/1-s2.0-S2095495622006143-gr10.jpg?httpAccept=%2A%2F%2A",
+            "@multimediatype": "JPEG image file",
+            "@type": "IMAGE-DOWNSAMPLED",
+            "@size": "157669",
+            "@ref": "gr10",
+            "@mimetype": "image/jpeg"
+          },
+          {
+            "@category": "standard",
+            "@height": "549",
+            "@width": "758",
+            "@_fa": "true",
+            "$": "https://api.elsevier.com/content/object/eid/1-s2.0-S2095495622006143-gr11.jpg?httpAccept=%2A%2F%2A",
+            "@multimediatype": "JPEG image file",
+            "@type": "IMAGE-DOWNSAMPLED",
+            "@size": "154126",
+            "@ref": "gr11",
+            "@mimetype": "image/jpeg"
+          },
+          {
+            "@category": "standard",
+            "@height": "572",
+            "@width": "657",
+            "@_fa": "true",
+            "$": "https://api.elsevier.com/content/object/eid/1-s2.0-S2095495622006143-gr12.jpg?httpAccept=%2A%2F%2A",
+            "@multimediatype": "JPEG image file",
+            "@type": "IMAGE-DOWNSAMPLED",
+            "@size": "146153",
+            "@ref": "gr12",
+            "@mimetype": "image/jpeg"
+          },
+          {
+            "@category": "standard",
+            "@height": "691",
+            "@width": "754",
+            "@_fa": "true",
+            "$": "https://api.elsevier.com/content/object/eid/1-s2.0-S2095495622006143-gr13.jpg?httpAccept=%2A%2F%2A",
+            "@multimediatype": "JPEG image file",
+            "@type": "IMAGE-DOWNSAMPLED",
+            "@size": "180882",
+            "@ref": "gr13",
+            "@mimetype": "image/jpeg"
+          },
+          {
+            "@category": "standard",
+            "@height": "609",
+            "@width": "756",
+            "@_fa": "true",
+            "$": "https://api.elsevier.com/content/object/eid/1-s2.0-S2095495622006143-gr14.jpg?httpAccept=%2A%2F%2A",
+            "@multimediatype": "JPEG image file",
+            "@type": "IMAGE-DOWNSAMPLED",
+            "@size": "153436",
+            "@ref": "gr14",
+            "@mimetype": "image/jpeg"
+          },
+          {
+            "@category": "standard",
+            "@height": "277",
+            "@width": "628",
+            "@_fa": "true",
+            "$": "https://api.elsevier.com/content/object/eid/1-s2.0-S2095495622006143-gr15.jpg?httpAccept=%2A%2F%2A",
+            "@multimediatype": "JPEG image file",
+            "@type": "IMAGE-DOWNSAMPLED",
+            "@size": "65351",
+            "@ref": "gr15",
+            "@mimetype": "image/jpeg"
+          },
+          {
+            "@category": "standard",
+            "@height": "582",
+            "@width": "759",
+            "@_fa": "true",
+            "$": "https://api.elsevier.com/content/object/eid/1-s2.0-S2095495622006143-gr2.jpg?httpAccept=%2A%2F%2A",
+            "@multimediatype": "JPEG image file",
+            "@type": "IMAGE-DOWNSAMPLED",
+            "@size": "180317",
+            "@ref": "gr2",
+            "@mimetype": "image/jpeg"
+          },
+          {
+            "@category": "standard",
+            "@height": "473",
+            "@width": "628",
+            "@_fa": "true",
+            "$": "https://api.elsevier.com/content/object/eid/1-s2.0-S2095495622006143-gr3.jpg?httpAccept=%2A%2F%2A",
+            "@multimediatype": "JPEG image file",
+            "@type": "IMAGE-DOWNSAMPLED",
+            "@size": "141389",
+            "@ref": "gr3",
+            "@mimetype": "image/jpeg"
+          },
+          {
+            "@category": "standard",
+            "@height": "458",
+            "@width": "756",
+            "@_fa": "true",
+            "$": "https://api.elsevier.com/content/object/eid/1-s2.0-S2095495622006143-gr4.jpg?httpAccept=%2A%2F%2A",
+            "@multimediatype": "JPEG image file",
+            "@type": "IMAGE-DOWNSAMPLED",
+            "@size": "144621",
+            "@ref": "gr4",
+            "@mimetype": "image/jpeg"
+          },
+          {
+            "@category": "standard",
+            "@height": "385",
+            "@width": "535",
+            "@_fa": "true",
+            "$": "https://api.elsevier.com/content/object/eid/1-s2.0-S2095495622006143-gr5.jpg?httpAccept=%2A%2F%2A",
+            "@multimediatype": "JPEG image file",
+            "@type": "IMAGE-DOWNSAMPLED",
+            "@size": "66017",
+            "@ref": "gr5",
+            "@mimetype": "image/jpeg"
+          },
+          {
+            "@category": "standard",
+            "@height": "623",
+            "@width": "754",
+            "@_fa": "true",
+            "$": "https://api.elsevier.com/content/object/eid/1-s2.0-S2095495622006143-gr6.jpg?httpAccept=%2A%2F%2A",
+            "@multimediatype": "JPEG image file",
+            "@type": "IMAGE-DOWNSAMPLED",
+            "@size": "141148",
+            "@ref": "gr6",
+            "@mimetype": "image/jpeg"
+          },
+          {
+            "@category": "standard",
+            "@height": "543",
+            "@width": "751",
+            "@_fa": "true",
+            "$": "https://api.elsevier.com/content/object/eid/1-s2.0-S2095495622006143-gr7.jpg?httpAccept=%2A%2F%2A",
+            "@multimediatype": "JPEG image file",
+            "@type": "IMAGE-DOWNSAMPLED",
+            "@size": "184635",
+            "@ref": "gr7",
+            "@mimetype": "image/jpeg"
+          },
+          {
+            "@category": "standard",
+            "@height": "611",
+            "@width": "753",
+            "@_fa": "true",
+            "$": "https://api.elsevier.com/content/object/eid/1-s2.0-S2095495622006143-gr8.jpg?httpAccept=%2A%2F%2A",
+            "@multimediatype": "JPEG image file",
+            "@type": "IMAGE-DOWNSAMPLED",
+            "@size": "182721",
+            "@ref": "gr8",
+            "@mimetype": "image/jpeg"
+          },
+          {
+            "@category": "standard",
+            "@height": "502",
+            "@width": "628",
+            "@_fa": "true",
+            "$": "https://api.elsevier.com/content/object/eid/1-s2.0-S2095495622006143-gr9.jpg?httpAccept=%2A%2F%2A",
+            "@multimediatype": "JPEG image file",
+            "@type": "IMAGE-DOWNSAMPLED",
+            "@size": "136660",
+            "@ref": "gr9",
+            "@mimetype": "image/jpeg"
+          },
+          {
+            "@category": "thumbnail",
+            "@height": "164",
+            "@width": "117",
+            "@_fa": "true",
+            "$": "https://api.elsevier.com/content/object/eid/1-s2.0-S2095495622006143-fx1.sml?httpAccept=%2A%2F%2A",
+            "@multimediatype": "GIF image file",
+            "@type": "IMAGE-THUMBNAIL",
+            "@size": "10736",
+            "@ref": "fx1",
+            "@mimetype": "image/gif"
+          },
+          {
+            "@category": "thumbnail",
+            "@height": "164",
+            "@width": "117",
+            "@_fa": "true",
+            "$": "https://api.elsevier.com/content/object/eid/1-s2.0-S2095495622006143-fx2.sml?httpAccept=%2A%2F%2A",
+            "@multimediatype": "GIF image file",
+            "@type": "IMAGE-THUMBNAIL",
+            "@size": "13825",
+            "@ref": "fx2",
+            "@mimetype": "image/gif"
+          },
+          {
+            "@category": "thumbnail",
+            "@height": "164",
+            "@width": "117",
+            "@_fa": "true",
+            "$": "https://api.elsevier.com/content/object/eid/1-s2.0-S2095495622006143-fx3.sml?httpAccept=%2A%2F%2A",
+            "@multimediatype": "GIF image file",
+            "@type": "IMAGE-THUMBNAIL",
+            "@size": "12717",
+            "@ref": "fx3",
+            "@mimetype": "image/gif"
+          },
+          {
+            "@category": "thumbnail",
+            "@height": "164",
+            "@width": "117",
+            "@_fa": "true",
+            "$": "https://api.elsevier.com/content/object/eid/1-s2.0-S2095495622006143-fx4.sml?httpAccept=%2A%2F%2A",
+            "@multimediatype": "GIF image file",
+            "@type": "IMAGE-THUMBNAIL",
+            "@size": "12669",
+            "@ref": "fx4",
+            "@mimetype": "image/gif"
+          },
+          {
+            "@category": "thumbnail",
+            "@height": "164",
+            "@width": "164",
+            "@_fa": "true",
+            "$": "https://api.elsevier.com/content/object/eid/1-s2.0-S2095495622006143-ga1.sml?httpAccept=%2A%2F%2A",
+            "@multimediatype": "GIF image file",
+            "@type": "IMAGE-THUMBNAIL",
+            "@size": "17718",
+            "@ref": "ga1",
+            "@mimetype": "image/gif"
+          },
+          {
+            "@category": "thumbnail",
+            "@height": "164",
+            "@width": "164",
+            "@_fa": "true",
+            "$": "https://api.elsevier.com/content/object/eid/1-s2.0-S2095495622006143-gr1.sml?httpAccept=%2A%2F%2A",
+            "@multimediatype": "GIF image file",
+            "@type": "IMAGE-THUMBNAIL",
+            "@size": "17538",
+            "@ref": "gr1",
+            "@mimetype": "image/gif"
+          },
+          {
+            "@category": "thumbnail",
+            "@height": "163",
+            "@width": "197",
+            "@_fa": "true",
+            "$": "https://api.elsevier.com/content/object/eid/1-s2.0-S2095495622006143-gr10.sml?httpAccept=%2A%2F%2A",
+            "@multimediatype": "GIF image file",
+            "@type": "IMAGE-THUMBNAIL",
+            "@size": "18532",
+            "@ref": "gr10",
+            "@mimetype": "image/gif"
+          },
+          {
+            "@category": "thumbnail",
+            "@height": "159",
+            "@width": "219",
+            "@_fa": "true",
+            "$": "https://api.elsevier.com/content/object/eid/1-s2.0-S2095495622006143-gr11.sml?httpAccept=%2A%2F%2A",
+            "@multimediatype": "GIF image file",
+            "@type": "IMAGE-THUMBNAIL",
+            "@size": "21439",
+            "@ref": "gr11",
+            "@mimetype": "image/gif"
+          },
+          {
+            "@category": "thumbnail",
+            "@height": "164",
+            "@width": "188",
+            "@_fa": "true",
+            "$": "https://api.elsevier.com/content/object/eid/1-s2.0-S2095495622006143-gr12.sml?httpAccept=%2A%2F%2A",
+            "@multimediatype": "GIF image file",
+            "@type": "IMAGE-THUMBNAIL",
+            "@size": "17848",
+            "@ref": "gr12",
+            "@mimetype": "image/gif"
+          },
+          {
+            "@category": "thumbnail",
+            "@height": "164",
+            "@width": "179",
+            "@_fa": "true",
+            "$": "https://api.elsevier.com/content/object/eid/1-s2.0-S2095495622006143-gr13.sml?httpAccept=%2A%2F%2A",
+            "@multimediatype": "GIF image file",
+            "@type": "IMAGE-THUMBNAIL",
+            "@size": "15793",
+            "@ref": "gr13",
+            "@mimetype": "image/gif"
+          },
+          {
+            "@category": "thumbnail",
+            "@height": "163",
+            "@width": "203",
+            "@_fa": "true",
+            "$": "https://api.elsevier.com/content/object/eid/1-s2.0-S2095495622006143-gr14.sml?httpAccept=%2A%2F%2A",
+            "@multimediatype": "GIF image file",
+            "@type": "IMAGE-THUMBNAIL",
+            "@size": "18844",
+            "@ref": "gr14",
+            "@mimetype": "image/gif"
+          },
+          {
+            "@category": "thumbnail",
+            "@height": "97",
+            "@width": "219",
+            "@_fa": "true",
+            "$": "https://api.elsevier.com/content/object/eid/1-s2.0-S2095495622006143-gr15.sml?httpAccept=%2A%2F%2A",
+            "@multimediatype": "GIF image file",
+            "@type": "IMAGE-THUMBNAIL",
+            "@size": "9161",
+            "@ref": "gr15",
+            "@mimetype": "image/gif"
+          },
+          {
+            "@category": "thumbnail",
+            "@height": "164",
+            "@width": "214",
+            "@_fa": "true",
+            "$": "https://api.elsevier.com/content/object/eid/1-s2.0-S2095495622006143-gr2.sml?httpAccept=%2A%2F%2A",
+            "@multimediatype": "GIF image file",
+            "@type": "IMAGE-THUMBNAIL",
+            "@size": "21445",
+            "@ref": "gr2",
+            "@mimetype": "image/gif"
+          },
+          {
+            "@category": "thumbnail",
+            "@height": "164",
+            "@width": "217",
+            "@_fa": "true",
+            "$": "https://api.elsevier.com/content/object/eid/1-s2.0-S2095495622006143-gr3.sml?httpAccept=%2A%2F%2A",
+            "@multimediatype": "GIF image file",
+            "@type": "IMAGE-THUMBNAIL",
+            "@size": "21390",
+            "@ref": "gr3",
+            "@mimetype": "image/gif"
+          },
+          {
+            "@category": "thumbnail",
+            "@height": "133",
+            "@width": "219",
+            "@_fa": "true",
+            "$": "https://api.elsevier.com/content/object/eid/1-s2.0-S2095495622006143-gr4.sml?httpAccept=%2A%2F%2A",
+            "@multimediatype": "GIF image file",
+            "@type": "IMAGE-THUMBNAIL",
+            "@size": "20691",
+            "@ref": "gr4",
+            "@mimetype": "image/gif"
+          },
+          {
+            "@category": "thumbnail",
+            "@height": "158",
+            "@width": "219",
+            "@_fa": "true",
+            "$": "https://api.elsevier.com/content/object/eid/1-s2.0-S2095495622006143-gr5.sml?httpAccept=%2A%2F%2A",
+            "@multimediatype": "GIF image file",
+            "@type": "IMAGE-THUMBNAIL",
+            "@size": "11860",
+            "@ref": "gr5",
+            "@mimetype": "image/gif"
+          },
+          {
+            "@category": "thumbnail",
+            "@height": "164",
+            "@width": "198",
+            "@_fa": "true",
+            "$": "https://api.elsevier.com/content/object/eid/1-s2.0-S2095495622006143-gr6.sml?httpAccept=%2A%2F%2A",
+            "@multimediatype": "GIF image file",
+            "@type": "IMAGE-THUMBNAIL",
+            "@size": "12988",
+            "@ref": "gr6",
+            "@mimetype": "image/gif"
+          },
+          {
+            "@category": "thumbnail",
+            "@height": "158",
+            "@width": "219",
+            "@_fa": "true",
+            "$": "https://api.elsevier.com/content/object/eid/1-s2.0-S2095495622006143-gr7.sml?httpAccept=%2A%2F%2A",
+            "@multimediatype": "GIF image file",
+            "@type": "IMAGE-THUMBNAIL",
+            "@size": "21354",
+            "@ref": "gr7",
+            "@mimetype": "image/gif"
+          },
+          {
+            "@category": "thumbnail",
+            "@height": "164",
+            "@width": "202",
+            "@_fa": "true",
+            "$": "https://api.elsevier.com/content/object/eid/1-s2.0-S2095495622006143-gr8.sml?httpAccept=%2A%2F%2A",
+            "@multimediatype": "GIF image file",
+            "@type": "IMAGE-THUMBNAIL",
+            "@size": "20083",
+            "@ref": "gr8",
+            "@mimetype": "image/gif"
+          },
+          {
+            "@category": "thumbnail",
+            "@height": "164",
+            "@width": "205",
+            "@_fa": "true",
+            "$": "https://api.elsevier.com/content/object/eid/1-s2.0-S2095495622006143-gr9.sml?httpAccept=%2A%2F%2A",
+            "@multimediatype": "GIF image file",
+            "@type": "IMAGE-THUMBNAIL",
+            "@size": "21634",
+            "@ref": "gr9",
+            "@mimetype": "image/gif"
+          },
+          {
+            "@category": "high",
+            "@height": "689",
+            "@width": "492",
+            "@_fa": "true",
+            "$": "https://api.elsevier.com/content/object/eid/1-s2.0-S2095495622006143-fx1_lrg.jpg?httpAccept=%2A%2F%2A",
+            "@multimediatype": "JPEG image file",
+            "@type": "IMAGE-HIGH-RES",
+            "@size": "34778",
+            "@ref": "fx1",
+            "@mimetype": "image/jpeg"
+          },
+          {
+            "@category": "high",
+            "@height": "689",
+            "@width": "492",
+            "@_fa": "true",
+            "$": "https://api.elsevier.com/content/object/eid/1-s2.0-S2095495622006143-fx2_lrg.jpg?httpAccept=%2A%2F%2A",
+            "@multimediatype": "JPEG image file",
+            "@type": "IMAGE-HIGH-RES",
+            "@size": "27661",
+            "@ref": "fx2",
+            "@mimetype": "image/jpeg"
+          },
+          {
+            "@category": "high",
+            "@height": "689",
+            "@width": "492",
+            "@_fa": "true",
+            "$": "https://api.elsevier.com/content/object/eid/1-s2.0-S2095495622006143-fx3_lrg.jpg?httpAccept=%2A%2F%2A",
+            "@multimediatype": "JPEG image file",
+            "@type": "IMAGE-HIGH-RES",
+            "@size": "37569",
+            "@ref": "fx3",
+            "@mimetype": "image/jpeg"
+          },
+          {
+            "@category": "high",
+            "@height": "689",
+            "@width": "492",
+            "@_fa": "true",
+            "$": "https://api.elsevier.com/content/object/eid/1-s2.0-S2095495622006143-fx4_lrg.jpg?httpAccept=%2A%2F%2A",
+            "@multimediatype": "JPEG image file",
+            "@type": "IMAGE-HIGH-RES",
+            "@size": "45578",
+            "@ref": "fx4",
+            "@mimetype": "image/jpeg"
+          },
+          {
+            "@category": "high",
+            "@height": "1085",
+            "@width": "1085",
+            "@_fa": "true",
+            "$": "https://api.elsevier.com/content/object/eid/1-s2.0-S2095495622006143-ga1_lrg.jpg?httpAccept=%2A%2F%2A",
+            "@multimediatype": "JPEG image file",
+            "@type": "IMAGE-HIGH-RES",
+            "@size": "188739",
+            "@ref": "ga1",
+            "@mimetype": "image/jpeg"
+          },
+          {
+            "@category": "high",
+            "@height": "3139",
+            "@width": "3137",
+            "@_fa": "true",
+            "$": "https://api.elsevier.com/content/object/eid/1-s2.0-S2095495622006143-gr1_lrg.jpg?httpAccept=%2A%2F%2A",
+            "@multimediatype": "JPEG image file",
+            "@type": "IMAGE-HIGH-RES",
+            "@size": "943285",
+            "@ref": "gr1",
+            "@mimetype": "image/jpeg"
+          },
+          {
+            "@category": "high",
+            "@height": "2783",
+            "@width": "3354",
+            "@_fa": "true",
+            "$": "https://api.elsevier.com/content/object/eid/1-s2.0-S2095495622006143-gr10_lrg.jpg?httpAccept=%2A%2F%2A",
+            "@multimediatype": "JPEG image file",
+            "@type": "IMAGE-HIGH-RES",
+            "@size": "898278",
+            "@ref": "gr10",
+            "@mimetype": "image/jpeg"
+          },
+          {
+            "@category": "high",
+            "@height": "2431",
+            "@width": "3354",
+            "@_fa": "true",
+            "$": "https://api.elsevier.com/content/object/eid/1-s2.0-S2095495622006143-gr11_lrg.jpg?httpAccept=%2A%2F%2A",
+            "@multimediatype": "JPEG image file",
+            "@type": "IMAGE-HIGH-RES",
+            "@size": "864440",
+            "@ref": "gr11",
+            "@mimetype": "image/jpeg"
+          },
+          {
+            "@category": "high",
+            "@height": "2531",
+            "@width": "2908",
+            "@_fa": "true",
+            "$": "https://api.elsevier.com/content/object/eid/1-s2.0-S2095495622006143-gr12_lrg.jpg?httpAccept=%2A%2F%2A",
+            "@multimediatype": "JPEG image file",
+            "@type": "IMAGE-HIGH-RES",
+            "@size": "766268",
+            "@ref": "gr12",
+            "@mimetype": "image/jpeg"
+          },
+          {
+            "@category": "high",
+            "@height": "3063",
+            "@width": "3340",
+            "@_fa": "true",
+            "$": "https://api.elsevier.com/content/object/eid/1-s2.0-S2095495622006143-gr13_lrg.jpg?httpAccept=%2A%2F%2A",
+            "@multimediatype": "JPEG image file",
+            "@type": "IMAGE-HIGH-RES",
+            "@size": "968192",
+            "@ref": "gr13",
+            "@mimetype": "image/jpeg"
+          },
+          {
+            "@category": "high",
+            "@height": "2696",
+            "@width": "3348",
+            "@_fa": "true",
+            "$": "https://api.elsevier.com/content/object/eid/1-s2.0-S2095495622006143-gr14_lrg.jpg?httpAccept=%2A%2F%2A",
+            "@multimediatype": "JPEG image file",
+            "@type": "IMAGE-HIGH-RES",
+            "@size": "888826",
+            "@ref": "gr14",
+            "@mimetype": "image/jpeg"
+          },
+          {
+            "@category": "high",
+            "@height": "1228",
+            "@width": "2782",
+            "@_fa": "true",
+            "$": "https://api.elsevier.com/content/object/eid/1-s2.0-S2095495622006143-gr15_lrg.jpg?httpAccept=%2A%2F%2A",
+            "@multimediatype": "JPEG image file",
+            "@type": "IMAGE-HIGH-RES",
+            "@size": "352765",
+            "@ref": "gr15",
+            "@mimetype": "image/jpeg"
+          },
+          {
+            "@category": "high",
+            "@height": "2579",
+            "@width": "3362",
+            "@_fa": "true",
+            "$": "https://api.elsevier.com/content/object/eid/1-s2.0-S2095495622006143-gr2_lrg.jpg?httpAccept=%2A%2F%2A",
+            "@multimediatype": "JPEG image file",
+            "@type": "IMAGE-HIGH-RES",
+            "@size": "1038016",
+            "@ref": "gr2",
+            "@mimetype": "image/jpeg"
+          },
+          {
+            "@category": "high",
+            "@height": "2097",
+            "@width": "2782",
+            "@_fa": "true",
+            "$": "https://api.elsevier.com/content/object/eid/1-s2.0-S2095495622006143-gr3_lrg.jpg?httpAccept=%2A%2F%2A",
+            "@multimediatype": "JPEG image file",
+            "@type": "IMAGE-HIGH-RES",
+            "@size": "808757",
+            "@ref": "gr3",
+            "@mimetype": "image/jpeg"
+          },
+          {
+            "@category": "high",
+            "@height": "2029",
+            "@width": "3348",
+            "@_fa": "true",
+            "$": "https://api.elsevier.com/content/object/eid/1-s2.0-S2095495622006143-gr4_lrg.jpg?httpAccept=%2A%2F%2A",
+            "@multimediatype": "JPEG image file",
+            "@type": "IMAGE-HIGH-RES",
+            "@size": "978003",
+            "@ref": "gr4",
+            "@mimetype": "image/jpeg"
+          },
+          {
+            "@category": "high",
+            "@height": "1706",
+            "@width": "2368",
+            "@_fa": "true",
+            "$": "https://api.elsevier.com/content/object/eid/1-s2.0-S2095495622006143-gr5_lrg.jpg?httpAccept=%2A%2F%2A",
+            "@multimediatype": "JPEG image file",
+            "@type": "IMAGE-HIGH-RES",
+            "@size": "367211",
+            "@ref": "gr5",
+            "@mimetype": "image/jpeg"
+          },
+          {
+            "@category": "high",
+            "@height": "2760",
+            "@width": "3340",
+            "@_fa": "true",
+            "$": "https://api.elsevier.com/content/object/eid/1-s2.0-S2095495622006143-gr6_lrg.jpg?httpAccept=%2A%2F%2A",
+            "@multimediatype": "JPEG image file",
+            "@type": "IMAGE-HIGH-RES",
+            "@size": "784773",
+            "@ref": "gr6",
+            "@mimetype": "image/jpeg"
+          },
+          {
+            "@category": "high",
+            "@height": "2406",
+            "@width": "3325",
+            "@_fa": "true",
+            "$": "https://api.elsevier.com/content/object/eid/1-s2.0-S2095495622006143-gr7_lrg.jpg?httpAccept=%2A%2F%2A",
+            "@multimediatype": "JPEG image file",
+            "@type": "IMAGE-HIGH-RES",
+            "@size": "1042017",
+            "@ref": "gr7",
+            "@mimetype": "image/jpeg"
+          },
+          {
+            "@category": "high",
+            "@height": "2707",
+            "@width": "3336",
+            "@_fa": "true",
+            "$": "https://api.elsevier.com/content/object/eid/1-s2.0-S2095495622006143-gr8_lrg.jpg?httpAccept=%2A%2F%2A",
+            "@multimediatype": "JPEG image file",
+            "@type": "IMAGE-HIGH-RES",
+            "@size": "1035481",
+            "@ref": "gr8",
+            "@mimetype": "image/jpeg"
+          },
+          {
+            "@category": "high",
+            "@height": "2226",
+            "@width": "2782",
+            "@_fa": "true",
+            "$": "https://api.elsevier.com/content/object/eid/1-s2.0-S2095495622006143-gr9_lrg.jpg?httpAccept=%2A%2F%2A",
+            "@multimediatype": "JPEG image file",
+            "@type": "IMAGE-HIGH-RES",
+            "@size": "865592",
+            "@ref": "gr9",
+            "@mimetype": "image/jpeg"
+          },
+          {
+            "@category": "standard",
+            "@_fa": "true",
+            "$": "https://api.elsevier.com/content/object/eid/1-s2.0-S2095495622006143-mmc1.docx?httpAccept=%2A%2F%2A",
+            "@multimediatype": "Microsoft Word file",
+            "@type": "APPLICATION",
+            "@size": "53057",
+            "@ref": "mmc1",
+            "@mimetype": "application/word"
+          },
+          {
+            "@category": "thumbnail",
+            "@_fa": "true",
+            "$": "https://api.elsevier.com/content/object/eid/1-s2.0-S2095495622006143-si1.svg?httpAccept=%2A%2F%2A",
+            "@multimediatype": "Scalable Vector Graphics file",
+            "@type": "ALTIMG",
+            "@size": "10096",
+            "@ref": "si1",
+            "@mimetype": "image/svg+xml"
+          },
+          {
+            "@category": "thumbnail",
+            "@_fa": "true",
+            "$": "https://api.elsevier.com/content/object/eid/1-s2.0-S2095495622006143-si2.svg?httpAccept=%2A%2F%2A",
+            "@multimediatype": "Scalable Vector Graphics file",
+            "@type": "ALTIMG",
+            "@size": "19911",
+            "@ref": "si2",
+            "@mimetype": "image/svg+xml"
+          },
+          {
+            "@category": "thumbnail",
+            "@_fa": "true",
+            "$": "https://api.elsevier.com/content/object/eid/1-s2.0-S2095495622006143-si3.svg?httpAccept=%2A%2F%2A",
+            "@multimediatype": "Scalable Vector Graphics file",
+            "@type": "ALTIMG",
+            "@size": "21337",
+            "@ref": "si3",
+            "@mimetype": "image/svg+xml"
+          },
+          {
+            "@category": "thumbnail",
+            "@_fa": "true",
+            "$": "https://api.elsevier.com/content/object/eid/1-s2.0-S2095495622006143-si4.svg?httpAccept=%2A%2F%2A",
+            "@multimediatype": "Scalable Vector Graphics file",
+            "@type": "ALTIMG",
+            "@size": "16493",
+            "@ref": "si4",
+            "@mimetype": "image/svg+xml"
+          },
+          {
+            "@category": "thumbnail",
+            "@_fa": "true",
+            "$": "https://api.elsevier.com/content/object/eid/1-s2.0-S2095495622006143-si5.svg?httpAccept=%2A%2F%2A",
+            "@multimediatype": "Scalable Vector Graphics file",
+            "@type": "ALTIMG",
+            "@size": "12258",
+            "@ref": "si5",
+            "@mimetype": "image/svg+xml"
+          },
+          {
+            "@category": "thumbnail",
+            "@_fa": "true",
+            "$": "https://api.elsevier.com/content/object/eid/1-s2.0-S2095495622006143-si6.svg?httpAccept=%2A%2F%2A",
+            "@multimediatype": "Scalable Vector Graphics file",
+            "@type": "ALTIMG",
+            "@size": "16940",
+            "@ref": "si6",
+            "@mimetype": "image/svg+xml"
+          },
+          {
+            "@category": "standard",
+            "@_fa": "true",
+            "$": "https://api.elsevier.com/content/object/eid/1-s2.0-S2095495622006143-am.pdf?httpAccept=%2A%2F%2A",
+            "@multimediatype": "Acrobat PDF file",
+            "@type": "AAM-PDF",
+            "@size": "3220702",
+            "@ref": "am",
+            "@mimetype": "application/pdf"
+          }
+        ]
+      },
+      "link": {
+        "@rel": "abstract",
+        "@href": "https://api.elsevier.com/content/abstract/scopus_id/85145328539"
+      }
+    }
+  }
+}

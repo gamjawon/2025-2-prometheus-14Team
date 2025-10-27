@@ -1,0 +1,932 @@
+{
+  "metadata": {
+    "title": "Coordination environment engineering of transition metal doped phthalocyanine single-atom catalysts for carbon dioxide reduction reaction: A DFT study",
+    "authors": "; ; ",
+    "journal": "Molecular Catalysis",
+    "date": "2023-11-30",
+    "doi": "10.1016/j.mcat.2023.113617",
+    "abstract": "",
+    "uri": "https://api.elsevier.com/content/article/pii/S2468823123007009",
+    "pii": "S2468823123007009"
+  },
+  "fulltext": {
+    "full-text-retrieval-response": {
+      "scopus-eid": "2-s2.0-85173236025",
+      "originalText": "serial JL 315758 291210 291744 291790 291809 31 Molecular Catalysis MOLECULARCATALYSIS 2023-10-12 2023-10-12 2023-10-12 2023-10-12 2024-03-01T15:59:47 1-s2.0-S2468823123007009 S2468-8231(23)00700-9 S2468823123007009 10.1016/j.mcat.2023.113617 S300 S300.1 FULL-TEXT 1-s2.0-S2468823123X00169 2024-06-26T17:47:57.959873Z 0 0 20231101 20231130 2023 2023-10-12T18:55:32.976426Z absattachment articleinfo articlenumber articletitlenorm authfirstinitialnorm authfirstsurnamenorm cid cids contenttype copyright crossmark dateloaded dateloadedtxt datesearch datesort dateupdated dco docsubtype doctype doi eid ewtransactionid hubeid indexeddate issn issnnorm itemstage itemtransactionid itemweight openaccess openarchive pg pgfirst pii piinorm pubdateend pubdatestart pubdatetxt pubyr sectiontitle sortorder srctitle srctitlenorm srctype ssids alllist content subj subheadings suppl tomb volfirst volissue volumelist webpdf webpdfpagecount yearnav figure e-component body mmlmath acknowledge affil appendices articletitle auth authfirstini authfull authkeywords authlast grantnumber grantsponsor grantsponsorid highlightsabst orcid primabst ref specialabst 2468-8231 24688231 true 550 550 C Volume 550 64 113617 113617 113617 202311 November 2023 2023-11-01 2023-11-30 2023 Regular Papers article fla © 2023 Elsevier B.V. All rights reserved. COORDINATIONENVIRONMENTENGINEERINGTRANSITIONMETALDOPEDPHTHALOCYANINESINGLEATOMCATALYSTSFORCARBONDIOXIDEREDUCTIONREACTIONADFTSTUDY XU F 1 Introduction 2 Computational details 3 Results and discussion 3.1 Structure and stability 3.2 CO2 adsorption 3.3 CO2 reduction reaction 3.4 CRR vs HER 3.5 Activity origin 3.6 Comparison of coordination environments 4 Conclusion CRediT authorship contribution statement Acknowledgments Appendix Supplementary materials References CHU 2016 16 22 S OLAH 2011 12881 12898 G OBAMA 2017 126 129 B XU 2022 112571 F HE 2020 599 606 T ZHI 2019 1804224 X LIU 2019 3805 3814 J JU 2021 1 10 L YANG 2022 456 465 M QIN 2022 2197 2207 J PENG 2022 2202544 L QIAO 2011 634 641 B CHENG 2016 13638 N NIU 2020 6555 6563 H ZHOU 2019 12050 12059 Y LIU 2022 29781 29793 X LIU 2022 245401 X LI 2022 140764 C LI 2022 113732 C LIU 2020 X SUN 2021 J FAO 2022 G LIU 2022 L MASSARO 2022 A XIONG 2023 J JU 2017 944 W LI 2017 14889 14892 X GENG 2019 234 240 Z MOLLER 2019 640 647 T TUO 2019 2644 2650 J GUAN 2020 1044 1053 A HE 2020 2000407 Q FRIEDMAN 2021 23 35 A SASSONE 2021 1301 1311 D ZHAO 2022 100773 X ZHAO 2022 3795 3804 D WEI 2022 6187 6192 S PAN 2018 4218 4221 Y WANG 2018 1944 1948 X MENG 2019 5176 5187 Y WANG 2023 202301711 L SONG 2023 4619 4628 P GUO 2021 2102884 J ZHOU 2021 11652 11658 Y CHEN 2021 126219 X LIU 2022 135294 S XU 2023 157505 F LIU 2020 144032 S ABEL 2011 1203 1205 M HAN 2017 652 664 N MENG 2019 2046 2053 Z SEDLOVETS 2013 3955 3960 D JIA 2018 1188 1195 H DENG 2012 1051 1059 J CHOI 2015 224 229 J LIU 2018 15494 15502 J HUANG 2021 608 621 C ZHANG 2023 102641 H DELLEY 2000 7756 7764 B GRIMME 2010 508 517 S LARSEN 2017 273002 A PERDEW 1992 12947 12954 J PERDEW 1996 3865 J GRIMME 2006 1787 1799 S DELLEY 2002 155125 B MONKHORST 1976 5188 5192 H ROSSMEISL 2005 178 184 J PETERSON 2010 1311 1315 A CUI 2018 15262 15272 X SHI 2014 4720 4727 C BACK 2017 969 975 S XUE 2022 1442 R XIONG 2021 148805 H WANG 2015 11633 11641 Y WANG 2022 21994 22002 C NIE 2023 155119 Z ZHA 2021 150331 W ZHOU 2021 101245 S NI 2020 1181 1186 Y OUYANG 2020 1807 1813 Y LIU 2020 3722 3730 X ZHAO 2019 4026 4035 J GE 2022 1211 1218 P WEI 2022 153377 X WEI 2021 150423 X CHEN 2020 2541 2549 S WANG 2021 7155 7165 S OUYANG 2020 1807 1813 Y LI 2015 6658 6664 Y FENG 2019 210 222 Y REN 2022 134270 M LIU 2022 132038 J KANG 2022 131318 B MA 2021 19133 19143 M HU 2020 146588 R WANG 2022 5441 5454 J ZHANG 2018 112 119 X ABILDPEDERSEN 2007 016105 F PETERSON 2012 251 258 A YUAN 2020 3481 3487 H XUX2023X113617 XUX2023X113617XF 2025-10-12T00:00:00.000Z 2025-10-12T00:00:00.000Z http://creativecommons.org/licenses/by-nc-nd/4.0/ © 2023 Elsevier B.V. All rights reserved. 2023-10-18T01:44:47.176Z http://vtw.elsevier.com/data/voc/AddOnTypes/50.7/aggregated-refined Natural Science Research Project of Higher Education Institutions of Anhui Province 2022AH050298 University Synergy Innovation Program of Anhui Province GXXT-2022–006 National Natural Science Foundation of China 21403003 21403004 NSFC National Natural Science Foundation of China http://data.elsevier.com/vocabulary/SciValFunders/501100001809 http://sws.geonames.org/1814991/ Ministry of Education BWPU2022KF04 MOE Ministry of Education of the People's Republic of China http://data.elsevier.com/vocabulary/SciValFunders/501100002338 http://sws.geonames.org/1814991/ This work was financially supported by the National Natural Science Foundation of China (Nos. 21403003 and 21403004 ), The Natural Science Research Project of Higher Education Institutions of Anhui Province (No. 2022AH050298), the Open Project of Engineering Research Center of Biofilm Water Purification and Utilization Technology of Ministry of Education (No. BWPU2022KF04), the University Synergy Innovation Program of Anhui Province (No. GXXT-2022–006). https://doi.org/10.15223/policy-017 https://doi.org/10.15223/policy-037 https://doi.org/10.15223/policy-012 https://doi.org/10.15223/policy-029 https://doi.org/10.15223/policy-004 item S2468-8231(23)00700-9 S2468823123007009 1-s2.0-S2468823123007009 10.1016/j.mcat.2023.113617 315758 2024-03-01T16:30:11.432262Z 2023-11-01 2023-11-30 1-s2.0-S2468823123007009-main.pdf https://s3-eu-west-1.amazonaws.com/prod-ucs-content-store-eu-west/content/pii:S2468823123007009/MAIN/application/pdf/9c02c14ac9cfd933aaa4a33dbb6f9442/main.pdf main.pdf pdf true 2790900 MAIN 11 1-s2.0-S2468823123007009-main_1.png https://s3-eu-west-1.amazonaws.com/prod-ucs-content-store-eu-west/content/pii:S2468823123007009/PREVIEW/image/png/33a28be06fb8f0749c21c123813d157b/main_1.png main_1.png png 57611 849 656 IMAGE-WEB-PDF 1 1-s2.0-S2468823123007009-ga1.jpg https://s3-eu-west-1.amazonaws.com/prod-ucs-content-store-eu-west/content/pii:S2468823123007009/ga1/DOWNSAMPLED/image/jpeg/57312d2801637b1ff91083fd9d1a4e51/ga1.jpg ga1 true ga1.jpg jpg 32098 200 324 IMAGE-DOWNSAMPLED 1-s2.0-S2468823123007009-gr4.jpg https://s3-eu-west-1.amazonaws.com/prod-ucs-content-store-eu-west/content/pii:S2468823123007009/gr4/DOWNSAMPLED/image/jpeg/1a6ffa6a47c4edbbf256128bef64edf3/gr4.jpg gr4 gr4.jpg jpg 72572 656 339 IMAGE-DOWNSAMPLED 1-s2.0-S2468823123007009-gr3.jpg https://s3-eu-west-1.amazonaws.com/prod-ucs-content-store-eu-west/content/pii:S2468823123007009/gr3/DOWNSAMPLED/image/jpeg/3e0a1bcea701f5b5a01b77b69354a1a4/gr3.jpg gr3 gr3.jpg jpg 76443 688 414 IMAGE-DOWNSAMPLED 1-s2.0-S2468823123007009-gr5.jpg https://s3-eu-west-1.amazonaws.com/prod-ucs-content-store-eu-west/content/pii:S2468823123007009/gr5/DOWNSAMPLED/image/jpeg/6cc0e0789853bfb6a75b3919ecd2d3d6/gr5.jpg gr5 gr5.jpg jpg 41006 369 597 IMAGE-DOWNSAMPLED 1-s2.0-S2468823123007009-gr7.jpg https://s3-eu-west-1.amazonaws.com/prod-ucs-content-store-eu-west/content/pii:S2468823123007009/gr7/DOWNSAMPLED/image/jpeg/0fe13193eb9c94a6509432cdc05871d1/gr7.jpg gr7 gr7.jpg jpg 47942 629 339 IMAGE-DOWNSAMPLED 1-s2.0-S2468823123007009-gr2.jpg https://s3-eu-west-1.amazonaws.com/prod-ucs-content-store-eu-west/content/pii:S2468823123007009/gr2/DOWNSAMPLED/image/jpeg/240bebb7c6d6babb123e41c6ef385657/gr2.jpg gr2 gr2.jpg jpg 53632 405 676 IMAGE-DOWNSAMPLED 1-s2.0-S2468823123007009-gr1.jpg https://s3-eu-west-1.amazonaws.com/prod-ucs-content-store-eu-west/content/pii:S2468823123007009/gr1/DOWNSAMPLED/image/jpeg/fd32dd49786f1da2013206d6fdc8e8d9/gr1.jpg gr1 gr1.jpg jpg 54914 281 532 IMAGE-DOWNSAMPLED 1-s2.0-S2468823123007009-gr6.jpg https://s3-eu-west-1.amazonaws.com/prod-ucs-content-store-eu-west/content/pii:S2468823123007009/gr6/DOWNSAMPLED/image/jpeg/95da78ff06bec3c1772170efd509343b/gr6.jpg gr6 gr6.jpg jpg 82115 421 522 IMAGE-DOWNSAMPLED 1-s2.0-S2468823123007009-ga1.sml https://s3-eu-west-1.amazonaws.com/prod-ucs-content-store-eu-west/content/pii:S2468823123007009/ga1/THUMBNAIL/image/gif/cc76e4886b8e102896829f106cc4f4fd/ga1.sml ga1 true ga1.sml sml 13543 135 219 IMAGE-THUMBNAIL 1-s2.0-S2468823123007009-gr4.sml https://s3-eu-west-1.amazonaws.com/prod-ucs-content-store-eu-west/content/pii:S2468823123007009/gr4/THUMBNAIL/image/gif/bbca8d69d825df8758b8b3538dbd6c3d/gr4.sml gr4 gr4.sml sml 8058 163 84 IMAGE-THUMBNAIL 1-s2.0-S2468823123007009-gr3.sml https://s3-eu-west-1.amazonaws.com/prod-ucs-content-store-eu-west/content/pii:S2468823123007009/gr3/THUMBNAIL/image/gif/3fedfdd08206903a2fd75b1805bfa645/gr3.sml gr3 gr3.sml sml 8979 163 98 IMAGE-THUMBNAIL 1-s2.0-S2468823123007009-gr5.sml https://s3-eu-west-1.amazonaws.com/prod-ucs-content-store-eu-west/content/pii:S2468823123007009/gr5/THUMBNAIL/image/gif/d1c5aec061dded146d99197ff4a9bd1a/gr5.sml gr5 gr5.sml sml 8611 136 219 IMAGE-THUMBNAIL 1-s2.0-S2468823123007009-gr7.sml https://s3-eu-west-1.amazonaws.com/prod-ucs-content-store-eu-west/content/pii:S2468823123007009/gr7/THUMBNAIL/image/gif/4fe700159fa5b71880e2877160fc109e/gr7.sml gr7 gr7.sml sml 7485 163 88 IMAGE-THUMBNAIL 1-s2.0-S2468823123007009-gr2.sml https://s3-eu-west-1.amazonaws.com/prod-ucs-content-store-eu-west/content/pii:S2468823123007009/gr2/THUMBNAIL/image/gif/34e5f56a595feca3a434436b74b016e2/gr2.sml gr2 gr2.sml sml 8163 131 219 IMAGE-THUMBNAIL 1-s2.0-S2468823123007009-gr1.sml https://s3-eu-west-1.amazonaws.com/prod-ucs-content-store-eu-west/content/pii:S2468823123007009/gr1/THUMBNAIL/image/gif/eec4456d1e94082333788073c9dfb794/gr1.sml gr1 gr1.sml sml 12383 116 219 IMAGE-THUMBNAIL 1-s2.0-S2468823123007009-gr6.sml https://s3-eu-west-1.amazonaws.com/prod-ucs-content-store-eu-west/content/pii:S2468823123007009/gr6/THUMBNAIL/image/gif/672100f5f362861576ff76b8c074b308/gr6.sml gr6 gr6.sml sml 13040 164 203 IMAGE-THUMBNAIL 1-s2.0-S2468823123007009-ga1_lrg.jpg https://s3-eu-west-1.amazonaws.com/prod-ucs-content-store-eu-west/content/pii:S2468823123007009/HIGHRES/image/jpeg/446d2444474c64b59004bc3d342e4ac5/ga1_lrg.jpg ga1 true ga1_lrg.jpg jpg 211360 886 1434 IMAGE-HIGH-RES 1-s2.0-S2468823123007009-gr4_lrg.jpg https://s3-eu-west-1.amazonaws.com/prod-ucs-content-store-eu-west/content/pii:S2468823123007009/HIGHRES/image/jpeg/23ee58a201af69f1f0209e53541c79e0/gr4_lrg.jpg gr4 gr4_lrg.jpg jpg 668134 2903 1500 IMAGE-HIGH-RES 1-s2.0-S2468823123007009-gr3_lrg.jpg https://s3-eu-west-1.amazonaws.com/prod-ucs-content-store-eu-west/content/pii:S2468823123007009/HIGHRES/image/jpeg/43c6a512e3c47734b1d004d419cf55cd/gr3_lrg.jpg gr3 gr3_lrg.jpg jpg 525868 3045 1833 IMAGE-HIGH-RES 1-s2.0-S2468823123007009-gr5_lrg.jpg https://s3-eu-west-1.amazonaws.com/prod-ucs-content-store-eu-west/content/pii:S2468823123007009/HIGHRES/image/jpeg/8af17e99c7c797670842c43214abf962/gr5_lrg.jpg gr5 gr5_lrg.jpg jpg 286546 1635 2642 IMAGE-HIGH-RES 1-s2.0-S2468823123007009-gr7_lrg.jpg https://s3-eu-west-1.amazonaws.com/prod-ucs-content-store-eu-west/content/pii:S2468823123007009/HIGHRES/image/jpeg/2ed7c9d3e1b33e83179f299b9cbca83b/gr7_lrg.jpg gr7 gr7_lrg.jpg jpg 337309 2784 1500 IMAGE-HIGH-RES 1-s2.0-S2468823123007009-gr2_lrg.jpg https://s3-eu-west-1.amazonaws.com/prod-ucs-content-store-eu-west/content/pii:S2468823123007009/HIGHRES/image/jpeg/505c516e60040c89d2dfd7b9cd9602d8/gr2_lrg.jpg gr2 gr2_lrg.jpg jpg 364221 1795 2993 IMAGE-HIGH-RES 1-s2.0-S2468823123007009-gr1_lrg.jpg https://s3-eu-west-1.amazonaws.com/prod-ucs-content-store-eu-west/content/pii:S2468823123007009/HIGHRES/image/jpeg/e99d8e677f5dbb73fc9616f82e84689a/gr1_lrg.jpg gr1 gr1_lrg.jpg jpg 319064 1246 2358 IMAGE-HIGH-RES 1-s2.0-S2468823123007009-gr6_lrg.jpg https://s3-eu-west-1.amazonaws.com/prod-ucs-content-store-eu-west/content/pii:S2468823123007009/HIGHRES/image/jpeg/c80e21effcf11747ae8e12a9487de074/gr6_lrg.jpg gr6 gr6_lrg.jpg jpg 617246 1868 2314 IMAGE-HIGH-RES 1-s2.0-S2468823123007009-mmc1.docx https://s3-eu-west-1.amazonaws.com/prod-ucs-content-store-eu-west/content/pii:S2468823123007009/mmc1/MAIN/application/vnd.openxmlformats-officedocument.wordprocessingml.document/f491f949f4dc0432fcad41e110be902e/mmc1.docx mmc1 mmc1.docx docx 9492647 APPLICATION 1-s2.0-S2468823123007009-si1.svg https://s3-eu-west-1.amazonaws.com/prod-ucs-content-store-eu-west/content/pii:S2468823123007009/image/svg+xml/eddbb0f10030cd9680c7f372701f9340/si1.svg si1 si1.svg svg 3852 ALTIMG 1-s2.0-S2468823123007009-si10.svg https://s3-eu-west-1.amazonaws.com/prod-ucs-content-store-eu-west/content/pii:S2468823123007009/image/svg+xml/3d7624609e795741ae2c6b389acbae8e/si10.svg si10 si10.svg svg 1963 ALTIMG 1-s2.0-S2468823123007009-si11.svg https://s3-eu-west-1.amazonaws.com/prod-ucs-content-store-eu-west/content/pii:S2468823123007009/image/svg+xml/f863f3733409cebac646f42bd961d254/si11.svg si11 si11.svg svg 5305 ALTIMG 1-s2.0-S2468823123007009-si12.svg https://s3-eu-west-1.amazonaws.com/prod-ucs-content-store-eu-west/content/pii:S2468823123007009/image/svg+xml/ab2a560f442ab57c4f7be4d219e9b6fa/si12.svg si12 si12.svg svg 1459 ALTIMG 1-s2.0-S2468823123007009-si13.svg https://s3-eu-west-1.amazonaws.com/prod-ucs-content-store-eu-west/content/pii:S2468823123007009/image/svg+xml/6536c5049e3fcf2c2dc29493935af714/si13.svg si13 si13.svg svg 6865 ALTIMG 1-s2.0-S2468823123007009-si14.svg https://s3-eu-west-1.amazonaws.com/prod-ucs-content-store-eu-west/content/pii:S2468823123007009/image/svg+xml/21bbf17720db957ea856a67508d95173/si14.svg si14 si14.svg svg 4614 ALTIMG 1-s2.0-S2468823123007009-si15.svg https://s3-eu-west-1.amazonaws.com/prod-ucs-content-store-eu-west/content/pii:S2468823123007009/image/svg+xml/fcf82e5983243b72965e5e1a0afa4456/si15.svg si15 si15.svg svg 9349 ALTIMG 1-s2.0-S2468823123007009-si16.svg https://s3-eu-west-1.amazonaws.com/prod-ucs-content-store-eu-west/content/pii:S2468823123007009/image/svg+xml/453f118a51c656f1ddf43862349536e2/si16.svg si16 si16.svg svg 16070 ALTIMG 1-s2.0-S2468823123007009-si17.svg https://s3-eu-west-1.amazonaws.com/prod-ucs-content-store-eu-west/content/pii:S2468823123007009/image/svg+xml/ffbd9a34c86add7627f39276500d349f/si17.svg si17 si17.svg svg 7860 ALTIMG 1-s2.0-S2468823123007009-si18.svg https://s3-eu-west-1.amazonaws.com/prod-ucs-content-store-eu-west/content/pii:S2468823123007009/image/svg+xml/eca6a5ac8a9a4d2dcf54dba4b0ffc8ff/si18.svg si18 si18.svg svg 2596 ALTIMG 1-s2.0-S2468823123007009-si19.svg https://s3-eu-west-1.amazonaws.com/prod-ucs-content-store-eu-west/content/pii:S2468823123007009/image/svg+xml/997626df4c95c079f31b763e1281af36/si19.svg si19 si19.svg svg 6981 ALTIMG 1-s2.0-S2468823123007009-si2.svg https://s3-eu-west-1.amazonaws.com/prod-ucs-content-store-eu-west/content/pii:S2468823123007009/image/svg+xml/e4a27d13caea12ef0863dfa0aae05513/si2.svg si2 si2.svg svg 12382 ALTIMG 1-s2.0-S2468823123007009-si20.svg https://s3-eu-west-1.amazonaws.com/prod-ucs-content-store-eu-west/content/pii:S2468823123007009/image/svg+xml/d13a1fbbef06cf91da1c3b8cd3cfd208/si20.svg si20 si20.svg svg 10164 ALTIMG 1-s2.0-S2468823123007009-si21.svg https://s3-eu-west-1.amazonaws.com/prod-ucs-content-store-eu-west/content/pii:S2468823123007009/image/svg+xml/518e4fc80a14496c7797a283e1fd9bfa/si21.svg si21 si21.svg svg 4288 ALTIMG 1-s2.0-S2468823123007009-si22.svg https://s3-eu-west-1.amazonaws.com/prod-ucs-content-store-eu-west/content/pii:S2468823123007009/image/svg+xml/7d7092a9078f3740752148b302184c3b/si22.svg si22 si22.svg svg 5336 ALTIMG 1-s2.0-S2468823123007009-si23.svg https://s3-eu-west-1.amazonaws.com/prod-ucs-content-store-eu-west/content/pii:S2468823123007009/image/svg+xml/c37b3d3b5ba23de5dc94b661dd7a78a2/si23.svg si23 si23.svg svg 2799 ALTIMG 1-s2.0-S2468823123007009-si24.svg https://s3-eu-west-1.amazonaws.com/prod-ucs-content-store-eu-west/content/pii:S2468823123007009/image/svg+xml/57ba46121bc04473ee9c5d4d9b52c84c/si24.svg si24 si24.svg svg 1910 ALTIMG 1-s2.0-S2468823123007009-si25.svg https://s3-eu-west-1.amazonaws.com/prod-ucs-content-store-eu-west/content/pii:S2468823123007009/image/svg+xml/005fc313cb37b76e5c41d9e9c8cb991d/si25.svg si25 si25.svg svg 2251 ALTIMG 1-s2.0-S2468823123007009-si26.svg https://s3-eu-west-1.amazonaws.com/prod-ucs-content-store-eu-west/content/pii:S2468823123007009/image/svg+xml/261b4adb12d467c9dd1ef256dd9fb6b7/si26.svg si26 si26.svg svg 2666 ALTIMG 1-s2.0-S2468823123007009-si27.svg https://s3-eu-west-1.amazonaws.com/prod-ucs-content-store-eu-west/content/pii:S2468823123007009/image/svg+xml/e4b6f82774d6667fb267d8a28deb61ab/si27.svg si27 si27.svg svg 17177 ALTIMG 1-s2.0-S2468823123007009-si28.svg https://s3-eu-west-1.amazonaws.com/prod-ucs-content-store-eu-west/content/pii:S2468823123007009/image/svg+xml/1ed16f0e035e808523c7cf9c7a0c8c79/si28.svg si28 si28.svg svg 13404 ALTIMG 1-s2.0-S2468823123007009-si29.svg https://s3-eu-west-1.amazonaws.com/prod-ucs-content-store-eu-west/content/pii:S2468823123007009/image/svg+xml/9946b39559115efdb34a6ddcb70844ad/si29.svg si29 si29.svg svg 569 ALTIMG 1-s2.0-S2468823123007009-si3.svg https://s3-eu-west-1.amazonaws.com/prod-ucs-content-store-eu-west/content/pii:S2468823123007009/image/svg+xml/3437d7d240b00a42cbbf2631e0c7928d/si3.svg si3 si3.svg svg 1474 ALTIMG 1-s2.0-S2468823123007009-si30.svg https://s3-eu-west-1.amazonaws.com/prod-ucs-content-store-eu-west/content/pii:S2468823123007009/image/svg+xml/e3c7d9ac3aad439e92e64a0b34355ce5/si30.svg si30 si30.svg svg 9793 ALTIMG 1-s2.0-S2468823123007009-si31.svg https://s3-eu-west-1.amazonaws.com/prod-ucs-content-store-eu-west/content/pii:S2468823123007009/image/svg+xml/125fb8eeab7fb513878b66a968442964/si31.svg si31 si31.svg svg 3985 ALTIMG 1-s2.0-S2468823123007009-si32.svg https://s3-eu-west-1.amazonaws.com/prod-ucs-content-store-eu-west/content/pii:S2468823123007009/image/svg+xml/baca802f12cb73cf86682cbac52dc5c2/si32.svg si32 si32.svg svg 4491 ALTIMG 1-s2.0-S2468823123007009-si33.svg https://s3-eu-west-1.amazonaws.com/prod-ucs-content-store-eu-west/content/pii:S2468823123007009/image/svg+xml/daee88cc1ebf80eddc2aed382aef22a1/si33.svg si33 si33.svg svg 3009 ALTIMG 1-s2.0-S2468823123007009-si34.svg https://s3-eu-west-1.amazonaws.com/prod-ucs-content-store-eu-west/content/pii:S2468823123007009/image/svg+xml/46960b20e7549dae92a3b207d18ec898/si34.svg si34 si34.svg svg 4286 ALTIMG 1-s2.0-S2468823123007009-si35.svg https://s3-eu-west-1.amazonaws.com/prod-ucs-content-store-eu-west/content/pii:S2468823123007009/image/svg+xml/c401f88ab6995333ab8946efc6f669b5/si35.svg si35 si35.svg svg 3490 ALTIMG 1-s2.0-S2468823123007009-si36.svg https://s3-eu-west-1.amazonaws.com/prod-ucs-content-store-eu-west/content/pii:S2468823123007009/image/svg+xml/4fbc184a1ac226290728bf0d449460f9/si36.svg si36 si36.svg svg 4516 ALTIMG 1-s2.0-S2468823123007009-si37.svg https://s3-eu-west-1.amazonaws.com/prod-ucs-content-store-eu-west/content/pii:S2468823123007009/image/svg+xml/81aa2428b374ebddbc79d6e6692b5d0e/si37.svg si37 si37.svg svg 6513 ALTIMG 1-s2.0-S2468823123007009-si38.svg https://s3-eu-west-1.amazonaws.com/prod-ucs-content-store-eu-west/content/pii:S2468823123007009/image/svg+xml/5d128f4b0fc9588ebd0c95d9f379dfb5/si38.svg si38 si38.svg svg 3960 ALTIMG 1-s2.0-S2468823123007009-si39.svg https://s3-eu-west-1.amazonaws.com/prod-ucs-content-store-eu-west/content/pii:S2468823123007009/image/svg+xml/1dd5c83f6f300247eee7412c2857b443/si39.svg si39 si39.svg svg 4296 ALTIMG 1-s2.0-S2468823123007009-si4.svg https://s3-eu-west-1.amazonaws.com/prod-ucs-content-store-eu-west/content/pii:S2468823123007009/image/svg+xml/16a01bbba7d9415872cbb27881de82b9/si4.svg si4 si4.svg svg 834 ALTIMG 1-s2.0-S2468823123007009-si40.svg https://s3-eu-west-1.amazonaws.com/prod-ucs-content-store-eu-west/content/pii:S2468823123007009/image/svg+xml/bbb2aa729556a4e32618e824efecee02/si40.svg si40 si40.svg svg 8451 ALTIMG 1-s2.0-S2468823123007009-si41.svg https://s3-eu-west-1.amazonaws.com/prod-ucs-content-store-eu-west/content/pii:S2468823123007009/image/svg+xml/e158d37f73414812513181edeb0c9a2a/si41.svg si41 si41.svg svg 4276 ALTIMG 1-s2.0-S2468823123007009-si42.svg https://s3-eu-west-1.amazonaws.com/prod-ucs-content-store-eu-west/content/pii:S2468823123007009/image/svg+xml/dab03874344e20e69d68b9a7ccae68f9/si42.svg si42 si42.svg svg 4796 ALTIMG 1-s2.0-S2468823123007009-si43.svg https://s3-eu-west-1.amazonaws.com/prod-ucs-content-store-eu-west/content/pii:S2468823123007009/image/svg+xml/c7eb07ea66b53afa5590dcdaf12833c7/si43.svg si43 si43.svg svg 8697 ALTIMG 1-s2.0-S2468823123007009-si44.svg https://s3-eu-west-1.amazonaws.com/prod-ucs-content-store-eu-west/content/pii:S2468823123007009/image/svg+xml/c94733bda5d64acc82dbaa224247aa23/si44.svg si44 si44.svg svg 4797 ALTIMG 1-s2.0-S2468823123007009-si45.svg https://s3-eu-west-1.amazonaws.com/prod-ucs-content-store-eu-west/content/pii:S2468823123007009/image/svg+xml/3f255cb8ec2d4ff3386ae708f6ac087c/si45.svg si45 si45.svg svg 5193 ALTIMG 1-s2.0-S2468823123007009-si46.svg https://s3-eu-west-1.amazonaws.com/prod-ucs-content-store-eu-west/content/pii:S2468823123007009/image/svg+xml/a6948ebe6859319ec3f80886c62382a0/si46.svg si46 si46.svg svg 4351 ALTIMG 1-s2.0-S2468823123007009-si47.svg https://s3-eu-west-1.amazonaws.com/prod-ucs-content-store-eu-west/content/pii:S2468823123007009/image/svg+xml/ed68e26ed29f77df0595575600f21a90/si47.svg si47 si47.svg svg 5029 ALTIMG 1-s2.0-S2468823123007009-si48.svg https://s3-eu-west-1.amazonaws.com/prod-ucs-content-store-eu-west/content/pii:S2468823123007009/image/svg+xml/94490c9ea62111005068c479081fe14b/si48.svg si48 si48.svg svg 5667 ALTIMG 1-s2.0-S2468823123007009-si49.svg https://s3-eu-west-1.amazonaws.com/prod-ucs-content-store-eu-west/content/pii:S2468823123007009/image/svg+xml/0f4275753392b7e06b4b61112fa350bb/si49.svg si49 si49.svg svg 5586 ALTIMG 1-s2.0-S2468823123007009-si5.svg https://s3-eu-west-1.amazonaws.com/prod-ucs-content-store-eu-west/content/pii:S2468823123007009/image/svg+xml/4664c768a38b491c86d7e5bde85110ae/si5.svg si5 si5.svg svg 3233 ALTIMG 1-s2.0-S2468823123007009-si50.svg https://s3-eu-west-1.amazonaws.com/prod-ucs-content-store-eu-west/content/pii:S2468823123007009/image/svg+xml/295b4b5affcdf9b089a49b88b55e9c38/si50.svg si50 si50.svg svg 5156 ALTIMG 1-s2.0-S2468823123007009-si6.svg https://s3-eu-west-1.amazonaws.com/prod-ucs-content-store-eu-west/content/pii:S2468823123007009/image/svg+xml/c6404aade14034be09ddb8e4dfcc6531/si6.svg si6 si6.svg svg 1522 ALTIMG 1-s2.0-S2468823123007009-si7.svg https://s3-eu-west-1.amazonaws.com/prod-ucs-content-store-eu-west/content/pii:S2468823123007009/image/svg+xml/441d7734be5bad6d09a05ff5f806b0fb/si7.svg si7 si7.svg svg 4878 ALTIMG 1-s2.0-S2468823123007009-si8.svg https://s3-eu-west-1.amazonaws.com/prod-ucs-content-store-eu-west/content/pii:S2468823123007009/image/svg+xml/892547d8e9b27a61553d3de0fc061d8f/si8.svg si8 si8.svg svg 2882 ALTIMG 1-s2.0-S2468823123007009-si9.svg https://s3-eu-west-1.amazonaws.com/prod-ucs-content-store-eu-west/content/pii:S2468823123007009/image/svg+xml/c3ba0f75003cc515fe405b23e2c6096d/si9.svg si9 si9.svg svg 8493 ALTIMG 1-s2.0-S2468823123007009-am.pdf https://s3-eu-west-1.amazonaws.com/prod-ucs-content-store-eu-west/content/egi:10SX72BPMMC/MAIN/application/pdf/d0a8f1f1febe81381d36a0926e30a9f9/am.pdf am am.pdf pdf false 3380376 AAM-PDF MCAT 113617 113617 S2468-8231(23)00700-9 10.1016/j.mcat.2023.113617 Elsevier B.V. Fig. 1 Atomic structures of (a) pristine Pc and (b) TM-X-Pc monolayers. Fig 1 Fig. 2 The formation energy and dissolution potential of different doping systems (a) TM-B-Pc (b) TM-Pc (c) TM-O-Pc (d) TM-S-Pc. Fig 2 Fig. 3 (a) Schematic diagram of the reaction mechanism of CO2 reduction to C1 products on TM-X-Pc. The limiting potentials of CRR to (b) CO, (c) HCOOH, (d) HCHO on TM-X-Pc, and the different color indicate the different RDS. Fig 3 Fig. 4 At 0 V vs. reversible hydrogen electrode, (a) the free energy profile for CH3OH on Fe-Pc, Fe-B-Pc and Fe-O-Pc. Free energy profile for CH4 on (b) Cr-Pc,Mn-Pc,Sc-O-Pc,Cr-O-Pc,Mn-O-Pc,Fe-O-Pc and Co-O-Pc. (c) Summary of limiting potential for the most preferred C1 products. Fig 4 Fig. 5 Gibbs free energy changes (ΔG) for adsorption of *CO2 vs *H on (a) TM-B-Pc, (b) TM-Pc, and (c) TM-O-Pc. (d) Difference between the limiting potential for CRR and HER, i.e. UL(CRR)-UL(HER). The red dashed line represents the limiting potential difference (−0.65 V) of Cu (211) [90] as benchmark. Fig 5 Fig. 6 Binding energy correlation of (a) carbon-bonded intermediates as a function of Eb(*CHO) and (b) oxygen-bonded intermediates as a function of Eb(*OH) for TM-X-Pc. ΔG for (c) carbon-bonded intermediates reaction steps as a function of Eb(*CHO) and (d) oxygen-bonded intermediates reaction steps as a function of Eb(*OH), respectively. Fig 6 Fig. 7 (a) At 0 V vs. reversible hydrogen electrode the free energy profile for CH3OH on Cr-C-Pc, Mn-C-Pc and Fe-C-Pc. (b) Limiting potentials of 12 TM-X-Pc (TM = Cr∼Fe, X = B∼O). (c) Volcano plot of Eb(*CHO) as a function of the amount of charge carried on CHO (QCHO). Fig 7 Coordination environment engineering of transition metal doped phthalocyanine single-atom catalysts for carbon dioxide reduction reaction: A DFT study Fang Xu Writing – original draft Methodology Investigation Zhenzhen Wang Investigation Validation Zhiyi Liu Investigation Validation Aling Ma Investigation Validation Dandan Wu Methodology Investigation Fanghui Wu Funding acquisition Hong Xu Conceptualization Methodology Funding acquisition Writing – review & editing ⁎ Guohong Fan Resources Funding acquisition Writing – review & editing ⁎ School of Chemistry and Chemical Engineering, Anhui University of Technology, Maanshan, Anhui 243002, PR China School of Chemistry and Chemical Engineering Anhui University of Technology Maanshan Anhui 243002 PR China School of Chemistry and Chemical Engineering, Anhui University of Technology, Maanshan, Anhui 243002, PR China ⁎ Corresponding authors. Developing of low cost and highly efficient electrocatalysts for carbon dioxide reduction (CRR) is becoming a research hotspot in both theoretical and experimental studies. In this work, we systematically investigated by first-principles calculations the electrocatalytic properties of transition-metal-anchored Phthalocyanine (Pc) monolayers with and without different heteroatom modifications, named TM-Pc and TM-X-Pc (TM = Sc∼ Zn, X = B, C, N, O, and S), respectively. The results show Cr-Pc, Mn-Pc, Sc-O-Pc, Cr-O-Pc, Mn-O-Pc, Fe-O-Pc, and Co-O-Pc exhibited excellent catalytic performance and high selectivity for CRR. The origin of catalytic activity analysis indicated the binding energy of intermediates Eb(*OH) and Eb(*CHO) serve as the descriptors for the catalytic performance of TM-X-Pc. Further comparative analyses showed that choosing appropriate coordination atoms is beneficial for adjusting the catalytic activity. The work suggests that the heteroatoms modified TM-X-Pc monolayer has high potential application as high-performance CRR catalyst and provides valuable theoretical guidance for designing efficient CRR catalysts. Graphical abstract Image, graphical abstract Keywords CO2 electrocatalytic reduction reaction Phthalocyanine Single-atom catalyst Density functional theory Electrocatalyst Data availability Data will be made available on request. 1 Introduction Excessive emissions of CO2 are seriously damaging the global environment, causing the increase of global average temperature, rise of sea level, acidification of ocean, and pollution of atmospheric [1–3]. Among several solutions to reduce excessive carbon dioxide emissions, turning CO2 into valuable hydrocarbons is regarded as one of the most promising methods. Specifically, chemical conversion, biological transformation, photocatalytic and electrocatalytic reduction could convert CO2 to high-value chemicals [4–7]. In particular, electrocatalytic CO2 reduction reaction (CRR) possesses the advantages of low cost, environmental friendliness, mild reaction conditions, and controllable process, which became a research hot spot in both theoretical and experimental studies [8,9]. However, the remain shortcomings of low reaction rate and poor selectivity of CRR still severely limit its practical application. So, developing of low cost and highly efficient electrocatalyst is still urgently required by researchers. Single-atom catalysts (SACs) are generally catalysts loaded with isolated metal atoms as active catalytic centers. Due to the dispersion of active sites at the atomic scale, SACs possess multiple advantages, such as unique electronic structure, large surface free energy, strong metal-support interactions, and maximum atom utilization [10,11]. Hence, since Zhang et al. first reported that Pt single-atom loaded in FeOX exhibits excellent catalytic performance for CO oxidation [12]. SACs have become widely used in various electrochemical reactions such as hydrogen evolution reaction (HER), oxygen reduction/evolution reaction (ORR/OER), and nitrogen reduction reaction (NRR) [13–25]. Particularly, tetra-N-doped metal-coordinate two-dimensional SACs(M-N4) are proven to be effective electrocatalysts for CRR [26–34]. In the designing and pursuing of efficient SACs, the electron acceptor-donor effects induced by the different coordination environments of SACs could precisely regulate the electronic structure of the central atom, which is crucial for adjusting and enhancing the catalytic performance. Thus, doping with heteroatom in SACs with different electronegativities is one of the most effective strategies for high-performance CRR electrocatalyst [35–40]. In particular, the local electronic density of the catalytic active center sites can be tuned with the B, C, O or S atom to replace the N coordination atom of M-N4 center, which can result in superior electrocatalytic performance than the traditional M-N4 center. For example, wang and co-works reported that asymmetrically coordinated IrN3O catalysts can be applied to the formic acid oxidation reaction (FAOR) with high-performance, in which the O doping can splits and downshifts the Ir 5d orbitals and modulate the binding strength of the key intermediates [41]. Song et al. designed CuN3O/C as a CRR catalyst, and the theoretical and experimental results both showed excellent selectivity and activity [42]. Guo et al. reported Sn-N3O1 can be designed as a highly efficient catalyst for reducing CO2, both experimental results and theoretical calculations suggest that the asymmetric atomic interface decreases the energy barrier of the rate-determining step for CO formation while increasing the energy barrier for the generation of *OCHO and inhibiting the production of HCOOH [43]. Zhou examined the catalytic performance of 30 TMNxO4-x-HTP monolayers based on theoretical calculations, of which RhN3O1 HTP serves as an efficient bifunctional catalyst for HER and OER. Meanwhile, previous study showed that changing the local coordination environment of TM-N/O in the catalyst could adjust the adsorption strength between the intermediate and metal active center to influence the catalytic performance [44]. Research also indicates that S-doping can effectively enhance the ORR activity of CoN4 with an overpotential as low as 0.25 V. Further analysis of the electronic structure revealed that the S-doping activates the N atoms and regulates the energy gap of the original CoN4, leading to the enhancement of the ORR activity [45]. In addition, boron atom is also widely used as the coordinating atoms in SACs to tune the catalytic activity, which can effectively coordinate with the substrate and bind with the intermediate to improve catalytic performance. For example, Liu et al. reported the single atomic Fe sites anchored on B and N co-doped carbon showed excellent CRR activity, achieving the highest Faradaic efficiency of ∼94 % at −0.7 V relative to the reversible hydrogen electrode, with substantially improved performance compared to the B-free sample [46]. Our previous study on TM and B-atom co-doped graphyne (GY) as CRR catalysts show that the synergistic interaction between B and Mn atoms decreases the energy barrier at the critical step, resulting in the excellent catalytic performance of MnB1-GY (UL = −0.21 V) [47]. Phthalocyanine (Pc) is a macrocyclic organic-conjugated molecule with a unique π-electron structure that consists of the imine group linked to four isoindoles [48]. Metal atoms could coordinate with four pyrrole nitrogen atoms to form transition metal phthalocyanine (TM-Pc) complexes by the natural cavities. Recently, several 2D TM phthalocyanine monolayers (TM-Pc, TM = Fe, Co, Ni, Cu, Zn) have been synthesized experimentally with applications in gas sensors and electrocatalysis [49–54]. For example, Choi et al. developed carbon-supported Fe-Pc films as non-precious metal catalysts for oxygen reduction reactions. Their results indicate that the sample with heat treatment possess excellent ORR performance, with high selectivity (>98 %) towards the efficient 4 electron reduction [55]. Li and coworkers prepared the Co-Pc polymeric supported on carbon nanotubes by template-directed polymerization. With combined experimental and computational calculations this study indicates that Co-Pc could reduce CO2 into CO as high-performance electrocatalysts [50]. Yang et al. systematically investigate the CO2 electrocatalytic performance of TM-Pc monolayers as single-atom catalysts with density functional theory (DFT) calculations. The result revealed that formic acid (HCOOH) is the main reduction product of CrPc and MnPc with overpotentials of 0.043 and 0.017 V, respectively [56]. Huang and coworkers developed a range of NRR catalysts by doping 3d, 4d, and 5d TMs onto a Pc monolayer. Among them, Mo-Pc and Tc-Pc were identified as the most promising catalysts for their superior stability and low onset potential [57]. Co-Pc monolayers can also adsorb toxic gasses selectively and are unaffected by the water in the air, which is a promising gas-sensing material for toxic gas detection [58]. The above studies manifests the widely used applications of TM-Pc monolayers. However, as a typical TM-N4 SAC, whether and how the catalytic performance of TM-Pc monolayers can be tuned by introducing the heteroatoms to modify the coordination environment of TM-Pc? Is there a rule on the effect of the doped heteroatom species on the CRR catalytic performance? There is still a lack of relevant research for these important questions. In view of this, we systematically investigated the performance of TM anchored Pc monolayers co-doped with different heteroatoms as CRR catalysts, called TM-Pc and TM-X-Pc (TM = Sc∼ Zn, X = B, O, S and C), respectively. The stability of the systems is assessed by calculating the Ef and U d i s s , in which Sc-B-Pc, Ti-B-Pc, Sc-Pc, and S-doping systems (TM-S-Pc) are screened out due to instability. The remaining 27 systems were then studied in detail and analyzed for CRR catalytic performance. The results revealed that the seven candidates, Cr-Pc, Mn-Pc, Sc-O-Pc, Cr-O-Pc, Mn-O-Pc, Fe-O-Pc, and Co-O-Pc, performed excellent catalytic performance (ΔGmax < 0.5 eV). Analysis of the catalytic activity origin showed that binding energy of intermediates Eb(*OH) and Eb(*CHO) can be regarded as a descriptor for screening efficient CRR catalysts. Further investigation indicated that modifying the coordinating environment of the active center by changing the doping atom is an effective way to tune the catalytic performance. Therefore, this study provides an effective method for designing highly active CRR catalysts. 2 Computational details All spin-polarized density functional theory (DFT) calculations in this paper were performed with the Dmol3 program [59,60]. Gibbs free energy calculations were carried out in Atomic Simulation Environment 3.18.1 (ASE) [61]. The Perdew-Burke-Ernzerhof (PBE) function of generalized gradient approximation (GGA) was used to describe the exchange-correlation energy [62,63]. Considering the interaction between the catalyst and the reaction intermediates, the Grimme method was employed for dispersion correction [64]. The DFT semi-pseudopotential (DSPP) approach was used to study the core atoms, which replaces the nuclear electrons with a single effective potential and incorporates the particular relativistic correction [65]. To ensure the accuracy of calculation results, the convergence precision of energy, force, and displacement is set to 1.0 × 10−5 Ha, 2.0 × 10−3 Ha·Å −1 and 5.0 × 10−3 Å, respectively, and the double numerical plus polarized (DNP) atomic orbital basis set with a global orbital cutoff radius of 5.0 Å is adopted for all systems. In the calculation, 3 × 3 × 1 and 6 × 6 × 1 Monkhorst-Pack k-point grids were applied for structural optimization and electronic properties calculation, respectively [66]. Since the CRR commonly occurs within the solvent environment, we also set a conductor-like shielding model (COSMO) with a dielectric constant of 78.54 [67]. Based on the computational hydrogen electrode (CHE) model proposed by Norskov, the Gibbs free energy change (ΔG) for each electron-proton transfer step in the CRR electrocatalytic processes was computed: (1) Δ G = Δ E + Δ E ZPE − T Δ S + Δ ∫ C P d T + Δ G pH + Δ G U where Δ E is the DFT total energy difference between the two adsorption systems, T is the reaction temperature (T = 298.15 K), Δ E ZPE is the zero-point energy difference, and Δ S represents the correction of the entropy value. Δ ∫ C P d T is the enthalpy correction for molecular vibrational contributions. Δ G pH is the free energy correction for H + concentration, in which Δ G pH = 2 . 303 k B T × pH , where kB is Boltzmann's constant, and pH = 0 in this study. Δ G U is the effect of applied electrode potentials U on the free energy, with definition of Δ G pH = neU , and n is the total number of proton-electron pairs transferred [68]. For assessing electrocatalytic activity, the limiting potential ( U L ) is calculated with equation: (2) U L = − Δ G max / e where Δ G max is the maximum Gibbs free energy change in the reduction pathway. The binding energy E b ( * C x H y O z ) of CRR intermediates on catalysts is defined as the following relation: (3) E b ( * C x H y O z ) = E * C x H y O z − E * − x E C − y E H − z E O where E * C x H y O z represents the total energy of the intermediates adsorbed on the catalyst, E * is the energy of the corresponding catalyst, x, y, and z are the numbers of C, H, and O atoms in the intermediate. The energies of C, H, and O atoms are obtained from the energies of CO, H2, and H2O, respectively [69–71]. To investigate the stability of the studies systems, the formation energy (Ef) of the TM-X-Pc structure with different anchored TM and heteroatom modifications is calculated by the following equation: (4) E f ( T M − P c ) = E T M − P c − E P c − E T M (5) E f ( T M − X − P c ) = E T M − X − P c − E P c − E T M − μ X + μ N where E T M − P c , E T M − X − P c , and E P c denote the total energy of TM-Pc, TM-X-Pc, and original Pc, respectively, μ N and μ X represent the chemical potential of the N atom and the doped atom (X = B, C, O, and S), and E T M is the energy of the TM atom in the stable bulk structure. The dissolution potential is calculated by the equation: (6) U d i s s = U d i s s 0 ( m e t a l , b u l k ) − E f / n e where U d i s s 0 ( m e t a l , b u l k ) and n are the standard dissolution potential for different TM in the bulk structure and the number of transferred electrons during dissolution. 3 Results and discussion 3.1 Structure and stability Fig. 1 a shows the original Pc monolayer structure with each unit cell containing 20 C atoms, 8 N atoms, and 4 H atoms, in which all atoms are in one plane without any buckling in the structure. The optimized lattice constant is 10.66 Å, and the structure exhibits the P4/MMM space group, which matches well with the experiment and other researches [58,72–76]. Considering the interaction between Pc monolayers, the vacuum interlayer distance of 20 Å is set to avoid interlayer interaction. After anchoring the TM atoms (TM = Sc∼Zn) into the hole of Pc monolayer, the structure remains coplanarity without significant change. However, when a heteroatom X (X = B, O, or S) is doped to replace the coordinating N atom connected directly with the TM center (Fig. 1b), part of the TM-B-Pc structures are slightly distorted, with the lattice parameter change negligible. The specific TM-X-Pc structure model is shown in Figure S1∼S4 of the supporting information. Structural stability is one of the prerequisites to judge whether the catalyst is promising for the target application. Therefore, we first calculated the formation energy (Ef) of the TM-X-Pc structure with Eqs. (4) and (5) to investigate the structural stability. According to the definition, Ef < 0 indicates that the catalyst shows good thermodynamic stability. As shown in Fig. 2 , the results reveal that TM-Pc presents excellent stability with the Ef are all negative, ranging from −3.587 to −6.163 eV. When replacing the coordinating N atom with B, the value of Ef for TM-B-Pc increases but remains stable in the range of −2.606 to −3.918 eV. The O-doped system (TM-O-Pc) displayed the best thermodynamic stability with a more negative Ef value from −4.675 to −7.197 eV. However, the Ef of most TM-S-Pc structures is positive which indicates they are poorly thermodynamically stable. Doping with different heteroatom thus can lead to structure with different thermodynamically stability. The origin of the discrepancy is the different species of heteroatom employed for doping, in which the introduction of O atoms as coordinating atom can improve the stability of the structure. Furthermore, since the CRR occurs in the solvent environment, dissolution potential ( U d i s s ) is another significant parameter to assess realistic electrochemical stability, which is calculated by Eq. (6) . The catalyst is stable in acidic conditions when U d i s s > 0 V. As shown in Fig. 2d, the value of U d i s s for TM-S-Pc system is negative which indicates electrochemical instability under a solvent environment. Also, Sc-B-Pc, Ti-B-Pc and Sc-Pc system possess negative Udiss value. Therefore, these above systems are precluded owing to their poor stability. The above analysis on the structural stability also reveals that doping with O atom can improve the structure stability of TM-Pc electrocatalyst. In addition, we conducted the Hirsheld charge analysis on the remaining 27 candidates and summarized the results in Table S2∼S4. The result shows that TMs are all positively charged in the original TM-Pc monolayer, and the four surrounding nitrogen atoms are negatively charged with almost the same value, implying that TM atoms transfer electrons to four coordinating nitrogen atoms uniformly. When an O atom is introduced to replace one of the N atoms, the charge on the TM atom of TM-O-Pc slightly fluctuates, and the charge distribution of the four coordination atoms is no longer balanced, with the O atom receiving fewer electrons. The donated electrons of TM atoms are decreased obviously in the TM-B-Pc, in which Ni atom donates electrons of only 0.051 e. For the TM-B-Pcs, except that the B atoms in Ni-B-Pc donates electrons, the doped B atoms in the other seven candidates get electrons, and the other three coordination N atoms still accumulate electrons. The charge distribution balance between coordination atoms and TM atom is disrupted completely in TM-X-Pc. Hence, the local electron density of the metal center can change by adjusting the coordination environment with introduction of heteroatoms, and the difference in electronegativity of doping atom have different effects on the charge distribution of the active center. Then, we further investigated the CRR catalytic performance of the remaining 27 TM-X-Pc models after thermodynamic and electrochemical stability screening. 3.2 CO2 adsorption The capture of CO2 on the surface is the fundamental prerequisite in the CRR process. Therefore, we first calculate the adsorption energy of CO2 (Eads) on the TM-X-Pc which is defined as: E ads = E total − − E slab − − E C O 2 , where E total , E slab , E C O 2 are the total energy of TM-X-Pc with adsorbed CO2, the energy of the TM-X-Pc monolayer, and the energy of CO2 in the gas phase, respectively. The detailed optimized geometry and calculation results are summarized in Figure S5∼7 and S8 respectively. The adsorption of CO2 on the original TM-Pc is a spontaneous process with the Eads all negative, ranging from −0.408 to −1.287 eV. The Eads of the TM-O-Pc system fluctuates slightly but is still all negative from −0.417 to −1.357 eV. When a B atom is introduced to replace one of the N atoms, TM-B-Pcs showed a more pronounced change in CO2 adsorption capacity, in which V-B-Pc, Cr-B-Pc, Co-B-Pc, and Zn-B-Pc exhibited Eads of −1.783 eV, −1.425 eV, −1.484 eV, and −1.177 eV, which could perform CO2 capture well. All these results suggest that 27 TM-X-Pc models could trap CO2 spontaneously, and the different species of heteroatom employed for doping can influence the activation of CO2 to various degrees. 3.3 CO2 reduction reaction The hydrogenation reduction of CO2 can produce various C1, C2, and C3 compounds. It is hard to cause the CC coupling between reaction intermediates due to only one active metal site in TM-X-Pc, which is required to produce the C2 and C3 products. Therefore, this work considers only the generation of C1 products (i.e., CO, HCOOH, HCHO, CH3OH, and CH4). Fig. 3 a shows the CO2 hydrogenation pathway to different products, and the change in free energy (∆G) along different pathway is calculated to determine the minimum energy pathway. Fig. S9∼S11 and Table S5∼S34 display the detailed free energy profiles and related values for reaction intermediates. CO is the two-electron product of CRR, and the reduction process involves two proton-electron pairs transfer with the route: * + C O 2 → * C O 2 →*COOH→*+CO +H2O. Fig. 3b shows the limiting potential for CO generation and the corresponding rate-determining step. For the TM-Pc system, the first hydrogenation step of CO2: * C O 2 →*COOH, is the RDS for Ti-Pc, Mn-Pc, Ni-Pc, Cu-Pc, and Zn-Pc. For these systems, except for Mn-Pc which has a low reaction energy barrier of 0.488 eV, the reaction energy barrier of others exceeds 1 eV. For V-Pc, Cr-Pc, Fe-Pc, and Co-Pc, the RDSs are the desorption and production of CO, with free energy increases of 0.764 eV, 0.406 eV, 0.534 eV, and 0.639 eV correspondingly. *COOH→*+CO +H2O is the RDS of the former six TM-O-Pc (TM = Sc∼ Fe) candidates, while for the last four systems the generation of *COOH is the RDS, where Cr-O-Pc, Mn-O-Pc, and Co-O-Pc exhibit good catalytic performance with ΔGmax of 0.428 eV, 0.419 eV, and 0.446 eV, respectively. While for the TM-B-Pc, except that the RDS of Ni-B-Pc is * C O 2 →*COOH, the RDS of the remaining seven systems are all *COOH→*+CO +H2O, and most of the energy barriers are higher than 1 eV, which means that CO is difficult to desorb from the catalyst surface. Among them, Cr-Pc exhibited the best catalytic performance (UL = −0.406 V), which is superior to the reported Cu cluster anchored Cu3@C2N(−0.67 V) and Cu3@GY(−0.50 V) catalysts. [77,78]. Similar with the production of CO, the production of HCOOH also involves two hydrogenation steps, with the difference is the H proton adsorbs on the C atom at the first hydrogenation step, and its route is * + C O 2 → * C O 2 →*OCHO→*+HCOOH. As can be seen in Fig. 3c, the RDS for the first four TM-Pc (TM = Ti∼ Mn) is the desorption of HCOOH, and for the remaining five TM-Pc systems is the production of *OCHO, among which the Δ G max of Mn-Pc is lowest (0.463 eV). For all TM-B-Pc, the RDS is consistent with the same hydrogenation step of *OCHO→*+HCOOH, and the corresponding energy barriers are more than 1 eV, even the increase of 2.124 eV in free energy is observed on Zn-B-Pc. In addition, the Δ G max step of Fe-O-Pc, Co-O-Pc, Ni-O-Pc, and Cu-O-Pc is * C O 2 →*OCHO, and the HCOOH desorption and formation step are the RDS of the remaining six TM-O-Pc. It is worth noting that although the whole pathway and RDS are the same, the energy barrier of Fe-O-Pc is 0.309 eV, which is far lower than the original Fe-Pc (0.629 eV), exhibiting the best catalytic performance, even lower than Cu-GY (1.14 eV), Cu-Cr@C2N (0.90 eV) and Cu-Mn@C2N (1.14 eV). [79,80]. As a four-electron product, the reduction pathway for HCHO is * + C O 2 → * C O 2 → * COOH → * CO → * CHO / * COH → * + HCHO . The H + could adsorb on the C atom or O atom with *CO further reduced, so there are two possible reduction routes for HCHO production. According to the complete pathway diagrams, the energy barrier required for the generation of *CHO is much lower than *COH, which means the hydrogenation of *CO to *CHO is more preferred. As Fig. 3d displayed, the RDS for Co-Pc,Sc-O-Pc,Ti-O-Pc,Mn-O-Pc,Fe-O-Pc, and the total 8 TM-B-Pcs are the desorption and production of HCHO, for V-Pc,Cr-Pc,Fe-Pc and V-O-Pc are * CO → * CHO , and for the remaining 10 TM-X-Pc systems are the generation of *COOH. In comparison, the catalytic performance of the pristine Ni, Cu, and Zn anchored Pc is significantly improved after introducing the O coordinating atom, which keeps the same RDS for the reaction but the corresponding energy barrier is reduced effectively. However, when modifying the coordination environment with B atoms doping, the ∆Gmax steps of TM-B-Pcs are all * CHO → * + HCHO . For all the TM-B-Pcs, except for Ni-B-Pc which possesses the lowest ∆Gmax of 0.751 eV, the high energy barrier for this step of other B modified TM-PC systems (large than 0.751 eV) indicate the *CHO will continue hydrogenation to other intermediates involved in the reaction instead of producing HCHO on TM-B-Pcs. Among the 27 candidates, O atom modified systems present high performance, among which Mn-O-Pc exhibits the best catalytic performance with a limiting potential of only −0.337 V. In the further reduction of *CHO, it prefers to continue the reaction by hydrogenating to *CHOH or *OCH2 instead of HCHO due to the high energy barrier required for HCHO formation. As a deep six-electron transfer product of reduction, the pathway for CH3OH production is * + C O 2 → * C O 2 → * COOH → * CO → * CHO → * CHOH / * OC H 2 → * C H 2 OH / * OC H 3 → * + C H 3 OH . As can be seen from Figure S12a that Fe-O-Pc boasted the lowest Δ G max value among all 27 candidates. Again, the O modified TM-Pc show better performance than other heteroatom modified systems. To reveal the underline reason for the better performance of O modified system than other heteroatom modified systems. We then focused the comparative analysis on reducing CO2 to CH3OH for Fe-Pc, Fe-B-Pc, and Fe-O-Pc. As shown in Fig. 4 a, the free energy of Fe-Pc along the reduction pathway ( * COOH → * CO → * CHO ) exhibits a trend of decreasing and then increasing, with the highest energy barrier of the reaction being the formation of *CHO by *CO hydrogenation (0.721 eV); the free energy fluctuation is remarkably weaker on Fe-O-Pc, with the RDS changing to * CHO → * OC H 2 which has the free energy uphill of only 0.324 eV; while the trend of energy change in this route remains the same for Fe-B-Pc, but the deep reduction pathway is changed, with the generation of CH3OH being the highest energy uphill step of 1.130 eV. Similarly, after doping with O atom on Ni-Pc, Cu-Pc, and Zn-Pc, their catalytic performance is enhanced by lowering the step with the highest energy barrier. Compared with Fe-Pc, the O heteroatom modification in Fe-O-Pc provide with the best coordinating environment for anchored TM, achieve the suitable binding strength for *CO and *CHO (weaker binding strength for *CO and stronger binding with *CHO). This can thus reduce the energy barrier for * CO → * CHO , leading to the RDS being * CHO → * OC H 2 , and finally reaching the best catalytic activity. However, the B heteroatom modification in Fe-B-Pc produce stronger binding strength for both *CO and *CHO (too strong for *CO), unable to the reach the low limiting potential for the whole reaction. CH4 is the main eight-electron product of CRR. There are two possible reduction pathways for CH4: * + C O 2 → * C O 2 → * COOH → * CO → * CHO → * CHOH / * OC H 2 → * OC H 3 → * O + C H 4 → * OH → * H 2 O , the difference is that the hydrogenation of *CHO to generate *CHOH or *OCH2. When three H atoms and one O atom completely saturate the C atom in *OCH3, the subsequent proton-electron transfer to *OCH3 results in the CO bond breaking and the desorption of CH4 from the catalytic surface. The complete reduction reaction ends when the *O continues to hydrogenate until it produces *H2O. Figure S12b depicts the limiting potential of 27 candidates for reduction of CO2 to CH4. The energy required for RDS of TM-Pc is below 0.500 eV only for Cr-Pc and Mn-Pc; the limit potential of Ni-B-Pc which exhibit the best catalytic performance in TM-B-Pcs is −0.606 V which exceeds −0.500 V; however, five candidates present excellent catalytic performance (∆Gmax < 0.500 eV) when the coordination environment is modified by the O atom. Fig. 4b demonstrates in detail the reaction process of CH4 production on Cr-Pc, Mn-Pc, Sc-O-Pc, Cr-O-Pc, Mn-O-Pc, Fe-O-Pc, and Co-O-Pc. Among these, the RDS of Cr-Pc is * CO → * CHO (ΔG = 0.415 eV), while on Cr-O-Pc it changes to * C O 2 → * COOH (ΔG = 0.380 eV); the RDS of the Mn-doped catalyst changes from * C O 2 → * COOH (ΔG = 0.488 eV) to * CO → * CHO (ΔG = 0.432 eV) after replacing with the O coordinating atom. The above results mean that for Cr-Pc and Mn-Pc, introducing the O atom could change the RDS and reduce the corresponding energy barrier, thus enhancing the catalytic performance. In particular, Fe-O-Pc exhibited the highest catalytic activity (UL = −0.324 V), comparable to or even lower than some reported catalysts. For example, the single TM (TM = Mn, Fe, Ni, Cu, Mo, Pt) atom anchored GDY (from −0.43 V to −1.07 V) [81], GDY modified with single boron atoms (−0.60 V) [82], Cu, Fe and Cr trimetallic clusters supported on GY (−0.39∼ −0.56 V) [78,83], Co2 N@Gra (−0.37 V) [84], Cu/Fe-NC (−0.51 V) [85], FeFe-grafiN6 (−0.61 V) [86], N6V4-AgCr (−0.38 V) [87], CuCr/C2N (−0.37 V) [88], and MnCu@2SV (−0.64 V) [89]. Moreover, the UL values obtained from this process can be used to select the target products for CRR for different catalysts, and Fig. 4c summarizes the detailed results. Cr-Pc, Fe-O-Pc, Co-Pc, and Cr-O-Pc exhibited the highest catalytic activities for reducing CO2 to CO, HCOOH, CH3OH, and CH4 respectively. And also, to summarize, the O heteroatom modification in TM-Pc can generally provide with the more suitable coordinating environment for the adsorbed intermediates among the studied candidates, leading to the high activity of TM-O-PC for CRR than the other heteroatom modification. 3.4 CRR vs HER CRR generally occurs in a solvent environment, and the TM atoms anchored in the catalyst inevitably react with the proton in the solution, so there is a competitive relationship between HER and CRR. The capture and activation of CO2 on the surface is the initial step in the CRR process. The activation of CO2 is not only a key step to achieve the efficient performance but also necessary to inhibit the HER side reaction. We calculate and compare the Gibbs free energy for adsorption of *CO2 and *H on catalysts (Figure 5a∼c). Reaction with low energy barriers occurs more preferentially and occupies the active site. The system below the diagonal line shows better selectivity for CRR, while above the diagonal line indicates the HER is more preferential. Except for Co-Pc on which the *H adsorption is preferred, all original TM-Pc exhibit promising CRR selectivity; adsorption of *CO2 at the TM site is favored on ten TM-O-Pcs; although TM-B-Pc could activate CO2 molecules effectively, but it shows HER preference and cannot suppress the competing side reactions. In addition, we further calculated the difference of limiting potential between CRR and HER to assess the selectivity (Fig. S13 and Fig. 5 d). The positive potential difference implies the high selectivity of the catalyst for CRR by definition. We set the difference on Cu (211) catalyst (−0.65 V) as a benchmark which is recognized as the best CRR catalyst in experiments [90]. Except for Co-Pc and Zn-O-Pc, the remaining candidates are more favorable for the reduction of CO2 than HER, which exhibit high CRR selectivity compared to the pure copper catalysts. 3.5 Activity origin One determinant factor of the catalytic performance is the ability of the catalysts to bind with different CRR intermediates, which is originated from the electronic properties of the catalyst to adjust directly the binding energy of intermediates [4,47,91–95]. Therefore, we calculated and analyzed the binding energies of different intermediates on TM-X-Pcs. Considering the complexity of the CRR pathway and the variety of possible intermediates, we performed computational analyses only for reaction intermediates in the CH4 generation pathway. Meanwhile, the intermediates are divided into oxygen- and carbon-bonded intermediates according to the connection mode connected to the catalyst. The binding energies of *CHO and *OH intermediates are widely used descriptors for catalytic activity in previous reports [6,96–100]. Therefore, we chose Eb(*CHO) and Eb(*OH) as the descriptors to analyze the linear relationship between the binding energies of the carbon-bonded and oxygen-bonded intermediates, respectively. As present in Fig. 6 ab, Eb(*CHO) and Eb(*COOH) exhibit a strong positive proportional linear relationship (R2 = 0.927) among carbon-bonded intermediates; all oxygen-bonded intermediates show a great linear relationship with Eb(*OH), with the strongest proportionality for Eb(*OCH3), and Eb(*O) (R2 = 0.998, R2 = 0.921 respectively). A good linear relationship between the binding energies of different intermediates indicates that the corresponding elementary reactions are also restricted. Therefore, we further performed the linear fitting for the relationship between Gibbs free energy change of different elementary reactions and the binding energies of Eb(*CHO) and Eb(*OH). The results are summarized in Figure 6 cd, ΔG ( * COOH → * + CO + H 2 O ) and ΔG( * CHOH → * + HCHO ) presents an inverse proportional linear relationship, the more negative binding energy of the *CHO intermediate on the substrate will result in a higher energy barrier to overcome for the production of CO or HCHO, which means that the reaction will continue to generate other products by hydrogen reduction of *CHO. * C O 2 → * + COOH and * CO → * CHO act as common RDSs and the relationship are also calculated. It is clear that the reaction energy change of both increases with increasing Eb(*CHO), which indicates the two hydrogenation steps are more advantageous when the more negative binding energy is. Whether more negative Eb(*CHO) leads to better catalyst performance? Therefore, we carry out an analysis for the relation of ΔG with Eb(*OH) for other elementary reactions. As Eb(*OH) increases, the production of CH3OH from *OCH3 or generation of *H2O from *OH is more beneficial, and the ΔG ( * OC H 2 → * OC H 3 ) and ΔG ( * OC H 3 → * O + C H 4 ) rise simultaneously. Combining Figure S12b and the RDS of each system, it is evident that the energy barrier of conventional RDS decreases as the binding strength of adsorbed intermediates increases, but the step with the highest energy barrier changes and the overall catalytic performance of the catalyst is limited. Then, the UL(CH4) as a function of Eb(*CHO) is investigated (Figure S14). The relationship between the two shows a volcanic shape, which indicates that the system obtains better catalytic performance in the range of −1.000∼ −1.600 eV for Eb(*CHO). Among 27 candidates, Cr-O-Pc, Mn-O-Pc, Fe-O-Pc, Co-O-Pc, Cr-Pc, and Mn-Pc systems are close to the apex and show excellent catalytic performance. 3.6 Comparison of coordination environments To further explore the effect of the doping atoms species on the catalyst activity of the active center of the catalyst and how it modulates the catalytic performance, we then dedicate on the coordinating atoms and compare the catalytic performance of TM-PC with one of the N coordinating atoms modified by atoms with different electronegativity from B, C, O atoms (TM-B-Pc, TM-C-Pc, TM-Pc and TM-O-Pc). For TM-C-Pcs, we constructed Cr-C-Pc, Mn-C-Pc, and Fe-C-Pc models with one of the N coordinating atoms modified by the C atom and performed the same CRR path analysis. Figure S15 shows the detailed reaction process, and Fig. 7 a summarizes the free energy profiles for CO2 reduction to CH4 over the three systems. There are differences in the reaction pathways, with Cr-C-Pc beneficial to generate *OCH2 by *CHO hydrogenation and Mn-C-Pc and Fe-C-Pc preferring the formation of *CHOH. Across the whole reaction pathway, the step with the highest free energy change for Cr-C-Pc and Fe-C-Pc is * CO → * CHO with barriers of 0.498 eV and 0.745 eV, respectively. The RDS for Mn-C-Pc is * CHOH → * OC H 3 with an energy barrier of 0.569 eV. Comparing the limiting potentials of 12 catalysts to generate CH4 (TM-B-Pc, TM-C-Pc, TM-Pc and TM-O-Pc, TM=Fe, Cr, Mn), the results indicate that the catalytic performance of the catalysts gradually improves with the electronegativity of the heteroatoms increasing from the B atom to the O atom, except for Fe-B-Pc in Fe-X-Pc that breaks the rule. We calculated the projected density of state (PDOS) of *CHO adsorbed on 12 candidates (Figure S16∼S18). The TM-d orbitals in Cr-B-Pc, Mn-B-Pc, and Fe-B-Pc overlap significantly near the Fermi energy level with the C(*CHO)-p or B-p orbitals, which is consistent with the strong adsorption of *CHO on these catalysts. However, as the doping atom changes from B to C, N, or O, the overlap between the p orbital of the heteroatom and the C-p orbital in *CHO gradually decreases, and the overlap with the TM-d orbital gradually shifts to the region below the Fermi level. Furthermore, we computed the relationship between the amount of charge carried on CHO (QCHO) and Eb(*CHO). As shown in Fig. 7c, the relationship between QCHO and Eb(*CHO) can form a volcano-type curve. When the CHO species receives or donates a certain number of electrons, the *CHO binds more stably to the catalyst. According to the above discussion, there is a volcano-type curve between Eb(*CHO) and UL(CH4), and only the appropriate binding strength of catalytic system exhibits the best catalytic activity. Modifying the type of coordination atoms could regulate the binding strength between the metal active center and the intermediate well, thus improving the catalytic performance of the system. 4 Conclusion In this work, we systematically investigated the performance of TM anchored Pc monolayers with and without different heteroatoms in the coordinating atoms as potential CRR catalysts by first-principles calculations (TM-Pc and TM-X-Pc, TM = Sc-Zn, X = B, C, N, O, and S), respectively. Evaluating the stability of the systems based on the formation energy (Ef) and dissolution potential (Udiss), in which Sc-B-Pc, Ti-B-Pc, Sc-Pc, and S heteroatom modified systems (TM-S-Pc) were excluded due to poor stability. Subsequently, we investigated and analyzed the CRR catalytic performance of the remaining 27 candidates, and the calculations indicated that Cr-Pc, Mn-Pc, Sc-O-Pc, Cr-O-Pc, Mn-O-Pc, Fe-O-Pc, and Co-O-Pc exhibited excellent catalytic performance for the generation of CH4, with the RDS all below 0.5 eV. The research on the activity origin of the system revealed that Eb(*OH) and Eb(*CHO) could serve as descriptors for the catalytic performance of the TM-X-Pc catalysts, displaying a linear relationship with the binding energy Eb of the oxygen- or carbon-bonded intermediates, and an activity volcano diagram with ΔG of the several reaction steps. In addition, the linear fitting results of Eb(*CHO) and UL(CH4) also present a volcano-type curve. Finally, the influence of the type of coordination atoms on the catalytic activity of the active center was analyzed by comparing the catalytic performance of TM-C-Pc, TM-O-Pc, TM-Pc and TM-S-Pc. The results suggest that modifying the type of coordination atoms could regulate the binding strength between the active center and the adsorbed intermediate, thus tune the catalytic performance of the system to reach the optimal CRR performance. Compared with TM-Pc, the O heteroatom modification in TM-O-Pc provide with the best coordinating environment for anchored TM, achieve the suitable binding strength for *CO and *CHO (weaker binding strength for *CO and stronger binding with *CHO). This can thus reduce the energy barrier for * CO → * CHO , leading to the RDS being other protonation step, and finally reaching the best catalytic activity. In summary, our research results show that TM-X-Pc monolayers can work as highly efficient CRR catalysts and provide theoretical guidance for experimental designing of CRR catalysis. CRediT authorship contribution statement Fang Xu: Writing – original draft, Methodology, Investigation. Zhenzhen Wang: Investigation, Validation. Zhiyi Liu: Investigation, Validation. Aling Ma: Investigation, Validation. Dandan Wu: Methodology, Investigation. Fanghui Wu: Funding acquisition. Hong Xu: Conceptualization, Methodology, Funding acquisition, Writing – review & editing. Guohong Fan: Resources, Funding acquisition, Writing – review & editing. Declaration of Competing Interest The authors declare that they have no known competing financial interests or personal relationships that could have appeared to influence the work reported in this paper. Acknowledgments This work was financially supported by the National Natural Science Foundation of China (Nos. 21403003 and 21403004), The Natural Science Research Project of Higher Education Institutions of Anhui Province (No. 2022AH050298), the Open Project of Engineering Research Center of Biofilm Water Purification and Utilization Technology of Ministry of Education (No. BWPU2022KF04), the University Synergy Innovation Program of Anhui Province (No. GXXT-2022–006). Supplementary materials Supplementary material associated with this article can be found, in the online version, at doi:10.1016/j.mcat.2023.113617. Appendix Supplementary materials Image, application 1 References [1] S. Chu Y. Cui N. Liu The path towards sustainable energy Nat. Mater. 16 2016 16 22 S. Chu, Y. Cui, N. Liu, The path towards sustainable energy, Nat. Mater., 16 (2016) 16–22. [2] G.A. Olah G.K. Prakash A. Goeppert Anthropogenic chemical carbon cycle for a sustainable future J. Am. Chem. Soc. 133 2011 12881 12898 G.A. Olah, G.K. Prakash, A. Goeppert, Anthropogenic chemical carbon cycle for a sustainable future, J. Am. Chem. Soc., 133 (2011) 12881–12898. [3] B. Obama The irreversible momentum of clean energy Science 355 2017 126 129 B. Obama, The irreversible momentum of clean energy, Science, 355 (2017) 126–129. [4] F. Xu X. Wang X. Liu C. Li G. Fan H. Xu Computational screening of TMN4 based graphene-like BC6N for CO2 electroreduction to C1 hydrocarbon products Mol. Catal. 530 2022 112571 F. Xu, X. Wang, X. Liu, C. Li, G. Fan, H. Xu, Computational screening of TMN4 based graphene-like BC6N for CO2 electroreduction to C1 hydrocarbon products, Mol. Catal., 530 (2022) 112571. [5] T. He K. Reuter A. Du Atomically dispersed asymmetric Cu–B pair on 2D carbon nitride synergistically boosts the conversion of CO into C2 products J. Mater. Chem. A 8 2020 599 606 T. He, K. Reuter, A. Du, Atomically dispersed asymmetric Cu–B pair on 2D carbon nitride synergistically boosts the conversion of CO into C2 products, J. Mater. Chem. A, 8 (2020) 599–606. [6] X. Zhi Y. Jiao Y. Zheng S.Z. Qiao Impact of interfacial electron transfer on electrochemical CO2 reduction on graphitic carbon nitride/doped graphene Small 15 2019 1804224 X. Zhi, Y. Jiao, Y. Zheng, S.Z. Qiao, Impact of interfacial electron transfer on electrochemical CO2 reduction on graphitic carbon nitride/doped graphene, Small, 15 (2019) 1804224. [7] J.H. Liu L.M. Yang E. Ganz Electrochemical reduction of CO2 by single atom catalyst TM-TCNQ monolayers J. Mater. Chem. A 7 2019 3805 3814 J.H. Liu, L.M. Yang, E. Ganz, Electrochemical reduction of CO2 by single atom catalyst TM-TCNQ monolayers, J. Mater. Chem. A, 7 (2019) 3805–3814. [8] L. Ju X. Tan X. Mao Y. Gu S. Smith A. Du Z. Chen C. Chen L. Kou Controllable CO2 electrocatalytic reduction via ferroelectric switching on single atom anchored In2Se3 monolayer Nat. Commun. 12 2021 1 10 L. Ju, X. Tan, X. Mao, Y. Gu, S. Smith, A. Du, Z. Chen, C. Chen, L. Kou, Controllable CO2 electrocatalytic reduction via ferroelectric switching on single atom anchored In2Se3 monolayer, Nat. Commun., 12 (2021) 1–10. [9] M. Yang Z. Wang D. Jiao Y. Tian Y. Shang L. Yin Q. Cai J. Zhao Tuning precise numbers of supported nickel clusters on graphdiyne for efficient CO2 electroreduction toward various multi-carbon products J. Energy Chem. 69 2022 456 465 M. Yang, Z. Wang, D. Jiao, Y. Tian, Y. Shang, L. Yin, Q. Cai, J. Zhao, Tuning precise numbers of supported nickel clusters on graphdiyne for efficient CO2 electroreduction toward various multi-carbon products, J. Energy Chem., 69 (2022) 456–465. [10] J. Qin H. Liu P. Zou R. Zhang C. Wang H.L. Xin Altering ligand fields in single-atom sites through second-shell anion modulation boosts the oxygen reduction reaction J. Am. Chem. Soc. 144 2022 2197 2207 J. Qin, H. Liu, P. Zou, R. Zhang, C. Wang, H.L. Xin, Altering ligand fields in single-atom sites through second-shell anion modulation boosts the oxygen reduction reaction, J. Am. Chem. Soc., 144 (2022) 2197–2207. [11] L. Peng J. Yang Y. Yang F. Qian Q. Wang D. Sun-Waterhouse L. Shang T. Zhang G.I.N. Waterhouse Mesopore-rich Fe-N-C catalyst with FeN4 -O-NC single-atom sites delivers remarkable oxygen reduction reaction performance in alkaline media Adv. Mater. 34 2022 2202544 L. Peng, J. Yang, Y. Yang, F. Qian, Q. Wang, D. Sun-Waterhouse, L. Shang, T. Zhang, G.I.N. Waterhouse, Mesopore-rich Fe-N-C catalyst with FeN4 -O-NC single-atom sites delivers remarkable oxygen reduction reaction performance in alkaline media, Adv. Mater., 34 (2022) 2202544. [12] B. Qiao A. Wang X. Yang L.F. Allard Z. Jiang Y. Cui J. Liu J. Li T. Zhang Single-atom catalysis of CO oxidation using Pt1/FeOx Nat. Chem. 3 2011 634 641 B. Qiao, A. Wang, X. Yang, L.F. Allard, Z. Jiang, Y. Cui, J. Liu, J. Li, T. Zhang, Single-atom catalysis of CO oxidation using Pt1/FeOx, Nat. Chem., 3 (2011) 634–641. [13] N. Cheng S. Stambula D. Wang M.N. Banis J. Liu A. Riese B. Xiao R. Li T.K. Sham L.M. Liu G.A. Botton X. Sun Platinum single-atom and cluster catalysis of the hydrogen evolution reaction Nat. Commun. 7 2016 13638 N. Cheng, S. Stambula, D. Wang, M.N. Banis, J. Liu, A. Riese, B. Xiao, R. Li, T.K. Sham, L.M. Liu, G.A. Botton, X. Sun, Platinum single-atom and cluster catalysis of the hydrogen evolution reaction, Nat. Commun., 7 (2016) 13638. [14] H. Niu X.T. Wang C. Shao Y.S. Liu Z.F. Zhang Y.Z. Guo Revealing the oxygen reduction reaction activity origin of single atoms supported on g-C3N4 monolayers: a first-principles study J. Mater. Chem. A 8 2020 6555 6563 H. Niu, X.T. Wang, C. Shao, Y.S. Liu, Z.F. Zhang, Y.Z. Guo, Revealing the oxygen reduction reaction activity origin of single atoms supported on g-C3N4 monolayers: a first-principles study, J. Mater. Chem. A, 8 (2020) 6555–6563. [15] Y.N. Zhou G.P. Gao J. Kang W. Chu L.W. Wang Transition metal-embedded two-dimensional C3N as a highly active electrocatalyst for oxygen evolution and reduction reactions J. Mater. Chem. A 7 2019 12050 12059 Y.N. Zhou, G.P. Gao, J. Kang, W. Chu, L.W. Wang, Transition metal-embedded two-dimensional C3N as a highly active electrocatalyst for oxygen evolution and reduction reactions, J. Mater. Chem. A, 7 (2019) 12050–12059. [16] X. Liu C. Li F. Xu D. Wu G. Fan H. Xu Transition metal atoms anchored on nitrogen-doped α-arsenene as efficient electrocatalysts for nitrogen electroreduction reaction Int. J. Hydrog. Energy 47 2022 29781 29793 X. Liu, C. Li, F. Xu, D. Wu, G. Fan, H. Xu, Transition metal atoms anchored on nitrogen-doped α-arsenene as efficient electrocatalysts for nitrogen electroreduction reaction, Int. J. Hydrog. Energy, 47 (2022) 29781–29793. [17] X. Liu C. Li F. Xu G. Fan H. Xu Density functional theory study of nitrogen-doped black phosphorene doped with monatomic transition metals as high performance electrocatalysts for N2 reduction reaction Nanotechnology 33 2022 245401 X. Liu, C. Li, F. Xu, G. Fan, H. Xu, Density functional theory study of nitrogen-doped black phosphorene doped with monatomic transition metals as high performance electrocatalysts for N2 reduction reaction, Nanotechnology, 33 (2022) 245401. [18] C. Li X. Liu F. Xu D. Wu H. Xu G. Fan High-throughput screening of dual-atom doped PC6 electrocatalysts for efficient CO2 electrochemical reduction to CH4 by breaking scaling relations Electrochim. Acta 426 2022 140764 C. Li, X. Liu, F. Xu, D. Wu, H. Xu, G. Fan, High-throughput screening of dual-atom doped PC6 electrocatalysts for efficient CO2 electrochemical reduction to CH4 by breaking scaling relations, Electrochim. Acta, 426 (2022) 140764. [19] C. Li X. Liu D. Wu H. Xu G. Fan Theoretical study of transition metal doped α-borophene nanosheet as promising electrocatalyst for electrochemical reduction of N2 Comput. Theor. Chem. 1213 2022 113732 C. Li, X. Liu, D. Wu, H. Xu, G. Fan, Theoretical study of transition metal doped α-borophene nanosheet as promising electrocatalyst for electrochemical reduction of N2, Comput. Theor. Chem., 1213 (2022) 113732. [20] X. Liu Z. Gao H. Huang G. Yan T. Huang C. Chen W. Yang X.L. Ding Simultaneous catalytic oxidation of nitric oxide and elemental mercury by single-atom Pd/g-C3N4 catalyst: a DFT study Mol. Catal. 488 2020 X. Liu, Z. Gao, H. Huang, G. Yan, T. Huang, C. Chen, W. Yang, X.L. Ding, Simultaneous catalytic oxidation of nitric oxide and elemental mercury by single-atom Pd/g-C3N4 catalyst: a DFT study, Mol. Catal., 488 (2020). [21] J. Sun H. Zhao X. Fang S. Zhai D. Zhai L. Sun W. Deng Theoretical studies on the catalytic hydrogenation of carbon dioxide by 3d transition metals single-atom catalyst supported on covalent triazine frameworks Mol. Catal. 508 2021 J. Sun, H. Zhao, X. Fang, S. Zhai, D. Zhai, L. Sun, W. Deng, Theoretical studies on the catalytic hydrogenation of carbon dioxide by 3d transition metals single-atom catalyst supported on covalent triazine frameworks, Mol. Catal., 508 (2021). [22] G.D. Fao J.C. Jiang Theoretical investigation of CO2 conversion on corrugated g-C3N4 Surface decorated by single-atom of Fe, Co, and Pd Mol. Catal. 526 2022 G.D. Fao, J.C. Jiang, Theoretical investigation of CO2 conversion on corrugated g-C3N4 Surface decorated by single-atom of Fe, Co, and Pd, Mol. Catal., 526 (2022). [23] L. Liu C. Wang F. Xue J. Li H. Zhang S. Lu X. Su B. Cao W. Huo T. Fang DFT investigation of CO2 hydrogenation to methanol over Ir-doped Cu surface Mol. Catal. 528 2022 L. Liu, C. Wang, F. Xue, J. Li, H. Zhang, S. Lu, X. Su, B. Cao, W. Huo, T. Fang, DFT investigation of CO2 hydrogenation to methanol over Ir-doped Cu surface, Mol. Catal., 528 (2022). [24] A. Massaro A. Pecoraro S. Hernández G. Talarico A.B. Muñoz-García M. Pavone Oxygen evolution reaction at the Mo/W-doped bismuth vanadate surface: assessing the dopant role by DFT calculations Mol. Catal. 517 2022 A. Massaro, A. Pecoraro, S. Hernández, G. Talarico, A.B. Muñoz-García, M. Pavone, Oxygen evolution reaction at the Mo/W-doped bismuth vanadate surface: assessing the dopant role by DFT calculations, Mol. Catal., 517 (2022). [25] J. Xiong A. Yang Q. Sun H. Gao H. Zhang Y. Mao Z. Liang Insights into CO2 activation and charge transfer in photocatalytic reduction of CO2 on pure and metal single atom modified TiO2 surfaces Mol. Catal. 547 2023 J. Xiong, A. Yang, Q. Sun, H. Gao, H. Zhang, Y. Mao, Z. Liang, Insights into CO2 activation and charge transfer in photocatalytic reduction of CO2 on pure and metal single atom modified TiO2 surfaces, Mol. Catal., 547 (2023). [26] W. Ju A. Bagger G.P. Hao A.S. Varela I. Sinev V. Bon B. Roldan Cuenya S. Kaskel J. Rossmeisl P. Strasser Understanding activity and selectivity of metal-nitrogen-doped carbon catalysts for electrochemical reduction of CO2 Nat. Commun. 8 2017 944 W. Ju, A. Bagger, G.P. Hao, A.S. Varela, I. Sinev, V. Bon, B. Roldan Cuenya, S. Kaskel, J. Rossmeisl, P. Strasser, Understanding activity and selectivity of metal-nitrogen-doped carbon catalysts for electrochemical reduction of CO2, Nat. Commun., 8 (2017) 944. [27] X. Li W. Bi M. Chen Y. Sun H. Ju W. Yan J. Zhu X. Wu W. Chu C. Wu Y. Xie Exclusive Ni-N4 sites realize near-unity CO selectivity for electrochemical CO2 reduction J. Am. Chem. Soc. 139 2017 14889 14892 X. Li, W. Bi, M. Chen, Y. Sun, H. Ju, W. Yan, J. Zhu, X. Wu, W. Chu, C. Wu, Y. Xie, Exclusive Ni-N4 sites realize near-unity CO selectivity for electrochemical CO2 reduction, J. Am. Chem. Soc., 139 (2017) 14889–14892. [28] Z. Geng Y. Cao W. Chen X. Kong Y. Liu T. Yao Y. Lin Regulating the coordination environment of Co single atoms for achieving efficient electrocatalytic activity in CO2 reduction Appl. Catal. B 240 2019 234 240 Z. Geng, Y. Cao, W. Chen, X. Kong, Y. Liu, T. Yao, Y. Lin, Regulating the coordination environment of Co single atoms for achieving efficient electrocatalytic activity in CO2 reduction, Appl. Catal. B, 240 (2019) 234–240. [29] T. Möller W. Ju A. Bagger X. Wang F. Luo T. Ngo Thanh A.S. Varela J. Rossmeisl P. Strasser Efficient CO2 to CO electrolysis on solid Ni–N–C catalysts at industrial current densities Energy Environ. Sci. 12 2019 640 647 T. Möller, W. Ju, A. Bagger, X. Wang, F. Luo, T. Ngo Thanh, A.S. Varela, J. Rossmeisl, P. Strasser, Efficient CO2 to CO electrolysis on solid Ni–N–C catalysts at industrial current densities, Energy Environ. Sci., 12 (2019) 640–647. [30] J. Tuo Y. Zhu L. Cheng Y. Li X. Yang J. Shen C. Li Layered confinement reaction: atomic-level dispersed iron-nitrogen co-doped ultrathin carbon nanosheets for CO2 electroreduction ChemSusChem 12 2019 2644 2650 J. Tuo, Y. Zhu, L. Cheng, Y. Li, X. Yang, J. Shen, C. Li, Layered confinement reaction: atomic-level dispersed iron-nitrogen co-doped ultrathin carbon nanosheets for CO2 electroreduction, ChemSusChem, 12 (2019) 2644–2650. [31] A. Guan Z. Chen Y. Quan C. Peng Z. Wang T.K. Sham C. Yang Y. Ji L. Qian X. Xu G. Zheng Boosting CO2 electroreduction to CH4 via tuning neighboring single-copper sites ACS Energy Lett. 5 2020 1044 1053 A. Guan, Z. Chen, Y. Quan, C. Peng, Z. Wang, T.K. Sham, C. Yang, Y. Ji, L. Qian, X. Xu, G. Zheng, Boosting CO2 electroreduction to CH4 via tuning neighboring single-copper sites, ACS Energy Lett.., 5 (2020) 1044–1053. [32] Q. He J.H. Lee D.B. Liu Y.M. Liu Z.X. Lin Z.H. Xie S. Hwang S. Kattel L. Song J.G. Chen Accelerating CO2 electroreduction to CO Over Pd single-atom catalyst Adv. Funct. Mater. 30 2020 2000407 Q. He, J.H. Lee, D.B. Liu, Y.M. Liu, Z.X. Lin, Z.H. Xie, S. Hwang, S. Kattel, L. Song, J.G. Chen, Accelerating CO2 electroreduction to CO Over Pd single-atom catalyst, Adv. Funct. Mater., 30 (2020) 2000407. [33] A. Friedman L. Elbaz Heterogeneous electrocatalytic reduction of carbon dioxide with transition metal complexes J. Catal. 395 2021 23 35 A. Friedman, L. Elbaz, Heterogeneous electrocatalytic reduction of carbon dioxide with transition metal complexes, J. Catal., 395 (2021) 23–35. [34] D. Sassone J. Zeng M. Fontana A. Sacco M.A. Farkhondehfal M. Periolatto C.F. Pirri S. Bocchini Polymer-metal complexes as emerging catalysts for electrochemical reduction of carbon dioxide J. Appl. Electrochem. 51 2021 1301 1311 D. Sassone, J. Zeng, M. Fontana, A. Sacco, M.A. Farkhondehfal, M. Periolatto, C.F. Pirri, S. Bocchini, Polymer-metal complexes as emerging catalysts for electrochemical reduction of carbon dioxide, J. Appl. Electrochem., 51 (2021) 1301–1311. [35] X. Zhao J. Wang J. Wang M. Yang C. Yan G. Zou J.S. Tse C. Fernandez Q. Peng Atomically dispersed quintuple nitrogen and oxygen co-coordinated zirconium on graphene-type substrate for highly efficient oxygen reduction reaction Cell Rep. Phys. Sci. 3 2022 100773 X. Zhao, J. Wang, J. Wang, M. Yang, C. Yan, G. Zou, J.S. Tse, C. Fernandez, Q. Peng, Atomically dispersed quintuple nitrogen and oxygen co-coordinated zirconium on graphene-type substrate for highly efficient oxygen reduction reaction, Cell Rep. Phys. Sci., 3 (2022) 100773. [36] D. Zhao K. Yu P. Song W. Feng B. Hu W.C. Cheong Z. Zhuang S. Liu K. Sun J. Zhang C. Chen Atomic-level engineering Fe1N2O2 interfacial structure derived from oxygen-abundant metal–organic frameworks to promote electrochemical CO2 reduction Energy Environ. Sci. 15 2022 3795 3804 D. Zhao, K. Yu, P. Song, W. Feng, B. Hu, W.C. Cheong, Z. Zhuang, S. Liu, K. Sun, J. Zhang, C. Chen, Atomic-level engineering Fe1N2O2 interfacial structure derived from oxygen-abundant metal–organic frameworks to promote electrochemical CO2 reduction, Energy Environ. Sci., 15 (2022) 3795–3804. [37] S. Wei X. Jiang C. He S. Wang Q. Hu X. Chai X. Ren H. Yang C. He Construction of single-atom copper sites with low coordination number for efficient CO2 electroreduction to CH4 J. Mater. Chem. A 10 2022 6187 6192 S. Wei, X. Jiang, C. He, S. Wang, Q. Hu, X. Chai, X. Ren, H. Yang, C. He, Construction of single-atom copper sites with low coordination number for efficient CO2 electroreduction to CH4, J. Mater. Chem. A, 10 (2022) 6187–6192. [38] Y. Pan R. Lin Y. Chen S. Liu W. Zhu X. Cao W. Chen K. Wu W.C. Cheong Y. Wang L. Zheng J. Luo Y. Lin Y. Liu C. Liu J. Li Q. Lu X. Chen D. Wang Q. Peng C. Chen Y. Li Design of single-atom Co-N5 catalytic site: a robust electrocatalyst for CO2 reduction with nearly 100% CO selectivity and remarkable stability J. Am. Chem. Soc. 140 2018 4218 4221 Y. Pan, R. Lin, Y. Chen, S. Liu, W. Zhu, X. Cao, W. Chen, K. Wu, W.C. Cheong, Y. Wang, L. Zheng, J. Luo, Y. Lin, Y. Liu, C. Liu, J. Li, Q. Lu, X. Chen, D. Wang, Q. Peng, C. Chen, Y. Li, Design of single-atom Co-N5 catalytic site: a robust electrocatalyst for CO2 reduction with nearly 100% CO selectivity and remarkable stability, J. Am. Chem. Soc., 140 (2018) 4218–4221. [39] X. Wang Z. Chen X. Zhao T. Yao W. Chen R. You C. Zhao G. Wu J. Wang W. Huang J. Yang X. Hong S. Wei Y. Wu Y. Li Regulation of coordination number over single co sites: triggering the efficient electroreduction of CO2 Angew. Chem. Int. Ed. Engl. 57 2018 1944 1948 X. Wang, Z. Chen, X. Zhao, T. Yao, W. Chen, R. You, C. Zhao, G. Wu, J. Wang, W. Huang, J. Yang, X. Hong, S. Wei, Y. Wu, Y. Li, Regulation of coordination number over single co sites: triggering the efficient electroreduction of CO2, Angew. Chem. Int. Ed. Engl., 57 (2018) 1944–1948. [40] Y. Meng X. Qu K. Li Y. Yang Y. Wang Z. Wu Rhodium and nitrogen codoped graphene as a bifunctional electrocatalyst for the oxygen reduction reaction and CO2 reduction reaction: mechanism insights J. Phys. Chem. C 123 2019 5176 5187 Y. Meng, X. Qu, K. Li, Y. Yang, Y. Wang, Z. Wu, Rhodium and nitrogen codoped graphene as a bifunctional electrocatalyst for the oxygen reduction reaction and CO2 reduction reaction: mechanism insights, J. Phys. Chem. C, 123 (2019) 5176–5187. [41] L. Wang B. Ji Y. Zheng Y. Tang Asymmetric coordination of iridium single-atom IrN3 O boosting formic acid oxidation catalysis Angew. Chem. Int. Ed. Engl. 62 2023 202301711 L. Wang, B. Ji, Y. Zheng, Y. Tang, Asymmetric coordination of iridium single-atom IrN3 O boosting formic acid oxidation catalysis, Angew. Chem. Int. Ed. Engl., 62 (2023) 202301711. [42] P. Song B. Hu D. Zhao J. Fu X. Su W. Feng K. Yu S. Liu J. Zhang C. Chen Modulating the asymmetric atomic interface of copper single atoms for efficient CO2 electroreduction ACS Nano 17 2023 4619 4628 P. Song, B. Hu, D. Zhao, J. Fu, X. Su, W. Feng, K. Yu, S. Liu, J. Zhang, C. Chen, Modulating the asymmetric atomic interface of copper single atoms for efficient CO2 electroreduction, ACS Nano, 17 (2023) 4619–4628. [43] J. Guo W. Zhang L.H. Zhang D. Chen J. Zhan X. Wang N.R. Shiju F. Yu Control over electrochemical CO2 reduction selectivity by coordination engineering of tin single-atom catalysts Adv. Sci. 8 2021 2102884 J. Guo, W. Zhang, L.H. Zhang, D. Chen, J. Zhan, X. Wang, N.R. Shiju, F. Yu, Control over electrochemical CO2 reduction selectivity by coordination engineering of tin single-atom catalysts, Adv. Sci., 8 (2021) 2102884. [44] Y. Zhou L. Sheng Q. Luo W. Zhang J. Yang Improving the activity of electrocatalysts toward the hydrogen evolution reaction, the oxygen evolution reaction, and the oxygen reduction reaction via modification of metal and ligand of conductive two-dimensional metal-organic frameworks J. Phys. Chem. Lett. 12 2021 11652 11658 Y. Zhou, L. Sheng, Q. Luo, W. Zhang, J. Yang, Improving the activity of electrocatalysts toward the hydrogen evolution reaction, the oxygen evolution reaction, and the oxygen reduction reaction via modification of metal and ligand of conductive two-dimensional metal-organic frameworks, J. Phys. Chem. Lett., 12 (2021) 11652–11658. [45] X. Chen S. Lin S. Qing Y. Zhang X. Li Density functional theory study of the sulfur/oxygen doped CoN4-graphene electrocatalyst for oxygen reduction reaction Colloids Surf. A 615 2021 126219 X. Chen, S. Lin, S. Qing, Y. Zhang, X. Li, Density functional theory study of the sulfur/oxygen doped CoN4-graphene electrocatalyst for oxygen reduction reaction, Colloids Surf. A, 615 (2021) 126219. [46] S. Liu M. Jin J. Sun Y. Qin S. Gao Y. Chen S. Zhang J. Luo X. Liu Coordination environment engineering to boost electrocatalytic CO2 reduction performance by introducing boron into single-Fe-atomic catalyst Chem. Eng. J. 437 2022 135294 S. Liu, M. Jin, J. Sun, Y. Qin, S. Gao, Y. Chen, S. Zhang, J. Luo, X. Liu, Coordination environment engineering to boost electrocatalytic CO2 reduction performance by introducing boron into single-Fe-atomic catalyst, Chem. Eng. J., 437 (2022) 135294. [47] F. Xu D. Wu Z. Wang A. Ma F. Wu H. Xu G. Fan Synergistic effect and high performance of transition metal-anchored boron-doped graphyne electrocatalyst applied in the electroreduction of CO2 to C1 products: a DFT study Appl. Surf. Sci. 631 2023 157505 F. Xu, D. Wu, Z. Wang, A. Ma, F. Wu, H. Xu, G. Fan, Synergistic effect and high performance of transition metal-anchored boron-doped graphyne electrocatalyst applied in the electroreduction of CO2 to C1 products: a DFT study, Appl. Surf. Sci., 631 (2023) 157505. [48] S. Liu Y. Liu X. Gao Y. Tan Z. Shen M. Fan First principle study of feasibility of dinitrogen reduction to ammonia on two-dimensional transition metal phthalocyanine monolayer Appl. Surf. Sci. 500 2020 144032 S. Liu, Y. Liu, X. Gao, Y. Tan, Z. Shen, M. Fan, First principle study of feasibility of dinitrogen reduction to ammonia on two-dimensional transition metal phthalocyanine monolayer, Appl. Surf. Sci., 500 (2020) 144032. [49] M. Abel S. Clair O. Ourdjini M. Mossoyan L. Porte Single layer of polymeric Fe-phthalocyanine: an organometallic sheet on metal and thin insulating film J. Am. Chem. Soc. 133 2011 1203 1205 M. Abel, S. Clair, O. Ourdjini, M. Mossoyan, L. Porte, Single layer of polymeric Fe-phthalocyanine: an organometallic sheet on metal and thin insulating film, J. Am. Chem. Soc., 133 (2011) 1203–1205. [50] N. Han Y. Wang L. Ma J. Wen J. Li H. Zheng K. Nie X. Wang F. Zhao Y. Li J. Fan J. Zhong T. Wu D.J. Miller J. Lu S.T. Lee Y. Li Supported cobalt polyphthalocyanine for high-performance electrocatalytic CO2 reduction Chem. 3 2017 652 664 N. Han, Y. Wang, L. Ma, J. Wen, J. Li, H. Zheng, K. Nie, X. Wang, F. Zhao, Y. Li, J. Fan, J. Zhong, T. Wu, D.J. Miller, J. Lu, S.T. Lee, Y. Li, Supported cobalt polyphthalocyanine for high-performance electrocatalytic CO2 reduction, Chem., 3 (2017) 652–664. [51] Z. Meng A. Aykanat K.A. Mirica Welding metallophthalocyanines into bimetallic molecular meshes for ultrasensitive, low-power chemiresistive detection of gases J. Am. Chem. Soc. 141 2019 2046 2053 Z. Meng, A. Aykanat, K.A. Mirica, Welding metallophthalocyanines into bimetallic molecular meshes for ultrasensitive, low-power chemiresistive detection of gases, J. Am. Chem. Soc., 141 (2019) 2046–2053. [52] D.M. Sedlovets M.V. Shuvalov Y.V. Vishnevskiy V.T. Volkov I.I. Khodos O.V. Trofimov V.I. Korepanov Synthesis and structure of high-quality films of copper polyphthalocyanine –2D conductive polymer Mater. Res. Bull. 48 2013 3955 3960 D.M. Sedlovets, M.V. Shuvalov, Y.V. Vishnevskiy, V.T. Volkov, I.I. Khodos, O.V. Trofimov, V.I. Korepanov, Synthesis and structure of high-quality films of copper polyphthalocyanine –2D conductive polymer, Mater. Res. Bull., 48 (2013) 3955–3960. [53] H. Jia Y. Yao J. Zhao Y. Gao Z. Luo P. Du A novel two-dimensional nickel phthalocyanine-based metal–organic framework for highly efficient water oxidation catalysis J. Mater. Chem. A 6 2018 1188 1195 H. Jia, Y. Yao, J. Zhao, Y. Gao, Z. Luo, P. Du, A novel two-dimensional nickel phthalocyanine-based metal–organic framework for highly efficient water oxidation catalysis, J. Mater. Chem. A, 6 (2018) 1188–1195. [54] J. Deng B. Wang Y. Shi Q. Song A. Wang L. Hao B. Luo X. Li Z. Wang F. Wang L.J. Zhi Poly (zinc phthalocyanine) nanoribbons and their application in the high-sensitive detection of lead ions Macromol. Chem. Phys. 213 2012 1051 1059 J. Deng, B. Wang, Y. Shi, Q. Song, A. Wang, L. Hao, B. Luo, X. Li, Z. Wang, F. Wang, L.J. Zhi, Poly (zinc phthalocyanine) nanoribbons and their application in the high-sensitive detection of lead ions, Macromol. Chem. Phys., 213 (2012) 1051–1059. [55] J.Y. Choi D. Higgins G. Jiang R. Hsu J. Qiao Z. Chen Iron-tetracyanobenzene complex derived non-precious catalyst for oxygen reduction reaction Electrochim. Acta 162 2015 224 229 J.Y. Choi, D. Higgins, G. Jiang, R. Hsu, J. Qiao, Z. Chen, Iron-tetracyanobenzene complex derived non-precious catalyst for oxygen reduction reaction, Electrochim. Acta, 162 (2015) 224–229. [56] J.H. Liu L.M. Yang E. Ganz Efficient and selective electroreduction of CO2 by single-atom catalyst two-dimensional TM–Pc monolayers ACS Sustain. Chem. Eng. 6 2018 15494 15502 J.H. Liu, L.M. Yang, E. Ganz, Efficient and selective electroreduction of CO2 by single-atom catalyst two-dimensional TM–Pc monolayers, ACS Sustain. Chem. Eng., 6 (2018) 15494–15502. [57] C.X. Huang G. Li L.M. Yang E. Ganz Ammonia synthesis using single-atom catalysts based on two-dimensional organometallic metal phthalocyanine monolayers under ambient conditions ACS Appl. Mater. Interfaces 13 2021 608 621 C.X. Huang, G. Li, L.M. Yang, E. Ganz, Ammonia synthesis using single-atom catalysts based on two-dimensional organometallic metal phthalocyanine monolayers under ambient conditions, ACS Appl. Mater. Interfaces, 13 (2021) 608–621. [58] H. Zhang Y. Ma H. Xiong G. Deng L. Yang Z. Nie Highly sensitive and selective sensing-performance of 2D Co-decorated phthalocyanine toward NH3, SO2, H2S and CO molecules Surf. Interfaces 36 2023 102641 H. Zhang, Y. Ma, H. Xiong, G. Deng, L. Yang, Z. Nie, Highly sensitive and selective sensing-performance of 2D Co-decorated phthalocyanine toward NH3, SO2, H2S and CO molecules, Surf. Interfaces, 36 (2023) 102641. [59] B. Delley From molecules to solids with the DMol3 approach J. Chem. Phys. 113 2000 7756 7764 B. Delley, From molecules to solids with the DMol3 approach, J. Chem. Phys., 113 (2000) 7756–7764. [60] S. Grimme J. Antony S. Ehrlich H. Krieg A consistent and accurate ab initio parametrization of density functional dispersion correction (DFT-D) for the 94 elements H-Pu J. Chem. Phys. 132 2010 508 517 S. Grimme, J. Antony, S. Ehrlich, H. Krieg, A consistent and accurate ab initio parametrization of density functional dispersion correction (DFT-D) for the 94 elements H-Pu, J. Chem. Phys., 132 (2010) 508–517. [61] A.H. Larsen J.J. Mortensen J. Blomqvist I.E. Castelli R. Christensen M. Dulak J. Friis M.N. Groves B. Hammer C. Hargus E.D. Hermes P.C. Jennings P.B. Jensen J. Kermode J.R. Kitchin E.L. Kolsbjerg J. Kubal K. Kaasbjerg S. Lysgaard J.B. Maronsson T. Maxson T. Olsen L. Pastewka A. Peterson C. Rostgaard J. Schiotz O. Schutt M. Strange K.S. Thygesen T. Vegge L. Vilhelmsen M. Walter Z.H. Zeng K.W. Jacobsen The atomic simulation environment-a python library for working with atoms J. Phys. Condens. Matter 29 2017 273002 A.H. Larsen, J.J. Mortensen, J. Blomqvist, I.E. Castelli, R. Christensen, M. Dulak, J. Friis, M.N. Groves, B. Hammer, C. Hargus, E.D. Hermes, P.C. Jennings, P.B. Jensen, J. Kermode, J.R. Kitchin, E.L. Kolsbjerg, J. Kubal, K. Kaasbjerg, S. Lysgaard, J.B. Maronsson, T. Maxson, T. Olsen, L. Pastewka, A. Peterson, C. Rostgaard, J. Schiotz, O. Schutt, M. Strange, K.S. Thygesen, T. Vegge, L. Vilhelmsen, M. Walter, Z.H. Zeng, K.W. Jacobsen, The atomic simulation environment-a python library for working with atoms, J. Phys. Condens. Matter, 29 (2017) 273002. [62] J.P. Perdew Y. Wang Pair-distribution function and its coupling-constant average for the spin-polarized electron gas Phys. Rev. B 46 1992 12947 12954 J.P. Perdew, Y. Wang, Pair-distribution function and its coupling-constant average for the spin-polarized electron gas, Phys. Rev. B, 46 (1992) 12947–12954. [63] J.P. Perdew K. Burke M. Ernzerhof Generalized gradient approximation made simple Phys. Rev. Lett. 77 1996 3865 J.P. Perdew, K. Burke, and M. Ernzerhof, Generalized gradient approximation made simple, Phys. Rev. Lett., 77 (1996) 3865. [64] S. Grimme Semiempirical GGA-type density functional constructed with a long-range dispersion correction J. Comput. Chem. 27 2006 1787 1799 S. Grimme, Semiempirical GGA-type density functional constructed with a long-range dispersion correction, J. Comput. Chem., 27 (2006) 1787–1799. [65] B. Delley Hardness conserving semilocal pseudopotentials Phys. Rev. B 66 2002 155125 B. Delley, Hardness conserving semilocal pseudopotentials, Phys. Rev. B, 66 (2002) 155125. [66] H.J. Monkhorst J.D. Pack Special points for Brillouin-zone integrations Phys. Rev. B 13 1976 5188 5192 H.J. Monkhorst, J.D. Pack, Special points for Brillouin-zone integrations, Phys. Rev. B, 13 (1976) 5188–5192. [67] J. Rossmeisl A. Logadottir J.K. Nørskov Electrolysis of water on (oxidized) metal surfaces Chem. Phys. 319 2005 178 184 J. Rossmeisl, A. Logadottir, J.K. Nørskov, Electrolysis of water on (oxidized) metal surfaces, Chem. Phys., 319 (2005) 178–184. [68] A.A. Peterson F. Abild-Pedersen F. Studt J. Rossmeisl J.K. Norskov How copper catalyzes the electroreduction of carbon dioxide into hydrocarbon fuels Energy Environ. Sci. 3 2010 1311 1315 A.A. Peterson, F. Abild-Pedersen, F. Studt, J. Rossmeisl, J.K. Norskov, How copper catalyzes the electroreduction of carbon dioxide into hydrocarbon fuels, Energy Environ. Sci., 3 (2010) 1311–1315. [69] X. Cui W. An X. Liu H. Wang Y. Men J. Wang C2N-graphene supported single-atom catalysts for CO2 electrochemical reduction reaction: mechanistic insight and catalyst screening Nanoscale 10 2018 15262 15272 X. Cui, W. An, X. Liu, H. Wang, Y. Men, J. Wang, C2N-graphene supported single-atom catalysts for CO2 electrochemical reduction reaction: mechanistic insight and catalyst screening, Nanoscale, 10 (2018) 15262–15272. [70] C. Shi H.A. Hansen A.C. Lausche J.K. Norskov Trends in electrochemical CO2 reduction activity for open and close-packed metal surfaces Phys. Chem. Chem. Phys. 16 2014 4720 4727 C. Shi, H.A. Hansen, A.C. Lausche, J.K. Norskov, Trends in electrochemical CO2 reduction activity for open and close-packed metal surfaces, Phys. Chem. Chem. Phys., 16 (2014) 4720–4727. [71] S. Back Y. Jung TiC- and TiN-supported single-atom catalysts for dramatic improvements in CO2 electrochemical reduction to CH4 ACS Energy Lett. 2 2017 969 975 S. Back, Y. Jung, TiC- and TiN-supported single-atom catalysts for dramatic improvements in CO2 electrochemical reduction to CH4, ACS Energy Lett.., 2 (2017) 969–975. [72] R. Xue C. Wang Y. Wang Q. Guo E. Dai Z. Nie Metal embedded phthalocyanine monolayers as promising materials for toxic formaldehyde gas detection: insights from DFT calculations Metals 12 2022 1442 (Basel) R. Xue, C. Wang, Y. Wang, Q. Guo, E. Dai, Z. Nie, Metal embedded phthalocyanine monolayers as promising materials for toxic formaldehyde gas detection: insights from DFT calculations, Metals (Basel), 12 (2022) 1442. [73] H. Xiong B. Liu H. Zhang J. Qin Theoretical insight into two-dimensional M-Pc monolayer as an excellent material for formaldehyde and phosgene sensing Appl. Surf. Sci. 543 2021 148805 H. Xiong, B. Liu, H. Zhang, J. Qin, Theoretical insight into two-dimensional M-Pc monolayer as an excellent material for formaldehyde and phosgene sensing, Appl. Surf. Sci., 543 (2021) 148805. [74] Y. Wang H. Yuan Y. Li Z. Chen Two-dimensional iron-phthalocyanine (Fe-Pc) monolayer as a promising single-atom-catalyst for oxygen reduction reaction: a computational study Nanoscale 7 2015 11633 11641 Y. Wang, H. Yuan, Y. Li, Z. Chen, Two-dimensional iron-phthalocyanine (Fe-Pc) monolayer as a promising single-atom-catalyst for oxygen reduction reaction: a computational study, Nanoscale, 7 (2015) 11633–11641. [75] C. Wang Y. Wang Q. Guo E. Dai Z. Nie Metal-decorated phthalocyanine monolayer as a potential gas sensing material for phosgene: a first-principles study ACS Omega 7 2022 21994 22002 C. Wang, Y. Wang, Q. Guo, E. Dai, Z. Nie, Metal-decorated phthalocyanine monolayer as a potential gas sensing material for phosgene: a first-principles study, ACS Omega, 7 (2022) 21994–22002. [76] Z. Nie C. Wang R. Xue G. Xie H. Xiong Two-dimensional FePc and MnPc monolayers as promising materials for SF6 decomposition gases detection: insights from DFT calculations Appl. Surf. Sci. 608 2023 155119 Z. Nie, C. Wang, R. Xue, G. Xie, H. Xiong, Two-dimensional FePc and MnPc monolayers as promising materials for SF6 decomposition gases detection: insights from DFT calculations, Appl. Surf. Sci., 608 (2023) 155119. [77] W.Y. Zha D.W. Liu Z.J. Ma Y.Z. Wang Y.C. Wei X.F. Ma L.L. Wang Q.Q. Zhang B.Y. Lou R.S. Yuan X.Z. Fu R.J. Sa Efficient electrochemical CO2 reduction on C2N monolayer supported transition metals trimer catalysts: a DFT study Appl. Surf. Sci. 564 2021 150331 W.Y. Zha, D.W. Liu, Z.J. Ma, Y.Z. Wang, Y.C. Wei, X.F. Ma, L.L. Wang, Q.Q. Zhang, B.Y. Lou, R.S. Yuan, X.Z. Fu, R.J. Sa, Efficient electrochemical CO2 reduction on C2N monolayer supported transition metals trimer catalysts: a DFT study, Appl. Surf. Sci., 564 (2021) 150331. [78] S. Zhou S. Cao S. Wei Z. Wang H. Chen X. Lin X. Chen S. Liu X. Lu Triple-atom catalysts 3TM-GYs (TM = Cu, Fe, and Co; GY = graphyne) for high-performance CO2 reduction reaction to C1 products Appl. Mater. Today 25 2021 101245 S. Zhou, S. Cao, S. Wei, Z. Wang, H. Chen, X. Lin, X. Chen, S. Liu, X. Lu, Triple-atom catalysts 3TM-GYs (TM = Cu, Fe, and Co; GY = graphyne) for high-performance CO2 reduction reaction to C1 products, Appl. Mater. Today, 25 (2021) 101245. [79] Y. Ni L. Miao J. Wang J. Liu M. Yuan J. Chen Pore size effect of graphyne supports on CO2 electrocatalytic activity of Cu single atoms Phys. Chem. Chem. Phys. 22 2020 1181 1186 Y. Ni, L. Miao, J. Wang, J. Liu, M. Yuan, J. Chen, Pore size effect of graphyne supports on CO2 electrocatalytic activity of Cu single atoms, Phys. Chem. Chem. Phys., 22 (2020) 1181–1186. [80] Y. Ouyang L. Shi X. Bai Q. Li J. Wang Breaking scaling relations for efficient CO2 electrochemical reduction through dual-atom catalysts Chem. Sci. 11 2020 1807 1813 Y. Ouyang, L. Shi, X. Bai, Q. Li, J. Wang, Breaking scaling relations for efficient CO2 electrochemical reduction through dual-atom catalysts Chem. Sci., 11 (2020) 1807–1813. [81] X. Liu Z.X. Wang Y. Tian J.X. Zhao Graphdiyne-supported single iron atom: a promising electrocatalyst for carbon dioxide electroreduction into methane and ethanol J. Phys. Chem. C 124 2020 3722 3730 X. Liu, Z.X. Wang, Y. Tian, J.X. Zhao, Graphdiyne-supported single iron atom: a promising electrocatalyst for carbon dioxide electroreduction into methane and ethanol, J. Phys. Chem. C, 124 (2020) 3722–3730. [82] J. Zhao Z. Chen J.X. Zhao Metal-free graphdiyne doped with sp-hybridized boron and nitrogen atoms at acetylenic sites for high-efficiency electroreduction of CO2 to CH4 and C2H4 J. Mater. Chem. A 7 2019 4026 4035 J. Zhao, Z. Chen, J.X. Zhao, Metal-free graphdiyne doped with sp-hybridized boron and nitrogen atoms at acetylenic sites for high-efficiency electroreduction of CO2 to CH4 and C2H4, J. Mater. Chem. A, 7 (2019) 4026–4035. [83] P. Ge X. Zhai X. Liu Y. Liu X. Yang H. Yan G. Ge J. Yang Y. Liu Graphdiyne-supported single-cluster electrocatalysts for highly efficient carbon dioxide reduction reaction Nanoscale 14 2022 1211 1218 P. Ge, X. Zhai, X. Liu, Y. Liu, X. Yang, H. Yan, G. Ge, J. Yang, Y. Liu, Graphdiyne-supported single-cluster electrocatalysts for highly efficient carbon dioxide reduction reaction, Nanoscale, 14 (2022) 1211–1218. [84] X. Wei S. Cao S. Wei S. Liu Z. Wang F. Dai X. Lu Theoretical investigation on electrocatalytic reduction of CO2 to methanol and methane by bimetallic atoms TM1/TM2-N@Gra (TM = Fe, Co, Ni, Cu) Appl. Surf. Sci. 593 2022 153377 X. Wei, S. Cao, S. Wei, S. Liu, Z. Wang, F. Dai, X. Lu, Theoretical investigation on electrocatalytic reduction of CO2 to methanol and methane by bimetallic atoms TM1/TM2-N@Gra (TM = Fe, Co, Ni, Cu), Appl. Surf. Sci., 593 (2022) 153377. [85] X. Wei S. Wei S. Cao Y. Hu S. Zhou S. Liu Z. Wang X. Lu Cu acting as Fe activity promoter in dual-atom Cu/Fe-NC catalyst in CO2RR to C1 products Appl. Surf. Sci. 564 2021 150423 X. Wei, S. Wei, S. Cao, Y. Hu, S. Zhou, S. Liu, Z. Wang, X. Lu, Cu acting as Fe activity promoter in dual-atom Cu/Fe-NC catalyst in CO2RR to C1 products, Appl. Surf. Sci., 564 (2021) 150423. [86] S. Chen H. Yuan S.I. Morozov L. Ge L. Li L. Xu W.A. Goddard 3rd Design of a graphene nitrene two-dimensional catalyst heterostructure providing a well-defined site accommodating one to three metals, with application to CO2 reduction electrocatalysis for the two-metal case J. Phys. Chem. Lett. 11 2020 2541 2549 S. Chen, H. Yuan, S.I. Morozov, L. Ge, L. Li, L. Xu, W.A. Goddard, 3rd, Design of a graphene nitrene two-dimensional catalyst heterostructure providing a well-defined site accommodating one to three metals, with application to CO2 reduction electrocatalysis for the two-metal case, J. Phys. Chem. Lett., 11 (2020) 2541–2549. [87] S. Wang L. Li J. Li C. Yuan Y. Kang K.S. Hui J. Zhang F. Bin X. Fan F. Chen K.N. Hui High-throughput screening of nitrogen-coordinated bimetal catalysts for multielectron reduction of CO2 to CH4 with high selectivity and low limiting potential J. Phys. Chem. C 125 2021 7155 7165 S. Wang, L. Li, J. Li, C. Yuan, Y. Kang, K.S. Hui, J. Zhang, F. Bin, X. Fan, F. Chen, K.N. Hui, High-throughput screening of nitrogen-coordinated bimetal catalysts for multielectron reduction of CO2 to CH4 with high selectivity and low limiting potential, J. Phys. Chem. C, 125 (2021) 7155–7165. [88] Y. Ouyang L. Shi X. Bai Q. Li J. Wang Breaking scaling relations for efficient CO2 electrochemical reduction through dual-atom catalysts Chem. Sci. 11 2020 1807 1813 Y. Ouyang, L. Shi, X. Bai, Q. Li, J. Wang, Breaking scaling relations for efficient CO2 electrochemical reduction through dual-atom catalysts, Chem. Sci., 11 (2020) 1807–1813. [89] Y. Li H. Su S.H. Chan Q. Sun CO2 electroreduction performance of transition metal dimers supported on graphene: a theoretical study ACS Catal. 5 2015 6658 6664 Y. Li, H. Su, S.H. Chan, Q. Sun, CO2 electroreduction performance of transition metal dimers supported on graphene: a theoretical study, ACS Catal.., 5 (2015) 6658–6664. [90] Y. Feng W. An Z. Wang Y. Wang Y. Men Y. Du Electrochemical CO2 reduction reaction on M@Cu(211) bimetallic single-atom surface alloys: mechanism, kinetics, and catalyst screening ACS Sustain. Chem. Eng. 8 2019 210 222 Y. Feng, W. An, Z. Wang, Y. Wang, Y. Men, Y. Du, Electrochemical CO2 reduction reaction on M@Cu(211) bimetallic single-atom surface alloys: mechanism, kinetics, and catalyst screening, ACS Sustain. Chem. Eng., 8 (2019) 210–222. [91] M. Ren X. Guo S. Huang Coordination-tuned Fe single-atom catalyst for efficient CO2 electroreduction: the power of B atom Chem. Eng. J. 433 2022 134270 M. Ren, X. Guo, S. Huang, Coordination-tuned Fe single-atom catalyst for efficient CO2 electroreduction: the power of B atom, Chem. Eng. J., 433 (2022) 134270. [92] J. Liu J. Xiao B. Luo E. Tian G.I.N. Waterhouse Central metal and ligand effects on oxygen electrocatalysis over 3d transition metal single-atom catalysts: a theoretical investigation Chem. Eng. J. 427 2022 132038 J. Liu, J. Xiao, B. Luo, E. Tian, G.I.N. Waterhouse, Central metal and ligand effects on oxygen electrocatalysis over 3d transition metal single-atom catalysts: a theoretical investigation, Chem. Eng. J., 427 (2022) 132038. [93] B. Kang Y. Yuan Y. Lv H. Ai J.Y Lee Synergistic ultra-high activity of double B doped graphyne for electrocatalytic nitrogen reduction Chem. Eng. J. 428 2022 131318 B. Kang, Y. Yuan, Y. Lv, H. Ai, J.Y Lee, Synergistic ultra-high activity of double B doped graphyne for electrocatalytic nitrogen reduction, Chem. Eng. J., 428 (2022) 131318. [94] M. Ma F. Li Q. Tang Coordination environment engineering on nickel single-atom catalysts for CO2 electroreduction Nanoscale 13 2021 19133 19143 M. Ma, F. Li, Q. Tang, Coordination environment engineering on nickel single-atom catalysts for CO2 electroreduction, Nanoscale, 13 (2021) 19133–19143. [95] R.M. Hu Y.C. Li Q.W. Zeng J.X. Shang Role of active sites in N-coordinated Fe-Co dual-metal doped graphene for oxygen reduction and evolution reactions: a theoretical insight Appl. Surf. Sci. 525 2020 146588 R.M. Hu, Y.C. Li, Q.W. Zeng, J.X. Shang, Role of active sites in N-coordinated Fe-Co dual-metal doped graphene for oxygen reduction and evolution reactions: a theoretical insight, Appl. Surf. Sci., 525 (2020) 146588. [96] J. Wang M. Zheng X. Zhao W. Fan Structure-Performance descriptors and the role of the axial oxygen atom on M–N4–C single-atom catalysts for electrochemical CO2 reduction ACS Catal. 12 2022 5441 5454 J. Wang, M. Zheng, X. Zhao, W. Fan, Structure-Performance descriptors and the role of the axial oxygen atom on M–N4–C single-atom catalysts for electrochemical CO2 reduction, ACS Catal., 12 (2022) 5441–5454. [97] X. Zhang Z. Yang Z. Lu W. Wang Bifunctional CoNx embedded graphene electrocatalysts for OER and ORR: a theoretical evaluation Carbon N Y 130 2018 112 119 X. Zhang, Z. Yang, Z. Lu, W. Wang, Bifunctional CoNx embedded graphene electrocatalysts for OER and ORR: a theoretical evaluation, Carbon N Y, 130 (2018) 112–119. [98] F. Abild-Pedersen J. Greeley F. Studt J. Rossmeisl T.R. Munter P.G. Moses E. Skulason T. Bligaard J.K. Norskov Scaling properties of adsorption energies for hydrogen-containing molecules on transition-metal surfaces Phys. Rev. Lett. 99 2007 016105 F. Abild-Pedersen, J. Greeley, F. Studt, J. Rossmeisl, T.R. Munter, P.G. Moses, E. Skulason, T. Bligaard, J.K. Norskov, Scaling properties of adsorption energies for hydrogen-containing molecules on transition-metal surfaces, Phys. Rev. Lett., 99 (2007) 016105. [99] A.A. Peterson J.K. Norskov Activity descriptors for CO2 electroreduction to methane on transition-metal catalysts J. Phys. Chem. Lett. 3 2012 251 258 A.A. Peterson, J.K. Norskov, Activity descriptors for CO2 electroreduction to methane on transition-metal catalysts, J. Phys. Chem. Lett., 3 (2012) 251–258. [100] H. Yuan Z. Li X.C. Zeng J. Yang Descriptor-based design principle for two-dimensional single-atom catalysts: carbon dioxide electroreduction J. Phys. Chem. Lett. 11 2020 3481 3487 H. Yuan, Z. Li, X.C. Zeng, J. Yang, Descriptor-based design principle for two-dimensional single-atom catalysts: carbon dioxide electroreduction, J. Phys. Chem. Lett., 11 (2020) 3481–3487.",
+      "scopus-id": "85173236025",
+      "coredata": {
+        "eid": "1-s2.0-S2468823123007009",
+        "dc:description": "Developing of low cost and highly efficient electrocatalysts for carbon dioxide reduction (CRR) is becoming a research hotspot in both theoretical and experimental studies. In this work, we systematically investigated by first-principles calculations the electrocatalytic properties of transition-metal-anchored Phthalocyanine (Pc) monolayers with and without different heteroatom modifications, named TM-Pc and TM-X-Pc (TM = Sc∼ Zn, X = B, C, N, O, and S), respectively. The results show Cr-Pc, Mn-Pc, Sc-O-Pc, Cr-O-Pc, Mn-O-Pc, Fe-O-Pc, and Co-O-Pc exhibited excellent catalytic performance and high selectivity for CRR. The origin of catalytic activity analysis indicated the binding energy of intermediates Eb(*OH) and Eb(*CHO) serve as the descriptors for the catalytic performance of TM-X-Pc. Further comparative analyses showed that choosing appropriate coordination atoms is beneficial for adjusting the catalytic activity. The work suggests that the heteroatoms modified TM-X-Pc monolayer has high potential application as high-performance CRR catalyst and provides valuable theoretical guidance for designing efficient CRR catalysts.",
+        "openArchiveArticle": "false",
+        "prism:coverDate": "2023-11-30",
+        "openaccessUserLicense": null,
+        "prism:aggregationType": "Journal",
+        "prism:url": "https://api.elsevier.com/content/article/pii/S2468823123007009",
+        "dc:creator": [
+          {
+            "@_fa": "true",
+            "$": "Xu, Fang"
+          },
+          {
+            "@_fa": "true",
+            "$": "Wang, Zhenzhen"
+          },
+          {
+            "@_fa": "true",
+            "$": "Liu, Zhiyi"
+          },
+          {
+            "@_fa": "true",
+            "$": "Ma, Aling"
+          },
+          {
+            "@_fa": "true",
+            "$": "Wu, Dandan"
+          },
+          {
+            "@_fa": "true",
+            "$": "Wu, Fanghui"
+          },
+          {
+            "@_fa": "true",
+            "$": "Xu, Hong"
+          },
+          {
+            "@_fa": "true",
+            "$": "Fan, Guohong"
+          }
+        ],
+        "link": [
+          {
+            "@_fa": "true",
+            "@rel": "self",
+            "@href": "https://api.elsevier.com/content/article/pii/S2468823123007009"
+          },
+          {
+            "@_fa": "true",
+            "@rel": "scidir",
+            "@href": "https://www.sciencedirect.com/science/article/pii/S2468823123007009"
+          }
+        ],
+        "dc:format": "application/json",
+        "openaccessType": null,
+        "pii": "S2468-8231(23)00700-9",
+        "prism:volume": "550",
+        "articleNumber": "113617",
+        "prism:publisher": "Elsevier B.V.",
+        "dc:title": "Coordination environment engineering of transition metal doped phthalocyanine single-atom catalysts for carbon dioxide reduction reaction: A DFT study",
+        "prism:copyright": "© 2023 Elsevier B.V. All rights reserved.",
+        "openaccess": "0",
+        "prism:issn": "24688231",
+        "dcterms:subject": [
+          {
+            "@_fa": "true",
+            "$": "CO2 electrocatalytic reduction reaction"
+          },
+          {
+            "@_fa": "true",
+            "$": "Phthalocyanine"
+          },
+          {
+            "@_fa": "true",
+            "$": "Single-atom catalyst"
+          },
+          {
+            "@_fa": "true",
+            "$": "Density functional theory"
+          },
+          {
+            "@_fa": "true",
+            "$": "Electrocatalyst"
+          }
+        ],
+        "openaccessArticle": "false",
+        "prism:publicationName": "Molecular Catalysis",
+        "openaccessSponsorType": null,
+        "prism:pageRange": "113617",
+        "pubType": "fla",
+        "prism:coverDisplayDate": "November 2023",
+        "prism:doi": "10.1016/j.mcat.2023.113617",
+        "prism:startingPage": "113617",
+        "dc:identifier": "doi:10.1016/j.mcat.2023.113617",
+        "openaccessSponsorName": null
+      },
+      "objects": {
+        "object": [
+          {
+            "@category": "standard",
+            "@height": "200",
+            "@width": "324",
+            "@_fa": "true",
+            "$": "https://api.elsevier.com/content/object/eid/1-s2.0-S2468823123007009-ga1.jpg?httpAccept=%2A%2F%2A",
+            "@multimediatype": "JPEG image file",
+            "@type": "IMAGE-DOWNSAMPLED",
+            "@size": "32098",
+            "@ref": "ga1",
+            "@mimetype": "image/jpeg"
+          },
+          {
+            "@category": "standard",
+            "@height": "656",
+            "@width": "339",
+            "@_fa": "true",
+            "$": "https://api.elsevier.com/content/object/eid/1-s2.0-S2468823123007009-gr4.jpg?httpAccept=%2A%2F%2A",
+            "@multimediatype": "JPEG image file",
+            "@type": "IMAGE-DOWNSAMPLED",
+            "@size": "72572",
+            "@ref": "gr4",
+            "@mimetype": "image/jpeg"
+          },
+          {
+            "@category": "standard",
+            "@height": "688",
+            "@width": "414",
+            "@_fa": "true",
+            "$": "https://api.elsevier.com/content/object/eid/1-s2.0-S2468823123007009-gr3.jpg?httpAccept=%2A%2F%2A",
+            "@multimediatype": "JPEG image file",
+            "@type": "IMAGE-DOWNSAMPLED",
+            "@size": "76443",
+            "@ref": "gr3",
+            "@mimetype": "image/jpeg"
+          },
+          {
+            "@category": "standard",
+            "@height": "369",
+            "@width": "597",
+            "@_fa": "true",
+            "$": "https://api.elsevier.com/content/object/eid/1-s2.0-S2468823123007009-gr5.jpg?httpAccept=%2A%2F%2A",
+            "@multimediatype": "JPEG image file",
+            "@type": "IMAGE-DOWNSAMPLED",
+            "@size": "41006",
+            "@ref": "gr5",
+            "@mimetype": "image/jpeg"
+          },
+          {
+            "@category": "standard",
+            "@height": "629",
+            "@width": "339",
+            "@_fa": "true",
+            "$": "https://api.elsevier.com/content/object/eid/1-s2.0-S2468823123007009-gr7.jpg?httpAccept=%2A%2F%2A",
+            "@multimediatype": "JPEG image file",
+            "@type": "IMAGE-DOWNSAMPLED",
+            "@size": "47942",
+            "@ref": "gr7",
+            "@mimetype": "image/jpeg"
+          },
+          {
+            "@category": "standard",
+            "@height": "405",
+            "@width": "676",
+            "@_fa": "true",
+            "$": "https://api.elsevier.com/content/object/eid/1-s2.0-S2468823123007009-gr2.jpg?httpAccept=%2A%2F%2A",
+            "@multimediatype": "JPEG image file",
+            "@type": "IMAGE-DOWNSAMPLED",
+            "@size": "53632",
+            "@ref": "gr2",
+            "@mimetype": "image/jpeg"
+          },
+          {
+            "@category": "standard",
+            "@height": "281",
+            "@width": "532",
+            "@_fa": "true",
+            "$": "https://api.elsevier.com/content/object/eid/1-s2.0-S2468823123007009-gr1.jpg?httpAccept=%2A%2F%2A",
+            "@multimediatype": "JPEG image file",
+            "@type": "IMAGE-DOWNSAMPLED",
+            "@size": "54914",
+            "@ref": "gr1",
+            "@mimetype": "image/jpeg"
+          },
+          {
+            "@category": "standard",
+            "@height": "421",
+            "@width": "522",
+            "@_fa": "true",
+            "$": "https://api.elsevier.com/content/object/eid/1-s2.0-S2468823123007009-gr6.jpg?httpAccept=%2A%2F%2A",
+            "@multimediatype": "JPEG image file",
+            "@type": "IMAGE-DOWNSAMPLED",
+            "@size": "82115",
+            "@ref": "gr6",
+            "@mimetype": "image/jpeg"
+          },
+          {
+            "@category": "thumbnail",
+            "@height": "135",
+            "@width": "219",
+            "@_fa": "true",
+            "$": "https://api.elsevier.com/content/object/eid/1-s2.0-S2468823123007009-ga1.sml?httpAccept=%2A%2F%2A",
+            "@multimediatype": "GIF image file",
+            "@type": "IMAGE-THUMBNAIL",
+            "@size": "13543",
+            "@ref": "ga1",
+            "@mimetype": "image/gif"
+          },
+          {
+            "@category": "thumbnail",
+            "@height": "163",
+            "@width": "84",
+            "@_fa": "true",
+            "$": "https://api.elsevier.com/content/object/eid/1-s2.0-S2468823123007009-gr4.sml?httpAccept=%2A%2F%2A",
+            "@multimediatype": "GIF image file",
+            "@type": "IMAGE-THUMBNAIL",
+            "@size": "8058",
+            "@ref": "gr4",
+            "@mimetype": "image/gif"
+          },
+          {
+            "@category": "thumbnail",
+            "@height": "163",
+            "@width": "98",
+            "@_fa": "true",
+            "$": "https://api.elsevier.com/content/object/eid/1-s2.0-S2468823123007009-gr3.sml?httpAccept=%2A%2F%2A",
+            "@multimediatype": "GIF image file",
+            "@type": "IMAGE-THUMBNAIL",
+            "@size": "8979",
+            "@ref": "gr3",
+            "@mimetype": "image/gif"
+          },
+          {
+            "@category": "thumbnail",
+            "@height": "136",
+            "@width": "219",
+            "@_fa": "true",
+            "$": "https://api.elsevier.com/content/object/eid/1-s2.0-S2468823123007009-gr5.sml?httpAccept=%2A%2F%2A",
+            "@multimediatype": "GIF image file",
+            "@type": "IMAGE-THUMBNAIL",
+            "@size": "8611",
+            "@ref": "gr5",
+            "@mimetype": "image/gif"
+          },
+          {
+            "@category": "thumbnail",
+            "@height": "163",
+            "@width": "88",
+            "@_fa": "true",
+            "$": "https://api.elsevier.com/content/object/eid/1-s2.0-S2468823123007009-gr7.sml?httpAccept=%2A%2F%2A",
+            "@multimediatype": "GIF image file",
+            "@type": "IMAGE-THUMBNAIL",
+            "@size": "7485",
+            "@ref": "gr7",
+            "@mimetype": "image/gif"
+          },
+          {
+            "@category": "thumbnail",
+            "@height": "131",
+            "@width": "219",
+            "@_fa": "true",
+            "$": "https://api.elsevier.com/content/object/eid/1-s2.0-S2468823123007009-gr2.sml?httpAccept=%2A%2F%2A",
+            "@multimediatype": "GIF image file",
+            "@type": "IMAGE-THUMBNAIL",
+            "@size": "8163",
+            "@ref": "gr2",
+            "@mimetype": "image/gif"
+          },
+          {
+            "@category": "thumbnail",
+            "@height": "116",
+            "@width": "219",
+            "@_fa": "true",
+            "$": "https://api.elsevier.com/content/object/eid/1-s2.0-S2468823123007009-gr1.sml?httpAccept=%2A%2F%2A",
+            "@multimediatype": "GIF image file",
+            "@type": "IMAGE-THUMBNAIL",
+            "@size": "12383",
+            "@ref": "gr1",
+            "@mimetype": "image/gif"
+          },
+          {
+            "@category": "thumbnail",
+            "@height": "164",
+            "@width": "203",
+            "@_fa": "true",
+            "$": "https://api.elsevier.com/content/object/eid/1-s2.0-S2468823123007009-gr6.sml?httpAccept=%2A%2F%2A",
+            "@multimediatype": "GIF image file",
+            "@type": "IMAGE-THUMBNAIL",
+            "@size": "13040",
+            "@ref": "gr6",
+            "@mimetype": "image/gif"
+          },
+          {
+            "@category": "high",
+            "@height": "886",
+            "@width": "1434",
+            "@_fa": "true",
+            "$": "https://api.elsevier.com/content/object/eid/1-s2.0-S2468823123007009-ga1_lrg.jpg?httpAccept=%2A%2F%2A",
+            "@multimediatype": "JPEG image file",
+            "@type": "IMAGE-HIGH-RES",
+            "@size": "211360",
+            "@ref": "ga1",
+            "@mimetype": "image/jpeg"
+          },
+          {
+            "@category": "high",
+            "@height": "2903",
+            "@width": "1500",
+            "@_fa": "true",
+            "$": "https://api.elsevier.com/content/object/eid/1-s2.0-S2468823123007009-gr4_lrg.jpg?httpAccept=%2A%2F%2A",
+            "@multimediatype": "JPEG image file",
+            "@type": "IMAGE-HIGH-RES",
+            "@size": "668134",
+            "@ref": "gr4",
+            "@mimetype": "image/jpeg"
+          },
+          {
+            "@category": "high",
+            "@height": "3045",
+            "@width": "1833",
+            "@_fa": "true",
+            "$": "https://api.elsevier.com/content/object/eid/1-s2.0-S2468823123007009-gr3_lrg.jpg?httpAccept=%2A%2F%2A",
+            "@multimediatype": "JPEG image file",
+            "@type": "IMAGE-HIGH-RES",
+            "@size": "525868",
+            "@ref": "gr3",
+            "@mimetype": "image/jpeg"
+          },
+          {
+            "@category": "high",
+            "@height": "1635",
+            "@width": "2642",
+            "@_fa": "true",
+            "$": "https://api.elsevier.com/content/object/eid/1-s2.0-S2468823123007009-gr5_lrg.jpg?httpAccept=%2A%2F%2A",
+            "@multimediatype": "JPEG image file",
+            "@type": "IMAGE-HIGH-RES",
+            "@size": "286546",
+            "@ref": "gr5",
+            "@mimetype": "image/jpeg"
+          },
+          {
+            "@category": "high",
+            "@height": "2784",
+            "@width": "1500",
+            "@_fa": "true",
+            "$": "https://api.elsevier.com/content/object/eid/1-s2.0-S2468823123007009-gr7_lrg.jpg?httpAccept=%2A%2F%2A",
+            "@multimediatype": "JPEG image file",
+            "@type": "IMAGE-HIGH-RES",
+            "@size": "337309",
+            "@ref": "gr7",
+            "@mimetype": "image/jpeg"
+          },
+          {
+            "@category": "high",
+            "@height": "1795",
+            "@width": "2993",
+            "@_fa": "true",
+            "$": "https://api.elsevier.com/content/object/eid/1-s2.0-S2468823123007009-gr2_lrg.jpg?httpAccept=%2A%2F%2A",
+            "@multimediatype": "JPEG image file",
+            "@type": "IMAGE-HIGH-RES",
+            "@size": "364221",
+            "@ref": "gr2",
+            "@mimetype": "image/jpeg"
+          },
+          {
+            "@category": "high",
+            "@height": "1246",
+            "@width": "2358",
+            "@_fa": "true",
+            "$": "https://api.elsevier.com/content/object/eid/1-s2.0-S2468823123007009-gr1_lrg.jpg?httpAccept=%2A%2F%2A",
+            "@multimediatype": "JPEG image file",
+            "@type": "IMAGE-HIGH-RES",
+            "@size": "319064",
+            "@ref": "gr1",
+            "@mimetype": "image/jpeg"
+          },
+          {
+            "@category": "high",
+            "@height": "1868",
+            "@width": "2314",
+            "@_fa": "true",
+            "$": "https://api.elsevier.com/content/object/eid/1-s2.0-S2468823123007009-gr6_lrg.jpg?httpAccept=%2A%2F%2A",
+            "@multimediatype": "JPEG image file",
+            "@type": "IMAGE-HIGH-RES",
+            "@size": "617246",
+            "@ref": "gr6",
+            "@mimetype": "image/jpeg"
+          },
+          {
+            "@category": "standard",
+            "@_fa": "true",
+            "$": "https://api.elsevier.com/content/object/eid/1-s2.0-S2468823123007009-mmc1.docx?httpAccept=%2A%2F%2A",
+            "@multimediatype": "Microsoft Word file",
+            "@type": "APPLICATION",
+            "@size": "9492647",
+            "@ref": "mmc1",
+            "@mimetype": "application/word"
+          },
+          {
+            "@category": "thumbnail",
+            "@_fa": "true",
+            "$": "https://api.elsevier.com/content/object/eid/1-s2.0-S2468823123007009-si1.svg?httpAccept=%2A%2F%2A",
+            "@multimediatype": "Scalable Vector Graphics file",
+            "@type": "ALTIMG",
+            "@size": "3852",
+            "@ref": "si1",
+            "@mimetype": "image/svg+xml"
+          },
+          {
+            "@category": "thumbnail",
+            "@_fa": "true",
+            "$": "https://api.elsevier.com/content/object/eid/1-s2.0-S2468823123007009-si10.svg?httpAccept=%2A%2F%2A",
+            "@multimediatype": "Scalable Vector Graphics file",
+            "@type": "ALTIMG",
+            "@size": "1963",
+            "@ref": "si10",
+            "@mimetype": "image/svg+xml"
+          },
+          {
+            "@category": "thumbnail",
+            "@_fa": "true",
+            "$": "https://api.elsevier.com/content/object/eid/1-s2.0-S2468823123007009-si11.svg?httpAccept=%2A%2F%2A",
+            "@multimediatype": "Scalable Vector Graphics file",
+            "@type": "ALTIMG",
+            "@size": "5305",
+            "@ref": "si11",
+            "@mimetype": "image/svg+xml"
+          },
+          {
+            "@category": "thumbnail",
+            "@_fa": "true",
+            "$": "https://api.elsevier.com/content/object/eid/1-s2.0-S2468823123007009-si12.svg?httpAccept=%2A%2F%2A",
+            "@multimediatype": "Scalable Vector Graphics file",
+            "@type": "ALTIMG",
+            "@size": "1459",
+            "@ref": "si12",
+            "@mimetype": "image/svg+xml"
+          },
+          {
+            "@category": "thumbnail",
+            "@_fa": "true",
+            "$": "https://api.elsevier.com/content/object/eid/1-s2.0-S2468823123007009-si13.svg?httpAccept=%2A%2F%2A",
+            "@multimediatype": "Scalable Vector Graphics file",
+            "@type": "ALTIMG",
+            "@size": "6865",
+            "@ref": "si13",
+            "@mimetype": "image/svg+xml"
+          },
+          {
+            "@category": "thumbnail",
+            "@_fa": "true",
+            "$": "https://api.elsevier.com/content/object/eid/1-s2.0-S2468823123007009-si14.svg?httpAccept=%2A%2F%2A",
+            "@multimediatype": "Scalable Vector Graphics file",
+            "@type": "ALTIMG",
+            "@size": "4614",
+            "@ref": "si14",
+            "@mimetype": "image/svg+xml"
+          },
+          {
+            "@category": "thumbnail",
+            "@_fa": "true",
+            "$": "https://api.elsevier.com/content/object/eid/1-s2.0-S2468823123007009-si15.svg?httpAccept=%2A%2F%2A",
+            "@multimediatype": "Scalable Vector Graphics file",
+            "@type": "ALTIMG",
+            "@size": "9349",
+            "@ref": "si15",
+            "@mimetype": "image/svg+xml"
+          },
+          {
+            "@category": "thumbnail",
+            "@_fa": "true",
+            "$": "https://api.elsevier.com/content/object/eid/1-s2.0-S2468823123007009-si16.svg?httpAccept=%2A%2F%2A",
+            "@multimediatype": "Scalable Vector Graphics file",
+            "@type": "ALTIMG",
+            "@size": "16070",
+            "@ref": "si16",
+            "@mimetype": "image/svg+xml"
+          },
+          {
+            "@category": "thumbnail",
+            "@_fa": "true",
+            "$": "https://api.elsevier.com/content/object/eid/1-s2.0-S2468823123007009-si17.svg?httpAccept=%2A%2F%2A",
+            "@multimediatype": "Scalable Vector Graphics file",
+            "@type": "ALTIMG",
+            "@size": "7860",
+            "@ref": "si17",
+            "@mimetype": "image/svg+xml"
+          },
+          {
+            "@category": "thumbnail",
+            "@_fa": "true",
+            "$": "https://api.elsevier.com/content/object/eid/1-s2.0-S2468823123007009-si18.svg?httpAccept=%2A%2F%2A",
+            "@multimediatype": "Scalable Vector Graphics file",
+            "@type": "ALTIMG",
+            "@size": "2596",
+            "@ref": "si18",
+            "@mimetype": "image/svg+xml"
+          },
+          {
+            "@category": "thumbnail",
+            "@_fa": "true",
+            "$": "https://api.elsevier.com/content/object/eid/1-s2.0-S2468823123007009-si19.svg?httpAccept=%2A%2F%2A",
+            "@multimediatype": "Scalable Vector Graphics file",
+            "@type": "ALTIMG",
+            "@size": "6981",
+            "@ref": "si19",
+            "@mimetype": "image/svg+xml"
+          },
+          {
+            "@category": "thumbnail",
+            "@_fa": "true",
+            "$": "https://api.elsevier.com/content/object/eid/1-s2.0-S2468823123007009-si2.svg?httpAccept=%2A%2F%2A",
+            "@multimediatype": "Scalable Vector Graphics file",
+            "@type": "ALTIMG",
+            "@size": "12382",
+            "@ref": "si2",
+            "@mimetype": "image/svg+xml"
+          },
+          {
+            "@category": "thumbnail",
+            "@_fa": "true",
+            "$": "https://api.elsevier.com/content/object/eid/1-s2.0-S2468823123007009-si20.svg?httpAccept=%2A%2F%2A",
+            "@multimediatype": "Scalable Vector Graphics file",
+            "@type": "ALTIMG",
+            "@size": "10164",
+            "@ref": "si20",
+            "@mimetype": "image/svg+xml"
+          },
+          {
+            "@category": "thumbnail",
+            "@_fa": "true",
+            "$": "https://api.elsevier.com/content/object/eid/1-s2.0-S2468823123007009-si21.svg?httpAccept=%2A%2F%2A",
+            "@multimediatype": "Scalable Vector Graphics file",
+            "@type": "ALTIMG",
+            "@size": "4288",
+            "@ref": "si21",
+            "@mimetype": "image/svg+xml"
+          },
+          {
+            "@category": "thumbnail",
+            "@_fa": "true",
+            "$": "https://api.elsevier.com/content/object/eid/1-s2.0-S2468823123007009-si22.svg?httpAccept=%2A%2F%2A",
+            "@multimediatype": "Scalable Vector Graphics file",
+            "@type": "ALTIMG",
+            "@size": "5336",
+            "@ref": "si22",
+            "@mimetype": "image/svg+xml"
+          },
+          {
+            "@category": "thumbnail",
+            "@_fa": "true",
+            "$": "https://api.elsevier.com/content/object/eid/1-s2.0-S2468823123007009-si23.svg?httpAccept=%2A%2F%2A",
+            "@multimediatype": "Scalable Vector Graphics file",
+            "@type": "ALTIMG",
+            "@size": "2799",
+            "@ref": "si23",
+            "@mimetype": "image/svg+xml"
+          },
+          {
+            "@category": "thumbnail",
+            "@_fa": "true",
+            "$": "https://api.elsevier.com/content/object/eid/1-s2.0-S2468823123007009-si24.svg?httpAccept=%2A%2F%2A",
+            "@multimediatype": "Scalable Vector Graphics file",
+            "@type": "ALTIMG",
+            "@size": "1910",
+            "@ref": "si24",
+            "@mimetype": "image/svg+xml"
+          },
+          {
+            "@category": "thumbnail",
+            "@_fa": "true",
+            "$": "https://api.elsevier.com/content/object/eid/1-s2.0-S2468823123007009-si25.svg?httpAccept=%2A%2F%2A",
+            "@multimediatype": "Scalable Vector Graphics file",
+            "@type": "ALTIMG",
+            "@size": "2251",
+            "@ref": "si25",
+            "@mimetype": "image/svg+xml"
+          },
+          {
+            "@category": "thumbnail",
+            "@_fa": "true",
+            "$": "https://api.elsevier.com/content/object/eid/1-s2.0-S2468823123007009-si26.svg?httpAccept=%2A%2F%2A",
+            "@multimediatype": "Scalable Vector Graphics file",
+            "@type": "ALTIMG",
+            "@size": "2666",
+            "@ref": "si26",
+            "@mimetype": "image/svg+xml"
+          },
+          {
+            "@category": "thumbnail",
+            "@_fa": "true",
+            "$": "https://api.elsevier.com/content/object/eid/1-s2.0-S2468823123007009-si27.svg?httpAccept=%2A%2F%2A",
+            "@multimediatype": "Scalable Vector Graphics file",
+            "@type": "ALTIMG",
+            "@size": "17177",
+            "@ref": "si27",
+            "@mimetype": "image/svg+xml"
+          },
+          {
+            "@category": "thumbnail",
+            "@_fa": "true",
+            "$": "https://api.elsevier.com/content/object/eid/1-s2.0-S2468823123007009-si28.svg?httpAccept=%2A%2F%2A",
+            "@multimediatype": "Scalable Vector Graphics file",
+            "@type": "ALTIMG",
+            "@size": "13404",
+            "@ref": "si28",
+            "@mimetype": "image/svg+xml"
+          },
+          {
+            "@category": "thumbnail",
+            "@_fa": "true",
+            "$": "https://api.elsevier.com/content/object/eid/1-s2.0-S2468823123007009-si29.svg?httpAccept=%2A%2F%2A",
+            "@multimediatype": "Scalable Vector Graphics file",
+            "@type": "ALTIMG",
+            "@size": "569",
+            "@ref": "si29",
+            "@mimetype": "image/svg+xml"
+          },
+          {
+            "@category": "thumbnail",
+            "@_fa": "true",
+            "$": "https://api.elsevier.com/content/object/eid/1-s2.0-S2468823123007009-si3.svg?httpAccept=%2A%2F%2A",
+            "@multimediatype": "Scalable Vector Graphics file",
+            "@type": "ALTIMG",
+            "@size": "1474",
+            "@ref": "si3",
+            "@mimetype": "image/svg+xml"
+          },
+          {
+            "@category": "thumbnail",
+            "@_fa": "true",
+            "$": "https://api.elsevier.com/content/object/eid/1-s2.0-S2468823123007009-si30.svg?httpAccept=%2A%2F%2A",
+            "@multimediatype": "Scalable Vector Graphics file",
+            "@type": "ALTIMG",
+            "@size": "9793",
+            "@ref": "si30",
+            "@mimetype": "image/svg+xml"
+          },
+          {
+            "@category": "thumbnail",
+            "@_fa": "true",
+            "$": "https://api.elsevier.com/content/object/eid/1-s2.0-S2468823123007009-si31.svg?httpAccept=%2A%2F%2A",
+            "@multimediatype": "Scalable Vector Graphics file",
+            "@type": "ALTIMG",
+            "@size": "3985",
+            "@ref": "si31",
+            "@mimetype": "image/svg+xml"
+          },
+          {
+            "@category": "thumbnail",
+            "@_fa": "true",
+            "$": "https://api.elsevier.com/content/object/eid/1-s2.0-S2468823123007009-si32.svg?httpAccept=%2A%2F%2A",
+            "@multimediatype": "Scalable Vector Graphics file",
+            "@type": "ALTIMG",
+            "@size": "4491",
+            "@ref": "si32",
+            "@mimetype": "image/svg+xml"
+          },
+          {
+            "@category": "thumbnail",
+            "@_fa": "true",
+            "$": "https://api.elsevier.com/content/object/eid/1-s2.0-S2468823123007009-si33.svg?httpAccept=%2A%2F%2A",
+            "@multimediatype": "Scalable Vector Graphics file",
+            "@type": "ALTIMG",
+            "@size": "3009",
+            "@ref": "si33",
+            "@mimetype": "image/svg+xml"
+          },
+          {
+            "@category": "thumbnail",
+            "@_fa": "true",
+            "$": "https://api.elsevier.com/content/object/eid/1-s2.0-S2468823123007009-si34.svg?httpAccept=%2A%2F%2A",
+            "@multimediatype": "Scalable Vector Graphics file",
+            "@type": "ALTIMG",
+            "@size": "4286",
+            "@ref": "si34",
+            "@mimetype": "image/svg+xml"
+          },
+          {
+            "@category": "thumbnail",
+            "@_fa": "true",
+            "$": "https://api.elsevier.com/content/object/eid/1-s2.0-S2468823123007009-si35.svg?httpAccept=%2A%2F%2A",
+            "@multimediatype": "Scalable Vector Graphics file",
+            "@type": "ALTIMG",
+            "@size": "3490",
+            "@ref": "si35",
+            "@mimetype": "image/svg+xml"
+          },
+          {
+            "@category": "thumbnail",
+            "@_fa": "true",
+            "$": "https://api.elsevier.com/content/object/eid/1-s2.0-S2468823123007009-si36.svg?httpAccept=%2A%2F%2A",
+            "@multimediatype": "Scalable Vector Graphics file",
+            "@type": "ALTIMG",
+            "@size": "4516",
+            "@ref": "si36",
+            "@mimetype": "image/svg+xml"
+          },
+          {
+            "@category": "thumbnail",
+            "@_fa": "true",
+            "$": "https://api.elsevier.com/content/object/eid/1-s2.0-S2468823123007009-si37.svg?httpAccept=%2A%2F%2A",
+            "@multimediatype": "Scalable Vector Graphics file",
+            "@type": "ALTIMG",
+            "@size": "6513",
+            "@ref": "si37",
+            "@mimetype": "image/svg+xml"
+          },
+          {
+            "@category": "thumbnail",
+            "@_fa": "true",
+            "$": "https://api.elsevier.com/content/object/eid/1-s2.0-S2468823123007009-si38.svg?httpAccept=%2A%2F%2A",
+            "@multimediatype": "Scalable Vector Graphics file",
+            "@type": "ALTIMG",
+            "@size": "3960",
+            "@ref": "si38",
+            "@mimetype": "image/svg+xml"
+          },
+          {
+            "@category": "thumbnail",
+            "@_fa": "true",
+            "$": "https://api.elsevier.com/content/object/eid/1-s2.0-S2468823123007009-si39.svg?httpAccept=%2A%2F%2A",
+            "@multimediatype": "Scalable Vector Graphics file",
+            "@type": "ALTIMG",
+            "@size": "4296",
+            "@ref": "si39",
+            "@mimetype": "image/svg+xml"
+          },
+          {
+            "@category": "thumbnail",
+            "@_fa": "true",
+            "$": "https://api.elsevier.com/content/object/eid/1-s2.0-S2468823123007009-si4.svg?httpAccept=%2A%2F%2A",
+            "@multimediatype": "Scalable Vector Graphics file",
+            "@type": "ALTIMG",
+            "@size": "834",
+            "@ref": "si4",
+            "@mimetype": "image/svg+xml"
+          },
+          {
+            "@category": "thumbnail",
+            "@_fa": "true",
+            "$": "https://api.elsevier.com/content/object/eid/1-s2.0-S2468823123007009-si40.svg?httpAccept=%2A%2F%2A",
+            "@multimediatype": "Scalable Vector Graphics file",
+            "@type": "ALTIMG",
+            "@size": "8451",
+            "@ref": "si40",
+            "@mimetype": "image/svg+xml"
+          },
+          {
+            "@category": "thumbnail",
+            "@_fa": "true",
+            "$": "https://api.elsevier.com/content/object/eid/1-s2.0-S2468823123007009-si41.svg?httpAccept=%2A%2F%2A",
+            "@multimediatype": "Scalable Vector Graphics file",
+            "@type": "ALTIMG",
+            "@size": "4276",
+            "@ref": "si41",
+            "@mimetype": "image/svg+xml"
+          },
+          {
+            "@category": "thumbnail",
+            "@_fa": "true",
+            "$": "https://api.elsevier.com/content/object/eid/1-s2.0-S2468823123007009-si42.svg?httpAccept=%2A%2F%2A",
+            "@multimediatype": "Scalable Vector Graphics file",
+            "@type": "ALTIMG",
+            "@size": "4796",
+            "@ref": "si42",
+            "@mimetype": "image/svg+xml"
+          },
+          {
+            "@category": "thumbnail",
+            "@_fa": "true",
+            "$": "https://api.elsevier.com/content/object/eid/1-s2.0-S2468823123007009-si43.svg?httpAccept=%2A%2F%2A",
+            "@multimediatype": "Scalable Vector Graphics file",
+            "@type": "ALTIMG",
+            "@size": "8697",
+            "@ref": "si43",
+            "@mimetype": "image/svg+xml"
+          },
+          {
+            "@category": "thumbnail",
+            "@_fa": "true",
+            "$": "https://api.elsevier.com/content/object/eid/1-s2.0-S2468823123007009-si44.svg?httpAccept=%2A%2F%2A",
+            "@multimediatype": "Scalable Vector Graphics file",
+            "@type": "ALTIMG",
+            "@size": "4797",
+            "@ref": "si44",
+            "@mimetype": "image/svg+xml"
+          },
+          {
+            "@category": "thumbnail",
+            "@_fa": "true",
+            "$": "https://api.elsevier.com/content/object/eid/1-s2.0-S2468823123007009-si45.svg?httpAccept=%2A%2F%2A",
+            "@multimediatype": "Scalable Vector Graphics file",
+            "@type": "ALTIMG",
+            "@size": "5193",
+            "@ref": "si45",
+            "@mimetype": "image/svg+xml"
+          },
+          {
+            "@category": "thumbnail",
+            "@_fa": "true",
+            "$": "https://api.elsevier.com/content/object/eid/1-s2.0-S2468823123007009-si46.svg?httpAccept=%2A%2F%2A",
+            "@multimediatype": "Scalable Vector Graphics file",
+            "@type": "ALTIMG",
+            "@size": "4351",
+            "@ref": "si46",
+            "@mimetype": "image/svg+xml"
+          },
+          {
+            "@category": "thumbnail",
+            "@_fa": "true",
+            "$": "https://api.elsevier.com/content/object/eid/1-s2.0-S2468823123007009-si47.svg?httpAccept=%2A%2F%2A",
+            "@multimediatype": "Scalable Vector Graphics file",
+            "@type": "ALTIMG",
+            "@size": "5029",
+            "@ref": "si47",
+            "@mimetype": "image/svg+xml"
+          },
+          {
+            "@category": "thumbnail",
+            "@_fa": "true",
+            "$": "https://api.elsevier.com/content/object/eid/1-s2.0-S2468823123007009-si48.svg?httpAccept=%2A%2F%2A",
+            "@multimediatype": "Scalable Vector Graphics file",
+            "@type": "ALTIMG",
+            "@size": "5667",
+            "@ref": "si48",
+            "@mimetype": "image/svg+xml"
+          },
+          {
+            "@category": "thumbnail",
+            "@_fa": "true",
+            "$": "https://api.elsevier.com/content/object/eid/1-s2.0-S2468823123007009-si49.svg?httpAccept=%2A%2F%2A",
+            "@multimediatype": "Scalable Vector Graphics file",
+            "@type": "ALTIMG",
+            "@size": "5586",
+            "@ref": "si49",
+            "@mimetype": "image/svg+xml"
+          },
+          {
+            "@category": "thumbnail",
+            "@_fa": "true",
+            "$": "https://api.elsevier.com/content/object/eid/1-s2.0-S2468823123007009-si5.svg?httpAccept=%2A%2F%2A",
+            "@multimediatype": "Scalable Vector Graphics file",
+            "@type": "ALTIMG",
+            "@size": "3233",
+            "@ref": "si5",
+            "@mimetype": "image/svg+xml"
+          },
+          {
+            "@category": "thumbnail",
+            "@_fa": "true",
+            "$": "https://api.elsevier.com/content/object/eid/1-s2.0-S2468823123007009-si50.svg?httpAccept=%2A%2F%2A",
+            "@multimediatype": "Scalable Vector Graphics file",
+            "@type": "ALTIMG",
+            "@size": "5156",
+            "@ref": "si50",
+            "@mimetype": "image/svg+xml"
+          },
+          {
+            "@category": "thumbnail",
+            "@_fa": "true",
+            "$": "https://api.elsevier.com/content/object/eid/1-s2.0-S2468823123007009-si6.svg?httpAccept=%2A%2F%2A",
+            "@multimediatype": "Scalable Vector Graphics file",
+            "@type": "ALTIMG",
+            "@size": "1522",
+            "@ref": "si6",
+            "@mimetype": "image/svg+xml"
+          },
+          {
+            "@category": "thumbnail",
+            "@_fa": "true",
+            "$": "https://api.elsevier.com/content/object/eid/1-s2.0-S2468823123007009-si7.svg?httpAccept=%2A%2F%2A",
+            "@multimediatype": "Scalable Vector Graphics file",
+            "@type": "ALTIMG",
+            "@size": "4878",
+            "@ref": "si7",
+            "@mimetype": "image/svg+xml"
+          },
+          {
+            "@category": "thumbnail",
+            "@_fa": "true",
+            "$": "https://api.elsevier.com/content/object/eid/1-s2.0-S2468823123007009-si8.svg?httpAccept=%2A%2F%2A",
+            "@multimediatype": "Scalable Vector Graphics file",
+            "@type": "ALTIMG",
+            "@size": "2882",
+            "@ref": "si8",
+            "@mimetype": "image/svg+xml"
+          },
+          {
+            "@category": "thumbnail",
+            "@_fa": "true",
+            "$": "https://api.elsevier.com/content/object/eid/1-s2.0-S2468823123007009-si9.svg?httpAccept=%2A%2F%2A",
+            "@multimediatype": "Scalable Vector Graphics file",
+            "@type": "ALTIMG",
+            "@size": "8493",
+            "@ref": "si9",
+            "@mimetype": "image/svg+xml"
+          },
+          {
+            "@category": "standard",
+            "@_fa": "true",
+            "$": "https://api.elsevier.com/content/object/eid/1-s2.0-S2468823123007009-am.pdf?httpAccept=%2A%2F%2A",
+            "@multimediatype": "Acrobat PDF file",
+            "@type": "AAM-PDF",
+            "@size": "3380376",
+            "@ref": "am",
+            "@mimetype": "application/pdf"
+          }
+        ]
+      },
+      "link": {
+        "@rel": "abstract",
+        "@href": "https://api.elsevier.com/content/abstract/scopus_id/85173236025"
+      }
+    }
+  }
+}

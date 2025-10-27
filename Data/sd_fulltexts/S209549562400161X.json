@@ -1,0 +1,1000 @@
+{
+  "metadata": {
+    "title": "Application of machine learning in perovskite materials and devices: A review",
+    "authors": "; ; ",
+    "journal": "Journal of Energy Chemistry",
+    "date": "2024-07-31",
+    "doi": "10.1016/j.jechem.2024.02.035",
+    "abstract": "",
+    "uri": "https://api.elsevier.com/content/article/pii/S209549562400161X",
+    "pii": "S209549562400161X"
+  },
+  "fulltext": {
+    "full-text-retrieval-response": {
+      "scopus-eid": "2-s2.0-85188595945",
+      "originalText": "serial JL 286353 291210 291711 291744 291809 31 Journal of Energy Chemistry JOURNALENERGYCHEMISTRY 2024-03-06 2024-03-06 2024-03-22 2024-03-22 2024-06-03T19:58:09 1-s2.0-S209549562400161X S2095-4956(24)00161-X S209549562400161X 10.1016/j.jechem.2024.02.035 S300 S300.1 FULL-TEXT 1-s2.0-S2095495624X00042 2024-06-03T19:36:26.953619Z 0 0 20240701 20240731 2024 2024-03-06T02:55:42.433063Z absattachment articleinfo articletitlenorm authfirstinitialnorm authfirstsurnamenorm cid cids contenttype copyright crossmark dateloaded dateloadedtxt datesearch datesort dateupdated dco docsubtype doctype doi eid ewtransactionid hubeid indexeddate issn issnnorm itemstage itemtransactionid itemweight openaccess openarchive pg pgfirst pglast pii piinorm pubdateend pubdatestart pubdatetxt pubyr sortorder srctitle srctitlenorm srctype ssids alllist content subj subheadings suppl tomb volfirst volissue volumelist webpdf webpdfpagecount yearnav figure table e-component body mmlmath acknowledge affil appendices articletitle auth authfirstini authfull authkeywords authlast grantnumber grantsponsor grantsponsorid orcid primabst pubtype ref specialabst vitae 2095-4956 20954956 false 94 94 C Volume 94 21 254 272 254 272 202407 July 2024 2024-07-01 2024-07-31 2024 article rev © 2024 Science Press and Dalian Institute of Chemical Physics, Chinese Academy of Sciences. Published by ELSEVIER B.V. and Science Press. APPLICATIONMACHINELEARNINGINPEROVSKITEMATERIALSDEVICESAREVIEW CHEN M 1 Introduction 2 Workflow of machine learning 2.1 Data preparation 2.2 Feature engineering 2.3 Machine learning technology 2.4 Common ML algorithms in the field of material design 3 Application of machine learning in perovskite material design 3.1 Bandgap engineering in perovskites using ML 3.2 Stability predication of designed perovskites using ML 3.3 Crystal structure predication of perovskites using ML 3.4 ML application to intrinsic properties of perovskites 3.5 ML application to perovskite solar cells 4 Summary and outlook Acknowledgments Appendix A Supplementary material References SHARIATINIA 2020 109608 Z ZHENG 2019 800 809 S DERINGER 2019 1902765 V ZHOU 2019 1017 1026 T AGRAWAL 2016 053208 A YILMAZ 2021 105546 B ZHANG 2020 105380 L JORDAN 2015 255 260 M RUPP 2015 1058 1073 M BERGERHOFF 1983 66 69 G KIRKLIN 2015 15010 S JAIN 2013 011002 A VASUDEVAN 2021 070401 R LU 2017 191 201 W GANTZER 2020 1900087 P WAN 2019 3387 3395 X CHEN 2020 1903242 C WU 2020 57821 57831 T PEDREGOSA 2011 2825 2830 F BRAHAM 2019 3281 3292 E HSU 2011 8144 8150 H RODRIGUEZGALIANO 2018 661 672 V LIU 2019 703 715 H LU 2018 3405 S BUTLER 2016 6138 6146 K WANG 2020 e1421 H WARD 2016 1 7 L ANAND 2022 203 D ORUPATTUR 2020 109474 N LIU 2023 1 32 P SUTHAHARAN 2016 1 12 S CHERKASSKY 2004 113 126 V BERGMAN 1951 205 249 S MYLES 2004 275 285 A BREIMAN 1996 123 140 L ROKACH 2010 1 39 L ZOU 2009 14 22 J WANG 2020 667 672 Y SHELHAMER 2017 640 651 E XIE 2018 145301 T ZHAO 2022 056302 R NAKAJIMA 2017 4826 4831 T KIM 2017 1 11 C FRIEDMAN 2001 1189 1232 J RATH 2022 111476 S MEREDIG 2014 094104 B WAN 2021 9427 9433 Z MARCHENKO 2020 7383 7388 E YAP 2011 1466 1474 C IM 2019 37 J GLADKIKH 2020 8905 8918 V BREIMAN 1985 580 598 L TAKAHASHI 2018 771 775 K AGIORGOUSIS 2019 1800173 M CHEN 2022 1402 1413 J TAO 2021 351 359 Q WOLPERT 1997 67 82 D TRAVIS 2016 4548 4556 W SUN 2017 14905 14908 Q LI 2019 1807280 Z LIAO 2016 12360 12363 W LIU 2016 17939 17945 X LI 2018 454 463 W JACOBS 2018 1702708 R CAI 2022 2103648 X GU 2022 71 G ZHANG 2021 7423 7430 S TOWLER 1995 10150 M UCHINO 2015 046001 K DIDOMENICO 1968 565 M VISSER 1997 3947 D TALAPATRA 2021 845 858 A ZHANG 2007 812 818 H VASALA 2015 1 36 S BALACHANDRAN 2018 043802 P PANNETIER 1990 343 345 J DEAVEN 1995 288 D GLASS 2006 713 720 C TRIMARCHI 2007 104113 G PICKARD 2011 053201 C ZHAO 2014 045502 X ZHANG 2015 51 55 Y PENG 2017 107001 F HE 2018 175701 C CHENG 2022 1492 G WILLIAMS 2020 7462 7468 L KUZMANOVSKI 2012 1 6 I SUN 2023 224301 H SUN 2023 8136 8144 J LIU 2022 11758 11767 S EMERY 2017 1 10 A SHARMA 2020 V MANNODIKANAKKITHODI 2022 10736 10754 A PRIYA 2021 90 P LU 2023 200 208 Y LIU 2023 128 137 W GODOVSKY 2011 190 194 D ZHANG 2023 146 157 Q DENG 2023 1031 1041 B FU 2023 1 2 Z CHENX2024X254 CHENX2024X254X272 CHENX2024X254XM CHENX2024X254X272XM 2026-03-22T00:00:00.000Z 2026-03-22T00:00:00.000Z http://creativecommons.org/licenses/by-nc-nd/4.0/ © 2024 Science Press and Dalian Institute of Chemical Physics, Chinese Academy of Sciences. Published by ELSEVIER B.V. and Science Press. 2024-04-04T12:27:42.450Z http://vtw.elsevier.com/data/voc/AddOnTypes/50.7/aggregated-refined Chinese Academy of Sciences XDA17040506 CAS Chinese Academy of Sciences http://data.elsevier.com/vocabulary/SciValFunders/501100002367 http://sws.geonames.org/1814991/ National Natural Science Foundation of China 62005148/12004235 NSFC National Natural Science Foundation of China http://data.elsevier.com/vocabulary/SciValFunders/501100001809 http://sws.geonames.org/1814991/ Jinzhong Science and Technology Bureau J202101 Jinan Science and Technology Bureau http://data.elsevier.com/vocabulary/SciValFunders/100007785 http://sws.geonames.org/1814991/ DNL Cooperation Fund CAS DNL180311 111 Project B14041 Higher Education Discipline Innovation Project http://data.elsevier.com/vocabulary/SciValFunders/501100013314 http://sws.geonames.org/1814991/ This work was funded by the Strategic Priority Research Program of the Chinese Academy of Sciences (Grant No. XDA17040506), the National Natural Science Foundation of China (62005148/12004235), and The Open Competition Mechanism to Select The Best Candidates Project in Jinzhong Science and Technology Bureau (J202101), the DNL Cooperation Fund CAS (DNL180311), and the 111 Project (B14041). item S2095-4956(24)00161-X S209549562400161X 1-s2.0-S209549562400161X 10.1016/j.jechem.2024.02.035 286353 2024-06-03T19:36:26.953619Z 2024-07-01 2024-07-31 1-s2.0-S209549562400161X-main.pdf https://s3-eu-west-1.amazonaws.com/prod-ucs-content-store-eu-west/content/pii:S209549562400161X/MAIN/application/pdf/9dcdb329a887e81b239625e9c5eacd25/main.pdf main.pdf pdf true 4744111 MAIN 19 1-s2.0-S209549562400161X-main_1.png https://s3-eu-west-1.amazonaws.com/prod-ucs-content-store-eu-west/content/pii:S209549562400161X/PREVIEW/image/png/a4e54446565b8cea69e56c3cd91381f4/main_1.png main_1.png png 50416 849 656 IMAGE-WEB-PDF 1 1-s2.0-S209549562400161X-fx1.jpg https://s3-eu-west-1.amazonaws.com/prod-ucs-content-store-eu-west/content/pii:S209549562400161X/fx1/DOWNSAMPLED/image/jpeg/e906e8d27140ba5f6383165d1b9e221b/fx1.jpg fx1 fx1.jpg jpg 5358 155 111 IMAGE-DOWNSAMPLED 1-s2.0-S209549562400161X-fx2.jpg https://s3-eu-west-1.amazonaws.com/prod-ucs-content-store-eu-west/content/pii:S209549562400161X/fx2/DOWNSAMPLED/image/jpeg/c9a7e9f150fde03e21096371c064ddae/fx2.jpg fx2 fx2.jpg jpg 6739 155 111 IMAGE-DOWNSAMPLED 1-s2.0-S209549562400161X-fx3.jpg https://s3-eu-west-1.amazonaws.com/prod-ucs-content-store-eu-west/content/pii:S209549562400161X/fx3/DOWNSAMPLED/image/jpeg/71d5216b32e36e73e1511defe797c16d/fx3.jpg fx3 fx3.jpg jpg 4817 155 111 IMAGE-DOWNSAMPLED 1-s2.0-S209549562400161X-fx4.jpg https://s3-eu-west-1.amazonaws.com/prod-ucs-content-store-eu-west/content/pii:S209549562400161X/fx4/DOWNSAMPLED/image/jpeg/98837968629559e21c15dcc66dfbd0ac/fx4.jpg fx4 fx4.jpg jpg 4572 155 111 IMAGE-DOWNSAMPLED 1-s2.0-S209549562400161X-fx5.jpg https://s3-eu-west-1.amazonaws.com/prod-ucs-content-store-eu-west/content/pii:S209549562400161X/fx5/DOWNSAMPLED/image/jpeg/5a73266dbb5650a8f29a8e48c970cdc6/fx5.jpg fx5 fx5.jpg jpg 5628 155 111 IMAGE-DOWNSAMPLED 1-s2.0-S209549562400161X-fx6.jpg https://s3-eu-west-1.amazonaws.com/prod-ucs-content-store-eu-west/content/pii:S209549562400161X/fx6/DOWNSAMPLED/image/jpeg/ff3c69e53c2e43d1fa15cf9b1e23b2da/fx6.jpg fx6 fx6.jpg jpg 4680 155 111 IMAGE-DOWNSAMPLED 1-s2.0-S209549562400161X-fx7.jpg https://s3-eu-west-1.amazonaws.com/prod-ucs-content-store-eu-west/content/pii:S209549562400161X/fx7/DOWNSAMPLED/image/jpeg/ed1b607eded552d56878e1b7b32388d4/fx7.jpg fx7 fx7.jpg jpg 5606 155 111 IMAGE-DOWNSAMPLED 1-s2.0-S209549562400161X-fx8.jpg https://s3-eu-west-1.amazonaws.com/prod-ucs-content-store-eu-west/content/pii:S209549562400161X/fx8/DOWNSAMPLED/image/jpeg/e8258deafcc82a39cb2cb7e2eb54cd73/fx8.jpg fx8 fx8.jpg jpg 5672 155 111 IMAGE-DOWNSAMPLED 1-s2.0-S209549562400161X-fx9.jpg https://s3-eu-west-1.amazonaws.com/prod-ucs-content-store-eu-west/content/pii:S209549562400161X/fx9/DOWNSAMPLED/image/jpeg/439f14cdd61938bdf9f7d5e771ae5274/fx9.jpg fx9 fx9.jpg jpg 5787 155 111 IMAGE-DOWNSAMPLED 1-s2.0-S209549562400161X-ga1.jpg https://s3-eu-west-1.amazonaws.com/prod-ucs-content-store-eu-west/content/pii:S209549562400161X/ga1/DOWNSAMPLED/image/jpeg/765e118892a588788639f59f21f74aa8/ga1.jpg ga1 true ga1.jpg jpg 23807 200 403 IMAGE-DOWNSAMPLED 1-s2.0-S209549562400161X-gr1.jpg https://s3-eu-west-1.amazonaws.com/prod-ucs-content-store-eu-west/content/pii:S209549562400161X/gr1/DOWNSAMPLED/image/jpeg/82edf0312b568d1b87293a3ea9c396d0/gr1.jpg gr1 gr1.jpg jpg 72112 411 778 IMAGE-DOWNSAMPLED 1-s2.0-S209549562400161X-gr2.jpg https://s3-eu-west-1.amazonaws.com/prod-ucs-content-store-eu-west/content/pii:S209549562400161X/gr2/DOWNSAMPLED/image/jpeg/043e408adbd78a093b7c8ebf1da9be82/gr2.jpg gr2 gr2.jpg jpg 67657 375 734 IMAGE-DOWNSAMPLED 1-s2.0-S209549562400161X-gr3.jpg https://s3-eu-west-1.amazonaws.com/prod-ucs-content-store-eu-west/content/pii:S209549562400161X/gr3/DOWNSAMPLED/image/jpeg/83092eea12532b52ac335f6de9c9a219/gr3.jpg gr3 gr3.jpg jpg 105943 449 778 IMAGE-DOWNSAMPLED 1-s2.0-S209549562400161X-gr4.jpg https://s3-eu-west-1.amazonaws.com/prod-ucs-content-store-eu-west/content/pii:S209549562400161X/gr4/DOWNSAMPLED/image/jpeg/0b95380851125b7b4be5e3fb5d968ed6/gr4.jpg gr4 gr4.jpg jpg 131708 589 751 IMAGE-DOWNSAMPLED 1-s2.0-S209549562400161X-gr5.jpg https://s3-eu-west-1.amazonaws.com/prod-ucs-content-store-eu-west/content/pii:S209549562400161X/gr5/DOWNSAMPLED/image/jpeg/98cd2119b910112bed1a072e0c84aa39/gr5.jpg gr5 gr5.jpg jpg 159547 656 751 IMAGE-DOWNSAMPLED 1-s2.0-S209549562400161X-gr6.jpg https://s3-eu-west-1.amazonaws.com/prod-ucs-content-store-eu-west/content/pii:S209549562400161X/gr6/DOWNSAMPLED/image/jpeg/1441d06f628ec4e2d74df3f87e6d8b1f/gr6.jpg gr6 gr6.jpg jpg 91113 501 747 IMAGE-DOWNSAMPLED 1-s2.0-S209549562400161X-gr7.jpg https://s3-eu-west-1.amazonaws.com/prod-ucs-content-store-eu-west/content/pii:S209549562400161X/gr7/DOWNSAMPLED/image/jpeg/704c3f069e494bcfa69b54ce584b2bf2/gr7.jpg gr7 gr7.jpg jpg 166979 855 747 IMAGE-DOWNSAMPLED 1-s2.0-S209549562400161X-gr8.jpg https://s3-eu-west-1.amazonaws.com/prod-ucs-content-store-eu-west/content/pii:S209549562400161X/gr8/DOWNSAMPLED/image/jpeg/bc8d2d0c7139a566ce79e9ebf423c741/gr8.jpg gr8 gr8.jpg jpg 80298 366 751 IMAGE-DOWNSAMPLED 1-s2.0-S209549562400161X-fx1.sml https://s3-eu-west-1.amazonaws.com/prod-ucs-content-store-eu-west/content/pii:S209549562400161X/fx1/THUMBNAIL/image/gif/b7d61ed9796e8445c9c1b184bc74b750/fx1.sml fx1 fx1.sml sml 12084 164 117 IMAGE-THUMBNAIL 1-s2.0-S209549562400161X-fx2.sml https://s3-eu-west-1.amazonaws.com/prod-ucs-content-store-eu-west/content/pii:S209549562400161X/fx2/THUMBNAIL/image/gif/4193172638d11b5c89c4a71c852b243b/fx2.sml fx2 fx2.sml sml 13711 164 117 IMAGE-THUMBNAIL 1-s2.0-S209549562400161X-fx3.sml https://s3-eu-west-1.amazonaws.com/prod-ucs-content-store-eu-west/content/pii:S209549562400161X/fx3/THUMBNAIL/image/gif/242dff309873db89dddf86223f304dba/fx3.sml fx3 fx3.sml sml 9926 164 117 IMAGE-THUMBNAIL 1-s2.0-S209549562400161X-fx4.sml https://s3-eu-west-1.amazonaws.com/prod-ucs-content-store-eu-west/content/pii:S209549562400161X/fx4/THUMBNAIL/image/gif/cf319fa68a9f5b20120d7d9d87d6b5f8/fx4.sml fx4 fx4.sml sml 9950 164 117 IMAGE-THUMBNAIL 1-s2.0-S209549562400161X-fx5.sml https://s3-eu-west-1.amazonaws.com/prod-ucs-content-store-eu-west/content/pii:S209549562400161X/fx5/THUMBNAIL/image/gif/21579cfbc2f1df87a2185758deb7bb12/fx5.sml fx5 fx5.sml sml 11857 164 117 IMAGE-THUMBNAIL 1-s2.0-S209549562400161X-fx6.sml https://s3-eu-west-1.amazonaws.com/prod-ucs-content-store-eu-west/content/pii:S209549562400161X/fx6/THUMBNAIL/image/gif/cd0b4a251fe5dbce468dfac9aa81b554/fx6.sml fx6 fx6.sml sml 12154 164 117 IMAGE-THUMBNAIL 1-s2.0-S209549562400161X-fx7.sml https://s3-eu-west-1.amazonaws.com/prod-ucs-content-store-eu-west/content/pii:S209549562400161X/fx7/THUMBNAIL/image/gif/9804f709680d1a8859cbe9d5b92fa4ae/fx7.sml fx7 fx7.sml sml 12539 164 117 IMAGE-THUMBNAIL 1-s2.0-S209549562400161X-fx8.sml https://s3-eu-west-1.amazonaws.com/prod-ucs-content-store-eu-west/content/pii:S209549562400161X/fx8/THUMBNAIL/image/gif/f8b6a7d5207a0cca26f6b6806b39c538/fx8.sml fx8 fx8.sml sml 15315 164 117 IMAGE-THUMBNAIL 1-s2.0-S209549562400161X-fx9.sml https://s3-eu-west-1.amazonaws.com/prod-ucs-content-store-eu-west/content/pii:S209549562400161X/fx9/THUMBNAIL/image/gif/fa03e408680a472a0aa2ef5d5390b0f8/fx9.sml fx9 fx9.sml sml 12836 164 117 IMAGE-THUMBNAIL 1-s2.0-S209549562400161X-ga1.sml https://s3-eu-west-1.amazonaws.com/prod-ucs-content-store-eu-west/content/pii:S209549562400161X/ga1/HIGHRES/image/gif/a6aba9c8ff1a4c08a472e2dfd71abd5d/ga1.sml ga1 true ga1.sml sml 9664 109 219 IMAGE-THUMBNAIL 1-s2.0-S209549562400161X-gr1.sml https://s3-eu-west-1.amazonaws.com/prod-ucs-content-store-eu-west/content/pii:S209549562400161X/gr1/THUMBNAIL/image/gif/023b5781dba8f5c828e03901b01a82b4/gr1.sml gr1 gr1.sml sml 9383 116 219 IMAGE-THUMBNAIL 1-s2.0-S209549562400161X-gr2.sml https://s3-eu-west-1.amazonaws.com/prod-ucs-content-store-eu-west/content/pii:S209549562400161X/gr2/THUMBNAIL/image/gif/6f4739698e1df06ea33aa9c3c124eeaa/gr2.sml gr2 gr2.sml sml 9791 112 219 IMAGE-THUMBNAIL 1-s2.0-S209549562400161X-gr3.sml https://s3-eu-west-1.amazonaws.com/prod-ucs-content-store-eu-west/content/pii:S209549562400161X/gr3/THUMBNAIL/image/gif/05ec01014c60ae11a566c2538316a353/gr3.sml gr3 gr3.sml sml 12155 126 219 IMAGE-THUMBNAIL 1-s2.0-S209549562400161X-gr4.sml https://s3-eu-west-1.amazonaws.com/prod-ucs-content-store-eu-west/content/pii:S209549562400161X/gr4/THUMBNAIL/image/gif/8b5c2c9bcd5d8e912c40c2c5f4254ab5/gr4.sml gr4 gr4.sml sml 15379 164 209 IMAGE-THUMBNAIL 1-s2.0-S209549562400161X-gr5.sml https://s3-eu-west-1.amazonaws.com/prod-ucs-content-store-eu-west/content/pii:S209549562400161X/gr5/THUMBNAIL/image/gif/6f865485b4e19d7b76ee86c815ea66c0/gr5.sml gr5 gr5.sml sml 14243 164 188 IMAGE-THUMBNAIL 1-s2.0-S209549562400161X-gr6.sml https://s3-eu-west-1.amazonaws.com/prod-ucs-content-store-eu-west/content/pii:S209549562400161X/gr6/THUMBNAIL/image/gif/fc5faf5e2c309ba875a27a2b6ffcfcdb/gr6.sml gr6 gr6.sml sml 11203 147 219 IMAGE-THUMBNAIL 1-s2.0-S209549562400161X-gr7.sml https://s3-eu-west-1.amazonaws.com/prod-ucs-content-store-eu-west/content/pii:S209549562400161X/gr7/THUMBNAIL/image/gif/27fbf74a5a3756b2502fc1f1aa50b639/gr7.sml gr7 gr7.sml sml 9062 164 143 IMAGE-THUMBNAIL 1-s2.0-S209549562400161X-gr8.sml https://s3-eu-west-1.amazonaws.com/prod-ucs-content-store-eu-west/content/pii:S209549562400161X/gr8/THUMBNAIL/image/gif/ec7c698663fb429e99cfc38c3a6d85f9/gr8.sml gr8 gr8.sml sml 9684 107 219 IMAGE-THUMBNAIL 1-s2.0-S209549562400161X-fx1_lrg.jpg https://s3-eu-west-1.amazonaws.com/prod-ucs-content-store-eu-west/content/pii:S209549562400161X/HIGHRES/image/jpeg/537f142814153106d3ef8a90bd974c94/fx1_lrg.jpg fx1 fx1_lrg.jpg jpg 18965 413 295 IMAGE-HIGH-RES 1-s2.0-S209549562400161X-fx2_lrg.jpg https://s3-eu-west-1.amazonaws.com/prod-ucs-content-store-eu-west/content/pii:S209549562400161X/DOWNSAMPLED/image/jpeg/b075ee80327d55de3ce0e47602ac7a68/fx2_lrg.jpg fx2 fx2_lrg.jpg jpg 22773 413 295 IMAGE-HIGH-RES 1-s2.0-S209549562400161X-fx3_lrg.jpg https://s3-eu-west-1.amazonaws.com/prod-ucs-content-store-eu-west/content/pii:S209549562400161X/HIGHRES/image/jpeg/c43a88cd6fcbc7b7b6a12008515585a0/fx3_lrg.jpg fx3 fx3_lrg.jpg jpg 12648 413 295 IMAGE-HIGH-RES 1-s2.0-S209549562400161X-fx4_lrg.jpg https://s3-eu-west-1.amazonaws.com/prod-ucs-content-store-eu-west/content/pii:S209549562400161X/HIGHRES/image/jpeg/1f7747982db7b9387ffb9bfb9a360b77/fx4_lrg.jpg fx4 fx4_lrg.jpg jpg 12699 413 295 IMAGE-HIGH-RES 1-s2.0-S209549562400161X-fx5_lrg.jpg https://s3-eu-west-1.amazonaws.com/prod-ucs-content-store-eu-west/content/pii:S209549562400161X/HIGHRES/image/jpeg/ba3d8f68cc832026b960f968ee91b597/fx5_lrg.jpg fx5 fx5_lrg.jpg jpg 16349 413 295 IMAGE-HIGH-RES 1-s2.0-S209549562400161X-fx6_lrg.jpg https://s3-eu-west-1.amazonaws.com/prod-ucs-content-store-eu-west/content/pii:S209549562400161X/HIGHRES/image/jpeg/79ceeb992d52944ec58ff45517a7a94c/fx6_lrg.jpg fx6 fx6_lrg.jpg jpg 12891 413 295 IMAGE-HIGH-RES 1-s2.0-S209549562400161X-fx7_lrg.jpg https://s3-eu-west-1.amazonaws.com/prod-ucs-content-store-eu-west/content/pii:S209549562400161X/HIGHRES/image/jpeg/358e2eb821b80e6161c54cdbf0567dc7/fx7_lrg.jpg fx7 fx7_lrg.jpg jpg 16256 413 295 IMAGE-HIGH-RES 1-s2.0-S209549562400161X-fx8_lrg.jpg https://s3-eu-west-1.amazonaws.com/prod-ucs-content-store-eu-west/content/pii:S209549562400161X/HIGHRES/image/jpeg/3a86c1e7fe6bbf144cd5ddff5b1361c2/fx8_lrg.jpg fx8 fx8_lrg.jpg jpg 16695 413 295 IMAGE-HIGH-RES 1-s2.0-S209549562400161X-fx9_lrg.jpg https://s3-eu-west-1.amazonaws.com/prod-ucs-content-store-eu-west/content/pii:S209549562400161X/HIGHRES/image/jpeg/6254c6bc7bfb9f0b982713391c492e04/fx9_lrg.jpg fx9 fx9_lrg.jpg jpg 17482 413 295 IMAGE-HIGH-RES 1-s2.0-S209549562400161X-ga1_lrg.jpg https://s3-eu-west-1.amazonaws.com/prod-ucs-content-store-eu-west/content/pii:S209549562400161X/HIGHRES/image/jpeg/08cdcac7638c2a7d0afdba1a244e4c3f/ga1_lrg.jpg ga1 true ga1_lrg.jpg jpg 166585 886 1786 IMAGE-HIGH-RES 1-s2.0-S209549562400161X-gr1_lrg.jpg https://s3-eu-west-1.amazonaws.com/prod-ucs-content-store-eu-west/content/pii:S209549562400161X/HIGHRES/image/jpeg/4dceee68393ae617d19c7ae2427e0474/gr1_lrg.jpg gr1 gr1_lrg.jpg jpg 468029 1819 3445 IMAGE-HIGH-RES 1-s2.0-S209549562400161X-gr2_lrg.jpg https://s3-eu-west-1.amazonaws.com/prod-ucs-content-store-eu-west/content/pii:S209549562400161X/HIGHRES/image/jpeg/d724f5a0e68c1977a29e01ddfed44b4e/gr2_lrg.jpg gr2 gr2_lrg.jpg jpg 425463 1660 3248 IMAGE-HIGH-RES 1-s2.0-S209549562400161X-gr3_lrg.jpg https://s3-eu-west-1.amazonaws.com/prod-ucs-content-store-eu-west/content/pii:S209549562400161X/HIGHRES/image/jpeg/4740c16c8f136e46854e1baee46c0c25/gr3_lrg.jpg gr3 gr3_lrg.jpg jpg 691285 1986 3445 IMAGE-HIGH-RES 1-s2.0-S209549562400161X-gr4_lrg.jpg https://s3-eu-west-1.amazonaws.com/prod-ucs-content-store-eu-west/content/pii:S209549562400161X/HIGHRES/image/jpeg/9ee3990158486c4ad299a697bf9c6f09/gr4_lrg.jpg gr4 gr4_lrg.jpg jpg 852126 2610 3327 IMAGE-HIGH-RES 1-s2.0-S209549562400161X-gr5_lrg.jpg https://s3-eu-west-1.amazonaws.com/prod-ucs-content-store-eu-west/content/pii:S209549562400161X/HIGHRES/image/jpeg/fd5301f16a34153bc2fb25156d4b03fc/gr5_lrg.jpg gr5 gr5_lrg.jpg jpg 1027410 2904 3327 IMAGE-HIGH-RES 1-s2.0-S209549562400161X-gr6_lrg.jpg https://s3-eu-west-1.amazonaws.com/prod-ucs-content-store-eu-west/content/pii:S209549562400161X/HIGHRES/image/jpeg/45bdc0f15ef90f7e3ad2fb3435efeeeb/gr6_lrg.jpg gr6 gr6_lrg.jpg jpg 597187 2218 3307 IMAGE-HIGH-RES 1-s2.0-S209549562400161X-gr7_lrg.jpg https://s3-eu-west-1.amazonaws.com/prod-ucs-content-store-eu-west/content/pii:S209549562400161X/HIGHRES/image/jpeg/503ea976346444f13cbb5ab464bca71d/gr7_lrg.jpg gr7 gr7_lrg.jpg jpg 1116136 3786 3307 IMAGE-HIGH-RES 1-s2.0-S209549562400161X-gr8_lrg.jpg https://s3-eu-west-1.amazonaws.com/prod-ucs-content-store-eu-west/content/pii:S209549562400161X/THUMBNAIL/image/jpeg/30bed5bc2187052db2dfa24bf40a4a6d/gr8_lrg.jpg gr8 gr8_lrg.jpg jpg 488391 1622 3327 IMAGE-HIGH-RES 1-s2.0-S209549562400161X-mmc1.docx https://s3-eu-west-1.amazonaws.com/prod-ucs-content-store-eu-west/content/pii:S209549562400161X/mmc1/MAIN/application/vnd.openxmlformats-officedocument.wordprocessingml.document/ff6fcfca59ebde6b549aabb755c571ff/mmc1.docx mmc1 mmc1.docx docx 67326 APPLICATION 1-s2.0-S209549562400161X-si1.svg https://s3-eu-west-1.amazonaws.com/prod-ucs-content-store-eu-west/content/pii:S209549562400161X/STRIPIN/image/svg+xml/00472200359024bc54b2a3d8071dbb86/si1.svg si1 si1.svg svg 3544 ALTIMG 1-s2.0-S209549562400161X-si10.svg https://s3-eu-west-1.amazonaws.com/prod-ucs-content-store-eu-west/content/pii:S209549562400161X/STRIPIN/image/svg+xml/6122e33804ab9db62285b0177c029bbb/si10.svg si10 si10.svg svg 5527 ALTIMG 1-s2.0-S209549562400161X-si11.svg https://s3-eu-west-1.amazonaws.com/prod-ucs-content-store-eu-west/content/pii:S209549562400161X/STRIPIN/image/svg+xml/5e13e1d2a9d67e029984f82bec4d0bf8/si11.svg si11 si11.svg svg 8562 ALTIMG 1-s2.0-S209549562400161X-si12.svg https://s3-eu-west-1.amazonaws.com/prod-ucs-content-store-eu-west/content/pii:S209549562400161X/STRIPIN/image/svg+xml/ed24d5df3dce1255b92933d1ef5b7c40/si12.svg si12 si12.svg svg 8271 ALTIMG 1-s2.0-S209549562400161X-si13.svg https://s3-eu-west-1.amazonaws.com/prod-ucs-content-store-eu-west/content/pii:S209549562400161X/STRIPIN/image/svg+xml/6cb64f8d6e23dff152f7c1162bcc643c/si13.svg si13 si13.svg svg 3653 ALTIMG 1-s2.0-S209549562400161X-si14.svg https://s3-eu-west-1.amazonaws.com/prod-ucs-content-store-eu-west/content/pii:S209549562400161X/STRIPIN/image/svg+xml/b6a6b9886b6461a702b2f96a8241e5c9/si14.svg si14 si14.svg svg 3421 ALTIMG 1-s2.0-S209549562400161X-si15.svg https://s3-eu-west-1.amazonaws.com/prod-ucs-content-store-eu-west/content/pii:S209549562400161X/STRIPIN/image/svg+xml/78c4eb316183bc8d810b9b069dbe6b20/si15.svg si15 si15.svg svg 6095 ALTIMG 1-s2.0-S209549562400161X-si16.svg https://s3-eu-west-1.amazonaws.com/prod-ucs-content-store-eu-west/content/pii:S209549562400161X/STRIPIN/image/svg+xml/2e621d5ac2c72d7b7064bd6fac8ab339/si16.svg si16 si16.svg svg 12609 ALTIMG 1-s2.0-S209549562400161X-si17.svg https://s3-eu-west-1.amazonaws.com/prod-ucs-content-store-eu-west/content/pii:S209549562400161X/STRIPIN/image/svg+xml/a94e08a08e0e780348c20e6c6735b50b/si17.svg si17 si17.svg svg 3256 ALTIMG 1-s2.0-S209549562400161X-si18.svg https://s3-eu-west-1.amazonaws.com/prod-ucs-content-store-eu-west/content/pii:S209549562400161X/STRIPIN/image/svg+xml/384b70be43df9ab82e9749d232ee6a57/si18.svg si18 si18.svg svg 2980 ALTIMG 1-s2.0-S209549562400161X-si19.svg https://s3-eu-west-1.amazonaws.com/prod-ucs-content-store-eu-west/content/pii:S209549562400161X/STRIPIN/image/svg+xml/6c6cef554ecb9570d5676dbc895b8e00/si19.svg si19 si19.svg svg 4340 ALTIMG 1-s2.0-S209549562400161X-si2.svg https://s3-eu-west-1.amazonaws.com/prod-ucs-content-store-eu-west/content/pii:S209549562400161X/STRIPIN/image/svg+xml/8139b033a3219a0f3d79dd5235985f8b/si2.svg si2 si2.svg svg 2945 ALTIMG 1-s2.0-S209549562400161X-si20.svg https://s3-eu-west-1.amazonaws.com/prod-ucs-content-store-eu-west/content/pii:S209549562400161X/STRIPIN/image/svg+xml/ab1b069d1c5e0669f992abb226fe9f63/si20.svg si20 si20.svg svg 2447 ALTIMG 1-s2.0-S209549562400161X-si3.svg https://s3-eu-west-1.amazonaws.com/prod-ucs-content-store-eu-west/content/pii:S209549562400161X/STRIPIN/image/svg+xml/fd18330b8147a4b8dccf3471505dd409/si3.svg si3 si3.svg svg 2880 ALTIMG 1-s2.0-S209549562400161X-si4.svg https://s3-eu-west-1.amazonaws.com/prod-ucs-content-store-eu-west/content/pii:S209549562400161X/STRIPIN/image/svg+xml/7ed3e5a189c714041155ebf9848fe534/si4.svg si4 si4.svg svg 4884 ALTIMG 1-s2.0-S209549562400161X-si5.svg https://s3-eu-west-1.amazonaws.com/prod-ucs-content-store-eu-west/content/pii:S209549562400161X/STRIPIN/image/svg+xml/31a018f3fbef2580a4b8da80c854d89a/si5.svg si5 si5.svg svg 4305 ALTIMG 1-s2.0-S209549562400161X-si6.svg https://s3-eu-west-1.amazonaws.com/prod-ucs-content-store-eu-west/content/pii:S209549562400161X/STRIPIN/image/svg+xml/c444c382ba4f32ccaa2cfd41adee407d/si6.svg si6 si6.svg svg 2372 ALTIMG 1-s2.0-S209549562400161X-si7.svg https://s3-eu-west-1.amazonaws.com/prod-ucs-content-store-eu-west/content/pii:S209549562400161X/STRIPIN/image/svg+xml/fe3aeaf8d99f30ab9482a63a7c11c8d5/si7.svg si7 si7.svg svg 4622 ALTIMG 1-s2.0-S209549562400161X-si8.svg https://s3-eu-west-1.amazonaws.com/prod-ucs-content-store-eu-west/content/pii:S209549562400161X/STRIPIN/image/svg+xml/bf0d1f44c864ad85fc04182b732b239d/si8.svg si8 si8.svg svg 4179 ALTIMG 1-s2.0-S209549562400161X-si9.svg https://s3-eu-west-1.amazonaws.com/prod-ucs-content-store-eu-west/content/pii:S209549562400161X/STRIPIN/image/svg+xml/dbb53d758bc36d511bd589e6d510bb5e/si9.svg si9 si9.svg svg 6106 ALTIMG 1-s2.0-S209549562400161X-am.pdf https://s3-eu-west-1.amazonaws.com/prod-ucs-content-store-eu-west/content/egi:107CN74VM92/MAIN/application/pdf/5824216e31b9ac88146394e86d87a16a/am.pdf am am.pdf pdf false 2581539 AAM-PDF JECHEM 3704 S2095-4956(24)00161-X 10.1016/j.jechem.2024.02.035 Fig. 1 General process of ML for material design and related applications. Data preparation, feature engineering, model selection, model evaluation, and model application are all parts of the ML workflow in perovskite materials. Reproduced with permission from Ref. [48]. Copyright 2021, RSC. Reproduced with permission from Ref. [96]. Copyright 2023, Elsevier. Reproduced with permission from Ref. [91]. Copyright ACS (2022). Reproduced with permission from Ref. [25]. Copyright 2018, Springer Nature BV. Reproduced with permission from Ref. [61]. Copyright 2019, Wiley. Fig. 2 Schematic diagrams of the algorithm principles for (a) SVM [33]. (b) DT [35]. (c) Integrated method [36,37]. (d) ANN [38]. (e) CNN [40]. Fig. 3 (a) The research framework to effectively find lead-free HOIPs by the combination of ML and first-principles calculation. (b) 212 HOIP structures from high-throughput screening. (c) The Pearson correlation coefficient matrix of the screened features and the 14 ranked features generated. (d) Comparison plot of DFT_PBE computed bandgaps versus ML predicted bandgaps. Reproduced with permission from Ref. [25]. Copyright 2018, Springer Nature BV. Fig. 4 (a) The general research framework for bandgap screening in perovskites using ML. Reproduced with permission from Ref. [48]. Copyright 2021, RSC. (b) Chemical elements considered in a dataset of halide double perovskites. Reproduced with permission from Ref. [51]. Copyright 2019, Nature Publishing Group. (c) The composition of 136 2D HOIPs. Reproduced with permission from Ref. [48]. Copyright 2021, RSC. (d) The process of using ACE to study the relationship between bandgap and component elements. Reproduced with permission from Ref. [52]. Copyright 2020, ACS. (e) Ten perovskite materials chosen with formation energies less than 0.5 eV and bandgaps between 1.5 and 3.0 eV. Reproduced with permission from Ref. [54]. Copyright 2018, ACS. (f) The flowchart of ML in the design of perovskite oxide materials for photocatalytic water splitting. Reproduced with permission from Ref. [57]. Copyright 2021, Elsevier. (g) The fitting results of bandgaps calculated by DFT (left: PBE, right: HSE06) and the bandgaps predicted by the GBR model. Reproduced with permission from Ref. [56]. Copyright 2022, RSC. Fig. 5 (a) Fitting performance of semi-empirical descriptors versus ML. DFT-calculated ΔH D versus (left to right) (i) descriptor-T f-predicted ΔH D; (ii) descriptor-(T f + O f)η-predicted ΔH D, and ML-predicted ΔH D based on the features of (iii) (R A, R B,eff, and R X) and (iv) (R A, R B1, R B2, R X). Reproduced with permission from Ref. [61]. Copyright 2019, Wiley. (b) The framework of the positive and unlabeled learning procedure. Reproduced with permission from Ref. [67]. Copyright 2022, Nature Publishing Group. (c) E hull distribution of all 1,929 perovskite compounds. (d) Fitted E hull values in comparison to DFT figures, where the stable and unstable materials are represented by green and blue dots, respectively. Reproduced with permission from Ref. [64]. Copyright 2018, Elsevier. (e) The score distribution for the synthesized and virtual crystals. (f) The true positive rate for perovskites out-of-sample for the various tested models, namely, graph-convolutional network, binary classification, positive-unlabeled learning, domain-specific learning and transfer learning. Reproduced with permission from Ref. [67]. Copyright 2022, Nature Publishing Group. Fig. 6 (a) The Hirshfeld surface method used fingerprints to represent the inorganic crystal. Reproduced with permission from Ref. [87]. Copyright 2020, ACS. (b) Comparisons of GSS derived from GN-OA and DFT and the discrepancies of lattice constants and formation energies for 29 compounds predicted using GN (MatB)-BO in contrast with DFT-calculated results. The red crosses indicate the wrong GSS predicted by BO compared to the DFT result. Reproduced with permission from Ref. [86]. Copyright 2022, Springer Nature BV. (c) The design framework of CNN. Reproduced with permission from Ref. [87]. Copyright 2020, ACS. Fig. 7 (a) Calculation of defect formation energies of different substitutional dopants at the A or B sites of R-BTO, c-BTO, and c-LMO. The hollow and solid circles correspond to alternative dopants at the A and B positions, respectively. Reproduced with permission from Ref. [93]. Copyright 2020, AIP Publishing. (b) Major lead-site impurities in MAPbX3 compound determined from DFT calculations and GPR predictions. Reproduced with permission from Ref. [94]. Copyright 2020, Springer Nature. (c) The flow chart for the adopted methodology. (d) Comparison of the predicted activation energies with the experimental values. (e) Comparison of the true total conductivities with the predicted total conductivities. Reproduced with permission from Ref. [95]. Copyright 2021, Nature Publishing Group. Fig. 8 (a) The ranking plot of the SHAP values of various features based on the XGBoost models on PCE. Reproduced with permission from Ref. [96]. Copyright 2023, Elsevier. (b) The RMSE (purple bars) and r values (cyan bars) of different models. (c) Comparison of the predicted and true values by the RF model on the training and test sets. Reproduced with permission from Ref. [97]. Copyright 2023, Elsevier. (d) Schematic diagram of the energy level difference. (e) Model network structure diagram. Reproduced with permission from Ref. [99]. Copyright 2023, Elsevier. Table 1 Precision, recall, and F 1-scores for predictions on the test set and average classification accuracy of each algorithm after ten-fold cross-validation. Algorithm Precision Recall F 1-score Average accuracy 0 1 0 1 0 1 XGBOOST 0.8 0.81 0.97 0.33 0.88 0.46 72.8% Random Forest 0.78 0.67 0.96 0.25 0.86 0.36 73.4% Logistic Regression 0.74 0.25 0.87 0.12 0.8 0.17 67.3% Support Vector Classification 0.75 0.6 0.98 0.07 0.85 0.13 73% ANN 0.74 0 1 0 0.85 0 73% Decision Tree 0.77 0.58 0.96 0.17 0.85 0.27 74.2% Gradient Boosting Classification 0.76 0.62 0.97 0.12 0.85 0.21 73.1% Table 2 Descriptions of the 17 screened features and the 4 target features for ML. Input feature Feature description Cs_ratio, FA_ratio, MA_ratio, Br_ratio The ratios of various components of lead halide perovskite. ETL_EM, ETL_treat, Buffer-layer ETL electron mobility; with or without post-treatment of the electronic transport layer; with or without buffer layer on the perovskite film. DMSO/DMF, AntiSolvent_Xl, AntiSolvent_bp, AntiSolvent_v Annealing_t The ratio of DMSO: DMF; the XlogP3, boiling point, viscosity of the antisolvent; the annealing temperature of the perovskite film. Add_H, Add_O, Add_A, Add_others With or without organic cation halide additives, organic molecular additives, alkine additives, and other additives. Cell_A The effective area of the PSCs. Target feature JV_VOC, JV_JSC, JV_FF, JV_PCE The photovoltaic parameters of the PSCs were obtained from a reverse scan. Review Application of machine learning in perovskite materials and devices: A review Ming Chen a b Zhenhua Yin a Zhicheng Shan a Xiaokai Zheng a Lei Liu a Zhonghua Dai a Jun Zhang a Shengzhong (Frank) Liu b c ⁎ Zhuo Xu a b ⁎ a School of Electric Power, Civil Engineering and Architecture, College of Physics and Electronics Engineering, State Key Laboratory of Quantum Optics and Quantum Optics Devices, Shanxi University, Taiyuan 030006, Shanxi, China School of Electric Power Civil Engineering and Architecture College of Physics and Electronics Engineering State Key Laboratory of Quantum Optics and Quantum Optics Devices Shanxi University Taiyuan Shanxi 030006 China School of Electric Power, Civil Engineering and Architecture, College of Physics and Electronics Engineering, State Key Laboratory of Quantum Optics and Quantum Optics Devices, Shanxi University, Taiyuan 030006, Shanxi, China b Key Laboratory of Applied Surface and Colloid Chemistry, National Ministry of Education, Shaanxi Engineering Lab for Advanced Energy Technology, School of Materials Science and Engineering, Shaanxi Normal University, Xi’an 710119, Shaanxi, China Key Laboratory of Applied Surface and Colloid Chemistry National Ministry of Education Shaanxi Engineering Lab for Advanced Energy Technology School of Materials Science and Engineering Shaanxi Normal University Xi’an Shaanxi 710119 China Key Laboratory of Applied Surface and Colloid Chemistry, National Ministry of Education, Shaanxi Engineering Lab for Advanced Energy Technology, School of Materials Science and Engineering, Shaanxi Normal University, Xi’an 710119, Shaanxi, China c State Key Laboratory of Catalysis, Dalian National Laboratory for Clean Energy, Dalian Institute of Chemical Physics, Chinese Academy of Sciences, Dalian 116023, Liaoning, China State Key Laboratory of Catalysis Dalian National Laboratory for Clean Energy Dalian Institute of Chemical Physics Chinese Academy of Sciences Dalian Liaoning 116023 China State Key Laboratory of Catalysis, Dalian National Laboratory for Clean Energy, Dalian Institute of Chemical Physics, Chinese Academy of Sciences, Dalian 116023, Liaoning, China ⁎ Corresponding authors. Graphical abstract This review provides an overview of workflow of machine learning and its applications in predicting bandgap, stability, crystal structure, intrinsic properties, and solar cell performance in perovskite materials and devices. Metal-halide hybrid perovskite materials are excellent candidates for solar cells and photoelectric devices. In recent years, machine learning (ML) techniques have developed rapidly in many fields and provided ideas for material discovery and design. ML can be applied to discover new materials quickly and effectively, with significant savings in resources and time compared with traditional experiments and density functional theory (DFT) calculations. In this review, we present the application of ML in perovskites and briefly review the recent works in the field of ML-assisted perovskite design. Firstly, the advantages of perovskites in solar cells and the merits of ML applied to perovskites are discussed. Secondly, the workflow of ML in perovskite design and some basic ML algorithms are introduced. Thirdly, the applications of ML in predicting various properties of perovskite materials and devices are reviewed. Finally, we propose some prospects for the future development of this field. The rapid development of ML technology will largely promote the process of materials science, and ML will become an increasingly popular method for predicting the target properties of materials and devices. Keywords Machine learning Perovskite Materials design Bandgap engineering Stability Crystal structure 1 Introduction The amount of energy consumed worldwide is rising each year, and the finite reserves of fossil fuels cannot support sustainable energy consumption. Solar energy is the most abundant energy source, with the potential to meet the world's energy needs at a low cost and a small carbon footprint. Solar cells have now progressed to the third generation, which includes GaAs, organic polymer cells, dye-sensitized solar cells, and perovskite solar cells (PSCs) [1]. The third generation solar cells, such as PSCs, provides numerous benefits, including a high theoretical photoelectric conversion efficiency, tunable bandgap, high absorption coefficient, long carrier-diffusion length, affordable manufacturing, and a straightforward preparation procedure [2]. PSCs currently have a certified photoelectric conversion efficiency of 26.1% [3], which is higher than those of solar cells made of cadmium telluride and copper indium gallium selenium. For a long time, the approach to developing new materials has relied on trial and error. To obtain the targeted material, iterative synthesis and characterization must be conducted until a suitable material is acquired. The process can be time-consuming and expensive, while in materials informatics, new materials can be designed rationally on the basis of existing data, thereby making it possible to predict the properties of new compounds more quickly [4]. ML has a strong ability to process data, which enables it to effectively reduce the human and material costs in industrial development and shorten the R&D (research and development) cycle. By combining ML with traditional experiments or high-throughput DFT calculation, we can analyze and predict material structures more rapidly and accurately, enabling more efficient development of new functional materials. Because of this, ML technology has been rapidly applied to materials science. By employing existing data, a learning model can be developed to predict target properties of new materials [5]. Artificial intelligence (AI), also known as the “fourth paradigm of science”, has attracted worldwide attention in materials science in recent years [6]. ML has always been the core of AI. In materials science, it has emerged as a powerful tool for aiding the selection and design of diverse perovskite materials. For example, Yılmaz et al. reviewed related works based on computational data and experimental data [7]. They proposed some solutions including the judicious selection of ML techniques and the implementation of data augmentation methods to address the limitations associated with small datasets. Zhang et al. reviewed recent studies covering the prediction and understanding of lead-free and stable halide perovskite materials [8]. They proposed that more comprehensive perovskite databases are crucial for the ML process to generate ideal candidates for solar cell applications. Additionally, they suggested considering other parameters and new descriptors, such as light harvesting performance, overall conversion efficiency, and water stability. This provides a fresh perspective for the design of halide perovskite materials. In this review, we briefly discuss the successful application of ML in predicting properties of perovskite materials. In section 2, we mainly introduce the basic workflow of ML in material science and some basic ML algorithms. In section 3, we present practical applications of ML techniques in exploring diverse properties, including the band gap, stability, crystal structure, other intrinsic properties, and device performance of perovskite materials. In section 4, we discuss the current challenges and opportunities associated with the application of ML in the design and discovery of perovskite materials and propose some prospects for the future development of this field. 2 Workflow of machine learning ML is an interdisciplinary field that combines knowledge from computer science, statistics, mathematics, and engineering, forming an essential division of AI [9,10]. ML techniques incorporate computer algorithms that automatically evolve and adapt to the environment through experience, allowing the machine to make decisions and obtain knowledge. With the development of the Material Genome Project, ML is increasingly vital in materials science. For automatic prediction of materials properties and underlying relationships between structure and properties by the ML model without specialized traditional human programming, a large database is typically necessary. Typical material databases include the Inorganic Crystal Structure Database (ICSD) [11], Open Quantum Materials Database (OQMD) [12], and Materials Project (MP) [13]. Based on available data, a learning model is established to predict the properties of new materials [14]. ML has become a powerful tool to assist in the design and screening of various high-performance materials [15]. It can obtain the quantitative structure–property relationship between the physical and chemical properties of new materials and their atomic parameters, chemical formula state, process parameters, and other factors [6]. After successfully constructing the relationship model between the data, the model can be used to predict the properties of the designed materials, and synthetic characterization can verify these predictions to screen high-performance materials [16]. The general process of ML for material design is shown in Fig. 1 ; data collection, feature engineering, model selection, model verification and model application are the most important process. 2.1 Data preparation Datasets used for ML usually contain dependent and independent variables related to materials. Independent variables, also known as characteristics or descriptors, are representative information about the structural features and properties of materials, such as chemical composition, atomic or molecular parameters, structural parameters, and synthesis process conditions. The dependent variables, also known as the target variables [15,17], are the target properties of the material that are affected by the independent variables. To build a high-quality ML model, it is always essential to collect reliable datasets. The datasets generally come from experiments, databases, published papers, first-principles calculations, etc. In general, an ML model is considered more robust when it has a higher number of samples. Certain models, such as neural network (NN) and deep learning (DL), necessitate a vast number of samples [18]. However, the data obtained in actual work are generally not ideal, and there may be missing values, null values, and unevenly distributed data. For missing and null values, one can remove the problem line or replace the missing or null value with a valid value, typically the average. If there are duplicate records in the data file, the efficiency of modeling will be reduced, as most ML tools will have different structural layers, and data duplication will aggravate their impact on the results. For unevenly distributed data, which may cause the model to be more biased towards categories with larger samples, affecting model performance, reweighing bias distribution by reweighting the samples is a method. This process typically involves calculating the weights of each category so that each category contributes relatively equally to the training of the model. During training, these weights are used in the loss function to give more weight to samples from a few categories. This helps the model learn the features more accurately and improves the performance of the model on unbalanced datasets. Furthermore, data normalization are one of the common data preprocessing methods, aiming to scale the values of different features to an identical range. This helps to avoid certain features from having too much influence on the model. Common data normalization methods include Min-Max scaling and Z-score normalization. In general, for models with distance-based algorithms (e.g., SVM (support vector machine), KNN (K-nearest neighbors)), data normalization is often necessary [19]. Most of the above data preprocessing methods can be easily implemented using scikit-learn [20]. In addition, we can solve these problems by designing some data-preprocessing programs or utilizing ML platforms, such as Azure, Baidu Flying Pulp, and Google Cloud AI Platform. These platforms can provide a wealth of tools and services to help ML with data preprocessing. For example, Azure provides a hosting service named Apache Spark, which can be used for complex data transformation. Baidu Flying Pulp provides a series of APIs and tools that can perform operations such as data cleaning and enhancement. Google Cloud AI Platform provides a service named Dataflow, which can be used for large-scale data processing and transformation. 2.2 Feature engineering Any ML methods used to predict specific material properties rely on a set of descriptors. These descriptors not only uniquely define each material in the input dataset but also relate to the physical and chemical properties of the materials. In ML, the selection of the descriptor set, which should be comparable when characterizing the systems, is crucial, and different response variables should have high recognition and accuracy. Descriptors are usually derived from established properties of materials, such as ionic radius and ionization energy (IE). To avoid dimensional disasters and ensure effective training of the model without overfitting, the number of descriptors should be fewer than the number of samples in the dataset [21]. According to the relationship between evaluation criteria and learning algorithms, feature selection algorithms can be divided into three categories: Filter [22], Wrapper [23], and Embedded [24]. Lu et al. proposed the last-elimination method in gradient boosting regression (GBR) model training to effectively eliminate the less-important features when predicating the band gaps of 5158 undeveloped HOIPs (hybrid organic–inorganic perovskites) [25]. Finally, 14 important features were selected from 30 original features. Butler et al. provided a list of commonly used descriptors for elements, crystal structures and properties, during new material screening and design [26]. Wang et al. identified some well-defined and frequently utilized mathematical representations in current ML approaches for materials research based on molecular and crystal properties [27]. Multiscale intrinsic invariant-based molecular descriptors capture the underlying structure information differently from traditional molecular descriptors with higher precision and offer superior transferability to ML models. Furthermore, Ward et al. created a set of extensible attributes called Magpie that can be applied to materials with any number of constituent elements, including stoichiometric characteristic, elemental property statistics, electronic structural properties and ionic compound characteristics [28]. Additionally, Anand et al. proposed a feature-engineering method based on advanced geometric and topological invariants, which significantly improved the performance of the learning model for polymer data analysis [29]. The training results provided a significant improvement in accuracy for learning based on a persistence function compared with the model based on conventional descriptors in the design of hybrid organic–inorganic perovskite (HOIPs) materials. Experience has indicated that the Goldschmidt tolerance factor (T f), octahedral factor (O f), and ionic radius are the most commonly used structural descriptors for predicting electronic properties and formability of perovskites, while the descriptors ΔH (the energy difference between HOMO (the highest occupied molecular orbital) of HTL (hole transport layer) and HOMO of perovskite material), ΔL (the LUMO (lowest unoccupied molecular orbital) energy difference between the ETL (electron transport layer) and perovskite materials), HOMO, LUMO, and E g have a great influence on the target properties such as J sc (short-circuit current density), V oc (open-circuit voltage), FF (fill factor) and PCE of PCSs. 2.3 Machine learning technology ML can be classified into supervised learning, unsupervised learning, and reinforcement learning. Supervised learning is the most extensively used ML model as it can solve the regression and classification problems of various material systems [30]. Regression refers to the procedure of searching the prediction function when the target characteristic has continuous values, while classification is the procedure of searching the prediction function if the target has discrete values. The ML process under the supervised learning framework can be divided into four parts: data generation/acquisition, feature engineering, model training, and model application. Data generation and feature engineering have been mentioned in the previous section. After completing the data generation and feature engineering processes, the resulting data can be used for model prediction. Since each ML model is determined by multiple sets of hyperparameters, each set of hyperparameters has a different response to datasets and material characteristics. Therefore, continuous iteration is commonly used to generate optimal hyperparameters to minimize the model error. For regression models, common evaluation indexes are the mean absolute error (MAE), root mean square error (RMSE), and determination coefficient (R 2). After determining the evaluation index, it is crucial to select the appropriate hyperparameter search algorithms to achieve the best fitting performance. At present, widely used hyperparameter search algorithms include grid search, random search, and Bayesian optimization [20,31]. 2.4 Common ML algorithms in the field of material design As a classical supervised learning algorithm, the core principle of support vector machine (SVM) is to map vectors to higher dimensional space and subsequently establish a hyperplane within this newly generated space [32,33]. Normally, there are two aspects that need to be considered in the process of ML prediction. For the classification problem, we should maximize the distance of data points from the hyperplane, thereby minimizing the overall total error. For the regression problem, the distance between the data points and hyperplane should be minimized. Fig. 2 (a) briefly illustrates the case of two-dimensional classification. The key to SVM is the data dimension, which is typically expressed through the use of a kernel function [34]. SVM performs well on small sample data sets and can effectively deal with sparse data and unbalanced samples. In the field of materials science, SVM can provide reliable predictive performance, particularly in situations where sample sizes are limited. The decision tree (DT) algorithm is designed to understand the problem as a tree structure similar to the flow chart [35]. Each leaf node in the tree represents the selection of features, the branches of the tree indicate the test results of each feature, and each leaf node of the tree represents a category. DT usually includes three parts: feature selection, decision tree growth and pruning. The algorithm iteratively divides the data into subsets according to the feature values and selects the optimal feature to split the dataset, generating a tree-like structure where internal nodes indicate decision rules and leaf nodes indicate outcomes, as shown in Fig. 2(b). Known for its interpretability and user-friendliness, the DT excels as a potent tool for predicting material properties and discovering correlations between different features. At the same time, the decision rules generated by DT model are easily understood, which can help researchers to comprehend the relationship between material properties and characteristics. The integrated algorithm is a method combining multiple individual models. By doing so, it can learn the strengths of each model and compensate for their respective weaknesses to generate a more comprehensive ML model (Fig. 2c). Currently, the commonly used integration methods are bagging, boosting and stacking [36,37]. Bagging involves creating multiple instances of a model, each trained on various subsets of the data, to reduce the variance of the model. Boosting, however, focuses on minimizing bias by iteratively training models on the data and giving more weight to samples that were misclassified in previous iterations. Stacking involves combining the predictions of multiple models, often with different architectures or hyperparameters, to achieve greater accuracy. Integrated algorithms can assist in the analysis and interpretation of complex data sets, such as those obtained from experiments or simulations, thereby enabling a more extensive understanding of material properties. These algorithms can significantly enhance the overall prediction accuracy by combining the prediction results of multiple basic models. Different base models may have different biases and variances, and integrating their prediction results can reduce errors and enhance the accuracy of prediction. Artificial neural network (ANN) is a mathematical model based on the basic principle of neural networks in biology [38,39]. By comprehending and abstracting the structure of the human brain, as well as its response mechanism to external stimuli, ANN simulates the processing mechanisms of the human brain's neural system for complex information based on network topology knowledge. ANN is an operational model composed of numerous nodes (neurons) connected to each other. Each node represents a unit for processing information, which can accept information and output information. The output information achieves non-linear mapping through an activation function. Fig. 2(d) shows an example with two outputs and three features as inputs. ANN's superiority in material science lies in its ability to handle complicated, non-linear relationships between material properties and their underlying factors, including chemical composition, crystal structure, and processing conditions. Also, ANN is fault-tolerant to noise and incomplete information in the input data. It can automatically adapt and correct the noise in the data, reduce its impact on the model prediction, and improve the robustness and stability of the model. Convolutional neural network (CNN) is another popular neural network that distinguishes itself from ANN in the way it automatically acquires and extracts features from multiple channels [40]. While CNN's primary focus is on the processing of image and video data, it has also proven effective in material science and performs better than traditional ML in specific circumstances. Xie et al. developed a crystal graph convolutional neural networks (CGCNN) framework to directly learn material properties from the connection of atoms in the crystal, which offers a universal and interpretable representation of crystalline materials [41]. CNN generally includes several convolutional layers and pooling layers in addition to input and output layers, as shown in Fig. 2(e). The convolutional layer extracts input features, while the pooling layer is typically followed by the convolutional layer, reducing feature mapping size and retaining important information. The primary advantage of the CNN lies in its ability to deepen hidden layers, making it particularly effective on large datasets. In summary, SVM exhibits superior performance on small sample and high-dimensional datasets. However, it is sensitive to the selection of kernel functions and outliers. DT offers notable interpretability, capable of handling non-linear relationships, yet it is prone to overfitting. Integrated learning enhances overall performance by combining the predictions of multiple leaners, and demonstrates robust resistance to overfitting. Consequently, it is currently the most widely applied method in this field. ANN and CNN excel in capturing complex non-linear relationships, typically demonstrating proficiency on large-scale datasets. Nevertheless, their tendency to overfitting on smaller datasets, coupled with the requirement for meticulous tuning of numerous hyperparameters, result in their limitations. There is often no uniform optimal ML algorithm for different materials research problems. The selection of the appropriate model in material science research should be based on the available data, as well as the prior knowledge and assumptions relevant to the specific research problem. This process requires a comprehensive understanding of the material properties and their relationships with the variables and parameters of the system. For instance, simple structure–property relationships may be analyzed by linear regression (LR) or DT-based models, whereas complex materials discovery tasks might require more advanced algorithms such as RF (random forest), SVM or DL methods. Zhao et al. systematically studied the fitting precision effects of different ML models on perovskite system structure and band gap, and further explored the relationship between perovskite structure and properties [42]. The results demonstrate that the ML models show similar trends for different fitting target properties, and all nonlinear integration models display excellent fitting results, which stems from the implementation of a range of integration methods that optimize the high variance and bias of a single model. Twelve ML algorithm models were trained and compared based on their evaluation indexes. The model with the best fitting effect is the extreme gradient boosting decision tree (XGBoost), which can also provide important descriptor information for analyzing the thermodynamic stability and band gap of mixed-halogen perovskite materials. Therefore, materials science researchers usually need to carefully evaluate and choose the ML algorithm that most suits the particular features and demands of their research issue. This selection process may entail trialing various algorithms, conducting feature engineering, and optimizing models to obtain optimal outcomes for a given materials research problem. 3 Application of machine learning in perovskite material design 3.1 Bandgap engineering in perovskites using ML Bandgap engineering is a crucial technique for perovskite ABX3 to adjust its capacity to absorb light and can impact the efficiency of photovoltaic devices based on perovskite, such as photosensitive detectors, solar cells, and light-emitting diodes. Perovskite has outstanding optoelectronic properties and its bandgap can be tuned to absorb a wider spectrum. Due to the selective flexibility of perovskite composition, the A, B and X ions can be replaced by a variety of elements, offering a broad range of tunable bandgaps. Experimentally exploring and selecting all potential structures demands immense effort. Consequently, it is more efficient to use ML techniques to predict the bandgap of a range of perovskites and identify suitable candidates for different applications. Lu et al. developed a targeted-driven method to predict possible HOIPs for solar cell application through ML prediction and DFT calculations, and the overall workflow is shown in Fig. 3 (a) [25]. A dataset of 346 HOIPs was used for the ML model, which is obtained from high-throughput first-principles calculations and experiments in the literature [43,44]. Only orthorhombic-like crystal structures and bandgaps calculated using the Perdew-Burke-Ernzerhof (PBE) functional were chosen for data consistency and ML prediction accuracy. Finally, 212 compounds are selected for this engine. The input samples for the ML model in this work consist of 11 small organic molecular species (A-site), 32 divalent metals (B-site), and 4 halogens (X-site), as shown in Fig. 3(b). For feature engineering, the GBR algorithm was used to evaluate the feature importance [45]. At the same time, a “last-place elimination” method was developed to generate effective features to effectively eliminate the less important features. Finally, 14 important features were selected, including T f, O f, total number of ionic charges (IC B), p-orbital electrons (Xp−electron), ionization energy (IE B), electronegativity (χ B), electron affinity (EA B), ionic polarizability (P B, P A), sum of the s and p orbital radii (r B s+p ), R B (ionic radius of the B site), R A, and the HOMO and LUMO of A-site cations. As shown in Fig. 3(c), the feature importance of these 14 descriptors was ranked and the Pearson correlation (r) among the features was analyzed to generate the heat map. These features were applied to different ML algorithms (GBR, KRR (kernel ridge regression), SVR (support vector regression), GPR (Gaussian process regression), DTR (decision tree regression) and MPR (multilayer perception regression) to evaluate the performance of each ML model. Through the evaluation-index coefficient of determination (R 2), Pearson coefficient, and mean square error (MSE), the GBR algorithm fitted the training set best as the DFT-computed and predicted bandgaps match very well (Fig. 3d). Eventually, among 5158 unexplored HOIPs, six orthorhombic lead-free HOIPs with direct bandgaps in the visible region were successfully selected and show excellent thermal stability at room temperature. However, same problem exists in this ML model as others. Application of this model or method in other broader areas such as other more organic cations in A-site or anions in X-site may face following challenges: (i) Accurate estimation of organic ionic radii or processing ionic radius data from various sources in the literature is still an open challenge. (ii) Some of the substituted structures may induce distortion after structural optimization even if their T f and O f are in compliance, so further stability validation was needed. Normally, the identification of compounds with direct bandgaps is preferred, as it can greatly accelerate the study of more-effective light-harvesting materials. As inorganic perovskites can offer both compositional flexibility and stability, Smarak Rath et al. used ML to predict the bandgaps of inorganic perovskite and divided them according to direct and indirect bandgaps [46]. The dataset of this work is based on the MP database, which contains 1528 ABX3 formula compounds. For the structural composition of this kind of perovskite, the A sites and B sites are occupied by cations (Ac, Ag, Al, Ba, Bi) and X is an anion (O, F, Cl, Br, I, S, Se, Te, N, or P). The relevant features were then generated using Matminer’s “Meredig” module, yielding 129 descriptors [47]. We believe that utilizing opensource toolkits such as Matminer's module may be a good general approach to build feature engineering for inorganic materials. Then the Pearson coefficient was used in feature engineering to evaluate feature correlation. Features are considered highly correlated when the Pearson coefficient is greater than 0.8. A total of 118 features were finally selected for training the model after removing redundant features. In order to test the prediction accuracy of seven ML algorithms, ten-fold cross validation was used. In comparison with other seven algorithms, XGBoost exhibited the highest classification accuracy. The prediction accuracy of the model was improved using RandomizedSearchCV to adjust the hyperparameters. Ten-fold cross-validation was performed on each algorithm, and Table 1 displays the precision, recall, F 1-scores for predictions on the test set, and the average classification accuracy. Class 0 represents indirect band gap material and class 1 represents direct band gap material. It is found that the prediction accuracy for direct bandgap materials with XGBoost is 81%, and the presence of Si, Cs, Sb, K, or F in a compound would increase the likelihood of possessing a direct bandgap, while the presence of a transition metal in a perovskite would reduce the probability of possessing a direct bandgap. It is concluded that transition metals should be avoided in the synthesis of inorganic ABX3 perovskite for light-harvesting applications. 2D HOIPs have also attracted considerable attention because of their intriguing optoelectronic properties and enhanced stability compared to 3D perovskites. Wan et al. created an ML approach based on molecular graphics and adjacency matrices for the purpose of determining bandgaps of 2D HOIPs more efficiently [48]. The general research framework is shown in Fig. 4 (a). Through model training and prediction, bandgaps of 524 unexplored 2D HOIPs were determined. A data set of 136 2D A2BX4 HOIPs for ML training of this work was selected from the 2D perovskite database built by Marchenko et al [49]. For these 2D A2BX4 HOIPs, the A site is a monovalent organic cation, the B site is a divalent metal cation, and the X site is a halide ion. The component elements for each location are shown in Fig. 4(c). The feature engineering of the model is based on molecular structure information characterized by molecular graphics and adjacency matrices to establish simple descriptors. The PaDEL descriptor developed by Yap et al. was introduced into this work [50]. In order to reduce the complexity of the ML model, the multiple stepwise regression (MSR) algorithm was used to select important descriptors. With the help of MSR analysis, six important features without collinearity were obtained and further used in the training of 16 ML models. The results indicate that the R 2 of the ANN model in the test set is 0.98, demonstrating the model's outstanding ability to fit and predict externally, with no overfitting issues. Eventually, five potential two-dimensional HOIPs with excellent photoelectric performance were discovered with potential application in solar cells, and four of them are lead-free. Despite the rapid development of lead-halide perovskites in solar cells within a very short time because of their excellent PCE and low cost, the inclusion of lead ions has hindered their commercialization due to their impact on the environment and human health. Among the many lead-free perovskites, double perovskite with the formula A2B+B3+X6 has been proposed and incorporates cation transmutation, in which two Pb2+ are replaced by one M+ cation and one M3+ cation. The particular elements for each site are shown in Fig. 4(b), and a total number of 540 hypothetical compounds were considered. Jino et al. used the GBR algorithm based on a DFT-calculated electronic structures dataset to predict the heat of formation (ΔH F) and bandgap of halide double perovskites in order to find potential candidate lead-free perovskites for solar cells [51]. In this work, 32 descriptors were selected as the initial feature sets taking both atomic composition and geometry information into account. In the process of feature engineering, the significance of each feature was assessed and prioritized, with the less significant features being eliminated recursively. Under the process of extracting key-features, it was found that the prediction errors (RMSE) of ΔH F and E g increased monotonically, indicating that a feature with a higher feature score had stronger predictive power. The most crucial descriptors were then chosen for each target property. The final chosen descriptors for ΔH F included χ X (Pauling’s electronegativity for the X site), D B 3 + (atomic distance (D) between cations and the nearest halogen atom), D B 1 + , D A and h B 1 + (highest occupied atomic level for the B1+ site) within an RMSE of 0.036 eV. In the case of bandgap, the selected features were SG (space group of the crystal), χ X , h B 1 + , l B 1 + (lowest unoccupied atomic level for the B1 + site), D B 3 + , rd B 3 + (d valence orbital radii for the B3+ site) and rd B 1 + within an RMSE of 0.322 eV. By extracting the relationship between features and target properties, one could search for the optimal double-perovskite solar cell materials. For example, symmetry lowering by tilting of the octahedral unit of a halide perovskite can increases E g because of bandwidth shrinkage, while partial-substitution/alloying for In and Ag can reduce the E g due to the electronegativity of halogen anions. The authors also revealed that discrepancies in the electronegativities of bonding partners are reliable indicators of the character and strength of the bond, which has a significant impact on ΔH F. This study provided guidance in the search for lead-free PSCs. Gladkikh et al. employed a small-sample ML technique, alternating conditional expectations (ACE), to predict the bandgap of ABX3 perovskites [52]. ACE was proposed by Breiman and Friedman in the 1985s [53]. The advantage of ACE is that it is primarily displayed through visual representations. At the same time, ACE transformations demonstrate the importance of each feature to the target property. The ACE method has the advantage of avoiding the curse of dimensionality, as its calculation uses a univariate function. For the training set, there are only 126 samples but there are 1256 features. ACE and distance correlation were used to evaluate the association between multiple explanatory variables and the target properties (Fig. 4d). The training results showed that electronegativity, electron affinity, IE and atomic radius have the greatest influence on the bandgap. To evaluate the performance of the model, ACE was contrasted with traditional ML techniques, including DT, kernel ridge regression (KRR), and ensemble trees. The training results demonstrated that ACE outperformed the other ML methods. Furthermore, ACE has the added benefit of visually representing data, facilitating comprehensibility. In contrast, the interpretability of ensemble methods and KRR is less clear. Subsequently, ACE exhibits excellent performance in out-of-sample data validation. However, the ACE method depends on the provided feature set and sample set. Different feature selection methods may lead to different results, and we suggest that careful evaluation of their limitations and further development of their potential prospects. In addition, Takahashi et al. analyzed data for 15,000 ABC2D perovskites (similar to compounds like BaNbO2N, RbTiO2F, PbTaO2N) and used the random forest (RF) classification model to predict the potential application of 9,328 perovskite materials for solar cell applications [54]. In their study, Li- and Na-based perovskite materials in a given dataset were evaluated via DFT calculations. Results revealed that 10 previously unexplored Li (Na)-based perovskite materials exhibited bandgaps and formation energies considered favorable for solar cell applications (Fig. 4e). For these perovskite materials, the formation energy is lower than 0.5 eV and the bandgaps are in the range of 1.5 to 3.0 eV; also, their thermodynamic stability was verified by first principles calculations. The results proved that the 10 undiscovered perovskite compounds predicted by ML were ideal materials for light harvesting. Agiorgousis et al. used DFT to calculate the bandgaps of 220 double-chalcogenide perovskites, then used the RF and SVM algorithms to classify these materials as potential photovoltaic absorbers with bandgaps in the range 0.7–2.0 eV [55]. With the help of this method, they proposed a new double-chalcogenide perovskite that could potentially replace CH3NH3PbI3. The average performance of the RF and SVM algorithms was evaluated over 200 training trials, considering the inclusion and exclusion of the A-site cation properties. By comparison, the RF algorithm exhibited superior performance to the SVM and was consequently adopted. Finally, when considering the bandgap and light absorption, Ba2AlNbS6, Ba2GaNbS6, Sr2InNbS6, Ca2GaNbS6 and Ba2SnHfS6 were found to be the most promising candidates for solar cells. Due to the complex structure of HOIDPs (hybrid organic–inorganic double perovskites), they have not been thoroughly studied so far. Zhang et al. accelerated the discovery of HOIDPs by combining ML techniques, high-throughput screening, and DFT calculations [56]. The input dataset included two datasets with various HOIDPs chosen for training ML models. The first dataset contained 11,025 A2BB'X6 or ABX3 structural compounds with three types of A sites (2 organic cations and Cs), 49 different B or B' elements, and three halogen elements (Cl, Br, I). The second dataset included 1,346 HOIPs characterized by 136 different elemental compositions. These compositions contained 16 organic cations occupying the A sites, three group-IV cations for the B sites, and four halide anions. By screening the suitable materials structures, the HSE bandgaps of 1,923 structures in the first dataset were calculated, and a total of 192 chemically distinct data points were obtained from the second dataset by averaging the bandgaps of structures with the same compositions. Unlike previous studies, the authors first considered the anisotropy of HOIDPs organic cations and applied Δ-ML (predicting the gap between low-level and high-level calculations, rather than direct predictions) to screen promising HOIDPs with appropriate bandgaps for solar cells. Then the accuracy of the ML model is further improved by using low-level calculations as the baseline to predict high-level methods. Specifically, the authors regarded the geometric shape of organic cations at the A site as a cuboid rather than spherical. The shape of organic cations is irregular, and a cuboid with three parameters (length, width and height) is more suitable to describe the geometric shape of organic cations than a sphere with only one parameter (radius). It is worth noting that the generality of the cuboid-based organic cation model with three parameters deserves to be further investigated. In addition, the HOMO-LUMO gap and rotation temperature of A-site cations were introduced to improve the accuracy of the model. Fig. 4(g) compares the bandgap calculated by DFT with the bandgap forecasted by the ML models. The outcomes demonstrate that the ML approach accurately predicts PBE and HSE06 bandgaps. Based on the screening criteria of charge neutrality, stability, non-toxicity and suitable bandgap, 117 Br-based structures were selected from 78,400 HOIDPs for further DFT calculation and screening. The bandgaps of 24 HOIDPs were further calculated using the HSE06 density functional, and 19 promising HOIDP compounds with suitable bandgaps were finally selected. Among these, 17 compounds have bandgap between 1.5 and 3.0 eV, and 2 compounds have smaller bandgaps (0.76 and 1.44 eV, respectively). The results also demonstrate that Tl-based HOIDPs, which have been studied less often, tend to possess suitable bandgaps. Although the results still need to be verified, considering the anisotropy and implementation of Δ-ML can further improve the HOIDPs-discovery performance of ML, and that work demonstrates an effective method for predicting and discovering hidden novel photovoltaic materials. In photocatalytic water splitting, the bandgap is also a crucial parameter for determining the light-absorption capacity. Tao et al. designed an ML platform to predict the bandgap of ABO3-type perovskite materials [57]. The 124 samples were divided randomly 100 times into the training set and the testing set at a ratio of 4:1. Researchers collected 20 initial features, including 17 atomic parameters generated from an online computation platform for materials data mining and 3 experimental conditions extracted from references. The models were built using the commonly utilized algorithms of backpropagation neural network (BPNN), SVR, GBR and RF. Furthermore, the Max Relevance Min Redundancy (mRMR) approach was employed to screen the optimal feature subset for SVR and BPNN models, while the embedded method was used for feature screening for GBR and RF models. The average r values were 0.9010 and 0.9125 in 100 training and testing models, respectively, ensuring the models’ robustness and generalization. To construct the prediction set, researchers extracted 10 A-site cations and 24B-site cations from other datasets and the literature. The new perovskite materials had been designed with the formula A1 x (A2 m A31− x − m )B1y(B1 n B21− y − n )O3, with x and y ranging from 0.6 to 1.0 in intervals of 0.01, m ≤ 0.4 and n ≤ 0.4. This resulted in the generation of 30,000 perovskite oxide candidates. After considering the tolerance factor T f (t), 4,915 compounds were retained. Then the best-performing GBR model was employed to predict the bandgaps of the 4,915 perovskite oxides. After applying additional screening criteria, 14 potential candidate perovskite photocatalysts for visible-light water splitting were obtained. The workflow is shown in Fig. 4(f). This work also developed user-friendly and publicly accessible web servers to predict the bandgap of ABO3-type perovskite materials, which could provide beneficial guidance towards accelerating material design and optimization and extend the scope of ABO3-type perovskite materials. Bandgap engineering is an important method to control the light-absorption capacity of perovskite. Because the electronic properties of perovskite are highly sensitive to structural changes, the prediction of the bandgap of perovskite is challenging. On the one hand, by using ML techniques, perovskite candidates with appropriate bandgaps can be quickly predicted, while saving valuable resources and increasing efficiency. On the other hand, we emphasize the importance of domain experts’ knowledge for ML, especially in small-sample situations, where the model may be subject to limited features and samples, and omit features that are actually important, as in the famous “No free lunch theorems” [58]. Different feature engineering methods usually have different feature importance assessments, and how to select optimal feature subsets may require the utilization of a priori knowledge. Based on these examples of bandgap engineering, we conclude that the total number of ionic charges, ionization energy, electronegativity, electron affinity, ionic polarizability, sum of orbital radii, and the HOMO and LUMO of cations are likely to be features that have a large effect on the bandgap of perovskites. In addition, Bandgap as well as its property (directly or indirectly) can often be finely tuned by component engineering, and the works of utilizing ML to predict component ratios based on bandgaps or to predict bandgaps based on component ratios may become increasingly common in the future. 3.2 Stability predication of designed perovskites using ML Formability and stability issues are crucial in perovskite research and are challenging to tackle. For a long time, assessments of perovskite formability and stability relied on semi-empirical models, such as T f and O f. However, T f and O f are not effective descriptors to accurately evaluate the stability and formability of perovskites [59,60]. By taking into account T f, O f and atomic packing fractions (η), Yin et al. proposed a novel descriptor (T f + O f) η for predicting stable perovskites [61]. They established a database of decomposition energies for 354 halide perovskites based on high-throughput DFT calculations. The 354 compounds include single perovskites and double perovskites. Through the establishment of four groups of feature sets: (i) T f, (ii) (T f + O f) η , (iii) R A, R B,eff, R X, and (iv) R A, R B1, R B2, R X, an ML technique was used to learn the mapping relationships between each feature set and decomposition energy (ΔH D). Other features, such as electronegativity, were discarded because they exhibited overfitting during training. It is found that a smaller number of features in their work has the following advantages: First, the model is less prone to overfitting. Second, fewer features improve the interpretability of the model, making the scientific knowledge of the domain intuitively clear. Based on the results presented in Fig. 5 (a), it can be observed that the feature set comprising R A, R B1, R B2, and R X demonstrates the highest level of accuracy according to the values of R 2 and RMSE. When R B(I) and R B(III) were taken into consideration individually, the prediction accuracy of relative stability and formability was increased. Therefore, this set of descriptors was used as the feature set to predict the decomposition energy of 14,190 single- and double-halide perovskites. According to the stability condition ΔH D > 0, 2,275 perovskites out of 14,190 were predicted to be stable. The most stable class for A2B(I)B(III)X6 is AX = CsCl, which consists of 473 perovskites with average ΔH D of 82.7 meV/atom. The prediction accuracy of the ML model was evaluated by comparing its results with the DFT calculations for 74 perovskites selected randomly and 246 experimental data. This comparison verified the reliability of the ML model. Meanwhile, a map of the overall stability of the mixed perovskite based on the predicted results revealed that the stability of the perovskite can be enhanced by mixing different proportions of cations and anions at the A, B, and X sites [62,63]. Thermodynamic phase stability is an important parameter affecting the stability of perovskite and plays a crucial role in determining whether the compound can be synthesized and whether it will be degraded under certain conditions. Li et al. used ML techniques to predict thermodynamic phase stability of oxide perovskites [64]. The dataset for training the model came from Jacobs et al., which was calculated using DFT [65]. The dataset for that work included 71 ternary (e.g., LaMnO3), 1,248 quaternary (e.g., La0.75Sr0.25MnO3), 601 quinary (e.g., La0.5Sr0.5Co0.25Fe0.75O3), and 9 sextenary perovskite oxides. In that work, the ML task was mainly divided into two parts: (i) Classification of stable and unstable perovskites (Fig. 5c); (ii) stability regression prediction of perovskite based on the E hull value. Based on the threshold of E hull = 40 meV/atom, perovskites were classified as stable and unstable. In comparison of five kinds of ML algorithms, the results of the Extra trees training model scored highest in accuracy, precision, recall and F 1, proving it is the best model to distinguish the stability of perovskite. Finally, 567 stable perovskites were obtained. As shown in Fig. 5(d), most compounds (85%) were predicted with the RMSE error below 28 meV/atom. Meanwhile, the model was cross-validated by five subsets, demonstrating its good classification and regression performance, even with limited component information in the training set. Considering the complex crystal structures, multi-objective properties, and large search space of lead-free HOIDPs, Cai et al. presented a multi-step and multi-stage ML technique [66]. The average formation energy, bandgap, and Debye temperature of HOIDPs were predicted by establishing multiple regression models in turn. Finally, 597 stable A2BB'X6 HOIDPs with suitable bandgap and high Debye temperature were obtained from 180,023 potential candidates (32 monovalent organic molecular cations for the A site, 9 monovalent, 49 divalent, and 35 trivalent B/B′-site cations, and 4 X-site anions: F, Cl, Br, I) through model training [43,44]. According to the requirements of non-toxicity and experimental feasibility, 12 candidates were selected from the 597 perovskites. Then DFT calculation confirmed that four perovskite materials meet the necessary criteria. The four perovskites are (CH3NH3)2AgAlBr6, (CH3NH3)2AgGaBr6, (CH3NH3)2AgInBr6, and (C2NH6)2AgInBr6, which have much larger thermal conductivities by an order than CH3NH3PbI3. This can be explained by the larger stiffness inducing much larger Debye temperature, which can override the anharmonic interactions effect. With the help of ML technology, the prediction results of the bandgap model were almost consistent with experiments, and the multi-stage bandgap prediction scheme could ensure the reliability of the results. Due to the neglect of growth conditions and synthesis kinetics, the thermodynamic metric is not sufficient to evaluate the synthesizability of virtual materials. Therefore, Gu et al. [67] developed an ML scheme based on graph neural network to accurately predict the synthesizability of all classes of perovskites, including chalcogenide, halide, and hydride perovskites, as well as anti-perovskites. They technically combined positive-unlabeled learning (Fig. 5b), domain-specific learning, and transfer learning to construct the prediction model. The training set for model training consisted of 943 experimentally synthesized perovskites and 11,964 virtual perovskites obtained from the MP, OQMD, and AFLOW databases. Pre-training and transfer learning were all performed by position-unlabeled learning, and 10% synthesized crystals were randomly sampled from the MP database to test the model. The formability of perovskites was judged by the CL score (synthesizability score) (Fig. 5e). Compared with the non-domain-specific original model with the accuracy of approximately 74%, the model with domain-specific learning and transfer learning has a high out-of-sample positive data accuracy of 95.7% (Fig. 5f). From 11,964 predicted perovskite materials, they screened 962 synthesizable perovskites, and 179 of them had been experimentally synthesized in the previous literature, confirming the reliability of the model. Compared to the currently available models for predicting the stability of perovskite materials, this method has an advantage in that it is not limited by the type of material and can predict the stability of all classes of perovskites and anti-perovskites. This work used a large amount of real experimental data to predict the synthesizability of perovskite, ensuring the effectiveness of the model in practical applications. Future research could focus on integrating information about growth conditions and synthesis kinetics into ML models. This would provide a more comprehensive understanding of the factors affecting the synthesizability of perovskite materials and enhance the predictive performance of the models under different experimental conditions. Zhang et al. proposed an interpretive ML strategy to speed up the discovery of potential HOIPs [68]. This method combined ML with a Shapley additive explanations (SHAP) approach and employed 102 samples as a training set. The elemental composition of the 102 perovskites included two A-site cations ([CH3NH3 + and HC(NH2)2 +], 14B-site cations (Be2+, Mg2+, Ca2+, Sr2+, Ba2+, Cr2+, Mn2+, Fe2+, Co2+, Ni2+, Cu2+, Hg2+, Sn2+, and Pb2+) and 4 X-site anions (F−, Cl−, Br−, and I−). The results of the leaving-one-out cross-validation (LOOCV) demonstrated that XGBoost outperformed other models with a predictive accuracy of 0.95. According to the prediction of the model, 198 non-toxic candidates with a P f (probability of formability) over 0.99 were selected from 18,560 virtual samples. SHAP analysis showed that the features R B (ionic radius of the B site) and LC B (the lattice constant of the B site) are positively correlated with formability, while R A (ionic radius of the A site), T f (tolerance factor), and I 1B (the first ionization energy of the B site) are negatively correlated with formability. The SHAP analysis was also used to evaluate the significance of the model. It provides not only global explanations, but also local explanations at the level of individual prediction instances, making model easier to understand and interpret. In their work, the combination of ML and SHAP method demonstrated high prediction efficiency of formability of perovskites with limited features, and the screened candidates were expected to be synthesizable. Perovskite oxide has aroused great interest because of its wide potential applications. It is found to have fascinating electrical and magnetic properties, such as ferroelectric and piezoelectric properties, optical properties, high-temperature superconductivity and magnetostrictive properties [69–72]. The tunability of these properties can be enhanced by the method of increasing the compositional complexity via the double perovskite-ordered configuration containing multiple cations. This characteristic makes materials like perovskite attractive because it allows for the straightforward substitution of any atom in the perovskite structure to precisely tune the desired physical properties. Tunability may be increased further when two different types of cations occupy the A site or B site of perovskite with the formula A x A 2 - x ' B 2 X 6 and A 2 B y B 2 - y ' X 6 for x ≥ 0 , y ≤ 2 . Anjana et al. proposed a multipronged approach to predict the formability and thermodynamic stability of single- and double-perovskite oxides [73]. The initial training set was created using a combination of DFT calculations and data from the literature. There were ∼1505 and 3469 data points in the training data sets to predict the formability and stability of single- and double-perovskite oxides, respectively [74–76]. The formability evaluation assessed the probability of a given compound's successful experimental synthesis as a perovskite. Therefore, the training data set was based on experimental data. The thermodynamic stability refers to how well a composition will stabilize in a perovskite structure according to its position relative to the convex hull of the system. In feature selection, recursive feature elimination (RFE) in the scikit-learn python package was used to select features by recursively eliminating those that have been given the least weight by an additional tree classifier. Finally, 28 features were generated, including symmetric and antisymmetric compound features and geometric features. Meanwhile, RF was selected to predict the formability and stability of perovskite based on 28 features. The accuracy, precision, and recall values for the formability classification model were 0.9401, 0.9344, and 0.9913, respectively. In addition, the accuracy, precision, and recall values for the thermodynamic stability classification model were 0.941, 0.933, and 0.936, respectively. All the evaluation indicators indicated that the classifier used has good performance. After training and testing, the classification models for formability and stability were used to predict a comprehensive chalcogenide dataset, which contained 946,292 different compounds. Among these, 891,188 compounds were predicted to be formable, while 437,828 compounds were predicted to be stable. More than 99% of the predicted stable compounds are a subset of the formable compounds. This conclusion underlined the fact that formability is a more liberal metric than thermodynamic stability. As a result of the intersection of this large chemical space of formable and stable oxide perovskites, 414 novel compositions were identified as the most promising candidates for future experimental synthesis of novel oxide perovskites. The issue of formability and stability is the focus and challenge of perovskite research. Previous studies indicate that ML models can effectively map the potential relationship between structure and chemical properties. Unlike the bandgap, it seems that ionic radii, lattice constant, T f and ionization energy are more relevant to the stability of perovskite materials. With sufficient training data from high-throughput DFT calculations, ML-based studies on perovskite formability and stability are far more cost-effective and efficient than laboratory studies. However, there are different indicators of stability evaluation, such as formation energy, decomposition energy, the energy above the convex hull and formation probability, each criterion is only applied to a specific small dataset. Therefore, establishing a unified criterion closely associated with stability may be crucial, which can combine different pre-existing datasets to train models with better generalization performance and more robustness. 3.3 Crystal structure predication of perovskites using ML The prediction of crystal structure has long been a challenge for condensed matter and materials science. So far, most advanced crystal structure prediction methods combine structure search with DFT simulation [77–85]. Yin et al. developed an ML method for crystal structure prediction using graph networks (GN) to establish a correlation model between crystal structure and enthalpy of formation in a given database, followed by an optimization algorithm (OA) to find the crystal structure with the lowest enthalpy of formation [86]. The input data sets used to train the GN model mainly come from two benchmark databases (open quantum materials-OQMD and Matbench-MatB). Random searching (RAS), particle-swarm optimization (PSO), and Bayesian optimization (BO) were used as optimization algorithms (OAS). After predicting the crystal structures of 29 octet binary compounds, the results indicated that the GN model combined with BO trained on MatB exhibited the best performance when predicting the crystal structure. The lattice constants of 28 compounds were predicted by this model, and the error rate was 2.24% with an atom energy of 20.8 meV/atom in terms of absolute energy difference (Fig. 6 b). Although the predictive accuracy of this method is slightly lower than that of DFT calculations, it can predict crystal structures with three orders of magnitude computational cost less than DFT computation. The study opened up a new avenue for data-driven crystal structure prediction. Hirshfeld surface analysis is a straightforward tool for describing molecular packing, close contact points, molecule shape, and intermolecular interactions. The Hirshfeld surface is sensitive to crystal structure, stoichiometry and defects related to the chemistry and occupancy of the local sites. Williams et al. introduced an ML method for predicting perovskite lattice parameters based on a 3D Hirshfeld surfaces representation of crystal structure [87]. In larger systems, such as distorted or double perovskites, some atomic locations will be located deep within the traditional Hirshfeld surface. Therefore, among the fingerprint points represented by the Hirshfeld surface, these sites are not obvious. The researchers modified the traditional Hirshfeld surface used for molecular crystal characterization. They employed fingerprints made up of a set of Hirshfeld surfaces for each specific atomic site in the crystal structure to solve this issue. Since all atoms were treated equally, the ambiguity of unit cell selection was eliminated. A 3D Hirshfeld surface could be converted into a rotationally invariant 2D fingerprint through measuring d i , d e of each surface point and integrating them into a 2D histogram (Fig. 6a). The ML approach used in their work was based on CNN and the training set was cubic perovskites selected from OQMD. The framework of the CNN model is shown in Fig. 6(c). For the accuracy of the prediction, CGCNN was also used to compare with CNN, and they used the same training set and test set. Hirshfeld surfaces fingerprint plus CNN was found to have a better accuracy according to R 2, MAE, and MSE. In order to assess the applicability of that proposed method against experimental data, as well as small data sets and non-oxides, the data of a similar work by Kuzmanovski et al. [88] were used for training for comparison, and the proposed method achieved a more accurate prediction than the method established by Kuzmanovski et al. This work established the accuracy of the Hirshfeld surface fingerprint combined with deep learning trained by experiment or computational data prediction and provided a new approach to explore the structure–property relationship related to complex crystal chemistries by data-driven high-throughput calculation. Advanced structure searching and ML methods can be utilized to find the crystal structure. However, the compositional space of chemical compositions and crystal structures of different perovskites is huge and complex, and the computational and ML methods are still facing a great challenge. Recently, an ML-Based Adaptive Genetic Algorithm (AGA) structure prediction framework has been developed for crystal structures of binary and ternary compounds [89,90], and we believe it may be more suitable for perovskite materials prediction. 3.4 ML application to intrinsic properties of perovskites In the field of materials science, the application of traditional ML algorithms, such as DT, ensemble learning, and ANN, is limited by their inability to provide meaningful physical laws. In contrast, symbolic learning, as an interpretable ML algorithm, can not only search for the best mathematical equation but also identify optimal parameters for materials. As a result, symbolic learning is capable of providing interpretable mathematical formulations that offer explicit instructions for materials design. Other intrinsic properties, such as defect physics, electronic and ion conductivity, are also important for characterizing perovskite, and can be used for screening the application of materials. With the aids of ML method, we can effectively determine the potential applications of perovskites in diverse fields. In order to determine the association between oxygen vacancy defect formation energy and structural factors, Liu et al. developed a descriptor classification model [91]. Firstly, the training set was mainly selected from the oxide perovskite database calculated by Antoine et al. [92]. Next, 3,430 potential ABO3 inorganic oxide perovskites were selected from the database, in which the A and B sites are inorganic metal cations. Since the energy required for defect formation is affected by temperature, the prediction model is closer to the actual defect formation in the experiment. Meanwhile, considering the preparation method, 0.5 eV was set as the cut-off energy for the oxygen vacancy formation energy. The matching structural parameters and the formation of oxygen vacancies of each perovskite were used to explore new descriptors. The feature set was divided into 9 groups, and each group of features was tested by n folds cross-validation to evaluate feature factors, which were the harmonized average of accuracy and roc_auc_score. Next, the population size, genetic generation and hyperparameters of the genetic algorithm model were selected through test tuning. Through 5 cross-validations, it was found that the model achieved the best balance between accuracy and time efficiency when the population size was ∼10,000 and the generation number was ∼20–30. Through model training, the structural feature K was finally established, which is represented as K = n a ( r a E na - r b ) , where n a is the valence of the a-site ion, r a is the radius of the a-site ion, E na is the electronegativity of the a-site ion, and r b is the radius of the b-site ion. By establishing a mapping function between K and probability, one can effectively judge the likelihood of forming oxygen vacancy defects in a perovskite. The model predicted that it is not likely to form oxygen vacancy defects when K > 0. As a result, symbolic classification can correctly classify the condition of synthesis of oxygen vacancy defects in perovskites when dealing with smaller data sets without a predetermined physical basis. Such interpretable ML algorithms have the potential to enable the discovery of structure–property relations of new materials. The physical and chemical properties of perovskite can be severely affected through defect engineering. The defect formation energy is an important measure of defect stability and is usually obtained via experiment and/or through DFT calculations, both of which are expensive and time-consuming. Sharma et al. applied an ML technique to determine the factors that affect the defect formation energy in perovskite oxides [93], ABO3. BaTiO3 of the cubic (c-BTO) phase, rhomboid (R-BTO) phase and LaMnO3 of the cubic (c-LMO) phase were considered. Forty-four dopants were systematically substituted at either the A or B sites, and the substitutional defect formation energy training dataset was generated with ab initio DFT calculations. In the feature engineering, 13 features were selected that represent either atomic or bulk elemental properties of the dopant in comparison to the substituted host cation species. Random forest regression was used to predict the stability of doped c-BTO and c-LMO. Using a 90%–10% train-test segmentation, the RMSE errors on the training and test data sets were 0.59 and 0.98 eV, respectively. As shown in Fig. 7 (a), this work visually analyzed the correlation of screened features with the defect formation energy in the R-BTO dataset. The four most-important features were selected through a down-selection method and exhibited substitutional-site-dependent trends with the dopant formation energy. The prediction performance of the test set or the error on unseen data was less than 1 eV, suggesting that the trained model enabled the identification of relevant substitutional dopants for a given host with an accuracy that falls within this energy range. Then the model was successfully used to predict the stability of doping in c-BTO and c-LMO. Mannodi-Kanakkithodi et al. used DFT in combination with ML to provide predictive models and quick identification of photoelectrically active impurities [94]. The training set was based on the calculated defect formation energy and 4 transition levels (ε(q/q−1), q ∈ [+2, +1, 0, −1, −2]) of 265 samples. Descriptors were selected as 19 features related to elemental and unit cell defect features. Using regression techniques such as GPR, NN, and RF, the calculated impurity properties were mapped. The Gaussian process regression model provided the lowest error. RMSE values of the formation energy and transition level predicted by GPR were 0.59 and 0.32 eV, respectively. On this basis, hundreds of impurities in nine MAPbX3 compounds were predicted and a list of impurities that can change the equilibrium Fermi level determined by intrinsic point defects in perovskite were created, as shown in Fig. 7(b). This work could guide the identification of problematic impurities that may lead to undesired charge-carrier recombination, as well as impurities that can be deliberately introduced to regulate perovskite conductivity and photovoltaic absorption. Furthermore, this work could have implications for intermediate-band PV applications. These results demonstrated the efficiency of the ML tool in identifying and quantifying the dependence of different characteristics, and provided a promising pathway for selecting dopants in perovskite according to specific demands, which may potentially be applied to other material classes. In addition, with the accumulation of defect-related data, it is becoming possible to calculate and predict the ion mobility energy barriers of various perovskite defects, which influences the ionic conductivity and carrier mobility of materials. The combination of high-throughput calculations and ML helps to rapidly predict and screen the electrical and conductive properties of materials to accelerate the design of novel perovskite materials for use in electronic devices or batteries. In the area of green energy technologies, such as alkali ion batteries, gas separation membranes, and solar cells, the overall ionic, electronic, and hybrid conductivity plays a crucial role. However, these applications are mostly limited to high temperatures (800–1000 °C), where various chemical reactions and carrier transport are relatively fast. In certain cases, elevated temperatures can lead to increased polarization resistance, making the reduction of desired resistance a significant area of current study. Over the years, the main research interests have been focused on obtaining higher conductivity at lower temperatures. For this purpose, the ability to quickly and accurately identify solid oxides with high electrical conductivity is important for the application of materials with resistive properties. Due to the low efficiency of the experimental and DFT calculation methods, Priya et al. [95]. developed an ML model that can effectively and accurately predict the conductivity of perovskite directly by using material properties available in the published literature. The dataset for ML contained 7,000 data points from the literature. Undoped and doped perovskites with high electrical conductivity were screened by ML regression, and they were classified by ML based on charge carrier type. The overall design framework is shown in Fig. 7(c). The important chemical features of the regression model are the minimum electronegativity and mean ionic radius of B-site ions. As for the classification model, its important characteristics are the minimum atomic mass of the B-site ions and the minimum formation energy of the B-site oxide. For exploring stable pure perovskites, they screened type I and type II perovskites for higher conductivities at temperatures of 600 and 400 °C and classified them according to their majority charge carriers. The conductivity results for type I perovskites screened at 400 °C indicate that some perovskite compounds such as iridium, osmate, bismuth, platinate, and lead-acid have high conductivity and are mainly classified as proton or mixed proton/electron conductive oxides under wet H2/air conditions, and thus they can be used as hydrogen separation membranes or fuel cell electrodes. At the temperature of 400 °C, they found highly conductive type II perovskites such as manganate, antimonate, vanadate and ferrate. According to the analysis results, the conductivity of type II perovskite is usually lower than that of type I perovskite. Considering the stability of perovskite, the screening criteria are energy above hull <0.05 eV at 0 K and tolerance factor T f between 0.7 and 1.1 at 300 K. In addition to screening the perovskites based on stability, they also screened the perovskites of type I and type II based on the lower activation energy for conductivity, as shown in Fig. 7(d). According to the lower activation energy of conductivity and higher conductivity at 400 °C in humid air, the best-performing proton type, oxide type, mixed oxide/electron type and mixed proton/electron type were selected. By comparing the literature value and predicted value of activation energy, it was found that the RMSE was 0.047 eV. Finally, candidates with high conductivity such as BaBiO3, BaTbO3, PmEuO3, CeErO3, EuPbO3, SrTiO3, EuGeO3 and CaPtO3 were selected. At the same time, the ML model was used to screen compounds doped at the A and B sites, and their stability was considered. The researchers found that at low dopant concentrations (<5%) when there is no phase separation, M2O3-doped oxide was used for type I perovskite and MO-doped oxide was used for type II. Over 4,000 hybrid perovskite proton conductors with better conductivity than the widely-known BZY (BaZr0.8Y0.2O3–δ) were discovered, as well as 300 promising materials for oxide ion conduction. In summary, the researchers utilized ML techniques to facilitate the design and discovery of ABO3 perovskite oxides with diverse applications in the field of energy. A robust learning framework was described in order to predict the overall conductivity of perovskites and classify them based on their charge carriers under various temperatures and environmental conditions. Fig. 7(e) depicts a comparison between the XGBoost model predictions and experimental outcomes, with the x-axis representing the experimental observation. Finally, 1,793 undoped and 95,832 A- and B-site-doped AO + BO2 (5% M2O3) and A2O3 + B2O3 (5% MO) perovskites for high conductivities were screened, and they can be used for different energy applications, depending on the type of the charge carriers. This work demonstrates the exploration of different environmental conditions, such as varying temperatures, and their impact on the conductivity of perovskites. This can broaden the model’s applicability and provide insights for practical applications. 3.5 ML application to perovskite solar cells In addition to the applications in designing perovskite materials, ML is also frequently applied in the area of PSCs to help predict and design device performance including PCE, V oc , J sc , FF, etc. It can also assist in guiding fabrication and uncovering the underlying mechanisms of PSCs. The functionality of PSCs highly relies on the experimental parameters, specifically regarding the perovskite compositions and fabrication processes. Lu et al. implemented ML techniques to examine the impact of these parameters on device performance on a dataset including 1,072 devices with PCE greater than 10% from previously published articles [96]. To construct the feature engineering, 17 features of the perovskite components, including additives, solvent, antisolvent, ETL, interface layer and effective device area were screened. The target outputs were the photovoltaic parameters, including PCE, V oc , J sc and FF. A comprehensive description of the 21 features identified is provided in Table 2 . The results indicated that PCE is significantly correlated with the effective area, A-site cations, additives, halogen ratio, and ETL properties. Then the models were established using five ML algorithms, including LR, NN, RF, XGBoost and GBDT (gradient boosting decision trees). XGBoost outperformed all other algorithms on the test set. The RMSEs of the model in predicting PCE, V oc , J sc , and FF were as low as 1.28%, 29 mV, 0.813 mA/cm2, and 0.033, respectively. Additionally, the SHAP interpreter was used to rank the factors that determine the device's performance, and the A-site cation was found crucial to obtaining highly efficient PSCs (Fig. 8 a). Experiments and DFT calculations were conducted to validate results predicted by the ML model. The device performance was also dramatically improved by engineering the A-site cation components, with a notable increase in the PCE from 18.20% to 21.43%. This work demonstrated the feasibility of ML in predicting device performance from experimental parameters before experiments, enabling reverse experimental design towards highly efficient PSCs. Despite significant progress, PSCs have yet to fully realize their potential, especially with regard to the low V oc . The primary problem behind this limitation appears to be the well-discussed issue of non-radiative recombination losses occurring at the perovskite interface. Consequently, the strategic optimization of interfaces has emerged as the main approach for enhancing PSCs device performance. In a study conducted by Liu et al., ML was employed to map the relationship between the interface material and the device performance, intelligently screening interface materials towards minimizing voltage losses in p-i-n type PSCs [97]. Firstly, the dataset was established by summarizing the experimental reports on utilization of additives or interface materials for p-i-n PSCs, resulting in a dataset comprising 303 data points. Then, molecular descriptors were used to represent the materials, which enhances the interpretability of the ML models. These descriptors were derived from modified materials, perovskite precursors, and control device performance metrics. The electron topological-state index was used to represent the modified materials from the atomic level, which encoded the unification of electronic and topological information within the chemical environment. Additionally, the cheminformatics features, such as the molecular complexity and the topological surface area, were incorporated as input features. To avoid over-fitting, the feature dimension was reduced from over 300 to 29. Among these features, six features were identified as the most important in determining modified V oc , with controlled V oc exhibiting the strongest positive correlation (0.69). Next, four ML algorithms were employed to predict the V oc , including LR, RF, XGBoost and NN. The optimization of algorithm hyperparameters was carried out using a 10-fold cross-validation. Among the models tested, the RF model outperformed the others with a lower RMSE (26.3 mV) and the highest r-value (0.83) on the test set, as shown in Fig. 8(b and c). Having established the robustness of the RF model, the researchers employed it to predict the performance of PSCs based on 20 interface materials, with ThMACl and ThEACl emerging as the top-performing materials in terms of enhancing V oc . Furthermore, the scope of the study was expanded by screening an additional 39 new materials, offering valuable guidance for the discovery of more favorable interface-modifying materials. ΔH and ΔL also play important roles in the performance of PSCs, and Fig. 8(d) illustrates these energy level differences schematically. These two factors affect the hole transfer from perovskite to HTL and the electron transfer from perovskite to ETL, respectively. According to the Marcus theory, excessively high ΔH or ΔL will cause a significant energy loss at the interface between the perovskite and HTL/ETL, which ultimately results in limited PCE of the device [98]. Zhang et al. developed a dual-strategy ML model based on NN [99]. This model consists of a perovskite composition design module (PCDM) and a carrier transport layer relative characteristic design module (CTLDM). Firstly, PCDM predicts the composition ratio of perovskite materials based on expected performance. CTLDM then designs energy-level matching based on the first predicted outcomes and the target performance. For PCDM, the researchers used the data in Perovskite Database Project, and 972 sets of data were randomly divided into the training set (90%) and test set (10%). The input features consist of PCE, V oc , J sc , FF and the bandgap of perovskites, and the target output is the perovskite composition. The model’s performance was also evaluated in comparison to other classical ML algorithms, including LR, RF, and SVR, using the same datasets. In the test set, the proposed method yielded an RMSE of 0.067, with r-values for all ions exceeding 0.89. The method demonstrated no significant performance differences among different elements, owing to its use of a one-dimensional convolutional layer that possesses a strong collective reasoning capacity, as shown in Fig. 8(e). Consequently, it takes into account the predictive capabilities of each element, while simultaneously achieving the highest overall performance. For CTLDM, the dataset was supplemented by additional research articles. Ultimately, 400 sets of suitable data were obtained. The input features include perovskite composition and the initial performance parameters, and the output is the recommended values for ΔH and ΔL. Their algorithm also demonstrated the best performance among all the algorithms. To further assess the ability of the model to guide actual experiments, the researchers fabricated the corresponding PSCs and used the actual experimental results obtained to further evaluate the performance of the model. Eventually, acceptable results were obtained, demonstrating the potential for this method to be employed in an actual experimental process. In summary, the PCE of PSCs is subject to the influence of a multitude of factors. These factors include not only the composition of the perovskite material itself but also extend to the careful selection of ETL and HTL materials, the intricacies of the device preparation process, the judicious inclusion of additives, and the design of energy levels (ΔH and ΔL). In addition, the thickness and stability of the perovskite layer, alongside the strategic architectural design of the photovoltaic device, emerge as crucial factors impacting PCE. The optimization of these multifaceted factors, often facilitated through the application of ML techniques, represents a crucial avenue within the ongoing research trajectory of PSCs. This optimization pursuit seeks to augment PCE and propel the field toward greater efficacy and sustainability. 4 Summary and outlook ML can accelerate the screening and prediction process for perovskite materials. Through the development of suitable models and algorithms, materials with potential applications can be quickly identified from a large number of candidate materials, resulting in significant savings of both time and resources. In this work, we present the relevant details from related research papers and offer a summary of the research in Table S1 and S2 in Supporting Information. ML algorithms can accurately predict various properties of perovskite materials through careful selection of training sets, test sets and descriptors. Also, the performance of photovoltaic devices, including solar cells, can be predicted by ML techniques. The properties of perovskite materials are often influenced by several parameters, such as composition, crystal structure, impurities, etc., and ML can process and optimize these multi-parameter problems to find the most suitable combination to meet a particular performance requirement. Firstly, data on perovskite materials is often limited and scattered, which may lead to errors in the data collection and labeling process. Hence, the effectiveness of an ML model is heavily reliant on the quality and quantity of its training dataset. To achieve high-quality data collection, we propose to normalize databases for each material feature and property. As an example, ionic radius is typically a crucial feature for predicting properties of perovskites. However, the widely generalized Shannon ionic radii only cover inorganic elements and there is quite a bit of missing information on coordination numbers. The establishment of a database including both organic and inorganic ion radii, which can be realized by standardizing the method for evaluating the ionic radii or using the existing data to predict the elusive organic cation radius by ML, is expected to solve this problem. The standardization and improvement of the database will benefit the performance of ML, and in turn the improved ML models will make the predicted data more reliable and dependable, which will create a positive cycle in this field. In addition, traditional ML models often exhibit poor generalizability performance due to the lack of sufficient training data. Machine learning potential (MLP), in which atomic coordinates, energies, and forces are collected to build a dataset, could greatly benefit from direct training models using data acquired from large databases, like MP. Recently, Bowen Deng et al. put forward a universal MLP framework, namely CHGNet, demonstrating the potential for universal MLPs that may not require chemistry-specific training [100,101]. This framework may inspire ML approaches targeting a narrow range of chemistries and insufficient training data. Secondly, interpretation and interpretability are another challenge. The properties and behavior of perovskite materials are often driven by complex physical and chemical mechanisms, and ML models typically provide predictions in a black box format that lacks explanations. This makes it difficult for scientists to understand the decision-making process and results of the models, limiting the depth of understanding of the intrinsic laws of perovskite materials. To enhance the interpretability of the ML model, in addition to the previously mentioned feature importance analysis and SHAP explainer, we recommend combining domain experts’ knowledge with model explanations to better understand the model's output. Domain experts can provide contextual information about features, data, and the model that aids in interpretation. Another possible approach is creating detailed documentation and reports that record the model’s construction, training, and interpretation methods, as well as performance and interpretability assessment results, which helps other researchers understand and validate the model. Thirdly, the efficiency of computational resources and algorithms is also a challenge. Computational simulations and ML training of perovskite materials typically require substantial computational resources and time. Therefore, we suggest that the development of efficient algorithms is crucial for saving computational resources. In addition, implementing transfer learning which can transfer learned features and parameters to new domains is also a low-cost strategy to reduce training expenses. Finally, existing ML tools heavily rely on programming languages and skills, raising the difficulty for materials scientists to entry this field. Therefore, we propose the development of more universal materials ML platforms. On one hand, these platforms would enable researchers without specialized ML knowledge to leverage these powerful tools for materials research, enhancing their efficiency in materials design and discovery. On the other hand, they would contribute to standardization, bolstering research reproducibility, thereby accelerating materials innovation. We believe that with the rapid development of computational methods and modern computer technology, ML will be more widely used in materials science (e.g., photovoltaic materials). It is believed that ML will become an increasingly popular method for predicting the target properties of materials and will provide important guidance for experimental research. Declaration of competing interest The authors declare that they have no known competing financial interests or personal relationships that could have appeared to influence the work reported in this paper. Acknowledgments This work was funded by the Strategic Priority Research Program of the Chinese Academy of Sciences (Grant No. XDA17040506), the National Natural Science Foundation of China (62005148/12004235), and The Open Competition Mechanism to Select The Best Candidates Project in Jinzhong Science and Technology Bureau (J202101), the DNL Cooperation Fund CAS (DNL180311), and the 111 Project (B14041). Appendix A Supplementary material Supplementary data to this article can be found online at https://doi.org/10.1016/j.jechem.2024.02.035. Appendix A Supplementary material The following are the Supplementary data to this article: Supplementary data 1 Summary of application cases of ML in perovskite materials and devices. References [1] Z. Shariatinia Renew. Sust. Energ. Rev. 119 2020 109608 Z. Shariatinia, Renew. Sust. Energ. Rev. 119 (2020) 109608. [2] S. Zheng G. Wang T. Liu L. Lou S. Xiao S. Yang Sci. China Chem. 62 2019 800 809 S. Zheng, G. Wang, T. Liu, L. Lou, S. Xiao, S. Yang, Sci. China Chem. 62 (2019) 800-809. [3] https://www.nrel.gov/pv/interactive-cell-efficiency.html [4] V.L. Deringer M.A. Caro G. Csányi Adv. Mater. 31 2019 1902765 V.L. Deringer, M.A. Caro, G. Csányi, Adv. Mater. 31 (2019) 1902765. [5] T. Zhou Z. Song K. Sundmacher Engineering. 5 2019 1017 1026 T. Zhou, Z. Song, K. Sundmacher, Engineering. 5 (2019) 1017-1026. [6] A. Agrawal A. Choudhary APL Mater. 4 2016 053208 A. Agrawal, A. Choudhary, APL Mater. 4 (2016) 053208. [7] B. Yılmaz R. Yıldırım Nano Energy. 80 2021 105546 B. Yılmaz, R. Yıldırım, Nano Energy. 80 (2021) 105546. [8] L. Zhang M. He S. Shao Nano Energy. 78 2020 105380 L. Zhang, M. He, S. Shao, Nano Energy. 78 (2020) 105380. [9] M.I. Jordan T.M. Mitchell Science. 349 2015 255 260 M.I. Jordan, T.M. Mitchell, Science. 349 (2015) 255-260. [10] M. Rupp Int. J. Quantum Chem. 115 2015 1058 1073 M. Rupp, Int. J. Quantum Chem. 115 (2015) 1058-1073. [11] G. Bergerhoff R. Hundt R. Sievers I.D. Brown J. Chem. Inf. Comput. Sci. 23 1983 66 69 G. Bergerhoff, R. Hundt, R. Sievers, I.D. Brown, J. Chem. Inf. Comput. Sci. 23 (1983) 66-69. [12] S. Kirklin J.E. Saal B. Meredig A. Thompson J.W. Doak M. Aykol S. Rühl C. Wolverton npj Comput. Mater. 1 2015 15010 S. Kirklin, J.E. Saal, B. Meredig, A. Thompson, J.W. Doak, M. Aykol, S. Rühl, C. Wolverton, npj Comput. Mater. 1 (2015) 15010. [13] A. Jain S.P. Ong G. Hautier W. Chen W.D. Richards S. Dacek S. Cholia D. Gunter D. Skinner G. Ceder K.A. Persson APL Mater. 1 2013 011002 A. Jain, S.P. Ong, G. Hautier, W. Chen, W.D. Richards, S. Dacek, S. Cholia, D. Gunter, D. Skinner, G. Ceder, K.A. Persson, APL Materials. 1 (2013) 011002. [14] R. Vasudevan G. Pilania P.V. Balachandran J. Appl. Phys. 129 2021 070401 R. Vasudevan, G. Pilania, P.V. Balachandran, J. Appl. Phys. 129 (2021) 070401. [15] W. Lu R. Xiao J. Yang H. Li W. Zhang J. Materiomics. 3 2017 191 201 W. Lu, R. Xiao, J. Yang, H. Li, W. Zhang, J. Materiomics. 3 (2017) 191-201. [16] P. Gantzer B. Creton C. Nieto-Draghi Mol. Inf. 39 2020 1900087 P. Gantzer, B. Creton, C. Nieto‐Draghi, Mol. Inf. 39 (2020) 1900087. [17] X. Wan W. Feng Y. Wang H. Wang X. Zhang C. Deng N. Yang Nano Lett. 19 2019 3387 3395 X. Wan, W. Feng, Y. Wang, H. Wang, X. Zhang, C. Deng, N. Yang, Nano Lett. 19 (2019) 3387-3395. [18] C. Chen Y. Zuo W. Ye X. Li Z. Deng S.P. Ong Adv. Energy Mater. 10 2020 1903242 C. Chen, Y. Zuo, W. Ye, X. Li, Z. Deng, S.P. Ong, Adv. Energy Mater. 10 (2020) 1903242. [19] T. Wu J. Wang ACS Appl. Mater. Interfaces. 12 2020 57821 57831 T. Wu, J. Wang, ACS Appl. Mater. Interfaces. 12 (2020) 57821-57831. [20] F. Pedregosa G. Varoquaux A. Gramfort V. Michel B. Thirion O. Grisel M. Blondel P. Prettenhofer R. Weiss V. Dubourg J Mach Learn Res. 12 2011 2825 2830 F. Pedregosa, G. Varoquaux, A. Gramfort, V. Michel, B. Thirion, O. Grisel, M. Blondel, P. Prettenhofer, R. Weiss, V. Dubourg, J Mach Learn Res. 12 (2011) 2825-2830. [21] E.J. Braham J. Cho K.M. Forlano D.F. Watson R. Arròyave S. Banerjee Chem. Mater. 31 2019 3281 3292 E.J. Braham, J. Cho, K.M. Forlano, D.F. Watson, R. Arròyave, S. Banerjee, Chem. Mater. 31 (2019) 3281-3292. [22] H.-H. Hsu C.-W. Hsieh M.-D. Lu Expert Syst. Appl. 38 2011 8144 8150 H.-H. Hsu, C.-W. Hsieh, M.-D. Lu, Expert Syst. Appl. 38 (2011) 8144-8150. [23] V.F. Rodriguez-Galiano J.A. Luque-Espinar M. Chica-Olmo M.P. Mendes Sci. Total Environ. 624 2018 661 672 V.F. Rodriguez-Galiano, J.A. Luque-Espinar, M. Chica-Olmo, M.P. Mendes, Sci. Total Environ. 624 (2018) 661-672. [24] H. Liu M. Zhou Q. Liu IEEE/CAA J. Autom. Sin. 6 2019 703 715 H. Liu, M. Zhou, Q. Liu, IEEE/CAA J. Autom. Sin. 6 (2019) 703-715. [25] S. Lu Q. Zhou Y. Ouyang Y. Guo Q. Li J. Wang Nat. Commun. 9 2018 3405 S. Lu, Q. Zhou, Y. Ouyang, Y. Guo, Q. Li, J. Wang, Nat. Commun. 9 (2018) 3405. [26] K.T. Butler J.M. Frost J.M. Skelton K.L. Svane A. Walsh Chem. Soc. Rev. 45 2016 6138 6146 K.T. Butler, J.M. Frost, J.M. Skelton, K.L. Svane, A. Walsh, Chem. Soc. Rev. 45 (2016) 6138-6146. [27] H. Wang Y. Ji Y. Li Wiley Interdiscip. Rev.: Comput. Mol. Sci. 10 2020 e1421 H. Wang, Y. Ji, Y. Li, Wiley Interdiscip. Rev.: Comput. Mol. Sci. 10 (2020) e1421. [28] L. Ward A. Agrawal A. Choudhary C. Wolverton npj Comput. Mater. 2 2016 1 7 L. Ward, A. Agrawal, A. Choudhary, C. Wolverton, npj Comput. Mater. 2 (2016) 1-7. [29] D.V. Anand Q. Xu J. Wee K. Xia T.C. Sum npj Comput. Mater. 8 2022 203 D.V. Anand, Q. Xu, J. Wee, K. Xia, T.C. Sum, npj Comput. Mater. 8 (2022) 203. [30] N.V. Orupattur S.H. Mushrif V. Prasad Comput. Mater. Sci. 174 2020 109474 N.V. Orupattur, S.H. Mushrif, V. Prasad, Comput. Mater. Sci. 174 (2020) 109474. [31] P. Liu Apress. 2023 1 32 P. Liu, Apress. (2023) 1-32. [32] S. Suthaharan Integr. Ser Inf. Syst. 36 2016 1 12 S. Suthaharan, Integr. Ser. Inf. Syst. 36 (2016) 1-12. [33] V. Cherkassky Y. Ma Neural Networks. 17 2004 113 126 V. Cherkassky, Y. Ma, Neural Networks. 17 (2004) 113-126. [34] S. Bergman M. Schiffer Compos. Math. 8 1951 205 249 S. Bergman, M. Schiffer, Compos. Math. 8 (1951) 205-249. [35] A.J. Myles R.N. Feudale Y. Liu N.A. Woody S.D. Brown J. Chemom. 18 2004 275 285 A.J. Myles, R.N. Feudale, Y. Liu, N.A. Woody, S.D. Brown, J. Chemom. 18 (2004) 275-285. [36] L. Breiman Mach. Learn. 24 1996 123 140 L. Breiman, Mach. Learn. 24 (1996) 123-140. [37] L. Rokach Artif. Intell. Rev. 33 2010 1 39 L. Rokach, Artif. Intell. Rev. 33 (2010) 1-39. [38] J. Zou Y. Han S.-S. So Artificial Neural Networks 2009 14 22 J. Zou, Y. Han, S.-S. So, Artificial neural networks. (2009) 14-22. [39] Y. Wang C. Ling H. Yin W. Liu Z. Tang Z. Li Sol. Energy. 204 2020 667 672 Y. Wang, C. Ling, H. Yin, W. Liu, Z. Tang, Z. Li, Sol. Energy. 204 (2020) 667-672. [40] E. Shelhamer J. Long T. Darrell IEEE Trans. Pattern Anal. Mach. Intell. 39 2017 640 651 E. Shelhamer, J. Long, T. Darrell, IEEE Trans. Pattern Anal. Mach. Intell. 39 (2017) 640-651. [41] T. Xie J.C. Grossman Phys. Rev. Lett. 120 2018 145301 T. Xie, J.C. Grossman, Phys. Rev. Lett. 120 (2018) 145301. [42] R. Zhao B. Xing H. Mu Y. Fu L. Zhang Chin. Phys. B. 31 2022 056302 R. Zhao, B. Xing, H. Mu, Y. Fu, L. Zhang, Chin. Phys. B. 31 (2022) 056302. [43] T. Nakajima K. Sawada J. Phys. Chem. Lett. 8 2017 4826 4831 T. Nakajima, K. Sawada, J. Phys. Chem. Lett. 8 (2017) 4826-4831. [44] C. Kim T.D. Huan S. Krishnan R. Ramprasad Sci. Data. 4 2017 1 11 C. Kim, T.D. Huan, S. Krishnan, R. Ramprasad, Sci. Data. 4 (2017) 1-11. [45] J.H. Friedman Ann. Stat. 2001 1189 1232 J.H. Friedman, Ann. Stat. (2001) 1189-1232. [46] S. Rath G.S. Priyanga N. Nagappan T. Thomas Comput. Mater. Sci. 210 2022 111476 S. Rath, G.S. Priyanga, N. Nagappan, T. Thomas, Comput. Mater. Sci. 210 (2022) 111476. [47] B. Meredig A. Agrawal S. Kirklin J.E. Saal J.W. Doak A. Thompson K. Zhang A. Choudhary C. Wolverton Phys Rev B. 89 2014 094104 B. Meredig, A. Agrawal, S. Kirklin, J.E. Saal, J.W. Doak, A. Thompson, K. Zhang, A. Choudhary, C. Wolverton, Phys Rev B. 89 (2014) 094104. [48] Z. Wan Q.-D. Wang D. Liu J. Liang New J. Chem. 45 2021 9427 9433 Z. Wan, Q.-D. Wang, D. Liu, J. Liang, New J. Chem. 45 (2021) 9427-9433. [49] E.I. Marchenko S.A. Fateev A.A. Petrov V.V. Korolev A. Mitrofanov A.V. Petrov E.A. Goodilin A.B. Tarasov Chem. Mater. 32 2020 7383 7388 E.I. Marchenko, S.A. Fateev, A.A. Petrov, V.V. Korolev, A. Mitrofanov, A.V. Petrov, E.A. Goodilin, A.B. Tarasov, Chem. Mater. 32 (2020) 7383-7388. [50] C.W. Yap J. Comput. Chem. 32 2011 1466 1474 C.W. Yap, J. Comput. Chem. 32 (2011) 1466-1474. [51] J. Im S. Lee T.-W. Ko H.W. Kim Y. Hyon H. Chang npj Comput. Mater. 5 2019 37 J. Im, S. Lee, T.-W. Ko, H.W. Kim, Y. Hyon, H. Chang, npj Comput. Mater. 5 (2019) 37. [52] V. Gladkikh D.Y. Kim A. Hajibabaei A. Jana C.W. Myung K.S. Kim J. Phys. Chem. C. 124 2020 8905 8918 V. Gladkikh, D.Y. Kim, A. Hajibabaei, A. Jana, C.W. Myung, K.S. Kim, J. Phys. Chem. C. 124 (2020) 8905-8918. [53] L. Breiman J.H. Friedman J. Am. Stat. Assoc. 80 1985 580 598 L. Breiman, J.H. Friedman, J. Am. Stat. Assoc. 80 (1985) 580-598. [54] K. Takahashi L. Takahashi I. Miyazato Y. Tanaka ACS Photonics. 5 2018 771 775 K. Takahashi, L. Takahashi, I. Miyazato, Y. Tanaka, ACS Photonics. 5 (2018) 771-775. [55] M.L. Agiorgousis Y.Y. Sun D.H. Choe D. West S. Zhang Adv. Theor. Simul. 2 2019 1800173 M. L. Agiorgousis, Y.Y. Sun, D.H. Choe, D. West, S. Zhang, Adv. Theor. Simul. 2 (2019) 1800173. [56] J. Chen W. Xu R. Zhang J. Mater. Chem. A. 10 2022 1402 1413 J. Chen, W. Xu, R. Zhang, J. Mater. Chem. A. 10 (2022) 1402-1413. [57] Q. Tao T. Lu Y. Sheng L. Li W. Lu M. Li J. Energy Chem. 60 2021 351 359 Q. Tao, T. Lu, Y. Sheng, L. Li, W. Lu, M. Li, J. Energy Chem. 60 (2021) 351-359. [58] D.H. Wolpert W.G. Macready IEEE Trans. Evol. Comput. 1 1997 67 82 D.H. Wolpert, W.G. Macready, IEEE Trans. Evol. Comput. 1 (1997) 67-82. [59] W. Travis E.N.K. Glover H. Bronstein D.O. Scanlon R.G. Palgrave Chem. Sci. 7 2016 4548 4556 W. Travis, E.N.K. Glover, H. Bronstein, D.O. Scanlon, R.G. Palgrave, Chem. Sci. 7 (2016) 4548-4556. [60] Q. Sun W.-J. Yin J. Am. Chem. Soc. 139 2017 14905 14908 Q. Sun, W.-J. Yin, J. Am. Chem. Soc. 139 (2017) 14905-14908. [61] Z. Li Q. Xu Q. Sun Z. Hou W.J. Yin Adv. Funct. Mater. 29 2019 1807280 Z. Li, Q. Xu, Q. Sun, Z. Hou, W.J. Yin, Adv. Funct. Mater. 29 (2019) 1807280. [62] W. Liao D. Zhao Y. Yu N. Shrestha K. Ghimire C.R. Grice C. Wang Y. Xiao A.J. Cimaroli R.J. Ellingson J. Am. Chem. Soc. 138 2016 12360 12363 W. Liao, D. Zhao, Y. Yu, N. Shrestha, K. Ghimire, C.R. Grice, C. Wang, Y. Xiao, A.J. Cimaroli, R.J. Ellingson, J. Am. Chem. Soc. 138 (2016) 12360-12363. [63] X. Liu Z. Yang C.-C. Chueh A. Rajagopal S.T. Williams Y. Sun A.K.Y. Jen J. Mater. Chem. A. 4 2016 17939 17945 X. Liu, Z. Yang, C.-C. Chueh, A. Rajagopal, S.T. Williams, Y. Sun, A.K.Y. Jen, J. Mater. Chem. A. 4 (2016) 17939-17945. [64] W. Li R. Jacobs D. Morgan Comput. Mater. Sci. 150 2018 454 463 W. Li, R. Jacobs, D. Morgan, Comput. Mater. Sci. 150 (2018) 454-463. [65] R. Jacobs T. Mayeshiba J. Booske D. Morgan Adv. Energy Mater. 8 2018 1702708 R. Jacobs, T. Mayeshiba, J. Booske, D. Morgan, Adv. Energy Mater. 8 (2018) 1702708. [66] X. Cai Y. Zhang Z. Shi Y. Chen Y. Xia A. Yu Y. Xu F. Xie H. Shao H. Zhu Adv. Sci. 9 2022 2103648 X. Cai, Y. Zhang, Z. Shi, Y. Chen, Y. Xia, A. Yu, Y. Xu, F. Xie, H. Shao, H. Zhu, Adv. Sci. 9 (2022) 2103648. [67] G.H. Gu J. Jang J. Noh A. Walsh Y. Jung npj Comput. Mater. 8 2022 71 G.H. Gu, J. Jang, J. Noh, A. Walsh, Y. Jung, npj Comput. Mater. 8 (2022) 71. [68] S. Zhang T. Lu P. Xu Q. Tao M. Li W. Lu J. Phys. Chem. Lett. 12 2021 7423 7430 S. Zhang, T. Lu, P. Xu, Q. Tao, M. Li, W. Lu, J. Phys. Chem. Lett. 12 (2021) 7423-7430. [69] M.D. Towler R. Dovesi V.R. Saunders Phys Rev B. 52 1995 10150 M.D. Towler, R. Dovesi, V.R. Saunders, Phys Rev B. 52 (1995) 10150. [70] K. Uchino Sci. Technol. Adv. Mater. 16 2015 046001 K. Uchino, Sci. Technol. Adv. Mater. 16 (2015) 046001. [71] M. DiDomenico Jr S.H. Wemple Phys. Rev. 166 1968 565 M. DiDomenico Jr, S.H. Wemple, Phys. Rev. 166 (1968) 565. [72] D.W. Visser A.P. Ramirez M.A. Subramanian Phys. Rev. Lett. 78 1997 3947 D.W. Visser, A.P. Ramirez, M.A. Subramanian, Phys. Rev. Lett. 78 (1997) 3947. [73] A. Talapatra B.P. Uberuaga C.R. Stanek G. Pilania Chem. Mater. 33 2021 845 858 A. Talapatra, B.P. Uberuaga, C.R. Stanek, G. Pilania, Chem. Mater. 33 (2021) 845-858. [74] H. Zhang N. Li K. Li D. Xue Acta Crystallogr. Sect. B: Struct. Sci. 63 2007 812 818 H. Zhang, N. Li, K. Li, D. Xue, Acta Crystallogr., Sect. B: Struct. Sci. 63 (2007) 812-818. [75] S. Vasala M. Karppinen Prog. Solid State Chem. 43 2015 1 36 S. Vasala, M. Karppinen, Prog. Solid State Chem. 43 (2015) 1-36. [76] P.V. Balachandran A.A. Emery J.E. Gubernatis T. Lookman C. Wolverton A. Zunger Phys. Rev. Mater. 2 2018 043802 P.V. Balachandran, A.A. Emery, J.E. Gubernatis, T. Lookman, C. Wolverton, A. Zunger, Phys. Rev. Mater. 2 (2018) 043802. [77] J. Pannetier J. Bassas-Alsina J. Rodriguez-Carvajal V. Caignaert Nature. 346 1990 343 345 J. Pannetier, J. Bassas-Alsina, J. Rodriguez-Carvajal, V. Caignaert, Nature. 346 (1990) 343-345. [78] D.M. Deaven K.-M. Ho Phys. Rev. Lett. 75 1995 288 D.M. Deaven, K.-M. Ho, Phys. Rev. Lett. 75 (1995) 288. [79] C.W. Glass A.R. Oganov N. Hansen Comput. Phys. Commun. 175 2006 713 720 C.W. Glass, A.R. Oganov, N. Hansen, Comput. Phys. Commun. 175 (2006) 713-720. [80] G. Trimarchi A. Zunger Phys Rev B. 75 2007 104113 G. Trimarchi, A. Zunger, Phys Rev B. 75 (2007) 104113. [81] C.J. Pickard R.J. Needs J. Phys.: Condens. Matter. 23 2011 053201 C.J. Pickard, R.J. Needs, J. Phys.: Condens. Matter. 23 (2011) 053201. [82] X. Zhao M.C. Nguyen W.Y. Zhang C.Z. Wang M.J. Kramer D.J. Sellmyer X.Z. Li F. Zhang L.Q. Ke V.P. Antropov Phys. Rev. Lett. 112 2014 045502 X. Zhao, M.C. Nguyen, W.Y. Zhang, C.Z. Wang, M.J. Kramer, D.J. Sellmyer, X.Z. Li, F. Zhang, L.Q. Ke, V.P. Antropov, Phys. Rev. Lett. 112 (2014) 045502. [83] Y.-Y. Zhang W. Gao S. Chen H. Xiang X.-G. Gong Comput. Mater. Sci. 98 2015 51 55 Y.-Y. Zhang, W. Gao, S. Chen, H. Xiang, X.-G. Gong, Comput. Mater. Sci. 98 (2015) 51-55. [84] F. Peng Y. Sun C.J. Pickard R.J. Needs Q. Wu Y. Ma Phys. Rev. Lett. 119 2017 107001 F. Peng, Y. Sun, C.J. Pickard, R.J. Needs, Q. Wu, Y. Ma, Phys. Rev. Lett. 119 (2017) 107001. [85] C. He X. Shi S.J. Clark J. Li C.J. Pickard T. Ouyang C. Zhang C. Tang J. Zhong Phys. Rev. Lett. 121 2018 175701 C. He, X. Shi, S.J. Clark, J. Li, C.J. Pickard, T. Ouyang, C. Zhang, C. Tang, J. Zhong, Phys. Rev. Lett. 121 (2018) 175701. [86] G. Cheng X.-G. Gong W.-J. Yin Nat. Commun. 13 2022 1492 G. Cheng, X.-G. Gong, W.-J. Yin, Nat. Commun. 13 (2022) 1492. [87] L. Williams A. Mukherjee K. Rajan J. Phys. Chem. Lett. 11 2020 7462 7468 L. Williams, A. Mukherjee, K. Rajan, J. Phys. Chem. Lett. 11 (2020) 7462-7468. [88] I. Kuzmanovski S. Dimitrovska-Lazova S. Aleksovska J. Chemom. 26 2012 1 6 I. Kuzmanovski, S. Dimitrovska‐Lazova, S. Aleksovska, J. Chemom. 26 (2012) 1-6. [89] H. Sun C. Zhang L. Tang R. Wang W. Xia C.-Z. Wang Phys Rev B. 107 2023 224301 H. Sun, C. Zhang, L. Tang, R. Wang, W. Xia, C.-Z. Wang, Phys Rev B. 107 (2023) 224301. [90] J. Sun R. Wang Z. Ding X. Zhang Q. Zhang B. Zhang H. Dong F. Wu Inorg. Chem. 62 2023 8136 8144 J. Sun, R. Wang, Z. Ding, X. Zhang, Q. Zhang, B. Zhang, H. Dong, F. Wu, Inorg. Chem. 62 (2023) 8136-8144. [91] S. Liu J. Wang Z. Duan K. Wang W. Zhang R. Guo F. Xie ACS Appl. Mater. Interfaces. 14 2022 11758 11767 S. Liu, J. Wang, Z. Duan, K. Wang, W. Zhang, R. Guo, F. Xie, ACS Appl. Mater. Interfaces. 14 (2022) 11758-11767. [92] A.A. Emery C. Wolverton Sci. Data. 4 2017 1 10 A.A. Emery, C. Wolverton, Sci. Data. 4 (2017) 1-10. [93] V. Sharma P. Kumar P. Dev G. Pilania J. Appl. Phys. 128 2020 V. Sharma, P. Kumar, P. Dev, G. Pilania, J. Appl. Phys. 128 (2020). [94] A. Mannodi-Kanakkithodi M.K.Y. Chan J. Mater. Sci. 57 2022 10736 10754 A. Mannodi-Kanakkithodi, M.K.Y. Chan, J. Mater. Sci. 57 (2022) 10736-10754. [95] P. Priya N.R. Aluru npj Comput. Mater. 7 2021 90 P. Priya, N.R. Aluru, npj Comput. Mater. 7 (2021) 90. [96] Y. Lu D. Wei W. Liu J. Meng X. Huo Y. Zhang Z. Liang B. Qiao S. Zhao D. Song J. Energy Chem. 77 2023 200 208 Y. Lu, D. Wei, W. Liu, J. Meng, X. Huo, Y. Zhang, Z. Liang, B. Qiao, S. Zhao, D. Song, J. Energy Chem. 77 (2023) 200-208. [97] W. Liu N. Meng X. Huo Y. Lu Y. Zhang X. Huang Z. Liang S. Zhao B. Qiao Z. Liang J. Energy Chem. 83 2023 128 137 W. Liu, N. Meng, X. Huo, Y. Lu, Y. Zhang, X. Huang, Z. Liang, S. Zhao, B. Qiao, Z. Liang, J. Energy Chem. 83 (2023) 128-137. [98] D. Godovsky Org. Electron. 12 2011 190 194 D. Godovsky, Org. Electron. 12 (2011) 190-194. [99] Q. Zhang J. Wang G. Liu J. Energy Chem. 86 2023 146 157 Q. Zhang, J. Wang, G. Liu, J. Energy Chem. 86 (2023) 146-157. [100] B. Deng P. Zhong K. Jun K. Han C.J. Bartel G. Ceder Nat. Mach. Intell. 5 2023 1031 1041 B. Deng, P. Zhong, K. Jun, K. Han, C.J. Bartel, G. Ceder, Nat. Mach. Intell. 5 (2023) 1031-1041. [101] Z. Fu D. Zhang J. Energy Chem. 83 2023 1 2 Z. Fu, D. Zhang, J. Energy Chem. 83 (2023) 1-2. Ming Chen is a professor at Shanxi University. He received his Ph.D. degree from Taiyuan University Of Technology in 2017. His postdoctoral research is at Shaanxi Normal University, his present research focuses on multidimensional perovskite photovoltaic conversion materials and devices, photodetection, first-principles calculation, machine learning, etc. Zhenhua Yin is pursuing his master’s degree in the group of Professor Ming Chen at Shanxi University. His research focuses on the application of machine learning and first-principles calculation to the field of optoelectronic materials. Zhicheng Shan received his master’s degree in College of Physics and Electronic Engineering at Shanxi University. His research direction focuses on exploring the application of machine learning in the field of new material discovery. Xiaokai Zheng is pursuing his master’s degree in the group of Professor Ming Chen at Shanxi University. His research focuses on the first-principles calculation of materials and the study of perovskite single crystal X-ray detectors. Lei Liu is studying for a master’s degree in Professor Ming Chen's research group at Shanxi University. His research focuses on performance optimization of inorganic perovskite solar cells. Zhonghua Dai is studying for a master’s degree in Professor Ming Chen’s research group at Shanxi University. His research interest is passivating interface defects in inverted perovskite solar cells. Jun Zhang isstudying for a master’s degree in Professor Ming Chen’s research group at Shanxi University. Her research interest is calculating the photoelectric properties of ABX2 ternary sulfides by first principles methods. Shengzhong (Frank) Liu was selected into China’s top talent recruitment program in 2011 and now he is a professor at Shaanxi Normal University and Dalian Institute of Chemical Physics, Chinese Academy of Sciences. He received his Ph.D. degree from Northwestern University (Evanston, Illinois, USA) in 1992. Upon his postdoctoral research at Argonne National Laboratory (Argonne, Illinois, USA), he joined a few high-tech companies in US for research including nanoscale materials, thin film solar cells, laser processing, diamond thin films, etc. His present research focuses on HIT solar cells, thin film solar cells, perovskite solar cells, and photoelectrochemical conversion. Zhuo Xu is a researcher at Shaanxi Normal University. He received his Ph.D. degree from Northwestern Polytechnical University in 2017. His postdoctoral research is at Shaanxi Normal University, his present research focuses on nanoscale materials, thin film solar cells, photodetection, perovskite solar cells, first-principles calculation, machine learning, etc.",
+      "scopus-id": "85188595945",
+      "coredata": {
+        "eid": "1-s2.0-S209549562400161X",
+        "dc:description": "Metal-halide hybrid perovskite materials are excellent candidates for solar cells and photoelectric devices. In recent years, machine learning (ML) techniques have developed rapidly in many fields and provided ideas for material discovery and design. ML can be applied to discover new materials quickly and effectively, with significant savings in resources and time compared with traditional experiments and density functional theory (DFT) calculations. In this review, we present the application of ML in perovskites and briefly review the recent works in the field of ML-assisted perovskite design. Firstly, the advantages of perovskites in solar cells and the merits of ML applied to perovskites are discussed. Secondly, the workflow of ML in perovskite design and some basic ML algorithms are introduced. Thirdly, the applications of ML in predicting various properties of perovskite materials and devices are reviewed. Finally, we propose some prospects for the future development of this field. The rapid development of ML technology will largely promote the process of materials science, and ML will become an increasingly popular method for predicting the target properties of materials and devices.",
+        "openArchiveArticle": "false",
+        "prism:coverDate": "2024-07-31",
+        "openaccessUserLicense": null,
+        "prism:aggregationType": "Journal",
+        "prism:url": "https://api.elsevier.com/content/article/pii/S209549562400161X",
+        "dc:creator": [
+          {
+            "@_fa": "true",
+            "$": "Chen, Ming"
+          },
+          {
+            "@_fa": "true",
+            "$": "Yin, Zhenhua"
+          },
+          {
+            "@_fa": "true",
+            "$": "Shan, Zhicheng"
+          },
+          {
+            "@_fa": "true",
+            "$": "Zheng, Xiaokai"
+          },
+          {
+            "@_fa": "true",
+            "$": "Liu, Lei"
+          },
+          {
+            "@_fa": "true",
+            "$": "Dai, Zhonghua"
+          },
+          {
+            "@_fa": "true",
+            "$": "Zhang, Jun"
+          },
+          {
+            "@_fa": "true",
+            "$": "Liu, Shengzhong (Frank)"
+          },
+          {
+            "@_fa": "true",
+            "$": "Xu, Zhuo"
+          }
+        ],
+        "link": [
+          {
+            "@_fa": "true",
+            "@rel": "self",
+            "@href": "https://api.elsevier.com/content/article/pii/S209549562400161X"
+          },
+          {
+            "@_fa": "true",
+            "@rel": "scidir",
+            "@href": "https://www.sciencedirect.com/science/article/pii/S209549562400161X"
+          }
+        ],
+        "dc:format": "application/json",
+        "openaccessType": null,
+        "pii": "S2095-4956(24)00161-X",
+        "prism:volume": "94",
+        "prism:publisher": "Science Press and Dalian Institute of Chemical Physics, Chinese Academy of Sciences. Published by ELSEVIER B.V. and Science Press.",
+        "dc:title": "Application of machine learning in perovskite materials and devices: A review",
+        "prism:copyright": "© 2024 Science Press and Dalian Institute of Chemical Physics, Chinese Academy of Sciences. Published by ELSEVIER B.V. and Science Press.",
+        "openaccess": "0",
+        "prism:issn": "20954956",
+        "dcterms:subject": [
+          {
+            "@_fa": "true",
+            "$": "Machine learning"
+          },
+          {
+            "@_fa": "true",
+            "$": "Perovskite"
+          },
+          {
+            "@_fa": "true",
+            "$": "Materials design"
+          },
+          {
+            "@_fa": "true",
+            "$": "Bandgap engineering"
+          },
+          {
+            "@_fa": "true",
+            "$": "Stability"
+          },
+          {
+            "@_fa": "true",
+            "$": "Crystal structure"
+          }
+        ],
+        "openaccessArticle": "false",
+        "prism:publicationName": "Journal of Energy Chemistry",
+        "openaccessSponsorType": null,
+        "prism:pageRange": "254-272",
+        "prism:endingPage": "272",
+        "pubType": "rev",
+        "prism:coverDisplayDate": "July 2024",
+        "prism:doi": "10.1016/j.jechem.2024.02.035",
+        "prism:startingPage": "254",
+        "dc:identifier": "doi:10.1016/j.jechem.2024.02.035",
+        "openaccessSponsorName": null
+      },
+      "objects": {
+        "object": [
+          {
+            "@category": "standard",
+            "@height": "155",
+            "@width": "111",
+            "@_fa": "true",
+            "$": "https://api.elsevier.com/content/object/eid/1-s2.0-S209549562400161X-fx1.jpg?httpAccept=%2A%2F%2A",
+            "@multimediatype": "JPEG image file",
+            "@type": "IMAGE-DOWNSAMPLED",
+            "@size": "5358",
+            "@ref": "fx1",
+            "@mimetype": "image/jpeg"
+          },
+          {
+            "@category": "standard",
+            "@height": "155",
+            "@width": "111",
+            "@_fa": "true",
+            "$": "https://api.elsevier.com/content/object/eid/1-s2.0-S209549562400161X-fx2.jpg?httpAccept=%2A%2F%2A",
+            "@multimediatype": "JPEG image file",
+            "@type": "IMAGE-DOWNSAMPLED",
+            "@size": "6739",
+            "@ref": "fx2",
+            "@mimetype": "image/jpeg"
+          },
+          {
+            "@category": "standard",
+            "@height": "155",
+            "@width": "111",
+            "@_fa": "true",
+            "$": "https://api.elsevier.com/content/object/eid/1-s2.0-S209549562400161X-fx3.jpg?httpAccept=%2A%2F%2A",
+            "@multimediatype": "JPEG image file",
+            "@type": "IMAGE-DOWNSAMPLED",
+            "@size": "4817",
+            "@ref": "fx3",
+            "@mimetype": "image/jpeg"
+          },
+          {
+            "@category": "standard",
+            "@height": "155",
+            "@width": "111",
+            "@_fa": "true",
+            "$": "https://api.elsevier.com/content/object/eid/1-s2.0-S209549562400161X-fx4.jpg?httpAccept=%2A%2F%2A",
+            "@multimediatype": "JPEG image file",
+            "@type": "IMAGE-DOWNSAMPLED",
+            "@size": "4572",
+            "@ref": "fx4",
+            "@mimetype": "image/jpeg"
+          },
+          {
+            "@category": "standard",
+            "@height": "155",
+            "@width": "111",
+            "@_fa": "true",
+            "$": "https://api.elsevier.com/content/object/eid/1-s2.0-S209549562400161X-fx5.jpg?httpAccept=%2A%2F%2A",
+            "@multimediatype": "JPEG image file",
+            "@type": "IMAGE-DOWNSAMPLED",
+            "@size": "5628",
+            "@ref": "fx5",
+            "@mimetype": "image/jpeg"
+          },
+          {
+            "@category": "standard",
+            "@height": "155",
+            "@width": "111",
+            "@_fa": "true",
+            "$": "https://api.elsevier.com/content/object/eid/1-s2.0-S209549562400161X-fx6.jpg?httpAccept=%2A%2F%2A",
+            "@multimediatype": "JPEG image file",
+            "@type": "IMAGE-DOWNSAMPLED",
+            "@size": "4680",
+            "@ref": "fx6",
+            "@mimetype": "image/jpeg"
+          },
+          {
+            "@category": "standard",
+            "@height": "155",
+            "@width": "111",
+            "@_fa": "true",
+            "$": "https://api.elsevier.com/content/object/eid/1-s2.0-S209549562400161X-fx7.jpg?httpAccept=%2A%2F%2A",
+            "@multimediatype": "JPEG image file",
+            "@type": "IMAGE-DOWNSAMPLED",
+            "@size": "5606",
+            "@ref": "fx7",
+            "@mimetype": "image/jpeg"
+          },
+          {
+            "@category": "standard",
+            "@height": "155",
+            "@width": "111",
+            "@_fa": "true",
+            "$": "https://api.elsevier.com/content/object/eid/1-s2.0-S209549562400161X-fx8.jpg?httpAccept=%2A%2F%2A",
+            "@multimediatype": "JPEG image file",
+            "@type": "IMAGE-DOWNSAMPLED",
+            "@size": "5672",
+            "@ref": "fx8",
+            "@mimetype": "image/jpeg"
+          },
+          {
+            "@category": "standard",
+            "@height": "155",
+            "@width": "111",
+            "@_fa": "true",
+            "$": "https://api.elsevier.com/content/object/eid/1-s2.0-S209549562400161X-fx9.jpg?httpAccept=%2A%2F%2A",
+            "@multimediatype": "JPEG image file",
+            "@type": "IMAGE-DOWNSAMPLED",
+            "@size": "5787",
+            "@ref": "fx9",
+            "@mimetype": "image/jpeg"
+          },
+          {
+            "@category": "standard",
+            "@height": "200",
+            "@width": "403",
+            "@_fa": "true",
+            "$": "https://api.elsevier.com/content/object/eid/1-s2.0-S209549562400161X-ga1.jpg?httpAccept=%2A%2F%2A",
+            "@multimediatype": "JPEG image file",
+            "@type": "IMAGE-DOWNSAMPLED",
+            "@size": "23807",
+            "@ref": "ga1",
+            "@mimetype": "image/jpeg"
+          },
+          {
+            "@category": "standard",
+            "@height": "411",
+            "@width": "778",
+            "@_fa": "true",
+            "$": "https://api.elsevier.com/content/object/eid/1-s2.0-S209549562400161X-gr1.jpg?httpAccept=%2A%2F%2A",
+            "@multimediatype": "JPEG image file",
+            "@type": "IMAGE-DOWNSAMPLED",
+            "@size": "72112",
+            "@ref": "gr1",
+            "@mimetype": "image/jpeg"
+          },
+          {
+            "@category": "standard",
+            "@height": "375",
+            "@width": "734",
+            "@_fa": "true",
+            "$": "https://api.elsevier.com/content/object/eid/1-s2.0-S209549562400161X-gr2.jpg?httpAccept=%2A%2F%2A",
+            "@multimediatype": "JPEG image file",
+            "@type": "IMAGE-DOWNSAMPLED",
+            "@size": "67657",
+            "@ref": "gr2",
+            "@mimetype": "image/jpeg"
+          },
+          {
+            "@category": "standard",
+            "@height": "449",
+            "@width": "778",
+            "@_fa": "true",
+            "$": "https://api.elsevier.com/content/object/eid/1-s2.0-S209549562400161X-gr3.jpg?httpAccept=%2A%2F%2A",
+            "@multimediatype": "JPEG image file",
+            "@type": "IMAGE-DOWNSAMPLED",
+            "@size": "105943",
+            "@ref": "gr3",
+            "@mimetype": "image/jpeg"
+          },
+          {
+            "@category": "standard",
+            "@height": "589",
+            "@width": "751",
+            "@_fa": "true",
+            "$": "https://api.elsevier.com/content/object/eid/1-s2.0-S209549562400161X-gr4.jpg?httpAccept=%2A%2F%2A",
+            "@multimediatype": "JPEG image file",
+            "@type": "IMAGE-DOWNSAMPLED",
+            "@size": "131708",
+            "@ref": "gr4",
+            "@mimetype": "image/jpeg"
+          },
+          {
+            "@category": "standard",
+            "@height": "656",
+            "@width": "751",
+            "@_fa": "true",
+            "$": "https://api.elsevier.com/content/object/eid/1-s2.0-S209549562400161X-gr5.jpg?httpAccept=%2A%2F%2A",
+            "@multimediatype": "JPEG image file",
+            "@type": "IMAGE-DOWNSAMPLED",
+            "@size": "159547",
+            "@ref": "gr5",
+            "@mimetype": "image/jpeg"
+          },
+          {
+            "@category": "standard",
+            "@height": "501",
+            "@width": "747",
+            "@_fa": "true",
+            "$": "https://api.elsevier.com/content/object/eid/1-s2.0-S209549562400161X-gr6.jpg?httpAccept=%2A%2F%2A",
+            "@multimediatype": "JPEG image file",
+            "@type": "IMAGE-DOWNSAMPLED",
+            "@size": "91113",
+            "@ref": "gr6",
+            "@mimetype": "image/jpeg"
+          },
+          {
+            "@category": "standard",
+            "@height": "855",
+            "@width": "747",
+            "@_fa": "true",
+            "$": "https://api.elsevier.com/content/object/eid/1-s2.0-S209549562400161X-gr7.jpg?httpAccept=%2A%2F%2A",
+            "@multimediatype": "JPEG image file",
+            "@type": "IMAGE-DOWNSAMPLED",
+            "@size": "166979",
+            "@ref": "gr7",
+            "@mimetype": "image/jpeg"
+          },
+          {
+            "@category": "standard",
+            "@height": "366",
+            "@width": "751",
+            "@_fa": "true",
+            "$": "https://api.elsevier.com/content/object/eid/1-s2.0-S209549562400161X-gr8.jpg?httpAccept=%2A%2F%2A",
+            "@multimediatype": "JPEG image file",
+            "@type": "IMAGE-DOWNSAMPLED",
+            "@size": "80298",
+            "@ref": "gr8",
+            "@mimetype": "image/jpeg"
+          },
+          {
+            "@category": "thumbnail",
+            "@height": "164",
+            "@width": "117",
+            "@_fa": "true",
+            "$": "https://api.elsevier.com/content/object/eid/1-s2.0-S209549562400161X-fx1.sml?httpAccept=%2A%2F%2A",
+            "@multimediatype": "GIF image file",
+            "@type": "IMAGE-THUMBNAIL",
+            "@size": "12084",
+            "@ref": "fx1",
+            "@mimetype": "image/gif"
+          },
+          {
+            "@category": "thumbnail",
+            "@height": "164",
+            "@width": "117",
+            "@_fa": "true",
+            "$": "https://api.elsevier.com/content/object/eid/1-s2.0-S209549562400161X-fx2.sml?httpAccept=%2A%2F%2A",
+            "@multimediatype": "GIF image file",
+            "@type": "IMAGE-THUMBNAIL",
+            "@size": "13711",
+            "@ref": "fx2",
+            "@mimetype": "image/gif"
+          },
+          {
+            "@category": "thumbnail",
+            "@height": "164",
+            "@width": "117",
+            "@_fa": "true",
+            "$": "https://api.elsevier.com/content/object/eid/1-s2.0-S209549562400161X-fx3.sml?httpAccept=%2A%2F%2A",
+            "@multimediatype": "GIF image file",
+            "@type": "IMAGE-THUMBNAIL",
+            "@size": "9926",
+            "@ref": "fx3",
+            "@mimetype": "image/gif"
+          },
+          {
+            "@category": "thumbnail",
+            "@height": "164",
+            "@width": "117",
+            "@_fa": "true",
+            "$": "https://api.elsevier.com/content/object/eid/1-s2.0-S209549562400161X-fx4.sml?httpAccept=%2A%2F%2A",
+            "@multimediatype": "GIF image file",
+            "@type": "IMAGE-THUMBNAIL",
+            "@size": "9950",
+            "@ref": "fx4",
+            "@mimetype": "image/gif"
+          },
+          {
+            "@category": "thumbnail",
+            "@height": "164",
+            "@width": "117",
+            "@_fa": "true",
+            "$": "https://api.elsevier.com/content/object/eid/1-s2.0-S209549562400161X-fx5.sml?httpAccept=%2A%2F%2A",
+            "@multimediatype": "GIF image file",
+            "@type": "IMAGE-THUMBNAIL",
+            "@size": "11857",
+            "@ref": "fx5",
+            "@mimetype": "image/gif"
+          },
+          {
+            "@category": "thumbnail",
+            "@height": "164",
+            "@width": "117",
+            "@_fa": "true",
+            "$": "https://api.elsevier.com/content/object/eid/1-s2.0-S209549562400161X-fx6.sml?httpAccept=%2A%2F%2A",
+            "@multimediatype": "GIF image file",
+            "@type": "IMAGE-THUMBNAIL",
+            "@size": "12154",
+            "@ref": "fx6",
+            "@mimetype": "image/gif"
+          },
+          {
+            "@category": "thumbnail",
+            "@height": "164",
+            "@width": "117",
+            "@_fa": "true",
+            "$": "https://api.elsevier.com/content/object/eid/1-s2.0-S209549562400161X-fx7.sml?httpAccept=%2A%2F%2A",
+            "@multimediatype": "GIF image file",
+            "@type": "IMAGE-THUMBNAIL",
+            "@size": "12539",
+            "@ref": "fx7",
+            "@mimetype": "image/gif"
+          },
+          {
+            "@category": "thumbnail",
+            "@height": "164",
+            "@width": "117",
+            "@_fa": "true",
+            "$": "https://api.elsevier.com/content/object/eid/1-s2.0-S209549562400161X-fx8.sml?httpAccept=%2A%2F%2A",
+            "@multimediatype": "GIF image file",
+            "@type": "IMAGE-THUMBNAIL",
+            "@size": "15315",
+            "@ref": "fx8",
+            "@mimetype": "image/gif"
+          },
+          {
+            "@category": "thumbnail",
+            "@height": "164",
+            "@width": "117",
+            "@_fa": "true",
+            "$": "https://api.elsevier.com/content/object/eid/1-s2.0-S209549562400161X-fx9.sml?httpAccept=%2A%2F%2A",
+            "@multimediatype": "GIF image file",
+            "@type": "IMAGE-THUMBNAIL",
+            "@size": "12836",
+            "@ref": "fx9",
+            "@mimetype": "image/gif"
+          },
+          {
+            "@category": "thumbnail",
+            "@height": "109",
+            "@width": "219",
+            "@_fa": "true",
+            "$": "https://api.elsevier.com/content/object/eid/1-s2.0-S209549562400161X-ga1.sml?httpAccept=%2A%2F%2A",
+            "@multimediatype": "GIF image file",
+            "@type": "IMAGE-THUMBNAIL",
+            "@size": "9664",
+            "@ref": "ga1",
+            "@mimetype": "image/gif"
+          },
+          {
+            "@category": "thumbnail",
+            "@height": "116",
+            "@width": "219",
+            "@_fa": "true",
+            "$": "https://api.elsevier.com/content/object/eid/1-s2.0-S209549562400161X-gr1.sml?httpAccept=%2A%2F%2A",
+            "@multimediatype": "GIF image file",
+            "@type": "IMAGE-THUMBNAIL",
+            "@size": "9383",
+            "@ref": "gr1",
+            "@mimetype": "image/gif"
+          },
+          {
+            "@category": "thumbnail",
+            "@height": "112",
+            "@width": "219",
+            "@_fa": "true",
+            "$": "https://api.elsevier.com/content/object/eid/1-s2.0-S209549562400161X-gr2.sml?httpAccept=%2A%2F%2A",
+            "@multimediatype": "GIF image file",
+            "@type": "IMAGE-THUMBNAIL",
+            "@size": "9791",
+            "@ref": "gr2",
+            "@mimetype": "image/gif"
+          },
+          {
+            "@category": "thumbnail",
+            "@height": "126",
+            "@width": "219",
+            "@_fa": "true",
+            "$": "https://api.elsevier.com/content/object/eid/1-s2.0-S209549562400161X-gr3.sml?httpAccept=%2A%2F%2A",
+            "@multimediatype": "GIF image file",
+            "@type": "IMAGE-THUMBNAIL",
+            "@size": "12155",
+            "@ref": "gr3",
+            "@mimetype": "image/gif"
+          },
+          {
+            "@category": "thumbnail",
+            "@height": "164",
+            "@width": "209",
+            "@_fa": "true",
+            "$": "https://api.elsevier.com/content/object/eid/1-s2.0-S209549562400161X-gr4.sml?httpAccept=%2A%2F%2A",
+            "@multimediatype": "GIF image file",
+            "@type": "IMAGE-THUMBNAIL",
+            "@size": "15379",
+            "@ref": "gr4",
+            "@mimetype": "image/gif"
+          },
+          {
+            "@category": "thumbnail",
+            "@height": "164",
+            "@width": "188",
+            "@_fa": "true",
+            "$": "https://api.elsevier.com/content/object/eid/1-s2.0-S209549562400161X-gr5.sml?httpAccept=%2A%2F%2A",
+            "@multimediatype": "GIF image file",
+            "@type": "IMAGE-THUMBNAIL",
+            "@size": "14243",
+            "@ref": "gr5",
+            "@mimetype": "image/gif"
+          },
+          {
+            "@category": "thumbnail",
+            "@height": "147",
+            "@width": "219",
+            "@_fa": "true",
+            "$": "https://api.elsevier.com/content/object/eid/1-s2.0-S209549562400161X-gr6.sml?httpAccept=%2A%2F%2A",
+            "@multimediatype": "GIF image file",
+            "@type": "IMAGE-THUMBNAIL",
+            "@size": "11203",
+            "@ref": "gr6",
+            "@mimetype": "image/gif"
+          },
+          {
+            "@category": "thumbnail",
+            "@height": "164",
+            "@width": "143",
+            "@_fa": "true",
+            "$": "https://api.elsevier.com/content/object/eid/1-s2.0-S209549562400161X-gr7.sml?httpAccept=%2A%2F%2A",
+            "@multimediatype": "GIF image file",
+            "@type": "IMAGE-THUMBNAIL",
+            "@size": "9062",
+            "@ref": "gr7",
+            "@mimetype": "image/gif"
+          },
+          {
+            "@category": "thumbnail",
+            "@height": "107",
+            "@width": "219",
+            "@_fa": "true",
+            "$": "https://api.elsevier.com/content/object/eid/1-s2.0-S209549562400161X-gr8.sml?httpAccept=%2A%2F%2A",
+            "@multimediatype": "GIF image file",
+            "@type": "IMAGE-THUMBNAIL",
+            "@size": "9684",
+            "@ref": "gr8",
+            "@mimetype": "image/gif"
+          },
+          {
+            "@category": "high",
+            "@height": "413",
+            "@width": "295",
+            "@_fa": "true",
+            "$": "https://api.elsevier.com/content/object/eid/1-s2.0-S209549562400161X-fx1_lrg.jpg?httpAccept=%2A%2F%2A",
+            "@multimediatype": "JPEG image file",
+            "@type": "IMAGE-HIGH-RES",
+            "@size": "18965",
+            "@ref": "fx1",
+            "@mimetype": "image/jpeg"
+          },
+          {
+            "@category": "high",
+            "@height": "413",
+            "@width": "295",
+            "@_fa": "true",
+            "$": "https://api.elsevier.com/content/object/eid/1-s2.0-S209549562400161X-fx2_lrg.jpg?httpAccept=%2A%2F%2A",
+            "@multimediatype": "JPEG image file",
+            "@type": "IMAGE-HIGH-RES",
+            "@size": "22773",
+            "@ref": "fx2",
+            "@mimetype": "image/jpeg"
+          },
+          {
+            "@category": "high",
+            "@height": "413",
+            "@width": "295",
+            "@_fa": "true",
+            "$": "https://api.elsevier.com/content/object/eid/1-s2.0-S209549562400161X-fx3_lrg.jpg?httpAccept=%2A%2F%2A",
+            "@multimediatype": "JPEG image file",
+            "@type": "IMAGE-HIGH-RES",
+            "@size": "12648",
+            "@ref": "fx3",
+            "@mimetype": "image/jpeg"
+          },
+          {
+            "@category": "high",
+            "@height": "413",
+            "@width": "295",
+            "@_fa": "true",
+            "$": "https://api.elsevier.com/content/object/eid/1-s2.0-S209549562400161X-fx4_lrg.jpg?httpAccept=%2A%2F%2A",
+            "@multimediatype": "JPEG image file",
+            "@type": "IMAGE-HIGH-RES",
+            "@size": "12699",
+            "@ref": "fx4",
+            "@mimetype": "image/jpeg"
+          },
+          {
+            "@category": "high",
+            "@height": "413",
+            "@width": "295",
+            "@_fa": "true",
+            "$": "https://api.elsevier.com/content/object/eid/1-s2.0-S209549562400161X-fx5_lrg.jpg?httpAccept=%2A%2F%2A",
+            "@multimediatype": "JPEG image file",
+            "@type": "IMAGE-HIGH-RES",
+            "@size": "16349",
+            "@ref": "fx5",
+            "@mimetype": "image/jpeg"
+          },
+          {
+            "@category": "high",
+            "@height": "413",
+            "@width": "295",
+            "@_fa": "true",
+            "$": "https://api.elsevier.com/content/object/eid/1-s2.0-S209549562400161X-fx6_lrg.jpg?httpAccept=%2A%2F%2A",
+            "@multimediatype": "JPEG image file",
+            "@type": "IMAGE-HIGH-RES",
+            "@size": "12891",
+            "@ref": "fx6",
+            "@mimetype": "image/jpeg"
+          },
+          {
+            "@category": "high",
+            "@height": "413",
+            "@width": "295",
+            "@_fa": "true",
+            "$": "https://api.elsevier.com/content/object/eid/1-s2.0-S209549562400161X-fx7_lrg.jpg?httpAccept=%2A%2F%2A",
+            "@multimediatype": "JPEG image file",
+            "@type": "IMAGE-HIGH-RES",
+            "@size": "16256",
+            "@ref": "fx7",
+            "@mimetype": "image/jpeg"
+          },
+          {
+            "@category": "high",
+            "@height": "413",
+            "@width": "295",
+            "@_fa": "true",
+            "$": "https://api.elsevier.com/content/object/eid/1-s2.0-S209549562400161X-fx8_lrg.jpg?httpAccept=%2A%2F%2A",
+            "@multimediatype": "JPEG image file",
+            "@type": "IMAGE-HIGH-RES",
+            "@size": "16695",
+            "@ref": "fx8",
+            "@mimetype": "image/jpeg"
+          },
+          {
+            "@category": "high",
+            "@height": "413",
+            "@width": "295",
+            "@_fa": "true",
+            "$": "https://api.elsevier.com/content/object/eid/1-s2.0-S209549562400161X-fx9_lrg.jpg?httpAccept=%2A%2F%2A",
+            "@multimediatype": "JPEG image file",
+            "@type": "IMAGE-HIGH-RES",
+            "@size": "17482",
+            "@ref": "fx9",
+            "@mimetype": "image/jpeg"
+          },
+          {
+            "@category": "high",
+            "@height": "886",
+            "@width": "1786",
+            "@_fa": "true",
+            "$": "https://api.elsevier.com/content/object/eid/1-s2.0-S209549562400161X-ga1_lrg.jpg?httpAccept=%2A%2F%2A",
+            "@multimediatype": "JPEG image file",
+            "@type": "IMAGE-HIGH-RES",
+            "@size": "166585",
+            "@ref": "ga1",
+            "@mimetype": "image/jpeg"
+          },
+          {
+            "@category": "high",
+            "@height": "1819",
+            "@width": "3445",
+            "@_fa": "true",
+            "$": "https://api.elsevier.com/content/object/eid/1-s2.0-S209549562400161X-gr1_lrg.jpg?httpAccept=%2A%2F%2A",
+            "@multimediatype": "JPEG image file",
+            "@type": "IMAGE-HIGH-RES",
+            "@size": "468029",
+            "@ref": "gr1",
+            "@mimetype": "image/jpeg"
+          },
+          {
+            "@category": "high",
+            "@height": "1660",
+            "@width": "3248",
+            "@_fa": "true",
+            "$": "https://api.elsevier.com/content/object/eid/1-s2.0-S209549562400161X-gr2_lrg.jpg?httpAccept=%2A%2F%2A",
+            "@multimediatype": "JPEG image file",
+            "@type": "IMAGE-HIGH-RES",
+            "@size": "425463",
+            "@ref": "gr2",
+            "@mimetype": "image/jpeg"
+          },
+          {
+            "@category": "high",
+            "@height": "1986",
+            "@width": "3445",
+            "@_fa": "true",
+            "$": "https://api.elsevier.com/content/object/eid/1-s2.0-S209549562400161X-gr3_lrg.jpg?httpAccept=%2A%2F%2A",
+            "@multimediatype": "JPEG image file",
+            "@type": "IMAGE-HIGH-RES",
+            "@size": "691285",
+            "@ref": "gr3",
+            "@mimetype": "image/jpeg"
+          },
+          {
+            "@category": "high",
+            "@height": "2610",
+            "@width": "3327",
+            "@_fa": "true",
+            "$": "https://api.elsevier.com/content/object/eid/1-s2.0-S209549562400161X-gr4_lrg.jpg?httpAccept=%2A%2F%2A",
+            "@multimediatype": "JPEG image file",
+            "@type": "IMAGE-HIGH-RES",
+            "@size": "852126",
+            "@ref": "gr4",
+            "@mimetype": "image/jpeg"
+          },
+          {
+            "@category": "high",
+            "@height": "2904",
+            "@width": "3327",
+            "@_fa": "true",
+            "$": "https://api.elsevier.com/content/object/eid/1-s2.0-S209549562400161X-gr5_lrg.jpg?httpAccept=%2A%2F%2A",
+            "@multimediatype": "JPEG image file",
+            "@type": "IMAGE-HIGH-RES",
+            "@size": "1027410",
+            "@ref": "gr5",
+            "@mimetype": "image/jpeg"
+          },
+          {
+            "@category": "high",
+            "@height": "2218",
+            "@width": "3307",
+            "@_fa": "true",
+            "$": "https://api.elsevier.com/content/object/eid/1-s2.0-S209549562400161X-gr6_lrg.jpg?httpAccept=%2A%2F%2A",
+            "@multimediatype": "JPEG image file",
+            "@type": "IMAGE-HIGH-RES",
+            "@size": "597187",
+            "@ref": "gr6",
+            "@mimetype": "image/jpeg"
+          },
+          {
+            "@category": "high",
+            "@height": "3786",
+            "@width": "3307",
+            "@_fa": "true",
+            "$": "https://api.elsevier.com/content/object/eid/1-s2.0-S209549562400161X-gr7_lrg.jpg?httpAccept=%2A%2F%2A",
+            "@multimediatype": "JPEG image file",
+            "@type": "IMAGE-HIGH-RES",
+            "@size": "1116136",
+            "@ref": "gr7",
+            "@mimetype": "image/jpeg"
+          },
+          {
+            "@category": "high",
+            "@height": "1622",
+            "@width": "3327",
+            "@_fa": "true",
+            "$": "https://api.elsevier.com/content/object/eid/1-s2.0-S209549562400161X-gr8_lrg.jpg?httpAccept=%2A%2F%2A",
+            "@multimediatype": "JPEG image file",
+            "@type": "IMAGE-HIGH-RES",
+            "@size": "488391",
+            "@ref": "gr8",
+            "@mimetype": "image/jpeg"
+          },
+          {
+            "@category": "standard",
+            "@_fa": "true",
+            "$": "https://api.elsevier.com/content/object/eid/1-s2.0-S209549562400161X-mmc1.docx?httpAccept=%2A%2F%2A",
+            "@multimediatype": "Microsoft Word file",
+            "@type": "APPLICATION",
+            "@size": "67326",
+            "@ref": "mmc1",
+            "@mimetype": "application/word"
+          },
+          {
+            "@category": "thumbnail",
+            "@_fa": "true",
+            "$": "https://api.elsevier.com/content/object/eid/1-s2.0-S209549562400161X-si1.svg?httpAccept=%2A%2F%2A",
+            "@multimediatype": "Scalable Vector Graphics file",
+            "@type": "ALTIMG",
+            "@size": "3544",
+            "@ref": "si1",
+            "@mimetype": "image/svg+xml"
+          },
+          {
+            "@category": "thumbnail",
+            "@_fa": "true",
+            "$": "https://api.elsevier.com/content/object/eid/1-s2.0-S209549562400161X-si10.svg?httpAccept=%2A%2F%2A",
+            "@multimediatype": "Scalable Vector Graphics file",
+            "@type": "ALTIMG",
+            "@size": "5527",
+            "@ref": "si10",
+            "@mimetype": "image/svg+xml"
+          },
+          {
+            "@category": "thumbnail",
+            "@_fa": "true",
+            "$": "https://api.elsevier.com/content/object/eid/1-s2.0-S209549562400161X-si11.svg?httpAccept=%2A%2F%2A",
+            "@multimediatype": "Scalable Vector Graphics file",
+            "@type": "ALTIMG",
+            "@size": "8562",
+            "@ref": "si11",
+            "@mimetype": "image/svg+xml"
+          },
+          {
+            "@category": "thumbnail",
+            "@_fa": "true",
+            "$": "https://api.elsevier.com/content/object/eid/1-s2.0-S209549562400161X-si12.svg?httpAccept=%2A%2F%2A",
+            "@multimediatype": "Scalable Vector Graphics file",
+            "@type": "ALTIMG",
+            "@size": "8271",
+            "@ref": "si12",
+            "@mimetype": "image/svg+xml"
+          },
+          {
+            "@category": "thumbnail",
+            "@_fa": "true",
+            "$": "https://api.elsevier.com/content/object/eid/1-s2.0-S209549562400161X-si13.svg?httpAccept=%2A%2F%2A",
+            "@multimediatype": "Scalable Vector Graphics file",
+            "@type": "ALTIMG",
+            "@size": "3653",
+            "@ref": "si13",
+            "@mimetype": "image/svg+xml"
+          },
+          {
+            "@category": "thumbnail",
+            "@_fa": "true",
+            "$": "https://api.elsevier.com/content/object/eid/1-s2.0-S209549562400161X-si14.svg?httpAccept=%2A%2F%2A",
+            "@multimediatype": "Scalable Vector Graphics file",
+            "@type": "ALTIMG",
+            "@size": "3421",
+            "@ref": "si14",
+            "@mimetype": "image/svg+xml"
+          },
+          {
+            "@category": "thumbnail",
+            "@_fa": "true",
+            "$": "https://api.elsevier.com/content/object/eid/1-s2.0-S209549562400161X-si15.svg?httpAccept=%2A%2F%2A",
+            "@multimediatype": "Scalable Vector Graphics file",
+            "@type": "ALTIMG",
+            "@size": "6095",
+            "@ref": "si15",
+            "@mimetype": "image/svg+xml"
+          },
+          {
+            "@category": "thumbnail",
+            "@_fa": "true",
+            "$": "https://api.elsevier.com/content/object/eid/1-s2.0-S209549562400161X-si16.svg?httpAccept=%2A%2F%2A",
+            "@multimediatype": "Scalable Vector Graphics file",
+            "@type": "ALTIMG",
+            "@size": "12609",
+            "@ref": "si16",
+            "@mimetype": "image/svg+xml"
+          },
+          {
+            "@category": "thumbnail",
+            "@_fa": "true",
+            "$": "https://api.elsevier.com/content/object/eid/1-s2.0-S209549562400161X-si17.svg?httpAccept=%2A%2F%2A",
+            "@multimediatype": "Scalable Vector Graphics file",
+            "@type": "ALTIMG",
+            "@size": "3256",
+            "@ref": "si17",
+            "@mimetype": "image/svg+xml"
+          },
+          {
+            "@category": "thumbnail",
+            "@_fa": "true",
+            "$": "https://api.elsevier.com/content/object/eid/1-s2.0-S209549562400161X-si18.svg?httpAccept=%2A%2F%2A",
+            "@multimediatype": "Scalable Vector Graphics file",
+            "@type": "ALTIMG",
+            "@size": "2980",
+            "@ref": "si18",
+            "@mimetype": "image/svg+xml"
+          },
+          {
+            "@category": "thumbnail",
+            "@_fa": "true",
+            "$": "https://api.elsevier.com/content/object/eid/1-s2.0-S209549562400161X-si19.svg?httpAccept=%2A%2F%2A",
+            "@multimediatype": "Scalable Vector Graphics file",
+            "@type": "ALTIMG",
+            "@size": "4340",
+            "@ref": "si19",
+            "@mimetype": "image/svg+xml"
+          },
+          {
+            "@category": "thumbnail",
+            "@_fa": "true",
+            "$": "https://api.elsevier.com/content/object/eid/1-s2.0-S209549562400161X-si2.svg?httpAccept=%2A%2F%2A",
+            "@multimediatype": "Scalable Vector Graphics file",
+            "@type": "ALTIMG",
+            "@size": "2945",
+            "@ref": "si2",
+            "@mimetype": "image/svg+xml"
+          },
+          {
+            "@category": "thumbnail",
+            "@_fa": "true",
+            "$": "https://api.elsevier.com/content/object/eid/1-s2.0-S209549562400161X-si20.svg?httpAccept=%2A%2F%2A",
+            "@multimediatype": "Scalable Vector Graphics file",
+            "@type": "ALTIMG",
+            "@size": "2447",
+            "@ref": "si20",
+            "@mimetype": "image/svg+xml"
+          },
+          {
+            "@category": "thumbnail",
+            "@_fa": "true",
+            "$": "https://api.elsevier.com/content/object/eid/1-s2.0-S209549562400161X-si3.svg?httpAccept=%2A%2F%2A",
+            "@multimediatype": "Scalable Vector Graphics file",
+            "@type": "ALTIMG",
+            "@size": "2880",
+            "@ref": "si3",
+            "@mimetype": "image/svg+xml"
+          },
+          {
+            "@category": "thumbnail",
+            "@_fa": "true",
+            "$": "https://api.elsevier.com/content/object/eid/1-s2.0-S209549562400161X-si4.svg?httpAccept=%2A%2F%2A",
+            "@multimediatype": "Scalable Vector Graphics file",
+            "@type": "ALTIMG",
+            "@size": "4884",
+            "@ref": "si4",
+            "@mimetype": "image/svg+xml"
+          },
+          {
+            "@category": "thumbnail",
+            "@_fa": "true",
+            "$": "https://api.elsevier.com/content/object/eid/1-s2.0-S209549562400161X-si5.svg?httpAccept=%2A%2F%2A",
+            "@multimediatype": "Scalable Vector Graphics file",
+            "@type": "ALTIMG",
+            "@size": "4305",
+            "@ref": "si5",
+            "@mimetype": "image/svg+xml"
+          },
+          {
+            "@category": "thumbnail",
+            "@_fa": "true",
+            "$": "https://api.elsevier.com/content/object/eid/1-s2.0-S209549562400161X-si6.svg?httpAccept=%2A%2F%2A",
+            "@multimediatype": "Scalable Vector Graphics file",
+            "@type": "ALTIMG",
+            "@size": "2372",
+            "@ref": "si6",
+            "@mimetype": "image/svg+xml"
+          },
+          {
+            "@category": "thumbnail",
+            "@_fa": "true",
+            "$": "https://api.elsevier.com/content/object/eid/1-s2.0-S209549562400161X-si7.svg?httpAccept=%2A%2F%2A",
+            "@multimediatype": "Scalable Vector Graphics file",
+            "@type": "ALTIMG",
+            "@size": "4622",
+            "@ref": "si7",
+            "@mimetype": "image/svg+xml"
+          },
+          {
+            "@category": "thumbnail",
+            "@_fa": "true",
+            "$": "https://api.elsevier.com/content/object/eid/1-s2.0-S209549562400161X-si8.svg?httpAccept=%2A%2F%2A",
+            "@multimediatype": "Scalable Vector Graphics file",
+            "@type": "ALTIMG",
+            "@size": "4179",
+            "@ref": "si8",
+            "@mimetype": "image/svg+xml"
+          },
+          {
+            "@category": "thumbnail",
+            "@_fa": "true",
+            "$": "https://api.elsevier.com/content/object/eid/1-s2.0-S209549562400161X-si9.svg?httpAccept=%2A%2F%2A",
+            "@multimediatype": "Scalable Vector Graphics file",
+            "@type": "ALTIMG",
+            "@size": "6106",
+            "@ref": "si9",
+            "@mimetype": "image/svg+xml"
+          },
+          {
+            "@category": "standard",
+            "@_fa": "true",
+            "$": "https://api.elsevier.com/content/object/eid/1-s2.0-S209549562400161X-am.pdf?httpAccept=%2A%2F%2A",
+            "@multimediatype": "Acrobat PDF file",
+            "@type": "AAM-PDF",
+            "@size": "2581539",
+            "@ref": "am",
+            "@mimetype": "application/pdf"
+          }
+        ]
+      },
+      "link": {
+        "@rel": "abstract",
+        "@href": "https://api.elsevier.com/content/abstract/scopus_id/85188595945"
+      }
+    }
+  }
+}

@@ -1,0 +1,534 @@
+{
+  "metadata": {
+    "title": "Machine learning-driven rapid screening and performance prediction of NH<ce:inf loc=post>3</ce:inf>-SCR catalyst",
+    "authors": "; ; ",
+    "journal": "Molecular Catalysis",
+    "date": "2025-09-30",
+    "doi": "10.1016/j.mcat.2025.115296",
+    "abstract": "",
+    "uri": "https://api.elsevier.com/content/article/pii/S2468823125004857",
+    "pii": "S2468823125004857"
+  },
+  "fulltext": {
+    "full-text-retrieval-response": {
+      "scopus-eid": "2-s2.0-105008494335",
+      "originalText": "serial JL 315758 291210 291744 291790 291809 31 Molecular Catalysis MOLECULARCATALYSIS 2025-06-20 2025-06-20 2025-06-20 2025-06-20 2025-09-25T07:56:26 1-s2.0-S2468823125004857 S2468-8231(25)00485-7 S2468823125004857 10.1016/j.mcat.2025.115296 S300 S300.1 FULL-TEXT 1-s2.0-S2468823125X00110 2025-09-25T07:10:46.606742Z 0 0 20250901 20250930 2025 2025-06-21T00:25:34.394146Z absattachment articleinfo articlenumber articletitlenorm authfirstinitialnorm authfirstsurnamenorm cid cids contenttype copyright crossmark dateloaded dateloadedtxt datesearch datesort dateupdated dco docsubtype doctype doi eid ewtransactionid hubeid indexeddate issn issnnorm itemstage itemtransactionid itemweight openaccess openarchive pg pgfirst pii piinorm pubdateend pubdatestart pubdatetxt pubyr sectiontitle sortorder srctitle srctitlenorm srctype ssids alllist content subj subheadings suppl tomb volfirst volissue volumelist webpdf webpdfpagecount yearnav figure table e-component body mmlmath acknowledge affil appendices articletitle auth authfirstini authfull authkeywords authlast grantnumber grantsponsor grantsponsorid highlightsabst nomenclature orcid primabst pubtype ref specialabst 2468-8231 24688231 true 584 584 C Volume 584 36 115296 115296 115296 202509 September 2025 2025-09-01 2025-09-30 2025 Regular Papers article fla © 2025 Elsevier B.V. All rights are reserved, including those for text and data mining, AI training, and similar technologies. MACHINELEARNINGDRIVENRAPIDSCREENINGPERFORMANCEPREDICTIONNH3SCRCATALYST WANG H Nomenclature 1 Introduction 2 Methods 2.1 Database construction and pre-processing 2.2 Algorithm introduction 2.3 Model evaluation 3 Results and discussion 3.1 Model selection 3.2 Feature importance analysis based on SHAP 3.3 Machine learning-assisted SCR prediction and verification 4 Conclusion CRediT authorship contribution statement Acknowledgments Appendix Supplementary materials References HUANG 2017 7992 8000 T OBERSCHELP 2019 113 121 C YANG 2024 1435 1454 F SHI 2023 125885 Z MA 2016 164 170 Z GUO 2019 830 838 M GOLDSMITH 2018 2311 2323 B WANG 2024 3261 3301 L SCHLEXER 2019 3581 3601 P MEDFORD 2018 7403 7429 A SUVARNA 2024 624 635 M HANDELMAN 2018 603 619 G DENG 2021 112051 T MOSAVI 2019 1301 A GOODELL 2021 100577 J DONG 2021 23850 23859 Y XIN 2022 790 791 H ARAUJO 2025 160872 L PEDREGOSA 2011 2825 2830 F HALDER 2024 113 R PROKHORENKOVA 2018 6639 6649 L BENTEJAC 2021 1937 1967 C LUNDBERG 2017 4768 4777 S XU 2018 118 127 W LI 2025 e202501957 Z GUAN 2023 13816 13827 X SUN 2018 6996 7004 X WANG 2024 113780 W GEVERS 2022 2960 L ZHANG 2019 6943 6960 B XU 2018 171846 Q XU 2015 Q LU 2024 3593 3604 M KWAK 2012 203 209 J NAM 2017 55 62 K LI 2018 1653 1663 W ZHOU 2025 162775 G LIU 2025 131876 Z WANGX2025X115296 WANGX2025X115296XH 2027-06-20T00:00:00.000Z 2027-06-20T00:00:00.000Z http://creativecommons.org/licenses/by-nc-nd/4.0/ © 2025 Elsevier B.V. All rights are reserved, including those for text and data mining, AI training, and similar technologies. 2025-06-25T01:19:57.447Z http://vtw.elsevier.com/data/voc/AddOnTypes/50.7/aggregated-refined Natural Science Foundation of Shanghai 24ZR1454400 Shanghai Municipal Natural Science Foundation http://data.elsevier.com/vocabulary/SciValFunders/100007219 http://sws.geonames.org/1814991 Shanghai Committee of Science and Technology 23010503500 Science and Technology Commission of Shanghai Municipality http://data.elsevier.com/vocabulary/SciValFunders/501100003399 http://sws.geonames.org/1814991 This research is supported by Natural Science Foundation of Shanghai ( 24ZR1454400 ) and the Shanghai Committee of Science and Technology (No. 23010503500 ). https://doi.org/10.15223/policy-017 https://doi.org/10.15223/policy-037 https://doi.org/10.15223/policy-012 https://doi.org/10.15223/policy-029 https://doi.org/10.15223/policy-004 item S2468-8231(25)00485-7 S2468823125004857 1-s2.0-S2468823125004857 10.1016/j.mcat.2025.115296 315758 2025-09-25T07:10:46.606742Z 2025-09-01 2025-09-30 1-s2.0-S2468823125004857-main.pdf https://s3-eu-west-1.amazonaws.com/prod-ucs-content-store-eu-west/content/pii:S2468823125004857/MAIN/application/pdf/2cc53c18052407816442f68e9afdbd9c/main.pdf main.pdf pdf true 7707714 MAIN 11 1-s2.0-S2468823125004857-main_1.png https://s3-eu-west-1.amazonaws.com/prod-ucs-content-store-eu-west/content/pii:S2468823125004857/PREVIEW/image/png/2cdb37f279ba9b71de258fbd4eecad74/main_1.png main_1.png png 60737 928 656 IMAGE-WEB-PDF 1 1-s2.0-S2468823125004857-gr8.jpg https://s3-eu-west-1.amazonaws.com/prod-ucs-content-store-eu-west/content/pii:S2468823125004857/gr8/DOWNSAMPLED/image/jpeg/db193990f6e80a95bde84103d281ce1d/gr8.jpg gr8 gr8.jpg jpg 155197 998 585 IMAGE-DOWNSAMPLED 1-s2.0-S2468823125004857-gr7.jpg https://s3-eu-west-1.amazonaws.com/prod-ucs-content-store-eu-west/content/pii:S2468823125004857/gr7/DOWNSAMPLED/image/jpeg/3972ce223c35bad8e4b7fa69b67bd505/gr7.jpg gr7 gr7.jpg jpg 91843 388 753 IMAGE-DOWNSAMPLED 1-s2.0-S2468823125004857-gr6.jpg https://s3-eu-west-1.amazonaws.com/prod-ucs-content-store-eu-west/content/pii:S2468823125004857/gr6/DOWNSAMPLED/image/jpeg/e69cdc34ca160c9f8bb78da37b2a892f/gr6.jpg gr6 gr6.jpg jpg 94801 385 753 IMAGE-DOWNSAMPLED 1-s2.0-S2468823125004857-gr5.jpg https://s3-eu-west-1.amazonaws.com/prod-ucs-content-store-eu-west/content/pii:S2468823125004857/gr5/DOWNSAMPLED/image/jpeg/e17f83f688e914f40ebb439835bf04f6/gr5.jpg gr5 gr5.jpg jpg 115376 733 621 IMAGE-DOWNSAMPLED 1-s2.0-S2468823125004857-gr4.jpg https://s3-eu-west-1.amazonaws.com/prod-ucs-content-store-eu-west/content/pii:S2468823125004857/gr4/DOWNSAMPLED/image/jpeg/f8de130e0fc5bae55c864fd339213a61/gr4.jpg gr4 gr4.jpg jpg 138281 895 621 IMAGE-DOWNSAMPLED 1-s2.0-S2468823125004857-gr3.jpg https://s3-eu-west-1.amazonaws.com/prod-ucs-content-store-eu-west/content/pii:S2468823125004857/gr3/DOWNSAMPLED/image/jpeg/3bd26975f357cf29cb4fd7f2f87a962f/gr3.jpg gr3 gr3.jpg jpg 190049 969 678 IMAGE-DOWNSAMPLED 1-s2.0-S2468823125004857-gr2.jpg https://s3-eu-west-1.amazonaws.com/prod-ucs-content-store-eu-west/content/pii:S2468823125004857/gr2/DOWNSAMPLED/image/jpeg/7588332e80e9105908c12a5aeee807ca/gr2.jpg gr2 gr2.jpg jpg 58601 371 565 IMAGE-DOWNSAMPLED 1-s2.0-S2468823125004857-ga1.jpg https://s3-eu-west-1.amazonaws.com/prod-ucs-content-store-eu-west/content/pii:S2468823125004857/ga1/DOWNSAMPLED/image/jpeg/a2563a3150cf5de4247775318324dd80/ga1.jpg ga1 true ga1.jpg jpg 35093 159 500 IMAGE-DOWNSAMPLED 1-s2.0-S2468823125004857-gr1.jpg https://s3-eu-west-1.amazonaws.com/prod-ucs-content-store-eu-west/content/pii:S2468823125004857/gr1/DOWNSAMPLED/image/jpeg/30579496ff35ebfe1bc819c7fae59e47/gr1.jpg gr1 gr1.jpg jpg 58153 227 715 IMAGE-DOWNSAMPLED 1-s2.0-S2468823125004857-gr8.sml https://s3-eu-west-1.amazonaws.com/prod-ucs-content-store-eu-west/content/pii:S2468823125004857/gr8/THUMBNAIL/image/gif/16f873b7a360bd8edb7cbcd9f9d1938b/gr8.sml gr8 gr8.sml sml 10733 164 96 IMAGE-THUMBNAIL 1-s2.0-S2468823125004857-gr7.sml https://s3-eu-west-1.amazonaws.com/prod-ucs-content-store-eu-west/content/pii:S2468823125004857/gr7/THUMBNAIL/image/gif/da42f41ffabcd0eb099db2871ab2cb29/gr7.sml gr7 gr7.sml sml 16670 113 219 IMAGE-THUMBNAIL 1-s2.0-S2468823125004857-gr6.sml https://s3-eu-west-1.amazonaws.com/prod-ucs-content-store-eu-west/content/pii:S2468823125004857/gr6/THUMBNAIL/image/gif/ff67a3c9d32e6cabf82e7c70a6a8f8c1/gr6.sml gr6 gr6.sml sml 17633 112 219 IMAGE-THUMBNAIL 1-s2.0-S2468823125004857-gr5.sml https://s3-eu-west-1.amazonaws.com/prod-ucs-content-store-eu-west/content/pii:S2468823125004857/gr5/THUMBNAIL/image/gif/b4b4c1bc81ca24abb47755b9afbf99ad/gr5.sml gr5 gr5.sml sml 9671 164 139 IMAGE-THUMBNAIL 1-s2.0-S2468823125004857-gr4.sml https://s3-eu-west-1.amazonaws.com/prod-ucs-content-store-eu-west/content/pii:S2468823125004857/gr4/THUMBNAIL/image/gif/dfe40fb09b6a8f3836f5c0accd52f6af/gr4.sml gr4 gr4.sml sml 8906 163 113 IMAGE-THUMBNAIL 1-s2.0-S2468823125004857-gr3.sml https://s3-eu-west-1.amazonaws.com/prod-ucs-content-store-eu-west/content/pii:S2468823125004857/gr3/THUMBNAIL/image/gif/5718ddea0d03319e0bcd44b1c41388e9/gr3.sml gr3 gr3.sml sml 9866 163 114 IMAGE-THUMBNAIL 1-s2.0-S2468823125004857-gr2.sml https://s3-eu-west-1.amazonaws.com/prod-ucs-content-store-eu-west/content/pii:S2468823125004857/gr2/THUMBNAIL/image/gif/d4a8b4c3ae09df022644aa6610ded6b5/gr2.sml gr2 gr2.sml sml 13672 144 219 IMAGE-THUMBNAIL 1-s2.0-S2468823125004857-ga1.sml https://s3-eu-west-1.amazonaws.com/prod-ucs-content-store-eu-west/content/pii:S2468823125004857/ga1/THUMBNAIL/image/gif/a09ee98a0e9741cb11b4e17dfb73c102/ga1.sml ga1 true ga1.sml sml 10561 70 219 IMAGE-THUMBNAIL 1-s2.0-S2468823125004857-gr1.sml https://s3-eu-west-1.amazonaws.com/prod-ucs-content-store-eu-west/content/pii:S2468823125004419/gr1/THUMBNAIL/image/gif/aa67ea8eef807d2183e7cfdc6ac14d7d/gr1.sml gr1 gr1.sml sml 9844 69 219 IMAGE-THUMBNAIL 1-s2.0-S2468823125004857-gr8_lrg.jpg https://s3-eu-west-1.amazonaws.com/prod-ucs-content-store-eu-west/content/pii:S2468823125004857/HIGHRES/image/jpeg/68f6c8d603b47a5390f36d5cdda0a953/gr8_lrg.jpg gr8 gr8_lrg.jpg jpg 965729 4417 2589 IMAGE-HIGH-RES 1-s2.0-S2468823125004857-gr7_lrg.jpg https://s3-eu-west-1.amazonaws.com/prod-ucs-content-store-eu-west/content/pii:S2468823125004857/HIGHRES/image/jpeg/f11cbcf76ed0bb33ebafd8c86b14cddd/gr7_lrg.jpg gr7 gr7_lrg.jpg jpg 655967 1719 3333 IMAGE-HIGH-RES 1-s2.0-S2468823125004857-gr6_lrg.jpg https://s3-eu-west-1.amazonaws.com/prod-ucs-content-store-eu-west/content/pii:S2468823125004857/HIGHRES/image/jpeg/21cbcadd81865809c75b0c016a14481e/gr6_lrg.jpg gr6 gr6_lrg.jpg jpg 684701 1706 3333 IMAGE-HIGH-RES 1-s2.0-S2468823125004857-gr5_lrg.jpg https://s3-eu-west-1.amazonaws.com/prod-ucs-content-store-eu-west/content/pii:S2468823125004857/HIGHRES/image/jpeg/ebca0baa18109d6f35a9e1eaecc38fa1/gr5_lrg.jpg gr5 gr5_lrg.jpg jpg 780816 3247 2750 IMAGE-HIGH-RES 1-s2.0-S2468823125004857-gr4_lrg.jpg https://s3-eu-west-1.amazonaws.com/prod-ucs-content-store-eu-west/content/pii:S2468823125004857/HIGHRES/image/jpeg/e569ecf087ae8b5a3b80a04658aa9566/gr4_lrg.jpg gr4 gr4_lrg.jpg jpg 992124 3964 2750 IMAGE-HIGH-RES 1-s2.0-S2468823125004857-gr3_lrg.jpg https://s3-eu-west-1.amazonaws.com/prod-ucs-content-store-eu-west/content/pii:S2468823125004419/HIGHRES/image/jpeg/4258cc5a9b4c0e3b9e680b521ee0fc5f/gr3_lrg.jpg gr3 gr3_lrg.jpg jpg 1320997 4288 3000 IMAGE-HIGH-RES 1-s2.0-S2468823125004857-gr2_lrg.jpg https://s3-eu-west-1.amazonaws.com/prod-ucs-content-store-eu-west/content/pii:S2468823125004857/HIGHRES/image/jpeg/16384a8e1993893a500dc5ea74dbc0c5/gr2_lrg.jpg gr2 gr2_lrg.jpg jpg 424095 1643 2500 IMAGE-HIGH-RES 1-s2.0-S2468823125004857-ga1_lrg.jpg https://s3-eu-west-1.amazonaws.com/prod-ucs-content-store-eu-west/content/pii:S2468823125004857/HIGHRES/image/jpeg/9853bc091aca5e536ee552f7423dd670/ga1_lrg.jpg ga1 true ga1_lrg.jpg jpg 253234 704 2213 IMAGE-HIGH-RES 1-s2.0-S2468823125004857-gr1_lrg.jpg https://s3-eu-west-1.amazonaws.com/prod-ucs-content-store-eu-west/content/pii:S2468823125004419/HIGHRES/image/jpeg/87cd449c309b0e37fac8902c5741d171/gr1_lrg.jpg gr1 gr1_lrg.jpg jpg 375537 1004 3167 IMAGE-HIGH-RES 1-s2.0-S2468823125004857-mmc3.docx https://s3-eu-west-1.amazonaws.com/prod-ucs-content-store-eu-west/content/pii:S2468823125004857/mmc3/MAIN/application/vnd.openxmlformats-officedocument.wordprocessingml.document/75017efb8245f56865498d8b3cc7223b/mmc3.docx mmc3 mmc3.docx docx 6560887 APPLICATION 1-s2.0-S2468823125004857-mmc1.xlsx https://s3-eu-west-1.amazonaws.com/prod-ucs-content-store-eu-west/content/pii:S2468823125004857/mmc1/MAIN/application/vnd.openxmlformats-officedocument.spreadsheetml.sheet/8b3778903951cfeedf44fa4393d742be/mmc1.xlsx mmc1 mmc1.xlsx xlsx 97035 APPLICATION 1-s2.0-S2468823125004857-mmc2.xlsx https://s3-eu-west-1.amazonaws.com/prod-ucs-content-store-eu-west/content/pii:S2468823125004857/mmc2/MAIN/application/vnd.openxmlformats-officedocument.spreadsheetml.sheet/0dc905c889f7e6e30f16c2092d1b7bdc/mmc2.xlsx mmc2 mmc2.xlsx xlsx 98547 APPLICATION 1-s2.0-S2468823125004857-si1.svg https://s3-eu-west-1.amazonaws.com/prod-ucs-content-store-eu-west/content/pii:S2468823125004857/image/svg+xml/8ddc4b1584cd181ad521f4d727498850/si1.svg si1 si1.svg svg 7963 ALTIMG 1-s2.0-S2468823125004857-si2.svg https://s3-eu-west-1.amazonaws.com/prod-ucs-content-store-eu-west/content/pii:S2468823125004857/image/svg+xml/c5ef81ed11f2c3d192d455a7961b89f9/si2.svg si2 si2.svg svg 9290 ALTIMG 1-s2.0-S2468823125004857-si3.svg https://s3-eu-west-1.amazonaws.com/prod-ucs-content-store-eu-west/content/pii:S2468823125004857/image/svg+xml/418f993aa6064b25fefc723930e19c6c/si3.svg si3 si3.svg svg 8584 ALTIMG 1-s2.0-S2468823125004857-si4.svg https://s3-eu-west-1.amazonaws.com/prod-ucs-content-store-eu-west/content/pii:S2468823125004857/image/svg+xml/4d897eca363aaa2ab88b3396da336143/si4.svg si4 si4.svg svg 11441 ALTIMG 1-s2.0-S2468823125004857-si5.svg https://s3-eu-west-1.amazonaws.com/prod-ucs-content-store-eu-west/content/pii:S2468823125004857/image/svg+xml/ae1ee9829952d799a169c4d160284103/si5.svg si5 si5.svg svg 2275 ALTIMG 1-s2.0-S2468823125004857-si6.svg https://s3-eu-west-1.amazonaws.com/prod-ucs-content-store-eu-west/content/pii:S2468823125004857/image/svg+xml/50895d90afed95ed64692e00bda4e37d/si6.svg si6 si6.svg svg 1352 ALTIMG MCAT 115296 115296 S2468-8231(25)00485-7 10.1016/j.mcat.2025.115296 Elsevier B.V. Fig. 1 Schematic of the machine learning framework for SCR catalyst optimization. Fig 1 Fig. 2 Pearson correlation analysis of interdependence between all input features. Fig 2 Fig. 3 Comparative analysis of model performance: Actual vs. predicted NO x conversion values for: (a)CatBoost, (b)XGBR, (c)GBR, (d) ETR, (e)LightGBM, (f)RFR, (g)KNN, (h)LSVR, (i)LR and (j)Ridge, prediction error metrics of NO x conversion: (k)R2, (l)RMSE and (m)MAE. Fig 3 Fig. 4 Comparative analysis of model performance: Actual vs. predicted N2 selectivity values for: (a)CatBoost, (b)XGBR, (c)GBR, (d)LightGBM, (e)ETR, (f)KNN, (g)RFR, (h)LSVR, (i)LR, (j)Ridge; prediction error metrics of N2 selectivity: (k)R2, (l)RMSE and (m)MAE. Fig 4 Fig. 5 Feature importance sorting based on SHAP value for NO x conversion(a) and N2 selectivity(c). Beeswarm plots of feature importance for NO x conversion(b) and N2 selectivity(d). Fig 5 Fig. 6 Output feature is NO x conversion, the thermal map of interaction between RT and molar ratio of Mn (a), Ce (b), Ti (c), Dry-T (d), Cal-T (e) and GHSV (f). Fig 6 Fig. 7 Output feature is N2 selectivity, the thermal map of interaction between RT and molar ratio of Mn (a), Ce (b), Ti (c), FR (d), Cal-TM (e) and Dry-T (f). Fig 7 Fig. 8 Comparison of experimental and predicted values for NO x conversion (a)(c)(e)(g) and N2 selectivity (b)(d)(f)(h). Fig 8 Table 1 Key hyperparameters of each model (hyperparameters not listed here were kept at their default values). Table 1 Model Hyperparameters LR / Ridge alpha = 1 LSVR C = 10, epsilon = 0.001, tol = 0.0001 RF n_estimators = 800, max_depth = 19 KNN n_neighbors = 2 ETR max_depth = 16, min_samples_leaf = 1, min_samples_split = 2, n_estimators = 400 GBR alpha = 0.75, learning_rate = 0.07, max_depth = 10, n_estimators = 250, subsample = 0.5 XGBR learning_rate = 0.06, max_depth = 8, n_estimators = 800, subsample = 0.6 CatBoost iterations = 1000, learning_rate = 0.1, depth = 9, subsample = 0.7 LightGBM n_estimators = 900, max_depth = 9, learning_rate = 0.1, subsample = 0.5 Table 2 Catalyst preparation and experimental working condition parameters of the selected studies. Table 2 Feature type Feature Value [35] Value [36] Value [37] Value [38] Catalyst preparation conditions Dry-T ( °C) 103 105 80 60 Dry-TM (h) 12 12 12 12 Cal-T ( °C) 400 450 500 400 Cal-TM (h) 4 4 4 6 Catalyst chemical compositions molar ratio_Mn 0.184 0.272 0.668 0.25 molar ratio_Ce 0.014 0.048 0.021 0 molar ratio_Ti 0.802 0.68 / 0.625 molar ratio_Co / / 0.311 / molar ratio_Fe / / / 0.125 SCR reaction conditions NOCon (ppm) 200 800 500 500 NH3 Con (ppm) 200 800 500 500 O2 Con (vol %) 8 5 5 5 RT ( °C) 120–200 80–200 50–300 50–350 GHSV (h-1) 30,000 10,000 40,000 30,000 FR (mL/min) 60 1000 100 400 Research Paper Machine learning-driven rapid screening and performance prediction of NH3-SCR catalyst Haonan Wang Writing – original draft Visualization Software Investigation Formal analysis Data curation Qiulin Wang Writing – review & editing Writing – original draft Resources Funding acquisition Conceptualization ⁎ Jiayi Zhao Writing – review & editing Methodology Investigation Chenyang Liu Visualization Data curation Jiaxin Feng Software Investigation Jing Jin Supervision Dunyu Liu Supervision School of Energy and Power Engineering, University of Shanghai for Science and Technology, Shanghai, 200093, PR China School of Energy and Power Engineering University of Shanghai for Science and Technology Shanghai 200093 PR China School of Energy and Power Engineering, University of Shanghai for Science and Technology, Shanghai, 200093, PR China ⁎ Corresponding author. Traditional research and development of catalysts mainly rely on experimental trial-and-error methods, which struggle to meet the demand for efficient catalysts in the energy and environmental fields. Applying machine learning to catalyst design can achieve rapid screening of catalysts, thus overcoming the limitations of the traditional trial-and-error methods and solving the problems of low efficiency and high cost affecting catalyst research and development. This paper reports the development of a catalytic database containing 751 sets of data, with 30 input features divided into three categories, such as catalyst composition, preparation conditions, and catalytic reaction conditions, along with NO x conversion and N2 selectivity serving as output features. A machine learning approach was used to assist in the formulation screening and performance prediction of selective catalytic reduction (SCR) catalysts. The Categorical boosting (CatBoost) model was found to exhibit the best performance among the 10 models explored, with R 2, Mean absolute error (MAE), and Root mean square error (RMSE) values of 0.999, 0.006, and 0.008, respectively. The importance of each input feature for model prediction was obtained using the SHapley Additive exPlanations (SHAP) method, which showed that the reaction temperature and Mn elemental molar ratio had the greatest effect on NO x conversion and N2 selectivity. This study provides guidance for the screening, reaction condition optimization, and performance prediction of SCR catalysts. The successful integration of machine learning with experimental methods represents an effective strategy that can accelerate the discovery of catalysts. Graphical abstract Image, graphical abstract Keywords Machine learning SCR catalyst Precise screening Performance prediction N2 selectivity Data availability Data will be made available on request. Nomenclature Abbreviation Full name Dry-T Dry temperature Dry-TM Dry time Cal-T Calcination temperature Cal-TM Calcination time NOCon Concentration of NO NH3 Con Concentration of NH3 O2 Con Concentration of O2 GHSV Gas hourly space velocity RT Reaction temperature FR Flow rate W-IP Wet impregnation CP Co-precipitation IP Impregnation HT Hydrothermal SG Sol–gel HP Homogeneous precipitation SV Solvothermal approach AMOST Aqueous miscible organic solvent treatment R 2 R-square RMSE Root mean square error MAE Mean absolute error LR Linear regression LSVR Linear support vector regression KNN K neighbours regression RFR Random forest regression ETR Extra tree regression GBR Gradient boosting regression XGBR eXtreme Gradient Boosting Regression LightGBM Light gradient boosting machine CatBoost Categorical boosting 1 Introduction The “Dual Carbon” strategic initiative is accelerating the transition of China's energy structure toward green and low-carbon development. However, fossil fuel combustion still dominates the energy mix of the country [1,2]. Nitrogen oxides (NO x ), as one of the major air pollutants produced by the combustion of fossil fuels, cause environmental issues such as haze, acid rain, and photochemical smog pollution [3]. The ammonia selective catalytic reduction (NH3-SCR) technology is currently one of the most effective methods for terminal denitrification in coal-fired power plants, owing to its high efficiency, low reaction temperature, and absence of secondary pollution [4,5]. Catalysts play a central role in the NH3-SCR process, directly affecting the NO x conversion and N2 selectivity [6]. Currently, commercial SCR catalysts mainly include metal oxides based on vanadium (V), tungsten (W), and titanium (Ti), with high NO x conversion and N2 selectivity within a narrow active window of 300–400 °C. As the new power systems increasingly rely on renewable energy integration, coal-fired units must now operate with rapid and flexible peaking responses across wide load ranges to balance grid fluctuations. This demand for enhanced operational flexibility requires the development of novel SCR catalysts capable of maintaining high activity, long lifespan, and superior performance under variable load conditions, which makes their advancement a critical technical challenge [7]. Traditional catalyst development is mainly based on empirical approaches and iterative trial-and-error methods [8], which requires extensive testing and performance evaluation for each candidate formulation [9]. The emergence of “catalytic informatics” has caused a paradigm shift in multiphase catalysis research since 2001 [10]. This data-driven approach leverages large-scale reaction and compositional datasets to extract structure–activity relationships, identify performance-determining factors, and predict the behavior of catalysts. By integrating data mining and machine learning techniques, catalytic informatics enables rational design of catalysts and optimizes experimental workflows [11]. The rapid advancement of artificial intelligence has enabled widespread machine learning applications across diverse fields, including medicine [12], environment [13], energy [14], and finance [15]. By training on suitable datasets, machine learning builds predictive models that autonomously extract patterns and trends from historical data, converting raw information into actionable knowledge. This ability provides robust support for decision-making in various domains [16]. In the field of catalysis, machine learning is transforming traditional trial-and-error methods, accelerating catalyst discovery and optimizing reaction conditions [17]. While machine learning holds significant promise for catalyst design, its implementation faces several critical challenges. In particular, the insufficient data quality and quantity significantly impair the accuracy and generalization ability of the models. Additionally, inherent experimental noise and systematic bias adversely affect the accuracy and reliability of the model [18]. Moreover, the complex and multiscale physicochemical phenomena occurring in catalytic systems further complicate the feature selection, especially in identifying key descriptors governing the catalytic performance. Current studies predominantly focus on NH3-SCR within a narrow temperature range (100–400 °C), analyzing only the NO x conversion while ignoring the N2 selectivity. Addressing these limitations requires more comprehensive catalytic datasets as well as advanced machine learning models, capable of dual-target prediction of NO x conversion and N2 selectivity. This study presents a machine learning framework for predicting the performance of SCR catalysts across an extended temperature range (50–650 °C) and rapidly identifying optimal catalyst formulations (Fig. 1 ). A comprehensive database of SCR catalysts was constructed, comprising 751 data points extracted from published papers, with 30 input features categorized into (1) preparation conditions, (2) chemical composition, and (3) reaction parameters. The output features included both NO x conversion and N2 selectivity. CatBoost and LightGBM algorithms were employed for the first time in SCR catalyst research, and exhibited superior capabilities in modeling complex, nonlinear relationships within the dataset. The models identified Mn–Ce–Ti as the optimal catalyst system for NH3-SCR reaction. Feature importance analysis using SHAP values identified key performance-determining factors, whereas heatmap analysis was used to explore interactions between high-impact parameters. To validate the prediction accuracy of the CatBoost model, an external dataset was employed for verification. This approach establishes a robust methodology for data-driven catalyst development and process optimization in SCR systems. 2 Methods 2.1 Database construction and pre-processing A comprehensive database of NH3-SCR catalysts was constructed for machine learning analysis by systematically collecting 751 data points from 73 high-quality publications (2014–2024), which were selected based on three rigorous criteria: (1) complete documentation of catalyst composition, preparation conditions, reaction parameters, and performance metrics; (2) broad coverage of diverse catalyst types and operating conditions; and (3) preference for high-impact journal publications. The above decade was specifically chosen owing to the significant advancements in NH3-SCR technology and improved experimental accuracy achieved during this period. The database comprises 30 input features categorized into 3 performance-critical groups: active component molar ratios, preparation conditions, and reaction conditions, with the NO x conversion and N2 selectivity selected as output features. The frequency distribution of the catalyst constituent elements in the database is shown in Fig. S1. Ce and Mn show the highest occurrence frequencies (385 and 274 instances, respectively), while Si exhibits the lowest frequency (16 instances) among all constituent elements. The commonly used preparation methods (e.g., wet impregnation, coprecipitation, impregnation, and hydrothermal synthesis) and their occurrence frequencies are summarized in Fig. S2; these methods were excluded as quantitative input features owing to their inherent qualitative nature. However, four key preparation parameters (Cal-T, Cal-TM, Dry-T, and Dry-TM) were included as model inputs. The reaction conditions included NOCon, NH3 Con, O2 Con, GHSV, RT, and FR, with their value ranges detailed in Fig. S3. Pearson correlation analysis (Fig. 2 ) revealed no significant inter-feature correlations, which indicates that the features selected for machine learning training are not redundant. To address the significant scale variations among the input features (e.g., calcination temperatures of 200–650 °C and calcination times of 2–6 h), feature normalization was applied to prevent dominance of a particular feature during model training. All features were scaled to [0,1] using min–max normalization (Eq. (1)), which enhances the model convergence and prediction accuracy: (1) y i = x i − x min x max − x min where y i represents the normalized value of the i th instance, x i denotes the original value, and x max/x min correspond to the maximum/minimum values of each feature, respectively. 2.2 Algorithm introduction In this study, the prediction of the NO x conversion and N2 selectivity of SCR catalysts represents a regression problem; hence, 10 machine learning models commonly used in various regression problems were compared: linear regression (LR), ridge, linear SVR, K neighbours regression (KNN), random forest regression (RFR), extra tree regression (ETR), gradient boosting regression (GBR), XGB regression (XGBR), light gradient boosting machine (LightGBM), and categorical boosting (CatBoost). Among them, LightGBM and CatBoost are highly efficient models widely used in fields such as finance and healthcare. They perform exceptionally well when dealing with large amounts of data and complex relationships among characteristic variables. However, they have not yet been used in the field of catalysis. In this study, we first used these models for screening and performance prediction of SCR catalysts. All model training processes were performed using Python 3.9 and the scikit-learn package [19]. The key hyperparameters for each model are listed in Table 1 . The model was partitioned using the train_test_split tool in the scikit-learn package, in which 80 % of the instances in the database were randomly selected as the training set for the model, and the remaining 20 % were used as the test set. Model optimization was performed using 10-fold cross-validation. The latter avoids chance due to a specific division by performing multiple random splits of the dataset, ensuring that the selected hyperparameters and models perform more reliably on unknown data. The training set was randomly divided into 10 equal-sized subsets during the training process, and the subsets did not overlap. In each iteration, one subset was selected as the validation set and the remaining nine subsets were used as the training set; then, 10 model training and validation processes were performed, and the average of the validation results was used as the error of this model. After model optimization, the test set was used to evaluate the performance of the machine learning model. 2.3 Model evaluation To identify the optimal machine learning model for SCR performance prediction, three established evaluation metrics, such as coefficient of determination (R 2), root mean square error (RMSE), and mean absolute error (MAE) were used to assess the model reliability, the prediction accuracy, and the absolute deviation between predicted and actual values, according to Eqs. (2), (3), and (4), respectively: (2) R 2 = 1 − ∑ i = 1 N ( y ai − y i ^ ) 2 ∑ i = 1 N ( y ai − y ‾ ) 2 (3) MAE = 1 N ∑ i = 1 N | y ai − y i ^ | (4) RMSE = 1 N ∑ i = 1 N ( y ai − y i ^ ) 2 where N denotes the total number of observations, y ai represents the experimentally measured NO x conversion or N2 selectivity for the i th sample, y i ^ corresponds to the model-predicted NO x conversion or N2 selectivity value, and y ¯ indicates the mean NO x conversion or N2 selectivity across all samples. 3 Results and discussion 3.1 Model selection Ten regression models were systematically evaluated to identify the best-performing ones for SCR catalyst prediction. As shown in Fig. 3 and Fig. 4 , the linear models (LR, ridge, LSVR) exhibited inferior predictive capability for both NO x conversion and N2 selectivity, with the ridge model showing the poorest performance. For NO x conversion prediction, the ridge achieved training/test R2 of 0.217/0.178, RMSE of 0.252/0.275 and MAE of 0.207/0.228, respectively. Similarly, it yielded the worst training/test R2 of 0.397/0.378, RMSE of 0.106/0.113 and MAE of 0.069/0.073 in N2 selectivity prediction. This poor performance arises from the fundamental limitation of linear models, which applicable to linear feature–target relationships, whereas the SCR catalytic behavior involves complex nonlinear dependencies. The KNN model, whose principle is to predict a target by voting based on its nearest neighbours [20], demonstrated improved predictive performance for both NO x conversion (training/test R 2 = 0.851/0.647; RMSE = 0.110/0.180; MAE = 0.077/0.120) and N2 selectivity (training/test R 2 = 0.995/0.785; RMSE = 0.017/0.067; MAE = 0.012/0.033) compared to the linear models. This enhancement arises from the capacity of the KNN model to capture nonlinear feature relationships, which aligns better with the complex dependencies of the dataset. However, the KNN model remains inferior to ensemble methods owing to its susceptibility to noise, sensitivity to outliers, and reduced effectiveness in high-dimensional feature spaces, making it suboptimal for the present application. The remaining six models (i.e., CatBoost, LightGBM, XGBR, GBR, ETR, and RFR) synergistically combine multiple weak learners to enhance the predictive performance. These algorithms consistently outperformed both the linear and KNN models, exhibiting greater predictive accuracy, enhanced robustness against data variability, and superior generalization capabilities. Among these models, CatBoost demonstrated exceptional performance, achieving near-perfect training accuracy (R 2 = 0.999) while maintaining strong test set predictions for both NO x conversion (R 2 = 0.886, RMSE = 0.103, MAE = 0.073) and N2 selectivity (R 2 = 0.894, RMSE = 0.047, MAE = 0.025). Since its introduction in 2018 [21], CatBoost has emerged as a particularly effective machine learning algorithm for handling complex high-dimensional datasets. The SCR catalyst system targeted in this study presents significant modeling challenges, owing to (1) the high dimensionality of the feature space (30 input features) and (2) the intricate nonlinear relationships between preparation conditions, catalyst composition, and reaction performance. The CatBoost model addresses these challenges through two key innovations: its ordered boosting algorithm, which corrects gradient computation to minimize prediction bias, and advanced regularization techniques that effectively prevent overfitting while enhancing the generalization ability [22]. These technical advantages enabled CatBoost to achieve superior predictive accuracy for both NO x conversion and N2 selectivity (R 2 > 0.88 on test sets), outperforming other ensemble methods. Therefore, CatBoost was selected for detailed feature importance analysis and model interpretation in subsequent tests. 3.2 Feature importance analysis based on SHAP SHAP is a game theory-derived interpretability framework [23], which enables the quantitative evaluation of both global feature importance and local instance-specific contributions in predictive models. In this study, this method was employed to elucidate the decision-making mechanism of the optimized CatBoost model, revealing how the input features collectively govern the predictions of the SCR catalyst performance by quantifying their corresponding contributions. Figs. 5(a)(c) present the mean absolute SHAP values for the input features, quantifying their global importance in the predictions of the CatBoost model; higher values reflect stronger contributions to the prediction of the performance of the SCR catalyst. Additionally, Figs. 5(b)(d) display the distributions of SHAP values, which reveal directional feature effects: positive values denote features that enhance the catalytic activity, while negative values indicate inhibitory factors. This bidirectional interpretation clarifies both the magnitude of the influence of the different features and their mechanistic roles in governing the catalytic behavior. Based on the SHAP analysis, it was found that the RT factor showed the greatest impact on NO x conversion and N2 selectivity. As shown in Figs. 5(a)(c), the mean absolute SHAP values for RT in NO x conversion and N2 selectivity predictions were quantified at 0.137 and 0.036, respectively, revealing its different influence on these performance metrics. As evidenced by the positive SHAP value distribution in Fig. 5 b, elevated temperatures could enhance the NO x conversion, possibly because of (1) the intensified molecular collisions arising from the accelerated thermal motion, which favor the NH3-SCR kinetics [24], and (2) the enhanced redox cycling of the catalyst, improving its adsorption and activation abilities for NH3 and NO species [25]. However, Fig. 5(d) shows that an extremely high temperature (> 400 °C) adversely affected the N2 selectivity, as indicated by negative SHAP values. This is because excessively high temperatures may lead to the non-selective oxidation of NH3 on the catalyst surface, which favors N2O formation over N2 through the reaction 2NH3 + 2O2 → N2O + 3H2O [26]. In addition, high temperatures may also cause the catalyst deactivation by sintering active components and reducing surface area [27]. Moreover, the molar ratio_Mn had a strong influence on NO x conversion and N2 selectivity, with average absolute SHAP values of 0.038 (Fig. 5(a)) and 0.054(Fig. 5(c)), respectively. According to the beeswarm plots of feature importance for NO x conversion (Fig. 5(b)) and N2 selectivity (Fig. 5(d)), molar ratio_Mn showed a positive and negative correlation with the NO x conversion and N2 selectivity, respectively. The former indicates that increasing the molar ratio_Mn enhanced the NO x conversion, while the latter denotes that an excessively high molar ratio_Mn value significantly reduced the N2 selectivity. The first step in the NH3-SCR reaction is generally considered to be the adsorption of NH3. Then, the adsorbed NH3 undergoes a redox reaction with either gaseous NO x (Eley–Rideal mechanism) or adsorbed NO x intermediates (Langmuir–Hinshelwood mechanism), ultimately producing N2 and H2O [28]. Thus, the acidic sites and reactive oxygen species on the catalyst surface play important roles in reactant adsorption and redox reactions, respectively. The different effects of molar ratio_Mn on the NO x conversion and N2 selectivity arise from the dual role of Mn in modulating the redox capacity and surface acidity of the catalyst. On one hand, the multivalent nature of Mn (Mn²⁺/Mn³⁺/Mn⁴⁺) generates abundant reactive oxygen species on the surface, synergistically and dynamically facilitating redox cycling processes in the catalyst system [29]; on the other hand, the presence of Mn can provide abundant surface acidic sites, facilitating both NH3 adsorption and the subsequent activation, further enhancing the NO x conversion [30]. However, as evidenced by the negative SHAP values in Fig. 5(d), an excessively high molar ratio_Mn adversely affects the N2 selectivity, because it results in an imbalance between redox capacity and surface acidic sites in catalytic systems. This phenomenon causes non-selective NH3 oxidation on catalytic surfaces and reduces the N2 selectivity. As shown in Figs. 5(a)(c), the molar ratio_Ce and molar ratio_Ti emerged as secondary critical factors for both NO x conversion and N2 selectivity, following molar ratio_Mn in influence magnitude. CeO2 serves as a preferred catalytic promoter owing to its unique dual-valent redox cycling (Ce³⁺/Ce⁴⁺), which synergistically enhances the oxygen storage capacity and modulates the surface acidity through oxygen vacancy formation [31]. At the same time, TiO2 serves as an optimal support material, demonstrating exceptional sulfur resistance and thermal stability. It further facilitates the dispersion of active components while creating mesoporous architectures that enhance the acidic site density [32]. Notably, SHAP analysis revealed non-monotonic relationships between the Ce/Ti concentrations and the catalytic performance metrics (Figs. 5(b)(d)), suggesting that their catalytic efficacy originates from synergistic interactions, rather than isolated concentration effects. This phenomenon is likely due to the multicomponent coordination required for effective NH3-SCR mechanisms, where Ce–Ti–Mn ternary interactions (e.g., Ce–O–Ti–Mn–O surface configurations) and preparation parameters (e.g., calcination atmosphere and precursor ratios) collectively govern the reaction pathways [33]. According to Figs. 5(a)(c), the Dry-T and Cal-T were found to have strong effects on the NO x conversion and N2 selectivity. However, no clear positive or negative correlation between Dry-T and NO x conversion is observed in Fig. 5(b). This is likely due to synergistic or counteractive interactions between Dry-T and other preparation parameters (e.g., Dry-TM, Cal-TM), resulting in an insignificant individual effect of Dry-T. However, Fig. 5(d) reveals that excessively high Dry-T resulted in a reduced N2 selectivity. This phenomenon may stem from damage to the catalyst pores and reduced specific surface area under excessive Dry-T conditions, which hinder the diffusion of reactants (NO x and NH3) to the active sites and obstruct the NH3 NO reaction pathway for N2 formation [34]. No significant positive or negative correlation was observed between Cal-T and NO x conversion or N2 selectivity (Figs. 5(b)(d)). This is likely due to the presence of other influencing factors in the NH3-SCR process (e.g., RT, GHSV), where SHAP analysis may fail to capture synergistic effects, thereby weakening the contribution of individual features. 3.3 Machine learning-assisted SCR prediction and verification In this section, the pairwise interaction effects of the key input features on the NO x conversion (Fig. 6 ) and N2 selectivity (Fig. 7 ) are systematically investigated using heatmaps based on the CatBoost model. This enables the determination of the optimal operating temperature ranges for the targeted catalyst. This analysis enabled to identify parameter combinations simultaneously achieving > 80 % NO x conversion and N2 selectivity within the 100–300 °C range, including optimized active component ratios (molar ratio_Mn = 0.1–0.3; molar ratio_Ce = 0.1–0.4; molar ratio_Ti = 0.8–0.9) and preparation conditions (Dry-T = 100–120 °C; Cal-T = 400–600 °C). To confirm the accuracy of the CatBoost model in performance prediction and parameter optimization, experimental data from four independent studies [35–38] not included in the original dataset were compared with the model predictions. The selected studies specifically investigated the low-temperature denitrification activity of catalysts with different compositions, with experimental operating conditions detailed in Table 2 . Fig. 8 compares the experimentally measured from literatues and CatBoost-predicted catalytic performance metrics. The model demonstrates predictive consistency across four independent validation studies, with RMSE values ranging from 2.7 % to 19.0 %. This variability aligns with the inherent stochasticity in machine learning training processes, which may induce minor prediction fluctuations between subsequent training iterations. Notably, even with this inherent uncertainty, the CatBoost framework successfully identifies high-performance catalyst formulations within experimentally validated error margins. These findings demonstrate that machine learning can serve as an effective high-throughput screening tool for catalyst development, facilitating the data-driven optimization of synthesis and reaction parameters to accelerate the discovery of high-performance catalytic systems. 4 Conclusion This study establishes a machine learning-driven framework for SCR catalyst screening and performance prediction. A comprehensive catalytic database containing 751 data points with 30 input and 2 output features was systematically constructed from peer-reviewed NH3-SCR studies published between 2014 and 2024. The comparative evaluation of 10 machine learning models showed that the CatBoost model exhibited superior predictive accuracy and generalization ability. SHAP analysis revealed four dominant performance-determining factors: the reaction temperature along with the molar ratios of Mn/Ce/Ti elements, which collectively govern the NO x conversion efficiency and N2 selectivity. Detailed analysis of feature–output thermal maps enabled to identify the optimal parameter ranges ensuring simultaneous achievement of > 85 % NO x conversion and N2 selectivity across the 100–300 °C operational window. The predictive reliability of the model was rigorously validated against independent experimental datasets from the literatures, yielding RMSE values of 2.7 %–19.0 %. The present machine learning approach achieves three critical advancements in catalyst development: (1) systematic optimization of synthesis parameters (metal ratios, thermal processing conditions); (2) reduction in conventional screening costs through predictive modeling; and (3) accelerated discovery of high-efficiency SCR catalysts with tailored temperature–response profiles. CRediT authorship contribution statement Haonan Wang: Writing – original draft, Visualization, Software, Investigation, Formal analysis, Data curation. Qiulin Wang: Writing – review & editing, Writing – original draft, Resources, Funding acquisition, Conceptualization. Jiayi Zhao: Writing – review & editing, Methodology, Investigation. Chenyang Liu: Visualization, Data curation. Jiaxin Feng: Software, Investigation. Jing Jin: Supervision. Dunyu Liu: Supervision. Declaration of competing interest The authors declare that they have no known competing financial interests or personal relationships that could have appeared to influence the work reported in this paper. Acknowledgments This research is supported by Natural Science Foundation of Shanghai (24ZR1454400) and the Shanghai Committee of Science and Technology (No. 23010503500). Supplementary materials Supplementary material associated with this article can be found, in the online version, at doi:10.1016/j.mcat.2025.115296. Appendix Supplementary materials Image, application 1 Image, application 2 Image, application 3 References [1] T. Huang X. Zhu Q. Zhong X. Yun W. Meng B. Li J. Ma E.Y. Zeng S. Tao Spatial and temporal trends in global emissions of nitrogen oxides from 1960 to 2014 Environ. Sci. Technol. 51 14 2017 7992 8000 10.1021/acs.est.7b02235 T. Huang, X. Zhu, Q. Zhong, X. Yun, W. Meng, B. Li, J. Ma, E.Y. Zeng, S. Tao, Spatial and temporal trends in global emissions of nitrogen oxides from 1960 to 2014, Environ. Sci. Technol. 51 (14) (2017) 7992–8000, https://doi.org/10.1021/acs.est.7b02235. [2] C. Oberschelp S. Pfister C.E. Raptis S. Hellweg Global emission hotspots of coal power generation Nat. Sustain. 2 2 2019 113 121 10.1038/s41893-019-0221-6 C. Oberschelp, S. Pfister, C.E. Raptis, S. Hellweg, Global emission hotspots of coal power generation, Nat. Sustain. 2 (2) (2019) 113–121, https://doi.org/10.1038/s41893-019-0221-6. [3] F. Yang X. Wang C. Qu F. Meng W. Liu Q. Ye Boosting NO removal performance of selective catalytic reduction with NH3 on hydrotalcite derived NiCuFe mixed oxides synthesized via urea hydrothermal method Reac. Kinet. Mech. Cat. 137 3 2024 1435 1454 10.1007/s11144-024-02590-5 F. Yang, X. Wang, C. Qu, F. Meng, W. Liu, Q. Ye, Boosting NO removal performance of selective catalytic reduction with NH3 on hydrotalcite derived NiCuFe mixed oxides synthesized via urea hydrothermal method, Reac. Kinet. Mech. Cat. 137 (3) (2024) 1435–1454, https://doi.org/10.1007/s11144-024-02590-5. [4] Z. Shi Q. Peng J. E B. Xie J. Wei R. Yin G. Fu Mechanism, performance and modification methods for NH3-SCR catalysts: a review Fuel 331 2023 125885 10.1016/j.fuel.2022.125885 Z. Shi, Q. Peng, J. E, B. Xie, J. Wei, R. Yin, G. Fu, Mechanism, performance and modification methods for NH3-SCR catalysts: a review, Fuel 331 (2023) 125885, https://doi.org/10.1016/j.fuel.2022.125885. [5] Z. Ma J. Deng Z. Li Q. Li P. Zhao L. Wang Y. Sun H. Zheng L. Pan S. Zhao J. Jiang Wang S L. Duan Characteristics of NO x emission from Chinese coal-fired power plants equipped with new technologies Atmos. Environ. 131 2016 164 170 10.1016/j.atmosenv.2016.02.006 Z. Ma, J. Deng, Z. Li, Q. Li, P. Zhao, L. Wang, Y. Sun, H. Zheng, L. Pan, S. Zhao, J. Jiang, S, Wang, L. Duan, Characteristics of NOx emission from Chinese coal-fired power plants equipped with new technologies, Atmos. Environ. 131 (2016) 164–170, https://doi.org/10.1016/j.atmosenv.2016.02.006. [6] M. Guo Q. Liu P. Zhao J. Han X. Li Y. Ha Z. Fu C. Song N. Ji C. Liu D. Ma Z. Li Promotional effect of SO2 on Cr2O3 catalysts for the marine NH3-SCR reaction Chem. Eng. J. 361 2019 830 838 10.1016/j.cej.2018.12.100 M. Guo, Q. Liu, P. Zhao, J. Han, X. Li, Y. Ha, Z. Fu, C. Song, N. Ji, C. Liu, D. Ma, Z. Li, Promotional effect of SO2 on Cr2O3 catalysts for the marine NH3-SCR reaction, Chem. Eng. J. 361 (2019) 830–838, https://doi.org/10.1016/j.cej.2018.12.100. [7] B.R. Goldsmith J.A. Esterhuizen J. Liu C.J. Bartel C. Sutton Machine learning for heterogeneous catalyst design and discovery AIChE J. 64 7 2018 2311 2323 10.1002/aic.16198 B.R. Goldsmith, J.A. Esterhuizen, J. Liu, C.J. Bartel, C. Sutton, Machine learning for heterogeneous catalyst design and discovery, AIChE J.. 64 (7) (2018) 2311–2323, https://doi.org/10.1002/aic.16198. [8] L. Wang J. Wu S. Wang H. Liu Y. Wang D. Wang The reformation of catalyst: from a trial-and-error synthesis to rational design Nano Res. 17 4 2024 3261 3301 10.1007/s12274-023-6037-8 L. Wang, J. Wu, S. Wang, H. Liu, Y. Wang, D. Wang, The reformation of catalyst: from a trial-and-error synthesis to rational design, Nano Res.. 17 (4) (2024) 3261–3301, https://doi.org/10.1007/s12274-023-6037-8. [9] P. Schlexer K.T. Winther J.A. Garrido Torres V. Streibel M. Zhao M. Bajdich F.A. Pedersen T. Bligaard Machine learning for computational heterogeneous catalysis Chemcatchem 11 16 2019 3581 3601 10.1002/cctc.201900595 P. Schlexer, K.T. Winther, J.A. Garrido Torres, V. Streibel, M. Zhao, M. Bajdich, F.A. Pedersen, T. Bligaard, Machine learning for computational heterogeneous catalysis, Chemcatchem 11 (16) (2019) 3581–3601, https://doi.org/10.1002/cctc.201900595. [10] A.J. Medford M.R. Kunz S.M. Ewing T. Borders R. Fushimi Extracting knowledge from data through catalysis informatics ACS Catal. 8 8 2018 7403 7429 10.1021/acscatal.8b01708 A.J. Medford, M.R. Kunz, S.M. Ewing, T. Borders, R. Fushimi, Extracting knowledge from data through catalysis informatics. ACS Catal.. 8 (8) (2018) 7403–7429, https://doi.org/10.1021/acscatal.8b01708. [11] M. Suvarna J. Pérez-Ramírez Embracing data science in catalysis research Nat. Catal. 7 6 2024 624 635 10.1038/s41929-024-01150-3 M. Suvarna, J. Pérez-Ramírez, Embracing data science in catalysis research, Nat. Catal. 7 (6) (2024) 624–635, https://doi.org/10.1038/s41929-024-01150-3. [12] G.S. Handelman H.K. Kok R.V. Chandra A.H. Razavi M.J. Lee H. Asadi eDoctor: machine learning and the future of medicine J. Intern. Med. 284 6 2018 603 619 10.1111/joim.12822 G.S. Handelman, H.K. Kok, R.V. Chandra, A.H. Razavi, M.J. Lee, H. Asadi, eDoctor: machine learning and the future of medicine, J. Intern. Med. 284 (6) (2018) 603–619, https://doi.org/10.1111/joim.12822. [13] T. Deng K.W. Chau H.F. Duan Machine learning based marine water quality prediction for coastal hydro-environment management J. Environ. Manage. 284 2021 112051 10.1016/j.jenvman.2021.112051 T. Deng, K.W. Chau, H.F. Duan, Machine learning based marine water quality prediction for coastal hydro-environment management. J. Environ. Manage. 284 (2021) 112051, https://doi.org/10.1016/j.jenvman.2021.112051. [14] A. Mosavi M. Salimi S. Faizollahzadeh Ardabili T. Rabczuk S. Shamshirband A.R. Varkonyi-Koczy State of the art of machine learning models in energy systems, a systematic review Energies 12 7 2019 1301 10.3390/en12071301 A. Mosavi, M. Salimi, S. Faizollahzadeh Ardabili, T. Rabczuk, S. Shamshirband, A.R. Varkonyi-Koczy, State of the art of machine learning models in energy systems, a systematic review, Energies 12 (7) (2019) 1301, https://doi.org/10.3390/en12071301. [15] J.W. Goodell S. Kumar W.M. Lim D. Pattnaik Artificial intelligence and machine learning in finance: identifying foundations, themes, and research clusters from bibliometric analysis J. Behav. Exp. Finance 32 2021 100577 10.1016/j.jbef.2021.100577 J.W. Goodell, S. Kumar, W.M. Lim, D. Pattnaik, Artificial intelligence and machine learning in finance: identifying foundations, themes, and research clusters from bibliometric analysis, J. Behav. Exp. Finance 32 (2021) 100577, https://doi.org/10.1016/j.jbef.2021.100577. [16] Y. Dong Y. Zhang M. Ran X. Zhang S. Liu Y. Yang W. Hu C. Zheng X. Gao Accelerated identification of high-performance catalysts for low-temperature NH3-SCR by machine learning J. Mater. Chem. A 9 42 2021 23850 23859 10.1039/D1TA06772A Y. Dong, Y. Zhang, M. Ran, X. Zhang, S. Liu, Y. Yang, W. Hu, C. Zheng, X. Gao, Accelerated identification of high-performance catalysts for low-temperature NH3-SCR by machine learning, J. Mater. Chem. A 9 (42) (2021) 23850–23859, https://doi.org/10.1039/D1TA06772A. [17] H. Xin Catalyst design with machine learning Nat. Energy 7 2022 790 791 10.1038/s41560-022-01112-8 H. Xin, Catalyst design with machine learning, Nat. Energy 7 (2022) 790–791, https://doi.org/10.1038/s41560-022-01112-8. [18] L.G.D. Araujo L. Vilcocq P. Fongarland Y. Schuurman Recent developments in the use of machine learning in catalysis: a broad perspective with applications in kinetics Chem. Eng. J. 508 2025 160872 10.1016/j.cej.2025.160872 L.G.D. Araujo, L. Vilcocq, P. Fongarland, Y. Schuurman, Recent developments in the use of machine learning in catalysis: a broad perspective with applications in kinetics, Chem. Eng. J. 508 (2025) 160872. https://doi.org/10.1016/j.cej.2025.160872. [19] F. Pedregosa G. Varoquaux A. Gramfort V. Michel B. Thirion O. Grisel M. Blondel P. Prettenhofer R. Weiss V. Dubourg J. Vanderplas A. Passos D. Cournapeau M. Brucher M. Perrot É. Duchesnay Scikit-learn: machine learning in Python J. Mach. Learn. Res. 12 2011 2825 2830 10.48550/arXiv.1201.0490 F. Pedregosa, G. Varoquaux, A. Gramfort, V. Michel, B. Thirion, O. Grisel, M. Blondel, P. Prettenhofer, R. Weiss, V. Dubourg, J. Vanderplas, A. Passos, D. Cournapeau, M. Brucher, M. Perrot, É. Duchesnay, Scikit-learn: machine learning in Python, J. Mach. Learn. Res. 12 (2011) 2825–2830. https://doi.org/10.48550/arXiv.1201.0490. [20] R.K. Halder M.N. Uddin M.A. Uddin S. Aryal A. Khraisat Enhancing K-nearest neighbor algorithm: a comprehensive review and performance analysis of modifications J. Big Data 11 1 2024 113 10.1186/s40537-024-00973-y R.K. Halder, M.N. Uddin, M.A. Uddin, S. Aryal, A. Khraisat, Enhancing K-nearest neighbor algorithm: a comprehensive review and performance analysis of modifications, J. Big Data 11 (1) (2024) 113, https://doi.org/10.1186/s40537-024-00973-y. [21] L. Prokhorenkova G. Gusev A. Vorobev A.V. Dorogush A. Gulin CatBoost: unbiased boosting with categorical features Adv. Neural. Inf. Process Syst. 31 2018 6639 6649 10.48550/arXiv.1706.09516 L. Prokhorenkova, G. Gusev, A. Vorobev, A.V. Dorogush, A. Gulin, CatBoost: unbiased boosting with categorical features, Adv. Neural. Inf. Process Syst., 31 (2018) 6639–6649, https://doi.org/10.48550/arXiv.1706.09516. [22] C. Bentéjac A. Csörgő G. Martínez-Muñoz A comparative analysis of gradient boosting algorithms Artif. Intell. Rev. 54 3 2021 1937 1967 10.1007/s10462-020-09896-5 C. Bentéjac, A. Csörgő, G. Martínez-Muñoz, A comparative analysis of gradient boosting algorithms, Artif. Intell. Rev. 54 (3) (2021) 1937–1967, https://doi.org/10.1007/s10462-020-09896-5. [23] S.M. Lundberg S.I. Lee A unified approach to interpreting model predictions Adv. Neural Inf. Process Syst. 30 2017 4768 4777 10.48550/arXiv.1705.07874 S.M. Lundberg, S.I. Lee, A unified approach to interpreting model predictions, Adv. Neural Inf. Process Syst., 30 (2017) 4768–4777, https://doi.org/10.48550/arXiv.1705.07874. [24] W. Xu G. Zhang H. Chen G. Zhang Y. Han Y. Chang P. Gong Mn/beta and Mn/ZSM-5 for the low-temperature selective catalytic reduction of NO with ammonia: effect of manganese precursors Chin. J. Catal. 39 1 2018 118 127 10.1016/S1872-2067(17)62983-8 W. Xu, G. Zhang, H. Chen, G. Zhang, Y. Han, Y. Chang, P. Gong, Mn/beta and Mn/ZSM-5 for the low-temperature selective catalytic reduction of NO with ammonia: effect of manganese precursors, Chin. J. Catal. 39 (1) (2018) 118–127, https://doi.org/10.1016/S1872-2067(17)62983-8. [25] Z. Li R. Duan X. Wang Y. Fu M. Gao H. Li G. He H. He Unexpected redox role of WO3 in V2O5-WO3/TiO2 catalysts for selective reduction of NO by forming V-W dinuclear sites Angew. Chem. Int. Ed. Engl. 2025 e202501957 10.1002/anie.202501957 Z. Li, R. Duan, X. Wang, Y. Fu, M. Gao, H. Li, G. He, H. He, Unexpected redox role of WO3 in V2O5-WO3/TiO2 catalysts for selective reduction of NO by forming V-W dinuclear sites, Angew. Chem. Int. Ed. Engl. (2025) e202501957, https://doi.org/10.1002/anie.202501957. [26] X. Guan H. Asakura R. Han S. Xu H. Liu L. Chen Z. Yao J. Yan Y.Guo T.Tanaka C. Jia F. Wang Cascade NH3 oxidation and N2O decomposition via bifunctional Co and Cu catalysts ACS Catal. 13 20 2023 13816 13827 10.1021/acscatal.3c02392 X. Guan, H. Asakura, R. Han, S. Xu, H. Liu, L. Chen, Z. Yao, J. Yan, T.Tanaka, Y.Guo, C. Jia, F. Wang. Cascade NH3 oxidation and N2O decomposition via bifunctional Co and Cu catalysts, ACS Catal.. 13 (20) (2023) 13816–13827, https://doi.org/10.1021/acscatal.3c02392. [27] X. Sun H. Ruan X. Song L. Sun K. Li P. Ning C. Wang Research into the reaction process and the effect of reaction conditions on the simultaneous removal of H2S, COS and CS2 at low temperature RSC Adv. 8 13 2018 6996 7004 10.1039/C7RA12086A X. Sun, H. Ruan, X. Song, L. Sun, K. Li, P. Ning, C. Wang, Research into the reaction process and the effect of reaction conditions on the simultaneous removal of H2S, COS and CS2 at low temperature, RSC Adv.. 8 (13) (2018) 6996–7004, https://doi.org/10.1039/C7RA12086A. [28] W. Wang L. Chen X. Wang Y. Wang B. Li W. Li S. Li Eley−Rideal path enhanced NH3-SCR: central Fe atoms activation for electron transfer promotion J. Environ. Chem. Eng. 12 5 2024 113780 10.1016/j.jece.2024.113780 W. Wang, L. Chen, X. Wang, Y. Wang, B. Li, W. Li, S. Li, Eley−Rideal path enhanced NH3-SCR: central Fe atoms activation for electron transfer promotion, J. Environ. Chem. Eng. 12 (5) (2024) 113780, https://doi.org/10.1016/j.jece.2024.113780. [29] L. Gevers L. Enakonda A. Shahid S. Ould-Chikh C. Silva P. Paalanen A. Aguliar-Tapia. J. Hazemann M. Hedhili F. Wen J. Ruiz-Martinez Unraveling the structure and role of Mn and Ce for NO x reduction in application-relevant catalysts Nat. Commun. 13 2022 2960 10.1038/s41467-022-30679-9 L. Gevers, L. Enakonda, A. Shahid, S. Ould-Chikh, C. Silva, P. Paalanen, A. Aguliar-Tapia. J. Hazemann, M. Hedhili, F. Wen, J. Ruiz-Martinez. Unraveling the structure and role of Mn and Ce for NOx reduction in application-relevant catalysts, Nat. Commun. 13 (2022) 2960, https://doi.org/10.1038/s41467-022-30679-9. [30] B. Zhang M. Liebau B. Liu L. Li S. Zhang R. Gläser Selective catalytic reduction of NO x with NH3 over Mn–Zr–Ti mixed oxide catalysts J. Mater. Sci. 54 2019 6943 6960 10.1007/s10853-019-03369-z B. Zhang, M. Liebau, B. Liu, L. Li, S. Zhang, R. Gläser. Selective catalytic reduction of NOx with NH3 over Mn–Zr–Ti mixed oxide catalysts, J. Mater. Sci. 54 (2019) 6943–6960, https://doi.org/10.1007/s10853-019-03369-z. [31] Q. Xu W. Yang S. Cui J. Street Y. Luo Sulfur resistance of Ce-Mn/TiO2 catalysts for low-temperature NH3-SCR R. Soc. Open Sci. 5 3 2018 171846 10.1098/rsos.171846 Q. Xu, W. Yang, S. Cui, J. Street, Y. Luo, Sulfur resistance of Ce-Mn/TiO2 catalysts for low-temperature NH3-SCR, R. Soc. Open Sci. 5 (3) (2018) 171846, https://doi.org/10.1098/rsos.171846. [32] Q. Xu J. Zhao H. Xu H. Zhou Dispersion of TiO2 particles and preparation of SiO2 coating layers on the surfaces of TiO2 Mater. Res. Innov. 19 sup5 2015 10.1179/1432891715Z.0000000001351 S5-142-S145-145 Q. Xu, J. Zhao, H. Xu, H. Zhou, Dispersion of TiO2 particles and preparation of SiO2 coating layers on the surfaces of TiO2, Mater. Res. Innov. 19 (sup5) (2015), S5-142-S145-145, https://doi.org/10.1179/1432891715Z.0000000001351. [33] M. Lu F. Gao Y. Tan H. Yi Y. Gui Y. Xu Y. Wang Y. Zhou X. Tang L. Chen Knowledge-driven experimental discovery of Ce-based metal oxide composites for selective catalytic reduction of NO x with NH3 through interpretable machine learning ACS Appl. Mater. Interfaces 16 3 2024 3593 3604 10.1021/acsami.3c18490 M. Lu, F. Gao, Y. Tan, H. Yi, Y. Gui, Y. Xu, Y. Wang, Y. Zhou, X. Tang, L. Chen, Knowledge-driven experimental discovery of Ce-based metal oxide composites for selective catalytic reduction of NOx with NH3 through interpretable machine learning, ACS Appl. Mater. Interfaces 16 (3) (2024) 3593–3604, https://doi.org/10.1021/acsami.3c18490. [34] J.H. Kwak D. Tran S.D. Burton J. Szanyi J.H. Lee C.H.F. Peden Effects of hydrothermal aging on NH3-SCR reaction over Cu/zeolites J. Catal. 287 2012 203 209 10.1016/j.jcat.2011.12.025 J.H. Kwak, D. Tran, S.D. Burton, J. Szanyi, J.H. Lee, C.H.F. Peden, Effects of hydrothermal aging on NH3-SCR reaction over Cu/zeolites, J. Catal. 287 (2012) 203–209, https://doi.org/10.1016/j.jcat.2011.12.025. [35] K.B. Nam D.W. Kwon S.C. Hong DRIFT study on promotion effects of tungsten-modified Mn/Ce/Ti catalysts for the SCR reaction at low-temperature Appl. Catal. A-Gen. 542 2017 55 62 10.1016/j.apcata.2017.05.017 K.B. Nam, D.W. Kwon, S.C. Hong, DRIFT study on promotion effects of tungsten-modified Mn/Ce/Ti catalysts for the SCR reaction at low-temperature, Appl. Catal. A-Gen. 542 (2017) 55–62, https://doi.org/10.1016/j.apcata.2017.05.017. [36] W. Li C. Zhang X. Li P. Tan A. Zhou Q. Fang G. Chen Ho-modifiedMn-Ce/TiO2 for low-temperature SCR of NO x with NH3: evaluation and characterization Chinese J. Catal. 39 10 2018 1653 1663 10.1016/S1872-2067(18)63099-2 W. Li, C. Zhang, X. Li, P. Tan, A. Zhou, Q. Fang, G. Chen, Ho-modifiedMn-Ce/TiO2 for low-temperature SCR of NOx with NH3: evaluation and characterization, Chinese J. Catal. 39 (10) (2018) 1653–1663, https://doi.org/10.1016/S1872-2067(18)63099-2. [37] G. Zhou J.H. Zhang Y.Y. Xin Y.L. Zhang S.Y. Hu X.Y. Zhang High-performance Ce-modified CoMnO x catalysts for NH3-SCR: nO x catalytic performance and sulfur tolerance Appl. Surf. Sci. 693 2025 162775 10.1016/j.apsusc.2025.162775 G. Zhou, J.H. Zhang, Y.Y. Xin, Y.L. Zhang, S.Y. Hu, X.Y. Zhang, High-performance Ce-modified CoMnOx catalysts for NH3-SCR: nOx catalytic performance and sulfur tolerance, Appl. Surf. Sci. 693 (2025) 162775, https://doi.org/10.1016/j.apsusc.2025.162775. [38] Z.G. Liu D. Wang Y. Qin J. Guan J.L. Lin H. Sun Improved performance of iron doping MnO x /TiO2 catalysts for selective catalytic reduction of NO x with NH3 Sep. Purif. Technol. 363 2025 131876 10.1016/j.seppur.2025.131876 Z.G. Liu, D. Wang, Y. Qin, J. Guan, J.L. Lin, H. Sun, Improved performance of iron doping MnOx/TiO2 catalysts for selective catalytic reduction of NOx with NH3. Sep. Purif. Technol. 363 (2025) 131876, https://doi.org/10.1016/j.seppur.2025.131876.",
+      "scopus-id": "105008494335",
+      "coredata": {
+        "eid": "1-s2.0-S2468823125004857",
+        "dc:description": "Traditional research and development of catalysts mainly rely on experimental trial-and-error methods, which struggle to meet the demand for efficient catalysts in the energy and environmental fields. Applying machine learning to catalyst design can achieve rapid screening of catalysts, thus overcoming the limitations of the traditional trial-and-error methods and solving the problems of low efficiency and high cost affecting catalyst research and development. This paper reports the development of a catalytic database containing 751 sets of data, with 30 input features divided into three categories, such as catalyst composition, preparation conditions, and catalytic reaction conditions, along with NO x conversion and N2 selectivity serving as output features. A machine learning approach was used to assist in the formulation screening and performance prediction of selective catalytic reduction (SCR) catalysts. The Categorical boosting (CatBoost) model was found to exhibit the best performance among the 10 models explored, with R 2, Mean absolute error (MAE), and Root mean square error (RMSE) values of 0.999, 0.006, and 0.008, respectively. The importance of each input feature for model prediction was obtained using the SHapley Additive exPlanations (SHAP) method, which showed that the reaction temperature and Mn elemental molar ratio had the greatest effect on NO x conversion and N2 selectivity. This study provides guidance for the screening, reaction condition optimization, and performance prediction of SCR catalysts. The successful integration of machine learning with experimental methods represents an effective strategy that can accelerate the discovery of catalysts.",
+        "openArchiveArticle": "false",
+        "prism:coverDate": "2025-09-30",
+        "openaccessUserLicense": null,
+        "prism:aggregationType": "Journal",
+        "prism:url": "https://api.elsevier.com/content/article/pii/S2468823125004857",
+        "dc:creator": [
+          {
+            "@_fa": "true",
+            "$": "Wang, Haonan"
+          },
+          {
+            "@_fa": "true",
+            "$": "Wang, Qiulin"
+          },
+          {
+            "@_fa": "true",
+            "$": "Zhao, Jiayi"
+          },
+          {
+            "@_fa": "true",
+            "$": "Liu, Chenyang"
+          },
+          {
+            "@_fa": "true",
+            "$": "Feng, Jiaxin"
+          },
+          {
+            "@_fa": "true",
+            "$": "Jin, Jing"
+          },
+          {
+            "@_fa": "true",
+            "$": "Liu, Dunyu"
+          }
+        ],
+        "link": [
+          {
+            "@_fa": "true",
+            "@rel": "self",
+            "@href": "https://api.elsevier.com/content/article/pii/S2468823125004857"
+          },
+          {
+            "@_fa": "true",
+            "@rel": "scidir",
+            "@href": "https://www.sciencedirect.com/science/article/pii/S2468823125004857"
+          }
+        ],
+        "dc:format": "application/json",
+        "openaccessType": null,
+        "pii": "S2468-8231(25)00485-7",
+        "prism:volume": "584",
+        "articleNumber": "115296",
+        "prism:publisher": "Elsevier B.V. All rights are reserved, including those for text and data mining, AI training, and similar technologies.",
+        "dc:title": "Machine learning-driven rapid screening and performance prediction of NH3-SCR catalyst",
+        "prism:copyright": "© 2025 Elsevier B.V. All rights are reserved, including those for text and data mining, AI training, and similar technologies.",
+        "openaccess": "0",
+        "prism:issn": "24688231",
+        "dcterms:subject": [
+          {
+            "@_fa": "true",
+            "$": "Machine learning"
+          },
+          {
+            "@_fa": "true",
+            "$": "SCR catalyst"
+          },
+          {
+            "@_fa": "true",
+            "$": "Precise screening"
+          },
+          {
+            "@_fa": "true",
+            "$": "Performance prediction"
+          },
+          {
+            "@_fa": "true",
+            "$": "N2 selectivity"
+          }
+        ],
+        "openaccessArticle": "false",
+        "prism:publicationName": "Molecular Catalysis",
+        "openaccessSponsorType": null,
+        "prism:pageRange": "115296",
+        "pubType": "fla",
+        "prism:coverDisplayDate": "September 2025",
+        "prism:doi": "10.1016/j.mcat.2025.115296",
+        "prism:startingPage": "115296",
+        "dc:identifier": "doi:10.1016/j.mcat.2025.115296",
+        "openaccessSponsorName": null
+      },
+      "objects": {
+        "object": [
+          {
+            "@category": "standard",
+            "@height": "998",
+            "@width": "585",
+            "@_fa": "true",
+            "$": "https://api.elsevier.com/content/object/eid/1-s2.0-S2468823125004857-gr8.jpg?httpAccept=%2A%2F%2A",
+            "@multimediatype": "JPEG image file",
+            "@type": "IMAGE-DOWNSAMPLED",
+            "@size": "155197",
+            "@ref": "gr8",
+            "@mimetype": "image/jpeg"
+          },
+          {
+            "@category": "standard",
+            "@height": "388",
+            "@width": "753",
+            "@_fa": "true",
+            "$": "https://api.elsevier.com/content/object/eid/1-s2.0-S2468823125004857-gr7.jpg?httpAccept=%2A%2F%2A",
+            "@multimediatype": "JPEG image file",
+            "@type": "IMAGE-DOWNSAMPLED",
+            "@size": "91843",
+            "@ref": "gr7",
+            "@mimetype": "image/jpeg"
+          },
+          {
+            "@category": "standard",
+            "@height": "385",
+            "@width": "753",
+            "@_fa": "true",
+            "$": "https://api.elsevier.com/content/object/eid/1-s2.0-S2468823125004857-gr6.jpg?httpAccept=%2A%2F%2A",
+            "@multimediatype": "JPEG image file",
+            "@type": "IMAGE-DOWNSAMPLED",
+            "@size": "94801",
+            "@ref": "gr6",
+            "@mimetype": "image/jpeg"
+          },
+          {
+            "@category": "standard",
+            "@height": "733",
+            "@width": "621",
+            "@_fa": "true",
+            "$": "https://api.elsevier.com/content/object/eid/1-s2.0-S2468823125004857-gr5.jpg?httpAccept=%2A%2F%2A",
+            "@multimediatype": "JPEG image file",
+            "@type": "IMAGE-DOWNSAMPLED",
+            "@size": "115376",
+            "@ref": "gr5",
+            "@mimetype": "image/jpeg"
+          },
+          {
+            "@category": "standard",
+            "@height": "895",
+            "@width": "621",
+            "@_fa": "true",
+            "$": "https://api.elsevier.com/content/object/eid/1-s2.0-S2468823125004857-gr4.jpg?httpAccept=%2A%2F%2A",
+            "@multimediatype": "JPEG image file",
+            "@type": "IMAGE-DOWNSAMPLED",
+            "@size": "138281",
+            "@ref": "gr4",
+            "@mimetype": "image/jpeg"
+          },
+          {
+            "@category": "standard",
+            "@height": "969",
+            "@width": "678",
+            "@_fa": "true",
+            "$": "https://api.elsevier.com/content/object/eid/1-s2.0-S2468823125004857-gr3.jpg?httpAccept=%2A%2F%2A",
+            "@multimediatype": "JPEG image file",
+            "@type": "IMAGE-DOWNSAMPLED",
+            "@size": "190049",
+            "@ref": "gr3",
+            "@mimetype": "image/jpeg"
+          },
+          {
+            "@category": "standard",
+            "@height": "371",
+            "@width": "565",
+            "@_fa": "true",
+            "$": "https://api.elsevier.com/content/object/eid/1-s2.0-S2468823125004857-gr2.jpg?httpAccept=%2A%2F%2A",
+            "@multimediatype": "JPEG image file",
+            "@type": "IMAGE-DOWNSAMPLED",
+            "@size": "58601",
+            "@ref": "gr2",
+            "@mimetype": "image/jpeg"
+          },
+          {
+            "@category": "standard",
+            "@height": "159",
+            "@width": "500",
+            "@_fa": "true",
+            "$": "https://api.elsevier.com/content/object/eid/1-s2.0-S2468823125004857-ga1.jpg?httpAccept=%2A%2F%2A",
+            "@multimediatype": "JPEG image file",
+            "@type": "IMAGE-DOWNSAMPLED",
+            "@size": "35093",
+            "@ref": "ga1",
+            "@mimetype": "image/jpeg"
+          },
+          {
+            "@category": "standard",
+            "@height": "227",
+            "@width": "715",
+            "@_fa": "true",
+            "$": "https://api.elsevier.com/content/object/eid/1-s2.0-S2468823125004857-gr1.jpg?httpAccept=%2A%2F%2A",
+            "@multimediatype": "JPEG image file",
+            "@type": "IMAGE-DOWNSAMPLED",
+            "@size": "58153",
+            "@ref": "gr1",
+            "@mimetype": "image/jpeg"
+          },
+          {
+            "@category": "thumbnail",
+            "@height": "164",
+            "@width": "96",
+            "@_fa": "true",
+            "$": "https://api.elsevier.com/content/object/eid/1-s2.0-S2468823125004857-gr8.sml?httpAccept=%2A%2F%2A",
+            "@multimediatype": "GIF image file",
+            "@type": "IMAGE-THUMBNAIL",
+            "@size": "10733",
+            "@ref": "gr8",
+            "@mimetype": "image/gif"
+          },
+          {
+            "@category": "thumbnail",
+            "@height": "113",
+            "@width": "219",
+            "@_fa": "true",
+            "$": "https://api.elsevier.com/content/object/eid/1-s2.0-S2468823125004857-gr7.sml?httpAccept=%2A%2F%2A",
+            "@multimediatype": "GIF image file",
+            "@type": "IMAGE-THUMBNAIL",
+            "@size": "16670",
+            "@ref": "gr7",
+            "@mimetype": "image/gif"
+          },
+          {
+            "@category": "thumbnail",
+            "@height": "112",
+            "@width": "219",
+            "@_fa": "true",
+            "$": "https://api.elsevier.com/content/object/eid/1-s2.0-S2468823125004857-gr6.sml?httpAccept=%2A%2F%2A",
+            "@multimediatype": "GIF image file",
+            "@type": "IMAGE-THUMBNAIL",
+            "@size": "17633",
+            "@ref": "gr6",
+            "@mimetype": "image/gif"
+          },
+          {
+            "@category": "thumbnail",
+            "@height": "164",
+            "@width": "139",
+            "@_fa": "true",
+            "$": "https://api.elsevier.com/content/object/eid/1-s2.0-S2468823125004857-gr5.sml?httpAccept=%2A%2F%2A",
+            "@multimediatype": "GIF image file",
+            "@type": "IMAGE-THUMBNAIL",
+            "@size": "9671",
+            "@ref": "gr5",
+            "@mimetype": "image/gif"
+          },
+          {
+            "@category": "thumbnail",
+            "@height": "163",
+            "@width": "113",
+            "@_fa": "true",
+            "$": "https://api.elsevier.com/content/object/eid/1-s2.0-S2468823125004857-gr4.sml?httpAccept=%2A%2F%2A",
+            "@multimediatype": "GIF image file",
+            "@type": "IMAGE-THUMBNAIL",
+            "@size": "8906",
+            "@ref": "gr4",
+            "@mimetype": "image/gif"
+          },
+          {
+            "@category": "thumbnail",
+            "@height": "163",
+            "@width": "114",
+            "@_fa": "true",
+            "$": "https://api.elsevier.com/content/object/eid/1-s2.0-S2468823125004857-gr3.sml?httpAccept=%2A%2F%2A",
+            "@multimediatype": "GIF image file",
+            "@type": "IMAGE-THUMBNAIL",
+            "@size": "9866",
+            "@ref": "gr3",
+            "@mimetype": "image/gif"
+          },
+          {
+            "@category": "thumbnail",
+            "@height": "144",
+            "@width": "219",
+            "@_fa": "true",
+            "$": "https://api.elsevier.com/content/object/eid/1-s2.0-S2468823125004857-gr2.sml?httpAccept=%2A%2F%2A",
+            "@multimediatype": "GIF image file",
+            "@type": "IMAGE-THUMBNAIL",
+            "@size": "13672",
+            "@ref": "gr2",
+            "@mimetype": "image/gif"
+          },
+          {
+            "@category": "thumbnail",
+            "@height": "70",
+            "@width": "219",
+            "@_fa": "true",
+            "$": "https://api.elsevier.com/content/object/eid/1-s2.0-S2468823125004857-ga1.sml?httpAccept=%2A%2F%2A",
+            "@multimediatype": "GIF image file",
+            "@type": "IMAGE-THUMBNAIL",
+            "@size": "10561",
+            "@ref": "ga1",
+            "@mimetype": "image/gif"
+          },
+          {
+            "@category": "thumbnail",
+            "@height": "69",
+            "@width": "219",
+            "@_fa": "true",
+            "$": "https://api.elsevier.com/content/object/eid/1-s2.0-S2468823125004857-gr1.sml?httpAccept=%2A%2F%2A",
+            "@multimediatype": "GIF image file",
+            "@type": "IMAGE-THUMBNAIL",
+            "@size": "9844",
+            "@ref": "gr1",
+            "@mimetype": "image/gif"
+          },
+          {
+            "@category": "high",
+            "@height": "4417",
+            "@width": "2589",
+            "@_fa": "true",
+            "$": "https://api.elsevier.com/content/object/eid/1-s2.0-S2468823125004857-gr8_lrg.jpg?httpAccept=%2A%2F%2A",
+            "@multimediatype": "JPEG image file",
+            "@type": "IMAGE-HIGH-RES",
+            "@size": "965729",
+            "@ref": "gr8",
+            "@mimetype": "image/jpeg"
+          },
+          {
+            "@category": "high",
+            "@height": "1719",
+            "@width": "3333",
+            "@_fa": "true",
+            "$": "https://api.elsevier.com/content/object/eid/1-s2.0-S2468823125004857-gr7_lrg.jpg?httpAccept=%2A%2F%2A",
+            "@multimediatype": "JPEG image file",
+            "@type": "IMAGE-HIGH-RES",
+            "@size": "655967",
+            "@ref": "gr7",
+            "@mimetype": "image/jpeg"
+          },
+          {
+            "@category": "high",
+            "@height": "1706",
+            "@width": "3333",
+            "@_fa": "true",
+            "$": "https://api.elsevier.com/content/object/eid/1-s2.0-S2468823125004857-gr6_lrg.jpg?httpAccept=%2A%2F%2A",
+            "@multimediatype": "JPEG image file",
+            "@type": "IMAGE-HIGH-RES",
+            "@size": "684701",
+            "@ref": "gr6",
+            "@mimetype": "image/jpeg"
+          },
+          {
+            "@category": "high",
+            "@height": "3247",
+            "@width": "2750",
+            "@_fa": "true",
+            "$": "https://api.elsevier.com/content/object/eid/1-s2.0-S2468823125004857-gr5_lrg.jpg?httpAccept=%2A%2F%2A",
+            "@multimediatype": "JPEG image file",
+            "@type": "IMAGE-HIGH-RES",
+            "@size": "780816",
+            "@ref": "gr5",
+            "@mimetype": "image/jpeg"
+          },
+          {
+            "@category": "high",
+            "@height": "3964",
+            "@width": "2750",
+            "@_fa": "true",
+            "$": "https://api.elsevier.com/content/object/eid/1-s2.0-S2468823125004857-gr4_lrg.jpg?httpAccept=%2A%2F%2A",
+            "@multimediatype": "JPEG image file",
+            "@type": "IMAGE-HIGH-RES",
+            "@size": "992124",
+            "@ref": "gr4",
+            "@mimetype": "image/jpeg"
+          },
+          {
+            "@category": "high",
+            "@height": "4288",
+            "@width": "3000",
+            "@_fa": "true",
+            "$": "https://api.elsevier.com/content/object/eid/1-s2.0-S2468823125004857-gr3_lrg.jpg?httpAccept=%2A%2F%2A",
+            "@multimediatype": "JPEG image file",
+            "@type": "IMAGE-HIGH-RES",
+            "@size": "1320997",
+            "@ref": "gr3",
+            "@mimetype": "image/jpeg"
+          },
+          {
+            "@category": "high",
+            "@height": "1643",
+            "@width": "2500",
+            "@_fa": "true",
+            "$": "https://api.elsevier.com/content/object/eid/1-s2.0-S2468823125004857-gr2_lrg.jpg?httpAccept=%2A%2F%2A",
+            "@multimediatype": "JPEG image file",
+            "@type": "IMAGE-HIGH-RES",
+            "@size": "424095",
+            "@ref": "gr2",
+            "@mimetype": "image/jpeg"
+          },
+          {
+            "@category": "high",
+            "@height": "704",
+            "@width": "2213",
+            "@_fa": "true",
+            "$": "https://api.elsevier.com/content/object/eid/1-s2.0-S2468823125004857-ga1_lrg.jpg?httpAccept=%2A%2F%2A",
+            "@multimediatype": "JPEG image file",
+            "@type": "IMAGE-HIGH-RES",
+            "@size": "253234",
+            "@ref": "ga1",
+            "@mimetype": "image/jpeg"
+          },
+          {
+            "@category": "high",
+            "@height": "1004",
+            "@width": "3167",
+            "@_fa": "true",
+            "$": "https://api.elsevier.com/content/object/eid/1-s2.0-S2468823125004857-gr1_lrg.jpg?httpAccept=%2A%2F%2A",
+            "@multimediatype": "JPEG image file",
+            "@type": "IMAGE-HIGH-RES",
+            "@size": "375537",
+            "@ref": "gr1",
+            "@mimetype": "image/jpeg"
+          },
+          {
+            "@category": "standard",
+            "@_fa": "true",
+            "$": "https://api.elsevier.com/content/object/eid/1-s2.0-S2468823125004857-mmc3.docx?httpAccept=%2A%2F%2A",
+            "@multimediatype": "Microsoft Word file",
+            "@type": "APPLICATION",
+            "@size": "6560887",
+            "@ref": "mmc3",
+            "@mimetype": "application/word"
+          },
+          {
+            "@category": "standard",
+            "@_fa": "true",
+            "$": "https://api.elsevier.com/content/object/eid/1-s2.0-S2468823125004857-mmc1.xlsx?httpAccept=%2A%2F%2A",
+            "@multimediatype": "Microsoft Excel file",
+            "@type": "APPLICATION",
+            "@size": "97035",
+            "@ref": "mmc1",
+            "@mimetype": "application/excel"
+          },
+          {
+            "@category": "standard",
+            "@_fa": "true",
+            "$": "https://api.elsevier.com/content/object/eid/1-s2.0-S2468823125004857-mmc2.xlsx?httpAccept=%2A%2F%2A",
+            "@multimediatype": "Microsoft Excel file",
+            "@type": "APPLICATION",
+            "@size": "98547",
+            "@ref": "mmc2",
+            "@mimetype": "application/excel"
+          },
+          {
+            "@category": "thumbnail",
+            "@_fa": "true",
+            "$": "https://api.elsevier.com/content/object/eid/1-s2.0-S2468823125004857-si1.svg?httpAccept=%2A%2F%2A",
+            "@multimediatype": "Scalable Vector Graphics file",
+            "@type": "ALTIMG",
+            "@size": "7963",
+            "@ref": "si1",
+            "@mimetype": "image/svg+xml"
+          },
+          {
+            "@category": "thumbnail",
+            "@_fa": "true",
+            "$": "https://api.elsevier.com/content/object/eid/1-s2.0-S2468823125004857-si2.svg?httpAccept=%2A%2F%2A",
+            "@multimediatype": "Scalable Vector Graphics file",
+            "@type": "ALTIMG",
+            "@size": "9290",
+            "@ref": "si2",
+            "@mimetype": "image/svg+xml"
+          },
+          {
+            "@category": "thumbnail",
+            "@_fa": "true",
+            "$": "https://api.elsevier.com/content/object/eid/1-s2.0-S2468823125004857-si3.svg?httpAccept=%2A%2F%2A",
+            "@multimediatype": "Scalable Vector Graphics file",
+            "@type": "ALTIMG",
+            "@size": "8584",
+            "@ref": "si3",
+            "@mimetype": "image/svg+xml"
+          },
+          {
+            "@category": "thumbnail",
+            "@_fa": "true",
+            "$": "https://api.elsevier.com/content/object/eid/1-s2.0-S2468823125004857-si4.svg?httpAccept=%2A%2F%2A",
+            "@multimediatype": "Scalable Vector Graphics file",
+            "@type": "ALTIMG",
+            "@size": "11441",
+            "@ref": "si4",
+            "@mimetype": "image/svg+xml"
+          },
+          {
+            "@category": "thumbnail",
+            "@_fa": "true",
+            "$": "https://api.elsevier.com/content/object/eid/1-s2.0-S2468823125004857-si5.svg?httpAccept=%2A%2F%2A",
+            "@multimediatype": "Scalable Vector Graphics file",
+            "@type": "ALTIMG",
+            "@size": "2275",
+            "@ref": "si5",
+            "@mimetype": "image/svg+xml"
+          },
+          {
+            "@category": "thumbnail",
+            "@_fa": "true",
+            "$": "https://api.elsevier.com/content/object/eid/1-s2.0-S2468823125004857-si6.svg?httpAccept=%2A%2F%2A",
+            "@multimediatype": "Scalable Vector Graphics file",
+            "@type": "ALTIMG",
+            "@size": "1352",
+            "@ref": "si6",
+            "@mimetype": "image/svg+xml"
+          }
+        ]
+      },
+      "link": {
+        "@rel": "abstract",
+        "@href": "https://api.elsevier.com/content/abstract/scopus_id/105008494335"
+      }
+    }
+  }
+}

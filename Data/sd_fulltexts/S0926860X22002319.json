@@ -1,0 +1,654 @@
+{
+  "metadata": {
+    "title": "Beyond single-atom catalysts: Exploration of Cu dimer and trimer for CO<ce:inf loc=post>2</ce:inf> reduction to methane",
+    "authors": "; ; ",
+    "journal": "Applied Catalysis A: General",
+    "date": "2022-07-25",
+    "doi": "10.1016/j.apcata.2022.118708",
+    "abstract": "",
+    "uri": "https://api.elsevier.com/content/article/pii/S0926860X22002319",
+    "pii": "S0926860X22002319"
+  },
+  "fulltext": {
+    "full-text-retrieval-response": {
+      "scopus-eid": "2-s2.0-85131516861",
+      "originalText": "serial JL 271346 291210 291744 291809 31 Applied Catalysis A: General APPLIEDCATALYSISAGENERAL 2022-06-06 2022-06-06 2022-06-08 2022-06-08 2022-06-15T04:55:02 1-s2.0-S0926860X22002319 S0926-860X(22)00231-9 S0926860X22002319 10.1016/j.apcata.2022.118708 S300 S300.1 FULL-TEXT 1-s2.0-S0926860X22X00136 2024-01-01T12:34:28.416125Z 0 0 20220725 2022 2022-06-06T15:37:10.29048Z absattachment articleinfo articlenumber articletitlenorm authfirstinitialnorm authfirstsurnamenorm cid cids contenttype copyright crossmark dateloaded dateloadedtxt datesearch datesort dateupdated dco docsubtype doctype doi eid ewtransactionid hubeid indexeddate issn issnnorm itemstage itemtransactionid itemweight openaccess openarchive pg pgfirst pii piinorm pubdatestart pubdatetxt pubyr sortorder srctitle srctitlenorm srctype ssids alllist content subj subheadings suppl tomb volfirst volissue volumelist webpdf webpdfpagecount yearnav figure table body mmlmath acknowledge affil articletitle auth authfirstini authfull authkeywords authlast grantnumber grantsponsor grantsponsorid highlightsabst primabst ref specialabst 0926-860X 0926860X true 642 642 C Volume 642 6 118708 118708 118708 20220725 25 July 2022 2022-07-25 2022 article fla © 2022 Elsevier B.V. All rights reserved. BEYONDSINGLEATOMCATALYSTSEXPLORATIONCUDIMERTRIMERFORCO2REDUCTIONMETHANE YANG J 1 Introduction 2 Computational details 3 Results and discussions 3.1 Cu-mers embedded in graphene 3.2 Adsorption of intermediates 3.2.1 Adsorption on 1Cu@Graphene 3.2.2 Adsorption on 2Cu@Graphene 3.2.3 Adsorption on 3Cu@Graphene 3.3 Gibbs free energy diagram of the reaction pathway 3.3.1 Reaction pathway on 1Cu@Graphene 3.3.2 Reaction pathway on 2Cu@Graphene 3.3.3 Reaction pathway on 3Cu@Graphene 3.3.4 Catalytic performance 3.3.5 Evaluation of methodology 4 Conclusion CRediT authorship contribution statement Acknowledgement References APPEL 2013 6621 6658 A NITOPI 2019 7610 7672 S YAN 2020 12558 12563 Z DELUNA 2019 eaav3506 P YOSHIO 1985 1695 1698 H TAO 2020 9271 9275 Z LI 2012 7231 7234 C RACITI 2015 6829 6835 D MA 2016 6680 6684 M SARFRAZ 2016 2842 2851 S ZHAO 2016 10710 10718 Y HUO 2017 28519 28526 S MALIK 2017 e244 K ZHU 2016 3423 3452 D SHIH 2018 1925 1949 C YANG 2013 1740 1748 X WANG 2018 65 81 A ZHANG 2022 9737 9745 Y JIANG 2018 893 903 K ZHANG 2018 1703487 C YANG 2019 12717 12723 H PERDEW 1996 3865 3868 J BLOCHL 1994 17953 17979 P KRESSE 1995 222 229 G KRESSE 1993 13115 13118 G PETERSON 2010 1311 1315 A MATHEW 2014 084106 K PEI 2012 3210 3228 S KRASHENINNIKOV 2009 126807 A CAO 2020 11301 11307 L OSOULEDDINI 2019 105 110 N ZHAO 2014 35 42 S YANG 2021 129317 J VOLLMER 2001 97 101 S LIU 2017 15438 X CHENG 2017 1795 1800 T JIAO 2019 222 228 J PETERSON 2012 251 258 A YANGX2022X118708 YANGX2022X118708XJ 2024-06-08T00:00:00.000Z 2024-06-08T00:00:00.000Z http://creativecommons.org/licenses/by-nc-nd/4.0/ © 2022 Elsevier B.V. All rights reserved. 0 2022-06-14T11:37:10.737Z http://vtw.elsevier.com/data/voc/AddOnTypes/50.7/aggregated-refined Singapore National Research Foundation CRP21-2018-0001 NRF-CRP24-2020-0002 NRF National Research Foundation Singapore http://data.elsevier.com/vocabulary/SciValFunders/501100001381 http://sws.geonames.org/1880251/ A*STAR SERC SERC Science and Engineering Research Council http://data.elsevier.com/vocabulary/SciValFunders/501100005049 http://sws.geonames.org/1880251/ Agency for Science, Technology and Research 21709 A*STAR Agency for Science, Technology and Research http://data.elsevier.com/vocabulary/SciValFunders/501100001348 http://sws.geonames.org/1880251/ This work was supported by the National Research Foundation, Singapore under Award No. NRF-CRP24-2020-0002 , and Singapore A*STAR SERC CRF Award. The use of computing resources at the A*STAR Computational Centre and National Supercomputer Centre, Singapore is gratefully acknowledged. K.E.J.G.acknowledges support from Agency for Science, Technology and Research ( #21709 ), and from a Singapore National Research Foundation Grant ( CRP21-2018-0001 ). https://doi.org/10.15223/policy-017 https://doi.org/10.15223/policy-037 https://doi.org/10.15223/policy-012 https://doi.org/10.15223/policy-029 https://doi.org/10.15223/policy-004 item S0926-860X(22)00231-9 S0926860X22002319 1-s2.0-S0926860X22002319 10.1016/j.apcata.2022.118708 271346 2024-01-01T12:34:28.416125Z 2022-07-25 1-s2.0-S0926860X22002319-main.pdf https://s3-eu-west-1.amazonaws.com/prod-ucs-content-store-eu-west/content/pii:S0926860X22002319/MAIN/application/pdf/e50f7950a4878d75c8ffece0828d8f59/main.pdf main.pdf pdf true 2765793 MAIN 7 1-s2.0-S0926860X22002319-main_1.png https://s3-eu-west-1.amazonaws.com/prod-ucs-content-store-eu-west/content/pii:S0926860X22002319/PREVIEW/image/png/b8eb82d9558f035284bd160243c2dc1f/main_1.png main_1.png png 55957 849 656 IMAGE-WEB-PDF 1 1-s2.0-S0926860X22002319-gr1.jpg https://s3-eu-west-1.amazonaws.com/prod-ucs-content-store-eu-west/content/pii:S0926860X22002319/gr1/DOWNSAMPLED/image/jpeg/f859241fbb3a8c7373a04101cceb8fc2/gr1.jpg gr1 gr1.jpg jpg 57873 449 565 IMAGE-DOWNSAMPLED 1-s2.0-S0926860X22002319-gr3.jpg https://s3-eu-west-1.amazonaws.com/prod-ucs-content-store-eu-west/content/pii:S0926860X22002319/gr3/DOWNSAMPLED/image/jpeg/b2b57adf687a14cdd479a14e4a7e5895/gr3.jpg gr3 gr3.jpg jpg 22464 267 376 IMAGE-DOWNSAMPLED 1-s2.0-S0926860X22002319-gr2.jpg https://s3-eu-west-1.amazonaws.com/prod-ucs-content-store-eu-west/content/pii:S0926860X22002319/gr2/DOWNSAMPLED/image/jpeg/80d406d93713bab75c526e37261fb39e/gr2.jpg gr2 gr2.jpg jpg 30566 195 659 IMAGE-DOWNSAMPLED 1-s2.0-S0926860X22002319-ga1.jpg https://s3-eu-west-1.amazonaws.com/prod-ucs-content-store-eu-west/content/pii:S0926860X22002319/ga1/DOWNSAMPLED/image/jpeg/35136175f5830dd54c8d34c7747f1d93/ga1.jpg ga1 true ga1.jpg jpg 15011 200 278 IMAGE-DOWNSAMPLED 1-s2.0-S0926860X22002319-gr5.jpg https://s3-eu-west-1.amazonaws.com/prod-ucs-content-store-eu-west/content/pii:S0926860X22002319/gr5/DOWNSAMPLED/image/jpeg/70c1bfdb4785093fa6c0dd52353dd43a/gr5.jpg gr5 gr5.jpg jpg 95363 687 791 IMAGE-DOWNSAMPLED 1-s2.0-S0926860X22002319-gr4.jpg https://s3-eu-west-1.amazonaws.com/prod-ucs-content-store-eu-west/content/pii:S0926860X22002319/gr4/DOWNSAMPLED/image/jpeg/517816974b663f7422fb6b3917796f98/gr4.jpg gr4 gr4.jpg jpg 13022 251 376 IMAGE-DOWNSAMPLED 1-s2.0-S0926860X22002319-gr1.sml https://s3-eu-west-1.amazonaws.com/prod-ucs-content-store-eu-west/content/pii:S0926860X22002319/gr1/THUMBNAIL/image/gif/671e72189c1874adfa608e7d8f9aa227/gr1.sml gr1 gr1.sml sml 10217 164 206 IMAGE-THUMBNAIL 1-s2.0-S0926860X22002319-gr3.sml https://s3-eu-west-1.amazonaws.com/prod-ucs-content-store-eu-west/content/pii:S0926860X22002319/gr3/THUMBNAIL/image/gif/675da48a4618a85539eb67fcb8767f22/gr3.sml gr3 gr3.sml sml 11531 156 219 IMAGE-THUMBNAIL 1-s2.0-S0926860X22002319-gr2.sml https://s3-eu-west-1.amazonaws.com/prod-ucs-content-store-eu-west/content/pii:S0926860X22002319/gr2/THUMBNAIL/image/gif/ae5beeace4ff1e440fab7e53e7769c6d/gr2.sml gr2 gr2.sml sml 5289 65 219 IMAGE-THUMBNAIL 1-s2.0-S0926860X22002319-ga1.sml https://s3-eu-west-1.amazonaws.com/prod-ucs-content-store-eu-west/content/pii:S0926860X22002319/ga1/THUMBNAIL/image/gif/d74663d3ed5e05d541ead9dd9718aacf/ga1.sml ga1 true ga1.sml sml 13093 157 219 IMAGE-THUMBNAIL 1-s2.0-S0926860X22002319-gr5.sml https://s3-eu-west-1.amazonaws.com/prod-ucs-content-store-eu-west/content/pii:S0926860X22002319/gr5/THUMBNAIL/image/gif/57c0fa53a22bff6067d5646ffda5eb8a/gr5.sml gr5 gr5.sml sml 12437 164 189 IMAGE-THUMBNAIL 1-s2.0-S0926860X22002319-gr4.sml https://s3-eu-west-1.amazonaws.com/prod-ucs-content-store-eu-west/content/pii:S0926860X22002319/gr4/THUMBNAIL/image/gif/0e9f73f6f6e0822ee04822216820cd3d/gr4.sml gr4 gr4.sml sml 4988 146 219 IMAGE-THUMBNAIL 1-s2.0-S0926860X22002319-gr1_lrg.jpg https://s3-eu-west-1.amazonaws.com/prod-ucs-content-store-eu-west/content/pii:S0926860X22002319/gr1/HIGHRES/image/jpeg/d630801aae799d9ff0dcbeeb08566eaf/gr1_lrg.jpg gr1 gr1_lrg.jpg jpg 252002 1983 2495 IMAGE-HIGH-RES 1-s2.0-S0926860X22002319-gr3_lrg.jpg https://s3-eu-west-1.amazonaws.com/prod-ucs-content-store-eu-west/content/pii:S0926860X22002319/gr3/HIGHRES/image/jpeg/82825d0b7b94f21a669be8db374a9a58/gr3_lrg.jpg gr3 gr3_lrg.jpg jpg 110899 1182 1663 IMAGE-HIGH-RES 1-s2.0-S0926860X22002319-gr2_lrg.jpg https://s3-eu-west-1.amazonaws.com/prod-ucs-content-store-eu-west/content/pii:S0926860X22002319/gr2/HIGHRES/image/jpeg/d446e8f206d3084018f6f49692f7edd4/gr2_lrg.jpg gr2 gr2_lrg.jpg jpg 131204 863 2911 IMAGE-HIGH-RES 1-s2.0-S0926860X22002319-ga1_lrg.jpg https://s3-eu-west-1.amazonaws.com/prod-ucs-content-store-eu-west/content/pii:S0926860X22002319/ga1/HIGHRES/image/jpeg/54e9dcdee4afbda551c4de4d71de70d6/ga1_lrg.jpg ga1 true ga1_lrg.jpg jpg 104285 886 1233 IMAGE-HIGH-RES 1-s2.0-S0926860X22002319-gr5_lrg.jpg https://s3-eu-west-1.amazonaws.com/prod-ucs-content-store-eu-west/content/pii:S0926860X22002319/gr5/HIGHRES/image/jpeg/78ec214d06a67d9d8d68cca78a3a586b/gr5_lrg.jpg gr5 gr5_lrg.jpg jpg 433626 3034 3493 IMAGE-HIGH-RES 1-s2.0-S0926860X22002319-gr4_lrg.jpg https://s3-eu-west-1.amazonaws.com/prod-ucs-content-store-eu-west/content/pii:S0926860X22002319/gr4/HIGHRES/image/jpeg/4b881fec16bf05811ba25d71b8da3455/gr4_lrg.jpg gr4 gr4_lrg.jpg jpg 70326 1111 1663 IMAGE-HIGH-RES 1-s2.0-S0926860X22002319-si0003.svg https://s3-eu-west-1.amazonaws.com/prod-ucs-content-store-eu-west/content/pii:S0926860X22002319/STRIPIN/image/svg+xml/93fb725d563c8184af063204d2ebaabf/si0003.svg si0003 si0003.svg svg 1389 ALTIMG 1-s2.0-S0926860X22002319-si0004.svg https://s3-eu-west-1.amazonaws.com/prod-ucs-content-store-eu-west/content/pii:S0926860X22002319/STRIPIN/image/svg+xml/0740747ad42d61b8d89df0c4e826d488/si0004.svg si0004 si0004.svg svg 4125 ALTIMG 1-s2.0-S0926860X22002319-si0005.svg https://s3-eu-west-1.amazonaws.com/prod-ucs-content-store-eu-west/content/pii:S0926860X22002319/STRIPIN/image/svg+xml/637f45fd0775b05f55fba1de738b9b4f/si0005.svg si0005 si0005.svg svg 2329 ALTIMG 1-s2.0-S0926860X22002319-si0001.svg https://s3-eu-west-1.amazonaws.com/prod-ucs-content-store-eu-west/content/pii:S0926860X22002319/STRIPIN/image/svg+xml/4bf7e80ef5f6455f9f4938a41ee44c3b/si0001.svg si0001 si0001.svg svg 1110 ALTIMG 1-s2.0-S0926860X22002319-si0006.svg https://s3-eu-west-1.amazonaws.com/prod-ucs-content-store-eu-west/content/pii:S0926860X22002319/STRIPIN/image/svg+xml/3fdb832468281b2f5b142f45bdd4f37c/si0006.svg si0006 si0006.svg svg 1247 ALTIMG 1-s2.0-S0926860X22002319-si0007.svg https://s3-eu-west-1.amazonaws.com/prod-ucs-content-store-eu-west/content/pii:S0926860X22002319/STRIPIN/image/svg+xml/8ecba399c2068df712f60a10948a37b9/si0007.svg si0007 si0007.svg svg 1495 ALTIMG 1-s2.0-S0926860X22002319-si0008.svg https://s3-eu-west-1.amazonaws.com/prod-ucs-content-store-eu-west/content/pii:S0926860X22002319/STRIPIN/image/svg+xml/2042865db8069abc958c44ad2b86beec/si0008.svg si0008 si0008.svg svg 3545 ALTIMG 1-s2.0-S0926860X22002319-si0009.svg https://s3-eu-west-1.amazonaws.com/prod-ucs-content-store-eu-west/content/pii:S0926860X22002319/STRIPIN/image/svg+xml/c2c261d60d43679ebf26899f35c0cd39/si0009.svg si0009 si0009.svg svg 1130 ALTIMG 1-s2.0-S0926860X22002319-si0010.svg https://s3-eu-west-1.amazonaws.com/prod-ucs-content-store-eu-west/content/pii:S0926860X22002319/STRIPIN/image/svg+xml/011e4d89d5a33816048d97fc9477ef9e/si0010.svg si0010 si0010.svg svg 1146 ALTIMG 1-s2.0-S0926860X22002319-si0011.svg https://s3-eu-west-1.amazonaws.com/prod-ucs-content-store-eu-west/content/pii:S0926860X22002319/STRIPIN/image/svg+xml/4f1ac5c6c5d3e44707003f62aa743f95/si0011.svg si0011 si0011.svg svg 1154 ALTIMG 1-s2.0-S0926860X22002319-si0012.svg https://s3-eu-west-1.amazonaws.com/prod-ucs-content-store-eu-west/content/pii:S0926860X22002319/STRIPIN/image/svg+xml/d4e7fdcbf1f222fe2cadb41df4ea2efd/si0012.svg si0012 si0012.svg svg 1628 ALTIMG 1-s2.0-S0926860X22002319-si0013.svg https://s3-eu-west-1.amazonaws.com/prod-ucs-content-store-eu-west/content/pii:S0926860X22002319/STRIPIN/image/svg+xml/bb0d7cf8b04b304e77d9be45475b3170/si0013.svg si0013 si0013.svg svg 1146 ALTIMG 1-s2.0-S0926860X22002319-si0014.svg https://s3-eu-west-1.amazonaws.com/prod-ucs-content-store-eu-west/content/pii:S0926860X22002319/STRIPIN/image/svg+xml/a9ee8bdecd42a5e008ffa4cd75c0d926/si0014.svg si0014 si0014.svg svg 1657 ALTIMG 1-s2.0-S0926860X22002319-si0015.svg https://s3-eu-west-1.amazonaws.com/prod-ucs-content-store-eu-west/content/pii:S0926860X22002319/STRIPIN/image/svg+xml/99dda255f0cb44e30a9857ee31a544c9/si0015.svg si0015 si0015.svg svg 2629 ALTIMG 1-s2.0-S0926860X22002319-si0016.svg https://s3-eu-west-1.amazonaws.com/prod-ucs-content-store-eu-west/content/pii:S0926860X22002319/STRIPIN/image/svg+xml/9b759c27004ea2997267ca66ae1aaf9b/si0016.svg si0016 si0016.svg svg 1649 ALTIMG 1-s2.0-S0926860X22002319-si0017.svg https://s3-eu-west-1.amazonaws.com/prod-ucs-content-store-eu-west/content/pii:S0926860X22002319/STRIPIN/image/svg+xml/92c813f85f204be3843c1b575c7d0f14/si0017.svg si0017 si0017.svg svg 1450 ALTIMG 1-s2.0-S0926860X22002319-si0018.svg https://s3-eu-west-1.amazonaws.com/prod-ucs-content-store-eu-west/content/pii:S0926860X22002319/STRIPIN/image/svg+xml/ee7624a20c2937b47171c273f8a392fc/si0018.svg si0018 si0018.svg svg 1146 ALTIMG 1-s2.0-S0926860X22002319-si0019.svg https://s3-eu-west-1.amazonaws.com/prod-ucs-content-store-eu-west/content/pii:S0926860X22002319/STRIPIN/image/svg+xml/93cc2ab01526e263347fcc76ea55274d/si0019.svg si0019 si0019.svg svg 1110 ALTIMG 1-s2.0-S0926860X22002319-si0020.svg https://s3-eu-west-1.amazonaws.com/prod-ucs-content-store-eu-west/content/pii:S0926860X22002319/STRIPIN/image/svg+xml/b99522a628fb201daaf722df28800307/si0020.svg si0020 si0020.svg svg 1559 ALTIMG 1-s2.0-S0926860X22002319-si0021.svg https://s3-eu-west-1.amazonaws.com/prod-ucs-content-store-eu-west/content/pii:S0926860X22002319/STRIPIN/image/svg+xml/0ce4c5346a5877198a2b507d3579357e/si0021.svg si0021 si0021.svg svg 1523 ALTIMG 1-s2.0-S0926860X22002319-si0022.svg https://s3-eu-west-1.amazonaws.com/prod-ucs-content-store-eu-west/content/pii:S0926860X22002319/STRIPIN/image/svg+xml/4ce16ce8fb1e32997f2311cdbc2239b8/si0022.svg si0022 si0022.svg svg 1495 ALTIMG 1-s2.0-S0926860X22002319-si0023.svg https://s3-eu-west-1.amazonaws.com/prod-ucs-content-store-eu-west/content/pii:S0926860X22002319/STRIPIN/image/svg+xml/939829ac9f53a6135318bc9c59096f0d/si0023.svg si0023 si0023.svg svg 2074 ALTIMG 1-s2.0-S0926860X22002319-si0024.svg https://s3-eu-west-1.amazonaws.com/prod-ucs-content-store-eu-west/content/pii:S0926860X22002319/STRIPIN/image/svg+xml/7fade6ee76ffa0b0ed5fcccd24664197/si0024.svg si0024 si0024.svg svg 2054 ALTIMG 1-s2.0-S0926860X22002319-si0025.svg https://s3-eu-west-1.amazonaws.com/prod-ucs-content-store-eu-west/content/pii:S0926860X22002319/STRIPIN/image/svg+xml/2c5c17ac4d6c77911a11c29fb49cddc7/si0025.svg si0025 si0025.svg svg 1134 ALTIMG 1-s2.0-S0926860X22002319-si0026.svg https://s3-eu-west-1.amazonaws.com/prod-ucs-content-store-eu-west/content/pii:S0926860X22002319/STRIPIN/image/svg+xml/8ddad5853c8e72b1c0a0a12053e74284/si0026.svg si0026 si0026.svg svg 1146 ALTIMG 1-s2.0-S0926860X22002319-si0027.svg https://s3-eu-west-1.amazonaws.com/prod-ucs-content-store-eu-west/content/pii:S0926860X22002319/STRIPIN/image/svg+xml/2231611198fb9ea0311e296a759cf0da/si0027.svg si0027 si0027.svg svg 1134 ALTIMG 1-s2.0-S0926860X22002319-si0028.svg https://s3-eu-west-1.amazonaws.com/prod-ucs-content-store-eu-west/content/pii:S0926860X22002319/STRIPIN/image/svg+xml/cfafd06cde6c9d720da6ffadaa109929/si0028.svg si0028 si0028.svg svg 1110 ALTIMG 1-s2.0-S0926860X22002319-si0029.svg https://s3-eu-west-1.amazonaws.com/prod-ucs-content-store-eu-west/content/pii:S0926860X22002319/STRIPIN/image/svg+xml/00ecb488ce075d78f0c3cef5bfdde95c/si0029.svg si0029 si0029.svg svg 1207 ALTIMG 1-s2.0-S0926860X22002319-si0030.svg https://s3-eu-west-1.amazonaws.com/prod-ucs-content-store-eu-west/content/pii:S0926860X22002319/STRIPIN/image/svg+xml/c3475956afc94e37b5edcd9a02ce72a7/si0030.svg si0030 si0030.svg svg 1138 ALTIMG 1-s2.0-S0926860X22002319-si0002.svg https://s3-eu-west-1.amazonaws.com/prod-ucs-content-store-eu-west/content/pii:S0926860X22002319/STRIPIN/image/svg+xml/529525e809be91e6985c94c3c3c9e671/si0002.svg si0002 si0002.svg svg 1158 ALTIMG 1-s2.0-S0926860X22002319-am.pdf am am.pdf pdf 600343 AAM-PDF https://s3-eu-west-1.amazonaws.com/prod-ucs-content-store-eu-west/content/egi:100F35ZBNLH/MAIN/application/pdf/9580a79e50b626417b2771e9339aaa2c/am.pdf APCATA 118708 118708 S0926-860X(22)00231-9 10.1016/j.apcata.2022.118708 Elsevier B.V. Fig. 1 All possible geometries for 1 Cu@Graphene, 2 Cu@Graphene and 3Cu@Graphene. The one with a black box is adopted as the final model on the basis of its highest formation energy. The grey and blue spheres correspond to carbon and copper atoms, respectively. Fig. 1 Fig. 2 All possible adsorption sites on top of 1Cu@Graphene, 2Cu@Graphene and 3Cu@Graphene, including C-top, Cu-top, bridge and hollow sites. The grey and blue spheres correspond to carbon and copper atoms, respectively. Fig. 2 Fig. 3 The Gibbs free energy diagram along the reaction pathway for CO2RR to CH4 on 1Cu@Graphene (navy), 2Cu@Graphene (orange) and 3Cu@Graphene (green) under their limiting potential ( U e ). Fig. 3 Fig. 4 The Gibbs free energy diagram of HER on 1Cu@Graphene (navy), 2Cu@Graphene (orange) and 3Cu@Graphene (green). Fig. 4 Fig. 5 (a) Gibbs free energy inclusive of contributions from all three parts, (b) Gibbs free energy without ZPE and solvent effect corrections, (c) Gibbs free energy without solvent effect correction and (d) reaction energy diagrams along the reaction pathway for CO2RR to CH4. 1Cu@Graphene is donated in navy, 2Cu@Graphene in orange and 3Cu@Graphene in green. Fig. 5 Table 1 Formation energy (Eform) for each possible geometry of the Cu mer catalysts (in eV). The structure for each possible geometry can be found in Fig. 1. Table 1 Geometry Label Eform /Cu (eV) 1Cu@Graphene 1 C missing a -1.71 2 C missing b -5.20 2Cu@Graphene 2 C missing c 0.33 d -3.86 3 C missing e -2.55 f -4.30 4 C missing g -5.89 h -4.05 3Cu@Graphene 5 C missing i -4.13 j -5.16 6 C missing k -5.69 l -6.16 7 C missing m -5.38 Table 2 The most favorable adsorption energies of all intermediates on 1Cu@Graphene, 2Cu@Graphene and 3Cu@Graphene (in eV). Table 2 Intermediate 1Cu@Graphene 2Cu@Graphene 3Cu@Graphene COOH -2.41 -2.13 -2.41 CO -0.12 -0.12 -0.36 CHO -2.05 -2.39 -2.58 CHOH -2.79 -3.67 -2.94 CH -4.43 -5.87 -5.95 CH 2 -4.40 -4.52 -4.78 CH 3 -2.66 -2.71 -2.64 CH 4 0.01 -0.01 0.00 H -3.97 -3.90 -2.01 Table 3 ∆ G (in eV) of each reaction step for CO2RR to CH4 on 1Cu@Graphene, 2Cu@Graphene and 3Cu@Graphene. Table 3 Reaction Step 1Cu@Graphene 2Cu@Graphene 3Cu@Graphene *CO 2 +H = *COOH -0.06 0.22 -0.08 *COOH+H= *CO + H 2 O 0.83 0.54 0.60 *CO+H = *CHO -0.62 -1.01 -0.35 *CHO+H = *CHOH -0.55 -1.01 -0.76 *CHOH + *H = *CH +H 2 O 1.82 1.22 0.41 *CH + H = *CH 2 -2.45 -1.12 -1.28 *CH 2 + H = *CH 3 -1.12 -1.06 -0.68 *CH 3 + H = *CH4 -0.47 -0.39 -0.48 Beyond single-atom catalysts: Exploration of Cu dimer and trimer for CO2 reduction to methane Jing Yang Data curation Writing – original draft a Ximeng Liu Writing – review & editing b Hao Yuan Writing – review & editing a Jianguo Sun Writing – review & editing b Lidao Li c Kuan Eng Johnson Goh Writing – review & editing d e f Zhi Gen Yu Writing – review & editing a Junmin Xue Writing – review & editing b John Wang Writing – review & editing b Yong-Wei Zhang Supervision Supervision, Writing – review & editing, Fund acquisition, Supervision a ⁎ a Institute of High Performance Computing, A⁎STAR, Singapore Institute of High Performance Computing, A⁎STAR Singapore Institute of High Performance Computing, A⁎STAR, Singapore b Department of Materials Science and Engineering, National University of Singapore, Singapore Department of Materials Science and Engineering, National University of Singapore Singapore Department of Materials Science and Engineering, National University of Singapore. c Department of Chemistry, University of Oxford, UK Department of Chemistry, University of Oxford UK Department of Chemistry, University of Oxford, UK d Institute of Materials Research and Engineering, A⁎STAR, Singapore Institute of Materials Research and Engineering, A⁎STAR Singapore Institute of Materials Research and Engineering, A⁎STAR, Singapore. e Department of Physics, National University of Singapore, Singapore Department of Physics, National University of Singapore Singapore Department of Physics, National University of Singapore f Division of Physics and Applied Physics, School of Physical and Mathematical Sciences, Nanyang Technological University, 50 Nanyang Avenue, 639798, Singapore Division of Physics and Applied Physics, School of Physical and Mathematical Sciences, Nanyang Technological University 50 Nanyang Avenue 639798 Singapore Division of Physics and Applied Physics, School of Physical and Mathematical Sciences, Nanyang Technological University, 50 Nanyang Avenue 639798, Singapore ⁎ Corresponding author. We extend the single-atom catalysts (SACs) concept to metal-dimer and trimer catalysts anchored on graphene and explore their characteristic performance in catalyzing CO2RR into methane using first-principles calculations. In designing the catalyst, we first identify highly energetically stable Cu dimer and trimer atomic configurations in graphene host and then compute the Gibbs free energy changes in the reaction pathway from carbon dioxide to methane. Remarkably, compared to Cu SAC, the limiting potential is 0.60 V for the Cu-trimer and 1.22 V for Cu-dimer, which is lower than 1.82 V for SAC. The Cu dimer is suggested to be the optimal choice because it demonstrates reasonably high activity to CO2RR and high selectivity against HER than SAC. The methodology study suggested that the adsorption term plays the key role in the whole CO2RR process. The present work points out a new strategy for designing high-performance catalysts beyond single atoms for CO2RR. Graphical Abstract ga1 Keywords Catalyst design SAC CO2 reduction First-principles calculation 1 Introduction Converting CO2 into high-value fuels and chemicals using green energy sources under mild reaction conditions is a promising route to address global climate change and energy sustainability issues [1,2]. In this context, there is a pressing need to advance CO2 utilization and conversion technologies [3]. CO2 reduction reaction (CO2RR) by electrochemical methods to fuels and other useful chemicals offers a promising pathway to simultaneously reduce CO2 emission while providing a source of sustainable energy [4,5]. Great efforts have been made to develop various electrochemical catalysts for CO2RR recently. Among all the catalysts used for electrochemical CO2RR to valuable fuels and chemicals, Cu and Cu-based materials stand out as the most promising ones and thus have been extensively studied. A pioneering work reported as early as 1985 showed CH4 and C2H4 as the main products of CO2RR catalyzed by Cu [6]. However, Cu was shown to exhibit poor selectivity and activity for efficient CO2 reduction in several pathways [7]. Subsequently, modifications of Cu, for example, through compounding or alloying, have been extensively studied to enhance its catalytic performance. For example, oxide-derived Cu was shown to efficiently decrease the overpotential and achieve a significantly improved activity of CO2RR, but the selectivity remained insufficient [8–10]. Sn modified Cu-based alloys could effectively enhance the selectivity of CO2RR toward CO [11–13]. However, its Faradaic efficiency was found to be low at a low overpotential, resulting in poor energy utilization toward the desired product [14–16]. Single atom catalysts (SACs) have been shown to be a class of effective catalysts for the electrochemical CO2RR, thus opening a new door for developing low-cost and high-performance catalysts for CO2RR to fuel and chemical products. These SACs, which are dispersed in a conductive support (predominantly carbon-based materials), are expected to bridge the gap between homogeneous and heterogeneous catalysts and thus behave very differently from their film and nanoparticle counterparts in electrochemical CO2 reduction [17–19]. For example, Ni single atoms dispersed into graphene nanosheets were reported to exhibit a high CO selectivity of 95% under an overpotential of 550 mV in water, and an excellent stability over 20 h of continuous electrolysis. In addition, the current density could be scaled up to more than 50 mA cm−2 with a CO evolution turnover frequency of 2.1 × 105 hr−1, while maintaining 97% CO selectivity [20]. Fe atoms dispersed in nitrogen‐doped graphene were demonstrated as an efficient electrocatalyst for CO2 reduction to CO. A low reduction overpotential with high Faradic efficiency (FE) up to 80% was reported [21]. Furthermore, Cu single atoms anchored on carbon nanofiber surfaces were able to catalyze CO2RR to both methanol with a FE of 44% and CO with a FE of 56% [22]. Building upon the superior catalytic performance of SACs, several interesting questions arise: Can one design an electrochemical catalyst that outperforms SACs? If so, then what might the design be and what is the physical basis behind its improved performance? Here we argue that for different electrochemical reduction reactions, different electron transfer characteristics are required. However, SACs might not be able to offer the right or sufficient electron density for CO2RR in certain environments, and thus their performance might not be optimal. To supply the right or sufficient electron density, a natural extension is to involve more active atoms in the reactions, such as from the entities of metal dimers, trimers et al. Here, we postulate that by introducing such metal mers as electrochemical catalysts, it is possible that we can develop high-performance CO2RR catalysts that simultaneously possess high activity, selectivity and stability, thus outperforming SACs. In this study, in addition to Cu SAC on graphene (denoted as 1Cu@Graphene), we design two Cu mer-based catalysts: Cu dimer anchored at graphene (denoted as 2Cu@Graphene), and Cu trimer anchored at graphene (denoted as 3Cu@Graphene). We first examine the stability of all the possible atomic configurations for each of these three catalysts and chose the most stable atomic configuration of each to investigate its possible adsorption sites to identify the most favorable adsorption for the intermediates and compute the Gibbs free energy change (ΔG) along the whole reaction pathway from CO2 to methane. Remarkably, our calculations show that the Cu dimer and trimer catalysts can significantly outperform the Cu SAC, suggesting a new route to design electrochemical catalysts. Cu trimer demonstrates the best activity to CO2RR, however its selectivity to HER is worse. Cu dimer is suggested to be the optimal choice because it shows better activity to CO2RR than SAC and better selectivity against competing HER. We also analyse the contribution from adsorption, ZPE correction and solvent effect correction, and show that the contribution from adsorption is the most important aspect. 2 Computational details All the studies here were performed based on the density functional theory (DFT) with the Perdew-Burke-Ernzerhof functional under the generalized gradient approximation [23,24] for the exchange-correlation interaction, as implemented in the Vienna Ab initio Simulation Package (VASP) [25,26]. A cutoff kinetic energy of 500 eV was applied to expand the electronic wave functions and the projector augmented-wave method was adopted to describe the electron-core interaction. A Gamma centered 3 × 3 × 1 k-mesh was used for the structural optimization. To minimize the interaction between adsorbates, a 6 × 6 graphene unit cell was applied for 1Cu@Graphene and 2Cu@Graphene, while a 7 × 7 graphene unit cell was applied for 3Cu@Graphene. The formation energy ( E form ) of each configuration is defined as the energy required (or released) for a Cu atomic mer (that is, nCu@Graphene, n = 1, 2, 3) to be embedded into the defective graphene to form each specific configuration, (1) E form = E nCu @ Graphene − E defected Graphene − n E Cu , and E form per Cu atom is defined as: (2) E form / Cu = E form n . Here n denotes the number of Cu atoms in an atomic mer. A positive E form indicates an endothermic reaction while a negative E form indicates an exothermic reaction. This means that the more negative the E form is, the more Cu can be embedded. E Cu is the energy per Cu atom and it can be computed based on the fcc Cu metal unit cell. The adsorption energy ( E adsorp ) is related to the energy of interaction between the adsorbate and the substrate, which is defined as: (3) E adsorp = E adsorpbate − substrate − E substate − E adsorbate . A positive E adsorp suggests that the adsorption is not thermodynamically favorable while a negative E adsorp suggests that the adsorption process is exothermic. For CO2RR on nCu@Graphene catalysts, we considered the reaction mechanism of CO2RR to CH4 through the adsorbed intermediates *COOH and *CO. The reaction energy ( ∆ E ) is defined as the difference between energy of the products ( E P ) and energy of the reactants ( E R ): (4) ∆ E = E P − E R . The Gibbs free energy change ( ∆ G ) at each electrochemical step involving a proton-electron transfer was computed based on computational hydrogen electrode (CHE) model, in which the free energy of (H+ + e -) equals to 1 2 H 2 ( g ) for standard hydrogen electrode (SHE) [27]. So the ∆ G of each reaction step is defined as: (5) ∆ G = ∆ E adsorp − ∆ E ZPE − T ∆ S where ∆ E adsorp is the adsorption energy differences between the product adsorbate and reactant adsorbate, ∆ E ZPE is the difference in zero-point energy, T is the temperature (300 K) and ΔS is the entropy difference between the adsorbed adsorbate and non-adsorbed gas-phase adsorbate. Both ∆ E and ∆ G describe the energy needed or released for a reaction to occur. It is understood that the higher the ∆ E (or ∆ G ) is, the more energy is needed for a reaction to take place. The limiting potential ( U e ) is defined as the applied potential required to eliminate the energy barrier of the rate-limiting step. Herein, it is an indicator of the catalytic reactivity where a smaller U e value indicates a faster CO2RR. In the computational CHE model, the U e value is determined by: (6) U e = ∆ G / e Here, the ∆ G is the free energy of the potential-limiting step. To better mimic the real experiments, solvation effects have been included by using an implicit model [28]. 3 Results and discussions Graphene, a semimetal, is a promising electrode for CO2RR. By controlling the electron/ion irradiation intensity, it is feasible to create certain types of point defects, for example, single C vacancies (SVs), double C vacancies (DVs), triple C vacancies (TVs), quadruple C vacancies (QVs), et al. in monolayer graphene. These different atomic defect configurations have been demonstrated to host different types and numbers of foreign metal atoms [29]. To find out the most stable atomic configurations of Cu monomer, Cu dimer and Cu trimer embedded in graphene, we carefully examine all the possible atomic configurations as shown in Fig. 1 by using DFT calculations. The calculated formation energies are listed in Table 1. Based on the computed formation energies, we map out the most energetically favorable configurations. 3.1 Cu-mers embedded in graphene When a Cu monomer is embedded at SV and DV sites of graphene (as shown in Fig. 1), the formation energies are found to be − 1.71 eV and − 5.20 eV (Table 1), respectively. Our result is consistent with previous finding that a Cu monomer at DV site of graphene was more stable than at SV site [30]. Here, a Cu monomer at DV site of graphene is selected as the model for 1Cu@Graphene configuration (Fig. 1b). For a Cu dimer, we have carefully examined six possible configurations, as shown in Fig. 1. We also notice that when a Cu dimer decorates at DV site (as shown in Fig. 1c), the distance between the neighboring Cu atoms is only 1.68 Å, which is much shorter than the typical Cu-Cu bond length of 2.34 Å in Cu metal. Such a short distance may suggest strong repulsion between them, leading to structural instability. This analysis is in line with our calculated formation energy of 0.66 eV per model, suggesting that the process is endothermic and thus unfavorable. There are three possible TV sites and 2 possible QV sites for Cu dimer as shown in Fig. 1. Our computed results show that all these embedding processes are exothermic. In particular, a Cu dimer prefers the QV site with the largest formation energy (−5.89 eV per Cu). Hence, we select this configuration as the model for 2Cu@Graphene (Fig. 1g). It is noted that this configuration is in line with the previous finding for a bi-metal mer in carbon-based materials [31]. For a Cu trimer, we have examined different atomic configurations, as shown in Fig. 1 and Table 1. Our calculations show that it prefers a sextuple C vacancy site and adopts a linear configuration as shown in Fig. 1i. Other atomic configurations with more C vacancies are also examined and found that increasing C vacancies is unable to enhance the stability of the Cu trimer, as evidenced by the calculated formation energies summarized in Table 1. Hence, this linear configuration is adopted for 3Cu@Graphene (Fig. 1i). 3.2 Adsorption of intermediates In the previous section, we have identified the most energetically stable atomic configurations for each of the three catalysts. Now we would like to examine the adsorptions of all possible intermediates on all possible adsorption sites of each of the three catalysts. It is well-known that adsorption is the first and one of the foremost processes in surface reactions. According to the Sabatier principle, one of the most important guiding rules in heterogeneous catalysis, the adsorption of a reactant on an ideal catalyst should be strong enough so that the surface reaction can take place but not so strong so that the reaction product can desorb [32]. So first and foremost, we explicitly examine the adsorption of all the intermediates, that is, *CO2, *COOH, *CO, *CHO, *CHOH, *CH, *CH2, *CH3 and *H (here, the * indicates adsorption), which are involved in the CO2RR to CH4. All the calculated adsorption energies are summarized in Table 2. 3.2.1 Adsorption on 1Cu@Graphene For the 1Cu@Graphene configuration (Fig. 1b), we consider four possible adsorption sites on 1Cu@Graphene: The C top site (#1), the Cu top site (#2), the bridge site between the Cu and the C (#3) and the hollow site between Cu-C-C in the five-member ring (#4) as shown in Fig. 2a. The most favorable adsorption energies of all intermediates on 1Cu@Graphene are summarized in Table 2. CO2 adsorbs weakly on 1Cu@Graphene with an E adsorp of − 0.03 eV. Similar weak CO2 adsorption is also reported on other 2D materials, such as graphene, MoS2 and stanene [33–35]. It is seen that *COOH prefers to adsorb on the C top site (#1) with an adsorption energy of − 2.41 eV. *CO prefers the Cu top site (#2) with a weak physical adsorption of − 0.12 eV. While the adsorption energy of on various Cu surface is reported to be around − 0.5 eV [36], The difference of the adsorption between 1Cu@Graphene and Cu surface suggests that 1Cu@Graphene plays different role with traditional Cu which catalyzing CO2RR. *CHO and *CHOH prefer to adsorb on to the C top site (#1) with high chemical binding energies of − 2.05 eV and − 2.79 eV, respectively. *CH prefers the hollow site (#4), at which it bonds with Cu-C-C to form a tetrahedron geometry with E adsorp of − 3.97 eV. *CH2 prefers the bridge site (#3) while *H and *CH3 prefer the C top site (#1), all three with high chemical bonding energies (−4.43, −4.40, and −2.66 eV, respectively). 3.2.2 Adsorption on 2Cu@Graphene For the 2Cu@Graphene configuration (Fig. 1g), with one more Cu atom involved, we consider seven possible adsorption sites (#1-#7), as shown in Fig. 2b. The most favorable adsorption energies of all intermediates on 2Cu@Graphene are summarized in Table 2. CO2 adsorbs weakly on 2Cu@Graphene with E adsorp of − 0.02 eV. *COOH prefers the C site (#2) with a strong chemical bonding energy of − 2.13 eV. Although the most favorable site on 2Cu@Graphene is similarly on a carbon, as with 1Cu@Graphene, their different adsorption energies (−2.13 eV and −2.41 eV for 1Cu and 2Cu@Graphene, respectively) indicate that Cu monomer and Cu dimer have different effects on the neighboring C atoms. *CO prefers the Cu top site (#4) with a weak adsorption energy of only − 0.12 eV. *CHO, *CHOH, *CH3 and *H all prefer the C top site (#2), all with strong chemical adsorptions ( E adsorp = −2.39, −3.67, −2.71 and −3.90 eV, respectively). *CH prefers the hollow site (#7), while *CH2 prefers the C-Cu bridge site (#6), both with strong adsorption energies ( E adsorp =−5.87 eV and −4.52 eV, respectively). 3.2.3 Adsorption on 3Cu@Graphene For the 3Cu@Graphene configuration (Fig. 1i), we also consider seven possible adsorption sites (#1-#7), as shown in Fig. 2c for adsorption analysis. The most favorable adsorption energies of all intermediates on 3Cu@Graphene are summarized in Table 2. CO2 adsorbs weakly on 3Cu@Graphene with E adsorp of − 0.02 eV. It is seen that CO prefers to adsorb on the top Cu site (#6), which is the same as on 1Cu@Graphene and 2Cu@Graphene, with a slightly lower adsorption energy of − 0.36 eV. The C top site (#4) is preferred by *COOH, *CHO, *CHOH, *CH3 and *H, all with high chemical adsorption energies ( E adsorp = −2.41, −2.58. −2.94, −2.64 and −2.01 eV, respectively). Both *CH and *CH2 prefer the bridge site (#7) with the adsorption energies of − 5.95 eV and − 4.78 eV, respectively. 3.3 Gibbs free energy diagram of the reaction pathway The CO2 reduction to CH4 on Cu crystal surfaces have been extensively studied using DFT calculations [37,38]. These studies generally suggest a reaction pathway with identical reaction intermediates from CO to CH4 on both stepped and flat copper crystal surfaces as listed in the left column of Table 3, in which *CO2 is reduced to CH4 via a series of proton−electron transfers through intermediates of *CHO, *CHOH, *CH, *CH2, and *CH3. We therefore adopt this reaction pathway to examine the reaction energy landscapes of our designed Cu-mer catalysts. 3.3.1 Reaction pathway on 1Cu@Graphene The Gibbs free energy change ( ∆ G ) for each reaction step along the reaction pathway catalyzed by 1Cu@Graphene is given in the second column of Table 3 and navy line of Fig. 3 (under U e ). It is seen that under acidic condition, the ∆ G associated with the reduction of *CO2 to *COOH is slightly thermodynamically favorable with a ∆ G of − 0.06 eV. With this step, the weakly adsorbed *CO2 ( E adsorp = − 0.03 eV ) was fixed on to the surface in the form of *COOH ( E adsorp = − 2.41 eV ). The reaction from *COOH to *CO is endothermic by 0.83 eV. Although the protonation of *CO to *CHO was widely reported as the rate limiting step for CO2RR to CH4 on Cu crystal surfaces [37,38], it is surprising that this reaction step is exothermic by − 0.62 eV on 1Cu@Graphene, which indicates that the Cu SAC performs differently from Cu crystal surfaces. The *CHO then releases another − 0.55 eV to form *CHOH. However, *CHOH requires as high as 1.82 eV to form *CH. The *CH then undergoes a stepwise spontaneous protonation to *CH2 ( ∆ G = −2.45 eV), *CH3 ( ∆ G = −1.12 eV) and *CH4 ( ∆ G = −0.47 eV). Among all these steps, the reduction of *CHOH to *CH possesses the highest thermodynamics energy barrier ( ∆ G = +1.82 eV) and is considered the rate-limiting step for CO2RR to CH4 on 1Cu@Graphene. Herein, the DFT calculated limiting potential U e is 1.82 V for 1Cu@Graphene to catalyze CO2RR to CH4. 3.3.2 Reaction pathway on 2Cu@Graphene The value of ∆ G for each reaction step along the reaction pathway catalyzed by 2Cu@Graphene is given in the third column of Table 3 and orange line of Fig. 3 (under U e ). It is seen that the 2Cu@Graphene performs differently from its 1Cu@Graphene counterpart. The ∆ G for *CO2 protonation to *COOH is found to be 0.22 eV, which is higher than that on 1Cu@Graphene. Then *COOH requires another 0.54 eV to produce *CO and H2O. *CO undergoes a spontaneously exothermic reaction to *CHO and *CHOH ( ∆ G = −1.01 eV and −1.01 eV, respectively). *CHOH needs 1.22 eV to produce *CH. Then, *CH undergoes a stepwise spontaneous protonation to CH4 ( ∆ G = −1.12 eV, −1.06 eV and −0.39 eV, respectively). Similar to 1Cu@Grapehene, the C-H bond breaking of *CHOH is the rate-limiting step ( ∆ G = 1.22 eV). Herein, the DFT calculated limiting potential U e is 1.22 V for 2Cu@Graphene to catalyze CO2RR to CH4. As summarized in Fig. 3 and Table 3, the 2Cu@Graphene performs differently from 1Cu@Grapehene due to the ∆ G difference in specific reaction steps along the reaction pathway. However, since the U e on 2Cu@Grapehene is much lower than that on 1Cu@Grapehene (1.22 V vs 1.82 V), it is expected that 2Cu@Graphene (orange lines) will outperform 1Cu@Graphene (navy lines) for CO2RR to CH4. It is noted that similar Cu dimers with a high activity to CO2RR were detected in experiments before [39] . It was reported a catalyst that featured two adjacent copper atoms that worked together to promote CO2 activation, which resulted in a Faradaic efficiency for CO generation up to 92%, and a largely suppressed competing hydrogen evolution reaction [39]. 3.3.3 Reaction pathway on 3Cu@Graphene We have also studied the CO2RR reaction pathway to CH4 catalyzed by 3Cu@Graphene. The value of ∆ G for each reaction step along the reaction pathway is given in the last column of Table 3 and green line of Fig. 3 (under U e ). The ∆ G for *CO2 protonation to *COOH is found to be slightly exothermic by − 0.08 eV, which is lower than those on 1Cu@Graphene and 2Cu@Graphene. Then, *COOH requires another 0.60 eV to produce *CO and H2O. *CO is further reduced to *CHO and gives out − 0.35 eV of energy. *CHO is further protonated, with an exothermic ∆ G of − 0.76 eV to form *CHOH. *CHOH needs an extra 0.41 eV to produce *CH and H2O. *CH subsequently undergoes a stepwise spontaneous protonation via *CH2 and *CH3 to the final product of CH4. For 3Cu@Grapehene, the O-H bond breaking of *COOH is the rate-limiting step with a thermodynamic energy barrier of 0.60 eV. Herein, the DFT calculated limiting potential U e is 0.60 V for 3Cu@Graphene to catalyze CO2RR to CH4. Among all three catalysts, both 3Cu@Graphene and 2Cu@Graphene show an improved activity compared with 1Cu@Graphene. Evidently, 3Cu@Graphene (the green lines of Fig. 3 and the last column of Table 3) possesses the lowest U e (0.60 V vs 1.22 V of 2Cu@Graphene and 1.82 V of 1Cu@Graphene), which suggests that it has the best activity for CO2RR to CH4. 3.3.4 Catalytic performance CO is often considered as being responsible for electrode poisoning due to its strong adsorption on to the electrode surface. For CO2RR to CH4 on top of Cu crystal surfaces, regardless flat or stepped, the reduction of *CO is well accepted as the rate-limiting step [37,38]. Surprisingly, CO adsorbs only weakly on 1Cu@Graphene, 2Cu@Graphene and 3Cu@Graphene (with an absorption energy of −0.12, −0.12 and −0.36 eV, respectively, as shown in Table 2). In addition, the reduction of *CO is exothermic on all three catalysts. This once again shows that atomic mer catalysts present a unique character distinctively different from their Cu crystal surface, thus promising for high-performance catalysis. Hydrogen evolution reaction (HER) is often regarded as a competing reaction with CO2RR and thus may decrease CO2RR selectivity and efficiency [40]. The competition between CO2RR and HER is another concern when designing highly efficient catalyst. Herein, we also compared the performance of these three catalysts on HER, and the relative Gibbs free energy diagrams are shown in Fig. 4. Same as the SAC, 1Cu@Graphene shows a low activity (a high selectivity) to HER with ∆ G = 1.42 eV. 2Cu@Graphene shows an even lower activity (a higher selectivity) to HER with ∆ G = −3.10 eV. Interestingly, 3Cu@Graphene shows a higher activity (a poorer selectivity) to HER with ∆ G = − 0.58 eV. From the discussion above, we can see that although 3Cu@Graphene shows the best activity to CO2RR among these three catalysts, it also shows the best activity to HER. As a result, 3Cu@Graphene may not be a good choice because of its poor selectivity against HER. On the other hand, 2Cu@Graphene may be an optimal choice as it shows a reasonably good activity to CO2RR and a high selectivity against competing HER. 3Cu@Graphene is promising if its poor selectivity against HER can be addressed. 3.3.5 Evaluation of methodology To have a better understanding on which part of Gibbs energy plays the key role in the whole CO2RR process, we systematically examined the individual contribution from adsorption, ZPE correction and solvent effect. We also calculated the reaction energy for each reaction step. All the data are summarized in Fig. 5. It is seen that compared to ∆ G inclusive of all the three parts (Fig. 5(a)), the ∆ G without ZPE correction and solvent effect correction (Fig. 5(b)) or without the solvent correction (Fig. 5(c)) only shifts the energy level of each reaction step but without altering the main trend, that is, the activity for CO2RR to CH4 follows the sequence of 3Cu@Graphene > 2Cu@Graphene > 1Cu@Graphene. This signifies that the absorption energy plays the key role in the CO2RR process. Fig. 5(d) shows the reaction energy for each reaction step. It is seen that from a thermodynamic perspective, 3Cu@Graphene is expected to deliver the best performance and 1Cu@Graphene the worst. This conclusion is exactly the same as what we have drawn from the Gibbs free energy calculation without ZPE and solvent effect corrections. In addition, both methods suggest the same rate-limiting step. Finally, we would like to emphasize that since the adsorption plays the key role in the whole CO2RR process, it should be modelled properly in order to ensure a high accuracy. 4 Conclusion Going beyond the recently established SACs framework, we have designed Cu dimer and Cu trimer atomic configurations embedded in graphene, and investigated their catalytic performance for CO2RR to CH4 by means of DFT calculations. Firstly, we have constructed all the possible atomic models for the 1Cu@Graphene, 2Cu@Graphene and 3Cu@Graphene and screened all possible models to identify the most energetically favorable configurations. Then, we have examined the adsorptions of all the known reaction intermediates from CO2RR to CH4 and obtained the most favorable adsorption energies of all the intermediates on the three catalysts. Finally, we analyzed the Gibbs free energy landscapes of the reaction pathway based on the most favorable adsorption of the reactants and products. For the 1Cu@Graphene, the rate-limiting step is the O-H bond breaking of *CHOH with a U e of 1.82 V. For the 2Cu@Graphene, the rate-limiting step is the O-H bond breaking of *CHOH with a U e of 1.22 V. For the 3Cu@Graphene, it effectively lowers the thermodynamic energy barrier of the O-H bond breaking of *CHOH, which results in a much better catalytic activity. The O-H bond breaking of *COOH has instead become the rate-limiting step with a U e of 0.60 V, clearly outperforming both 1Cu@Graphene and 2Cu@Graphene. However, 3Cu@Graphene also shows the best activity (the poorest selectivity) to HER. As a result, 2Cu@Graphene is expected to be an optimal catalyst because it shows a reasonably good activity to CO2RR and a high selectivity towards HER. 3Cu@Graphene is a promising candidate if its poor selectivity against HER can be addressed. In addition, we also compared different methodologies and suggested that the adsorption term plays the key role in the whole CO2RR process, hence it is the most important part in all the calculations and thus should be modelled properly so as to achieve a high accuracy. Our work here unveils a feasible route to design new electrocatalysts with high activity, selectivity and stability for CO2RR to valuable commodities and chemicals, and presents a useful reference for further experimentation. CRediT authorship contribution statement Jing Yang: DFT calculations, Data curation, Writing – original draft. Ximeng Liu: Discussion, Writing – review & editing. Yuan Hao: Discussion, Writing – review & editing. Jianguo Sun: Discussion, Writing – review & editing. Lidao Li: DFT calculations, Writing. Johnson Goh: Conceptual design, Discussion, Writing – review & editing. Zhi Gen Yu: Conceptual design, Discussion, Writing – review & editing. Junmin Xue: Conceptual design, Discussion, Writing – review & editing. John Wang: Conceptual design, Discussion, Writing – review & editing. Yong-Wei Zhang: Conceptual design, Writing – review & editing, Fund acquisition, Supervision. Declaration of Competing Interest The authors declare that they have no known competing financial interests or personal relationships that could have appeared to influence the work reported in this paper. Acknowledgement This work was supported by the National Research Foundation, Singapore under Award No. NRF-CRP24-2020-0002, and Singapore A*STAR SERC CRF Award. The use of computing resources at the A*STAR Computational Centre and National Supercomputer Centre, Singapore is gratefully acknowledged. K.E.J.G.acknowledges support from Agency for Science, Technology and Research (#21709), and from a Singapore National Research Foundation Grant (CRP21-2018-0001). References [1] Lindsey, R. Climate Change: Atmospheric Carbon Dioxide. 〈https://www.climate.gov/〉. [2] A.M. Appel J.E. Bercaw A.B. Bocarsly H. Dobbek D.L. DuBois M. Dupuis J.G. Ferry E. Fujita R. Hille P.J.A. Kenis C.A. Kerfeld R.H. Morris C.H.F. Peden A.R. Portis S.W. Ragsdale T.B. Rauchfuss J.N.H. Reek L.C. Seefeldt R.K. Thauer G.L. Waldrop Chem. Rev. 113 2013 6621 6658 Appel, A.M.; Bercaw, J.E.; Bocarsly, A.B.; Dobbek, H.; DuBois, D.L.; Dupuis, M.; Ferry, J.G.; Fujita, E.; Hille, R.; Kenis, P.J. A.; Kerfeld, C.A.; Morris, R.H.; Peden, C.H. F.; Portis, A.R.; Ragsdale, S.W.; Rauchfuss, T.B.; Reek, J.N. H.; Seefeldt, L.C.; Thauer, R.K.; Waldrop, G.L., Frontiers, Opportunities, and Challenges in Biochemical and Chemical Catalysis of CO2 Fixation. Chem. Rev. 113 (2013) 6621–6658. [3] S. Nitopi E. Bertheussen S.B. Scott X. Liu A.K. Engstfeld S. Horch B. Seger I.E.L. Stephens K. Chan C. Hahn J.K. Nørskov T.F. Jaramillo I. Chorkendorff Chem. Rev. 119 2019 7610 7672 Nitopi, S.; Bertheussen, E.; Scott, S.B.; Liu, X.; Engstfeld, A.K.; Horch, S.; Seger, B.; Stephens, I.E. L.; Chan, K.; Hahn, C.; Nørskov, J.K.; Jaramillo, T.F.; Chorkendorff, I., Progress and Perspectives of Electrochemical CO2 Reduction on Copper in Aqueous Electrolyte. Chem. Rev. 119 (2019) 7610–7672. [4] Z. Yan J.L. Hitt J.A. Turner T.E. Mallouk Proc. Natl. Acad. Sci. 117 2020 12558 12563 Yan, Z.; Hitt, J.L.; Turner, J.A.; Mallouk, T.E., Renewable Electricity Storage Using Electrolysis. Proc.Nati. Acad.Sci. 117 (2020) 12558–12563. [5] P. De Luna C. Hahn D. Higgins S.A. Jaffer T.F. Jaramillo E.H. Sargent Science 364 2019 eaav3506 De Luna, P.; Hahn, C.; Higgins, D.; Jaffer, S.A.; Jaramillo, T.F.; Sargent, E.H., What Would It Take for Renewably Powered Electrosynthesis to Displace Petrochemical Processes? Science 364 (2019) eaav3506. [6] H. Yoshio K. Katsuhei S. Shin Chem. Lett. 14 1985 1695 1698 Yoshio, H.; Katsuhei, K.; Shin, S., Production of CO and CH4 in Electrochemical Reduction of CO2 at Metal Electrodes in Aqueous Hydrogencarbonate Solution. Chem. Lett. 14 (1985) 1695–1698. [7] Z. Tao Z. Wu Y. Wu H. Wang ACS Catal. 2020 9271 9275 Tao, Z.; Wu, Z.; Wu, Y.; Wang, H., Activating Copper for Electrocatalytic CO2 Reduction to Formate Via Molecular Interactions. ACS Catal. (2020) 9271–9275. [8] C.W. Li M.W. Kanan J. Am. Chem. Soc. 134 2012 7231 7234 Li, C.W.; Kanan, M.W., CO2 Reduction at Low Overpotential on Cu Electrodes Resulting from the Reduction of Thick Cu2O Films. J. Am. Chem. Soc. 134 (2012) 7231–7234. [9] D. Raciti K.J. Livi C. Wang Nano Lett. 15 2015 6829 6835 Raciti, D.; Livi, K.J.; Wang, C., Highly Dense Cu Nanowires for Low-Overpotential CO2 Reduction. Nano Lett. 15 (2015) 6829–6835. [10] M. Ma K. Djanashvili W.A. Smith Angew. Chem. Int. Ed. 55 2016 6680 6684 Ma, M.; Djanashvili, K.; Smith, W.A., Controllable Hydrocarbon Formation from the Electrochemical Reduction of CO2 over Cu Nanowire Arrays. Angew. Chem. Int. Ed. 55 (2016) 6680–6684. [11] S. Sarfraz A.T. Garcia-Esparza A. Jedidi L. Cavallo K. Takanabe ACS Catal. 6 2016 2842 2851 Sarfraz, S.; Garcia-Esparza, A.T.; Jedidi, A.; Cavallo, L.; Takanabe, K., Cu–Sn Bimetallic Catalyst for Selective Aqueous Electroreduction of CO2 to CO. ACS Catal. 6 (2016) 2842–2851. [12] Y. Zhao C. Wang G.G. Wallace J. Mater. Chem. A 4 2016 10710 10718 Zhao, Y.; Wang, C.; Wallace, G.G., Tin Nanoparticles Decorated Copper Oxide Nanowires for Selective Electrochemical Reduction of Aqueous CO2 to CO. J. Mater. Chem. A 4 (2016) 10710–10718. [13] S. Huo Z. Weng Z. Wu Y. Zhong Y. Wu J. Fang H. Wang ACS Appl. Mater. Interfaces 9 2017 28519 28526 Huo, S.; Weng, Z.; Wu, Z.; Zhong, Y.; Wu, Y.; Fang, J.; Wang, H., Coupled Metal/Oxide Catalysts with Tunable Product Selectivity for Electrocatalytic CO2 Reduction. ACS Appl. Mater. Interfaces 9 (2017) 28519–28526. [14] K. Malik S. Singh S. Basu A. Verma WIRES Energy Environ. 6 2017 e244 Malik, K.; Singh, S.; Basu, S.; Verma, A., Electrochemical Reduction of CO2 for Synthesis of Green Fuel. WIRES Energy Environ. 6 (2017) e244. [15] D.D. Zhu J.L. Liu S.Z. Qiao Adv. Mater. 28 2016 3423 3452 Zhu, D.D.; Liu, J.L.; Qiao, S.Z., Recent Advances in Inorganic Heterogeneous Electrocatalysts for Reduction of Carbon Dioxide. Adv. Mater. 28 (2016) 3423–3452. [16] C.F. Shih T. Zhang J. Li C. Bai Joule 2 2018 1925 1949 Shih, C.F.; Zhang, T.; Li, J.; Bai, C., Powering the Future with Liquid Sunshine. Joule 2 (2018) 1925–1949. [17] X.F. Yang A. Wang B. Qiao J. Li J. Liu T. Zhang Acc. Chem. Res. 46 2013 1740 1748 Yang, X.F.; Wang, A.; Qiao, B.; Li, J.; Liu, J.; Zhang, T., Single-Atom Catalysts: A New Frontier in Heterogeneous Catalysis. Acc. Chem. Res. 46 (2013) 1740–1748. [18] A. Wang J. Li T. Zhang Nat. Rev. Chem. 2 2018 65 81 Wang, A.; Li, J.; Zhang, T., Heterogeneous Single-Atom Catalysis. Nat. Rev. Chem. 2 (2018) 65–81. [19] Y.Zhang Zhang Z. Zeng Hao Li J. Mater. Chem. A 10 2022 9737 9745 Zhang, Y.Zhang, Zeng, Z. Li, Hao. Design of 3d transition metal anchored B5N3 catalysts for electrochemical CO2 reduction to methane. J. Mater. Chem. A 10 (2022) 9737–9745. [20] K. Jiang S. Siahrostami T. Zheng Y. Hu S. Hwang E. Stavitski Y. Peng J. Dynes M. Gangisetty D. Su K. Attenkofer H. Wang Energy Environ. Sci. 11 2018 893 903 Jiang, K.; Siahrostami, S.; Zheng, T.; Hu, Y.; Hwang, S.; Stavitski, E.; Peng, Y.; Dynes, J.; Gangisetty, M.; Su, D.; Attenkofer, K.; Wang, H., Isolated Ni Single Atoms in Graphene Nanosheets for High-Performance CO2 Reduction. Energy Environ. Sci. 11 (2018) 893–903. [21] C. Zhang S. Yang J. Wu M. Liu S. Yazdi M. Ren J. Sha J. Zhong K. Nie A.S. Jalilov Z. Li H. Li B.I. Yakobson Q. Wu E. Ringe H. Xu P.M. Ajayan J.M. Tour Adv. Energy Mater. 8 2018 1703487 Zhang, C.; Yang, S.; Wu, J.; Liu, M.; Yazdi, S.; Ren, M.; Sha, J.; Zhong, J.; Nie, K.; Jalilov, A.S.; Li, Z.; Li, H.; Yakobson, B.I.; Wu, Q.; Ringe, E.; Xu, H.; Ajayan, P.M.; Tour, J.M., Electrochemical CO2 Reduction with Atomic Iron-Dispersed on Nitrogen-Doped Graphene. Adv. Energy Mater. 8 (2018) 1703487. [22] H. Yang Y. Wu G. Li Q. Lin Q. Hu Q. Zhang J. Liu C. He J. Am. Chem. Soc. 141 2019 12717 12723 Yang, H.; Wu, Y.; Li, G.; Lin, Q.; Hu, Q.; Zhang, Q.; Liu, J.; He, C., Scalable Production of Efficient Single-Atom Copper Decorated Carbon Membranes for CO2 Electroreduction to Methanol. J. Am. Chem. Soc. 141 (2019) 12717–12723. [23] J.P. Perdew K. Burke M. Ernzerhof Phys. Rev. Lett. 77 1996 3865 3868 Perdew, J.P.; Burke, K.; Ernzerhof, M., Generalized Gradient Approximation Made Simple. Phys. Rev. Lett. 77 (1996) 3865–3868. [24] P.E. Blöchl Phys. Rev. B 50 1994 17953 17979 Blöchl, P.E., Projector Augmented-Wave Method. Phys. Rev. B 50 (1994) 17953–17979. [25] G. Kresse J. Non Cryst. Solids 192 1995 222 229 Kresse, G., ab Initio Molecular Dynamics for Liquid Metals. J.Non-Crys. Solids 192 (1995) 222–229. [26] G. Kresse J. Hafner Phys. Rev. B 48 1993 13115 13118 Kresse, G.; Hafner, J., Ab Initio Molecular Dynamics for Open-Shell Transition Metals. Phys. Rev. B 48 (1993) 13115–13118. [27] A.A. Peterson F. Abild-Pedersen F. Studt J. Rossmeisl J.K. Nørskov Energy Environ. Sci. 3 2010 1311 1315 Peterson, A.A., Abild-Pedersen, F., Studt, F., Rossmeisl, J., Nørskov, J.K. How Copper Catalyzes the Electroreduction of Carbon Dioxide into Hydrocarbon Fuels. Energy Environ. Sci. 3 (2010) 1311–1315. [28] K. Mathew R. Sundararaman K. Letchworth-Weaver T.A. Arias R.G. Hennig J. Chem. Phys. 140 2014 084106 Mathew, K.; Sundararaman, R.; Letchworth-Weaver, K.; Arias, T.A.; Hennig, R.G., Implicit solvation model for density-functional study of nanocrystal surfaces and reaction pathways. J. Chem. Phys. 140 (2014) 084106. [29] S. Pei H.-M. Cheng Carbon 50 2012 3210 3228 Pei, S.; Cheng, H.-M., The Reduction of Graphene Oxide. Carbon 50 (2012) 3210–3228. [30] A.V. Krasheninnikov P.O. Lehtinen A.S. Foster P. Pyykkö R.M. Nieminen Phys. Rev. Lett. 102 2009 126807 Krasheninnikov, A.V.; Lehtinen, P.O.; Foster, A.S.; Pyykkö, P.; Nieminen, R.M., Embedding Transition-Metal Atoms in Graphene: Structure, Bonding, and Magnetism. Phys. Rev. Lett. 102 (2009) 126807. [31] L. Cao Y. Shao H. Pan Z. Lu J. Phys. Chem. C 124 2020 11301 11307 Cao, L.; Shao, Y.; Pan, H.; Lu, Z., Designing Efficient Dual-Metal Single-atom Electrocatalyst TmZnN6 (Tm = Mn, Fe, Co, Ni, Cu, Zn) for Oxygen Reduction Reaction. J. Phys. Chem. C 124 (2020) 11301–11307. [32] Rothenberg, G., Catalysis: Concepts and Green Applications, 2nd Edition, 2017. [33] N. Osouleddini S.F. Rastegar J. Electron Spectrosc. Relat. Phenom. 232 2019 105 110 Osouleddini, N.; Rastegar, S.F., DFT study of the CO2 and CH4 assisted adsorption on the surface of graphene. J Electron Spectros Relat Phenomena 232 (2019) 105–110. [34] S. Zhao J. Xue W. Kang Chem. Phys. Lett. 595–596 2014 35 42 Zhao, S.; Xue, J.; Kang, W., Gas adsorption on MoS2 monolayer from first-principles calculations. Chem. Phys. Lett. 595–596 (2014), 35–42. [35] J. Yang K.E. Johnson Goh Z.G. Yu R.E. Wong Y.W. Zhang Chemosphere 268 2021 129317 Yang, J.; Johnson Goh, K.E.; Yu, Z.G.; Wong, R.E.; Zhang, Y.W., A first-principles study on strain engineering of monolayer stanene for enhanced catalysis of CO2 reduction. Chemosphere 268 (2021) 129317 [36] S. Vollmer G. Witte C. Wöll Catal. Lett. 77 2001 97 101 Vollmer, S.; Witte, G.; Wöll, C., Determination of Site Specific Adsorption Energies of CO on Copper. Catal. Lett. 77 (2001) 97–101. [37] X. Liu J. Xiao H. Peng X. Hong K. Chan J.K. Nørskov Nat. Commun. 8 2017 15438 Liu, X.; Xiao, J.; Peng, H.; Hong, X.; Chan, K.; Nørskov, J.K., Understanding Trends in Electrochemical Carbon Dioxide Reduction Rates. Nat. Commun. 8 (2017) 15438. [38] T. Cheng H. Xiao W.A. Goddard Proc. Natl. Acad. Sci. 114 2017 1795 1800 Cheng, T.; Xiao, H.; Goddard, W.A., Full Atomistic Reaction Mechanism with Kinetics for CO Reduction on Cu(1 0 0) from ab Initio Molecular Dynamics Free-Energy Calculations at 298 K. Proc.Nati. Acad. Sci. 114 (2017) 1795–1800. [39] J. Jiao R. Lin S. Liu W.C. Cheong C. Zhang Z. Chen Y. Pan J. Tang K. Wu S.-F. Hung H.M. Chen L. Zheng Q. Lu X. Yang B. Xu H. Xiao J. Li D. Wang Q. Peng C. Chen Y. Li Nat. Chem. 11 2019 222 228 Jiao, J.; Lin, R.; Liu, S.; Cheong, W.C.; Zhang, C.; Chen, Z.; Pan, Y.; Tang, J.; Wu, K.; Hung, S.-F.; Chen, H.M.; Zheng, L.; Lu, Q.; Yang, X.; Xu, B.; Xiao, H.; Li, J.; Wang, D.; Peng, Q.; Chen, C.; Li, Y., Copper atom-pair catalyst anchored on alloy nanowires for selective and efficient electrochemical reduction of CO2. Nat. Chem. 11 (2019) 222–228. [40] A.A. Peterson J.K. Nørskov J. Phys. Chem. Lett. 3 2012 251 258 Peterson, A.A.; Nørskov, J.K., Activity Descriptors for CO2 Electroreduction to Methane on Transition-Metal Catalysts. J. Phys. Chem. L 3 (2012) 251–258.",
+      "scopus-id": "85131516861",
+      "coredata": {
+        "eid": "1-s2.0-S0926860X22002319",
+        "dc:description": "We extend the single-atom catalysts (SACs) concept to metal-dimer and trimer catalysts anchored on graphene and explore their characteristic performance in catalyzing CO2RR into methane using first-principles calculations. In designing the catalyst, we first identify highly energetically stable Cu dimer and trimer atomic configurations in graphene host and then compute the Gibbs free energy changes in the reaction pathway from carbon dioxide to methane. Remarkably, compared to Cu SAC, the limiting potential is 0.60 V for the Cu-trimer and 1.22 V for Cu-dimer, which is lower than 1.82 V for SAC. The Cu dimer is suggested to be the optimal choice because it demonstrates reasonably high activity to CO2RR and high selectivity against HER than SAC. The methodology study suggested that the adsorption term plays the key role in the whole CO2RR process. The present work points out a new strategy for designing high-performance catalysts beyond single atoms for CO2RR.",
+        "openArchiveArticle": "false",
+        "prism:coverDate": "2022-07-25",
+        "openaccessUserLicense": null,
+        "prism:aggregationType": "Journal",
+        "prism:url": "https://api.elsevier.com/content/article/pii/S0926860X22002319",
+        "dc:creator": [
+          {
+            "@_fa": "true",
+            "$": "Yang, Jing"
+          },
+          {
+            "@_fa": "true",
+            "$": "Liu, Ximeng"
+          },
+          {
+            "@_fa": "true",
+            "$": "Yuan, Hao"
+          },
+          {
+            "@_fa": "true",
+            "$": "Sun, Jianguo"
+          },
+          {
+            "@_fa": "true",
+            "$": "Li, Lidao"
+          },
+          {
+            "@_fa": "true",
+            "$": "Goh, Kuan Eng Johnson"
+          },
+          {
+            "@_fa": "true",
+            "$": "Yu, Zhi Gen"
+          },
+          {
+            "@_fa": "true",
+            "$": "Xue, Junmin"
+          },
+          {
+            "@_fa": "true",
+            "$": "Wang, John"
+          },
+          {
+            "@_fa": "true",
+            "$": "Zhang, Yong-Wei"
+          }
+        ],
+        "link": [
+          {
+            "@_fa": "true",
+            "@rel": "self",
+            "@href": "https://api.elsevier.com/content/article/pii/S0926860X22002319"
+          },
+          {
+            "@_fa": "true",
+            "@rel": "scidir",
+            "@href": "https://www.sciencedirect.com/science/article/pii/S0926860X22002319"
+          }
+        ],
+        "dc:format": "application/json",
+        "openaccessType": null,
+        "pii": "S0926-860X(22)00231-9",
+        "prism:volume": "642",
+        "articleNumber": "118708",
+        "prism:publisher": "Elsevier B.V.",
+        "dc:title": "Beyond single-atom catalysts: Exploration of Cu dimer and trimer for CO2 reduction to methane",
+        "prism:copyright": "© 2022 Elsevier B.V. All rights reserved.",
+        "openaccess": "0",
+        "prism:issn": "0926860X",
+        "dcterms:subject": [
+          {
+            "@_fa": "true",
+            "$": "Catalyst design"
+          },
+          {
+            "@_fa": "true",
+            "$": "SAC"
+          },
+          {
+            "@_fa": "true",
+            "$": "CO2 reduction"
+          },
+          {
+            "@_fa": "true",
+            "$": "First-principles calculation"
+          }
+        ],
+        "openaccessArticle": "false",
+        "prism:publicationName": "Applied Catalysis A: General",
+        "openaccessSponsorType": null,
+        "prism:pageRange": "118708",
+        "pubType": "fla",
+        "prism:coverDisplayDate": "25 July 2022",
+        "prism:doi": "10.1016/j.apcata.2022.118708",
+        "prism:startingPage": "118708",
+        "dc:identifier": "doi:10.1016/j.apcata.2022.118708",
+        "openaccessSponsorName": null
+      },
+      "objects": {
+        "object": [
+          {
+            "@category": "standard",
+            "@height": "449",
+            "@width": "565",
+            "@_fa": "true",
+            "$": "https://api.elsevier.com/content/object/eid/1-s2.0-S0926860X22002319-gr1.jpg?httpAccept=%2A%2F%2A",
+            "@multimediatype": "JPEG image file",
+            "@type": "IMAGE-DOWNSAMPLED",
+            "@size": "57873",
+            "@ref": "gr1",
+            "@mimetype": "image/jpeg"
+          },
+          {
+            "@category": "standard",
+            "@height": "267",
+            "@width": "376",
+            "@_fa": "true",
+            "$": "https://api.elsevier.com/content/object/eid/1-s2.0-S0926860X22002319-gr3.jpg?httpAccept=%2A%2F%2A",
+            "@multimediatype": "JPEG image file",
+            "@type": "IMAGE-DOWNSAMPLED",
+            "@size": "22464",
+            "@ref": "gr3",
+            "@mimetype": "image/jpeg"
+          },
+          {
+            "@category": "standard",
+            "@height": "195",
+            "@width": "659",
+            "@_fa": "true",
+            "$": "https://api.elsevier.com/content/object/eid/1-s2.0-S0926860X22002319-gr2.jpg?httpAccept=%2A%2F%2A",
+            "@multimediatype": "JPEG image file",
+            "@type": "IMAGE-DOWNSAMPLED",
+            "@size": "30566",
+            "@ref": "gr2",
+            "@mimetype": "image/jpeg"
+          },
+          {
+            "@category": "standard",
+            "@height": "200",
+            "@width": "278",
+            "@_fa": "true",
+            "$": "https://api.elsevier.com/content/object/eid/1-s2.0-S0926860X22002319-ga1.jpg?httpAccept=%2A%2F%2A",
+            "@multimediatype": "JPEG image file",
+            "@type": "IMAGE-DOWNSAMPLED",
+            "@size": "15011",
+            "@ref": "ga1",
+            "@mimetype": "image/jpeg"
+          },
+          {
+            "@category": "standard",
+            "@height": "687",
+            "@width": "791",
+            "@_fa": "true",
+            "$": "https://api.elsevier.com/content/object/eid/1-s2.0-S0926860X22002319-gr5.jpg?httpAccept=%2A%2F%2A",
+            "@multimediatype": "JPEG image file",
+            "@type": "IMAGE-DOWNSAMPLED",
+            "@size": "95363",
+            "@ref": "gr5",
+            "@mimetype": "image/jpeg"
+          },
+          {
+            "@category": "standard",
+            "@height": "251",
+            "@width": "376",
+            "@_fa": "true",
+            "$": "https://api.elsevier.com/content/object/eid/1-s2.0-S0926860X22002319-gr4.jpg?httpAccept=%2A%2F%2A",
+            "@multimediatype": "JPEG image file",
+            "@type": "IMAGE-DOWNSAMPLED",
+            "@size": "13022",
+            "@ref": "gr4",
+            "@mimetype": "image/jpeg"
+          },
+          {
+            "@category": "thumbnail",
+            "@height": "164",
+            "@width": "206",
+            "@_fa": "true",
+            "$": "https://api.elsevier.com/content/object/eid/1-s2.0-S0926860X22002319-gr1.sml?httpAccept=%2A%2F%2A",
+            "@multimediatype": "GIF image file",
+            "@type": "IMAGE-THUMBNAIL",
+            "@size": "10217",
+            "@ref": "gr1",
+            "@mimetype": "image/gif"
+          },
+          {
+            "@category": "thumbnail",
+            "@height": "156",
+            "@width": "219",
+            "@_fa": "true",
+            "$": "https://api.elsevier.com/content/object/eid/1-s2.0-S0926860X22002319-gr3.sml?httpAccept=%2A%2F%2A",
+            "@multimediatype": "GIF image file",
+            "@type": "IMAGE-THUMBNAIL",
+            "@size": "11531",
+            "@ref": "gr3",
+            "@mimetype": "image/gif"
+          },
+          {
+            "@category": "thumbnail",
+            "@height": "65",
+            "@width": "219",
+            "@_fa": "true",
+            "$": "https://api.elsevier.com/content/object/eid/1-s2.0-S0926860X22002319-gr2.sml?httpAccept=%2A%2F%2A",
+            "@multimediatype": "GIF image file",
+            "@type": "IMAGE-THUMBNAIL",
+            "@size": "5289",
+            "@ref": "gr2",
+            "@mimetype": "image/gif"
+          },
+          {
+            "@category": "thumbnail",
+            "@height": "157",
+            "@width": "219",
+            "@_fa": "true",
+            "$": "https://api.elsevier.com/content/object/eid/1-s2.0-S0926860X22002319-ga1.sml?httpAccept=%2A%2F%2A",
+            "@multimediatype": "GIF image file",
+            "@type": "IMAGE-THUMBNAIL",
+            "@size": "13093",
+            "@ref": "ga1",
+            "@mimetype": "image/gif"
+          },
+          {
+            "@category": "thumbnail",
+            "@height": "164",
+            "@width": "189",
+            "@_fa": "true",
+            "$": "https://api.elsevier.com/content/object/eid/1-s2.0-S0926860X22002319-gr5.sml?httpAccept=%2A%2F%2A",
+            "@multimediatype": "GIF image file",
+            "@type": "IMAGE-THUMBNAIL",
+            "@size": "12437",
+            "@ref": "gr5",
+            "@mimetype": "image/gif"
+          },
+          {
+            "@category": "thumbnail",
+            "@height": "146",
+            "@width": "219",
+            "@_fa": "true",
+            "$": "https://api.elsevier.com/content/object/eid/1-s2.0-S0926860X22002319-gr4.sml?httpAccept=%2A%2F%2A",
+            "@multimediatype": "GIF image file",
+            "@type": "IMAGE-THUMBNAIL",
+            "@size": "4988",
+            "@ref": "gr4",
+            "@mimetype": "image/gif"
+          },
+          {
+            "@category": "high",
+            "@height": "1983",
+            "@width": "2495",
+            "@_fa": "true",
+            "$": "https://api.elsevier.com/content/object/eid/1-s2.0-S0926860X22002319-gr1_lrg.jpg?httpAccept=%2A%2F%2A",
+            "@multimediatype": "JPEG image file",
+            "@type": "IMAGE-HIGH-RES",
+            "@size": "252002",
+            "@ref": "gr1",
+            "@mimetype": "image/jpeg"
+          },
+          {
+            "@category": "high",
+            "@height": "1182",
+            "@width": "1663",
+            "@_fa": "true",
+            "$": "https://api.elsevier.com/content/object/eid/1-s2.0-S0926860X22002319-gr3_lrg.jpg?httpAccept=%2A%2F%2A",
+            "@multimediatype": "JPEG image file",
+            "@type": "IMAGE-HIGH-RES",
+            "@size": "110899",
+            "@ref": "gr3",
+            "@mimetype": "image/jpeg"
+          },
+          {
+            "@category": "high",
+            "@height": "863",
+            "@width": "2911",
+            "@_fa": "true",
+            "$": "https://api.elsevier.com/content/object/eid/1-s2.0-S0926860X22002319-gr2_lrg.jpg?httpAccept=%2A%2F%2A",
+            "@multimediatype": "JPEG image file",
+            "@type": "IMAGE-HIGH-RES",
+            "@size": "131204",
+            "@ref": "gr2",
+            "@mimetype": "image/jpeg"
+          },
+          {
+            "@category": "high",
+            "@height": "886",
+            "@width": "1233",
+            "@_fa": "true",
+            "$": "https://api.elsevier.com/content/object/eid/1-s2.0-S0926860X22002319-ga1_lrg.jpg?httpAccept=%2A%2F%2A",
+            "@multimediatype": "JPEG image file",
+            "@type": "IMAGE-HIGH-RES",
+            "@size": "104285",
+            "@ref": "ga1",
+            "@mimetype": "image/jpeg"
+          },
+          {
+            "@category": "high",
+            "@height": "3034",
+            "@width": "3493",
+            "@_fa": "true",
+            "$": "https://api.elsevier.com/content/object/eid/1-s2.0-S0926860X22002319-gr5_lrg.jpg?httpAccept=%2A%2F%2A",
+            "@multimediatype": "JPEG image file",
+            "@type": "IMAGE-HIGH-RES",
+            "@size": "433626",
+            "@ref": "gr5",
+            "@mimetype": "image/jpeg"
+          },
+          {
+            "@category": "high",
+            "@height": "1111",
+            "@width": "1663",
+            "@_fa": "true",
+            "$": "https://api.elsevier.com/content/object/eid/1-s2.0-S0926860X22002319-gr4_lrg.jpg?httpAccept=%2A%2F%2A",
+            "@multimediatype": "JPEG image file",
+            "@type": "IMAGE-HIGH-RES",
+            "@size": "70326",
+            "@ref": "gr4",
+            "@mimetype": "image/jpeg"
+          },
+          {
+            "@category": "thumbnail",
+            "@_fa": "true",
+            "$": "https://api.elsevier.com/content/object/eid/1-s2.0-S0926860X22002319-si0003.svg?httpAccept=%2A%2F%2A",
+            "@multimediatype": "Scalable Vector Graphics file",
+            "@type": "ALTIMG",
+            "@size": "1389",
+            "@ref": "si0003",
+            "@mimetype": "image/svg+xml"
+          },
+          {
+            "@category": "thumbnail",
+            "@_fa": "true",
+            "$": "https://api.elsevier.com/content/object/eid/1-s2.0-S0926860X22002319-si0004.svg?httpAccept=%2A%2F%2A",
+            "@multimediatype": "Scalable Vector Graphics file",
+            "@type": "ALTIMG",
+            "@size": "4125",
+            "@ref": "si0004",
+            "@mimetype": "image/svg+xml"
+          },
+          {
+            "@category": "thumbnail",
+            "@_fa": "true",
+            "$": "https://api.elsevier.com/content/object/eid/1-s2.0-S0926860X22002319-si0005.svg?httpAccept=%2A%2F%2A",
+            "@multimediatype": "Scalable Vector Graphics file",
+            "@type": "ALTIMG",
+            "@size": "2329",
+            "@ref": "si0005",
+            "@mimetype": "image/svg+xml"
+          },
+          {
+            "@category": "thumbnail",
+            "@_fa": "true",
+            "$": "https://api.elsevier.com/content/object/eid/1-s2.0-S0926860X22002319-si0001.svg?httpAccept=%2A%2F%2A",
+            "@multimediatype": "Scalable Vector Graphics file",
+            "@type": "ALTIMG",
+            "@size": "1110",
+            "@ref": "si0001",
+            "@mimetype": "image/svg+xml"
+          },
+          {
+            "@category": "thumbnail",
+            "@_fa": "true",
+            "$": "https://api.elsevier.com/content/object/eid/1-s2.0-S0926860X22002319-si0006.svg?httpAccept=%2A%2F%2A",
+            "@multimediatype": "Scalable Vector Graphics file",
+            "@type": "ALTIMG",
+            "@size": "1247",
+            "@ref": "si0006",
+            "@mimetype": "image/svg+xml"
+          },
+          {
+            "@category": "thumbnail",
+            "@_fa": "true",
+            "$": "https://api.elsevier.com/content/object/eid/1-s2.0-S0926860X22002319-si0007.svg?httpAccept=%2A%2F%2A",
+            "@multimediatype": "Scalable Vector Graphics file",
+            "@type": "ALTIMG",
+            "@size": "1495",
+            "@ref": "si0007",
+            "@mimetype": "image/svg+xml"
+          },
+          {
+            "@category": "thumbnail",
+            "@_fa": "true",
+            "$": "https://api.elsevier.com/content/object/eid/1-s2.0-S0926860X22002319-si0008.svg?httpAccept=%2A%2F%2A",
+            "@multimediatype": "Scalable Vector Graphics file",
+            "@type": "ALTIMG",
+            "@size": "3545",
+            "@ref": "si0008",
+            "@mimetype": "image/svg+xml"
+          },
+          {
+            "@category": "thumbnail",
+            "@_fa": "true",
+            "$": "https://api.elsevier.com/content/object/eid/1-s2.0-S0926860X22002319-si0009.svg?httpAccept=%2A%2F%2A",
+            "@multimediatype": "Scalable Vector Graphics file",
+            "@type": "ALTIMG",
+            "@size": "1130",
+            "@ref": "si0009",
+            "@mimetype": "image/svg+xml"
+          },
+          {
+            "@category": "thumbnail",
+            "@_fa": "true",
+            "$": "https://api.elsevier.com/content/object/eid/1-s2.0-S0926860X22002319-si0010.svg?httpAccept=%2A%2F%2A",
+            "@multimediatype": "Scalable Vector Graphics file",
+            "@type": "ALTIMG",
+            "@size": "1146",
+            "@ref": "si0010",
+            "@mimetype": "image/svg+xml"
+          },
+          {
+            "@category": "thumbnail",
+            "@_fa": "true",
+            "$": "https://api.elsevier.com/content/object/eid/1-s2.0-S0926860X22002319-si0011.svg?httpAccept=%2A%2F%2A",
+            "@multimediatype": "Scalable Vector Graphics file",
+            "@type": "ALTIMG",
+            "@size": "1154",
+            "@ref": "si0011",
+            "@mimetype": "image/svg+xml"
+          },
+          {
+            "@category": "thumbnail",
+            "@_fa": "true",
+            "$": "https://api.elsevier.com/content/object/eid/1-s2.0-S0926860X22002319-si0012.svg?httpAccept=%2A%2F%2A",
+            "@multimediatype": "Scalable Vector Graphics file",
+            "@type": "ALTIMG",
+            "@size": "1628",
+            "@ref": "si0012",
+            "@mimetype": "image/svg+xml"
+          },
+          {
+            "@category": "thumbnail",
+            "@_fa": "true",
+            "$": "https://api.elsevier.com/content/object/eid/1-s2.0-S0926860X22002319-si0013.svg?httpAccept=%2A%2F%2A",
+            "@multimediatype": "Scalable Vector Graphics file",
+            "@type": "ALTIMG",
+            "@size": "1146",
+            "@ref": "si0013",
+            "@mimetype": "image/svg+xml"
+          },
+          {
+            "@category": "thumbnail",
+            "@_fa": "true",
+            "$": "https://api.elsevier.com/content/object/eid/1-s2.0-S0926860X22002319-si0014.svg?httpAccept=%2A%2F%2A",
+            "@multimediatype": "Scalable Vector Graphics file",
+            "@type": "ALTIMG",
+            "@size": "1657",
+            "@ref": "si0014",
+            "@mimetype": "image/svg+xml"
+          },
+          {
+            "@category": "thumbnail",
+            "@_fa": "true",
+            "$": "https://api.elsevier.com/content/object/eid/1-s2.0-S0926860X22002319-si0015.svg?httpAccept=%2A%2F%2A",
+            "@multimediatype": "Scalable Vector Graphics file",
+            "@type": "ALTIMG",
+            "@size": "2629",
+            "@ref": "si0015",
+            "@mimetype": "image/svg+xml"
+          },
+          {
+            "@category": "thumbnail",
+            "@_fa": "true",
+            "$": "https://api.elsevier.com/content/object/eid/1-s2.0-S0926860X22002319-si0016.svg?httpAccept=%2A%2F%2A",
+            "@multimediatype": "Scalable Vector Graphics file",
+            "@type": "ALTIMG",
+            "@size": "1649",
+            "@ref": "si0016",
+            "@mimetype": "image/svg+xml"
+          },
+          {
+            "@category": "thumbnail",
+            "@_fa": "true",
+            "$": "https://api.elsevier.com/content/object/eid/1-s2.0-S0926860X22002319-si0017.svg?httpAccept=%2A%2F%2A",
+            "@multimediatype": "Scalable Vector Graphics file",
+            "@type": "ALTIMG",
+            "@size": "1450",
+            "@ref": "si0017",
+            "@mimetype": "image/svg+xml"
+          },
+          {
+            "@category": "thumbnail",
+            "@_fa": "true",
+            "$": "https://api.elsevier.com/content/object/eid/1-s2.0-S0926860X22002319-si0018.svg?httpAccept=%2A%2F%2A",
+            "@multimediatype": "Scalable Vector Graphics file",
+            "@type": "ALTIMG",
+            "@size": "1146",
+            "@ref": "si0018",
+            "@mimetype": "image/svg+xml"
+          },
+          {
+            "@category": "thumbnail",
+            "@_fa": "true",
+            "$": "https://api.elsevier.com/content/object/eid/1-s2.0-S0926860X22002319-si0019.svg?httpAccept=%2A%2F%2A",
+            "@multimediatype": "Scalable Vector Graphics file",
+            "@type": "ALTIMG",
+            "@size": "1110",
+            "@ref": "si0019",
+            "@mimetype": "image/svg+xml"
+          },
+          {
+            "@category": "thumbnail",
+            "@_fa": "true",
+            "$": "https://api.elsevier.com/content/object/eid/1-s2.0-S0926860X22002319-si0020.svg?httpAccept=%2A%2F%2A",
+            "@multimediatype": "Scalable Vector Graphics file",
+            "@type": "ALTIMG",
+            "@size": "1559",
+            "@ref": "si0020",
+            "@mimetype": "image/svg+xml"
+          },
+          {
+            "@category": "thumbnail",
+            "@_fa": "true",
+            "$": "https://api.elsevier.com/content/object/eid/1-s2.0-S0926860X22002319-si0021.svg?httpAccept=%2A%2F%2A",
+            "@multimediatype": "Scalable Vector Graphics file",
+            "@type": "ALTIMG",
+            "@size": "1523",
+            "@ref": "si0021",
+            "@mimetype": "image/svg+xml"
+          },
+          {
+            "@category": "thumbnail",
+            "@_fa": "true",
+            "$": "https://api.elsevier.com/content/object/eid/1-s2.0-S0926860X22002319-si0022.svg?httpAccept=%2A%2F%2A",
+            "@multimediatype": "Scalable Vector Graphics file",
+            "@type": "ALTIMG",
+            "@size": "1495",
+            "@ref": "si0022",
+            "@mimetype": "image/svg+xml"
+          },
+          {
+            "@category": "thumbnail",
+            "@_fa": "true",
+            "$": "https://api.elsevier.com/content/object/eid/1-s2.0-S0926860X22002319-si0023.svg?httpAccept=%2A%2F%2A",
+            "@multimediatype": "Scalable Vector Graphics file",
+            "@type": "ALTIMG",
+            "@size": "2074",
+            "@ref": "si0023",
+            "@mimetype": "image/svg+xml"
+          },
+          {
+            "@category": "thumbnail",
+            "@_fa": "true",
+            "$": "https://api.elsevier.com/content/object/eid/1-s2.0-S0926860X22002319-si0024.svg?httpAccept=%2A%2F%2A",
+            "@multimediatype": "Scalable Vector Graphics file",
+            "@type": "ALTIMG",
+            "@size": "2054",
+            "@ref": "si0024",
+            "@mimetype": "image/svg+xml"
+          },
+          {
+            "@category": "thumbnail",
+            "@_fa": "true",
+            "$": "https://api.elsevier.com/content/object/eid/1-s2.0-S0926860X22002319-si0025.svg?httpAccept=%2A%2F%2A",
+            "@multimediatype": "Scalable Vector Graphics file",
+            "@type": "ALTIMG",
+            "@size": "1134",
+            "@ref": "si0025",
+            "@mimetype": "image/svg+xml"
+          },
+          {
+            "@category": "thumbnail",
+            "@_fa": "true",
+            "$": "https://api.elsevier.com/content/object/eid/1-s2.0-S0926860X22002319-si0026.svg?httpAccept=%2A%2F%2A",
+            "@multimediatype": "Scalable Vector Graphics file",
+            "@type": "ALTIMG",
+            "@size": "1146",
+            "@ref": "si0026",
+            "@mimetype": "image/svg+xml"
+          },
+          {
+            "@category": "thumbnail",
+            "@_fa": "true",
+            "$": "https://api.elsevier.com/content/object/eid/1-s2.0-S0926860X22002319-si0027.svg?httpAccept=%2A%2F%2A",
+            "@multimediatype": "Scalable Vector Graphics file",
+            "@type": "ALTIMG",
+            "@size": "1134",
+            "@ref": "si0027",
+            "@mimetype": "image/svg+xml"
+          },
+          {
+            "@category": "thumbnail",
+            "@_fa": "true",
+            "$": "https://api.elsevier.com/content/object/eid/1-s2.0-S0926860X22002319-si0028.svg?httpAccept=%2A%2F%2A",
+            "@multimediatype": "Scalable Vector Graphics file",
+            "@type": "ALTIMG",
+            "@size": "1110",
+            "@ref": "si0028",
+            "@mimetype": "image/svg+xml"
+          },
+          {
+            "@category": "thumbnail",
+            "@_fa": "true",
+            "$": "https://api.elsevier.com/content/object/eid/1-s2.0-S0926860X22002319-si0029.svg?httpAccept=%2A%2F%2A",
+            "@multimediatype": "Scalable Vector Graphics file",
+            "@type": "ALTIMG",
+            "@size": "1207",
+            "@ref": "si0029",
+            "@mimetype": "image/svg+xml"
+          },
+          {
+            "@category": "thumbnail",
+            "@_fa": "true",
+            "$": "https://api.elsevier.com/content/object/eid/1-s2.0-S0926860X22002319-si0030.svg?httpAccept=%2A%2F%2A",
+            "@multimediatype": "Scalable Vector Graphics file",
+            "@type": "ALTIMG",
+            "@size": "1138",
+            "@ref": "si0030",
+            "@mimetype": "image/svg+xml"
+          },
+          {
+            "@category": "thumbnail",
+            "@_fa": "true",
+            "$": "https://api.elsevier.com/content/object/eid/1-s2.0-S0926860X22002319-si0002.svg?httpAccept=%2A%2F%2A",
+            "@multimediatype": "Scalable Vector Graphics file",
+            "@type": "ALTIMG",
+            "@size": "1158",
+            "@ref": "si0002",
+            "@mimetype": "image/svg+xml"
+          },
+          {
+            "@category": "standard",
+            "@_fa": "true",
+            "$": "https://api.elsevier.com/content/object/eid/1-s2.0-S0926860X22002319-am.pdf?httpAccept=%2A%2F%2A",
+            "@multimediatype": "Acrobat PDF file",
+            "@type": "AAM-PDF",
+            "@size": "600343",
+            "@ref": "am",
+            "@mimetype": "application/pdf"
+          }
+        ]
+      },
+      "link": {
+        "@rel": "abstract",
+        "@href": "https://api.elsevier.com/content/abstract/scopus_id/85131516861"
+      }
+    }
+  }
+}

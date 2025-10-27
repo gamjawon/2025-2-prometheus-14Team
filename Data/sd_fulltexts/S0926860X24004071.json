@@ -1,0 +1,868 @@
+{
+  "metadata": {
+    "title": "Quantification of competitive adsorptions between sulfur and olefinic model compounds representative of a FCC gasoline over a CoMoS/Al<ce:inf loc=post>2</ce:inf>O<ce:inf loc=post>3</ce:inf> catalyst: Theoretical and experimental approaches",
+    "authors": "; ; ",
+    "journal": "Applied Catalysis A: General",
+    "date": "2024-11-25",
+    "doi": "10.1016/j.apcata.2024.119962",
+    "abstract": "",
+    "uri": "https://api.elsevier.com/content/article/pii/S0926860X24004071",
+    "pii": "S0926860X24004071"
+  },
+  "fulltext": {
+    "full-text-retrieval-response": {
+      "scopus-eid": "2-s2.0-85204408027",
+      "originalText": "serial JL 271346 291210 291744 291809 31 Applied Catalysis A: General APPLIEDCATALYSISAGENERAL 2024-09-12 2024-09-12 2024-09-19 2024-09-19 2024-10-25T12:55:27 1-s2.0-S0926860X24004071 S0926-860X(24)00407-1 S0926860X24004071 10.1016/j.apcata.2024.119962 S300 S300.1 FULL-TEXT 1-s2.0-S0926860X24X00150 2024-10-25T12:09:21.802727Z 0 0 20241125 2024 2024-09-13T00:24:55.12398Z absattachment articleinfo articlenumber articletitlenorm authfirstinitialnorm authfirstsurnamenorm cid cids contenttype copyright crossmark dateloaded dateloadedtxt datesearch datesort dateupdated dco docsubtype doctype doi eid ewtransactionid hubeid indexeddate issn issnnorm itemstage itemtransactionid itemweight openaccess openarchive pg pgfirst pii piinorm pubdatestart pubdatetxt pubyr sortorder srctitle srctitlenorm srctype ssids alllist content subj subheadings suppl tomb volfirst volissue volumelist webpdf webpdfpagecount yearnav figure table body mmlmath acknowledge affil articletitle auth authfirstini authfull authkeywords authlast grantsponsor highlightsabst primabst ref specialabst 0926-860X 0926860X true 687 687 C Volume 687 20 119962 119962 119962 20241125 25 November 2024 2024-11-25 2024 article fla © 2024 Elsevier B.V. All rights are reserved, including those for text and data mining, AI training, and similar technologies. QUANTIFICATIONCOMPETITIVEADSORPTIONSBETWEENSULFUROLEFINICMODELCOMPOUNDSREPRESENTATIVEAFCCGASOLINEOVERACOMOSAL2O3CATALYSTTHEORETICALEXPERIMENTALAPPROACHES DOSSANTOS A 1 Introduction 2 Experimental part 2.1 Catalyst and chemicals 2.2 Reaction conditions 2.3 Products analysis 2.3.1 Kinetic modeling 3 Results 3.1 Transformation of single olefins compounds 3.2 Transformation of the model feed 4 Kinetic modeling 5 Conclusion CRediT authorship contribution statement Acknowledgements References BRUNET 2005 143 172 S HATANAKA 1998 1748 1754 S SONG 2003 211 263 C MAGYAR 2008 736 739 S TOBA 2007 542 547 M SIDDIQUI 2007 299 M DAUDIN 2007 111 119 A BADAWI 2010 34 39 M CHEN 2022 135429 135444 Z DAUDIN 2008 221 230 A KALUZA 2015 781 794 L DOSSANTOS 2019 292 298 A MEY 2004 436 447 D DAUDIN 2007 111 119 A PELARDY 2017 24 34 F DOSSANTOS 2009 114 123 N TU 2016 33117 33183 C BADAWI 2008 53 58 M IRVINE 1980 326 335 E KARMAL 1991 212 219 S VALENCIA 2015 294 302 E DOSSANTOSX2024X119962 DOSSANTOSX2024X119962XA NR_HAL publishAcceptedManuscriptIndexable http://www.elsevier.com/open-access/userlicense/1.0/ 2025-09-19T00:00:00.000Z http://creativecommons.org/licenses/by-nc-nd/4.0/ © 2024 Elsevier B.V. All rights are reserved, including those for text and data mining, AI training, and similar technologies. 2024-09-24T00:10:02.852Z http://vtw.elsevier.com/data/voc/AddOnTypes/50.7/aggregated-refined CNPq CNPq Conselho Nacional de Desenvolvimento Científico e Tecnológico http://data.elsevier.com/vocabulary/SciValFunders/501100003593 http://sws.geonames.org/3469034/ A. Silva dos Santos thanks CNPq - Brasil for a Ph.D. grant and IFPEN Lyon for the fruitful discussions. https://doi.org/10.15223/policy-017 https://doi.org/10.15223/policy-037 https://doi.org/10.15223/policy-012 https://doi.org/10.15223/policy-029 https://doi.org/10.15223/policy-004 item S0926-860X(24)00407-1 S0926860X24004071 1-s2.0-S0926860X24004071 10.1016/j.apcata.2024.119962 271346 2024-10-25T12:09:21.802727Z 2024-11-25 1-s2.0-S0926860X24004071-main.pdf https://s3-eu-west-1.amazonaws.com/prod-ucs-content-store-eu-west/content/pii:S0926860X24004071/MAIN/application/pdf/124815ad2d0010d220033d00ad6cba5d/main.pdf main.pdf pdf true 1838917 MAIN 13 1-s2.0-S0926860X24004071-main_1.png https://s3-eu-west-1.amazonaws.com/prod-ucs-content-store-eu-west/content/pii:S0926860X24004071/PREVIEW/image/png/a18fe9018729a3e9606e57a223c8bd4f/main_1.png main_1.png png 57983 849 656 IMAGE-WEB-PDF 1 1-s2.0-S0926860X24004071-ga1.jpg https://s3-eu-west-1.amazonaws.com/prod-ucs-content-store-eu-west/content/pii:S0926860X24004071/ga1/DOWNSAMPLED/image/jpeg/1fe551d3f735a89bad6b2024f52d87d5/ga1.jpg ga1 true ga1.jpg jpg 18815 200 387 IMAGE-DOWNSAMPLED 1-s2.0-S0926860X24004071-gr7.jpg https://s3-eu-west-1.amazonaws.com/prod-ucs-content-store-eu-west/content/pii:S0926860X24004071/gr7/DOWNSAMPLED/image/jpeg/0c6dcbcff46ad98d160f495992e907ab/gr7.jpg gr7 gr7.jpg jpg 36714 456 678 IMAGE-DOWNSAMPLED 1-s2.0-S0926860X24004071-gr8.jpg https://s3-eu-west-1.amazonaws.com/prod-ucs-content-store-eu-west/content/pii:S0926860X24004071/gr8/DOWNSAMPLED/image/jpeg/b07031501a1f4025924f8662d7e8b186/gr8.jpg gr8 gr8.jpg jpg 36023 239 678 IMAGE-DOWNSAMPLED 1-s2.0-S0926860X24004071-gr1.jpg https://s3-eu-west-1.amazonaws.com/prod-ucs-content-store-eu-west/content/pii:S0926860X24004071/gr1/DOWNSAMPLED/image/jpeg/7ba7091fa59bb907132472c0e747c3eb/gr1.jpg gr1 gr1.jpg jpg 20609 246 376 IMAGE-DOWNSAMPLED 1-s2.0-S0926860X24004071-gr2.jpg https://s3-eu-west-1.amazonaws.com/prod-ucs-content-store-eu-west/content/pii:S0926860X24004071/gr2/DOWNSAMPLED/image/jpeg/fa60ab1cf844342a323f39b78f553da8/gr2.jpg gr2 gr2.jpg jpg 27049 221 678 IMAGE-DOWNSAMPLED 1-s2.0-S0926860X24004071-sc4.jpg https://s3-eu-west-1.amazonaws.com/prod-ucs-content-store-eu-west/content/pii:S0926860X24004071/sc4/DOWNSAMPLED/image/jpeg/fc8480f6f0fc71f3e43bc2e4c49a5d4f/sc4.jpg sc4 sc4.jpg jpg 9386 144 376 IMAGE-DOWNSAMPLED 1-s2.0-S0926860X24004071-fx6.jpg https://s3-eu-west-1.amazonaws.com/prod-ucs-content-store-eu-west/content/pii:S0926860X24004071/fx6/DOWNSAMPLED/image/jpeg/0e754e6cfc4b4774f499d02654656ded/fx6.jpg fx6 fx6.jpg jpg 8145 88 505 IMAGE-DOWNSAMPLED 1-s2.0-S0926860X24004071-fx7.jpg https://s3-eu-west-1.amazonaws.com/prod-ucs-content-store-eu-west/content/pii:S0926860X24004071/fx7/DOWNSAMPLED/image/jpeg/0203871cd14b90a381d147411855c35a/fx7.jpg fx7 fx7.jpg jpg 7869 92 605 IMAGE-DOWNSAMPLED 1-s2.0-S0926860X24004071-gr5.jpg https://s3-eu-west-1.amazonaws.com/prod-ucs-content-store-eu-west/content/pii:S0926860X24004071/gr5/DOWNSAMPLED/image/jpeg/715a71fffcff81f76c2420fb6b438d8d/gr5.jpg gr5 gr5.jpg jpg 38877 507 678 IMAGE-DOWNSAMPLED 1-s2.0-S0926860X24004071-gr6.jpg https://s3-eu-west-1.amazonaws.com/prod-ucs-content-store-eu-west/content/pii:S0926860X24004071/gr6/DOWNSAMPLED/image/jpeg/265dfa9b44010220cc09842024acf4f0/gr6.jpg gr6 gr6.jpg jpg 35313 474 678 IMAGE-DOWNSAMPLED 1-s2.0-S0926860X24004071-gr3.jpg https://s3-eu-west-1.amazonaws.com/prod-ucs-content-store-eu-west/content/pii:S0926860X24004071/gr3/DOWNSAMPLED/image/jpeg/83f54519631e9d242acf87783dad88ae/gr3.jpg gr3 gr3.jpg jpg 48786 447 678 IMAGE-DOWNSAMPLED 1-s2.0-S0926860X24004071-gr4.jpg https://s3-eu-west-1.amazonaws.com/prod-ucs-content-store-eu-west/content/pii:S0926860X24004071/gr4/DOWNSAMPLED/image/jpeg/e1736e336b9066916bbbda296d28917c/gr4.jpg gr4 gr4.jpg jpg 52913 488 678 IMAGE-DOWNSAMPLED 1-s2.0-S0926860X24004071-fx1.jpg https://s3-eu-west-1.amazonaws.com/prod-ucs-content-store-eu-west/content/pii:S0926860X24004071/fx1/DOWNSAMPLED/image/jpeg/dc67fb38a17d84d03a234992100ee536/fx1.jpg fx1 fx1.jpg jpg 7804 79 553 IMAGE-DOWNSAMPLED 1-s2.0-S0926860X24004071-sc2.jpg https://s3-eu-west-1.amazonaws.com/prod-ucs-content-store-eu-west/content/pii:S0926860X24004071/sc2/DOWNSAMPLED/image/jpeg/8e668436253ec0e57136393d5f4097e4/sc2.jpg sc2 sc2.jpg jpg 23181 259 678 IMAGE-DOWNSAMPLED 1-s2.0-S0926860X24004071-fx4.jpg https://s3-eu-west-1.amazonaws.com/prod-ucs-content-store-eu-west/content/pii:S0926860X24004071/fx4/DOWNSAMPLED/image/jpeg/2f6c749d66692c8b66faa75a95739ec3/fx4.jpg fx4 fx4.jpg jpg 3982 79 326 IMAGE-DOWNSAMPLED 1-s2.0-S0926860X24004071-sc3.jpg https://s3-eu-west-1.amazonaws.com/prod-ucs-content-store-eu-west/content/pii:S0926860X24004071/sc3/DOWNSAMPLED/image/jpeg/9a0b092bb9305f4df5f2b6697475f133/sc3.jpg sc3 sc3.jpg jpg 12069 228 376 IMAGE-DOWNSAMPLED 1-s2.0-S0926860X24004071-fx5.jpg https://s3-eu-west-1.amazonaws.com/prod-ucs-content-store-eu-west/content/pii:S0926860X24004071/fx5/DOWNSAMPLED/image/jpeg/11378c4e9f6e10726d8ce974434b908f/fx5.jpg fx5 fx5.jpg jpg 5857 79 371 IMAGE-DOWNSAMPLED 1-s2.0-S0926860X24004071-fx2.jpg https://s3-eu-west-1.amazonaws.com/prod-ucs-content-store-eu-west/content/pii:S0926860X24004071/fx2/DOWNSAMPLED/image/jpeg/b4f37edd9fb6a66bbb9dec7b7e287918/fx2.jpg fx2 fx2.jpg jpg 7544 79 608 IMAGE-DOWNSAMPLED 1-s2.0-S0926860X24004071-sc1.jpg https://s3-eu-west-1.amazonaws.com/prod-ucs-content-store-eu-west/content/pii:S0926860X24004071/sc1/DOWNSAMPLED/image/jpeg/8dd68dcb573d19f1bc73fae4536b38b5/sc1.jpg sc1 sc1.jpg jpg 19808 349 565 IMAGE-DOWNSAMPLED 1-s2.0-S0926860X24004071-fx3.jpg https://s3-eu-west-1.amazonaws.com/prod-ucs-content-store-eu-west/content/pii:S0926860X24004071/fx3/DOWNSAMPLED/image/jpeg/db4589ebd2705ee2c05d662799cfc403/fx3.jpg fx3 fx3.jpg jpg 5928 69 362 IMAGE-DOWNSAMPLED 1-s2.0-S0926860X24004071-ga1.sml https://s3-eu-west-1.amazonaws.com/prod-ucs-content-store-eu-west/content/pii:S0926860X24004071/ga1/THUMBNAIL/image/gif/b68090bf82c87e0662c2e3a0d0745fd8/ga1.sml ga1 true ga1.sml sml 5838 113 219 IMAGE-THUMBNAIL 1-s2.0-S0926860X24004071-gr7.sml https://s3-eu-west-1.amazonaws.com/prod-ucs-content-store-eu-west/content/pii:S0926860X24004071/gr7/THUMBNAIL/image/gif/251c591074b49142368cfea16da7b8fb/gr7.sml gr7 gr7.sml sml 5129 147 219 IMAGE-THUMBNAIL 1-s2.0-S0926860X24004071-gr8.sml https://s3-eu-west-1.amazonaws.com/prod-ucs-content-store-eu-west/content/pii:S0926860X24004071/gr8/THUMBNAIL/image/gif/c8dded21be6a061b2a9eb5215299c27c/gr8.sml gr8 gr8.sml sml 4700 77 219 IMAGE-THUMBNAIL 1-s2.0-S0926860X24004071-gr1.sml https://s3-eu-west-1.amazonaws.com/prod-ucs-content-store-eu-west/content/pii:S0926860X24004071/gr1/THUMBNAIL/image/gif/839c118c09bce7a3447dab33d9936ac5/gr1.sml gr1 gr1.sml sml 6156 143 219 IMAGE-THUMBNAIL 1-s2.0-S0926860X24004071-gr2.sml https://s3-eu-west-1.amazonaws.com/prod-ucs-content-store-eu-west/content/pii:S0926860X24004071/gr2/THUMBNAIL/image/gif/be77c45455def517b395021189a552da/gr2.sml gr2 gr2.sml sml 3838 71 219 IMAGE-THUMBNAIL 1-s2.0-S0926860X24004071-sc4.sml https://s3-eu-west-1.amazonaws.com/prod-ucs-content-store-eu-west/content/pii:S0926860X24004071/sc4/THUMBNAIL/image/gif/77153244e4d6910445032132db0b7528/sc4.sml sc4 sc4.sml sml 3555 84 219 IMAGE-THUMBNAIL 1-s2.0-S0926860X24004071-fx6.sml https://s3-eu-west-1.amazonaws.com/prod-ucs-content-store-eu-west/content/pii:S0926860X24004071/fx6/THUMBNAIL/image/gif/111bdaf1679cde4e4f915f6c74a75f32/fx6.sml fx6 fx6.sml sml 2128 38 219 IMAGE-THUMBNAIL 1-s2.0-S0926860X24004071-fx7.sml https://s3-eu-west-1.amazonaws.com/prod-ucs-content-store-eu-west/content/pii:S0926860X24004071/fx7/THUMBNAIL/image/gif/bf2a5db84a317f7abeed0d4e3a0308b1/fx7.sml fx7 fx7.sml sml 1358 33 219 IMAGE-THUMBNAIL 1-s2.0-S0926860X24004071-gr5.sml https://s3-eu-west-1.amazonaws.com/prod-ucs-content-store-eu-west/content/pii:S0926860X24004071/gr5/THUMBNAIL/image/gif/7cb2cda5b5d2b06185160ae153f44fb8/gr5.sml gr5 gr5.sml sml 5340 164 219 IMAGE-THUMBNAIL 1-s2.0-S0926860X24004071-gr6.sml https://s3-eu-west-1.amazonaws.com/prod-ucs-content-store-eu-west/content/pii:S0926860X24004071/gr6/THUMBNAIL/image/gif/fe876dd91f7ab4511fdd1d8b2793ee6e/gr6.sml gr6 gr6.sml sml 4867 153 219 IMAGE-THUMBNAIL 1-s2.0-S0926860X24004071-gr3.sml https://s3-eu-west-1.amazonaws.com/prod-ucs-content-store-eu-west/content/pii:S0926860X24004071/gr3/THUMBNAIL/image/gif/a9b133f51b84d3a75cb561af24b10575/gr3.sml gr3 gr3.sml sml 6313 144 219 IMAGE-THUMBNAIL 1-s2.0-S0926860X24004071-gr4.sml https://s3-eu-west-1.amazonaws.com/prod-ucs-content-store-eu-west/content/pii:S0926860X24004071/gr4/THUMBNAIL/image/gif/f1bf8970b6351ebbc1972ce8cde53482/gr4.sml gr4 gr4.sml sml 7016 157 219 IMAGE-THUMBNAIL 1-s2.0-S0926860X24004071-fx1.sml https://s3-eu-west-1.amazonaws.com/prod-ucs-content-store-eu-west/content/pii:S0926860X24004071/fx1/THUMBNAIL/image/gif/21243c9b8ea342ea7cca66bbd526adf5/fx1.sml fx1 fx1.sml sml 1931 31 219 IMAGE-THUMBNAIL 1-s2.0-S0926860X24004071-sc2.sml https://s3-eu-west-1.amazonaws.com/prod-ucs-content-store-eu-west/content/pii:S0926860X24004071/sc2/THUMBNAIL/image/gif/40a4bd0ac977119b5c0882d1c4fbade9/sc2.sml sc2 sc2.sml sml 3152 84 219 IMAGE-THUMBNAIL 1-s2.0-S0926860X24004071-fx4.sml https://s3-eu-west-1.amazonaws.com/prod-ucs-content-store-eu-west/content/pii:S0926860X24004071/fx4/THUMBNAIL/image/gif/68934fa64dffcea4a69d2d819d57aa02/fx4.sml fx4 fx4.sml sml 2139 53 219 IMAGE-THUMBNAIL 1-s2.0-S0926860X24004071-sc3.sml https://s3-eu-west-1.amazonaws.com/prod-ucs-content-store-eu-west/content/pii:S0926860X24004071/sc3/THUMBNAIL/image/gif/14359a0b25319f83161133042c2cd5e8/sc3.sml sc3 sc3.sml sml 3997 133 219 IMAGE-THUMBNAIL 1-s2.0-S0926860X24004071-fx5.sml https://s3-eu-west-1.amazonaws.com/prod-ucs-content-store-eu-west/content/pii:S0926860X24004071/fx5/THUMBNAIL/image/gif/768c19233581dd6a50c5fd42eba3361e/fx5.sml fx5 fx5.sml sml 2304 46 219 IMAGE-THUMBNAIL 1-s2.0-S0926860X24004071-fx2.sml https://s3-eu-west-1.amazonaws.com/prod-ucs-content-store-eu-west/content/pii:S0926860X24004071/fx2/THUMBNAIL/image/gif/70b1e38994b3b4d3cd1ed8ad09652e96/fx2.sml fx2 fx2.sml sml 1345 28 219 IMAGE-THUMBNAIL 1-s2.0-S0926860X24004071-sc1.sml https://s3-eu-west-1.amazonaws.com/prod-ucs-content-store-eu-west/content/pii:S1471210516003570/sc1/THUMBNAIL/image/gif/f8bcd602bc1e4f0b6e02df50c31d9681/sc1.sml sc1 sc1.sml sml 3540 135 219 IMAGE-THUMBNAIL 1-s2.0-S0926860X24004071-fx3.sml https://s3-eu-west-1.amazonaws.com/prod-ucs-content-store-eu-west/content/pii:S1471210516003570/fx3/THUMBNAIL/image/gif/c7179b285f00b7700d2aeb4e00e4a0c5/fx3.sml fx3 fx3.sml sml 2511 42 219 IMAGE-THUMBNAIL 1-s2.0-S0926860X24004071-ga1_lrg.jpg https://s3-eu-west-1.amazonaws.com/prod-ucs-content-store-eu-west/content/pii:S0926860X24004071/HIGHRES/image/jpeg/bdb31039c46bfe365e9419445c35a3a0/ga1_lrg.jpg ga1 true ga1_lrg.jpg jpg 146168 886 1714 IMAGE-HIGH-RES 1-s2.0-S0926860X24004071-gr7_lrg.jpg https://s3-eu-west-1.amazonaws.com/prod-ucs-content-store-eu-west/content/pii:S0926860X24004071/HIGHRES/image/jpeg/d40ac90449376ce6008dfb34db7668e0/gr7_lrg.jpg gr7 gr7_lrg.jpg jpg 168780 2012 2994 IMAGE-HIGH-RES 1-s2.0-S0926860X24004071-gr8_lrg.jpg https://s3-eu-west-1.amazonaws.com/prod-ucs-content-store-eu-west/content/pii:S0926860X24004071/HIGHRES/image/jpeg/b51244a5684c4959301df070878ea447/gr8_lrg.jpg gr8 gr8_lrg.jpg jpg 187043 1058 2996 IMAGE-HIGH-RES 1-s2.0-S0926860X24004071-gr1_lrg.jpg https://s3-eu-west-1.amazonaws.com/prod-ucs-content-store-eu-west/content/pii:S0926860X24004071/HIGHRES/image/jpeg/bdb219c48f81a20afb1761826747fa07/gr1_lrg.jpg gr1 gr1_lrg.jpg jpg 78818 1089 1663 IMAGE-HIGH-RES 1-s2.0-S0926860X24004071-gr2_lrg.jpg https://s3-eu-west-1.amazonaws.com/prod-ucs-content-store-eu-west/content/pii:S0926860X24004071/HIGHRES/image/jpeg/0d7b3712bf4c2ead689f4e9c123779ed/gr2_lrg.jpg gr2 gr2_lrg.jpg jpg 112276 977 2994 IMAGE-HIGH-RES 1-s2.0-S0926860X24004071-sc4_lrg.jpg https://s3-eu-west-1.amazonaws.com/prod-ucs-content-store-eu-west/content/pii:S0926860X24004071/HIGHRES/image/jpeg/91bdf51248c4416a476b1cfbf99bcc7e/sc4_lrg.jpg sc4 sc4_lrg.jpg jpg 41049 638 1663 IMAGE-HIGH-RES 1-s2.0-S0926860X24004071-fx6_lrg.jpg https://s3-eu-west-1.amazonaws.com/prod-ucs-content-store-eu-west/content/pii:S0926860X24004071/HIGHRES/image/jpeg/71d32215ff5f741685123fce1379cbb5/fx6_lrg.jpg fx6 fx6_lrg.jpg jpg 44334 391 2232 IMAGE-HIGH-RES 1-s2.0-S0926860X24004071-fx7_lrg.jpg https://s3-eu-west-1.amazonaws.com/prod-ucs-content-store-eu-west/content/pii:S0926860X24004071/HIGHRES/image/jpeg/eb425fb05ae3cb7902f1f61376f37a21/fx7_lrg.jpg fx7 fx7_lrg.jpg jpg 45710 408 2675 IMAGE-HIGH-RES 1-s2.0-S0926860X24004071-gr5_lrg.jpg https://s3-eu-west-1.amazonaws.com/prod-ucs-content-store-eu-west/content/pii:S0926860X24004071/HIGHRES/image/jpeg/fdc3cd1b3de1561ee96dde751b9e6248/gr5_lrg.jpg gr5 gr5_lrg.jpg jpg 169879 2237 2994 IMAGE-HIGH-RES 1-s2.0-S0926860X24004071-gr6_lrg.jpg https://s3-eu-west-1.amazonaws.com/prod-ucs-content-store-eu-west/content/pii:S0926860X24004071/HIGHRES/image/jpeg/8a75948064ef51e4d9380558684ac71d/gr6_lrg.jpg gr6 gr6_lrg.jpg jpg 156145 2092 2994 IMAGE-HIGH-RES 1-s2.0-S0926860X24004071-gr3_lrg.jpg https://s3-eu-west-1.amazonaws.com/prod-ucs-content-store-eu-west/content/pii:S0926860X24004071/HIGHRES/image/jpeg/155fe64c6312b61822f64acdd04fd2b3/gr3_lrg.jpg gr3 gr3_lrg.jpg jpg 223759 1975 2994 IMAGE-HIGH-RES 1-s2.0-S0926860X24004071-gr4_lrg.jpg https://s3-eu-west-1.amazonaws.com/prod-ucs-content-store-eu-west/content/pii:S0926860X24004071/HIGHRES/image/jpeg/be66bd1d5e70c4b6666f4e38e03673c3/gr4_lrg.jpg gr4 gr4_lrg.jpg jpg 220657 2153 2994 IMAGE-HIGH-RES 1-s2.0-S0926860X24004071-fx1_lrg.jpg https://s3-eu-west-1.amazonaws.com/prod-ucs-content-store-eu-west/content/pii:S0926860X24004071/HIGHRES/image/jpeg/37b494a0143350e8042d8fe889ee9223/fx1_lrg.jpg fx1 fx1_lrg.jpg jpg 43436 350 2446 IMAGE-HIGH-RES 1-s2.0-S0926860X24004071-sc2_lrg.jpg https://s3-eu-west-1.amazonaws.com/prod-ucs-content-store-eu-west/content/pii:S0926860X24004071/HIGHRES/image/jpeg/d4d8e2aa537ec4cdbed8a5bb3d217b4c/sc2_lrg.jpg sc2 sc2_lrg.jpg jpg 133950 1144 2994 IMAGE-HIGH-RES 1-s2.0-S0926860X24004071-fx4_lrg.jpg https://s3-eu-west-1.amazonaws.com/prod-ucs-content-store-eu-west/content/pii:S0926860X24004071/HIGHRES/image/jpeg/1a04d37a5b3925816cdfe935a11ac919/fx4_lrg.jpg fx4 fx4_lrg.jpg jpg 21189 349 1446 IMAGE-HIGH-RES 1-s2.0-S0926860X24004071-sc3_lrg.jpg https://s3-eu-west-1.amazonaws.com/prod-ucs-content-store-eu-west/content/pii:S0926860X24004071/HIGHRES/image/jpeg/bda120c44d5f560fd19084a7ab7cb5b4/sc3_lrg.jpg sc3 sc3_lrg.jpg jpg 69413 1009 1663 IMAGE-HIGH-RES 1-s2.0-S0926860X24004071-fx5_lrg.jpg https://s3-eu-west-1.amazonaws.com/prod-ucs-content-store-eu-west/content/pii:S0926860X24004071/HIGHRES/image/jpeg/7b8ae69cbd74c6a3b3ec49aedd0fa7ac/fx5_lrg.jpg fx5 fx5_lrg.jpg jpg 31864 349 1649 IMAGE-HIGH-RES 1-s2.0-S0926860X24004071-fx2_lrg.jpg https://s3-eu-west-1.amazonaws.com/prod-ucs-content-store-eu-west/content/pii:S0926860X24004071/HIGHRES/image/jpeg/a6e3f46138ec2acceb09a1484c984288/fx2_lrg.jpg fx2 fx2_lrg.jpg jpg 43802 349 2693 IMAGE-HIGH-RES 1-s2.0-S0926860X24004071-sc1_lrg.jpg https://s3-eu-west-1.amazonaws.com/prod-ucs-content-store-eu-west/content/pii:S0926860X24004034/HIGHRES/image/jpeg/246eebf16f0aa28abaa6821e070736c8/sc1_lrg.jpg sc1 sc1_lrg.jpg jpg 114533 1541 2495 IMAGE-HIGH-RES 1-s2.0-S0926860X24004071-fx3_lrg.jpg https://s3-eu-west-1.amazonaws.com/prod-ucs-content-store-eu-west/content/pii:S0926860X24004034/HIGHRES/image/jpeg/d17c7dcd1783ef7b68075a76d69481c7/fx3_lrg.jpg fx3 fx3_lrg.jpg jpg 33021 304 1602 IMAGE-HIGH-RES 1-s2.0-S0926860X24004071-si0001.svg https://s3-eu-west-1.amazonaws.com/prod-ucs-content-store-eu-west/content/pii:S0926860X24004071/image/svg+xml/8b33039ab27d7828dc6483ce170b8e5a/si0001.svg si0001 si0001.svg svg 12923 ALTIMG 1-s2.0-S0926860X24004071-si0002.svg https://s3-eu-west-1.amazonaws.com/prod-ucs-content-store-eu-west/content/pii:S0926860X24004071/image/svg+xml/17217bb097b2fa8663e6a04402537c89/si0002.svg si0002 si0002.svg svg 13259 ALTIMG 1-s2.0-S0926860X24004071-si0003.svg https://s3-eu-west-1.amazonaws.com/prod-ucs-content-store-eu-west/content/pii:S0926860X24004071/image/svg+xml/deeedb0da8cc3a10750e9cad04032bd6/si0003.svg si0003 si0003.svg svg 14718 ALTIMG 1-s2.0-S0926860X24004071-si0004.svg https://s3-eu-west-1.amazonaws.com/prod-ucs-content-store-eu-west/content/pii:S0926860X24004071/image/svg+xml/6758d8cd5ce77d8fc2b7541eb39dd230/si0004.svg si0004 si0004.svg svg 13300 ALTIMG APCATA 119962 119962 S0926-860X(24)00407-1 10.1016/j.apcata.2024.119962 Elsevier B.V. Fig. 1 Transformation of olefins versus contact time. (T = 250ºC, P = 20 bar, CoMo/Al2O3, H2/feed = 360 NL/L). Comparison of simulation results (dotted line) and experimental data (points). 4MP1N: 4-methyl-pent-1-ene, 33DMB1N: 3,3-dimethylbut-1-ene, 23DMB2N: 2,3-dimethyl-but-2-ene. Fig. 1 Fig. 2 Transformation of olefins. a) Isomerization products b) hydrogenation products versus conversion. (T = 250ºC, P = 20 bar, CoMo/Al2O3, H2/feed = 360 NL/L). 4MP1N: 4-methyl-pent-1-ene, 33DMB1N: 3,3-dimethylbut-1-ene, 23DMB2N: 2,3-dimethyl-but-2-ene, hex-1: hex-1-ene, 33DMB1N: 3,3-dimethylbut-1-ene. 4MP1N: 4-methyl-pent-1-ene, 33DMB1N: 3,3-dimethylbut-1-ene, 23DMB2N: 2,3-dimethyl-but-2-ene. c/t hex-3: cis/trans hexe-3-ene, c/t hex-2: cis/trans hexe-2-ene, nC6: n-hexane, c/t 4MP2N:cis/trans 4-methylpent-2-ene, 2MP: 2-methylpentane, 2MP2N: 2-methylpent-2-ene, 2MP1N: 2-methylpent-1-ene, 22DMB: 2,2-dimethylbutane, 23DMB1N: 2,3-dimethyl-but-1-ene, 23DMB: 2,3-dimethylbutane,. Fig. 2 Fig. 3 Transformation of olefins: molar yield of products. a) hex-1-ene, b) 4MP1N, c) 33DMB1N et d) 23DMB2N versus conversion. (T = 250ºC, P = 20 bar, CoMo/Al2O3, H2/feed = 360 NL/L). 4MP1N: 4-methyl-pent-1-ene, 33DMB1N: 3,3-dimethylbut-1-ene, 23DMB2N: 2,3-dimethyl-but-2-ene. c/t hex-3: cis/trans hexe-3-ene, c/t hex-2: cis/trans hexe-2-ene, nC6: n-hexane, c/t 4MP2N:cis/trans 4-methylpent-2-ene, 2MP: 2-methylpentane, 2MP2N: 2-methylpent-2-ene, 2MP1N: 2-methylpent-1-ene, 22DMB: 2,2-dimethylbutane, 23DMB1N: 2,3-dimethyl-but-1-ene, 23DMB: 2,3-dimethylbutane. Fig. 3 Fig. 4 Transformation of olefins: Effect of the presence of H2S, 3MT (3-Methylthiophene) and BT (Benzothiophene) versus contact time. a) Hex-1-ene, b) 4MP1N c) 33DMB1N d) 23DMB2N Comparison of simulation results (dotted line) and experimental data (points). (T = 250°C, P = 20 bar, CoMo/Al2O3, H2/feed = 360 NL/L). 4MP1N: 4-methyl-pent-1-ene, 33DMB1N: 3,3-dimethylbut-1-ene, 23DMB2N: 2,3-dimethyl-but-2-ene. Comparison of simulation results (dotted line) and experimental data (points). Fig. 4 Fig. 5 Transformation of olefins. Isomerization (ISOM) yield versus contact time. Effect of the presence of H2S, 3MT (3-Methylthiophene) and BT (Benzothiophene). Comparison of simulation results (dotted line) and experimental data (points). a) Hex-1-ene, b) 4MP1N c) 33DMB1N (T = 250°C, P = 20 bar, CoMo/Al2O3, H2/feed = 360 NL/L). 4MP1N: 4-methyl-pent-1-ene, 33DMB1N: 3,3-dimethylbut-1-ene, 23DMB2N: 2,3-dimethyl-but-2-ene. Comparison of simulation results (dotted line) and experimental data (points). Fig. 5 Fig. 6 Transformation of olefins. Hydrogenation (HYD) yield versus contact time. Effect of the presence of H2S, 3MT (3-Methylthiophene) and BT (Benzothiophene). Comparison of simulation results (dotted line) and experimental data (points). a) Hex-1-ene, b) 4MP1N c) 33DMB1N (T = 250°C, P = 20 bar, CoMo/Al2O3, H2/feed = 360 NL/L). 4MP1N: 4-methyl-pent-1-ene, 33DMB1N: 3,3-dimethylbut-1-ene, 23DMB2N: 2,3-dimethyl-but-2-ene. Comparison of simulation results (dotted line) and experimental data (points). Fig. 6 Fig. 7 Transformation of olefins. Hydrogenation (HYD) yield versus HDS yield. Effect of the presence of 3MT (3-Methylthiophene) and BT (Benzothiophene) a) Hex-1-ene, b) 4MP1N c) 33DMB1N d) 23DMB2N (T = 250°C, P = 20 bar, CoMo/Al2O3, H2/feed = 360 NL/L). 4MP1N: 4-methyl-pent-1-ene, 33DMB1N: 3,3-dimethylbut-1-ene, 23DMB2N: 2,3-dimethyl-but-2-ene. Fig. 7 Fig. 8 Transformation of sulfur compounds in the presence of olefins. Comparison of simulation results (dotted line) and experimental data (points).a) 3MT et b) BT. (T = 250ºC, P = 20 bar, CoMo/Al2O3, H2/charge = 360 NL/L). 4MP1N: 4-methyl-pent-1-ene, 33DMB1N: 3,3-dimethylbut-1-ene, 23DMB2N: 2,3-dimethyl-but-2-ene. Fig. 8 Scheme 1 Transformation of hex-1-ene. Scheme 1 Scheme 2 Transformation of 4-methyl-pent-1-ene (4MP1N). Scheme 2 Scheme 3 Transformation of 3,3-dimethylbut-1-ene (33DMB1N). Scheme 3 Scheme 4 Transformation of 2,3-dimethylbut-2-ene (23DMB2N) (23DMB1N: 2,3-dimethylbut-1-ene, 23DMB: 2,3-dimethylbutane). Scheme 4 Table 1 Transformation of various olefins. Total activity (Atotal), Isomerization activity (AISO) and Hydrogenation activity (AHYD). (T = 250ºC, P = 20 bar, CoMo/Al2O3, H2/feed = 360 NL/L, iso-conversion:30 %). Table 1 Atotal (mmol/g.h) AISO (mmol/g.h) AHYD (mmol/g.h) Hex−1-ene 595.7 549.2 46.5 4MP1N 309.1 188 121.1 33DMB1N 40.8 23.3 17.5 23DMB2N - - 23.9 4MP1N: 4-methyl-pent-1-ene, 3MP1N: 3-methyl-pent-1-ene, 23DMB2N: 2,3-dimethyl-but-2-ene Table 2 Transformation of sulfur compounds. Impact of the presence of olefins (T = 250ºC, P = 20 bar, CoMo/Al2O3, H2/feed = 360 NL/L, iso-conversion (≈ 30 %)). Table 2 Olefin A3MT (mmol/g.h) ABT (mmol/g.h) Single - 5.2 6.6 In mixture 4MP1N 2.6 4.5 23DMB2N 2.9 4.7 33DMB1N 1.2 2.9 Hex−1-ène 2.1 4.9 4MP1N: 4-methyl-pent-1-ene, 3MP1N: 3-methyl-pent-1-ene, 23DMB2N: 2,3-dimethyl-but-2-ene, BT: Benzothiophene, 3MT: 3-methylthiophene. Table 3 Kinetic and adsorption constants of olefins and sulfur compounds. (T = 250ºC, P = 20 bar, CoMo/Al2O3, H2/feed = 360 NL/L). Table 3 Olefin Kads (bar−1) Kads x C Reaction k (h−1) 4MP1N 0.012 12 ISO 1.8E+08 HYD 1.2E +08 33DMB1N 0.052 52 ISO 7.0E +07 HYD a 9.8E+08 HYD b 3.8E+07 23DMB2N 0.007 7.2 HYD 3,8E+07 Hex−1-ene 0.0096 9.6 ISO 2.9E+08 HYD 4.4E+07 3MT e 10.2 10.2 HDS 5.5E+12 HYD 5.8E+12 BT e 12.1 12.1 HDS c 1.9E+13 HDS d 3.4E+09 HYD 1.2E+13 4MP1N: 4-methyl-pent-1-ene, 3MP1N: 3-methyl-pent-1-ene, 23DMB2N: 2,3-dimethyl-but-2-ene, BT: Benzothiophene, 3MT: 3-methylthiophene. *Kads x C: multiplication of the adsorption constant and the concentration (10 wt% for olefins). a HYD of 3,3-dimethylbut-1-ene (33DMB1N) into 2,2-dimethybutane (22DMB), b HYD of 2,3-dimethylbut-2-ene (23DMB2N+23DMB1N) into 2,2-dimethybutane (23DMB), c HDS of Dihydrobenzothiophene (DHBT) into Ethylbenzene (EB), d direct HDS of Benzothiophene (BT) into Ethybenzene (EB) e Data from article [20] Quantification of competitive adsorptions between sulfur and olefinic model compounds representative of a FCC gasoline over a CoMoS/Al2O3 catalyst: Theoretical and experimental approaches Alan Silva dos Santos Software Data curation a Etienne Girard Validation Resources Funding acquisition b Philibert Leflaive Validation Formal analysis Conceptualization b Sylvette Brunet Writing – review & editing Writing – original draft Supervision Project administration Methodology Investigation a ⁎ a Université de Poitiers, Institut de Chimie des Milieux et Matériaux de Poitiers (IC2MP), UMR 7285 CNRS, 4 Rue Michel Brunet, TSA 71106, Poitiers 86073 Cedex 9, France Université de Poitiers, Institut de Chimie des Milieux et Matériaux de Poitiers (IC2MP), UMR 7285 CNRS 4 Rue Michel Brunet, TSA 71106 Poitiers 86073 Cedex 9 France Université de Poitiers, Institut de Chimie des Milieux et Matériaux de Poitiers (IC2MP), UMR 7285 CNRS-, 4 rue Michel Brunet, TSA 71106- 86073 Poitiers Cedex9, France b IFP Energies Nouvelles, Rond-Point de l’échangeur de Solaize, BP 3, Solaize 69360, France IFP Energies Nouvelles Rond-Point de l’échangeur de Solaize, BP 3 Solaize 69360 France IFP Energies nouvelles, Rond-point de l’échangeur de Solaize, BP 3, 69360 Solaize, France ⁎ Corresponding author. The reinforcement of regulations for the production of cleaner fuels along with the larger demand for energy urge us to optimize the HDS processes. The transformation of various olefins alone and in mixture with sulfur compounds was investigated over a CoMoS/Al2O3 catalyst under HDS of FCC gasoline operating conditions. A reactivity scale was established with hex-1-ene being more reactive than 4methylpent-1-en was more reactive than 4-methylpent-1-ene, 3,3-dimethylbut-1-ene and 2,3-dimethylbut-2-ene. The transformation of these olefins involves two main reactions ie isomerization and hydrogenation. In the presence of sulfur compounds (3-methythiophene and benzothiophene), a mutual inhibiting effect was observed with benzothiophene 3,3- dimethylbut-1-ene being respectively the most inhibiting sulfur and olefin compounds. These results were explained with a unique kinetic model from which the adsorption constants calculated were the highest for benzothiophene and 3,3-dimethylbut-1-ene. Graphical Abstract Keywords Hydrodesulfurization FCC gasoline Sulfur compounds Olefins Kinetic modeling Data availability Data will be made available on request. 1 Introduction While the overall composition of a FCC gasoline has been known since a long time, the exact composition within each family is more difficult to estimate. This is a very important parameter as the content can vary depending on the origin of the raw material. Indeed, gasoline pool comes from FCC process for 40–80 % [1]. The challenge since few decades has been to comply with the environmental regulations corresponding to a level of sulfur below 10 ppm since 2009 in European Union and reinforced in the forthcoming China V and US Tier 3 regulations for the final product more recently [2–4]. Although the use of fossil fuels is changing rapidly with the advent of electric motors, their use is still essential, and hydrodesulfurization (HDS) processes still need to be optimized with respect for the environment to achieve the regulations. The content of sulfur compounds could vary greatly according to the origin of the crude oil [5]. FCC gasoline pool which contributes to over than 90 % of all sulfur content present in the gasoline pool [1,6] is a complex blend of more than 400 compounds, mainly including thiophenic compounds, paraffins, olefins, naphtenes and aromatics. The composition of a FCC gasoline varies depending on the feedstock and could be composed basically of paraffins and isoparafins (∼30 wt%), olefins (∼30 wt%), aromatic compounds (∼30 wt%) and impurities such as sulfur compounds, derivate alkyl and nitrogen compounds. As reported in the literature, sulfur compounds are present as mercaptans, thiophenes, benzothiophenes and their alkyl derivatives [7–9]. Furthermore, Magyar et al. [10] have shown that the amount of olefins present in a feedstock consist in majority by pentenes (such as 2-methylbut-2-ene and pent-2-ene) and hexenes (such as hex-2-ene, 2-methylpent-1-ene). It is remarkable that in different feedstocks the amount of internal olefins present in the gasoline is higher than terminal olefins, which represents about 80 % of C6 olefins present in the FCC gasoline [11]. The main point of a successful hydrotreatment of a FCC gasoline cut is to achieve a high hydrodesulfurization (HDS) activity to remove the sulfur compounds from fuel and a low hydrogenation (HYD) activity, to avoid the hydrogenation of olefins and, consequently, decrease the octane loss in the final product. The amount of sulfur compounds in the gasoline varies also according the feedstock. However it is well known that benzothiophene, C1-thiophenes and C2-thiophenes corresponds to more than 60 % of the sulfur compounds present in a FCC gasoline [12]. Optimising the process requires i) a better understanding of the composition and the behaviour of all these molecule families when they are mixed together, i.e. their impact on the transformation of each other ii) a better knowledge of the properties of the catalyst. Articles in the literature reported kinetic studies of the transformation of olefins alone or in mixture with sulfur compounds representative of the various families or directly FCC Naphta [13–16]. Daudin et al. [13,17] elaborated a microkinetic model considering a Langmuir Hinshelwood mechanism rate, heterogeneous dissociation of H2S and H2, the addition of the first proton as the determining step and involving only one type of site. Regarding the hydrogenation transformation of 2 model molecules i.e 2,3-dimethylbu-2-ene (hydrogenation: HYD) as model olefin and 2-methylthiophene (Hydrodesulfurization: HDS) as sulfur compound over bulk metallic sulfide catalysts, an optimum of selectivity (HYD/HDS) was related to a maximum for the NiMoS bulk catalyst corresponding to a metal sulfide energy (E(MS)) of 128 kJ/mol. In the same way, C.M. Celis-Cornejo [16], under the same kinetic hypothesis than [13], observed competitive adsorptions over a CoMoS catalyst surface between a sulfur compound (2-methylthiophene) and an olefin (trimethylpentene) while the selectivity depended on their concentrations. Badawi et al. [14] showed by a kinetic study that the rate in hydrogenation of 3,3-dimethylbut-1-ene, of cyclopentane and 1-methylcyclopentene decreased with the increase of the substitution of the double bond over a CoMoS based catalyst. Kaluza et al. [18,19] studied the transformation in mixture the hydrodesulfurization of benzothiophene and hydrogenation of 1-methyl-cyclohex-1-ene at 360 ° C and 16 bar and also revealed that CoMo supported on Al2O3 exhibited desirable high HDS activity and low olefins HYD activity. Empiric pseudo-first order kinetic constants of HDS of BT decreased by about 0.64–0.85 in the presence olefins HYD reactions over all studied sulfides but the HDS activity ranking did not change. More recently, Dos Santos et al. [20] showed that benzothiophene sulfur model molecule was more reactive than 3-methylthiophene over a CoMo/Al2O3 catalyst. When these two molecules were studied in mixture, a mutual inhibiting effect was observed which was more pronounced for benzothiophene than 3-methylthiophene. These results were explained considering the adsorption constants of these two molecules where the adsorption constant of benzothiophene is higher than the adsorption constant of 3-methylthiophene. These values were determined from Langmuir-Hinshelwood a kinetic model. To better understand in order to optimize the transformation of an FCC gasoline, various model molecules representative of each family were chosen, namely 3-methylthiophene and benzothiophene for sulfur compounds and four olefins, namely. hex-1-ene, 4-methylpent-1-ene (4MP1N), 3,3-dimethylbut-1-ene (33DMB1N) and 2,3-dimethylbut-2-ene (23DMB2N). More precisely, 3-methylthiophene and benzothiophene have different transformation schemes, namely that for benzopthiophene the preferred route is first the hydrogenation of the thiophene ring followed by C-S bond rupture, unlike 3-methylthiophene which involves direct C-S bond rupture. Regarding olefins, this choice is justified by the predominant C6 olefins which are in a gasoline cut with a terminal or internal double bond position and more or less substituted as indicated in the literature. This paper focuses firstly on the comparison of the reactivity of various model olefins hex-1-ene, 4-methylpent-1-ene (4MP1N), 3,3-dimethylbut-1-ene (33DMB1N) and 2,3-dimethylbut-2-ene (23DMB2N). Their reactivity was measured alone to establish a scale of reactivity (in terms of isomerization and hydrogenation reactions) according to their structure. Sulfur and olefinic compounds were then studied in mixture while respecting the proportions and operating conditions of the HDS of an FCC gasoline (1000 ppm of sulfur and 10 wt%of olefins) [1] in order to show the modification or not of their transformation. All of these results have been quantified and validated through a unique kinetic model considering a Langmuir Hinshelwood formalism developped from [17] and by [20] for the transformation of 3-methylthiophene and benzothiophene in the same operating conditions in order to explain the experimental results and to model a FCC gasoline. 2 Experimental part 2.1 Catalyst and chemicals As reported previously [20], the alumina supported catalyst was provided by IFPEN with the following composition: CoO (3 %wt), MoO3 (10 %wt). The catalyst was crushed and sieved to size range between 250 and 315 μm and then sulfided in situ under H2S/H2 flow (10 mol% H2S) for 10 h at 400°C at atmospheric pressure. 3-methylthiophene (98 % purity), benzothiophene (95 % purity), n-heptane (>99 % purity), 2,3-dimethylbut-2-ene (98 % purity), hex-1-ene (97 % purity) were purchased from Sigma-Aldrich unlike 4-methylpent-1-ene (97 % purity) and 3,3-dimethylbut-1-ene (95 % purity) from Alfa Aesar. They were used without further purification. Hydrogen sulfide (1 vol% in mixture with H2) and hydrogen were purchased from Air Liquide. 2.2 Reaction conditions Catalytic activity measurements were carried out in a fixed bed reactor at 250°C under a total pressure of 2 MPa with a H2/feed ratio of 360 NL/L [20–23]. The model feed diluted in n-heptane was injected in the reactor by a HPLC Gilson pump (307 series, pump's head volume: 5 cm3). The feed was composed by 10 wt% of olefin (hex-1-ene, 4MP1N, 33DMB1N or 23DMB2N) and 1000 ppm S of sulfur compound (3MT, BT or H2S) diluted in n-heptane. H2S was introduced with a flowmeter. N-heptane was not converted under these experimental conditions. No catalyst deactivation was observed for all experiments. 2.3 Products analysis The reaction products for the olefins and sulfur molecules were injected on-line by means of an automatic sampling valve into a Varian gas chromatograph. The reaction products were analyzed on-line by means of a Varian gas-chromatograph equipped with an automatic sampling valve, a 50 m PONA (HP) capillary column (inside diameter: 0.2 mm; film thickness: 0.5 µm), a flame ionization detector. A cryogenic system was used to start the analysis at 0ºC, to ensure a good separation of the olefin transformation products. The conditions of analysis were the following: a temperature programme from 0°C (15 min) to 20°C (1.3 °C/min) then from 20°C to 50°C (2 °C/min) and then from 50°C to 250°C (7 °C/min). The identification of the products was made possible by GC-MS coupling. Finally, the temperature of the FID detector and injector was set at 250ºC. Activity for the transformation of olefins and sulfur compounds was calculated after stabilization under conditions where a linear relationship between conversion and residence time was obtained (conversion around 30 %). The contact time is defined as the ratio between the total amount of feed and the mass of catalyst in the oxide form. To obtain a large range of conversions, the contact time was modified by changing the amount of catalyst and/or the feed flow rate. The activity is defined as the number of mole of reactants (olefins and sulfur compounds) transformed (conversion) per hour and per gram of catalyst calculated for conversions lower than 30 % in a differential regime. More specifically, isomerization (ISO) and hydrogenation (HYD) activities are defined as the number of mole of products resulting of isomerization (ISO) and hydrogenation (HYD) reactions from olefins formed per hour and per gram of catalyst. 2.3.1 Kinetic modeling Experimental results were modeled through a theoretical approach using the Langmuir-Hinshelwood model and the Arrhenius equation. Kinetic and adsorption parameters were first set from single component experiments using ReactOp software® and were then used to fit binary experimental results without further adjustment. The model used was previously described for the transformation of the sulfur compounds (3MT and BT) alone and in mixture [18] considering: 1. Competition reactions between the adsorbed molecules; 2. ISO and HYD reaction rate of 23DMB2N, 33DMB1N, 4MP1N and hex-1-ene and first-order relative to the olefinic compound and hydrogen; 3. Heterolytic dissociation for adsorption of H2 and H2S on catalytic sites; 4. Addition of the first hydrogen as the determining step for the transformation of olefins; 5. A single type of catalytic site for HYD and ISO reactions. The rate constants of isomerization (ISO) and hydrogenation (HYD) of the olefins are determined as followed Eq. 1 and Eq. 2 respectively. (1) r T , P H 2 S , P H 2 = k ISO . e Ea ISO RT K R P R . K H 2 S P H 2 S P H 2 S K S P H 2 1 + K R P R + P H 2 S K S P H 2 + K H 2 P H 2 P H 2 S K S P H 2 K H 2 S P H 2 S + K H 2 S P H 2 S P H 2 S K S P H 2 2 (2) r ( T , P H 2 S , P H 2 ) = k H Y D . e − E a H Y D R T K R P R K H 2 S P H 2 S P H 2 S K S P H 2 ( 1 + K R P R + P H 2 S K S P H 2 + K H 2 P H 2 P H 2 S K S P H 2 K H 2 S P H 2 S + K H 2 S P H 2 S P H 2 S K S P H 2 ) 2 with KR and PR are defined as adsorption constant and the partial pressure of olefin (reactant). The adsorption constants (KH2S) of H2S and (KH2) of H2 have been fixed and are the same as those determined previously for the modeling of sulfur compounds alone and as a mixture [20]. To model the mutual competitive effects between sulfur compounds and olefins, a term of inhibition for sulfur compounds (RS) was added to the denominator of the global rate equation (Equation 3), corresponding to the product of partial pressure for the sulfur compound (RS) and adsorption constant (KRS) calculated by modeling these compounds alone (KRS.PRS). The modeling was performed also considering 10 % by weight of the olefins in mixture with 1000 ppmS (as H2S, 3MT or BT) of sulfur compounds and the same parameters obtained from the modeling of olefins alone and sulfurs alone [20]. r ( T , P H 2 S , P H 2 ) = k I S O ( H Y D ) . e − E a I S O ( H Y D ) R T K R P R K H 2 S P H 2 S P H 2 S K S P H 2 ( 1 + K R P R + K R S P R S + P H 2 S K S P H 2 + K H 2 P H 2 P H 2 S K S P H 2 K H 2 S P H 2 S + K H 2 S P H 2 S P H 2 S K S P H 2 ) 2 With RS = 3MT or BT Finally, the impact of olefins (R) in the rate of the transformation of the sulfur compounds (RS = 3MT or BT) was considered with the equation as followed: r T , P H 2 S , P H 2 = k HDS . e Ea HDS RT K RS P RS . K H 2 S P H 2 S P H 2 S K S P H 2 1 + K R P R + K RS P RS + P H 2 S K S P H 2 + K H 2 P H 2 P H 2 S K S P H 2 K H 2 S P H 2 S + K H 2 S P H 2 S P H 2 S K S P H 2 2 3 Results 3.1 Transformation of single olefins compounds The transformation of hex-1-ene, 4-methylpent-1-ene (4MP1N), 3,3-dimethylbut-1-ene (33DMB1N) and 2,3-dimethylbut-2-ene (23DMB2N) was therefore studied over a CoMoS / Al2O3 catalyst in the presence of 1000 ppmS of H2S to representative of the amount of sulfur under operating conditions of HDS (T = 250ºC, P = 20 bar). Indeed, in a real FCC feedstock, the olefins are always in the presence of sulfur compounds such as thiophene or benzothiophene compounds. The transformation of these compounds leads to the formation of the corresponding hydrocarbon and H2S. This is the only sulfur compound for the total conversion of thiophene or benzothiophene compounds There is a linear increase of the conversion for contact time lower than 2 s for hex-1-ene and 4MP1N and 5 s for 33DMB1N and 23DMB2N ( Fig. 1). However important differences are noted. For example, for a contact time of 2 s, the conversion of hex-1-ene is 85 %, for 4MP1N 65 %, for 33DMB1N 15 % and finally for 23DMB2N 5 %. The catalytic activity of the CoMoS/Al2O3 catalyst (calculated at conversion lower than 30 %) is higher for the transformation of hex-1-ene than 4-methylpent-1-ene, 3,3-dimethylbut-1-ene and 2,3-dimethylbut-2-ene ( Table 1). As reported in Fig. 2a and b, two main reactions can be considered: isomerization (ISO) (double bond and structural) and hydrogenation (HYD) reactions respectively for the various substrates, the isomerization being the main reaction whatever the conversion of hex-1-ene followed by 4MP1N and 33DMB1N. Conversely, the hydrogenation reaction was mainly observed with 23DMB2N, 33DMB1N, 4MP1N and hex-1-ene respectively. These two main reactions of isomerization (skeletal and/or position of the double bond) and hydrogenation are observed for the transformation of all olefins and involve the properties in terms of Brønsted acidity of the catalyst, which are involved in the formation of intermediate carbocations. Regarding the distribution of products for the different olefins, the transformation of hex-1-ene leads mainly to the formation of cis and trans-hex-3-ene and cis and trans-hex-2-ene as primary products from direct isomerization of the double bond of the reagent ( Fig. 3a). n-hexane is formed by the direct hydrogenation of the different alkenes and appears as a secondary product (Fig. 3a). In addition, it should be noted that olefins are still the main products. From these results, the reaction scheme ( Scheme 1) established is in agreement with that proposed by Dos Santos et. al. [24] (T = 190ºC, P = 20 bar, CoMo/Al2O3) and Tu et. al. [25] (T = 195ºC, P = 16 bar, CoMo/Al2O3) under operating conditions close to the operating conditions used in this work. Only few information is present in the literature for the transformation of 4MP1N under the same operating conditions as reported in this work and in the presence of sulfide catalysts. For the conversion of 4MP1N, cis and trans-4-methylpent-2-ene (4MP2N) (product of isomerization reaction of the double bond) are in the majority up to practically total conversion and appear as primary reaction products (Fig. 3b). 2-methylpent-2-ene (2MP2N) and 2-methylpent-1-ene (2MP1N) (formed from 4MP2N) are in small amounts up to conversions of about 60 %. Then, their yield increases strongly for higher conversions. 2-methylpentane (2MP) (hydrogenation product) appears as a primary product which seems to show that its formation comes mainly from 4MP1N ( Scheme 2). The transformation of 33DMB1N (Fig. 3c) leads to the formation of 2,2-dimethylbutane (22DMB) (hydrogenation product). The isomerization products (2,3-dimethylbut-2-ene and 2,3-dimethylbut-1-ene) appear as by-products. 2,3-dimethylbutane (23DMB) is observed in small quantities, resulting from the hydrogenation of 23DMB2N and 23DMB1N ( Scheme 3). This reaction scheme is in agreement with those reported in the literature under different operating conditions by Badawi et al. [26] (T = 150ºC, P = 1 atm, CoMo/Al2O3), Irvine et al. [27] (T = 150ºC, P = 1 atm, catalyst SA2165) and Karmal et. al. [28] (T = 200ºC, P = 1 atm, bulk CoMoS). Skeletal isomerization of 33DMB1N occurs by opening a protonated cyclopropane to form 23DMB2N, as also proposed by Irvine et al. [27]. Finally, in accordance with Mey et al. [21], the transformation of 23DMB2N mainly leads to 23DMB1N as an isomerization product where the thermodynamic equilibrium between the two isomers is so rapid that it was not possible to quantify the rate of this step (Fig. 3d). Therefore the reactant was considered as the sum of the two isomers. 23DMB is the main hydrogenation product. A scale of reactivity of these C6-olefins was demonstrated from experimental data considering the overall reactivity and according to the isomerizing and hydrogenating pathways. Thus, hex-1-ene is more reactive overall and for the isomerization step than 4MP1N and 33DMB1N. 23DMB2N was not considered because the isomerization step could not be quantified (rapid isomerization between 23DMB2N and 23DMB1N at thermodynamic equilibrium). The hydrogenation of olefins follows the order: 33DMB1N > 4MP1N > hex-1-ene > 23DMB2N. This can be explained in one hand by the position of the double bond and on the other hand by the stability of the carbocations involved. Indeed, the least reactive molecule (23DMB2N) has an internal double bond which is more stable than a terminal double bond and therefore more difficult to hydrogenate ( Scheme 4). Among the branched molecules (4MP1N and 33DMB1N), the difference in reactivity of these olefins can also be explained by the stability of the intermediate carbocation. Indeed, the formation of a tertiary carbocation (33DMB1N) is more stable than the formation of a secondary carbocation (4MP1N), which means that 4MP1N is more reactive than 33DMB1N. Finally, among the olefins studied, the only linear molecule with a terminal double bond (hex-1-ene) is the least stable and therefore the most reactive. These results are in agreement with the literature, which confirms that olefins with a terminal double bond are more reactive than olefins with an internal double bond [11,21]. 3.2 Transformation of the model feed The impact of the nature of the sulfur compounds (H2S, 3MT or BT) on the olefin conversion (ie, hex-1-ene, 4-methylpent-1-ene (4MP1N), 3,3-dimethylbut-1-ene (33DMB1N), and 2,3-dimethylbut-2-ene (23DMB2N)) is reported respectively Fig. 4a, Fig. 4b, Fig. 4c, Fig. 4d. Differences can be observed depending on the structure of the olefins and the sulfur compounds. Regarding the transformation of hex-1-ene, its conversion is higher in the presence of 3MT than BT and H2S (Fig. 4a) mainly at low conversions corresponding to a higher inhibiting effect of H2S and BT than 3MT. For the transformation of 4MP1N (Fig. 4b), a higher inhibiting effect of BT is demonstrated with respect to the same transformation in the presence of H2S or 3MT. The difference of impact between H2S and 3MT is very low. This confirms, therefore, that BT is more strongly adsorbed on the catalytic site than 3MT and H2S as previously reported by Dos Santos and al [20]. In the same way, no difference between H2S and 3MT was observed for a wide range of conversions and contact times (between 0 and 10 s) for the transformation of 33DMB1N. In the presence of BT, a significant inhibition of 33DMB1N conversion was also observed (Fig. 4c). For the transformation of 23DMB2N only the total hydrogenation product (23DMB) was considered due to the very fast thermodynamic equilibrium between 23DMB2N and 23DMB1N. No differences were noted of the impact of BT, 3MT or H2S in the transformation of 23DMB2N. Taking into account of the low reactivity of the olefin in comparison with the reactivity of 3MT and BT, higher contact time were applied to obtain a conversion of 23DMB2N. Under these conditions, the sulfur compounds (BT and 3MT) are completely converted and therefore the effect observed is due exclusively to the presence of 1000 ppmS of H2S produced by the total transformation of 3MT or BT. Indeed, a total conversion of the sulfur compounds is obtained for a contact time of 2 s (Fig. 4a [18]) corresponding to a very low conversion of 23DMB2N (around 10 %, Fig. 4d). Regarding isomerization and hydrogenation, the main two reactions involved in the transformation of olefins, the isomerization reaction (ISO) is less impacted by 3MT than by H2S and BT, especially for the transformation of hex-1-ene and 4MP1N ( Fig. 5a, Fig. 5b respectively). For the transformation of 33DMB1N (Fig. 5c) a very small difference is observed between 3MT and H2S. The isomerization step of 23DMB2N is not presented because, as already indicated above, it corresponds to the thermodynamic equilibrium between 23DMB2N and 23DMB1N. The hydrogenation reaction is also more impacted by the presence of BT than H2S and 3MT regardless the olefin structure ( Fig. 6a, b, c respectively for hex-1-ene, 4MP1N and 33DMB1N), except for the 23DMB2N (Fig. 4d). In this case, the formation of 23DMB, the unique product of hydrogenation and of reaction, corresponds also to the conversion of 23DMB2N, for contact time implied, the sulfur compounds are completely converted thus corresponding to H2S effect. Taking into account of the challenge of achieving 10 ppmS in FCC gasolines with the minimum of hydrogenation of olefins, the evolution of the hydrogenation yield involved in the transformation of olefins are reported as function of hydrodesulfurization yield (HDS) of sulfur compounds (BT and 3MT). There is, indeed, an increase in the hydrogenation yield of olefins with the HDS level ( Fig. 7). However, important differences between them are highlighted. Indeed, the increase is more important with hex-1-ene (Fig. 7a) and 4MP1N (Fig. 7b) than with 33DMB1N (Fig. 7c) and especially 23DMB2N (Fig. 7d). Moreover, in all cases, the presence of BT impacts more the hydrogenation of the olefins than 3MT and H2S. These phenomena could be explained by mutual competitive adsorption on the catalytic surface where BT is the more strongly adsorbed than 3MT and H2S as reported previously by Dos Santos et al. [20]. In addition, there is also a negative impact of olefins on sulfur compounds. The inhibiting effect of olefins (hex-1-ene, 4MP1N, 33DMB1N and 23DMB2N) on the transformation of 3MT and BT is reported Fig. 8a and b, respectively. 33DMB1N is the most inhibiting molecule for the transformation of 3MT and BT followed by 4MP1N and hex-1-ene and 23DMB2N. This shows, therefore, a greater catalytic surface adsorption for 33DMB1N than for the other olefins. Therefore, a higher inhibiting effect is demonstrated for the transformation of 3MT than that of BT. This could be explained by the differents values of the adsorption constant (Kads) previously determined by Dos Santos et al. [20], BT (Kads = 12 bar−1) being more strongly adsorbed than 3MT (Kads = 7, 1 bar−1). Indeed, for a same contact time of 2 s, for example, the conversion of 3MT alone is 78 % and in mixture with 33DMB1N of 22 %. On the other hand, the conversion of BT alone is 84 % and in mixture with 33DMB1N of 40 %. In addition, under the same conditions, a reduction of 50 % is achieved for the conversion of 3MT mixed with 23DMB2N, while for the conversion of BT the decrease is only 10 %. Calculations of catalytic activity (at the same conversion around 30 %) for sulfur compounds ( Table 2) show a minimum reduction of 45 % for the transformation of 3MT in the presence of 23DMB2N and 77 % in the presence of 33DMB1N, regarding BT transformation, the decrease in BT reactivity being 32 and 56 %, respectively. 4 Kinetic modeling From the hypotheses proposed by considering the Langmuir-Hinshelwood formalism with the heterolytic dissociation of H2 and H2S, a kinetic model for each olefin in the presence of 1000 ppmS of H2S taking into account the reaction temperature of 250ºC and a total pressure of 20 bar. The adsorption constants of H2S and H2 were fixed and are the same as those determined previously in the same operating conditions and used for the modeling of sulfur compounds alone and in mixture [20]. This study was carried out to determine the kinetic parameters of the reactions and the adsorption constants of olefins alone, in order to better understand the reactivity of these compounds as well as the mutual competitive adsorption on the catalytic sites. For kinetic modeling of olefin transformation, the sum of all isomerization products was considered as a single product. Thus two different types of reactions were considered: 1. Olefin isomerization reactions by lumping the isomerization products; 2. Olefin hydrogenation. Thus, from the simplified reaction scheme, the reactions considered for the kinetic modeling of 4MP1N for the isomerization (R1) and hydrogenation (R2) steps are reported below. R1 Image 1 R2 Image 2 For the transformation of 33DMB1N, three reactions were considered: 1. The isomerization reaction of 33DMB1N into 23DMB2N and 23DMB1N (R3); 2. The direct hydrogenation of 33DMB1N into the main product of hydrogenation (22DMB). The direct hydrogenation of 33DMB1N into 22DMB (R4); 3. The hydrogenation of 23DMB2N and 23DMB1N into 23DMB (R5). This hydrogenation was considered from the sum of 23DMB2N and 23DMB1N taking into account the thermodynamic equilibrium [21]. R3 Image 3 R4 Image 4 R5 Image 5 For the transformation of hex-1-ene, two main reactions were considered 1. The isomerisation of hex-1-ene into cis and trans-hex-2-ene and cis and trans-hex-3-ene (R6); 2. The hydrogenation of all isomers leading to the formation of n-hexane (R7). R6 Image 6 R7 Image 7 With the same and unique model, a good fit of all the experimental results was obtained considering the transformation of the olefins alone i) for the conversion (Fig. 1) ii) the molar yield in isomerization (Fig. 2a) and hydrogenation (Fig. 2b) products. This model also explained the mutual inhibiting effect between sulfur and olefin compounds in mixture. To model the mutual competition effects between sulfur compounds and olefins, a term of inhibition for sulfur compounds (RS) was added to the denominator of the global rate equation (Equation 3, experimental part), corresponding to the product of partial pressure for the sulfur compound (RS) and the adsorption constant (KRS) calculated by modeling these compounds alone (KRS.PRS). The model was established considering 10 % by weight of the olefins in mixture with 1000 ppmS (as H2S, 3MT or BT) of sulfur compounds and the same parameters obtained from the modeling of olefins alone and sulfurs alone [20]. Good fits were observed regarding the impact of the sulfur compounds in the conversion of the olefins (Fig. 4), in the isomerization (Fig. 5) and hydrogenation (Fig. 6) reactions in one hand and the impact of the olefins in the transformation of sulfur compounds (Fig. 8) in the other hand. Kinetic and adsorption parameters calculated are reported Table 3. The kinetic parameters confirm the order of reactivity of olefins observed experimentally where the rate constant of the isomerization reaction involved in the transformation of hex-1-ene (k=2.9E+08 h−1) is higher than that of 4MP1N (k=1.8E+08 h−1) and 33DMB1N (k=7.0E+07 h−1). Regarding the hydrogenation reactions, 4MP1N (k=1.2E+08 h−1) is more reactive than hex-1-ene (k=4.4 E+07 h−1) and 23DMB2N (k=3.8E+07 h−1). The comparison with the hydrogenation of 33DMB1N is more difficult because two kinetic constants for hydrogenation reaction were calculated from the model due to that two hydrogenation steps are involved. This scale of reactivity could be partly explained regarding the adsorption constant determined from the model: 33DMB1N is the most adsorbed compound on the catalyst surface (Kads = 0.052 bar−1) followed by 4MP1N (Kads = 0.012 bar−1), hex-1 -ene (Kads = 0.0096 bar−1) and finally 23DMB2N (Kads = 0.007 bar−1). In the same way, the good fit between modeling and experimental data for the mutual inhibiting effect of olefins and sulfur compounds validates the unique kinetic model chosen as well as the hypothesis for the transformation of the olefinic and sulfur compounds taken alone (kinetic and adsorption constants). From experimental results and the kinetic and adsorption constants calculated from the kinetic model, it is possible to explain the different phenomena observed. Indeed, Table 3 summarizes all kinetic and adsorption data for each molecule which will help explain all the phenomena observed. It should be noted that the data concerning sulfur molecules were presented in a recent article [20]. Regarding the transformation of the olefins, the various kinetic constants calculated are in agreement with the catalytic activity calculated experimentally. More precisely, the kinetic constants for the isomerization step reflect the established order, namely hex-1-ene presents the largest kinetic constant than 4MP1 and 33DMB1N. This clearly demonstrates that the more the terminal double bond is substituted, the less the isomerization step is favored. Conversely, the kinetic constant for hydrogenation is greatest for 4MP1N compared to hex-1-ene and 23BMB2N and 33DMB1N. This clearly demonstrates that the isomerization step is necessary to move towards more stable carbocations before the hydrogenation step. Finally, concerning the kinetic constants of sulfur compounds, these are in perfect agreement with the data calculated experimentally, the transformation of 3MT mainly involves C-S bonds unlike the transformation of BT which very predominantly involves a step of hydrogenation of the thiophenic ring to produce the dihydrobenzothiophene as intermediate. These results were extract for a previous work [20] exactly in the same operating conditions. Now, to explain the mutual inhibiting effect between the different sulfur and olefinic molecules, it is necessary to consider the adsorption constants of each compound and also the concentration of each at the surface of the catalyst. Indeed, differences observed can be explained satisfactorily from the adsorption constants (Kads) of the olefins and sulfur compounds and taking into account the differences in concentration (C) between olefins (10 % by weight) and sulfur compounds (1000 ppmS) in the feed which is represented by the product of Kads x C (Table 3). First of all, the adsorption constants of the sulfur compounds are greater than those of the olefins, but taking into account the concentration of sulfur compounds represented by the Kads x C product, it is noted that the differences are greatly reduced. This would reinforce why sulfur compounds are also impacted by the presence of olefins. 33DMB1N has the largest impact followed by hex-1-ene, 4MP1N and finally 23DMB2N. This corresponds to the decrease of the Kads x C product. Indeed, the values are relatively close for sulfur compounds and olefins (between 12 and 7) except for 33DMB1N. This explains very well why the inhibiting effect is observed by the presence of sulfur compounds during the transformation of olefins and vice versa. The adsorption constant of BT being greater than that of 3MT, this also explains why the impact of the presence of BT is greater on the transformation of olefins than that of 3MT. In the same way, we can also explain the differences in inhibitory effect for the transformation of different molecules in mixtures (sulfur and olefins) Finally, the robustness of the model chosen already validated by modeling the mixture between 2MT and BT [20] and between olefins and 3MT or BT was demonstrated. Similar conclusions were reported by Dos Santos et al. [24] for the transformation of 3MT in the presence of hex-1-ene under close operating conditions (T = 180 ° C, P = 20 bar, CoMoS / Al2O3). Indeed, in this study, the HDS rate constant of 3MT decreases with the amount of hex-1-ene added. In addition, Valencia et al. [29] noted inhibition by various types of olefins of 2MT conversion over a CoMoS/Al2O3 catalyst at 270 ° C and 50 bar ie under operating conditions close of those used in this work. Kaluza et al. [18,19] observed partially similar results. Indeed, in operating conditions (360°C, 16 bar) close to those implied in this work over a CoMo/Al2O3 catalyst, a decrease of the HDS of BT activity by the presence of 1-methyl-cyclohex-1-ene but not impact of the sulfur compound in the transformation of the olefin was noticed. This confirms that the impact the mutual sulfur and olefins compounds depends on the structure of them. 5 Conclusion A reactivity scale of olefins depending on their structure, involving two main reactions (isomerization and hydrogenation), was established. Thus, hex-1-ene is the most reactive with respect to the isomerization reaction, then 4-methylpent-1-ene and finally 3,3-dimethylbut-1-ene. For the hydrogenation reaction, the most hydrogenating molecule is 3,3-dimethylbut-1-ene then 4-methylpent-1-ene, hex-1-ene and finally 2,3-dimethylbut-2 -ene. Indeed, these differences are mainly due to the stability of intermediate carbocations. This order of reactivity is not modified by the presence of sulfur compounds (3MT and BT) but their apparent reactivity decreases like that of sulfur compounds. This can be explained from a unique and robustness kinetic model (i.e. for sulfur compounds alone, olefins alone and/or in mixture) by mutual competitive adsorption on the surface of the catalyst. All these phenomena have been well quantified from the adsorption constants of each compound and taking into account of their concentration. BT is the most inhibiting sulfur compound because it has the highest adsorption constant, while it is 33DMB1N for olefins. Finally, with this methodological approach combining experiments and kinetic modeling, this work gives further insights on HDS/HYD selectivity under FCC gasoline hydrodesulfurization conditions and it is possible to select catalysts optimizing the HDS of FCC gasoline. CRediT authorship contribution statement Philibert Leflaive: Validation, Formal analysis, Conceptualization. Sylvette Brunet: Writing – review & editing, Writing – original draft, Supervision, Project administration, Methodology, Investigation. Etienne Girard: Validation, Resources, Funding acquisition. Alan dos Santos: Software, Data curation. Declaration of Competing Interest The authors declare that they have no known competing financial interests or personal relationships that could have appeared to influence the work reported in this paper. Acknowledgements A. Silva dos Santos thanks CNPq - Brasil for a Ph.D. grant and IFPEN Lyon for the fruitful discussions. References [1] S. Brunet D. Mey G. Pérot C. Bouchy F. Diehl Appl. Catal. Gen. 278 2005 143 172 S. Brunet, D. Mey, G. Pérot, C. Bouchy, F. Diehl, Appl. Catal. Gen. 278 (2005) 143-172 [2] Directive 2009/30/CE L140/88. 〈https://eur-lex.europa.eu/legal-content/FR/TXT/HTML/?uri=CELEX:32009L0030〉 (Accessed 14 September 2022). [3] http://transportpolicy.net/index.php?title=Global_Comparison:_Fuels. (Accessed 14 September 2022). 2022. [4] https://theicct.org/wp-content/uploads/2021/10/Future-of-emissions-standards.pdf [5] J.P. Margotin, 10 ppm Sulfur Gasoline Opportunity Analysis, JOP (October-December 2013). [6] Watanabe K., Nagai K., Aratani N., Saka Y., Chiyoda N., Mizutani H., in: Proceedings of the Twentieth Annual Saudi-Japan Symposium (2010). [7] S. Hatanaka M. Yamada O. Sadakane Ind. Eng. Chem. Res. 37 1998 1748 1754 S. Hatanaka, M. Yamada, O. Sadakane, Ind. Eng. Chem. Res. 37 (1998) 1748-1754 [8] V. Yankov, D. Stratiev, A. Yalamov, in: Proceedings of the Forty Fifth International Petroleum Conference (2011), Bratislava, Slovak Republic. [9] C. Song Catal. Today 86 2003 211 263 C. Song, Catal. Today 86 (2003) 211-263 [10] S. Magyar J. Hancsók D. Halló Fuel Process. Technol. 89 2008 736 739 S. Magyar, J. Hancsók, D. Halló, Fuel Processing Technology 89 (2008) 736-739 [11] M. Toba Y. Miki T. Matsui M. Harada Y. Yoshimura Appl. Catal. B Environ. 70 2007 542 547 M. Toba, Y. Miki, T. Matsui, M. Harada, Y. Yoshimura, Appl. Catal. B Environ. 70 (2007) 542-547 [12] M.A.B. Siddiqui A.M. Aitani Pet. Sci. Technol. 25 2007 299 M.A.B. Siddiqui, A.M. Aitani, Pet. Sci. Technol. 25 (2007) 299. [13] A. Daudin S. Brunet G. Perot P. Raybaud C. Bouchy J. Catal. 248 2007 111 119 A. Daudin, S. Brunet, G. Perot, P. Raybaud, C. Bouchy, J. Catal. 248 (2007) 111-119 [14] M. Badawi L. Vivier D. Duprez J. Mol. Catal. A Chem. 320 2010 34 39 M. Badawi, L. Vivier, D. Duprez, Journal of Molecular Catalysis A: Chemical 320 (2010) 34-39 [15] Z. Chen N. Sun L. Zhang G. Wang S. Zhao J. Gao Chem. Eng. J. 437 2022 135429 135444 Z. Chen, N. Sun, L. Zhang, G. Wang, S. Zhao, J. Gao, Chemical Engineering Journal 437 (2022) 135429-135444 [16] C.M. Celis-Cornejo, G.A. Granados-Zarta, C.E. Bravo-Villarreal, D.J. Pérez-Martínez, S.A. Giraldo-Duarte, C T & F: Ciencia, Tecnología y Futuro. 5(3) (2013) 79-94. [17] A. Daudin A.F. Lamic G. Perot S. Brunet P. Raybaud C. Bouchy Catal. Today 130 1 2008 221 230 A. Daudin, A.F. Lamic, G. Perot, S. Brunet, P. Raybaud, C. Bouchy, Catalysis Today 130 (1) (2008) 221-230 [18] L. Kaluza React. Kinet. Mech. Catal. 114 2015 781 794 L. Kaluza, Reac. Kinet. Mech. Cat. 114 (2015) 781-794 [19] L. Kaluza, D. Gulkova, React. Kinet. Mech. Catal. 118(1) 313-324. [20] A.Silva dos Santos E. Girard P. Leflaive S. Brunet Appl. Catal. A, Gen. 570 2019 292 298 A.Silva dos Santos, E. Girard, P. Leflaive, S. Brunet, Appl. Catal. A, General 570 (2019) 292-298 [21] D. Mey S. Brunet C. Canaff F. Maugé C. Bouchy F. Diehl J. Catal. 227 2004 436 447 D. Mey, S. Brunet, C. Canaff, F. Maugé, C. Bouchy, F. Diehl, J. Catal. 227 (2004) 436-447 [22] A. Daudin S. Brunet G. Perot P. Raybaud C. Bouchy J. Catal. 248 2007 111 119 A. Daudin, S. Brunet, G. Perot, P. Raybaud, C. Bouchy, J. Catal. 248 (2007) 111-119 [23] F. Pelardy A. Silva dos Santos A. Daudin E. Devers T. Belin S. Brunet Appl. Catal. B Environ. 206 2017 24 34 F.Pelardy, A. Silva dos Santos, A. Daudin, E. Devers, T. Belin, S. Brunet, Appl. Catal. B: Environmental 206 (2017) 24-34 [24] N. Dos Santos H. Dulot N. Marchal M. Vrinat Appl. Catal. Gen. 352 2009 114 123 N. Dos Santos, H. Dulot, N. Marchal, M. Vrinat, Appl. Catal. Gen. 352 (2009) 114-123 [25] C. Tu M. Li H. Li Y. Chu F. Liu H. Nie D. Li RSC Adv. 6 2016 33117 33183 C. Tu, M. Li, H. Li, Y. Chu, F. Liu, H. Nie, D. Li, RSC Adv. 6 (2016) 33117-33183 [26] M. Badawi L. Vivier G. Pérot D. Duprez J. Mol. Catal. A Chem. 293 2008 53 58 M. Badawi, L. Vivier, G. Pérot, D. Duprez, J. Mol. Catal. A:Chemical 293 (2008) 53-58 [27] E.A. Irvine C.S. John C. Kemball A.J. Pearman M.A. Day R.J. Sampson J. Catal. 61 1980 326 335 E.A. Irvine, C.S. John, C. Kemball, A.J. Pearman, M.A. Day, R.J. Sampson, J. Catal. 61 (1980) 326-335 [28] S. Karmal G. Perot D. Duprez J. Catal. 130 1991 212 219 S. Karmal, G. Perot, D. Duprez, J. Catal. 130 (1991) 212-219 [29] E.M.M. Valencia V.G.B. Medrano S.A. Giraldo Fuel 153 2015 294 302 E.M.M. Valencia, V.G.B. Medrano, S.A. Giraldo, Fuel 153 (2015) 294-302",
+      "scopus-id": "85204408027",
+      "coredata": {
+        "eid": "1-s2.0-S0926860X24004071",
+        "dc:description": "The reinforcement of regulations for the production of cleaner fuels along with the larger demand for energy urge us to optimize the HDS processes. The transformation of various olefins alone and in mixture with sulfur compounds was investigated over a CoMoS/Al2O3 catalyst under HDS of FCC gasoline operating conditions. A reactivity scale was established with hex-1-ene being more reactive than 4methylpent-1-en was more reactive than 4-methylpent-1-ene, 3,3-dimethylbut-1-ene and 2,3-dimethylbut-2-ene. The transformation of these olefins involves two main reactions ie isomerization and hydrogenation. In the presence of sulfur compounds (3-methythiophene and benzothiophene), a mutual inhibiting effect was observed with benzothiophene 3,3- dimethylbut-1-ene being respectively the most inhibiting sulfur and olefin compounds. These results were explained with a unique kinetic model from which the adsorption constants calculated were the highest for benzothiophene and 3,3-dimethylbut-1-ene.",
+        "openArchiveArticle": "false",
+        "prism:coverDate": "2024-11-25",
+        "openaccessUserLicense": null,
+        "prism:aggregationType": "Journal",
+        "prism:url": "https://api.elsevier.com/content/article/pii/S0926860X24004071",
+        "dc:creator": [
+          {
+            "@_fa": "true",
+            "$": "dos Santos, Alan Silva"
+          },
+          {
+            "@_fa": "true",
+            "$": "Girard, Etienne"
+          },
+          {
+            "@_fa": "true",
+            "$": "Leflaive, Philibert"
+          },
+          {
+            "@_fa": "true",
+            "$": "Brunet, Sylvette"
+          }
+        ],
+        "link": [
+          {
+            "@_fa": "true",
+            "@rel": "self",
+            "@href": "https://api.elsevier.com/content/article/pii/S0926860X24004071"
+          },
+          {
+            "@_fa": "true",
+            "@rel": "scidir",
+            "@href": "https://www.sciencedirect.com/science/article/pii/S0926860X24004071"
+          }
+        ],
+        "dc:format": "application/json",
+        "openaccessType": null,
+        "pii": "S0926-860X(24)00407-1",
+        "prism:volume": "687",
+        "articleNumber": "119962",
+        "prism:publisher": "Elsevier B.V. All rights are reserved, including those for text and data mining, AI training, and similar technologies.",
+        "dc:title": "Quantification of competitive adsorptions between sulfur and olefinic model compounds representative of a FCC gasoline over a CoMoS/Al2O3 catalyst: Theoretical and experimental approaches",
+        "prism:copyright": "© 2024 Elsevier B.V. All rights are reserved, including those for text and data mining, AI training, and similar technologies.",
+        "openaccess": "0",
+        "prism:issn": "0926860X",
+        "dcterms:subject": [
+          {
+            "@_fa": "true",
+            "$": "Hydrodesulfurization"
+          },
+          {
+            "@_fa": "true",
+            "$": "FCC gasoline"
+          },
+          {
+            "@_fa": "true",
+            "$": "Sulfur compounds"
+          },
+          {
+            "@_fa": "true",
+            "$": "Olefins"
+          },
+          {
+            "@_fa": "true",
+            "$": "Kinetic modeling"
+          }
+        ],
+        "openaccessArticle": "false",
+        "prism:publicationName": "Applied Catalysis A: General",
+        "openaccessSponsorType": null,
+        "prism:pageRange": "119962",
+        "pubType": "fla",
+        "prism:coverDisplayDate": "25 November 2024",
+        "prism:doi": "10.1016/j.apcata.2024.119962",
+        "prism:startingPage": "119962",
+        "dc:identifier": "doi:10.1016/j.apcata.2024.119962",
+        "openaccessSponsorName": null
+      },
+      "objects": {
+        "object": [
+          {
+            "@category": "standard",
+            "@height": "200",
+            "@width": "387",
+            "@_fa": "true",
+            "$": "https://api.elsevier.com/content/object/eid/1-s2.0-S0926860X24004071-ga1.jpg?httpAccept=%2A%2F%2A",
+            "@multimediatype": "JPEG image file",
+            "@type": "IMAGE-DOWNSAMPLED",
+            "@size": "18815",
+            "@ref": "ga1",
+            "@mimetype": "image/jpeg"
+          },
+          {
+            "@category": "standard",
+            "@height": "456",
+            "@width": "678",
+            "@_fa": "true",
+            "$": "https://api.elsevier.com/content/object/eid/1-s2.0-S0926860X24004071-gr7.jpg?httpAccept=%2A%2F%2A",
+            "@multimediatype": "JPEG image file",
+            "@type": "IMAGE-DOWNSAMPLED",
+            "@size": "36714",
+            "@ref": "gr7",
+            "@mimetype": "image/jpeg"
+          },
+          {
+            "@category": "standard",
+            "@height": "239",
+            "@width": "678",
+            "@_fa": "true",
+            "$": "https://api.elsevier.com/content/object/eid/1-s2.0-S0926860X24004071-gr8.jpg?httpAccept=%2A%2F%2A",
+            "@multimediatype": "JPEG image file",
+            "@type": "IMAGE-DOWNSAMPLED",
+            "@size": "36023",
+            "@ref": "gr8",
+            "@mimetype": "image/jpeg"
+          },
+          {
+            "@category": "standard",
+            "@height": "246",
+            "@width": "376",
+            "@_fa": "true",
+            "$": "https://api.elsevier.com/content/object/eid/1-s2.0-S0926860X24004071-gr1.jpg?httpAccept=%2A%2F%2A",
+            "@multimediatype": "JPEG image file",
+            "@type": "IMAGE-DOWNSAMPLED",
+            "@size": "20609",
+            "@ref": "gr1",
+            "@mimetype": "image/jpeg"
+          },
+          {
+            "@category": "standard",
+            "@height": "221",
+            "@width": "678",
+            "@_fa": "true",
+            "$": "https://api.elsevier.com/content/object/eid/1-s2.0-S0926860X24004071-gr2.jpg?httpAccept=%2A%2F%2A",
+            "@multimediatype": "JPEG image file",
+            "@type": "IMAGE-DOWNSAMPLED",
+            "@size": "27049",
+            "@ref": "gr2",
+            "@mimetype": "image/jpeg"
+          },
+          {
+            "@category": "standard",
+            "@height": "144",
+            "@width": "376",
+            "@_fa": "true",
+            "$": "https://api.elsevier.com/content/object/eid/1-s2.0-S0926860X24004071-sc4.jpg?httpAccept=%2A%2F%2A",
+            "@multimediatype": "JPEG image file",
+            "@type": "IMAGE-DOWNSAMPLED",
+            "@size": "9386",
+            "@ref": "sc4",
+            "@mimetype": "image/jpeg"
+          },
+          {
+            "@category": "standard",
+            "@height": "88",
+            "@width": "505",
+            "@_fa": "true",
+            "$": "https://api.elsevier.com/content/object/eid/1-s2.0-S0926860X24004071-fx6.jpg?httpAccept=%2A%2F%2A",
+            "@multimediatype": "JPEG image file",
+            "@type": "IMAGE-DOWNSAMPLED",
+            "@size": "8145",
+            "@ref": "fx6",
+            "@mimetype": "image/jpeg"
+          },
+          {
+            "@category": "standard",
+            "@height": "92",
+            "@width": "605",
+            "@_fa": "true",
+            "$": "https://api.elsevier.com/content/object/eid/1-s2.0-S0926860X24004071-fx7.jpg?httpAccept=%2A%2F%2A",
+            "@multimediatype": "JPEG image file",
+            "@type": "IMAGE-DOWNSAMPLED",
+            "@size": "7869",
+            "@ref": "fx7",
+            "@mimetype": "image/jpeg"
+          },
+          {
+            "@category": "standard",
+            "@height": "507",
+            "@width": "678",
+            "@_fa": "true",
+            "$": "https://api.elsevier.com/content/object/eid/1-s2.0-S0926860X24004071-gr5.jpg?httpAccept=%2A%2F%2A",
+            "@multimediatype": "JPEG image file",
+            "@type": "IMAGE-DOWNSAMPLED",
+            "@size": "38877",
+            "@ref": "gr5",
+            "@mimetype": "image/jpeg"
+          },
+          {
+            "@category": "standard",
+            "@height": "474",
+            "@width": "678",
+            "@_fa": "true",
+            "$": "https://api.elsevier.com/content/object/eid/1-s2.0-S0926860X24004071-gr6.jpg?httpAccept=%2A%2F%2A",
+            "@multimediatype": "JPEG image file",
+            "@type": "IMAGE-DOWNSAMPLED",
+            "@size": "35313",
+            "@ref": "gr6",
+            "@mimetype": "image/jpeg"
+          },
+          {
+            "@category": "standard",
+            "@height": "447",
+            "@width": "678",
+            "@_fa": "true",
+            "$": "https://api.elsevier.com/content/object/eid/1-s2.0-S0926860X24004071-gr3.jpg?httpAccept=%2A%2F%2A",
+            "@multimediatype": "JPEG image file",
+            "@type": "IMAGE-DOWNSAMPLED",
+            "@size": "48786",
+            "@ref": "gr3",
+            "@mimetype": "image/jpeg"
+          },
+          {
+            "@category": "standard",
+            "@height": "488",
+            "@width": "678",
+            "@_fa": "true",
+            "$": "https://api.elsevier.com/content/object/eid/1-s2.0-S0926860X24004071-gr4.jpg?httpAccept=%2A%2F%2A",
+            "@multimediatype": "JPEG image file",
+            "@type": "IMAGE-DOWNSAMPLED",
+            "@size": "52913",
+            "@ref": "gr4",
+            "@mimetype": "image/jpeg"
+          },
+          {
+            "@category": "standard",
+            "@height": "79",
+            "@width": "553",
+            "@_fa": "true",
+            "$": "https://api.elsevier.com/content/object/eid/1-s2.0-S0926860X24004071-fx1.jpg?httpAccept=%2A%2F%2A",
+            "@multimediatype": "JPEG image file",
+            "@type": "IMAGE-DOWNSAMPLED",
+            "@size": "7804",
+            "@ref": "fx1",
+            "@mimetype": "image/jpeg"
+          },
+          {
+            "@category": "standard",
+            "@height": "259",
+            "@width": "678",
+            "@_fa": "true",
+            "$": "https://api.elsevier.com/content/object/eid/1-s2.0-S0926860X24004071-sc2.jpg?httpAccept=%2A%2F%2A",
+            "@multimediatype": "JPEG image file",
+            "@type": "IMAGE-DOWNSAMPLED",
+            "@size": "23181",
+            "@ref": "sc2",
+            "@mimetype": "image/jpeg"
+          },
+          {
+            "@category": "standard",
+            "@height": "79",
+            "@width": "326",
+            "@_fa": "true",
+            "$": "https://api.elsevier.com/content/object/eid/1-s2.0-S0926860X24004071-fx4.jpg?httpAccept=%2A%2F%2A",
+            "@multimediatype": "JPEG image file",
+            "@type": "IMAGE-DOWNSAMPLED",
+            "@size": "3982",
+            "@ref": "fx4",
+            "@mimetype": "image/jpeg"
+          },
+          {
+            "@category": "standard",
+            "@height": "228",
+            "@width": "376",
+            "@_fa": "true",
+            "$": "https://api.elsevier.com/content/object/eid/1-s2.0-S0926860X24004071-sc3.jpg?httpAccept=%2A%2F%2A",
+            "@multimediatype": "JPEG image file",
+            "@type": "IMAGE-DOWNSAMPLED",
+            "@size": "12069",
+            "@ref": "sc3",
+            "@mimetype": "image/jpeg"
+          },
+          {
+            "@category": "standard",
+            "@height": "79",
+            "@width": "371",
+            "@_fa": "true",
+            "$": "https://api.elsevier.com/content/object/eid/1-s2.0-S0926860X24004071-fx5.jpg?httpAccept=%2A%2F%2A",
+            "@multimediatype": "JPEG image file",
+            "@type": "IMAGE-DOWNSAMPLED",
+            "@size": "5857",
+            "@ref": "fx5",
+            "@mimetype": "image/jpeg"
+          },
+          {
+            "@category": "standard",
+            "@height": "79",
+            "@width": "608",
+            "@_fa": "true",
+            "$": "https://api.elsevier.com/content/object/eid/1-s2.0-S0926860X24004071-fx2.jpg?httpAccept=%2A%2F%2A",
+            "@multimediatype": "JPEG image file",
+            "@type": "IMAGE-DOWNSAMPLED",
+            "@size": "7544",
+            "@ref": "fx2",
+            "@mimetype": "image/jpeg"
+          },
+          {
+            "@category": "standard",
+            "@height": "349",
+            "@width": "565",
+            "@_fa": "true",
+            "$": "https://api.elsevier.com/content/object/eid/1-s2.0-S0926860X24004071-sc1.jpg?httpAccept=%2A%2F%2A",
+            "@multimediatype": "JPEG image file",
+            "@type": "IMAGE-DOWNSAMPLED",
+            "@size": "19808",
+            "@ref": "sc1",
+            "@mimetype": "image/jpeg"
+          },
+          {
+            "@category": "standard",
+            "@height": "69",
+            "@width": "362",
+            "@_fa": "true",
+            "$": "https://api.elsevier.com/content/object/eid/1-s2.0-S0926860X24004071-fx3.jpg?httpAccept=%2A%2F%2A",
+            "@multimediatype": "JPEG image file",
+            "@type": "IMAGE-DOWNSAMPLED",
+            "@size": "5928",
+            "@ref": "fx3",
+            "@mimetype": "image/jpeg"
+          },
+          {
+            "@category": "thumbnail",
+            "@height": "113",
+            "@width": "219",
+            "@_fa": "true",
+            "$": "https://api.elsevier.com/content/object/eid/1-s2.0-S0926860X24004071-ga1.sml?httpAccept=%2A%2F%2A",
+            "@multimediatype": "GIF image file",
+            "@type": "IMAGE-THUMBNAIL",
+            "@size": "5838",
+            "@ref": "ga1",
+            "@mimetype": "image/gif"
+          },
+          {
+            "@category": "thumbnail",
+            "@height": "147",
+            "@width": "219",
+            "@_fa": "true",
+            "$": "https://api.elsevier.com/content/object/eid/1-s2.0-S0926860X24004071-gr7.sml?httpAccept=%2A%2F%2A",
+            "@multimediatype": "GIF image file",
+            "@type": "IMAGE-THUMBNAIL",
+            "@size": "5129",
+            "@ref": "gr7",
+            "@mimetype": "image/gif"
+          },
+          {
+            "@category": "thumbnail",
+            "@height": "77",
+            "@width": "219",
+            "@_fa": "true",
+            "$": "https://api.elsevier.com/content/object/eid/1-s2.0-S0926860X24004071-gr8.sml?httpAccept=%2A%2F%2A",
+            "@multimediatype": "GIF image file",
+            "@type": "IMAGE-THUMBNAIL",
+            "@size": "4700",
+            "@ref": "gr8",
+            "@mimetype": "image/gif"
+          },
+          {
+            "@category": "thumbnail",
+            "@height": "143",
+            "@width": "219",
+            "@_fa": "true",
+            "$": "https://api.elsevier.com/content/object/eid/1-s2.0-S0926860X24004071-gr1.sml?httpAccept=%2A%2F%2A",
+            "@multimediatype": "GIF image file",
+            "@type": "IMAGE-THUMBNAIL",
+            "@size": "6156",
+            "@ref": "gr1",
+            "@mimetype": "image/gif"
+          },
+          {
+            "@category": "thumbnail",
+            "@height": "71",
+            "@width": "219",
+            "@_fa": "true",
+            "$": "https://api.elsevier.com/content/object/eid/1-s2.0-S0926860X24004071-gr2.sml?httpAccept=%2A%2F%2A",
+            "@multimediatype": "GIF image file",
+            "@type": "IMAGE-THUMBNAIL",
+            "@size": "3838",
+            "@ref": "gr2",
+            "@mimetype": "image/gif"
+          },
+          {
+            "@category": "thumbnail",
+            "@height": "84",
+            "@width": "219",
+            "@_fa": "true",
+            "$": "https://api.elsevier.com/content/object/eid/1-s2.0-S0926860X24004071-sc4.sml?httpAccept=%2A%2F%2A",
+            "@multimediatype": "GIF image file",
+            "@type": "IMAGE-THUMBNAIL",
+            "@size": "3555",
+            "@ref": "sc4",
+            "@mimetype": "image/gif"
+          },
+          {
+            "@category": "thumbnail",
+            "@height": "38",
+            "@width": "219",
+            "@_fa": "true",
+            "$": "https://api.elsevier.com/content/object/eid/1-s2.0-S0926860X24004071-fx6.sml?httpAccept=%2A%2F%2A",
+            "@multimediatype": "GIF image file",
+            "@type": "IMAGE-THUMBNAIL",
+            "@size": "2128",
+            "@ref": "fx6",
+            "@mimetype": "image/gif"
+          },
+          {
+            "@category": "thumbnail",
+            "@height": "33",
+            "@width": "219",
+            "@_fa": "true",
+            "$": "https://api.elsevier.com/content/object/eid/1-s2.0-S0926860X24004071-fx7.sml?httpAccept=%2A%2F%2A",
+            "@multimediatype": "GIF image file",
+            "@type": "IMAGE-THUMBNAIL",
+            "@size": "1358",
+            "@ref": "fx7",
+            "@mimetype": "image/gif"
+          },
+          {
+            "@category": "thumbnail",
+            "@height": "164",
+            "@width": "219",
+            "@_fa": "true",
+            "$": "https://api.elsevier.com/content/object/eid/1-s2.0-S0926860X24004071-gr5.sml?httpAccept=%2A%2F%2A",
+            "@multimediatype": "GIF image file",
+            "@type": "IMAGE-THUMBNAIL",
+            "@size": "5340",
+            "@ref": "gr5",
+            "@mimetype": "image/gif"
+          },
+          {
+            "@category": "thumbnail",
+            "@height": "153",
+            "@width": "219",
+            "@_fa": "true",
+            "$": "https://api.elsevier.com/content/object/eid/1-s2.0-S0926860X24004071-gr6.sml?httpAccept=%2A%2F%2A",
+            "@multimediatype": "GIF image file",
+            "@type": "IMAGE-THUMBNAIL",
+            "@size": "4867",
+            "@ref": "gr6",
+            "@mimetype": "image/gif"
+          },
+          {
+            "@category": "thumbnail",
+            "@height": "144",
+            "@width": "219",
+            "@_fa": "true",
+            "$": "https://api.elsevier.com/content/object/eid/1-s2.0-S0926860X24004071-gr3.sml?httpAccept=%2A%2F%2A",
+            "@multimediatype": "GIF image file",
+            "@type": "IMAGE-THUMBNAIL",
+            "@size": "6313",
+            "@ref": "gr3",
+            "@mimetype": "image/gif"
+          },
+          {
+            "@category": "thumbnail",
+            "@height": "157",
+            "@width": "219",
+            "@_fa": "true",
+            "$": "https://api.elsevier.com/content/object/eid/1-s2.0-S0926860X24004071-gr4.sml?httpAccept=%2A%2F%2A",
+            "@multimediatype": "GIF image file",
+            "@type": "IMAGE-THUMBNAIL",
+            "@size": "7016",
+            "@ref": "gr4",
+            "@mimetype": "image/gif"
+          },
+          {
+            "@category": "thumbnail",
+            "@height": "31",
+            "@width": "219",
+            "@_fa": "true",
+            "$": "https://api.elsevier.com/content/object/eid/1-s2.0-S0926860X24004071-fx1.sml?httpAccept=%2A%2F%2A",
+            "@multimediatype": "GIF image file",
+            "@type": "IMAGE-THUMBNAIL",
+            "@size": "1931",
+            "@ref": "fx1",
+            "@mimetype": "image/gif"
+          },
+          {
+            "@category": "thumbnail",
+            "@height": "84",
+            "@width": "219",
+            "@_fa": "true",
+            "$": "https://api.elsevier.com/content/object/eid/1-s2.0-S0926860X24004071-sc2.sml?httpAccept=%2A%2F%2A",
+            "@multimediatype": "GIF image file",
+            "@type": "IMAGE-THUMBNAIL",
+            "@size": "3152",
+            "@ref": "sc2",
+            "@mimetype": "image/gif"
+          },
+          {
+            "@category": "thumbnail",
+            "@height": "53",
+            "@width": "219",
+            "@_fa": "true",
+            "$": "https://api.elsevier.com/content/object/eid/1-s2.0-S0926860X24004071-fx4.sml?httpAccept=%2A%2F%2A",
+            "@multimediatype": "GIF image file",
+            "@type": "IMAGE-THUMBNAIL",
+            "@size": "2139",
+            "@ref": "fx4",
+            "@mimetype": "image/gif"
+          },
+          {
+            "@category": "thumbnail",
+            "@height": "133",
+            "@width": "219",
+            "@_fa": "true",
+            "$": "https://api.elsevier.com/content/object/eid/1-s2.0-S0926860X24004071-sc3.sml?httpAccept=%2A%2F%2A",
+            "@multimediatype": "GIF image file",
+            "@type": "IMAGE-THUMBNAIL",
+            "@size": "3997",
+            "@ref": "sc3",
+            "@mimetype": "image/gif"
+          },
+          {
+            "@category": "thumbnail",
+            "@height": "46",
+            "@width": "219",
+            "@_fa": "true",
+            "$": "https://api.elsevier.com/content/object/eid/1-s2.0-S0926860X24004071-fx5.sml?httpAccept=%2A%2F%2A",
+            "@multimediatype": "GIF image file",
+            "@type": "IMAGE-THUMBNAIL",
+            "@size": "2304",
+            "@ref": "fx5",
+            "@mimetype": "image/gif"
+          },
+          {
+            "@category": "thumbnail",
+            "@height": "28",
+            "@width": "219",
+            "@_fa": "true",
+            "$": "https://api.elsevier.com/content/object/eid/1-s2.0-S0926860X24004071-fx2.sml?httpAccept=%2A%2F%2A",
+            "@multimediatype": "GIF image file",
+            "@type": "IMAGE-THUMBNAIL",
+            "@size": "1345",
+            "@ref": "fx2",
+            "@mimetype": "image/gif"
+          },
+          {
+            "@category": "thumbnail",
+            "@height": "135",
+            "@width": "219",
+            "@_fa": "true",
+            "$": "https://api.elsevier.com/content/object/eid/1-s2.0-S0926860X24004071-sc1.sml?httpAccept=%2A%2F%2A",
+            "@multimediatype": "GIF image file",
+            "@type": "IMAGE-THUMBNAIL",
+            "@size": "3540",
+            "@ref": "sc1",
+            "@mimetype": "image/gif"
+          },
+          {
+            "@category": "thumbnail",
+            "@height": "42",
+            "@width": "219",
+            "@_fa": "true",
+            "$": "https://api.elsevier.com/content/object/eid/1-s2.0-S0926860X24004071-fx3.sml?httpAccept=%2A%2F%2A",
+            "@multimediatype": "GIF image file",
+            "@type": "IMAGE-THUMBNAIL",
+            "@size": "2511",
+            "@ref": "fx3",
+            "@mimetype": "image/gif"
+          },
+          {
+            "@category": "high",
+            "@height": "886",
+            "@width": "1714",
+            "@_fa": "true",
+            "$": "https://api.elsevier.com/content/object/eid/1-s2.0-S0926860X24004071-ga1_lrg.jpg?httpAccept=%2A%2F%2A",
+            "@multimediatype": "JPEG image file",
+            "@type": "IMAGE-HIGH-RES",
+            "@size": "146168",
+            "@ref": "ga1",
+            "@mimetype": "image/jpeg"
+          },
+          {
+            "@category": "high",
+            "@height": "2012",
+            "@width": "2994",
+            "@_fa": "true",
+            "$": "https://api.elsevier.com/content/object/eid/1-s2.0-S0926860X24004071-gr7_lrg.jpg?httpAccept=%2A%2F%2A",
+            "@multimediatype": "JPEG image file",
+            "@type": "IMAGE-HIGH-RES",
+            "@size": "168780",
+            "@ref": "gr7",
+            "@mimetype": "image/jpeg"
+          },
+          {
+            "@category": "high",
+            "@height": "1058",
+            "@width": "2996",
+            "@_fa": "true",
+            "$": "https://api.elsevier.com/content/object/eid/1-s2.0-S0926860X24004071-gr8_lrg.jpg?httpAccept=%2A%2F%2A",
+            "@multimediatype": "JPEG image file",
+            "@type": "IMAGE-HIGH-RES",
+            "@size": "187043",
+            "@ref": "gr8",
+            "@mimetype": "image/jpeg"
+          },
+          {
+            "@category": "high",
+            "@height": "1089",
+            "@width": "1663",
+            "@_fa": "true",
+            "$": "https://api.elsevier.com/content/object/eid/1-s2.0-S0926860X24004071-gr1_lrg.jpg?httpAccept=%2A%2F%2A",
+            "@multimediatype": "JPEG image file",
+            "@type": "IMAGE-HIGH-RES",
+            "@size": "78818",
+            "@ref": "gr1",
+            "@mimetype": "image/jpeg"
+          },
+          {
+            "@category": "high",
+            "@height": "977",
+            "@width": "2994",
+            "@_fa": "true",
+            "$": "https://api.elsevier.com/content/object/eid/1-s2.0-S0926860X24004071-gr2_lrg.jpg?httpAccept=%2A%2F%2A",
+            "@multimediatype": "JPEG image file",
+            "@type": "IMAGE-HIGH-RES",
+            "@size": "112276",
+            "@ref": "gr2",
+            "@mimetype": "image/jpeg"
+          },
+          {
+            "@category": "high",
+            "@height": "638",
+            "@width": "1663",
+            "@_fa": "true",
+            "$": "https://api.elsevier.com/content/object/eid/1-s2.0-S0926860X24004071-sc4_lrg.jpg?httpAccept=%2A%2F%2A",
+            "@multimediatype": "JPEG image file",
+            "@type": "IMAGE-HIGH-RES",
+            "@size": "41049",
+            "@ref": "sc4",
+            "@mimetype": "image/jpeg"
+          },
+          {
+            "@category": "high",
+            "@height": "391",
+            "@width": "2232",
+            "@_fa": "true",
+            "$": "https://api.elsevier.com/content/object/eid/1-s2.0-S0926860X24004071-fx6_lrg.jpg?httpAccept=%2A%2F%2A",
+            "@multimediatype": "JPEG image file",
+            "@type": "IMAGE-HIGH-RES",
+            "@size": "44334",
+            "@ref": "fx6",
+            "@mimetype": "image/jpeg"
+          },
+          {
+            "@category": "high",
+            "@height": "408",
+            "@width": "2675",
+            "@_fa": "true",
+            "$": "https://api.elsevier.com/content/object/eid/1-s2.0-S0926860X24004071-fx7_lrg.jpg?httpAccept=%2A%2F%2A",
+            "@multimediatype": "JPEG image file",
+            "@type": "IMAGE-HIGH-RES",
+            "@size": "45710",
+            "@ref": "fx7",
+            "@mimetype": "image/jpeg"
+          },
+          {
+            "@category": "high",
+            "@height": "2237",
+            "@width": "2994",
+            "@_fa": "true",
+            "$": "https://api.elsevier.com/content/object/eid/1-s2.0-S0926860X24004071-gr5_lrg.jpg?httpAccept=%2A%2F%2A",
+            "@multimediatype": "JPEG image file",
+            "@type": "IMAGE-HIGH-RES",
+            "@size": "169879",
+            "@ref": "gr5",
+            "@mimetype": "image/jpeg"
+          },
+          {
+            "@category": "high",
+            "@height": "2092",
+            "@width": "2994",
+            "@_fa": "true",
+            "$": "https://api.elsevier.com/content/object/eid/1-s2.0-S0926860X24004071-gr6_lrg.jpg?httpAccept=%2A%2F%2A",
+            "@multimediatype": "JPEG image file",
+            "@type": "IMAGE-HIGH-RES",
+            "@size": "156145",
+            "@ref": "gr6",
+            "@mimetype": "image/jpeg"
+          },
+          {
+            "@category": "high",
+            "@height": "1975",
+            "@width": "2994",
+            "@_fa": "true",
+            "$": "https://api.elsevier.com/content/object/eid/1-s2.0-S0926860X24004071-gr3_lrg.jpg?httpAccept=%2A%2F%2A",
+            "@multimediatype": "JPEG image file",
+            "@type": "IMAGE-HIGH-RES",
+            "@size": "223759",
+            "@ref": "gr3",
+            "@mimetype": "image/jpeg"
+          },
+          {
+            "@category": "high",
+            "@height": "2153",
+            "@width": "2994",
+            "@_fa": "true",
+            "$": "https://api.elsevier.com/content/object/eid/1-s2.0-S0926860X24004071-gr4_lrg.jpg?httpAccept=%2A%2F%2A",
+            "@multimediatype": "JPEG image file",
+            "@type": "IMAGE-HIGH-RES",
+            "@size": "220657",
+            "@ref": "gr4",
+            "@mimetype": "image/jpeg"
+          },
+          {
+            "@category": "high",
+            "@height": "350",
+            "@width": "2446",
+            "@_fa": "true",
+            "$": "https://api.elsevier.com/content/object/eid/1-s2.0-S0926860X24004071-fx1_lrg.jpg?httpAccept=%2A%2F%2A",
+            "@multimediatype": "JPEG image file",
+            "@type": "IMAGE-HIGH-RES",
+            "@size": "43436",
+            "@ref": "fx1",
+            "@mimetype": "image/jpeg"
+          },
+          {
+            "@category": "high",
+            "@height": "1144",
+            "@width": "2994",
+            "@_fa": "true",
+            "$": "https://api.elsevier.com/content/object/eid/1-s2.0-S0926860X24004071-sc2_lrg.jpg?httpAccept=%2A%2F%2A",
+            "@multimediatype": "JPEG image file",
+            "@type": "IMAGE-HIGH-RES",
+            "@size": "133950",
+            "@ref": "sc2",
+            "@mimetype": "image/jpeg"
+          },
+          {
+            "@category": "high",
+            "@height": "349",
+            "@width": "1446",
+            "@_fa": "true",
+            "$": "https://api.elsevier.com/content/object/eid/1-s2.0-S0926860X24004071-fx4_lrg.jpg?httpAccept=%2A%2F%2A",
+            "@multimediatype": "JPEG image file",
+            "@type": "IMAGE-HIGH-RES",
+            "@size": "21189",
+            "@ref": "fx4",
+            "@mimetype": "image/jpeg"
+          },
+          {
+            "@category": "high",
+            "@height": "1009",
+            "@width": "1663",
+            "@_fa": "true",
+            "$": "https://api.elsevier.com/content/object/eid/1-s2.0-S0926860X24004071-sc3_lrg.jpg?httpAccept=%2A%2F%2A",
+            "@multimediatype": "JPEG image file",
+            "@type": "IMAGE-HIGH-RES",
+            "@size": "69413",
+            "@ref": "sc3",
+            "@mimetype": "image/jpeg"
+          },
+          {
+            "@category": "high",
+            "@height": "349",
+            "@width": "1649",
+            "@_fa": "true",
+            "$": "https://api.elsevier.com/content/object/eid/1-s2.0-S0926860X24004071-fx5_lrg.jpg?httpAccept=%2A%2F%2A",
+            "@multimediatype": "JPEG image file",
+            "@type": "IMAGE-HIGH-RES",
+            "@size": "31864",
+            "@ref": "fx5",
+            "@mimetype": "image/jpeg"
+          },
+          {
+            "@category": "high",
+            "@height": "349",
+            "@width": "2693",
+            "@_fa": "true",
+            "$": "https://api.elsevier.com/content/object/eid/1-s2.0-S0926860X24004071-fx2_lrg.jpg?httpAccept=%2A%2F%2A",
+            "@multimediatype": "JPEG image file",
+            "@type": "IMAGE-HIGH-RES",
+            "@size": "43802",
+            "@ref": "fx2",
+            "@mimetype": "image/jpeg"
+          },
+          {
+            "@category": "high",
+            "@height": "1541",
+            "@width": "2495",
+            "@_fa": "true",
+            "$": "https://api.elsevier.com/content/object/eid/1-s2.0-S0926860X24004071-sc1_lrg.jpg?httpAccept=%2A%2F%2A",
+            "@multimediatype": "JPEG image file",
+            "@type": "IMAGE-HIGH-RES",
+            "@size": "114533",
+            "@ref": "sc1",
+            "@mimetype": "image/jpeg"
+          },
+          {
+            "@category": "high",
+            "@height": "304",
+            "@width": "1602",
+            "@_fa": "true",
+            "$": "https://api.elsevier.com/content/object/eid/1-s2.0-S0926860X24004071-fx3_lrg.jpg?httpAccept=%2A%2F%2A",
+            "@multimediatype": "JPEG image file",
+            "@type": "IMAGE-HIGH-RES",
+            "@size": "33021",
+            "@ref": "fx3",
+            "@mimetype": "image/jpeg"
+          },
+          {
+            "@category": "thumbnail",
+            "@_fa": "true",
+            "$": "https://api.elsevier.com/content/object/eid/1-s2.0-S0926860X24004071-si0001.svg?httpAccept=%2A%2F%2A",
+            "@multimediatype": "Scalable Vector Graphics file",
+            "@type": "ALTIMG",
+            "@size": "12923",
+            "@ref": "si0001",
+            "@mimetype": "image/svg+xml"
+          },
+          {
+            "@category": "thumbnail",
+            "@_fa": "true",
+            "$": "https://api.elsevier.com/content/object/eid/1-s2.0-S0926860X24004071-si0002.svg?httpAccept=%2A%2F%2A",
+            "@multimediatype": "Scalable Vector Graphics file",
+            "@type": "ALTIMG",
+            "@size": "13259",
+            "@ref": "si0002",
+            "@mimetype": "image/svg+xml"
+          },
+          {
+            "@category": "thumbnail",
+            "@_fa": "true",
+            "$": "https://api.elsevier.com/content/object/eid/1-s2.0-S0926860X24004071-si0003.svg?httpAccept=%2A%2F%2A",
+            "@multimediatype": "Scalable Vector Graphics file",
+            "@type": "ALTIMG",
+            "@size": "14718",
+            "@ref": "si0003",
+            "@mimetype": "image/svg+xml"
+          },
+          {
+            "@category": "thumbnail",
+            "@_fa": "true",
+            "$": "https://api.elsevier.com/content/object/eid/1-s2.0-S0926860X24004071-si0004.svg?httpAccept=%2A%2F%2A",
+            "@multimediatype": "Scalable Vector Graphics file",
+            "@type": "ALTIMG",
+            "@size": "13300",
+            "@ref": "si0004",
+            "@mimetype": "image/svg+xml"
+          }
+        ]
+      },
+      "link": {
+        "@rel": "abstract",
+        "@href": "https://api.elsevier.com/content/abstract/scopus_id/85204408027"
+      }
+    }
+  }
+}

@@ -1,0 +1,1080 @@
+{
+  "metadata": {
+    "title": "Exploring the energetics of Suzuki cross-coupling reaction: A computational study of palladium and nickel catalysts",
+    "authors": "; ; ",
+    "journal": "Molecular Catalysis",
+    "date": "2024-05-01",
+    "doi": "10.1016/j.mcat.2024.114103",
+    "abstract": "",
+    "uri": "https://api.elsevier.com/content/article/pii/S2468823124002864",
+    "pii": "S2468823124002864"
+  },
+  "fulltext": {
+    "full-text-retrieval-response": {
+      "scopus-eid": "2-s2.0-85189750675",
+      "originalText": "serial JL 315758 291210 291744 291790 291809 31 Molecular Catalysis MOLECULARCATALYSIS 2024-04-08 2024-04-08 2024-04-08 2024-04-08 2024-04-25T19:58:46 1-s2.0-S2468823124002864 S2468-8231(24)00286-4 S2468823124002864 10.1016/j.mcat.2024.114103 S300 S300.1 FULL-TEXT 1-s2.0-S2468823124X00061 2024-05-24T00:21:27.782663Z 0 0 20240501 2024 2024-04-08T22:51:56.676612Z absattachment articleinfo articlenumber articletitlenorm authfirstinitialnorm authfirstsurnamenorm cid cids contenttype copyright crossmark dateloaded dateloadedtxt datesearch datesort dateupdated dco docsubtype doctype doi eid ewtransactionid hubeid indexeddate issn issnnorm itemstage itemtransactionid itemweight openaccess openarchive pg pgfirst pii piinorm pubdatestart pubdatetxt pubyr sectiontitle sortorder srctitle srctitlenorm srctype ssids alllist content subj subheadings suppl tomb volfirst volissue volumelist webpdf webpdfpagecount yearnav figure table body mmlmath acknowledge affil articletitle auth authfirstini authfull authkeywords authlast highlightsabst orcid primabst ref specialabst 2468-8231 24688231 true 560 560 C Volume 560 7 114103 114103 114103 20240501 1 May 2024 2024-05-01 2024 Regular Papers article fla © 2024 Elsevier B.V. All rights reserved. EXPLORINGENERGETICSSUZUKICROSSCOUPLINGREACTIONACOMPUTATIONALSTUDYPALLADIUMNICKELCATALYSTS JANNAH L 1 Introduction 2 Material and methods 3 Results and discussion 3.1 Oxidative addition stage 3.2 Transmetalation stage 3.3 Reductive elimination stage (Formation of Carbon-Carbon Bonds) 3.4 HOMO-LUMO analysis 4 Summary CRediT authorship contribution statement Acknowledgments References LI 2023 113485 Q WU 2021 1419 1429 J DETZ 2023 112878 H WU 2021 7160 7170 J WU 2022 432 444 J GOLDFOGEL 2021 785 794 M CHEN 2018 702 707 Z FERNANDEZ 2019 1928 1940 E HANDA 2015 1087 1091 S GUO 2019 1957 L MALUENDA 2015 7528 7557 I FU 2017 692 700 G ANDREWS 2017 73 81 N CHERNYSHEV 2022 1180 1200 V YE 2019 5653 T NIKOORAZM 2016 967 975 M YIN 2007 133 173 L JEDDI 2022 11615 11638 N MITCHELL 2018 15316 15329 S SENAPATI 2012 128 134 K WEI 2022 1058 1065 H HU 2023 107959 H HONG 2020 2070 2103 K ZHANG 2017 322 329 J IBRAHIM 2020 194 203 A COOPER 2020 565 573 A YI 2022 9 30 L HAKIMI 2020 134 141 F BAVISKAR 2023 100953 B STEPHENS 1994 11623 11627 P TALUKDER 2020 24018 24032 M CALDEWEYHER 2019 154122 E PRITCHARD 2019 4814 4820 B LU 2012 580 592 T NEESE 2020 224108 F LEGAULT 2012 C CYLVIEWUSERMANUAL JI 2023 139205 S FIRSAN 2022 16983 17027 S LI 2023 e202307570 X NORDHOLM 2020 2667 S HILL 2014 1054 1057 N JOHANSSON 2008 1460 1471 M NISHCHAKOVA 2023 845 A DALTERIO 2021 13481 13493 M LI 2020 417 Y YANG 2021 1214 1223 C JANNAHX2024X114103 JANNAHX2024X114103XL 2026-04-08T00:00:00.000Z 2026-04-08T00:00:00.000Z http://creativecommons.org/licenses/by-nc-nd/4.0/ © 2024 Elsevier B.V. All rights reserved. 2024-04-26T08:26:48.933Z http://vtw.elsevier.com/data/voc/AddOnTypes/50.7/aggregated-refined National Talent Management System L.R.J is supported by the research assistantship from the National Talent Management System at BRIN. We also acknowledge the Mahameru BRIN, Sakti Lab Server, ITB server, and TheoCompChem Server for their high-performance computing facilities. https://doi.org/10.15223/policy-017 https://doi.org/10.15223/policy-037 https://doi.org/10.15223/policy-012 https://doi.org/10.15223/policy-029 https://doi.org/10.15223/policy-004 item S2468-8231(24)00286-4 S2468823124002864 1-s2.0-S2468823124002864 10.1016/j.mcat.2024.114103 315758 2024-05-24T00:21:27.782663Z 2024-05-01 1-s2.0-S2468823124002864-main.pdf https://s3-eu-west-1.amazonaws.com/prod-ucs-content-store-eu-west/content/pii:S2468823124002864/MAIN/application/pdf/6e03555453a4694b914c20e263b468e5/main.pdf main.pdf pdf true 5190601 MAIN 11 1-s2.0-S2468823124002864-main_1.png https://s3-eu-west-1.amazonaws.com/prod-ucs-content-store-eu-west/content/pii:S2468823124002864/PREVIEW/image/png/1ff1802beafcf8bdd4c783d3aaff59d5/main_1.png main_1.png png 59211 849 656 IMAGE-WEB-PDF 1 1-s2.0-S2468823124002864-gr8.jpg https://s3-eu-west-1.amazonaws.com/prod-ucs-content-store-eu-west/content/pii:S2468823124002864/gr8/DOWNSAMPLED/image/jpeg/024da7351306815cc6222135326f23df/gr8.jpg gr8 gr8.jpg jpg 61312 401 508 IMAGE-DOWNSAMPLED 1-s2.0-S2468823124002864-gr9.jpg https://s3-eu-west-1.amazonaws.com/prod-ucs-content-store-eu-west/content/pii:S2468823124002864/gr9/DOWNSAMPLED/image/jpeg/92f210e3896c2c9478dc702fec96295f/gr9.jpg gr9 gr9.jpg jpg 60942 399 489 IMAGE-DOWNSAMPLED 1-s2.0-S2468823124002864-gr10.jpg https://s3-eu-west-1.amazonaws.com/prod-ucs-content-store-eu-west/content/pii:S2468823124002864/gr10/DOWNSAMPLED/image/jpeg/705b7dc5cdb661510d2512ec12f74cde/gr10.jpg gr10 gr10.jpg jpg 35833 315 452 IMAGE-DOWNSAMPLED 1-s2.0-S2468823124002864-gr1.jpg https://s3-eu-west-1.amazonaws.com/prod-ucs-content-store-eu-west/content/pii:S2468823124002864/gr1/DOWNSAMPLED/image/jpeg/126363b9c71f509fc688e83b9cf67386/gr1.jpg gr1 gr1.jpg jpg 9846 191 433 IMAGE-DOWNSAMPLED 1-s2.0-S2468823124002864-gr2.jpg https://s3-eu-west-1.amazonaws.com/prod-ucs-content-store-eu-west/content/pii:S2468823124002864/gr2/DOWNSAMPLED/image/jpeg/d494c116ab8573a6f9937fb1d5b09526/gr2.jpg gr2 gr2.jpg jpg 41351 339 470 IMAGE-DOWNSAMPLED 1-s2.0-S2468823124002864-gr3.jpg https://s3-eu-west-1.amazonaws.com/prod-ucs-content-store-eu-west/content/pii:S2468823124002864/gr3/DOWNSAMPLED/image/jpeg/695fa189717a2b299291868b51134d4a/gr3.jpg gr3 gr3.jpg jpg 21184 249 452 IMAGE-DOWNSAMPLED 1-s2.0-S2468823124002864-gr4.jpg https://s3-eu-west-1.amazonaws.com/prod-ucs-content-store-eu-west/content/pii:S2468823124002864/gr4/DOWNSAMPLED/image/jpeg/27c11ff5d55d6e3482976e16fa2e6bb6/gr4.jpg gr4 gr4.jpg jpg 53663 373 508 IMAGE-DOWNSAMPLED 1-s2.0-S2468823124002864-gr5.jpg https://s3-eu-west-1.amazonaws.com/prod-ucs-content-store-eu-west/content/pii:S2468823124002864/gr5/DOWNSAMPLED/image/jpeg/327959fb8da58a065c3da8dd6ae5b65f/gr5.jpg gr5 gr5.jpg jpg 45930 346 470 IMAGE-DOWNSAMPLED 1-s2.0-S2468823124002864-gr6.jpg https://s3-eu-west-1.amazonaws.com/prod-ucs-content-store-eu-west/content/pii:S2468823124002864/gr6/DOWNSAMPLED/image/jpeg/c61f2783268b1223aa29f36f309cb7d3/gr6.jpg gr6 gr6.jpg jpg 44951 358 433 IMAGE-DOWNSAMPLED 1-s2.0-S2468823124002864-gr7.jpg https://s3-eu-west-1.amazonaws.com/prod-ucs-content-store-eu-west/content/pii:S2468823124002864/gr7/DOWNSAMPLED/image/jpeg/dfde1e6a57d4c1c23a0e30c36591d5af/gr7.jpg gr7 gr7.jpg jpg 17920 224 433 IMAGE-DOWNSAMPLED 1-s2.0-S2468823124002864-gr15.jpg https://s3-eu-west-1.amazonaws.com/prod-ucs-content-store-eu-west/content/pii:S2468823124002864/gr15/DOWNSAMPLED/image/jpeg/27b4961b1d9a45fccc53950b11b55500/gr15.jpg gr15 gr15.jpg jpg 54052 494 489 IMAGE-DOWNSAMPLED 1-s2.0-S2468823124002864-gr14.jpg https://s3-eu-west-1.amazonaws.com/prod-ucs-content-store-eu-west/content/pii:S2468823124002864/gr14/DOWNSAMPLED/image/jpeg/38ecbe9deb9158cc64c6cc378840ca93/gr14.jpg gr14 gr14.jpg jpg 10344 172 376 IMAGE-DOWNSAMPLED 1-s2.0-S2468823124002864-gr13.jpg https://s3-eu-west-1.amazonaws.com/prod-ucs-content-store-eu-west/content/pii:S2468823124002864/gr13/DOWNSAMPLED/image/jpeg/53f9a2d7a9c9d01042770044d9d2b8a2/gr13.jpg gr13 gr13.jpg jpg 72470 449 602 IMAGE-DOWNSAMPLED 1-s2.0-S2468823124002864-gr12.jpg https://s3-eu-west-1.amazonaws.com/prod-ucs-content-store-eu-west/content/pii:S2468823124002864/gr12/DOWNSAMPLED/image/jpeg/bfcdf7b7a1df5b2c726cf61b90dc48df/gr12.jpg gr12 gr12.jpg jpg 52286 344 470 IMAGE-DOWNSAMPLED 1-s2.0-S2468823124002864-gr11.jpg https://s3-eu-west-1.amazonaws.com/prod-ucs-content-store-eu-west/content/pii:S2468823124002864/gr11/DOWNSAMPLED/image/jpeg/b16e2565ce8f82cb9617b495093b3d53/gr11.jpg gr11 gr11.jpg jpg 19947 259 433 IMAGE-DOWNSAMPLED 1-s2.0-S2468823124002864-ga1.jpg https://s3-eu-west-1.amazonaws.com/prod-ucs-content-store-eu-west/content/pii:S2468823124002864/ga1/DOWNSAMPLED/image/jpeg/9cb517a78babf1c25b4f331c5409c5b1/ga1.jpg ga1 true ga1.jpg jpg 29035 200 409 IMAGE-DOWNSAMPLED 1-s2.0-S2468823124002864-gr8.sml https://s3-eu-west-1.amazonaws.com/prod-ucs-content-store-eu-west/content/pii:S2468823124002864/gr8/THUMBNAIL/image/gif/a41d02be5d11073145a24774d2440517/gr8.sml gr8 gr8.sml sml 12757 163 207 IMAGE-THUMBNAIL 1-s2.0-S2468823124002864-gr9.sml https://s3-eu-west-1.amazonaws.com/prod-ucs-content-store-eu-west/content/pii:S2468823124002864/gr9/THUMBNAIL/image/gif/8fa424f3a8dcb6f3adc36c8117838968/gr9.sml gr9 gr9.sml sml 12950 164 201 IMAGE-THUMBNAIL 1-s2.0-S2468823124002864-gr10.sml https://s3-eu-west-1.amazonaws.com/prod-ucs-content-store-eu-west/content/pii:S2468823124002864/gr10/THUMBNAIL/image/gif/b53ab177875cc584ad5fcfbc8b749544/gr10.sml gr10 gr10.sml sml 8883 153 219 IMAGE-THUMBNAIL 1-s2.0-S2468823124002864-gr1.sml https://s3-eu-west-1.amazonaws.com/prod-ucs-content-store-eu-west/content/pii:S2468823124002864/gr1/THUMBNAIL/image/gif/8611db755df2f6f46373e355ce20088d/gr1.sml gr1 gr1.sml sml 2925 97 219 IMAGE-THUMBNAIL 1-s2.0-S2468823124002864-gr2.sml https://s3-eu-west-1.amazonaws.com/prod-ucs-content-store-eu-west/content/pii:S2468823124002864/gr2/THUMBNAIL/image/gif/94bcf20166a3112cefb7e7e56d188253/gr2.sml gr2 gr2.sml sml 9656 158 219 IMAGE-THUMBNAIL 1-s2.0-S2468823124002864-gr3.sml https://s3-eu-west-1.amazonaws.com/prod-ucs-content-store-eu-west/content/pii:S2468823124002864/gr3/THUMBNAIL/image/gif/d5d24662d06041dd88967c035f902d75/gr3.sml gr3 gr3.sml sml 6386 121 219 IMAGE-THUMBNAIL 1-s2.0-S2468823124002864-gr4.sml https://s3-eu-west-1.amazonaws.com/prod-ucs-content-store-eu-west/content/pii:S2468823124002864/gr4/THUMBNAIL/image/gif/4c0ab1344a863d639ab69ee56d1f492e/gr4.sml gr4 gr4.sml sml 13471 161 219 IMAGE-THUMBNAIL 1-s2.0-S2468823124002864-gr5.sml https://s3-eu-west-1.amazonaws.com/prod-ucs-content-store-eu-west/content/pii:S2468823124002864/gr5/THUMBNAIL/image/gif/3c0fc869295ce5199582da57850f7225/gr5.sml gr5 gr5.sml sml 12488 161 219 IMAGE-THUMBNAIL 1-s2.0-S2468823124002864-gr6.sml https://s3-eu-west-1.amazonaws.com/prod-ucs-content-store-eu-west/content/pii:S2468823124002864/gr6/THUMBNAIL/image/gif/12cfd1f08fd880a5056c1c282ba8cc8d/gr6.sml gr6 gr6.sml sml 10167 164 198 IMAGE-THUMBNAIL 1-s2.0-S2468823124002864-gr7.sml https://s3-eu-west-1.amazonaws.com/prod-ucs-content-store-eu-west/content/pii:S2468823124002864/gr7/THUMBNAIL/image/gif/8ca0600f6a6082a79cc116c9c07ae3a6/gr7.sml gr7 gr7.sml sml 5804 113 219 IMAGE-THUMBNAIL 1-s2.0-S2468823124002864-gr15.sml https://s3-eu-west-1.amazonaws.com/prod-ucs-content-store-eu-west/content/pii:S2468823124002864/gr15/THUMBNAIL/image/gif/419ac169a5f61780f2264ad9db384216/gr15.sml gr15 gr15.sml sml 7808 164 162 IMAGE-THUMBNAIL 1-s2.0-S2468823124002864-gr14.sml https://s3-eu-west-1.amazonaws.com/prod-ucs-content-store-eu-west/content/pii:S2468823124002864/gr14/THUMBNAIL/image/gif/d50ae51f7c09ada4822d2a013974d9f8/gr14.sml gr14 gr14.sml sml 4521 100 219 IMAGE-THUMBNAIL 1-s2.0-S2468823124002864-gr13.sml https://s3-eu-west-1.amazonaws.com/prod-ucs-content-store-eu-west/content/pii:S2468823124002864/gr13/THUMBNAIL/image/gif/5fee5ec3b7e3bc6cac6e5599e477e4ed/gr13.sml gr13 gr13.sml sml 13590 163 219 IMAGE-THUMBNAIL 1-s2.0-S2468823124002864-gr12.sml https://s3-eu-west-1.amazonaws.com/prod-ucs-content-store-eu-west/content/pii:S2468823124002864/gr12/THUMBNAIL/image/gif/8ae156178d49dfc61f04edef7732c2f1/gr12.sml gr12 gr12.sml sml 13838 160 219 IMAGE-THUMBNAIL 1-s2.0-S2468823124002864-gr11.sml https://s3-eu-west-1.amazonaws.com/prod-ucs-content-store-eu-west/content/pii:S2468823124002864/gr11/THUMBNAIL/image/gif/f58120044fb31857230734bd55dd4e7d/gr11.sml gr11 gr11.sml sml 6513 131 219 IMAGE-THUMBNAIL 1-s2.0-S2468823124002864-ga1.sml https://s3-eu-west-1.amazonaws.com/prod-ucs-content-store-eu-west/content/pii:S2468823124002864/ga1/THUMBNAIL/image/gif/9ebfc4d2ebf5d22902485343bf1c8d1d/ga1.sml ga1 true ga1.sml sml 10180 107 219 IMAGE-THUMBNAIL 1-s2.0-S2468823124002864-gr8_lrg.jpg https://s3-eu-west-1.amazonaws.com/prod-ucs-content-store-eu-west/content/pii:S2468823124002864/HIGHRES/image/jpeg/06e357d510a99b3dd847e63e12276a83/gr8_lrg.jpg gr8 gr8_lrg.jpg jpg 415567 1777 2250 IMAGE-HIGH-RES 1-s2.0-S2468823124002864-gr9_lrg.jpg https://s3-eu-west-1.amazonaws.com/prod-ucs-content-store-eu-west/content/pii:S2468823124002864/HIGHRES/image/jpeg/f50c8f779422b6954e7ed903754036fb/gr9_lrg.jpg gr9 gr9_lrg.jpg jpg 408220 1769 2167 IMAGE-HIGH-RES 1-s2.0-S2468823124002864-gr10_lrg.jpg https://s3-eu-west-1.amazonaws.com/prod-ucs-content-store-eu-west/content/pii:S2468823124002864/HIGHRES/image/jpeg/f3cbb4fac8e3db4d02ba8971ed4b059a/gr10_lrg.jpg gr10 gr10_lrg.jpg jpg 260894 1395 2000 IMAGE-HIGH-RES 1-s2.0-S2468823124002864-gr1_lrg.jpg https://s3-eu-west-1.amazonaws.com/prod-ucs-content-store-eu-west/content/pii:S2468823124002864/HIGHRES/image/jpeg/19fb08dd63b63539eaa269f3b29a80af/gr1_lrg.jpg gr1 gr1_lrg.jpg jpg 73495 847 1917 IMAGE-HIGH-RES 1-s2.0-S2468823124002864-gr2_lrg.jpg https://s3-eu-west-1.amazonaws.com/prod-ucs-content-store-eu-west/content/pii:S2468823124002864/HIGHRES/image/jpeg/4b1da6bf0aa16a5cb6019ec47c24efca/gr2_lrg.jpg gr2 gr2_lrg.jpg jpg 294529 1503 2083 IMAGE-HIGH-RES 1-s2.0-S2468823124002864-gr3_lrg.jpg https://s3-eu-west-1.amazonaws.com/prod-ucs-content-store-eu-west/content/pii:S2468823124002864/HIGHRES/image/jpeg/9cb89ba18695cd22b46c14224690b0ed/gr3_lrg.jpg gr3 gr3_lrg.jpg jpg 118312 1102 2000 IMAGE-HIGH-RES 1-s2.0-S2468823124002864-gr4_lrg.jpg https://s3-eu-west-1.amazonaws.com/prod-ucs-content-store-eu-west/content/pii:S2468823124002864/HIGHRES/image/jpeg/99906e6bc515d6a0e13fb0ddc82c6658/gr4_lrg.jpg gr4 gr4_lrg.jpg jpg 358711 1651 2250 IMAGE-HIGH-RES 1-s2.0-S2468823124002864-gr5_lrg.jpg https://s3-eu-west-1.amazonaws.com/prod-ucs-content-store-eu-west/content/pii:S2468823124002864/HIGHRES/image/jpeg/80f0d5629d955b1ac6f3b6bdd9747f5f/gr5_lrg.jpg gr5 gr5_lrg.jpg jpg 313587 1535 2083 IMAGE-HIGH-RES 1-s2.0-S2468823124002864-gr6_lrg.jpg https://s3-eu-west-1.amazonaws.com/prod-ucs-content-store-eu-west/content/pii:S2468823124002864/HIGHRES/image/jpeg/1efc2b737dd57fdd132aadc3061e6db0/gr6_lrg.jpg gr6 gr6_lrg.jpg jpg 332585 1587 1917 IMAGE-HIGH-RES 1-s2.0-S2468823124002864-gr7_lrg.jpg https://s3-eu-west-1.amazonaws.com/prod-ucs-content-store-eu-west/content/pii:S2468823124002864/HIGHRES/image/jpeg/3d4603d0ec5402e3cd78ad9b4f76d1ee/gr7_lrg.jpg gr7 gr7_lrg.jpg jpg 99444 991 1917 IMAGE-HIGH-RES 1-s2.0-S2468823124002864-gr15_lrg.jpg https://s3-eu-west-1.amazonaws.com/prod-ucs-content-store-eu-west/content/pii:S2468823124002864/HIGHRES/image/jpeg/99edd7b1f8dec800c17696e1ca4cbaf6/gr15_lrg.jpg gr15 gr15_lrg.jpg jpg 355546 2189 2167 IMAGE-HIGH-RES 1-s2.0-S2468823124002864-gr14_lrg.jpg https://s3-eu-west-1.amazonaws.com/prod-ucs-content-store-eu-west/content/pii:S2468823124002864/HIGHRES/image/jpeg/1ab366c70707a65f1abd7f5d32f28761/gr14_lrg.jpg gr14 gr14_lrg.jpg jpg 70209 761 1667 IMAGE-HIGH-RES 1-s2.0-S2468823124002864-gr13_lrg.jpg https://s3-eu-west-1.amazonaws.com/prod-ucs-content-store-eu-west/content/pii:S2468823124002864/HIGHRES/image/jpeg/7cd28a8d5897126a6eef7e859b4def2c/gr13_lrg.jpg gr13 gr13_lrg.jpg jpg 479271 1987 2667 IMAGE-HIGH-RES 1-s2.0-S2468823124002864-gr12_lrg.jpg https://s3-eu-west-1.amazonaws.com/prod-ucs-content-store-eu-west/content/pii:S2468823124002864/HIGHRES/image/jpeg/f9673ae6cfd93eaef57a57a7c71f8f68/gr12_lrg.jpg gr12 gr12_lrg.jpg jpg 360607 1525 2083 IMAGE-HIGH-RES 1-s2.0-S2468823124002864-gr11_lrg.jpg https://s3-eu-west-1.amazonaws.com/prod-ucs-content-store-eu-west/content/pii:S2468823124002864/HIGHRES/image/jpeg/4981d40a0548f7e61b65e5c89d5cf1ad/gr11_lrg.jpg gr11 gr11_lrg.jpg jpg 118871 1148 1917 IMAGE-HIGH-RES 1-s2.0-S2468823124002864-ga1_lrg.jpg https://s3-eu-west-1.amazonaws.com/prod-ucs-content-store-eu-west/content/pii:S2468823124002864/HIGHRES/image/jpeg/f4b7f553380dde258e954bdac235bf0d/ga1_lrg.jpg ga1 true ga1_lrg.jpg jpg 185758 886 1812 IMAGE-HIGH-RES 1-s2.0-S2468823124002864-si1.svg https://s3-eu-west-1.amazonaws.com/prod-ucs-content-store-eu-west/content/pii:S2468823124002864/image/svg+xml/35ec0df9fbacd8ee699410f89d5e747c/si1.svg si1 si1.svg svg 1290 ALTIMG 1-s2.0-S2468823124002864-si10.svg https://s3-eu-west-1.amazonaws.com/prod-ucs-content-store-eu-west/content/pii:S2468823124002864/image/svg+xml/de46f4ec038b9daf502e6132b9b80041/si10.svg si10 si10.svg svg 2593 ALTIMG 1-s2.0-S2468823124002864-si11.svg https://s3-eu-west-1.amazonaws.com/prod-ucs-content-store-eu-west/content/pii:S2468823124002864/image/svg+xml/8d839db3c4eaf00ab15b5b3266e7f1f7/si11.svg si11 si11.svg svg 2928 ALTIMG 1-s2.0-S2468823124002864-si12.svg https://s3-eu-west-1.amazonaws.com/prod-ucs-content-store-eu-west/content/pii:S2468823124002864/image/svg+xml/171285e1f4ee45e99ff00d92f4bc031b/si12.svg si12 si12.svg svg 2613 ALTIMG 1-s2.0-S2468823124002864-si13.svg https://s3-eu-west-1.amazonaws.com/prod-ucs-content-store-eu-west/content/pii:S2468823124002864/image/svg+xml/c1f91026249dd4b1d58f1afbc492fcd2/si13.svg si13 si13.svg svg 2450 ALTIMG 1-s2.0-S2468823124002864-si14.svg https://s3-eu-west-1.amazonaws.com/prod-ucs-content-store-eu-west/content/pii:S2468823124002864/image/svg+xml/1cf29267d7b8d4244c0d17ea5460d4b1/si14.svg si14 si14.svg svg 2903 ALTIMG 1-s2.0-S2468823124002864-si15.svg https://s3-eu-west-1.amazonaws.com/prod-ucs-content-store-eu-west/content/pii:S2468823124002864/image/svg+xml/6388787bee22ea98c85f9bae8e9b321e/si15.svg si15 si15.svg svg 2461 ALTIMG 1-s2.0-S2468823124002864-si16.svg https://s3-eu-west-1.amazonaws.com/prod-ucs-content-store-eu-west/content/pii:S2468823124002864/image/svg+xml/b7518c9bb87dc64e973885a3332059e9/si16.svg si16 si16.svg svg 3063 ALTIMG 1-s2.0-S2468823124002864-si17.svg https://s3-eu-west-1.amazonaws.com/prod-ucs-content-store-eu-west/content/pii:S2468823124002864/image/svg+xml/8a2f119966d57646ae5e65ad0df9ae83/si17.svg si17 si17.svg svg 3247 ALTIMG 1-s2.0-S2468823124002864-si18.svg https://s3-eu-west-1.amazonaws.com/prod-ucs-content-store-eu-west/content/pii:S2468823124002864/image/svg+xml/c4cd46f8f1746369bad6be9fa6df03df/si18.svg si18 si18.svg svg 2091 ALTIMG 1-s2.0-S2468823124002864-si19.svg https://s3-eu-west-1.amazonaws.com/prod-ucs-content-store-eu-west/content/pii:S2468823124002864/image/svg+xml/d1edd2df5813a890705140021a182ef8/si19.svg si19 si19.svg svg 3407 ALTIMG 1-s2.0-S2468823124002864-si2.svg https://s3-eu-west-1.amazonaws.com/prod-ucs-content-store-eu-west/content/pii:S2468823124002864/image/svg+xml/2fbd93e7c74587345f92e9c2fc55898b/si2.svg si2 si2.svg svg 1161 ALTIMG 1-s2.0-S2468823124002864-si20.svg https://s3-eu-west-1.amazonaws.com/prod-ucs-content-store-eu-west/content/pii:S2468823124002864/image/svg+xml/427a496558568eeb089ab7ea6dcbb955/si20.svg si20 si20.svg svg 3131 ALTIMG 1-s2.0-S2468823124002864-si21.svg https://s3-eu-west-1.amazonaws.com/prod-ucs-content-store-eu-west/content/pii:S2468823124002864/image/svg+xml/7bac037ebe46fe7c10eedb84c677e17a/si21.svg si21 si21.svg svg 2813 ALTIMG 1-s2.0-S2468823124002864-si22.svg https://s3-eu-west-1.amazonaws.com/prod-ucs-content-store-eu-west/content/pii:S2468823124002864/image/svg+xml/83672e373c2f8594b769f3e0fdca2b95/si22.svg si22 si22.svg svg 2423 ALTIMG 1-s2.0-S2468823124002864-si23.svg https://s3-eu-west-1.amazonaws.com/prod-ucs-content-store-eu-west/content/pii:S2468823124002864/image/svg+xml/631f078ffe910c9ac0f25a3cc251e403/si23.svg si23 si23.svg svg 2145 ALTIMG 1-s2.0-S2468823124002864-si24.svg https://s3-eu-west-1.amazonaws.com/prod-ucs-content-store-eu-west/content/pii:S2468823124002864/image/svg+xml/082361af56891bc1bc6ff59871fdff76/si24.svg si24 si24.svg svg 3068 ALTIMG 1-s2.0-S2468823124002864-si25.svg https://s3-eu-west-1.amazonaws.com/prod-ucs-content-store-eu-west/content/pii:S2468823124002864/image/svg+xml/48b6ffd73cdeb6349f9c3298f2dfb1e8/si25.svg si25 si25.svg svg 2812 ALTIMG 1-s2.0-S2468823124002864-si26.svg https://s3-eu-west-1.amazonaws.com/prod-ucs-content-store-eu-west/content/pii:S2468823124002864/image/svg+xml/040df2cca3d51994a0077fb203c16aca/si26.svg si26 si26.svg svg 2264 ALTIMG 1-s2.0-S2468823124002864-si27.svg https://s3-eu-west-1.amazonaws.com/prod-ucs-content-store-eu-west/content/pii:S2468823124002864/image/svg+xml/f35ea8c11fbf0502d61d2c0749e28f3f/si27.svg si27 si27.svg svg 3360 ALTIMG 1-s2.0-S2468823124002864-si28.svg https://s3-eu-west-1.amazonaws.com/prod-ucs-content-store-eu-west/content/pii:S2468823124002864/image/svg+xml/f60848572a1911b17c817d5c58056bc6/si28.svg si28 si28.svg svg 2151 ALTIMG 1-s2.0-S2468823124002864-si29.svg https://s3-eu-west-1.amazonaws.com/prod-ucs-content-store-eu-west/content/pii:S2468823124002864/image/svg+xml/c78ca47cc91dba2f6de9574c72faf1c0/si29.svg si29 si29.svg svg 2825 ALTIMG 1-s2.0-S2468823124002864-si3.svg https://s3-eu-west-1.amazonaws.com/prod-ucs-content-store-eu-west/content/pii:S2468823124002864/image/svg+xml/0dfa7d54d3c735c708144e6253ca9f8a/si3.svg si3 si3.svg svg 644 ALTIMG 1-s2.0-S2468823124002864-si30.svg https://s3-eu-west-1.amazonaws.com/prod-ucs-content-store-eu-west/content/pii:S2468823124002864/image/svg+xml/2b6e140f0eca23473db9f46114a8e754/si30.svg si30 si30.svg svg 3011 ALTIMG 1-s2.0-S2468823124002864-si31.svg https://s3-eu-west-1.amazonaws.com/prod-ucs-content-store-eu-west/content/pii:S2468823124002864/image/svg+xml/585d6ec007fd440f7a147fe45b5683d8/si31.svg si31 si31.svg svg 2402 ALTIMG 1-s2.0-S2468823124002864-si32.svg https://s3-eu-west-1.amazonaws.com/prod-ucs-content-store-eu-west/content/pii:S2468823124002864/image/svg+xml/c0a50ea50806c42e98a3d4b64294c27c/si32.svg si32 si32.svg svg 3363 ALTIMG 1-s2.0-S2468823124002864-si33.svg https://s3-eu-west-1.amazonaws.com/prod-ucs-content-store-eu-west/content/pii:S2468823124002864/image/svg+xml/89d6f6075ca8553e4127e7cfe466c4df/si33.svg si33 si33.svg svg 3311 ALTIMG 1-s2.0-S2468823124002864-si34.svg https://s3-eu-west-1.amazonaws.com/prod-ucs-content-store-eu-west/content/pii:S2468823124002864/image/svg+xml/fc28735adc9b416c1761b664df221335/si34.svg si34 si34.svg svg 3062 ALTIMG 1-s2.0-S2468823124002864-si35.svg https://s3-eu-west-1.amazonaws.com/prod-ucs-content-store-eu-west/content/pii:S2468823124002864/image/svg+xml/541c7b73c4ef44598b7805f41e42992e/si35.svg si35 si35.svg svg 1173 ALTIMG 1-s2.0-S2468823124002864-si36.svg https://s3-eu-west-1.amazonaws.com/prod-ucs-content-store-eu-west/content/pii:S2468823124002864/image/svg+xml/ef1936c4565cd9de7641e62d3235084b/si36.svg si36 si36.svg svg 794 ALTIMG 1-s2.0-S2468823124002864-si37.svg https://s3-eu-west-1.amazonaws.com/prod-ucs-content-store-eu-west/content/pii:S2468823124002864/image/svg+xml/2bf57ac642dca2e7211f371ada99d154/si37.svg si37 si37.svg svg 1253 ALTIMG 1-s2.0-S2468823124002864-si38.svg https://s3-eu-west-1.amazonaws.com/prod-ucs-content-store-eu-west/content/pii:S2468823124002864/image/svg+xml/155b04bf946c3fac51d46d4e1f3776b4/si38.svg si38 si38.svg svg 858 ALTIMG 1-s2.0-S2468823124002864-si39.svg https://s3-eu-west-1.amazonaws.com/prod-ucs-content-store-eu-west/content/pii:S2468823124002864/image/svg+xml/d097ba490f2b9f19e5e32a224e5bf69a/si39.svg si39 si39.svg svg 1412 ALTIMG 1-s2.0-S2468823124002864-si4.svg https://s3-eu-west-1.amazonaws.com/prod-ucs-content-store-eu-west/content/pii:S2468823124002864/image/svg+xml/f68b4278ce3af9144bc5f0227711d9a8/si4.svg si4 si4.svg svg 858 ALTIMG 1-s2.0-S2468823124002864-si5.svg https://s3-eu-west-1.amazonaws.com/prod-ucs-content-store-eu-west/content/pii:S2468823124002864/image/svg+xml/25adac1e1047476831577bb36cda737f/si5.svg si5 si5.svg svg 5007 ALTIMG 1-s2.0-S2468823124002864-si6.svg https://s3-eu-west-1.amazonaws.com/prod-ucs-content-store-eu-west/content/pii:S2468823124002864/image/svg+xml/a8b60aad73a8b5f3bb6f9024b50a33cd/si6.svg si6 si6.svg svg 1227 ALTIMG 1-s2.0-S2468823124002864-si7.svg https://s3-eu-west-1.amazonaws.com/prod-ucs-content-store-eu-west/content/pii:S2468823124002864/image/svg+xml/2c915b7ed214b097ec689b9053289227/si7.svg si7 si7.svg svg 1378 ALTIMG 1-s2.0-S2468823124002864-si8.svg https://s3-eu-west-1.amazonaws.com/prod-ucs-content-store-eu-west/content/pii:S2468823124002864/image/svg+xml/1253b5a181905df497ac81dbaaceb6df/si8.svg si8 si8.svg svg 3027 ALTIMG 1-s2.0-S2468823124002864-si9.svg https://s3-eu-west-1.amazonaws.com/prod-ucs-content-store-eu-west/content/pii:S2468823124002864/image/svg+xml/7cd7d08b8dcd502014ccb1fded16f1b4/si9.svg si9 si9.svg svg 2433 ALTIMG 1-s2.0-S2468823124002864-am.pdf am am.pdf pdf 10362308 AAM-PDF https://s3-eu-west-1.amazonaws.com/prod-ucs-content-store-eu-west/content/egi:105S0N38VBM/MAIN/application/pdf/572cea5837d7df47447cc0c780d866a9/am.pdf MCAT 114103 114103 S2468-8231(24)00286-4 10.1016/j.mcat.2024.114103 Elsevier B.V. Fig. 1 The Suzuki cross-coupling reaction mechanism uses a single atom catalyst (SAC), where X represents a palladium or nickel catalyst. Fig. 1 Fig. 2 Gibbs free energy diagram of the oxidative addition step with nickel and palladium catalysts, respectively. Fig. 2 Fig. 3 Relativistic effects on the transition state of intermediates A to B transformation (TS1). Fig. 3 Fig. 4 HOMO and LUMO orbitals as well as the electrostatic potential (ESP) charges in intermediates A and B of the nickel catalyst.(a1) The LUMO of PhCl-Ni, (a2) The LUMO of Ph-Ni-Cl, (b1) The HOMO of PhCl-Ni, (b2) The HOMO of Ph-Ni-Cl, (c1) The ESP charge of PhCl-Ni, (c2) The ESP charge of Ph-Ni-Cl. The structures of PhCl-Ni and Ph-Ni-Cl are shown in Figures C1 and C2, respectively. Nickel atoms are represented in light blue, carbon atoms in dark gray, hydrogen atoms in silver, and chlorine atoms in green. Fig. 4 Fig. 5 HOMO-LUMO and ESP in intermediates A and B of the palladium catalyst. (a1) The LUMO of PhCl-Pd, (a2) The LUMO of Ph-Pd-Cl, (b1) The HOMO of PhCl-Pd, (b2) The HOMO of Ph-Pd-Cl, (c1) The ESP charge of PhCl-Pd, (c2) The ESP charge of Ph-Pd-Cl. The structures of PhCl-Pd and Ph-Pd-Cl are shown in Figures C1 and C2. Light blue atoms represent palladium, dark gray atoms represent carbon atoms, silver atoms represent hydrogen atoms, and green represents chloride. Fig. 5 Fig. 6 Reaction Coordinates of Suzuki Miyaura’s reaction at the transmetalation stage. Fig. 6 Fig. 7 Relativistic effects using ZORA at TS2. Fig. 7 Fig. 8 HOMO-LUMO and ESP in intermediates C and D using a nickel catalyst. (a1) The LUMO of Ph-B(OH) 3 − -NiPh, (a2) The LUMO of Ph-Ni-Ph + B(OH) 3 , (b1) The HOMO of Ph-B(OH) 3 − -NiPh, (b2) The HOMO of Ph-Ni-Ph + B(OH) 3 , (c1) The ESP charge of Ph-B(OH) 3 − -NiPh (c2) The ESP charge of Ph-Ni-Ph + B(OH) 3 . The structures of Ph-B(OH) 3 − -NiPh and Ph-Ni-Ph + B(OH) 3 are shown in Figures C1 and C2, respectively. Light blue atoms show nickel, dark gray atoms show carbon atoms, silver atoms shows hydrogen atoms, and green color shows chloride. Fig. 8 Fig. 9 HOMO-LUMO and ESP in intermediate C and intermediate D using a palladium catalyst. (a1)The LUMO of Ph-B(OH) 3 − -PdPh,(a2) The LUMO of Ph-Pd-Ph + B(OH) 3 , (b1) The HOMO of Ph-B(OH) 3 − -PdPh, (b2) The HOMO of Ph-Pd-Ph + B(OH) 3 , (c1) The ESP charge of Ph-B(OH) 3 − -PdPh (c2) The ESP charge of Ph-Pd-Ph + B(OH) 3 . The structures of Ph-B(OH) 3 − -PdPh and Ph-Pd-Ph + B(OH) 3 are shown in Figures C1 and C2. Light blue atoms represent palladium, dark gray atoms represent carbon atoms, silver atoms represent hydrogen atoms, and green represents chloride. Fig. 9 Fig. 10 Reaction coordinates for the reductive elimination stage with nickel and palladium catalysts. Fig. 10 Fig. 11 Relativistic effects using ZORA on TS3. Fig. 11 Fig. 12 HOMO-LUMO and ESP in intermediate E and F, respectively, when the reaction is using a palladium catalyst. (a1) The LUMO of Ph-Pd-Ph, (a2) The LUMO of Ph-Ph-Pd, (b1) The HOMO of Ph-Pd-Ph, (b2) The HOMO of Ph-Ph-Pd, (c1) The ESP charge of Ph-Pd-Ph, (c2) The ESP charge of Ph-Pd-Ph. The structures of Ph-Pd-Ph and Ph-Ph-Pd are shown in Figures C1 and C2, respectively. Light blue atoms represent palladium, dark gray atoms represent carbon atoms and silver atoms represent hydrogen atoms. Fig. 12 Fig. 13 HOMO-LUMO and ESP charges in intermediate E and F, respectively, when the reaction is using a nickel catalyst.(a1) The LUMO of Ph-Ni-Ph, (a2) The LUMO of Ph-Ph-Ni, (b1) The HOMO of Ph-Ni-Ph, (b2) The HOMO of Ph-Ph-Ni, (c1) The ESP charge of Ph-Ni-Ph, (c2) The ESP charge of Ph-Ni-Ph. The structures of Ph-Ni-Ph and Ph-Ph-Ni are shown in Figures C1 and C2, respectively. Nickel atoms are represented in light blue, carbon atoms in dark gray and hydrogen atoms in silver. Fig. 13 Fig. 14 Biphenyl structure. Fig. 14 Fig. 15 The energy levels of HOMO-LUMO vary when different catalysts are used. The upper part corresponds to the reaction using a nickel catalyst, while the lower part corresponds to the reaction using a palladium catalyst. Fig. 15 Table 1 Activation energy for Suzuki-Miyaura Cross-Coupling reaction with phenyl chloride using both palladium and nickel catalyst. Table 1 No IS [Ea (kJ/mol)] TS [Ea (kJ/mol)] FS [Ea (kJ/mol)] PhCl → Ph + Cl PhB(OH) 3 − + Ph → 2Ph + B(OH) 3 2Ph → Ph-Ph 1 34.68 74,17 42,48 2 24.24 65,22 51.97 Exploring the energetics of Suzuki cross-coupling reaction: A computational study of palladium and nickel catalysts Exploring the energetics of Suzuki cross-coupling reaction: A computational study of palladium and nickel catalysts Laila Roikhatul Jannah Writing – original draft Methodology Investigation Formal analysis Data curation a b Aditya Wibawa Sakti Writing – review & editing Validation Formal analysis Methodology c f Muhamad Abdulkadir Martoprawiro Validation Supervision Formal analysis Conceptualization Writing – review & editing b Gagus Ketut Sunnardianto Conceptualization Formal analysis Resources Supervision Writing – review & editing a d e ⁎ a Research Center for Quantum Physics, National Research and Innovation Agency (BRIN), Tangerang Selatan, Banten, 15314 Indonesia Research Center for Quantum Physics, National Research and Innovation Agency (BRIN), Tangerang Selatan Banten 15314 Indonesia Research Center for Quantum Physics, National Research and Innovation Agency (BRIN), Tangerang Selatan, Banten, 15314 Indonesia b Department of Chemistry, Institut Teknologi Bandung, Jalan Ganesha 10, Bandung 40132, Indonesia Department of Chemistry, Institut Teknologi Bandung Jalan Ganesha 10 Bandung 40132 Indonesia Department of Chemistry, Institut Teknologi Bandung, Jalan Ganesha 10, Bandung 40132, Indonesia c Global Center for Science and Engineering, School of Advanced Science and Engineering, Waseda University, Shinjuku-ku, Tokyo, 169-8555, Japan Global Center for Science and Engineering, School of Advanced Science and Engineering Waseda University Shinjuku-ku Tokyo 169-8555 Japan Global Center for Science and Engineering, School of Advanced Science and Engineering, Waseda University, Shinjuku-ku, Tokyo, 169-8555, Japan d School of Materials Science and Engineering, Nanyang Technological University, 50 Nanyang Avenue, Singapore, 639798, Singapore School of Materials Science and Engineering Nanyang Technological University 50 Nanyang Avenue Singapore, 639798 Singapore School of Materials Science and Engineering, Nanyang Technological University, 50 Nanyang Avenue, Singapore, 639798, Singapore e Research Collaboration Center for Quantum Technology 2.0, Bandung 40132, Indonesia Research Collaboration Center for Quantum Technology 2.0 Bandung 40132 Indonesia Research Collaboration Center for Quantum Technology 2.0, Bandung 40132, Indonesia f Department of Chemistry and Biochemistry, School of Advanced Science and Engineering, Waseda University, Tokyo 169-8555, Japan Department of Chemistry and Biochemistry School of Advanced Science and Engineering Waseda University Tokyo 169-8555 Japan Department of Chemistry and Biochemistry, School of Advanced Science and Engineering, Waseda University, Tokyo 169-8555, Japan ⁎ Corresponding author. Graphical abstract The present study employed density-functional theory (DFT) calculations to investigate the Suzuki-Miyaura Cross-Coupling reaction using single atom catalysis (SAC) via palladium or nickel. The reaction barriers for chloride bond cleavage in phenyl chloride were found to be 34.68 kJ/mol and 24.24 kJ/mol for palladium and nickel catalysts, respectively. During the transmetalation process, the energy barrier for boronic acid release from phenyl trihydroxyboronate using SAC via palladium and SAC via nickel was calculated to be 74.17 kJ/mol and 65.22 kJ/mol, respectively. The results indicated that in the oxidative addition and transmetalation reactions, the SAC via nickel outperforms the SAC via palladium, while the SAC via palladium excels in the reductive elimination reaction. These findings suggest the effectiveness of a SAC via nickel as a substitute for SAC via palladium in the synthesis of biphenyls in the Suzuki-Miyaura cross-coupling reaction. Keywords Suzuki Miyaura cross-coupling Palladium Nickel Phenyl chloride Data availability Data will be made available on request. 1 Introduction SAC have made significant advancements in heterogeneous catalysis, expanding their applications beyond the Suzuki-Miyaura cross-coupling reaction. Their exceptional properties make them highly promising candidates for driving a diverse range of reactions. For instance, the performance of MoS 2 in the hydrogen evolution reaction (HER) can be significantly enhanced by doping it with specific elements such as carbon, boron, nitrogen, and phosphorus [1]. The development of new electrocatalysts for the efficient production of ammonia (NH 3 ) through the nitrogen reduction reaction (NRR) is also important. Notably, Mo-doped iron phosphide monolayers,Mo-doped Fe 3 P exhibit great potential as NRR electrocatalysts [2]. Another area that shows promise is the conversion of CO 2 into methanol using SAC. A study focusing on the use of a single Ruthenium (Ru) atom anchored on a MoS 2 monolayer as a SAC for CO 2 conversion has provided valuable insights into the design of more efficient CO 2 conversion catalysts [3]. Furthermore, tetragonal transition-metal phosphide monolayers, including Co 2 P, Ni 2 P, Ru 2 P, and Pd 2 P, hold potential as electrocatalysts for converting nitrate (NO 3 − ) into ammonia (NH 3 ) through the electrochemical NO 3 − reduction reaction (NO 3 RR). This process offers promise for reducing water pollution and providing a sustainable method for NH 3 synthesis at low temperatures [4]. Lastly, the utilization of SACs for converting harmful nitric oxide (NO) into ammonia (NH 3 ) through the electrochemical nitric oxide reduction reaction (NORR) presents an opportunity to simultaneously remove NO from the environment and produce valuable fertilizer [5] One of the most efficient procedures for synthesizing organic compounds is the Suzuki-Miyaura cross-coupling reaction, catalyzed by transition metals [6]. This reaction has the capability to produce polyolefins, styrene, and biphenyl derivatives, which find utility across chemical, natural product, pharmaceutical, and biochemical sectors [7–11]. Palladium or nickel-catalyzed Suzuki reactions involve the coupling of organoboron reagents with organic halides or pseudohalides under alkaline conditions [12,13]. The Suzuki-Miyaura reaction using a palladium catalyst is more widely employed due to its moderate reaction conditions, commercial availability of reagents, and ease of removing the boron byproducts [14]. Biphenyl can be synthesized using palladium and nickel-based catalysts for the C-C bond formation reaction involving aryl halides and arylboronic acid [15]. In the Suzuki Cross-Coupling reaction, aryl chlorides are preferred over halobenzenes due to their greater accessibility and environmental friendliness [16]. Moreover, aryl halides exhibit the following reactivity order: A r − I > A r − B r > A r − C l Therefore, it is important to take into account the dissociation energy of the C-X bond when considering these reactions [17]. The use of complexes and ligands in palladium poses challenges due to their high cost and potential toxicity [18]. Efforts to develop heterogeneous catalysts for the Suzuki Cross-Coupling reaction involve the utilization of a single-atom structure to provide strong electron donation [19]. Palladium-based catalysts exhibit good role in carbon-carbon bond formation, with palladium serving as a catalytic atom, which important for facilitating cross-coupling reactions [20–23]. The palladium catalyst approach for the ligand-free Suzuki reaction continues to be pursued due to the high cost of palladium complexes and the challenges associated with catalyst recovery. This approach offers benefits such as recyclability, cost-effectiveness, sustainability, and broad industrial applicability [24,25]. In support of the heterogeneous catalysts development, the catalyst may contain metal clusters as the active centers. This configuration can mitigate cluster erosion and sintering processes, leading to an increased catalytic activity and reduced production costs [26]. The nickel catalyst in the Suzuki-Miyaura reaction exhibits favourable interaction with various functional groups, owing to its selectivity. However, the selectivity of palladium is governed by the electronic properties of aryl halides [27]. Additionally, nickel possesses low electronegativity and a low potential for gaining electrons, which leads to an easier oxidation process [28]. Nickel nanoparticles (Ni-NPs) hold significant promise as efficient and reusable catalysts for the synthesis of organic compounds and biological activities [29–31]. The development of the Suzuki cross-coupling reaction was pursued using both palladium and nickel as catalysts. In this study, we aim to elucidate the fundamental catalytic behavior of nickel, which will enable us to compare it to palladium in the Suzuki cross-coupling reaction for biphenyl production. This simplified system enables a more controlled comparison with palladium, ultimately guiding us towards potentially optimizing the Suzuki reaction for enhanced biphenyl production. 2 Material and methods In this study, the mechanism of the Suzuki-Miyaura cross-coupling reaction begins with the process of oxidative addition, in which the aryl chloride reacts with either palladium (Pd) or nickel (Ni) catalyst, denoted as X, resulting in the formation of R1-X-Cl. Following this, transmetalation takes place between the aryl borate and R1-X-Cl, thereby facilitating the substitution of the chloride group with the R group from the aryl borate. Finally, the reductive elimination step occurs which produces the biphenyl product (R1-R2) (Fig. 1 ). All adopted molecular structures were optimized at the DFT level. The B3LYP hybrid exchange-correlation density functional [30], combined with the Grimme D4 empirical dispersion correction (DFT-D4) [32] and def2-TZVP basis set [33], were utilized to perform the geometry optimization and calculated the thermodynamic properties. The Gibbs free energies were calculated by the summation of the electronic, zero-point, and thermal energies obtained from the frequency calculations at 298.15 K. The TDDFT/B3LYP-D4/def2-TZVP method was employed to calculate the HOMO-LUMO orbital. The electronic properties of the molecule was assessed by calculating the electrostatic potential (ESP) charges by using the Multiwfn code [34]. All DFT calculations were performed using the ORCA software package [35]. The visualizations were done by using Chemcraft [36] and Cylview [37]. 3 Results and discussion SAC offer great potential in the advancement of highly efficient and specific Suzuki-Miyaura catalysts. Thus, this study aimed to confirm the role of SAC in each of the three key stages of the Suzuki-Miyaura reaction: oxidative addition, transmetalation, and reductive elimination. This will emphasize the importance of SACs for each step in the Suzuki-Miyaura cross-coupling reaction. 3.1 Oxidative addition stage The mechanism of the Suzuki-Miyaura cross-coupling reaction, involving a single-atom catalyst, offer advantages in terms of catalytic activities, selectivity, and reaction efficiency [38]. In general, the Suzuki-Miyaura cross-coupling mechanism, consists of three steps of elementary reactions, namely, the oxidative addition, transmetalation, and reductive elimination [39]. In this first elementary reaction, the oxidative addition that begins with the coordination of C–Cl σ -bond to the metal atom takes place, forming the intermediate A. As shown in Fig. 2 , in addition to the coordinated σ -bond, the π -bond between C-C of the phenyl group also exists in the intermediate A. As also shown in Fig. 2, the addition reaction is exergonic with the Gibbs free energy of − 67.30 and − 142.04 kJ/mol for paladium and nickel metal, respectively. Similar exergonic nature for such an addition reaction was also reported in the previous work [40]. The addition reaction with the nickel catalyst exhibits a lower Gibbs free energy, indicating that the addition process for the nickel catalyst is thermodynamically more favorable than that of palladium catalyst. Starting from intermediate A, chloride is released from phenyl chloride when it’s adsorbed on single-atom palladium and nickel catalysts. In Transition State (TS1), An activation energy is observed with a nickel catalyst, around 24.24 kJ/mol, accompanied by a change in bond length. At first, the C–Cl bond in intermediate A is about 1.78 Å, and then it stretches to approximately 1.99 Å in TS1 before finally reaching 3.16 Å in intermediate B. Furthermore, the relativistic effect was incorporated by employing the zeroth-order regular approximation (ZORA). The calculated Gibbs activation energy after incorporating ZORA is 25.82 kJ/mol, slightly higher than that of without incorporating the relativistic effect, namely, 24.27 kJ/mol, as shown in Fig. 3 . Relativistic effects in TS1 with a palladium catalyst do not influence changes in the C–Cl bond length. Changes in C–Cl bond length occur in intermediate A, for about 1.78 Å. As bond distance increases, the covalent bond becomes prone to the chemical reaction [41]. It leads to a lower activation energy in TS1 when the relativistic effects are considered. As shown in Fig. 5 that when HOMO and LUMO energies are close, the electron is excited from HOMO to LUMO, thus in this case there is an increase in chloride density from intermediate A to intermediate B, which causes a shift in density due to the presence of the nickel catalyst. Furthermore, the ESP charge calculations were performed using the B3LYP functional and the cc-pVTZ-DK basis set in order to investigate the erlectronic properties of the molecules. It has been observed that charge of the nickel atom in intermediates A and B is + 0.266 and + 0.572 , respectively, thus A to B conversion increases the charge of the nickel atom. This change is due to the electron transfer to the chlorine atom. Meanwhile, the charge of the Cl atom in intermediate A is − 0.255 , and in intermediate B, it is − 0.448 , resulting in an electron transfer from nickel to aryl chloride of + 0.306 . The release of chloride causes carbon electrons that were bonded to nickel to redistribute towards chlorine atoms. This redistribution leads to the breaking of the bond between the chlorine atom and benzene. As shown in Fig. 2, the use of a palladium catalyst results in an activation energy of 34.68 kJ/mol and an increase in the C–Cl bond length. The initial bond length was 1.77 Å, which expanded to 2.02 Å and 3.06 Å from intermediate A to TS1. Interestingly, the inclusion of relativistic effects reduces the energy barrier from 34.68 to 31.77 kJ/mol, as shown in Fig. 3. This reduction in the energy barrier corresponds to a change in the bond length of C–Cl bond to 1.94 Å in TS1, indicating that a shorter bond length makes it more challenging to break the bond between the atoms. As shown in Fig. 4 , the palladium catalyst exhibits a noticeable change in the lobe size on the chlorine atom from intermediate A to intermediate B, resulting in a shift in the probability density of the chloride atom. The charge on palladium in intermediate A is approximately + 0.304 , but it increases to around + 0.567 , showing a more positive charge on palladium in this state. Meanwhile, the charge on chloride is around + 0.269 in intermediate A and − 0.471 in intermediate B. This indicates a charge polarization from chloride to palladium, resulting in a more negative charge on chloride and a more positive charge on palladium. This change is due to an electron charge transfer of + 0.263 . These calculations in the oxidative addition stage showed that the activation energy is lower when using a nickel catalyst compared to a palladium catalyst. 3.2 Transmetalation stage The second step of the Suzuki-Miyaura cross-coupling reaction entails transmetalation, during intermediate B (Ph-Pd-Cl) directly undergoes transmetalation with the activated-base atomic complex Ph-B(OH) 3 resulting in the formation of intermediate D, as illustred in Fig. 6 . Intermediate B on the nickel catalyst experiences a reduction in energy by − 263.42 kJ/mol as shown in Fig. 6. Subsequently, the transmetalation step involves the transfer of organic groups from the organoboron species to the palladium complex, which has undergone oxidative addition with the aryl halide. Additionally, phenylboronic acid coordinates with nickel to form intermediate C, resulting in an energy increase of − 208.02 kJ/mol on the nickel catalyst. The subsequent step entails the release of the B(OH) 3 group from the phenyl ring, leading to the formation of intermediate D. The transition state in TS2 with nickel catalysts involves the release of the B(OH) 3 group with an activation energy of 65.22 kJ/mol. The bond distance between boron on phenyl and the nickel catalyst increases from 1.66 Å to 3.46 Å. Fig. 7 , the influence of relativistic effects also impacts the activation energy value of 92.13 kJ/mol. With the relativistic effect, the bond length in TS2 is 1.82 Å, whereas without the relativistic effect, the bond length remains 1.85 Å. Fig. 8 shows the change in HOMO-LUMO density using a nickel catalyst in intermediate D, resulting in a decrease in the density around the boric acid group. The charge on nickel shifts to increasingly negative values from intermediate C to intermediate D; with intermediate C having a charge of + 0.705 and intermediate D having a charge of 0.670. Additionally, there is a transfer of charge of 0.333 between the boric acid and the palladium complex. As a results, the boric acid group becomes more positively charged due to electron loss. In the case of the palladium catalyst as shown in Fig. 6, intermediate B similarly experiences a decrease in energy by − 104.07 kJ/mol. Following this, intermediate B progresses to the formation of intermediate C, wherein phenylboronic acid coordinates with palladium, resulting in an energy increase of − 38.08 kJ/mol in the palladium catalyst. The subsequent step involves the liberation of the B(OH) 3 group, giving rise to intermediate D. The transition state corresponding to the release of the B(OH) 3 group, denoted as TS2, showcases an activation energy of 74.17 kJ/mol in the palladium catalyst. The change in the boron-to-phenyl bond distance using the palladium catalyst increases from 1.66 Å to 3.57 Å. The impact of the relativistic effect (Fig. 7) also influences the activation energy by 103.01 kJ/mol, resulting in the bond length within the TS2 intermediate measuring 1.87 Å when the relativistic effect is present. However, without the relativistic effect, the bond length is 1.88 Å. Furthernore, as shown in Fig. 9 , the levels of HOMO-LUMO density using the palladium catalyst in intermediate D showing a decrease within the borate acid group. Subsequently, the charge on palladium shifts towards increasingly negative values from intermediate C to intermediate D, namely, with the partial charges of + 0.762 and 0.657 in intermediates C and D, respectively. The charge transfer between the boric acid and the palladium complex, amounting to + 0.330 , results in the boric acid group becoming more positively charged due to the loss of electrons 3.3 Reductive elimination stage (Formation of Carbon-Carbon Bonds) After the transmetalation step, the palladium-catalyzed Suzuki-Miyaura reaction undergoes reductive elimination. This process leads to the creation of a new C–C bond between the two organic groups within the palladium complex. The reductive elimination phase initiates with the transmetalation product, where the intermediate F represents the loss of the B(OH) 3 group. The energy of the intermediate F on the palladium catalyst is -135.71 kJ/mol, and its C–C bond distance of 2.83 Å, as shown in Fig. 10 . Subsequently, palladium progresses toward the transition state of carbon-carbon bond formation. TS2 shows the coupling of C–C bonds, leading to the formation of intermediate G, where the C–Pd bond in one of the phenyl groups is broken. In intermediate G, palladium has 8 free electrons, thus it can only accept a pair of free electrons. Palladium is more effective in bonding with a single atom rather than two, resulting in the formation of a phi bond between the C–C bonds and the Pd catalyst in intermediate G. The phi bond occurs because two P orbitals overlap in benzene, forming the electron density between the palladium or nickel catalyst and intermediate G. The formation of C–C bonds to produce biphenyl products has a barrier energy of 42.48 kJ/mol with a palladium catalyst. Furthermore, as shown in Fig. 10, the relativistic effect found a value of 53.23 kJ/mol which is associated with a C–C bond distance of 2.06 Å in TS3 and a bond length of 2.92 Å in intermediate E. In contrast, in the absence of relativistic effects, TS3 shows a bond length of 2.06 Å, while intermediate E has a C–C bond distance of 2.83 Å. As shown in Fig. 12, we observed a gradual increase in the homo-lumo density level from intermediate E to Intermediate F with palladium which indicated that there is an electron transfer. In intermediate E, palladium has a charge of + 0.483 , which decreases to + 0.204 in intermediate F, indicating more negative charge on palladium. This observation also suggests that from intermediate F to intermediate E, there is a charge transfer around + 0.279 from biphenyl to palladium. In intermediate E, the nickel catalyst can bind with two phenyl groups. Then, the C-Ni bond in one of the phenyl groups breaks, leading to the formation of a carbon-carbon bond, known as intermediate F, with a certain amount of energy − 248.00 kJ/mol.The process of forming intermediate F requires an activation energy of 51.97 kJ/mol, as seen in Fig. 10. Moreover, when we consider the impact of relativistic effects, as shown in Fig. 11 , the activation energy remains at 67.26 kJ/mol, and the bond distance at TS3 is 1.83 Å. There is a difference in bond length between intermediate E, where the C–C bond distance is 2.92 Å, and when there are no relativistic effects, it’s 2.54 Å. This variation in bond length leads to the difference in activation energy at TS3. The formation of C–C bonds is also influenced by an increased electron density in the HOMO-LUMO transition between intermediates E and F. This is reflected in the changing charge on the nickel catalyst, which becomes increasingly negative, as shown in Fig. 13 . The nickel charge in intermediate E is + 0.445 , while in intermediate F, the nickel atom carries a charge of + 0.259 . Therefore, there is a transfer of charge of + 0.186 from biphenyl to the nickel catalyst, indicating an electron transfer. As shown in Fig. 14 show that the result of the Suzuki cross-coupling reaction is biphenyl. This resulting product exhibits a non-flat structure, forming a slightly curved, or bent, configuration with dihedral angles between the rings, as mentioned in references [42,43]. In our research, we found that the molecule biphenyl forms a dihedral angle of 39 . 19 ∘ after undergoing optimization calculations, as shown in Fig. 14. Palladium has an electron configuration of [Kr] 4d 10 5s 0 , which means it has no unpaired electrons in its ground state, resulting in a multiplicity of 1 or singlet. Nickel, on the other hand, has an electron configuration of [Ar] 3d 8 4s 2 [44]. In its ground state, nickel has two unpaired electrons in the 3d orbital. These unpaired electrons in nickel provide different stability and catalytic reactivity in Suzuki-Miyaura cross-coupling reactions. As shown in Table 1 , the Suzuki-Miyaura cross-coupling reaction involves three consecutive stages. The first stage is called oxidative addition, where our calculations suggest that using a nickel catalyst requires less activation energy compared to using a palladium catalyst. This finding is quite important. The second stage is transmetalation, which is essentially the critical step determining the speed and efficiency of the carbon-carbon coupling reaction [45,46]. This stage is highly significant in this context, and prior research [47] highlights the central role of transmetalation in controlling the rate of the carbon-carbon coupling reaction. The table above shows that the palladium catalyst has an activation energy of 74.17 kJ/mol, which is higher than the nickel catalyst’s activation energy of 65.22 kJ/mol. The final step involves forming carbon-carbon bonds or a reductive elimination to produce biphenyl as the product. The activation energy with the nickel catalyst is 51.98 kJ/mol, while with the palladium catalyst, it’s 42.48 kJ/mol. This stage suggests that the nickel catalyst is better at forming carbon-carbon bonds. In light of the complete reaction, the Suzuki-Miyaura cross-coupling reaction with nickel and palladium catalysts resulted in a reaction enthalpy of -313.616 kJ/mol, indicating the exothermic nature of the process. 3.4 HOMO-LUMO analysis In Fig. 15 , we have observed the band gap for each reaction, under consideration using both nickel and palladium catalysts. When the nickel catalyst is employed, we observe that the smallest band gap is approximately 163.57 kJ/mol in the biphenyl product, and the largest band gap is found at around 378.597 kJ/mol in intermediate E. Moreover, when the palladium catalyst is used, the band gap for the biphenyl product is larger, at around 248.110 kJ/mol, and the largest band gap was found to be approximately 424.281 kJ/mol in intermediate D. The resulting biphenyl compound exhibits a curved structure with dihedral angles between its rings [42,43]. These findings suggest that the nickel catalyst is more reactive than the palladium catalyst. This implies that electron excitation from the HOMO to the LUMO in the biphenyl product occurs more readily when using the nickel catalyst, compared to the palladium catalyst. 4 Summary In this study, we have observed that the nickel catalyst is better than the palladium catalyst in both the oxidative addition and transmetalation stages of the reaction. The rate-determining step of the reaction is the transmetalation step, with an activation energy of 65.22 kJ/mol for nickel catalysts and 74.17 kJ/mol for palladium catalysts showing the nickel catalysts being more efficient than palladium catalysts. Our proposed reaction mechanism holds promise for practical implementation is feasible due to the favorable thermodynamic characteristics observed throughout most of the reaction steps. CRediT authorship contribution statement Laila Roikhatul Jannah: Writing – original draft, Methodology, Investigation, Formal analysis, Data curation. Aditya Wibawa Sakti: Writing – review & editing, Validation, Formal analysis, Methodology. Muhamad Abdulkadir Martoprawiro: Validation, Supervision, Formal analysis, Conceptualization, Writing – review & editing. Gagus Ketut Sunnardianto: Conceptualization, Formal analysis, Resources, Supervision, Writing – review & editing. Declaration of competing interest The authors declare that they have no known competing financial interests or personal relationships that could have appeared to influence the work reported in this paper. Acknowledgments L.R.J is supported by the research assistantship from the National Talent Management System at BRIN. We also acknowledge the Mahameru BRIN, Sakti Lab Server, ITB server, and TheoCompChem Server for their high-performance computing facilities. References [1] Q. Li X. Zhang S. Dong Y. Li H. Zhao H. Xie Z. Wang C. Zhou Effects of doping and modulation on hydrogen evolution reaction of Pt@ MoS2 single-atom catalysts: a first-principles study Mol. Catal. 549 2023 113485 Q. Li, X. Zhang, S. Dong, Y. Li, H. Zhao, H. Xie, Z. Wang, C. Zhou, Effects of doping and modulation on hydrogen evolution reaction of pt@ mos2 single-atom catalysts: A first-principles study, Molecular Catalysis 549 (2023) 113485. [2] J. Wu J.-H. Li Y.-X. Yu Highly stable Mo-doped Fe2P and Fe3P monolayers as low-onset-potential electrocatalysts for nitrogen fixation Catal. Sci. Technol. 11 4 2021 1419 1429 J. Wu, J.-H. Li, Y.-X. Yu, Highly stable mo-doped fe 2 p and fe 3 p monolayers as low-onset-potential electrocatalysts for nitrogen fixation, Catalysis Science & Technology 11(4) (2021) 1419–1429. [3] H. Detz V. Butera Insights into the mechanistic CO2 conversion to methanol on single Ru atom anchored on MoS2 monolayer Mol. Catal. 535 2023 112878 H. Detz, V. Butera, Insights into the mechanistic co2 conversion to methanol on single ru atom anchored on mos2 monolayer, Molecular Catalysis 535 (2023) 112878. [4] J. Wu Y.-X. Yu Highly selective electroreduction of nitrate to ammonia on a Ru-doped tetragonal Co 2 P monolayer with low-limiting overpotential Catal. Sci. Technol. 11 21 2021 7160 7170 J. Wu, Y.-X. Yu, Highly selective electroreduction of nitrate to ammonia on a ru-doped tetragonal co 2 p monolayer with low-limiting overpotential, Catalysis Science & Technology 11(21) (2021) 7160–7170. [5] J. Wu Y.-X. Yu A theoretical descriptor for screening efficient NO reduction electrocatalysts from transition-metal atoms on N-doped BP monolayer J. Colloid Interface Sci. 623 2022 432 444 J. Wu, Y.-X. Yu, A theoretical descriptor for screening efficient no reduction electrocatalysts from transition-metal atoms on n-doped bp monolayer, Journal of colloid and interface science 623 (2022) 432–444. [6] M.J. Goldfogel X. Guo J.L. Melendez Matos J.A. Gurak Jr M.V. Joannou W.B. Moffat E.M. Simmons S.R. Wisniewski Advancing base-metal catalysis: development of a screening method for nickel-catalyzed Suzuki–Miyaura reactions of pharmaceutically relevant heterocycles Organ. Process Res. Dev. 26 3 2021 785 794 M. J. Goldfogel, X. Guo, J. L. Melendez Matos, J. A. Gurak Jr, M. V. Joannou, W. B. Moffat, E. M. Simmons, S. R. Wisniewski, Advancing base-metal catalysis: Development of a screening method for nickel-catalyzed suzuki–miyaura reactions of pharmaceutically relevant heterocycles, Organic Process Research & Development 26(3) (2021) 785–794. [7] Z. Chen E. Vorobyeva S. Mitchell E. Fako M.A. Ortuño N. López S.M. Collins P.A. Midgley S. Richard G. Vilé A heterogeneous single-atom palladium catalyst surpassing homogeneous systems for Suzuki coupling Nat. Nanotechnol. 13 8 2018 702 707 Z. Chen, E. Vorobyeva, S. Mitchell, E. Fako, M. A. Ortuño, N. López, S. M. Collins, P. A. Midgley, S. Richard, G. Vilé, et al., A heterogeneous single-atom palladium catalyst surpassing homogeneous systems for suzuki coupling, Nature Nanotechnology 13(8) (2018) 702–707. [8] E. Fernández M.A. Rivero-Crespo I. Domínguez P. Rubio-Marques J. Oliver-Meseguer L. Liu M. Cabrero-Antonino R. Gavara J.C. Hernandez-Garrido M. Boronat Base-controlled heck, Suzuki, and Sonogashira reactions catalyzed by ligand-free platinum or palladium single atom and sub-nanometer clusters J. Am. Chem. Soc. 141 5 2019 1928 1940 E. Fernández, M. A. Rivero-Crespo, I. Domínguez, P. Rubio-Marques, J. Oliver-Meseguer, L. Liu, M. Cabrero-Antonino, R. Gavara, J. C. Hernandez-Garrido, M. Boronat, et al., Base-controlled heck, suzuki, and sonogashira reactions catalyzed by ligand-free platinum or palladium single atom and sub-nanometer clusters, Journal of The American Chemical Society 141(5) (2019) 1928–1940. [9] S. Handa Y. Wang F. Gallou B.H. Lipshutz Sustainable Fe–ppm Pd nanoparticle catalysis of Suzuki-Miyaura cross-couplings in water Science 349 6252 2015 1087 1091 S. Handa, Y. Wang, F. Gallou, B. H. Lipshutz, Sustainable fe–ppm pd nanoparticle catalysis of suzuki-miyaura cross-couplings in water, Science 349(6252) (2015) 1087–1091. [10] L. Guo W. Srimontree C. Zhu B. Maity X. Liu L. Cavallo M. Rueping Nickel-catalyzed Suzuki–Miyaura cross-couplings of aldehydes Nat. Commun. 10 1 2019 1957 L. Guo, W. Srimontree, C. Zhu, B. Maity, X. Liu, L. Cavallo, M. Rueping, Nickel-catalyzed suzuki–miyaura cross-couplings of aldehydes, Nature Communications 10(1) (2019) 1957. [11] I. Maluenda O. Navarro Recent developments in the Suzuki-Miyaura reaction: 2010–2014 Molecules 20 5 2015 7528 7557 I. Maluenda, O. Navarro, Recent developments in the suzuki-miyaura reaction: 2010–2014, Molecules 20(5) (2015) 7528–7557. [12] G.C. Fu Transition-metal catalysis of nucleophilic substitution reactions: a radical alternative to SN1 and SN2 processes ACS Cent. Sci. 3 7 2017 692 700 G. C. Fu, Transition-metal catalysis of nucleophilic substitution reactions: a radical alternative to sn1 and sn2 processes, ACS Central Science 3(7) (2017) 692–700. [13] N. Andrews J. Fan R. Forward M. Chen H.-P. Loock Determination of the thermal, oxidative and photochemical degradation rates of scintillator liquid by fluorescence EEM spectroscopy Phys. Chem. Chem. Phys. 19 1 2017 73 81 N. Andrews, J. Fan, R. Forward, M. Chen, H.-P. Loock, Determination of the thermal, oxidative and photochemical degradation rates of scintillator liquid by fluorescence eem spectroscopy, Physical Chemistry Chemical Physics 19(1) (2017) 73–81. [14] V.M. Chernyshev V.P. Ananikov Nickel and palladium catalysis: stronger demand than ever ACS Catal. 12 2 2022 1180 1200 V. M. Chernyshev, V. P. Ananikov, Nickel and palladium catalysis: Stronger demand than ever, ACS Catalysis 12(2) (2022) 1180–1200. [15] T.-N. Ye Y. Lu Z. Xiao J. Li T. Nakao H. Abe Y. Niwa M. Kitano T. Tada H. Hosono Palladium-bearing intermetallic electride as an efficient and stable catalyst for Suzuki cross-coupling reactions Nat. Commun. 10 1 2019 5653 T.-N. Ye, Y. Lu, Z. Xiao, J. Li, T. Nakao, H. Abe, Y. Niwa, M. Kitano, T. Tada, H. Hosono, Palladium-bearing intermetallic electride as an efficient and stable catalyst for suzuki cross-coupling reactions, Nature Communications 10(1) (2019) 5653. [16] M. Nikoorazm A. Ghorbani-Choghamarani A. Jabbari A facile preparation of palladium Schiff base complex supported into MCM-41 mesoporous and its catalytic application in Suzuki and heck reactions J. Porous Mater. 23 2016 967 975 M. Nikoorazm, A. Ghorbani-Choghamarani, A. Jabbari, A facile preparation of palladium schiff base complex supported into mcm-41 mesoporous and its catalytic application in suzuki and heck reactions, Journal of Porous Materials 23 (2016) 967–975. [17] L. Yin J. Liebscher Carbon- carbon coupling reactions catalyzed by heterogeneous palladium catalysts Chem. Rev. 107 1 2007 133 173 L. Yin, J. Liebscher, Carbon- carbon coupling reactions catalyzed by heterogeneous palladium catalysts, Chemical Reviews 107(1) (2007) 133–173. [18] N. Jeddi N.W. Scott I.J. Fairlamb Well-defined Pdn clusters for cross-coupling and hydrogenation catalysis: new opportunities for catalyst design ACS Catal. 12 19 2022 11615 11638 N. Jeddi, N. W. Scott, I. J. Fairlamb, Well-defined pd n clusters for cross-coupling and hydrogenation catalysis: New opportunities for catalyst design, ACS Catalysis 12(19) (2022) 11615–11638. [19] S. Mitchell E. Vorobyeva J. Pérez-Ramírez The multifaceted reactivity of single-atom heterogeneous catalysts Angew. Chem. Int. Ed. 57 47 2018 15316 15329 S. Mitchell, E. Vorobyeva, J. Pérez-Ramírez, The multifaceted reactivity of single-atom heterogeneous catalysts, Angewandte Chemie International Edition 57(47) (2018) 15316–15329. [20] K.K. Senapati S. Roy C. Borgohain P. Phukan Palladium nanoparticle supported on cobalt ferrite: an efficient magnetically separable catalyst for ligand free Suzuki coupling J. Mol. Catal. A Chem. 352 2012 128 134 K. K. Senapati, S. Roy, C. Borgohain, P. Phukan, Palladium nanoparticle supported on cobalt ferrite: An efficient magnetically separable catalyst for ligand free suzuki coupling, Journal of Molecular Catalysis A: Chemical 352 (2012) 128–134. [21] H. Wei X. Li B. Deng J. Lang Y. Huang X. Hua Y. Qiao B. Ge J. Ge H. Wu Rapid synthesis of pd single-atom/cluster as highly active catalysts for Suzuki coupling reactions Chin. J. Catal. 43 4 2022 1058 1065 H. Wei, X. Li, B. Deng, J. Lang, Y. Huang, X. Hua, Y. Qiao, B. Ge, J. Ge, H. Wu, Rapid synthesis of pd single-atom/cluster as highly active catalysts for suzuki coupling reactions, Chinese Journal of Catalysis 43(4) (2022) 1058–1065. [22] H. Hu J. Xi Single-atom catalysis for organic reactions Chin. Chem. Lett. 34 6 2023 107959 H. Hu, J. Xi, Single-atom catalysis for organic reactions, Chinese Chemical Letters 34(6) (2023) 107959. [23] K. Hong M. Sajjadi J.M. Suh K. Zhang M. Nasrollahzadeh H.W. Jang R.S. Varma M. Shokouhimehr Palladium nanoparticles on assorted nanostructured supports: applications for Suzuki, heck, and Sonogashira cross-coupling reactions ACS Appl. Nano Mater. 3 3 2020 2070 2103 K. Hong, M. Sajjadi, J. M. Suh, K. Zhang, M. Nasrollahzadeh, H. W. Jang, R. S. Varma, M. Shokouhimehr, Palladium nanoparticles on assorted nanostructured supports: applications for suzuki, heck, and sonogashira cross-coupling reactions, ACS Applied Nano Materials 3(3) (2020) 2070–2103. [24] J. Zhang C. Chen S. Chen Q. Hu Z. Gao Y. Li Y. Qin Highly dispersed Pt nanoparticles supported on carbon nanotubes produced by atomic layer deposition for hydrogen generation from hydrolysis of ammonia borane Catal. Sci. Technol. 7 2 2017 322 329 J. Zhang, C. Chen, S. Chen, Q. Hu, Z. Gao, Y. Li, Y. Qin, Highly dispersed pt nanoparticles supported on carbon nanotubes produced by atomic layer deposition for hydrogen generation from hydrolysis of ammonia borane, Catalysis Science & Technology 7(2) (2017) 322–329. [25] A.A. Ibrahim A. Lin M.S. Adly M.S. El-Shall Enhancement of the catalytic activity of Pd nanoparticles in Suzuki coupling by partial functionalization of the reduced graphene oxide support with p-phenylenediamine and benzidine J. Catal. 385 2020 194 203 A. A. Ibrahim, A. Lin, M. S. Adly, M. S. El-Shall, Enhancement of the catalytic activity of pd nanoparticles in suzuki coupling by partial functionalization of the reduced graphene oxide support with p-phenylenediamine and benzidine, Journal of Catalysis 385 (2020) 194–203. [26] A.K. Cooper P.M. Burton D.J. Nelson Nickel versus palladium in cross-coupling catalysis: on the role of substrate coordination to zerovalent metal complexes Synthesis 52 04 2020 565 573 A. K. Cooper, P. M. Burton, D. J. Nelson, Nickel versus palladium in cross-coupling catalysis: On the role of substrate coordination to zerovalent metal complexes, Synthesis 52(04) (2020) 565–573. [27] L. Yi T. Ji K.-Q. Chen X.-Y. Chen M. Rueping Nickel-catalyzed reductive cross-couplings: new opportunities for carbon–carbon bond formations through photochemistry and electrochemistry CCS Chem. 4 1 2022 9 30 L. Yi, T. Ji, K.-Q. Chen, X.-Y. Chen, M. Rueping, Nickel-catalyzed reductive cross-couplings: new opportunities for carbon–carbon bond formations through photochemistry and electrochemistry, CCS Chemistry 4(1) (2022) 9–30. [28] F. Hakimi F.S. Oreyzi F.B. Fatemeh E. Golrasan A new application of nickel nanoparticles as a heterogeneous catalyst for synthesis of 1-amidoalkyl-2-naphthols according to green chemistry principles Asian J. Green Chem. 4 2020 134 141 F. Hakimi, F. S. Oreyzi, F. B. Fatemeh, E. Golrasan, A new application of nickel nanoparticles as a heterogeneous catalyst for synthesis of 1-amidoalkyl-2-naphthols according to green chemistry principles, Asian J. Green Chem 4 (2020) 134–141. [29] B.A. Baviskar P.V. Ajmire D.S. Chumbhale M.S. Khan V.G. Kuchake M. Singupuram P.R. Laddha Recent advances in nickel catalyzed Suzuki-Miyaura cross coupling reaction via C–O & C–N bond activation Sustain. Chem. Pharm. 32 2023 100953 B. A. Baviskar, P. V. Ajmire, D. S. Chumbhale, M. S. Khan, V. G. Kuchake, M. Singupuram, P. R. Laddha, Recent advances in nickel catalyzed suzuki-miyaura cross coupling reaction via co & cn bond activation, Sustainable Chemistry and Pharmacy 32 (2023) 100953. [30] P.J. Stephens F.J. Devlin C.F. Chabalowski M.J. Frisch Ab initio calculation of vibrational absorption and circular dichroism spectra using density functional force fields J. Phys. Chem. 98 45 1994 11623 11627 P. J. Stephens, F. J. Devlin, C. F. Chabalowski, M. J. Frisch, Ab initio calculation of vibrational absorption and circular dichroism spectra using density functional force fields, The Journal of Physical Chemistry 98(45) (1994) 11623–11627. [31] M.M. Talukder J.M.O. Cue J.T. Miller P.L. Gamage A. Aslam G.T. McCandless M.C. Biewer M.C. Stefan Ligand steric effects of α -diimine nickel (ii) and palladium (ii) complexes in the Suzuki–Miyaura cross-coupling reaction ACS Omega 5 37 2020 24018 24032 M. M. Talukder, J. M. O. Cue, J. T. Miller, P. L. Gamage, A. Aslam, G. T. McCandless, M. C. Biewer, M. C. Stefan, Ligand steric effects of $ \\alpha $-diimine nickel (ii) and palladium (ii) complexes in the suzuki–miyaura cross-coupling reaction, ACS Omega 5(37) (2020) 24018–24032. [32] E. Caldeweyher S. Ehlert A. Hansen H. Neugebauer S. Spicher C. Bannwarth S. Grimme A generally applicable atomic-charge dependent London dispersion correction J. Chem. Phys. 150 15 2019 154122 E. Caldeweyher, S. Ehlert, A. Hansen, H. Neugebauer, S. Spicher, C. Bannwarth, S. Grimme, A generally applicable atomic-charge dependent london dispersion correction, The Journal of chemical physics 150(15) (2019) 154122. [33] B.P. Pritchard D. Altarawy B. Didier T.D. Gibson T.L. Windus New basis set exchange: an open, up-to-date resource for the molecular sciences community J. Chem. Inf. Model. 59 11 2019 4814 4820 B. P. Pritchard, D. Altarawy, B. Didier, T. D. Gibson, T. L. Windus, New basis set exchange: An open, up-to-date resource for the molecular sciences community, Journal of Chemical Information and Modeling 59(11) (2019) 4814–4820. [34] T. Lu F. Chen Multiwfn: a multifunctional wavefunction analyzer J. Comput. Chem. 33 5 2012 580 592 T. Lu, F. Chen, Multiwfn: A multifunctional wavefunction analyzer, Journal of Computational Chemistry 33(5) (2012) 580–592. [35] F. Neese F. Wennmohs U. Becker C. Riplinger The ORCA quantum chemistry program package J. Chem. Phys. 152 22 2020 224108 F. Neese, F. Wennmohs, U. Becker, C. Riplinger, The orca quantum chemistry program package, The Journal of chemical physics 152(22) (2020) 224108. [36] G.A. Zhurko, ChemCraft: graphical program for visualization of quantum chemistry computations, 2005, (http://www.chemcraftprog.com). [37] C. Legault CYLview User Manual 2012 C. Legault, CYLview User Manual, 2012. [38] S. Ji X. Lu M. Zhang L. Leng H. Liu K. Yin C. Xu C. He J.H. Horton J. Zhang Construction of a single-atom palladium catalyst by electronic metal-support interaction and interface confinement effect with remarkable performance in Suzuki coupling reaction Chem. Eng. J. 452 2023 139205 S. Ji, X. Lu, M. Zhang, L. Leng, H. Liu, K. Yin, C. Xu, C. He, J. H. Horton, J. Zhang, et al., Construction of a single-atom palladium catalyst by electronic metal-support interaction and interface confinement effect with remarkable performance in suzuki coupling reaction, Chemical Engineering Journal 452 (2023) 139205. [39] S.J. Firsan V. Sivakumar T.J. Colacot Emerging trends in cross-coupling: twelve-electron-based L1Pd (0) catalysts, their mechanism of action, and selected applications Chem. Rev. 122 23 2022 16983 17027 S. J. Firsan, V. Sivakumar, T. J. Colacot, Emerging trends in cross-coupling: Twelve-electron-based l1pd (0) catalysts, their mechanism of action, and selected applications, Chemical Reviews 122(23) (2022) 16983–17027. [40] X. Li J. Wang Q. Yuan X. Song J. Mu Y. Wei L. Yan F. Sun S. Feng Y. Cai Palladium and ruthenium dual-single-atom sites on porous ionic polymers for acetylene dialkoxycarbonylation: synergetic effects stabilize the active site and increase CO adsorption Angew. Chem. Int. Ed. 2023 e202307570 X. Li, J. Wang, Q. Yuan, X. Song, J. Mu, Y. Wei, L. Yan, F. Sun, S. Feng, Y. Cai, et al., Palladium and ruthenium dual-single-atom sites on porous ionic polymers for acetylene dialkoxycarbonylation: Synergetic effects stabilize the active site and increase co adsorption, Angewandte Chemie International Edition (2023) e202307570. [41] S. Nordholm G.B. Bacskay The basics of covalent bonding in terms of energy and dynamics Molecules 25 11 2020 2667 S. Nordholm, G. B. Bacskay, The basics of covalent bonding in terms of energy and dynamics, Molecules 25(11) (2020) 2667. [42] N.J. Hill M.D. Bowman B.J. Esselman S.D. Byron J. Kreitinger N.E. Leadbeater Ligand-free Suzuki–Miyaura coupling reactions using an inexpensive aqueous palladium source: a synthetic and computational exercise for the undergraduate organic chemistry laboratory J. Chem. Educ. 91 7 2014 1054 1057 N. J. Hill, M. D. Bowman, B. J. Esselman, S. D. Byron, J. Kreitinger, N. E. Leadbeater, Ligand-free suzuki–miyaura coupling reactions using an inexpensive aqueous palladium source: A synthetic and computational exercise for the undergraduate organic chemistry laboratory, Journal of Chemical Education 91(7) (2014) 1054–1057. [43] M.P. Johansson J. Olsen Torsional barriers and equilibrium angle of biphenyl: reconciling theory with experiment J. Chem. Theory Comput. 4 9 2008 1460 1471 M. P. Johansson, J. Olsen, Torsional barriers and equilibrium angle of biphenyl: reconciling theory with experiment, Journal of Chemical Theory and Computation 4(9) (2008) 1460–1471. [44] A.D. Nishchakova L.G. Bulusheva D.A. Bulushev Supported ni single-atom catalysts: synthesis, structure, and applications in thermocatalytic reactions Catalysts 13 5 2023 845 A. D. Nishchakova, L. G. Bulusheva, D. A. Bulushev, Supported ni single-atom catalysts: Synthesis, structure, and applications in thermocatalytic reactions, Catalysts 13(5) (2023) 845. [45] M.C. D’Alterio È. Casals-Cruañas N.V. Tzouras G. Talarico S.P. Nolan A. Poater Mechanistic aspects of the palladium-catalyzed Suzuki-Miyaura cross-coupling reaction Chem. A Eur. J. 27 54 2021 13481 13493 M. C. D’Alterio, È. Casals-Cruañas, N. V. Tzouras, G. Talarico, S. P. Nolan, A. Poater, Mechanistic aspects of the palladium-catalyzed suzuki-miyaura cross-coupling reaction, Chemistry–A European Journal 27(54) (2021) 13481–13493. [46] Y. Li Y. Luo L. Peng Y. Li B. Zhao W. Wang H. Pang Y. Deng R. Bai Y. Lan Reaction scope and mechanistic insights of nickel-catalyzed migratory Suzuki–Miyaura cross-coupling Nat. Commun. 11 1 2020 417 Y. Li, Y. Luo, L. Peng, Y. Li, B. Zhao, W. Wang, H. Pang, Y. Deng, R. Bai, Y. Lan, et al., Reaction scope and mechanistic insights of nickel-catalyzed migratory suzuki–miyaura cross-coupling, Nature Communications 11(1) (2020) 417. [47] C. Yang L. Zhang C. Lu S. Zhou X. Li Y. Li Y. Yang Y. Li Z. Liu J. Yang Unveiling the full reaction path of the Suzuki–Miyaura cross-coupling in a single-molecule junction Nat. Nanotechnol. 16 11 2021 1214 1223 C. Yang, L. Zhang, C. Lu, S. Zhou, X. Li, Y. Li, Y. Yang, Y. Li, Z. Liu, J. Yang, et al., Unveiling the full reaction path of the suzuki–miyaura cross-coupling in a single-molecule junction, Nature Nanotechnology 16(11) (2021) 1214–1223.",
+      "scopus-id": "85189750675",
+      "coredata": {
+        "eid": "1-s2.0-S2468823124002864",
+        "dc:description": "The present study employed density-functional theory (DFT) calculations to investigate the Suzuki-Miyaura Cross-Coupling reaction using single atom catalysis (SAC) via palladium or nickel. The reaction barriers for chloride bond cleavage in phenyl chloride were found to be 34.68 kJ/mol and 24.24 kJ/mol for palladium and nickel catalysts, respectively. During the transmetalation process, the energy barrier for boronic acid release from phenyl trihydroxyboronate using SAC via palladium and SAC via nickel was calculated to be 74.17 kJ/mol and 65.22 kJ/mol, respectively. The results indicated that in the oxidative addition and transmetalation reactions, the SAC via nickel outperforms the SAC via palladium, while the SAC via palladium excels in the reductive elimination reaction. These findings suggest the effectiveness of a SAC via nickel as a substitute for SAC via palladium in the synthesis of biphenyls in the Suzuki-Miyaura cross-coupling reaction.",
+        "openArchiveArticle": "false",
+        "prism:coverDate": "2024-05-01",
+        "openaccessUserLicense": null,
+        "prism:aggregationType": "Journal",
+        "prism:url": "https://api.elsevier.com/content/article/pii/S2468823124002864",
+        "dc:creator": [
+          {
+            "@_fa": "true",
+            "$": "Jannah, Laila Roikhatul"
+          },
+          {
+            "@_fa": "true",
+            "$": "Sakti, Aditya Wibawa"
+          },
+          {
+            "@_fa": "true",
+            "$": "Martoprawiro, Muhamad Abdulkadir"
+          },
+          {
+            "@_fa": "true",
+            "$": "Sunnardianto, Gagus Ketut"
+          }
+        ],
+        "link": [
+          {
+            "@_fa": "true",
+            "@rel": "self",
+            "@href": "https://api.elsevier.com/content/article/pii/S2468823124002864"
+          },
+          {
+            "@_fa": "true",
+            "@rel": "scidir",
+            "@href": "https://www.sciencedirect.com/science/article/pii/S2468823124002864"
+          }
+        ],
+        "dc:format": "application/json",
+        "openaccessType": null,
+        "pii": "S2468-8231(24)00286-4",
+        "prism:volume": "560",
+        "articleNumber": "114103",
+        "prism:publisher": "Elsevier B.V.",
+        "dc:title": "Exploring the energetics of Suzuki cross-coupling reaction: A computational study of palladium and nickel catalysts",
+        "prism:copyright": "© 2024 Elsevier B.V. All rights reserved.",
+        "openaccess": "0",
+        "prism:issn": "24688231",
+        "dcterms:subject": [
+          {
+            "@_fa": "true",
+            "$": "Suzuki Miyaura cross-coupling"
+          },
+          {
+            "@_fa": "true",
+            "$": "Palladium"
+          },
+          {
+            "@_fa": "true",
+            "$": "Nickel"
+          },
+          {
+            "@_fa": "true",
+            "$": "Phenyl chloride"
+          }
+        ],
+        "openaccessArticle": "false",
+        "prism:publicationName": "Molecular Catalysis",
+        "openaccessSponsorType": null,
+        "prism:pageRange": "114103",
+        "pubType": "fla",
+        "prism:coverDisplayDate": "1 May 2024",
+        "prism:doi": "10.1016/j.mcat.2024.114103",
+        "prism:startingPage": "114103",
+        "dc:identifier": "doi:10.1016/j.mcat.2024.114103",
+        "openaccessSponsorName": null
+      },
+      "objects": {
+        "object": [
+          {
+            "@category": "standard",
+            "@height": "401",
+            "@width": "508",
+            "@_fa": "true",
+            "$": "https://api.elsevier.com/content/object/eid/1-s2.0-S2468823124002864-gr8.jpg?httpAccept=%2A%2F%2A",
+            "@multimediatype": "JPEG image file",
+            "@type": "IMAGE-DOWNSAMPLED",
+            "@size": "61312",
+            "@ref": "gr8",
+            "@mimetype": "image/jpeg"
+          },
+          {
+            "@category": "standard",
+            "@height": "399",
+            "@width": "489",
+            "@_fa": "true",
+            "$": "https://api.elsevier.com/content/object/eid/1-s2.0-S2468823124002864-gr9.jpg?httpAccept=%2A%2F%2A",
+            "@multimediatype": "JPEG image file",
+            "@type": "IMAGE-DOWNSAMPLED",
+            "@size": "60942",
+            "@ref": "gr9",
+            "@mimetype": "image/jpeg"
+          },
+          {
+            "@category": "standard",
+            "@height": "315",
+            "@width": "452",
+            "@_fa": "true",
+            "$": "https://api.elsevier.com/content/object/eid/1-s2.0-S2468823124002864-gr10.jpg?httpAccept=%2A%2F%2A",
+            "@multimediatype": "JPEG image file",
+            "@type": "IMAGE-DOWNSAMPLED",
+            "@size": "35833",
+            "@ref": "gr10",
+            "@mimetype": "image/jpeg"
+          },
+          {
+            "@category": "standard",
+            "@height": "191",
+            "@width": "433",
+            "@_fa": "true",
+            "$": "https://api.elsevier.com/content/object/eid/1-s2.0-S2468823124002864-gr1.jpg?httpAccept=%2A%2F%2A",
+            "@multimediatype": "JPEG image file",
+            "@type": "IMAGE-DOWNSAMPLED",
+            "@size": "9846",
+            "@ref": "gr1",
+            "@mimetype": "image/jpeg"
+          },
+          {
+            "@category": "standard",
+            "@height": "339",
+            "@width": "470",
+            "@_fa": "true",
+            "$": "https://api.elsevier.com/content/object/eid/1-s2.0-S2468823124002864-gr2.jpg?httpAccept=%2A%2F%2A",
+            "@multimediatype": "JPEG image file",
+            "@type": "IMAGE-DOWNSAMPLED",
+            "@size": "41351",
+            "@ref": "gr2",
+            "@mimetype": "image/jpeg"
+          },
+          {
+            "@category": "standard",
+            "@height": "249",
+            "@width": "452",
+            "@_fa": "true",
+            "$": "https://api.elsevier.com/content/object/eid/1-s2.0-S2468823124002864-gr3.jpg?httpAccept=%2A%2F%2A",
+            "@multimediatype": "JPEG image file",
+            "@type": "IMAGE-DOWNSAMPLED",
+            "@size": "21184",
+            "@ref": "gr3",
+            "@mimetype": "image/jpeg"
+          },
+          {
+            "@category": "standard",
+            "@height": "373",
+            "@width": "508",
+            "@_fa": "true",
+            "$": "https://api.elsevier.com/content/object/eid/1-s2.0-S2468823124002864-gr4.jpg?httpAccept=%2A%2F%2A",
+            "@multimediatype": "JPEG image file",
+            "@type": "IMAGE-DOWNSAMPLED",
+            "@size": "53663",
+            "@ref": "gr4",
+            "@mimetype": "image/jpeg"
+          },
+          {
+            "@category": "standard",
+            "@height": "346",
+            "@width": "470",
+            "@_fa": "true",
+            "$": "https://api.elsevier.com/content/object/eid/1-s2.0-S2468823124002864-gr5.jpg?httpAccept=%2A%2F%2A",
+            "@multimediatype": "JPEG image file",
+            "@type": "IMAGE-DOWNSAMPLED",
+            "@size": "45930",
+            "@ref": "gr5",
+            "@mimetype": "image/jpeg"
+          },
+          {
+            "@category": "standard",
+            "@height": "358",
+            "@width": "433",
+            "@_fa": "true",
+            "$": "https://api.elsevier.com/content/object/eid/1-s2.0-S2468823124002864-gr6.jpg?httpAccept=%2A%2F%2A",
+            "@multimediatype": "JPEG image file",
+            "@type": "IMAGE-DOWNSAMPLED",
+            "@size": "44951",
+            "@ref": "gr6",
+            "@mimetype": "image/jpeg"
+          },
+          {
+            "@category": "standard",
+            "@height": "224",
+            "@width": "433",
+            "@_fa": "true",
+            "$": "https://api.elsevier.com/content/object/eid/1-s2.0-S2468823124002864-gr7.jpg?httpAccept=%2A%2F%2A",
+            "@multimediatype": "JPEG image file",
+            "@type": "IMAGE-DOWNSAMPLED",
+            "@size": "17920",
+            "@ref": "gr7",
+            "@mimetype": "image/jpeg"
+          },
+          {
+            "@category": "standard",
+            "@height": "494",
+            "@width": "489",
+            "@_fa": "true",
+            "$": "https://api.elsevier.com/content/object/eid/1-s2.0-S2468823124002864-gr15.jpg?httpAccept=%2A%2F%2A",
+            "@multimediatype": "JPEG image file",
+            "@type": "IMAGE-DOWNSAMPLED",
+            "@size": "54052",
+            "@ref": "gr15",
+            "@mimetype": "image/jpeg"
+          },
+          {
+            "@category": "standard",
+            "@height": "172",
+            "@width": "376",
+            "@_fa": "true",
+            "$": "https://api.elsevier.com/content/object/eid/1-s2.0-S2468823124002864-gr14.jpg?httpAccept=%2A%2F%2A",
+            "@multimediatype": "JPEG image file",
+            "@type": "IMAGE-DOWNSAMPLED",
+            "@size": "10344",
+            "@ref": "gr14",
+            "@mimetype": "image/jpeg"
+          },
+          {
+            "@category": "standard",
+            "@height": "449",
+            "@width": "602",
+            "@_fa": "true",
+            "$": "https://api.elsevier.com/content/object/eid/1-s2.0-S2468823124002864-gr13.jpg?httpAccept=%2A%2F%2A",
+            "@multimediatype": "JPEG image file",
+            "@type": "IMAGE-DOWNSAMPLED",
+            "@size": "72470",
+            "@ref": "gr13",
+            "@mimetype": "image/jpeg"
+          },
+          {
+            "@category": "standard",
+            "@height": "344",
+            "@width": "470",
+            "@_fa": "true",
+            "$": "https://api.elsevier.com/content/object/eid/1-s2.0-S2468823124002864-gr12.jpg?httpAccept=%2A%2F%2A",
+            "@multimediatype": "JPEG image file",
+            "@type": "IMAGE-DOWNSAMPLED",
+            "@size": "52286",
+            "@ref": "gr12",
+            "@mimetype": "image/jpeg"
+          },
+          {
+            "@category": "standard",
+            "@height": "259",
+            "@width": "433",
+            "@_fa": "true",
+            "$": "https://api.elsevier.com/content/object/eid/1-s2.0-S2468823124002864-gr11.jpg?httpAccept=%2A%2F%2A",
+            "@multimediatype": "JPEG image file",
+            "@type": "IMAGE-DOWNSAMPLED",
+            "@size": "19947",
+            "@ref": "gr11",
+            "@mimetype": "image/jpeg"
+          },
+          {
+            "@category": "standard",
+            "@height": "200",
+            "@width": "409",
+            "@_fa": "true",
+            "$": "https://api.elsevier.com/content/object/eid/1-s2.0-S2468823124002864-ga1.jpg?httpAccept=%2A%2F%2A",
+            "@multimediatype": "JPEG image file",
+            "@type": "IMAGE-DOWNSAMPLED",
+            "@size": "29035",
+            "@ref": "ga1",
+            "@mimetype": "image/jpeg"
+          },
+          {
+            "@category": "thumbnail",
+            "@height": "163",
+            "@width": "207",
+            "@_fa": "true",
+            "$": "https://api.elsevier.com/content/object/eid/1-s2.0-S2468823124002864-gr8.sml?httpAccept=%2A%2F%2A",
+            "@multimediatype": "GIF image file",
+            "@type": "IMAGE-THUMBNAIL",
+            "@size": "12757",
+            "@ref": "gr8",
+            "@mimetype": "image/gif"
+          },
+          {
+            "@category": "thumbnail",
+            "@height": "164",
+            "@width": "201",
+            "@_fa": "true",
+            "$": "https://api.elsevier.com/content/object/eid/1-s2.0-S2468823124002864-gr9.sml?httpAccept=%2A%2F%2A",
+            "@multimediatype": "GIF image file",
+            "@type": "IMAGE-THUMBNAIL",
+            "@size": "12950",
+            "@ref": "gr9",
+            "@mimetype": "image/gif"
+          },
+          {
+            "@category": "thumbnail",
+            "@height": "153",
+            "@width": "219",
+            "@_fa": "true",
+            "$": "https://api.elsevier.com/content/object/eid/1-s2.0-S2468823124002864-gr10.sml?httpAccept=%2A%2F%2A",
+            "@multimediatype": "GIF image file",
+            "@type": "IMAGE-THUMBNAIL",
+            "@size": "8883",
+            "@ref": "gr10",
+            "@mimetype": "image/gif"
+          },
+          {
+            "@category": "thumbnail",
+            "@height": "97",
+            "@width": "219",
+            "@_fa": "true",
+            "$": "https://api.elsevier.com/content/object/eid/1-s2.0-S2468823124002864-gr1.sml?httpAccept=%2A%2F%2A",
+            "@multimediatype": "GIF image file",
+            "@type": "IMAGE-THUMBNAIL",
+            "@size": "2925",
+            "@ref": "gr1",
+            "@mimetype": "image/gif"
+          },
+          {
+            "@category": "thumbnail",
+            "@height": "158",
+            "@width": "219",
+            "@_fa": "true",
+            "$": "https://api.elsevier.com/content/object/eid/1-s2.0-S2468823124002864-gr2.sml?httpAccept=%2A%2F%2A",
+            "@multimediatype": "GIF image file",
+            "@type": "IMAGE-THUMBNAIL",
+            "@size": "9656",
+            "@ref": "gr2",
+            "@mimetype": "image/gif"
+          },
+          {
+            "@category": "thumbnail",
+            "@height": "121",
+            "@width": "219",
+            "@_fa": "true",
+            "$": "https://api.elsevier.com/content/object/eid/1-s2.0-S2468823124002864-gr3.sml?httpAccept=%2A%2F%2A",
+            "@multimediatype": "GIF image file",
+            "@type": "IMAGE-THUMBNAIL",
+            "@size": "6386",
+            "@ref": "gr3",
+            "@mimetype": "image/gif"
+          },
+          {
+            "@category": "thumbnail",
+            "@height": "161",
+            "@width": "219",
+            "@_fa": "true",
+            "$": "https://api.elsevier.com/content/object/eid/1-s2.0-S2468823124002864-gr4.sml?httpAccept=%2A%2F%2A",
+            "@multimediatype": "GIF image file",
+            "@type": "IMAGE-THUMBNAIL",
+            "@size": "13471",
+            "@ref": "gr4",
+            "@mimetype": "image/gif"
+          },
+          {
+            "@category": "thumbnail",
+            "@height": "161",
+            "@width": "219",
+            "@_fa": "true",
+            "$": "https://api.elsevier.com/content/object/eid/1-s2.0-S2468823124002864-gr5.sml?httpAccept=%2A%2F%2A",
+            "@multimediatype": "GIF image file",
+            "@type": "IMAGE-THUMBNAIL",
+            "@size": "12488",
+            "@ref": "gr5",
+            "@mimetype": "image/gif"
+          },
+          {
+            "@category": "thumbnail",
+            "@height": "164",
+            "@width": "198",
+            "@_fa": "true",
+            "$": "https://api.elsevier.com/content/object/eid/1-s2.0-S2468823124002864-gr6.sml?httpAccept=%2A%2F%2A",
+            "@multimediatype": "GIF image file",
+            "@type": "IMAGE-THUMBNAIL",
+            "@size": "10167",
+            "@ref": "gr6",
+            "@mimetype": "image/gif"
+          },
+          {
+            "@category": "thumbnail",
+            "@height": "113",
+            "@width": "219",
+            "@_fa": "true",
+            "$": "https://api.elsevier.com/content/object/eid/1-s2.0-S2468823124002864-gr7.sml?httpAccept=%2A%2F%2A",
+            "@multimediatype": "GIF image file",
+            "@type": "IMAGE-THUMBNAIL",
+            "@size": "5804",
+            "@ref": "gr7",
+            "@mimetype": "image/gif"
+          },
+          {
+            "@category": "thumbnail",
+            "@height": "164",
+            "@width": "162",
+            "@_fa": "true",
+            "$": "https://api.elsevier.com/content/object/eid/1-s2.0-S2468823124002864-gr15.sml?httpAccept=%2A%2F%2A",
+            "@multimediatype": "GIF image file",
+            "@type": "IMAGE-THUMBNAIL",
+            "@size": "7808",
+            "@ref": "gr15",
+            "@mimetype": "image/gif"
+          },
+          {
+            "@category": "thumbnail",
+            "@height": "100",
+            "@width": "219",
+            "@_fa": "true",
+            "$": "https://api.elsevier.com/content/object/eid/1-s2.0-S2468823124002864-gr14.sml?httpAccept=%2A%2F%2A",
+            "@multimediatype": "GIF image file",
+            "@type": "IMAGE-THUMBNAIL",
+            "@size": "4521",
+            "@ref": "gr14",
+            "@mimetype": "image/gif"
+          },
+          {
+            "@category": "thumbnail",
+            "@height": "163",
+            "@width": "219",
+            "@_fa": "true",
+            "$": "https://api.elsevier.com/content/object/eid/1-s2.0-S2468823124002864-gr13.sml?httpAccept=%2A%2F%2A",
+            "@multimediatype": "GIF image file",
+            "@type": "IMAGE-THUMBNAIL",
+            "@size": "13590",
+            "@ref": "gr13",
+            "@mimetype": "image/gif"
+          },
+          {
+            "@category": "thumbnail",
+            "@height": "160",
+            "@width": "219",
+            "@_fa": "true",
+            "$": "https://api.elsevier.com/content/object/eid/1-s2.0-S2468823124002864-gr12.sml?httpAccept=%2A%2F%2A",
+            "@multimediatype": "GIF image file",
+            "@type": "IMAGE-THUMBNAIL",
+            "@size": "13838",
+            "@ref": "gr12",
+            "@mimetype": "image/gif"
+          },
+          {
+            "@category": "thumbnail",
+            "@height": "131",
+            "@width": "219",
+            "@_fa": "true",
+            "$": "https://api.elsevier.com/content/object/eid/1-s2.0-S2468823124002864-gr11.sml?httpAccept=%2A%2F%2A",
+            "@multimediatype": "GIF image file",
+            "@type": "IMAGE-THUMBNAIL",
+            "@size": "6513",
+            "@ref": "gr11",
+            "@mimetype": "image/gif"
+          },
+          {
+            "@category": "thumbnail",
+            "@height": "107",
+            "@width": "219",
+            "@_fa": "true",
+            "$": "https://api.elsevier.com/content/object/eid/1-s2.0-S2468823124002864-ga1.sml?httpAccept=%2A%2F%2A",
+            "@multimediatype": "GIF image file",
+            "@type": "IMAGE-THUMBNAIL",
+            "@size": "10180",
+            "@ref": "ga1",
+            "@mimetype": "image/gif"
+          },
+          {
+            "@category": "high",
+            "@height": "1777",
+            "@width": "2250",
+            "@_fa": "true",
+            "$": "https://api.elsevier.com/content/object/eid/1-s2.0-S2468823124002864-gr8_lrg.jpg?httpAccept=%2A%2F%2A",
+            "@multimediatype": "JPEG image file",
+            "@type": "IMAGE-HIGH-RES",
+            "@size": "415567",
+            "@ref": "gr8",
+            "@mimetype": "image/jpeg"
+          },
+          {
+            "@category": "high",
+            "@height": "1769",
+            "@width": "2167",
+            "@_fa": "true",
+            "$": "https://api.elsevier.com/content/object/eid/1-s2.0-S2468823124002864-gr9_lrg.jpg?httpAccept=%2A%2F%2A",
+            "@multimediatype": "JPEG image file",
+            "@type": "IMAGE-HIGH-RES",
+            "@size": "408220",
+            "@ref": "gr9",
+            "@mimetype": "image/jpeg"
+          },
+          {
+            "@category": "high",
+            "@height": "1395",
+            "@width": "2000",
+            "@_fa": "true",
+            "$": "https://api.elsevier.com/content/object/eid/1-s2.0-S2468823124002864-gr10_lrg.jpg?httpAccept=%2A%2F%2A",
+            "@multimediatype": "JPEG image file",
+            "@type": "IMAGE-HIGH-RES",
+            "@size": "260894",
+            "@ref": "gr10",
+            "@mimetype": "image/jpeg"
+          },
+          {
+            "@category": "high",
+            "@height": "847",
+            "@width": "1917",
+            "@_fa": "true",
+            "$": "https://api.elsevier.com/content/object/eid/1-s2.0-S2468823124002864-gr1_lrg.jpg?httpAccept=%2A%2F%2A",
+            "@multimediatype": "JPEG image file",
+            "@type": "IMAGE-HIGH-RES",
+            "@size": "73495",
+            "@ref": "gr1",
+            "@mimetype": "image/jpeg"
+          },
+          {
+            "@category": "high",
+            "@height": "1503",
+            "@width": "2083",
+            "@_fa": "true",
+            "$": "https://api.elsevier.com/content/object/eid/1-s2.0-S2468823124002864-gr2_lrg.jpg?httpAccept=%2A%2F%2A",
+            "@multimediatype": "JPEG image file",
+            "@type": "IMAGE-HIGH-RES",
+            "@size": "294529",
+            "@ref": "gr2",
+            "@mimetype": "image/jpeg"
+          },
+          {
+            "@category": "high",
+            "@height": "1102",
+            "@width": "2000",
+            "@_fa": "true",
+            "$": "https://api.elsevier.com/content/object/eid/1-s2.0-S2468823124002864-gr3_lrg.jpg?httpAccept=%2A%2F%2A",
+            "@multimediatype": "JPEG image file",
+            "@type": "IMAGE-HIGH-RES",
+            "@size": "118312",
+            "@ref": "gr3",
+            "@mimetype": "image/jpeg"
+          },
+          {
+            "@category": "high",
+            "@height": "1651",
+            "@width": "2250",
+            "@_fa": "true",
+            "$": "https://api.elsevier.com/content/object/eid/1-s2.0-S2468823124002864-gr4_lrg.jpg?httpAccept=%2A%2F%2A",
+            "@multimediatype": "JPEG image file",
+            "@type": "IMAGE-HIGH-RES",
+            "@size": "358711",
+            "@ref": "gr4",
+            "@mimetype": "image/jpeg"
+          },
+          {
+            "@category": "high",
+            "@height": "1535",
+            "@width": "2083",
+            "@_fa": "true",
+            "$": "https://api.elsevier.com/content/object/eid/1-s2.0-S2468823124002864-gr5_lrg.jpg?httpAccept=%2A%2F%2A",
+            "@multimediatype": "JPEG image file",
+            "@type": "IMAGE-HIGH-RES",
+            "@size": "313587",
+            "@ref": "gr5",
+            "@mimetype": "image/jpeg"
+          },
+          {
+            "@category": "high",
+            "@height": "1587",
+            "@width": "1917",
+            "@_fa": "true",
+            "$": "https://api.elsevier.com/content/object/eid/1-s2.0-S2468823124002864-gr6_lrg.jpg?httpAccept=%2A%2F%2A",
+            "@multimediatype": "JPEG image file",
+            "@type": "IMAGE-HIGH-RES",
+            "@size": "332585",
+            "@ref": "gr6",
+            "@mimetype": "image/jpeg"
+          },
+          {
+            "@category": "high",
+            "@height": "991",
+            "@width": "1917",
+            "@_fa": "true",
+            "$": "https://api.elsevier.com/content/object/eid/1-s2.0-S2468823124002864-gr7_lrg.jpg?httpAccept=%2A%2F%2A",
+            "@multimediatype": "JPEG image file",
+            "@type": "IMAGE-HIGH-RES",
+            "@size": "99444",
+            "@ref": "gr7",
+            "@mimetype": "image/jpeg"
+          },
+          {
+            "@category": "high",
+            "@height": "2189",
+            "@width": "2167",
+            "@_fa": "true",
+            "$": "https://api.elsevier.com/content/object/eid/1-s2.0-S2468823124002864-gr15_lrg.jpg?httpAccept=%2A%2F%2A",
+            "@multimediatype": "JPEG image file",
+            "@type": "IMAGE-HIGH-RES",
+            "@size": "355546",
+            "@ref": "gr15",
+            "@mimetype": "image/jpeg"
+          },
+          {
+            "@category": "high",
+            "@height": "761",
+            "@width": "1667",
+            "@_fa": "true",
+            "$": "https://api.elsevier.com/content/object/eid/1-s2.0-S2468823124002864-gr14_lrg.jpg?httpAccept=%2A%2F%2A",
+            "@multimediatype": "JPEG image file",
+            "@type": "IMAGE-HIGH-RES",
+            "@size": "70209",
+            "@ref": "gr14",
+            "@mimetype": "image/jpeg"
+          },
+          {
+            "@category": "high",
+            "@height": "1987",
+            "@width": "2667",
+            "@_fa": "true",
+            "$": "https://api.elsevier.com/content/object/eid/1-s2.0-S2468823124002864-gr13_lrg.jpg?httpAccept=%2A%2F%2A",
+            "@multimediatype": "JPEG image file",
+            "@type": "IMAGE-HIGH-RES",
+            "@size": "479271",
+            "@ref": "gr13",
+            "@mimetype": "image/jpeg"
+          },
+          {
+            "@category": "high",
+            "@height": "1525",
+            "@width": "2083",
+            "@_fa": "true",
+            "$": "https://api.elsevier.com/content/object/eid/1-s2.0-S2468823124002864-gr12_lrg.jpg?httpAccept=%2A%2F%2A",
+            "@multimediatype": "JPEG image file",
+            "@type": "IMAGE-HIGH-RES",
+            "@size": "360607",
+            "@ref": "gr12",
+            "@mimetype": "image/jpeg"
+          },
+          {
+            "@category": "high",
+            "@height": "1148",
+            "@width": "1917",
+            "@_fa": "true",
+            "$": "https://api.elsevier.com/content/object/eid/1-s2.0-S2468823124002864-gr11_lrg.jpg?httpAccept=%2A%2F%2A",
+            "@multimediatype": "JPEG image file",
+            "@type": "IMAGE-HIGH-RES",
+            "@size": "118871",
+            "@ref": "gr11",
+            "@mimetype": "image/jpeg"
+          },
+          {
+            "@category": "high",
+            "@height": "886",
+            "@width": "1812",
+            "@_fa": "true",
+            "$": "https://api.elsevier.com/content/object/eid/1-s2.0-S2468823124002864-ga1_lrg.jpg?httpAccept=%2A%2F%2A",
+            "@multimediatype": "JPEG image file",
+            "@type": "IMAGE-HIGH-RES",
+            "@size": "185758",
+            "@ref": "ga1",
+            "@mimetype": "image/jpeg"
+          },
+          {
+            "@category": "thumbnail",
+            "@_fa": "true",
+            "$": "https://api.elsevier.com/content/object/eid/1-s2.0-S2468823124002864-si1.svg?httpAccept=%2A%2F%2A",
+            "@multimediatype": "Scalable Vector Graphics file",
+            "@type": "ALTIMG",
+            "@size": "1290",
+            "@ref": "si1",
+            "@mimetype": "image/svg+xml"
+          },
+          {
+            "@category": "thumbnail",
+            "@_fa": "true",
+            "$": "https://api.elsevier.com/content/object/eid/1-s2.0-S2468823124002864-si10.svg?httpAccept=%2A%2F%2A",
+            "@multimediatype": "Scalable Vector Graphics file",
+            "@type": "ALTIMG",
+            "@size": "2593",
+            "@ref": "si10",
+            "@mimetype": "image/svg+xml"
+          },
+          {
+            "@category": "thumbnail",
+            "@_fa": "true",
+            "$": "https://api.elsevier.com/content/object/eid/1-s2.0-S2468823124002864-si11.svg?httpAccept=%2A%2F%2A",
+            "@multimediatype": "Scalable Vector Graphics file",
+            "@type": "ALTIMG",
+            "@size": "2928",
+            "@ref": "si11",
+            "@mimetype": "image/svg+xml"
+          },
+          {
+            "@category": "thumbnail",
+            "@_fa": "true",
+            "$": "https://api.elsevier.com/content/object/eid/1-s2.0-S2468823124002864-si12.svg?httpAccept=%2A%2F%2A",
+            "@multimediatype": "Scalable Vector Graphics file",
+            "@type": "ALTIMG",
+            "@size": "2613",
+            "@ref": "si12",
+            "@mimetype": "image/svg+xml"
+          },
+          {
+            "@category": "thumbnail",
+            "@_fa": "true",
+            "$": "https://api.elsevier.com/content/object/eid/1-s2.0-S2468823124002864-si13.svg?httpAccept=%2A%2F%2A",
+            "@multimediatype": "Scalable Vector Graphics file",
+            "@type": "ALTIMG",
+            "@size": "2450",
+            "@ref": "si13",
+            "@mimetype": "image/svg+xml"
+          },
+          {
+            "@category": "thumbnail",
+            "@_fa": "true",
+            "$": "https://api.elsevier.com/content/object/eid/1-s2.0-S2468823124002864-si14.svg?httpAccept=%2A%2F%2A",
+            "@multimediatype": "Scalable Vector Graphics file",
+            "@type": "ALTIMG",
+            "@size": "2903",
+            "@ref": "si14",
+            "@mimetype": "image/svg+xml"
+          },
+          {
+            "@category": "thumbnail",
+            "@_fa": "true",
+            "$": "https://api.elsevier.com/content/object/eid/1-s2.0-S2468823124002864-si15.svg?httpAccept=%2A%2F%2A",
+            "@multimediatype": "Scalable Vector Graphics file",
+            "@type": "ALTIMG",
+            "@size": "2461",
+            "@ref": "si15",
+            "@mimetype": "image/svg+xml"
+          },
+          {
+            "@category": "thumbnail",
+            "@_fa": "true",
+            "$": "https://api.elsevier.com/content/object/eid/1-s2.0-S2468823124002864-si16.svg?httpAccept=%2A%2F%2A",
+            "@multimediatype": "Scalable Vector Graphics file",
+            "@type": "ALTIMG",
+            "@size": "3063",
+            "@ref": "si16",
+            "@mimetype": "image/svg+xml"
+          },
+          {
+            "@category": "thumbnail",
+            "@_fa": "true",
+            "$": "https://api.elsevier.com/content/object/eid/1-s2.0-S2468823124002864-si17.svg?httpAccept=%2A%2F%2A",
+            "@multimediatype": "Scalable Vector Graphics file",
+            "@type": "ALTIMG",
+            "@size": "3247",
+            "@ref": "si17",
+            "@mimetype": "image/svg+xml"
+          },
+          {
+            "@category": "thumbnail",
+            "@_fa": "true",
+            "$": "https://api.elsevier.com/content/object/eid/1-s2.0-S2468823124002864-si18.svg?httpAccept=%2A%2F%2A",
+            "@multimediatype": "Scalable Vector Graphics file",
+            "@type": "ALTIMG",
+            "@size": "2091",
+            "@ref": "si18",
+            "@mimetype": "image/svg+xml"
+          },
+          {
+            "@category": "thumbnail",
+            "@_fa": "true",
+            "$": "https://api.elsevier.com/content/object/eid/1-s2.0-S2468823124002864-si19.svg?httpAccept=%2A%2F%2A",
+            "@multimediatype": "Scalable Vector Graphics file",
+            "@type": "ALTIMG",
+            "@size": "3407",
+            "@ref": "si19",
+            "@mimetype": "image/svg+xml"
+          },
+          {
+            "@category": "thumbnail",
+            "@_fa": "true",
+            "$": "https://api.elsevier.com/content/object/eid/1-s2.0-S2468823124002864-si2.svg?httpAccept=%2A%2F%2A",
+            "@multimediatype": "Scalable Vector Graphics file",
+            "@type": "ALTIMG",
+            "@size": "1161",
+            "@ref": "si2",
+            "@mimetype": "image/svg+xml"
+          },
+          {
+            "@category": "thumbnail",
+            "@_fa": "true",
+            "$": "https://api.elsevier.com/content/object/eid/1-s2.0-S2468823124002864-si20.svg?httpAccept=%2A%2F%2A",
+            "@multimediatype": "Scalable Vector Graphics file",
+            "@type": "ALTIMG",
+            "@size": "3131",
+            "@ref": "si20",
+            "@mimetype": "image/svg+xml"
+          },
+          {
+            "@category": "thumbnail",
+            "@_fa": "true",
+            "$": "https://api.elsevier.com/content/object/eid/1-s2.0-S2468823124002864-si21.svg?httpAccept=%2A%2F%2A",
+            "@multimediatype": "Scalable Vector Graphics file",
+            "@type": "ALTIMG",
+            "@size": "2813",
+            "@ref": "si21",
+            "@mimetype": "image/svg+xml"
+          },
+          {
+            "@category": "thumbnail",
+            "@_fa": "true",
+            "$": "https://api.elsevier.com/content/object/eid/1-s2.0-S2468823124002864-si22.svg?httpAccept=%2A%2F%2A",
+            "@multimediatype": "Scalable Vector Graphics file",
+            "@type": "ALTIMG",
+            "@size": "2423",
+            "@ref": "si22",
+            "@mimetype": "image/svg+xml"
+          },
+          {
+            "@category": "thumbnail",
+            "@_fa": "true",
+            "$": "https://api.elsevier.com/content/object/eid/1-s2.0-S2468823124002864-si23.svg?httpAccept=%2A%2F%2A",
+            "@multimediatype": "Scalable Vector Graphics file",
+            "@type": "ALTIMG",
+            "@size": "2145",
+            "@ref": "si23",
+            "@mimetype": "image/svg+xml"
+          },
+          {
+            "@category": "thumbnail",
+            "@_fa": "true",
+            "$": "https://api.elsevier.com/content/object/eid/1-s2.0-S2468823124002864-si24.svg?httpAccept=%2A%2F%2A",
+            "@multimediatype": "Scalable Vector Graphics file",
+            "@type": "ALTIMG",
+            "@size": "3068",
+            "@ref": "si24",
+            "@mimetype": "image/svg+xml"
+          },
+          {
+            "@category": "thumbnail",
+            "@_fa": "true",
+            "$": "https://api.elsevier.com/content/object/eid/1-s2.0-S2468823124002864-si25.svg?httpAccept=%2A%2F%2A",
+            "@multimediatype": "Scalable Vector Graphics file",
+            "@type": "ALTIMG",
+            "@size": "2812",
+            "@ref": "si25",
+            "@mimetype": "image/svg+xml"
+          },
+          {
+            "@category": "thumbnail",
+            "@_fa": "true",
+            "$": "https://api.elsevier.com/content/object/eid/1-s2.0-S2468823124002864-si26.svg?httpAccept=%2A%2F%2A",
+            "@multimediatype": "Scalable Vector Graphics file",
+            "@type": "ALTIMG",
+            "@size": "2264",
+            "@ref": "si26",
+            "@mimetype": "image/svg+xml"
+          },
+          {
+            "@category": "thumbnail",
+            "@_fa": "true",
+            "$": "https://api.elsevier.com/content/object/eid/1-s2.0-S2468823124002864-si27.svg?httpAccept=%2A%2F%2A",
+            "@multimediatype": "Scalable Vector Graphics file",
+            "@type": "ALTIMG",
+            "@size": "3360",
+            "@ref": "si27",
+            "@mimetype": "image/svg+xml"
+          },
+          {
+            "@category": "thumbnail",
+            "@_fa": "true",
+            "$": "https://api.elsevier.com/content/object/eid/1-s2.0-S2468823124002864-si28.svg?httpAccept=%2A%2F%2A",
+            "@multimediatype": "Scalable Vector Graphics file",
+            "@type": "ALTIMG",
+            "@size": "2151",
+            "@ref": "si28",
+            "@mimetype": "image/svg+xml"
+          },
+          {
+            "@category": "thumbnail",
+            "@_fa": "true",
+            "$": "https://api.elsevier.com/content/object/eid/1-s2.0-S2468823124002864-si29.svg?httpAccept=%2A%2F%2A",
+            "@multimediatype": "Scalable Vector Graphics file",
+            "@type": "ALTIMG",
+            "@size": "2825",
+            "@ref": "si29",
+            "@mimetype": "image/svg+xml"
+          },
+          {
+            "@category": "thumbnail",
+            "@_fa": "true",
+            "$": "https://api.elsevier.com/content/object/eid/1-s2.0-S2468823124002864-si3.svg?httpAccept=%2A%2F%2A",
+            "@multimediatype": "Scalable Vector Graphics file",
+            "@type": "ALTIMG",
+            "@size": "644",
+            "@ref": "si3",
+            "@mimetype": "image/svg+xml"
+          },
+          {
+            "@category": "thumbnail",
+            "@_fa": "true",
+            "$": "https://api.elsevier.com/content/object/eid/1-s2.0-S2468823124002864-si30.svg?httpAccept=%2A%2F%2A",
+            "@multimediatype": "Scalable Vector Graphics file",
+            "@type": "ALTIMG",
+            "@size": "3011",
+            "@ref": "si30",
+            "@mimetype": "image/svg+xml"
+          },
+          {
+            "@category": "thumbnail",
+            "@_fa": "true",
+            "$": "https://api.elsevier.com/content/object/eid/1-s2.0-S2468823124002864-si31.svg?httpAccept=%2A%2F%2A",
+            "@multimediatype": "Scalable Vector Graphics file",
+            "@type": "ALTIMG",
+            "@size": "2402",
+            "@ref": "si31",
+            "@mimetype": "image/svg+xml"
+          },
+          {
+            "@category": "thumbnail",
+            "@_fa": "true",
+            "$": "https://api.elsevier.com/content/object/eid/1-s2.0-S2468823124002864-si32.svg?httpAccept=%2A%2F%2A",
+            "@multimediatype": "Scalable Vector Graphics file",
+            "@type": "ALTIMG",
+            "@size": "3363",
+            "@ref": "si32",
+            "@mimetype": "image/svg+xml"
+          },
+          {
+            "@category": "thumbnail",
+            "@_fa": "true",
+            "$": "https://api.elsevier.com/content/object/eid/1-s2.0-S2468823124002864-si33.svg?httpAccept=%2A%2F%2A",
+            "@multimediatype": "Scalable Vector Graphics file",
+            "@type": "ALTIMG",
+            "@size": "3311",
+            "@ref": "si33",
+            "@mimetype": "image/svg+xml"
+          },
+          {
+            "@category": "thumbnail",
+            "@_fa": "true",
+            "$": "https://api.elsevier.com/content/object/eid/1-s2.0-S2468823124002864-si34.svg?httpAccept=%2A%2F%2A",
+            "@multimediatype": "Scalable Vector Graphics file",
+            "@type": "ALTIMG",
+            "@size": "3062",
+            "@ref": "si34",
+            "@mimetype": "image/svg+xml"
+          },
+          {
+            "@category": "thumbnail",
+            "@_fa": "true",
+            "$": "https://api.elsevier.com/content/object/eid/1-s2.0-S2468823124002864-si35.svg?httpAccept=%2A%2F%2A",
+            "@multimediatype": "Scalable Vector Graphics file",
+            "@type": "ALTIMG",
+            "@size": "1173",
+            "@ref": "si35",
+            "@mimetype": "image/svg+xml"
+          },
+          {
+            "@category": "thumbnail",
+            "@_fa": "true",
+            "$": "https://api.elsevier.com/content/object/eid/1-s2.0-S2468823124002864-si36.svg?httpAccept=%2A%2F%2A",
+            "@multimediatype": "Scalable Vector Graphics file",
+            "@type": "ALTIMG",
+            "@size": "794",
+            "@ref": "si36",
+            "@mimetype": "image/svg+xml"
+          },
+          {
+            "@category": "thumbnail",
+            "@_fa": "true",
+            "$": "https://api.elsevier.com/content/object/eid/1-s2.0-S2468823124002864-si37.svg?httpAccept=%2A%2F%2A",
+            "@multimediatype": "Scalable Vector Graphics file",
+            "@type": "ALTIMG",
+            "@size": "1253",
+            "@ref": "si37",
+            "@mimetype": "image/svg+xml"
+          },
+          {
+            "@category": "thumbnail",
+            "@_fa": "true",
+            "$": "https://api.elsevier.com/content/object/eid/1-s2.0-S2468823124002864-si38.svg?httpAccept=%2A%2F%2A",
+            "@multimediatype": "Scalable Vector Graphics file",
+            "@type": "ALTIMG",
+            "@size": "858",
+            "@ref": "si38",
+            "@mimetype": "image/svg+xml"
+          },
+          {
+            "@category": "thumbnail",
+            "@_fa": "true",
+            "$": "https://api.elsevier.com/content/object/eid/1-s2.0-S2468823124002864-si39.svg?httpAccept=%2A%2F%2A",
+            "@multimediatype": "Scalable Vector Graphics file",
+            "@type": "ALTIMG",
+            "@size": "1412",
+            "@ref": "si39",
+            "@mimetype": "image/svg+xml"
+          },
+          {
+            "@category": "thumbnail",
+            "@_fa": "true",
+            "$": "https://api.elsevier.com/content/object/eid/1-s2.0-S2468823124002864-si4.svg?httpAccept=%2A%2F%2A",
+            "@multimediatype": "Scalable Vector Graphics file",
+            "@type": "ALTIMG",
+            "@size": "858",
+            "@ref": "si4",
+            "@mimetype": "image/svg+xml"
+          },
+          {
+            "@category": "thumbnail",
+            "@_fa": "true",
+            "$": "https://api.elsevier.com/content/object/eid/1-s2.0-S2468823124002864-si5.svg?httpAccept=%2A%2F%2A",
+            "@multimediatype": "Scalable Vector Graphics file",
+            "@type": "ALTIMG",
+            "@size": "5007",
+            "@ref": "si5",
+            "@mimetype": "image/svg+xml"
+          },
+          {
+            "@category": "thumbnail",
+            "@_fa": "true",
+            "$": "https://api.elsevier.com/content/object/eid/1-s2.0-S2468823124002864-si6.svg?httpAccept=%2A%2F%2A",
+            "@multimediatype": "Scalable Vector Graphics file",
+            "@type": "ALTIMG",
+            "@size": "1227",
+            "@ref": "si6",
+            "@mimetype": "image/svg+xml"
+          },
+          {
+            "@category": "thumbnail",
+            "@_fa": "true",
+            "$": "https://api.elsevier.com/content/object/eid/1-s2.0-S2468823124002864-si7.svg?httpAccept=%2A%2F%2A",
+            "@multimediatype": "Scalable Vector Graphics file",
+            "@type": "ALTIMG",
+            "@size": "1378",
+            "@ref": "si7",
+            "@mimetype": "image/svg+xml"
+          },
+          {
+            "@category": "thumbnail",
+            "@_fa": "true",
+            "$": "https://api.elsevier.com/content/object/eid/1-s2.0-S2468823124002864-si8.svg?httpAccept=%2A%2F%2A",
+            "@multimediatype": "Scalable Vector Graphics file",
+            "@type": "ALTIMG",
+            "@size": "3027",
+            "@ref": "si8",
+            "@mimetype": "image/svg+xml"
+          },
+          {
+            "@category": "thumbnail",
+            "@_fa": "true",
+            "$": "https://api.elsevier.com/content/object/eid/1-s2.0-S2468823124002864-si9.svg?httpAccept=%2A%2F%2A",
+            "@multimediatype": "Scalable Vector Graphics file",
+            "@type": "ALTIMG",
+            "@size": "2433",
+            "@ref": "si9",
+            "@mimetype": "image/svg+xml"
+          },
+          {
+            "@category": "standard",
+            "@_fa": "true",
+            "$": "https://api.elsevier.com/content/object/eid/1-s2.0-S2468823124002864-am.pdf?httpAccept=%2A%2F%2A",
+            "@multimediatype": "Acrobat PDF file",
+            "@type": "AAM-PDF",
+            "@size": "10362308",
+            "@ref": "am",
+            "@mimetype": "application/pdf"
+          }
+        ]
+      },
+      "link": {
+        "@rel": "abstract",
+        "@href": "https://api.elsevier.com/content/abstract/scopus_id/85189750675"
+      }
+    }
+  }
+}

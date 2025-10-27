@@ -1,0 +1,602 @@
+{
+  "metadata": {
+    "title": "First-principles microkinetic simulations revealing the driving effect of zeolite in bifunctional catalysts for the conversion of syngas to olefins",
+    "authors": "; ; ",
+    "journal": "Chinese Journal of Catalysis",
+    "date": "2025-06-30",
+    "doi": "10.1016/S1872-2067(25)64682-1",
+    "abstract": "",
+    "uri": "https://api.elsevier.com/content/article/pii/S1872206725646821",
+    "pii": "S1872206725646821"
+  },
+  "fulltext": {
+    "full-text-retrieval-response": {
+      "scopus-eid": "2-s2.0-105009692968",
+      "originalText": "serial JL 273538 291210 291744 291809 31 Chinese Journal of Catalysis CHINESEJOURNALCATALYSIS 2025-07-07 2025-07-07 2025-07-07 2025-07-07 2025-07-07T19:56:23 1-s2.0-S1872206725646821 S1872-2067(25)64682-1 S1872206725646821 10.1016/S1872-2067(25)64682-1 S300 S300.1 FULL-TEXT 1-s2.0-S1872206725X00073 2025-07-16T20:48:29.745485Z 0 0 20250601 20250630 2025 2025-07-07T20:17:41.397925Z absattachment articleinfo articletitlenorm authfirstinitialnorm authfirstsurnamenorm cid cids contenttype copyright crossmark dateloaded dateloadedtxt datesearch datesort dateupdated dco docsubtype doctype doi eid ewtransactionid hubeid indexeddate issn issnnorm itemstage itemtransactionid itemweight openaccess openarchive pg pgfirst pglast pii piinorm pubdateend pubdatestart pubdatetxt pubyr sortorder srctitle srctitlenorm srctype ssids alllist content subj subheadings suppl tomb volfirst volissue volumelist webpdf webpdfpagecount yearnav figure e-component body mmlmath acknowledge affil appendices articletitle auth authfirstini authfull authkeywords authlast grantnumber grantsponsor primabst pubtype ref specialabst 1872-2067 18722067 true 73 73 C Volume 73 16 222 233 222 233 202506 June 2025 2025-06-01 2025-06-30 2025 article fla Copyright © 2025 Dalian Institute of Chemical Physics, the Chinese Academy of Sciences. Published by Elsevier B.V. All rights are reserved, including those for text and data mining, AI training, and similar technologies. FIRSTPRINCIPLESMICROKINETICSIMULATIONSREVEALINGDRIVINGEFFECTZEOLITEINBIFUNCTIONALCATALYSTSFORCONVERSIONSYNGASOLEFINS HU W 1 Introduction 2 Computational details 2.1 Density functional theory (DFT) calculations 2.2 Microkinetic simulations 3 Results and discussion 3.1 Side reaction pathways on ZnAl2O4(111) surface 3.1.1 Formation of methane and DME 3.1.2 WGS reaction 3.1.3 Hydrogenation of light olefins 3.1.3.1 Hydrogenation of ethene 3.1.3.2 Hydrogenation of propene 3.1.3.3 Hydrogenation of butenes 3.2 Microkinetic simulations of direct syngas conversion 3.2.1 Microkinetic simulations on ZnAl2O4(111) surface without zeolite 3.2.2 Microkinetic simulations on ZnAl2O4/zeolite bifunctional catalyst 4 Conclusions Electronic supporting information Acknowledgments Supplementary Material References PAN 2021 6588 6609 X ZHOU 2019 3193 3228 W KASIPANDI 2019 1803390 S JIAO 2016 1065 1068 F CHENG 2016 4725 4728 K SU 2019 1297 J JIAO 2023 727 730 F TIAN 2015 1922 1938 P TORRESGALVIS 2013 2130 2149 H ZHONG 2016 84 87 L WANG 2016 6644 6649 C NI 2018 1026 1032 Y ZHOU 2018 12012 12016 W KIRILIN 2017 13392 13401 A CHENG 2017 334 347 K RAVEENDRA 2018 3527 3538 G NIESKENS 2018 691 700 D LIU 2021 573 576 Z LI 2022 2472 N LIU 2021 896 907 C SU 2021 100290 J SU 2023 2472 2481 J WANG 2021 2197 2205 M LING 2022 2017 2025 Y LIU 2018 4708 4718 X MA 2019 671 677 S LAI 2021 12977 12988 Z FU 2021 12264 12273 X CHEN 2021 835 843 Z HU 2021 151064 W HU 2022 655 663 W HAN 2023 15074 15086 Y HAN 2023 5104 5113 Y KE 2024 3728 3738 J WEBER 2024 4799 4842 J DING 2021 9729 9737 Y WANG 2021 17735 17743 Y WANG 2024 112856 C OLSBYE 2012 5810 5831 U VANSPEYBROECK 2014 7326 7357 V WANG 2013 8 19 C WANG 2018 1272 1279 C KE 2023 8642 8661 J BAHMANPOUR 2019 6243 6251 A WANG 2020 2046 2059 S SONG 2017 7610 7622 H LI 2019 141 147 G SANTOS 2020 108 120 V WANG 2021 85 92 M HAN 2024 9812 9828 X LIU 2020 8303 8314 X HAN 2023 721 738 Q YE 2021 10014 10019 A ZHANG 2021 119700 X WANG 2024 14528 14538 M PERDEW 1996 3865 3868 J KRESSE 1996 11169 11186 G GRIMME 2011 1456 1465 S KRESSE 1999 1758 1775 G BLOCHL 1994 17953 17979 P ONEILL 1994 541 555 H HENKELMAN 1999 7010 7022 G DU 2021 2031 2046 Y MEDFORD 2015 794 807 A CHEN 2021 379 391 J WANG 2014 1516 1521 C WANG 2019 2245 2252 C BAI 2024 34909 34915 B HUX2025X222 HUX2025X222X233 HUX2025X222XW HUX2025X222X233XW 2027-07-07T00:00:00.000Z 2027-07-07T00:00:00.000Z http://creativecommons.org/licenses/by-nc-nd/4.0/ 2025-07-09T00:13:19.354Z http://vtw.elsevier.com/data/voc/AddOnTypes/50.7/aggregated-refined National Key Research and Development Program of China 2022YFA1503503 2024YFA1509901 NKRDPC National Key Research and Development Program of China http://data.elsevier.com/vocabulary/SciValFunders/501100012166 http://sws.geonames.org/1814991/ National Natural Science Foundation of China U22B6011 22293025 92045303 22402236 NNSF National Natural Science Foundation of China http://data.elsevier.com/vocabulary/SciValFunders/501100001809 http://sws.geonames.org/1814991/ This work was supported by the National Natural Science Foundation of China (22402236, 22293025, 92045303, U22B6011), the National Key Research and Development Program of China (2024YFA1509901, 2022YFA1503503). item S1872-2067(25)64682-1 S1872206725646821 1-s2.0-S1872206725646821 10.1016/S1872-2067(25)64682-1 273538 2025-07-07T19:17:41.397925Z 2025-06-01 2025-06-30 1-s2.0-S1872206725646821-main.pdf https://s3-eu-west-1.amazonaws.com/prod-ucs-content-store-eu-west/content/pii:S1872206725646821/MAIN/application/pdf/662bb30a0dcee1e8e9ed5842125bed02/main.pdf main.pdf pdf true 2400283 MAIN 12 1-s2.0-S1872206725646821-main_1.png https://s3-eu-west-1.amazonaws.com/prod-ucs-content-store-eu-west/content/pii:S1872206725646821/PREVIEW/image/png/7f58839be58e3fde15a4d5bb22097698/main_1.png main_1.png png 60294 928 656 IMAGE-WEB-PDF 1 1-s2.0-S1872206725646821-fx1.jpg https://s3-eu-west-1.amazonaws.com/prod-ucs-content-store-eu-west/content/pii:S1872206725646821/fx1/DOWNSAMPLED/image/jpeg/063f7cde35be9f46aa1ad88c3673d7e9/fx1.jpg fx1 true fx1.jpg jpg 35668 155 301 IMAGE-DOWNSAMPLED 1-s2.0-S1872206725646821-gr1.jpg https://s3-eu-west-1.amazonaws.com/prod-ucs-content-store-eu-west/content/pii:S1872206725646821/gr1/DOWNSAMPLED/image/jpeg/ffc160cba07e107b260a56d330e28a06/gr1.jpg gr1 gr1.jpg jpg 28716 221 374 IMAGE-DOWNSAMPLED 1-s2.0-S1872206725646821-gr10.jpg https://s3-eu-west-1.amazonaws.com/prod-ucs-content-store-eu-west/content/pii:S1872206725646821/gr10/DOWNSAMPLED/image/jpeg/dd0e2b2bf16f28858f58cda4cba0feb3/gr10.jpg gr10 gr10.jpg jpg 38410 368 309 IMAGE-DOWNSAMPLED 1-s2.0-S1872206725646821-gr11.jpg https://s3-eu-west-1.amazonaws.com/prod-ucs-content-store-eu-west/content/pii:S1872206725646821/gr11/DOWNSAMPLED/image/jpeg/d8259f6c53f63377f0285913369ea962/gr11.jpg gr11 gr11.jpg jpg 19203 127 374 IMAGE-DOWNSAMPLED 1-s2.0-S1872206725646821-gr12.jpg https://s3-eu-west-1.amazonaws.com/prod-ucs-content-store-eu-west/content/pii:S1872206725646821/gr12/DOWNSAMPLED/image/jpeg/c6d45b86fa9b5f37ca9717a6ece0c035/gr12.jpg gr12 gr12.jpg jpg 45661 288 665 IMAGE-DOWNSAMPLED 1-s2.0-S1872206725646821-gr2.jpg https://s3-eu-west-1.amazonaws.com/prod-ucs-content-store-eu-west/content/pii:S1872206725646821/gr2/THUMBNAIL/image/jpeg/22ef8913cd2f374c4766388eae81a031/gr2.jpg gr2 gr2.jpg jpg 59605 259 655 IMAGE-DOWNSAMPLED 1-s2.0-S1872206725646821-gr3.jpg https://s3-eu-west-1.amazonaws.com/prod-ucs-content-store-eu-west/content/pii:S1872206725646821/gr3/MAIN/image/jpeg/6de964dac609c459c9079b96100510f2/gr3.jpg gr3 gr3.jpg jpg 77822 314 553 IMAGE-DOWNSAMPLED 1-s2.0-S1872206725646821-gr4.jpg https://s3-eu-west-1.amazonaws.com/prod-ucs-content-store-eu-west/content/pii:S1872206725646821/gr4/DOWNSAMPLED/image/jpeg/5f0a4561c4321688b532cacac264356e/gr4.jpg gr4 gr4.jpg jpg 67115 282 438 IMAGE-DOWNSAMPLED 1-s2.0-S1872206725646821-gr5.jpg https://s3-eu-west-1.amazonaws.com/prod-ucs-content-store-eu-west/content/pii:S1872206725646821/gr5/DOWNSAMPLED/image/jpeg/f1b3d98c99eaad619e5a496bc278003b/gr5.jpg gr5 gr5.jpg jpg 34730 264 366 IMAGE-DOWNSAMPLED 1-s2.0-S1872206725646821-gr6.jpg https://s3-eu-west-1.amazonaws.com/prod-ucs-content-store-eu-west/content/pii:S1872206725646821/gr6/THUMBNAIL/image/jpeg/94276dd7c2dd08dc7a61c8ff36b4a15b/gr6.jpg gr6 gr6.jpg jpg 32694 201 440 IMAGE-DOWNSAMPLED 1-s2.0-S1872206725646821-gr7.jpg https://s3-eu-west-1.amazonaws.com/prod-ucs-content-store-eu-west/content/pii:S1872206725646821/gr7/DOWNSAMPLED/image/jpeg/147f08ecc87e887c63c25465707e5a6e/gr7.jpg gr7 gr7.jpg jpg 95854 388 584 IMAGE-DOWNSAMPLED 1-s2.0-S1872206725646821-gr8.jpg https://s3-eu-west-1.amazonaws.com/prod-ucs-content-store-eu-west/content/pii:S1872206725646821/gr8/THUMBNAIL/image/jpeg/ddc8048788be9596152afe6e36fea634/gr8.jpg gr8 gr8.jpg jpg 66821 267 734 IMAGE-DOWNSAMPLED 1-s2.0-S1872206725646821-gr9.jpg https://s3-eu-west-1.amazonaws.com/prod-ucs-content-store-eu-west/content/pii:S1872206725646821/gr9/DOWNSAMPLED/image/jpeg/0c38ba9d0ccdbfd4813bea107fb4b930/gr9.jpg gr9 gr9.jpg jpg 38437 221 479 IMAGE-DOWNSAMPLED 1-s2.0-S1872206725646821-fx1.sml https://s3-eu-west-1.amazonaws.com/prod-ucs-content-store-eu-west/content/pii:S1872206725646821/fx1/THUMBNAIL/image/gif/6d4496fe1f55f294f480be175ccfdaff/fx1.sml fx1 true fx1.sml sml 15213 113 219 IMAGE-THUMBNAIL 1-s2.0-S1872206725646821-gr1.sml https://s3-eu-west-1.amazonaws.com/prod-ucs-content-store-eu-west/content/pii:S1872206725646821/gr1/THUMBNAIL/image/gif/7f837ccedf2c344084527e93bc88d7d0/gr1.sml gr1 gr1.sml sml 8715 129 219 IMAGE-THUMBNAIL 1-s2.0-S1872206725646821-gr10.sml https://s3-eu-west-1.amazonaws.com/prod-ucs-content-store-eu-west/content/pii:S1872206725646821/gr10/HIGHRES/image/gif/42daa8ae11a8ccbef252b46f7df27c18/gr10.sml gr10 gr10.sml sml 7569 163 137 IMAGE-THUMBNAIL 1-s2.0-S1872206725646821-gr11.sml https://s3-eu-west-1.amazonaws.com/prod-ucs-content-store-eu-west/content/pii:S1872206725646821/gr11/THUMBNAIL/image/gif/caac45937d65a330801da422a4f7de5f/gr11.sml gr11 gr11.sml sml 6397 74 219 IMAGE-THUMBNAIL 1-s2.0-S1872206725646821-gr12.sml https://s3-eu-west-1.amazonaws.com/prod-ucs-content-store-eu-west/content/pii:S1872206725646821/gr12/THUMBNAIL/image/gif/5e12971e706255d6a950ac794e0abfad/gr12.sml gr12 gr12.sml sml 5641 95 219 IMAGE-THUMBNAIL 1-s2.0-S1872206725646821-gr2.sml https://s3-eu-west-1.amazonaws.com/prod-ucs-content-store-eu-west/content/pii:S1872206725646821/gr2/THUMBNAIL/image/gif/9dd3a30c7b9a527a3761f06d3aadc9f2/gr2.sml gr2 gr2.sml sml 7203 87 219 IMAGE-THUMBNAIL 1-s2.0-S1872206725646821-gr3.sml https://s3-eu-west-1.amazonaws.com/prod-ucs-content-store-eu-west/content/pii:S1872206725646821/gr3/DOWNSAMPLED/image/gif/5c67b178f2ef2b368668a1249f227098/gr3.sml gr3 gr3.sml sml 12802 124 219 IMAGE-THUMBNAIL 1-s2.0-S1872206725646821-gr4.sml https://s3-eu-west-1.amazonaws.com/prod-ucs-content-store-eu-west/content/pii:S1872206725646821/gr4/THUMBNAIL/image/gif/51a5c38a89fe772aef923c700ce46292/gr4.sml gr4 gr4.sml sml 17610 141 219 IMAGE-THUMBNAIL 1-s2.0-S1872206725646821-gr5.sml https://s3-eu-west-1.amazonaws.com/prod-ucs-content-store-eu-west/content/pii:S1872206725646821/gr5/THUMBNAIL/image/gif/378ca2c2aefe4d058110a7bb9354bc72/gr5.sml gr5 gr5.sml sml 9556 158 219 IMAGE-THUMBNAIL 1-s2.0-S1872206725646821-gr6.sml https://s3-eu-west-1.amazonaws.com/prod-ucs-content-store-eu-west/content/pii:S1872206725646821/gr6/HEAD-TAIL/image/gif/a39d68288b9eec00103330034f99d164/gr6.sml gr6 gr6.sml sml 9389 100 219 IMAGE-THUMBNAIL 1-s2.0-S1872206725646821-gr7.sml https://s3-eu-west-1.amazonaws.com/prod-ucs-content-store-eu-west/content/pii:S1872206725646821/gr7/HEAD-ONLY-JATS/image/gif/f5b81a50758c86f2b649c0fb80763963/gr7.sml gr7 gr7.sml sml 16213 145 219 IMAGE-THUMBNAIL 1-s2.0-S1872206725646821-gr8.sml https://s3-eu-west-1.amazonaws.com/prod-ucs-content-store-eu-west/content/pii:S1872206725646821/gr8/THUMBNAIL/image/gif/4a7b0c1a4a8a366bbbb489235fc2b675/gr8.sml gr8 gr8.sml sml 6232 80 219 IMAGE-THUMBNAIL 1-s2.0-S1872206725646821-gr9.sml https://s3-eu-west-1.amazonaws.com/prod-ucs-content-store-eu-west/content/pii:S1872206725646821/gr9/THUMBNAIL/image/gif/9249bfdbe0a91e2744b54f6f8021df4e/gr9.sml gr9 gr9.sml sml 10387 101 219 IMAGE-THUMBNAIL 1-s2.0-S1872206725646821-fx1_lrg.jpg https://s3-eu-west-1.amazonaws.com/prod-ucs-content-store-eu-west/content/pii:S1872206725646821/THUMBNAIL/image/jpeg/715252fa75f5843695f65b38c123b912/fx1_lrg.jpg fx1 true fx1_lrg.jpg jpg 145488 411 800 IMAGE-HIGH-RES 1-s2.0-S1872206725646821-gr1_lrg.jpg https://s3-eu-west-1.amazonaws.com/prod-ucs-content-store-eu-west/content/pii:S1872206725646821/HIGHRES/image/jpeg/c5c574fbab2a9ee2c1a8c899f7a166be/gr1_lrg.jpg gr1 gr1_lrg.jpg jpg 112327 587 994 IMAGE-HIGH-RES 1-s2.0-S1872206725646821-gr10_lrg.jpg https://s3-eu-west-1.amazonaws.com/prod-ucs-content-store-eu-west/content/pii:S1872206725646821/HIGHRES/image/jpeg/8af5eb4b0d426b6ed21f59f3ee5ae31b/gr10_lrg.jpg gr10 gr10_lrg.jpg jpg 152691 978 821 IMAGE-HIGH-RES 1-s2.0-S1872206725646821-gr11_lrg.jpg https://s3-eu-west-1.amazonaws.com/prod-ucs-content-store-eu-west/content/pii:S1872206725646821/HIGHRES/image/jpeg/af14ccbf9883706ed48f811cb442598d/gr11_lrg.jpg gr11 gr11_lrg.jpg jpg 72034 337 994 IMAGE-HIGH-RES 1-s2.0-S1872206725646821-gr12_lrg.jpg https://s3-eu-west-1.amazonaws.com/prod-ucs-content-store-eu-west/content/pii:S1872206725646821/HIGHRES/image/jpeg/1ac82ab0cf7b678f4ac3eab4c8fc207a/gr12_lrg.jpg gr12 gr12_lrg.jpg jpg 180550 765 1767 IMAGE-HIGH-RES 1-s2.0-S1872206725646821-gr2_lrg.jpg https://s3-eu-west-1.amazonaws.com/prod-ucs-content-store-eu-west/content/pii:S1872206725646821/MAIN/image/jpeg/8d1ff890d83beace41eed85d6cd36a34/gr2_lrg.jpg gr2 gr2_lrg.jpg jpg 236313 688 1740 IMAGE-HIGH-RES 1-s2.0-S1872206725646821-gr3_lrg.jpg https://s3-eu-west-1.amazonaws.com/prod-ucs-content-store-eu-west/content/pii:S1872206725646821/HIGHRES/image/jpeg/64159713cd53bb2ed1c5b3db1a3d83a1/gr3_lrg.jpg gr3 gr3_lrg.jpg jpg 320415 835 1470 IMAGE-HIGH-RES 1-s2.0-S1872206725646821-gr4_lrg.jpg https://s3-eu-west-1.amazonaws.com/prod-ucs-content-store-eu-west/content/pii:S1872206725646821/THUMBNAIL/image/jpeg/6b56f5eace3fd05a4b5bb5cbc1a557c4/gr4_lrg.jpg gr4 gr4_lrg.jpg jpg 275565 749 1164 IMAGE-HIGH-RES 1-s2.0-S1872206725646821-gr5_lrg.jpg https://s3-eu-west-1.amazonaws.com/prod-ucs-content-store-eu-west/content/pii:S1872206725646821/HIGHRES/image/jpeg/4f2f0704b983e3b2e0eb009e5c12018d/gr5_lrg.jpg gr5 gr5_lrg.jpg jpg 135651 702 974 IMAGE-HIGH-RES 1-s2.0-S1872206725646821-gr6_lrg.jpg https://s3-eu-west-1.amazonaws.com/prod-ucs-content-store-eu-west/content/pii:S1872206725646821/HIGHRES/image/jpeg/93a145dae5a74f8d20faff430f8883d8/gr6_lrg.jpg gr6 gr6_lrg.jpg jpg 139179 533 1169 IMAGE-HIGH-RES 1-s2.0-S1872206725646821-gr7_lrg.jpg https://s3-eu-west-1.amazonaws.com/prod-ucs-content-store-eu-west/content/pii:S1872206725646821/HIGHRES/image/jpeg/c6e181712d947d1a64da66d86f8e21d0/gr7_lrg.jpg gr7 gr7_lrg.jpg jpg 369435 1031 1552 IMAGE-HIGH-RES 1-s2.0-S1872206725646821-gr8_lrg.jpg https://s3-eu-west-1.amazonaws.com/prod-ucs-content-store-eu-west/content/pii:S1872206725646821/HIGHRES/image/jpeg/f32d2f917a59f5617b7854c541dec33f/gr8_lrg.jpg gr8 gr8_lrg.jpg jpg 271248 710 1950 IMAGE-HIGH-RES 1-s2.0-S1872206725646821-gr9_lrg.jpg https://s3-eu-west-1.amazonaws.com/prod-ucs-content-store-eu-west/content/pii:S1872206725646821/HIGHRES/image/jpeg/0a3cd12a3d4c9ab8168b1fcb60da74d0/gr9_lrg.jpg gr9 gr9_lrg.jpg jpg 149041 587 1272 IMAGE-HIGH-RES 1-s2.0-S1872206725646821-mmc1.pdf https://s3-eu-west-1.amazonaws.com/prod-ucs-content-store-eu-west/content/pii:S1872206725646821/mmc1/MAIN/application/pdf/6c176274be0d56bd18c2e9548e28af29/mmc1.pdf mmc1 mmc1.pdf pdf false 5632929 APPLICATION 1-s2.0-S1872206725646821-si1.gif https://s3-eu-west-1.amazonaws.com/prod-ucs-content-store-eu-west/content/pii:S1872206725646821/STRIPIN/image/gif/6c301024b1432ab07a0ee99ab2f55d10/si1.gif si1 si1.gif gif 648 30 157 ALTIMG CHNJC 64682 S1872-2067(25)64682-1 10.1016/S1872-2067(25)64682-1 Dalian Institute of Chemical Physics, the Chinese Academy of Sciences Fig. 1 Energy barriers and the corresponding transition state structures of the direct C–O bond scission of different CH x OH y intermediates on ZnAl2O4(111) surface. Fig. 2 Energy profiles of the formation of methane from methanol (A) and ethane from ethene hydrogenation (B) via different reaction pathways on ZnAl2O4(111) surface at 0 K. Fig. 3 Gibbs free energy profiles at 673 K and transition state structures of several key reactions on ZnAl2O4(111) surface. Fig. 4 Activity dependences of some key reactions on temperature and total pressure on ZnAl2O4(111) surface in the absence of zeolite component. Fig. 5 CO conversion and selectivity to methanol, DME, methane, CO2, olefin and alkane on ZnAl2O4-based bifunctional catalysts with respect to the activity of zeolite component for the conversion of methanol to olefins. Reaction conditions: 673 K, 3 MPa, CO/H2 = 1:2, Flow rate = 10 s–1. It is assumed that the contents of active sites on oxide and zeolite are the same (oxide:zeolite = 1:1). Fig. 6 Dependence of the CO conversion on the flow rate of reactants and the zeolite activity (P = 3 MPa, A), and the total pressure and the zeolite activity (F = 10 s–1, B) on ZnAl2O4-based bifunctional catalysts. Reaction conditions: 673 K, CO/H2 = 1:2. Fig. 8 CO conversion and selectivity to methanol, DME, methane, CO2, olefin and alkane on ZnAl2O4-based bifunctional catalysts (oxide:zeolite = 1:1) with respect to the activity of zeolite component for the conversion of methanol to olefins. Reaction conditions: 623 K (A) and 723 K (B), P = 3 MPa, CO/H2 = 1:2, Flow rate = 10 s–1. Fig. 7 Dependence of the selectivity on the flow rate of reactants and the zeolite activity (P = 3 MPa, A), and the total pressure and the zeolite activity (F = 10 s–1, B) on ZnAl2O4-based bifunctional catalysts. Reaction conditions: 673 K, CO/H2 = 1:2. Fig. 9 Dependence of the olefin/paraffin ratio on the flow rate of reactants and the zeolite activity (P = 3 MPa, A), and the total pressure and the zeolite activity (F = 10 s–1, B) on ZnAl2O4-based bifunctional catalysts. Reaction conditions: 673 K, CO/H2 = 1:2. Fig. 10 Relation between the energy barrier of the Concerted hydrogenation and the charge difference of the atoms in the double bond of unsaturated molecules (0 K, A), and the charge density difference of the transition states of the Concerted hydrogenation of formaldehyde and ethene (the iso-surface value is 0.002 a– 3, B) on ZnAl2O4(111) surface. Scheme 1 Overview of the primary and secondary reactions in the direct conversion of syngas to light olefins on bifunctional catalysts consisting of oxide and zeolite components. Scheme 2 Overview of the H2 activation to proton (Olat–H#) and hydride (Zn–H*), the key reactions of WGS, olefin hydrogenation to alkanes, and methanol conversion to methane/DME on ZnAl2O4(111) surface. Available online 20 June 2025 This work was supported by the National Natural Science Foundation of China (22402236, 22293025, 92045303, U22B6011), the National Key Research and Development Program of China (2024YFA1509901, 2022YFA1503503). Article First-principles microkinetic simulations revealing the driving effect of zeolite in bifunctional catalysts for the conversion of syngas to olefins Wende Hu Jun Ke Yangdong Wang * Chuanming Wang * State Key Laboratory of Green Chemical Engineering and Industrial Catalysis, Sinopec Shanghai Research Institute of Petrochemical Technology Co., Ltd., Shanghai 201208, China State Key Laboratory of Green Chemical Engineering and Industrial Catalysis Sinopec Shanghai Research Institute of Petrochemical Technology Co., Ltd. Shanghai 201208 China State Key Laboratory of Green Chemical Engineering and Industrial Catalysis, Sinopec Shanghai Research Institute of Petrochemical Technology Co., Ltd., Shanghai 201208, China * Corresponding author. Direct conversion of syngas to light olefins (STO) on bifunctional catalysts has garnered significant attention, yet a comprehensive understanding of the reaction pathway and reaction kinetics remains elusive. Herein, we theoretically addressed the kinetics of the direct STO reaction on typical ZnAl2O4/zeolite catalysts by establishing a complete reaction network, consisting of methanol synthesis and conversion, water gas shift (WGS) reaction, olefin hydrogenation, and other relevant steps. The WGS reaction occurs very readily on ZnAl2O4 surface whereas which is less active towards alkane formation via olefin hydrogenation, and the latter can be attributed to the characteristics of the H2 heterolytic activation and the weak polarity of olefins. The driving effect of zeolite component towards CO conversion was demonstrated by microkinetic simulations, which is sensitive to reaction conditions like space velocity and reaction temperature. Under a fixed ratio of active sites between oxide and zeolite components, the concept of the “impossible trinity” of high CO conversion, high olefin selectivity, and high space velocity can thus be manifested. This work thus provides a comprehensive kinetic picture on the direct STO conversion, offering valuable insights for the design of each component of bifunctional catalysts and the optimization of reaction conditions. Graphical Abstract The concept of the “impossible trinity” of high CO conversion, high olefin selectivity, and high space velocity is proposed based on the microkinetic simulations on ZnAl2O4-based bifunctional catalysts for the STO conversion. Keywords Syngas to olefins Bifunctional catalysis Microkinetic simulations Driving effect Impossible trinity ZnAl2O4 oxide 1 Introduction The tandem bifunctional catalysts consisting of oxides and zeolites have emerged as a versatile and pivotal platform for the direct conversion of syngas to a variety of valuable chemicals like light olefins (STO) and aromatics (STA) [1–5]. Both oxides and zeolites are assembled in a physical manner within a single reactor. As a result, it is possible to achieve high catalytic activity and selectivity by precisely tailoring the surface structures of oxides and the topologies and acidities of zeolites, respectively. Notably, the selectivity to light olefins in the STO conversion can rival that of methanol-to-olefins (MTO) conversion (> 80%) when small-pore zeolites with eight-membered rings are employed [4–8], significantly surpassing the Anderson-Schulz-Flory (ASF) limitations (~58%) [9,10]. It is widely recognized that the oxide component dedicates to the hydrogenation of CO to bridging oxygenate (methanol or ketene), and the zeolite component is responsible for the C–C coupling to target chemicals [11–13]. To date, a wide variety of oxides including mono-metal, binary spinel, and solid solutions and a series of zeolites of diverse topologies and pore openings were assembled into bifunctional catalysts for direct syngas conversion [14–20]. Despite the impressive merits of bifunctional catalysts, their catalytic efficiency, particularly CO conversion, requires further improvement to compete with traditional indirect processes involving sequential methanol synthesis and MTO conversion [21–25]. It is of course essential to have an in-depth understanding on the intrinsic active sites and reaction mechanism of each component [26–34]. Nevertheless, the assembly of oxides and zeolites within a single reactor introduces several additional challenges for the practical applications [35–38]. This stems from inherent thermodynamic conflicts: The conversion activity of syngas to bridging oxygenate, e.g., methanol, exhibits declining activity with increasing temperature, whereas the C–C coupling usually proceeds at higher temperatures in zeolites with moderate acid strength via the so-called hydrocarbon pool mechanism [39–43]. Consequently, the reaction conditions in terms of temperature, pressure, and space velocity between the syngas activation on oxide and the C–C coupling in zeolite thus need to be reconciled efficiently. From the positive perspective, the presence of zeolite shifts the equilibrium of syngas activation on oxide by consuming bridging oxygenate to accelerate the CO conversion in bifunctional catalysis. The driving effect of zeolite to the overall STO catalytic efficiency thus should be paid more attention. However, the occurrence of additional side reactions associated with the presence of the second component could expose distinct effects on the overall catalytic performance. The water gas shift (WGS) reaction on oxide is believed to be responsible for the conversion of water produced in zeolite to CO2 [44,45]. The dominating formation pathway of light alkanes (methane, ethane, propane, etc.) in bifunctional catalysis however remains elusive. From all these perspectives, establishing a comprehensive kinetic picture that accounts for the complete reaction network is essential in bifunctional catalysis for the direct syngas conversion. Zn-based binary oxides, including ZnCrO x , ZnAlO x , ZnZrO x , are recognized to be active oxide components of bifunctional catalysts when integrated with appropriate zeolites [46–50]. ZnAl2O4, as one of Cr-free environmentally benign spinel oxides capable of catalyzing syngas to methanol with high-temperature activity, attracts considerable attention to assemble bifunctional catalysts [22,51–53]. It was demonstrated that the ZnAl2O4/SAPO-34 catalyst exhibits the C2–C4 olefin selectivity of 80% at the CO conversion of 24% [51]. Interestingly, employing unstoichiometric ZnAlOx coupled with low-Si AlPO-18 zeolite could enhance catalytic performance, reaching the CO conversion of 41.6% while maintaining the C2–C4 olefin selectivity of 79.3% [22]. The surface structures, the synergistic interplay of active sites, and the reaction mechanism of ZnAl2O4 spinel oxide for H2 activation and syngas conversion to methanol have been systematically addressed by a series of state-of-the-art characterization techniques and computational approaches [30,52–55]. In order to have in-depth insights into the kinetics of the STO conversion on ZnAl2O4-based bifunctional catalysts, we herein performed first-principles microkinetic simulations according to a complete reaction network, including methanol synthesis and conversion, WGS reaction, olefin hydrogenation, to unveil the effects of reaction temperature, pressure, and flow rate of reactants. This work represents the first theoretical attempt to understand the driving effect of zeolites for CO conversion in bifunctional catalysis. 2 Computational details 2.1 Density functional theory (DFT) calculations All spin-polarized periodic DFT calculations were performed using Perdew-Burke-Ernzerhof (PBE) generalized gradient approximation (GGA) functional implemented in VASP package [56,57]. The Grimme D3 method was employed to describe the van der Waals dispersion interactions [58]. The projector augmented wave (PAW) pseudopotentials were utilized to describe the valence-core interactions [59,60]. The kinetic cutoff energy of the plane wave basis set was 450 eV. Brillouin zone sampling was performed by using a Monkhorst-Pack grid with respect to the symmetry of the system. A typical cubic unit cell was employed to model the bulk structure of spinel ZnAl2O4 oxide. The lattice constant of 8.179 Å was optimized via the energy volume fit according to the Murnaghan equation of state (EOS) using a 4×4×4 k-points mesh sampling, agreeing well with the experimental value of 8.087 Å [61]. The symmetrical ZnAl2O4(111) surface was modeled by the p(2×2) slab (11.567 × 11.567 Å). The periodic slab was separated by a ~15 Å vacuum layer, and which contain 7 layers with the k-points mesh of (2×2×1). To preserve the electroneutrality of the ZnAl2O4(111) surface, six hydrogens as hydroxyl motifs were introduced on both sides of the slab, representing the thermodynamically stable configuration under the typical STO reaction condition. All the geometry structures of intermediates and transition states (TSs) were optimized until the forces on the relaxed atoms were less than 0.03 eV/Å. During the structure optimization, the bottom three layers were fixed while the top four layers and organic species were relaxed. The structures of all TSs were located using a Dimer method [62] and which was confirmed to have only one imaginary frequency corresponding to the vibrational modes of the reaction coordinates based on the partial hessian vibrational analysis (PHVA) [63]. 2.2 Microkinetic simulations The microkinetic modeling analyses were carried out using the CatMAP package [64] and the CATKINAS package [65] based on the DFT calculated energies. The reaction rates (TOFs) of elementary steps were determined by numerically solving the coupled differential equations based on the steady-state approximation. The thermodynamics of gas-phase and surface involved structures were calculated in the ideal-gas and harmonic limits, respectively. The rate constant (ki ) of each elementary step was calculated according to the Eq. (1). (1) k i = k B T h e - Δ G i ‡ / k B T where h is Planck’s constant, and ΔGi ‡ is the Gibbs free energy barrier. Gibbs free energy of each state was calculated using theEq. (2). (2) G = E DFT + ZPE + ∫CpdT – TSv where G, E DFT, ZPE, CP , Sv refer to Gibbs free energy, dispersion corrected electronic energy, zero-point energy, heat capacity and entropy, respectively. 3 Results and discussion 3.1 Side reaction pathways on ZnAl2O4(111) surface During the direct STO conversion on bifunctional catalysts, in addition to light olefins as target products and methanol as bridging oxygenate, dimethyl ether (DME), carbon dioxide (CO2), methane and light alkanes, and higher hydrocarbons are formed as byproducts. It is straightforward that the WGS reaction contributes to the production of CO2, and methane and DME may associated directly with methanol either on the oxide surface or in zeolites. The active sites for the formation of light alkanes while remain ambiguous; either the hydride transfer between light olefins in zeolites or the hydrogenation of light olefins on oxide component dedicates to alkane formation. Herein, all these elementary steps involved on spinel ZnAl2O4 oxide were included in the complete reaction network for the STO conversion on bifunctional catalysts (Scheme 1 ). The zeolite catalyzed MTO process is assumed to be a pseudo reaction via the hydrocarbon pool mechanism to elucidate the driving effect of zeolite on the STO catalytic performance [39,43]. 3.1.1 Formation of methane and DME Methane and DME could be produced in parallel with methanol on the surface of oxide component. As demonstrated in our previous theoretical investigations on the formation pathway of methanol from syngas [30], the ZnAl2O4(111) is revealed to be the active surface for syngas activation. It is noteworthy that there are two different types of sites on the oxide surface, i.e., surface lattice oxygen (Olat) site and surface Zn site, to capture H atom (e.g., Olat–H# vs. Zn–H*) and other organic intermediates (Scheme 2 ). Several different CH x OH y intermediates are identified during methanol formation. The cleavage of C–O bond of these intermediates is the prerequisite for the formation of methane on oxide surface (Fig. 1 ). It is found that the energy barriers for the cleavage of C–O bond from CHO#, CH2O*, and CH3O* are higher than 2.88 eV, while those from CH2OH# and CH3OH* are 2.17 and 1.98 eV, respectively. As the formation of CH2OH# from syngas is about 1.12 eV higher than that of CH3OH* [30], it is very likely that the CH3 # motif originates from the dissociation of adsorbed CH3OH* via the Stepwise pathway (Fig. 2 ) and such process is endothermic by ~0.14 eV. Subsequently, CH3 # can react with Zn–H* to form CH4 (CH3 # + H* → CH4) or with CH3O* to form DME (CH3 # + CH3O* → CH3OCH3), with the calculated energy barriers of 2.19 and 1.60 eV, respectively (Scheme 2). In addition, methane can be formed directly from methanol in gas-phase via the Concerted or Non-Horiuti-Polanyi pathways (Fig. 2). In the Concerted pathway, H2 molecule first dissociates at the Zn–O site to form Zn–H* + Olat–H#, and then the C and O atoms in methanol are hydrogenated and the C–O bond breaks simultaneously. Such Concerted step needs to overcome an energy barrier of 1.74 eV and is exothermic by 1.96 eV at 0 K. While in the Non-Horiuti-Polanyi pathway, gas-phase H2 molecule dissociates heterolytically to attack lattice oxygen and the C atom in CH3OH*, resulting in the formation of Zn–OH* + Olat–H# motifs and CH4; this step needs to overcome an energy barrier of 2.40 eV and is exothermic by 2.63 eV at 0 K. The Gibbs free energy profiles of the methanol hydrogenation to methane at 673 K are summarized in Fig. S1. The overall Gibbs free energy barriers via the Stepwise, Concerted and Non-Horiuti-Polanyi pathways at 673 K are calculated to be about 2.61, 3.07 and 3.49 eV, respectively. The Stepwise pathway thus dominates the formation of methane from methanol on active ZnAl2O4(111) surface. In summary, the Gibbs free energy barriers at 673 K for the conversion of syngas to methanol, DME, and methane are respectively 1.34, 1.82, and 2.61 eV, and the direct formation of methane seems to be kinetically prohibited. 3.1.2 WGS reaction Both the disproportionation of CO and the WGS reaction have been proposed as potential pathways for the production of CO2 in the STO conversion. The disproportionation of CO involves the reaction of the adsorbed CO with surface lattice oxygen to CO2, and this step needs to overcome an energy barrier of only 0.24 eV and is endothermic by 0.08 eV on ZnAl2O4(111) surface. However, the desorption of CO2 is kinetically demanding with a significantly higher energy barrier of 2.93 eV, indicating that the formation of CO2 via the CO disproportionation is impossible. The ZnAl2O4 catalyzed WGS reaction facilitates the rapid conversion of H2O/CO to H2/CO2 via the Concerted pathway (Scheme 2 and Fig. 3 ). Water dissociates on ZnAl2O4(111) surface by overcoming an energy barrier of only 0.35 eV and the dissociated adsorption energy of water is –0.88 eV. The formed Zn–OH* + Olat–H# motifs then react simultaneously with gas-phase CO to form HCOOH with an energy barrier of less than 0.10 eV. The HCOOH then undergoes direct dehydrogenation at Zn–O site to produce CO2 and Zn–H* + Olat–H# motifs; which is found to be highly feasible. The overall Gibbs energy barrier at 673 K is calculated to be 1.22 eV for the WGS reaction, which is even lower than that for the CO hydrogenation to methanol (1.34 eV), confirming that the spinel ZnAl2O4 oxide is very reactive towards the WGS reaction. 3.1.3 Hydrogenation of light olefins Given the catalytic activity of the spinel ZnAl2O4 oxide surface towards H2 dissociation and CO hydrogenation, it is essential to address the hydrogenation activity of light olefins on these surfaces, as this could significantly influence the product distribution of the STO conversion. Herein, the hydrogenation activities of the primary olefin products in the STO conversion (e.g., ethene, propene, 1-butene, 2-butene, and iso-butene) on ZnAl2O4(111) surface were systematically investigated. 3.1.3.1 Hydrogenation of ethene The adsorption energy of ethene on ZnAl2O4(111) surface is –0.41 eV. H2 dissociates by overcoming an energy barrier of 0.42 eV and the dissociated adsorption energy is –0.42 eV. Similar to the hydrogenation of CO to methanol, four distinct reaction pathways were addressed for the hydrogenation of ethene, i.e., Zn–C Stepwise, O–C Stepwise, Concerted and Non-Horiuti-Polanyi (NHP) pathways (Figs. 2, S2 and S3). In the Zn–C Stepwise pathway, ethene initially adsorbs on the Zn site and then gradually reacts with Olat–H# by overcoming an energy barrier of 0.87 eV. In the O–C Stepwise pathway, ethene diffuses near the lattice oxygen of surface to form C2H4 # by overcoming an energy barrier of 0.80 eV. The formed C2H4 # subsequently reacts with the existing Olat–H# to form C2H5 # by overcoming an energy barrier of 0.86 eV. Then the gas–phase H2 molecule dissociates at the adjacent Zn–O site with the dissociation energy barrier of 0.40 eV. Finally, Olat–C2H5 # reacts with Zn–H* to produce C2H6 by overcoming an energy barrier as high as 1.60 eV. In the Concerted pathway, ethene molecule in the gas-phase reacts directly with the dissociated Zn–H* + Olat–H# motifs to form C2H6. This step needs to overcome an energy barrier of 0.85 eV. In the Non-Horiuti-Polanyi pathway, the gas-phase H2 molecule participates directly in the first hydrogenation step of ethene, where H–H bond dissociation and C–H bond formation occur simultaneously to generate Zn–C2H5* and Olat–H#. This step needs to overcome an energy barrier of 0.75 eV and is exothermic by 1.19 eV. The subsequent hydrogenation to C2H6 follows that in the Zn–C Stepwise pathway. The Gibbs free energy profiles of these pathways at 673 K are shown in Fig. S2. The overall Gibbs free energy barriers (the energetic span) of ethene hydrogenation via the Concerted (1.93 eV) and Non-Horiuti-Polanyi (2.30 eV) pathways are apparently lower than those via both Stepwise pathways (2.78, 2.76 eV). In the following, both the Concerted and Non-Horiuti-Polanyi pathways were considered for the hydrogenation of other olefins. 3.1.3.2 Hydrogenation of propene Two carbon atoms in propene exhibit different first hydrogenation activity. The energy barriers of the first hydrogenation of CH and CH2 motif are respectively 0.91 and 1.07 eV in the Non-Horiuti-Polanyi pathway, higher than that in the Concerted pathway (0.77 eV). Despite of lower hydrogenation energy barrier of propene compared to ethene at 0 K, the overall Gibbs free energy barrier of the Concerted pathway is slightly higher for propene hydrogenation (1.99 vs. 1.93 eV) at 673 K (Fig. S4). 3.1.3.3 Hydrogenation of butenes The adsorption energies of three butenes are around –0.70 eV. The energy barriers via the Concerted pathway are calculated to be 0.65, 0.86, and 0.70 eV for the hydrogenation of 1-butene, 2-butene, and iso-butene, respectively. In the case of the Non-Horiuti-Polanyi pathway, the CH motif in 1-butene (0.84 vs. 1.00 eV), and the C motif in iso-butene (0.98 vs. 1.30 eV) are preferentially hydrogenated; the energy barrier of 2-butene is 1.12 eV. The overall Gibbs free energy barriers at 673 K of the Concerted pathway are 1.93, 2.07, and 2.02 eV for the hydrogenation of 1-butene, 2-butene, and iso-butene, while which are 2.09, 2.39, and 2.26 eV via the Non-Horiuti-Polanyi pathway (Fig. S5). As a result, the overall Gibbs free energy barriers of the hydrogenation of light olefins on ZnAl2O4(111) surface at 673 K are in the range of 1.93–2.07 eV, which are approximately 0.6–0.7 eV higher than that of the syngas to methanol (1.34 eV), indicating that the hydrogenation activity of surface is less active towards light olefins compared to CO. 3.2 Microkinetic simulations of direct syngas conversion 3.2.1 Microkinetic simulations on ZnAl2O4(111) surface without zeolite Leveraging all the DFT-calculated energetics of every primary and secondary elementary steps on ZnAl2O4(111) surface, we performed microkinetic simulations to evaluate the activity variation of these reactions during the STO conversion. It is necessary to identify the simulated partial pressures of each reactant, products, and intermediates under the STO reaction condition. The relative concentration of CO and H2 was respectively set to be 0.33 and 0.67, ensuring that the H2/CO ratio is 2. In order to address the kinetics of every primary and secondary reactions on ZnAl2O4(111) surface without zeolite, a CO conversion of 20% was assumed to estimate the relative concentration of methanol (c(CH3OH) = 0.067). In the case of the methanol conversion to light olefins in zeolite, it is assumed that the product distribution of ethene, propylene, butenes are 3:5:2 [21,49], and that of 1-butene, 2-butene and iso-butene are the same, leading to the relative contents of every species for microkinetic simulations as follows: c(C2H4) = 0.01, c(C3H6) = 0.011, c(1-C4H8) = c(2-C4H8) = c(iso-C4H8) = 0.0011, c(H2O) = 0.067. The microkinetic simulations of the temperature-dependent reaction activity on ZnAl2O4(111) surface using CatMAP package are summarized in Fig. S6; the WGS reaction exhibits exceptional activity with a rate of 4.0 × 104 s–1 at 673 K, surpassing syngas to methanol (7.4 × 102 s–1) by two orders of magnitude. The formation rate of DME and methane are 8.7 × 100, and 9.3 × 10–8 s–1, respectively, both being kinetically subordinate to methanol synthesis. The hydrogenation rates of ethene, propylene, 1-butene, 2-butene and iso-butene at 673 K are simulated to be 2.3 × 10–1, 3.4 × 10–2, 1.4 × 10–2, 1.3 × 10–3 and 4.4 × 10–3 s–1, respectively. The catalytic reactivity plots with temperature and pressure of these reactions on ZnAl2O4(111) surface are summarized in Figs. 4 and S7. The surface is very active toward WGS reaction except at very lower temperatures. The plot of DME formation is similar to that of methanol formation, and the rates increases with both temperature and pressure. The plot of methane generation is quite distinct from those of methanol and DME formation, and the former is less sensitive to the pressure. The increased hydrogenation activity of ethene compared to other olefins may be the result of the entropy effect despite of slightly higher energy barrier of ethene. Sensitivity analysis based on the degree of rate control (DRC) was performed to identify the key elementary steps affecting the catalytic activity of each reaction on ZnAl2O4(111) surface under the typical reaction condition (673 K, 3 MPa). The rate-determining steps for WGS, DME formation, and methane formation are identified to be CO(g) + Zn–OH* + Olat–H# → HCOOH*, the Concerted CH3OH(g) + Zn–OCH3* + Olat–H# → CH3OCH3* + H2O(g), and the methanol dissociation step (CH3OH* → Olat–CH3 # + Zn–OH*), respectively (Scheme 2). In the case of ethene hydrogenation, the rates via the Concerted, Non-Horiuti-Polanyi, Zn–C Stepwise and O–C Stepwise pathways are simulated to be 2.3 × 10–1, 9.7 × 10–4, 2.0 × 10–7 and 2.3 × 10–7 s–1, respectively. The Concerted pathway thus dominates the hydrogenation activity on ZnAl2O4 surface for both CO and light olefins. The fixed-bed microkinetic simulations using CATKINAS package were performed to address the effect of reaction pressure and reactant flow rate on syngas conversion on ZnAl2O4(111) surface in the absence of zeolite component by incorporating three reactions, i.e., syngas to methanol, methanol to DME, and methanol to methane, into the reaction network. The selectivities to methanol, DME, and methane as a function of reaction pressure and reactant flow rate are summarized in Fig. S8. At the typical flow rate of 10 s–1 (Note S1 in SI) and 673 K, pressure-dependent product variation was observed: methane dominated (<0.15 bar), followed by methanol formation at intermediate pressures, ultimately transitioning to DME as the predominant product at elevated pressures. The selectivity to methanol could be higher than 75% at a total pressure of ~0.2 bar. In the case of the effect of reactant flow rate on selectivity, methane is still the primary product at particularly low flow rate, then the selectivity to DME increases dramatically, and finally the formation of methanol dominates at higher flow rate. As a result, the relative formation rate of methanol, DME, and methane only on ZnAl2O4(111) surface is sensitive to reaction conditions, and the moderate reaction pressure is essential to increase the selectivity to methanol as bridging oxygenate for the STO conversion. 3.2.2 Microkinetic simulations on ZnAl2O4/zeolite bifunctional catalyst Full microkinetic simulations using CATKINAS package were performed on ZnAl2O4-based bifunctional catalyst by taking into account the zeolite catalyzed MTO conversion, which proceeds via the hydrocarbon pool mechanism, and the olefins themselves are likely the dominating hydrocarbon pool species in zeolite [41,43]. Herein, a pseudo reaction of CH3OH → 1/3C3H6 + H2O was integrated into the STO reaction network to address the effect of zeolite activity on the STO catalytic performance by varying the overall Gibbs free energy barrier (ΔG ‡) of such pseudo reaction. It is noteworthy that only the hydrogenation of propene was included in the reaction network to simplify the STO reaction network as the hydrogenation activities of ethene, propene, and butenes to alkanes are on the same scope; the oxide-zeolite proximity effect was not incorporated into the model as it was experimentally evidenced that the CO conversion enhances with the decrease of the distance of two components [4,25]. The simulated CO conversion and product distribution of the STO conversion on the ZnAl2O4/zeolite bifunctional catalyst under the fixed reaction condition of pressure, temperature, H2/CO ratio, and reactant flow rate are summarized in Fig. 5 . It is assumed that the active sites of oxide and zeolite components are the same. The CO conversion is ~18% and methanol and DME are the primary hydrocarbons when the zeolite activity is poor at 673 K (ΔG ‡ > 2.1 eV), indicating that the driving effect of zeolite component can be negligible. With the increase of zeolite activity, the CO conversion improves monotonically and finally reaches approximately 40%. Under such circumstances (ΔG ‡ < 1.6 eV), both olefins (propene in this case) and CO2 are the primary products, and the selectivities to methanol, DME, and alkanes are negligible. It is interesting to note that selectivity to CO2 is ~48%, which is consistent with the experimental results [4,6]. We thus demonstrate that the zeolite with the overall Gibbs free energy barriers of 1.6–2.1 eV towards MTO conversion affects dramatically the catalytic performance of the STO conversion at 673 K. Our prior computational investigations revealed that the free energy barrier associated with the methylation of typical olefinic hydrocarbon pool species (e.g., tetramethylethene) is not higher than 1.5 eV in H-SAPO-34 zeolite at 673 K [43]. Such value falls below the estimated activity sensitivity threshold (1.6–2.1 eV), indicating that the H-SAPO-34 zeolite exerts full driving effect towards CO conversion in ZnAl2O4/H-SAPO-34 bifunctional catalyst. The influence of the zeolite to oxide active site ratio on the CO conversion was illustrated in Fig. S9. Increasing the contents of active sites in zeolite would improve the catalytic driving effect within the activity sensitive range (1.6–2.1 eV) of zeolite: a fivefold increase in zeolite active sites demonstrates comparable driving effect to ~0.1 eV reduction in the overall MTO Gibbs free energy barrier for the CO conversion. The driving effect of zeolite in bifunctional catalyst on the CO conversion as a function of reactant flow rate and reaction pressure was illustrated in Fig. 6 . It seems that reducing the flow rate of reactants could enhance the CO conversion, even when zeolite exhibits limited activity towards MTO conversion (Fig. 6(A), ΔG ‡ > 2.1 eV). This is because ZnAl2O4 can convert syngas into DME or even methane at lower flow rate to enhance the CO conversion (Fig. 7 ). However, as the flow rate increases, improving zeolite activity becomes crucial to maintain or enhance the CO conversion. As a result, the zeolite activity required to enhance the STO catalytic activity depends highly on the rate flow of reactants. Similarly, the reaction pressure also affects the driving effect of zeolite (Fig. 6(B); higher pressure may be essential if the zeolite is less active in order to maintain the CO conversion. However, the CO conversion can hardly be promoted at very low pressure (< 1 bar) by increasing zeolite activity as the activity of the oxide catalyzed syngas conversion becomes a bottleneck. The product selectivity exhibits a strong dependence on the reactant flow rate, reaction pressure, and zeolite activity (Fig. 7). When the reactant flow rate of is high (e.g., > 10 s–1), the dominating STO products vary from methanol to propene with the increase of zeolite activity. While the reactant flow rate is moderate (e.g., 0.2 to 10 s–1), the primary STO products shift from DME to propene with the increase of zeolite activity. When the reactant flow rate is particularly low (e.g., < 0.2 s–1), methane may be the primary product; and in this case, the formation rate of propane is comparable to that of propene using zeolite with high activity. The interplay between reaction pressure and zeolite activity on the STO product distribution was further investigated at the fixed flow rate (10 s–1, Fig. 7(B). Propene dominates the STO conversion when the zeolite activity is high enough; the selectivity to propene increases with the decrease of reaction pressure under the fixed zeolite activity and reactant flow rate. It is noteworthy that the selectivity to propane increases apparently under particularly high reaction pressure. Conversely, when the zeolite is less active towards methanol conversion, the primary product distribution shifts from DME to methanol and finally to methane as reaction pressure decreases. The driving effect of zeolite is highly sensitive to reaction temperature of the STO conversion (Figs. 8 and S10–S12). At 623 K, the CO conversion improves from 32% to 43% with the increase of the zeolite activity and the sensitive range shifts by ~0.1 to 1.5–2.0 eV. The selectivity to methane and alkane is quite low (< 2%). Relative higher CO conversion of the bifunctional catalyst is ascribed to the thermodynamic equilibrium of the methanol synthesis from syngas at such lower temperature. While at higher temperature (723 K), the CO conversion improves from 11% to 37% with the increase of the zeolite activity and the sensitive range shifts by ~0.1 to 1.7–2.2 eV. In this scenario, the selectivity to olefins decreases and the selectivity to CO2 increases in comparison to conditions at a lower temperature. As a result, higher temperature would be not conducive to the STO conversion in terms of CO conversion and olefin selectivity. The delicate balance between reaction temperature and zeolite activity would be necessary to improve the STO catalytic performance. It is highly desirable to decrease the alkane formation in the STO conversion in order to improve the yield of olefins. The hydrogenation of olefins on oxide surface and/or the hydride transfer of olefins may contribute to the alkane formation [6]. The olefin/paraffin (O/P) ratio as a function of reactant flow rate, reaction pressure, and zeolite activity was simulated on ZnAl2O4-based bifunctional catalyst (Fig. 9 ). It is clear that the O/P ratio of the products increases gradually with the increase of flow rate and/or the decrease of reaction pressure when only the hydrogenation of olefins on oxide surface was taken into consideration. However, the O/P ratio is still greater than 10 under the simulated reaction conditions, and which is even as high as 150 at the typical STO reaction condition (673 K, 3 MPa, 10 s–1). All these findings suggest that the olefin hydrogenation on ZnAl2O4(111) surface plays a limited role in the alkane formation, and it is very likely that the hydride transfer of olefins in zeolite governs predominantly such reaction. The activity of the hydride transfer of olefins is very sensitive to zeolite activity, and which usually exhibits strong dependence on zeolite acidity (e.g., strength and density of acid sites) [66,67]. This is consistent with previous experimental results that the O/P ratio as high as ~30 can be achieved using ZnCr2O4 and low-Si AlPO-18, a zeolite sample specifically engineered with lower acid density and weaker acid strength [6]. To elucidate the intrinsic hydrogenation activity of unsaturated molecules on ZnAl2O4(111) surface, we further systematically investigated the hydrogenation of several carbonyl-containing hydrocarbons (CH2O, CH3CHO, and CH3COCH3) via the Concerted pathway. It should be mentioned that the heterolytic pathway is followed for the H2 activation to form Zn–H* and Olat–H# motifs [30]. The hydrogenation follows the Concerted pathway in which both proton (Olat–H#) and hydride (Zn–H*) participate in the reaction, and the hydrogenation activity correlates highly to the charge difference of the atoms in the double bond of unsaturated molecule (Fig. 10 ). Such analysis reveals that the disparity in the hydrogenation activity between CO and light olefins stems from the characteristics of the polarity of unsaturated molecule and the heterolytic dissociation of H2 molecule on ZnAl2O4 surface, rationalizing the marginal role of ZnAl2O4(111) mediated olefin hydrogenation in alkane formation. Such results are in consistency with recent experimental findings that the MnGaO x spinel oxide are inert for olefin hydrogenation, while the solid solution MnGaO x are highly active towards both CO activation and olefin hydrogenation [68]. To achieve a higher yield of olefins in the STO conversion, it is imperative to have high CO conversion with high O/P ratio under high space velocity. However, the requirement of high CO conversion and high space velocity inherently necessitates enhanced zeolite activity (Fig. 6(A), which concomitantly accelerates alkane formation via hydride transfer, thus decreasing the O/P ratio. Taking zeolite with moderate or weaker activity to achieve high O/P ratio as one prerequisite, the space velocity needs to be controlled to enhance the CO conversion, otherwise increased space velocity compromises CO conversion. The concept of the “impossible trinity” of high CO conversion, high olefin selectivity (O/P ratio), and high space velocity thus can be substantiated under the fixed ratio of active sites between oxide and zeolite. These computational insights are consistent with previous experimental results. Su et al. [6] revealed that the CO conversion increased with the decreased space velocity or increased zeolite activity on ZnCrO x -based catalysts integrating with low-Si AlPO-18 and SAPO-34 samples. Jiao et al. [7] demonstrated breakthrough performance of both CO conversion and olefin selectivity higher than 80% under relative lower space velocity at the same reaction temperature and pressure on ZnCrO x /Ge-AlPO-18 bifunctional catalyst. Both low-Si AlPO-18 and Ge-AlPO-18 zeolites in these bifunctional catalysts exhibit lower acid strength and/or lower acid density, diminishing the formation of alkanes. CO2 is the predominant carbon-based byproduct in the bifunctional STO conversion, and which is believed to be the result of WGS reaction on oxide component. The effects of reactant flow rate, reaction pressure, and zeolite activity on the H2O/CO2 ratio were summarized in Fig. S13 on ZnAl2O4-based bifunctional catalyst. It seems that the H2O/CO2 ratio could be higher than 1 only when the reaction pressure is quite low (< 0.3 bar). Under other most circumstances, WGS occurs readily, leading to the production of CO2. It is found that when propene, propane, and methane constitute the CO2-free products in the STO conversion (Figs. 7 and S13), the selectivity of CO2 is simulated to be in the range of 45%–49%, consistent with the experimental results [4,6]. The selectivity of CO2 could be within 20%–32% when the zeolite is less active and DME is the primary CO2-free product. From these simulations, it is necessary to appropriately modulate the activities of CO hydrogenation and WGS reaction in order to enhance the selectivity of CO2-free products. 4 Conclusions In summary, the reaction kinetics of the STO conversion on the ZnAl2O4-based bifunctional catalyst were theoretically investigated by constructing complete reaction network which consists of methanol synthesis and conversion, WGS reaction, alkane formation, and etc. The effects of reaction conditions (reaction temperature, pressure and reactant flow rate) together with zeolite activity on the catalytic performance of STO conversion were systematically elucidated by combining DFT calculations and microkinetic simulations. The main conclusions are summarized as follows. (1) Under the typical STO reaction condition, the catalytic activity of the ZnAl2O4(111) surface decreases in the trend of WGS reaction > methanol synthesis > DME formation > olefin hydrogenation > methane formation. The Concerted pathway dominates the olefin hydrogenation, DME generation, and WGS reaction; the Stepwise pathway contributes to methane formation. (2) The driving effect of zeolite towards CO conversion in bifunctional ZnAl2O4/zeolite catalyst was demonstrated. The zeolite activity in the range of 1.6–2.1 eV (Gibbs free energy barrier) significantly affects the catalytic and selectivity of the STO conversion under the typical reaction condition. The “impossible trinity” concept of high “CO conversion-olefin selectivity-space velocity” can be evidenced. (3) The olefin/paraffin ratio decreases gradually with the decrease of reactant flow rate and/or the increase of reaction pressure in bifunctional ZnAl2O4/zeolite catalyst. However, such ratio is still high under the typical STO reaction condition, manifesting that the alkane formation in the STO conversion cannot come primarily from the olefin hydrogenation on ZnAl2O4(111) surface. This work represents the first theoretical step to establish the kinetic picture on the STO conversion by simplifying the zeolite catalyzed reaction and ignoring the proximity effect between oxide and zeolite components. More intricate kinetic simulations and analyses would be required to deal with the proximity and migration issues in the STO conversion. Electronic supporting information Supporting information is available in the online version of this article. Declaration of interest The authors declare no competing interests. Acknowledgments The computational resources from the Sinopec Supercomputer Center (Nanjing) are acknowledged. Supplementary Material Supplementary appendix References 1 X. Pan F. Jiao D. Miao X. Bao Chem. Rev. 121 2021 6588 6609 X. Pan, F. Jiao, D. Miao, X. Bao, Chem. Rev., 2021, 121, 6588–6609. 2 W. Zhou K. Cheng J. Kang C. Zhou V. Subramanian Q. Zhang Y. Wang Chem. Soc. Rev. 48 2019 3193 3228 W. Zhou, K. Cheng, J. Kang, C. Zhou, V. Subramanian, Q. Zhang, Y. Wang, Chem. Soc. Rev., 2019, 48, 3193–3228. 3 S. Kasipandi J.W. Bae Adv. Mater. 31 2019 1803390 S. Kasipandi, J. W. Bae, Adv. Mater., 2019, 31, 1803390. 4 F. Jiao J. Li X. Pan J. Xiao H. Li H. Ma M. Wei Y. Pan Z. Zhou M. Li S. Miao J. Li Y. Zhu D. Xiao T. He J. Yang F. Qi Q. Fu X. Bao Science 351 2016 1065 1068 F. Jiao, J. Li, X. Pan, J. Xiao, H. Li, H. Ma, M. Wei, Y. Pan, Z. Zhou, M. Li, S. Miao, J. Li, Y. Zhu, D. Xiao, T. He, J. Yang, F. Qi, Q. Fu, X. Bao, Science, 2016, 351, 1065–1068. 5 K. Cheng B. Gu X. Liu J. Kang Q. Zhang Y. Wang Angew. Chem. Int. Ed. 55 2016 4725 4728 K. Cheng, B. Gu, X. Liu, J. Kang, Q. Zhang, Y. Wang, Angew. Chem. Int. Ed., 2016, 55, 4725–4728. 6 J. Su H. Zhou S. Liu C. Wang W. Jiao Y. Wang C. Liu Y. Ye L. Zhang Y. Zhao H. Liu D. Wang W. Yang Z. Xie M. He Nat. Commun. 10 2019 1297 J. Su, H. Zhou, S. Liu, C. Wang, W. Jiao, Y. Wang, C. Liu, Y. Ye, L. Zhang, Y. Zhao, H. Liu, D. Wang, W. Yang, Z. Xie, M. He, Nat. Commun., 2019, 10, 1297. 7 F. Jiao B. Bai G. Li X. Pan Y. Ye S. Qu C. Xu J. Xiao Z. Jia W. Liu T. Peng Y. Ding C. Liu J. Li X. Bao Science 380 2023 727 730 F. Jiao, B. Bai, G. Li, X. Pan, Y. Ye, S. Qu, C. Xu, J. Xiao, Z. Jia, W. Liu, T. Peng, Y. Ding, C. Liu, J. Li, X. Bao, Science, 2023, 380, 727–730. 8 P. Tian Y. Wei M. Ye Z. Liu ACS Catal. 5 2015 1922 1938 P. Tian, Y. Wei, M. Ye, Z. Liu, ACS Catal., 2015, 5, 1922–1938. 9 H.M. Torres Galvis K.P. de Jong ACS Catal. 3 2013 2130 2149 H. M. Torres Galvis, K. P. de Jong, ACS Catal., 2013, 3, 2130–2149. 10 L. Zhong F. Yu Y. An Y. Zhao Y. Sun Z. Li T. Lin Y. Lin X. Qi Y. Dai L. Gu J. Hu S. Jin Q. Shen H. Wang Nature 538 2016 84 87 L. Zhong, F. Yu, Y. An, Y. Zhao, Y. Sun, Z. Li, T. Lin, Y. Lin, X. Qi, Y. Dai, L. Gu, J. Hu, S. Jin, Q. Shen, H. Wang, Nature, 2016, 538, 84–87. 11 C.-M. Wang Y.-D. Wang Z.-K. Xie Catal. Sci. Technol. 6 2016 6644 6649 C.-M. Wang, Y.-D. Wang, Z.-K. Xie, Catal. Sci. Technol., 2016, 6, 6644–6649. 12 Y. Ni Y. Liu Z. Chen M. Yang H. Liu Y. He Y. Fu W. Zhu Z. Liu ACS Catal. 9 2018 1026 1032 Y. Ni, Y. Liu, Z. Chen, M. Yang, H. Liu, Y. He, Y. Fu, W. Zhu, Z. Liu, ACS Catal., 2018, 9, 1026–1032. 13 W. Zhou J. Kang K. Cheng S. He J. Shi C. Zhou Q. Zhang J. Chen L. Peng M. Chen Y. Wang Angew. Chem. Int. Ed. 57 2018 12012 12016 W. Zhou, J. Kang, K. Cheng, S. He, J. Shi, C. Zhou, Q. Zhang, J. Chen, L. Peng, M. Chen, Y. Wang, Angew. Chem. Int. Ed., 2018, 57, 12012–12016. 14 A.V. Kirilin J.F. Dewilde V. Santos A. Chojecki K. Scieranka A. Malek Ind. Eng. Chem. Res. 56 2017 13392 13401 A. V. Kirilin, J. F. Dewilde, V. Santos, A. Chojecki, K. Scieranka, A. Malek, Ind. Eng. Chem. Res., 2017, 56, 13392–13401. 15 K. Cheng W. Zhou J. Kang S. He S. Shi Q. Zhang Y. Pan W. Wen Y. Wang Chem 3 2017 334 347 K. Cheng, W. Zhou, J. Kang, S. He, S. Shi, Q. Zhang, Y. Pan, W. Wen, Y. Wang, Chem, 2017, 3, 334–347. 16 G. Raveendra C. Li B. Liu Y. Cheng F. Meng Z. Li Catal. Sci. Technol. 8 2018 3527 3538 G. Raveendra, C. Li, B. Liu, Y. Cheng, F. Meng, Z. Li, Catal. Sci. Technol., 2018, 8, 3527–3538. 17 D.L.S. Nieskens J.D. Lunn A. Malek ACS Catal. 9 2018 691 700 D. L. S. Nieskens, J. D. Lunn, A. Malek, ACS Catal., 2018, 9, 691–700. 18 Z. Liu Y. Ni X. Fang W. Zhu Z. Liu J. Energy Chem. 58 2021 573 576 Z. Liu, Y. Ni, X. Fang, W. Zhu, Z. Liu, J. Energy Chem., 2021, 58, 573–576. 19 N. Li Y. Zhu F. Jiao X. Pan Q. Jiang J. Cai Y. Li W. Tong C. Xu S. Qu B. Bai D. Miao Z. Liu X. Bao Nat. Commun. 13 2022 2472 N. Li, Y. Zhu, F. Jiao, X. Pan, Q. Jiang, J. Cai, Y. Li, W. Tong, C. Xu, S. Qu, B. Bai, D. Miao, Z. Liu, X. Bao, Nat. Commun., 2022, 13, 2472. 20 C. Liu J. Su Y. Xiao J. Zhou S. Liu H. Zhou Y. Ye Y. Lu Y. Zhang W. Jiao L. Zhang Y. Wang C. Wang X. Zheng Z. Xie Chem Catal. 1 2021 896 907 C. Liu, J. Su, Y. Xiao, J. Zhou, S. Liu, H. Zhou, Y. Ye, Y. Lu, Y. Zhang, W. Jiao, L. Zhang, Y. Wang, C. Wang, X. Zheng, Z. Xie, Chem Catal., 2021, 1, 896–907. 21 J. Su C. Liu S. Liu Y. Ye Y. Du H. Zhou S. Liu W. Jiao L. Zhang C. Wang Y. Wang Z. Xie Cell Rep. Phys. Sci. 2 2021 100290 J. Su, C. Liu, S. Liu, Y. Ye, Y. Du, H. Zhou, S. Liu, W. Jiao, L. Zhang, C. Wang, Y. Wang, Z. Xie, Cell Rep. Phys. Sci., 2021, 2, 100290. 22 J. Su L. Zhang H. Zhou Y. Ye X. Zheng C. Liu S. Liu W. Jiao X. Liu C. Wang Y. Wang Z. Xie ACS Catal. 13 2023 2472 2481 J. Su, L. Zhang, H. Zhou, Y. Ye, X. Zheng, C. Liu, S. Liu, W. Jiao, X. Liu, C. Wang, Y. Wang, Z. Xie, ACS Catal., 2023, 13, 2472–2481. 23 M. Wang Y. Han S. Liu Z. Liu D. An Z. Zhang K. Cheng Q. Zhang Y. Wang Chin. J. Catal. 42 2021 2197 2205 M. Wang, Y. Han, S. Liu, Z. Liu, D. An, Z. Zhang, K. Cheng, Q. Zhang, Y. Wang, Chin. J. Catal., 2021, 42, 2197–2205. 24 Y. Ling Y. Ran W. Shao N. Li F. Jiao X. Pan Q. Fu Z. Liu F. Yang X. Bao Chin. J. Catal. 43 2022 2017 2025 Y. Ling, Y. Ran, W. Shao, N. Li, F. Jiao, X. Pan, Q. Fu, Z. Liu, F. Yang, X. Bao, Chin. J. Catal., 2022, 43, 2017–2025. 25 X. Liu W. Zhou Y. Yang K. Cheng J. Kang L. Zhang G. Zhang X. Min Q. Zhang Y. Wang Chem. Sci. 9 2018 4708 4718 X. Liu, W. Zhou, Y. Yang, K. Cheng, J. Kang, L. Zhang, G. Zhang, X. Min, Q. Zhang, Y. Wang, Chem. Sci., 2018, 9, 4708–4718. 26 S. Ma S.-D. Huang Z.-P. Liu Nat. Catal. 2 2019 671 677 S. Ma, S.-D. Huang, Z.-P. Liu, Nat. Catal., 2019, 2, 671–677. 27 Z. Lai N. Sun J. Jin J. Chen H. Wang P. Hu ACS Catal. 2021 12977 12988 Z. Lai, N. Sun, J. Jin, J. Chen, H. Wang, P. Hu, ACS Catal., 2021, 12977–12988. 28 X. Fu J. Li J. Long C. Guo J. Xiao ACS Catal. 11 2021 12264 12273 X. Fu, J. Li, J. Long, C. Guo, J. Xiao, ACS Catal., 2021, 11, 12264–12273. 29 Z. Chen Y. Ni F. Wen Z. Zhou W. Zhu Z. Liu Chin. J. Catal. 42 2021 835 843 Z. Chen, Y. Ni, F. Wen, Z. Zhou, W. Zhu, Z. Liu, Chin. J. Catal., 2021, 42, 835–843. 30 W.-D. Hu C.-M. Wang Y.-D. Wang J. Ke G. Yang Y.-J. Du W.-M. Yang Appl. Surf. Sci. 569 2021 151064 W.-D. Hu, C.-M. Wang, Y.-D. Wang, J. Ke, G. Yang, Y.-J. Du, W.-M. Yang, Appl. Surf. Sci., 2021, 569, 151064. 31 W.-D. Hu J. Ke Y.-D. Wang C.-M. Wang W.-M. Yang Chin. J. Chem. Phys. 35 2022 655 663 W.-D. Hu, J. Ke, Y.-D. Wang, C.-M. Wang, W.-M. Yang, Chin. J. Chem. Phys., 2022, 35, 655–663. 32 Y. Han J. Xu W. Xie Z. Wang P. Hu ACS Catal. 13 2023 15074 15086 Y. Han, J. Xu, W. Xie, Z. Wang, P. Hu, ACS Catal., 2023, 13, 15074–15086. 33 Y. Han J. Xu W. Xie Z. Wang P. Hu ACS Catal. 13 2023 5104 5113 Y. Han, J. Xu, W. Xie, Z. Wang, P. Hu, ACS Catal., 2023, 13, 5104–5113. 34 J. Ke Y.-D. Wang C.-M. Wang Z.-K. Xie Catal. Sci. Technol. 14 2024 3728 3738 J. Ke, Y.-D. Wang, C.-M. Wang, Z.-K. Xie, Catal. Sci. Technol., 2024, 14, 3728–3738. 35 J.L. Weber C.H. Mejía K.P. de Jong P.E. de Jongh Catal. Sci. Technol. 14 2024 4799 4842 J. L. Weber, C. H. Mejía, K. P. de Jong, P. E. de Jongh, Catal. Sci. Technol., 2024, 14, 4799–4842. 36 Y. Ding F. Jiao X. Pan Y. Ji M. Li R. Si Y. Pan G. Hou X. Bao ACS Catal. 11 2021 9729 9737 Y. Ding, F. Jiao, X. Pan, Y. Ji, M. Li, R. Si, Y. Pan, G. Hou, X. Bao, ACS Catal., 2021, 11, 9729–9737. 37 Y. Wang G. Wang L.I. van der Wal K. Cheng Q. Zhang K.P. de Jong Y. Wang Angew. Chem. Int. Ed. 60 2021 17735 17743 Y. Wang, G. Wang, L. I. van der Wal, K. Cheng, Q. Zhang, K. P. de Jong, Y. Wang, Angew. Chem. Int. Ed., 2021, 60, 17735–17743. 38 C.-M. Wang W.-D. Hu Y.-J. Du G. Yang J. Ke Y.-L. Chen Y.-D. Wang Microporous Mesoporous Mater. 364 2024 112856 C.-M. Wang, W.-D. Hu, Y.-J. Du, G. Yang, J. Ke, Y.-L. Chen, Y.-D. Wang, Microporous Mesoporous Mater., 2024, 364, 112856. 39 U. Olsbye S. Svelle M. Bjørgen P. Beato T.V.W. Janssens F. Joensen S. Bordiga K.P. Lillerud Angew. Chem. Int. Ed. 51 2012 5810 5831 U. Olsbye, S. Svelle, M. Bjørgen, P. Beato, T. V. W. Janssens, F. Joensen, S. Bordiga, K. P. Lillerud, Angew. Chem. Int. Ed., 2012, 51, 5810–5831. 40 V. Van Speybroeck K. De Wispelaere J. Van der Mynsbrugge M. Vandichel K. Hemelsoet M. Waroquier Chem. Soc. Rev. 43 2014 7326 7357 V. Van Speybroeck, K. De Wispelaere, J. Van der Mynsbrugge, M. Vandichel, K. Hemelsoet, M. Waroquier, Chem. Soc. Rev., 2014, 43, 7326–7357. 41 C.-M. Wang Y.-D. Wang Z.-K. Xie J. Catal. 301 2013 8 19 C.-M. Wang, Y.-D. Wang, Z.-K. Xie, J. Catal., 2013, 301, 8–19. 42 C.-M. Wang Y.-D. Wang Z.-K. Xie Chin. J. Catal. 39 2018 1272 1279 C.-M. Wang, Y.-D. Wang, Z.-K. Xie, Chin. J. Catal., 2018, 39, 1272–1279. 43 J. Ke W.-D. Hu Y.-J. Du Y.-D. Wang C.-M. Wang Z.-K. Xie ACS Catal. 13 2023 8642 8661 J. Ke, W.-D. Hu, Y.-J. Du, Y.-D. Wang, C.-M. Wang, Z.-K. Xie, ACS Catal., 2023, 13, 8642–8661. 44 A.M. Bahmanpour F. Héroguel M. Kılıç C.J. Baranowski L. Artiglia U. Röthlisberger J.S. Luterbacher O. Kröcher ACS Catal. 9 2019 6243 6251 A. M. Bahmanpour, F. Héroguel, M. Kılıç, C. J. Baranowski, L. Artiglia, U. Röthlisberger, J. S. Luterbacher, O. Kröcher, ACS Catal., 2019, 9, 6243–6251. 45 S. Wang P. Wang D. Shi S. He L. Zhang W. Yan Z. Qin J. Li M. Dong J. Wang U. Olsbye W. Fan ACS Catal. 10 2020 2046 2059 S. Wang, P. Wang, D. Shi, S. He, L. Zhang, W. Yan, Z. Qin, J. Li, M. Dong, J. Wang, U. Olsbye, W. Fan, ACS Catal., 2020, 10, 2046–2059. 46 H. Song D. Laudenschleger J.J. Carey H. Ruland M. Nolan M. Muhler ACS Catal. 7 2017 7610 7622 H. Song, D. Laudenschleger, J. J. Carey, H. Ruland, M. Nolan, M. Muhler, ACS Catal., 2017, 7, 7610–7622. 47 G. Li F. Jiao D. Miao Y. Wang X. Pan T. Yokoi X. Meng F.-S. Xiao A.-N. Parvulescu U. Müller X. Bao J. Energy Chem. 36 2019 141 147 G. Li, F. Jiao, D. Miao, Y. Wang, X. Pan, T. Yokoi, X. Meng, F.-S. Xiao, A.-N. Parvulescu, U. Müller, X. Bao, J. Energy Chem., 2019, 36, 141–147. 48 V.P. Santos G. Pollefeyt D.F. Yancey A. Ciftci Sandikci B. Vanchura D.L.S. Nieskens M. de Kok-Kleiberg A. Kirilin A. Chojecki A. Malek J. Catal. 381 2020 108 120 V. P. Santos, G. Pollefeyt, D. F. Yancey, A. Ciftci Sandikci, B. Vanchura, D. L. S. Nieskens, M. de Kok-Kleiberg, A. Kirilin, A. Chojecki, A. Malek, J. Catal., 2020, 381, 108–120. 49 M. Wang J. Kang X. Xiong F. Zhang K. Cheng Q. Zhang Y. Wang Catal. Today 371 2021 85 92 M. Wang, J. Kang, X. Xiong, F. Zhang, K. Cheng, Q. Zhang, Y. Wang, Catal. Today, 2021, 371, 85–92. 50 X. Han D. Guo Y. Wang S. Huang M.-Y. Wang Y. Wang M. Li S. Wang X. Ma ACS Catal. 14 2024 9812 9828 X. Han, D. Guo, Y. Wang, S. Huang, M.-Y. Wang, Y. Wang, M. Li, S. Wang, X. Ma, ACS Catal., 2024, 14, 9812–9828. 51 X. Liu M. Wang H. Yin J. Hu K. Cheng J. Kang Q. Zhang Y. Wang ACS Catal. 10 2020 8303 8314 X. Liu, M. Wang, H. Yin, J. Hu, K. Cheng, J. Kang, Q. Zhang, Y. Wang, ACS Catal., 2020, 10, 8303–8314. 52 Q. Han P. Gao K. Chen L. Liang Z. Zhao X. Yao D. Xiao X. Han G. Hou Chem 9 2023 721 738 Q. Han, P. Gao, K. Chen, L. Liang, Z. Zhao, X. Yao, D. Xiao, X. Han, G. Hou, Chem, 2023, 9, 721–738. 53 A. Ye Z. Li J. Ding W. Xiong W. Huang ACS Catal. 11 2021 10014 10019 A. Ye, Z. Li, J. Ding, W. Xiong, W. Huang, ACS Catal., 2021, 11, 10014–10019. 54 X. Zhang G. Zhang W. Liu F. Yuan J. Wang J. Zhu X. Jiang A. Zhang F. Ding C. Song X. Guo Appl. Catal. B 284 2021 119700 X. Zhang, G. Zhang, W. Liu, F. Yuan, J. Wang, J. Zhu, X. Jiang, A. Zhang, F. Ding, C. Song, X. Guo, Appl. Catal. B, 2021, 284, 119700. 55 M. Wang L. Zheng G. Wang J. Cui G.-L. Guan Y.-T. Miao J.-F. Wu P. Gao F. Yang Y. Ling X. Luo Q. Zhang G. Fu K. Cheng Y. Wang J. Am. Chem. Soc. 146 2024 14528 14538 M. Wang, L. Zheng, G. Wang, J. Cui, G.-L. Guan, Y.-T. Miao, J.-F. Wu, P. Gao, F. Yang, Y. Ling, X. Luo, Q. Zhang, G. Fu, K. Cheng, Y. Wang, J. Am. Chem. Soc., 2024, 146, 14528–14538. 56 J.P. Perdew K. Burke M. Ernzerhof Phys. Rev. Lett. 77 1996 3865 3868 J. P. Perdew, K. Burke, M. Ernzerhof, Phys. Rev. Lett., 1996, 77, 3865–3868. 57 G. Kresse J. Furthmüller Phys. Rev. B 54 1996 11169 11186 G. Kresse, J. Furthmüller, Phys. Rev. B, 1996, 54, 11169–11186. 58 S. Grimme S. Ehrlich L. Goerigk J. Comput. Chem. 32 2011 1456 1465 S. Grimme, S. Ehrlich, L. Goerigk, J. Comput. Chem., 2011, 32, 1456–1465. 59 G. Kresse D. Joubert Phys. Rev. B 59 1999 1758 1775 G. Kresse, D. Joubert, Phys. Rev. B, 1999, 59, 1758–1775. 60 P.E. Blöchl Phys. Rev. B 50 1994 17953 17979 P. E. Blöchl, Phys. Rev. B, 1994, 50, 17953–17979. 61 H.S.C. O’Neill W.A. Dollase Phys. Chem. Miner. 20 1994 541 555 H. S. C. O’Neill, W. A. Dollase, Phys. Chem. Miner., 1994, 20, 541–555. 62 G. Henkelman H. Jónsson J. Chem. Phys. 111 1999 7010 7022 G. Henkelman, H. Jónsson, J. Chem. Phys., 1999, 111, 7010–7022. 63 Y.J. Du W.D. Hu C.M. Wang J. Zhou G. Yang Y.D. Wang W.M. Yang Catal. Sci. Technol. 11 2021 2031 2046 Y. J. Du, W. D. Hu, C. M. Wang, J. Zhou, G. Yang, Y. D. Wang, W. M. Yang, Catal. Sci. Technol., 2021, 11, 2031–2046. 64 A.J. Medford C. Shi M.J. Hoffmann A.C. Lausche S.R. Fitzgibbon T. Bligaard J.K. Nørskov Catal. Lett. 145 2015 794 807 A. J. Medford, C. Shi, M. J. Hoffmann, A. C. Lausche, S. R. Fitzgibbon, T. Bligaard, J. K. Nørskov, Catal. Lett., 2015, 145, 794–807. 65 J. Chen M. Jia P. Hu H. Wang J. Comput. Chem. 42 2021 379 391 J. Chen, M. Jia, P. Hu, H. Wang, J. Comput. Chem., 2021, 42, 379–391. 66 C.-M. Wang R.Y. Brogaard B.M. Weckhuysen J.K. Nørskov F. Studt J. Phys. Chem. Lett. 5 2014 1516 1521 C.-M. Wang, R. Y. Brogaard, B. M. Weckhuysen, J. K. Nørskov, F. Studt, J. Phys. Chem. Lett., 2014, 5, 1516–1521. 67 C.-M. Wang Y.-D. Wang Z.-K. Xie Catal. Sci. Technol. 9 2019 2245 2252 C.-M. Wang, Y.-D. Wang, Z.-K. Xie, Catal. Sci. Technol., 2019, 9, 2245–2252. 68 B. Bai Y. Ye F. Jiao J. Xiao Y. Pan Z. Cai M. Chen X. Pan X. Bao J. Am. Chem. Soc. 146 2024 34909 34915 B. Bai, Y. Ye, F. Jiao, J. Xiao, Y. Pan, Z. Cai, M. Chen, X. Pan, X. Bao, J. Am. Chem. Soc., 2024, 146, 34909–34915.",
+      "scopus-id": "105009692968",
+      "coredata": {
+        "eid": "1-s2.0-S1872206725646821",
+        "dc:description": "Direct conversion of syngas to light olefins (STO) on bifunctional catalysts has garnered significant attention, yet a comprehensive understanding of the reaction pathway and reaction kinetics remains elusive. Herein, we theoretically addressed the kinetics of the direct STO reaction on typical ZnAl2O4/zeolite catalysts by establishing a complete reaction network, consisting of methanol synthesis and conversion, water gas shift (WGS) reaction, olefin hydrogenation, and other relevant steps. The WGS reaction occurs very readily on ZnAl2O4 surface whereas which is less active towards alkane formation via olefin hydrogenation, and the latter can be attributed to the characteristics of the H2 heterolytic activation and the weak polarity of olefins. The driving effect of zeolite component towards CO conversion was demonstrated by microkinetic simulations, which is sensitive to reaction conditions like space velocity and reaction temperature. Under a fixed ratio of active sites between oxide and zeolite components, the concept of the “impossible trinity” of high CO conversion, high olefin selectivity, and high space velocity can thus be manifested. This work thus provides a comprehensive kinetic picture on the direct STO conversion, offering valuable insights for the design of each component of bifunctional catalysts and the optimization of reaction conditions.",
+        "openArchiveArticle": "false",
+        "prism:coverDate": "2025-06-30",
+        "openaccessUserLicense": null,
+        "prism:aggregationType": "Journal",
+        "prism:url": "https://api.elsevier.com/content/article/pii/S1872206725646821",
+        "dc:creator": [
+          {
+            "@_fa": "true",
+            "$": "Hu, Wende"
+          },
+          {
+            "@_fa": "true",
+            "$": "Ke, Jun"
+          },
+          {
+            "@_fa": "true",
+            "$": "Wang, Yangdong"
+          },
+          {
+            "@_fa": "true",
+            "$": "Wang, Chuanming"
+          }
+        ],
+        "link": [
+          {
+            "@_fa": "true",
+            "@rel": "self",
+            "@href": "https://api.elsevier.com/content/article/pii/S1872206725646821"
+          },
+          {
+            "@_fa": "true",
+            "@rel": "scidir",
+            "@href": "https://www.sciencedirect.com/science/article/pii/S1872206725646821"
+          }
+        ],
+        "dc:format": "application/json",
+        "openaccessType": null,
+        "pii": "S1872-2067(25)64682-1",
+        "prism:volume": "73",
+        "prism:publisher": "Dalian Institute of Chemical Physics, the Chinese Academy of Sciences. Published by Elsevier B.V. All rights are reserved, including those for text and data mining, AI training, and similar technologies.",
+        "dc:title": "First-principles microkinetic simulations revealing the driving effect of zeolite in bifunctional catalysts for the conversion of syngas to olefins",
+        "prism:copyright": "Copyright © 2025 Dalian Institute of Chemical Physics, the Chinese Academy of Sciences. Published by Elsevier B.V. All rights are reserved, including those for text and data mining, AI training, and similar technologies.",
+        "openaccess": "0",
+        "prism:issn": "18722067",
+        "dcterms:subject": [
+          {
+            "@_fa": "true",
+            "$": "Syngas to olefins"
+          },
+          {
+            "@_fa": "true",
+            "$": "Bifunctional catalysis"
+          },
+          {
+            "@_fa": "true",
+            "$": "Microkinetic simulations"
+          },
+          {
+            "@_fa": "true",
+            "$": "Driving effect"
+          },
+          {
+            "@_fa": "true",
+            "$": "Impossible trinity"
+          },
+          {
+            "@_fa": "true",
+            "$": "ZnAl2O4 oxide"
+          }
+        ],
+        "openaccessArticle": "false",
+        "prism:publicationName": "Chinese Journal of Catalysis",
+        "openaccessSponsorType": null,
+        "prism:pageRange": "222-233",
+        "prism:endingPage": "233",
+        "pubType": "fla",
+        "prism:coverDisplayDate": "June 2025",
+        "prism:doi": "10.1016/S1872-2067(25)64682-1",
+        "prism:startingPage": "222",
+        "dc:identifier": "doi:10.1016/S1872-2067(25)64682-1",
+        "openaccessSponsorName": null
+      },
+      "objects": {
+        "object": [
+          {
+            "@category": "standard",
+            "@height": "155",
+            "@width": "301",
+            "@_fa": "true",
+            "$": "https://api.elsevier.com/content/object/eid/1-s2.0-S1872206725646821-fx1.jpg?httpAccept=%2A%2F%2A",
+            "@multimediatype": "JPEG image file",
+            "@type": "IMAGE-DOWNSAMPLED",
+            "@size": "35668",
+            "@ref": "fx1",
+            "@mimetype": "image/jpeg"
+          },
+          {
+            "@category": "standard",
+            "@height": "221",
+            "@width": "374",
+            "@_fa": "true",
+            "$": "https://api.elsevier.com/content/object/eid/1-s2.0-S1872206725646821-gr1.jpg?httpAccept=%2A%2F%2A",
+            "@multimediatype": "JPEG image file",
+            "@type": "IMAGE-DOWNSAMPLED",
+            "@size": "28716",
+            "@ref": "gr1",
+            "@mimetype": "image/jpeg"
+          },
+          {
+            "@category": "standard",
+            "@height": "368",
+            "@width": "309",
+            "@_fa": "true",
+            "$": "https://api.elsevier.com/content/object/eid/1-s2.0-S1872206725646821-gr10.jpg?httpAccept=%2A%2F%2A",
+            "@multimediatype": "JPEG image file",
+            "@type": "IMAGE-DOWNSAMPLED",
+            "@size": "38410",
+            "@ref": "gr10",
+            "@mimetype": "image/jpeg"
+          },
+          {
+            "@category": "standard",
+            "@height": "127",
+            "@width": "374",
+            "@_fa": "true",
+            "$": "https://api.elsevier.com/content/object/eid/1-s2.0-S1872206725646821-gr11.jpg?httpAccept=%2A%2F%2A",
+            "@multimediatype": "JPEG image file",
+            "@type": "IMAGE-DOWNSAMPLED",
+            "@size": "19203",
+            "@ref": "gr11",
+            "@mimetype": "image/jpeg"
+          },
+          {
+            "@category": "standard",
+            "@height": "288",
+            "@width": "665",
+            "@_fa": "true",
+            "$": "https://api.elsevier.com/content/object/eid/1-s2.0-S1872206725646821-gr12.jpg?httpAccept=%2A%2F%2A",
+            "@multimediatype": "JPEG image file",
+            "@type": "IMAGE-DOWNSAMPLED",
+            "@size": "45661",
+            "@ref": "gr12",
+            "@mimetype": "image/jpeg"
+          },
+          {
+            "@category": "standard",
+            "@height": "259",
+            "@width": "655",
+            "@_fa": "true",
+            "$": "https://api.elsevier.com/content/object/eid/1-s2.0-S1872206725646821-gr2.jpg?httpAccept=%2A%2F%2A",
+            "@multimediatype": "JPEG image file",
+            "@type": "IMAGE-DOWNSAMPLED",
+            "@size": "59605",
+            "@ref": "gr2",
+            "@mimetype": "image/jpeg"
+          },
+          {
+            "@category": "standard",
+            "@height": "314",
+            "@width": "553",
+            "@_fa": "true",
+            "$": "https://api.elsevier.com/content/object/eid/1-s2.0-S1872206725646821-gr3.jpg?httpAccept=%2A%2F%2A",
+            "@multimediatype": "JPEG image file",
+            "@type": "IMAGE-DOWNSAMPLED",
+            "@size": "77822",
+            "@ref": "gr3",
+            "@mimetype": "image/jpeg"
+          },
+          {
+            "@category": "standard",
+            "@height": "282",
+            "@width": "438",
+            "@_fa": "true",
+            "$": "https://api.elsevier.com/content/object/eid/1-s2.0-S1872206725646821-gr4.jpg?httpAccept=%2A%2F%2A",
+            "@multimediatype": "JPEG image file",
+            "@type": "IMAGE-DOWNSAMPLED",
+            "@size": "67115",
+            "@ref": "gr4",
+            "@mimetype": "image/jpeg"
+          },
+          {
+            "@category": "standard",
+            "@height": "264",
+            "@width": "366",
+            "@_fa": "true",
+            "$": "https://api.elsevier.com/content/object/eid/1-s2.0-S1872206725646821-gr5.jpg?httpAccept=%2A%2F%2A",
+            "@multimediatype": "JPEG image file",
+            "@type": "IMAGE-DOWNSAMPLED",
+            "@size": "34730",
+            "@ref": "gr5",
+            "@mimetype": "image/jpeg"
+          },
+          {
+            "@category": "standard",
+            "@height": "201",
+            "@width": "440",
+            "@_fa": "true",
+            "$": "https://api.elsevier.com/content/object/eid/1-s2.0-S1872206725646821-gr6.jpg?httpAccept=%2A%2F%2A",
+            "@multimediatype": "JPEG image file",
+            "@type": "IMAGE-DOWNSAMPLED",
+            "@size": "32694",
+            "@ref": "gr6",
+            "@mimetype": "image/jpeg"
+          },
+          {
+            "@category": "standard",
+            "@height": "388",
+            "@width": "584",
+            "@_fa": "true",
+            "$": "https://api.elsevier.com/content/object/eid/1-s2.0-S1872206725646821-gr7.jpg?httpAccept=%2A%2F%2A",
+            "@multimediatype": "JPEG image file",
+            "@type": "IMAGE-DOWNSAMPLED",
+            "@size": "95854",
+            "@ref": "gr7",
+            "@mimetype": "image/jpeg"
+          },
+          {
+            "@category": "standard",
+            "@height": "267",
+            "@width": "734",
+            "@_fa": "true",
+            "$": "https://api.elsevier.com/content/object/eid/1-s2.0-S1872206725646821-gr8.jpg?httpAccept=%2A%2F%2A",
+            "@multimediatype": "JPEG image file",
+            "@type": "IMAGE-DOWNSAMPLED",
+            "@size": "66821",
+            "@ref": "gr8",
+            "@mimetype": "image/jpeg"
+          },
+          {
+            "@category": "standard",
+            "@height": "221",
+            "@width": "479",
+            "@_fa": "true",
+            "$": "https://api.elsevier.com/content/object/eid/1-s2.0-S1872206725646821-gr9.jpg?httpAccept=%2A%2F%2A",
+            "@multimediatype": "JPEG image file",
+            "@type": "IMAGE-DOWNSAMPLED",
+            "@size": "38437",
+            "@ref": "gr9",
+            "@mimetype": "image/jpeg"
+          },
+          {
+            "@category": "thumbnail",
+            "@height": "113",
+            "@width": "219",
+            "@_fa": "true",
+            "$": "https://api.elsevier.com/content/object/eid/1-s2.0-S1872206725646821-fx1.sml?httpAccept=%2A%2F%2A",
+            "@multimediatype": "GIF image file",
+            "@type": "IMAGE-THUMBNAIL",
+            "@size": "15213",
+            "@ref": "fx1",
+            "@mimetype": "image/gif"
+          },
+          {
+            "@category": "thumbnail",
+            "@height": "129",
+            "@width": "219",
+            "@_fa": "true",
+            "$": "https://api.elsevier.com/content/object/eid/1-s2.0-S1872206725646821-gr1.sml?httpAccept=%2A%2F%2A",
+            "@multimediatype": "GIF image file",
+            "@type": "IMAGE-THUMBNAIL",
+            "@size": "8715",
+            "@ref": "gr1",
+            "@mimetype": "image/gif"
+          },
+          {
+            "@category": "thumbnail",
+            "@height": "163",
+            "@width": "137",
+            "@_fa": "true",
+            "$": "https://api.elsevier.com/content/object/eid/1-s2.0-S1872206725646821-gr10.sml?httpAccept=%2A%2F%2A",
+            "@multimediatype": "GIF image file",
+            "@type": "IMAGE-THUMBNAIL",
+            "@size": "7569",
+            "@ref": "gr10",
+            "@mimetype": "image/gif"
+          },
+          {
+            "@category": "thumbnail",
+            "@height": "74",
+            "@width": "219",
+            "@_fa": "true",
+            "$": "https://api.elsevier.com/content/object/eid/1-s2.0-S1872206725646821-gr11.sml?httpAccept=%2A%2F%2A",
+            "@multimediatype": "GIF image file",
+            "@type": "IMAGE-THUMBNAIL",
+            "@size": "6397",
+            "@ref": "gr11",
+            "@mimetype": "image/gif"
+          },
+          {
+            "@category": "thumbnail",
+            "@height": "95",
+            "@width": "219",
+            "@_fa": "true",
+            "$": "https://api.elsevier.com/content/object/eid/1-s2.0-S1872206725646821-gr12.sml?httpAccept=%2A%2F%2A",
+            "@multimediatype": "GIF image file",
+            "@type": "IMAGE-THUMBNAIL",
+            "@size": "5641",
+            "@ref": "gr12",
+            "@mimetype": "image/gif"
+          },
+          {
+            "@category": "thumbnail",
+            "@height": "87",
+            "@width": "219",
+            "@_fa": "true",
+            "$": "https://api.elsevier.com/content/object/eid/1-s2.0-S1872206725646821-gr2.sml?httpAccept=%2A%2F%2A",
+            "@multimediatype": "GIF image file",
+            "@type": "IMAGE-THUMBNAIL",
+            "@size": "7203",
+            "@ref": "gr2",
+            "@mimetype": "image/gif"
+          },
+          {
+            "@category": "thumbnail",
+            "@height": "124",
+            "@width": "219",
+            "@_fa": "true",
+            "$": "https://api.elsevier.com/content/object/eid/1-s2.0-S1872206725646821-gr3.sml?httpAccept=%2A%2F%2A",
+            "@multimediatype": "GIF image file",
+            "@type": "IMAGE-THUMBNAIL",
+            "@size": "12802",
+            "@ref": "gr3",
+            "@mimetype": "image/gif"
+          },
+          {
+            "@category": "thumbnail",
+            "@height": "141",
+            "@width": "219",
+            "@_fa": "true",
+            "$": "https://api.elsevier.com/content/object/eid/1-s2.0-S1872206725646821-gr4.sml?httpAccept=%2A%2F%2A",
+            "@multimediatype": "GIF image file",
+            "@type": "IMAGE-THUMBNAIL",
+            "@size": "17610",
+            "@ref": "gr4",
+            "@mimetype": "image/gif"
+          },
+          {
+            "@category": "thumbnail",
+            "@height": "158",
+            "@width": "219",
+            "@_fa": "true",
+            "$": "https://api.elsevier.com/content/object/eid/1-s2.0-S1872206725646821-gr5.sml?httpAccept=%2A%2F%2A",
+            "@multimediatype": "GIF image file",
+            "@type": "IMAGE-THUMBNAIL",
+            "@size": "9556",
+            "@ref": "gr5",
+            "@mimetype": "image/gif"
+          },
+          {
+            "@category": "thumbnail",
+            "@height": "100",
+            "@width": "219",
+            "@_fa": "true",
+            "$": "https://api.elsevier.com/content/object/eid/1-s2.0-S1872206725646821-gr6.sml?httpAccept=%2A%2F%2A",
+            "@multimediatype": "GIF image file",
+            "@type": "IMAGE-THUMBNAIL",
+            "@size": "9389",
+            "@ref": "gr6",
+            "@mimetype": "image/gif"
+          },
+          {
+            "@category": "thumbnail",
+            "@height": "145",
+            "@width": "219",
+            "@_fa": "true",
+            "$": "https://api.elsevier.com/content/object/eid/1-s2.0-S1872206725646821-gr7.sml?httpAccept=%2A%2F%2A",
+            "@multimediatype": "GIF image file",
+            "@type": "IMAGE-THUMBNAIL",
+            "@size": "16213",
+            "@ref": "gr7",
+            "@mimetype": "image/gif"
+          },
+          {
+            "@category": "thumbnail",
+            "@height": "80",
+            "@width": "219",
+            "@_fa": "true",
+            "$": "https://api.elsevier.com/content/object/eid/1-s2.0-S1872206725646821-gr8.sml?httpAccept=%2A%2F%2A",
+            "@multimediatype": "GIF image file",
+            "@type": "IMAGE-THUMBNAIL",
+            "@size": "6232",
+            "@ref": "gr8",
+            "@mimetype": "image/gif"
+          },
+          {
+            "@category": "thumbnail",
+            "@height": "101",
+            "@width": "219",
+            "@_fa": "true",
+            "$": "https://api.elsevier.com/content/object/eid/1-s2.0-S1872206725646821-gr9.sml?httpAccept=%2A%2F%2A",
+            "@multimediatype": "GIF image file",
+            "@type": "IMAGE-THUMBNAIL",
+            "@size": "10387",
+            "@ref": "gr9",
+            "@mimetype": "image/gif"
+          },
+          {
+            "@category": "high",
+            "@height": "411",
+            "@width": "800",
+            "@_fa": "true",
+            "$": "https://api.elsevier.com/content/object/eid/1-s2.0-S1872206725646821-fx1_lrg.jpg?httpAccept=%2A%2F%2A",
+            "@multimediatype": "JPEG image file",
+            "@type": "IMAGE-HIGH-RES",
+            "@size": "145488",
+            "@ref": "fx1",
+            "@mimetype": "image/jpeg"
+          },
+          {
+            "@category": "high",
+            "@height": "587",
+            "@width": "994",
+            "@_fa": "true",
+            "$": "https://api.elsevier.com/content/object/eid/1-s2.0-S1872206725646821-gr1_lrg.jpg?httpAccept=%2A%2F%2A",
+            "@multimediatype": "JPEG image file",
+            "@type": "IMAGE-HIGH-RES",
+            "@size": "112327",
+            "@ref": "gr1",
+            "@mimetype": "image/jpeg"
+          },
+          {
+            "@category": "high",
+            "@height": "978",
+            "@width": "821",
+            "@_fa": "true",
+            "$": "https://api.elsevier.com/content/object/eid/1-s2.0-S1872206725646821-gr10_lrg.jpg?httpAccept=%2A%2F%2A",
+            "@multimediatype": "JPEG image file",
+            "@type": "IMAGE-HIGH-RES",
+            "@size": "152691",
+            "@ref": "gr10",
+            "@mimetype": "image/jpeg"
+          },
+          {
+            "@category": "high",
+            "@height": "337",
+            "@width": "994",
+            "@_fa": "true",
+            "$": "https://api.elsevier.com/content/object/eid/1-s2.0-S1872206725646821-gr11_lrg.jpg?httpAccept=%2A%2F%2A",
+            "@multimediatype": "JPEG image file",
+            "@type": "IMAGE-HIGH-RES",
+            "@size": "72034",
+            "@ref": "gr11",
+            "@mimetype": "image/jpeg"
+          },
+          {
+            "@category": "high",
+            "@height": "765",
+            "@width": "1767",
+            "@_fa": "true",
+            "$": "https://api.elsevier.com/content/object/eid/1-s2.0-S1872206725646821-gr12_lrg.jpg?httpAccept=%2A%2F%2A",
+            "@multimediatype": "JPEG image file",
+            "@type": "IMAGE-HIGH-RES",
+            "@size": "180550",
+            "@ref": "gr12",
+            "@mimetype": "image/jpeg"
+          },
+          {
+            "@category": "high",
+            "@height": "688",
+            "@width": "1740",
+            "@_fa": "true",
+            "$": "https://api.elsevier.com/content/object/eid/1-s2.0-S1872206725646821-gr2_lrg.jpg?httpAccept=%2A%2F%2A",
+            "@multimediatype": "JPEG image file",
+            "@type": "IMAGE-HIGH-RES",
+            "@size": "236313",
+            "@ref": "gr2",
+            "@mimetype": "image/jpeg"
+          },
+          {
+            "@category": "high",
+            "@height": "835",
+            "@width": "1470",
+            "@_fa": "true",
+            "$": "https://api.elsevier.com/content/object/eid/1-s2.0-S1872206725646821-gr3_lrg.jpg?httpAccept=%2A%2F%2A",
+            "@multimediatype": "JPEG image file",
+            "@type": "IMAGE-HIGH-RES",
+            "@size": "320415",
+            "@ref": "gr3",
+            "@mimetype": "image/jpeg"
+          },
+          {
+            "@category": "high",
+            "@height": "749",
+            "@width": "1164",
+            "@_fa": "true",
+            "$": "https://api.elsevier.com/content/object/eid/1-s2.0-S1872206725646821-gr4_lrg.jpg?httpAccept=%2A%2F%2A",
+            "@multimediatype": "JPEG image file",
+            "@type": "IMAGE-HIGH-RES",
+            "@size": "275565",
+            "@ref": "gr4",
+            "@mimetype": "image/jpeg"
+          },
+          {
+            "@category": "high",
+            "@height": "702",
+            "@width": "974",
+            "@_fa": "true",
+            "$": "https://api.elsevier.com/content/object/eid/1-s2.0-S1872206725646821-gr5_lrg.jpg?httpAccept=%2A%2F%2A",
+            "@multimediatype": "JPEG image file",
+            "@type": "IMAGE-HIGH-RES",
+            "@size": "135651",
+            "@ref": "gr5",
+            "@mimetype": "image/jpeg"
+          },
+          {
+            "@category": "high",
+            "@height": "533",
+            "@width": "1169",
+            "@_fa": "true",
+            "$": "https://api.elsevier.com/content/object/eid/1-s2.0-S1872206725646821-gr6_lrg.jpg?httpAccept=%2A%2F%2A",
+            "@multimediatype": "JPEG image file",
+            "@type": "IMAGE-HIGH-RES",
+            "@size": "139179",
+            "@ref": "gr6",
+            "@mimetype": "image/jpeg"
+          },
+          {
+            "@category": "high",
+            "@height": "1031",
+            "@width": "1552",
+            "@_fa": "true",
+            "$": "https://api.elsevier.com/content/object/eid/1-s2.0-S1872206725646821-gr7_lrg.jpg?httpAccept=%2A%2F%2A",
+            "@multimediatype": "JPEG image file",
+            "@type": "IMAGE-HIGH-RES",
+            "@size": "369435",
+            "@ref": "gr7",
+            "@mimetype": "image/jpeg"
+          },
+          {
+            "@category": "high",
+            "@height": "710",
+            "@width": "1950",
+            "@_fa": "true",
+            "$": "https://api.elsevier.com/content/object/eid/1-s2.0-S1872206725646821-gr8_lrg.jpg?httpAccept=%2A%2F%2A",
+            "@multimediatype": "JPEG image file",
+            "@type": "IMAGE-HIGH-RES",
+            "@size": "271248",
+            "@ref": "gr8",
+            "@mimetype": "image/jpeg"
+          },
+          {
+            "@category": "high",
+            "@height": "587",
+            "@width": "1272",
+            "@_fa": "true",
+            "$": "https://api.elsevier.com/content/object/eid/1-s2.0-S1872206725646821-gr9_lrg.jpg?httpAccept=%2A%2F%2A",
+            "@multimediatype": "JPEG image file",
+            "@type": "IMAGE-HIGH-RES",
+            "@size": "149041",
+            "@ref": "gr9",
+            "@mimetype": "image/jpeg"
+          },
+          {
+            "@category": "standard",
+            "@_fa": "true",
+            "$": "https://api.elsevier.com/content/object/eid/1-s2.0-S1872206725646821-mmc1.pdf?httpAccept=%2A%2F%2A",
+            "@multimediatype": "Acrobat PDF file",
+            "@type": "APPLICATION",
+            "@size": "5632929",
+            "@ref": "mmc1",
+            "@mimetype": "application/pdf"
+          },
+          {
+            "@category": "thumbnail",
+            "@height": "30",
+            "@width": "157",
+            "@_fa": "true",
+            "$": "https://api.elsevier.com/content/object/eid/1-s2.0-S1872206725646821-si1.gif?httpAccept=%2A%2F%2A",
+            "@multimediatype": "GIF image file",
+            "@type": "ALTIMG",
+            "@size": "648",
+            "@ref": "si1",
+            "@mimetype": "image/gif"
+          }
+        ]
+      },
+      "link": {
+        "@rel": "abstract",
+        "@href": "https://api.elsevier.com/content/abstract/scopus_id/105009692968"
+      }
+    }
+  }
+}

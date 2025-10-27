@@ -1,0 +1,648 @@
+{
+  "metadata": {
+    "title": "Experimental and computational study of the catalytic activity of Pd and PdCu nanoparticle catalysts and clusters supported on reduced graphene oxide and graphene acid for the suzuki cross-coupling reaction",
+    "authors": "; ; ",
+    "journal": "Applied Catalysis A: General",
+    "date": "2023-10-25",
+    "doi": "10.1016/j.apcata.2023.119448",
+    "abstract": "",
+    "uri": "https://api.elsevier.com/content/article/pii/S0926860X23004283",
+    "pii": "S0926860X23004283"
+  },
+  "fulltext": {
+    "full-text-retrieval-response": {
+      "scopus-eid": "2-s2.0-85174706999",
+      "originalText": "serial JL 271346 291210 291744 291809 31 Applied Catalysis A: General APPLIEDCATALYSISAGENERAL 2023-10-10 2023-10-10 2023-10-18 2023-10-18 2023-10-31T20:53:05 1-s2.0-S0926860X23004283 S0926-860X(23)00428-3 S0926860X23004283 10.1016/j.apcata.2023.119448 S300 S300.1 FULL-TEXT 1-s2.0-S0926860X23X00180 2024-01-01T12:35:59.692098Z 0 0 20231025 2023 2023-10-10T09:29:20.43443Z absattachment articleinfo articlenumber articletitlenorm authfirstinitialnorm authfirstsurnamenorm cid cids contenttype copyright crossmark dateloaded dateloadedtxt datesearch datesort dateupdated dco docsubtype doctype doi eid ewtransactionid hubeid indexeddate issn issnnorm itemstage itemtransactionid itemweight openaccess openarchive pg pgfirst pii piinorm pubdatestart pubdatetxt pubyr sortorder srctitle srctitlenorm srctype ssids alllist content subj subheadings suppl tomb volfirst volissue volumelist webpdf webpdfpagecount yearnav figure e-component body mmlmath acknowledge affil appendices articletitle auth authfirstini authfull authkeywords authlast grantnumber grantsponsor grantsponsorid highlightsabst orcid primabst ref specialabst 0926-860X 0926860X true 667 667 C Volume 667 9 119448 119448 119448 20231025 25 October 2023 2023-10-25 2023 article fla © 2023 Elsevier B.V. All rights reserved. EXPERIMENTALCOMPUTATIONALSTUDYCATALYTICACTIVITYPDPDCUNANOPARTICLECATALYSTSCLUSTERSSUPPORTEDREDUCEDGRAPHENEOXIDEGRAPHENEACIDFORSUZUKICROSSCOUPLINGREACTION SENGUPTA T 1 Introduction 2 Methods 2.1 Experimental details 2.1.1 Synthesis of graphene oxide (GO) 2.1.2 Synthesis of graphene acid (GA) 2.1.3 Synthesis of Pd and Pd-Cu catalysts by H2 reduction 2.1.4 Procedure for room temperature Suzuki cross-coupling reactions 2.1.5 Characterization techniques 2.2 Computational details 3 Results and discussion 3.1 Experimental results 3.2 Computational results 4 Conclusions CRediT authorship contribution statement Acknowledgments Supplementary Material Appendix A Supplementary material References MIYAURA 1995 2457 2483 N SUZUKI 2002 83 90 A BALANTA 2011 4973 4985 A BIFFIS 2018 2249 2295 A SIAMAKI 2011 1 11 A YANG 2018 20 26 Y YANG 2016 19564 19572 Y YANG 2018 25396 25403 Y SCHEUERMANN 2009 8262 8270 G MOUSSA 2011 145 154 S NISHINA 2012 9380 9382 Y ELAZAB 2015 58 69 H ELAZAB 2017 1510 1522 H IBRAHIM 2020 194 203 A YU 2020 15328 15345 W MOUSSA 2011 179 184 S ABDELSAYED 2010 2804 2809 V MOUSSA 2014 535 545 S BAKANDRITSOS 2017 2982 2991 A OBRAZTSOV 2022 2103010 I LENARDA 2019 19944 19952 A BLANCO 2019 9438 9445 M EIGLER 2014 7720 7738 S DREYER 2009 228 240 D CHIU 2020 234 N LI 2020 10032 10039 M WANG 2020 2000338 Y NOROUZI 2020 19191 19202 N HUMMERS 1958 W TEVELDE 2001 931 967 G PERDEW 1996 3865 J VANLENTHE 1996 6505 6516 E FAN 1991 7401 7408 L SWART 2006 2536 2544 M BERCES 1997 247 262 A JACOBSEN 1997 263 276 H HIRSHFELD 1977 129 138 F DRESSELHAUS 2010 751 758 M LABULO 2017 9225 9248 A MOLANDER 2003 4302 4314 G MAHANTA 2017 e3679 A REIZMAN 2016 658 666 B SPERGER 2017 2914 2922 T ALVARO 2009 7858 7868 E BANHART 2011 26 41 F GRACIAESPINO 2014 6626 6633 E LENNOX 2014 412 443 A ZHANG 2014 1198 1201 B SENGUPTA 2021 11459 11468 T SENGUPTAX2023X119448 SENGUPTAX2023X119448XT CHU_NSF publishAcceptedManuscriptIndexable http://www.elsevier.com/open-access/userlicense/1.0/ 2024-10-18T00:00:00.000Z http://creativecommons.org/licenses/by-nc-nd/4.0/ © 2023 Elsevier B.V. All rights reserved. 2023-10-28T03:48:34.731Z http://vtw.elsevier.com/data/voc/AddOnTypes/50.7/aggregated-refined https://doi.org/10.15223/policy-017 https://doi.org/10.15223/policy-037 https://doi.org/10.15223/policy-012 https://doi.org/10.15223/policy-029 https://doi.org/10.15223/policy-004 item S0926-860X(23)00428-3 S0926860X23004283 1-s2.0-S0926860X23004283 10.1016/j.apcata.2023.119448 271346 2024-01-01T12:35:59.692098Z 2023-10-25 1-s2.0-S0926860X23004283-main.pdf https://s3-eu-west-1.amazonaws.com/prod-ucs-content-store-eu-west/content/pii:S0926860X23004283/MAIN/application/pdf/fccc0c0cd99364d35bb3cd612d3ab500/main.pdf main.pdf pdf true 8504805 MAIN 10 1-s2.0-S0926860X23004283-main_1.png https://s3-eu-west-1.amazonaws.com/prod-ucs-content-store-eu-west/content/pii:S0926860X23004283/PREVIEW/image/png/fd649fc737a2faf16f606d166841c00d/main_1.png main_1.png png 57399 849 656 IMAGE-WEB-PDF 1 1-s2.0-S0926860X23004283-gr3.jpg https://s3-eu-west-1.amazonaws.com/prod-ucs-content-store-eu-west/content/pii:S0926860X23004283/gr3/DOWNSAMPLED/image/jpeg/3d4979b9cafd530431269b1e1e9fcc8a/gr3.jpg gr3 gr3.jpg jpg 149492 478 791 IMAGE-DOWNSAMPLED 1-s2.0-S0926860X23004283-gr4.jpg https://s3-eu-west-1.amazonaws.com/prod-ucs-content-store-eu-west/content/pii:S0926860X23004283/gr4/DOWNSAMPLED/image/jpeg/8e66eb4b8144cbc59338098977dfb041/gr4.jpg gr4 gr4.jpg jpg 62113 422 508 IMAGE-DOWNSAMPLED 1-s2.0-S0926860X23004283-gr1.jpg https://s3-eu-west-1.amazonaws.com/prod-ucs-content-store-eu-west/content/pii:S0926860X23004283/gr1/DOWNSAMPLED/image/jpeg/cfb52e84d96afc2df675916f24d332ce/gr1.jpg gr1 gr1.jpg jpg 34776 288 678 IMAGE-DOWNSAMPLED 1-s2.0-S0926860X23004283-gr2.jpg https://s3-eu-west-1.amazonaws.com/prod-ucs-content-store-eu-west/content/pii:S0926860X23004283/gr2/DOWNSAMPLED/image/jpeg/f4f7e99e196c10f30b31f97c9b99a13a/gr2.jpg gr2 gr2.jpg jpg 147702 486 791 IMAGE-DOWNSAMPLED 1-s2.0-S0926860X23004283-sc1.jpg https://s3-eu-west-1.amazonaws.com/prod-ucs-content-store-eu-west/content/pii:S0926860X23004283/sc1/DOWNSAMPLED/image/jpeg/af5105f44f1e640ee420b72deb1a39a2/sc1.jpg sc1 sc1.jpg jpg 6376 80 339 IMAGE-DOWNSAMPLED 1-s2.0-S0926860X23004283-gr10.jpg https://s3-eu-west-1.amazonaws.com/prod-ucs-content-store-eu-west/content/pii:S0926860X23004283/gr10/DOWNSAMPLED/image/jpeg/3fc91eb365302a3882bb30bd2c43cb4b/gr10.jpg gr10 gr10.jpg jpg 59793 348 565 IMAGE-DOWNSAMPLED 1-s2.0-S0926860X23004283-gr11.jpg https://s3-eu-west-1.amazonaws.com/prod-ucs-content-store-eu-west/content/pii:S0926860X23004283/gr11/DOWNSAMPLED/image/jpeg/7eec434aa61065fb18b4965baefa06d0/gr11.jpg gr11 gr11.jpg jpg 30140 306 376 IMAGE-DOWNSAMPLED 1-s2.0-S0926860X23004283-ga1.jpg https://s3-eu-west-1.amazonaws.com/prod-ucs-content-store-eu-west/content/pii:S0926860X23004283/ga1/DOWNSAMPLED/image/jpeg/5bcde3a8a88451a0bfd4fc7a7d4e0eb1/ga1.jpg ga1 true ga1.jpg jpg 32171 200 369 IMAGE-DOWNSAMPLED 1-s2.0-S0926860X23004283-gr9.jpg https://s3-eu-west-1.amazonaws.com/prod-ucs-content-store-eu-west/content/pii:S0926860X23004283/gr9/DOWNSAMPLED/image/jpeg/31acff05dfe8b48f93e75b59eef6ef14/gr9.jpg gr9 gr9.jpg jpg 58147 365 565 IMAGE-DOWNSAMPLED 1-s2.0-S0926860X23004283-gr7.jpg https://s3-eu-west-1.amazonaws.com/prod-ucs-content-store-eu-west/content/pii:S0926860X23004283/gr7/DOWNSAMPLED/image/jpeg/146b8831cac5844107f271b26ed31108/gr7.jpg gr7 gr7.jpg jpg 57810 363 565 IMAGE-DOWNSAMPLED 1-s2.0-S0926860X23004283-gr8.jpg https://s3-eu-west-1.amazonaws.com/prod-ucs-content-store-eu-west/content/pii:S0926860X23004283/gr8/DOWNSAMPLED/image/jpeg/825231a875bd13282a88e8041a3738eb/gr8.jpg gr8 gr8.jpg jpg 53150 329 565 IMAGE-DOWNSAMPLED 1-s2.0-S0926860X23004283-gr5.jpg https://s3-eu-west-1.amazonaws.com/prod-ucs-content-store-eu-west/content/pii:S0926860X23004283/gr5/DOWNSAMPLED/image/jpeg/a064af02f338bdcce0305e8cc1095794/gr5.jpg gr5 gr5.jpg jpg 26658 320 392 IMAGE-DOWNSAMPLED 1-s2.0-S0926860X23004283-gr6.jpg https://s3-eu-west-1.amazonaws.com/prod-ucs-content-store-eu-west/content/pii:S0926860X23004283/gr6/DOWNSAMPLED/image/jpeg/36b75e49d3b18a82a8a246f75e6132a8/gr6.jpg gr6 gr6.jpg jpg 84946 450 678 IMAGE-DOWNSAMPLED 1-s2.0-S0926860X23004283-gr3.sml https://s3-eu-west-1.amazonaws.com/prod-ucs-content-store-eu-west/content/pii:S0926860X23004283/gr3/THUMBNAIL/image/gif/4c87d2a6029af5637497e542914614a1/gr3.sml gr3 gr3.sml sml 18920 132 219 IMAGE-THUMBNAIL 1-s2.0-S0926860X23004283-gr4.sml https://s3-eu-west-1.amazonaws.com/prod-ucs-content-store-eu-west/content/pii:S0926860X23004283/gr4/THUMBNAIL/image/gif/17b8366399fff4eae6092bec620f91d5/gr4.sml gr4 gr4.sml sml 12148 164 197 IMAGE-THUMBNAIL 1-s2.0-S0926860X23004283-gr1.sml https://s3-eu-west-1.amazonaws.com/prod-ucs-content-store-eu-west/content/pii:S0926860X23004283/gr1/THUMBNAIL/image/gif/e1f41ef3ded693fcab8f66436dfb1175/gr1.sml gr1 gr1.sml sml 4787 93 219 IMAGE-THUMBNAIL 1-s2.0-S0926860X23004283-gr2.sml https://s3-eu-west-1.amazonaws.com/prod-ucs-content-store-eu-west/content/pii:S0926860X23004283/gr2/THUMBNAIL/image/gif/1fc52010cfa473e9f880f23292de7b6a/gr2.sml gr2 gr2.sml sml 19719 134 219 IMAGE-THUMBNAIL 1-s2.0-S0926860X23004283-sc1.sml https://s3-eu-west-1.amazonaws.com/prod-ucs-content-store-eu-west/content/pii:S0926860X23004283/sc1/THUMBNAIL/image/gif/2bf37189442ce19edd13e72f9afc1f3b/sc1.sml sc1 sc1.sml sml 2814 52 219 IMAGE-THUMBNAIL 1-s2.0-S0926860X23004283-gr10.sml https://s3-eu-west-1.amazonaws.com/prod-ucs-content-store-eu-west/content/pii:S0926860X23004283/gr10/THUMBNAIL/image/gif/00ad5137e4d27be4955437d3133698e3/gr10.sml gr10 gr10.sml sml 12111 135 219 IMAGE-THUMBNAIL 1-s2.0-S0926860X23004283-gr11.sml https://s3-eu-west-1.amazonaws.com/prod-ucs-content-store-eu-west/content/pii:S0926860X23004283/gr11/THUMBNAIL/image/gif/92bf80e8613dbb040585266b8deb4bec/gr11.sml gr11 gr11.sml sml 16704 164 201 IMAGE-THUMBNAIL 1-s2.0-S0926860X23004283-ga1.sml https://s3-eu-west-1.amazonaws.com/prod-ucs-content-store-eu-west/content/pii:S0926860X23004283/ga1/THUMBNAIL/image/gif/5bc20f42a9a7ff8c3d6bebcadd0a92e8/ga1.sml ga1 true ga1.sml sml 22072 119 219 IMAGE-THUMBNAIL 1-s2.0-S0926860X23004283-gr9.sml https://s3-eu-west-1.amazonaws.com/prod-ucs-content-store-eu-west/content/pii:S0926860X23004283/gr9/THUMBNAIL/image/gif/0aacefc018de4327127c325d9d16c773/gr9.sml gr9 gr9.sml sml 11713 141 219 IMAGE-THUMBNAIL 1-s2.0-S0926860X23004283-gr7.sml https://s3-eu-west-1.amazonaws.com/prod-ucs-content-store-eu-west/content/pii:S0926860X23004283/gr7/THUMBNAIL/image/gif/5cb3b1ac55bd6a1564605dc9b50201e6/gr7.sml gr7 gr7.sml sml 11964 141 219 IMAGE-THUMBNAIL 1-s2.0-S0926860X23004283-gr8.sml https://s3-eu-west-1.amazonaws.com/prod-ucs-content-store-eu-west/content/pii:S0926860X23004283/gr8/THUMBNAIL/image/gif/f400c8e71d88f636ce04d88cf6d2f52a/gr8.sml gr8 gr8.sml sml 10814 127 219 IMAGE-THUMBNAIL 1-s2.0-S0926860X23004283-gr5.sml https://s3-eu-west-1.amazonaws.com/prod-ucs-content-store-eu-west/content/pii:S0926860X23004283/gr5/THUMBNAIL/image/gif/44956a76af048a559d64e35e7a9fc33b/gr5.sml gr5 gr5.sml sml 7022 164 201 IMAGE-THUMBNAIL 1-s2.0-S0926860X23004283-gr6.sml https://s3-eu-west-1.amazonaws.com/prod-ucs-content-store-eu-west/content/pii:S0926860X23004283/gr6/THUMBNAIL/image/gif/fd75ec5cd095dcd90b0d2a3f89a3e181/gr6.sml gr6 gr6.sml sml 13332 145 219 IMAGE-THUMBNAIL 1-s2.0-S0926860X23004283-gr3_lrg.jpg https://s3-eu-west-1.amazonaws.com/prod-ucs-content-store-eu-west/content/pii:S0926860X23004283/HIGHRES/image/jpeg/f6c4d301e832eeb3a89f18e1ad84dfd9/gr3_lrg.jpg gr3 gr3_lrg.jpg jpg 824601 2109 3493 IMAGE-HIGH-RES 1-s2.0-S0926860X23004283-gr4_lrg.jpg https://s3-eu-west-1.amazonaws.com/prod-ucs-content-store-eu-west/content/pii:S0926860X23004283/HIGHRES/image/jpeg/f8d38110630557720a5bc6a3fe70249d/gr4_lrg.jpg gr4 gr4_lrg.jpg jpg 299269 1864 2245 IMAGE-HIGH-RES 1-s2.0-S0926860X23004283-gr1_lrg.jpg https://s3-eu-west-1.amazonaws.com/prod-ucs-content-store-eu-west/content/pii:S0926860X23004283/HIGHRES/image/jpeg/e515b9d4a95462d4c6a9e126d30e9ee4/gr1_lrg.jpg gr1 gr1_lrg.jpg jpg 169755 1270 2994 IMAGE-HIGH-RES 1-s2.0-S0926860X23004283-gr2_lrg.jpg https://s3-eu-west-1.amazonaws.com/prod-ucs-content-store-eu-west/content/pii:S0926860X23004283/HIGHRES/image/jpeg/72131fd6e4220792c0136fe58c7f2bcf/gr2_lrg.jpg gr2 gr2_lrg.jpg jpg 808983 2144 3493 IMAGE-HIGH-RES 1-s2.0-S0926860X23004283-sc1_lrg.jpg https://s3-eu-west-1.amazonaws.com/prod-ucs-content-store-eu-west/content/pii:S0926860X23004283/HIGHRES/image/jpeg/05dd2311e8fc85b92b6f33288fbadb54/sc1_lrg.jpg sc1 sc1_lrg.jpg jpg 36464 354 1497 IMAGE-HIGH-RES 1-s2.0-S0926860X23004283-gr10_lrg.jpg https://s3-eu-west-1.amazonaws.com/prod-ucs-content-store-eu-west/content/pii:S0926860X23004283/HIGHRES/image/jpeg/7faafccc4596f2b725b356279ac9d040/gr10_lrg.jpg gr10 gr10_lrg.jpg jpg 355226 1536 2495 IMAGE-HIGH-RES 1-s2.0-S0926860X23004283-gr11_lrg.jpg https://s3-eu-west-1.amazonaws.com/prod-ucs-content-store-eu-west/content/pii:S0926860X23004283/HIGHRES/image/jpeg/e91093b633ceb7417efa6f783c308c04/gr11_lrg.jpg gr11 gr11_lrg.jpg jpg 150194 1354 1663 IMAGE-HIGH-RES 1-s2.0-S0926860X23004283-ga1_lrg.jpg https://s3-eu-west-1.amazonaws.com/prod-ucs-content-store-eu-west/content/pii:S0926860X23004283/HIGHRES/image/jpeg/92bf15d25d00ad8e52322f7177699882/ga1_lrg.jpg ga1 true ga1_lrg.jpg jpg 347825 886 1637 IMAGE-HIGH-RES 1-s2.0-S0926860X23004283-gr9_lrg.jpg https://s3-eu-west-1.amazonaws.com/prod-ucs-content-store-eu-west/content/pii:S0926860X23004283/HIGHRES/image/jpeg/12c2e37ac7ac8334457d3691e05e8197/gr9_lrg.jpg gr9 gr9_lrg.jpg jpg 341233 1611 2495 IMAGE-HIGH-RES 1-s2.0-S0926860X23004283-gr7_lrg.jpg https://s3-eu-west-1.amazonaws.com/prod-ucs-content-store-eu-west/content/pii:S0926860X23004283/HIGHRES/image/jpeg/4348e43c5b01cdc21a4e948116708e1a/gr7_lrg.jpg gr7 gr7_lrg.jpg jpg 346782 1605 2495 IMAGE-HIGH-RES 1-s2.0-S0926860X23004283-gr8_lrg.jpg https://s3-eu-west-1.amazonaws.com/prod-ucs-content-store-eu-west/content/pii:S0926860X23004283/HIGHRES/image/jpeg/a73821285b4ec51cf4e183a6c5df6aef/gr8_lrg.jpg gr8 gr8_lrg.jpg jpg 322891 1451 2495 IMAGE-HIGH-RES 1-s2.0-S0926860X23004283-gr5_lrg.jpg https://s3-eu-west-1.amazonaws.com/prod-ucs-content-store-eu-west/content/pii:S0926860X23004283/HIGHRES/image/jpeg/2a2f98ad10900518dd4893af6fc9426d/gr5_lrg.jpg gr5 gr5_lrg.jpg jpg 160301 1417 1738 IMAGE-HIGH-RES 1-s2.0-S0926860X23004283-gr6_lrg.jpg https://s3-eu-west-1.amazonaws.com/prod-ucs-content-store-eu-west/content/pii:S0926860X23004283/HIGHRES/image/jpeg/fcc5fec04d42c4603bea5aee5b052fc4/gr6_lrg.jpg gr6 gr6_lrg.jpg jpg 391445 1986 2994 IMAGE-HIGH-RES 1-s2.0-S0926860X23004283-mmc1.docx https://s3-eu-west-1.amazonaws.com/prod-ucs-content-store-eu-west/content/pii:S0926860X23004283/mmc1/MAIN/application/vnd.openxmlformats-officedocument.wordprocessingml.document/141c2828921ff56e7577db542ddd945d/mmc1.docx mmc1 mmc1.docx docx 999659 APPLICATION 1-s2.0-S0926860X23004283-si0001.svg https://s3-eu-west-1.amazonaws.com/prod-ucs-content-store-eu-west/content/pii:S0926860X23004283/image/svg+xml/d29e1192c751cd707a990453b1c0f2b9/si0001.svg si0001 si0001.svg svg 2885 ALTIMG 1-s2.0-S0926860X23004283-si0002.svg https://s3-eu-west-1.amazonaws.com/prod-ucs-content-store-eu-west/content/pii:S0926860X23004283/image/svg+xml/81108dab318fec57a68a80ea29ed4905/si0002.svg si0002 si0002.svg svg 1365 ALTIMG 1-s2.0-S0926860X23004283-si0003.svg https://s3-eu-west-1.amazonaws.com/prod-ucs-content-store-eu-west/content/pii:S0926860X23004283/image/svg+xml/eaae2997b2acfdaa99a7d69f27528152/si0003.svg si0003 si0003.svg svg 1482 ALTIMG 1-s2.0-S0926860X23004283-si0004.svg https://s3-eu-west-1.amazonaws.com/prod-ucs-content-store-eu-west/content/pii:S0926860X23004283/image/svg+xml/ef876200386d4bfb5766694999c6d6c5/si0004.svg si0004 si0004.svg svg 1709 ALTIMG 1-s2.0-S0926860X23004283-am.pdf am am.pdf pdf 2309841 AAM-PDF https://s3-eu-west-1.amazonaws.com/prod-ucs-content-store-eu-west/content/egi:10BM92Q9ZRQ/MAIN/application/pdf/4015db6210afe33a179064cee6bc6254/am.pdf APCATA 119448 119448 S0926-860X(23)00428-3 10.1016/j.apcata.2023.119448 Elsevier B.V. Fig. 1 (a) FT-IR spectrum of GA prepared by the hydrolysis of cyanographene. (b) Raman spectra of GA and GO show the G and D bands at 1602 cm−1 and 1318 cm−1, respectively. Fig. 1 Fig. 2 TEM images and particle size distributions of the Pd and PdCu nanoparticles supported on GO nanosheets. Fig. 2 Fig. 3 TEM images and particle size distributions of the Pd and PdCu nanoparticles supported on GA nanosheets. Fig. 3 Fig. 4 High-resolution XPS spectra of the Pd-3d electron in the Pd/GA, Pd-Cu/GA, Pd/GO and Pd-Cu/GO supported catalysts. Fig. 4 Fig. 5 % Conversion of the Suzuki cross-coupling reaction using PdCu/GO, PdCu/GA, Pd/GO and Pd/GA supported catalysts. Reaction conditions: 0.32 mmol bromobenzene, 0.38 mmol phenylboronic acid, 1 mmol K2CO3, and stirring speed of 450 rpm at room temperature with the Pd mol% of 0.30. Fig. 5 Fig. 6 Optimized structures of a) GO and b) GA cluster models with double vacancy site highlighted at the center. The ground state structures of Pd13 cluster adsorbed at the double vacant site of c) GO and d) GA cluster model. Fig. 6 Fig. 7 Calculated reaction pathway for the SM cross-coupling reaction of bromobenzene and phenylboronic acid on the Pd13@GO model system. The activation barriers of the three important steps are shown in eV. The transition states are marked by red color. Fig. 7 Fig. 8 Calculated reaction pathway for the SM cross-coupling reaction of bromobenzene and phenylboronic acid on the Pd13@GA model system. The activation barriers of the three important steps are shown in eV. The transition states are marked by blue color. Fig. 8 Fig. 9 Calculated reaction pathway for the Suzuki cross-coupling reaction of bromobenzene and phenylboronic acid on the Pd site of Cu2Pd11@GO model system. The activation barriers of the three important steps are shown in eV. The transition states are marked by orange color. Fig. 9 Fig. 10 Calculated reaction pathway for the Suzuki cross-coupling reaction of bromobenzene and phenylboronic acid on the Pd site of Cu2Pd11@GA model system. The activation barriers of the three important steps are shown in eV. The transition states are marked by pink color. Fig. 10 Fig. 11 Bar plot of the computed barrier heights of oxidative addition and reductive elimination steps for the four supported cluster systems. Fig. 11 Scheme 1 na. Scheme 1 Experimental and computational study of the catalytic activity of Pd and PdCu nanoparticle catalysts and clusters supported on reduced graphene oxide and graphene acid for the suzuki cross-coupling reaction Turbasu Sengupta a Michael Moody b Mrinmoy Das b Arthur C. Reber a ⁎ S.N. Khanna a M. Samy El-Shall b ⁎ a Department of Physics, Virginia Commonwealth University, Richmond, VA 23284–2006, USA Department of Physics, Virginia Commonwealth University Richmond VA 23284–2006 USA Department of Physics, Virginia Commonwealth University, Richmond, VA, 23284–2006 b Department of Chemistry, Virginia Commonwealth University, Richmond, VA 23284–2006, USA Department of Chemistry, Virginia Commonwealth University Richmond VA 23284–2006 USA Department of Chemistry, Virginia Commonwealth University, Richmond, VA, 23284–2006 ⁎ Corresponding authors. The catalytic activity of Pd and PdCu nanoparticle catalysts and clusters supported on reduced graphene oxide (RGO) and graphene acid (GA) toward the Suzuki cross-coupling reaction between bromobenzene and phenylboronic acid is investigated experimentally and computationally. The experimental results indicate that the bimetallic PdCu nanoparticle catalysts supported on RGO or GA outperform the supported Pd catalysts and that the PdCu/RGO catalyst exhibits superior activity, reaching a full conversion to the biphenyl product in only 15 min under ambient conditions. The experimental results show that both the Pd and PdCu catalysts have higher activities when supported on RGO than when supported on GA. The computational results using density functional theory show that the RGO provides relatively better support for the C-C coupling reaction than GA. Investigations based on the charge analysis have further revealed that the RGO is a better charge donor and acceptor than GA, facilitating both the reaction's oxidative addition and reductive elimination steps by reducing the respective barrier heights. Doping a Cu atom near the Pd reaction site is shown to enhance this effect further. The relative reactivity trends of RGO- and GA-supported Pd and PdCu clusters obtained from the DFT calculations show exact agreement with the experimental results. Graphical Abstract ga1 Keywords Pd nanoparticles PdCu bimetallic nanoparticles Reduced graphene oxide support Graphene acid support Suzuki cross-coupling reaction Density functional theory Data Availability Related data are given in the Supplementary Data Appendix. All additional data generated or analyzed during this study are available via request to the corresponding author. 1 Introduction Palladium-catalyzed C-C coupling reactions are widely used in producing fine chemicals and pharmaceuticals [1–4]. The Suzuki (or the Suzuki-Miyaura) cross-coupling reaction involves the coupling of an organoboron compound with an organic halide in the presence of a Pd catalyst and base and is one of the most common reactions used to facilitate C-C bond formation. The reaction is typically performed under homogenous conditions, utilizing ligands to enhance activity and selectivity [1–4]. However, the process leads to residual metal that contaminates the reaction product. This is particularly a significant issue in pharmaceutical applications since palladium compounds can be highly toxic. Therefore, the development of supported catalysts that enhance the performance and reduce/eliminate leaching and sintering could be a major development, as it would reduce the need for post-treatment and allow for the recycling of the palladium metal. Several carbon materials are utilized for metal nanoparticle support, and the interaction between the metal catalysts can vary depending on the support material [5–8]. A variety of graphene-based materials have been utilized for mobilizing Pd nanoparticles for cross-coupling reactions, including graphene oxide, reduced and partially reduced graphene oxides, and chemically modified graphene oxides [5–14]. Graphene is a two-dimensional material consisting of carbon atoms arranged in a hexagonal structure forming the one-atom-thick basal plane [15]. The carbon atoms contain three sp2 hybridized orbitals forming sigma bonds and one p orbital likely forming pi bonds, which allow electrons to move along the graphitic plane, making graphene conductive. Graphene oxide (GO) is the oxidized form of graphene, which contain oxygenated groups on the plane, including hydroxyl, epoxy, and carboxyl groups, with the carboxyl groups residing mainly on the edges of the graphene sheets [14–16]. The presence of oxygenated groups forms defects. Pure graphene possesses conducting properties; while GO is semiconducting, the fully oxidized GO is insulating [17]. The defects sites in GO can serve as nucleation sites for the formation and anchoring of metal nanoparticles, making GO an attractive candidate for heterogeneous catalysis [5,6,10–14,18]. Recent studies in our group have indicated that the Pd nanocatalysts and clusters supported on reduced GO can have turnover frequencies several times higher than those of ligated clusters [5,6,10,14]. Graphene acid (GA) is a novel graphene derivative, which contains a distribution of carboxyl groups across a graphitic plane and is synthesized by the controlled acid hydrolysis of cyanographene (G-CN) [19]. GA holds applications in nanoparticle-supported catalysis, sensing, and batteries [20–22]. It is unique in that it allows for controllable synthesis of functionalized (-COOH) groups across the graphene plane, made from the acid hydrolysis of cyanographene (G-CN). In contrast, GO synthesis is limited to less selective functionalization of oxygen groups due to its inert nature [19,23,24]. The addition of controllable synthesis of carboxylic groups across a graphitic plane is desirable because (-COOH) can facilitate unique chemistries [25–27]. In homogeneous cross-coupling catalysis, Pd is often used in the form of ligated Pd complexes which rely on the in-situ reduction of Pd (II) to Pd (0) to initiate the catalytic cycle via oxidative addition of the aryl halide reactant partner [1–4]. In heterogeneous catalysis using supported Pd nanoparticles, electronic modifications of Pd by alloying with a second metal can result in bimetallic nanoparticles with superior catalytic properties compared to their monometallic counterparts because of the ability of base metals to donate charge to the Pd centers [28]. It is expected that increasing the electron density on Pd in bimetallic alloys can lower the activation energy of the oxidative addition step of the Suzuki reactions [8]. Furthermore, alloying Pd with base metals may not only enhance the catalytic activity of the bimetallic catalysts but also make them more cost-effective because the Pd content is significantly reduced. Here, we report a comparison of the catalytic activity of GO and GA-supported mono and bimetallic (Pd and PdCu) catalysts for the Suzuki cross-coupling reaction. Our investigations included both experimental work and detailed theoretical analysis. The experimental work investigated the catalytic activity of Pd and PdCu nanoparticle catalysts prepared by reducing Pd2+ and Pd2+/Cu2+ ions on the surface of the support (GO or GA) using H2 gas under high temperatures [28]. The experimental results indicate that the bimetallic PdCu catalysts supported on RGO/GA outperform the supported Pd catalysts and that the PdCu/RGO catalyst shows the best results. The purpose of the theoretical investigations is to provide insight into the experimental findings by carrying out first-principles calculations of the reaction on a variety of supports. The novelty of the joint experimental and theoretical results reported here is highlighted by developing the highly active bimetallic PdCu/RGO and PdCu/GA catalysts for room temperature Suzuki cross-coupling reactions and identifying the microscopic mechanism underlying the high catalytic activity. The high level DFT calculations reported here establish the unique ability of the PdCu/RGO system (catalyst and support) to donate and accept charges to lower the barriers for the oxidative addition and reductive elimination steps of the Suzuki cross-coupling reaction. This finding illustrates the exciting opportunities presented by the PdCu/RGO catalyst system for a variety of carbon-carbon bond forming reactions. 2 Methods 2.1 Experimental details 2.1.1 Synthesis of graphene oxide (GO) In the experiments, GO was prepared by the oxidation of high-purity graphite powder (99.999%, 200 mesh, Alfa Aesar) according to the method of Hummers and Offeman [29]. 115 mL of H2SO4 was chilled to 0 °C in an ice bath with stirring and 2.5 g of crushed NaNO3 was added. After 20 min, 5 g of graphite powder was added, followed by the slow addition of 15 g of KMnO4. After 20 min, the ice bath was removed, and the mixture was maintained at 32–38 °C for 3 h with vigorous stirring. Afterwards, 230 mL of warm DI water was added, and the temperature of 80 °C was maintained for 30 min as the solution turned brown. 700 mL of DI water was added, followed by 8 mL of 30% H2O2 and the solution color turned to light gold. The synthesized GO was washed with 5 l of hot DI water and dried over three days at 60 °C. 2.1.2 Synthesis of graphene acid (GA) Graphene acid was synthesized via a slightly modified procedure previously reported, in which cyanographene (G-CN) is synthesized first and then G-CN groups are hydrolyzed to G−COOH groups resulting in GA [19]. 960 mg of fluorinated graphite was placed in a round bottom flask with the addition 120 mL of DMF. The mixture was sonicated for 4 h under a nitrogen atmosphere. Then, 6.4 g of NaCN was added to the suspension under 500 rpm stirring, a condenser was placed on the flask, and the reaction mixture was heated to 130 °C for 24 h. Once cooled to room temperature, 120 mL of acetone was added. The G-CN mixture was washed with the following solvents 2x each: DMF, methylene chloride, acetone, ethanol, DI water, DI water with a pH = 4 (nitric acid). The freshly washed G-CN was added to a round bottom flask in 160 mL DI water. 40 mL concentrated HNO3 was added slowly under 350 rpm stirring. A condenser was attached to the round bottom flask, and the reaction was heated to 100 °C for 24 h. The GA mixture was washed three times with DI water and dried overnight at 70 °C. 2.1.3 Synthesis of Pd and Pd-Cu catalysts by H2 reduction 50 mg of the support (GA or GO) was added to a beaker with 50 mL DI water and dispersed under sonication, then stirring. Pd(NO3)2 solution was added to achieve 5 wt% initial loading. The suspension was stirred overnight and placed in the oven at 80 °C until the water was completely evaporated and the solid dried. The material was then placed in a tube furnace and heated to 200 °C for 2 h under a flow of 10 mol% H2 (H2-He mixture) at a 30 cm3/min flow rate. The bimetallic Pd-Cu catalysts were prepared in the same methods described above with the addition of adding Cu(NO3)2.6 H2O solution to achieve an initial loading of 5 wt% Pd and 5 wt% Cu. 2.1.4 Procedure for room temperature Suzuki cross-coupling reactions The prepared catalysts were tested towards the Suzuki coupling reaction of bromobenzene and phenylboronic acid. First, the desired amount of catalyst (0.3 mol% Pd) was charged in a screw cap vial and dispersed in 4 mL of a 1:1 H2O-EtOH solution. 0.32 mmol of bromobenzene and 47 mg (0.38 mmol) phenylboronic acid were added to the solution under stirring. 133 mg K2CO3 (0.96 mmol) was added, and the reaction proceeded at room temperature with intermittent sampling. The samples were extracted using centrifugation and acetic acid. Gas chromatography flame ionization detector (GC-FID) was utilized to determine the ratio of bromobenzene to biphenyl product and determine the % conversion. 2.1.5 Characterization techniques Powder X-ray diffraction patterns were measured using the PANalytical MPD X′Pert PRO diffractometer with voltage 45 kV and current 40 mA via the Ni-filtered Cu kα1 radiation with a scan speed of 2.5° 2θ/min. FTIR spectra were collected with a Thermo Scientific Nicolet iS50 FT-IR using KBr pellets. X-ray photoelectron spectroscopy (XPS) spectra of the samples were obtained using the ThermoFisher Scientific ESCALAB 250 with a microfocused monochromated AlKα X-ray source (15 kV) and a double-focusing full 180° spherical sector electron analyzer. TEM images were obtained using the Jeol JEM-1230 Transmission Electron Microscope with the Gatan Orius SC1000 side mount CCD camera at 120 kV. The palladium contents (wt%) of the supported catalysts were measured using the Varian Vista-MPX Inductively Coupled Plasma Optical Emission Spectrometer (ICP-OES) with an Ar+ ion plasma gas equipped with a charged-couple detector (CCD) for simultaneous detection. The reaction products were analyzed using an Agilent A 6890 N GC equipped with an HP-5MS column and a flame ionization detector used to separate and quantify the conversion of reactants into products. 2.2 Computational details The calculations of the cluster model systems are performed by the density functional theory (DFT) formalism as implemented in the Amsterdam density functional (ADF) software [30]. In all the ADF calculations, the GGA (Generalized gradient approximation) functional by Perdew–Burke–Ernzerhof (PBE) is utilized [31]. The Slater-type valance double zeta (ζ) basis set (DZ) and the large frozen core are used for all the elements. To account for the relativistic effect, the scalar relativistic zeroth-order regular approximation (ZORA) correction is included in all the calculations [32]. All the optimizations are carried out by the hessian-based quasi-Newton approach without any symmetry constraints using the delocalized coordinates [33,34]. During optimizations, several different spin multiplicities, and various configurations are checked, and only the lowest energy structure is considered for the subsequent calculations. The analytical frequency calculation is also performed, and it is ensured that all the normal modes of the energetical minima structures are real and positive [35,36]. On the other hand, the transition states are first-order saddle points with only one imaginary frequency of appropriate magnitude. The binding energies of the Pd13 cluster on the GO and GA support are calculated as, (1) ∆ E b = E c opt + E sup opt − E cmplx opt Here, the E c opt and E sup opt are the energies of the optimized Pd13 cluster and the model support, respectively, and E cmplx opt is the energy of the overall complex. Hirshfeld charge calculations are also performed in ADF at the same theoretical level [37]. 3 Results and discussion 3.1 Experimental results The successful synthesis GA is demonstrated clearly by the FT-IR spectrum displayed in Fig. 1(a). The spectrum shows a well-defined band at 1723 cm−1 corresponding to the carboxylic groups in addition to stronger bands at 1578 cm−1 and 1220 cm−1 corresponding to the CC and C-C groups, respectively of the graphene skeleton of GA. Also, the spectrum shows no evidence for the CN band at 2200 cm−1, indicating the complete hydrolysis of cyanographene to form GA. The overall spectrum is in excellent agreement with the FT-IR spectrum reported for GA [19]. The Raman spectra of GO and GA (displayed in Fig. 1(b)) show strong and broad G- and D-bands at 1602 cm−1 and 1318 cm−1, respectively. In both GO and GA spectra, the G-band is significantly broad and blue-shifted with respect to graphene (G-band ∼1575 cm−1), which can be attributed to the presence of isolated CC bonds that resonate at higher frequencies than the G-band of graphene [5,38]. The intensity ratio of the D-band to the G-band is usually used as a measure of the quality of the graphitic structures and the extent of structural defects and disorder since, for highly ordered graphene; this ratio approaches zero [38]. As shown in Fig. 1(b), both the GO and GA supports exhibit strong and very broad D-bands with high D/G ratios of 1.1 and 1.2, respectively, suggesting the presence of significant structural disorder and defects. These defects are expected to play an important role in enhancing the catalytic activity of the supported metallic and bimetallic nanocatalysts. The similarity of the D/G ratio of GO (1.1) and GA (1.2) strongly suggests that the two catalyst supports have comparable defect densities and degrees of disorder. Figs. 2 and 3 display TEM images of the Pd and PdCu nanoparticle catalysts supported on the GO and GA nanosheets, respectively. In both cases, the nanoparticles appear to be well-dispersed on the surface of the support with no evidence of significant agglomeration. The size distributions of the nanoparticles determined from multiple TEM micrographs are shown in Figs. 2 and 3. For the Pd nanoparticle, the size distributions show average sizes of 1.85 ± 0.90 nm and 1.49 ± 0.85 nm for the particles supported on GO and GA, respectively. For the bimetallic PdCu nanoparticles, the average size of 3.92 ± 2.60 nm supported on GA is notably larger than the average size supported on GO (1.74 ± 0.95 nm). This could be due to strong electrostatic interactions between the -COOH groups on GA and the Pd2+ and Cu2+ ions which could result in increasing the concentrations of the adsorbed ions and enhancing the growth rates of the deposited nanoparticles. Fig. 4 displays the XPS spectra of the Pd-3d electron in the Pd/GO, PdCu/GO, Pd/GA and PdCu/GA catalysts. The electron binding energies of 335.5 and 340.8 eV corresponding to the 3d5/2 and 3d3/2 of metallic palladium, respectively, are observed at higher energy values by 0.3–0.5 eV in the catalysts suggesting electron transfer from palladium to the supports GO and GA.6 The data show that the Pd(0)% increases from 27%− 31% in the Pd-Cu/GA and Pd/GA to 47%− 58% in the PdCu/GO and Pd/GO catalysts, respectively. One possibility for decreasing the % of Pd(0) in the catalysts supported on GA could be the formation of strongly bound complexes between the Pd2+ ions and the -COOH groups of GA, which would decrease the reduction efficiency of the Pd2+ ions by the H2 gas. It is known that in the palladium-catalyzed Suzuki cross-coupling reaction, the oxidation state of palladium cycles between Pd(II) in the oxidative addition of a halide-bearing aryl group and Pd(0) in the reductive elimination step [39], and that Pd(0) is required to initiate the oxidative addition step [40,41]. It is also established that a higher ratio of Pd(0) in the supported catalysts would usually result in higher catalytic activity [42]. Based on this consideration and the XPS results shown in Fig. 4, one would expect the Pd and PdCu catalysts supported on GO to have higher activity than the corresponding catalysts supported on GA. This point will be further checked and discussed in analyzing the catalytic activity results below. The catalytic activity of the prepared Pd and PdCu catalysts was investigated using the Suzuki cross coupling reaction of bromobenzene (0.32 mmol) and phenylboronic acid (0.38 mmol) with a 0.3 mol% Pd catalyst in a mixture of H2O:C2H5OH (1:1) at room temperature (r.t.) according to Scheme 1. The biphenyl product was further characterized by NMR. Examples of the 1H and 13C NMR spectra of the product synthesized using the Pd/GO catalyst are shown in Fig. S1(A) (Supplementary Data). Similar spectra were obtained for the products synthesized using the Pd/GA, PdCu/GO and PdCu/GA. The 1H NMR spectrum of the biphenyl product shows one doublet and two triplets at ∼ 7.3–7.6 ppm. The doublet at ∼7.6 ppm corresponds to the protons at the ortho position, the triplets at ∼7.45 and ∼7.36 ppm are assigned to the protons at the meta and para positions, respectively of the biphenyl. The 13C NMR spectrum shows a peak at ∼141.4 ppm assigned to the alpha carbon, and the three peaks at ∼129, ∼127.4, and ∼127.3 ppm are assigned to the carbons at the meta, para, and ortho positions, respectively of the biphenyl. Both the 1H and 13C NMR spectra of the biphenyl are similar to the NMR spectra of commercial biphenyl sample shown in Fig. S1(B) (Supplementary Data). Fig. 5 illustrates the % conversion of the room temperature reaction in Scheme 1 for the Pd and PdCu catalysts supported on GO and GA. Among all catalysts, PdCu/GO exhibits superior activity reaching a bromobenzene conversion of 78% after five minutes and a full conversion in only 15 min under ambient conditions. The second-best catalyst is other bimetallic PdCu catalyst supported on GA which reaches full conversion after nearly 50 min. On the other hand, the Pd/GO and Pd/GA catalysts reach 97% conversion after nearly 60 min, although the Pd/GO catalyst achieves higher conversions than the Pd/GA catalyst at shorter reaction times. These results are significant since they demonstrate, for the first time, that the Suzuki reaction can be carried out at room temperature yielding 100% of the biphenyl product within 15 and 50 min using the bimetallic PdCu catalyst supported on GO and GA, respectively. The superior catalytic activity of the PdCu/GO and PdCu/GA bimetallic catalysts can be explained by the electronic properties and the expected synergistic effects of the Pd and Cu metals involved in the bimetallic catalysts. According to the XPS studies, Cu in the CuPd alloy helps maintain Pd in the unoxidized state (Pd0) [28]. It is worth noting that DFT calculations of the bimetallic catalysts suggest the presence of an enhanced electronic structure factor upon metal doping which increases electron density on Pd and hence facilitates the oxidative addition of the aryl halide, which is the rate-limiting step in the Suzuki cross-coupling reaction [43,44]. This point will be addressed in detail in the next section describing the computational results of this work. The results in Fig. 5 also show that both the Pd and PdCu catalysts have higher activities when supported on GO than when supported on GA. This is probably due to the higher Pd(0)% of the catalysts supported on GO (47%−58%), as shown in Fig. 4 . The bimetallic enhancement effect appears to be significant since the PdCu/GO catalyst with a 47% Pd(0) is more active than the Pd/GO catalyst which has the highest Pd(0)% (58%). The same trend is observed on the catalysts supported on GA where the bimetallic catalyst PdCu/GA with the lowest Pd(0)% (27%) is more active than the Pd/GA catalyst, which has a higher Pd(0)% (31%). Detailed explanations of the observed activity trends will be provided by the theoretical work in the next section. 3.2 Computational results To gain insight into the experimental observations, we first performed DFT simulations on both GO and GA supported Pd nanoclusters. The reaction barriers are strongly affected by the interaction of the clusters with the graphene support, as previous studies have found that embedding the clusters within vacancies in the graphene support resulted in a dramatic decrease in the activation energy [6]. The embedding of the clusters on the surface results in improved charge transfer between the cluster and support, leading to lower activation energies. The functional groups on the support may also affect the charge transfer, so we investigated the effect of changing the functionalization of the graphene support on the reaction barriers. For this purpose, we have first designed cluster models for both GO and GA support, as shown in Fig. 6a and b. An equal number of functional groups are considered for both surfaces. We included two epoxy (−O−) and three hydroxyl (−OH) groups for the GO. Similarly, five carboxylic acid (−COOH) groups are considered for GA. The overall stoichiometric composition for the GO model is C110H28O5, and C115H30O10 for the GA system. The carbon atoms at the edges were passivated for both systems by attaching H atoms. To adsorb the Pd nanoparticle, we have created a double vacancy site (by removing two C atoms) with a diameter of ∼4 Å at the centre of both GO and GA surfaces (Fig. 6). The choice of double vacancy is based on the previous investigation, where it is shown that a double vacant site on graphene is thermally more stable compared to a single vacant site and hence appears more frequently, as also seen in electron microscopy [45]. The experimental observation also shows that the distribution of vacancies (defects) in the real GO and GA support systems is similar (Fig. 1(b)). This justifies using the identical number and type of vacancies for our model calculation. Both the model supports were optimized using different spin multiplicities, and the optimized structure with the lowest energy was considered for the subsequent calculations (Table S1 in the Supplementary Data). The calculated HOMO−LUMO gap of the model GO support (0.36 eV) is slightly higher than the GA support (0.08 eV). As for the Pd nanoparticle catalyst, we have considered the icosahedral Pd13 since previous studies have shown that the Pd nanoparticle adopts an icosahedral shape upon adsorption on graphene-based systems [6,7,46]. The optimized geometries of Pd13@GO and Pd13@GA are shown in Fig. 6c and d, and their ground state energies and spin multiplicities are given in Table S2 of the Supplementary Data. The binding energies of the Pd13 cluster to the GO and GA support were calculated as 5.0 and 5.2 eV, respectively. The DFT calculations also reveal that the HOMO−LUMO gap of the Pd13@GO and Pd13@GA model systems are very close, i.e., 0.09 and 0.10 eV, respectively. Next, we investigated the reaction pathway for the Suzuki cross-coupling reaction on the Pd13@GO and Pd13@GA model systems. For this purpose, we have considered the synthesis of biphenyl (Ph−Ph, Ph=phenyl group) via the coupling reaction between bromobenzene (Ph−Br,) and phenylboronic acid (Ph−B(OH)2) as the template reaction. In the current work, we have followed the conventional reaction pathway for the SM C−C cross-coupling reaction, as previously reported [47–49]. A general reaction schematic is included in Fig. S2 of the Supplementary Data. As known, the reaction pathway of the Suzuki coupling consists of three steps, i.e., (a) oxidative addition, (b) transmetallation, and (c) reductive elimination. Figs. 7 and 8 show the computed reaction pathway on Pd13@GO and on Pd13@GA model systems. In both cases, the optimized structures of the relevant species in the reaction pathway are arranged sequentially. During the calculations, we first determined the spin multiplicity of the lowest energy pre-reaction complex (see Table S3 of the Supplementary Data) denoted as 1 in Figs. 7 and 8 and followed the same spin multiplicity throughout the reaction pathway. The three transition states in the pathway are marked by red (Pd13@GO) or blue (Pd13@GA) color. Relative comparison between the two pathways shows that all three barrier heights in the GO pathway are lower compared to the GA pathway (Fig. 7 and Fig. 8). The difference in the barrier heights for the first two steps, i.e., oxidative addition and transmetallation, is marginal, and in the GA pathway, the barriers are only higher by 0.02 − 0.03 eV. The significant difference between both pathways is noticed in the reductive elimination step, where the GO pathway shows a 0.1 eV lower barrier compared to the GA pathway. Thus, from the computed barrier heights and especially considering the reductive elimination step, we can confirm that the Pd13@GO system is a better catalyst than the Pd13@GA system. This observation is consistent with the experimental results. To rationalize the trend in the barrier heights of the oxidative addition and reductive elimination steps, as observed in Figs. 7 and 8, we have calculated the net Hirshfeld [37] charge transfer from the cluster@support systems to the reactant fragments for both redox steps. It is observed that for the oxidative addition step (1 →2 →3 in Figs. 7 and 8), the net charge transfer from the supported catalyst to bromobenzene is similar for Pd13@GO (−0.26 |e|) and Pd13@GA (−0.25 |e|), which is the reason for the marginal differences in the oxidative addition barrier heights for these two systems. On the contrary, the net charge transfer from the reactant fragments to the cluster@support at the reductive elimination step (8 →9 →10 in Figs. 7 and 8) is relatively higher for Pd13@GO (−0.32 |e|) if compared to Pd13@GA (−0.28 |e|). This is possibly the reason for the observed lower reductive elimination barrier heights for Pd13@GO (0.30 eV) compared to Pd13@GA (0.40 eV). Comparing the data for both the supported system, it can be said that the graphene oxide supported Pd13 cluster is a relatively better charge donor and an acceptor than Pd13@GA. This ability to act as both an effective charge donor and an acceptor was seen previously in reduced graphene with no functionalization [6]. To summarize, the Pd13@GO system is observed to be acting as a better donor (oxidative addition) and as a better acceptor (reductive elimination) compared to GA, which accounts for its relatively better catalytic performances toward the SM cross-coupling reaction. As a final step, we explored the possibility of changing the barrier by using a mixed model cluster (Cu2Pd11) where two of the Pd atoms adjacent to the reaction (Pd) site are replaced with Cu. In a recent computational investigation, we have shown that by doping a Pd cluster with group-11 atom (e.g., Ag), it is possible to activate the nearby Pd sites toward the oxidation and reduction steps of Suzuki cross-coupling reaction resulting in reduced barriers for both steps [50]. Further analysis has revealed that the charge transfer between the dopant and the nearby Pd atoms is responsible for such alterations, and detailed explanations and analysis are given in the original publication [50]. In the current work, we have computed two similar pathways for the Zuzuki cross-coupling reaction on the Cu2Pd11@GO and Cu2Pd11@GA model systems. The reaction profiles for Cu2Pd11@GO and Cu2Pd11@GA systems are shown in Fig. 9 and Fig. 10, respectively. We have adopted the lowest energy spin state obtained for the pre-reaction complex to calculate the whole reaction pathway (Table S4, Supplementary Data). As shown in Fig. 9, Cu2Pd11@GO shows the lowest barrier heights for the two redox steps (0.04 and 0.22 eV, respectively) compared to the rest of the systems reported in this study. Similar to the supported Pd13 cluster, we have performed a Hirshfeld charge transfer analysis on the supported Cu2Pd11 cluster systems as well [37]. Hirshfeld charge analysis shows that the Cu2Pd11 cluster on both GO and GA surfaces are positively charged (+1.25 |e| on GO and +1.35 |e| on GA support). The majority of this positive charge is localized on Pd, whereas in both cases, Cu atoms show near zero accumulated charge on them. In both cases, the reaction is considered to happen on a Pd site close to the dopant (Cu) atoms. This is also because we have observed that the pre-reaction complex (shown as 1 in Figs. 9–10) is ∼0.15 eV more stable when the bromobenzene is close to a Cu site. Similar to the supported pristine cluster system, we noticed that the charge transfer from the supported catalyst to bromobenzene is relatively higher in the oxidative addition stage (1→2→3 in Figs. 9–10) for Cu2Pd11@GO (−0.23 |e|) compared to Cu2Pd11@GA (−0.21 |e|) which is consistent with the calculated barrier heights. However, the net Hirshfeld charge transfer analysis for the reductive elimination step (8→9→10 in Figs. 9–10) shows near similar charge transfer from the phenyl fragments to the supported cluster in both cases (∼ −0.33 |e|). Therefore, in this particular case, we believe that the Hirshfeld charge analysis failed to show consistent results with the observed barrier height trend, as shown in Fig. 11. Overall, from the calculated barrier heights, we can say that the inclusion of Cu dopant to the cluster enhances the catalytic effect of the supported system toward Suzuki cross-coupling, making the Cu2Pd11@GO system the best catalyst reported in this study. To summarize, we have observed that doping with group 11 metal atoms (e.g., Cu) enhances the catalytic potential of the cluster compared to the pristine cluster, irrespective of the type of support surface. Fig. 11 displays the barrier heights of both the redox steps for the four systems reported herewith. From the barrier heights and especially considering the reductive elimination step, one can establish a qualitative trend of the catalytic activity, i.e., Cu2Pd11 @GO > Cu2Pd11@GA > Pd13@GO > Pd13@GA, which is in exact agreement with the experimental observations. 4 Conclusions The present joint experimental and theoretical studies indicate that the bimetallic PdCu catalysts supported on reduced graphene oxide (RGO) or graphene acid (GA) outperform the supported Pd catalysts toward the Suzuki cross-coupling reaction, and that both the Pd and PdCu catalysts have higher activities when supported on RGO than when supported on GA. The computational results using density functional theory demonstrate that the reaction barriers are controlled by the ability of the supported cluster to act as the charge donor and acceptor. For the pure Pd13 cluster, the choice of support provides this flexibility, and Pd13@GO combination acts as a better donor (oxidative addition) and as a better acceptor (reductive elimination) compared to GA, which accounts for its better catalytic performances toward the Suzuki cross-coupling reaction. An added ability to enhance donor/acceptor capacity is to surround the Pd sites with noble element Cu that has an unfilled 4 s shell allowing it to accept or donate charge. Indeed, Cu2Pd11@GO, which combines the effect of alloying and support, is shown to be the best performer of all the clusters considered here. The relative reactivity trends of RGO- and GA-supported Pd and PdCu clusters obtained from the DFT calculations show exact agreement with the experimental results. The present combined experimental and computational study provides a new approach to control the catalytic performance by changing the support or alloying. CRediT authorship contribution statement TS conducted all the calculations. MM and MD conducted all the experimental work. ACR, SNK and MSE analyzed the results and wrote the manuscript. Declaration of Competing Interest The authors declare that they have no known competing financial interests or personal relationships that could have appeared to influence the work reported in this paper. Acknowledgments We thank the National Science Foundation (CHE-1900094) for the support of this work. Supplementary Material 1H and 13C NMR spectra of the biphenyl product synthesized using the Pd/GO catalyst (Fig. S1), calculated energies of optimized GO and GA support at different spin multiplicities (Table S1), calculated energies of optimized Pd13@GO and Pd13@GA systems at different spin multiplicities (Table S2), A general schematic of Suzuki cross-coupling reaction (Fig. S2), calculated energies of pre-reaction complex (1) of Pd13@GO and Pd13@GA pathway at different spin multiplicities (Table S3), and calculated energies of pre-reaction complex (1) of Cu2Pd11@GO and Cu2Pd11@GA pathway at different spin multiplicities (Table S4). Appendix A Supporting information Supplementary data associated with this article can be found in the online version at doi:10.1016/j.apcata.2023.119448. Appendix A Supplementary material Supplementary material . References [1] N. Miyaura A. Suzuki Chem. Rev. 95 1995 2457 2483 N. Miyaura, A. Suzuki, Chem. Rev. 95 (1995) 2457–2483. [2] A. Suzuki J. Organomet Chem 653 2002 83 90 A. Suzuki, J. Organomet. Chem. 653 (2002) 83–90. [3] A. Balanta C. Godard C. Claver Chem. Soc. Rev. 40 2011 4973 4985 A. Balanta, C. Godard, C. Claver. Chem. Soc. Rev. 40 (2011) 4973–4985. [4] A. Biffis P. Centomo A. Del Zotto M. Zecca Chem. Rev. 118 2018 2249 2295 A. Biffis, P. Centomo, A. Del Zotto, M. Zecca, Chem. Rev. 118 (2018) 2249–2295. [5] A.R. Siamaki A.E.R.S. Khder V. Abdelsayed M.S. El-Shall B.F. Gupton J. Catal. 279 2011 1 11 A.R. Siamaki, A.E.R.S. Khder, V. Abdelsayed, M.S. El-Shall, B.F. Gupton, J. Catal. 279 (2011) 1–11. [6] Y. Yang A.C. Reber S.E. Gilliland III C.E. Castano B.F. Gupton S.N. Khanna J. Catal. 360 2018 20 26 Y. Yang, A.C. Reber, S.E. Gilliland III, C.E. Castano, B.F. Gupton, S.N. Khanna, J. Catal. 360 (2018) 20–26. [7] Y. Yang C.E. Castano B.F. Gupton A.C. Reber S.N. Khanna Nanoscale 8 2016 19564 19572 Y. Yang, C.E. Castano, B.F. Gupton, A.C. Reber, S.N. Khanna, Nanoscale. 8 (2016) 19564–19572. [8] Y. Yang A.C. Reber S.E. Gilliland C.E. Castano B.F. Gupton S.N. Khanna J. Phys. Chem. C. 122 2018 25396 25403 Y. Yang, A.C. Reber, S.E. Gilliland, C.E. Castano, B.F. Gupton, S.N. Khanna, J. Phys. Chem. C. 122 (2018) 25396–25403. [9] G.M. Scheuermann L. Rumi P. Steurer W. Bannwarth R. Mülhaupt J. Am. Chem. Soc. 131 2009 8262 8270 G.M. Scheuermann, L. Rumi, P. Steurer, W. Bannwarth, R. Mülhaupt, J. Am. Chem. Soc. 131 (2009) 8262–8270. [10] S. Moussa A.R. Siamaki B.F. Gupton M.S. El-Shall ACS Catal. 2 2011 145 154 S. Moussa, A.R. Siamaki, B.F. Gupton, M.S. El-Shall, ACS Catal. 2 (2011) 145–154. [11] Y. Nishina J. Miyata R. Kawai K. Gotoh RSC Adv. 2 2012 9380 9382 Y. Nishina, J. Miyata, R. Kawai, K. Gotoh, RSC Adv. 2 (2012) 9380–9382. [12] H.A. Elazab A.R. Siamaki S. Moussa B.F. Gupton M.S. El-Shall Appl Catal. Gen. 491 2015 58 69 H.A. Elazab, A.R. Siamaki, S. Moussa, B.F. Gupton, M.S. El-Shall, Appl. Catal. Gen. 491 (2015) 58–69. [13] H.A. Elazab S. Moussa A.R. Siamaki B.F. Gupton M.S. El-Shall Catal. Lett. 147 2017 1510 1522 H.A. Elazab, S. Moussa, A.R. Siamaki, B.F. Gupton, M.S. El-Shall, Catal. Lett. 147 (2017) 1510–1522. [14] A.A. Ibrahim A. Lin M.S. Adly M.S. El-Shall J. Catal. 385 2020 194 203 A.A. Ibrahim, A. Lin, M.S. Adly, M.S. El-Shall, J. Catal. 385 (2020) 194–203. [15] W. Yu L. Sisi Y. Haiyan L. Jie RSC Adv. 10 2020 15328 15345 W. Yu, L. Sisi, Y. Haiyan, L. Jie, RSC Adv. 10 (2020) 15328–15345. [16] S. Moussa V. Abdelsayed M.S. El-Shall Chem. Phys. Lett. 510 2011 179 184 S. Moussa, V. Abdelsayed, M.S. El-Shall, Chem. Phys. Lett. 510 (2011) 179–184. [17] V. Abdelsayed S. Moussa H.M. Hassan H.S. Aluri M.M. Collinson M.S. El-Shall J. Phys. Chem. Lett. 1 2010 2804 2809 V. Abdelsayed, S. Moussa, H.M. Hassan, H.S. Aluri, M.M. Collinson, M.S. El-Shall, J. Phys. Chem. Lett. 1 (2010) 2804–2809. [18] S.O. Moussa L.S. Panchakarla M.Q. Ho M.S. El-Shall ACS Catal. 4 2014 535 545 S.O. Moussa, L.S. Panchakarla, M.Q. Ho, M.S. El-Shall, ACS Catal. 4 (2014) 535–545. [19] A. Bakandritsos M. Pykal P. Błoński P. Jakubec D.D. Chronopoulos K. Poláková V. Georgakilas K. Cepe O. Tomanec V. Ranc A.B. Bourlinos R. Zbořil M. Otyepka ACS Nano 11 2017 2982 2991 A. Bakandritsos, M. Pykal, P. Błoński, P. Jakubec, D.D. Chronopoulos, K. Poláková, V. Georgakilas, K. Cepe, O. Tomanec, V. Ranc, A.B. Bourlinos, R. Zbořil, M. Otyepka, ACS Nano. 11 (2017) 2982–2991. [20] I. Obraztsov A. Bakandritsos V. Šedajová R. Langer P. Jakubec G. Zoppellaro M. Pykal V. Presser M. Otyepka R. Zbořil Adv. Energy Mater. 12 2022 2103010 I. Obraztsov, A. Bakandritsos, V. Šedajová, R. Langer, P. Jakubec, G. Zoppellaro, M. Pykal, V. Presser, M. Otyepka, R. Zbořil, Adv. Energy Mater. 12 (2022) 2103010. [21] A. Lenarda A. Bakandritsos M. Bevilacqua C. Tavagnacco M. Melchionna A. Naldoni T. Steklý M. Otyepka R. Zbořil P. Fornasiero ACS Omega 4 2019 19944 19952 A. Lenarda, A. Bakandritsos, M. Bevilacqua, C. Tavagnacco, M. Melchionna, A. Naldoni, T. Steklý, M. Otyepka, R. Zbořil, P. Fornasiero, ACS Omega. 4 (2019) 19944–19952. [22] M. Blanco D. Mosconi M. Otyepka M. Medveď A. Bakandritsos S. Agnoli G. Granozzi Chem. Sci. 10 2019 9438 9445 M. Blanco, D. Mosconi, M. Otyepka, M. Medveď, A. Bakandritsos, S. Agnoli, G. Granozzi, Chem. Sci. 10 (2019) 9438–9445. [23] S. Eigler A. Hirsch Angew. Chem. Int. Ed. 53 2014 7720 7738 S. Eigler, A. Hirsch, Angewandte Chemie International Edition, 53 (2014) 7720–7738. [24] D.R. Dreyer S. Park C.W. Bielawski R.S. Ruoff Chem. Soc. Rev. 39 2009 228 240 D.R. Dreyer, S. Park, C.W. Bielawski, R.S. Ruoff, Chem. Soc. Rev. 39 (2009) 228–240. [25] N.-F. Chiu H.-T. Yang Front. Bioeng. Biotechnol. 8 2020 234 N.-F. Chiu, H.-T. Yang, Front. Bioeng. Biotechnol. 8 (2020) 234. [26] M.-L. Li Y. Li J.-B. Pan Y.-H. Li S. Song S.-F. Zhu Q.-L. Zhou ACS Catal. 10 2020 10032 10039 M.-L. Li, Y. Li, J.-B. Pan, Y.-H. Li, S. Song, S.-F. Zhu, Q.-L. Zhou, ACS Catal. 10 (2020) 10032–10039. [27] Y. Wang C. Wang Z. Ni Y. Gu B. Wang Z. Guo Z. Wang D. Bin J. Ma Y. Wang Adv. Mater. 32 2020 2000338 Y. Wang, C. Wang, Z. Ni, Y. Gu, B. Wang, Z. Guo, Z. Wang, D. Bin, J. Ma, Y. Wang, Adv. Mater. 32 (2020) 2000338. [28] N. Norouzi M.K. Das A.J. Richard A.A. Ibrahim H.M. El-Kaderi M.S. El-Shall Nanoscale 12 2020 19191 19202 N. Norouzi, M.K. Das, A.J. Richard, A.A. Ibrahim, H.M. El-Kaderi, M.S. El-Shall, Nanoscale, 12 (2020) 19191–19202. [29] W.S. Hummers Jr. R.E. Offeman J. Am. Chem. Soc. 80 1958 1339–1339 W.S. Hummers Jr., R.E. Offeman, J. Am. Chem. Soc. 80 (1958) 1339–1339. [30] G. Te Velde F.M. Bickelhaupt E.J. Baerends C. Fonseca Guerra S.J.A. van Gisbergen J.G. Snijders T. Ziegler J. Comput. Chem. 22 2001 931 967 G. Te Velde, F.M. Bickelhaupt, E.J. Baerends, C. Fonseca Guerra, S.J.A. van Gisbergen, J.G. Snijders, T. Ziegler, J. Comput. Chem. 22 (2001) 931–967. [31] J.P. Perdew K. Burke M. Ernzerhof Phys. Rev. Lett. 77 1996 3865 J.P. Perdew, K. Burke, M. Ernzerhof, Phys. Rev. Lett. 77 (1996) 3865. [32] E. Van Lenthe J.G. Snijders E.J. Baerends J. Chem. Phys. 105 1996 6505 6516 E. Van Lenthe, J.G. Snijders, E.J. Baerends, J. Chem. Phys. 105 (1996) 6505–6516. [33] L. Fan T. Ziegler J. Chem. Phys. 95 1991 7401 7408 L. Fan, T. Ziegler, J. Chem. Phys. 95 (1991) 7401–7408. [34] M. Swart F. Matthias Bickelhaupt, Int. J. Quantum Chem. 106 2006 2536 2544 M. Swart, F. Matthias Bickelhaupt, Int. J. Quantum Chem. 106 (2006) 2536–2544. [35] A. Bérces R.M. Dickson L. Fan H. Jacobsen D. Swerhone T. Ziegler Comput. Phys. Commun. 100 1997 247 262 A. Bérces, R.M. Dickson, L. Fan, H. Jacobsen, D. Swerhone, T. Ziegler, Comput. Phys. Commun. 100 (1997) 247–262. [36] H. Jacobsen A. Bérces D.P. Swerhone T. Ziegler Comput. Phys. Commun. 100 1997 263 276 H. Jacobsen, A. Bérces, D.P. Swerhone, T. Ziegler, Comput. Phys. Commun. 100 (1997) 263–276. [37] F.L. Hirshfeld Theor Chim Acta 44 1977 129 138 F.L. Hirshfeld, Theor. Chim. Acta. 44 (1977) 129–138. [38] M.S. Dresselhaus A. Jorio M. Hofmann G. Dresselhaus R. Saito Nano Lett. 10 2010 751 758 M.S. Dresselhaus, A. Jorio, M. Hofmann, G. Dresselhaus, R. Saito, Nano Lett. 10 (2010) 751–758. [39] A.H. Labulo B.S. Martincigh B. Omondi V.O. Nyamori J. Mater. Sci. 52 2017 9225 9248 A.H. Labulo, B.S. Martincigh, B. Omondi, V.O. Nyamori, J. Mater. Sci. 52 (2017) 9225–9248. [40] G.A. Molander B. Biolatto J. Org. Chem. 68 2003 4302 4314 G.A. Molander, B. Biolatto, J. Org. Chem. 68 (2003) 4302–4314. [41] A. Mahanta N. Hussain M.R. Das A.J. Thakur U. Bora Appl. Organomet. Chem. 31 2017 e3679 A. Mahanta, N. Hussain, M.R. Das, A.J. Thakur, U. Bora, Appl. Organomet. Chem. 31 (2017) e3679. [42] B.J. Reizman Y.-M. Wang S.L. Buchwald K.F. Jensen React. Chem. Eng. 1 2016 658 666 B.J. Reizman, Y.-M. Wang, S.L. Buchwald, K.F. Jensen, React. Chem. Eng. 1 (2016) 658–666. [43] T. Sperger C.M. Le M. Lautens F. Schoenebeck Chem. Sci. 8 2017 2914 2922 T. Sperger, C.M. Le, M. Lautens, F. Schoenebeck, Chem. Sci. 8 (2017) 2914–2922. [44] E. Alvaro J.F. Hartwig J. Am. Chem. Soc. 131 2009 7858 7868 E. Alvaro, J.F. Hartwig, J. Am. Chem. Soc. 131 (2009) 7858–7868. [45] F. Banhart J. Kotakoski A.V. Krasheninnikov ACS Nano 5 2011 26 41 F. Banhart, J. Kotakoski, A.V. Krasheninnikov, ACS Nano. 5 (2011) 26–41. [46] E. Gracia-Espino G. Hu A. Shchukarev T. Wågberg J. Am. Chem. Soc. 136 2014 6626 6633 E. Gracia-Espino, G. Hu, A. Shchukarev, T. Wågberg, J. Am. Chem. Soc. 136 (2014) 6626–6633. [47] M. Loudon, J. Parise, Organic Chemistry, Macmillan Learning, 2015. [48] A.J. Lennox G.C. Lloyd-Jones Chem. Soc. Rev. 43 2014 412 443 A.J. Lennox, G.C. Lloyd-Jones, Chem. Soc. Rev. 43 (2014) 412–443. [49] B. Zhang J. Song H. Liu J. Shi J. Ma H. Fan W. Wang P. Zhang B. Han Green. Chem. 16 2014 1198 1201 B. Zhang, J. Song, H. Liu, J. Shi, J. Ma, H. Fan, W. Wang, P. Zhang, B. Han, Green Chem. 16 (2014) 1198–1201. [50] T. Sengupta D. Bista S.N. Khanna ACS Catal. 11 2021 11459 11468 T. Sengupta, D. Bista, S.N. Khanna, ACS Catal. 11 (2021) 11459–11468.",
+      "scopus-id": "85174706999",
+      "coredata": {
+        "eid": "1-s2.0-S0926860X23004283",
+        "dc:description": "The catalytic activity of Pd and PdCu nanoparticle catalysts and clusters supported on reduced graphene oxide (RGO) and graphene acid (GA) toward the Suzuki cross-coupling reaction between bromobenzene and phenylboronic acid is investigated experimentally and computationally. The experimental results indicate that the bimetallic PdCu nanoparticle catalysts supported on RGO or GA outperform the supported Pd catalysts and that the PdCu/RGO catalyst exhibits superior activity, reaching a full conversion to the biphenyl product in only 15 min under ambient conditions. The experimental results show that both the Pd and PdCu catalysts have higher activities when supported on RGO than when supported on GA. The computational results using density functional theory show that the RGO provides relatively better support for the C-C coupling reaction than GA. Investigations based on the charge analysis have further revealed that the RGO is a better charge donor and acceptor than GA, facilitating both the reaction's oxidative addition and reductive elimination steps by reducing the respective barrier heights. Doping a Cu atom near the Pd reaction site is shown to enhance this effect further. The relative reactivity trends of RGO- and GA-supported Pd and PdCu clusters obtained from the DFT calculations show exact agreement with the experimental results.",
+        "openArchiveArticle": "false",
+        "prism:coverDate": "2023-10-25",
+        "openaccessUserLicense": null,
+        "prism:aggregationType": "Journal",
+        "prism:url": "https://api.elsevier.com/content/article/pii/S0926860X23004283",
+        "dc:creator": [
+          {
+            "@_fa": "true",
+            "$": "Sengupta, Turbasu"
+          },
+          {
+            "@_fa": "true",
+            "$": "Moody, Michael"
+          },
+          {
+            "@_fa": "true",
+            "$": "Das, Mrinmoy"
+          },
+          {
+            "@_fa": "true",
+            "$": "Reber, Arthur C."
+          },
+          {
+            "@_fa": "true",
+            "$": "Khanna, S.N."
+          },
+          {
+            "@_fa": "true",
+            "$": "El-Shall, M. Samy"
+          }
+        ],
+        "link": [
+          {
+            "@_fa": "true",
+            "@rel": "self",
+            "@href": "https://api.elsevier.com/content/article/pii/S0926860X23004283"
+          },
+          {
+            "@_fa": "true",
+            "@rel": "scidir",
+            "@href": "https://www.sciencedirect.com/science/article/pii/S0926860X23004283"
+          }
+        ],
+        "dc:format": "application/json",
+        "openaccessType": null,
+        "pii": "S0926-860X(23)00428-3",
+        "prism:volume": "667",
+        "articleNumber": "119448",
+        "prism:publisher": "Elsevier B.V.",
+        "dc:title": "Experimental and computational study of the catalytic activity of Pd and PdCu nanoparticle catalysts and clusters supported on reduced graphene oxide and graphene acid for the suzuki cross-coupling reaction",
+        "prism:copyright": "© 2023 Elsevier B.V. All rights reserved.",
+        "openaccess": "0",
+        "prism:issn": "0926860X",
+        "dcterms:subject": [
+          {
+            "@_fa": "true",
+            "$": "Pd nanoparticles"
+          },
+          {
+            "@_fa": "true",
+            "$": "PdCu bimetallic nanoparticles"
+          },
+          {
+            "@_fa": "true",
+            "$": "Reduced graphene oxide support"
+          },
+          {
+            "@_fa": "true",
+            "$": "Graphene acid support"
+          },
+          {
+            "@_fa": "true",
+            "$": "Suzuki cross-coupling reaction"
+          },
+          {
+            "@_fa": "true",
+            "$": "Density functional theory"
+          }
+        ],
+        "openaccessArticle": "false",
+        "prism:publicationName": "Applied Catalysis A: General",
+        "openaccessSponsorType": null,
+        "prism:pageRange": "119448",
+        "pubType": "fla",
+        "prism:coverDisplayDate": "25 October 2023",
+        "prism:doi": "10.1016/j.apcata.2023.119448",
+        "prism:startingPage": "119448",
+        "dc:identifier": "doi:10.1016/j.apcata.2023.119448",
+        "openaccessSponsorName": null
+      },
+      "objects": {
+        "object": [
+          {
+            "@category": "standard",
+            "@height": "478",
+            "@width": "791",
+            "@_fa": "true",
+            "$": "https://api.elsevier.com/content/object/eid/1-s2.0-S0926860X23004283-gr3.jpg?httpAccept=%2A%2F%2A",
+            "@multimediatype": "JPEG image file",
+            "@type": "IMAGE-DOWNSAMPLED",
+            "@size": "149492",
+            "@ref": "gr3",
+            "@mimetype": "image/jpeg"
+          },
+          {
+            "@category": "standard",
+            "@height": "422",
+            "@width": "508",
+            "@_fa": "true",
+            "$": "https://api.elsevier.com/content/object/eid/1-s2.0-S0926860X23004283-gr4.jpg?httpAccept=%2A%2F%2A",
+            "@multimediatype": "JPEG image file",
+            "@type": "IMAGE-DOWNSAMPLED",
+            "@size": "62113",
+            "@ref": "gr4",
+            "@mimetype": "image/jpeg"
+          },
+          {
+            "@category": "standard",
+            "@height": "288",
+            "@width": "678",
+            "@_fa": "true",
+            "$": "https://api.elsevier.com/content/object/eid/1-s2.0-S0926860X23004283-gr1.jpg?httpAccept=%2A%2F%2A",
+            "@multimediatype": "JPEG image file",
+            "@type": "IMAGE-DOWNSAMPLED",
+            "@size": "34776",
+            "@ref": "gr1",
+            "@mimetype": "image/jpeg"
+          },
+          {
+            "@category": "standard",
+            "@height": "486",
+            "@width": "791",
+            "@_fa": "true",
+            "$": "https://api.elsevier.com/content/object/eid/1-s2.0-S0926860X23004283-gr2.jpg?httpAccept=%2A%2F%2A",
+            "@multimediatype": "JPEG image file",
+            "@type": "IMAGE-DOWNSAMPLED",
+            "@size": "147702",
+            "@ref": "gr2",
+            "@mimetype": "image/jpeg"
+          },
+          {
+            "@category": "standard",
+            "@height": "80",
+            "@width": "339",
+            "@_fa": "true",
+            "$": "https://api.elsevier.com/content/object/eid/1-s2.0-S0926860X23004283-sc1.jpg?httpAccept=%2A%2F%2A",
+            "@multimediatype": "JPEG image file",
+            "@type": "IMAGE-DOWNSAMPLED",
+            "@size": "6376",
+            "@ref": "sc1",
+            "@mimetype": "image/jpeg"
+          },
+          {
+            "@category": "standard",
+            "@height": "348",
+            "@width": "565",
+            "@_fa": "true",
+            "$": "https://api.elsevier.com/content/object/eid/1-s2.0-S0926860X23004283-gr10.jpg?httpAccept=%2A%2F%2A",
+            "@multimediatype": "JPEG image file",
+            "@type": "IMAGE-DOWNSAMPLED",
+            "@size": "59793",
+            "@ref": "gr10",
+            "@mimetype": "image/jpeg"
+          },
+          {
+            "@category": "standard",
+            "@height": "306",
+            "@width": "376",
+            "@_fa": "true",
+            "$": "https://api.elsevier.com/content/object/eid/1-s2.0-S0926860X23004283-gr11.jpg?httpAccept=%2A%2F%2A",
+            "@multimediatype": "JPEG image file",
+            "@type": "IMAGE-DOWNSAMPLED",
+            "@size": "30140",
+            "@ref": "gr11",
+            "@mimetype": "image/jpeg"
+          },
+          {
+            "@category": "standard",
+            "@height": "200",
+            "@width": "369",
+            "@_fa": "true",
+            "$": "https://api.elsevier.com/content/object/eid/1-s2.0-S0926860X23004283-ga1.jpg?httpAccept=%2A%2F%2A",
+            "@multimediatype": "JPEG image file",
+            "@type": "IMAGE-DOWNSAMPLED",
+            "@size": "32171",
+            "@ref": "ga1",
+            "@mimetype": "image/jpeg"
+          },
+          {
+            "@category": "standard",
+            "@height": "365",
+            "@width": "565",
+            "@_fa": "true",
+            "$": "https://api.elsevier.com/content/object/eid/1-s2.0-S0926860X23004283-gr9.jpg?httpAccept=%2A%2F%2A",
+            "@multimediatype": "JPEG image file",
+            "@type": "IMAGE-DOWNSAMPLED",
+            "@size": "58147",
+            "@ref": "gr9",
+            "@mimetype": "image/jpeg"
+          },
+          {
+            "@category": "standard",
+            "@height": "363",
+            "@width": "565",
+            "@_fa": "true",
+            "$": "https://api.elsevier.com/content/object/eid/1-s2.0-S0926860X23004283-gr7.jpg?httpAccept=%2A%2F%2A",
+            "@multimediatype": "JPEG image file",
+            "@type": "IMAGE-DOWNSAMPLED",
+            "@size": "57810",
+            "@ref": "gr7",
+            "@mimetype": "image/jpeg"
+          },
+          {
+            "@category": "standard",
+            "@height": "329",
+            "@width": "565",
+            "@_fa": "true",
+            "$": "https://api.elsevier.com/content/object/eid/1-s2.0-S0926860X23004283-gr8.jpg?httpAccept=%2A%2F%2A",
+            "@multimediatype": "JPEG image file",
+            "@type": "IMAGE-DOWNSAMPLED",
+            "@size": "53150",
+            "@ref": "gr8",
+            "@mimetype": "image/jpeg"
+          },
+          {
+            "@category": "standard",
+            "@height": "320",
+            "@width": "392",
+            "@_fa": "true",
+            "$": "https://api.elsevier.com/content/object/eid/1-s2.0-S0926860X23004283-gr5.jpg?httpAccept=%2A%2F%2A",
+            "@multimediatype": "JPEG image file",
+            "@type": "IMAGE-DOWNSAMPLED",
+            "@size": "26658",
+            "@ref": "gr5",
+            "@mimetype": "image/jpeg"
+          },
+          {
+            "@category": "standard",
+            "@height": "450",
+            "@width": "678",
+            "@_fa": "true",
+            "$": "https://api.elsevier.com/content/object/eid/1-s2.0-S0926860X23004283-gr6.jpg?httpAccept=%2A%2F%2A",
+            "@multimediatype": "JPEG image file",
+            "@type": "IMAGE-DOWNSAMPLED",
+            "@size": "84946",
+            "@ref": "gr6",
+            "@mimetype": "image/jpeg"
+          },
+          {
+            "@category": "thumbnail",
+            "@height": "132",
+            "@width": "219",
+            "@_fa": "true",
+            "$": "https://api.elsevier.com/content/object/eid/1-s2.0-S0926860X23004283-gr3.sml?httpAccept=%2A%2F%2A",
+            "@multimediatype": "GIF image file",
+            "@type": "IMAGE-THUMBNAIL",
+            "@size": "18920",
+            "@ref": "gr3",
+            "@mimetype": "image/gif"
+          },
+          {
+            "@category": "thumbnail",
+            "@height": "164",
+            "@width": "197",
+            "@_fa": "true",
+            "$": "https://api.elsevier.com/content/object/eid/1-s2.0-S0926860X23004283-gr4.sml?httpAccept=%2A%2F%2A",
+            "@multimediatype": "GIF image file",
+            "@type": "IMAGE-THUMBNAIL",
+            "@size": "12148",
+            "@ref": "gr4",
+            "@mimetype": "image/gif"
+          },
+          {
+            "@category": "thumbnail",
+            "@height": "93",
+            "@width": "219",
+            "@_fa": "true",
+            "$": "https://api.elsevier.com/content/object/eid/1-s2.0-S0926860X23004283-gr1.sml?httpAccept=%2A%2F%2A",
+            "@multimediatype": "GIF image file",
+            "@type": "IMAGE-THUMBNAIL",
+            "@size": "4787",
+            "@ref": "gr1",
+            "@mimetype": "image/gif"
+          },
+          {
+            "@category": "thumbnail",
+            "@height": "134",
+            "@width": "219",
+            "@_fa": "true",
+            "$": "https://api.elsevier.com/content/object/eid/1-s2.0-S0926860X23004283-gr2.sml?httpAccept=%2A%2F%2A",
+            "@multimediatype": "GIF image file",
+            "@type": "IMAGE-THUMBNAIL",
+            "@size": "19719",
+            "@ref": "gr2",
+            "@mimetype": "image/gif"
+          },
+          {
+            "@category": "thumbnail",
+            "@height": "52",
+            "@width": "219",
+            "@_fa": "true",
+            "$": "https://api.elsevier.com/content/object/eid/1-s2.0-S0926860X23004283-sc1.sml?httpAccept=%2A%2F%2A",
+            "@multimediatype": "GIF image file",
+            "@type": "IMAGE-THUMBNAIL",
+            "@size": "2814",
+            "@ref": "sc1",
+            "@mimetype": "image/gif"
+          },
+          {
+            "@category": "thumbnail",
+            "@height": "135",
+            "@width": "219",
+            "@_fa": "true",
+            "$": "https://api.elsevier.com/content/object/eid/1-s2.0-S0926860X23004283-gr10.sml?httpAccept=%2A%2F%2A",
+            "@multimediatype": "GIF image file",
+            "@type": "IMAGE-THUMBNAIL",
+            "@size": "12111",
+            "@ref": "gr10",
+            "@mimetype": "image/gif"
+          },
+          {
+            "@category": "thumbnail",
+            "@height": "164",
+            "@width": "201",
+            "@_fa": "true",
+            "$": "https://api.elsevier.com/content/object/eid/1-s2.0-S0926860X23004283-gr11.sml?httpAccept=%2A%2F%2A",
+            "@multimediatype": "GIF image file",
+            "@type": "IMAGE-THUMBNAIL",
+            "@size": "16704",
+            "@ref": "gr11",
+            "@mimetype": "image/gif"
+          },
+          {
+            "@category": "thumbnail",
+            "@height": "119",
+            "@width": "219",
+            "@_fa": "true",
+            "$": "https://api.elsevier.com/content/object/eid/1-s2.0-S0926860X23004283-ga1.sml?httpAccept=%2A%2F%2A",
+            "@multimediatype": "GIF image file",
+            "@type": "IMAGE-THUMBNAIL",
+            "@size": "22072",
+            "@ref": "ga1",
+            "@mimetype": "image/gif"
+          },
+          {
+            "@category": "thumbnail",
+            "@height": "141",
+            "@width": "219",
+            "@_fa": "true",
+            "$": "https://api.elsevier.com/content/object/eid/1-s2.0-S0926860X23004283-gr9.sml?httpAccept=%2A%2F%2A",
+            "@multimediatype": "GIF image file",
+            "@type": "IMAGE-THUMBNAIL",
+            "@size": "11713",
+            "@ref": "gr9",
+            "@mimetype": "image/gif"
+          },
+          {
+            "@category": "thumbnail",
+            "@height": "141",
+            "@width": "219",
+            "@_fa": "true",
+            "$": "https://api.elsevier.com/content/object/eid/1-s2.0-S0926860X23004283-gr7.sml?httpAccept=%2A%2F%2A",
+            "@multimediatype": "GIF image file",
+            "@type": "IMAGE-THUMBNAIL",
+            "@size": "11964",
+            "@ref": "gr7",
+            "@mimetype": "image/gif"
+          },
+          {
+            "@category": "thumbnail",
+            "@height": "127",
+            "@width": "219",
+            "@_fa": "true",
+            "$": "https://api.elsevier.com/content/object/eid/1-s2.0-S0926860X23004283-gr8.sml?httpAccept=%2A%2F%2A",
+            "@multimediatype": "GIF image file",
+            "@type": "IMAGE-THUMBNAIL",
+            "@size": "10814",
+            "@ref": "gr8",
+            "@mimetype": "image/gif"
+          },
+          {
+            "@category": "thumbnail",
+            "@height": "164",
+            "@width": "201",
+            "@_fa": "true",
+            "$": "https://api.elsevier.com/content/object/eid/1-s2.0-S0926860X23004283-gr5.sml?httpAccept=%2A%2F%2A",
+            "@multimediatype": "GIF image file",
+            "@type": "IMAGE-THUMBNAIL",
+            "@size": "7022",
+            "@ref": "gr5",
+            "@mimetype": "image/gif"
+          },
+          {
+            "@category": "thumbnail",
+            "@height": "145",
+            "@width": "219",
+            "@_fa": "true",
+            "$": "https://api.elsevier.com/content/object/eid/1-s2.0-S0926860X23004283-gr6.sml?httpAccept=%2A%2F%2A",
+            "@multimediatype": "GIF image file",
+            "@type": "IMAGE-THUMBNAIL",
+            "@size": "13332",
+            "@ref": "gr6",
+            "@mimetype": "image/gif"
+          },
+          {
+            "@category": "high",
+            "@height": "2109",
+            "@width": "3493",
+            "@_fa": "true",
+            "$": "https://api.elsevier.com/content/object/eid/1-s2.0-S0926860X23004283-gr3_lrg.jpg?httpAccept=%2A%2F%2A",
+            "@multimediatype": "JPEG image file",
+            "@type": "IMAGE-HIGH-RES",
+            "@size": "824601",
+            "@ref": "gr3",
+            "@mimetype": "image/jpeg"
+          },
+          {
+            "@category": "high",
+            "@height": "1864",
+            "@width": "2245",
+            "@_fa": "true",
+            "$": "https://api.elsevier.com/content/object/eid/1-s2.0-S0926860X23004283-gr4_lrg.jpg?httpAccept=%2A%2F%2A",
+            "@multimediatype": "JPEG image file",
+            "@type": "IMAGE-HIGH-RES",
+            "@size": "299269",
+            "@ref": "gr4",
+            "@mimetype": "image/jpeg"
+          },
+          {
+            "@category": "high",
+            "@height": "1270",
+            "@width": "2994",
+            "@_fa": "true",
+            "$": "https://api.elsevier.com/content/object/eid/1-s2.0-S0926860X23004283-gr1_lrg.jpg?httpAccept=%2A%2F%2A",
+            "@multimediatype": "JPEG image file",
+            "@type": "IMAGE-HIGH-RES",
+            "@size": "169755",
+            "@ref": "gr1",
+            "@mimetype": "image/jpeg"
+          },
+          {
+            "@category": "high",
+            "@height": "2144",
+            "@width": "3493",
+            "@_fa": "true",
+            "$": "https://api.elsevier.com/content/object/eid/1-s2.0-S0926860X23004283-gr2_lrg.jpg?httpAccept=%2A%2F%2A",
+            "@multimediatype": "JPEG image file",
+            "@type": "IMAGE-HIGH-RES",
+            "@size": "808983",
+            "@ref": "gr2",
+            "@mimetype": "image/jpeg"
+          },
+          {
+            "@category": "high",
+            "@height": "354",
+            "@width": "1497",
+            "@_fa": "true",
+            "$": "https://api.elsevier.com/content/object/eid/1-s2.0-S0926860X23004283-sc1_lrg.jpg?httpAccept=%2A%2F%2A",
+            "@multimediatype": "JPEG image file",
+            "@type": "IMAGE-HIGH-RES",
+            "@size": "36464",
+            "@ref": "sc1",
+            "@mimetype": "image/jpeg"
+          },
+          {
+            "@category": "high",
+            "@height": "1536",
+            "@width": "2495",
+            "@_fa": "true",
+            "$": "https://api.elsevier.com/content/object/eid/1-s2.0-S0926860X23004283-gr10_lrg.jpg?httpAccept=%2A%2F%2A",
+            "@multimediatype": "JPEG image file",
+            "@type": "IMAGE-HIGH-RES",
+            "@size": "355226",
+            "@ref": "gr10",
+            "@mimetype": "image/jpeg"
+          },
+          {
+            "@category": "high",
+            "@height": "1354",
+            "@width": "1663",
+            "@_fa": "true",
+            "$": "https://api.elsevier.com/content/object/eid/1-s2.0-S0926860X23004283-gr11_lrg.jpg?httpAccept=%2A%2F%2A",
+            "@multimediatype": "JPEG image file",
+            "@type": "IMAGE-HIGH-RES",
+            "@size": "150194",
+            "@ref": "gr11",
+            "@mimetype": "image/jpeg"
+          },
+          {
+            "@category": "high",
+            "@height": "886",
+            "@width": "1637",
+            "@_fa": "true",
+            "$": "https://api.elsevier.com/content/object/eid/1-s2.0-S0926860X23004283-ga1_lrg.jpg?httpAccept=%2A%2F%2A",
+            "@multimediatype": "JPEG image file",
+            "@type": "IMAGE-HIGH-RES",
+            "@size": "347825",
+            "@ref": "ga1",
+            "@mimetype": "image/jpeg"
+          },
+          {
+            "@category": "high",
+            "@height": "1611",
+            "@width": "2495",
+            "@_fa": "true",
+            "$": "https://api.elsevier.com/content/object/eid/1-s2.0-S0926860X23004283-gr9_lrg.jpg?httpAccept=%2A%2F%2A",
+            "@multimediatype": "JPEG image file",
+            "@type": "IMAGE-HIGH-RES",
+            "@size": "341233",
+            "@ref": "gr9",
+            "@mimetype": "image/jpeg"
+          },
+          {
+            "@category": "high",
+            "@height": "1605",
+            "@width": "2495",
+            "@_fa": "true",
+            "$": "https://api.elsevier.com/content/object/eid/1-s2.0-S0926860X23004283-gr7_lrg.jpg?httpAccept=%2A%2F%2A",
+            "@multimediatype": "JPEG image file",
+            "@type": "IMAGE-HIGH-RES",
+            "@size": "346782",
+            "@ref": "gr7",
+            "@mimetype": "image/jpeg"
+          },
+          {
+            "@category": "high",
+            "@height": "1451",
+            "@width": "2495",
+            "@_fa": "true",
+            "$": "https://api.elsevier.com/content/object/eid/1-s2.0-S0926860X23004283-gr8_lrg.jpg?httpAccept=%2A%2F%2A",
+            "@multimediatype": "JPEG image file",
+            "@type": "IMAGE-HIGH-RES",
+            "@size": "322891",
+            "@ref": "gr8",
+            "@mimetype": "image/jpeg"
+          },
+          {
+            "@category": "high",
+            "@height": "1417",
+            "@width": "1738",
+            "@_fa": "true",
+            "$": "https://api.elsevier.com/content/object/eid/1-s2.0-S0926860X23004283-gr5_lrg.jpg?httpAccept=%2A%2F%2A",
+            "@multimediatype": "JPEG image file",
+            "@type": "IMAGE-HIGH-RES",
+            "@size": "160301",
+            "@ref": "gr5",
+            "@mimetype": "image/jpeg"
+          },
+          {
+            "@category": "high",
+            "@height": "1986",
+            "@width": "2994",
+            "@_fa": "true",
+            "$": "https://api.elsevier.com/content/object/eid/1-s2.0-S0926860X23004283-gr6_lrg.jpg?httpAccept=%2A%2F%2A",
+            "@multimediatype": "JPEG image file",
+            "@type": "IMAGE-HIGH-RES",
+            "@size": "391445",
+            "@ref": "gr6",
+            "@mimetype": "image/jpeg"
+          },
+          {
+            "@category": "standard",
+            "@_fa": "true",
+            "$": "https://api.elsevier.com/content/object/eid/1-s2.0-S0926860X23004283-mmc1.docx?httpAccept=%2A%2F%2A",
+            "@multimediatype": "Microsoft Word file",
+            "@type": "APPLICATION",
+            "@size": "999659",
+            "@ref": "mmc1",
+            "@mimetype": "application/word"
+          },
+          {
+            "@category": "thumbnail",
+            "@_fa": "true",
+            "$": "https://api.elsevier.com/content/object/eid/1-s2.0-S0926860X23004283-si0001.svg?httpAccept=%2A%2F%2A",
+            "@multimediatype": "Scalable Vector Graphics file",
+            "@type": "ALTIMG",
+            "@size": "2885",
+            "@ref": "si0001",
+            "@mimetype": "image/svg+xml"
+          },
+          {
+            "@category": "thumbnail",
+            "@_fa": "true",
+            "$": "https://api.elsevier.com/content/object/eid/1-s2.0-S0926860X23004283-si0002.svg?httpAccept=%2A%2F%2A",
+            "@multimediatype": "Scalable Vector Graphics file",
+            "@type": "ALTIMG",
+            "@size": "1365",
+            "@ref": "si0002",
+            "@mimetype": "image/svg+xml"
+          },
+          {
+            "@category": "thumbnail",
+            "@_fa": "true",
+            "$": "https://api.elsevier.com/content/object/eid/1-s2.0-S0926860X23004283-si0003.svg?httpAccept=%2A%2F%2A",
+            "@multimediatype": "Scalable Vector Graphics file",
+            "@type": "ALTIMG",
+            "@size": "1482",
+            "@ref": "si0003",
+            "@mimetype": "image/svg+xml"
+          },
+          {
+            "@category": "thumbnail",
+            "@_fa": "true",
+            "$": "https://api.elsevier.com/content/object/eid/1-s2.0-S0926860X23004283-si0004.svg?httpAccept=%2A%2F%2A",
+            "@multimediatype": "Scalable Vector Graphics file",
+            "@type": "ALTIMG",
+            "@size": "1709",
+            "@ref": "si0004",
+            "@mimetype": "image/svg+xml"
+          },
+          {
+            "@category": "standard",
+            "@_fa": "true",
+            "$": "https://api.elsevier.com/content/object/eid/1-s2.0-S0926860X23004283-am.pdf?httpAccept=%2A%2F%2A",
+            "@multimediatype": "Acrobat PDF file",
+            "@type": "AAM-PDF",
+            "@size": "2309841",
+            "@ref": "am",
+            "@mimetype": "application/pdf"
+          }
+        ]
+      },
+      "link": {
+        "@rel": "abstract",
+        "@href": "https://api.elsevier.com/content/abstract/scopus_id/85174706999"
+      }
+    }
+  }
+}

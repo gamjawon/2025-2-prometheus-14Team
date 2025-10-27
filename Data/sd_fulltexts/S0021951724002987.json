@@ -1,0 +1,550 @@
+{
+  "metadata": {
+    "title": "Identifying the key structural features of Ni-based catalysts for the CO<ce:inf loc=post>2</ce:inf> methanation reaction",
+    "authors": "; ; ",
+    "journal": "Journal of Catalysis",
+    "date": "2024-08-31",
+    "doi": "10.1016/j.jcat.2024.115585",
+    "abstract": "",
+    "uri": "https://api.elsevier.com/content/article/pii/S0021951724002987",
+    "pii": "S0021951724002987"
+  },
+  "fulltext": {
+    "full-text-retrieval-response": {
+      "scopus-eid": "2-s2.0-85195267270",
+      "originalText": "serial JL 272561 291210 291744 291809 31 Journal of Catalysis JOURNALCATALYSIS 2024-06-03 2024-06-03 2024-06-08 2024-06-08 2024-09-25T12:44:45 1-s2.0-S0021951724002987 S0021-9517(24)00298-7 S0021951724002987 10.1016/j.jcat.2024.115585 S300 S300.1 FULL-TEXT 1-s2.0-S0021951724X00081 2024-09-25T15:30:41.264554Z 0 0 20240801 20240831 2024 2024-06-03T06:19:01.105349Z absattachment articleinfo articlenumber articletitlenorm authfirstinitialnorm authfirstsurnamenorm cid cids contenttype copyright crossmark dateloaded dateloadedtxt datesearch datesort dateupdated dco docsubtype doctype doi eid ewtransactionid hubeid indexeddate issn issnnorm itemstage itemtransactionid itemweight openaccess openarchive pg pgfirst pii piinorm pubdateend pubdatestart pubdatetxt pubyr sectiontitle sortorder srctitle srctitlenorm srctype ssids alllist content subj subheadings suppl tomb volfirst volissue volumelist webpdf webpdfpagecount yearnav figure e-component body mmlmath acknowledge affil appendices articletitle auth authfirstini authfull authkeywords authlast grantnumber grantsponsor grantsponsorid highlightsabst orcid primabst pubtype ref specialabst 0021-9517 00219517 true 436 436 C Volume 436 15 115585 115585 115585 202408 August 2024 2024-08-01 2024-08-31 2024 Regular Articles article fla © 2024 Published by Elsevier Inc. IDENTIFYINGKEYSTRUCTURALFEATURESNIBASEDCATALYSTSFORCO2METHANATIONREACTION LI Z 1 Introduction 2 Experimental 2.1 Catalyst preparation 2.1.1 Preparation of bare Ni catalyst 2.1.2 Preparation of Y2O3/Ni catalysts 2.1.3 Preparation of Ni/Y2O3 catalysts 2.2 Characterizations of catalysts 2.2.1 Transmission electron microscopy (TEM) 2.2.2 Temperature programmed reduction of H2 (H2-TPR) 2.2.3 Ex-situ and quasi in-situ X-ray photoelectron spectroscopy (XPS) 2.2.4 In-situ FTIR spectroscopy 2.2.5 In-situ diffuse reflectance infrared Fourier transform spectroscopy (DRIFTS) 2.3 Catalytic performance evaluation 2.4 DFT calculation methods 2.5 Machine learning calculation methods 3 Results and discussion 3.1 Dominant effect of Ni-MO x interfaces in CO2 methanation reaction 3.2 Selectivity descriptors of Ni-based supported catalysts 3.3 Structure of active sites on Ni-based supported catalysts 3.4 Selective modulation mechanism on the Ni-MO x interfaces 4 Conclusion Author contributions CRediT authorship contribution statement Acknowledgements Appendix A Supplementary data References DEJONG 2016 1030 K VANDEELEN 2019 955 T LIU 2022 20601 J KATTEL 2017 9739 S CARDENASARENAS 2022 57 A VOGT 2019 188 C MOTA 2019 205 M LI 2023 926 B VOGT 2018 127 C BARREAU 2023 e202302087 M WANG 2017 513 X GALHARDO 2021 4268 T VARVOUTIS 2021 120401 G XU 2021 118867 X ROMEROSAEZ 2018 817 M BEIERLEIN 2019 200 D ZHAO 2019 792 Z RAMIREZ 2021 5914 A CHANG 2023 611 X YANG 2022 e202116517 Q REN 2022 12874 C FENG 2021 120191 K PERDEW 1996 3865 J KRESSE 1996 15 G KRESSE 1996 11169 G KRESSE 1999 1758 G WANG 2021 108033 V FRIEDMAN 2002 367 J FRIEDMAN 2001 1189 J NAVARRO 2020 120 J ATZORI 2017 20689 L YAN 2018 504 Y WANG 2020 119029 Y WU 2015 4154 H CHEN 2017 8367 C KESAVAN 2018 200 J XU 2018 339 H HAO 2022 2662 J YAN 2023 280 L WANG 2021 3930 M LIU 2022 4272 X CHEN 2022 5571 A WANG 2022 56 Z LIU 2023 93 T LIN 2021 602 L YE 2020 118474 R WINTER 2018 442 L XU 2022 2443 K XU 2022 6720 M LI 2022 107335 S TAN 2012 24 H ANG 2015 130 M LIU 2022 867 H MILLET 2019 2451 M HASAN 2021 5551 M CARDENASARENAS 2020 100591 A ZHU 2021 119561 M WU 2020 5767 C HU 2023 142108 F LIX2024X115585 LIX2024X115585XZ 2026-06-08T00:00:00.000Z 2026-06-08T00:00:00.000Z http://creativecommons.org/licenses/by-nc-nd/4.0/ © 2024 Published by Elsevier Inc. 2024-06-11T04:16:13.908Z http://vtw.elsevier.com/data/voc/AddOnTypes/50.7/aggregated-refined National Science Foundation of China 22075166 22271177 NSFC National Natural Science Foundation of China http://data.elsevier.com/vocabulary/SciValFunders/501100001809 http://sws.geonames.org/1814991/ Science Foundation of Shandong Province of China Shandong University SDU Shandong University http://data.elsevier.com/vocabulary/SciValFunders/100009108 http://sws.geonames.org/1814991/ National Science Fund for Distinguished Young Scholars of China 22225110 China National Funds for Distinguished Young Scientists http://data.elsevier.com/vocabulary/SciValFunders/501100005153 http://sws.geonames.org/1814991/ National Key Research and Development Program of China 2021YFA1501103 NKRDPC National Key Research and Development Program of China http://data.elsevier.com/vocabulary/SciValFunders/501100012166 http://sws.geonames.org/1814991/ National Science Foundation of Shandong Province of China ZR2023ZD21 This work was funded by the National Key Research and Development Program of China (2021YFA1501103), the National Science Fund for Distinguished Young Scholars of China (22225110), the National Science Foundation of China (22075166, 22271177), the Science Foundation of Shandong Province of China (ZR2023ZD21), and the Young Scholars Program of Shandong University. We thank the Center of Structural Characterizations and Property Measurements at Shandong University for help with sample characterizations. This work was funded by the National Key Research and Development Program of China ( 2021YFA1501103 ), the National Science Fund for Distinguished Young Scholars of China ( 22225110 ), the National Science Foundation of China ( 22075166 , 22271177 ), the National Science Foundation of Shandong Province of China ( ZR2023ZD21 ), and the Young Scholars Program of Shandong University . We thank the Center of Structural Characterizations and Property Measurements at Shandong University for help with sample characterizations. https://doi.org/10.15223/policy-017 https://doi.org/10.15223/policy-037 https://doi.org/10.15223/policy-012 https://doi.org/10.15223/policy-029 https://doi.org/10.15223/policy-004 item S0021-9517(24)00298-7 S0021951724002987 1-s2.0-S0021951724002987 10.1016/j.jcat.2024.115585 272561 2024-09-25T15:30:41.264554Z 2024-08-01 2024-08-31 1-s2.0-S0021951724002987-main.pdf https://s3-eu-west-1.amazonaws.com/prod-ucs-content-store-eu-west/content/pii:S0021951724002987/MAIN/application/pdf/47a9a1e0f1cf62975bc22e3ecd4bb8a4/main.pdf main.pdf pdf true 7154862 MAIN 10 1-s2.0-S0021951724002987-main_1.png https://s3-eu-west-1.amazonaws.com/prod-ucs-content-store-eu-west/content/pii:S0021951724002987/PREVIEW/image/png/36194c1b3d80e6ec15f5457b5b2706c0/main_1.png main_1.png png 58081 849 656 IMAGE-WEB-PDF 1 1-s2.0-S0021951724002987-gr6.jpg https://s3-eu-west-1.amazonaws.com/prod-ucs-content-store-eu-west/content/pii:S0021951724002987/gr6/DOWNSAMPLED/image/jpeg/028b4cbb5632c3ed9d443d36cd053b6f/gr6.jpg gr6 gr6.jpg jpg 41072 243 535 IMAGE-DOWNSAMPLED 1-s2.0-S0021951724002987-gr3.jpg https://s3-eu-west-1.amazonaws.com/prod-ucs-content-store-eu-west/content/pii:S0021951724002987/gr3/DOWNSAMPLED/image/jpeg/5140b18183d6b123a796250c14a8e7f8/gr3.jpg gr3 gr3.jpg jpg 108633 584 711 IMAGE-DOWNSAMPLED 1-s2.0-S0021951724002987-gr4.jpg https://s3-eu-west-1.amazonaws.com/prod-ucs-content-store-eu-west/content/pii:S0021951724002987/gr4/DOWNSAMPLED/image/jpeg/d56185476262c959b7f61cbbaac58e1a/gr4.jpg gr4 gr4.jpg jpg 84187 484 533 IMAGE-DOWNSAMPLED 1-s2.0-S0021951724002987-gr1.jpg https://s3-eu-west-1.amazonaws.com/prod-ucs-content-store-eu-west/content/pii:S0021951724002987/gr1/DOWNSAMPLED/image/jpeg/c6ec2f5b5df2c5653203f42d7536e7ef/gr1.jpg gr1 gr1.jpg jpg 34870 183 711 IMAGE-DOWNSAMPLED 1-s2.0-S0021951724002987-gr2.jpg https://s3-eu-west-1.amazonaws.com/prod-ucs-content-store-eu-west/content/pii:S0021951724002987/gr2/DOWNSAMPLED/image/jpeg/34dc74327ca88badc10e43adf7dbf35c/gr2.jpg gr2 gr2.jpg jpg 75958 395 711 IMAGE-DOWNSAMPLED 1-s2.0-S0021951724002987-ga1.jpg https://s3-eu-west-1.amazonaws.com/prod-ucs-content-store-eu-west/content/pii:S0021951724002987/ga1/DOWNSAMPLED/image/jpeg/2045f2c791d64f21aea36e81f969edf2/ga1.jpg ga1 true ga1.jpg jpg 32043 200 500 IMAGE-DOWNSAMPLED 1-s2.0-S0021951724002987-gr7.jpg https://s3-eu-west-1.amazonaws.com/prod-ucs-content-store-eu-west/content/pii:S0021951724002987/gr7/DOWNSAMPLED/image/jpeg/1ca59cc09e9d5199a0534a640efed0aa/gr7.jpg gr7 gr7.jpg jpg 57085 468 533 IMAGE-DOWNSAMPLED 1-s2.0-S0021951724002987-gr8.jpg https://s3-eu-west-1.amazonaws.com/prod-ucs-content-store-eu-west/content/pii:S0021951724002987/gr8/DOWNSAMPLED/image/jpeg/1ad49fedafebe17a20925774d4a2037e/gr8.jpg gr8 gr8.jpg jpg 78684 386 667 IMAGE-DOWNSAMPLED 1-s2.0-S0021951724002987-gr5.jpg https://s3-eu-west-1.amazonaws.com/prod-ucs-content-store-eu-west/content/pii:S0021951724002987/gr5/DOWNSAMPLED/image/jpeg/7adc83ed22176aed2b4f7f9a0db841ac/gr5.jpg gr5 gr5.jpg jpg 55859 364 535 IMAGE-DOWNSAMPLED 1-s2.0-S0021951724002987-gr6.sml https://s3-eu-west-1.amazonaws.com/prod-ucs-content-store-eu-west/content/pii:S0021951724002987/gr6/THUMBNAIL/image/gif/052d63938338164b0a55367c43a0ae91/gr6.sml gr6 gr6.sml sml 9291 99 219 IMAGE-THUMBNAIL 1-s2.0-S0021951724002987-gr3.sml https://s3-eu-west-1.amazonaws.com/prod-ucs-content-store-eu-west/content/pii:S0021951724002987/gr3/THUMBNAIL/image/gif/5f0402ed9c61b8ce8e6b3b7a8bcf696a/gr3.sml gr3 gr3.sml sml 13681 163 199 IMAGE-THUMBNAIL 1-s2.0-S0021951724002987-gr4.sml https://s3-eu-west-1.amazonaws.com/prod-ucs-content-store-eu-west/content/pii:S0021951724002987/gr4/THUMBNAIL/image/gif/74c7e0ba292d3728431d22a4e2be35a6/gr4.sml gr4 gr4.sml sml 19232 163 180 IMAGE-THUMBNAIL 1-s2.0-S0021951724002987-gr1.sml https://s3-eu-west-1.amazonaws.com/prod-ucs-content-store-eu-west/content/pii:S0021951724002987/gr1/THUMBNAIL/image/gif/18a28e43f4340d56a37fab6657f1f1af/gr1.sml gr1 gr1.sml sml 5925 56 219 IMAGE-THUMBNAIL 1-s2.0-S0021951724002987-gr2.sml https://s3-eu-west-1.amazonaws.com/prod-ucs-content-store-eu-west/content/pii:S0021951724002987/gr2/THUMBNAIL/image/gif/ca26e31fc57760bab7d28b634587e379/gr2.sml gr2 gr2.sml sml 10742 122 219 IMAGE-THUMBNAIL 1-s2.0-S0021951724002987-ga1.sml https://s3-eu-west-1.amazonaws.com/prod-ucs-content-store-eu-west/content/pii:S0021951724002987/ga1/THUMBNAIL/image/gif/746f47c90d5cfe9af033776a3c38ccae/ga1.sml ga1 true ga1.sml sml 9350 87 219 IMAGE-THUMBNAIL 1-s2.0-S0021951724002987-gr7.sml https://s3-eu-west-1.amazonaws.com/prod-ucs-content-store-eu-west/content/pii:S0021951724002987/gr7/THUMBNAIL/image/gif/67c96d47c57c471830aa86d2a2622372/gr7.sml gr7 gr7.sml sml 11360 164 187 IMAGE-THUMBNAIL 1-s2.0-S0021951724002987-gr8.sml https://s3-eu-west-1.amazonaws.com/prod-ucs-content-store-eu-west/content/pii:S0021951724003488/gr8/THUMBNAIL/image/gif/4846b23c9feeea192f8b7119f26ad00b/gr8.sml gr8 gr8.sml sml 13961 127 219 IMAGE-THUMBNAIL 1-s2.0-S0021951724002987-gr5.sml https://s3-eu-west-1.amazonaws.com/prod-ucs-content-store-eu-west/content/pii:S0021951724003488/gr5/THUMBNAIL/image/gif/fb5decd90d0a1dc0e7336c4011690d2a/gr5.sml gr5 gr5.sml sml 14164 149 219 IMAGE-THUMBNAIL 1-s2.0-S0021951724002987-gr6_lrg.jpg https://s3-eu-west-1.amazonaws.com/prod-ucs-content-store-eu-west/content/pii:S0021951724002987/HIGHRES/image/jpeg/c2ec4e740fafa97a62d77afb7891c780/gr6_lrg.jpg gr6 gr6_lrg.jpg jpg 231925 1075 2368 IMAGE-HIGH-RES 1-s2.0-S0021951724002987-gr3_lrg.jpg https://s3-eu-west-1.amazonaws.com/prod-ucs-content-store-eu-west/content/pii:S0021951724002987/HIGHRES/image/jpeg/19a785198db70fbf77bf954ff41c65cc/gr3_lrg.jpg gr3 gr3_lrg.jpg jpg 589167 2588 3150 IMAGE-HIGH-RES 1-s2.0-S0021951724002987-gr4_lrg.jpg https://s3-eu-west-1.amazonaws.com/prod-ucs-content-store-eu-west/content/pii:S0021951724002987/HIGHRES/image/jpeg/656fae4eb145312b3e57f4275434330a/gr4_lrg.jpg gr4 gr4_lrg.jpg jpg 515323 2145 2362 IMAGE-HIGH-RES 1-s2.0-S0021951724002987-gr1_lrg.jpg https://s3-eu-west-1.amazonaws.com/prod-ucs-content-store-eu-west/content/pii:S0021951724002987/HIGHRES/image/jpeg/cf1f3acc800b15d18eeecc618e002e7b/gr1_lrg.jpg gr1 gr1_lrg.jpg jpg 182182 811 3150 IMAGE-HIGH-RES 1-s2.0-S0021951724002987-gr2_lrg.jpg https://s3-eu-west-1.amazonaws.com/prod-ucs-content-store-eu-west/content/pii:S0021951724002987/HIGHRES/image/jpeg/34b03778a971c68f656487f720f5dfa1/gr2_lrg.jpg gr2 gr2_lrg.jpg jpg 394249 1748 3150 IMAGE-HIGH-RES 1-s2.0-S0021951724002987-ga1_lrg.jpg https://s3-eu-west-1.amazonaws.com/prod-ucs-content-store-eu-west/content/pii:S0021951724002987/HIGHRES/image/jpeg/5aef641983447ffbc3e92efd94f5f4a8/ga1_lrg.jpg ga1 true ga1_lrg.jpg jpg 181163 883 2213 IMAGE-HIGH-RES 1-s2.0-S0021951724002987-gr7_lrg.jpg https://s3-eu-west-1.amazonaws.com/prod-ucs-content-store-eu-west/content/pii:S0021951724003488/HIGHRES/image/jpeg/bfb7b7769e6de84a72d87aa2bf781fc8/gr7_lrg.jpg gr7 gr7_lrg.jpg jpg 324842 2074 2362 IMAGE-HIGH-RES 1-s2.0-S0021951724002987-gr8_lrg.jpg https://s3-eu-west-1.amazonaws.com/prod-ucs-content-store-eu-west/content/pii:S0021951724003488/HIGHRES/image/jpeg/3aebd0b2566c8c8d85c8855248945f23/gr8_lrg.jpg gr8 gr8_lrg.jpg jpg 479402 1711 2953 IMAGE-HIGH-RES 1-s2.0-S0021951724002987-gr5_lrg.jpg https://s3-eu-west-1.amazonaws.com/prod-ucs-content-store-eu-west/content/pii:S0021951724003488/HIGHRES/image/jpeg/ab9c5c1400271fcb135d35b5a4247fdc/gr5_lrg.jpg gr5 gr5_lrg.jpg jpg 317858 1612 2368 IMAGE-HIGH-RES 1-s2.0-S0021951724002987-mmc1.pdf https://s3-eu-west-1.amazonaws.com/prod-ucs-content-store-eu-west/content/pii:S0021951724002987/mmc1/MAIN/application/pdf/4294fdfaa5b66c267c6c6fd13ea14b14/mmc1.pdf mmc1 mmc1.pdf pdf false 4021432 APPLICATION 1-s2.0-S0021951724002987-si1.svg https://s3-eu-west-1.amazonaws.com/prod-ucs-content-store-eu-west/content/pii:S0021951724002987/image/svg+xml/58f99f26e694f369597a63b3ddcb1193/si1.svg si1 si1.svg svg 16991 ALTIMG 1-s2.0-S0021951724002987-si2.svg https://s3-eu-west-1.amazonaws.com/prod-ucs-content-store-eu-west/content/pii:S0021951724002987/image/svg+xml/5e44ba0ddbd3fc5c4a503e09edf207d8/si2.svg si2 si2.svg svg 16019 ALTIMG 1-s2.0-S0021951724002987-si3.svg https://s3-eu-west-1.amazonaws.com/prod-ucs-content-store-eu-west/content/pii:S0021951724002987/image/svg+xml/c2b9ff133ad4308278df0a63120c64a8/si3.svg si3 si3.svg svg 6356 ALTIMG 1-s2.0-S0021951724002987-si4.svg https://s3-eu-west-1.amazonaws.com/prod-ucs-content-store-eu-west/content/pii:S0021951724002987/image/svg+xml/8d97b4ac461631053d47de34a812e4eb/si4.svg si4 si4.svg svg 6913 ALTIMG 1-s2.0-S0021951724002987-si5.svg https://s3-eu-west-1.amazonaws.com/prod-ucs-content-store-eu-west/content/pii:S0021951724002987/image/svg+xml/57eb73c5566ab9caf05041bf8da2b169/si5.svg si5 si5.svg svg 6036 ALTIMG 1-s2.0-S0021951724002987-si6.svg https://s3-eu-west-1.amazonaws.com/prod-ucs-content-store-eu-west/content/pii:S0021951724002987/image/svg+xml/5ad8cbcfb8826341fe1cc6a9de3c7286/si6.svg si6 si6.svg svg 6578 ALTIMG 1-s2.0-S0021951724002987-si7.svg https://s3-eu-west-1.amazonaws.com/prod-ucs-content-store-eu-west/content/pii:S0021951724002987/image/svg+xml/f9a534a94ded313e7ca025466a3b36c0/si7.svg si7 si7.svg svg 14869 ALTIMG 1-s2.0-S0021951724002987-si8.svg https://s3-eu-west-1.amazonaws.com/prod-ucs-content-store-eu-west/content/pii:S0021951724002987/image/svg+xml/06490e1b321635084f065f23d8a9af2f/si8.svg si8 si8.svg svg 3269 ALTIMG 1-s2.0-S0021951724002987-si9.svg https://s3-eu-west-1.amazonaws.com/prod-ucs-content-store-eu-west/content/pii:S0021951724002987/image/svg+xml/1e973312724deb6be232a8f22d9d92f4/si9.svg si9 si9.svg svg 3681 ALTIMG 1-s2.0-S0021951724002987-am.pdf https://s3-eu-west-1.amazonaws.com/prod-ucs-content-store-eu-west/content/egi:102G46NS0ZX/MAIN/application/pdf/ccfa3e2e2702d4ad0feffcdd84781ad2/am.pdf am am.pdf pdf false 2155458 AAM-PDF YJCAT 115585 115585 S0021-9517(24)00298-7 10.1016/j.jcat.2024.115585 Fig. 1 The CO2 methanation performance over various catalysts. (a) CO2 methanation performance over bare Ni and various inverse 10MO x /Ni catalysts at 340 °C. (b) CO2 methanation performance over bare Ni, conventional 10Ni/Y2O3 and inverse 10Y2O3/Ni catalysts at 340 °C. (c) CO2 methanation performance over inverse Y2O3/Ni catalysts with different loading. Fig. 2 The CO2 methanation performance over various catalysts. CH4 selectivity corrected by equilibrium factor (ƞ) over inverse (a) 10MO x /Ni and (b) 10MO x /Ni800 catalysts at 340 °C, where the detailed data were summarized in Table S2, S4 and S5. (c) CH4 yield of 10MO x /Ni catalysts and 10MO x /Ni800 catalysts at 340 °C. (d) Comparison of the specific activity over various catalysts, where the detailed were listed in Table S7. (e) Evaluation of the long-term stability over various catalysts at 380 °C. Reaction conditions: 23 %CO2/69 %H2/8%N2, GHSV = 180,000 mL·gcat −1·h−1. Fig. 3 Machine learning analysis of CO2 methanation selectivity for Ni-based catalysts. (a) Relationship between CH4 selectivity and electronegativity across MO x /Ni catalysts, as outlined in Tables S1–S3, across different reaction temperatures (300, 340 and 380 °C). (b) Correlation between CH4 selectivity and particle size. (c) Parity plot of experimental vs. predicted CH4 selectivity (Tables S7–S9). (d) Feature importance analysis illustrating the relative impact of various factors on CH4 selectivity in MO x /Ni catalysts. (e) SHAP summary beeswarm plot visualizing the distribution of feature impacts on model output, indicating the most influential descriptors. (f) Electronegativity of M atoms in Ni-MO x composite catalysts was closely related to CH4 selectivity and could be used for screening highly selective catalysts for CO2 methanation reaction. Fig. 4 Identification of the Ni-support interface on Ni-Y2O3 composite catalysts. The ac-HAADF-STEM images of the used (a) 5Y2O3/Ni and (b) 5Ni/Y2O3 catalysts. The EDS elemental mapping images of the used (c) 5Y2O3/Ni and (d) 5Ni/Y2O3 catalysts. Fig. 5 Identification of the Ni-support interface on Ni-Y2O3 composite catalysts. (a) The ac-HAADF-STEM images of used 5Y2O3/Ni catalysts. (b) The results of EELS for region-A, region-B and region-C upon the used 5Y2O3/Ni catalyst as shown in Fig. 5a. (c) Quasi in-situ XPS results of 5Y2O3/Ni and 5Ni/Y2O3 catalysts collected after 23 %CO2/69 %H2/8%N2 treatment at 380 °C for 1 h. (d) H2-TPR profiles of 5Y2O3/Ni and 5Ni/Y2O3 catalysts collected after in-situ pretreating under CO2 methanation reaction conditions (23 %CO2/69 %H2/8%N2) at 380 °C for 1 h. (e) In-situ FTIR spectra of 5Ni/Y2O3 catalyst after 23 %CO2/69 %H2/8%N2 treatment at 380 °C for 1 h collected in different CO partial pressures at –145 °C. Fig. 6 Effect of the Ni-support interface on CO2 methanation reaction performance. In-situ DRIFTS results of 5Ni/Y2O3 catalyst collected under 23 %CO2/69 %H2/8%N2 at 30–300 °C: (a) CO-related and (b) carbonate and formate species. Fig. 7 Effect of the Ni-support interface on CO2 methanation reaction performance. (a) CO2-TPD profiles of various catalysts. (b) The CO hydrogenation performance over various catalysts (15 %CO/45 %H2/40 %N2, GHSV = 180,000 mL·gcat −1·h−1). (c) Optimized structures of Ni(111) and Y2O3/NiO x /Ni slab model and its adsorption of CO and CO2. (d) The adsorption energy of CO2 and CO at Y2O3/NiO x /Ni and Ni(111) slab model. Fig. 8 Effect of the Ni-support interface on CO2 methanation reaction performance. (a) The CO hydrogenation performance of 10MO x /Ni catalysts (15 %CO/45 %H2/40 %N2, GHSV = 180,000 mL·gcat −1·h−1). (b) CO2-TPD profiles of various catalysts. Optimized structures of (c) CaO/NiO x /Ni, (d) Al2O3/NiO x /Ni and (e) InO2/NiO x /Ni slab model and its adsorption of CO and CO2. (f) Adsorption energy of CO2 and CO at CaO/NiO x /Ni, Al2O3/NiO x /Ni and InO2/NiO x /Ni slab model. Research article Identifying the key structural features of Ni-based catalysts for the CO2 methanation reaction Zhi-Xin Li Writing – review & editing Writing – original draft Investigation Formal analysis Data curation a Xin-Pu Fu Writing – review & editing Methodology Formal analysis a Chao Ma Methodology Formal analysis c Wei-Wei Wang Methodology Formal analysis a Jin-Cheng Liu Writing – review & editing Supervision Project administration Funding acquisition Formal analysis Conceptualization b ⁎ Chun-Jiang Jia Writing – review & editing Writing – original draft Supervision Project administration Funding acquisition Conceptualization a ⁎ a Key Laboratory for Colloid and Interface Chemistry, Key Laboratory of Special Aggregated Materials, School of Chemistry and Chemical Engineering, Shandong University, Jinan 250100, China Key Laboratory for Colloid and Interface Chemistry Key Laboratory of Special Aggregated Materials School of Chemistry and Chemical Engineering Shandong University Jinan 250100 China Key Laboratory for Colloid and Interface Chemistry, Key Laboratory of Special Aggregated Materials, School of Chemistry and Chemical Engineering, Shandong University, Jinan 250100, China b Center for Rare Earth and Inorganic Functional Materials, School of Materials Science and Engineering & National Institute for Advanced Materials, Nankai University, Tianjin 300350, China Center for Rare Earth and Inorganic Functional Materials School of Materials Science and Engineering & National Institute for Advanced Materials Nankai University Tianjin 300350 China Center for Rare Earth and Inorganic Functional Materials, School of Materials Science and Engineering & National Institute for Advanced Materials, Nankai University, Tianjin 300350, China c College of Materials Science and Engineering, Hunan University, Changsha 410082, China College of Materials Science and Engineering Hunan University Changsha 410082 China College of Materials Science and Engineering, Hunan University, Changsha 410082, China ⁎ Corresponding authors. Graphical abstract Identifying the parameters influencing the selectivity of products is prominently significant for fabricating efficient catalysts. However, little progress has been made in describing the regulation rule of CH4 selectivity toward the CO2 methanation reaction, which is considered a vital process for CO2 emission and conversion. Herein, we disclosed the integral role of the electronegativity of M atoms in Ni-MO x supported catalysts to producing CH4 molecules, which the satisfactory catalytic performance stemmed from the regulated ability to capture CO2 molecules and CO intermediates. More importantly, alongside the extensively studied descriptor of particle size, we uncovered a strong correlation between the electronegativity of M atom and CH4 selectivity, in which the CO/CO2 adsorption capacity upon the Ni/NiO x /MO x interfaces exhibited a volcanic trend based on the electronegativity of M atoms in MO x supports. The screened Ni-Y2O3 composite catalysts demonstrated excellent CO2 methanation performance, suggesting the powerful practicability of the electronegativity of M atoms in MO x supports as a descriptor. These findings not only shed fundamental insight into the reaction pathway but also paved the way for the rational design of Ni-based catalysts based on the simple descriptor of electronegativity. Keywords CH4 and CO selectivity regulation Selectivity descriptor CO2 methanation Metal-oxide interface Ni-based supported catalyst Data availability Data will be made available on request. 1 Introduction Regulating the catalytic selectivity of products is a highly desirable yet challenging topic in the catalysis field [1,2]. The characteristics of metal species, or support oxides, and the electronic interaction between metal and support exhibit substantial effects on modulating the adsorption of reactant molecules or intermediate, which thus results in differentiated selectivity for productions [3–5]. The CO2 methanation reaction is an attractive technology for producing renewable natural gas, eliminating CO2 emissions and purifying hydrogen feedstock [6–8]. Generally, Ni-based supported catalysts exhibit immense application potential for CO2 methanation reaction due to their cost-effectiveness and high activity levels [9,10]. However, generating the CO byproduct from the reverse water–gas shift reaction is inevitable and sensitive to the structural features of catalysts [11,12], thus tailoring the catalytic selectivity over Ni-based supported catalysts is a top priority for this process. For example, Weckhuysen et al. reported that the size of Ni nanoparticles (NPs) remarkably influenced CH4 selectivity [9]. Konsolakis et al. proposed that the perimeter of the Ni-CeO2 interface within catalysts was the predominant factor in modulating CH4 selectivity [13]. The Ni-ZrO2 interface was proven to activate CO2 molecules to carbonates, which could improve the selectivity of CH4 by facilitating H+ species to bind with CO2 [14,15]. Despite extensive research, the parameters determining the performance and selectivity of Ni-based supported catalyst systems for the CO2 methanation reaction remain a topic of controversy, which is mainly due to the complex surficial environment of the catalysts [9–16]. Due to the ambiguity in identifying the critical structural features in modulating CH4 selectivity, constructing efficient Ni-based supported catalysts is overly dependent on trial-and-error experiments or high-throughput calculations. Therefore, further investigation is required to elucidate the effect of chemical and physical properties on the catalytic performance, especially the selectivity of products. In this regard, effective descriptors have been developed for various catalysis processes, including propane dehydrogenation, CO2 reduction reaction and other vital reactions [17–22], to uncover the structure–function relationship and further guide the fabrication of the catalysts. However, for the CO2 methanation reaction, despite numerous factors proposed to influence the distribution of productions, a straightforward descriptor summarizing the relationship between the geometry or electronic features of the Ni-based supported catalysts and CH4 selectivity has not yet been validated. In addition, the corollary derived from current studies is that the manifold factors of the Ni species, including the particle sizes, number of perimeter sites, and oxidation state, would affect the selectivity of the CO2 methanation reaction [9–16]. Besides the Ni species, the chemical characteristics of support materials are essential for the interfacial structure, while it was rarely taken as the research topic to get the mechanistic insight into the Ni-based supported catalysts for the CO2 methanation reaction. To dig out the key factor in regulating selectivity toward the CO2 methanation reaction, we reported a thorough investigation of Ni-based supported catalysts. The Ni-MO x (Al2O3, Y2O3, CeO2, etc.) supported catalysts with interfacial structures performed much better than the bare Ni catalyst in both CO2 conversion and CH4 selectivity. Based on the above phenomenon, coupled with catalytic experiments and machine learning techniques over more than 1 1 0 Ni-MO x supported catalysts (>1 1 0), we discovered a volcanic relationship between the electronegativity of M atoms in MO x supports and CH4 selectivity. Subsequent combined quasi in-situ XPS and microscopy results, the Ni/NiO x /MO x conjunctions were determined upon the Ni-support interface over Ni-MO x catalysts. The sorption experiments and DFT calculation results further disclosed that the electronegativity of M atom within Ni/NiO x /MO x conjunction was strongly correlated with the CO/CO2 adsorption capacity, exhibiting the enormous potential as an intrinsic descriptor for the CH4 selectivity of Ni-based supported catalysts. The Ni-Y2O3 supported catalysts screened by the electronegativity descriptor displayed unparalleled CO2 methanation performance, implying the satisfactory feasibility. 2 Experimental 2.1 Catalyst preparation 2.1.1 Preparation of bare Ni catalyst A certain amount of Ni(NO3)2·6H2O solution (0.01 g·mL−1) and sodium carbonate solution (0.5 mol·L−1) was added to 25 mL deionized water at the same time drop by drop at room temperature, where the pH value of the solution was kept ca. 10. The green suspension was stirred for 0.5 h and aged for another 1 h. The precipitates were collected by filtering and washing with 1 L deionized water, followed by drying in an oven at 60 °C. 2.1.2 Preparation of Y2O3/Ni catalysts Y2O3/Ni catalysts were prepared by deposition precipitation (DP) method. Typically, 0.5 g bare Ni catalyst was evenly dispersed in 25 mL deionized water at room temperature. A certain amount of Y(NO3)3·6H2O solution (0.01 g·mL−1) was added to the above suspension drop by drop. The pH value of the suspension was kept ca. 10 by the sodium carbonate solution (0.5 mol·L−1). The precipitates were stirred for 0.5 h and aged for 1 h. Finally, the precipitates were filtered, washed with 1 L deionized water and dried at 70 °C for 10 h to obtain xY2O3/Ni catalysts, where x was Y element as a percentage of the weight of bare Ni catalyst. 2.1.3 Preparation of Ni/Y2O3 catalysts Specifically, 0.766 g Y(NO3)3·6H2O and 6.03 g urea were dissolved in 50 and 150 mL deionized water, respectively. The above solutions were quickly transferred to a 500 mL round-bottomed flask and stirred at 90 °C for 4 h. The white precipitates were collected by filtering and washing 1 L deionized water and dried at 70 °C for 10 h. Then, the white precipitates were calcined at 600 °C for 4 h in muffle furnace to obtain Y2O3. Finally, yNi/Y2O3 catalysts were also prepared by the same DP method (where y was Ni element as a percentage of the weight of the Y2O3). 2.2 Characterizations of catalysts 2.2.1 Transmission electron microscopy (TEM) TEM images were taken by JEOL JEM-1011 instrument (100 kV). High-resolution TEM (HRTEM) images were obtained on the Thermofisher talos F200X instrument (200 kV). The aberration-corrected high-angle annular dark-field scanning TEM (ac-HAADF-STEM) images, energy-dispersive X-ray spectroscopy (EDS) elemental mapping images and electron energy loss spectroscopy (EELS) were obtained on a JEOL ARM200F microscope equipped with a probe-forming spherical-aberration corrector and Gatan image filter (Quantum 965). 2.2.2 Temperature programmed reduction of H2 (H2-TPR) The H2-TPR profiles of samples collected after in-situ pretreating under CO2 methanation reaction conditions were measured on the mass spectrometer (MS) (LC-D200M, TILON). First, 200 mg samples were reduced (5 %H2/Ar, 60 mL·min−1) for 2 h at 400 °C. Then, the samples were treated by 23 %CO2/69 %H2/8%N2 (30 mL·min−1) for 1 h at 380 °C. Next, it was cooled to room temperature and switched to 5 %H2/Ar gas (30 mL·min−1). Finally, it was heated again to 600 °C (10 °C·min−1) to obtain H2-TPR profiles. 2.2.3 Ex-situ and quasi in-situ X-ray photoelectron spectroscopy (XPS) XPS and quasi in-situ XPS results were acquired on a Thermo Scientific ESCALAB Xi+ equipped with a high-temperature reaction tank (225 W of accelerating voltage and Al K α radiation). The pretreatment conditions of samples for quasi in-situ XPS: The samples were reduced (5 %H2/Ar, 60 mL·min−1) for 2 h at 400 °C. Then, the samples were treated by 23 %CO2/69 %H2/8%N2 (30 mL·min−1) for 1 h at 380 °C in the reaction cell. Next, it is cooled to room temperature and pumped to a certain vacuum for characterization. The binding energy was calibrated by the peak of C 1 s at 284.8 eV. 2.2.4 In-situ FTIR spectroscopy In-situ FTIR spectra were recorded on an FTIR spectrometer (Bruker Vertex 70v) with an ultrahigh vacuum (UHV) system. First, the samples were reduced for 2 h in 5 %H2/Ar (400 °C, 60 mL·min−1). Then, the samples were reduced by 5 %H2/Ar (30 mL·min−1) at 400 °C for 0.5 h and treated by 23 %CO2/69 %H2/8%N2 for 0.5 h (380 °C, 30 mL·min−1) in the reaction cell. Finally, the in-situ FTIR spectra were collected under the different CO partial pressure at −145 °C. 2.2.5 In-situ diffuse reflectance infrared Fourier transform spectroscopy (DRIFTS) In-situ DRIFTS spectra were collected by a Bruker Vertex 70 FTIR spectrometer. First, the samples were treated in 5 %H2/Ar (60 mL·min−1) for 2 h at 400 °C. Then, the samples were reduced by 5 %H2/Ar (30 mL·min−1) at 300 °C for 0.5 h in the reaction cell. Next, the samples were treated by 23 %CO2/69 %H2/8%N2 (30 mL·min−1) and the in-situ DRIFTS spectra was collected at different temperatures. Finally, the in-situ DRIFTS spectra were collected under Ar (30 mL·min−1) at 300 °C. 2.3 Catalytic performance evaluation The CO2 methanation performance was evaluated in a fixed-bed flow reactor. The 20 mg samples (20–40 mesh) and 500 mg quartz sand were evenly mixed in a quartz reaction tube (20 mm × 390 mm). Then, the samples were reduced at 400 °C for 2 h in 5 %H2/Ar (60 mL·min−1). Next, the CO2 methanation performance of samples was evaluated at 300, 340 and 380 °C (23 %CO2/69 %H2/8%N2 or 23 %CO2/46 %H2/31 %N2, gas hourly space velocity (GHSV) = 180,000 mL·gcat −1·h−1) and collected by an on-line chromatography equipped with TCD detector (GC-2014C, Shimadzu). Additional the long-term stability of samples was tested in the same reactor at 380 °C (GHSV = 180,000 mL·gcat −1·h−1). The reaction rate was also tested with the same reactor (CO2 conversion was maintained at 5–15 %). The CO2 conversion and CH4 selectivity were calculated by formula 1 and formula 2, respectively. (1) X CO 2 = n CO 2 in - n CO 2 out n CO 2 in × 100 % (2) S CH 4 = n CH 4 out n CO + out n CH 4 out × 100 % Here, the n CO 2 in and n CO 2 out was the percentage of CO2 at the inlet and outlet of the reaction tube, respectively. The n CO out and n CH 4 out was the percentage of CO and CH4 at the outlet of the reaction tube, respectively. 2.4 DFT calculation methods The DFT calculations were conducted using the Vienna Ab initio Simulation Package (VASP) code, employing the spin-polarized method with the Perdew-Burke-Ernzerhof (PBE) flavor of the generalized gradient approximation [23]. The plane-wave basis sets with a 400 eV cutoff kinetic energy were utilized to approximate the valence electron densities, while the projector-augmented wave method was employed to account for the core-valence interaction [24–26]. Gamma centered Monkhorst-Pack (1 × 1 × 1) sampling was used for the Brillouin zone integration for all computational slab models due to the large cell. Convergence criteria of 10−6 eV for energy and 0.02 eV Å−1 for force were set. Free energy correction for all species was performed for CO2 methanation reactions by VASPKIT [27]. For free molecules, the ideal gas approximation was assumed. 2.5 Machine learning calculation methods The machine learning approach employed in this study relies on the gradient boosted regression (GBR) algorithm. The GBR model was chosen due to its robustness and efficiency in handling both non-linear relationships and interactions between variables. Hyperparameter Optimization: We employed the Randomized Search CV approach to optimize the hyperparameters of the GBR model. This method efficiently searches through a specified subset of hyperparameters, randomly combining parameters to determine the most effective settings without the computational expense of an exhaustive search. Model Training: The training set, denoted as D = {(x 1, y 1), (x 2, y 2), … (x n, y n)}, was utilized to train the GBR model, where each (x i, y i) pair represents the feature set and target outcome, respectively. The dataset was divided into J disjoint parts, with J representing the number of leaf nodes in each regression tree, aligning with a ‘min_weight_fraction_leaf’ parameter of 0.01 to prevent overfitting [28,29]. Evaluation Metrics: The model's prediction accuracy was quantified using the coefficient of determination R 2, which is calculated as follows: (3) R 2 = 1 - 1 n ∑ i = 1 n y i - y ^ i 2 1 n ∑ i = 1 n y i - y ¯ 2 In which y i represents the actual label value, and y ^ i represents the predicted value based on the GBR model. A higher R 2 value indicates a model with greater precision. Key Hyperparameters: n_estimators: 600 − Number of trees in the forest. max_depth: 5 − Maximum number of levels in each decision tree. learning_rate: 0.2 − Step size shrinkage used to prevent overfitting. max_features: 2 − The maximum number of features considered for splitting a node. 3 Results and discussion 3.1 Dominant effect of Ni-MO x interfaces in CO2 methanation reaction The bare Ni particles and inverse MO x /Ni composites, including MgO/Ni, Al2O3/Ni, Y2O3/Ni and CeO2/Ni catalysts, were established to illustrate the role of the Ni-MO x interface comprehensively. The crystallized structure of as-prepared bare Ni catalyst determined by X-ray diffraction (XRD) patterns was amorphous Ni(OH)2-related species (Fig. S1), which had a flake-like shape with a diameter of ca. 200 nm (Fig. S2). The geometry structure of as-prepared inverse MO x /Ni catalysts was characterized and summarized in Fig. S3. Briefly, the Ni species in the central region covered with a layer of amorphous MO x over the as-prepared inverse MO x /Ni catalysts. The CO2 methanation performance of Ni-based catalysts was evaluated at a high GHSV of 180,000 mL⋅gcat −1⋅h−1. As shown in Fig. 1 a, the bare Ni catalyst demonstrated a low CO2 conversion of 14.9 % at 340 °C. In sharp contrast, the various inverse 10MO x /Ni catalysts displayed significantly boosted CO2 conversions of ca. ∼50 % at 340 °C (Fig. 1a), implying the importance of interfacial sites for efficient surface reaction cycles. Besides the CO2 conversion over catalysts, the CO/CH4 selectivity toward the CO2 methanation reaction is also an essential topic [9–16]. As shown in Fig. 1a, the bare Ni catalysts demonstrated a low CH4 selectivity of about 16.4 % at 340 °C. Conversely, when the Ni-support interfacial structures were formed, the inverse 10MO x /Ni catalysts revealed a predominant selectivity of CH4 product (>93 %) at 340 °C. Taking the Ni-Y2O3 composites as an example (Fig. 1b), the catalysts with conventional Ni/Y2O3 structure or inverse Y2O3/Ni structure displayed a superior CH4 selectivity of ca. 94 %, obviously outperforming the bare Ni catalyst (21 %). These results indicate that the conjunction modes of Ni-MO x rather than the microstructure play the predominant role in determining the selectivity of products. To be noted, the CO2 conversions evaluated here were modulated to similar levels of ca. ∼30 % to exclude the plausible interference from thermodynamic limits. The enhancement in CH4 selectivity could also be confirmed over additional Ni-Y2O3 composite catalysts prepared through different methods (Fig. S4), indicative of the universal correlation between boosted CH4 selectivity and the formation of the Ni-support interfaces. Furthermore, inverse Y2O3/Ni catalysts with various loadings (0.1–20 %) of the Y atoms were synthesized to qualitatively differentiate the number of Ni-Y2O3 interfacial sites. As shown in Fig. 1c, the CH4 selectivity of the Ni-based catalyst was significantly enhanced from 16.4 % to 37.1 % by introducing a trace amount of Y species (0.1 %) inside. With the loading of Y2O3 increased in the range of 0.1–10 %, the CH4 selectivity was gradually improved and eventually reached a plateau of ca. 96.1 %. This positive correlation between CH4 selectivity and the number of interfacial sites confirmed that the Ni-support interfacial sites significantly boosted the CH4 selectivity. In order to more comprehensively demonstrate the universality of interface for enhancing the CH4 selectivity, numerous catalysts combined with different MO x have been prepared to catalyze CO2 methanation in Fig. 2 a and Figs. S5–S8. Due to the CO2 conversions measured in this work (1.3–56.0 %, 340 °C) were far from the equilibrium conversions toward CO2 methanation reaction, while they somehow approached the equilibrated limitation of the reverse water–gas shift (RWGS) reaction (Fig. S9). Therefore, the equilibrium factor (ƞ) has been calculated to assess the equilibrium limitation affecting the reaction rates and selectivity (Table S5). As shown in Table S5, the equilibrium factor (ƞ 1) of CO2 methanation reaction was determined to be lower than 10−10, indicating that the reaction rates were barely affected by thermodynamic constraint from reversed CO2 methanation process. Notably, some equilibrium factors (ƞ 2) of the RWGS reaction derived from certain conditions were larger than 0.1 (Table S5), suggesting that the RWGS reaction rates were particularly influenced by equilibrium limitation. Therefore, the reaction rate and catalytic selectivity corrected by the equilibrium factor (ƞ) were presented in Fig. 2a, b and Table S5. As shown in Fig. 2a, the CH4 selectivity of Ni-based catalysts was volcanically correlated with the electronegativity of M atoms in inverse MO x /Ni catalysts. However, the distinct difference in Ni NP sizes (12.3–37.8 nm) on inverse MO x /Ni catalysts might interfere with deriving reliable conduction (Fig. 2a, Fig. S7, Table S2). In this regard, a series of inverse MO x /Ni800 catalysts were synthesized, in which Ni NPs size distributed in a narrow range of 27.5–32.6 nm (Fig. 2b, Fig. S7 and Table S4). As shown in Fig. 2b, the apparent volcanic-type trend between the CH4 selectivity and electronegativity of M atoms was further confirmed. Specifically, the CH4 selectivity reached a plateau of ca. ∼80 % as the electronegativity of M atoms in the range of 1.1–1.4, such as inverse Y2O3/Ni800 and CeO2/Ni800 catalysts (Fig. 2b and S6). When the electronegativity of M atoms in MO x was immoderately weak (<1.1) or strong (>1.6), the catalysts, such as inverse 10Cs2O/Ni800 (0.8), 10CaO/Ni800 (1.0), and 10InO2/Ni800 (1.8) catalysts, demonstrated relatively poor CH4 selectivity lower than 30 % (Figs. 2b and S6). In addition, the CH4 yield and CO2 methanation reaction rate was also volcanically correlated with the electronegativity of M atoms in MO x /Ni and MO x /Ni800 catalysts (Fig. 2c, S11 and S12), indicating that the advantage of the electronegativity as a descriptor in predicting the CO2 methanation performance. On the other hand, the electronegativity of M atoms also has a significant effect on both the CO selectivity and RWGS reaction rate. As illustrated in Fig. S12, different from the volcanic trend between CH4 selectivity and electronegativity, the relationship between CO selectivity and electronegativity for Ni-based catalysts exhibited a roughly V-shaped trend, where strong (>1.4) or weak (<1.1) electronegativity was conducive to improving CO selectivity. Meanwhile, the RWGS reaction rate over Ni-based catalysts demonstrated a linear correlation with the electronegativity of M atoms within the catalysts (Fig. S12). Furthermore, the influence from temperature and partial pressure on the descripting role of electronegativity was also evaluated by tuning the CO2/H2 ratio or reaction temperatures. As shown in the Figs. S11–S13, the partial pressures and reaction temperatures would exert an effect on catalytic performance, especially for the CO2 conversion, in a view of individual catalysts, while they poorly interference the validity of electronegativity to predict CH4 selectivity for Ni-based catalysts. The above experimental evidence proved that the catalytic performance is considerably impacted by the electronegativity of M atoms in Ni-MO x interfaces. Following this rule, the Ni-Y2O3 composite catalyst with the electronegativity of 1.2 (Y atoms) was developed in this work, which demonstrated excellent CO2 methanation performance in both reactivity and selectivity (Fig. 2d, e and S15). The reactivity of Ni-Y2O3 composite catalysts was ∼62.9 folds higher than the bare Ni sites (3.4 μmol⋅gcat −1⋅s−1) (Fig. 2d and Table S6). In addition, the madon-boudart test of Ni/Y2O3 catalyst in CO2 methanation confirmed that there was no mass transfer limitation, which ensured the accuracy of the experimental results (Fig. S15). Meanwhile, the long-term stability of the Ni/Y2O3 or inverse Y2O3/Ni catalysts decreased slightly by ∼3 % in the initial 20 h and maintained stably at above 50 % within 200 h on stream (Fig. 2e). However, as compared with the initial value, the activity of bare Ni catalyst loss about 30 % (29.3 vs. 20.8 %) after reaction at 380 °C for 100 h. Meanwhile, the reaction rate over the Ni/Y2O3 (209.5 μmol⋅gcat −1⋅s−1) or inverse Y2O3/Ni (214.6 μmol⋅gcat −1⋅s−1) catalysts also vastly outperformed the other Ni-MO x composite catalysts reported in the literature, even much better than some catalysts loaded with noble metals (Ru, Rh) (Fig. 2d and Table S5) [30–33]. 3.2 Selectivity descriptors of Ni-based supported catalysts It should be noted that the factors affecting the CO/CH4 selectivity of Ni-based supported catalysts were usually complex and intertwined [9–16]. In this regard, to figure out the underlying regularity between Ni-MO x conjunctions and their corresponding CH4 selectivity, we further prepared about 40 additional catalysts with different Ni loadings or MO x as illustrated in Tables S1–S3. Previous studies have proven that the size of Ni particles might affect the selectivity of the CO2 methanation reaction [34–36]. In addition, a correlation between the electronegativity of metal elements and their catalytic performance was also found in other reactions [37–39], despite it was rarely investigated within the CO2 methanation process. However, as illustrated in Fig. 3 a and b, it is difficult to derive a regular tendency over a single parameter, suggesting that multiple factors might be involved in determining the CH4 selectivity upon the Ni-MO x interfaces. Machine learning, such as gradient boosted regression (GBR) algorithm, has been proven to be a powerful strategy for designing and mining catalytic materials owing to its role in predicting catalytic performance [40–44]. Therefore, in addition to the descriptor of particle sizes of Ni species and reaction, the chemical properties of MO x , comprising the electronegativity, oxidation state, and valence electron number of M atoms were considered for all the spent Ni-based catalysts during the machine-learning process (Tables S1–S3). By divided the data into training set and validation set randomly, as revealed in Fig. 3c, a well-fitting was achieved by comparing the experimental data and GBR predicted data from training set included in Tables S1–S3 and S7–S9. To examine the validity of this fitting curve, the CH4 selectivity derived from validation set (Fig. 3c, marked in red) were well consistent to the predicted data with a commendable R 2 value of 0.957. The importance coefficient of Ni NP size derived from machine learning reached 0.44 in determining the CH4 selectivity for the Ni-based catalysts, demonstrating its important influence on the distribution of products toward the CO2 methanation process (Fig. 3d). This finding is well consistent with the consensus derived from previous studies that the size of Ni NPs has a significant impact on CH4 selectivity [45–47]. In addition, the size effect of the oxide support seemed to be independent of the catalytic selectivity (Fig. S16 and S17). It is noteworthy that the electronegativity of the M atom in MO x support also demonstrated a high weight coefficient of 0.35, suggesting that it strongly correlated with CH4 selectivity. In contrast, the numbers of period and reaction temperature have negligible weight coefficients lower than 0.03, indicating their weak relevance with CH4 formation. These findings were also substantiated by the SHAP summary beeswarm plot depicted in Fig. 3e, where Ni NPs size and electronegativity of M atoms had important effects on CH4 selectivity. In particular, electronegativity, which has not been paid much attention to in CO2 methanation reaction, plays an important role in screening catalytic selectivity. In addition, Fig. 3e further indicated an optimal range of electronegativity values conducive to selectivity, aligning with the established concept (Fig. 2a–c) that neither extreme values of high (such as InO2/Ni) nor low (such as Cs2O/Ni and Rb2O/Ni) electronegativity were favorable for catalytic performance. It has to be explicitly that the machine learning results reflected the combined influence of both Ni NPs size and electronegativity on the CH4 selectivity, and the GBR model's output confirmed that these factors were intertwined. In other words, the importance assigned to particle size in the machine learning model could also be interpreted as an extension of the influence of electronegativity. Therefore, the electronegativity of M atoms in MO x /Ni catalysts was identified to be a key descriptor to predict the performance of CO2 methanation in addition to Ni NPs size (Fig. 3f). 3.3 Structure of active sites on Ni-based supported catalysts To further get mechanistic insight, identifying the authentic interfacial structure of the Ni-based catalysts is indispensable, for which the Ni-Y2O3 composite catalysts were chosen as representative catalysts. Firstly, microscopy characterizations were conducted on spent 5Y2O3/Ni and 5Ni/Y2O3 catalysts. As illustrated in ac-HAADF STEM images (Fig. 4 a), the lattice fringe spacing of 0.31 nm attributed to Y2O3(111) was observed in the edge regions of 5Y2O3/Ni catalyst. Meanwhile, in the central region, the lattice fringe spacings of 0.20 and 0.18 nm with a characteristic angle of 54° were ascribed to Ni(111) and Ni(200). Therefore, the metallic Ni-Y2O3 interfacial regions could be identified as marked by the white dotted lines over the spent 5Y2O3/Ni catalysts. Similarly, the distinct boundary could be identified over the spent 5Ni/Y2O3 catalyst (Fig. 4b). The abundant interfacial on surface of spent 5Y2O3/Ni and 5Ni/Y2O3 catalysts was also supported by the ac-HAADF-STEM, HRTEM and EDS elemental mapping images (Figs. 4c, d, S19 and S20). As shown in Fig. 5 a, the amorphous feature was identified in the interfacial region between crystalized Y2O3 and Ni species, which might be related to the oxidation state of interface species [48,49]. The “white-line ratio” of the Ni L 3/L 2 peaks in the electron energy-loss spectroscopy (EELS) was sensitive to the valence state of Ni atoms [50,51]. Therefore, the EELS results (Fig. 5b) were collected in three differentiated regions, including the Ni-rich region-A, interfacial region-B and Y2O3-rich region-C, to clarify the electronic state of the interfacial species. Concretely, the L 3 peak at 855.1 eV and L 2 peak at 872.3 eV were dominant in the EELS results of region-A and region-B, while they were weak for region-C. These results confirmed that region-B was typical for the Ni-Y2O3 interfacial structure. Consequently, compared with region A (L 3/L 2 = 1.44), the decreased ratio of L 3/L 2 of 1.28 in the interfacial region-B indicated that NiO x species might be present within the interface owing to the Ni-Y2O3 interaction [50,51]. The Ni 2p XPS spectra of spent 5Y2O3/Ni and 5Ni/Y2O3 catalysts further proved the presence of positive Ni species with a 2p3/2 binding energy at 853.8 eV (Fig. S21) [48,52]. To avoid interference from plausible oxidation in air, the XPS spectra were collected after the in-situ CO2 methanation reaction at 380 °C for 1 h (Fig. 5c). As shown in Fig. 5c, five deconvoluted peaks could be identified after fitting treatment. Specifically, the dominant Ni 2p3/2 signal at 852.1 eV, together with a satellite peak centered at ca. 6 eV higher than 857.9 eV, could be ascribed to the metallic Ni0 species. The Ni 2p XPS signal centered at 855.7 and 860.3 eV were ascribed to the Ni 2p3/2 and the corresponding satellite peak of Ni(OH)2 species, which might be induced by the reaction between reduced Ni0 species and generated H2O production [48,52]. As expected, the abundant presence of NiO species was confirmed by the deconvoluted peak at 853.9 eV for both 5Y2O3/Ni and 5Ni/Y2O3 catalysts, which was in line with the oxidized interfacial region observed in ac-HAADF-STEM images [48,52]. This hypothesis was further supported by H2-TPR profiles collected after in-situ pretreating under CO2 methanation reaction conditions (23 %CO2/69 %H2/8%N2) at 380 °C for 1 h. As shown in Figs. 5d and S21, the consumption signal of H2 (m/z = 2) in the range of 200–400 °C for 5Ni/Y2O3 catalysts, together with the absence of CH4 signal (m/z = 16), strongly substantiated the presence of reducible positive Niδ+ within the spent catalysts. Similarly, the 5Y2O3/Ni catalyst also demonstrated a distinct H2 consumption after the in-situ reaction treatment (Figs. 5d and S22), consistent with the NiO species identified by quasi in-situ XPS results. Evidence supporting the presence of positive Niδ+ species over the 5Ni/Y2O3 catalyst could be derived from in-situ FTIR spectra collected during CO adsorption at –145 °C (Fig. 5e) [53], where the catalyst was in-situ pretreated by syn-gas at 380 °C for 1 h. Aside from the adsorbed CO molecules on the Y3+ sites at (2173 cm−1) and Ni0 (2068 cm−1), the dominant vibration at 2138 cm−1 was observed upon the surface of spent 5Ni/Y2O3 catalyst, which could be ascribed to the liner adsorption of CO at Niδ+ species [54]. Therefore, on the basis of the above results, it is reasonable to conclude that the authentic structure within the interfacial region upon the Ni-Y2O3 composite catalysts was Ni/NiO x /Y2O3. 3.4 Selective modulation mechanism on the Ni-MO x interfaces Subsequently, as shown in Fig. 6 , the sorption behavior of reactant molecules and intermediate over the Ni-support interface was investigated by in-situ DRIFTS over the determined Ni/NiO x /Y2O3 interface. When feeding inside syn-gas (23 %CO2/69 %H2/8%N2), the signals ascribed to the bidentate carbonate (1283 cm−1), formate (1375 and 1613 cm−1) and monodentate carbonate (1512 cm−1) species were observed over the surface of 5Ni/Y2O3 catalysts catalyst [55,56]. These vibration signals were enhanced as the temperature increased from 30 to 300 °C, which might be caused by the accumulation of activated CO2 species. In contrast, the vibration signals of bicarbonate species were significantly decreased, including bending vibration of the O–H bond at 1220 cm−1 and stretching vibration of the O–C–O bond at 1645 cm−1 [55,56], which might be due to the depletion of bicarbonate species during the CH4 generation at elevated temperatures. Additionally, bridged and linear CO species at 1925 cm−1 and 2042 cm−1 emerged together with producing gaseous CH4 at ca.1304 cm−1, suggesting the CO species might be correlated to the formation of CH4 [49]. Therefore, it is reasonable to speculate that a synergistic reaction path might proceed over the surface of 5Ni/Y2O3 catalysts. Specifically, the CO2 molecules were adsorbed upon the interfacial sites by forming the bicarbonate species. Subsequently, these formed bicarbonate species were primarily hydrogenated to CO intermediates by the H2 molecules and finally generated CH4 products [57]. The above speculations strongly suggested that the adsorption of CO2 and CO molecules would affect the CO2 methanation performance of Ni-MO x composite catalysts. As the CO2 temperature programmed desorption (CO2-TPD) profiles illustrated, the CO2 adsorption within the range of 100 to 400 °C that ascribed to medium-strength alkaline sites was much stronger than bare Ni or Y2O3 (Figs. 7 a and S23), implying the interfacial structures could boost the capture ability of CO2 molecules [58,59]. In addition, the CO2 adsorption energy upon Y2O3/NiO x /Ni slab models (−1.72 eV) derived from DFT calculations was more extensive than that of Ni(111) slab models (0.16 eV) (Fig. 7c and d), which was consistent with the CO2-TPD results. Therefore, the enhanced adsorption capacity of CO2 molecules at interfaces might greatly promote the catalytic performance of Ni-based catalysts, as illustrated in Fig. S15. Additionally, the hydrogenation ability of the CO molecules over the Y2O3/NiO x /Ni structures was further investigated to dig out the origin of the advanced CH4 selectivity. As shown in Fig. 7b, the CO conversions over 5Ni/Y2O3 (98.4 %) and 5Y2O3/Ni (99.6 %) catalysts were much higher than bare Ni (7.1 %) or Y2O3 (0.2 %) at 340 °C, consisting with their superior CH4 selectivity toward the CO2 methanation reaction (Fig. 1c and S15). As expected, the CO adsorption energy was prominent on Y2O3/NiO x /Ni interface (−3.15 eV), ca. two-folds than that on Ni(111) slab models (−1.65 eV) (Fig. 7c and d). In addition, as shown in Fig. S16, the statistical diameters of Ni particles were modulated to 6.4 nm, 8.7 nm, and 11.1 nm, in which the ratio of n interface /n surface was different as summarized in Table S12. When these catalysts were valued as catalysts for CO2 hydrogenation reaction, as shown in Fig. S17, the CO2 methanation reaction rate as well as the CH4 selectivity elevated with the increased ratio of interfacial sites, indicating that the interfacial Ni sites made a predominant contribution to methanation process. These results suggested that the enhanced adsorption capacity of CO2 and CO molecules boosted the conversion efficiency and CH4 selectivity upon the interfacial sites over Ni-based catalysts. The effect of electronegativity on CH4 selectivity was further investigated by using representative catalysts, including 10CaO/Ni, 10Y2O3/Ni, 10Al2O3/Ni and 10InO2/Ni catalysts, where the electronegativity of Ca, Y, Al and In atoms was 1.0, 1.2, 1.6 and 1.8. Both CO2 conversion and CH4 selectivity towards CO2 methanation reaction follow the following sequence of 10Y2O3/Ni > 10Al2O3/Ni > 10CaO/Ni > 10InO2/Ni (Fig. S6). As illustrated by the CO2-TPD results (Fig. 8 a), the 10Y2O3/Ni and 10Al2O3/Ni catalysts exhibited more abundant moderate alkaline sites than 10InO2/Ni and 10CaO/Ni catalysts, indicating that the Ni-Y2O3 and Ni-Al2O3 interfacial sites were more conducive to activating CO2 molecules. Correspondingly, the CO2 adsorption energy on the Y2O3/NiO x /Ni (−1.72 eV) and Al2O3/NiO x /Ni (−1.24 eV) slab models were more prominent than CaO/NiO x /Ni (−0.52 eV) and InO2/NiO x /Ni (−0.09 eV) slab models (Figs. 8c–f and S24). It should be noted that, as illustrated in the CO2-TPD and DFT calculation results, their adsorption capacity for CO2 molecules exhibited a volcanic correlation trend on the function of the electronegativity of M atom in MO x /Ni catalysts (Fig. 8f). A similar relationship could be identified between the electronegativity and the activity of CO2 methanation reaction as illustrated in Fig. 2a and Fig. S6, suggesting that the moderate electronegativity of M atom favored the effective capture of CO2 reactants upon the Y2O3/NiO x /Ni interfacial sites. The influence of electronegativity of the M atoms on CO hydrogenation processes was further explored over various Ni-MO x composite catalysts. To be specific, Fig. 8b demonstrated that the conversions of CO hydrogenation reaction over 10Y2O3/Ni (99.6 %) and 10Al2O3/Ni (99.7 %) catalysts were much higher than 10CaO/Ni (47.4 %) and 10InO2/Ni (14.9 %) catalysts at 340 °C. Correspondingly, the 10Y2O3/Ni and 10Al2O3/Ni catalyst dominantly outperformed 10CaO/Ni and 10InO2/Ni catalysts in the CH4 selectivity towards the CO2 methanation reaction (Fig. S6). As shown in Fig. 8f, the CO adsorption energy at Y2O3/NiO x /Ni (−3.15 eV) and Al2O3/NiO x /Ni (−2.87 eV) slab models were also greater than CaO/NiO x /Ni (−2.44 eV) and InO2/NiO x /Ni (−1.78 eV) slab models, exhibiting a volcanic trend based on the electronegativity of M atom in MO x /Ni catalysts. These findings implied that the relationship between the electronegativity and CH4 selectivity was determined by the differentiated adsorption capacity of CO2 and CO molecules at the Ni-MO x interface sites. As a result, the MO x /NiO x /Ni interfacial structures with moderate electronegativity (1.1–1.4) of M atoms performed superior for the CO2 methanation reaction, while the strong (>1.4) and weak (<1.1) electronegativity was beneficial to improve CO selectivity in RWGS reaction. 4 Conclusion In summary, based on systematic experimentations and machine learning techniques, the electronegativity of M atoms in MO x supports is identified as a pivotal descriptor for Ni-based supported catalysts over CO2 methanation reaction, that the electronegativity demonstrated a volcano trend with CH4 selectivity. It is proven that the moderate electronegativity (1.1–1.4) of M atoms determined the matched CO/CO2 adsorption capacity upon the MO x /NiO x /Ni interfaces, which correspondingly enhanced CO2 activation and prolonged the residence time of CO intermediate and thus resulted in their desired CO2 conversions and CH4 selectivity. The as-screened Ni-Y2O3 supported catalyst with moderate electronegativity of Y atoms demonstrated desirable performance in both catalytic efficiency and CH4 selectivity toward the CO2 methanation reaction, verifying the terrific usability of the electronegativity of M atoms in MO x supports as a descriptor. These findings substantiated the importance of electronegativity of M atom in MO x in catalyzing the CO2 methanation reaction, as well as lay the vital foundation for constructing highly selective Ni-based supported catalysts for the CO2 methanation reaction. Author contributions C.-J. Jia and J.-C. Liu supervised the work; Z.-X. Li, X.-P. Fu, J.-C. Liu and C.-J. Jia designed the experiments, analyzed the results and wrote the manuscript; J.-C. Liu carried out the DFT calculation and machine learning; Z.-X. Li and W.-W. Wang performed the in-situ DRIFTS and Quasi in-situ XPS; Z.-X. Li performed the catalysts preparation, test and characterization; C. Ma. performed the ac-HAADF-STEM measurements and analyzed the results. CRediT authorship contribution statement Zhi-Xin Li: Writing – review & editing, Writing – original draft, Investigation, Formal analysis, Data curation. Xin-Pu Fu: Writing – review & editing, Methodology, Formal analysis. Chao Ma: Methodology, Formal analysis. Wei-Wei Wang: Methodology, Formal analysis. Jin-Cheng Liu: Writing – review & editing, Supervision, Project administration, Funding acquisition, Formal analysis, Conceptualization. Chun-Jiang Jia: Writing – review & editing, Writing – original draft, Supervision, Project administration, Funding acquisition, Conceptualization. Declaration of competing interest The authors declare the following financial interests/personal relationships which may be considered as potential competing interests: Chun-Jiang Jia reports financial support was provided by National Natural Science Foundation of China. If there are other authors, they declare that they have no known competing financial interests or personal relationships that could have appeared to influence the work reported in this paper. Acknowledgements This work was funded by the National Key Research and Development Program of China (2021YFA1501103), the National Science Fund for Distinguished Young Scholars of China (22225110), the National Science Foundation of China (22075166, 22271177), the Science Foundation of Shandong Province of China (ZR2023ZD21), and the Young Scholars Program of Shandong University. We thank the Center of Structural Characterizations and Property Measurements at Shandong University for help with sample characterizations. Appendix A Supplementary data Supplementary data to this article can be found online at https://doi.org/10.1016/j.jcat.2024.115585. Appendix A Supplementary data The following are the Supplementary data to this article: Supplementary Data 1 References [1] K.P. de Jong Science 351 2016 1030 K. P. de Jong. Science 351 (2016) 1030. [2] T.W. van Deelen C.H. Mejía K.P. de Jong Nat. Catal. 2 2019 955 T. W. van Deelen, C. H. Mejía, K. P. de Jong. Nat. Catal. 2 (2019) 955. [3] J. Liu L. Luo H. Xiao J. Zhu Y. He J. Li J. Am. Chem. Soc. 144 2022 20601 J. Liu, L. Luo, H. Xiao, J. Zhu, Y. He, J. Li. J. Am. Chem. Soc. 144 (2022) 20601. [4] S. Kattel P. Liu J. Chen J. Am. Chem. Soc. 139 2017 9739 S. Kattel, P. Liu, J. Chen. J. Am. Chem. Soc. 139 (2017) 9739. [5] A. Cardenas-Arenas E. Bailon-García D. Lozano-Castello P. Da Costa A. Bueno-López J. Rare Earth. 40 2022 57 A. Cardenas-Arenas, E. Bailon-García, D. Lozano-Castello, P. Da Costa, A. Bueno-López. J. Rare Earth. 40 (2022) 57. [6] C. Vogt M. Monai G.J. Kramer B.M. Weckhuysen Nat. Catal. 2 2019 188 C. Vogt, M. Monai, G. J. Kramer, B. M. Weckhuysen. Nat. Catal. 2 (2019) 188. [7] M. Mota F. Kim D. Ha Chem. Soc. Rev. 48 2019 205 M. Mota, F. Kim, D. Ha. Chem. Soc. Rev. 48 (2019) 205. [8] B. Li F. Wang K. Li P. Ning M. Chen C. Zhang J. Rare Earth. 41 2023 926 B. Li, F. Wang, K. Li, P. Ning, M. Chen, C. Zhang. J. Rare Earth. 41 (2023) 926. [9] C. Vogt E. Groeneveld G. Kamsma M. Nachtegaal L. Lu C.J. Kiely P.H. Berben F. Meirer B.M. Weckhuysen Nat. Catal. 1 2018 127 C. Vogt, E. Groeneveld, G. Kamsma, M. Nachtegaal, L. Lu, C. J. Kiely. P. H. Berben, F. Meirer, B. M. Weckhuysen. Nat. Catal. 1 (2018) 127. [10] M. Barreau D. Salusso J. Li J. Zhang E. Borfecchia K. Sobczak L. Braglia J.J. Gallet P. Torelli H. Guo S. Lin S. Zafeiratos Angew. Chem. Int. Ed. 62 2023 e202302087 M. Barreau, D. Salusso, J. Li, J. Zhang, E. Borfecchia, K. Sobczak, L. Braglia, J. J. Gallet, P. Torelli, H. Guo, S. Lin, S. Zafeiratos. Angew. Chem. Int. Ed. 62 (2023) e202302087. [11] X. Wang H. Shi J. Nat. Commun. 8 2017 513 X. Wang, H. Shi, J. Nat. Commun. 8 (2017) 513. [12] T.S. Galhardo A.H. Braga B.H. Arpini J. Szanyi R.V. Gonçalves B.F. Zornio C.R. Miranda L.M. Rossi J. Am. Chem. Soc. 143 2021 4268 T. S. Galhardo, A. H. Braga, B. H. Arpini, J. Szanyi, R. V. Gonçalves, B. F. Zornio, C. R. Miranda, L. M. Rossi. J. Am. Chem. Soc. 143 (2021) 4268. [13] G. Varvoutis M. Lykaki S. Stefa V. Binas G.E. Marnellos M. Konsolakis Appl. Catal. B-Environ. 297 2021 120401 G. Varvoutis, M. Lykaki, S. Stefa, V. Binas, G. E. Marnellos, M. Konsolakis. Appl. Catal. B-Environ. 297 (2021) 120401. [14] X.L. Xu Y.Y. Tong J. Huang J. Zhu X. Fang J. Xu X. Wang Fuel 283 2021 118867 X. L. Xu, Y. Y. Tong, J. Huang, J. Zhu, X. Fang, J. Xu, X. Wang. Fuel 283 (2021) 118867. [15] M. Romero-Sáez A.B. Dongil N. Benito R. Espinoza-González N. Escalona F. Gracia Appl. Catal. B-Environ. 237 2018 817 M. Romero-Sáez, A. B. Dongil, N. Benito, R. Espinoza-González, N. Escalona, F. Gracia. Appl. Catal. B-Environ. 237 (2018) 817. [16] D. Beierlein D. Häussermann M. Pfeifer T. Schwarz K. Stöwe Y. Traa E. Klemm Appl. Catal. B-Environ. 247 2019 200 D. Beierlein, D. Häussermann, M. Pfeifer, T. Schwarz, K. Stöwe, Y. Traa, E. Klemm. Appl. Catal. B-Environ. 247 (2019) 200. [17] Z. Zhao S. Liu S. Zha D. Cheng F. Studt G. Henkelman J. Gong Nat. Rev. Mater. 4 2019 792 Z. Zhao, S. Liu, S. Zha, D. Cheng, F. Studt, G. Henkelman, J. Gong. Nat. Rev. Mater. 4 (2019) 792. [18] A. Ramirez X. Gong M. Caglayan S.F. Nastase E. Abou-Hamad L. Gevers L. Cavallo A.D. Chowdhury J. Gascon Nat. Commun. 12 2021 5914 A. Ramirez, X. Gong, M. Caglayan, S. F. Nastase, E. Abou-Hamad, L. Gevers, L. Cavallo, A. D. Chowdhury, J. Gascon. Nat. Commun. 12 (2021) 5914. [19] X. Chang Z. Zhao Z. Lu S. Chen R. Luo S. Zha L. Li G. Sun C. Pei J. Gong Nat. Nanotechnol. 18 2023 611 X. Chang, Z. Zhao, Z. Lu, S. Chen, R. Luo, S. Zha, L. Li, G. Sun, C. Pei, J. Gong. Nat. Nanotechnol. 18 (2023) 611. [20] Q. Yang V.A. Kondratenko S.A. Petrov D.E. Doronkin E. Saraçi H. Lund A. Arinchtein R. Kraehnert A.S. Skrypnik A.A. Matvienko E.V. Kondratenko Angew. Chem. Int. Ed. 61 2022 e202116517 Q. Yang, V. A. Kondratenko, S. A. Petrov, D. E. Doronkin, E. Saraçi, H. Lund, A. Arinchtein, R. Kraehnert, A. S. Skrypnik, A. A. Matvienko, E. V. Kondratenko. Angew. Chem. Int. Ed. 61 (2022) e202116517. [21] C. Ren S. Lu Y. Wu Y. Ouyang Y. Zhang Q. Li C. Ling J. Wang J. Am. Chem. Soc. 144 2022 12874 C. Ren, S. Lu, Y. Wu, Y. Ouyang, Y. Zhang, Q. Li, C. Ling, J. Wang. J. Am. Chem. Soc. 144 (2022) 12874. [22] K. Feng J. Tian M. Guo Y. Wang S. Wang Z. Wu J. Zhang L. He B. Yan Appl. Catal. B-Environ. 292 2021 120191 K. Feng, J. Tian, M. Guo, Y. Wang, S. Wang, Z. Wu, J. Zhang, L. He, B. Yan. Appl. Catal. B-Environ. 292 (2021) 120191. [23] J.P. Perdew K. Burke M. Ernzerhof Phys. Rev. Lett. 77 1996 3865 J. P. Perdew, K. Burke, M. Ernzerhof. Phys. Rev. Lett. 77 (1996) 3865. [24] G. Kresse J. Furthmüller Comput. Mater. Sci. 6 1996 15 G. Kresse, J. Furthmüller. Comput. Mater. Sci. 6 (1996) 15. [25] G. Kresse J. Furthmüller Phys. Rev. B 54 1996 11169 G. Kresse, J. Furthmüller. Phys. Rev. B 54 (1996) 11169. [26] G. Kresse D. Joubert Phys. Rev. B 59 1999 1758 G. Kresse, D. Joubert. Phys. Rev. B 59 (1999) 1758. [27] V. Wang N. Xu J. Liu G. Tang W. Geng Comput. Phys. Commun. 267 2021 108033 V. Wang, N. Xu, J. Liu, G. Tang, W. Geng. Comput. Phys. Commun. 267 (2021) 108033. [28] J.H. Friedman Comput. Stat. Data. Anal. 38 2002 367 J. H. Friedman. Comput. Stat. Data. Anal. 38 (2002) 367. [29] J.H. Friedman Ann. Stat. 1 2001 1189 J. H. Friedman. Ann. Stat. 1 (2001) 1189. [30] J.C. Navarro M.A. Centeno O.H. Laguna J.A. Odriozola Renew. Energ. 161 2020 120 J. C. Navarro, M. A. Centeno, O. H. Laguna, J. A. Odriozola. Renew. Energ. 161 (2020) 120. [31] L. Atzori M.G. Cutrufello D. Meloni R. Monaci C. Cannas D. Gazzoli M.F. Sini P. Deiana E. Rombi Int. J. Hydrogen Energy 42 2017 20689 L. Atzori, M. G. Cutrufello, D. Meloni, R. Monaci, C. Cannas, D. Gazzoli, M.F. Sini, P. Deiana, E. Rombi. Int. J. Hydrogen Energy 42 (2017) 20689. [32] Y. Yan Y. Dai Y. Yang A.A. Lapkin Appl. Catal. B-Environ. 237 2018 504 Y. Yan, Y. Dai, Y. Yang, A. A. Lapkin. Appl. Catal. B-Environ. 237 (2018) 504. [33] Y. Wang H. Arandiyan S.A. Bartlett A. Trunschke H. Sun J. Scott A.F. Lee K. Wilson T. Maschmeyer R. Schlögl R. Amal Appl. Catal. B-Environ. 277 2020 119029 Y. Wang, H. Arandiyan, S. A. Bartlett, A. Trunschke, H. Sun, J. Scott, A. F. Lee, K. Wilson, T. Maschmeyer, R. Schlögl, R. Amal. Appl. Catal. B-Environ. 277 (2020) 119029. [34] H. Wu Y. Chang J. Wu J. Lin I. Lin C. Chen Catal. Sci. Technol. 5 2015 4154 H. Wu, Y. Chang, J. Wu, J. Lin, I. Lin, C. Chen. Catal. Sci. Technol. 5 (2015) 4154. [35] C. Chen C.S. Budi H. Wu D. Saikia H. Kao ACS Catal. 7 2017 8367 C. Chen, C. S. Budi, H. Wu, D. Saikia, H. Kao. ACS Catal. 7 (2017) 8367. [36] J.K. Kesavan I. Luisetto S. Tuti C. Meneghini G. Iucci C. Battocchio S. Mobilio S. Casciardi R. Sisto J. CO2 Util. 23 2018 200 J. K. Kesavan, I. Luisetto, S. Tuti, C. Meneghini, G. Iucci, C. Battocchio, S. Mobilio, S. Casciardi, R. Sisto. J. CO2 Util. 23 (2018) 200. [37] H. Xu D. Cheng D. Cao X. Zeng Nat. Catal. 1 2018 339 H. Xu, D. Cheng, D. Cao, X. Zeng. Nat. Catal. 1 (2018) 339. [38] J. Hao Z. Zhuang K. Cao G. Gao C. Wang F. Lai S. Lu P. Ma W. Dong T. Liu M. Du H. Zhu Nat. Commun. 13 2022 2662 J. Hao, Z. Zhuang, K. Cao, G. Gao, C. Wang, F. Lai, S. Lu, P. Ma, W. Dong, T. Liu, M. Du, H. Zhu. Nat. Commun. 13 (2022) 2662. [39] L. Yan P. Li Q. Zhu A. Kumar K. Sun S. Tian X. Sun Chem 9 2023 280 L. Yan, P. Li, Q. Zhu, A. Kumar, K. Sun, S. Tian, X. Sun. Chem 9 (2023) 280. [40] M. Wang H. Zhu ACS Catal. 11 2021 3930 M. Wang, H. Zhu. ACS Catal. 11 (2021) 3930. [41] X. Liu T. Liu W. Xiao W. Wang Y. Zhang G. Wang Z. Luo J. Liu Inorg. Chem. Front. 9 2022 4272 X. Liu, T. Liu, W. Xiao, W. Wang, Y. Zhang, G. Wang, Z. Luo, J. Liu. Inorg. Chem. Front. 9 (2022) 4272. [42] A. Chen Z. Wang X. Zhang L. Chen X. Hu Y. Han J. Cai Z. Zhou J. Li Chem. Mater. 34 2022 5571 A. Chen, Z. Wang, X. Zhang, L. Chen, X. Hu, Y. Han, J. Cai, Z. Zhou, J. Li. Chem. Mater. 34 (2022) 5571. [43] Z. Wang Y. Han J. Cai A. Chen J. Li J. Energ. Chem. 71 2022 56 Z. Wang, Y. Han, J. Cai, A. Chen, J. Li. J. Energ. Chem. 71 (2022) 56. [44] T. Liu X. Zhao X. Liu W. Xiao Z. Luo W. Wang Y. Zhang J. Liu J. Energ. Chem. 81 2023 93 T. Liu, X. Zhao, X. Liu, W. Xiao, Z. Luo, W. Wang, Y. Zhang, J. Liu. J. Energ. Chem. 81 (2023) 93. [45] L. Lin C.A. Gerlak C. Liu J. Llorca S. Yao N. Rui F. Zhang Z. Liu S. Zhang K. Deng C.B. Murray J.A. Rodriguez S.D. Senanayake J. Energ. Chem. 61 2021 602 L. Lin, C. A. Gerlak, C. Liu, J. Llorca, S. Yao, N. Rui, F. Zhang, Z. Liu, S. Zhang, K. Deng, C. B. Murray, J. A. Rodriguez, S. D. Senanayake. J. Energ. Chem. 61 (2021) 602. [46] R. Ye Q. Li W. Gong T. Wang J.J. Razink L. Lin Y. Qin Z. Zhou H. Adidharma J. Tang A.G. Russell M. Fan Y. Yao Appl. Catal. B-Environ. 268 2020 118474 R. Ye, Q. Li, W. Gong, T. Wang, J. J. Razink, L. Lin, Y. Qin, Z. Zhou, H. Adidharma, J. Tang, A. G. Russell, M. Fan, Y. Yao. Appl. Catal. B-Environ. 268 (2020) 118474. [47] L.R. Winter E. Gomez B. Yan S. Yao J.G. Chen Appl. Catal. B-Environ. 224 2018 442 L. R. Winter, E. Gomez, B. Yan, S. Yao, J. G. Chen. Appl. Catal. B-Environ. 224 (2018) 442. [48] K. Xu C. Ma H. Yan H. Gu W. Wang S. Li Q. Meng W. Shao G. Ding F.R. Wang C. Jia Nat. Commun. 13 2022 2443 K. Xu, C. Ma, H. Yan, H. Gu, W. Wang, S. Li, Q. Meng, W. Shao, G. Ding, F. R. Wang, C. Jia. Nat. Commun. 13 (2022) 2443. [49] M. Xu X. Qin Y. Xu X. Zhang L. Zheng J. Liu M. Wang X. Liu D. Ma Nat. Commun. 13 2022 6720 M. Xu, X. Qin, Y. Xu, X. Zhang, L. Zheng, J. Liu, M. Wang, X. Liu, D. Ma. Nat. Commun. 13 (2022) 6720. [50] S. Li Z. Liu L. Yang X. Shen Q. Liu Z. Hu Q. Kong J. Ma J. Li H. Lin C. Chen X. Wang R. Yu Z. Wang L. Chen Nano Energ. 98 2022 107335 S. Li, Z. Liu, L. Yang, X. Shen, Q. Liu, Z. Hu, Q. Kong, J. Ma, J. Li, H. Lin, C. Chen, X. Wang, R. Yu, Z. Wang, L. Chen. Nano Energ. 98 (2022) 107335. [51] H. Tan J. Verbeeck A. Abakumov G.V. Tendeloo Ultramicroscopy 116 2012 24 H. Tan, J. Verbeeck, A. Abakumov, G. V. Tendeloo. Ultramicroscopy 116 (2012) 24. [52] M.L. Ang U. Oemar Y. Kathiraser E.T. Saw C.H.K. Lew Y. Du A. Borgna S. Kawi J. Catal. 329 2015 130 M. L. Ang, U. Oemar, Y. Kathiraser, E. T. Saw, C. H. K. Lew, Y. Du, A. Borgna, S. Kawi. J. Catal. 329 (2015) 130. [53] H. Liu S. Li W. Wang W. Yu W. Zhang C. Ma C. Jia Nat. Commun. 13 2022 867 H. Liu, S. Li, W. Wang, W. Yu, W. Zhang, C. Ma, C. Jia. Nat. Commun. 13 (2022) 867. [54] M.M. Millet G. Algara-Siller S. Wrabetz A. Mazheika F. Girgsdies D. Teschner F. Seitz A. Tarasov S.V. Levchenko R. Schlögl E. Frei J. Am. Chem. Soc. 141 2019 2451 M. M. Millet, G. Algara-Siller, S. Wrabetz, A. Mazheika, F. Girgsdies, D. Teschner, F. Seitz, A. Tarasov, S. V. Levchenko, R. Schlögl, E. Frei. J. Am. Chem. Soc. 141 (2019) 2451. [55] M. Hasan T. Asakoshi H. Muroyama T. Matsui K. Eguchi Phys. Chem. Chem. Phys. 23 2021 5551 M. Hasan, T. Asakoshi, H. Muroyama, T. Matsui, K. Eguchi. Phys. Chem. Chem. Phys. 23 (2021) 5551. [56] A. Cárdenas-Arenas A. Quindimil A. Davó-Quinonero E. Bailón-García D. Lozano-Castelló U. De-La-Torre B. Pereda-Ayo J.A. González-Marcos J.R. González-Velasco A. Bueno-López Appl. Mater. Today 19 2020 100591 A. Cárdenas-Arenas, A. Quindimil, A. Davó-Quinonero, E. Bailón-García, D. Lozano-Castelló, U. De-La-Torre, B. Pereda-Ayo, J. A. González-Marcos, J. R. González-Velasco, A. Bueno-López. Appl. Mater. Today 19 (2020) 100591. [57] M. Zhu P. Tian X. Cao J. Chen T. Pu B. Shi J. Xu J. Moon Z. Wu Y. Han Appl. Catal. B-Environ. 282 2021 119561 M. Zhu, P. Tian, X. Cao, J. Chen, T. Pu, B. Shi, J. Xu, J. Moon, Z. Wu, Y. Han. Appl. Catal. B-Environ. 282 (2021) 119561. [58] C. Wu L. Lin J. Liu J. Zhang F. Zhang T. Zhou N. Rui S. Yao Y. Deng F. Yang W. Xu J. Luo Y. Zhao B. Yan X. Wen J.A. Rodriguez D. Ma Nat. Commun. 11 2020 5767 C. Wu, L. Lin, J. Liu, J. Zhang, F. Zhang, T. Zhou, N. Rui, S. Yao, Y. Deng, F. Yang, W. Xu, J. Luo, Y. Zhao, B. Yan, X. Wen, J. A. Rodriguez, D. Ma. Nat. Commun. 11 (2020) 5767. [59] F. Hu C. Jin R. Wu C. Li G. Song T.Z.H. Gani K.H. Lim W. Guo T. Wang S. Ding R. Ye Z. Lu G. Feng R. Zhang S. Kawi Chem. Eng. J. 461 2023 142108 F. Hu, C. Jin, R. Wu, C. Li, G. Song, T. Z. H. Gani, K. H. Lim, W. Guo, T. Wang, S. Ding, R.Ye, Z. Lu, G. Feng, R. Zhang, S. Kawi. Chem. Eng. J. 461 (2023) 142108.",
+      "scopus-id": "85195267270",
+      "coredata": {
+        "eid": "1-s2.0-S0021951724002987",
+        "dc:description": "Identifying the parameters influencing the selectivity of products is prominently significant for fabricating efficient catalysts. However, little progress has been made in describing the regulation rule of CH4 selectivity toward the CO2 methanation reaction, which is considered a vital process for CO2 emission and conversion. Herein, we disclosed the integral role of the electronegativity of M atoms in Ni-MO x supported catalysts to producing CH4 molecules, which the satisfactory catalytic performance stemmed from the regulated ability to capture CO2 molecules and CO intermediates. More importantly, alongside the extensively studied descriptor of particle size, we uncovered a strong correlation between the electronegativity of M atom and CH4 selectivity, in which the CO/CO2 adsorption capacity upon the Ni/NiO x /MO x interfaces exhibited a volcanic trend based on the electronegativity of M atoms in MO x supports. The screened Ni-Y2O3 composite catalysts demonstrated excellent CO2 methanation performance, suggesting the powerful practicability of the electronegativity of M atoms in MO x supports as a descriptor. These findings not only shed fundamental insight into the reaction pathway but also paved the way for the rational design of Ni-based catalysts based on the simple descriptor of electronegativity.",
+        "openArchiveArticle": "false",
+        "prism:coverDate": "2024-08-31",
+        "openaccessUserLicense": null,
+        "prism:aggregationType": "Journal",
+        "prism:url": "https://api.elsevier.com/content/article/pii/S0021951724002987",
+        "dc:creator": [
+          {
+            "@_fa": "true",
+            "$": "Li, Zhi-Xin"
+          },
+          {
+            "@_fa": "true",
+            "$": "Fu, Xin-Pu"
+          },
+          {
+            "@_fa": "true",
+            "$": "Ma, Chao"
+          },
+          {
+            "@_fa": "true",
+            "$": "Wang, Wei-Wei"
+          },
+          {
+            "@_fa": "true",
+            "$": "Liu, Jin-Cheng"
+          },
+          {
+            "@_fa": "true",
+            "$": "Jia, Chun-Jiang"
+          }
+        ],
+        "link": [
+          {
+            "@_fa": "true",
+            "@rel": "self",
+            "@href": "https://api.elsevier.com/content/article/pii/S0021951724002987"
+          },
+          {
+            "@_fa": "true",
+            "@rel": "scidir",
+            "@href": "https://www.sciencedirect.com/science/article/pii/S0021951724002987"
+          }
+        ],
+        "dc:format": "application/json",
+        "openaccessType": null,
+        "pii": "S0021-9517(24)00298-7",
+        "prism:volume": "436",
+        "articleNumber": "115585",
+        "prism:publisher": "Published by Elsevier Inc.",
+        "dc:title": "Identifying the key structural features of Ni-based catalysts for the CO2 methanation reaction",
+        "prism:copyright": "© 2024 Published by Elsevier Inc.",
+        "openaccess": "0",
+        "prism:issn": "00219517",
+        "dcterms:subject": [
+          {
+            "@_fa": "true",
+            "$": "CH4 and CO selectivity regulation"
+          },
+          {
+            "@_fa": "true",
+            "$": "Selectivity descriptor"
+          },
+          {
+            "@_fa": "true",
+            "$": "CO2 methanation"
+          },
+          {
+            "@_fa": "true",
+            "$": "Metal-oxide interface"
+          },
+          {
+            "@_fa": "true",
+            "$": "Ni-based supported catalyst"
+          }
+        ],
+        "openaccessArticle": "false",
+        "prism:publicationName": "Journal of Catalysis",
+        "openaccessSponsorType": null,
+        "prism:pageRange": "115585",
+        "pubType": "fla",
+        "prism:coverDisplayDate": "August 2024",
+        "prism:doi": "10.1016/j.jcat.2024.115585",
+        "prism:startingPage": "115585",
+        "dc:identifier": "doi:10.1016/j.jcat.2024.115585",
+        "openaccessSponsorName": null
+      },
+      "objects": {
+        "object": [
+          {
+            "@category": "standard",
+            "@height": "243",
+            "@width": "535",
+            "@_fa": "true",
+            "$": "https://api.elsevier.com/content/object/eid/1-s2.0-S0021951724002987-gr6.jpg?httpAccept=%2A%2F%2A",
+            "@multimediatype": "JPEG image file",
+            "@type": "IMAGE-DOWNSAMPLED",
+            "@size": "41072",
+            "@ref": "gr6",
+            "@mimetype": "image/jpeg"
+          },
+          {
+            "@category": "standard",
+            "@height": "584",
+            "@width": "711",
+            "@_fa": "true",
+            "$": "https://api.elsevier.com/content/object/eid/1-s2.0-S0021951724002987-gr3.jpg?httpAccept=%2A%2F%2A",
+            "@multimediatype": "JPEG image file",
+            "@type": "IMAGE-DOWNSAMPLED",
+            "@size": "108633",
+            "@ref": "gr3",
+            "@mimetype": "image/jpeg"
+          },
+          {
+            "@category": "standard",
+            "@height": "484",
+            "@width": "533",
+            "@_fa": "true",
+            "$": "https://api.elsevier.com/content/object/eid/1-s2.0-S0021951724002987-gr4.jpg?httpAccept=%2A%2F%2A",
+            "@multimediatype": "JPEG image file",
+            "@type": "IMAGE-DOWNSAMPLED",
+            "@size": "84187",
+            "@ref": "gr4",
+            "@mimetype": "image/jpeg"
+          },
+          {
+            "@category": "standard",
+            "@height": "183",
+            "@width": "711",
+            "@_fa": "true",
+            "$": "https://api.elsevier.com/content/object/eid/1-s2.0-S0021951724002987-gr1.jpg?httpAccept=%2A%2F%2A",
+            "@multimediatype": "JPEG image file",
+            "@type": "IMAGE-DOWNSAMPLED",
+            "@size": "34870",
+            "@ref": "gr1",
+            "@mimetype": "image/jpeg"
+          },
+          {
+            "@category": "standard",
+            "@height": "395",
+            "@width": "711",
+            "@_fa": "true",
+            "$": "https://api.elsevier.com/content/object/eid/1-s2.0-S0021951724002987-gr2.jpg?httpAccept=%2A%2F%2A",
+            "@multimediatype": "JPEG image file",
+            "@type": "IMAGE-DOWNSAMPLED",
+            "@size": "75958",
+            "@ref": "gr2",
+            "@mimetype": "image/jpeg"
+          },
+          {
+            "@category": "standard",
+            "@height": "200",
+            "@width": "500",
+            "@_fa": "true",
+            "$": "https://api.elsevier.com/content/object/eid/1-s2.0-S0021951724002987-ga1.jpg?httpAccept=%2A%2F%2A",
+            "@multimediatype": "JPEG image file",
+            "@type": "IMAGE-DOWNSAMPLED",
+            "@size": "32043",
+            "@ref": "ga1",
+            "@mimetype": "image/jpeg"
+          },
+          {
+            "@category": "standard",
+            "@height": "468",
+            "@width": "533",
+            "@_fa": "true",
+            "$": "https://api.elsevier.com/content/object/eid/1-s2.0-S0021951724002987-gr7.jpg?httpAccept=%2A%2F%2A",
+            "@multimediatype": "JPEG image file",
+            "@type": "IMAGE-DOWNSAMPLED",
+            "@size": "57085",
+            "@ref": "gr7",
+            "@mimetype": "image/jpeg"
+          },
+          {
+            "@category": "standard",
+            "@height": "386",
+            "@width": "667",
+            "@_fa": "true",
+            "$": "https://api.elsevier.com/content/object/eid/1-s2.0-S0021951724002987-gr8.jpg?httpAccept=%2A%2F%2A",
+            "@multimediatype": "JPEG image file",
+            "@type": "IMAGE-DOWNSAMPLED",
+            "@size": "78684",
+            "@ref": "gr8",
+            "@mimetype": "image/jpeg"
+          },
+          {
+            "@category": "standard",
+            "@height": "364",
+            "@width": "535",
+            "@_fa": "true",
+            "$": "https://api.elsevier.com/content/object/eid/1-s2.0-S0021951724002987-gr5.jpg?httpAccept=%2A%2F%2A",
+            "@multimediatype": "JPEG image file",
+            "@type": "IMAGE-DOWNSAMPLED",
+            "@size": "55859",
+            "@ref": "gr5",
+            "@mimetype": "image/jpeg"
+          },
+          {
+            "@category": "thumbnail",
+            "@height": "99",
+            "@width": "219",
+            "@_fa": "true",
+            "$": "https://api.elsevier.com/content/object/eid/1-s2.0-S0021951724002987-gr6.sml?httpAccept=%2A%2F%2A",
+            "@multimediatype": "GIF image file",
+            "@type": "IMAGE-THUMBNAIL",
+            "@size": "9291",
+            "@ref": "gr6",
+            "@mimetype": "image/gif"
+          },
+          {
+            "@category": "thumbnail",
+            "@height": "163",
+            "@width": "199",
+            "@_fa": "true",
+            "$": "https://api.elsevier.com/content/object/eid/1-s2.0-S0021951724002987-gr3.sml?httpAccept=%2A%2F%2A",
+            "@multimediatype": "GIF image file",
+            "@type": "IMAGE-THUMBNAIL",
+            "@size": "13681",
+            "@ref": "gr3",
+            "@mimetype": "image/gif"
+          },
+          {
+            "@category": "thumbnail",
+            "@height": "163",
+            "@width": "180",
+            "@_fa": "true",
+            "$": "https://api.elsevier.com/content/object/eid/1-s2.0-S0021951724002987-gr4.sml?httpAccept=%2A%2F%2A",
+            "@multimediatype": "GIF image file",
+            "@type": "IMAGE-THUMBNAIL",
+            "@size": "19232",
+            "@ref": "gr4",
+            "@mimetype": "image/gif"
+          },
+          {
+            "@category": "thumbnail",
+            "@height": "56",
+            "@width": "219",
+            "@_fa": "true",
+            "$": "https://api.elsevier.com/content/object/eid/1-s2.0-S0021951724002987-gr1.sml?httpAccept=%2A%2F%2A",
+            "@multimediatype": "GIF image file",
+            "@type": "IMAGE-THUMBNAIL",
+            "@size": "5925",
+            "@ref": "gr1",
+            "@mimetype": "image/gif"
+          },
+          {
+            "@category": "thumbnail",
+            "@height": "122",
+            "@width": "219",
+            "@_fa": "true",
+            "$": "https://api.elsevier.com/content/object/eid/1-s2.0-S0021951724002987-gr2.sml?httpAccept=%2A%2F%2A",
+            "@multimediatype": "GIF image file",
+            "@type": "IMAGE-THUMBNAIL",
+            "@size": "10742",
+            "@ref": "gr2",
+            "@mimetype": "image/gif"
+          },
+          {
+            "@category": "thumbnail",
+            "@height": "87",
+            "@width": "219",
+            "@_fa": "true",
+            "$": "https://api.elsevier.com/content/object/eid/1-s2.0-S0021951724002987-ga1.sml?httpAccept=%2A%2F%2A",
+            "@multimediatype": "GIF image file",
+            "@type": "IMAGE-THUMBNAIL",
+            "@size": "9350",
+            "@ref": "ga1",
+            "@mimetype": "image/gif"
+          },
+          {
+            "@category": "thumbnail",
+            "@height": "164",
+            "@width": "187",
+            "@_fa": "true",
+            "$": "https://api.elsevier.com/content/object/eid/1-s2.0-S0021951724002987-gr7.sml?httpAccept=%2A%2F%2A",
+            "@multimediatype": "GIF image file",
+            "@type": "IMAGE-THUMBNAIL",
+            "@size": "11360",
+            "@ref": "gr7",
+            "@mimetype": "image/gif"
+          },
+          {
+            "@category": "thumbnail",
+            "@height": "127",
+            "@width": "219",
+            "@_fa": "true",
+            "$": "https://api.elsevier.com/content/object/eid/1-s2.0-S0021951724002987-gr8.sml?httpAccept=%2A%2F%2A",
+            "@multimediatype": "GIF image file",
+            "@type": "IMAGE-THUMBNAIL",
+            "@size": "13961",
+            "@ref": "gr8",
+            "@mimetype": "image/gif"
+          },
+          {
+            "@category": "thumbnail",
+            "@height": "149",
+            "@width": "219",
+            "@_fa": "true",
+            "$": "https://api.elsevier.com/content/object/eid/1-s2.0-S0021951724002987-gr5.sml?httpAccept=%2A%2F%2A",
+            "@multimediatype": "GIF image file",
+            "@type": "IMAGE-THUMBNAIL",
+            "@size": "14164",
+            "@ref": "gr5",
+            "@mimetype": "image/gif"
+          },
+          {
+            "@category": "high",
+            "@height": "1075",
+            "@width": "2368",
+            "@_fa": "true",
+            "$": "https://api.elsevier.com/content/object/eid/1-s2.0-S0021951724002987-gr6_lrg.jpg?httpAccept=%2A%2F%2A",
+            "@multimediatype": "JPEG image file",
+            "@type": "IMAGE-HIGH-RES",
+            "@size": "231925",
+            "@ref": "gr6",
+            "@mimetype": "image/jpeg"
+          },
+          {
+            "@category": "high",
+            "@height": "2588",
+            "@width": "3150",
+            "@_fa": "true",
+            "$": "https://api.elsevier.com/content/object/eid/1-s2.0-S0021951724002987-gr3_lrg.jpg?httpAccept=%2A%2F%2A",
+            "@multimediatype": "JPEG image file",
+            "@type": "IMAGE-HIGH-RES",
+            "@size": "589167",
+            "@ref": "gr3",
+            "@mimetype": "image/jpeg"
+          },
+          {
+            "@category": "high",
+            "@height": "2145",
+            "@width": "2362",
+            "@_fa": "true",
+            "$": "https://api.elsevier.com/content/object/eid/1-s2.0-S0021951724002987-gr4_lrg.jpg?httpAccept=%2A%2F%2A",
+            "@multimediatype": "JPEG image file",
+            "@type": "IMAGE-HIGH-RES",
+            "@size": "515323",
+            "@ref": "gr4",
+            "@mimetype": "image/jpeg"
+          },
+          {
+            "@category": "high",
+            "@height": "811",
+            "@width": "3150",
+            "@_fa": "true",
+            "$": "https://api.elsevier.com/content/object/eid/1-s2.0-S0021951724002987-gr1_lrg.jpg?httpAccept=%2A%2F%2A",
+            "@multimediatype": "JPEG image file",
+            "@type": "IMAGE-HIGH-RES",
+            "@size": "182182",
+            "@ref": "gr1",
+            "@mimetype": "image/jpeg"
+          },
+          {
+            "@category": "high",
+            "@height": "1748",
+            "@width": "3150",
+            "@_fa": "true",
+            "$": "https://api.elsevier.com/content/object/eid/1-s2.0-S0021951724002987-gr2_lrg.jpg?httpAccept=%2A%2F%2A",
+            "@multimediatype": "JPEG image file",
+            "@type": "IMAGE-HIGH-RES",
+            "@size": "394249",
+            "@ref": "gr2",
+            "@mimetype": "image/jpeg"
+          },
+          {
+            "@category": "high",
+            "@height": "883",
+            "@width": "2213",
+            "@_fa": "true",
+            "$": "https://api.elsevier.com/content/object/eid/1-s2.0-S0021951724002987-ga1_lrg.jpg?httpAccept=%2A%2F%2A",
+            "@multimediatype": "JPEG image file",
+            "@type": "IMAGE-HIGH-RES",
+            "@size": "181163",
+            "@ref": "ga1",
+            "@mimetype": "image/jpeg"
+          },
+          {
+            "@category": "high",
+            "@height": "2074",
+            "@width": "2362",
+            "@_fa": "true",
+            "$": "https://api.elsevier.com/content/object/eid/1-s2.0-S0021951724002987-gr7_lrg.jpg?httpAccept=%2A%2F%2A",
+            "@multimediatype": "JPEG image file",
+            "@type": "IMAGE-HIGH-RES",
+            "@size": "324842",
+            "@ref": "gr7",
+            "@mimetype": "image/jpeg"
+          },
+          {
+            "@category": "high",
+            "@height": "1711",
+            "@width": "2953",
+            "@_fa": "true",
+            "$": "https://api.elsevier.com/content/object/eid/1-s2.0-S0021951724002987-gr8_lrg.jpg?httpAccept=%2A%2F%2A",
+            "@multimediatype": "JPEG image file",
+            "@type": "IMAGE-HIGH-RES",
+            "@size": "479402",
+            "@ref": "gr8",
+            "@mimetype": "image/jpeg"
+          },
+          {
+            "@category": "high",
+            "@height": "1612",
+            "@width": "2368",
+            "@_fa": "true",
+            "$": "https://api.elsevier.com/content/object/eid/1-s2.0-S0021951724002987-gr5_lrg.jpg?httpAccept=%2A%2F%2A",
+            "@multimediatype": "JPEG image file",
+            "@type": "IMAGE-HIGH-RES",
+            "@size": "317858",
+            "@ref": "gr5",
+            "@mimetype": "image/jpeg"
+          },
+          {
+            "@category": "standard",
+            "@_fa": "true",
+            "$": "https://api.elsevier.com/content/object/eid/1-s2.0-S0021951724002987-mmc1.pdf?httpAccept=%2A%2F%2A",
+            "@multimediatype": "Acrobat PDF file",
+            "@type": "APPLICATION",
+            "@size": "4021432",
+            "@ref": "mmc1",
+            "@mimetype": "application/pdf"
+          },
+          {
+            "@category": "thumbnail",
+            "@_fa": "true",
+            "$": "https://api.elsevier.com/content/object/eid/1-s2.0-S0021951724002987-si1.svg?httpAccept=%2A%2F%2A",
+            "@multimediatype": "Scalable Vector Graphics file",
+            "@type": "ALTIMG",
+            "@size": "16991",
+            "@ref": "si1",
+            "@mimetype": "image/svg+xml"
+          },
+          {
+            "@category": "thumbnail",
+            "@_fa": "true",
+            "$": "https://api.elsevier.com/content/object/eid/1-s2.0-S0021951724002987-si2.svg?httpAccept=%2A%2F%2A",
+            "@multimediatype": "Scalable Vector Graphics file",
+            "@type": "ALTIMG",
+            "@size": "16019",
+            "@ref": "si2",
+            "@mimetype": "image/svg+xml"
+          },
+          {
+            "@category": "thumbnail",
+            "@_fa": "true",
+            "$": "https://api.elsevier.com/content/object/eid/1-s2.0-S0021951724002987-si3.svg?httpAccept=%2A%2F%2A",
+            "@multimediatype": "Scalable Vector Graphics file",
+            "@type": "ALTIMG",
+            "@size": "6356",
+            "@ref": "si3",
+            "@mimetype": "image/svg+xml"
+          },
+          {
+            "@category": "thumbnail",
+            "@_fa": "true",
+            "$": "https://api.elsevier.com/content/object/eid/1-s2.0-S0021951724002987-si4.svg?httpAccept=%2A%2F%2A",
+            "@multimediatype": "Scalable Vector Graphics file",
+            "@type": "ALTIMG",
+            "@size": "6913",
+            "@ref": "si4",
+            "@mimetype": "image/svg+xml"
+          },
+          {
+            "@category": "thumbnail",
+            "@_fa": "true",
+            "$": "https://api.elsevier.com/content/object/eid/1-s2.0-S0021951724002987-si5.svg?httpAccept=%2A%2F%2A",
+            "@multimediatype": "Scalable Vector Graphics file",
+            "@type": "ALTIMG",
+            "@size": "6036",
+            "@ref": "si5",
+            "@mimetype": "image/svg+xml"
+          },
+          {
+            "@category": "thumbnail",
+            "@_fa": "true",
+            "$": "https://api.elsevier.com/content/object/eid/1-s2.0-S0021951724002987-si6.svg?httpAccept=%2A%2F%2A",
+            "@multimediatype": "Scalable Vector Graphics file",
+            "@type": "ALTIMG",
+            "@size": "6578",
+            "@ref": "si6",
+            "@mimetype": "image/svg+xml"
+          },
+          {
+            "@category": "thumbnail",
+            "@_fa": "true",
+            "$": "https://api.elsevier.com/content/object/eid/1-s2.0-S0021951724002987-si7.svg?httpAccept=%2A%2F%2A",
+            "@multimediatype": "Scalable Vector Graphics file",
+            "@type": "ALTIMG",
+            "@size": "14869",
+            "@ref": "si7",
+            "@mimetype": "image/svg+xml"
+          },
+          {
+            "@category": "thumbnail",
+            "@_fa": "true",
+            "$": "https://api.elsevier.com/content/object/eid/1-s2.0-S0021951724002987-si8.svg?httpAccept=%2A%2F%2A",
+            "@multimediatype": "Scalable Vector Graphics file",
+            "@type": "ALTIMG",
+            "@size": "3269",
+            "@ref": "si8",
+            "@mimetype": "image/svg+xml"
+          },
+          {
+            "@category": "thumbnail",
+            "@_fa": "true",
+            "$": "https://api.elsevier.com/content/object/eid/1-s2.0-S0021951724002987-si9.svg?httpAccept=%2A%2F%2A",
+            "@multimediatype": "Scalable Vector Graphics file",
+            "@type": "ALTIMG",
+            "@size": "3681",
+            "@ref": "si9",
+            "@mimetype": "image/svg+xml"
+          },
+          {
+            "@category": "standard",
+            "@_fa": "true",
+            "$": "https://api.elsevier.com/content/object/eid/1-s2.0-S0021951724002987-am.pdf?httpAccept=%2A%2F%2A",
+            "@multimediatype": "Acrobat PDF file",
+            "@type": "AAM-PDF",
+            "@size": "2155458",
+            "@ref": "am",
+            "@mimetype": "application/pdf"
+          }
+        ]
+      },
+      "link": {
+        "@rel": "abstract",
+        "@href": "https://api.elsevier.com/content/abstract/scopus_id/85195267270"
+      }
+    }
+  }
+}

@@ -1,0 +1,544 @@
+{
+  "metadata": {
+    "title": "Understanding characteristic electrochemical impedance spectral data of redox flow batteries with multiphysics modeling",
+    "authors": "; ; ",
+    "journal": "Journal of Energy Chemistry",
+    "date": "2025-03-31",
+    "doi": "10.1016/j.jechem.2024.11.007",
+    "abstract": "",
+    "uri": "https://api.elsevier.com/content/article/pii/S2095495624007666",
+    "pii": "S2095495624007666"
+  },
+  "fulltext": {
+    "full-text-retrieval-response": {
+      "scopus-eid": "2-s2.0-85210121281",
+      "originalText": "serial JL 286353 291210 291711 291744 291809 31 Journal of Energy Chemistry JOURNALENERGYCHEMISTRY 2024-11-17 2024-11-17 2024-11-26 2024-11-26 2025-03-17T15:56:10 1-s2.0-S2095495624007666 S2095-4956(24)00766-6 S2095495624007666 10.1016/j.jechem.2024.11.007 S300 S300.1 FULL-TEXT 1-s2.0-S2095495624X00121 2025-03-17T16:13:18.923727Z 0 0 20250301 20250331 2025 2024-11-17T20:24:34.376458Z absattachment articleinfo articletitlenorm authfirstinitialnorm authfirstsurnamenorm cid cids contenttype copyright crossmark dateloaded dateloadedtxt datesearch datesort dateupdated dco docsubtype doctype doi eid ewtransactionid hubeid indexeddate issn issnnorm itemstage itemtransactionid itemweight openaccess openarchive pg pgfirst pglast pii piinorm pubdateend pubdatestart pubdatetxt pubyr sortorder srctitle srctitlenorm srctype ssids alllist content subj subheadings suppl tomb volfirst volissue volumelist webpdf webpdfpagecount yearnav figure table e-component body mmlmath acknowledge affil appendices articletitle auth authfirstini authfull authkeywords authlast primabst ref specialabst 2095-4956 20954956 false 102 102 C Volume 102 34 329 339 329 339 202503 March 2025 2025-03-01 2025-03-31 2025 article fla © 2024 Science Press and Dalian Institute of Chemical Physics, Chinese Academy of Sciences. Published by ELSEVIER B.V. and Science Press. All rights are reserved, including those for text and data mining, AI training, and similar technologies. UNDERSTANDINGCHARACTERISTICELECTROCHEMICALIMPEDANCESPECTRALDATAREDOXFLOWBATTERIESMULTIPHYSICSMODELING ALHAMMADI A 1 Introduction 2 Methodology 2.1 Multiphysics model 2.2 Equivalent circuit model 3 Results and discussion 3.1 Analysis of model consistency and default spectrum data 3.2 Electrode parameters/properties 3.3 Membrane parameters/properties 3.4 Electrolyte parameters/properties 3.5 Parameter sensitivity and practical implications 4 Conclusions CRediT authorship contribution statement Acknowledgments Appendix A Supplementary material References ANDRZEJ 2014 L ELECTROCHEMICALIMPEDANCESPECTROSCOPYAPPLICATIONS TROVO 2021 229703 A GUARNIERI 2018 1425 1434 M MANSCHKE 2018 58 D SCHNEIDER 2020 135510 J LI 2024 111790 Y FLEISCHMANN 1991 1 26 M PIELA 2006 A1902 P JEON 2007 447 452 M MAZUR 2019 534 539 P SCHNEIDER 2019 16 J GOULET 2016 390 398 M MUSTAFA 2019 1 14 I ANDISETIAWAN 2023 120526 A BARD 2000 A ELECTROCHEMICALMETHODSFUNDAMENTALSAPPLICATIONS PADHA 2022 167 176 B BRUNETTO 2009 17 26 C ASGHARI 2010 9283 9290 S SUN 2019 693 701 H 2010 139 192 ELECTROCHEMICALIMPEDANCESPECTROSCOPYINPEMFUELCELLSFUNDAMENTALSAPPLICATIONS FETYAN 2023 e202300301 A KNEHR 2012 76 79 K RESSEL 2018 776 783 S LI 2018 1050 1059 X PRIETODIAZ 2024 112429 P XU 2014 139 147 Q YUAN 2010 X ELECTROCHEMICALIMPEDANCESPECTROSCOPYINPEMFUELCELLS FISCHER 1998 277 282 A FREIRE 2001 57 68 T ROMEROCASTANON 2003 179 182 T SPRINGER 1996 587 T LEFEBVRE 1999 259 M PEZESHKI 2017 261 270 A ALHAMMADIX2025X329 ALHAMMADIX2025X329X339 ALHAMMADIX2025X329XA ALHAMMADIX2025X329X339XA 2026-11-26T00:00:00.000Z 2026-11-26T00:00:00.000Z http://creativecommons.org/licenses/by-nc-nd/4.0/ © 2024 Science Press and Dalian Institute of Chemical Physics, Chinese Academy of Sciences. Published by ELSEVIER B.V. and Science Press. All rights are reserved, including those for text and data mining, AI training, and similar technologies. 2024-11-30T01:30:45.282Z http://vtw.elsevier.com/data/voc/AddOnTypes/50.7/aggregated-refined DEWA Dubai Electricity and Water Authority PJSC http://data.elsevier.com/vocabulary/SciValFunders/100019421 http://sws.geonames.org/290557 item S2095-4956(24)00766-6 S2095495624007666 1-s2.0-S2095495624007666 10.1016/j.jechem.2024.11.007 286353 2025-03-17T16:13:18.923727Z 2025-03-01 2025-03-31 1-s2.0-S2095495624007666-main.pdf https://s3-eu-west-1.amazonaws.com/prod-ucs-content-store-eu-west/content/pii:S2095495624007666/MAIN/application/pdf/9d47b448b81d059278a3c2e9c4bbcffd/main.pdf main.pdf pdf true 2567395 MAIN 11 1-s2.0-S2095495624007666-main_1.png https://s3-eu-west-1.amazonaws.com/prod-ucs-content-store-eu-west/content/pii:S2095495624007666/PREVIEW/image/png/4559d101fa0e2f0431f2133c9a6de02b/main_1.png main_1.png png 62253 849 656 IMAGE-WEB-PDF 1 1-s2.0-S2095495624007666-ga1.jpg https://s3-eu-west-1.amazonaws.com/prod-ucs-content-store-eu-west/content/pii:S2095495624007666/ga1/DOWNSAMPLED/image/jpeg/b57b50bd8d6d622f1148495beae06778/ga1.jpg ga1 true ga1.jpg jpg 32561 200 402 IMAGE-DOWNSAMPLED 1-s2.0-S2095495624007666-gr1.jpg https://s3-eu-west-1.amazonaws.com/prod-ucs-content-store-eu-west/content/pii:S2095495624007666/gr1/DOWNSAMPLED/image/jpeg/b4f68b4f73febdeb9cb1f76ece9a9166/gr1.jpg gr1 gr1.jpg jpg 62750 499 609 IMAGE-DOWNSAMPLED 1-s2.0-S2095495624007666-gr2.jpg https://s3-eu-west-1.amazonaws.com/prod-ucs-content-store-eu-west/content/pii:S2095495624007666/gr2/DOWNSAMPLED/image/jpeg/20edd9a6da25401e6c005f362b58f4b1/gr2.jpg gr2 gr2.jpg jpg 97331 408 609 IMAGE-DOWNSAMPLED 1-s2.0-S2095495624007666-gr3.jpg https://s3-eu-west-1.amazonaws.com/prod-ucs-content-store-eu-west/content/pii:S2095495624007666/gr3/DOWNSAMPLED/image/jpeg/d3449f088529d74a5ad3d3cd10767046/gr3.jpg gr3 gr3.jpg jpg 154413 848 685 IMAGE-DOWNSAMPLED 1-s2.0-S2095495624007666-gr4.jpg https://s3-eu-west-1.amazonaws.com/prod-ucs-content-store-eu-west/content/pii:S2095495624007666/gr4/DOWNSAMPLED/image/jpeg/87735b0776bd18581f4010c53f45988b/gr4.jpg gr4 gr4.jpg jpg 64114 361 751 IMAGE-DOWNSAMPLED 1-s2.0-S2095495624007666-gr5.jpg https://s3-eu-west-1.amazonaws.com/prod-ucs-content-store-eu-west/content/pii:S2095495624007666/gr5/THUMBNAIL/image/jpeg/da934ae039a0f927c6adc4a52d5f18a2/gr5.jpg gr5 gr5.jpg jpg 80793 485 738 IMAGE-DOWNSAMPLED 1-s2.0-S2095495624007666-gr6.jpg https://s3-eu-west-1.amazonaws.com/prod-ucs-content-store-eu-west/content/pii:S2095495624007666/gr6/DOWNSAMPLED/image/jpeg/df6b67b0800c3e26ca13d4cf9bdf0733/gr6.jpg gr6 gr6.jpg jpg 45383 475 515 IMAGE-DOWNSAMPLED 1-s2.0-S2095495624007666-ga1.sml https://s3-eu-west-1.amazonaws.com/prod-ucs-content-store-eu-west/content/pii:S2095495624007666/ga1/THUMBNAIL/image/gif/986c38552e6293166f2db70c7f407436/ga1.sml ga1 true ga1.sml sml 10254 109 219 IMAGE-THUMBNAIL 1-s2.0-S2095495624007666-gr1.sml https://s3-eu-west-1.amazonaws.com/prod-ucs-content-store-eu-west/content/pii:S2095495624007666/gr1/DOWNSAMPLED/image/gif/9db9dd8bf31afaf3cfcc5f2f8d4964a7/gr1.sml gr1 gr1.sml sml 10508 164 200 IMAGE-THUMBNAIL 1-s2.0-S2095495624007666-gr2.sml https://s3-eu-west-1.amazonaws.com/prod-ucs-content-store-eu-west/content/pii:S2095495624007666/gr2/THUMBNAIL/image/gif/6ba444f634bca93eb668ca7c8bb90ba0/gr2.sml gr2 gr2.sml sml 13071 147 219 IMAGE-THUMBNAIL 1-s2.0-S2095495624007666-gr3.sml https://s3-eu-west-1.amazonaws.com/prod-ucs-content-store-eu-west/content/pii:S2095495624007666/gr3/THUMBNAIL/image/gif/aef9e388cea8de44716eb7f8b005f452/gr3.sml gr3 gr3.sml sml 8643 163 132 IMAGE-THUMBNAIL 1-s2.0-S2095495624007666-gr4.sml https://s3-eu-west-1.amazonaws.com/prod-ucs-content-store-eu-west/content/pii:S2095495624007666/gr4/THUMBNAIL/image/gif/f5435c4e6c8c01b947932927fe3277d9/gr4.sml gr4 gr4.sml sml 7133 105 219 IMAGE-THUMBNAIL 1-s2.0-S2095495624007666-gr5.sml https://s3-eu-west-1.amazonaws.com/prod-ucs-content-store-eu-west/content/pii:S2095495624007666/gr5/HIGHRES/image/gif/e45c1ebea2a9f06e76eec1b8d37a4560/gr5.sml gr5 gr5.sml sml 9577 144 219 IMAGE-THUMBNAIL 1-s2.0-S2095495624007666-gr6.sml https://s3-eu-west-1.amazonaws.com/prod-ucs-content-store-eu-west/content/pii:S2095495624007666/gr6/THUMBNAIL/image/gif/88c082374fa776927c273d8898c33b45/gr6.sml gr6 gr6.sml sml 7037 164 178 IMAGE-THUMBNAIL 1-s2.0-S2095495624007666-ga1_lrg.jpg https://s3-eu-west-1.amazonaws.com/prod-ucs-content-store-eu-west/content/pii:S2095495624007666/THUMBNAIL/image/jpeg/1d9ad96af4e8b54538dfe3f1ae6d1a2c/ga1_lrg.jpg ga1 true ga1_lrg.jpg jpg 93565 531 1069 IMAGE-HIGH-RES 1-s2.0-S2095495624007666-gr1_lrg.jpg https://s3-eu-west-1.amazonaws.com/prod-ucs-content-store-eu-west/content/pii:S2095495624007666/DOWNSAMPLED/image/jpeg/25eeadf76ece6f497d4217038b61501f/gr1_lrg.jpg gr1 gr1_lrg.jpg jpg 332224 2211 2697 IMAGE-HIGH-RES 1-s2.0-S2095495624007666-gr2_lrg.jpg https://s3-eu-west-1.amazonaws.com/prod-ucs-content-store-eu-west/content/pii:S2095495624007666/HIGHRES/image/jpeg/4e2a763f510c0a6bfd30c7c39b908457/gr2_lrg.jpg gr2 gr2_lrg.jpg jpg 539148 1806 2697 IMAGE-HIGH-RES 1-s2.0-S2095495624007666-gr3_lrg.jpg https://s3-eu-west-1.amazonaws.com/prod-ucs-content-store-eu-west/content/pii:S2095495624007666/DOWNSAMPLED/image/jpeg/36c3c380f846f98b7d51aa39164514d4/gr3_lrg.jpg gr3 gr3_lrg.jpg jpg 785796 3751 3031 IMAGE-HIGH-RES 1-s2.0-S2095495624007666-gr4_lrg.jpg https://s3-eu-west-1.amazonaws.com/prod-ucs-content-store-eu-west/content/pii:S2095495624007666/HIGHRES/image/jpeg/c26b8c0a0e41ae4ca40b4a6d4f014cbc/gr4_lrg.jpg gr4 gr4_lrg.jpg jpg 487685 1601 3327 IMAGE-HIGH-RES 1-s2.0-S2095495624007666-gr5_lrg.jpg https://s3-eu-west-1.amazonaws.com/prod-ucs-content-store-eu-west/content/pii:S2095495624007666/DOWNSAMPLED/image/jpeg/8d211f424d4155479b4f97ca98d0718e/gr5_lrg.jpg gr5 gr5_lrg.jpg jpg 512926 2149 3268 IMAGE-HIGH-RES 1-s2.0-S2095495624007666-gr6_lrg.jpg https://s3-eu-west-1.amazonaws.com/prod-ucs-content-store-eu-west/content/pii:S2095495624007666/THUMBNAIL/image/jpeg/4bff879e53b9c4e7f11571f8b6f064b0/gr6_lrg.jpg gr6 gr6_lrg.jpg jpg 230988 2104 2283 IMAGE-HIGH-RES 1-s2.0-S2095495624007666-mmc1.docx https://s3-eu-west-1.amazonaws.com/prod-ucs-content-store-eu-west/content/pii:S2095495624007666/mmc1/MAIN/application/vnd.openxmlformats-officedocument.wordprocessingml.document/da1cf8215bc4a50b0be7cafa6a887e3f/mmc1.docx mmc1 mmc1.docx docx 46208 APPLICATION 1-s2.0-S2095495624007666-si1.svg https://s3-eu-west-1.amazonaws.com/prod-ucs-content-store-eu-west/content/pii:S2095495624007666/STRIPIN/image/svg+xml/4091c47af0c36f88463efe356d13d7f7/si1.svg si1 si1.svg svg 5814 ALTIMG 1-s2.0-S2095495624007666-si10.svg https://s3-eu-west-1.amazonaws.com/prod-ucs-content-store-eu-west/content/pii:S2095495624007666/STRIPIN/image/svg+xml/d95b9e8085daee8acb4cfc8f145bf06d/si10.svg si10 si10.svg svg 8199 ALTIMG 1-s2.0-S2095495624007666-si11.svg https://s3-eu-west-1.amazonaws.com/prod-ucs-content-store-eu-west/content/pii:S2095495624007666/STRIPIN/image/svg+xml/d6a6c3615ffdc82ea48efca8079bf957/si11.svg si11 si11.svg svg 1891 ALTIMG 1-s2.0-S2095495624007666-si12.svg https://s3-eu-west-1.amazonaws.com/prod-ucs-content-store-eu-west/content/pii:S2095495624007666/STRIPIN/image/svg+xml/2cea2fb6fe1262be7da3818135047a38/si12.svg si12 si12.svg svg 3236 ALTIMG 1-s2.0-S2095495624007666-si13.svg https://s3-eu-west-1.amazonaws.com/prod-ucs-content-store-eu-west/content/pii:S2095495624007666/STRIPIN/image/svg+xml/4ffdaecaae9343b19fe428d3e31f671a/si13.svg si13 si13.svg svg 3480 ALTIMG 1-s2.0-S2095495624007666-si14.svg https://s3-eu-west-1.amazonaws.com/prod-ucs-content-store-eu-west/content/pii:S2095495624007666/STRIPIN/image/svg+xml/9d2fd3dcf18090b53a7438772ae401a4/si14.svg si14 si14.svg svg 3187 ALTIMG 1-s2.0-S2095495624007666-si15.svg https://s3-eu-west-1.amazonaws.com/prod-ucs-content-store-eu-west/content/pii:S2095495624007666/STRIPIN/image/svg+xml/13980802c4576a1c032a53f93c70fcb8/si15.svg si15 si15.svg svg 1708 ALTIMG 1-s2.0-S2095495624007666-si16.svg https://s3-eu-west-1.amazonaws.com/prod-ucs-content-store-eu-west/content/pii:S2095495624007666/STRIPIN/image/svg+xml/84e6dc9226de3ce15e0c2e254ed1374a/si16.svg si16 si16.svg svg 2234 ALTIMG 1-s2.0-S2095495624007666-si17.svg https://s3-eu-west-1.amazonaws.com/prod-ucs-content-store-eu-west/content/pii:S2095495624007666/STRIPIN/image/svg+xml/b68c096428a03f54d9ae9ae4da96c3be/si17.svg si17 si17.svg svg 2619 ALTIMG 1-s2.0-S2095495624007666-si2.svg https://s3-eu-west-1.amazonaws.com/prod-ucs-content-store-eu-west/content/pii:S2095495624007666/STRIPIN/image/svg+xml/71d4c1d6be896ed09cbca913a320d72f/si2.svg si2 si2.svg svg 6554 ALTIMG 1-s2.0-S2095495624007666-si3.svg https://s3-eu-west-1.amazonaws.com/prod-ucs-content-store-eu-west/content/pii:S2095495624007666/STRIPIN/image/svg+xml/2a8ff031124210cef555e61cb1888fda/si3.svg si3 si3.svg svg 5498 ALTIMG 1-s2.0-S2095495624007666-si4.svg https://s3-eu-west-1.amazonaws.com/prod-ucs-content-store-eu-west/content/pii:S2095495624007666/STRIPIN/image/svg+xml/e43c2f00317cd0216d5ac4df7f57164c/si4.svg si4 si4.svg svg 6240 ALTIMG 1-s2.0-S2095495624007666-si5.svg https://s3-eu-west-1.amazonaws.com/prod-ucs-content-store-eu-west/content/pii:S2095495624007666/STRIPIN/image/svg+xml/4a76812e6c6615d470ffe9edc372ef0c/si5.svg si5 si5.svg svg 11212 ALTIMG 1-s2.0-S2095495624007666-si6.svg https://s3-eu-west-1.amazonaws.com/prod-ucs-content-store-eu-west/content/pii:S2095495624007666/STRIPIN/image/svg+xml/a363f66f5cd6b8aef0e6656210b51d68/si6.svg si6 si6.svg svg 18788 ALTIMG 1-s2.0-S2095495624007666-si7.svg https://s3-eu-west-1.amazonaws.com/prod-ucs-content-store-eu-west/content/pii:S2095495624007666/STRIPIN/image/svg+xml/8a04d284413a0725187e56728668163b/si7.svg si7 si7.svg svg 15722 ALTIMG 1-s2.0-S2095495624007666-si8.svg https://s3-eu-west-1.amazonaws.com/prod-ucs-content-store-eu-west/content/pii:S2095495624007666/STRIPIN/image/svg+xml/7392760dc2e8058b1d058f23573158a3/si8.svg si8 si8.svg svg 8278 ALTIMG 1-s2.0-S2095495624007666-si9.svg https://s3-eu-west-1.amazonaws.com/prod-ucs-content-store-eu-west/content/pii:S2095495624007666/STRIPIN/image/svg+xml/ab3cb2ddb3f0d113462c4bd9c9a5247f/si9.svg si9 si9.svg svg 1960 ALTIMG JECHEM 4243 S2095-4956(24)00766-6 10.1016/j.jechem.2024.11.007 Science Press Fig. 1 (a) 2D Multiphysics model showing geometry and modeling domain with a description of present species and ensuing boundary conditions (BCs). The modelled cell active area is ∼10 cm2. (b) Modified Randles equivalent circuit with a CPE. (c) Adopted modified bounded Randles equivalent circuit with a BCPE. The CPE structural parameter q represents a capacitance for n = 1, and becomes a Warburg element at n = 0.5. BCPE impedance is reduced to that of a CPE when the tanh term tends to unity (i.e. infinite thickness), or with frequency ω (Hz) → ∞. where q and q' are in s n /Ω. Series/ohmic resistance (R el), charge transfer or polarization resistance (R ct), and BCPE structural resistance (R 0) are in Ω. Double-layer capacitance (C dl) in Farads, and n is unitless. Fig. 2 Time-domain responses at test current amplitudes under constant inflow concentrations, for (a, b) 0.01 mA/cm2 and (c, d) 1 mA/cm2. (e) Time-domain responses at varying total electrolyte volumes in tanks when the constant inflow assumption is relaxed. Half-cell electrode wetted volume is 3.68 mL and w is 0.01 Hz. (f, g) Nyquist and Bode plots obtained from frequency domain solution for the cell with nominal operating parameters and the fit using equivalent circuit of Fig. 1(c). Equivalent circuit parameters R el, R ct, and R 0 are 256.89, 4.38 × 10−5, and 2.33 mΩ respectively. C dl = 678.34F, q' = 945.82 s n /Ω, and n = 0.68. Fig. 3 Nyquist plots for the cells with varying electrode parameters. (a) Solid matrix conductivity. (b) Porosity. (c) Fiber diameter. (d) Positive side reaction rate constant. (e) Negative side reaction rate constant. (f) Thickness. Figure lines are the equivalent circuit model fits of the results obtained from the Multiphysics model which are in markers. The equivalent circuit parameters R el, R ct, R 0, C dl, q', and n for the electrode parameter results are presented in Table 2. Fig. 4 Nyquist plots for the cells with varying membrane parameters. (a) Fixed charge concentration. (b) Thickness. (c) Porosity. (d) D m o d , m for diffusion coefficients. Figure lines are the equivalent circuit model fits of the results obtained from the Multiphysics model which are in markers. The equivalent circuit parameters R el R ct, R 0, C dl, q', and n for the membrane parameter results are presented in Table 3. Fig. 5 Nyquist plots for the cells with varying electrolyte parameters. (a) Density. (b) Viscosity. (c) Flow rate. (d) D m o d , e for diffusion coefficients. (e) SOC. Figure lines are the equivalent circuit model fits of the results obtained from the Multiphysics model which are in markers. The equivalent circuit parameters R el, R ct, R 0, C dl, q', and n for the electrolyte parameter results are presented in Table 4. Fig. 6 Sensitivity of equivalent circuit element to cell parameters/properties. The sensitivity as defined has no units. Table 1 Physical properties and operating parameters of investigation. Nominal values are underlined. Electrode Membrane Electrolyte Solid matrix conductivity (S/m) 20.040.0 66.7 80.0100.0 D m o d , m for diffusion coefficients a 0.200.50 1.00 1.503.00 Density (kg/m3)+ve & −ve pair +ve 1270 1300127012751280 −ve 1275 1270130012701280 Porosity 0.850.87 0.92 0.950.97 Porosity 0.200.25 0.28 0.300.32 Viscosity (Pa s)+ve & −ve pair +ve 3.00 3.303.003.503.15 −ve 3.30 3.003.503.003.15 Fiber diameter (microns) 15 10 3050 Fixed charge conc. (M) 1.001.50 1.99 2.302.50 Flow rate (mL/min) 515 30 80120 Thickness (mm) 12 4 68 Thickness (mm) 50100 203 250300 SOC (%) 2036 49 7190 +ve rate constant (m/s) 7.50E−91.50E−8 2.24E−8 3.75E−85.00E−8 D m o d , e for diffusion coefficients a 0.200.50 1.00 1.503.00 −ve rate constant (m/s) 7.50E−91.50E−8 3.00E−8 3.75E−85.00E−8 a Effective diffusion coefficients (m2/s) = D m o d , e or D m o d , m multiplied by nominal values in Table S1. Table 2 Equivalent circuit model fitting parameters for EIS data of cell with modified electrode properties. R el (mΩ) C dl (F) R ct (mΩ) R 0 (mΩ) q' (s n /Ω) n Least-square error Solid matrix conductivity (S/m) 20 312.44 649.34 6.68E−05 2.50 873.50 0.68 2.05E−07 40 273.71 680.29 4.16E−05 2.37 921.29 0.68 1.86E−07 66.7 256.89 678.34 4.38E−05 2.33 945.82 0.68 1.79E−07 80 252.56 691.50 4.00E−05 2.33 942.61 0.68 1.79E−07 100 248.15 668.33 4.06E−05 2.32 957.39 0.67 1.79E−07 Porosity 0.85 138.89 620.02 3.83E−05 2.35 889.25 0.67 1.66E−07 0.87 157.87 650.49 3.30E−05 2.34 900.31 0.68 1.54E−07 0.92235 256.89 678.34 4.38E−05 2.33 945.82 0.68 1.79E−07 0.95 398.10 700.54 5.40E−05 2.35 958.58 0.68 1.70E−07 0.97 673.18 762.85 6.39E−05 2.40 926.15 0.69 1.60E−07 Fiber diameter (mm) 1 62.30 640.70 4.23E−04 2.72 779.44 0.68 1.98E−07 5 149.78 729.38 1.98E−04 2.37 894.74 0.69 1.84E−07 10 256.89 678.34 4.38E−05 2.33 945.82 0.68 1.79E−07 30 681.05 704.22 6.78E−05 2.35 923.19 0.67 1.55E−07 50 1100.10 626.87 4.83E−05 2.41 930.67 0.64 1.72E−07 Thickness (mm) 1 862.16 218.13 5.84E−05 2.26 331.82 0.71 1.98E−07 2 449.68 393.75 5.35E−05 2.28 564.32 0.69 1.84E−07 4 256.89 678.34 4.38E−05 2.33 945.82 0.68 1.79E−07 6 205.11 1016.10 9.36E−05 2.41 1181.50 0.68 1.55E−07 8 188.25 1188.90 8.10E−05 2.51 1407.30 0.67 1.72E−07 −ve rate constant (m/s) 7.50E−09 793.77 754.95 5.37E−05 2.33 889.23 0.69 1.82E−07 1.50E−08 437.20 686.90 5.44E−05 2.33 940.37 0.68 1.80E−07 3.00E−08 256.89 678.34 4.38E−05 2.33 945.82 0.68 1.79E−07 3.75E−08 220.70 713.29 2.50E−05 2.34 911.22 0.68 1.83E−07 5.00E−08 184.42 737.63 1.99E−05 2.35 896.42 0.69 1.81E–07 +ve rate constant (m/s) 7.50E−09 321.45 736.63 2.27E−05 2.33 906.52 0.69 1.81E−07 1.50E−08 272.88 733.17 2.23E−05 2.35 895.10 0.68 1.83E−07 2.24E−08 256.89 678.34 4.38E−05 2.33 945.82 0.68 1.79E−07 3.75E−08 243.62 709.52 2.68E−05 2.36 904.97 0.68 1.83E−07 5.00E−08 238.65 708.59 2.36E−05 2.38 898.13 0.68 1.84E−07 Table 3 Equivalent circuit model fitting parameters for EIS data of cell with modified membrane properties. R el (mΩ) C dl (F) R ct (mΩ) R 0 (mΩ) q' (s n /Ω) n Least-square error Fixed charge conc. (M) 1 257.02 704.78 2.71E−05 2.34 925.45 0.68 1.81E−07 1.5 256.96 716.23 4.10E−05 2.33 923.78 0.68 1.79E−07 1.99 256.89 678.34 4.38E−05 2.33 945.82 0.68 1.79E−07 2.3 256.85 702.23 4.34E−05 2.34 923.55 0.68 1.80E−07 2.5 256.82 710.40 4.35E−05 2.35 914.48 0.68 1.82E−07 Thickness (mm) 50 252.78 738.15 4.07E−05 2.31 906.39 0.68 1.81E−07 100 254.76 733.01 2.93E−05 2.33 902.81 0.69 1.80E−07 203 256.89 678.34 4.38E−05 2.33 945.82 0.68 1.79E−07 250 257.69 712.68 4.39E−05 2.35 910.23 0.68 1.83E−07 300 258.51 689.90 3.56E−05 2.33 938.42 0.68 1.81E−07 Porosity 0.2 259.07 713.23 3.35E−05 2.35 907.76 0.68 1.84E−07 0.25 257.53 721.59 1.92E−05 2.35 907.60 0.68 1.81E−07 0.28 256.89 678.34 4.38E−05 2.33 945.82 0.68 1.79E−07 0.3 256.54 723.16 1.57E−05 2.34 909.10 0.68 1.80E−07 0.32 256.23 793.01 2.71E−05 2.36 863.43 0.70 1.88E−07 D m o d , m 0.2 269.31 667.60 3.89E−05 2.35 939.52 0.67 1.83E−07 0.5 260.18 686.80 3.55E−05 2.34 935.32 0.68 1.81E−07 1 256.89 678.34 4.38E−05 2.33 945.82 0.68 1.79E−07 1.5 255.59 730.85 3.79E−05 2.33 917.80 0.69 1.81E−07 3 253.66 713.66 3.23E−05 2.33 924.38 0.68 1.79E−07 Table 4 Equivalent circuit model fitting parameters for EIS data of cell with modified electrolyte properties. R el (mΩ) C dl (F) R ct (mΩ) R 0 (mΩ) q' (s n /Ω) n Least-square error Density (kg/m3) +ve −ve1270 1275 256.89 678.34 4.38E−05 2.33 945.82 0.68 1.79E−07 +ve −ve1300 1270 256.85 705.34 6.29E−05 2.35 923.73 0.68 1.79E−07 +ve −ve1270 1300 256.89 713.10 3.85E−05 2.35 910.23 0.67 1.82E−07 +ve −ve1275 1270 256.85 702.54 7.15E−05 2.34 928.49 0.68 1.78E−07 +ve −ve1280 1280 256.89 799.45 6.96E−05 2.34 869.23 0.72 1.96E−07 Vscosity (Pa s) +ve −ve3.00 3.30 256.89 678.34 4.38E−05 2.33 945.82 0.68 1.79E−07 +ve −ve3.30 3.00 256.85 700.92 5.36E−05 2.34 928.08 0.68 1.79E−07 +ve −ve3.00 3.50 256.90 705.35 4.61E−05 2.34 924.63 0.68 1.81E−07 +ve −ve3.50 3.00 256.84 784.89 4.96E−05 2.36 843.41 0.69 1.88E−07 +ve −ve3.15 3.15 256.87 864.99 4.95E−05 2.37 813.39 0.72 2.09E−07 Flow rate (mL/min) 5 256.88 580.30 5.91E−07 11.91 756.07 0.72 4.15E−06 15 256.88 706.60 1.00E−05 4.46 817.93 0.69 7.25E−07 30 256.89 678.34 4.38E−05 2.33 945.82 0.68 1.79E−07 80 256.91 680.13 8.01E−06 1.24 1055.00 0.66 4.73E−08 120 256.94 700.00 3.03E−06 0.79 1116.00 0.66 1.34E−08 SOC 0.20 274.33 300.00 6.06E−05 3.51 733.52 0.66 6.08E−07 0.36 255.33 556.47 4.85E−05 2.53 933.18 0.67 2.27E−07 0.49 256.89 678.34 4.38E−05 2.33 945.82 0.68 1.79E−07 0.71 290.80 632.01 5.56E−05 2.69 804.13 0.69 2.44E−07 0.90 430.85 329.10 7.29E−05 5.73 370.26 0.72 1.31E−06 D m o d , e 0.2 308.17 521.85 4.21E−05 2.64 863.91 0.63 1.53E−07 0.5 270.44 660.39 1.40E−05 2.44 884.58 0.66 1.74E−07 1 256.89 678.34 4.38E−05 2.33 945.82 0.68 1.79E−07 1.5 252.25 801.41 9.89E−06 2.31 889.20 0.71 1.81E−07 3 247.54 850.21 8.16E−06 2.25 914.28 0.73 2.00E−07 Table 5 Practical scenarios relevant to isolated cell component property changes and influence on EIS. Possible modification scenario Relevant effort in literature Reference Electrode Solid matrix conductivity Surface modification/treatmentOptimization of heat treatment Investigated cathode layer resistance in PEM fuel cell [33] Porosity Surface modification/treatmentDifferent compression during preparation/operationVariations in manufacturing process Studied electrodes of different porosities and thicknesses for VRFB. Other variables such as wettability and flow regimes were also affected. [35] Fiber diameter Surface modification/treatmentVariation in precursor materialElectrospinning parameter adjustment Thickness Casting/fabrication choiceHybrid/layer-layer method Studied electrodes of different porosities and thicknesses for VRFB. Other variables such as wettability and flow regimes were also affected. [35] Rate constants Selective catalysisWettability modification Addresses electro activation, wettability misconceptions regarding reaction kinetics in VRFB [13] Membrane Fixed charge conc. Fabrication/post-treatment (functionalization/modification/doping process)Membrane ageing Porosity Selective pore-blockingDegree of membrane cross-linking Thickness Casting/fabrication choiceHybrid/layer-layer method Investigation of membrane types and thicknesses for PEM fuel cell. [31] Diffusion coefficients Fabrication/post-treatmentDegree of membrane cross-linkingIn-operando local heating Electrolyte Density & Viscosity Crossover & mixing modulationConcentration/compositional adjustment of inactive species (impurities, additives surfactants, colloids, nanoparticles, etc.) Flow rate Flow-factor modulationFlow distribution design Comparison of flow-through versus serpentine flow-field architecture VRFB [35] Diffusion coefficients Concentration/compositional adjustment of inactive speciesIn-operando local heating Understanding characteristic electrochemical impedance spectral data of redox flow batteries with multiphysics modeling Ayoob Alhammadi Writing – original draft Visualization Investigation Abdulmonem Fetyan Writing – original draft Rahmat Agung Susantyoko Writing – original draft Ibrahim Mustafa Writing – original draft Musbaudeen O. Bamgbopa Writing – review & editing Writing – original draft Validation Supervision Software Methodology Investigation Conceptualization ⁎ Research & Development Centre, Dubai Electricity and Water Authority (DEWA), P.O. Box 564, Dubai, United Arab Emirates Research & Development Centre Dubai Electricity and Water Authority (DEWA) P.O. Box 564 Dubai United Arab Emirates Research & Development Centre, Dubai Electricity and Water Authority (DEWA), P.O. Box 564, Dubai, United Arab Emirates ⁎ Corresponding author. Graphical abstract The electrochemical impedance spectral data of vanadium redox flow battery is analyzed, using equivalent circuit modeling and Multiphysics modeling to understand cell component properties and improve performance. Electrochemical impedance spectroscopy (EIS) is a robust characterization method to probe prevalent (electro)chemical processes in an electrochemical system. Despite its extensive utilization in fuel cell research, the application of EIS in redox flow battery systems particularly for simplified two-electrode full-cell configurations is more limited. Herein we attempt to strengthen the understanding of characteristic EIS data of vanadium redox flow batteries by a combination of equivalent circuit modeling with a validated Multiphysics model analyzed under hydrodynamic conditions in frequency domain. Following a highlight of system linearity and stability concerns for EIS in redox flow batteries, we specifically use our combinatory approach to investigate the effects of different cell component properties on observed galvanostatic EIS spectra and accompanying fitted equivalent circuit element parameters. For the investigated two-electrode full-cell flow battery configuration with the same electrode material on both sides, the EIS spectral data is observed to be dominated by different mass or charge transport processes at different ends of the spectrum. Sensitivity analyses of both obtained EIS spectral data and fitted circuit elements parameters show that electrode morphological properties, membrane porosity, and electrolyte inflow conditions predominantly define the EIS spectral data. Insights from the type of analyses performed herein can facilitate flow battery cell/stack diagnostics and targeted performance improvement efforts. Keywords Electrochemical impedance spectroscopy Redox Flow battery Multiphysics modeling Equivalent circuit Full cell 1 Introduction Developing a deep understanding of battery behavior and performance is imperative to meet the different electrochemical storage needs given increased renewable energy penetration. A powerful technique in battery characterization at different scales is electrochemical impedance spectroscopy (EIS). EIS is a non-destructive technique that provides valuable insights into the (electro)chemical processes of a battery. It involves the application of a small amplitude test sinusoidal voltage/current perturbation across the battery terminals and the subsequent measurement of the resulting current/voltage response from the assumed linear time-invariant system [1]. By analyzing the constituent real and complex impedance parts recorded from the battery as a function of the frequency of the sinusoidal signal, EIS offers a wealth of information regarding electrical and (electro)chemical properties. In redox flow battery (RFB) research, EIS has been used as a cell/stack diagnostic tool [2–4] for monitoring electrode degradation [5] and evaluating long-term stack performance [6]. Despite the recognition of EIS for battery characterization, its application for two-electrode full-cell RFB study is not common in literature, as there is also often inconsistency in understanding and application of this technique. Part of the reason for this disparity is the inherent complexity of EIS, requiring a solid grasp of electrochemical principles, impedance theory, and data analysis techniques. Furthermore, interpreting EIS data necessitates expertise in distinguishing between prevalent charge transfer processes, ionic diffusion, capacitive effects, morphology [7], and their respective contributions to battery performance. Consequently, attempting to apply EIS to aid RFB cell/stack development/improvement efforts goes beyond just equivalent circuit fitting of EIS spectral data obtained from three-electrode cell arrangements with porous carbon working electrodes, which is more common in literature. Meanwhile, characteristic EIS (under load or no-load) is widely deployed for fuel cell research and development [8,9] in contrast to much fewer efforts for RFB [2,5]. Previous RFB studies with typical EIS tests done in multi-probe/electrode arrangements [10,11] are valuable, as EIS of typical porous carbon felts electrodes in vanadium RFB (VRFB) electrolyte, for example, can be quite informative on individual half-cell reactions. However, variation in electrode properties like wettability [12,13] and porosity [14] significantly affects the response of examined electrodes. Other recent studies also report the use of numerical reconstruction of the underlying distribution of relaxation times in EIS data for porous electrodes [5]. Unfortunately, this reconstruction is intractable and requires an excessive amount of experimental and theoretical cross-validation. Given that most commercial RFB cells/stacks carry the same/similar negative and positive porous electrodes sandwiching a membrane/separator, it is imperative to realize that the observations from EIS tests at half-cell now superimpose and therefore there is a need to perform and understand characteristic EIS in two-electrode full-cell setups. Equivalent circuit models/analyses are also often applied in literature on EIS spectral data to attempt to deduce prevalent transport and kinetic properties. A major challenge with these equivalent circuit fitting is that different circuits could have the same mathematically equivalent frequency response [15], which highlights the importance of not only the correct selection of equivalent circuit model [1] but also an outlook of the relationship between prevailing properties/variables and the EIS spectral data. In this work, we combine equivalent circuit modeling with results from experimentally validated full-cell Multiphysics VRFB model analyzed in frequency domain for directly probing relevant cell component parameters/properties that govern the transport and kinetic behavior of the electrochemical system. The combinative investigation under hydrodynamic (flowing electrolyte) conditions provides better insights/understanding beyond what can be achieved using only equivalent circuit models of set-ups under no electrolyte flow. 2 Methodology 2.1 Multiphysics model The two-dimensional (2D) Multiphysics model applies a combination of major governing equations to solve the mass, momentum, and charge balance of the prevalent species in a typical VRFB test cell of 10 cm2 active area as seen in Fig. 1 (a), where both desired charge storage reactions and crossover side reactions on the respective sides are considered. Given our analyses use steady-state solutions, electrolyte inflow conditions are constant—nominally close to 50 % state of charge (SOC), and crossed-over species are effectively fully consumed in resulting side reactions at the opposite side. Other main boundary conditions are also shown in Fig. 1(a). The Nernst equation solves the concentration and temperature-dependent equilibrium potential. The Brinkman equation is applied for the velocity distribution of the incompressible flow in the porous membrane-electrode assembly (MEA) modeling domain. Butler-Volmer kinetic relationships are applied to resolve the current distribution from the ensuing redox reactions, while the Nernst-Plank-Poisson equations with electroneutrality solve the species concentration/flux and liquid/solid phase potentials in the MEA. These relationships have been used in previous studies to accurately model a VRFB cell, and our implementation and validation of the same have also been previously published [16]. Nevertheless, the fundamental equations are outlined in Supporting Information (SI), and nominal model parameters/properties and operating conditions are given in Table S1. The validated model was implemented in COMSOL Multiphysics software using the relevant physics interfaces. The negative electrode is grounded while we apply zero static direct current at the positive terminal to perform all EIS analyses at open-circuit. EIS was simulated using small-signal frequency analysis (over the steady open circuit) between 10 kHz to 0.01 Hz (20 points per decade), with a 1 mA/cm2 amplitude sinusoidal wave. The galvanostatic EIS was performed in this way at ‘true’ open circuit to aid stability, as we do not have to worry about any external interference which can occur with experiments. More discussion on stability and linearity is presented in the Results and Discussion Section. The concept of stability means that the system responds accordingly to the sinusoidal signal and near-fully returns to its original state once the perturbation is removed, while linearity condition is there to ensure that EIS of such typically highly non-linear electrochemical system is done at a point where there is pseudo-linearity with the right signal amplitude [1]. The following assumptions apply to our Multiphysics model. • The cell is at room temperature, therefore no temperature variation of the system or properties/variables accounted for. • Cell component properties in the MEA are isotropic. • Constant inflow concentrations prevail. The values of species inflow concentrations characterizing relevant SOC are given in Table S2. 2.2 Equivalent circuit model The Randles equivalent circuit model has been most deployed for EIS equivalent circuit modeling analyses as it is especially applicable for single-electron heterogeneous reactions in two/three-electrode setups [17,18]. There is however possibility of significant deviation from ideal Randles circuit behavior [11] for rechargeable flowing electrochemical systems due to flow/charge transport instabilities/nonuniformities with momentary SOC deviations in real two-electrode full cell measurements. Therefore, a Voigt’s structure [19–21] or modified Randles circuit such as Fig. 1(b) is typically applied which replaces capacitances in series to the charge transfer resistance with a frequency-dependent capacitance, the constant-phase elements (CPE). The CPE impedance is more generic and can be essentially reduced to that of an ideal capacitor (with the best EIS fitting practices) even if initially wrongly selected. We replace the CPE with the more general bounded constant phase element (BCPE) impedance [22] as seen in Fig. 1(c). The BCPE is typically used to account for homogeneity bounds or deviations from ideal semi-infinite linear diffusion [1,22], so we adopt it for its more general form which can also encompass different time constant processes typically apparent in the VRFB cell EIS spectral data. Due to the flexibility of this more generalized circuit element impedance and the fact that our Multiphysics model presents the opportunity for closely monitoring the operating parameter/variable sensitivities, we refrain from making direct attributions of the BCPE structural parameters to processes before discussing results. 3 Results and discussion Both the Multiphysics and equivalent circuit models are primarily developed to investigate the effects of varying properties or operating parameters of the VRFB cell on the observed EIS spectral data. We categorize the parameters under the main properties of the electrode, membrane, and electrolyte as seen in Table 1 . 3.1 Analysis of model consistency and default spectrum data We first verify the stability of the system, the adequacy of the probing signal for linearity, and consistency of the solution approach. Time-domain solutions of the Multiphysics model at specified frequencies presented in Fig. 2 show that the voltage response from the sinusoidal current perturbation is also sinusoidal, and of the same period, indicating that the electrochemical system is linear and can thus be consistently characterizable by EIS. This observation is the check typically performed with a Lissajous plot on EIS experiments. The frequency domain small-signal perturbation solver in COMSOL Multiphysics simply solves the linearized problem around the static solution with a subsequent harmonic perturbation to save the effort of having to characterize each time-domain-based response (as seen in Fig. 2a and c) at each frequency. This solver is applicable on the condition of said linearity and that all loads, constraints, and material properties are independent of the solution. i.e. no voltage/current dependence on material properties. Furthermore, for consistency of conclusions to be drawn, EIS spectral data should be obtained with a harmonic perturbation magnitude which causes minimal deviation to the total cell voltage (or outflow SOC), given inflow concentrations/SOC are fixed. Comparing the time-domain solutions at different sinusoidal current amplitudes in Fig. 2(b and d), 1 mA/cm2 causes more deviation than 0.01 mA/cm2, however both are not severe. Considering other perturbation current density amplitudes solved in the frequency domain (not shown here), the recorded deviation in both cell voltage and outflow SOC convinces that the selected value of 1 mA/cm2 is still reasonable, even though the same Nyquist plot is obtained from all current amplitudes tested. The choice of current density amplitude and time-domain results in Fig. 2(a–d) support our intention of performing the open-circuit galvanostatic EIS characterizations at near-constant SOC with the imposed constant inflow concentrations. Performing EIS at steady SOC can be achieved in reality if the total electrolyte volume is several times higher than the half-cell/stack momentary electrolyte holding volume (i.e. total electrode wetted volume). To highlight this condition, we briefly compare scenarios where the constant inflow concentration assumption is relaxed, and the cell is connected to 0D electrolyte tank models of varying volumes on both sides (under perfect mixing). The time-domain results in Fig. 2(e) show that the stability of the system is affected at low ratio of total-electrolyte-volume to electrode-wetted-volume ( V t a n k V h a l f - c e l l ), where the voltage response is no longer the same period as the current test signal, and there is a significant deviation of momentary outflow SOC. Consequently, EIS characterization of such a system with low V t a n k V h a l f - c e l l is erroneous and inconsistent with the assumption of the obtained data characterizing a steady SOC, even when performed at open-circuit with small perturbation current amplitudes. Other limitations for the perturbation current amplitude exist in practice. The amplitude should be high enough to drown out interfering signals on the EIS data, while also being low enough to ensure a high stochiometric flow factor. Unfortunately, some previous works do not take these linearity/consistency concerns into account in their full-cell EIS tests for VRFB. Furthermore, Fig. 2(f and) presents the Nyquist and Bode plots of our modeled cell with nominal operating parameters. These plots and subsequent EIS data of this work are obtained using the frequency domain solver. The nominal Nyquist plot possesses typical characteristic low-frequency ′′semi-circle′′ with an additional incomplete semi-circle/arc at the high-frequency end. Some general observations are obvious in our obtained EIS data/fitting. In the Nyquist plots, the R el corresponds to the plot’s intercept on the real-impedance axis at the high-frequency end. The R 0 defines the chord-length of the profound semi-circle/arc, while the size of the additional incomplete semi-circle at the high-frequency end is defined by R ct. In previous works, when the incomplete semi-circle is not apparent or overlooked, its combination with the profound semi-circle radius is often termed R ct (charge transfer resistance). Other equivalent circuit model parameters (C dl, q', and n) also affect the qualitative form of both arcs. Fig. 2(f and g) shows a good fit of the Multiphysics model EIS data using the equivalent circuit model; even distortions seen at higher frequencies are well reproduced. The values of the least-square fitting errors for all cells with nominal or modified parameters are tabulated in subsequent Sections of this work. Although Fig. 2(f) suggests the Nyquist plot would look similar if produced within a narrower frequency range, we kept the frequency range of 10 kHz to 0.01 Hz for a broad EIS spectral acquisition resolution as operating parameters are subsequently modified. In addition, the importance of a Bode plot (Fig. 2g) is also shown for EIS data. Subsequent sections of this work investigate the influence of cell operating parameters and component physical properties on obtained EIS data, where each parameter/property categorized in Table 1 is generally varied in isolation to within two values higher and two values lower than nominal. 3.2 Electrode parameters/properties The obtained EIS data and fitting, as electrode parameters are varied in isolation, are seen in Fig. 3 (a–f). Table 2 presents the values of all equivalent circuit model parameters fitting the obtained Nyquist plots in Fig. 3 as electrode properties are varied, along with the least-square errors for the fits. Fig. 3(a) shows a clear relationship between increasing solid matrix conductivity and decreasing R el, as expected. As solid matrix conductivity increased, the charge transfer resistance slightly decreased. Electron transport through the conducting matrix of the electrode is facilitated as electronic conductivity increases, leading to reduced ohmic resistance across the cell. However, other ion-transport limitations persist. Keeping in mind that the parameters vary simultaneously in isolation in this study. Table 2 shows that electrode morphology/structural parameters like porosity, fiber diameter, and bulk thickness significantly influence R el. Increasing only porosity (Fig. 3b) means that more of the solid electronically conducting matrix is sacrificed to a larger volume of less conducting electrolyte present within the pores of the electrode bulk, leading to increased R el. Increasing only fiber diameter (Fig. 3c) at the same porosity means that there are fewer total fibers in the matrix, also leading to increased R el. R el decreases as the electrode gets thicker (Fig. 3f), as there are more total conducting fibers. R el is also observed to decrease with increasing reaction-rate constants on both positive and negative sides in Fig. 3(d and e), respectively. C dl is directly proportional to the total surface area of networked electrode fibers interfacing with electrolytes within the electrodes. This total area is a non-linear function of electrode morphology/structural parameters like porosity, fiber diameter, and thickness (Table S1). C dl results in Table 2 suggest that the total electrode-electrolyte interface area increases with increasing porosity and thickness, while an optimum fiber diameter exists (all-else being the same). Within the reasonable range of reaction-rate constants investigated, R ct linearly decreases with increasing negative-side rate constant. It is given that the structural parameters of the BCPE define prevalent diffusive mass-transport of both active species and other supporting electrolyte species. As seen in Table 2 for all electrode parameters, n does not show a clear trend, while increasing electrode thickness presents the only linearly direct relationship to increasing q'. Within the test ranges, R 0 is slightly modified with increasing reaction-rate constants, or other electrode morphology/structural parameters. 3.3 Membrane parameters/properties We further explore the effect of membrane parameter modifications on the cell EIS data with results shown in Fig. 4 (a–d). In addition, Table 3 presents the values of all equivalent circuit model parameters fitting the obtained Nyquist plots, along with the least-square errors for the fits. Although the membrane bulk is not the main charge-storage reaction site, the main charge-storage reactions of VRFB are subject to selective hydrogen ion conductivity, in addition to undesired active species crossover through it. Therefore, we expected modified membrane parameters to more significantly affect the equivalent circuit model parameters relating to ohmic resistance and mass transport. Notwithstanding, R 0 is mostly stable in Table 3. Fig. 4(a) shows that the Nyquist plot is not greatly modified even with a significant variation of the fixed charge concentration of the membrane from 1 to 2.5 M. For the cation exchange membrane considered, increasing the concentration of fixed negative charges is expected to increase the ion-transfer capacity towards the cations in the system. R el slightly decreased with increasing molarity of membrane fixed charges. However, R el is shown to be more significantly decreased with decreasing membrane thickness (Fig. 4b), increasing porosity (Fig. 4c), and increasing species diffusivity (Fig. 4d), as expected. C dl did not linearly vary with any of the membrane parameters/properties, with results in Table 3 suggesting an optimum value among each membrane parameter maximizes/minimizes C dl. Interestingly, although not quite visible in Fig. 4, the incomplete semi-circle at the high frequency defined by R ct is affected by membrane parameter variations. Analysis in Table 3 reveals a similar trend mentioned for C dl (concerning membrane properties) applied to both R ct and q', while n is mostly stable. 3.4 Electrolyte parameters/properties For the obtained EIS data when varying electrolyte parameters/properties shown in Fig. 5 (a–e), Table 4 presents the values of all equivalent circuit model parameters fitting the Nyquist plots, along with the least-square errors for the fits. For relevance to reality, we modified both electrolyte density and viscosity in solitary positive-negative pairs. For viscosity especially, each pair realistically defines a prevalent bulk electrolyte cross-over direction as the pressure differential across the cell changes [23,24]. Nevertheless, the obtained EIS data within reasonable variations of electrolyte density and viscosity seen in Fig. 5(a and b), respectively, remains largely similar, with small changes in C dl, R ct, and some BCPE parameters (see Table 4). Some studies have explored SOC estimation using electrolyte density [25] and viscosity [26], given both properties are known to vary with electrolyte SOC [27]. Our results in Fig. 5a and b show that although accounting for SOC variation of both viscosity and density in Multiphysics VRFB models slightly improves model accuracy towards reproduction of test results like galvanostatic (dis)charge curves [28], this consideration appears not to be worth the additional computational cost, especially for EIS test data. Electrolyte flow rate is an operating condition that dictates the time constants of mass and momentum transport while having less influence on electronic transport. Consequently, Fig. 5(c) indicates near-stable R el as also detailed in Table 4 for varying flow rates. Both R ct and R 0 significantly decrease with increasing flow rate, resulting in the decrease of C dl with increasing flow rate. From the analysis of Fig. 5(d), both R el and R 0 decrease as C dl increases with increasing effective diffusivity of species in the electrolyte. Unique system dynamics is observed for the cell at different imposed SOCs as seen in Fig. 5(e) due to the different electrolyte compositions characterizing the different SOCs (Table S2). There is a noticeable enlargement of the Nyquist plots in Fig. 5(e) as SOC moves away from around 50%. Consequently C dl and q' are maximum at ∼50% SOC and both decrease away from 50% SOC, while R el and R ct are minimized around ∼50% SOC and both increase away from 50% SOC. Interestingly, a linear relationship between n and electrolyte flow rate or species diffusivity is observed in Table 4, which was not the case for most electrode or membrane properties. 3.5 Parameter sensitivity and practical implications So far, we have discussed observations from individual trends of the effects of solitary variation of cell properties on obtained EIS spectral data, along with the resulting equivalent circuit parameters. Note that all the evaluated properties are in different physical units and are studied in non-uniform variations at practically reasonable magnitudes. A useful task is to perform sensitivity analysis of these cell properties/parameters to enable a normalized consistent comparison of combined influences on the EIS spectral data. Therefore, we define a relevant sensitivity value of the equivalent circuit parameters to each cell property as given in Eqs. (1) and (2). The equations are defined for the 5-value cell property sets in increasing order as previously seen (Table 1), except for electrolyte viscosity and density. Variations in both electrolyte viscosity and density which were evaluated in positive-negative pairs reported similar EIS spectral data anyway. Sensitivity as defined in Eq. (1) is simply the absolute value of the partial derivative of the normalized change in the value of equivalent circuit parameter with respect to the normalized cell property modification, evaluated around the nominal property value. (1) S e n s i t i v i t y = ∂ y ^ ∂ x ^ x ^ = 0 (2) y ^ = y - y n o m i n a l y n o m i n a l , x ^ = x - x n o m i n a l x n o m i n a l where x n o m i n a l and x are the nominal or other values, respectively, for any cell electrode/membrane/electrolyte parameter/property. y n o m i n a l and y are the values of the fitted equivalent circuit element parameters at x n o m i n a l and x , respectively. The partial derivative in Eq. (1) is obtained numerically from an exact 5th-order polynomial fit to the 5-value sets. The following deductions applicable to two-electrode EIS of VRFB cells can be drawn from our sensitivity analysis result presented in Fig. 6 . • Electrode porosity modification has the most combined effect on observed EIS spectral data among other main cell operating conditions and component properties investigated. The effect of membrane porosity comes in at a distant second. • Modification of electrode solid matrix conductivity, membrane fixed charge concentration, and effective species diffusivity in the membrane has the least overall effect on EIS data. • R e l is only mostly sensitive to electrode parameters as previously reemphasized herein. R c t is the most sensitive to porosities of both electrode and membrane, while C d l is the most sensitive to electrode thickness. This result presents an obvious VRFB cell performance improvement avenue, given these three circuit-elements reference the charge storage. • The negative side reaction is more critical to cell characteristics than the positive side reaction for such VRFB cells with symmetric electrode material and flow architecture. • For the BCPE parameters defining the profound semicircle of the EIS Nyquist plots, it is clear that cell properties/parameters related to mass transport share combined influence. n is most influenced by the diffusive/convective transport of species, given it is equally the most sensitive to changes in electrode porosity, electrode fiber diameter, membrane porosity, electrolyte flow rate, and bulk species diffusivity. q ′ is the most sensitive to electrode porosity and thickness. R 0 is the most sensitive to the electrolyte flow rate. Previous works have discussed possible factors responsible for the incomplete semicircle towards higher frequencies in Nyquist plots for such flowing-reactant electrochemical cells [29], especially when measured in two-electrode full-cell setups. For fuel cells, the factors attributed include granular electrode structure [30] and distributed ionic resistance effects in the electrode/catalyst layer [31], MEA structural features [32], and proton/ion transport limitations in the electrode/catalyst layer [33,34]. The charge-transport-related explanations are in line with our conclusions from Fig. 6 about the BCPE parameters. Mazur et al. [11] performed EIS on a full VRFB cell using a complex 4-point probe to deduce the EIS data from both positive and negative sides. The incomplete semicircle towards higher frequencies was also observed in their measurements, which appears to be primarily relayed from the negative side of the cell. However, there was no explanation or further discussion given on this characteristic feature. Pezeshki et al. [35] used EIS to study the effects of electrode porosity variation in a VRFB. Their results showed the significance of electrode thickness in determining the overall ohmic resistance. For thick carbon felts like those considered herein, 60% of the ohmic resistance is due to the distributed ohmic resistance of the electrode and electrolyte. These observations support our conclusions from Fig. 6 relating to R e l . The main advantage of multi-probe over two-electrode measurements for full VRFB cell EIS is that the impedance of individual electrode contributions can be obtained directly. We have shown here the usefulness of applying Multiphysics modeling to increase understanding of characteristic EIS data in combination with equivalent circuit modeling. This approach strengthens two-electrode measurements which are much more economical on cell/stack designs and easier to perform considering simplified commercial RFB stacks. In reality, some of the cell component properties investigated herein are related, for a given electrode/membrane/electrolyte design. Although we investigated these cell component properties/parameters herein in isolation for a detailed understanding of their influences, it is noteworthy that there are valid practical scenarios where individual component properties can solely/largely be varied without significantly affecting others. Table 5 summarizes some possible scenarios with some relevant literature about EIS in two-electrode full-cell setups. 4 Conclusions Electrochemical impedance spectroscopy (EIS) is a powerful technique that can provide insights into prevalent (electro)chemical processes in batteries like RFBs. Effective utilization and interpretation of characteristic EIS data necessitate distinguishing influences of respective cell component properties/parameters on prevalent processes. Given performing two-electrode EIS is more economical on commercial cell/stack designs and easier to perform, we present a combination of both equivalent circuit modeling and Multiphysics modeling (on a full VRFB cell) to directly probe relevant cell component parameters/properties governing the transport and kinetic behavior of the electrochemical system under flowing electrolyte conditions. This combinatory approach helps strengthen the understanding of characteristic EIS spectral data beyond the scope of only applying equivalent circuit models which is more common in literature. Prior to deducing observations from EIS spectral data produced and analyzed in frequency-domain, we performed modeling consistency analysis to stress often neglected system linearity and stability checks (in time-domain) before valid EIS data can be obtained or relied upon. Particularly, we find that the ratio of total-electrolyte-volume to electrode-wetted-volume, the EIS probing signal amplitude, and flow rate are among critical factors of consideration for reliable EIS data at near-steady state of charge (SOC). For such full-cell VRFB, Nyquist plots are noticed to comprise two main distinct regions in the EIS data, a profound semi-circle towards lower frequency and an incomplete semi-circle at the higher frequency end. We find that the lesser discussed incomplete semi-circle (often overlooked and combined with the profound semi-circle in literature) actually helps deconstruct the so-called charge transport resistance. Furthermore, sensitivity analysis of equivalent circuit parameter elements used to fit EIS data characterizing a steady state of charge (obtained from Multiphysics modeling) shows that electrode morphological properties have a major influence on observed EIS spectral data, followed by membrane porosity, and then electrolyte inflow conditions. The practical implications of an improved understanding of EIS spectra with solitary cell component property/parameter variations can aid cell/stack diagnostics and targeted development/improvement efforts. CRediT authorship contribution statement Ayoob Alhammadi: Writing – original draft, Visualization, Investigation. Abdulmonem Fetyan: Writing – original draft. Rahmat Agung Susantyoko: Writing – original draft. Ibrahim Mustafa: Writing – original draft. Musbaudeen O. Bamgbopa: Writing – review & editing, Writing – original draft, Validation, Supervision, Software, Methodology, Investigation, Conceptualization. Declaration of competing interest The authors declare that they have no known competing financial interests or personal relationships that could have appeared to influence the work reported in this paper. Acknowledgments This research was sponsored by the Dubai Electricity and Water Authority (DEWA) R&D centre, Dubai, United Arab Emirates. Appendix A Supplementary material Supplementary data to this article can be found online at https://doi.org/10.1016/j.jechem.2024.11.007. Appendix A Supplementary material The following are the Supplementary data to this article: Supplementary Data 1 References [1] L. Andrzej Electrochemical Impedance Spectroscopy and Its Applications 1st ed. 2014 Springer New York, NY L. Andrzej, Electrochemical Impedance Spectroscopy and Its Applications, 1st ed., Springer, New York, NY, 2014. [2] A. Trovò W. Zamboni M. Guarnieri J. Power Sources 493 2021 229703 A. Trovò, W. Zamboni, M. Guarnieri, Journal of Power Sources 493 (2021) 229703. [3] M. Guarnieri A. Trovò A. D’Anzi P. Alotto Appl. Energy 230 2018 1425 1434 M. Guarnieri, A. Trovò, A. D’Anzi, P. Alotto, Applied Energy 230 (2018) 1425–1434. [4] D. Manschke T. Seipp S. Berthold K.A. Friedrich Batteries 4 2018 58 D. Manschke, T. Seipp, S. Berthold, K.A. Friedrich, Batteries 4 (2018) 58. [5] J. Schneider T. Tichter P. Khadke R. Zeis C. Roth Electrochim. Acta 336 2020 135510 J. Schneider, T. Tichter, P. Khadke, R. Zeis, C. Roth, Electrochimica Acta 336 (2020) 135510. [6] Y. Li D. Kienbaum T. Lüth M. Skyllas-Kazacos J. Storage Mater. 90 2024 111790 Y. Li, D. Kienbaum, T. Lüth, M. Skyllas-Kazacos, Journal of Energy Storage 90 (2024) 111790. [7] M. Fleischmann S. Pons J. Daschbach J. Electroanalytical Chem. Interfacial Electrochem. 317 1991 1 26 M. Fleischmann, S. Pons, J. Daschbach, J. Electroanalytical Chem. Interfacial Electrochem. 317 (1991) 1–26. [8] P. Piela R. Fields P. Zelenay J. Electrochem. Soc. 153 2006 A1902 P. Piela, R. Fields, P. Zelenay, J. Electrochem. Soc. 153 (2006) A1902. [9] M.K. Jeon J.Y. Won K.S. Oh K.R. Lee S.I. Woo Electrochim. Acta 53 2007 447 452 M.K. Jeon, J.Y. Won, K.S. Oh, K.R. Lee, S.I. Woo, Electrochim. Acta 53 (2007) 447–452. [10] Q. Huang, B. Li, C. Song, Z. Jiang, A. Platt, K. Fatih, C. Bock, D. Jang, D. Reed, J. Electrochem. 167 Soc. (2020) 160541. [11] P. Mazur J. Mrlik J. Charvat J. Pocedic J. Vrana J. Dundalek J. Kosek MethodsX 6 2019 534 539 P. Mazur, J. Mrlik, J. Charvat, J. Pocedic, J. Vrana, J. Dundalek, J. Kosek, MethodsX 6 (2019) 534–539. [12] J. Schneider E. Bulczak G.A. El-Nagar M. Gebhard P. Kubella M. Schnucklake A. Fetyan I. Derr C. Roth Batteries 5 2019 16 J. Schneider, E. Bulczak, G.A. El-Nagar, M. Gebhard, P. Kubella, M. Schnucklake, A. Fetyan, I. Derr, C. Roth, Batteries 5 (2019) 16. [13] M.-A. Goulet M. Skyllas-Kazacos E. Kjeang Carbon 101 2016 390 398 M.-A. Goulet, M. Skyllas-Kazacos, E. Kjeang, Carbon 101 (2016) 390–398. [14] I. Mustafa R. Susantyoko C.-H. Wu F. Ahmed R. Hashaikeh F. Almarzooqi S. Almheiri Sci. Rep. 9 2019 1 14 I. Mustafa, R. Susantyoko, C.-H. Wu, F. Ahmed, R. Hashaikeh, F. Almarzooqi, S. Almheiri, Sci Rep 9 (2019) 1–14. [15] O. Mark E., T. Bernard, in: Electrochemical Impedance Spectroscopy, John Wiley & Sons, Ltd, 2008. Pp. 153–162. [16] A. Andisetiawan A. Alhammadi A. Fetyan M.O. Bamgbopa J. Electrochem. Soc. 170 2023 120526 A. Andisetiawan, A. Alhammadi, A. Fetyan, M.O. Bamgbopa, J. Electrochem. Soc. 170 (2023) 120526. [17] A.J. Bard L.R. Faulkner Electrochemical Methods: Fundamentals and Applications 2nd ed. 2000 Wiley New York A.J. Bard, L.R. Faulkner, Electrochemical Methods: Fundamentals and Applications, 2nd ed., Wiley, New York, 2000. [18] B. Padha S. Verma P. Mahajan S. Arya J. Electrochem. Sci. Technol 13 2022 167 176 B. Padha, S. Verma, P. Mahajan, S. Arya, J. Electrochem. Sci. Technol 13 (2022) 167–176. [19] C. Brunetto A. Moschetto G. Tina Electr. Pow. Syst. Res. 79 2009 17 26 C. Brunetto, A. Moschetto, G. Tina, Electric Power Systems Research 79 (2009) 17–26. [20] S. Asghari A. Mokmeli M. Samavati Int. J. Hydrogen Energy 35 2010 9283 9290 S. Asghari, A. Mokmeli, M. Samavati, International Journal of Hydrogen Energy 35 (2010) 9283–9290. [21] H. Sun M. Yu Q. Li K. Zhuang J. Li S. Almheiri X. Zhang Energy 168 2019 693 701 H. Sun, M. Yu, Q. Li, K. Zhuang, J. Li, S. Almheiri, X. Zhang, Energy 168 (2019) 693–701. [22] X.-.-Z. Yuan C. Song H. Wang J. Zhang Electrochemical Impedance Spectroscopy in PEM Fuel Cells: Fundamentals and Applications 2010 Springer London, London 139 192 X.-Z. Yuan, C. Song, H. Wang, J. Zhang, eds., in: Electrochemical Impedance Spectroscopy in PEM Fuel Cells: Fundamentals and Applications, Springer London, London, 2010, pp. 139–192. [23] A. Fetyan M.O. Bamgbopa A. Andisetiawan A. Alhammadi R.A. Susantyoko Batteries Supercaps 6 2023 e202300301 A. Fetyan, M.O. Bamgbopa, A. Andisetiawan, A. Alhammadi, R.A. Susantyoko, Batteries & Supercaps 6 (2023) e202300301. [24] K.W. Knehr E.C. Kumbur Electrochem. Commun. 23 2012 76 79 K.W. Knehr, E.C. Kumbur, Electrochemistry Communications 23 (2012) 76–79. [25] S. Ressel F. Bill L. Holtz N. Janshen A. Chica T. Flower C. Weidlich T. Struckmann J. Power Sources 378 2018 776 783 S. Ressel, F. Bill, L. Holtz, N. Janshen, A. Chica, T. Flower, C. Weidlich, T. Struckmann, Journal of Power Sources 378 (2018) 776–783. [26] X. Li J. Xiong A. Tang Y. Qin J. Liu C. Yan Appl. Energy 211 2018 1050 1059 X. Li, J. Xiong, A. Tang, Y. Qin, J. Liu, C. Yan, Applied Energy 211 (2018) 1050–1059. [27] P.Á. Prieto-Díaz A.A. Maurice M. Vera J. Storage Mater. 94 2024 112429 P.Á. Prieto-Díaz, A.A. Maurice, M. Vera, Journal of Energy Storage 94 (2024) 112429. [28] Q. Xu T.S. Zhao C. Zhang Appl. Energy 130 2014 139 147 Q. Xu, T.S. Zhao, C. Zhang, Applied Energy 130 (2014) 139–147. [29] X.-Z. Yuan C. Song H. Wang J. Zhang Electrochemical Impedance Spectroscopy in PEM Fuel Cells 1st ed. 2010 Springer London, London X.-Z. Yuan, C. Song, H. Wang, J. Zhang, Electrochemical Impedance Spectroscopy in PEM Fuel Cells, 1st ed., Springer London, London, 2010. [30] A. Fischer J. Jindra H. Wendt J. Appl. Electrochem. 28 1998 277 282 A. Fischer, J. Jindra, H. Wendt, Journal of Applied Electrochemistry 28 (1998) 277–282. [31] T.J.P. Freire E.R. Gonzalez J. Electroanal. Chem. 503 2001 57 68 T.J.P. Freire, E.R. Gonzalez, Journal of Electroanalytical Chemistry 503 (2001) 57–68. [32] T. Romero-Castañón L.G. Arriaga U. Cano-Castillo J. Power Sources 118 2003 179 182 T. Romero-Castañón, L.G. Arriaga, U. Cano-Castillo, Journal of Power Sources 118 (2003) 179–182. [33] T.E. Springer T.A. Zawodzinski M.S. Wilson S. Gottesfeld J. Electrochem. Soc. 143 1996 587 T.E. Springer, T.A. Zawodzinski, M.S. Wilson, S. Gottesfeld, J. Electrochem. Soc. 143 (1996) 587. [34] M.C. Lefebvre R.B. Martin P.G. Pickup Electrochem. Solid-State Lett. 2 1999 259 M.C. Lefebvre, R.B. Martin, P.G. Pickup, Electrochem. Solid-State Lett. 2 (1999) 259. [35] A.M. Pezeshki R.L. Sacci F.M. Delnick D.S. Aaron M.M. Mench Electrochim. Acta 229 2017 261 270 A.M. Pezeshki, R.L. Sacci, F.M. Delnick, D.S. Aaron, M.M. Mench, Electrochimica Acta 229 (2017) 261–270.",
+      "scopus-id": "85210121281",
+      "coredata": {
+        "eid": "1-s2.0-S2095495624007666",
+        "dc:description": "Electrochemical impedance spectroscopy (EIS) is a robust characterization method to probe prevalent (electro)chemical processes in an electrochemical system. Despite its extensive utilization in fuel cell research, the application of EIS in redox flow battery systems particularly for simplified two-electrode full-cell configurations is more limited. Herein we attempt to strengthen the understanding of characteristic EIS data of vanadium redox flow batteries by a combination of equivalent circuit modeling with a validated Multiphysics model analyzed under hydrodynamic conditions in frequency domain. Following a highlight of system linearity and stability concerns for EIS in redox flow batteries, we specifically use our combinatory approach to investigate the effects of different cell component properties on observed galvanostatic EIS spectra and accompanying fitted equivalent circuit element parameters. For the investigated two-electrode full-cell flow battery configuration with the same electrode material on both sides, the EIS spectral data is observed to be dominated by different mass or charge transport processes at different ends of the spectrum. Sensitivity analyses of both obtained EIS spectral data and fitted circuit elements parameters show that electrode morphological properties, membrane porosity, and electrolyte inflow conditions predominantly define the EIS spectral data. Insights from the type of analyses performed herein can facilitate flow battery cell/stack diagnostics and targeted performance improvement efforts.",
+        "openArchiveArticle": "false",
+        "prism:coverDate": "2025-03-31",
+        "openaccessUserLicense": null,
+        "prism:aggregationType": "Journal",
+        "prism:url": "https://api.elsevier.com/content/article/pii/S2095495624007666",
+        "dc:creator": [
+          {
+            "@_fa": "true",
+            "$": "Alhammadi, Ayoob"
+          },
+          {
+            "@_fa": "true",
+            "$": "Fetyan, Abdulmonem"
+          },
+          {
+            "@_fa": "true",
+            "$": "Agung Susantyoko, Rahmat"
+          },
+          {
+            "@_fa": "true",
+            "$": "Mustafa, Ibrahim"
+          },
+          {
+            "@_fa": "true",
+            "$": "Bamgbopa, Musbaudeen O."
+          }
+        ],
+        "link": [
+          {
+            "@_fa": "true",
+            "@rel": "self",
+            "@href": "https://api.elsevier.com/content/article/pii/S2095495624007666"
+          },
+          {
+            "@_fa": "true",
+            "@rel": "scidir",
+            "@href": "https://www.sciencedirect.com/science/article/pii/S2095495624007666"
+          }
+        ],
+        "dc:format": "application/json",
+        "openaccessType": null,
+        "pii": "S2095-4956(24)00766-6",
+        "prism:volume": "102",
+        "prism:publisher": "Science Press and Dalian Institute of Chemical Physics, Chinese Academy of Sciences. Published by ELSEVIER B.V. and Science Press. All rights are reserved, including those for text and data mining, AI training, and similar technologies.",
+        "dc:title": "Understanding characteristic electrochemical impedance spectral data of redox flow batteries with multiphysics modeling",
+        "prism:copyright": "© 2024 Science Press and Dalian Institute of Chemical Physics, Chinese Academy of Sciences. Published by ELSEVIER B.V. and Science Press. All rights are reserved, including those for text and data mining, AI training, and similar technologies.",
+        "openaccess": "0",
+        "prism:issn": "20954956",
+        "dcterms:subject": [
+          {
+            "@_fa": "true",
+            "$": "Electrochemical impedance spectroscopy"
+          },
+          {
+            "@_fa": "true",
+            "$": "Redox Flow battery"
+          },
+          {
+            "@_fa": "true",
+            "$": "Multiphysics modeling"
+          },
+          {
+            "@_fa": "true",
+            "$": "Equivalent circuit"
+          },
+          {
+            "@_fa": "true",
+            "$": "Full cell"
+          }
+        ],
+        "openaccessArticle": "false",
+        "prism:publicationName": "Journal of Energy Chemistry",
+        "openaccessSponsorType": null,
+        "prism:pageRange": "329-339",
+        "prism:endingPage": "339",
+        "pubType": "fla",
+        "prism:coverDisplayDate": "March 2025",
+        "prism:doi": "10.1016/j.jechem.2024.11.007",
+        "prism:startingPage": "329",
+        "dc:identifier": "doi:10.1016/j.jechem.2024.11.007",
+        "openaccessSponsorName": null
+      },
+      "objects": {
+        "object": [
+          {
+            "@category": "standard",
+            "@height": "200",
+            "@width": "402",
+            "@_fa": "true",
+            "$": "https://api.elsevier.com/content/object/eid/1-s2.0-S2095495624007666-ga1.jpg?httpAccept=%2A%2F%2A",
+            "@multimediatype": "JPEG image file",
+            "@type": "IMAGE-DOWNSAMPLED",
+            "@size": "32561",
+            "@ref": "ga1",
+            "@mimetype": "image/jpeg"
+          },
+          {
+            "@category": "standard",
+            "@height": "499",
+            "@width": "609",
+            "@_fa": "true",
+            "$": "https://api.elsevier.com/content/object/eid/1-s2.0-S2095495624007666-gr1.jpg?httpAccept=%2A%2F%2A",
+            "@multimediatype": "JPEG image file",
+            "@type": "IMAGE-DOWNSAMPLED",
+            "@size": "62750",
+            "@ref": "gr1",
+            "@mimetype": "image/jpeg"
+          },
+          {
+            "@category": "standard",
+            "@height": "408",
+            "@width": "609",
+            "@_fa": "true",
+            "$": "https://api.elsevier.com/content/object/eid/1-s2.0-S2095495624007666-gr2.jpg?httpAccept=%2A%2F%2A",
+            "@multimediatype": "JPEG image file",
+            "@type": "IMAGE-DOWNSAMPLED",
+            "@size": "97331",
+            "@ref": "gr2",
+            "@mimetype": "image/jpeg"
+          },
+          {
+            "@category": "standard",
+            "@height": "848",
+            "@width": "685",
+            "@_fa": "true",
+            "$": "https://api.elsevier.com/content/object/eid/1-s2.0-S2095495624007666-gr3.jpg?httpAccept=%2A%2F%2A",
+            "@multimediatype": "JPEG image file",
+            "@type": "IMAGE-DOWNSAMPLED",
+            "@size": "154413",
+            "@ref": "gr3",
+            "@mimetype": "image/jpeg"
+          },
+          {
+            "@category": "standard",
+            "@height": "361",
+            "@width": "751",
+            "@_fa": "true",
+            "$": "https://api.elsevier.com/content/object/eid/1-s2.0-S2095495624007666-gr4.jpg?httpAccept=%2A%2F%2A",
+            "@multimediatype": "JPEG image file",
+            "@type": "IMAGE-DOWNSAMPLED",
+            "@size": "64114",
+            "@ref": "gr4",
+            "@mimetype": "image/jpeg"
+          },
+          {
+            "@category": "standard",
+            "@height": "485",
+            "@width": "738",
+            "@_fa": "true",
+            "$": "https://api.elsevier.com/content/object/eid/1-s2.0-S2095495624007666-gr5.jpg?httpAccept=%2A%2F%2A",
+            "@multimediatype": "JPEG image file",
+            "@type": "IMAGE-DOWNSAMPLED",
+            "@size": "80793",
+            "@ref": "gr5",
+            "@mimetype": "image/jpeg"
+          },
+          {
+            "@category": "standard",
+            "@height": "475",
+            "@width": "515",
+            "@_fa": "true",
+            "$": "https://api.elsevier.com/content/object/eid/1-s2.0-S2095495624007666-gr6.jpg?httpAccept=%2A%2F%2A",
+            "@multimediatype": "JPEG image file",
+            "@type": "IMAGE-DOWNSAMPLED",
+            "@size": "45383",
+            "@ref": "gr6",
+            "@mimetype": "image/jpeg"
+          },
+          {
+            "@category": "thumbnail",
+            "@height": "109",
+            "@width": "219",
+            "@_fa": "true",
+            "$": "https://api.elsevier.com/content/object/eid/1-s2.0-S2095495624007666-ga1.sml?httpAccept=%2A%2F%2A",
+            "@multimediatype": "GIF image file",
+            "@type": "IMAGE-THUMBNAIL",
+            "@size": "10254",
+            "@ref": "ga1",
+            "@mimetype": "image/gif"
+          },
+          {
+            "@category": "thumbnail",
+            "@height": "164",
+            "@width": "200",
+            "@_fa": "true",
+            "$": "https://api.elsevier.com/content/object/eid/1-s2.0-S2095495624007666-gr1.sml?httpAccept=%2A%2F%2A",
+            "@multimediatype": "GIF image file",
+            "@type": "IMAGE-THUMBNAIL",
+            "@size": "10508",
+            "@ref": "gr1",
+            "@mimetype": "image/gif"
+          },
+          {
+            "@category": "thumbnail",
+            "@height": "147",
+            "@width": "219",
+            "@_fa": "true",
+            "$": "https://api.elsevier.com/content/object/eid/1-s2.0-S2095495624007666-gr2.sml?httpAccept=%2A%2F%2A",
+            "@multimediatype": "GIF image file",
+            "@type": "IMAGE-THUMBNAIL",
+            "@size": "13071",
+            "@ref": "gr2",
+            "@mimetype": "image/gif"
+          },
+          {
+            "@category": "thumbnail",
+            "@height": "163",
+            "@width": "132",
+            "@_fa": "true",
+            "$": "https://api.elsevier.com/content/object/eid/1-s2.0-S2095495624007666-gr3.sml?httpAccept=%2A%2F%2A",
+            "@multimediatype": "GIF image file",
+            "@type": "IMAGE-THUMBNAIL",
+            "@size": "8643",
+            "@ref": "gr3",
+            "@mimetype": "image/gif"
+          },
+          {
+            "@category": "thumbnail",
+            "@height": "105",
+            "@width": "219",
+            "@_fa": "true",
+            "$": "https://api.elsevier.com/content/object/eid/1-s2.0-S2095495624007666-gr4.sml?httpAccept=%2A%2F%2A",
+            "@multimediatype": "GIF image file",
+            "@type": "IMAGE-THUMBNAIL",
+            "@size": "7133",
+            "@ref": "gr4",
+            "@mimetype": "image/gif"
+          },
+          {
+            "@category": "thumbnail",
+            "@height": "144",
+            "@width": "219",
+            "@_fa": "true",
+            "$": "https://api.elsevier.com/content/object/eid/1-s2.0-S2095495624007666-gr5.sml?httpAccept=%2A%2F%2A",
+            "@multimediatype": "GIF image file",
+            "@type": "IMAGE-THUMBNAIL",
+            "@size": "9577",
+            "@ref": "gr5",
+            "@mimetype": "image/gif"
+          },
+          {
+            "@category": "thumbnail",
+            "@height": "164",
+            "@width": "178",
+            "@_fa": "true",
+            "$": "https://api.elsevier.com/content/object/eid/1-s2.0-S2095495624007666-gr6.sml?httpAccept=%2A%2F%2A",
+            "@multimediatype": "GIF image file",
+            "@type": "IMAGE-THUMBNAIL",
+            "@size": "7037",
+            "@ref": "gr6",
+            "@mimetype": "image/gif"
+          },
+          {
+            "@category": "high",
+            "@height": "531",
+            "@width": "1069",
+            "@_fa": "true",
+            "$": "https://api.elsevier.com/content/object/eid/1-s2.0-S2095495624007666-ga1_lrg.jpg?httpAccept=%2A%2F%2A",
+            "@multimediatype": "JPEG image file",
+            "@type": "IMAGE-HIGH-RES",
+            "@size": "93565",
+            "@ref": "ga1",
+            "@mimetype": "image/jpeg"
+          },
+          {
+            "@category": "high",
+            "@height": "2211",
+            "@width": "2697",
+            "@_fa": "true",
+            "$": "https://api.elsevier.com/content/object/eid/1-s2.0-S2095495624007666-gr1_lrg.jpg?httpAccept=%2A%2F%2A",
+            "@multimediatype": "JPEG image file",
+            "@type": "IMAGE-HIGH-RES",
+            "@size": "332224",
+            "@ref": "gr1",
+            "@mimetype": "image/jpeg"
+          },
+          {
+            "@category": "high",
+            "@height": "1806",
+            "@width": "2697",
+            "@_fa": "true",
+            "$": "https://api.elsevier.com/content/object/eid/1-s2.0-S2095495624007666-gr2_lrg.jpg?httpAccept=%2A%2F%2A",
+            "@multimediatype": "JPEG image file",
+            "@type": "IMAGE-HIGH-RES",
+            "@size": "539148",
+            "@ref": "gr2",
+            "@mimetype": "image/jpeg"
+          },
+          {
+            "@category": "high",
+            "@height": "3751",
+            "@width": "3031",
+            "@_fa": "true",
+            "$": "https://api.elsevier.com/content/object/eid/1-s2.0-S2095495624007666-gr3_lrg.jpg?httpAccept=%2A%2F%2A",
+            "@multimediatype": "JPEG image file",
+            "@type": "IMAGE-HIGH-RES",
+            "@size": "785796",
+            "@ref": "gr3",
+            "@mimetype": "image/jpeg"
+          },
+          {
+            "@category": "high",
+            "@height": "1601",
+            "@width": "3327",
+            "@_fa": "true",
+            "$": "https://api.elsevier.com/content/object/eid/1-s2.0-S2095495624007666-gr4_lrg.jpg?httpAccept=%2A%2F%2A",
+            "@multimediatype": "JPEG image file",
+            "@type": "IMAGE-HIGH-RES",
+            "@size": "487685",
+            "@ref": "gr4",
+            "@mimetype": "image/jpeg"
+          },
+          {
+            "@category": "high",
+            "@height": "2149",
+            "@width": "3268",
+            "@_fa": "true",
+            "$": "https://api.elsevier.com/content/object/eid/1-s2.0-S2095495624007666-gr5_lrg.jpg?httpAccept=%2A%2F%2A",
+            "@multimediatype": "JPEG image file",
+            "@type": "IMAGE-HIGH-RES",
+            "@size": "512926",
+            "@ref": "gr5",
+            "@mimetype": "image/jpeg"
+          },
+          {
+            "@category": "high",
+            "@height": "2104",
+            "@width": "2283",
+            "@_fa": "true",
+            "$": "https://api.elsevier.com/content/object/eid/1-s2.0-S2095495624007666-gr6_lrg.jpg?httpAccept=%2A%2F%2A",
+            "@multimediatype": "JPEG image file",
+            "@type": "IMAGE-HIGH-RES",
+            "@size": "230988",
+            "@ref": "gr6",
+            "@mimetype": "image/jpeg"
+          },
+          {
+            "@category": "standard",
+            "@_fa": "true",
+            "$": "https://api.elsevier.com/content/object/eid/1-s2.0-S2095495624007666-mmc1.docx?httpAccept=%2A%2F%2A",
+            "@multimediatype": "Microsoft Word file",
+            "@type": "APPLICATION",
+            "@size": "46208",
+            "@ref": "mmc1",
+            "@mimetype": "application/word"
+          },
+          {
+            "@category": "thumbnail",
+            "@_fa": "true",
+            "$": "https://api.elsevier.com/content/object/eid/1-s2.0-S2095495624007666-si1.svg?httpAccept=%2A%2F%2A",
+            "@multimediatype": "Scalable Vector Graphics file",
+            "@type": "ALTIMG",
+            "@size": "5814",
+            "@ref": "si1",
+            "@mimetype": "image/svg+xml"
+          },
+          {
+            "@category": "thumbnail",
+            "@_fa": "true",
+            "$": "https://api.elsevier.com/content/object/eid/1-s2.0-S2095495624007666-si10.svg?httpAccept=%2A%2F%2A",
+            "@multimediatype": "Scalable Vector Graphics file",
+            "@type": "ALTIMG",
+            "@size": "8199",
+            "@ref": "si10",
+            "@mimetype": "image/svg+xml"
+          },
+          {
+            "@category": "thumbnail",
+            "@_fa": "true",
+            "$": "https://api.elsevier.com/content/object/eid/1-s2.0-S2095495624007666-si11.svg?httpAccept=%2A%2F%2A",
+            "@multimediatype": "Scalable Vector Graphics file",
+            "@type": "ALTIMG",
+            "@size": "1891",
+            "@ref": "si11",
+            "@mimetype": "image/svg+xml"
+          },
+          {
+            "@category": "thumbnail",
+            "@_fa": "true",
+            "$": "https://api.elsevier.com/content/object/eid/1-s2.0-S2095495624007666-si12.svg?httpAccept=%2A%2F%2A",
+            "@multimediatype": "Scalable Vector Graphics file",
+            "@type": "ALTIMG",
+            "@size": "3236",
+            "@ref": "si12",
+            "@mimetype": "image/svg+xml"
+          },
+          {
+            "@category": "thumbnail",
+            "@_fa": "true",
+            "$": "https://api.elsevier.com/content/object/eid/1-s2.0-S2095495624007666-si13.svg?httpAccept=%2A%2F%2A",
+            "@multimediatype": "Scalable Vector Graphics file",
+            "@type": "ALTIMG",
+            "@size": "3480",
+            "@ref": "si13",
+            "@mimetype": "image/svg+xml"
+          },
+          {
+            "@category": "thumbnail",
+            "@_fa": "true",
+            "$": "https://api.elsevier.com/content/object/eid/1-s2.0-S2095495624007666-si14.svg?httpAccept=%2A%2F%2A",
+            "@multimediatype": "Scalable Vector Graphics file",
+            "@type": "ALTIMG",
+            "@size": "3187",
+            "@ref": "si14",
+            "@mimetype": "image/svg+xml"
+          },
+          {
+            "@category": "thumbnail",
+            "@_fa": "true",
+            "$": "https://api.elsevier.com/content/object/eid/1-s2.0-S2095495624007666-si15.svg?httpAccept=%2A%2F%2A",
+            "@multimediatype": "Scalable Vector Graphics file",
+            "@type": "ALTIMG",
+            "@size": "1708",
+            "@ref": "si15",
+            "@mimetype": "image/svg+xml"
+          },
+          {
+            "@category": "thumbnail",
+            "@_fa": "true",
+            "$": "https://api.elsevier.com/content/object/eid/1-s2.0-S2095495624007666-si16.svg?httpAccept=%2A%2F%2A",
+            "@multimediatype": "Scalable Vector Graphics file",
+            "@type": "ALTIMG",
+            "@size": "2234",
+            "@ref": "si16",
+            "@mimetype": "image/svg+xml"
+          },
+          {
+            "@category": "thumbnail",
+            "@_fa": "true",
+            "$": "https://api.elsevier.com/content/object/eid/1-s2.0-S2095495624007666-si17.svg?httpAccept=%2A%2F%2A",
+            "@multimediatype": "Scalable Vector Graphics file",
+            "@type": "ALTIMG",
+            "@size": "2619",
+            "@ref": "si17",
+            "@mimetype": "image/svg+xml"
+          },
+          {
+            "@category": "thumbnail",
+            "@_fa": "true",
+            "$": "https://api.elsevier.com/content/object/eid/1-s2.0-S2095495624007666-si2.svg?httpAccept=%2A%2F%2A",
+            "@multimediatype": "Scalable Vector Graphics file",
+            "@type": "ALTIMG",
+            "@size": "6554",
+            "@ref": "si2",
+            "@mimetype": "image/svg+xml"
+          },
+          {
+            "@category": "thumbnail",
+            "@_fa": "true",
+            "$": "https://api.elsevier.com/content/object/eid/1-s2.0-S2095495624007666-si3.svg?httpAccept=%2A%2F%2A",
+            "@multimediatype": "Scalable Vector Graphics file",
+            "@type": "ALTIMG",
+            "@size": "5498",
+            "@ref": "si3",
+            "@mimetype": "image/svg+xml"
+          },
+          {
+            "@category": "thumbnail",
+            "@_fa": "true",
+            "$": "https://api.elsevier.com/content/object/eid/1-s2.0-S2095495624007666-si4.svg?httpAccept=%2A%2F%2A",
+            "@multimediatype": "Scalable Vector Graphics file",
+            "@type": "ALTIMG",
+            "@size": "6240",
+            "@ref": "si4",
+            "@mimetype": "image/svg+xml"
+          },
+          {
+            "@category": "thumbnail",
+            "@_fa": "true",
+            "$": "https://api.elsevier.com/content/object/eid/1-s2.0-S2095495624007666-si5.svg?httpAccept=%2A%2F%2A",
+            "@multimediatype": "Scalable Vector Graphics file",
+            "@type": "ALTIMG",
+            "@size": "11212",
+            "@ref": "si5",
+            "@mimetype": "image/svg+xml"
+          },
+          {
+            "@category": "thumbnail",
+            "@_fa": "true",
+            "$": "https://api.elsevier.com/content/object/eid/1-s2.0-S2095495624007666-si6.svg?httpAccept=%2A%2F%2A",
+            "@multimediatype": "Scalable Vector Graphics file",
+            "@type": "ALTIMG",
+            "@size": "18788",
+            "@ref": "si6",
+            "@mimetype": "image/svg+xml"
+          },
+          {
+            "@category": "thumbnail",
+            "@_fa": "true",
+            "$": "https://api.elsevier.com/content/object/eid/1-s2.0-S2095495624007666-si7.svg?httpAccept=%2A%2F%2A",
+            "@multimediatype": "Scalable Vector Graphics file",
+            "@type": "ALTIMG",
+            "@size": "15722",
+            "@ref": "si7",
+            "@mimetype": "image/svg+xml"
+          },
+          {
+            "@category": "thumbnail",
+            "@_fa": "true",
+            "$": "https://api.elsevier.com/content/object/eid/1-s2.0-S2095495624007666-si8.svg?httpAccept=%2A%2F%2A",
+            "@multimediatype": "Scalable Vector Graphics file",
+            "@type": "ALTIMG",
+            "@size": "8278",
+            "@ref": "si8",
+            "@mimetype": "image/svg+xml"
+          },
+          {
+            "@category": "thumbnail",
+            "@_fa": "true",
+            "$": "https://api.elsevier.com/content/object/eid/1-s2.0-S2095495624007666-si9.svg?httpAccept=%2A%2F%2A",
+            "@multimediatype": "Scalable Vector Graphics file",
+            "@type": "ALTIMG",
+            "@size": "1960",
+            "@ref": "si9",
+            "@mimetype": "image/svg+xml"
+          }
+        ]
+      },
+      "link": {
+        "@rel": "abstract",
+        "@href": "https://api.elsevier.com/content/abstract/scopus_id/85210121281"
+      }
+    }
+  }
+}

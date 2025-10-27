@@ -1,0 +1,460 @@
+{
+  "metadata": {
+    "title": "Rational design of nitrogen-doped transition metal-N<ce:inf loc=post>4</ce:inf>-graphene single atom catalysts for hydrogen evolution reaction: Theoretical calculations and machine learning",
+    "authors": "; ; ",
+    "journal": "Molecular Catalysis",
+    "date": "2025-09-30",
+    "doi": "10.1016/j.mcat.2025.115286",
+    "abstract": "",
+    "uri": "https://api.elsevier.com/content/article/pii/S2468823125004754",
+    "pii": "S2468823125004754"
+  },
+  "fulltext": {
+    "full-text-retrieval-response": {
+      "scopus-eid": "2-s2.0-105007763318",
+      "originalText": "serial JL 315758 291210 291744 291790 291809 31 Molecular Catalysis MOLECULARCATALYSIS 2025-06-14 2025-06-14 2025-06-14 2025-06-14 2025-09-25T07:56:26 1-s2.0-S2468823125004754 S2468-8231(25)00475-4 S2468823125004754 10.1016/j.mcat.2025.115286 S300 S300.1 FULL-TEXT 1-s2.0-S2468823125X00110 2025-09-25T07:10:46.658857Z 0 0 20250901 20250930 2025 2025-06-14T03:35:45.555042Z absattachment articleinfo articlenumber articletitlenorm authfirstinitialnorm authfirstsurnamenorm cid cids contenttype copyright crossmark dateloaded dateloadedtxt datesearch datesort dateupdated dco docsubtype doctype doi eid ewtransactionid hubeid indexeddate issn issnnorm itemstage itemtransactionid itemweight openaccess openarchive pg pgfirst pii piinorm pubdateend pubdatestart pubdatetxt pubyr sectiontitle sortorder srctitle srctitlenorm srctype ssids alllist content subj subheadings suppl tomb volfirst volissue volumelist webpdf webpdfpagecount yearnav figure e-component body mmlmath acknowledge affil appendices articletitle auth authfirstini authfull authkeywords authlast grantnumber grantsponsor highlightsabst orcid primabst ref specialabst 2468-8231 24688231 true 584 584 C Volume 584 27 115286 115286 115286 202509 September 2025 2025-09-01 2025-09-30 2025 Regular Papers article fla © 2025 Elsevier B.V. All rights are reserved, including those for text and data mining, AI training, and similar technologies. RATIONALDESIGNNITROGENDOPEDTRANSITIONMETALN4GRAPHENESINGLEATOMCATALYSTSFORHYDROGENEVOLUTIONREACTIONTHEORETICALCALCULATIONSMACHINELEARNING XU W 1 Introduction 2 Computational details 2.1 Calculations of density functional theory 2.2 Catalyst models 2.3 Machine learning 3 Results and discussion 3.1 Screening N-doped metal-NC SACs 3.2 Electronic structure analysis 3.3 Machine learning predicting △G *H values 4 Conclusions CRediT authorship contribution statement Acknowledgment Appendix Supplementary materials References TOMBOC 2022 2105680 G GAO 2024 9540 9549 Y PU 2020 21 Z FAN 2016 10667 L JIA 2017 1700017 Y LI 2023 141435 T CHEN 2024 2313307 W ZHANG 2022 6875 T SUN 2021 4498 4509 T ADLI 2021 1022 1032 N ZHU 2022 5792 5815 P YIN 2018 9382 9386 X ZHANG 2022 121750 W HOSSAIN 2019 1803689 M CHEN 2018 1800396 W FAN 2016 10667 L HE 2023 2206478 Y HUANG 2023 3550 3559 Y REN 2022 134270 M KRESSE 1996 15 50 G BLOCHL 1994 17953 17979 P NORSKOV 2005 J23 J26 J BEHLER 2011 074106 J WANG 2025 186 193 J AN 2023 144618 C HAO 2024 2406380 Q SHI 2024 2400 2409 X CHEN 2024 105 113 R LIU 2024 460 469 Y BOONPALIT 2023 12936 12945 K WANG 2024 159942 J WANG 2024 5961 5971 W XUX2025X115286 XUX2025X115286XW 2027-06-14T00:00:00.000Z 2027-06-14T00:00:00.000Z http://creativecommons.org/licenses/by-nc-nd/4.0/ © 2025 Elsevier B.V. All rights are reserved, including those for text and data mining, AI training, and similar technologies. 2025-06-16T10:47:01.272Z http://vtw.elsevier.com/data/voc/AddOnTypes/50.7/aggregated-refined Chongqing Municipal Education Commission of China KJQN202400825 Chongqing Municipal Education Commission http://data.elsevier.com/vocabulary/SciValFunders/501100007957 http://sws.geonames.org/1814991 Chongqing Technology and Business University yjscxx2024-284-31 Chongqing Technology and Business University http://data.elsevier.com/vocabulary/SciValFunders/501100004500 http://sws.geonames.org/1814991 This research was Supported by the Science and Technology Research Program of Chongqing Municipal Education Commission of China (Grant no. KJQN202400825 ). Jun-Ran Fang is thankful to her financial support from the Postgraduate Innovative Research Project of Chongqing Technology and Business University (Grant no. yjscxx2024-284-31 ). https://doi.org/10.15223/policy-017 https://doi.org/10.15223/policy-037 https://doi.org/10.15223/policy-012 https://doi.org/10.15223/policy-029 https://doi.org/10.15223/policy-004 item S2468-8231(25)00475-4 S2468823125004754 1-s2.0-S2468823125004754 10.1016/j.mcat.2025.115286 315758 2025-09-25T07:10:46.658857Z 2025-09-01 2025-09-30 1-s2.0-S2468823125004754-main.pdf https://s3-eu-west-1.amazonaws.com/prod-ucs-content-store-eu-west/content/pii:S2468823125004754/MAIN/application/pdf/56e9399a4ec4b1ad650e0d8523eeb7db/main.pdf main.pdf pdf true 6511120 MAIN 9 1-s2.0-S2468823125004754-main_1.png https://s3-eu-west-1.amazonaws.com/prod-ucs-content-store-eu-west/content/pii:S2468823125004754/PREVIEW/image/png/75b6f601d51e1170c4b4b5fd3c2c2ea0/main_1.png main_1.png png 58788 928 656 IMAGE-WEB-PDF 1 1-s2.0-S2468823125004754-gr1.jpg https://s3-eu-west-1.amazonaws.com/prod-ucs-content-store-eu-west/content/pii:S2468823125004754/gr1/DOWNSAMPLED/image/jpeg/8fa4f2275cb58a87013ae33f8b143e0a/gr1.jpg gr1 gr1.jpg jpg 145758 411 715 IMAGE-DOWNSAMPLED 1-s2.0-S2468823125004754-gr2.jpg https://s3-eu-west-1.amazonaws.com/prod-ucs-content-store-eu-west/content/pii:S2468823125004754/gr2/DOWNSAMPLED/image/jpeg/7429a571440ad46c4bf3fff5dbb44eb2/gr2.jpg gr2 gr2.jpg jpg 45700 307 470 IMAGE-DOWNSAMPLED 1-s2.0-S2468823125004754-ga1.jpg https://s3-eu-west-1.amazonaws.com/prod-ucs-content-store-eu-west/content/pii:S2468823125004754/ga1/DOWNSAMPLED/image/jpeg/247dd82385bf4f12cec4be0dda00d895/ga1.jpg ga1 true ga1.jpg jpg 50739 200 368 IMAGE-DOWNSAMPLED 1-s2.0-S2468823125004754-gr3.jpg https://s3-eu-west-1.amazonaws.com/prod-ucs-content-store-eu-west/content/pii:S2468823125004754/gr3/DOWNSAMPLED/image/jpeg/58a0cdc8e9b0bd6e8fcba01c1c88e061/gr3.jpg gr3 gr3.jpg jpg 37734 417 470 IMAGE-DOWNSAMPLED 1-s2.0-S2468823125004754-gr4.jpg https://s3-eu-west-1.amazonaws.com/prod-ucs-content-store-eu-west/content/pii:S2468823125004754/gr4/DOWNSAMPLED/image/jpeg/85341ea4d6ffb9c06698c3d1f47af4db/gr4.jpg gr4 gr4.jpg jpg 141866 407 470 IMAGE-DOWNSAMPLED 1-s2.0-S2468823125004754-gr5.jpg https://s3-eu-west-1.amazonaws.com/prod-ucs-content-store-eu-west/content/pii:S2468823125004754/gr5/DOWNSAMPLED/image/jpeg/414e93ffbaee309aa3ba577e191e4cad/gr5.jpg gr5 gr5.jpg jpg 137847 445 659 IMAGE-DOWNSAMPLED 1-s2.0-S2468823125004754-gr6.jpg https://s3-eu-west-1.amazonaws.com/prod-ucs-content-store-eu-west/content/pii:S2468823125004754/gr6/DOWNSAMPLED/image/jpeg/5f34af5be81aaefe34d66a589015f436/gr6.jpg gr6 gr6.jpg jpg 63140 431 734 IMAGE-DOWNSAMPLED 1-s2.0-S2468823125004754-gr7.jpg https://s3-eu-west-1.amazonaws.com/prod-ucs-content-store-eu-west/content/pii:S2468823125004754/gr7/DOWNSAMPLED/image/jpeg/76dfe80f1899ed9011ffabeecf6dd1bf/gr7.jpg gr7 gr7.jpg jpg 62183 430 734 IMAGE-DOWNSAMPLED 1-s2.0-S2468823125004754-gr1.sml https://s3-eu-west-1.amazonaws.com/prod-ucs-content-store-eu-west/content/pii:S2468823125004754/gr1/THUMBNAIL/image/gif/75906ebce01ceb65113ec4ace1f3bafd/gr1.sml gr1 gr1.sml sml 18197 126 219 IMAGE-THUMBNAIL 1-s2.0-S2468823125004754-gr2.sml https://s3-eu-west-1.amazonaws.com/prod-ucs-content-store-eu-west/content/pii:S2468823125004754/gr2/THUMBNAIL/image/gif/ef05386cbcf1fe801b3d90a083e47eb1/gr2.sml gr2 gr2.sml sml 10284 143 219 IMAGE-THUMBNAIL 1-s2.0-S2468823125004754-ga1.sml https://s3-eu-west-1.amazonaws.com/prod-ucs-content-store-eu-west/content/pii:S2468823125004754/ga1/THUMBNAIL/image/gif/ad7663c5b849ab544191ecf0a4b291bb/ga1.sml ga1 true ga1.sml sml 15857 119 219 IMAGE-THUMBNAIL 1-s2.0-S2468823125004754-gr3.sml https://s3-eu-west-1.amazonaws.com/prod-ucs-content-store-eu-west/content/pii:S2468823125004754/gr3/THUMBNAIL/image/gif/56957f03cd7934c61f6e1562b98268d3/gr3.sml gr3 gr3.sml sml 8597 164 185 IMAGE-THUMBNAIL 1-s2.0-S2468823125004754-gr4.sml https://s3-eu-west-1.amazonaws.com/prod-ucs-content-store-eu-west/content/pii:S2468823125004754/gr4/THUMBNAIL/image/gif/a3dbafa3c3586b27e2d57309fd5f95eb/gr4.sml gr4 gr4.sml sml 24981 164 189 IMAGE-THUMBNAIL 1-s2.0-S2468823125004754-gr5.sml https://s3-eu-west-1.amazonaws.com/prod-ucs-content-store-eu-west/content/pii:S2468823125004754/gr5/THUMBNAIL/image/gif/fd43f7d0aa33de7d0527786721f195f7/gr5.sml gr5 gr5.sml sml 19627 148 219 IMAGE-THUMBNAIL 1-s2.0-S2468823125004754-gr6.sml https://s3-eu-west-1.amazonaws.com/prod-ucs-content-store-eu-west/content/pii:S2468823125004754/gr6/THUMBNAIL/image/gif/ac5cca956f8564b1961767b3710968d7/gr6.sml gr6 gr6.sml sml 8876 129 219 IMAGE-THUMBNAIL 1-s2.0-S2468823125004754-gr7.sml https://s3-eu-west-1.amazonaws.com/prod-ucs-content-store-eu-west/content/pii:S2468823125004997/gr7/THUMBNAIL/image/gif/4d5ca930543ff2a7021f9b25fbfb7b25/gr7.sml gr7 gr7.sml sml 8722 128 219 IMAGE-THUMBNAIL 1-s2.0-S2468823125004754-gr1_lrg.jpg https://s3-eu-west-1.amazonaws.com/prod-ucs-content-store-eu-west/content/pii:S2468823125004754/HIGHRES/image/jpeg/9c26af8deef993ba30f883ee3002ada5/gr1_lrg.jpg gr1 gr1_lrg.jpg jpg 1046730 1820 3167 IMAGE-HIGH-RES 1-s2.0-S2468823125004754-gr2_lrg.jpg https://s3-eu-west-1.amazonaws.com/prod-ucs-content-store-eu-west/content/pii:S2468823125004754/HIGHRES/image/jpeg/42e0e8cee011ba5349e9b398f43ab634/gr2_lrg.jpg gr2 gr2_lrg.jpg jpg 335910 1359 2083 IMAGE-HIGH-RES 1-s2.0-S2468823125004754-ga1_lrg.jpg https://s3-eu-west-1.amazonaws.com/prod-ucs-content-store-eu-west/content/pii:S2468823125004754/HIGHRES/image/jpeg/f02c7d084694b090d0bec24e09e1d8bf/ga1_lrg.jpg ga1 true ga1_lrg.jpg jpg 433246 886 1630 IMAGE-HIGH-RES 1-s2.0-S2468823125004754-gr3_lrg.jpg https://s3-eu-west-1.amazonaws.com/prod-ucs-content-store-eu-west/content/pii:S2468823125004754/HIGHRES/image/jpeg/e0808a7a60a040c9ca370151486371cb/gr3_lrg.jpg gr3 gr3_lrg.jpg jpg 295025 1849 2083 IMAGE-HIGH-RES 1-s2.0-S2468823125004754-gr4_lrg.jpg https://s3-eu-west-1.amazonaws.com/prod-ucs-content-store-eu-west/content/pii:S2468823125004754/HIGHRES/image/jpeg/ead7c2da30c7dd68c02b342f70fa93d8/gr4_lrg.jpg gr4 gr4_lrg.jpg jpg 1244634 1803 2083 IMAGE-HIGH-RES 1-s2.0-S2468823125004754-gr5_lrg.jpg https://s3-eu-west-1.amazonaws.com/prod-ucs-content-store-eu-west/content/pii:S2468823125004997/HIGHRES/image/jpeg/9aade89515f4385afb9a201a7a4facfd/gr5_lrg.jpg gr5 gr5_lrg.jpg jpg 1062006 1971 2917 IMAGE-HIGH-RES 1-s2.0-S2468823125004754-gr6_lrg.jpg https://s3-eu-west-1.amazonaws.com/prod-ucs-content-store-eu-west/content/pii:S2468823125004997/HIGHRES/image/jpeg/e2f10de65b03e5e8b51353f2a9db0d13/gr6_lrg.jpg gr6 gr6_lrg.jpg jpg 461162 1910 3250 IMAGE-HIGH-RES 1-s2.0-S2468823125004754-gr7_lrg.jpg https://s3-eu-west-1.amazonaws.com/prod-ucs-content-store-eu-west/content/pii:S2468823125004997/HIGHRES/image/jpeg/a92d882a0a1a8341d3328b82ae9fb084/gr7_lrg.jpg gr7 gr7_lrg.jpg jpg 453761 1905 3250 IMAGE-HIGH-RES 1-s2.0-S2468823125004754-mmc1.docx https://s3-eu-west-1.amazonaws.com/prod-ucs-content-store-eu-west/content/pii:S2468823125004754/mmc1/MAIN/application/vnd.openxmlformats-officedocument.wordprocessingml.document/39d4567244910f62bc542c07af32ddfe/mmc1.docx mmc1 mmc1.docx docx 5444190 APPLICATION 1-s2.0-S2468823125004754-si1.svg https://s3-eu-west-1.amazonaws.com/prod-ucs-content-store-eu-west/content/pii:S2468823125004754/image/svg+xml/e84eacca403144292da2660f14b986a5/si1.svg si1 si1.svg svg 9315 ALTIMG 1-s2.0-S2468823125004754-si2.svg https://s3-eu-west-1.amazonaws.com/prod-ucs-content-store-eu-west/content/pii:S2468823125004754/image/svg+xml/1b77908d7ad00e9b1c6d150885b84c6f/si2.svg si2 si2.svg svg 11745 ALTIMG 1-s2.0-S2468823125004754-si3.svg https://s3-eu-west-1.amazonaws.com/prod-ucs-content-store-eu-west/content/pii:S2468823125004754/image/svg+xml/d341250eebe82cd913e3c9e8dbc78f4b/si3.svg si3 si3.svg svg 9384 ALTIMG 1-s2.0-S2468823125004754-si4.svg https://s3-eu-west-1.amazonaws.com/prod-ucs-content-store-eu-west/content/pii:S2468823125004754/image/svg+xml/c717dad1461eb51126bcf8d3fe9c7e5b/si4.svg si4 si4.svg svg 8084 ALTIMG 1-s2.0-S2468823125004754-si5.svg https://s3-eu-west-1.amazonaws.com/prod-ucs-content-store-eu-west/content/pii:S2468823125004754/image/svg+xml/26cad35d83d5c04dd2a7e6ac7d82c473/si5.svg si5 si5.svg svg 7939 ALTIMG MCAT 115286 115286 S2468-8231(25)00475-4 10.1016/j.mcat.2025.115286 Fig. 1 Schematic illustration of screening nitrogen doped transition metal-NC SACs and nitrogen atom doping sites, as well as machine learning prediction of the △G *H value. The areas filled with four colors represents the symmetrical nitrogen atom doped sites. Fig 1 Fig. 2 △G *H values of the N-doped M-NC SACs, where 26 transition metal atoms in SACs doped with one and two nitrogen atom at site 1 were considered. Fig 2 Fig. 3 △G *H step graphs of the screened SACs, (a) N2-Zn-NC SACs, and (b) N3-Zn-NC SACs, (c) corresponding volcano curve of △G *H plotted as a function of the theoretical exchange current. Fig 3 Fig. 4 Screened nitrogen doped Zn-NC SAC models (|△G *H| ≤ 0.1 eV), (a)‒(c) N2-Zn-NC SACs, (d)‒(p) N3-Zn-NC SACs. Fig 4 Fig. 5 Charge density difference images and corresponding Bader charge of Zn atoms, (a) Zn-NC SAC, (b) N1-Zn-NC SAC, (c) N2-Zn-NC SAC. COHP images and corresponding ICOHP values, (d) Zn-NC SAC, (e) N1-Zn-NC SAC, (f) N2-Zn-NC SAC. (g) Schematic diagram of optimizing the number and sites of the doped nitrogen atom to enhance HER activity of Zn-NC SAC. Fig 5 Fig. 6 Predicting the △G *H values of N2-Zn-NC SACs, (a) R 2 score and (b) MAE value of trained ML models with different input features, (c) Best trained RFR algorithm with ACSFs input feature. (d) R 2 score and (e) MAE value of tested ML models with different input features, (f) Best tested RFR algorithm with ACSFs input feature. The height of the column represents the corresponding variance. Fig 6 Fig. 7 Predicting the △G *H values of N3-Zn-NC SACs, (a) R 2 score and (b) MAE value of trained ML models with different input features, (c) Best trained RFR algorithm with Dist input feature. (d) R 2 score and (e) MAE value of tested ML models with different input features, (f) Best tested RFR algorithm with Dist input feature. The height of the column represents the corresponding variance. Fig. 7 Rational design of nitrogen-doped transition metal-N4-graphene single atom catalysts for hydrogen evolution reaction: Theoretical calculations and machine learning Wei Xu Writing – review & editing Project administration Funding acquisition a ⁎ Yu-Wei Feng Writing – original draft Software Data curation a Shi-Jie Li Visualization Investigation a Hao Ma Software Resources a Jiu-Ning Wang Writing – review & editing Supervision Software b ⁎ Xue-Cheng Liu Software Resources a a National Research Base of Intelligent Manufacturing Service, and College of Environment and Resources, Chongqing Technology and Business University, Chongqing 400067, China National Research Base of Intelligent Manufacturing Service and College of Environment and Resources Chongqing Technology and Business University Chongqing 400067 China aNational Research Base of Intelligent Manufacturing Service, and College of Environment and Resources, Chongqing Technology and Business University, Chongqing 400067, China b Institute of New Energy and Low-Carbon Technology, Sichuan University, Chengdu 610065, China Institute of New Energy and Low-Carbon Technology Sichuan University Chengdu 610065 China bInstitute of New Energy and Low-Carbon Technology, Sichuan University, Chengdu 610065, China ⁎ Corresponding authors. Single-atom catalysts (SACs) have an important application prospects for the electrocatalytic hydrogen evolution reaction (HER). However, the rapid and low-cost design of highly active SACs remains challenging. Herein, density functional theory (DFT) calculations are employed to screen for nitrogen-doped SACs with an N4-graphene as support (M-NC SAC). A machine learning algorithm for predicting the Gibbs free energy of hydrogen absorption (△G *H) during the HER process is also obtained. The results indicate that N-doped Zn-NC SAC is screened to be an optimal candidate for HER catalysts. Based on the calculated △G *H values of Zn-NC SACs doped with two N atoms, the Random Forest Regression (RFR) is confirmed to be the optimal candidate compared to the other five algorithms, which is also verified by the calculated 129 △G *H values of Zn-NC SACs doped with three N atoms (20 % of total 645). In addition, combining the RFR algorithm with the input features related to interatomic distances, the △G *H values of the remaining 516 Zn-NC SACs doped with three N atoms are successfully predicted, thereby obtaining the structures of the Zn-NC SACs doped with three N atoms with the high HER activity. The screened N-doped Zn-NC SAC provides important guidance for the experimental synthesis of highly efficient HER catalysts in the future. Besides, the validated RFR algorithm may also have important application potential in the rapid and low-cost design of SACs doped with the other non-metallic elements. Graphical abstract Image, graphical abstract Keywords Single-atom catalyst Hydrogen evolution reaction Machine Learning Screening Data availability Data will be made available on request. 1 Introduction Owing to the high energy density and pollution-free products, hydrogen has emerged as a highly promising energy carrier [1–3]. Development of hydrogen energy can address the problems of energy shortages and carbon dioxide emissions arising from the consumption of fossil fuels. At present, using electrocatalytic water splitting powered by renewable energy sources to produce hydrogen is one of the most effective methods owing to its high hydrogen purity, high efficiency and zero-polluting technology [4,5]. The hydrogen evolution reaction (HER) is one of the most critical reactions in the electrocatalytic water-splitting process, and platinum (Pt)-based materials are commonly employed as HER catalysts owing to their high catalytic activity. However, its high cost and poor stability have impeded the large-scale industrial production of hydrogen [6]. Furthermore, electrocatalytic reactions typically occur at active atoms exposed on the surface, whereas the atoms in the body are blocked for catalytic reactions. Therefore, developing non-precious metal-based electrocatalysts and reducing the size of the catalysts to improve atomic utilization are effective ways to reduce the cost of catalysts for the HER. Specifically, single-atom catalysts (SACs) can reduce the size of active sites to the atomic scale, and the atomic utilization rate can reach 100 % in theory [7]. Single-atom catalysts primarily consist of metal atoms anchored on a support, with loaded metal atoms serving as the active sites. Hence, different loaded metals exhibit unique activities toward different electrochemical reactions. For example, Zhang et al. synthesized the platinum SACs using the NiFe-layered-double-hydroxide nanoarrays as supports, which exhibited the excellent alkaline HER activity and 80 % of energy efficiency in a membrane electrode assembly-based alkaline water electrolyser [8]. Sun et al. prepared Co SACs with Co-S2N2 sites, which showed remarkable HER and oxygen reduction reaction (ORR) performances [9]. Adli et al. designed and optimized the Fe SAC with Fe-N4 sites, which displayed the high selectivity and catalytic activity for carbon dioxide reduction reaction (CO2RR), with a CO Faradaic efficiency of 90 % [10]. Meanwhile, the electronic interactions between the loaded metal atoms and supports can modulate the catalytic activity of the metal atoms in SACs. The type of support for SACs also plays a regulatory role in the catalytic activity of the metal atoms. Nitrogen-doped graphene is commonly used as a support for single-atom catalysts due to its improved stability and regulated electronic structure compared to pure carbon materials [1,11]. The introduction of non-metal atoms into the nitrogen-doped graphene substrate can further optimize the interaction between the metal atoms and reaction intermediate species, which can further improve the activity of single-atom catalysts. For example, Yin et al. optimized the HER performance of Pt SACs by tuning the coordinate environment around the Pt atom via the introduction of chlorine atoms [12]. They found that the Pt SAC with the coordinated species of C2-Pt-Cl2 exhibited a Gibbs free energy of HER near zero and superb HER activity, which was 26.9 times that of commercial Pt/C catalysts [12]. Zhang et al. optimized the performance of electrochemical nitrate reduction for Fe SAC [13]. They demonstrated that an Fe SAC with N2O2 coordination around Fe atoms exhibited the enhanced activity because of the tuned absorption energies of the reaction intermediates [13]. For HER electrocatalysts, although a variety of SACs have been experimentally obtained and exhibited relatively good HER activity at present, such as Pt-SAC [12], Co-SAC [14], W-SAC [15], and the Ni-SAC [16], etc., their HER performance can still be further improved. Optimizing the coordinate environment of the metal sites in SACs can further enhance their catalytic activity. Different non-metal atoms, such as oxygen [13], sulfur [17], phosphorus [18], and boron [19], etc., have been used to regulate the electrochemical activity of metal-N4-graphene based (M-NC) SACs. In experiments, introducing the above-mentioned non-metallic elements into the M-N4 system requires an addition of source materials, and the contained other elements may have unpredictable effects on the properties of SAC. In current reports, besides, researchers considered the synthesized N-doped graphene SACs as an M-N4 system, but it is difficult to precisely control the concentration of nitrogen atoms in the actual experimental synthesis. Therefore, the concentration of nitrogen atoms in the actually synthesized SAC may be relatively high, that is, it may be a nitrogen-doped M-N4 system. As a result, the nitrogen-doped M-N4 is relatively easier to obtain experimentally compared with other non-metallic elements. Therefore, introducing nitrogen atom to improve HER activity of M-NC SACs is an optimal candidate. However, there are various choices for the doping number and sites of the nitrogen atoms in M-NC SACs. Reasonable and efficient design of M-NC SACs with high HER activity remains a great challenge. Machine learning (ML) is an effective means to predict the reaction Gibbs free energy of electrocatalysts based on the reasonable input features, which can effectively reduce computation time compared to theoretical calculations. This is of great significance for the rapid design of efficient catalysts in experiment. However, the ML algorithm and effective input features suitable for predicting the HER activity of nitrogen doped M-NC SAC systems remain unclear. To address these issues, this work focuses on obtaining machine learning algorithms and input features suitable for predicting the Gibbs free energy of hydrogen absorption (△G *H) in the HER process in nitrogen-doped M-NC SAC systems. First, nitrogen-doped Zn-NC was screened from 26 transition metals as the most promising HER catalyst based on density functional theory (DFT) calculations. By calculating the Bader charges, charge density difference, and integrated crystal orbital Hamilton population (ICOHP), we revealed the physical mechanism underlying the excellent HER performance of nitrogen-doped Zn-NC SACs. Furthermore, the optimal ML algorithm and input feature were obtained using 97 of △G *H values calculated for Zn-NC SACs doped with two nitrogen atoms, which were also confirmed in the calculated 129 of △G *H values (total 645 × 20 %) of Zn-NC SACs doped with three nitrogen atoms. Finally, the remaining 80 % of △G *H values (516) for Zn-NC SACs doped with three nitrogen atoms were predicted using machine learning algorithms. The results obtained in this study can not only help to reveal the influence of the coordination environment on the catalytic activity of metal atoms, but also the obtained machine learning algorithm will provide an important guidance for the design of other non-metal-doped SAC catalysts in the future. 2 Computational details 2.1 Calculations of density functional theory All calculations in this study were carried out using the Vienna Ab initio Simulation Package (VASP) with the projector-augmented wave (PAW) method [20,21], where the detailed parameter settings can be found in the Supporting Information. The formation energy (E form) of the nitrogen-doped M-NC SAC (N x -M-NC, where x is the number of the doped nitrogen atoms in the M-NC SAC, here, x = 0‒3) was determined using the following equation: (1) E f o r m = E M − N C − E M − E C − n E N , where EM-NC is the total energy of the N x -M-NC SAC, and EM, EC and EN are the energies of the metal atom in the bulk, carbon atom in the pristine graphene and nitrogen atom in the molecular N2 gas, respectively. The Gibbs free energy (△G *H) of the hydrogen atom absorbed on the surface of the N x -M-NC SAC was calculated using the following expression [22]: (2) Δ G * H = Δ E a d s + 0.24 e V , where △Eads is the energy difference between the N-M-NC SAC with and without the absorption of hydrogen atom on the surface. △Eads can be calculated by the equation: (3) Δ E a d s = E * H − E * − 1 / 2 E H 2 , where E*H. and E* are the total energies of the N-M-NC SAC with and without the absorption of hydrogen atom, respectively, and E H2 is the energy of the hydrogen molecule. In addition, the charge density difference, Bader charge, crystal orbital Hamilton population (COHP), and density of states (DOS) were determined based on DFT calculations. 2.2 Catalyst models Two-dimensional graphene with two carbon vacancies was used as the support of the SACs, in which one metal atom was filled the two carbon vacancies (total of 71 atoms). To obtain the optimal coordinate environment of metal atom in SACs, we first explored the influence of the number of N atoms around the metal atom in the M-N y C4− y sites (y is the number of N atoms connected to the metal atom, y = 0‒4) on the formation energy. Here, we considered the Zn-N y C4− y SAC as an example, and the corresponding formation energies are shown in Fig. S1. The formation energies of the Zn-N y C4− y SACs decreased as y increased. Generally, a catalyst with a smaller formation energy was easier to obtain in experiments. The results indicated that the M-N4 site in the M-NC SAC shows the optimal structure, therefore, four carbon atoms connected to the metal atom were replaced by nitrogen atoms to construct the M-N4 SAC model (Fig. 1 ). To investigate the influence of the nitrogen doping on the HER activity of M-N4 SAC, more nitrogen atoms were used to replace the other carbon sites. Here, the number of doped nitrogen atoms was considered to be one to three. In the DFT calculations, 28 carbon sites were selected as the doping sites for nitrogen atoms (the distance between the doped nitrogen atoms and the metal atoms was less than 6 Å), where there were eight asymmetric sites, as shown in Fig. 1. Furthermore, we confirmed that the SAC model with two bonded doped nitrogen atoms exhibited poor stability through calculations, so such situations were excluded. This resulted in the formation of 8, 97, and 645 N x -M-NC SAC structures doped with one, two, and three nitrogen atoms, respectively. In addition, we considered 26 transition metal atoms as metal sites to screen the N x -M-NC SAC with optimal HER activity, as shown in Fig. 1. 2.3 Machine learning Obtaining an appropriate machine learning (ML) algorithm to predict the △G *H values of nitrogen-doped M-NC SACs can effectively reduce the cost of catalyst design. In this work, therefore, we considered six ML algorithms: Linear Regression (LR), K-Nearest Neighbors (KNN), Decision Tree Regressor (DTR), Random Forest Regressor (RFR), Support Vector Machine Regression (SVR), and Artificial Neural Networks (ANN) models. The catalytic activity of metal atoms in SACs depended on its coordinated environment. In our models, different numbers of nitrogen atoms were doped at different positions around the M-N4 site, which provided different coordination environments for the metal atoms. In this case, the distance between doped nitrogen atoms and metal atom will have an important impact on the electron distribution of metal atoms. Therefore, the distances among metal, nitrogen and carbon atoms in the support were closely related to the HER activity of SACs, which were used as input features. In addition, in many related literatures, researchers typically used the calculated parameters as input features, such as d-band center and Bader charge. To reduce the cost of catalyst design, in this study, non-calculated parameters were used as input features based on the structure of SACs. During the training and testing of the ML algorithms, we taken into account of two classes input features to describe N-doped M-NC SACs. The first feature was related to the distances between the atoms in the model (Dist), including the distance between the transition metal atom and the doped nitrogen atoms, as well as the distance between the doped nitrogen atoms, as shown in Figs. S2 and S3. These distances can be directly measured from the initial models without geometry structure optimization. Another input feature was the Atom-centered Symmetry Functions (ACSFs) [23], in which the radial function (G 2) and angular function (G 4) were selected to describe the coordinate environment of the N x -M-NC SACs. In the present case, 81 ACSF features were obtained. The hyper parameters for above ML algorithms were obtained by random searching with 20 iterations, and the detail parameter setting can be found in our previous work [24]. R 2 and Mean Absolute Error (MAE) values were used to evaluate the accuracy of the ML algorithms, where (4) R 2 = 1 − ∑ i n ( y i − y i ′ ) 2 ∑ i n ( y i ′ − y ‾ ) 2 , (5) M A E = 1 n ∑ i n | y i − y i ′ | . Generally, an R 2 score close to 1 and MAE values close to 0 indicated that ML algorithms have high training or prediction accuracy. During training and testing the ML algorithms, the calculated △G *H values were used as the database, where 75 % of the △G *H values were served as the dataset for training ML algorithms, and the remaining dataset was used for testing. In this study, cross-validation was performed using 10 iterations of random permutation cross-validation. The resulting distribution of R 2 and MAE values were summarized in box plots. 3 Results and discussion 3.1 Screening N-doped metal-NC SACs Because different transition metal elements possess different physical and chemical properties, they exhibit different interactions with the electron orbitals of the N4 coordination in metal-N4 graphene SACs, thereby showing different HER activity. To obtain the optimal N x -M-NC SAC structure, that is, the optimal combination of metal atom type, the number and positions of doped nitrogen atoms, we first investigate the impact of different doping sites of nitrogen atoms on the HER activity (taking Zn-NC SAC as an example here). When doping with one nitrogen atom in Zn-NC SAC, the △G *H values of the N1-Zn-NC SACs are between 0.43 and 0.61 eV except for the nitrogen atom placing at site 6 (0.72 eV), showing a significant decrease compared to the initial Zn-NC SAC (0.71 eV), as shown in Table S1. This indicates that the Zn-NC SAC doped with one nitrogen atom can effectively decrease the △G *H values. It is worth noting that the △G *H value of the N1-Zn-NC SAC with the doped nitrogen atom at site 1 is smaller than those at other sites, suggesting that the doped nitrogen atom at site 1 has the greatest influence on the △G *H value. This may be caused by the fact that the site 1 is closest to the metal atom. To quickly screen the metal elements in the N x -M-NC SAC with optimal HER activity, therefore, we calculate the 26 △G *H values of M-NC, N1-M-NC, and N2-M-NC SACs, in which the doped nitrogen atoms are all placed at site 1, the calculated △G *H values are shown in Fig. 2 . It can be found that the change in the △G *H values of N x -M-NCs is significantly correlated with the period of metal elements. Furthermore, as the number of doped nitrogen atoms in the M-NC SACs increased, the △G *H values gradually approaches or moves away from △G *H = 0 eV, indicating that increasing the number of doped nitrogen atoms can effectively regulate the HER activity of the M-NC SACs. For Zn-, Y-, Rh-, and Ir-NC SACs, most importantly, the △G *H values vary from negative to positive as the number of doped nitrogen atoms changes, suggesting that these metal atoms may have some doped structures with △G *H values close to zero by controlling the number and sites of the doped nitrogen atoms. However, the high cost and limited storage of Y, Rh, and Ir are not conducive to practical application. Therefore, N x -Zn-NC SACs are screened as the most suitable candidate for HER electrocatalysts. To obtain the optimal structure of N x -Zn-NC SACs, we calculated of △G *H values of 97 and 129 (randomly selected from the total of 645 structures) for N2-Zn-NC SACs and N3-Zn-NC SACs, respectively, and the corresponding distributions are shown in Fig. S4. The average △G *H value gradually tends to approach △G *H = 0 eV as the number of doped nitrogen atoms in the Zn-NC SAC increase. Moreover, N3-Zn-NC SACs have a greater distribution near △G *H = 0 eV than N2-Zn-NC SACs, indicating that doping a larger number of nitrogen atoms is beneficial for enhancing the HER activity of Zn-NC SACs. Taking |△G *H| ≤ 0.1 eV as the criterion for evaluating the HER activity, we obtain three structures from 97 of N2-Zn-NC SACs and thirteen structures from the selected 129 of N3-Zn-NC SACs as the candidates for super HER catalysts, the △G *H values and structure models are shown in Figs. 3 and 4 . Although the proportions of N2-Zn-NC SACs and N3-Zn-NC SACs in the overall structures are quite low, the obtained results suggest that doping Zn-NC SAC with more nitrogen atoms may effectively increase the proportion of N x -Zn-NC SACs with high HER activity. In the current literatures, Zn-N4 graphene SACs have been successfully synthesized, and used as electrocatalysts for CO2RR [25–27], the production of H2O2 and solid-state Zn-ion hybrid capacitors [28,29]. Our results indicate that tuning the coordinate environment of the Zn-N4 site by doping with nitrogen atoms may further optimize electrocatalytic performance. To verify the feasibility of the screened N x -Zn-NC SACs for practical applications, we further calculate the formation energy of the Zn atoms embedded into the residual support (E f), as shown in Tables S2 and S3. All screened SACs exhibit negative E f values. Generally, a more negative E f value indicates better thermodynamic stability between the Zn atom and NC support. Therefore, we can conclude that the screened N x -Zn-NC SACs possess excellent thermodynamic stability, suggesting that they have great potential for practical applications. 3.2 Electronic structure analysis From the screened catalysts (N1-Zn-NC and N2-Zn-NC), we can observe that each model contains one doped nitrogen atom at site 1, as shown in Fig. 4. The △G *H value of N1-Zn-NC (doped nitrogen atom at site 1) is 0.43 eV, larger than that of the screened catalysts, indicating that controlling the number and sites of doped nitrogen atoms can effectively optimize the HER activity of Zn-NC SACs. To reveal the physical mechanism of the enhanced HER activity, we first investigate the charge density difference and Bader charge of the N x -Zn-NC SACs (where x = 0‒2, and the doped N atoms are placed at site 1), as shown in Fig. 5 a‒c. From the charge density difference images, we can observe a significant electron interaction between the Zn atom and N4 sites, which is beneficial for the stability of the M-N4 SAC. When one carbon atom at site 1 is replaced with one nitrogen atom, the area of electron acquisition for the doped nitrogen atom is significantly smaller than that of the initial carbon atom. After doping with two nitrogen atoms at site 1, the area of electron acquisition for the doped nitrogen atoms decrease further. In addition, the COHP for the nitrogen doped Zn-NC SACs based on the hydrogen atom adsorption model are further calculated, and the corresponding integrated COHP (ICOHP) values are also obtained, as shown in Fig. 5d‒f. We can see that the ICOHP value decreases as the number of doped nitrogen atoms increases. Generally, a more negative ICOHP value indicates a stronger interaction strength between the active site and hydrogen atom [30]. Therefore, it can be demonstrated that increasing the doping number of nitrogen atoms can enhance the interaction strength between Zn and the absorbed hydrogen atoms, which is consistent with the calculated △G *H value. Because the Zn atom serves as the active site in the HER process, we further determine the Bader charge of Zn atoms in Nx-Zn-NC SACs, as shown in Fig. 5. We find a significant correlation between the ICOHP value and the Bader charge of Zn, as shown in Fig. S5. Therefore, doping nitrogen atoms around the Zn-N4 sites can effectively regulate the electronic interaction between the Zn atom and the support, thereby optimizing the interaction strength with hydrogen atoms and enhancing the HER activity, as shown in the schematic Fig. 5g. In addition, the results of the density of states show that both N1-Zn-NC SAC and N2-Zn-NC SAC have electron distributions near the Fermi level, indicating good electrical conductivity, which is highly beneficial for electrochemical applications (Fig. S6). 3.3 Machine learning predicting △G *H values The main objective of this study is to obtain the ML algorithms and input features suitable for predicting the HER activity of the nitrogen-doped M-N4 SACs. To preliminarily screen the ML algorithms and input features, six ML algorithms and two types of input features are considered in this study, which are evaluated using the calculated △G *H values of N2-Zn-NC SAC, as shown in Figs. S7 and 6. From the training results of the N2-Zn-NC SACs, we can find that the RFR algorithm exhibits an R 2 score close to 1 and a MAE value close to 0, along with a very small variance under the input features of ASCF and Dist, as shown in Fig. 6 a and b The optimal R 2 and MAE values are 0.969 and 0.020 eV, respectively, for the RFR algorithm with the input features of the ASCFs (Fig. 6c). Meanwhile, we can also find that the LR algorithm also shows a relatively large R 2 and a low MAE value under the input feature of ASCFs, comparable to those of RFR algorithm. In the testing results, we can also see that the optimal R 2 score and MAE value of the LR model with ASCF features are better than those of the RFR algorithm. However, the variance of the R 2 and MAE values of the LR model is much larger than that of the RFR model, indicating poorer stability, as shown in Fig. 6d and e. This is due to the overfitting of the LR model under multiple ASCF features. Meanwhile, the KNN, DTR, SVR, and ANN algorithms exhibit the relatively lower training and prediction accuracy. The KNN and DTR algorithms may be susceptible to noise and outliers, resulting in poor accuracy. The training and prediction accuracy of the SVR algorithm is greatly influenced by the selection of input features. In our case, non-computational structural characteristic parameters are mainly chosen, which may be the main reason for its lower accuracy. Generally, the ANN model has significant advantages in systems with complex relationships between multiple quantities. In our previous work, we showed that the ANN model has good accuracy in predicting the HER activity of dual-atom catalysts [31]. However, the prediction accuracy of ANN in predicting the HER activity of SACs is not ideal, which may be due to the relatively small number of the training set. The RFR algorithm exhibits the highest prediction accuracy, with an optimal R² and MAE values of 0.825 and 0.057 eV (Fig. 6f), respectively. Therefore, the RFR algorithm with the ASCF input features are determined to be the optimal choice for predicting the HER activity of N2-Zn-NC SACs. The above results suggest that the screened RFR algorithm is suitable for predicting the HER activity of N2-Zn-NC SACs, but its adaptability in Zn-NC SACs with other numbers of nitrogen dopants still requires further verification. This is of great significance for the rational design of nitrogen-doped M-NC SAC in the future. To further verify the performance of the RFR algorithm in predicting the HER activity of nitrogen-doped Zn-NC SAC, six ML algorithms are trained and tested for N3-Zn-NC SACs based on the input features of ASCF and Dist, as shown in Fig. 7 . For the N3-Zn-NC SACs, there are 645 possible structures. To reduce computational costs, we randomly select 129 structures (20 %) to calculate △G *H values and use as training and testing databases. It can be seen that the training and testing results are similar to those of N2-Zn-NC SACs. Compared to other ML algorithms, the RFR algorithm still has high accuracy in training and testing (Fig. 7a and b). The prediction accuracy of the RFR algorithm under Dist input features is slightly higher than that of ASCFs, with optimal R 2 and MAE values of 0.972 and 0.021 eV, respectively (Fig. 7c). Meanwhile, it also has relatively high accuracy in predicting △G *H values, which is different from the results of N2-Zn-NC SAC, (Fig. 7d and e). In the predicted results, the optimal R 2 and MAE values are 0.860 and 0.051 eV, respectively (Fig. 7f). For N2-Zn-NC and N3-Zn-NC SACs, the R 2 and MAE values of the RFR model using ASCF input features are comparable to those using Dist input features, which may be due to the Dist input features alone are sufficient to characterize structural differences in these system. For Zn-NC SACs doped with more nitrogen atoms (e.g., 4, 5, or 6 nitrogen atoms), the generation of additional Dist feature parameters becomes computationally challenging. This is because the combinatorial dimensionality of nitrogen atom configurations increases exponentially, making Dist features less effective at distinguishing structural differences. In contrast, fixed-dimensional ASCFs input features provide a more robust descriptor for these complex systems, which may play an important role in enhancing the model performance and prediction accuracy. Based on the screened RFR algorithm and Dist input features, the △G *H values 516 of the remaining N3-Zn-NC SACs (80 % of total 645 N3-Zn-NC SACs) are predicted, and the distribution of the total △G *H values is displayed in Fig. S8. Finally, we obtain 27 potential N3-Zn-NC SAC structures with high HER activities (|△G *H| ≤ 0.1 eV). In addition to the 13 N3-Zn-NC SAC structures obtained through DFT calculations (Fig. 4d‒p), the reminded 14 structures predicted by the ML method are shown in Fig. S9. It can be seen that each structure has at least one nitrogen atom doped at site 1, which is similar to that in Fig. 4. To verify the reliability of the input features, the Dist input features obtained after geometric structure optimization are also validated using the RFR algorithm, as shown in Fig. S10. It can be seen that the influence of Dist obtained with and without geometric structure optimization on the R 2 and MAE values is negligible, both for training and prediction, indicating that the Dist input features obtained from unrelaxed structures are reliable. It is worth noting that the △G *H values of N x -Zn-NC SACs are both distributed between the △G *H values of Zn-NC (0.71 eV) and N2-Zn-NC SACs (two N atoms doped at site 1, −0.26 eV), as shown in Figs. S4 and S8. This indicates that the ΔG *H = −0.26 eV is a minimum critical value, and doping more N atoms will increase the ΔG*H values compared to this critical value. The same trend can also be verified in Fe-NC SACs, as shown in Fig. S11. When three nitrogen atoms are doped in Fe-NC SACs, where two nitrogen atoms are placed at site 1, and another nitrogen atom doped at the other sites (the distance between this nitrogen atom and Fe atom is 4.0, 5.0, and 5.8 Å, respectively), the △G *H values of these three structures are all higher than that of N2-Fe-NC SAC (two N atoms doped at site 1, △G *H = 0.02 eV), indicating that it is the lowest critical △G *H value. The may be due to the site 1 exhibit the maximum influence on the △G *H values because of the nearest distance from metal atom, which can be verified by the Dist feature importance obtained from the RFR algorithm during prediction (Fig. S12). Similar to N x -Zn-NC SACs, doping more nitrogen atoms will continue to increase the △G *H value of N3-Fe-NC SACs compared to the lowest critical △G *H value. This is the reason that the Fe-NC SAC is not a suitable candidate with high HER activity although doping more nitrogen atoms. These results demonstrate that identifying the doping sites with the greatest impact on △G *H values provides important guidance for rapidly screening non-metal-doped SACs with low computational costs. Although the current work on the experimental synthesis of N-doped Zn-NC catalysts is not yet available, N-doped Co-N4-C SACs have already been experimentally synthesized at present [32], suggesting a great possibility of experimentally synthesizing N-doped Zn-NC SACs. For the DFT calculation, it takes nearly 2 h to obtain one △G *H value (32 cores, 2.45 GHz), which is 200,000 times that of the RFR algorithm. Significantly, the machine learning method is used to predict the △G *H values of 516 (total of 80 %) N3-Zn-NC SACs in this study, and the computational cost and time required in this process are negligible compared to the DFT calculation method. Therefore, the ML approach saves approximately 80 % of the time (∼1000 h) and computational costs. Moreover, the input features we use are non-calculated parameters, which can also effectively save computational costs. In addition, we can obtain the optimal sites for nitrogen atom doping in SACs with the optimal HER activity and provide the doping concentration of nitrogen atoms. These results will provide an important guidance for the reasonable theoretical design and experimental synthesis of highly active hydrogen evolution catalysts in the future. 4 Conclusions In summary, based on the doping sites with the greatest impact on the △G *H value, Zn-NC SACs doped with two nitrogen atoms were selected from 26 transition metal atoms as the most promising candidates for HER catalysts (|△G *H| ≤ 0.1 eV) using the density functional theory calculation. Moreover, the SAC configurations with high HER activity were further obtained by the calculated △G *H values of 97 N2-Zn-NC SACs and 129 (20 % of total 645 structures) N3-Zn-NC SACs. Based on the characteristics of the screened configurations, we found that the doped nitrogen atoms can effectively regulate the charge distribution between the Zn atoms and the support and enhance the interaction strength between hydrogen atoms and Zn atoms, thereby exhibiting enhanced HER activity. Using the calculated △G *H values of the 97 N2-Zn-NC SACs, the RFR algorithm was screened from six ML models to predict the △G *H values of the nitrogen-doped Zn-NC SACs, which was also verified in the N3-Zn-NC SACs. Subsequently, the RFR algorithm with input features related to atomic distances was used to predict the △G *H values of the remaining 516 N3-Zn-NC SACs. Thus, 27 N3-Zn-NC SAC structures with high HER activity were obtained. The screened RFR algorithm may be suitable for predicting the HER activity of M-NC SACs doped with the other non-metallic atoms, which is of great significance for the rapid and low-cost design of high-performance HER SACs. CRediT authorship contribution statement Wei Xu: Writing – review & editing, Project administration, Funding acquisition. Yu-Wei Feng: Writing – original draft, Software, Data curation. Shi-Jie Li: Visualization, Investigation. Hao Ma: Software, Resources. Jiu-Ning Wang: Writing – review & editing, Supervision, Software. Xue-Cheng Liu: Software, Resources. Declaration of competing interest The authors declare that they have no known competing financial interests or personal relationships that could have appeared to influence the work reported in this paper. Acknowledgment This research was Supported by the Science and Technology Research Program of Chongqing Municipal Education Commission of China (Grant no. KJQN202400825). Jun-Ran Fang is thankful to her financial support from the Postgraduate Innovative Research Project of Chongqing Technology and Business University (Grant no. yjscxx2024-284-31). Supplementary materials Supplementary material associated with this article can be found, in the online version, at doi:10.1016/j.mcat.2025.115286. Appendix Supplementary materials Image, application 1 References [1] G.M. Tomboc T. Kim S. Jung H.J. Yoon K. Lee Modulating the local coordination environment of single-atom catalysts for enhanced catalytic performance in hydrogen/oxygen evolution reaction Small 18 2022 2105680 G.M. Tomboc, T. Kim, S. Jung, H.J. Yoon, K. Lee, Modulating the local coordination environment of single-atom catalysts for enhanced catalytic performance in hydrogen/oxygen evolution reaction, Small 18 (2022) 2105680. [2] Y. Gao Y. Qiao X. Li C. Huang J. Zhang Y. Wang X. Zou Z. Xia X. Yang X. Lu Y. Zhao Bimetallic site substitution of NiCoP nanoneedles as bifunctional electrocatalyst for boosted water splitting Nano Res. 17 2024 9540 9549 Y. Gao, Y. Qiao, X. Li, C. Huang, J. Zhang, Y. Wang, X. Zou, Z. Xia, X. Yang, X. Lu, Y. Zhao, Bimetallic site substitution of NiCoP nanoneedles as bifunctional electrocatalyst for boosted water splitting, Nano Res. 17 (2024) 9540–9549. [3] Z. Pu I.S. Amiinu R. Cheng P. Wang C. Zhang S. Mu W. Zhao F. Su G. Zhang S. Liao S. Sun Single‑atom catalysts for electrochemical hydrogen evolution reaction: recent advances and future perspectives Nano-Micro Lett. 12 2020 21 Z. Pu, I.S. Amiinu, R. Cheng, P. Wang, C. Zhang, S. Mu, W. Zhao, F. Su, G. Zhang, S. Liao, S. Sun, Single‑atom catalysts for electrochemical hydrogen evolution reaction: recent advances and future perspectives, Nano-Micro Lett. 12 (2020) 21. [4] L. Fan P.F. Liu X. Yan L. Gu Z.Z. Yang H.G. Yang S. Qiu X. Yao Atomically isolated nickel species anchored on graphitized carbon for efficient hydrogen evolution electrocatalysis Nat. Commun. 7 2016 10667 L. Fan, P.F. Liu, X. Yan, L. Gu, Z.Z. Yang, H.G. Yang, S. Qiu, X. Yao, Atomically isolated nickel species anchored on graphitized carbon for efficient hydrogen evolution electrocatalysis, Nat. Commun. 7 (2016) 10667. [5] Y. Jia L. Zhang G. Gao H. Chen B. Wang J. Zhou M.T. Soo M. Hong X. Yan G. Qian J. Zou A. Du X. Yao A heterostructure coupling of exfoliated Ni–Fe hydroxide nanosheet and defective graphene as a bifunctional electrocatalyst for overall water splitting Adv. Mater. 29 2017 1700017 Y. Jia, L. Zhang, G. Gao, H. Chen, B. Wang, J. Zhou, M.T. Soo, M. Hong, X. Yan, G. Qian, J. Zou, A. Du, X. Yao, A heterostructure coupling of exfoliated Ni–Fe hydroxide nanosheet and defective graphene as a bifunctional electrocatalyst for overall water splitting, Adv. Mater. 29 (2017) 1700017. [6] T. Li S. Ren C. Zhang L. Qiao J. Wu P. He J. Lin Y. Liu Z. Fu Q. Zhu W. Pan B. Wang Z. Chen Cobalt single atom anchored on N-doped carbon nanoboxes as typical single-atom catalysts (SACs) for boosting the overall water splitting Chem. Eng. J. 458 2023 141435 T. Li, S. Ren, C. Zhang, L. Qiao, J. Wu, P. He, J. Lin, Y. Liu, Z. Fu, Q. Zhu, W. Pan, B. Wang, Z. Chen, Cobalt single atom anchored on N-doped carbon nanoboxes as typical single-atom catalysts (SACs) for boosting the overall water splitting, Chem. Eng. J. 458 (2023) 141435. [7] W. Chen M. Yu S. Liu C. Zhang S. Jiang G. Duan Recent progress of Ru single-atom catalyst: synthesis, modification, and energetic applications Adv. Funct. Mater. 34 2024 2313307 W. Chen, M. Yu, S. Liu, C. Zhang, S. Jiang, G. Duan, Recent progress of Ru single-atom catalyst: synthesis, modification, and energetic applications, Adv. Funct. Mater. 34 (2024) 2313307. [8] T. Zhang J. Jin J. Chen Y. Fang X. Han J. Chen Y. Li Y. Wang J. Liu L. Wang Pinpointing the axial ligand effect on platinum single-atom-catalyst towards efficient alkaline hydrogen evolution reaction Nat. Commun. 13 2022 6875 T. Zhang, J. Jin, J. Chen, Y. Fang, X. Han, J. Chen, Y. Li, Y. Wang, J. Liu, L. Wang, Pinpointing the axial ligand effect on platinum single-atom-catalyst towards efficient alkaline hydrogen evolution reaction, Nat. Commun. 13 (2022) 6875 [9] T. Sun W. Zeng H. Yan J. Li Z. Zhang Y. Bu W. Chen J. Wang J. Lu C. Su Engineering the coordination environment of single cobalt atoms for efficient oxygen reduction and hydrogen evolution reactions ACS Catal. 11 2021 4498 4509 T. Sun, W. Zeng, H. Yan, J. Li, Z. Zhang, Y. Bu, W. Chen, J. Wang, J. Lu, C. Su, Engineering the coordination environment of single cobalt atoms for efficient oxygen reduction and hydrogen evolution reactions, ACS Catal. 11 (2021) 4498–4509. [10] N.M. Adli W. Shan S. Hwang W. Samarakoon S. Karakalos Y. Li D.A. Cullen D. Su Z. Feng G. Wang G. Wu Engineering atomically dispersed FeN4 active sites for CO2 electroreduction Angew. Chem. Int. Ed. 60 2021 1022 1032 N.M. Adli, W. Shan, S. Hwang, W. Samarakoon, S. Karakalos, Y. Li, D.A. Cullen, D. Su, Z. Feng, G. Wang, G. Wu, Engineering atomically dispersed FeN4 active sites for CO2 electroreduction, Angew. Chem. Int. Ed. 60 (2021) 1022–1032. [11] P. Zhu X. Xiong D. Wang Regulations of active moiety in single atom catalysts for electrochemical hydrogen evolution reaction Nano Res. 15 2022 5792 5815 P. Zhu, X. Xiong, D. Wang, Regulations of active moiety in single atom catalysts for electrochemical hydrogen evolution reaction, Nano Res. 15 (2022) 5792–5815 [12] X.-P. Yin H.-J. Wang S.-F. Tang X.L. Lu M. Shu R. Si T.-B. Lu Engineering the coordination environment of single-atom platinum anchored on graphdiyne for optimizing electrocatalytic hydrogen evolution Angew. Chem. Int. Ed. 57 2018 9382 9386 X.-P. Yin, H.-J. Wang, S.-F. Tang, X.L. Lu, M. Shu, R. Si, T.-B. Lu, Engineering the coordination environment of single-atom platinum anchored on graphdiyne for optimizing electrocatalytic hydrogen evolution, Angew. Chem. Int. Ed. 57 (2018) 9382–9386. [13] W.-D. Zhang H. Dong L. Zhou H. Xu H.-R. Wang X. Yan Y. Jiang J. Zhang Z.-G. Gu Fe single-atom catalysts with pre-organized coordination structure for efficient electrochemical nitrate reduction to ammonia Appl. Catal. B 317 2022 121750 W.-D. Zhang, H. Dong, L. Zhou, H. Xu, H.-R. Wang, X. Yan, Y. Jiang, J. Zhang, Z.-G. Gu, Fe single-atom catalysts with pre-organized coordination structure for efficient electrochemical nitrate reduction to ammonia, Appl. Catal. B 317 (2022) 121750. [14] M.D. Hossain Z. Liu M. Zhuang X. Yan G.-L. Xu C.A. Gadre A. Tyagi I.H. Abidi C.-J. Sun H. Wong A. Guda Y. Hao X. Pan K. Amine Z. Luo Rational design of graphene-supported single atom catalysts for hydrogen evolution reaction Adv. Energy Mater. 9 2019 1803689 M.D. Hossain, Z. Liu, M. Zhuang, X. Yan, G.-L. Xu, C.A. Gadre, A. Tyagi, I.H. Abidi, C.-J. Sun, H. Wong, A. Guda, Y. Hao, X. Pan, K. Amine, Z. Luo, Rational design of graphene-supported single atom catalysts for hydrogen evolution reaction, Adv. Energy Mater. 9 (2019) 1803689. [15] W.X. Chen J.J. Pei C.T. He J.W. Wan H.L. Ren Y. Wang J.C. Dong K.L. Wu W.-C. Cheong J.J. Mao X. Zheng W. Yan Z. Zhuang C. Chen Q. Peng D. Wang Y. Li Single tungsten atoms supported on MOF-derived N-doped carbon for robust electrochemical hydrogen evolution Adv. Mater. 30 2018 1800396 W.X. Chen, J.J. Pei, C.T. He, J.W. Wan, H.L. Ren, Y. Wang, J.C. Dong, K.L. Wu, W.-C. Cheong, J.J. Mao, X. Zheng, W. Yan, Z. Zhuang, C. Chen, Q. Peng, D. Wang, Y. Li, Single tungsten atoms supported on MOF-derived N-doped carbon for robust electrochemical hydrogen evolution, Adv. Mater. 30 (2018) 1800396. [16] L.L. Fan P.F. Liu X.C. Yan L. Gu Z.Z. Yang H.G. Yang S.L. Qiu X.D. Yao Atomically isolated nickel species anchored on graphitized carbon for efficient hydrogen evolution electrocatalysis Nat. Commun. 7 2016 10667 L.L. Fan, P.F. Liu, X.C. Yan, L. Gu, Z.Z. Yang, H.G. Yang, S.L. Qiu, X.D. Yao, Atomically isolated nickel species anchored on graphitized carbon for efficient hydrogen evolution electrocatalysis, Nat. Commun. 7 (2016) 10667. [17] Y. He Y. Jia B. Yu Y. Wang H. Li Y. Liu Q. Tan Heteroatom coordination regulates iron single-atom-catalyst with superior oxygen reduction reaction performance for aqueous Zn-air battery Small 19 2023 2206478 Y. He, Y. Jia, B. Yu, Y. Wang, H. Li, Y. Liu, Q. Tan, Heteroatom coordination regulates iron single-atom-catalyst with superior oxygen reduction reaction performance for aqueous Zn-air battery, Small 19 (2023) 2206478. [18] Y. Huang Z. Hu L.A. Huang Z. Wang Z. Lin S. Shen W. Zhong J. Pan Phosphorus-modified cobalt single-atom catalysts loaded on crosslinked carbon nanosheets for efficient alkaline hydrogen evolution reaction Nanoscale 15 2023 3550 3559 Y. Huang, Z. Hu, L.A. Huang, Z. Wang, Z. Lin, S. Shen, W. Zhong, J. Pan, Phosphorus-modified cobalt single-atom catalysts loaded on crosslinked carbon nanosheets for efficient alkaline hydrogen evolution reaction, Nanoscale 15 (2023) 3550–3559. [19] M. Ren X. Guo S. Huang Coordination-tuned Fe single-atom catalyst for efficient CO2 electroreduction: the power of B atom Chem. Eng. J. 433 2022 134270 M. Ren, X. Guo, S. Huang, Coordination-tuned Fe single-atom catalyst for efficient CO2 electroreduction: the power of B atom, Chem. Eng. J. 433 (2022) 134270. [20] G. Kresse J. Furthmüller Efficiency of ab-initio total energy calculations for metals and semiconductors using a plane-wave basis set Comput. Mater. Sci. 6 1996 15 50 G. Kresse, J. Furthmüller, Efficiency of ab-initio total energy calculations for metals and semiconductors using a plane-wave basis set, Comput. Mater. Sci. 6 (1996) 15–50. [21] P.E. Blöchl Projector augmented-wave method Phys. Rev. B 50 1994 17953 17979 P.E. Blöchl, Projector augmented-wave method, Phys. Rev. B 50 (1994) 17953–17979. [22] J.K. Nørskov T. Bligaard A. Logadottir J.R. Kitchin J.G. Chenet S. Pandelov U. Stimming Trends in the exchange current for hydrogen evolution J. Electrochem. Soc. 152 2005 J23 J26 J.K. Nørskov, T. Bligaard, A. Logadottir, J.R. Kitchin, J.G. Chenet, S. Pandelov, U. Stimming, Trends in the exchange current for hydrogen evolution, J. Electrochem. Soc. 152 (2005) J23–J26. [23] J. Behler Atom-centered symmetry functions for constructing high-dimensional neural network potentials J. Chem. Phys. 134 2011 074106 J. Behler, Atom-centered symmetry functions for constructing high-dimensional neural network potentials, J. Chem. Phys. 134 (2011) 074106. [24] J.-N. Wang W. Xu H. Ma Qasim W.-L. Cen Screened (Co, Rh, Ir)–N4 graphene single atom catalysts for hydrogen production via tunable surrounding coordination shell: computation and machine learning Int. J. Hydrogen Energy 106 2025 186 193 J.-N. Wang, W. Xu, H. Ma, Qasim, W.-L. Cen, Screened (Co, Rh, Ir)–N4 graphene single atom catalysts for hydrogen production via tunable surrounding coordination shell: computation and machine learning, Int. J. Hydrogen Energy 106 (2025) 186‒193. [25] C. An S. Wu R. Huang X. Chen X. Han H. Gomaa Q. Deng L. Zhao N. Hu Cooperated catalytic mechanism of atomically dispersed binary Cu-N4 and Zn-N4 in N-doped carbon materials for promoting electrocatalytic CO2 reduction to CH4 Chem. Eng. J. 471 2023 144618 C. An, S. Wu, R. Huang, X. Chen, X. Han, H. Gomaa, Q. Deng, L. Zhao, N. Hu, Cooperated catalytic mechanism of atomically dispersed binary Cu-N4 and Zn-N4 in N-doped carbon materials for promoting electrocatalytic CO2 reduction to CH4, Chem. Eng. J. 471 (2023) 144618. [26] Q. Hao C. Zhen Q. Tang J. Wang P. Ma J. Wu T. Wang D. Liu L. Xie X. Liu M.D. Gu M.R. Hoffmann G. Yu K. Liu J. Lu Universal formation of single atoms from molten salt for facilitating selective CO2 reduction Adv. Mater. 36 2024 2406380 Q. Hao, C. Zhen, Q. Tang, J. Wang, P. Ma, J. Wu, T. Wang, D. Liu, L. Xie, X. Liu, M.D. Gu, M.R. Hoffmann, G. Yu, K. Liu, J. Lu, Universal formation of single atoms from molten salt for facilitating selective CO2 reduction, Adv. Mater. 36 (2024) 2406380. [27] X. Shi Y. Huang G. Zhu W. Peng M. Chen Promoted surface charge density from interlayer Zn-N4 configuration in carbon nitride for enhanced CO2 photoreduction Nano Res. 17 2024 2400 2409 X. Shi, Y. Huang, G. Zhu, W. Peng, M. Chen, Promoted surface charge density from interlayer Zn-N4 configuration in carbon nitride for enhanced CO2 photoreduction, Nano Res. 17 (2024) 2400‒2409. [28] R. Chen W. Liu Z. Sang J. Jia Z. Li J. Nie Q. Jiang Z. Mao B. Guo Q. Wang F. Hou L. Yin D. Yang J. Liang Identification of the highly active Zn-N4 sites with pyrrole/pyridine-N synergistic coordination by dz 2 + s-band center for electrocatalytic H2O2 production J. Energy Chem. 98 2024 105 113 R. Chen, W. Liu, Z. Sang, J. Jia, Z. Li, J. Nie, Q. Jiang, Z. Mao, B. Guo, Q. Wang, F. Hou, L. Yin, D. Yang, J. Liang, Identification of the highly active Zn-N4 sites with pyrrole/pyridine-N synergistic coordination by dz2 + s-band center for electrocatalytic H2O2 production, J. Energy Chem. 98 (2024) 105–113. [29] Y. Liu B. Li J. Wang C. Li H. Yang Y. Song S. Zhang C. Deng Asymmetric Zn-N4 atomic sites embedded hollow fibers as stable Zn anode for high-performance Zn-ion hybrid capacitor J. Energy Chem. 97 2024 460 469 Y. Liu, B. Li, J. Wang, C. Li, H. Yang, Y. Song, S. Zhang, C. Deng, Asymmetric Zn-N4 atomic sites embedded hollow fibers as stable Zn anode for high-performance Zn-ion hybrid capacitor, J. Energy Chem. 97 (2024) 460–469. [30] K. Boonpalit Y. Wongnongwa C. Prommin S. Nutanong S. Namuangruk Datadriven discovery of graphene-based dual-atom catalysts for hydrogen evolution reaction with graph neural network and DFT calculations ACS Appl. Mater. Interfaces 15 2023 12936 12945 K. Boonpalit, Y. Wongnongwa, C. Prommin, S. Nutanong, S. Namuangruk, Datadriven discovery of graphene-based dual-atom catalysts for hydrogen evolution reaction with graph neural network and DFT calculations, ACS Appl. Mater. Interfaces 15 (2023) 12936–12945. [31] J.-N. Wang W. Xu J. He H. Ma W.-L. Cen Screening of transition metal dual-atom catalysts for hydrogen evolution reaction based on high-throughput calculation and searching surrogate prediction model using simple features Appl. Surf. Sci. 659 2024 159942 J.-N. Wang, W. Xu, J. He, H. Ma, W.-L. Cen, Screening of transition metal dual-atom catalysts for hydrogen evolution reaction based on high-throughput calculation and searching surrogate prediction model using simple features, Appl. Surf. Sci. 659 (2024) 159942. [32] W. Wang Y. Hu P. Li Y. Liu S. Chen Realizing the 4e−/2e− pathway transition of O2 reduction on Co–N4–C catalysts by regulating the chemical structures beyond the second coordination shells ACS Catal. 14 2024 5961 5971 W. Wang, Y. Hu, P. Li, Y. Liu, S. Chen, Realizing the 4e−/2e− pathway transition of O2 reduction on Co–N4–C catalysts by regulating the chemical structures beyond the second coordination shells, ACS Catal. 14 (2024) 5961–5971.",
+      "scopus-id": "105007763318",
+      "coredata": {
+        "eid": "1-s2.0-S2468823125004754",
+        "dc:description": "Single-atom catalysts (SACs) have an important application prospects for the electrocatalytic hydrogen evolution reaction (HER). However, the rapid and low-cost design of highly active SACs remains challenging. Herein, density functional theory (DFT) calculations are employed to screen for nitrogen-doped SACs with an N4-graphene as support (M-NC SAC). A machine learning algorithm for predicting the Gibbs free energy of hydrogen absorption (△G *H) during the HER process is also obtained. The results indicate that N-doped Zn-NC SAC is screened to be an optimal candidate for HER catalysts. Based on the calculated △G *H values of Zn-NC SACs doped with two N atoms, the Random Forest Regression (RFR) is confirmed to be the optimal candidate compared to the other five algorithms, which is also verified by the calculated 129 △G *H values of Zn-NC SACs doped with three N atoms (20 % of total 645). In addition, combining the RFR algorithm with the input features related to interatomic distances, the △G *H values of the remaining 516 Zn-NC SACs doped with three N atoms are successfully predicted, thereby obtaining the structures of the Zn-NC SACs doped with three N atoms with the high HER activity. The screened N-doped Zn-NC SAC provides important guidance for the experimental synthesis of highly efficient HER catalysts in the future. Besides, the validated RFR algorithm may also have important application potential in the rapid and low-cost design of SACs doped with the other non-metallic elements.",
+        "openArchiveArticle": "false",
+        "prism:coverDate": "2025-09-30",
+        "openaccessUserLicense": null,
+        "prism:aggregationType": "Journal",
+        "prism:url": "https://api.elsevier.com/content/article/pii/S2468823125004754",
+        "dc:creator": [
+          {
+            "@_fa": "true",
+            "$": "Xu, Wei"
+          },
+          {
+            "@_fa": "true",
+            "$": "Feng, Yu-Wei"
+          },
+          {
+            "@_fa": "true",
+            "$": "Li, Shi-Jie"
+          },
+          {
+            "@_fa": "true",
+            "$": "Ma, Hao"
+          },
+          {
+            "@_fa": "true",
+            "$": "Wang, Jiu-Ning"
+          },
+          {
+            "@_fa": "true",
+            "$": "Liu, Xue-Cheng"
+          }
+        ],
+        "link": [
+          {
+            "@_fa": "true",
+            "@rel": "self",
+            "@href": "https://api.elsevier.com/content/article/pii/S2468823125004754"
+          },
+          {
+            "@_fa": "true",
+            "@rel": "scidir",
+            "@href": "https://www.sciencedirect.com/science/article/pii/S2468823125004754"
+          }
+        ],
+        "dc:format": "application/json",
+        "openaccessType": null,
+        "pii": "S2468-8231(25)00475-4",
+        "prism:volume": "584",
+        "articleNumber": "115286",
+        "prism:publisher": "Elsevier B.V. All rights are reserved, including those for text and data mining, AI training, and similar technologies.",
+        "dc:title": "Rational design of nitrogen-doped transition metal-N4-graphene single atom catalysts for hydrogen evolution reaction: Theoretical calculations and machine learning",
+        "prism:copyright": "© 2025 Elsevier B.V. All rights are reserved, including those for text and data mining, AI training, and similar technologies.",
+        "openaccess": "0",
+        "prism:issn": "24688231",
+        "dcterms:subject": [
+          {
+            "@_fa": "true",
+            "$": "Single-atom catalyst"
+          },
+          {
+            "@_fa": "true",
+            "$": "Hydrogen evolution reaction"
+          },
+          {
+            "@_fa": "true",
+            "$": "Machine Learning"
+          },
+          {
+            "@_fa": "true",
+            "$": "Screening"
+          }
+        ],
+        "openaccessArticle": "false",
+        "prism:publicationName": "Molecular Catalysis",
+        "openaccessSponsorType": null,
+        "prism:pageRange": "115286",
+        "pubType": "fla",
+        "prism:coverDisplayDate": "September 2025",
+        "prism:doi": "10.1016/j.mcat.2025.115286",
+        "prism:startingPage": "115286",
+        "dc:identifier": "doi:10.1016/j.mcat.2025.115286",
+        "openaccessSponsorName": null
+      },
+      "objects": {
+        "object": [
+          {
+            "@category": "standard",
+            "@height": "411",
+            "@width": "715",
+            "@_fa": "true",
+            "$": "https://api.elsevier.com/content/object/eid/1-s2.0-S2468823125004754-gr1.jpg?httpAccept=%2A%2F%2A",
+            "@multimediatype": "JPEG image file",
+            "@type": "IMAGE-DOWNSAMPLED",
+            "@size": "145758",
+            "@ref": "gr1",
+            "@mimetype": "image/jpeg"
+          },
+          {
+            "@category": "standard",
+            "@height": "307",
+            "@width": "470",
+            "@_fa": "true",
+            "$": "https://api.elsevier.com/content/object/eid/1-s2.0-S2468823125004754-gr2.jpg?httpAccept=%2A%2F%2A",
+            "@multimediatype": "JPEG image file",
+            "@type": "IMAGE-DOWNSAMPLED",
+            "@size": "45700",
+            "@ref": "gr2",
+            "@mimetype": "image/jpeg"
+          },
+          {
+            "@category": "standard",
+            "@height": "200",
+            "@width": "368",
+            "@_fa": "true",
+            "$": "https://api.elsevier.com/content/object/eid/1-s2.0-S2468823125004754-ga1.jpg?httpAccept=%2A%2F%2A",
+            "@multimediatype": "JPEG image file",
+            "@type": "IMAGE-DOWNSAMPLED",
+            "@size": "50739",
+            "@ref": "ga1",
+            "@mimetype": "image/jpeg"
+          },
+          {
+            "@category": "standard",
+            "@height": "417",
+            "@width": "470",
+            "@_fa": "true",
+            "$": "https://api.elsevier.com/content/object/eid/1-s2.0-S2468823125004754-gr3.jpg?httpAccept=%2A%2F%2A",
+            "@multimediatype": "JPEG image file",
+            "@type": "IMAGE-DOWNSAMPLED",
+            "@size": "37734",
+            "@ref": "gr3",
+            "@mimetype": "image/jpeg"
+          },
+          {
+            "@category": "standard",
+            "@height": "407",
+            "@width": "470",
+            "@_fa": "true",
+            "$": "https://api.elsevier.com/content/object/eid/1-s2.0-S2468823125004754-gr4.jpg?httpAccept=%2A%2F%2A",
+            "@multimediatype": "JPEG image file",
+            "@type": "IMAGE-DOWNSAMPLED",
+            "@size": "141866",
+            "@ref": "gr4",
+            "@mimetype": "image/jpeg"
+          },
+          {
+            "@category": "standard",
+            "@height": "445",
+            "@width": "659",
+            "@_fa": "true",
+            "$": "https://api.elsevier.com/content/object/eid/1-s2.0-S2468823125004754-gr5.jpg?httpAccept=%2A%2F%2A",
+            "@multimediatype": "JPEG image file",
+            "@type": "IMAGE-DOWNSAMPLED",
+            "@size": "137847",
+            "@ref": "gr5",
+            "@mimetype": "image/jpeg"
+          },
+          {
+            "@category": "standard",
+            "@height": "431",
+            "@width": "734",
+            "@_fa": "true",
+            "$": "https://api.elsevier.com/content/object/eid/1-s2.0-S2468823125004754-gr6.jpg?httpAccept=%2A%2F%2A",
+            "@multimediatype": "JPEG image file",
+            "@type": "IMAGE-DOWNSAMPLED",
+            "@size": "63140",
+            "@ref": "gr6",
+            "@mimetype": "image/jpeg"
+          },
+          {
+            "@category": "standard",
+            "@height": "430",
+            "@width": "734",
+            "@_fa": "true",
+            "$": "https://api.elsevier.com/content/object/eid/1-s2.0-S2468823125004754-gr7.jpg?httpAccept=%2A%2F%2A",
+            "@multimediatype": "JPEG image file",
+            "@type": "IMAGE-DOWNSAMPLED",
+            "@size": "62183",
+            "@ref": "gr7",
+            "@mimetype": "image/jpeg"
+          },
+          {
+            "@category": "thumbnail",
+            "@height": "126",
+            "@width": "219",
+            "@_fa": "true",
+            "$": "https://api.elsevier.com/content/object/eid/1-s2.0-S2468823125004754-gr1.sml?httpAccept=%2A%2F%2A",
+            "@multimediatype": "GIF image file",
+            "@type": "IMAGE-THUMBNAIL",
+            "@size": "18197",
+            "@ref": "gr1",
+            "@mimetype": "image/gif"
+          },
+          {
+            "@category": "thumbnail",
+            "@height": "143",
+            "@width": "219",
+            "@_fa": "true",
+            "$": "https://api.elsevier.com/content/object/eid/1-s2.0-S2468823125004754-gr2.sml?httpAccept=%2A%2F%2A",
+            "@multimediatype": "GIF image file",
+            "@type": "IMAGE-THUMBNAIL",
+            "@size": "10284",
+            "@ref": "gr2",
+            "@mimetype": "image/gif"
+          },
+          {
+            "@category": "thumbnail",
+            "@height": "119",
+            "@width": "219",
+            "@_fa": "true",
+            "$": "https://api.elsevier.com/content/object/eid/1-s2.0-S2468823125004754-ga1.sml?httpAccept=%2A%2F%2A",
+            "@multimediatype": "GIF image file",
+            "@type": "IMAGE-THUMBNAIL",
+            "@size": "15857",
+            "@ref": "ga1",
+            "@mimetype": "image/gif"
+          },
+          {
+            "@category": "thumbnail",
+            "@height": "164",
+            "@width": "185",
+            "@_fa": "true",
+            "$": "https://api.elsevier.com/content/object/eid/1-s2.0-S2468823125004754-gr3.sml?httpAccept=%2A%2F%2A",
+            "@multimediatype": "GIF image file",
+            "@type": "IMAGE-THUMBNAIL",
+            "@size": "8597",
+            "@ref": "gr3",
+            "@mimetype": "image/gif"
+          },
+          {
+            "@category": "thumbnail",
+            "@height": "164",
+            "@width": "189",
+            "@_fa": "true",
+            "$": "https://api.elsevier.com/content/object/eid/1-s2.0-S2468823125004754-gr4.sml?httpAccept=%2A%2F%2A",
+            "@multimediatype": "GIF image file",
+            "@type": "IMAGE-THUMBNAIL",
+            "@size": "24981",
+            "@ref": "gr4",
+            "@mimetype": "image/gif"
+          },
+          {
+            "@category": "thumbnail",
+            "@height": "148",
+            "@width": "219",
+            "@_fa": "true",
+            "$": "https://api.elsevier.com/content/object/eid/1-s2.0-S2468823125004754-gr5.sml?httpAccept=%2A%2F%2A",
+            "@multimediatype": "GIF image file",
+            "@type": "IMAGE-THUMBNAIL",
+            "@size": "19627",
+            "@ref": "gr5",
+            "@mimetype": "image/gif"
+          },
+          {
+            "@category": "thumbnail",
+            "@height": "129",
+            "@width": "219",
+            "@_fa": "true",
+            "$": "https://api.elsevier.com/content/object/eid/1-s2.0-S2468823125004754-gr6.sml?httpAccept=%2A%2F%2A",
+            "@multimediatype": "GIF image file",
+            "@type": "IMAGE-THUMBNAIL",
+            "@size": "8876",
+            "@ref": "gr6",
+            "@mimetype": "image/gif"
+          },
+          {
+            "@category": "thumbnail",
+            "@height": "128",
+            "@width": "219",
+            "@_fa": "true",
+            "$": "https://api.elsevier.com/content/object/eid/1-s2.0-S2468823125004754-gr7.sml?httpAccept=%2A%2F%2A",
+            "@multimediatype": "GIF image file",
+            "@type": "IMAGE-THUMBNAIL",
+            "@size": "8722",
+            "@ref": "gr7",
+            "@mimetype": "image/gif"
+          },
+          {
+            "@category": "high",
+            "@height": "1820",
+            "@width": "3167",
+            "@_fa": "true",
+            "$": "https://api.elsevier.com/content/object/eid/1-s2.0-S2468823125004754-gr1_lrg.jpg?httpAccept=%2A%2F%2A",
+            "@multimediatype": "JPEG image file",
+            "@type": "IMAGE-HIGH-RES",
+            "@size": "1046730",
+            "@ref": "gr1",
+            "@mimetype": "image/jpeg"
+          },
+          {
+            "@category": "high",
+            "@height": "1359",
+            "@width": "2083",
+            "@_fa": "true",
+            "$": "https://api.elsevier.com/content/object/eid/1-s2.0-S2468823125004754-gr2_lrg.jpg?httpAccept=%2A%2F%2A",
+            "@multimediatype": "JPEG image file",
+            "@type": "IMAGE-HIGH-RES",
+            "@size": "335910",
+            "@ref": "gr2",
+            "@mimetype": "image/jpeg"
+          },
+          {
+            "@category": "high",
+            "@height": "886",
+            "@width": "1630",
+            "@_fa": "true",
+            "$": "https://api.elsevier.com/content/object/eid/1-s2.0-S2468823125004754-ga1_lrg.jpg?httpAccept=%2A%2F%2A",
+            "@multimediatype": "JPEG image file",
+            "@type": "IMAGE-HIGH-RES",
+            "@size": "433246",
+            "@ref": "ga1",
+            "@mimetype": "image/jpeg"
+          },
+          {
+            "@category": "high",
+            "@height": "1849",
+            "@width": "2083",
+            "@_fa": "true",
+            "$": "https://api.elsevier.com/content/object/eid/1-s2.0-S2468823125004754-gr3_lrg.jpg?httpAccept=%2A%2F%2A",
+            "@multimediatype": "JPEG image file",
+            "@type": "IMAGE-HIGH-RES",
+            "@size": "295025",
+            "@ref": "gr3",
+            "@mimetype": "image/jpeg"
+          },
+          {
+            "@category": "high",
+            "@height": "1803",
+            "@width": "2083",
+            "@_fa": "true",
+            "$": "https://api.elsevier.com/content/object/eid/1-s2.0-S2468823125004754-gr4_lrg.jpg?httpAccept=%2A%2F%2A",
+            "@multimediatype": "JPEG image file",
+            "@type": "IMAGE-HIGH-RES",
+            "@size": "1244634",
+            "@ref": "gr4",
+            "@mimetype": "image/jpeg"
+          },
+          {
+            "@category": "high",
+            "@height": "1971",
+            "@width": "2917",
+            "@_fa": "true",
+            "$": "https://api.elsevier.com/content/object/eid/1-s2.0-S2468823125004754-gr5_lrg.jpg?httpAccept=%2A%2F%2A",
+            "@multimediatype": "JPEG image file",
+            "@type": "IMAGE-HIGH-RES",
+            "@size": "1062006",
+            "@ref": "gr5",
+            "@mimetype": "image/jpeg"
+          },
+          {
+            "@category": "high",
+            "@height": "1910",
+            "@width": "3250",
+            "@_fa": "true",
+            "$": "https://api.elsevier.com/content/object/eid/1-s2.0-S2468823125004754-gr6_lrg.jpg?httpAccept=%2A%2F%2A",
+            "@multimediatype": "JPEG image file",
+            "@type": "IMAGE-HIGH-RES",
+            "@size": "461162",
+            "@ref": "gr6",
+            "@mimetype": "image/jpeg"
+          },
+          {
+            "@category": "high",
+            "@height": "1905",
+            "@width": "3250",
+            "@_fa": "true",
+            "$": "https://api.elsevier.com/content/object/eid/1-s2.0-S2468823125004754-gr7_lrg.jpg?httpAccept=%2A%2F%2A",
+            "@multimediatype": "JPEG image file",
+            "@type": "IMAGE-HIGH-RES",
+            "@size": "453761",
+            "@ref": "gr7",
+            "@mimetype": "image/jpeg"
+          },
+          {
+            "@category": "standard",
+            "@_fa": "true",
+            "$": "https://api.elsevier.com/content/object/eid/1-s2.0-S2468823125004754-mmc1.docx?httpAccept=%2A%2F%2A",
+            "@multimediatype": "Microsoft Word file",
+            "@type": "APPLICATION",
+            "@size": "5444190",
+            "@ref": "mmc1",
+            "@mimetype": "application/word"
+          },
+          {
+            "@category": "thumbnail",
+            "@_fa": "true",
+            "$": "https://api.elsevier.com/content/object/eid/1-s2.0-S2468823125004754-si1.svg?httpAccept=%2A%2F%2A",
+            "@multimediatype": "Scalable Vector Graphics file",
+            "@type": "ALTIMG",
+            "@size": "9315",
+            "@ref": "si1",
+            "@mimetype": "image/svg+xml"
+          },
+          {
+            "@category": "thumbnail",
+            "@_fa": "true",
+            "$": "https://api.elsevier.com/content/object/eid/1-s2.0-S2468823125004754-si2.svg?httpAccept=%2A%2F%2A",
+            "@multimediatype": "Scalable Vector Graphics file",
+            "@type": "ALTIMG",
+            "@size": "11745",
+            "@ref": "si2",
+            "@mimetype": "image/svg+xml"
+          },
+          {
+            "@category": "thumbnail",
+            "@_fa": "true",
+            "$": "https://api.elsevier.com/content/object/eid/1-s2.0-S2468823125004754-si3.svg?httpAccept=%2A%2F%2A",
+            "@multimediatype": "Scalable Vector Graphics file",
+            "@type": "ALTIMG",
+            "@size": "9384",
+            "@ref": "si3",
+            "@mimetype": "image/svg+xml"
+          },
+          {
+            "@category": "thumbnail",
+            "@_fa": "true",
+            "$": "https://api.elsevier.com/content/object/eid/1-s2.0-S2468823125004754-si4.svg?httpAccept=%2A%2F%2A",
+            "@multimediatype": "Scalable Vector Graphics file",
+            "@type": "ALTIMG",
+            "@size": "8084",
+            "@ref": "si4",
+            "@mimetype": "image/svg+xml"
+          },
+          {
+            "@category": "thumbnail",
+            "@_fa": "true",
+            "$": "https://api.elsevier.com/content/object/eid/1-s2.0-S2468823125004754-si5.svg?httpAccept=%2A%2F%2A",
+            "@multimediatype": "Scalable Vector Graphics file",
+            "@type": "ALTIMG",
+            "@size": "7939",
+            "@ref": "si5",
+            "@mimetype": "image/svg+xml"
+          }
+        ]
+      },
+      "link": {
+        "@rel": "abstract",
+        "@href": "https://api.elsevier.com/content/abstract/scopus_id/105007763318"
+      }
+    }
+  }
+}

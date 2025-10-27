@@ -1,0 +1,630 @@
+{
+  "metadata": {
+    "title": "Catalytic activity evaluation of industrial Pd/C catalyst via gray-box dynamic modeling and simulation of hydropurification reactor",
+    "authors": "; ; ",
+    "journal": "Applied Catalysis A: General",
+    "date": "2015-01-31",
+    "doi": "10.1016/j.apcata.2014.10.048",
+    "abstract": "",
+    "uri": "https://api.elsevier.com/content/article/pii/S0926860X14006711",
+    "pii": "S0926860X14006711"
+  },
+  "fulltext": {
+    "full-text-retrieval-response": {
+      "scopus-eid": "2-s2.0-84927711639",
+      "originalText": "serial JL 271346 291210 291744 291809 31 Applied Catalysis A: General APPLIEDCATALYSISAGENERAL 2014-11-04 2014-11-04 2019-10-30T03:10:36 1-s2.0-S0926860X14006711 S0926-860X(14)00671-1 S0926860X14006711 10.1016/j.apcata.2014.10.048 S300 S300.2 FULL-TEXT 1-s2.0-S0926860X14X00207 2024-01-01T12:30:29.635264Z 0 0 20150101 20150131 2015 2014-11-04T10:10:58.704335Z absattachment articleinfo articletitlenorm authfirstinitialnorm authfirstsurnamenorm cid cids contenttype copyright crossmark dateloaded dateloadedtxt datesearch datesort dateupdated dco docsubtype doctype doi eid ewtransactionid hubeid indexeddate issn issnnorm itemstage itemtransactionid itemweight openaccess openarchive pg pgfirst pglast pii piinorm pubdateend pubdatestart pubdatetxt pubyr sectiontitle sortorder srctitle srctitlenorm srctype ssids alllist content subj subheadings suppl tomb volfirst volissue volumelist webpdf webpdfpagecount yearnav figure table e-component body mmlmath acknowledge affil appendices articletitle auth authfirstini authfull authkeywords authlast highlightsabst nomenclature primabst ref specialabst 0926-860X 0926860X true 489 489 C Volume 489 34 262 271 262 271 201501 January 2015 2015-01-01 2015-01-31 2015 Articles article fla Copyright © 2014 Elsevier B.V. All rights reserved. CATALYTICACTIVITYEVALUATIONINDUSTRIALPDCCATALYSTVIAGRAYBOXDYNAMICMODELINGSIMULATIONHYDROPURIFICATIONREACTOR AZARPOUR A Nomenclature 1 Introduction 2 Experiment 3 Hydropurification process description and problem statement 3.1 Hydropurification process description 3.2 Problem statement 4 Methodology 4.1 Data collection 4.2 FPM development (white box) 4.2.1 Hydropurification reactions 4.2.2 Pd/C catalyst deactivation 4.2.3 Reactor operation and catalyst specifications 4.2.4 Conservative equations 4.2.4.1 Gas phase 4.2.4.2 Liquid phase 4.2.4.3 Solid phase 4.3 Artificial neural network (black box) 4.4 Training-validating-testing 4.5 Estimation of kinetics-deactivation term 4.6 Parameters calculation 4.7 Model mathematical solution 4.8 Model validation 5 Results and discussion 5.1 Model validation 5.2 GBM and FPM comparison 5.3 Carbon monoxide and benzoic acid synthesis 5.4 Reactor feed flowrate 5.5 Hydrogen flowrate 5.6 Misconception of getting more profit through production rate enhancement 6 Conclusions Acknowledgement Appendix A Supplementary data References MEDEROS 2012 13 27 F DELAPAZZAVALA 2013 227 234 C CHU 2013 159 166 Q SEALAR 2003 25 29 T SHARMA 2012 9 21 N SERRA 2003 393 403 J MOHAMMED 2013 142 152 M WORDEN 2007 514 534 K ESTRADAFLORES 2006 931 946 S BOLLAS 2003 697 713 G AGUIAR 2001 565 570 H ZAHEDI 2005 113 120 G ARAHAL 2008 441 451 M BADDAY 2014 31 37 A MANSOORNEJAD 2008 1447 1455 B TOSUKHOWONG 2008 8273 8281 T SARACENO 2010 1590 1596 A PAKRAVESH 2011 2351 2365 H WU 2012 1624 1636 H KHAJEH 2013 1624 1630 M VONSTOSCH 2014 86 101 M STPC 2010 OPERATINGMANUAL SHAOGANG 2008 54 Z PELLEGRINI 2011 150 160 R SEMIKOLENOV 1993 507 515 V MEDEROS 2009 1 19 F MEARS 1971 1361 1366 D KUMAR 2001 1029 1038 V ERGUN 1952 89 94 S ALDAHHAN 1995 2377 2389 M OSTROVSKII 1989 287 292 N BARTHOLOMEW 2001 17 60 C AZARPOUR 2012 180 193 A MOULIJN 2001 3 16 J MOLGA 1999 2467 2473 E GALVAN 1996 1451 1465 I LIN 2002 R EPSPECIFICATION ALBERS 2001 275 286 P HOKENEK 2012 1013 1019 S PERNICONE 1998 129 135 N AZARPOURX2015X262 AZARPOURX2015X262X271 AZARPOURX2015X262XA AZARPOURX2015X262X271XA 2019-03-14T15:26:48.167Z http://vtw.elsevier.com/data/voc/AddOnTypes/50.7/nlp S0926860X14006711 Postdoctoral Research University Universiti Teknologi Malaysia Universiti Teknologi Malaysia http://data.elsevier.com/vocabulary/SciValFunders/501100005417 http://sws.geonames.org/1733045/ The authors would like to highly appreciate the Postdoctoral Research University (PDRU) Grant from Universiti Teknologi Malaysia (Vote number: Q.J130000.21A2.01E79). Appendix A item S0926-860X(14)00671-1 S0926860X14006711 1-s2.0-S0926860X14006711 10.1016/j.apcata.2014.10.048 271346 2024-01-01T12:30:29.635264Z 2015-01-01 2015-01-31 1-s2.0-S0926860X14006711-main.pdf https://s3.amazonaws.com/prod-ucs-content-store-us-east/content/pii:S0926860X14006711/MAIN/application/pdf/41a689ddb9cfa79470d7a0eee16c6aa1/main.pdf main.pdf pdf true 2084299 MAIN 10 1-s2.0-S0926860X14006711-main_1.png https://s3.amazonaws.com/prod-ucs-content-store-us-east/content/pii:S0926860X14006711/PREVIEW/image/png/d4886bb849c1e921a48eb2a25e839ee8/main_1.png main_1.png png 56514 849 656 IMAGE-WEB-PDF 1 1-s2.0-S0926860X14006711-fx1.sml https://s3.amazonaws.com/prod-ucs-content-store-us-east/content/pii:S0926860X14006711/fx1/THUMBNAIL/image/gif/bc81ddf6d1a782351e1550a39e6a7675/fx1.sml fx1 true fx1.sml sml 10386 124 219 IMAGE-THUMBNAIL 1-s2.0-S0926860X14006711-gr1.sml https://s3.amazonaws.com/prod-ucs-content-store-us-east/content/pii:S0926860X14006711/gr1/THUMBNAIL/image/gif/5bdb6058309510f862493e99b5b89cd8/gr1.sml gr1 gr1.sml sml 16546 163 116 IMAGE-THUMBNAIL 1-s2.0-S0926860X14006711-gr2.sml https://s3.amazonaws.com/prod-ucs-content-store-us-east/content/pii:S0926860X14006711/gr2/THUMBNAIL/image/gif/452675d0bc51663b6d869552cea45358/gr2.sml gr2 gr2.sml sml 13992 139 219 IMAGE-THUMBNAIL 1-s2.0-S0926860X14006711-gr3.sml https://s3.amazonaws.com/prod-ucs-content-store-us-east/content/pii:S0926860X14006711/gr3/THUMBNAIL/image/gif/534fb76029fbfd63dce86d07a06dc14f/gr3.sml gr3 gr3.sml sml 18202 123 219 IMAGE-THUMBNAIL 1-s2.0-S0926860X14006711-gr4.sml https://s3.amazonaws.com/prod-ucs-content-store-us-east/content/pii:S0926860X14006711/gr4/THUMBNAIL/image/gif/720c0860d68db347c1732ddba742c923/gr4.sml gr4 gr4.sml sml 16606 164 129 IMAGE-THUMBNAIL 1-s2.0-S0926860X14006711-gr5.sml https://s3.amazonaws.com/prod-ucs-content-store-us-east/content/pii:S0926860X14006711/gr5/THUMBNAIL/image/gif/bec1107bf06639ede3974466e6f461dc/gr5.sml gr5 gr5.sml sml 18039 164 204 IMAGE-THUMBNAIL 1-s2.0-S0926860X14006711-gr6.sml https://s3.amazonaws.com/prod-ucs-content-store-us-east/content/pii:S0926860X14006711/gr6/THUMBNAIL/image/gif/9cb106af5e2bea3c861f9db78abdc2c5/gr6.sml gr6 gr6.sml sml 15868 164 208 IMAGE-THUMBNAIL 1-s2.0-S0926860X14006711-gr7.sml https://s3.amazonaws.com/prod-ucs-content-store-us-east/content/pii:S0926860X14006711/gr7/THUMBNAIL/image/gif/14a26c609c4af603b0225c93bd6303c4/gr7.sml gr7 gr7.sml sml 15512 164 196 IMAGE-THUMBNAIL 1-s2.0-S0926860X14006711-gr8.sml https://s3.amazonaws.com/prod-ucs-content-store-us-east/content/pii:S0926860X14006711/gr8/THUMBNAIL/image/gif/fe2014f10e7910d516e1a5497c234d8c/gr8.sml gr8 gr8.sml sml 15482 164 196 IMAGE-THUMBNAIL 1-s2.0-S0926860X14006711-gr9.sml https://s3.amazonaws.com/prod-ucs-content-store-us-east/content/pii:S0926860X14006711/gr9/THUMBNAIL/image/gif/ca9290bc708eda5c9a670a52143554de/gr9.sml gr9 gr9.sml sml 15601 164 196 IMAGE-THUMBNAIL 1-s2.0-S0926860X14006711-fx1.jpg https://s3.amazonaws.com/prod-ucs-content-store-us-east/content/pii:S0926860X14006711/fx1/DOWNSAMPLED/image/jpeg/d5b97f5d86382d6e5dc929241ee24583/fx1.jpg fx1 true fx1.jpg jpg 21187 200 354 IMAGE-DOWNSAMPLED 1-s2.0-S0926860X14006711-gr1.jpg https://s3.amazonaws.com/prod-ucs-content-store-us-east/content/pii:S0926860X14006711/gr1/DOWNSAMPLED/image/jpeg/0ca1c4a1ad75b635b7445eaa63889ccc/gr1.jpg gr1 gr1.jpg jpg 127826 740 527 IMAGE-DOWNSAMPLED 1-s2.0-S0926860X14006711-gr2.jpg https://s3.amazonaws.com/prod-ucs-content-store-us-east/content/pii:S0926860X14006711/gr2/DOWNSAMPLED/image/jpeg/20780f9938d28a1e16c1319edb45c1c0/gr2.jpg gr2 gr2.jpg jpg 32038 250 393 IMAGE-DOWNSAMPLED 1-s2.0-S0926860X14006711-gr3.jpg https://s3.amazonaws.com/prod-ucs-content-store-us-east/content/pii:S0926860X14006711/gr3/DOWNSAMPLED/image/jpeg/56694955416ccf7d31e715d0011e28fb/gr3.jpg gr3 gr3.jpg jpg 56354 302 535 IMAGE-DOWNSAMPLED 1-s2.0-S0926860X14006711-gr4.jpg https://s3.amazonaws.com/prod-ucs-content-store-us-east/content/pii:S0926860X14006711/gr4/DOWNSAMPLED/image/jpeg/0557ae03b522241b70f16acd7d4e4f22/gr4.jpg gr4 gr4.jpg jpg 128629 844 663 IMAGE-DOWNSAMPLED 1-s2.0-S0926860X14006711-gr5.jpg https://s3.amazonaws.com/prod-ucs-content-store-us-east/content/pii:S0926860X14006711/gr5/DOWNSAMPLED/image/jpeg/136db54c56db671a7d55c3ee7750e0a6/gr5.jpg gr5 gr5.jpg jpg 53193 315 393 IMAGE-DOWNSAMPLED 1-s2.0-S0926860X14006711-gr6.jpg https://s3.amazonaws.com/prod-ucs-content-store-us-east/content/pii:S0926860X14006711/gr6/DOWNSAMPLED/image/jpeg/ebcdd41bdc1248fc2b5f8f99e5d42c8c/gr6.jpg gr6 gr6.jpg jpg 38384 309 393 IMAGE-DOWNSAMPLED 1-s2.0-S0926860X14006711-gr7.jpg https://s3.amazonaws.com/prod-ucs-content-store-us-east/content/pii:S0926860X14006711/gr7/DOWNSAMPLED/image/jpeg/adbf3bd049e6a672010a783e0b1a1641/gr7.jpg gr7 gr7.jpg jpg 48686 328 393 IMAGE-DOWNSAMPLED 1-s2.0-S0926860X14006711-gr8.jpg https://s3.amazonaws.com/prod-ucs-content-store-us-east/content/pii:S0926860X14006711/gr8/DOWNSAMPLED/image/jpeg/7f374ad7827ab515615af0bf446bcde7/gr8.jpg gr8 gr8.jpg jpg 49033 328 393 IMAGE-DOWNSAMPLED 1-s2.0-S0926860X14006711-gr9.jpg https://s3.amazonaws.com/prod-ucs-content-store-us-east/content/pii:S0926860X14006711/gr9/DOWNSAMPLED/image/jpeg/d5e7c8896d0ff6246e774868749c7387/gr9.jpg gr9 gr9.jpg jpg 49787 328 393 IMAGE-DOWNSAMPLED 1-s2.0-S0926860X14006711-fx1_lrg.jpg https://s3.amazonaws.com/prod-ucs-content-store-us-east/content/pii:S0926860X14006711/fx1/HIGHRES/image/jpeg/7fda39dea58433aebc78854f4f482c6a/fx1_lrg.jpg fx1 true fx1_lrg.jpg jpg 157323 886 1570 IMAGE-HIGH-RES 1-s2.0-S0926860X14006711-gr1_lrg.jpg https://s3.amazonaws.com/prod-ucs-content-store-us-east/content/pii:S0926860X14006711/gr1/HIGHRES/image/jpeg/6089fd2c4bd0647e9174048b9c11ea4b/gr1_lrg.jpg gr1 gr1_lrg.jpg jpg 739830 3277 2333 IMAGE-HIGH-RES 1-s2.0-S0926860X14006711-gr2_lrg.jpg https://s3.amazonaws.com/prod-ucs-content-store-us-east/content/pii:S0926860X14006711/gr2/HIGHRES/image/jpeg/27b701c35bc48f94b5364400ed3eff42/gr2_lrg.jpg gr2 gr2_lrg.jpg jpg 74392 665 1045 IMAGE-HIGH-RES 1-s2.0-S0926860X14006711-gr3_lrg.jpg https://s3.amazonaws.com/prod-ucs-content-store-us-east/content/pii:S0926860X14006711/gr3/HIGHRES/image/jpeg/146299d0ca52e99e822b86c4399db292/gr3_lrg.jpg gr3 gr3_lrg.jpg jpg 298098 1337 2371 IMAGE-HIGH-RES 1-s2.0-S0926860X14006711-gr4_lrg.jpg https://s3.amazonaws.com/prod-ucs-content-store-us-east/content/pii:S0926860X14006711/gr4/HIGHRES/image/jpeg/2f29f881497f5023497fa03e20a187a2/gr4_lrg.jpg gr4 gr4_lrg.jpg jpg 686430 3739 2937 IMAGE-HIGH-RES 1-s2.0-S0926860X14006711-gr5_lrg.jpg https://s3.amazonaws.com/prod-ucs-content-store-us-east/content/pii:S0926860X14006711/gr5/HIGHRES/image/jpeg/a9e63059a6dbb858e9157793819db2f8/gr5_lrg.jpg gr5 gr5_lrg.jpg jpg 254535 1398 1742 IMAGE-HIGH-RES 1-s2.0-S0926860X14006711-gr6_lrg.jpg https://s3.amazonaws.com/prod-ucs-content-store-us-east/content/pii:S0926860X14006711/gr6/HIGHRES/image/jpeg/1a5f40f7b0e9a308ad8cdded8aaaec63/gr6_lrg.jpg gr6 gr6_lrg.jpg jpg 178796 1372 1743 IMAGE-HIGH-RES 1-s2.0-S0926860X14006711-gr7_lrg.jpg https://s3.amazonaws.com/prod-ucs-content-store-us-east/content/pii:S0926860X14006711/gr7/HIGHRES/image/jpeg/f45efdf84db1f89f8764f5101eac4821/gr7_lrg.jpg gr7 gr7_lrg.jpg jpg 213958 1455 1742 IMAGE-HIGH-RES 1-s2.0-S0926860X14006711-gr8_lrg.jpg https://s3.amazonaws.com/prod-ucs-content-store-us-east/content/pii:S0926860X14006711/gr8/HIGHRES/image/jpeg/1edf6f1560ae9030f0c76bedf678a5a2/gr8_lrg.jpg gr8 gr8_lrg.jpg jpg 225920 1454 1740 IMAGE-HIGH-RES 1-s2.0-S0926860X14006711-gr9_lrg.jpg https://s3.amazonaws.com/prod-ucs-content-store-us-east/content/pii:S0926860X14006711/gr9/HIGHRES/image/jpeg/7cb765cb889e27db3ea0d462ad5ce1f7/gr9_lrg.jpg gr9 gr9_lrg.jpg jpg 220330 1453 1739 IMAGE-HIGH-RES 1-s2.0-S0926860X14006711-mmc1.docx https://s3.amazonaws.com/prod-ucs-content-store-us-east/content/pii:S0926860X14006711/mmc1/MAIN/application/msword/6f40a2a2087dc1891fe670f1e1361c2a/mmc1.docx mmc1 mmc1.docx docx 219351 APPLICATION 1-s2.0-S0926860X14006711-si1.gif https://s3.amazonaws.com/prod-ucs-content-store-us-east/content/pii:S0926860X14006711/STRIPIN/image/gif/0f75d728c0705e59305f1f497c52ee38/si1.gif si1 si1.gif gif 2071 62 363 ALTIMG 1-s2.0-S0926860X14006711-si10.gif https://s3.amazonaws.com/prod-ucs-content-store-us-east/content/pii:S0926860X14006711/STRIPIN/image/gif/9b9b3badc2fe02dd127e5fd775bd553b/si10.gif si10 si10.gif gif 251 17 53 ALTIMG 1-s2.0-S0926860X14006711-si11.gif https://s3.amazonaws.com/prod-ucs-content-store-us-east/content/pii:S0926860X14006711/STRIPIN/image/gif/874d4728f226070f8a5f4553c3ff1025/si9.gif si11 si11.gif gif 222 18 48 ALTIMG 1-s2.0-S0926860X14006711-si12.gif https://s3.amazonaws.com/prod-ucs-content-store-us-east/content/pii:S0926860X14006711/STRIPIN/image/gif/4cc0cd22adcb2b8c4df56cf14956b977/si12.gif si12 si12.gif gif 1269 59 216 ALTIMG 1-s2.0-S0926860X14006711-si2.gif https://s3.amazonaws.com/prod-ucs-content-store-us-east/content/pii:S0926860X14006711/STRIPIN/image/gif/5e28413cc4f490bd022e3d22c0fbcd66/si2.gif si2 si2.gif gif 2037 62 385 ALTIMG 1-s2.0-S0926860X14006711-si3.gif https://s3.amazonaws.com/prod-ucs-content-store-us-east/content/pii:S0926860X14006711/STRIPIN/image/gif/d255fa10459446d94224f8b8c560aaf2/si3.gif si3 si3.gif gif 1707 30 452 ALTIMG 1-s2.0-S0926860X14006711-si4.gif https://s3.amazonaws.com/prod-ucs-content-store-us-east/content/pii:S0926860X14006711/STRIPIN/image/gif/3cb2c17cc896431c5389621816be2dd1/si4.gif si4 si4.gif gif 1828 42 351 ALTIMG 1-s2.0-S0926860X14006711-si5.gif https://s3.amazonaws.com/prod-ucs-content-store-us-east/content/pii:S0926860X14006711/STRIPIN/image/gif/268741f64ade3e8031c8ad3bce9e5923/si5.gif si5 si5.gif gif 1784 71 306 ALTIMG 1-s2.0-S0926860X14006711-si6.gif https://s3.amazonaws.com/prod-ucs-content-store-us-east/content/pii:S0926860X14006711/STRIPIN/image/gif/f598cc9ecaf0bd54b127a9491d0c3bef/si6.gif si6 si6.gif gif 1195 36 249 ALTIMG 1-s2.0-S0926860X14006711-si7.gif https://s3.amazonaws.com/prod-ucs-content-store-us-east/content/pii:S0926860X14006711/STRIPIN/image/gif/2a2cdd561493b62489853c01e0f9abfb/si7.gif si7 si7.gif gif 1559 47 342 ALTIMG 1-s2.0-S0926860X14006711-si8.gif https://s3.amazonaws.com/prod-ucs-content-store-us-east/content/pii:S0926860X14006711/STRIPIN/image/gif/9bc25c7285b33d9678afd68b09426ed5/si8.gif si8 si8.gif gif 731 35 150 ALTIMG 1-s2.0-S0926860X14006711-si9.gif https://s3.amazonaws.com/prod-ucs-content-store-us-east/content/pii:S0926860X14006711/STRIPIN/image/gif/874d4728f226070f8a5f4553c3ff1025/si9.gif si9 si9.gif gif 222 18 48 ALTIMG APCATA 15080 S0926-860X(14)00671-1 10.1016/j.apcata.2014.10.048 Elsevier B.V. Fig. 1 Layout of the purification section of PTA production plant (D: crystallizer; FC: flow controller; HE: heat exchanger; LC: level controller; NRV: not-return valve; PC: pressure controller) [22]. Fig. 2 Research methodology. Fig. 3 Layout of the gray-box model (GBM). Fig. 4 Computer algorithm for the hybrid model of the hydropurification reactor. Fig. 5 The reactor outlet concentration of 4-CBA obtained from GBM and FPM in comparison with industrial data over the course of time. Fig. 6 The influence of 4-CBA inlet concentration on BA and CO synthesis in the hydropurification reactor. Fig. 7 The influence of reactor feed flowrate on the Pd/C catalyst lifetime. Fig. 8 The influence of hydrogen flowrate increase on the Pd/C catalyst lifetime. Fig. 9 The effect of the PTA production rate increase on the reactor catalytic efficiency. Table 1 Data employed to structure the network. Day Inlet Outlet CTA powder Feed PTA powder Reactor outlet 4-CBA (ppm) pta (ppm) H2 (kgh−1) 4-CBA (ppm) pta (ppm) H2 (kgh−1) 4-HMBA (ppm) 15 1100 230 6 11.4 100 3 250 30 1200 270 6.5 12.2 90 3.2 256 45 1500 250 8.6 13 100 4.2 292 60 1400 330 8.3 13.8 90 4.1 289 75 1700 250 8.5 14.6 95 4.2 321 90 1000 300 9 15.4 82 4.4 323 105 1700 300 9.3 16.2 90 4.6 332 120 2000 250 9.3 16.9 100 4.5 358 135 2000 350 10 17.7 105 4.8 389 150 2000 400 9.9 18.4 85 4.8 392 165 1750 200 9.8 19.4 70 4.8 403 180 1700 250 9.5 19.8 95 4.7 416 195 2000 300 9.6 20.4 110 4.8 433 210 2500 350 9.8 20.9 60 4.6 439 225 2000 280 10.1 21.4 100 5.2 449 240 2200 300 10.2 21.8 90 5.2 460 255 2000 350 10.1 22.2 120 5.2 468 270 3000 280 10.2 22.6 150 5.4 472 285 2000 300 10.3 23.1 130 5.6 486 300 2000 350 10.2 23.5 100 5.7 491 315 2500 300 10.9 24 110 5.7 506 330 1900 500 10.5 24.5 90 5.8 517 345 2000 270 11.5 25 100 6 521 360 1500 400 11.9 25.5 105 6 541 375 2000 350 12.2 26 100 6.2 547 390 2000 400 13 26.5 90 6.4 562 405 2000 330 13.4 27 110 6.6 564 420 2000 380 13.5 27.5 125 6.8 581 The inlet and outlet values of BA in the reactor feed are 58 and 172ppm, respectively, and the inlet and outlet values of CO in the reactor feed are nil and 27ppm, respectively. The inlet values of 4-HMBA to the reactor are considered nil. Table 2 Reactor operational conditions and the catalyst specifications [22]. Item Value Item Value Pressure 73.5barg Bulk density 475kgm−3 Temperature 285°C Bed void fraction 0.44 Feed flowrate 196th−1 Particle porosity 0.61 Hydrogen flowrate 13.2kgh−1 Pd 0.5wt.% TA concentration 23wt.% Activated carbon 99.5wt.%. Catalyst bed length 7.4m Water content in wet catalyst 38wt.% Catalyst bed diameter 2.8m Particle size distribution 4–8 (mesh)=97% Particle diameter 3.53×10−3 m 4.75–2.36 (mm) Specific surface area 900–1100m2 g−1 Less than 4 (mesh)=2% Over 8 (mesh)=1% Catalytic activity evaluation of industrial Pd/C catalyst via gray-box dynamic modeling and simulation of hydropurification reactor Abbas Azarpour a Sharifah R. Wan Alwi a ⁎ Gholamreza Zahedi b Mazyar Madooli c Graeme J. Millar d a Process Systems Engineering Center (PROSPECT), Faculty of Chemical Engineering, Universiti Teknologi Malaysia, 81310 Skudai, Johor, Malaysia Process Systems Engineering Center (PROSPECT), Faculty of Chemical Engineering, Universiti Teknologi Malaysia Skudai Johor 81310 Malaysia b Chemical & Biological Engineering Department, Missouri University of Science & Technology, 1870 Miner Circle, Rolla, MO 65409, USA Chemical & Biological Engineering Department, Missouri University of Science & Technology 1870 Miner Circle Rolla MO 65409 USA c PTA/PET Process Engineering Office, Shahid Tondgooyan Petrochemical Company, Petrochemical Economic Special Zone, 667 Mahshahr, Khoozestan, Iran PTA/PET Process Engineering Office, Shahid Tondgooyan Petrochemical Company, Petrochemical Economic Special Zone Mahshahr Khoozestan 667 Iran d Science and Engineering Faculty, Queensland University of Technology, Brisbane 4000, QLD, Australia Science and Engineering Faculty, Queensland University of Technology Brisbane QLD 4000 Australia ⁎ Corresponding author. Tel.: +60 7 5535533; fax: +60 7 5588166. Graphical abstract In this paper, dynamic modeling and simulation of the hydropurification reactor in a purified terephthalic acid production plant has been investigated by gray-box technique to evaluate the catalytic activity of palladium supported on carbon (0.5wt.% Pd/C) catalyst. The reaction kinetics and catalyst deactivation trend have been modeled by employing artificial neural network (ANN). The network output has been incorporated with the reactor first principle model (FPM). The simulation results reveal that the gray-box model (FPM and ANN) is about 32 percent more accurate than FPM. The model demonstrates that the catalyst is deactivated after eleven months. Moreover, the catalyst lifetime decreases about two and half months in case of 7 percent increase of reactor feed flowrate. It is predicted that 10 percent enhancement of hydrogen flowrate promotes catalyst lifetime at the amount of one month. Additionally, the enhancement of 4-carboxybenzaldehyde concentration in the reactor feed improves CO and benzoic acid synthesis. CO is a poison to the catalyst, and benzoic acid might affect the product quality. The model can be applied into actual working plants to analyze the Pd/C catalyst efficient functioning and the catalytic reactor performance. Keywords Gray-box Dynamic modeling 4-Carboxybenzaldehyde Catalyst Artificial neural network Deactivation Nomenclature a(t) deactivation parameter (–) C concentration (kmolm−3) ΔH r heat of reaction (kJmol−1) H Henry's constant (bargm3 kmol−1) k mass transfer coefficient (ms−1) K total gas–liquid mass transfer coefficient (ms−1) P i partial pressure of component i (barg) q z coordinate increment Q total number of increments Q f feed flowrate (m3 s−1) r rate of reaction (kmolkgs −1 s−1) t time (s) u superficial velocity (ms−1) V B bed volume (m3) x datum value z axial coordinate (m) Greek Letters ɛ B bed void fraction (–) ɛ phase holdup (–) ɛ P particle porosity (–) η catalyst effectiveness factor (–) ξ Specific surface area of the phase interface (m2 m−3) ρ B bed bulk density (kgm−3) Subscripts g gas phase i,j index of components in inlet to the reactor k reaction index l liquid phase out outlet from the reactor P particle s solid phase Superscripts ind industrial S surface of the catalyst sim simulation ss steady state 0 reactor inlet condition 1 Introduction Catalytic hydrotreating (HDT) is one of the elemental processes in the refinery and petrochemical industries which is employed to improve the quality of products through catalytic conversion or reduction of low polluting compounds such as sulphur and aromatics [1]. The HDT reactions like hydrodeasphaltenization, hydrodesulfurization, hydrodemetallization, and hydrodenitrogenation are processed in three phase fixed-bed catalytic reactors (FBCRs) [2]. Catalyst deactivation, the catalytic activity and selectivity loss over time, is a significant concern in the practice of industrial catalytic processes. Industrial disadvantages of deactivation are the production time loss and waste of investment. Catalyst deactivation is undoubtedly one of the most considerable issues in the accomplishment of HDT processes. The rate of deactivation depends on the feed properties, especially the impurities low concentration [3]. Purified terephthalic acid (PTA) is the key raw material to manufacture polyethylene terephthalate (PET). PET is broadly utilized in the production of synthetic fibers, beverage bottles, frozen food trays, toiletries, cosmetics, household and pharmaceutical products, molding resins, X-ray and other photographic films, magnetic tape, electrical insulation, printing sheets, and food packaging film [4]. In the current technology of PTA production, the oxidation of para-xylene (PX) to crude terephthalic acid (CTA) is catalyzed by metals (Co2+, Mn2+) and bromide (Br1−) in acetic acid (AA) as solvent. Purification of CTA requires at least one chemical step in addition to the physical processes such as crystallization and washing. One of the major impurities is 4-carboxybenzaldehyde (4-CBA). It is converted to para-toluic acid (pta) by catalytic hydrogenation in an aqueous solution carried out in a trickle-bed reactor (TBR). Artificial neural network (ANN) models can be very efficient to simulate the processes which are very complicated and highly nonlinear, improperly known, and taking much time to be analyzed with different empirical models. They are very flexible and engage less model mismatched [5]. ANN can be applied into the prediction of reaction parameters when there is not enough information related to the reaction mechanisms [6]. Some classical equations are usually employed to mathematically present the deactivation model. When the deactivation mechanism of the catalyst is not clearly understood, ANN is a very good tool to predict it using the industrial reactor data. ANN models have the ability to create quantitative relationships between the input and output data without prior knowledge of the correlation between the variables involved in the system [7]. Generally, there are three main methods to model the processes: white box, black box, and gray-box [8]. White box, first principle model (FPM) or deterministic model, is used when complete information of the process is known, and the whole dominant equations of the system are possible to be solved utilizing analytical or numerical techniques [9]. ANN models are usually faster than FPMs. ANNs are suitable for modeling, control, and optimization purposes [10]. Complex partial differential equations (PDEs) or complex algebraic equations usually appear in FPM development which required to be solved analytically or numerically. ANNs need large number of training sets and have limited and weak extrapolation capacity. Hybrid or gray-box model (GBM) is a combination of white box and black box models, which can overcome the disadvantages of both models. GBM takes over the benefits of both techniques (ANN and FPM) and renders their constraints [11]. GBM has extrapolation ability, where ANNs fail in this case and usually is more accurate than FPMs [12]. The application of hybrid models as an appropriate method to simulate reactions kinetics models were recorded in many papers [13–15]. A gray-box model was devised to determine a dynamic model in order to investigate the control objectives of an integrated plant with recycle [16]. The simulation of the fermentation process of ethanol was performed by a hybrid neural model which was a combination of ANN and mass balance equations for lactose, ethanol, and biomass [17]. A hybrid optimization method combining variable population size genetic algorithm, bacterial optimization, and shuffled frog leaping was employed to evaluate the optimal operation of poly vinyl acetate production in an industrial scale continuous stirred tank reactor (CSTR) [18]. Control of polymer molecular weight distribution was achieved by a GBM devised for styrene polymerization in a CSTR [19]. Response surface methodology and hybrid model of ANN-particle swarm optimization were employed to determine the trace amounts of methylene blue from water samples through the simulation and optimization of the solid phase extraction [20]. Recently, a review was done on the most established hybrid semi-parametric modeling and parameter identification techniques applied in the control, process monitoring, optimization, and model reduction of chemical engineering systems [21]. In the current study, a gray-box model has been employed to simulate the catalytic hydropurification reactor in a PTA production plant in order to analyze the activity of the industrial Pd/C catalyst in terms of catalyst lifetime. The hydropurification reaction mechanism and the deactivation trend of palladium supported on carbon (Pd/C) catalyst as kinetics-deactivation term has been determined by an established ANN method as black box using the industrial reactor data. Subsequently, the developed network output has been linked with the hydropurification reactor FPM as white box. The devised hybrid model has been solved through a numerical technique, and the relevant codes have been written in MATLAB (version 2010b) environment. The catalytic reactor performance has been assessed in different process conditions focusing on the catalyst deactivation and the concentration fluctuation of 4-CBA as the main impurity. 2 Experiment The analysis of the CTA and PTA powder samples were carried out in the laboratory of the industrial plant [22]. In order to measure the powders specifications some equipment and materials have been used: HPLC machine with auto sampler (HPLC Waters 600 Column C18 Novapack 4μm), STRODS column with 4mm thickness and 150mm length, class A 100 volumetric flask, analytical scale with an accuracy of 0.1mg, ultrasonic bath, 2N ammonia solution, standard samples with specific amounts of 4-CBA, pta, benzoic acid (BA), 4-hydroxymethylbenzoic acid (4-HMBA), and mobile phase including acetonitrile (21vol.%), tri-fluoro AA (0.1vol.%), and HPLC grade water (78.9vol.%). The HPLC machine was controlled at 50°C, 0.5mlmin−1, 230nm wavelength for BA and pta, 260nm wavelength for 4-CBA and 4-HMBA. After injecting 20ml of 0.5N ammonia solution to the machine by auto sampler, 0.5±0.1g of standard samples was mixed with 10ml of 2N ammonia and deionized water to make a solution of 100ml. About 5ml of the solution was filtered by syringe type with specification of 0.45mm. Then, it was transferred to auto sampler machine vial. 10μl of standard samples was injected to the machine. The amounts of 4-CBA, pta, BA, and 4-HMBA were calibrated by the generated peaks. Thereafter, the injection of 10μl of standard samples and the process of the solution filtration and its transfer to the machine were repeated to calculate the necessary values from the received chromatography. 3 Hydropurification process description and problem statement 3.1 Hydropurification process description Purification of CTA is mainly carried out through the catalytic hydropurification of 4-CBA to pta. Fig. 1 illustrates the purification section of PTA production plant. CTA powder is mixed with filtrate coming from the filtration section in a slurry feed drum (SFD). The dissolved CTA along with compressed hydrogen is penetrated via top entry to the hydropurification reactor. The liquid leaving the reactor is crystallized, centrifuged, filterred in a rotary vacuum filter (RVF), and dried. Dried PTA is transported to checking silos through PCS. PTA powder is finally transferred either to the product silos as on-spec material or sent back to CTA silos for reprocessing as off-spec product. 3.2 Problem statement The main challenge of PTA purification operation is to control PTA powder quality and lengthen the lifetime of the expensive Pd/C catalyst. There are some specifications which are considered for the evaluation of the final PTA product as on-spec. The main specifications of the product quality are the concentration of 4-CBA (less than 25ppm at the final product), delta-y as an indication of black appearance of PTA powder, and b-value as an indication of color degree of the product and its yellowish appearance. The fluctuation of the operational parameters such as reactor feed flowrate, feed concentration, and the impurities concentration affect the catalytic reactor efficient performance. When the product is off-spec, it might be either reprocessed or utilized by the downstream polyester plant. The following problems can be mentioned in case that the product is off-spec: Catalyst lifetime decrease. Serious operational problems in the polyester plants. Low quality product of polyester, especially its unfavorable appearance. PTA powder back-transfer operational problems. Operational problems in its reprocessing, especially in filtration and drying. Partial or total cease of production. Given a set of the data gathered from an industrial hydropurification reactor operation, the reactor performance is going to be sensitively analyzed. Most concerning issue of FBCRs modeling is the accessibility of the reaction rate expressions and the deactivation relation. Most reaction rate expressions are derived in the environment that is far from the real operational conditions of the industrial reactors. In addition, the deactivation mechanism cannot exactly describe the real deactivation trend of the catalyst. Therefore, employing a hybrid model to be able to predict the reaction mechanism and deactivation trend through a special algorithm such as ANN is a suitable method to deal with the mentioned problems. 4 Methodology Fig. 2 depicts the methodology of this study. 4.1 Data collection Table 1 includes the data of the samples analysis reported by the laboratory utilized to establish the network and accomplish the study. 4.2 FPM development (white box) The dynamic first principle model development is required to analyze the catalytic performance of the reactor dealing with catalyst deactivation. The steps of the modeling endeavor are explained below. 4.2.1 Hydropurification reactions The following reactions have been considered as the CTA hydropurification reactions taking place inside the catalytic bed [23]: (1) C 8 H 6 O 3 4-CBA + H 2 ⟶ Pd/C C 8 H 8 O 3 4-HMBA ; Δ H r = − 83 .82 kJ mol − 1 (2) C 8 H 8 O 3 4-HMBA + H 2 ⟶ Pd/C C 8 H 8 O 2 pta + H 2 O ; Δ H r = − 121.88 kJ mol − 1 (3) C 8 H 6 O 3 4-CBA ⟶ Pd/C C 7 H 6 O 2 BA + CO ; Δ H r = 18.73 kJ mol − 1 4.2.2 Pd/C catalyst deactivation Pd/C catalyst consisting of 0.5wt.% palladium nanodispersed particles is deactivated due to Pd sintering and the decline of Pd surface atoms accessibility [24]. Palladium mobility over the surface of carbon support is basically described by the surface structure, its chemical composition and energy characteristics, sintering temperature, and composition of reaction medium [25]. 4.2.3 Reactor operation and catalyst specifications Table 2 gives information on the conditions of reactor operation and the catalyst specifications. 4.2.4 Conservative equations In the hydropurification reaction system, the main impurity flowrate compared with the reactor feed flowrate is minor. Therefore, the system is under isothermal operation. The following equations outline the mass balances of the components in each phase of the catalytic bed of TBR considering the below-mentioned assumptions: Plug flow behavior is considered for both gas and liquid phases [26]. Back-mixing or axial dispersion is minimal [27]. Radial mass transfer is negligible [26]. Wall effect and heat transfer are not significant [28]. Pressure drop through the bed is small [29]. Particles wetting is nearly complete [30]. 4.2.4.1 Gas phase (4) ∂ ε g C H 2 , g ∂ t = − ∂ u g C H 2 , g ∂ z − K H 2 , g l ξ g l P H 2 , g H H 2 − C H 2 , l 4.2.4.2 Liquid phase (5) ε l ∂ C H 2 , l ∂ t = − u l ∂ C H 2 , l ∂ z + K H 2 , g l ξ g l P H 2 H H 2 − C H 2 , l − k H 2 , l s ξ l s C H 2 , l − C H 2 , s S (6) ε l ∂ C i , l ∂ t = − u l ∂ C i , l ∂ z + k i , l s ξ l s C i , s S − C i , l 4.2.4.3 Solid phase (7) ε P ( 1 − ε B ) ∂ C i , s ∂ t = k i , l s ξ l s C i , l − C i , s S ± ∑ k = 1 3 r k a ( t ) η k ρ B where i are 4-CBA, 4-HMBA, pta, BA, and CO. The ‘+’ sign is for the products, and the ‘−’ sign is for the reactants. 4.3 Artificial neural network (black box) While kinetics modeling of the main reactions is based on well-developed theory, deactivation models remain as yet mostly empirical [31]. Therefore, a more accurate model is necessary as the replacement of the traditional models for the catalyst deactivation assessment. There are different models of sintering such as empirical, phenomenological, probabilistic, and mechanistic which cannot simulate the observed phenomena over sufficiently broad extents of conditions [32]. In this contribution, ANN is used to predict the multiplication of the reaction rate of the components and the deactivation parameter (r.a) as kinetics-deactivation term appeared in mass balance equations. The chemical reactions and the deactivation phenomenon are usually described relying on the availability of the active sites of the catalyst. Therefore, the rate of reaction and the deactivation trend are interrelated with each other. The following relation reveals how this term is determined from the industrial data of input and output of the hydropurification reactor (targets) to feed the network for each time step. It is developed for each component and each reaction relying on the mass balance in the catalytic bed. Eq. (7) is developed for the whole components in the solid phase. The parameter a is a substitution of the whole parameters affecting the catalyst deactivation, and the complicated mechanism of the sintering phenomenon is ignored. Thus, the kinetics-deactivation term facilitates the burdens of the accurate prediction of the mechanisms of kinetics and deactivation. (8) r , a = C i , in − C i , out Q f η k ρ B ε B V B Feed-forward neural network (FFNN), which is applied to the categorization and the approximation problems, has been chosen as the network structure. An FFNN with one hidden layer and enough neurons (N) in the hidden layer can match any limited input–output mapping problem. 4.4 Training-validating-testing After structuring a network, it is required to train it, validate it, and test it. Levenberg–Marquardt, BFGS Quasi Newton, and Resilient Back-propagation trained the data more precisely than the other training algorithms. Levenberg–Marquardt training algorithm (trainlm) has been eventually chosen due to its better performance. Trainlm is a network training function that updates weight and bias values according to Levenberg–Marquardt optimization. 4.5 Estimation of kinetics-deactivation term After the ANN preparation, it is ready to simulate each input data to squash out the required information for FPM. Fig. 3 indicates the layout of GBM incorporating FPM and ANN and the details of the ANN (Black Box) giving the best results. 4.6 Parameters calculation The parameters involved into conservative equations incorporating the physical properties of the components and the reaction mixture are calculated relying on the proper correlations considering the real operation conditions [33]. 4.7 Model mathematical solution The set of PDEs presenting the dynamic (Dyn) condition of the catalytic system is required to be solved in two approaches. At the first approach, the initial conditions of the dynamic behavior of the reactor for each increment (q as sectionized z coordinate) have to be determined. Therefore, Eqs. (6) and (7) are developed for whole components, and they are equaled to zero (Steady State: SS). In this case, the catalyst is considered as fresh one (a =1). The outputs of this step are saved as the initial conditions for the dynamic state determination. At the second approach, the set of PDEs developed for whole components are transformed to ordinary differential equations (ODEs) employing the finite difference method. The kinetics-deactivation term (r.a) for each length increment (q) and time step is predicted by the trained FFNN, and the values are introduced to the FPM to solve the set of equations. The boundary and initial conditions for the solution of the set of PDEs are following: Initial conditions For t =0 at z =0 C i = C i 0 For t =0 at z >0 C i = C i S S Boundary conditions For t >0 at z =0 C i = C i 0 where i is hydrogen for the gas phase, and i are 4-CBA, 4-HMBA, pta, BA, and CO for the liquid and solid phases. Fig. 4 shows the algorithm of the computer programs coded into MATLAB 2010b environment for the solution of the hydropurification reactor hybrid model. 4.8 Model validation The validation of the proposed hybrid model has been carried out utilizing percent relative error (RE) and root mean square error (RMSE). RMSE is defined as: (9) RMSE = 1 N D ∑ i = 1 N D x i ind − x i sim 2 where x ind and x sim are the industrial data and simulation results, respectively, and ND specifies the number of the data. 5 Results and discussion The catalyst deactivated by sintering phenomenon might be regenerated, but usually the best strategy is to decline the rate of deactivation process [34]. Therefore, it is quite helpful to model and simulate the hydropurification reactor to evaluate the parameters affecting the catalyst deactivation to extend its lifetime. The industrial Pd/C catalyst bears strong stresses during its lifetime. It is heated up during startup and cooled down for shutdown purpose encountering thermal expansion and contraction. Moreover, the mechanical strength of the catalyst is adversely affected due to the fluctuation of the reactor pressure under abnormal conditions. Also, the reaction phase is acidic which might result in the leaching/corrosion reason of the deactivation. Furthermore, the reaction temperature of the purification process is very close to the Huttig temperature, which is an indication of the mobility of the atoms at defects, for the Pd heterogeneous catalysis [34]. The first principle dynamic modeling of the hydropurification reactor of PTA production was fulfilled considering the deactivation of Pd/C catalyst due to sintering [33]. Following items include the findings of the gray-box dynamic modeling of hydropurification reactor focusing on the influences of the parameters on the reactor run and the catalyst deactivation. 5.1 Model validation RMSE values of FPM and GBM have been calculated 0.46 and 0.31, respectively. In addition, percent RE values of FPM and GBM are 2.85 and 1.67, respectively. This analysis suggests that the employed hybrid model is about 32 percent more accurate than FPM implying significant implications in relation to the predictions of the reactor operation. ANN can be employed for the complicated reaction systems. Usual constraints of kinetic modeling of complicated chemical reactions are insufficiently understood mechanisms [35], undesirable side reactions, inability in quantifying the concentration of adsorbed surface components and gas phase radicals, and change of the rate limiting steps in case of operational conditions fluctuation [36]. Moreover, ANN can rectify the determination of the deactivation rate of a porous catalyst which relies on a number of factors: the actual decay reactions, the presence or absence of pore diffusion slowdown, the way poisons affect the surface, pore mouth blocking by deposited solids, equilibrium and reversible poisoning, regeneration process, etc. [32]. 5.2 GBM and FPM comparison Fig. 5 indicates that the results of GBM are nearer to the industrial data than those of FPM. After about 11 months the catalyst was deactivated and was not capable of converting the content of 4-CBA lower than 25ppm. In this condition, there is no remedy to regenerate the catalyst activity, and it has to be replaced. The high level of 4-CBA content improves b-value leading to the reduction of the transparent specialty of the powder. The source of 4-CBA builds up from the improper control of the reactor feed concentration, high flowrate of the feed, and insufficient control of PX oxidation reactors. The high concentration of 4-CBA in PTA powder stimulates the side reactions of PET polymerization and reduces the efficiency. It means that 4-CBA can block the polymer chain and lessen the molecular weight because of having acidic group [37]. Moreover, 4-CBA can shorten the activity of antimony oxide catalyst due to its aldehyde group in PET polymerization process. 5.3 Carbon monoxide and benzoic acid synthesis Fig. 6 reflects the effect of reactor inlet concentration of 4-CBA on the synthesis of CO and benzoic acid (BA) in the reactor. CO is well known to be a poison to Pd catalysts. CO is able to change the adsorption properties and catalytic surface conditions of palladium catalysts [38] by strong interactions between CO molecules and certain surface sites of palladium [39]. The quality of the hydrogen is also important. It sometimes happened that the product was still off-spec after bringing back 4-CBA inlet concentration in the normal range. After analysis of the hydrogen quality carried out by the laboratory, it was realized that the inlet hydrogen was contaminated with CO. In addition, BA is initially produced from the side reactions of PX oxidation in CTA unit and mostly removed through a scrubber. Based on the efficiency of separation, it might remain in the hydropurification reactor feed to a very little extent. In addition, it is synthesized by 4-CBA hydrogenation side reaction. BA can be crystallized during the downstream physical separation processes and penetrates into the final product leading to the product acidic number increase. 5.4 Reactor feed flowrate Fig. 7 illustrates that the rise of feed flowrate deteriorates the catalytic activity of the catalyst and reduces the optimal performance of the hydropurification reactor. The figure further depicts the influence of increasing reactor feed flowrate by the amounts of 7 percent and 14 percent compared with the normal operation flowrate indicating the decrease of the catalyst lifetime at the amount of three and half months and six and half months, respectively. The analysis has been made based on the maximum allowed value of the main impurity (25ppm) at the reactor outlet and the normal lifetime of the catalyst (331 days). When the flowrate is high, the residence time of the reaction mixture on the active sites of the catalyst is not enough to fulfill the hydropurification reactions. Moreover, more contaminants existed in the feed such as sulphur, oil, metallic terephthalates, and polymers pass through the catalyst bed [40]. 5.5 Hydrogen flowrate Fig. 8 denotes that when the inlet hydrogen flowrate increases, the outlet of 4-CBA concentration declines implying more lifetime of Pd/C catalyst. When the hydrogen flowrate steps up at the values of 7 percent and 14 percent more than normal operation flowrate, 4-CBA outlet concentration reduces, and the lifetime of the catalyst improves about one month and two months, respectively. It has been concluded relying on the topmost value of the 4-CBA concentration in the final product and the normal lifetime of Pd/C catalyst. It is to be mentioned that to enhance the hydrogen flowrate more than the value suggested causes the difficulty in the control of the reactor pressure resulting in the increase of delta-y. There is a strong internal diffusion resistance for hydropurification of 4-CBA over Pd/C catalyst. The hydrogenation rate enhances with the increase of hydrogen flowrate which is demonstrated by the 4-CBA outlet concentration reduction. When the hydrogen flowrate improves, the amount of adsorbed hydrogen on the catalyst surface increases due to the higher mass transfer rate and dissolved hydrogen concentration. The other effect of the higher hydrogen flowrate is that the leaching of precious metal like palladium can be minimized by improving the availability of hydrogen in the liquid reaction medium [38]. When 0.5wt.% Pd/C catalyst is exposed to hydrogen in high temperature, palladium hydride particles (PdHx) migrate over the surface from the smooth areas to find the sites where interaction with a particle is strong as stabilization centers. At the same time, some Pd atoms diffusion can take place on the surface which results in the development of large particles size and in the decrease of small particles number. It was verified that the utilization of carbon supports with a surface formed by the edge planes of carbon micro-crystallite packs increases the catalyst tolerance against deactivation for high temperature processes. Moreover, the significant stabilizing effect of edge planes of carbon crystallite can be provided, probably, by the strong interaction of acid-containing functional groups of these planes with Pd particles. Yet, the changes in the shape of Pd particles and the distribution over the surface are observed for the process with hydrogen at the temperatures higher than 573K [25]. 5.6 Misconception of getting more profit through production rate enhancement Fig. 9 demonstrates that to increase the production rate shortens the lifetime of the catalyst and negatively affects the reactor running. The figure signifies that 10 percent and 20 percent increase in the production rate compared with the normal operation rate decreases the lifetime of the catalyst two and months and five months, respectively. The assessment has been made regarding the 4-CBA outlet concentration and the catalyst normal lifetime. When the concentration is high, more impurities contain into the reactor feed, and the catalyst is not able to convert the main impurity to less than the required value considered for the on-spec product. Furthermore, the catalyst synthesis and the Pd dispersity are carried out so that the catalyst is able to deal with a maximum defined amount of the impurities. Therefore, the idea of getting more profit through the boost of the production rate is not acceptable, and the control of density meter and the concentration of the reactor feed has to be carried out more carefully to avoid the rapid catalytic weakness of Pd/C catalyst and improper purification process. 6 Conclusions In this paper, a dynamic hybrid model as GBM has been employed to evaluate the 0.5wt.% Pd/C industrial catalyst deactivation in the process of CTA hydropurification. The devised model is a combination of FPM as white box and ANN as black box. The research takes advantage of product quality analysis and operational data from an actual working plant. The hybrid model is able to predict the catalytic performance of the process more accurately than FPM. This achievement is important since it is very critical to know at what degree the catalyst is from deactivation orientation, and how the purification process is being controlled. If PTA powder analysis reveals more 4-CBA content compared with the hybrid model output for a considerable period of time, the source of the problem is to be searched immediately to rectify it. 4-CBA concentration increase in the reactor feed not only boosts the synthesis of BA which might penetrate into the powder to affect the product quality but also increases the CO production which is a serious poison to the catalyst. Moreover, even a minor increase of the reactor feed flowrate worsens the activity of the Pd catalyst and shortens its lifetime. Furthermore, hydrogen flowrate enhancement improves the lifetime of the catalyst. Additionally, the idea of production rate enhancement due to any reason such as compensation of raw material stock shortage for PET production plant dramatically disturbs the catalytic reactor performance. The proposed model can be applied into a real PTA production plant to determine the lifetime of the expensive Pd/C catalyst, to continue on-spec production, to analyze the catalytic reactor operation, to teach the plant operators, to control the plant more efficiently, and to encounter less number of shutdowns. Acknowledgement The authors would like to highly appreciate the Postdoctoral Research University (PDRU) Grant from Universiti Teknologi Malaysia (Vote number: Q.J130000.21A2.01E79). Appendix A Supplementary data Supplementary material related to this article can be found, in the online version, at http://dx.doi.org/10.1016/j.apcata.2014.10.048. Appendix A Supplementary data The following are the supplementary data to this article: References [1] F.S. Mederos J. Ancheyta I. Elizalde Appl. Catal., A: Gen. 425 2012 13 27 [2] C. De la Paz-Zavala E. Burgos-Vázquez J.E. Rodríguez-Rodríguez L.F. Ramírez-Verduzco Fuel 110 2013 227 234 [3] Q. Chu J. Feng W. Li K. Xie Chin. J. Catal. 34 2013 159 166 [4] T. Sealar Frontiers 8 2003 25 29 [5] N. Sharma K. Singh Chem. Eng. Process. 59 2012 9 21 [6] J.M. Serra A. Corma A. Chica E. Argente V. Botti Catal. Today 81 2003 393 403 [7] M.L. Mohammed D. Patel R. Mbeleck D. Niyogi D.C. Sherrington B. Saha Appl. Catal., A: Gen. 466 2013 142 152 [8] K. Worden C. Wong U. Parlitz A. Hornstein D. Engster T. Tjahjowidodo F. Al-Bender D. Rizos S. Fassois Mech. Syst. Sig. Process. 21 2007 514 534 [9] S. Estrada-Flores I. Merts B. De Ketelaere J. Lammertyn Int. J. Refrig. 29 2006 931 946 [10] G.M. Bollas S. Papadokonstadakis J. Michalopoulos G. Arampatzis A.A. Lappas I.A. Vasalos A. Lygeros Chem. Eng. Process. 42 2003 697 713 [11] H.C. Aguiar R.M. Filho Chem. Eng. Sci. 56 2001 565 570 [12] G. Zahedi A. Elkamel A. Lohi A. Jahanmiri M.R. Rahimpor Chem. Eng. J. 115 2005 113 120 [13] M.R. Arahal C.M. Cirre M. Berenguel Sol. Energy 82 2008 441 451 [14] A.S. Badday A.Z. Abdullah K.-T. Lee Chem. Eng. Process. 75 2014 31 37 [15] B. Mansoornejad N. Mostoufi F. Jalali-Farahani Comput. Chem. Eng. 32 2008 1447 1455 [16] T. Tosukhowong J.H. Lee Ind. Eng. Chem. Res. 47 2008 8273 8281 [17] A. Saraceno S. Curcio V. Calabrò G. Iorio Comput. Chem. Eng. 34 2010 1590 1596 [18] H. Pakravesh A. Shojaei Comput. Chem. Eng. 35 2011 2351 2365 [19] H. Wu L. Cao J. Wang J. Process Control 22 2012 1624 1636 [20] M. Khajeh M. Kaykhaii A. Sharafi J. Ind. Eng. Chem. 19 2013 1624 1630 [21] M. von Stosch R. Oliveira J. Peres S. Feyo de Azevedo Comput. Chem. Eng. 60 2014 86 101 [22] STPC Operating Manual 2010 Shahid Tondgooyan Petrochemical Company Iran [23] Z. Shaogang Z. Jinghong Y. Weikang Chem. React. Eng. Technol. 24 2008 54 [24] R. Pellegrini G. Agostini E. Groppo A. Piovano G. Leofanti C. Lamberti J. Catal. 280 2011 150 160 [25] V. Semikolenov S. Lavrenko V. Zaikovskii React. Kinet. Catal. Lett. 51 1993 507 515 [26] F.S. Mederos J. Ancheyta J. Chen Appl. Catal., A: Gen. 355 2009 1 19 [27] D.E. Mears Chem. Eng. Sci. 26 1971 1361 1366 [28] V.R. Kumar K. Balaraman V.R. Rao M. Ananth Pet. Sci. Technol. 19 2001 1029 1038 [29] S. Ergun Chem. Eng. Prog. 48 1952 89 94 [30] M.H. Al-Dahhan M.P. Duduković Chem. Eng. Sci. 50 1995 2377 2389 [31] N. Ostrovskii G. Yablonskii React. Kinet. Catal. Lett. 39 1989 287 292 [32] C.H. Bartholomew Appl. Catal., A: Gen. 212 2001 17 60 [33] A. Azarpour G. Zahedi Chem. Eng. J. 209 2012 180 193 [34] J. Moulijn A. Van Diepen F. Kapteijn Appl. Catal., A: Gen. 212 2001 3 16 [35] E. Molga R. Cherbański Chem. Eng. Sci. 54 1999 2467 2473 [36] I.M. Galván J.M. Zaldívar H. Hernandez E. Molga Comput. Chem. Eng. 20 1996 1451 1465 [37] R. Lin R.S. O’meadhra R.B. Sheppard E.P. Specification 2002 European Patent Office [38] P. Albers J. Pietsch S.F. Parker J. Mol. Catal. A: Chem. 173 2001 275 286 [39] S. Hokenek J.N. Kuhn ACS Catal. 2 2012 1013 1019 [40] N. Pernicone M. Cerboni G. Prelazzi F. Pinna G. Fagherazzi Catal. Today 44 1998 129 135",
+      "scopus-id": "84927711639",
+      "coredata": {
+        "eid": "1-s2.0-S0926860X14006711",
+        "dc:description": "In this paper, dynamic modeling and simulation of the hydropurification reactor in a purified terephthalic acid production plant has been investigated by gray-box technique to evaluate the catalytic activity of palladium supported on carbon (0.5wt.% Pd/C) catalyst. The reaction kinetics and catalyst deactivation trend have been modeled by employing artificial neural network (ANN). The network output has been incorporated with the reactor first principle model (FPM). The simulation results reveal that the gray-box model (FPM and ANN) is about 32 percent more accurate than FPM. The model demonstrates that the catalyst is deactivated after eleven months. Moreover, the catalyst lifetime decreases about two and half months in case of 7 percent increase of reactor feed flowrate. It is predicted that 10 percent enhancement of hydrogen flowrate promotes catalyst lifetime at the amount of one month. Additionally, the enhancement of 4-carboxybenzaldehyde concentration in the reactor feed improves CO and benzoic acid synthesis. CO is a poison to the catalyst, and benzoic acid might affect the product quality. The model can be applied into actual working plants to analyze the Pd/C catalyst efficient functioning and the catalytic reactor performance.",
+        "openArchiveArticle": "false",
+        "prism:coverDate": "2015-01-31",
+        "openaccessUserLicense": null,
+        "prism:aggregationType": "Journal",
+        "prism:url": "https://api.elsevier.com/content/article/pii/S0926860X14006711",
+        "dc:creator": [
+          {
+            "@_fa": "true",
+            "$": "Azarpour, Abbas"
+          },
+          {
+            "@_fa": "true",
+            "$": "Wan Alwi, Sharifah R."
+          },
+          {
+            "@_fa": "true",
+            "$": "Zahedi, Gholamreza"
+          },
+          {
+            "@_fa": "true",
+            "$": "Madooli, Mazyar"
+          },
+          {
+            "@_fa": "true",
+            "$": "Millar, Graeme J."
+          }
+        ],
+        "link": [
+          {
+            "@_fa": "true",
+            "@rel": "self",
+            "@href": "https://api.elsevier.com/content/article/pii/S0926860X14006711"
+          },
+          {
+            "@_fa": "true",
+            "@rel": "scidir",
+            "@href": "https://www.sciencedirect.com/science/article/pii/S0926860X14006711"
+          }
+        ],
+        "dc:format": "application/json",
+        "openaccessType": null,
+        "pii": "S0926-860X(14)00671-1",
+        "prism:volume": "489",
+        "prism:publisher": "Elsevier B.V.",
+        "dc:title": "Catalytic activity evaluation of industrial Pd/C catalyst via gray-box dynamic modeling and simulation of hydropurification reactor",
+        "prism:copyright": "Copyright © 2014 Elsevier B.V. All rights reserved.",
+        "openaccess": "0",
+        "prism:issn": "0926860X",
+        "dcterms:subject": [
+          {
+            "@_fa": "true",
+            "$": "Gray-box"
+          },
+          {
+            "@_fa": "true",
+            "$": "Dynamic modeling"
+          },
+          {
+            "@_fa": "true",
+            "$": "4-Carboxybenzaldehyde"
+          },
+          {
+            "@_fa": "true",
+            "$": "Catalyst"
+          },
+          {
+            "@_fa": "true",
+            "$": "Artificial neural network"
+          },
+          {
+            "@_fa": "true",
+            "$": "Deactivation"
+          }
+        ],
+        "openaccessArticle": "false",
+        "prism:publicationName": "Applied Catalysis A: General",
+        "openaccessSponsorType": null,
+        "prism:pageRange": "262-271",
+        "prism:endingPage": "271",
+        "pubType": "fla",
+        "prism:coverDisplayDate": "January 2015",
+        "prism:doi": "10.1016/j.apcata.2014.10.048",
+        "prism:startingPage": "262",
+        "dc:identifier": "doi:10.1016/j.apcata.2014.10.048",
+        "openaccessSponsorName": null
+      },
+      "objects": {
+        "object": [
+          {
+            "@category": "thumbnail",
+            "@height": "124",
+            "@width": "219",
+            "@_fa": "true",
+            "$": "https://api.elsevier.com/content/object/eid/1-s2.0-S0926860X14006711-fx1.sml?httpAccept=%2A%2F%2A",
+            "@multimediatype": "GIF image file",
+            "@type": "IMAGE-THUMBNAIL",
+            "@size": "10386",
+            "@ref": "fx1",
+            "@mimetype": "image/gif"
+          },
+          {
+            "@category": "thumbnail",
+            "@height": "163",
+            "@width": "116",
+            "@_fa": "true",
+            "$": "https://api.elsevier.com/content/object/eid/1-s2.0-S0926860X14006711-gr1.sml?httpAccept=%2A%2F%2A",
+            "@multimediatype": "GIF image file",
+            "@type": "IMAGE-THUMBNAIL",
+            "@size": "16546",
+            "@ref": "gr1",
+            "@mimetype": "image/gif"
+          },
+          {
+            "@category": "thumbnail",
+            "@height": "139",
+            "@width": "219",
+            "@_fa": "true",
+            "$": "https://api.elsevier.com/content/object/eid/1-s2.0-S0926860X14006711-gr2.sml?httpAccept=%2A%2F%2A",
+            "@multimediatype": "GIF image file",
+            "@type": "IMAGE-THUMBNAIL",
+            "@size": "13992",
+            "@ref": "gr2",
+            "@mimetype": "image/gif"
+          },
+          {
+            "@category": "thumbnail",
+            "@height": "123",
+            "@width": "219",
+            "@_fa": "true",
+            "$": "https://api.elsevier.com/content/object/eid/1-s2.0-S0926860X14006711-gr3.sml?httpAccept=%2A%2F%2A",
+            "@multimediatype": "GIF image file",
+            "@type": "IMAGE-THUMBNAIL",
+            "@size": "18202",
+            "@ref": "gr3",
+            "@mimetype": "image/gif"
+          },
+          {
+            "@category": "thumbnail",
+            "@height": "164",
+            "@width": "129",
+            "@_fa": "true",
+            "$": "https://api.elsevier.com/content/object/eid/1-s2.0-S0926860X14006711-gr4.sml?httpAccept=%2A%2F%2A",
+            "@multimediatype": "GIF image file",
+            "@type": "IMAGE-THUMBNAIL",
+            "@size": "16606",
+            "@ref": "gr4",
+            "@mimetype": "image/gif"
+          },
+          {
+            "@category": "thumbnail",
+            "@height": "164",
+            "@width": "204",
+            "@_fa": "true",
+            "$": "https://api.elsevier.com/content/object/eid/1-s2.0-S0926860X14006711-gr5.sml?httpAccept=%2A%2F%2A",
+            "@multimediatype": "GIF image file",
+            "@type": "IMAGE-THUMBNAIL",
+            "@size": "18039",
+            "@ref": "gr5",
+            "@mimetype": "image/gif"
+          },
+          {
+            "@category": "thumbnail",
+            "@height": "164",
+            "@width": "208",
+            "@_fa": "true",
+            "$": "https://api.elsevier.com/content/object/eid/1-s2.0-S0926860X14006711-gr6.sml?httpAccept=%2A%2F%2A",
+            "@multimediatype": "GIF image file",
+            "@type": "IMAGE-THUMBNAIL",
+            "@size": "15868",
+            "@ref": "gr6",
+            "@mimetype": "image/gif"
+          },
+          {
+            "@category": "thumbnail",
+            "@height": "164",
+            "@width": "196",
+            "@_fa": "true",
+            "$": "https://api.elsevier.com/content/object/eid/1-s2.0-S0926860X14006711-gr7.sml?httpAccept=%2A%2F%2A",
+            "@multimediatype": "GIF image file",
+            "@type": "IMAGE-THUMBNAIL",
+            "@size": "15512",
+            "@ref": "gr7",
+            "@mimetype": "image/gif"
+          },
+          {
+            "@category": "thumbnail",
+            "@height": "164",
+            "@width": "196",
+            "@_fa": "true",
+            "$": "https://api.elsevier.com/content/object/eid/1-s2.0-S0926860X14006711-gr8.sml?httpAccept=%2A%2F%2A",
+            "@multimediatype": "GIF image file",
+            "@type": "IMAGE-THUMBNAIL",
+            "@size": "15482",
+            "@ref": "gr8",
+            "@mimetype": "image/gif"
+          },
+          {
+            "@category": "thumbnail",
+            "@height": "164",
+            "@width": "196",
+            "@_fa": "true",
+            "$": "https://api.elsevier.com/content/object/eid/1-s2.0-S0926860X14006711-gr9.sml?httpAccept=%2A%2F%2A",
+            "@multimediatype": "GIF image file",
+            "@type": "IMAGE-THUMBNAIL",
+            "@size": "15601",
+            "@ref": "gr9",
+            "@mimetype": "image/gif"
+          },
+          {
+            "@category": "standard",
+            "@height": "200",
+            "@width": "354",
+            "@_fa": "true",
+            "$": "https://api.elsevier.com/content/object/eid/1-s2.0-S0926860X14006711-fx1.jpg?httpAccept=%2A%2F%2A",
+            "@multimediatype": "JPEG image file",
+            "@type": "IMAGE-DOWNSAMPLED",
+            "@size": "21187",
+            "@ref": "fx1",
+            "@mimetype": "image/jpeg"
+          },
+          {
+            "@category": "standard",
+            "@height": "740",
+            "@width": "527",
+            "@_fa": "true",
+            "$": "https://api.elsevier.com/content/object/eid/1-s2.0-S0926860X14006711-gr1.jpg?httpAccept=%2A%2F%2A",
+            "@multimediatype": "JPEG image file",
+            "@type": "IMAGE-DOWNSAMPLED",
+            "@size": "127826",
+            "@ref": "gr1",
+            "@mimetype": "image/jpeg"
+          },
+          {
+            "@category": "standard",
+            "@height": "250",
+            "@width": "393",
+            "@_fa": "true",
+            "$": "https://api.elsevier.com/content/object/eid/1-s2.0-S0926860X14006711-gr2.jpg?httpAccept=%2A%2F%2A",
+            "@multimediatype": "JPEG image file",
+            "@type": "IMAGE-DOWNSAMPLED",
+            "@size": "32038",
+            "@ref": "gr2",
+            "@mimetype": "image/jpeg"
+          },
+          {
+            "@category": "standard",
+            "@height": "302",
+            "@width": "535",
+            "@_fa": "true",
+            "$": "https://api.elsevier.com/content/object/eid/1-s2.0-S0926860X14006711-gr3.jpg?httpAccept=%2A%2F%2A",
+            "@multimediatype": "JPEG image file",
+            "@type": "IMAGE-DOWNSAMPLED",
+            "@size": "56354",
+            "@ref": "gr3",
+            "@mimetype": "image/jpeg"
+          },
+          {
+            "@category": "standard",
+            "@height": "844",
+            "@width": "663",
+            "@_fa": "true",
+            "$": "https://api.elsevier.com/content/object/eid/1-s2.0-S0926860X14006711-gr4.jpg?httpAccept=%2A%2F%2A",
+            "@multimediatype": "JPEG image file",
+            "@type": "IMAGE-DOWNSAMPLED",
+            "@size": "128629",
+            "@ref": "gr4",
+            "@mimetype": "image/jpeg"
+          },
+          {
+            "@category": "standard",
+            "@height": "315",
+            "@width": "393",
+            "@_fa": "true",
+            "$": "https://api.elsevier.com/content/object/eid/1-s2.0-S0926860X14006711-gr5.jpg?httpAccept=%2A%2F%2A",
+            "@multimediatype": "JPEG image file",
+            "@type": "IMAGE-DOWNSAMPLED",
+            "@size": "53193",
+            "@ref": "gr5",
+            "@mimetype": "image/jpeg"
+          },
+          {
+            "@category": "standard",
+            "@height": "309",
+            "@width": "393",
+            "@_fa": "true",
+            "$": "https://api.elsevier.com/content/object/eid/1-s2.0-S0926860X14006711-gr6.jpg?httpAccept=%2A%2F%2A",
+            "@multimediatype": "JPEG image file",
+            "@type": "IMAGE-DOWNSAMPLED",
+            "@size": "38384",
+            "@ref": "gr6",
+            "@mimetype": "image/jpeg"
+          },
+          {
+            "@category": "standard",
+            "@height": "328",
+            "@width": "393",
+            "@_fa": "true",
+            "$": "https://api.elsevier.com/content/object/eid/1-s2.0-S0926860X14006711-gr7.jpg?httpAccept=%2A%2F%2A",
+            "@multimediatype": "JPEG image file",
+            "@type": "IMAGE-DOWNSAMPLED",
+            "@size": "48686",
+            "@ref": "gr7",
+            "@mimetype": "image/jpeg"
+          },
+          {
+            "@category": "standard",
+            "@height": "328",
+            "@width": "393",
+            "@_fa": "true",
+            "$": "https://api.elsevier.com/content/object/eid/1-s2.0-S0926860X14006711-gr8.jpg?httpAccept=%2A%2F%2A",
+            "@multimediatype": "JPEG image file",
+            "@type": "IMAGE-DOWNSAMPLED",
+            "@size": "49033",
+            "@ref": "gr8",
+            "@mimetype": "image/jpeg"
+          },
+          {
+            "@category": "standard",
+            "@height": "328",
+            "@width": "393",
+            "@_fa": "true",
+            "$": "https://api.elsevier.com/content/object/eid/1-s2.0-S0926860X14006711-gr9.jpg?httpAccept=%2A%2F%2A",
+            "@multimediatype": "JPEG image file",
+            "@type": "IMAGE-DOWNSAMPLED",
+            "@size": "49787",
+            "@ref": "gr9",
+            "@mimetype": "image/jpeg"
+          },
+          {
+            "@category": "high",
+            "@height": "886",
+            "@width": "1570",
+            "@_fa": "true",
+            "$": "https://api.elsevier.com/content/object/eid/1-s2.0-S0926860X14006711-fx1_lrg.jpg?httpAccept=%2A%2F%2A",
+            "@multimediatype": "JPEG image file",
+            "@type": "IMAGE-HIGH-RES",
+            "@size": "157323",
+            "@ref": "fx1",
+            "@mimetype": "image/jpeg"
+          },
+          {
+            "@category": "high",
+            "@height": "3277",
+            "@width": "2333",
+            "@_fa": "true",
+            "$": "https://api.elsevier.com/content/object/eid/1-s2.0-S0926860X14006711-gr1_lrg.jpg?httpAccept=%2A%2F%2A",
+            "@multimediatype": "JPEG image file",
+            "@type": "IMAGE-HIGH-RES",
+            "@size": "739830",
+            "@ref": "gr1",
+            "@mimetype": "image/jpeg"
+          },
+          {
+            "@category": "high",
+            "@height": "665",
+            "@width": "1045",
+            "@_fa": "true",
+            "$": "https://api.elsevier.com/content/object/eid/1-s2.0-S0926860X14006711-gr2_lrg.jpg?httpAccept=%2A%2F%2A",
+            "@multimediatype": "JPEG image file",
+            "@type": "IMAGE-HIGH-RES",
+            "@size": "74392",
+            "@ref": "gr2",
+            "@mimetype": "image/jpeg"
+          },
+          {
+            "@category": "high",
+            "@height": "1337",
+            "@width": "2371",
+            "@_fa": "true",
+            "$": "https://api.elsevier.com/content/object/eid/1-s2.0-S0926860X14006711-gr3_lrg.jpg?httpAccept=%2A%2F%2A",
+            "@multimediatype": "JPEG image file",
+            "@type": "IMAGE-HIGH-RES",
+            "@size": "298098",
+            "@ref": "gr3",
+            "@mimetype": "image/jpeg"
+          },
+          {
+            "@category": "high",
+            "@height": "3739",
+            "@width": "2937",
+            "@_fa": "true",
+            "$": "https://api.elsevier.com/content/object/eid/1-s2.0-S0926860X14006711-gr4_lrg.jpg?httpAccept=%2A%2F%2A",
+            "@multimediatype": "JPEG image file",
+            "@type": "IMAGE-HIGH-RES",
+            "@size": "686430",
+            "@ref": "gr4",
+            "@mimetype": "image/jpeg"
+          },
+          {
+            "@category": "high",
+            "@height": "1398",
+            "@width": "1742",
+            "@_fa": "true",
+            "$": "https://api.elsevier.com/content/object/eid/1-s2.0-S0926860X14006711-gr5_lrg.jpg?httpAccept=%2A%2F%2A",
+            "@multimediatype": "JPEG image file",
+            "@type": "IMAGE-HIGH-RES",
+            "@size": "254535",
+            "@ref": "gr5",
+            "@mimetype": "image/jpeg"
+          },
+          {
+            "@category": "high",
+            "@height": "1372",
+            "@width": "1743",
+            "@_fa": "true",
+            "$": "https://api.elsevier.com/content/object/eid/1-s2.0-S0926860X14006711-gr6_lrg.jpg?httpAccept=%2A%2F%2A",
+            "@multimediatype": "JPEG image file",
+            "@type": "IMAGE-HIGH-RES",
+            "@size": "178796",
+            "@ref": "gr6",
+            "@mimetype": "image/jpeg"
+          },
+          {
+            "@category": "high",
+            "@height": "1455",
+            "@width": "1742",
+            "@_fa": "true",
+            "$": "https://api.elsevier.com/content/object/eid/1-s2.0-S0926860X14006711-gr7_lrg.jpg?httpAccept=%2A%2F%2A",
+            "@multimediatype": "JPEG image file",
+            "@type": "IMAGE-HIGH-RES",
+            "@size": "213958",
+            "@ref": "gr7",
+            "@mimetype": "image/jpeg"
+          },
+          {
+            "@category": "high",
+            "@height": "1454",
+            "@width": "1740",
+            "@_fa": "true",
+            "$": "https://api.elsevier.com/content/object/eid/1-s2.0-S0926860X14006711-gr8_lrg.jpg?httpAccept=%2A%2F%2A",
+            "@multimediatype": "JPEG image file",
+            "@type": "IMAGE-HIGH-RES",
+            "@size": "225920",
+            "@ref": "gr8",
+            "@mimetype": "image/jpeg"
+          },
+          {
+            "@category": "high",
+            "@height": "1453",
+            "@width": "1739",
+            "@_fa": "true",
+            "$": "https://api.elsevier.com/content/object/eid/1-s2.0-S0926860X14006711-gr9_lrg.jpg?httpAccept=%2A%2F%2A",
+            "@multimediatype": "JPEG image file",
+            "@type": "IMAGE-HIGH-RES",
+            "@size": "220330",
+            "@ref": "gr9",
+            "@mimetype": "image/jpeg"
+          },
+          {
+            "@category": "standard",
+            "@_fa": "true",
+            "$": "https://api.elsevier.com/content/object/eid/1-s2.0-S0926860X14006711-mmc1.docx?httpAccept=%2A%2F%2A",
+            "@multimediatype": "Microsoft Word file",
+            "@type": "APPLICATION",
+            "@size": "219351",
+            "@ref": "mmc1",
+            "@mimetype": "application/word"
+          },
+          {
+            "@category": "thumbnail",
+            "@height": "62",
+            "@width": "363",
+            "@_fa": "true",
+            "$": "https://api.elsevier.com/content/object/eid/1-s2.0-S0926860X14006711-si1.gif?httpAccept=%2A%2F%2A",
+            "@multimediatype": "GIF image file",
+            "@type": "ALTIMG",
+            "@size": "2071",
+            "@ref": "si1",
+            "@mimetype": "image/gif"
+          },
+          {
+            "@category": "thumbnail",
+            "@height": "17",
+            "@width": "53",
+            "@_fa": "true",
+            "$": "https://api.elsevier.com/content/object/eid/1-s2.0-S0926860X14006711-si10.gif?httpAccept=%2A%2F%2A",
+            "@multimediatype": "GIF image file",
+            "@type": "ALTIMG",
+            "@size": "251",
+            "@ref": "si10",
+            "@mimetype": "image/gif"
+          },
+          {
+            "@category": "thumbnail",
+            "@height": "18",
+            "@width": "48",
+            "@_fa": "true",
+            "$": "https://api.elsevier.com/content/object/eid/1-s2.0-S0926860X14006711-si11.gif?httpAccept=%2A%2F%2A",
+            "@multimediatype": "GIF image file",
+            "@type": "ALTIMG",
+            "@size": "222",
+            "@ref": "si11",
+            "@mimetype": "image/gif"
+          },
+          {
+            "@category": "thumbnail",
+            "@height": "59",
+            "@width": "216",
+            "@_fa": "true",
+            "$": "https://api.elsevier.com/content/object/eid/1-s2.0-S0926860X14006711-si12.gif?httpAccept=%2A%2F%2A",
+            "@multimediatype": "GIF image file",
+            "@type": "ALTIMG",
+            "@size": "1269",
+            "@ref": "si12",
+            "@mimetype": "image/gif"
+          },
+          {
+            "@category": "thumbnail",
+            "@height": "62",
+            "@width": "385",
+            "@_fa": "true",
+            "$": "https://api.elsevier.com/content/object/eid/1-s2.0-S0926860X14006711-si2.gif?httpAccept=%2A%2F%2A",
+            "@multimediatype": "GIF image file",
+            "@type": "ALTIMG",
+            "@size": "2037",
+            "@ref": "si2",
+            "@mimetype": "image/gif"
+          },
+          {
+            "@category": "thumbnail",
+            "@height": "30",
+            "@width": "452",
+            "@_fa": "true",
+            "$": "https://api.elsevier.com/content/object/eid/1-s2.0-S0926860X14006711-si3.gif?httpAccept=%2A%2F%2A",
+            "@multimediatype": "GIF image file",
+            "@type": "ALTIMG",
+            "@size": "1707",
+            "@ref": "si3",
+            "@mimetype": "image/gif"
+          },
+          {
+            "@category": "thumbnail",
+            "@height": "42",
+            "@width": "351",
+            "@_fa": "true",
+            "$": "https://api.elsevier.com/content/object/eid/1-s2.0-S0926860X14006711-si4.gif?httpAccept=%2A%2F%2A",
+            "@multimediatype": "GIF image file",
+            "@type": "ALTIMG",
+            "@size": "1828",
+            "@ref": "si4",
+            "@mimetype": "image/gif"
+          },
+          {
+            "@category": "thumbnail",
+            "@height": "71",
+            "@width": "306",
+            "@_fa": "true",
+            "$": "https://api.elsevier.com/content/object/eid/1-s2.0-S0926860X14006711-si5.gif?httpAccept=%2A%2F%2A",
+            "@multimediatype": "GIF image file",
+            "@type": "ALTIMG",
+            "@size": "1784",
+            "@ref": "si5",
+            "@mimetype": "image/gif"
+          },
+          {
+            "@category": "thumbnail",
+            "@height": "36",
+            "@width": "249",
+            "@_fa": "true",
+            "$": "https://api.elsevier.com/content/object/eid/1-s2.0-S0926860X14006711-si6.gif?httpAccept=%2A%2F%2A",
+            "@multimediatype": "GIF image file",
+            "@type": "ALTIMG",
+            "@size": "1195",
+            "@ref": "si6",
+            "@mimetype": "image/gif"
+          },
+          {
+            "@category": "thumbnail",
+            "@height": "47",
+            "@width": "342",
+            "@_fa": "true",
+            "$": "https://api.elsevier.com/content/object/eid/1-s2.0-S0926860X14006711-si7.gif?httpAccept=%2A%2F%2A",
+            "@multimediatype": "GIF image file",
+            "@type": "ALTIMG",
+            "@size": "1559",
+            "@ref": "si7",
+            "@mimetype": "image/gif"
+          },
+          {
+            "@category": "thumbnail",
+            "@height": "35",
+            "@width": "150",
+            "@_fa": "true",
+            "$": "https://api.elsevier.com/content/object/eid/1-s2.0-S0926860X14006711-si8.gif?httpAccept=%2A%2F%2A",
+            "@multimediatype": "GIF image file",
+            "@type": "ALTIMG",
+            "@size": "731",
+            "@ref": "si8",
+            "@mimetype": "image/gif"
+          },
+          {
+            "@category": "thumbnail",
+            "@height": "18",
+            "@width": "48",
+            "@_fa": "true",
+            "$": "https://api.elsevier.com/content/object/eid/1-s2.0-S0926860X14006711-si9.gif?httpAccept=%2A%2F%2A",
+            "@multimediatype": "GIF image file",
+            "@type": "ALTIMG",
+            "@size": "222",
+            "@ref": "si9",
+            "@mimetype": "image/gif"
+          }
+        ]
+      },
+      "link": {
+        "@rel": "abstract",
+        "@href": "https://api.elsevier.com/content/abstract/scopus_id/84927711639"
+      }
+    }
+  }
+}
