@@ -1,0 +1,824 @@
+{
+  "metadata": {
+    "title": "Metal-free carbocatalysis for electrochemical oxygen reduction reaction: Activity origin and mechanism",
+    "authors": "; ; ",
+    "journal": "Journal of Energy Chemistry",
+    "date": "2020-09-30",
+    "doi": "10.1016/j.jechem.2020.02.027",
+    "abstract": "",
+    "uri": "https://api.elsevier.com/content/article/pii/S2095495620300863",
+    "pii": "S2095495620300863"
+  },
+  "fulltext": {
+    "full-text-retrieval-response": {
+      "scopus-eid": "2-s2.0-85081040373",
+      "originalText": "serial JL 286353 291210 291711 291744 291809 31 Journal of Energy Chemistry JOURNALENERGYCHEMISTRY 2020-02-25 2020-02-25 2020-03-09 2020-03-09 2020-09-21T11:56:09 1-s2.0-S2095495620300863 S2095-4956(20)30086-3 S2095495620300863 10.1016/j.jechem.2020.02.027 S300 S300.3 FULL-TEXT 1-s2.0-S2095495620X00027 2020-09-21T11:12:34.662624Z 0 0 20200901 20200930 2020 2020-02-25T17:01:52.107556Z absattachment articleinfo articletitlenorm authfirstinitialnorm authfirstsurnamenorm cid cids contenttype copyright crossmark dateloaded dateloadedtxt datesearch datesort dateupdated dco docsubtype doctype doi eid ewtransactionid hubeid indexeddate issn issnnorm itemstage itemtransactionid itemweight openaccess openarchive pg pgfirst pglast pii piinorm pubdateend pubdatestart pubdatetxt pubyr sortorder srctitle srctitlenorm srctype ssids alllist content subj subheadings suppl tomb volfirst volissue volumelist webpdf webpdfpagecount yearnav figure table body mmlmath acknowledge affil articletitle auth authfirstini authfull authkeywords authlast grantnumber grantsponsor grantsponsorid primabst pubtype ref specialabst vitae 2095-4956 20954956 false 48 48 C Volume 48 35 308 321 308 321 202009 September 2020 2020-09-01 2020-09-30 2020 article fla © 2020 Science Press and Dalian Institute of Chemical Physics, Chinese Academy of Sciences. Published by Elsevier B.V. and Science Press. All rights reserved. METALFREECARBOCATALYSISFORELECTROCHEMICALOXYGENREDUCTIONREACTIONACTIVITYORIGINMECHANISM LI Y 1 Introduction 2 Fundamental concepts 3 Behavior and mechanism on carbon electrode 3.1 Modified graphite and glassy carbon 3.2 Edge defect of carbon nanomaterials 4 Behavior and mechanism on doped carbon electrocatalyst 4.1 Performance diversity for various dopants 4.1.1 N/P/S/Cl as dopants 4.1.2 Other uncommon dopants 4.2 Activity origin from doping 4.2.1 Energy evolution from DFT calculations 4.2.2 Doped nitrogen species 4.3 Intermediate behavior on N-doped carbon 5 Advanced carbon nanomaterials 6 Summary and outlook Acknowledgments References CHONG 2018 1276 1281 L LUO 2019 81 85 M TIAN 2019 850 856 X LIN 2018 8438 8473 Y SU 2017 936 964 D LIU 2019 e1804863 D DAI 2017 18 25 L YANG 2019 1804799 L PAUL 2019 1805598 R TANG 2017 1604103 C MCCREERY 2008 2646 2687 R MCCREERY 2012 2602 2605 R WU 2015 2772 2788 K MA 2019 1 13 R ZHONG 2017 943 966 G WU 2017 3239 3248 K TANG 2018 881 889 C TAN 2019 1409 1415 X MORCOS 1970 953 975 I HOSSAIN 1989 1733 1737 M GONG 2009 760 764 K SEH 2017 eaad4998 Z KULKARNI 2018 2302 2312 A KOPER 2013 2710 2723 M GE 2015 4643 4667 X ZHONG 2020 1107 1114 G SINGH 2019 1804297 S TRASATTI 1986 955 966 S TAYLOR 1975 63 84 R NORSKOV 2004 17886 17892 J ABILDPEDERSEN 2007 016105 F YU 2008 195406 E TAO 2019 1019 1024 L TAYLOR 1973 347 354 R TAYLOR 1975 85 94 R APPEL 1978 1243 1246 M TAMMEVESKI 2001 101 112 K YANG 2000 3420 3428 H TANG 2017 1077 1093 C ZHONG 2014 5 8 G JIANG 2014 14262 14269 S LV 2017 203 213 R SHEN 2014 10804 10808 A MATSUBARA 2010 9166 9173 K WAKI 2014 1950 1958 K TANG 2016 6845 6851 C ZHONG 2016 49 56 G QU 2010 1321 1326 L YU 2010 2165 2173 D YU 2010 15127 15129 D WANG 2011 5182 5185 S MA 2015 1888 1892 Z ZHANG 2016 2230 2234 J ZHANG 2014 442 450 P YANG 2011 7132 7135 L HUANG 2018 22277 22286 B TANG 2019 332 371 C LIU 2011 3257 3261 Z SHI 2013 14853 14857 Q SHEN 2019 33 42 Y PERAZZOLO 2015 949 963 V SHEN 2020 106 114 Y CAI 2020 320 327 X SUN 2013 10296 10298 X SUN 2013 1726 1729 X KAKAEI 2017 819 824 K PARTHIBAN 2019 4926 4937 V ZHAO 2018 118 126 K LIU 2015 3289 3293 Z LIU 2016 535 540 Z JIN 2012 6455 6460 Z BAI 2016 214 223 X ZHAO 2013 1201 1204 Y FERRIGHI 2013 223 230 L KATTEL 2014 10273 10279 S LI 2014 66 72 M YU 2011 183 190 L JIAO 2014 4394 4403 Y CHEON 2014 8875 8878 J ZHAO 2015 6834 6840 Z LI 2015 21950 21959 Y LIU 2016 16064 X DING 2013 11755 11759 W GUO 2016 361 365 D YANG 2016 1501122 H KIM 2011 17505 17510 H LAI 2012 7936 7942 L NING 2019 1589 1596 X JIA 2019 688 695 Y MELCHIONNA 2019 1802920 M FELLINGER 2012 4072 4075 T HASCHE 2016 251 257 F LIU 2015 6837 6841 Y ZHAO 2019 6173 6176 H COSTENTIN 2005 12490 12491 C NISSIM 2013 11918 11925 R ZHANG 2017 53 60 H LI 2019 1133 1138 Y CHEVALET 1972 201 216 J WAN 2015 4325 4332 K CHOI 2014 9070 9077 C LI 2010 3256 3258 G ZUO 2019 e1803762 Z ZHAO 2018 924 931 Y LV 2018 3376 Q ZHANG 2016 4738 4744 S XIANG 2016 6253 6261 Z YANG 2019 2251 2258 C TAVAKOLI 2019 19560 19564 E KAISER 2019 1299 1301 K DIEDERICH 1989 1088 1090 F LIX2020X308 LIX2020X308X321 LIX2020X308XY LIX2020X308X321XY 2022-03-09T00:00:00.000Z 2022-03-09T00:00:00.000Z http://creativecommons.org/licenses/by-nc-nd/4.0/ © 2020 Science Press and Dalian Institute of Chemical Physics, Chinese Academy of Sciences. Published by Elsevier B.V. and Science Press. All rights reserved. 2020-02-22T08:59:42.996Z http://vtw.elsevier.com/data/voc/AddOnTypes/50.7/eoas NSFC National Natural Science Foundation of China http://data.elsevier.com/vocabulary/SciValFunders/501100001809 http://sws.geonames.org/1814991 item S2095-4956(20)30086-3 S2095495620300863 1-s2.0-S2095495620300863 10.1016/j.jechem.2020.02.027 286353 2020-09-21T11:12:34.662624Z 2020-09-01 2020-09-30 1-s2.0-S2095495620300863-main.pdf https://s3-eu-west-1.amazonaws.com/prod-ucs-content-store-eu-west/content/pii:S2095495620300863/MAIN/application/pdf/a959b33f25c5f0936e7bb73c495052ad/main.pdf main.pdf pdf true 5854855 MAIN 14 1-s2.0-S2095495620300863-main_1.png https://s3-eu-west-1.amazonaws.com/prod-ucs-content-store-eu-west/content/pii:S2095495620300863/PREVIEW/image/png/f24f63325aefbe4683e5019938be2176/main_1.png main_1.png png 61161 849 656 IMAGE-WEB-PDF 1 1-s2.0-S2095495620300863-gr1.jpg https://s3-eu-west-1.amazonaws.com/prod-ucs-content-store-eu-west/content/pii:S2095495620300863/gr1/DOWNSAMPLED/image/jpeg/fef2ac61826f4c1e5303a539b314d687/gr1.jpg gr1 gr1.jpg jpg 40100 244 678 IMAGE-DOWNSAMPLED 1-s2.0-S2095495620300863-gr10.jpg https://s3-eu-west-1.amazonaws.com/prod-ucs-content-store-eu-west/content/pii:S2095495620300863/gr10/DOWNSAMPLED/image/jpeg/465aaed60500f929418d59279174318d/gr10.jpg gr10 gr10.jpg jpg 95508 340 700 IMAGE-DOWNSAMPLED 1-s2.0-S2095495620300863-gr11.jpg https://s3-eu-west-1.amazonaws.com/prod-ucs-content-store-eu-west/content/pii:S2095495620300863/gr11/DOWNSAMPLED/image/jpeg/260e9e88c2426a88079d80aac085df8f/gr11.jpg gr11 gr11.jpg jpg 185265 763 700 IMAGE-DOWNSAMPLED 1-s2.0-S2095495620300863-gr2.jpg https://s3-eu-west-1.amazonaws.com/prod-ucs-content-store-eu-west/content/pii:S2095495620300863/gr2/DOWNSAMPLED/image/jpeg/ff14cbdf97c77c368776b3e206c5111a/gr2.jpg gr2 gr2.jpg jpg 132141 559 699 IMAGE-DOWNSAMPLED 1-s2.0-S2095495620300863-gr3.jpg https://s3-eu-west-1.amazonaws.com/prod-ucs-content-store-eu-west/content/pii:S2095495620300863/gr3/DOWNSAMPLED/image/jpeg/ff0021fb1e4a21772f02495f92444e11/gr3.jpg gr3 gr3.jpg jpg 42994 289 386 IMAGE-DOWNSAMPLED 1-s2.0-S2095495620300863-gr4.jpg https://s3-eu-west-1.amazonaws.com/prod-ucs-content-store-eu-west/content/pii:S2095495620300863/gr4/DOWNSAMPLED/image/jpeg/3a29860ec19ab22eb644bcb9098a2257/gr4.jpg gr4 gr4.jpg jpg 81788 372 699 IMAGE-DOWNSAMPLED 1-s2.0-S2095495620300863-gr5.jpg https://s3-eu-west-1.amazonaws.com/prod-ucs-content-store-eu-west/content/pii:S2095495620300863/gr5/DOWNSAMPLED/image/jpeg/c5c638da9cd3485f8806588bf7b4aa12/gr5.jpg gr5 gr5.jpg jpg 167136 746 697 IMAGE-DOWNSAMPLED 1-s2.0-S2095495620300863-gr6.jpg https://s3-eu-west-1.amazonaws.com/prod-ucs-content-store-eu-west/content/pii:S2095495620300863/gr6/DOWNSAMPLED/image/jpeg/ac54f6375e0b7277aabf5bb85b569425/gr6.jpg gr6 gr6.jpg jpg 131101 575 561 IMAGE-DOWNSAMPLED 1-s2.0-S2095495620300863-gr7.jpg https://s3-eu-west-1.amazonaws.com/prod-ucs-content-store-eu-west/content/pii:S2095495620300863/gr7/DOWNSAMPLED/image/jpeg/7fc321960de8386c2bb417be6df3ce08/gr7.jpg gr7 gr7.jpg jpg 94019 307 690 IMAGE-DOWNSAMPLED 1-s2.0-S2095495620300863-gr8.jpg https://s3-eu-west-1.amazonaws.com/prod-ucs-content-store-eu-west/content/pii:S2095495620300863/gr8/DOWNSAMPLED/image/jpeg/60ff0d28ed29438224e046a7ded3ca23/gr8.jpg gr8 gr8.jpg jpg 80897 328 700 IMAGE-DOWNSAMPLED 1-s2.0-S2095495620300863-gr9.jpg https://s3-eu-west-1.amazonaws.com/prod-ucs-content-store-eu-west/content/pii:S2095495620300863/gr9/DOWNSAMPLED/image/jpeg/cc6b20d9a157f30e2e4cbf0671acb40a/gr9.jpg gr9 gr9.jpg jpg 168129 657 698 IMAGE-DOWNSAMPLED 1-s2.0-S2095495620300863-fx1.jpg https://s3-eu-west-1.amazonaws.com/prod-ucs-content-store-eu-west/content/pii:S2095495620300863/fx1/DOWNSAMPLED/image/jpeg/eae11152dc9fb27914b3adbcf0893703/fx1.jpg fx1 true fx1.jpg jpg 20629 185 301 IMAGE-DOWNSAMPLED 1-s2.0-S2095495620300863-fx2.jpg https://s3-eu-west-1.amazonaws.com/prod-ucs-content-store-eu-west/content/pii:S2095495620300863/fx2/DOWNSAMPLED/image/jpeg/e12264df44be60e4f11131c62c3ba22d/fx2.jpg fx2 fx2.jpg jpg 6001 151 113 IMAGE-DOWNSAMPLED 1-s2.0-S2095495620300863-fx3.jpg https://s3-eu-west-1.amazonaws.com/prod-ucs-content-store-eu-west/content/pii:S2095495620300863/fx3/DOWNSAMPLED/image/jpeg/fc04cda3ce966449ed8977cb60cb3303/fx3.jpg fx3 fx3.jpg jpg 6174 151 113 IMAGE-DOWNSAMPLED 1-s2.0-S2095495620300863-fx4.jpg https://s3-eu-west-1.amazonaws.com/prod-ucs-content-store-eu-west/content/pii:S2095495620300863/fx4/DOWNSAMPLED/image/jpeg/19dedf3b0e2356ca82d8c4d4e2b2ae00/fx4.jpg fx4 fx4.jpg jpg 6243 151 113 IMAGE-DOWNSAMPLED 1-s2.0-S2095495620300863-gr1.sml https://s3-eu-west-1.amazonaws.com/prod-ucs-content-store-eu-west/content/pii:S2095495620300863/gr1/THUMBNAIL/image/gif/a642e55bc5d843e9d660dfc9fd9e454b/gr1.sml gr1 gr1.sml sml 5414 79 219 IMAGE-THUMBNAIL 1-s2.0-S2095495620300863-gr10.sml https://s3-eu-west-1.amazonaws.com/prod-ucs-content-store-eu-west/content/pii:S2095495620300863/gr10/THUMBNAIL/image/gif/70432686df85ef67f376fa4b09a18c7f/gr10.sml gr10 gr10.sml sml 12596 106 219 IMAGE-THUMBNAIL 1-s2.0-S2095495620300863-gr11.sml https://s3-eu-west-1.amazonaws.com/prod-ucs-content-store-eu-west/content/pii:S2095495620300863/gr11/THUMBNAIL/image/gif/488cd4c98ab99ae61891b62f1a2948b5/gr11.sml gr11 gr11.sml sml 14218 163 150 IMAGE-THUMBNAIL 1-s2.0-S2095495620300863-gr2.sml https://s3-eu-west-1.amazonaws.com/prod-ucs-content-store-eu-west/content/pii:S2095495620300863/gr2/THUMBNAIL/image/gif/8339c88b224ff2d2c14f8ac31819a469/gr2.sml gr2 gr2.sml sml 15685 164 205 IMAGE-THUMBNAIL 1-s2.0-S2095495620300863-gr3.sml https://s3-eu-west-1.amazonaws.com/prod-ucs-content-store-eu-west/content/pii:S2095495620300863/gr3/THUMBNAIL/image/gif/0faf4b43973b727a5b0ec302a3389391/gr3.sml gr3 gr3.sml sml 20556 164 219 IMAGE-THUMBNAIL 1-s2.0-S2095495620300863-gr4.sml https://s3-eu-west-1.amazonaws.com/prod-ucs-content-store-eu-west/content/pii:S2095495620300863/gr4/THUMBNAIL/image/gif/5f1bed2bc3d78a9c1275324420047670/gr4.sml gr4 gr4.sml sml 10631 117 219 IMAGE-THUMBNAIL 1-s2.0-S2095495620300863-gr5.sml https://s3-eu-west-1.amazonaws.com/prod-ucs-content-store-eu-west/content/pii:S2095495620300863/gr5/THUMBNAIL/image/gif/64a53c8af16fe821db282fab0d011c6f/gr5.sml gr5 gr5.sml sml 15342 164 153 IMAGE-THUMBNAIL 1-s2.0-S2095495620300863-gr6.sml https://s3-eu-west-1.amazonaws.com/prod-ucs-content-store-eu-west/content/pii:S2095495620300863/gr6/THUMBNAIL/image/gif/1dd32df3626a177fd12e75ec21167f53/gr6.sml gr6 gr6.sml sml 16135 164 160 IMAGE-THUMBNAIL 1-s2.0-S2095495620300863-gr7.sml https://s3-eu-west-1.amazonaws.com/prod-ucs-content-store-eu-west/content/pii:S2095495620300863/gr7/THUMBNAIL/image/gif/52dff0d03e053ea5e600e8c1ef8f6293/gr7.sml gr7 gr7.sml sml 12467 98 219 IMAGE-THUMBNAIL 1-s2.0-S2095495620300863-gr8.sml https://s3-eu-west-1.amazonaws.com/prod-ucs-content-store-eu-west/content/pii:S2095495620300863/gr8/THUMBNAIL/image/gif/41ec7bda890309270c41796d544d3cf5/gr8.sml gr8 gr8.sml sml 12365 103 219 IMAGE-THUMBNAIL 1-s2.0-S2095495620300863-gr9.sml https://s3-eu-west-1.amazonaws.com/prod-ucs-content-store-eu-west/content/pii:S2095495620300863/gr9/THUMBNAIL/image/gif/23773544df029affa844adf0dfd39cb3/gr9.sml gr9 gr9.sml sml 15752 164 174 IMAGE-THUMBNAIL 1-s2.0-S2095495620300863-fx1.sml https://s3-eu-west-1.amazonaws.com/prod-ucs-content-store-eu-west/content/pii:S2095495620300863/fx1/THUMBNAIL/image/gif/6e36b0e62513ab0c78b58a76d8268f94/fx1.sml fx1 true fx1.sml sml 13704 134 219 IMAGE-THUMBNAIL 1-s2.0-S2095495620300863-fx2.sml https://s3-eu-west-1.amazonaws.com/prod-ucs-content-store-eu-west/content/pii:S2095495620300863/fx2/THUMBNAIL/image/gif/69d2678294c8aa06f1e9c72451d55dde/fx2.sml fx2 fx2.sml sml 13790 164 123 IMAGE-THUMBNAIL 1-s2.0-S2095495620300863-fx3.sml https://s3-eu-west-1.amazonaws.com/prod-ucs-content-store-eu-west/content/pii:S2095495620300863/fx3/THUMBNAIL/image/gif/29438b2b5092d886be2201f93bb25048/fx3.sml fx3 fx3.sml sml 9931 164 123 IMAGE-THUMBNAIL 1-s2.0-S2095495620300863-fx4.sml https://s3-eu-west-1.amazonaws.com/prod-ucs-content-store-eu-west/content/pii:S2095495620300863/fx4/THUMBNAIL/image/gif/3e9f95b4cd681dff3c74bb03f248cf3d/fx4.sml fx4 fx4.sml sml 15730 164 123 IMAGE-THUMBNAIL 1-s2.0-S2095495620300863-gr1_lrg.jpg https://s3-eu-west-1.amazonaws.com/prod-ucs-content-store-eu-west/content/pii:S2095495620300863/gr1/HIGHRES/image/jpeg/b8e1f6aa5c6c6692ee1aca08244fbf71/gr1_lrg.jpg gr1 gr1_lrg.jpg jpg 282268 1079 3001 IMAGE-HIGH-RES 1-s2.0-S2095495620300863-gr10_lrg.jpg https://s3-eu-west-1.amazonaws.com/prod-ucs-content-store-eu-west/content/pii:S2095495620300863/gr10/HIGHRES/image/jpeg/afd6413f0017d2a7261e5be5122f3559/gr10_lrg.jpg gr10 gr10_lrg.jpg jpg 752444 1505 3101 IMAGE-HIGH-RES 1-s2.0-S2095495620300863-gr11_lrg.jpg https://s3-eu-west-1.amazonaws.com/prod-ucs-content-store-eu-west/content/pii:S2095495620300863/gr11/HIGHRES/image/jpeg/81dd6153ed7d649f1c83b8c020e13f62/gr11_lrg.jpg gr11 gr11_lrg.jpg jpg 1437257 3379 3101 IMAGE-HIGH-RES 1-s2.0-S2095495620300863-gr2_lrg.jpg https://s3-eu-west-1.amazonaws.com/prod-ucs-content-store-eu-west/content/pii:S2095495620300863/gr2/HIGHRES/image/jpeg/8630d70c54b44cbecfc5683d86116b95/gr2_lrg.jpg gr2 gr2_lrg.jpg jpg 1046524 2475 3095 IMAGE-HIGH-RES 1-s2.0-S2095495620300863-gr3_lrg.jpg https://s3-eu-west-1.amazonaws.com/prod-ucs-content-store-eu-west/content/pii:S2095495620300863/gr3/HIGHRES/image/jpeg/f0e0dabd241bca181113bb13261d2850/gr3_lrg.jpg gr3 gr3_lrg.jpg jpg 415683 1278 1708 IMAGE-HIGH-RES 1-s2.0-S2095495620300863-gr4_lrg.jpg https://s3-eu-west-1.amazonaws.com/prod-ucs-content-store-eu-west/content/pii:S2095495620300863/gr4/HIGHRES/image/jpeg/e6b224c4d3358aec94dacc9a3292e1e1/gr4_lrg.jpg gr4 gr4_lrg.jpg jpg 724744 1647 3094 IMAGE-HIGH-RES 1-s2.0-S2095495620300863-gr5_lrg.jpg https://s3-eu-west-1.amazonaws.com/prod-ucs-content-store-eu-west/content/pii:S2095495620300863/gr5/HIGHRES/image/jpeg/b22162c7add2f7e02b595d58719c2d8b/gr5_lrg.jpg gr5 gr5_lrg.jpg jpg 1322719 3302 3086 IMAGE-HIGH-RES 1-s2.0-S2095495620300863-gr6_lrg.jpg https://s3-eu-west-1.amazonaws.com/prod-ucs-content-store-eu-west/content/pii:S2095495620300863/gr6/HIGHRES/image/jpeg/eedf068e88fc37fe7e147577267b4343/gr6_lrg.jpg gr6 gr6_lrg.jpg jpg 1008675 2546 2483 IMAGE-HIGH-RES 1-s2.0-S2095495620300863-gr7_lrg.jpg https://s3-eu-west-1.amazonaws.com/prod-ucs-content-store-eu-west/content/pii:S2095495620300863/gr7/HIGHRES/image/jpeg/1023114b5775004e118bfdf869cd1780/gr7_lrg.jpg gr7 gr7_lrg.jpg jpg 715052 1362 3057 IMAGE-HIGH-RES 1-s2.0-S2095495620300863-gr8_lrg.jpg https://s3-eu-west-1.amazonaws.com/prod-ucs-content-store-eu-west/content/pii:S2095495620300863/gr8/HIGHRES/image/jpeg/5059b2d6b71a805b237736391d8f7c17/gr8_lrg.jpg gr8 gr8_lrg.jpg jpg 622052 1452 3101 IMAGE-HIGH-RES 1-s2.0-S2095495620300863-gr9_lrg.jpg https://s3-eu-west-1.amazonaws.com/prod-ucs-content-store-eu-west/content/pii:S2095495620300863/gr9/HIGHRES/image/jpeg/bbf80cef8675cfc0d2344a44f82fbb52/gr9_lrg.jpg gr9 gr9_lrg.jpg jpg 1326512 2906 3089 IMAGE-HIGH-RES 1-s2.0-S2095495620300863-fx1_lrg.jpg https://s3-eu-west-1.amazonaws.com/prod-ucs-content-store-eu-west/content/pii:S2095495620300863/fx1/HIGHRES/image/jpeg/d007473a986ec467eaa40636787455b9/fx1_lrg.jpg fx1 true fx1_lrg.jpg jpg 162820 818 1333 IMAGE-HIGH-RES 1-s2.0-S2095495620300863-fx2_lrg.jpg https://s3-eu-west-1.amazonaws.com/prod-ucs-content-store-eu-west/content/pii:S2095495620300863/fx2/HIGHRES/image/jpeg/4bc1ba361c2f12ef3a2f9981df872aef/fx2_lrg.jpg fx2 fx2_lrg.jpg jpg 46318 667 500 IMAGE-HIGH-RES 1-s2.0-S2095495620300863-fx3_lrg.jpg https://s3-eu-west-1.amazonaws.com/prod-ucs-content-store-eu-west/content/pii:S2095495620300863/fx3/HIGHRES/image/jpeg/fa1eb56a1c64e80572271ddbd6bfbad3/fx3_lrg.jpg fx3 fx3_lrg.jpg jpg 68865 667 500 IMAGE-HIGH-RES 1-s2.0-S2095495620300863-fx4_lrg.jpg https://s3-eu-west-1.amazonaws.com/prod-ucs-content-store-eu-west/content/pii:S2095495620300863/fx4/HIGHRES/image/jpeg/6906f0d8e828296c5540c2081f16b164/fx4_lrg.jpg fx4 fx4_lrg.jpg jpg 53511 667 500 IMAGE-HIGH-RES 1-s2.0-S2095495620300863-si17.svg https://s3-eu-west-1.amazonaws.com/prod-ucs-content-store-eu-west/content/pii:S2095495620300863/STRIPIN/image/svg+xml/8fa536d713bfd19c37ba7701f39134d6/si17.svg si17 si17.svg svg 3774 ALTIMG 1-s2.0-S2095495620300863-si1.svg https://s3-eu-west-1.amazonaws.com/prod-ucs-content-store-eu-west/content/pii:S2095495620300863/STRIPIN/image/svg+xml/ff2a40625c5b20768cc4aa6d29816267/si1.svg si1 si1.svg svg 4450 ALTIMG 1-s2.0-S2095495620300863-si6.svg https://s3-eu-west-1.amazonaws.com/prod-ucs-content-store-eu-west/content/pii:S2095495620300863/STRIPIN/image/svg+xml/26657f2f6ecb5f404e07091fab88e727/si6.svg si6 si6.svg svg 3492 ALTIMG 1-s2.0-S2095495620300863-si14.svg https://s3-eu-west-1.amazonaws.com/prod-ucs-content-store-eu-west/content/pii:S2095495620300863/STRIPIN/image/svg+xml/3177c493c1370c5e9c8561236ace1b05/si14.svg si14 si14.svg svg 3165 ALTIMG 1-s2.0-S2095495620300863-si15.svg https://s3-eu-west-1.amazonaws.com/prod-ucs-content-store-eu-west/content/pii:S2095495620300863/STRIPIN/image/svg+xml/53ece685568b7e870ce72985163919c9/si15.svg si15 si15.svg svg 7811 ALTIMG 1-s2.0-S2095495620300863-si9.svg https://s3-eu-west-1.amazonaws.com/prod-ucs-content-store-eu-west/content/pii:S2095495620300863/STRIPIN/image/svg+xml/20e0056f904f8aca132ccf9fa9618f27/si9.svg si9 si9.svg svg 4535 ALTIMG 1-s2.0-S2095495620300863-si10.svg https://s3-eu-west-1.amazonaws.com/prod-ucs-content-store-eu-west/content/pii:S2095495620300863/STRIPIN/image/svg+xml/8dd4fd887504a3a3417bd3d3939201fb/si10.svg si10 si10.svg svg 14810 ALTIMG 1-s2.0-S2095495620300863-si4.svg https://s3-eu-west-1.amazonaws.com/prod-ucs-content-store-eu-west/content/pii:S2095495620300863/STRIPIN/image/svg+xml/e5a58d874890a2d69c2bda4c4b2988b6/si4.svg si4 si4.svg svg 6274 ALTIMG 1-s2.0-S2095495620300863-si2.svg https://s3-eu-west-1.amazonaws.com/prod-ucs-content-store-eu-west/content/pii:S2095495620300863/STRIPIN/image/svg+xml/216d9d5f58e9d42bef357f8e69a67f47/si2.svg si2 si2.svg svg 5232 ALTIMG 1-s2.0-S2095495620300863-si7.svg https://s3-eu-west-1.amazonaws.com/prod-ucs-content-store-eu-west/content/pii:S2095495620300863/STRIPIN/image/svg+xml/99f9e20896ca425ec6c7312950ba24de/si7.svg si7 si7.svg svg 14163 ALTIMG 1-s2.0-S2095495620300863-si16.svg https://s3-eu-west-1.amazonaws.com/prod-ucs-content-store-eu-west/content/pii:S2095495620300863/STRIPIN/image/svg+xml/27678f09f73f11962f5979198aa57ed2/si16.svg si16 si16.svg svg 4369 ALTIMG 1-s2.0-S2095495620300863-si11.svg https://s3-eu-west-1.amazonaws.com/prod-ucs-content-store-eu-west/content/pii:S2095495620300863/STRIPIN/image/svg+xml/04541a86f135d045407350702b765abe/si11.svg si11 si11.svg svg 16038 ALTIMG 1-s2.0-S2095495620300863-si3.svg https://s3-eu-west-1.amazonaws.com/prod-ucs-content-store-eu-west/content/pii:S2095495620300863/STRIPIN/image/svg+xml/89a9711137caa94ad6d7b7e1db718a6b/si3.svg si3 si3.svg svg 3427 ALTIMG 1-s2.0-S2095495620300863-si13.svg https://s3-eu-west-1.amazonaws.com/prod-ucs-content-store-eu-west/content/pii:S2095495620300863/STRIPIN/image/svg+xml/278a557f94ffafdd89855efcc4456d79/si13.svg si13 si13.svg svg 8067 ALTIMG 1-s2.0-S2095495620300863-si12.svg https://s3-eu-west-1.amazonaws.com/prod-ucs-content-store-eu-west/content/pii:S2095495620300863/STRIPIN/image/svg+xml/0bf89b5301fdb068510eccf4e11dcfb4/si12.svg si12 si12.svg svg 13214 ALTIMG 1-s2.0-S2095495620300863-si5.svg https://s3-eu-west-1.amazonaws.com/prod-ucs-content-store-eu-west/content/pii:S2095495620300863/STRIPIN/image/svg+xml/716ce094893dbdbeca7f7664ed0253b9/si5.svg si5 si5.svg svg 9315 ALTIMG 1-s2.0-S2095495620300863-si8.svg https://s3-eu-west-1.amazonaws.com/prod-ucs-content-store-eu-west/content/pii:S2095495620300863/STRIPIN/image/svg+xml/b97c0b3b5d70b452a98cc40555938c78/si8.svg si8 si8.svg svg 3497 ALTIMG 1-s2.0-S2095495620300863-am.pdf https://s3-eu-west-1.amazonaws.com/prod-ucs-content-store-eu-west/content/egi:10ZBP2K51CT/MAIN/application/pdf/4788951e7c08deb5a9bc91750a4986a1/am.pdf am am.pdf pdf false 2718858 AAM-PDF JECHEM 1117 S2095-4956(20)30086-3 10.1016/j.jechem.2020.02.027 Fig. 1 (a) Representative energy evolution scheme for a two-electron reaction. (b) Ideal intermediate energy distribution for a four-electron reaction. Fig 1 Fig. 2 Reduction of O2 on (a) HOPG and (b) OPG. Condition: 1 M KOH; 22 °C; electrode area of 0.196 cm2 [19] (Copyright 1970, Elsevier). (c, d) KPFM images of HOPG before and after plasma etching, respectively; (e) the correlations between current (normalized by ECSA) and HOPG surface charge for HER, OER and ORR [33] (Copyright 2019, Wiley‐VCH Verlag GmbH & Co. KGaA, Weinheim). (f‒h) Voltammograms of O2 reduction on GC electrodes with various modified surface conditions at pH 14 (KOH), pH 9 (borate buffer) and pH 0 (H2SO4), respectively; (i) evolutions of cathodic peak current and potential as a function of pH [38] (Copyright 2001, The Electrochemical Society). Fig 2 Fig. 3 TEM images of (a) fish-bone CNTs and (b) parallel CNTs. (c) CVs of samples corresponding to (a) and (b) in O2-saturated 0.1 M KOH. (d) Dependence of ORR peak potential on the ratio of edge carbon [40] (Copyright 2013, Elsevier). Fig 3 Fig. 4 (a) Synthesis scheme of chemically drilling CNTs. (b, c) TEM images of the representative drilled CNTs (marked as CNTs-10Co-A-H). Red arrows denote defect locations. (d) LSVs of different samples at 1600 rpm in 0.1 M KOH. (e) Transferred electron number and peroxide production calculated from RRDE curves. (f) Dependence of ORR limited current on the content of cobalt source for drilling. (g) Correlation of interfacial charge transfer resistance and I D/I G value to the content of cobalt source for drilling [47] (Copyright 2016, Elsevier). Fig 4 Fig. 5 (a) Digital photograph and (b) SEM image of P-doped graphite layers; (c) O2 reduction LSVs at 1600 rpm of (1) GC, (2) P-free graphite, (3) P-doped graphite and (4) Pt/C in 0.1 M KOH; 1′, 2′, 3′, 4′ represent the addition of 1.0 M methanol [58] (Copyright 2011, Wiley‐VCH Verlag GmbH & Co. KGaA, Weinheim). (d, e) TEM image and elemental mappings of the typical N, S-doped CNTs sample; (f) acidic (1.0 M HClO4) and (g) alkaline (0.1 M KOH) ORR LSVs at 2500 rpm of N, S-doped CNTs [59] (Copyright 2013, The Royal Society of Chemistry). (h) TEM image of the optimal N, S-doped lignin-derived graphite sample; (i) LSVs at 1600 rpm in 1.0 M HClO4 and (j) the corresponding Tafel plots [60] (Copyright 2018, Elsevier). (k) TEM image and elemental mappings of the optimal N, S, Cl-doped lignin-derived carbon sample; (l) LSVs at 1600 rpm in 1.0 M HClO4; (m) DFT calculations for ORR energy evolution with the same overpotential; (n) H2O2 single fuel cell polarization curves [62] (Copyright 2019, Elsevier). Fig 5 Fig. 6 (a) Free energy diagrams of different heteroatom-doped graphenes; (b) volcano plot between j 0 th eory and ΔG OOH* with charge-transfer coefficient α=0.5 (red dashed line); blue squares are j 0 expt obtained from Tafel plots and DFT-derived ΔG OOH* for each synthesized doped graphene; (c) The relationship between ΔG OH* and j K for various synthesized graphene catalysts under different potentials (open symbols); the values in parentheses are j K values for the predicted X-graphene, shown as closed symbols [78] (Copyright 2014, American Chemical Society). (d, e) The designed overall reaction networks of electrocatalytic O2 and H2O2 reductions; (f) the two-step hydrogen peroxide disproportionation mechanism catalyzed by NCNTs in acidic electrolyte; (g) summarized transformation steps of oxygen in the overall acidic reduction on NCNTs [81] (Copyright 2015, The Royal Society of Chemistry). Fig 6 Fig. 7 (a) N 1 s XPS spectra of four types of N-HOPG model catalysts; (b) ORR results for model catalysts corresponding to (a); (c) correlation between current densities of ORR at 0.2, 0.3, and 0.4 V and the pyridinic N concentrations; (d) correlation between onset potential at 1 μA cm−2 and the pyridinic N concentrations [84] (Copyright 2016, American Association for the Advancement of Science). Fig 7 Fig. 8 (a) Dependence of the electron transfer intensity on the content ratio of pyridinic to graphitic nitrogen [NP]:[NG]; Three representative graphene structures, with [NP]:[NG] ratios of 0, 0.5 and 1, are illustrated as ①②③ corresponding to the highlight pink, gray and green balloons, respectively. (b-f) DOS of undoped graphene, NG-doped graphene, [NP]:[NG] of 0.5 graphene, [NP]:[NG] of 1 graphene and NP-doped graphene, respectively. (g) Dependence of kinetic current densities j k (normalized by the mass of NCs) at 0.7 V vs. Ag/AgCl on the electron transfer intensity and [NP]:[NG] (inset). LSV were performed in 0.1 M KOH [88] (Copyright 2019, The Royal Society of Chemistry). Fig 8 Fig. 9 (a) Illustration of the edge defect reconstruction that originated from nitrogen removal. (b) N 1s high-resolution XPS spectra of HOPG (purple), Ar-HOPG (blue), N-HOPG (red) and D-HOPG (black). (c, e) The HAADF-STEM image of N-G and the derived D-G, respectively. (d, f) Expanded image of the dotted box in (c) and (e), respectively. (g) LSV comparison of N-HOPG and D-HOPG. (h, i) Effects of nitrogen content and defect content on LSV [89] (Copyright 2019, Springer Nature). Fig 9 Fig. 10 Potential energy surfaces for (a) [O2…H2O]0 + e− ↔ [O2…H2O]− and (b) [O2…H2O]− + e− ↔ [OOH…OH]−2 at respective equilibrium conditions. (c, d) Configuration variations from initial state to final state corresponding to (a) and (b), respectively. (e, f) Potential energy evolutions from [O2…H2O]− to [OOH…OH]−2 for G and NG, respectively. (g, h) Corresponding configurations to the points on potential energy curves for (e) and (f), respectively [98] (Copyright 2019, Wiley‐VCH Verlag GmbH & Co. KGaA, Weinheim). Fig 10 Fig. 11 (a) Geometries of N atoms in N-doped few-layer graphdiyne; ORR LSVs of several typical samples in (b) 0.1 M KOH and (c) 0.1 M HClO4; (d) Current densities of ORR at 0.65 V for samples with various amounts of sp-N atoms incorporated [104] (Copyright 2018, Springer Nature). (e) Optimized structures for porphyrin-based covalent organic frameworks; (f) AFM height image of the typical sample that is electrodeposited on GC electrode and (g) FTIR spectra of the blue circle spot in (f); (h, i) CVs in a phosphate buffer solution (pH = 13) normalized by area and mass, respectively [109] (Copyright 2019, American Chemical Society). (j) Two possible structures of cyclo[18]carbon, along with visualizations of their perpendicular π-systems; (k) AFM observed and (l) DFT simulated images of cyclo[18]carbon [110] (Copyright 2019, American Association for the Advancement of Science). Fig 11 Table 1 The overall reaction equations and the corresponding standard electrode potentials for oxygen reduction, hydrogen peroxide reduction, and hydrogen peroxide decomposition (surface chemical reaction without electrode potential). Table 1 Electrolyte Reaction Half-reaction equation E 0 (V vs. SHE) Acidic 4e ORR O2 + 4H+ + 4e− ⇌ 2H2O +1.229 2e ORR O2 + 2H+ + 2e− ⇌ H2O2 +0.695 2e peroxide reduction H2O2 + 2H+ + 2e− ⇌ 2H2O +1.763 Peroxide decomposition 2H2O2 → O2 + 2H2O – Alkaline 4e ORR O2 + 2H2O + 4e− ⇌ 4OH- +0.401 2e ORR O 2 + H 2 O + 2 e − ⇌ HO 2 − + O H − −0.065 2e peroxide reduction HO 2 − + H 2 O + 2 e − ⇌ 3 O H − +0.867 Peroxide decomposition 2 HO 2 − → O 2 + 2 O H − – Review Metal-free carbocatalysis for electrochemical oxygen reduction reaction: Activity origin and mechanism Yuhang Li a b Yexiang Tong b Feng Peng a ⁎ a School of Chemistry and Chemical Engineering, Guangzhou University, Guangzhou 510006, Guangdong, China School of Chemistry and Chemical Engineering Guangzhou University Guangzhou Guangdong 510006 China aSchool of Chemistry and Chemical Engineering, Guangzhou University, Guangzhou 510006, Guangdong, China b School of Chemistry, Sun Yat-sen University, Guangzhou 510275, Guangdong, China School of Chemistry, Sun Yat-sen University Guangzhou Guangdong 510275 China bSchool of Chemistry, Sun Yat-sen University, Guangzhou 510275, Guangdong, China ⁎ Corresponding author. Although scientists have conducted long-term and extensive studies on oxygen reduction reaction (ORR) catalyzed by metal-free carbon materials, they mainly have focused on the preparation and properties of various doped carbon materials. There is still a lack of systematic scientific guidance on the relationship between the surface structure regulation and activity of carbon-based catalysts. In this review, some of electrochemical and computational fundamental concepts about ORR are concisely summarized. The effects of edge defect and nonmetallic doping of carbon materials on ORR behavior and mechanism have been reviewed, and activity origin identification and intermediate conversion mechanism have been discussed. The outlooks for future researches on metal-free ORR electrocatalysis are suggested. Graphical abstract Image, graphical abstract In this review, the effects of edge defect and nonmetallic doping of carbon materials on oxygen reduction reaction (ORR) behavior and mechanism have been reviewed, and activity origin identification and intermediate conversion mechanism have been discussed. The outlooks for future researches on metal-free ORR electrocatalysis are suggested. Keywords Carbocatalysis Electrocatalysis Oxygen reduction reaction Review Metal-free doping 1 Introduction The oxygen reduction reaction (ORR) holds a special place in the fields of energy conversion application and fundamental electrochemistry. For practical applications, the ORR is involved into fuel cells and metal-air batteries as the cathodic reaction, where the platinum-based alloy is currently adopted as the commercial cathodic ORR catalyst [1–3]. However, the durability issue, originated from the platinum degradation especially at a relatively high current density, acts as one of the primary limiting factors preventing large-scale commercialization of fuel cells. In the past decade, with the rapid development of metal-free carbon-based nanomaterials [4–6], the efforts on ORR catalysts have been vitalized in terms of substituting platinum by carbon [7–10]. For fundamental researches, the ORR electrode kinetics on classical carbon materials has been well studied for decades, including graphite, glassy carbon, activated carbon, and so forth [11,12]. Although the mechanism on novel carbon nanomaterials such as modified and/or doped carbon nanotube, graphene and nanofiber is extensively studied [13–17], there are debates on the precise catalytic active sites and the oxygen molecule transformation process, resulting in the lack of a unified understanding and a neat principle about metal-free ORR catalyst design. The oxygen molecule is reduced via a two-electron pathway on most of pristine carbon materials, regardless of the pH value of electrolyte [18]. The physically or chemically adsorbed superoxide species is being the first intermediate since the carbon surface is unable to crack the O−O bond in O2. Therein, the edge site in graphitic carbon materials is slightly more favorable for decreasing the overpotential than the basal plane, which was experimentally observed several decades ago [19,20]. Later, nitrogen doping in arrayed carbon nanotubes reveals a valid method to largely reduce the overpotential in alkaline electrolyte and effectively increase the electron transfer number from 2 to 4 [21]. Until now, plenty of doped carbon materials have been synthesized, and, most importantly, some of them exhibit a decent ORR activity in acidic electrolyte, which facilitates the fuel cell application with a metal-free cathodic catalyst replacing platinum. As for the underlying electrocatalytic mechanism, there are a wide variety of insights into the influences of edge and dopant, which are mainly obtained from density functional theory calculations. The key to bridging from the theoretical prediction to the experimental performance consists of an accurate micro-structure and a rational methodology. The volcano-like plot, based on the Sabatier principle in catalysis, is quite appropriate to ORR on metal-based electrocatalysts [22,23]. Although the activity volcano plot for metal-free ORR catalysts has been built since years ago, the universality of such a principle should be further verified for a wider range of carbon materials, especially involving the cases considering the electron transfer properties [17,24]. In this review, some of electrochemical and computational fundamental concepts about ORR are concisely summarized and interpreted in Section 2. Then, the oxygen reduction behavior and mechanism on several classical carbon materials are summarized from previous times to the present in Section 3, where the influence of edge defect is mainly discussed. Next, the doped carbon materials are commented in Section 4 with respect to experimental catalytic performance, activity origin identification and intermediate conversion mechanism. Finally, some emergent advanced carbon materials are briefly exemplified in Section 5, facing the potential extended metal-free electrocatalysis. 2 Fundamental concepts The electrochemistry basics and the experimental operations about ORR have been systematically discussed in several previous researches and reviews [25–27], which are no longer described here to avoid duplicating. In this section, we sort out the crucial concepts referring to theoretical ORR energy evaluations based on electrochemical equations and DFT calculations. For a general electrochemical half-reaction: (1) ν o O + n e − ⇌ ν r R the correlation between Gibbs free energy change (ΔG) and the equilibrium potential (E) is (2) Δ G = ∑ ν r G ( R ) − ∑ ν o G ( O ) = − nFE where G is the calculated Gibbs free energy of a given species with the unit of J mol−1, ν is the stoichiometric number, n is the electron transfer number, F is the Faraday constant and E is the calculated equilibrium potential. Typically, the unit of eV is adopted for energy item, so the correlation can be rewritten as (3) Δ G = − n E with the simple dimension difference by e0. Notably, such a calculated equilibrium potential is the absolute potential referred to vacuum, and it can be converted into the universal reference state based on standard hydrogen electrode (SHE) according to IUPAC recommendation [28]: (4) E 0 ( vs . SHE ) / V = E 0 ( vs . vacuum ) / V − 4 . 44 ( ± 0 . 02 ) Nevertheless, if H+ is involved into electrode reaction, the absolute potential cannot be obtained by Eq. (2) via DFT calculations because DFT is unable to address the energy evaluation for a pure proton. Considering the SHE reaction and a normal proton involved half-reaction, e.g., ORR in acid: (5) 2 H + + 2 e − ⇌ H 2 (6) O 2 + 4 H + + 4 e − ⇌ 2 H 2 O the equilibrium potentials are (7) E H + / H 2 ( vs . vacuum ) = − 1 2 e 0 [ G ( H 2 ) − 2 G ( H + ) ] (8) E O 2 / H 2 O ( vs . vacuum ) = − 1 4 e 0 [ 2 G ( H 2 O ) − G ( O 2 ) − 4 G ( H + ) ] The item of G(H+) can be eliminated by combining Eqs. (7) and (8), and the ORR absolute potential is accordingly converted into the SHE scale: (9) E O 2 / H 2 O ( vs . SHE ) = − 1 4 e 0 [ 2 G ( H 2 O ) − G ( O 2 ) − 2 G ( H 2 ) ] where all the Gibbs free energy items can be obtained by DFT calculations. For a multi-electron reaction, the electron is transferred one-by-one because the simultaneous transfer is highly forbidden in thermodynamics [29]. The overall reaction should be separated into several elementary steps including only one electron transfer. Fig. 1 (a) illustrates a representative energy evolution scheme of Eq. (1) (when n = 2). The first stage along reaction coordinates stands for G(O) + 2G(e−), where G(e−) is the reflection of electrode potential. Similarly, the second stage stands for G(I) + G(e−), where G(I) is the Gibbs free energy of intermediate. When the electrode potential is negatively shifted, the electron energy increases, that is, the first and the second stages shift upwards. The line 1 in Fig. 1(a) represents a condition with a relatively positive potential, and it is found that the reduction process (from left to right) is not available but the oxidation process (from right to left) is permitted in thermodynamics. Lifting the electron energy (electrode potential shifts negatively) to the condition of line 2, the overall equilibrium state between oxidized and reduced states is established. However, at such an equilibrium potential, the reaction cannot proceed because the intermediate energy is higher. To overcome the energy increase, the electrode potential requires to be further shifted negatively (e.g., line 3). For an ideal multi-electron reaction, all the energies of intermediate states are expected to be equivalent to the initial (or final) state at the equilibrium condition, as shown as line 1 in Fig. 1(b). Hence, a slight overpotential can drive the electro-reduction in thermodynamics (line 2 in Fig. 1b). As for ORR, however, there is no ideal electrocatalyst to meet the requirement because of the scaling relationship [30,31]. In brief, the Gibbs free energies of all the ORR intermediate states are unlikely to be equal just because the energy of one intermediate is generally linearly correlated with another one. As a result, a sizable overpotential must be required to overcome the definite energy increase. Finally, the frequently used reaction equations and standard electrode potentials for ORR researches are listed in Table 1 . The elementary reaction is not shown here because the reaction intermediate to undergo electroreduction is dependent on the type of catalysts and on the operative potential, which cannot be concluded in the same manner. 3 Behavior and mechanism on carbon electrode 3.1 Modified graphite and glassy carbon In earlier researches into graphite and glassy carbon, it has been found that the electrochemical reduction behavior of molecular oxygen is largely influenced by the electrode surface condition. Morcos and Yeager [19] reported the difference in O2 reduction behaviors between highly oriented pyrolytic graphite (HOPG) and ordinary pyrolytic graphite (OPG) several decades ago, as shown in Fig. 2 (a, b). The basal orientation of HOPG can hardly contribute to the cathodic ORR current when comparing to the edge orientation of HOPG. Also, the oxygen reduction on the basal plane of OPG proceeds faster than on the HOPG basal plane, suggesting that the active sites are potentially defective sites involving edge sites and chemical groups on a perfect carbon surface. From a fundamental point of view, the graphitic carbon is in the sp 2 hybridization state with a planar configuration, where the π-electron is highly delocalized. As a result, there is no permanent dipole or unpaired electron on a perfect basal plane of HOPG, namely, lacking of the strong interaction with reactive species via electrostatics and/or covalence. The role of building defect, at the electronic level, is to create the local permanent dipoles on carbon surface, thereby facilitating the adsorption of reactive species. Due to the relatively high polarizability of graphite [32], it is favorable for producing the local charge difference by surface modification comparing to diamond. Very recently, Tao et al. [33] created defects on HOPG surface by controllable plasma etching and correlated the alkaline ORR activity with the surface charge (evaluated by scanning ion conductance microscopy) of HOPG, as shown in Fig. 2(c‒e). The results indicate that the increase of surface charge induced by defect enhances the intrinsic ORR activity on HOPG. Another earlier technical approach to studying ORR mechanism is adopting glassy carbon (GC) electrode [29,34–37]. Similarly, the oxygen reduction behavior is sensitive to the GC surface condition. Yang and McCreery [38] compared the methylphenyl (MP) modified GC electrode with normally polished GC and isopropyl alcohol / activated carbon (IPA/AC) treated GC at various pH values, as shown in Fig. 2(f‒h). Herein, the positive current represents the reduction process. It is remarkable that a couple of reversible redox peaks appear on MP-modified GC at pH=14, which can be ascribed to the redox of O2/O2 −. As pH<9, the reversible peaks disappear, and two primary conclusions can be drawn: (a) the MP layer on GC prevents the further reduction of the superoxide species O2 −; (b) the superoxide species O2 − is relatively stable in strong alkaline solution. The dependences of cathodic peak current and peak potential on pH value are summarized in Fig. 2(i). The peak potential shifts only about 40 mV from pH=14 to pH=0, meaning that the determining step is less relevant to a proton-involved electron transfer. More details about electron transfer and superoxide species in ORR is discussed in Section 4.3. However, the normally polished GC, standing for the general electrode in electrochemical tests, does not exhibit the reversible O2/O2 − waves although in a pH 14 solution. It suggests an effective interaction between polished GC and superoxide species which enhances the superoxide decay. In fact, the polished GC is still defective but without the presence of the organic layer, so its oxygen reduction behavior is similar to that of OPG. In summary, the defect site of graphite is responsible for oxygen reduction instead of the perfect graphitic plane. 3.2 Edge defect of carbon nanomaterials As the nanotechnology develops rapidly, the carbon-based nanomaterials are regarded as a kind of functional materials involving fullerene (C60), carbon nanotube (CNT), graphene, and so forth [39]. During the normal synthesis process of carbon-based nanomaterials, it is inevitably to introduce impurity and/or defect in products, which definitely alter the local chemical and/or electronic conditions of nanocarbon [10]. Zhong et al. [40] reported the difference in alkaline ORR activity between fish-bone CNTs and parallel CNTs (denoted as F-CNTs and P-CNTs, respectively), as shown in Fig. 3 (a, b). The wall of F-CNTs presents more edge sites than that of P-CNTs, leading to a more positive cathodic peak potential and a larger peak current (Fig. 3c). Besides, the post-treatment by gaseous heating or acidic leaching for CNTs can further change the content of edge sites. As the percentage of edge increases, the peak potential shifts toward a positive direction (Fig. 3d), in agreement with the earlier studies on HOPG and GC. A further study brings about a deeper understanding of edge effect in CNTs. As shown in Fig. 4 (a), the defective CNTs with hole-like edge site can be controllably synthesized by drilling with cobalt (products shown in Fig. 4b, c). The content of edge can be regulated by the loading amount of cobalt. Fig. 4(d, e) illustrates the enhanced onset potential and the limiting current for the typical drilled CNTs sample. It is more surprising that a larger amount of edge sites would reduce the cathodic current, and the optimal cobalt loading is deduced as Fig. 4(f). Such a conclusion meets the modern agreement that the edge (or the surface charge suggested by Tao et al. [33]) is not always favorable for the enhancement of ORR activity. The underlying reason is revealed in Fig. 4(g). The interfacial charge transfer resistance Rct derived from EIS analysis becomes larger with the increase of the loading amount of cobalt, which potentially weakens the electron transfer from electrode to reactive species of ORR. Another fundamental phenomenon to be emphasized is that the oxygen on HOPG or GC is mainly reduced via a two-electron pathway with the primary product of H2O2 or HO2 − (dependent on pH). The introduction of edge sites into graphitic structure can partially decrease the production of peroxide and increase the apparent electron transfer number to a level greater than 2 (Fig. 4e). However, comparing to the commercial Pt/C catalyst, the ORR onset potential and the electrode kinetics of edge-rich CNTs are still less optimistic (Fig. 4d), reconciling with other edge-rich graphitic nanomaterials [41–45]. As for the actual atomic structures of edge sites, in our views, three main configurations are involved: (a) topological deformation from the carbon six-membered ring at edge, (b) terminated C − H bond, and (c) terminated oxygen-contained chemical groups including −C=O, −C−OH, −C−COOH and so on. All types of edge defects play a role in creating permanent dipoles, but they are difficult to be experimentally evaluated in quality and in quantity. Coming from a modern perspective on metal-free carbon-based nanomaterials, there is a consensus that the defect engineering accounts for boosting ORR performance, where the edge site mentioned above acts as one of the defect types. In addition, the topological defect is another highly concerned defect type in terms of carbocatalysis. The ORR behavior decorated by topological defect is, to some extent, similar to the edge defect, which is originated from chemical groups, vacancies, graphitic unit deformation, and so on [39]. Tang et al. [46] have synthesized a defect-rich graphene sample with substantial edge-induced topological defect, proving that the five-seven carbon ring primarily contributes to the decrease of overpotential. Up to now, it has been a hassle to precisely ascertain the atomic configurations of the valid active sites in defective carbon and the operative mechanism of oxygen species conversion in oxygen reduction. It is challenge but crucial to develop a comprehensive paradigm for carbon electrocatalysis, which differs from precious metal. Based on the above-mentioned review, the following issues are expected to be solved urgently: (a) the kinetics of electron transfer between defective nanocarbon and oxygen molecule should be modeled, in order to intrinsically compare and connect the contributions of different defect types; (b) the reactive oxygen species on defective nanocarbon at various pH values should be definitely identified, in order to construct the accurate oxygen transformation pathways under acidic and alkaline conditions. 4 Behavior and mechanism on doped carbon electrocatalyst 4.1 Performance diversity for various dopants 4.1.1 N/P/S/Cl as dopants Metal-free heteroatom doping has been widely evidenced to be an effective way to regulate the ORR activity both in alkaline and acidic electrolytes. Nitrogen, as one of the most common dopants, can significantly increase the ORR performance of carbon nanomaterials, as previously reported by Gong et al. [21,48–51]. Afterwards, boron, phosphorus, sulfur, and chlorine doped (or co-doped) carbon nanomaterials have been synthesized via numerous methods [52–57]. Liu et al. [58] initially reported that the P-doped graphite layers could also catalyze oxygen reduction in alkaline electrolyte (Fig. 5 a‒c), which is similar to the performance of N-doping. Actually, the oxygen reduction proceeding in acidic electrolyte is more valuable to the commercial application in proton exchange membrane fuel cells, but the single nitrogen or phosphorus doping cannot contribute to a considerable ORR activity in acid. Consequently, co-doping with N and S is a profitable approach to further enhance the acidic ORR activity [59], as shown in Fig. 5(d‒g). The onset potential and the cathodic kinetics is slightly promoted but the oxygen reduction is still substantially controlled by kinetics despite applying a large overpotential (Fig. 5f). The N, S-doped carbon can be also prepared by pyrolysis and graphitization of lignin [60], shown in Fig. 5(h‒j). The optimized sample (marked as LC-4-1000) exhibits a decent onset potential and Tafel slope in acid, together with a limited diffusion current platform. Herein, it is found that the acidic oxygen reduction behavior is more or less different when comparing the carbon with the same types of dopants but with the different morphologies. For another example, the N, S-doped carbon with a morphology of mesoporous sphere is applicable to the highly efficient H2O2 production [61]. The underlying reason is probably relevant to the dopant content and the porous structure, where the former modulates the intrinsic catalytic activity, and the latter affects the mass transfer process. Most recently, it is reported that the presence of chlorine can further shift the onset potential of acidic ORR on N, S-doped carbon to a level which is comparable to Pt/C [62], shown in Fig. 5(k‒n). DFT calculations reveal that the synergistic effect of N and Cl is originated from the redistribution of intermediate energies, which facilitates reducing the overpotential of acidic ORR. Moreover, the single fuel cell is evaluated with the cathode catalyst of such a representative sample, displaying a maximum power density of 779 mW cm−2, the highest one among metal-free catalysts so far. Likewise, the promotion induced by chlorine is also demonstrated in CO2 electrocatalytic reduction [63]. Up to now, the chlorine in carbon nanomaterials has been validated to play a key role in enhancing acidic ORR performance, but the underlying mechanism remains mysterious especially at the electronic level. Based on our analysis, three primary challenges related to chlorine doping should be overcome in future: (a) It is essential to develop a controllable method to synthesis the carbon nanomaterial with a relatively high content of chlorine; (b) it is urgent to correctly identify the chlorine species in graphitic lattice by the combination of experimental characterizations and theoretical calculations; (c) it is crucial to determine the oxygen transformation behavior under the synergistic effect of N, S and Cl. 4.1.2 Other uncommon dopants Besides the common doping elements of B, N, P, S and Cl, other metal-free heteroatoms have also been reported as dopants for electrocatalytic ORR. According to the general understanding of doping effect that heteroatoms modify the dipole distribution in graphitic lattice, fluorine as the most electronegative element is also regarded as an efficient dopant. In acid, the synthesized fluorine-doped BP 2000 exhibits a decent onset potential of ~0.9 V (vs. RHE), which is comparable to the commercial Pt/C [64]. Moreover, the electron transfer number is almost 4, leading to a low H2O2 yield. The relatively high surface area induced by fluorine doping is treated as the key factor to enhance the original BP activity. In alkali, the fluorine-doped carbon materials also perform well in terms of the onset potential, Tafel slope and stability [65–67]. However, the fluorine-doped porous carbon derived from the carbonization of MIL-53 (Al) MOFs is conversely reported as a kind of ORR catalyst with enhanced H2O2 production in acid [68], where the two-electron ORR pathway dominates the primary product. In brief, the performance and the mechanism depend not only on the type of heteroatom, but also on the graphitic micro-structure. For other carbon group elements, silicon-doped carbon materials have been tried in alkali but the ORR performance cannot catch up with Pt/C [69]. For nitrogen group elements apart from N and P, Liu et al. [70] synthesized As-doped and N, As-codoped carbon nanotubes, but the arsenic does not reflect a considerable activity enhancement. Actually, it is uncertain whether silicon and arsenic atoms enter into the graphitic lattice or not. For oxygen group elements apart from O and S, the selenium doping has also been attempted in alkali [71]. There are no more detail investigations into ORR mechanism or fuel cell application. Among all the heteroatoms reported so far, B, N, F, P, S and Cl can play vital roles in carbon-based metal-free electrocatalytic oxygen reduction. There are still many debates about the heteroatoms with a large radius. One of the major concerns is that we are not sure if the heteroatom with large radius is reliably doped into the carbon lattice and bonded to the graphitic carbon atoms. Up to now, the nitrogen species is the only dopant which has been widely and deeply studied. The comprehensive understanding about the synergistic effect induced by P, S, Cl and N has not been fully revealed yet. 4.2 Activity origin from doping 4.2.1 Energy evolution from DFT calculations Previously, the ORR activity on various facets of different metal elements can be predicted via density functional theory (DFT) calculations suggested by Nørskov et al. [30], and a volcano-like correlation can be traced out. Therein, the computational hydrogen electrode (CHE) model has been established. Accordingly, the theoretical onset potential can be determined by calculating adsorption free energies of all the ORR intermediates including *OOH, *O, and *OH. Similarly for carbon, B, N and P-doped carbon models have been investigated with DFT calculations in terms of ORR active sites and process [72–77]. Jiao et al. [78] have integrally evaluated the ORR free energy evolutions on various doped graphene models, and built the activity volcano-like relationship combining theory and experiment, as shown in Fig. 6 (a‒c). As illustrated, the oxygen reduction process, at the equilibrium potential, is primarily hindered at the *OOH generation stage for all doped graphene models. Thus, a sizable electron energy (large overpotential) is required to offset the free energy difference between O2 state and *OOH state. Fig. 6(b) demonstrates the correlation between the logarithm of exchange current density and the activity descriptor ΔG OOH. Nitrogen and boron are verified as decent dopants both in thermodynamics and kinetics. Herein, the single sulfur doping is predicted theoretically as an inappropriate dopant, which is only slightly superior to the pure graphene. Cheon et al. [79] measured the work functions for N, O, S-doped carbon, and provided the correlation between the kinetic current density and work function. The triple-doped N, O, S-OMC sample, with the lowest work function, exhibits the largest kinetic current density and the most electron transfer number both in acid and alkali. Subsequently, a more detailed volcano-like relationship is built for the entire family of metal-free carbon-based materials by Zhao et al. [80]. A novel activity descriptor is suggested which is relevant to the electronegativity together with the electron affinity of heteroatom. With such a descriptor, the theoretical onset potential and the current density can be well correlated, and the nitrogen is also evidenced as the optimal dopant. Nevertheless, what differs from S. Qiao's research [78] is that the sulfur doping is an effective method but boron doping cannot provide enough activity under the newly built descriptor. Another unresolved problem is that the dual-doping and/or the triple-doping can be hardly predicted accurately. In essence, it is quite difficult to precisely characterize the atomic configuration and the chemical environment of heteroatoms in carbon-based nanomaterials, which is not as clear as precious metal materials and their alloys. As a result, the simply established models for DFT calculations cannot reliably represent the synthesized samples in experiment, leading to the deviation from prediction. To ascertain the detailed intermediate transformation steps on N-doped CNTs, Li et al. [81] designed the reaction networks for oxygen reduction and hydrogen peroxide reduction, as shown in Fig. 6(d, e). Considering the high efficiency of peroxide dissociation catalyzed by N-doped carbon, the H2O2 disproportionation has also been evaluated (Fig. 6f). It is inferred that the oxygen molecule can be easily transformed into H2O2 via a two-electron pathway, or into *OH species via a three-electron pathway. However, the adsorbed OH species is relatively tightly bonded to N-doped carbon surface, which is unfavorable for the further reduction to H2O. Instead, the H2O2 disproportionation proceeds smoothly, leading to a mixed overall ORR mechanism as described in Fig. 6(g). In summary, the activity origin from heteroatom doping is supposed to tailor the ORR intermediate energies and accelerate the by-product consumption. 4.2.2 Doped nitrogen species Nitrogen, as a typical robust dopant, has been extensively studied [8,82]. Generally, the doped nitrogen species exists as four forms in graphitic lattice, including graphitic N (also called quaternary N), pyridinic N, pyrrolic N and oxidized N [83]. A long-standing debate appears between graphitic N and pyridinic N because it is tough to determine which one is truly responsible for oxygen reduction. One of the obstacles is that all the nitrogen species mentioned above exist simultaneously in the synthesized N-doped carbon materials. To this end, Guo et al. [84] applied HOPG as a model catalyst to arrive at the idea of separating nitrogen species. As shown in Fig. 7 (a), the individual pyridinic and graphitic nitrogen have been properly doped in HOPG, and the ORR LSVs are displayed in Fig. 7(b). It is clear that, in acid, both graphitic and pyridinic nitrogen species are able to shift the ORR onset potential toward a positive direction and to speed up the ORR kinetics. Most importantly, the pyridinic nitrogen species provides a more positive onset potential than graphitic nitrogen. Further improving the content of pyridinic or graphitic nitrogen species is unable to maintain the individual doping property, probably implying that any single nitrogen species makes carbon system unstable. Even so, the current density and the onset potential are correlated well with the content of pyridinic nitrogen, as shown in Fig. 7(c, d). For the same purpose, Yang et al. [85] identified the catalytic sites with N-doped graphene nanoribbons characterized by XANES spectra, demonstrating that the quaternary N with n-type doping rather than p-type doping by pyridinic N is responsible for ORR, which agrees with other previous theoretical and experimental studies [86,87]. Such a conflicting understanding about nitrogen species remains a mystery. Lately, Ning et al. [88] have developed a novel method to probe the electron transfer performance of N-doped carbon. Therein, the TCNQ molecule is adopted as an electron acceptor, and the electron transfer strength between N-doped carbon and TCNQ, which is specifically characterized by light absorbance intensity of charged TCNQ, can be described as a function of the nitrogen content (Fig. 8 a). As a consequence, the ratio of [NP]:[NG] serves well as a descriptor to correlate with electron transfer performance following the form of a kind of reverse volcano curve. In brief, the capability of N-doped carbon to donate electrons has a minimum when [NP]:[NG] equals about 0.5. Density of states calculations based on DFT rationally reveal the phenomenon, illustrated in Fig. 8(b‒f). The individual graphitic nitrogen doping generates a new electronic state (marked as state-I) above the original Fermi level, and at the same time, the Fermi level is shifted upwards. Likewise, the individual pyridinic nitrogen doping produces a new state (marked as state-II) below the original Fermi level, and the Fermi level is shifted downwards. Thus, both graphitic and pyridinic nitrogen species promote the interfacial electron transfer due to the increased electron density at Fermi level. However, when the graphitic and pyridinic nitrogen exist together, the Fermi level shifts between state-I and state-II. There is an evident trough which represents the minimal electron density at the Fermi level, so the interfacial electron transfer between the N-doped carbon and the electron acceptor is suppressed at such a [NP]:[NG] ratio (approximately 0.5). Except the minimum, either increasing the content of NG or NP leads to the enhancement of interfacial electron transfer, namely, the ORR kinetic current density in alkali (Fig. 8g). This part of work provides a novel insight into the underlying synergistic interaction between the disputed nitrogen species in carbon. In fact, it is less meaningful to discuss the effect of an individual nitrogen species especially when the total nitrogen content is relatively high, just because both nitrogen species contribute to the ORR activity enhancement. Recently, Jia et al. [89] have also pointed out that the nitrogen and/or defect types are difficult to control in carbon materials. Moreover, they reported that the nitrogen species at edge sites can be removed, followed by leaving a kind of pentagon carbon defect, as sketched in Fig. 9 (a). The precursor marked as N-HOPG only contains pyridinic nitrogen, and the nitrogen is completely removed by heat treatment to obtain the sample D-HOPG (see the comparison in Fig. 9b). The atomic configurations at edge sites for N-HOPG and D-HOPG are clearly displayed in Fig. 9(c‒f). As for the ORR performance in acid, herein, the defective HOPG sample (D-HOPG) with pentagon carbon configurations exhibits a more positive onset potential and a more optimistic cathodic kinetics comparing to N-HOPG (Fig. 9g). Regulating the nitrogen content of N-HOPG by controlling etching time makes little sense of increasing ORR activity (Fig. 9h), but the increase in defect density of D-HOPG can significantly enhance the ORR kinetics (Fig. 9i). Besides, DFT calculations indicate the lowest theoretical onset potential in the graphitic structure with a pentagon edge site. Such a conclusion validates that the edge defect site is more applicable to acidic ORR than the pyridinic nitrogen site, which refreshes the understanding about the activity origin of metal-free carbon-based nanomaterials. Beyond the four-electron promotion effect, both the nitrogen-doping and the nitrogen-free defect, in some cases, are able to boost two-electron ORR for producing peroxide with a high selectivity and a high current density [90]. Fellinger et al. [91,92] reported early that mesoporous nitrogen-doped carbon could be responsible for H2O2 production in acid with a calculated Faraday efficiency of 65%, followed by a deeper investigation on pH values and electrolytes. Accordingly, Liu et al. [93] prepared hierarchically porous carbon without nitrogen and provided a higher peroxide production activity with more than 90% selectivity in acid. The underlying interpretation on such an abnormal phenomenon still remains a puzzle. A recent research deduced that the nitrogen doping effect on promoting the four-electron ORR can be screened by the termination of −COOH group [94]. Instead, the COOH-modified N-doped carbon exhibits a high reactivity toward two-electron ORR in alkali to produce peroxide with nearly 100% selectivity. This contributes to a new idea from the reverse thought about understanding the nitrogen doping effect, which is helpful in future. In summary, the nitrogen species can be individually doped into the graphitic lattice particularly in HOPG. However, the cathodic oxygen reduction behaves quite differently. Another concern is that the established correlations between nitrogen species (or defect) and ORR performance cannot be confirmed to work on other types of carbon materials except HOPG. From the viewpoint of theoretical calculations, the lack of a robust bridge from theoretical models to objective microstructures also hinders the exact interpretations on ORR activity origin. At present, there is an urgent requirement for a unified theory that can integrate the previously proposed correlations, in order to build a universal paradigm on the metal-free electrocatalysis research. 4.3 Intermediate behavior on N-doped carbon As the popularization of computational hydrogen electrode (CHE) model [30], most DFT calculations embedded into experimental researches have been reported to compare and/or explain a kind of novel ORR electrocatalyst. Therein, the adsorption free energies of *OOH, *O, and *OH intermediates on the supposed active sites are evaluated in order to plot the reaction process curve. With this method, the potential determining step and the theoretical onset potential are usually proposed. Nevertheless, such a computation flow acts well only if the following preconditions are met: (a) The oxygen molecule is supposed to be reduced via an associative mechanism where the O−O bond in O2 cannot crack at the initial stage; (b) the kinetics is fast enough at each equilibrium states; (c) the mass transfer, at least the migration of reactive species on catalyst, is rationally ignored. For instance, the first step of ORR is generally written as (10) O 2 + H + + e − ⇌ H O 2 ( ads ) where the adsorbed HO2 is generated via a proton coupled electron transfer mechanism. Actually, the superoxide species (e.g., adsorbed O2 − and free O2 −) is probably involved into the intermediate transformation, depending on the catalyst surface condition and pH value [95–97]. As a result, the above formula can be divided into two steps: (11) O 2 + e − ⇌ O 2 − (12) O 2 − + H + ⇌ H O 2 ( ads ) , where the proton coupled electron transfer is converted into an individual electron transfer process and a surface chemical reaction process. The major distinction has been well reviewed by Koper [24]. The research on the detail intermediate behavior is crucial to determine the form of operative reaction species and to identify the intrinsic activity origin for ORR. Herein, the superoxide and the peroxide species on carbon surface are discussed. From the preceding Section 3.1, the superoxide anion O2 − can be evidently detected from the one-electron reduction of O2 on the modified glassy carbon at a relatively high pH. The further decay of superoxide involves electroreduction and disproportionation, as expressed below: (13) O 2 − + H 2 O + e − ⇌ HO 2 − + O H − (14) 2 O 2 − + H 2 O → O 2 + HO 2 − + O H − where both pathways contribute to the production of peroxide anion and hydroxide anion. Li et al. [98] have scanned the potential energy surfaces for the first and the second electron transfer processes in terms of the O2 and H2O reaction. As shown in Fig. 10 (a‒d), if without any catalytic interaction to the system of O2 and H2O, the first electron transfer can also proceed at the equilibrium condition with a relatively low energy barrier of about 0.18 eV (Fig. 10a). Superoxide anion, in this case, is generated to be an individual species with a strong interaction to the surrounding H2O molecule. For the second reaction step, the individual superoxide anion cannot chemically react with H2O because the system potential energy is largely increased (the red surface in Fig. 10b). Instead, the electron has to be involved into this process to decrease the lifted potential energy surface, that is, a proton coupled electron transfer mechanism appears. However, the equilibrium electronic energy is more negative than that of the first step and the energy barrier is about 0.40 eV, indicating that the second step requires a more negative electrode potential and exhibits a more sluggish kinetics if without catalytic interaction. It is noteworthy that the hydrogen donor in this calculation is the H2O molecule, corresponding to a high pH condition. When the hydrogen ion acts as the primary donor (namely, in a low pH condition), the mechanism and the kinetics would be changed [38,99]. As the carbon surface interacts with the O2/H2O system, the first step is hardly affected because the product of superoxide anion is physically adsorbed on carbon with a weak interaction. On the contrary, the second step is relatively influenced in terms of kinetics, as shown in Fig. 10(e). The tendency for the potential energy evolution is not significantly changed but the energy barrier is reduced from 0.4 to 0.08 eV, suggesting an accelerated kinetics. This result mainly suggests that the peroxide anion is probably converted from an enhanced superoxide disproportionation rather than electroreduction at a relatively positive electrode potential. When the carbon surface is doped with nitrogen, the superoxide species is chemically adsorbed on surface and the potential energy evolution tendency is fully changed (Fig. 10f). The adsorbed superoxide is suppressed to chemically react with H2O, meaning that the energy conversion efficiency from chemical energy to electricity is increased. This work reveals from an intrinsic viewpoint that the nitrogen doping significantly influences the potential energy surface for the electron transfer process. From the experimental point of view, Wan et al. [100] has proposed a pH-dependent ORR mechanism for N-doped carbon materials, where the reversible redox couples on the surface is closely relevant to the ORR performance. Therein, the first electron transfer at a relatively negative potential in alkali is suggested to proceed via the outer sphere electron transfer mechanism. A similar conclusion has also been drawn by Choi et al. [101] several years ago. In summary, the ORR intermediate behavior is readily to be evaluated at a high pH, both from experiment and theory. The intermediates and the corresponding electron transfer mechanism in acid should be further identified in future. Based on this section of review, the following topics are expected to be settled down immediately: (a) For application research, the long-term durability of fuel cell device with optimal metal-free cathode should be discreetly evaluated especially at a relatively high current density; (b) for fundamental research, the electron transfer kinetics at any overpotentials and at all pH values should be modeled especially for nitrogen-doped nanocarbon through the combination of experiment and computation. 5 Advanced carbon nanomaterials Beyond the widespread sp 2-dominated carbon materials, graphdiyne, first reported by Li et al. [102], acts as a kind of sp-dominated carbon and exhibits a potential electrocatalytic performance [103]. Zhao et al. [104] have achieved the nitrogen doping in graphdiyne to enhance the ORR activity. As shown in Fig. 11 (a), a novel nitrogen species named sp-N appears at the sp-hybridization carbon site. The alkaline ORR catalyzed by N-doped graphdiyne behaves as well as the commercial Pt/C, and the acidic ORR activity is increased to some extent (Fig. 11b, c). Most importantly, it is found that the ORR kinetic current density is well correlated with the content of sp-N whether in acid or alkali, as illustrated in Fig. 11(d). Besides, the selectively pyridinic nitrogen doped graphdiyne has been successfully synthesized, providing a further increased ORR activity in acid [105]. Nitrogen/fluorine co-doped graphdiyne has also been reported, and the power density performance of Zn-air battery is more decent than Pt/C especially at a high current density [106]. At present, there is no further investigation on the intrinsic activity origin from the heteroatom species in graphdiyne, which merits deep studying. The covalent organic frameworks (COFs) or polymers (COPs) are fascinating due to their controllable porous structures [107, 108]. The porphyrin-based COFs are synthesized (Fig. 11e‒g) and the alkaline ORR performance is evaluated (Fig. 11h, i). The large crystalline dendrites are treated as the prominent role to enhance ORR activity [109]. Based on the ordered structures, COFs and COPs can be a kind of desirable metal-free carbon-based model catalysts to work for ORR mechanism investigations. Very recently, the cyclo [18] carbon, an sp-hybridized molecular carbon allotrope, has been produced by means of atom manipulation, illustrated in Fig. 11j‒l [110]. Actually, the cyclo [18] carbon molecule has been predicted and identified several decades ago, suggesting a polyynic configuration with alternating triple and single bonds [111], in agreement with the recent experimental observation. The unique cyclo [18] carbon structure implies a high reactivity, particularly toward the covalent interaction with some molecules. Nevertheless, at present, this molecule cannot be prepared in large quantities under laboratory conditions. The electrocatalytic behaviors require further theoretical and experimental investigations. 6 Summary and outlook The metal-free carbon materials toward ORR have been extensively studied for several decades. The focused research fields can be divided into three parts: (a) Experimental ORR and fuel cell application performance, (b) fundamental electrode process kinetics, and (c) energy evaluation based on DFT calculations. First, the pristine graphitic materials are nearly hopeless for the practical energy conversion device because the oxygen is only reduced to peroxide, along with a large overpotential. Nonetheless, the highly controllable structure of defective carbon provides opportunities for further electrode kinetics research. Meanwhile, a structure easy to understand is quite applicable to DFT modeling, facilitating the connection between theory and experiment. Second, the doped graphitic nanomaterials have been rapidly developed for recent ten years. Boron, nitrogen, phosphorus and sulfur are frequently used as dopants to achieve a considerable decrease in alkaline ORR overpotential. The individual nitrogen doping can not help more on remarkable enhancement of acidic ORR, so the dual doping is regarded as a decent method. Lately, the chlorine in biomass-derived carbon is reported to work as a featured dopant, synergetic with nitrogen and sulfur, leading to a high-power density of PEMFC single cell. However, the intrinsic activity origin from heteroatom doping remains a mystery, even though for the individual nitrogen doping. The primary reason, in our opinion, is the lack of accurate understanding on the precise active sites and on the operative 4e ORR pathway. Finally, the advanced carbon nanomaterials represented by graphdiyne and COFs are potential focused substrates to pursue a deeper correlation between micro-structure and electrocatalytic behavior. As reviewed above, the outlooks for future researches on metal-free ORR electrocatalysis are suggested below: (a) In order to solve the inconsistencies of the correlation between various simple sites (graphite carbon, pyridine carbon, pyrrole carbon, defective carbon, etc.) and electrochemical activity, atomic level (DFT) and mesoscopic level (Big data) calculation methods should be developed. The effects of various doping and surface adsorption of nonmetallic heteroatoms on ORR properties should be collaboratively studied. Based on the local electron characteristics, the electron catalysis theory of metal-free carbon materials needs to be further established. (b) In order to meet the needs of the proton membrane fuel cell, the carbon electrode materials with high ORR activity in acidic conditions should be the focus of research. It can be expected that the nonmetal co-doped and nonmetal-metal co-doped carbon materials with the porous structure and large surface area will make breakthroughs and play a role in fuel cell applications in the future. Declaration of competing interests None. Acknowledgments We acknowledge the financial support from the National Natural Science Foundation of China (nos. 21872041, 21373091) and the Science and Technology Project of Guangzhou city (no. 201704030040). References [1] L. Chong J. Wen J. Kubal F.G. Sen J. Zou J. Greeley M. Chan H. Barkholtz W. Ding D.J. Liu Science 362 2018 1276 1281 L. Chong, J. Wen, J. Kubal, F.G. Sen, J. Zou, J. Greeley, M. Chan, H. Barkholtz, W. Ding, D.J. Liu, Science362 (2018) 1276‒1281. [2] M. Luo Z. Zhao Y. Zhang Y. Sun Y. Xing F. Lv Y. Yang X. Zhang S. Hwang Y. Qin J.Y. Ma F. Lin D. Su G. Lu S. Guo Nature 574 2019 81 85 M. Luo, Z. Zhao, Y. Zhang, Y. Sun, Y. Xing, F. Lv, Y. Yang, X. Zhang, S. Hwang, Y. Qin, J.Y. Ma, F. Lin, D. Su, G. Lu, S. Guo, Nature574 (2019) 81‒85. [3] X. Tian X. Zhao Y.Q. Su L. Wang H. Wang D. Dang B. Chi H. Liu E.J.M. Hensen X.W.D. Lou B.Y. Xia Science 366 2019 850 856 X. Tian, X. Zhao, Y.Q. Su, L. Wang, H. Wang, D. Dang, B. Chi, H. Liu, E.J.M. Hensen, X.W.D. Lou, B.Y. Xia, Science366 (2019) 850‒856. [4] Y. Lin X. Sun D.S. Su G. Centi S. Perathoner Chem. Soc. Rev. 47 2018 8438 8473 Y. Lin, X. Sun, D.S. Su, G. Centi, S. Perathoner, Chem. Soc. Rev.47 (2018) 8438‒8473. [5] D. Su G. Wen S. Wu F. Peng R. Schlogl Angew. Chem. Int. Ed. 56 2017 936 964 D. Su, G. Wen, S. Wu, F. Peng, R. Schlogl, Angew. Chem. Int. Ed.56 (2017) 936‒964. [6] D. Liu L. Dai X. Lin J.F. Chen J. Zhang X. Feng K. Mullen X. Zhu S. Dai Adv. Mater. 31 2019 e1804863 D. Liu, L. Dai, X. Lin, J.F. Chen, J. Zhang, X. Feng, K. Mullen, X. Zhu, S. Dai, Adv. Mater.31 (2019) e1804863. [7] L. Dai Curr. Opin. Electrochem. 4 2017 18 25 L. Dai, Curr. Opin. Electrochem.4 (2017) 18‒25. [8] L. Yang J. Shui L. Du Y. Shao J. Liu L. Dai Z. Hu Adv. Mater. 31 2019 1804799 L. Yang, J. Shui, L. Du, Y. Shao, J. Liu, L. Dai, Z. Hu, Adv. Mater.31 (2019) 1804799. [9] R. Paul F. Du L. Dai Y. Ding Z.L. Wang F. Wei A. Roy Adv. Mater. 31 2019 1805598 R. Paul, F. Du, L. Dai, Y. Ding, Z.L. Wang, F. Wei, A. Roy, Adv. Mater.31 (2019) 1805598. [10] C. Tang Q. Zhang Adv. Mater. 29 2017 1604103 C. Tang, Q. Zhang, Adv. Mater.29 (2017) 1604103. [11] R.L. McCreery Chem. Rev. 108 2008 2646 2687 R.L. McCreery, Chem. Rev.108 (2008) 2646‒2687. [12] R.L. McCreery M.T. McDermott Anal. Chem. 84 2012 2602 2605 R.L. McCreery, M.T. McDermott, Anal. Chem.84 (2012) 2602‒2605. [13] K.H. Wu D.W. Wang D.S. Su I.R. Gentle ChemSusChem 8 2015 2772 2788 K.H. Wu, D.W. Wang, D.S. Su, I.R. Gentle, ChemSusChem8 (2015) 2772‒2788. [14] R. Ma G. Lin Y. Zhou Q. Liu T. Zhang G. Shan M. Yang J. Wang NPJ Comput. Mater. 5 2019 1 13 R. Ma, G. Lin, Y. Zhou, Q. Liu, T. Zhang, G. Shan, M. Yang, J. Wang, NPJ Comput. Mater.5 (2019) 1‒13. [15] G. Zhong H. Wang H. Yu F. Peng Acta Chim. Sin. 75 2017 943 966 G. Zhong, H. Wang, H. Yu, F. Peng, Acta Chim. Sin.75 (2017) 943‒966. [16] K.H. Wu D.W. Wang X. Zong B. Zhang Y. Liu I.R. Gentle D.S. Su J. Mater. Chem. A 5 2017 3239 3248 K.H. Wu, D.W. Wang, X. Zong, B. Zhang, Y. Liu, I.R. Gentle, D.S. Su, J. Mater. Chem. A5 (2017) 3239‒3248. [17] C. Tang H.F. Wang Q. Zhang Acc. Chem. Res. 51 2018 881 889 C. Tang, H.F. Wang, Q. Zhang, Acc. Chem. Res.51 (2018) 881‒889. [18] X. Tan H. Tahini S.C. Smith Mater. Horiz. 6 2019 1409 1415 X. Tan, H. Tahini, S.C. Smith, Mater. Horiz. (2019) 1409‒1415. [19] I. Morcos E. Yeager Electrochim. Acta 15 1970 953 975 I. Morcos, E. Yeager, Electrochim. Acta15 (1970) 953‒975. [20] M.S. Hossain D. Tryk E. Yeager Electrochim. Acta 34 1989 1733 1737 M.S. Hossain, D. Tryk, E. Yeager, Electrochim. Acta34 (1989) 1733‒1737. [21] K. Gong F. Du Z. Xia M. Durstock L. Dai Science 323 2009 760 764 K. Gong, F. Du, Z. Xia, M. Durstock, L. Dai, Science323 (2009) 760‒764. [22] Z.W. Seh J. Kibsgaard C.F. Dickens I. Chorkendorff J.K. Norskov T.F. Jaramillo Science 355 2017 eaad4998 Z.W. Seh, J. Kibsgaard, C.F. Dickens, I. Chorkendorff, J.K. Norskov, T.F. Jaramillo, Science355 (2017) eaad4998. [23] A. Kulkarni S. Siahrostami A. Patel J.K. Nørskov Chem. Rev. 118 2018 2302 2312 A. Kulkarni, S. Siahrostami, A. Patel, J.K. Nørskov, Chem. Rev.118 (2018) 2302‒2312. [24] M.T.M. Koper Chem. Sci. 4 2013 2710 2723 M.T.M. Koper, Chem. Sci.4 (2013) 2710‒2723. [25] X. Ge A. Sumboja D. Wuu T. An B. Li F.W.T. Goh T.S.A. Hor Y. Zong Z. Liu ACS Catal. 5 2015 4643 4667 X. Ge, A. Sumboja, D. Wuu, T. An, B. Li, F.W.T. Goh, T.S.A. Hor, Y. Zong, Z. Liu, ACS Catal.5 (2015) 4643‒4667. [26] G. Zhong S. Xu L. Liu C. Zheng J. Dou F. Wang X. Fu W. Liao H. Wang ChemElectroChem 7 2020 1107 1114 G. Zhong, S. Xu, L. Liu, C. Zheng, J. Dou, F. Wang, X. Fu, W. Liao, H. Wang, ChemElectroChem (2020) 201902085. [27] S.K. Singh K. Takeyasu J. Nakamura Adv. Mater. 31 2019 1804297 S.K. Singh, K. Takeyasu, J. Nakamura, Adv. Mater.31 (2019) 1804297. [28] S. Trasatti Pure Appl. Chem. 58 1986 955 966 S. Trasatti, Pure Appl. Chem.58 (1986) 955‒966. [29] R.J. Taylor A.A. Humffray J. Electroanal. Chem. Interfacial Electrochem. 64 1975 63 84 R.J. Taylor, A.A. Humffray, J. Electroanal. Chem. Interfacial Electrochem.64 (1975) 63‒84. [30] J.K. Nørskov J. Rossmeisl A. Logadottir L. Lindqvist J.R. Kitchin T. Bligaard H. Jónsson J. Phys. Chem. B 108 2004 17886 17892 J.K. Nørskov, J. Rossmeisl, A. Logadottir, L. Lindqvist, J.R. Kitchin, T. Bligaard, H. Jónsson, J. Phys. Chem. B108 (2004) 17886‒17892. [31] F. Abild-Pedersen J. Greeley F. Studt J. Rossmeisl T.R. Munter P.G. Moses E. Skúlason T. Bligaard J.K. Nørskov Phys. Rev. Lett. 99 2007 016105 F. Abild-Pedersen, J. Greeley, F. Studt, J. Rossmeisl, T.R. Munter, P.G. Moses, E. Skúlason, T. Bligaard, J.K. Nørskov, Phys. Rev. Lett.99 (2007) 016105. [32] E.K. Yu D.A. Stewart S. Tiwari Phys. Rev. B 77 2008 195406 E.K. Yu, D.A. Stewart, S. Tiwari, Phys. Rev. B77 (2008) 195406. [33] L. Tao M. Qiao R. Jin Y. Li Z. Xiao Y. Wang N. Zhang C. Xie Q. He D. Jiang G. Yu Y. Li S. Wang Angew. Chem. Int. Ed. 58 2019 1019 1024 L. Tao, M. Qiao, R. Jin, Y. Li, Z. Xiao, Y. Wang, N. Zhang, C. Xie, Q. He, D. Jiang, G. Yu, Y. Li, S. Wang, Angew. Chem. Int. Ed.58 (2019) 1019‒1024. [34] R.J. Taylor A.A. Humffray J. Electroanal. Chem. Interfacial Electrochem. 42 1973 347 354 R.J. Taylor, A.A. Humffray, J. Electroanal. Chem. Interfacial Electrochem.42 (1973) 347‒354. [35] R.J. Taylor A.A. Humffray J. Electroanal. Chem. Interfacial Electrochem. 64 1975 85 94 R.J. Taylor, A.A. Humffray, J. Electroanal. Chem. Interfacial Electrochem.64 (1975) 85‒94. [36] M. Appel A.J. Appleby Electrochim. Acta 23 1978 1243 1246 M. Appel, A.J. Appleby, Electrochim. Acta23 (1978) 1243‒1246. [37] K. Tammeveski K. Kontturi R.J. Nichols R.J. Potter D.J. Schiffrin J. Electroanal. Chem. 515 2001 101 112 K. Tammeveski, K. Kontturi, R.J. Nichols, R.J. Potter, D.J. Schiffrin, J. Electroanal. Chem.515 (2001) 101‒112. [38] H.H. Yang R.L. McCreery J. Electrochem. Soc. 147 2000 3420 3428 H.H. Yang, R.L. McCreery, J. Electrochem. Soc.147 (2000) 3420‒3428. [39] C. Tang M.M. Titirici Q. Zhang J. Energy Chem. 26 2017 1077 1093 C. Tang, M.M. Titirici, Q. Zhang, J. Energy Chem.26 (2017) 1077‒1093. [40] G. Zhong H. Wang H. Yu F. Peng Electrochem. Commun. 40 2014 5 8 G. Zhong, H. Wang, H. Yu, F. Peng, Electrochem. Commun.40 (2014) 5‒8. [41] S. Jiang Z. Li H. Wang Y. Wang L. Meng S. Song Nanoscale 6 2014 14262 14269 S. Jiang, Z. Li, H. Wang, Y. Wang, L. Meng, S. Song, Nanoscale6 (2014) 14262‒14269. [42] R. Lv H. Wang H. Yu F. Peng Electrochim. Acta 228 2017 203 213 R. Lv, H. Wang, H. Yu, F. Peng, Electrochim. Acta228 (2017) 203‒213. [43] A. Shen Y. Zou Q. Wang R.A. Dryfe X. Huang S. Dou L. Dai S. Wang Angew. Chem. Int. Ed. 53 2014 10804 10808 A. Shen, Y. Zou, Q. Wang, R.A. Dryfe, X. Huang, S. Dou, L. Dai, S. Wang, Angew. Chem. Int. Ed.53 (2014) 10804‒10808. [44] K. Matsubara K. Waki Electrochim. Acta 55 2010 9166 9173 K. Matsubara, K. Waki, Electrochim. Acta55 (2010) 9166‒9173. [45] K. Waki R.A. Wong H.S. Oktaviano T. Fujio T. Nagai K. Kimoto K. Yamada Energy Environ. Sci. 7 2014 1950 1958 K. Waki, R.A. Wong, H.S. Oktaviano, T. Fujio, T. Nagai, K. Kimoto, K. Yamada, Energy Environ. Sci.7 (2014) 1950‒1958. [46] C. Tang H.F. Wang X. Chen B.Q. Li T.Z. Hou B. Zhang Q. Zhang M.M. Titirici F. Wei Adv. Mater. 28 2016 6845 6851 C. Tang, H.F. Wang, X. Chen, B.Q. Li, T.Z. Hou, B. Zhang, Q. Zhang, M.M. Titirici, F. Wei, Adv. Mater.28 (2016) 6845‒6851. [47] G. Zhong H. Wang H. Yu H. Wang F. Peng Electrochim. Acta 190 2016 49 56 G. Zhong, H. Wang, H. Yu, H. Wang, F. Peng, Electrochim. Acta190 (2016) 49‒56. [48] L. Qu Y. Liu J.B. Baek L. Dai ACS Nano 4 2010 1321 1326 L. Qu, Y. Liu, J.B. Baek, L. Dai, ACS Nano4 (2010) 1321‒1326. [49] D. Yu E. Nagelli F. Du L. Dai J. Phys. Chem. Lett. 1 2010 2165 2173 D. Yu, E. Nagelli, F. Du, L. Dai, J. Phys. Chem. Lett.1 (2010) 2165‒2173. [50] D. Yu Q. Zhang L. Dai J. Am. Chem. Soc. 132 2010 15127 15129 D. Yu, Q. Zhang, L. Dai, J. Am. Chem. Soc.132 (2010) 15127‒15129. [51] S. Wang D. Yu L. Dai J. Am. Chem. Soc. 133 2011 5182 5185 S. Wang, D. Yu, L. Dai, J. Am. Chem. Soc.133 (2011) 5182‒5185. [52] Z. Ma S. Dou A. Shen L. Tao L. Dai S. Wang Angew. Chem. Int. Ed. 54 2015 1888 1892 Z. Ma, S. Dou, A. Shen, L. Tao, L. Dai, S. Wang, Angew. Chem. Int. Ed.54 (2015) 1888‒1892. [53] J. Zhang L. Qu G. Shi J. Liu J. Chen L. Dai Angew. Chem. Int. Ed. 55 2016 2230 2234 J. Zhang, L. Qu, G. Shi, J. Liu, J. Chen, L. Dai, Angew. Chem. Int. Ed.55 (2016) 2230‒2234. [54] P. Zhang F. Sun Z. Xiang Z. Shen J. Yun D. Cao Energy Environ. Sci. 7 2014 442 450 P. Zhang, F. Sun, Z. Xiang, Z. Shen, J. Yun, D. Cao, Energy Environ. Sci.7 (2014) 442‒450. [55] L. Yang S. Jiang Y. Zhao L. Zhu S. Chen X. Wang Q. Wu J. Ma Y. Ma Z. Hu Angew. Chem. Int. Ed. 50 2011 7132 7135 L. Yang, S. Jiang, Y. Zhao, L. Zhu, S. Chen, X. Wang, Q. Wu, J. Ma, Y. Ma, Z. Hu, Angew. Chem. Int. Ed.50 (2011) 7132‒7135. [56] B. Huang Y. Liu X. Huang Z. Xie J. Mater. Chem. A 6 2018 22277 22286 B. Huang, Y. Liu, X. Huang, Z. Xie, J. Mater. Chem. A6 (2018) 22277‒22286. [57] C. Tang H.F. Wang J.Q. Huang W. Qian F. Wei S.Z. Qiao Q. Zhang Electrochem. Energy Rev. 2 2019 332 371 C. Tang, H.F. Wang, J.Q. Huang, W. Qian, F. Wei, S.Z. Qiao, Q. Zhang, Electrochem. Energy Rev.2 (2019) 332‒371. [58] Z.W. Liu F. Peng H.J. Wang H. Yu W.X. Zheng J. Yang Angew. Chem. Int. Ed. 50 2011 3257 3261 Z.W. Liu, F. Peng, H.J. Wang, H. Yu, W.X. Zheng, J. Yang, Angew. Chem. Int. Ed.50 (2011) 3257‒3261. [59] Q. Shi F. Peng S. Liao H. Wang H. Yu Z. Liu B. Zhang D. Su J. Mater. Chem. A 1 2013 14853 14857 Q. Shi, F. Peng, S. Liao, H. Wang, H. Yu, Z. Liu, B. Zhang, D. Su, J. Mater. Chem. A1 (2013) 14853‒14857. [60] Y. Shen F. Peng Y. Cao J. Zuo H. Wang H. Yu J. Energy Chem. 34 2019 33 42 Y. Shen, F. Peng, Y. Cao, J. Zuo, H. Wang, H. Yu, J. Energy Chem.34 (2019) 33‒42. [61] V. Perazzolo C. Durante R. Pilot A. Paduano J. Zheng G.A. Rizzi A. Martucci G. Granozzi A. Gennaro Carbon 95 2015 949 963 V. Perazzolo, C. Durante, R. Pilot, A. Paduano, J. Zheng, G.A. Rizzi, A. Martucci, G. Granozzi, A. Gennaro, Carbon95 (2015) 949‒963. [62] Y. Shen Y. Li G. Yang Q. Zhang H. Liang F. Peng J. Energy Chem. 44 2020 106 114 Y. Shen, Y. Li, G. Yang, Q. Zhang, H. Liang, F. Peng, J. Energy Chem.44 (2020) 106‒114. [63] X. Cai B. Qin Y. Li Q. Zhang G. Yang H. Wang Y. Cao H. Yu F. Peng ChemElectroChem 7 2020 320 327 X. Cai, B. Qin, Y. Li, Q. Zhang, G. Yang, H. Wang, Y. Cao, H. Yu, F. Peng, ChemElectroChem7 (2020) 320‒327. [64] X. Sun P. Song T. Chen J. Liu W. Xu Chem. Commun. 49 2013 10296 10298 X. Sun, P. Song, T. Chen, J. Liu, W. Xu, Chem. Commun.49 (2013) 10296‒10298. [65] X. Sun Y. Zhang P. Song J. Pan L. Zhuang W. Xu W. Xing ACS Catal. 3 2013 1726 1729 X. Sun, Y. Zhang, P. Song, J. Pan, L. Zhuang, W. Xu, W. Xing, ACS Catal.3 (2013) 1726‒1729. [66] K. Kakaei A. Balavandi J. Colloid Interface Sci. 490 2017 819 824 K. Kakaei, A. Balavandi, J. Colloid Interface Sci.490 (2017) 819‒824. [67] V. Parthiban B. Bhuvaneshwari J. Karthikeyan P. Murugan A.K. Sahu Nanoscale Adv. 1 2019 4926 4937 V. Parthiban, B. Bhuvaneshwari, J. Karthikeyan, P. Murugan, A.K. Sahu, Nanoscale Adv.1 (2019) 4926‒4937. [68] K. Zhao Y. Su X. Quan Y. Liu S. Chen H. Yu J. Catal. 357 2018 118 126 K. Zhao, Y. Su, X. Quan, Y. Liu, S. Chen, H. Yu, J. Catal.357 (2018) 118‒126. [69] Z. Liu X. Fu M. Li F. Wang Q. Wang G. Kang F. Peng J. Mater. Chem. A 3 2015 3289 3293 Z. Liu, X. Fu, M. Li, F. Wang, Q. Wang, G. Kang, F. Peng, J. Mater. Chem. A3 (2015) 3289‒3293. [70] Z. Liu M. Li F. Wang Q.D. Wang J. Power Sources 306 2016 535 540 Z. Liu, M. Li, F. Wang, Q.D. Wang, J. Power Sources306 (2016) 535‒540. [71] Z. Jin H. Nie Z. Yang J. Zhang Z. Liu X. Xu S. Huang Nanoscale 4 2012 6455 6460 Z. Jin, H. Nie, Z. Yang, J. Zhang, Z. Liu, X. Xu, S. Huang, Nanoscale4 (2012) 6455‒6460. [72] X. Bai E. Zhao K. Li Y. Wang M. Jiao F. He X. Sun H. Sun Z. Wu Carbon 105 2016 214 223 X. Bai, E. Zhao, K. Li, Y. Wang, M. Jiao, F. He, X. Sun, H. Sun, Z. Wu, Carbon105 (2016) 214‒223. [73] Y. Zhao L. Yang S. Chen X. Wang Y. Ma Q. Wu Y. Jiang W. Qian Z. Hu J. Am. Chem. Soc. 135 2013 1201 1204 Y. Zhao, L. Yang, S. Chen, X. Wang, Y. Ma, Q. Wu, Y. Jiang, W. Qian, Z. Hu, J. Am. Chem. Soc.135 (2013) 1201‒1204. [74] L. Ferrighi M. Datteo C. Di Valentin J. Phys. Chem. C 118 2013 223 230 L. Ferrighi, M. Datteo, C. Di Valentin, J. Phys. Chem. C118 (2013) 223‒230. [75] S. Kattel P. Atanassov B. Kiefer J. Mater. Chem. A 2 2014 10273 10279 S. Kattel, P. Atanassov, B. Kiefer, J. Mater. Chem. A2 (2014) 10273‒10279. [76] M. Li L. Zhang Q. Xu J. Niu Z. Xia J. Catal. 314 2014 66 72 M. Li, L. Zhang, Q. Xu, J. Niu, Z. Xia, J. Catal.314 (2014) 66‒72. [77] L. Yu X. Pan X. Cao P. Hu X. Bao J. Catal. 282 2011 183 190 L. Yu, X. Pan, X. Cao, P. Hu, X. Bao, J. Catal.282 (2011) 183‒190. [78] Y. Jiao Y. Zheng M. Jaroniec S.Z. Qiao J. Am. Chem. Soc. 136 2014 4394 4403 Y. Jiao, Y. Zheng, M. Jaroniec, S.Z. Qiao, J. Am. Chem. Soc.136 (2014) 4394‒4403. [79] J.Y. Cheon J.H. Kim J.H. Kim K.C. Goddeti J.Y. Park S.H. Joo J. Am. Chem. Soc. 136 2014 8875 8878 J.Y. Cheon, J.H. Kim, J.H. Kim, K.C. Goddeti, J.Y. Park, S.H. Joo, J. Am. Chem. Soc.136 (2014) 8875‒8878. [80] Z. Zhao M. Li L. Zhang L. Dai Z. Xia Adv. Mater. 27 2015 6834 6840 Z. Zhao, M. Li, L. Zhang, L. Dai, Z. Xia, Adv. Mater.27 (2015) 6834‒6840. [81] Y. Li G. Zhong H. Yu H. Wang F. Peng Phys. Chem. Chem. Phys. 17 2015 21950 21959 Y. Li, G. Zhong, H. Yu, H. Wang, F. Peng, Phys. Chem. Chem. Phys.17 (2015) 21950‒21959. [82] X. Liu L. Dai Nat. Rev. Mater. 1 2016 16064 X. Liu, L. Dai, Nat. Rev. Mater.1 (2016) 16064. [83] W. Ding Z. Wei S. Chen X. Qi T. Yang J. Hu D. Wang L.J. Wan S.F. Alvi L. Li Angew. Chem. Int. Ed. 52 2013 11755 11759 W. Ding, Z. Wei, S. Chen, X. Qi, T. Yang, J. Hu, D. Wang, L.J. Wan, S.F. Alvi, L. Li, Angew. Chem. Int. Ed.52 (2013) 11755‒11759. [84] D. Guo R. Shibuya C. Akiba S. Saji T. Kondo J. Nakamura Science 351 2016 361 365 D. Guo, R. Shibuya, C. Akiba, S. Saji, T. Kondo, J. Nakamura, Science351 (2016) 361‒365. [85] H.B. Yang J. Miao S.F. Hung J. Chen H.B. Tao X. Wang L. Zhang R. Chen J. Gao H.M. Chen L. Dai B. Liu Sci. Adv. 2 2016 1501122 H.B. Yang, J. Miao, S.F. Hung, J. Chen, H.B. Tao, X. Wang, L. Zhang, R. Chen, J. Gao, H.M. Chen, L. Dai, B. Liu, Sci. Adv.2 (2016) 1501122. [86] H. Kim K. Lee S.I. Woo Y. Jung Phys. Chem. Chem. Phys. 13 2011 17505 17510 H. Kim, K. Lee, S.I. Woo, Y. Jung, Phys. Chem. Chem. Phys.13 (2011) 17505‒17510. [87] L. Lai J.R. Potts D. Zhan L. Wang C.K. Poh C. Tang H. Gong Z. Shen J. Lin R.S. Ruoff Energy Environ. Sci. 5 2012 7936 7942 L. Lai, J.R. Potts, D. Zhan, L. Wang, C.K. Poh, C. Tang, H. Gong, Z. Shen, J. Lin, R.S. Ruoff, Energy Environ. Sci.5 (2012) 7936‒7942. [88] X. Ning Y. Li J. Ming Q. Wang H. Wang Y. Cao F. Peng Y. Yang H. Yu Chem. Sci. 10 2019 1589 1596 X. Ning, Y. Li, J. Ming, Q. Wang, H. Wang, Y. Cao, F. Peng, Y. Yang, H. Yu, Chem. Sci.10 (2019) 1589‒1596. [89] Y. Jia L. Zhang L. Zhuang H. Liu X. Yan X. Wang J. Liu J. Wang Y. Zheng Z. Xiao E. Taran J. Chen D. Yang Z. Zhu S. Wang L. Dai X. Yao Nat. Catal. 2 2019 688 695 Y. Jia, L. Zhang, L. Zhuang, H. Liu, X. Yan, X. Wang, J. Liu, J. Wang, Y. Zheng, Z. Xiao, E. Taran, J. Chen, D. Yang, Z. Zhu, S. Wang, L. Dai, X. Yao, Nat. Catal.2 (2019) 688‒695. [90] M. Melchionna P. Fornasiero M. Prato Adv. Mater. 31 2019 1802920 M. Melchionna, P. Fornasiero, M. Prato, Adv. Mater.31 (2019) 1802920. [91] T.P. Fellinger F. Hasché P. Strasser M. Antonietti J. Am. Chem. Soc. 134 2012 4072 4075 T.P. Fellinger, F. Hasché, P. Strasser, M. Antonietti, J. Am. Chem. Soc.134 (2012) 4072‒4075. [92] F. Hasché M. Oezaslan P. Strasser T.P. Fellinger J. Energy Chem. 25 2016 251 257 F. Hasché, M. Oezaslan, P. Strasser, T.P. Fellinger, J. Energy Chem.25 (2016) 251‒257. [93] Y. Liu X. Quan X. Fan H. Wang S. Chen Angew. Chem. Int. Ed. 54 2015 6837 6841 Y. Liu, X. Quan, X. Fan, H. Wang, S. Chen, Angew. Chem. Int. Ed.54 (2015) 6837‒6841. [94] H. Zhao X. Shen Y. Chen S. Zhang P. Gao X. Zhen X.H. Li G. Zhao Chem. Commun. 55 2019 6173 6176 H. Zhao, X. Shen, Y. Chen, S. Zhang, P. Gao, X. Zhen, X.H. Li, G. Zhao, Chem. Commun. (2019) 6173‒6176. [95] C. Costentin D.H. Evans M. Robert J.M. Savéant P.S. Singh J. Am. Chem. Soc. 127 2005 12490 12491 C. Costentin, D.H. Evans, M. Robert, J.M. Savéant, P.S. Singh, J. Am. Chem. Soc.127 (2005) 12490‒12491. [96] R. Nissim R.G. Compton Phys. Chem. Chem. Phys. 15 2013 11918 11925 R. Nissim, R.G. Compton, Phys. Chem. Chem. Phys.15 (2013) 11918‒11925. [97] H. Zhang C. Lin L. Sepunaru C. Batchelor-McAuley R.G. Compton J. Electroanal. Chem. 799 2017 53 60 H. Zhang, C. Lin, L. Sepunaru, C. Batchelor-McAuley, R.G. Compton, J. Electroanal. Chem.799 (2017) 53‒60. [98] Y. Li Z. Qiao Y. Cao H. Wang H. Liang H. Yu F. Peng ChemSusChem 12 2019 1133 1138 Y. Li, Z. Qiao, Y. Cao, H. Wang, H. Liang, H. Yu, F. Peng, ChemSusChem12 (2019) 1133‒1138. [99] J. Chevalet F. Rouelle L. Gierst J.P. Lambert J. Electroanal. Chem. Interfacial Electrochem. 39 1972 201 216 J. Chevalet, F. Rouelle, L. Gierst, J.P. Lambert, J. Electroanal. Chem. Interfacial Electrochem.39 (1972) 201‒216. [100] K. Wan Z.P. Yu X.H. Li M.Y. Liu G. Yang J.H. Piao Z.X. Liang ACS Catal. 5 2015 4325 4332 K. Wan, Z.P. Yu, X.H. Li, M.Y. Liu, G. Yang, J.H. Piao, Z.X. Liang, ACS Catal.5 (2015) 4325‒4332. [101] C.H. Choi H.K. Lim M.W. Chung J.C. Park H. Shin H. Kim S.I. Woo J. Am. Chem. Soc. 136 2014 9070 9077 C.H. Choi, H.K. Lim, M.W. Chung, J.C. Park, H. Shin, H. Kim, S.I. Woo, J. Am. Chem. Soc.136 (2014) 9070‒9077. [102] G. Li Y. Li H. Liu Y. Guo Y. Li D. Zhu Chem. Commun. 46 2010 3256 3258 G. Li, Y. Li, H. Liu, Y. Guo, Y. Li, D. Zhu, Chem. Commun.46 (2010) 3256‒3258. [103] Z. Zuo D. Wang J. Zhang F. Lu Y. Li Adv. Mater. 31 2019 e1803762 Z. Zuo, D. Wang, J. Zhang, F. Lu, Y. Li, Adv. Mater.31 (2019) e1803762. [104] Y. Zhao J. Wan H. Yao L. Zhang K. Lin L. Wang N. Yang D. Liu L. Song J. Zhu L. Gu L. Liu H. Zhao Y. Li D. Wang Nat. Chem. 10 2018 924 931 Y. Zhao, J. Wan, H. Yao, L. Zhang, K. Lin, L. Wang, N. Yang, D. Liu, L. Song, J. Zhu, L. Gu, L. Liu, H. Zhao, Y. Li, D. Wang, Nat. Chem.10 (2018) 924‒931. [105] Q. Lv W. Si J. He L. Sun C. Zhang N. Wang Z. Yang X. Li X. Wang W. Deng Y. Long C. Huang Y. Li Nat. Commun. 9 2018 3376 Q. Lv, W. Si, J. He, L. Sun, C. Zhang, N. Wang, Z. Yang, X. Li, X. Wang, W. Deng, Y. Long, C. Huang, Y. Li, Nat. Commun.9 (2018) 3376. [106] S. Zhang Y. Cai H. He Y. Zhang R. Liu H. Cao M. Wang J. Liu G. Zhang Y. Li H. Liu B. Li J. Mater. Chem. A 4 2016 4738 4744 S. Zhang, Y. Cai, H. He, Y. Zhang, R. Liu, H. Cao, M. Wang, J. Liu, G. Zhang, Y. Li, H. Liu, B. Li, J. Mater. Chem. A4 (2016) 4738‒4744. [107] Z. Xiang Q. Dai J.F. Chen L. Dai Adv. Mater. 28 2016 6253 6261 Z. Xiang, Q. Dai, J.F. Chen, L. Dai, Adv. Mater.28 (2016) 6253‒6261. [108] C. Yang Z.D. Yang H. Dong N. Sun Y. Lu F.M. Zhang G. Zhang ACS Energy Lett. 4 2019 2251 2258 C. Yang, Z.D. Yang, H. Dong, N. Sun, Y. Lu, F.M. Zhang, G. Zhang, ACS Energy Lett.4 (2019) 2251‒2258. [109] E. Tavakoli A. Kakekhani S. Kaviani P. Tan M.M. Ghaleni M.A. Zaeem A.M. Rappe S. Nejati J. Am. Chem. Soc. 141 2019 19560 19564 E. Tavakoli, A. Kakekhani, S. Kaviani, P. Tan, M.M. Ghaleni, M.A. Zaeem, A.M. Rappe, S. Nejati, J. Am. Chem. Soc.141 (2019) 19560‒19564. [110] K. Kaiser L.M. Scriven F. Schulz P. Gawel L. Gross H.L. Anderson Science 365 2019 1299 1301 K. Kaiser, L.M. Scriven, F. Schulz, P. Gawel, L. Gross, H.L. Anderson, Science365 (2019) 1299‒1301. [111] F. Diederich Y. Rubin C.B. Knobler R.L. Whetten K.E. Schriver K.N. Houk Y. Li Science 245 1989 1088 1090 F. Diederich, Y. Rubin, C.B. Knobler, R.L. Whetten, K.E. Schriver, K.N. Houk, Y. Li, Science245 (1989) 1088‒1090. Dr. Yuhang Li is currently a postdoctoral researcher in School of Chemistry at Sun Yat-sen University, China. He received his B.S. degree (2014) in Applied Chemistry and Ph.D. degree (2018) in Industrial Catalysis from South China University of Technology, under the supervision of Prof. Feng Peng. His researches are focused on the first principles calculations toward electrochemical reaction mechanism in energy conversion applications. Prof. Yexiang Tong Tong received his B.S. in General Chemistry in 1985, M.S. in Physical Chemistry in 1988, and Ph.D. in Organic Chemistry in 1999 from Sun Yat-sen University. He joined Sun Yat-sen University as an Assistant Professor of Chemistry in 1988. His current research is focused on the electrochemical synthesis of alloys, intermetallic compounds and metal oxide nanomaterials, and investigation of their applications in energy conversion and storage. Prof. Feng Peng received his B.S. degree (1986) and M.S. degree (1990) in Chemical Engineering from Hunan University and his Ph.D. degree in Industrial Catalysis from South China University of Technology in 1996. His research field is nanomaterials and catalysis for energy and environment. He worked at South China University of Technology during 1996-2017. He is currently working in School of Chemistry and Chemical Engineering at Guangzhou University.",
+      "scopus-id": "85081040373",
+      "coredata": {
+        "eid": "1-s2.0-S2095495620300863",
+        "dc:description": "Although scientists have conducted long-term and extensive studies on oxygen reduction reaction (ORR) catalyzed by metal-free carbon materials, they mainly have focused on the preparation and properties of various doped carbon materials. There is still a lack of systematic scientific guidance on the relationship between the surface structure regulation and activity of carbon-based catalysts. In this review, some of electrochemical and computational fundamental concepts about ORR are concisely summarized. The effects of edge defect and nonmetallic doping of carbon materials on ORR behavior and mechanism have been reviewed, and activity origin identification and intermediate conversion mechanism have been discussed. The outlooks for future researches on metal-free ORR electrocatalysis are suggested.",
+        "openArchiveArticle": "false",
+        "prism:coverDate": "2020-09-30",
+        "openaccessUserLicense": null,
+        "prism:aggregationType": "Journal",
+        "prism:url": "https://api.elsevier.com/content/article/pii/S2095495620300863",
+        "dc:creator": [
+          {
+            "@_fa": "true",
+            "$": "Li, Yuhang"
+          },
+          {
+            "@_fa": "true",
+            "$": "Tong, Yexiang"
+          },
+          {
+            "@_fa": "true",
+            "$": "Peng, Feng"
+          }
+        ],
+        "link": [
+          {
+            "@_fa": "true",
+            "@rel": "self",
+            "@href": "https://api.elsevier.com/content/article/pii/S2095495620300863"
+          },
+          {
+            "@_fa": "true",
+            "@rel": "scidir",
+            "@href": "https://www.sciencedirect.com/science/article/pii/S2095495620300863"
+          }
+        ],
+        "dc:format": "application/json",
+        "openaccessType": null,
+        "pii": "S2095-4956(20)30086-3",
+        "prism:volume": "48",
+        "prism:publisher": "Science Press and Dalian Institute of Chemical Physics, Chinese Academy of Sciences. Published by Elsevier B.V. and Science Press.",
+        "dc:title": "Metal-free carbocatalysis for electrochemical oxygen reduction reaction: Activity origin and mechanism",
+        "prism:copyright": "© 2020 Science Press and Dalian Institute of Chemical Physics, Chinese Academy of Sciences. Published by Elsevier B.V. and Science Press. All rights reserved.",
+        "openaccess": "0",
+        "prism:issn": "20954956",
+        "dcterms:subject": [
+          {
+            "@_fa": "true",
+            "$": "Carbocatalysis"
+          },
+          {
+            "@_fa": "true",
+            "$": "Electrocatalysis"
+          },
+          {
+            "@_fa": "true",
+            "$": "Oxygen reduction reaction"
+          },
+          {
+            "@_fa": "true",
+            "$": "Review"
+          },
+          {
+            "@_fa": "true",
+            "$": "Metal-free doping"
+          }
+        ],
+        "openaccessArticle": "false",
+        "prism:publicationName": "Journal of Energy Chemistry",
+        "openaccessSponsorType": null,
+        "prism:pageRange": "308-321",
+        "prism:endingPage": "321",
+        "pubType": "fla",
+        "prism:coverDisplayDate": "September 2020",
+        "prism:doi": "10.1016/j.jechem.2020.02.027",
+        "prism:startingPage": "308",
+        "dc:identifier": "doi:10.1016/j.jechem.2020.02.027",
+        "openaccessSponsorName": null
+      },
+      "objects": {
+        "object": [
+          {
+            "@category": "standard",
+            "@height": "244",
+            "@width": "678",
+            "@_fa": "true",
+            "$": "https://api.elsevier.com/content/object/eid/1-s2.0-S2095495620300863-gr1.jpg?httpAccept=%2A%2F%2A",
+            "@multimediatype": "JPEG image file",
+            "@type": "IMAGE-DOWNSAMPLED",
+            "@size": "40100",
+            "@ref": "gr1",
+            "@mimetype": "image/jpeg"
+          },
+          {
+            "@category": "standard",
+            "@height": "340",
+            "@width": "700",
+            "@_fa": "true",
+            "$": "https://api.elsevier.com/content/object/eid/1-s2.0-S2095495620300863-gr10.jpg?httpAccept=%2A%2F%2A",
+            "@multimediatype": "JPEG image file",
+            "@type": "IMAGE-DOWNSAMPLED",
+            "@size": "95508",
+            "@ref": "gr10",
+            "@mimetype": "image/jpeg"
+          },
+          {
+            "@category": "standard",
+            "@height": "763",
+            "@width": "700",
+            "@_fa": "true",
+            "$": "https://api.elsevier.com/content/object/eid/1-s2.0-S2095495620300863-gr11.jpg?httpAccept=%2A%2F%2A",
+            "@multimediatype": "JPEG image file",
+            "@type": "IMAGE-DOWNSAMPLED",
+            "@size": "185265",
+            "@ref": "gr11",
+            "@mimetype": "image/jpeg"
+          },
+          {
+            "@category": "standard",
+            "@height": "559",
+            "@width": "699",
+            "@_fa": "true",
+            "$": "https://api.elsevier.com/content/object/eid/1-s2.0-S2095495620300863-gr2.jpg?httpAccept=%2A%2F%2A",
+            "@multimediatype": "JPEG image file",
+            "@type": "IMAGE-DOWNSAMPLED",
+            "@size": "132141",
+            "@ref": "gr2",
+            "@mimetype": "image/jpeg"
+          },
+          {
+            "@category": "standard",
+            "@height": "289",
+            "@width": "386",
+            "@_fa": "true",
+            "$": "https://api.elsevier.com/content/object/eid/1-s2.0-S2095495620300863-gr3.jpg?httpAccept=%2A%2F%2A",
+            "@multimediatype": "JPEG image file",
+            "@type": "IMAGE-DOWNSAMPLED",
+            "@size": "42994",
+            "@ref": "gr3",
+            "@mimetype": "image/jpeg"
+          },
+          {
+            "@category": "standard",
+            "@height": "372",
+            "@width": "699",
+            "@_fa": "true",
+            "$": "https://api.elsevier.com/content/object/eid/1-s2.0-S2095495620300863-gr4.jpg?httpAccept=%2A%2F%2A",
+            "@multimediatype": "JPEG image file",
+            "@type": "IMAGE-DOWNSAMPLED",
+            "@size": "81788",
+            "@ref": "gr4",
+            "@mimetype": "image/jpeg"
+          },
+          {
+            "@category": "standard",
+            "@height": "746",
+            "@width": "697",
+            "@_fa": "true",
+            "$": "https://api.elsevier.com/content/object/eid/1-s2.0-S2095495620300863-gr5.jpg?httpAccept=%2A%2F%2A",
+            "@multimediatype": "JPEG image file",
+            "@type": "IMAGE-DOWNSAMPLED",
+            "@size": "167136",
+            "@ref": "gr5",
+            "@mimetype": "image/jpeg"
+          },
+          {
+            "@category": "standard",
+            "@height": "575",
+            "@width": "561",
+            "@_fa": "true",
+            "$": "https://api.elsevier.com/content/object/eid/1-s2.0-S2095495620300863-gr6.jpg?httpAccept=%2A%2F%2A",
+            "@multimediatype": "JPEG image file",
+            "@type": "IMAGE-DOWNSAMPLED",
+            "@size": "131101",
+            "@ref": "gr6",
+            "@mimetype": "image/jpeg"
+          },
+          {
+            "@category": "standard",
+            "@height": "307",
+            "@width": "690",
+            "@_fa": "true",
+            "$": "https://api.elsevier.com/content/object/eid/1-s2.0-S2095495620300863-gr7.jpg?httpAccept=%2A%2F%2A",
+            "@multimediatype": "JPEG image file",
+            "@type": "IMAGE-DOWNSAMPLED",
+            "@size": "94019",
+            "@ref": "gr7",
+            "@mimetype": "image/jpeg"
+          },
+          {
+            "@category": "standard",
+            "@height": "328",
+            "@width": "700",
+            "@_fa": "true",
+            "$": "https://api.elsevier.com/content/object/eid/1-s2.0-S2095495620300863-gr8.jpg?httpAccept=%2A%2F%2A",
+            "@multimediatype": "JPEG image file",
+            "@type": "IMAGE-DOWNSAMPLED",
+            "@size": "80897",
+            "@ref": "gr8",
+            "@mimetype": "image/jpeg"
+          },
+          {
+            "@category": "standard",
+            "@height": "657",
+            "@width": "698",
+            "@_fa": "true",
+            "$": "https://api.elsevier.com/content/object/eid/1-s2.0-S2095495620300863-gr9.jpg?httpAccept=%2A%2F%2A",
+            "@multimediatype": "JPEG image file",
+            "@type": "IMAGE-DOWNSAMPLED",
+            "@size": "168129",
+            "@ref": "gr9",
+            "@mimetype": "image/jpeg"
+          },
+          {
+            "@category": "standard",
+            "@height": "185",
+            "@width": "301",
+            "@_fa": "true",
+            "$": "https://api.elsevier.com/content/object/eid/1-s2.0-S2095495620300863-fx1.jpg?httpAccept=%2A%2F%2A",
+            "@multimediatype": "JPEG image file",
+            "@type": "IMAGE-DOWNSAMPLED",
+            "@size": "20629",
+            "@ref": "fx1",
+            "@mimetype": "image/jpeg"
+          },
+          {
+            "@category": "standard",
+            "@height": "151",
+            "@width": "113",
+            "@_fa": "true",
+            "$": "https://api.elsevier.com/content/object/eid/1-s2.0-S2095495620300863-fx2.jpg?httpAccept=%2A%2F%2A",
+            "@multimediatype": "JPEG image file",
+            "@type": "IMAGE-DOWNSAMPLED",
+            "@size": "6001",
+            "@ref": "fx2",
+            "@mimetype": "image/jpeg"
+          },
+          {
+            "@category": "standard",
+            "@height": "151",
+            "@width": "113",
+            "@_fa": "true",
+            "$": "https://api.elsevier.com/content/object/eid/1-s2.0-S2095495620300863-fx3.jpg?httpAccept=%2A%2F%2A",
+            "@multimediatype": "JPEG image file",
+            "@type": "IMAGE-DOWNSAMPLED",
+            "@size": "6174",
+            "@ref": "fx3",
+            "@mimetype": "image/jpeg"
+          },
+          {
+            "@category": "standard",
+            "@height": "151",
+            "@width": "113",
+            "@_fa": "true",
+            "$": "https://api.elsevier.com/content/object/eid/1-s2.0-S2095495620300863-fx4.jpg?httpAccept=%2A%2F%2A",
+            "@multimediatype": "JPEG image file",
+            "@type": "IMAGE-DOWNSAMPLED",
+            "@size": "6243",
+            "@ref": "fx4",
+            "@mimetype": "image/jpeg"
+          },
+          {
+            "@category": "thumbnail",
+            "@height": "79",
+            "@width": "219",
+            "@_fa": "true",
+            "$": "https://api.elsevier.com/content/object/eid/1-s2.0-S2095495620300863-gr1.sml?httpAccept=%2A%2F%2A",
+            "@multimediatype": "GIF image file",
+            "@type": "IMAGE-THUMBNAIL",
+            "@size": "5414",
+            "@ref": "gr1",
+            "@mimetype": "image/gif"
+          },
+          {
+            "@category": "thumbnail",
+            "@height": "106",
+            "@width": "219",
+            "@_fa": "true",
+            "$": "https://api.elsevier.com/content/object/eid/1-s2.0-S2095495620300863-gr10.sml?httpAccept=%2A%2F%2A",
+            "@multimediatype": "GIF image file",
+            "@type": "IMAGE-THUMBNAIL",
+            "@size": "12596",
+            "@ref": "gr10",
+            "@mimetype": "image/gif"
+          },
+          {
+            "@category": "thumbnail",
+            "@height": "163",
+            "@width": "150",
+            "@_fa": "true",
+            "$": "https://api.elsevier.com/content/object/eid/1-s2.0-S2095495620300863-gr11.sml?httpAccept=%2A%2F%2A",
+            "@multimediatype": "GIF image file",
+            "@type": "IMAGE-THUMBNAIL",
+            "@size": "14218",
+            "@ref": "gr11",
+            "@mimetype": "image/gif"
+          },
+          {
+            "@category": "thumbnail",
+            "@height": "164",
+            "@width": "205",
+            "@_fa": "true",
+            "$": "https://api.elsevier.com/content/object/eid/1-s2.0-S2095495620300863-gr2.sml?httpAccept=%2A%2F%2A",
+            "@multimediatype": "GIF image file",
+            "@type": "IMAGE-THUMBNAIL",
+            "@size": "15685",
+            "@ref": "gr2",
+            "@mimetype": "image/gif"
+          },
+          {
+            "@category": "thumbnail",
+            "@height": "164",
+            "@width": "219",
+            "@_fa": "true",
+            "$": "https://api.elsevier.com/content/object/eid/1-s2.0-S2095495620300863-gr3.sml?httpAccept=%2A%2F%2A",
+            "@multimediatype": "GIF image file",
+            "@type": "IMAGE-THUMBNAIL",
+            "@size": "20556",
+            "@ref": "gr3",
+            "@mimetype": "image/gif"
+          },
+          {
+            "@category": "thumbnail",
+            "@height": "117",
+            "@width": "219",
+            "@_fa": "true",
+            "$": "https://api.elsevier.com/content/object/eid/1-s2.0-S2095495620300863-gr4.sml?httpAccept=%2A%2F%2A",
+            "@multimediatype": "GIF image file",
+            "@type": "IMAGE-THUMBNAIL",
+            "@size": "10631",
+            "@ref": "gr4",
+            "@mimetype": "image/gif"
+          },
+          {
+            "@category": "thumbnail",
+            "@height": "164",
+            "@width": "153",
+            "@_fa": "true",
+            "$": "https://api.elsevier.com/content/object/eid/1-s2.0-S2095495620300863-gr5.sml?httpAccept=%2A%2F%2A",
+            "@multimediatype": "GIF image file",
+            "@type": "IMAGE-THUMBNAIL",
+            "@size": "15342",
+            "@ref": "gr5",
+            "@mimetype": "image/gif"
+          },
+          {
+            "@category": "thumbnail",
+            "@height": "164",
+            "@width": "160",
+            "@_fa": "true",
+            "$": "https://api.elsevier.com/content/object/eid/1-s2.0-S2095495620300863-gr6.sml?httpAccept=%2A%2F%2A",
+            "@multimediatype": "GIF image file",
+            "@type": "IMAGE-THUMBNAIL",
+            "@size": "16135",
+            "@ref": "gr6",
+            "@mimetype": "image/gif"
+          },
+          {
+            "@category": "thumbnail",
+            "@height": "98",
+            "@width": "219",
+            "@_fa": "true",
+            "$": "https://api.elsevier.com/content/object/eid/1-s2.0-S2095495620300863-gr7.sml?httpAccept=%2A%2F%2A",
+            "@multimediatype": "GIF image file",
+            "@type": "IMAGE-THUMBNAIL",
+            "@size": "12467",
+            "@ref": "gr7",
+            "@mimetype": "image/gif"
+          },
+          {
+            "@category": "thumbnail",
+            "@height": "103",
+            "@width": "219",
+            "@_fa": "true",
+            "$": "https://api.elsevier.com/content/object/eid/1-s2.0-S2095495620300863-gr8.sml?httpAccept=%2A%2F%2A",
+            "@multimediatype": "GIF image file",
+            "@type": "IMAGE-THUMBNAIL",
+            "@size": "12365",
+            "@ref": "gr8",
+            "@mimetype": "image/gif"
+          },
+          {
+            "@category": "thumbnail",
+            "@height": "164",
+            "@width": "174",
+            "@_fa": "true",
+            "$": "https://api.elsevier.com/content/object/eid/1-s2.0-S2095495620300863-gr9.sml?httpAccept=%2A%2F%2A",
+            "@multimediatype": "GIF image file",
+            "@type": "IMAGE-THUMBNAIL",
+            "@size": "15752",
+            "@ref": "gr9",
+            "@mimetype": "image/gif"
+          },
+          {
+            "@category": "thumbnail",
+            "@height": "134",
+            "@width": "219",
+            "@_fa": "true",
+            "$": "https://api.elsevier.com/content/object/eid/1-s2.0-S2095495620300863-fx1.sml?httpAccept=%2A%2F%2A",
+            "@multimediatype": "GIF image file",
+            "@type": "IMAGE-THUMBNAIL",
+            "@size": "13704",
+            "@ref": "fx1",
+            "@mimetype": "image/gif"
+          },
+          {
+            "@category": "thumbnail",
+            "@height": "164",
+            "@width": "123",
+            "@_fa": "true",
+            "$": "https://api.elsevier.com/content/object/eid/1-s2.0-S2095495620300863-fx2.sml?httpAccept=%2A%2F%2A",
+            "@multimediatype": "GIF image file",
+            "@type": "IMAGE-THUMBNAIL",
+            "@size": "13790",
+            "@ref": "fx2",
+            "@mimetype": "image/gif"
+          },
+          {
+            "@category": "thumbnail",
+            "@height": "164",
+            "@width": "123",
+            "@_fa": "true",
+            "$": "https://api.elsevier.com/content/object/eid/1-s2.0-S2095495620300863-fx3.sml?httpAccept=%2A%2F%2A",
+            "@multimediatype": "GIF image file",
+            "@type": "IMAGE-THUMBNAIL",
+            "@size": "9931",
+            "@ref": "fx3",
+            "@mimetype": "image/gif"
+          },
+          {
+            "@category": "thumbnail",
+            "@height": "164",
+            "@width": "123",
+            "@_fa": "true",
+            "$": "https://api.elsevier.com/content/object/eid/1-s2.0-S2095495620300863-fx4.sml?httpAccept=%2A%2F%2A",
+            "@multimediatype": "GIF image file",
+            "@type": "IMAGE-THUMBNAIL",
+            "@size": "15730",
+            "@ref": "fx4",
+            "@mimetype": "image/gif"
+          },
+          {
+            "@category": "high",
+            "@height": "1079",
+            "@width": "3001",
+            "@_fa": "true",
+            "$": "https://api.elsevier.com/content/object/eid/1-s2.0-S2095495620300863-gr1_lrg.jpg?httpAccept=%2A%2F%2A",
+            "@multimediatype": "JPEG image file",
+            "@type": "IMAGE-HIGH-RES",
+            "@size": "282268",
+            "@ref": "gr1",
+            "@mimetype": "image/jpeg"
+          },
+          {
+            "@category": "high",
+            "@height": "1505",
+            "@width": "3101",
+            "@_fa": "true",
+            "$": "https://api.elsevier.com/content/object/eid/1-s2.0-S2095495620300863-gr10_lrg.jpg?httpAccept=%2A%2F%2A",
+            "@multimediatype": "JPEG image file",
+            "@type": "IMAGE-HIGH-RES",
+            "@size": "752444",
+            "@ref": "gr10",
+            "@mimetype": "image/jpeg"
+          },
+          {
+            "@category": "high",
+            "@height": "3379",
+            "@width": "3101",
+            "@_fa": "true",
+            "$": "https://api.elsevier.com/content/object/eid/1-s2.0-S2095495620300863-gr11_lrg.jpg?httpAccept=%2A%2F%2A",
+            "@multimediatype": "JPEG image file",
+            "@type": "IMAGE-HIGH-RES",
+            "@size": "1437257",
+            "@ref": "gr11",
+            "@mimetype": "image/jpeg"
+          },
+          {
+            "@category": "high",
+            "@height": "2475",
+            "@width": "3095",
+            "@_fa": "true",
+            "$": "https://api.elsevier.com/content/object/eid/1-s2.0-S2095495620300863-gr2_lrg.jpg?httpAccept=%2A%2F%2A",
+            "@multimediatype": "JPEG image file",
+            "@type": "IMAGE-HIGH-RES",
+            "@size": "1046524",
+            "@ref": "gr2",
+            "@mimetype": "image/jpeg"
+          },
+          {
+            "@category": "high",
+            "@height": "1278",
+            "@width": "1708",
+            "@_fa": "true",
+            "$": "https://api.elsevier.com/content/object/eid/1-s2.0-S2095495620300863-gr3_lrg.jpg?httpAccept=%2A%2F%2A",
+            "@multimediatype": "JPEG image file",
+            "@type": "IMAGE-HIGH-RES",
+            "@size": "415683",
+            "@ref": "gr3",
+            "@mimetype": "image/jpeg"
+          },
+          {
+            "@category": "high",
+            "@height": "1647",
+            "@width": "3094",
+            "@_fa": "true",
+            "$": "https://api.elsevier.com/content/object/eid/1-s2.0-S2095495620300863-gr4_lrg.jpg?httpAccept=%2A%2F%2A",
+            "@multimediatype": "JPEG image file",
+            "@type": "IMAGE-HIGH-RES",
+            "@size": "724744",
+            "@ref": "gr4",
+            "@mimetype": "image/jpeg"
+          },
+          {
+            "@category": "high",
+            "@height": "3302",
+            "@width": "3086",
+            "@_fa": "true",
+            "$": "https://api.elsevier.com/content/object/eid/1-s2.0-S2095495620300863-gr5_lrg.jpg?httpAccept=%2A%2F%2A",
+            "@multimediatype": "JPEG image file",
+            "@type": "IMAGE-HIGH-RES",
+            "@size": "1322719",
+            "@ref": "gr5",
+            "@mimetype": "image/jpeg"
+          },
+          {
+            "@category": "high",
+            "@height": "2546",
+            "@width": "2483",
+            "@_fa": "true",
+            "$": "https://api.elsevier.com/content/object/eid/1-s2.0-S2095495620300863-gr6_lrg.jpg?httpAccept=%2A%2F%2A",
+            "@multimediatype": "JPEG image file",
+            "@type": "IMAGE-HIGH-RES",
+            "@size": "1008675",
+            "@ref": "gr6",
+            "@mimetype": "image/jpeg"
+          },
+          {
+            "@category": "high",
+            "@height": "1362",
+            "@width": "3057",
+            "@_fa": "true",
+            "$": "https://api.elsevier.com/content/object/eid/1-s2.0-S2095495620300863-gr7_lrg.jpg?httpAccept=%2A%2F%2A",
+            "@multimediatype": "JPEG image file",
+            "@type": "IMAGE-HIGH-RES",
+            "@size": "715052",
+            "@ref": "gr7",
+            "@mimetype": "image/jpeg"
+          },
+          {
+            "@category": "high",
+            "@height": "1452",
+            "@width": "3101",
+            "@_fa": "true",
+            "$": "https://api.elsevier.com/content/object/eid/1-s2.0-S2095495620300863-gr8_lrg.jpg?httpAccept=%2A%2F%2A",
+            "@multimediatype": "JPEG image file",
+            "@type": "IMAGE-HIGH-RES",
+            "@size": "622052",
+            "@ref": "gr8",
+            "@mimetype": "image/jpeg"
+          },
+          {
+            "@category": "high",
+            "@height": "2906",
+            "@width": "3089",
+            "@_fa": "true",
+            "$": "https://api.elsevier.com/content/object/eid/1-s2.0-S2095495620300863-gr9_lrg.jpg?httpAccept=%2A%2F%2A",
+            "@multimediatype": "JPEG image file",
+            "@type": "IMAGE-HIGH-RES",
+            "@size": "1326512",
+            "@ref": "gr9",
+            "@mimetype": "image/jpeg"
+          },
+          {
+            "@category": "high",
+            "@height": "818",
+            "@width": "1333",
+            "@_fa": "true",
+            "$": "https://api.elsevier.com/content/object/eid/1-s2.0-S2095495620300863-fx1_lrg.jpg?httpAccept=%2A%2F%2A",
+            "@multimediatype": "JPEG image file",
+            "@type": "IMAGE-HIGH-RES",
+            "@size": "162820",
+            "@ref": "fx1",
+            "@mimetype": "image/jpeg"
+          },
+          {
+            "@category": "high",
+            "@height": "667",
+            "@width": "500",
+            "@_fa": "true",
+            "$": "https://api.elsevier.com/content/object/eid/1-s2.0-S2095495620300863-fx2_lrg.jpg?httpAccept=%2A%2F%2A",
+            "@multimediatype": "JPEG image file",
+            "@type": "IMAGE-HIGH-RES",
+            "@size": "46318",
+            "@ref": "fx2",
+            "@mimetype": "image/jpeg"
+          },
+          {
+            "@category": "high",
+            "@height": "667",
+            "@width": "500",
+            "@_fa": "true",
+            "$": "https://api.elsevier.com/content/object/eid/1-s2.0-S2095495620300863-fx3_lrg.jpg?httpAccept=%2A%2F%2A",
+            "@multimediatype": "JPEG image file",
+            "@type": "IMAGE-HIGH-RES",
+            "@size": "68865",
+            "@ref": "fx3",
+            "@mimetype": "image/jpeg"
+          },
+          {
+            "@category": "high",
+            "@height": "667",
+            "@width": "500",
+            "@_fa": "true",
+            "$": "https://api.elsevier.com/content/object/eid/1-s2.0-S2095495620300863-fx4_lrg.jpg?httpAccept=%2A%2F%2A",
+            "@multimediatype": "JPEG image file",
+            "@type": "IMAGE-HIGH-RES",
+            "@size": "53511",
+            "@ref": "fx4",
+            "@mimetype": "image/jpeg"
+          },
+          {
+            "@category": "thumbnail",
+            "@_fa": "true",
+            "$": "https://api.elsevier.com/content/object/eid/1-s2.0-S2095495620300863-si17.svg?httpAccept=%2A%2F%2A",
+            "@multimediatype": "Scalable Vector Graphics file",
+            "@type": "ALTIMG",
+            "@size": "3774",
+            "@ref": "si17",
+            "@mimetype": "image/svg+xml"
+          },
+          {
+            "@category": "thumbnail",
+            "@_fa": "true",
+            "$": "https://api.elsevier.com/content/object/eid/1-s2.0-S2095495620300863-si1.svg?httpAccept=%2A%2F%2A",
+            "@multimediatype": "Scalable Vector Graphics file",
+            "@type": "ALTIMG",
+            "@size": "4450",
+            "@ref": "si1",
+            "@mimetype": "image/svg+xml"
+          },
+          {
+            "@category": "thumbnail",
+            "@_fa": "true",
+            "$": "https://api.elsevier.com/content/object/eid/1-s2.0-S2095495620300863-si6.svg?httpAccept=%2A%2F%2A",
+            "@multimediatype": "Scalable Vector Graphics file",
+            "@type": "ALTIMG",
+            "@size": "3492",
+            "@ref": "si6",
+            "@mimetype": "image/svg+xml"
+          },
+          {
+            "@category": "thumbnail",
+            "@_fa": "true",
+            "$": "https://api.elsevier.com/content/object/eid/1-s2.0-S2095495620300863-si14.svg?httpAccept=%2A%2F%2A",
+            "@multimediatype": "Scalable Vector Graphics file",
+            "@type": "ALTIMG",
+            "@size": "3165",
+            "@ref": "si14",
+            "@mimetype": "image/svg+xml"
+          },
+          {
+            "@category": "thumbnail",
+            "@_fa": "true",
+            "$": "https://api.elsevier.com/content/object/eid/1-s2.0-S2095495620300863-si15.svg?httpAccept=%2A%2F%2A",
+            "@multimediatype": "Scalable Vector Graphics file",
+            "@type": "ALTIMG",
+            "@size": "7811",
+            "@ref": "si15",
+            "@mimetype": "image/svg+xml"
+          },
+          {
+            "@category": "thumbnail",
+            "@_fa": "true",
+            "$": "https://api.elsevier.com/content/object/eid/1-s2.0-S2095495620300863-si9.svg?httpAccept=%2A%2F%2A",
+            "@multimediatype": "Scalable Vector Graphics file",
+            "@type": "ALTIMG",
+            "@size": "4535",
+            "@ref": "si9",
+            "@mimetype": "image/svg+xml"
+          },
+          {
+            "@category": "thumbnail",
+            "@_fa": "true",
+            "$": "https://api.elsevier.com/content/object/eid/1-s2.0-S2095495620300863-si10.svg?httpAccept=%2A%2F%2A",
+            "@multimediatype": "Scalable Vector Graphics file",
+            "@type": "ALTIMG",
+            "@size": "14810",
+            "@ref": "si10",
+            "@mimetype": "image/svg+xml"
+          },
+          {
+            "@category": "thumbnail",
+            "@_fa": "true",
+            "$": "https://api.elsevier.com/content/object/eid/1-s2.0-S2095495620300863-si4.svg?httpAccept=%2A%2F%2A",
+            "@multimediatype": "Scalable Vector Graphics file",
+            "@type": "ALTIMG",
+            "@size": "6274",
+            "@ref": "si4",
+            "@mimetype": "image/svg+xml"
+          },
+          {
+            "@category": "thumbnail",
+            "@_fa": "true",
+            "$": "https://api.elsevier.com/content/object/eid/1-s2.0-S2095495620300863-si2.svg?httpAccept=%2A%2F%2A",
+            "@multimediatype": "Scalable Vector Graphics file",
+            "@type": "ALTIMG",
+            "@size": "5232",
+            "@ref": "si2",
+            "@mimetype": "image/svg+xml"
+          },
+          {
+            "@category": "thumbnail",
+            "@_fa": "true",
+            "$": "https://api.elsevier.com/content/object/eid/1-s2.0-S2095495620300863-si7.svg?httpAccept=%2A%2F%2A",
+            "@multimediatype": "Scalable Vector Graphics file",
+            "@type": "ALTIMG",
+            "@size": "14163",
+            "@ref": "si7",
+            "@mimetype": "image/svg+xml"
+          },
+          {
+            "@category": "thumbnail",
+            "@_fa": "true",
+            "$": "https://api.elsevier.com/content/object/eid/1-s2.0-S2095495620300863-si16.svg?httpAccept=%2A%2F%2A",
+            "@multimediatype": "Scalable Vector Graphics file",
+            "@type": "ALTIMG",
+            "@size": "4369",
+            "@ref": "si16",
+            "@mimetype": "image/svg+xml"
+          },
+          {
+            "@category": "thumbnail",
+            "@_fa": "true",
+            "$": "https://api.elsevier.com/content/object/eid/1-s2.0-S2095495620300863-si11.svg?httpAccept=%2A%2F%2A",
+            "@multimediatype": "Scalable Vector Graphics file",
+            "@type": "ALTIMG",
+            "@size": "16038",
+            "@ref": "si11",
+            "@mimetype": "image/svg+xml"
+          },
+          {
+            "@category": "thumbnail",
+            "@_fa": "true",
+            "$": "https://api.elsevier.com/content/object/eid/1-s2.0-S2095495620300863-si3.svg?httpAccept=%2A%2F%2A",
+            "@multimediatype": "Scalable Vector Graphics file",
+            "@type": "ALTIMG",
+            "@size": "3427",
+            "@ref": "si3",
+            "@mimetype": "image/svg+xml"
+          },
+          {
+            "@category": "thumbnail",
+            "@_fa": "true",
+            "$": "https://api.elsevier.com/content/object/eid/1-s2.0-S2095495620300863-si13.svg?httpAccept=%2A%2F%2A",
+            "@multimediatype": "Scalable Vector Graphics file",
+            "@type": "ALTIMG",
+            "@size": "8067",
+            "@ref": "si13",
+            "@mimetype": "image/svg+xml"
+          },
+          {
+            "@category": "thumbnail",
+            "@_fa": "true",
+            "$": "https://api.elsevier.com/content/object/eid/1-s2.0-S2095495620300863-si12.svg?httpAccept=%2A%2F%2A",
+            "@multimediatype": "Scalable Vector Graphics file",
+            "@type": "ALTIMG",
+            "@size": "13214",
+            "@ref": "si12",
+            "@mimetype": "image/svg+xml"
+          },
+          {
+            "@category": "thumbnail",
+            "@_fa": "true",
+            "$": "https://api.elsevier.com/content/object/eid/1-s2.0-S2095495620300863-si5.svg?httpAccept=%2A%2F%2A",
+            "@multimediatype": "Scalable Vector Graphics file",
+            "@type": "ALTIMG",
+            "@size": "9315",
+            "@ref": "si5",
+            "@mimetype": "image/svg+xml"
+          },
+          {
+            "@category": "thumbnail",
+            "@_fa": "true",
+            "$": "https://api.elsevier.com/content/object/eid/1-s2.0-S2095495620300863-si8.svg?httpAccept=%2A%2F%2A",
+            "@multimediatype": "Scalable Vector Graphics file",
+            "@type": "ALTIMG",
+            "@size": "3497",
+            "@ref": "si8",
+            "@mimetype": "image/svg+xml"
+          },
+          {
+            "@category": "standard",
+            "@_fa": "true",
+            "$": "https://api.elsevier.com/content/object/eid/1-s2.0-S2095495620300863-am.pdf?httpAccept=%2A%2F%2A",
+            "@multimediatype": "Acrobat PDF file",
+            "@type": "AAM-PDF",
+            "@size": "2718858",
+            "@ref": "am",
+            "@mimetype": "application/pdf"
+          }
+        ]
+      },
+      "link": {
+        "@rel": "abstract",
+        "@href": "https://api.elsevier.com/content/abstract/scopus_id/85081040373"
+      }
+    }
+  }
+}

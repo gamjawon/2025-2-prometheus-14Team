@@ -1,0 +1,644 @@
+{
+  "metadata": {
+    "title": "Mechanism of CO<ce:inf loc=post>2</ce:inf> hydrogenation over θ-Fe<ce:inf loc=post>3</ce:inf>C catalyst: First-principles calculations combined with micro-kinetic modeling",
+    "authors": "; ; ",
+    "journal": "Molecular Catalysis",
+    "date": "2024-03-01",
+    "doi": "10.1016/j.mcat.2024.113947",
+    "abstract": "",
+    "uri": "https://api.elsevier.com/content/article/pii/S2468823124001305",
+    "pii": "S2468823124001305"
+  },
+  "fulltext": {
+    "full-text-retrieval-response": {
+      "scopus-eid": "2-s2.0-85187287829",
+      "originalText": "serial JL 315758 291210 291744 291790 291809 31 Molecular Catalysis MOLECULARCATALYSIS 2024-02-16 2024-02-16 2024-02-16 2024-02-16 2024-02-25T07:56:43 1-s2.0-S2468823124001305 S2468-8231(24)00130-5 S2468823124001305 10.1016/j.mcat.2024.113947 S300 S300.1 FULL-TEXT 1-s2.0-S2468823124X00024 2024-03-27T00:11:42.068462Z 0 0 20240301 2024 2024-02-16T20:40:38.328722Z absattachment articleinfo articlenumber articletitlenorm authfirstinitialnorm authfirstsurnamenorm cid cids contenttype copyright crossmark dateloaded dateloadedtxt datesearch datesort dateupdated dco docsubtype doctype doi eid ewtransactionid hubeid indexeddate issn issnnorm itemstage itemtransactionid itemweight openaccess openarchive pg pgfirst pii piinorm pubdatestart pubdatetxt pubyr sectiontitle sortorder srctitle srctitlenorm srctype ssids alllist content subj subheadings suppl tomb volfirst volissue volumelist webpdf webpdfpagecount yearnav figure table e-component body mmlmath acknowledge affil appendices articletitle auth authfirstini authfull authkeywords authlast grantnumber grantsponsor highlightsabst orcid primabst pubtype ref specialabst 2468-8231 24688231 true 556 556 C Volume 556 38 113947 113947 113947 20240301 1 March 2024 2024-03-01 2024 Regular Papers article fla © 2024 Elsevier B.V. All rights reserved. MECHANISMCO2HYDROGENATIONOVERFE3CCATALYSTFIRSTPRINCIPLESCALCULATIONSCOMBINEDMICROKINETICMODELING LIU Y Introduction Computational details Results and discussion Adsorption activation of reactant and product molecules Initial activation and conversion of carbon dioxide Mechanism of carbon monoxide formation Mechanism of methane formation Mechanism of C2 hydrocarbon generation Microkinetic modeling Conclusions CRediT authorship contribution statement Acknowledgments Appendix B Supplementary materials Appendix A. Supplementary data References DOWELL 2017 243 249 N POLOGARZON 2019 7990 7999 F OTTO 2015 3283 3297 A XU 2022 e230 D GARBA 2021 104756 M SAEIDI 2017 1292 1311 S AMOYAL 2017 29 39 M WANG 2022 37637 37651 H HUANG 2022 41 49 G YU 2018 464 472 X ZHANG 2018 1272 1276 Y ZHU 2022 3629 J NIE 2018 14694 14707 X LU 2021 570 K MENG 2022 112538 Y WANG 2016 107 114 H WANG 2018 160 170 H FU 2015 2193 2198 Z HUANG 2015 28934 28945 L ZHAI 2016 9902 9907 P LINDNER 1988 75 92 H LI 2019 877 890 T LIU 2021 22444 22449 Y HERRANZ 2006 199 211 T KRESSE 1993 13115 13118 G KRESSE 1996 11169 11186 D JOHN 1996 3865 3868 K KRESSE 1999 1758 1775 D GRAEMEHENKELMAN 2000 9901 9904 B HENKELMAN 2006 354 360 G WANG 2017 115 121 Y LIU 2020 10 15 X GRIMME 2010 154104 S GRIMME 2004 1463 1473 S GRIMME 2006 1787 1799 S JOHNSON 2009 1127 1135 E LANDRUM 2000 1560 1585 G STEINBERG 2018 225 S CHEN 2022 638 Q LI 2018 7651 7669 W LIU 2017 100 107 J LIU 2018 120 127 J HU 2016 89 95 S CHUNFANG 2009 14713 14721 L PHAM 2015 2203 2208 T LU 2017 5500 5512 Y BAZ 2021 864 872 A ZHANG 2021 50 60 J LIUX2024X113947 LIUX2024X113947XY 2026-02-16T00:00:00.000Z 2026-02-16T00:00:00.000Z http://creativecommons.org/licenses/by-nc-nd/4.0/ © 2024 Elsevier B.V. All rights reserved. 2024-03-20T10:37:27.153Z http://vtw.elsevier.com/data/voc/AddOnTypes/50.7/aggregated-refined National Natural Science Foundation of China U23A200767 52301011 52231008 52142304 52177220 52302236 22369005 NSFC National Natural Science Foundation of China http://data.elsevier.com/vocabulary/SciValFunders/501100001809 http://sws.geonames.org/1814991/ International Science &amp; Technology Cooperation Program of Hainan Province GHYF2023007 HMU Hainan Medical University http://data.elsevier.com/vocabulary/SciValFunders/501100007935 http://sws.geonames.org/1814991 Hainan University HU Hainan University http://data.elsevier.com/vocabulary/SciValFunders/501100005693 http://sws.geonames.org/1814991/ NSCC-TJ NSCC-TJ National Supercomputing Center of Tianjin http://data.elsevier.com/vocabulary/SciValFunders/501100019212 http://sws.geonames.org/1814991/ KYQD 23026 Key research and development program of Hainan province ZDYF2022GXJS006 Key Research and Development Project of Hainan Province http://data.elsevier.com/vocabulary/SciValFunders/501100013142 http://sws.geonames.org/1814991/ Hainan Provincial Natural Science Foundation of China 524QN226 524QN222 Natural Science Foundation of Hainan Province http://data.elsevier.com/vocabulary/SciValFunders/501100004761 http://sws.geonames.org/1814991/ This work was financially supported by National Natural Science Foundation of China ( 52301011, 52231008, 52142304, 52177220 , and U23A200767 ), the Key research and development program of Hainan province ( ZDYF2022GXJS006 ), Hainan Provincial Natural Science Foundation of China ( 524QN226 ), Starting Research Fund from the Hainan University ( KYQD(ZR)23026 ), International Science &amp; Technology Cooperation Program of Hainan Province ( GHYF2023007 ). and TianHe Qingsuo open research fund of TSYS in 2022 &amp; NSCC-TJ . We gratefully acknowledge HZWTECH for providing computation facilities. This work was financially supported by National Natural Science Foundation of China (52301011, 52231008, 52142304, 52177220, U23A200767, 52302236, and 22369005), the Key Research and Development Program of Hainan Province (ZDYF2022GXJS006), Hainan Provincial Natural Science Foundation of China (524QN226 and 524QN222), Starting Research Fund from the Hainan University (KYQD(ZR)23026), International Science &amp; Technology Cooperation Program of Hainan Province (GHYF2023007). and TianHe Qingsuo open research fund of TSYS in 2022 &amp; NSCC-TJ. We gratefully acknowledge HZWTECH for providing computation facilities. https://doi.org/10.15223/policy-017 https://doi.org/10.15223/policy-037 https://doi.org/10.15223/policy-012 https://doi.org/10.15223/policy-029 https://doi.org/10.15223/policy-004 item S2468-8231(24)00130-5 S2468823124001305 1-s2.0-S2468823124001305 10.1016/j.mcat.2024.113947 315758 2024-03-27T00:11:42.068462Z 2024-03-01 1-s2.0-S2468823124001305-main.pdf https://s3-eu-west-1.amazonaws.com/prod-ucs-content-store-eu-west/content/pii:S2468823124001305/MAIN/application/pdf/bb148fda62363e63c72d0004f5d6bb23/main.pdf main.pdf pdf true 8511967 MAIN 11 1-s2.0-S2468823124001305-main_1.png https://s3-eu-west-1.amazonaws.com/prod-ucs-content-store-eu-west/content/pii:S2468823124001305/PREVIEW/image/png/0d9c8d1cb18b540c4436b5172f7aba28/main_1.png main_1.png png 60722 849 656 IMAGE-WEB-PDF 1 1-s2.0-S2468823124001305-ga1.jpg https://s3-eu-west-1.amazonaws.com/prod-ucs-content-store-eu-west/content/pii:S2468823124001305/ga1/DOWNSAMPLED/image/jpeg/9f29e1032cd27ed7798d9711d6bdb7b1/ga1.jpg ga1 true ga1.jpg jpg 32299 200 361 IMAGE-DOWNSAMPLED 1-s2.0-S2468823124001305-gr5.jpg https://s3-eu-west-1.amazonaws.com/prod-ucs-content-store-eu-west/content/pii:S2468823124001305/gr5/DOWNSAMPLED/image/jpeg/72c3f3f4b03f251fd661baf8e78130a2/gr5.jpg gr5 gr5.jpg jpg 39132 330 489 IMAGE-DOWNSAMPLED 1-s2.0-S2468823124001305-gr6.jpg https://s3-eu-west-1.amazonaws.com/prod-ucs-content-store-eu-west/content/pii:S2468823124001305/gr6/DOWNSAMPLED/image/jpeg/cf98d00f8ca1a00c49ba08d65c16098d/gr6.jpg gr6 gr6.jpg jpg 74443 289 602 IMAGE-DOWNSAMPLED 1-s2.0-S2468823124001305-gr7.jpg https://s3-eu-west-1.amazonaws.com/prod-ucs-content-store-eu-west/content/pii:S2468823124001305/gr7/DOWNSAMPLED/image/jpeg/8561d82a5c69e8b021ca39656ef65099/gr7.jpg gr7 gr7.jpg jpg 45329 301 433 IMAGE-DOWNSAMPLED 1-s2.0-S2468823124001305-gr8.jpg https://s3-eu-west-1.amazonaws.com/prod-ucs-content-store-eu-west/content/pii:S2468823124001305/gr8/DOWNSAMPLED/image/jpeg/120b0a4257a94df395965e78fbc91535/gr8.jpg gr8 gr8.jpg jpg 36552 115 489 IMAGE-DOWNSAMPLED 1-s2.0-S2468823124001305-gr9.jpg https://s3-eu-west-1.amazonaws.com/prod-ucs-content-store-eu-west/content/pii:S2468823124001305/gr9/DOWNSAMPLED/image/jpeg/1d561fe59f5f4375a7d3eecf4b83169d/gr9.jpg gr9 gr9.jpg jpg 45395 317 433 IMAGE-DOWNSAMPLED 1-s2.0-S2468823124001305-gr1.jpg https://s3-eu-west-1.amazonaws.com/prod-ucs-content-store-eu-west/content/pii:S2468823124001305/gr1/DOWNSAMPLED/image/jpeg/df2c67f7996a9c976d73dd9fad947cf0/gr1.jpg gr1 gr1.jpg jpg 40431 203 339 IMAGE-DOWNSAMPLED 1-s2.0-S2468823124001305-gr2.jpg https://s3-eu-west-1.amazonaws.com/prod-ucs-content-store-eu-west/content/pii:S2468823124001305/gr2/DOWNSAMPLED/image/jpeg/ec6f1c48029658daac244d2cfe00fe40/gr2.jpg gr2 gr2.jpg jpg 18338 240 489 IMAGE-DOWNSAMPLED 1-s2.0-S2468823124001305-gr3.jpg https://s3-eu-west-1.amazonaws.com/prod-ucs-content-store-eu-west/content/pii:S2468823124001305/gr3/DOWNSAMPLED/image/jpeg/6bda559040ab1fc1dba32e112e9cd047/gr3.jpg gr3 gr3.jpg jpg 142576 398 734 IMAGE-DOWNSAMPLED 1-s2.0-S2468823124001305-gr4.jpg https://s3-eu-west-1.amazonaws.com/prod-ucs-content-store-eu-west/content/pii:S2468823124001305/gr4/DOWNSAMPLED/image/jpeg/ce3e17c53740f5abbac604e5942ca909/gr4.jpg gr4 gr4.jpg jpg 34021 231 339 IMAGE-DOWNSAMPLED 1-s2.0-S2468823124001305-gr12.jpg https://s3-eu-west-1.amazonaws.com/prod-ucs-content-store-eu-west/content/pii:S2468823124001305/gr12/DOWNSAMPLED/image/jpeg/2519fee6b4985d7407215b9e7ce1601f/gr12.jpg gr12 gr12.jpg jpg 37076 232 527 IMAGE-DOWNSAMPLED 1-s2.0-S2468823124001305-gr10.jpg https://s3-eu-west-1.amazonaws.com/prod-ucs-content-store-eu-west/content/pii:S2468823124001305/gr10/DOWNSAMPLED/image/jpeg/379dac896354833a2afdaa50d8619f38/gr10.jpg gr10 gr10.jpg jpg 29339 259 618 IMAGE-DOWNSAMPLED 1-s2.0-S2468823124001305-gr11.jpg https://s3-eu-west-1.amazonaws.com/prod-ucs-content-store-eu-west/content/pii:S2468823124001305/gr11/DOWNSAMPLED/image/jpeg/806e1d763bdd36de667f9a321bd70b18/gr11.jpg gr11 gr11.jpg jpg 58163 320 621 IMAGE-DOWNSAMPLED 1-s2.0-S2468823124001305-ga1.sml https://s3-eu-west-1.amazonaws.com/prod-ucs-content-store-eu-west/content/pii:S2468823124001305/ga1/THUMBNAIL/image/gif/35d696d4775e039502131e054b0d43c6/ga1.sml ga1 true ga1.sml sml 14697 121 219 IMAGE-THUMBNAIL 1-s2.0-S2468823124001305-gr5.sml https://s3-eu-west-1.amazonaws.com/prod-ucs-content-store-eu-west/content/pii:S2468823124001305/gr5/THUMBNAIL/image/gif/f5b4e055beea7ebefd997b64e1a8a685/gr5.sml gr5 gr5.sml sml 9893 148 219 IMAGE-THUMBNAIL 1-s2.0-S2468823124001305-gr6.sml https://s3-eu-west-1.amazonaws.com/prod-ucs-content-store-eu-west/content/pii:S2468823124001305/gr6/THUMBNAIL/image/gif/4161c9531f555b4e97424982b3376861/gr6.sml gr6 gr6.sml sml 16740 105 219 IMAGE-THUMBNAIL 1-s2.0-S2468823124001305-gr7.sml https://s3-eu-west-1.amazonaws.com/prod-ucs-content-store-eu-west/content/pii:S2468823124001305/gr7/THUMBNAIL/image/gif/e02748a18831992a8fd1ce02c87a07a2/gr7.sml gr7 gr7.sml sml 15293 152 219 IMAGE-THUMBNAIL 1-s2.0-S2468823124001305-gr8.sml https://s3-eu-west-1.amazonaws.com/prod-ucs-content-store-eu-west/content/pii:S2468823124001305/gr8/THUMBNAIL/image/gif/addaaf1f1756e515b2d053755718d36e/gr8.sml gr8 gr8.sml sml 10597 51 219 IMAGE-THUMBNAIL 1-s2.0-S2468823124001305-gr9.sml https://s3-eu-west-1.amazonaws.com/prod-ucs-content-store-eu-west/content/pii:S2468823124001305/gr9/THUMBNAIL/image/gif/ecd76a1a2aae3ef5c8e1aa17fb425b9c/gr9.sml gr9 gr9.sml sml 16464 160 219 IMAGE-THUMBNAIL 1-s2.0-S2468823124001305-gr1.sml https://s3-eu-west-1.amazonaws.com/prod-ucs-content-store-eu-west/content/pii:S2468823124001305/gr1/THUMBNAIL/image/gif/5eaab914184ec82c7db8500cde4a6020/gr1.sml gr1 gr1.sml sml 22505 131 219 IMAGE-THUMBNAIL 1-s2.0-S2468823124001305-gr2.sml https://s3-eu-west-1.amazonaws.com/prod-ucs-content-store-eu-west/content/pii:S2468823124001305/gr2/THUMBNAIL/image/gif/07660718c647deba6d182035d9a4b4c2/gr2.sml gr2 gr2.sml sml 4450 108 219 IMAGE-THUMBNAIL 1-s2.0-S2468823124001305-gr3.sml https://s3-eu-west-1.amazonaws.com/prod-ucs-content-store-eu-west/content/pii:S2468823124001305/gr3/THUMBNAIL/image/gif/d2dd87f51bcf133b444c7480ebd319ef/gr3.sml gr3 gr3.sml sml 19696 119 219 IMAGE-THUMBNAIL 1-s2.0-S2468823124001305-gr4.sml https://s3-eu-west-1.amazonaws.com/prod-ucs-content-store-eu-west/content/pii:S2468823124001305/gr4/THUMBNAIL/image/gif/fceb1a861b0d1cdd48b00b776e508906/gr4.sml gr4 gr4.sml sml 15778 149 219 IMAGE-THUMBNAIL 1-s2.0-S2468823124001305-gr12.sml https://s3-eu-west-1.amazonaws.com/prod-ucs-content-store-eu-west/content/pii:S2468823124001305/gr12/THUMBNAIL/image/gif/bb6b497e09f392959c487afc8462bb3c/gr12.sml gr12 gr12.sml sml 9219 96 219 IMAGE-THUMBNAIL 1-s2.0-S2468823124001305-gr10.sml https://s3-eu-west-1.amazonaws.com/prod-ucs-content-store-eu-west/content/pii:S2468823124001305/gr10/THUMBNAIL/image/gif/58c3780f377893947e39cd8c98a1ad83/gr10.sml gr10 gr10.sml sml 5103 92 219 IMAGE-THUMBNAIL 1-s2.0-S2468823124001305-gr11.sml https://s3-eu-west-1.amazonaws.com/prod-ucs-content-store-eu-west/content/pii:S2468823124001305/gr11/THUMBNAIL/image/gif/d85c3c996f157567d7096b161179a2ea/gr11.sml gr11 gr11.sml sml 8028 113 219 IMAGE-THUMBNAIL 1-s2.0-S2468823124001305-ga1_lrg.jpg https://s3-eu-west-1.amazonaws.com/prod-ucs-content-store-eu-west/content/pii:S2468823124001305/HIGHRES/image/jpeg/13f845433b5f6c2553592e2935f1eb0a/ga1_lrg.jpg ga1 true ga1_lrg.jpg jpg 265604 886 1598 IMAGE-HIGH-RES 1-s2.0-S2468823124001305-gr5_lrg.jpg https://s3-eu-west-1.amazonaws.com/prod-ucs-content-store-eu-west/content/pii:S2468823124001305/HIGHRES/image/jpeg/9e8039ebd137ba2099a72a10f9fc0242/gr5_lrg.jpg gr5 gr5_lrg.jpg jpg 226361 1464 2167 IMAGE-HIGH-RES 1-s2.0-S2468823124001305-gr6_lrg.jpg https://s3-eu-west-1.amazonaws.com/prod-ucs-content-store-eu-west/content/pii:S2468823124001305/HIGHRES/image/jpeg/e8cd05934d16101ac3a3cd9dcc083433/gr6_lrg.jpg gr6 gr6_lrg.jpg jpg 554912 1279 2667 IMAGE-HIGH-RES 1-s2.0-S2468823124001305-gr7_lrg.jpg https://s3-eu-west-1.amazonaws.com/prod-ucs-content-store-eu-west/content/pii:S2468823124001305/HIGHRES/image/jpeg/ba750a15914cf5db65f27949375138bf/gr7_lrg.jpg gr7 gr7_lrg.jpg jpg 338699 1334 1917 IMAGE-HIGH-RES 1-s2.0-S2468823124001305-gr8_lrg.jpg https://s3-eu-west-1.amazonaws.com/prod-ucs-content-store-eu-west/content/pii:S2468823124001305/HIGHRES/image/jpeg/6976f30c1bf6a18fefa1b96d5569ef15/gr8_lrg.jpg gr8 gr8_lrg.jpg jpg 282468 509 2167 IMAGE-HIGH-RES 1-s2.0-S2468823124001305-gr9_lrg.jpg https://s3-eu-west-1.amazonaws.com/prod-ucs-content-store-eu-west/content/pii:S2468823124001305/HIGHRES/image/jpeg/bcc0dbb78f870221cb04371da89a74dd/gr9_lrg.jpg gr9 gr9_lrg.jpg jpg 324990 1404 1917 IMAGE-HIGH-RES 1-s2.0-S2468823124001305-gr1_lrg.jpg https://s3-eu-west-1.amazonaws.com/prod-ucs-content-store-eu-west/content/pii:S2468823124001305/HIGHRES/image/jpeg/ccd7b2864bf43902d9aaa86cd604d61e/gr1_lrg.jpg gr1 gr1_lrg.jpg jpg 352991 900 1500 IMAGE-HIGH-RES 1-s2.0-S2468823124001305-gr2_lrg.jpg https://s3-eu-west-1.amazonaws.com/prod-ucs-content-store-eu-west/content/pii:S2468823124001305/HIGHRES/image/jpeg/47d8c6d20968bfe608147fcaf64b228b/gr2_lrg.jpg gr2 gr2_lrg.jpg jpg 130990 1064 2167 IMAGE-HIGH-RES 1-s2.0-S2468823124001305-gr3_lrg.jpg https://s3-eu-west-1.amazonaws.com/prod-ucs-content-store-eu-west/content/pii:S2468823124001305/HIGHRES/image/jpeg/e9ddd9edb140def7976e2af7f2e800e7/gr3_lrg.jpg gr3 gr3_lrg.jpg jpg 1176421 1764 3250 IMAGE-HIGH-RES 1-s2.0-S2468823124001305-gr4_lrg.jpg https://s3-eu-west-1.amazonaws.com/prod-ucs-content-store-eu-west/content/pii:S2468823124001305/HIGHRES/image/jpeg/732856b54eff0ca45fb8ca2ad18be07d/gr4_lrg.jpg gr4 gr4_lrg.jpg jpg 263925 1021 1500 IMAGE-HIGH-RES 1-s2.0-S2468823124001305-gr12_lrg.jpg https://s3-eu-west-1.amazonaws.com/prod-ucs-content-store-eu-west/content/pii:S2468823124001305/HIGHRES/image/jpeg/767c9a32946894cf63b33c4b16c07125/gr12_lrg.jpg gr12 gr12_lrg.jpg jpg 275900 1027 2333 IMAGE-HIGH-RES 1-s2.0-S2468823124001305-gr10_lrg.jpg https://s3-eu-west-1.amazonaws.com/prod-ucs-content-store-eu-west/content/pii:S2468823124001305/HIGHRES/image/jpeg/e114a4a9f9b5db5a8031d12075c3395b/gr10_lrg.jpg gr10 gr10_lrg.jpg jpg 227154 1148 2738 IMAGE-HIGH-RES 1-s2.0-S2468823124001305-gr11_lrg.jpg https://s3-eu-west-1.amazonaws.com/prod-ucs-content-store-eu-west/content/pii:S2468823124001305/HIGHRES/image/jpeg/f8dd7ee35cefb1a4884db0e4381418df/gr11_lrg.jpg gr11 gr11_lrg.jpg jpg 371517 1417 2750 IMAGE-HIGH-RES 1-s2.0-S2468823124001305-mmc1.docx https://s3-eu-west-1.amazonaws.com/prod-ucs-content-store-eu-west/content/pii:S2468823124001305/mmc1/MAIN/application/vnd.openxmlformats-officedocument.wordprocessingml.document/a7d44f2bcbbd1772904b25092c6bf598/mmc1.docx mmc1 mmc1.docx docx 8120230 APPLICATION 1-s2.0-S2468823124001305-si1.svg https://s3-eu-west-1.amazonaws.com/prod-ucs-content-store-eu-west/content/pii:S2468823124001305/image/svg+xml/b504a2f36797172ef4acf695ebabfe70/si1.svg si1 si1.svg svg 1526 ALTIMG 1-s2.0-S2468823124001305-si2.svg https://s3-eu-west-1.amazonaws.com/prod-ucs-content-store-eu-west/content/pii:S2468823124001305/image/svg+xml/c46ccc83ed6c9b79af33a1bdb79a7efd/si2.svg si2 si2.svg svg 10361 ALTIMG 1-s2.0-S2468823124001305-am.pdf am am.pdf pdf 1447301 AAM-PDF https://s3-eu-west-1.amazonaws.com/prod-ucs-content-store-eu-west/content/egi:10P7DC9QFP3/MAIN/application/pdf/ef151b8139dff7d29b9647b6c0976ab6/am.pdf MCAT 113947 113947 S2468-8231(24)00130-5 10.1016/j.mcat.2024.113947 Fig. 1 The optimized lattice structure of θ-Fe3C(031) surface in top and side views. Fig 1 Fig. 2 The mechanism of C vacancy formation and the relative energy profile on θ-Fe3C(031) surface. Fig 2 Fig. 3 (a) Lattice structures of the most stable adsorption of CO2, H, CO, H2O, CH4, C2H4 and C2H6 on the θ-Fe3C(031) surface. (b)-(d) Energy fluctuations during the simulation. The inset shows the CO2* lattice structure in real time during a constant temperature process. Fig 3 Fig. 4 Energy profiles of possible CO2 dissociation pathways on the θ-Fe3C(031). Fig 4 Fig. 5 COHP analysis of (a) the C-O bonding interaction in the configuration for CO2 adsorption and (b) the C-H and O-H bonds interaction in the configuration for HCOO* and COOH* transition states over θ-Fe3C(031). Fig 5 Fig. 6 (a) Projected density of state of the Fe 3d, C and O s + p bands for CO2 adsorption, (b) electron density difference maps and (c) electron localization function map of the CO2 dissociation transition states over the θ-Fe3C(031) surface. The unit for electron density is e bohr−3. Fig 6 Fig. 7 Energy profiles of initial CO2 hydrogenation conversions on the θ-Fe3C(031) surface. Fig 7 Fig. 8 Charge density difference in C-H and O-H bonds formation during CO2 hydrogenation over θ-Fe3C(031) surface. Yellow and cyan regions stand for charge accumulation and depletion of the catalyst, respectively. Fig 8 Fig. 9 Energy profiles for CO2* direct dissociation, carbon monoxide hydrogenation to produce HCO* and COH* intermediates. Fig 9 Fig. 10 Energy profiles for CH4 production through CO2 direct dissociation pathway over θ-Fe3C(031). Fig 10 Fig. 11 Energy profiles for CH4 production from different pathways through HCOO* intermediate over θ-Fe3C(031). Fig 11 Fig. 12 (a) Surface coverage of different key species and (b) turnover frequencies (TOFs) of different major products from CO2 hydrogenation over θ-Fe3C(031) surface under different temperatures. Fig 12 Table 1 Atomic bader charges of transition states in CO2 dissociation over θ-Fe3C(031) surface. (Charges are given in δ − ) Table 1 TSCO* - 1 TSCO* - 2 CO* -0.23 -0.21 O* -1.00 -1.00 (CO+O)* -1.23 -1.21 Table 2 Key structural parameters of the initial, transition, and final states contained in the process of CO2 hydrogenation for methane synthesis via the “CO” pathway over the θ-Fe3C(031) surface. (Distances are in Angstroms, and angles are in degrees.) Table 2 CO2* → CO*+O* CO* → C*+O* parameters IS TS FS parameters IS TS FS C-O1 1.32 1.65 3.70 C-O1 1.17 1.78 2.69 C-O2 1.30 1.19 1.18 – – – – ∠O1-C-O2 124.1 114.9 99.5 – – – C*+H* → CH* CH*+H* → CH2* parameters IS TS FS parameters IS TS FS C-Hsurf 2.27 1.40 1.11 C-H1 1.11 1.11 1.10 – – – – C-Hsurf 3.30 1.43 1.19 – – – – ∠H1-C-Hsurf 92.4 92.3 98.8 CH2*+H* → CH3* CH3*+H* → CH4* parameters IS TS FS parameters IS TS FS C-H1surf 2.68 1.61 1.11 C-H1surf 2.82 1.42 1.12 ∠H2-C-Hsurf 81.0 87.1 105.4 ∠H2-C-Hsurf 56.8 117.7 107.7 ∠H1-C-Hsurf 147.4 118.2 105.6 ∠H1-C-Hsurf 92.8 84.6 107.1 Table 3 Key structural parameters of initial, transition, and final states contained in the process of CO2 hydrogenation for methane synthesis via the “COOH” pathway over the θ-Fe3C(031) surface. (Distances are in Angstroms, and angles are in degrees.) Table 3 CO2*+H* → COOH* COOH* → CO*+OH* parameters IS TS FS parameters IS TS FS O-Hsurf 3.79 1.41 0.98 C-O1 1.32 1.24 1.18 ∠H-O1-C 151.7 88.7 106.6 C-O2 1.35 1.83 6.26 ∠O1-C-O2 124.2 124.0 112.0 ∠O1-C-O2 112.0 107.9 91.7 Table 4 Activation barriers (Eact) and reaction energies (ΔErxn) of possible basic reactions examined in the formation of C2 hydrocarbons on θ-Fe3C(031) surface. Table 4 Steps Eact (eV) ΔErxn (eV) C-C coupling 2CH* → CHCH* 1.13 0.29 CH* + CH2* → CHCH2* 1.31 0.49 2CH2* → CH2CH2* 0.88 -0.05 CH* + CH3* → CHCH3* 1.57 0.66 CH2* + CH3* → CH2CH3* 1.30 0.39 2CH3* → CH3CH3* 2.39 0.66 C2 hydrogenation CHCH* + H* →CHCH2* 1.10 1.07 CHCH2* + H* → CH2CH2* 0.84 0.26 CHCH2* + H* → CHCH3* 0.79 0.44 CH2CH2* + H* → CH2CH3* 0.93 0.71 CHCH3* + H* → CH2CH3* 0.78 0.54 CH2CH3* + H* → CH3CH3(g) 1.33 0.54 Table 5 Activation barriers, reaction energies and forward/reverse pre-exponential factors of all basic reactions examined in the CO2 conversion pathways over θ-Fe3C(031) surface. Table 5 Entry Elementary steps ΔE ΔEZPC ΔG Ea Ea ZPC AFwd ARev 1 CO2(g) + * ⇆ CO2* -0.71 -0.73 0.30 0.00 0.00 1.54×108 3.37×1016 2 H2(g) + 2* ⇆ 2H* -1.60 -1.49 -0.74 0.00 0.00 1.54×108 1.41×1016 3 CO2* + H* ⇆ HCOO* + * 0.47 0.57 0.53 0.83 0.81 9.13×1012 4.70×1012 4 HCOO* + * ⇆ HCO* + O* -1.11 -1.14 -1.06 0.76 0.72 4.57×1012 2.42×1013 5 HCOO* + H* ⇆ H2COO* + * 0.55 0.68 0.76 1.88 1.81 1.51×1013 7.36×1013 6 H2COO* + * ⇆ H2CO* + O* -0.66 -0.77 -0.79 0.50 0.42 2.59×1013 2.04×1013 7 HCO* + * ⇆ CH* + O* -1.48 -1.51 -1.49 0.69 0.64 3.76×1013 5.24×1013 8 HCO* + H* ⇆ H2CO* + * 0.45 0.56 0.55 0.78 0.76 1.21×1013 1.00×1013 9 H2CO* + * ⇆ CH2* + O* -1.12 -1.21 -1.21 0.75 0.67 1.36×1013 1.21×1013 10 CH* + H* ⇆ CH2* + * 0.80 0.86 0.83 0.96 0.94 1.11×1013 5.89×1012 11 CH2* + H* ⇆ CH3* + * 0.27 0.39 0.35 0.89 0.87 1.33×1013 6.23×1012 12 CH3* + H* ⇆ CH4* + * 0.72 0.84 -0.23 1.40 1.38 3.53×1013 8.66×104 13 2CH* ⇆ CHCH* + * 0.28 0.36 0.35 1.13 1.14 6.05×1012 5.61×1012 14 CH* + CH2* ⇆ CHCH2* + * 0.49 0.60 0.60 1.31 1.29 9.34×1012 8.78×1012 15 CH* + CH3* ⇆ CHCH3* + * 0.66 0.76 0.70 1.57 1.60 2.09×1013 7.24×1012 16 CHCH* + H* ⇆ CHCH2* + * 1.07 1.14 1.09 1.10 1.08 1.08×1013 3.97×1012 17 CHCH2* + H* ⇆ CH2CH2* + * 0.26 0.40 0.35 0.84 0.82 1.18×1013 4.94×1012 18 CHCH2* + H* ⇆ CHCH3* + * 0.44 0.54 0.45 0.79 0.76 9.98×1012 1.72×1012 19 2CH2* + H* ⇆ CH2CH2* + * -0.05 0.14 0.12 0.88 0.94 1.55×1013 1.16×1012 20 CH2* + CH3* ⇆ CH2CH3* + * 0.39 0.56 0.51 1.30 1.36 5.20×1013 2.25×1013 21 CH2CH2* + H* ⇆ CH2CH3* + * 0.71 0.81 0.74 0.93 0.92 2.44×1013 6.60×1012 22 CHCH3* + H* ⇆ CH2CH3* + * 0.54 0.66 0.64 0.78 0.77 8.68×1012 5.71×1012 23 CH2CH3* + H* ⇆ C2H6(g)* + 2* 0.54 0.69 -0.34 1.33 1.32 2.41×1014 1.23×106 24 2CH3* ⇆ C2H6(g)* + 2* 0.66 0.86 -0.17 2.39 2.38 1.96×1013 9.63×1012 25 CO2* + * ⇆ CO* + O* -1.53 -1.54 -1.59 0.24 0.20 2.87×1013 9.63×1012 26 CO* + * ⇆ C* + O* -1.10 -1.13 -0.99 1.24 1.18 6.43×1011 9.79×1012 27 CO* + H* ⇆ HCO* + * 0.89 0.96 1.07 1.20 1.15 1.55×1012 1.26×1013 28 CO* + H* ⇆ COH* + * 0.98 1.06 1.09 1.96 1,84 4.08×1012 7.85×1012 29 COH* + * ⇆ C* + OH* -1.37 -1.38 -1.31 1.63 1.56 9.97×1012 3.34×1013 30 C* + H* ⇆ CH* + * 0.52 0.58 0.57 1.04 0.98 1.25×1013 9.27×1012 31 CO2*+ H* ⇆ COOH* + * 0.41 0.55 0.51 1.33 1,25 1.91×1013 9.51×1012 32 COOH* + * ⇆ CO* + OH* -1.23 -1.27 -1.34 0.62 0.54 9.09×1012 2.59×1012 33 O* + H* ⇆ OH* + * 0.71 0.81 0.77 1.63 1.54 2.17×1013 9.18×1012 34 OH* + H* ⇆ H2O* + * 1.12 1.22 1.08 1.72 1.61 6.39×1013 4.53×1012 35 H2O* ⇆ * + H2O(g) 0.65 0.57 -0.29 0.65 0.57 2.12×1015 2.40×108 36 CO* ⇆ * + CO(g) 2.08 2.00 0.80 2.08 2.00 7.62×1015 1.93×108 37 C2H4* ⇆ * + C2H4(g) 1.42 1.41 0.34 1.42 1.41 8.90×1016 1.93×108 Research Paper Mechanism of CO2 hydrogenation over θ-Fe3C catalyst: First-principles calculations combined with micro-kinetic modeling Yuan Liu Writing – original draft Methodology Formal analysis Conceptualization a b Yuhuan Ye Methodology Data curation a Yudan Li Visualization Data curation a Haolin Du Investigation Data curation a Zexiang Yin Methodology Formal analysis a Mianfeng Li Software Formal analysis a Zhong Huang Writing – review & editing Investigation a Xuerong Zheng Writing – review & editing Supervision a Haozhi Wang Writing – review & editing Visualization Resources Project administration Formal analysis Conceptualization a b ⁎ Yang Wang Writing – review & editing Supervision a ⁎ Yida Deng Writing – review & editing Visualization Supervision Resources Conceptualization a b ⁎ a State Key Laboratory of Marine Resource Utilization in South China Sea, School of Materials Science and Engineering, Hainan University, Haikou 570228, China State Key Laboratory of Marine Resource Utilization in South China Sea School of Materials Science and Engineering Hainan University Haikou 570228 China aState Key Laboratory of Marine Resource Utilization in South China Sea, School of Materials Science and Engineering, Hainan University, Haikou 570228, China b Tianjin Key Laboratory of Composite and Functional Materials, Key Laboratory of Advanced Ceramics and Machining Technology, (Ministry of Education), School of Materials Science and Engineering, Tianjin University, Tianjin 300072, China Tianjin Key Laboratory of Composite and Functional Materials Key Laboratory of Advanced Ceramics and Machining Technology (Ministry of Education) School of Materials Science and Engineering Tianjin University Tianjin 300072 China bTianjin Key Laboratory of Composite and Functional Materials, Key Laboratory of Advanced Ceramics and Machining Technology, (Ministry of Education), School of Materials Science and Engineering, Tianjin University, Tianjin 300072, China ⁎ Corresponding authors. Catalytic conversion of carbon dioxide into high-value compounds is a promising strategy for reducing carbon dioxide emissions. In the reduction of CO2 to hydrocarbons, the active point and reaction mechanism of iron-based catalysts are still unclear. Here, we systematically investigated the complete reaction path of carbon dioxide hydrogenation to methane, ethylene, ethane, and carbon monoxide over the θ-Fe3C(031) surface using first principles calculations. The electronic structure analysis shows that carbon dioxide tends to dissociate directly on the θ-Fe3C(031) surface to form CO* instead of COOH* and HCOO* intermediates. Due to the high energy barrier for CO* hydrogenation, it tends to desorb forming CO product instead of further transformation into hydrocarbons. In addition, the microkinetic model proved that the H* species coverage on the θ-Fe3C(031) crystal surface is highly, which could effectively inhibit the further oxidation of the catalyst, indicating the catalyst to be highly stable. Meanwhile, carbon monoxide behaved the highest relative selectivity. These results reveal the key intermediates and reaction paths of carbon dioxide hydrogenation over θ-Fe3C(031) catalyst surface and further illustrate the key factors affecting its product selectivity, providing a theoretical basis and guidance for the design and synthesis of the catalyst. Graphical abstract The Carbon dioxide hydrogenation on the surface of θ-Fe3C(031) catalyst exhibits excellent stability and high relative selectivity of CO. Image, graphical abstract Keywords Carbon dioxide hydrogenation Hydrocarbons θ-Fe3C Density functional theory Microkinetic modeling Data availability No data was used for the research described in the article. Introduction The high concentration of carbon dioxide (CO2) in the atmosphere brings many crises and challenges, such as global warming, glacial melting and other environmental problems [1]. In order to reduce the impact of CO2 emissions on the environment and climate, the development of high-efficiency technologies for the production of highly valuable products and fuels from CO2 resources is currently being extensively researched [2–4]. Hydrogenation of CO2 to various products is an exciting area of research, and the process can reduce CO2 emissions and create valuable chemical products, which has attracted research interests [5,6]. The reduction of carbon dioxide through a reverse water gas transfer reaction to carbon monoxide followed by a Fischer-Tropsch synthesis (FTS) reaction produces the higher hydrocarbons, which is a way to produce high value-added products through carbon dioxide hydrogenation [7]. Iron-, cobalt- and nickel-based active metals are the best performing catalysts in FTS [8]. Compared with Co and Ru, Fe-based catalysts have received much attention for their higher activity, lower cost and lower CH4 selectivity [9,10]. In the actual reaction of CO2 hydrogenation on the iron-based catalysts [11], the phase of the catalyst will change, including the conversion of Fe, Fe3O4, θ-Fe3C and χ-Fe5C2, etc. [12–15]. This enables consecutive reactions of CO2 hydrogenation to occur on iron-based catalysts. Due to the excessively complex phase state of the iron-based catalyst in the reaction, the intermediate-phase reaction mechanism has remained to be investigated, especially the activation and conversion of CO2 molecules in different phases. It has been shown that carbon dioxide generally tends to form hydrogenation products, such as carbon monoxide as well as methane via CO* and HCOO* intermediates on the Fe(100) crystal plane [16,17]. The iron oxide and iron carbide are in dynamic equilibrium. Fe3O4 is a good catalyst for reverse water–gas shift (RWGS). The main hydrogenation product of carbon dioxide on Fe3O4 is carbon monoxide [18,19]. At present, a large number of experiments and theoretical calculations show that the iron carbides are the activity species of iron-based catalysts in FTS [20,21]. The χ-Fe5C2 and θ-Fe3C are relatively stable active species of iron carbide in the process of reaction [22,23]. Of the two, the χ-Fe5C2 shows a high selectivity of CO2 hydrogenation to CH4 [8], which is unfavorable for carbon-hydrogen coupling to generate multi-carbon products. Nie et al. [13] reported CO2 dissociation energy barriers as low as 0.64 eV for CO2 on the surface of χ-Fe5C2(510), while the dissociation energy barrier for Fe3O4 (111) exceeds 2.0 eV. Tirma Herranz et al. experimentally verified that θ-Fe3C exhibits the highest stability during oxidation [24]. And θ-Fe3C has high FTS performance at high temperature under the synergistic effect of Mn promoter. However, iron carbide has a higher intrinsic activity than magnetite in CO2 activation and hydrogenation. The role of θ-Fe3C catalysts within them and in the formation of high-carbon chain hydrocarbon products from CO2 hydrogenation is still unclear, and understanding the mechanisms of carbon dioxide activation and conversion on θ-Fe3C catalysts is crucial for the development strategies to effectively decrease CO2 emissions and increase renewable resources. Therefore, the mechanism of the carbon dioxide hydrogenation reaction requires to be studied in detail. In this work, the reaction process and reaction mechanism of carbon dioxide hydrogenation over θ-Fe3C catalyst are systematically investigated by first principles calculations. The electronic structure of reaction intermediates during the CO2 hydrogenation reaction over the θ-Fe3C(031) surface is analyzed. It is found that CO2* would dissociate directly and form CO* intermediates. And the CO* intermediates tend to desorb to form CO rather than further conversion to hydrocarbons. In addition, a microkinetic model is established to study the mechanism of CO2 hydrogenation. The results show that the coverage of H* species over the θ-Fe3C(031) surface is higher compared to other species. This effectively inhibits the further oxidation of the catalyst, which indicates a good stability of the catalyst. Moreover, CO has the highest selectivity. These results reveal the critical intermediates and the optimal reaction pathways in the CO2 hydrogenation over the θ-Fe3C(031) surface, providing a theoretical basis and guidance for the catalyst design and synthesis. Computational details All calculations were conducted using the Vienna ab-initio simulation package, which is based on density functional theory [25,26]. The electronic exchange and correlation energies were processed at a generalized gradient approximation (GGA) level using Perdew, Burke, and Ernzerhof functions (PBE) [27]. The cutoff energy of the plane-wave base group was set to 400 eV to describe the valence electrons states, and the core electrons states were processed by the projector augmented wave (PAW) pseudopotentials [28]. The spin polarization calculation was considered. The convergence threshold of the forces on the atoms in the electronic self-consistency cycle step was set to 10−5 eV. And all the lattice structures and atomic positions were relaxed completely until the remaining forces in the relaxation of the structure were less than 0.01 eV/Å to finish the self-consistent force calculation. The integration method used was Gaussian smearing with 0.05 eV width. The invariable van der Waals force was considered in the system for calculating molecular adsorption. The adsorption energy (E ads) of the surface species is defined as (1) E ads = E total − E slab − E species where E total is the total energy of the adsorbed species with catalyst, E slab and E species represent the energy of the unoccupied slab and species in the gas phase, respectively. Transition states were localized by means of the climbing image nudged elastic band (CI-NEB) [29] and that for each transition state was identified as having an imaginary vibrational frequency along the coordinates of the response. The detailed transition state calculation is shown in the Supplementary material. Bader charge was analyzed using the code developed by Henkelman and co-workers [30]. The reaction energies of endothermic and exothermic reactions are expressed as positive and negative values, respectively. Wang et al. and Liu et al. investigated the equilibrium morphology of θ-Fe3C catalyst using Wulff construction method [31,32], and the results showed that the θ-Fe3C(031) crystal face catalyst has the lowest surface energy and the largest exposure ratio. Therefore, θ-Fe3C(031) was chosen as the object of study in this work, and its lattice structure is shown in Fig. 1 . The K-point grid used 2 × 2 × 1 to ample the Brillouin zone. A three-layer θ-Fe3C(031) (3 × 3) supercell was constructed to avoid cell-cell interaction, in which the upper layer is completely relaxed in the interaction with small molecules and intermediates, and the lower two layers are fixed in the initial position. To avoid periodic layer-by-layer interaction of the structure in the z-direction, a 15 Å thick vacuum layer was provided. The van der Waals interaction was modified by DFT-D3 method. On the θ-Fe3C(031) surface, the exposed iron-carbon atom ratio is 3:1, which is the same as the bulk phase atom ratio of the catalyst. There are four 3-fold hollow sites and one 4-fold hollow site on the catalyst surface. In actual reaction conditions, the ratio of hydrogen to carbon dioxide is generally 3:1, and the presence of hydrogen may lead to hydrogenation of exposed carbon atoms on the surface. Ab initio molecular dynamics (AIMD) simulation with NVT canonical ensembles was used to determine the most stable adsorption configuration. The models for AIMD simulations used geometry-optimized by VASP calculations. The Nosé-Hoover heat bath method was chosen. First, the temperature was raised from 10 K to 673.15 K with the time step set to 1 fs and the total simulation duration of annealing set to 5 ps. Then, the time step was set to 1 fs, keeping the 673.15 K simulation duration set to 5 ps to reach a thermostatic equilibrium state. In order to accelerate the AIMD calculations, the K-mesh used gamma-point. Other parameters are consistent with those of the VASP calculation. In order to determine the role of the θ-Fe3C surface carbon on the hydrogenation reaction, the hydrogenation process with surface carbon was first evaluated. As shown in Fig. 2 , H2 spontaneously adsorbs on the Fe3C surface with an adsorption energy of -3.14 eV. The formation of CH* from adsorbed H and inherent C of the Fe3C surface requires overcoming the 1 eV energy barrier (TS-1). Thereafter the formation of CH2* and CH3* requires crossing TS-2 (0.98 eV) and TS-3 (1.03 eV), respectively, and finally, CH3* hydrogenation to CH4 still requires overcoming a higher energy barrier (1.24 eV). Due to endothermic of the hydrogenation reaction at each step, the effective energy barrier for inherent carbon hydrogenation to CH x and carbon defect formation on the surface of θ-Fe3C(031) is as high as 3.36 eV. Such a high effective energy barrier suggests that the generation of carbon defects is difficult. Therefore, the effect of carbon vacancies on CO2 adsorption activation will not be considered in the subsequent study. A schematic of the transition state structure and energy profiles for the H2 dissociation over θ-Fe3C (031) surface is shown in Fig. S1. The activation and reaction energy are 0.02 and 0.66 eV, respectively. The results show that H2 dissociation proceeds easily and that the transition state energy barriers to dissociation are so small that they can be neglected, so we did not calculate the corresponding microkinetic models. Results and discussion Adsorption activation of reactant and product molecules The adsorption of reactants and products has a great impact on the reactivity and the selectivity of carbon dioxide hydrogenation. All possible adsorption configurations for all reactants and products are investigated. Fig. 3a shows the most stable adsorption structures of CO2, H, CO, CH4, C2H4, C2H6 and H2O on θ-Fe3C(031) surface. Since CO2 adsorption is the first and most critical step of the reaction, we calculated nine different CO2 adsorption configurations with full consideration of the effect of different active sites on the adsorption structure, and determined the most stable structure by adsorption energy, as shown in Fig. S2. The 3-fold hollow site is the most robust adsorption site for carbon dioxide. The carbon atom of carbon dioxide is adsorbed in the hollow site, while the oxygen atoms are interact with the iron atom in the θ-Fe3C(031) surface. The calculated carbon dioxide adsorption energy is -0.71 eV. To further determine that the most stable adsorption configuration represents the global minimum, three lower energy CO2* (Fig. S2a, 2f and 2g) are selected for AIMD annealing simulations to validate the reasonableness of the selected most stable configuration of CO2*. As shown in Fig. 3b-d, the CO2 molecules of the three types of CO2* intermediates are basically stabilized adsorbed in the 3-fold hollow sites during the annealing process at 5 ps. This is consistent with the most stable structure selected in Fig. 3a (Fig. S2a). Moreover, compared to the 4-fold hollow site, CO2 on the 3-fold hollow site is more likely to be activated asymmetrically. This can lead to the breakdown of the π-bond of CO2, thus accelerating CO2 splitting. It is interesting to note that CO2 dissociation occurs at 4700 to 5000 fs for the CO* structure (Fig. S2g) shown in Fig. 3d, which suggests that CO2 dissociates readily after adsorption, consistent with the results in Fig. 4 . In addition, the 3-fold hollow site connected to the 4-fold hollow site is the most stabilized adsorption site of hydrogen atom. Carbon monoxide molecules tend to adsorb on the top side of iron atoms through carbon atoms with an adsorption energy of -2.08 eV. The most stable adsorption site of water is the same as carbon monoxide, which interacts with iron atoms through oxygen atoms. The adsorption energy of water is weaker than that of carbon monoxide, which is -0.65 eV. The ethylene molecules are stably adsorbed in the 4-fold hollow site, and their carbon atoms interact with the surface iron atoms with an adsorption energy of -1.42 eV. Methane and ethane are small molecules with saturated coordination, and they exist by physical adsorption on θ-Fe3C(031). After introducing dispersion correction [33–36], the energies of adsorption for methane and ethane are -0.38 eV and -0.54 eV, respectively. Due to the complex temperature variations during thermally catalyzed reactions, the inadequate consideration may lead to errors in the results of the thermocatalytic reaction. Therefore, thermal catalysis can ignore the effect of temperature on energy and describe the reaction process in terms of electronic energy [13,17]. The reaction energy barrier for carbon dioxide to break two C-O bonds on θ-Fe3C(031) is shown in Fig. 4, respectively. The transition state process for direct dissociation of CO2 is that the broken oxygen atom moves to the adjacent Fe-Fe bridge site, while remaining CO fraction migrates to the top site of the opposite Fe atom. The reaction energy barrier for CO2 to break C-O1 bond is 0.24 eV, and that of C-O2 bond is 0.43 eV, indicating that the direct cleavage of CO2 is mainly achieved through dissociation of C-O1 bond. To further insight into the dissociation of C-O, the interaction between the carbon atom and two oxygen atoms in CO2 was analyzed using the projected crystal orbital Hamilton population (COHP) method [37,38]. As shown in Fig. 5 a, the integrated pCOHP (IpCOHP) of C-O2 bond (-7.72 eV) is smaller than that of C-O1 (-7.45 eV), indicating that C-O2 bond is stronger than C-O1 bond, and C-O1 bond is easier to break, which is consistent with the reaction energy barrier obtained by theoretical calculation in Fig. 4. Moreover, the charge density difference between the C-O bond of the carbon dioxide adsorption configuration shows a region of negative charge between the C-O2 bond, indicating more electrons are moved from the θ-Fe3C(031) to the C-O2 bond, as shown in Fig. 4. This also confirms that stronger the C-O2 bond interaction than the C-O1 bond, which inhibiting the direct dissociation of the C-O2 bond. In addition, the strength of Fe-O bond is also an important factor affecting that of C-O bond for CO2. The projected density states of CO2 molecules adsorbed on θ-Fe3C(031) surface is shown in Fig. 6a . The sum of s and p orbitals of O2 atom is stronger than that of O1 atom, which again indicates that Fe-O2 bond is more strongly interacted than Fe-O1 bond and inhibits Fe-O2 bond dissociation. To explain the transition state of CO2 dissociation, the electronic structure is analyzed in more detail. As shown in Fig. 6b, the charge density difference of CO2 dissociation transition states over the θ-Fe3C(031) surface shows that the O part accumulates more charge than the CO part, indicating that carbon dioxide dissociation is a hetero-cleavage reaction. The reaction mechanism is that carbon dioxide achieves charge redistribution through interaction with the θ-Fe3C(031) surface, the charge of CO part is transferred to the O part, causing more charges to accumulate in the O part and destroying the C-O bond. Table 1 lists the atomic bader charges of transition states in CO2 dissociation over θ-Fe3C(031) surface, agrees with the obtained results shown in Fig. 6b. Moreover, the charge of C-O1 dissociated transition state (-1.23 δ − ) is more than that of C-O2 dissociated transition state (-1.21 δ − ), indicating that the energy barrier of C-O1 dissociated bond is reduced due to the transfer of more electrons from θ-Fe3C(031) surface. In Fig. 6c, electron localization function (ELF) map of CO2 dissociation transition states over the θ-Fe3C(031) surface shows that the electrons are highly confined to the O-C-O atoms. The ELF is 0.5 between the broken C-O bonds, indicating that there is still covalent interaction between C-O bonds. Initial activation and conversion of carbon dioxide In order to understand the initial activation and conversion process of CO2 over the θ-Fe3C(031) surface, three possible initial conversion paths were considered, including dissociation directly, hydrogenation to HCOO* as well as hydrogenation to COOH*. Fig. 7 shows the energy diagrams of the three initial transformation reaction paths, and the corresponding key structural parameters are shown in Table 2 -4. The reaction energy barrier of the CO2* dissociation directly into O* and CO* over the θ-Fe3C(031) surface is 0.24 eV, and the reaction energy (exothermic) is -1.53 eV, indicating that the CO2* direct dissociation is relatively easy in kinetics and thermodynamics, which is similar to previously reported results [32]. For the HCOO* intermediate, the C-H bond is formed by neighboring hydrogen atoms attacking the C atoms of the stably adsorbed carbon dioxide. The energy barrier for the hydrogenation of CO2* to HCOO* intermediate is 0.83 eV, and the reaction energy (endothermic) is 0.47 eV. In addition, COOH* is formed by hydrogen atoms adsorbed on the catalyst surface attacking oxygen atoms of carbon dioxide, which process with a high activation energy of 1.31 eV and reaction energy of 0.41 eV. The above results show that the initial conversion of carbon dioxide over the θ-Fe3C(031) surface is mainly through dissociation directly as well as hydrogenation to HCOO* intermediate. The forming processes of O-H bond and C-H bond are distinctly different thermodynamics and dynamics. This difference can be explained by COHP and charge density difference. The negative projection COHPs (-pCOHPs) of the C-H and O-H bond interaction strengths in the COOH* and HCOO* transition states formed by carbon dioxide hydrogenation are shown in Fig. 5b. The positive values of -pCOHP represent bonding interaction and negative values represent antibonding interaction. The -pCOHP integral below the Fermi level of the HCOO* transition state is -1.20 eV, which is smaller than the -pCOHP integral (-1.04 eV) of the COOH* transition state, which means that the formation of HCOO* transition state is more robust than that of the COOH* transition state, which is consistent with the results of reaction energy barrier. In Fig. 8 , the charge density difference shows that the charge transfer properties for O-H bond and C-H bond generated by carbon dioxide hydrogenation over the θ-Fe3C(031) surface are different. More electrons (-1.265 δ − ) were transferred from the θ-Fe3C(031) surface to the transition state of HCOO* than to the COOH* transition state (-1.065 δ − ), which suggests that the former has a stronger interaction with the catalyst than the latter. These electronic properties well explain the difference in the reaction energy barrier for the formation of O-H and C-H bonds during the hydrogenation of carbon dioxide. In addition, the trend of CO hydrogenation over θ-Fe3C(031) surface also is the similar. Previous studies have shown that the C-H bond is stronger than the O-H bond during CO2 hydrogenation, and that hydrogenation at C atoms produces a lower potential barrier than at the O atoms of CO2 or CO. Therefore, HCOO* intermediates can be formed more easily than COOH* [8,39]. Mechanism of carbon monoxide formation Carbon monoxide formation by carbon dioxide hydrogenation is a typical RWGS conversion reaction. The carbon monoxide produced can be synthesized by Fischer-Tropsch to produce value-added chemical products [25]. We have analyzed two reaction mechanisms of carbon dioxide hydrogenation to carbon monoxide on θ-Fe3C(031) surface, including CO2* direct dissociation and formation via COOH* intermediate. The crucial structure factors are listed in Table 2 and Table 3 , and the relevant reaction transition states are shown in Fig. S3 and Fig. S4. In the reaction pathway of CO2 direct dissociation, carbon monoxide is formed by carbon dioxide direct breaking of the C-O bond from CO2. During direct dissociation into CO* and O* transition states, the O1 atom moves to the adjacent Fe-Fe bridge site, and the length of the C-O1 bond is extended to 1.65 Å from 1.32 Å. The resulting O* migrates to the most stably adsorbed site and is eventually hydrogenated to form OH* and H2O*. In another carbon monoxide formation pathway with COOH* as the main intermediate, COOH* can be cleaved to CO* and OH* with 0.62 eV reaction energy barrier. However, COOH* formation needs to overcome a higher reaction energy barrier, so this reaction pathway is unfavorable compared with CO2 direct dissociation. The production of carbon monoxide competes with its further conversion. Therefore, we further studied the reaction energy (exothermic) and energy barrier for direct dissociation of CO2*, HCO* and COH* intermediates generated by carbon monoxide hydrogenation. In Fig. 9 , the energy barriers for the three reaction pathways are 1.24 eV, 1.20 eV and 1.96 eV, respectively. In addition, the CO* desorption has an energy barrier of 0.80 eV, which is lower than the energy barrier for further transformation, so the CO* intermediate tends to desorb directly after formation. Therefore, the rate control step of carbon monoxide formation over θ-Fe3C(031) surface is desorption of CO* intermediate. Mechanism of methane formation Carbon dioxide Hydrogenation over the elemental metal iron catalyst often produces a large amount of methane [40–43]. In this section, the complete reaction paths of CO2 hydrogenation to methane through CO* and HCOO* intermediates are analyzed in detail. In Table 2 and Table 4 , the key structural parameters in the reaction transition states are listed, and the relevant reaction transition states are shown in Fig. S5. In the CO2 direct dissociation path, CH4 is continuously hydrogenated through C* formed by breaking C-O bond of CO* intermediate. Huo et al. reported the formation of CH4 by CO2 hydrogenation on a variety of iron-carbon compounds, as listed in Table S1. Among them, the pathway for the generation of CH4 via hydrogenation on C atoms over Fe3C(001) is similar to our work, and their results indicate an effective potential barrier of 1.98 eV for the generation of CH4 [44]. The formation of CH4 from CO* intermediates through HCO* and COH* is thermodynamically and kinetically unfavorable. Specifically, the formation energy barriers are 1.20 and 1.96 eV for HCO* and COH*, respectively, and both of them are endothermic reactions with 0.89 and 0.98 eV reaction energies, respectively. After CO* is dissociated into C*, H* adsorbed by θ-Fe3C(031) surface continuously attacks C* to form CH*, CH2* and CH3* until CH4 is formed. CH* is also a key surface species for the formation of high carbon hydrocarbons. The reaction energy diagram of carbon dioxide forming methane through CO* intermediate is shown in Fig. 10 . In this reaction pathway, the rate control step in the CH* formation is the decomposition of CO* into atomic C*, whose reaction energy barrier is 1.24 eV. The effective barrier is decided from the gradually C* hydrogenation to form CH3*, which is 2.99 eV. Similar to previously reported results (2.29 eV) [31]. Another reaction pathway that forms CH4 is the conversion of carbon dioxide through HCOO* intermediates to CHx* species, and then continuous hydrogenation to produce methane, which is shown in the corresponding energy profile in Fig. 11 . The intermediate adsorption structure as well as the transition state lattice structure are shown in the Supplementary material Fig. SI. The reaction energy barrier for the hydrogenation of carbon dioxide to HCOO* is intermediate, which is 0.83 eV, as shown in Fig. 7. Therefore, different conversion modes of HCOO* are further studied, that is, HCOO* was directly dissociated into HCO* and O*, and hydrogenated into intermediates of HCOOH* as well as H2COO*. HCOO* hydrogenation to HCOOH* and H2COO* have a high reaction energy barrier and high reaction energy. In detail, HCOO* hydrogenation to HCOOH* requires to overcoming a reactive energy barrier of 2.05 eV and an endotherm of 1.47 eV, as shown in Fig. S6. The HCOO* hydrogenation to H2COO* requires overcoming a slightly lower reaction energy barrier (1.88 eV) compared to HCOOH*. Therefore, we subsequently do not consider the HCOO to HCOOH micromovement model. And the endothermic of this reaction is 0.55 eV. The HCOO* direct dissociation to HCO* and O* is thermodynamically favorable with an exothermic energy of -1.11 eV, and a reaction energy barrier of 0.76 eV, which is very low compared to the other two reaction energy barriers. The HCO* produced by the reaction tends to be directly dissociated to form CH*, rather than hydrogenated to form H2CO*. The energy barrier of HCO* direct dissociation is 0.69 eV and exothermic 1.48 eV. The CH* continues to hydrogenate to form methane. In this reaction pathway, the rate control step in the forming of CH* monomer is the carbon dioxide oxygenation to generate HCOO*, while the active energy barrier of methane formation is 2.47 eV. By comparing the two reaction pathways, the results show that the methane production effective energy barrier is lower than that of the direct dissociation of CO2 in the reaction pathway with HCOO* as the main intermediate. Therefore, the dominant reaction pathway of carbon dioxide hydrogenation to methane over the θ-Fe3C(031) surface is CO2* → HCOO* → HCO* → CH* → CH2* → CH3* → CH4*. Mechanism of C2 hydrocarbon generation In the traditional Fischer-Tropsch synthesis reaction, CH* and CH2* are the key intermediates for the synthesis of high carbon hydrocarbons [45,46]. The results in Section 3.4 show that CH* is the most critical monomer of C1 species over the θ-Fe3C(031) surface. This section further studies all possible elementary reactions for the synthesis of C2 hydrocarbons. Table 4 lists the elemental reaction energy barrier and reaction heat involving the forming of C2 hydrocarbons over the θ-Fe3C(031) surface. The corresponding intermediate adsorption structure is shown in the Supplementary material Fig. S5. There are two possibilities for the initial C-C bond formation over the θ-Fe3C(031) surface, which are CH* + CH* and CH2* + CH2 *, the latter of which has a slightly lower energy barrier. Yet, because of the high energy barrier and reaction energy (exothermic) of CH* hydrogenation to CH2*, the two will compete with each other under actual reaction conditions. In addition, the high coupling energy barrier of CH2* and CH3* is not conducive to the occurrence on the catalyst surface. Therefore, the Table 4 indicates that the ethylene formation and its further hydrogenation to ethane over the θ-Fe3C(031) surface are endothermic reactions, and the effective energy barrier is significantly higher than that of methane. Microkinetic modeling The selectivity of the reaction products cannot be determined by the reaction energy barrier alone, and the detailed reaction rate needs to be analyzed in combination with the microkinetic model [47,48]. Therefore, the steady state approximations and mean field were used to construct a microkinetic modeling to analyze the relativity selectivity of critical products. The key parameters applied for the microkinetic modeling, the activation barriers, the reaction energies, the forward and reverse pre-exponential factors of the primitive reactions, are listed in Table 5 . The corresponding temperature in the model is set to 623 K, which is same as the experimental conditions [12]. The total pressure is set to 40 bar, and the partial pressures of CO2, H2 and other small molecules are set to 10 bar, 30 bar, and 0.001 bar, respectively. The coverage distribution of the key species such as H*, O*, OH* and C* over θ-Fe3C(031) surface at different temperatures is shown in Fig. 12a . The surface coverage (ML, mono layer) of each species determines the reaction rate of each primitive, and thus affects the relative selectivity of the products. The theoretical results show that the active sites over the θ-Fe3C(031) surface are mainly occupied by these species. It can be seen in Fig. 12a that the surface coverage of H* decreases as the temperature increases, that of O* and OH* remains basically unchanged, and that of C* increases with increasing temperature. H* occupies the largest surface coverage, indicating that the catalyst has a good hydrogenation capacity. In order to investigate the relative selectivity of carbon dioxide hydrogenation products over θ-Fe3C(031) surface, the TOF of the main product of carbon dioxide hydrogenation at different temperatures was calculated. As the temperature increases, the TOF of each product increases, as shown in Fig. 12b. Among them, carbon monoxide is the most selective. The microkinetic simulation results show that the surface coverage of CO is up to 95 %. Due to the coverage effect, the adsorption energy of CO decreases with the increase of CO coverage, as shown in Fig. S7. This is the main reason for the higher production rate of CO. The effect of surface O atoms on CO adsorption is not considered in this process. Because the reaction energy barrier for O* hydrogenation (1.63 eV) is smaller than that for CO desorption (2.08 eV), it indicates that the O* hydrogenation reaction occurs preferentially, resulting in a lower O* coverage, and therefore has little effect on CO adsorption. The selectivity of ethylene and methane is basically similar. In detail, the ethylene selectivity is higher than that of methane at low temperature, while the selectivity of methane gradually increases with increasing temperature, and even exceeds that of ethylene. Ethane has the lowest selectivity. Combined with the conclusion in Section 3.2, the direct carbon dioxide dissociation over the θ-Fe3C(031) surface has a lower energy barrier, indicating that the major product of CO2 hydrogenation is CO. Therefore, θ-Fe3C(031) surface is a good catalyst for reverse water gas conversion. Conclusions We systematically studied the reaction pathways of CO2 hydrogenation to methane, ethylene, ethane, and carbon monoxide over the θ-Fe3C(031) surface by first-principles calculations and microkinetic modeling. Combined with DOS, charge density difference and ELF electron structure analysis, it is proved that CO2* prefers to directly dissociate and form CO* intermediates over the θ-Fe3C(031). Because of the high energy barrier of the next step of CO* hydrogenation conversion, it tends to desorb to form carbon monoxide rather than further conversion to hydrocarbons. The complete reaction pathway calculation shows that after CHx* formation from HCOO* by CO2, the effective energy barrier for the intermediate desorption of CO* to CO is lowest compared to carbon-carbon coupling to ethylene and ethane as well as further hydrogenation to methane. Therefore, the major product of CO2 hydrogenation is CO over the θ-Fe3C(031) surface rather than hydrocarbons. A complete reaction network is constructed by combining the microkinetic modeling. It is found that the coverage of H* species on the θ-Fe3C(031) is higher compared to other species, which could effectively inhibit the further oxidation of the catalyst. Therefore, the catalyst has good stability under reaction conditions. In addition, the results of microkinetic modeling show that CO has the highest relative selectivity, which also confirms the trend of reaction energy barrier. CRediT authorship contribution statement Yuan Liu: Writing – original draft, Methodology, Formal analysis, Conceptualization. Yuhuan Ye: Methodology, Data curation. Yudan Li: Visualization, Data curation. Haolin Du: Investigation, Data curation. Zexiang Yin: Methodology, Formal analysis. Mianfeng Li: Software, Formal analysis. Zhong Huang: Writing – review & editing, Investigation. Xuerong Zheng: Writing – review & editing, Supervision. Haozhi Wang: Writing – review & editing, Visualization, Resources, Project administration, Formal analysis, Conceptualization. Yang Wang: Writing – review & editing, Supervision. Yida Deng: Writing – review & editing, Visualization, Supervision, Resources, Conceptualization. Declaration of competing interest The authors declare that they have no known competing financial interests or personal relationships that could have appeared to influence the work reported in this paper. Acknowledgments This work was financially supported by National Natural Science Foundation of China (52301011, 52231008, 52142304, 52177220, U23A200767, 52302236, and 22369005), the Key Research and Development Program of Hainan Province (ZDYF2022GXJS006), Hainan Provincial Natural Science Foundation of China (524QN226 and 524QN222), Starting Research Fund from the Hainan University (KYQD(ZR)23026 ), International Science & Technology Cooperation Program of Hainan Province (GHYF2023007). and TianHe Qingsuo open research fund of TSYS in 2022 & NSCC-TJ. We gratefully acknowledge HZWTECH for providing computation facilities. Supplementary materials Supplementary material associated with this article can be found, in the online version, at doi:10.1016/j.mcat.2024.113947. Appendix B Supplementary materials Image, application 1 Appendix A. Supplementary data Supplementary material related to this article can be found online at References [1] N.Mac Dowell P.S. Fennell N. Shah G.C. Maitland The role of CO2 capture and utilization in mitigating climate change Nat. Clim. Change 7 2017 243 249 N.Mac Dowell, P.S. Fennell, N. Shah, G.C. Maitland, The role of CO2 capture and utilization in mitigating climate change, Nat. Clim. Change 7 (2017) 243–249. [2] F. Polo-Garzon V. Fung L. Nguyen Y. Tang F. Tao Y. Cheng L.L. Daemen A.J. Ramirez-Cuesta G.S. Foo M. Zhu I.E. Wachs D.E. Jiang Z. Wu Elucidation of the reaction mechanism for high-temperature water gas shift over an industrial-type copper-chromium-iron oxide catalyst J. Am. Chem. Soc. 141 2019 7990 7999 F. Polo-Garzon, V. Fung, L. Nguyen, Y. Tang, F. Tao, Y. Cheng, L.L. Daemen, A.J. Ramirez-Cuesta, G.S. Foo, M. Zhu, I.E. Wachs, D.E. Jiang, Z. Wu, Elucidation of the reaction mechanism for high-temperature water gas shift over an industrial-type copper-chromium-iron oxide catalyst, J. Am. Chem. Soc. 141 (2019) 7990–7999. [3] A. Otto T. Grube S. Schiebahn D. Stolten Closing the loop: captured CO2 as a feedstock in the chemical industry Energy Environ. Sci. 8 2015 3283 3297 A. Otto, T. Grube, S. Schiebahn, D. Stolten, Closing the loop: captured CO2 as a feedstock in the chemical industry, Energy Environ. Sci. 8 (2015) 3283–3297. [4] D. Xu K. Li B. Jia W. Sun W. Zhang X. Liu T. Ma Electrocatalytic CO2 reduction towards industrial applications Carbon Energy 5 2022 e230 D. Xu, K. Li, B. Jia, W. Sun, W. Zhang, X. Liu, T. Ma, Electrocatalytic CO2 reduction towards industrial applications, Carbon Energy 5 (2022) e230. [5] M.D. Garba M. Usman S. Khan F. Shehzad A. Galadima M.F. Ehsan A.S. Ghanem M. Humayun CO2 towards fuels: a review of catalytic conversion of carbon dioxide to hydrocarbons J. Environ. Chem. Eng. 9 2021 104756 M.D. Garba, M. Usman, S. Khan, F. Shehzad, A. Galadima, M.F. Ehsan, A.S. Ghanem, M. Humayun, CO2 towards fuels: a review of catalytic conversion of carbon dioxide to hydrocarbons, J. Environ. Chem. Eng. 9 (2021) 104756. [6] S. Saeidi S. Najari F. Fazlollahi M.K. Nikoo F. Sefidkon J.J. Klemeš L.L. Baxter Mechanisms and kinetics of CO2 hydrogenation to value-added products: a detailed review on current status and future trends Renew. Sust. Energy Rev. 80 2017 1292 1311 S. Saeidi, S. Najari, F. Fazlollahi, M.K. Nikoo, F. Sefidkon, J.J. Klemeš, L.L. Baxter, Mechanisms and kinetics of CO2 hydrogenation to value-added products: a detailed review on current status and future trends, Renew. Sust. Energy Rev. 80 (2017) 1292–1311. [7] M. Amoyal R. Vidruk-Nehemya M.V. Landau M. Herskowitz Effect of potassium on the active phases of Fe catalysts for carbon dioxide conversion to liquid fuels through hydrogenation J. Catal. 348 2017 29 39 M. Amoyal, R. Vidruk-Nehemya, M.V. Landau, M. Herskowitz, Effect of potassium on the active phases of Fe catalysts for carbon dioxide conversion to liquid fuels through hydrogenation, J. Catal. 348 (2017) 29–39. [8] H. Wang X. Nie Y. Liu M.J. Janik X. Han Y. Deng W. Hu C. Song X. Guo Mechanistic insight into hydrocarbon synthesis via CO2 hydrogenation on χ-Fe5C2 catalysts ACS Appl. Mater. Interfaces 14 2022 37637 37651 H. Wang, X. Nie, Y. Liu, M.J. Janik, X. Han, Y. Deng, W. Hu, C. Song, X. Guo, Mechanistic insight into hydrocarbon synthesis via CO2 hydrogenation on χ-Fe5C2 catalysts, ACS Appl. Mater. Interfaces 14 (2022) 37637–37651. [9] G. Huang G. Lin Q. Niu J. Bi L. Wu Covalent triazine-based frameworks confining cobalt single atoms for photocatalytic CO2 reduction and hydrogen production J. Mater. Sci. Technol. 116 2022 41 49 G. Huang, G. Lin, Q. Niu, J. Bi, L. Wu, Covalent triazine-based frameworks confining cobalt single atoms for photocatalytic CO2 reduction and hydrogen production, J. Mater. Sci. Technol. 116 (2022) 41–49. [10] X. Yu X. Zhang Y. Meng Y. Zhao Y. Li W. Xu Z. Liu CO adsorption, dissociation and coupling formation mechanisms on Fe2C(001) surface Appl. Surf. Sci. 434 2018 464 472 X. Yu, X. Zhang, Y. Meng, Y. Zhao, Y. Li, W. Xu, Z. Liu, CO adsorption, dissociation and coupling formation mechanisms on Fe2C(001) surface, Appl. Surf. Sci. 434 (2018) 464–472. [11] Y. Zhang D. Fu X. Liu Z. Zhang C. Zhang B. Shi J. Xu Y.-F. Han Operando spectroscopic study of dynamic structure of iron oxide catalysts during CO2 hydrogenation ChemCatChem 10 2018 1272 1276 Y. Zhang, D. Fu, X. Liu, Z. Zhang, C. Zhang, B. Shi, J. Xu, Y.-F. Han, Operando spectroscopic study of dynamic structure of iron oxide catalysts during CO2 hydrogenation, ChemCatChem, 10 (2018) 1272–1276. [12] J. Zhu X.B. Zhang G.H. Zhang R.T. Li W.H. Li Thomas P. Senftle W. Liu J.Y. Wang Y.L. Wang A.F. Zhang Q. Fu C.S. Song X.W. Guo Dynamic structural evolution of iron catalysts involving competitive oxidation and carburization during CO2 hydrogenation Sci. Adv. 8 2022 3629 J. Zhu, X.B. Zhang, G.H. Zhang, R.T. Li, W.H. Li, Thomas P. Senftle, W. Liu, J.Y. Wang, Y.L. Wang, A.F. Zhang, Q. Fu, C.S. Song, X.W. Guo, Dynamic structural evolution of iron catalysts involving competitive oxidation and carburization during CO2 hydrogenation, Sci. Adv. 8 (2022) 3629. [13] X. Nie L. Meng H. Wang Y. Chen X. Guo C. Song DFT insight into the effect of potassium on the adsorption, activation and dissociation of CO2 over Fe-based catalysts Phys. Chem. Chem. Phys. 20 2018 14694 14707 X. Nie, L. Meng, H. Wang, Y. Chen, X. Guo, C. Song, DFT insight into the effect of potassium on the adsorption, activation and dissociation of CO2 over Fe-based catalysts, Phys. Chem. Chem. Phys. 20 (2018) 14694–14707. [14] K. Lu D. Luo Y. He C.-F. Huo Y. Zhou W.P. Guo Q. Peng Y. Yang Y.W. Li X.D. Wen Sintering enhances turn-over frequency of nanoparticles: a case study of FexCy catalyst using reactive MD simulations Appl. Surf. Sci. 2021 570 K. Lu, D. Luo, Y. He, C.-F. Huo, Y. Zhou, W.P. Guo, Q. Peng, Y. Yang, Y.W. Li, X.D. Wen, Sintering enhances turn-over frequency of nanoparticles: a case study of FexCy catalyst using reactive MD simulations, Appl. Surf. Sci. 570 (2021). [15] Y. Meng X. Liu Y. Ma X. Gao X. Wen Investigation of water gas shift reactivity on Fe5C2 (111): a DFT study Mol. Catal. 529 2022 112538 Y. Meng, X. Liu, Y. Ma, X. Gao, X. Wen, Investigation of water gas shift reactivity on Fe5C2 (111): a DFT study, Mol. Catal.. 529 (2022) 112538. [16] H. Wang X. Nie X. Guo C. Song A computational study of adsorption and activation of CO2 and H2 over Fe(100) surface J. CO2 Util. 15 2016 107 114 H. Wang, X. Nie, X. Guo, C. Song, A computational study of adsorption and activation of CO2 and H2 over Fe(100) surface, J. CO2 Util.. 15 (2016) 107–114. [17] H. Wang X. Nie Y. Chen X. Guo C. Song Facet effect on CO2 adsorption, dissociation and hydrogenation over Fe catalysts: insight from DFT J. CO2 Util. 26 2018 160 170 H. Wang, X. Nie, Y. Chen, X. Guo, C. Song, Facet effect on CO2 adsorption, dissociation and hydrogenation over Fe catalysts: insight from DFT, J. CO2 Util.. 26 (2018) 160–170. [18] Z. Fu J. Wang N. Zhang Y. An Z. Yang Effect of Cu doping on the catalytic activity of Fe3O4 in water-gas shift reactions Int. J. Hydrog. Energy 40 2015 2193 2198 Z. Fu, J. Wang, N. Zhang, Y. An, Z. Yang, Effect of Cu doping on the catalytic activity of Fe3O4 in water-gas shift reactions, Int. J. Hydrog. Energy 40 (2015) 2193–2198. [19] L. Huang B. Han Q. Zhang M. Fan H. Cheng Mechanistic study on water gas shift reaction on the Fe3O4(111) reconstructed surface J. Phys. Chem. C 119 2015 28934 28945 L. Huang, B. Han, Q. Zhang, M. Fan, H. Cheng, Mechanistic study on water gas shift reaction on the Fe3O4(111) reconstructed surface, J. Phys. Chem. C 119 (2015) 28934–28945. [20] P. Zhai C. Xu R. Gao X. Liu M. Li W. Li X. Fu C. Jia J. Xie M. Zhao X. Wang Y.W. Li Q. Zhang X.D. Wen D. Ma Highly tunable selectivity for syngas-derived alkenes over zinc and sodium-modulated Fe5C2 catalyst Angew. Chem. Int. Ed. Engl 55 2016 9902 9907 P. Zhai, C. Xu, R. Gao, X. Liu, M. Li, W. Li, X. Fu, C. Jia, J. Xie, M. Zhao, X. Wang, Y.W. Li, Q. Zhang, X.D. Wen, D. Ma, Highly tunable selectivity for syngas-derived alkenes over zinc and sodium-modulated Fe5C2 catalyst, Angew. Chem. Int. Ed. Engl. 55 (2016) 9902–9907. [21] H.P.U. Lindner XPS and ISS characterization of potassium or copper containing Fe/Mn oxide catalysts for Fischer-Tropsch synthesis Appl. Surf. Sci. 32 1988 75 92 H.P.U. Lindner, XPS and ISS characterization of potassium or copper containing Fe/Mn oxide catalysts for Fischer-Tropsch synthesis, Appl. Surf. Sci. 32 (1988) 75–92. [22] T. Li X. Wen Y. Yang Y.-W. Li H. Jiao Mechanistic aspects of CO activation and C–C bond formation on the Fe/C- and Fe-terminated Fe3C(010) surfaces ACS Catal. 10 2019 877 890 T. Li, X. Wen, Y. Yang, Y.-W. Li, H. Jiao, Mechanistic aspects of CO activation and C–C bond formation on the Fe/C- and Fe-terminated Fe3C(010) surfaces, ACS Catal.. 10 (2019) 877–890. [23] Y. Liu P.R. Murthy X. Zhang H. Wang C. Shi Phase transformation of iron oxide to carbide and Fe3C as an active center for the RWGS reaction New J. Chem. 45 2021 22444 22449 Y. Liu, P.R. Murthy, X. Zhang, H. Wang, C. Shi, Phase transformation of iron oxide to carbide and Fe3C as an active center for the RWGS reaction New J. Chem. 45 (2021) 22444–22449. [24] T. Herranz S. Rojas F. Perezalonso M. Ojeda P. Terreros J. Fierro Genesis of iron carbides and their role in the synthesis of hydrocarbons from synthesis gas J. Catal. 243 2006 199 211 T. Herranz, S. Rojas, F. Perezalonso, M. Ojeda, P. Terreros, J. Fierro, Genesis of iron carbides and their role in the synthesis of hydrocarbons from synthesis gas, J. Catal. 243 (2006) 199–211. [25] G. Kresse J. Hafner Ab initio molecular dynamics for open-shell transition metals Phys. Rev. B Condens Matter 48 1993 13115 13118 G. Kresse, J. Hafner, Ab initio molecular dynamics for open-shell transition metals, Phys. Rev. B Condens Matter, 48 (1993) 13115–13118. [26] D.J.G. Kresse Efficient iterative schemes for ab initio total-energy calculations using a plane-wave basis set Phys. Rev. B Condens Matter 54 1996 11169 11186 D.J.G. Kresse, Efficient iterative schemes for ab initio total-energy calculations using a plane-wave basis set, Phys. Rev. B Condens Matter, 54 (1996) 11169–11186. [27] K.B. John P. Perdew Matthiaa Ernzerhof Generalized gradient approximation made simple Phys. Rev. Lett. 77 1996 3865 3868 K.B. John P. Perdew, Matthiaa Ernzerhof, Generalized gradient approximation made simple, Phys. Rev. Lett. 77 (1996) 3865–3868. [28] D.J.G. Kresse From ultrasoft pseudopotentials to the projector augmented-wave method Phys. Rev. B Condens Matter 59 1999 1758 1775 D.J.G. Kresse, From ultrasoft pseudopotentials to the projector augmented-wave method, Phys. Rev. B Condens Matter, 59 (1999) 1758–1775. [29] B.P.U. Graeme Henkelman Hannes Jo´nsson A climbing image nudged elastic band method for finding saddle points and minimum energy paths J. Chem. Phys. 113 2000 9901 9904 B.P.U. Graeme Henkelman, Hannes Jo´nsson, A climbing image nudged elastic band method for finding saddle points and minimum energy paths, J. Chem. Phys. 113 (2000) 9901–9904. [30] G. Henkelman A. Arnaldsson H. Jónsson A fast and robust algorithm for Bader decomposition of charge density Comp. Mater. Sci. 36 2006 354 360 G. Henkelman, A. Arnaldsson, H. Jónsson, A fast and robust algorithm for Bader decomposition of charge density, Comp. Mater. Sci. 36 (2006) 354–360. [31] Y. Wang Y. Li S. Huang J. Wang H. Wang J. Lv X. Ma Insight into CH4 formation and chain growth mechanism of Fischer−Tropsch synthesis on θ-Fe3C(031) Chem. Phys. Lett. 682 2017 115 121 Y. Wang, Y. Li, S. Huang, J. Wang, H. Wang, J. Lv, X. Ma, Insight into CH4 formation and chain growth mechanism of Fischer−Tropsch synthesis on θ-Fe3C(031), Chem. Phys. Lett. 682 (2017) 115–121. [32] X. Liu C. Cao P. Tian M. Zhu Y. Zhang J. Xu Y. Tian Y.-F. Han Resolving CO2 activation and hydrogenation pathways over iron carbides from DFT investigation J. CO2 Util. 38 2020 10 15 X. Liu, C. Cao, P. Tian, M. Zhu, Y. Zhang, J. Xu, Y. Tian, Y.-F. Han, Resolving CO2 activation and hydrogenation pathways over iron carbides from DFT investigation, J. CO2 Util. 38 (2020) 10–15. [33] S. Grimme J. Antony S. Ehrlich H. Krieg A consistent and accurate ab initio parametrization of density functional dispersion correction (DFT-D) for the 94 elements H-Pu J. Chem. Phys. 132 2010 154104 S. Grimme, J. Antony, S. Ehrlich, H. Krieg, A consistent and accurate ab initio parametrization of density functional dispersion correction (DFT-D) for the 94 elements H-Pu, J. Chem. Phys. 132 (2010) 154104. [34] S. Grimme Accurate description of van der Waals complexes by density functional theory including empirical corrections J. Comput. Chem. 25 2004 1463 1473 S. Grimme, Accurate description of van der Waals complexes by density functional theory including empirical corrections, J. Comput. Chem. 25 (2004) 1463–1473. [35] S. Grimme Semiempirical GGA-type density functional constructed with a long-range dispersion correction J. Comput. Chem. 27 2006 1787 1799 S. Grimme, Semiempirical GGA-type density functional constructed with a long-range dispersion correction, J. Comput. Chem. 27 (2006) 1787–1799. [36] E.R. Johnson I.D. Mackie G.A. DiLabio Dispersion interactions in density-functional theory J. Phys. Org. Chem. 22 2009 1127 1135 E.R. Johnson, I.D. Mackie, G.A. DiLabio, Dispersion interactions in density-functional theory, J. Phys. Org. Chem. 22 (2009) 1127–1135. [37] G.A. Landrum R. Dronskowski The orbital origins of magnetism: from atoms to molecules to ferromagnetic alloys Angew Chem. Int. Ed. Engl. 39 2000 1560 1585 G.A. Landrum, R. Dronskowski, The orbital origins of magnetism: from atoms to molecules to ferromagnetic alloys, Angew Chem. Int. Ed. Engl. 39 (2000) 1560–1585. [38] S. Steinberg R. Dronskowski The crystal orbital hamilton population (COHP) method as a tool to visualize and analyze chemical bonding in intermetallic compounds Crystals 8 2018 225 S. Steinberg, R. Dronskowski, The crystal orbital hamilton population (COHP) method as a tool to visualize and analyze chemical bonding in intermetallic compounds, Crystals 8 (2018) 225. [39] Q. Chen X. Chen Q. Ke Mechanism of CO2 hydrogenation to methanol on the W-doped Rh(111) surface unveiled by first-principles calculation Colloid. Surf. A. 2022 638 Q. Chen, X. Chen, Q. Ke, Mechanism of CO2 hydrogenation to methanol on the W-doped Rh(111) surface unveiled by first-principles calculation, Colloid. Surf. A. 638 (2022). [40] W. Li H. Wang X. Jiang J. Zhu Z. Liu X. Guo C. Song A short review of recent advances in CO2 hydrogenation to hydrocarbons over heterogeneous catalysts RSC Adv. 8 2018 7651 7669 W. Li, H. Wang, X. Jiang, J. Zhu, Z. Liu, X. Guo, C. Song, A short review of recent advances in CO2 hydrogenation to hydrocarbons over heterogeneous catalysts, RSC Adv.. 8 (2018) 7651–7669. [41] J. Liu A. Zhang M. Liu S. Hu F. Ding C. Song X. Guo Fe-MOF-derived highly active catalysts for carbon dioxide hydrogenation to valuable hydrocarbons J. CO2 Util. 21 2017 100 107 J. Liu, A. Zhang, M. Liu, S. Hu, F. Ding, C. Song, X. Guo, Fe-MOF-derived highly active catalysts for carbon dioxide hydrogenation to valuable hydrocarbons, J. CO2 Util.. 21 (2017) 100–107. [42] J. Liu Y. Sun X. Jiang A. Zhang C. Song X. Guo Pyrolyzing ZIF-8 to N-doped porous carbon facilitated by iron and potassium for CO2 hydrogenation to value-added hydrocarbons J. CO2 Util. 25 2018 120 127 J. Liu, Y. Sun, X. Jiang, A. Zhang, C. Song, X. Guo, Pyrolyzing ZIF-8 to N-doped porous carbon facilitated by iron and potassium for CO2 hydrogenation to value-added hydrocarbons, J. CO2 Util.. 25 (2018) 120–127. [43] S. Hu M. Liu F. Ding C. Song G. Zhang X. Guo Hydrothermally stable MOFs for CO2 hydrogenation over iron-based catalyst to light olefins J. CO2 Util. 15 2016 89 95 S. Hu, M. Liu, F. Ding, C. Song, G. Zhang, X. Guo, Hydrothermally stable MOFs for CO2 hydrogenation over iron-based catalyst to light olefins, J. CO2 Util.. 15 (2016) 89–95. [44] L.Y.W.H. Chun Fang W. Jian Guo J. Hai Jun Insight into CH4 formation in iron-catalyzed Fischer-Tropsch synthesis J. Am. Chem. Soc. 131 2009 14713 14721 L.Y.W.H. Chun Fang, W. Jian Guo, J. Hai Jun, Insight into CH4 formation in iron-catalyzed Fischer-Tropsch synthesis, J. Am. Chem. Soc. 131 (2009) 14713–14721. [45] T.H. Pham Y. Qi J. Yang X. Duan G. Qian X. Zhou D. Chen W. Yuan Insights into Hägg iron-carbide-catalyzed Fischer–Tropsch synthesis: suppression of CH4 formation and enhancement of C–C coupling on χ-Fe5C2 (510) ACS Catal 5 2015 2203 2208 T.H. Pham, Y. Qi, J. Yang, X. Duan, G. Qian, X. Zhou, D. Chen, W. Yuan, Insights into Hägg iron-carbide-catalyzed Fischer–Tropsch synthesis: suppression of CH4 formation and enhancement of C–C coupling on χ-Fe5C2 (510), ACS Catal. 5 (2015) 2203–2208. [46] Y. Lu R. Zhang B. Cao B. Ge F.F. Tao J. Shan L. Nguyen Z. Bao T. Wu J.W. Pote B. Wang F. Yu Elucidating the copper–Hägg iron carbide synergistic interactions for selective CO hydrogenation to higher alcohols ACS Catal. 7 2017 5500 5512 Y. Lu, R. Zhang, B. Cao, B. Ge, F.F. Tao, J. Shan, L. Nguyen, Z. Bao, T. Wu, J.W. Pote, B. Wang, F. Yu, Elucidating the copper–Hägg iron carbide synergistic interactions for selective CO hydrogenation to higher alcohols, ACS Catal.. 7 (2017) 5500–5512. [47] A. Baz S.T. Dix A. Holewinski S. Linic Microkinetic modeling in electrocatalysis: applications, limitations, and recommendations for reliable mechanistic insights J. Catal. 404 2021 864 872 A. Baz, S.T. Dix, A. Holewinski, S. Linic, Microkinetic modeling in electrocatalysis: applications, limitations, and recommendations for reliable mechanistic insights, J. Catal. 404 (2021) 864–872. [48] J.Y. Zhang F.Z. Dai Z.P. Sun W.Z. Zhang Structures and energetics of semicoherent interfaces of precipitates in hcp/bcc systems: a molecular dynamics study J. Mater. Sci. Technol. 67 2021 50 60 J.Y. Zhang, F.Z. Dai, Z.P. Sun, W.Z. Zhang, Structures and energetics of semicoherent interfaces of precipitates in hcp/bcc systems: a molecular dynamics study, J. Mater. Sci. Technol. 67 (2021) 50–60.",
+      "scopus-id": "85187287829",
+      "coredata": {
+        "eid": "1-s2.0-S2468823124001305",
+        "dc:description": "Catalytic conversion of carbon dioxide into high-value compounds is a promising strategy for reducing carbon dioxide emissions. In the reduction of CO2 to hydrocarbons, the active point and reaction mechanism of iron-based catalysts are still unclear. Here, we systematically investigated the complete reaction path of carbon dioxide hydrogenation to methane, ethylene, ethane, and carbon monoxide over the θ-Fe3C(031) surface using first principles calculations. The electronic structure analysis shows that carbon dioxide tends to dissociate directly on the θ-Fe3C(031) surface to form CO* instead of COOH* and HCOO* intermediates. Due to the high energy barrier for CO* hydrogenation, it tends to desorb forming CO product instead of further transformation into hydrocarbons. In addition, the microkinetic model proved that the H* species coverage on the θ-Fe3C(031) crystal surface is highly, which could effectively inhibit the further oxidation of the catalyst, indicating the catalyst to be highly stable. Meanwhile, carbon monoxide behaved the highest relative selectivity. These results reveal the key intermediates and reaction paths of carbon dioxide hydrogenation over θ-Fe3C(031) catalyst surface and further illustrate the key factors affecting its product selectivity, providing a theoretical basis and guidance for the design and synthesis of the catalyst.",
+        "openArchiveArticle": "false",
+        "prism:coverDate": "2024-03-01",
+        "openaccessUserLicense": null,
+        "prism:aggregationType": "Journal",
+        "prism:url": "https://api.elsevier.com/content/article/pii/S2468823124001305",
+        "dc:creator": [
+          {
+            "@_fa": "true",
+            "$": "Liu, Yuan"
+          },
+          {
+            "@_fa": "true",
+            "$": "Ye, Yuhuan"
+          },
+          {
+            "@_fa": "true",
+            "$": "Li, Yudan"
+          },
+          {
+            "@_fa": "true",
+            "$": "Du, Haolin"
+          },
+          {
+            "@_fa": "true",
+            "$": "Yin, Zexiang"
+          },
+          {
+            "@_fa": "true",
+            "$": "Li, Mianfeng"
+          },
+          {
+            "@_fa": "true",
+            "$": "Huang, Zhong"
+          },
+          {
+            "@_fa": "true",
+            "$": "Zheng, Xuerong"
+          },
+          {
+            "@_fa": "true",
+            "$": "Wang, Haozhi"
+          },
+          {
+            "@_fa": "true",
+            "$": "Wang, Yang"
+          },
+          {
+            "@_fa": "true",
+            "$": "Deng, Yida"
+          }
+        ],
+        "link": [
+          {
+            "@_fa": "true",
+            "@rel": "self",
+            "@href": "https://api.elsevier.com/content/article/pii/S2468823124001305"
+          },
+          {
+            "@_fa": "true",
+            "@rel": "scidir",
+            "@href": "https://www.sciencedirect.com/science/article/pii/S2468823124001305"
+          }
+        ],
+        "dc:format": "application/json",
+        "openaccessType": null,
+        "pii": "S2468-8231(24)00130-5",
+        "prism:volume": "556",
+        "articleNumber": "113947",
+        "prism:publisher": "Elsevier B.V.",
+        "dc:title": "Mechanism of CO2 hydrogenation over θ-Fe3C catalyst: First-principles calculations combined with micro-kinetic modeling",
+        "prism:copyright": "© 2024 Elsevier B.V. All rights reserved.",
+        "openaccess": "0",
+        "prism:issn": "24688231",
+        "dcterms:subject": [
+          {
+            "@_fa": "true",
+            "$": "Carbon dioxide hydrogenation"
+          },
+          {
+            "@_fa": "true",
+            "$": "Hydrocarbons"
+          },
+          {
+            "@_fa": "true",
+            "$": "θ-Fe3C"
+          },
+          {
+            "@_fa": "true",
+            "$": "Density functional theory"
+          },
+          {
+            "@_fa": "true",
+            "$": "Microkinetic modeling"
+          }
+        ],
+        "openaccessArticle": "false",
+        "prism:publicationName": "Molecular Catalysis",
+        "openaccessSponsorType": null,
+        "prism:pageRange": "113947",
+        "pubType": "fla",
+        "prism:coverDisplayDate": "1 March 2024",
+        "prism:doi": "10.1016/j.mcat.2024.113947",
+        "prism:startingPage": "113947",
+        "dc:identifier": "doi:10.1016/j.mcat.2024.113947",
+        "openaccessSponsorName": null
+      },
+      "objects": {
+        "object": [
+          {
+            "@category": "standard",
+            "@height": "200",
+            "@width": "361",
+            "@_fa": "true",
+            "$": "https://api.elsevier.com/content/object/eid/1-s2.0-S2468823124001305-ga1.jpg?httpAccept=%2A%2F%2A",
+            "@multimediatype": "JPEG image file",
+            "@type": "IMAGE-DOWNSAMPLED",
+            "@size": "32299",
+            "@ref": "ga1",
+            "@mimetype": "image/jpeg"
+          },
+          {
+            "@category": "standard",
+            "@height": "330",
+            "@width": "489",
+            "@_fa": "true",
+            "$": "https://api.elsevier.com/content/object/eid/1-s2.0-S2468823124001305-gr5.jpg?httpAccept=%2A%2F%2A",
+            "@multimediatype": "JPEG image file",
+            "@type": "IMAGE-DOWNSAMPLED",
+            "@size": "39132",
+            "@ref": "gr5",
+            "@mimetype": "image/jpeg"
+          },
+          {
+            "@category": "standard",
+            "@height": "289",
+            "@width": "602",
+            "@_fa": "true",
+            "$": "https://api.elsevier.com/content/object/eid/1-s2.0-S2468823124001305-gr6.jpg?httpAccept=%2A%2F%2A",
+            "@multimediatype": "JPEG image file",
+            "@type": "IMAGE-DOWNSAMPLED",
+            "@size": "74443",
+            "@ref": "gr6",
+            "@mimetype": "image/jpeg"
+          },
+          {
+            "@category": "standard",
+            "@height": "301",
+            "@width": "433",
+            "@_fa": "true",
+            "$": "https://api.elsevier.com/content/object/eid/1-s2.0-S2468823124001305-gr7.jpg?httpAccept=%2A%2F%2A",
+            "@multimediatype": "JPEG image file",
+            "@type": "IMAGE-DOWNSAMPLED",
+            "@size": "45329",
+            "@ref": "gr7",
+            "@mimetype": "image/jpeg"
+          },
+          {
+            "@category": "standard",
+            "@height": "115",
+            "@width": "489",
+            "@_fa": "true",
+            "$": "https://api.elsevier.com/content/object/eid/1-s2.0-S2468823124001305-gr8.jpg?httpAccept=%2A%2F%2A",
+            "@multimediatype": "JPEG image file",
+            "@type": "IMAGE-DOWNSAMPLED",
+            "@size": "36552",
+            "@ref": "gr8",
+            "@mimetype": "image/jpeg"
+          },
+          {
+            "@category": "standard",
+            "@height": "317",
+            "@width": "433",
+            "@_fa": "true",
+            "$": "https://api.elsevier.com/content/object/eid/1-s2.0-S2468823124001305-gr9.jpg?httpAccept=%2A%2F%2A",
+            "@multimediatype": "JPEG image file",
+            "@type": "IMAGE-DOWNSAMPLED",
+            "@size": "45395",
+            "@ref": "gr9",
+            "@mimetype": "image/jpeg"
+          },
+          {
+            "@category": "standard",
+            "@height": "203",
+            "@width": "339",
+            "@_fa": "true",
+            "$": "https://api.elsevier.com/content/object/eid/1-s2.0-S2468823124001305-gr1.jpg?httpAccept=%2A%2F%2A",
+            "@multimediatype": "JPEG image file",
+            "@type": "IMAGE-DOWNSAMPLED",
+            "@size": "40431",
+            "@ref": "gr1",
+            "@mimetype": "image/jpeg"
+          },
+          {
+            "@category": "standard",
+            "@height": "240",
+            "@width": "489",
+            "@_fa": "true",
+            "$": "https://api.elsevier.com/content/object/eid/1-s2.0-S2468823124001305-gr2.jpg?httpAccept=%2A%2F%2A",
+            "@multimediatype": "JPEG image file",
+            "@type": "IMAGE-DOWNSAMPLED",
+            "@size": "18338",
+            "@ref": "gr2",
+            "@mimetype": "image/jpeg"
+          },
+          {
+            "@category": "standard",
+            "@height": "398",
+            "@width": "734",
+            "@_fa": "true",
+            "$": "https://api.elsevier.com/content/object/eid/1-s2.0-S2468823124001305-gr3.jpg?httpAccept=%2A%2F%2A",
+            "@multimediatype": "JPEG image file",
+            "@type": "IMAGE-DOWNSAMPLED",
+            "@size": "142576",
+            "@ref": "gr3",
+            "@mimetype": "image/jpeg"
+          },
+          {
+            "@category": "standard",
+            "@height": "231",
+            "@width": "339",
+            "@_fa": "true",
+            "$": "https://api.elsevier.com/content/object/eid/1-s2.0-S2468823124001305-gr4.jpg?httpAccept=%2A%2F%2A",
+            "@multimediatype": "JPEG image file",
+            "@type": "IMAGE-DOWNSAMPLED",
+            "@size": "34021",
+            "@ref": "gr4",
+            "@mimetype": "image/jpeg"
+          },
+          {
+            "@category": "standard",
+            "@height": "232",
+            "@width": "527",
+            "@_fa": "true",
+            "$": "https://api.elsevier.com/content/object/eid/1-s2.0-S2468823124001305-gr12.jpg?httpAccept=%2A%2F%2A",
+            "@multimediatype": "JPEG image file",
+            "@type": "IMAGE-DOWNSAMPLED",
+            "@size": "37076",
+            "@ref": "gr12",
+            "@mimetype": "image/jpeg"
+          },
+          {
+            "@category": "standard",
+            "@height": "259",
+            "@width": "618",
+            "@_fa": "true",
+            "$": "https://api.elsevier.com/content/object/eid/1-s2.0-S2468823124001305-gr10.jpg?httpAccept=%2A%2F%2A",
+            "@multimediatype": "JPEG image file",
+            "@type": "IMAGE-DOWNSAMPLED",
+            "@size": "29339",
+            "@ref": "gr10",
+            "@mimetype": "image/jpeg"
+          },
+          {
+            "@category": "standard",
+            "@height": "320",
+            "@width": "621",
+            "@_fa": "true",
+            "$": "https://api.elsevier.com/content/object/eid/1-s2.0-S2468823124001305-gr11.jpg?httpAccept=%2A%2F%2A",
+            "@multimediatype": "JPEG image file",
+            "@type": "IMAGE-DOWNSAMPLED",
+            "@size": "58163",
+            "@ref": "gr11",
+            "@mimetype": "image/jpeg"
+          },
+          {
+            "@category": "thumbnail",
+            "@height": "121",
+            "@width": "219",
+            "@_fa": "true",
+            "$": "https://api.elsevier.com/content/object/eid/1-s2.0-S2468823124001305-ga1.sml?httpAccept=%2A%2F%2A",
+            "@multimediatype": "GIF image file",
+            "@type": "IMAGE-THUMBNAIL",
+            "@size": "14697",
+            "@ref": "ga1",
+            "@mimetype": "image/gif"
+          },
+          {
+            "@category": "thumbnail",
+            "@height": "148",
+            "@width": "219",
+            "@_fa": "true",
+            "$": "https://api.elsevier.com/content/object/eid/1-s2.0-S2468823124001305-gr5.sml?httpAccept=%2A%2F%2A",
+            "@multimediatype": "GIF image file",
+            "@type": "IMAGE-THUMBNAIL",
+            "@size": "9893",
+            "@ref": "gr5",
+            "@mimetype": "image/gif"
+          },
+          {
+            "@category": "thumbnail",
+            "@height": "105",
+            "@width": "219",
+            "@_fa": "true",
+            "$": "https://api.elsevier.com/content/object/eid/1-s2.0-S2468823124001305-gr6.sml?httpAccept=%2A%2F%2A",
+            "@multimediatype": "GIF image file",
+            "@type": "IMAGE-THUMBNAIL",
+            "@size": "16740",
+            "@ref": "gr6",
+            "@mimetype": "image/gif"
+          },
+          {
+            "@category": "thumbnail",
+            "@height": "152",
+            "@width": "219",
+            "@_fa": "true",
+            "$": "https://api.elsevier.com/content/object/eid/1-s2.0-S2468823124001305-gr7.sml?httpAccept=%2A%2F%2A",
+            "@multimediatype": "GIF image file",
+            "@type": "IMAGE-THUMBNAIL",
+            "@size": "15293",
+            "@ref": "gr7",
+            "@mimetype": "image/gif"
+          },
+          {
+            "@category": "thumbnail",
+            "@height": "51",
+            "@width": "219",
+            "@_fa": "true",
+            "$": "https://api.elsevier.com/content/object/eid/1-s2.0-S2468823124001305-gr8.sml?httpAccept=%2A%2F%2A",
+            "@multimediatype": "GIF image file",
+            "@type": "IMAGE-THUMBNAIL",
+            "@size": "10597",
+            "@ref": "gr8",
+            "@mimetype": "image/gif"
+          },
+          {
+            "@category": "thumbnail",
+            "@height": "160",
+            "@width": "219",
+            "@_fa": "true",
+            "$": "https://api.elsevier.com/content/object/eid/1-s2.0-S2468823124001305-gr9.sml?httpAccept=%2A%2F%2A",
+            "@multimediatype": "GIF image file",
+            "@type": "IMAGE-THUMBNAIL",
+            "@size": "16464",
+            "@ref": "gr9",
+            "@mimetype": "image/gif"
+          },
+          {
+            "@category": "thumbnail",
+            "@height": "131",
+            "@width": "219",
+            "@_fa": "true",
+            "$": "https://api.elsevier.com/content/object/eid/1-s2.0-S2468823124001305-gr1.sml?httpAccept=%2A%2F%2A",
+            "@multimediatype": "GIF image file",
+            "@type": "IMAGE-THUMBNAIL",
+            "@size": "22505",
+            "@ref": "gr1",
+            "@mimetype": "image/gif"
+          },
+          {
+            "@category": "thumbnail",
+            "@height": "108",
+            "@width": "219",
+            "@_fa": "true",
+            "$": "https://api.elsevier.com/content/object/eid/1-s2.0-S2468823124001305-gr2.sml?httpAccept=%2A%2F%2A",
+            "@multimediatype": "GIF image file",
+            "@type": "IMAGE-THUMBNAIL",
+            "@size": "4450",
+            "@ref": "gr2",
+            "@mimetype": "image/gif"
+          },
+          {
+            "@category": "thumbnail",
+            "@height": "119",
+            "@width": "219",
+            "@_fa": "true",
+            "$": "https://api.elsevier.com/content/object/eid/1-s2.0-S2468823124001305-gr3.sml?httpAccept=%2A%2F%2A",
+            "@multimediatype": "GIF image file",
+            "@type": "IMAGE-THUMBNAIL",
+            "@size": "19696",
+            "@ref": "gr3",
+            "@mimetype": "image/gif"
+          },
+          {
+            "@category": "thumbnail",
+            "@height": "149",
+            "@width": "219",
+            "@_fa": "true",
+            "$": "https://api.elsevier.com/content/object/eid/1-s2.0-S2468823124001305-gr4.sml?httpAccept=%2A%2F%2A",
+            "@multimediatype": "GIF image file",
+            "@type": "IMAGE-THUMBNAIL",
+            "@size": "15778",
+            "@ref": "gr4",
+            "@mimetype": "image/gif"
+          },
+          {
+            "@category": "thumbnail",
+            "@height": "96",
+            "@width": "219",
+            "@_fa": "true",
+            "$": "https://api.elsevier.com/content/object/eid/1-s2.0-S2468823124001305-gr12.sml?httpAccept=%2A%2F%2A",
+            "@multimediatype": "GIF image file",
+            "@type": "IMAGE-THUMBNAIL",
+            "@size": "9219",
+            "@ref": "gr12",
+            "@mimetype": "image/gif"
+          },
+          {
+            "@category": "thumbnail",
+            "@height": "92",
+            "@width": "219",
+            "@_fa": "true",
+            "$": "https://api.elsevier.com/content/object/eid/1-s2.0-S2468823124001305-gr10.sml?httpAccept=%2A%2F%2A",
+            "@multimediatype": "GIF image file",
+            "@type": "IMAGE-THUMBNAIL",
+            "@size": "5103",
+            "@ref": "gr10",
+            "@mimetype": "image/gif"
+          },
+          {
+            "@category": "thumbnail",
+            "@height": "113",
+            "@width": "219",
+            "@_fa": "true",
+            "$": "https://api.elsevier.com/content/object/eid/1-s2.0-S2468823124001305-gr11.sml?httpAccept=%2A%2F%2A",
+            "@multimediatype": "GIF image file",
+            "@type": "IMAGE-THUMBNAIL",
+            "@size": "8028",
+            "@ref": "gr11",
+            "@mimetype": "image/gif"
+          },
+          {
+            "@category": "high",
+            "@height": "886",
+            "@width": "1598",
+            "@_fa": "true",
+            "$": "https://api.elsevier.com/content/object/eid/1-s2.0-S2468823124001305-ga1_lrg.jpg?httpAccept=%2A%2F%2A",
+            "@multimediatype": "JPEG image file",
+            "@type": "IMAGE-HIGH-RES",
+            "@size": "265604",
+            "@ref": "ga1",
+            "@mimetype": "image/jpeg"
+          },
+          {
+            "@category": "high",
+            "@height": "1464",
+            "@width": "2167",
+            "@_fa": "true",
+            "$": "https://api.elsevier.com/content/object/eid/1-s2.0-S2468823124001305-gr5_lrg.jpg?httpAccept=%2A%2F%2A",
+            "@multimediatype": "JPEG image file",
+            "@type": "IMAGE-HIGH-RES",
+            "@size": "226361",
+            "@ref": "gr5",
+            "@mimetype": "image/jpeg"
+          },
+          {
+            "@category": "high",
+            "@height": "1279",
+            "@width": "2667",
+            "@_fa": "true",
+            "$": "https://api.elsevier.com/content/object/eid/1-s2.0-S2468823124001305-gr6_lrg.jpg?httpAccept=%2A%2F%2A",
+            "@multimediatype": "JPEG image file",
+            "@type": "IMAGE-HIGH-RES",
+            "@size": "554912",
+            "@ref": "gr6",
+            "@mimetype": "image/jpeg"
+          },
+          {
+            "@category": "high",
+            "@height": "1334",
+            "@width": "1917",
+            "@_fa": "true",
+            "$": "https://api.elsevier.com/content/object/eid/1-s2.0-S2468823124001305-gr7_lrg.jpg?httpAccept=%2A%2F%2A",
+            "@multimediatype": "JPEG image file",
+            "@type": "IMAGE-HIGH-RES",
+            "@size": "338699",
+            "@ref": "gr7",
+            "@mimetype": "image/jpeg"
+          },
+          {
+            "@category": "high",
+            "@height": "509",
+            "@width": "2167",
+            "@_fa": "true",
+            "$": "https://api.elsevier.com/content/object/eid/1-s2.0-S2468823124001305-gr8_lrg.jpg?httpAccept=%2A%2F%2A",
+            "@multimediatype": "JPEG image file",
+            "@type": "IMAGE-HIGH-RES",
+            "@size": "282468",
+            "@ref": "gr8",
+            "@mimetype": "image/jpeg"
+          },
+          {
+            "@category": "high",
+            "@height": "1404",
+            "@width": "1917",
+            "@_fa": "true",
+            "$": "https://api.elsevier.com/content/object/eid/1-s2.0-S2468823124001305-gr9_lrg.jpg?httpAccept=%2A%2F%2A",
+            "@multimediatype": "JPEG image file",
+            "@type": "IMAGE-HIGH-RES",
+            "@size": "324990",
+            "@ref": "gr9",
+            "@mimetype": "image/jpeg"
+          },
+          {
+            "@category": "high",
+            "@height": "900",
+            "@width": "1500",
+            "@_fa": "true",
+            "$": "https://api.elsevier.com/content/object/eid/1-s2.0-S2468823124001305-gr1_lrg.jpg?httpAccept=%2A%2F%2A",
+            "@multimediatype": "JPEG image file",
+            "@type": "IMAGE-HIGH-RES",
+            "@size": "352991",
+            "@ref": "gr1",
+            "@mimetype": "image/jpeg"
+          },
+          {
+            "@category": "high",
+            "@height": "1064",
+            "@width": "2167",
+            "@_fa": "true",
+            "$": "https://api.elsevier.com/content/object/eid/1-s2.0-S2468823124001305-gr2_lrg.jpg?httpAccept=%2A%2F%2A",
+            "@multimediatype": "JPEG image file",
+            "@type": "IMAGE-HIGH-RES",
+            "@size": "130990",
+            "@ref": "gr2",
+            "@mimetype": "image/jpeg"
+          },
+          {
+            "@category": "high",
+            "@height": "1764",
+            "@width": "3250",
+            "@_fa": "true",
+            "$": "https://api.elsevier.com/content/object/eid/1-s2.0-S2468823124001305-gr3_lrg.jpg?httpAccept=%2A%2F%2A",
+            "@multimediatype": "JPEG image file",
+            "@type": "IMAGE-HIGH-RES",
+            "@size": "1176421",
+            "@ref": "gr3",
+            "@mimetype": "image/jpeg"
+          },
+          {
+            "@category": "high",
+            "@height": "1021",
+            "@width": "1500",
+            "@_fa": "true",
+            "$": "https://api.elsevier.com/content/object/eid/1-s2.0-S2468823124001305-gr4_lrg.jpg?httpAccept=%2A%2F%2A",
+            "@multimediatype": "JPEG image file",
+            "@type": "IMAGE-HIGH-RES",
+            "@size": "263925",
+            "@ref": "gr4",
+            "@mimetype": "image/jpeg"
+          },
+          {
+            "@category": "high",
+            "@height": "1027",
+            "@width": "2333",
+            "@_fa": "true",
+            "$": "https://api.elsevier.com/content/object/eid/1-s2.0-S2468823124001305-gr12_lrg.jpg?httpAccept=%2A%2F%2A",
+            "@multimediatype": "JPEG image file",
+            "@type": "IMAGE-HIGH-RES",
+            "@size": "275900",
+            "@ref": "gr12",
+            "@mimetype": "image/jpeg"
+          },
+          {
+            "@category": "high",
+            "@height": "1148",
+            "@width": "2738",
+            "@_fa": "true",
+            "$": "https://api.elsevier.com/content/object/eid/1-s2.0-S2468823124001305-gr10_lrg.jpg?httpAccept=%2A%2F%2A",
+            "@multimediatype": "JPEG image file",
+            "@type": "IMAGE-HIGH-RES",
+            "@size": "227154",
+            "@ref": "gr10",
+            "@mimetype": "image/jpeg"
+          },
+          {
+            "@category": "high",
+            "@height": "1417",
+            "@width": "2750",
+            "@_fa": "true",
+            "$": "https://api.elsevier.com/content/object/eid/1-s2.0-S2468823124001305-gr11_lrg.jpg?httpAccept=%2A%2F%2A",
+            "@multimediatype": "JPEG image file",
+            "@type": "IMAGE-HIGH-RES",
+            "@size": "371517",
+            "@ref": "gr11",
+            "@mimetype": "image/jpeg"
+          },
+          {
+            "@category": "standard",
+            "@_fa": "true",
+            "$": "https://api.elsevier.com/content/object/eid/1-s2.0-S2468823124001305-mmc1.docx?httpAccept=%2A%2F%2A",
+            "@multimediatype": "Microsoft Word file",
+            "@type": "APPLICATION",
+            "@size": "8120230",
+            "@ref": "mmc1",
+            "@mimetype": "application/word"
+          },
+          {
+            "@category": "thumbnail",
+            "@_fa": "true",
+            "$": "https://api.elsevier.com/content/object/eid/1-s2.0-S2468823124001305-si1.svg?httpAccept=%2A%2F%2A",
+            "@multimediatype": "Scalable Vector Graphics file",
+            "@type": "ALTIMG",
+            "@size": "1526",
+            "@ref": "si1",
+            "@mimetype": "image/svg+xml"
+          },
+          {
+            "@category": "thumbnail",
+            "@_fa": "true",
+            "$": "https://api.elsevier.com/content/object/eid/1-s2.0-S2468823124001305-si2.svg?httpAccept=%2A%2F%2A",
+            "@multimediatype": "Scalable Vector Graphics file",
+            "@type": "ALTIMG",
+            "@size": "10361",
+            "@ref": "si2",
+            "@mimetype": "image/svg+xml"
+          },
+          {
+            "@category": "standard",
+            "@_fa": "true",
+            "$": "https://api.elsevier.com/content/object/eid/1-s2.0-S2468823124001305-am.pdf?httpAccept=%2A%2F%2A",
+            "@multimediatype": "Acrobat PDF file",
+            "@type": "AAM-PDF",
+            "@size": "1447301",
+            "@ref": "am",
+            "@mimetype": "application/pdf"
+          }
+        ]
+      },
+      "link": {
+        "@rel": "abstract",
+        "@href": "https://api.elsevier.com/content/abstract/scopus_id/85187287829"
+      }
+    }
+  }
+}

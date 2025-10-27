@@ -1,0 +1,920 @@
+{
+  "metadata": {
+    "title": "Investigation of the reaction kinetics for the direct hydrogenation of maleic anhydride to 1,4-butanediol over Cu-ZnO catalyst",
+    "authors": "; ; ",
+    "journal": "Molecular Catalysis",
+    "date": "2025-03-15",
+    "doi": "10.1016/j.mcat.2025.114908",
+    "abstract": "",
+    "uri": "https://api.elsevier.com/content/article/pii/S246882312500094X",
+    "pii": "S246882312500094X"
+  },
+  "fulltext": {
+    "full-text-retrieval-response": {
+      "scopus-eid": "2-s2.0-85217500223",
+      "originalText": "serial JL 315758 291210 291744 291790 291809 31 Molecular Catalysis MOLECULARCATALYSIS 2025-02-11 2025-02-11 2025-02-11 2025-02-11 2025-02-24T11:55:43 1-s2.0-S246882312500094X S2468-8231(25)00094-X S246882312500094X 10.1016/j.mcat.2025.114908 S300 S300.1 FULL-TEXT 1-s2.0-S2468823125X0002X 2025-02-24T12:08:20.171812Z 0 0 20250315 2025 2025-02-11T07:27:03.538512Z absattachment articleinfo articlenumber articletitlenorm authfirstinitialnorm authfirstsurnamenorm cid cids contenttype copyright crossmark dateloaded dateloadedtxt datesearch datesort dateupdated dco docsubtype doctype doi eid ewtransactionid hubeid indexeddate issn issnnorm itemstage itemtransactionid itemweight openaccess openarchive pg pgfirst pii piinorm pubdatestart pubdatetxt pubyr sectiontitle sortorder srctitle srctitlenorm srctype ssids alllist content subj subheadings suppl tomb volfirst volissue volumelist webpdf webpdfpagecount yearnav figure table e-component body mmlmath acknowledge affil appendices articletitle auth authfirstini authfull authkeywords authlast highlightsabst primabst ref specialabst 2468-8231 24688231 true 575 575 C Volume 575 9 114908 114908 114908 20250315 15 March 2025 2025-03-15 2025 Regular Papers article fla © 2025 Elsevier B.V. All rights are reserved, including those for text and data mining, AI training, and similar technologies. INVESTIGATIONREACTIONKINETICSFORDIRECTHYDROGENATIONMALEICANHYDRIDE14BUTANEDIOLOVERCUZNOCATALYST GUAN X 1 Introduction 2 Computational and experimental methods 2.1 Experimental methods 2.2 Computational methods 2.2.1 Computational model 2.2.2 Computational settings 3 Research results 3.1 Activity evaluation of the direct hydrogenation reaction of maleic anhydride 3 2 kMC calculation 3.2.1 Derivation of the reaction kinetic equations for the direct hydrogenation process of maleic anhydride 3.2.2 Reaction kinetics of the direct hydrogenation process of maleic anhydride on Cu211 surface 3.2.3 Reaction kinetics of the direct hydrogenation process of maleic anhydride at the Cu211-ZnO interface 4 Conclusion CRediT authorship contribution statement Acknowledgements Appendix Supplementary materials References SUN 2016 2579 2597 D HAAS 2005 83 88 T LI 2014 252 258 F ZHANG 2009 537 543 D XU 2024 121623 B FIGUEREDO 2021 1821 1833 A HARRIS 1990 79 82 N SHAO 2014 9638 9645 Z TAPIN 2014 127 133 B SILVA 2020 3057 3070 R MOKHTAR 2001 423 426 M SCHLANDER 1999 1264 1270 J HERRMANN 1997 2885 2896 U PILLAI 2002 422 423 U YU 2011 77 81 Y TAN 2019 9779 9787 J MEYER 2009 122 129 C GAO 2013 349 359 D JAVAID 2014 165 A ZHU 2005 183 190 Y CASTIGLIONI 1996 181 186 G MESSORI 1994 177 185 M HU 2007 193 199 T ZHANG 2008 176 182 D GUAN 2024 6488 6502 X HERRMANN 1998 285 295 U KUKSAL 2002 237 251 A KATTEL 2017 1296 S JANSEN 1997 99 123 A TURNER 2017 229 237 C MEI 2009 181 195 D ALFONSO 2014 7306 7313 D BONICKE 1994 231 238 I HINCH 1991 10 15 B PRATS 2016 75 83 H HENKELMAN 2017 199 216 G TANG 2009 114 122 Q NIELSEN 2013 J STAMATAKIS 2012 2648 2663 M BEHRENS 2012 893 897 M BAI 2013 G 14BUTANEDIOLTETRAHYDROFURANDERIVATIVES GUANX2025X114908 GUANX2025X114908XX 2027-02-11T00:00:00.000Z 2027-02-11T00:00:00.000Z http://creativecommons.org/licenses/by-nc-nd/4.0/ © 2025 Elsevier B.V. All rights are reserved, including those for text and data mining, AI training, and similar technologies. https://doi.org/10.15223/policy-017 https://doi.org/10.15223/policy-037 https://doi.org/10.15223/policy-012 https://doi.org/10.15223/policy-029 https://doi.org/10.15223/policy-004 item S2468-8231(25)00094-X S246882312500094X 1-s2.0-S246882312500094X 10.1016/j.mcat.2025.114908 315758 2025-02-24T12:08:20.171812Z 2025-03-15 1-s2.0-S246882312500094X-main.pdf https://s3-eu-west-1.amazonaws.com/prod-ucs-content-store-eu-west/content/pii:S246882312500094X/MAIN/application/pdf/1872887ac4a22d5aa0525627b7a300ff/main.pdf main.pdf pdf true 5381484 MAIN 11 1-s2.0-S246882312500094X-main_1.png https://s3-eu-west-1.amazonaws.com/prod-ucs-content-store-eu-west/content/pii:S246882312500094X/PREVIEW/image/png/52ee9af3405bb53c29bcd752b9f1ac27/main_1.png main_1.png png 56385 849 656 IMAGE-WEB-PDF 1 1-s2.0-S246882312500094X-gr1.jpg https://s3-eu-west-1.amazonaws.com/prod-ucs-content-store-eu-west/content/pii:S246882312500094X/gr1/DOWNSAMPLED/image/jpeg/20cc3b03be1b89f878c978172143028c/gr1.jpg gr1 gr1.jpg jpg 38975 431 678 IMAGE-DOWNSAMPLED 1-s2.0-S246882312500094X-gr5.jpg https://s3-eu-west-1.amazonaws.com/prod-ucs-content-store-eu-west/content/pii:S246882312500094X/gr5/DOWNSAMPLED/image/jpeg/887190ba60a08fa58a3332fd4cdc92db/gr5.jpg gr5 gr5.jpg jpg 44650 300 678 IMAGE-DOWNSAMPLED 1-s2.0-S246882312500094X-gr4.jpg https://s3-eu-west-1.amazonaws.com/prod-ucs-content-store-eu-west/content/pii:S246882312500094X/gr4/DOWNSAMPLED/image/jpeg/f785d1239df1e9957529d523a773e8af/gr4.jpg gr4 gr4.jpg jpg 44659 300 678 IMAGE-DOWNSAMPLED 1-s2.0-S246882312500094X-gr3.jpg https://s3-eu-west-1.amazonaws.com/prod-ucs-content-store-eu-west/content/pii:S246882312500094X/gr3/DOWNSAMPLED/image/jpeg/f98564ea63e49bfb8b1b3138dd43d93f/gr3.jpg gr3 gr3.jpg jpg 42862 307 678 IMAGE-DOWNSAMPLED 1-s2.0-S246882312500094X-gr2.jpg https://s3-eu-west-1.amazonaws.com/prod-ucs-content-store-eu-west/content/pii:S246882312500094X/gr2/DOWNSAMPLED/image/jpeg/92e399127cca657677149b06f1256779/gr2.jpg gr2 gr2.jpg jpg 170898 454 678 IMAGE-DOWNSAMPLED 1-s2.0-S246882312500094X-ga1.jpg https://s3-eu-west-1.amazonaws.com/prod-ucs-content-store-eu-west/content/pii:S246882312500094X/ga1/DOWNSAMPLED/image/jpeg/eacf268a32488e78ced8509bfd3bc6de/ga1.jpg ga1 true ga1.jpg jpg 37855 200 349 IMAGE-DOWNSAMPLED 1-s2.0-S246882312500094X-gr7.jpg https://s3-eu-west-1.amazonaws.com/prod-ucs-content-store-eu-west/content/pii:S246882312500094X/gr7/DOWNSAMPLED/image/jpeg/a5f5a6097351d38154e46827ce24c85c/gr7.jpg gr7 gr7.jpg jpg 65158 574 678 IMAGE-DOWNSAMPLED 1-s2.0-S246882312500094X-gr6.jpg https://s3-eu-west-1.amazonaws.com/prod-ucs-content-store-eu-west/content/pii:S246882312500094X/gr6/DOWNSAMPLED/image/jpeg/681db7852f54260bbc90b737983b3de4/gr6.jpg gr6 gr6.jpg jpg 46022 583 678 IMAGE-DOWNSAMPLED 1-s2.0-S246882312500094X-gr1.sml https://s3-eu-west-1.amazonaws.com/prod-ucs-content-store-eu-west/content/pii:S246882312500094X/gr1/THUMBNAIL/image/gif/86ba25ab2839447401ac8814c66daf8d/gr1.sml gr1 gr1.sml sml 7413 139 219 IMAGE-THUMBNAIL 1-s2.0-S246882312500094X-gr5.sml https://s3-eu-west-1.amazonaws.com/prod-ucs-content-store-eu-west/content/pii:S246882312500094X/gr5/THUMBNAIL/image/gif/984cd3feb4888703eb4bf75a655012ce/gr5.sml gr5 gr5.sml sml 7186 97 219 IMAGE-THUMBNAIL 1-s2.0-S246882312500094X-gr4.sml https://s3-eu-west-1.amazonaws.com/prod-ucs-content-store-eu-west/content/pii:S246882312500094X/gr4/THUMBNAIL/image/gif/6df3f1ccef4d6e945442281c30134761/gr4.sml gr4 gr4.sml sml 7228 97 219 IMAGE-THUMBNAIL 1-s2.0-S246882312500094X-gr3.sml https://s3-eu-west-1.amazonaws.com/prod-ucs-content-store-eu-west/content/pii:S246882312500094X/gr3/THUMBNAIL/image/gif/da4adbdfcea951216b8c32fdce0d33d3/gr3.sml gr3 gr3.sml sml 7087 99 219 IMAGE-THUMBNAIL 1-s2.0-S246882312500094X-gr2.sml https://s3-eu-west-1.amazonaws.com/prod-ucs-content-store-eu-west/content/pii:S246882312500094X/gr2/THUMBNAIL/image/gif/ce5b37b7526147e5fb814d8ac34a7c00/gr2.sml gr2 gr2.sml sml 25047 147 219 IMAGE-THUMBNAIL 1-s2.0-S246882312500094X-ga1.sml https://s3-eu-west-1.amazonaws.com/prod-ucs-content-store-eu-west/content/pii:S246882312500094X/ga1/THUMBNAIL/image/gif/5e50e8de9fe3de4763e347c3b239f931/ga1.sml ga1 true ga1.sml sml 21167 125 219 IMAGE-THUMBNAIL 1-s2.0-S246882312500094X-gr7.sml https://s3-eu-west-1.amazonaws.com/prod-ucs-content-store-eu-west/content/pii:S246882312500094X/gr7/THUMBNAIL/image/gif/93b16180074cb35b40d242796d978121/gr7.sml gr7 gr7.sml sml 12847 164 194 IMAGE-THUMBNAIL 1-s2.0-S246882312500094X-gr6.sml https://s3-eu-west-1.amazonaws.com/prod-ucs-content-store-eu-west/content/pii:S246882312500094X/gr6/THUMBNAIL/image/gif/0d4b22c1506f3147c405dd0fcf0a2ffa/gr6.sml gr6 gr6.sml sml 7576 163 190 IMAGE-THUMBNAIL 1-s2.0-S246882312500094X-gr1_lrg.jpg https://s3-eu-west-1.amazonaws.com/prod-ucs-content-store-eu-west/content/pii:S246882312500094X/HIGHRES/image/jpeg/a91668b457303dc2f8dc8d70b1473cc2/gr1_lrg.jpg gr1 gr1_lrg.jpg jpg 324786 1908 3000 IMAGE-HIGH-RES 1-s2.0-S246882312500094X-gr5_lrg.jpg https://s3-eu-west-1.amazonaws.com/prod-ucs-content-store-eu-west/content/pii:S246882312500094X/HIGHRES/image/jpeg/313047e40732a097f835729efd0e0be9/gr5_lrg.jpg gr5 gr5_lrg.jpg jpg 259723 1327 3000 IMAGE-HIGH-RES 1-s2.0-S246882312500094X-gr4_lrg.jpg https://s3-eu-west-1.amazonaws.com/prod-ucs-content-store-eu-west/content/pii:S246882312500094X/HIGHRES/image/jpeg/9acf5062effa61fc8d5459f6ece4fbf1/gr4_lrg.jpg gr4 gr4_lrg.jpg jpg 260103 1327 3000 IMAGE-HIGH-RES 1-s2.0-S246882312500094X-gr3_lrg.jpg https://s3-eu-west-1.amazonaws.com/prod-ucs-content-store-eu-west/content/pii:S246882312500094X/HIGHRES/image/jpeg/ee8c6d48b4e91510c100429bdcff0c6a/gr3_lrg.jpg gr3 gr3_lrg.jpg jpg 254109 1358 3000 IMAGE-HIGH-RES 1-s2.0-S246882312500094X-gr2_lrg.jpg https://s3-eu-west-1.amazonaws.com/prod-ucs-content-store-eu-west/content/pii:S246882312500094X/HIGHRES/image/jpeg/f2ca12ab61ff9783778e9a7f1516e833/gr2_lrg.jpg gr2 gr2_lrg.jpg jpg 1336643 2008 3000 IMAGE-HIGH-RES 1-s2.0-S246882312500094X-ga1_lrg.jpg https://s3-eu-west-1.amazonaws.com/prod-ucs-content-store-eu-west/content/pii:S246882312500094X/HIGHRES/image/jpeg/bb88e61e225f379dcf750737fd4060b2/ga1_lrg.jpg ga1 true ga1_lrg.jpg jpg 312429 886 1547 IMAGE-HIGH-RES 1-s2.0-S246882312500094X-gr7_lrg.jpg https://s3-eu-west-1.amazonaws.com/prod-ucs-content-store-eu-west/content/pii:S2468823125000811/HIGHRES/image/jpeg/ceb334dad0cb1804ec26b48e4b2965ef/gr7_lrg.jpg gr7 gr7_lrg.jpg jpg 431006 2539 3000 IMAGE-HIGH-RES 1-s2.0-S246882312500094X-gr6_lrg.jpg https://s3-eu-west-1.amazonaws.com/prod-ucs-content-store-eu-west/content/pii:S2468823125000811/HIGHRES/image/jpeg/20dfe8f03f90596598ae3ff34a5350b3/gr6_lrg.jpg gr6 gr6_lrg.jpg jpg 320033 2580 3000 IMAGE-HIGH-RES 1-s2.0-S246882312500094X-mmc1.docx https://s3-eu-west-1.amazonaws.com/prod-ucs-content-store-eu-west/content/pii:S246882312500094X/mmc1/MAIN/application/vnd.openxmlformats-officedocument.wordprocessingml.document/acdb48cfde89794b3216ed6eea5bc435/mmc1.docx mmc1 mmc1.docx docx 47148 APPLICATION 1-s2.0-S246882312500094X-si1.svg https://s3-eu-west-1.amazonaws.com/prod-ucs-content-store-eu-west/content/pii:S246882312500094X/image/svg+xml/5b20aa06f0a0a687203d7e7dc4bddf6c/si1.svg si1 si1.svg svg 850 ALTIMG 1-s2.0-S246882312500094X-si10.svg https://s3-eu-west-1.amazonaws.com/prod-ucs-content-store-eu-west/content/pii:S246882312500094X/image/svg+xml/66316990c022a48506438eaeaa817f92/si10.svg si10 si10.svg svg 8277 ALTIMG 1-s2.0-S246882312500094X-si11.svg https://s3-eu-west-1.amazonaws.com/prod-ucs-content-store-eu-west/content/pii:S246882312500094X/image/svg+xml/93935f0fac0ba813cc1440246584e980/si11.svg si11 si11.svg svg 10307 ALTIMG 1-s2.0-S246882312500094X-si12.svg https://s3-eu-west-1.amazonaws.com/prod-ucs-content-store-eu-west/content/pii:S246882312500094X/image/svg+xml/8e5b407f4574d8ede23fa0de736f9683/si12.svg si12 si12.svg svg 10461 ALTIMG 1-s2.0-S246882312500094X-si13.svg https://s3-eu-west-1.amazonaws.com/prod-ucs-content-store-eu-west/content/pii:S246882312500094X/image/svg+xml/87dd1be09abccdea7d870a0b2e6b322f/si13.svg si13 si13.svg svg 10507 ALTIMG 1-s2.0-S246882312500094X-si14.svg https://s3-eu-west-1.amazonaws.com/prod-ucs-content-store-eu-west/content/pii:S246882312500094X/image/svg+xml/364bda491018e243ae0d654e2dac5808/si14.svg si14 si14.svg svg 7273 ALTIMG 1-s2.0-S246882312500094X-si15.svg https://s3-eu-west-1.amazonaws.com/prod-ucs-content-store-eu-west/content/pii:S246882312500094X/image/svg+xml/ee04c98cc5b61c4040f3c1384462d5d7/si15.svg si15 si15.svg svg 6013 ALTIMG 1-s2.0-S246882312500094X-si16.svg https://s3-eu-west-1.amazonaws.com/prod-ucs-content-store-eu-west/content/pii:S246882312500094X/image/svg+xml/af5e20e38f6768249af324725b6fe1d2/si16.svg si16 si16.svg svg 7230 ALTIMG 1-s2.0-S246882312500094X-si17.svg https://s3-eu-west-1.amazonaws.com/prod-ucs-content-store-eu-west/content/pii:S246882312500094X/image/svg+xml/4dfda3ad2d7490e1cdaa1bc4735c6989/si17.svg si17 si17.svg svg 5805 ALTIMG 1-s2.0-S246882312500094X-si18.svg https://s3-eu-west-1.amazonaws.com/prod-ucs-content-store-eu-west/content/pii:S246882312500094X/image/svg+xml/c19c468d152210b2b81437228cc33f10/si18.svg si18 si18.svg svg 8701 ALTIMG 1-s2.0-S246882312500094X-si19.svg https://s3-eu-west-1.amazonaws.com/prod-ucs-content-store-eu-west/content/pii:S246882312500094X/image/svg+xml/9cabb1396af1225320a06614279cd85f/si19.svg si19 si19.svg svg 18661 ALTIMG 1-s2.0-S246882312500094X-si2.svg https://s3-eu-west-1.amazonaws.com/prod-ucs-content-store-eu-west/content/pii:S246882312500094X/image/svg+xml/e3ca353e138ec2ef94023d385380c1c0/si2.svg si2 si2.svg svg 850 ALTIMG 1-s2.0-S246882312500094X-si20.svg https://s3-eu-west-1.amazonaws.com/prod-ucs-content-store-eu-west/content/pii:S246882312500094X/image/svg+xml/0025cda373af2d47b807e06e49f76026/si20.svg si20 si20.svg svg 18660 ALTIMG 1-s2.0-S246882312500094X-si21.svg https://s3-eu-west-1.amazonaws.com/prod-ucs-content-store-eu-west/content/pii:S246882312500094X/image/svg+xml/aa52da5e9b1c847addc67ba6cfe36e18/si21.svg si21 si21.svg svg 15475 ALTIMG 1-s2.0-S246882312500094X-si22.svg https://s3-eu-west-1.amazonaws.com/prod-ucs-content-store-eu-west/content/pii:S246882312500094X/image/svg+xml/0e494ea636463a6df1f304e9cb40c736/si22.svg si22 si22.svg svg 16666 ALTIMG 1-s2.0-S246882312500094X-si23.svg https://s3-eu-west-1.amazonaws.com/prod-ucs-content-store-eu-west/content/pii:S246882312500094X/image/svg+xml/2666fdc60035b1f1f8e3e76a13cc7bce/si23.svg si23 si23.svg svg 2404 ALTIMG 1-s2.0-S246882312500094X-si24.svg https://s3-eu-west-1.amazonaws.com/prod-ucs-content-store-eu-west/content/pii:S246882312500094X/image/svg+xml/efdcc56efa4ab43614b25ec4cc6bd5f3/si24.svg si24 si24.svg svg 25277 ALTIMG 1-s2.0-S246882312500094X-si25.svg https://s3-eu-west-1.amazonaws.com/prod-ucs-content-store-eu-west/content/pii:S246882312500094X/image/svg+xml/9176c6c8c002f59ead2db5dc3ddbbebe/si25.svg si25 si25.svg svg 22172 ALTIMG 1-s2.0-S246882312500094X-si26.svg https://s3-eu-west-1.amazonaws.com/prod-ucs-content-store-eu-west/content/pii:S246882312500094X/image/svg+xml/29ff65943e393baeeeb34f09be0e5b98/si26.svg si26 si26.svg svg 22888 ALTIMG 1-s2.0-S246882312500094X-si27.svg https://s3-eu-west-1.amazonaws.com/prod-ucs-content-store-eu-west/content/pii:S246882312500094X/image/svg+xml/770514011cf302a2578a9ac9472822e6/si27.svg si27 si27.svg svg 12553 ALTIMG 1-s2.0-S246882312500094X-si28.svg https://s3-eu-west-1.amazonaws.com/prod-ucs-content-store-eu-west/content/pii:S246882312500094X/image/svg+xml/cb7e93951f10326dffeb207fad6daaca/si28.svg si28 si28.svg svg 12489 ALTIMG 1-s2.0-S246882312500094X-si29.svg https://s3-eu-west-1.amazonaws.com/prod-ucs-content-store-eu-west/content/pii:S246882312500094X/image/svg+xml/a8b60aad73a8b5f3bb6f9024b50a33cd/si29.svg si29 si29.svg svg 1227 ALTIMG 1-s2.0-S246882312500094X-si3.svg https://s3-eu-west-1.amazonaws.com/prod-ucs-content-store-eu-west/content/pii:S246882312500094X/image/svg+xml/b78425f9ff060dc69e443c0fe2a47803/si3.svg si3 si3.svg svg 1095 ALTIMG 1-s2.0-S246882312500094X-si30.svg https://s3-eu-west-1.amazonaws.com/prod-ucs-content-store-eu-west/content/pii:S246882312500094X/image/svg+xml/40aee1eeea1c029dd5e81cb26d3ce60a/si30.svg si30 si30.svg svg 3688 ALTIMG 1-s2.0-S246882312500094X-si31.svg https://s3-eu-west-1.amazonaws.com/prod-ucs-content-store-eu-west/content/pii:S246882312500094X/image/svg+xml/d66b07e5c5c0b2e4e998c0656c625c85/si31.svg si31 si31.svg svg 2030 ALTIMG 1-s2.0-S246882312500094X-si32.svg https://s3-eu-west-1.amazonaws.com/prod-ucs-content-store-eu-west/content/pii:S246882312500094X/image/svg+xml/c30416d670e45e7b449e3f9719ee030f/si32.svg si32 si32.svg svg 8990 ALTIMG 1-s2.0-S246882312500094X-si33.svg https://s3-eu-west-1.amazonaws.com/prod-ucs-content-store-eu-west/content/pii:S246882312500094X/image/svg+xml/77af0255f8b84c561c5e14f38160a7ea/si33.svg si33 si33.svg svg 951 ALTIMG 1-s2.0-S246882312500094X-si34.svg https://s3-eu-west-1.amazonaws.com/prod-ucs-content-store-eu-west/content/pii:S246882312500094X/image/svg+xml/e8c036826e8aab35024d489e99f1517e/si34.svg si34 si34.svg svg 2361 ALTIMG 1-s2.0-S246882312500094X-si35.svg https://s3-eu-west-1.amazonaws.com/prod-ucs-content-store-eu-west/content/pii:S246882312500094X/image/svg+xml/13898f2d7ac1f94e2cf5b2d2378fa513/si35.svg si35 si35.svg svg 8064 ALTIMG 1-s2.0-S246882312500094X-si36.svg https://s3-eu-west-1.amazonaws.com/prod-ucs-content-store-eu-west/content/pii:S246882312500094X/image/svg+xml/6a43852a037503c731c560b7e759a458/si36.svg si36 si36.svg svg 3184 ALTIMG 1-s2.0-S246882312500094X-si37.svg https://s3-eu-west-1.amazonaws.com/prod-ucs-content-store-eu-west/content/pii:S246882312500094X/image/svg+xml/7cd63e76e23b68600ebfcd18c345d73e/si37.svg si37 si37.svg svg 3235 ALTIMG 1-s2.0-S246882312500094X-si38.svg https://s3-eu-west-1.amazonaws.com/prod-ucs-content-store-eu-west/content/pii:S246882312500094X/image/svg+xml/59fec0315f4ac7fe36daa088be948fea/si38.svg si38 si38.svg svg 3827 ALTIMG 1-s2.0-S246882312500094X-si39.svg https://s3-eu-west-1.amazonaws.com/prod-ucs-content-store-eu-west/content/pii:S246882312500094X/image/svg+xml/3851a7d121d2c9a61c1eb2d5b16adb12/si39.svg si39 si39.svg svg 4151 ALTIMG 1-s2.0-S246882312500094X-si4.svg https://s3-eu-west-1.amazonaws.com/prod-ucs-content-store-eu-west/content/pii:S246882312500094X/image/svg+xml/5f047390558161d5fbc5d1e86047b781/si4.svg si4 si4.svg svg 6339 ALTIMG 1-s2.0-S246882312500094X-si40.svg https://s3-eu-west-1.amazonaws.com/prod-ucs-content-store-eu-west/content/pii:S246882312500094X/image/svg+xml/6bbc683b17f476f643345e39f19f51fc/si40.svg si40 si40.svg svg 3482 ALTIMG 1-s2.0-S246882312500094X-si41.svg https://s3-eu-west-1.amazonaws.com/prod-ucs-content-store-eu-west/content/pii:S246882312500094X/image/svg+xml/9facfbd794e8bc9e8b816b1c6a15ad33/si41.svg si41 si41.svg svg 3610 ALTIMG 1-s2.0-S246882312500094X-si42.svg https://s3-eu-west-1.amazonaws.com/prod-ucs-content-store-eu-west/content/pii:S246882312500094X/image/svg+xml/112181b0f7afc1bb2cc04418e3c7d906/si42.svg si42 si42.svg svg 1925 ALTIMG 1-s2.0-S246882312500094X-si43.svg https://s3-eu-west-1.amazonaws.com/prod-ucs-content-store-eu-west/content/pii:S246882312500094X/image/svg+xml/1f503c7551028fd76e2e7af341b5da73/si43.svg si43 si43.svg svg 9846 ALTIMG 1-s2.0-S246882312500094X-si44.svg https://s3-eu-west-1.amazonaws.com/prod-ucs-content-store-eu-west/content/pii:S246882312500094X/image/svg+xml/9e320113ba336363596856be290fc947/si44.svg si44 si44.svg svg 2777 ALTIMG 1-s2.0-S246882312500094X-si45.svg https://s3-eu-west-1.amazonaws.com/prod-ucs-content-store-eu-west/content/pii:S246882312500094X/image/svg+xml/67569479eecc3853e214823fbdf4a430/si45.svg si45 si45.svg svg 2276 ALTIMG 1-s2.0-S246882312500094X-si46.svg https://s3-eu-west-1.amazonaws.com/prod-ucs-content-store-eu-west/content/pii:S246882312500094X/image/svg+xml/6f3a0a5f1180620f9d58137e72e5e357/si46.svg si46 si46.svg svg 2511 ALTIMG 1-s2.0-S246882312500094X-si47.svg https://s3-eu-west-1.amazonaws.com/prod-ucs-content-store-eu-west/content/pii:S246882312500094X/image/svg+xml/2428cd2c51642f25742c5f9bb9e89f9b/si47.svg si47 si47.svg svg 2010 ALTIMG 1-s2.0-S246882312500094X-si48.svg https://s3-eu-west-1.amazonaws.com/prod-ucs-content-store-eu-west/content/pii:S246882312500094X/image/svg+xml/1e00fad4f226c44922035f70fff336ab/si48.svg si48 si48.svg svg 5379 ALTIMG 1-s2.0-S246882312500094X-si49.svg https://s3-eu-west-1.amazonaws.com/prod-ucs-content-store-eu-west/content/pii:S246882312500094X/image/svg+xml/59483186022486c00a47a1f73165e3df/si49.svg si49 si49.svg svg 1802 ALTIMG 1-s2.0-S246882312500094X-si5.svg https://s3-eu-west-1.amazonaws.com/prod-ucs-content-store-eu-west/content/pii:S246882312500094X/image/svg+xml/b26281b64bf226cf4985793c62958aaf/si5.svg si5 si5.svg svg 5033 ALTIMG 1-s2.0-S246882312500094X-si50.svg https://s3-eu-west-1.amazonaws.com/prod-ucs-content-store-eu-west/content/pii:S246882312500094X/image/svg+xml/05d55e76523dbdd1e36dd41acef8c5eb/si50.svg si50 si50.svg svg 1464 ALTIMG 1-s2.0-S246882312500094X-si51.svg https://s3-eu-west-1.amazonaws.com/prod-ucs-content-store-eu-west/content/pii:S246882312500094X/image/svg+xml/2e8b4c07e51e0b9018a36b83735a420c/si51.svg si51 si51.svg svg 24350 ALTIMG 1-s2.0-S246882312500094X-si6.svg https://s3-eu-west-1.amazonaws.com/prod-ucs-content-store-eu-west/content/pii:S246882312500094X/image/svg+xml/1b09daefab7d8b8b5b8a75d7e279fa6b/si6.svg si6 si6.svg svg 6732 ALTIMG 1-s2.0-S246882312500094X-si7.svg https://s3-eu-west-1.amazonaws.com/prod-ucs-content-store-eu-west/content/pii:S246882312500094X/image/svg+xml/090dd0fc3d579c49a26ed4aef37d2b06/si7.svg si7 si7.svg svg 5356 ALTIMG 1-s2.0-S246882312500094X-si8.svg https://s3-eu-west-1.amazonaws.com/prod-ucs-content-store-eu-west/content/pii:S246882312500094X/image/svg+xml/62712bc82b9e1c605fb2d1c8c53ade8c/si8.svg si8 si8.svg svg 6499 ALTIMG 1-s2.0-S246882312500094X-si9.svg https://s3-eu-west-1.amazonaws.com/prod-ucs-content-store-eu-west/content/pii:S246882312500094X/image/svg+xml/6d4e3e671c55b55d9171167702b71d31/si9.svg si9 si9.svg svg 6822 ALTIMG MCAT 114908 114908 S2468-8231(25)00094-X 10.1016/j.mcat.2025.114908 Elsevier B.V. Fig. 1 Activity Evaluation Setup for Direct Hydrogenation of Maleic Anhydride. Fig 1 Fig. 2 (a) DFT model and (b) kMC model of the Cu211 surface, and (c) DFT model and (d) kMC model of the Cu211-ZnO interface (DFT models: White: H atoms; red: O atoms; reddish-brown: Cu atoms; blue: Zn atoms. kMC models: Purple: top sites; white: ZnO adsorption sites; blue: bridge sites; green: hollow sites). Fig 2 Fig. 3 Impact of Pressure on (a) Primary Products and (b) Other Products in the Direct Hydrogenation Process of Maleic Anhydride. Fig 3 Fig. 4 Impact of Temperature on (a) Primary Products and (b) Other Products in the Direct Hydrogenation Process of Maleic Anhydride. Fig 4 Fig. 5 Impact of Hydrogen-to- Anhydride Ratio on (a) Primary Products and (b) Other Products in the Direct Hydrogenation Process of Maleic Anhydride. Fig 5 Fig. 6 Effects of (a) Temperature, (b) H2/MA Ratio, and (c) Pressure on the Formation of γ-Butyrolactone During the Direct Hydrogenation of Maleic Anhydride on Cu211 Surface. Fig 6 Fig. 7 Effects of (a) Temperature, (b) H2/MA Ratio, and (c) Pressure on the Production of GBL, BDO, and THF During the Direct Hydrogenation of MA at the Cu211-ZnO Interface. Fig 7 Table 1 Pre-exponential Factors and Activation Energies for Each Elementary Reaction Step in the Direct Hydrogenation of Maleic Anhydride to 1,4-Butanediol on the Cu211 Surface. Table 1 No. Reaction Pre-exponential factor Activation energy Forward reaction/ s-1 Inverse reaction/ s-1 Forward reaction/ kcal·mol-1 Inverse reaction /kcal·mol-1 1 MA + H ⇌ C4H3O3 4.62E+12 8.56E+12 2.93 7.61 2 C4H3O3 + H ⇌ SA 5.91E+12 4.00E+13 6.03 20.09 3 SA + H ⇌ C4H5O3 2.79E+12 9.56E+13 31.50 19.58 4 C4H5O3 ⇌ C4H4O2 + OH 9.31E+14 9.59E+13 20.68 21.72 5 C4H4O2 + H ⇌ C4H5O2 1.22E+13 2.08E+13 12.27 17.96 6 C4H5O2 + H ⇌ GBL 1.19E+13 2.23E+13 14.90 25.41 7 GBL + H ⇌ C4H7O2 1.38E+14 1.05E+14 33.67 13.84 8 C4H7O2 ⇌ C4H6O + OH 1.03E+13 2.26E+12 11.48 18.63 9 C4H6O + H ⇌ C4H7O 7.03E+12 2.69E+14 14.37 13.40 10 C4H7O + H ⇌ THF 2.01E+13 6.02E+13 13.12 22.74 11 C4H7O2 + H ⇌ C4H8O2 2.41E+13 4.55E+12 16.60 5.30 12 C4H8O2 + H ⇌ C4H9O2 5.04E+15 6.90E+14 15.45 28.83 13 C4H9O2 + H ⇌ BDO 2.86E+14 3.97E+13 14.53 25.60 14 BDO ⇌ C4H9O2 + H 8.06E+12 2.94E+13 21.08 27.86 15 C4H9O2 ⇌ C4H8O + OH 5.70E+13 7.43E+14 34.68 35.72 16 C4H8O ⇌ THF 3.07E+14 1.45E+14 29.15 26.96 Table 2 Pre-exponential Factors and Activation Energies for Each Elementary Reaction Step in the Direct Hydrogenation of Maleic Anhydride to 1,4-Butanediol at the Cu211-ZnO Interface. Table 2 No. Reaction Pre-exponential factor Activation energy Forward reaction/ s-1 Inverse reaction/ s-1 Forward reaction/ kcal·mol-1 Inverse reaction /kcal·mol-1 1 MA + H ⇌ C4H3O3 1.40E+14 2.24E+14 9.25 18.84 2 C4H3O3 + H ⇌ SA 1.66E+11 2.51E+13 4.68 20.09 3 SA ⇌ C4H4O3 6.01E+12 8.18E+12 13.17 13.14 4 C4H4O3 + H ⇌ C4H5O3 9.43E+13 5.12E+14 17.00 12.75 5 C4H5O3 ⇌ C4H4O2 + OH 5.71E+14 3.56E+13 23.31 3.41 6 C4H4O2 + H ⇌ C4H5O2 4.52E+13 1.06E+14 4.59 32.45 7 C4H5O2 + H ⇌ GBL 8.01E+12 4.51E+14 8.32 31.82 8 GBL ⇌ C4H6O2 3.73E+12 3.07E+12 21.81 4.70 9 C4H6O2 + H ⇌ C4H7O2 2.96E+12 5.82E+13 14.85 13.56 10 C4H7O2 ⇌ C4H6O + OH 2.45E+12 9.01E+12 15.17 1.29 11 C4H6O + H ⇌ C4H7O 2.48E+14 3.55E+14 5.51 25.30 12 C4H7O + H ⇌ THF 1.56E+14 2.94E+14 7.49 30.85 13 GBL ⇌ C4H6O2 4.77E+14 6.58E+12 20.89 9.02 14 C4H6O2 + H ⇌ C4H7O2 3.19E+14 3.61E+15 15.15 22.25 15 C4H7O2 + H ⇌ C4H8O2 7.48E+12 1.09E+13 14.71 5.63 16 C4H8O2 + H ⇌ C4H9O2 4.08E+14 6.65E+13 6.55 17.69 17 C4H9O2 + H ⇌ BDO 1.13E+14 5.30E+14 27.10 37.33 18 BDO ⇌ C4H9O + OH 1.04E+14 9.47E+11 29.66 33.90 19 C4H9O ⇌ C4H8O + H 4.73E+13 2.35E+13 12.06 6.53 20 C4H8O ⇌ THF 1.81E+12 1.88E+13 16.60 23.13 21 H+OH ⇌ H2O 7.60E+13 1.29E+14 27.88 22.16 22 OH+OH ⇌ H2O + O 6.60E+12 3.54E+13 14.74 4.61 Table 3 Derivation of the Reaction Kinetics Equation for the Direct Hydrogenation of MA to GBL on Cu211 Surface. Table 3 Process Expression Derivation formula Overall reaction C4H2O3 (MA) +3H2 ⇔ C4H6O2 (GBL) +H2O Adsorption MA ( g ) + * ⇔ M A * θ MA = k MA P MA θ v H 2 ( g ) + 2 * ⇔ 2 H * θ H = k H 2 P H 2 θ v Reaction M A * + 2 H * ⇔ S A * + 2 * θ SA = k 1 θ MA θ H 2 / θ v 2 S A * + H * → C 4 H 5 O 3 * + * r = k → θ SA θ H − k ← θ C 4 H 5 O 3 θ v C 4 H 5 O 3 * + 3 H * ⇔ GB L * + H 2 O * + 2 * θ C 4 H 5 O 3 = k 2 θ GBL θ H 2 O θ v 2 / θ H 3 Desorption GB L * ⇔ GBL ( g ) + * θ GBL = k GBL P GBL θ v H 2 O * ⇔ H 2 O ( g ) + * θ H 2 O = k H 2 O P H 2 O θ v Surface coverage θ MA + θ H + θ GBL + θ H 2 O + θ v = 1 Reaction kinetics equation r GBL = k 1 ( p MA p H 2 1.5 − k 2 p GBL p H 2 O p H 2 1.5 ) ( 1 + k MA p MA + k H 2 p H 2 + k GBL p GBL + k H 2 O p H 2 O ) 2 Table 4 Reaction Kinetics Equations for the Direct Hydrogenation of MA to GBL, BDO, and THF at the Cu211-ZnO Interface. Table 4 No. Reaction Equation Reaction Kinetics Equation Form 1 C4H2O3 (MA) +3H2 ⇔ C4H6O2 (GBL) +H2O r GBL = k 1 ( p MA p H 2 1.5 − k 2 p GBL p H 2 O p H 2 1.5 ) ( 1 + k MA p MA + k H 2 p H 2 + k GBL p GBL + k H 2 O p H 2 O ) 2 2 C4H2O3 (MA) +5H2 ⇔ C4H10O2 (BDO) +H2O r BDO = k 1 ( p MA p H 2 p H 2 O 5 − k 2 p BDO ) ( 1 + k MA p MA + k H 2 p H 2 + k BDO p BDO + k H 2 O p H 2 O ) 2 3 C4H2O3 (MA) +5H2 ⇔ C4H8O (THF) +2H2O r THF = k 1 ( p MA p H 2 1.5 − k 2 p THF p H 2 O 2 p H 2 3.5 ) ( 1 + k MA p MA + k H 2 p H 2 + k THF p THF + k H 2 O p H 2 O ) 2 Table 5 Effects of Partial Pressures of Maleic Anhydride and Hydrogen on the Formation Rate of γ-Butyrolactone at 513 K. Table 5 No. P MA/kPa P H 2 /kPa TOF/mol/(g·s) 1 3.897 97.428 2.257E-03 2 1.987 99.338 2.362E-03 3 1.333 99.992 2.392E-03 4 1.003 100.322 2.421E-03 5 0.804 100.521 2.428E-03 6 0.671 100.654 2.450E-03 7 0.576 100.749 2.456E-03 8 0.504 100.821 2.440E-03 9 0.480 100.845 2.450E-03 10 0.448 100.877 2.453E-03 11 0.420 100.905 2.459E-03 12 0.404 100.921 2.454E-03 13 0.388 100.937 2.472E-03 14 0.367 100.958 2.454E-03 15 0.348 100.977 2.457E-03 16 0.337 100.988 2.471E-03 17 0.326 100.999 2.463E-03 18 0.311 101.014 2.464E-03 19 0.297 101.028 2.464E-03 20 0.289 101.036 2.472E-03 Table 6 Effects of Temperature on the Formation Rate of γ-Butyrolactone at Atmospheric Pressure and a Hydrogen-to-Anhydride Ratio of 75. Table 6 No. T/K TOF/mol/(g·s) 1 413 2.300E-05 2 423 1.147E-04 3 433 3.066E-04 4 443 6.126E-04 5 453 9.597E-04 6 463 1.259E-03 7 473 1.522E-03 8 483 1.795E-03 9 493 2.114E-03 10 503 2.332E-03 11 513 2.445E-03 12 523 2.481E-03 13 533 2.492E-03 14 543 2.513E-03 15 553 2.512E-03 Table 7 Influence of Partial Pressures of MA and H2 on the Formation Rates of GBL, BDO, and THF at 463 K and 2 MPa. Table 7 No. P MA/kPa P H 2 /kPa TOF/mol/(g·s) GBL BDO THF 1 76.92 1923.08 3.094E-04 3.241E-05 1.699E-05 2 39.22 1960.78 3.230E-04 3.711E-05 1.960E-05 3 26.32 1973.68 3.654E-04 4.940E-05 1.986E-05 4 19.80 1980.20 3.816E-04 6.194E-05 1.960E-05 5 15.87 1984.13 3.865E-04 6.168E-05 1.934E-05 6 13.25 1986.75 3.965E-04 6.743E-05 2.012E-05 7 11.36 1988.64 4.137E-04 7.501E-05 1.960E-05 8 9.95 1990.05 4.427E-04 7.658E-05 1.908E-05 9 9.48 1990.52 4.433E-04 7.396E-05 2.221E-05 10 8.85 1991.15 4.456E-04 8.494E-05 2.300E-05 11 8.30 1991.70 4.417E-04 8.651E-05 1.620E-05 12 7.97 1992.03 4.537E-04 9.461E-05 2.117E-05 13 7.66 1992.34 4.534E-04 8.834E-05 2.012E-05 14 7.25 1992.75 4.608E-04 9.853E-05 2.039E-05 15 6.87 1993.13 4.595E-04 8.546E-05 1.908E-05 16 6.64 1993.36 4.563E-04 9.748E-05 1.568E-05 17 6.43 1993.57 4.527E-04 9.827E-05 2.248E-05 18 6.13 1993.87 4.736E-04 9.461E-05 1.777E-05 19 5.87 1994.13 4.649E-04 1.009E-04 2.378E-05 20 5.70 1994.30 4.730E-04 1.001E-04 1.986E-05 21 5.32 1994.68 4.785E-04 1.027E-04 1.699E-05 22 4.99 1995.01 4.898E-04 1.009E-04 1.960E-05 Table 8 Effect of Temperature on the Formation Rates of GBL, BDO, and THF at 2 MPa and a Hydrogen-to-Anhydride Ratio of 200. Table 8 No. T/K TOF/mol/(g·s) GBL BDO THF 1 413 1.822E-04 3.920E-06 0.000E+00 2 423 2.065E-04 9.147E-06 0.000E+00 3 433 2.475E-04 1.124E-05 0.000E+00 4 443 2.783E-04 2.039E-05 5.227E-07 5 453 3.340E-04 3.215E-05 7.841E-07 6 463 3.999E-04 4.966E-05 3.136E-06 7 473 4.422E-04 7.292E-05 9.670E-06 8 483 4.749E-04 8.912E-05 2.012E-05 9 493 4.751E-04 9.618E-05 2.221E-05 10 503 4.723E-04 9.670E-05 1.699E-05 11 513 4.514E-04 9.121E-05 2.091E-05 12 523 4.059E-04 7.919E-05 1.307E-05 13 533 3.505E-04 7.370E-05 1.385E-05 14 543 3.246E-04 5.959E-05 1.098E-05 15 553 2.796E-04 6.168E-05 7.318E-06 Table 9 Intrinsic Reaction Kinetic Equations for the Direct Hydrogenation of MA to GBL, BDO, and THF at the Cu211-ZnO Interface. Table 9 No. Reaction Equation Intrinsic Reaction Kinetic Equation 1 C4H2O3 (MA) +3H2 ⇔ C4H6O2 (GBL) +H2O r GBL = 6.331 × 10 − 5 e ( − 15458.07 R T ) ( p MA p H 2 1.5 − 1.385 × 10 5 p GBL p H 2 O p H 2 1.5 ) ( 1 + 1.422 p MA + 1.367 p H 2 + 1.011 p GBL + 1.119 p H 2 O ) 2 2 C4H2O3 (MA) +5H2 ⇔ C4H10O2 (BDO) +H2O r BDO = 2.000 × 10 − 3 e ( − 34991.25 R T ) ( p MA p H 2 p H 2 O 5 − 5 . 653 × 1 0 21 p BDO ) ( 1 + 3.082 p MA + 1.256 p H 2 + 2.688 p BDO + 15.648 p H 2 O ) 2 3 C4H2O3 (MA) +5H2 ⇔ C4H8O (THF) +2H2O r THF = 4.467 × 10 − 5 e ( − 48799.51 R T ) ( p MA p H 2 1.5 − 2.180 × 10 7 p THF p H 2 O 2 p H 2 3.5 ) ( 1 + 1.711 p MA + 0.288 p H 2 + 0.547 p THF + 1.555 p H 2 O ) 2 Investigation of the reaction kinetics for the direct hydrogenation of maleic anhydride to 1,4-butanediol over Cu-ZnO catalyst Xinyue Guan Writing – review & editing Writing – original draft Data curation a b c Yingzhe Yu Methodology Conceptualization a b c Lingtao Wang Resources Investigation a b c Minhua Zhang Visualization Investigation Data curation a b c ⁎ a Key Laboratory for Green Chemical Technology of Ministry of Education, R&D Center for Petrochemical Technology, Tianjin University, Tianjin, 300072, China Key Laboratory for Green Chemical Technology of Ministry of Education R&D Center for Petrochemical Technology Tianjin University Tianjin 300072 China aKey Laboratory for Green Chemical Technology of Ministry of Education, R&D Center for Petrochemical Technology, Tianjin University, Tianjin, 300072, China b Zhejiang Institute of Tianjin University, Ningbo, Zhejiang, 315201, China Zhejiang Institute of Tianjin University Ningbo Zhejiang 315201 China bZhejiang Institute of Tianjin University, Ningbo, Zhejiang, 315201, China c State Key Laboratory of Engines, Tianjin University, Tianjin 300072, China State Key Laboratory of Engines Tianjin University Tianjin 300072 China cState Key Laboratory of Engines, Tianjin University, Tianjin 300072, China ⁎ Corresponding author. 1,4-butanediol serves as a crucial monomeric building block for the production of biodegradable plastics such as PBS and PBAT, and it can also be utilized for the synthesis of derivatives like γ-butyrolactone and tetrahydrofuran. The technology of direct hydrogenation of maleic anhydride to 1,4-butanediol over Cu-ZnO has emerged as a promising production method due to its advantages of a short process flow, mild reaction conditions, cost-effective catalysts, and the capability to co-produce various products. However, at the current stage, the reaction kinetic equations and optimal conditions for 1,4-butanediol formation via direct hydrogenation of maleic anhydride over Cu-ZnO remain unclear, which hinders the development of this production process. In this study, based on the findings of density functional theory, this study investigated the reaction kinetics of direct hydrogenation of maleic anhydride on Cu211 surfaces and at Cu211-ZnO interfaces using activity evaluation experiments and kinetic Monte Carlo simulations. Through activity evaluation experiments of direct hydrogenation of maleic anhydride, this study examined the effects of temperature, pressure, and hydrogen-to-anhydride ratio on product formation over Cu-ZnO catalysts and identified the optimal reaction conditions for 1,4-butanediol production as 200 °C, 2 MPa, and a hydrogen-to-anhydride ratio of 150. Utilizing the kinetic Monte Carlo method, this study calculated the reaction processes for the direct hydrogenation of maleic anhydride to γ-butyrolactone on Cu211 surfaces and to γ-butyrolactone, 1,4-butanediol, and tetrahydrofuran at Cu211-ZnO interfaces. The optimal reaction conditions for the formation of maleic anhydride to γ-butyrolactone, 1,4-butanediol, and tetrahydrofuran were obtained, respectively. Finally, intrinsic reaction kinetic equations for the direct hydrogenation of maleic anhydride to different products were fitted and derived. The obtained intrinsic reaction kinetic equations can be applied in the design of actual reactors or process development after considering the influence of diffusion or directly used in studies where diffusion effects are insignificant. This provides a design foundation for the construction of production processes for direct hydrogenation of maleic anhydride to 1,4-butanediol over Cu-ZnO. It is hoped that this study can offer insights and guidance for the understanding of the direct hydrogenation process of maleic anhydride and the development of the biodegradable plastics industry. Graphical abstract Image, graphical abstract Keywords Maleic anhydride 1,4-butanediol Cu-ZnO Reaction kinetic Activity evaluation experiments kinetic Monte Carlo Data availability No data was used for the research described in the article. 1 Introduction 1,4-Butanediol (BDO) serves as a crucial raw material for the production of poly butylene succinate (PBS), poly butylene terephthalate (PBT), Poly butylene adipate-co-terephthalate (PBAT), and poly tetrahydrofuran (PTMEG), among others [1–4]. It is highly favored in the fields of biodegradable plastics and fibers. Industrially, there are primarily four production processes for BDO. Among them, the Reppe process, Lyondell process, and Mitsubishi process are constrained by environmental concerns, production economics, and raw material supply issues. In contrast, the maleic anhydride (MA) hydrogenation process has been gaining a larger market share due to its advantages such as a straightforward technological process, mild reaction conditions, and the capability to co-produce multiple products [5–7]. Among the more mature production technologies for 1,4-butanediol through maleic anhydride hydrogenation are the Geminox technology [8,9] and the Davy-Mackee technology [10–12]. In addition, a highly promising process is the direct hydrogenation of maleic anhydride, which involves the direct gas-phase or liquid-phase hydrogenation of maleic anhydride to produce 1,4-butanediol. Compared to the Geminox and Davy-Mackee technologies, the direct hydrogenation of maleic anhydride offers a shorter process flow, avoids the ester exchange side reactions common in the Davy-Mackee process, and mitigates the severe corrosion of equipment by acids in the Geminox process. Catalysts commonly used in the direct hydrogenation of maleic anhydride are Cu-based and Ni-based catalysts, which are relatively inexpensive. Furthermore, by adjusting the reaction conditions, this process can co-produce 1,4-butanediol, tetrahydrofuran (THF), and γ-butyrolactone (GBL), making it a technology with broad application prospects [13,14]. Among the extensive research on direct hydrogenation of maleic anhydride, Cu-based catalysts have been the most thoroughly studied. Cu-based catalysts are inexpensive, easily obtainable, and simple to prepare, exhibiting good activity and selectivity for the direct hydrogenation of maleic anhydride [15–20]. Notably, Cu-ZnO catalysts demonstrate excellent catalytic activity for the direct hydrogenation of maleic anhydride to produce 1,4-butanediol [21–24]. Previous studies have elucidated the reaction mechanism, types of by-products, and formation pathways of 1,4-butanediol from maleic anhydride over Cu-ZnO using density functional theory (DFT) [25]. However, to develop a process for the direct hydrogenation of maleic anhydride to 1,4-butanediol, optimal reaction conditions and reaction kinetic equations tailored for BDO production are necessary. Gerhard et al. [26] proposed two distinct reaction pathways for the hydrogenation of succinic anhydride (SA) to γ-butyrolactone over copper/zinc catalysts and developed kinetic models for both pathways. They considered power-law rate expressions for the reversible adsorption of succinic anhydride on the zinc oxide surface and its diffusion to the adjacent copper microcrystallites, which were suitable for describing the experimental data. Gerhard et al. [27]. also prepared a series of binary Cu-ZnO catalysts with copper-to-zinc ratios ranging from 0.1 to 9.0 and applied them in kinetic measurements conducted in a stirred three-phase slurry reactor. Through model identification, they obtained a detailed kinetic model for the hydrogenation of succinic anhydride over Cu-ZnO catalysts, considering the reversible carbon balance losses observed experimentally. At present, there is still a lack of reaction kinetic equations for the direct hydrogenation of MA to BDO over Cu-ZnO and suitable conditions for BDO production. This undoubtedly limits the development of production processes for BDO via the direct hydrogenation of maleic anhydride. This study builds on the elementary reaction data for the direct hydrogenation of MA to BDO over Cu-ZnO obtained from previous DFT research. By utilizing kinetic Monte Carlo (kMC) methods and activity evaluation experiments, this study aim to identify suitable reaction conditions for the direct hydrogenation of MA to BDO and fit intrinsic reaction kinetic equations for the production of different products from maleic anhydride. This will provide a design foundation for the construction of production processes for the direct hydrogenation of MA to BDO over Cu-ZnO. It is hoped that this study can offer insights and guidance for the understanding of the direct hydrogenation of maleic anhydride process and the development of the biodegradable plastics industry. 2 Computational and experimental methods 2.1 Experimental methods The catalyst utilized in this study is a commercial CuO-ZnO-Al₂O₃ catalyst with a composition of 70 wt% CuO and 24.5 wt% ZnO. The reduction conditions for the catalyst are as follows: Firstly, the catalyst is heated to 120 °C at a rate of 10 °C/min under a N2 atmosphere and maintained at this temperature for 2 h. Subsequently, it is exposed to a 10v% H2/Ar atmosphere for 1 hour. Afterward, the temperature is increased to 196 °C at a rate of 1 °C/min under an H2/Ar atmosphere and maintained at this temperature for an additional hour. Finally, the catalyst is heated to the reaction temperature under an N₂ atmosphere. The evaluation of the direct hydrogenation reactivity of maleic anhydride was conducted in a fixed-bed high-pressure microreactor system, as illustrated in Fig. 1 . The apparatus primarily consists of gas feed, liquid feed, reaction system, and cold trap system components. The gases involved include a 10v% H2/Ar mixture for catalyst activation, N₂ for purging and protection, and high-purity H2 for the reaction. The reaction feedstock is a mixture of 20 wt% maleic anhydride in tetrahydrofuran, which is introduced into the system via a high-pressure constant-flow pump. The reaction system comprises a high-pressure microreactor system featuring a tubular furnace and a tubular reactor made of Hastelloy HC276. The cold trap system, maintained at −5 °C using a circulating chilled ethylene glycol solution, is employed to collect the liquid products within the system. The collected products from the cold trap are sent to a gas chromatography-mass spectrometry (GC–MS) system for component content analysis. The models of the instruments and equipment used in this setup are listed in Table S1. 2.2 Computational methods 2.2.1 Computational model The kinetic Monte Carlo simulations utilize a lattice model [28,29], where a two-dimensional square periodic grid of 128 × 128 lattice points is employed to represent the Cu surface. Based on previously developed density functional theory models of the Cu211 surface and Cu211-ZnO interface [25], kMC models for these surfaces and interfaces were constructed, as illustrated in Fig. 2 . The Cu211 surface has a unit cell with dimensions a = 19.25 Å, b = 10.48 Å, c = 20.29 Å, and α=β=γ=90°, containing 96 Cu atoms. The DFT model of the Cu211-ZnO interface involves a ZnO cluster Zn6O7H7 supported on the Cu211 surface, consisting of 7 H atoms, 7 O atoms, 96 Cu atoms, and 6 Zn atoms. Based on the DFT models, the constructed kMC models have a surface area of 201.74 Å2. For the kMC model of Cu211, the adsorption sites include 27 top sites, 72 bridge sites, and 45 hollow sites. For the kMC model of the Cu211-ZnO interface, the adsorption sites include 18 top sites, 48 bridge sites, 30 hollow sites, and 1 adsorption site for the ZnO cluster. 2.2.2 Computational settings Based on the optimal reaction conditions for 1,4-butanediol production obtained from the activity evaluation experiments for the direct hydrogenation of maleic anhydride, kMC calculations were conducted under the conditions of P = 2 MPa, T = 473 K, and a hydrogen-to-anhydride molar ratio (H2/MA) of 150. Upon testing, it was observed that the formation of various species stabilized when the simulation duration reached 0.1 s. In these calculations, the adsorption of H2 was defined as dissociative adsorption. The formulas for calculating the adsorption rate coefficients of MA and H2 on the Cu211 surface and Cu211-ZnO interface are presented in Eqs. (1) and 2, respectively [30]. (1) k MA = σ P A site 2 π m k B T (2) k H 2 = σ P A site 2 2 π m k B T In the equation, σ is the dimensionless sticking coefficient, typically set to 1 in kMC simulations [31–33]. In previous kinetic Monte Carlo studies conducted on Cu surfaces, involving gaseous reactants such as CO [34], H2O [35], and H2 [36], the sticking coefficient was assumed to be 1 (indicating complete adsorption). Similarly, for other types of reactions, including propylene adsorption on Au [31], acetylene and ethylene adsorption on Pd and Pd-Au [32], and CO adsorption on Pd[33], the sticking coefficient was also treated as 1. P represents the partial pressure of the adsorbing species. A site is the adsorption area per individual adsorption site, which can be derived by dividing the total surface area by the number of adsorption sites. m denotes the molecular mass of the adsorbing species. k B is Boltzmann's constant, and T represents the reaction temperature. The kMC calculations on the Cu211 surface involve two adsorption processes for MA and H2, seven desorption processes for MA, H2, succinic anhydride (SA), GBL, BDO, H2O, and THF, and 32 reaction processes corresponding to 16 reversible reactions. At the Cu211-ZnO interface, the kMC calculations encompass two adsorption processes for MA and H2, seven desorption processes for MA, H2, SA, GBL, BDO, H2O, and THF, and 44 reaction processes corresponding to 22 reversible reactions. The pre-exponential factors and activation energies for each elementary reaction step in the direct hydrogenation of maleic anhydride to 1,4-butanediol on the Cu211 surface and at the Cu211-ZnO interface are presented in Tables 1 and 2 , respectively [25]. For the reaction, migration, and desorption processes, the reaction rate constants are all calculated using the Arrhenius equation: (3) k = Aexp ( − E a k B T ) In the equation, A represents the pre-exponential factor, E a is the activation energy of the elementary reaction calculated by DFT, k B is the Boltzmann constant, and T is the Kelvin temperature. The pre-exponential factor for each elementary reaction process is calculated using Eq. (4) [37]. (4) A = ∏ i = 1 3 n v i IS ∏ i = 1 3 n − 1 v i TS In the equation, v i IS is the vibrational frequency of the initial state of the reaction, v i TS is the vibrational frequency of the transition state (excluding imaginary frequencies), and n is the number of atoms in the reactants. The activation energy for each elementary reaction process is calculated using the following formula. (5) E a , f = E a (6) E a , r = E a − E r In the equation, E a , f represents the activation energy for the forward reaction, E a , r represents the activation energy for the inverse reaction, and E r is the reaction energy of the elementary reaction calculated by DFT. Regarding the calculations at the Cu211-ZnO interface, each ZnO site is well-separated by Cu sites. Therefore, for molecules adsorbed on Zn sites, the influence of their lateral interactions on reaction activation energies can be neglected[38]. On the Cu211 surface, it was observed during the calculations that the surface was heavily covered with H species. Due to this extensive coverage of H, incorporating interactions between H and all other species would significantly increase the computational cost. Furthermore, interactions between H species and other species are relatively weak. Thus, only interactions between strongly adsorbed species and nearby H atoms were considered [39]. Lateral interactions play a role by modifying the activation energies of all processes involved [40]. (7) E a 0 = E a + α E i n t e r = E a + α ( E r 0 − E r ) In the presence (or absence) of adsorbate interactions, the activation energy barriers are denoted as E a 0 ( E a ), E r 0 ( E r ) represent the reaction heats in the presence (or absence) of such interactions. The parameter α mentioned here refers to the Brønsted-Polanyi coefficient. Typically, for desorption processes, α = 1; for adsorption processes, α = 0; and for diffusion and reaction processes, α = 0.5 [41]. The interaction energy ( E i n t e r ) is approximately obtained by calculating the change in adsorption energy of an adsorbate when another adsorbate is nearby. Using density functional theory, the interaction energies between H species and maleic anhydride, succinic anhydride, γ-butyrolactone, and 1,4-butanediol were calculated to be 0.07 eV, 0.02 eV, 0.05 eV, and 0.05 eV, respectively. The turnover frequency (TOF) of elementary reactions obtained through kMC calculations is expressed in units of events/(site·s), which can be abbreviated as s-1. However, the unit commonly used in experiments is mol/(gcat·s), necessitating a unit conversion. The literature reports that the surface area of Cu atoms on Cu-Zn catalysts is 26 m2/g [42]. Therefore, the TOF in units of mol/(gcat·s) can be calculated as follows: TOF (mol/(gcat·s)) = TOF (events/(site·s)) × 4.282 × 10–4. 3 Research results 3.1 Activity evaluation of the direct hydrogenation reaction of maleic anhydride Utilizing the activity evaluation setup for direct hydrogenation of maleic anhydride, the process was investigated under conditions of temperatures ranging from 190 to 220 °C, pressures varying from 0.1 to 4.0 MPa, and hydrogen-to-anhydride ratios of 50–200. The conversions of maleic anhydride and the selectivities of the products under different pressures, temperatures, and hydrogen-to-anhydride ratios are shown in Table S2 in the Supporting Information. Figs. 3 , 4 , and 5 , which were plotted based on the data in Table S2, were used to explore the effects of pressure, temperature, and hydrogen-to-anhydride ratio, respectively, on the direct hydrogenation process of maleic anhydride. Fig. 3 displays the changes in product composition as a function of pressure within the range of 0.1–4.0 MPa. It can be observed from Fig. 3 that low pressure favors the formation of GBL, while 2 MPa is the optimal pressure for BDO production, and 3 MPa is suitable for THF generation. For the minor by-products, propionic acid is produced at low pressures, while butanol (BuOH) and propanol are more likely to form at pressures between 2 and 3 MPa. Fig. 4 illustrates the changes in product composition with temperature in the range of 190–220 °C. It is evident from Fig. 4 that high temperatures are conducive to THF production, with 200 °C being the optimal temperature for BDO generation. GBL's formation is relatively sensitive to temperature changes within this range. Regarding the minor by-products, high temperatures promote the production of butanol and propionic acid, while propanol and water are less affected by temperature variations. Fig. 5 shows the changes in product composition as the hydrogen-to-anhydride ratio varies between 50 and 200. According to Fig. 5, a low hydrogen-to-anhydride ratio favors THF production, with GBL formation being optimal at lower ratios and BDO production being optimal at higher ratios. When the hydrogen-to-anhydride ratio is 100, the production of other by-products such as butanol and propanol increases relatively. In summary, the formation of GBL tends to favor low pressure and low hydrogen-to-anhydride ratios, BDO production prefers lower temperatures, high pressures, and high hydrogen-to-anhydride ratios, and THF generation is more likely at high temperatures and pressures. These findings are generally consistent with the optimal conditions mentioned in the Davy company's process for producing BDO through maleic anhydride esterification and hydrogenation [43]. Based on the comprehensive analysis of Table S2 and Figs. 3, 4, and 5, it can be concluded that BDO, GBL, and THF are produced in relatively high yields, while propionic acid, butanol, propanol, and water are produced in lower amounts. Under most conditions, the species can be ranked in terms of their production yields as follows: GBL > BDO > THF, and butanol > propanol > propionic acid > water. With the focus on maximizing BDO production, the evaluation test for direct hydrogenation of maleic anhydride has identified the optimal conditions for BDO synthesis as 200 °C, 2 MPa, and a hydrogen-to-anhydride ratio of 150. These findings will provide valuable reference and support for setting the initial conditions and performing simulation calculations in kMC modeling. 3 2 kMC calculation 3.2.1 Derivation of the reaction kinetic equations for the direct hydrogenation process of maleic anhydride In the study of heterogeneous catalytic reaction kinetics, the assumptions of steady-state approximation and rate-determining step are widely adopted. The steady-state approximation assumes that, once the reaction process reaches a steady state, the concentrations of intermediate compounds remain constant over time. The selection of the rate-determining step can be based on DFT calculations. Utilizing the assumptions of steady-state approximation and rate-determining step, along with the application of mass action law and Langmuir adsorption isotherm, the reaction kinetics equations can be derived from the predefined elementary reaction steps. Calculations of adsorption and desorption rate coefficients reveal that the adsorption and desorption processes in the direct hydrogenation of maleic anhydride are extremely fast, indicating that the entire reaction process is controlled by the surface reaction rate. Taking the reaction process of MA to GBL on Cu211 surface as an example, the form of the reaction kinetics equation for MA to GBL conversion is derived. The specific derivation process is outlined in Table 3 . In the table, * represents an adsorption site, MA* represents MA adsorbed on the catalyst surface, θ represents surface coverage, θ v represents uncovered surface fraction, and k is the adsorption rate constant. k → and k ← are the forward and reverse reaction rate constants, respectively, while r denotes the reaction rate. Similarly, the basic forms of the reaction kinetics equations for the direct hydrogenation of maleic anhydride to produce γ-butyrolactone, 1,4-butanediol, and tetrahydrofuran at the Cu211-ZnO interface can be derived, as shown in Table 4 . Subsequently, kinetic Monte Carlo simulations are employed to first determine the suitable reaction conditions for BDO formation. Then, the influence of reactant partial pressures on product formation rates under optimal reaction conditions is investigated. Finally, the intrinsic reaction kinetics equations for the direct hydrogenation of maleic anhydride to different products are obtained through fitting. 3.2.2 Reaction kinetics of the direct hydrogenation process of maleic anhydride on Cu211 surface Firstly, the direct hydrogenation of maleic anhydride on the Cu211 surface was investigated using the kinetic Monte Carlo method. It was observed that the direct hydrogenation of maleic anhydride on Cu211 exclusively produced γ-butyrolactone, without the formation of 1,4-butanediol or tetrahydrofuran. This finding is consistent with the conclusions derived from density functional theory calculations [25]. Subsequently, the variation in GBL formation rate was studied within a range of reaction conditions: temperatures of 413–553 K, pressures of 100–400 kPa, and H2/MA ratios of 25–400. This analysis allowed for the determination of the optimal reaction conditions for GBL production. The effects of temperature, pressure, and hydrogen-to-anhydride ratio on the direct hydrogenation of maleic anhydride to GBL on the Cu211 surface are illustrated in Fig. 6 , with specific data provided in Supplementary Table S3. From Fig. 6(a), it can be observed that the production of GBL increases as the temperature rises, and the production of GBL tends to stabilize when the temperature reaches 513 K. Fig. 6(b) reveals that, overall, the production of GBL increases with an increasing hydrogen-to-anhydride ratio. However, in terms of numerical changes, the impact of the hydrogen-to-anhydride ratio on GBL production is much less significant than that of temperature. Despite an increase in the hydrogen-to-anhydride ratio from 25 to 400, the change in GBL production is relatively small, and excessively high ratios can significantly increase industrial loads. Therefore, a hydrogen-to-anhydride ratio of approximately 75–100 is sufficient to meet the requirements for high production and low load. Fig. 6(c) shows that the production of GBL decreases slightly as pressure increases. Considering industrial practice, atmospheric pressure is sufficient for GBL production. In summary, the optimal reaction conditions for GBL production on Cu211 are 513 K, a hydrogen-to-anhydride ratio of 75, and atmospheric pressure. Therefore, the kinetic study of the direct hydrogenation of maleic anhydride to GBL on Cu211 was conducted at 513 K and atmospheric pressure. Table 5 presents the effects of partial pressures of maleic anhydride and hydrogen on the GBL formation rate at 513 K. Table 6 shows the impact of temperature on the GBL formation rate at atmospheric pressure and a hydrogen-to-anhydride ratio of 75. The data in Table 5 are primarily used to fit the coefficient preceding the pressure term in the kinetic equation, while the data in Table 6 are used to fit the pre-exponential factor and activation energy of the reaction. Using the data from Tables 5 and 6, the intrinsic reaction kinetics equation for the direct hydrogenation of maleic anhydride to γ-butyrolactone on Cu211 surface was fitted as: r GBL = 6.294 × 10 − 3 e ( − 22809.50 R T ) ( p MA p H 2 1.5 − 1.980 × 10 4 p GBL p H 2 O p H 2 1.5 ) ( 1 + 1.422 p MA + 1.367 p H 2 + 1.011 p GBL + 1.119 p H 2 O ) 2 . From the kinetic equation, it can be inferred that the activation energy for the direct hydrogenation of MA to GBL on Cu211 surface is 22.809 kJ/mol, indicating that the reaction is relatively easy to occur under optimal reaction conditions. 3.2.3 Reaction kinetics of the direct hydrogenation process of maleic anhydride at the Cu211-ZnO interface Based on the optimal conditions for 1,4-butanediol production derived from the activity evaluation experiments for the direct hydrogenation of maleic anhydride, kinetic Monte Carlo calculations were performed for the direct hydrogenation process at the Cu211-ZnO interface. The kMC results indicate that at the Cu211-ZnO interface, GBL, BDO, and THF are all produced, which is consistent with the conclusions obtained from density functional theory calculations [25]. Therefore, the variations in the production yields of the main products, GBL, BDO, and THF, were investigated within the ranges of 413–553 K, hydrogen-to-anhydride ratios of 25–450, and pressures of 100–5000 kPa. These results are illustrated in Fig. 7 , with specific data provided in Supplementary Tables S4, S5, and S6. From Fig. 7(a), it is evident that temperature has a much greater impact on GBL production compared to BDO and THF. When the temperature exceeds 513 K, the production yields of all three products decrease, indicating that excessively high temperatures are detrimental to the overall reaction. Since the hydrogenation of maleic anhydride is a strongly exothermic reaction, from a thermodynamic perspective, lower temperatures are more favorable for the reaction to proceed. Within the temperature range of 483–513 K, the production of GBL is relatively high. For BDO production, when the temperature is above 463 K, the production yield of BDO remains at a relatively high level. Overall, an increase in temperature favors the production of THF. Considering energy conservation in industrial settings, 493 K is identified as the optimal temperature for THF production. Fig. 7(b) shows that an increase in the hydrogen-to-anhydride ratio has a significant promotional effect on the production of both GBL and BDO, while THF experiences only minor changes. When the H2/MA ratio is around 150, the production of GBL reaches a high level. Although the production of GBL continues to increase when the H2/MA ratio exceeds 300, the increase is not significant compared to that at an H2/MA ratio of 150, and it significantly increases production loads. Therefore, an H2/MA ratio of around 150 is considered optimal for GBL production. The production of BDO increases continuously with an increasing H2/MA ratio, but considering production loads, an H2/MA ratio of around 200 maintains BDO production at a high level. The influence of the H2/MA ratio on THF production is not significant, and a lower H2/MA ratio can be selected under the same conditions. From Fig. 7(c), it can be observed that as pressure increases, the production of GBL decreases significantly, while the production of BDO and THF increases. Therefore, low or atmospheric pressure is favorable for GBL production, while high pressure favors the production of BDO and THF. However, excessively high pressure increases the requirements for equipment and production loads. Thus, a pressure of 2 MPa is suitable for the production of BDO and THF. Overall, the production yields of products from the direct hydrogenation of maleic anhydride at the Cu211-ZnO interface follow the order: GBL>BDO>THF. In summary, the optimal reaction conditions for the direct hydrogenation of MA to produce GBL at the Cu211-ZnO interface are 483 K, 101.325 kPa, and an H2/MA ratio of 150. The optimal conditions for BDO production are 463 K, 2 MPa, and an H2/MA ratio of 200. The optimal conditions for THF production are 493 K, 2 MPa, and an H2/MA ratio of 50. Since this study focuses on producing more 1,4-butanediol, the kinetic study of the direct hydrogenation of maleic anhydride to produce GBL, BDO, and THF at the Cu211-ZnO interface will be conducted under the conditions of 463 K and 2 MPa. Table 7 presents the effects of partial pressures of maleic anhydride and hydrogen on the formation rates of γ-butyrolactone, 1,4-butanediol, and tetrahydrofuran at 463 K and 2 MPa. Table 8 shows the influence of temperature on the formation rates of GBL, BDO, and THF when the pressure is maintained at 2 MPa and the hydrogen-to-anhydride ratio is set to 200. Table 9 displays the intrinsic reaction kinetic equations obtained through fitting for the direct hydrogenation of maleic anhydride to produce GBL, BDO, and THF at the Cu211-ZnO interface. The intrinsic reaction kinetic equations in Table 9 reveal that the activation energies for the direct hydrogenation of maleic anhydride to produce GBL, BDO, and THF are 15.458 kJ/mol, 34.991 kJ/mol, and 48.799 kJ/mol, respectively. This indicates that, in terms of reaction ease, GBL is the easiest to form, followed by BDO, and then THF. However, numerically, the activation energies for the formation of all three products are relatively low, suggesting that the reactions can occur readily under the reaction conditions. This aligns with the predictions made by density functional theory regarding the ease of product formation [25]. According to the previous section, the activation energy for the direct hydrogenation of maleic anhydride to produce GBL on the Cu211 surface is 22.809 kJ/mol, whereas the activation energy at the Cu211-ZnO interface is 15.458 kJ/mol. This suggests that the introduction of ZnO facilitates the reaction process for the direct hydrogenation of maleic anhydride to produce GBL. 4 Conclusion This study, grounded in the findings of density functional theory, investigates the reaction kinetics of the direct hydrogenation of maleic anhydride on the Cu211 surface and at the Cu211-ZnO interface using activity evaluation experiments and kinetic Monte Carlo methods. Through activity evaluation experiments for the direct hydrogenation of maleic anhydride, the effects of temperature, pressure, and hydrogen-to-anhydride ratio on product formation over Cu-ZnO catalysts were examined. The optimal reaction conditions for the highest BDO yield were determined to be 200 °C, 2 MPa, and a hydrogen-to-anhydride ratio of 150. With reference to these optimal reaction conditions obtained from the activity evaluation experiments, the initial conditions for kMC calculations were set and the calculations initiated. The kMC method was utilized to separately calculate the reaction processes for the direct hydrogenation of maleic anhydride to produce GBL on the Cu211 surface and the direct hydrogenation of maleic anhydride to produce GBL, BDO, and THF at the Cu211-ZnO interface. The optimal reaction conditions for the formation of GBL, BDO, and THF from MA were obtained, respectively. Finally, intrinsic reaction kinetic equations for the direct hydrogenation of maleic anhydride to different products were fitted and derived. The intrinsic reaction kinetic equations obtained in this study, when considering the influence of diffusion, can be applied in practical reactor design or process development, or directly used in research where diffusion effects are minimal. It is hoped that this study will provide guidance and assistance for the research on the reaction process of maleic anhydride hydrogenation to produce 1,4-butanediol and contribute to the development of the biodegradable plastics field. CRediT authorship contribution statement Xinyue Guan: Writing – review & editing, Writing – original draft, Data curation. Yingzhe Yu: Methodology, Conceptualization. Lingtao Wang: Resources, Investigation. Minhua Zhang: Visualization, Investigation, Data curation. Declaration of competing interest The authors declare that they have no known competing financial interests or personal relationships that could have appeared to influence the work reported in this paper. Acknowledgements This research did not receive any specific grant from funding agencies in the public, commercial, or not-for-profit sectors. Supplementary materials Supplementary material associated with this article can be found, in the online version, at doi:10.1016/j.mcat.2025.114908. Appendix Supplementary materials Image, application 1 References [1] D. Sun S. Sato W. Ueda Production of C4 and C5 alcohols from biomass-derived materials Green Chem 18 2016 2579 2597 D. Sun, S. Sato, W. Ueda, et al., Production of C4 and C5 alcohols from biomass-derived materials, Green Chem., 18 (2016) 2579–2597. [2] T. Haas B. Jaeger R. Weber New diol processes: 1,3-propanediol and 1,4-butanediol Appl. Catal., A 280 2005 83 88 10.1016/j.apcata.2004.08.027 T. Haas, B. Jaeger, R. Weber, et al., New diol processes: 1,3-propanediol and 1,4-butanediol, Appl. Catal., A, 280 (2005) 83–88 https://doi.org/10.1016/j.apcata.2004.08.027. [3] F. Li T. Lu B. Chen Pt nanoparticles over TiO2–ZrO2 mixed oxide as multifunctional catalysts for an integrated conversion of furfural to 1,4-butanediol Appl. Catal., A 478 2014 252 258 10.1016/j.apcata.2014.04.012 F. Li, T. Lu, B. Chen, et al., Pt nanoparticles over TiO2–ZrO2 mixed oxide as multifunctional catalysts for an integrated conversion of furfural to 1,4-butanediol, Appl. Catal., A, 478 (2014) 252–258 https://doi.org/10.1016/j.apcata.2014.04.012. [4] D. Zhang H. Yin C. Ge Selective hydrogenation of maleic anhydride to γ-butyrolactone and tetrahydrofuran by Cu–Zn–Zr catalyst in the presence of ethanol J. Ind. Eng. Chem. 15 2009 537 543 10.1016/j.jiec.2009.01.010 D. Zhang, H. Yin, C. Ge, et al., Selective hydrogenation of maleic anhydride to γ-butyrolactone and tetrahydrofuran by Cu–Zn–Zr catalyst in the presence of ethanol, J. Ind. Eng. Chem., 15 (2009) 537–543 https://doi.org/10.1016/j.jiec.2009.01.010. [5] B. Xu G. Li F. Liu Life cycle assessment and techno-economic analysis of maleic anhydride hydrogenation to 1,4-butanediol through biomass gasification coupling with chemical looping hydrogen production Renew Energy 237 2024 121623 10.1016/j.renene.2024.121623 B. Xu, G. Li, F. Liu, et al., Life cycle assessment and techno-economic analysis of maleic anhydride hydrogenation to 1,4-butanediol through biomass gasification coupling with chemical looping hydrogen production, Renew Energy, 237 (2024) 121623 https://doi.org/10.1016/j.renene.2024.121623. [6] A.L. Figueredo C.S. Costa M.L. Gothe Process optimization for a sustainable and selective conversion of fumaric acid into γ-butyrolactone over Pd-re/SiO2 Catal. Lett. 151 2021 1821 1833 10.1007/s10562-020-03433-3 A.L. Figueredo, C.S. Costa, M.L. Gothe, et al., Process optimization for a sustainable and selective conversion of fumaric acid into γ-butyrolactone over Pd-re/SiO2, Catal. Lett., 151 (2021) 1821–1833 10.1007/s10562-020-03433-3. [7] N. Harris M.W. Tuck Butanediol via maleic anhydride, Hydrocarbon Processing 69 1990 79 82 N. Harris, M.W. Tuck, Butanediol via maleic anhydride, Hydrocarbon Processing, 69 (1990) 79–82. [8] Z. Shao C. Li X. Di Aqueous-phase hydrogenation of succinic acid to γ-butyrolactone and tetrahydrofuran over Pd/C, re/C, and Pd–Re/C catalysts Ind. Eng. Chem. Res. 53 2014 9638 9645 10.1021/ie5006405 Z. Shao, C. Li, X. Di, et al., Aqueous-phase hydrogenation of succinic acid to γ-butyrolactone and tetrahydrofuran over Pd/C, re/C, and Pd–Re/C catalysts, Ind. Eng. Chem. Res., 53 (2014) 9638–9645 10.1021/ie5006405. [9] B. Tapin F. Epron C. Especel Influence of the Re introduction method onto Pd/TiO2 catalysts for the selective hydrogenation of succinic acid in aqueous-phase Catal. Today 235 2014 127 133 10.1016/j.cattod.2014.02.018 B. Tapin, F. Epron, C. Especel, et al., Influence of the Re introduction method onto Pd/TiO2 catalysts for the selective hydrogenation of succinic acid in aqueous-phase, Catal. Today, 235 (2014) 127–133 https://doi.org/10.1016/j.cattod.2014.02.018. [10] R.G.C. Silva T.F. Ferreira É.R. Borges Identification of potential technologies for 1,4-butanediol production using prospecting methodology J. Chem. Technol. Biotechnol. 95 2020 3057 3070 10.1002/jctb.6518 R.G.C. Silva, T.F. Ferreira, É.R. Borges, Identification of potential technologies for 1,4-butanediol production using prospecting methodology, J. Chem. Technol. Biotechnol., 95 (2020) 3057–3070 https://doi.org/10.1002/jctb.6518. [11] M. Mokhtar C. Ohlinger J.H. Schlander Hydrogenolysis of dimethyl maleate on Cu/ZnO/Al2O3 catalysts Chem. Eng. Technol. 24 2001 423 426 10.1002/1521-4125(200104)24:4<423::AID−CEAT423>3.0.CO;2-G M. Mokhtar, C. Ohlinger, J.H. Schlander, et al., Hydrogenolysis of dimethyl maleate on Cu/ZnO/Al2O3 catalysts, Chem. Eng. Technol., 24 (2001) 423–426 https://doi.org/10.1002/1521-4125(200104)24:4<423::AID−CEAT423>3.0.CO;2-G. [12] J.H. Schlander T. Turek Gas-phase hydrogenolysis of dimethyl maleate to 1,4-butanediol and γ-butyrolactone over copper/zinc oxide catalysts Ind. Eng. Chem. Res. 38 1999 1264 1270 10.1021/ie980606k J.H. Schlander, T. Turek, Gas-phase hydrogenolysis of dimethyl maleate to 1,4-butanediol and γ-butyrolactone over copper/zinc oxide catalysts, Ind. Eng. Chem. Res., 38 (1999) 1264–1270 10.1021/ie980606k. [13] U. Herrmann G. Emig Liquid phase hydrogenation of maleic anhydride and intermediates on copper-based and noble metal catalysts Ind. Eng. Chem. Res. 36 1997 2885 2896 10.1021/ie960229g U. Herrmann, G. Emig, Liquid phase hydrogenation of maleic anhydride and intermediates on copper-based and noble metal catalysts, Ind. Eng. Chem. Res., 36 (1997) 2885–2896 10.1021/ie960229g. [14] U.R. Pillai E. Sahle-Demessie Selective hydrogenation of maleic anhydride to γ-butyrolactone over Pd/Al2O3 catalyst using supercritical CO2 as solvent Chem. Commun. 2 2002 422 423 10.1039/b111047k U.R. Pillai, E. Sahle-Demessie, Selective hydrogenation of maleic anhydride to γ-butyrolactone over Pd/Al2O3 catalyst using supercritical CO2 as solvent, Chem. Commun., 2 (2002) 422–423 10.1039/b111047k. [15] Y. Yu Y. Guo W. Zhan Gas-phase hydrogenation of maleic anhydride to γ-butyrolactone at atmospheric pressure over Cu–CeO2–Al2O3 catalyst J. Mol. Catal. A: Chem. 337 2011 77 81 10.1016/j.molcata.2011.01.019 Y. Yu, Y. Guo, W. Zhan, et al., Gas-phase hydrogenation of maleic anhydride to γ-butyrolactone at atmospheric pressure over Cu–CeO2–Al2O3 catalyst, J. Mol. Catal. A: Chem., 337 (2011) 77–81 https://doi.org/10.1016/j.molcata.2011.01.019. [16] J. Tan X. Xia J. Cui Efficient tuning of surface nickel species of the Ni-phyllosilicate catalyst for the hydrogenation of maleic anhydride J. Phys. Chem. C 123 2019 9779 9787 10.1021/acs.jpcc.8b11972 J. Tan, X. Xia, J. Cui, et al., Efficient tuning of surface nickel species of the Ni-phyllosilicate catalyst for the hydrogenation of maleic anhydride, J. Phys. Chem. C, 123 (2019) 9779–9787 10.1021/acs.jpcc.8b11972. [17] C.I. Meyer A.J. Marchi A. Monzon Deactivation and regeneration of Cu/SiO2 catalyst in the hydrogenation of maleic anhydride. Kinetic modeling Appl. Catal., A 367 2009 122 129 10.1016/j.apcata.2009.07.041 C.I. Meyer, A.J. Marchi, A. Monzon, et al., Deactivation and regeneration of Cu/SiO2 catalyst in the hydrogenation of maleic anhydride. Kinetic modeling, Appl. Catal., A, 367 (2009) 122–129 https://doi.org/10.1016/j.apcata.2009.07.041. [18] D. Gao Y. Feng H. Yin Coupling reaction between ethanol dehydrogenation and maleic anhydride hydrogenation catalyzed by Cu/Al2O3, Cu/ZrO2, and Cu/ZnO catalysts Chem. Eng. J. 233 2013 349 359 10.1016/j.cej.2013.08.058 D. Gao, Y. Feng, H. Yin, et al., Coupling reaction between ethanol dehydrogenation and maleic anhydride hydrogenation catalyzed by Cu/Al2O3, Cu/ZrO2, and Cu/ZnO catalysts, Chem. Eng. J., 233 (2013) 349–359 https://doi.org/10.1016/j.cej.2013.08.058. [19] A. Javaid Integrated production of γ-butyrolactone through coupling of maleic anhydride hydrogenation and 1,4-butanediol dehydrogenation Period. Polytech. Chem. Eng. 58 2014 165 10.3311/PPch.7303 A. Javaid, Integrated production of γ-butyrolactone through coupling of maleic anhydride hydrogenation and 1,4-butanediol dehydrogenation, Period. Polytech. Chem. Eng., 58 (2014) 165 10.3311/PPch.7303. [20] Y.-L. Zhu J. Yang G.-Q. Dong An environmentally benign route to γ-butyrolactone through the coupling of hydrogenation and dehydrogenation Appl. Catal. B: Environ. 57 2005 183 190 10.1016/j.apcatb.2004.11.004 Y.-L. Zhu, J. Yang, G.-Q. Dong, et al., An environmentally benign route to γ-butyrolactone through the coupling of hydrogenation and dehydrogenation, Appl. Catal. B: Environ., 57 (2005) 183–190 https://doi.org/10.1016/j.apcatb.2004.11.004. [21] G.L. Castiglioni M. Ferrari A. Guercio Chromium-free catalysts for selective vapor phase hydrogenation of maleic anhydride to γ-butyrolactone Catal. Today 27 1996 181 186 10.1016/0920-5861(95)00209-X G.L. Castiglioni, M. Ferrari, A. Guercio, et al., Chromium-free catalysts for selective vapor phase hydrogenation of maleic anhydride to γ-butyrolactone, Catal. Today, 27 (1996) 181–186 https://doi.org/10.1016/0920-5861(95)00209-X. [22] M. Messori A. Vaccari Reaction pathway in vapor phase hydrogenation of maleic anhydride and its esters to γ-butyrolactone J. Catal. 150 1994 177 185 10.1006/jcat.1994.1334 M. Messori, A. Vaccari, Reaction pathway in vapor phase hydrogenation of maleic anhydride and its esters to γ-butyrolactone, J. Catal., 150 (1994) 177–185 https://doi.org/10.1006/jcat.1994.1334. [23] T. Hu H. Yin R. Zhang Gas phase hydrogenation of maleic anhydride to γ-butyrolactone by Cu–Zn–Ti catalysts Catal. Commun. 8 2007 193 199 10.1016/j.catcom.2006.06.009 T. Hu, H. Yin, R. Zhang, et al., Gas phase hydrogenation of maleic anhydride to γ-butyrolactone by Cu–Zn–Ti catalysts, Catal. Commun., 8 (2007) 193–199 https://doi.org/10.1016/j.catcom.2006.06.009. [24] D. Zhang H. Yin R. Zhang Gas phase hydrogenation of maleic anhydride to γ-butyrolactone by Cu–Zn–Ce catalyst in the presence of n-butanol Catal. Lett. 122 2008 176 182 10.1007/s10562-007-9366-4 D. Zhang, H. Yin, R. Zhang, et al., Gas phase hydrogenation of maleic anhydride to γ-butyrolactone by Cu–Zn–Ce catalyst in the presence of n-butanol, Catal. Lett., 122 (2008) 176–182 10.1007/s10562-007-9366-4. [25] X. Guan Y. Yu M. Zhang Theoretical insights into the reaction mechanism of direct hydrogenation of maleic anhydride to produce 1,4-butanediol on the Cu–ZnO surface ACS Catal 14 2024 6488 6502 10.1021/acscatal.4c00745 X. Guan, Y. Yu, M. Zhang, Theoretical insights into the reaction mechanism of direct hydrogenation of maleic anhydride to produce 1,4-butanediol on the Cu–ZnO surface, ACS Catal., 14 (2024) 6488–6502 10.1021/acscatal.4c00745. [26] U. Herrmann G. Emig Kinetics and mechanism in the liquid-phase hydrogenation of maleic anhydride and intermediates Chem. Eng. Technol. 21 1998 285 295 10.1002/(SICI)1521-4125(199803)21:3<285::AID−CEAT285>3.3.CO;2-8 U. Herrmann, G. Emig, Kinetics and mechanism in the liquid-phase hydrogenation of maleic anhydride and intermediates, Chem. Eng. Technol., 21 (1998) 285–295 10.1002/(SICI)1521-4125(199803)21:3<285::AID−CEAT285>3.3.CO;2-8. [27] A. Küksal E. Klemm G. Emig Reaction kinetics of the liquid-phase hydrogenation of succinic anhydride on CuZnO-catalysts with varying copper-to-zinc ratios in a three-phase slurry reactor Appl. Catal., A 228 2002 237 251 10.1016/S0926-860X(01)00978-4 A. Küksal, E. Klemm, G. Emig, Reaction kinetics of the liquid-phase hydrogenation of succinic anhydride on CuZnO-catalysts with varying copper-to-zinc ratios in a three-phase slurry reactor, Appl. Catal., A, 228 (2002) 237–251 https://doi.org/10.1016/S0926-860X(01)00978-4. [28] F. Sun, W.L. Huang, J. Li, Mesoscale structures in the adlayer of A-B2 heterogeneous catalysis, Langmuir, 33 (2017) 11582–11589 10.1021/acs.langmuir.7b01930. [29] S. Kattel P.J. Ramirez J.G. Chen Catalysis active sites for CO2 hydrogenation to methanol on Cu/ZnO catalysts Science 355 2017 1296 10.1126/science.aal3573 S. Kattel, P.J. Ramirez, J.G. Chen, et al., Catalysis active sites for CO2 hydrogenation to methanol on Cu/ZnO catalysts, Science, 355 (2017) 1296 10.1126/science.aal3573. [30] A.P.J. Jansen An introduction to Monte Carlo simulations of surface reactions Appl. Catal., A 160 1997 99 123 A.P.J. Jansen, An introduction to Monte Carlo simulations of surface reactions, Appl. Catal., A, 160 (1997) 99–123. [31] C.H. Turner J. Ji Z. Lu Analysis of the propylene epoxidation mechanism on supported gold nanoparticles Chem. Eng. Sci. 174 2017 229 237 10.1016/j.ces.2017.09.018 C.H. Turner, J. Ji, Z. Lu, et al., Analysis of the propylene epoxidation mechanism on supported gold nanoparticles, Chem. Eng. Sci., 174 (2017) 229–237 https://doi.org/10.1016/j.ces.2017.09.018. [32] D. Mei M. Neurock C.M. Smith Hydrogenation of acetylene–ethylene mixtures over Pd and Pd–Ag alloys: first-principles-based kinetic Monte Carlo simulations J. Catal. 268 2009 181 195 10.1016/j.jcat.2009.09.004 D. Mei, M. Neurock, C.M. Smith, Hydrogenation of acetylene–ethylene mixtures over Pd and Pd–Ag alloys: first-principles-based kinetic Monte Carlo simulations, J. Catal., 268 (2009) 181–195 https://doi.org/10.1016/j.jcat.2009.09.004. [33] D.R. Alfonso Kinetic Monte Carlo simulation of CO adsorption on sulfur-covered Pd(100) J. Phys. Chem. A 118 2014 7306 7313 D.R. Alfonso, Kinetic Monte Carlo simulation of CO adsorption on sulfur-covered Pd(100), J. Phys. Chem. A, 118 (2014) 7306–7313. [34] I. Bönicke W. Kirstein S. Spinzig CO adsorption studies on a stepped Cu(111) surface Surf. Sci. 313 1994 231 238 10.1016/0039-6028(94)90044-2 I. Bönicke, W. Kirstein, S. Spinzig, et al., CO adsorption studies on a stepped Cu(111) surface, Surf. Sci., 313 (1994) 231–238 https://doi.org/10.1016/0039-6028(94)90044-2. [35] B.J. Hinch L.H. Dubois Water adsorption on Cu(111): evidence for Volmer—Weber film growth Chem. Phys. Lett. 181 1991 10 15 10.1016/0009-2614(91)90213-S B.J. Hinch, L.H. Dubois, Water adsorption on Cu(111): evidence for Volmer—Weber film growth, Chem. Phys. Lett., 181 (1991) 10–15 https://doi.org/10.1016/0009-2614(91)90213-S. [36] H. Prats P. Gamallo F. Illas Comparing the catalytic activity of the water gas shift reaction on Cu(321) and Cu(111) surfaces: step sites do not always enhance the overall reactivity J. Catal. 342 2016 75 83 10.1016/j.jcat.2016.07.013 H. Prats, P. Gamallo, F. Illas, et al., Comparing the catalytic activity of the water gas shift reaction on Cu(321) and Cu(111) surfaces: step sites do not always enhance the overall reactivity, J. Catal., 342 (2016) 75–83 https://doi.org/10.1016/j.jcat.2016.07.013. [37] G. Henkelman Atomistic simulations of activated processes in materials Annu. Rev. Mater. Res. 47 2017 199 216 10.1146/annurev-matsci-071312-121616 G. Henkelman, Atomistic simulations of activated processes in materials, Annu. Rev. Mater. Res., 47 (2017) 199–216 10.1146/annurev-matsci-071312-121616. [38] Q.-L. Tang Q.-J. Hong Z.-P. Liu CO2 fixation into methanol at Cu/ZrO2 interface from first principles kinetic Monte Carlo J. Catal. 263 2009 114 122 10.1016/j.jcat.2009.01.017 Q.-L. Tang, Q.-J. Hong, Z.-P. Liu, CO2 fixation into methanol at Cu/ZrO2 interface from first principles kinetic Monte Carlo, J. Catal., 263 (2009) 114–122 https://doi.org/10.1016/j.jcat.2009.01.017. [39] J. Nielsen M. d'Avezac J. Hetherington Parallel kinetic Monte Carlo simulation framework incorporating accurate models of adsorbate lateral interactions J. Chem. Phys. 139 2013 10.1063/1.4840395 J. Nielsen, M. d'Avezac, J. Hetherington, et al., Parallel kinetic Monte Carlo simulation framework incorporating accurate models of adsorbate lateral interactions, J. Chem. Phys., 139 (2013) 10.1063/1.4840395. [40] A. Jansen, An introduction to Monte Carlo simulations of surface reactions, 2003. [41] M. Stamatakis D.G. Vlachos Unraveling the complexity of catalytic reactions via kinetic Monte Carlo simulation: current status and frontiers ACS Catal 2 2012 2648 2663 10.1021/cs3005709 M. Stamatakis, D.G. Vlachos, Unraveling the complexity of catalytic reactions via kinetic Monte Carlo simulation: current status and frontiers, ACS Catal., 2 (2012) 2648–2663 10.1021/cs3005709. [42] M. Behrens F. Studt I. Kasatkin The active site of methanol synthesis over Cu/ZnO/Al2O3 industrial catalysts Science 336 2012 893 897 10.1126/science.1219831 M. Behrens, F. Studt, I. Kasatkin, et al., The active site of methanol synthesis over Cu/ZnO/Al2O3 industrial catalysts, Science, 336 (2012) 893–897 10.1126/science.1219831. [43] G. Bai 1,4-Butanediol, tetrahydrofuran, and Their Derivatives 2013 The Chemical Industry Press G. Bai, 1,4-Butanediol, tetrahydrofuran, and Their Derivatives., The Chemical Industry Press, 2013.",
+      "scopus-id": "85217500223",
+      "coredata": {
+        "eid": "1-s2.0-S246882312500094X",
+        "dc:description": "1,4-butanediol serves as a crucial monomeric building block for the production of biodegradable plastics such as PBS and PBAT, and it can also be utilized for the synthesis of derivatives like γ-butyrolactone and tetrahydrofuran. The technology of direct hydrogenation of maleic anhydride to 1,4-butanediol over Cu-ZnO has emerged as a promising production method due to its advantages of a short process flow, mild reaction conditions, cost-effective catalysts, and the capability to co-produce various products. However, at the current stage, the reaction kinetic equations and optimal conditions for 1,4-butanediol formation via direct hydrogenation of maleic anhydride over Cu-ZnO remain unclear, which hinders the development of this production process. In this study, based on the findings of density functional theory, this study investigated the reaction kinetics of direct hydrogenation of maleic anhydride on Cu211 surfaces and at Cu211-ZnO interfaces using activity evaluation experiments and kinetic Monte Carlo simulations. Through activity evaluation experiments of direct hydrogenation of maleic anhydride, this study examined the effects of temperature, pressure, and hydrogen-to-anhydride ratio on product formation over Cu-ZnO catalysts and identified the optimal reaction conditions for 1,4-butanediol production as 200 °C, 2 MPa, and a hydrogen-to-anhydride ratio of 150. Utilizing the kinetic Monte Carlo method, this study calculated the reaction processes for the direct hydrogenation of maleic anhydride to γ-butyrolactone on Cu211 surfaces and to γ-butyrolactone, 1,4-butanediol, and tetrahydrofuran at Cu211-ZnO interfaces. The optimal reaction conditions for the formation of maleic anhydride to γ-butyrolactone, 1,4-butanediol, and tetrahydrofuran were obtained, respectively. Finally, intrinsic reaction kinetic equations for the direct hydrogenation of maleic anhydride to different products were fitted and derived. The obtained intrinsic reaction kinetic equations can be applied in the design of actual reactors or process development after considering the influence of diffusion or directly used in studies where diffusion effects are insignificant. This provides a design foundation for the construction of production processes for direct hydrogenation of maleic anhydride to 1,4-butanediol over Cu-ZnO. It is hoped that this study can offer insights and guidance for the understanding of the direct hydrogenation process of maleic anhydride and the development of the biodegradable plastics industry.",
+        "openArchiveArticle": "false",
+        "prism:coverDate": "2025-03-15",
+        "openaccessUserLicense": null,
+        "prism:aggregationType": "Journal",
+        "prism:url": "https://api.elsevier.com/content/article/pii/S246882312500094X",
+        "dc:creator": [
+          {
+            "@_fa": "true",
+            "$": "Guan, Xinyue"
+          },
+          {
+            "@_fa": "true",
+            "$": "Yu, Yingzhe"
+          },
+          {
+            "@_fa": "true",
+            "$": "Wang, Lingtao"
+          },
+          {
+            "@_fa": "true",
+            "$": "Zhang, Minhua"
+          }
+        ],
+        "link": [
+          {
+            "@_fa": "true",
+            "@rel": "self",
+            "@href": "https://api.elsevier.com/content/article/pii/S246882312500094X"
+          },
+          {
+            "@_fa": "true",
+            "@rel": "scidir",
+            "@href": "https://www.sciencedirect.com/science/article/pii/S246882312500094X"
+          }
+        ],
+        "dc:format": "application/json",
+        "openaccessType": null,
+        "pii": "S2468-8231(25)00094-X",
+        "prism:volume": "575",
+        "articleNumber": "114908",
+        "prism:publisher": "Elsevier B.V. All rights are reserved, including those for text and data mining, AI training, and similar technologies.",
+        "dc:title": "Investigation of the reaction kinetics for the direct hydrogenation of maleic anhydride to 1,4-butanediol over Cu-ZnO catalyst",
+        "prism:copyright": "© 2025 Elsevier B.V. All rights are reserved, including those for text and data mining, AI training, and similar technologies.",
+        "openaccess": "0",
+        "prism:issn": "24688231",
+        "dcterms:subject": [
+          {
+            "@_fa": "true",
+            "$": "Maleic anhydride"
+          },
+          {
+            "@_fa": "true",
+            "$": "1,4-butanediol"
+          },
+          {
+            "@_fa": "true",
+            "$": "Cu-ZnO"
+          },
+          {
+            "@_fa": "true",
+            "$": "Reaction kinetic"
+          },
+          {
+            "@_fa": "true",
+            "$": "Activity evaluation experiments"
+          },
+          {
+            "@_fa": "true",
+            "$": "kinetic Monte Carlo"
+          }
+        ],
+        "openaccessArticle": "false",
+        "prism:publicationName": "Molecular Catalysis",
+        "openaccessSponsorType": null,
+        "prism:pageRange": "114908",
+        "pubType": "fla",
+        "prism:coverDisplayDate": "15 March 2025",
+        "prism:doi": "10.1016/j.mcat.2025.114908",
+        "prism:startingPage": "114908",
+        "dc:identifier": "doi:10.1016/j.mcat.2025.114908",
+        "openaccessSponsorName": null
+      },
+      "objects": {
+        "object": [
+          {
+            "@category": "standard",
+            "@height": "431",
+            "@width": "678",
+            "@_fa": "true",
+            "$": "https://api.elsevier.com/content/object/eid/1-s2.0-S246882312500094X-gr1.jpg?httpAccept=%2A%2F%2A",
+            "@multimediatype": "JPEG image file",
+            "@type": "IMAGE-DOWNSAMPLED",
+            "@size": "38975",
+            "@ref": "gr1",
+            "@mimetype": "image/jpeg"
+          },
+          {
+            "@category": "standard",
+            "@height": "300",
+            "@width": "678",
+            "@_fa": "true",
+            "$": "https://api.elsevier.com/content/object/eid/1-s2.0-S246882312500094X-gr5.jpg?httpAccept=%2A%2F%2A",
+            "@multimediatype": "JPEG image file",
+            "@type": "IMAGE-DOWNSAMPLED",
+            "@size": "44650",
+            "@ref": "gr5",
+            "@mimetype": "image/jpeg"
+          },
+          {
+            "@category": "standard",
+            "@height": "300",
+            "@width": "678",
+            "@_fa": "true",
+            "$": "https://api.elsevier.com/content/object/eid/1-s2.0-S246882312500094X-gr4.jpg?httpAccept=%2A%2F%2A",
+            "@multimediatype": "JPEG image file",
+            "@type": "IMAGE-DOWNSAMPLED",
+            "@size": "44659",
+            "@ref": "gr4",
+            "@mimetype": "image/jpeg"
+          },
+          {
+            "@category": "standard",
+            "@height": "307",
+            "@width": "678",
+            "@_fa": "true",
+            "$": "https://api.elsevier.com/content/object/eid/1-s2.0-S246882312500094X-gr3.jpg?httpAccept=%2A%2F%2A",
+            "@multimediatype": "JPEG image file",
+            "@type": "IMAGE-DOWNSAMPLED",
+            "@size": "42862",
+            "@ref": "gr3",
+            "@mimetype": "image/jpeg"
+          },
+          {
+            "@category": "standard",
+            "@height": "454",
+            "@width": "678",
+            "@_fa": "true",
+            "$": "https://api.elsevier.com/content/object/eid/1-s2.0-S246882312500094X-gr2.jpg?httpAccept=%2A%2F%2A",
+            "@multimediatype": "JPEG image file",
+            "@type": "IMAGE-DOWNSAMPLED",
+            "@size": "170898",
+            "@ref": "gr2",
+            "@mimetype": "image/jpeg"
+          },
+          {
+            "@category": "standard",
+            "@height": "200",
+            "@width": "349",
+            "@_fa": "true",
+            "$": "https://api.elsevier.com/content/object/eid/1-s2.0-S246882312500094X-ga1.jpg?httpAccept=%2A%2F%2A",
+            "@multimediatype": "JPEG image file",
+            "@type": "IMAGE-DOWNSAMPLED",
+            "@size": "37855",
+            "@ref": "ga1",
+            "@mimetype": "image/jpeg"
+          },
+          {
+            "@category": "standard",
+            "@height": "574",
+            "@width": "678",
+            "@_fa": "true",
+            "$": "https://api.elsevier.com/content/object/eid/1-s2.0-S246882312500094X-gr7.jpg?httpAccept=%2A%2F%2A",
+            "@multimediatype": "JPEG image file",
+            "@type": "IMAGE-DOWNSAMPLED",
+            "@size": "65158",
+            "@ref": "gr7",
+            "@mimetype": "image/jpeg"
+          },
+          {
+            "@category": "standard",
+            "@height": "583",
+            "@width": "678",
+            "@_fa": "true",
+            "$": "https://api.elsevier.com/content/object/eid/1-s2.0-S246882312500094X-gr6.jpg?httpAccept=%2A%2F%2A",
+            "@multimediatype": "JPEG image file",
+            "@type": "IMAGE-DOWNSAMPLED",
+            "@size": "46022",
+            "@ref": "gr6",
+            "@mimetype": "image/jpeg"
+          },
+          {
+            "@category": "thumbnail",
+            "@height": "139",
+            "@width": "219",
+            "@_fa": "true",
+            "$": "https://api.elsevier.com/content/object/eid/1-s2.0-S246882312500094X-gr1.sml?httpAccept=%2A%2F%2A",
+            "@multimediatype": "GIF image file",
+            "@type": "IMAGE-THUMBNAIL",
+            "@size": "7413",
+            "@ref": "gr1",
+            "@mimetype": "image/gif"
+          },
+          {
+            "@category": "thumbnail",
+            "@height": "97",
+            "@width": "219",
+            "@_fa": "true",
+            "$": "https://api.elsevier.com/content/object/eid/1-s2.0-S246882312500094X-gr5.sml?httpAccept=%2A%2F%2A",
+            "@multimediatype": "GIF image file",
+            "@type": "IMAGE-THUMBNAIL",
+            "@size": "7186",
+            "@ref": "gr5",
+            "@mimetype": "image/gif"
+          },
+          {
+            "@category": "thumbnail",
+            "@height": "97",
+            "@width": "219",
+            "@_fa": "true",
+            "$": "https://api.elsevier.com/content/object/eid/1-s2.0-S246882312500094X-gr4.sml?httpAccept=%2A%2F%2A",
+            "@multimediatype": "GIF image file",
+            "@type": "IMAGE-THUMBNAIL",
+            "@size": "7228",
+            "@ref": "gr4",
+            "@mimetype": "image/gif"
+          },
+          {
+            "@category": "thumbnail",
+            "@height": "99",
+            "@width": "219",
+            "@_fa": "true",
+            "$": "https://api.elsevier.com/content/object/eid/1-s2.0-S246882312500094X-gr3.sml?httpAccept=%2A%2F%2A",
+            "@multimediatype": "GIF image file",
+            "@type": "IMAGE-THUMBNAIL",
+            "@size": "7087",
+            "@ref": "gr3",
+            "@mimetype": "image/gif"
+          },
+          {
+            "@category": "thumbnail",
+            "@height": "147",
+            "@width": "219",
+            "@_fa": "true",
+            "$": "https://api.elsevier.com/content/object/eid/1-s2.0-S246882312500094X-gr2.sml?httpAccept=%2A%2F%2A",
+            "@multimediatype": "GIF image file",
+            "@type": "IMAGE-THUMBNAIL",
+            "@size": "25047",
+            "@ref": "gr2",
+            "@mimetype": "image/gif"
+          },
+          {
+            "@category": "thumbnail",
+            "@height": "125",
+            "@width": "219",
+            "@_fa": "true",
+            "$": "https://api.elsevier.com/content/object/eid/1-s2.0-S246882312500094X-ga1.sml?httpAccept=%2A%2F%2A",
+            "@multimediatype": "GIF image file",
+            "@type": "IMAGE-THUMBNAIL",
+            "@size": "21167",
+            "@ref": "ga1",
+            "@mimetype": "image/gif"
+          },
+          {
+            "@category": "thumbnail",
+            "@height": "164",
+            "@width": "194",
+            "@_fa": "true",
+            "$": "https://api.elsevier.com/content/object/eid/1-s2.0-S246882312500094X-gr7.sml?httpAccept=%2A%2F%2A",
+            "@multimediatype": "GIF image file",
+            "@type": "IMAGE-THUMBNAIL",
+            "@size": "12847",
+            "@ref": "gr7",
+            "@mimetype": "image/gif"
+          },
+          {
+            "@category": "thumbnail",
+            "@height": "163",
+            "@width": "190",
+            "@_fa": "true",
+            "$": "https://api.elsevier.com/content/object/eid/1-s2.0-S246882312500094X-gr6.sml?httpAccept=%2A%2F%2A",
+            "@multimediatype": "GIF image file",
+            "@type": "IMAGE-THUMBNAIL",
+            "@size": "7576",
+            "@ref": "gr6",
+            "@mimetype": "image/gif"
+          },
+          {
+            "@category": "high",
+            "@height": "1908",
+            "@width": "3000",
+            "@_fa": "true",
+            "$": "https://api.elsevier.com/content/object/eid/1-s2.0-S246882312500094X-gr1_lrg.jpg?httpAccept=%2A%2F%2A",
+            "@multimediatype": "JPEG image file",
+            "@type": "IMAGE-HIGH-RES",
+            "@size": "324786",
+            "@ref": "gr1",
+            "@mimetype": "image/jpeg"
+          },
+          {
+            "@category": "high",
+            "@height": "1327",
+            "@width": "3000",
+            "@_fa": "true",
+            "$": "https://api.elsevier.com/content/object/eid/1-s2.0-S246882312500094X-gr5_lrg.jpg?httpAccept=%2A%2F%2A",
+            "@multimediatype": "JPEG image file",
+            "@type": "IMAGE-HIGH-RES",
+            "@size": "259723",
+            "@ref": "gr5",
+            "@mimetype": "image/jpeg"
+          },
+          {
+            "@category": "high",
+            "@height": "1327",
+            "@width": "3000",
+            "@_fa": "true",
+            "$": "https://api.elsevier.com/content/object/eid/1-s2.0-S246882312500094X-gr4_lrg.jpg?httpAccept=%2A%2F%2A",
+            "@multimediatype": "JPEG image file",
+            "@type": "IMAGE-HIGH-RES",
+            "@size": "260103",
+            "@ref": "gr4",
+            "@mimetype": "image/jpeg"
+          },
+          {
+            "@category": "high",
+            "@height": "1358",
+            "@width": "3000",
+            "@_fa": "true",
+            "$": "https://api.elsevier.com/content/object/eid/1-s2.0-S246882312500094X-gr3_lrg.jpg?httpAccept=%2A%2F%2A",
+            "@multimediatype": "JPEG image file",
+            "@type": "IMAGE-HIGH-RES",
+            "@size": "254109",
+            "@ref": "gr3",
+            "@mimetype": "image/jpeg"
+          },
+          {
+            "@category": "high",
+            "@height": "2008",
+            "@width": "3000",
+            "@_fa": "true",
+            "$": "https://api.elsevier.com/content/object/eid/1-s2.0-S246882312500094X-gr2_lrg.jpg?httpAccept=%2A%2F%2A",
+            "@multimediatype": "JPEG image file",
+            "@type": "IMAGE-HIGH-RES",
+            "@size": "1336643",
+            "@ref": "gr2",
+            "@mimetype": "image/jpeg"
+          },
+          {
+            "@category": "high",
+            "@height": "886",
+            "@width": "1547",
+            "@_fa": "true",
+            "$": "https://api.elsevier.com/content/object/eid/1-s2.0-S246882312500094X-ga1_lrg.jpg?httpAccept=%2A%2F%2A",
+            "@multimediatype": "JPEG image file",
+            "@type": "IMAGE-HIGH-RES",
+            "@size": "312429",
+            "@ref": "ga1",
+            "@mimetype": "image/jpeg"
+          },
+          {
+            "@category": "high",
+            "@height": "2539",
+            "@width": "3000",
+            "@_fa": "true",
+            "$": "https://api.elsevier.com/content/object/eid/1-s2.0-S246882312500094X-gr7_lrg.jpg?httpAccept=%2A%2F%2A",
+            "@multimediatype": "JPEG image file",
+            "@type": "IMAGE-HIGH-RES",
+            "@size": "431006",
+            "@ref": "gr7",
+            "@mimetype": "image/jpeg"
+          },
+          {
+            "@category": "high",
+            "@height": "2580",
+            "@width": "3000",
+            "@_fa": "true",
+            "$": "https://api.elsevier.com/content/object/eid/1-s2.0-S246882312500094X-gr6_lrg.jpg?httpAccept=%2A%2F%2A",
+            "@multimediatype": "JPEG image file",
+            "@type": "IMAGE-HIGH-RES",
+            "@size": "320033",
+            "@ref": "gr6",
+            "@mimetype": "image/jpeg"
+          },
+          {
+            "@category": "standard",
+            "@_fa": "true",
+            "$": "https://api.elsevier.com/content/object/eid/1-s2.0-S246882312500094X-mmc1.docx?httpAccept=%2A%2F%2A",
+            "@multimediatype": "Microsoft Word file",
+            "@type": "APPLICATION",
+            "@size": "47148",
+            "@ref": "mmc1",
+            "@mimetype": "application/word"
+          },
+          {
+            "@category": "thumbnail",
+            "@_fa": "true",
+            "$": "https://api.elsevier.com/content/object/eid/1-s2.0-S246882312500094X-si1.svg?httpAccept=%2A%2F%2A",
+            "@multimediatype": "Scalable Vector Graphics file",
+            "@type": "ALTIMG",
+            "@size": "850",
+            "@ref": "si1",
+            "@mimetype": "image/svg+xml"
+          },
+          {
+            "@category": "thumbnail",
+            "@_fa": "true",
+            "$": "https://api.elsevier.com/content/object/eid/1-s2.0-S246882312500094X-si10.svg?httpAccept=%2A%2F%2A",
+            "@multimediatype": "Scalable Vector Graphics file",
+            "@type": "ALTIMG",
+            "@size": "8277",
+            "@ref": "si10",
+            "@mimetype": "image/svg+xml"
+          },
+          {
+            "@category": "thumbnail",
+            "@_fa": "true",
+            "$": "https://api.elsevier.com/content/object/eid/1-s2.0-S246882312500094X-si11.svg?httpAccept=%2A%2F%2A",
+            "@multimediatype": "Scalable Vector Graphics file",
+            "@type": "ALTIMG",
+            "@size": "10307",
+            "@ref": "si11",
+            "@mimetype": "image/svg+xml"
+          },
+          {
+            "@category": "thumbnail",
+            "@_fa": "true",
+            "$": "https://api.elsevier.com/content/object/eid/1-s2.0-S246882312500094X-si12.svg?httpAccept=%2A%2F%2A",
+            "@multimediatype": "Scalable Vector Graphics file",
+            "@type": "ALTIMG",
+            "@size": "10461",
+            "@ref": "si12",
+            "@mimetype": "image/svg+xml"
+          },
+          {
+            "@category": "thumbnail",
+            "@_fa": "true",
+            "$": "https://api.elsevier.com/content/object/eid/1-s2.0-S246882312500094X-si13.svg?httpAccept=%2A%2F%2A",
+            "@multimediatype": "Scalable Vector Graphics file",
+            "@type": "ALTIMG",
+            "@size": "10507",
+            "@ref": "si13",
+            "@mimetype": "image/svg+xml"
+          },
+          {
+            "@category": "thumbnail",
+            "@_fa": "true",
+            "$": "https://api.elsevier.com/content/object/eid/1-s2.0-S246882312500094X-si14.svg?httpAccept=%2A%2F%2A",
+            "@multimediatype": "Scalable Vector Graphics file",
+            "@type": "ALTIMG",
+            "@size": "7273",
+            "@ref": "si14",
+            "@mimetype": "image/svg+xml"
+          },
+          {
+            "@category": "thumbnail",
+            "@_fa": "true",
+            "$": "https://api.elsevier.com/content/object/eid/1-s2.0-S246882312500094X-si15.svg?httpAccept=%2A%2F%2A",
+            "@multimediatype": "Scalable Vector Graphics file",
+            "@type": "ALTIMG",
+            "@size": "6013",
+            "@ref": "si15",
+            "@mimetype": "image/svg+xml"
+          },
+          {
+            "@category": "thumbnail",
+            "@_fa": "true",
+            "$": "https://api.elsevier.com/content/object/eid/1-s2.0-S246882312500094X-si16.svg?httpAccept=%2A%2F%2A",
+            "@multimediatype": "Scalable Vector Graphics file",
+            "@type": "ALTIMG",
+            "@size": "7230",
+            "@ref": "si16",
+            "@mimetype": "image/svg+xml"
+          },
+          {
+            "@category": "thumbnail",
+            "@_fa": "true",
+            "$": "https://api.elsevier.com/content/object/eid/1-s2.0-S246882312500094X-si17.svg?httpAccept=%2A%2F%2A",
+            "@multimediatype": "Scalable Vector Graphics file",
+            "@type": "ALTIMG",
+            "@size": "5805",
+            "@ref": "si17",
+            "@mimetype": "image/svg+xml"
+          },
+          {
+            "@category": "thumbnail",
+            "@_fa": "true",
+            "$": "https://api.elsevier.com/content/object/eid/1-s2.0-S246882312500094X-si18.svg?httpAccept=%2A%2F%2A",
+            "@multimediatype": "Scalable Vector Graphics file",
+            "@type": "ALTIMG",
+            "@size": "8701",
+            "@ref": "si18",
+            "@mimetype": "image/svg+xml"
+          },
+          {
+            "@category": "thumbnail",
+            "@_fa": "true",
+            "$": "https://api.elsevier.com/content/object/eid/1-s2.0-S246882312500094X-si19.svg?httpAccept=%2A%2F%2A",
+            "@multimediatype": "Scalable Vector Graphics file",
+            "@type": "ALTIMG",
+            "@size": "18661",
+            "@ref": "si19",
+            "@mimetype": "image/svg+xml"
+          },
+          {
+            "@category": "thumbnail",
+            "@_fa": "true",
+            "$": "https://api.elsevier.com/content/object/eid/1-s2.0-S246882312500094X-si2.svg?httpAccept=%2A%2F%2A",
+            "@multimediatype": "Scalable Vector Graphics file",
+            "@type": "ALTIMG",
+            "@size": "850",
+            "@ref": "si2",
+            "@mimetype": "image/svg+xml"
+          },
+          {
+            "@category": "thumbnail",
+            "@_fa": "true",
+            "$": "https://api.elsevier.com/content/object/eid/1-s2.0-S246882312500094X-si20.svg?httpAccept=%2A%2F%2A",
+            "@multimediatype": "Scalable Vector Graphics file",
+            "@type": "ALTIMG",
+            "@size": "18660",
+            "@ref": "si20",
+            "@mimetype": "image/svg+xml"
+          },
+          {
+            "@category": "thumbnail",
+            "@_fa": "true",
+            "$": "https://api.elsevier.com/content/object/eid/1-s2.0-S246882312500094X-si21.svg?httpAccept=%2A%2F%2A",
+            "@multimediatype": "Scalable Vector Graphics file",
+            "@type": "ALTIMG",
+            "@size": "15475",
+            "@ref": "si21",
+            "@mimetype": "image/svg+xml"
+          },
+          {
+            "@category": "thumbnail",
+            "@_fa": "true",
+            "$": "https://api.elsevier.com/content/object/eid/1-s2.0-S246882312500094X-si22.svg?httpAccept=%2A%2F%2A",
+            "@multimediatype": "Scalable Vector Graphics file",
+            "@type": "ALTIMG",
+            "@size": "16666",
+            "@ref": "si22",
+            "@mimetype": "image/svg+xml"
+          },
+          {
+            "@category": "thumbnail",
+            "@_fa": "true",
+            "$": "https://api.elsevier.com/content/object/eid/1-s2.0-S246882312500094X-si23.svg?httpAccept=%2A%2F%2A",
+            "@multimediatype": "Scalable Vector Graphics file",
+            "@type": "ALTIMG",
+            "@size": "2404",
+            "@ref": "si23",
+            "@mimetype": "image/svg+xml"
+          },
+          {
+            "@category": "thumbnail",
+            "@_fa": "true",
+            "$": "https://api.elsevier.com/content/object/eid/1-s2.0-S246882312500094X-si24.svg?httpAccept=%2A%2F%2A",
+            "@multimediatype": "Scalable Vector Graphics file",
+            "@type": "ALTIMG",
+            "@size": "25277",
+            "@ref": "si24",
+            "@mimetype": "image/svg+xml"
+          },
+          {
+            "@category": "thumbnail",
+            "@_fa": "true",
+            "$": "https://api.elsevier.com/content/object/eid/1-s2.0-S246882312500094X-si25.svg?httpAccept=%2A%2F%2A",
+            "@multimediatype": "Scalable Vector Graphics file",
+            "@type": "ALTIMG",
+            "@size": "22172",
+            "@ref": "si25",
+            "@mimetype": "image/svg+xml"
+          },
+          {
+            "@category": "thumbnail",
+            "@_fa": "true",
+            "$": "https://api.elsevier.com/content/object/eid/1-s2.0-S246882312500094X-si26.svg?httpAccept=%2A%2F%2A",
+            "@multimediatype": "Scalable Vector Graphics file",
+            "@type": "ALTIMG",
+            "@size": "22888",
+            "@ref": "si26",
+            "@mimetype": "image/svg+xml"
+          },
+          {
+            "@category": "thumbnail",
+            "@_fa": "true",
+            "$": "https://api.elsevier.com/content/object/eid/1-s2.0-S246882312500094X-si27.svg?httpAccept=%2A%2F%2A",
+            "@multimediatype": "Scalable Vector Graphics file",
+            "@type": "ALTIMG",
+            "@size": "12553",
+            "@ref": "si27",
+            "@mimetype": "image/svg+xml"
+          },
+          {
+            "@category": "thumbnail",
+            "@_fa": "true",
+            "$": "https://api.elsevier.com/content/object/eid/1-s2.0-S246882312500094X-si28.svg?httpAccept=%2A%2F%2A",
+            "@multimediatype": "Scalable Vector Graphics file",
+            "@type": "ALTIMG",
+            "@size": "12489",
+            "@ref": "si28",
+            "@mimetype": "image/svg+xml"
+          },
+          {
+            "@category": "thumbnail",
+            "@_fa": "true",
+            "$": "https://api.elsevier.com/content/object/eid/1-s2.0-S246882312500094X-si29.svg?httpAccept=%2A%2F%2A",
+            "@multimediatype": "Scalable Vector Graphics file",
+            "@type": "ALTIMG",
+            "@size": "1227",
+            "@ref": "si29",
+            "@mimetype": "image/svg+xml"
+          },
+          {
+            "@category": "thumbnail",
+            "@_fa": "true",
+            "$": "https://api.elsevier.com/content/object/eid/1-s2.0-S246882312500094X-si3.svg?httpAccept=%2A%2F%2A",
+            "@multimediatype": "Scalable Vector Graphics file",
+            "@type": "ALTIMG",
+            "@size": "1095",
+            "@ref": "si3",
+            "@mimetype": "image/svg+xml"
+          },
+          {
+            "@category": "thumbnail",
+            "@_fa": "true",
+            "$": "https://api.elsevier.com/content/object/eid/1-s2.0-S246882312500094X-si30.svg?httpAccept=%2A%2F%2A",
+            "@multimediatype": "Scalable Vector Graphics file",
+            "@type": "ALTIMG",
+            "@size": "3688",
+            "@ref": "si30",
+            "@mimetype": "image/svg+xml"
+          },
+          {
+            "@category": "thumbnail",
+            "@_fa": "true",
+            "$": "https://api.elsevier.com/content/object/eid/1-s2.0-S246882312500094X-si31.svg?httpAccept=%2A%2F%2A",
+            "@multimediatype": "Scalable Vector Graphics file",
+            "@type": "ALTIMG",
+            "@size": "2030",
+            "@ref": "si31",
+            "@mimetype": "image/svg+xml"
+          },
+          {
+            "@category": "thumbnail",
+            "@_fa": "true",
+            "$": "https://api.elsevier.com/content/object/eid/1-s2.0-S246882312500094X-si32.svg?httpAccept=%2A%2F%2A",
+            "@multimediatype": "Scalable Vector Graphics file",
+            "@type": "ALTIMG",
+            "@size": "8990",
+            "@ref": "si32",
+            "@mimetype": "image/svg+xml"
+          },
+          {
+            "@category": "thumbnail",
+            "@_fa": "true",
+            "$": "https://api.elsevier.com/content/object/eid/1-s2.0-S246882312500094X-si33.svg?httpAccept=%2A%2F%2A",
+            "@multimediatype": "Scalable Vector Graphics file",
+            "@type": "ALTIMG",
+            "@size": "951",
+            "@ref": "si33",
+            "@mimetype": "image/svg+xml"
+          },
+          {
+            "@category": "thumbnail",
+            "@_fa": "true",
+            "$": "https://api.elsevier.com/content/object/eid/1-s2.0-S246882312500094X-si34.svg?httpAccept=%2A%2F%2A",
+            "@multimediatype": "Scalable Vector Graphics file",
+            "@type": "ALTIMG",
+            "@size": "2361",
+            "@ref": "si34",
+            "@mimetype": "image/svg+xml"
+          },
+          {
+            "@category": "thumbnail",
+            "@_fa": "true",
+            "$": "https://api.elsevier.com/content/object/eid/1-s2.0-S246882312500094X-si35.svg?httpAccept=%2A%2F%2A",
+            "@multimediatype": "Scalable Vector Graphics file",
+            "@type": "ALTIMG",
+            "@size": "8064",
+            "@ref": "si35",
+            "@mimetype": "image/svg+xml"
+          },
+          {
+            "@category": "thumbnail",
+            "@_fa": "true",
+            "$": "https://api.elsevier.com/content/object/eid/1-s2.0-S246882312500094X-si36.svg?httpAccept=%2A%2F%2A",
+            "@multimediatype": "Scalable Vector Graphics file",
+            "@type": "ALTIMG",
+            "@size": "3184",
+            "@ref": "si36",
+            "@mimetype": "image/svg+xml"
+          },
+          {
+            "@category": "thumbnail",
+            "@_fa": "true",
+            "$": "https://api.elsevier.com/content/object/eid/1-s2.0-S246882312500094X-si37.svg?httpAccept=%2A%2F%2A",
+            "@multimediatype": "Scalable Vector Graphics file",
+            "@type": "ALTIMG",
+            "@size": "3235",
+            "@ref": "si37",
+            "@mimetype": "image/svg+xml"
+          },
+          {
+            "@category": "thumbnail",
+            "@_fa": "true",
+            "$": "https://api.elsevier.com/content/object/eid/1-s2.0-S246882312500094X-si38.svg?httpAccept=%2A%2F%2A",
+            "@multimediatype": "Scalable Vector Graphics file",
+            "@type": "ALTIMG",
+            "@size": "3827",
+            "@ref": "si38",
+            "@mimetype": "image/svg+xml"
+          },
+          {
+            "@category": "thumbnail",
+            "@_fa": "true",
+            "$": "https://api.elsevier.com/content/object/eid/1-s2.0-S246882312500094X-si39.svg?httpAccept=%2A%2F%2A",
+            "@multimediatype": "Scalable Vector Graphics file",
+            "@type": "ALTIMG",
+            "@size": "4151",
+            "@ref": "si39",
+            "@mimetype": "image/svg+xml"
+          },
+          {
+            "@category": "thumbnail",
+            "@_fa": "true",
+            "$": "https://api.elsevier.com/content/object/eid/1-s2.0-S246882312500094X-si4.svg?httpAccept=%2A%2F%2A",
+            "@multimediatype": "Scalable Vector Graphics file",
+            "@type": "ALTIMG",
+            "@size": "6339",
+            "@ref": "si4",
+            "@mimetype": "image/svg+xml"
+          },
+          {
+            "@category": "thumbnail",
+            "@_fa": "true",
+            "$": "https://api.elsevier.com/content/object/eid/1-s2.0-S246882312500094X-si40.svg?httpAccept=%2A%2F%2A",
+            "@multimediatype": "Scalable Vector Graphics file",
+            "@type": "ALTIMG",
+            "@size": "3482",
+            "@ref": "si40",
+            "@mimetype": "image/svg+xml"
+          },
+          {
+            "@category": "thumbnail",
+            "@_fa": "true",
+            "$": "https://api.elsevier.com/content/object/eid/1-s2.0-S246882312500094X-si41.svg?httpAccept=%2A%2F%2A",
+            "@multimediatype": "Scalable Vector Graphics file",
+            "@type": "ALTIMG",
+            "@size": "3610",
+            "@ref": "si41",
+            "@mimetype": "image/svg+xml"
+          },
+          {
+            "@category": "thumbnail",
+            "@_fa": "true",
+            "$": "https://api.elsevier.com/content/object/eid/1-s2.0-S246882312500094X-si42.svg?httpAccept=%2A%2F%2A",
+            "@multimediatype": "Scalable Vector Graphics file",
+            "@type": "ALTIMG",
+            "@size": "1925",
+            "@ref": "si42",
+            "@mimetype": "image/svg+xml"
+          },
+          {
+            "@category": "thumbnail",
+            "@_fa": "true",
+            "$": "https://api.elsevier.com/content/object/eid/1-s2.0-S246882312500094X-si43.svg?httpAccept=%2A%2F%2A",
+            "@multimediatype": "Scalable Vector Graphics file",
+            "@type": "ALTIMG",
+            "@size": "9846",
+            "@ref": "si43",
+            "@mimetype": "image/svg+xml"
+          },
+          {
+            "@category": "thumbnail",
+            "@_fa": "true",
+            "$": "https://api.elsevier.com/content/object/eid/1-s2.0-S246882312500094X-si44.svg?httpAccept=%2A%2F%2A",
+            "@multimediatype": "Scalable Vector Graphics file",
+            "@type": "ALTIMG",
+            "@size": "2777",
+            "@ref": "si44",
+            "@mimetype": "image/svg+xml"
+          },
+          {
+            "@category": "thumbnail",
+            "@_fa": "true",
+            "$": "https://api.elsevier.com/content/object/eid/1-s2.0-S246882312500094X-si45.svg?httpAccept=%2A%2F%2A",
+            "@multimediatype": "Scalable Vector Graphics file",
+            "@type": "ALTIMG",
+            "@size": "2276",
+            "@ref": "si45",
+            "@mimetype": "image/svg+xml"
+          },
+          {
+            "@category": "thumbnail",
+            "@_fa": "true",
+            "$": "https://api.elsevier.com/content/object/eid/1-s2.0-S246882312500094X-si46.svg?httpAccept=%2A%2F%2A",
+            "@multimediatype": "Scalable Vector Graphics file",
+            "@type": "ALTIMG",
+            "@size": "2511",
+            "@ref": "si46",
+            "@mimetype": "image/svg+xml"
+          },
+          {
+            "@category": "thumbnail",
+            "@_fa": "true",
+            "$": "https://api.elsevier.com/content/object/eid/1-s2.0-S246882312500094X-si47.svg?httpAccept=%2A%2F%2A",
+            "@multimediatype": "Scalable Vector Graphics file",
+            "@type": "ALTIMG",
+            "@size": "2010",
+            "@ref": "si47",
+            "@mimetype": "image/svg+xml"
+          },
+          {
+            "@category": "thumbnail",
+            "@_fa": "true",
+            "$": "https://api.elsevier.com/content/object/eid/1-s2.0-S246882312500094X-si48.svg?httpAccept=%2A%2F%2A",
+            "@multimediatype": "Scalable Vector Graphics file",
+            "@type": "ALTIMG",
+            "@size": "5379",
+            "@ref": "si48",
+            "@mimetype": "image/svg+xml"
+          },
+          {
+            "@category": "thumbnail",
+            "@_fa": "true",
+            "$": "https://api.elsevier.com/content/object/eid/1-s2.0-S246882312500094X-si49.svg?httpAccept=%2A%2F%2A",
+            "@multimediatype": "Scalable Vector Graphics file",
+            "@type": "ALTIMG",
+            "@size": "1802",
+            "@ref": "si49",
+            "@mimetype": "image/svg+xml"
+          },
+          {
+            "@category": "thumbnail",
+            "@_fa": "true",
+            "$": "https://api.elsevier.com/content/object/eid/1-s2.0-S246882312500094X-si5.svg?httpAccept=%2A%2F%2A",
+            "@multimediatype": "Scalable Vector Graphics file",
+            "@type": "ALTIMG",
+            "@size": "5033",
+            "@ref": "si5",
+            "@mimetype": "image/svg+xml"
+          },
+          {
+            "@category": "thumbnail",
+            "@_fa": "true",
+            "$": "https://api.elsevier.com/content/object/eid/1-s2.0-S246882312500094X-si50.svg?httpAccept=%2A%2F%2A",
+            "@multimediatype": "Scalable Vector Graphics file",
+            "@type": "ALTIMG",
+            "@size": "1464",
+            "@ref": "si50",
+            "@mimetype": "image/svg+xml"
+          },
+          {
+            "@category": "thumbnail",
+            "@_fa": "true",
+            "$": "https://api.elsevier.com/content/object/eid/1-s2.0-S246882312500094X-si51.svg?httpAccept=%2A%2F%2A",
+            "@multimediatype": "Scalable Vector Graphics file",
+            "@type": "ALTIMG",
+            "@size": "24350",
+            "@ref": "si51",
+            "@mimetype": "image/svg+xml"
+          },
+          {
+            "@category": "thumbnail",
+            "@_fa": "true",
+            "$": "https://api.elsevier.com/content/object/eid/1-s2.0-S246882312500094X-si6.svg?httpAccept=%2A%2F%2A",
+            "@multimediatype": "Scalable Vector Graphics file",
+            "@type": "ALTIMG",
+            "@size": "6732",
+            "@ref": "si6",
+            "@mimetype": "image/svg+xml"
+          },
+          {
+            "@category": "thumbnail",
+            "@_fa": "true",
+            "$": "https://api.elsevier.com/content/object/eid/1-s2.0-S246882312500094X-si7.svg?httpAccept=%2A%2F%2A",
+            "@multimediatype": "Scalable Vector Graphics file",
+            "@type": "ALTIMG",
+            "@size": "5356",
+            "@ref": "si7",
+            "@mimetype": "image/svg+xml"
+          },
+          {
+            "@category": "thumbnail",
+            "@_fa": "true",
+            "$": "https://api.elsevier.com/content/object/eid/1-s2.0-S246882312500094X-si8.svg?httpAccept=%2A%2F%2A",
+            "@multimediatype": "Scalable Vector Graphics file",
+            "@type": "ALTIMG",
+            "@size": "6499",
+            "@ref": "si8",
+            "@mimetype": "image/svg+xml"
+          },
+          {
+            "@category": "thumbnail",
+            "@_fa": "true",
+            "$": "https://api.elsevier.com/content/object/eid/1-s2.0-S246882312500094X-si9.svg?httpAccept=%2A%2F%2A",
+            "@multimediatype": "Scalable Vector Graphics file",
+            "@type": "ALTIMG",
+            "@size": "6822",
+            "@ref": "si9",
+            "@mimetype": "image/svg+xml"
+          }
+        ]
+      },
+      "link": {
+        "@rel": "abstract",
+        "@href": "https://api.elsevier.com/content/abstract/scopus_id/85217500223"
+      }
+    }
+  }
+}

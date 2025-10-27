@@ -1,0 +1,452 @@
+{
+  "metadata": {
+    "title": "Prediction of catalytic performance of metal oxide catalysts for alkyne hydrogenation reaction based on machine learning",
+    "authors": "; ; ",
+    "journal": "Applied Catalysis A: General",
+    "date": "2024-11-25",
+    "doi": "10.1016/j.apcata.2024.119969",
+    "abstract": "",
+    "uri": "https://api.elsevier.com/content/article/pii/S0926860X24004149",
+    "pii": "S0926860X24004149"
+  },
+  "fulltext": {
+    "full-text-retrieval-response": {
+      "scopus-eid": "2-s2.0-85204568301",
+      "originalText": "serial JL 271346 291210 291744 291809 31 Applied Catalysis A: General APPLIEDCATALYSISAGENERAL 2024-09-20 2024-09-20 2024-09-24 2024-09-24 2024-10-25T12:55:27 1-s2.0-S0926860X24004149 S0926-860X(24)00414-9 S0926860X24004149 10.1016/j.apcata.2024.119969 S300 S300.1 FULL-TEXT 1-s2.0-S0926860X24X00150 2024-10-25T12:09:21.802727Z 0 0 20241125 2024 2024-09-20T16:01:26.662955Z absattachment articleinfo articlenumber articletitlenorm authfirstinitialnorm authfirstsurnamenorm cid cids contenttype copyright crossmark dateloaded dateloadedtxt datesearch datesort dateupdated dco docsubtype doctype doi eid ewtransactionid hubeid indexeddate issn issnnorm itemstage itemtransactionid itemweight openaccess openarchive pg pgfirst pii piinorm pubdatestart pubdatetxt pubyr sortorder srctitle srctitlenorm srctype ssids alllist content subj subheadings suppl tomb volfirst volissue volumelist webpdf webpdfpagecount yearnav figure table e-component body mmlmath acknowledge affil appendices articletitle auth authfirstini authfull authkeywords authlast grantnumber grantsponsor grantsponsorid highlightsabst primabst ref specialabst 0926-860X 0926860X true 687 687 C Volume 687 25 119969 119969 119969 20241125 25 November 2024 2024-11-25 2024 article fla © 2024 Elsevier B.V. All rights are reserved, including those for text and data mining, AI training, and similar technologies. PREDICTIONCATALYTICPERFORMANCEMETALOXIDECATALYSTSFORALKYNEHYDROGENATIONREACTIONBASEDMACHINELEARNING FANG R 1 Introduction 2 ML methods 3 Neural network construction 4 Alkyne hydrogenation reaction 5 Results and discussion 6 Conclusion CRediT authorship contribution statement Acknowledgments Appendix A Supplementary material References WANG 2021 3349 J UNKE 2021 10142 O SHASTRI 2021 102 B RIVES 2021 A LU 2022 662 H KIRAN 2022 4909 B KEITH 2021 9816 J HONG 2021 5966 D GUPTA 2021 1315 R KO 2021 T FUNG 2021 V BATZNER 2022 S XU 2023 Y WU 2022 Q FAN 2024 Q ZHAO 2023 1315 X HU 2022 21596 W FAN 2024 Q PEDREGOSA 2011 2825 F ZHAO 2024 Y TIWARI 2023 G LIU 2021 22522 Y CHEN 2022 3037 Z CAO 2023 X CORTES 1995 273 C BREIMAN 2001 5 L LECUN 1998 2278 Y GUOQIANG 1998 35 Z UGWU 2023 L IEEEANNUALIEEECANADIANCONFERENCEELECTRICALCOMPUTERENGINEERING TAKAHASHI 2018 3223 K ISHIOKA 2022 11541 S KUSY 2022 1346 1361 R POATER 2022 1245 1246 A XIE 2023 100029 K FANGX2024X119969 FANGX2024X119969XR 2026-09-24T00:00:00.000Z 2026-09-24T00:00:00.000Z http://creativecommons.org/licenses/by-nc-nd/4.0/ © 2024 Elsevier B.V. All rights are reserved, including those for text and data mining, AI training, and similar technologies. 2024-10-11T00:20:52.391Z http://vtw.elsevier.com/data/voc/AddOnTypes/50.7/aggregated-refined National Natural Science Foundation of China-Zhejiang Joint Fund for the Integration of Industrialization and Informatization U20A20119 National Natural Science Foundation of China Zhejiang Joint Fund for the Integration of Industrialization and Informatization http://data.elsevier.com/vocabulary/SciValFunders/100017054 http://sws.geonames.org/1814991 National Natural Science Foundation of China 22078292 22008212 National Natural Science Foundation of China http://data.elsevier.com/vocabulary/SciValFunders/501100001809 http://sws.geonames.org/1814991 We gratefully acknowledge the financial support provided by the National Natural Science Foundation of China (Grant Nos. 22078292 and 22008212), as well as the National Natural Science Foundation of China-Zhejiang Joint Fund for the Integration of Industrialization and Informatization (Grant No. U20A20119). This support has been instrumental in enabling our research endeavors and advancing our scientific contributions. https://doi.org/10.15223/policy-017 https://doi.org/10.15223/policy-037 https://doi.org/10.15223/policy-012 https://doi.org/10.15223/policy-029 https://doi.org/10.15223/policy-004 item S0926-860X(24)00414-9 S0926860X24004149 1-s2.0-S0926860X24004149 10.1016/j.apcata.2024.119969 271346 2024-10-25T12:09:21.802727Z 2024-11-25 1-s2.0-S0926860X24004149-main.pdf https://s3-eu-west-1.amazonaws.com/prod-ucs-content-store-eu-west/content/pii:S0926860X24004149/MAIN/application/pdf/48a6bce9bc29cee15f3972a2f2d36d1e/main.pdf main.pdf pdf true 6583528 MAIN 8 1-s2.0-S0926860X24004149-main_1.png https://s3-eu-west-1.amazonaws.com/prod-ucs-content-store-eu-west/content/pii:S0926860X24004149/PREVIEW/image/png/5f01f8a75179f8ec4e4023b6a4cd9bdb/main_1.png main_1.png png 59780 849 656 IMAGE-WEB-PDF 1 1-s2.0-S0926860X24004149-gr7.jpg https://s3-eu-west-1.amazonaws.com/prod-ucs-content-store-eu-west/content/pii:S0926860X24004149/gr7/DOWNSAMPLED/image/jpeg/ed82fe002493634d0f27a4830bc11be0/gr7.jpg gr7 gr7.jpg jpg 32177 248 678 IMAGE-DOWNSAMPLED 1-s2.0-S0926860X24004149-gr4.jpg https://s3-eu-west-1.amazonaws.com/prod-ucs-content-store-eu-west/content/pii:S0926860X24004149/gr4/DOWNSAMPLED/image/jpeg/3fa5bd1c9a72dea28bdb586ffa9fa0a9/gr4.jpg gr4 gr4.jpg jpg 24073 271 508 IMAGE-DOWNSAMPLED 1-s2.0-S0926860X24004149-gr3.jpg https://s3-eu-west-1.amazonaws.com/prod-ucs-content-store-eu-west/content/pii:S0926860X24004149/gr3/DOWNSAMPLED/image/jpeg/23621e7fa84e235baf1c3e13c2217ff0/gr3.jpg gr3 gr3.jpg jpg 122293 648 715 IMAGE-DOWNSAMPLED 1-s2.0-S0926860X24004149-gr6.jpg https://s3-eu-west-1.amazonaws.com/prod-ucs-content-store-eu-west/content/pii:S0926860X24004149/gr6/DOWNSAMPLED/image/jpeg/be6f5bebae2c755f6104c799fdb61c32/gr6.jpg gr6 gr6.jpg jpg 48718 349 678 IMAGE-DOWNSAMPLED 1-s2.0-S0926860X24004149-gr5.jpg https://s3-eu-west-1.amazonaws.com/prod-ucs-content-store-eu-west/content/pii:S0926860X24004149/gr5/DOWNSAMPLED/image/jpeg/76600a2352c7633827c8fa23b33b9627/gr5.jpg gr5 gr5.jpg jpg 62325 560 678 IMAGE-DOWNSAMPLED 1-s2.0-S0926860X24004149-gr2.jpg https://s3-eu-west-1.amazonaws.com/prod-ucs-content-store-eu-west/content/pii:S0926860X24004149/gr2/DOWNSAMPLED/image/jpeg/2eab7b6e7b34c38788eb6dd27c9d4ff9/gr2.jpg gr2 gr2.jpg jpg 39434 255 695 IMAGE-DOWNSAMPLED 1-s2.0-S0926860X24004149-ga1.jpg https://s3-eu-west-1.amazonaws.com/prod-ucs-content-store-eu-west/content/pii:S0926860X24004149/ga1/DOWNSAMPLED/image/jpeg/5861636df52bed9c651a347ddcf1a4a3/ga1.jpg ga1 true ga1.jpg jpg 20598 243 301 IMAGE-DOWNSAMPLED 1-s2.0-S0926860X24004149-gr1.jpg https://s3-eu-west-1.amazonaws.com/prod-ucs-content-store-eu-west/content/pii:S0926860X24004149/gr1/DOWNSAMPLED/image/jpeg/82422e6a83caf2c01aea8df55b1fd39e/gr1.jpg gr1 gr1.jpg jpg 41492 316 376 IMAGE-DOWNSAMPLED 1-s2.0-S0926860X24004149-gr7.sml https://s3-eu-west-1.amazonaws.com/prod-ucs-content-store-eu-west/content/pii:S0926860X24004149/gr7/THUMBNAIL/image/gif/90d7d1db6584afc2c9204ec740845172/gr7.sml gr7 gr7.sml sml 5513 80 219 IMAGE-THUMBNAIL 1-s2.0-S0926860X24004149-gr4.sml https://s3-eu-west-1.amazonaws.com/prod-ucs-content-store-eu-west/content/pii:S0926860X24004149/gr4/THUMBNAIL/image/gif/7a9f5eb1dfe959128f3567ba21a3c507/gr4.sml gr4 gr4.sml sml 7797 117 219 IMAGE-THUMBNAIL 1-s2.0-S0926860X24004149-gr3.sml https://s3-eu-west-1.amazonaws.com/prod-ucs-content-store-eu-west/content/pii:S0926860X24004149/gr3/THUMBNAIL/image/gif/7a5fa9c3cf9cb576d90181f0677ebfc6/gr3.sml gr3 gr3.sml sml 21304 164 181 IMAGE-THUMBNAIL 1-s2.0-S0926860X24004149-gr6.sml https://s3-eu-west-1.amazonaws.com/prod-ucs-content-store-eu-west/content/pii:S0926860X24004149/gr6/THUMBNAIL/image/gif/fb7b9003cc918270d8ed4d35ba251233/gr6.sml gr6 gr6.sml sml 13752 113 219 IMAGE-THUMBNAIL 1-s2.0-S0926860X24004149-gr5.sml https://s3-eu-west-1.amazonaws.com/prod-ucs-content-store-eu-west/content/pii:S0926860X24004149/gr5/THUMBNAIL/image/gif/6a7ecd8a429b884f48bd4bbadde7abe6/gr5.sml gr5 gr5.sml sml 10229 164 198 IMAGE-THUMBNAIL 1-s2.0-S0926860X24004149-gr2.sml https://s3-eu-west-1.amazonaws.com/prod-ucs-content-store-eu-west/content/pii:S0926860X24004149/gr2/THUMBNAIL/image/gif/d2ca7f22c4146694bec50d3b30b1c79f/gr2.sml gr2 gr2.sml sml 6676 80 219 IMAGE-THUMBNAIL 1-s2.0-S0926860X24004149-ga1.sml https://s3-eu-west-1.amazonaws.com/prod-ucs-content-store-eu-west/content/pii:S0926860X24004149/ga1/THUMBNAIL/image/gif/ae464f0dc9285c5049585deb482522df/ga1.sml ga1 true ga1.sml sml 15686 164 203 IMAGE-THUMBNAIL 1-s2.0-S0926860X24004149-gr1.sml https://s3-eu-west-1.amazonaws.com/prod-ucs-content-store-eu-west/content/pii:S0926860X24004149/gr1/THUMBNAIL/image/gif/897075c429185f4f0783fe2383d2c5d6/gr1.sml gr1 gr1.sml sml 17877 164 195 IMAGE-THUMBNAIL 1-s2.0-S0926860X24004149-gr7_lrg.jpg https://s3-eu-west-1.amazonaws.com/prod-ucs-content-store-eu-west/content/pii:S0926860X24004149/HIGHRES/image/jpeg/f1337c796c0d67ad2c8d020ba307191f/gr7_lrg.jpg gr7 gr7_lrg.jpg jpg 153222 1097 2994 IMAGE-HIGH-RES 1-s2.0-S0926860X24004149-gr4_lrg.jpg https://s3-eu-west-1.amazonaws.com/prod-ucs-content-store-eu-west/content/pii:S0926860X24004149/HIGHRES/image/jpeg/1c70fbcdab8d409d1ac6fa41105d402e/gr4_lrg.jpg gr4 gr4_lrg.jpg jpg 121660 1197 2245 IMAGE-HIGH-RES 1-s2.0-S0926860X24004149-gr3_lrg.jpg https://s3-eu-west-1.amazonaws.com/prod-ucs-content-store-eu-west/content/pii:S0926860X24004149/HIGHRES/image/jpeg/5b4fbfa23a5a06457da3cd766685e152/gr3_lrg.jpg gr3 gr3_lrg.jpg jpg 542519 2866 3160 IMAGE-HIGH-RES 1-s2.0-S0926860X24004149-gr6_lrg.jpg https://s3-eu-west-1.amazonaws.com/prod-ucs-content-store-eu-west/content/pii:S0926860X24004149/HIGHRES/image/jpeg/3a61c3dac05c65de08560b5a09d3959b/gr6_lrg.jpg gr6 gr6_lrg.jpg jpg 219747 1542 2994 IMAGE-HIGH-RES 1-s2.0-S0926860X24004149-gr5_lrg.jpg https://s3-eu-west-1.amazonaws.com/prod-ucs-content-store-eu-west/content/pii:S0926860X24004149/HIGHRES/image/jpeg/61569f37f2c521a26757e523919a1f62/gr5_lrg.jpg gr5 gr5_lrg.jpg jpg 293862 2474 2994 IMAGE-HIGH-RES 1-s2.0-S0926860X24004149-gr2_lrg.jpg https://s3-eu-west-1.amazonaws.com/prod-ucs-content-store-eu-west/content/pii:S0926860X24004149/HIGHRES/image/jpeg/ea9d1b177ceb8c64baee89a8d8f9df9c/gr2_lrg.jpg gr2 gr2_lrg.jpg jpg 181459 1127 3076 IMAGE-HIGH-RES 1-s2.0-S0926860X24004149-ga1_lrg.jpg https://s3-eu-west-1.amazonaws.com/prod-ucs-content-store-eu-west/content/pii:S0926860X24004149/HIGHRES/image/jpeg/589adf309ed5f6a3f4949e954ab66d68/ga1_lrg.jpg ga1 true ga1_lrg.jpg jpg 187416 1076 1333 IMAGE-HIGH-RES 1-s2.0-S0926860X24004149-gr1_lrg.jpg https://s3-eu-west-1.amazonaws.com/prod-ucs-content-store-eu-west/content/pii:S1471210517005800/HIGHRES/image/jpeg/56ff8cbaea1c93deb61083ed99a05bee/gr1_lrg.jpg gr1 gr1_lrg.jpg jpg 250044 1398 1663 IMAGE-HIGH-RES 1-s2.0-S0926860X24004149-mmc1.docx https://s3-eu-west-1.amazonaws.com/prod-ucs-content-store-eu-west/content/pii:S0926860X24004149/mmc1/MAIN/application/vnd.openxmlformats-officedocument.wordprocessingml.document/0f126f74d3fa006367e329ff082b8362/mmc1.docx mmc1 mmc1.docx docx 68347 APPLICATION 1-s2.0-S0926860X24004149-si0001.svg https://s3-eu-west-1.amazonaws.com/prod-ucs-content-store-eu-west/content/pii:S0926860X24004149/image/svg+xml/d8bfb8528f6bd0fffa39a131f614e54f/si0001.svg si0001 si0001.svg svg 2804 ALTIMG APCATA 119969 119969 S0926-860X(24)00414-9 10.1016/j.apcata.2024.119969 Elsevier B.V. Fig. 1 Schematic Diagram of the Neural Network. Fig. 1 Fig. 2 Trends of Acetylene Conversion (Left) and Ethylene Selectivity (Right) with Temperature for Acetylene Hydrogenation Reaction Catalyzed by Nano CeO2, Co3O4, Fe2O3, NiO, SnO2, and TiO2. Fig. 2 Fig. 3 Correlation Heatmap of 16 Descriptors with Conversion and Ethylene Selectivity. Fig. 3 Fig. 4 F-Score of 16 Descriptors Values for Conversion and Selectivity. Fig. 4 Fig. 5 illustrates the iteration counts for different descriptors regarding conversion and selectivity (a, b) and the errors for generalizing ZnO (c, d). Fig. 5 Fig. 6 illustrates the predicted conversion (Left) and selectivities (Right) of different catalysts at various temperatures. Fig. 6 Fig. 7 Experimental data for acetylene semi-hydrogenation using V2O5, ZnO, and CuO. Fig. 7 Table 1 Categorization of Conversion and Selectivity. Table 1 Conversion Selectivity value (%) 0–25 25–50 50–75 75–99 99–100 0–50 50–90 >90 Corresponding Target Value 0 1 2 3 4 0 1 2 Prediction of catalytic performance of metal oxide catalysts for alkyne hydrogenation reaction based on machine learning Rubo Fang Writing – review & editing Writing – original draft Visualization Validation Supervision Methodology Formal analysis Data curation Conceptualization Qianjun Zhang Data curation Conceptualization Chong Yao Formal analysis Data curation Hongjing Wu Formal analysis Data curation Shangkang Xie Formal analysis Data curation Xinhui Zhang Formal analysis Data curation Qingtao Wang Supervision Formal analysis Data curation Jinghui Lyu Feng Feng Supervision Chunshan Lu Supervision Qunfeng Zhang Writing – original draft Resources Formal analysis ⁎ Xiaonian Li Writing – review & editing Supervision Methodology Funding acquisition Formal analysis ⁎ State Key Laboratory Breeding Base of Green Chemistry Synthesis Technology, Zhejiang University of Technology, Hangzhou 310032, China State Key Laboratory Breeding Base of Green Chemistry Synthesis Technology, Zhejiang University of Technology Hangzhou 310032 China State Key Laboratory Breeding Base of Green Chemistry Synthesis Technology, Zhejiang University of Technology, Hangzhou 310032, China ⁎ Corresponding authors. In the field of catalyst design, machine learning is gaining significant attention, especially in situations where data is limited. Facing this challenge, we have developed a neural network model that enhances predictive accuracy through the careful selection of catalyst descriptors and feature engineering, aiming to predict the conversion rate and selectivity of the acetylene semi-hydrogenation reaction. Our model has identified promising metal oxide catalysts, such as CuO, ZnO, and V2O5, for the acetylene semi-hydrogenation reaction, and these predictions have been experimentally validated. Among them, CuO achieved an acetylene conversion of 99.6 % and an ethylene selectivity of 90 % at 50–100°C, which is unprecedented at the reaction space velocity we tested. This high activity at relatively low temperatures indicates a more promising industrial application. Looking ahead, machine learning will play a pivotal role in catalyst design, accelerating the discovery and industrial application of new materials. Graphical Abstract Keywords Machine learning Catalysis Metal oxide catalysts Alkyne hydrogenation Predictive modeling CuO Data Availability Data will be made available on request. 1 Introduction With the advancement of artificial intelligence (AI), machine learning (ML) and neural network algorithms have exhibited remarkable vigor across various domains [1–9].In recent years, many researchers integrated ML with high-throughput computing to optimize and predict outcomes based on density functional theory (DFT) calculations [10–12], effectively reducing the cost and time associated with these computations. Simultaneously, some scholars have begun to explore the combination of ML with high-throughput experimental data, especially employing methods like random forests, to predict the catalytic performance of different catalysts in specific reactions [13–18]. Undoubtedly, ML holds great promise for catalyst design, with the potential to rapidly advance the development of the catalysis industry through efficient catalyst screening. However, there is a critical gap in the application of ML in catalysis, particularly in scenarios where high-throughput experimental data is scarce or difficult to obtain. While ML models have been successfully applied to reactions with abundant experimental data, such as ammonia synthesis, they face significant challenges when applied to novel reactions with insufficient data. This limitation is further compounded by variations in experimental setups, catalyst synthesis protocols, and reaction conditions, making it difficult to develop reliable ML models in the early stages of research. Identifying catalytic reaction descriptors contributes to constructing more accurate supervised ML models [19]. Alkyne semihydrogenation is an important type of chemical reaction in the chemical industry, where alkynes react with hydrogen under appropriate conditions and catalysis to produce alkenes. This reaction typically occurs at certain pressures and temperatures, with commonly used catalysts including metals like palladium, rhodium, and copper, or their alloys [20–24]. In light of these challenges, our study addresses the need for ML screening schemes that can function effectively with limited data. Specifically, we focus on the alkyne semihydrogenation reaction catalyzed by metal oxides—a reaction of considerable industrial importance. This reaction converts alkynes into alkenes, facilitating the synthesis of bulk chemical products and offering a solution for removing acetylene gas from ethylene streams, thereby preventing catalyst poisoning in ethylene production processes. However, the number of metal oxide catalysts that have been studied for this reaction is currently limited. Therefore, our work aims to fill this gap by developing a ML approach that leverages a limited dataset to select descriptors for metal oxide catalysts and predict their performance in alkyne semihydrogenation reactions. This approach not only addresses the current limitations in catalyst screening but also provides a valuable tool for researchers working with novel or less-studied reactions. 2 ML methods ML refers to the process of mapping input datasets to output targets or recognizing typical information in data through predictive models. Essentially, it is a process of gradually converging to mimic human recognition abilities through continuous fitting. Generally, high-throughput big data or initial data containing complex features enable ML to achieve automated, reliable, economical, and time-saving computation and prediction[25,26]. ML can be divided into supervised learning and unsupervised learning. Supervised learning involves predicting model fitting based on the given mapping targets for each set of input data, while unsupervised learning involves clustering learning processes. Since this paper adopts the approach of predicting with a small amount of initial data, the task of ML becomes extremely challenging. However, research in this area is highly important because not all experiments can be conducted in a high-throughput manner. With a limited amount of data, to improve prediction accuracy, we did not use random forest methods suitable for high-throughput learning but instead employed a simple multilayer perceptron model based on neural networks. To avoid overfitting, the neural network was set to have three hidden layers, one input layer, and one output layer (as shown in Fig. 1), utilizing linear transformation propagation (Eq. 1) and RuLE function activation (Eq. 2)[27,28]. (1) L out=L in W T+b Lin represents the input layer for linear transformation propagation, while Lout represents the output layer after linear transformation propagation. W T denotes the transpose of the weight matrix, and b represents the bias term. (2) ReLU(z)=max(0,z) When aiming for high prediction accuracy with a limited amount of data, the cost involves the need to select more features, making the task of feature engineering more challenging. Selecting and constructing appropriate catalyst descriptors become more crucial than model construction itself [29–31]. Suitable descriptors can provide more information and assist the model in better generalizing to new data. We primarily employ the correlation coefficient method and the multi-class F-score method (Eq. 3) to select suitable descriptors, with the multi-class F-score method serving as the primary criterion for selection. (3) F − score = SSB / ( k − 1 ) S SW / ( n − k ) SSB (Between-group sum of squares): Represents the sum of squares between groups.SSW (Within-group sum of squares): Represents the sum of squares within groups.k: Number of categories.n: Total number of samples.(Applicable to corresponding feature values) With a limited amount of data, issues like overfitting are prone to occur. Therefore, cross-validation and regularization are necessary. In this work, we enhance the robustness of the model by adopting leave-one-out cross-validation (LOOCV). The process involves using one sample from the original data as the test set and the remaining samples as the training set, repeating this process until all samples have been traversed. Regularization, specifically L2 regularization, is employed to prevent model overfitting and improve generalization ability. 3 Neural network construction A multilayer perceptron model was adopted, and different models with varying numbers of hidden layers were tested. For example, the prediction accuracy for conversion was 40 % with models containing one or two hidden layers, while it was 60 % with a model containing three hidden layers. Through grid search, a model achieving 80 % accuracy was obtained. In this model, the number of neurons in the input layer is n, and the number of neurons in the hidden layers is 2 n, 4 n, and n, respectively. Here, n denotes the number of selected descriptors. The output layer consists of 1 neuron. Layers are connected through linear propagation, and each node uses the ReLU activation function. The data is subjected to leave-one-out cross-validation, with the loss function being the mean squared error. The Adam optimizer is used with a learning rate of lr=0.002. L2 regularization is added, and the model's training iterations per epoch are set to 1000. Hyperparameter optimization was performed using grid search. (Supplementary information 1) The test set consists of catalytic data for one randomly selected metal oxide catalyst from The first batch of metal oxide catalysts. The training set includes the remaining data. The validation set is based on ZnO data. Due to the limited amount of overall data and the complexity of the actual catalytic system, the convergence results vary in each iteration. Therefore, the model with the highest prediction accuracy for ZnO is selected as the final model to predict the catalytic performance of other metal oxides. 4 Alkyne hydrogenation reaction The catalysts used are nano-oxide catalysts directly purchased from Aladdin. The conditions for alkyne hydrogenation reaction are atmospheric pressure, with a hydrogen-to-acetylene ratio of 50:1 and an ethylene-to-acetylene ratio of 100:1. The space velocity is controlled at 1000 h-1, and the reaction temperature is adjusted within the range of 50°C to 300°C. The gas effluent is normalized using gas chromatography to calculate the proportions of each component and determine the conversion and selectivity of the reaction. All catalytic performance is based on experimental results. 5 Results and discussion The first batch of metal oxide catalysts used includes TiO2, Co3O4, NiO, CeO2, Fe2O3, SnO2, and MgO. Among them, MgO serves as a non-reactive oxide to provide the model with a sample of no catalytic activity, thus preventing the model from overestimating the reaction performance. Experimental results, as depicted in Fig. 2 (Specific data can be found in Supplementary Table 1. A total of 92 groups of data were removed from MgO, and a total of 103 groups were included after MgO.), show that for most catalysts used in the alkyne hydrogenation reaction, the acetylene conversion either continuously increases with temperature or remains at a high level. Only Fe2O3 exhibits a decrease in conversion between 230°C and 250°C. Regarding ethylene selectivity, except for metal oxide catalysts with low ethylene selectivity, we observe a bimodal trend with temperature. As the temperature increases, ethylene selectivity initially rises, then declines before rising again. In fact, among our preliminary catalysts, TiO2 has already exhibited high conversion and selectivity at elevated temperatures. For our predictions, the monotonicity of conversion is easier to predict, while the complex relationship between conversion and temperature increases the difficulty of prediction. Owing to the limited amount of data, it is impractical to directly predict accurate conversion and selectivity values. In fact, the test loss from predictions based on raw data is 0.2537, and the prediction accuracy for ZnO is even lower. Clustering is a good approach to address this issue.Therefore, we clustered selectivity and conversion as shown in Table 1. The conversion of 100 % was set into a separate category, on the one hand, because there were a large number of highly active catalysts among the catalysts tested that achieved a conversion of 100 %, and on the other hand, our goal was to screen the catalysts with the highest conversion, with the goal of removing acetylene from ethylene gas. Therefore, the final choice is based on a catalyst with a sufficiently high conversion. Selectivity is divided into three categories, and the selectivity of the vast majority of catalysts is not inherently high due to the large amount of ethylene already contained in the reaction gas feed. What's more, our selectivity calculations include over-reduced acetylene and ethylene feedstock directly consumed in the reaction. Therefore, catalysts with selectivity above 50 % can already be considered to exhibit good performance, and catalysts with selectivity of 90 % can be considered very good in our reaction system. After completing the preliminary data processing, the next step is feature engineering.In catalytic reactions, the balance between performance and selectivity in homogeneous and heterogeneous catalysis is a critical consideration [32,33]. Homogeneous catalysts typically exhibit high coordination with reactants at the molecular level, where the ligand-to-metal ratio significantly influences the stereoselectivity of the reaction, leading to excellent stereoselectivity and reaction efficiency. However, when transitioning to heterogeneous catalysis, the complex surface effects and reaction mechanisms may cause shifts in performance and selectivity. Given that complex substrate conditions require more extensive data, a model based on a small dataset may suffer from a significant decline in predictive accuracy due to overly complicated mechanisms. Therefore, in the selection of descriptors, it is advisable to initially screen with simpler substrate descriptors. Initially, we screened a total of 16 reaction descriptors, which can be categorized into metal property descriptors, metal oxide property descriptors, and reaction condition descriptors. The metal property descriptors include Pauling electronegativity, oxidation state, ionic radius, atomic number, electron affinity, first ionization energy, second ionization energy, and third ionization energy. The metal oxide property descriptors include band gap width, conduction band position (VS NHE), valence band position (VS NHE), nearest distance of surface metal atoms, density, formation energy, and atomic weight. (Specific data can be found in Supplementary Tables 2 and 3. The data are sourced from materialsproject.org.) Due to the controlled variables in the reaction, the reaction condition descriptor only includes reaction temperature. Initially, we calculated the correlation between different descriptors, acetylene conversion, and ethylene selectivity, as shown in Fig. 3. It can be observed that the descriptors most correlated with catalyst conversion are the metal's electronegativity, electron affinity, metal oxide conduction band position, and formation energy. The correlation between reaction temperature and conversion is not as significant as the influence of the properties of metal oxides on catalytic performance. Therefore, in terms of conversion, the utility of selecting appropriate catalysts outweighs selecting the appropriate temperature. Regarding selectivity, there is a higher correlation with reaction temperature, while electron affinity and an interestingly high negative correlation play a significant role here. This also reflects the seesaw effect between conversion and selectivity. Due to the completely opposite effects of the core metal's electron affinity on conversion and selectivity, it is challenging to experimentally screen for a catalyst with both high selectivity and high conversion. Thus, utilizing ML methods to uncover relationships that traditional experiments cannot discover plays a crucial role in technological advancement. Due to the limitations of correlation calculations as a tool for preliminary screening, which neglect inter-group differences, directly inferring the strength of influence of different factors from correlation values is not feasible. Therefore, we further quantified the influence of different features on selectivity and conversion using the multi-class F-score method, resulting in the F-score values table shown in Fig. 4. It can be observed that the factors most significantly affecting conversion are the core metal's electronegativity and catalyst formation energy, which align with the correlation calculations. These two factors have a far greater impact on the reaction than temperature. Regarding selectivity, the most influential factors are reaction temperature and electron affinity. This is because the factors influencing alkyne hydrogenation reactions include both kinetics and thermodynamics. Temperature promotes the increase in reaction rate kinetics, while electron affinity determines adsorption strength, following the Sabatier principle and affecting reaction selectivity. While temperature ranks only 11th in terms of its influence on conversion, excluding it as a necessary descriptor, given its role as the sole descriptor of reaction conditions, is evidently unreasonable. Therefore, we retain temperature as a necessary descriptor and employ a 1+n descriptor selection strategy using F-score ranking of other descriptors. For each set of catalyst descriptors, predictive models are trained. As shown in Fig. 5a and b, with a convergence target set at a mean squared error of less than 0.09, the average number of iterations required for convergence decreases as the number of selected reaction descriptors increases. This is attributed to the higher selectivity of reactions with the inclusion of more reaction descriptors. However, as the number of reaction descriptors increases, the model's complexity also increases, leading to longer computational times per round. Fortunately, due to the relatively small dataset in this study, this effect is not prominently manifested. It is observed that after reaching 8 descriptors, the change in the number of rounds required for convergence becomes relatively gradual for conversion, while for selectivity, this effect is achieved after 5 descriptors. We selected these descriptors as the final prediction model. Therefore, to pursue the robustness of the model, descriptor selection should be made when the change is relatively gradual. To further refine the number of descriptors and compare the predictive model's generalization ability, we employ it for predicting the catalytic performance of ZnO. Models with different numbers of descriptors are used to predict the catalytic performance of ZnO, and the predicted results are compared with experimental results. The results obtained, as shown in Fig. 5c and d, reveal that selecting 10 descriptors (temperature, electronegativity, formation energy, electron affinity, second ionization energy, conduction band position, third ionization energy, bandgap width, density, first ionization energy) for conversion and 8 descriptors (temperature, electron affinity, density, first ionization energy, formation energy, ionic radius, oxidation state, atomic weight) for selectivity is optimal. However, we also observe a particularly noteworthy phenomenon: even with only two descriptors (temperature, electronegativity), the conversion already exhibits good predictive capability. Therefore, we further analyze and discuss these descriptors. Electronegativity is a physical property describing an atom's ability to attract electrons. In metal oxide catalysts, the electronegativity of metals can influence their interaction with reactant molecules. Higher metal electronegativity enhances electron transfer between the metal and reactants, potentially affecting reaction rates and selectivity. The electron density of a metal may affect its ability to adsorb hydrogen atoms, thereby influencing the rate and efficiency of hydrogenation reactions. Additionally, the metal's electronegativity may also influence the acidic and basic properties of metal oxide surfaces, which are crucial for modulating catalyst activity and selectivity. Acidic sites on metal oxide surfaces can adsorb and activate reactant molecules, facilitating reactions, while basic sites can promote the dissociation of intermediates and the precipitation of products. Since the descriptors we selected are basic properties readily available rather than descriptors requiring specific characterization methods, such as surface acidity/basicity or surface crystal facets, we cannot accurately predict the reaction performance of a particular metal oxide under different conditions. Instead, our model can only be used to determine whether a certain metal oxide is a suitable catalyst for acetylene semi-hydrogenation. Fig. 6 presents the catalytic performance of various metal oxides predicted using our model. Taking zinc oxide (ZnO) as an example, our prediction indicates that at lower temperatures, both conversion and selectivity are relatively poor. However, as the temperature increases, both conversion and selectivity continually improve. At temperatures above 200°C, both parameters reach a satisfactory level, consistent with our experimental results (temperature range: 50°C-300°C). Utilizing our model, we obtained the predicted results shown in Fig. 6. It can be observed that Ag2O, CuO, PdO, Co3O4, and CoO exhibit relatively excellent acetylene hydrogenation conversion capabilities, but their selectivity is not outstanding. This aligns with our observation that balancing conversion and selectivity is challenging in this reaction. Predicted promising catalysts include ZnO, V2O5, Cr2O3, CdO at higher temperatures and CuO at lower temperatures (50–100 ℃). As shown in Fig. 7, CuO exhibits close to 100 % conversion at temperatures ranging from 500 to 300°C. Encouragingly, it demonstrates remarkably high selectivity (∼90 %) at 50–100°C, consistent with our predicted results. Such high metal oxide activity has not been reported in the past, and this outstanding performance, particularly its high activity at lower temperatures, holds significant industrial value. The high conversion (>99 %) and selectivity (>80 %) of ZnO at temperatures above 200°C also suggest its potential as a catalyst for acetylene semi-hydrogenation, suitable for high-temperature acetylene semi-hydrogenation reactions. Although the activity of V2O5 shows some disparity compared to ZnO, the use of V2O5 for semi-hydrogenation reactions has never been attempted before. It is noteworthy that in this system, alkyne accounts for only 1 % of the olefin, thus a 50 % selectivity should be considered relatively high. V2O5 remains a potential metal oxide catalyst for semi-hydrogenation reactions. It is heartening that through a small sample, we have achieved the screening of simple metal oxide catalysts for acetylene semi-hydrogenation reactions. This approach appears to be efficient and reliable. We have considered some metal oxide catalysts that have not been previously applied to hydrogenation reactions and have screened efficient CuO, ZnO catalysts, and V2O5 catalysts with potential applications. However, it is still regrettable that we find it difficult to explain the results predicted by ML, regardless of how or why they are predicted. Although the process of explaining ML remains challenging, unlike in the field of computer science, all screened feature descriptors have corresponding meanings in the field of chemistry. Our team has begun efforts to construct a new ML process to achieve efficient prediction and interpretation of catalysts. 6 Conclusion In this study, we explored a ML-based approach to predict the catalytic performance of metal oxide catalysts in the acetylene hydrogenation reaction. Despite the extremely limited dataset, we successfully established a simple yet effective neural network model and improved its predictive accuracy through the selection of appropriate catalyst descriptors and feature engineering methods. We found that factors such as metal electronegativity, electron affinity, and the formation energy of metal oxides play important roles in both conversion and selectivity. Through model predictions, we identified some potential excellent catalysts, such as CuO, ZnO, and V2O5, which exhibited outstanding, previously unreported catalytic performances under specific conditions. Experimental validation confirmed their activity, with CuO showing approximately 100 % conversion and approximately 90 % selectivity at 50–100°C, ZnO exhibiting approximately 100 % conversion and approximately 80 % selectivity at temperatures above 200°C, and V2O5 demonstrating 41 % conversion and 52 % selectivity at 275°C. The acquisition of these results is exciting and provides strong evidence for the reliability of the model we constructed. While our model achieved some success in screening metal oxide catalysts for acetylene semi-hydrogenation reactions, further model optimization and algorithm improvements are necessary to accurately predict catalytic performance under broader conditions and enhance interpretability. In the future, ML will become an essential tool for catalyst design and optimization, providing robust support for accelerating the discovery and industrial application of new materials. Finally, based on small datasets or some low-cost methods derived from literature research, the combination of machine learning approaches with more cutting-edge and forward-looking applications, such as the use of single-atom catalysts [34], will continue to advance in the future. CRediT authorship contribution statement Feng Feng: Supervision. Chunshan Lu: Supervision. Qingtao Wang: Supervision, Formal analysis, Data curation. jinghui Lyu: Validation, Supervision. Xinhui Zhang: Formal analysis, Data curation. Hongjing Wu: Formal analysis, Data curation. Shangkang Xie: Formal analysis, Data curation. Qianjun Zhang: Data curation, Conceptualization. Chong Yao: Formal analysis, Data curation. Qunfeng Zhang: Writing – original draft, Resources, Formal analysis. Xiaonian Li: Writing – review & editing, Supervision, Methodology, Funding acquisition, Formal analysis. Rubo Fang: Writing – review & editing, Writing – original draft, Visualization, Validation, Supervision, Methodology, Formal analysis, Data curation, Conceptualization. Declaration of Competing Interest The authors declare the following financial interests/personal relationships which may be considered as potential competing interests: Xiaonian Li reports financial support was provided by the National Natural Science Foundation of China (Grant Nos. 22078292 and 22008212). Xiaonian Li reports financial support was provided by the National Natural Science Foundation of China-Zhejiang Joint Fund for the Integration of Industrialization and Informatization (Grant No. U20A20119). If there are other authors, they declare that they have no known competing financial interests or personal relationships that could have appeared to influence the work reported in this paper. Acknowledgments We gratefully acknowledge the financial support provided by the National Natural Science Foundation of China (Grant Nos. 22078292 and 22008212), as well as the National Natural Science Foundation of China-Zhejiang Joint Fund for the Integration of Industrialization and Informatization (Grant No. U20A20119). This support has been instrumental in enabling our research endeavors and advancing our scientific contributions. Appendix A Supporting information Supplementary data associated with this article can be found in the online version at doi:10.1016/j.apcata.2024.119969. Appendix A Supplementary material Supplementary Table 1 Supplementary material. References [1] J. Wang K. Sun T. Cheng B. Jiang C. Deng Y. Zhao D. Liu Y. Mu M. Tan X. Wang Deep high-resolution representation learning for visual recognition Ieee Trans. Pattern Anal. Mach. Intell. 43 10 2021 3349 Wang, J.; Sun, K.; Cheng, T.; Jiang, B.; Deng, C.; Zhao, Y.; Liu, D.; Mu, Y.; Tan, M.; Wang, X.et al. Deep High-Resolution Representation Learning for Visual Recognition. Ieee Transactions on Pattern Analysis and Machine Intelligence 2021, 43 (10), 3349. [2] O.T. Unke S. Chmiela H.E. Sauceda M. Gastegger I. Poltaysky K.T. Schuett A. Tkatchenko K.-R. Mueller Machine learning force fields Chem. Rev. 121 16 2021 10142 Unke, O.T.; Chmiela, S.; Sauceda, H.E.; Gastegger, M.; Poltaysky, I.; Schuett, K.T.; Tkatchenko, A.; Mueller, K.-R. Machine Learning Force Fields. Chemical Reviews 2021, 121 (16), 10142. [3] B.J. Shastri A.N. Tait T.F. de Lima W.H.P. Pernice H. Bhaskaran C.D. Wright P.R. Prucnal Photonics for artificial intelligence and neuromorphic computing Nat. Photonics 15 2 2021 102 Shastri, B.J.; Tait, A.N.; de Lima, T.F.; Pernice, W.H. P.; Bhaskaran, H.; Wright, C.D.; Prucnal, P.R. Photonics for artificial intelligence and neuromorphic computing. Nature Photonics 2021, 15 (2), 102. [4] A. Rives J. Meier T. Sercu S. Goyal Z. Lin J. Liu D. Guo M. Ott C.L. Zitnick J. Ma Biological structure and function emerge from scaling unsupervised learning to 250 million protein sequences Proc. Natl. Acad. Sci. USA 118 15 2021 Rives, A.; Meier, J.; Sercu, T.; Goyal, S.; Lin, Z.; Liu, J.; Guo, D.; Ott, M.; Zitnick, C.L.; Ma, J.et al. Biological structure and function emerge from scaling unsupervised learning to 250 million protein sequences. Proceedings of the National Academy of Sciences of the United States of America 2021, 118 (15). [5] H. Lu D.J. Diaz N.J. Czarnecki C. Zhu W. Kim R. Shroff D.J. Acosta B.R. Alexander H.O. Cole Y. Zhang Machine learning-aided engineering of hydrolases for PET depolymerization Nature 604 7907 2022 662 Lu, H.; Diaz, D.J.; Czarnecki, N.J.; Zhu, C.; Kim, W.; Shroff, R.; Acosta, D.J.; Alexander, B.R.; Cole, H.O.; Zhang, Y.et al. Machine learning-aided engineering of hydrolases for PET depolymerization. Nature 2022, 604 (7907), 662. [6] B.R. Kiran I. Sobh V. Talpaert P. Mannion Al Sallab A.A. Yogamani S. Perez Deep reinforcement learning for autonomous driving: a survey Ieee Trans. Intell. Transp. Syst. 23 6 2022 4909 Kiran, B.R.; Sobh, I.; Talpaert, V.; Mannion, P.; Al Sallab, A.A.; Yogamani, S.; Perez, P. Deep Reinforcement Learning for Autonomous Driving: A Survey. Ieee Transactions on Intelligent Transportation Systems 2022, 23 (6), 4909. [7] J.A. Keith V. Vassilev-Galindo B. Cheng S. Chmiela M. Gastegger K.-R. Mueller A. Tkatchenko Combining machine learning and computational chemistry for predictive insights into chemical systems Chem. Rev. 121 16 2021 9816 Keith, J.A.; Vassilev-Galindo, V.; Cheng, B.; Chmiela, S.; Gastegger, M.; Mueller, K.-R.; Tkatchenko, A. Combining Machine Learning and Computational Chemistry for Predictive Insights Into Chemical Systems. Chemical Reviews 2021, 121 (16), 9816. [8] D. Hong L. Gao J. Yao B. Zhang A. Plaza J. Chanussot Graph convolutional networks for hyperspectral image classification Ieee Trans. Geosci. Remote Sens. 59 7 2021 5966 Hong, D.; Gao, L.; Yao, J.; Zhang, B.; Plaza, A.; Chanussot, J. Graph Convolutional Networks for Hyperspectral Image Classification. Ieee Transactions on Geoscience and Remote Sensing 2021, 59 (7), 5966. [9] R. Gupta D. Srivastava M. Sahu S. Tiwari R.K. Ambasta P. Kumar Artificial intelligence to deep learning: machine intelligence approach for drug discovery Mol. Divers. 25 3 2021 1315 Gupta, R.; Srivastava, D.; Sahu, M.; Tiwari, S.; Ambasta, R.K.; Kumar, P. Artificial intelligence to deep learning: machine intelligence approach for drug discovery. Molecular Diversity 2021, 25 (3), 1315. [10] T.W. Ko J.A. Finkler S. Goedecker J. Behler A fourth-generation high-dimensional neural network potential with accurate electrostatics including non-local charge transfer Nat. Commun. 12 1 2021 Ko, T.W.; Finkler, J.A.; Goedecker, S.; Behler, J. A fourth-generation high-dimensional neural network potential with accurate electrostatics including non-local charge transfer. Nature Communications 2021, 12 (1). [11] V. Fung G. Hu P. Ganesh B.G. Sumpter Machine learned features from density of states for accurate adsorption energy prediction Nat. Commun. 12 1 2021 Fung, V.; Hu, G.; Ganesh, P.; Sumpter, B.G. Machine learned features from density of states for accurate adsorption energy prediction. Nature Communications 2021, 12 (1). [12] S. Batzner A. Musaelian L. Sun M. Geiger J.P. Mailoa M. Kornbluth N. Molinari T.E. Smidt B. Kozinsky E(3)-equivariant graph neural networks for data-efficient and accurate interatomic potentials Nat. Commun. 13 1 2022 Batzner, S.; Musaelian, A.; Sun, L.; Geiger, M.; Mailoa, J.P.; Kornbluth, M.; Molinari, N.; Smidt, T.E.; Kozinsky, B. E(3)-equivariant graph neural networks for data-efficient and accurate interatomic potentials. Nature Communications 2022, 13 (1). [13] Y. Xu Y. Gao L. Su H. Wu H. Tian M. Zeng C. Xu X. Zhu K. Liao High-throughput experimentation and machine learning-assisted optimization of iridium-catalyzed cross-dimerization of sulfoxonium ylides Angew. Chem. -Int. Ed. 62 48 2023 Xu, Y.; Gao, Y.; Su, L.; Wu, H.; Tian, H.; Zeng, M.; Xu, C.; Zhu, X.; Liao, K. High-Throughput Experimentation and Machine Learning-Assisted Optimization of Iridium-Catalyzed Cross-Dimerization of Sulfoxonium Ylides. Angewandte Chemie-International Edition 2023, 62 (48). [14] Q. Wu M. Pan S. Zhang D. Sun Y. Yang D. Chen D.A. Weitz X. Gao Research Progress in High-Throughput Screening of CO2 Reduction Catalysts Energies 15 18 2022 Wu, Q.; Pan, M.; Zhang, S.; Sun, D.; Yang, Y.; Chen, D.; Weitz, D.A.; Gao, X. Research Progress in High-Throughput Screening of CO2 Reduction Catalysts. Energies 2022, 15 (18). [15] Q. Fan G. Min L. Liu Y. Zhao X. Yu S. Yun Accelerate the design of new superhard carbon allotropes in Pca21 space group: high-throughput screening and machine learning strategies Diam. Relat. Mater. 143 2024 Fan, Q.; Min, G.; Liu, L.; Zhao, Y.; Yu, X.; Yun, S. Accelerate the design of new superhard carbon allotropes in Pca21 space group: High-throughput screening and machine learning strategies. Diamond and Related Materials 2024, 143. [16] X. Zhao S. Yu J. Zheng M.J. Reece R.-Z. Zhang Machine learning of carbon vacancy formation energy in high-entropy carbides J. Eur. Ceram. Soc. 43 4 2023 1315 Zhao, X.; Yu, S.; Zheng, J.; Reece, M.J.; Zhang, R.-Z. Machine learning of carbon vacancy formation energy in high-entropy carbides. Journal of the European Ceramic Society 2023, 43 (4), 1315. [17] W. Hu L. Zhang Z. Pan Designing two-dimensional halide perovskites based on high-throughput calculations and machine learning ACS Appl. Mater. Interfaces 14 18 2022 21596 Hu, W.; Zhang, L.; Pan, Z. Designing Two-Dimensional Halide Perovskites Based on High-Throughput Calculations and Machine Learning. Acs Applied Materials & Interfaces 2022, 14 (18), 21596. [18] Q. Fan G. Min L. Liu Y. Zhao X. Yu S. Yun Accelerate the design of new superhard carbon allotropes in Pca21 space group: high-throughput screening and machine learning strategies Diam. Relat. Mater. 143 2024 Fan, Q.; Min, G.; Liu, L.; Zhao, Y.; Yu, X.; Yun, S. Accelerate the design of new superhard carbon allotropes in Pca21 space group: High-throughput screening and machine learning strategies. Diamond and Related Materials 2024, 143. [19] F. Pedregosa G. Varoquaux A. Gramfort V. Michel B. Thirion O. Grisel M. Blondel P. Prettenhofer R. Weiss V. Dubourg Scikit-learn: machine learning in python J. Mach. Learn. Res. 12 2011 2825 Pedregosa, F.; Varoquaux, G.; Gramfort, A.; Michel, V.; Thirion, B.; Grisel, O.; Blondel, M.; Prettenhofer, P.; Weiss, R.; Dubourg, V.et al. Scikit-learn: Machine Learning in Python. Journal of Machine Learning Research 2011, 12, 2825. [20] Y. Zhao O.D. Bozkurt S.F. Kurtoglu-Oztulum M.S. Yordanli A.S. Hoffman J. Hong J.E. Perez-Aguilar A. Saltuk D. Akgul O. Demircan Atomically dispersed zeolite-supported rhodium complex: selective and stable catalyst for acetylene semi-hydrogenation J. Catal. 429 2024 Zhao, Y.; Bozkurt, O.D.; Kurtoglu-Oztulum, S.F.; Yordanli, M.S.; Hoffman, A.S.; Hong, J.; Perez-Aguilar, J.E.; Saltuk, A.; Akgul, D.; Demircan, O.et al. Atomically dispersed zeolite-supported rhodium complex: Selective and stable catalyst for acetylene semi-hydrogenation. Journal of Catalysis 2024, 429. [21] G. Tiwari G. Sharma R. Verma P. Gakhad A.K. Singh V. Polshettiwar B.R. Jagirdar Acetylene semi-hydrogenation at room temperature over Pd-Zn nanocatalyst Chem. -a Eur. J. 29 63 2023 Tiwari, G.; Sharma, G.; Verma, R.; Gakhad, P.; Singh, A.K.; Polshettiwar, V.; Jagirdar, B.R. Acetylene Semi-Hydrogenation at Room Temperature over Pd-Zn Nanocatalyst. Chemistry-a European Journal 2023, 29 (63). [22] Y. Liu B. Wang Q. Fu W. Liu Y. Wang L. Gu D. Wang Y. Li Polyoxometalate-based metal-organic framework as molecular sieve for highly selective semi-hydrogenation of acetylene on isolated single Pd atom sites Angew. Chem. -Int. Ed. 60 41 2021 22522 Liu, Y.; Wang, B.; Fu, Q.; Liu, W.; Wang, Y.; Gu, L.; Wang, D.; Li, Y. Polyoxometalate-Based Metal-Organic Framework as Molecular Sieve for Highly Selective Semi-Hydrogenation of Acetylene on Isolated Single Pd Atom Sites. Angewandte Chemie-International Edition 2021, 60 (41), 22522. [23] Z. Chen C. Cai T. Wang Identification of copper as an ideal catalyst for electrochemical alkyne semi-hydrogenation J. Phys. Chem. C. 126 6 2022 3037 Chen, Z.; Cai, C.; Wang, T. Identification of Copper as an Ideal Catalyst for Electrochemical Alkyne Semi-hydrogenation. Journal of Physical Chemistry C 2022, 126 (6), 3037. [24] X. Cao B.W.L. Jang J. Hu L. Wang S. Zhang Synthetic strategies of supported pd-based bimetallic catalysts for selective semi-hydrogenation of acetylene: a review and perspectives Molecules 28 6 2023 Cao, X.; Jang, B.W. L.; Hu, J.; Wang, L.; Zhang, S. Synthetic Strategies of Supported Pd-Based Bimetallic Catalysts for Selective Semi-Hydrogenation of Acetylene: A Review and Perspectives. Molecules 2023, 28 (6). [25] C. Cortes V. Vapnik Support-vector networks Mach. Learn. 20 3 1995 273 Cortes, C.; Vapnik, V. Support-vector networks. Machine Learning 1995, 20 (3), 273. [26] L. Breiman Random forests Mach. Learn. 45 1 2001 5 Breiman, L. Random forests. Machine Learning 2001, 45 (1), 5. [27] Y. Lecun L. Bottou Y. Bengio P. Haffner Gradient-based learning applied to document recognition Proc. IEEE 86 11 1998 2278 Lecun, Y.; Bottou, L.; Bengio, Y.; Haffner, P. Gradient-based learning applied to document recognition. Proceedings of the IEEE 1998, 86 (11), 2278. [28] Z. Guoqiang B.E. Patuwo M.Y. Hu Forecasting with artificial neural networks: the state of the art Int. J. Forecast. 14 1 1998 35 Guoqiang, Z.; Patuwo, B.E.; Hu, M.Y. Forecasting with artificial neural networks: the state of the art. International Journal of Forecasting 1998, 14 (1), 35. [29] L.I. Ugwu Y. Morgan H. Ibrahim Ieee Annual IEEE Canadian Conference on Electrical and Computer Engineering 2023 CCECE Regina, CANADA Ugwu, L.I.; Morgan, Y.; Ibrahim, H.; Ieee Annual IEEE Canadian Conference on Electrical and Computer Engineering (CCECE), Regina, CANADA, 2023. [30] K. Takahashi I. Miyazato S. Nishimura J. Ohyama Unveiling hidden catalysts for the oxidative coupling of methane based on combining machine learning with literature data Chemcatchem 10 15 2018 3223 Takahashi, K.; Miyazato, I.; Nishimura, S.; Ohyama, J. Unveiling Hidden Catalysts for the Oxidative Coupling of Methane based on Combining Machine Learning with Literature Data. Chemcatchem 2018, 10 (15), 3223. [31] S. Ishioka A. Fujiwara S. Nakanowatari L. Takahashi T. Taniike K. Takahashi Designing catalyst descriptors for machine learning in oxidative coupling of methane ACS Catal. 12 19 2022 11541 Ishioka, S.; Fujiwara, A.; Nakanowatari, S.; Takahashi, L.; Taniike, T.; Takahashi, K. Designing Catalyst Descriptors for Machine Learning in Oxidative Coupling of Methane. Acs Catalysis 2022, 12 (19), 11541. [32] R. Kusy M. Lindner J. Wagner K. Grela Ligand-to-metal ratio controls stereoselectivity: Highly functional-group-tolerant, iridium-based, (E)-selective alkyne transfer semihydrogenation Chem. Catal. 2 2022 1346 1361 Kusy, R.; Lindner, M.; Wagner, J.; Grela, K. Ligand-to-metal ratio controls stereoselectivity: Highly functional-group-tolerant, iridium-based, (E)-selective alkyne transfer semihydrogenation. Chem Catalysis 2022, 2, 1346-1361. [33] A. Poater Never too late: stereoselective alkyne semi-hydrogenation by Ir catalysis Chem. Catal. 2 2022 1245 1246 Poater, A. Never too late: Stereoselective alkyne semi-hydrogenation by Ir catalysis. Chem Catalysis 2022, 2, 1245-1246. [34] K. Xie Catalysts for selective hydrogenation of acetylene: a review Mater. Today Catal. 3 2023 100029 Xie, K. et al. Catalysts for selective hydrogenation of acetylene: A review. Materials Today Catalysis 2023, 3, 100029.",
+      "scopus-id": "85204568301",
+      "coredata": {
+        "eid": "1-s2.0-S0926860X24004149",
+        "dc:description": "In the field of catalyst design, machine learning is gaining significant attention, especially in situations where data is limited. Facing this challenge, we have developed a neural network model that enhances predictive accuracy through the careful selection of catalyst descriptors and feature engineering, aiming to predict the conversion rate and selectivity of the acetylene semi-hydrogenation reaction. Our model has identified promising metal oxide catalysts, such as CuO, ZnO, and V2O5, for the acetylene semi-hydrogenation reaction, and these predictions have been experimentally validated. Among them, CuO achieved an acetylene conversion of 99.6 % and an ethylene selectivity of 90 % at 50–100°C, which is unprecedented at the reaction space velocity we tested. This high activity at relatively low temperatures indicates a more promising industrial application. Looking ahead, machine learning will play a pivotal role in catalyst design, accelerating the discovery and industrial application of new materials.",
+        "openArchiveArticle": "false",
+        "prism:coverDate": "2024-11-25",
+        "openaccessUserLicense": null,
+        "prism:aggregationType": "Journal",
+        "prism:url": "https://api.elsevier.com/content/article/pii/S0926860X24004149",
+        "dc:creator": [
+          {
+            "@_fa": "true",
+            "$": "Fang, Rubo"
+          },
+          {
+            "@_fa": "true",
+            "$": "Zhang, Qianjun"
+          },
+          {
+            "@_fa": "true",
+            "$": "Yao, Chong"
+          },
+          {
+            "@_fa": "true",
+            "$": "Wu, Hongjing"
+          },
+          {
+            "@_fa": "true",
+            "$": "Xie, Shangkang"
+          },
+          {
+            "@_fa": "true",
+            "$": "Zhang, Xinhui"
+          },
+          {
+            "@_fa": "true",
+            "$": "Wang, Qingtao"
+          },
+          {
+            "@_fa": "true",
+            "$": "Lyu, Jinghui"
+          },
+          {
+            "@_fa": "true",
+            "$": "Feng, Feng"
+          },
+          {
+            "@_fa": "true",
+            "$": "Lu, Chunshan"
+          },
+          {
+            "@_fa": "true",
+            "$": "Zhang, Qunfeng"
+          },
+          {
+            "@_fa": "true",
+            "$": "Li, Xiaonian"
+          }
+        ],
+        "link": [
+          {
+            "@_fa": "true",
+            "@rel": "self",
+            "@href": "https://api.elsevier.com/content/article/pii/S0926860X24004149"
+          },
+          {
+            "@_fa": "true",
+            "@rel": "scidir",
+            "@href": "https://www.sciencedirect.com/science/article/pii/S0926860X24004149"
+          }
+        ],
+        "dc:format": "application/json",
+        "openaccessType": null,
+        "pii": "S0926-860X(24)00414-9",
+        "prism:volume": "687",
+        "articleNumber": "119969",
+        "prism:publisher": "Elsevier B.V. All rights are reserved, including those for text and data mining, AI training, and similar technologies.",
+        "dc:title": "Prediction of catalytic performance of metal oxide catalysts for alkyne hydrogenation reaction based on machine learning",
+        "prism:copyright": "© 2024 Elsevier B.V. All rights are reserved, including those for text and data mining, AI training, and similar technologies.",
+        "openaccess": "0",
+        "prism:issn": "0926860X",
+        "dcterms:subject": [
+          {
+            "@_fa": "true",
+            "$": "Machine learning"
+          },
+          {
+            "@_fa": "true",
+            "$": "Catalysis"
+          },
+          {
+            "@_fa": "true",
+            "$": "Metal oxide catalysts"
+          },
+          {
+            "@_fa": "true",
+            "$": "Alkyne hydrogenation"
+          },
+          {
+            "@_fa": "true",
+            "$": "Predictive modeling"
+          },
+          {
+            "@_fa": "true",
+            "$": "CuO"
+          }
+        ],
+        "openaccessArticle": "false",
+        "prism:publicationName": "Applied Catalysis A: General",
+        "openaccessSponsorType": null,
+        "prism:pageRange": "119969",
+        "pubType": "fla",
+        "prism:coverDisplayDate": "25 November 2024",
+        "prism:doi": "10.1016/j.apcata.2024.119969",
+        "prism:startingPage": "119969",
+        "dc:identifier": "doi:10.1016/j.apcata.2024.119969",
+        "openaccessSponsorName": null
+      },
+      "objects": {
+        "object": [
+          {
+            "@category": "standard",
+            "@height": "248",
+            "@width": "678",
+            "@_fa": "true",
+            "$": "https://api.elsevier.com/content/object/eid/1-s2.0-S0926860X24004149-gr7.jpg?httpAccept=%2A%2F%2A",
+            "@multimediatype": "JPEG image file",
+            "@type": "IMAGE-DOWNSAMPLED",
+            "@size": "32177",
+            "@ref": "gr7",
+            "@mimetype": "image/jpeg"
+          },
+          {
+            "@category": "standard",
+            "@height": "271",
+            "@width": "508",
+            "@_fa": "true",
+            "$": "https://api.elsevier.com/content/object/eid/1-s2.0-S0926860X24004149-gr4.jpg?httpAccept=%2A%2F%2A",
+            "@multimediatype": "JPEG image file",
+            "@type": "IMAGE-DOWNSAMPLED",
+            "@size": "24073",
+            "@ref": "gr4",
+            "@mimetype": "image/jpeg"
+          },
+          {
+            "@category": "standard",
+            "@height": "648",
+            "@width": "715",
+            "@_fa": "true",
+            "$": "https://api.elsevier.com/content/object/eid/1-s2.0-S0926860X24004149-gr3.jpg?httpAccept=%2A%2F%2A",
+            "@multimediatype": "JPEG image file",
+            "@type": "IMAGE-DOWNSAMPLED",
+            "@size": "122293",
+            "@ref": "gr3",
+            "@mimetype": "image/jpeg"
+          },
+          {
+            "@category": "standard",
+            "@height": "349",
+            "@width": "678",
+            "@_fa": "true",
+            "$": "https://api.elsevier.com/content/object/eid/1-s2.0-S0926860X24004149-gr6.jpg?httpAccept=%2A%2F%2A",
+            "@multimediatype": "JPEG image file",
+            "@type": "IMAGE-DOWNSAMPLED",
+            "@size": "48718",
+            "@ref": "gr6",
+            "@mimetype": "image/jpeg"
+          },
+          {
+            "@category": "standard",
+            "@height": "560",
+            "@width": "678",
+            "@_fa": "true",
+            "$": "https://api.elsevier.com/content/object/eid/1-s2.0-S0926860X24004149-gr5.jpg?httpAccept=%2A%2F%2A",
+            "@multimediatype": "JPEG image file",
+            "@type": "IMAGE-DOWNSAMPLED",
+            "@size": "62325",
+            "@ref": "gr5",
+            "@mimetype": "image/jpeg"
+          },
+          {
+            "@category": "standard",
+            "@height": "255",
+            "@width": "695",
+            "@_fa": "true",
+            "$": "https://api.elsevier.com/content/object/eid/1-s2.0-S0926860X24004149-gr2.jpg?httpAccept=%2A%2F%2A",
+            "@multimediatype": "JPEG image file",
+            "@type": "IMAGE-DOWNSAMPLED",
+            "@size": "39434",
+            "@ref": "gr2",
+            "@mimetype": "image/jpeg"
+          },
+          {
+            "@category": "standard",
+            "@height": "243",
+            "@width": "301",
+            "@_fa": "true",
+            "$": "https://api.elsevier.com/content/object/eid/1-s2.0-S0926860X24004149-ga1.jpg?httpAccept=%2A%2F%2A",
+            "@multimediatype": "JPEG image file",
+            "@type": "IMAGE-DOWNSAMPLED",
+            "@size": "20598",
+            "@ref": "ga1",
+            "@mimetype": "image/jpeg"
+          },
+          {
+            "@category": "standard",
+            "@height": "316",
+            "@width": "376",
+            "@_fa": "true",
+            "$": "https://api.elsevier.com/content/object/eid/1-s2.0-S0926860X24004149-gr1.jpg?httpAccept=%2A%2F%2A",
+            "@multimediatype": "JPEG image file",
+            "@type": "IMAGE-DOWNSAMPLED",
+            "@size": "41492",
+            "@ref": "gr1",
+            "@mimetype": "image/jpeg"
+          },
+          {
+            "@category": "thumbnail",
+            "@height": "80",
+            "@width": "219",
+            "@_fa": "true",
+            "$": "https://api.elsevier.com/content/object/eid/1-s2.0-S0926860X24004149-gr7.sml?httpAccept=%2A%2F%2A",
+            "@multimediatype": "GIF image file",
+            "@type": "IMAGE-THUMBNAIL",
+            "@size": "5513",
+            "@ref": "gr7",
+            "@mimetype": "image/gif"
+          },
+          {
+            "@category": "thumbnail",
+            "@height": "117",
+            "@width": "219",
+            "@_fa": "true",
+            "$": "https://api.elsevier.com/content/object/eid/1-s2.0-S0926860X24004149-gr4.sml?httpAccept=%2A%2F%2A",
+            "@multimediatype": "GIF image file",
+            "@type": "IMAGE-THUMBNAIL",
+            "@size": "7797",
+            "@ref": "gr4",
+            "@mimetype": "image/gif"
+          },
+          {
+            "@category": "thumbnail",
+            "@height": "164",
+            "@width": "181",
+            "@_fa": "true",
+            "$": "https://api.elsevier.com/content/object/eid/1-s2.0-S0926860X24004149-gr3.sml?httpAccept=%2A%2F%2A",
+            "@multimediatype": "GIF image file",
+            "@type": "IMAGE-THUMBNAIL",
+            "@size": "21304",
+            "@ref": "gr3",
+            "@mimetype": "image/gif"
+          },
+          {
+            "@category": "thumbnail",
+            "@height": "113",
+            "@width": "219",
+            "@_fa": "true",
+            "$": "https://api.elsevier.com/content/object/eid/1-s2.0-S0926860X24004149-gr6.sml?httpAccept=%2A%2F%2A",
+            "@multimediatype": "GIF image file",
+            "@type": "IMAGE-THUMBNAIL",
+            "@size": "13752",
+            "@ref": "gr6",
+            "@mimetype": "image/gif"
+          },
+          {
+            "@category": "thumbnail",
+            "@height": "164",
+            "@width": "198",
+            "@_fa": "true",
+            "$": "https://api.elsevier.com/content/object/eid/1-s2.0-S0926860X24004149-gr5.sml?httpAccept=%2A%2F%2A",
+            "@multimediatype": "GIF image file",
+            "@type": "IMAGE-THUMBNAIL",
+            "@size": "10229",
+            "@ref": "gr5",
+            "@mimetype": "image/gif"
+          },
+          {
+            "@category": "thumbnail",
+            "@height": "80",
+            "@width": "219",
+            "@_fa": "true",
+            "$": "https://api.elsevier.com/content/object/eid/1-s2.0-S0926860X24004149-gr2.sml?httpAccept=%2A%2F%2A",
+            "@multimediatype": "GIF image file",
+            "@type": "IMAGE-THUMBNAIL",
+            "@size": "6676",
+            "@ref": "gr2",
+            "@mimetype": "image/gif"
+          },
+          {
+            "@category": "thumbnail",
+            "@height": "164",
+            "@width": "203",
+            "@_fa": "true",
+            "$": "https://api.elsevier.com/content/object/eid/1-s2.0-S0926860X24004149-ga1.sml?httpAccept=%2A%2F%2A",
+            "@multimediatype": "GIF image file",
+            "@type": "IMAGE-THUMBNAIL",
+            "@size": "15686",
+            "@ref": "ga1",
+            "@mimetype": "image/gif"
+          },
+          {
+            "@category": "thumbnail",
+            "@height": "164",
+            "@width": "195",
+            "@_fa": "true",
+            "$": "https://api.elsevier.com/content/object/eid/1-s2.0-S0926860X24004149-gr1.sml?httpAccept=%2A%2F%2A",
+            "@multimediatype": "GIF image file",
+            "@type": "IMAGE-THUMBNAIL",
+            "@size": "17877",
+            "@ref": "gr1",
+            "@mimetype": "image/gif"
+          },
+          {
+            "@category": "high",
+            "@height": "1097",
+            "@width": "2994",
+            "@_fa": "true",
+            "$": "https://api.elsevier.com/content/object/eid/1-s2.0-S0926860X24004149-gr7_lrg.jpg?httpAccept=%2A%2F%2A",
+            "@multimediatype": "JPEG image file",
+            "@type": "IMAGE-HIGH-RES",
+            "@size": "153222",
+            "@ref": "gr7",
+            "@mimetype": "image/jpeg"
+          },
+          {
+            "@category": "high",
+            "@height": "1197",
+            "@width": "2245",
+            "@_fa": "true",
+            "$": "https://api.elsevier.com/content/object/eid/1-s2.0-S0926860X24004149-gr4_lrg.jpg?httpAccept=%2A%2F%2A",
+            "@multimediatype": "JPEG image file",
+            "@type": "IMAGE-HIGH-RES",
+            "@size": "121660",
+            "@ref": "gr4",
+            "@mimetype": "image/jpeg"
+          },
+          {
+            "@category": "high",
+            "@height": "2866",
+            "@width": "3160",
+            "@_fa": "true",
+            "$": "https://api.elsevier.com/content/object/eid/1-s2.0-S0926860X24004149-gr3_lrg.jpg?httpAccept=%2A%2F%2A",
+            "@multimediatype": "JPEG image file",
+            "@type": "IMAGE-HIGH-RES",
+            "@size": "542519",
+            "@ref": "gr3",
+            "@mimetype": "image/jpeg"
+          },
+          {
+            "@category": "high",
+            "@height": "1542",
+            "@width": "2994",
+            "@_fa": "true",
+            "$": "https://api.elsevier.com/content/object/eid/1-s2.0-S0926860X24004149-gr6_lrg.jpg?httpAccept=%2A%2F%2A",
+            "@multimediatype": "JPEG image file",
+            "@type": "IMAGE-HIGH-RES",
+            "@size": "219747",
+            "@ref": "gr6",
+            "@mimetype": "image/jpeg"
+          },
+          {
+            "@category": "high",
+            "@height": "2474",
+            "@width": "2994",
+            "@_fa": "true",
+            "$": "https://api.elsevier.com/content/object/eid/1-s2.0-S0926860X24004149-gr5_lrg.jpg?httpAccept=%2A%2F%2A",
+            "@multimediatype": "JPEG image file",
+            "@type": "IMAGE-HIGH-RES",
+            "@size": "293862",
+            "@ref": "gr5",
+            "@mimetype": "image/jpeg"
+          },
+          {
+            "@category": "high",
+            "@height": "1127",
+            "@width": "3076",
+            "@_fa": "true",
+            "$": "https://api.elsevier.com/content/object/eid/1-s2.0-S0926860X24004149-gr2_lrg.jpg?httpAccept=%2A%2F%2A",
+            "@multimediatype": "JPEG image file",
+            "@type": "IMAGE-HIGH-RES",
+            "@size": "181459",
+            "@ref": "gr2",
+            "@mimetype": "image/jpeg"
+          },
+          {
+            "@category": "high",
+            "@height": "1076",
+            "@width": "1333",
+            "@_fa": "true",
+            "$": "https://api.elsevier.com/content/object/eid/1-s2.0-S0926860X24004149-ga1_lrg.jpg?httpAccept=%2A%2F%2A",
+            "@multimediatype": "JPEG image file",
+            "@type": "IMAGE-HIGH-RES",
+            "@size": "187416",
+            "@ref": "ga1",
+            "@mimetype": "image/jpeg"
+          },
+          {
+            "@category": "high",
+            "@height": "1398",
+            "@width": "1663",
+            "@_fa": "true",
+            "$": "https://api.elsevier.com/content/object/eid/1-s2.0-S0926860X24004149-gr1_lrg.jpg?httpAccept=%2A%2F%2A",
+            "@multimediatype": "JPEG image file",
+            "@type": "IMAGE-HIGH-RES",
+            "@size": "250044",
+            "@ref": "gr1",
+            "@mimetype": "image/jpeg"
+          },
+          {
+            "@category": "standard",
+            "@_fa": "true",
+            "$": "https://api.elsevier.com/content/object/eid/1-s2.0-S0926860X24004149-mmc1.docx?httpAccept=%2A%2F%2A",
+            "@multimediatype": "Microsoft Word file",
+            "@type": "APPLICATION",
+            "@size": "68347",
+            "@ref": "mmc1",
+            "@mimetype": "application/word"
+          },
+          {
+            "@category": "thumbnail",
+            "@_fa": "true",
+            "$": "https://api.elsevier.com/content/object/eid/1-s2.0-S0926860X24004149-si0001.svg?httpAccept=%2A%2F%2A",
+            "@multimediatype": "Scalable Vector Graphics file",
+            "@type": "ALTIMG",
+            "@size": "2804",
+            "@ref": "si0001",
+            "@mimetype": "image/svg+xml"
+          }
+        ]
+      },
+      "link": {
+        "@rel": "abstract",
+        "@href": "https://api.elsevier.com/content/abstract/scopus_id/85204568301"
+      }
+    }
+  }
+}

@@ -1,0 +1,750 @@
+{
+  "metadata": {
+    "title": "Theoretical study on the mechanism of Ni−Al bimetallic catalyzed dual C−H cyclization of amides and alkynes",
+    "authors": "; ; ",
+    "journal": "Molecular Catalysis",
+    "date": "2022-04-30",
+    "doi": "10.1016/j.mcat.2022.112230",
+    "abstract": "",
+    "uri": "https://api.elsevier.com/content/article/pii/S2468823122001183",
+    "pii": "S2468823122001183"
+  },
+  "fulltext": {
+    "full-text-retrieval-response": {
+      "scopus-eid": "2-s2.0-85126695393",
+      "originalText": "serial JL 315758 291210 291744 291790 291809 31 Molecular Catalysis MOLECULARCATALYSIS 2022-03-22 2022-03-22 2022-03-22 2022-03-22 2022-04-04T07:58:16 1-s2.0-S2468823122001183 S2468-8231(22)00118-3 S2468823122001183 10.1016/j.mcat.2022.112230 S300 S300.1 FULL-TEXT 1-s2.0-S2468823122X00059 2023-02-13T19:39:52.363466Z 0 0 20220401 20220430 2022 2022-03-22T18:05:34.505331Z absattachment articleinfo articlenumber articletitlenorm authfirstinitialnorm authfirstsurnamenorm cid cids contenttype copyright crossmark dateloaded dateloadedtxt datesearch datesort dateupdated dco docsubtype doctype doi eid ewtransactionid hubeid indexeddate issn issnnorm itemstage itemtransactionid itemweight openaccess openarchive pg pgfirst pii piinorm pubdateend pubdatestart pubdatetxt pubyr sectiontitle sortorder srctitle srctitlenorm srctype ssids alllist content subj subheadings suppl tomb volfirst volissue volumelist webpdf webpdfpagecount yearnav figure e-component body acknowledge affil appendices articletitle auth authfirstini authfull authkeywords authlast grantnumber grantsponsor grantsponsorid highlightsabst primabst ref specialabst 2468-8231 24688231 true 522 522 C Volume 522 26 112230 112230 112230 202204 April 2022 2022-04-01 2022-04-30 2022 Regular Papers article fla © 2022 Elsevier B.V. All rights reserved. THEORETICALSTUDYMECHANISMNIALBIMETALLICCATALYZEDDUALCHCYCLIZATIONAMIDESALKYNES CHEN X Introduction Computational details Results and discussion Conclusions CRediT authorship contribution statement Acknowledgments Appendix Supplementary materials References GENSCH 2018 2296 2306 T PAN 2012 1374 1384 S BRAS 2014 1555 1572 J GULAS 2016 11000 11019 M ZHENG 2018 556 569 L THANSANDOTE 2009 5874 5883 P GAGOSZ 2019 1087 1099 F BROGGINI 2012 1730 1746 G SONG 2012 3651 3678 G YANG 2016 2872 2884 Y SATOH 2010 11212 11222 T WANG 2018 1004 1013 Y TASKER 2014 299 309 S ANANIKOV 2015 1964 1971 V RICHMOND 2018 499 513 E CHEN 2020 9428 9432 H WANG 2021 858 864 R QI 2021 4034 4039 S WANG 2020 2230 2234 Y NAKAO 2011 3264 3267 Y ANAND 2012 4584 4587 M FRISCH 2010 M GAUSSIAN09REVISIONC01 ZHAO 2008 215 241 Y HAY 1985 299 310 P HAY 1985 270 283 P FUKUI 1981 363 368 K FUKUI 1970 4161 4163 K ANDRAE 1990 123 141 D FALIVENE 2018 138 144 L GUIHAUME 2012 1300 1314 J NAWEEPHATTANA 2020 11340 11349 P ZELL 2017 10514 10518 D TANG 2017 2761 2771 S KOZUCH 2011 101 110 S REMYA 2013 1341 1353 K CHENX2022X112230 CHENX2022X112230XX 2024-03-22T00:00:00.000Z 2024-03-22T00:00:00.000Z http://creativecommons.org/licenses/by-nc-nd/4.0/ © 2022 Elsevier B.V. All rights reserved. 0 https://doi.org/10.15223/policy-017 https://doi.org/10.15223/policy-037 https://doi.org/10.15223/policy-012 https://doi.org/10.15223/policy-029 https://doi.org/10.15223/policy-004 item S2468-8231(22)00118-3 S2468823122001183 1-s2.0-S2468823122001183 10.1016/j.mcat.2022.112230 315758 2023-02-13T19:39:52.363466Z 2022-04-01 2022-04-30 1-s2.0-S2468823122001183-main.pdf https://s3-eu-west-1.amazonaws.com/prod-ucs-content-store-eu-west/content/pii:S2468823122001183/MAIN/application/pdf/8af7431da213dc7685a5d9747581dca4/main.pdf main.pdf pdf true 2103431 MAIN 11 1-s2.0-S2468823122001183-main_1.png https://s3-eu-west-1.amazonaws.com/prod-ucs-content-store-eu-west/content/pii:S2468823122001183/PREVIEW/image/png/5586ac6d9767fe283ed4250fc0fc99bc/main_1.png main_1.png png 61591 849 656 IMAGE-WEB-PDF 1 1-s2.0-S2468823122001183-gr1.jpg https://s3-eu-west-1.amazonaws.com/prod-ucs-content-store-eu-west/content/pii:S2468823122001183/gr1/DOWNSAMPLED/image/jpeg/b3ecf28292ca361df0d6afddc9799db7/gr1.jpg gr1 gr1.jpg jpg 18415 244 349 IMAGE-DOWNSAMPLED 1-s2.0-S2468823122001183-gr2.jpg https://s3-eu-west-1.amazonaws.com/prod-ucs-content-store-eu-west/content/pii:S2468823122001183/gr2/DOWNSAMPLED/image/jpeg/b2417fc01d37db7c546e3e633954ef55/gr2.jpg gr2 gr2.jpg jpg 42952 386 349 IMAGE-DOWNSAMPLED 1-s2.0-S2468823122001183-sc1.jpg https://s3-eu-west-1.amazonaws.com/prod-ucs-content-store-eu-west/content/pii:S2468823122001183/sc1/DOWNSAMPLED/image/jpeg/4cc5cf604fb9a4a8f0f7563cd8ed897f/sc1.jpg sc1 sc1.jpg jpg 32740 358 356 IMAGE-DOWNSAMPLED 1-s2.0-S2468823122001183-gr9.jpg https://s3-eu-west-1.amazonaws.com/prod-ucs-content-store-eu-west/content/pii:S2468823122001183/gr9/DOWNSAMPLED/image/jpeg/4f24972a47f2cfa67fb2aa8dad08e068/gr9.jpg gr9 gr9.jpg jpg 34080 346 644 IMAGE-DOWNSAMPLED 1-s2.0-S2468823122001183-gr7.jpg https://s3-eu-west-1.amazonaws.com/prod-ucs-content-store-eu-west/content/pii:S2468823122001183/gr7/DOWNSAMPLED/image/jpeg/ab9fb6fba6784a45c81582d038ef4b77/gr7.jpg gr7 gr7.jpg jpg 34525 360 565 IMAGE-DOWNSAMPLED 1-s2.0-S2468823122001183-gr8.jpg https://s3-eu-west-1.amazonaws.com/prod-ucs-content-store-eu-west/content/pii:S2468823122001183/gr8/DOWNSAMPLED/image/jpeg/958f77ea103d61d4398ca10be98bc251/gr8.jpg gr8 gr8.jpg jpg 37878 375 565 IMAGE-DOWNSAMPLED 1-s2.0-S2468823122001183-gr5.jpg https://s3-eu-west-1.amazonaws.com/prod-ucs-content-store-eu-west/content/pii:S2468823122001183/gr5/DOWNSAMPLED/image/jpeg/10b2e077816daabf74c30c227c7b6c9d/gr5.jpg gr5 gr5.jpg jpg 41389 368 638 IMAGE-DOWNSAMPLED 1-s2.0-S2468823122001183-gr6.jpg https://s3-eu-west-1.amazonaws.com/prod-ucs-content-store-eu-west/content/pii:S2468823122001183/gr6/DOWNSAMPLED/image/jpeg/e8e2e0873e16236879cc0a204f9b824b/gr6.jpg gr6 gr6.jpg jpg 73362 613 637 IMAGE-DOWNSAMPLED 1-s2.0-S2468823122001183-gr3.jpg https://s3-eu-west-1.amazonaws.com/prod-ucs-content-store-eu-west/content/pii:S2468823122001183/gr3/DOWNSAMPLED/image/jpeg/87e81f2d93c3563ff6cabaaa513fe9af/gr3.jpg gr3 gr3.jpg jpg 59166 354 644 IMAGE-DOWNSAMPLED 1-s2.0-S2468823122001183-gr4.jpg https://s3-eu-west-1.amazonaws.com/prod-ucs-content-store-eu-west/content/pii:S2468823122001183/gr4/DOWNSAMPLED/image/jpeg/52d55e243e3bedb14349e6016e51ddfd/gr4.jpg gr4 gr4.jpg jpg 39723 331 644 IMAGE-DOWNSAMPLED 1-s2.0-S2468823122001183-gr12.jpg https://s3-eu-west-1.amazonaws.com/prod-ucs-content-store-eu-west/content/pii:S2468823122001183/gr12/DOWNSAMPLED/image/jpeg/3fdd2480319f7337e64cd29a30eabf5a/gr12.jpg gr12 gr12.jpg jpg 54626 321 668 IMAGE-DOWNSAMPLED 1-s2.0-S2468823122001183-gr13.jpg https://s3-eu-west-1.amazonaws.com/prod-ucs-content-store-eu-west/content/pii:S2468823122001183/gr13/DOWNSAMPLED/image/jpeg/7723a4b318ad5fa773d25dd05fe44450/gr13.jpg gr13 gr13.jpg jpg 63301 337 651 IMAGE-DOWNSAMPLED 1-s2.0-S2468823122001183-gr15.jpg https://s3-eu-west-1.amazonaws.com/prod-ucs-content-store-eu-west/content/pii:S2468823122001183/gr15/DOWNSAMPLED/image/jpeg/8ae10b6b5876af833f112db57439694b/gr15.jpg gr15 gr15.jpg jpg 46323 369 537 IMAGE-DOWNSAMPLED 1-s2.0-S2468823122001183-gr11.jpg https://s3-eu-west-1.amazonaws.com/prod-ucs-content-store-eu-west/content/pii:S2468823122001183/gr11/DOWNSAMPLED/image/jpeg/f7dee418b90a019abda445373be6d91b/gr11.jpg gr11 gr11.jpg jpg 61294 427 551 IMAGE-DOWNSAMPLED 1-s2.0-S2468823122001183-ga1.jpg https://s3-eu-west-1.amazonaws.com/prod-ucs-content-store-eu-west/content/pii:S2468823122001183/ga1/DOWNSAMPLED/image/jpeg/c4771db765168c6ea93a72cf877aa454/ga1.jpg ga1 true ga1.jpg jpg 14554 113 301 IMAGE-DOWNSAMPLED 1-s2.0-S2468823122001183-gr14.jpg https://s3-eu-west-1.amazonaws.com/prod-ucs-content-store-eu-west/content/pii:S2468823122001183/gr14/DOWNSAMPLED/image/jpeg/39dab74354fa1c283d09bc096c3319c6/gr14.jpg gr14 gr14.jpg jpg 45265 292 534 IMAGE-DOWNSAMPLED 1-s2.0-S2468823122001183-gr10.jpg https://s3-eu-west-1.amazonaws.com/prod-ucs-content-store-eu-west/content/pii:S2468823122001183/gr10/DOWNSAMPLED/image/jpeg/0c95c6e0cba1222b7bc4c18b035f019b/gr10.jpg gr10 gr10.jpg jpg 48472 326 635 IMAGE-DOWNSAMPLED 1-s2.0-S2468823122001183-gr1.sml https://s3-eu-west-1.amazonaws.com/prod-ucs-content-store-eu-west/content/pii:S2468823122001183/gr1/THUMBNAIL/image/gif/c65bf5eb599455f3faf18126bc66713b/gr1.sml gr1 gr1.sml sml 5919 153 219 IMAGE-THUMBNAIL 1-s2.0-S2468823122001183-gr2.sml https://s3-eu-west-1.amazonaws.com/prod-ucs-content-store-eu-west/content/pii:S2468823122001183/gr2/THUMBNAIL/image/gif/568c5c9864afa01d8d4cc23dc3cfe043/gr2.sml gr2 gr2.sml sml 8235 164 148 IMAGE-THUMBNAIL 1-s2.0-S2468823122001183-sc1.sml https://s3-eu-west-1.amazonaws.com/prod-ucs-content-store-eu-west/content/pii:S2468823122001183/sc1/THUMBNAIL/image/gif/047f2d2b82234d96f9a4152d334defa8/sc1.sml sc1 sc1.sml sml 7661 164 163 IMAGE-THUMBNAIL 1-s2.0-S2468823122001183-gr9.sml https://s3-eu-west-1.amazonaws.com/prod-ucs-content-store-eu-west/content/pii:S2468823122001183/gr9/THUMBNAIL/image/gif/b380bb6fc022fe99433abbee32fa47b1/gr9.sml gr9 gr9.sml sml 4299 118 219 IMAGE-THUMBNAIL 1-s2.0-S2468823122001183-gr7.sml https://s3-eu-west-1.amazonaws.com/prod-ucs-content-store-eu-west/content/pii:S2468823122001183/gr7/THUMBNAIL/image/gif/725d9d39e7723b82c4522c138af2c7fd/gr7.sml gr7 gr7.sml sml 5560 139 219 IMAGE-THUMBNAIL 1-s2.0-S2468823122001183-gr8.sml https://s3-eu-west-1.amazonaws.com/prod-ucs-content-store-eu-west/content/pii:S2468823122001183/gr8/THUMBNAIL/image/gif/442b3b49cb1aa175a4be53b36cf14aed/gr8.sml gr8 gr8.sml sml 7545 146 219 IMAGE-THUMBNAIL 1-s2.0-S2468823122001183-gr5.sml https://s3-eu-west-1.amazonaws.com/prod-ucs-content-store-eu-west/content/pii:S2468823122001183/gr5/THUMBNAIL/image/gif/a8081c9c01daa348aae17291ac3c307f/gr5.sml gr5 gr5.sml sml 5127 126 219 IMAGE-THUMBNAIL 1-s2.0-S2468823122001183-gr6.sml https://s3-eu-west-1.amazonaws.com/prod-ucs-content-store-eu-west/content/pii:S2468823122001183/gr6/THUMBNAIL/image/gif/827fcc53ae44448854e426d46aee0f85/gr6.sml gr6 gr6.sml sml 8377 164 170 IMAGE-THUMBNAIL 1-s2.0-S2468823122001183-gr3.sml https://s3-eu-west-1.amazonaws.com/prod-ucs-content-store-eu-west/content/pii:S2468823122001183/gr3/THUMBNAIL/image/gif/1f9fb30f53a37f7695e77b3df357bd86/gr3.sml gr3 gr3.sml sml 8009 120 219 IMAGE-THUMBNAIL 1-s2.0-S2468823122001183-gr4.sml https://s3-eu-west-1.amazonaws.com/prod-ucs-content-store-eu-west/content/pii:S2468823122001183/gr4/THUMBNAIL/image/gif/e92a1fceaf51453aab881127789dcfa0/gr4.sml gr4 gr4.sml sml 4962 112 219 IMAGE-THUMBNAIL 1-s2.0-S2468823122001183-gr12.sml https://s3-eu-west-1.amazonaws.com/prod-ucs-content-store-eu-west/content/pii:S2468823122001183/gr12/THUMBNAIL/image/gif/4047f324bf5d319bca4e62b94103c64a/gr12.sml gr12 gr12.sml sml 7718 105 219 IMAGE-THUMBNAIL 1-s2.0-S2468823122001183-gr13.sml https://s3-eu-west-1.amazonaws.com/prod-ucs-content-store-eu-west/content/pii:S2468823122001183/gr13/THUMBNAIL/image/gif/418228d99792e7c44336a4ae982b68fa/gr13.sml gr13 gr13.sml sml 9224 113 219 IMAGE-THUMBNAIL 1-s2.0-S2468823122001183-gr15.sml https://s3-eu-west-1.amazonaws.com/prod-ucs-content-store-eu-west/content/pii:S2468823122001183/gr15/THUMBNAIL/image/gif/442cdc34a79f2e1fa8d49af83853d933/gr15.sml gr15 gr15.sml sml 9208 150 219 IMAGE-THUMBNAIL 1-s2.0-S2468823122001183-gr11.sml https://s3-eu-west-1.amazonaws.com/prod-ucs-content-store-eu-west/content/pii:S2468823122001183/gr11/THUMBNAIL/image/gif/42fceb7a1d7df235919c80c6f2ee96f0/gr11.sml gr11 gr11.sml sml 10748 163 211 IMAGE-THUMBNAIL 1-s2.0-S2468823122001183-ga1.sml https://s3-eu-west-1.amazonaws.com/prod-ucs-content-store-eu-west/content/pii:S2468823122001183/ga1/THUMBNAIL/image/gif/3c852242926de7347d38f1eb4f4664d0/ga1.sml ga1 true ga1.sml sml 6919 82 219 IMAGE-THUMBNAIL 1-s2.0-S2468823122001183-gr14.sml https://s3-eu-west-1.amazonaws.com/prod-ucs-content-store-eu-west/content/pii:S2468823122001183/gr14/THUMBNAIL/image/gif/97386fdcbf41e304fe0e305999641d5c/gr14.sml gr14 gr14.sml sml 8588 120 219 IMAGE-THUMBNAIL 1-s2.0-S2468823122001183-gr10.sml https://s3-eu-west-1.amazonaws.com/prod-ucs-content-store-eu-west/content/pii:S2468823122001183/gr10/THUMBNAIL/image/gif/fce56920938969a1ede0f4363f21e124/gr10.sml gr10 gr10.sml sml 7325 112 219 IMAGE-THUMBNAIL 1-s2.0-S2468823122001183-gr1_lrg.jpg https://s3-eu-west-1.amazonaws.com/prod-ucs-content-store-eu-west/content/pii:S2468823122001183/gr1/HIGHRES/image/jpeg/2f04d8829788dfdae12a818d293555e6/gr1_lrg.jpg gr1 gr1_lrg.jpg jpg 137361 1082 1546 IMAGE-HIGH-RES 1-s2.0-S2468823122001183-gr2_lrg.jpg https://s3-eu-west-1.amazonaws.com/prod-ucs-content-store-eu-west/content/pii:S2468823122001183/gr2/HIGHRES/image/jpeg/3d142d481942f45567f023addeaf6105/gr2_lrg.jpg gr2 gr2_lrg.jpg jpg 298273 1710 1546 IMAGE-HIGH-RES 1-s2.0-S2468823122001183-sc1_lrg.jpg https://s3-eu-west-1.amazonaws.com/prod-ucs-content-store-eu-west/content/pii:S2468823122001183/sc1/HIGHRES/image/jpeg/0b1b60f3262ddc27c59674b637c2831a/sc1_lrg.jpg sc1 sc1_lrg.jpg jpg 231698 1586 1577 IMAGE-HIGH-RES 1-s2.0-S2468823122001183-gr9_lrg.jpg https://s3-eu-west-1.amazonaws.com/prod-ucs-content-store-eu-west/content/pii:S2468823122001183/gr9/HIGHRES/image/jpeg/39e5bd58d5f7b31de8960afa36a28ac6/gr9_lrg.jpg gr9 gr9_lrg.jpg jpg 268734 1530 2851 IMAGE-HIGH-RES 1-s2.0-S2468823122001183-gr7_lrg.jpg https://s3-eu-west-1.amazonaws.com/prod-ucs-content-store-eu-west/content/pii:S2468823122001183/gr7/HIGHRES/image/jpeg/a2c6f684b7573aa572977ff2625311c7/gr7_lrg.jpg gr7 gr7_lrg.jpg jpg 254480 1591 2500 IMAGE-HIGH-RES 1-s2.0-S2468823122001183-gr8_lrg.jpg https://s3-eu-west-1.amazonaws.com/prod-ucs-content-store-eu-west/content/pii:S2468823122001183/gr8/HIGHRES/image/jpeg/4a7b5189034ddd070de967f8d9c290d4/gr8_lrg.jpg gr8 gr8_lrg.jpg jpg 269153 1661 2500 IMAGE-HIGH-RES 1-s2.0-S2468823122001183-gr5_lrg.jpg https://s3-eu-west-1.amazonaws.com/prod-ucs-content-store-eu-west/content/pii:S2468823122001183/gr5/HIGHRES/image/jpeg/2981a3315c698949cdb2d03bb8fd56fb/gr5_lrg.jpg gr5 gr5_lrg.jpg jpg 301555 1630 2827 IMAGE-HIGH-RES 1-s2.0-S2468823122001183-gr6_lrg.jpg https://s3-eu-west-1.amazonaws.com/prod-ucs-content-store-eu-west/content/pii:S2468823122001183/gr6/HIGHRES/image/jpeg/a5412812ea8c831816166a074b5a216a/gr6_lrg.jpg gr6 gr6_lrg.jpg jpg 562020 2714 2819 IMAGE-HIGH-RES 1-s2.0-S2468823122001183-gr3_lrg.jpg https://s3-eu-west-1.amazonaws.com/prod-ucs-content-store-eu-west/content/pii:S2468823122001183/gr3/HIGHRES/image/jpeg/b6eaf042cc6441e4267a44d6797799db/gr3_lrg.jpg gr3 gr3_lrg.jpg jpg 439335 1569 2852 IMAGE-HIGH-RES 1-s2.0-S2468823122001183-gr4_lrg.jpg https://s3-eu-west-1.amazonaws.com/prod-ucs-content-store-eu-west/content/pii:S2468823122001183/gr4/HIGHRES/image/jpeg/05fcd3bfd81ee9ef225ef3548d5516fb/gr4_lrg.jpg gr4 gr4_lrg.jpg jpg 304387 1465 2852 IMAGE-HIGH-RES 1-s2.0-S2468823122001183-gr12_lrg.jpg https://s3-eu-west-1.amazonaws.com/prod-ucs-content-store-eu-west/content/pii:S2468823122001183/gr12/HIGHRES/image/jpeg/d81a31ec83eb9cf07deea8030353e941/gr12_lrg.jpg gr12 gr12_lrg.jpg jpg 407736 1423 2958 IMAGE-HIGH-RES 1-s2.0-S2468823122001183-gr13_lrg.jpg https://s3-eu-west-1.amazonaws.com/prod-ucs-content-store-eu-west/content/pii:S2468823122001183/gr13/HIGHRES/image/jpeg/5360fb581e7f5be300b7bdbb6f054f45/gr13_lrg.jpg gr13 gr13_lrg.jpg jpg 468602 1494 2884 IMAGE-HIGH-RES 1-s2.0-S2468823122001183-gr15_lrg.jpg https://s3-eu-west-1.amazonaws.com/prod-ucs-content-store-eu-west/content/pii:S2468823122001183/gr15/HIGHRES/image/jpeg/dd9562ca2b419ca73a29883ac6ddc442/gr15_lrg.jpg gr15 gr15_lrg.jpg jpg 348918 1632 2378 IMAGE-HIGH-RES 1-s2.0-S2468823122001183-gr11_lrg.jpg https://s3-eu-west-1.amazonaws.com/prod-ucs-content-store-eu-west/content/pii:S2468823122001183/gr11/HIGHRES/image/jpeg/fbcf9229e591c3d86bc077f0d8f6262c/gr11_lrg.jpg gr11 gr11_lrg.jpg jpg 459437 1892 2442 IMAGE-HIGH-RES 1-s2.0-S2468823122001183-ga1_lrg.jpg https://s3-eu-west-1.amazonaws.com/prod-ucs-content-store-eu-west/content/pii:S2468823122001183/ga1/HIGHRES/image/jpeg/57e2d9dbc0ced974cb400b9c93a806a7/ga1_lrg.jpg ga1 true ga1_lrg.jpg jpg 82850 499 1333 IMAGE-HIGH-RES 1-s2.0-S2468823122001183-gr14_lrg.jpg https://s3-eu-west-1.amazonaws.com/prod-ucs-content-store-eu-west/content/pii:S2468823122001183/gr14/HIGHRES/image/jpeg/12a05132aff388b6c4f4d2c0aa391d01/gr14_lrg.jpg gr14 gr14_lrg.jpg jpg 331809 1295 2366 IMAGE-HIGH-RES 1-s2.0-S2468823122001183-gr10_lrg.jpg https://s3-eu-west-1.amazonaws.com/prod-ucs-content-store-eu-west/content/pii:S2468823122001183/gr10/HIGHRES/image/jpeg/b3f46e5a7f5bfaee2d235087af7f186d/gr10_lrg.jpg gr10 gr10_lrg.jpg jpg 362879 1442 2811 IMAGE-HIGH-RES 1-s2.0-S2468823122001183-mmc1.docx https://s3-eu-west-1.amazonaws.com/prod-ucs-content-store-eu-west/content/pii:S2468823122001183/mmc1/MAIN/application/vnd.openxmlformats-officedocument.wordprocessingml.document/6675b8c5a425e095a49d8d6d1926f140/mmc1.docx mmc1 mmc1.docx docx 486197 APPLICATION 1-s2.0-S2468823122001183-mmc2.zip https://s3-eu-west-1.amazonaws.com/prod-ucs-content-store-eu-west/content/pii:S2468823122001183/mmc2/MAIN/application/zip/14d999d59ce511baa631c953f03d1aca/mmc2.zip mmc2 mmc2.zip zip 168755 APPLICATION 1-s2.0-S2468823122001183-am.pdf am am.pdf pdf 457871 AAM-PDF https://s3-eu-west-1.amazonaws.com/prod-ucs-content-store-eu-west/content/egi:10WB5K76JJ9/MAIN/application/pdf/7beccf1dd0d73ff907ca2421f7c0fed4/am.pdf MCAT 112230 112230 S2468-8231(22)00118-3 10.1016/j.mcat.2022.112230 Fig. 1 The process for formation of complex 1a. The relative free energies are given in kcal/mol. Fig 1 Fig. 2 Free energy profiles for activation of formyl C(sp2)−H bond (in black) and phenyl C(sp2)−H bond (in red). The relative free energies are given in kcal/mol. Fig 2 Fig. 3 Free energy profiles for activation of phenyl C(sp2)−H bond, release of alkene, and alkyne coordination. The relative free energies are given in kcal/mol. Fig 3 Fig. 4 Free energy profile for alkyne insertion, isomerization, reductive elimination, alkyne coordination, and regeneration of 1a. The relative free energies are given in kcal/mol. Fig 4 Fig. 5 Free energy profiles for isomerization, reductive elimination, alkyne coordination, and ligand exchange to release P1′ and regenerate 1a. The relative free energies are given in kcal/mol. Fig 5 Fig. 6 Free energy profile for cyclization reaction of S2 and 2-butyne with SPO as ligand. The relative free energies are given in kcal/mol. Fig 6 Fig. 7 Free energy profile for activation of formyl C(sp2)−H bond. The relative free energies are given in kcal/mol. Fig 7 Fig. 8 Free energy profiles for activation of benzylic methyl C(sp3)−H bond, release of alkene, and alkyne coordination. The relative free energies are given in kcal/mol. Fig 8 Fig. 9 Free energy profile for alkyne insertion, isomerization, reductive elimination, alkyne coordination, and regeneration of 1c. The relative free energies are given in kcal/mol. Fig 9 Fig. 10 Free energy profile for the reaction of S1 and 2-butyne with PMe3 as ligand. The relative free energies are given in kcal/mol. Fig 10 Fig. 11 Free energy profiles for key transition states and intermediates of four reactions with (a) S1 as reactant, SPO as ligand; (b) S2 as reactant, SPO as ligand; (c) S2 as reactant, PMe3 as ligand; (d) S1 as reactant, PMe3 as ligand. The relative free energies are given in kcal/mol. Fig 11 Fig. 12 Free energy profile for the reaction of S1 and 2-butyne using SPO with mesityl group (Mes) on N atom as ligand. The relative free energies are given in kcal/mol. Fig 12 Fig. 13 Free energy profiles for formyl C(sp2)−H bond activation, phenyl C(sp2)−H bond activation, release of alkene in cyclization reaction of S1 and phenylpropyne with SPO as ligand. The relative free energies are given in kcal/mol. Fig 13 Fig. 14 Free energy profiles for alkyne coordination, insertion and isomerization in cyclization reaction of S1 and phenylpropyne with SPO as ligand. The relative free energies are given in kcal/mol. Fig 14 Fig. 15 Free energy profiles for reductive elimination, alkyne coordination, and regeneration of 1f1 and 1f2 in cyclization reaction of S1 and phenylpropyne with SPO as ligand. The relative free energies are given in kcal/mol. Fig 15 Scheme 1 The possible reaction mechanism proposed by Wang and co-workers [19]. Scheme 1 Theoretical study on the mechanism of Ni−Al bimetallic catalyzed dual C−H cyclization of amides and alkynes Xue-Mei Chen Conceptualization Methodology Software Investigation Writing – original draft a Bing-Wen Li Writing – review & editing b Mei-Yan Wang Resources Writing – review & editing Supervision Data curation a ⁎ Jing-Yao Liu Writing – review & editing a ⁎ a College of Chemistry, Laboratory of Theoretical and Computational Chemistry, Institute of Theoretical Chemistry, Jilin University, Changchun 130023, China College of Chemistry, Laboratory of Theoretical and Computational Chemistry Institute of Theoretical Chemistry Jilin University Changchun 130023 China aCollege of Chemistry, Laboratory of Theoretical and Computational Chemistry, Institute of Theoretical Chemistry, Jilin University, Changchun 130023, China b Institute of Biophysics, Shandong Key Laboratory of Biophysics, Dezhou University, Dezhou 253023, China Institute of Biophysics Shandong Key Laboratory of Biophysics Dezhou University Dezhou 253023 China bInstitute of Biophysics, Shandong Key Laboratory of Biophysics, Dezhou University, Dezhou 253023, China ⁎ Corresponding authors. The reaction mechanism of Ni−Al bimetallic catalyzed dual C−H cyclization of amides and internal alkynes has been studied theoretically. Four reactions were considered with N-phenylformamide (S1) and (2Ph)-N,N-bis(1-phenylethyl)formamide (S2) as amides, second phosphine oxide (SPO) and PMe3 as ligands, respectively. For two reactions with SPO as ligand and the reaction of S2 with PMe3, the reaction mechanism mainly includes formyl C(sp2)−H bond activation, phenyl C(sp2)−H or benzylic methyl C(sp3)−H bond activation, release of alkene, alkyne coordination and insertion, isomerization, and reductive elimination steps generating the cyclization product. The reaction of S1 with PMe3 proceeds via formyl C(sp2)−H bond activation, isomerization, and reductive elimination steps giving the alkyne addition product. In addition, the influence of substituent in SPO on reaction mechanism and the regio-selectivity of phenylpropyne in reaction have been calculated in detail. Graphical abstract Image, graphical abstract Keywords Ni−Al bimetallic catalyst C−H activation Second phosphine oxide (SPO)-bound DFT Reaction mechanism Introduction Transition metal catalyzed C−H activation reactions have received continuously increasing attentions in recent years [1,2], among which the dual C−H cyclization has already become a powerful tool in organic synthesis of many useful active natural products [3–6]. The dual C−H cyclization commonly relies on transition metal catalysts, such as gold [7], palladium [8], rhodium [9–11], nickel [12], etc. Among these transition metals, nickel plays a significant role in dual C−H cyclization due to its low price, low toxicity and strong coordination characteristics [13–15]. The synergistic combination of nickel catalyst with Lewis acid is generally suggested as a promising strategy to achieve the improved reaction efficiencies [12,16–21]. A new SPO-bound Ni−Al bimetallic co-catalyst bearing a second phosphine oxide (SPO) to connect Ni center and Lewis acid AltBu3 has been explored by Ye and co-workers in several dual C−H cyclization reactions of N-containing compounds with alkynes [16–19]. The SPO-bound Ni−Al bimetallic co-catalyst was used in dual C−H cyclization of ferrocene-based formamide with internal alkynes to generate chiral ferrocenes [16]. The dual C−H cyclization reaction of simple enamides by modifying N-protecting group with internal alkynes catalyzed by SPO-bound Ni−Al bimetallic co-catalyst has been investigated experimentally and theoretically [17]. The density functional theory (DFT) calculations suggested that cleavage of C(sp3)/C(sp2)−H bond and alkyne migratory insertion were the selectivity-determining step and rate-determining step, respectively [17]. The SPO-bound Ni−Al bimetallic co-catalyst has also been applied in dual C−H cyclization reaction of N-aromatic imidazole with internal alkynes to form π-conjugated polycyclic heteroaromatic molecules [18]. Moreover, the amide has been found to act as a reactant for dual C−H cyclization with alkynes by using SPO-bound Ni−Al bimetallic co-catalyst [19]. This cyclization reacts under the reaction conditions of Ni(cod)2 (cod=cycloocta-1,5-diene) and AlMe3 at 80 ºC in toluene to mainly form cyclization products amide-containing heterocycles (Eq. (1)). When the PtBu3 ligand was used instead of SPO, only minor alkyne addition product not the cyclization product has been observed in experiment [19]. The possible reaction mechanism of dual C−H cyclization has been proposed by Ye and co-workers (Scheme 1) [19]. The formed SPO-bound Ni−Al bimetallic complex A firstly initiates the formyl C(sp2)−H bond cleavage through oxidative addition (A to B). Subsequently, the reaction proceeds via alkyne insertion (B to C), aryl C(sp2)−H bond cleavage (C to D), ligand exchange (D to E), alkyne insertion (E to F), and reductive elimination (F to A) steps. The aryl C(sp2)−H bond cleavage (C to D) step has been suggested as the rate-determining step for the reaction. The similar dual C−H cyclization of amide with alkyne has been reported by Nakao et al. using (2Ph)-N,N-bis(1-phenylethyl)formamide as a reactant [20]. The cyclization was catalyzed by Ni(cod)2, P t Bu3, and AlMe3 in toluene at 80 ºC to mainly generate the highly substituted cyclization product (Eq. (2)). Correspondingly, Anand and Sunoj theoretically explored the reaction mechanism of this cyclization of (2Ph)-N,N-bis(1-phenylethyl)formamide with alkyne considering two cases with or without AlMe3 [21]. It is found that the Lewis acid AlMe3 extremely reduces the reaction energy barriers for formyl C(sp2)−H and benzylic methyl C(sp3)−H activations. Comparing these two reactions, it is found that the reactants are both amides and alkynes, adopting N-phenylformamide (S1 ) in Eq. (1) while (2Ph)-N,N-bis(1-phenylethyl)formamide (S2 ) in Eq. (2). Moreover, these two reactions proceed under the similar reaction conditions of Ni(cod)2 and AlMe3 at 80 ºC in toluene, applying SPO in Eq. (1) while P t Bu3 in Eq. (2). Why have the SPO and P t Bu3 ligands been employed for reactants S1 and S2, respectively? What is the difference of reaction mechanism between these two reactions? What happens to the reaction mechanism when using P t Bu3 for S1 and SPO for S2? To answer these questions, we will study the reaction mechanisms for four reactions having S1 or S2 as reactant and SPO or PMe3 (model of P t Bu3) as ligand, i.e. (a) S1 as reactant, SPO as ligand; (b) S2 as reactant, SPO as ligand; (c) S2 as reactant, PMe3 as ligand; (d) S1 as reactant, PMe3 as ligand. It is hoped that the theoretical study on the reaction mechanism of amides and alkynes in this paper can provide theoretical reference for understanding the Ni−Al bimetal catalytic reactions. Computational details All the DFT calculations were performed with GAUSSIAN 09 packages [22]. Molecular geometries of all complexes were optimized in the gas phase using M06 functional [23] with LANL2DZ effective core potential basis set [24,25] for Ni atom, and 6–31 g** basis set for other atoms. Frequency calculations were performed at the same level of theory to identify all the stationary points as minima (zero imaginary frequencies) or transition states (one imaginary frequency) and to provide the thermal correction to free energies at 298.15 K and 1 atm. The intrinsic reaction coordinate (IRC) analysis [26,27] was carried out to confirm that all stationary points are smoothly connected to each other. To consider the solvent effect, the single-point energy calculations were performed for all the species at M06 level with SDD effective core potential basis set for Ni atom and a larger basis set 6–311+G** for other atoms, using the conductor-like polarizable continuum model (SMD) [28]. Furthermore, no entropic contributions in solution were added in our calculations [29]. Toluene was used as solvent, same as that used in experiments [19,20]. Results and discussion (a) Cyclization reaction of S1 and 2-butyne with SPO as ligand With S1 as reactant and SPO as ligand, the cyclization reaction of S1 with 2-butyne to generate P1 and P1′ has been investigated in the presence of Ni(cod)2, SPO, and AlMe3 (Eq. 3). Considering the presence of several species such as S1 , 2-butyne, Ni(cod)2, SPO, and AlMe3 in the reaction system, the related reactions have been calculated (Fig. 1 ). The reaction of SPO with AlMe3 releasing CH4 forms compound SPO-Al, which was coordinated by S1 generating compound SPO-Al-S1. Subsequent coordination of SPO-Al-S1 to Ni(cod)2 gives complex A and releases two cod molecules. Coordination of 2-butyne to Ni center of complex A generates complex 1a. It is found that complex 1a is the most stable species and 10.3 kcal/mol more stable than A which has been mentioned in experiment [19]. Therefore, the complex 1a should be considered as the active species of catalyst. From complex 1a (Fig. 2 ), the isomerization forms complex 2a with an agostic bond of formyl C(sp2)−H. The activation of formyl C(sp2)−H proceeds via TS23a through a ligand-to-ligand H-transfer (LLHT) [30–33] process giving complex 3a with another agostic bond of alkenyl C(sp2)−H bond with Ni(II) center. Moreover, the activation of phenyl C(sp2)−H bond has been calculated. Complex 1a isomerizes to 2a′ having an agostic bond of phenyl C(sp2)−H. The activation of phenyl C(sp2)−H bond occurs via TS23a′ through a LLHT process to from complex 3a′. It is found TS23a is lower than TS23a′ by 20.8 kcal/mol, suggesting that the activation of formyl C(sp2)−H bond is preferred to that of phenyl C(sp2)−H bond, with the energy barrier of 8.8 kcal/mol. In addition, the oxidative addition of formyl C(sp2)−H bond suggested in experiment [19] has been considered and calculated. However, the structure of intermediate having Ni(II)−H bond was not located in calculations. In addition, replacing AlMe3 by H atom, the free energy profile for formyl C−H bond activation have been calculated and found that the energy barrier is up to 21.5 kcal/mol (details in Supporting Information) while that with AlMe3 is only 8.8 kcal/mol. Therefore, AlMe3 is needed to reduce the reaction barrier. The isomerization of 3a via TS34a (Fig. 3 ) forms complex 4a having an agostic bond of phenyl C(sp2)−H bond with Ni(II), from which the activation of phenyl C(sp2)−H bond occurs through a LLHT via TS45a giving complex 5a coordinated by one cis-2-butene molecule which has been observed in the experiment [19]. The formation of trans-2-butene molecule was also considered. Complex 3a isomerizes into 4a′ via TS34a′ by rotating methyl group around the C=C double bond. Subsequent activation of phenyl C(sp2)−H bond undergoes via a LLHT via TS45a′ generating complex 5a′ coordinated by one trans-2-butene molecule. Comparing transition states TS34a and TS34a′, it is found that TS34a is lower than TS34a′ by 21.4 kcal/mol, showing the preference of cis-2-butene to trans-2-butene. Release of cis-2-butene from complex 5a forms complex 6a, from which coordination of another 2-butyne molecule gives complex 7a. Insertion of 2-butyne into Ni−C(phenyl) bond occurs via TS78a forming complex 8a in which the formyl and alkenyl groups are trans to each other (Fig. 4 ). Isomerization of complex 8a takes place via TS89a forming complex 9a with formyl and alkenyl groups being cis to each other. Reductive elimination of 9a proceeds through TS910a forming complex 10a. Subsequent coordination of another 2-butyne to 10a gives complex 11a from which replacement of the product P1 by another substrate S1 regenerates the active species of catalyst 1a. According to the free energy profiles shown in Figs. 2–4, it is found that the energy barrier is 19.6 kcal/mol with TS89a and 7a (Fig. 4) as rate-determining transition state and rate-determining intermediate, respectively. In other words, the isomerization of alkenyl group was calculated as the rate-determining transition state [34], not the cleavage of aryl C(sp2)−H bond suggested in experiment [19]. Considering the observation of minor by-product P1′ in experiment [19], the corresponding energy profile for the formation of P1′ has been calculated and shown in Fig. 5 . The alkenyl group in complex 3a rotates around the Ni−C(alkenyl) bond forms complex 12a having no agostic interaction. The alkenyl group isomerizes from trans to cis with formyl group via TS1213a giving complex 13a with an agostic bond of alkenyl C(sp2)−H. Rotation of alkenyl group around the Ni−C(alkenyl) bond generates complex 14a with no agostic interaction from which reductive elimination proceeds through TS1415a giving complex 15a. Subsequent coordination of another 2-butyne to 15a gives complex 16a. Finally, replacement of by-product P1′ by another substrate S1 regenerates the active species of catalyst 1a. According to the free energy profiles shown in Figs. 2 and 5, it is found that the energy barrier is 20.5 kcal/mol with TS1213a and 3a (Fig. 5) as rate-determining transition state and rate-determining intermediate, respectively. It is noticed that the energy barrier (20.5 kcal/mol) for formation of by-product P1′ is only 0.9 kcal/mol higher than that (19.6 kcal/mol) for formation of product P1, suggesting that the formations of P1 and P1′ are competitive with little preference of P1, consistent with the experimental observation [19] of P1 and P1′ as major and minor products, respectively. (b) Cyclization reaction of S2 and 2-butyne with SPO as ligand Replacing S1 with (2Ph)-N,N-bis(1-phenylethyl)formamide (S2), the reaction of S2 and 2-butyne with SPO as ligand to generate P2 has been calculated. The simplified free energy profile for the first catalytic cycle as well as the first step of the second catalytic cycle was shown in Fig. 6 (details in Supporting Information). Similarly, the cyclization reaction proceeds via formyl C(sp2)−H bond activation, isomerization, benzylic methyl C(sp3)−H bond activation, ligand exchange, alkyne insertion, isomerization, reductive elimination, alkyne coordination, and regeneration of catalyst steps. According to the energy span model [35], the energy barrier is 20.1 kcal/mol with TS23b and 11b as the rate-determining transition state and rate-determining intermediate, respectively. Moreover, the transition state TS45b of phenyl C(sp2)−H activation is 12.4 kcal/mol lower than TS1213b of isomerization, suggesting that formation of cyclization product P2 via TS45b is more favorable, consistent with the mainly generation of cyclization product in experiment [20]. (c) Reaction of S2 and 2-butyne with PMe3 as ligand With S2 as reactant and PMe3 as ligand, the reaction of S2 with 2-butyne to generate P2 has been investigated in the presence of Ni(cod)2, PMe3 and AlMe3. Firstly, the coordination of S2 with AlMe3 was found to be exoergic by 4.6 kcal/mol to form a more stable compound S2-AlMe3. With S2-AlMe3. as reactant, replacing the two cod ligands in Ni(cod)2 with S2-AlMe3, 2-butyne, and PMe3 generates complex 1c (Fig. 7 ). Isomerization of 1c occurs to form complex 2c with an agostic bond of formyl C(sp2)−H to Ni(0) center. A LLHT reaction proceeds via TS23c giving complex 3c with the agostic bond of formyl C(sp2)−H to Ni(II). Isomerization of 3c forms complex 4c having an agostic of benzylic methyl C(sp3)−H bond with Ni(II) (Fig. 8 ). Subsequently, the activation of benzylic methyl C(sp3)−H bond occurs through a LLHT via TS45c giving complex 5c, which coordinated by a cis -2-btutene molecule. Cis -2-butene releases from complex 5c forming complex 6c, from which coordination of another 2-butyne molecule to give complex 7c. From complex 7c (Fig. 9 ), insertion reaction of 2-butyne takes place via TS78c forming complex 8c, in which formyl and alkenyl groups are trans to each other. Isomerization of complex 8c occurs via TS89c forming complex 9c with formyl and alkenyl being cis to each other. Reductive elimination proceeds through TS910c to give complex 10c, from which coordination of another 2-butyne generates complex 11c. Another S2-AlMe3 coordinates to Ni center of 11c regenerates the active specie of catalyst 1c releasing product P2-AlMe3 combined with AlMe3. According to the free energy profiles shown in Figs. 7–9, it is found that the energy barrier is 16.9 kcal/mol with TS45c for activation of benzylic methyl C(sp3)−H bond relative to the reference point, the same process as that calculated for cyclization of S2 with 4-methyl-2-pentyne by Anand and Sunoj [21]. (d) Reaction of S1 and 2-butyne with PMe3 as ligand With S1 as reactant and PMe3 as ligand, the corresponding energy profiles have been calculated and shown in Fig. 10 . Similar to the reaction with S2 as reactant and PMe3 as ligand, the reaction first proceeds via formyl C(sp2)−H activation giving complex 3d There are two reaction pathways from complex 3d The activation of phenyl C(sp2)−H bond occurs via TS45d while the isomerization of alkenyl takes place via TS1213d. It is found TS1213d is 1.8 kcal/mol lower than TS45d, suggesting the reaction pathway via TS1213d is more favorable. By the way, the whole energy profile via TS45d for the formation of cyclization product has been provide in Supporting Information. Subsequently, from complex 13d, the reaction proceeds through isomerization, reductive elimination, and coordination of alkyne to give complex 16d Finally, ligand exchange of P1′ with S1 regenerates the active species of catalyst 1d The energy barrier is 25.9 kcal/mol with TS1213d relative to the reference point. In one word, with S1 as reactant and PMe3 as ligand, the alkyne addition product P1′ is preferred to cyclization product P1, consistent with the experimental observation of absence of P1 and 30% yield of P1′ [19]. In order to compare the reaction mechanism of these four reactions, the energy profiles for key steps with structures have been shown in Fig. 11 . For two reactions (a and b) with SPO as ligand, although the key transition states are difference, the energy barriers are ca. 20 kcal/mol, indicating that the SPO ligand can be used in both reactions with similar reactivity to generate cyclization products. For two reactions (c and d) using PMe3 as ligand, the cyclization product is obtained for reaction of S2 with an energy barrier of 16.9 kcal/mol while the alkyne addition product is generated for reaction of S1 with an energy barrier of 25.9 kcal/mol. Therefore, in order to obtain the cyclization product, the SPO ligand is suggested for S1 while the PMe3 ligand for S2. (e) Influence of substituent in SPO on reaction mechanism of S1 with 2-butyne In experiment [19], it is found that the substituent in SPO is significant for product selectivity, for example, using SPO with mesityl group (Mes) on N atom as ligand, P1′ is produced as the main product having the yield of 98%. Therefore, the corresponding energy profile for the formation of P1′ has been calculated and shown in Fig. 12 . Similarly, the reaction proceeds via formyl C(sp2)−H bond activation, isomerization, reductive elimination, alkyne coordination and ligand exchange steps. In addition, the transition state TS45e for phenyl C(sp2)−H bond activation on the reaction pathway for formation of P1 has been calculated for comparison. It is found that TS1213e is lower than TS45e by 2.7 kcal/mol, indicating that the product P1′ is preferred, consistent with the experiment observation of P1′ as major product [19]. (f) Regio-selectivity of phenylpropyne in reaction with S1 using SPO as ligand As the good regio-selectivity (10.5/1) has been found for reaction of S1 with phenylpropyne using SPO as ligand in experiment [19], the corresponding reaction mechanism has been calculated and shown in Figs. 13–15 . Both complexes 1f1 and 1f2 should be considered due to the different orientation of phenyl group in coordination of phenylpropyne (Fig. 13). From complexes 1f1 and 1f2, the formyl C−H bond activation proceeds via TS23f1 and TS23f2 to give 3f1 and 3f2, respectively. Following isomerization, the phenyl C−H bond activation takes place through TS45f1 and TS45f2 giving 5f1 and 5f2, respectively. Release of alkene from 5f1 and 5f2 generates the same complex 6f. Comparing the two reaction pathways, it is found the pathway through TS23f2 and TS45f2 is preferred with the energy barrier of 16.7 kcal/mol of TS45f2 relative to complex 3f2. In other word, the Ni center prefers the pH-substituted C(sp) in formyl and phenyl C−H bond activation steps. Subsequently, coordination of phenylpropyne to complex 6f with different orientation of pH group gives 7f1 and 7f2, respectively (Fig. 14). Insertion of phenylpropyne occurs via TS78f1 and TS78f2 forming complexes 8f1 and 8f2, followed by isomerization of alkenyl group from trans to cis with formyl group via TS89f1 and TS89f2 giving 9f1 and 9f2, respectively. Reductive elimination proceeds via TS910f1 and TS910f2 forming 10f1 and 10f2, respectively (Fig. 15). Following coordination of phenylpropyne, replacement of product P3 or P4 by another substrate S1 regenerates complex 1f1 or 1f2. From Figs. 13–15, it is found that transition states TS89f1 and TS89f2 for isomerization (Fig. 14) are the rate-determining transition states for products P3 and P4 with the energy barriers of 20.4 and 19.3 kcal/mol relative to complex 7f2, respectively. Transition state TS89f2 is lower than TS89f1 by 1.1 kcal/mol. Using another functional ɷB97XD [36], the single-point energies for rate-determining transition states TS89f1 and TS89f2 have been re-calculated and found that the latter is lower by 1.5 kcal/mol. Both calculation methods give that TS89f2 is lower TS89f1, showing the preference of cyclization product with Me-substituted C(sp) binding to phenyl of amide, consistent with the regio-selectivity observed in experiment [19]. The good regio-selectivity can be understood by electronic effect that the C(phenyl) of Ni−C(phenyl) is more negatively charged (−0.220e in 6f) while the Me-substituted C(sp) of alkyne is positive (0.027e in free phenylpropyne) due to electron withdrawing of methyl and electron withdrawing of phenyl in phenylpropyne. Conclusions The detailed reaction mechanism of Ni−Al bimetallic catalyzed reaction of amides with internal alkynes has been theoretically investigated by using density functional theory calculations. Both N−phenylformamide (S1) and (2Ph)-N,N-bis(1-phenylethyl)formamide (S2) are considered as the substrates to react with 2-butyne using SPO and PMe3 as ligands, respectively. The reaction mechanism of S1 with SPO as ligand is similar to that of S2 with SPO as ligand. Both reactions proceed via formyl C(sp2)−H bond activation, phenyl C(sp2)−H or benzylic methyl C(sp3)−H bond activation, release of alkene, alkyne coordination and insertion, isomerization, and reductive elimination steps generating the cyclization product. The rate-determining transition state for reaction of S1 with SPO is isomerization transition state while that for reaction of S2 with SPO involves formyl C(sp2)−H bond activation. The energy barriers are ca. 20 kcal/mol, indicating that the SPO ligand can be used in both reactions with similar reactivity to generate cyclization products. The reaction mechanism of S2 with PMe3 as ligand is similar to that of S2 with SPO giving the cyclization product. For reaction of S1 with PMe3 as ligand, the reaction mechanism is difference from the former ones including formyl C(sp2)−H bond activation, isomerization, and reductive elimination steps to give the alkyne addition product with an energy barrier of 25.9 kcal/mol. In one word, in order to obtain the cyclization product, the SPO ligand is suggested for S1 while the PMe3 ligand for S2. Moreover, the influence of substituent in SPO on reaction mechanism has been considered using SPO with Mes on N atom. The reaction pathway for the formation of alkyne addition product is preferred, different from that with tert‑butyl on N atom in SPO giving the cyclization product. In addition, the regio-selectivity of phenylpropyne in reaction with S1 using SPO as ligand has been calculated and found that the phenyl of amide prefers to connect with Me-substituted C(sp) of alkyne due to the electronic effect that the C(phenyl) of Ni−C(phenyl) is negatively charged while the Me-substituted C(sp) of alkyne is positively charged. Appendix A. Supplementary data Supplementary material related to this article can be found, at https://www.journals.elsevier.com/molecular-catalysis CRediT authorship contribution statement Xue-Mei Chen: Conceptualization, Methodology, Software, Investigation, Writing – original draft. Bing-Wen Li: Writing – review & editing. Mei-Yan Wang: Resources, Writing – review & editing, Supervision, Data curation. Jing-Yao Liu: Writing – review & editing. Declaration of Competing Interest The authors declare that they have no known competing financial interests or personal relationships that could have appeared to influence the work reported in this paper. Acknowledgments This work was supported by the National Natural Science Foundation of China (Grants 21773083). Supplementary materials Supplementary material associated with this article can be found, in the online version, at doi:10.1016/j.mcat.2022.112230. Appendix Supplementary materials Image, application 1 Image, application 2 References [1] T. Gensch M.J. James T. Dalton F. Glorius Increasing Catalyst Efficiency in C-H Activation Catalysis Angew. Chem. Int. Ed. 57 2018 2296 2306 10.1002/anie.201710377 T. Gensch, M.J. James, T. Dalton, F. Glorius, Angew. Chem. Int. Ed., 57 (2018), 2296–2306. 10.1002/anie.201710377. [2] S.C. Pan J. Beilstein Organocatalytic C–H activation reactions Org. Chem. 8 2012 1374 1384 10.3762/bjoc.8.159 S.C. Pan, J. Beilstein, Org. Chem., 8 (2012), 1374–1384. 10.3762/bjoc.8.159. [3] J.L. Bras J. Muzart Dehydrogenative Heck Annelations of Internal Alkynes Synthesis 46 2014 1555 1572 10.1055/s-0033-1338631 (Mass) J.L. Bras, J. Muzart, Synthesis(Mass), 46 (2014), 1555–1572. 10.1055/s-0033-1338631. [4] M. Gulἱas J.L. Mascareῆas Metal-Catalyzed Annulations through Activation and Cleavage of C-H Bonds Angew. Chem. Int. Ed. 55 2016 11000 11019 10.1002/anie.201511567 M. Gulἱas, J.L. Mascareῆas, Angew. Chem. Int. Ed., 55 (2016), 11000–11019. 10.1002/anie.201511567. [5] L. Zheng R. Hua C–H Activation and Alkyne Annulation via Automatic or Intrinsic Directing Groups: Towards High Step Econom Chem. Rec. 18 2018 556 569 10.1002/tcr.201700024 L. Zheng, R. Hua, Chem. Rec., 18 (2018), 556–569. 10.1002/tcr.201700024. [6] P. Thansandote M. Lautens Construction of Nitrogen-Containing Heterocycles by C-H Bond Functionalization Chem. Eur. J. 15 2009 5874 5883 10.1002/chem.200900281 P. Thansandote, M. Lautens, Chem. Eur. J., 15 (2009), 5874–5883. 10.1002/chem.200900281. [7] F. Gagosz Gold Vinylidenes as Useful Intermediates in Synthetic Organic Chemistry Synthesis 51 2019 1087 1099 10.1055/s-0037-1611647 (Mass) F. Gagosz, Synthesis(Mass), 51 (2019), 1087–1099. 10.1055/s-0037-1611647. [8] G. Broggini E.M. Beccalli A. Fasana1 S. Gazzola J. Beilstein Palladium-catalyzed dual C–H or N–H functionalization of unfunctionalized indole derivatives with alkenes and arenes Org. Chem. 8 2012 1730 1746 10.3762/bjoc.8.198 G. Broggini, E.M. Beccalli, A. Fasana1, S. Gazzola, J. Beilstein, Org. Chem., 8 (2012), 1730–1746. 10.3762/bjoc.8.198. [9] G. Song F. Wang X. Li C–C, C–O and C–N bond formation via rhodium(III)-catalyzed oxidative C–H activation Chem. Soc. Rev. 41 2012 3651 3678 10.1039/c2cs15281a G. Song, F. Wang, X. Li, Chem. Soc. Rev., 41 (2012), 3651–3678. 10.1039/c2cs15281a. [10] Y. Yang K. Li Y. Cheng D. Wan M. Li J. You Rhodium-catalyzed annulation of arenes with alkynes through weak chelation-assisted C–H activation Chem. Commun. 52 2016 2872 2884 10.1039/c5cc09180b Y. Yang, K. Li, Y. Cheng, D. Wan, M. Li, J. You, Chem. Commun., 52 (2016), 2872–2884. 10.1039/c5cc09180b. [11] T. Satoh M. Miura Oxidative Coupling of Aromatic Substrates with Alkynes and Alkenes under Rhodium Catalysis Chem. Eur. J. 16 2010 11212 11222 10.1002/chem.201001363 T. Satoh, M. Miura, Chem. Eur. J., 16 (2010), 11212–11222. 10.1002/chem.201001363. [12] Y.X. Wang M. Ye Recent advances in Ni−Al bimetallic catalysis for unreactive bond transformation Sci. China Chem. 61 2018 1004 1013 10.1007/s11426-018-9333-x Y.X. Wang, M. Ye, Sci. China Chem., 61 (2018), 1004–1013. 10.1007/s11426-018-9333-x. [13] S.Z. Tasker1 E.A. Standley1 T.F. Jamison Recent advances in homogeneous nickel catalysis Nature 509 2014 299 309 10.1038/nature13463 S.Z. Tasker1, E.A. Standley1, T.F. Jamison, Nature, 509 (2014), 299–309. 10.1038/nature13463. [14] V.P. Ananikov Nickel: The “Spirited Horse” of Transition Metal Catalysis ACS Catal. 5 2015 1964 1971 10.1021/acscatal.5b00072 V.P. Ananikov, ACS Catal., 5 (2015), 1964–1971. 10.1021/acscatal.5b00072. [15] E. Richmond J. Moran Recent Advances in Nickel Catalysis Enabled by Stoichiometric Metallic Reducing Agents Synthesis 50 2018 499 513 10.1055/s-0036-1591853 (Mass) E. Richmond, J. Moran, Synthesis(Mass), 50 (2018), 499–513. 10.1055/s-0036-1591853. [16] H. Chen Y.X. Wang Y.X. Luan M. Ye Enantioselective Twofold C-H Annulation of Formamides and Alkynes without Built-in Chelating Groups Angew. Chem. Int. Ed. 59 2020 9428 9432 10.1002/anie.202001267 H. Chen, Y.X. Wang, Y.X. Luan, M. Ye, Angew. Chem. Int. Ed., 59 (2020), 9428–9432. 10.1002/anie.202001267. [17] R.H. Wang J.F. Li Y. Li S.L Qi T. Zhang Y.X Luan M. Ye Selective C(sp3)−H Cleavage of Enamides for Synthesis of 2‑Pyridones via Ligand-Enabled Ni−Al Bimetallic Catalysis ACS Catal. 11 2021 858 864 10.1021/acscatal.0c04585 R.H. Wang, J.F. Li, Y. Li, S.L. Qi, T. Zhang, Y.X. Luan, M. Ye, ACS Catal., 11 (2021), 858–864. 10.1021/acscatal.0c04585. [18] S.L. Qi Y. Li J.F. Li T. Zhang Y.X. Luan M. Ye Ni-Catalyzed Dual C−H Annulation of Benzimidazoles with Alkynes for Synthesis of π‑Extended Heteroarenes Org. Lett. 23 2021 4034 4039 10.1021/acs.orglett.1c01253 S.L. Qi, Y. Li, J.F. Li, T. Zhang, Y.X. Luan, M. Ye, Org. Lett., 23 (2021), 4034–4039. 10.1021/acs.orglett.1c01253. [19] Y.X. Wang F.P. Zhang Y.X. Luan M. Ye Ligand-Enabled Ni−Al Bimetallic Catalysis for Nonchelated Dual C−H Annulation of Arylformamides and Alkynes Org. Lett. 22 2020 2230 2234 10.1021/acs.orglett.0c00432 Y.X. Wang, F.P. Zhang, Y.X. Luan, M. Ye, Org. Lett., 22 (2020), 2230–2234. 10.1021/acs.orglett.0c00432. [20] Y. Nakao E. Morita H. Idei T. Hiyama Dehydrogenative [4+2] Cycloaddition of Formamides with Alkynes through Double C-H Activation J. Am. Chem. Soc. 133 2011 3264 3267 10.1021/ja1102037 Y. Nakao, E. Morita, H. Idei, T. Hiyama, J. Am. Chem. Soc., 133 (2011), 3264–3267. 10.1021/ja1102037. [21] M. Anand R.B. Sunoj Mechanism of Cooperative Catalysis in a Lewis Acid Promoted Nickel-Catalyzed Dual C-H Activation Reaction Org. Lett. 14 2012 4584 4587 10.1021/ol302047c M. Anand, R.B. Sunoj, Org. Lett., 14 (2012), 4584–4587. 10.1021/ol302047c. [22] M.J. Frisch G.W. Trucks H.B. Schlegel G.E. Scuseria M.A. Robb J.R. Cheeseman G. Scalmani V. Barone G.A. Petersson H. Nakatsuji X. Li M. Caricato A. Marenich J. Bloino B.G. Janesko R. Gomperts B. Mennucci H.P. Hratchian J.V. Ortiz A.F. Izmaylov J.L. Sonnenberg D. Williams-Young F. Ding F. Lipparini F. Egidi J. Goings B. Peng A. Petrone T. Henderson D. Ranasinghe V.G. Zakrzewski J. Gao N. Rega G. Zheng W. Liang M. Hada M. Ehara K. Toyota R. Fukuda J. Hasegawa M. Ishida T. Nakajima Y. Honda O. Kitao H. Nakai T. Vreven K. Throssell J.A. Montgomery J.E Peralta F. Ogliaro M. Bearpark J.J Heyd E. Brothers K.N. Kudin V.N. Staroverov T. Keith R. Kobayashi J. Normand K. Raghavachari A. Rendell J.C. Burant S.S. Iyengar J. Tomasi M. Cossi J.M. Millam M. Klene C. Adamo R. Cammi J.W. Ochterski R.L. Martin K. Morokuma O. Farkas J.B. Foresman D.J. Fox Gaussian 09, Revision C.01 2010 Gaussian Inc. Wallingford, CT M.J. Frisch, G.W. Trucks, H.B. Schlegel, G.E. Scuseria, M.A. Robb, J.R. Cheeseman, G. Scalmani, V. Barone, G.A. Petersson, H. Nakatsuji, X. Li, M. Caricato, A. Marenich, J. Bloino, B.G. Janesko, R. Gomperts, B. Mennucci, H.P. Hratchian, J.V. Ortiz, A.F. Izmaylov, J.L. Sonnenberg, D. Williams-Young, F. Ding, F. Lipparini, F. Egidi, J. Goings, B. Peng, A. Petrone, T. Henderson, D. Ranasinghe, V.G. Zakrzewski, J. Gao, N. Rega, G. Zheng, W. Liang, M. Hada, M. Ehara, K. Toyota, R. Fukuda, J. Hasegawa, M. Ishida, T. Nakajima, Y. Honda, O. Kitao, H. Nakai, T. Vreven, K. Throssell, J.A. Montgomery, J.E. Peralta, F. Ogliaro, M. Bearpark, J.J. Heyd, E. Brothers, K.N. Kudin, V.N. Staroverov, T. Keith, R. Kobayashi, J. Normand, K. Raghavachari, A. Rendell, J.C. Burant, S.S. Iyengar, J. Tomasi, M. Cossi, J.M. Millam, M. Klene, C. Adamo, R. Cammi, J.W. Ochterski, R.L. Martin, K. Morokuma, O. Farkas, J.B. Foresman D.J. Fox, Gaussian 09, Revision C.01, Gaussian Inc., Wallingford, CT, (2010). [23] Y. Zhao D.G. Truhlar The M06 suite of density functionals for main group thermochemistry, thermochemical kinetics, noncovalent interactions, excited states, and transition elements: two new functionals and systematic testing of four M06-class functionals and 12 other functionals Theor. Chem. Acc. 120 2008 215 241 10.1007/s00214-007-0310-x Y. Zhao, D.G. Truhlar, Theor. Chem. Acc., 120 (2008), 215–241. 10.1007/s00214-007-0310-x. [24] P.J. Hay W.R. Wadt Ab initio effective core potentials for molecular calculations. Potentials for K to Au including the outermost core orbitals J. Chem. Phys. 82 1985 299 310 10.1063/1.448975 P.J. Hay, W.R. Wadt, J. Chem. Phys., 82 (1985), 299–310. 10.1063/1.448975. [25] P.J. Hay W.R. Wadt Ab initio effective core potentials for molecular calculations. Potentials for the transition metal atoms Sc to Hg J. Chem. Phys. 82 1985 270 283 10.1063/1.448799 P.J. Hay, W.R. Wadt, J. Chem. Phys., 82 (1985), 270–283. 10.1063/1.448799. [26] K. Fukui The path of chemical reactions - the IRC approach Acc. Chem. Res. 14 1981 363 368 10.1021/ar00072a001 K. Fukui, Acc. Chem. Res., 14 (1981), 363–368. 10.1021/ar00072a001. [27] K. Fukui Formulation of the reaction coordinate J. Phys. Chem. 74 1970 4161 4163 10.1021/j100717a029 K. Fukui, J. Phys. Chem., 74 (1970), 4161–4163. 10.1021/j100717a029. [28] D. Andrae U. Haeussermann M. Dolg H. Stoll H. Preuss Energy-adjustedab initio pseudopotentials for the second and third row transition elements Theor. Chim. Acta. 77 1990 123 141 10.1007/BF01114537 D. Andrae, U. Haeussermann, M. Dolg, H. Stoll, H. Preuss, Theor. Chim. Acta., 77 (1990), 123–141. 10.1007/BF01114537. [29] L. Falivene V. Barone G. Talarico Unraveling the role of entropy in tuning unimolecular vs. bimolecular reaction rates: The case of olefin polymerization catalyzed by transition metals Mol. Catal. 452 2018 138 144 10.1016/j.mcat.2018.04.012 L. Falivene, V. Barone, G. Talarico, Mol. Catal., 452 (2018), 138–144. 10.1016/j.mcat.2018.04.012. [30] J. Guihaumé S. Halbert O. Eisenstein R.N. Perutz Hydrofluoroarylation of Alkynes with Ni Catalysts. C−H Activation via Ligand-to-Ligand Hydrogen Transfer, an Alternative to Oxidative Addition Organometallics 31 2012 1300 1314 10.1021/om2005673 J. Guihaumé, S. Halbert, O. Eisenstein, R.N. Perutz, Organometallics, 31 (2012), 1300–1314. 10.1021/om2005673. [31] P. Naweephattana B. Sawation P. Surawatanawong Insights into the Regioselectivity of Hydroheteroarylation of Allylbenzene with Pyridine Catalyzed by Ni/AlMe3 with N‑Heterocyclic Carbene: The Concerted Hydrogen Transfer Mechanism J. Org. Chem. 85 2020 11340 11349 10.1021/acs.joc.0c01449 P. Naweephattana, B. Sawation, P. Surawatanawong, J. Org. Chem., 85 (2020), 11340–11349. 10.1021/acs.joc.0c01449. [32] D. Zell M. Bursch V. Mgller S. Grimme L. Ackermann Full Selectivity Control in Cobalt(III)-Catalyzed C-H Alkylations by Switching of the C-H Activation Mechanism Angew. Chem. 129 2017 10514 10518 10.1002/ange.201704196 D. Zell, M. Bursch, V. Mgller, S. Grimme, L. Ackermann, Angew. Chem., 129 (2017), 10514–10518. 10.1002/ange.201704196. [33] S. Tang O. Eisenstein Y. Nakao S. Sakak Aromatic C−H σ‑Bond Activation by Ni0, P d0, and Pt0 Alkene Complexes: Concerted Oxidative Addition to Metal vs Ligand-to- Ligand H Transfer Mechanism Organometallics 36 2017 2761 2771 10.1021/acs.organomet.7b00256 S. Tang, O. Eisenstein, Y. Nakao, S. Sakak, Organometallics, 36 (2017), 2761–2771. 10.1021/acs.organomet.7b00256. [34] (a) E. Clot, B. Oelckers, A. H. Klahn, O. Eisensteina, R. N. Perutz, cis–trans Isomerisation of CpRe(CO)2(H)(ArF) (ArF = C6FnH5−n; n = 0–5) is the rate determining step in C–H activation of fluoroarenes: a DFT study, Dalton Trans., (2003), 4065–4074. 10.1039/B305064E. (b) S. Sakaki, N. Mizoea, Y. Musashib, M. Sugimoto, Platinum-catalyzed hydrosilylation of ethylene. A theoretical study on the reaction mechanism involving cis–trans isomerization of PtH(SiH3)(PH3)2, Journal of Molecular Structure: THEOCHEM, THEOCHE, 461–462 (1999), 533–546. 10.1016/S0166-1280(98)00432-1. (c) A. F. Hegarty, P. J. Moroney, F. L. Scott, A Change from Rate-determining Bromination to Geometric lsomerisation of Pyridylhydrazones, J. Chem. Soc. Perkin Trans. 2, (1973), 1466–1471. 10.1039/P29730001466. [35] S. Kozuch S. Shaik How to Conceptualize Catalytic Cycles? The Energetic Span ModelAcc Chem. Res. 44 2011 101 110 10.1021/ar1000956 S. Kozuch, S. Shaik, How to Conceptualize Catalytic Cycles? The Energetic Span ModelAcc, Chem. Res. 44 (2011) 101–110, doi:10.1021/ar1000956. [36] K. Remya C.H. Suresh Which density functional is close to CCSD accuracy to describe geometry and interaction energy of small noncovalent dimers? A benchmark study using Gaussian09 J. Comput. Chem. 34 2013 1341 1353 10.1002/jcc.23263 K. Remya, C.H. Suresh, J. Comput. Chem., 34 (2013), 1341–1353. 10.1002/jcc.23263.",
+      "scopus-id": "85126695393",
+      "coredata": {
+        "eid": "1-s2.0-S2468823122001183",
+        "dc:description": "The reaction mechanism of Ni−Al bimetallic catalyzed dual C−H cyclization of amides and internal alkynes has been studied theoretically. Four reactions were considered with N-phenylformamide (S1) and (2Ph)-N,N-bis(1-phenylethyl)formamide (S2) as amides, second phosphine oxide (SPO) and PMe3 as ligands, respectively. For two reactions with SPO as ligand and the reaction of S2 with PMe3, the reaction mechanism mainly includes formyl C(sp2)−H bond activation, phenyl C(sp2)−H or benzylic methyl C(sp3)−H bond activation, release of alkene, alkyne coordination and insertion, isomerization, and reductive elimination steps generating the cyclization product. The reaction of S1 with PMe3 proceeds via formyl C(sp2)−H bond activation, isomerization, and reductive elimination steps giving the alkyne addition product. In addition, the influence of substituent in SPO on reaction mechanism and the regio-selectivity of phenylpropyne in reaction have been calculated in detail.",
+        "openArchiveArticle": "false",
+        "prism:coverDate": "2022-04-30",
+        "openaccessUserLicense": null,
+        "prism:aggregationType": "Journal",
+        "prism:url": "https://api.elsevier.com/content/article/pii/S2468823122001183",
+        "dc:creator": [
+          {
+            "@_fa": "true",
+            "$": "Chen, Xue-Mei"
+          },
+          {
+            "@_fa": "true",
+            "$": "Li, Bing-Wen"
+          },
+          {
+            "@_fa": "true",
+            "$": "Wang, Mei-Yan"
+          },
+          {
+            "@_fa": "true",
+            "$": "Liu, Jing-Yao"
+          }
+        ],
+        "link": [
+          {
+            "@_fa": "true",
+            "@rel": "self",
+            "@href": "https://api.elsevier.com/content/article/pii/S2468823122001183"
+          },
+          {
+            "@_fa": "true",
+            "@rel": "scidir",
+            "@href": "https://www.sciencedirect.com/science/article/pii/S2468823122001183"
+          }
+        ],
+        "dc:format": "application/json",
+        "openaccessType": null,
+        "pii": "S2468-8231(22)00118-3",
+        "prism:volume": "522",
+        "articleNumber": "112230",
+        "prism:publisher": "Elsevier B.V.",
+        "dc:title": "Theoretical study on the mechanism of Ni−Al bimetallic catalyzed dual C−H cyclization of amides and alkynes",
+        "prism:copyright": "© 2022 Elsevier B.V. All rights reserved.",
+        "openaccess": "0",
+        "prism:issn": "24688231",
+        "dcterms:subject": [
+          {
+            "@_fa": "true",
+            "$": "Ni−Al bimetallic catalyst"
+          },
+          {
+            "@_fa": "true",
+            "$": "C−H activation"
+          },
+          {
+            "@_fa": "true",
+            "$": "Second phosphine oxide (SPO)-bound"
+          },
+          {
+            "@_fa": "true",
+            "$": "DFT"
+          },
+          {
+            "@_fa": "true",
+            "$": "Reaction mechanism"
+          }
+        ],
+        "openaccessArticle": "false",
+        "prism:publicationName": "Molecular Catalysis",
+        "openaccessSponsorType": null,
+        "prism:pageRange": "112230",
+        "pubType": "fla",
+        "prism:coverDisplayDate": "April 2022",
+        "prism:doi": "10.1016/j.mcat.2022.112230",
+        "prism:startingPage": "112230",
+        "dc:identifier": "doi:10.1016/j.mcat.2022.112230",
+        "openaccessSponsorName": null
+      },
+      "objects": {
+        "object": [
+          {
+            "@category": "standard",
+            "@height": "244",
+            "@width": "349",
+            "@_fa": "true",
+            "$": "https://api.elsevier.com/content/object/eid/1-s2.0-S2468823122001183-gr1.jpg?httpAccept=%2A%2F%2A",
+            "@multimediatype": "JPEG image file",
+            "@type": "IMAGE-DOWNSAMPLED",
+            "@size": "18415",
+            "@ref": "gr1",
+            "@mimetype": "image/jpeg"
+          },
+          {
+            "@category": "standard",
+            "@height": "386",
+            "@width": "349",
+            "@_fa": "true",
+            "$": "https://api.elsevier.com/content/object/eid/1-s2.0-S2468823122001183-gr2.jpg?httpAccept=%2A%2F%2A",
+            "@multimediatype": "JPEG image file",
+            "@type": "IMAGE-DOWNSAMPLED",
+            "@size": "42952",
+            "@ref": "gr2",
+            "@mimetype": "image/jpeg"
+          },
+          {
+            "@category": "standard",
+            "@height": "358",
+            "@width": "356",
+            "@_fa": "true",
+            "$": "https://api.elsevier.com/content/object/eid/1-s2.0-S2468823122001183-sc1.jpg?httpAccept=%2A%2F%2A",
+            "@multimediatype": "JPEG image file",
+            "@type": "IMAGE-DOWNSAMPLED",
+            "@size": "32740",
+            "@ref": "sc1",
+            "@mimetype": "image/jpeg"
+          },
+          {
+            "@category": "standard",
+            "@height": "346",
+            "@width": "644",
+            "@_fa": "true",
+            "$": "https://api.elsevier.com/content/object/eid/1-s2.0-S2468823122001183-gr9.jpg?httpAccept=%2A%2F%2A",
+            "@multimediatype": "JPEG image file",
+            "@type": "IMAGE-DOWNSAMPLED",
+            "@size": "34080",
+            "@ref": "gr9",
+            "@mimetype": "image/jpeg"
+          },
+          {
+            "@category": "standard",
+            "@height": "360",
+            "@width": "565",
+            "@_fa": "true",
+            "$": "https://api.elsevier.com/content/object/eid/1-s2.0-S2468823122001183-gr7.jpg?httpAccept=%2A%2F%2A",
+            "@multimediatype": "JPEG image file",
+            "@type": "IMAGE-DOWNSAMPLED",
+            "@size": "34525",
+            "@ref": "gr7",
+            "@mimetype": "image/jpeg"
+          },
+          {
+            "@category": "standard",
+            "@height": "375",
+            "@width": "565",
+            "@_fa": "true",
+            "$": "https://api.elsevier.com/content/object/eid/1-s2.0-S2468823122001183-gr8.jpg?httpAccept=%2A%2F%2A",
+            "@multimediatype": "JPEG image file",
+            "@type": "IMAGE-DOWNSAMPLED",
+            "@size": "37878",
+            "@ref": "gr8",
+            "@mimetype": "image/jpeg"
+          },
+          {
+            "@category": "standard",
+            "@height": "368",
+            "@width": "638",
+            "@_fa": "true",
+            "$": "https://api.elsevier.com/content/object/eid/1-s2.0-S2468823122001183-gr5.jpg?httpAccept=%2A%2F%2A",
+            "@multimediatype": "JPEG image file",
+            "@type": "IMAGE-DOWNSAMPLED",
+            "@size": "41389",
+            "@ref": "gr5",
+            "@mimetype": "image/jpeg"
+          },
+          {
+            "@category": "standard",
+            "@height": "613",
+            "@width": "637",
+            "@_fa": "true",
+            "$": "https://api.elsevier.com/content/object/eid/1-s2.0-S2468823122001183-gr6.jpg?httpAccept=%2A%2F%2A",
+            "@multimediatype": "JPEG image file",
+            "@type": "IMAGE-DOWNSAMPLED",
+            "@size": "73362",
+            "@ref": "gr6",
+            "@mimetype": "image/jpeg"
+          },
+          {
+            "@category": "standard",
+            "@height": "354",
+            "@width": "644",
+            "@_fa": "true",
+            "$": "https://api.elsevier.com/content/object/eid/1-s2.0-S2468823122001183-gr3.jpg?httpAccept=%2A%2F%2A",
+            "@multimediatype": "JPEG image file",
+            "@type": "IMAGE-DOWNSAMPLED",
+            "@size": "59166",
+            "@ref": "gr3",
+            "@mimetype": "image/jpeg"
+          },
+          {
+            "@category": "standard",
+            "@height": "331",
+            "@width": "644",
+            "@_fa": "true",
+            "$": "https://api.elsevier.com/content/object/eid/1-s2.0-S2468823122001183-gr4.jpg?httpAccept=%2A%2F%2A",
+            "@multimediatype": "JPEG image file",
+            "@type": "IMAGE-DOWNSAMPLED",
+            "@size": "39723",
+            "@ref": "gr4",
+            "@mimetype": "image/jpeg"
+          },
+          {
+            "@category": "standard",
+            "@height": "321",
+            "@width": "668",
+            "@_fa": "true",
+            "$": "https://api.elsevier.com/content/object/eid/1-s2.0-S2468823122001183-gr12.jpg?httpAccept=%2A%2F%2A",
+            "@multimediatype": "JPEG image file",
+            "@type": "IMAGE-DOWNSAMPLED",
+            "@size": "54626",
+            "@ref": "gr12",
+            "@mimetype": "image/jpeg"
+          },
+          {
+            "@category": "standard",
+            "@height": "337",
+            "@width": "651",
+            "@_fa": "true",
+            "$": "https://api.elsevier.com/content/object/eid/1-s2.0-S2468823122001183-gr13.jpg?httpAccept=%2A%2F%2A",
+            "@multimediatype": "JPEG image file",
+            "@type": "IMAGE-DOWNSAMPLED",
+            "@size": "63301",
+            "@ref": "gr13",
+            "@mimetype": "image/jpeg"
+          },
+          {
+            "@category": "standard",
+            "@height": "369",
+            "@width": "537",
+            "@_fa": "true",
+            "$": "https://api.elsevier.com/content/object/eid/1-s2.0-S2468823122001183-gr15.jpg?httpAccept=%2A%2F%2A",
+            "@multimediatype": "JPEG image file",
+            "@type": "IMAGE-DOWNSAMPLED",
+            "@size": "46323",
+            "@ref": "gr15",
+            "@mimetype": "image/jpeg"
+          },
+          {
+            "@category": "standard",
+            "@height": "427",
+            "@width": "551",
+            "@_fa": "true",
+            "$": "https://api.elsevier.com/content/object/eid/1-s2.0-S2468823122001183-gr11.jpg?httpAccept=%2A%2F%2A",
+            "@multimediatype": "JPEG image file",
+            "@type": "IMAGE-DOWNSAMPLED",
+            "@size": "61294",
+            "@ref": "gr11",
+            "@mimetype": "image/jpeg"
+          },
+          {
+            "@category": "standard",
+            "@height": "113",
+            "@width": "301",
+            "@_fa": "true",
+            "$": "https://api.elsevier.com/content/object/eid/1-s2.0-S2468823122001183-ga1.jpg?httpAccept=%2A%2F%2A",
+            "@multimediatype": "JPEG image file",
+            "@type": "IMAGE-DOWNSAMPLED",
+            "@size": "14554",
+            "@ref": "ga1",
+            "@mimetype": "image/jpeg"
+          },
+          {
+            "@category": "standard",
+            "@height": "292",
+            "@width": "534",
+            "@_fa": "true",
+            "$": "https://api.elsevier.com/content/object/eid/1-s2.0-S2468823122001183-gr14.jpg?httpAccept=%2A%2F%2A",
+            "@multimediatype": "JPEG image file",
+            "@type": "IMAGE-DOWNSAMPLED",
+            "@size": "45265",
+            "@ref": "gr14",
+            "@mimetype": "image/jpeg"
+          },
+          {
+            "@category": "standard",
+            "@height": "326",
+            "@width": "635",
+            "@_fa": "true",
+            "$": "https://api.elsevier.com/content/object/eid/1-s2.0-S2468823122001183-gr10.jpg?httpAccept=%2A%2F%2A",
+            "@multimediatype": "JPEG image file",
+            "@type": "IMAGE-DOWNSAMPLED",
+            "@size": "48472",
+            "@ref": "gr10",
+            "@mimetype": "image/jpeg"
+          },
+          {
+            "@category": "thumbnail",
+            "@height": "153",
+            "@width": "219",
+            "@_fa": "true",
+            "$": "https://api.elsevier.com/content/object/eid/1-s2.0-S2468823122001183-gr1.sml?httpAccept=%2A%2F%2A",
+            "@multimediatype": "GIF image file",
+            "@type": "IMAGE-THUMBNAIL",
+            "@size": "5919",
+            "@ref": "gr1",
+            "@mimetype": "image/gif"
+          },
+          {
+            "@category": "thumbnail",
+            "@height": "164",
+            "@width": "148",
+            "@_fa": "true",
+            "$": "https://api.elsevier.com/content/object/eid/1-s2.0-S2468823122001183-gr2.sml?httpAccept=%2A%2F%2A",
+            "@multimediatype": "GIF image file",
+            "@type": "IMAGE-THUMBNAIL",
+            "@size": "8235",
+            "@ref": "gr2",
+            "@mimetype": "image/gif"
+          },
+          {
+            "@category": "thumbnail",
+            "@height": "164",
+            "@width": "163",
+            "@_fa": "true",
+            "$": "https://api.elsevier.com/content/object/eid/1-s2.0-S2468823122001183-sc1.sml?httpAccept=%2A%2F%2A",
+            "@multimediatype": "GIF image file",
+            "@type": "IMAGE-THUMBNAIL",
+            "@size": "7661",
+            "@ref": "sc1",
+            "@mimetype": "image/gif"
+          },
+          {
+            "@category": "thumbnail",
+            "@height": "118",
+            "@width": "219",
+            "@_fa": "true",
+            "$": "https://api.elsevier.com/content/object/eid/1-s2.0-S2468823122001183-gr9.sml?httpAccept=%2A%2F%2A",
+            "@multimediatype": "GIF image file",
+            "@type": "IMAGE-THUMBNAIL",
+            "@size": "4299",
+            "@ref": "gr9",
+            "@mimetype": "image/gif"
+          },
+          {
+            "@category": "thumbnail",
+            "@height": "139",
+            "@width": "219",
+            "@_fa": "true",
+            "$": "https://api.elsevier.com/content/object/eid/1-s2.0-S2468823122001183-gr7.sml?httpAccept=%2A%2F%2A",
+            "@multimediatype": "GIF image file",
+            "@type": "IMAGE-THUMBNAIL",
+            "@size": "5560",
+            "@ref": "gr7",
+            "@mimetype": "image/gif"
+          },
+          {
+            "@category": "thumbnail",
+            "@height": "146",
+            "@width": "219",
+            "@_fa": "true",
+            "$": "https://api.elsevier.com/content/object/eid/1-s2.0-S2468823122001183-gr8.sml?httpAccept=%2A%2F%2A",
+            "@multimediatype": "GIF image file",
+            "@type": "IMAGE-THUMBNAIL",
+            "@size": "7545",
+            "@ref": "gr8",
+            "@mimetype": "image/gif"
+          },
+          {
+            "@category": "thumbnail",
+            "@height": "126",
+            "@width": "219",
+            "@_fa": "true",
+            "$": "https://api.elsevier.com/content/object/eid/1-s2.0-S2468823122001183-gr5.sml?httpAccept=%2A%2F%2A",
+            "@multimediatype": "GIF image file",
+            "@type": "IMAGE-THUMBNAIL",
+            "@size": "5127",
+            "@ref": "gr5",
+            "@mimetype": "image/gif"
+          },
+          {
+            "@category": "thumbnail",
+            "@height": "164",
+            "@width": "170",
+            "@_fa": "true",
+            "$": "https://api.elsevier.com/content/object/eid/1-s2.0-S2468823122001183-gr6.sml?httpAccept=%2A%2F%2A",
+            "@multimediatype": "GIF image file",
+            "@type": "IMAGE-THUMBNAIL",
+            "@size": "8377",
+            "@ref": "gr6",
+            "@mimetype": "image/gif"
+          },
+          {
+            "@category": "thumbnail",
+            "@height": "120",
+            "@width": "219",
+            "@_fa": "true",
+            "$": "https://api.elsevier.com/content/object/eid/1-s2.0-S2468823122001183-gr3.sml?httpAccept=%2A%2F%2A",
+            "@multimediatype": "GIF image file",
+            "@type": "IMAGE-THUMBNAIL",
+            "@size": "8009",
+            "@ref": "gr3",
+            "@mimetype": "image/gif"
+          },
+          {
+            "@category": "thumbnail",
+            "@height": "112",
+            "@width": "219",
+            "@_fa": "true",
+            "$": "https://api.elsevier.com/content/object/eid/1-s2.0-S2468823122001183-gr4.sml?httpAccept=%2A%2F%2A",
+            "@multimediatype": "GIF image file",
+            "@type": "IMAGE-THUMBNAIL",
+            "@size": "4962",
+            "@ref": "gr4",
+            "@mimetype": "image/gif"
+          },
+          {
+            "@category": "thumbnail",
+            "@height": "105",
+            "@width": "219",
+            "@_fa": "true",
+            "$": "https://api.elsevier.com/content/object/eid/1-s2.0-S2468823122001183-gr12.sml?httpAccept=%2A%2F%2A",
+            "@multimediatype": "GIF image file",
+            "@type": "IMAGE-THUMBNAIL",
+            "@size": "7718",
+            "@ref": "gr12",
+            "@mimetype": "image/gif"
+          },
+          {
+            "@category": "thumbnail",
+            "@height": "113",
+            "@width": "219",
+            "@_fa": "true",
+            "$": "https://api.elsevier.com/content/object/eid/1-s2.0-S2468823122001183-gr13.sml?httpAccept=%2A%2F%2A",
+            "@multimediatype": "GIF image file",
+            "@type": "IMAGE-THUMBNAIL",
+            "@size": "9224",
+            "@ref": "gr13",
+            "@mimetype": "image/gif"
+          },
+          {
+            "@category": "thumbnail",
+            "@height": "150",
+            "@width": "219",
+            "@_fa": "true",
+            "$": "https://api.elsevier.com/content/object/eid/1-s2.0-S2468823122001183-gr15.sml?httpAccept=%2A%2F%2A",
+            "@multimediatype": "GIF image file",
+            "@type": "IMAGE-THUMBNAIL",
+            "@size": "9208",
+            "@ref": "gr15",
+            "@mimetype": "image/gif"
+          },
+          {
+            "@category": "thumbnail",
+            "@height": "163",
+            "@width": "211",
+            "@_fa": "true",
+            "$": "https://api.elsevier.com/content/object/eid/1-s2.0-S2468823122001183-gr11.sml?httpAccept=%2A%2F%2A",
+            "@multimediatype": "GIF image file",
+            "@type": "IMAGE-THUMBNAIL",
+            "@size": "10748",
+            "@ref": "gr11",
+            "@mimetype": "image/gif"
+          },
+          {
+            "@category": "thumbnail",
+            "@height": "82",
+            "@width": "219",
+            "@_fa": "true",
+            "$": "https://api.elsevier.com/content/object/eid/1-s2.0-S2468823122001183-ga1.sml?httpAccept=%2A%2F%2A",
+            "@multimediatype": "GIF image file",
+            "@type": "IMAGE-THUMBNAIL",
+            "@size": "6919",
+            "@ref": "ga1",
+            "@mimetype": "image/gif"
+          },
+          {
+            "@category": "thumbnail",
+            "@height": "120",
+            "@width": "219",
+            "@_fa": "true",
+            "$": "https://api.elsevier.com/content/object/eid/1-s2.0-S2468823122001183-gr14.sml?httpAccept=%2A%2F%2A",
+            "@multimediatype": "GIF image file",
+            "@type": "IMAGE-THUMBNAIL",
+            "@size": "8588",
+            "@ref": "gr14",
+            "@mimetype": "image/gif"
+          },
+          {
+            "@category": "thumbnail",
+            "@height": "112",
+            "@width": "219",
+            "@_fa": "true",
+            "$": "https://api.elsevier.com/content/object/eid/1-s2.0-S2468823122001183-gr10.sml?httpAccept=%2A%2F%2A",
+            "@multimediatype": "GIF image file",
+            "@type": "IMAGE-THUMBNAIL",
+            "@size": "7325",
+            "@ref": "gr10",
+            "@mimetype": "image/gif"
+          },
+          {
+            "@category": "high",
+            "@height": "1082",
+            "@width": "1546",
+            "@_fa": "true",
+            "$": "https://api.elsevier.com/content/object/eid/1-s2.0-S2468823122001183-gr1_lrg.jpg?httpAccept=%2A%2F%2A",
+            "@multimediatype": "JPEG image file",
+            "@type": "IMAGE-HIGH-RES",
+            "@size": "137361",
+            "@ref": "gr1",
+            "@mimetype": "image/jpeg"
+          },
+          {
+            "@category": "high",
+            "@height": "1710",
+            "@width": "1546",
+            "@_fa": "true",
+            "$": "https://api.elsevier.com/content/object/eid/1-s2.0-S2468823122001183-gr2_lrg.jpg?httpAccept=%2A%2F%2A",
+            "@multimediatype": "JPEG image file",
+            "@type": "IMAGE-HIGH-RES",
+            "@size": "298273",
+            "@ref": "gr2",
+            "@mimetype": "image/jpeg"
+          },
+          {
+            "@category": "high",
+            "@height": "1586",
+            "@width": "1577",
+            "@_fa": "true",
+            "$": "https://api.elsevier.com/content/object/eid/1-s2.0-S2468823122001183-sc1_lrg.jpg?httpAccept=%2A%2F%2A",
+            "@multimediatype": "JPEG image file",
+            "@type": "IMAGE-HIGH-RES",
+            "@size": "231698",
+            "@ref": "sc1",
+            "@mimetype": "image/jpeg"
+          },
+          {
+            "@category": "high",
+            "@height": "1530",
+            "@width": "2851",
+            "@_fa": "true",
+            "$": "https://api.elsevier.com/content/object/eid/1-s2.0-S2468823122001183-gr9_lrg.jpg?httpAccept=%2A%2F%2A",
+            "@multimediatype": "JPEG image file",
+            "@type": "IMAGE-HIGH-RES",
+            "@size": "268734",
+            "@ref": "gr9",
+            "@mimetype": "image/jpeg"
+          },
+          {
+            "@category": "high",
+            "@height": "1591",
+            "@width": "2500",
+            "@_fa": "true",
+            "$": "https://api.elsevier.com/content/object/eid/1-s2.0-S2468823122001183-gr7_lrg.jpg?httpAccept=%2A%2F%2A",
+            "@multimediatype": "JPEG image file",
+            "@type": "IMAGE-HIGH-RES",
+            "@size": "254480",
+            "@ref": "gr7",
+            "@mimetype": "image/jpeg"
+          },
+          {
+            "@category": "high",
+            "@height": "1661",
+            "@width": "2500",
+            "@_fa": "true",
+            "$": "https://api.elsevier.com/content/object/eid/1-s2.0-S2468823122001183-gr8_lrg.jpg?httpAccept=%2A%2F%2A",
+            "@multimediatype": "JPEG image file",
+            "@type": "IMAGE-HIGH-RES",
+            "@size": "269153",
+            "@ref": "gr8",
+            "@mimetype": "image/jpeg"
+          },
+          {
+            "@category": "high",
+            "@height": "1630",
+            "@width": "2827",
+            "@_fa": "true",
+            "$": "https://api.elsevier.com/content/object/eid/1-s2.0-S2468823122001183-gr5_lrg.jpg?httpAccept=%2A%2F%2A",
+            "@multimediatype": "JPEG image file",
+            "@type": "IMAGE-HIGH-RES",
+            "@size": "301555",
+            "@ref": "gr5",
+            "@mimetype": "image/jpeg"
+          },
+          {
+            "@category": "high",
+            "@height": "2714",
+            "@width": "2819",
+            "@_fa": "true",
+            "$": "https://api.elsevier.com/content/object/eid/1-s2.0-S2468823122001183-gr6_lrg.jpg?httpAccept=%2A%2F%2A",
+            "@multimediatype": "JPEG image file",
+            "@type": "IMAGE-HIGH-RES",
+            "@size": "562020",
+            "@ref": "gr6",
+            "@mimetype": "image/jpeg"
+          },
+          {
+            "@category": "high",
+            "@height": "1569",
+            "@width": "2852",
+            "@_fa": "true",
+            "$": "https://api.elsevier.com/content/object/eid/1-s2.0-S2468823122001183-gr3_lrg.jpg?httpAccept=%2A%2F%2A",
+            "@multimediatype": "JPEG image file",
+            "@type": "IMAGE-HIGH-RES",
+            "@size": "439335",
+            "@ref": "gr3",
+            "@mimetype": "image/jpeg"
+          },
+          {
+            "@category": "high",
+            "@height": "1465",
+            "@width": "2852",
+            "@_fa": "true",
+            "$": "https://api.elsevier.com/content/object/eid/1-s2.0-S2468823122001183-gr4_lrg.jpg?httpAccept=%2A%2F%2A",
+            "@multimediatype": "JPEG image file",
+            "@type": "IMAGE-HIGH-RES",
+            "@size": "304387",
+            "@ref": "gr4",
+            "@mimetype": "image/jpeg"
+          },
+          {
+            "@category": "high",
+            "@height": "1423",
+            "@width": "2958",
+            "@_fa": "true",
+            "$": "https://api.elsevier.com/content/object/eid/1-s2.0-S2468823122001183-gr12_lrg.jpg?httpAccept=%2A%2F%2A",
+            "@multimediatype": "JPEG image file",
+            "@type": "IMAGE-HIGH-RES",
+            "@size": "407736",
+            "@ref": "gr12",
+            "@mimetype": "image/jpeg"
+          },
+          {
+            "@category": "high",
+            "@height": "1494",
+            "@width": "2884",
+            "@_fa": "true",
+            "$": "https://api.elsevier.com/content/object/eid/1-s2.0-S2468823122001183-gr13_lrg.jpg?httpAccept=%2A%2F%2A",
+            "@multimediatype": "JPEG image file",
+            "@type": "IMAGE-HIGH-RES",
+            "@size": "468602",
+            "@ref": "gr13",
+            "@mimetype": "image/jpeg"
+          },
+          {
+            "@category": "high",
+            "@height": "1632",
+            "@width": "2378",
+            "@_fa": "true",
+            "$": "https://api.elsevier.com/content/object/eid/1-s2.0-S2468823122001183-gr15_lrg.jpg?httpAccept=%2A%2F%2A",
+            "@multimediatype": "JPEG image file",
+            "@type": "IMAGE-HIGH-RES",
+            "@size": "348918",
+            "@ref": "gr15",
+            "@mimetype": "image/jpeg"
+          },
+          {
+            "@category": "high",
+            "@height": "1892",
+            "@width": "2442",
+            "@_fa": "true",
+            "$": "https://api.elsevier.com/content/object/eid/1-s2.0-S2468823122001183-gr11_lrg.jpg?httpAccept=%2A%2F%2A",
+            "@multimediatype": "JPEG image file",
+            "@type": "IMAGE-HIGH-RES",
+            "@size": "459437",
+            "@ref": "gr11",
+            "@mimetype": "image/jpeg"
+          },
+          {
+            "@category": "high",
+            "@height": "499",
+            "@width": "1333",
+            "@_fa": "true",
+            "$": "https://api.elsevier.com/content/object/eid/1-s2.0-S2468823122001183-ga1_lrg.jpg?httpAccept=%2A%2F%2A",
+            "@multimediatype": "JPEG image file",
+            "@type": "IMAGE-HIGH-RES",
+            "@size": "82850",
+            "@ref": "ga1",
+            "@mimetype": "image/jpeg"
+          },
+          {
+            "@category": "high",
+            "@height": "1295",
+            "@width": "2366",
+            "@_fa": "true",
+            "$": "https://api.elsevier.com/content/object/eid/1-s2.0-S2468823122001183-gr14_lrg.jpg?httpAccept=%2A%2F%2A",
+            "@multimediatype": "JPEG image file",
+            "@type": "IMAGE-HIGH-RES",
+            "@size": "331809",
+            "@ref": "gr14",
+            "@mimetype": "image/jpeg"
+          },
+          {
+            "@category": "high",
+            "@height": "1442",
+            "@width": "2811",
+            "@_fa": "true",
+            "$": "https://api.elsevier.com/content/object/eid/1-s2.0-S2468823122001183-gr10_lrg.jpg?httpAccept=%2A%2F%2A",
+            "@multimediatype": "JPEG image file",
+            "@type": "IMAGE-HIGH-RES",
+            "@size": "362879",
+            "@ref": "gr10",
+            "@mimetype": "image/jpeg"
+          },
+          {
+            "@category": "standard",
+            "@_fa": "true",
+            "$": "https://api.elsevier.com/content/object/eid/1-s2.0-S2468823122001183-mmc1.docx?httpAccept=%2A%2F%2A",
+            "@multimediatype": "Microsoft Word file",
+            "@type": "APPLICATION",
+            "@size": "486197",
+            "@ref": "mmc1",
+            "@mimetype": "application/word"
+          },
+          {
+            "@category": "standard",
+            "@_fa": "true",
+            "$": "https://api.elsevier.com/content/object/eid/1-s2.0-S2468823122001183-mmc2.zip?httpAccept=%2A%2F%2A",
+            "@multimediatype": "ZIP file",
+            "@type": "APPLICATION",
+            "@size": "168755",
+            "@ref": "mmc2",
+            "@mimetype": "application/zip"
+          },
+          {
+            "@category": "standard",
+            "@_fa": "true",
+            "$": "https://api.elsevier.com/content/object/eid/1-s2.0-S2468823122001183-am.pdf?httpAccept=%2A%2F%2A",
+            "@multimediatype": "Acrobat PDF file",
+            "@type": "AAM-PDF",
+            "@size": "457871",
+            "@ref": "am",
+            "@mimetype": "application/pdf"
+          }
+        ]
+      },
+      "link": {
+        "@rel": "abstract",
+        "@href": "https://api.elsevier.com/content/abstract/scopus_id/85126695393"
+      }
+    }
+  }
+}

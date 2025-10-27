@@ -1,0 +1,644 @@
+{
+  "metadata": {
+    "title": "High-throughput screening of efficient graphdiyne supported transition metal single atom toward water electrolysis and oxygen reduction",
+    "authors": "; ; ",
+    "journal": "Journal of Catalysis",
+    "date": "2024-11-30",
+    "doi": "10.1016/j.jcat.2024.115773",
+    "abstract": "",
+    "uri": "https://api.elsevier.com/content/article/pii/S002195172400486X",
+    "pii": "S002195172400486X"
+  },
+  "fulltext": {
+    "full-text-retrieval-response": {
+      "scopus-eid": "2-s2.0-85205135464",
+      "originalText": "serial JL 272561 291210 291744 291809 31 Journal of Catalysis JOURNALCATALYSIS 2024-09-24 2024-09-24 2024-09-30 2024-09-30 2024-11-04T20:43:04 1-s2.0-S002195172400486X S0021-9517(24)00486-X S002195172400486X 10.1016/j.jcat.2024.115773 S300 S300.1 FULL-TEXT 1-s2.0-S0021951724X00111 2024-11-12T13:16:09.093131Z 0 0 20241101 20241130 2024 2024-09-24T16:23:15.360436Z absattachment articleinfo articlenumber articletitlenorm authfirstinitialnorm authfirstsurnamenorm cid cids contenttype copyright crossmark dateloaded dateloadedtxt datesearch datesort dateupdated dco docsubtype doctype doi eid ewtransactionid hubeid indexeddate issn issnnorm itemstage itemtransactionid itemweight openaccess openarchive pg pgfirst pii piinorm pubdateend pubdatestart pubdatetxt pubyr sectiontitle sortorder srctitle srctitlenorm srctype ssids alllist content subj subheadings suppl tomb volfirst volissue volumelist webpdf webpdfpagecount yearnav figure table e-component body mmlmath acknowledge affil appendices articletitle auth authfirstini authfull authkeywords authlast grantnumber grantsponsor highlightsabst orcid primabst ref specialabst 0021-9517 00219517 true 439 439 C Volume 439 31 115773 115773 115773 202411 November 2024 2024-11-01 2024-11-30 2024 Regular Articles article fla © 2024 Elsevier Inc. All rights are reserved, including those for text and data mining, AI training, and similar technologies. HIGHTHROUGHPUTSCREENINGEFFICIENTGRAPHDIYNESUPPORTEDTRANSITIONMETALSINGLEATOMTOWARDWATERELECTROLYSISOXYGENREDUCTION SUN C 1 Introduction 2 Calculation details 2.1 Models and methods 2.2 Reaction mechanism 2.3 Reaction free energy calculation 3 Results and discussion 3.1 Configuration and stability of TM@GDY 3.2 Electrocatalytic activity of TM@GDY 3.2.1 HER performances 3.2.2 OER and ORR performances 3.3 Effect of solvation on electrocatalytic activity 3.4 Descriptor-activity volcano 3.4.1 Adsorption-activity relationship 3.4.2 Universal descriptor 3.5 Electronic properties 4 Conclusion CRediT authorship contribution statement Acknowledgments Appendix A Supplementary data References XU 2024 2593 2603 W HUANG 2024 115367 X ZHANG 2023 eadh2885 X HUANG 2024 471 484 M LYU 2022 6171 S DU 2021 820 828 J HE 2024 e202405798 W XU 2024 207 218 H CAO 2023 13038 13047 H CHELLASAMY 2024 1115 1127 G LI 2024 123231 P ZHANG 2021 119780 S JIN 2024 4260 4268 Z LI 2024 6974 6982 H ZHANG 2022 8897 8907 X YAO 2024 2442 2449 H LU 2021 12885 12895 S NOEI 2018 4281 4289 H HAN 2013 155408 Y XUE 2016 858 866 Y SUN 2022 152197 C YU 2019 31 41 H ZHANG 2021 149464 Z SHAH 2022 1 5 K KAN 2020 17065 17077 D ZENG 2019 1790 1799 C ZHANG 2023 6860 6869 X LUO 2021 223 232 Y YU 2021 8881 8894 Y LIU 2020 015015 J WANG 2023 113515 P SHI 2023 156679 X KRESSE 1996 11169 11186 G PERDEW 1996 3865 3868 J STEINMANN 2011 3567 3577 S STEINMANN 2011 044117 S KRESSE 1999 1758 1775 G LIU 2023 2303297 S SAINI 2023 2302170 K MATHEW 2014 084106 K NORSKOV 2004 17886 17892 J ROSSMEISL 2007 83 89 J TRANCA 2020 234 247 D YAN 2018 3537 3547 Y LU 2016 1 7 Z WU 2014 5640 5648 P SUN 2021 10867 10879 C XUE 2018 1460 Y YU 2020 104667 H HUI 2020 2145 2149 L ZHANG 2021 26922 26931 X ZHANG 2021 6553 6560 X YU 2024 20379 20390 P MAN 2011 1159 1165 I KULKARNI 2018 2302 2312 A XU 2018 339 348 H HE 2019 1800419 T XUE 2021 437 443 Z ZHANG 2020 166 173 S SUNX2024X115773 SUNX2024X115773XC 2026-09-30T00:00:00.000Z 2026-09-30T00:00:00.000Z http://creativecommons.org/licenses/by-nc-nd/4.0/ © 2024 Elsevier Inc. All rights are reserved, including those for text and data mining, AI training, and similar technologies. 2024-11-12T13:13:39.153Z http://vtw.elsevier.com/data/voc/AddOnTypes/50.7/aggregated-refined Foundation of State Key Laboratory of Coal Conversion J23-24-603 Foundation of State Key Laboratory of Coal Combustion http://data.elsevier.com/vocabulary/SciValFunders/501100010082 http://sws.geonames.org/1814991/ Class III Peak Discipline of Shanghai—Materials Science and Engineering STCSM Shanghai Municipality Science and Technology Commission http://data.elsevier.com/vocabulary/SciValFunders/501100003399 http://sws.geonames.org/1814991 Natural Science Foundation of Shanghai 23ZR1425500 Natural Science Foundation of Shanghai Municipality http://data.elsevier.com/vocabulary/SciValFunders/100007219 http://sws.geonames.org/1814991/ This work was financially supported by the Natural Science Foundation of Shanghai (23ZR1425500), Class III Peak Discipline of Shanghai\\u2014Materials Science and Engineering (High-Energy Beam Intelligent Processing and Green Manufacturing) and the Foundation of State Key Laboratory of Coal Conversion (Grant No. J23-24-603). https://doi.org/10.15223/policy-017 https://doi.org/10.15223/policy-037 https://doi.org/10.15223/policy-012 https://doi.org/10.15223/policy-029 https://doi.org/10.15223/policy-004 item S0021-9517(24)00486-X S002195172400486X 1-s2.0-S002195172400486X 10.1016/j.jcat.2024.115773 272561 2024-11-04T22:20:23.128914Z 2024-11-01 2024-11-30 1-s2.0-S002195172400486X-main.pdf https://s3-eu-west-1.amazonaws.com/prod-ucs-content-store-eu-west/content/pii:S002195172400486X/MAIN/application/pdf/e8b98d3ef1b772a2d471858270e30d71/main.pdf main.pdf pdf true 6579248 MAIN 14 1-s2.0-S002195172400486X-main_1.png https://s3-eu-west-1.amazonaws.com/prod-ucs-content-store-eu-west/content/pii:S002195172400486X/PREVIEW/image/png/3e2df68f2e5ee13eb188fffcd03010ba/main_1.png main_1.png png 58954 849 656 IMAGE-WEB-PDF 1 1-s2.0-S002195172400486X-gr5.jpg https://s3-eu-west-1.amazonaws.com/prod-ucs-content-store-eu-west/content/pii:S002195172400486X/gr5/DOWNSAMPLED/image/jpeg/0cf8101caf0d4be2703dc7caf03b1934/gr5.jpg gr5 gr5.jpg jpg 31166 239 578 IMAGE-DOWNSAMPLED 1-s2.0-S002195172400486X-gr6.jpg https://s3-eu-west-1.amazonaws.com/prod-ucs-content-store-eu-west/content/pii:S002195172400486X/gr6/DOWNSAMPLED/image/jpeg/f59c14a6b1cf3937f6f1faeccf861242/gr6.jpg gr6 gr6.jpg jpg 75218 503 667 IMAGE-DOWNSAMPLED 1-s2.0-S002195172400486X-gr7.jpg https://s3-eu-west-1.amazonaws.com/prod-ucs-content-store-eu-west/content/pii:S002195172400486X/gr7/DOWNSAMPLED/image/jpeg/74b594abd600c5b2a49ab266e7c83dc2/gr7.jpg gr7 gr7.jpg jpg 109736 611 533 IMAGE-DOWNSAMPLED 1-s2.0-S002195172400486X-gr8.jpg https://s3-eu-west-1.amazonaws.com/prod-ucs-content-store-eu-west/content/pii:S002195172400486X/gr8/DOWNSAMPLED/image/jpeg/54c3504e1ddc9ff5f78a2117f8c090ec/gr8.jpg gr8 gr8.jpg jpg 88289 543 667 IMAGE-DOWNSAMPLED 1-s2.0-S002195172400486X-gr1.jpg https://s3-eu-west-1.amazonaws.com/prod-ucs-content-store-eu-west/content/pii:S002195172400486X/gr1/DOWNSAMPLED/image/jpeg/96e56d8e6ad962b524134cfdd1981438/gr1.jpg gr1 gr1.jpg jpg 90120 569 667 IMAGE-DOWNSAMPLED 1-s2.0-S002195172400486X-gr2.jpg https://s3-eu-west-1.amazonaws.com/prod-ucs-content-store-eu-west/content/pii:S002195172400486X/gr2/DOWNSAMPLED/image/jpeg/60a5912d5af954d82eee24c824a2a8b3/gr2.jpg gr2 gr2.jpg jpg 61258 370 533 IMAGE-DOWNSAMPLED 1-s2.0-S002195172400486X-ga1.jpg https://s3-eu-west-1.amazonaws.com/prod-ucs-content-store-eu-west/content/pii:S002195172400486X/ga1/DOWNSAMPLED/image/jpeg/708329c7bde4521bb55ce04868e2c2b9/ga1.jpg ga1 true ga1.jpg jpg 40706 200 354 IMAGE-DOWNSAMPLED 1-s2.0-S002195172400486X-gr3.jpg https://s3-eu-west-1.amazonaws.com/prod-ucs-content-store-eu-west/content/pii:S002195172400486X/gr3/DOWNSAMPLED/image/jpeg/9a7aa08cc7d515e16df4fbc0ba95272d/gr3.jpg gr3 gr3.jpg jpg 144402 895 533 IMAGE-DOWNSAMPLED 1-s2.0-S002195172400486X-gr4.jpg https://s3-eu-west-1.amazonaws.com/prod-ucs-content-store-eu-west/content/pii:S002195172400486X/gr4/DOWNSAMPLED/image/jpeg/79ccadc62a6e0eafcf223e6d266b0ff9/gr4.jpg gr4 gr4.jpg jpg 100854 569 622 IMAGE-DOWNSAMPLED 1-s2.0-S002195172400486X-gr5.sml https://s3-eu-west-1.amazonaws.com/prod-ucs-content-store-eu-west/content/pii:S002195172400486X/gr5/THUMBNAIL/image/gif/f7faf5614b1ad260e46960a0fce4f7c9/gr5.sml gr5 gr5.sml sml 5491 91 219 IMAGE-THUMBNAIL 1-s2.0-S002195172400486X-gr6.sml https://s3-eu-west-1.amazonaws.com/prod-ucs-content-store-eu-west/content/pii:S002195172400486X/gr6/THUMBNAIL/image/gif/f684c72be8859fac434028773933cf5a/gr6.sml gr6 gr6.sml sml 9848 164 217 IMAGE-THUMBNAIL 1-s2.0-S002195172400486X-gr7.sml https://s3-eu-west-1.amazonaws.com/prod-ucs-content-store-eu-west/content/pii:S002195172400486X/gr7/THUMBNAIL/image/gif/fd67f0f5b65d74d11f24c65ca85e7a60/gr7.sml gr7 gr7.sml sml 11456 164 143 IMAGE-THUMBNAIL 1-s2.0-S002195172400486X-gr8.sml https://s3-eu-west-1.amazonaws.com/prod-ucs-content-store-eu-west/content/pii:S002195172400486X/gr8/THUMBNAIL/image/gif/d5724a89353925062c4a226d65a2b2c5/gr8.sml gr8 gr8.sml sml 12521 164 201 IMAGE-THUMBNAIL 1-s2.0-S002195172400486X-gr1.sml https://s3-eu-west-1.amazonaws.com/prod-ucs-content-store-eu-west/content/pii:S002195172400486X/gr1/THUMBNAIL/image/gif/8390efff8425a09497aaff40dbdc7415/gr1.sml gr1 gr1.sml sml 12580 164 192 IMAGE-THUMBNAIL 1-s2.0-S002195172400486X-gr2.sml https://s3-eu-west-1.amazonaws.com/prod-ucs-content-store-eu-west/content/pii:S002195172400486X/gr2/THUMBNAIL/image/gif/b94237c671935667196d33585e3fa79e/gr2.sml gr2 gr2.sml sml 12587 152 219 IMAGE-THUMBNAIL 1-s2.0-S002195172400486X-ga1.sml https://s3-eu-west-1.amazonaws.com/prod-ucs-content-store-eu-west/content/pii:S002195172400486X/ga1/THUMBNAIL/image/gif/60315b562a8eac1b63aae6ed7f94ad50/ga1.sml ga1 true ga1.sml sml 22122 124 219 IMAGE-THUMBNAIL 1-s2.0-S002195172400486X-gr3.sml https://s3-eu-west-1.amazonaws.com/prod-ucs-content-store-eu-west/content/pii:S0021951724004718/gr3/THUMBNAIL/image/gif/07754ed322aed1d9f28968ebaa637b6c/gr3.sml gr3 gr3.sml sml 8649 163 97 IMAGE-THUMBNAIL 1-s2.0-S002195172400486X-gr4.sml https://s3-eu-west-1.amazonaws.com/prod-ucs-content-store-eu-west/content/pii:S0021951724004718/gr4/THUMBNAIL/image/gif/eace5287929f3584cb3daae3d4253b9e/gr4.sml gr4 gr4.sml sml 15201 164 179 IMAGE-THUMBNAIL 1-s2.0-S002195172400486X-gr5_lrg.jpg https://s3-eu-west-1.amazonaws.com/prod-ucs-content-store-eu-west/content/pii:S002195172400486X/HIGHRES/image/jpeg/0caa67bb7207e2057fc9b774278fe95f/gr5_lrg.jpg gr5 gr5_lrg.jpg jpg 172711 1058 2559 IMAGE-HIGH-RES 1-s2.0-S002195172400486X-gr6_lrg.jpg https://s3-eu-west-1.amazonaws.com/prod-ucs-content-store-eu-west/content/pii:S002195172400486X/HIGHRES/image/jpeg/12eab2ecb06d9e9572df3c147819333f/gr6_lrg.jpg gr6 gr6_lrg.jpg jpg 382030 2225 2953 IMAGE-HIGH-RES 1-s2.0-S002195172400486X-gr7_lrg.jpg https://s3-eu-west-1.amazonaws.com/prod-ucs-content-store-eu-west/content/pii:S002195172400486X/HIGHRES/image/jpeg/5b8cc90307dd122b2a2acd5d85314dea/gr7_lrg.jpg gr7 gr7_lrg.jpg jpg 587069 2707 2362 IMAGE-HIGH-RES 1-s2.0-S002195172400486X-gr8_lrg.jpg https://s3-eu-west-1.amazonaws.com/prod-ucs-content-store-eu-west/content/pii:S002195172400486X/HIGHRES/image/jpeg/6f9999cd5d6d2167a72b8f75fa397e4e/gr8_lrg.jpg gr8 gr8_lrg.jpg jpg 498463 2405 2953 IMAGE-HIGH-RES 1-s2.0-S002195172400486X-gr1_lrg.jpg https://s3-eu-west-1.amazonaws.com/prod-ucs-content-store-eu-west/content/pii:S002195172400486X/HIGHRES/image/jpeg/44ae7bf026ee826dffd5abea0f7475db/gr1_lrg.jpg gr1 gr1_lrg.jpg jpg 486088 2520 2953 IMAGE-HIGH-RES 1-s2.0-S002195172400486X-gr2_lrg.jpg https://s3-eu-west-1.amazonaws.com/prod-ucs-content-store-eu-west/content/pii:S002195172400486X/HIGHRES/image/jpeg/5f920d4a3608e8bda8b35fdd8a2b0d58/gr2_lrg.jpg gr2 gr2_lrg.jpg jpg 296113 1637 2361 IMAGE-HIGH-RES 1-s2.0-S002195172400486X-ga1_lrg.jpg https://s3-eu-west-1.amazonaws.com/prod-ucs-content-store-eu-west/content/pii:S002195172400486X/HIGHRES/image/jpeg/98b33c2755a9e8230ba95b611f419369/ga1_lrg.jpg ga1 true ga1_lrg.jpg jpg 407215 886 1567 IMAGE-HIGH-RES 1-s2.0-S002195172400486X-gr3_lrg.jpg https://s3-eu-west-1.amazonaws.com/prod-ucs-content-store-eu-west/content/pii:S0021951724004718/HIGHRES/image/jpeg/d5f3cd20c8a99911dc338b17aa43f18f/gr3_lrg.jpg gr3 gr3_lrg.jpg jpg 679356 3965 2362 IMAGE-HIGH-RES 1-s2.0-S002195172400486X-gr4_lrg.jpg https://s3-eu-west-1.amazonaws.com/prod-ucs-content-store-eu-west/content/pii:S0021951724004718/HIGHRES/image/jpeg/e130567d7953bc20c8b12b3561ef74a8/gr4_lrg.jpg gr4 gr4_lrg.jpg jpg 520100 2520 2756 IMAGE-HIGH-RES 1-s2.0-S002195172400486X-mmc1.pdf https://s3-eu-west-1.amazonaws.com/prod-ucs-content-store-eu-west/content/pii:S002195172400486X/mmc1/MAIN/application/pdf/637a91121b3e8b6e4aa1b6ad544d8f3c/mmc1.pdf mmc1 mmc1.pdf pdf false 3972487 APPLICATION 1-s2.0-S002195172400486X-si1.svg https://s3-eu-west-1.amazonaws.com/prod-ucs-content-store-eu-west/content/pii:S002195172400486X/image/svg+xml/51ee4f3b3778979478a63362424cad37/si1.svg si1 si1.svg svg 6113 ALTIMG 1-s2.0-S002195172400486X-si10.svg https://s3-eu-west-1.amazonaws.com/prod-ucs-content-store-eu-west/content/pii:S002195172400486X/image/svg+xml/3a92e9002ad2b4fd34a204b2ce329696/si10.svg si10 si10.svg svg 20517 ALTIMG 1-s2.0-S002195172400486X-si100000.svg https://s3-eu-west-1.amazonaws.com/prod-ucs-content-store-eu-west/content/pii:S002195172400486X/image/svg+xml/d7c4b01590eb614981e09d39e1f8500a/si100000.svg si100000 si100000.svg svg 2998 ALTIMG 1-s2.0-S002195172400486X-si11.svg https://s3-eu-west-1.amazonaws.com/prod-ucs-content-store-eu-west/content/pii:S002195172400486X/image/svg+xml/c961b1a1798807af55f0fd90c5e35f0b/si11.svg si11 si11.svg svg 19996 ALTIMG 1-s2.0-S002195172400486X-si12.svg https://s3-eu-west-1.amazonaws.com/prod-ucs-content-store-eu-west/content/pii:S002195172400486X/image/svg+xml/756134ae39c1d7eb96900e16db4a1d62/si12.svg si12 si12.svg svg 9304 ALTIMG 1-s2.0-S002195172400486X-si13.svg https://s3-eu-west-1.amazonaws.com/prod-ucs-content-store-eu-west/content/pii:S002195172400486X/image/svg+xml/4442976dec2f52b1a675102d95de5112/si13.svg si13 si13.svg svg 7589 ALTIMG 1-s2.0-S002195172400486X-si14.svg https://s3-eu-west-1.amazonaws.com/prod-ucs-content-store-eu-west/content/pii:S002195172400486X/image/svg+xml/6833debd72f616c60c6e5362eea807b9/si14.svg si14 si14.svg svg 8723 ALTIMG 1-s2.0-S002195172400486X-si15.svg https://s3-eu-west-1.amazonaws.com/prod-ucs-content-store-eu-west/content/pii:S002195172400486X/image/svg+xml/c834b68b13d6d3a9bb9a6ca036a32380/si15.svg si15 si15.svg svg 9289 ALTIMG 1-s2.0-S002195172400486X-si16.svg https://s3-eu-west-1.amazonaws.com/prod-ucs-content-store-eu-west/content/pii:S002195172400486X/image/svg+xml/282b71f369e7bb2f00baeed00fa38043/si16.svg si16 si16.svg svg 10407 ALTIMG 1-s2.0-S002195172400486X-si17.svg https://s3-eu-west-1.amazonaws.com/prod-ucs-content-store-eu-west/content/pii:S002195172400486X/image/svg+xml/6bc166ba380ef23fce412538ec87e9bd/si17.svg si17 si17.svg svg 11907 ALTIMG 1-s2.0-S002195172400486X-si18.svg https://s3-eu-west-1.amazonaws.com/prod-ucs-content-store-eu-west/content/pii:S002195172400486X/image/svg+xml/4fcd68360a98b45a04741bd76b50f26f/si18.svg si18 si18.svg svg 6239 ALTIMG 1-s2.0-S002195172400486X-si2.svg https://s3-eu-west-1.amazonaws.com/prod-ucs-content-store-eu-west/content/pii:S002195172400486X/image/svg+xml/d3861c409295db6cb644b187dc5dd94e/si2.svg si2 si2.svg svg 4877 ALTIMG 1-s2.0-S002195172400486X-si3.svg https://s3-eu-west-1.amazonaws.com/prod-ucs-content-store-eu-west/content/pii:S002195172400486X/image/svg+xml/0aba3e7f060dd4b6830fdbffa6fd4cc7/si3.svg si3 si3.svg svg 27465 ALTIMG 1-s2.0-S002195172400486X-si4.svg https://s3-eu-west-1.amazonaws.com/prod-ucs-content-store-eu-west/content/pii:S002195172400486X/image/svg+xml/2a0bdb7cc925c4cd466afcc3b7668d69/si4.svg si4 si4.svg svg 12558 ALTIMG 1-s2.0-S002195172400486X-si5.svg https://s3-eu-west-1.amazonaws.com/prod-ucs-content-store-eu-west/content/pii:S002195172400486X/image/svg+xml/ced19bb7f377fd78bc3dd12af05c41a5/si5.svg si5 si5.svg svg 10265 ALTIMG 1-s2.0-S002195172400486X-si6.svg https://s3-eu-west-1.amazonaws.com/prod-ucs-content-store-eu-west/content/pii:S002195172400486X/image/svg+xml/4e88943c5f856bd6e1d4469b008ab388/si6.svg si6 si6.svg svg 7406 ALTIMG 1-s2.0-S002195172400486X-si7.svg https://s3-eu-west-1.amazonaws.com/prod-ucs-content-store-eu-west/content/pii:S002195172400486X/image/svg+xml/b52983f0914b3db444100e604c8ed480/si7.svg si7 si7.svg svg 10438 ALTIMG 1-s2.0-S002195172400486X-si8.svg https://s3-eu-west-1.amazonaws.com/prod-ucs-content-store-eu-west/content/pii:S002195172400486X/image/svg+xml/c7054a84dd6d5eb2b3cb0178174ad1b1/si8.svg si8 si8.svg svg 11615 ALTIMG 1-s2.0-S002195172400486X-si9.svg https://s3-eu-west-1.amazonaws.com/prod-ucs-content-store-eu-west/content/pii:S002195172400486X/image/svg+xml/8b51144f036222c354af1cfb91e2d9f1/si9.svg si9 si9.svg svg 14439 ALTIMG YJCAT 115773 115773 S0021-9517(24)00486-X 10.1016/j.jcat.2024.115773 Elsevier Inc. Figure 1 (a) Investigated transition metals. (b) Optimized stable geometries of TM@GDY (TM = V, Cr, Mn, Fe, Co, Ni, Cu, Nb, Mo, Tc, Ru, Rh, Pd, Ag, Ta, W, Ir, Pt), Sc/Ti/Y@GDY, and Au@GDY. The gray and colored spheres represent the C and TM atoms, respectively. (c) Binding energies for TM single atoms on GDY with the solvation effect. (d) The dot-line figure of E b(sol) vs. θ d. (e) Linear fitting of E b(sol) and the number of electrons in d orbitals θ d. (f) Energy fluctuations of Cu@GDY with progress of time (fs) in AIMD simulations at 300 K. Figure 2 The most stable configuration of H* on (a) TM and (b) C sites for different TMs supported on GDY. The gray and white small spheres are C and H atom, respectively. Other colors represent transition metal atoms. The same below. Figure 3 The most stable configuration of adsorbates (a) OH, (b) O and (c) OOH on TM@GDY. The red color represents O atom. The same below. Figure 4 (a) The plots of change of ΔGi for different adsorbates i without and with solvation effect Δ(ΔGi ), Δ(ΔGi ) = ΔG i(sol) – ΔG i(no-sol). Δ(ΔGi ) < 0.35 eV is marked in light pink background in (a) and (b); Δ(ΔGi ) > 0.35 eV is marked in red background in (b). The blue solid line in (b) shows the general trend of Δ(ΔGi ) induced by the solvation effect. The most stable configuration of Fe@GDY and H adsorption on Fe/C site (c) without and (d) with solvation effect. (e) The plots of energy change ΔE total (ΔE total = E total(sol) – E total(no-sol)) and the change of magnetic moment Δμ (Δμ = μ(sol) – μ(no-sol)) and (f) linear fitting of ΔE total and Δμ for H adsorption on TM site of TM@GDY SAECs. VIII and IB SAECs are marked in blue frames in Figure 4e. Figure 5 HER theoretical overpotential versus adsorption free energies ΔG H* on TM@GDY: (a) non solvation effect and (b) involving solvation effect. The theoretical overpotential of Pt(111) for HER is also plotted in diagram. Figure 6 The plots based the results without solvation effect. (a) Adsorption free energies of OOH* and O* versus that of OH* on TM@GDY. (b) The volcano plots of OER and ORR theoretical onset potential versus adsorption free energies ΔG OH* on TM@GDY. Adsorption free energy of OH versus the descriptor φ for (c) 3d TM atoms and (d) 4d, 5d TM atoms supported on GDY. Figure 7 The plots based the results considering the solvation effect. (a) Adsorption free energies of OOH* and O* versus that of OH* on TM@GDY. (b) The volcano plots of OER and ORR theoretical onset potential versus adsorption free energies ΔG OH*. The colored contour maps of (c) OER and (d) ORR activity volcanos by showing the U L (η) as a function of the Gibbs adsorption free energies. In each zone, the potential determining step is labeled. (e) The plot of ΔG OH* versus the descriptor φ. (f) The volcano plots of φ-activity. Figure 8 (a) Relationship between Bader charge and the number of electrons in d orbitals θ d of metal elements. Green wine: linear fitting of all data. Purple: Linear fitting of data excludes IB metal elements with d 10 s 1. (b) DOS of Ni@GDY and Cu@GDY. (c) Relation plot between ΔG OH* and d-band center ε d. The d-band center values corrected by GGA + U are highlighted with blue squares. (d) The charge difference maps (e bohr-3) upon OH adsorption on the Ni@GDY and Cu@GDY without solvation effect. Upper row: 3D view. The accumulated (depleted) charge region is in the yellow (cyan). Down row: 2D view. Three marked atoms in the upper 3D plot are used to determine the cutting plane. The contour lines are added in the interval of 0.005 in the range of 0.01-0.05. Table 1 Calculated Gibbs free energy changes (eV) of the hydrogen atom binding on TM and C sites for different TMs supported on GDY. TM@GDY ΔG H* (TM) ΔG H* (C) TM@GDY ΔG H* (TM) ΔG H* (C) Sc@GDY 0.30 -0.90 Mo@GDY -0.62 -0.60 Ti@GDY -0.18 -1.05 Tc@GDY -0.60 -0.56 V@GDY -0.03 -1.00 Ru@GDY -0.22 -0.55 Cr@GDY 0.29 -1.00 Rh@GDY -0.23 -1.26 Mn@GDY 0.36 -0.93 Pd@GDY 1.19 -0.46 Fe@GDY 0.18 -0.15 Ag@GDY 0.20 -0.90 Co@GDY 0.16 -0.10 Ta@GDY -0.74 -1.61 Ni@GDY 0.99 -0.25 W@GDY -0.92 -0.54 Cu@GDY 0.16 -1.16 Ir@GDY -0.41 -0.85 Y@GDY 0.39 -0.65 Pt@GDY 0.54 -0.72 Nb@GDY -0.43 -1.29 Au@GDY -0.80 -1.18 Table 2 Theoretical thermodynamic limiting potential for ORR and OER (U L, V vs RHE), theoretical overpotential (ηHER, V vs RHE) for HER on single TM atom supported on GDY with and without solvation effect correction. system U L OER U L ORR ƞHER(TM) ƞHER(C) wo w wo w wo w wo w Sc@GDY 3.03 3.45 -1.31 -0.12 -0.30 -- -0.90 -0.11 Ti@GDY 3.46 3.04 -1.68 -1.18 -0.18 -0.31 -1.05 -0.88 V@GDY 3.60 -- -1.37 -- -0.03 -0.06 -1.00 -1.14 Cr@GDY 3.22 3.57 -1.04 -0.83 -0.29 -0.33 -1.00 -0.90 Mn@GDY 3.08 3.24 -0.39 0.01 -0.36 -0.80 -0.93 -0.60 Fe@GDY 2.48 2.48 -0.22 -0.12 -0.18 -0.38 -0.15 -0.10 Co@GDY 2.14 2.19 0.14 0.07 -0.16 -0.16 -0.10 -0.09 Ni@GDY 2.06 2.02 0.77 0.72 -0.99 -1.03 -0.25 -0.21 Cu@GDY 1.89 1.82 0.18 0.21 -0.16 -0.32 -1.16 -0.99 Y@GDY 2.86 4.02 -1.23 -0.70 -0.39 -- -0.65 -0.28 Nb@GDY 3.76 -- -1.86 -- -0.43 -0.67 -1.29 -1.26 Mo@GDY 3.43 3.68 -1.68 -0.76 -0.62 -0.03 -0.60 -0.24 Tc@GDY 3.07 2.94 -1.33 -1.11 -0.60 -0.27 -0.56 -0.23 Ru@GDY 3.04 2.95 -0.35 -0.33 -0.22 -0.08 -0.55 -0.39 Rh@GDY 2.14 2.02 0.19 0.09 -0.23 -0.24 -1.26 -1.19 Pd@GDY 2.43 2.33 0.50 0.68 -1.19 -1.21 -0.46 -0.47 Ag@GDY 2.94 2.74 0.34 0.31 -0.20 -0.20 -0.90 -0.76 Ta@GDY 3.82 4.11 -2.30 -2.36 -0.74 -1.02 -1.61 -1.50 W@GDY 3.65 3.98 -2.02 -0.92 -0.92 -0.17 -0.54 -0.40 Ir@GDY 2.54 2.44 -0.18 -0.26 -0.41 -0.41 -0.85 -0.85 Pt@GDY 2.35 2.24 0.79 0.77 -0.54 -0.55 -0.72 -0.71 Au@GDY 2.01 2.03 -0.17 -0.38 -0.80 -0.85 -1.18 -1.32 High-throughput screening of efficient graphdiyne supported transition metal single atom toward water electrolysis and oxygen reduction Chunyan Sun Data curation Formal analysis Investigation Methodology Validation Writing – original draft a b Shengming Zhang Investigation a Peijie Wang Data curation Formal analysis Investigation a Minghui Wei Visualization Validation Data curation a Sen Wang Visualization Validation Funding acquisition c Xue-Rong Shi Conceptualization Supervision Writing – review & editing Validation Funding acquisition a ⁎ a School of Material Science and Engineering, Shanghai University of Engineering Science, Shanghai 201620, PR China School of Material Science and Engineering Shanghai University of Engineering Science Shanghai 201620 PR China School of Material Science and Engineering, Shanghai University of Engineering Science, Shanghai 201620, PR China b Key Laboratory of Jiangxi Province for Environment and Energy Catalysis, Institute of Applied Chemistry, College of Chemistry, Nanchang University, Nanchang 330031, PR China Key Laboratory of Jiangxi Province for Environment and Energy Catalysis Institute of Applied Chemistry College of Chemistry Nanchang University Nanchang 330031 PR China Key Laboratory of Jiangxi Province for Environment and Energy Catalysis, Institute of Applied Chemistry, College of Chemistry, Nanchang University, Nanchang 330031, PR China c State Key Laboratory of Coal Conversion, Institute of Coal Chemistry, Chinese Academy of Sciences, P.O. Box 165, Taiyuan, Shanxi 030001, PR China State Key Laboratory of Coal Conversion Institute of Coal Chemistry Chinese Academy of Sciences P.O. Box 165 Taiyuan Shanxi 030001 PR China State Key Laboratory of Coal Conversion, Institute of Coal Chemistry, Chinese Academy of Sciences, P.O. Box 165, Taiyuan, Shanxi 030001, PR China ⁎ Corresponding author at: School of Material Science and Engineering, Shanghai University of Engineering Science, Shanghai 201620, PR China. School of Material Science and Engineering Shanghai University of Engineering Science Shanghai 201620 PR China Graphical abstract Efficient single-atom electrocatalysts show great potential for application in the field of renewable energy. In this work, dispersion-corrected density functional theory (DFT) calculations based on high-throughput screening were used to identify effective graphdiyne (GDY) supported single-atom electrocatalysts (SAECs) for water electrolysis and the oxygen reduction reaction (ORR). The solvation effect on the electrocatalytic performance of the catalysts was carefully discussed. A general design principle was established to evaluate the activities of TM@GDY SAECs for ORR and oxygen evolution reaction (OER). ΔG OH* could serve as the sole descriptor for the onset potential of OER and ORR. Additionally, a universal structural descriptor φ, which is strongly related to ΔG OH*, was identified. This descriptor only includes intrinsic features such as the number of electrons in d orbitals and elemental electronegativity. Consequently, a structure-activity volcano was plotted. Combined with the electronic properties calculations, the mechanism behind the relationship between ΔG OH* and descriptor φ was deeply analyzed. Among the investigated candidates, TM@GDY (TM = Ni, Pt, Pd, Cu, Co, Rh, and Ag) are potential bifunctional electrocatalysts for OER and ORR. Three non-noble metal-based SAECs (Ni@GDY, Co@GDY, and Cu@GDY) and two noble metal-based SAECs (Rh@GDY and Ag@GDY) are potential trifunctional electrocatalysts for OER, ORR, and the hydrogen evolution reaction. Keywords graphdiyne single-atom electrocatalysts solvation effect oxygen reduction oxygen evolution hydrogen evolution Data availability Data will be made available on request. 1 Introduction The increasing fossil fuel consumption and air pollution have prompted us to search for the alternative and clean energy. Hydrogen evolution reaction (HER), oxygen evolution reaction (OER), and oxygen reduction reaction (ORR) play vital roles in clean energy storage and conversion systems, such as metal-air batteries and electrolysis of water for hydrogen production [1-5]. HER and OER are two electrode reactions of water electrolysis. At present, RuO2/IrO2-based catalyst and Pt-based catalyst show supper activities toward OER and HER/ORR, respectively [6,7]. However, their low earth abundance greatly hinders their practical application. Many efforts have been devoted to exploring earth-rich and highly efficient electrocatalysts. Single-atom electrocatalysts (SAECs) with fully exposed and highly under-coordinated metal centers promote atom utilization and are expected to replace noble metal nanocatalysts [8,9]. From the perspective of preparation cost, multifunctional catalysts present obvious advantages over unifunctional catalyst. The harsh criteria of low overpotentials for all three reactions also make trifunctional electrocatalysts very rare. The support is important for the designed SAECs since it could adjust the electronic properties of SAECs, tune the bonding strength of key reaction species and consequently determine the electrochemical performances. Various materials have been used as the support of SAECs, such as MXene, metal, and carbon materials [10-16]. For example, Lu et al. [17] studied the HER, OER, and ORR performances of single transition metal atoms anchored on antimony (Sb) monolayer using density functional theory (DFT) calculations. The results showed that Pt@Sb monolayer was a potential trifunctional electrocatalyst for HER, OER, and ORR. Among diverse carbon materials, graphdiyne (GDY) is considered to be one of the best supports of SAECs because of good stability and flexibility [18,19]. Xue et al. [20] found that the self-supporting Cu core-GDY shell nanowire array exhibited high catalytic activity toward HER. The author claimed that the synergistic interaction between GDY and Cu was very important to the catalytic performance of the electrode. The similar conception has been proposed and confirmed by Sun et al. [21] via a theoretical approach. Using theoretical and experimental techniques, Yu et al. [22] attributed the excellent HER catalytic performance of Pd/GDY to its unique structure and the valence of Pd atoms. Zhang et al. [23] used first-principles calculations to predict the HER, OER, and ORR performances of SAECs embedded in pyrazine-modified graphyn (pyGY). The authors found that the binding strength of intermediates (OH*, O*, and OOH*) was adjusted by different transition metal (TM) atoms, which roughly decreased with increasing number of d electrons. Ni@pyGY and Pd@pyGY could be trifunctional electrocatalysts for HER, OER, and ORR. Although much relevant work has been done [11,24-28], a systematical screening of trifunctional SAECs@GDY electrocatalysts is still missing. In the early stages of catalysts development, fast and reliable screening of efficient materials for specific reactions is crucial to saving time and materials costs. Conducting high-throughput screening experimentally is costly. In particular, the large-scale preparation of GDY and its supported SAECs is very difficult, and the SAECs characterization is also not easy. Benefiting from the advancement of computational methods and capabilities, DFT high-throughput screening techniques has emerged as an effective approach for rapidly developing novel highly efficient catalysts [29-32]. Based on this, we use dispersion-corrected DFT calculations to perform a high-throughput screening of SAECs@GDY toward HER, OER, and ORR at the atomic level. The potential trifunctional SAECs@GDY electrocatalysts, structure-activity relationships, and suitable descriptors are identified, providing the inspiration for the rational design of cost-effective multifunctional electrocatalysts. 2 Calculation details 2.1 Models and methods Spin-polarized density functional theory calculations were performed by the Vienna Ab initio Simulation Package (VASP) [33] with the Perdew-Burke-Ernzerhof (PBE) generalized gradient exchange-correlation functional [34]. To include the van der Waals interaction, dispersion-corrected DFT calculations under the dDsC’s scheme were employed [35,36]. The projector augmented wave (PAW) pseudo-potentials [37] were used to describe ionic cores. The cutoff energy of 500 eV was adopted. The k-point sampling of the Brillouin zone was obtained using 5×5×1 and 9×9×1 grid for geometric optimization and electronic properties calculations by Monkhorst-Pack scheme, respectively. The convergence threshold for geometry optimizations was set to be 0.03 eV/Å on maximum force component. A (1×1) cell of GDY was employed. A vacuum slab of 15 Å was used in the z direction for surface isolation to prevent interaction between two neighboring surfaces. To justify the reliability of applied GGA-PBE, the GGA + U method by adding an energy correction to localized electron states of d orbitals with large self-interaction using U eff values of 3.5 eV [38] and 6.01 eV [39] was employed to describe the 3d electrons of Co and Ni in the trifunctional electrocatalysts Co@GDY and Ni@GDY systems, respectively. The dynamic properties were modeled by using the ab initio molecular dynamics (AIMD) simulations as implemented in the VASP package. The simulations were sampled by the canonical (NVT) ensemble employing Andersen thermostats with a time step of 1.0 fs at a finite temperature of 300 K. For the AIMD simulations, all initial structures were first optimized. The implicit solvation model was employed to capture the solvation effects in electrocatalysis by VASPsol [40] , which is a framework of implementing complex continuum fluid models within DFT calculations performed using VASP. The linear and local solvation model was used. Namely, the electrolyte was included using a linearized Poisson–Boltzmann model. The comparison for OER, ORR, and HER on Ni@GDY system employing different dielectric constants ε of 80 and 2 for water, as shown in Fig. S1 and Table S1 , shows that the ΔG difference is small within 0.05 eV. Hence, the widely employed dielectric constant of 80 for bulk water was employed. The Debye length and ionic effects were not included in the calculations. The binding energy (E b(sol)) of metal atoms in an acidic solvent environment is defined as: (1) E b ( s o l ) = E M / s u b s t r a t e ( s o l ) - ( E M ( s o l ) + E substrate ( s o l ) ) E M/substrate(sol), E M(sol), and E substrate(sol) are the total energies with solvation effect of the optimized M embedded substrate, the adatom, and the free substrate, respectively. The formation energy E formation referenced to a bulk metal atom without the solvation effect, namely, in Eq. (1) all the total energies donot include the contribution form the solvation effect and E M is the total energy of one bulk metal atom, is also calculated. 2.2 Reaction mechanism According to the electrochemical framework established by Nørskov's group [41], the overall reaction scheme of the OER in an acidic electrolyte (pH = 0) can be written as: (2) 2 H 2 O ( l ) → O 2 ( g ) + 4 H + + 4 e - The corresponding elementary steps are, (3) H 2 O ( l ) + ∗ → OH ∗ + H + + e - (4) OH ∗ → O ∗ + H + + e - (5) O ∗ + H 2 O ( l ) → OOH ∗ + H + + e - (6) OOH ∗ → ∗ + O 2 ( g ) + H + + e - * represents the active center on the catalytic surface, (l) and (g) represent the liquid phase and the gas phase, respectively. For HER, H+ can be used as a proton donor in an acidic electrolyte (pH = 0), so the overall reaction of HER can be written as follows: (7) H + + e - + ∗ ⇔ 1 / 2 H 2 ∗ ⇔ 1 / 2 H 2 ( g ) + ∗ 2.3 Reaction free energy calculation For each elementary step, the change of Gibbs reaction free energy ΔG is defined as the difference between free energies of the initial and final states at 298 K, U = 0 V, and pH = 0 using the RHE model established by Nørskov and his colleagues [41,42]. Considering that the high spin ground state of O2 molecule cannot be well described by DFT, the free energy of O2 molecule is deduced by G O2(g) = 2G H2O(l) − 2G H2(g) + 4×1.23 (eV). The free energy of OH- was derived as G OH- = G H2O(l) - G H+. The free energy of liquid water is calculated by that of gaseous water under 0.035 bar, which is the equilibrium pressure of gaseous water contact with liquid water at 298 K. The reaction free energy of the OER elementary steps (Eqs. 3-6) can be described as: ΔG 1 = ΔG OH*, ΔG 2 = ΔG O* - ΔG OH*, ΔG 3 = ΔG OOH* - ΔG O*, and ΔG 4 = 4.92 - ΔG OOH*. For ORR, ΔG 5 = -ΔG 4, ΔG 6 = -ΔG 3, ΔG 7 = -ΔG 2, and ΔG 8 = -ΔG 1. For HER, the standard reaction Gibbs free energy of hydrogen adsorption at U = 0 V, pH = 0, P = 1 atm, and T = 298.15 K, ΔG H* is calculated using 0.5H2 as referenced state [43,44]. The details about the free energy calculation are provided in supporting information (SI). For OER and ORR, the thermodynamic limiting potential U L is calculated by: (8) U L OER = max Δ G 1 , Δ G 2 , Δ G 3 , Δ G 4 / e (9) U L ORR = - max Δ G 5 , Δ G 6 , Δ G 7 , Δ G 8 / e The theoretical overpotential η of HER is calculated as follows: (10) η = - Δ G H ∗ / e 3 Results and discussion 3.1 Configuration and stability of TM@GDY A (1×1) GDY monolayer with the optimized lattice constant of 9.45 Å, close to the previous research results [45,46], was used as the support. Firstly, SAECs@GDY models were constructed to study the adsorption of transition metal atoms on GDY, of which transition metal single atoms including nine 3d (Sc, Ti, V, Cr, Mn, Fe, Co, Ni, and Cu), eight 4d (Y, Nb, Mo, Tc, Ru, Rh, Pd, and Ag), and five 5d (Ta, W, Ir, Pt, and Au) transition metals (Fig. 1 a). 5d metal element Rhenium (Re) was excluded due to its low natural content and Os was excluded for the safety of the preparation since it can generate volatile and highly toxic osmium tetraoxide (OsO4) by heating in air. As in the previous studies [47], nine adsorption sites were considered. As shown in Fig. 1 b, the most stable site of Au atoms is the top site of sp C and the left 21 TM single atoms prefer to adsorption in the 18C hexagonal hollow of GDY via bonding to four sp-C atoms. Among them, Sc, Ti, and Y bonded to four sp-C atoms in one C chain while the other 18 TM boned to two sp-C atoms in two C chains. Based on the fact that the HER, OER, and ORR occur in a solvent, to evaluate the structural stability of the SAECs in an acidic solvent environment, we first calculated the binding energies of TM atoms on GDY according to Eq. (1). The more negative the binding energies E b(sol) are, the more stable the adsorption of metal single-atom is. As depicted in Fig. 1 c, all of them yielded negative binding energies, confirming the stable adsorption of metal single-atom on the GDY substrate at 0 K. Ag@GDY and Au@GDY show the weakest adsorption with E b(sol) of -0.97 and -0.88 eV, respectively. The other 20 SAECs can adsorb on GDY strongly with E b(sol) in the range of -2.29 to -7.37 eV. The calculated E formation referenced to a bulk metal atom suggested that only Sc@GDY and Y@GDY could be formed from a bulk metal thermodynamically ( Table S3 ). However, in the process of preparing catalysts, in addition to thermodynamics, reaction kinetics should also be considered. And the source of metal could also be all kinds of metal salts. Experimentally, Pd@GDY [22], Cu@GDY [20], Ni@GDY[48], and Fe@GDY [48] have been successfully synthesized. To reveal the factors controlling the M-GDY binding strength, a series of linear regressions are performed via a least-square method between the dependent variable E b(sol) and structure features of metal elements, such as the number of electrons in d orbitals θ d, van der Waals atomic radii R vdw, and electronegativity EN of the metal elements. To avoid the over-fitting, a maximum of two independent variables are considered in one equation. As demonstrated in Table S2 and Fig. 1 e, a linear relationship was observed between θ d and E b(sol) for the considered structural features with the linear fitting factor R 2 of 0.72, indicating that the number of electrons in d orbitals significantly influences the binding ability of metal atoms to the substrate. The elements with full occupied d orbitals, namely, Cu with 3d 10, Pd and Ag with 4d 10, and Au with 5d 10, delivered the weakest M-GDY binding among the same row (Fig. 1 d). It is also noticed that the elements with half-full occupied d orbitals, Cr and Mn with 3d 5 and Mo with 4d 5, presented a weaker bonding ability than their neighboring elements. Using R vdw or EN of the metal elements as the single descriptor of E b(sol), no linear relationship was found. Compared with adopting θ d as the sole descriptor, employing the combined features formed by θ d, R vdw, and EN as dual descriptors did not promote the linear relationship with the best linear fitting factor R 2 of 0.77. It further confirmed the important role of θ d in the binding strength of TM at GDY. We further choose a representative Cu@GDY system with the typical adsorption configuration and weak binding strength to study its thermal stability at 300 K by AIMD using NVT ensemble. As displayed in Fig. 1 f, the single Cu atom can adsorb in 18C hollow of GDY stably without the diffusion at room temperature. Notably, the GDY substrate is transformed a little bit after 12 ps running but retains the structure, confirming the excellent flexibility of the GDY. 3.2 Electrocatalytic activity of TM@GDY 3.2.1 HER performances In this section, the HER performances of TM@GDY in acidic electrolytes at zero potential relative to reversible hydrogen electrode (RHE) were first evaluated. For H adsorption on TM@GDY, the key step of HER, the possible location sites including the top site of TM, the bridge site between C and TM, the hollow site formed by bonded C atoms and TM, and the top site of each sp-C are considered. The most stable adsorption configuration on the metal site and carbon site are provided in Fig. 2 . The Gibbs free energy change (ΔG H*) for H adsorption on the TM and the C atom was calculated to evaluate the HER activity. As can be seen from Table 1 , H adsorption on metal site of W@GDY are more stable than its adsorption on the C site with the energy difference of 0.38 eV. And the adsorption of H on the metal site and C site for Tc@GDY and Mo@GDY delivers the similar stability with the energy difference of 0.04 and 0.02 eV, respectively. Other than this three SAECs, H adsorption on the C sites is more stable than its bonding with the metal site. However, a stronger bonding is not necessarily related to a better HER performance based on the well-known Sabatier’s principle, which indicates that the ideal catalyst for HER should have a zero |ΔG H*| value to achieve zero overpotential η. Namely, the H adsorption should be neither too weak nor too strong to yield an excellent HER activity. Previous studies have shown that the ΔG H* value of the C site of the original GDY is 0.56 eV, which means that the C atom binds the H too weak, so the pristine GDY is not a good HER catalyst [21]. When the TM atoms anchored on the GDY, the C atoms in most systems adsorb the H atom too strong to yield a |ΔG H*(C)| values away from zero. Only Fe@GDY, Co@GDY, and Ni@GDY systems (Table 1) deliver a close ΔG H*(C) value to zero, suggesting the C site connected to TM in these systems could be highly active HER centers. The stronger H-C bonding than that of H-TM could be attributed to the synergistic effect of the geometric and electronic modulation. As shown in Fig. 2 b, the adsorption of H on the C atoms induces the deformation of the acetylenic carbon chain to accommodate the H better. Moreover, the calculated Bader charge of TM@GDY ( Table S3 ) demonstrates that the connected sp-C atom obtains electrons from the TM atom, which enhances the interaction between C atom and H atom. According to Table 1 , Fig. S2 and S3 , some TM atoms could also be the active HER sites, as indicated by the values of ΔG H*(TM) of Ti@GDY, V@GDY, Fe@GDY, Co@GDY, Cu@GDY, Ru@GDY, Rh@GDY, and Ag@GDY systems, which are very close to zero. It is worth noting that both ΔG H*(C) and ΔG H*(TM) values of Fe@GDY and Co@GDY systems are very close to zero, indicating that these catalysts have more active sites and could show better HER catalytic performances. We then calculated the η value of HER (Table 2 ). It can be seen that the overpotential η of H adsorption on the TM site of V@GDY, Ti@GDY, Cu@GDY, Ru@GDY, Rh@GDY, and Ag@GDY, the C and TM sites of Co@GDY and Fe@GDY, and the C site of Ni@GDY systems are very close to zero. In order to accurately compare the HER activity of the investigated SAECs, we calculated the overpotential η of Pt(111), which is -0.27 V. Their HER performances should be better than GDY and Pt(111). This is consistent with the experimental observation by Yu et al. [49] and Hui et al. [50] who found Ru/GDY and Cu0/GDY exhibited higher activity and turnover frequency than commercial Pt/C and RuO2 in HER and OER and Xue et al. [48] who found that the Ni/GDY and Fe/GDY exhibited higher HER activity than GDY. 3.2.2 OER and ORR performances In the following, we evaluated the OER and ORR properties of SAECs@GDY in acidic electrolytes at zero potential relative to RHE. According to the findings of Gao et al. [51,52], the excellent OER performance is attributed to the optimized adsorption energies of key oxygen-containing intermediates. We first identified the most stable adsorption structures of the intermediates involved in OER and ORR, i.e., O*, OH*, and OOH*. The corresponding E ads and ΔG ads of are demonstrated in Tables S4 and S5 . As illustrated in Fig. 3 , both OH and OOH are mainly adsorbed at the top site of TM. For O adsorption, it is mainly adsorbed at the top site of TM or the bridge site between TM and sp-C. Specifically, OH preferentially adsorbs onto the TM site via a single O-M bond, with its tail pointing towards the vacuum. This interaction pulls the TM atom out of the carbon plane. A typical representative is Ag@GDY. Similar to H adsorption on Ag site, the OH and OOH adsorption on Ag site also induces the cleavage of two Ag-C bonds and raises the Ag atom out of the carbon plane. The reaction free energy values ΔG 1 to ΔG 4 of the four elementary steps involved in OER are shown in Table S6 . In this work, the OER catalytic pathway follows the adsorption evolution mechanism (AEM). Since the substrate GDY does not contain oxygen atoms, the lattice oxygen oxidation mechanism (LOM) was not considered [53]. The free energy diagrams of OER are displayed in Figs. S4 and S5 . The OER thermodynamic limiting potentials U L are summarized in Table 2. According to the previous definition [54,55], the lower the absolute deviation between U L and equilibrium potential (1.23 V), the less energy is needed to catalyze OER, and the better the electrocatalytic performance of OER. Among all investigated systems, Cu@GDY system delivers the smallest thermodynamic limiting potential (U L). From a thermodynamic point of view, all four OER steps on Cu@GDY are endothermic (ΔG > 0 eV for each step), namely, OER cannot occur spontaneously at zero potential relative to RHE (URHE = 0 V). When U L > 1.89 V, all four electron transfer steps become exothermic (ΔG < 0 eV) so that OER can proceed spontaneously. Therefore, U L value for OER catalyzed by Cu@GDY is 1.89 V. It is followed by Au@GDY, Ni@GDY, Co@GDY, and Rh@GDY with U L of 2.01, 2.06, 2.14, and 2.14 V, respectively. The overpotentials η, namely, the difference between U L and the equilibrium potential of 1.23 V (η = U L -1.23) of Co@GDY, Ni@GDY, Cu@GDY, Rh@GDY, and Au@GDY systems toward OER is less than 0.91 V, indicating that they are potential OER electrocatalysts. The ORR process can be regarded as the reverse reaction of OER. The reaction free energies of the four elementary steps of ORR are -ΔG 4, -ΔG 3, -ΔG 2 and -ΔG 1, respectively. The thermodynamic limiting potential U L represents the maximum potential that ORR can occur at. If the U L value was negative, it suggests that the investigated catalysts did not deliver the ORR performance. As depicted in Figs. S6, S7 , and Table 2 , 7 TM@GDY (TM = Co, Ni, Cu, Rh, Pd, Ag, and Pt) SAECs present positive U L (0 < UL < 1.23 V) values, in which four steps are all downhill, suggesting the ORR performance can occur spontaneously. The overpotential η, namely, the difference between U L and the equilibrium potential of 1.23 V (η = 1.23 - U L) of Co@GDY, Ni@GDY, Cu@GDY, Rh@GDY, Pd@GDY, Ag@GDY, and Pt@GDY are less than 1.09 V, which are potential electrocatalysts for ORR. The potential determination steps of OER and ORR on investigated SAECs will be comprehensively discussed in section 3.4.1 by providing the colored contour map. Summarizingly, Co@GDY, Ni@GDY, Cu@GDY, and Rh@GDY are potential trifunctional (HER, OER, and ORR) electrocatalysts. 3.3 Effect of solvation on electrocatalytic activity The electrolysis of water is carried out in a solvent environment, and the interaction between the solvent and solid surface could affect the catalytic activity of the electrocatalyst. Based on this, we adopted an implicit solvation model to investigate the effect of a water solvent environment on the adsorption free energies of adsorbates, the reaction energies of elementary reactions, and the catalytic activity. The corresponding adsorption free energies, reaction energies of elementary steps, and electrocatalytic activity of SAECs after the solvation correction are listed in Tables S5, S6 , and Table 2. As demonstrated in Fig. 4 a, the change of the adsorption free energy, Δ(ΔGi ), induced by the solvation effect show a period change trend. For adsorption on 3d and 4d, Δ(ΔGi ) presents a general trend of decrease—increase—decrease—flat-increase. Generally, d 1 metal (Sc and Y) shows the largest energy change induced by the solvation effect. Note that the solvation simultaneously decreases the total energy E total of O*-Sc@GDY and Sc@GDY by 2.54 and 2.61 eV and consequently yields the Δ(ΔGO* ) only of 0.07 eV (Fig. 4 a, Tables S7 and S8 ). Whilst the total energies E total of adsorbed species (OH*, OOH* and H*(C)) on Sc@GDY decrease by -1.25, -1.13, and -1.82 eV, yielding the large Δ(ΔGi ) values of 1.37, 1.49, and 0.79 eV, respectively. The solvation correction induces more negative total energies due to the contribution of the water and the interaction energy between the water solvent and solute. Comparison with the obvious influence on the left panel of TM@GDY SAECs (TM = Sc, Ti, Y, Nb, Mo, Ta and W) (Fig. 4 b), the solvation effect has a relatively small effect on species i adsorption on VⅢ and IB TM@GDY SAECs with |Δ(ΔGi )| ≤ 0.24 eV ( Table S8 ). Specifically, for HER, the solvation effect induced H desorption from Sc@GDY and Y@GDY, suggesting their poor HER activity, and also yielded the largest energy change before and after the solvation effect correction. For the other SAECs, the H adsorption retained after the solvation effect correction. We noticed that for H adsorption at the TM sites (TM = Ti, Mn, Mo, and W), the solvent correction changed the ΔG H by 0.44-0.75 eV ( Table S8 ). The analyses show that only Mo@GDY and W@GDY yielded a slight tilt for H adsorption at the TM site with the H-TM bond shortened by ∼0.07 Å after the solvation effect correction. While for Ti@GDY and Mn@GDY, the solvation effect correction barely changes the structures for both substrate and H adsorbed configuration with the bond length change within 0.03 Å ( Fig. S8 ). The same phenomenon is also observed for the left SAECs (Fig. 4 a). The largest energy change shows up on Fe@GDY for VIII and IB SAECs while the largest bond length change is only 0.03 Å with similar structures (Fig. 4 c and d). It suggests that the energy change may be mainly resulted from the modified electronic structures rather than modified geometrical structures induced by the solvent effect. As demonstrated in Fig. 4 e, in general, the energy change of the systems shows a similar trend to the change of magnetic moment. An excellent linear relationship is identified between the energy change ΔEtotal and the change of magnetic moment Δμ for H adsorption on TM site by excluding the TM@GDY (TM = Ti, Mo, and W) with large ΔEtotal values (Fig. 4 f). The decreased energy is associated with the decreased magnetic moment. As found for OER and ORR, the solvation effect presents a small effect on the VIII and IB TM@GDY SAECs catalyzing HER. The TM sites at TM@GDY (TM = V, Mo, and Ru) deliver excellent HER activity with overpotentials in the range of 0.03-0.08 V (Table 2). Similarly, for OER, it is found that most of the most stable configurations of adsorbates (OH*, O*, and OOH*) on TM@GDY involving the solvation effect have essentially unchanged, except for Nb and V systems. The solvent environment induces the cleavage of O-O bond and causes a significant decrease in the electronic energy of OOH-Nb@GDY and OOH-V@GDY ( Fig. S9 ). It suggests that the O-O formation to produce O2 on Nb@GDY and V@GDY is hindered by the solvation environment and reveals their poor OER performances. Those system with small energies change induced by solvation effect, e.g. VⅢ and IB TM with |Δ(ΔG i)| ≤ 0.24 eV, the U L change before and after a solvation effect correction is also smaller than 0.20 V. Among them, the U L of OER for TM@GDY (TM = Ni, Cu, Ru, Rh, Pd, Ag, Ir and Pt) was reduced, suggesting that the solvation effect could favor the OER. In addition, the U L of Ti@GDY and Tc@GDY are deceased as well. Similar to the results non solvation effect, TM@GDY (TM = Ni, Cu, Rh, and Au) involving the solvation effect present the lowest U L values with 2.02, 1.82, 2.02 and 2.03 V, respectively. The solvation effect does not change the systems with the best ORR activity as well, which are still Ni@GDY, Pd@GDY, and Pt@GDY. In addition to the seven TM@GDY (TM = Co, Ni, Cu, Rh, Pd, Ag, and Pt) owing ORR activity, after invlolving the solvation effect, Mn@GDY exhibited the ORR activity with U L of 0.01 V. In summary, the solvation effect shows a small influence on OER, ORR, and HER activities of VⅢ and IB TM@GDY. According to the investigation under the implicit solvation model, Ni@GDY and Pt@GDY are the most potential bifunctional electrocatalysts for OER and ORR among the studied SAECs, as predicted by the results without the solvation effect correction. Whether the solvation effect is included or not, Ni@GDY is a potential trifunctional electrocatalyst for OER, ORR, and HER. 3.4 Descriptor-activity volcano 3.4.1 Adsorption-activity relationship For HER, ΔG H* is the only descriptor of the overpotential η (Fig. 5 ). The systems near the top of the volcanic curve are expected to deliver good catalytic performance due to the suitable H bonding strength. Whether the solvation effect is involved or not, H adsorbed at the TM site of V@GDY, Ru@GDY, Rh@GDY, and Ag@GDY, the C and TM sites of Co@GDY, and the C site of Ni@GDY and Fe@GDY systems are very close to zero. In addition, the TM site at Mo@GDY is expected to deliver excellent HER activity with η of -0.03 V involving the solvation effect and its C site also delivers good HER activity. For OER and ORR involved species, based on the above discussion, the adsorption free energies of reaction intermediates (OH*, O*, OOH* and H*) ΔG intermediates* determine the reaction free energy of each elementary step, which subsequently determines the U L of OER, ORR and η of HER. Namely, the binding strength of adsorbates on catalysts determines the electrocatalytic performances. Therefore, revealing the relationship between ΔG intermediates* and catalytic activity is crucial for the rational design of highly efficient electrocatalysts. As shown in Figs. 6 a and 7a, a linear relationship between the adsorption free energies of O* and OOH* and the adsorption free energy of OH* on investigated TM@GDY SAECs is observed. A strong linear relationship shows up between ΔG OOH* and ΔG OH* for GDY-loaded TM atoms with the adjusted linear fitting factor R 2 of 0.98 and 0.95 for the non and involving the solvation effect, respectively. Note that the adsorbed OOH* is unstable and cleave the O-O bond with while the OH adsorption on Nb@GDY and V@GDY yields the regular adsorption configuration without O-H and O-TM bond cleavage under the solvation condition, hence they are excluded from the linear fitting between ΔG OOH* and ΔG OH* but included in the linear fitting between ΔG O* and ΔG OH*. The fitting factor and the slope and intercept of the fitting line are very similar to the previous research results [56,57]. It confirms that the functional relationship between ΔG OOH* and ΔG OH* is not only applicable to graphene-based SAECs and macrocyclic molecular-based SAECs [56,57], but also to GDY-based SAECs. For comparison, we also analysis the linear relation between ΔG OOH* and ΔG O*. It yields a smaller R 2 of 0.88 and 0.66 for the non and involving the solvation effect, respectively, revealing a poorer linear relation between ΔG OOH* and ΔG O* than ΔG OOH* and ΔG OH*. The linear relationship between ΔG O* and ΔG OH* is relatively weak but still maintains well with R 2 of 0.88 (Fig. 6 a) and 0.82 (Fig. 7 a) for the non and involving the solvation effect, respectively. And based on this, ΔG OH* could be the best descriptor among three ΔG intermediates* candidates and be used as the single descriptor to determine the U L of OER and ORR. The ideal electrocatalyst owns the ΔG i (i = 1-4) values of 1.23 eV, i.e., ΔG OH* = 1.23 eV, ΔG O* = 2.46 eV, ΔG OOH* = 3.69 eV (Eqs. (11)-(14)). From Fig. 6 a and Fig. 7 a, all the ΔG O* values are lower than the idea value, suggesting that O* adsorption on these TM@GDY SAECs are too strong. Similar conclusion has been drawn for OH* adsorption, in which OH adsorption on Pd@GDY yields the closest ΔG OH* value to the ideal electrocatalyst. In terms of OOH* adsorption, three TM@GDY (TM = Pd, Pt, Ni) SAECs deliver higher ΔG OOH* values than the ideal data. Ni@GDY and Cu@GDY yields the closest ΔG OOH* value to the ideal value with the difference smaller than 0.25 eV. The other SAECs present a stronger OOH* adsorption than the ideal electrocatalyst with the lower ΔG OOH* values. This is different from the observation for OOH* adsorption on TMN4@graphene, where most TMN4@graphene SAECs exhibit a weaker adsorption than the ideal catalyst [58]. The values of ΔG OH*, ΔG O*, ΔG OOH* of Ta@GDY are dramatically lower than that of the ideal electrocatalyst, leading to the poor OER/ORR activity. Volcano relationships (Fig. 6 b and Fig. 7 b) between U L and ΔG OH* in OER and ORR is observed. From the discussion in section 3.2.2 , the potential rate-limiting step of OER is the third or fourth step (except Au is the second step). Based on the expression of ΔG 3 and ΔG 4 including ΔG OOH* and ΔG O*, and the linear relationship between ΔG OOH*, ΔG O* and ΔG OH*, the two legs of the volcano plot in upper part of Fig. 6 b and Fig. 7 b are linear. Similarly, the two legs of the ORR volcano diagram are also linear in bottom half of Fig. 6 b and Fig. 7 b. When ΔG OH* < 0.70 (ΔG OH* < 0.80 eV) for non (involving) the solvation effect, the performances of OER and ORR are improved with a weaker OH* adsorption by decreasing U L of OER and increasing U L of ORR. When ΔG OH* > 0.90 eV, the activities of OER and ORR is increased with a stronger OH* adsorption. In the zone between 0.70-0.90 eV (0.80-0.90 eV) for non (involving) the solvation effect, a weaker OH* adsorption increase (decrease) the U L of OER and ORR simultaneously. It means that the reverse change trend of OER and ORR performances occurs. Namely, weakening (enhancing) OH* adsorption in this zone will decrease OER activity but increase ORR activity. Based on the eqs. (11)–(14), (11) Δ G 1 = Δ G OH ∗ (12) Δ G 2 = Δ G O ∗ - Δ G OH ∗ (13) Δ G 3 = Δ G OOH ∗ - Δ G O ∗ (14) Δ G 4 = 4 . 92 - Δ G OOH ∗ and the obtained ΔG OOH* = 0.94 × ΔG OH* + 3.21 from the linear fitting based on the results of implicit solvation effect model (Fig. 7 a), it can be concluded that only two variables of ΔG O* - ΔG OH* and ΔG OH* are required to evaluate the OER activity of TM@GDY. Consequently, a colored activity volcano plot was constructed to evaluate the U L and η of TM@GDY (Fig. 7 c). The contour map is divided into four regions based on the difference of ΔG 1, ΔG 2, ΔG 3, and ΔG 4. The potential determining step is clearly revealed in each zone. The dash lines are the boundary line of two different potential determining steps owning the same largest energy. The yellow dash line with ΔG 2 = ΔG 3 at the boundary line represents the best electrocatalytic activity. Involving the solvation effect, the OER rate-limiting step of TM@GDY (TM = Cr, Mn, Fe, Co, Ni, Cu, Tc, Ru, Rh, Pd, Ag, W, Ir, and Pt) is still the third step (O* → OOH*). The DFT results reveal that Au@GDY yields a potential OER determining step of step II, while in the contour map, it shows in the zone IV. That is because that Au@GDY is located near the boundary line of zones II and IV with quite close values of ΔG 2 (2.03 eV) and ΔG 4 (1.97) and a slight deviation from the fitting energy linear equation could change the potential determining step. Therefore, special attention should be paid to the SAECs near the boundary line. Ti@GDY and Ta@GDY switch the potential determination step from the fourth step (OOH* → O2) to the third step (O* → OOH*) after involving the solvation effect. This is understandable because it is located near the boundary line of zones III and IV and a slight energy change induced by the solvation effect could change the potential determining step. While the same change of the potential determination step for TM@GDY (TM = Sc, Y, Mo) systems from the fourth step to the third step could be attributed to the magnetic moment change induced by the solvation effect, which consequently affects the energy, as found for HER. Note that no sample points are distributed in zone I and II and most points are located in zone III, suggesting that H2O → OH* → O* occurs fast and OER is controlled by the third step of O-O bond formation (O* → OOH*) for the investigated SAECs. The same result was found for Ir-doped γ-NiOOH ( 1 ‾ 2 1 ‾ 1 ) catalyzing OER with the third step as the potential limiting step [59]. The theoretical minimum of OER overpotential under the optimum condition of ΔG 1 = ΔG 2 = ΔG 3 can be obtained. The maximum reaction Gibbs free energy change of the elementary steps is only 1.52 and 1.56 eV and the theoretical overpotential η (η = U L -1.23 V) for OER can reach as low as 0.29 and 0.33 V, corresponding to the upper three-phrase point in the contour map for the cases of non and involving the solvation effect, respectively. While the corresponding lowest calculated thermodynamical overpotential for TM@GDY catalyzing OER is 0.66 and 0.59 V for non and involving the solvation effect, respectively, which occurs on Cu@GDY. The gap between the lowest theoretical thermodynamical overpotential and calculated values suggests that the OER catalytic performances require a further improvement. According to the bottom half of Figs. 6 b and 7 b, the ORR contour map is also plotted using ΔG O* and ΔG OH* as variables (Fig. 7 d). The theoretical minimum of ORR overpotential under the optimum condition of ΔG 1 = ΔG 4 is 0.88 eV with the theoretical overpotential η of 0.35 V. The potential determining steps of Ag@GDY and Pt@GDY, which are located near the border of the III stone and IV stone, change from the third step (O* → OH*) without the solvation effect to the fourth step (OH* → H2O) involving the solvation effect. The reason may be that the solvation stabilizes OH adsorption more than O adsorption, hence it favors the formation of OH*. Meanwhile, the stabilized OH* disfavors the production of the final product H2O. Whiles for the other SAECs with and without the solvation effect, ORR potential determining steps unchanged (1st: Pd@GDY, 4th: Ni@GDY, Cu@GDY, Co@GDY, Rh@GDY). The emerging Mn@GDY catalyzing ORR shows a potential determining step of the fourth step (OH* → H2O). Namely, most of TM@GDY SAECs catalyzing ORR are hinder by the fourth step (OH* → H2O) thermodynamically due to the strong OH adsorption. 3.4.2 Universal descriptor As summarized, ΔG H* and ΔG OH* are the sole descriptors for η of HER and U L of OER and ORR. Then an interesting question arises, whether there is a general descriptor that only contains intrinsic features such as electronegativity, coordination number, and the number of electrons in d orbitals of the metal element to describe ΔG H* and ΔG OH* so that can save expensive DFT calculations, respectively. To answer this, we analyzed the data and did not find a simple descriptor to linearly related to ΔG H*, but did find a universal descriptor φ [8], as follows, to describe ΔG OH* well. (15) φ = θ d × EN + 4 × E C E O θ d represents the number of electrons in d orbitals of the metal element. EN, E C, and E O represent the electronegativity of metal, carbon, and oxygen elements. The corresponding θ d and electronegativity values of TM atoms and descriptor φ are shown in Table S9 . The linear relationship between ΔG OH* and descriptor φ is plotted. When not involve the solvation effect, although the descriptor φ cannot well describe the ΔG OH* values at the same time with the adjusted linear fitting factor R2 of 0.67 ( Fig. S10 ). Good linear relationships were observed between ΔG OH* and φ of group 3d elements (groups 4d and 5d elements) with R2 of 0.93 (0.96) (Fig. 6 c and d) by removing IIIB group of rare earth elements Sc, Y and currency elements Cu, Au with distinctive configurations. When it involved the solvation effect, the linear relationship between ΔG OH* and the descriptor φ for the two groups retained (Fig. 7 e). The adjusted linear fitting factors R2 are 0.77 and 0.89, respectively. The linear change of ΔG OH* with descriptor φ indicates that ΔG OH* strongly depends on the number of d electrons of metal atoms θ d. The positively linear relationship between ΔG OH* and φ demonstrates that an increased φ corresponds to a decrease in binding strength of TM-OH. According to Eq. (15), a larger value of φ corresponds to more electrons in d orbitals of the TM active site, which could yield a lower d-band center, consequently resulting in weaker interactions between the adsorbate and the catalyst. However, a moderate binding strength is needed for the optimal catalytic activity. Therefore, the two lags on two sides of the saddle point in the φ-U L volcano show different change trends. As can be seen from Fig. 7 f for involving the solvation effect and Fig. S11 for no solvation effect, when φ < φ (saddle point), increasing the φ value, namely, increasing the ΔG OH* value in the reflection of decreasing OH adsorption strength, it would promote the activity of OER and ORR. Oppositely, φ > φ (saddle point), increasing the φ value with the weakened OH adsorption would reduce the activity of OER and ORR. The φ values at saddle point for OER and ORR is about 32 and 33, respectively. In addition, ΔG OH* is also related to the coordination number, where the number 4 in Eq. (15) represents the coordination number of the TM. This indicates that both electronic and geometric properties co-influence the OH* adsorption, consequently determining the reactivity. Based on the φ-U L volcano plots, three non-noble metal-based SAECs, Ni@GDY, Co@GDY, and Cu@GDY, four noble metal-based SAECs, Pt@GDY, Pd@GDY, Rh@GDY, and Ag@GDY show the best catalytic activity. 3.5 Electronic properties As discussed in section 3.1, a linear relationship with an R 2 of 0.72 was observed between the number of electrons in d orbitals θ d and TM bind energy E b(sol). Interestingly, a linear relationship was also found between θ d and Bader charge Q bader of metal atoms (Fig. 8 a). When it excludes the IB metal elements with a full d occupation of d 10 s 1, the linear relationship was enhanced. It suggests that for IB metal elements, the charge transfer from s electrons cannot be excluded. The Bader charge calculations results show that all TM atoms lose electrons and become positively charged ( Table S3 ). In general, the charge transfer becomes smaller from the left to the right for the metals in the same row. The largest charge transfer occurs between the IIIB metal (Sc and Y) and GDY. The charge transfer between Au and GDY is the weakest. It demonstrates that the donation of d electrons becomes more difficult with increasing θ d. The following density of states (DOS) calculations confirmed the strong interaction between d electrons of TM and p electrons of carbon atoms in GDY (Fig. 8 b and Figs. S12-14 ). Taking Ni@GDY and Cu@GDY as examples, the d electrons of TM and p electrons of carbon atoms in GDY strongly overlapped in the energy range of -3 to 0 eV and -4.5 to -2.5 eV, respectively. According to previous work in our group [20] and other groups [57], the location of d-band center ε d is related to the adsorption strength of the intermediates. In general, the higher the d band of the transition metal relative to the Fermi level means the stronger the chemical binding between the transition metal and the adsorbent. The same phenomenon was observed in this work. Based on the calculated d-orbital projected DOS of TM atoms in the TM@GDY (Fig. 8 b and Figs. S12-14 ), the d-band center values of TM atoms in the same period decrease sequentially from the left to the right in general. That is, with the increase of the d-orbital occupancy, the d-band center of the TM atoms moves to more negative direction relative to the Fermi level. And the negatively shifted ε d yields a weaker OH adsorption on TM atom (Fig. 8 c), which could favor the OER/ORR. The d-band center values corrected by GGA + U for the Co@GDY and Ni@GDY systems were -1.36 and -1.56 eV, respectively (as shown by the blue squares in Fig. 8 c), and they are located near the linear fitting line. The results indicate that the d-band center predictions and trends for TM@GDY SAECs, as described by GGA-PBE, are reliable. Based on the discussion of Fig. 6 a and Fig. 7 a, OH adsorption on the TM@GDY generally stronger than the ideal electrocatalyst with ΔG OH* (ideal) of 1.23 eV. This matches well with the above results of ΔG OH* ∼ φ. An increased θ d, corresponding to an increased φ and a decreased ε d, delivers a higher ΔG OH* value, i.g., a weaker intermediates (OH*, O*, and OO*) adsorption, and results in an enhanced electrocatalytic performances. As revealed in the volcano plots of Fig. 6 b and Fig. 7 b, the OER activities of Fe, Co, and Ni SAECs are therefore better than Sc and Ti. Since the OH adsorption is the key of the electrocatalytic performances, we also calculated the charge difference maps upon OH adsorption (Fig. 8 d and Fig. S15 ). Electrons are strongly accumulated along the metal-O. Around the Ni center, the depletion of electrons exhibits a four-petal shaped orbital feature, demonstrating that the d orbital (probably d x 2 - y 2 ) of Ni participates the charge redistribution upon OH adsorption. Compared with OH adsorption on Ni@GDY, the p electrons of C atoms in Cu@GDY presents a stronger redistribution up OH adsorption, revealing the synergistic effect of C-TM-O-H orbitals. 4 Conclusion To accelerate the development of new materials in the field of energy conversion, dispersion-corrected DFT based high-throughput screening was performed to predict potential highly efficient TM@GDY SAECs for water electrolysis and the ORR at the atomic level. The investigation of the solvation effect on the electrocatalytic activities of the catalysts reveals that the solvation effect has a relatively large correction on the electronic energy of species adsorbed on TM@GDY of IIIB-VB, while it presents a relatively small influence on those of VIII and IB. The exploration of the adsorption-activity relationship shows that whether the solvation effect is involved or not, ΔG H* is the sole descriptor for the overpotential of the HER. The C site of TM@GDY (TM = Fe, Co, Ni) systems and the TM site of TM@GDY (TM = Ti, V, Fe, Co, Cu, Ru, Rh, Ag) systems deliver HER activity with an ƞ close to zero (< 0.23 V). Specifically, both ΔG H*(C) and ΔG H*(TM) values of Fe@GDY and Co@GDY systems are very close to zero, indicating that these catalysts have more active sites and could exhibit better HER catalytic performance. ΔG OH* could be the sole descriptor for the thermodynamic limiting potential of OER and ORR based on the obtained linear relationship between ΔG OOH* and ΔG OH* and between ΔG O* and ΔG OH*. It was found that most intermediates (OH, O, and OOH) bind to TM@GDY stronger than to the ideal electrocatalyst, particularly in the case of O. The ΔG OH*-activity volcano shows that when ΔG OH* < 0.70 (0.80) eV, the performances of OER and ORR are enhanced by weakening OH adsorption, and when ΔG OH* > 0.90 (0.90) eV, the activities of OER and ORR are improved by strengthening OH adsorption without (with) the solvation effect. By using the simple descriptor φ, which only includes the intrinsic features (the number of electrons in d orbitals and electronegativity) of the elements, the ΔG OH*-activity volcano is successfully transferred into the structure-activity volcano. Combined with electronic properties calculations, the mechanism behind the relationship between ΔG OH* and the descriptor φ was deeply analyzed. A larger value of φ corresponds to more electrons in the d orbitals of the TM active site, which could yield a lower d-band center, consequently resulting in weaker interactions between the OH* species and the catalyst. The performances of OER and ORR are promoted with weaker OH* adsorption by decreasing U L of OER and increasing U L of ORR. TM@GDY (TM = Ni, Pt, Pd, Cu, Co, Rh, and Ag) systems are potential bifunctional electrocatalysts for OER and ORR. Three non-noble metal-based SAECs (Ni@GDY, Co@GDY and Cu@GDY) and two noble metal-based SAECs (Rh@GDY and Ag@GDY) are potential trifunctional electrocatalysts for OER, ORR, and HER. This study provides a powerful guide for the rational design of highly efficient electrocatalysts. Future work can further explore the effects of different ions in alkaline environments to reveal ionic effects and investigate the adsorption/desorption behavior of various intermediates induced by pH changes in OER reactions, providing theoretical insights for catalyst design in both acidic and alkaline environments. CRediT authorship contribution statement Chunyan Sun: Data curation, Formal analysis, Investigation, Methodology, Validation, Writing-original draft. Shengming Zhang: Investigation. Peijie Wang: Data curation, Formal analysis, Investigation. Minghui Wei: Visualization, Validation, Data curation. Sen Wang: Visualization, Validation, Funding acquisition. Xue-Rong Shi: Conceptualization, Supervision, Writing-review & editing, Validation, Funding acquisition. Declaration of competing interest The authors declare that they have no known competing financial interests or personal relationships that could have appeared to influence the work reported in this paper. Acknowledgments This work was financially supported by the Natural Science Foundation of Shanghai (23ZR1425500), Class III Peak Discipline of Shanghai—Materials Science and Engineering (High-Energy Beam Intelligent Processing and Green Manufacturing) and the Foundation of State Key Laboratory of Coal Conversion (Grant No. J23-24-603). Appendix A Supplementary data Supplementary data to this article can be found online at https://doi.org/10.1016/j.jcat.2024.115773. Appendix A Supplementary data The following are the Supplementary data to this article: Supplementary Data 1 References [1] W. Xu R. Zeng M. Rebarchik A. Posada-Borbón H. Li C.J. Pollock M. Mavrikakis H.D. Abruña Atomically dispersed Zn/Co–N–C as ORR electrocatalysts for alkaline fuel cells J. Am. Chem. Soc. 146 2024 2593 2603 10.1021/jacs.3c11355 W. Xu, R. Zeng, M. Rebarchik, A. Posada-Borbón, H. Li, C.J. Pollock, M. Mavrikakis, H.D. Abruña, Atomically Dispersed Zn/Co–N–C as ORR Electrocatalysts for Alkaline Fuel Cells, J Am Chem Soc 146 (2024) 2593–2603. doi: 10.1021/jacs.3c11355. [2] X. Huang H. Xu J. Zhu D. Cheng Understanding oxygen reduction reaction activity of Pt-based nanoparticles from Pt atomic layers to Pt single atom alloy J. Catal. 431 2024 115367 10.1016/j.jcat.2024.115367 X. Huang, H. Xu, J. Zhu, D. Cheng, Understanding oxygen reduction reaction activity of Pt-based nanoparticles from Pt atomic layers to Pt single atom alloy, J Catal 431 (2024) 115367. doi: 10.1016/j.jcat.2024.115367. [3] X.L. Zhang P.C. Yu X.Z. Su S.J. Hu L. Shi Y.H. Wang P.P. Yang F.Y. Gao Z.Z. Wu L.P. Chi Y.R. Zheng M.R. Gao Efficient acidic hydrogen evolution in proton exchange membrane electrolyzers over a sulfur-doped marcasite-type electrocatalyst Sci. Adv. 9 2023 eadh2885 10.1126/sciadv.adh2885 X.L. Zhang, P.C. Yu, X.Z. Su, S.J. Hu, L. Shi, Y.H. Wang, P.P. Yang, F.Y. Gao, Z.Z. Wu, L.P. Chi, Y.R. Zheng, M.R. Gao, Efficient acidic hydrogen evolution in proton exchange membrane electrolyzers over a sulfur-doped marcasite-type electrocatalyst, Sci Adv 9 (2023) eadh2885. doi: 10.1126/sciadv.adh2885. [4] M. Huang H. Yao F. Cao P. Wang X.-R. Shi M. Zhang S. Xu Structural engineering evoked multifunctionality in molybdate nanosheets for industrial oxygen evolution and dual energy storage devices inspired by multi-method calculations J. Colloid Interface Sci. 676 2024 471 484 10.1016/j.jcis.2024.07.128 M. Huang, H. Yao, F. Cao, P. Wang, X.-R. Shi, M. Zhang, S. Xu, Structural engineering evoked multifunctionality in molybdate nanosheets for industrial oxygen evolution and dual energy storage devices inspired by multi-method calculations, J Colloid Interface Sci 676 (2024) 471–484. doi: doi: 10.1016/j.jcis.2024.07.128. [5] S.L. Lyu C.X. Guo J.N. Wang Z.J. Li B. Yang L.C. Lei L.P. Wang J.P. Xiao T. Zhang Y. Hou Exceptional catalytic activity of oxygen evolution reaction via two-dimensional graphene multilayer confined metal-organic frameworks Nat. Commun. 13 2022 6171 10.1038/s41467-022-33847-z S.L. Lyu, C.X. Guo, J.N. Wang, Z.J. Li, B. Yang, L.C. Lei, L.P. Wang, J.P. Xiao, T. Zhang, Y. Hou, Exceptional catalytic activity of oxygen evolution reaction via two-dimensional graphene multilayer confined metal-organic frameworks, Nat Commun 13 (2022). doi: 10.1038/s41467-022-33847-z. [6] J. Du J. Quinson D. Zhang F. Bizzotto A. Zana M. Arenz Bifunctional Pt-IrO2 catalysts for the oxygen evolution and oxygen reduction reactions: alloy nanoparticles versus nanocomposite catalysts ACS Catal. 11 2021 820 828 10.1021/acscatal.0c03867 J. Du, J. Quinson, D. Zhang, F. Bizzotto, A. Zana, M. Arenz, Bifunctional Pt-IrO2 Catalysts for the Oxygen Evolution and Oxygen Reduction Reactions: Alloy Nanoparticles versus Nanocomposite Catalysts, ACS Catal 11 (2021) 820–828. doi: 10.1021/acscatal.0c03867. [7] W. He X. Tan Y. Guo Y. Xiao H. Cui C. Wang Grain-boundary-rich RuO2 porous nanosheet for efficient and stable acidic water oxidation Angew. Chem. Int. Ed. 63 2024 e202405798 10.1002/anie.202405798 W. He, X. Tan, Y. Guo, Y. Xiao, H. Cui, C. Wang, Grain-Boundary-Rich RuO2 Porous Nanosheet for Efficient and Stable Acidic Water Oxidation, Angewandte Chemie International Edition 63 (2024) e202405798. doi: 10.1002/anie.202405798. [8] H. Xu D. Cheng D. Cao X.C. Zeng Revisiting the universal principle for the rational design of single-atom electrocatalysts Nat. Catal. 7 2024 207 218 10.1038/s41929-023-01106-z H. Xu, D. Cheng, D. Cao, X.C. Zeng, Revisiting the universal principle for the rational design of single-atom electrocatalysts, Nat Catal 7 (2024) 207–218. doi: 10.1038/s41929-023-01106-z. [9] H. Cao Q. Wang Z. Zhang H.-M. Yan H. Zhao H. Bin Yang B. Liu J. Li Y.-G. Wang Engineering single-atom electrocatalysts for enhancing kinetics of acidic volmer reaction J. Am. Chem. Soc. 145 2023 13038 13047 10.1021/jacs.2c13418 H. Cao, Q. Wang, Z. Zhang, H.-M. Yan, H. Zhao, H. Bin Yang, B. Liu, J. Li, Y.-G. Wang, Engineering Single-Atom Electrocatalysts for Enhancing Kinetics of Acidic Volmer Reaction, J Am Chem Soc 145 (2023) 13038–13047. doi: 10.1021/jacs.2c13418. [10] G. Chellasamy S.K. Arumugasamy S. Kuppusamy V. Ekambaram K. Rajagopalan S. Venkateswarlu P. Deivasigamani M.J. Choi S. Govindaraju K. Yun MXene–MOF architectural hybrid-supported nickel single-atom catalysts for hydrogen evolution reactions J. Mater Chem. A Mater 12 2024 1115 1127 10.1039/D3TA06045D G. Chellasamy, S.K. Arumugasamy, S. Kuppusamy, V. Ekambaram, K. Rajagopalan, S. Venkateswarlu, P. Deivasigamani, M.J. Choi, S. Govindaraju, K. Yun, MXene–MOF architectural hybrid-supported nickel single-atom catalysts for hydrogen evolution reactions, J Mater Chem A Mater 12 (2024) 1115–1127. doi: 10.1039/D3TA06045D. [11] P. Li F. Qiang X. Tan Z. Li J. Shi S. Liu M. Huang J. Chen W. Tian J. Wu W. Hu H. Wang Electronic modulation induced by decorating single-atomic Fe-Co pairs with Fe-Co alloy clusters toward enhanced ORR/OER activity Appl. Catal. B 340 2024 123231 10.1016/j.apcatb.2023.123231 P. Li, F. Qiang, X. Tan, Z. Li, J. Shi, S. Liu, M. Huang, J. Chen, W. Tian, J. Wu, W. Hu, H. Wang, Electronic modulation induced by decorating single-atomic Fe-Co pairs with Fe-Co alloy clusters toward enhanced ORR/OER activity, Appl Catal B 340 (2024) 123231. doi: doi: 10.1016/j.apcatb.2023.123231. [12] S. Zhang W. Yang Y. Liang X. Yang M. Cao R. Cao Template-free synthesis of non-noble metal single-atom electrocatalyst with N-doped holey carbon matrix for highly efficient oxygen reduction reaction in zinc-air batteries Appl. Catal. B 285 2021 119780 10.1016/j.apcatb.2020.119780 S. Zhang, W. Yang, Y. Liang, X. Yang, M. Cao, R. Cao, Template-free synthesis of non-noble metal single-atom electrocatalyst with N-doped holey carbon matrix for highly efficient oxygen reduction reaction in zinc-air batteries, Appl Catal B 285 (2021) 119780. doi: doi: 10.1016/j.apcatb.2020.119780. [13] Z. Jin H. Li L. Zhang J. Pan J. Xu X.-B. Yin M. Zhang Interfacing Ag2S nanoparticles and mos2 nanosheets on polypyrrole nanotubes with enhanced catalytic performance Inorg. Chem. 63 2024 4260 4268 10.1021/acs.inorgchem.3c04332 Z. Jin, H. Li, L. Zhang, J. Pan, J. Xu, X.-B. Yin, M. Zhang, Interfacing Ag2S Nanoparticles and MoS2 Nanosheets on Polypyrrole Nanotubes with Enhanced Catalytic Performance, Inorg Chem 63 (2024) 4260–4268. doi: 10.1021/acs.inorgchem.3c04332. [14] H. Li Z. Jin N. Lu J. Pan J. Xu X.-B. Yin M. Zhang Fe3O4 nanoparticles entrapped in the inner surfaces of N-doped carbon microtubes with enhanced biomimetic activity Dalton Trans. 53 2024 6974 6982 10.1039/D3DT04310J H. Li, Z. Jin, N. Lu, J. Pan, J. Xu, X.-B. Yin, M. Zhang, Fe3O4 nanoparticles entrapped in the inner surfaces of N-doped carbon microtubes with enhanced biomimetic activity, Dalton Transactions 53 (2024) 6974–6982. doi: 10.1039/D3DT04310J. [15] X. Zhang C. Sun S. Xu M. Huang Y. Wen X.-R. Shi DFT-assisted rational design of CoMxP/CC (M = Fe, Mn, and Ni) as efficient electrocatalyst for wide pH range hydrogen evolution and oxygen evolution Nano Res. 15 2022 8897 8907 10.1007/s12274-022-4771-y X. Zhang, C. Sun, S. Xu, M. Huang, Y. Wen, X.-R. Shi, DFT-assisted rational design of CoMxP/CC (M = Fe, Mn, and Ni) as efficient electrocatalyst for wide pH range hydrogen evolution and oxygen evolution, Nano Res 15 (2022) 8897–8907. doi: 10.1007/s12274-022-4771-y. [16] H. Yao P. Wang M. Zhu X.-R. Shi Recent progress on hierarchical nanostructures for Ni-based industrial-level OER catalysts Dalton Trans. 53 2024 2442 2449 10.1039/D3DT03820C H. Yao, P. Wang, M. Zhu, X.-R. Shi, Recent progress on hierarchical nanostructures for Ni-based industrial-level OER catalysts, Dalton Transactions 53 (2024) 2442–2449. doi: 10.1039/D3DT03820C. [17] S. Lu H.L. Huynh F. Lou K. Guo Z. Yu Single transition metal atom embedded antimonene monolayers as efficient trifunctional electrocatalysts for the HER, OER and ORR: a density functional theory study Nanoscale 13 2021 12885 12895 10.1039/D1NR02235K S. Lu, H.L. Huynh, F. Lou, K. Guo, Z. Yu, Single transition metal atom embedded antimonene monolayers as efficient trifunctional electrocatalysts for the HER, OER and ORR: A density functional theory study, Nanoscale 13 (2021) 12885–12895. doi: 10.1039/D1NR02235K. [18] H. Noei D. Franz M. Creutzburg P. Müller K. Krausert E. Grånäs R. Taube F. Mittendorfer A. Stierle Monitoring the interaction of CO with graphene supported Ir clusters by vibrational spectroscopy and density functional theory calculations J. Phys. Chem. C 122 2018 4281 4289 10.1021/acs.jpcc.7b10845 H. Noei, D. Franz, M. Creutzburg, P. Müller, K. Krausert, E. Grånäs, R. Taube, F. Mittendorfer, A. Stierle, Monitoring the Interaction of CO with Graphene Supported Ir Clusters by Vibrational Spectroscopy and Density Functional Theory Calculations, The Journal of Physical Chemistry C 122 (2018) 4281–4289. doi: 10.1021/acs.jpcc.7b10845. [19] Y. Han G.-X. Ge J.-G. Wan J.-J. Zhao F.-Q. Song G.-H. Wang Predicted giant magnetic anisotropy energy of highly stable Ir dimer on single-vacancy graphene Phys. Rev. B 87 2013 155408 10.1103/PhysRevB.87.155408 Y. Han, G.-X. Ge, J.-G. Wan, J.-J. Zhao, F.-Q. Song, G.-H. Wang, Predicted giant magnetic anisotropy energy of highly stable Ir dimer on single-vacancy graphene, Phys Rev B 87 (2013) 155408. doi: 10.1103/PhysRevB.87.155408. [20] Y. Xue Y. Guo Y. Yi Y. Li H. Liu D. Li W. Yang Y. Li Self-catalyzed growth of Cu@graphdiyne core–shell nanowires array for high efficient hydrogen evolution cathode Nano Energy 30 2016 858 866 10.1016/j.nanoen.2016.09.005 Y. Xue, Y. Guo, Y. Yi, Y. Li, H. Liu, D. Li, W. Yang, Y. Li, Self-catalyzed growth of Cu@graphdiyne core–shell nanowires array for high efficient hydrogen evolution cathode, Nano Energy 30 (2016) 858–866. doi: doi: 10.1016/j.nanoen.2016.09.005. [21] C. Sun Z. Duan P. Wang X. Zhang M. Huang F. Cao W. Lin H. Wang Y. Chen X.-R. Shi Modulation of graphene and graphdiyne by metaln (n = 1–5) adsorption and nucleation and the effect on hydrogen evolution reaction Appl. Surf. Sci. 580 2022 152197 10.1016/j.apsusc.2021.152197 C. Sun, Z. Duan, P. Wang, X. Zhang, M. Huang, F. Cao, W. Lin, H. Wang, Y. Chen, X.-R. Shi, Modulation of graphene and graphdiyne by metaln (n=1–5) adsorption and nucleation and the effect on hydrogen evolution reaction, Appl Surf Sci 580 (2022) 152197. doi: doi: 10.1016/j.apsusc.2021.152197. [22] H. Yu Y. Xue B. Huang L. Hui C. Zhang Y. Fang Y. Liu Y. Zhao Y. Li H. Liu Y. Li Ultrathin nanosheet of graphdiyne-supported palladium atom catalyst for efficient hydrogen production IScience 11 2019 31 41 10.1016/j.isci.2018.12.006 H. Yu, Y. Xue, B. Huang, L. Hui, C. Zhang, Y. Fang, Y. Liu, Y. Zhao, Y. Li, H. Liu, Y. Li, Ultrathin Nanosheet of Graphdiyne-Supported Palladium Atom Catalyst for Efficient Hydrogen Production, IScience 11 (2019) 31–41. doi: 10.1016/j.isci.2018.12.006. [23] Z. Zhang S. Qi X. Song J. Wang W. Zhang M. Zhao Stable multifunctional single-atom catalysts adsorbed on pyrazine-modified graphyne Appl. Surf. Sci. 553 2021 149464 10.1016/J.APSUSC.2021.149464 Z. Zhang, S. Qi, X. Song, J. Wang, W. Zhang, M. Zhao, Stable multifunctional single-atom catalysts adsorbed on pyrazine-modified graphyne, Appl Surf Sci 553 (2021). doi: 10.1016/J.APSUSC.2021.149464. [24] K. Shah R. Dai M. Mateen Z. Hassan Z. Zhuang C. Liu M. Israr W.C. Cheong B. Hu R. Tu C. Zhang X. Chen Q. Peng C. Chen Y. Li Cobalt single atom incorporated in ruthenium oxide sphere: a robust bifunctional electrocatalyst for HER and OER Angewandte Chemie – Int. Edition 61 2022 1 5 10.1002/anie.202114951 K. Shah, R. Dai, M. Mateen, Z. Hassan, Z. Zhuang, C. Liu, M. Israr, W.C. Cheong, B. Hu, R. Tu, C. Zhang, X. Chen, Q. Peng, C. Chen, Y. Li, Cobalt Single Atom Incorporated in Ruthenium Oxide Sphere: A Robust Bifunctional Electrocatalyst for HER and OER, Angewandte Chemie - International Edition 61 (2022) 1–5. doi: 10.1002/anie.202114951. [25] D. Kan R. Lian D. Wang X. Zhang J. Xu X. Gao Y. Yu G. Chen Y. Wei Screening effective single-atom ORR and OER electrocatalysts from Pt decorated MXenes by first-principles calculations J. Mater Chem. A Mater 8 2020 17065 17077 10.1039/D0TA04429F D. Kan, R. Lian, D. Wang, X. Zhang, J. Xu, X. Gao, Y. Yu, G. Chen, Y. Wei, Screening effective single-atom ORR and OER electrocatalysts from Pt decorated MXenes by first-principles calculations, J Mater Chem A Mater 8 (2020) 17065–17077. doi: 10.1039/D0TA04429F. [26] C. Zeng N. Lu Y. Wen G. Liu R. Zhang J. Zhang F. Wang X. Liu Q. Li Z. Tang M. Zhang Engineering nanozymes using DNA for catalytic regulation ACS Appl. Mater. Interfaces 11 2019 1790 1799 10.1021/acsami.8b16075 C. Zeng, N. Lu, Y. Wen, G. Liu, R. Zhang, J. Zhang, F. Wang, X. Liu, Q. Li, Z. Tang, M. Zhang, Engineering Nanozymes Using DNA for Catalytic Regulation, ACS Appl Mater Interfaces 11 (2019) 1790–1799. doi: 10.1021/acsami.8b16075. [27] X. Zhang X.-R. Shi P. Wang Z. Bao M. Huang Y. Xu S. Xu Bio-inspired design of NiFeP nanoparticles embedded in (N, P) co-doped carbon for boosting overall water splitting Dalton Trans. 52 2023 6860 6869 10.1039/D3DT00583F X. Zhang, X.-R. Shi, P. Wang, Z. Bao, M. Huang, Y. Xu, S. Xu, Bio-inspired design of NiFeP nanoparticles embedded in (N,P) co-doped carbon for boosting overall water splitting, Dalton Transactions 52 (2023) 6860–6869. doi: 10.1039/D3DT00583F. [28] Y. Luo J. Zhang J. Chen Y. Chen C. Zhang Y. Luo G. Wang R. Wang Bi-functional electrocatalysis through synergetic coupling strategy of atomically dispersed Fe and Co active sites anchored on 3D nitrogen-doped carbon sheets for Zn-air battery J. Catal. 397 2021 223 232 10.1016/j.jcat.2021.03.030 Y. Luo, J. Zhang, J. Chen, Y. Chen, C. Zhang, Y. Luo, G. Wang, R. Wang, Bi-functional electrocatalysis through synergetic coupling strategy of atomically dispersed Fe and Co active sites anchored on 3D nitrogen-doped carbon sheets for Zn-air battery, J Catal 397 (2021) 223–232. doi: doi: 10.1016/j.jcat.2021.03.030. [29] Y.-X. Yu J. Yang K.-K. Zhu Z.-J. Sui D. Chen Y.-A. Zhu X.-G. Zhou High-throughput screening of alloy catalysts for dry methane reforming ACS Catal. 11 2021 8881 8894 10.1021/acscatal.0c04911 Y.-X. Yu, J. Yang, K.-K. Zhu, Z.-J. Sui, D. Chen, Y.-A. Zhu, X.-G. Zhou, High-Throughput Screening of Alloy Catalysts for Dry Methane Reforming, ACS Catal 11 (2021) 8881–8894. doi: 10.1021/acscatal.0c04911. [30] J. Liu G. Yu X. Huang W. Chen The crucial role of strained ring in enhancing the hydrogen evolution catalytic activity for the 2D carbon allotropes: a high-throughput first-principles investigation 2d Mater 7 2020 015015 10.1088/2053-1583/AB546F J. Liu, G. Yu, X. Huang, W. Chen, The crucial role of strained ring in enhancing the hydrogen evolution catalytic activity for the 2D carbon allotropes: A high-throughput first-principles investigation, 2d Mater 7 (2020) 015015. doi: 10.1088/2053-1583/AB546F. [31] P. Wang X.-R. Shi Y. Zhang M. Wei The influence of Co nucleation in CoNi single atom alloy on low-temperature methane dry reforming with DFT simulations and microkinetic modeling Mol. Catal. 549 2023 113515 10.1016/j.mcat.2023.113515 P. Wang, X.-R. Shi, Y. Zhang, M. Wei, The influence of Co nucleation in CoNi single atom alloy on low-temperature methane dry reforming with DFT simulations and microkinetic modeling, Molecular Catalysis 549 (2023) 113515. doi: doi: 10.1016/j.mcat.2023.113515. [32] X.-R. Shi P. Wang C. Jing K. Wu S. Xu B. Klötzer The formation of O vacancy on ZrO2/Pd and its effect on methane dry reforming: Insights from DFT and microkinetic modeling Appl. Surf. Sci. 619 2023 156679 10.1016/j.apsusc.2023.156679 X.-R. Shi, P. Wang, C. Jing, K. Wu, S. Xu, B. Klötzer, The formation of O vacancy on ZrO2/Pd and its effect on methane dry reforming: Insights from DFT and microkinetic modeling, Appl Surf Sci 619 (2023) 156679. doi: doi: 10.1016/j.apsusc.2023.156679. [33] G. Kresse J. Furthmüller Efficient iterative schemes for ab-initio total-energy calculations using a plane-wave basis set Phys. Rev. B 54 1996 11169 11186 10.1103/PhysRevB.54.11169 G. Kresse, J. Furthmüller, Efficient iterative schemes for ab-initio total-energy calculations using a plane-wave basis set, Phys. Rev. B 54 (1996) 11169–11186. doi: 10.1103/PhysRevB.54.11169. [34] J.P. Perdew K. Burke M. Ernzerhof Generalized gradient approximation made simple Phys. Rev. Lett. 77 1996 3865 3868 10.1103/PhysRevLett.77.3865 J.P. Perdew, K. Burke, M. Ernzerhof, Generalized Gradient Approximation Made Simple, Phys Rev Lett 77 (1996) 3865–3868. doi: 10.1103/PhysRevLett.77.3865. [35] S.N. Steinmann C. Corminboeuf Comprehensive benchmarking of a density-dependent dispersion correction J. Chem. Theory Comput. 7 2011 3567 3577 10.1021/ct200602x S.N. Steinmann, C. Corminboeuf, Comprehensive Benchmarking of a Density-Dependent Dispersion Correction, J Chem Theory Comput 7 (2011) 3567–3577. doi: 10.1021/ct200602x. [36] S.N. Steinmann C. Corminboeuf S.N. Steinmann C. Corminboeuf A generalized-gradient approximation exchange hole model for dispersion coefficients A generalized-gradient approximation exchange hole model for J. Chem. Phys. 134 2011 044117 10.1063/1.3545985 S.N. Steinmann, C. Corminboeuf, S.N. Steinmann, C. Corminboeuf, A generalized-gradient approximation exchange hole model for dispersion coefficients A generalized-gradient approximation exchange hole model for, J Chem Phys 134 (2011) 044117. doi: 10.1063/1.3545985. [37] G. Kresse D. Joubert From ultrasoft pseudopotentials to the projector augmented-wave method Phys. Rev. B 59 1999 1758 1775 10.1103/PhysRevB.59.1758 G. Kresse, D. Joubert, From ultrasoft pseudopotentials to the projector augmented-wave method, Phys Rev B 59 (1999) 1758–1775. doi: 10.1103/PhysRevB.59.1758. [38] S.M. Liu Y.J. Ji B. Liu W.Q. Xu W.X. Chen J. Yu Z.Y. Zhong G.W. Xu T.Y. Zhu F.B. Su Co single atoms and CoO x nanoclusters anchored on Ce0.75Zr0.25O2 synergistically boosts the NO reduction by CO Adv. Funct. Mater. 33 2023 2303297 10.1002/adfm.202303297 S.M. Liu, Y.J. Ji, B. Liu, W.Q. Xu, W.X. Chen, J. Yu, Z.Y. Zhong, G.W. Xu, T.Y. Zhu, F.B. Su, Co Single Atoms and CoOx Nanoclusters Anchored on Ce0.75Zr0.25O2 Synergistically Boosts the NO Reduction by CO, Adv Funct Mater 33 (2023). doi: 10.1002/adfm.202303297. [39] K. Saini A.N. Nair A. Yadav L.G. Enriquez C.J. Pollock S.D. House S.Z. Yang X. Guo S.T. Sreenivasan Nickel-based single-molecule catalysts with synergistic geometric transition and magnetic field-assisted spin selection outperform RuO2 for oxygen evolution Adv. Energy Mater. 13 2023 2302170 10.1002/aenm.202302170 K. Saini, A.N. Nair, A. Yadav, L.G. Enriquez, C.J. Pollock, S.D. House, S.Z. Yang, X. Guo, S.T. Sreenivasan, Nickel-Based Single-Molecule Catalysts with Synergistic Geometric Transition and Magnetic Field-Assisted Spin Selection Outperform RuO2 for Oxygen Evolution, Adv Energy Mater 13 (2023). doi: 10.1002/aenm.202302170. [40] K. Mathew R. Sundararaman K. Letchworth-Weaver T.A. Arias R.G. Hennig Implicit solvation model for density-functional study of nanocrystal surfaces and reaction pathways J. Chem. Phys. 140 2014 084106 10.1063/1.4865107 K. Mathew, R. Sundararaman, K. Letchworth-Weaver, T.A. Arias, R.G. Hennig, Implicit solvation model for density-functional study of nanocrystal surfaces and reaction pathways, J Chem Phys 140 (2014) 084106. doi: 10.1063/1.4865107. [41] J.K. Nørskov J. Rossmeisl A. Logadottir L. Lindqvist J.R. Kitchin T. Bligaard H. Jónsson Origin of the overpotential for oxygen reduction at a fuel-cell cathode J. Phys. Chem. B 108 2004 17886 17892 10.1021/JP047349J J.K. Nørskov, J. Rossmeisl, A. Logadottir, L. Lindqvist, J.R. Kitchin, T. Bligaard, H. Jónsson, Origin of the overpotential for oxygen reduction at a fuel-cell cathode, Journal of Physical Chemistry B 108 (2004) 17886–17892. doi: 10.1021/JP047349J/ASSET/IMAGES/LARGE/JP047349JF00008.JPEG. [42] J. Rossmeisl Z.W. Qu H. Zhu G.J. Kroes J.K. Nørskov Electrolysis of water on oxide surfaces J. Electroanal. Chem. 607 2007 83 89 10.1016/J.JELECHEM.2006.11.008 J. Rossmeisl, Z.W. Qu, H. Zhu, G.J. Kroes, J.K. Nørskov, Electrolysis of water on oxide surfaces, Journal of Electroanalytical Chemistry 607 (2007) 83–89. doi: 10.1016/J.JELECHEM.2006.11.008. [43] D.C. Tranca F. Rodríguez-Hernández G. Seifert X. Zhuang Theoretical models for hydrogen evolution reaction at combined Mo2C and N-doped graphene J. Catal. 381 2020 234 247 10.1016/j.jcat.2019.10.028 D.C. Tranca, F. Rodríguez-Hernández, G. Seifert, X. Zhuang, Theoretical models for hydrogen evolution reaction at combined Mo2C and N-doped graphene, J Catal 381 (2020) 234–247. doi: 10.1016/j.jcat.2019.10.028. [44] Y. Yan X.R. Shi M. Miao T. He Z.H. Dong K. Zhan J.H. Yang B. Zhao B.Y. Xia Bio-inspired design of hierarchical FeP nanostructure arrays for the hydrogen evolution reaction Nano Res. 11 2018 3537 3547 10.1007/s12274-017-1919-2 Y. Yan, X.R. Shi, M. Miao, T. He, Z.H. Dong, K. Zhan, J.H. Yang, B. Zhao, B.Y. Xia, Bio-inspired design of hierarchical FeP nanostructure arrays for the hydrogen evolution reaction, Nano Res 11 (2018). doi: 10.1007/s12274-017-1919-2. [45] Z. Lu S. Li P. Lv C. He D. Ma Z. Yang First principles study on the interfacial properties of NM/graphdiyne (NM = Pd, Pt, Rh and Ir): the implications for NM growing Appl. Surf. Sci. 360 2016 1 7 10.1016/J.APSUSC.2015.10.219 Z. Lu, S. Li, P. Lv, C. He, D. Ma, Z. Yang, First principles study on the interfacial properties of NM/graphdiyne (NM=Pd, Pt, Rh and Ir): The implications for NM growing, Appl Surf Sci 360 (2016) 1–7. doi: 10.1016/J.APSUSC.2015.10.219. [46] P. Wu P. Du H. Zhang C. Cai Graphdiyne as a metal-free catalyst for low-temperature CO oxidation PCCP 16 2014 5640 5648 10.1039/C3CP55121K P. Wu, P. Du, H. Zhang, C. Cai, Graphdiyne as a metal-free catalyst for low-temperature CO oxidation, Phys. Chem. Chem. Phys. 16 (2014) 5640–5648. doi: 10.1039/C3CP55121K. [47] C. Sun S. Huang M. Huang X. Zhang S. Xu H. Wang Y. Chen X.-R. Shi Single-metal-atom catalysts supported on graphdiyne catalyze CO oxidation Dalton Trans. 50 2021 10867 10879 10.1039/d1dt00934f C. Sun, S. Huang, M. Huang, X. Zhang, S. Xu, H. Wang, Y. Chen, X.-R. Shi, Single-metal-atom catalysts supported on graphdiyne catalyze CO oxidation, Dalton Transactions 50 (2021) 10867–10879. doi: 10.1039/d1dt00934f. [48] Y. Xue B. Huang Y. Yi Y. Guo Z. Zuo Y. Li Z. Jia H. Liu Y. Li Anchoring zero valence single atoms of nickel and iron on graphdiyne for hydrogen evolution Nat. Commun. 9 2018 1460 10.1038/s41467-018-03896-4 Y. Xue, B. Huang, Y. Yi, Y. Guo, Z. Zuo, Y. Li, Z. Jia, H. Liu, Y. Li, Anchoring zero valence single atoms of nickel and iron on graphdiyne for hydrogen evolution, Nat Commun 9 (2018) 1460. doi: 10.1038/s41467-018-03896-4. [49] H. Yu L. Hui Y. Xue Y. Liu Y. Fang C. Xing C. Zhang D. Zhang X. Chen Y. Du Z. Wang Y. Gao B. Huang Y. Li 2D graphdiyne loading ruthenium atoms for high efficiency water splitting Nano Energy 72 2020 104667 10.1016/j.nanoen.2020.104667 H. Yu, L. Hui, Y. Xue, Y. Liu, Y. Fang, C. Xing, C. Zhang, D. Zhang, X. Chen, Y. Du, Z. Wang, Y. Gao, B. Huang, Y. Li, 2D graphdiyne loading ruthenium atoms for high efficiency water splitting, Nano Energy 72 (2020) 104667. doi: doi: 10.1016/j.nanoen.2020.104667. [50] L. Hui Y. Xue H. Yu C. Zhang B. Huang Y. Li Loading copper atoms on graphdiyne for highly efficient hydrogen production ChemPhysChem 21 2020 2145 2149 10.1002/cphc.202000579 L. Hui, Y. Xue, H. Yu, C. Zhang, B. Huang, Y. Li, Loading Copper Atoms on Graphdiyne for Highly Efficient Hydrogen Production, ChemPhysChem 21 (2020) 2145–2149. doi: doi: 10.1002/cphc.202000579. [51] X.-L. Zhang X. Su Y.-R. Zheng S.-J. Hu L. Shi F.-Y. Gao P.-P. Yang Z.-Z. Niu Z.-Z. Wu S. Qin R. Wu Y. Duan C. Gu X.-S. Zheng J.-F. Zhu M.-R. Gao Strongly coupled cobalt diselenide monolayers for selective electrocatalytic oxygen reduction to H2O2 under acidic conditions Angew. Chem. Int. Ed. 60 2021 26922 26931 10.1002/anie.202111075 X.-L. Zhang, X. Su, Y.-R. Zheng, S.-J. Hu, L. Shi, F.-Y. Gao, P.-P. Yang, Z.-Z. Niu, Z.-Z. Wu, S. Qin, R. Wu, Y. Duan, C. Gu, X.-S. Zheng, J.-F. Zhu, M.-R. Gao, Strongly Coupled Cobalt Diselenide Monolayers for Selective Electrocatalytic Oxygen Reduction to H2O2 under Acidic Conditions, Angewandte Chemie International Edition 60 (2021) 26922–26931. doi: doi: 10.1002/anie.202111075. [52] X.-L. Zhang P.-P. Yang Y.-R. Zheng Y. Duan S.-J. Hu T. Ma F.-Y. Gao Z.-Z. Niu Z.-Z. Wu S. Qin L.-P. Chi X. Yu R. Wu C. Gu C.-M. Wang X.-S. Zheng X. Zheng J.-F. Zhu M.-R. Gao An efficient turing-type Ag2Se-CoSe2 multi-interfacial oxygen-evolving electrocatalyst Angew. Chem. Int. Ed. 60 2021 6553 6560 10.1002/anie.202017016 X.-L. Zhang, P.-P. Yang, Y.-R. Zheng, Y. Duan, S.-J. Hu, T. Ma, F.-Y. Gao, Z.-Z. Niu, Z.-Z. Wu, S. Qin, L.-P. Chi, X. Yu, R. Wu, C. Gu, C.-M. Wang, X.-S. Zheng, X. Zheng, J.-F. Zhu, M.-R. Gao, An Efficient Turing-Type Ag2Se-CoSe2 Multi-Interfacial Oxygen-Evolving Electrocatalyst, Angewandte Chemie International Edition 60 (2021) 6553–6560. doi: doi: 10.1002/anie.202017016. [53] P.-C. Yu X.-L. Zhang T.-Y. Zhang X.-Y.-N. Tao Y. Yang Y.-H. Wang S.-C. Zhang F.-Y. Gao Z.-Z. Niu M.-H. Fan M.-R. Gao Nitrogen-mediated promotion of cobalt-based oxygen evolution catalyst for practical anion-exchange membrane electrolysis J. Am. Chem. Soc. 146 2024 20379 20390 10.1021/jacs.4c05983 P.-C. Yu, X.-L. Zhang, T.-Y. Zhang, X.-Y.-N. Tao, Y. Yang, Y.-H. Wang, S.-C. Zhang, F.-Y. Gao, Z.-Z. Niu, M.-H. Fan, M.-R. Gao, Nitrogen-Mediated Promotion of Cobalt-Based Oxygen Evolution Catalyst for Practical Anion-Exchange Membrane Electrolysis, J Am Chem Soc 146 (2024) 20379–20390. doi: 10.1021/jacs.4c05983. [54] I.C. Man H.Y. Su F. Calle-Vallejo H.A. Hansen J.I. Martínez N.G. Inoglu J. Kitchin T.F. Jaramillo J.K. Nørskov J. Rossmeisl Universality in oxygen evolution electrocatalysis on oxide surfaces ChemCatChem. 3 2011 1159 1165 10.1002/CCTC.201000397 I.C. Man, H.Y. Su, F. Calle-Vallejo, H.A. Hansen, J.I. Martínez, N.G. Inoglu, J. Kitchin, T.F. Jaramillo, J.K. Nørskov, J. Rossmeisl, Universality in Oxygen Evolution Electrocatalysis on Oxide Surfaces, ChemCatChem 3 (2011) 1159–1165. doi: 10.1002/CCTC.201000397/ABSTRACT. [55] A. Kulkarni S. Siahrostami A. Patel J.K. Nørskov Understanding catalytic activity trends in the oxygen reduction reaction Chem. Rev. 118 2018 2302 2312 10.1021/acs.chemrev.7b00488 A. Kulkarni, S. Siahrostami, A. Patel, J.K. Nørskov, Understanding Catalytic Activity Trends in the Oxygen Reduction Reaction, Chem Rev 118 (2018) 2302–2312. doi: 10.1021/acs.chemrev.7b00488. [56] H. Xu D. Cheng D. Cao X.C. Zeng A universal principle for a rational design of single-atom electrocatalysts Nat. Catal. 1 5 2018 339 348 10.1038/s41929-018-0063-z H. Xu, D. Cheng, D. Cao, X.C. Zeng, A universal principle for a rational design of single-atom electrocatalysts, Nature Catalysis 2018 1:5 1 (2018) 339–348. doi: 10.1038/s41929-018-0063-z. [57] T. He S.K. Matta G. Will A. Du Transition-metal single atoms anchored on graphdiyne as high-efficiency electrocatalysts for water splitting and oxygen reduction Small Methods 3 2019 1800419 10.1002/smtd.201800419 T. He, S.K. Matta, G. Will, A. Du, Transition-Metal Single Atoms Anchored on Graphdiyne as High-Efficiency Electrocatalysts for Water Splitting and Oxygen Reduction, Small Methods 3 (2019) 1800419. doi: doi: 10.1002/smtd.201800419. [58] Z. Xue X. Zhang J. Qin R. Liu TMN4 complex embedded graphene as bifunctional electrocatalysts for high efficiency OER/ORR J. Energy Chem. 55 2021 437 443 10.1016/j.jechem.2020.07.018 Z. Xue, X. Zhang, J. Qin, R. Liu, TMN4 complex embedded graphene as bifunctional electrocatalysts for high efficiency OER/ORR, Journal of Energy Chemistry 55 (2021) 437–443. doi: doi: 10.1016/j.jechem.2020.07.018. [59] S. Zhang X. Zhang X. Shi F. Zhou R. Wang X. Li Facile fabrication of ultrafine nickel-iridium alloy nanoparticles/graphene hybrid with enhanced mass activity and stability for overall water splitting J. Energy Chem. 49 2020 166 173 10.1016/j.jechem.2020.02.022 S. Zhang, X. Zhang, X. Shi, F. Zhou, R. Wang, X. Li, Facile fabrication of ultrafine nickel-iridium alloy nanoparticles/graphene hybrid with enhanced mass activity and stability for overall water splitting, Journal of Energy Chemistry 49 (2020) 166–173. doi: 10.1016/j.jechem.2020.02.022.",
+      "scopus-id": "85205135464",
+      "coredata": {
+        "eid": "1-s2.0-S002195172400486X",
+        "dc:description": "Efficient single-atom electrocatalysts show great potential for application in the field of renewable energy. In this work, dispersion-corrected density functional theory (DFT) calculations based on high-throughput screening were used to identify effective graphdiyne (GDY) supported single-atom electrocatalysts (SAECs) for water electrolysis and the oxygen reduction reaction (ORR). The solvation effect on the electrocatalytic performance of the catalysts was carefully discussed. A general design principle was established to evaluate the activities of TM@GDY SAECs for ORR and oxygen evolution reaction (OER). ΔG OH* could serve as the sole descriptor for the onset potential of OER and ORR. Additionally, a universal structural descriptor φ, which is strongly related to ΔG OH*, was identified. This descriptor only includes intrinsic features such as the number of electrons in d orbitals and elemental electronegativity. Consequently, a structure-activity volcano was plotted. Combined with the electronic properties calculations, the mechanism behind the relationship between ΔG OH* and descriptor φ was deeply analyzed. Among the investigated candidates, TM@GDY (TM = Ni, Pt, Pd, Cu, Co, Rh, and Ag) are potential bifunctional electrocatalysts for OER and ORR. Three non-noble metal-based SAECs (Ni@GDY, Co@GDY, and Cu@GDY) and two noble metal-based SAECs (Rh@GDY and Ag@GDY) are potential trifunctional electrocatalysts for OER, ORR, and the hydrogen evolution reaction.",
+        "openArchiveArticle": "false",
+        "prism:coverDate": "2024-11-30",
+        "openaccessUserLicense": null,
+        "prism:aggregationType": "Journal",
+        "prism:url": "https://api.elsevier.com/content/article/pii/S002195172400486X",
+        "dc:creator": [
+          {
+            "@_fa": "true",
+            "$": "Sun, Chunyan"
+          },
+          {
+            "@_fa": "true",
+            "$": "Zhang, Shengming"
+          },
+          {
+            "@_fa": "true",
+            "$": "Wang, Peijie"
+          },
+          {
+            "@_fa": "true",
+            "$": "Wei, Minghui"
+          },
+          {
+            "@_fa": "true",
+            "$": "Wang, Sen"
+          },
+          {
+            "@_fa": "true",
+            "$": "Shi, Xue-Rong"
+          }
+        ],
+        "link": [
+          {
+            "@_fa": "true",
+            "@rel": "self",
+            "@href": "https://api.elsevier.com/content/article/pii/S002195172400486X"
+          },
+          {
+            "@_fa": "true",
+            "@rel": "scidir",
+            "@href": "https://www.sciencedirect.com/science/article/pii/S002195172400486X"
+          }
+        ],
+        "dc:format": "application/json",
+        "openaccessType": null,
+        "pii": "S0021-9517(24)00486-X",
+        "prism:volume": "439",
+        "articleNumber": "115773",
+        "prism:publisher": "Elsevier Inc. All rights are reserved, including those for text and data mining, AI training, and similar technologies.",
+        "dc:title": "High-throughput screening of efficient graphdiyne supported transition metal single atom toward water electrolysis and oxygen reduction",
+        "prism:copyright": "© 2024 Elsevier Inc. All rights are reserved, including those for text and data mining, AI training, and similar technologies.",
+        "openaccess": "0",
+        "prism:issn": "00219517",
+        "dcterms:subject": [
+          {
+            "@_fa": "true",
+            "$": "graphdiyne"
+          },
+          {
+            "@_fa": "true",
+            "$": "single-atom electrocatalysts"
+          },
+          {
+            "@_fa": "true",
+            "$": "solvation effect"
+          },
+          {
+            "@_fa": "true",
+            "$": "oxygen reduction"
+          },
+          {
+            "@_fa": "true",
+            "$": "oxygen evolution"
+          },
+          {
+            "@_fa": "true",
+            "$": "hydrogen evolution"
+          }
+        ],
+        "openaccessArticle": "false",
+        "prism:publicationName": "Journal of Catalysis",
+        "openaccessSponsorType": null,
+        "prism:pageRange": "115773",
+        "pubType": "fla",
+        "prism:coverDisplayDate": "November 2024",
+        "prism:doi": "10.1016/j.jcat.2024.115773",
+        "prism:startingPage": "115773",
+        "dc:identifier": "doi:10.1016/j.jcat.2024.115773",
+        "openaccessSponsorName": null
+      },
+      "objects": {
+        "object": [
+          {
+            "@category": "standard",
+            "@height": "239",
+            "@width": "578",
+            "@_fa": "true",
+            "$": "https://api.elsevier.com/content/object/eid/1-s2.0-S002195172400486X-gr5.jpg?httpAccept=%2A%2F%2A",
+            "@multimediatype": "JPEG image file",
+            "@type": "IMAGE-DOWNSAMPLED",
+            "@size": "31166",
+            "@ref": "gr5",
+            "@mimetype": "image/jpeg"
+          },
+          {
+            "@category": "standard",
+            "@height": "503",
+            "@width": "667",
+            "@_fa": "true",
+            "$": "https://api.elsevier.com/content/object/eid/1-s2.0-S002195172400486X-gr6.jpg?httpAccept=%2A%2F%2A",
+            "@multimediatype": "JPEG image file",
+            "@type": "IMAGE-DOWNSAMPLED",
+            "@size": "75218",
+            "@ref": "gr6",
+            "@mimetype": "image/jpeg"
+          },
+          {
+            "@category": "standard",
+            "@height": "611",
+            "@width": "533",
+            "@_fa": "true",
+            "$": "https://api.elsevier.com/content/object/eid/1-s2.0-S002195172400486X-gr7.jpg?httpAccept=%2A%2F%2A",
+            "@multimediatype": "JPEG image file",
+            "@type": "IMAGE-DOWNSAMPLED",
+            "@size": "109736",
+            "@ref": "gr7",
+            "@mimetype": "image/jpeg"
+          },
+          {
+            "@category": "standard",
+            "@height": "543",
+            "@width": "667",
+            "@_fa": "true",
+            "$": "https://api.elsevier.com/content/object/eid/1-s2.0-S002195172400486X-gr8.jpg?httpAccept=%2A%2F%2A",
+            "@multimediatype": "JPEG image file",
+            "@type": "IMAGE-DOWNSAMPLED",
+            "@size": "88289",
+            "@ref": "gr8",
+            "@mimetype": "image/jpeg"
+          },
+          {
+            "@category": "standard",
+            "@height": "569",
+            "@width": "667",
+            "@_fa": "true",
+            "$": "https://api.elsevier.com/content/object/eid/1-s2.0-S002195172400486X-gr1.jpg?httpAccept=%2A%2F%2A",
+            "@multimediatype": "JPEG image file",
+            "@type": "IMAGE-DOWNSAMPLED",
+            "@size": "90120",
+            "@ref": "gr1",
+            "@mimetype": "image/jpeg"
+          },
+          {
+            "@category": "standard",
+            "@height": "370",
+            "@width": "533",
+            "@_fa": "true",
+            "$": "https://api.elsevier.com/content/object/eid/1-s2.0-S002195172400486X-gr2.jpg?httpAccept=%2A%2F%2A",
+            "@multimediatype": "JPEG image file",
+            "@type": "IMAGE-DOWNSAMPLED",
+            "@size": "61258",
+            "@ref": "gr2",
+            "@mimetype": "image/jpeg"
+          },
+          {
+            "@category": "standard",
+            "@height": "200",
+            "@width": "354",
+            "@_fa": "true",
+            "$": "https://api.elsevier.com/content/object/eid/1-s2.0-S002195172400486X-ga1.jpg?httpAccept=%2A%2F%2A",
+            "@multimediatype": "JPEG image file",
+            "@type": "IMAGE-DOWNSAMPLED",
+            "@size": "40706",
+            "@ref": "ga1",
+            "@mimetype": "image/jpeg"
+          },
+          {
+            "@category": "standard",
+            "@height": "895",
+            "@width": "533",
+            "@_fa": "true",
+            "$": "https://api.elsevier.com/content/object/eid/1-s2.0-S002195172400486X-gr3.jpg?httpAccept=%2A%2F%2A",
+            "@multimediatype": "JPEG image file",
+            "@type": "IMAGE-DOWNSAMPLED",
+            "@size": "144402",
+            "@ref": "gr3",
+            "@mimetype": "image/jpeg"
+          },
+          {
+            "@category": "standard",
+            "@height": "569",
+            "@width": "622",
+            "@_fa": "true",
+            "$": "https://api.elsevier.com/content/object/eid/1-s2.0-S002195172400486X-gr4.jpg?httpAccept=%2A%2F%2A",
+            "@multimediatype": "JPEG image file",
+            "@type": "IMAGE-DOWNSAMPLED",
+            "@size": "100854",
+            "@ref": "gr4",
+            "@mimetype": "image/jpeg"
+          },
+          {
+            "@category": "thumbnail",
+            "@height": "91",
+            "@width": "219",
+            "@_fa": "true",
+            "$": "https://api.elsevier.com/content/object/eid/1-s2.0-S002195172400486X-gr5.sml?httpAccept=%2A%2F%2A",
+            "@multimediatype": "GIF image file",
+            "@type": "IMAGE-THUMBNAIL",
+            "@size": "5491",
+            "@ref": "gr5",
+            "@mimetype": "image/gif"
+          },
+          {
+            "@category": "thumbnail",
+            "@height": "164",
+            "@width": "217",
+            "@_fa": "true",
+            "$": "https://api.elsevier.com/content/object/eid/1-s2.0-S002195172400486X-gr6.sml?httpAccept=%2A%2F%2A",
+            "@multimediatype": "GIF image file",
+            "@type": "IMAGE-THUMBNAIL",
+            "@size": "9848",
+            "@ref": "gr6",
+            "@mimetype": "image/gif"
+          },
+          {
+            "@category": "thumbnail",
+            "@height": "164",
+            "@width": "143",
+            "@_fa": "true",
+            "$": "https://api.elsevier.com/content/object/eid/1-s2.0-S002195172400486X-gr7.sml?httpAccept=%2A%2F%2A",
+            "@multimediatype": "GIF image file",
+            "@type": "IMAGE-THUMBNAIL",
+            "@size": "11456",
+            "@ref": "gr7",
+            "@mimetype": "image/gif"
+          },
+          {
+            "@category": "thumbnail",
+            "@height": "164",
+            "@width": "201",
+            "@_fa": "true",
+            "$": "https://api.elsevier.com/content/object/eid/1-s2.0-S002195172400486X-gr8.sml?httpAccept=%2A%2F%2A",
+            "@multimediatype": "GIF image file",
+            "@type": "IMAGE-THUMBNAIL",
+            "@size": "12521",
+            "@ref": "gr8",
+            "@mimetype": "image/gif"
+          },
+          {
+            "@category": "thumbnail",
+            "@height": "164",
+            "@width": "192",
+            "@_fa": "true",
+            "$": "https://api.elsevier.com/content/object/eid/1-s2.0-S002195172400486X-gr1.sml?httpAccept=%2A%2F%2A",
+            "@multimediatype": "GIF image file",
+            "@type": "IMAGE-THUMBNAIL",
+            "@size": "12580",
+            "@ref": "gr1",
+            "@mimetype": "image/gif"
+          },
+          {
+            "@category": "thumbnail",
+            "@height": "152",
+            "@width": "219",
+            "@_fa": "true",
+            "$": "https://api.elsevier.com/content/object/eid/1-s2.0-S002195172400486X-gr2.sml?httpAccept=%2A%2F%2A",
+            "@multimediatype": "GIF image file",
+            "@type": "IMAGE-THUMBNAIL",
+            "@size": "12587",
+            "@ref": "gr2",
+            "@mimetype": "image/gif"
+          },
+          {
+            "@category": "thumbnail",
+            "@height": "124",
+            "@width": "219",
+            "@_fa": "true",
+            "$": "https://api.elsevier.com/content/object/eid/1-s2.0-S002195172400486X-ga1.sml?httpAccept=%2A%2F%2A",
+            "@multimediatype": "GIF image file",
+            "@type": "IMAGE-THUMBNAIL",
+            "@size": "22122",
+            "@ref": "ga1",
+            "@mimetype": "image/gif"
+          },
+          {
+            "@category": "thumbnail",
+            "@height": "163",
+            "@width": "97",
+            "@_fa": "true",
+            "$": "https://api.elsevier.com/content/object/eid/1-s2.0-S002195172400486X-gr3.sml?httpAccept=%2A%2F%2A",
+            "@multimediatype": "GIF image file",
+            "@type": "IMAGE-THUMBNAIL",
+            "@size": "8649",
+            "@ref": "gr3",
+            "@mimetype": "image/gif"
+          },
+          {
+            "@category": "thumbnail",
+            "@height": "164",
+            "@width": "179",
+            "@_fa": "true",
+            "$": "https://api.elsevier.com/content/object/eid/1-s2.0-S002195172400486X-gr4.sml?httpAccept=%2A%2F%2A",
+            "@multimediatype": "GIF image file",
+            "@type": "IMAGE-THUMBNAIL",
+            "@size": "15201",
+            "@ref": "gr4",
+            "@mimetype": "image/gif"
+          },
+          {
+            "@category": "high",
+            "@height": "1058",
+            "@width": "2559",
+            "@_fa": "true",
+            "$": "https://api.elsevier.com/content/object/eid/1-s2.0-S002195172400486X-gr5_lrg.jpg?httpAccept=%2A%2F%2A",
+            "@multimediatype": "JPEG image file",
+            "@type": "IMAGE-HIGH-RES",
+            "@size": "172711",
+            "@ref": "gr5",
+            "@mimetype": "image/jpeg"
+          },
+          {
+            "@category": "high",
+            "@height": "2225",
+            "@width": "2953",
+            "@_fa": "true",
+            "$": "https://api.elsevier.com/content/object/eid/1-s2.0-S002195172400486X-gr6_lrg.jpg?httpAccept=%2A%2F%2A",
+            "@multimediatype": "JPEG image file",
+            "@type": "IMAGE-HIGH-RES",
+            "@size": "382030",
+            "@ref": "gr6",
+            "@mimetype": "image/jpeg"
+          },
+          {
+            "@category": "high",
+            "@height": "2707",
+            "@width": "2362",
+            "@_fa": "true",
+            "$": "https://api.elsevier.com/content/object/eid/1-s2.0-S002195172400486X-gr7_lrg.jpg?httpAccept=%2A%2F%2A",
+            "@multimediatype": "JPEG image file",
+            "@type": "IMAGE-HIGH-RES",
+            "@size": "587069",
+            "@ref": "gr7",
+            "@mimetype": "image/jpeg"
+          },
+          {
+            "@category": "high",
+            "@height": "2405",
+            "@width": "2953",
+            "@_fa": "true",
+            "$": "https://api.elsevier.com/content/object/eid/1-s2.0-S002195172400486X-gr8_lrg.jpg?httpAccept=%2A%2F%2A",
+            "@multimediatype": "JPEG image file",
+            "@type": "IMAGE-HIGH-RES",
+            "@size": "498463",
+            "@ref": "gr8",
+            "@mimetype": "image/jpeg"
+          },
+          {
+            "@category": "high",
+            "@height": "2520",
+            "@width": "2953",
+            "@_fa": "true",
+            "$": "https://api.elsevier.com/content/object/eid/1-s2.0-S002195172400486X-gr1_lrg.jpg?httpAccept=%2A%2F%2A",
+            "@multimediatype": "JPEG image file",
+            "@type": "IMAGE-HIGH-RES",
+            "@size": "486088",
+            "@ref": "gr1",
+            "@mimetype": "image/jpeg"
+          },
+          {
+            "@category": "high",
+            "@height": "1637",
+            "@width": "2361",
+            "@_fa": "true",
+            "$": "https://api.elsevier.com/content/object/eid/1-s2.0-S002195172400486X-gr2_lrg.jpg?httpAccept=%2A%2F%2A",
+            "@multimediatype": "JPEG image file",
+            "@type": "IMAGE-HIGH-RES",
+            "@size": "296113",
+            "@ref": "gr2",
+            "@mimetype": "image/jpeg"
+          },
+          {
+            "@category": "high",
+            "@height": "886",
+            "@width": "1567",
+            "@_fa": "true",
+            "$": "https://api.elsevier.com/content/object/eid/1-s2.0-S002195172400486X-ga1_lrg.jpg?httpAccept=%2A%2F%2A",
+            "@multimediatype": "JPEG image file",
+            "@type": "IMAGE-HIGH-RES",
+            "@size": "407215",
+            "@ref": "ga1",
+            "@mimetype": "image/jpeg"
+          },
+          {
+            "@category": "high",
+            "@height": "3965",
+            "@width": "2362",
+            "@_fa": "true",
+            "$": "https://api.elsevier.com/content/object/eid/1-s2.0-S002195172400486X-gr3_lrg.jpg?httpAccept=%2A%2F%2A",
+            "@multimediatype": "JPEG image file",
+            "@type": "IMAGE-HIGH-RES",
+            "@size": "679356",
+            "@ref": "gr3",
+            "@mimetype": "image/jpeg"
+          },
+          {
+            "@category": "high",
+            "@height": "2520",
+            "@width": "2756",
+            "@_fa": "true",
+            "$": "https://api.elsevier.com/content/object/eid/1-s2.0-S002195172400486X-gr4_lrg.jpg?httpAccept=%2A%2F%2A",
+            "@multimediatype": "JPEG image file",
+            "@type": "IMAGE-HIGH-RES",
+            "@size": "520100",
+            "@ref": "gr4",
+            "@mimetype": "image/jpeg"
+          },
+          {
+            "@category": "standard",
+            "@_fa": "true",
+            "$": "https://api.elsevier.com/content/object/eid/1-s2.0-S002195172400486X-mmc1.pdf?httpAccept=%2A%2F%2A",
+            "@multimediatype": "Acrobat PDF file",
+            "@type": "APPLICATION",
+            "@size": "3972487",
+            "@ref": "mmc1",
+            "@mimetype": "application/pdf"
+          },
+          {
+            "@category": "thumbnail",
+            "@_fa": "true",
+            "$": "https://api.elsevier.com/content/object/eid/1-s2.0-S002195172400486X-si1.svg?httpAccept=%2A%2F%2A",
+            "@multimediatype": "Scalable Vector Graphics file",
+            "@type": "ALTIMG",
+            "@size": "6113",
+            "@ref": "si1",
+            "@mimetype": "image/svg+xml"
+          },
+          {
+            "@category": "thumbnail",
+            "@_fa": "true",
+            "$": "https://api.elsevier.com/content/object/eid/1-s2.0-S002195172400486X-si10.svg?httpAccept=%2A%2F%2A",
+            "@multimediatype": "Scalable Vector Graphics file",
+            "@type": "ALTIMG",
+            "@size": "20517",
+            "@ref": "si10",
+            "@mimetype": "image/svg+xml"
+          },
+          {
+            "@category": "thumbnail",
+            "@_fa": "true",
+            "$": "https://api.elsevier.com/content/object/eid/1-s2.0-S002195172400486X-si100000.svg?httpAccept=%2A%2F%2A",
+            "@multimediatype": "Scalable Vector Graphics file",
+            "@type": "ALTIMG",
+            "@size": "2998",
+            "@ref": "si100000",
+            "@mimetype": "image/svg+xml"
+          },
+          {
+            "@category": "thumbnail",
+            "@_fa": "true",
+            "$": "https://api.elsevier.com/content/object/eid/1-s2.0-S002195172400486X-si11.svg?httpAccept=%2A%2F%2A",
+            "@multimediatype": "Scalable Vector Graphics file",
+            "@type": "ALTIMG",
+            "@size": "19996",
+            "@ref": "si11",
+            "@mimetype": "image/svg+xml"
+          },
+          {
+            "@category": "thumbnail",
+            "@_fa": "true",
+            "$": "https://api.elsevier.com/content/object/eid/1-s2.0-S002195172400486X-si12.svg?httpAccept=%2A%2F%2A",
+            "@multimediatype": "Scalable Vector Graphics file",
+            "@type": "ALTIMG",
+            "@size": "9304",
+            "@ref": "si12",
+            "@mimetype": "image/svg+xml"
+          },
+          {
+            "@category": "thumbnail",
+            "@_fa": "true",
+            "$": "https://api.elsevier.com/content/object/eid/1-s2.0-S002195172400486X-si13.svg?httpAccept=%2A%2F%2A",
+            "@multimediatype": "Scalable Vector Graphics file",
+            "@type": "ALTIMG",
+            "@size": "7589",
+            "@ref": "si13",
+            "@mimetype": "image/svg+xml"
+          },
+          {
+            "@category": "thumbnail",
+            "@_fa": "true",
+            "$": "https://api.elsevier.com/content/object/eid/1-s2.0-S002195172400486X-si14.svg?httpAccept=%2A%2F%2A",
+            "@multimediatype": "Scalable Vector Graphics file",
+            "@type": "ALTIMG",
+            "@size": "8723",
+            "@ref": "si14",
+            "@mimetype": "image/svg+xml"
+          },
+          {
+            "@category": "thumbnail",
+            "@_fa": "true",
+            "$": "https://api.elsevier.com/content/object/eid/1-s2.0-S002195172400486X-si15.svg?httpAccept=%2A%2F%2A",
+            "@multimediatype": "Scalable Vector Graphics file",
+            "@type": "ALTIMG",
+            "@size": "9289",
+            "@ref": "si15",
+            "@mimetype": "image/svg+xml"
+          },
+          {
+            "@category": "thumbnail",
+            "@_fa": "true",
+            "$": "https://api.elsevier.com/content/object/eid/1-s2.0-S002195172400486X-si16.svg?httpAccept=%2A%2F%2A",
+            "@multimediatype": "Scalable Vector Graphics file",
+            "@type": "ALTIMG",
+            "@size": "10407",
+            "@ref": "si16",
+            "@mimetype": "image/svg+xml"
+          },
+          {
+            "@category": "thumbnail",
+            "@_fa": "true",
+            "$": "https://api.elsevier.com/content/object/eid/1-s2.0-S002195172400486X-si17.svg?httpAccept=%2A%2F%2A",
+            "@multimediatype": "Scalable Vector Graphics file",
+            "@type": "ALTIMG",
+            "@size": "11907",
+            "@ref": "si17",
+            "@mimetype": "image/svg+xml"
+          },
+          {
+            "@category": "thumbnail",
+            "@_fa": "true",
+            "$": "https://api.elsevier.com/content/object/eid/1-s2.0-S002195172400486X-si18.svg?httpAccept=%2A%2F%2A",
+            "@multimediatype": "Scalable Vector Graphics file",
+            "@type": "ALTIMG",
+            "@size": "6239",
+            "@ref": "si18",
+            "@mimetype": "image/svg+xml"
+          },
+          {
+            "@category": "thumbnail",
+            "@_fa": "true",
+            "$": "https://api.elsevier.com/content/object/eid/1-s2.0-S002195172400486X-si2.svg?httpAccept=%2A%2F%2A",
+            "@multimediatype": "Scalable Vector Graphics file",
+            "@type": "ALTIMG",
+            "@size": "4877",
+            "@ref": "si2",
+            "@mimetype": "image/svg+xml"
+          },
+          {
+            "@category": "thumbnail",
+            "@_fa": "true",
+            "$": "https://api.elsevier.com/content/object/eid/1-s2.0-S002195172400486X-si3.svg?httpAccept=%2A%2F%2A",
+            "@multimediatype": "Scalable Vector Graphics file",
+            "@type": "ALTIMG",
+            "@size": "27465",
+            "@ref": "si3",
+            "@mimetype": "image/svg+xml"
+          },
+          {
+            "@category": "thumbnail",
+            "@_fa": "true",
+            "$": "https://api.elsevier.com/content/object/eid/1-s2.0-S002195172400486X-si4.svg?httpAccept=%2A%2F%2A",
+            "@multimediatype": "Scalable Vector Graphics file",
+            "@type": "ALTIMG",
+            "@size": "12558",
+            "@ref": "si4",
+            "@mimetype": "image/svg+xml"
+          },
+          {
+            "@category": "thumbnail",
+            "@_fa": "true",
+            "$": "https://api.elsevier.com/content/object/eid/1-s2.0-S002195172400486X-si5.svg?httpAccept=%2A%2F%2A",
+            "@multimediatype": "Scalable Vector Graphics file",
+            "@type": "ALTIMG",
+            "@size": "10265",
+            "@ref": "si5",
+            "@mimetype": "image/svg+xml"
+          },
+          {
+            "@category": "thumbnail",
+            "@_fa": "true",
+            "$": "https://api.elsevier.com/content/object/eid/1-s2.0-S002195172400486X-si6.svg?httpAccept=%2A%2F%2A",
+            "@multimediatype": "Scalable Vector Graphics file",
+            "@type": "ALTIMG",
+            "@size": "7406",
+            "@ref": "si6",
+            "@mimetype": "image/svg+xml"
+          },
+          {
+            "@category": "thumbnail",
+            "@_fa": "true",
+            "$": "https://api.elsevier.com/content/object/eid/1-s2.0-S002195172400486X-si7.svg?httpAccept=%2A%2F%2A",
+            "@multimediatype": "Scalable Vector Graphics file",
+            "@type": "ALTIMG",
+            "@size": "10438",
+            "@ref": "si7",
+            "@mimetype": "image/svg+xml"
+          },
+          {
+            "@category": "thumbnail",
+            "@_fa": "true",
+            "$": "https://api.elsevier.com/content/object/eid/1-s2.0-S002195172400486X-si8.svg?httpAccept=%2A%2F%2A",
+            "@multimediatype": "Scalable Vector Graphics file",
+            "@type": "ALTIMG",
+            "@size": "11615",
+            "@ref": "si8",
+            "@mimetype": "image/svg+xml"
+          },
+          {
+            "@category": "thumbnail",
+            "@_fa": "true",
+            "$": "https://api.elsevier.com/content/object/eid/1-s2.0-S002195172400486X-si9.svg?httpAccept=%2A%2F%2A",
+            "@multimediatype": "Scalable Vector Graphics file",
+            "@type": "ALTIMG",
+            "@size": "14439",
+            "@ref": "si9",
+            "@mimetype": "image/svg+xml"
+          }
+        ]
+      },
+      "link": {
+        "@rel": "abstract",
+        "@href": "https://api.elsevier.com/content/abstract/scopus_id/85205135464"
+      }
+    }
+  }
+}

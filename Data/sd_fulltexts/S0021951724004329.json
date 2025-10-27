@@ -1,0 +1,544 @@
+{
+  "metadata": {
+    "title": "Atomic-level insight into the carburization process of iron-based catalysts: A ReaxFF molecular dynamics study",
+    "authors": "; ; ",
+    "journal": "Journal of Catalysis",
+    "date": "2024-10-31",
+    "doi": "10.1016/j.jcat.2024.115719",
+    "abstract": "",
+    "uri": "https://api.elsevier.com/content/article/pii/S0021951724004329",
+    "pii": "S0021951724004329"
+  },
+  "fulltext": {
+    "full-text-retrieval-response": {
+      "scopus-eid": "2-s2.0-85201633925",
+      "originalText": "serial JL 272561 291210 291744 291809 31 Journal of Catalysis JOURNALCATALYSIS 2024-08-17 2024-08-17 2024-08-21 2024-08-21 2024-09-12T08:45:02 1-s2.0-S0021951724004329 S0021-9517(24)00432-9 S0021951724004329 10.1016/j.jcat.2024.115719 S300 S300.1 FULL-TEXT 1-s2.0-S0021951724X0010X 2024-10-12T11:34:18.801752Z 0 0 20241001 20241031 2024 2024-08-17T16:04:09.000326Z absattachment articleinfo articlenumber articletitlenorm authfirstinitialnorm authfirstsurnamenorm cid cids contenttype copyright crossmark dateloaded dateloadedtxt datesearch datesort dateupdated dco docsubtype doctype doi eid ewtransactionid hubeid indexeddate issn issnnorm itemstage itemtransactionid itemweight openaccess openarchive pg pgfirst pii piinorm pubdateend pubdatestart pubdatetxt pubyr sectiontitle sortorder srctitle srctitlenorm srctype ssids alllist content subj subheadings suppl tomb volfirst volissue volumelist webpdf webpdfpagecount yearnav figure e-component body acknowledge affil appendices articletitle auth authfirstini authfull authkeywords authlast grantnumber grantsponsor highlightsabst orcid primabst pubtype ref specialabst 0021-9517 00219517 true 438 438 C Volume 438 26 115719 115719 115719 202410 October 2024 2024-10-01 2024-10-31 2024 Regular Articles article fla © 2024 Elsevier Inc. All rights are reserved, including those for text and data mining, AI training, and similar technologies. ATOMICLEVELINSIGHTCARBURIZATIONPROCESSIRONBASEDCATALYSTSAREAXFFMOLECULARDYNAMICSSTUDY GUO S 1 Introduction 2 Computational details 3 Results and discussion 3.1 The carburization process for iron oxide particles 3.1.1 The competition between CO dissociation and surface reduction 3.1.2 The impact of temperature and particle size 3.1.3 The driving force of penetration from volumetric strain analysis 3.2 Impact of oxygen vacancy defects 3.2.1 CO dissociation and CO2 production 3.2.2 Atomic distribution 3.3 Surface dependence on carburization 3.3.1 Surface dependence on CO dissociation 3.3.2 Surface effect on the penetration of C and O 4 Conclusions CRediT authorship contribution statement Acknowledgments Appendix A Supplementary material References DING 2014 2267 2270 M SUN 2022 22589 22598 X ZHANG 2021 396 401 X SHEN 2021 6564 6572 X CHERAGHI 2020 198 215 A ZHANG 2006 405 415 C DRY 2002 227 241 M LI 2018 1264 1273 Y DESMIT 2010 14928 14941 E MENG 2022 112538 Y FAN 2022 218 226 J LI 2023 1 8 S NIELSEN 2020 48 61 M SATOH 2010 834 840 K LIU 2017 4867 4875 X JUNG 1992 654 667 H RAUPP 1979 348 360 G XU 2005 2392 2403 J LI 2002 202 217 S LI 2001 5743 5750 S HUANG 2006 13920 13925 D JIANG 2003 214103 D JIANG 2005 045402 D COOPER 1980 35 43 B YAMADA 2013 1982 1996 T SUBBARAMAN 2013 5195 5207 R EWEN 2020 9852 9865 J FARZI 2020 114006 N LIU 2021 141 147 Z CHENG 2023 111926 Q LU 2018 27582 27589 K LU 2019 150 160 K LU 2021 151018 K LIU 2022 282 293 Y LU 2023 15839 15851 K GUO 2023 11948 11957 S LIU 2023 4313 4322 Y PRIEVE 1988 1 13 D FERRER 2016 025007 M MENG 2019 478 486 Y HUO 2011 7403 7406 C BERENDSEN 1984 3684 3690 H ZHONG 2017 630 637 H GOIKOETXEA 2014 066103 I LIU 2015 15500 15505 F MOHAMMADZADEH 2016 123 130 R YUAN 2020 428 430 W STUKOWSKI 2010 015012 A MARTOS 2009 4475 4481 C DING 2015 982 989 M HE 2018 2806 2814 Y SORESCU 2008 10472 10489 D WANG 2014 1991 2005 T ZHANG 2024 116 124 H YIN 2019 217 225 J GUOX2024X115719 GUOX2024X115719XS 2026-08-21T00:00:00.000Z 2026-08-21T00:00:00.000Z http://creativecommons.org/licenses/by-nc-nd/4.0/ © 2024 Elsevier Inc. All rights are reserved, including those for text and data mining, AI training, and similar technologies. 2024-09-06T00:20:36.732Z http://vtw.elsevier.com/data/voc/AddOnTypes/50.7/aggregated-refined National Key R&D Program of China 2022YFA1604103 NKRDPC National Key Research and Development Program of China http://data.elsevier.com/vocabulary/SciValFunders/501100012166 http://sws.geonames.org/1814991/ Chinese Academy of Sciences CAS-WX2021SF0110 YSBR-005 ZDBS-LY-7007 CAS Chinese Academy of Sciences http://data.elsevier.com/vocabulary/SciValFunders/501100002367 http://sws.geonames.org/1814991 Institute of Coal Chemistry, Chinese Academy of Sciences SCJC-XCL-2022-14 ICC Institute of Coal Chemistry, Chinese Academy of Sciences http://data.elsevier.com/vocabulary/SciValFunders/501100018804 http://sws.geonames.org/1814991/ National Science Fund for Distinguished Young Scholars of China 22225206 National Science Fund for Distinguished Young Scholars http://data.elsevier.com/vocabulary/SciValFunders/501100005153 http://sws.geonames.org/1814991 National Natural Science Foundation of China 22202226 NSFC National Natural Science Foundation of China http://data.elsevier.com/vocabulary/SciValFunders/501100001809 http://sws.geonames.org/1814991 2020SHB008 Shanxi Province Science and Technology Department http://data.elsevier.com/vocabulary/SciValFunders/501100013318 http://sws.geonames.org/1814991 2023BWZ005 SKLCC CAS SKLCC http://data.elsevier.com/vocabulary/SciValFunders/501100019044 http://sws.geonames.org/1814991 Shanxi Province Foundation MOST Ministry of Science and Technology of the People's Republic of China http://data.elsevier.com/vocabulary/SciValFunders/501100002855 http://sws.geonames.org/1814991 Autonomous Research Project of SKLCC The authors are grateful for the financial support from National Science Fund for Distinguished Young Scholars of China (22225206), National Key R&D Program of China (No. 2022YFA1604103), CAS Project for Young Scientists in Basic Research (YSBR-005), Key Research Program of Frontier Sciences CAS (ZDBS-LY-7007), Informatization Plan of Chinese Academy of Sciences (CAS-WX2021SF0110), the Autonomous Research Project of SKLCC (2023BWZ005), the Shanxi Province Foundation for PhD (2020SHB008), the innovation foundation of the Institute of Coal Chemistry, Chinese Academy of Sciences (SCJC-XCL-2022-14), and the National Natural Science Foundation of China (22202226). https://doi.org/10.15223/policy-017 https://doi.org/10.15223/policy-037 https://doi.org/10.15223/policy-012 https://doi.org/10.15223/policy-029 https://doi.org/10.15223/policy-004 item S0021-9517(24)00432-9 S0021951724004329 1-s2.0-S0021951724004329 10.1016/j.jcat.2024.115719 272561 2024-10-12T11:34:18.801752Z 2024-10-01 2024-10-31 1-s2.0-S0021951724004329-main.pdf https://s3-eu-west-1.amazonaws.com/prod-ucs-content-store-eu-west/content/pii:S0021951724004329/MAIN/application/pdf/24bcf683405c714a680693f64c8f50b9/main.pdf main.pdf pdf true 10769081 MAIN 10 1-s2.0-S0021951724004329-main_1.png https://s3-eu-west-1.amazonaws.com/prod-ucs-content-store-eu-west/content/pii:S0021951724004329/PREVIEW/image/png/a9ec6c9c9f6369149d9344de747a30cd/main_1.png main_1.png png 57493 849 656 IMAGE-WEB-PDF 1 1-s2.0-S0021951724004329-gr9.jpg https://s3-eu-west-1.amazonaws.com/prod-ucs-content-store-eu-west/content/pii:S0021951724004329/gr9/DOWNSAMPLED/image/jpeg/d3ac424a0d68cdcfd3bf07135101b959/gr9.jpg gr9 gr9.jpg jpg 42124 249 640 IMAGE-DOWNSAMPLED 1-s2.0-S0021951724004329-gr1.jpg https://s3-eu-west-1.amazonaws.com/prod-ucs-content-store-eu-west/content/pii:S0021951724004329/gr1/DOWNSAMPLED/image/jpeg/ea43c677e23c1106abcfd6ad0bf56eab/gr1.jpg gr1 gr1.jpg jpg 136555 509 751 IMAGE-DOWNSAMPLED 1-s2.0-S0021951724004329-gr2.jpg https://s3-eu-west-1.amazonaws.com/prod-ucs-content-store-eu-west/content/pii:S0021951724004329/gr2/DOWNSAMPLED/image/jpeg/1d0fc5f96f77fafa3b0f9817b5875094/gr2.jpg gr2 gr2.jpg jpg 63996 516 703 IMAGE-DOWNSAMPLED 1-s2.0-S0021951724004329-ga1.jpg https://s3-eu-west-1.amazonaws.com/prod-ucs-content-store-eu-west/content/pii:S0021951724004329/ga1/DOWNSAMPLED/image/jpeg/47adc8cd8e6a2b281191f6ac1722900e/ga1.jpg ga1 true ga1.jpg jpg 25865 200 458 IMAGE-DOWNSAMPLED 1-s2.0-S0021951724004329-gr3.jpg https://s3-eu-west-1.amazonaws.com/prod-ucs-content-store-eu-west/content/pii:S0021951724004329/gr3/DOWNSAMPLED/image/jpeg/2cc5d9d1a7bb6a7e52f8c80864a10f3b/gr3.jpg gr3 gr3.jpg jpg 75588 422 781 IMAGE-DOWNSAMPLED 1-s2.0-S0021951724004329-gr10.jpg https://s3-eu-west-1.amazonaws.com/prod-ucs-content-store-eu-west/content/pii:S0021951724004329/gr10/DOWNSAMPLED/image/jpeg/2ab423203d2da2d03f9bc0bd4565547f/gr10.jpg gr10 gr10.jpg jpg 108341 558 535 IMAGE-DOWNSAMPLED 1-s2.0-S0021951724004329-gr4.jpg https://s3-eu-west-1.amazonaws.com/prod-ucs-content-store-eu-west/content/pii:S0021951724004329/gr4/DOWNSAMPLED/image/jpeg/39de2eede0f2cac56a48d5ebcdd7d03a/gr4.jpg gr4 gr4.jpg jpg 33173 221 535 IMAGE-DOWNSAMPLED 1-s2.0-S0021951724004329-gr5.jpg https://s3-eu-west-1.amazonaws.com/prod-ucs-content-store-eu-west/content/pii:S0021951724004329/gr5/DOWNSAMPLED/image/jpeg/8bdc38de02ed5ff4fd7dc22755c64265/gr5.jpg gr5 gr5.jpg jpg 27946 239 535 IMAGE-DOWNSAMPLED 1-s2.0-S0021951724004329-gr6.jpg https://s3-eu-west-1.amazonaws.com/prod-ucs-content-store-eu-west/content/pii:S0021951724004329/gr6/DOWNSAMPLED/image/jpeg/88b18c0df971e131ccd760f7308bdb36/gr6.jpg gr6 gr6.jpg jpg 74152 442 628 IMAGE-DOWNSAMPLED 1-s2.0-S0021951724004329-gr7.jpg https://s3-eu-west-1.amazonaws.com/prod-ucs-content-store-eu-west/content/pii:S0021951724004329/gr7/DOWNSAMPLED/image/jpeg/05efb8a4e768e34bb2b5ae28e50bb627/gr7.jpg gr7 gr7.jpg jpg 42868 254 628 IMAGE-DOWNSAMPLED 1-s2.0-S0021951724004329-gr8.jpg https://s3-eu-west-1.amazonaws.com/prod-ucs-content-store-eu-west/content/pii:S0021951724004329/gr8/DOWNSAMPLED/image/jpeg/0d0ad3a68b599622255ec67aa7312f75/gr8.jpg gr8 gr8.jpg jpg 95866 365 653 IMAGE-DOWNSAMPLED 1-s2.0-S0021951724004329-gr9.sml https://s3-eu-west-1.amazonaws.com/prod-ucs-content-store-eu-west/content/pii:S0021951724004329/gr9/THUMBNAIL/image/gif/24b1c6cb19e39db8f7cc63a56de95b13/gr9.sml gr9 gr9.sml sml 8355 85 219 IMAGE-THUMBNAIL 1-s2.0-S0021951724004329-gr1.sml https://s3-eu-west-1.amazonaws.com/prod-ucs-content-store-eu-west/content/pii:S0021951724004329/gr1/THUMBNAIL/image/gif/93a74fef8624b6032595277707027036/gr1.sml gr1 gr1.sml sml 20539 148 219 IMAGE-THUMBNAIL 1-s2.0-S0021951724004329-gr2.sml https://s3-eu-west-1.amazonaws.com/prod-ucs-content-store-eu-west/content/pii:S0021951724004329/gr2/THUMBNAIL/image/gif/516aa605987b36de1f76c9f82939d07e/gr2.sml gr2 gr2.sml sml 10520 161 219 IMAGE-THUMBNAIL 1-s2.0-S0021951724004329-ga1.sml https://s3-eu-west-1.amazonaws.com/prod-ucs-content-store-eu-west/content/pii:S0021951724004329/ga1/THUMBNAIL/image/gif/ca206185268eb5ae89c0185f8f5c980a/ga1.sml ga1 true ga1.sml sml 8961 96 219 IMAGE-THUMBNAIL 1-s2.0-S0021951724004329-gr3.sml https://s3-eu-west-1.amazonaws.com/prod-ucs-content-store-eu-west/content/pii:S0021951724004329/gr3/THUMBNAIL/image/gif/f7cc71819a08c73967d1fa56db8a502a/gr3.sml gr3 gr3.sml sml 9170 118 219 IMAGE-THUMBNAIL 1-s2.0-S0021951724004329-gr10.sml https://s3-eu-west-1.amazonaws.com/prod-ucs-content-store-eu-west/content/pii:S0021951724004329/gr10/THUMBNAIL/image/gif/bfef10a545937231d5ae7960e99f321f/gr10.sml gr10 gr10.sml sml 14650 164 157 IMAGE-THUMBNAIL 1-s2.0-S0021951724004329-gr4.sml https://s3-eu-west-1.amazonaws.com/prod-ucs-content-store-eu-west/content/pii:S0021951724004329/gr4/THUMBNAIL/image/gif/2d59de77843717c463fe857d27541322/gr4.sml gr4 gr4.sml sml 7810 90 219 IMAGE-THUMBNAIL 1-s2.0-S0021951724004329-gr5.sml https://s3-eu-west-1.amazonaws.com/prod-ucs-content-store-eu-west/content/pii:S0021951724004329/gr5/THUMBNAIL/image/gif/53a965307bb7e8eeb6d912d72997a996/gr5.sml gr5 gr5.sml sml 7562 98 219 IMAGE-THUMBNAIL 1-s2.0-S0021951724004329-gr6.sml https://s3-eu-west-1.amazonaws.com/prod-ucs-content-store-eu-west/content/pii:S0021951724004329/gr6/THUMBNAIL/image/gif/a13f2a7dd2a0232a267128ac6100e7aa/gr6.sml gr6 gr6.sml sml 13913 154 219 IMAGE-THUMBNAIL 1-s2.0-S0021951724004329-gr7.sml https://s3-eu-west-1.amazonaws.com/prod-ucs-content-store-eu-west/content/pii:S0021951724004329/gr7/THUMBNAIL/image/gif/1f959583dbde427bcdce5af7b220a39b/gr7.sml gr7 gr7.sml sml 7425 89 219 IMAGE-THUMBNAIL 1-s2.0-S0021951724004329-gr8.sml https://s3-eu-west-1.amazonaws.com/prod-ucs-content-store-eu-west/content/pii:S0021951724004093/gr8/THUMBNAIL/image/gif/7b5455fad1938562ae09eefebdf0f2f6/gr8.sml gr8 gr8.sml sml 16201 122 219 IMAGE-THUMBNAIL 1-s2.0-S0021951724004329-gr9_lrg.jpg https://s3-eu-west-1.amazonaws.com/prod-ucs-content-store-eu-west/content/pii:S0021951724004329/HIGHRES/image/jpeg/5ada6f746a28b416733d8000c2505a1c/gr9_lrg.jpg gr9 gr9_lrg.jpg jpg 219020 1101 2833 IMAGE-HIGH-RES 1-s2.0-S0021951724004329-gr1_lrg.jpg https://s3-eu-west-1.amazonaws.com/prod-ucs-content-store-eu-west/content/pii:S0021951724004329/HIGHRES/image/jpeg/7329a893c1c1e0d26ac46a09fd4fd960/gr1_lrg.jpg gr1 gr1_lrg.jpg jpg 802641 2254 3325 IMAGE-HIGH-RES 1-s2.0-S0021951724004329-gr2_lrg.jpg https://s3-eu-west-1.amazonaws.com/prod-ucs-content-store-eu-west/content/pii:S0021951724004329/HIGHRES/image/jpeg/e343f0a728cb236e4e99099f37acea3f/gr2_lrg.jpg gr2 gr2_lrg.jpg jpg 336679 2287 3115 IMAGE-HIGH-RES 1-s2.0-S0021951724004329-ga1_lrg.jpg https://s3-eu-west-1.amazonaws.com/prod-ucs-content-store-eu-west/content/pii:S0021951724004329/HIGHRES/image/jpeg/5dcc0147686fec92b37e26a20201dafd/ga1_lrg.jpg ga1 true ga1_lrg.jpg jpg 135514 886 2028 IMAGE-HIGH-RES 1-s2.0-S0021951724004329-gr3_lrg.jpg https://s3-eu-west-1.amazonaws.com/prod-ucs-content-store-eu-west/content/pii:S0021951724004329/HIGHRES/image/jpeg/c023a3d4148753e91205c73e654f48f3/gr3_lrg.jpg gr3 gr3_lrg.jpg jpg 439165 1868 3459 IMAGE-HIGH-RES 1-s2.0-S0021951724004329-gr10_lrg.jpg https://s3-eu-west-1.amazonaws.com/prod-ucs-content-store-eu-west/content/pii:S0021951724004329/HIGHRES/image/jpeg/094229db6af2c8dfdb689c3456ad1c32/gr10_lrg.jpg gr10 gr10_lrg.jpg jpg 706232 2468 2368 IMAGE-HIGH-RES 1-s2.0-S0021951724004329-gr4_lrg.jpg https://s3-eu-west-1.amazonaws.com/prod-ucs-content-store-eu-west/content/pii:S0021951724004329/HIGHRES/image/jpeg/6f9acda3ca811758c078927c49864df3/gr4_lrg.jpg gr4 gr4_lrg.jpg jpg 185557 977 2368 IMAGE-HIGH-RES 1-s2.0-S0021951724004329-gr5_lrg.jpg https://s3-eu-west-1.amazonaws.com/prod-ucs-content-store-eu-west/content/pii:S0021951724004329/HIGHRES/image/jpeg/109efbde530ed81f30eaea629b02642d/gr5_lrg.jpg gr5 gr5_lrg.jpg jpg 130274 1060 2368 IMAGE-HIGH-RES 1-s2.0-S0021951724004329-gr6_lrg.jpg https://s3-eu-west-1.amazonaws.com/prod-ucs-content-store-eu-west/content/pii:S0021951724004093/HIGHRES/image/jpeg/c7037e35a214e2f47a10806b1e0f383c/gr6_lrg.jpg gr6 gr6_lrg.jpg jpg 391863 1956 2782 IMAGE-HIGH-RES 1-s2.0-S0021951724004329-gr7_lrg.jpg https://s3-eu-west-1.amazonaws.com/prod-ucs-content-store-eu-west/content/pii:S0021951724004093/HIGHRES/image/jpeg/c133d1ed67d86b53785f1a45ad66ae86/gr7_lrg.jpg gr7 gr7_lrg.jpg jpg 236252 1126 2782 IMAGE-HIGH-RES 1-s2.0-S0021951724004329-gr8_lrg.jpg https://s3-eu-west-1.amazonaws.com/prod-ucs-content-store-eu-west/content/pii:S0021951724004093/HIGHRES/image/jpeg/611d2c8659ae842c48b0582d1fcd2f0d/gr8_lrg.jpg gr8 gr8_lrg.jpg jpg 579246 1616 2891 IMAGE-HIGH-RES 1-s2.0-S0021951724004329-mmc1.docx https://s3-eu-west-1.amazonaws.com/prod-ucs-content-store-eu-west/content/pii:S0021951724004329/mmc1/MAIN/application/vnd.openxmlformats-officedocument.wordprocessingml.document/599bd5e0df4eb49745a76dae348594a8/mmc1.docx mmc1 mmc1.docx docx 7768076 APPLICATION 1-s2.0-S0021951724004329-am.pdf am am.pdf pdf 1795679 AAM-PDF https://s3-eu-west-1.amazonaws.com/prod-ucs-content-store-eu-west/content/egi:10B9JTVQCMM/MAIN/application/pdf/6b0ecbe3bdf93635e93875cd62e842c5/am.pdf YJCAT 115719 115719 S0021-9517(24)00432-9 10.1016/j.jcat.2024.115719 Elsevier Inc. Fig. 1 (a) Modeling of the reaction system of Fe3O4 nanoparticles in the atmosphere of CO; Fe3O4 nanoparticles of different sizes: (b) 3 nm, (c) 5 nm, (d) 7 nm; (e) Surface modeling of Fe3O4; Top view of Fe3O4 surfaces: (f1) (001); (g1) (110); (h1) (111); Side view of Fe3O4 surfaces: (f2) (001); (g2) (110); (h2) (111). Fig. 2 (a) Schematic diagram of the phase transition during the carburization of iron oxides; (b) Relationship between Gibbs free energy change (ΔG, KJ/mol) and temperature (T, K); (c) Schematic diagram of carburization and reduction; (d) Competition diagram for CO dissociation and CO2 production of 3 nm Fe3O4 at 800 K. Fig. 3 Competition diagram of CO dissociation and CO2 production for Fe3O4 at (a) 3 nm, (b) 5 nm, (c) 7 nm; Fe2O3 at (d) 3 nm, (e) 5 nm, (f) 7 nm. Fig. 4 (a) The ratio of CO dissociation, CO2 production and residual CO for 5 nm Fe3O4 particle at different temperature after 800 ps simulation. (b) The dependence of the CO dissociation rate on particle size and temperature for Fe3O4 particles after 800 ps simulation. Fig. 5 Schematic diagram of the carburization process for (a-c) small-sized particles and (d-f) large-sized particles. Fig. 6 Rendering of the distribution of strained atoms of (a) O in Fe3O4 and (b) Fe in Fe3O4; plots of the distribution of strained atoms of (c) O in Fe3O4 and (d) Fe in Fe3O4. Fig. 7 Effect of concentrations of Ov defects on (a) CO dissociations and (b) CO2 production of Fe3O4. Fig. 8 (a) Projections of the distribution of dissociated C atoms and (b) O atoms (from CO) in Fe3O4 nanoparticles at different Ov defect concentrations from 0 % to 30 %. Fig. 9 CO dissociation of different surfaces of (a) Fe and (b) Fe3O4. Fig. 10 (a) The structure evolution of Fe3O4 (110) surface; The distribution of dissociated C and O atoms as a function of time for (b-c) Fe3O4 (110) and (e-f) Fe3O4 (111); (d), (g) Average distribution of dissociated C and O atoms in 750–800 ps for (110) and (111) surfaces, respectively. The simulation temperature was 800 K, and the initial number of CO was 118. Research article Atomic-level insight into the carburization process of iron-based catalysts: A ReaxFF molecular dynamics study Shuai Guo Writing – original draft Visualization Investigation Formal analysis Data curation Conceptualization a c d Kuan Lu Writing – review & editing Methodology Funding acquisition Conceptualization b Ke Zheng Writing – review & editing Software Formal analysis c Xin Yu Validation b c Pengju Ren Writing – review & editing Supervision b c ⁎ Yong Yang Validation Resources b c Yong-Wang Li Resources Funding acquisition b c Honglin Chen Writing – review & editing Supervision Resources Funding acquisition a d ⁎ Xiao-Dong Wen Writing – review & editing Supervision Resources Funding acquisition Conceptualization b c d ⁎ a Chengdu Institute of Organic Chemistry, Chinese Academy of Sciences, Chengdu, Sichuan 610041, PR China Chengdu Institute of Organic Chemistry Chinese Academy of Sciences Chengdu Sichuan 610041 PR China Chengdu Institute of Organic Chemistry, Chinese Academy of Sciences, Chengdu, Sichuan 610041, PR China b State Key Laboratory of Coal Conversion, Institute of Coal Chemistry, Chinese Academy of Sciences, Taiyuan 030001, PR China State Key Laboratory of Coal Conversion Institute of Coal Chemistry Chinese Academy of Sciences Taiyuan 030001 PR China State Key Laboratory of Coal Conversion, Institute of Coal Chemistry, Chinese Academy of Sciences, Taiyuan 030001, PR China c National Energy Center for Coal to Clean Fuels, Synfuels China Co., Ltd, Huairou District, Beijing 101400, PR China National Energy Center for Coal to Clean Fuels Synfuels China Co., Ltd, Huairou District Beijing 101400 PR China National Energy Center for Coal to Clean Fuels, Synfuels China Co., Ltd, Huairou District, Beijing 101400, PR China d University of Chinese Academy of Sciences, Beijing 100049, PR China University of Chinese Academy of Sciences Beijing 100049 PR China University of Chinese Academy of Sciences, Beijing 100049, PR China ⁎ Corresponding authors at: State Key Laboratory of Coal Conversion, Institute of Coal Chemistry, Chinese Academy of Sciences, Taiyuan 030001, PR China (P. Ren and X.-D. Wen); Chengdu Institute of Organic Chemistry, Chinese Academy of Sciences, Chengdu, Sichuan 610041, PR China (H. Chen). State Key Laboratory of Coal Conversion Institute of Coal Chemistry Chinese Academy of Sciences Taiyuan 030001 PR China Graphical abstract Transition metal carbide catalysts have garnered widespread attention due to their outstanding catalytic performance. The carbide catalysts, such as FexC and MoxC are typically obtained from their oxide carburization. The reduction and carburization processes are key steps during the activation of oxide precursors, which determine the activity and stability. An understanding of the carburization process mechanism is very important for the optimization of carbide catalysts. Iron-based catalysts are widely used in the large-scale coal-to-liquid industry because of their low price and high activity. In this paper, the carburization process of iron oxide nanoparticles was simulated by the Reactive force field (ReaxFF) molecular dynamics method. The results illustrate that the competition between CO dissociation and reduction of oxides occurs at the 100 ps time scale, which can be tuned by particle size and oxygen vacancy. We have explained the counter-intuitive finding that small oxide particles are more difficult to achieve fully carburization than larger ones; this is because rapid carbon accumulation on the surface blocks the oxygen diffusion channels from bulk to surface. The atomic distribution heat map was carried out to demonstrate the carbon and oxygen penetration processes. Meanwhile, the volumetric strain analysis reveals the driving force comes from the strong tendency to form Fe-C bonds. The dependence on surface orientation was further systematically investigated. This work provides microscopic insights into the carburization process of iron-based materials and the fundamental knowledge for the optimization of catalyst synthesis procedures. Keywords Iron Catalysts Carburization ReaxFF Molecular Dynamics Fischer-Tropsch Synthesis Data availability Data will be made available on request. 1 Introduction Transition metal carbides (MCx, M=Fe, Mo, Mn, and Co, etc.) catalysts have garnered widespread attention due to their outstanding catalytic performance and unique physicochemical properties, which are typically obtained by carbonizing their oxides [1–5]. For instance, iron-based catalysts are widely used in heterogeneous catalytic reactions in various fields such as the synthesis of ammonia, Fischer-Tropsch synthesis, water–gas shift reaction, and pollution treatment due to the abundance, low cost, and excellent catalytic properties [6,7]. Iron-based catalysts not only exhibit high activity and olefin selectivity in Fischer-Tropsch synthesis, but also demonstrate high activity in water gas shift reactions. This is a great advantage for adjusting the H2/CO ratio of syngas and is more adaptable for broad carbon resources, such as waste plastics and biomass, to meet the carbon–neutral policy [8]. The industrial catalyst for the Fischer-Tropsch reaction involves iron carbide species, which are formed in situ within iron oxides upon activation with CO or synthesis gas [9]. During the activation process, the oxide precursor undergoes reduction and carburization to transform into various iron carbide compounds [10]. An understanding of the carburization process mechanism is very important for the optimization and control of iron carbide catalysts. In addition to Fischer-Tropsch synthesis, the carburization of iron oxide is also important for high-temperature water gas shift reactions catalyzed by Fe3O4-based catalysts, which is an important industrial method for hydrogen production. The carburization of Fe3O4 is inevitable during the water gas shift reaction resulting in reduced activity and selectivity of objective products [11]. Therefore, understanding of the carburization process is essential for understanding the catalytic properties of the different phases of the catalyst under subsequent reaction conditions. Various in-situ characterization techniques have been employed to investigate the factors affecting the carburization process, such as catalyst composition, particle size, [12,13] carburization atmosphere, [12–14] and temperature [15]. These studies analyze the carburization rate, degree of carbon deposition, and changes in physical phase and morphology under different conditions. Liu et al. [16] directly observed the formation and growth of iron carbide nuclei in iron nanoparticles under reaction conditions that mimic Fischer-Tropsch synthesis using environmental transmission electron microscopy (TEM). By studying the effect of grain size on the generation of iron carbide, it was found that smaller iron grains favor the generation of ε-iron carbide and larger iron grains favor the generation of χ-Fe5C2 [17,18]. Ding et al. [1] used in situ Mössbauer spectroscopy to study the reductive carburization behavior of Fe2O3 in CO and found that it was first reduced to Fe3O4 and then gradually transformed into iron carbide. However, during this process, the formation of FeO and α-Fe was not detected. This could be due to the direct conversion of Fe3O4 to FexC, or the phase transition occurring too rapidly to detect the change in phases. The mechanism of the carburization process has been described in the literature, and it is believed that the C* atoms generated by the dissociation of CO and Fe3O4 generate FexC or carbon deposit [19]. It has also been suggested that the migration and removal of oxygen from the lattice is a quick step and that the carburization process slows down or eventually stops because the dense FexC or carbon deposit prevents the migration of oxygen [20,21]. Fan et al. [12] found that the complete carburization of γ-Fe2O3 nanoparticles would form a mixed phase of χ-Fe5C2 and θ-Fe3C. The complete carburization of γ-Fe2O3 particles shortens with increasing particle size while smaller γ-Fe2O3 particles retain more surface carbon, inhibiting the carburization process. Until now, there has been no comparison of the carburization of different precursors under the same conditions as well as an atomic level understanding. Molecular simulations and calculations have also provided unique insights into the catalyst carburization mechanism. Huang et al. [22] investigated the adsorption of CO on the two stable surfaces of Fe3O4(111), Feoct2-terminal and Fetet1-terminal, using standard DFT. They found the most stable adsorption of CO on both surfaces was at the top site, and that adsorption was stronger on the Feoct2-terminal than the Fetet1-terminal. The adsorption and diffusion of carbon atoms on the Fe (100) and (110) surfaces were studied in detail by Jiang and Carter, [23,24] who found that C binds strongly to the Fe surface and tends to adsorb at highly coordinated sites. Cooper et al. [25] investigated the effect of surface structure on the carbon deposition reaction using single-crystal iron and concluded that the Fe (100) surface is more susceptible to carbon deposition than the Fe (110) surface. Li et al. [13] concluded that (110) facets are more reactive than (111) and more prone to C* formation to carbonize Fe3O4. The ReaxFF is an empirical force field method based on bond orders, which can represent bond breaking and formation in dynamic simulations. It offers fast computational speed and enables the study of large-scale systems. Therefore, it is more suitable for describing chemical reaction systems such as gas adsorption and dissociation. Corrosion, sintering, and molecular adsorption/dissociation on iron-based materials have been extensively studied [26–31]. For iron-based materials (iron carbides, iron oxides), our group has retrained the parameters of ReaxFF, [32] which can be used to study dynamic oxidation, carburization, and chemical reaction processes [33–37]. We have explored the direct strain and three types of indirect strain of the interface that affect the CO dissociation, opening up new avenues for strain-engineered catalysis [36]. Our previous work found that the oxidation rate was related to the homogeneity of the subsurface and during the oxidation process, a counter-diffusion of Fe and C occurred [37]. Liu et al. [38] simulated the carburization of Fe particles using different carbon sources (CH4, C2H6, C2H4, C2H2), obtaining iron carbides (FeCx) with varying Fe/C ratios, and investigated the carburization mechanism and the structure after carburization. However, the dynamic processes and atomic diffusion regarding oxide carburization are not clear. Therefore, understanding of chemical reactions, atom diffusion and structural evolution during the carburization process at the molecular level is highly desirable. In this study, the carburization of iron and iron oxides (Fe3O4 and Fe2O3) was investigated using the ReaxFF MD method, involving the competition between reduction and carburization. We also systematically studied the mechanism of carburization on iron oxides including the effects of temperature, particle size, oxygen vacancy, and surface structure, which are crucial for understanding the relationship between carburization and reduction during carburization. 2 Computational details All simulations were implemented using the Large Scale Atomic/Molecular Parallel Simulator (LAMMPS).[39] The ReaxFF potential for Fe/C/O developed by Lu, K. et al. [32], which was obtained by first-principles fitting, is suitable for simulating the Fe-C-O system [33–37]. For the simulations, we constructed three-dimensional (3D) periodic simulation boxes with equal dimensions of 10.7 nm × 10.7 nm × 10.7 nm, containing a nanoparticle and 500 CO molecules (Fig. 1 a). The 3 nm, 5 nm, and 7 nm Wulff structures of Fe3O4 are shown in Fig. 1 as b, c, and d, respectively. These nanoparticles were obtained based on surface energy construction.[40–42] The nanoparticle structures of Fe and Fe2O3 are shown in Fig. S1. To investigate the effect of surface structure on carburization, we chose (110), (100), (211), (310), (111) surfaces of Fe, (100), (001), (012), (110), (101) surfaces of Fe2O3, and (111), (110), (001) surfaces of Fe3O4 respectively. The surface model is shown in the Fig. 1e, with 3D dimensions of 40 Å× 40 Å× 100 Å. The top and side views of each surface of Fe3O4 are shown in Fig. 1(f1-h2). The surface structures of the other materials are shown in Fig. S2. Periodic boundary conditions were applied in the x and y directions, while reflective boundary conditions were used in the z direction to prevent undesired carburization on the substrate. During the simulation process, the bottom 10 Å were fixed, while the remaining upper layers were allowed to vibrate freely. CO molecules were randomly placed in the gas phase at a distance of 5 Å from the surface, with quantities of 118 and 236 (using numbers of CO to represent pressure). The NVT ensemble with a Berendsen thermostat [43] was used in all simulations. The total simulation time was 800 ps with a time step of 0.25 fs. The equations of motion were integrated using the Verlet algorithm. Before the production run, the energy was minimized using the conjugate gradient algorithm, followed by a relaxation at 300 K for 100 ps. 3 Results and discussion 3.1 The carburization process for iron oxide particles 3.1.1 The competition between CO dissociation and surface reduction Carburization of transition metal oxides is accompanied by a reduction reaction during the phase transition process. As suggested by experiments, [10] there are direct and indirect routes for the carburization of iron oxides depending on the operating conditions (Fig. 2 a). Both routes start from the most stable Fe2O3 phase and involve reduction to Fe3O4 first. For the direct route, carbides are formed directly from Fe3O4 without forming other reduction phases. For the indirect routes, Fe3O4 can be fully reduced to iron metal, followed by the carburization process. The thermodynamics of the phase transition in Fig. 2b indicates that the direct carburization of Fe3O4 to Fe3C is preferable to full reduction at temperatures lower than 600 K. Due to the contribution of entropy, the full reduction becomes more favorable with increasing temperature. This thermodynamic analysis indicates that carburization is more likely to occur at low temperatures, while reduction is more likely to occur at high temperatures. Considering the kinetic factor, both the reaction rates for carburization and reduction will slow down at low temperatures. Therefore, the temperature for the direct carburization route can’t be too high or too low due to the thermodynamic and kinetic limitations, respectively. In general, the carburization of transition metal oxides under a CO atmosphere involves multiple elementary reactions, as illustrated in Fig. 2c. The elementary reactions include: (1) CO(g) → CO* (2) CO*→C*+O* (3) CO*+O*→CO2(g) (4) O#→O* (5) C*→C# (6) C*→C(gr) where CO*, C*, and O* denote species adsorbed on surface, O# and C# represent species in the bulk phase, and C(gr) refers to graphitic carbon. The total reaction of Eqs (1) + (2) + (3) + (6) is the disproportionation of carbon monoxide into carbon dioxide and graphite, (7) 2CO(g) → CO2(g) + C(gr) which is the so-called Boudouard reaction. Eq.7 is highly exothermic and acts as the main driving force of the carburization process. These steps involve different time scales due to their distinct mechanism. For instance, the adsorption (Eq. (1) and dissociation (Eq. (2) of CO, as well as the generation of CO2 (Eq. (3), are surface processes, which generally occur with relatively fast reaction rates. In contrast, the migration of O atoms from bulk to surface (Eq. (4) and the penetration of dissociated C atoms from surface to bulk (Eq. (5), along with the formation of graphitic carbon (Eq. (6) is a relatively slower process. Limited by the simulating time, the full-process of carburization including phase transition cannot be achieved. However, the early-stage of carburization, including CO adsorption and dissociation, surface reduction, CO2 production, and C and O atoms migration, can still provide a wealth of atomic-level insight of carburization. The following analyses are all based on the early-stage simulation. Our MD simulations reproduce the competition between CO dissociation and oxide surface reduction at the early stage of carburization, as shown in Fig. 2d. The amount of CO dissociation (Eq. (1) is higher than CO2 production (Eq. (3) at the first 300 ps of the reaction for the 3 nm Fe3O4 particle. This indicates that CO dissociation dominates at the early stage of carburization rather than the reduction process. This is different from the expectation that reduction is much easier than CO dissociation on oxide surface [13,44]. It is generally accepted that CO has weak adsorption on iron oxide surfaces and can only dissociate on partially reduced surfaces. However, this inference is mainly based on static or the model systems under low pressure and temperature. According to the simulations, CO can easily dissociate on Fe3O4 particles due to the dynamic effect, where iron sites can be exposed as active centers. The reason for CO dissociation being faster than CO2 production might be that the dissociation only depends on the concentration of CO* whereas CO2 production depends on both the concentrations of CO* and O*. After 300 ps, the amount of CO2 production surpasses CO dissociation due to the accumulation of dissociated O*. The amount of CO2 production keeps increasing and CO dissociation slightly decreases, which is due to the thermodynamic favorability of reduction than dissociation. Another piece of evidence is that, compared to small-sized 3 nm nanoparticles in Fig. 2d, large-sized nanoparticles in Fig. 3 expose more O* and reaction sites, which accelerate both carburization and reduction rates, resulting in the leftward shift of the crossover point between carburization and reduction. There are two pathways for CO2 production depending on the original source of oxygen, which are the reduction of iron oxide and the Boudouard reaction (Eq. (7). In the pathway of reduction, oxygen comes from the oxide, while in the Boudouard reaction oxygen comes from another carbon monoxide. The source of CO2 can be identified through isotope-labelling experiment. According to Fig. S3a, for 3 nm Fe3O4 nanoparticle, the main source of CO2 production is from reduction (ca. 80 %) and a small portion (ca. 20 %) coming from the Boudouard reaction at early-stage of carburization process. Therefore, the content of CO2 production can be used as an approximate measure of the content of reduction. 3.1.2 The impact of temperature and particle size As shown in Fig. 4 a, the competition between CO dissociation and CO2 production on Fe3O4 particles is temperature sensitive. After 800 ps of reaction, the proportions of CO used for CO2 production are greater than carburization above 500 K, and the proportion of CO2 production increases with the rise in temperature, as shown in Fig. 2b. Similar simulations were carried out on Fe2O3 particles for comparison as shown in Fig. S5. Fe2O3 is more prone to form CO2 than to Fe3O4 because it contains more surface O*. However, on Fe nanoparticles, there was almost no CO2 production, only dissociation occurred, and the proportion of carburization increased with the rising temperature. This indicates that reduction only happens on the surface with an adequate concentration of O*. For the effect of particle size, as shown in Fig. S7, the residual CO is greater for smaller particles than for larger ones of Fe3O4 and Fe2O3. This is due to the larger surface area of the larger particles, while the amount of CO in the gas is constant in our simulation. The general trend for the ratio of dissociation and reduction with particle size is that the larger of particle size, the higher the ratio of CO dissociation. To provide a better comparison between different-sized particles, we define the volumetric dissociation rate as the amount of CO dissociation per particle volume, per time (mol/s/m3) after 800 ps simulation. As shown in Fig. 4b, the volumetric dissociation rate significantly decreases with the increase in particle size from 3 nm to 7 nm. The reason for this size effect is that smaller particles have a larger specific surface area. There is the same trend for different sizes of Fe2O3 particles shown in Fig. S6. However, for the metallic Fe particles, the volumetric dissociation rates increase with temperature as expected from the Arrhenius equation. For the size effect on proportion of the CO2 source, as shown in Fig. S3, the CO2 from the Boudouard rection decreases for larger size particles. On 7 nm Fe3O4 particle, there is very little CO2 from the Boudouard reaction. This is due to the lower concentration of dissociated oxygen on larger particles, resulting in a lower reaction possibility with CO. According to the size effect on CO dissociation and reduction, it is reasonable to deduce the carburization process for different sizes of oxide particles as illustrated in Fig. 5 . For a small particle, CO dissociation is faster than the reduction of the surface which leads to C* accumulation on the surface and the formation of carbon-rich shell. With the layer becoming thicker and thicker, it will fully cover the particle, which hinders the migration of bulk-O atoms to the surface and ultimately results in the formation of a core–shell structure [20,21]. On the other hand, for a larger particle, the rate of reduction is faster than that of carburization. Consequently, it forms FeCx islands on the surface and maintains the migration channel of bulk-O atoms to the surface. As the reaction progresses, iron oxide particles can eventually become completely carbonized, transforming into iron carbides. Experimental studies have also suggested that small particles tend to accumulate carbon, inhibiting further carburization [12]. Therefore, our simulation provides the atomic-level explanation for the dependence of particle size on the degree of carburization, which is controlled by the competition between CO dissociation and reduction. 3.1.3 The driving force of penetration from volumetric strain analysis The strain presented in materials affects a variety of properties, including electrical, transport, and catalytic properties, etc. Research has demonstrated that catalytic activity can be effectively modulated by altering the stress applied to the catalyst. Furthermore, understanding the distribution of strain can offer insights into the stability and evolutionary trends of materials [45–48]. Next, we will analyze the strain distribution during the carburization process to gain insights into the trends of structural evolution and the driving force for atomic diffusion. The volumetric strain is calculated using the formula: ℇV = (Exx + Eyy + Ezz)/3 in OVITO [49] based on Green-Lagrangian strain tensor E=1/2(FTF-I), where F is the deformation tensor calculated for every particle based on its displacement vectors. Fig. 6 shows the volumetric strain for Fe3O4 nanoparticles after carburization in CO for 800 ps. The positive values in red indicate tensile stresses, while the negative values in blue indicate compressive stresses. As shown in Fig. 6a, the volumetric strain of O atoms reveals that the oxygen atoms on surface shell are subjected to tensile stress, while the remaining oxygen in sub-surface experiences compressive stress, and the atomic stresses at the center are close to zero. Conversely, the volumetric strain of iron atoms in Fe3O4 is mainly experiences tensile stress, as shown in Fig. 6b. The tensile stress on the outermost oxygen atoms may originate from the reduction process, as they form CO2 through reaction with CO. The tensile stress on iron arises from the formation of Fe-C bonds. Because carbon atoms have a higher permeability than oxygen atoms, the surface iron still exhibits tensile stress, whereas oxygen experiences opposite compressive stress. This is because the diffusion of oxygen atoms is controlled by its own concentration gradient and is a slow process. Conversely, the movement of Fe is driven by energy released from the bonding of Fe and C. Fig. 6c and d, the count distributions of the ℇV for Fe and O atoms at different temperature are illustrated, whith O atoms are primarily experiencing compressive stresses while Fe atoms are primarily experience tensile stresses. As the temperature increases, the distributions of both Fe and O atoms stresses broaden, with the peak of the oxygen distribution shifting towards stronger compressive stresses. The volumetric strain for Fe2O3 presents a similar trend to Fe3O4 (Fig. S8), where Fe displaying a higher tensile strain. This indicates that Fe in Fe3O4 has a stronger tendency to bond with C, thereby possessing a greater ability for carburization [50,51]. In conclusion, stress analysis can intuitively demonstrate the driving force of iron oxides during the carburization process. 3.2 Impact of oxygen vacancy defects 3.2.1 CO dissociation and CO2 production To investigate the impact of the reduction degree on carburization, we constructed the structures with three oxygen vacancy (Ov) concentrations:10 %, 20 %, and 30 %. This was achieved by randomly removing oxygen atoms from stoichiometric oxides. Fig. 7 shows the effect of Ov on the competition between carburization (CO dissociation) and reduction (CO2 production) for 5 nm Fe3O4 particles at 800 K. It illustrates that an increase of Ov significantly enhances CO dissociation while suppressing CO2 formation. Specifically, following the initiation of carburization for 200 ps, with each 10 % increment in Ov, the average CO dissociation rises by approximately 20 %, while the average CO2 generation decreases by approximately 15 %. Moreover, When Ov is equal to or less than 20 %, the dissociation of CO gradually decreases over time after the carburization time surpasses 200 ps. However, when Ov exceeds 20 %, the dissociation of CO continues to increment slowly over time. This phenomenon occurs because at relatively high concentrations of surface O atoms, some dissociated CO molecules will recombine to form CO2. Conversely, with an increase in Ov, the concentration of surface O atoms decreases, promoting further dissociation of CO. Correspondingly, a similar trend is observed in the curve of CO2 generation. After Ov exceeds 20 %, the concentration of CO2 no longer exhibits an upward trend over time but instead tends to decline. The trends observed for Fe2O3 regarding the dependency of carburization and reduction on Ov concentration are consistent with those for Fe3O4, as depicted in Fig. S9. This indicates that the carburization process of iron oxides is very sensitive to the reduction degree and is expedited as reduction progresses. Conversely, impeded reduction will markedly decelerate the carburization process. As discussed in Fig. 4, the rapidly formed carbon shell on the small particle will block further reduction and result in an incomplete carbonized core–shell structure. 3.2.2 Atomic distribution Fig. 8 presents the distribution projection of dissociated C and O atoms on the Fe3O4 nanoparticles with Ov concentrations ranging from 0 % to 30 %. At 0 % Ov concentration, the C and O atoms exhibit relatively uniform distribution. When the Ov concentration increases to 10 %, both C and O atoms penetrate more rapidly. When the Ov concentration reaches 20 %, C atoms are distributed both surface shell and core region, indicating penetration into the center of the bulk phase. While for O atoms, they are mainly distributed around the shell of the particle and produce a hole at the core region as labeled with red circle in Fig. 8b with Ov 20 %. This means that the penetration of dissociated oxygen is quite challenging. With the Ov concentration increasing to 30 %, owing to a greater number of vacancies, both C and O atom penetration intensifies, reaching into the core region. Fe2O3 exhibits a similar trend, as depicted in Fig. S10, wherein the penetration of C and O is augmented with the increase of Ov. However, due to its lower dissociated O amount compared to Fe3O4, the overall penetration of C is more prominent. When combined with Fig. 7, it leads us to speculate that the carburization of iron oxide may necessitate an appropriate degree of reduction or Ov concentration. This is because a low Ov concentration restricts CO dissociation and C atom diffusion, whereas a high Ov concentration boosts O atom permeation, potentially hindering complete carburization. 3.3 Surface dependence on carburization By changing the morphology and exposed surfaces of crystals, the reactivity of materials can be adjusted [37,52]. DFT results indicate significant variations in the dissociation barriers and reaction heats of CO on different iron surfaces [53,54]. However, due to computational efficiency constraints, DFT calculations primarily offer static results, lacking dynamic effects or statistical data. Thus, to delve deeper into the influence of iron and iron oxide crystal surfaces on carburization, we selected relatively stable surfaces of Fe, Fe2O3, and Fe3O4 to investigate their role in carburization, including their impact on the dissociation and penetration of C atoms and O atoms. 3.3.1 Surface dependence on CO dissociation Fig. 9 shows the number of CO dissociations for each surface of Fe and Fe3O4. Comparing different materials, Fe exhibits the highest CO dissociation ability, followed by Fe3O4, and then Fe2O3, consistent with DFT calculations indicating that higher oxygen content corresponds to a higher CO dissociation barrier [55]. For all the Fe surfaces, the half-time for CO molecules dissociation is around 15 ps. At the early stage for various surfaces (less than 300 ps), different surfaces exhibit different dissociation rates, with the order of the dissociation rate is (211) > (111) > (310) > (100) > (110). It indicates that the Fe (211) surface is the most active for CO dissociation, while the Fe (110) surface is the most inert. This is consistent with the DFT calculations in the literature, which suggest that higher dissociation ability of CO on more open surfaces [56]. For Fe3O4, around 50 ps into the reaction, the dissociation rate of CO is fastest on the (110) surface, while on the (111) and (001) surfaces, the dissociation rates of CO are nearly identical. As the reaction progresses, the differences among the three surfaces become gradually more pronounced and remain unchanged. The order of CO dissociation on the Fe3O4 surface is (110) > (001) > (111). While for the surfaces of Fe2O3, there are no significant differences in CO dissociation (Fig. S11). 3.3.2 Surface effect on the penetration of C and O Fig. 10 a shows the structure evolution of the Fe3O4 (110) surface during the carburization. Under the CO atmosphere, after 20 ps, part of the dissociated C and O atoms penetrate into the bulk phase, while the remaining CO is either dispersed in the gas phase or oxidized to CO2. After 800 ps, most of the CO dissociate and further penetrates into the bulk phase, while another portion of CO is oxidized to CO2. Fig. 10(b-g) shows the evolution of the depth distribution of C and O atoms for (110) and (111) surfaces. The dashed line represents the initial surface position, that is Z=0, where Z>0 represents the gas-phase region, and Z<0 represents the bulk-phase region. As the reaction proceeds, the dissociated C and O atoms accumulate rapidly on the surface and gradually penetrate into the bulk phase. (Fig. 10(b-c) and (e-f)) The amount of O atoms penetration is slightly higher than that of C atoms, primarily concentrated near the surface, while C atoms can further permeate into the deeper bulk phase. Comparatively, on the (111) surface, the penetration of C atoms is significantly smaller than that on the (110) surface, as well as the penetration of O atoms. The penetration of C atoms and O atoms on the (001) surface falls between the (110) and (111) surfaces (Fig. S12). To provide a quantitative comparison, the amount of penetration was calculated by integrating the number of penetrated atoms underneath surface. As shown in Fig. 10d and g, the (110) surface exhibits the highest penetration of C atoms (58.64 atoms), followed by the (001) surface (54.96 atoms) in Fig. S10, with the (111) surface showing the least penetration (42.32 atoms). In addition, the atom distribution on each surface of Fe was further explored (Fig. S13). The penetration of C atoms was higher than that of O atoms on all surfaces. In the early stages of carburization, the (211) surface, which exhibits the highest CO dissociation, shows a higher content of C atoms penetrating into the bulk phase compared to the (110) surface, which has the lowest CO dissociation. As the reaction progresses, the amount of C penetration into the (211) surface remains higher than that into the (110) surface. The number of C atoms penetrating into the (211) and (110) surfaces was calculated to be 98.41 atoms and 85.74 atoms, respectively. 4 Conclusions This study employs ReaxFF molecular dynamics to simulate the carburization of iron oxides, including the effects of particle size, temperature, and oxygen vacancy, to reveal the competition between CO dissociation and reduction. Initially, during the early stages of carburization, the rate of CO dissociation surpasses that of reduction. However, as carburization proceeds, the reduction rate, which is thermodynamically favored, eventually exceeds the carburization rate. Furthermore, as particle size increases, the reduction rate becomes more pronounced. According to this trend, we elucidate the microscopic mechanism behind the incomplete carburization of small-sized iron oxide particles, wherein the rapid formed carbon-rich shell blocking the diffusion pathway of bulk oxygen. Conversely, in large-sized particles, where reduction predominates, it results in complete carburization. The concentration of Ov has a significant impact on carburization. For 5 nm-sized Fe2O3 and Fe3O4 particles, with every 10 % increase in Ov concentration, the CO dissociation rate increases by 20 %, while the CO2 generation decreases by 15 %. Analysis of the distribution of C and O atoms during the carburization process indicates that C atoms have a faster penetration rate, while the dissociated O atoms tend to remain on the surface with less exchange occurring with the bulk phase. Volumetric strain analysis reveals that the driving force behind the penetration process is that inner Fe atoms tend to bond with C atoms, experiencing outward tensile stress, while O atoms experience opposite compressive stress. Further investigation was conducted on the influence of surface orientation on carburization. The results indicate that different surfaces exhibit varying abilities in CO dissociation and penetration of C atoms. Notably, Fe3O4 surfaces show more significant differences, with the (110) surface exhibiting a faster initial carburization rate, consistent with experimental observations. This paper provides a microscopic mechanistic insight into the carburization process of iron oxides, which is instructive for optimizing carburization conditions. CRediT authorship contribution statement Shuai Guo: Writing – original draft, Visualization, Investigation, Formal analysis, Data curation, Conceptualization. Kuan Lu: Writing – review & editing, Methodology, Funding acquisition, Conceptualization. Ke Zheng: Writing – review & editing, Software, Formal analysis. Xin Yu: Validation. Pengju Ren: Writing – review & editing, Supervision. Yong Yang: Validation, Resources. Yong-Wang Li: Resources, Funding acquisition. Honglin Chen: Writing – review & editing, Supervision, Resources, Funding acquisition. Xiao-Dong Wen: Writing – review & editing, Supervision, Resources, Funding acquisition, Conceptualization. Declaration of competing interest The authors declare that they have no known competing financial interests or personal relationships that could have appeared to influence the work reported in this paper. Acknowledgments The authors are grateful for the financial support from National Science Fund for Distinguished Young Scholars of China (22225206), National Key R&D Program of China (No. 2022YFA1604103), CAS Project for Young Scientists in Basic Research (YSBR-005), Key Research Program of Frontier Sciences CAS (ZDBS-LY-7007), Informatization Plan of Chinese Academy of Sciences (CAS-WX2021SF0110), the Autonomous Research Project of SKLCC (2023BWZ005), the Shanxi Province Foundation for PhD (2020SHB008), the innovation foundation of the Institute of Coal Chemistry, Chinese Academy of Sciences (SCJC-XCL-2022-14), and the National Natural Science Foundation of China (22202226). Appendix A Supplementary material Supplementary material to this article can be found online at https://doi.org/10.1016/j.jcat.2024.115719. Appendix A Supplementary material The following are the Supplementary material to this article: Supplementary Data 1 References [1] M. Ding Y. Yang B. Wu Y. Li T. Wang L. Ma Study on reduction and carburization behaviors of iron-based Fischer-Tropsch synthesis catalyst Energy Procedia 61 2014 2267 2270 M. Ding, Y. Yang, B. Wu, Y. Li, T. Wang, L. Ma, Study on reduction and carburization behaviors of iron-based Fischer-Tropsch synthesis catalyst, Energy Procedia, 61 (2014) 2267-2270. [2] X. Sun J. Yu S. Cao A. Zimina B.B. Sarma J.-D. Grunwaldt H. Xu S. Li Y. Liu J. Sun In situ investigations on structural evolutions during the facile synthesis of cubic α-MoC1–x catalysts J. Am. Chem. Soc. 144 2022 22589 22598 X. Sun, J. Yu, S. Cao, A. Zimina, B.B. Sarma, J.-D. Grunwaldt, H. Xu, S. Li, Y. Liu, J. Sun, In situ investigations on structural evolutions during the facile synthesis of cubic α-MoC1–x catalysts, J. Am. Chem. Soc., 144 (2022) 22589-22598. [3] X. Zhang M. Zhang Y. Deng M. Xu L. Artiglia W. Wen R. Gao B. Chen S. Yao X. Zhang A stable low-temperature H2-production catalyst by crowding Pt on α-MoC Nature 589 2021 396 401 X. Zhang, M. Zhang, Y. Deng, M. Xu, L. Artiglia, W. Wen, R. Gao, B. Chen, S. Yao, X. Zhang, A stable low-temperature H2-production catalyst by crowding Pt on α-MoC, Nature, 589 (2021) 396-401. [4] X. Shen D. Luo C. Ma H. Suo L. Yan T. Zhang X. Liu X. Wen Y. Li Y. Yang Carburized cobalt catalyst for the Fischer-Tropsch synthesis Cat. Sci. Technol. 11 2021 6564 6572 X. Shen, D. Luo, C. Ma, H. Suo, L. Yan, T. Zhang, X. Liu, X. Wen, Y. Li, Y. Yang, Carburized cobalt catalyst for the Fischer–Tropsch synthesis, Catalysis Science & Technology, 11 (2021) 6564-6572. [5] A. Cheraghi H. Yoozbashizadeh J. Safarian Gaseous reduction of manganese ores: a review and theoretical insight Miner. Process. Extr. Metall. Rev. 41 2020 198 215 A. Cheraghi, H. Yoozbashizadeh, J. Safarian, Gaseous reduction of manganese ores: a review and theoretical insight, Mineral Processing and Extractive Metallurgy Review, 41 (2020) 198-215. [6] C.-H. Zhang Y. Yang B.-T. Teng T.-Z. Li H.-Y. Zheng H.-W. Xiang Y.-W. Li Study of an iron-manganese Fischer-Tropsch synthesis catalyst promoted with copper J. Catal. 237 2006 405 415 C.-H. Zhang, Y. Yang, B.-T. Teng, T.-Z. Li, H.-Y. Zheng, H.-W. Xiang, Y.-W. Li, Study of an iron-manganese Fischer–Tropsch synthesis catalyst promoted with copper, J Catal, 237 (2006) 405-415. [7] M.E.J.C.t. Dry The fischer–tropsch process: 1950–2000 Catal. Today 71 2002 227 241 M.E.J.C.t. Dry, The fischer–tropsch process: 1950–2000, Catalysis today, 71 (2002) 227-241. [8] E. Mabaso, E. Van Steen, M. Claeys, Fischer-Tropsch synthesis on supported iron crystallites of different size, Germany: N. p., (2006). [9] Y. Li Z. Li A. Ahsen L. Lammich G.J. Mannie J.H. Niemantsverdriet J.V. Lauritsen Atomically defined iron carbide surface for Fischer-Tropsch synthesis catalysis ACS Catal. 9 2018 1264 1273 Y. Li, Z. Li, A. Ahsen, L. Lammich, G.J. Mannie, J.H. Niemantsverdriet, J.V. Lauritsen, Atomically defined iron carbide surface for Fischer–Tropsch synthesis catalysis, ACS Catal., 9 (2018) 1264-1273. [10] E. de Smit F. Cinquini A.M. Beale O.V. Safonova W. van Beek P. Sautet B.M. Weckhuysen Stability and reactivity of ∊−χ−θ iron carbide catalyst phases in Fischer− Tropsch synthesis: controlling μC J. Am. Chem. Soc. 132 2010 14928 14941 E. de Smit, F. Cinquini, A.M. Beale, O.V. Safonova, W. van Beek, P. Sautet, B.M. Weckhuysen, Stability and reactivity of ∊−χ−θ iron carbide catalyst phases in Fischer− Tropsch synthesis: controlling μC, J. Am. Chem. Soc., 132 (2010) 14928-14941. [11] Y. Meng X. Liu Y. Ma X. Gao X. Wen Investigation of water gas shift reactivity on Fe5C2 (111): A DFT study Mol. Catal. 529 2022 112538 Y. Meng, X. Liu, Y. Ma, X. Gao, X. Wen, Investigation of water gas shift reactivity on Fe5C2 (111): A DFT study, Molecular Catalysis, 529 (2022) 112538. [12] J.-Y. Fan Z.-G. Lü C.-H. Zhang X. Jian H.-w. Xiang Study on size effect of γ-Fe2O3 nanoparticles and gas atmosphere on carburization process J. Fuel Chem. Technol. 50 2022 218 226 J.-y. FAN, Z.-g. LÜ, C.-h. ZHANG, X. Jian, H.-w. XIANG, Study on size effect of γ-Fe2O3 nanoparticles and gas atmosphere on carburization process, J. Fuel Chem. Technol, 50 (2022) 218-226. [13] S. Li X. Wei H. Wang M. Qing H. Suo Z. Lv H. Guo Y. Liu X. Yu Y. Yang The effect of crystal plane on Fe3O4 carbonization J. Fuel Chem. Technol. 51 2023 1 8 S. Li, X. Wei, H. Wang, M. Qing, H. Suo, Z. Lv, H. Guo, Y. Liu, X. Yu, Y. Yang, The effect of crystal plane on Fe3O4 carbonization, J. Fuel Chem. Technol, 51 (2023) 1-8. [14] M.R. Nielsen A.B. Moss A.S. Bjørnlund X. Liu A. Knop-Gericke A.Y. Klyushin J.-D. Grunwaldt T.L. Sheppard D.E. Doronkin A. Zimina Reduction and carburization of iron oxides for Fischer-Tropsch synthesis J. Energy Chem. 51 2020 48 61 M.R. Nielsen, A.B. Moss, A.S. Bjørnlund, X. Liu, A. Knop-Gericke, A.Y. Klyushin, J.-D. Grunwaldt, T.L. Sheppard, D.E. Doronkin, A. Zimina, Reduction and carburization of iron oxides for Fischer–Tropsch synthesis, Journal of Energy Chemistry, 51 (2020) 48-61. [15] K. Satoh T. Noguchi M. Hino Reduction and carburization of iron oxide by carbonaceous materials Steel Res. Int. 81 2010 834 840 K. Satoh, T. Noguchi, M. Hino, Reduction and carburization of iron oxide by carbonaceous materials, steel research international, 81 (2010) 834-840. [16] X. Liu C. Zhang Y. Li J. Niemantsverdriet J.B. Wagner T.W. Hansen Environmental transmission electron microscopy (ETEM) studies of single iron nanoparticle carburization in synthesis gas ACS Catal. 7 2017 4867 4875 X. Liu, C. Zhang, Y. Li, J. Niemantsverdriet, J.B. Wagner, T.W. Hansen, Environmental transmission electron microscopy (ETEM) studies of single iron nanoparticle carburization in synthesis gas, ACS Catal., 7 (2017) 4867-4875. [17] H. Jung W.J. Thomson Dynamic X-ray diffraction study of an unsupported iron catalyst in Fischer-Tropsch synthesis J. Catal. 134 1992 654 667 H. Jung, W.J. Thomson, Dynamic X-ray diffraction study of an unsupported iron catalyst in Fischer-Tropsch synthesis, J Catal, 134 (1992) 654-667. [18] G. Raupp W. Delgass Mössbauer investigation of supported Fe and FeNi catalysts: II carbides formed fischer-tropsch synthesis J. Catal. 58 1979 348 360 G. Raupp, W. Delgass, Mössbauer investigation of supported Fe and FeNi catalysts: II. Carbides formed Fischer-Tropsch synthesis, J Catal, 58 (1979) 348-360. [19] J. Xu C.H. Bartholomew Temperature-programmed hydrogenation (TPH) and in situ Mössbauer spectroscopy studies of carbonaceous species on silica-supported iron Fischer−Tropsch catalysts J. Phys. Chem. B 109 2005 2392 2403 J. Xu, C.H. Bartholomew, Temperature-programmed hydrogenation (TPH) and in situ Mössbauer spectroscopy studies of carbonaceous species on silica-supported iron Fischer−Tropsch catalysts, The Journal of Physical Chemistry B, 109 (2005) 2392-2403. [20] S. Li S. Krishnamoorthy A. Li G.D. Meitzner E. Iglesia Promoted iron-based catalysts for the Fischer-Tropsch synthesis: design, synthesis, site densities, and catalytic properties J. Catal. 206 2002 202 217 S. Li, S. Krishnamoorthy, A. Li, G.D. Meitzner, E. Iglesia, Promoted iron-based catalysts for the Fischer–Tropsch synthesis: design, synthesis, site densities, and catalytic properties, J Catal, 206 (2002) 202-217. [21] S. Li G.D. Meitzner E. Iglesia Structure and site evolution of iron oxide catalyst precursors during the Fischer− Tropsch synthesis J. Phys. Chem. B 105 2001 5743 5750 S. Li, G.D. Meitzner, E. Iglesia, Structure and site evolution of iron oxide catalyst precursors during the Fischer− Tropsch synthesis, The Journal of Physical Chemistry B, 105 (2001) 5743-5750. [22] D.-M. Huang D.-B. Cao Y.-W. Li H. Jiao Density function theory study of CO adsorption on Fe3O4 (111) surface J. Phys. Chem. B 110 2006 13920 13925 D.-M. Huang, D.-B. Cao, Y.-W. Li, H. Jiao, Density function theory study of CO adsorption on Fe3O4 (111) surface, The Journal of Physical Chemistry B, 110 (2006) 13920-13925. [23] D. Jiang E.A. Carter Carbon dissolution and diffusion in ferrite and austenite from first principles Phys. Rev. B 67 2003 214103 D. Jiang, E.A. Carter, Carbon dissolution and diffusion in ferrite and austenite from first principles, Physical Review B, 67 (2003) 214103. [24] D. Jiang E.A. Carter Carbon atom adsorption on and diffusion into Fe (110) and Fe (100) from first principles Phys. Rev. B 71 2005 045402 D. Jiang, E.A. Carter, Carbon atom adsorption on and diffusion into Fe (110) and Fe (100) from first principles, Physical Review B, 71 (2005) 045402. [25] B. Cooper D. Trimm Carbon deposition from propylene on polycrystalline and single crystal iron J. Catal. 62 1980 35 43 B. Cooper, D. Trimm, Carbon deposition from propylene on polycrystalline and single crystal iron, J Catal, 62 (1980) 35-43. [26] T. Yamada D.K. Phelps A.C. Van Duin First principle and ReaxFF molecular dynamics investigations of formaldehyde dissociation on Fe (100) surface J. Comput. Chem. 34 2013 1982 1996 T. Yamada, D.K. Phelps, A.C. Van Duin, First principle and ReaxFF molecular dynamics investigations of formaldehyde dissociation on Fe (100) surface, Journal of Computational Chemistry, 34 (2013) 1982-1996. [27] R. Subbaraman S.A. Deshmukh S.K. Sankaranarayanan Atomistic insights into early stage oxidation and nanoscale oxide growth on Fe (100), Fe (111) and Fe (110) surfaces J. Phys. Chem. C 117 2013 5195 5207 R. Subbaraman, S.A. Deshmukh, S.K. Sankaranarayanan, Atomistic insights into early stage oxidation and nanoscale oxide growth on Fe (100), Fe (111) and Fe (110) surfaces, J. Phys. Chem. C, 117 (2013) 5195-5207. [28] J.P. Ewen C.A. Latorre C. Gattinoni A. Khajeh J.D. Moore J.E. Remias A. Martini D. Dini Substituent effects on the thermal decomposition of phosphate esters on ferrous surfaces J. Phys. Chem. C 124 2020 9852 9865 J.P. Ewen, C.A. Latorre, C. Gattinoni, A. Khajeh, J.D. Moore, J.E. Remias, A. Martini, D. Dini, Substituent effects on the thermal decomposition of phosphate esters on ferrous surfaces, J. Phys. Chem. C, 124 (2020) 9852-9865. [29] N. Farzi M.-H. Hydarifard M.E. Izadi H. Sabzyan Investigation of iron carbide (Fe3C) corrosion in water and acidic solution using ReaxFF molecular dynamics J. Mol. Liq. 318 2020 114006 N. Farzi, M.-H. Hydarifard, M.E. Izadi, H. Sabzyan, Investigation of iron carbide (Fe3C) corrosion in water and acidic solution using ReaxFF molecular dynamics, Journal of Molecular Liquids, 318 (2020) 114006. [30] Z. Liu Q. Cheng Y. Wang K. Li R. Wang J. Zhang The interaction of nanoparticulate Fe3O4 during the diffusion-limited aggregation process: A molecular dynamics simulation Powder Technol. 384 2021 141 147 Z. Liu, Q. Cheng, Y. Wang, K. Li, R. Wang, J. Zhang, The interaction of nanoparticulate Fe3O4 during the diffusion-limited aggregation process: A molecular dynamics simulation, Powder Technology, 384 (2021) 141-147. [31] Q. Cheng A.N. Conejo Y. Wang J. Zhang A. Zheng Z. Liu Adsorption properties of hydrogen with iron oxides (FeO, Fe2O3): A ReaxFF molecular dynamics study Comput. Mater. Sci 218 2023 111926 Q. Cheng, A.N. Conejo, Y. Wang, J. Zhang, A. Zheng, Z. Liu, Adsorption properties of hydrogen with iron oxides (FeO, Fe2O3): A ReaxFF molecular dynamics study, Comput. Mater. Sci., 218 (2023) 111926. [32] K. Lu Y. He C.-F. Huo W.-P. Guo Q. Peng Y. Yang Y.-W. Li X.-D. Wen Developing ReaxFF to visit CO adsorption and dissociation on iron surfaces J. Phys. Chem. C 122 2018 27582 27589 K. Lu, Y. He, C.-F. Huo, W.-P. Guo, Q. Peng, Y. Yang, Y.-W. Li, X.-D. Wen, Developing ReaxFF to visit CO adsorption and dissociation on iron surfaces, J. Phys. Chem. C, 122 (2018) 27582-27589. [33] K. Lu C.-F. Huo Y. He W.-P. Guo Q. Peng Y. Yang Y.-W. Li X.-D. Wen The structure–activity relationship of Fe nanoparticles in CO adsorption and dissociation by reactive molecular dynamics simulations J. Catal. 374 2019 150 160 K. Lu, C.-F. Huo, Y. He, W.-P. Guo, Q. Peng, Y. Yang, Y.-W. Li, X.-D. Wen, The structure–activity relationship of Fe nanoparticles in CO adsorption and dissociation by reactive molecular dynamics simulations, J Catal, 374 (2019) 150-160. [34] K. Lu D. Luo Y. He C.-F. Huo Y. Zhou W.-P. Guo Q. Peng Y. Yang Y.-W. Li X.-D. Wen Sintering enhances turn-over frequency of nanoparticles: A case study of FexCy catalyst using reactive MD simulations Appl. Surf. Sci. 570 2021 151018 K. Lu, D. Luo, Y. He, C.-F. Huo, Y. Zhou, W.-P. Guo, Q. Peng, Y. Yang, Y.-W. Li, X.-D. Wen, Sintering enhances turn-over frequency of nanoparticles: A case study of FexCy catalyst using reactive MD simulations, Appl. Surf. Sci., 570 (2021) 151018. [35] Y. Liu K. Lu X. Liu J. Liu W.-P. Guo W. Chen Q. Peng Y.-F. Song Y. Yang Y.-W. Li C2 weakens the turnover frequency during the melting of FexCy: insights from reactive MD simulations New J. Chem. 46 2022 282 293 Y. Liu, K. Lu, X. Liu, J. Liu, W.-P. Guo, W. Chen, Q. Peng, Y.-F. Song, Y. Yang, Y.-W. Li, C2 weakens the turnover frequency during the melting of FexCy: insights from reactive MD simulations, New J. Chem., 46 (2022) 282-293. [36] K. Lu Y. He Y. Zhou W.-P. Guo Y. Yang Y.-W. Li X.-D. Wen Quantification of Interface Interaction between Fe and FexCy via ReaxFF J. Phys. Chem. C 127 2023 15839 15851 K. Lu, Y. He, Y. Zhou, W.-P. Guo, Y. Yang, Y.-W. Li, X.-D. Wen, Quantification of Interface Interaction between Fe and FexCy via ReaxFF, J. Phys. Chem. C, 127 (2023) 15839-15851. [37] S. Guo K. Lu K. Zheng Y. Zhou H. Chen P. Ren Y. Yang Y.-W. Li X. Wen Atomistic insights into early-stage oxidation of χ-Fe5C2 and the J. Phys. Chem. C 127 2023 11948 11957 S. Guo, K. Lu, K. Zheng, Y. Zhou, H. Chen, P. Ren, Y. Yang, Y.-W. Li, X. Wen, Atomistic Insights into Early-Stage Oxidation of χ-Fe5C2 and the Dependence on the Surface Structure, J. Phys. Chem. C, 127 (2023) 11948-11957. [38] Y. Liu X. Yuan K. Lu W. Chen Y.-F. Song Y. Yang Y.-W. Li X.-D. Wen Initial stage of carbonization of iron during hydrocarbons dissociation: a molecular dynamics study PCCP 25 2023 4313 4322 Y. Liu, X. Yuan, K. Lu, W. Chen, Y.-F. Song, Y. Yang, Y.-W. Li, X.-D. Wen, Initial stage of carbonization of iron during hydrocarbons dissociation: a molecular dynamics study, Phys. Chem. Chem. Phys., 25 (2023) 4313-4322. [39] D.C. Prieve W.B. Russel Simplified predictions of Hamaker constants from Lifshitz theory J. Colloid Interf. Sci. 125 1988 1 13 D.C. Prieve, W.B. Russel, Simplified predictions of Hamaker constants from Lifshitz theory, J. Colloid Interface Sci., 125 (1988) 1-13. [40] M. Ferrer A. Gouveia L. Gracia E. Longo J. Andres A 3D platform for the morphology modulation of materials: first principles calculations on the thermodynamic stability and surface structure of metal oxides: Co3O4, α-Fe2O3, and In2O3 Model. Simul. Mater. Sci. Eng. 24 2016 025007 M. Ferrer, A. Gouveia, L. Gracia, E. Longo, J. Andres, A 3D platform for the morphology modulation of materials: first principles calculations on the thermodynamic stability and surface structure of metal oxides: Co3O4, α-Fe2O3, and In2O3, Modelling and Simulation in Materials Science and Engineering, 24 (2016) 025007. [41] Y. Meng X.-W. Liu M. Bai W.-P. Guo D.-B. Cao Y. Yang Y.-W. Li X.-D. Wen Prediction on morphologies and phase equilibrium diagram of iron oxides nanoparticles Appl. Surf. Sci. 480 2019 478 486 Y. Meng, X.-W. Liu, M. Bai, W.-P. Guo, D.-B. Cao, Y. Yang, Y.-W. Li, X.-D. Wen, Prediction on morphologies and phase equilibrium diagram of iron oxides nanoparticles, Appl. Surf. Sci., 480 (2019) 478-486. [42] C.F. Huo B.S. Wu P. Gao Y. Yang Y.W. Li H. Jiao The mechanism of potassium promoter: enhancing the stability of active surfaces Angew. Chem. Int. Ed. 50 2011 7403 7406 C.F. Huo, B.S. Wu, P. Gao, Y. Yang, Y.W. Li, H. Jiao, The mechanism of potassium promoter: enhancing the stability of active surfaces, Angewandte Chemie International Edition, 50 (2011) 7403-7406. [43] H.J. Berendsen J.v. Postma W.F. Van Gunsteren A. DiNola J.R. Haak Molecular dynamics with coupling to an external bath J. Chem. Phys. 81 1984 3684 3690 H.J. Berendsen, J.v. Postma, W.F. Van Gunsteren, A. DiNola, J.R. Haak, Molecular dynamics with coupling to an external bath, J. Chem. Phys., 81 (1984) 3684-3690. [44] H. Zhong D. Er L. Wen Theoretical study on influence of CaO and MgO on the reduction of FeO by CO Appl. Surf. Sci. 399 2017 630 637 H. Zhong, D. Er, L. Wen, Theoretical study on influence of CaO and MgO on the reduction of FeO by CO, Applied Surface Science, 399 (2017) 630-637. [45] I. Goikoetxea J. Juaristi R.D. Muiño M. Alducin Surface strain improves molecular adsorption but hampers dissociation for N2 on the Fe/W (110) surface Phys. Rev. Lett. 113 2014 066103 I. Goikoetxea, J. Juaristi, R.D. Muiño, M. Alducin, Surface Strain Improves Molecular Adsorption but Hampers Dissociation for N2 on the Fe/W (110) Surface, Physical Review Letters, 113 (2014) 066103. [46] F. Liu C. Wu G. Yang S. Yang CO oxidation over strained Pt (100) surface: A DFT study J. Phys. Chem. C 119 2015 15500 15505 F. Liu, C. Wu, G. Yang, S. Yang, CO oxidation over strained Pt (100) surface: A DFT study, J. Phys. Chem. C, 119 (2015) 15500-15505. [47] R. Mohammadzadeh N. Razmara F. Razmara Molecular dynamics study of strain-induced diffusivity of nitrogen in pure iron nanocrystalline Physica A 463 2016 123 130 R. Mohammadzadeh, N. Razmara, F. Razmara, Molecular dynamics study of strain-induced diffusivity of nitrogen in pure iron nanocrystalline, Physica A: Statistical Mechanics and its Applications, 463 (2016) 123-130. [48] W. Yuan B. Zhu X.-Y. Li T.W. Hansen Y. Ou K. Fang H. Yang Z. Zhang J.B. Wagner Y. Gao Visualizing H2O molecules reacting at TiO2 active sites with transmission electron microscopy Science 367 2020 428 430 W. Yuan, B. Zhu, X.-Y. Li, T.W. Hansen, Y. Ou, K. Fang, H. Yang, Z. Zhang, J.B. Wagner, Y. Gao, Visualizing H2O molecules reacting at TiO2 active sites with transmission electron microscopy, Science, 367 (2020) 428-430. [49] A. Stukowski Visualization and analysis of atomistic simulation data with OVITO–the Open Visualization Tool Model. Simul. Mater. Sci. Eng. 18 2010 015012 A. Stukowski, Visualization and analysis of atomistic simulation data with OVITO–the Open Visualization Tool, Modell. Simul. Mater. Sci. Eng., 18 (2010) 015012. [50] C. Martos J. Dufour A. Ruiz Synthesis of Fe3O4-based catalysts for the high-temperature water gas shift reaction Int. J. Hydrogen Energy 34 2009 4475 4481 C. Martos, J. Dufour, A. Ruiz, Synthesis of Fe3O4-based catalysts for the high-temperature water gas shift reaction, international journal of hydrogen energy, 34 (2009) 4475-4481. [51] M. Ding Y. Yang B. Wu Y. Li T. Wang L. Ma Study on reduction and carburization behaviors of iron phases for iron-based Fischer-Tropsch synthesis catalyst Appl. Energy 160 2015 982 989 M. Ding, Y. Yang, B. Wu, Y. Li, T. Wang, L. Ma, Study on reduction and carburization behaviors of iron phases for iron-based Fischer–Tropsch synthesis catalyst, Applied energy, 160 (2015) 982-989. [52] Y. He P. Zhao Y. Meng W. Guo Y. Yang Y.-W. Li C.-F. Huo X.-D. Wen Hunting the correlation between Fe5C2 surfaces and their activities on CO: The descriptor of bond valence J. Phys. Chem. C 122 2018 2806 2814 Y. He, P. Zhao, Y. Meng, W. Guo, Y. Yang, Y.-W. Li, C.-F. Huo, X.-D. Wen, Hunting the correlation between Fe5C2 surfaces and their activities on CO: The descriptor of bond valence, J. Phys. Chem. C, 122 (2018) 2806-2814. [53] D.C. Sorescu Plane-wave DFT investigations of the adsorption, diffusion, and activation of CO on kinked Fe (710) and Fe (310) surfaces J. Phys. Chem. C 112 2008 10472 10489 D.C. Sorescu, Plane-wave DFT investigations of the adsorption, diffusion, and activation of CO on kinked Fe (710) and Fe (310) surfaces, J. Phys. Chem. C, 112 (2008) 10472-10489. [54] T. Wang X.-X. Tian Y.-W. Li J. Wang M. Beller H. Jiao Coverage-dependent CO adsorption and dissociation mechanisms on iron surfaces from DFT computations ACS Catal. 4 2014 1991 2005 T. Wang, X.-X. Tian, Y.-W. Li, J. Wang, M. Beller, H. Jiao, Coverage-dependent CO adsorption and dissociation mechanisms on iron surfaces from DFT computations, ACS Catal., 4 (2014) 1991-2005. [55] H.-X. Zhang Z.-Q. Huang T. Ban X. Su B. Yang C.-R. Chang DFT studies of CO reaction behavior on α-Fe2O3 (001) oxygen-vacancy surface in chemical looping reforming Chin. J. Chem. Phys. 37 2024 116 124 H.-X. Zhang, Z.-Q. Huang, T. Ban, X. Su, B. Yang, C.-R. Chang, DFT studies of CO reaction behavior on α-Fe2O3 (001) oxygen-vacancy surface in chemical looping reforming, Chinese Journal of Chemical Physics, 37 (2024) 116-124. [56] J. Yin Y. He X. Liu X. Zhou C.-F. Huo W. Guo Q. Peng Y. Yang H. Jiao Y.-W. Li Visiting CH4 formation and C1+ C1 couplings to tune CH4 selectivity on Fe surfaces J. Catal. 372 2019 217 225 J. Yin, Y. He, X. Liu, X. Zhou, C.-F. Huo, W. Guo, Q. Peng, Y. Yang, H. Jiao, Y.-W. Li, Visiting CH4 formation and C1+ C1 couplings to tune CH4 selectivity on Fe surfaces, J Catal, 372 (2019) 217-225.",
+      "scopus-id": "85201633925",
+      "coredata": {
+        "eid": "1-s2.0-S0021951724004329",
+        "dc:description": "Transition metal carbide catalysts have garnered widespread attention due to their outstanding catalytic performance. The carbide catalysts, such as FexC and MoxC are typically obtained from their oxide carburization. The reduction and carburization processes are key steps during the activation of oxide precursors, which determine the activity and stability. An understanding of the carburization process mechanism is very important for the optimization of carbide catalysts. Iron-based catalysts are widely used in the large-scale coal-to-liquid industry because of their low price and high activity. In this paper, the carburization process of iron oxide nanoparticles was simulated by the Reactive force field (ReaxFF) molecular dynamics method. The results illustrate that the competition between CO dissociation and reduction of oxides occurs at the 100 ps time scale, which can be tuned by particle size and oxygen vacancy. We have explained the counter-intuitive finding that small oxide particles are more difficult to achieve fully carburization than larger ones; this is because rapid carbon accumulation on the surface blocks the oxygen diffusion channels from bulk to surface. The atomic distribution heat map was carried out to demonstrate the carbon and oxygen penetration processes. Meanwhile, the volumetric strain analysis reveals the driving force comes from the strong tendency to form Fe-C bonds. The dependence on surface orientation was further systematically investigated. This work provides microscopic insights into the carburization process of iron-based materials and the fundamental knowledge for the optimization of catalyst synthesis procedures.",
+        "openArchiveArticle": "false",
+        "prism:coverDate": "2024-10-31",
+        "openaccessUserLicense": null,
+        "prism:aggregationType": "Journal",
+        "prism:url": "https://api.elsevier.com/content/article/pii/S0021951724004329",
+        "dc:creator": [
+          {
+            "@_fa": "true",
+            "$": "Guo, Shuai"
+          },
+          {
+            "@_fa": "true",
+            "$": "Lu, Kuan"
+          },
+          {
+            "@_fa": "true",
+            "$": "Zheng, Ke"
+          },
+          {
+            "@_fa": "true",
+            "$": "Yu, Xin"
+          },
+          {
+            "@_fa": "true",
+            "$": "Ren, Pengju"
+          },
+          {
+            "@_fa": "true",
+            "$": "Yang, Yong"
+          },
+          {
+            "@_fa": "true",
+            "$": "Li, Yong-Wang"
+          },
+          {
+            "@_fa": "true",
+            "$": "Chen, Honglin"
+          },
+          {
+            "@_fa": "true",
+            "$": "Wen, Xiao-Dong"
+          }
+        ],
+        "link": [
+          {
+            "@_fa": "true",
+            "@rel": "self",
+            "@href": "https://api.elsevier.com/content/article/pii/S0021951724004329"
+          },
+          {
+            "@_fa": "true",
+            "@rel": "scidir",
+            "@href": "https://www.sciencedirect.com/science/article/pii/S0021951724004329"
+          }
+        ],
+        "dc:format": "application/json",
+        "openaccessType": null,
+        "pii": "S0021-9517(24)00432-9",
+        "prism:volume": "438",
+        "articleNumber": "115719",
+        "prism:publisher": "Elsevier Inc. All rights are reserved, including those for text and data mining, AI training, and similar technologies.",
+        "dc:title": "Atomic-level insight into the carburization process of iron-based catalysts: A ReaxFF molecular dynamics study",
+        "prism:copyright": "© 2024 Elsevier Inc. All rights are reserved, including those for text and data mining, AI training, and similar technologies.",
+        "openaccess": "0",
+        "prism:issn": "00219517",
+        "dcterms:subject": [
+          {
+            "@_fa": "true",
+            "$": "Iron Catalysts"
+          },
+          {
+            "@_fa": "true",
+            "$": "Carburization"
+          },
+          {
+            "@_fa": "true",
+            "$": "ReaxFF"
+          },
+          {
+            "@_fa": "true",
+            "$": "Molecular Dynamics"
+          },
+          {
+            "@_fa": "true",
+            "$": "Fischer-Tropsch Synthesis"
+          }
+        ],
+        "openaccessArticle": "false",
+        "prism:publicationName": "Journal of Catalysis",
+        "openaccessSponsorType": null,
+        "prism:pageRange": "115719",
+        "pubType": "fla",
+        "prism:coverDisplayDate": "October 2024",
+        "prism:doi": "10.1016/j.jcat.2024.115719",
+        "prism:startingPage": "115719",
+        "dc:identifier": "doi:10.1016/j.jcat.2024.115719",
+        "openaccessSponsorName": null
+      },
+      "objects": {
+        "object": [
+          {
+            "@category": "standard",
+            "@height": "249",
+            "@width": "640",
+            "@_fa": "true",
+            "$": "https://api.elsevier.com/content/object/eid/1-s2.0-S0021951724004329-gr9.jpg?httpAccept=%2A%2F%2A",
+            "@multimediatype": "JPEG image file",
+            "@type": "IMAGE-DOWNSAMPLED",
+            "@size": "42124",
+            "@ref": "gr9",
+            "@mimetype": "image/jpeg"
+          },
+          {
+            "@category": "standard",
+            "@height": "509",
+            "@width": "751",
+            "@_fa": "true",
+            "$": "https://api.elsevier.com/content/object/eid/1-s2.0-S0021951724004329-gr1.jpg?httpAccept=%2A%2F%2A",
+            "@multimediatype": "JPEG image file",
+            "@type": "IMAGE-DOWNSAMPLED",
+            "@size": "136555",
+            "@ref": "gr1",
+            "@mimetype": "image/jpeg"
+          },
+          {
+            "@category": "standard",
+            "@height": "516",
+            "@width": "703",
+            "@_fa": "true",
+            "$": "https://api.elsevier.com/content/object/eid/1-s2.0-S0021951724004329-gr2.jpg?httpAccept=%2A%2F%2A",
+            "@multimediatype": "JPEG image file",
+            "@type": "IMAGE-DOWNSAMPLED",
+            "@size": "63996",
+            "@ref": "gr2",
+            "@mimetype": "image/jpeg"
+          },
+          {
+            "@category": "standard",
+            "@height": "200",
+            "@width": "458",
+            "@_fa": "true",
+            "$": "https://api.elsevier.com/content/object/eid/1-s2.0-S0021951724004329-ga1.jpg?httpAccept=%2A%2F%2A",
+            "@multimediatype": "JPEG image file",
+            "@type": "IMAGE-DOWNSAMPLED",
+            "@size": "25865",
+            "@ref": "ga1",
+            "@mimetype": "image/jpeg"
+          },
+          {
+            "@category": "standard",
+            "@height": "422",
+            "@width": "781",
+            "@_fa": "true",
+            "$": "https://api.elsevier.com/content/object/eid/1-s2.0-S0021951724004329-gr3.jpg?httpAccept=%2A%2F%2A",
+            "@multimediatype": "JPEG image file",
+            "@type": "IMAGE-DOWNSAMPLED",
+            "@size": "75588",
+            "@ref": "gr3",
+            "@mimetype": "image/jpeg"
+          },
+          {
+            "@category": "standard",
+            "@height": "558",
+            "@width": "535",
+            "@_fa": "true",
+            "$": "https://api.elsevier.com/content/object/eid/1-s2.0-S0021951724004329-gr10.jpg?httpAccept=%2A%2F%2A",
+            "@multimediatype": "JPEG image file",
+            "@type": "IMAGE-DOWNSAMPLED",
+            "@size": "108341",
+            "@ref": "gr10",
+            "@mimetype": "image/jpeg"
+          },
+          {
+            "@category": "standard",
+            "@height": "221",
+            "@width": "535",
+            "@_fa": "true",
+            "$": "https://api.elsevier.com/content/object/eid/1-s2.0-S0021951724004329-gr4.jpg?httpAccept=%2A%2F%2A",
+            "@multimediatype": "JPEG image file",
+            "@type": "IMAGE-DOWNSAMPLED",
+            "@size": "33173",
+            "@ref": "gr4",
+            "@mimetype": "image/jpeg"
+          },
+          {
+            "@category": "standard",
+            "@height": "239",
+            "@width": "535",
+            "@_fa": "true",
+            "$": "https://api.elsevier.com/content/object/eid/1-s2.0-S0021951724004329-gr5.jpg?httpAccept=%2A%2F%2A",
+            "@multimediatype": "JPEG image file",
+            "@type": "IMAGE-DOWNSAMPLED",
+            "@size": "27946",
+            "@ref": "gr5",
+            "@mimetype": "image/jpeg"
+          },
+          {
+            "@category": "standard",
+            "@height": "442",
+            "@width": "628",
+            "@_fa": "true",
+            "$": "https://api.elsevier.com/content/object/eid/1-s2.0-S0021951724004329-gr6.jpg?httpAccept=%2A%2F%2A",
+            "@multimediatype": "JPEG image file",
+            "@type": "IMAGE-DOWNSAMPLED",
+            "@size": "74152",
+            "@ref": "gr6",
+            "@mimetype": "image/jpeg"
+          },
+          {
+            "@category": "standard",
+            "@height": "254",
+            "@width": "628",
+            "@_fa": "true",
+            "$": "https://api.elsevier.com/content/object/eid/1-s2.0-S0021951724004329-gr7.jpg?httpAccept=%2A%2F%2A",
+            "@multimediatype": "JPEG image file",
+            "@type": "IMAGE-DOWNSAMPLED",
+            "@size": "42868",
+            "@ref": "gr7",
+            "@mimetype": "image/jpeg"
+          },
+          {
+            "@category": "standard",
+            "@height": "365",
+            "@width": "653",
+            "@_fa": "true",
+            "$": "https://api.elsevier.com/content/object/eid/1-s2.0-S0021951724004329-gr8.jpg?httpAccept=%2A%2F%2A",
+            "@multimediatype": "JPEG image file",
+            "@type": "IMAGE-DOWNSAMPLED",
+            "@size": "95866",
+            "@ref": "gr8",
+            "@mimetype": "image/jpeg"
+          },
+          {
+            "@category": "thumbnail",
+            "@height": "85",
+            "@width": "219",
+            "@_fa": "true",
+            "$": "https://api.elsevier.com/content/object/eid/1-s2.0-S0021951724004329-gr9.sml?httpAccept=%2A%2F%2A",
+            "@multimediatype": "GIF image file",
+            "@type": "IMAGE-THUMBNAIL",
+            "@size": "8355",
+            "@ref": "gr9",
+            "@mimetype": "image/gif"
+          },
+          {
+            "@category": "thumbnail",
+            "@height": "148",
+            "@width": "219",
+            "@_fa": "true",
+            "$": "https://api.elsevier.com/content/object/eid/1-s2.0-S0021951724004329-gr1.sml?httpAccept=%2A%2F%2A",
+            "@multimediatype": "GIF image file",
+            "@type": "IMAGE-THUMBNAIL",
+            "@size": "20539",
+            "@ref": "gr1",
+            "@mimetype": "image/gif"
+          },
+          {
+            "@category": "thumbnail",
+            "@height": "161",
+            "@width": "219",
+            "@_fa": "true",
+            "$": "https://api.elsevier.com/content/object/eid/1-s2.0-S0021951724004329-gr2.sml?httpAccept=%2A%2F%2A",
+            "@multimediatype": "GIF image file",
+            "@type": "IMAGE-THUMBNAIL",
+            "@size": "10520",
+            "@ref": "gr2",
+            "@mimetype": "image/gif"
+          },
+          {
+            "@category": "thumbnail",
+            "@height": "96",
+            "@width": "219",
+            "@_fa": "true",
+            "$": "https://api.elsevier.com/content/object/eid/1-s2.0-S0021951724004329-ga1.sml?httpAccept=%2A%2F%2A",
+            "@multimediatype": "GIF image file",
+            "@type": "IMAGE-THUMBNAIL",
+            "@size": "8961",
+            "@ref": "ga1",
+            "@mimetype": "image/gif"
+          },
+          {
+            "@category": "thumbnail",
+            "@height": "118",
+            "@width": "219",
+            "@_fa": "true",
+            "$": "https://api.elsevier.com/content/object/eid/1-s2.0-S0021951724004329-gr3.sml?httpAccept=%2A%2F%2A",
+            "@multimediatype": "GIF image file",
+            "@type": "IMAGE-THUMBNAIL",
+            "@size": "9170",
+            "@ref": "gr3",
+            "@mimetype": "image/gif"
+          },
+          {
+            "@category": "thumbnail",
+            "@height": "164",
+            "@width": "157",
+            "@_fa": "true",
+            "$": "https://api.elsevier.com/content/object/eid/1-s2.0-S0021951724004329-gr10.sml?httpAccept=%2A%2F%2A",
+            "@multimediatype": "GIF image file",
+            "@type": "IMAGE-THUMBNAIL",
+            "@size": "14650",
+            "@ref": "gr10",
+            "@mimetype": "image/gif"
+          },
+          {
+            "@category": "thumbnail",
+            "@height": "90",
+            "@width": "219",
+            "@_fa": "true",
+            "$": "https://api.elsevier.com/content/object/eid/1-s2.0-S0021951724004329-gr4.sml?httpAccept=%2A%2F%2A",
+            "@multimediatype": "GIF image file",
+            "@type": "IMAGE-THUMBNAIL",
+            "@size": "7810",
+            "@ref": "gr4",
+            "@mimetype": "image/gif"
+          },
+          {
+            "@category": "thumbnail",
+            "@height": "98",
+            "@width": "219",
+            "@_fa": "true",
+            "$": "https://api.elsevier.com/content/object/eid/1-s2.0-S0021951724004329-gr5.sml?httpAccept=%2A%2F%2A",
+            "@multimediatype": "GIF image file",
+            "@type": "IMAGE-THUMBNAIL",
+            "@size": "7562",
+            "@ref": "gr5",
+            "@mimetype": "image/gif"
+          },
+          {
+            "@category": "thumbnail",
+            "@height": "154",
+            "@width": "219",
+            "@_fa": "true",
+            "$": "https://api.elsevier.com/content/object/eid/1-s2.0-S0021951724004329-gr6.sml?httpAccept=%2A%2F%2A",
+            "@multimediatype": "GIF image file",
+            "@type": "IMAGE-THUMBNAIL",
+            "@size": "13913",
+            "@ref": "gr6",
+            "@mimetype": "image/gif"
+          },
+          {
+            "@category": "thumbnail",
+            "@height": "89",
+            "@width": "219",
+            "@_fa": "true",
+            "$": "https://api.elsevier.com/content/object/eid/1-s2.0-S0021951724004329-gr7.sml?httpAccept=%2A%2F%2A",
+            "@multimediatype": "GIF image file",
+            "@type": "IMAGE-THUMBNAIL",
+            "@size": "7425",
+            "@ref": "gr7",
+            "@mimetype": "image/gif"
+          },
+          {
+            "@category": "thumbnail",
+            "@height": "122",
+            "@width": "219",
+            "@_fa": "true",
+            "$": "https://api.elsevier.com/content/object/eid/1-s2.0-S0021951724004329-gr8.sml?httpAccept=%2A%2F%2A",
+            "@multimediatype": "GIF image file",
+            "@type": "IMAGE-THUMBNAIL",
+            "@size": "16201",
+            "@ref": "gr8",
+            "@mimetype": "image/gif"
+          },
+          {
+            "@category": "high",
+            "@height": "1101",
+            "@width": "2833",
+            "@_fa": "true",
+            "$": "https://api.elsevier.com/content/object/eid/1-s2.0-S0021951724004329-gr9_lrg.jpg?httpAccept=%2A%2F%2A",
+            "@multimediatype": "JPEG image file",
+            "@type": "IMAGE-HIGH-RES",
+            "@size": "219020",
+            "@ref": "gr9",
+            "@mimetype": "image/jpeg"
+          },
+          {
+            "@category": "high",
+            "@height": "2254",
+            "@width": "3325",
+            "@_fa": "true",
+            "$": "https://api.elsevier.com/content/object/eid/1-s2.0-S0021951724004329-gr1_lrg.jpg?httpAccept=%2A%2F%2A",
+            "@multimediatype": "JPEG image file",
+            "@type": "IMAGE-HIGH-RES",
+            "@size": "802641",
+            "@ref": "gr1",
+            "@mimetype": "image/jpeg"
+          },
+          {
+            "@category": "high",
+            "@height": "2287",
+            "@width": "3115",
+            "@_fa": "true",
+            "$": "https://api.elsevier.com/content/object/eid/1-s2.0-S0021951724004329-gr2_lrg.jpg?httpAccept=%2A%2F%2A",
+            "@multimediatype": "JPEG image file",
+            "@type": "IMAGE-HIGH-RES",
+            "@size": "336679",
+            "@ref": "gr2",
+            "@mimetype": "image/jpeg"
+          },
+          {
+            "@category": "high",
+            "@height": "886",
+            "@width": "2028",
+            "@_fa": "true",
+            "$": "https://api.elsevier.com/content/object/eid/1-s2.0-S0021951724004329-ga1_lrg.jpg?httpAccept=%2A%2F%2A",
+            "@multimediatype": "JPEG image file",
+            "@type": "IMAGE-HIGH-RES",
+            "@size": "135514",
+            "@ref": "ga1",
+            "@mimetype": "image/jpeg"
+          },
+          {
+            "@category": "high",
+            "@height": "1868",
+            "@width": "3459",
+            "@_fa": "true",
+            "$": "https://api.elsevier.com/content/object/eid/1-s2.0-S0021951724004329-gr3_lrg.jpg?httpAccept=%2A%2F%2A",
+            "@multimediatype": "JPEG image file",
+            "@type": "IMAGE-HIGH-RES",
+            "@size": "439165",
+            "@ref": "gr3",
+            "@mimetype": "image/jpeg"
+          },
+          {
+            "@category": "high",
+            "@height": "2468",
+            "@width": "2368",
+            "@_fa": "true",
+            "$": "https://api.elsevier.com/content/object/eid/1-s2.0-S0021951724004329-gr10_lrg.jpg?httpAccept=%2A%2F%2A",
+            "@multimediatype": "JPEG image file",
+            "@type": "IMAGE-HIGH-RES",
+            "@size": "706232",
+            "@ref": "gr10",
+            "@mimetype": "image/jpeg"
+          },
+          {
+            "@category": "high",
+            "@height": "977",
+            "@width": "2368",
+            "@_fa": "true",
+            "$": "https://api.elsevier.com/content/object/eid/1-s2.0-S0021951724004329-gr4_lrg.jpg?httpAccept=%2A%2F%2A",
+            "@multimediatype": "JPEG image file",
+            "@type": "IMAGE-HIGH-RES",
+            "@size": "185557",
+            "@ref": "gr4",
+            "@mimetype": "image/jpeg"
+          },
+          {
+            "@category": "high",
+            "@height": "1060",
+            "@width": "2368",
+            "@_fa": "true",
+            "$": "https://api.elsevier.com/content/object/eid/1-s2.0-S0021951724004329-gr5_lrg.jpg?httpAccept=%2A%2F%2A",
+            "@multimediatype": "JPEG image file",
+            "@type": "IMAGE-HIGH-RES",
+            "@size": "130274",
+            "@ref": "gr5",
+            "@mimetype": "image/jpeg"
+          },
+          {
+            "@category": "high",
+            "@height": "1956",
+            "@width": "2782",
+            "@_fa": "true",
+            "$": "https://api.elsevier.com/content/object/eid/1-s2.0-S0021951724004329-gr6_lrg.jpg?httpAccept=%2A%2F%2A",
+            "@multimediatype": "JPEG image file",
+            "@type": "IMAGE-HIGH-RES",
+            "@size": "391863",
+            "@ref": "gr6",
+            "@mimetype": "image/jpeg"
+          },
+          {
+            "@category": "high",
+            "@height": "1126",
+            "@width": "2782",
+            "@_fa": "true",
+            "$": "https://api.elsevier.com/content/object/eid/1-s2.0-S0021951724004329-gr7_lrg.jpg?httpAccept=%2A%2F%2A",
+            "@multimediatype": "JPEG image file",
+            "@type": "IMAGE-HIGH-RES",
+            "@size": "236252",
+            "@ref": "gr7",
+            "@mimetype": "image/jpeg"
+          },
+          {
+            "@category": "high",
+            "@height": "1616",
+            "@width": "2891",
+            "@_fa": "true",
+            "$": "https://api.elsevier.com/content/object/eid/1-s2.0-S0021951724004329-gr8_lrg.jpg?httpAccept=%2A%2F%2A",
+            "@multimediatype": "JPEG image file",
+            "@type": "IMAGE-HIGH-RES",
+            "@size": "579246",
+            "@ref": "gr8",
+            "@mimetype": "image/jpeg"
+          },
+          {
+            "@category": "standard",
+            "@_fa": "true",
+            "$": "https://api.elsevier.com/content/object/eid/1-s2.0-S0021951724004329-mmc1.docx?httpAccept=%2A%2F%2A",
+            "@multimediatype": "Microsoft Word file",
+            "@type": "APPLICATION",
+            "@size": "7768076",
+            "@ref": "mmc1",
+            "@mimetype": "application/word"
+          },
+          {
+            "@category": "standard",
+            "@_fa": "true",
+            "$": "https://api.elsevier.com/content/object/eid/1-s2.0-S0021951724004329-am.pdf?httpAccept=%2A%2F%2A",
+            "@multimediatype": "Acrobat PDF file",
+            "@type": "AAM-PDF",
+            "@size": "1795679",
+            "@ref": "am",
+            "@mimetype": "application/pdf"
+          }
+        ]
+      },
+      "link": {
+        "@rel": "abstract",
+        "@href": "https://api.elsevier.com/content/abstract/scopus_id/85201633925"
+      }
+    }
+  }
+}

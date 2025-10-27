@@ -1,0 +1,536 @@
+{
+  "metadata": {
+    "title": "Metallated graphynes as a bifunctional electrocatalyst for oxygen reduction and oxygen evolution reactions: A DFT study",
+    "authors": "; ; ",
+    "journal": "Molecular Catalysis",
+    "date": "2024-10-31",
+    "doi": "10.1016/j.mcat.2024.114489",
+    "abstract": "",
+    "uri": "https://api.elsevier.com/content/article/pii/S2468823124006710",
+    "pii": "S2468823124006710"
+  },
+  "fulltext": {
+    "full-text-retrieval-response": {
+      "scopus-eid": "2-s2.0-85201766856",
+      "originalText": "serial JL 315758 291210 291744 291790 291809 31 Molecular Catalysis MOLECULARCATALYSIS 2024-08-24 2024-08-24 2024-08-24 2024-08-24 2024-08-29T19:58:52 1-s2.0-S2468823124006710 S2468-8231(24)00671-0 S2468823124006710 10.1016/j.mcat.2024.114489 S300 S300.1 FULL-TEXT 1-s2.0-S2468823124X00139 2024-10-16T14:24:56.206527Z 0 0 20241001 20241031 2024 2024-08-24T13:23:11.570187Z absattachment articleinfo articlenumber articletitlenorm authfirstinitialnorm authfirstsurnamenorm cid cids contenttype copyright crossmark dateloaded dateloadedtxt datesearch datesort dateupdated dco docsubtype doctype doi eid ewtransactionid hubeid indexeddate issn issnnorm itemstage itemtransactionid itemweight openaccess openarchive pg pgfirst pii piinorm pubdateend pubdatestart pubdatetxt pubyr sectiontitle sortorder srctitle srctitlenorm srctype ssids alllist content subj subheadings suppl tomb volfirst volissue volumelist webpdf webpdfpagecount yearnav figure body mmlmath acknowledge affil articletitle auth authfirstini authfull authkeywords authlast grantnumber grantsponsor highlightsabst orcid primabst ref specialabst 2468-8231 24688231 true 567 567 C Volume 567 34 114489 114489 114489 202410 October 2024 2024-10-01 2024-10-31 2024 Regular Papers article fla © 2024 Elsevier B.V. All rights are reserved, including those for text and data mining, AI training, and similar technologies. METALLATEDGRAPHYNESABIFUNCTIONALELECTROCATALYSTFOROXYGENREDUCTIONOXYGENEVOLUTIONREACTIONSADFTSTUDY YAO T 1 Introduction 2 Calculational details 3 Results and discussion 3.1 Geometry and stability of the TM-TEB 3.2 Binding of reaction intermediates 3.3 Catalytic activity of ORR/OER 3.4 Electronic properties analysis 4 Conclusions CRediT authorship contribution statement Acknowledgments References JACOBSON 2009 148 173 M STAMENKOVIC 2017 57 69 V ZHANG 2023 6951 6958 H CAO 2012 816 829 R WANG 2014 7746 7786 Z CHENG 2012 2172 2192 F QIAN 2017 641 650 Y QIN 2021 5800 5808 Y DONG 2021 10583 10587 K LI 2024 e202316522 Z YAO 2024 306 312 Y WANG 2020 17675 17683 J REIER 2012 1765 1772 T ROSSMEISL 2007 83 89 J NORSKOV 2004 17886 17892 J MAN 2011 1159 1165 I DAI 2024 628 636 Y LI 2023 628 636 Y WU 2020 3906 3929 X ZHAI 2021 20320 20344 Z LI 2022 154828 S KANG 2019 2692 2706 J ZHENG 2023 14309 14346 X XIE 2020 569 583 C LI 2022 154828 S LV 2022 133126 Y ZHAO 2023 e202300861 S LI 2014 2572 2586 Y HUANG 2018 7744 7803 C GAO 2021 321 332 X FU 2023 e202219242 X GAO 2021 119492 B SRINIVASU 2012 5951 5956 K MORTAZAVI 2019 3025 3036 B CHANDRASEKHARAN 2023 9461 9471 S LAKSHMY 2023 055402 S LI 2019 34 43 T XU 2021 11326 11334 L HU 2023 11026 11039 X HU 2022 27861 27872 X SUN 2016 7023 7030 Q CHEN 2017 104704 Y ZHANG 2021 9729 9734 T YANG 2020 16887 16896 Z DELLEY 2000 7756 7764 B DELLEY 1990 508 517 B LEE 1988 785 789 C HANSEN 2008 3722 3730 H ROSSMEISL 2005 178 184 J MA 2021 13687 13695 Y MEDFORD 2015 36 42 A ZHENG 2017 3336 3339 Y MASA 2014 8508 8512 J LIN 2017 1606635 C ZHANG 2018 112 119 X WANG 2023 100141 X XU 2024 15526 15534 T XU 2022 100027 X ZHANG 2024 108 123 C YAOX2024X114489 YAOX2024X114489XT 2026-08-24T00:00:00.000Z 2026-08-24T00:00:00.000Z http://creativecommons.org/licenses/by-nc-nd/4.0/ © 2024 Elsevier B.V. All rights are reserved, including those for text and data mining, AI training, and similar technologies. 2024-09-07T08:39:34.936Z http://vtw.elsevier.com/data/voc/AddOnTypes/50.7/aggregated-refined National Supercomputing Center in Shenzhen Southwest Petroleum University SWPU Southwest Petroleum University http://data.elsevier.com/vocabulary/SciValFunders/501100004753 http://sws.geonames.org/1814991/ 122060 http://sws.geonames.org/1814991 This work is supported by the Sinopec project fund ( 122060 ). We acknowledge the National Supercomputing Center in Shenzhen and the High-Performance Computing platform of Southwest Petroleum University for providing the computational resources and Materials Studio software. https://doi.org/10.15223/policy-017 https://doi.org/10.15223/policy-037 https://doi.org/10.15223/policy-012 https://doi.org/10.15223/policy-029 https://doi.org/10.15223/policy-004 item S2468-8231(24)00671-0 S2468823124006710 1-s2.0-S2468823124006710 10.1016/j.mcat.2024.114489 315758 2024-10-16T14:24:56.206527Z 2024-10-01 2024-10-31 1-s2.0-S2468823124006710-main.pdf https://s3-eu-west-1.amazonaws.com/prod-ucs-content-store-eu-west/content/pii:S2468823124006710/MAIN/application/pdf/3c89509463f99fc3beaa3332f5e269fb/main.pdf main.pdf pdf true 3385586 MAIN 8 1-s2.0-S2468823124006710-main_1.png https://s3-eu-west-1.amazonaws.com/prod-ucs-content-store-eu-west/content/pii:S2468823124006710/PREVIEW/image/png/de48478537195831e7eb6e8d76ba64e0/main_1.png main_1.png png 60188 849 656 IMAGE-WEB-PDF 1 1-s2.0-S2468823124006710-gr3.jpg https://s3-eu-west-1.amazonaws.com/prod-ucs-content-store-eu-west/content/pii:S2468823124006710/gr3/DOWNSAMPLED/image/jpeg/45081ba9ba7b096f9899775c162143e5/gr3.jpg gr3 gr3.jpg jpg 43961 295 809 IMAGE-DOWNSAMPLED 1-s2.0-S2468823124006710-gr2.jpg https://s3-eu-west-1.amazonaws.com/prod-ucs-content-store-eu-west/content/pii:S2468823124006710/gr2/DOWNSAMPLED/image/jpeg/47f44be98c8bb65f97ebfec56bc9cc4d/gr2.jpg gr2 gr2.jpg jpg 21645 326 395 IMAGE-DOWNSAMPLED 1-s2.0-S2468823124006710-ga1.jpg https://s3-eu-west-1.amazonaws.com/prod-ucs-content-store-eu-west/content/pii:S2468823124006710/ga1/DOWNSAMPLED/image/jpeg/d6f6a515ed8d0ae94a0c4121d89a58fd/ga1.jpg ga1 true ga1.jpg jpg 23922 200 303 IMAGE-DOWNSAMPLED 1-s2.0-S2468823124006710-gr1.jpg https://s3-eu-west-1.amazonaws.com/prod-ucs-content-store-eu-west/content/pii:S2468823124006710/gr1/DOWNSAMPLED/image/jpeg/604bc7c83f6cdf991d4e3b65141ef444/gr1.jpg gr1 gr1.jpg jpg 39602 204 678 IMAGE-DOWNSAMPLED 1-s2.0-S2468823124006710-gr7.jpg https://s3-eu-west-1.amazonaws.com/prod-ucs-content-store-eu-west/content/pii:S2468823124006710/gr7/DOWNSAMPLED/image/jpeg/d1e5c63975807e766363c24483fe5df2/gr7.jpg gr7 gr7.jpg jpg 44491 325 395 IMAGE-DOWNSAMPLED 1-s2.0-S2468823124006710-gr6.jpg https://s3-eu-west-1.amazonaws.com/prod-ucs-content-store-eu-west/content/pii:S2468823124006710/gr6/DOWNSAMPLED/image/jpeg/f75b9e28c9e0d8803458fb9136bad46f/gr6.jpg gr6 gr6.jpg jpg 72015 295 809 IMAGE-DOWNSAMPLED 1-s2.0-S2468823124006710-gr5.jpg https://s3-eu-west-1.amazonaws.com/prod-ucs-content-store-eu-west/content/pii:S2468823124006710/gr5/DOWNSAMPLED/image/jpeg/993de9fc265bbe443281c1470158b4b8/gr5.jpg gr5 gr5.jpg jpg 40089 317 809 IMAGE-DOWNSAMPLED 1-s2.0-S2468823124006710-gr4.jpg https://s3-eu-west-1.amazonaws.com/prod-ucs-content-store-eu-west/content/pii:S2468823124006710/gr4/DOWNSAMPLED/image/jpeg/6bf17b6d3016339b8736880915172242/gr4.jpg gr4 gr4.jpg jpg 90553 587 809 IMAGE-DOWNSAMPLED 1-s2.0-S2468823124006710-gr9.jpg https://s3-eu-west-1.amazonaws.com/prod-ucs-content-store-eu-west/content/pii:S2468823124006710/gr9/DOWNSAMPLED/image/jpeg/17b42c03fa3e7b67692995d164d0243a/gr9.jpg gr9 gr9.jpg jpg 66253 449 809 IMAGE-DOWNSAMPLED 1-s2.0-S2468823124006710-gr8.jpg https://s3-eu-west-1.amazonaws.com/prod-ucs-content-store-eu-west/content/pii:S2468823124006710/gr8/DOWNSAMPLED/image/jpeg/424e2740414ed6aa19c0096985ec89c9/gr8.jpg gr8 gr8.jpg jpg 25379 311 395 IMAGE-DOWNSAMPLED 1-s2.0-S2468823124006710-gr3.sml https://s3-eu-west-1.amazonaws.com/prod-ucs-content-store-eu-west/content/pii:S2468823124006710/gr3/THUMBNAIL/image/gif/aa058f32508268acafb2461f5238182d/gr3.sml gr3 gr3.sml sml 6918 80 219 IMAGE-THUMBNAIL 1-s2.0-S2468823124006710-gr2.sml https://s3-eu-west-1.amazonaws.com/prod-ucs-content-store-eu-west/content/pii:S2468823124006710/gr2/THUMBNAIL/image/gif/fab1190ad218bf1acd2c55f140c17a49/gr2.sml gr2 gr2.sml sml 7233 164 199 IMAGE-THUMBNAIL 1-s2.0-S2468823124006710-ga1.sml https://s3-eu-west-1.amazonaws.com/prod-ucs-content-store-eu-west/content/pii:S2468823124006710/ga1/THUMBNAIL/image/gif/60035c3d87032e82b5e6cda2d9590e4b/ga1.sml ga1 true ga1.sml sml 14265 145 219 IMAGE-THUMBNAIL 1-s2.0-S2468823124006710-gr1.sml https://s3-eu-west-1.amazonaws.com/prod-ucs-content-store-eu-west/content/pii:S2468823124006710/gr1/THUMBNAIL/image/gif/19e6cd5040ecb556a1faba27834488c5/gr1.sml gr1 gr1.sml sml 8581 66 219 IMAGE-THUMBNAIL 1-s2.0-S2468823124006710-gr7.sml https://s3-eu-west-1.amazonaws.com/prod-ucs-content-store-eu-west/content/pii:S2468823124006710/gr7/THUMBNAIL/image/gif/69b11e277b55ce928cbe815018afcda6/gr7.sml gr7 gr7.sml sml 13212 164 199 IMAGE-THUMBNAIL 1-s2.0-S2468823124006710-gr6.sml https://s3-eu-west-1.amazonaws.com/prod-ucs-content-store-eu-west/content/pii:S2468823124006710/gr6/THUMBNAIL/image/gif/511660ce4427cab8d2e5f0de470267cd/gr6.sml gr6 gr6.sml sml 8415 80 219 IMAGE-THUMBNAIL 1-s2.0-S2468823124006710-gr5.sml https://s3-eu-west-1.amazonaws.com/prod-ucs-content-store-eu-west/content/pii:S2468823124006710/gr5/THUMBNAIL/image/gif/ca73f0804308bec5e868c2da5239ffdd/gr5.sml gr5 gr5.sml sml 5230 86 219 IMAGE-THUMBNAIL 1-s2.0-S2468823124006710-gr4.sml https://s3-eu-west-1.amazonaws.com/prod-ucs-content-store-eu-west/content/pii:S2468823124006710/gr4/THUMBNAIL/image/gif/040a38c0606d643ae347585465f48801/gr4.sml gr4 gr4.sml sml 9886 159 219 IMAGE-THUMBNAIL 1-s2.0-S2468823124006710-gr9.sml https://s3-eu-west-1.amazonaws.com/prod-ucs-content-store-eu-west/content/pii:S2468823124006710/gr9/THUMBNAIL/image/gif/f3c5dd180e96af9c487fcf0aea45008c/gr9.sml gr9 gr9.sml sml 9410 122 219 IMAGE-THUMBNAIL 1-s2.0-S2468823124006710-gr8.sml https://s3-eu-west-1.amazonaws.com/prod-ucs-content-store-eu-west/content/pii:S2468823124006710/gr8/THUMBNAIL/image/gif/de20616ddb887c7e50683dc7f002f77e/gr8.sml gr8 gr8.sml sml 7585 164 208 IMAGE-THUMBNAIL 1-s2.0-S2468823124006710-gr3_lrg.jpg https://s3-eu-west-1.amazonaws.com/prod-ucs-content-store-eu-west/content/pii:S2468823124006710/HIGHRES/image/jpeg/07a0fd8dc99c0a40a06c470ba4cd1f30/gr3_lrg.jpg gr3 gr3_lrg.jpg jpg 312611 1306 3583 IMAGE-HIGH-RES 1-s2.0-S2468823124006710-gr2_lrg.jpg https://s3-eu-west-1.amazonaws.com/prod-ucs-content-store-eu-west/content/pii:S2468823124006710/HIGHRES/image/jpeg/83b422a8a3a3289882de8c562d42e1de/gr2_lrg.jpg gr2 gr2_lrg.jpg jpg 133011 1442 1749 IMAGE-HIGH-RES 1-s2.0-S2468823124006710-ga1_lrg.jpg https://s3-eu-west-1.amazonaws.com/prod-ucs-content-store-eu-west/content/pii:S2468823124006710/HIGHRES/image/jpeg/ebd9a4f5672a757eee37ad20660ee696/ga1_lrg.jpg ga1 true ga1_lrg.jpg jpg 165058 886 1342 IMAGE-HIGH-RES 1-s2.0-S2468823124006710-gr1_lrg.jpg https://s3-eu-west-1.amazonaws.com/prod-ucs-content-store-eu-west/content/pii:S2468823124006710/HIGHRES/image/jpeg/1944c68169deb3d81248fdaa4eaf3800/gr1_lrg.jpg gr1 gr1_lrg.jpg jpg 257028 903 3000 IMAGE-HIGH-RES 1-s2.0-S2468823124006710-gr7_lrg.jpg https://s3-eu-west-1.amazonaws.com/prod-ucs-content-store-eu-west/content/pii:S2468823124006710/HIGHRES/image/jpeg/cc4d100e4e485d953731ba9a10ed823a/gr7_lrg.jpg gr7 gr7_lrg.jpg jpg 265870 1440 1749 IMAGE-HIGH-RES 1-s2.0-S2468823124006710-gr6_lrg.jpg https://s3-eu-west-1.amazonaws.com/prod-ucs-content-store-eu-west/content/pii:S2468823124006710/HIGHRES/image/jpeg/d9cacb87f6555422faee99f570991af1/gr6_lrg.jpg gr6 gr6_lrg.jpg jpg 428791 1307 3583 IMAGE-HIGH-RES 1-s2.0-S2468823124006710-gr5_lrg.jpg https://s3-eu-west-1.amazonaws.com/prod-ucs-content-store-eu-west/content/pii:S2468823124006710/HIGHRES/image/jpeg/55668ca283246e4f92e78217e26fd77b/gr5_lrg.jpg gr5 gr5_lrg.jpg jpg 255674 1404 3583 IMAGE-HIGH-RES 1-s2.0-S2468823124006710-gr4_lrg.jpg https://s3-eu-west-1.amazonaws.com/prod-ucs-content-store-eu-west/content/pii:S2468823124006151/HIGHRES/image/jpeg/bf7ae3389684998e0f244fffdf42e1b1/gr4_lrg.jpg gr4 gr4_lrg.jpg jpg 539643 2599 3583 IMAGE-HIGH-RES 1-s2.0-S2468823124006710-gr9_lrg.jpg https://s3-eu-west-1.amazonaws.com/prod-ucs-content-store-eu-west/content/pii:S2468823124006151/HIGHRES/image/jpeg/ce6c009783c5794756c75f066b8606d5/gr9_lrg.jpg gr9 gr9_lrg.jpg jpg 463879 1989 3583 IMAGE-HIGH-RES 1-s2.0-S2468823124006710-gr8_lrg.jpg https://s3-eu-west-1.amazonaws.com/prod-ucs-content-store-eu-west/content/pii:S2468823124006710/HIGHRES/image/jpeg/da889db9f37d7cbf0749f9218ad0273a/gr8_lrg.jpg gr8 gr8_lrg.jpg jpg 149886 1379 1749 IMAGE-HIGH-RES 1-s2.0-S2468823124006710-si1.svg https://s3-eu-west-1.amazonaws.com/prod-ucs-content-store-eu-west/content/pii:S2468823124006710/image/svg+xml/8bdeb700db804bff4e558b67cd70a633/si1.svg si1 si1.svg svg 9355 ALTIMG 1-s2.0-S2468823124006710-si2.svg https://s3-eu-west-1.amazonaws.com/prod-ucs-content-store-eu-west/content/pii:S2468823124006710/image/svg+xml/fd4aac6e02c160fdb670a880ab61c420/si2.svg si2 si2.svg svg 9360 ALTIMG 1-s2.0-S2468823124006710-si3.svg https://s3-eu-west-1.amazonaws.com/prod-ucs-content-store-eu-west/content/pii:S2468823124006710/image/svg+xml/f650ccf6bf83e3a47dd4b1300b63dfab/si3.svg si3 si3.svg svg 11076 ALTIMG 1-s2.0-S2468823124006710-si4.svg https://s3-eu-west-1.amazonaws.com/prod-ucs-content-store-eu-west/content/pii:S2468823124006710/image/svg+xml/cf94c2634e298fd2e543d36aeff6b5b4/si4.svg si4 si4.svg svg 11778 ALTIMG 1-s2.0-S2468823124006710-si5.svg https://s3-eu-west-1.amazonaws.com/prod-ucs-content-store-eu-west/content/pii:S2468823124006710/image/svg+xml/e9998d71fada07f2ed4aa9bd63b1ad89/si5.svg si5 si5.svg svg 5086 ALTIMG 1-s2.0-S2468823124006710-am.pdf am am.pdf pdf 952496 AAM-PDF https://s3-eu-west-1.amazonaws.com/prod-ucs-content-store-eu-west/content/egi:10SJLPRX9WZ/MAIN/application/pdf/bceda9b340dde646b0e40e40a94d213b/am.pdf MCAT 114489 114489 S2468-8231(24)00671-0 10.1016/j.mcat.2024.114489 Elsevier B.V. Fig. 1 (a) Schematic structure of TM-TEB. (b) All considered transition metals in this work. Fig 1 Fig. 2 Energy difference of TM-TEB. Fig 2 Fig. 3 (a) First-principles molecular dynamics simulations of Pd-TEB, along with initial and final atomic configurations given in the inset. (b) Density of states calculation of Pd-TEB. Fig 3 Fig. 4 (a) Schematic diagram for ORR and OER processes. (b-d) Gibbs free energy of *OOH, *O, and *OH on TM-TEB. Fig 4 Fig. 5 Scaling relationships between adsorption free energy of (a) *OOH, and (b) *O with *OH. Fig 5 Fig. 6 (a) Overpotential values for ORR and OER. (b) Relationships between overpotential (η ORR and - η OER) and ΔG *OH. A linear relationship is depicted for each line as indicated below. Blue line: η ORR = -ΔG *OH + 1.23; red line: η ORR = -0.83 × ΔG *OH + 0.52; orange line: η ORR = 0.95 × ΔG *OH - 0.93; green line: η ORR = 0.88 × ΔG *OH - 0.82. Fig 6 Fig. 7 Hot map of η ORR, η OER, and ΔE values. Fig 7 Fig. 8 Gibbs free energy diagram for Pt-TEB. The PDS of ORR and OER are identified by the red and blue markers, respectively. Fig 8 Fig. 9 (a) Charges quantity of Pt, TEB, and intermediates during ORR and OER on Pt-TEB. (b) Deformation charge density of Pd-TEB binding with *OOH, *O, and*OH. Blue regions depict electron density accumulation, while yellow areas denote electron density depletion with the isosurface value of 0.05 eÅ-3. Fig 9 Metallated graphynes as a bifunctional electrocatalyst for oxygen reduction and oxygen evolution reactions: A DFT study Ting Yao Writing – original draft Investigation Formal analysis Data curation a Huohai Yang Conceptualization b Xiaoyue Fu Conceptualization c Yingjie Feng Conceptualization c Xingbo Ge Conceptualization a Qiang Ke Writing – review & editing Supervision Methodology Investigation Conceptualization a ⁎ Xin Chen Writing – review & editing Supervision Methodology Investigation Conceptualization a d ⁎ a Center for Computational Chemistry and Molecular Simulation, College of Chemistry and Chemical Engineering, Southwest Petroleum University, Chengdu 610500, China Center for Computational Chemistry and Molecular Simulation College of Chemistry and Chemical Engineering Southwest Petroleum University Chengdu 610500 China aCenter for Computational Chemistry and Molecular Simulation, College of Chemistry and Chemical Engineering, Southwest Petroleum University, Chengdu 610500, China b School of Petroleum Engineering, Southwest Petroleum University, Chengdu 610500, China School of Petroleum Engineering Southwest Petroleum University Chengdu 610500 China bSchool of Petroleum Engineering, Southwest Petroleum University, Chengdu 610500, China c Department of Catalytic Science, SINOPEC (Beijing) Research Institute of Chemical Industry Co., Ltd., Beijing 100013, China Department of Catalytic Science SINOPEC (Beijing) Research Institute of Chemical Industry Co., Ltd. Beijing 100013 China cDepartment of Catalytic Science, SINOPEC (Beijing) Research Institute of Chemical Industry Co., Ltd., Beijing 100013, China d State Key Laboratory of Oil and Gas Reservoir Geology and Exploitation, Southwest Petroleum University, Chengdu, 610500, China State Key Laboratory of Oil and Gas Reservoir Geology and Exploitation Southwest Petroleum University Chengdu 610500 China dState Key Laboratory of Oil and Gas Reservoir Geology and Exploitation, Southwest Petroleum University, Chengdu, 610500, China ⁎ Corresponding authors. The sluggish kinetics of the oxygen reduction reaction (ORR) and oxygen evolution reaction (OER) at the cathode greatly limit their energy conversion efficiency. Herein, the transition metal 1,3,5-triethynylbenzene systems (TM-TEB, TM =Mn, Fe, Co, Ni, Cu, Zn, Ru, Rh, Pd, Ag, Re, Os, Ir, Pt, Au) are systematically investigated by density functional theory methods, and their potential application as efficient electrocatalysts for ORR and OER is revealed. For ORR, the calculated results show that the ORR overpotentials values of Pd- and Pt-TEB are 0.34 and 0.44 V, respectively, possessing superb ORR catalytic performance. For OER, the OER overpotentials value of Pt-TEB is 0.33 V, indicating that it has excellent OER catalytic activity. In particular, the potential gap value of Pt-TEB is 0.77 V, demonstrating excellent bifunctional catalytic activity. The electrocatalyst potential of TM-TEB in the ORR/OER process is highlighted in this study, showcasing their significant promise, enhancing comprehension of TM-TEB, and offering valuable insights into possible further exploration and prospective applications for TM-TEB. Graphical abstract Image, graphical abstract Keywords Oxygen reduction reaction Oxygen evolution reaction Density functional theory Transition metal 1,3,5-triethynylbenzene Data availability The data that has been used is confidential. 1 Introduction Depletion of fossil fuels and environmental pollution are two pressing global challenges facing human society in the 21st century [1,2]. The imperative is to find alternative, renewable, sustainable, and environmentally friendly energy technologies [3]. Metal-air batteries are favored for their economic and safety advantages, as they efficiently convert chemical energy into electrical energy [4-7]. However, the energy conversion efficiency is notably restricted by the sluggish kinetics in the oxygen reduction reaction (ORR) and oxygen evolution reaction (OER) processes at the cathode [8-11]. Thus, to address this challenge, it is crucial to find a multifunctional catalyst that is both efficient and cost-effective for all reactions [12]. Currently, precious metals and their oxide materials are widely used in ORR or OER processes, such as Pt and Pt-based catalysts for ORR and Ru- and Ir-based oxide catalysts for OER [13-16]. However, none of them possess bifunctional activity for both ORR and OER. Specifically, one catalyst exhibits excellent catalytic activity in the ORR process but does not demonstrate satisfactory activity in the OER process. In addition, these materials possess inherent drawbacks such as high cost, scarcity of resources, and susceptibility to poisoning, which limit their widespread application [17,18]. Therefore, searching for low-cost, efficient, and highly selective bifunctional catalysts is crucial for the further development of energy storage and conversion technologies [19,20]. In recent years, single-atom catalysts (SACs) have garnered widespread attention due to their high atomic utilization, well-defined active sites, and excellent catalytic performance. Thus, it is crucial to find a suitable substrate that can effectively adsorb individual metal atoms to ensure the stability of SACs [21]. Graphyne (GY) and its derivatives are novel two-dimensional carbon allotropes with both sp and sp2 hybridization [22,23], in which each benzene ring is linked to the neighboring benzene ring via acetylene bonds. GY and its derivatives have distinctive structural characteristics, which contribute to their outstanding chemical and physical properties, including uneven charge distribution, high conductivity, and chemical stability [24-26]. In addition, GY and its derivatives also possess significant advantages over graphene [27-31]. These unique structural features and electronic properties of GY and its derivatives make them a promising category of two-dimensional carbon materials that have found extensive applications in various fields, such as catalysis, sensors, and medicine [32-37]. Compared to other GY and its derivative materials, metallated graphyne as a novel GY derivative, is obtained by incorporating metal atoms into the graphyne framework [38]. Among them, transition metal 1,3,5-triethynylbenzene (TM-TEB) as SACs have attracted much attention in recent years [39-42]. It is composed of TM atoms and TEB molecules, forming a planar hexagonal structure with sixfold rotational symmetry. Furthermore, it combines the features of GY and single-atom metal centers, including efficient charge transfer, high electrical conductivity, chemical stability, and unsaturated metal coordination [39]. Furthermore, the unique twofold TM-alkynyl coordination bonds (−CC−TM−CC−) provide excellent electronic properties, while the uniform dispersion and extensive exposure of metal atoms contribute to enhanced durability, preventing the formation of clusters [40], thus providing more possibilities for the design of SACs. In particular, TM-TEB has been used as SACs in many fields, such as in photoelectrochemical hydrogen evolution reactions (HER) and nitrogen reduction reactions (NRR) [40,43]. Remarkably, a few TM-TEB have been successfully synthesized. For example, Zhang et al. have successfully synthesized Cu-TEB [43]. Yang et al. have successfully synthesized Ag-TEB and elucidated its structural and electronic properties in combination with density functional theory (DFT) calculations [44]. Moreover, the excellent property of TM-TEB makes them potential candidates for electrocatalysts. For example, Zhang et al. have demonstrated that Cu-TEB shows excellent performance in photoelectrochemical HER [43]. Hu et al. have extensively studied TM-TEB (transition metal atoms of the TM = 3d, 4d, and 5d series) and evaluated their viability as electrocatalysts in NRR [40]. Nevertheless, the exploration of TM-TEB systems in the field of catalysis is in its infancy, especially the research of ORR and OER is lacking. Therefore, further study of its performance in ORR and OER catalytic processes is essential for a comprehensive understanding of this class of catalysts. Inspired by the above analysis, in this work, the DFT methods are utilized to conduct a complete study of TM-TEB systems. Firstly, by computing the energy difference between TM-TEB and Ag-TEB, the stability of TM-TEB is evaluated. Secondly, by analyzing the binding behavior of reaction intermediates on the TM-TEB, the catalytic activity of TM-TEB is preliminarily evaluated. A linear relationship between the adsorption free energy of *OOH and *O with *OH is established to determine the activity descriptors. Thirdly, the TM-TEB catalysis activity is analyzed by volcano diagrams to screen out efficient electrocatalysts for ORR and OER. Then, evaluate the activity of bifunctional electrocatalysts by using the potential gap. Moreover, the electronic properties of Pt-TEB are analyzed by calculating the Mulliken charge and deformation charge density. 2 Calculational details DMol3 mode in Materials Studio was used for all calculations [45,46]. The electron exchange-correlation potential was determined by the generalized gradient approximation (GGA) in the form of Perdew-Burke-Ernzerhof (PBE) functional. The double numerical plus polarization (DNP) basis set was utilized to expand the atomic orbitals [47]. The convergence tolerance for energy change, maximum force, and maximum displacement were 2.0 × 10-5 Ha, 0.004 Ha Å-1, and 0.005 Å, respectively. At the same time, sampled using a 2 × 2 × 1 k-point mesh based on the Monkhorst-Pack grid to the Brillouin zone. Based on the successful synthesis of Ag-TEB in the experiment and its demonstrated good stability. Thus, to evaluate the stability of the catalyst, the energy difference between TM-TEB and Ag-TEB is calculated [44]. The specific expression of energy difference (E d) is as follows: (1) E d = E TM − TEB + 3 E Ag − E Ag − TEB − 3 E TM where E TM-TEB, E TM, E Ag, and E Ag-TEB are the energies of TM-TEB, transition metal atoms, Ag atoms, and Ag-TEB, respectively. If the calculated E d is a negative value, the replacement of Ag on Ag-TEB by other metal atoms is energetically favorable. In addition, the first-principle molecular dynamics simulations are conducted for 2 ps at 300 K to assess its dynamic stability. The overall ORR in the acidic environment is as follows: (2) O2 + 4H+ + 4e− → 2H2O The four-electron pathway of the ORR process through the following steps: (* indicates adsorption sites): (3) * + O2 + H+ + e− → *OOH (4) *OOH + H+ + e− → *O + H2O (5) *O + H+ + e− → *OH (6) *OH + H+ + e− → * + H2O The electrochemical process of OER can be seen as the inverse of ORR. Below is the overall reaction involved in the OER process: (7) 2H2O → O2 + 4H+ + 4e− The four-electron pathway of OER involves four elementary reaction steps as follows: (8) * + H2O →*OH + H+ + e− (9) *OH → *O + H+ + e− (10) *O + H2O → *OOH + H+ + e− (11) *OOH → * + O2 + H+ + e− For each elementary step, the Gibbs free energy ΔG of the reaction is defined as follows [48]: (12) Δ G = Δ ZPE + Δ E − T Δ S + Δ G P H + Δ G U where ΔZPE, ΔE, and ΔS are the zero-point energy, difference in the electronic energy, and entropy, respectively. T is 298.15 K. ΔG PH represents the Gibbs free energy with respect to the concentration of H+, defined as ΔG PH = k B Tln(10) × pH, where k B denotes the Boltzmann constant. ΔG U is given by the equation ΔG U = −neU, where n represents the number of electrons transferred, and U stands for the electrode potential. The method proposed by Nørskov et al. enables the computation of the Gibbs free energy for these basic steps [49]. The ORR overpotential (η ORR) and OER overpotential (η OER) are calculated as: (13) η ORR = ( Δ G ORR max / e ) + 1.23 (14) η OER = ( Δ G OER max / e ) − 1.23 Defining the potential gap (ΔE) to demonstrate the bifunctional catalytic activity of ORR and OER [50], and below is the formula for this calculation: (15) Δ E = η ORR + η OER 3 Results and discussion 3.1 Geometry and stability of the TM-TEB TM-TEB are composed of TM atoms and TEB molecules, which are linked together by the twofold TM-alkynyl coordination bonds to form a planar hexagonal structure with a sixfold rotational symmetry, as shown in Fig. 1 a. The presence of uniformly distributed macropores and a π-conjugated system enhances both mass transfer and charge transport efficiency, rendering it a highly promising catalyst with high-performance potential. All considered TM are displayed in Fig. 1b, where Tc, Cd, and Hg are excluded due to toxicity or radioactivity. After optimizing the structures, it can be observed that apart from Co-, Ni-, Cu-, Zn-, Re-, and Os-TEB, the other structures undergo almost no deformation. Consequently, Co-, Ni-, Cu-, Zn-, Re-, and Os-TEB will not be considered in the following calculations. For all TM-TEB systems, the bond length between C1 and C2 is 1.232 to 1.255 Å, indicating a triple bond for C1−C2, while the bond length between C2 and C3 is 1.401 to 1.433 Å, representing a single bond for C2−C3. Moreover, the bond length between TM atoms and C1 ranges from 1.838 to 2.285 Å. These results are consistent with previous studies [40]. This demonstrates that the strong chemical bonding interactions ensure the stability of the structure. The satisfactory stability of TM-TEB is an important prerequisite for them to be excellent catalysts. Firstly, we calculated the E d to assess the stability of TM-TEB. The results are shown in Fig. 2 . Obviously, all E d values exhibit negativity, which indicates that replacing TM atoms with Ag atom provides energetically advantageous, i.e., all the investigated TM-TEB have satisfactory thermodynamic stabilities. Then, the thermodynamic stability of TM-TEB is evaluated by using first-principles molecular dynamics simulations at 300 K. Taking Pd-TEB (with the most positive E d value) as a representative, the calculation result is shown in Fig. 3 a. The total energy of the systems exhibits minimal variation, and the Pd-TEB catalyst structure remains unchanged even after 2 ps simulation at 300 K, suggesting that the atoms vibrate within the lattice sites to preserve the structures. Results of the above indicate that Pd-TEB possesses excellent stability. This further confirms the result of E d. Additionally, the intrinsic reason for the stability of Pd-TEB is explored by calculating its DOS, and the result is plotted in Fig. 3b. There is a remarkable orbital overlap between the d orbital of Pd atom and the p orbital of C1 atom within the energy is −6 to 0 eV, showing strong interaction between Pd atom and C1 atom, resulting in good stability of Pd-TEB. 3.2 Binding of reaction intermediates In this work, the four-electron pathway of ORR and OER is noticed and the schematic diagram for ORR and OER processes is exhibited in Fig. 4 a. For ORR, the process consists of four reaction steps. The first step is the protonation of activated O2 molecule to form *OOH. The second step is the breaking of the O−O bond in *OOH, resulting in the formation of *O and one H2O molecule. The third step is the protonation of *O, forming *OH. The fourth step is the reduction of *OH, producing another H2O molecule. For OER, the process is * + H2O →*OH → *O → *OOH → * + O2. In the catalytic process, the adsorption behaviors of key intermediates (*OOH, *O, and *OH) on TM-TEB can remarkably influence ORR and OER catalytic activity. Therefore, the adsorption free energy of reaction intermediates (ΔG species, i.e., ΔG *OH, ΔG *O, and ΔG *OOH) values are calculated and depicted in Fig. 4b-d. According to the principle of Sabatier [51], the ideal catalyst should have a moderate binding strength with the reaction intermediates. Excessive strength or weakness in binding could compromise the efficiency of catalytic of both the ORR and OER processes. The more positive the ΔG species values, the weaker the adsorption of intermediate products by TM-TEB. When U is 0 V, for optimal performance, the ideal energy values for ΔG *OOH, ΔG *O, and ΔG *OH are 3.69 eV, 2.46 eV, and 1.23 eV, respectively. If the ΔG *OOH, ΔG *O, and ΔG *OH values on TM-TEB are close to the ideal catalysts, they may possess excellent ORR and OER catalytic potential. It is worth noting that the ΔG *OOH, ΔG *O, and ΔG *OH values of Pd- and Pt-TEB are closer to that of the ideal catalyst than that of the remaining TM-TEB. In particular, for Pd-TEB, the ΔG *OOH, ΔG *O, and ΔG *OH values are respectively 3.81, 2.92, and 0.96 eV, which are 0.12, 0.46, and 0.27 eV different from the ΔG *OOH, ΔG *O, and ΔG *OH values of the ideal catalyst, respectively, indicating that it may possess excellent catalytic potential of ORR and OER. For Ir-TEB, its adsorption strength for the reaction intermediates is much stronger than that of the ideal catalyst, which will be unfavorable to the ORR and OER processes. Then, we probe the adsorption free energy relationships for *OOH, *O, and *OH in Fig. 5 a-b. The expression for the linear correlation between ΔG *OH and ΔG *OOH is: ΔG *OOH = 0.88ΔG *OH + 2.87 eV, with a coefficient of determination (R2) of 0.96. The formula for the linear correlation between ΔG *OH and ΔG *O is: ΔG *O = 1.83ΔG *OH + 0.71 eV, with a coefficient of determination (R2) of 0.97. Both ΔG *OOH and ΔG *O exhibit a strong linear correlation with ΔG *OH, indicating that TM-TEB with strong binding strength to *OH will also demonstrate strong binding strengths to *O and *OOH. Hence, ΔG *OH can be utilized as an activity descriptor further to investigate the ORR and OER activities of TM-TEB. 3.3 Catalytic activity of ORR/OER To delve deeper into the catalytic activity of ORR and OER, η ORR and η OER values are calculated for all catalysts in Fig. 6 a. The smaller the η ORR/η OER value of TM-TEB, the better the ORR/OER catalytic activity. For ORR, Pt(111) is utilized as the base reference with an η ORR value of 0.45 V [15]. Obviously, the η ORR values of Pd- and Pt-TEB are 0.34 and 0.44 V, respectively, which is even lower than the value of Pt(111) (η ORR = 0.45 V). For OER, we use RuO2(110) and IrO2(110) as the base references with η OER values of 0.37 and 0.56 V [14]. It can be observed that the η OER value of Pt-TEB is 0.33 V, which is 0.04 V smaller than RuO2(110) (η OER = 0.37 V), indicating excellent performance as a catalyst for OER. In addition, the volcano diagrams of η (η ORR and η OER) and ∆G *OH on TM-TEB are constructed as shown in Fig. 6b. For ORR, from left to right, the value of ∆G *OH gradually increases, while the value of η ORR decreases first and then increases. That is, TM-TEB with moderate OH adsorption strength exhibits the best ORR catalytic activity. In particular, when the value of ∆G *OH is 1.09 eV, the catalyst can reach the optimal η ORR value of 0.14 V. Similarly, for OER, when ∆G *OH is 0.82 eV, the η OER value is 0.16 V. In this work, a catalyst demonstrating substantial electrocatalytic prowess for both reactions is termed a bifunctional catalyst. Thus, the ΔE is calculated as an indicator to describe the bifunctional electrocatalytic activity, as shown in Fig. 7 . It is well known that the catalyst's bifunctional activity is increased with decreasing ΔE values. The results indicate that the ΔE value for Pt-TEB is 0.77 V, indicating that it can exhibit excellent bifunctional catalytic activity. It is comparable to those of reported ORR and OER bifunctional catalysts, such as Co-doped g-C3N4 (ΔE = 1.20 V) [52], Mn x O y /NC (ΔE = 0.87 V) [53], the Fe-based covalent organic framework (ΔE = 0.86 V) [54], and CoN x -gra (ΔE = 1.06 V) [55]. To further explore the catalytic mechanism of ORR and OER, we construct a free energy diagram for Pt-TEB at U = 0 and 1.23 V, illustrating the potential-determining step (PDS), as depicted in Fig. 8 . The PDS is the step with the maximum ΔG ORR and ΔG OER values. We select Pt-TEB as an example because they possess great ORR and OER catalytic activity. For ORR, at U = 0 V, the curves show a decreasing trend, suggesting that the reaction can be catalyzed on Pt-TEB spontaneously. The PDS for Pt-TEB is the step of *OH → * + H2O. When U = 1.23 V, it can be found that only the step *OH→H2O is uphill, indicating that this step is endothermic. Therefore, this step requires more additional energy, thus suggesting that the PDS of Pt-TEB is determined by the reduction step of *OH. Similarly, for OER, the PDS for Pt-TEB is *O → *OOH. 3.4 Electronic properties analysis Based on previous research, the uneven charge distribution, high chemical stability, and adjustable adsorption strength of catalyst configurations affect the catalytic performance of the catalyst [56-59]. Since Pt-TEB has excellent OER and ORR catalytic activities, it is essential to analyze its electronic properties to explore the factors affecting its catalytic activity. Thus, the Milliken charge and deformation charge density are calculated in Fig. 9 . The Pt-TEB system is divided into three parts: Pt atom, TEB molecule, and intermediates. The results of charge transfer are displayed in Fig. 9a. Obviously, the charge of Pt and intermediates fluctuates clearly, while the charge of TEB changes very small. This means that charge transfer occurs mainly between Pt atom and intermediates. Meanwhile, the results of deformed charge density are shown in Fig. 9b. The blue region signifies electron density accumulation, whereas the yellow zone denotes electron density depletion. Clearly, the direct contact of the electron density region between Pt atom and intermediates results in a significant charge transfer. This charge transfer not only enhances the stability of the intermediate but also promotes a strong interaction between the intermediate and the Pt atom. This strong interaction may be an important factor affecting the catalytic activity. 4 Conclusions In summary, we have systematic explored TM-TEB as a bifunctional electrocatalyst for catalyzing ORR and OER using DFT methods. Firstly, the E d between TM-TEB (TM =Mn, Fe, Co, Ni, Cu, Zn, Ru, Rh, Pd, Re, Os, Ir, Pt, Au) and Ag-TEB is calculated to evaluate the stability of all TM-TEB. The findings indicated that all TM-TEB processes exhibit high stability. Secondly, the linear relationship between ΔG *OOH and ΔG *O with ΔG *OH indicated that ΔG *OH is the active descriptor to determine the ORR and OER properties of TM-TEB. Thirdly, for ORR, Pt-TEB (η ORR = 0.44 V) and Pd-TEB (η ORR = 0.34 V) demonstrate excellent catalytic activity, which is even lower than the value of Pt(111). For OER, the Pt-TEB (η OER = 0.33 V) demonstrates satisfactory OER catalytic activity with overpotential values comparable to the well-known catalysts RuO2(110) and IrO2(110). Moreover, Pt-TEB possesses the lowest ΔE value with 0.77 V, showing that it has highly efficient bifunctional catalytic activity. Moreover, the results of Mulliken charge and deformation charge indicated that the strong interaction between Pt atom and intermediates is due to the obvious charge transfer between them. The insights and accomplishments attained from this study are anticipated to enhance comprehension regarding the substantial promise of TM-TEB systems as electrocatalysts for both the ORR and OER processes. CRediT authorship contribution statement Ting Yao: Writing – original draft, Investigation, Formal analysis, Data curation. Huohai Yang: Conceptualization. Xiaoyue Fu: Conceptualization. Yingjie Feng: Conceptualization. Xingbo Ge: Conceptualization. Qiang Ke: Writing – review & editing, Supervision, Methodology, Investigation, Conceptualization. Xin Chen: Writing – review & editing, Supervision, Methodology, Investigation, Conceptualization. Declaration of competing interest The authors declare that they have no known competing financial interests or personal relationships that could have appeared to influence the work reported in this paper. Acknowledgments This work is supported by the Sinopec project fund (122060). We acknowledge the National Supercomputing Center in Shenzhen and the High-Performance Computing platform of Southwest Petroleum University for providing the computational resources and Materials Studio software. References [1] M.Z. Jacobson Review of solutions to global warming, air pollution and energy security Energ. Environ. Sci. 2 2009 148 173 M. Z. Jacobson, Review of solutions to global warming, air pollution and energy security, Energ. Environ. Sci. 2 (2009) 148-173. [2] V.R. Stamenkovic D. Strmcnik P.P. Lopes N.M. Markovic Energy and fuels from electrochemical interfaces Nat. Mater. 16 2017 57 69 V. R. Stamenkovic, D. Strmcnik, P. P. Lopes, N. M. Markovic, Energy and fuels from electrochemical interfaces, Nat. Mater. 16 (2017) 57-69. [3] H. Zhang H. Han X. Yang H. Ma Z. Song X. Ji Reversing Mg suppression effect on Co-site water oxidation of MgCo2O4 based on vanadium-atom electronic affinity synergy with Mg sites toward electronic redistribution Catal. Sci. Technol. 13 2023 6951 6958 H. Zhang, H. Han, X. Yang, H. Ma, Z. Song, X. Ji, Reversing Mg suppression effect on Co-site water oxidation of MgCo2O4 based on vanadium-atom electronic affinity synergy with Mg sites toward electronic redistribution, Catal. Sci. Technol. 13 (2023) 6951-6958. [4] R.G. Cao J.S. Lee M.L. Liu J. Cho Recent progress in non-precious catalysts for metal-air batteries Adv. Energy. Mater. 2 2012 816 829 R. G. Cao, J. S. Lee, M. L. Liu, J. Cho, Recent progress in non-precious catalysts for metal-air batteries, Adv. Energy. Mater. 2 (2012) 816-829. [5] Z.L. Wang D. Xu J.J. Xu X.B. Zhang Oxygen electrocatalysts in metal–air batteries: from aqueous to nonaqueous electrolytes Chem. Soc. Rev. 43 2014 7746 7786 Z. L. Wang, D. Xu, J. J. Xu, X. B. Zhang, Oxygen electrocatalysts in metal–air batteries: from aqueous to nonaqueous electrolytes, Chem. Soc. Rev. 43 (2014) 7746-7786. [6] F. Cheng J. Chen Metal–air batteries: from oxygen reduction electrochemistry to cathode catalysts Chem. Soc. Rev. 41 2012 2172 2192 F. Cheng, J. Chen, Metal–air batteries: from oxygen reduction electrochemistry to cathode catalysts, Chem. Soc. Rev. 41 (2012) 2172-2192. [7] Y. Qian Z. Hu X. Ge S. Yang Y. Peng Z. Kang Z. Liu J.Y. Lee D. Zhao A metal-free ORR/OER bifunctional electrocatalyst derived from metal-organic frameworks for rechargeable Zn-Air batteries Carbon 111 2017 641 650 Y. Qian, Z. Hu, X. Ge, S. Yang, Y. Peng, Z. Kang, Z. Liu, J. Y. Lee, D. Zhao, A metal-free ORR/OER bifunctional electrocatalyst derived from metal-organic frameworks for rechargeable Zn-Air batteries, Carbon 111 (2017) 641-650. [8] Y. Qin M. Yang C. Deng S. Yang Y. Peng Z. Kang Z. Liu J.Y. Lee Theoretical insight into single Rh atoms anchored on N-doped γ-graphyne as an excellent bifunctional electrocatalyst for the OER and ORR: electronic regulation of graphitic nitrogen Nanoscale 13 2021 5800 5808 Y. Qin, M. Yang, C. Deng, S. Yang, Y. Peng, Z. Kang, Z. Liu, J. Y. Lee, Theoretical insight into single Rh atoms anchored on N-doped γ-graphyne as an excellent bifunctional electrocatalyst for the OER and ORR: electronic regulation of graphitic nitrogen, Nanoscale 13 (2021) 5800-5808. [9] K. Dong J. Liang Y. Wang X. Zhao Q. Liu Y. Luo T. Li L. Li X. Shi M.A. Abdullah Q. Li D. Ma X. Sun Honeycomb Carbon Nanofibers: A Superhydrophilic O2-Entrapping Electrocatalyst Enables Ultrahigh Mass Activity for the Two-Electron Oxygen Reduction Reaction Angew. Chem. Int. Edit. 60 2021 10583 10587 K. Dong, J. Liang, Y. Wang, X. Zhao, Q. Liu, Y. Luo, T. Li, L. Li, X. Shi, M. A. Abdullah, Q. Li, D. Ma, X. Sun, Honeycomb Carbon Nanofibers: A Superhydrophilic O2-Entrapping Electrocatalyst Enables Ultrahigh Mass Activity for the Two-Electron Oxygen Reduction Reaction, Angew. Chem. Int. Edit. 60 (2021) 10583-10587. [10] Z. Li Y. Yao S. Sun J. Liang S. Zhang Z. Cai j. Li Y. Ren Y. Luo D. Zheng X. He Q. Liu Y. Wang F. Gong X. Sun B. Tang Carbon Oxyanion Self-Transformation on NiFe Oxalates Enables Long-Term Ampere-Level Current Density Seawater Oxidation Angew. Chem. Int. Edit. 63 2024 e202316522 Z. Li, Y. Yao, S. Sun, J. Liang, S. Zhang, Z. Cai, j. Li, Y. Ren, Y. Luo, D. Zheng, X. He, Q. Liu, Y. Wang, F. Gong, X. Sun, B. Tang, Carbon Oxyanion Self-Transformation on NiFe Oxalates Enables Long-Term Ampere-Level Current Density Seawater Oxidation, Angew. Chem. Int. Edit. 63 (2024) e202316522. [11] Y. Yao S. Sun H. Zhang Z. Li C. Yang Z. Cai X. He K. Dong Y. Luo Y. Wang Y. Ren Q. Liu D. Zheng W. Zhuang B. Tang X. Sun W. Hu Enhancing the stability of NiFe-layered double hydroxide nanosheet array for alkaline seawater oxidation by Ce doping J. Energy. Chem. 91 2024 306 312 Y. Yao, S. Sun, H. Zhang, Z. Li, C. Yang, Z. Cai, X. He, K. Dong, Y. Luo, Y. Wang, Y. Ren, Q. Liu, D. Zheng, W. Zhuang, B. Tang, X. Sun, W. Hu, Enhancing the stability of NiFe-layered double hydroxide nanosheet array for alkaline seawater oxidation by Ce doping, J. Energy. Chem. 91 (2024) 306-312. [12] J. Wang J. Wang S. Qi M. Zhao Stable Multifunctional Single-Atom Catalysts Resulting from the Synergistic Effect of Anchored Transition-Metal Atoms and Host Covalent-Organic Frameworks J. Phys. Chem. C 124 2020 17675 17683 J. Wang, J. Wang, S. Qi, M. Zhao, Stable Multifunctional Single-Atom Catalysts Resulting from the Synergistic Effect of Anchored Transition-Metal Atoms and Host Covalent-Organic Frameworks, J. Phys. Chem. C 124 (2020) 17675-17683. [13] T. Reier M. Oezaslan P. Strasser Electrocatalytic Oxygen Evolution Reaction (OER) on Ru, Ir, and Pt Catalysts: A Comparative Study of Nanoparticles and Bulk Materials ACS Catal. 2 2012 1765 1772 T. Reier, M. Oezaslan, P. Strasser, Electrocatalytic Oxygen Evolution Reaction (OER) on Ru, Ir, and Pt Catalysts: A Comparative Study of Nanoparticles and Bulk Materials, ACS Catal. 2 (2012) 1765-1772. [14] J. Rossmeisl Z.W. Qu H. Zhu G.J. Kroes J.K. Nørskov Electrolysis of water on oxide surfaces J. Electroanal. Chem. 607 2007 83 89 J. Rossmeisl, Z. W. Qu, H. Zhu, G. J. Kroes, J. K. Nørskov, Electrolysis of water on oxide surfaces, J. Electroanal. Chem. 607 (2007) 83-89. [15] J.K. Nørskov J. Rossmeisl A. Logadottir L. Lindqvist J.R. Kitchin T. Bligaard H. Jónsson Origin of the Overpotential for Oxygen Reduction at a Fuel-Cell Cathode J. Phys. Chem. B 108 2004 17886 17892 J. K. Nørskov, J. Rossmeisl, A. Logadottir, L. Lindqvist, J. R. Kitchin, T. Bligaard, H. Jónsson, Origin of the Overpotential for Oxygen Reduction at a Fuel-Cell Cathode, J. Phys. Chem. B 108 (2004) 17886-17892. [16] I.C. Man H.Y. Su F. Calle-Vallejo H.A. Hansen J.I. Martinez N.G. Inoglu J. Kitchin T.F. Jaramillo J.K. Norskov J. Rossmeisl Universality in Oxygen Evolution Electrocatalysis on Oxide Surfaces Chemcatchem 3 2011 1159 1165 I. C. Man, H. Y. Su, F. Calle-Vallejo, H. A. Hansen, J. I. Martinez, N. G. Inoglu, J. Kitchin, T. F. Jaramillo, J. K. Norskov, J. Rossmeisl, Universality in Oxygen Evolution Electrocatalysis on Oxide Surfaces, Chemcatchem 3 (2011) 1159-1165. [17] Y. Dai X. Zhao D. Zheng Q. Zhao J. Feng Y. Feng X. Ge X. Chen Constructing highly efficient bifunctional catalysts for oxygen reduction and oxygen evolution by modifying MXene with transition metal J. Colloid. Interf. Sci. 660 2024 628 636 Y. Dai, X. Zhao, D. Zheng, Q. Zhao, J. Feng, Y. Feng, X. Ge, X. Chen, Constructing highly efficient bifunctional catalysts for oxygen reduction and oxygen evolution by modifying MXene with transition metal, J. Colloid. Interf. Sci. 660 (2024) 628-636. [18] Y. Li Y. Feng D. Zheng X. Zhao Y. Zhou X. Fu X. Chen High-performance screening of carbon-nitride single-atom catalysts for oxygen electrode reaction in rechargeable metal-air batteries Chem. Eng. J. 476 2023 628 636 Y. Li, Y. Feng, D. Zheng, X. Zhao, Y. Zhou, X. Fu, X. Chen, High-performance screening of carbon-nitride single-atom catalysts for oxygen electrode reaction in rechargeable metal-air batteries, Chem. Eng. J. 476 (2023) 628-636. [19] X. Wu C. Tang Y. Cheng X. Min S.P. Jiang S. Wang Bifunctional Catalysts for Reversible Oxygen Evolution Reaction and Oxygen Reduction Reaction Chem. -Eur. J. 26 2020 3906 3929 X. Wu, C. Tang, Y. Cheng, X. Min, S. P. Jiang, S. Wang, Bifunctional Catalysts for Reversible Oxygen Evolution Reaction and Oxygen Reduction Reaction, Chem. -Eur. J. 26 (2020) 3906-3929. [20] Z. Zhai W. Yan L. Dong S. Deng D.P. Wilkinson X. Wang L. Zhang J. Zhang Catalytically active sites of MOF-derived electrocatalysts: synthesis, characterization, theoretical calculations, and functional mechanisms J. Mater. Chem. A 9 2021 20320 20344 Z. Zhai, W. Yan, L. Dong, S. Deng, D. P. Wilkinson, X. Wang, L. Zhang, J. Zhang, Catalytically active sites of MOF-derived electrocatalysts: synthesis, characterization, theoretical calculations, and functional mechanisms, J. Mater. Chem. A 9 (2021) 20320-20344. [21] S. Li Q. Li Y. Chen Y. Zhao L. Gan Transition metal embedded graphynes as advanced bifunctional single atom catalysts for oxygen reduction and evolution reactions Appl. Surf. Sci. 605 2022 154828 S. Li, Q. Li, Y. Chen, Y. Zhao, L. Gan, Transition metal embedded graphynes as advanced bifunctional single atom catalysts for oxygen reduction and evolution reactions, Appl. Surf. Sci. 605 (2022) 154828. [22] J. Kang Z. Wei J. Li Graphyne and Its Family: Recent Theoretical Advances ACS Appl. Mater. Inter. 11 2019 2692 2706 J. Kang, Z. Wei, J. Li, Graphyne and Its Family: Recent Theoretical Advances, ACS Appl. Mater. Inter. 11 (2019) 2692-2706. [23] X. Zheng S. Chen J. Li H. Wu C. Zhang D. Zhang X. Chen Y. Gao F. He L. Hui H. Liu T. Jiu N. Wang G. Li J. Xu Y. Xue C. Huang C. Chen Y. Guo T.B. Lu D. Wang L. Mao J. Zhang Y. Zhang L. Chi W. Guo X. Bu H. Zhang L. Dai Y. Zhao Y. Li Two-Dimensional Carbon Graphdiyne: Advances in Fundamental and Application Research ACS Nano 17 2023 14309 14346 X. Zheng, S. Chen, J. Li, H. Wu, C. Zhang, D. Zhang, X. Chen, Y. Gao, F. He, L. Hui, H. Liu, T. Jiu, N. Wang, G. Li, J. Xu, Y. Xue, C. Huang, C. Chen, Y. Guo, T. B. Lu, D. Wang, L. Mao, J. Zhang, Y. Zhang, L. Chi, W. Guo, X. Bu, H. Zhang, L. Dai, Y. Zhao, Y. Li, Two-Dimensional Carbon Graphdiyne: Advances in Fundamental and Application Research, ACS Nano 17 (2023) 14309-14346. [24] C. Xie N. Wang X. Li G. Xu C. Huang Research on the Preparation of Graphdiyne and Its Derivatives Chem. -Eur. J. 26 2020 569 583 C. Xie, N. Wang, X. Li, G. Xu, C. Huang, Research on the Preparation of Graphdiyne and Its Derivatives, Chem. -Eur. J. 26 (2020) 569-583. [25] S.L. Li Q. Li Y. Chen Y. Zhao L.Y. Gan Transition metal embedded graphynes as advanced bifunctional single atom catalysts for oxygen reduction and evolution reactions Appl. Surf. Sci. 605 2022 154828 S. L. Li, Q. Li, Y. Chen, Y. Zhao, L. Y. Gan, Transition metal embedded graphynes as advanced bifunctional single atom catalysts for oxygen reduction and evolution reactions, Appl. Surf. Sci. 605 (2022) 154828. [26] Y. Lv B. Kang Y. Yuan G. Chen J.Y. Lee Activating γ-graphyne nanoribbons as bifunctional electrocatalysts toward oxygen reduction and hydrogen evolution reactions by edge termination and nitrogen doping Chem. Eng. J. 430 2022 133126 Y. Lv, B. Kang, Y. Yuan, G. Chen, J. Y. Lee, Activating γ-graphyne nanoribbons as bifunctional electrocatalysts toward oxygen reduction and hydrogen evolution reactions by edge termination and nitrogen doping, Chem. Eng. J. 430 (2022) 133126. [27] S. Zhao Z. Chen H. Liu L. Qi Z. Zheng X. Luan Y. Gao R. Liu J. Yan F. Bu Y Xue Y Li Graphdiyne-Based Multiscale Catalysts for Ammonia Synthesis Chemsuschem 16 2023 e202300861 S. Zhao, Z. Chen, H. Liu, L. Qi, Z. Zheng, X. Luan, Y. Gao, R. Liu, J. Yan, F. Bu, Y Xue, Y Li, Graphdiyne-Based Multiscale Catalysts for Ammonia Synthesis, Chemsuschem 16 (2023) e202300861. [28] Y. Li L. Xu H. Liu Y. Li Graphdiyne and graphyne: from theoretical predictions to practical construction Chem. Soc. Rev. 43 2014 2572 2586 Y. Li, L. Xu, H. Liu, Y. Li, Graphdiyne and graphyne: from theoretical predictions to practical construction, Chem. Soc. Rev. 43 (2014) 2572-2586. [29] C. Huang Y. Li N. Wang Y. Xue Z. Zuo H. Liu Y. Li Progress in Research into 2D Graphdiyne-Based Materials Chem. Rev. 118 2018 7744 7803 C. Huang, Y. Li, N. Wang, Y. Xue, Z. Zuo, H. Liu, Y. Li, Progress in Research into 2D Graphdiyne-Based Materials, Chem. Rev. 118 (2018) 7744-7803. [30] X. Gao Z. Zuo Y. Li Construction of Graphdiyne Interface in Electrochemical Batteries Chem. J. Chinese. U. 42 2021 321 332 X. Gao, Z. Zuo, Y. Li, Construction of Graphdiyne Interface in Electrochemical Batteries, Chem. J. Chinese. U. 42 (2021) 321-332. [31] X. Fu X. Zhao T.B. Lu M. Yuan M. Wang Graphdiyne-Based Single-Atom Catalysts with Different Coordination Environments Angew. Chem. Int. Edit. 62 2023 e202219242 X. Fu, X. Zhao, T. B. Lu, M. Yuan, M. Wang, Graphdiyne-Based Single-Atom Catalysts with Different Coordination Environments, Angew. Chem. Int. Edit. 62 (2023) e202219242. [32] B. Gao M. Sun W. Ding Z. Ding W. Liu Decoration of γ-graphyne on TiO2 nanotube arrays: Improved photoelectrochemical and photoelectrocatalytic properties Appl. Catal. B. Environ. 281 2021 119492 B. Gao, M. Sun, W. Ding, Z. Ding, W. Liu, Decoration of γ-graphyne on TiO2 nanotube arrays: Improved photoelectrochemical and photoelectrocatalytic properties, Appl. Catal. B. Environ. 281 (2021) 119492. [33] K. Srinivasu S.K. Ghosh Graphyne and Graphdiyne: Promising Materials for Nanoelectronics and Energy Storage Applications J. Phys. Chem. C 116 2012 5951 5956 K. Srinivasu, S. K. Ghosh, Graphyne and Graphdiyne: Promising Materials for Nanoelectronics and Energy Storage Applications, J. Phys. Chem. C 116 (2012) 5951-5956. [34] B. Mortazavi M. Shahrokhi M.E. Madjet T. Hussain X. Zhuang T. Rabczuk B- N- Al- P- As-, and Ga-graphdiyne/graphyne lattices: first-principles investigation of mechanical, optical and electronic properties J. Mater. Chem. C 7 2019 3025 3036 B. Mortazavi, M. Shahrokhi, M. E. Madjet, T. Hussain, X. Zhuang, T. Rabczuk, N-, B-, P-, Al-, As-, and Ga-graphdiyne/graphyne lattices: first-principles investigation of mechanical, optical and electronic properties, J. Mater. Chem. C 7 (2019) 3025-3036. [35] S.P. Chandrasekharan S. Lakshmy G. Sanyal N. Kalarikkal R. Trivedi B. Chakraborty Metal-decorated γ-graphyne as a drug transporting agent for the mercaptopurine chemotherapy drug: a DFT study Phys. Chem. Chem. Phys. 25 2023 9461 9471 S. P. Chandrasekharan, S. Lakshmy, G. Sanyal, N. Kalarikkal, R. Trivedi, B. Chakraborty, Metal-decorated γ-graphyne as a drug transporting agent for the mercaptopurine chemotherapy drug: a DFT study, Phys. Chem. Chem. Phys. 25 (2023) 9461-9471. [36] S. Lakshmy A. Kundu N. Kalarikkal B. Chakraborty Pristine and transition metal decorated holey graphyne monolayer as an ammonia sensor: insights from DFT simulations J. Phys. D Appl. Phys. 56 2023 055402 S. Lakshmy, A. Kundu, N. Kalarikkal, B. Chakraborty, Pristine and transition metal decorated holey graphyne monolayer as an ammonia sensor: insights from DFT simulations, J. Phys. D Appl. Phys. 56 (2023) 055402. [37] T. Li C. He W. Zhang Primitive and O-functionalized R-graphyne-like BN sheet: candidates for SO2 sensor with high sensitivity and selectivity at room temperature ACS Appl. Electron. Ma. 1 2019 34 43 T. Li, C. He, W. Zhang, Primitive and O-functionalized R-graphyne-like BN sheet: candidates for SO2 sensor with high sensitivity and selectivity at room temperature, ACS Appl. Electron. Ma. 1 (2019) 34-43. [38] L. Xu J. Sun T. Tang H. Zhang M. Sun J. Zhang J. Li B. Huang Z. Wang Z. Xie W. Wong Metallated Graphynes as a New Class of Photofunctional 2D Organometallic Nanosheets Angew. Chem. Int. Edit. 60 2021 11326 11334 L. Xu, J. Sun, T. Tang, H. Zhang, M. Sun, J. Zhang, J. Li, B. Huang, Z. Wang, Z. Xie, W. Wong, Metallated Graphynes as a New Class of Photofunctional 2D Organometallic Nanosheets, Angew. Chem. Int. Edit. 60 (2021) 11326-11334. [39] X. Hu N.Q. Su W.H. Fang Metallated Graphynes as Efficient Single-Atom Electrocatalysts for Nitric Oxide Reduction to Ammonia J. Phys. Chem. C 127 2023 11026 11039 X. Hu, N. Q. Su, W.H. Fang, Metallated Graphynes as Efficient Single-Atom Electrocatalysts for Nitric Oxide Reduction to Ammonia, J. Phys. Chem. C 127 (2023) 11026-11039. [40] X. Hu L. Xiong W.H. Fang N.Q. Su Computational Insight into Metallated Graphynes as Single Atom Electrocatalysts for Nitrogen Fixation ACS Appl. Mater. Inter. 14 2022 27861 27872 X. Hu, L. Xiong, W. H. Fang, N. Q. Su, Computational Insight into Metallated Graphynes as Single Atom Electrocatalysts for Nitrogen Fixation, ACS Appl. Mater. Inter. 14 (2022) 27861-27872. [41] Q. Sun L. Cai H. Ma C. Yuan W. Xu Dehalogenative Homocoupling of Terminal Alkynyl Bromides on Au(111): Incorporation of Acetylenic Scaffolding into Surface Nanostructures ACS Nano 10 2016 7023 7030 Q. Sun, L. Cai, H. Ma, C. Yuan, W. Xu, Dehalogenative Homocoupling of Terminal Alkynyl Bromides on Au(111): Incorporation of Acetylenic Scaffolding into Surface Nanostructures, ACS Nano 10 (2016) 7023-7030. [42] Y. Chen Q. Sun Magnetic two-dimensional organic topological insulator: Au–1,3,5-triethynylbenzene framework J. Phys. Chem. 147 2017 104704 Y. Chen, Q. Sun, Magnetic two-dimensional organic topological insulator: Au–1,3,5-triethynylbenzene framework, J. Phys. Chem. 147 (2017) 104704. [43] T. Zhang S. Xu Y. Hou G. Chai D. Olianas Z. Liao A. Milani H. Sun W. Li Z. Zhang S. Mannsfeld E. Zschech M. Tommasini X. Feng Solvent-mediated engineering of copper-metalated acetylenic polymer scaffolds with enhanced photoelectrochemical performance J. Mater. Chem. A 9 2021 9729 9734 T. Zhang, S. Xu, Y. Hou, G. Chai, D. Olianas, Z. Liao, A. Milani, H. Sun, W. Li, Z. Zhang, S. Mannsfeld, E. Zschech, M. Tommasini, X. Feng, Solvent-mediated engineering of copper-metalated acetylenic polymer scaffolds with enhanced photoelectrochemical performance, J. Mater. Chem. A 9 (2021) 9729-9734. [44] Z. Yang T. Sander J. Gebhardt T.A. Schaub J. Schonamsgruber H.R. Soni A. Gorling M. Kivala S. Maier Metalated Graphyne-Based Networks as Two-Dimensional Materials: Crystallization, Topological Defects, Delocalized Electronic States, and Site-Specific Doping ACS Nano 14 2020 16887 16896 Z. Yang, T. Sander, J. Gebhardt, T. A. Schaub, J. Schonamsgruber, H. R. Soni, A. Gorling, M. Kivala, S. Maier, Metalated Graphyne-Based Networks as Two-Dimensional Materials: Crystallization, Topological Defects, Delocalized Electronic States, and Site-Specific Doping, ACS Nano 14 (2020) 16887-16896. [45] B. Delley From molecules to solids with the DMol3 approach J. Chem. Phys. 113 2000 7756 7764 B. Delley, From molecules to solids with the DMol3 approach, J. Chem. Phys. 113 (2000) 7756-7764. [46] B. Delley An all-electron numerical method for solving the local density functional for polyatomic molecules J. Chem. Phys. 92 1990 508 517 B. Delley, An all-electron numerical method for solving the local density functional for polyatomic molecules, J. Chem. Phys. 92 (1990) 508-517. [47] C. Lee W. Yang R.G. Parr Development of the Colle-Salvetti correlation-energy formula into a functional of the electron density Phys. Rev. B 37 1988 785 789 C. Lee, W. Yang, R. G. Parr, Development of the Colle-Salvetti correlation-energy formula into a functional of the electron density, Phys. Rev. B 37 (1988) 785-789. [48] H.A. Hansen J. Rossmeisl J.K. Norskov Surface Pourbaix diagrams and oxygen reduction activity of Pt, Ag and Ni(111) surfaces studied by DFT Phys. Chem. Chem. Phys. 10 2008 3722 3730 H. A. Hansen, J. Rossmeisl, J. K. Norskov, Surface Pourbaix diagrams and oxygen reduction activity of Pt, Ag and Ni(111) surfaces studied by DFT, Phys. Chem. Chem. Phys. 10 (2008) 3722-3730. [49] J. Rossmeisl A. Logadottir J.K. Nørskov Electrolysis of water on (oxidized) metal surfaces Chem. Phys. 319 2005 178 184 J. Rossmeisl, A. Logadottir, J. K. Nørskov, Electrolysis of water on (oxidized) metal surfaces, Chem Phys. 319 (2005) 178-184. [50] Y. Ma F. Jin Y.H. Hu Bifunctional electrocatalysts for oxygen reduction and oxygen evolution: a theoretical study on 2D metallic WO2-supported single atom (Fe, Co, or Ni) catalysts Phys. Chem. Chem. Phys. 23 2021 13687 13695 Y. Ma, F. Jin, Y. H. Hu, Bifunctional electrocatalysts for oxygen reduction and oxygen evolution: a theoretical study on 2D metallic WO2-supported single atom (Fe, Co, or Ni) catalysts, Phys. Chem. Chem. Phys. 23 (2021) 13687-13695. [51] A.J. Medford A. Vojvodic J.S. Hummelshoj J. Voss F. Abild-Pedersen F. Studt T. Bligaard A. Nilsson J.K. Norskov From the Sabatier principle to a predictive theory of transition-metal heterogeneous catalysis J. Catal. 328 2015 36 42 A. J. Medford, A. Vojvodic, J. S. Hummelshoj, J. Voss, F. Abild-Pedersen, F. Studt, T. Bligaard, A. Nilsson, J. K. Norskov, From the Sabatier principle to a predictive theory of transition-metal heterogeneous catalysis, J. Catal. 328 (2015) 36-42. [52] Y. Zheng Y. Jiao Y. Zhu Q. Cai A. Vasileff L.H. Li Y. Han Y. Chen S.Z. Qiao Molecule-Level g-C3N4 coordinated transition metals as a new class of electrocatalysts for oxygen electrode reactions J. Am. Chem. Soc. 139 2017 3336 3339 Y. Zheng, Y. Jiao, Y. Zhu, Q. Cai, A. Vasileff, L. H. Li, Y. Han, Y. Chen, S. Z. Qiao, Molecule-Level g-C3N4 coordinated transition metals as a new class of electrocatalysts for oxygen electrode reactions, J. Am. Chem. Soc. 139 (2017) 3336-3339. [53] J. Masa W. Xia I. Sinev A. Zhao Z. Sun S. Gruetzke P. Weide M. Muhler W. Schuhmann MnxOy/NC and CoxOy/NC Nanoparticles embedded in a nitrogen-doped carbon matrix for high-performance bifunctional oxygen electrodes Angew. Chem. Int. Edit. 53 2014 8508 8512 J. Masa, W. Xia, I. Sinev, A. Zhao, Z. Sun, S. Gruetzke, P. Weide, M. Muhler, W. Schuhmann, MnxOy/NC and CoxOy/NC Nanoparticles embedded in a nitrogen-doped carbon matrix for high-performance bifunctional oxygen electrodes, Angew. Chem. Int. Edit. 53 (2014) 8508-8512. [54] C.Y. Lin L. Zhang Z. Zhao Z. Xia Design Principles for Covalent Organic Frameworks as Efficient Electrocatalysts in Clean Energy Conversion and Green Oxidizer Production Adv. Mater. 29 2017 1606635 C. Y. Lin, L. Zhang, Z. Zhao, Z. Xia, Design Principles for Covalent Organic Frameworks as Efficient Electrocatalysts in Clean Energy Conversion and Green Oxidizer Production, Adv. Mater. 29 (2017) 1606635. [55] X. Zhang Z. Yang Z. Lu W. Wang Bifunctional CoNx embedded graphene electrocatalysts for OER and ORR: a theoretical evaluation Carbon 130 2018 112 119 X. Zhang, Z. Yang, Z. Lu, W. Wang, Bifunctional CoNx embedded graphene electrocatalysts for OER and ORR: a theoretical evaluation, Carbon 130 (2018) 112-119. [56] X. Wang M. Yu X Feng Electronic structure regulation of noble metal-free materials toward alkaline oxygen electrocatalysis Escience 3 2023 100141 X. Wang, M. Yu, Feng X. Electronic structure regulation of noble metal-free materials toward alkaline oxygen electrocatalysis, Escience 3 (2023) 100141. [57] T. Xu M. Liu K. Wu C. Liu Density Functional Theory Calculations to Increase the Efficiency of Oxygen Electrode Catalysts from Ytterbium Single Atom Catalysts Using Nitrogen Solid Supports ACS Appl. Nano Mater. 7 2024 15526 15534 T. Xu, M. Liu, K. Wu, C. Liu, Density Functional Theory Calculations to Increase the Efficiency of Oxygen Electrode Catalysts from Ytterbium Single Atom Catalysts Using Nitrogen Solid Supports, ACS Appl. Nano Mater. 7 (2024) 15526-15534. [58] X. Xu S. Wang S. Guo K. Hui J. Ma D.A. Dinh K.N. Hui H. Wang L. Zhang G. Zhou Cobalt phosphosulfide nanoparticles encapsulated into heteroatom-doped carbon as bifunctional electrocatalyst for Zn-air battery Adv. Powder Mater. 1 2022 100027 X. Xu, S. Wang, S. Guo, K. Hui, J. Ma, D. A. Dinh, K. N. Hui, H. Wang, L. Zhang, G. Zhou, Cobalt phosphosulfide nanoparticles encapsulated into heteroatom-doped carbon as bifunctional electrocatalyst for Zn-air battery, Adv. Powder Mater. 1 (2022), 100027. [59] C. Zhang G. Zhao D. Zhang S. Wang W. Sun Two-dimensional germanium for photocatalysis Inf. Funct. Mater. 1 2024 108 123 C. Zhang, G. Zhao, D. Zhang, S. Wang, W. Sun, Two-dimensional germanium for photocatalysis, Inf. Funct. Mater. 1 (2024) 108-123.",
+      "scopus-id": "85201766856",
+      "coredata": {
+        "eid": "1-s2.0-S2468823124006710",
+        "dc:description": "The sluggish kinetics of the oxygen reduction reaction (ORR) and oxygen evolution reaction (OER) at the cathode greatly limit their energy conversion efficiency. Herein, the transition metal 1,3,5-triethynylbenzene systems (TM-TEB, TM =Mn, Fe, Co, Ni, Cu, Zn, Ru, Rh, Pd, Ag, Re, Os, Ir, Pt, Au) are systematically investigated by density functional theory methods, and their potential application as efficient electrocatalysts for ORR and OER is revealed. For ORR, the calculated results show that the ORR overpotentials values of Pd- and Pt-TEB are 0.34 and 0.44 V, respectively, possessing superb ORR catalytic performance. For OER, the OER overpotentials value of Pt-TEB is 0.33 V, indicating that it has excellent OER catalytic activity. In particular, the potential gap value of Pt-TEB is 0.77 V, demonstrating excellent bifunctional catalytic activity. The electrocatalyst potential of TM-TEB in the ORR/OER process is highlighted in this study, showcasing their significant promise, enhancing comprehension of TM-TEB, and offering valuable insights into possible further exploration and prospective applications for TM-TEB.",
+        "openArchiveArticle": "false",
+        "prism:coverDate": "2024-10-31",
+        "openaccessUserLicense": null,
+        "prism:aggregationType": "Journal",
+        "prism:url": "https://api.elsevier.com/content/article/pii/S2468823124006710",
+        "dc:creator": [
+          {
+            "@_fa": "true",
+            "$": "Yao, Ting"
+          },
+          {
+            "@_fa": "true",
+            "$": "Yang, Huohai"
+          },
+          {
+            "@_fa": "true",
+            "$": "Fu, Xiaoyue"
+          },
+          {
+            "@_fa": "true",
+            "$": "Feng, Yingjie"
+          },
+          {
+            "@_fa": "true",
+            "$": "Ge, Xingbo"
+          },
+          {
+            "@_fa": "true",
+            "$": "Ke, Qiang"
+          },
+          {
+            "@_fa": "true",
+            "$": "Chen, Xin"
+          }
+        ],
+        "link": [
+          {
+            "@_fa": "true",
+            "@rel": "self",
+            "@href": "https://api.elsevier.com/content/article/pii/S2468823124006710"
+          },
+          {
+            "@_fa": "true",
+            "@rel": "scidir",
+            "@href": "https://www.sciencedirect.com/science/article/pii/S2468823124006710"
+          }
+        ],
+        "dc:format": "application/json",
+        "openaccessType": null,
+        "pii": "S2468-8231(24)00671-0",
+        "prism:volume": "567",
+        "articleNumber": "114489",
+        "prism:publisher": "Elsevier B.V. All rights are reserved, including those for text and data mining, AI training, and similar technologies.",
+        "dc:title": "Metallated graphynes as a bifunctional electrocatalyst for oxygen reduction and oxygen evolution reactions: A DFT study",
+        "prism:copyright": "© 2024 Elsevier B.V. All rights are reserved, including those for text and data mining, AI training, and similar technologies.",
+        "openaccess": "0",
+        "prism:issn": "24688231",
+        "dcterms:subject": [
+          {
+            "@_fa": "true",
+            "$": "Oxygen reduction reaction"
+          },
+          {
+            "@_fa": "true",
+            "$": "Oxygen evolution reaction"
+          },
+          {
+            "@_fa": "true",
+            "$": "Density functional theory"
+          },
+          {
+            "@_fa": "true",
+            "$": "Transition metal 1,3,5-triethynylbenzene"
+          }
+        ],
+        "openaccessArticle": "false",
+        "prism:publicationName": "Molecular Catalysis",
+        "openaccessSponsorType": null,
+        "prism:pageRange": "114489",
+        "pubType": "fla",
+        "prism:coverDisplayDate": "October 2024",
+        "prism:doi": "10.1016/j.mcat.2024.114489",
+        "prism:startingPage": "114489",
+        "dc:identifier": "doi:10.1016/j.mcat.2024.114489",
+        "openaccessSponsorName": null
+      },
+      "objects": {
+        "object": [
+          {
+            "@category": "standard",
+            "@height": "295",
+            "@width": "809",
+            "@_fa": "true",
+            "$": "https://api.elsevier.com/content/object/eid/1-s2.0-S2468823124006710-gr3.jpg?httpAccept=%2A%2F%2A",
+            "@multimediatype": "JPEG image file",
+            "@type": "IMAGE-DOWNSAMPLED",
+            "@size": "43961",
+            "@ref": "gr3",
+            "@mimetype": "image/jpeg"
+          },
+          {
+            "@category": "standard",
+            "@height": "326",
+            "@width": "395",
+            "@_fa": "true",
+            "$": "https://api.elsevier.com/content/object/eid/1-s2.0-S2468823124006710-gr2.jpg?httpAccept=%2A%2F%2A",
+            "@multimediatype": "JPEG image file",
+            "@type": "IMAGE-DOWNSAMPLED",
+            "@size": "21645",
+            "@ref": "gr2",
+            "@mimetype": "image/jpeg"
+          },
+          {
+            "@category": "standard",
+            "@height": "200",
+            "@width": "303",
+            "@_fa": "true",
+            "$": "https://api.elsevier.com/content/object/eid/1-s2.0-S2468823124006710-ga1.jpg?httpAccept=%2A%2F%2A",
+            "@multimediatype": "JPEG image file",
+            "@type": "IMAGE-DOWNSAMPLED",
+            "@size": "23922",
+            "@ref": "ga1",
+            "@mimetype": "image/jpeg"
+          },
+          {
+            "@category": "standard",
+            "@height": "204",
+            "@width": "678",
+            "@_fa": "true",
+            "$": "https://api.elsevier.com/content/object/eid/1-s2.0-S2468823124006710-gr1.jpg?httpAccept=%2A%2F%2A",
+            "@multimediatype": "JPEG image file",
+            "@type": "IMAGE-DOWNSAMPLED",
+            "@size": "39602",
+            "@ref": "gr1",
+            "@mimetype": "image/jpeg"
+          },
+          {
+            "@category": "standard",
+            "@height": "325",
+            "@width": "395",
+            "@_fa": "true",
+            "$": "https://api.elsevier.com/content/object/eid/1-s2.0-S2468823124006710-gr7.jpg?httpAccept=%2A%2F%2A",
+            "@multimediatype": "JPEG image file",
+            "@type": "IMAGE-DOWNSAMPLED",
+            "@size": "44491",
+            "@ref": "gr7",
+            "@mimetype": "image/jpeg"
+          },
+          {
+            "@category": "standard",
+            "@height": "295",
+            "@width": "809",
+            "@_fa": "true",
+            "$": "https://api.elsevier.com/content/object/eid/1-s2.0-S2468823124006710-gr6.jpg?httpAccept=%2A%2F%2A",
+            "@multimediatype": "JPEG image file",
+            "@type": "IMAGE-DOWNSAMPLED",
+            "@size": "72015",
+            "@ref": "gr6",
+            "@mimetype": "image/jpeg"
+          },
+          {
+            "@category": "standard",
+            "@height": "317",
+            "@width": "809",
+            "@_fa": "true",
+            "$": "https://api.elsevier.com/content/object/eid/1-s2.0-S2468823124006710-gr5.jpg?httpAccept=%2A%2F%2A",
+            "@multimediatype": "JPEG image file",
+            "@type": "IMAGE-DOWNSAMPLED",
+            "@size": "40089",
+            "@ref": "gr5",
+            "@mimetype": "image/jpeg"
+          },
+          {
+            "@category": "standard",
+            "@height": "587",
+            "@width": "809",
+            "@_fa": "true",
+            "$": "https://api.elsevier.com/content/object/eid/1-s2.0-S2468823124006710-gr4.jpg?httpAccept=%2A%2F%2A",
+            "@multimediatype": "JPEG image file",
+            "@type": "IMAGE-DOWNSAMPLED",
+            "@size": "90553",
+            "@ref": "gr4",
+            "@mimetype": "image/jpeg"
+          },
+          {
+            "@category": "standard",
+            "@height": "449",
+            "@width": "809",
+            "@_fa": "true",
+            "$": "https://api.elsevier.com/content/object/eid/1-s2.0-S2468823124006710-gr9.jpg?httpAccept=%2A%2F%2A",
+            "@multimediatype": "JPEG image file",
+            "@type": "IMAGE-DOWNSAMPLED",
+            "@size": "66253",
+            "@ref": "gr9",
+            "@mimetype": "image/jpeg"
+          },
+          {
+            "@category": "standard",
+            "@height": "311",
+            "@width": "395",
+            "@_fa": "true",
+            "$": "https://api.elsevier.com/content/object/eid/1-s2.0-S2468823124006710-gr8.jpg?httpAccept=%2A%2F%2A",
+            "@multimediatype": "JPEG image file",
+            "@type": "IMAGE-DOWNSAMPLED",
+            "@size": "25379",
+            "@ref": "gr8",
+            "@mimetype": "image/jpeg"
+          },
+          {
+            "@category": "thumbnail",
+            "@height": "80",
+            "@width": "219",
+            "@_fa": "true",
+            "$": "https://api.elsevier.com/content/object/eid/1-s2.0-S2468823124006710-gr3.sml?httpAccept=%2A%2F%2A",
+            "@multimediatype": "GIF image file",
+            "@type": "IMAGE-THUMBNAIL",
+            "@size": "6918",
+            "@ref": "gr3",
+            "@mimetype": "image/gif"
+          },
+          {
+            "@category": "thumbnail",
+            "@height": "164",
+            "@width": "199",
+            "@_fa": "true",
+            "$": "https://api.elsevier.com/content/object/eid/1-s2.0-S2468823124006710-gr2.sml?httpAccept=%2A%2F%2A",
+            "@multimediatype": "GIF image file",
+            "@type": "IMAGE-THUMBNAIL",
+            "@size": "7233",
+            "@ref": "gr2",
+            "@mimetype": "image/gif"
+          },
+          {
+            "@category": "thumbnail",
+            "@height": "145",
+            "@width": "219",
+            "@_fa": "true",
+            "$": "https://api.elsevier.com/content/object/eid/1-s2.0-S2468823124006710-ga1.sml?httpAccept=%2A%2F%2A",
+            "@multimediatype": "GIF image file",
+            "@type": "IMAGE-THUMBNAIL",
+            "@size": "14265",
+            "@ref": "ga1",
+            "@mimetype": "image/gif"
+          },
+          {
+            "@category": "thumbnail",
+            "@height": "66",
+            "@width": "219",
+            "@_fa": "true",
+            "$": "https://api.elsevier.com/content/object/eid/1-s2.0-S2468823124006710-gr1.sml?httpAccept=%2A%2F%2A",
+            "@multimediatype": "GIF image file",
+            "@type": "IMAGE-THUMBNAIL",
+            "@size": "8581",
+            "@ref": "gr1",
+            "@mimetype": "image/gif"
+          },
+          {
+            "@category": "thumbnail",
+            "@height": "164",
+            "@width": "199",
+            "@_fa": "true",
+            "$": "https://api.elsevier.com/content/object/eid/1-s2.0-S2468823124006710-gr7.sml?httpAccept=%2A%2F%2A",
+            "@multimediatype": "GIF image file",
+            "@type": "IMAGE-THUMBNAIL",
+            "@size": "13212",
+            "@ref": "gr7",
+            "@mimetype": "image/gif"
+          },
+          {
+            "@category": "thumbnail",
+            "@height": "80",
+            "@width": "219",
+            "@_fa": "true",
+            "$": "https://api.elsevier.com/content/object/eid/1-s2.0-S2468823124006710-gr6.sml?httpAccept=%2A%2F%2A",
+            "@multimediatype": "GIF image file",
+            "@type": "IMAGE-THUMBNAIL",
+            "@size": "8415",
+            "@ref": "gr6",
+            "@mimetype": "image/gif"
+          },
+          {
+            "@category": "thumbnail",
+            "@height": "86",
+            "@width": "219",
+            "@_fa": "true",
+            "$": "https://api.elsevier.com/content/object/eid/1-s2.0-S2468823124006710-gr5.sml?httpAccept=%2A%2F%2A",
+            "@multimediatype": "GIF image file",
+            "@type": "IMAGE-THUMBNAIL",
+            "@size": "5230",
+            "@ref": "gr5",
+            "@mimetype": "image/gif"
+          },
+          {
+            "@category": "thumbnail",
+            "@height": "159",
+            "@width": "219",
+            "@_fa": "true",
+            "$": "https://api.elsevier.com/content/object/eid/1-s2.0-S2468823124006710-gr4.sml?httpAccept=%2A%2F%2A",
+            "@multimediatype": "GIF image file",
+            "@type": "IMAGE-THUMBNAIL",
+            "@size": "9886",
+            "@ref": "gr4",
+            "@mimetype": "image/gif"
+          },
+          {
+            "@category": "thumbnail",
+            "@height": "122",
+            "@width": "219",
+            "@_fa": "true",
+            "$": "https://api.elsevier.com/content/object/eid/1-s2.0-S2468823124006710-gr9.sml?httpAccept=%2A%2F%2A",
+            "@multimediatype": "GIF image file",
+            "@type": "IMAGE-THUMBNAIL",
+            "@size": "9410",
+            "@ref": "gr9",
+            "@mimetype": "image/gif"
+          },
+          {
+            "@category": "thumbnail",
+            "@height": "164",
+            "@width": "208",
+            "@_fa": "true",
+            "$": "https://api.elsevier.com/content/object/eid/1-s2.0-S2468823124006710-gr8.sml?httpAccept=%2A%2F%2A",
+            "@multimediatype": "GIF image file",
+            "@type": "IMAGE-THUMBNAIL",
+            "@size": "7585",
+            "@ref": "gr8",
+            "@mimetype": "image/gif"
+          },
+          {
+            "@category": "high",
+            "@height": "1306",
+            "@width": "3583",
+            "@_fa": "true",
+            "$": "https://api.elsevier.com/content/object/eid/1-s2.0-S2468823124006710-gr3_lrg.jpg?httpAccept=%2A%2F%2A",
+            "@multimediatype": "JPEG image file",
+            "@type": "IMAGE-HIGH-RES",
+            "@size": "312611",
+            "@ref": "gr3",
+            "@mimetype": "image/jpeg"
+          },
+          {
+            "@category": "high",
+            "@height": "1442",
+            "@width": "1749",
+            "@_fa": "true",
+            "$": "https://api.elsevier.com/content/object/eid/1-s2.0-S2468823124006710-gr2_lrg.jpg?httpAccept=%2A%2F%2A",
+            "@multimediatype": "JPEG image file",
+            "@type": "IMAGE-HIGH-RES",
+            "@size": "133011",
+            "@ref": "gr2",
+            "@mimetype": "image/jpeg"
+          },
+          {
+            "@category": "high",
+            "@height": "886",
+            "@width": "1342",
+            "@_fa": "true",
+            "$": "https://api.elsevier.com/content/object/eid/1-s2.0-S2468823124006710-ga1_lrg.jpg?httpAccept=%2A%2F%2A",
+            "@multimediatype": "JPEG image file",
+            "@type": "IMAGE-HIGH-RES",
+            "@size": "165058",
+            "@ref": "ga1",
+            "@mimetype": "image/jpeg"
+          },
+          {
+            "@category": "high",
+            "@height": "903",
+            "@width": "3000",
+            "@_fa": "true",
+            "$": "https://api.elsevier.com/content/object/eid/1-s2.0-S2468823124006710-gr1_lrg.jpg?httpAccept=%2A%2F%2A",
+            "@multimediatype": "JPEG image file",
+            "@type": "IMAGE-HIGH-RES",
+            "@size": "257028",
+            "@ref": "gr1",
+            "@mimetype": "image/jpeg"
+          },
+          {
+            "@category": "high",
+            "@height": "1440",
+            "@width": "1749",
+            "@_fa": "true",
+            "$": "https://api.elsevier.com/content/object/eid/1-s2.0-S2468823124006710-gr7_lrg.jpg?httpAccept=%2A%2F%2A",
+            "@multimediatype": "JPEG image file",
+            "@type": "IMAGE-HIGH-RES",
+            "@size": "265870",
+            "@ref": "gr7",
+            "@mimetype": "image/jpeg"
+          },
+          {
+            "@category": "high",
+            "@height": "1307",
+            "@width": "3583",
+            "@_fa": "true",
+            "$": "https://api.elsevier.com/content/object/eid/1-s2.0-S2468823124006710-gr6_lrg.jpg?httpAccept=%2A%2F%2A",
+            "@multimediatype": "JPEG image file",
+            "@type": "IMAGE-HIGH-RES",
+            "@size": "428791",
+            "@ref": "gr6",
+            "@mimetype": "image/jpeg"
+          },
+          {
+            "@category": "high",
+            "@height": "1404",
+            "@width": "3583",
+            "@_fa": "true",
+            "$": "https://api.elsevier.com/content/object/eid/1-s2.0-S2468823124006710-gr5_lrg.jpg?httpAccept=%2A%2F%2A",
+            "@multimediatype": "JPEG image file",
+            "@type": "IMAGE-HIGH-RES",
+            "@size": "255674",
+            "@ref": "gr5",
+            "@mimetype": "image/jpeg"
+          },
+          {
+            "@category": "high",
+            "@height": "2599",
+            "@width": "3583",
+            "@_fa": "true",
+            "$": "https://api.elsevier.com/content/object/eid/1-s2.0-S2468823124006710-gr4_lrg.jpg?httpAccept=%2A%2F%2A",
+            "@multimediatype": "JPEG image file",
+            "@type": "IMAGE-HIGH-RES",
+            "@size": "539643",
+            "@ref": "gr4",
+            "@mimetype": "image/jpeg"
+          },
+          {
+            "@category": "high",
+            "@height": "1989",
+            "@width": "3583",
+            "@_fa": "true",
+            "$": "https://api.elsevier.com/content/object/eid/1-s2.0-S2468823124006710-gr9_lrg.jpg?httpAccept=%2A%2F%2A",
+            "@multimediatype": "JPEG image file",
+            "@type": "IMAGE-HIGH-RES",
+            "@size": "463879",
+            "@ref": "gr9",
+            "@mimetype": "image/jpeg"
+          },
+          {
+            "@category": "high",
+            "@height": "1379",
+            "@width": "1749",
+            "@_fa": "true",
+            "$": "https://api.elsevier.com/content/object/eid/1-s2.0-S2468823124006710-gr8_lrg.jpg?httpAccept=%2A%2F%2A",
+            "@multimediatype": "JPEG image file",
+            "@type": "IMAGE-HIGH-RES",
+            "@size": "149886",
+            "@ref": "gr8",
+            "@mimetype": "image/jpeg"
+          },
+          {
+            "@category": "thumbnail",
+            "@_fa": "true",
+            "$": "https://api.elsevier.com/content/object/eid/1-s2.0-S2468823124006710-si1.svg?httpAccept=%2A%2F%2A",
+            "@multimediatype": "Scalable Vector Graphics file",
+            "@type": "ALTIMG",
+            "@size": "9355",
+            "@ref": "si1",
+            "@mimetype": "image/svg+xml"
+          },
+          {
+            "@category": "thumbnail",
+            "@_fa": "true",
+            "$": "https://api.elsevier.com/content/object/eid/1-s2.0-S2468823124006710-si2.svg?httpAccept=%2A%2F%2A",
+            "@multimediatype": "Scalable Vector Graphics file",
+            "@type": "ALTIMG",
+            "@size": "9360",
+            "@ref": "si2",
+            "@mimetype": "image/svg+xml"
+          },
+          {
+            "@category": "thumbnail",
+            "@_fa": "true",
+            "$": "https://api.elsevier.com/content/object/eid/1-s2.0-S2468823124006710-si3.svg?httpAccept=%2A%2F%2A",
+            "@multimediatype": "Scalable Vector Graphics file",
+            "@type": "ALTIMG",
+            "@size": "11076",
+            "@ref": "si3",
+            "@mimetype": "image/svg+xml"
+          },
+          {
+            "@category": "thumbnail",
+            "@_fa": "true",
+            "$": "https://api.elsevier.com/content/object/eid/1-s2.0-S2468823124006710-si4.svg?httpAccept=%2A%2F%2A",
+            "@multimediatype": "Scalable Vector Graphics file",
+            "@type": "ALTIMG",
+            "@size": "11778",
+            "@ref": "si4",
+            "@mimetype": "image/svg+xml"
+          },
+          {
+            "@category": "thumbnail",
+            "@_fa": "true",
+            "$": "https://api.elsevier.com/content/object/eid/1-s2.0-S2468823124006710-si5.svg?httpAccept=%2A%2F%2A",
+            "@multimediatype": "Scalable Vector Graphics file",
+            "@type": "ALTIMG",
+            "@size": "5086",
+            "@ref": "si5",
+            "@mimetype": "image/svg+xml"
+          },
+          {
+            "@category": "standard",
+            "@_fa": "true",
+            "$": "https://api.elsevier.com/content/object/eid/1-s2.0-S2468823124006710-am.pdf?httpAccept=%2A%2F%2A",
+            "@multimediatype": "Acrobat PDF file",
+            "@type": "AAM-PDF",
+            "@size": "952496",
+            "@ref": "am",
+            "@mimetype": "application/pdf"
+          }
+        ]
+      },
+      "link": {
+        "@rel": "abstract",
+        "@href": "https://api.elsevier.com/content/abstract/scopus_id/85201766856"
+      }
+    }
+  }
+}
