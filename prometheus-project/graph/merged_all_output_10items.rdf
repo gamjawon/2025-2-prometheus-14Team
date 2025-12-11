@@ -1,0 +1,629 @@
+<?xml version="1.0" encoding="utf-8"?>
+<rdf:RDF
+   xmlns:aiton="http://www.aitom.com/aiton.owl#"
+   xmlns:owl="http://www.w3.org/2002/07/owl#"
+   xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+   xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#"
+>
+  <rdf:Description rdf:about="http://www.aitom.com/aiton.owl#InorganicMaterial_Zn12">
+    <rdf:type rdf:resource="http://www.aitom.com/aiton.owl#InorganicMaterial"/>
+    <rdfs:label xml:lang="ko">Zn(12)</rdfs:label>
+    <aiton:hasSynthesisMethod rdf:resource="http://www.aitom.com/aiton.owl#SynthesisMethod_method_1"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.aitom.com/aiton.owl#hasID">
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#DatatypeProperty"/>
+    <rdfs:subPropertyOf rdf:resource="http://www.w3.org/2002/07/owl#topDataProperty"/>
+    <rdfs:domain rdf:resource="http://www.aitom.com/aiton.owl#SynthesisMethod"/>
+    <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#integer"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.aitom.com/aiton.owl#OrganicReactionType">
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#Class"/>
+    <owl:deprecated rdf:datatype="http://www.w3.org/2001/XMLSchema#boolean">true</owl:deprecated>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.aitom.com/aiton.owl#hasInChIKey">
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#DatatypeProperty"/>
+    <rdfs:subPropertyOf rdf:resource="http://www.w3.org/2002/07/owl#topDataProperty"/>
+    <rdfs:domain rdf:resource="http://www.aitom.com/aiton.owl#ChemicalEntity"/>
+    <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+    <owl:deprecated rdf:datatype="http://www.w3.org/2001/XMLSchema#boolean">true</owl:deprecated>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.aitom.com/aiton.owl#usesAddictive">
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#ObjectProperty"/>
+    <rdfs:subPropertyOf rdf:resource="http://www.w3.org/2002/07/owl#topObjectProperty"/>
+    <rdfs:domain rdf:resource="http://www.aitom.com/aiton.owl#SynthesisStep"/>
+    <rdfs:range rdf:resource="http://www.aitom.com/aiton.owl#Additive"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.aitom.com/aiton.owl#SynthesisStep_step_step_16">
+    <rdf:type rdf:resource="http://www.aitom.com/aiton.owl#SynthesisStep"/>
+    <rdfs:label xml:lang="ko">step_16. filtered</rdfs:label>
+    <aiton:nextStep rdf:resource="http://www.aitom.com/aiton.owl#SynthesisStep_step_step_17"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.aitom.com/aiton.owl#SynthesisStep_step_step_10">
+    <rdf:type rdf:resource="http://www.aitom.com/aiton.owl#SynthesisStep"/>
+    <rdfs:label xml:lang="ko">step_10. washed</rdfs:label>
+    <rdfs:label xml:lang="ko">step_10. immersed</rdfs:label>
+    <rdfs:label xml:lang="ko">step_10. heat</rdfs:label>
+    <rdfs:label xml:lang="ko">step_10. heating</rdfs:label>
+    <aiton:nextStep rdf:resource="http://www.aitom.com/aiton.owl#SynthesisStep_step_step_11"/>
+    <aiton:performedUnder rdf:resource="http://www.aitom.com/aiton.owl#Condition_condition_step_step_10"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.aitom.com/aiton.owl#OrganoCatalyst">
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#Class"/>
+    <owl:deprecated rdf:datatype="http://www.w3.org/2001/XMLSchema#boolean">true</owl:deprecated>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.aitom.com/aiton.owl#hasPurity">
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#DatatypeProperty"/>
+    <rdfs:subPropertyOf rdf:resource="http://www.w3.org/2002/07/owl#topDataProperty"/>
+    <rdfs:domain rdf:resource="http://www.aitom.com/aiton.owl#ChemicalEntity"/>
+    <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#float"/>
+    <owl:deprecated rdf:datatype="http://www.w3.org/2001/XMLSchema#boolean">true</owl:deprecated>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.aitom.com/aiton.owl#CharacterizationMethod">
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#Class"/>
+    <owl:deprecated rdf:datatype="http://www.w3.org/2001/XMLSchema#boolean">true</owl:deprecated>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.aitom.com/aiton.owl#hasAcronym">
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#DatatypeProperty"/>
+    <rdfs:subPropertyOf rdf:resource="http://www.w3.org/2002/07/owl#topDataProperty"/>
+    <rdfs:domain rdf:resource="http://www.aitom.com/aiton.owl#InorganicMaterial"/>
+    <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.aitom.com/aiton.owl#usesLigand">
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#ObjectProperty"/>
+    <owl:deprecated rdf:datatype="http://www.w3.org/2001/XMLSchema#boolean">true</owl:deprecated>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.aitom.com/aiton.owl#hasNote">
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#DatatypeProperty"/>
+    <rdfs:subPropertyOf rdf:resource="http://www.w3.org/2002/07/owl#topDataProperty"/>
+    <rdfs:domain rdf:resource="http://www.aitom.com/aiton.owl#SynthesisStep"/>
+    <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.aitom.com/aiton.owl#hasReaction">
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#DatatypeProperty"/>
+    <rdfs:subPropertyOf rdf:resource="http://www.w3.org/2002/07/owl#topDataProperty"/>
+    <rdfs:domain rdf:resource="http://www.aitom.com/aiton.owl#InorganicMaterial"/>
+    <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.aitom.com/aiton.owl#hasInstrument">
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#DatatypeProperty"/>
+    <rdfs:subPropertyOf rdf:resource="http://www.w3.org/2002/07/owl#topDataProperty"/>
+    <rdfs:domain rdf:resource="http://www.aitom.com/aiton.owl#SynthesisMethod"/>
+    <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+    <owl:deprecated rdf:datatype="http://www.w3.org/2001/XMLSchema#boolean">true</owl:deprecated>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.aitom.com/aiton.owl#usesAbrasive">
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#ObjectProperty"/>
+    <rdfs:subPropertyOf rdf:resource="http://www.w3.org/2002/07/owl#topObjectProperty"/>
+    <rdfs:domain rdf:resource="http://www.aitom.com/aiton.owl#SynthesisStep"/>
+    <rdfs:range rdf:resource="http://www.aitom.com/aiton.owl#Abrasive"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.aitom.com/aiton.owl#InorganicMaterial_MgO">
+    <rdf:type rdf:resource="http://www.aitom.com/aiton.owl#InorganicMaterial"/>
+    <rdfs:label xml:lang="ko">MgO</rdfs:label>
+    <aiton:hasSynthesisMethod rdf:resource="http://www.aitom.com/aiton.owl#SynthesisMethod_method_1"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.aitom.com/aiton.owl#hasSMILES">
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#DatatypeProperty"/>
+    <rdfs:subPropertyOf rdf:resource="http://www.w3.org/2002/07/owl#topDataProperty"/>
+    <rdfs:domain rdf:resource="http://www.aitom.com/aiton.owl#ChemicalEntity"/>
+    <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+    <owl:deprecated rdf:datatype="http://www.w3.org/2001/XMLSchema#boolean">true</owl:deprecated>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.aitom.com/aiton.owl#SynthesisStep_step_step_7">
+    <rdf:type rdf:resource="http://www.aitom.com/aiton.owl#SynthesisStep"/>
+    <rdfs:label xml:lang="ko">step_7. cooling</rdfs:label>
+    <rdfs:label xml:lang="ko">step_7. drying</rdfs:label>
+    <rdfs:label xml:lang="ko">step_7. washed</rdfs:label>
+    <rdfs:label xml:lang="ko">step_7. dissolved</rdfs:label>
+    <rdfs:label xml:lang="ko">step_7. collected</rdfs:label>
+    <rdfs:label xml:lang="ko">step_7. dried</rdfs:label>
+    <aiton:nextStep rdf:resource="http://www.aitom.com/aiton.owl#SynthesisStep_step_step_8"/>
+    <aiton:performedUnder rdf:resource="http://www.aitom.com/aiton.owl#Condition_condition_step_step_7"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.aitom.com/aiton.owl#SynthesisStep_step_step_12">
+    <rdf:type rdf:resource="http://www.aitom.com/aiton.owl#SynthesisStep"/>
+    <rdfs:label xml:lang="ko">step_12. collected</rdfs:label>
+    <rdfs:label xml:lang="ko">step_12. dried</rdfs:label>
+    <rdfs:label xml:lang="ko">step_12. drying</rdfs:label>
+    <aiton:nextStep rdf:resource="http://www.aitom.com/aiton.owl#SynthesisStep_step_step_13"/>
+    <aiton:performedUnder rdf:resource="http://www.aitom.com/aiton.owl#Condition_condition_step_step_12"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.aitom.com/aiton.owl#InorganicMaterial">
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#Class"/>
+    <rdfs:subClassOf rdf:resource="http://www.aitom.com/aiton.owl#ChemicalEntity"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.aitom.com/aiton.owl#usesSolvent">
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#ObjectProperty"/>
+    <rdfs:subPropertyOf rdf:resource="http://www.w3.org/2002/07/owl#topObjectProperty"/>
+    <rdfs:domain rdf:resource="http://www.aitom.com/aiton.owl#SynthesisStep"/>
+    <rdfs:range rdf:resource="http://www.aitom.com/aiton.owl#Solvent"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.aitom.com/aiton.owl#SynthesisStep">
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#Class"/>
+    <rdfs:subClassOf rdf:resource="http://www.aitom.com/aiton.owl#Process"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.aitom.com/aiton.owl#SynthesisStep_step_step_6">
+    <rdf:type rdf:resource="http://www.aitom.com/aiton.owl#SynthesisStep"/>
+    <rdfs:label xml:lang="ko">step_6. kept</rdfs:label>
+    <rdfs:label xml:lang="ko">step_6. washed</rdfs:label>
+    <rdfs:label xml:lang="ko">step_6. cool</rdfs:label>
+    <rdfs:label xml:lang="ko">step_6. calcination</rdfs:label>
+    <rdfs:label xml:lang="ko">step_6. maintained</rdfs:label>
+    <aiton:performedUnder rdf:resource="http://www.aitom.com/aiton.owl#Condition_condition_step_step_6"/>
+    <aiton:nextStep rdf:resource="http://www.aitom.com/aiton.owl#SynthesisStep_step_step_7"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.aitom.com/aiton.owl#Condition_condition_step_step_3">
+    <rdf:type rdf:resource="http://www.aitom.com/aiton.owl#Condition"/>
+    <rdfs:label xml:lang="ko">조건 (단계 step_3)</rdfs:label>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.aitom.com/aiton.owl#SynthesisStep_step_step_2">
+    <rdf:type rdf:resource="http://www.aitom.com/aiton.owl#SynthesisStep"/>
+    <rdfs:label xml:lang="ko">step_2. stirring</rdfs:label>
+    <rdfs:label xml:lang="ko">step_2. dissolved</rdfs:label>
+    <rdfs:label xml:lang="ko">step_2. heated</rdfs:label>
+    <rdfs:label xml:lang="ko">step_2. stand</rdfs:label>
+    <rdfs:label xml:lang="ko">step_2. added</rdfs:label>
+    <rdfs:label xml:lang="ko">step_2. stirred</rdfs:label>
+    <aiton:nextStep rdf:resource="http://www.aitom.com/aiton.owl#SynthesisStep_step_step_3"/>
+    <aiton:performedUnder rdf:resource="http://www.aitom.com/aiton.owl#Condition_condition_step_step_2"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.aitom.com/aiton.owl#Promoter">
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#Class"/>
+    <owl:deprecated rdf:datatype="http://www.w3.org/2001/XMLSchema#boolean">true</owl:deprecated>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.aitom.com/aiton.owl#hasPhase">
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#DatatypeProperty"/>
+    <rdfs:subPropertyOf rdf:resource="http://www.w3.org/2002/07/owl#topDataProperty"/>
+    <rdfs:domain rdf:resource="http://www.aitom.com/aiton.owl#InorganicMaterial"/>
+    <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.aitom.com/aiton.owl#SynthesisStep_step_step_4">
+    <rdf:type rdf:resource="http://www.aitom.com/aiton.owl#SynthesisStep"/>
+    <rdfs:label xml:lang="ko">step_4. adding</rdfs:label>
+    <rdfs:label xml:lang="ko">step_4. stirred</rdfs:label>
+    <rdfs:label xml:lang="ko">step_4. heated</rdfs:label>
+    <rdfs:label xml:lang="ko">step_4. washed</rdfs:label>
+    <rdfs:label xml:lang="ko">step_4. added</rdfs:label>
+    <rdfs:label xml:lang="ko">step_4. stirring</rdfs:label>
+    <aiton:nextStep rdf:resource="http://www.aitom.com/aiton.owl#SynthesisStep_step_step_5"/>
+    <aiton:performedUnder rdf:resource="http://www.aitom.com/aiton.owl#Condition_condition_step_step_4"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.aitom.com/aiton.owl#SynthesisStep_step_step_8">
+    <rdf:type rdf:resource="http://www.aitom.com/aiton.owl#SynthesisStep"/>
+    <rdfs:label xml:lang="ko">step_8. filtered</rdfs:label>
+    <rdfs:label xml:lang="ko">step_8. heated</rdfs:label>
+    <rdfs:label xml:lang="ko">step_8. drying</rdfs:label>
+    <rdfs:label xml:lang="ko">step_8. filtration</rdfs:label>
+    <rdfs:label xml:lang="ko">step_8. washed</rdfs:label>
+    <aiton:nextStep rdf:resource="http://www.aitom.com/aiton.owl#SynthesisStep_step_step_9"/>
+    <aiton:performedUnder rdf:resource="http://www.aitom.com/aiton.owl#Condition_condition_step_step_8"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.aitom.com/aiton.owl#SynthesisStep_step_step_14">
+    <rdf:type rdf:resource="http://www.aitom.com/aiton.owl#SynthesisStep"/>
+    <rdfs:label xml:lang="ko">step_14. heated</rdfs:label>
+    <aiton:performedUnder rdf:resource="http://www.aitom.com/aiton.owl#Condition_condition_step_step_14"/>
+    <aiton:nextStep rdf:resource="http://www.aitom.com/aiton.owl#SynthesisStep_step_step_15"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.aitom.com/aiton.owl#haspH">
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#DatatypeProperty"/>
+    <rdfs:subPropertyOf rdf:resource="http://www.w3.org/2002/07/owl#topDataProperty"/>
+    <rdfs:domain rdf:resource="http://www.aitom.com/aiton.owl#Condition"/>
+    <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.aitom.com/aiton.owl#usesMedia">
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#ObjectProperty"/>
+    <rdfs:subPropertyOf rdf:resource="http://www.w3.org/2002/07/owl#topObjectProperty"/>
+    <rdfs:domain rdf:resource="http://www.aitom.com/aiton.owl#SynthesisStep"/>
+    <rdfs:range rdf:resource="http://www.aitom.com/aiton.owl#Media"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.aitom.com/aiton.owl#SynthesisStep_step_step_11">
+    <rdf:type rdf:resource="http://www.aitom.com/aiton.owl#SynthesisStep"/>
+    <rdfs:label xml:lang="ko">step_11. dried</rdfs:label>
+    <rdfs:label xml:lang="ko">step_11. wetted</rdfs:label>
+    <rdfs:label xml:lang="ko">step_11. washing</rdfs:label>
+    <aiton:performedUnder rdf:resource="http://www.aitom.com/aiton.owl#Condition_condition_step_step_11"/>
+    <aiton:nextStep rdf:resource="http://www.aitom.com/aiton.owl#SynthesisStep_step_step_12"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.aitom.com/aiton.owl#Condition_condition_step_step_9">
+    <rdf:type rdf:resource="http://www.aitom.com/aiton.owl#Condition"/>
+    <rdfs:label xml:lang="ko">조건 (단계 step_9)</rdfs:label>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.aitom.com/aiton.owl#Condition">
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#Class"/>
+    <rdfs:subClassOf rdf:resource="http://www.aitom.com/aiton.owl#ConditionSet"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.aitom.com/aiton.owl#hasTime">
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#DatatypeProperty"/>
+    <rdfs:subPropertyOf rdf:resource="http://www.w3.org/2002/07/owl#topDataProperty"/>
+    <rdfs:domain rdf:resource="http://www.aitom.com/aiton.owl#Condition"/>
+    <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.aitom.com/aiton.owl#SynthesisStep_step_step_5">
+    <rdf:type rdf:resource="http://www.aitom.com/aiton.owl#SynthesisStep"/>
+    <rdfs:label xml:lang="ko">step_5. raised</rdfs:label>
+    <rdfs:label xml:lang="ko">step_5. stirring</rdfs:label>
+    <rdfs:label xml:lang="ko">step_5. maintained</rdfs:label>
+    <rdfs:label xml:lang="ko">step_5. dried</rdfs:label>
+    <rdfs:label xml:lang="ko">step_5. heated</rdfs:label>
+    <rdfs:label xml:lang="ko">step_5. sealed</rdfs:label>
+    <rdfs:label xml:lang="ko">step_5. drying</rdfs:label>
+    <rdfs:label xml:lang="ko">step_5. filtration</rdfs:label>
+    <aiton:performedUnder rdf:resource="http://www.aitom.com/aiton.owl#Condition_condition_step_step_5"/>
+    <aiton:nextStep rdf:resource="http://www.aitom.com/aiton.owl#SynthesisStep_step_step_6"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.aitom.com/aiton.owl#Condition_condition_step_step_12">
+    <rdf:type rdf:resource="http://www.aitom.com/aiton.owl#Condition"/>
+    <rdfs:label xml:lang="ko">조건 (단계 step_12)</rdfs:label>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.aitom.com/aiton.owl#InorganicMaterial_NiO">
+    <rdf:type rdf:resource="http://www.aitom.com/aiton.owl#InorganicMaterial"/>
+    <rdfs:label xml:lang="ko">NiO</rdfs:label>
+    <aiton:hasSynthesisMethod rdf:resource="http://www.aitom.com/aiton.owl#SynthesisMethod_method_1"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.aitom.com/aiton.owl#SynthesisStep_step_step_3">
+    <rdf:type rdf:resource="http://www.aitom.com/aiton.owl#SynthesisStep"/>
+    <rdfs:label xml:lang="ko">step_3. adjusted</rdfs:label>
+    <rdfs:label xml:lang="ko">step_3. added</rdfs:label>
+    <rdfs:label xml:lang="ko">step_3. introduced</rdfs:label>
+    <rdfs:label xml:lang="ko">step_3. filtered</rdfs:label>
+    <rdfs:label xml:lang="ko">step_3. stirring</rdfs:label>
+    <rdfs:label xml:lang="ko">step_3. poured</rdfs:label>
+    <rdfs:label xml:lang="ko">step_3. cooled</rdfs:label>
+    <rdfs:label xml:lang="ko">step_3. stirred</rdfs:label>
+    <aiton:nextStep rdf:resource="http://www.aitom.com/aiton.owl#SynthesisStep_step_step_4"/>
+    <aiton:performedUnder rdf:resource="http://www.aitom.com/aiton.owl#Condition_condition_step_step_3"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.aitom.com/aiton.owl#hasSynthesisMethod">
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#ObjectProperty"/>
+    <rdfs:subPropertyOf rdf:resource="http://www.w3.org/2002/07/owl#topObjectProperty"/>
+    <rdfs:domain rdf:resource="http://www.aitom.com/aiton.owl#InorganicMaterial"/>
+    <rdfs:range rdf:resource="http://www.aitom.com/aiton.owl#SynthesisMethod"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.aitom.com/aiton.owl#Condition_condition_step_step_2">
+    <rdf:type rdf:resource="http://www.aitom.com/aiton.owl#Condition"/>
+    <rdfs:label xml:lang="ko">조건 (단계 step_2)</rdfs:label>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.aitom.com/aiton.owl#reactedBy">
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#ObjectProperty"/>
+    <owl:deprecated rdf:datatype="http://www.w3.org/2001/XMLSchema#boolean">true</owl:deprecated>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.aitom.com/aiton.owl#SynthesisStep_step_step_9">
+    <rdf:type rdf:resource="http://www.aitom.com/aiton.owl#SynthesisStep"/>
+    <rdfs:label xml:lang="ko">step_9. centrifugation</rdfs:label>
+    <rdfs:label xml:lang="ko">step_9. calcined</rdfs:label>
+    <rdfs:label xml:lang="ko">step_9. immersed</rdfs:label>
+    <rdfs:label xml:lang="ko">step_9. continued</rdfs:label>
+    <rdfs:label xml:lang="ko">step_9. dried</rdfs:label>
+    <aiton:nextStep rdf:resource="http://www.aitom.com/aiton.owl#SynthesisStep_step_step_10"/>
+    <aiton:performedUnder rdf:resource="http://www.aitom.com/aiton.owl#Condition_condition_step_step_9"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.aitom.com/aiton.owl#partOfMethod">
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#ObjectProperty"/>
+    <owl:deprecated rdf:datatype="http://www.w3.org/2001/XMLSchema#boolean">true</owl:deprecated>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.aitom.com/aiton.owl#SynthesisMethod_method_1">
+    <rdf:type rdf:resource="http://www.aitom.com/aiton.owl#SynthesisMethod"/>
+    <rdfs:label xml:lang="ko">합성 방법 1</rdfs:label>
+    <aiton:consistOfStep rdf:resource="http://www.aitom.com/aiton.owl#SynthesisStep_step_step_1"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.aitom.com/aiton.owl#MixedCatalyst">
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#Class"/>
+    <owl:deprecated rdf:datatype="http://www.w3.org/2001/XMLSchema#boolean">true</owl:deprecated>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.aitom.com/aiton.owl#SynthesisStep_step_step_15">
+    <rdf:type rdf:resource="http://www.aitom.com/aiton.owl#SynthesisStep"/>
+    <rdfs:label xml:lang="ko">step_15. calcined</rdfs:label>
+    <aiton:performedUnder rdf:resource="http://www.aitom.com/aiton.owl#Condition_condition_step_step_15"/>
+    <aiton:nextStep rdf:resource="http://www.aitom.com/aiton.owl#SynthesisStep_step_step_16"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.aitom.com/aiton.owl#InorganicMaterial_Bmim3PW12O40">
+    <rdf:type rdf:resource="http://www.aitom.com/aiton.owl#InorganicMaterial"/>
+    <rdfs:label xml:lang="ko">(Bmim)3PW12O40</rdfs:label>
+    <aiton:hasSynthesisMethod rdf:resource="http://www.aitom.com/aiton.owl#SynthesisMethod_method_1"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.aitom.com/aiton.owl#SynthesisStep_step_step_1">
+    <rdf:type rdf:resource="http://www.aitom.com/aiton.owl#SynthesisStep"/>
+    <rdfs:label xml:lang="ko">step_1. added</rdfs:label>
+    <rdfs:label xml:lang="ko">step_1. dissolved</rdfs:label>
+    <rdfs:label xml:lang="ko">step_1. mixed</rdfs:label>
+    <rdfs:label xml:lang="ko">step_1. stirred</rdfs:label>
+    <rdfs:label xml:lang="ko">step_1. sealed</rdfs:label>
+    <rdfs:label xml:lang="ko">step_1. dispersed</rdfs:label>
+    <aiton:nextStep rdf:resource="http://www.aitom.com/aiton.owl#SynthesisStep_step_step_2"/>
+    <aiton:performedUnder rdf:resource="http://www.aitom.com/aiton.owl#Condition_condition_step_step_1"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.aitom.com/aiton.owl#Solvent">
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#Class"/>
+    <rdfs:subClassOf rdf:resource="http://www.aitom.com/aiton.owl#ChemicalEntity"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.aitom.com/aiton.owl#SynthesisStep_step_step_18">
+    <rdf:type rdf:resource="http://www.aitom.com/aiton.owl#SynthesisStep"/>
+    <rdfs:label xml:lang="ko">step_18. dried</rdfs:label>
+    <aiton:nextStep rdf:resource="http://www.aitom.com/aiton.owl#SynthesisStep_step_step_19"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.aitom.com/aiton.owl#hasYield">
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#DatatypeProperty"/>
+    <rdfs:subPropertyOf rdf:resource="http://www.w3.org/2002/07/owl#topDataProperty"/>
+    <rdfs:domain rdf:resource="http://www.aitom.com/aiton.owl#Product"/>
+    <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#float"/>
+    <owl:deprecated rdf:datatype="http://www.w3.org/2001/XMLSchema#boolean">true</owl:deprecated>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.aitom.com/aiton.owl#producesCatalyst">
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#ObjectProperty"/>
+    <owl:deprecated rdf:datatype="http://www.w3.org/2001/XMLSchema#boolean">true</owl:deprecated>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.aitom.com/aiton.owl#Ligand">
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#Class"/>
+    <owl:deprecated rdf:datatype="http://www.w3.org/2001/XMLSchema#boolean">true</owl:deprecated>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.aitom.com/aiton.owl#protectedAs">
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#ObjectProperty"/>
+    <owl:deprecated rdf:datatype="http://www.w3.org/2001/XMLSchema#boolean">true</owl:deprecated>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.aitom.com/aiton.owl#hasTemperature">
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#DatatypeProperty"/>
+    <rdfs:subPropertyOf rdf:resource="http://www.w3.org/2002/07/owl#topDataProperty"/>
+    <rdfs:domain rdf:resource="http://www.aitom.com/aiton.owl#Condition"/>
+    <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.aitom.com/aiton.owl#usesSupport">
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#ObjectProperty"/>
+    <owl:deprecated rdf:datatype="http://www.w3.org/2001/XMLSchema#boolean">true</owl:deprecated>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.aitom.com/aiton.owl#usesPrecursor">
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#ObjectProperty"/>
+    <rdfs:subPropertyOf rdf:resource="http://www.w3.org/2002/07/owl#topObjectProperty"/>
+    <rdfs:domain rdf:resource="http://www.aitom.com/aiton.owl#SynthesisStep"/>
+    <rdfs:range rdf:resource="http://www.aitom.com/aiton.owl#Precursor"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.aitom.com/aiton.owl#hasSolventRatio">
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#DatatypeProperty"/>
+    <rdfs:subPropertyOf rdf:resource="http://www.w3.org/2002/07/owl#topDataProperty"/>
+    <rdfs:domain rdf:resource="http://www.aitom.com/aiton.owl#Condition"/>
+    <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+    <owl:deprecated rdf:datatype="http://www.w3.org/2001/XMLSchema#boolean">true</owl:deprecated>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.aitom.com/aiton.owl#Abrasive">
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#Class"/>
+    <rdfs:subClassOf rdf:resource="http://www.aitom.com/aiton.owl#ChemicalEntity"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.aitom.com/aiton.owl#InorganicMaterial_MnWO4">
+    <rdf:type rdf:resource="http://www.aitom.com/aiton.owl#InorganicMaterial"/>
+    <rdfs:label xml:lang="ko">MnWO4</rdfs:label>
+    <aiton:hasSynthesisMethod rdf:resource="http://www.aitom.com/aiton.owl#SynthesisMethod_method_1"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.aitom.com/aiton.owl#Product">
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#Class"/>
+    <rdfs:subClassOf rdf:resource="http://www.aitom.com/aiton.owl#ChemicalEntity"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.aitom.com/aiton.owl#Condition_condition_step_step_10">
+    <rdf:type rdf:resource="http://www.aitom.com/aiton.owl#Condition"/>
+    <rdfs:label xml:lang="ko">조건 (단계 step_10)</rdfs:label>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.aitom.com/aiton.owl#nextStep">
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#ObjectProperty"/>
+    <rdfs:subPropertyOf rdf:resource="http://www.w3.org/2002/07/owl#topObjectProperty"/>
+    <rdfs:domain rdf:resource="http://www.aitom.com/aiton.owl#SynthesisStep"/>
+    <rdfs:range rdf:resource="http://www.aitom.com/aiton.owl#SynthesisStep"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.aitom.com/aiton.owl#hasPurificationMethod">
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#DatatypeProperty"/>
+    <rdfs:subPropertyOf rdf:resource="http://www.w3.org/2002/07/owl#topDataProperty"/>
+    <rdfs:domain rdf:resource="http://www.aitom.com/aiton.owl#SynthesisStep"/>
+    <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+    <owl:deprecated rdf:datatype="http://www.w3.org/2001/XMLSchema#boolean">true</owl:deprecated>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.aitom.com/aiton.owl#producesProduct">
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#ObjectProperty"/>
+    <rdfs:subPropertyOf rdf:resource="http://www.w3.org/2002/07/owl#topObjectProperty"/>
+    <rdfs:domain rdf:resource="http://www.aitom.com/aiton.owl#SynthesisStep"/>
+    <rdfs:range rdf:resource="http://www.aitom.com/aiton.owl#Product"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.aitom.com/aiton.owl#hasFunctionalGroupName">
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#DatatypeProperty"/>
+    <rdfs:subPropertyOf rdf:resource="http://www.w3.org/2002/07/owl#topDataProperty"/>
+    <rdfs:domain rdf:resource="http://www.aitom.com/aiton.owl#FunctionalGroup"/>
+    <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+    <owl:deprecated rdf:datatype="http://www.w3.org/2001/XMLSchema#boolean">true</owl:deprecated>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.aitom.com/aiton.owl#usesActiveComponent">
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#ObjectProperty"/>
+    <owl:deprecated rdf:datatype="http://www.w3.org/2001/XMLSchema#boolean">true</owl:deprecated>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.aitom.com/aiton.owl#InorganicMaterial_Mg1_xBaxAl19Si225O">
+    <rdf:type rdf:resource="http://www.aitom.com/aiton.owl#InorganicMaterial"/>
+    <rdfs:label xml:lang="ko">Mg1-xBaxAl1.9Si2.25O</rdfs:label>
+    <aiton:hasSynthesisMethod rdf:resource="http://www.aitom.com/aiton.owl#SynthesisMethod_method_1"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.aitom.com/aiton.owl#usesPromoter">
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#ObjectProperty"/>
+    <owl:deprecated rdf:datatype="http://www.w3.org/2001/XMLSchema#boolean">true</owl:deprecated>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.aitom.com/aiton.owl#consistOfStep">
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#ObjectProperty"/>
+    <rdfs:subPropertyOf rdf:resource="http://www.w3.org/2002/07/owl#topObjectProperty"/>
+    <rdfs:domain rdf:resource="http://www.aitom.com/aiton.owl#SynthesisMethod"/>
+    <rdfs:range rdf:resource="http://www.aitom.com/aiton.owl#SynthesisStep"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.aitom.com/aiton.owl#SynthesisStep_step_step_13">
+    <rdf:type rdf:resource="http://www.aitom.com/aiton.owl#SynthesisStep"/>
+    <rdfs:label xml:lang="ko">step_13. annealed</rdfs:label>
+    <rdfs:label xml:lang="ko">step_13. treated</rdfs:label>
+    <rdfs:label xml:lang="ko">step_13. calcined</rdfs:label>
+    <aiton:performedUnder rdf:resource="http://www.aitom.com/aiton.owl#Condition_condition_step_step_13"/>
+    <aiton:nextStep rdf:resource="http://www.aitom.com/aiton.owl#SynthesisStep_step_step_14"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.aitom.com/aiton.owl#Condition_condition_step_step_11">
+    <rdf:type rdf:resource="http://www.aitom.com/aiton.owl#Condition"/>
+    <rdfs:label xml:lang="ko">조건 (단계 step_11)</rdfs:label>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.aitom.com/aiton.owl#characterizedBy">
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#ObjectProperty"/>
+    <owl:deprecated rdf:datatype="http://www.w3.org/2001/XMLSchema#boolean">true</owl:deprecated>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.aitom.com/aiton.owl#performedUnder">
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#ObjectProperty"/>
+    <rdfs:subPropertyOf rdf:resource="http://www.w3.org/2002/07/owl#topObjectProperty"/>
+    <rdfs:domain rdf:resource="http://www.aitom.com/aiton.owl#SynthesisStep"/>
+    <rdfs:range rdf:resource="http://www.aitom.com/aiton.owl#Condition"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.aitom.com/aiton.owl#GoalReaction">
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#Class"/>
+    <owl:deprecated rdf:datatype="http://www.w3.org/2001/XMLSchema#boolean">true</owl:deprecated>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.aitom.com/aiton.owl#ChemicalEntity">
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#Class"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.aitom.com/aiton.owl#isOxygenDeficiency">
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#DatatypeProperty"/>
+    <rdfs:subPropertyOf rdf:resource="http://www.w3.org/2002/07/owl#topDataProperty"/>
+    <rdfs:domain rdf:resource="http://www.aitom.com/aiton.owl#InorganicMaterial"/>
+    <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#float"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.aitom.com/aiton.owl#InorganicMaterial_SnO2">
+    <rdf:type rdf:resource="http://www.aitom.com/aiton.owl#InorganicMaterial"/>
+    <rdfs:label xml:lang="ko">SnO2</rdfs:label>
+    <aiton:hasSynthesisMethod rdf:resource="http://www.aitom.com/aiton.owl#SynthesisMethod_method_1"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.aitom.com/aiton.owl#Condition_condition_step_step_14">
+    <rdf:type rdf:resource="http://www.aitom.com/aiton.owl#Condition"/>
+    <rdfs:label xml:lang="ko">조건 (단계 step_14)</rdfs:label>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.w3.org/2001/XMLSchema#duration">
+    <rdf:type rdf:resource="http://www.w3.org/2000/01/rdf-schema#Datatype"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.aitom.com/aiton.owl#Condition_condition_step_step_1">
+    <rdf:type rdf:resource="http://www.aitom.com/aiton.owl#Condition"/>
+    <rdfs:label xml:lang="ko">조건 (단계 step_1)</rdfs:label>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.aitom.com/aiton.owl#Condition_condition_step_step_6">
+    <rdf:type rdf:resource="http://www.aitom.com/aiton.owl#Condition"/>
+    <rdfs:label xml:lang="ko">조건 (단계 step_6)</rdfs:label>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.aitom.com/aiton.owl#Condition_condition_step_step_4">
+    <rdf:type rdf:resource="http://www.aitom.com/aiton.owl#Condition"/>
+    <rdfs:label xml:lang="ko">조건 (단계 step_4)</rdfs:label>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.aitom.com/aiton.owl#Condition_condition_step_step_7">
+    <rdf:type rdf:resource="http://www.aitom.com/aiton.owl#Condition"/>
+    <rdfs:label xml:lang="ko">조건 (단계 step_7)</rdfs:label>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.aitom.com/aiton.owl#MetalCatalyst">
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#Class"/>
+    <owl:deprecated rdf:datatype="http://www.w3.org/2001/XMLSchema#boolean">true</owl:deprecated>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.aitom.com/aiton.owl#SynthesisStep_step_step_17">
+    <rdf:type rdf:resource="http://www.aitom.com/aiton.owl#SynthesisStep"/>
+    <rdfs:label xml:lang="ko">step_17. washed</rdfs:label>
+    <aiton:nextStep rdf:resource="http://www.aitom.com/aiton.owl#SynthesisStep_step_step_18"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.aitom.com/aiton.owl#Condition_condition_step_step_13">
+    <rdf:type rdf:resource="http://www.aitom.com/aiton.owl#Condition"/>
+    <rdfs:label xml:lang="ko">조건 (단계 step_13)</rdfs:label>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.aitom.com/aiton.owl#InorganicMaterial_4ZnO_B2O3H2O">
+    <rdf:type rdf:resource="http://www.aitom.com/aiton.owl#InorganicMaterial"/>
+    <rdfs:label xml:lang="ko">4ZnO-B2O3·H2O</rdfs:label>
+    <aiton:hasSynthesisMethod rdf:resource="http://www.aitom.com/aiton.owl#SynthesisMethod_method_1"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.aitom.com/aiton.owl#Condition_condition_step_step_8">
+    <rdf:type rdf:resource="http://www.aitom.com/aiton.owl#Condition"/>
+    <rdfs:label xml:lang="ko">조건 (단계 step_8)</rdfs:label>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.aitom.com/aiton.owl#InorganicMaterial_CuO">
+    <rdf:type rdf:resource="http://www.aitom.com/aiton.owl#InorganicMaterial"/>
+    <rdfs:label xml:lang="ko">CuO</rdfs:label>
+    <aiton:hasSynthesisMethod rdf:resource="http://www.aitom.com/aiton.owl#SynthesisMethod_method_1"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.aitom.com/aiton.owl#SynthesisStep_step_step_19">
+    <rdf:type rdf:resource="http://www.aitom.com/aiton.owl#SynthesisStep"/>
+    <rdfs:label xml:lang="ko">step_19. stored</rdfs:label>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.aitom.com/aiton.owl#InorganicMaterial_CuC6H12N42OOCCH32">
+    <rdf:type rdf:resource="http://www.aitom.com/aiton.owl#InorganicMaterial"/>
+    <rdfs:label xml:lang="ko">(Cu(C6H12N4)2)(OOCCH3)2</rdfs:label>
+    <aiton:hasSynthesisMethod rdf:resource="http://www.aitom.com/aiton.owl#SynthesisMethod_method_1"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.aitom.com/aiton.owl#Media">
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#Class"/>
+    <rdfs:subClassOf rdf:resource="http://www.aitom.com/aiton.owl#ChemicalEntity"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.aitom.com/aiton.owl#ProtectedForm">
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#Class"/>
+    <owl:deprecated rdf:datatype="http://www.w3.org/2001/XMLSchema#boolean">true</owl:deprecated>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.aitom.com/aiton.owl#Condition_condition_step_step_5">
+    <rdf:type rdf:resource="http://www.aitom.com/aiton.owl#Condition"/>
+    <rdfs:label xml:lang="ko">조건 (단계 step_5)</rdfs:label>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.aitom.com/aiton.owl#requiresProtection">
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#ObjectProperty"/>
+    <owl:deprecated rdf:datatype="http://www.w3.org/2001/XMLSchema#boolean">true</owl:deprecated>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.aitom.com/aiton.owl#organicReactionType">
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#ObjectProperty"/>
+    <owl:deprecated rdf:datatype="http://www.w3.org/2001/XMLSchema#boolean">true</owl:deprecated>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.aitom.com/aiton.owl#hasAction">
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#DatatypeProperty"/>
+    <rdfs:subPropertyOf rdf:resource="http://www.w3.org/2002/07/owl#topDataProperty"/>
+    <rdfs:domain rdf:resource="http://www.aitom.com/aiton.owl#SynthesisStep"/>
+    <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.aitom.com/aiton.owl#hasPressure">
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#DatatypeProperty"/>
+    <rdfs:subPropertyOf rdf:resource="http://www.w3.org/2002/07/owl#topDataProperty"/>
+    <rdfs:domain rdf:resource="http://www.aitom.com/aiton.owl#Condition"/>
+    <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.aitom.com/aiton.owl#hasName">
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#DatatypeProperty"/>
+    <rdfs:subPropertyOf rdf:resource="http://www.w3.org/2002/07/owl#topDataProperty"/>
+    <rdfs:domain rdf:resource="http://www.aitom.com/aiton.owl#ChemicalEntity"/>
+    <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.aitom.com/aiton.owl#Condition_condition_step_step_15">
+    <rdf:type rdf:resource="http://www.aitom.com/aiton.owl#Condition"/>
+    <rdfs:label xml:lang="ko">조건 (단계 step_15)</rdfs:label>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.aitom.com/aiton.owl#hasReagentRatio">
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#DatatypeProperty"/>
+    <rdfs:subPropertyOf rdf:resource="http://www.w3.org/2002/07/owl#topDataProperty"/>
+    <rdfs:domain rdf:resource="http://www.aitom.com/aiton.owl#Condition"/>
+    <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+    <owl:deprecated rdf:datatype="http://www.w3.org/2001/XMLSchema#boolean">true</owl:deprecated>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.aitom.com/aiton.owl#Additive">
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#Class"/>
+    <rdfs:subClassOf rdf:resource="http://www.aitom.com/aiton.owl#ChemicalEntity"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.aitom.com/aiton.owl#Precursor">
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#Class"/>
+    <rdfs:subClassOf rdf:resource="http://www.aitom.com/aiton.owl#ChemicalEntity"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.aitom.com/aiton.owl#SynthesisMethod">
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#Class"/>
+    <rdfs:subClassOf rdf:resource="http://www.aitom.com/aiton.owl#Process"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.aitom.com/aiton.owl#FunctionalGroup">
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#Class"/>
+    <owl:deprecated rdf:datatype="http://www.w3.org/2001/XMLSchema#boolean">true</owl:deprecated>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.aitom.com/aiton.owl#Support">
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#Class"/>
+    <owl:deprecated rdf:datatype="http://www.w3.org/2001/XMLSchema#boolean">true</owl:deprecated>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.aitom.com/aiton.owl#Process">
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#Class"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.aitom.com/aiton.owl#ActiveComponent">
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#Class"/>
+    <owl:deprecated rdf:datatype="http://www.w3.org/2001/XMLSchema#boolean">true</owl:deprecated>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.aitom.com/aiton.owl">
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#Ontology"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.aitom.com/aiton.owl#ConditionSet">
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#Class"/>
+  </rdf:Description>
+</rdf:RDF>
