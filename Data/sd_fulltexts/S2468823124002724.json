@@ -1,0 +1,442 @@
+{
+  "metadata": {
+    "title": "Designing Nickel-based catalysts for the hydrogenation of CO<ce:inf loc=post>2</ce:inf> under Ambient conditions: A computational study",
+    "authors": "; ; ",
+    "journal": "Molecular Catalysis",
+    "date": "2024-04-15",
+    "doi": "10.1016/j.mcat.2024.114089",
+    "abstract": "",
+    "uri": "https://api.elsevier.com/content/article/pii/S2468823124002724",
+    "pii": "S2468823124002724"
+  },
+  "fulltext": {
+    "full-text-retrieval-response": {
+      "scopus-eid": "2-s2.0-85189505651",
+      "originalText": "serial JL 315758 291210 291744 291790 291809 31 Molecular Catalysis MOLECULARCATALYSIS 2024-04-04 2024-04-04 2024-04-04 2024-04-04 2024-05-16T03:59:56 1-s2.0-S2468823124002724 S2468-8231(24)00272-4 S2468823124002724 10.1016/j.mcat.2024.114089 S300 S300.1 FULL-TEXT 1-s2.0-S2468823124X0005X 2024-05-23T07:30:54.247594Z 0 0 20240415 2024 2024-04-04T17:18:11.383224Z absattachment articleinfo articlenumber articletitlenorm authfirstinitialnorm authfirstsurnamenorm cid cids contenttype copyright crossmark dateloaded dateloadedtxt datesearch datesort dateupdated dco docsubtype doctype doi eid ewtransactionid hubeid indexeddate issn issnnorm itemstage itemtransactionid itemweight openaccess openarchive pg pgfirst pii piinorm pubdatestart pubdatetxt pubyr sectiontitle sortorder srctitle srctitlenorm srctype ssids alllist content subj subheadings suppl tomb volfirst volissue volumelist webpdf webpdfpagecount yearnav figure table e-component body mmlmath acknowledge affil appendices articletitle auth authfirstini authfull authkeywords authlast grantnumber grantsponsor grantsponsorid highlightsabst orcid primabst ref specialabst 2468-8231 24688231 true 559 559 C Volume 559 46 114089 114089 114089 20240415 15 April 2024 2024-04-15 2024 Regular Papers article fla © 2024 Elsevier B.V. All rights reserved. DESIGNINGNICKELBASEDCATALYSTSFORHYDROGENATIONCO2UNDERAMBIENTCONDITIONSACOMPUTATIONALSTUDY MAHATO A 1 Introduction 2 Computational details 3 Results and discussion 4 Conclusion CRediT authorship contribution statement Appendix Supplementary materials References WASIK 2023 143432 D YU 2018 4849 4853 Y THEERATHANAGORN 2024 652 685 T HU 2013 18 27 B REN 2023 644 C ZHANG 2017 11326 11353 L ALHERZ 2018 10179 10189 A FRANCO 2019 F VIDALLOPEZ 2023 1395 1406 A MEHDIZADEH 2022 118675 M CHEN 2018 10464 10478 J POSADAPEREZ 2023 13 S GHOSHAL 2022 7219 7232 S BISWAS 2018 24 S RAWAT 2016 16478 16488 K KU 2022 15310 15322 D SINGH 2022 e202200330 T CAUWENBERGH 2022 9371 9423 R LIN 2018 181 186 J BONIN 2014 3200 3207 J LI 2020 213262 D YUAN 2022 4305 4309 H WANG 2019 1730 1750 Q CONNELLY 2015 5933 5938 S WIEDNER 2016 8655 8692 E CURTIS 2002 1918 1925 C DUBOIS 2000 860 862 D MILLER 2010 3301 3303 A CEBALLOS 2018 12686 12691 B CREUTZ 2009 2794 2795 C MATSUBARA 2012 15743 15757 Y PITMAN 2016 2252 2260 C PITMAN 2016 9105 9108 C TAHERI 2015 7140 7151 A ARESTA 1975 636 637 M BREITENFELD 2012 2128 2136 J EBERHARDT 2016 8373 8426 N CEBALLOS 2017 7405 7408 B MAGANAS 2010 5079 5093 D SINGH 2017 9619 9626 S BECKE 1993 5648 5652 A WADT 1985 284 298 W KEITH 2013 15823 15829 J RIPLINGER 2014 900 908 C LU 2012 580 592 T HUMPHREY 1996 33 38 W BURGESS 2017 3089 3096 S BLANCHARD 2005 3636 3656 S ELGRISHI 2017 761 796 N COUFOURIER 2020 2108 2116 S YANG 2015 13098 13101 X SINGH 2016 16478 16488 R HUANG 2019 2490 2499 J MUCKERMAN 2012 15657 15662 J GE 2016 12179 12184 H MAHATOX2024X114089 MAHATOX2024X114089XA 2026-04-04T00:00:00.000Z 2026-04-04T00:00:00.000Z http://creativecommons.org/licenses/by-nc-nd/4.0/ © 2024 Elsevier B.V. All rights reserved. 2024-04-25T12:02:04.806Z http://vtw.elsevier.com/data/voc/AddOnTypes/50.7/aggregated-refined DST-FIST SR/FST/CS-I/2022/247 DST Department of Science and Technology http://data.elsevier.com/vocabulary/SciValFunders/501100001409 http://sws.geonames.org/1269750 UGC-BSR .30\\u2013557/2021 (BSR) UGC University Grants Commission http://data.elsevier.com/vocabulary/SciValFunders/501100001501 http://sws.geonames.org/1269750/ All raw data are available upon request. The authors gratefully acknowledge the financial support from DST-FIST, Delhi, Govt. of India vide project sanction letter no. SR/FST/CS-I/2022/247. AP is thankful to UGC, New Delhi, Govt. of India for providing him with UGC-BSR Research Start-Up-Grant (No.F.30\\u2013557/2021 (BSR)). AM sincerely acknowledges Govt. of West Bengal, India for her SVMCM Scholarship. https://doi.org/10.15223/policy-017 https://doi.org/10.15223/policy-037 https://doi.org/10.15223/policy-012 https://doi.org/10.15223/policy-029 https://doi.org/10.15223/policy-004 item S2468-8231(24)00272-4 S2468823124002724 1-s2.0-S2468823124002724 10.1016/j.mcat.2024.114089 315758 2024-05-23T07:30:54.247594Z 2024-04-15 1-s2.0-S2468823124002724-main.pdf https://s3-eu-west-1.amazonaws.com/prod-ucs-content-store-eu-west/content/pii:S2468823124002724/MAIN/application/pdf/b4516ca9527c07223fb0ffb212ebc2ac/main.pdf main.pdf pdf true 4435141 MAIN 9 1-s2.0-S2468823124002724-main_1.png https://s3-eu-west-1.amazonaws.com/prod-ucs-content-store-eu-west/content/pii:S2468823124002724/PREVIEW/image/png/eede04323964b637f740755cfcfb92aa/main_1.png main_1.png png 59629 849 656 IMAGE-WEB-PDF 1 1-s2.0-S2468823124002724-sc1.jpg https://s3-eu-west-1.amazonaws.com/prod-ucs-content-store-eu-west/content/pii:S2468823124002724/sc1/DOWNSAMPLED/image/jpeg/0e666f96155160e50e6a63f601606ea2/sc1.jpg sc1 sc1.jpg jpg 60958 541 489 IMAGE-DOWNSAMPLED 1-s2.0-S2468823124002724-gr5.jpg https://s3-eu-west-1.amazonaws.com/prod-ucs-content-store-eu-west/content/pii:S2468823124002724/gr5/DOWNSAMPLED/image/jpeg/5f9bfe5567045e71e2f72b629908d4c0/gr5.jpg gr5 gr5.jpg jpg 71471 450 565 IMAGE-DOWNSAMPLED 1-s2.0-S2468823124002724-gr4.jpg https://s3-eu-west-1.amazonaws.com/prod-ucs-content-store-eu-west/content/pii:S2468823124002724/gr4/DOWNSAMPLED/image/jpeg/756610f5e610be1d65e1ba3feb69ef96/gr4.jpg gr4 gr4.jpg jpg 55096 320 565 IMAGE-DOWNSAMPLED 1-s2.0-S2468823124002724-gr3.jpg https://s3-eu-west-1.amazonaws.com/prod-ucs-content-store-eu-west/content/pii:S2468823124002724/gr3/DOWNSAMPLED/image/jpeg/9543618119de320ce52b3771923c072e/gr3.jpg gr3 gr3.jpg jpg 84330 354 640 IMAGE-DOWNSAMPLED 1-s2.0-S2468823124002724-gr2.jpg https://s3-eu-west-1.amazonaws.com/prod-ucs-content-store-eu-west/content/pii:S2468823124002724/gr2/DOWNSAMPLED/image/jpeg/a17e87c6f31dc8fb8ac458104e63b542/gr2.jpg gr2 gr2.jpg jpg 73727 354 489 IMAGE-DOWNSAMPLED 1-s2.0-S2468823124002724-ga1.jpg https://s3-eu-west-1.amazonaws.com/prod-ucs-content-store-eu-west/content/pii:S2468823124002724/ga1/DOWNSAMPLED/image/jpeg/439b2c4748008d950e32c5ebe83fad63/ga1.jpg ga1 true ga1.jpg jpg 23925 200 299 IMAGE-DOWNSAMPLED 1-s2.0-S2468823124002724-gr1.jpg https://s3-eu-west-1.amazonaws.com/prod-ucs-content-store-eu-west/content/pii:S2468823124002724/gr1/DOWNSAMPLED/image/jpeg/0aae196fe8bd96d39eab14b42900f4df/gr1.jpg gr1 gr1.jpg jpg 38706 267 659 IMAGE-DOWNSAMPLED 1-s2.0-S2468823124002724-sc1.sml https://s3-eu-west-1.amazonaws.com/prod-ucs-content-store-eu-west/content/pii:S2468823124002724/sc1/THUMBNAIL/image/gif/16a6f0028b36fec0fa49460d82b5c630/sc1.sml sc1 sc1.sml sml 7741 164 148 IMAGE-THUMBNAIL 1-s2.0-S2468823124002724-gr5.sml https://s3-eu-west-1.amazonaws.com/prod-ucs-content-store-eu-west/content/pii:S2468823124002724/gr5/THUMBNAIL/image/gif/50940f7c26105844cc7bef911ed839b8/gr5.sml gr5 gr5.sml sml 12064 164 206 IMAGE-THUMBNAIL 1-s2.0-S2468823124002724-gr4.sml https://s3-eu-west-1.amazonaws.com/prod-ucs-content-store-eu-west/content/pii:S2468823124002724/gr4/THUMBNAIL/image/gif/a255de7a0bdc4eb2ad579b43baa5632f/gr4.sml gr4 gr4.sml sml 11660 124 219 IMAGE-THUMBNAIL 1-s2.0-S2468823124002724-gr3.sml https://s3-eu-west-1.amazonaws.com/prod-ucs-content-store-eu-west/content/pii:S2468823124002724/gr3/THUMBNAIL/image/gif/0876279f91bbb4025f688f1f73bb26ba/gr3.sml gr3 gr3.sml sml 14161 121 219 IMAGE-THUMBNAIL 1-s2.0-S2468823124002724-gr2.sml https://s3-eu-west-1.amazonaws.com/prod-ucs-content-store-eu-west/content/pii:S2468823124002724/gr2/THUMBNAIL/image/gif/158f5024f57db265959255de4b8df6ea/gr2.sml gr2 gr2.sml sml 15496 158 219 IMAGE-THUMBNAIL 1-s2.0-S2468823124002724-ga1.sml https://s3-eu-west-1.amazonaws.com/prod-ucs-content-store-eu-west/content/pii:S2468823124002724/ga1/THUMBNAIL/image/gif/c1def27d7b636b5d85d791b808c37c0a/ga1.sml ga1 true ga1.sml sml 12539 147 219 IMAGE-THUMBNAIL 1-s2.0-S2468823124002724-gr1.sml https://s3-eu-west-1.amazonaws.com/prod-ucs-content-store-eu-west/content/pii:S2468823124002724/gr1/THUMBNAIL/image/gif/bdef74e9bd12944b8a6b7aae361c40e1/gr1.sml gr1 gr1.sml sml 7645 89 219 IMAGE-THUMBNAIL 1-s2.0-S2468823124002724-sc1_lrg.jpg https://s3-eu-west-1.amazonaws.com/prod-ucs-content-store-eu-west/content/pii:S2468823124002724/HIGHRES/image/jpeg/c476d62a85ccb99bf43f9c273bd6b545/sc1_lrg.jpg sc1 sc1_lrg.jpg jpg 408539 2398 2167 IMAGE-HIGH-RES 1-s2.0-S2468823124002724-gr5_lrg.jpg https://s3-eu-west-1.amazonaws.com/prod-ucs-content-store-eu-west/content/pii:S2468823124002724/HIGHRES/image/jpeg/42f9cb157cbc052b40fdcc2c7a05d617/gr5_lrg.jpg gr5 gr5_lrg.jpg jpg 505707 1989 2500 IMAGE-HIGH-RES 1-s2.0-S2468823124002724-gr4_lrg.jpg https://s3-eu-west-1.amazonaws.com/prod-ucs-content-store-eu-west/content/pii:S2468823124002724/HIGHRES/image/jpeg/4fbc9c84edf50af625c0d15d58769f76/gr4_lrg.jpg gr4 gr4_lrg.jpg jpg 403718 1415 2500 IMAGE-HIGH-RES 1-s2.0-S2468823124002724-gr3_lrg.jpg https://s3-eu-west-1.amazonaws.com/prod-ucs-content-store-eu-west/content/pii:S2468823124002724/HIGHRES/image/jpeg/39f3689cacb59d45d74df95bcba9fa0b/gr3_lrg.jpg gr3 gr3_lrg.jpg jpg 631131 1565 2833 IMAGE-HIGH-RES 1-s2.0-S2468823124002724-gr2_lrg.jpg https://s3-eu-west-1.amazonaws.com/prod-ucs-content-store-eu-west/content/pii:S2468823124002724/HIGHRES/image/jpeg/3938823a4cd6bbfa720c12d86617846e/gr2_lrg.jpg gr2 gr2_lrg.jpg jpg 528955 1567 2167 IMAGE-HIGH-RES 1-s2.0-S2468823124002724-ga1_lrg.jpg https://s3-eu-west-1.amazonaws.com/prod-ucs-content-store-eu-west/content/pii:S2468823124002724/HIGHRES/image/jpeg/4391e2b23035ede820431eaf7c9d136e/ga1_lrg.jpg ga1 true ga1_lrg.jpg jpg 172890 886 1324 IMAGE-HIGH-RES 1-s2.0-S2468823124002724-gr1_lrg.jpg https://s3-eu-west-1.amazonaws.com/prod-ucs-content-store-eu-west/content/pii:S2468823124002724/HIGHRES/image/jpeg/9134428f2c7978bc3272662069a72dad/gr1_lrg.jpg gr1 gr1_lrg.jpg jpg 275212 1180 2917 IMAGE-HIGH-RES 1-s2.0-S2468823124002724-mmc1.docx https://s3-eu-west-1.amazonaws.com/prod-ucs-content-store-eu-west/content/pii:S2468823124002724/mmc1/MAIN/application/vnd.openxmlformats-officedocument.wordprocessingml.document/dd487a900a17cb1c16c3604bf59b1a02/mmc1.docx mmc1 mmc1.docx docx 1245786 APPLICATION 1-s2.0-S2468823124002724-si1.svg https://s3-eu-west-1.amazonaws.com/prod-ucs-content-store-eu-west/content/pii:S2468823124002724/image/svg+xml/6810550661475e10660c951073ff51a4/si1.svg si1 si1.svg svg 2843 ALTIMG 1-s2.0-S2468823124002724-si2.svg https://s3-eu-west-1.amazonaws.com/prod-ucs-content-store-eu-west/content/pii:S2468823124002724/image/svg+xml/2ad88571dfd8e7678679e479e0b0b660/si2.svg si2 si2.svg svg 2972 ALTIMG 1-s2.0-S2468823124002724-si3.svg https://s3-eu-west-1.amazonaws.com/prod-ucs-content-store-eu-west/content/pii:S2468823124002724/image/svg+xml/5f0f572480ec180f28b39bba69e967f0/si3.svg si3 si3.svg svg 8359 ALTIMG 1-s2.0-S2468823124002724-si4.svg https://s3-eu-west-1.amazonaws.com/prod-ucs-content-store-eu-west/content/pii:S2468823124002724/image/svg+xml/be81115dffd458ed85fe4f76de4f7383/si4.svg si4 si4.svg svg 12800 ALTIMG 1-s2.0-S2468823124002724-si5.svg https://s3-eu-west-1.amazonaws.com/prod-ucs-content-store-eu-west/content/pii:S2468823124002724/image/svg+xml/871f6f3c33a94630b9ffc54970351e2e/si5.svg si5 si5.svg svg 7946 ALTIMG 1-s2.0-S2468823124002724-am.pdf am am.pdf pdf 789341 AAM-PDF https://s3-eu-west-1.amazonaws.com/prod-ucs-content-store-eu-west/content/egi:104LVH8JX9R/MAIN/application/pdf/f9dc3c528c8e2cd368a1b45b656d402d/am.pdf MCAT 114089 114089 S2468-8231(24)00272-4 10.1016/j.mcat.2024.114089 Elsevier B.V. Scheme 1 Proposed catalytic cycle for CO2 hydrogenation by Ni(II)-complex with PNP ligand. Scheme 1: Fig. 1 The energy profile diagram for CO2 hydrogenation by Ni-PNP complex using M06L/6–311G** level in (a) gas phase and (b) polar protic solvent (water) with SMD model. The corresponding Lewis structures of the intermediates and transition states are shown in Scheme 1. Fig 1 Fig. 2 The optimized geometries of Ni-PNP complex with different geometries and spin states. Fig 2 Fig. 3 CPK as well as 3D non-covalent interaction isosurface image of (a, b) TS1,2 in singlet state, (c, d) TS3,4 in singlet state, and (e, f) TS3,4 in triplet state for catalytic hydrogenation of CO2 by Ni-PNP complex. Here green, blue, yellow, grey and pink colours represent C, N, P, H and Ni atoms, respectively. Fig 3 Fig. 4 Different types of NBO interactions for (a) intermediate 2, (b) TS1,2, (c) TS3,4, and (d) intermediate 4. Here, green, blue, yellow, grey and pink colours represent C, N, P, H and Ni atoms, respectively. Fig 4 Fig. 5 Calculation of strain energy from CO2 angle strain and deformation of complex. Fig 5 Table 1 The hydride transfer barrier height (3→TS3,4) for CO2 hydrogenation process using different level of computations. Table 1: Level of computation 3→TS3,4 barrier height (kcal/mol) NiP4 (R= -CH3) NiP4 (R= -CH2OH) Ni-PNP B3LYP/6–311G** 25.44 24.28 10.30 M06L/6–311G** 23.24 22.19 10.10 Table 2 Computed energy barrier for the whole reaction process in gas phase and different solvent phases. Table 2: Solvent Energy barrier height (kcal/mol) 1→TS1,2 2→TS2′,3 3→TS3,4 Without Solvent 49.45 8.06 10.05 Polar protic Water 45.55 15.81 4.54 Methanol 46.82 15.83 5.25 Aniline 46.62 13.85 6.42 Polar aprotic DMSO 46.22 13.98 8.49 DMF 46.46 14.52 8.70 Acetonitrile 46.66 15.12 8.34 THF 46.82 13.73 8.47 Nitromethane 46.46 14.74 8.15 Dichloromethane 47.00 14.87 8.06 Acetone 46.81 15.01 8.64 Chloroform 47.13 13.87 7.66 Non-polar CCl4 47.19 11.01 8.66 Toluene 47.07 11.04 8.56 Cyclohexane 47.03 9.9 8.48 Heptane 47.17 10.03 8.68 Table 3 lM− H is the Metal–H bond length (in Å), NBOM and NBOH are the NBO charges (in e) over the metal and hydride ion, Δ G H 0 is the hydricity of the Ni-hydride intermediate (3) with different ligand using B3LYP/6–311G** level of theory. Table 3: Parameter Complex NiP4 (R= -CH3) NiP4 (R= -CH2OH) Ni-PNP lM− H (Å) 1.449 1.453 1.608 NBOM (e) −1.087 −1.067 1.076 NBOH (e) 0.063 0.059 −0.507 Δ G H − 0 35.45 42.05 19.1 Table 4 Calculated strain energy of the Ni-complexes with different ligands in water solvent. Computations are performed at the B3LYP/6–311G** level of theory. Table 4: Complex Strain energy (kcal/mol) Δ E s t r a i n C O 2 Δ E s t r a i n c o m p l e x Δ E s t r a i n t o t a l NiP4 (R = –CH3) 23.00 6.54 29.54 NiP4 (R = –CH2OH) 24.89 2.01 26.90 Ni-PNP 14.13 0.37 14.50 Designing Nickel-based catalysts for the hydrogenation of CO2 under Ambient conditions: A computational study Anupama Mahato Writing – original draft Validation Methodology Investigation Data curation Akhilesh Mahato Writing – original draft Visualization Methodology Investigation Purnima Singh Writing – original draft Visualization Investigation Debasis Dhak Writing – original draft Anup Pramanik Writing – review & editing Validation Conceptualization ⁎ Department of Chemistry, Sidho-Kanho-Birsha University, Purulia, West Bengal 723104, India Department of Chemistry Sidho-Kanho-Birsha University Purulia West Bengal 723104 India Department of Chemistry, Sidho-Kanho-Birsha University, Purulia, West Bengal 723104, India ⁎ Corresponding author. Recent developments, industrialization, and modernization lead to production of more and more pollutants (such as CO2: ∼ 417.06 ppm) and such rapid growth of CO2 level results in global warming and the greenhouse effect. So, it is essential to conduct research on converting CO2 into fuels using carbon-neutral energy. Recent research on molecular catalysts has improved the rates of converting CO2 to formate. However, these catalysts require extremely high temperatures and pressures and are made of expensive metals like iridium, ruthenium, and rhodium. Herein, DFT-based computational studies have been performed on the catalytic hydrogenation of CO2 by different Ni(II) complexes in ambient conditions. Using state-of-the-art calculations, we demonstrate how the geometry and spin states of Ni(II) complexes containing different types of ligands affect their catalytic role in CO2 hydrogenation. It has been reported that hydride transfer is the most crucial step for such kind of hydrogenation reaction. We start with previously synthesised Ni-bis(diphosphine) complexes of type NiP4 and by extrapolating the concept, we propose a novel kind of Ni-PNP complex with a significantly lower hydride transfer barrier. We also calculate the hydricities of the nickel hydride complexes in order to correlate these thermodynamic parameters with the kinetic barrier of hydride transfer. Graphical abstract Mechanistic details have been studied for Ni(II)-PNP catalysed hydrogenation of CO2 under ambient conditions. Image, graphical abstract Keywords Hydrogenation of CO2 Ni(II) catalyst Homolytic H2 cleavage Hydride transfer Transition state Hydricity DFT Data availability Data will be made available on request. 1 Introduction The production of renewable energy sources and the lowering of greenhouse gas emissions are two of the most prime objectives in present century. CO2 emissions avoidance plans and direct CO2 utilization are the two primary strategies for reducing CO2 emissions in chemistry. In the initial case, CO2 emissions are decreased by staying away from carbon-intensive substrates and processes. The second method uses waste CO2 directly as a reagent to produce high value-added products such as formic acid, CO, methane, methanol, C2 products and other organic compounds. The last ten years have seen a lot of interest in polyhydroxyurethanes (PHUs), which are possible substitutes for conventional phosgene-based polyurethanes (PUs). Utilizing CO2 and upcycling renewable sources to create sustainable PHUs through the production of CO2-based five-membered cyclic carbonates (5CCs) from biobased epoxides is an effective strategy. However, catalytic conversion of CO2 into useful chemicals and fuels can address both problems, and as a result, it has gained more global interest [1,2,3]. Collecting CO2 and converting it into formic acid/formate or methanol has become a promising route for mitigating the greenhouse impact and also fulfil the global energy demands. This process can be done using thermal or photochemical techniques [4]. For the conversation of CO2 to the desired valuable products, the most challenging task for this process is overcoming the high activation energy barrier of the stable carbon dioxide molecule to form the products. So, different suitable catalysts are used to accelerate the reaction. To activate stable CO2, a sufficiently strong electron donating metal centre is required which can undergo significant amount of electrons transfer to the antibonding π* orbitals of the desired molecule [5,6]. In the previous few decades, a variety of late transition metal-based compounds, metal nanoparticles (NPs) supported on metal oxides and transition metal carbides (TMC), have been used as catalysts for the reduction of CO2 in both homogeneous and heterogeneous conditions [7,8]. Different NPs supported on metal oxides such as NiO/CeO2, Cu/Al2O3, Cu-Ni/γAl2O3, Fe-Mo/γAl2O3, etc. and TMC such as TiC and MoC have been used for conversion of CO2 to CO, MeOH and CH4. In the last several years, TMCs have developed into a family of materials that play an increasing role in heterogeneous catalysis. The use of single-atom catalysts (SACs) to connect heterogeneous and homogeneous catalysts has enormous potential [9,10,11,12]. Although some late transition metal have shown some success in conversion rates, but they are far from commercialization because of their high costs. Because of this, the only way to accomplish the goal is by utilizing early transition metal catalysts which are inexpensive in nature. Direct reduction of CO2 can lead to CO or can be hydrogenated into formic acid/formate. The latter one is more advantageous because of the nontoxicity, ease of transportation of the products and most importantly, formate/formic acid can be directly utilized into fuel cells. In the previous several decades, the hydrogenation of CO2 has been catalysed by numerous transition-metal complexes with high catalytic efficiency, but most of catalyst complexes are late transition metals like ruthenium, iridium, and rhodium, which are obviously expensive, toxic and scarcity in nature [13]. Because of some demerits of late transition metal system, researchers recently give special attention for the first-row transition-metal based catalysts system for the hydrogenation of CO2 due to its lower cost, more available in nature and its environmental friendliness [14,15,16,17]. Under mild conditions, nickel and copper complexes are effective at catalyzing and transforming CO2. In the same way iron, manganese, cobalt, and titanium-based catalysts can also be used [18]. Besides the activity of the metal, solvent plays a vital role in the catalytic reaction. Acrylonitrile, THF, and other aprotic organic solvents are among the most effective hydrogenating solvents that have been reported [19]. Therefore, using protic solvent in the catalytic process especially in water medium, is of prime interest area among the researcher. pH of the reaction medium plays an important role. Noteworthy, the catalytic activity of the metal complexes is highly impacted by the pH of the reaction medium. This is true because, during the catalytic hydrogenation of CO2, the pH of the medium has a significant impact on both the hydride transfer from metal hydride to CO2 and the regeneration of the metal hydride. Thus, to get the maximum longevity and activity out of the catalyst, these two factors must be balanced. As a result, it is currently challenging to design complexes based on earth abundant transition metals that can hydrogenate CO2 in water at ambient conditions. Along with electrocatalysis, numerous metal complexes are also used for photocatalytic reduction of CO2. They are suitable for the photocatalytic reduction of CO2 because different metalloporphyrins exhibit strong absorption bands in the visible range, which are sensitive to the oxidation states of both metals and ligands [20,21,22]. Photocatalysis may lead to one-electron reduction of CO2 to oxalic acid or a two-electron reduction to produce CO and H2O which of course competes with the production of HCOOH. The function of a particular metal centre, the adjacent ligand or both affect selectivity for the production of CO or HCOOH. In this particular field, considerable research is also being done on the catalytic pathways for the multi-electron reduction of CO2 to methanol and methane. Therefore, there is enormous scope for designing first-row transition metals, viz., Fe, Mn or Ni based complexes with suitable ligands which can selectively reduce CO2 to desired products [23]. Scheme 1 depicts a schematic of the entire catalytic cycle for the hydrogenation of CO2 to formate. Now, the ability of the metal-hydride to transform hydrides into CO2 is the key factor in this reactions. Two factors that affect this capability are the kinetic barrier of hydride transfer (TS3,4 in Fig. 1 ) and thermodynamic hydricity ( Δ G H − 0 ) i.e. the change of standard Gibbs free energy for breaking the M-H bond (in Eq. (1)) [24,25]. Hydricity of formate is the free energy change for the loss of a hydride ion from formate anion to produce gaseous CO2, and it is estimated to be 24.1 kcal/mol in H2O [26,27,28]. The ability to convert a hydride to CO2 is obviously only possible for metal-hydrides that are more hydridic than formate (having < 24.1 kcal/mol in water), otherwise the opposite reaction would take place. However, there are few reports of transition-metal hydrides with their suitable hydricities in water [29,30,31,32,33,34]. Ni hydrides have received positive attention in this regard [29,35,36,37]. Yang et al. has demonstrated that catalytic hydrogenation by NiP4 complex is more advantageous in water when compared to other solvents like acetonitrile or DMSO [38]. As a result, the catalytic hydricity has proved successful, however there is still question over the exact details of the mechanism. Theoretical modelling, addressing the details of the experimental findings is scattered in the literature. A theoretical understanding of the geometry and electrical structure of free Ni(II) complexes and their hydrides is required to develop this area [39,40]. The main motivation for the current research is to correlate the hydride transfer barrier to the geometries, spin states, and overall electronic structures of the Ni(II) complexes, their transition states and intermediates. We first computationally study experimentally realized Ni-bis(diphosphine) complex (NiP4) as a reference standard and then model a pyridine-containing ligand (PNP), the hydride transfer barrier of which is significantly lower than that of the NiP4 complex. We try to model the complexes and the reaction scheme properly and investigate the mechanistic details using first-principles calculation. Our systematic study is expected to provide valuable guidelines for designing efficient catalyst which in one hand will save chemical hazard, on the other hand, the atomistic interpretation, obtained from theoretical analysis, will certainly provide intuitive ideas for improving the catalytic activities. 2 Computational details All the calculations are performed with the Gaussian 16 program package [41] using Becke's three-parameter exchange and the Lee–Yang–Parr correlation functional (B3LYP) [42]. The high reliability of this functional has been demonstrated by previous benchmark studies on various systems. The full electron 6–311G** basis set is used for non-metals (C, H, O, N and P) and LANL2DZ basis set with suitable core potential is used for Ni-metal [15,43]. The B3LYP functional has been successfully tested by many metal complexes and considered to be good enough for CO2 reduction reactions procedures [15,44,45]. Geometry optimizations of all the complexes, the reaction intermediates and the products were subjected to normal mode analysis to confirm the respective minimum (no imaginary frequency) or transition state (one imaginary frequency). All the reported energies of intermediate and transition states are Gibbs free energies in gas phase with entropy correction at 1 atm. pressure and 298.15 K. Solvation effect was consider by performing single point energy calculation using the SMD solvation model for different polar protic, polar aprotic and non-polar solvents. Intrinsic reaction coordinate (IRC) computations were used to confirm the transition-state structures connecting the right reactant and product sites. Non-covalent interaction (NCI) analysis of TS3,4 was carried out using the Multiwfn program [46], CPK and NCI isosurfaces were generated using the VMD 1.9.3 program [47]. Natural Bond Orbital (NBO) analyses were done using NBO 6.0 program suite as implemented in Gaussian 16 to see the effect of donor–acceptor type of stabilization energies among different NBOs (such as bonding (BD), antibonding (BD*) or lone-pair (LP) on the stability of the intermediate and TS of the complex. 3 Results and discussion First, we confirm that CO2 can be hydrogenated to produce HCOOH without the use of a catalyst. This uncatalyzed reaction is studied with computed value of free energy change ΔG is 13.43 kcal/mol (0.77 kcal/mol is the value of the corresponding electronic energy change, ΔE) in the gas phase, revealing the reaction's endergonicity. Fig. S1 illustrates how a potential energy profile is formed in the gas phase and how the reactants and the product are linked by a single TS with an imagined vibrational frequency of −2248.98 cm−1. The extremely high free energy barrier of 79.91 kcal/mol (73.43 kcal/mol is electronic energy barrier) denotes the difficulty of getting the reaction to proceed without a catalyst. To understand the mechanistic insight into CO2 hydrogenation catalysed by Ni-PNP complex, the possible pathways are presented in Scheme 1. In the catalytic cycle, there are four consecutive processes i.e. formation of active catalyst, oxidative addition of dihydrogen, metal hydride formation through deprotonation and hydride donation to CO2 [48]. The most important phase is the transfer of hydrides, which includes two major factors one is kinetic energy barrier and another is thermodynamic hydricity i.e. bond breaking free energy change for metal hydride (M-H) bond [49]. Compared to the corresponding cobalt phosphines, rhodium and iridium-based phosphine catalysts are superior hydride donors because their hydricities are much lower than the 44 kcal/mol needed for the direct hydride transfer to CO2 [27,26]. For improving the hydride donating ability of the mono hydride complex, we design pyridine based NiL4 type of complex. We believe that the pyridine-based catalyst with a PNP ligand could be a very promising catalyst for CO2 hydrogenation reaction as the two most important steps i.e. homolytic H2 cleavage and metal hydride bond formation steps are favourable for these ligand system [50]. Both tetrahedral and square planar geometries are observed for NiL4 type of complexes, depending on the orientation of the multidentate ligand and the field strength of the ligand [49]. Previous studies showed that the NiP4 type of complexes with bidentate diphosphine ligands are of square planar geometry which is always preferred with singlet spin multiplicity [14]. In the present study we design Ni-PNP type of complex which has four possible structures i.e. square planar and tetrahedral structures with both singlet and triplet spin states. Among the four structures, tetrahedral triplet spin multiplicity has the lowest energy (which is shown in Fig. 2 ). In the second stage i.e. oxidative addition of hydrogen to form octahedral complex, it is preferred by singlet spin multiplicity. Due to more π-acidic character of the PNP ligand, H2 binds with the Ni-PNP complex with a more σ-donating fashion [49]. The metal-H2 complex formation energy is calculated to be endergonic for Ni-PNP-H2. In the energy profile diagram using M06L functional the calculated activation energy for this process is 49.84 kcal/mol in gas phase and 45.55 kcal/mol in water (Fig. 1). In the B3LYP functional the energy is 60.66 kcal/mol (Fig. S2). In the third stage i.e. deprotonation, one M-H bond in octahedral complex is completely broken to form a metal hydride complex. This may occur directly or via the assistance of an external base (e.g. tertiary amine) as depicted in Scheme 1. The structure of the metal-hydride turns into distorted square-pyramidal with almost equal energy in both the spin states indicating that the singlet and triplet states are in equilibrium. Optimized geometries of the metal hydride could be found in Fig. S3 for both spin states. It is observed that the triplet hydride has longer M-H bond (1.608 Å in B3LYP/6–311G** level and 1.645 Å in M06L/6–311G** level of theory, which indicates easier donation of hydride from the triplet state. From the energy profile diagram, it is seen that formation of five coordinated metal hydride complex through the deprotonation step is 203 kcal/mol (using M06L) energy more stable than the corresponding six-membered M-H2 complex. Using B3LYP calculation this energy gap is 213 kcal/mol. Noteworthy, such a high formation energy of metal hydride can easily compensate the endergonic formation of metal-H2 complex. In the fourth stage i.e. hydride transfer process, the linear CO2 molecule takes on a bent shape as schematically shown in Scheme 1. In this process, hydride transfer mechanism from metal complex to CO2 is an important step. The activated CO2 assists in the cleavage of M-H sigma bond to reach an intermediate state 4 through a single transition state TS3,4. There are two possible routes for the hydride transfer mechanism: (i) direct, and (ii) indirect [17]. In the case of a direct mechanism, CO2 interacts directly with the H of the metal-hydride due to its electrophilic character. But in the indirect case, CO2 first binds to the vacant site of metal complex then a process for transferring hydrides occurs. In our complex, there are no vacant sites accessible. So, the reaction occurs via the direct hydride transfer mechanism. The energy barrier for the direct hydride transfer (3→4) to the carbon atom of the CO2 is calculated to be 10.10 kcal/mol in gas phase and 4.54 kcal/mol using water solvent in SMD model which is shown in the energy profile diagram (Fig. 1). Using B3LYP calculation the energy barrier is 10.30 kcal/mol (Fig. S2). Note that such energy barrier is much lower than that for previously reported iron complex which is 33.3 kcal/mol [51]. The TS3,4 structures are shown in Fig. 3 . The TS geometry indicates that the cleavage of M-H bond and the hydrogenation of CO2 are concurrently mobilized by the complex. A single imaginary frequency has a value of −326.89 cm−1 for singlet and −324.49 cm−1 for triplet. The Ni-H bond distance is increased to 1.622 Å (B3LYP), 1.686 Å (M06L) for triplet at TS3,4 from its equilibrium bond distance of 1.608 Å (B3LYP), 1.645 Å (M06L) and in CO2 the ∠OCO angle becomes 152.58° (B3LYP), 153.82° (M06 L) for triplet at TS3,4. As the M–H bond distance increases, the activation barrier decreases. The optimized structures of intermediate 4 and 4′ are shown in Fig. S3. Non-covalent interaction (NCI) analysis (which consider neighbouring van der Waals and other weak interections) of TS3,4 was carried out using the Multiwfn program, CPK and NCI isosurfaces were generated using the VMD 1.9.3 program. Here we see the strong repulsion through the bulky phosphine ligand which is indicated by the red colour. Blue colour indicates strong attraction between Ni metal and ligand PNP ligand. Green colour indicates van der Waals interaction. For Ni-PNP complex, NBO analysis reveals that the donor acceptor interactions involving Ni-H σ-bond pair and vacant d-orbital of Ni are primarily responsible for stabilising the complex (Fig. 4 ). More the M-H bond tends to dissociate, less would be barrier height for the metal hydride transfer process. Table 1 contains the computed TS3,4 barrier height. Table 1 clearly shows that utilizing B3LYP/6–311G** levels of computation, the estimated barrier height for NiP4 complexes with R= −CH3 is in the order of 25.44 kcal/mol; the M06L functional estimating the lower barrier height of 23.24 kcal/mol [14]. Surprisingly, the suggested complex containing the PNP ligand has a barrier height that is substantially lower, 10.30 and 10.10 kcal/mol only within B3LYP/6–311G** and M06L/6–311G** level of theory, respectively. Rawat et.al. reported the activation barriers for this step (TS3,4) are 5.1 to 19.4 kcal/mol for Mn complex with different ligand which are shown in Table S1 [15]. Similarly, Xinzheng Yang investigated the process of hydride transfer across many Fe-complexes and predicted the barriers ranging from 16.6 to 19.5 kcal/mol [52]. It is noticeable that our estimated free energy barriers for the hydride transfer barrier are much lower than those found in previous reports. Furthermore, as depicted in Table 2 , it is seen that the energy barrier of TS1,2 decreases with increasing polarity of the solvent. The energy gap is maximum in gas phase (i.e. no solvent) and minimum in polar protic solvent that means the TS1,2 structure is more stabilised in polar protic solvent. But it is seen that the polarity effect is reverse in the TS2′,3 structure with respect to TS1,2 that means with increasing the polarity of the solvent the energy barrier for the TS2′,3 structure is increasing (Table 2). From the above result it is concluded that with increasing the polarity of the solvent, the intermediate 2 gets more stabilised than the transition state TS2′,3. As a result, the energy barrier for this process is follows polar protic solvent > polar aprotic solvent > non polar solvent > gas phase. From the Table 2 it is also revealed that the energy of TS3,4 transition state is more stabilised in polar protic solvent than the non-polar solvent and consequently the energy barrier height for this step follows polar protic solvent < polar aprotic ≈ non-polar solvent < gas phase. This lower energy barrier indicates that the hydride transfer is relatively faster in polar protic solvent. As an overall conclusion, it is recommended that the polar protic solvent is more suitable for this reaction. The hydride transfer barrier of the corresponding hydrogenation reaction may be related to the geometry and electrical structure of the metal-hydride intermediate 3 [53]. Table 3 clearly shows that when the ligand is changed from P4 to PNP, the hydride transfer barrier progressively lowers as the metal-H bond length of intermediate 3 increases. The length of the metal hydride bonds plays a significant role in the hydrogenation process. The transition state structures (TS3,4) of the complexes have M-H bonds with lengths of 1.622 Å (B3LYP) and 1.686 Å (M06L). These M-H bond distances show that as the bond distance rises, the activation barrier for hydride transfer decreases. The formal residual charges over the hydride ions provide additional support for the findings. According to Table 3, the Ni-PNP complex has a much more negative NBO charge(e) over the hydride ion (NBOH) compared to the NiP4 complexes which have NBOH charges of 0.063 using the same level of theory, indicating a much higher probability of hydride donation. In order to gain further understanding, we calculate the structural strain energy ( Δ E s t r a i n t o t a l ) when CO2 is hydrogenated by metal hydride 3 to reach the TS point (TS3,4). As a result, two energy variables are involved in this process due to the distortion of the intermediate 3 ( Δ E s t r a i n c o m p l e x ) and the distortion of linear O = C = O to a bent structure similar to that in the TS3,4 ( Δ E s t r a i n C O 2 ). As shown in Fig 5 , with the example of the Ni-PNP complex, these energies are come from the overall energy differences between the TS3,4 fragments and their initial reactant counterparts. As indicated in Table 4 , the values are significantly less than those of the CO2 angle strain ( Δ E s t r a i n C O 2 ). However, the Ni-PNP complex has the lowest calculated strain energy, which also follows the same pattern as the hydride transfer barrier. In the case of the Ni-PNP complex, decreased strain energy suggests that less structural deformation is needed during hydride transfer. Thus, we show that the Ni-PNP complex is the better hydride donor, at least in terms of kinetics. After the intermediate 4 releases one unit of formate, the catalyst is subsequently regenerated in accordance with the reaction scheme shown in Scheme 1. It should be noted that the intermediate 4 is isomerized to produce the more stable intermediate 4′, which leads to the formation of a metal-O bond. The intermediate 4′ can be thought of as the catalyst's resting state, which naturally impacts the probability of the opposing reaction (dehydrogenation), which will be covered later. Now, in order to determine whether such hydride transfer mechanisms are thermodynamically feasible, one must compute the standard Gibbs free energy change ( Δ G H − 0 ) [54][27] of the reaction (1) [MLH] n + → [ML]( n +1)+ + H − which is also referred to as simple hydricity or thermodynamic hydricity. For the possibility of forward reaction or the capacity for hydride transfer will increase with increasing negative Δ G H 0 . It is important to note that the incorrect estimation of Δ G H − 0 led to a long-range error in the direct hydricity calculations [55]. The Δ G H − 0 of a metal hydride ([MLH] n +) can also be calculated using a reference \"isodesmic reaction,\" such as the hydricity of formate, for which the experimental value is known [55]. Therefore, without having to determine the value of Δ G H − 0 the hydricity of [MLH] n + can be determined from the standard free energy change (∆G0) of the overall hydride transfer reaction, as indicated in Eq. (4). (2) [MLH] n +→[ML]( n +1)+ + H − (3) CO2 + H −→HCOO− (4) [MLH] n + + CO2→[ML]( n +1)+ + HCOO− Although correct determination of Δ G H − 0 is challenging in the solution phase, particularly in water [29], it does not usually impact the overall qualitative trend [25]. Additionally, consideration of explicit solvents was demonstrated. Here, the standard hydricity of formate, which is assumed to be 24.1 kcal/mol in water [29], is used to derive the hydricity values. All values are given in Table 3. Recall that the possibility of CO2 hydrogenation or dehydrogenation of formate or formic acid depends on the hydricity of the metal hydride [56,52,4]. Remember that compared to NiP4 complexes, Ni-PNP complex has a far lower hydride transfer barrier. We also calculate the energy barrier of the reverse route, or the energy difference between 4′ and TS3,4, to determine whether the dehydrogenation process is feasible. The computed barrier heights (4→TS3,4) for NiP4 (R= -CH3) and Ni-PNP complexes are 17.08 and 14.02 kcal/mol, respectively. It can be shown that the hydrogenation process of Ni-PNP complex is significantly simpler than the dehydrogenation procedure. 4 Conclusion In conclusion, we investigate the mechanism of CO2 hydrogenation catalysed by Ni(II) complexes with pyridine based ligands. The complex reaction mechanisms designed to illustrate that pyridine based Ni-complex can be superior catalysts for the CO2 hydrogenation process and the reaction thermodynamics are very much comparable with the earlier theoretical investigation. For the entire catalytic cycle, the two most crucial reaction stages are identified as follows: First, homolytic H2 cleavage, then a mechanism for transferring hydrides. The impact of PNP-based ligands on the homolytic H2 cleavage and the hydride transfer processes are still to be determined. Our findings show that the addition of pyridine-based ligand significantly accelerates the homolytic H2 cleavage step, and that Ni-PNP complex catalysed reactions have the lower activation barriers. In-depth analyses have been performed on the complexes' geometry, spin states, included intermediates, and transition states. It has been demonstrated that NiP4 complexes favour square planar shapes with singlet spin multiplicity, while Ni-PNP type tetradentate ligands produce a tetrahedral complex with Ni(II) that possesses a triplet ground state. We calculate the energy barrier for the hydride transfer mechanism, which is considered to be the most significant step in this kind of hydrogenating and dehydrogenating reaction. We also correlate hydride transfer barrier with the structure of ligand, CO2 bond strain, complex strain, the residual charge on the reactive sites, and finally the hydricity of the metal hydride intermediate. The computed energy barrier for Ni-PNP complex is 10 kcal/mol only. Finally, we also discuss the opposing process of hydrogenation versus dehydrogenation by those complexes. Thus, we predict that our findings can be very instrumental for designing pyridine based Ni(II) catalyst for the CO2 hydrogenation reaction. CRediT authorship contribution statement Anupama Mahato: Writing – original draft, Validation, Methodology, Investigation, Data curation. Akhilesh Mahato: Writing – original draft, Visualization, Methodology, Investigation. Purnima Singh: Writing – original draft, Visualization, Investigation. Debasis Dhak: Writing – original draft. Anup Pramanik: Writing – review & editing, Validation, Conceptualization. Declaration of competing interest The authors declare no competing financial interest. Data Availability All raw data are available upon request. Acknowledgements The authors gratefully acknowledge the financial support from DST-FIST, Delhi, Govt. of India vide project sanction letter no. SR/FST/CS-I/2022/247. AP is thankful to UGC, New Delhi, Govt. of India for providing him with UGC-BSR Research Start-Up-Grant (No.F.30–557/2021 (BSR)). AM sincerely acknowledges Govt. of West Bengal, India for her SVMCM Scholarship. Supplementary materials Supplementary material associated with this article can be found, in the online version, at doi:10.1016/j.mcat.2024.114089. Appendix Supplementary materials Image, application 1 References [1] D.O. Wasik A. Martín-Calvo J.J. Gutiérrez-Sevillano D. Dubbeldam T.J.H. Vlugt S. Calero Enhancement of formic acid production from carbon dioxide hydrogenation using metal-organic frameworks: monte Carlo simulation study Chem. Eng. J. 467 2023 143432 10.1016/j.cej.2023.143432 D.O. Wasik, A. Martín-Calvo, J.J. Gutiérrez-Sevillano, D. Dubbeldam, T.J.H. Vlugt, S. Calero, Enhancement of formic acid production from carbon dioxide hydrogenation using metal-organic frameworks: monte Carlo simulation study, Chem. Eng. J. 467 (2023) 143432. https://doi.org/10.1016/j.cej.2023.143432. [2] Y. Yu J. Huang Y. Wang Catalytic conversion of CO2 to value-added products under mild conditions ChemCatChem 10 2018 4849 4853 10.1002/cctc.201801346 Y. Yu, J. Huang, Y. Wang, Catalytic conversion of CO2 to value-added products under mild conditions, ChemCatChem 10 (2018) 4849–4853. https://doi.org/10.1002/cctc.201801346. [3] T. Theerathanagorn T. Kessaratikoon H.U. Rehman V. D'Elia D. Crespy Polyhydroxyurethanes from Biobased Monomers and CO2: a bridge between sustainable chemistry and CO2 utilization Chinese J. Chem. 42 2024 652 685 10.1002/cjoc.202300531 T. Theerathanagorn, T. Kessaratikoon, H.U. Rehman, V. D'Elia, D. Crespy, Polyhydroxyurethanes from Biobased Monomers and CO2: a bridge between sustainable chemistry and CO2 utilization, Chinese J. Chem. 42 (2024) 652–685. https://doi.org/10.1002/cjoc.202300531. [4] B. Hu C. Guild S.L. Suib Thermal, electrochemical, and photochemical conversion of CO2 to fuels and value-added products J. CO2 Util 1 2013 18 27 10.1016/j.jcou.2013.03.004 B. Hu, C. Guild, S.L. Suib, Thermal, electrochemical, and photochemical conversion of CO2 to fuels and value-added products, J. CO2 Util. 1 (2013) 18–27. https://doi.org/10.1016/j.jcou.2013.03.004. [5] C. Ren W. Ni Recent progress in electrocatalytic reduction of CO2 Catal. 13 2023 644 10.3390/catal13040644 C. Ren, W. Ni, Recent progress in electrocatalytic reduction of CO2, Catal. 13 (2023) 644. https://doi.org/10.3390/catal13040644. [6] L. Zhang Z.J. Zhao J. Gong Nanostructured materials for heterogeneous electrocatalytic CO2 reduction and their related reaction mechanisms Angew. Chem. Int. Ed. 56 2017 11326 11353 10.1002/anie.201612214 L. Zhang, Z.J. Zhao, J. Gong, Nanostructured materials for heterogeneous electrocatalytic CO2 reduction and their related reaction mechanisms, Angew. Chem. Int. Ed.56 (2017) 11326–11353. https://doi.org/10.1002/anie.201612214. [7] A.W. Alherz C.H. Lim Y.C. Kuo P. Lehman J.N. Cha J.T. Hynes C.B. Musgrave Renewable hydride donors for the catalytic reduction of CO2: a thermodynamic and kinetic study J. Phys. Chem. B 122 44 2018 10179 10189 A.W. Alherz, C.H. Lim, Y.C. Kuo, P. Lehman, J.N. Cha, J.T. Hynes, C.B. Musgrave, Renewable hydride donors for the catalytic reduction of CO2: a thermodynamic and kinetic study., J. Phys. Chem. B 122 44 (2018) 10179–10189. [8] F. Franco S. Fernández J. Lloret-Fillol Advances in the electrochemical catalytic reduction of CO2 with metal complexes Curr. Opin. Electrochem. 2019 F. Franco, S. Fernández, J. Lloret-Fillol, Advances in the electrochemical catalytic reduction of CO2 with metal complexes, Curr. Opin. Electrochem. (2019). [9] A. Vidal-López S. Posada-Pérez M. Solà A. Poater Au single metal atom for carbon dioxide reduction reaction Chemistry (Easton) 5 2023 1395 1406 10.3390/chemistry5020095 A. Vidal-López, S. Posada-Pérez, M. Solà, A. Poater, Au single metal atom for carbon dioxide reduction reaction, Chemistry (Easton). 5 (2023) 1395–1406. https://doi.org/10.3390/chemistry5020095. [10] M. Mehdizadeh S. Sadjadi A. Poater A. Mansouri N. Bahri-Laleh Molecular modelling aided catalyst design for PAO oils hydrofinishing J. Mol. Liq. 352 2022 118675 10.1016/j.molliq.2022.118675 M. Mehdizadeh, S. Sadjadi, A. Poater, A. Mansouri, N. Bahri-Laleh, Molecular modelling aided catalyst design for PAO oils hydrofinishing, J. Mol. Liq. 352 (2022) 118675. https://doi.org/10.1016/j.molliq.2022.118675. [11] J. Chen S.K. Iyemperumal T. Fenton A. Carl R. Grimm G. Li N.A. Deskins Synergy between defects, photoexcited electrons, and supported single atom catalysts for CO2 reduction ACS Catal. 8 2018 10464 10478 10.1021/acscatal.8b02372 J. Chen, S.K. Iyemperumal, T. Fenton, A. Carl, R. Grimm, G. Li, N.A. Deskins, Synergy between defects, photoexcited electrons, and supported single atom catalysts for CO2 reduction, ACS Catal. 8 (2018) 10464–10478. https://doi.org/10.1021/acscatal.8b02372. [12] S. Posada-Pérez M. Solà A. Poater Carbon dioxide conversion on supported metal nanoparticles: a brief review Catal. 2023 13 10.3390/catal13020305 S. Posada-Pérez, M. Solà, A. Poater, Carbon dioxide conversion on supported metal nanoparticles: a brief review, Catal. 13 (2023). https://doi.org/10.3390/catal13020305. [13] S. Ghoshal P. Roy A. Pramanik P. Sarkar Ru/Rh catalyzed selective hydrogenation of CO2 to formic acid: a first principles microkinetics analysis Catal. Sci. Technol. 12 2022 7219 7232 10.1039/d2cy00798c S. Ghoshal, P. Roy, A. Pramanik, P. Sarkar, Ru/Rh catalyzed selective hydrogenation of CO2 to formic acid: a first principles microkinetics analysis††Electronic supplementary information (ESI) available: brief overview of microkinetics modeling, relative energy of various unsupported clusters at di, Catal. Sci. Technol. 12 (2022) 7219–7232. https://doi.org/10.1039/d2cy00798c. [14] S. Biswas A. Chowdhury P. Roy A. Pramanik P. Sarkar Computational studies on the hydride transfer barrier for the catalytic hydrogenation of CO2 by different Ni(II) complexes J. Mol. Model. 2018 24 10.1007/s00894-018-3758-9 S. Biswas, A. Chowdhury, P. Roy, A. Pramanik, P. Sarkar, Computational studies on the hydride transfer barrier for the catalytic hydrogenation of CO2 by different Ni(II) complexes, J. Mol. Model. 24 (2018). https://doi.org/10.1007/s00894-018-3758-9. [15] K.S. Rawat A. Mahata I. Choudhuri B. Pathak Catalytic hydrogenation of CO2 by manganese complexes: role of π-acceptor ligands J. Phys. Chem. C 120 2016 16478 16488 10.1021/acs.jpcc.6b05065 K.S. Rawat, A. Mahata, I. Choudhuri, B. Pathak, Catalytic hydrogenation of CO2 by manganese complexes: role of π-acceptor ligands, J. Phys. Chem. C 120 (2016) 16478–16488. https://doi.org/10.1021/acs.jpcc.6b05065. [16] D.A. Kuß M. Hölscher W. Leitner Combined computational and experimental investigation on the mechanism of CO2 hydrogenation to methanol with Mn-PNP-pincer catalysts ACS Catal. 12 2022 15310 15322 10.1021/acscatal.2c04806 D.A. Kuß, M. Hölscher, W. Leitner, Combined computational and experimental investigation on the mechanism of CO2 hydrogenation to methanol with Mn-PNP-pincer catalysts, ACS Catal. 12 (2022) 15310–15322. https://doi.org/10.1021/acscatal.2c04806. [17] T. Singh S. Jalwal S. Chakraborty Homogeneous first-row transition-metal-catalyzed carbon dioxide hydrogenation to formic Acid/Formate, and Methanol Asian J. Org. Chem. 11 2022 e202200330 10.1002/ajoc.202200330 T. Singh, S. Jalwal, S. Chakraborty, Homogeneous first-row transition-metal-catalyzed carbon dioxide hydrogenation to formic Acid/Formate, and Methanol, Asian J. Org. Chem. 11 (2022) e202200330. https://doi.org/10.1002/ajoc.202200330. [18] R. Cauwenbergh V. Goyal R. Maiti K. Natte S. Das Challenges and recent advancements in the transformation of CO2 into carboxylic acids: straightforward assembly with homogeneous 3d metals Chem. Soc. Rev. 51 2022 9371 9423 10.1039/D1CS00921D R. Cauwenbergh, V. Goyal, R. Maiti, K. Natte, S. Das, Challenges and recent advancements in the transformation of CO2 into carboxylic acids: straightforward assembly with homogeneous 3d metals, Chem. Soc. Rev. 51 (2022) 9371–9423. https://doi.org/10.1039/D1CS00921D. [19] J. Lin B. Qin G. Zhao Effect of solvents on photocatalytic reduction of CO2 mediated by cobalt complex J. Photochem. Photobiol. A Chem. 354 2018 181 186 10.1016/j.jphotochem.2017.09.019 J. Lin, B. Qin, G. Zhao, Effect of solvents on photocatalytic reduction of CO2 mediated by cobalt complex, J. Photochem. Photobiol. A Chem. 354 (2018) 181–186. https://doi.org/10.1016/j.jphotochem.2017.09.019. [20] J. Bonin M. Chaussemier M. Robert M. Routier Homogeneous photocatalytic reduction of CO2 to CO using Iron(0) Porphyrin catalysts: mechanism and intrinsic limitations ChemCatChem 6 2014 3200 3207 10.1002/cctc.201402515 J. Bonin, M. Chaussemier, M. Robert, M. Routier, Homogeneous photocatalytic reduction of CO2 to CO using Iron(0) Porphyrin catalysts: mechanism and intrinsic limitations, ChemCatChem 6 (2014) 3200–3207. https://doi.org/10.1002/cctc.201402515. [21] D. Li M. Kassymova X. Cai S. Zang H. Jiang Photocatalytic CO2 reduction over metal-organic framework-based materials Coord. Chem. Rev. 412 2020 213262 D. Li, M. Kassymova, X. Cai, S. Zang, H. Jiang, Photocatalytic CO2 reduction over metal-organic framework-based materials, Coord. Chem. Rev. 412 (2020) 213262. [22] H. Yuan J. Du M. Ming Y. Chen L. Jiang Z. Han Combination of organic dye and Iron for CO2 reduction with Pentanuclear Fe2Na3 Purpurin Photocatalysts J. Am. Chem. Soc. 144 2022 4305 4309 10.1021/jacs.1c13081 H. Yuan, J. Du, M. Ming, Y. Chen, L. Jiang, Z. Han, Combination of organic dye and Iron for CO2 reduction with Pentanuclear Fe2Na3 Purpurin Photocatalysts, J. Am. Chem. Soc. 144 (2022) 4305–4309. https://doi.org/10.1021/jacs.1c13081. [23] Q. Wang Y. Lei D. Wang Y. Li Defect engineering in earth-abundant electrocatalysts for CO2 and N2 reduction Energy Environ. Sci. 12 2019 1730 1750 10.1039/C8EE03781G Q. Wang, Y. Lei, D. Wang, Y. Li, Defect engineering in earth-abundant electrocatalysts for CO2 and N2 reduction, Energy Environ. Sci. 12 (2019) 1730–1750. https://doi.org/10.1039/C8EE03781G. [24] S.J. Connelly E.S. Wiedner A.M. Appel Predicting the reactivity of hydride donors in water: thermodynamic constants for hydrogen Dalt. Trans. 44 2015 5933 5938 10.1039/C4DT03841J S.J. Connelly, E.S. Wiedner, A.M. Appel, Predicting the reactivity of hydride donors in water: thermodynamic constants for hydrogen, Dalt. Trans. 44 (2015) 5933–5938. https://doi.org/10.1039/C4DT03841J. [25] E.S. Wiedner M.B. Chambers C.L. Pitman R.M. Bullock A.J.M. Miller A.M. Appel Thermodynamic hydricity of transition metal hydrides Chem. Rev. 116 2016 8655 8692 10.1021/acs.chemrev.6b00168 E.S. Wiedner, M.B. Chambers, C.L. Pitman, R.M. Bullock, A.J.M. Miller, A.M. Appel, Thermodynamic hydricity of transition metal hydrides, Chem. Rev. 116 (2016) 8655–8692. https://doi.org/10.1021/acs.chemrev.6b00168. [26] C.J. Curtis A. Miedaner W.W. Ellis D.L. DuBois Measurement of the hydride donor abilities of [HM(diphosphine)2]+ complexes (M = Ni, Pt) by heterolytic activation of hydrogen J. Am. Chem. Soc. 124 2002 1918 1925 10.1021/ja0116829 C.J. Curtis, A. Miedaner, W.W. Ellis, D.L. DuBois, Measurement of the hydride donor abilities of [HM(diphosphine)2]+ complexes (M = Ni, Pt) by heterolytic activation of hydrogen, J. Am. Chem. Soc. 124 (2002) 1918–1925. https://doi.org/10.1021/ja0116829. [27] D.L. DuBois D.E. Berning Hydricity of transition-metal hydrides and its role in CO2 reduction Appl. Organomet. Chem. 14 2000 860 862 10.1002/1099-0739(200012)14:12<860::AID-AOC87>3.0.CO;2-A D.L. DuBois, D.E. Berning, Hydricity of transition-metal hydrides and its role in CO2 reduction, Appl. Organomet. Chem. 14 (2000) 860–862. https://doi.org/10.1002/1099-0739(200012)14:12<860::AID−AOC87>3.0.CO;2-A. [28] A.J.M. Miller J.A. Labinger J.E. Bercaw Homogeneous CO hydrogenation: dihydrogen activation involves a frustrated lewis pair instead of a platinum complex J. Am. Chem. Soc. 132 2010 3301 3303 10.1021/ja100574n A.J.M. Miller, J.A. Labinger, J.E. Bercaw, Homogeneous CO hydrogenation: dihydrogen activation involves a frustrated lewis pair instead of a platinum complex, J. Am. Chem. Soc. 132 (2010) 3301–3303. https://doi.org/10.1021/ja100574n. [29] B.M. Ceballos J.Y. Yang Directing the reactivity of metal hydrides for selective CO2 reduction Proc. Natl. Acad. Sci. U. S. A. 115 2018 12686 12691 10.1073/pnas.1811396115 B.M. Ceballos, J.Y. Yang, Directing the reactivity of metal hydrides for selective CO2 reduction, Proc. Natl. Acad. Sci. U. S. A. 115 (2018) 12686–12691. https://doi.org/10.1073/pnas.1811396115. [30] C. Creutz M.H. Chou Hydricities of d6 metal hydride complexes in water J. Am. Chem. Soc. 131 2009 2794 2795 10.1021/ja809724s C. Creutz, M.H. Chou, Hydricities of d6 metal hydride complexes in water, J. Am. Chem. Soc. 131 (2009) 2794–2795. https://doi.org/10.1021/ja809724s. [31] Y. Matsubara E. Fujita M.D. Doherty J.T. Muckerman C. Creutz Thermodynamic and kinetic hydricity of ruthenium(II) hydride complexes J. Am. Chem. Soc. 134 2012 15743 15757 10.1021/ja302937q Y. Matsubara, E. Fujita, M.D. Doherty, J.T. Muckerman, C. Creutz, Thermodynamic and kinetic hydricity of ruthenium(II) hydride complexes, J. Am. Chem. Soc. 134 (2012) 15743–15757. https://doi.org/10.1021/ja302937q. [32] C.L. Pitman K.R. Brereton A.J.M. Miller Aqueous Hydricity of late metal catalysts as a continuum tuned by ligands and the medium J. Am. Chem. Soc. 138 2016 2252 2260 10.1021/jacs.5b12363 C.L. Pitman, K.R. Brereton, A.J.M. Miller, Aqueous Hydricity of late metal catalysts as a continuum tuned by ligands and the medium., J. Am. Chem. Soc. 138 (2016) 2252–2260. https://doi.org/10.1021/jacs.5b12363. [33] C.L. Pitman O.N.L. Finster A.J.M. Miller Cyclopentadiene-mediated hydride transfer from rhodium complexes Chem. Commun. 52 2016 9105 9108 10.1039/C6CC00575F C.L. Pitman, O.N.L. Finster, A.J.M. Miller, Cyclopentadiene-mediated hydride transfer from rhodium complexes, Chem. Commun. 52 (2016) 9105–9108. https://doi.org/10.1039/C6CC00575F. [34] A. Taheri E.J. Thompson J.C. Fettinger L.A. Berben An Iron electrocatalyst for selective reduction of CO2 to formate in water: including thermochemical insights ACS Catal. 5 2015 7140 7151 A. Taheri, E.J. Thompson, J.C. Fettinger, L.A. Berben, An Iron electrocatalyst for selective reduction of CO2 to formate in water: including thermochemical insights, ACS Catal. 5 (2015) 7140–7151. [35] M. Aresta C.F. Nobile V.G. Albano E. Forni M. Manassero New nickel–carbon dioxide complex: synthesis, properties, and crystallographic characterization of (carbon dioxide)-bis(tricyclohexylphosphine)nickel J. Chem. Soc. Chem. Commun. 1975 636 637 10.1039/C39750000636 M. Aresta, C.F. Nobile, V.G. Albano, E. Forni, M. Manassero, New nickel–carbon dioxide complex: synthesis, properties, and crystallographic characterization of (carbon dioxide)-bis(tricyclohexylphosphine)nickel, J. Chem. Soc. Chem. Commun. (1975) 636–637. https://doi.org/10.1039/C39750000636. [36] J. Breitenfeld R. Scopelliti X. Hu Synthesis, reactivity, and catalytic application of a Nickel pincer Hydride complex Organometallics 31 2012 2128 2136 J. Breitenfeld, R. Scopelliti, X. Hu, Synthesis, reactivity, and catalytic application of a Nickel pincer Hydride complex, Organometallics 31 (2012) 2128–2136. [37] N.A. Eberhardt H. Guan Nickel Hydride Complexes Chem. Rev. 116 2016 8373 8426 10.1021/acs.chemrev.6b00259 N.A. Eberhardt, H. Guan, Nickel Hydride Complexes, Chem. Rev. 116 (2016) 8373–8426. https://doi.org/10.1021/acs.chemrev.6b00259. [38] B.M. Ceballos C. Tsay J.Y. Yang CO2 reduction or HCO2 − oxidation? Solvent-dependent thermochemistry of a nickel hydride complex Chem. Commun. 53 2017 7405 7408 10.1039/C7CC02511D B.M. Ceballos, C. Tsay, J.Y. Yang, CO2 reduction or HCO2− oxidation? Solvent-dependent thermochemistry of a nickel hydride complex, Chem. Commun. 53 (2017) 7405–7408. https://doi.org/10.1039/C7CC02511D. [39] D. Maganas A. Grigoropoulos S.S. Staniland S.D. Chatziefthimiou A. Harrison N. Robertson P. Kyritsis F. Neese Tetrahedral and square planar Ni[(SPR2)2N]2 complexes, R = Ph & iPr Revisited: experimental and theoretical analysis of interconversion pathways, structural preferences, and spin delocalization Inorg. Chem. 49 2010 5079 5093 10.1021/ic100163g D. Maganas, A. Grigoropoulos, S.S. Staniland, S.D. Chatziefthimiou, A. Harrison, N. Robertson, P. Kyritsis, F. Neese, Tetrahedral and square planar Ni[(SPR2)2N]2 complexes, R = Ph & iPr Revisited: experimental and theoretical analysis of interconversion pathways, structural preferences, and spin delocalization, Inorg. Chem. 49 (2010) 5079–5093. https://doi.org/10.1021/ic100163g. [40] S. Singh K. S R.B. Sunoj Aliphatic C(sp3)–H bond activation using nickel catalysis: mechanistic insights on Regioselective Arylation J. Org. Chem. 82 2017 9619 9626 10.1021/acs.joc.7b01672 S. Singh, S K., R.B. Sunoj, Aliphatic C(sp3)–H bond activation using nickel catalysis: mechanistic insights on Regioselective Arylation, J. Org. Chem. 82 (2017) 9619–9626. https://doi.org/10.1021/acs.joc.7b01672. [41] M.J. Frisch, G.W. Trucks, H.B. Schlegel, G.E. Scuseria, M.a. Robb, J.R. Cheeseman, G. Scalmani, V. Barone, G.a. Petersson, H. Nakatsuji, X. Li, M. Caricato, a.V. Marenich, J. Bloino, B.G. Janesko, R. Gomperts, B. Mennucci, H.P. Hratchian, J.V. Ortiz, a.F. Izmaylov, J.L. Sonnenberg, Williams, F. Ding, F. Lipparini, F. Egidi, J. Goings, B. Peng, A. Petrone, T. Henderson, D. Ranasinghe, V.G. Zakrzewski, J. Gao, N. Rega, G. Zheng, W. Liang, M. Hada, M. Ehara, K. Toyota, R. Fukuda, J. Hasegawa, M. Ishida, T. Nakajima, Y. Honda, O. Kitao, H. Nakai, T. Vreven, K. Throssell, J.a. Montgomery Jr., J.E. Peralta, F. Ogliaro, M.J. Bearpark, J.J. Heyd, E.N. Brothers, K.N. Kudin, V.N. Staroverov, T.a. Keith, R. Kobayashi, J. Normand, K. Raghavachari, a.P. Rendell, J.C. Burant, S.S. Iyengar, J. Tomasi, M. Cossi, J.M. Millam, M. Klene, C. Adamo, R. Cammi, J.W. Ochterski, R.L. Martin, K. Morokuma, O. Farkas, J.B. Foresman, D.J. Fox, G16_C01, (2016) Gaussian 16, Revision C.01, Gaussian, Inc., Wallin. [42] A.D. Becke Density-functional thermochemistry. III. The role of exact exchange J. Chem. Phys. 98 1993 5648 5652 10.1063/1.464913 A.D. Becke, Density-functional thermochemistry. III. The role of exact exchange, J. Chem. Phys. 98 (1993) 5648–5652. https://doi.org/10.1063/1.464913. [43] W.R. Wadt P.J. Hay Ab initio effective core potentials for molecular calculations. Potentials for main group elements Na to Bi J. Chem. Phys. 82 1985 284 298 W.R. Wadt, P.J. Hay, Ab initio effective core potentials for molecular calculations. Potentials for main group elements Na to Bi, J. Chem. Phys. 82 (1985) 284–298. [44] J.A. Keith K.A. Grice C.P. Kubiak E.A. Carter Elucidation of the selectivity of proton-dependent electrocatalytic CO2 reduction by fac-Re(bpy)(CO)3Cl J. Am. Chem. Soc. 135 2013 15823 15829 10.1021/ja406456g J.A. Keith, K.A. Grice, C.P. Kubiak, E.A. Carter, Elucidation of the selectivity of proton-dependent electrocatalytic CO2 reduction by fac-Re(bpy)(CO)3Cl, J. Am. Chem. Soc. 135 (2013) 15823–15829. https://doi.org/10.1021/ja406456g. [45] C. Riplinger E. Carter Influence of weak brønsted acids on Electrocatalytic CO2 reduction by manganese and rhenium Bipyridine catalysts ACS Catal. 5 2014 900 908 10.1021/cs501687n C. Riplinger, E. Carter, Influence of weak brønsted acids on Electrocatalytic CO2 reduction by manganese and rhenium Bipyridine catalysts, ACS Catal. 5 (2014) 900–908. https://doi.org/10.1021/cs501687n. [46] T. Lu F. Chen Multiwfn: a multifunctional Wavefunction analyzer J. Comput. Chem. 33 2012 580 592 10.1002/jcc.22885 T. Lu, F. Chen, Multiwfn: a multifunctional Wavefunction analyzer, J. Comput. Chem. 33 (2012) 580–592. https://doi.org/10.1002/jcc.22885. [47] W. Humphrey A. Dalke K. Schulten VMD: visual molecular dynamics J. Mol. Graph. 14 1996 33 38 10.1016/0263-7855(96)00018-5 W. Humphrey, A. Dalke, K. Schulten, VMD: visual molecular dynamics, J. Mol. Graph. 14 (1996) 33–38. https://doi.org/10.1016/0263-7855(96)00018-5. [48] S.A. Burgess A.J. Kendall D.R. Tyler J.C. Linehan A.M. Appel Hydrogenation of CO2 in water using a bis(diphosphine) Ni–H complex ACS Catal 7 2017 3089 3096 10.1021/acscatal.7b00350 S.A. Burgess, A.J. Kendall, D.R. Tyler, J.C. Linehan, A.M. Appel, Hydrogenation of CO2 in water using a bis(diphosphine) Ni–H complex, ACS Catal. 7 (2017) 3089–3096. https://doi.org/10.1021/acscatal.7b00350. [49] S. Blanchard F. Neese E. Bothe E. Bill T. Weyhermüller K. Wieghardt Square Planar vs Tetrahedral Coordination in Diamagnetic Complexes of Nickel(II) Containing Two Bidentate π-Radical Monoanions Inorg. Chem. 44 2005 3636 3656 10.1021/ic040117e S. Blanchard, F. Neese, E. Bothe, E. Bill, T. Weyhermüller, K. Wieghardt, Square Planar vs Tetrahedral Coordination in Diamagnetic Complexes of Nickel(II) Containing Two Bidentate π-Radical Monoanions, Inorg. Chem. 44 (2005) 3636–3656. https://doi.org/10.1021/ic040117e. [50] N. Elgrishi M.B. Chambers X. Wang M. Fontecave Molecular polypyridine-based metal complexes as catalysts for the reduction of CO2 Chem. Soc. Rev. 46 2017 761 796 10.1039/C5CS00391A N. Elgrishi, M.B. Chambers, X. Wang, M. Fontecave, Molecular polypyridine-based metal complexes as catalysts for the reduction of CO2, Chem. Soc. Rev. 46 (2017) 761–796. https://doi.org/10.1039/C5CS00391A. [51] S. Coufourier Q. Gaignard Gaillard J.F. Lohier A. Poater S. Gaillard J.L. Renaud Hydrogenation of CO2, hydrogenocarbonate, and carbonate to formate in water using phosphine free bifunctional iron complexes ACS Catal. 10 2020 2108 2116 10.1021/acscatal.9b04340 S. Coufourier, Q. Gaignard Gaillard, J.F. Lohier, A. Poater, S. Gaillard, J.L. Renaud, Hydrogenation of CO2, hydrogenocarbonate, and carbonate to formate in water using phosphine free bifunctional iron complexes, ACS Catal. 10 (2020) 2108–2116. https://doi.org/10.1021/acscatal.9b04340. [52] X. Yang Bio-inspired computational design of iron catalysts for the hydrogenation of carbon dioxide Chem. Commun. 51 2015 13098 13101 10.1039/C5CC03372A X. Yang, Bio-inspired computational design of iron catalysts for the hydrogenation of carbon dioxide, Chem. Commun. 51 (2015) 13098–13101. https://doi.org/10.1039/C5CC03372A. [53] R.K. Singh R.K. Singh M. Arup C. Indrani P. Biswarup Catalytic hydrogenation of CO2 by manganese complexes: role of π-acceptor ligands J. Phys. Chem. C 120 2016 16478 16488 10.1021/acs.jpcc.6b05065 R.K. Singh, R.K. Singh, M. Arup, C. Indrani, P. Biswarup, Catalytic hydrogenation of CO2 by manganese complexes: role of π-acceptor ligands, J. Phys. Chem. C v. 120 (2016) 16478–16488–2016 v.120 no.30. https://doi.org/10.1021/acs.jpcc.6b05065. [54] J. Huang M. Mensi E. Oveisi V. Mantella R. Buonsanti Structural sensitivities in bimetallic catalysts for electrochemical CO2 reduction revealed by Ag–Cu nanodimers J. Am. Chem. Soc. 141 2019 2490 2499 10.1021/jacs.8b12381 J. Huang, M. Mensi, E. Oveisi, V. Mantella, R. Buonsanti, Structural sensitivities in bimetallic catalysts for electrochemical CO2 reduction revealed by Ag–Cu nanodimers, J. Am. Chem. Soc. 141 (2019) 2490–2499. https://doi.org/10.1021/jacs.8b12381. [55] J.T. Muckerman P. Achord C. Creutz D.E. Polyansky E. Fujita Calculation of thermodynamic hydricities and the design of hydride donors for CO2 reduction Proc. Natl. Acad. Sci. U. S. A. 109 2012 15657 15662 10.1073/pnas.1201026109 J.T. Muckerman, P. Achord, C. Creutz, D.E. Polyansky, E. Fujita, Calculation of thermodynamic hydricities and the design of hydride donors for CO2 reduction., Proc. Natl. Acad. Sci. U. S. A. 109 (2012) 15657–15662. https://doi.org/10.1073/pnas.1201026109. [56] H. Ge Y. Jing X. Yang Computational design of cobalt catalysts for hydrogenation of carbon dioxide and dehydrogenation of formic acid Inorg. Chem. 55 2016 12179 12184 10.1021/acs.inorgchem.6b01723 H. Ge, Y. Jing, X. Yang, Computational design of cobalt catalysts for hydrogenation of carbon dioxide and dehydrogenation of formic acid, Inorg. Chem. 55 (2016) 12179–12184. https://doi.org/10.1021/acs.inorgchem.6b01723.",
+      "scopus-id": "85189505651",
+      "coredata": {
+        "eid": "1-s2.0-S2468823124002724",
+        "dc:description": "Recent developments, industrialization, and modernization lead to production of more and more pollutants (such as CO2: ∼ 417.06 ppm) and such rapid growth of CO2 level results in global warming and the greenhouse effect. So, it is essential to conduct research on converting CO2 into fuels using carbon-neutral energy. Recent research on molecular catalysts has improved the rates of converting CO2 to formate. However, these catalysts require extremely high temperatures and pressures and are made of expensive metals like iridium, ruthenium, and rhodium. Herein, DFT-based computational studies have been performed on the catalytic hydrogenation of CO2 by different Ni(II) complexes in ambient conditions. Using state-of-the-art calculations, we demonstrate how the geometry and spin states of Ni(II) complexes containing different types of ligands affect their catalytic role in CO2 hydrogenation. It has been reported that hydride transfer is the most crucial step for such kind of hydrogenation reaction. We start with previously synthesised Ni-bis(diphosphine) complexes of type NiP4 and by extrapolating the concept, we propose a novel kind of Ni-PNP complex with a significantly lower hydride transfer barrier. We also calculate the hydricities of the nickel hydride complexes in order to correlate these thermodynamic parameters with the kinetic barrier of hydride transfer.",
+        "openArchiveArticle": "false",
+        "prism:coverDate": "2024-04-15",
+        "openaccessUserLicense": null,
+        "prism:aggregationType": "Journal",
+        "prism:url": "https://api.elsevier.com/content/article/pii/S2468823124002724",
+        "dc:creator": [
+          {
+            "@_fa": "true",
+            "$": "Mahato, Anupama"
+          },
+          {
+            "@_fa": "true",
+            "$": "Mahato, Akhilesh"
+          },
+          {
+            "@_fa": "true",
+            "$": "Singh, Purnima"
+          },
+          {
+            "@_fa": "true",
+            "$": "Dhak, Debasis"
+          },
+          {
+            "@_fa": "true",
+            "$": "Pramanik, Anup"
+          }
+        ],
+        "link": [
+          {
+            "@_fa": "true",
+            "@rel": "self",
+            "@href": "https://api.elsevier.com/content/article/pii/S2468823124002724"
+          },
+          {
+            "@_fa": "true",
+            "@rel": "scidir",
+            "@href": "https://www.sciencedirect.com/science/article/pii/S2468823124002724"
+          }
+        ],
+        "dc:format": "application/json",
+        "openaccessType": null,
+        "pii": "S2468-8231(24)00272-4",
+        "prism:volume": "559",
+        "articleNumber": "114089",
+        "prism:publisher": "Elsevier B.V.",
+        "dc:title": "Designing Nickel-based catalysts for the hydrogenation of CO2 under Ambient conditions: A computational study",
+        "prism:copyright": "© 2024 Elsevier B.V. All rights reserved.",
+        "openaccess": "0",
+        "prism:issn": "24688231",
+        "dcterms:subject": [
+          {
+            "@_fa": "true",
+            "$": "Hydrogenation of CO2"
+          },
+          {
+            "@_fa": "true",
+            "$": "Ni(II) catalyst"
+          },
+          {
+            "@_fa": "true",
+            "$": "Homolytic H2 cleavage"
+          },
+          {
+            "@_fa": "true",
+            "$": "Hydride transfer"
+          },
+          {
+            "@_fa": "true",
+            "$": "Transition state"
+          },
+          {
+            "@_fa": "true",
+            "$": "Hydricity"
+          },
+          {
+            "@_fa": "true",
+            "$": "DFT"
+          }
+        ],
+        "openaccessArticle": "false",
+        "prism:publicationName": "Molecular Catalysis",
+        "openaccessSponsorType": null,
+        "prism:pageRange": "114089",
+        "pubType": "fla",
+        "prism:coverDisplayDate": "15 April 2024",
+        "prism:doi": "10.1016/j.mcat.2024.114089",
+        "prism:startingPage": "114089",
+        "dc:identifier": "doi:10.1016/j.mcat.2024.114089",
+        "openaccessSponsorName": null
+      },
+      "objects": {
+        "object": [
+          {
+            "@category": "standard",
+            "@height": "541",
+            "@width": "489",
+            "@_fa": "true",
+            "$": "https://api.elsevier.com/content/object/eid/1-s2.0-S2468823124002724-sc1.jpg?httpAccept=%2A%2F%2A",
+            "@multimediatype": "JPEG image file",
+            "@type": "IMAGE-DOWNSAMPLED",
+            "@size": "60958",
+            "@ref": "sc1",
+            "@mimetype": "image/jpeg"
+          },
+          {
+            "@category": "standard",
+            "@height": "450",
+            "@width": "565",
+            "@_fa": "true",
+            "$": "https://api.elsevier.com/content/object/eid/1-s2.0-S2468823124002724-gr5.jpg?httpAccept=%2A%2F%2A",
+            "@multimediatype": "JPEG image file",
+            "@type": "IMAGE-DOWNSAMPLED",
+            "@size": "71471",
+            "@ref": "gr5",
+            "@mimetype": "image/jpeg"
+          },
+          {
+            "@category": "standard",
+            "@height": "320",
+            "@width": "565",
+            "@_fa": "true",
+            "$": "https://api.elsevier.com/content/object/eid/1-s2.0-S2468823124002724-gr4.jpg?httpAccept=%2A%2F%2A",
+            "@multimediatype": "JPEG image file",
+            "@type": "IMAGE-DOWNSAMPLED",
+            "@size": "55096",
+            "@ref": "gr4",
+            "@mimetype": "image/jpeg"
+          },
+          {
+            "@category": "standard",
+            "@height": "354",
+            "@width": "640",
+            "@_fa": "true",
+            "$": "https://api.elsevier.com/content/object/eid/1-s2.0-S2468823124002724-gr3.jpg?httpAccept=%2A%2F%2A",
+            "@multimediatype": "JPEG image file",
+            "@type": "IMAGE-DOWNSAMPLED",
+            "@size": "84330",
+            "@ref": "gr3",
+            "@mimetype": "image/jpeg"
+          },
+          {
+            "@category": "standard",
+            "@height": "354",
+            "@width": "489",
+            "@_fa": "true",
+            "$": "https://api.elsevier.com/content/object/eid/1-s2.0-S2468823124002724-gr2.jpg?httpAccept=%2A%2F%2A",
+            "@multimediatype": "JPEG image file",
+            "@type": "IMAGE-DOWNSAMPLED",
+            "@size": "73727",
+            "@ref": "gr2",
+            "@mimetype": "image/jpeg"
+          },
+          {
+            "@category": "standard",
+            "@height": "200",
+            "@width": "299",
+            "@_fa": "true",
+            "$": "https://api.elsevier.com/content/object/eid/1-s2.0-S2468823124002724-ga1.jpg?httpAccept=%2A%2F%2A",
+            "@multimediatype": "JPEG image file",
+            "@type": "IMAGE-DOWNSAMPLED",
+            "@size": "23925",
+            "@ref": "ga1",
+            "@mimetype": "image/jpeg"
+          },
+          {
+            "@category": "standard",
+            "@height": "267",
+            "@width": "659",
+            "@_fa": "true",
+            "$": "https://api.elsevier.com/content/object/eid/1-s2.0-S2468823124002724-gr1.jpg?httpAccept=%2A%2F%2A",
+            "@multimediatype": "JPEG image file",
+            "@type": "IMAGE-DOWNSAMPLED",
+            "@size": "38706",
+            "@ref": "gr1",
+            "@mimetype": "image/jpeg"
+          },
+          {
+            "@category": "thumbnail",
+            "@height": "164",
+            "@width": "148",
+            "@_fa": "true",
+            "$": "https://api.elsevier.com/content/object/eid/1-s2.0-S2468823124002724-sc1.sml?httpAccept=%2A%2F%2A",
+            "@multimediatype": "GIF image file",
+            "@type": "IMAGE-THUMBNAIL",
+            "@size": "7741",
+            "@ref": "sc1",
+            "@mimetype": "image/gif"
+          },
+          {
+            "@category": "thumbnail",
+            "@height": "164",
+            "@width": "206",
+            "@_fa": "true",
+            "$": "https://api.elsevier.com/content/object/eid/1-s2.0-S2468823124002724-gr5.sml?httpAccept=%2A%2F%2A",
+            "@multimediatype": "GIF image file",
+            "@type": "IMAGE-THUMBNAIL",
+            "@size": "12064",
+            "@ref": "gr5",
+            "@mimetype": "image/gif"
+          },
+          {
+            "@category": "thumbnail",
+            "@height": "124",
+            "@width": "219",
+            "@_fa": "true",
+            "$": "https://api.elsevier.com/content/object/eid/1-s2.0-S2468823124002724-gr4.sml?httpAccept=%2A%2F%2A",
+            "@multimediatype": "GIF image file",
+            "@type": "IMAGE-THUMBNAIL",
+            "@size": "11660",
+            "@ref": "gr4",
+            "@mimetype": "image/gif"
+          },
+          {
+            "@category": "thumbnail",
+            "@height": "121",
+            "@width": "219",
+            "@_fa": "true",
+            "$": "https://api.elsevier.com/content/object/eid/1-s2.0-S2468823124002724-gr3.sml?httpAccept=%2A%2F%2A",
+            "@multimediatype": "GIF image file",
+            "@type": "IMAGE-THUMBNAIL",
+            "@size": "14161",
+            "@ref": "gr3",
+            "@mimetype": "image/gif"
+          },
+          {
+            "@category": "thumbnail",
+            "@height": "158",
+            "@width": "219",
+            "@_fa": "true",
+            "$": "https://api.elsevier.com/content/object/eid/1-s2.0-S2468823124002724-gr2.sml?httpAccept=%2A%2F%2A",
+            "@multimediatype": "GIF image file",
+            "@type": "IMAGE-THUMBNAIL",
+            "@size": "15496",
+            "@ref": "gr2",
+            "@mimetype": "image/gif"
+          },
+          {
+            "@category": "thumbnail",
+            "@height": "147",
+            "@width": "219",
+            "@_fa": "true",
+            "$": "https://api.elsevier.com/content/object/eid/1-s2.0-S2468823124002724-ga1.sml?httpAccept=%2A%2F%2A",
+            "@multimediatype": "GIF image file",
+            "@type": "IMAGE-THUMBNAIL",
+            "@size": "12539",
+            "@ref": "ga1",
+            "@mimetype": "image/gif"
+          },
+          {
+            "@category": "thumbnail",
+            "@height": "89",
+            "@width": "219",
+            "@_fa": "true",
+            "$": "https://api.elsevier.com/content/object/eid/1-s2.0-S2468823124002724-gr1.sml?httpAccept=%2A%2F%2A",
+            "@multimediatype": "GIF image file",
+            "@type": "IMAGE-THUMBNAIL",
+            "@size": "7645",
+            "@ref": "gr1",
+            "@mimetype": "image/gif"
+          },
+          {
+            "@category": "high",
+            "@height": "2398",
+            "@width": "2167",
+            "@_fa": "true",
+            "$": "https://api.elsevier.com/content/object/eid/1-s2.0-S2468823124002724-sc1_lrg.jpg?httpAccept=%2A%2F%2A",
+            "@multimediatype": "JPEG image file",
+            "@type": "IMAGE-HIGH-RES",
+            "@size": "408539",
+            "@ref": "sc1",
+            "@mimetype": "image/jpeg"
+          },
+          {
+            "@category": "high",
+            "@height": "1989",
+            "@width": "2500",
+            "@_fa": "true",
+            "$": "https://api.elsevier.com/content/object/eid/1-s2.0-S2468823124002724-gr5_lrg.jpg?httpAccept=%2A%2F%2A",
+            "@multimediatype": "JPEG image file",
+            "@type": "IMAGE-HIGH-RES",
+            "@size": "505707",
+            "@ref": "gr5",
+            "@mimetype": "image/jpeg"
+          },
+          {
+            "@category": "high",
+            "@height": "1415",
+            "@width": "2500",
+            "@_fa": "true",
+            "$": "https://api.elsevier.com/content/object/eid/1-s2.0-S2468823124002724-gr4_lrg.jpg?httpAccept=%2A%2F%2A",
+            "@multimediatype": "JPEG image file",
+            "@type": "IMAGE-HIGH-RES",
+            "@size": "403718",
+            "@ref": "gr4",
+            "@mimetype": "image/jpeg"
+          },
+          {
+            "@category": "high",
+            "@height": "1565",
+            "@width": "2833",
+            "@_fa": "true",
+            "$": "https://api.elsevier.com/content/object/eid/1-s2.0-S2468823124002724-gr3_lrg.jpg?httpAccept=%2A%2F%2A",
+            "@multimediatype": "JPEG image file",
+            "@type": "IMAGE-HIGH-RES",
+            "@size": "631131",
+            "@ref": "gr3",
+            "@mimetype": "image/jpeg"
+          },
+          {
+            "@category": "high",
+            "@height": "1567",
+            "@width": "2167",
+            "@_fa": "true",
+            "$": "https://api.elsevier.com/content/object/eid/1-s2.0-S2468823124002724-gr2_lrg.jpg?httpAccept=%2A%2F%2A",
+            "@multimediatype": "JPEG image file",
+            "@type": "IMAGE-HIGH-RES",
+            "@size": "528955",
+            "@ref": "gr2",
+            "@mimetype": "image/jpeg"
+          },
+          {
+            "@category": "high",
+            "@height": "886",
+            "@width": "1324",
+            "@_fa": "true",
+            "$": "https://api.elsevier.com/content/object/eid/1-s2.0-S2468823124002724-ga1_lrg.jpg?httpAccept=%2A%2F%2A",
+            "@multimediatype": "JPEG image file",
+            "@type": "IMAGE-HIGH-RES",
+            "@size": "172890",
+            "@ref": "ga1",
+            "@mimetype": "image/jpeg"
+          },
+          {
+            "@category": "high",
+            "@height": "1180",
+            "@width": "2917",
+            "@_fa": "true",
+            "$": "https://api.elsevier.com/content/object/eid/1-s2.0-S2468823124002724-gr1_lrg.jpg?httpAccept=%2A%2F%2A",
+            "@multimediatype": "JPEG image file",
+            "@type": "IMAGE-HIGH-RES",
+            "@size": "275212",
+            "@ref": "gr1",
+            "@mimetype": "image/jpeg"
+          },
+          {
+            "@category": "standard",
+            "@_fa": "true",
+            "$": "https://api.elsevier.com/content/object/eid/1-s2.0-S2468823124002724-mmc1.docx?httpAccept=%2A%2F%2A",
+            "@multimediatype": "Microsoft Word file",
+            "@type": "APPLICATION",
+            "@size": "1245786",
+            "@ref": "mmc1",
+            "@mimetype": "application/word"
+          },
+          {
+            "@category": "thumbnail",
+            "@_fa": "true",
+            "$": "https://api.elsevier.com/content/object/eid/1-s2.0-S2468823124002724-si1.svg?httpAccept=%2A%2F%2A",
+            "@multimediatype": "Scalable Vector Graphics file",
+            "@type": "ALTIMG",
+            "@size": "2843",
+            "@ref": "si1",
+            "@mimetype": "image/svg+xml"
+          },
+          {
+            "@category": "thumbnail",
+            "@_fa": "true",
+            "$": "https://api.elsevier.com/content/object/eid/1-s2.0-S2468823124002724-si2.svg?httpAccept=%2A%2F%2A",
+            "@multimediatype": "Scalable Vector Graphics file",
+            "@type": "ALTIMG",
+            "@size": "2972",
+            "@ref": "si2",
+            "@mimetype": "image/svg+xml"
+          },
+          {
+            "@category": "thumbnail",
+            "@_fa": "true",
+            "$": "https://api.elsevier.com/content/object/eid/1-s2.0-S2468823124002724-si3.svg?httpAccept=%2A%2F%2A",
+            "@multimediatype": "Scalable Vector Graphics file",
+            "@type": "ALTIMG",
+            "@size": "8359",
+            "@ref": "si3",
+            "@mimetype": "image/svg+xml"
+          },
+          {
+            "@category": "thumbnail",
+            "@_fa": "true",
+            "$": "https://api.elsevier.com/content/object/eid/1-s2.0-S2468823124002724-si4.svg?httpAccept=%2A%2F%2A",
+            "@multimediatype": "Scalable Vector Graphics file",
+            "@type": "ALTIMG",
+            "@size": "12800",
+            "@ref": "si4",
+            "@mimetype": "image/svg+xml"
+          },
+          {
+            "@category": "thumbnail",
+            "@_fa": "true",
+            "$": "https://api.elsevier.com/content/object/eid/1-s2.0-S2468823124002724-si5.svg?httpAccept=%2A%2F%2A",
+            "@multimediatype": "Scalable Vector Graphics file",
+            "@type": "ALTIMG",
+            "@size": "7946",
+            "@ref": "si5",
+            "@mimetype": "image/svg+xml"
+          },
+          {
+            "@category": "standard",
+            "@_fa": "true",
+            "$": "https://api.elsevier.com/content/object/eid/1-s2.0-S2468823124002724-am.pdf?httpAccept=%2A%2F%2A",
+            "@multimediatype": "Acrobat PDF file",
+            "@type": "AAM-PDF",
+            "@size": "789341",
+            "@ref": "am",
+            "@mimetype": "application/pdf"
+          }
+        ]
+      },
+      "link": {
+        "@rel": "abstract",
+        "@href": "https://api.elsevier.com/content/abstract/scopus_id/85189505651"
+      }
+    }
+  }
+}

@@ -1,0 +1,794 @@
+{
+  "metadata": {
+    "title": "Revealing mechanisms for the formation of acetone and propanal in the acetoxylation of propylene on PdCu catalysts combined DFT with kMC analysis",
+    "authors": "; ; ",
+    "journal": "Molecular Catalysis",
+    "date": "2024-12-31",
+    "doi": "10.1016/j.mcat.2024.114587",
+    "abstract": "",
+    "uri": "https://api.elsevier.com/content/article/pii/S2468823124007697",
+    "pii": "S2468823124007697"
+  },
+  "fulltext": {
+    "full-text-retrieval-response": {
+      "scopus-eid": "2-s2.0-85205136418",
+      "originalText": "serial JL 315758 291210 291744 291790 291809 31 Molecular Catalysis MOLECULARCATALYSIS 2024-09-29 2024-09-29 2024-09-29 2024-09-29 2024-11-15T16:17:10 1-s2.0-S2468823124007697 S2468-8231(24)00769-7 S2468823124007697 10.1016/j.mcat.2024.114587 S300 S300.1 FULL-TEXT 1-s2.0-S2468823124X00152 2024-11-15T17:47:59.095344Z 0 0 20241201 20241231 2024 2024-09-29T06:25:22.378742Z absattachment articleinfo articlenumber articletitlenorm authfirstinitialnorm authfirstsurnamenorm cid cids contenttype copyright crossmark dateloaded dateloadedtxt datesearch datesort dateupdated dco docsubtype doctype doi eid ewtransactionid hubeid indexeddate issn issnnorm itemstage itemtransactionid itemweight openaccess openarchive pg pgfirst pii piinorm pubdateend pubdatestart pubdatetxt pubyr sectiontitle sortorder srctitle srctitlenorm srctype ssids alllist content subj subheadings suppl tomb volfirst volissue volumelist webpdf webpdfpagecount yearnav figure table e-component body mmlmath affil appendices articletitle auth authfirstini authfull authkeywords authlast highlightsabst orcid primabst ref specialabst 2468-8231 24688231 true 569 569 C Volume 569 54 114587 114587 114587 202412 December 2024 2024-12-01 2024-12-31 2024 Regular Papers article fla © 2024 Elsevier B.V. All rights are reserved, including those for text and data mining, AI training, and similar technologies. REVEALINGMECHANISMSFORFORMATIONACETONEPROPANALINACETOXYLATIONPROPYLENEPDCUCATALYSTSCOMBINEDDFTKMCANALYSIS ZHANG W 1 Introduction 2 Computational details 2.1 Density functional theory calculations 2.2 Kinetic Monte Carlo simulations 3 Results and discussion 3.1 Surface model 3.2 Adsorption properties of related species 3.3 DFT calculations for the formation mechanism of acetone and propanal in the acetoxylation of propylene to allyl acetate on PdCu3/Pd3Cu(111) surface 3.3.1 Mechanism for the formation of acetone on PdCu3/Pd3Cu(111) surface 3.3.2 Mechanism for the formation of propanal on PdCu3/Pd3Cu(111) surface 3.4 The kMC simulations for the formation of acetone and propanal in the acetoxylation of propylene to allyl acetate on PdCu3/Pd3Cu(111) surface 3.4.1 The dominant pathway for the formation of acetone 3.4.2 The dominant pathway for the formation of propanal 4 Conclusion CRediT authorship contribution statement Appendix Supplementary materials References MA 2018 7179 7189 C SHRESTHA 2018 204 207 A ZHUANG 2020 6769 6776 Z TIAN 2021 172 179 B WU 2023 Z XAVIER 2017 73 79 M HU 2023 J CHEN 2005 291 293 M STACCHIOLA 2004 15384 15385 D HANRIEDER 2015 5776 5786 E JACOBS 2023 6918 6933 H GAO 2012 8009 8020 F LIU 2023 Z NAKAYA 2023 Y GUAN 2024 X YU 2023 Y BRITO 2019 18803 18807 G SHI 2023 G KIM 2019 9158 9163 S MUTO 2023 2108 2112 R KOMEYAMA 2016 9130 9134 K ALIOTTA 2022 L WU 2021 F ROSENBOOM 2022 117 137 J LIN 2009 264 271 B HENRY 1967 2575 2580 P BARTKOWIAK 2015 303 314 M ZAIDI 1986 155 159 S WINSTEIN 1976 6913 6918 S VANHELDEN 1968 961 991 R NAKAMURA 1970 366 374 S MOISEEV 1960 377 380 M SAMANOS 1971 19 30 B HUANG 2016 1021 1028 Y KUNUGI 1970 97 105 T MINACHEV 1993 1643 1648 K MINACHEV 1985 1146 1150 K CHEN 2005 280 286 J LEWANDOWSKI 2009 46 51 G GHOLINEJAD 2021 2652 2702 M YU 2024 Y AKGUL 2024 D YUAN 2024 X WANG 2024 Q ZHANG 2024 M ZHANG 2023 M YU 2024 Y YOON 2024 Y REN 2023 J JIN 2022 J XU 2023 70 76 L PERDEW 1996 3865 3868 J BLOCHL 1994 17953 17979 P NEUGEBAUER 1992 16067 16080 J GRIMME 2010 154104 S GRIMME 2011 1456 1465 S HENKELMAN 2000 9901 9904 G WANG 2021 108033 V BORTZ 1975 10 18 A JANSEN 2012 73 117 A INTRODUCTIONKINETICMONTECARLOSIMULATIONSSURFACEREACTIONS HOWGETKINETICPARAMETERS PRATS 2016 217 226 H TRUHLAR 1996 12771 12800 D KARIM 2017 68 71 W HENKELMAN 2017 199 216 G MATTHEWTDARBY 2016 1 38 S PHYSICSSURFACEINTERFACECLUSTERCATALYSIS FIRSTPRINCIPLESBASEDKINETICMONTECARLOSIMULATIONINCATALYSIS LOPEZ 2001 59 75 N SAKONG 2007 2216 2225 S PADAMA 2017 025005 A TIERNEY 2009 7246 7250 H MOLENBROEK 1998 10680 10689 A MILLER 2008 375 382 J KHANRA 1999 307 312 B SUN 2002 12239 12246 K GOULAS 2016 6805 6812 K SHA 2014 1189 1197 Y GOULAS 2018 314 327 K LI 2015 105 111 H HAMMER 2000 71 129 B ADVANCESINCATALYSIS THEORETICALSURFACESCIENCECATALYSISCALCULATIONSCONCEPTS ZHANG 2022 125047 W XU 2019 8471 8480 Y CHU 2021 36 45 M VALCARCEL 2006 115 122 A YANG 2010 42 49 M PETERS 2016 134 140 T PULIDO 2012 138 147 A DUZENLI 2015 660 666 D LI 2003 351 363 M SONG 2016 27430 27442 Y ZHANGX2024X114587 ZHANGX2024X114587XW 2026-09-29T00:00:00.000Z 2026-09-29T00:00:00.000Z http://creativecommons.org/licenses/by-nc-nd/4.0/ © 2024 Elsevier B.V. All rights are reserved, including those for text and data mining, AI training, and similar technologies. https://doi.org/10.15223/policy-017 https://doi.org/10.15223/policy-037 https://doi.org/10.15223/policy-012 https://doi.org/10.15223/policy-029 https://doi.org/10.15223/policy-004 item S2468-8231(24)00769-7 S2468823124007697 1-s2.0-S2468823124007697 10.1016/j.mcat.2024.114587 315758 2024-11-15T17:47:59.095344Z 2024-12-01 2024-12-31 1-s2.0-S2468823124007697-main.pdf https://s3-eu-west-1.amazonaws.com/prod-ucs-content-store-eu-west/content/pii:S2468823124007697/MAIN/application/pdf/3661f5693a7ded4e30d753237270593a/main.pdf main.pdf pdf true 10501399 MAIN 13 1-s2.0-S2468823124007697-main_1.png https://s3-eu-west-1.amazonaws.com/prod-ucs-content-store-eu-west/content/pii:S2468823124007697/PREVIEW/image/png/0fa4f2b3e58856fede74af4609cd532a/main_1.png main_1.png png 56973 849 656 IMAGE-WEB-PDF 1 1-s2.0-S2468823124007697-gr8.jpg https://s3-eu-west-1.amazonaws.com/prod-ucs-content-store-eu-west/content/pii:S2468823124007697/gr8/DOWNSAMPLED/image/jpeg/35fa63bc25a54296450fe297ba1c6691/gr8.jpg gr8 gr8.jpg jpg 46318 228 376 IMAGE-DOWNSAMPLED 1-s2.0-S2468823124007697-gr7.jpg https://s3-eu-west-1.amazonaws.com/prod-ucs-content-store-eu-west/content/pii:S2468823124007697/gr7/DOWNSAMPLED/image/jpeg/f5a30bfb1b326a99a4b454b72a055615/gr7.jpg gr7 gr7.jpg jpg 66879 403 715 IMAGE-DOWNSAMPLED 1-s2.0-S2468823124007697-gr9.jpg https://s3-eu-west-1.amazonaws.com/prod-ucs-content-store-eu-west/content/pii:S2468823124007697/gr9/DOWNSAMPLED/image/jpeg/43191aa4e3fc967071db8d6a4271b231/gr9.jpg gr9 gr9.jpg jpg 75223 403 753 IMAGE-DOWNSAMPLED 1-s2.0-S2468823124007697-gr10.jpg https://s3-eu-west-1.amazonaws.com/prod-ucs-content-store-eu-west/content/pii:S2468823124007697/gr10/DOWNSAMPLED/image/jpeg/615d17226c66da693a1e11110e6878c7/gr10.jpg gr10 gr10.jpg jpg 62665 398 753 IMAGE-DOWNSAMPLED 1-s2.0-S2468823124007697-ga1.jpg https://s3-eu-west-1.amazonaws.com/prod-ucs-content-store-eu-west/content/pii:S2468823124007697/ga1/DOWNSAMPLED/image/jpeg/5207a1c697c353510bdf81497f7e823f/ga1.jpg ga1 true ga1.jpg jpg 32089 200 317 IMAGE-DOWNSAMPLED 1-s2.0-S2468823124007697-sc1.jpg https://s3-eu-west-1.amazonaws.com/prod-ucs-content-store-eu-west/content/pii:S2468823124007697/sc1/DOWNSAMPLED/image/jpeg/0b5d40750cca5424d9dc411e9458f717/sc1.jpg sc1 sc1.jpg jpg 15433 104 715 IMAGE-DOWNSAMPLED 1-s2.0-S2468823124007697-gr4.jpg https://s3-eu-west-1.amazonaws.com/prod-ucs-content-store-eu-west/content/pii:S2468823124007697/gr4/DOWNSAMPLED/image/jpeg/27d31199b2803a972364574b9c274b77/gr4.jpg gr4 gr4.jpg jpg 33878 323 376 IMAGE-DOWNSAMPLED 1-s2.0-S2468823124007697-gr3.jpg https://s3-eu-west-1.amazonaws.com/prod-ucs-content-store-eu-west/content/pii:S2468823124007697/gr3/DOWNSAMPLED/image/jpeg/2fdb69743e755c37bedb49bc386f8ef6/gr3.jpg gr3 gr3.jpg jpg 104875 392 715 IMAGE-DOWNSAMPLED 1-s2.0-S2468823124007697-gr6.jpg https://s3-eu-west-1.amazonaws.com/prod-ucs-content-store-eu-west/content/pii:S2468823124007697/gr6/DOWNSAMPLED/image/jpeg/dfeda63a99a6629a4a36d1af16099ed9/gr6.jpg gr6 gr6.jpg jpg 28120 327 376 IMAGE-DOWNSAMPLED 1-s2.0-S2468823124007697-gr5.jpg https://s3-eu-west-1.amazonaws.com/prod-ucs-content-store-eu-west/content/pii:S2468823124007697/gr5/DOWNSAMPLED/image/jpeg/70fd31df7f48aada27c41489e65ee6a4/gr5.jpg gr5 gr5.jpg jpg 74807 412 715 IMAGE-DOWNSAMPLED 1-s2.0-S2468823124007697-gr2.jpg https://s3-eu-west-1.amazonaws.com/prod-ucs-content-store-eu-west/content/pii:S2468823124007697/gr2/DOWNSAMPLED/image/jpeg/f8bc0ab3caea28ad433bde8c4aa75dde/gr2.jpg gr2 gr2.jpg jpg 124074 405 753 IMAGE-DOWNSAMPLED 1-s2.0-S2468823124007697-gr1.jpg https://s3-eu-west-1.amazonaws.com/prod-ucs-content-store-eu-west/content/pii:S2468823124007697/gr1/DOWNSAMPLED/image/jpeg/def391405fe8824ebd018d15a0d2214b/gr1.jpg gr1 gr1.jpg jpg 141540 821 715 IMAGE-DOWNSAMPLED 1-s2.0-S2468823124007697-gr8.sml https://s3-eu-west-1.amazonaws.com/prod-ucs-content-store-eu-west/content/pii:S2468823124007697/gr8/THUMBNAIL/image/gif/77eb26c9c11cc7b7b3a94c06c7b20bec/gr8.sml gr8 gr8.sml sml 22263 133 219 IMAGE-THUMBNAIL 1-s2.0-S2468823124007697-gr7.sml https://s3-eu-west-1.amazonaws.com/prod-ucs-content-store-eu-west/content/pii:S2468823124007697/gr7/THUMBNAIL/image/gif/d519a9b98795c9a092dfbea386a2291c/gr7.sml gr7 gr7.sml sml 7786 123 219 IMAGE-THUMBNAIL 1-s2.0-S2468823124007697-gr9.sml https://s3-eu-west-1.amazonaws.com/prod-ucs-content-store-eu-west/content/pii:S2468823124007697/gr9/THUMBNAIL/image/gif/7ef653ee228f7e98726329d9fc46d502/gr9.sml gr9 gr9.sml sml 8840 117 219 IMAGE-THUMBNAIL 1-s2.0-S2468823124007697-gr10.sml https://s3-eu-west-1.amazonaws.com/prod-ucs-content-store-eu-west/content/pii:S2468823124007697/gr10/THUMBNAIL/image/gif/8f89814031d44210a90187c877d38b26/gr10.sml gr10 gr10.sml sml 8061 116 219 IMAGE-THUMBNAIL 1-s2.0-S2468823124007697-ga1.sml https://s3-eu-west-1.amazonaws.com/prod-ucs-content-store-eu-west/content/pii:S2468823124007697/ga1/THUMBNAIL/image/gif/e11695a6bfdd0fb22bbd6fe1f91436bb/ga1.sml ga1 true ga1.sml sml 13534 138 219 IMAGE-THUMBNAIL 1-s2.0-S2468823124007697-sc1.sml https://s3-eu-west-1.amazonaws.com/prod-ucs-content-store-eu-west/content/pii:S2468823124007697/sc1/THUMBNAIL/image/gif/8f43415f8f747e49798842971c1ff579/sc1.sml sc1 sc1.sml sml 2251 32 219 IMAGE-THUMBNAIL 1-s2.0-S2468823124007697-gr4.sml https://s3-eu-west-1.amazonaws.com/prod-ucs-content-store-eu-west/content/pii:S2468823124007697/gr4/THUMBNAIL/image/gif/7261a96ce30073b6e91a1c936028c840/gr4.sml gr4 gr4.sml sml 8976 164 191 IMAGE-THUMBNAIL 1-s2.0-S2468823124007697-gr3.sml https://s3-eu-west-1.amazonaws.com/prod-ucs-content-store-eu-west/content/pii:S2468823124007697/gr3/THUMBNAIL/image/gif/2cb87bb52af151d7faa08870d4e07aff/gr3.sml gr3 gr3.sml sml 15977 120 219 IMAGE-THUMBNAIL 1-s2.0-S2468823124007697-gr6.sml https://s3-eu-west-1.amazonaws.com/prod-ucs-content-store-eu-west/content/pii:S2468823124007697/gr6/THUMBNAIL/image/gif/d4f7850c42430842baa009bc4c05989b/gr6.sml gr6 gr6.sml sml 7659 164 189 IMAGE-THUMBNAIL 1-s2.0-S2468823124007697-gr5.sml https://s3-eu-west-1.amazonaws.com/prod-ucs-content-store-eu-west/content/pii:S2468823124007697/gr5/THUMBNAIL/image/gif/dbebc2b6e1f37253be4c3aca5a0b2e56/gr5.sml gr5 gr5.sml sml 9364 126 219 IMAGE-THUMBNAIL 1-s2.0-S2468823124007697-gr2.sml https://s3-eu-west-1.amazonaws.com/prod-ucs-content-store-eu-west/content/pii:S2468823124007697/gr2/THUMBNAIL/image/gif/dc22fc01277d3bbdb7cbbdcb553cdba0/gr2.sml gr2 gr2.sml sml 20915 118 219 IMAGE-THUMBNAIL 1-s2.0-S2468823124007697-gr1.sml https://s3-eu-west-1.amazonaws.com/prod-ucs-content-store-eu-west/content/pii:S2045232217041074/gr1/THUMBNAIL/image/gif/c024b9d34acfba02222c5d3be4d99286/gr1.sml gr1 gr1.sml sml 11907 164 143 IMAGE-THUMBNAIL 1-s2.0-S2468823124007697-gr8_lrg.jpg https://s3-eu-west-1.amazonaws.com/prod-ucs-content-store-eu-west/content/pii:S2468823124007697/HIGHRES/image/jpeg/65a5782602e9a1bba6c83b5f517a90a3/gr8_lrg.jpg gr8 gr8_lrg.jpg jpg 331069 1011 1667 IMAGE-HIGH-RES 1-s2.0-S2468823124007697-gr7_lrg.jpg https://s3-eu-west-1.amazonaws.com/prod-ucs-content-store-eu-west/content/pii:S2468823124007697/HIGHRES/image/jpeg/a6b8ac3027edc5275c8e7a9b4b18cf2c/gr7_lrg.jpg gr7 gr7_lrg.jpg jpg 387745 1784 3167 IMAGE-HIGH-RES 1-s2.0-S2468823124007697-gr9_lrg.jpg https://s3-eu-west-1.amazonaws.com/prod-ucs-content-store-eu-west/content/pii:S2468823124007697/HIGHRES/image/jpeg/33c05e1f330818fa440ada4fe394a05b/gr9_lrg.jpg gr9 gr9_lrg.jpg jpg 425552 1785 3333 IMAGE-HIGH-RES 1-s2.0-S2468823124007697-gr10_lrg.jpg https://s3-eu-west-1.amazonaws.com/prod-ucs-content-store-eu-west/content/pii:S2468823124007697/HIGHRES/image/jpeg/4c2b4048259a42328b76438bd4e9d83f/gr10_lrg.jpg gr10 gr10_lrg.jpg jpg 362548 1763 3333 IMAGE-HIGH-RES 1-s2.0-S2468823124007697-ga1_lrg.jpg https://s3-eu-west-1.amazonaws.com/prod-ucs-content-store-eu-west/content/pii:S2468823124007697/HIGHRES/image/jpeg/1d7d077b891efb211379ffdcb91c1f91/ga1_lrg.jpg ga1 true ga1_lrg.jpg jpg 272908 886 1403 IMAGE-HIGH-RES 1-s2.0-S2468823124007697-sc1_lrg.jpg https://s3-eu-west-1.amazonaws.com/prod-ucs-content-store-eu-west/content/pii:S2468823124007697/HIGHRES/image/jpeg/6ddfa6845d433855b279f076eb4544a6/sc1_lrg.jpg sc1 sc1_lrg.jpg jpg 115646 459 3167 IMAGE-HIGH-RES 1-s2.0-S2468823124007697-gr4_lrg.jpg https://s3-eu-west-1.amazonaws.com/prod-ucs-content-store-eu-west/content/pii:S2468823124007697/HIGHRES/image/jpeg/fc5d45cf6abb55a32522725d81818048/gr4_lrg.jpg gr4 gr4_lrg.jpg jpg 193297 1432 1667 IMAGE-HIGH-RES 1-s2.0-S2468823124007697-gr3_lrg.jpg https://s3-eu-west-1.amazonaws.com/prod-ucs-content-store-eu-west/content/pii:S2468823124007697/HIGHRES/image/jpeg/63629756749d43366d7c2de4ea14b193/gr3_lrg.jpg gr3 gr3_lrg.jpg jpg 689908 1735 3167 IMAGE-HIGH-RES 1-s2.0-S2468823124007697-gr6_lrg.jpg https://s3-eu-west-1.amazonaws.com/prod-ucs-content-store-eu-west/content/pii:S2468823124007697/HIGHRES/image/jpeg/81de4e75379d5133dbe5c12d8596ff98/gr6_lrg.jpg gr6 gr6_lrg.jpg jpg 151782 1448 1667 IMAGE-HIGH-RES 1-s2.0-S2468823124007697-gr5_lrg.jpg https://s3-eu-west-1.amazonaws.com/prod-ucs-content-store-eu-west/content/pii:S2468823124007697/HIGHRES/image/jpeg/59de5f35fb26515c50f1d3922d107ba7/gr5_lrg.jpg gr5 gr5_lrg.jpg jpg 468565 1823 3167 IMAGE-HIGH-RES 1-s2.0-S2468823124007697-gr2_lrg.jpg https://s3-eu-west-1.amazonaws.com/prod-ucs-content-store-eu-west/content/pii:S2468823124007697/HIGHRES/image/jpeg/a39edde8f06b9d2bcad23b25d670e435/gr2_lrg.jpg gr2 gr2_lrg.jpg jpg 882669 1792 3333 IMAGE-HIGH-RES 1-s2.0-S2468823124007697-gr1_lrg.jpg https://s3-eu-west-1.amazonaws.com/prod-ucs-content-store-eu-west/content/pii:S2045232217023707/HIGHRES/image/jpeg/0a8d55574aa2c2ea99fdf86034a94f18/gr1_lrg.jpg gr1 gr1_lrg.jpg jpg 1016969 3635 3167 IMAGE-HIGH-RES 1-s2.0-S2468823124007697-mmc1.docx https://s3-eu-west-1.amazonaws.com/prod-ucs-content-store-eu-west/content/pii:S2468823124007697/mmc1/MAIN/application/vnd.openxmlformats-officedocument.wordprocessingml.document/7807bc28dcf4b2def77c4be64a8106d7/mmc1.docx mmc1 mmc1.docx docx 20319552 APPLICATION 1-s2.0-S2468823124007697-si1.svg https://s3-eu-west-1.amazonaws.com/prod-ucs-content-store-eu-west/content/pii:S2468823124007697/image/svg+xml/8f08ff5db9717507ccc4b509dd5752c9/si1.svg si1 si1.svg svg 6300 ALTIMG 1-s2.0-S2468823124007697-si10.svg https://s3-eu-west-1.amazonaws.com/prod-ucs-content-store-eu-west/content/pii:S2468823124007697/image/svg+xml/1843dbe25178c283a446335d084ddf73/si10.svg si10 si10.svg svg 9226 ALTIMG 1-s2.0-S2468823124007697-si11.svg https://s3-eu-west-1.amazonaws.com/prod-ucs-content-store-eu-west/content/pii:S2468823124007697/image/svg+xml/b702ff55f90c8265f2bd9418885a63a4/si11.svg si11 si11.svg svg 7828 ALTIMG 1-s2.0-S2468823124007697-si12.svg https://s3-eu-west-1.amazonaws.com/prod-ucs-content-store-eu-west/content/pii:S2468823124007697/image/svg+xml/7ba8f201a97e86d9194d7f6c9fcd71f8/si12.svg si12 si12.svg svg 3493 ALTIMG 1-s2.0-S2468823124007697-si13.svg https://s3-eu-west-1.amazonaws.com/prod-ucs-content-store-eu-west/content/pii:S2468823124007697/image/svg+xml/925b7fbff6d594f73d98e25cca621444/si13.svg si13 si13.svg svg 3553 ALTIMG 1-s2.0-S2468823124007697-si14.svg https://s3-eu-west-1.amazonaws.com/prod-ucs-content-store-eu-west/content/pii:S2468823124007697/image/svg+xml/560b55ddb73c62cc9f9337c7430a1aab/si14.svg si14 si14.svg svg 25573 ALTIMG 1-s2.0-S2468823124007697-si15.svg https://s3-eu-west-1.amazonaws.com/prod-ucs-content-store-eu-west/content/pii:S2468823124007697/image/svg+xml/ae277981483980493d7084e55f8f6d18/si15.svg si15 si15.svg svg 19505 ALTIMG 1-s2.0-S2468823124007697-si16.svg https://s3-eu-west-1.amazonaws.com/prod-ucs-content-store-eu-west/content/pii:S2468823124007697/image/svg+xml/2eef13ee46a39b6ed3a55db274f2f4d7/si16.svg si16 si16.svg svg 19400 ALTIMG 1-s2.0-S2468823124007697-si17.svg https://s3-eu-west-1.amazonaws.com/prod-ucs-content-store-eu-west/content/pii:S2468823124007697/image/svg+xml/27560e71814eb49ae603e3f3ce499c0d/si17.svg si17 si17.svg svg 18076 ALTIMG 1-s2.0-S2468823124007697-si18.svg https://s3-eu-west-1.amazonaws.com/prod-ucs-content-store-eu-west/content/pii:S2468823124007697/image/svg+xml/5472d93fe267257891b579a078d855ac/si18.svg si18 si18.svg svg 10493 ALTIMG 1-s2.0-S2468823124007697-si19.svg https://s3-eu-west-1.amazonaws.com/prod-ucs-content-store-eu-west/content/pii:S2468823124007697/image/svg+xml/549ca3703303df9057e050cb6b51cfaf/si19.svg si19 si19.svg svg 17037 ALTIMG 1-s2.0-S2468823124007697-si2.svg https://s3-eu-west-1.amazonaws.com/prod-ucs-content-store-eu-west/content/pii:S2468823124007697/image/svg+xml/d07f8fcea826770f4b5595b3a1b948bf/si2.svg si2 si2.svg svg 1845 ALTIMG 1-s2.0-S2468823124007697-si20.svg https://s3-eu-west-1.amazonaws.com/prod-ucs-content-store-eu-west/content/pii:S2468823124007697/image/svg+xml/8615f76859da9609ce65947f9e22abfa/si20.svg si20 si20.svg svg 11775 ALTIMG 1-s2.0-S2468823124007697-si21.svg https://s3-eu-west-1.amazonaws.com/prod-ucs-content-store-eu-west/content/pii:S2468823124007697/image/svg+xml/82b54c79b4f7ec99d18bcabd771ff62b/si21.svg si21 si21.svg svg 4215 ALTIMG 1-s2.0-S2468823124007697-si22.svg https://s3-eu-west-1.amazonaws.com/prod-ucs-content-store-eu-west/content/pii:S2468823124007697/image/svg+xml/8ddec0cfb66b525f122729440ee1012e/si22.svg si22 si22.svg svg 1820 ALTIMG 1-s2.0-S2468823124007697-si23.svg https://s3-eu-west-1.amazonaws.com/prod-ucs-content-store-eu-west/content/pii:S2468823124007697/image/svg+xml/314b505fb61bf85d3f357a27531a24aa/si23.svg si23 si23.svg svg 5712 ALTIMG 1-s2.0-S2468823124007697-si24.svg https://s3-eu-west-1.amazonaws.com/prod-ucs-content-store-eu-west/content/pii:S2468823124007697/image/svg+xml/9e2a6600bb3a4b5606f73258ecac2ca5/si24.svg si24 si24.svg svg 12623 ALTIMG 1-s2.0-S2468823124007697-si3.svg https://s3-eu-west-1.amazonaws.com/prod-ucs-content-store-eu-west/content/pii:S2468823124007697/image/svg+xml/f470c672168bf12ba61bc18aed5d4acf/si3.svg si3 si3.svg svg 2111 ALTIMG 1-s2.0-S2468823124007697-si4.svg https://s3-eu-west-1.amazonaws.com/prod-ucs-content-store-eu-west/content/pii:S2468823124007697/image/svg+xml/35d6649f7664e9f4ae9f572a28a25ba2/si4.svg si4 si4.svg svg 4700 ALTIMG 1-s2.0-S2468823124007697-si5.svg https://s3-eu-west-1.amazonaws.com/prod-ucs-content-store-eu-west/content/pii:S2468823124007697/image/svg+xml/daf769f019e7f792d86515ad42c07eaf/si5.svg si5 si5.svg svg 4641 ALTIMG 1-s2.0-S2468823124007697-si6.svg https://s3-eu-west-1.amazonaws.com/prod-ucs-content-store-eu-west/content/pii:S2468823124007697/image/svg+xml/9095fa176b30a686378344beb4e5c9e0/si6.svg si6 si6.svg svg 2638 ALTIMG 1-s2.0-S2468823124007697-si7.svg https://s3-eu-west-1.amazonaws.com/prod-ucs-content-store-eu-west/content/pii:S2468823124007697/image/svg+xml/e5442f4cfd2c304d14425b341dec0225/si7.svg si7 si7.svg svg 2698 ALTIMG 1-s2.0-S2468823124007697-si8.svg https://s3-eu-west-1.amazonaws.com/prod-ucs-content-store-eu-west/content/pii:S2468823124007697/image/svg+xml/58374d898741e0cb8e88bcd481c62166/si8.svg si8 si8.svg svg 3023 ALTIMG 1-s2.0-S2468823124007697-si9.svg https://s3-eu-west-1.amazonaws.com/prod-ucs-content-store-eu-west/content/pii:S2468823124007697/image/svg+xml/d6809d77276c3bf170072c1b90e2f2ca/si9.svg si9 si9.svg svg 13787 ALTIMG MCAT 114587 114587 S2468-8231(24)00769-7 10.1016/j.mcat.2024.114587 Elsevier B.V. Scheme 1 BDO production process of Darien (Lyondell method). Scheme 1 Fig. 1 (a) The top and side view of PdCu3/Pd3Cu(111) surface. Pd, Cu are shown in dark blue, orange, respectively. (b) The Bader charge distribution of the top atomic layer of PdCu3/Pd3Cu(111) surface. (c) The two-dimensional charge density map of the top atomic layer of PdCu3/Pd3Cu(111) surface. (d) The partial density of states of d band (d-PDOS) of Pd and Cu atoms on top atomic layer of the PdCu3/Pd3Cu(111) surface. Fig. 1 Fig. 2 The most stable adsorption configurations of propylene, oxygen, acetone and propanal on PdCu3/Pd3Cu(111) surface. Pd, Cu, H, C and O are shown in dark blue, orange, white, grey and red, respectively. Fig. 2 Fig. 3 The charge density difference map for the most stable adsorption configurations of propylene, oxygen, acetone and propanal on PdCu3/Pd3Cu(111) surface. Pd, Cu, H, C and O are shown in grey, blue, white, brown and red, respectively. The yellow and green regions represent electron density enrichment and dissipation, respectively. Fig. 3 Fig. 4 The reaction network for the formation of acetone on PdCu3/Pd3Cu(111) surface. Fig. 4 Fig. 5 The Gibbs free energy landscape for the formation of acetone from the partial oxidation of propylene on PdCu3/Pd3Cu(111) surface. Fig. 5 Fig. 6 The reaction network for the formation of propanal on PdCu3/Pd3Cu(111) surface. Fig. 6 Fig. 7 The Gibbs free energy landscape for the formation of propanal from the partial oxidation of propylene on PdCu3/Pd3Cu(111) surface. Fig. 7 Fig. 8 The PdCu3/Pd3Cu(111) surface model in kMC simulation. Balls of different colors represent different active sites (1: Pd Top site, 2: Cu Top site, 3: Pd-Cu fcc site, 4: Pd-Cu hcp site, 5: Cu-Cu hcp site, 6:Cu-Cu fcc site). Fig. 8 Fig. 9 (a) The reaction network for the formation of acetone combined with the actual reaction frequency of each elementary process; (b) The dominant pathway for the formation of acetone on PdCu3/Pd3Cu(111) surface. Fig. 9 Fig. 10 (a) The reaction network for the formation of propanal combined with the actual reaction frequency of each elementary process; (b) The dominant pathway for the formation of propanal on PdCu3/Pd3Cu(111) surface. Fig. 10 Table 1 Adsorption energy and electron transfer of related species on PdCu3/Pd3Cu(111) surface. Table 1 Adsorbed species Adsorption energy/eV Electron Transfer/e Propylene −1.458 −0.031 Oxygen −1.270 0.976 Acetone −0.993 0.325 Propanal −0.918 0.229 Table 2 The surface coverage of related species reached stability for the formation of acetone. Table 2 Related species O2* O* H* OH* CH3CHCH2* CH3COCH2* Surface coverage 0.0832 0.175 5.09E-06 0.0134 0.0592 0.0219 Table 3 The frequencies of elementary processes for the formation of acetone. Table 3 Elementary process N forward N reversible N actual R2: CH3CHCH2* + H* → CH3CHCH3* + * 1 −1 0 R9: CH3CHCH2* + O* → CH3CHOCH2* + * 4756 81 4675 R10: CH3CHOCH2* + H* → CH3CHOCH3* + * 3 −3 0 R12: CH3CHOCH2* + * → CH3COCH2* + H* 3536 0 3536 R13: CH3CHOCH2* + O* → CH3COCH2* + OH* 998 0 998 R14: CH3CHOCH2* → CH3COHCH2* 141 0 141 R15: CH3COHCH2* + * → CH3COCH2* + H* 3209 2079 1130 R16: CH3COHCH2* + O* → CH3COCH2* + OH* 101,947,259 101,948,248 −989 R17: CH3COCH2* + H* → CH3COCH3* + * 23,357 22,985 372 R18: CH3CHCH2* + * → CH3CCH2* + H* 181 181 0 R19: CH3CHCH2* + O* → CH3CCH2* + OH* 712 709 3 R20: CH3CCH2* + O* → CH3COCH2* + * 3 0 0 Table 4 The surface coverage of related species reached stability for the formation of propanal. Table 4 Related species O2* O* H* OH* CH3CHCH2* CH3CHCH* CH3CHCHO* CH3COCH2* Surface coverage 0.0832 0.175 5.09E-06 0.0134 0.0592 0.00117 0.00108 0.0219 Table 5 The frequencies of elementary processes for the formation of propanal. Table 5 Elementary process N forward N reversible N actual R21:CH3CHCH2* + * → CH3CHCH* + H* 1662 1425 237 R22:CH3CHCH2* + O* → CH3CHCH* + OH* 41 0 41 R23:CH3CHCH* + H* → CH3CH2CH* + * 3 0 3 R25:CH3CHCH* + O* → CH3CHCHO* + * 45 0 45 R26:CH3CHCH2* → CH3CH2CH* 34 37 −3 R27:CH3CHCH2*+ O* → CH3CHCH2O* 394 0 394 R29:CH3CHCH2O* + * → CH3CHCHO* + H* 394 0 394 R31:CH3CHCHO* + H* → CH3CH2CHO* + * 105,681 105,455 226 Revealing mechanisms for the formation of acetone and propanal in the acetoxylation of propylene on PdCu catalysts combined DFT with kMC analysis Weiwei Zhang Writing – review & editing Writing – original draft Investigation Data curation a b c Changdong Li Validation Methodology a b c Tongyan Liang Visualization Formal analysis a b c Yingzhe Yu Supervision Resources Project administration Conceptualization a b c ⁎ Minhua Zhang Software Funding acquisition a b c a Key Laboratory for Green Chemical Technology of Ministry of Education, R&D Center for Petrochemical Technology, Tianjin University, Tianjin 300072, China Key Laboratory for Green Chemical Technology of Ministry of Education R&D Center for Petrochemical Technology Tianjin University Tianjin 300072 China aKey Laboratory for Green Chemical Technology of Ministry of Education, R&D Center for Petrochemical Technology, Tianjin University, Tianjin 300072, China b Collaborative Innovation Center of Chemical Science and Engineering (Tianjin), Tianjin 30072, China Collaborative Innovation Center of Chemical Science and Engineering (Tianjin) Tianjin 30072 China bCollaborative Innovation Center of Chemical Science and Engineering (Tianjin), Tianjin 30072, China c Zhejiang Institute of Tianjin University, Ningbo, Zhejiang 315201, China Zhejiang Institute of Tianjin University Ningbo Zhejiang 315201 China cZhejiang Institute of Tianjin University, Ningbo, Zhejiang 315201, China ⁎ Corresponding author. 1,4-butanediol has attracted much attention and Lyondell method is a competitive production technology due to its wide range of feedstock sources, in which the acetoxylation of propylene to allyl acetate on PdCu catalysts is an essential step. By combining Density Functional Theory and kinetic Monte Carlo simulations, the formation mechanisms and pathways of byproducts acetone and propanal in the acetoxylation of propylene to allyl acetate on PdCu catalysts were systematically investigated. Most species tend to be adsorbed on Pd atoms, which is consistent with that Pd atoms are main active sites. Acetone is obtained by the hydrogenation of CH3COCH2*, which comes from the oxidation and then dehydrogenation of propylene. Propanal is produced by the hydrogenation of CH3CHCHO*, which can be formed by the dehydrogenation and then oxidation of propylene or the oxidation and then dehydrogenation of propylene. Compared with acetone, propanal is more difficult to form and its formation reactions have higher Gibbs activation energy. This work provides theoretical guidance for the better modification of catalysts and the reduction of byproducts acetone and propanal on microscopic and mesoscopic scales. Graphical abstract Image, graphical abstract Keywords Propylene PdCu catalysts Mechanisms Acetone Propanal Data availability Data will be made available on request. 1 Introduction Acetoxylation is a significant organic synthesis reaction, in which the C − H functionalization provides new opportunities for the construction of CO bond, 1-7 to make olefins transform into acetoxy compounds. An important application is the production of vinyl acetate monomer by the acetoxylation of ethylene. 8-16 Besides, acetoxylation of propylene with acetic acid can produce allyl acetate, which is an important organic synthesis intermediate, widely used in the field of medicine, agriculture, surfactant, resin, etc., and has broad market prospects. 17-21 In recent years, with the increasing demand for the degradable plastic, as an important raw material of poly (butylene succinate) (PBS) and poly (butyleneadipate-co-terephthalate) (PBAT), which are degradable plastic with excellent properties, 1,4-Butanediol (BDO) has a good market situation. 22-24 Farther more, propylene currently has the problem of overcapacity. The research and development of the production of allyl acetate using propylene, oxygen and acetic acid as raw materials and further production of BDO can not only meet the current market demand for degradable plastic, but also alleviate the situation of propylene overcapacity. 18 Darien now uses this method to produce BDO, the basic principle of which is shown in Scheme 1 . There are two processes for the preparation of allyl acetate by acetoxylation of propylene: liquid phase method and gas phase method. For the liquid phase method, the selectivity of is low and more byproducts such as propenyl acetate, isopropenyl acetate, acetone and CO2 will be produced. 25-29 In addition, there are other problems such as higher pressure (1–7MPaG), strong corrosiveness of the medium, complex catalyst system with frequent regeneration (PdCl2 or Pd(OCOCH3)2), which limit the industrial application of liquid phase method. The gas phase method is performed by the reaction of propylene, acetic acid and oxygen with the temperature of 413.15–453.15 K and the pressure of 0.5–1MPaG in the tubular fixed-bed reactor filled with Pd based catalyst and it is currently the mainstream process for the production of allyl acetate, which is similar to the process of ethylene acetoxylation to produce vinyl acetate. Further studies have been conducted on the mechanism of acetoxylation of ethylene over Pd based catalysts. Van Helden et al. first described the mechanism of the homogeneous process (liquid phase method): the olefin is coordinated to the Pd salt catalysts; next a CO bond is formed by the coupling of the acetoxy species to the olefin; then the β-H elimination reaction occurs to form vinyl acetate; and finally, the catalyst is regenerated by a redox system. 30 However, the homogeneous process has been almost completely replaced by heterogeneous process catalyzed by Pd metal catalyst, whose mechanisms mainly consist of S-mechanism and M-mechanism. 31 , 32 In 1971, Samanos et al. put forth a hypothesis suggesting that acetic acid adsorbed on the surface of Pd based catalysts would be dehydrogenated, forming acetoxy species, which would then undergo a coupling reaction with ethylene, resulting in the formation of intermediate CH2CH2OCOCH3*. Finally, the β-H elimination reaction of CH2CH2OCOCH3* would yield the desired product of vinyl acetate. 33 In contrast, Moiseev et al. proposed that ethylene adsorbed on the catalyst surface initially undergoes dehydrogenation to form vinyl, which then couples with acetoxy species adsorbed on the catalyst surface to generate vinyl acetate. 31 Later, a comprehensive comparative DFT study on the mechanism of acetoxylation of ethylene was performed to reveal that Moiseev mechanism is preferred on PdAu(100) surface. 34 For the acetoxylation of propylene, there were several studies examining the reaction mechanism. Kunugi et al. studied the acetoxylation of olefins on supported Pd metal and Pd salt catalysts in the gas phase, and proposed two catalytic mechanisms on the catalysts of Pd metal and Pd salts, respectively, as shown in Figure S1a and S1b. 35 Two decades later, in 1993, Minachev et al. investigated the reaction of propylene, acetic acid and oxygen using Pd-zeolite as catalyst, and discussed the formation mechanism of allyl acetate, as shown in Figure S1c. 36 Besides, Minachev hypothesized a different mechanism of the acetoxylation of propylene using PdCu catalysts in the gas phase method, that is, propylene was first oxidized to allyl alcohol, followed by its esterification by acetic acid. 37 However, it was found that both O atoms in the reaction product of acetoxylation of propylene were derived from acetic acid, and the reaction scheme they proposed was actually same as the mechanism in Figure S1c. In 2005, referring to the reaction mechanism of ethylene acetoxylation to vinyl acetate by Nakamura, 31 Chen et al. speculated the mechanism of propylene acetoxylation, including two steps, which are oxygen-assisted dehydrogenation first and then the coupling of acetyloxy and allyl, as shown in Figure S1d. 38 In general, the palladium and its salts or complexes are the most effective catalysts for acetoxylation. Whereas, the addition of the second metal compounds to the palladium catalyst usually improves the selectivity of target products, such as copper and iron. 39 With the improvement and development of the process of propylene acetoxylation to allyl acetate, most of catalysts are the bimetallic Palladium-Copper (PdCu) catalysts, 27 , 40-49 which can not only improve the selectivity of allyl acetate, but also reduces the economic cost of using palladium in industrial processes. 50 Besides, the formation mechanism of CO2 in the production of allyl acetate from propylene on PdCu(111) surface has been studied in our previous study. 51 However, acetone and propanal, as the byproducts of partial oxidation of propylene, may exit in the system of propylene acetoxylation to allyl acetate. 27 , 28 , 35 , 36 , 38 And there is a dearth of comprehensive and methodical investigation into the genesis of these two byproducts, which have limited the reduction of byproducts formation and the modification of catalyst to a great extent. Density functional theory (DFT) has become a pivotal research instrument in the area of physical chemistry, offering substantial insights into the chemical reaction mechanisms. 52-54 And kinetic Monte Carlo (kMC) is a statistical simulation method guided by probabilistic statistical theory, which can elucidate the interactions between all elementary processes in catalytic processes. 55-57 Furthermore, the combination of DFT and kMC has also been widely employed for the investigation of the reaction mechanism underlying catalytic processes. 58-61 In this study, Density Functional Theory (DFT) and kinetic Monte Carlo (kMC) simulations were performed to investigated the formation mechanisms and the dominant formation pathways of acetone and propanal in the process of propylene acetoxylation to allyl acetate on PdCu catalysts. Firstly, the reaction networks and surface model of PdCu catalysts were constructed. Then the adsorption properties of related species and all elementary reactions of the reaction networks were studied to reveal the reaction mechanisms by DFT calculations. Based on this, related kinetic parameters were obtained and used for kMC simulations to clarify dominant formation pathways of acetone and propanal. It's hoped that our work will provide theoretical guidance for the better modification of catalysts and the reduction of byproducts acetone and propanal on microscopic and mesoscopic scales. 2 Computational details 2.1 Density functional theory calculations DFT calculations were performed using the Vienna ab initio simulation package (VASP) with the exchange-correlation functional of Perdew-Burke-Ernzerhof (PBE) 62 within the projector-augmented-wave (PAW) method. 63 With the convergence test performed, the cutoff energy for expanding the wave function into plane wave basis functions was set to 500 eV. A dipole correction was applied in the direction normal for slab calculations. 64 The relaxation of the electronic degrees of freedom stopped if the total energy change and the band-structure-energy change between two steps were both smaller than 10–5 eV and the ionic relaxation loop was stopped when the norms of all the forces were smaller than 0.03 eV/Å. DFT-D3 method with Becke-Johnson damping function was used for the van der Waals correction. 65 , 66 The climbing image nudged elastic band (CI-NEB) method was used to calculate the transition states, which were confirmed by observing one single imaginary frequency. 67 The Gibbs free energy is calculated by eq (1): (1) G = E + Z P E + H − T S Where E represents the electronic energy, ZPE represents the zero-point energy correction, H represents the thermal correction to enthalpy, T represents the temperature, S represents the entropy and the PV contribution to translation for adsorbed molecules is neglected. 68 In this work, the T was set to 433.15 K, which is the typical temperature of the process of propylene acetoxylation to allyl acetate. The Gibbs reaction energy ( G r ) and activation energy ( G a ) were calculated by eq (2) and eq (3), respectively. (2) G r = G F S − G I S (3) G a = G T S − G I S Where G I S , G T S and G F S are the Gibbs free energy of related initial states (IS), transition states (TS) and final sates (FS), respectively. 2.2 Kinetic Monte Carlo simulations Kinetic Monte Carlo (kMC) is a variant of Monte Carlo method which is a statistical simulation method under the guidance of probability statistics theory. VSSM (Variable Step Size Method) and Lattice-gas Model were used for the kMC simulation. 69 The two-dimensional periodic model with 128 × 128 lattice points was used to represent the catalyst surface. According to the collision theory, the adsorption rate constants is calculated from eq (4). 70 (4) k ads = σ 1 P A site 2 π m k B T Where P is the partial pressure (Pa) of adsorbate in the gas phase; A site is the area of an adsorption site; σ 1 is the adhesion coefficient, which is set to 1; 71 m is the mass (kg) of an adsorbate molecule; k B is Boltzmann constant; T is the temperature (K). The reaction rate constant is calculated by Transition State Theory (TST). 72 (5) k = ν exp ( − E a R T ) Where ν is pre-exponential factor; R is the ideal gas constant; T is the reaction temperature (K) and E a is the energy difference between transition state and initial state corrected by ZPE correction. The pre-exponential factor ν is calculated as follows. 73 , 74 (6) ν = ∏ i = 1 3 n ν i I S ∏ i = 1 3 n − 1 ν i T S Where ν i I S is the vibrational frequency of initial state; ν i T S is the vibrational frequency of transition state (excluding the imaginary frequency); n is the number of atoms of the reactant (adsorbate). The rate constant of gas desorption is defined as: (7) k des = Q vib , gas Q vib , ads Q rot , gas k B 2 T 2 h 3 A site ( 2 π m i ) exp ( − E des k B T ) Where Q vib,gas and Q vib,ads are the vibrational partition functions of gaseous and adsorbed molecules; Q rot,gas is the rotational partition function of gaseous molecules; h is Planck constant; mi is the mass of gas molecules (kg). E des is the desorption barrier, which is numerically equal to adsorption energy. Q vib,gas is defined as eq (8) (linear molecule) and eq (9) (nonlinear molecule). (8) Q vib , gas = ∏ i = 1 3 n − 5 e − h v i 2 k B T 1 − e − h v i k B T (9) Q vib , gas = ∏ i = 1 3 n − 6 e − h v i 2 k B T 1 − e − h v i k B T Where v i is the vibrational frequency of gaseous molecule; n is the number of atoms of gaseous molecule. Q vib,ads is defined as: 75 (10) Q vib , ads = ∏ i = 1 3 n e − h v i 2 k B T 1 − e − h v i k B T Q rot,gas is defined as eq (11) (linear molecule) and eq (12) (nonlinear molecule). 70 (11) Q rot , gas = 1 σ T θ rot (12) Q rot , gas = π σ ( T 3 θ rot , A θ rot , B θ rot , C ) 1 / 2 Where σ is a dimensionless symmetric number; θ rot, θ rot,A, θ rot,B and θ rot,C are rotational characteristic temperatures (K), which can be obtained from literatures. 70 3 Results and discussion 3.1 Surface model It's generally acknowledged that PdCu alloys have fcc crystal features and (111) facet is the most stable surface for the fcc crystal. 76-78 What's more, the top atomic layer of PdCu is rich in Cu, while the near surface region is rich in Pd. 79 , 80 The Pd atoms in the surface layer are surrounded by Cu atoms and tends to be dispersed as isolated monomers. 79 , 81-83 More importantly, in the process of propylene acetoxylation to allyl acetate, the content of Pd in the catalyst is higher than that of Cu, and the molar ratio of Pd to Cu is usually about 3. 49 , 84 , 85 Therefore, we aimed to construct the surface model of PdCu(111) with Cu-rich in surface layer and Pd-rich in bulk phase, and the molar ratio of Pd to Cu is close to the value of related patents. Goulas et al. investigated the synergistic effects in PdCu catalysts in oxygenate coupling reactions and the results showed that the catalyst composed of 3:1 (Pd:Cu) had higher catalytic activity and meanwhile, the surface of the catalyst is rich in Cu. 86 The oxidative coupling catalyzed by Pd catalysts plays an important role in organic synthesis, which is an effective method to construct CC bond, CN bond and CO bond. For the acetoxylation of propylene, the C atom of methyl of propylene and O atom of acetoxy group of acetic acid are coupling and the ratio of Pd to Cu of the catalyst is similar. 86 Consequently, the similar surface model was constructed in this work, which is shown in Fig. 1 (a). The k-point of 11 × 11 × 11 was used for the optimization of Pd and Pd3Cu lattice cells. The Pd3Cu lattice cell is similar to pure Pd and Cu lattice cells in that it is a face centered cubic crystal. 87 The bulk lattice constants of Pd are 3.935 Å, which is in good agreement with the experimental value of 3.890 Å and calculated value of 3.989 Å. 86 , 88 The bulk lattice constants of PdCu are 3.867 Å, which is consistent with the calculated value of 3.891 Å. 86 , 88 In order to examine the stability of the Pd3Cu alloy, the formation energy (E f) was calculated according to the following equation: 89 (13) E f = E alloy − N A E A ( bulk ) − N B E B ( bulk ) Where E alloy is the energy of the alloy cell; N i and E i ( bulk ) are the number of i atoms in the alloy cell and the energy of one bulk-phase atom of mono-metal i. A stable alloy needs to fulfill the condition that the formation energy is negative. In this work, the formation energy of Pd3Cu cell is −0.304 eV, which shows that the Pd3Cu alloy can exist stably. The Pd3Cu cell is then cleaved, a 4 × 6 supercell is created and the associated atoms in the top atomic layer are replaced and optimized to obtain a PdCu3/Pd3Cu(111) surface model, which is consistent with Pd atoms in the surface layer being surrounded by Cu atoms and dispersed as isolated monomers. In addition, for the surface model, the vacuum layer of 20 Å was used and the k-point was set to 2 × 4 × 1 with the convergence test performed. The uppermost two layers of atoms of the surface model were allowed to relax while the bottom layers of atoms were restricted. Furthermore, Bader charge was calculated for the surface model, and the charge distribution of the top atomic layer is shown in Fig. 1(b). It can be found that on top atomic layer, Pd atoms all have the charge of −0.228 |e| and Cu atoms have the charge of about 0.123 |e|, which indicates that electron transfer has taken place between Pd and Cu atoms, increasing the electron density of Pd atoms. This result is consistent with the difference in electronegativity between Pd and Cu atoms. The two-dimensional charge density map of the top atomic layer is depicted in Fig. 1(c), which provides a more visual representation of the charge difference between the Pd and Cu atoms. For the transition metals Pd and Cu, the electronic nature of the d-band is more important in contributing to chemisorption properties and catalytic properties than the s-band and p-band electrons. The d-band center model proposed by Nørskov is widely used for surface reactions catalyzed by transition metals. 90 The partial density of states of d band (d-PDOS) of Pd and Cu atoms on top atomic layer of the PdCu3/Pd3Cu(111) surface model are shown in Fig. 1(d), where the d-band centers and Fermi level are marked. The closer the d-band center is to the Fermi level, the higher the energy of the d-band electrons, the higher the catalytic activity of the metal surface and the stronger the interaction between the adsorbed species and the metal catalyst surface. The d-band center of Pd atom is −1.413 eV, while the d-band center of Cu atom is −1.632 eV. The d-band center of Pd atom is closer to Fermi level, so that Pd atoms have stronger interaction with adsorbed species and are more active on PdCu3/Pd3Cu(111) surface, which can also explain the preference of adsorbed species to adsorb at Pd atoms in the later section. 3.2 Adsorption properties of related species The adsorption properties of propylene, oxygen, acetone and propanal on PdCu3/Pd3Cu(111) surface were investigated. The adsorption energies and electron transfer between these species and the surface model are shown in Table 1 . The most stable adsorption configurations are illustrated in Fig. 2 . As can be seen from Fig. 2, these species tend to be adsorbed on Pd atoms, including Pd top sites, Pd-Cu bridge sites and Pd-Cu fcc sites, which is consistent with that Pd atoms are main active sites in the acetoxylation of propylene. The results of our previous work show that ethylene is more easily adsorbed on Pd top site on PdAu(100) surface and the two carbon atoms of ethylene are bound to one Pd atom. 91 Xu et al. studied the active sites of Pd nanocrystals for propyne semihydrogenation and their DFT calculation showed that propylene was adsorbed on Pd octahedrons and cubes in a π adsorption mode, in which the two carbon atoms with sp 2 hybridization are adsorbed on the same Pd atom. 92 Chu et al. performed DFT calculations to investigate the behavior of propylene binding on a single Pd atom (C3H6-Pd). 93 Besides, there are some research shows that propylene adsorbs preferentially on Pt(111) and Pd3Ag(111) in a di-σ adsorption mode where the double bond bridge two next neighbour Pd or Pt atoms on the surface. 94-96 Consequently, the π and di-σ adsorption modes of propylene on the PdCu3/Pd3Cu(111) surface were studied. These adsorption configurations and their adsorption energy are shown in Figure S2. It is worth noting that after optimization, the configuration of di-σ adsorption mode would be transformed into the π adsorption mode, that is, on PdCu3/Pd3Cu (111) surface, the configurations of di-σ adsorption mode are extremely unstable, which can be attributed to the difference in the electronegativity between Pd and Cu atoms. For π adsorption mode, the configuration of propylene adsorbed on Pd atom has larger adsorption energy and is more stable than that of Cu atom. Then, additional calculation was conducted to investigated the effect of different methyl orientations on the stability of adsorption configurations. The results showed that the difference in the adsorption energy of the adsorption configurations with different methyl orientations does not exceed 0.02 eV, so the methyl orientation has almost no effect on the adsorption stability. On PdCu3/Pd3Cu(111) surface, O2 has a variety of adsorption configurations, as shown in Figure S3, among which the most stable adsorption configuration of O2 is “CuCu-PdCu-Bri1” with the adsorption energy of −1.270 eV, whose two oxygen atoms are adsorbed on the Pd-Cu bridge site and Cu-Cu bridge site, respectively. For acetone, the O atom is adsorbed on the Cu-Cu bridge site, while the C atom with sp 2 hybridization is adsorbed on the Pd top site, forming the most stable adsorption configuration, with the adsorption energy of −0.993 eV. Propanal is also adsorbed on PdCu3/Pd3Cu (111) surface via its O atom and the C atom with sp 2 hybridization, which form bonds with the Cu and Pd atoms to obtain the preferred adsorption configuration with the adsorption energy of −0.918 eV. Table 1 also lists the electron transfer between adsorbed species and PdCu3/Pd3Cu(111) surface. The results demonstrated that propylene has the largest adsorption energy among the four species, while exhibiting minimal electron transfer with the PdCu3/Pd3Cu(111) surface. This observation led to the hypothesis that there is no direct relationship between electron transfer and adsorption energy. We further calculated the Bader charge of each atom of these species before and after adsorption on PdCu3/Pd3Cu(111) surface, as shown in Table S1. Meanwhile, the charge density difference map was plotted in Fig. 3 to visually express the charge transfer before and after adsorption of related species. There is almost no electron transfer between propylene and the surface model, which may be caused by the equilibrium of electron density between the C = C bond of propylene and Pd atom on the catalyst surface. O2 gains the most electrons via its two oxygen atoms from Pd and Cu atoms of the catalyst surface. For acetone and propanal, they all obtain some electron through their O atoms and C atoms with sp2 hybridization. 3.3 DFT calculations for the formation mechanism of acetone and propanal in the acetoxylation of propylene to allyl acetate on PdCu3/Pd3Cu(111) surface 3.3.1 Mechanism for the formation of acetone on PdCu3/Pd3Cu(111) surface Acetone is the byproduct from the partial oxidation of propylene during the production of allyl acetate. The reaction network 97-99 is illustrated in Fig. 4 , consisting of 20 elementary reactions, whose Gibbs reaction energy ( G r ) and activation energy ( G a ) are listed in Table S2. The dissociation reaction of O2 (R1) on the catalyst surface was first investigated to produce activated oxygen atoms. R1 is a strong exothermic reaction, which releases the energy of 1.91 eV and the Gibbs activation energy is only 0.08 eV. With the progress of the reaction, the two oxygen atoms gradually move away until they are located on the Pd-Cu fcc site and Pd-Cu hcp site, respectively. Starting from propylene, acetone can be obtained by adding an oxygen atom, removing and adding a hydrogen atom, respectively. R2 is the combination reaction of propylene with H* to form the intermediate CH3CHCH3* adsorbed at Pd top site, whose Gibbs reaction energy is 0.54 eV and Gibbs activation energy is 0.92 eV. CH3CHCH3* may then undergo the oxidation reactions, including R3 and R4. R3 is the formation reaction of CH3CHOCH3* through the coupling of CH3CHCH3* and O*, with the Gibbs activation energy of 1.04 eV and Gibbs reaction energy of −0.60 eV. R4 is the reaction of OH* binding to CH3CHCH3* to form CH3CHOHCH3*, which may undergo the direct dehydrogenation reaction (R5) and O-assisted dehydrogenation reaction (R6) to form the same product as R3. Compared with R3, R4 needs to overcome higher energy barrier of 1.77 eV, while the next O-assisted dehydrogenation of reaction (R6) only has the activation energy of 0.14 eV. Finally, acetone is obtained by the direct dehydrogenation reaction (R7) and O-assisted dehydrogenation reaction (R8) of CH3CHOCH3*, with the Gibbs activation energy of 0.94 and 0.76 eV, respectively. The configurations of initial states, transition states and final states for R1-R8 are shown in Figure S4 and the Gibbs free energy landscape is shown as red lines in Fig. 5 . Moreover, propylene can first undergo oxidation reaction, combining with O* to form the intermediate CH3CHOCH2*, with the same Gibbs activation energy as R2, 0.92 eV. CH3CHOCH2* is adsorbed on the PdCu3/Pd3Cu(111) surface via its O atom located at Pd-Cu fcc site and the C atom of CH2 group located at Pd top site, and there are four pathways to form acetone by CH3CHOCH2*. R10 is the hydrogenation reaction of CH3CHOCH2* to CH3CHOCH3*, which need to overcome the energy barrier of 0.30 eV and then acetone is produced by R7/R8. R11 is the hydrogen transfer reaction of CH3CHOCH2*, leading directly to acetone. As the reaction proceeds, the H atom of CHO group is shifted to the C atom of CH2 group and in the transition state configuration, the H atom is located between the two C atoms. R11 has a relatively high Gibbs activation energy of 1.15 eV. Apart from the oxidation and dehydrogenation reactions, the dehydrogenation of CH3CHOCH2* was also researched. R12 and R13 are the direct dehydrogenation and O-assisted dehydrogenation reactions to produce CH3COCH2*, with the Gibbs activation energy of 0.37 and 0.41 eV, respectively. CH3COCH2* is adsorbed on the catalyst surface through its C = C bond and O atom and then acetone is formed when one H atom attacks the C atom of CH2 group, which has the Gibbs activation energy of 0.69 eV (R17). Interestingly, we also found that CH3CHOCH2* can generate more stable intermediate CH3COHCH2* via hydrogen transfer reaction with the Gibbs activation energy of 0.49 eV. Then the direct dehydrogenation reaction (R15) and O-assisted dehydrogenation reaction (R16) of CH3COHCH2* may occur the form the same intermediate as R12/R13, with the energy barrier of 0.59 and 0.02 eV. The Gibbs free energy landscape of R9-R17 is shown as blue lines in Fig. 5. The dehydrogenation of propylene to form the intermediate CH3CCH2* was also studied. The formation reactions of CH3CCH2* are endothermic, including direct dehydrogenation reaction (R18) and O-assisted dehydrogenation reaction (R19), whose Gibbs activation energies are 1.14 and 1.15 eV, and need to adsorb the energy of 1.02 and 0.37 eV, respectively. CH3CCH2* is adsorbed on the Pd top site through its middle carbon atom, which is in an unsaturated state. Then, due to the high amount of O2 in the reaction system for the acetoxylation of propylene to allyl acetate and the ease with which O2 dissociation reaction can take place, the oxidation of CH3CCH2* to CH3COCH2* (R20) was considered, with the Gibbs activation energy of 0.52 eV and the Gibbs reaction energy of −1.36 eV. Finally, the coupling of H* and CH3COCH2* (R17) may take place to form acetone. The Gibbs free energy landscape of R18-R20 is shown as green lines in Fig. 5. Analyzing the results of the calculations, when propylene is first hydrogenated to produce the intermediate CH3CHCH3*, the dominant pathway for further generating acetone is CH3CHCH2* → CH3CHCH3* → CH3CHOCH3* → CH3COCH3* (R2 → R3 → R8) and the combination reaction of CH3CHCH3* and O* has the highest Gibbs activation energy of 1.04 eV. When propylene is first oxidized to form the intermediate CH3CHOCH2*, except for the hydrogen transfer reaction (R11), other reactions are all possible and compete with each other to finally produce acetone. In this pathway, the oxidation of propylene to CH3CHOCH2* has the highest activation energy of 0.92 eV. For the last pathway, the activation energy of the dehydrogenation reaction of propylene to CH3CCH2* (R18) is as high as 1.14 eV, indicating that it is difficult to gain an advantage in the competition with R2 and R9. 3.3.2 Mechanism for the formation of propanal on PdCu3/Pd3Cu(111) surface Propanal is also the byproduct of the partial oxidation of propylene during the production of allyl acetate. The reaction network 100 is illustrated in Fig. 6 , of which elementary reactions were listed in Table S3. The configurations of initial states, transition states and final states for each elementary reaction are shown in Figure S5. The Gibbs free energy landscape for the formation of byproduct propanal on PdCu3/Pd3Cu(111) surface is shown in Fig. 7 . Before investigating the partial oxidation of propylene to form propanal, we studied the combination reaction of O* and H* to form OH* (R32). The reaction is strongly exothermic, requiring only 0.13 eV of activation energy to be overcome, and can release the energy of 0.87 eV. Given the high content of O* in the reaction system and the ease of O* and H* combination reaction, oxidation or dehydrogenation reactions, rather than hydrogenation reactions, are the first to be considered in the studies on the formation reactions of propanal. R21 and R22 are the direct and O-assisted dehydrogenation reactions of propylene to produce the intermediate CH3CHCH*, which is adsorbed on the Pd-Cu fcc site via its C atom that has lost one H atom. The two reactions are both endothermic, which need to overcome the energy barrier of 1.16 and 1.26 eV, and absorb the energies of 0.55 and 0.05 eV, respectively. R23 is the hydrogenation reaction of CH3CHCH* to CH3CH2CH*, with the Gibbs activation energy of 0.61 eV and Gibbs reaction energy of 0.34 eV. The intermediate CH3CH2CH* has a similar adsorption configuration to CH3CHCH* at the Pd-Cu fcc site. R24 is the combination reaction of CH3CH2CH* with O* to produce propanal, whose Gibbs activation energy is 0.51 eV and Gibbs reaction energy is −0.91 eV. Unlike R23 and R24, CH3CHCH* can also be oxidized (R25) and then hydrogenated (R31) to generate propanal. R25 is a strongly exothermic reaction, which need to overcome the energy barrier of 0.73 eV and release the energy of 0.96 eV and the final state CH3CHCHO* is adsorbed on the Cu top site via its O atom and Pd top site via its C atom in the CH group. Finally, propanal is obtained by the hydrogenation reaction of CH3CHCHO*, which has the Gibbs activation energy of 0.40 eV and Gibbs reaction energy of 0.23 eV. Additionally, the hydrogen transfer reaction of propylene to CH3CH2CH* (R26) was studied, which has the same product as R23, and the Gibbs activation energy is 1.05 eV, which is slightly lower than that of R21 and R22. The Gibbs free energy landscape of R21-R26 is shown as red lines in Fig. 7. Next, we considered the pathway in which propylene first combines with O* to undergo the oxidation reaction. R27 is the formation reaction of CH3CHCH2O* by the combination of propylene and O*, with the Gibbs activation energy of 1.24 eV and Gibbs reaction energy of 0.62 eV. CH3CHCH2O* is adsorbed on the PdCu3/Pd3Cu(111) surface via its O atom located at Pd-Cu fcc site and its C atom in CH group located at Pd top site. R28 is the hydrogen transfer reaction of CH3CHCH2O* leading to propanal, with the Gibbs activation energy of 1.15 eV, which is more difficult to occur than the direct dehydrogenation reaction (R29) of CH3CHCH2O* to CH3CHCHO*, with the Gibbs activation energy of 0.34 eV. Besides, CH3CHCHO* can be formed by the O-assisted dehydrogenation reaction of CH3CHCH2O*, which has much high energy barrier of 1.88 eV and will release the energy of 1.34 eV. Finally, the C atom in CH group of CH3CHCHO* will be attacked by H* atom to form propanal, whose Gibbs activation energy is 0.40 eV. The Gibbs free energy landscape of R27-R31 is shown as blue lines in Fig. 7. Lastly, the formation reactions of H2O are investigated, consists of the combination of OH* with H* (R33) and the disproportionation of OH* (R34) with the Gibbs activation energy of 0.48 eV and 0.41 eV, and the Gibbs reaction energy of −0.10 and 0.27 eV, respectively. The configurations of initial states, transition states and final states for R33 and R34 are shown in Figure S6. 3.4 The kMC simulations for the formation of acetone and propanal in the acetoxylation of propylene to allyl acetate on PdCu3/Pd3Cu(111) surface In this section, based on the data derived in Section 3.3, kMC simulations of the reaction network for the generation of acetone and propanal were carried out to gain further insight into the possible partial oxidation of propylene on PdCu3/Pd3Cu(111) surface. The dominant pathways for the formation of acetone and propanal were analyzed in conjunction with the results of the kMC simulations. The PdCu3/Pd3Cu(111) surface model in kMC simulation is illustrated in Fig. 8 , which corresponds to the surface model in DFT calculation with the same active sites. All species of the partial oxidation of propylene to acetone and propanal are defined in the lattice-gas model, including CH3CHCH2*, O2*, O*, H*, OH*, CH3COCH2*, CH3CHOCH3*, CH3COCH3*, CH3CHCHO* and CH3CH2CHO*, etc. The reaction networks for kMC simulation consists of the adsorption and desorption of reactants and products, surface reactions and surface diffusion. Surface diffusion mainly considers the diffusion of O* and OH*, which are the main intermediate species on PdCu3/Pd3Cu(111) surface. The elementary processes and related kinetic parameters are shown in Table S5. For the elementary reactions, symbol ‘↔’ indicates that the positive and reverse reactions are both considered in the simulation. E a,f and E a,r represent the activation energy of the positive reaction and reverse reaction, respectively; ν 0,f and ν 0,r are the pre-exponential factor of the positive reaction and reverse reaction, respectively. The simulated conditions are set as the industrial operation conditions for the preparation of allyl acetate by acetoxylation of propylene, the specific temperature is 433.15 K, the pressure is 0.90 MPa, and the mole fraction of propylene and oxygen is 0.41 and 0.06, respectively. The kMC simulation time was 1 s, at which point the surface coverage of each species reached stability and the reaction system reached equilibrium. The surface coverage of each species and the reaction frequency of each elementary reaction in the reaction network for the formation of acetone and propanal when the reaction system reaches equilibrium are analyzed. 3.4.1 The dominant pathway for the formation of acetone The surface coverage of related species in kMC simulation are listed in Table 2 and species not mentioned in the table have a coverage of almost 0. It can be found that O* has the highest surface coverage, followed by O2* and propylene, which are all the reactants for the partial oxidation of propylene to acetone. Besides, it is noteworthy that only the intermediate CH3COCH2* was detected with a surface coverage of 0.0219, which is the key specie for the formation of acetone. The forward and reverse reaction frequencies of each elementary process for the formation of acetone on PdCu3/Pd3Cu(111) surface when the system reaches steady state in the kMC simulation are shown in Table 3 . The frequency an elementary process actually occurs is calculated by eq (14) and for the elementary process not listed, the forward and reverse reaction frequencies are both 0. (14) N actual = N forward − N reversible Where N actual represents the actual reaction frequency of an elementary process; N forward represents the forward reaction frequency and N reversible represents the reverse reaction frequency. The frequencies of elementary processes for the formation of acetone show that on PdCu3/Pd3Cu(111) surface, there is an absolute predominance of propylene combining with O* (R9) to react to form CH3CHOCH2*, which is also consistent with the highest surface coverage of O*. Then, 75.64 % of CH3CHOCH2* was directly dehydrogenated (R12) to generate the key intermediate specie CH3COCH2* and 21.35 % of CH3CHOCH2* underwent the O-assisted dehydrogenation (R13) to produce the key intermediate specie CH3COCH2*. Additionally, the remaining 3.02 % of CH3CHOCH2* produces CH3COCH2* through hydrogen transfer reaction (R14) and direct dehydrogenation reaction (R15). It is worth noting that all CH3CHOCH2* has reacted to form CH3COCH2* via R12-R16. Finally, the hydrogenation reaction of CH3COCH2* (R17) occurs to produce acetone, which all underwent the process of desorption. And the conversion of CH3COCH2* was 7.95%. The reaction network for the formation of acetone combined with the actual reaction frequency of each elementary process is shown in Fig. 9 (a), in which the actual reaction frequencies are represented as red numbers. As shown in Fig. 9(a), the dominant pathway for the formation of acetone can be readily discerned, which is illustrated in Fig. 9(b). 3.4.2 The dominant pathway for the formation of propanal The surface coverage of related species in kMC simulation are listed in Table 4 and species not mentioned in the table have a coverage of almost 0. Different from the formation of acetone, there were two main intermediates, CH3CHCH* and CH3CHCHO*, with the surface coverage of 0.00117 and 0.00108, which were both lower than that of CH3COCH2*. The forward and reverse reaction frequencies of each elementary process for the formation of propanal on PdCu3/Pd3Cu(111) surface when the system reaches steady state in the kMC simulation are shown in Table 5 . From the data in Table 5, it can be seen that propylene can generate CH3CHCH2O* through oxidation reaction (R27) and CH3CHCH* through dehydrogenation reactions (R21 and R22) in the ratio of 1.42. CH3CHCH* mainly reacts with O* (R25) to form the key intermediate specie CH3CHCHO*, with the conversion of 16.19 %. Besides, a negligible quantity of CH3CHCH* will be transformed into CH3CH2CH* through hydrogenation reaction (R23). However, the specie CH3CH2CH* will subsequently engage in the hydrogen transfer reaction (the reverse reaction of R26), ultimately yielding propylene. For the intermediate CH3CHCH2O*, it all undergoes the direct dehydrogenation reaction (R29) to the key intermediate specie CH3CHCHO*. Finally, propanal is formed by the hydrogenation reaction (R31) of CH3CHCHO* with the conversion of 51.48 %. And 89.74 % of propanal comes from the pathway: CH3CHCH2* → CH3CHCH2O* → CH3CHCHO* → CH3CH2CHO*, while 10.25% of propanal comes from the pathway: CH3CHCH2* → CH3CHCH* → CH3CHCHO* → CH3CH2CHO*. The reaction network for the formation of propanal combined with the actual reaction frequency of each elementary process is shown in Fig. 10 (a), in which the actual reaction frequencies are represented as red numbers. According to Fig. 10(a), the dominant pathway for the formation of propanal can be easily obtained as shown in Fig. 10(b). 4 Conclusion In this work, the formation mechanisms and dominant formation pathways of acetone and propanal in the process of propylene acetoxylation to allyl acetate on PdCu catalysts were systematically investigated by DFT calculations and kMC simulations on microscopic and mesoscopic scales. Specifically, the adsorption properties of related species, mechanisms for the formation of acetone and propanal on PdCu3/Pd3Cu(111) surface were revealed, then the dominant formation pathways of acetone and propanal were analyzed. The main conclusions are as follows. (1) Proplene, oxygen, acetone and propanal all tend to be adsorbed on Pd atoms, including Pd top sites, Pd-Cu bridge sites and Pd-Cu fcc sites, which is consistent with that Pd atoms are main active sites in the acetoxylation of propylene to allyl acetate. Cu atoms mainly play the role of dispersing Pd atoms in the catalyst. When the loading amount of the catalyst is constant, the catalytic activity can be improved by increasing the dispersion of Pd atoms. (2) There is no direct relationship between electron transfer and adsorption energy. There is almost no electron transfer between propylene and the surface model, which may be caused by the equilibrium of electron density between the C = C bond of propylene and Pd atom on the catalyst surface. Oxygen gains the most electrons via its two O atoms from Pd and Cu atoms of the catalyst surface. For acetone and propanal, they all obtain some electron through their O atoms and C atoms with sp2 hybridization. (3) Acetone is a byproduct of partial oxidation of propylene on PdCu3/Pd3Cu(111) surface. Propylene first forms CH3CHOCH2* by oxidation reaction, then most of CH3CHOCH2* undergoes dehydrogenation reaction to produce the key intermediate specie CH3COCH2*, and finally acetone is obtained by the hydrogenation reaction of CH3COCH2* and desorbed to gas phase product. The specific dominant pathway is as follows: CH3CHCH2* → CH3CHOCH2* → (CH3COHCH2*) → CH3COCH2* → CH3COCH3*, in which, the first step, the combination reaction of propylene with O* to CH3CHOCH2* has the highest Gibbs activation energy of 0.92 eV. (4) Propanal is also produced by the partial oxidation of propylene, which is obtained by two main formation pathways. Propylene can generate CH3CHCH2O* through oxidation reaction and CH3CHCH* through dehydrogenation reactions in the ratio of 1.42. Then CH3CHCH2O* and CH3CHCH* both form the key intermediate specie CH3CHCHO*. Finally, propanal is formed by the hydrogenation reaction of CH3CHCHO*, of which 89.75 % comes from the pathway of “CH3CHCH2* → CH3CHCH2O* → CH3CHCHO* → CH3CH2CHO*”, while 10.25% comes from the pathway of “CH3CHCH2* → CH3CHCH* → CH3CHCHO* → CH3CH2CHO*”. Compared with acetone, propanal is more difficult to form on PdCu3/Pd3Cu(111) surface and its formation reactions have higher Gibbs activation energy. CRediT authorship contribution statement Weiwei Zhang: Writing – review & editing, Writing – original draft, Investigation, Data curation. Changdong Li: Validation, Methodology. Tongyan Liang: Visualization, Formal analysis. Yingzhe Yu: Supervision, Resources, Project administration, Conceptualization. Minhua Zhang: Software, Funding acquisition. Declaration of competing interest The authors declare that they have no known competing financial interests or personal relationships that could have appeared to influence the work reported in this paper. Supplementary materials Supplementary material associated with this article can be found, in the online version, at doi:10.1016/j.mcat.2024.114587. Appendix Supplementary materials Supplementary Material: Supporting Information.pdf: Mechanisms for the acetoxylation of propylene to allyl acetate on Pd catalysts; Top views and side views of adsorption configurations of CH2 CHCH3 and O2; Bader charge of each atom of related species before and after adsorption on PdCu3/Pd3Cu(111) surface; Gibbs reaction energy (G r) and Gibbs activation energy (G a) of all elementary reactions for the formation of acetone and propanal in the acetoxylation of propylene to allyl acetate on PdCu3/Pd3Cu(111) surface; the configurations of initial states (IS), transition states (TS) and final states (FS) of all elementary reactions for the formation of acetone and propanal on PdCu3/Pd3Cu(111) surface; elementary processes and related kinetic parameters for the formation of acetone and propanal in the acetoxylation of propylene to allyl acetate on PdCu3/Pd3Cu(111) surfac. Image, application 1 References [1] C. Ma P. Fang T.S. Mei Recent Advances in C–H Functionalization Using Electrochemical Transition Metal Catalysis ACS. Catal. 8 8 2018 7179 7189 10.1021/acscatal.8b01697 Ma, C.; Fang, P.; Mei, T.S.Recent Advances in C–H Functionalization Using Electrochemical Transition Metal Catalysis. ACS. Catal.2018, 8 (8), 7179–7189. DOI: 10.1021/acscatal.8b01697. [2] A. Shrestha M. Lee A.L. Dunn M.S. Sanford Palladium-Catalyzed C-H Bond Acetoxylation via Electrochemical Oxidation Org. Lett. 20 1 2018 204 207 10.1021/acs.orglett.7b03559 Shrestha, A.; Lee, M.; Dunn, A.L.; Sanford, M.S.Palladium-Catalyzed C-H Bond Acetoxylation via Electrochemical Oxidation. Org. Lett.2018, 20 (1), 204–207. DOI: 10.1021/acs.orglett.7b03559. [3] Z. Zhuang A.N. Herron Z.L. Fan J.Q. Yu Ligand-Enabled Monoselective beta-C(sp(3))-H Acyloxylation of Free Carboxylic Acids Using a Practical Oxidant J. Am. Chem. Soc. 142 14 2020 6769 6776 10.1021/jacs.0c01214 Zhuang, Z.; Herron, A.N.; Fan, Z.L.; Yu, J.Q.Ligand-Enabled Monoselective beta-C(sp(3))-H Acyloxylation of Free Carboxylic Acids Using a Practical Oxidant. J. Am. Chem. Soc.2020, 142 (14), 6769–6776. DOI: 10.1021/jacs.0c01214. [4] B. Tian P.H. Chen X.B. Leng G.S. Liu Palladium-catalysed enantioselective diacetoxylation of terminal alkenes Nat. Catal. 4 2 2021 172 179 10.1038/s41929-021-00574-5 Tian, B.; Chen, P.H.; Leng, X.B.; Liu, G.S.Palladium-catalysed enantioselective diacetoxylation of terminal alkenes. Nat. Catal.2021, 4 (2), 172–179. DOI: 10.1038/s41929-021-00574-5. [5] Z.X. Wu J.J. Meng H.K. Liu Y.Y. Li X. Zhang W.B. Zhang Multi-site programmable functionalization of alkenes via controllable alkene isomerization Nat. Chem. 15 7 2023 10.1038/s41557-023-01209-x 988-+ Wu, Z.X.; Meng, J.J.; Liu, H.K.; Li, Y.Y.; Zhang, X.; Zhang, W.B.Multi-site programmable functionalization of alkenes via controllable alkene isomerization. Nat. Chem.2023, 15 (7), 988-+. DOI: 10.1038/s41557-023-01209-x. [6] M. Xavier B. Goldani R.F. Schumacher G. Perin P.H. Schneider D. Alves Silver-catalyzed direct selenylation of terminal alkynes through C-H bond functionalization Molecular Catalysis 427 2017 73 79 10.1016/j.molcata.2016.11.033 Xavier, M.; Goldani, B.; Schumacher, R.F.; Perin, G.; Schneider, P.H.; Alves, D.Silver-catalyzed direct selenylation of terminal alkynes through C-H bond functionalization. Molecular Catalysis2017, 427, 73–79. DOI: 10.1016/j.molcata.2016.11.033. [7] J.J. Hu W.Y. Zhang X.A. Yuan B.P. Ling Y.Y. Jiang P. Liu S.W. Bi Theoretical study on Pd(0)-catalyzed remote C(sp3)-H functionalization via 1,5-Pd migration Molecular Catalysis 546 2023 10.1016/j.mcat.2023.113254 Hu, J.J.; Zhang, W.Y.; Yuan, X.A.; Ling, B.P.; Jiang, Y.Y.; Liu, P.; Bi, S.W.Theoretical study on Pd(0)-catalyzed remote C(sp3)-H functionalization via 1,5-Pd migration. Molecular Catalysis2023, 546. DOI: 10.1016/j.mcat.2023.113254. [8] M.S. Chen D. Kumar C.W. Yi D.W. Goodman The promotional effect of gold in catalysis by palladium-gold Science (1979) 310 5746 2005 291 293 10.1126/science.1115800 Chen, M.S.; Kumar, D.; Yi, C.W.; Goodman, D.W.The promotional effect of gold in catalysis by palladium-gold. Science (1979)2005, 310 (5746), 291–293. DOI: 10.1126/science.1115800. [9] D. Stacchiola F. Calaza L. Burkholder W.T. Tysoe Vinyl acetate formation by the reaction of ethylene with acetate species on oxygen-covered Pd(111) J. Am. Chem. Soc. 126 47 2004 15384 15385 10.1021/ja044641w Stacchiola, D.; Calaza, F.; Burkholder, L.; Tysoe, W.T.Vinyl acetate formation by the reaction of ethylene with acetate species on oxygen-covered Pd(111). J. Am. Chem. Soc.2004, 126 (47), 15384–15385. DOI: 10.1021/ja044641w. [10] E.K. Hanrieder A. Jentys J.A. Lercher Atomistic Engineering of Catalyst Precursors: Dynamic Reordering of PdAu Nanoparticles during Vinyl Acetate Synthesis Enhanced by Potassium Acetate ACS. Catal. 5 10 2015 5776 5786 10.1021/acscatal.5b01140 Hanrieder, E.K.; Jentys, A.; Lercher, J.A.Atomistic Engineering of Catalyst Precursors: Dynamic Reordering of PdAu Nanoparticles during Vinyl Acetate Synthesis Enhanced by Potassium Acetate. ACS. Catal.2015, 5 (10), 5776–5786. DOI: 10.1021/acscatal.5b01140. [11] H.P. Jacobs W.C. Elias K.N. Heck D.P. Dean J.J. Dodson W.Q. Zhang J.H. Arredondo C.J. Breckner K.H. Hong C.R. Botello Impregnation of KOAc on PdAu/SiO2 causes Pd-acetate formation and metal restructuring Journal of Materials Chemistry A 11 13 2023 6918 6933 10.1039/d3ta00820g Jacobs, H.P.; Elias, W.C.; Heck, K.N.; Dean, D.P.; Dodson, J.J.; Zhang, W.Q.; Arredondo, J.H.; Breckner, C.J.; Hong, K.H.; Botello, C.R.; et al. Impregnation of KOAc on PdAu/SiO2 causes Pd-acetate formation and metal restructuring. Journal of Materials Chemistry A2023, 11 (13), 6918–6933. DOI: 10.1039/d3ta00820g. [12] F. Gao D.W. Goodman Pd-Au bimetallic catalysts: understanding alloy effects from planar models and (supported) nanoparticles Chem. Soc. Rev. 41 24 2012 8009 8020 10.1039/c2cs35160a Gao, F.; Goodman, D.W.Pd-Au bimetallic catalysts: understanding alloy effects from planar models and (supported) nanoparticles. Chem. Soc. Rev.2012, 41 (24), 8009–8020. DOI: 10.1039/c2cs35160a. [13] Z.Q. Liu P.Y. Qiu H.Y. Sun L. Sun Z.X. Zeng Z. Liu Oxygen effect on the synthesis of vinyl acetate on Pd (100) and Pd/Au (100) surfaces: A periodic DFT study Molecular Catalysis 547 2023 10.1016/j.mcat.2023.113337 Liu, Z.Q.; Qiu, P.Y.; Sun, H.Y.; Sun, L.; Zeng, Z.X.; Liu, Z.Oxygen effect on the synthesis of vinyl acetate on Pd (100) and Pd/Au (100) surfaces: A periodic DFT study. Molecular Catalysis2023, 547. DOI: 10.1016/j.mcat.2023.113337. [14] Y. Nakaya E. Hayashida R.K. Shi K. Shimizu S. Furukawa Interstitial Carbon Dopant in Palladium-Gold Alloy Boosting the Catalytic Performance in Vinyl Acetate Monomer Synthesis J. Am. Chem. Soc. 2023 10.1021/jacs.2c11481 Nakaya, Y.; Hayashida, E.; Shi, R.K.; Shimizu, K.; Furukawa, S.Interstitial Carbon Dopant in Palladium-Gold Alloy Boosting the Catalytic Performance in Vinyl Acetate Monomer Synthesis. J. Am. Chem. Soc.2023. DOI: 10.1021/jacs.2c11481. [15] X.Y. Guan Y.Z. Yu M.H. Zhang A combination of DFT and kMC to solve two engineering problems in the production of vinyl acetate Molecular Catalysis 554 2024 10.1016/j.mcat.2024.113849 Guan, X.Y.; Yu, Y.Z.; Zhang, M.H.A combination of DFT and kMC to solve two engineering problems in the production of vinyl acetate. Molecular Catalysis2024, 554. DOI: 10.1016/j.mcat.2024.113849. [16] Y.Z. Yu S.H. Liu F.C. Li M.H. Zhang A DFT study on the mechanism of acetaldehyde generation during vinyl acetate synthesis from gas-phase ethylene acetoxylation on Pd/Au (100) surface Molecular Catalysis 549 2023 10.1016/j.mcat.2023.113461 Yu, Y.Z.; Liu, S.H.; Li, F.C.; Zhang, M.H.A DFT study on the mechanism of acetaldehyde generation during vinyl acetate synthesis from gas-phase ethylene acetoxylation on Pd/Au (100) surface. Molecular Catalysis2023, 549. DOI: 10.1016/j.mcat.2023.113461. [17] G.A. Brito W.O. Jung M. Yoo M.J. Krische Enantioselective Iridium-Catalyzed Allylation of Acetylenic Ketones via 2-Propanol-Mediated Reductive Coupling of Allyl Acetate: C14-C23 of Pladienolide D Angew Chem Int Edit 58 52 2019 18803 18807 10.1002/anie.201908939 Brito, G.A.; Jung, W.O.; Yoo, M.; Krische, M.J.Enantioselective Iridium-Catalyzed Allylation of Acetylenic Ketones via 2-Propanol-Mediated Reductive Coupling of Allyl Acetate: C14-C23 of Pladienolide D. Angew Chem Int Edit2019, 58 (52), 18803–18807. DOI: 10.1002/anie.201908939. [18] G.H. Shi X.C. Chen T.H. Jing Y.Y. Zhuang Y. Lu Y. Liu Rh-catalyzed hydroformylation of allyl acetate toward 4-acetoxybutyraldehyde: The crucial step in production of 1,4-butanediol via hydroformylation/hydrogenation sequence Molecular Catalysis 545 2023 10.1016/j.mcat.2023.113209 Shi, G.H.; Chen, X.C.; Jing, T.H.; Zhuang, Y.Y.; Lu, Y.; Liu, Y.Rh-catalyzed hydroformylation of allyl acetate toward 4-acetoxybutyraldehyde: The crucial step in production of 1,4-butanediol via hydroformylation/hydrogenation sequence. Molecular Catalysis2023, 545. DOI: 10.1016/j.mcat.2023.113209. [19] S.W. Kim C.C. Meyer B.K. Mai P. Liu M.J. Krische Inversion of Enantioselectivity in Allene Gas versus Allyl Acetate Reductive Aldehyde Allylation Guided by Metal-Centered Stereogenicity: An Experimental and Computational Study ACS. Catal. 9 10 2019 9158 9163 10.1021/acscatal.9b03695 Kim, S.W.; Meyer, C.C.; Mai, B.K.; Liu, P.; Krische, M.J.Inversion of Enantioselectivity in Allene Gas versus Allyl Acetate Reductive Aldehyde Allylation Guided by Metal-Centered Stereogenicity: An Experimental and Computational Study. ACS. Catal.2019, 9 (10), 9158–9163. DOI: 10.1021/acscatal.9b03695. [20] R. Muto K. Nagata Y. Nakazumi K. Nakamura S. Ueno Palladium-Catalyzed para-Selective Allylation of 1-(Cyanomethyl)arenes with Allyl Acetates Org. Lett. 25 12 2023 2108 2112 10.1021/acs.orglett.3c00534 Muto, R.; Nagata, K.; Nakazumi, Y.; Nakamura, K.; Ueno, S.Palladium-Catalyzed para-Selective Allylation of 1-(Cyanomethyl)arenes with Allyl Acetates. Org. Lett.2023, 25 (12), 2108–2112. DOI: 10.1021/acs.orglett.3c00534. [21] K. Komeyama Y. Itai K. Takaki Practical Stannylation of Allyl Acetates Catalyzed by Nickel with Bu3SnOMe Chemistry-a European Journal 22 27 2016 9130 9134 10.1002/chem.201601515 Komeyama, K.; Itai, Y.; Takaki, K.Practical Stannylation of Allyl Acetates Catalyzed by Nickel with Bu3SnOMe. Chemistry-a European Journal2016, 22 (27), 9130–9134. DOI: 10.1002/chem.201601515. [22] L. Aliotta M. Seggiani A. Lazzeri V. Gigante P. Cinelli A Brief Review of Poly (Butylene Succinate) (PBS) and Its Main Copolymers: Synthesis, Blends, Composites, Biodegradability, and Applications Polymers. (Basel) 14 4 2022 10.3390/polym14040844 Aliotta, L.; Seggiani, M.; Lazzeri, A.; Gigante, V.; Cinelli, P.A Brief Review of Poly (Butylene Succinate) (PBS) and Its Main Copolymers: Synthesis, Blends, Composites, Biodegradability, and Applications. Polymers. (Basel)2022, 14 (4). DOI: 10.3390/polym14040844. [23] F. Wu M. Misra A.K. Mohanty Challenges and new opportunities on barrier performance of biodegradable polymers for sustainable packaging Prog. Polym. Sci. 117 2021 10.1016/j.progpolymsci.2021.101395 Wu, F.; Misra, M.; Mohanty, A.K.Challenges and new opportunities on barrier performance of biodegradable polymers for sustainable packaging. Prog. Polym. Sci.2021, 117. DOI: 10.1016/j.progpolymsci.2021.101395. [24] J.G. Rosenboom R. Langer G. Traverso Bioplastics for a circular economy Nature Reviews Materials 7 2 2022 117 137 10.1038/s41578-021-00407-8 Rosenboom, J.G.; Langer, R.; Traverso, G.Bioplastics for a circular economy. Nature Reviews Materials2022, 7 (2), 117–137. DOI: 10.1038/s41578-021-00407-8. [25] B.L. Lin J.A. Labinger J.E. Bercaw Mechanistic investigations of bipyrimidine-promoted palladium-catalyzed allylic acetoxylation of olefins Can. J. Chem. 87 1 2009 264 271 Lin, B.L.; Labinger, J.A.; Bercaw, J.E.Mechanistic investigations of bipyrimidine-promoted palladium-catalyzed allylic acetoxylation of olefins. Can. J. Chem.2009, 87 (1), 264–271. [26] P.M. Henry Oxidation of olefins by palladium (II). III. Oxidation of olefins by a combination of palladium (II) chloride and copper (II) chloride in acetic acid J. Org. Chem. 32 8 1967 2575 2580 Henry, P.M.Oxidation of olefins by palladium (II). III. Oxidation of olefins by a combination of palladium (II) chloride and copper (II) chloride in acetic acid. J. Org. Chem.1967, 32 (8), 2575–2580. [27] M. Bartkowiak S. Lenart Propene Acetoxylation in the Liquid Phase-influence of Technological Parameters and Pretreatment of the Catalyst Support on the Course of the Process Journal of Advanced Oxidation Technologies 18 2 2015 303 314 Bartkowiak, M.; Lenart, S.Propene Acetoxylation in the Liquid Phase-influence of Technological Parameters and Pretreatment of the Catalyst Support on the Course of the Process. Journal of Advanced Oxidation Technologies2015, 18 (2), 303–314. [28] S.A. Zaidi Use of supported liquid-phase catalysts: palladium-lithium acetates on carbon Appl. Catal. 26 1986 155 159 Zaidi, S.A.Use of supported liquid-phase catalysts: palladium-lithium acetates on carbon. Appl. Catal.1986, 26, 155–159. [29] S. Winstein J. McCaskie H.B. Lee P.M. Henry Oxidation of olefins by palladium (II). 9. Mechanism of the oxidation of olefins by the dimeric species, disodium dipalladium hexaacetate, in acetic acid J. Am. Chem. Soc. 98 22 1976 6913 6918 Winstein, S.; McCaskie, J.; Lee, H.B.; Henry, P.M.Oxidation of olefins by palladium (II). 9. Mechanism of the oxidation of olefins by the dimeric species, disodium dipalladium hexaacetate, in acetic acid. J. Am. Chem. Soc.1976, 98 (22), 6913–6918. [30] R. van Helden C.F. Kohll D. Medema G. Verberg T. Jonkhoff Palladium-catalysed reactions of unsaturated compounds in non-aqueous solvents: Synthesis of vinyl acetate via palladium salt/ethylene complexes Recueil des Travaux Chimiques des Pays-Bas 87 8 1968 961 991 10.1002/recl.19680870813 van Helden, R.; Kohll, C.F.; Medema, D.; Verberg, G.; Jonkhoff, T.Palladium-catalysed reactions of unsaturated compounds in non-aqueous solvents: Synthesis of vinyl acetate via palladium salt/ethylene complexes. Recueil des Travaux Chimiques des Pays-Bas1968, 87 (8), 961–991. DOI: https://doi.org/10.1002/recl.19680870813. [31] S. Nakamura T. Yasui The mechanism of the palladium-catalyzed synthesis of vinyl acetate from ethylene in a heterogeneous gas reaction J. Catal. 17 3 1970 366 374 10.1016/0021-9517(70)90113-2 Nakamura, S.; Yasui, T.The mechanism of the palladium-catalyzed synthesis of vinyl acetate from ethylene in a heterogeneous gas reaction. J. Catal.1970, 17 (3), 366–374. https://doi.org/10.1016/0021-9517(70)90113-2. [32] M.V. Moiseev Y.K. Syrhim About the mechanism of the reaction between palladium and alkenes in hydroxyl containing solvents Dokl. Akad. Nauk USSR 133 1960 377 380 Moiseev, M.V., Y.K. Syrhim. About the mechanism of the reaction between palladium and alkenes in hydroxyl containing solvents. Dokl. Akad. Nauk USSR1960, 133, 377–380. [33] B. Samanos P. Boutry R. Montarnal The mechanism of vinyl acetate formation by gas-phase catalytic ethylene acetoxidation J. Catal. 23 1 1971 19 30 10.1016/0021-9517(71)90019-4 Samanos, B.; Boutry, P.; Montarnal, R.The mechanism of vinyl acetate formation by gas-phase catalytic ethylene acetoxidation. J. Catal.1971, 23 (1), 19–30. DOI: https://doi.org/10.1016/0021-9517(71)90019-4. [34] Y. Huang X. Dong Y. Yu M. Zhang A comprehensive comparative DFT study on adsorption and reactions involved in vinyl acetate synthesis from acetoxylation of ethylene on pure Pd(100) and Pd-Au(100): Elucidating the role of Au Appl. Surf. Sci. 387 2016 1021 1028 10.1016/j.apsusc.2016.07.049 Huang, Y.; Dong, X.; Yu, Y.; Zhang, M.A comprehensive comparative DFT study on adsorption and reactions involved in vinyl acetate synthesis from acetoxylation of ethylene on pure Pd(100) and Pd-Au(100): Elucidating the role of Au. Appl. Surf. Sci.2016, 387, 1021–1028. DOI: https://doi.org/10.1016/j.apsusc.2016.07.049. [35] T. Kunugi H. Arai K. Fujimoto Acetoxylation of Olefins over Supported Palladium Metal and Salts Catalysts Bulletin of The Japan Petroleum Institute 12 1970 97 105 Kunugi, T.; Arai, H.; Fujimoto, K.Acetoxylation of Olefins over Supported Palladium Metal and Salts Catalysts. Bulletin of The Japan Petroleum Institute1970, 12, 97–105. [36] K.M. Minachev T. Starostina V. Kharlamov J. Komorek T. Romotowski Oxidative interactions of propene with acetic acid on a Pd-zeolite catalyst Russian Chemical Bulletin 42 10 1993 1643 1648 Minachev, K.M.; Starostina, T.; Kharlamov, V.; Komorek, J.; Romotowski, T.Oxidative interactions of propene with acetic acid on a Pd-zeolite catalyst. Russian Chemical Bulletin1993, 42 (10), 1643–1648. [37] K.M. Minachev O.M. Nefedov V.V. Kharlamov O.S. Chizhov A.N. Rodin V.I. Kadentsev Investigation of the possibility of intermediate formation of allyl alcohol in the process of oxidative acetoxylation of propylene on a palladium-copper zeolite catalyst Bulletin of the Academy of Sciences of the USSR, Division of chemical science 34 6 1985 1146 1150 10.1007/BF00956071 Minachev, K.M.; Nefedov, O.M.; Kharlamov, V.V.; Chizhov, O.S.; Rodin, A.N.; Kadentsev, V.I.Investigation of the possibility of intermediate formation of allyl alcohol in the process of oxidative acetoxylation of propylene on a palladium-copper zeolite catalyst. Bulletin of the Academy of Sciences of the USSR, Division of chemical science1985, 34 (6), 1146–1150. DOI: 10.1007/BF00956071. [38] J.R. Chen C.M. Lee Safe acetoxylation of propylene: The role of oxygen Process Safety Progress 24 4 2005 280 286 10.1002/prs.10069 Chen, J.R.; Lee, C.M.Safe acetoxylation of propylene: The role of oxygen. Process Safety Progress2005, 24 (4), 280–286. DOI: 10.1002/prs.10069. [39] G. Lewandowski M. Bartkowiak E. Milchert Topical and prospective processes of acetoxylation Pol J Chem Technol 11 4 2009 46 51 Lewandowski, G.; Bartkowiak, M.; Milchert, E.Topical and prospective processes of acetoxylation. Pol J Chem Technol2009, 11 (4), 46–51. [40] Sano, K.; Maki, K.; Kamei, H. Prepn. of novel catalyst for allyl acetate mfr. comprising carrier impregnated with palladium and copper, lead, ruthenium and/or rhenium and alkali metal acetate. EP361484-A; JP2091045-A; US5011980-A; EP361484-B1; DE68907164-E; JP95029980-B2; KR142192-B1. [41] Zha, X.; Yang, Y. Catalyst used for synthesis of allyl acetate comprises carrier comprising carrier substrate and surface coating, active component comprising metal palladium and metal copper, and alkali metal acetate cocatalyst. CN106582856-A; CN106582856-B. [42] Fernholz, H.; Schmidt, H.J.; Wunder, F. Allyl acetate - from propylene,acetic acid and oxygen over palladium-alkali acetate catalysts contg copper or vanadium salt. NL7216353-A; BE792410-A; DE2160649-A; ZA7208439-A; FR2162492-A; JP48064014-A; US3903139-A; GB1411585-A; RO58870-A; SU464994-A; CA1004685-A. [43] Yang, Y.; Zha, X.; Zhang, L. Preparation of catalyst used in preparation of allyl acetate, involves supporting carrier to alkali metal carboxylate, loading predetermined amount of metal palladium and metal copper, washing with water, and loading potassium acetate. CN104437670-A; CN104437670-B. [44] Zha, X.; Yang, Y. Allyl acetate production catalyst comprises carrier comprising silicon dioxide carrier substrate and surface coating, active component comprising metal palladium and metal copper, and auxiliary catalyst comprising alkali metal acetate. CN106582871-A; CN106582871-B. [45] Yang, Y.; Zha, X.; Zhang, L. Catalyst useful for preparing allyl acetate comprises a carrier, an active component comprising palladium and copper and a co-catalyst including potassium acetate. CN104437622-A; CN104437622-B. [46] Zha, X.; Yang, Y. Catalyst for preparing allyl acetate, comprises carrier, active component and auxiliary catalyst, where active component comprises palladium metal and copper metal, auxiliary catalyst comprises alkali metal acetate. CN106582867-A; CN106582867-B. [47] Zha, X.; Yang, Y. Catalyst for synthesizing allyl acetate, comprises carrier, active component and co-catalyst, where active component comprises palladium metal and copper metal, co-catalyst is alkali metal acetate and carrier contains surface coating. CN106582855-A; CN106582855-B. [48] Oguchi, W.; Oguchi, W.; Wataru, O.; Aojoshi, W. Producing allyl acetate, comprises reacting acetic acid, oxygen and propylene to produce allyl acetate and water, separating unreacted acetic acid, recovering and heating acetic acid-containing liquid containing acetic acid. WO2012039506-A1; JP2012067016-A; TW201226387-A; KR2013041334-A; US2013172602-A1; EP2619160-A1; CN103119007-A; US8802889-B2; JP5662747-B2; KR1529798-B1; CN103119007-B; TW507391-B1; EP2619160-B1; GC4770-A. [49] Kahn, A.P.; Ross-Medgaarden, E.I. Producing allyl acetate, comprises reacting feed containing propylene, acetic acid, oxygen, and carbon dioxide in presence of supported palladium catalyst, where feed has specified mole percentage of carbon dioxide to form reaction mixture. US2012310006-A1; US8362292-B2. [50] M. Gholinejad F. Khosravi M. Afrasi J.M. Sansano C. Najera Applications of bimetallic PdCu catalysts Catal. Sci. Technol. 11 8 2021 2652 2702 10.1039/d0cy02339f Gholinejad, M.; Khosravi, F.; Afrasi, M.; Sansano, J.M.; Najera, C.Applications of bimetallic PdCu catalysts. Catal. Sci. Technol.2021, 11 (8), 2652–2702. DOI: 10.1039/d0cy02339f. [51] Y.Z. Yu T.Y. Liang W.W. Zhang J.C. Wu M.H. Zhang Formation mechanism of CO2in the production of allyl acetate from propylene on PdCu(111) surface: A DFT study Molecular Catalysis 553 2024 10.1016/j.mcat.2023.113783 Yu, Y.Z.; Liang, T.Y.; Zhang, W.W.; Wu, J.C.; Zhang, M.H.Formation mechanism of CO2in the production of allyl acetate from propylene on PdCu(111) surface: A DFT study. Molecular Catalysis2024, 553. DOI: 10.1016/j.mcat.2023.113783. [52] D. Akgül D. Ince A. Uzun S. Kozuch V. Aviyente Theoretical insight into selectivity and catalytic activity of γ-(Al2O3) supported Ir(CO)2 complex for 1,3-butadiene partial hydrogenation Molecular Catalysis 565 2024 10.1016/j.mcat.2024.114365 Akgül, D.; Ince, D.; Uzun, A.; Kozuch, S.; Aviyente, V.Theoretical insight into selectivity and catalytic activity of γ-(Al2O3) supported Ir(CO)2 complex for 1,3-butadiene partial hydrogenation. Molecular Catalysis2024, 565. DOI: 10.1016/j.mcat.2024.114365. [53] X.A. Yuan R. Tao D. Li X.R. Zhang Y.Y. Jiang P. Liu S.W. Bi Differences in mechanisms between divalent and univalent copper complexes-catalyzed hydroacylation of terminal alkyne with aldehyde and amine Molecular Catalysis 563 2024 10.1016/j.mcat.2024.114272 Yuan, X.A.; Tao, R.; Li, D.; Zhang, X.R.; Jiang, Y.Y.; Liu, P.; Bi, S.W.Differences in mechanisms between divalent and univalent copper complexes-catalyzed hydroacylation of terminal alkyne with aldehyde and amine. Molecular Catalysis2024, 563. DOI: 10.1016/j.mcat.2024.114272. [54] Q. Wang J.L. Peng L. Sun Z. Liu Unraveling the mechanism of substrate-induced reactivity change in the trimerization of isocyanates: A comprehensive DFT study Molecular Catalysis 566 2024 10.1016/j.mcat.2024.114391 Wang, Q.; Peng, J.L.; Sun, L.; Liu, Z.Unraveling the mechanism of substrate-induced reactivity change in the trimerization of isocyanates: A comprehensive DFT study. Molecular Catalysis2024, 566. DOI: 10.1016/j.mcat.2024.114391. [55] M.H. Zhang P. Zheng J.Q. Li Y.Z. Yu Generation mechanism of methyl acetate during gas-phase synthesis of vinyl acetate from ethylene on PdAu(100) surface: A combined DFT and kMC study Molecular Catalysis 559 2024 10.1016/j.mcat.2024.114102 Zhang, M.H.; Zheng, P.; Li, J.Q.; Yu, Y.Z.Generation mechanism of methyl acetate during gas-phase synthesis of vinyl acetate from ethylene on PdAu(100) surface: A combined DFT and kMC study. Molecular Catalysis2024, 559. DOI: 10.1016/j.mcat.2024.114102. [56] M.H. Zhang H.P. Guo X.Y. Guan F.C. Li Y.Z. Yu Mechanistic study of the production of ethylene glycol diacetate as a byproduct of the ethylene vapor phase process for vinyl acetate on PdAu (100) surface Molecular Catalysis 550 2023 10.1016/j.mcat.2023.113594 Zhang, M.H.; Guo, H.P.; Guan, X.Y.; Li, F.C.; Yu, Y.Z.Mechanistic study of the production of ethylene glycol diacetate as a byproduct of the ethylene vapor phase process for vinyl acetate on PdAu (100) surface. Molecular Catalysis2023, 550. DOI: 10.1016/j.mcat.2023.113594. [57] Y.Z. Yu L.F. An J.Q. Li M.H. Zhang A combination of DFT and kMC to study on the formation mechanism of ethyl acetate during the gas-phase synthesis of vinyl acetate from ethylene on PdAu(100) surface Molecular Catalysis 559 2024 10.1016/j.mcat.2024.114092 Yu, Y.Z.; An, L.F.; Li, J.Q.; Zhang, M.H.A combination of DFT and kMC to study on the formation mechanism of ethyl acetate during the gas-phase synthesis of vinyl acetate from ethylene on PdAu(100) surface. Molecular Catalysis2024, 559. DOI: 10.1016/j.mcat.2024.114092. [58] Y. Yoon H.M. You J. Oh J.J. Lee J.W. Han K. Kim H. Kwon Recent advances in atomic-scale simulations for supported metal catalysts Molecular Catalysis 554 2024 10.1016/j.mcat.2024.113862 Yoon, Y.; You, H.M.; Oh, J.; Lee, J.J.; Han, J.W.; Kim, K.; Kwon, H.Recent advances in atomic-scale simulations for supported metal catalysts. Molecular Catalysis2024, 554. DOI: 10.1016/j.mcat.2024.113862. [59] J. Ren N. Ai D. Ou Y.Z. Yu Insights into the Fischer-Tropsch mechanism on x-Fe5C2(510) based on the hydrogen coverage effect Molecular Catalysis 538 2023 10.1016/j.mcat.2023.112990 Ren, J.; Ai, N.; Ou, D.; Yu, Y.Z.Insights into the Fischer-Tropsch mechanism on x-Fe5C2(510) based on the hydrogen coverage effect. Molecular Catalysis2023, 538. DOI: 10.1016/j.mcat.2023.112990. [60] J.Y. Jin Y.F. Wang R.X. Zhang Z.H. Gao W. Huang L. Liu Z.J. Zuo Theoretical insight into hydrogen production from methanol steam reforming on Pt(111) Molecular Catalysis 532 2022 10.1016/j.mcat.2022.112745 Jin, J.Y.; Wang, Y.F.; Zhang, R.X.; Gao, Z.H.; Huang, W.; Liu, L.; Zuo, Z.J.Theoretical insight into hydrogen production from methanol steam reforming on Pt(111). Molecular Catalysis2022, 532. DOI: 10.1016/j.mcat.2022.112745. [61] L. Xu K.G. Papanikolaou B.A.J. Lechner L. Je G.A. Somorjai M. Salmeron M. Mavrikakis Formation of active sites on transition metals through reaction-driven migration of surface atoms Science (1979) 380 6640 2023 70 76 10.1126/science.add0089 Xu, L.; Papanikolaou, K.G.; Lechner, B.A.J.; Je, L.; Somorjai, G.A.; Salmeron, M.; Mavrikakis, M.Formation of active sites on transition metals through reaction-driven migration of surface atoms. Science (1979)2023, 380 (6640), 70–76. DOI: 10.1126/science.add0089. [62] J.P. Perdew K. Burke M. Ernzerhof Generalized Gradient Approximation Made Simple Phys. Rev. Lett. 77 18 1996 3865 3868 10.1103/PhysRevLett.77.3865 Perdew, J.P.; Burke, K.; Ernzerhof, M.Generalized Gradient Approximation Made Simple. Phys. Rev. Lett.1996, 77 (18), 3865–3868. DOI: 10.1103/PhysRevLett.77.3865. [63] P.E. Blöchl Projector augmented-wave method Physical Review B 50 24 1994 17953 17979 10.1103/PhysRevB.50.17953 Blöchl, P.E.Projector augmented-wave method. Physical Review B1994, 50 (24), 17953–17979. DOI: 10.1103/PhysRevB.50.17953. [64] J. Neugebauer M. Scheffler Adsorbate-substrate and adsorbate-adsorbate interactions of Na and K adlayers on Al(111) Physical Review B 46 24 1992 16067 16080 10.1103/PhysRevB.46.16067 Neugebauer, J.; Scheffler, M.Adsorbate-substrate and adsorbate-adsorbate interactions of Na and K adlayers on Al(111). Physical Review B1992, 46 (24), 16067–16080. DOI: 10.1103/PhysRevB.46.16067. [65] S. Grimme J. Antony S. Ehrlich H. Krieg A consistent and accurate ab initio parametrization of density functional dispersion correction (DFT-D) for the 94 elements H-Pu J. Chem. Phys. 132 15 2010 154104 10.1063/1.3382344 Grimme, S.; Antony, J.; Ehrlich, S.; Krieg, H.A consistent and accurate ab initio parametrization of density functional dispersion correction (DFT-D) for the 94 elements H-Pu. J. Chem. Phys.2010, 132 (15), 154104. DOI: 10.1063/1.3382344. [66] S. Grimme S. Ehrlich L. Goerigk Effect of the damping function in dispersion corrected density functional theory J. Comput. Chem. 32 7 2011 1456 1465 10.1002/jcc.21759 Grimme, S.; Ehrlich, S.; Goerigk, L.Effect of the damping function in dispersion corrected density functional theory. J. Comput. Chem.2011, 32 (7), 1456–1465. DOI: https://doi.org/10.1002/jcc.21759. [67] G. Henkelman B.P. Uberuaga H. Jónsson A climbing image nudged elastic band method for finding saddle points and minimum energy paths J. Chem. Phys. 113 22 2000 9901 9904 10.1063/1.1329672 Henkelman, G.; Uberuaga, B.P.; Jónsson, H.A climbing image nudged elastic band method for finding saddle points and minimum energy paths. J. Chem. Phys.2000, 113 (22), 9901–9904. DOI: 10.1063/1.1329672. [68] V. Wang N. Xu J.C. Liu G. Tang W.T. Geng VASPKIT: A user-friendly interface facilitating high-throughput computing and analysis using VASP code Comput. Phys. Commun. 267 2021 108033 10.1016/j.cpc.2021.108033 Wang, V.; Xu, N.; Liu, J.C.; Tang, G.; Geng, W.T.VASPKIT: A user-friendly interface facilitating high-throughput computing and analysis using VASP code. Comput. Phys. Commun.2021, 267, 108033. DOI: https://doi.org/10.1016/j.cpc.2021.108033. [69] A.B. Bortz M.H. Kalos J.L. Lebowitz A new algorithm for Monte Carlo simulation of Ising spin systems J. Comput. Phys. 17 1 1975 10 18 10.1016/0021-9991(75)90060-1 Bortz, A.B.; Kalos, M.H.; Lebowitz, J.L.A new algorithm for Monte Carlo simulation of Ising spin systems. J. Comput. Phys.1975, 17 (1), 10–18. DOI: https://doi.org/10.1016/0021-9991(75)90060-1. [70] A.P.J. Jansen How to Get Kinetic Parameters An Introduction to Kinetic Monte Carlo Simulations of Surface Reactions 2012 Lecture Notes in Physics, Springer Berlin, Heidelberg 73 117 Jansen, A.P.J.How to Get Kinetic Parameters. In An Introduction to Kinetic Monte Carlo Simulations of Surface Reactions, Lecture Notes in Physics, Springer, Berlin, Heidelberg, 2012; pp 73–117. [71] H. Prats L. Alvarez F. Illas R. Sayos Kinetic Monte Carlo simulations of the water gas shift reaction on Cu (111) from density functional theory based calculations J. Catal. 333 2016 217 226 10.1016/j.jcat.2015.10.029 Prats, H.; Alvarez, L.; Illas, F.; Sayos, R.Kinetic Monte Carlo simulations of the water gas shift reaction on Cu (111) from density functional theory based calculations. J. Catal.2016, 333, 217–226. DOI: 10.1016/j.jcat.2015.10.029. [72] D.G. Truhlar B.C. Garrett S.J. Klippenstein Current Status of Transition-State Theory J. Phys. Chem. 100 31 1996 12771 12800 10.1021/jp953748q Truhlar, D.G.; Garrett, B.C.; Klippenstein, S.J.Current Status of Transition-State Theory. J. Phys. Chem.1996, 100 (31), 12771–12800. DOI: 10.1021/jp953748q. [73] W. Karim C. Spreafico A. Kleibert J. Gobrecht J. VandeVondele Y. Ekinci J.A. van Bokhoven Catalyst support effects on hydrogen spillover Nature 541 7635 2017 68 71 10.1038/nature20782 Karim, W.; Spreafico, C.; Kleibert, A.; Gobrecht, J.; VandeVondele, J.; Ekinci, Y.; van Bokhoven, J.A.Catalyst support effects on hydrogen spillover. Nature2017, 541 (7635), 68–71. DOI: 10.1038/nature20782. [74] G. Henkelman Atomistic Simulations of Activated Processes in Materials Annu Rev. Mater. Res. 47 2017 199 216 10.1146/annurev-matsci-071312-121616 (Volume 47, 2017) Henkelman, G.Atomistic Simulations of Activated Processes in Materials. Annu Rev. Mater. Res.2017, 47(Volume 47, 2017), 199–216. DOI: https://doi.org/10.1146/annurev-matsci-071312-121616. [75] S.P.a.M.S. Matthew T Darby First principles-based Kinetic Monte Carlo simulation in catalysis Physics of surface, interface and cluster catalysis 2016 1 38 Matthew T Darby, S.P. a. M.S.First principles-based Kinetic Monte Carlo simulation in catalysis. In Physics of surface, interface and cluster catalysis, 2016; pp 1–38. [76] N. Lopez J.K. Nørskov Synergetic effects in CO adsorption on Cu–Pd(111) alloys Surf. Sci. 477 1 2001 59 75 10.1016/S0039-6028(01)00706-3 Lopez, N.; Nørskov, J.K.Synergetic effects in CO adsorption on Cu–Pd(111) alloys. Surf. Sci.2001, 477 (1), 59–75. DOI: https://doi.org/10.1016/S0039-6028(01)00706-3. [77] S. Sakong C. Mosch A. Groß CO adsorption on Cu–Pd alloy surfaces: ligand versus ensemble effects Phys. Chem. Chem. Phys. 9 18 2007 2216 2225 10.1039/B615547B Sakong, S.; Mosch, C.; Groß, A.CO adsorption on Cu–Pd alloy surfaces: ligand versus ensemble effects. Phys. Chem. Chem. Phys.2007, 9 (18), 2216–2225, DOI: 10.1039/B615547B. [78] A.A.B. Padama R.A.B. Villaos J.R. Albia W.A. Diño H. Nakanishi H. Kasai CO-induced Pd segregation and the effect of subsurface Pd on CO adsorption on CuPd surfaces Journal of Physics: Condensed Matter 29 2 2017 025005 10.1088/0953-8984/29/2/025005 Padama, A.A.B.; Villaos, R.A.B.; Albia, J.R.; Diño, W.A.; Nakanishi, H.; Kasai, H.CO-induced Pd segregation and the effect of subsurface Pd on CO adsorption on CuPd surfaces. Journal of Physics: Condensed Matter2017, 29 (2), 025005. DOI: 10.1088/0953-8984/29/2/025005. [79] H.L. Tierney A.E. Baber E.C.H Sykes Atomic-Scale Imaging and Electronic Structure Determination of Catalytic Sites on Pd/Cu Near Surface Alloys J Phys Chem C 113 17 2009 7246 7250 10.1021/jp809766d Tierney, H.L.; Baber, A.E.; Sykes, E.C. H. Atomic-Scale Imaging and Electronic Structure Determination of Catalytic Sites on Pd/Cu Near Surface Alloys. J Phys Chem C2009, 113 (17), 7246–7250. DOI: 10.1021/jp809766d. [80] A.M. Molenbroek S. Haukka B.S. Clausen Alloying in Cu/Pd Nanoparticle Catalysts The Journal of Physical Chemistry B 102 52 1998 10680 10689 10.1021/jp9822081 Molenbroek, A.M.; Haukka, S.; Clausen, B.S.Alloying in Cu/Pd Nanoparticle Catalysts. The Journal of Physical Chemistry B1998, 102 (52), 10680–10689. DOI: 10.1021/jp9822081. [81] J.B. Miller C. Matranga A.J. Gellman Surface segregation in a polycrystalline Pd70Cu30 alloy hydrogen purification membrane Surf. Sci. 602 1 2008 375 382 10.1016/j.susc.2007.10.031 Miller, J.B.; Matranga, C.; Gellman, A.J.Surface segregation in a polycrystalline Pd70Cu30 alloy hydrogen purification membrane. Surf. Sci.2008, 602 (1), 375–382. DOI: https://doi.org/10.1016/j.susc.2007.10.031. [82] B.C. Khanra M. Menon Role of adsorption on surface composition of Pd–Cu nanoparticles Physica B: Condensed Matter 270 3 1999 307 312 10.1016/S0921-4526(99)00177-5 Khanra, B.C.; Menon, M.Role of adsorption on surface composition of Pd–Cu nanoparticles. Physica B: Condensed Matter1999, 270 (3), 307–312. DOI: https://doi.org/10.1016/S0921-4526(99)00177-5. [83] K. Sun J. Liu N. Nag N.D. Browning Atomic Scale Characterization of Supported Pd−Cu/γ-Al2O3 Bimetallic Catalysts J. Phys. Chem. B 106 2002 12239 12246 Sun, K.; Liu, J.; Nag, N.; Browning, N.D.Atomic Scale Characterization of Supported Pd−Cu/γ-Al2O3 Bimetallic Catalysts. J. Phys. Chem. B2002, 106, 12239–12246. [84] Kadowaki, E.; Oguchi, W.; Nakajo, T.; Iwama, Y.; Iwama, K.; Etsuko, K.; Tetsuo, N.; Wataru, O.; Yasuhiro, I.; Iwana, Y. Production of allyl acetate production catalyst involves supporting palladium, gold, compound containing copper, nickel, zinc and/or cobalt, and alkali metal salt compound on carrier. WO2008133126-A2; JP2008279437-A; WO2008133126-A3; KR2009103936-A; TW200911371-A; EP2136919-A2; CN101657259-A; US2010099903-A1; KR1101195-B1; EP2460588-A1; JP4969501-B2; US8338327-B2; CN101657259-B; TW378826-B1; EP2136919-B1; EP2460588-B1. [85] Liu, J.; Yang, Y.; Zhang, L. Preparing allyl acetate comprises reacting propylene, acetic acid and oxygen or an oxygen-containing gas at specific temperature and pressure and then contacting with catalyst contact to react. CN103058863-A; CN103058863-B. [86] K.A. Goulas S. Sreekumar Y. Song P. Kharidehal G. Gunbas P.J. Dietrich G.R. Johnson Y.C. Wang A.M. Grippo L.C. Grabow Synergistic Effects in Bimetallic Palladium-Copper Catalysts Improve Selectivity in Oxygenate Coupling Reactions J. Am. Chem. Soc. 138 21 2016 6805 6812 10.1021/jacs.6b02247 Goulas, K.A.; Sreekumar, S.; Song, Y.; Kharidehal, P.; Gunbas, G.; Dietrich, P.J.; Johnson, G.R.; Wang, Y.C.; Grippo, A.M.; Grabow, L.C.; et al. Synergistic Effects in Bimetallic Palladium-Copper Catalysts Improve Selectivity in Oxygenate Coupling Reactions. J. Am. Chem. Soc.2016, 138 (21), 6805–6812. DOI: 10.1021/jacs.6b02247. [87] Y. Sha T.H. Yu B.V. Merinov W.A. Goddard DFT Prediction of Oxygen Reduction Reaction on Palladium–Copper Alloy Surfaces ACS. Catal. 4 2014 1189 1197 Sha, Y.; Yu, T.H.; Merinov, B.V.; Goddard, W.A.DFT Prediction of Oxygen Reduction Reaction on Palladium–Copper Alloy Surfaces. ACS. Catal.2014, 4, 1189–1197. [88] K.A. Goulas Y.Y. Song G.R. Johnson J.P. Chen A.A. Gokhale L.C. Grabow F.D. Toste Selectivity tuning over monometallic and bimetallic dehydrogenation catalysts: effects of support and particle size Catal. Sci. Technol. 8 1 2018 314 327 10.1039/c7cy01306j Goulas, K.A.; Song, Y.Y.; Johnson, G.R.; Chen, J.P.; Gokhale, A.A.; Grabow, L.C.; Toste, F.D.Selectivity tuning over monometallic and bimetallic dehydrogenation catalysts: effects of support and particle size. Catal. Sci. Technol.2018, 8 (1), 314–327. DOI: 10.1039/c7cy01306j. [89] H.J. Li A.C. Lausche A.A. Peterson H.A. Hansen F. Studt T. Bligaard Using microkinetic analysis to search for novel anhydrous formaldehyde production catalysts Surf. Sci. 641 2015 105 111 10.1016/j.susc.2015.04.028 Li, H.J.; Lausche, A.C.; Peterson, A.A.; Hansen, H.A.; Studt, F.; Bligaard, T.Using microkinetic analysis to search for novel anhydrous formaldehyde production catalysts. Surf. Sci.2015, 641, 105–111. DOI: https://doi.org/10.1016/j.susc.2015.04.028. [90] B. Hammer J.K. Nørskov Theoretical surface science and catalysis—Calculations and concepts Advances in Catalysis 45 2000 Academic Press 71 129 Hammer, B.; Nørskov, J.K.Theoretical surface science and catalysis—Calculations and concepts. In Advances in Catalysis, Vol. 45; Academic Press, 2000; pp 71–129. [91] W. Zhang J. Zhang Y. Yu Theoretical insight into the effect of impurity on the acetoxylation of ethylene to form vinyl acetate: A DFT study of acetylene coversion on PdAu(100) surface Fuel 326 2022 125047 10.1016/j.fuel.2022.125047 Zhang, W.; Zhang, J.; Yu, Y.Theoretical insight into the effect of impurity on the acetoxylation of ethylene to form vinyl acetate: A DFT study of acetylene coversion on PdAu(100) surface. Fuel2022, 326, 125047. DOI: https://doi.org/10.1016/j.fuel.2022.125047. [92] Y. Xu W. Bian Q. Pan M. Chu M. Cao Y. Li Z. Gong R. Wang Y. Cui H. Lin Revealing the Active Sites of Pd Nanocrystals for Propyne Semihydrogenation: From Theory to Experiment ACS. Catal. 9 9 2019 8471 8480 10.1021/acscatal.9b02340 Xu, Y.; Bian, W.; Pan, Q.; Chu, M.; Cao, M.; Li, Y.; Gong, Z.; Wang, R.; Cui, Y.; Lin, H.; et al. Revealing the Active Sites of Pd Nanocrystals for Propyne Semihydrogenation: From Theory to Experiment. ACS. Catal.2019, 9 (9), 8471–8480. DOI: 10.1021/acscatal.9b02340. [93] M. Chu Q. Pan W. Bian Y. Liu M. Cao C. Zhang H. Lin Q. Zhang Y. Xu Strong metal–support interaction between palladium and gallium oxide within monodisperse nanoparticles: self-supported catalysts for propyne semi-hydrogenation J. Catal. 395 2021 36 45 10.1016/j.jcat.2020.12.015 Chu, M.; Pan, Q.; Bian, W.; Liu, Y.; Cao, M.; Zhang, C.; Lin, H.; Zhang, Q.; Xu, Y.Strong metal–support interaction between palladium and gallium oxide within monodisperse nanoparticles: self-supported catalysts for propyne semi-hydrogenation. J. Catal.2021, 395, 36–45. DOI: https://doi.org/10.1016/j.jcat.2020.12.015. [94] A. Valcárcel J.M. Ricart A. Clotet F. Illas A. Markovits C. Minot Theoretical study of dehydrogenation and isomerisation reactions of propylene on Pt(111) J. Catal. 241 1 2006 115 122 10.1016/j.jcat.2006.04.022 Valcárcel, A.; Ricart, J.M.; Clotet, A.; Illas, F.; Markovits, A.; Minot, C.Theoretical study of dehydrogenation and isomerisation reactions of propylene on Pt(111). J. Catal.2006, 241 (1), 115–122. DOI: https://doi.org/10.1016/j.jcat.2006.04.022. [95] M.L. Yang Y.A. Zhu C. Fan Z.J. Sui D. Chen X.G. Zhou Density functional study of the chemisorption of C1, C2 and C3 intermediates in propane dissociation on Pt(111) Journal of Molecular Catalysis A: Chemical 321 1 2010 42 49 10.1016/j.molcata.2010.01.017 Yang, M.L.; Zhu, Y.A.; Fan, C.; Sui, Z.J.; Chen, D.; Zhou, X.G.Density functional study of the chemisorption of C1, C2 and C3 intermediates in propane dissociation on Pt(111). Journal of Molecular Catalysis A: Chemical2010, 321 (1), 42–49. DOI: https://doi.org/10.1016/j.molcata.2010.01.017. [96] T.A. Peters J.M. Polfus F.P.F. van Berkel R. Bredesen Interplay between propylene and H2S co-adsorption on the H2 flux characteristics of Pd-alloy membranes employed in propane dehydrogenation (PDH) processes Chem. Eng. J. 304 2016 134 140 10.1016/j.cej.2016.06.065 Peters, T.A.; Polfus, J.M.; van Berkel, F.P.F.; Bredesen, R.Interplay between propylene and H2S co-adsorption on the H2 flux characteristics of Pd-alloy membranes employed in propane dehydrogenation (PDH) processes. Chem. Eng. J.2016, 304, 134–140. DOI: https://doi.org/10.1016/j.cej.2016.06.065. [97] A. Pulido P. Concepción M. Boronat A. Corma Aerobic epoxidation of propene over silver (111) and (100) facet catalysts J. Catal. 292 2012 138 147 10.1016/j.jcat.2012.05.006 Pulido, A.; Concepción, P.; Boronat, M.; Corma, A.Aerobic epoxidation of propene over silver (111) and (100) facet catalysts. J. Catal.2012, 292, 138–147. DOI: https://doi.org/10.1016/j.jcat.2012.05.006. [98] D. Düzenli D.O. Atmaca M.G. Gezer I. Onal A density functional theory study of partial oxidation of propylene on Cu2O(001) and CuO(001) surfaces Appl. Surf. Sci. 355 2015 660 666 10.1016/j.apsusc.2015.07.155 Düzenli, D.; Atmaca, D.O.; Gezer, M.G.; Onal, I.A density functional theory study of partial oxidation of propylene on Cu2O(001) and CuO(001) surfaces. Appl. Surf. Sci.2015, 355, 660–666. DOI: https://doi.org/10.1016/j.apsusc.2015.07.155. [99] M. Li J. Shen Microkinetic analysis for the selective oxidation of propylene to acetone over vanadia/titania Applied Catalysis A: General 246 2 2003 351 363 10.1016/S0926-860X(03)00053-X Li, M.; Shen, J.Microkinetic analysis for the selective oxidation of propylene to acetone over vanadia/titania. Applied Catalysis A: General2003, 246 (2), 351–363. DOI: https://doi.org/10.1016/S0926-860X(03)00053-X. [100] Y.Y. Song G.C. Wang A DFT Study and Microkinetic Simulation of Propylene Partial Oxidation on CuO (111) and CuO (100) Surfaces The Journal of Physical Chemistry C 120 48 2016 27430 27442 10.1021/acs.jpcc.6b09621 Song, Y.Y.; Wang, G.C.A DFT Study and Microkinetic Simulation of Propylene Partial Oxidation on CuO (111) and CuO (100) Surfaces. The Journal of Physical Chemistry C2016, 120 (48), 27430–27442. DOI: 10.1021/acs.jpcc.6b09621.",
+      "scopus-id": "85205136418",
+      "coredata": {
+        "eid": "1-s2.0-S2468823124007697",
+        "dc:description": "1,4-butanediol has attracted much attention and Lyondell method is a competitive production technology due to its wide range of feedstock sources, in which the acetoxylation of propylene to allyl acetate on PdCu catalysts is an essential step. By combining Density Functional Theory and kinetic Monte Carlo simulations, the formation mechanisms and pathways of byproducts acetone and propanal in the acetoxylation of propylene to allyl acetate on PdCu catalysts were systematically investigated. Most species tend to be adsorbed on Pd atoms, which is consistent with that Pd atoms are main active sites. Acetone is obtained by the hydrogenation of CH3COCH2*, which comes from the oxidation and then dehydrogenation of propylene. Propanal is produced by the hydrogenation of CH3CHCHO*, which can be formed by the dehydrogenation and then oxidation of propylene or the oxidation and then dehydrogenation of propylene. Compared with acetone, propanal is more difficult to form and its formation reactions have higher Gibbs activation energy. This work provides theoretical guidance for the better modification of catalysts and the reduction of byproducts acetone and propanal on microscopic and mesoscopic scales.",
+        "openArchiveArticle": "false",
+        "prism:coverDate": "2024-12-31",
+        "openaccessUserLicense": null,
+        "prism:aggregationType": "Journal",
+        "prism:url": "https://api.elsevier.com/content/article/pii/S2468823124007697",
+        "dc:creator": [
+          {
+            "@_fa": "true",
+            "$": "Zhang, Weiwei"
+          },
+          {
+            "@_fa": "true",
+            "$": "Li, Changdong"
+          },
+          {
+            "@_fa": "true",
+            "$": "Liang, Tongyan"
+          },
+          {
+            "@_fa": "true",
+            "$": "Yu, Yingzhe"
+          },
+          {
+            "@_fa": "true",
+            "$": "Zhang, Minhua"
+          }
+        ],
+        "link": [
+          {
+            "@_fa": "true",
+            "@rel": "self",
+            "@href": "https://api.elsevier.com/content/article/pii/S2468823124007697"
+          },
+          {
+            "@_fa": "true",
+            "@rel": "scidir",
+            "@href": "https://www.sciencedirect.com/science/article/pii/S2468823124007697"
+          }
+        ],
+        "dc:format": "application/json",
+        "openaccessType": null,
+        "pii": "S2468-8231(24)00769-7",
+        "prism:volume": "569",
+        "articleNumber": "114587",
+        "prism:publisher": "Elsevier B.V. All rights are reserved, including those for text and data mining, AI training, and similar technologies.",
+        "dc:title": "Revealing mechanisms for the formation of acetone and propanal in the acetoxylation of propylene on PdCu catalysts combined DFT with kMC analysis",
+        "prism:copyright": "© 2024 Elsevier B.V. All rights are reserved, including those for text and data mining, AI training, and similar technologies.",
+        "openaccess": "0",
+        "prism:issn": "24688231",
+        "dcterms:subject": [
+          {
+            "@_fa": "true",
+            "$": "Propylene"
+          },
+          {
+            "@_fa": "true",
+            "$": "PdCu catalysts"
+          },
+          {
+            "@_fa": "true",
+            "$": "Mechanisms"
+          },
+          {
+            "@_fa": "true",
+            "$": "Acetone"
+          },
+          {
+            "@_fa": "true",
+            "$": "Propanal"
+          }
+        ],
+        "openaccessArticle": "false",
+        "prism:publicationName": "Molecular Catalysis",
+        "openaccessSponsorType": null,
+        "prism:pageRange": "114587",
+        "pubType": "fla",
+        "prism:coverDisplayDate": "December 2024",
+        "prism:doi": "10.1016/j.mcat.2024.114587",
+        "prism:startingPage": "114587",
+        "dc:identifier": "doi:10.1016/j.mcat.2024.114587",
+        "openaccessSponsorName": null
+      },
+      "objects": {
+        "object": [
+          {
+            "@category": "standard",
+            "@height": "228",
+            "@width": "376",
+            "@_fa": "true",
+            "$": "https://api.elsevier.com/content/object/eid/1-s2.0-S2468823124007697-gr8.jpg?httpAccept=%2A%2F%2A",
+            "@multimediatype": "JPEG image file",
+            "@type": "IMAGE-DOWNSAMPLED",
+            "@size": "46318",
+            "@ref": "gr8",
+            "@mimetype": "image/jpeg"
+          },
+          {
+            "@category": "standard",
+            "@height": "403",
+            "@width": "715",
+            "@_fa": "true",
+            "$": "https://api.elsevier.com/content/object/eid/1-s2.0-S2468823124007697-gr7.jpg?httpAccept=%2A%2F%2A",
+            "@multimediatype": "JPEG image file",
+            "@type": "IMAGE-DOWNSAMPLED",
+            "@size": "66879",
+            "@ref": "gr7",
+            "@mimetype": "image/jpeg"
+          },
+          {
+            "@category": "standard",
+            "@height": "403",
+            "@width": "753",
+            "@_fa": "true",
+            "$": "https://api.elsevier.com/content/object/eid/1-s2.0-S2468823124007697-gr9.jpg?httpAccept=%2A%2F%2A",
+            "@multimediatype": "JPEG image file",
+            "@type": "IMAGE-DOWNSAMPLED",
+            "@size": "75223",
+            "@ref": "gr9",
+            "@mimetype": "image/jpeg"
+          },
+          {
+            "@category": "standard",
+            "@height": "398",
+            "@width": "753",
+            "@_fa": "true",
+            "$": "https://api.elsevier.com/content/object/eid/1-s2.0-S2468823124007697-gr10.jpg?httpAccept=%2A%2F%2A",
+            "@multimediatype": "JPEG image file",
+            "@type": "IMAGE-DOWNSAMPLED",
+            "@size": "62665",
+            "@ref": "gr10",
+            "@mimetype": "image/jpeg"
+          },
+          {
+            "@category": "standard",
+            "@height": "200",
+            "@width": "317",
+            "@_fa": "true",
+            "$": "https://api.elsevier.com/content/object/eid/1-s2.0-S2468823124007697-ga1.jpg?httpAccept=%2A%2F%2A",
+            "@multimediatype": "JPEG image file",
+            "@type": "IMAGE-DOWNSAMPLED",
+            "@size": "32089",
+            "@ref": "ga1",
+            "@mimetype": "image/jpeg"
+          },
+          {
+            "@category": "standard",
+            "@height": "104",
+            "@width": "715",
+            "@_fa": "true",
+            "$": "https://api.elsevier.com/content/object/eid/1-s2.0-S2468823124007697-sc1.jpg?httpAccept=%2A%2F%2A",
+            "@multimediatype": "JPEG image file",
+            "@type": "IMAGE-DOWNSAMPLED",
+            "@size": "15433",
+            "@ref": "sc1",
+            "@mimetype": "image/jpeg"
+          },
+          {
+            "@category": "standard",
+            "@height": "323",
+            "@width": "376",
+            "@_fa": "true",
+            "$": "https://api.elsevier.com/content/object/eid/1-s2.0-S2468823124007697-gr4.jpg?httpAccept=%2A%2F%2A",
+            "@multimediatype": "JPEG image file",
+            "@type": "IMAGE-DOWNSAMPLED",
+            "@size": "33878",
+            "@ref": "gr4",
+            "@mimetype": "image/jpeg"
+          },
+          {
+            "@category": "standard",
+            "@height": "392",
+            "@width": "715",
+            "@_fa": "true",
+            "$": "https://api.elsevier.com/content/object/eid/1-s2.0-S2468823124007697-gr3.jpg?httpAccept=%2A%2F%2A",
+            "@multimediatype": "JPEG image file",
+            "@type": "IMAGE-DOWNSAMPLED",
+            "@size": "104875",
+            "@ref": "gr3",
+            "@mimetype": "image/jpeg"
+          },
+          {
+            "@category": "standard",
+            "@height": "327",
+            "@width": "376",
+            "@_fa": "true",
+            "$": "https://api.elsevier.com/content/object/eid/1-s2.0-S2468823124007697-gr6.jpg?httpAccept=%2A%2F%2A",
+            "@multimediatype": "JPEG image file",
+            "@type": "IMAGE-DOWNSAMPLED",
+            "@size": "28120",
+            "@ref": "gr6",
+            "@mimetype": "image/jpeg"
+          },
+          {
+            "@category": "standard",
+            "@height": "412",
+            "@width": "715",
+            "@_fa": "true",
+            "$": "https://api.elsevier.com/content/object/eid/1-s2.0-S2468823124007697-gr5.jpg?httpAccept=%2A%2F%2A",
+            "@multimediatype": "JPEG image file",
+            "@type": "IMAGE-DOWNSAMPLED",
+            "@size": "74807",
+            "@ref": "gr5",
+            "@mimetype": "image/jpeg"
+          },
+          {
+            "@category": "standard",
+            "@height": "405",
+            "@width": "753",
+            "@_fa": "true",
+            "$": "https://api.elsevier.com/content/object/eid/1-s2.0-S2468823124007697-gr2.jpg?httpAccept=%2A%2F%2A",
+            "@multimediatype": "JPEG image file",
+            "@type": "IMAGE-DOWNSAMPLED",
+            "@size": "124074",
+            "@ref": "gr2",
+            "@mimetype": "image/jpeg"
+          },
+          {
+            "@category": "standard",
+            "@height": "821",
+            "@width": "715",
+            "@_fa": "true",
+            "$": "https://api.elsevier.com/content/object/eid/1-s2.0-S2468823124007697-gr1.jpg?httpAccept=%2A%2F%2A",
+            "@multimediatype": "JPEG image file",
+            "@type": "IMAGE-DOWNSAMPLED",
+            "@size": "141540",
+            "@ref": "gr1",
+            "@mimetype": "image/jpeg"
+          },
+          {
+            "@category": "thumbnail",
+            "@height": "133",
+            "@width": "219",
+            "@_fa": "true",
+            "$": "https://api.elsevier.com/content/object/eid/1-s2.0-S2468823124007697-gr8.sml?httpAccept=%2A%2F%2A",
+            "@multimediatype": "GIF image file",
+            "@type": "IMAGE-THUMBNAIL",
+            "@size": "22263",
+            "@ref": "gr8",
+            "@mimetype": "image/gif"
+          },
+          {
+            "@category": "thumbnail",
+            "@height": "123",
+            "@width": "219",
+            "@_fa": "true",
+            "$": "https://api.elsevier.com/content/object/eid/1-s2.0-S2468823124007697-gr7.sml?httpAccept=%2A%2F%2A",
+            "@multimediatype": "GIF image file",
+            "@type": "IMAGE-THUMBNAIL",
+            "@size": "7786",
+            "@ref": "gr7",
+            "@mimetype": "image/gif"
+          },
+          {
+            "@category": "thumbnail",
+            "@height": "117",
+            "@width": "219",
+            "@_fa": "true",
+            "$": "https://api.elsevier.com/content/object/eid/1-s2.0-S2468823124007697-gr9.sml?httpAccept=%2A%2F%2A",
+            "@multimediatype": "GIF image file",
+            "@type": "IMAGE-THUMBNAIL",
+            "@size": "8840",
+            "@ref": "gr9",
+            "@mimetype": "image/gif"
+          },
+          {
+            "@category": "thumbnail",
+            "@height": "116",
+            "@width": "219",
+            "@_fa": "true",
+            "$": "https://api.elsevier.com/content/object/eid/1-s2.0-S2468823124007697-gr10.sml?httpAccept=%2A%2F%2A",
+            "@multimediatype": "GIF image file",
+            "@type": "IMAGE-THUMBNAIL",
+            "@size": "8061",
+            "@ref": "gr10",
+            "@mimetype": "image/gif"
+          },
+          {
+            "@category": "thumbnail",
+            "@height": "138",
+            "@width": "219",
+            "@_fa": "true",
+            "$": "https://api.elsevier.com/content/object/eid/1-s2.0-S2468823124007697-ga1.sml?httpAccept=%2A%2F%2A",
+            "@multimediatype": "GIF image file",
+            "@type": "IMAGE-THUMBNAIL",
+            "@size": "13534",
+            "@ref": "ga1",
+            "@mimetype": "image/gif"
+          },
+          {
+            "@category": "thumbnail",
+            "@height": "32",
+            "@width": "219",
+            "@_fa": "true",
+            "$": "https://api.elsevier.com/content/object/eid/1-s2.0-S2468823124007697-sc1.sml?httpAccept=%2A%2F%2A",
+            "@multimediatype": "GIF image file",
+            "@type": "IMAGE-THUMBNAIL",
+            "@size": "2251",
+            "@ref": "sc1",
+            "@mimetype": "image/gif"
+          },
+          {
+            "@category": "thumbnail",
+            "@height": "164",
+            "@width": "191",
+            "@_fa": "true",
+            "$": "https://api.elsevier.com/content/object/eid/1-s2.0-S2468823124007697-gr4.sml?httpAccept=%2A%2F%2A",
+            "@multimediatype": "GIF image file",
+            "@type": "IMAGE-THUMBNAIL",
+            "@size": "8976",
+            "@ref": "gr4",
+            "@mimetype": "image/gif"
+          },
+          {
+            "@category": "thumbnail",
+            "@height": "120",
+            "@width": "219",
+            "@_fa": "true",
+            "$": "https://api.elsevier.com/content/object/eid/1-s2.0-S2468823124007697-gr3.sml?httpAccept=%2A%2F%2A",
+            "@multimediatype": "GIF image file",
+            "@type": "IMAGE-THUMBNAIL",
+            "@size": "15977",
+            "@ref": "gr3",
+            "@mimetype": "image/gif"
+          },
+          {
+            "@category": "thumbnail",
+            "@height": "164",
+            "@width": "189",
+            "@_fa": "true",
+            "$": "https://api.elsevier.com/content/object/eid/1-s2.0-S2468823124007697-gr6.sml?httpAccept=%2A%2F%2A",
+            "@multimediatype": "GIF image file",
+            "@type": "IMAGE-THUMBNAIL",
+            "@size": "7659",
+            "@ref": "gr6",
+            "@mimetype": "image/gif"
+          },
+          {
+            "@category": "thumbnail",
+            "@height": "126",
+            "@width": "219",
+            "@_fa": "true",
+            "$": "https://api.elsevier.com/content/object/eid/1-s2.0-S2468823124007697-gr5.sml?httpAccept=%2A%2F%2A",
+            "@multimediatype": "GIF image file",
+            "@type": "IMAGE-THUMBNAIL",
+            "@size": "9364",
+            "@ref": "gr5",
+            "@mimetype": "image/gif"
+          },
+          {
+            "@category": "thumbnail",
+            "@height": "118",
+            "@width": "219",
+            "@_fa": "true",
+            "$": "https://api.elsevier.com/content/object/eid/1-s2.0-S2468823124007697-gr2.sml?httpAccept=%2A%2F%2A",
+            "@multimediatype": "GIF image file",
+            "@type": "IMAGE-THUMBNAIL",
+            "@size": "20915",
+            "@ref": "gr2",
+            "@mimetype": "image/gif"
+          },
+          {
+            "@category": "thumbnail",
+            "@height": "164",
+            "@width": "143",
+            "@_fa": "true",
+            "$": "https://api.elsevier.com/content/object/eid/1-s2.0-S2468823124007697-gr1.sml?httpAccept=%2A%2F%2A",
+            "@multimediatype": "GIF image file",
+            "@type": "IMAGE-THUMBNAIL",
+            "@size": "11907",
+            "@ref": "gr1",
+            "@mimetype": "image/gif"
+          },
+          {
+            "@category": "high",
+            "@height": "1011",
+            "@width": "1667",
+            "@_fa": "true",
+            "$": "https://api.elsevier.com/content/object/eid/1-s2.0-S2468823124007697-gr8_lrg.jpg?httpAccept=%2A%2F%2A",
+            "@multimediatype": "JPEG image file",
+            "@type": "IMAGE-HIGH-RES",
+            "@size": "331069",
+            "@ref": "gr8",
+            "@mimetype": "image/jpeg"
+          },
+          {
+            "@category": "high",
+            "@height": "1784",
+            "@width": "3167",
+            "@_fa": "true",
+            "$": "https://api.elsevier.com/content/object/eid/1-s2.0-S2468823124007697-gr7_lrg.jpg?httpAccept=%2A%2F%2A",
+            "@multimediatype": "JPEG image file",
+            "@type": "IMAGE-HIGH-RES",
+            "@size": "387745",
+            "@ref": "gr7",
+            "@mimetype": "image/jpeg"
+          },
+          {
+            "@category": "high",
+            "@height": "1785",
+            "@width": "3333",
+            "@_fa": "true",
+            "$": "https://api.elsevier.com/content/object/eid/1-s2.0-S2468823124007697-gr9_lrg.jpg?httpAccept=%2A%2F%2A",
+            "@multimediatype": "JPEG image file",
+            "@type": "IMAGE-HIGH-RES",
+            "@size": "425552",
+            "@ref": "gr9",
+            "@mimetype": "image/jpeg"
+          },
+          {
+            "@category": "high",
+            "@height": "1763",
+            "@width": "3333",
+            "@_fa": "true",
+            "$": "https://api.elsevier.com/content/object/eid/1-s2.0-S2468823124007697-gr10_lrg.jpg?httpAccept=%2A%2F%2A",
+            "@multimediatype": "JPEG image file",
+            "@type": "IMAGE-HIGH-RES",
+            "@size": "362548",
+            "@ref": "gr10",
+            "@mimetype": "image/jpeg"
+          },
+          {
+            "@category": "high",
+            "@height": "886",
+            "@width": "1403",
+            "@_fa": "true",
+            "$": "https://api.elsevier.com/content/object/eid/1-s2.0-S2468823124007697-ga1_lrg.jpg?httpAccept=%2A%2F%2A",
+            "@multimediatype": "JPEG image file",
+            "@type": "IMAGE-HIGH-RES",
+            "@size": "272908",
+            "@ref": "ga1",
+            "@mimetype": "image/jpeg"
+          },
+          {
+            "@category": "high",
+            "@height": "459",
+            "@width": "3167",
+            "@_fa": "true",
+            "$": "https://api.elsevier.com/content/object/eid/1-s2.0-S2468823124007697-sc1_lrg.jpg?httpAccept=%2A%2F%2A",
+            "@multimediatype": "JPEG image file",
+            "@type": "IMAGE-HIGH-RES",
+            "@size": "115646",
+            "@ref": "sc1",
+            "@mimetype": "image/jpeg"
+          },
+          {
+            "@category": "high",
+            "@height": "1432",
+            "@width": "1667",
+            "@_fa": "true",
+            "$": "https://api.elsevier.com/content/object/eid/1-s2.0-S2468823124007697-gr4_lrg.jpg?httpAccept=%2A%2F%2A",
+            "@multimediatype": "JPEG image file",
+            "@type": "IMAGE-HIGH-RES",
+            "@size": "193297",
+            "@ref": "gr4",
+            "@mimetype": "image/jpeg"
+          },
+          {
+            "@category": "high",
+            "@height": "1735",
+            "@width": "3167",
+            "@_fa": "true",
+            "$": "https://api.elsevier.com/content/object/eid/1-s2.0-S2468823124007697-gr3_lrg.jpg?httpAccept=%2A%2F%2A",
+            "@multimediatype": "JPEG image file",
+            "@type": "IMAGE-HIGH-RES",
+            "@size": "689908",
+            "@ref": "gr3",
+            "@mimetype": "image/jpeg"
+          },
+          {
+            "@category": "high",
+            "@height": "1448",
+            "@width": "1667",
+            "@_fa": "true",
+            "$": "https://api.elsevier.com/content/object/eid/1-s2.0-S2468823124007697-gr6_lrg.jpg?httpAccept=%2A%2F%2A",
+            "@multimediatype": "JPEG image file",
+            "@type": "IMAGE-HIGH-RES",
+            "@size": "151782",
+            "@ref": "gr6",
+            "@mimetype": "image/jpeg"
+          },
+          {
+            "@category": "high",
+            "@height": "1823",
+            "@width": "3167",
+            "@_fa": "true",
+            "$": "https://api.elsevier.com/content/object/eid/1-s2.0-S2468823124007697-gr5_lrg.jpg?httpAccept=%2A%2F%2A",
+            "@multimediatype": "JPEG image file",
+            "@type": "IMAGE-HIGH-RES",
+            "@size": "468565",
+            "@ref": "gr5",
+            "@mimetype": "image/jpeg"
+          },
+          {
+            "@category": "high",
+            "@height": "1792",
+            "@width": "3333",
+            "@_fa": "true",
+            "$": "https://api.elsevier.com/content/object/eid/1-s2.0-S2468823124007697-gr2_lrg.jpg?httpAccept=%2A%2F%2A",
+            "@multimediatype": "JPEG image file",
+            "@type": "IMAGE-HIGH-RES",
+            "@size": "882669",
+            "@ref": "gr2",
+            "@mimetype": "image/jpeg"
+          },
+          {
+            "@category": "high",
+            "@height": "3635",
+            "@width": "3167",
+            "@_fa": "true",
+            "$": "https://api.elsevier.com/content/object/eid/1-s2.0-S2468823124007697-gr1_lrg.jpg?httpAccept=%2A%2F%2A",
+            "@multimediatype": "JPEG image file",
+            "@type": "IMAGE-HIGH-RES",
+            "@size": "1016969",
+            "@ref": "gr1",
+            "@mimetype": "image/jpeg"
+          },
+          {
+            "@category": "standard",
+            "@_fa": "true",
+            "$": "https://api.elsevier.com/content/object/eid/1-s2.0-S2468823124007697-mmc1.docx?httpAccept=%2A%2F%2A",
+            "@multimediatype": "Microsoft Word file",
+            "@type": "APPLICATION",
+            "@size": "20319552",
+            "@ref": "mmc1",
+            "@mimetype": "application/word"
+          },
+          {
+            "@category": "thumbnail",
+            "@_fa": "true",
+            "$": "https://api.elsevier.com/content/object/eid/1-s2.0-S2468823124007697-si1.svg?httpAccept=%2A%2F%2A",
+            "@multimediatype": "Scalable Vector Graphics file",
+            "@type": "ALTIMG",
+            "@size": "6300",
+            "@ref": "si1",
+            "@mimetype": "image/svg+xml"
+          },
+          {
+            "@category": "thumbnail",
+            "@_fa": "true",
+            "$": "https://api.elsevier.com/content/object/eid/1-s2.0-S2468823124007697-si10.svg?httpAccept=%2A%2F%2A",
+            "@multimediatype": "Scalable Vector Graphics file",
+            "@type": "ALTIMG",
+            "@size": "9226",
+            "@ref": "si10",
+            "@mimetype": "image/svg+xml"
+          },
+          {
+            "@category": "thumbnail",
+            "@_fa": "true",
+            "$": "https://api.elsevier.com/content/object/eid/1-s2.0-S2468823124007697-si11.svg?httpAccept=%2A%2F%2A",
+            "@multimediatype": "Scalable Vector Graphics file",
+            "@type": "ALTIMG",
+            "@size": "7828",
+            "@ref": "si11",
+            "@mimetype": "image/svg+xml"
+          },
+          {
+            "@category": "thumbnail",
+            "@_fa": "true",
+            "$": "https://api.elsevier.com/content/object/eid/1-s2.0-S2468823124007697-si12.svg?httpAccept=%2A%2F%2A",
+            "@multimediatype": "Scalable Vector Graphics file",
+            "@type": "ALTIMG",
+            "@size": "3493",
+            "@ref": "si12",
+            "@mimetype": "image/svg+xml"
+          },
+          {
+            "@category": "thumbnail",
+            "@_fa": "true",
+            "$": "https://api.elsevier.com/content/object/eid/1-s2.0-S2468823124007697-si13.svg?httpAccept=%2A%2F%2A",
+            "@multimediatype": "Scalable Vector Graphics file",
+            "@type": "ALTIMG",
+            "@size": "3553",
+            "@ref": "si13",
+            "@mimetype": "image/svg+xml"
+          },
+          {
+            "@category": "thumbnail",
+            "@_fa": "true",
+            "$": "https://api.elsevier.com/content/object/eid/1-s2.0-S2468823124007697-si14.svg?httpAccept=%2A%2F%2A",
+            "@multimediatype": "Scalable Vector Graphics file",
+            "@type": "ALTIMG",
+            "@size": "25573",
+            "@ref": "si14",
+            "@mimetype": "image/svg+xml"
+          },
+          {
+            "@category": "thumbnail",
+            "@_fa": "true",
+            "$": "https://api.elsevier.com/content/object/eid/1-s2.0-S2468823124007697-si15.svg?httpAccept=%2A%2F%2A",
+            "@multimediatype": "Scalable Vector Graphics file",
+            "@type": "ALTIMG",
+            "@size": "19505",
+            "@ref": "si15",
+            "@mimetype": "image/svg+xml"
+          },
+          {
+            "@category": "thumbnail",
+            "@_fa": "true",
+            "$": "https://api.elsevier.com/content/object/eid/1-s2.0-S2468823124007697-si16.svg?httpAccept=%2A%2F%2A",
+            "@multimediatype": "Scalable Vector Graphics file",
+            "@type": "ALTIMG",
+            "@size": "19400",
+            "@ref": "si16",
+            "@mimetype": "image/svg+xml"
+          },
+          {
+            "@category": "thumbnail",
+            "@_fa": "true",
+            "$": "https://api.elsevier.com/content/object/eid/1-s2.0-S2468823124007697-si17.svg?httpAccept=%2A%2F%2A",
+            "@multimediatype": "Scalable Vector Graphics file",
+            "@type": "ALTIMG",
+            "@size": "18076",
+            "@ref": "si17",
+            "@mimetype": "image/svg+xml"
+          },
+          {
+            "@category": "thumbnail",
+            "@_fa": "true",
+            "$": "https://api.elsevier.com/content/object/eid/1-s2.0-S2468823124007697-si18.svg?httpAccept=%2A%2F%2A",
+            "@multimediatype": "Scalable Vector Graphics file",
+            "@type": "ALTIMG",
+            "@size": "10493",
+            "@ref": "si18",
+            "@mimetype": "image/svg+xml"
+          },
+          {
+            "@category": "thumbnail",
+            "@_fa": "true",
+            "$": "https://api.elsevier.com/content/object/eid/1-s2.0-S2468823124007697-si19.svg?httpAccept=%2A%2F%2A",
+            "@multimediatype": "Scalable Vector Graphics file",
+            "@type": "ALTIMG",
+            "@size": "17037",
+            "@ref": "si19",
+            "@mimetype": "image/svg+xml"
+          },
+          {
+            "@category": "thumbnail",
+            "@_fa": "true",
+            "$": "https://api.elsevier.com/content/object/eid/1-s2.0-S2468823124007697-si2.svg?httpAccept=%2A%2F%2A",
+            "@multimediatype": "Scalable Vector Graphics file",
+            "@type": "ALTIMG",
+            "@size": "1845",
+            "@ref": "si2",
+            "@mimetype": "image/svg+xml"
+          },
+          {
+            "@category": "thumbnail",
+            "@_fa": "true",
+            "$": "https://api.elsevier.com/content/object/eid/1-s2.0-S2468823124007697-si20.svg?httpAccept=%2A%2F%2A",
+            "@multimediatype": "Scalable Vector Graphics file",
+            "@type": "ALTIMG",
+            "@size": "11775",
+            "@ref": "si20",
+            "@mimetype": "image/svg+xml"
+          },
+          {
+            "@category": "thumbnail",
+            "@_fa": "true",
+            "$": "https://api.elsevier.com/content/object/eid/1-s2.0-S2468823124007697-si21.svg?httpAccept=%2A%2F%2A",
+            "@multimediatype": "Scalable Vector Graphics file",
+            "@type": "ALTIMG",
+            "@size": "4215",
+            "@ref": "si21",
+            "@mimetype": "image/svg+xml"
+          },
+          {
+            "@category": "thumbnail",
+            "@_fa": "true",
+            "$": "https://api.elsevier.com/content/object/eid/1-s2.0-S2468823124007697-si22.svg?httpAccept=%2A%2F%2A",
+            "@multimediatype": "Scalable Vector Graphics file",
+            "@type": "ALTIMG",
+            "@size": "1820",
+            "@ref": "si22",
+            "@mimetype": "image/svg+xml"
+          },
+          {
+            "@category": "thumbnail",
+            "@_fa": "true",
+            "$": "https://api.elsevier.com/content/object/eid/1-s2.0-S2468823124007697-si23.svg?httpAccept=%2A%2F%2A",
+            "@multimediatype": "Scalable Vector Graphics file",
+            "@type": "ALTIMG",
+            "@size": "5712",
+            "@ref": "si23",
+            "@mimetype": "image/svg+xml"
+          },
+          {
+            "@category": "thumbnail",
+            "@_fa": "true",
+            "$": "https://api.elsevier.com/content/object/eid/1-s2.0-S2468823124007697-si24.svg?httpAccept=%2A%2F%2A",
+            "@multimediatype": "Scalable Vector Graphics file",
+            "@type": "ALTIMG",
+            "@size": "12623",
+            "@ref": "si24",
+            "@mimetype": "image/svg+xml"
+          },
+          {
+            "@category": "thumbnail",
+            "@_fa": "true",
+            "$": "https://api.elsevier.com/content/object/eid/1-s2.0-S2468823124007697-si3.svg?httpAccept=%2A%2F%2A",
+            "@multimediatype": "Scalable Vector Graphics file",
+            "@type": "ALTIMG",
+            "@size": "2111",
+            "@ref": "si3",
+            "@mimetype": "image/svg+xml"
+          },
+          {
+            "@category": "thumbnail",
+            "@_fa": "true",
+            "$": "https://api.elsevier.com/content/object/eid/1-s2.0-S2468823124007697-si4.svg?httpAccept=%2A%2F%2A",
+            "@multimediatype": "Scalable Vector Graphics file",
+            "@type": "ALTIMG",
+            "@size": "4700",
+            "@ref": "si4",
+            "@mimetype": "image/svg+xml"
+          },
+          {
+            "@category": "thumbnail",
+            "@_fa": "true",
+            "$": "https://api.elsevier.com/content/object/eid/1-s2.0-S2468823124007697-si5.svg?httpAccept=%2A%2F%2A",
+            "@multimediatype": "Scalable Vector Graphics file",
+            "@type": "ALTIMG",
+            "@size": "4641",
+            "@ref": "si5",
+            "@mimetype": "image/svg+xml"
+          },
+          {
+            "@category": "thumbnail",
+            "@_fa": "true",
+            "$": "https://api.elsevier.com/content/object/eid/1-s2.0-S2468823124007697-si6.svg?httpAccept=%2A%2F%2A",
+            "@multimediatype": "Scalable Vector Graphics file",
+            "@type": "ALTIMG",
+            "@size": "2638",
+            "@ref": "si6",
+            "@mimetype": "image/svg+xml"
+          },
+          {
+            "@category": "thumbnail",
+            "@_fa": "true",
+            "$": "https://api.elsevier.com/content/object/eid/1-s2.0-S2468823124007697-si7.svg?httpAccept=%2A%2F%2A",
+            "@multimediatype": "Scalable Vector Graphics file",
+            "@type": "ALTIMG",
+            "@size": "2698",
+            "@ref": "si7",
+            "@mimetype": "image/svg+xml"
+          },
+          {
+            "@category": "thumbnail",
+            "@_fa": "true",
+            "$": "https://api.elsevier.com/content/object/eid/1-s2.0-S2468823124007697-si8.svg?httpAccept=%2A%2F%2A",
+            "@multimediatype": "Scalable Vector Graphics file",
+            "@type": "ALTIMG",
+            "@size": "3023",
+            "@ref": "si8",
+            "@mimetype": "image/svg+xml"
+          },
+          {
+            "@category": "thumbnail",
+            "@_fa": "true",
+            "$": "https://api.elsevier.com/content/object/eid/1-s2.0-S2468823124007697-si9.svg?httpAccept=%2A%2F%2A",
+            "@multimediatype": "Scalable Vector Graphics file",
+            "@type": "ALTIMG",
+            "@size": "13787",
+            "@ref": "si9",
+            "@mimetype": "image/svg+xml"
+          }
+        ]
+      },
+      "link": {
+        "@rel": "abstract",
+        "@href": "https://api.elsevier.com/content/abstract/scopus_id/85205136418"
+      }
+    }
+  }
+}

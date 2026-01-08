@@ -1,0 +1,592 @@
+{
+  "metadata": {
+    "title": "Mars–van Krevelen mechanism for CO oxidation on the polyoxometalates-supported Rh single-atom catalysts: An insight from density functional theory calculations",
+    "authors": "; ; ",
+    "journal": "Molecular Catalysis",
+    "date": "2021-08-31",
+    "doi": "10.1016/j.mcat.2021.111761",
+    "abstract": "",
+    "uri": "https://api.elsevier.com/content/article/pii/S2468823121003783",
+    "pii": "S2468823121003783"
+  },
+  "fulltext": {
+    "full-text-retrieval-response": {
+      "scopus-eid": "2-s2.0-85111185260",
+      "originalText": "serial JL 315758 291210 291744 291790 291809 31 Molecular Catalysis MOLECULARCATALYSIS 2021-07-26 2021-07-26 2021-07-26 2021-07-26 2021-08-16T15:55:31 1-s2.0-S2468823121003783 S2468-8231(21)00378-3 S2468823121003783 10.1016/j.mcat.2021.111761 S300 S300.1 FULL-TEXT 1-s2.0-S2468823121X00120 2022-12-12T23:36:21.627889Z 0 0 20210801 20210831 2021 2021-07-26T10:18:33.897095Z absattachment articleinfo articlenumber articletitlenorm authfirstinitialnorm authfirstsurnamenorm cid cids contenttype copyright crossmark dateloaded dateloadedtxt datesearch datesort dateupdated dco docsubtype doctype doi eid ewtransactionid hubeid indexeddate issn issnnorm itemstage itemtransactionid itemweight openaccess openarchive pg pgfirst pii piinorm pubdateend pubdatestart pubdatetxt pubyr sectiontitle sortorder srctitle srctitlenorm srctype ssids alllist content subj subheadings suppl tomb volfirst volissue volumelist webpdf webpdfpagecount yearnav figure e-component body acknowledge affil appendices articletitle auth authfirstini authfull authkeywords authlast grantnumber grantsponsor highlightsabst primabst ref specialabst 2468-8231 24688231 true 512 512 C Volume 512 4 111761 111761 111761 202108 August 2021 2021-08-01 2021-08-31 2021 Regular Papers article fla © 2021 Elsevier B.V. All rights reserved. MARSVANKREVELENMECHANISMFORCOOXIDATIONPOLYOXOMETALATESSUPPORTEDRHSINGLEATOMCATALYSTSINSIGHTDENSITYFUNCTIONALTHEORYCALCULATIONS LIN C 1 Introduction 2 Computational details 3 Results and discussion 3.1 Metal-Support Interaction 3.2 CO adsorption 3.3 Reaction mechanism 3.4 Oxidation state changes of the Rh center 4 Conclusion Associated content Supporting Information CRediT authorship contribution statement Acknowledgments Appendix Supplementary materials Reference FLYTZANISTEPHANOPOULOS 2012 545 574 M SUN 2013 1775 S LI 2014 14307 14313 Z THOMAS 2011 588 594 J YANG 2013 1740 1748 X YANG 2016 2058 2062 D WEI 2014 5634 H PETERSON 2014 4885 E LIN 2013 J LIN 2013 17319 17326 S FENG 2018 5890 5896 Y SONG 2014 1885 1892 W ZHANG 2005 7132 7135 X LONG 2016 3868 3880 B LIANG 2015 2559 2567 S CORMA 2013 775 781 A XING 2014 2138 2144 J JAMES 2015 5673 5678 T WANG 2013 1011 1019 L MOSESDEBUSK 2013 12634 13645 M LUCCI 2015 8550 F ZHANG 2015 7938 S CORMA 2015 7012 7015 A LI 2012 2853 2861 D ZHANG 2009 642 652 T BU 2005 8016 8017 W YAQUB 2015 1046 1056 M MAAYAN 2006 4968 4969 G GAO 2009 18257 18259 G SLOAN 2010 4600 4606 J SLOAN 2015 325 326 J ZHANG 2018 1701343 H LIU 2017 477 505 J GADISSA 2007 3338 3361 F WEINSTOCK 2018 2680 2717 I HE 2016 1011 1015 P AUGUSTINE 2003 69 76 R COPERET 2016 323 421 C TORVISO 2010 70 77 M AHNAB 2013 55 60 S KATSOULIS 1998 359 388 D DOLBECQ 2010 6009 6048 A IZAROVA 2012 9492 9510 N SUN 2014 981 1019 M TANIELYAN 2011 159 169 S TANIELYAN 2014 1564 1569 S HULSEY 2018 1802304 M VOLKMER 2002 10489 10496 D ZHANG 2016 8319 8323 B ZHANG 2017 3578 3587 B CAI 2013 21331 21336 Q LIU 2010 1 10 L QIAO 2011 634 641 B WANG 2014 12860 12867 J GULYAEV 2014 132 143 R GHOSH 2013 1811 1821 T LIANG 2014 21945 21951 J WANG 2016 10467 10476 Y FENG 2018 22460 22468 Y LI 2013 523 532 N WANG 2017 887 891 C LOU 2020 6094 6101 Y BENIYA 2020 1888 A JEONG 2020 368 375 H HULSEY 2019 1330 M ZHANG 2019 37 45 L LIU 2019 6228 6235 C FRISCH 2009 M GAUSSIAN09REVISIOND01 ZHAO 2006 194101 Y ZHANG 2019 5221 5229 L LIU 2019 12893 12903 C HAY 1985 270 283 P HAY 1985 299 310 P WADT 1985 284 298 W DAY 1985 533 541 V VARNUM 1994 146 155 S CHE 2013 162 171 M MAESTRE 2001 3749 J LINX2021X111761 LINX2021X111761XC 2023-07-26T00:00:00.000Z 2023-07-26T00:00:00.000Z http://creativecommons.org/licenses/by-nc-nd/4.0/ © 2021 Elsevier B.V. All rights reserved. 2021-07-31T17:55:36.005Z http://vtw.elsevier.com/data/voc/AddOnTypes/50.7/aggregated-refined National Natural Science Foundation of China 21373043 NSFC National Natural Science Foundation of China http://data.elsevier.com/vocabulary/SciValFunders/501100001809 http://sws.geonames.org/1814991/ The authors gratefully acknowledge the financial support from the National Natural Science Foundation of China ( 21373043 ). https://doi.org/10.15223/policy-017 https://doi.org/10.15223/policy-037 https://doi.org/10.15223/policy-012 https://doi.org/10.15223/policy-029 https://doi.org/10.15223/policy-004 item S2468-8231(21)00378-3 S2468823121003783 1-s2.0-S2468823121003783 10.1016/j.mcat.2021.111761 315758 2021-08-16T15:19:23.504706Z 2021-08-01 2021-08-31 1-s2.0-S2468823121003783-main.pdf https://s3-eu-west-1.amazonaws.com/prod-ucs-content-store-eu-west/content/pii:S2468823121003783/MAIN/application/pdf/15cf21ae97ec010c33ba05b14bf45b64/main.pdf main.pdf pdf true 15355437 MAIN 12 1-s2.0-S2468823121003783-main_1.png https://s3-eu-west-1.amazonaws.com/prod-ucs-content-store-eu-west/content/pii:S2468823121003783/PREVIEW/image/png/900684981fe1beb2a432d9374b836661/main_1.png main_1.png png 52553 849 656 IMAGE-WEB-PDF 1 1-s2.0-S2468823121003783-gr8.jpg https://s3-eu-west-1.amazonaws.com/prod-ucs-content-store-eu-west/content/pii:S2468823121003783/gr8/DOWNSAMPLED/image/jpeg/3ca1fc4103f111132963e89f77cd732e/gr8.jpg gr8 gr8.jpg jpg 44247 310 565 IMAGE-DOWNSAMPLED 1-s2.0-S2468823121003783-gr9.jpg https://s3-eu-west-1.amazonaws.com/prod-ucs-content-store-eu-west/content/pii:S2468823121003783/gr9/DOWNSAMPLED/image/jpeg/c9336d47daafadc49a52e502ed919ff9/gr9.jpg gr9 gr9.jpg jpg 59449 544 565 IMAGE-DOWNSAMPLED 1-s2.0-S2468823121003783-gr10.jpg https://s3-eu-west-1.amazonaws.com/prod-ucs-content-store-eu-west/content/pii:S2468823121003783/gr10/DOWNSAMPLED/image/jpeg/4df4e23883d3a7f654fdb7369810efb1/gr10.jpg gr10 gr10.jpg jpg 73588 414 565 IMAGE-DOWNSAMPLED 1-s2.0-S2468823121003783-ga1.jpg https://s3-eu-west-1.amazonaws.com/prod-ucs-content-store-eu-west/content/pii:S2468823121003783/ga1/DOWNSAMPLED/image/jpeg/4f8f56a413548437f17a97e0ace5b385/ga1.jpg ga1 true ga1.jpg jpg 17077 200 214 IMAGE-DOWNSAMPLED 1-s2.0-S2468823121003783-sc1.jpg https://s3-eu-west-1.amazonaws.com/prod-ucs-content-store-eu-west/content/pii:S2468823121003783/sc1/DOWNSAMPLED/image/jpeg/19c85c1e03dd7d52721c9d62b2f42319/sc1.jpg sc1 sc1.jpg jpg 40790 323 386 IMAGE-DOWNSAMPLED 1-s2.0-S2468823121003783-sc2.jpg https://s3-eu-west-1.amazonaws.com/prod-ucs-content-store-eu-west/content/pii:S2468823121003783/sc2/DOWNSAMPLED/image/jpeg/4ed02932af8e7151fc8b9b2fc1d5c937/sc2.jpg sc2 sc2.jpg jpg 37929 329 386 IMAGE-DOWNSAMPLED 1-s2.0-S2468823121003783-gr1.jpg https://s3-eu-west-1.amazonaws.com/prod-ucs-content-store-eu-west/content/pii:S2468823121003783/gr1/DOWNSAMPLED/image/jpeg/4195709116064fb8e8fd0c849c5de804/gr1.jpg gr1 gr1.jpg jpg 76331 354 565 IMAGE-DOWNSAMPLED 1-s2.0-S2468823121003783-gr2.jpg https://s3-eu-west-1.amazonaws.com/prod-ucs-content-store-eu-west/content/pii:S2468823121003783/gr2/DOWNSAMPLED/image/jpeg/f700c2bcc5047fd191b234fa2b184787/gr2.jpg gr2 gr2.jpg jpg 87702 320 565 IMAGE-DOWNSAMPLED 1-s2.0-S2468823121003783-gr3.jpg https://s3-eu-west-1.amazonaws.com/prod-ucs-content-store-eu-west/content/pii:S2468823121003783/gr3/DOWNSAMPLED/image/jpeg/9de134151e90033aa01b3cdd144265a8/gr3.jpg gr3 gr3.jpg jpg 232379 1007 565 IMAGE-DOWNSAMPLED 1-s2.0-S2468823121003783-gr4.jpg https://s3-eu-west-1.amazonaws.com/prod-ucs-content-store-eu-west/content/pii:S2468823121003783/gr4/DOWNSAMPLED/image/jpeg/56640fd2204903b883f651fa5ff97c1c/gr4.jpg gr4 gr4.jpg jpg 93234 330 565 IMAGE-DOWNSAMPLED 1-s2.0-S2468823121003783-gr5.jpg https://s3-eu-west-1.amazonaws.com/prod-ucs-content-store-eu-west/content/pii:S2468823121003783/gr5/DOWNSAMPLED/image/jpeg/b91e3cfd2e1f1e6d02f1def8176e69a3/gr5.jpg gr5 gr5.jpg jpg 168870 595 565 IMAGE-DOWNSAMPLED 1-s2.0-S2468823121003783-gr6.jpg https://s3-eu-west-1.amazonaws.com/prod-ucs-content-store-eu-west/content/pii:S2468823121003783/gr6/DOWNSAMPLED/image/jpeg/0ffb83dce0d1f9f7f6ec689d7d3cd537/gr6.jpg gr6 gr6.jpg jpg 175241 694 565 IMAGE-DOWNSAMPLED 1-s2.0-S2468823121003783-gr7.jpg https://s3-eu-west-1.amazonaws.com/prod-ucs-content-store-eu-west/content/pii:S2468823121003783/gr7/DOWNSAMPLED/image/jpeg/59c7f2584063b09ba302f6183a1cd6e3/gr7.jpg gr7 gr7.jpg jpg 111416 504 565 IMAGE-DOWNSAMPLED 1-s2.0-S2468823121003783-gr8.sml https://s3-eu-west-1.amazonaws.com/prod-ucs-content-store-eu-west/content/pii:S2468823121003783/gr8/THUMBNAIL/image/gif/6c7b63420c351f9dc0871b1319615223/gr8.sml gr8 gr8.sml sml 9770 120 219 IMAGE-THUMBNAIL 1-s2.0-S2468823121003783-gr9.sml https://s3-eu-west-1.amazonaws.com/prod-ucs-content-store-eu-west/content/pii:S2468823121003783/gr9/THUMBNAIL/image/gif/bc96f115caf1e5f21e62898042a21876/gr9.sml gr9 gr9.sml sml 7311 164 170 IMAGE-THUMBNAIL 1-s2.0-S2468823121003783-gr10.sml https://s3-eu-west-1.amazonaws.com/prod-ucs-content-store-eu-west/content/pii:S2468823121003783/gr10/THUMBNAIL/image/gif/152fa0b03d961b96c4435aa84a9f3768/gr10.sml gr10 gr10.sml sml 13465 161 219 IMAGE-THUMBNAIL 1-s2.0-S2468823121003783-ga1.sml https://s3-eu-west-1.amazonaws.com/prod-ucs-content-store-eu-west/content/pii:S2468823121003783/ga1/THUMBNAIL/image/gif/0757a9ac005827216731b10ec7068771/ga1.sml ga1 true ga1.sml sml 9613 163 175 IMAGE-THUMBNAIL 1-s2.0-S2468823121003783-sc1.sml https://s3-eu-west-1.amazonaws.com/prod-ucs-content-store-eu-west/content/pii:S2468823121003783/sc1/THUMBNAIL/image/gif/c50c64339fb4dafc697800db2b62d4d4/sc1.sml sc1 sc1.sml sml 9800 164 196 IMAGE-THUMBNAIL 1-s2.0-S2468823121003783-sc2.sml https://s3-eu-west-1.amazonaws.com/prod-ucs-content-store-eu-west/content/pii:S2468823121003783/sc2/THUMBNAIL/image/gif/8cdfbcefbd98f93d932d15637582eb40/sc2.sml sc2 sc2.sml sml 9113 164 192 IMAGE-THUMBNAIL 1-s2.0-S2468823121003783-gr1.sml https://s3-eu-west-1.amazonaws.com/prod-ucs-content-store-eu-west/content/pii:S2468823121003783/gr1/THUMBNAIL/image/gif/f0fd2f29b06b12dae1070ec974f26a1c/gr1.sml gr1 gr1.sml sml 13242 137 219 IMAGE-THUMBNAIL 1-s2.0-S2468823121003783-gr2.sml https://s3-eu-west-1.amazonaws.com/prod-ucs-content-store-eu-west/content/pii:S2468823121003783/gr2/THUMBNAIL/image/gif/5543d41178906e17c451f3b73e0c308f/gr2.sml gr2 gr2.sml sml 22269 124 219 IMAGE-THUMBNAIL 1-s2.0-S2468823121003783-gr3.sml https://s3-eu-west-1.amazonaws.com/prod-ucs-content-store-eu-west/content/pii:S2468823121003783/gr3/THUMBNAIL/image/gif/20f2013602cf77b048a39186a52b5c60/gr3.sml gr3 gr3.sml sml 10990 164 92 IMAGE-THUMBNAIL 1-s2.0-S2468823121003783-gr4.sml https://s3-eu-west-1.amazonaws.com/prod-ucs-content-store-eu-west/content/pii:S2468823121003783/gr4/THUMBNAIL/image/gif/c4ca934191a983d3ac487859d07ee905/gr4.sml gr4 gr4.sml sml 16030 128 219 IMAGE-THUMBNAIL 1-s2.0-S2468823121003783-gr5.sml https://s3-eu-west-1.amazonaws.com/prod-ucs-content-store-eu-west/content/pii:S2468823121003783/gr5/THUMBNAIL/image/gif/77df853c40644be45366a75314a384bb/gr5.sml gr5 gr5.sml sml 16806 163 155 IMAGE-THUMBNAIL 1-s2.0-S2468823121003783-gr6.sml https://s3-eu-west-1.amazonaws.com/prod-ucs-content-store-eu-west/content/pii:S2468823121003783/gr6/THUMBNAIL/image/gif/b95c8f285a19582075bbe6a444fb5e3b/gr6.sml gr6 gr6.sml sml 14164 163 133 IMAGE-THUMBNAIL 1-s2.0-S2468823121003783-gr7.sml https://s3-eu-west-1.amazonaws.com/prod-ucs-content-store-eu-west/content/pii:S2468823121003783/gr7/THUMBNAIL/image/gif/4f64276ed06550bcceb83507ffe87057/gr7.sml gr7 gr7.sml sml 15434 164 184 IMAGE-THUMBNAIL 1-s2.0-S2468823121003783-gr8_lrg.jpg https://s3-eu-west-1.amazonaws.com/prod-ucs-content-store-eu-west/content/pii:S2468823121003783/gr8/HIGHRES/image/jpeg/615f4a3827810359551ebfc7468384e5/gr8_lrg.jpg gr8 gr8_lrg.jpg jpg 328567 1372 2500 IMAGE-HIGH-RES 1-s2.0-S2468823121003783-gr9_lrg.jpg https://s3-eu-west-1.amazonaws.com/prod-ucs-content-store-eu-west/content/pii:S2468823121003783/gr9/HIGHRES/image/jpeg/d90d6487a3fe5058c10e471e78210a56/gr9_lrg.jpg gr9 gr9_lrg.jpg jpg 418737 2407 2500 IMAGE-HIGH-RES 1-s2.0-S2468823121003783-gr10_lrg.jpg https://s3-eu-west-1.amazonaws.com/prod-ucs-content-store-eu-west/content/pii:S2468823121003783/gr10/HIGHRES/image/jpeg/f58e8b8d89c8c24804d3802da2654a1f/gr10_lrg.jpg gr10 gr10_lrg.jpg jpg 505712 1834 2500 IMAGE-HIGH-RES 1-s2.0-S2468823121003783-ga1_lrg.jpg https://s3-eu-west-1.amazonaws.com/prod-ucs-content-store-eu-west/content/pii:S2468823121003783/ga1/HIGHRES/image/jpeg/37690668efaec361403362a65cd53980/ga1_lrg.jpg ga1 true ga1_lrg.jpg jpg 102179 886 949 IMAGE-HIGH-RES 1-s2.0-S2468823121003783-sc1_lrg.jpg https://s3-eu-west-1.amazonaws.com/prod-ucs-content-store-eu-west/content/pii:S2468823121003783/sc1/HIGHRES/image/jpeg/8512e81de7552b890fa0dd6f342a4bfe/sc1_lrg.jpg sc1 sc1_lrg.jpg jpg 283426 1431 1708 IMAGE-HIGH-RES 1-s2.0-S2468823121003783-sc2_lrg.jpg https://s3-eu-west-1.amazonaws.com/prod-ucs-content-store-eu-west/content/pii:S2468823121003783/sc2/HIGHRES/image/jpeg/289374079d5e0ced08f4c1a04933e839/sc2_lrg.jpg sc2 sc2_lrg.jpg jpg 257524 1456 1708 IMAGE-HIGH-RES 1-s2.0-S2468823121003783-gr1_lrg.jpg https://s3-eu-west-1.amazonaws.com/prod-ucs-content-store-eu-west/content/pii:S2468823121003783/gr1/HIGHRES/image/jpeg/159e66195e874a48eedb6598b677a332/gr1_lrg.jpg gr1 gr1_lrg.jpg jpg 575198 1567 2500 IMAGE-HIGH-RES 1-s2.0-S2468823121003783-gr2_lrg.jpg https://s3-eu-west-1.amazonaws.com/prod-ucs-content-store-eu-west/content/pii:S2468823121003783/gr2/HIGHRES/image/jpeg/7bbb3d07c6d1ecd32d9d450b650c27fc/gr2_lrg.jpg gr2 gr2_lrg.jpg jpg 684201 1417 2500 IMAGE-HIGH-RES 1-s2.0-S2468823121003783-gr3_lrg.jpg https://s3-eu-west-1.amazonaws.com/prod-ucs-content-store-eu-west/content/pii:S2468823121003783/gr3/HIGHRES/image/jpeg/f52af8e2877060f0190dba8878b3dfae/gr3_lrg.jpg gr3 gr3_lrg.jpg jpg 1801431 4455 2500 IMAGE-HIGH-RES 1-s2.0-S2468823121003783-gr4_lrg.jpg https://s3-eu-west-1.amazonaws.com/prod-ucs-content-store-eu-west/content/pii:S2468823121003783/gr4/HIGHRES/image/jpeg/4661daa8d7bb4797793ccaa42acebe07/gr4_lrg.jpg gr4 gr4_lrg.jpg jpg 721340 1458 2500 IMAGE-HIGH-RES 1-s2.0-S2468823121003783-gr5_lrg.jpg https://s3-eu-west-1.amazonaws.com/prod-ucs-content-store-eu-west/content/pii:S2468823121003783/gr5/HIGHRES/image/jpeg/101fa49f972cce52fbb1e0cb133c370f/gr5_lrg.jpg gr5 gr5_lrg.jpg jpg 1364285 2633 2500 IMAGE-HIGH-RES 1-s2.0-S2468823121003783-gr6_lrg.jpg https://s3-eu-west-1.amazonaws.com/prod-ucs-content-store-eu-west/content/pii:S2468823121003783/gr6/HIGHRES/image/jpeg/e2b7fb79f6eba91dfbc4867c993dc32b/gr6_lrg.jpg gr6 gr6_lrg.jpg jpg 1432311 3072 2500 IMAGE-HIGH-RES 1-s2.0-S2468823121003783-gr7_lrg.jpg https://s3-eu-west-1.amazonaws.com/prod-ucs-content-store-eu-west/content/pii:S2468823121003783/gr7/HIGHRES/image/jpeg/a7e744493f7cb35d5c9901454ca7e5e0/gr7_lrg.jpg gr7 gr7_lrg.jpg jpg 923508 2231 2500 IMAGE-HIGH-RES 1-s2.0-S2468823121003783-mmc1.docx https://s3-eu-west-1.amazonaws.com/prod-ucs-content-store-eu-west/content/pii:S2468823121003783/mmc1/MAIN/application/vnd.openxmlformats-officedocument.wordprocessingml.document/794b0dc71df512617e012568f0d50112/mmc1.docx mmc1 mmc1.docx docx 74922 APPLICATION 1-s2.0-S2468823121003783-am.pdf https://s3-eu-west-1.amazonaws.com/prod-ucs-content-store-eu-west/content/egi:10JQX566S2N/MAIN/application/pdf/ae9f1eeb28239854443396b2c2ba8fe7/am.pdf am am.pdf pdf false 14495629 AAM-PDF MCAT 111761 111761 S2468-8231(21)00378-3 10.1016/j.mcat.2021.111761 Scheme 1 The CO oxidation mechanism on Rh1/PTA and Rh1/PMA system proposed by operando/in situ spectroscopic experiments. Scheme 1 Scheme 2 The CO oxidation mechanism on Rh1/PTA and Rh1/PMA system proposed by our DFT calculation in the present paper. Scheme 2 Fig. 1 Structural formula of Rh1/PTA and Rh1/PMA SACs and the calculated interaction energy of isolated single Rh3+ atom and PTA/PMA support. Highlighting separation of total interaction energy (E tot) into electrostatic interaction (E es) and bonding interaction (E b) in terms of the unique clathrate structure of PTA and PMA supports and the rectangular pyramid coordination sphere of the Rh atom. Fig 1 Fig. 2 The key geometric parameters of Rh1/PMA and Rh1/PTA SACs (bond length in Å and bond angle in degree), showing activation of Ob and Oc atom via anchoring effects of Rh atom. Fig 2 Fig. 3 Comparison of the frontier molecular orbitals of Rh1/PTA and Rh1/PMA SACs. Fig 3 Fig. 4 Optimization stable configurations and calculated adsorption energies (in kcal/mol) for adsorption CO molecules on Rh1/PMA and Rh1/PTA SACs. Fig 4 Fig. 5 The calculated free energy profiles (in kcal/mol) for oxidation of the first CO molecule by surface Ob (red color) or Oc (blue color) atoms of PMA support. Fig5 Fig. 6 The calculated free energy profiles (in kcal/mol) for oxidation of the second CO molecule by surface Oc atom (red color) of PMA support or O2 (blue color). Fig 6 Fig. 7 The calculated free energy profiles (in kcal/mol) for oxidation of the third CO by adsorbed O2 molecule. Fig 7 Fig. 8 Comparison of the whole free energy profiles (in kcal/mol) for CO oxidation catalyzed by Rh1/PMA and Rh1/PTA SACs. Fig 8 Fig. 9 The proposed catalytic cycle for CO oxidation via a Rh-assisted Mar-van Krevelen mechanism. Fig 9 Fig. 10 Charge (q, |e|) variation of the Rh atom during CO oxidation catalyzed by Rh1/PTA (red color) and Rh1/PMA (black color) SACs along their favorable reaction pathways. Fig 10 Mars–van Krevelen mechanism for CO oxidation on the polyoxometalates-supported Rh single-atom catalysts: An insight from density functional theory calculations Chun-Hong Lin Conceptualization Writing – original draft Visualization Investigation a Zi-Yi Sun Visualization Formal analysis b Chun-Guang Liu Conceptualization Formal analysis Writing – original draft Writing – review & editing b ⁎ a College of Chemical Engineering, Northeast Electric Power University, Jilin City, 132012, PR China College of Chemical Engineering Northeast Electric Power University Jilin City 132012 PR China bCollege of Chemical Engineering, Northeast Electric Power University, Jilin City, 132012, PR China b Department of Chemistry, Faculty of Science, Beihua University, Jilin City, 132013, PR China Department of Chemistry, Faculty of Science Beihua University Jilin City 132013 PR China aDepartment of Chemistry, Faculty of Science, Beihua University, Jilin City, 132013, PR China ⁎ Corresponding author. The low and insufficient anchored site on support structure is the bottleneck problem for development of single-atom catalysts (SACs). Owing to the discrete anionic structure, the surface structure of unimolecular polyoxometalates (POMs) in solid is more like the fragments of metal oxide and possesses the unique separate structure, which can be viewed as the separate small “island” and effectively prevent agglomeration of single metal atoms. In the present paper, the mechanism of CO oxidation by O2 was systematically studied over two POM-supported SACs, Rh1/PTA and Rh1/PMA (PTA = [PW12O40]3− and PMA = [PMo12O40]3−) by means of density functional theory (DFT) calculations. The results indicated that this process involves consecutive oxidation of three CO molecules over Rh1/PTA and Rh1/PMA SACs via a Rh-assisted Mar-van Krevelen (MvK) mechanism. The first CO molecule was oxidized by a bridged O atom of POM support to form CO2 molecule and an oxygen vacancy. The surface oxygen vacancy was refilled by O2 molecule, and the second CO molecule was oxidized by a corner O atom of the POM support to form CO2 molecule and a new oxygen vacancy. Finally, the forming surface oxygen vacancy was replenished by the O2 molecule to form the key Mo-O-O-Mo unit, which can easily oxidize the third CO to form the CO2 molecule. Compared with the reported MvK mechanism, the significant difference arises from oxidation of the second CO molecule, in which the second CO molecule was oxidized by the corner O atom of the POM support rather than adsorbed O2 molecule. This is mainly due to a low reactivity for the adsorbed O2 molecule, which comes from a bonding interaction between the adsorbed O2 molecule and the single Rh atom. The atomic charge analysis show that the single Rh atom stabilized on the POM supports promotes the whole catalytic cycle via the change of oxidation state among III, II, and I. All these results show that the presence of single Rh atom on the unimolecular PTA and PMA supports is a key factor for determination of new reaction pathway and high reactivity. We hope our computation results can provide new physical insights to design SACs for CO oxidation by using unimolecular POM cluster. The reaction mechanism of CO oxidation by O2 was systematically studied over two polyoxometalate-supported single-atom catalysts by means of density functional theory calculations. Graphical abstract Image, graphical abstract Keywords Single–atom catalysts Polyoxometalates CO oxidation Mar-van Krevelen mechanism Density functional theory 1 Introduction Single-atom catalysts (SACs), metal atoms are atomically dispersed on the supports [1-6], which can greatly reduce the noble metals consumption and maximize the atom efficiency (100 %), have unique reactivity and selectivity in various energy- and environment-related chemical operations [7-15]. During synthetic procedures and catalytic reaction, however, the isolated single metal atom tends to agglomeration to form cluster, sub-nanoparticle, and nanoparticle on the support surface because of the very high surface energy [16-18]. Although various synthetic strategies, such as high-temperature vapor transport method, photochemical synthetic approach, and self-assembly method, etc., have been developed to improve the sintering-resistant behavior of SACs, reducing the metal loading to a very low level is still a common strategy to avoid agglomeration in preparation of SACs [19-23]. Obviously, this synthesis strategy would significantly decrease active site of SACs. To date, the low and insufficient anchored site on support structure is still the bottleneck problem for development of SACs. The surface chemistry of polyoxometalates (POMs) [24-30] has attracted considerable attentions in the half a century because of their potential applications in the fields of catalysis, corrosion protection of metal, functionalization of metal electrode, metal colloid stabilization, and electroless deposition, etc [31-34]. Differing from the periodic network structure of metal oxides [35], POMs are unimolecular metal-oxo cluster and possesses discrete anionic structure [36-40]. The surface structure of POMs at solid-gas, solid-solid, and solid-liquid interfaces is more like the fragment of metal oxide and can be viewed as the separate small “island” [41-44]. Recently, this surface “island” effects of POMs in interfaces have been cleverly used to prevent agglomeration of single metal atoms and improve sintering-resistant performance of SACs. A series of POM-supported SACs with considerable metal loading and high thermal stability have been successfully synthesized and characterized by Yan group [45-48]. In 2016, they firstly fabricated stable POM-supported SAC with a high Pt loading (close to 1%) on Keggin-type phosphomolybdic acid (PMA)-modified active carbon via anchoring of the single Pt atom on the 4-fold hollow site of PMA surface [49]. They further found that Pt1/PMA SAC displays excellent activity for hydrogenation of nitrobenzene and cyclohexanone. In another case, Yan group successfully dispersed single Rh atom onto the surface of Keggin-type phosphotungstic acid (PTA) with one-to-one manner through a self-assembly method [50]. The reported Rh1/PTA SAC was proved to exhibit high activity for CO oxidation with a moderate apparent activation energy. After three catalytic cycles, it well maintains the complete Keggin-type PTA structure as well as the single atom identity of Rh (atomically dispersed) at the temperature from 50 to 400°C, indicating the excellent sintering-resistant behavior. CO oxidation, as a valuable model reaction in catalytic science [51-64], was further investigated by the same group in another case [65], using an effective combination of experimental and computational technologies. According to operando/in situ spectroscopic experiments and density functional theory (DFT) calculations, they proposed an unconventional Mar-van Krevelen (MvK) pathway for CO oxidation catalyzed by PTA and PMA-supported SACs, which can be roughly divided into the following four steps Scheme 1: This MvK mechanism involves oxidation of CO by surface oxygen atom of PTA/PMA support to form the first CO2 molecule and another CO molecule is adsorbed on the Rh atom subsequently (step 1). Then the surface oxygen vacancy of catalyst was replenished by the O2 (step 2). The second CO react with O2 (step 3) and restore the catalyst surface (step 4). Although the proposed reaction mechanism provided some understandings for CO oxidation, the mechanistic details have not been well studied in details both experimentally and theoretically. Such as, the surface oxygen atoms of Keggin-type POMs can be divided into three sets according to whether they are in terminal (Ot), bridging two metal atoms (Ob), and at the corners (Oc) of the metal-oxo cage. These surface oxygen atoms should possess remarkable difference in reactivity because of different chemical environments [66, 67]. However, they have been indiscriminately treated in exploration of the reaction mechanism. In the present paper, DFT calculations have been carried out to probe the reaction mechanism of CO oxidation catalyzed by Rh1/PMA and Rh1/PTA SACs. Our findings provide a Rh-assisted MvK reaction pathway, which has been summarized in the following five steps Scheme 2: The proposed MvK mechanism by our DFT calculations contains the adsorbed CO molecule was oxidized by the surface Ob atom to form the first CO2 molecule and an oxygen vacancy on the surface of POM support (step 1). And the first surface oxygen vacancy was refilled by O2 molecule (step 2). Owing to the very high free energy barrier, CO cannot be oxidized by the adsorbed O2 molecule. Alternatively, CO was oxidized by the surface Oc atom to form the second CO2 molecule and a new oxygen vacancy on the catalyst surface (step 5). Next, the forming surface oxygen vacancy was replenished by the O2 molecule (step 6) and adsorbed another CO (step 7) to form the key Mo-O-O-Mo unit, which can easily oxidize CO to form the third CO2 molecule (step 8). Finally, the catalytic cycle was formed by reiterating steps 5, 6, 7 and 8. The electronic structural analysis revealed that the oxidation state of the Rh center changes among III, II, and I to promote electron transfer and the whole reaction. We hope these new understandings for the Rh-MvK mechanism can guide the search and preparation of more efficient catalyst for CO oxidation by using POM-supported SACs. 2 Computational details All of the DFT calculations were carried out using Gaussian 09 Revision D.01 software package [68] with M06L functional [69]. M06L functional was designed to involve spin kinetic energy density in a balanced way in the exchange and correlation functionals. Moreover, it was set to meet the uniform-electron-gas limit and is self-correlation-free. M06L functional has been found to be effective for large–sized systems due to the computational advantages of local functionals. Previous theoretical studies have demonstrated that the excellent performance of GGA/M06L functional in thermochemistry, thermochemical kinetics, noncovalent interaction and vibration frequency calculations of main group and transition metal element. Furthermore, the advantages of M06L functional in calculating the geometry, vibration frequency, kinetics, thermochemistry and other aspects of POMs have been confirmed by our previous research [66, 67, 70, 71]. Because the structures obtained via M06L functional are prone to virtual frequency and non-convergence, the quality of the integration grids has been improved to consist with the Gaussian 16. Geometry optimizations were performed by using the standard 6-31G(d) basis set for main group elements and LANL2DZ pseudopotential basis for the all metal elements studied here [72-74]. Any restriction on the symmetry has not been involved in optimization calculations. All the optimized configurations of minima or transition state on the potential energy surface have been checked by the vibration frequency calculations and confirmed by the correct imaginary frequency number at the same level. Imaginary frequency number of the transition state involved in the potential energy surface has been given is Table S1. Moreover, the accuracy of virtual vibration mode of transition state is guaranteed by intrinsic reaction coordinate (IRC) calculations. Based on the optimized molecule geometries, a single point energy calculation was performed to further refine electronic energy by using the same functional with the polarization and diffusion basis sets 6-31+G(d) for main group atoms and the relativistic energy consistent pseudopotential basis set SDD for transition metal atoms. For the purpose of getting atom charges and Wiberg bond indices (WBI), we performed the natural bond orbital (NBO) analysis [75] with the same functional at the same level (the 6-31G(d) basis for main group elements and LANL2DZ basis sets on the metal atom). Different from the periodic network structure of metal oxides, POMs are a unique class of metal-oxide molecular clusters and bears an isolated and compact anionic structure. Among the POMs family, Keggin-type POMs have been widely researched in experiment and theoretical calculation methond, for which posses considerable stability, well-defined structures. The POMS used in our present work have been characterized by X-ray single crystal diffraction. Because many previous works have proved that Rh was anchored at 4-fold hollow site of POMs [49, 50, 65-67, 70, 71], the Rh atom was placed at 4-fold hollows site of POMs manually as the initial structure and then optimized at 6-31g(d) basis (for main group elements) and LANL2DZ basis (sets on the metal atom ). When the optimization process converges and is completed, the structure coordinates are extracted as the SACs model. 3 Results and discussion 3.1 Metal-Support Interaction Interaction between single metal atom and supporting matrix significantly influences the catalytic performance of SACs via anchor site, charge transfer, chemical bonding, etc. These factors are often stuck with each other and work together on the catalytic activation. In the present paper, we firstly calculated the interaction energy of isolated single Rh atom and PTA/PMA support. The structural formula of Rh1/PTA (Rh1/PMA) has been listed in Fig. 1 . Yan and co-workers have proven that the single Rh3+ cation was anchored onto the surface of Keggin-type PMA/PTA anion by one-to-one manner [50, 65]. Because Keggin-type PMA/PTA anion possesses clathrate structure, in which the negatively charged PO4 3− unit was embedded into the neutral Mo12O36/W12O36 cage [76-78], the single Rh3+ cation was strongly anchored onto the neutral Mo12O36/W12O36 cage via electrostatic attraction. On the other hand, the surface of neutral Mo12O36/W12O36 cage can provide various sites to stabilize single Rh atom by combination of its surface oxygen atoms, which includes bride, three-fold hollow, and four-fold hollow sites, etc. Our previous works [66] and experimental results [65] both demonstrated that the single metal atom was located at four-fold hollow site of PTA/PMA supports. In the present paper, the Rh atom was also assigned at four-fold hollow site of Mo12O36/W12O36 cage in our optimization calculations, where the Rh atom coordinates to two Ob and Oc atoms to form the rectangular pyramid coordination sphere (see Fig. 1). From the viewpoint of clathrate structure, the interaction energy of Rh3+ and PMA/PTA anion (E tot) has been separated into electrostatic energy of Rh3+cation and PO4 3− anion (E es) and bonding energy for coordination of Rh3+ to neutral Mo12O36/W12O36 cage (E b). The calculated E tot, E b, and E es values have been compared in Fig. 1. We take the Rh1/PMA SAC as an example to probe these bonding natures. It can be found that the calculated E b and E es values of Rh1/PMA both are closed to -1 eV (E b = -1.27 and E es = -0.96 eV). The roughly same values of E b and E es indicate that coordination bonding and electrostatic attraction equally contributes to stabilizing of Rh atom onto the PMA surface. The interaction energy of the Rh3+ cation and PMA anion is calculated to be -2.23 eV according to our DFT calculations. In our previous investigation [66], we have demonstrated that the strong metal-support interaction weakens the W-Ob/Oc bonding interaction, and thus the surface Ob and Oc atoms, which are coordinated to the single metal atom, was effectively activated by the single metal atom. In the present paper, the key molecular geometries of Rh1/PTA and Rh1/PMA SACs have been compared in Fig. 2 . In order to reveal anchoring effects on the activation of surface Ob and Oc atoms of both POM supports, the free PTA and PMA anions both have been optimized at the same level in this work. A detailed comparison of PMA and Rh1/PMA shows that the optimized Mo–Ob distance increases from ~1.9 Å to ~2.1 Å, and Mo–Oc distance increases from ~1.9 Å to ~2.0 Å. Such elongation effects on the Mo–Ob and Mo–Oc distances lead to decreasing the bond angle of Mo–Ob–Mo from 152° to 147°, and Mo–Oc–Mo decrease from 125° to 119°. As shown in Fig. 2, the same result is found in Rh1/PTA. All these results indicate that the Ob and Oc atoms localized in different chemical environments and were pulled from the PMA surface to close the Rh atom. 3.2 CO adsorption According to Sabatier principle, the excellent catalysts should bind atoms and molecules with a moderate strength: not too weak so they can activate the reactants and not too strong so the products can desorb [78]. However, it is still a challenged task to sophisticatedly control the adsorption strength of catalysts. In the present paper, redox property of POM support was adopted to tune the adsorption behavior of both SACs for CO. It is well-known that the nature of frontier molecular orbitals (FMOs) can provide qualitative insight into the redox properties. For the Keggin-type POMs, they all have the analogous nature of FMOs, where the occupied oxo-ligand 2p orbitals and the empty set of d-like metal orbitals are separated with large gap between the highest occupied molecular orbital (HOMO), and the lowest unoccupied molecular orbital (LUMO). According to previous study [79], the low d metal orbitals in PMA relevant to that of PTA effectively lower the energy level of LUMO. Thus, PMA are more powerful oxidizing agents than the corresponding PTA by ~0.5 eV. However, anchoring of Rh atom on both POM support significantly influences the distribution of FMOs. The FMO diagram obtained from the optimized structures of Rh1/PMA and Rh1/PTA SACs using M06L functional are compared in Fig. 3 . It can be found that the five metal d orbitals of Rh atom were well inserted between occupied oxo-ligand 2p orbitals and the empty set of d-like metal orbitals of both POM supports. For Rh1/PMA SAC, the quintet degenerate d orbitals of free Rh atom completely split in the rectangular pyramid coordination sphere, which results in HOMO-2, HOMO-1, and HOMO are the dxy, dz2, and dxz-type orbitals, respectively. And the LUMO+1 and LUMO+5 of Rh1/PMA are dxz and dx2-y2-type orbital, respectively. By contrast, in Rh1/PTA SAC LUMO and LUMO+1 are dxz and dx2-y2-type orbitals, respectively. Such difference on unoccupied orbital distribution leads to the lower energy level of LUMO in Rh1/PTA SAC, and thus Rh1/PTA is stronger oxidant than Rh1/PMA. It is well-known that CO is the typical reductant, low-lying LUMO of Rh1/PTA is easier to accept electrons from CO molecule when compared with the Rh1/PMA SAC (see below). As a result, Rh1/PTA should possess a strong capacity to adsorb CO molecule. In order to test prediction from molecular orbital theory, the adsorption energies (E ad) of Rh1/PMA and Rh1/PTA SACs for CO molecule both have been calculated by using our DFT calculations. And the calculated E ad values have been compared in Fig. 4 . Our previous study has demonstrated that the adsorption energy of CO is sensitive to the surface structure of POM-supported SAC [66]. As shown in Fig. 4, our DFT calculations well reproduce this trend, the calculated E ad value is closely associated with the nature of POM surfaces. Such as the calculated E ad value is -52.84 kcal/mol for the configuration (a) with adsorbed two CO molecules adjacent to Ob atom of PMA surface, which is more negative than that of the configuration (b) with adsorbed two CO molecules adjacent to Oc atom of PMA surface (-20.43 kcal mol–1). All these results indicate that the absolute value of E ad in Rh1/PTA is significantly larger than that of Rh1/PMA, which are well in agreement with the prediction of molecular orbital theory. Thus, redox property of SACs can effectively tune the adsorption behavior of CO over both POM-supported SACs. 3.3 Reaction mechanism According to previous reports in the literature [50, 65], the MvK mechanism of CO oxidation starts from oxidation of adsorbed CO by the surface oxygen atoms of POM support to form a key intermediate with an oxygen vacancy on the catalyst surface. Because of the strong adsorption behavior, the configuration for adsorption of two CO molecules on Rh1/PMA SAC has been assigned as the reactant to carry out the MvK pathway. Meanwhile, the Ob and Oc atoms both have been considered to oxidize the adsorbed CO molecule because they are localized in different chemical environments. The calculated free energy profiles for the oxidation of the first CO molecule to form oxygen vacancy on the catalyst surface via removal of Ob or Oc atom have been compared in Fig. 5 . It can be found that the calculated free energy barrier corresponding to oxidation the first CO molecule by the Ob atom is 21.26 kcal/mol. By contrast, the calculated free energy barrier relative to oxidation of the first CO molecule by the Oc atom is 35.49 kcal/mol. Meanwhile, our DFT calculations show that they have the same thermodynamic driving force for removal of Ob or Oc atom to form oxygen vacancy (-40.66 vs. -44.58 kcal/mol). These results indicate that the removal of the Ob atom is a thermodynamically favorable process with a low activation energy barrier of 21.26 kcal/mol, which is consistent with the experimentally estimated barrier of ~30 kcal/mol. Next, we examined the associative pathways about the replenishment of the Rh1/PMA SAC by the reaction of CO and O2. Our previous works [66] indicate that the O2 molecule was refilled into the oxygen vacancy with bonding interactionbetween O2 and the Rh atom. Because the Rh-O2 bonding interaction reduces the reactivity of the adsorbed O2 molecule, there is a high free energy barrier for the reaction of O2 and CO. In the present paper, the key intermediate, refilling of O2 molecule into the oxygen vacancy of Rh1/PMA, has been optimized in this work. The optimized geometries (*CO+*O2 ) have been listed in Fig. 6 . It can be found that the optimized Rh-O2 distance is 2.065 Å for Rh1/PMA, suggesting a bonding interaction between them. Thus, we believe that the adsorbed O2 molecule should have a low reactivity for oxidation of CO. As supported by our free energy calculations, the calculated free energy barrier is 41.15 kcal/mol (see Fig. 6, blue color) for oxidation of the second CO molecule by the adsorbed O2. Such high free energy barrier encourages us to consider an alternative pathway corresponding to oxidation of the second CO molecule by surface oxygen atom to form a new oxygen vacancy on the catalyst surface. As shown in Fig. 6 (red color), starting from *CO+*O2 , adsorbed CO molecule reacts with the adjacent Oc atom to form the new oxygen vacancy via two transition states with the free energy barrier of 7.24 for TS3c and 12.60 kcal/mol for TS4c, which are significantly lower than that of oxidation CO by the adsorbed O2 molecule (41.15 kcal/mol), After desorption of the formed second CO2 molecule, the Oc atom was removed from the catalyst surface to form intermediate Rh-Ov,c-O2 with an oxygen vacancy. For the key intermediate Rh-Ov,c-O2 , the Rh atom is in the unsaturated state, and thus has the capability to adsorb additional CO molecule. Meanwhile, Rh-Ov,c-O2 can adsorb the second O2 molecule to refill the oxygen vacancy. However, our optimization calculations show that Rh-Ov,c-O2 cannot adsorb CO molecule in the presence of oxygen vacancy thermodynamically. By contrast, refilling of the second O2 molecules into the oxygen vacancy can form a stable intermediate *CO+2*O2 . This process is calculated to be exothermic by 26.75 kcal/mol. And *CO+2*O2 can easily adsorbe CO molecule to saturate the Rh atom and form 2*CO+2*O2 . This process is calculated to be slightly endothermic by 5.09 kcal/mol. Interestingly, our optimization calculations show that the conversion of *CO+2*O2 to 2*CO+2*O2 results in the formation of a key Mo-O6-O7-Mo unit with one O6-O7 distance of 1.389 Å and two Mo-O distances of 2.065 and 2.080 Å, respectively. And the optimized Rh-O2 distance is 2.112 and 2.912Å for O7 and O6 atoms of the adsorbed O2 molecules in 2*CO+2*O2 , indicating strong/weak bonding interaction of Rh atom and O7/O6 atom. Owing to O6 atom of the Mo-O6-O7-Mo unit does not bind the Rh atom, it may have the high reactivity for the oxidation of the third CO molecule to form CO2 molecule. The calculated free energy profile for the oxidation of the third CO molecule by the O6 atom of the Mo-O6-O7-Mo unit has been shown in Fig. 7 . The results show that it undergoes two transition states with the free energy barrier of 8.03 kcal/mol for TS5c and 13.44 kcal/mol for TS6c , respectively. Obviously, such low energy barrier mainly arises from the unique adsorbed configuration of O2. After desorption of the third CO2 molecule from the catalyst surface, the oxygen vacancy was replenished. In order to probe the support effects on the reaction mechanism, the free energy profile for CO oxidation catalyzed by the Rh1/PTA SAC also have been calculated at the same levels. The calculated reaction pathways along our proposed mechanism have been compared in Fig. 8 . It can be found that oxidation of the first CO molecule by the surface Ob atom needs to overcome the roughly same energy barrier for both SACs studied here (25.12 vs 21.26 kcal/mol). And extraction of the Ob atom from the PMA surface to form the oxygen vacancy and the first CO2 molecule results in a more stable intermediate relevant to that of PTA support, as supported by the calculated relative energy of -31.74 kcal/mol for Rh1/PMA and -21.73 kcal/mol for Rh1/PTA. In the oxidation of the second CO molecule, extraction of the Oc atom from the PMA surface to form CO2 need to undergo a relative high barrier when compared to that of PTA surface (12.60 vs. 7.99 kcal/mol). And desorption of the second CO2 molecule to form oxygen vacancy on the PMA surface results in a more stable intermediate relative to that of PTA surface (-49.30 vs -46.97 kcal/mol). Owing to this low relative energy, adsorbing of CO molecule to saturate the Rh atom need to overcome a thermodynamic barrier of 5.09 kcal/mol. By contrast, adsorbing of CO molecule to saturate the Rh atom on the PMA has very small thermodynamically barrier of 1.79 kcal/mol. Although much efforts have been made, we did not find the transition state corresponding to extraction of the second CO2 molecule from the PTA surface. In the oxidation of the third CO molecule, cleavage of adsorbed O2 to oxidize the third CO molecule needs to undergo two free energy barriers of 8.03 and 13.44 kcal/mol for Rh1/PMA, 8.67 and 12.08 kcal/mol for Rh1/PTA, respectively. Finally, the calculated reaction energies of -155.29 for Rh1/PTA and -161.23 kcal/mol for Rh1/PMA indicate the large thermodynamic driving force for the whole reaction. All these results indicate that the energy curve for Rh1/PMA system locates in the bottom and has the low activation barrier. A full reaction mechanism for the studied pathway about CO oxidation catalyzed by the Rh1/PMA or Rh1/PMA SAC has been summarized in the Fig. 9 . The first step is the oxidation of the first CO molecule by the Ob atom of the PMA/PTA surface to form the CO2 and an oxygen vacancy with a moderate free energy barrier of 21.26/25.12 kcal/mol. The next step is the adsorption of O2 and CO to refill the oxygen vacancy and saturate Rh center. Owing to the strong Rh-O2 bonding and very high free energy barrier, CO will be oxidized by the adsorbed O2 molecule difficultly. Alternatively, the second CO molecule was oxidized by the surface Oc atom of PMA/PTA support to form CO2 and a new oxygen vacancy with a relevant low free energy barrier of 12.60/7.99 kcal/mol. After refilling of O2 molecule into the new oxygen vacancy and adsorption of the third CO molecule to the Rh center, the key intermediate containing Mo-O-O-Mo unit was formed. Because one of the oxygen atoms in the Mo-O-O-Mo unit does not bind to the Rh atom, the third CO molecule can be easily oxidized by this O atom with a low barrier of 13.44/8.03 kcal/mol to form CO2. Finally, the unsaturated Rh atom adsorbs CO to complete the catalytic cycle. Meanwhile, such catalytic cycle indicates that intermediate *CO containing two adsorbed CO molecules does not directly take part in the catalytic cycle, and should be viewed as the catalyst precursor. 3.4 Oxidation state changes of the Rh center It has been found that the oxidation state changes of the Rh atom plays the key role for the whole reaction mechanism. Experimentally, reduction of Rh(III) to Rh(I) has been observed as oxidation of the first CO molecule via extraction of surface oxygen atom from the POM support to form CO2 and an oxygen vacancy. In the present paper, the atomic charge changes of the Rh center in Rh1/PMA and Rh1/PTA SACs along the favorable route have been compared in Fig. 10 . We employ the Rh1/PMA SAC as example to analyze the oxidation state changes of the Rh center. It can be found that adsorption of two CO molecules to the Rh(III) center significantly decrease of Rh atomic charge from +1.00 to +0.145, indicating two adsorbed CO molecules donate electrons to the Rh(III) center, and thus Rh(III) is reduced to Rh(I). Starting from *CO, the Rh atomic charge increases from +0.145 to +0.5 during the formation of first CO2 molecule, indicating Rh(I) center donates electrons to promote the formation of the new [CO]-[Ob] bond, and Rh(I) was oxidized to Rh(II). Next, the Rh atomic charge decreases from +0.5 to +0.2 as the formation of oxygen vacancy, indicating that the Rh(II) center accepts the extra electrons from the oxygen vacancy as extraction of the forming CO2 molecule from the oxygen vacancy. Finally, the atomic charge of the Rh(II) center decreases from +0.2 to -0.04 as adsorption of CO to the Rh center, indicating the Rh(II) center has been reduced to Rh(I). As shown in Fig. 10, starting from *CO@Ov,b, there are two stages of the Rh atom charge increases during the oxidation of the second CO molecule, which corresponds to the adsorption of two O2 molecule, indicating that the Rh(I) center was oxidized to Rh(II) by the adsorbed O2 molecules. After desorption of the second CO2 molecule and formation of the oxygen vacancy, oxidation of the third CO molecule by the adsorbed O2 molecule increases the Rh atomic charge from +0.208 to +0.504, indicating the Rh(I) center was oxidized to Rh(II) with the formation of the third CO2 molecule, this upward trend of the Rh atom charge indicates that Rh(I) center donates electrons to promote the cleavage of the O2 and formation of the new [CO]-[Ob] bond. All these results show that the three peak values of the Rh atomic charge in the whole reaction pathway suggest the formation of Rh(II) intermediate. These findings would be very useful to verify our proposed MvK mechanism for CO oxidation with the presence of the Rh(II) intermediate. 4 Conclusion In summary, we focused on POM-supported SACs containing single Rh sties on the unimolecular PTA and PMA supports. We investigated the reaction mechanism of CO oxidation by means of DFT-M06L calculations, which allowed us to precisely assign transition states and intermediates to provide a Rh-assisted MvK mechanism for CO oxidation, which involves the consecutive oxidation of three CO molecules over Rh1/PTA and Rh1/PMA SACs. The first CO molecule was oxidized by the surface O atom of POM support to form CO2 molecule and an oxygen vacancy. The surface oxygen vacancy was refilled by O2 molecule. For oxidation of the second CO molecule, similar to our previous study, it is difficult for the adsorbed O2 molecule because the bonding interaction between Rh atom and O2 molecule weakens the reactivity of the O2 molecule. Alternatively, the second CO molecule was easily oxidized by the surface O atom of PMA/PTA support to form the second CO2 molecule and a new oxygen vacancy, which was refilled by the O2 molecule to form key intermediate 2*CO+2*O2 containing Mo-O-O-Mo unit. Owing to one of oxygen atom in the Mo-O-O-Mo unit does not bind to the Rh atom, the third CO molecule can be easily oxidized by this O atom to form CO2 molecule. Compared with Rh1/PTA, the energy curve of Rh1/PMA locates in the bottom and has the low activation barrier in this Rh-assisted MvK mechanism. Therefore, Rh1/PMA SAC possesses a high reactivity for CO oxidation relevant to Rh1/PTA, which is well in agreement with the experimental results. The atomic charge analysis along the proposed MvK pathway shows that the oxidation state of the Rh center changes among III, II, and I, which promotes electron transfer and the whole reaction. Associated content Supporting Information Xyz coordinates for most relevant structures reported in this paper. CRediT authorship contribution statement Chun-Hong Lin: Conceptualization, Writing – original draft, Visualization, Investigation. Zi-Yi Sun: Visualization, Formal analysis. Chun-Guang Liu: Conceptualization, Formal analysis, Writing – original draft, Writing – review & editing. Declaration of Competing Interest The authors declare no competing financial interest. Acknowledgments The authors gratefully acknowledge the financial support from the National Natural Science Foundation of China (21373043). Supplementary materials Supplementary material associated with this article can be found, in the online version, at doi:10.1016/j.mcat.2021.111761. Appendix Supplementary materials Image, application 1 Reference [1] M. Flytzani-Stephanopoulos1 B.C. Gates Atomically dispersed supported metal catalysts Annu. Rev. Chem. Biomol. Eng. 3 2012 545 574 M. Flytzani-Stephanopoulos1 and B. C. Gates, Atomically dispersed supported metal catalysts. Annu. Rev. Chem. Biomol. Eng. (3) 2012545-574. [2] S.H. Sun G.X. Zhang N. Gauquelin N. Chen J.G. Zhou S.L. Yang W.F. Chen X.B. Meng D.S. Geng M.N. Banis R.Y. Li S.Y. Ye S. Knights G.A. Botton T.K. Sham X.L. Sun Single-atom Catalysis Using Pt/Graphene Achieved through Atomic Layer Deposition Sci. Rep. 3 2013 1775 S. H. Sun, G. X. Zhang, N. Gauquelin, N. Chen, J. G. Zhou, S. L. Yang, W. F. Chen, X. B. Meng, D. S. Geng, M. N. Banis, R. Y. Li, S. Y. Ye, S. Knights, G. A. Botton, T. K. Sham and X. L. Sun, Single-atom Catalysis Using Pt/Graphene Achieved through Atomic Layer Deposition. Sci. Rep. (3) 20131775. [3] Z.Y. Li Z. Yuan X.N. Li Y.X. Zhao S.G. He CO oxidation catalyzed by single gold atoms supported on aluminum oxide clusters J. Am. Chem. Soc. 136 2014 14307 14313 Z. Y. Li, Z. Yuan, X. N. Li, Y. X. Zhao and S. G. He, CO oxidation catalyzed by single gold atoms supported on aluminum oxide clusters. J. Am. Chem. Soc. (136) 201414307-14313. [4] J.M. Thomas Z. Saghi P.L. Gai Can a single atom serve as the active site in some heterogeneous catalysts? Top. Catal. 54 2011 588 594 J. M. Thomas, Z. Saghi and P. L. Gai, Can a single atom serve as the active site in some heterogeneous catalysts?Top. Catal. (54) 2011588-594. [5] X.F. Yang A.Q. Wang B.T. Qiao J. Li J.Y. Liu T. Zhang Single-atom catalysts: a new frontier in heterogeneous catalysis Acc. Chem. Res. 46 2013 1740 1748 X. F. Yang, A. Q. Wang, B. T. Qiao, J. Li, J. Y. Liu and T. Zhang, Single-atom catalysts: a new frontier in heterogeneous catalysis. Acc. Chem. Res. (46) 20131740-1748. [6] D.S. Yang J. Kim Y.J. Tak P.A. Soon P.H. Lee Single-atom catalyst of platinum supported on titanium nitride for selective electrochemical reactions Angew. Chem. Int. Ed. 55 2016 2058 2062 D. S. Yang, J. Kim, Y. J. Tak, P. A. Soon and P. H. Lee, Single-atom catalyst of platinum supported on titanium nitride for selective electrochemical reactions. Angew. Chem. Int. Ed. (55) 20162058-2062. [7] H.S. Wei X.Y. Liu A.Q. Wang L.L. Zhang B.T. Qiao X.F. Yang Y.Q. Huang S. Miao J.Y. Liu T. Zhang FeOx-supported platinum single-atom and pseudo-single-atom catalysts for chemoselective hydrogenation of functionalized nitroarenes Nat. Commun. 5 2014 5634 H. S. Wei, X. Y. Liu, A. Q. Wang, L. L. Zhang, B. T. Qiao, X. F. Yang, Y. Q. Huang, S. Miao, J. Y. Liu and T. Zhang, FeOx-supported platinum single-atom and pseudo-single-atom catalysts for chemoselective hydrogenation of functionalized nitroarenes. Nat. Commun. (5) 20145634. [8] E.J. Peterson A.T. DeLaRiva S. Lin R.S. Johnson H. Guo J.T. Miller J.H. Kwak C.H.F. Peden B. Kiefer L.F. Allard F.H. Ribeiro A.K. Datye Low-temperature carbon monoxide oxidation catalysed by regenerable atomically dispersed palladium on alumina Nat. Commun. 5 2014 4885 E. J. Peterson, A. T. DeLaRiva, S. Lin, R. S. Johnson, H. Guo, J. T. Miller, J. H. Kwak, C. H. F. Peden, B. Kiefer, L. F. Allard, F. H. Ribeiro and A. K. Datye, Low-temperature carbon monoxide oxidation catalysed by regenerable atomically dispersed palladium on alumina. Nat. Commun. (5) 20144885. [9] J. Lin A.Q. Wang B.T. Qiao X.Y. Liu X.F. Yang X.D. Wang J.X. Liang J. Li J.Y. Liu T. Zhang Remarkable performance of Ir1/FeOx single-atom catalyst in water gas shift reaction J. Am. Chem. Soc. 135 2013 15314-13517 J. Lin, A. Q. Wang, B. T. Qiao, X. Y. Liu, X. F. Yang, X. D. Wang, J. X. Liang, J. Li, J. Y. Liu and T. Zhang, Remarkable performance of Ir1/FeOx single-atom catalyst in water gas shift reaction. J. Am. Chem. Soc. (135) 201315314-13517. [10] S. Lin X.X. Ye R.S. Johnson H. Guo First-principles investigations of metal (Cu, Ag, Au, Pt, Rh, Pd, Fe, Co, and Ir) doped hexagonal boron nitride nanosheets: stability and catalysis of CO oxidation J. Phys. Chem. C. 117 2013 17319 17326 S. Lin, X. X. Ye, R. S. Johnson and H. Guo, First-principles investigations of metal (Cu, Ag, Au, Pt, Rh, Pd, Fe, Co, and Ir) doped hexagonal boron nitride nanosheets: stability and catalysis of CO oxidation. J. Phys. Chem. C. (117) 201317319-17326. [11] Y.X. Feng L.S. Zhou Q. Wan S. Lin H. Guo Selective hydrogenation of 1,3-butadiene catalyzed by a single Pd atom anchored on graphene: the importance of dynamics Chem. Sci. 9 2018 5890 5896 Y. X. Feng, L. S. Zhou, Q. Wan, S. Lin and H. Guo, Selective hydrogenation of 1,3-butadiene catalyzed by a single Pd atom anchored on graphene: the importance of dynamics. Chem. Sci. (9) 20185890-5896. [12] W.Y. Song E.J.M. Hensen Mechanistic aspects of the water–gas shift reaction on isolated and clustered Au atoms on CeO2(110): a density functional theory study ACS Catal. 4 2014 1885 1892 W. Y. Song and E. J. M. Hensen, Mechanistic aspects of the water–gas shift reaction on isolated and clustered Au atoms on CeO2(110): a density functional theory study. ACS Catal. (4) 20141885-1892. [13] X. Zhang H. Shi B.Q. Xu Catalysis by gold: isolated surface Au3+ ions are active sites for selective hydrogenation of 1,3-butadiene over Au/ZrO2 catalysts Angew. Chem. Int. Ed. 44 2005 7132 7135 X. Zhang, H. Shi and B. Q. Xu, Catalysis by gold: isolated surface Au3+ ions are active sites for selective hydrogenation of 1,3-butadiene over Au/ZrO2 catalysts. Angew. Chem. Int. Ed. (44) 20057132-7135. [14] B. Long Y. Tang J. Li New mechanistic pathways for CO oxidation catalyzed by single-atom catalysts: Supported and doped Au1/ThO2 Nano. Res. 9 2016 3868 3880 B. Long, Y. Tang and J. Li, New mechanistic pathways for CO oxidation catalyzed by single-atom catalysts: Supported and doped Au1/ThO2. Nano. Res. (9) 20163868-3880. [15] S.X. Liang C. Hao Y.T. Shi The Power of Single-Atom Catalysis Chem Cat Chem 7 2015 2559 2567 S. X. Liang, C. Hao and Y. T. Shi, The Power of Single-Atom Catalysis. Chem Cat Chem. (7) 20152559-2567. [16] A. Corma P. Concepción M. Boronat M.J. Sabater J. Navas M.J. Yacaman E. Larios A. Posadas M.A. López-Quintela D. Buceta E. Mendoza G. Guilera A. Mayoral Exceptional oxidation activity with size-controlled supported gold clusters of low atomicity Nat. Chem. 5 2013 775 781 A. Corma, P. Concepción, M. Boronat, M. J. Sabater, J. Navas, M. J. Yacaman, E. Larios, A. Posadas, M. A. López-Quintela, D. Buceta, E. Mendoza, G. Guilera and A. Mayoral, Exceptional oxidation activity with size-controlled supported gold clusters of low atomicity. Nat. Chem. (5) 2013775-781. [17] J. Xing J. Fu. Chen Y.H. Li W.T. Yuan Y. Zhou L.R. Zheng H.F. Wang P. Hu Y. Wang H.J. Zhao Y. Wang H.G. Yang Stable isolated metal atoms as active sites for photocatalytic hydrogen evolution Chemistry 20 2014 2138 2144 J. Xing, J. Fu. Chen, Y. H. Li, W. T. Yuan, Y. Zhou, L. R. Zheng, H. F. Wang, P. Hu, Y. Wang, H. J. Zhao, Y. Wang and H. G. Yang, Stable isolated metal atoms as active sites for photocatalytic hydrogen evolution. Chemistry. (20) 20142138-2144. [18] T.E. James S.L. Hemmingson C.T. Campbell Energy of Supported Metal Catalysts: From Single Atoms to Large Metal Nanoparticles ACS Catal 5 2015 5673 5678 T. E. James, S. L. Hemmingson and C. T. Campbell, Energy of Supported Metal Catalysts: From Single Atoms to Large Metal Nanoparticles. ACS Catal. (5) 20155673-5678. [19] L. Wang S.R. Zhang Y. Zhu A. Patlolla J.J. Shan H. Yoshida S. Takeda A.I. Frenkel F. Tao Catalysis and In Situ Studies of Rh1/Co3O4 Nanorods in Reduction of NO with H2 ACS Catal 3 2013 1011 1019 L. Wang, S. R. Zhang, Y. Zhu, A. Patlolla, J. J. Shan, H. Yoshida, S. Takeda, A. I. Frenkel and F. Tao, Catalysis and In Situ Studies of Rh1/Co3O4 Nanorods in Reduction of NO with H2. ACS Catal. (3) 20131011-1019. [20] M. Moses-DeBusk M. Yoon L.F. Allard D.R. Mullins Z.L. Wu X.F. Yang G. Veith G.M. Stocks C.K. Narula CO Oxidation on Supported Single Pt Atoms: Experimental and ab Initio Density Functional Studies of CO Interaction with Pt Atom on θ-Al2O3(010) Surface J. Am. Chem. Soc. 135 2013 12634 13645 M. Moses-DeBusk, M. Yoon, L. F. Allard, D. R. Mullins, Z. L. Wu, X. F. Yang, G. Veith, G. M. Stocks and C. K. Narula, CO Oxidation on Supported Single Pt Atoms: Experimental and ab Initio Density Functional Studies of CO Interaction with Pt Atom on θ-Al2O3(010) Surface. J. Am. Chem. Soc. (135) 201312634-13645. [21] F.R. Lucci J.L. Liu M.D. Marcinkowski M. Yang L.F. Allard M. Flytzani-Stephanopoulos E.C.H. Sykesb Selective hydrogenation of 1,3-butadiene on platinum-copper alloys at the single-atom limit Nat. Commun. 6 2015 8550 F. R. Lucci, J. L. Liu, M. D. Marcinkowski, M. Yang, L. F. Allard, M. Flytzani-Stephanopoulos and E. C. H. Sykesb, Selective hydrogenation of 1,3-butadiene on platinum-copper alloys at the single-atom limit. Nat. Commun. (6) 20158550. [22] S.R. Zhang L. Nguyen J.X. Liang J.J. Shan J.Y. Liu A.I. Frenkel A. Patlolla W.X. Huang J. Li F. Tao Catalysis on singly dispersed bimetallic sites Nat. Commun. 6 2015 7938 S. R. Zhang, L. Nguyen, J. X. Liang, J. J. Shan, J. Y. Liu, A. I. Frenkel, A. Patlolla, W. X. Huang, J. Li and F. Tao, Catalysis on singly dispersed bimetallic sites. Nat. Commun. (6) 20157938. [23] A. Corma O.G. Salnikov D.A. Barskiy K.V. Kovtunov I.V. Koptyug Single-Atom Gold Catalysis in the Context of Developments in Parahydrogen-Induced Polarization Chemistry 21 2015 7012 7015 A. Corma, O. G. Salnikov, D. A. Barskiy, K. V. Kovtunov and I. V. Koptyug, Single-Atom Gold Catalysis in the Context of Developments in Parahydrogen-Induced Polarization. Chemistry. (21) 20157012-7015. [24] D. Li P.C. Yin T.B. Liu Supramolecular architectures assembled from amphiphilic hybrid polyoxometalates Dalton Trans 41 2012 2853 2861 D. Li, P. C. Yin and T. B. Liu, Supramolecular architectures assembled from amphiphilic hybrid polyoxometalates. Dalton Trans. (41) 20122853-2861. [25] T.R. Zhang S.Q. Liu D.G. Kurth C.F.J. Faul Organized Nanostructured Complexes of Polyoxometalates and Surfactants that Exhibit Photoluminescence and Electrochromism Adv. Funct. Mater. 19 2009 642 652 T. R. Zhang, S. Q. Liu, D. G. Kurth and C. F. J. Faul, Organized Nanostructured Complexes of Polyoxometalates and Surfactants that Exhibit Photoluminescence and Electrochromism. Adv. Funct. Mater. (19) 2009642-652. [26] W.F. Bu H.L. Li H. Sun S.Y. Yin L.X. Wu Polyoxometalate-Based Vesicle and Its Honeycomb Architectures on Solid Surfaces J. Am. Chem. Soc. 127 2005 8016 8017 W. F. Bu, H. L. Li, H. Sun, S. Y. Yin and L. X. Wu, Polyoxometalate-Based Vesicle and Its Honeycomb Architectures on Solid Surfaces. J. Am. Chem. Soc. (127) 20058016-8017. [27] M. Yaqub S. Imar F. Laffir G. Armstrong T. McCormac Investigations into the electrochemical, surface, and electrocatalytic properties of the surface-immobilized polyoxometalate, TBA3K[SiW10O36(PhPO)2] ACS Appl. Mater. Interfaces. 7 2015 1046 1056 M. Yaqub, S. Imar, F. Laffir, G. Armstrong and T. McCormac, Investigations into the electrochemical, surface, and electrocatalytic properties of the surface-immobilized polyoxometalate, TBA3K[SiW10O36(PhPO)2]. ACS Appl. Mater. Interfaces. (7) 20151046-1056. [28] G. Maayan R. Popovitz-Biro R. Neumann Micelle Directed Synthesis of Polyoxometalate Nanoparticles and Their Improved Catalytic Activity for the Aerobic Oxidation of Sulfides J. Am. Chem. Soc. 128 2006 4968 4969 G. Maayan, R. Popovitz-Biro and R. Neumann, Micelle Directed Synthesis of Polyoxometalate Nanoparticles and Their Improved Catalytic Activity for the Aerobic Oxidation of Sulfides. J. Am. Chem. Soc. (128) 20064968-4969. [29] G.G. Gao P.S. Cheng T.C.W. Mak Acid-Induced Surface Functionalization of Polyoxometalate by Enclosure in a Polyhedral Silver−Alkynyl Cage J. Am. Chem. Soc. 131 2009 18257 18259 G. G. Gao, P. S. Cheng and T. C. W. Mak, Acid-Induced Surface Functionalization of Polyoxometalate by Enclosure in a Polyhedral Silver−Alkynyl Cage. J. Am. Chem. Soc. (131) 200918257-18259. [30] J. Sloan Z. Liu K. Suenaga N.R. Wilson P.A. Pandey L.M. Perkins J.P. Rourke I.J. Shannon Imaging the structure, symmetry, and surface-inhibited rotation of polyoxometalate ions on graphene oxide Nano Lett 10 2010 4600 4606 J. Sloan, Z. Liu, K. Suenaga, N. R. Wilson, P. A. Pandey, L. M. Perkins, J. P. Rourke and I. J. Shannon, Imaging the structure, symmetry, and surface-inhibited rotation of polyoxometalate ions on graphene oxide. Nano Lett. (10) 20104600-4606. [31] J. Sloan Z. Liu K. Suenaga N.R. Wilson P.A. Pandey L.M. Perkins J.P. Rourke I.J. Shannon Tens of thousands of atoms replaced by one Nature 525 2015 325 326 J. Sloan, Z. Liu, K. Suenaga, N. R. Wilson, P. A. Pandey, L. M. Perkins, J. P. Rourke and I. J. Shannon, Tens of thousands of atoms replaced by one. Nature. (525) 2015, 325-326. [32] H.B. Zhang G.G. Liu L. Shi J.H. Ye Single-Atom Catalysts: Emerging Multifunctional Materials in Heterogeneous Catalysis Adv. Energy Mater. 8 2018 1701343 H. B. Zhang, G. G. Liu, L. Shi and J. H. Ye, Single-Atom Catalysts: Emerging Multifunctional Materials in Heterogeneous Catalysis. Adv. Energy Mater. (8) 20181701343. [33] J. Liu B.R. Bunes L. Zang C.Y. Wang Supported single-atom catalysts: synthesis, characterization, properties, and applications Environ Chem Lett 16 2017 477 505 J. Liu, B. R. Bunes, L. Zang and C. Y. Wang, Supported single-atom catalysts: synthesis, characterization, properties, and applications. Environ Chem Lett. (16) 2017477-505. [34] F. Gadissa Gelalcha Heterocyclic Hydroperoxides in selective oxidations Chem. Rev. 107 2007 3338 3361 F. Gadissa and Gelalcha, Heterocyclic Hydroperoxides in selective oxidations. Chem. Rev. (107) 20073338-3361. [35] I.A. Weinstock R.E. Schreiber R. Neumann Dioxygen in Polyoxometalate Mediated Reactions Chem. Rev. 118 2018 2680 2717 I. A. Weinstock, R. E. Schreiber and R. Neumann, Dioxygen in Polyoxometalate Mediated Reactions. Chem. Rev. (118) 20182680-2717. [36] P.L. He B. Xu X.B. Xu L. Song X. Wang Surfactant encapsulated palladium-polyoxometalates: controlled assembly and their application as single-atom catalysts Chem. Sci. 7 2016 1011 1015 P. L. He, B. Xu, X. B. Xu, L. Song and X. Wang, Surfactant encapsulated palladium-polyoxometalates: controlled assembly and their application as single-atom catalysts. Chem. Sci. (7) 20161011-1015. [37] R.L. Augustine S.K. Tanielyan N. Mahata Y. Gao A. Zsigmond H. Yang Anchored homogeneous catalysts: the role of the heteropoly acid anchoring agent Appl. Catal. A: Gen. 256 2003 69 76 R. L. Augustine, S. K. Tanielyan, N. Mahata, Y. Gao, A. Zsigmond and H. Yang, Anchored homogeneous catalysts: the role of the heteropoly acid anchoring agent. Appl. Catal. A: Gen. (256) 200369-76. [38] C. Copéret A. Comas-Vives M.P. Conley D.P. Estes A. Fedorov V. Mougel H. Nagae F. Núñez-Zarur P.A. Zhizhko Surface Organometallic and Coordination Chemistry toward Single-Site Heterogeneous Catalysts: Strategies, Methods, Structures, and Activities Chem. Rev. 116 2016 323 421 C. Copéret, A. Comas-Vives, M. P. Conley, D. P. Estes, A. Fedorov, V. Mougel, H. Nagae, F. Núñez-Zarur and P. A. Zhizhko, Surface Organometallic and Coordination Chemistry toward Single-Site Heterogeneous Catalysts: Strategies, Methods, Structures, and Activities. Chem. Rev. (116) 2016323-421. [39] M.R. Torviso M.N. Blanco C.V. Cáceres J.M. Fraile J.A. Mayoralc Supported heteropolyanions as solid counterions for the electrostatic immobilization of chiral copper complexes J Catal 275 2010 70 77 M. R. Torviso, M. N. Blanco, C. V. Cáceres, J. M. Fraile and J. A. Mayoralc, Supported heteropolyanions as solid counterions for the electrostatic immobilization of chiral copper complexes. J Catal. (275) 201070-77. [40] S.H. Ahnab M.S. Choi J.S. Im R. Sheikh Y.H. Park Improved method for immobilization of a chiral complex on PTA/alumina for asymmetric hydrogenation of a β-ketoester J. Mol. Catal. 373 2013 55 60 S. H. Ahnab, M. S. Choi, J.S. Im, R. Sheikh and Y. H. Park, Improved method for immobilization of a chiral complex on PTA/alumina for asymmetric hydrogenation of a β-ketoester. J. Mol. Catal. (373) 201355-60. [41] D.E. Katsoulis A Survey of Applications of Polyoxometalates Chem. Rev. 98 1998 359 388 D. E. Katsoulis, A Survey of Applications of Polyoxometalates. Chem. Rev. (98) 1998359-388. [42] A. Dolbecq E. Dumas C.R. Mayer P. Mialane Hybrid Organic−Inorganic Polyoxometalate Compounds: From Structural Diversity to Applications Chem. Rev. 110 2010 6009 6048 A. Dolbecq, E. Dumas, C. R. Mayer, and P. Mialane, Hybrid Organic−Inorganic Polyoxometalate Compounds: From Structural Diversity to Applications. Chem. Rev. (110) 20106009-6048. [43] N.V. Izarova M.T. Pope U. Kortz Noble metals in polyoxometalates Angew. Chem. Int. Ed. 51 2012 9492 9510 N. V. Izarova, M. T. Pope and U. Kortz, Noble metals in polyoxometalates. Angew. Chem. Int. Ed. (51) 20129492-9510. [44] M. Sun J.Z. Zhang P. Putaj V. Caps F. Lefebvre J. Pelletier J.M. Basset atalytic oxidation of light alkanes (C1-C4) by heteropoly compounds Chem. Rev. 114 2014 981 1019 M. Sun, J. Z. Zhang, P. Putaj, V. Caps, F. Lefebvre, J. Pelletier and J. M. Basset, atalytic oxidation of light alkanes (C1-C4) by heteropoly compounds. Chem. Rev. (114) 2014981-1019. [45] S.K. Tanielyan R.L. Augustine N. Marin G. Alvez Anchored Wilkinson Catalyst ACS Catal. 1 2011 159 169 S. K. Tanielyan, R. L. Augustine, N. Marin and G. Alvez, Anchored Wilkinson Catalyst. ACS Catal. (1) 2011159-169. [46] S. Tanielyan N. Biunno R. Bhagat R. Augustine Anchored Wilkinson Catalyst: Hydrogenation of β Pinene Top. Catal. 57 2014 1564 1569 S. Tanielyan, N. Biunno, R. Bhagat and R. Augustine, Anchored Wilkinson Catalyst: Hydrogenation of β Pinene. Top. Catal. (57) 20141564-1569. [47] M.J. Hülsey J.G. Zhang N. Yan Harnessing the Wisdom in Colloidal Chemistry to Make Stable Single-Atom Catalysts Adv. Mater. 30 2018 1802304 M. J. Hülsey, J. G. Zhang and N. Yan, Harnessing the Wisdom in Colloidal Chemistry to Make Stable Single-Atom Catalysts. Adv. Mater. (30) 20181802304. [48] D. Volkmer B. Bredenkötter J. Tellenbröker P. Kögerler D.G. Kurth P. Lehmann H. Schnablegger D. Schwahn M. Piepenbrink B. Krebs Structure and properties of the dendron-encapsulated polyoxometalate (C52H60NO12)12[(Mn(H2O))3(SbW9O33)2], a first generation dendrizyme J. Am. Chem. Soc. 124 2002 10489 10496 D. Volkmer, B. Bredenkötter, J. Tellenbröker, P. Kögerler, D. G. Kurth, P. Lehmann, H. Schnablegger, D. Schwahn, M. Piepenbrink and B. Krebs, Structure and properties of the dendron-encapsulated polyoxometalate (C52H60NO12)12[(Mn(H2O))3(SbW9O33)2], a first generation dendrizyme. J. Am. Chem. Soc. (124) 200210489-10496. [49] B. Zhang H. Asakura J. Zhang J.G. Zhang S. De N. Yan Stabilizing a Platinum1 Single-Atom Catalyst on Supported Phosphomolybdic Acid without Compromising Hydrogenation Activity Angew. Chem. Int. Ed. 55 2016 8319 8323 B. Zhang, H. Asakura, J. Zhang, J. G. Zhang, S. De and N. Yan, Stabilizing a Platinum1 Single-Atom Catalyst on Supported Phosphomolybdic Acid without Compromising Hydrogenation Activity. Angew. Chem. Int. Ed. (55) 20168319-8323. [50] B. Zhang H. Asakura N. Yan Atomically Dispersed Rhodium on Self-Assembled Phosphotungstic Acid: Structural Features and Catalytic CO Oxidation Properties Ind. Eng. Chem. Res. 56 2017 3578 3587 B. Zhang, H. Asakura and N. Yan, Atomically Dispersed Rhodium on Self-Assembled Phosphotungstic Acid: Structural Features and Catalytic CO Oxidation Properties. Ind. Eng. Chem. Res. (56) 20173578-3587. [51] Q.X. Cai X.D. Wang J.G. Wang Distinctions between Supported Au and Pt Catalysts for CO Oxidation: Insights from DFT Study J. Phys. Chem. C. 117 2013 21331 21336 Q. X. Cai, X. D. Wang and J. G. Wang, Distinctions between Supported Au and Pt Catalysts for CO Oxidation: Insights from DFT Study. J. Phys. Chem. C. (117) 201321331-21336. [52] L.Q. Liu F. Zhou L.G. Wang X.J. Qi F. Shi Y.Q. Deng Low-temperature CO oxidation over supported Pt, Pd catalysts: Particular role of FeOx support for oxygen supply during reactions J. Catal. 274 2010 1 10 L. Q. Liu, F. Zhou, L. G. Wang, X. J. Qi, F. Shi and Y. Q. Deng, Low-temperature CO oxidation over supported Pt, Pd catalysts: Particular role of FeOx support for oxygen supply during reactions. J. Catal. (274) 20101-10. [53] B.T. Qiao A.Q. Wang X.F. Yang L.F. Allard Z. Jiang Y.T. Cui J.Y. Liu J. Li T. Zhang Single-atom catalysis of CO oxidation using Pt1/FeOx Nat. Chem. 3 2011 634 641 B. T. Qiao, A. Q. Wang, X. F. Yang, L. F. Allard, Z. Jiang, Y. T. Cui, J. Y. Liu, J. Li and T. Zhang, Single-atom catalysis of CO oxidation using Pt1/FeOx. Nat. Chem. (3) 2011634-641. [54] J.J. Wang Z.Y. Wang C.J Liu Enhanced Activity for CO Oxidation over WO3 Nanolamella Supported Pt Catalyst ACS Appl. Mater. Interfaces. 6 2014 12860 12867 J. J. Wang, Z. Y. Wang and C. J Liu, Enhanced Activity for CO Oxidation over WO3 Nanolamella Supported Pt Catalyst. ACS Appl. Mater. Interfaces. (6) 201412860-12867. [55] R.V. Gulyaev E.M. Slavinskaya S.A. Novopashin D.V. Smovzh A.V. Zaikovskii D.Y. Osadchii O.A. Bulavchenko S.V. Korenev A.I. Boroninad Highly active PdCeOx composite catalysts for low-temperature CO oxidation, prepared by plasma-arc synthesis Appl. Catal. B. 147 2014 132 143 R. V. Gulyaev, E. M. Slavinskaya, S. A. Novopashin, D. V. Smovzh, A. V. Zaikovskii, D. Y. Osadchii, O. A. Bulavchenko, S. V. Korenev and A. I. Boroninad, Highly active PdCeOx composite catalysts for low-temperature CO oxidation, prepared by plasma-arc synthesis. Appl. Catal. B. (147) 2014132-143. [56] T.K. Ghosh N.N. Nair Rh1/γ-Al2O3 Single-Atom Catalysis of O2 Activation and CO Oxidation: Mechanism, Effects of Hydration, Oxidation State, and Cluster Size ChemCatChem 5 2013 1811 1821 T. K. Ghosh and N. N. Nair, Rh1/γ-Al2O3 Single-Atom Catalysis of O2 Activation and CO Oxidation: Mechanism, Effects of Hydration, Oxidation State, and Cluster Size. ChemCatChem. (5) 20131811-1821. [57] J.X. Liang J. Lin X.F. Yang A.Q. Wang B.T. Qiao J.Y. Liu T. Zhang J. Li Theoretical and Experimental Investigations on Single-Atom Catalysis: Ir1/FeOx for CO Oxidation J. Phys. Chem. C. 118 2014 21945 21951 J. X. Liang, J. Lin, X. F. Yang, A. Q. Wang, B. T. Qiao, J. Y. Liu, T. Zhang and J. Li, Theoretical and Experimental Investigations on Single-Atom Catalysis: Ir1/FeOx for CO Oxidation. J. Phys. Chem. C. (118) 201421945-21951. [58] Y.G. Wang D.C. Cantu M.S. Lee J. Li V.A. Glezakou R. Rousseau CO Oxidation on Au/TiO2: Condition-Dependent Active Sites and Mechanistic Pathways J. Am. Chem. Soc. 138 2016 10467 10476 Y. G. Wang, D. C. Cantu, M. S. Lee, J. Li, V. A. Glezakou and R. Rousseau, CO Oxidation on Au/TiO2: Condition-Dependent Active Sites and Mechanistic Pathways. J. Am. Chem. Soc. (138) 201610467-10476. [59] Y.X. Feng Q. Wan H.F. Xiong S.L. Zhou X. Chen X.I.P. Hernandez Y. Wang S. Lin A.K. Datye H. Guo Correlating DFT Calculations with CO Oxidation Reactivity on Ga-Doped Pt/CeO2 Single-Atom Catalysts J. Phys. Chem. C. 122 2018 22460 22468 Y. X. Feng, Q. Wan, H. F. Xiong, S. L. Zhou, X. Chen, X. I. P. Hernandez, Y. Wang, S. Lin, A. K. Datye, and H. Guo, Correlating DFT Calculations with CO Oxidation Reactivity on Ga-Doped Pt/CeO2 Single-Atom Catalysts. J. Phys. Chem. C. (122) 201822460-22468. [60] N. Li Q.Y. Chen L.F. Luo W.X. Huang M.F. Luo G.S. Hu J.Q. Lu inetic study and the effect of particle size on low temperature CO oxidation over Pt/TiO2 catalysts Appl. Catal. B. 142-143 2013 523 532 N. Li, Q. Y. Chen, L. F. Luo, W. X. Huang, M. F. Luo, G. S. Hu and J. Q. Lu, inetic study and the effect of particle size on low temperature CO oxidation over Pt/TiO2 catalysts. Appl. Catal. B. (142-143) 2013523-532. [61] C.L. Wang X.K. Gu H. Yan Y. Lin J.J. Li D.D. Liu W.X. Li J.L. Lu Water-Mediated Mars–Van Krevelen Mechanism for CO Oxidation on Ceria-Supported Single-Atom Pt1 Catalyst ACS Catal 7 2017 887 891 C. L. Wang, X. K. Gu, H. Yan, Y. Lin, J. J. Li, D. D. Liu, W. X. Li, and J. L. Lu, Water-Mediated Mars–Van Krevelen Mechanism for CO Oxidation on Ceria-Supported Single-Atom Pt1 Catalyst. ACS Catal. (7) 2017887-891. [62] Y. Lou Y.F. Cai W.D. Hu L. Wang Q.G. Dai W.C. Zhan Y.L. Guo P. Hu X.M. Cao J.Y. Liu Y. Guo Identification of Active Area as Active Center for CO Oxidation over Single Au Atom Catalyst ACS Catal 10 2020 6094 6101 Y. Lou, Y. F. Cai, W. D. Hu, L. Wang, Q. G. Dai, W. C. Zhan, Y. L. Guo, P. Hu, X. M. Cao, J. Y. Liu and Y. Guo, Identification of Active Area as Active Center for CO Oxidation over Single Au Atom Catalyst. ACS Catal. (10) 20206094-6101. [63] A. Beniya S. Higashi N. Ohba R. Jinnouchi H. Hirata Y. Watanabe CO oxidation activity of non-reducible oxide-supported mass-selected few-atom Pt single-clusters Nat. Commun. 11 2020 1888 A. Beniya, S. Higashi, N. Ohba, R. Jinnouchi, H. Hirata and Y. Watanabe, CO oxidation activity of non-reducible oxide-supported mass-selected few-atom Pt single-clusters. Nat. Commun. (11) 20201888. [64] H. Jeong O. Kwon B.S. Kim J. Bae S.Y. Shin H.E. Kim J. Kim H. Lee Highly durable metal ensemble catalysts with full dispersion for automotive applications beyond single-atom catalysts Nat. Catal. 3 2020 368 375 H. Jeong, O. Kwon, B. S. Kim, J. Bae, S. Y. Shin, H. E. Kim, J. Kim and H. Lee, Highly durable metal ensemble catalysts with full dispersion for automotive applications beyond single-atom catalysts. Nat. Catal. (3) 2020368-375. [65] M.J. Hülsey B. Zhang Z.R. Ma H. Asakura D.A. Do W. Chen T. Tanaka P. Zhang Z.L. Wu N. Yan In situ spectroscopy-guided engineering of rhodium single-atom catalysts for CO oxidation Nat. Commun. 10 2019 1330 M. J. Hülsey, B. Zhang, Z. R. Ma, H. Asakura, D. A. Do, W. Chen, T. Tanaka, P. Zhang, Z. L. Wu and N. Yan, In situ spectroscopy-guided engineering of rhodium single-atom catalysts for CO oxidation. Nat. Commun. (10) 20191330. [66] L.L. Zhang M.J. Sun C.G. Liu CO oxidation on the phosphotungstic acid supported Rh single–atom catalysts via Rh–assisted Mars–van Krevelen mechanism Mol. Catal. 462 2019 37 45 L. L. Zhang, M. J. Sun and C. G. Liu, CO oxidation on the phosphotungstic acid supported Rh single–atom catalysts via Rh–assisted Mars–van Krevelen mechanism. Mol. Catal. (462) 201937-45. [67] C.G. Liu L.L. Zhang X.M. Chen CO oxidation over the polyoxometalate-supported single-atom catalysts M1/POM (Fe, Co, Mn, Ru, Rh, Os, Ir, and Pt; POM = [PW12O40]3−): a computational study on the activation of surface oxygen species Dalton Trans 48 2019 6228 6235 C. G. Liu, L. L. Zhang and X. M. Chen, CO oxidation over the polyoxometalate-supported single-atom catalysts M1/POM (Fe, Co, Mn, Ru, Rh, Os, Ir, and Pt; POM = [PW12O40]3−): a computational study on the activation of surface oxygen species. Dalton Trans. (48) 20196228-6235. [68] M.J. Frisch G.W. Trucks H.B. Schlegel G.E. Scuseria M.A. Robb J.R. Cheeseman G. Scalmani V. Barone B. Mennucci G.A. Petersson Gaussian 09, Revision D.01; 2009 Gaussian, Inc. Wallingford, CT M. J. Frisch, G. W. Trucks, H. B. Schlegel, G. E. Scuseria, M. A. Robb, J. R. Cheeseman, G. Scalmani, V. Barone, B. Mennucci, G. A. Petersson, et al. Gaussian 09, Revision D.01;Gaussian, Inc.: Wallingford, CT, 2009. [69] Y. Zhao D.G. Truhlar A new local density functional for main-group thermochemistry, transition metal bonding, thermochemical kinetics, and noncovalent interactions J. Chem. Phys. 125 2006 194101 Y. Zhao and D. G. Truhlar, A new local density functional for main-group thermochemistry, transition metal bonding, thermochemical kinetics, and noncovalent interactions. J. Chem. Phys. (125) 2006194101. [70] L.L. Zhang X.M. Chen C.G. Liu Reduction of N2O by CO via Mars-van Krevelen corrected Mechanism over Phosphotungstic Acid Supported Single-Atom Catalysts: A Density Functional Theory Study Inorg. Chem. 58 2019 5221 5229 L. L. Zhang, X. M. Chen and C. G. Liu, Reduction of N2O by CO via Mars-van Krevelen corrected Mechanism over Phosphotungstic Acid Supported Single-Atom Catalysts: A Density Functional Theory Study. Inorg. Chem. (58) 20195221-5229. [71] C.G. Liu Y.J. Chu L.L. Zhang C. Sun J.Y. Shi Reduction of N2O by H2 Catalyzed by Keggin-Type Phosphotungstic Acid Supported Single-Atom Catalysts: An Insight from Density Functional Theory Calculations Environ. Sci. Technol. 53 2019 12893 12903 C. G. Liu, Y. J. Chu, L. L. Zhang, C. Sun and J. Y. Shi, Reduction of N2O by H2 Catalyzed by Keggin-Type Phosphotungstic Acid Supported Single-Atom Catalysts: An Insight from Density Functional Theory Calculations. Environ. Sci. Technol. (53) 201912893-12903. [72] P.J. Hay W.R. Wadt Ab initio effective core potentials for molecular calculations. Potentials for the transition metal atoms Sc to Hg J. Chem. Phys. 82 1985 270 283 P. J. Hay and W. R. Wadt, Ab initio effective core potentials for molecular calculations. Potentials for the transition metal atoms Sc to Hg. J. Chem. Phys. (82) 1985270-283. [73] P.J. Hay W.R. Wadt Ab initio effective core potentials for molecular calculations. Potentials for K to Au including the outermost core orbitals J. Chem. Phys. 82 1985 299 310 P. J. Hay and W. R. Wadt, Ab initio effective core potentials for molecular calculations. Potentials for K to Au including the outermost core orbitals. J. Chem. Phys. (82) 1985299-310. [74] W.R. Wadt P.J. Hay Ab initio effective core potentials for molecular calculations. Potentials for main group elements Na to Bi J. Chem. Phys. 82 1985 284 298 W. R. Wadt and P. J. Hay, Ab initio effective core potentials for molecular calculations. Potentials for main group elements Na to Bi. J. Chem. Phys. (82) 1985284-298. [75] A. E. Glendening, J. E. Carpenter and F. Weinhold, NBO, Version 3.1.; University of Wisconsin, 2017. [76] V.W. Day W.G. Klemperer Metal Oxide Chemistry in Solution: The Early Transition Metal Polyoxoanions Science 228 1985 533 541 V. W. Day and W. G. Klemperer, Metal Oxide Chemistry in Solution: The Early Transition Metal Polyoxoanions. Science. (228) 1985533-541. [77] S. Varnum D.J. Singh S.H. Wang Cluster Fragmentation and Orbital Analysis: A Theoretical Study of Cohesive Interactions and Electronic Properties of Polyoxometalates with the Keggin Structure Chem. Mater. 6 1994 146 155 S. Varnum, D. J. Singh and S. H. Wang, Cluster Fragmentation and Orbital Analysis: A Theoretical Study of Cohesive Interactions and Electronic Properties of Polyoxometalates with the Keggin Structure. Chem. Mater. (6) 1994146-155. [78] M. Che Nobel Prize in chemistry 1912 to Sabatier: Organic chemistry or catalysis? Catal. Today. 218-219 2013 162 171 M. Che, Nobel Prize in chemistry 1912 to Sabatier: Organic chemistry or catalysis?Catal. Today. (218-219) 2013162-171. [79] J.M. Maestre X. Lopez C. Bo J.M. Poblet N. Casañ-Pastor Electronic and magnetic properties of α-Keggin anions: a DFT study of [XM12O40]n−, (M = W, Mo; X = A1III, SiIV, PV, FeIII, CoII, CoIII) and [SiM11VO40]m− (M = Mo and W) J. Am. Chem. Soc. 123 2001 3749 J. M. Maestre, X. Lopez, C. Bo, J. M. Poblet and N. Casañ-Pastor, Electronic and magnetic properties of α-Keggin anions: a DFT study of [XM12O40]n−, (M = W, Mo; X = A1III, SiIV, PV, FeIII, CoII, CoIII) and [SiM11VO40]m− (M = Mo and W). J. Am. Chem. Soc. (123) 20013749.",
+      "scopus-id": "85111185260",
+      "coredata": {
+        "eid": "1-s2.0-S2468823121003783",
+        "dc:description": "The low and insufficient anchored site on support structure is the bottleneck problem for development of single-atom catalysts (SACs). Owing to the discrete anionic structure, the surface structure of unimolecular polyoxometalates (POMs) in solid is more like the fragments of metal oxide and possesses the unique separate structure, which can be viewed as the separate small “island” and effectively prevent agglomeration of single metal atoms. In the present paper, the mechanism of CO oxidation by O2 was systematically studied over two POM-supported SACs, Rh1/PTA and Rh1/PMA (PTA = [PW12O40]3− and PMA = [PMo12O40]3−) by means of density functional theory (DFT) calculations. The results indicated that this process involves consecutive oxidation of three CO molecules over Rh1/PTA and Rh1/PMA SACs via a Rh-assisted Mar-van Krevelen (MvK) mechanism. The first CO molecule was oxidized by a bridged O atom of POM support to form CO2 molecule and an oxygen vacancy. The surface oxygen vacancy was refilled by O2 molecule, and the second CO molecule was oxidized by a corner O atom of the POM support to form CO2 molecule and a new oxygen vacancy. Finally, the forming surface oxygen vacancy was replenished by the O2 molecule to form the key Mo-O-O-Mo unit, which can easily oxidize the third CO to form the CO2 molecule. Compared with the reported MvK mechanism, the significant difference arises from oxidation of the second CO molecule, in which the second CO molecule was oxidized by the corner O atom of the POM support rather than adsorbed O2 molecule. This is mainly due to a low reactivity for the adsorbed O2 molecule, which comes from a bonding interaction between the adsorbed O2 molecule and the single Rh atom. The atomic charge analysis show that the single Rh atom stabilized on the POM supports promotes the whole catalytic cycle via the change of oxidation state among III, II, and I. All these results show that the presence of single Rh atom on the unimolecular PTA and PMA supports is a key factor for determination of new reaction pathway and high reactivity. We hope our computation results can provide new physical insights to design SACs for CO oxidation by using unimolecular POM cluster. The reaction mechanism of CO oxidation by O2 was systematically studied over two polyoxometalate-supported single-atom catalysts by means of density functional theory calculations.",
+        "openArchiveArticle": "false",
+        "prism:coverDate": "2021-08-31",
+        "openaccessUserLicense": null,
+        "prism:aggregationType": "Journal",
+        "prism:url": "https://api.elsevier.com/content/article/pii/S2468823121003783",
+        "dc:creator": [
+          {
+            "@_fa": "true",
+            "$": "Lin, Chun-Hong"
+          },
+          {
+            "@_fa": "true",
+            "$": "Sun, Zi-Yi"
+          },
+          {
+            "@_fa": "true",
+            "$": "Liu, Chun-Guang"
+          }
+        ],
+        "link": [
+          {
+            "@_fa": "true",
+            "@rel": "self",
+            "@href": "https://api.elsevier.com/content/article/pii/S2468823121003783"
+          },
+          {
+            "@_fa": "true",
+            "@rel": "scidir",
+            "@href": "https://www.sciencedirect.com/science/article/pii/S2468823121003783"
+          }
+        ],
+        "dc:format": "application/json",
+        "openaccessType": null,
+        "pii": "S2468-8231(21)00378-3",
+        "prism:volume": "512",
+        "articleNumber": "111761",
+        "prism:publisher": "Elsevier B.V.",
+        "dc:title": "Mars–van Krevelen mechanism for CO oxidation on the polyoxometalates-supported Rh single-atom catalysts: An insight from density functional theory calculations",
+        "prism:copyright": "© 2021 Elsevier B.V. All rights reserved.",
+        "openaccess": "0",
+        "prism:issn": "24688231",
+        "dcterms:subject": [
+          {
+            "@_fa": "true",
+            "$": "Single–atom catalysts"
+          },
+          {
+            "@_fa": "true",
+            "$": "Polyoxometalates"
+          },
+          {
+            "@_fa": "true",
+            "$": "CO oxidation"
+          },
+          {
+            "@_fa": "true",
+            "$": "Mar-van Krevelen mechanism"
+          },
+          {
+            "@_fa": "true",
+            "$": "Density functional theory"
+          }
+        ],
+        "openaccessArticle": "false",
+        "prism:publicationName": "Molecular Catalysis",
+        "openaccessSponsorType": null,
+        "prism:pageRange": "111761",
+        "pubType": "fla",
+        "prism:coverDisplayDate": "August 2021",
+        "prism:doi": "10.1016/j.mcat.2021.111761",
+        "prism:startingPage": "111761",
+        "dc:identifier": "doi:10.1016/j.mcat.2021.111761",
+        "openaccessSponsorName": null
+      },
+      "objects": {
+        "object": [
+          {
+            "@category": "standard",
+            "@height": "310",
+            "@width": "565",
+            "@_fa": "true",
+            "$": "https://api.elsevier.com/content/object/eid/1-s2.0-S2468823121003783-gr8.jpg?httpAccept=%2A%2F%2A",
+            "@multimediatype": "JPEG image file",
+            "@type": "IMAGE-DOWNSAMPLED",
+            "@size": "44247",
+            "@ref": "gr8",
+            "@mimetype": "image/jpeg"
+          },
+          {
+            "@category": "standard",
+            "@height": "544",
+            "@width": "565",
+            "@_fa": "true",
+            "$": "https://api.elsevier.com/content/object/eid/1-s2.0-S2468823121003783-gr9.jpg?httpAccept=%2A%2F%2A",
+            "@multimediatype": "JPEG image file",
+            "@type": "IMAGE-DOWNSAMPLED",
+            "@size": "59449",
+            "@ref": "gr9",
+            "@mimetype": "image/jpeg"
+          },
+          {
+            "@category": "standard",
+            "@height": "414",
+            "@width": "565",
+            "@_fa": "true",
+            "$": "https://api.elsevier.com/content/object/eid/1-s2.0-S2468823121003783-gr10.jpg?httpAccept=%2A%2F%2A",
+            "@multimediatype": "JPEG image file",
+            "@type": "IMAGE-DOWNSAMPLED",
+            "@size": "73588",
+            "@ref": "gr10",
+            "@mimetype": "image/jpeg"
+          },
+          {
+            "@category": "standard",
+            "@height": "200",
+            "@width": "214",
+            "@_fa": "true",
+            "$": "https://api.elsevier.com/content/object/eid/1-s2.0-S2468823121003783-ga1.jpg?httpAccept=%2A%2F%2A",
+            "@multimediatype": "JPEG image file",
+            "@type": "IMAGE-DOWNSAMPLED",
+            "@size": "17077",
+            "@ref": "ga1",
+            "@mimetype": "image/jpeg"
+          },
+          {
+            "@category": "standard",
+            "@height": "323",
+            "@width": "386",
+            "@_fa": "true",
+            "$": "https://api.elsevier.com/content/object/eid/1-s2.0-S2468823121003783-sc1.jpg?httpAccept=%2A%2F%2A",
+            "@multimediatype": "JPEG image file",
+            "@type": "IMAGE-DOWNSAMPLED",
+            "@size": "40790",
+            "@ref": "sc1",
+            "@mimetype": "image/jpeg"
+          },
+          {
+            "@category": "standard",
+            "@height": "329",
+            "@width": "386",
+            "@_fa": "true",
+            "$": "https://api.elsevier.com/content/object/eid/1-s2.0-S2468823121003783-sc2.jpg?httpAccept=%2A%2F%2A",
+            "@multimediatype": "JPEG image file",
+            "@type": "IMAGE-DOWNSAMPLED",
+            "@size": "37929",
+            "@ref": "sc2",
+            "@mimetype": "image/jpeg"
+          },
+          {
+            "@category": "standard",
+            "@height": "354",
+            "@width": "565",
+            "@_fa": "true",
+            "$": "https://api.elsevier.com/content/object/eid/1-s2.0-S2468823121003783-gr1.jpg?httpAccept=%2A%2F%2A",
+            "@multimediatype": "JPEG image file",
+            "@type": "IMAGE-DOWNSAMPLED",
+            "@size": "76331",
+            "@ref": "gr1",
+            "@mimetype": "image/jpeg"
+          },
+          {
+            "@category": "standard",
+            "@height": "320",
+            "@width": "565",
+            "@_fa": "true",
+            "$": "https://api.elsevier.com/content/object/eid/1-s2.0-S2468823121003783-gr2.jpg?httpAccept=%2A%2F%2A",
+            "@multimediatype": "JPEG image file",
+            "@type": "IMAGE-DOWNSAMPLED",
+            "@size": "87702",
+            "@ref": "gr2",
+            "@mimetype": "image/jpeg"
+          },
+          {
+            "@category": "standard",
+            "@height": "1007",
+            "@width": "565",
+            "@_fa": "true",
+            "$": "https://api.elsevier.com/content/object/eid/1-s2.0-S2468823121003783-gr3.jpg?httpAccept=%2A%2F%2A",
+            "@multimediatype": "JPEG image file",
+            "@type": "IMAGE-DOWNSAMPLED",
+            "@size": "232379",
+            "@ref": "gr3",
+            "@mimetype": "image/jpeg"
+          },
+          {
+            "@category": "standard",
+            "@height": "330",
+            "@width": "565",
+            "@_fa": "true",
+            "$": "https://api.elsevier.com/content/object/eid/1-s2.0-S2468823121003783-gr4.jpg?httpAccept=%2A%2F%2A",
+            "@multimediatype": "JPEG image file",
+            "@type": "IMAGE-DOWNSAMPLED",
+            "@size": "93234",
+            "@ref": "gr4",
+            "@mimetype": "image/jpeg"
+          },
+          {
+            "@category": "standard",
+            "@height": "595",
+            "@width": "565",
+            "@_fa": "true",
+            "$": "https://api.elsevier.com/content/object/eid/1-s2.0-S2468823121003783-gr5.jpg?httpAccept=%2A%2F%2A",
+            "@multimediatype": "JPEG image file",
+            "@type": "IMAGE-DOWNSAMPLED",
+            "@size": "168870",
+            "@ref": "gr5",
+            "@mimetype": "image/jpeg"
+          },
+          {
+            "@category": "standard",
+            "@height": "694",
+            "@width": "565",
+            "@_fa": "true",
+            "$": "https://api.elsevier.com/content/object/eid/1-s2.0-S2468823121003783-gr6.jpg?httpAccept=%2A%2F%2A",
+            "@multimediatype": "JPEG image file",
+            "@type": "IMAGE-DOWNSAMPLED",
+            "@size": "175241",
+            "@ref": "gr6",
+            "@mimetype": "image/jpeg"
+          },
+          {
+            "@category": "standard",
+            "@height": "504",
+            "@width": "565",
+            "@_fa": "true",
+            "$": "https://api.elsevier.com/content/object/eid/1-s2.0-S2468823121003783-gr7.jpg?httpAccept=%2A%2F%2A",
+            "@multimediatype": "JPEG image file",
+            "@type": "IMAGE-DOWNSAMPLED",
+            "@size": "111416",
+            "@ref": "gr7",
+            "@mimetype": "image/jpeg"
+          },
+          {
+            "@category": "thumbnail",
+            "@height": "120",
+            "@width": "219",
+            "@_fa": "true",
+            "$": "https://api.elsevier.com/content/object/eid/1-s2.0-S2468823121003783-gr8.sml?httpAccept=%2A%2F%2A",
+            "@multimediatype": "GIF image file",
+            "@type": "IMAGE-THUMBNAIL",
+            "@size": "9770",
+            "@ref": "gr8",
+            "@mimetype": "image/gif"
+          },
+          {
+            "@category": "thumbnail",
+            "@height": "164",
+            "@width": "170",
+            "@_fa": "true",
+            "$": "https://api.elsevier.com/content/object/eid/1-s2.0-S2468823121003783-gr9.sml?httpAccept=%2A%2F%2A",
+            "@multimediatype": "GIF image file",
+            "@type": "IMAGE-THUMBNAIL",
+            "@size": "7311",
+            "@ref": "gr9",
+            "@mimetype": "image/gif"
+          },
+          {
+            "@category": "thumbnail",
+            "@height": "161",
+            "@width": "219",
+            "@_fa": "true",
+            "$": "https://api.elsevier.com/content/object/eid/1-s2.0-S2468823121003783-gr10.sml?httpAccept=%2A%2F%2A",
+            "@multimediatype": "GIF image file",
+            "@type": "IMAGE-THUMBNAIL",
+            "@size": "13465",
+            "@ref": "gr10",
+            "@mimetype": "image/gif"
+          },
+          {
+            "@category": "thumbnail",
+            "@height": "163",
+            "@width": "175",
+            "@_fa": "true",
+            "$": "https://api.elsevier.com/content/object/eid/1-s2.0-S2468823121003783-ga1.sml?httpAccept=%2A%2F%2A",
+            "@multimediatype": "GIF image file",
+            "@type": "IMAGE-THUMBNAIL",
+            "@size": "9613",
+            "@ref": "ga1",
+            "@mimetype": "image/gif"
+          },
+          {
+            "@category": "thumbnail",
+            "@height": "164",
+            "@width": "196",
+            "@_fa": "true",
+            "$": "https://api.elsevier.com/content/object/eid/1-s2.0-S2468823121003783-sc1.sml?httpAccept=%2A%2F%2A",
+            "@multimediatype": "GIF image file",
+            "@type": "IMAGE-THUMBNAIL",
+            "@size": "9800",
+            "@ref": "sc1",
+            "@mimetype": "image/gif"
+          },
+          {
+            "@category": "thumbnail",
+            "@height": "164",
+            "@width": "192",
+            "@_fa": "true",
+            "$": "https://api.elsevier.com/content/object/eid/1-s2.0-S2468823121003783-sc2.sml?httpAccept=%2A%2F%2A",
+            "@multimediatype": "GIF image file",
+            "@type": "IMAGE-THUMBNAIL",
+            "@size": "9113",
+            "@ref": "sc2",
+            "@mimetype": "image/gif"
+          },
+          {
+            "@category": "thumbnail",
+            "@height": "137",
+            "@width": "219",
+            "@_fa": "true",
+            "$": "https://api.elsevier.com/content/object/eid/1-s2.0-S2468823121003783-gr1.sml?httpAccept=%2A%2F%2A",
+            "@multimediatype": "GIF image file",
+            "@type": "IMAGE-THUMBNAIL",
+            "@size": "13242",
+            "@ref": "gr1",
+            "@mimetype": "image/gif"
+          },
+          {
+            "@category": "thumbnail",
+            "@height": "124",
+            "@width": "219",
+            "@_fa": "true",
+            "$": "https://api.elsevier.com/content/object/eid/1-s2.0-S2468823121003783-gr2.sml?httpAccept=%2A%2F%2A",
+            "@multimediatype": "GIF image file",
+            "@type": "IMAGE-THUMBNAIL",
+            "@size": "22269",
+            "@ref": "gr2",
+            "@mimetype": "image/gif"
+          },
+          {
+            "@category": "thumbnail",
+            "@height": "164",
+            "@width": "92",
+            "@_fa": "true",
+            "$": "https://api.elsevier.com/content/object/eid/1-s2.0-S2468823121003783-gr3.sml?httpAccept=%2A%2F%2A",
+            "@multimediatype": "GIF image file",
+            "@type": "IMAGE-THUMBNAIL",
+            "@size": "10990",
+            "@ref": "gr3",
+            "@mimetype": "image/gif"
+          },
+          {
+            "@category": "thumbnail",
+            "@height": "128",
+            "@width": "219",
+            "@_fa": "true",
+            "$": "https://api.elsevier.com/content/object/eid/1-s2.0-S2468823121003783-gr4.sml?httpAccept=%2A%2F%2A",
+            "@multimediatype": "GIF image file",
+            "@type": "IMAGE-THUMBNAIL",
+            "@size": "16030",
+            "@ref": "gr4",
+            "@mimetype": "image/gif"
+          },
+          {
+            "@category": "thumbnail",
+            "@height": "163",
+            "@width": "155",
+            "@_fa": "true",
+            "$": "https://api.elsevier.com/content/object/eid/1-s2.0-S2468823121003783-gr5.sml?httpAccept=%2A%2F%2A",
+            "@multimediatype": "GIF image file",
+            "@type": "IMAGE-THUMBNAIL",
+            "@size": "16806",
+            "@ref": "gr5",
+            "@mimetype": "image/gif"
+          },
+          {
+            "@category": "thumbnail",
+            "@height": "163",
+            "@width": "133",
+            "@_fa": "true",
+            "$": "https://api.elsevier.com/content/object/eid/1-s2.0-S2468823121003783-gr6.sml?httpAccept=%2A%2F%2A",
+            "@multimediatype": "GIF image file",
+            "@type": "IMAGE-THUMBNAIL",
+            "@size": "14164",
+            "@ref": "gr6",
+            "@mimetype": "image/gif"
+          },
+          {
+            "@category": "thumbnail",
+            "@height": "164",
+            "@width": "184",
+            "@_fa": "true",
+            "$": "https://api.elsevier.com/content/object/eid/1-s2.0-S2468823121003783-gr7.sml?httpAccept=%2A%2F%2A",
+            "@multimediatype": "GIF image file",
+            "@type": "IMAGE-THUMBNAIL",
+            "@size": "15434",
+            "@ref": "gr7",
+            "@mimetype": "image/gif"
+          },
+          {
+            "@category": "high",
+            "@height": "1372",
+            "@width": "2500",
+            "@_fa": "true",
+            "$": "https://api.elsevier.com/content/object/eid/1-s2.0-S2468823121003783-gr8_lrg.jpg?httpAccept=%2A%2F%2A",
+            "@multimediatype": "JPEG image file",
+            "@type": "IMAGE-HIGH-RES",
+            "@size": "328567",
+            "@ref": "gr8",
+            "@mimetype": "image/jpeg"
+          },
+          {
+            "@category": "high",
+            "@height": "2407",
+            "@width": "2500",
+            "@_fa": "true",
+            "$": "https://api.elsevier.com/content/object/eid/1-s2.0-S2468823121003783-gr9_lrg.jpg?httpAccept=%2A%2F%2A",
+            "@multimediatype": "JPEG image file",
+            "@type": "IMAGE-HIGH-RES",
+            "@size": "418737",
+            "@ref": "gr9",
+            "@mimetype": "image/jpeg"
+          },
+          {
+            "@category": "high",
+            "@height": "1834",
+            "@width": "2500",
+            "@_fa": "true",
+            "$": "https://api.elsevier.com/content/object/eid/1-s2.0-S2468823121003783-gr10_lrg.jpg?httpAccept=%2A%2F%2A",
+            "@multimediatype": "JPEG image file",
+            "@type": "IMAGE-HIGH-RES",
+            "@size": "505712",
+            "@ref": "gr10",
+            "@mimetype": "image/jpeg"
+          },
+          {
+            "@category": "high",
+            "@height": "886",
+            "@width": "949",
+            "@_fa": "true",
+            "$": "https://api.elsevier.com/content/object/eid/1-s2.0-S2468823121003783-ga1_lrg.jpg?httpAccept=%2A%2F%2A",
+            "@multimediatype": "JPEG image file",
+            "@type": "IMAGE-HIGH-RES",
+            "@size": "102179",
+            "@ref": "ga1",
+            "@mimetype": "image/jpeg"
+          },
+          {
+            "@category": "high",
+            "@height": "1431",
+            "@width": "1708",
+            "@_fa": "true",
+            "$": "https://api.elsevier.com/content/object/eid/1-s2.0-S2468823121003783-sc1_lrg.jpg?httpAccept=%2A%2F%2A",
+            "@multimediatype": "JPEG image file",
+            "@type": "IMAGE-HIGH-RES",
+            "@size": "283426",
+            "@ref": "sc1",
+            "@mimetype": "image/jpeg"
+          },
+          {
+            "@category": "high",
+            "@height": "1456",
+            "@width": "1708",
+            "@_fa": "true",
+            "$": "https://api.elsevier.com/content/object/eid/1-s2.0-S2468823121003783-sc2_lrg.jpg?httpAccept=%2A%2F%2A",
+            "@multimediatype": "JPEG image file",
+            "@type": "IMAGE-HIGH-RES",
+            "@size": "257524",
+            "@ref": "sc2",
+            "@mimetype": "image/jpeg"
+          },
+          {
+            "@category": "high",
+            "@height": "1567",
+            "@width": "2500",
+            "@_fa": "true",
+            "$": "https://api.elsevier.com/content/object/eid/1-s2.0-S2468823121003783-gr1_lrg.jpg?httpAccept=%2A%2F%2A",
+            "@multimediatype": "JPEG image file",
+            "@type": "IMAGE-HIGH-RES",
+            "@size": "575198",
+            "@ref": "gr1",
+            "@mimetype": "image/jpeg"
+          },
+          {
+            "@category": "high",
+            "@height": "1417",
+            "@width": "2500",
+            "@_fa": "true",
+            "$": "https://api.elsevier.com/content/object/eid/1-s2.0-S2468823121003783-gr2_lrg.jpg?httpAccept=%2A%2F%2A",
+            "@multimediatype": "JPEG image file",
+            "@type": "IMAGE-HIGH-RES",
+            "@size": "684201",
+            "@ref": "gr2",
+            "@mimetype": "image/jpeg"
+          },
+          {
+            "@category": "high",
+            "@height": "4455",
+            "@width": "2500",
+            "@_fa": "true",
+            "$": "https://api.elsevier.com/content/object/eid/1-s2.0-S2468823121003783-gr3_lrg.jpg?httpAccept=%2A%2F%2A",
+            "@multimediatype": "JPEG image file",
+            "@type": "IMAGE-HIGH-RES",
+            "@size": "1801431",
+            "@ref": "gr3",
+            "@mimetype": "image/jpeg"
+          },
+          {
+            "@category": "high",
+            "@height": "1458",
+            "@width": "2500",
+            "@_fa": "true",
+            "$": "https://api.elsevier.com/content/object/eid/1-s2.0-S2468823121003783-gr4_lrg.jpg?httpAccept=%2A%2F%2A",
+            "@multimediatype": "JPEG image file",
+            "@type": "IMAGE-HIGH-RES",
+            "@size": "721340",
+            "@ref": "gr4",
+            "@mimetype": "image/jpeg"
+          },
+          {
+            "@category": "high",
+            "@height": "2633",
+            "@width": "2500",
+            "@_fa": "true",
+            "$": "https://api.elsevier.com/content/object/eid/1-s2.0-S2468823121003783-gr5_lrg.jpg?httpAccept=%2A%2F%2A",
+            "@multimediatype": "JPEG image file",
+            "@type": "IMAGE-HIGH-RES",
+            "@size": "1364285",
+            "@ref": "gr5",
+            "@mimetype": "image/jpeg"
+          },
+          {
+            "@category": "high",
+            "@height": "3072",
+            "@width": "2500",
+            "@_fa": "true",
+            "$": "https://api.elsevier.com/content/object/eid/1-s2.0-S2468823121003783-gr6_lrg.jpg?httpAccept=%2A%2F%2A",
+            "@multimediatype": "JPEG image file",
+            "@type": "IMAGE-HIGH-RES",
+            "@size": "1432311",
+            "@ref": "gr6",
+            "@mimetype": "image/jpeg"
+          },
+          {
+            "@category": "high",
+            "@height": "2231",
+            "@width": "2500",
+            "@_fa": "true",
+            "$": "https://api.elsevier.com/content/object/eid/1-s2.0-S2468823121003783-gr7_lrg.jpg?httpAccept=%2A%2F%2A",
+            "@multimediatype": "JPEG image file",
+            "@type": "IMAGE-HIGH-RES",
+            "@size": "923508",
+            "@ref": "gr7",
+            "@mimetype": "image/jpeg"
+          },
+          {
+            "@category": "standard",
+            "@_fa": "true",
+            "$": "https://api.elsevier.com/content/object/eid/1-s2.0-S2468823121003783-mmc1.docx?httpAccept=%2A%2F%2A",
+            "@multimediatype": "Microsoft Word file",
+            "@type": "APPLICATION",
+            "@size": "74922",
+            "@ref": "mmc1",
+            "@mimetype": "application/word"
+          },
+          {
+            "@category": "standard",
+            "@_fa": "true",
+            "$": "https://api.elsevier.com/content/object/eid/1-s2.0-S2468823121003783-am.pdf?httpAccept=%2A%2F%2A",
+            "@multimediatype": "Acrobat PDF file",
+            "@type": "AAM-PDF",
+            "@size": "14495629",
+            "@ref": "am",
+            "@mimetype": "application/pdf"
+          }
+        ]
+      },
+      "link": {
+        "@rel": "abstract",
+        "@href": "https://api.elsevier.com/content/abstract/scopus_id/85111185260"
+      }
+    }
+  }
+}

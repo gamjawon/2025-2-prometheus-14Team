@@ -1,0 +1,544 @@
+{
+  "metadata": {
+    "title": "Theoretical study on borophene as metal-free catalyst for selective conversion of NO",
+    "authors": "; ; ",
+    "journal": "Molecular Catalysis",
+    "date": "2024-12-31",
+    "doi": "10.1016/j.mcat.2024.114556",
+    "abstract": "",
+    "uri": "https://api.elsevier.com/content/article/pii/S2468823124007387",
+    "pii": "S2468823124007387"
+  },
+  "fulltext": {
+    "full-text-retrieval-response": {
+      "scopus-eid": "2-s2.0-85204456828",
+      "originalText": "serial JL 315758 291210 291744 291790 291809 31 Molecular Catalysis MOLECULARCATALYSIS 2024-09-21 2024-09-21 2024-09-21 2024-09-21 2024-11-15T16:17:10 1-s2.0-S2468823124007387 S2468-8231(24)00738-7 S2468823124007387 10.1016/j.mcat.2024.114556 S300 S300.1 FULL-TEXT 1-s2.0-S2468823124X00152 2024-11-15T17:47:59.080663Z 0 0 20241201 20241231 2024 2024-09-22T00:40:25.995109Z absattachment articleinfo articlenumber articletitlenorm authfirstinitialnorm authfirstsurnamenorm cid cids contenttype copyright crossmark dateloaded dateloadedtxt datesearch datesort dateupdated dco docsubtype doctype doi eid ewtransactionid hubeid indexeddate issn issnnorm itemstage itemtransactionid itemweight openaccess openarchive pg pgfirst pii piinorm pubdateend pubdatestart pubdatetxt pubyr sectiontitle sortorder srctitle srctitlenorm srctype ssids alllist content subj subheadings suppl tomb volfirst volissue volumelist webpdf webpdfpagecount yearnav figure e-component body mmlmath acknowledge affil appendices articletitle auth authfirstini authfull authkeywords authlast highlightsabst primabst ref specialabst 2468-8231 24688231 true 569 569 C Volume 569 33 114556 114556 114556 202412 December 2024 2024-12-01 2024-12-31 2024 Regular Papers article fla © 2024 Elsevier B.V. All rights are reserved, including those for text and data mining, AI training, and similar technologies. THEORETICALSTUDYBOROPHENEMETALFREECATALYSTFORSELECTIVECONVERSIONNO LIU P 1 Introduction 2 Calculation method 3 Result and discussion 3.1 The stability of 2-Pmmn borophene 3.2 The adsorption of NO on borophene 3.3 Electroreduction mechanism of NO on borophene 3.4 The adsorption of N2O2 on borophene 3.5 Mechanism of direct N-N coupling conversion of NO to N2 4 Conclusion Acknowledgements Appendix Supplementary materials References TSUNGYU 2016 261 289 L MA 2019 226 238 S RAGHUNATH 2017 537 547 C GAO 2017 199 F SKALSKA 2010 3976 3989 K XU 2008 1453 1457 W ZHAO 2023 8533 8541 R LIU 2023 26185 26195 T LONG 2020 9711 9718 J WU 2021 5434 5441 Q KIM 2021 1856 D TURSUN 2021 19872 19883 M LIANG 2022 1366 1372 J FARBEROW 2014 3307 3319 C CHOI 2020 2095 2097 J KATSOUNAROS 2017 4660 4667 I SHI 2023 156744 P LIU 2021 7191 7199 S NIU 2021 2102396 H SAEIDI 2021 148869 N CHEN 2023 157887 W CHEN 2023 122241 K CHEN 2023 7409 7414 K ZHANG 2023 8772 8777 G FRANCE 2020 118822 L WANG 2022 137374 J SUN 2024 129938 Y XU 2023 8882 8892 Q JI 2023 1230 1239 Y ZHOU 2023 129262 J HAN 2021 150515 Y LI 2018 1804650 G MOLLE 2018 6370 6387 A LIU 2015 4936 4942 G HU 2018 137302 X ZHANG 2015 3112 3115 S JI 2016 13352 J MANNIX 2015 1513 1516 A FENG 2016 564 569 B SHI 2017 533 537 L SINGH 2018 21095 21104 Y MIR 2016 053903 S TAI 2013 2942 2946 T HUANG 2018 14665 14670 C BLOCHL 1994 17953 17979 P PERDEW 1996 3865 3868 J PERDEW 1996 16533 16539 J GRIMME 2010 154104 S ANDERSEN 1980 2384 2393 H MOUSTAFA 2018 124109 S PETERSON 2010 1311 1315 A PENG 2016 3592 3598 B LIUX2024X114556 LIUX2024X114556XP 2026-09-21T00:00:00.000Z 2026-09-21T00:00:00.000Z http://creativecommons.org/licenses/by-nc-nd/4.0/ © 2024 Elsevier B.V. All rights are reserved, including those for text and data mining, AI training, and similar technologies. 2024-10-10T16:01:21.292Z http://vtw.elsevier.com/data/voc/AddOnTypes/50.7/aggregated-refined 2023042 118 2022042,108 http://sws.geonames.org/1814991 Natural Science Foundation of the Anhui Higher Education Institutions of China 2023AH051555 2022AH051591 http://sws.geonames.org/1814991 This work is supported by the Natural Science Foundation of the Anhui Higher Education Institutions of China (Grant No. 2022AH051591, No. 2023AH051555), the Guiding Science and Technology Plan Foundation of Huainan City (Grant No. 2022042,108, No. 118, 2023042). The authors gratefully acknowledge HZWTECH for providing computation facilities. https://doi.org/10.15223/policy-017 https://doi.org/10.15223/policy-037 https://doi.org/10.15223/policy-012 https://doi.org/10.15223/policy-029 https://doi.org/10.15223/policy-004 item S2468-8231(24)00738-7 S2468823124007387 1-s2.0-S2468823124007387 10.1016/j.mcat.2024.114556 315758 2024-11-15T17:47:59.080663Z 2024-12-01 2024-12-31 1-s2.0-S2468823124007387-main.pdf https://s3-eu-west-1.amazonaws.com/prod-ucs-content-store-eu-west/content/pii:S2468823124007387/MAIN/application/pdf/f873f78384a493780501b5b985771163/main.pdf main.pdf pdf true 11582648 MAIN 10 1-s2.0-S2468823124007387-main_1.png https://s3-eu-west-1.amazonaws.com/prod-ucs-content-store-eu-west/content/pii:S2468823124007387/PREVIEW/image/png/2e1bd73459c20d44e6bda015edb5c856/main_1.png main_1.png png 58570 849 656 IMAGE-WEB-PDF 1 1-s2.0-S2468823124007387-gr9.jpg https://s3-eu-west-1.amazonaws.com/prod-ucs-content-store-eu-west/content/pii:S2468823124007387/gr9/DOWNSAMPLED/image/jpeg/08a4154e582e0737e02d573be75e9954/gr9.jpg gr9 gr9.jpg jpg 80668 582 508 IMAGE-DOWNSAMPLED 1-s2.0-S2468823124007387-gr7.jpg https://s3-eu-west-1.amazonaws.com/prod-ucs-content-store-eu-west/content/pii:S2468823124007387/gr7/DOWNSAMPLED/image/jpeg/dd401dc0fc700b70039fed9b1b7d0859/gr7.jpg gr7 gr7.jpg jpg 95509 494 565 IMAGE-DOWNSAMPLED 1-s2.0-S2468823124007387-gr8.jpg https://s3-eu-west-1.amazonaws.com/prod-ucs-content-store-eu-west/content/pii:S2468823124007387/gr8/DOWNSAMPLED/image/jpeg/c2cfa970e15b4c30c7471c5fbd80372e/gr8.jpg gr8 gr8.jpg jpg 101317 396 678 IMAGE-DOWNSAMPLED 1-s2.0-S2468823124007387-gr5.jpg https://s3-eu-west-1.amazonaws.com/prod-ucs-content-store-eu-west/content/pii:S2468823124007387/gr5/DOWNSAMPLED/image/jpeg/ed038b4281f243c82362b5ab6a586d7a/gr5.jpg gr5 gr5.jpg jpg 50888 291 508 IMAGE-DOWNSAMPLED 1-s2.0-S2468823124007387-gr6.jpg https://s3-eu-west-1.amazonaws.com/prod-ucs-content-store-eu-west/content/pii:S2468823124007387/gr6/DOWNSAMPLED/image/jpeg/206f6ed5297d6f833c87a014d48cba5f/gr6.jpg gr6 gr6.jpg jpg 98675 393 678 IMAGE-DOWNSAMPLED 1-s2.0-S2468823124007387-gr3.jpg https://s3-eu-west-1.amazonaws.com/prod-ucs-content-store-eu-west/content/pii:S2468823124007387/gr3/DOWNSAMPLED/image/jpeg/5d2fff1edd4596653e35e5e4ca65f021/gr3.jpg gr3 gr3.jpg jpg 94373 386 678 IMAGE-DOWNSAMPLED 1-s2.0-S2468823124007387-gr4.jpg https://s3-eu-west-1.amazonaws.com/prod-ucs-content-store-eu-west/content/pii:S2468823124007387/gr4/DOWNSAMPLED/image/jpeg/477c42c15e9a165229e482e18e68aac5/gr4.jpg gr4 gr4.jpg jpg 112520 536 678 IMAGE-DOWNSAMPLED 1-s2.0-S2468823124007387-gr1.jpg https://s3-eu-west-1.amazonaws.com/prod-ucs-content-store-eu-west/content/pii:S2468823124007387/gr1/DOWNSAMPLED/image/jpeg/de0111eb80170f35a058952a760d9aa4/gr1.jpg gr1 gr1.jpg jpg 46798 247 376 IMAGE-DOWNSAMPLED 1-s2.0-S2468823124007387-gr2.jpg https://s3-eu-west-1.amazonaws.com/prod-ucs-content-store-eu-west/content/pii:S2468823124007387/gr2/DOWNSAMPLED/image/jpeg/da0922f98d2c9f1b06a6fb7c73f70ce0/gr2.jpg gr2 gr2.jpg jpg 96082 398 678 IMAGE-DOWNSAMPLED 1-s2.0-S2468823124007387-ga1.jpg https://s3-eu-west-1.amazonaws.com/prod-ucs-content-store-eu-west/content/pii:S2468823124007387/ga1/DOWNSAMPLED/image/jpeg/eecb4ef0564bcace56bfdfbe3f0e25e7/ga1.jpg ga1 true ga1.jpg jpg 32017 200 354 IMAGE-DOWNSAMPLED 1-s2.0-S2468823124007387-gr9.sml https://s3-eu-west-1.amazonaws.com/prod-ucs-content-store-eu-west/content/pii:S2468823124007387/gr9/THUMBNAIL/image/gif/6a59ea1085d0fe9637767a28d3f11cf2/gr9.sml gr9 gr9.sml sml 11592 164 143 IMAGE-THUMBNAIL 1-s2.0-S2468823124007387-gr7.sml https://s3-eu-west-1.amazonaws.com/prod-ucs-content-store-eu-west/content/pii:S2468823124007387/gr7/THUMBNAIL/image/gif/e66049ee7c21bb6560f05ae6b33365c1/gr7.sml gr7 gr7.sml sml 18676 164 188 IMAGE-THUMBNAIL 1-s2.0-S2468823124007387-gr8.sml https://s3-eu-west-1.amazonaws.com/prod-ucs-content-store-eu-west/content/pii:S2468823124007387/gr8/THUMBNAIL/image/gif/8e45272e2f432622c242031001f1e01e/gr8.sml gr8 gr8.sml sml 17565 128 219 IMAGE-THUMBNAIL 1-s2.0-S2468823124007387-gr5.sml https://s3-eu-west-1.amazonaws.com/prod-ucs-content-store-eu-west/content/pii:S2468823124007387/gr5/THUMBNAIL/image/gif/77fda9c4f2a22ac3279dc30c0c88372f/gr5.sml gr5 gr5.sml sml 11618 126 219 IMAGE-THUMBNAIL 1-s2.0-S2468823124007387-gr6.sml https://s3-eu-west-1.amazonaws.com/prod-ucs-content-store-eu-west/content/pii:S2468823124007387/gr6/THUMBNAIL/image/gif/d8560de2b892f4e33e02b1756a9dbd37/gr6.sml gr6 gr6.sml sml 17411 127 219 IMAGE-THUMBNAIL 1-s2.0-S2468823124007387-gr3.sml https://s3-eu-west-1.amazonaws.com/prod-ucs-content-store-eu-west/content/pii:S2468823124007387/gr3/THUMBNAIL/image/gif/2a862dbdb53a895a376f9d532810ed82/gr3.sml gr3 gr3.sml sml 16844 125 219 IMAGE-THUMBNAIL 1-s2.0-S2468823124007387-gr4.sml https://s3-eu-west-1.amazonaws.com/prod-ucs-content-store-eu-west/content/pii:S2468823124007387/gr4/THUMBNAIL/image/gif/1bd0d996ed12e49c67189b57b1685044/gr4.sml gr4 gr4.sml sml 16622 164 207 IMAGE-THUMBNAIL 1-s2.0-S2468823124007387-gr1.sml https://s3-eu-west-1.amazonaws.com/prod-ucs-content-store-eu-west/content/pii:S2468823124007387/gr1/THUMBNAIL/image/gif/d5a285aca85b7a0b4c94c2d0d597fae3/gr1.sml gr1 gr1.sml sml 15319 144 219 IMAGE-THUMBNAIL 1-s2.0-S2468823124007387-gr2.sml https://s3-eu-west-1.amazonaws.com/prod-ucs-content-store-eu-west/content/pii:S2468823124007387/gr2/THUMBNAIL/image/gif/46779d69ff6ec5d2035c1737b98b1e76/gr2.sml gr2 gr2.sml sml 17213 128 219 IMAGE-THUMBNAIL 1-s2.0-S2468823124007387-ga1.sml https://s3-eu-west-1.amazonaws.com/prod-ucs-content-store-eu-west/content/pii:S2468823124007387/ga1/THUMBNAIL/image/gif/07c5e4081872ba38e8f46523a69f4d60/ga1.sml ga1 true ga1.sml sml 13768 124 219 IMAGE-THUMBNAIL 1-s2.0-S2468823124007387-gr9_lrg.jpg https://s3-eu-west-1.amazonaws.com/prod-ucs-content-store-eu-west/content/pii:S2468823124007387/HIGHRES/image/jpeg/7d6979d24a1eec966d2e55a5fba8210f/gr9_lrg.jpg gr9 gr9_lrg.jpg jpg 557974 2579 2250 IMAGE-HIGH-RES 1-s2.0-S2468823124007387-gr7_lrg.jpg https://s3-eu-west-1.amazonaws.com/prod-ucs-content-store-eu-west/content/pii:S2468823124007387/HIGHRES/image/jpeg/dd8ec94160daa818663cfb55bf541296/gr7_lrg.jpg gr7 gr7_lrg.jpg jpg 647163 2184 2500 IMAGE-HIGH-RES 1-s2.0-S2468823124007387-gr8_lrg.jpg https://s3-eu-west-1.amazonaws.com/prod-ucs-content-store-eu-west/content/pii:S2468823124007387/HIGHRES/image/jpeg/bdf0d2f545ec5db26cd86b5faac1f31a/gr8_lrg.jpg gr8 gr8_lrg.jpg jpg 677865 1753 3000 IMAGE-HIGH-RES 1-s2.0-S2468823124007387-gr5_lrg.jpg https://s3-eu-west-1.amazonaws.com/prod-ucs-content-store-eu-west/content/pii:S2468823124007387/HIGHRES/image/jpeg/c596625df920dccd0bcadae48377e02c/gr5_lrg.jpg gr5 gr5_lrg.jpg jpg 336355 1291 2250 IMAGE-HIGH-RES 1-s2.0-S2468823124007387-gr6_lrg.jpg https://s3-eu-west-1.amazonaws.com/prod-ucs-content-store-eu-west/content/pii:S2468823124007387/HIGHRES/image/jpeg/594224923d89528e2a06edf899615d5d/gr6_lrg.jpg gr6 gr6_lrg.jpg jpg 659981 1741 3000 IMAGE-HIGH-RES 1-s2.0-S2468823124007387-gr3_lrg.jpg https://s3-eu-west-1.amazonaws.com/prod-ucs-content-store-eu-west/content/pii:S2468823124007387/HIGHRES/image/jpeg/d449452c3492ca8e4e3c687f73849d2a/gr3_lrg.jpg gr3 gr3_lrg.jpg jpg 635767 1709 3000 IMAGE-HIGH-RES 1-s2.0-S2468823124007387-gr4_lrg.jpg https://s3-eu-west-1.amazonaws.com/prod-ucs-content-store-eu-west/content/pii:S2468823124007387/HIGHRES/image/jpeg/afaa6598cca497b519257de7ad00dd4e/gr4_lrg.jpg gr4 gr4_lrg.jpg jpg 749198 2370 3000 IMAGE-HIGH-RES 1-s2.0-S2468823124007387-gr1_lrg.jpg https://s3-eu-west-1.amazonaws.com/prod-ucs-content-store-eu-west/content/pii:S2468823124007387/HIGHRES/image/jpeg/9bafd04b4ada19393c51cb0c4102ae00/gr1_lrg.jpg gr1 gr1_lrg.jpg jpg 288473 1094 1667 IMAGE-HIGH-RES 1-s2.0-S2468823124007387-gr2_lrg.jpg https://s3-eu-west-1.amazonaws.com/prod-ucs-content-store-eu-west/content/pii:S2468823124007387/HIGHRES/image/jpeg/ea4d1d47071877217e4e6a8307ba1a18/gr2_lrg.jpg gr2 gr2_lrg.jpg jpg 646311 1760 3000 IMAGE-HIGH-RES 1-s2.0-S2468823124007387-ga1_lrg.jpg https://s3-eu-west-1.amazonaws.com/prod-ucs-content-store-eu-west/content/pii:S2468823124007387/HIGHRES/image/jpeg/b2afa457c4f1c4aa2f43e14694670883/ga1_lrg.jpg ga1 true ga1_lrg.jpg jpg 192558 886 1568 IMAGE-HIGH-RES 1-s2.0-S2468823124007387-mmc1.docx https://s3-eu-west-1.amazonaws.com/prod-ucs-content-store-eu-west/content/pii:S2468823124007387/mmc1/MAIN/application/vnd.openxmlformats-officedocument.wordprocessingml.document/d74ab5376148e7d5f25c3ec880e32f7d/mmc1.docx mmc1 mmc1.docx docx 167933 APPLICATION 1-s2.0-S2468823124007387-si1.svg https://s3-eu-west-1.amazonaws.com/prod-ucs-content-store-eu-west/content/pii:S2468823124007387/image/svg+xml/28ce7a59d1671e2e5342b37c1a027f58/si1.svg si1 si1.svg svg 9954 ALTIMG 1-s2.0-S2468823124007387-si2.svg https://s3-eu-west-1.amazonaws.com/prod-ucs-content-store-eu-west/content/pii:S2468823124007387/image/svg+xml/8b875b53c6a20a1cef74ed5f4b7983f3/si2.svg si2 si2.svg svg 5444 ALTIMG 1-s2.0-S2468823124007387-si3.svg https://s3-eu-west-1.amazonaws.com/prod-ucs-content-store-eu-west/content/pii:S2468823124007387/image/svg+xml/45cf5f7dcbbfe586c1f4492127c7e4da/si3.svg si3 si3.svg svg 1159 ALTIMG 1-s2.0-S2468823124007387-si4.svg https://s3-eu-west-1.amazonaws.com/prod-ucs-content-store-eu-west/content/pii:S2468823124007387/image/svg+xml/78e2f6b98f756dc69efe40f5ec240c01/si4.svg si4 si4.svg svg 2431 ALTIMG 1-s2.0-S2468823124007387-si5.svg https://s3-eu-west-1.amazonaws.com/prod-ucs-content-store-eu-west/content/pii:S2468823124007387/image/svg+xml/33c5ca7b3084408aad72f0b95458c5da/si5.svg si5 si5.svg svg 1326 ALTIMG MCAT 114556 114556 S2468-8231(24)00738-7 10.1016/j.mcat.2024.114556 Fig. 1 (a) Change of total energy with time in MD simulation at 1000 K and optimized geometric structures of borophene; (b) Phonon dispersions for borophene. Fig 1 Fig. 2 The adsorption configuration and adsorption energy of NO on borophene through the N terminal. (a) the top site, (b) the bridge site, (c) the hollow site. Fig 2 Fig. 3 The adsorption configuration and adsorption energy of NO on borophene through the NO terminal (a, b) and O terminal (c). Fig 3 Fig. 4 (a) PDOS of free-standing borophene and gaseous NO. PDOS and CDD upon NO (b, c) and N2O2 (d, e) adsorption on borophene. Blue (yellow) areas indicate electronic charge accumulation (depletion). Fig 4 Fig. 5 Gibbs free energy diagram of electrocatalytic reduction of NO to NH3 on borophene surface. The structural diagrams of the species involved in every reaction step are shown in the inset. Fig 5 Fig. 6 The adsorption configuration and adsorption energy of *ONN*O on borophene through the O terminal. (a) the bridge site, (b) the parallel hollow site, (c) the tilted hollow site. Fig 6 Fig. 7 The adsorption configuration and adsorption energy of *ON*NO on borophene through the NO terminal. (a) the bridge site, (b) the hollow site. Fig 7 Fig. 8 The adsorption configuration and adsorption energy of O*N*NO on borophene through the N terminal. (a) the top site, (b) the bridge site, (c) the hollow site. Fig 8 Fig. 9 (a) potential energy surface of two NO molecules dissociated into N2 on the surface of borophene through ONNO intermediate; (b) potential energy surface of CO generates CO2 through LH mechanism and two O atoms generate O2. Fig 9 Theoretical study on borophene as metal-free catalyst for selective conversion of NO Pengfei Liu a ⁎ Xiaoying Feng a Mingqian Wang a Wanfei Hu a Xing Gao a Yanyan Xing a Qiang Wang b ⁎ Junying Zhang c ⁎ a Anhui Province Key Laboratory of Low Temperature Co-Fired Materials, School of Chemistry and Materials Engineering, Huainan Normal University, Huainan 232038, PR China Anhui Province Key Laboratory of Low Temperature Co-Fired Materials School of Chemistry and Materials Engineering Huainan Normal University Huainan 232038 PR China aAnhui Province Key Laboratory of Low Temperature Co-Fired Materials, School of Chemistry and Materials Engineering, Huainan Normal University, Huainan 232038, PR China b School of Chemistry and Molecular Engineering, Nanjing Tech University, Nanjing 211816, PR China School of Chemistry and Molecular Engineering Nanjing Tech University Nanjing 211816 PR China bSchool of Chemistry and Molecular Engineering, Nanjing Tech University, Nanjing 211816, PR China c State Key Laboratory of Coal Combustion, School of Energy and Power Engineering, Huazhong University of Science & Technology, Wuhan 430074, PR China State Key Laboratory of Coal Combustion School of Energy and Power Engineering Huazhong University of Science & Technology Wuhan 430074 PR China cState Key Laboratory of Coal Combustion, School of Energy and Power Engineering, Huazhong University of Science & Technology, Wuhan 430074, PR China ⁎ Corresponding authors. The electrocatalytic reduction of NO (NORR) and selective catalytic reduction of NO by CO (CO-SCR) are the two most attractive approaches for selective conversion of NO. Herein, a bifunctional metal-free catalyst 2-Pmmn borophene is reported that is effective for both NORR and CO-SCR. NO can form NH3 and N2 through NORR and CO-SCR respectively. The results show that NO chemically adsorbed on the surface of borophene through the NO terminal can be electrocatalytically reduced to NH3. The optimal reaction path for NO to generate NH3 is through the protonation process of *NHO instead of *NOH. The rate-determining step is the hydrogenation of *NH2O to *NH2OH, and the free energy increases by 0.41 eV. At the same time, NO can also react with CO on the surface of borophene to form N2 and CO2. First, NO can form chemically adsorbed ONNO intermediate through NN coupling, then ONNO can be denitrified to form N2 and residual oxygen, and finally residual oxygen and CO can generate CO2 through the LH mechanism. The rate-determining step of the reaction is the NN coupling process of NO, and activation energy barrier is 1.27 eV. The present work provides theoretical insights for the effective conversion of NO. Graphical abstract Image, graphical abstract Keywords 2-Pmmn borophene NORR Co-SCR Reaction mechanism Density functional theory 1 Introduction Nitric oxide (NO) is the main component of nitrogen oxides (NOx) and is a toxic pollutant emitted from vehicle exhaust and industrial production [1,2]. NO emissions can lead to various environmental issues, such as ozone depletion, acid rain, smoke, photochemical smoke, etc. [3–6] At the same time, N plays an important role in industry, agriculture, and physiology, so efficiently converting harmful NO into useful value-added products is an important research goal at this stage [7,8]. To data, there are two main pathways for the effective conversion of NO: electrocatalytic reduction of NO (NORR) and selective catalytic reduction of NO by CO (CO-SCR). NORR is not only green and efficient, but also capable of synthesizing ammonia at room temperature, which has attracted widespread attention from researchers in recent years [9–13]. Experimental and theoretical evidence have confirmed the application of many catalysts in NORR, such as metal catalysts [7,14–16], single atom catalysts [17–20], and 2D metal compounds catalysts [21–24], etc. CO-SCR is to use CO as a selective reducing agent for NO, which can produce environmentally friendly N2 and CO2 (2NO + 2CO = N2 + 2CO2) [25–27]. There are two possible reaction mechanisms for this method. One is that NO first generates ONNO intermediate through NN coupling, then ONNO is denitrified to generate N2 and residual oxygen, and finally CO and residual oxygen generate CO2 (2NO + 2CO → N2O2 + 2CO → N2 + 2O + 2CO → N2 + 2CO2) [28,29]. The other is that NO first reacts with CO to generate CO2 and residual nitrogen, and then the residual nitrogen NN couples to generate N2 (2NO + 2CO → 2N + 2CO2 → N2 + 2CO2) [30,31]. Both mechanisms have been found to be effective in previous studies. Although NORR and CO-SCR have been reported many times, most of their catalysts are metal catalysts, and the use of metal-free catalysts is very rare. Recently, many two-dimensional metal-free materials such as silicene [32,33], germanene [34], phosphorene [35], arsenene [36], and tellurene [37] have been used in many chemical reactions, attracting widespread attention. On this basis, researchers synthesized borophene composed of a single layer of boron atoms using a silver substrate under ultra-high vacuum conditions [38,39]. Research has found that borophene has a highly anisotropic crystal structure, with its band structure exhibiting gold properties, and it has been found that there is ultrafast electron transfer on its surface. In addition, experimental research and theoretical work have shown that borophene has broad prospects in catalytic applications, such as hydrogen evolution [40], oxygen reduction [41], oxygen evolution [42], and CO2 electroreduction reactions [43]. Huang et al. studied the adsorption of gas molecules such as NH3, NO, NO2, and CO on the surface of borophene using density functional theory [44]. The results showed that borophene has good adsorption sites and stable adsorption configurations for target molecules. Shen et al. investigated the effect of Cu modified borophene on the CO2 conversion mechanism, and the results showed that borophene can effectively catalyze the CO2 reaction with high catalytic activity and selectivity [40]. These studies indicate that borophene is a very good non-metallic catalyst. In this work, the reaction mechanism of NO catalytic conversion via NORR and CO-SCR on the surface of 2-Pmmn borophene catalyst was systematically studied through density functional theory (DFT) calculations. Firstly, the stability of 2-Pmmn borophene catalyst was studied, followed by the exploration of the chemical adsorption configurations of NO and ONNO on the surface of borophene. Finally, on the surface of borophene, the reaction mechanism of electrocatalytic reduction of NO to NH3 and the CO-SCR catalytic mechanism of NO to generate N2 through NN coupling were discussed. The results show that 2-Pmmn borophene as a metal-free catalysis is beneficial for the conversion of NO into other high value-added compounds through NORR and CO-SCR. 2 Calculation method All spin polarized DFT calculations were performed with the DS-PAW [45]. The exchange correlation function was handled using the generalized gradient approximation (GGA) formulated by the Perdew-Burke-Ernzerhof (PBE) [46,47]. The plane-wave basis set energy cutoff was set to 400 eV, and the Brillouin zone integrations were done using a 3 × 3 × 1 k-point mesh. The electronic self-consistency criterion was set to 10–4 eV and a force convergence tolerance of 0.02 eV/Å. To account for van der Waals (vdW) interaction, we used Grimme's DFT-D3 method [48]. A 15 Å vacuum layer was added in the direction perpendicular to the interface to avoid the interaction with their own images. Ab initio molecular dynamics (AIMD) simulation were conducted using the canonical NVE ensemble, temperature control using Andersen thermostat [49,50]. Simulation is performed for 10 ps with a time step of 1 fs at 1000 K. To investigate the minimum energy path, the climbing-image nudged elastic band (CI-NEB) method was employed to find approximate transition states (TS), and a quasi-Newton algorithm was used to optimize the likely TS until the force acting on the atom was less than 0.02 eV/Å, and finally the nature of TS was verified by only one imaginary frequency existing in vibrational normal mode. The energy barrier (ΔEa) of each reaction step is expressed by the energy difference between the TS and the initial state (IS). The adsorption energy ΔEads between the adsorbate and the substrate is defined as: Δ E ads = E total − E substrate − E adsorbate Etotal is the energy of the adsorbate when it is adsorbed on the substrate surface, Esubstrate is the energy of the pure substrate, and Eadsorbate is the energy of the adsorbate. Based on the hydrogen electrode calculation model proposed by Nørskov et al. [51], we calculated the Gibbs free energy change (ΔG) for each reaction step: Δ G = Δ E + Δ E ZPE − T Δ S There, Δ E , Δ E ZPE , Δ S were energy change, zero point energy (ZPE) change and entropy change of the reaction, respectively. Detailed calculations and formulae were provided in the supporting information. 3 Result and discussion 3.1 The stability of 2-Pmmn borophene 2-Pmmn borophene (Next, 2-Pmmn borophene abbreviated as borophene) structure is shown in Fig. 1 a, The optimized lattice constants are 1.63 × 2.90 Å, consistent with previous research results [52]. The structure of borophene is similar to MoS2, which has two layers with a layer height of 0.83 Å. There are two kinds of B-B bonds in borophene, the bond length of B-B bond in the same layer is 1.63 Å, and the B-B bond between different layers is 1.88 Å. To further investigate the thermal stability of borophene, ab initio MD simulation is performed at 1000 K. As shown in Fig. 1a, during the simulation, the fluctuation of the total energy with time is kept within a certain range. At the same time, the phonon spectrum calculation also found that there is no imaginary frequency in borophene, as shown in Fig. 1b, which indicates that the structure is stable. MD and phonon spectrum calculations show that the structure of borophene is stable at high temperature and can be used as a catalyst. In subsequent work, a 5 × 3 × 1 borophene supercell model is used as catalyst to study the catalytic performance of borophene. 3.2 The adsorption of NO on borophene There are three adsorption types of NO on the surface of borophene, N terminal, O terminal and NO terminal. Next, the three adsorption types are studied separately. First, the adsorption of NO on borophene through the N terminal is studied, and the adsorption configuration and adsorption energy are shown in Fig. 2 . Adsorption through the N terminal has three configurations, top, bridge and hollow sites. As shown in Fig. 2a, NO is adsorbed on the top site of the B atom in the first layer, the distance between NC is 1.36 Å, the bond length of NO is 1.20 Å, and the adsorption energy at this time is −0.91 eV. The adsorption energy of NO adsorbed on the bridge site of two B atoms is −1.08 eV, as shown in Fig. 2b, the distance between the N atom of NO and the two B atoms of borophene is 1.48 Å, and the bond length of NO is 1.25 Å. The most stable adsorption configuration of NO adsorbed through the N terminal is adsorbed on the hollow site of borophene, as shown in Fig. 2c, the adsorption energy is −1.65 eV, the distance between the N atom of NO and the two B atoms of borophene both are 1.50 Å, NO bond length is 1.25 Å. Further studies on the adsorption of NO on borophene via O terminal and NO terminal. There is only one configuration for NO to adsorb on borophene through the O terminal, and NO is adsorbed at the top site of the B atom, as shown in Fig. 3 c. The distance between the O atom of NO and the B atom e is 1.44 Å, NO bond length is 1.32 Å, the adsorption energy is −0.10 eV. When NO is adsorbed on borophene through the NO terminal, there are two configurations. As shown in Fig. 3a, the most stable adsorption configuration is that NO is adsorbed at the hollow site of two B atoms through the NO terminal, the adsorption energy is −2.05 eV, the distances between N atom and O atom of NO and B atoms are 1.46 and 1.45 Å, respectively, the bond length of NO is 1.36 Å. Another adsorption method is that NO is adsorbed at the bridge site of two B atoms through the NO terminal, the adsorption energy is −1.61 eV. The distances between N atom and O atom of NO and B atoms are 1.48 and 1.45 Å, respectively, the bond length of NO is 1.40 Å. The results show that NO can be adsorbed on borophene through N terminal, O terminal and NO terminal. Compared with gaseous NO (1.17 Å), the bond length of NO adsorbed on borophene are all increased, which indicated that NO is activated by borophene. Further comparing the most stable adsorption configurations of the three adsorption methods, it is found that the adsorption energy of NO is the largest when it is adsorbed through the NO terminal, which is −2.05 eV. At the same time, Gibbs free energy correction is performed for different adsorption configurations of NO, as shown in Figure S1. Except for the positive value of ΔG adsorbed at the O terminal, the other adsorption configurations of NO are all negative. Negative ΔG values ​​indicate that the adsorption of NO on borophene occurs spontaneously. Among them, the ΔG when NO is adsorbed through the NO end is the most negative, which is −1.40 eV, indicating that it is most likely to occur spontaneously. Therefore, the subsequent calculation will be based on the adsorption of NO through the NO terminal. Compared with previous research results, Huang et al. [44] only studied the adsorption possibility of NO through the N-terminal, and found that the adsorption energy of NO adsorbed through the N-terminal at the top site of the B atom is the largest, similar to Fig. 2a. The researchers did not study other adsorption methods, so they did not explore the optimal adsorption configuration of NO. Moreover, the software method used in this work is different, resulting in different adsorption energies. Therefore, this article is based on the calculation results of this article. In order to further illustrate the activation effect of borophene on NO, Fig. 4 depicts the charge density difference (CDD) and Partial density of states (PDOS) of NO adsorption on borophene. As shown in Fig. 4d, when NO is adsorbed on borophene, there is a significant charge transfer between NO and borophene. At this time, the N atom and O atom in NO have negative charges of 0.52 and 0.88, respectively, and the overall negative charge of NO is 1.40, which indicates that borophene will charge transfer to NO, thereby activating NO. As shown in Fig. 4a and b, comparing PDOS of gaseous and adsorbed NO, when NO is adsorbed on borophene, new peak of NO appears below the Fermi level, which indicates that NO is in an activated state. At the same time, NO and borophene have obvious overlapping peaks in the range of −1 ∼ −4 eV, which indicates that the orbital of NO and borophene have obvious hybridization effect, and there is a strong chemical bond between NO and borophene. CDD and PDOS indicate that NO is chemisorbed on borophene, and borophene can be used as an effective catalyst for NO. 3.3 Electroreduction mechanism of NO on borophene Fig. 5 show the lowest energy pathways for the electroreduction of NO to NH3 and give schematic diagrams of the intermediates. The zero-point vibrational energy and entropy correction values ​​of adsorbed molecular intermediates and gaseous molecules in the reaction are shown in Table S1. On the borophene surface, the Gibbs free energy decreases by 1.43 eV from gaseous NO to chemisorbed *NO, which indicates that the adsorption of NO on the borophene surface is supported by thermodynamics. Subsequently, there are two main paths for the electroreduction of NO to NH3, as shown in the red and blue lines in Fig. 5. For the initial protonation process of *NO, N atom hydrogenation and O atom hydrogenation of *NO generate *NHO and *NOH intermediates respectively, and their free energies decrease by 0.72 eV and increase by 0.80 eV respectively. NO is more likely to form *NHO than *NOH because the decrease in free energy is more conducive to the reaction. Therefore, the protonation path of *NHO is first studied, as shown in the Fig. 5. In the second step, protons attack N atom of *NHO intermediate, and the free energy of forming *NH2O intermediate increases by 0.17 eV. It is worth noting that in the third step of proton-electron transfer, protons attack the N atom in *NH2O to form NH3 and *O intermediate, and the free energy drops by 1.52 eV, which is thermodynamically advantageous. In the fourth step, the free energy of the proton attacking *O to form the *OH intermediate is reduced by 0.62 eV. Next, the proton attacks *OH intermediate to form *H2O intermediate, which increases the free energy by 1.12 eV, which is the thermodynamic rate-limiting step of the whole process. This is extremely thermodynamically unfavorable, indicating that the generation of NH3 through this path is extremely difficult to occur, as shown in the pink path in Fig. 5. Interestingly, in the third step of protonation, proton attack *NH2O can also form *NH2OH intermediate, the free energy increases by 0.41 eV. However, the rising value is relatively small, indicating that the voltage required to be applied during the reaction is small, so the generation of *NH2O is also feasible. Afterwards, *NH2 intermediate can be formed by dehydration of OH group in *NH2OH intermediate by proton attack, and the free energy of this process is reduced by 2.40 eV. The proton-electron transfer in the last step is very important. The proton attacks N atom of *NH2 intermediate to form *NH3 intermediate, increasing the free energy by 0.14 eV. Finally, NH3 molecules desorb from the borophene surface. In this reaction process to generate NH3, the hydrogenation of *NH2O to *NH2OH is the rate-determining step of the reaction, and the free energy of the rate-determining step increases by 0.41 eV, as shown in the red path in Fig. 5. The protonation pathway of *NOH has been further studied. In the second step, the protons attack the N atom of the *NOH intermediate, and the free energy of *NHOH intermediate is reduced by 0.99 eV, indicating that the *NOH protonation may form *NHOH intermediate on the borophene. Subsequently, in the third step, the protons attack the OH group in *NHOH intermediate to dehydrate to form *NH intermediate, at which time the free energy decreases by 0.91 eV, which is thermodynamically favorable. However, the formation of *NH2OH intermediate by proton attack on the N atom of *NHOH intermediate is also thermodynamically possible because the free energy only increases by 0.05 eV. In the fourth step, the proton attacks N atom of the *NH intermediate to form the *NH2 intermediate. The free energy of this process is reduced by 1.44 eV, which is thermodynamically favorable. The subsequent protonation process of *NH2 intermediate is consistent with the red path to generate NH3. The entire process is shown as the blue path in Fig. 5, the rate-determining step of reaction is the first protonation process, that is, the hydrogenation of NO to generate NOH, and the free energy increases by 0.80 eV. In summary, in the path of electrochemical reduction of NO to NH3 on the surface of borophene, the free energies of the rate-determining steps for NO to generate NH3 through *NHO and *NOH intermediates are 0.40 and 0.81 eV respectively, indicating that NO is more likely to form NH3 through *NHO intermediates. The optimal reaction path is *NO → *NHO → *NH2O → *NH2OH → *NH2 → *NH3. The rate-determining step of the reaction is the hydrogenation of *NH2O to *NH2OH. In the reaction, only a voltage of 0.41 V is needed to generate NH3 on the surface of borophene, which shows that borophene has good activity in the electrocatalytic reduction of NO. 3.4 The adsorption of N2O2 on borophene The chemical adsorption of NO on the surface of borophene indicates that borophene has strong chemical activity, making it possible for NO to form N2O2. There are three adsorption configurations of N2O2 on the surface of borophene, including O terminal, NO terminal and N terminal adsorption. As shown in Figs. 6-8 . First, the adsorption of N2O2 on borophene through two O atoms is studied, and the adsorption configuration and adsorption energy are shown in Fig. 6. There are three configurations for adsorption via the O terminal, which are the bridge site, the parallel hollow site, and the inclined hollow site. As shown in Fig. 6a, *ONN*O is adsorbed on the bridge bond of two B atoms in the first layer, the distance between NN is 1.22 Å, and the bond length of NO is elongated to 1.45 Å. The distance between *O atom of *ONN*O and borophene is 1.42 Å, and the adsorption energy is the largest at −4.43 eV. As shown in Fig. 6b, *ONN*O can also be adsorbed on the parallel hollow site of borophene through two O atoms, the adsorption energy is −4.09 eV. The bond lengths of NN and NO in *ONN*O are 1.22 and 1.45 Å, respectively, and the distance between *O atom and borophene is 1.41 Å. As shown in Fig. 6c, the last adsorption method is that *ONN*O is adsorbed on the inclined hollow site of borophene through two O atoms, and the adsorption energy is −3.81 eV. One NO bond in *ONN*O is elongated to 1.46 Å, the other NO bond is shortened to 1.43 Å, and the distance between NN is still 1.23 Å. The bond length of *O-B is 1.42 Å. Then, the different adsorption configurations of *N2O2 via N terminal and NO terminal on borophene are further explored. There are also two adsorption configurations for the NO terminal adsorption. As shown in Fig. 7a, the most stable adsorption configuration of *ON*NO is co-adsorption on two B atoms bridge site through the NO terminal, and the adsorption energy is −3.80 eV. The distance between two N atoms in *ON*NO is 1.29 Å, the bond length between one *O atom and N atom is 1.40 Å, and the bond length between the other *N atom and O atom is 1.28 Å. The distances between *N atom and *O atom of *ON*NO and B atom on the borophene surface are 1.56 and 1.42 Å, respectively. As shown in Fig. 7b, another adsorption method is that *ON*NO is co-adsorbed on the hollow site of two B atoms through NO terminal, and the adsorption energy is −3.39 eV. The distance between two N atoms in *ON*NO is 1.30 Å, the bond length between one *O atom and N atom is 1.40 Å, and the bond length between the other *N atom and O atom is 1.28 Å. The distance between *N atom of *ON*NO and B atom on the borophene surface is 1.54 Å, and the distance between *O atom and B atom on the borophene surface is 1.42 Å. There are also three adsorption configurations for the N terminal adsorption, which are the top site, the bridge site and the hollow site. As shown in Fig. 8a, O*NNO is adsorbed on the top of the first layer of B atom with an adsorption energy of −2.26 eV. The distance between two N atoms in O*NNO is 1.43 Å, the bond length between O atom and *N atom is 1.27 Å, and the bond length between the other N atom and O atom is 1.22 Å, the distance between *N atom of O*NNO and B atom on the borophene surface is 1.49 Å. As shown in Fig. 8b, O*N*NO can also be double-adsorbed on two B atom bridge bonds through two N atoms, and the adsorption energy is −2.96 eV. The bond length between *N atom and O atom in O*N*NO is 1.25 Å, the distance between two N atoms is 1.37 Å, and the distance between *N atom in O*N*NO and B atom on the borophene surface is 1.55 Å. As shown in Fig. 8c, another adsorption method is double adsorption of O*N*NO on the hollow site of borophene through two N atoms, and the adsorption energy is −3.25 eV. The distance between two N atoms in O*N*NO is 1.38 Å, while the bond length between O atom and *N atom is 1.25 Å, *N-B bond length between *N atom in O*N*NO and B atom on the borophene surface are 1.51 and 1.53 Å, respectively. The research results of *N2O2 on the surface of borophene show that *N2O2 can be adsorbed on the surface of borophene through the N terminal, O terminal and NO terminal. Further comparing the most stable adsorption configurations of the three adsorption methods, it is found that the adsorption energy is maximum when *N2O2 is adsorbed at the borophene bridge site through the O-terminal. (As shown in Fig. 6a, the adsorption energy is −4.43 eV). Taking the most stable adsorption configuration of *N2O2 as an example, further explore the CDD and PDOS of *N2O2 adsorbed on the surface of borophene. As shown in Fig. 4e, when *N2O2 is chemisorbed on the surface of borophene, there is also a strong charge transport between *N2O2 and borophene. At this time, the N atom and O atom in *N2O2 are charged with +0.31 and −1.78, respectively, and the overall charge of *N2O2 is −1.47, which indicates that borophene will transfer charges to *N2O2, thereby activating N2O2. And it may be seen from Fig. 4e that when *N2O2 is adsorbed on borophene, there is a significant overlap between N2O2 and borophene near the Fermi level, indicating that the orbital of N2O2 and B has a significant hybridization effect, so there is also a stronger chemical bond between N2O2 and borophene. The CDD and PDOS indicated that N2O2 chemisorption occurred on borophene, and borophene could serve as an effective catalyst for N2O2. 3.5 Mechanism of direct N-N coupling conversion of NO to N2 As shown in Fig. 9 a, firstly two NO molecules are chemically adsorbed on the surface of borophene, and the adsorption energy is −4.45 eV, which is equivalent to twice the adsorption energy of a single NO. The N atom in NO interacts with the B atom on the surface of borophene in a covalent bond, the bond length is 1.47 Å, the bond length between O and B atom is 1.46 Å. At this time, the bond length of NO is 1.36 Å, the adsorption mode is consistent with the adsorption of single NO. The distance between two NO molecules is 3.64 Å. The subsequent direct N–N coupling via TS1 forms chemisorbed *N2O2 with an activation barrier of 1.27 eV. The chemical adsorption of *N2O2 is the adsorption configuration in Fig. 6a. In TS1, the distance between N atoms of two NO molecules is shortened to 1.30 Å, while the distance between N and B atoms is elongated to 2.06 and 2.13 Å, the distance between O and B atoms is shortened to 1.45 Å, and the bond length of NO is shortened to 1.43 Å. In *N2O2, the bond length between N and N is shortened to 1.22 Å, the bond length of NO is elongated to 1.45 Å, the distance between N and B atoms is changed from 2.06 Å to 3.37 Å, the distance between O and B atoms is shortened to 1.42 Å. Interestingly, *ONNO can simultaneously break two N–O bonds via TS2 to form N2 and two *O with an activation barrier of only 0.18 eV. In TS2, the bond length of two NO bonds is elongated to 1.64 Å, while the distance between two N atoms is shortened to 1.18 Å, and the distance between O and B atoms on the surface of borophene is also shortened to 1.39 Å. For N2+2O*, the *O-B bond length is shortened from 1.39 in TS2 to 1.27 Å, while the NO* bond length is increased from 1.64 to 3.33 Å, the NO bond is completely broken, the NN bond length is shortened to 1.10 Å, and N2 is very easy desorbed from borophene surface. This process has a strong exotherm of 2.69 eV, indicating that borophene can efficiently catalyze the direct N–N coupling reduction of NO to N2. When N2 desorbs from the surface of borophene, the remaining two O atoms will be strongly adsorbed on the surface of borophene. As the reaction continues, accumulated O atoms will cover the entire borophene surface, causing O poisoning and deactivation of the borophene catalyst. Therefore, the elimination of O atoms on the surface of borophene must be considered. Fig. 9b illustrates two different elimination mechanisms. First, two O atoms are adsorbed on the surface of borophene. The bond length of the O-B bond formed is 1.27 Å. The distance between the two O atoms is 3.43 Å. Subsequently, two O atoms are bonded to each other on the surface of borophene to generate O2, but this process requires a high activation energy barrier of 2.32 eV. In TS1, the distance between two O atoms is shortened to 1.75 Å, and the bond length of the O-B bond is lengthened from the original 1.27 Å to 1.38 Å. When O2 forms and adsorbs on the surface of borophene, the distance between two O atoms becomes 1.51 Å and the bond length of the O-B bond is elongated to 1.43 Å. Since this process needs to overcome the activation energy of 2.31 eV and the endothermic energy of 2.13 eV, it indicates that the surface of borophene is not conducive to the formation of OO bonds. The second is to use a reducing agent to react with the adsorbed O atoms to remove the O atoms from the surface of borophene to restore the reducing ability of the borophene catalyst. Since CO is the most common toxic gas and one of the popular gases in the \"carbon cycle\" in recent years, CO can be used to react with O atoms to generate CO2 to remove O atoms adsorbed on the surface. First, CO molecule and O atom are co-adsorbed on the surface of borophene, and this reaction follows the L-H mechanism. CO molecule are adsorbed on the surface of borophene through the C terminal. The bond length of the C-B bond is 1.50 Å, the bond length of the CO molecule is 1.17 Å, and the bond length of the O-B bond formed between the O atom and the surface of borophene is 1.27 Å. Subsequently, a reaction occurs between the adsorbed CO and O atoms. By overcoming a small activation energy barrier, which is only 0.02 eV, the adsorbed O atoms are successfully converted into CO2 on the borophene surface. In TS2, the bond length of the CO molecule remains unchanged at 1.17 Å, the distance between *CO and *O is shortened from 2.69 Å to 2.30 Å, and the distance between CO and the borophene surface is lengthened to 1.53 Å. At the same time, the distance between *O atoms and the surface of borophene is also stretched to 1.29 Å. When *CO2 is adsorbed on the surface of borophene, the bond length between C and O atoms shortens from 2.30 Å to 1.40 Å, indicating the formation of CO bond. Another CO bond is stretched to 1.21 Å, the bond length between the O atom and borophene is stretched from 1.29 to 1.42 Å, and the bond length of the C-B bond increased by 0.09 Å. Since the activation energy barrier of this process is very low and this process is a strongly exothermic process (0.79 eV), this result indicates that the oxidation of CO to CO2 is favorable on the surface of borophene. As shown in Fig. 9, NO can be selectively reduced to N2 through CO as a reducing agent. The reaction pathway is 2*NO + 2*CO → *N2O2 + 2*CO → N2 + 2*O + 2*CO → N2 + 2*CO2. The rate determining step in the entire process is NN coupling of *NO to form *N2O2, with an activation energy of 1.27 eV. The results indicate that it is feasible to use borophene as a catalyst to catalyze the joint reaction of NO and CO to form N2 and CO2. 4 Conclusion In this work, DFT is used to systematically study the catalytic mechanism of NO conversion to NH3 and N2 on borophene. First, when NO is adsorbed on the surface of borophene through the NO terminal, the adsorption energy is maximum, which is −2.05 eV. When *N2O2 is co-adsorbed on borophene through two O-terminals, the adsorption energy is maximum, which is −4.43 eV, which is significantly higher than the adsorption energy of NO. Further electronic structure analysis found that NO and N2O2 form strong covalent bonds with borophene, indicating that NO is activated by borophene. Then the reaction mechanism of NO reduction to NH3 is explored. By comparing the free energy changes, the initial protonation process of *NO is more inclined to generate *NHO than *NOH. The optimal reaction path for NO to generate NH3 is also through the protonation of *NHO. The optimal reaction path is *NO → *NHO → *NH2O → *NH2OH → *NH2 → *NH3. The rate-determining step is the hydrogenation of *NH2O to *NH2OH, and the free energy increases by 0.41 eV, indicating that borophene is beneficial to the electrocatalytic reduction of NO to NH3. Finally, the reaction mechanism of NO reduction to N2 through direct NN coupling is studied. Research has found that, similar to the surface NO dimerization mechanism of traditional metal catalysts, on the surface of borophene, two chemically adsorbed NO molecules overcome the activation energy barrier of 1.27 eV to form O-terminal adsorbed *ONN*O intermediate. Subsequently, *ONN*O breaks two NO bonds to form N2 and two *O, with a lower activation energy barrier of only 0.18 eV. This process has a strong exothermic energy of 2.67 eV, indicating that the borophene is conducive to reducing NO to N2. The two *O and *CO adsorbed on the surface of borophene are successfully converted into CO2 through the L-H mechanism, with a low activation energy barrier of only 0.02 eV. The results indicate that borophene is advantageous as metal-free catalyst for electrocatalytic reduction of NO to NH3 and thermal catalytic reduction of NO to N2. This study expands the application prospects of borophene as metal-free catalyst and provides new theoretical insights for the effective conversion of NO. Declaration of competing interest The authors declare that they have no known competing financial interests or personal relationships that could have appeared to influence the work reported in this paper. Acknowledgements This work is supported by the Natural Science Foundation of the Anhui Higher Education Institutions of China (Grant No. 2022AH051591, No. 2023AH051555), the Guiding Science and Technology Plan Foundation of Huainan City (Grant No. 2022042,108, No. 118, 2023042). The authors gratefully acknowledge HZWTECH for providing computation facilities. Supplementary materials Supplementary material associated with this article can be found, in the online version, at doi:10.1016/j.mcat.2024.114556. Appendix Supplementary materials Image, application 1 References [1] L. TsungYu B. Hsunling Low temperature selective catalytic reduction of NOx with NH3 over Mn-based catalyst: a review AIMS Environ. Sci. 3 2016 261 289 10.3934/environsci.2016.2.261 L. TsungYu, B. Hsunling, Low temperature selective catalytic reduction of NOx with NH3 over Mn-based catalyst: a review, AIMS Environ. Sci., 3 (2016) 261–289, https://doi.org/10.3934/environsci.2016.2.261. [2] S.B. Ma X.Y. Zhao Y.S. Li T.R. Zhang F.L. Yuan X.Y. Niu Y.J. Zhu Effect of W on the acidity and redox performance of the Cu0.02Fe0.2WaTiOx (a=0.01, 0.02, 0.03) catalysts for NH3-SCR of NO Appl. Catal., B 248 2019 226 238 10.1016/j.apcatb.2019.02.015 S.B. Ma, X.Y. Zhao, Y.S. Li, T.R. Zhang, F.L. Yuan, X.Y. Niu, Y.J. Zhu, Effect of W on the acidity and redox performance of the Cu0.02Fe0.2WaTiOx (a=0.01, 0.02, 0.03) catalysts for NH3-SCR of NO, Appl. Catal., B, 248 (2019) 226–238, https://doi.org/10.1016/j.apcatb.2019.02.015. [3] C.V. Raghunath M.K. Mondal Experimental scale multi component absorption of SO2 and NO by NH3/NaClO scrubbing Chem. Eng. J. 314 2017 537 547 10.1016/j.cej.2016.12.011 C.V. Raghunath, M.K. Mondal, Experimental scale multi component absorption of SO2 and NO by NH3/NaClO scrubbing, Chem. Eng. J., 314 (2017) 537–547, https://doi.org/10.1016/j.cej.2016.12.011. [4] F.Y. Gao X.L. Tang H.H. Yi S.Z. Zhao C.L. Li J.Y. Li Y.R. Shi X.M. Meng A review on selective catalytic reduction of NOx by NH3 over mn-based catalysts at low temperatures: catalysts, mechanisms, kinetics and DFT calculations Catalysts 7 2017 199 10.3390/catal7070199 F.Y. Gao, X.L. Tang, H.H. Yi, S.Z. Zhao, C.L. Li, J.Y. Li, Y.R. Shi, X.M. Meng, A review on selective catalytic reduction of NOx by NH3 over mn-based catalysts at low temperatures: catalysts, mechanisms, kinetics and DFT calculations, Catalysts, 7 (2017) 199, https://doi.org/10.3390/catal7070199. [5] K. Skalska J.S. Miller S. Ledakowicz Trends in NOx abatement: a review Sci. Total Environ. 408 2010 3976 3989 10.1016/j.scitotenv.2010.06.001 K. Skalska, J.S. Miller, S. Ledakowicz, Trends in NOx abatement: a review, Sci. Total Environ., 408 (2010) 3976–3989, https://doi.org/10.1016/j.scitotenv.2010.06.001. [6] W.Q. Xu Y.B. Yu C.B. Zhang H. He Selective catalytic reduction of NO by NH3 over a Ce/TiO2 catalyst Catal. Commun. 9 2008 1453 1457 10.1016/j.catcom.2007.12.012 W.Q. Xu, Y.B. Yu, C.B. Zhang, H. He, Selective catalytic reduction of NO by NH3 over a Ce/TiO2 catalyst, Catal. Commun., 9 (2008) 1453–1457, https://doi.org/10.1016/j.catcom.2007.12.012. [7] R. Zhao Z. Ma Y. Yu X. Xia B. Song T. Zhou Y. Huang Theoretical investigation on NO reduction electro-catalyzed by transition-metal-anchored SnOSe nanotubes Nano Res 16 2023 8533 8541 10.1007/s12274-023-5619-9 R. Zhao, Z. Ma, Y. Yu, X. Xia, B. Song, T. Zhou, Y. Huang, Theoretical investigation on NO reduction electro-catalyzed by transition-metal-anchored SnOSe nanotubes, Nano Res., 16 (2023) 8533–8541, https://doi.org/10.1007/s12274-023-5619-9. [8] T. Liu J. Wei P. Liu H. Shi Q. Wang Y. Yang Insight into the mechanism of direct N–C coupling in selective catalytic reduction of NO by CO over Ni(111)-supported graphene Phys. Chem. Chem. Phys. 25 2023 26185 26195 10.1039/D3CP01810E T. Liu, J. Wei, P. Liu, H. Shi, Q. Wang, Y. Yang, Insight into the mechanism of direct N–C coupling in selective catalytic reduction of NO by CO over Ni(111)-supported graphene, Phys. Chem. Chem. Phys., 25 (2023) 26185–26195, https://doi.org/10.1039/D3CP01810E. [9] J. Long S. Chen Y. Zhang C. Guo X. Fu D. Deng J. Xiao Direct electrochemical ammonia synthesis from nitric oxide Angew. Chem., Int. Ed. 59 2020 9711 9718 10.1002/anie.202002337 J. Long, S. Chen, Y. Zhang, C. Guo, X. Fu, D. Deng, J. Xiao, Direct electrochemical ammonia synthesis from nitric oxide, Angew. Chem., Int. Ed., 59 (2020) 9711–9718, https://doi.org/10.1002/anie.202002337. [10] Q. Wu H. Wang S. Shen B. Huang Y. Dai Y. Ma Efficient nitric oxide reduction to ammonia on a metal-free electrocatalyst J. Mater. Chem. A 9 2021 5434 5441 10.1039/D0TA11209G Q. Wu, H. Wang, S. Shen, B. Huang, Y. Dai, Y. Ma, Efficient nitric oxide reduction to ammonia on a metal-free electrocatalyst, J. Mater. Chem. A, 9 (2021) 5434–5441, https://doi.org/10.1039/D0TA11209G. [11] D.H. Kim S. Ringe H. Kim S. Kim B. Kim G. Bae H.S. Oh F. Jaouen W. Kim H. Kim C.H. Choi Selective electrochemical reduction of nitric oxide to hydroxylamine by atomically dispersed iron catalyst Nat. Commun. 12 2021 1856 10.1038/s41467-021-22147-7 D.H. Kim, S. Ringe, H. Kim, S. Kim, B. Kim, G. Bae, H.S. Oh, F. Jaouen, W. Kim, H. Kim, C.H. Choi, Selective electrochemical reduction of nitric oxide to hydroxylamine by atomically dispersed iron catalyst, Nat. Commun., 12 (2021) 1856, https://doi.org/10.1038/s41467-021-22147-7. [12] M. Tursun C. Wu Vacancy-triggered and dopant-assisted NO electrocatalytic reduction over MoS2 Phys. Chem. Chem. Phys. 23 2021 19872 19883 10.1039/D1CP02764F M. Tursun, C. Wu, Vacancy-triggered and dopant-assisted NO electrocatalytic reduction over MoS2, Phys. Chem. Chem. Phys., 23 (2021) 19872–19883, https://doi.org/10.1039/D1CP02764F. [13] J. Liang W.F. Hu B. Song T. Mou L. Zhang Y. Luo Q. Liu A.A. Alshehri M.S. Hamdy L.M. Yang X. Sun Efficient nitric oxide electroreduction toward ambient ammonia synthesis catalyzed by a CoP nanoarray Inorg. Chem. Fron.T 9 2022 1366 1372 10.1039/D2QI00002D J. Liang, W.F. Hu, B. Song, T. Mou, L. Zhang, Y. Luo, Q. Liu, A.A. Alshehri, M.S. Hamdy, L.M. Yang, X. Sun, Efficient nitric oxide electroreduction toward ambient ammonia synthesis catalyzed by a CoP nanoarray, Inorg. Chem. Fron.T, 9 (2022) 1366–1372, https://doi.org/10.1039/D2QI00002D. [14] C.A. Farberow J.A. Dumesic M. Mavrikakis Density functional theory calculations and analysis of reaction pathways for reduction of nitric oxide by hydrogen on Pt ACS Catal. 4 111 2014 3307 3319 10.1021/cs500668k C.A. Farberow, J.A. Dumesic, M. Mavrikakis, Density functional theory calculations and analysis of reaction pathways for reduction of nitric oxide by hydrogen on Pt(111), ACS Catal.., 4 (2014) 3307–3319, https://doi.org/10.1021/cs500668k. [15] J. Choi H.L. Du C.K. Nguyen B.H.R. Suryanto A.N. Simonov D.R. MacFarlane Electroreduction of nitrates, nitrites, and gaseous nitrogen oxides: a potential source of ammonia in dinitrogen reduction studies ACS Energy Lett. 5 2020 2095 2097 10.1021/acsenergylett.0c00924 J. Choi, H.L. Du, C.K. Nguyen, B.H.R. Suryanto, A.N. Simonov, D.R. MacFarlane, Electroreduction of nitrates, nitrites, and gaseous nitrogen oxides: a potential source of ammonia in dinitrogen reduction studies, ACS Energy Lett.., 5 (2020) 2095–2097, https://doi.org/10.1021/acsenergylett.0c00924. [16] I. Katsounaros M.C. Figueiredo X. Chen F. Calle-Vallejo M.T.M. Koper Structure- and coverage-sensitive mechanism of NO reduction on platinum electrodes ACS Catal. 7 2017 4660 4667 10.1021/acscatal.7b01069 I. Katsounaros, M.C. Figueiredo, X. Chen, F. Calle-Vallejo, M.T.M. Koper, Structure- and coverage-sensitive mechanism of NO reduction on platinum electrodes, ACS Catal.., 7 (2017) 4660–4667, https://doi.org/10.1021/acscatal.7b01069. [17] P. Shi D. Pang Z. Zhang L. Lin C. He Transition metals embedded Pt (100) surface as an electrocatalysts for NO reduction reaction: a first-principles study Appl. Surf. Sci. 619 2023 156744 10.1016/j.apsusc.2023.156744 P. Shi, D. Pang, Z. Zhang, L. Lin, C. He, Transition metals embedded Pt (100) surface as an electrocatalysts for NO reduction reaction: a first-principles study, Appl. Surf. Sci., 619 (2023) 156744, https://doi.org/10.1016/j.apsusc.2023.156744. [18] S. Liu Y. Liu Z. Cheng X. Gao Y. Tan Z. Shen T. Yuan Two-dimensional transition metal phthalocyanine sheet as a promising electrocatalyst for nitric oxide reduction: a first principle study Environ. Sci. Pollut. Res. 28 2021 7191 7199 10.1007/s11356-020-11058-7 S. Liu, Y. Liu, Z. Cheng, X. Gao, Y. Tan, Z. Shen, T. Yuan, Two-dimensional transition metal phthalocyanine sheet as a promising electrocatalyst for nitric oxide reduction: a first principle study, Environ. Sci. Pollut. Res., 28 (2021) 7191–7199, https://doi.org/10.1007/s11356-020-11058-7. [19] H. Niu Z. Zhang X. Wang X. Wan C. Kuai Y. Guo A Feasible Strategy for Identifying single-atom catalysts toward electrochemical No-to-NH3 conversion Small 17 2021 2102396 10.1002/smll.202102396 H. Niu, Z. Zhang, X. Wang, X. Wan, C. Kuai, Y. Guo, A Feasible Strategy for Identifying single-atom catalysts toward electrochemical No-to-NH3 conversion, Small, 17 (2021) 2102396, https://doi.org/10.1002/smll.202102396. [20] N. Saeidi M.D. Esrafili J.J. Sardroodi NO electrochemical reduction over Si-N4 embedded graphene: a DFT investigation Appl. Surf. Sci. 544 2021 148869 10.1016/j.apsusc.2020.148869 N. Saeidi, M.D. Esrafili, J.J. Sardroodi, NO electrochemical reduction over Si-N4 embedded graphene: a DFT investigation, Appl. Surf. Sci., 544 (2021) 148869, https://doi.org/10.1016/j.apsusc.2020.148869. [21] W. Chen Y. Xiang Z. Wu M. Wang Y. Fang Z.Z. Zhu S. Wu X. Cao NiB monolayer: a topological metal with high NORR electrocatalytic perfomance Appl. Surf. Sci. 637 2023 157887 10.1016/j.apsusc.2023.157887 W. Chen, Y. Xiang, Z. Wu, M. Wang, Y. Fang, Z.Z. Zhu, S. Wu, X. Cao, NiB monolayer: a topological metal with high NORR electrocatalytic perfomance, Appl. Surf. Sci., 637 (2023) 157887, https://doi.org/10.1016/j.apsusc.2023.157887. [22] K. Chen J. Wang J. Kang X. Lu X. Zhao K. Chu Atomically Fe-doped MoS2−x with Fe-Mo dual sites for efficient electrocatalytic NO reduction to NH3 Appl. Catal., B 324 2023 122241 10.1016/j.apcatb.2022.122241 K. Chen, J. Wang, J. Kang, X. Lu, X. Zhao, K. Chu, Atomically Fe-doped MoS2−x with Fe-Mo dual sites for efficient electrocatalytic NO reduction to NH3, Appl. Catal., B, 324 (2023) 122241, https://doi.org/10.1016/j.apcatb.2022.122241. [23] K. Chen Y. Tian Y. Li Y. Liu K. Chu Amorphous NiB2 for electroreduction of NO to NH3 J. Mater. Chem. A 11 2023 7409 7414 10.1039/D3TA00394A K. Chen, Y. Tian, Y. Li, Y. Liu, K. Chu, Amorphous NiB2 for electroreduction of NO to NH3, J. Mater. Chem. A, 11 (2023) 7409–7414, https://doi.org/10.1039/D3TA00394A. [24] G. Zhang N. Zhang Y. Guo X. Zhao K. Chu Vanadium diboride (VB2) for NO electroreduction to NH3 Inorg. Chem. 62 2023 8772 8777 10.1021/acs.inorgchem.3c00451 G. Zhang, N. Zhang, Y. Guo, X. Zhao, K. Chu, Vanadium diboride (VB2) for NO electroreduction to NH3, Inorg. Chem., 62 (2023) 8772–8777, https://doi.org/10.1021/acs.inorgchem.3c00451. [25] L.J. France W. Li Y. Zhang W. Mu Z. Chen J. Shi Q. Zeng X. Li A superior Fe-Zr mixed oxide catalyst for the simultaneous reduction of NO and SO2 with CO Appl. Catal., B 269 2020 118822 10.1016/j.apcatb.2020.118822 L.J. France, W. Li, Y. Zhang, W. Mu, Z. Chen, J. Shi, Q. Zeng, X. Li, A superior Fe-Zr mixed oxide catalyst for the simultaneous reduction of NO and SO2 with CO, Appl. Catal., B, 269 (2020) 118822, https://doi.org/10.1016/j.apcatb.2020.118822. [26] J. Wang F. Gao P. Dang X. Tang M. Lu Y. Du Y. Zhou H. Yi E. Duan Recent advances in NO reduction with CO over copper-based catalysts: reaction mechanisms, optimization strategies, and anti-inactivation measures Chem. Eng. J. 450 2022 137374 10.1016/j.cej.2022.137374 J. Wang, F. Gao, P. Dang, X. Tang, M. Lu, Y. Du, Y. Zhou, H. Yi, E. Duan, Recent advances in NO reduction with CO over copper-based catalysts: reaction mechanisms, optimization strategies, and anti-inactivation measures, Chem. Eng. J., 450 (2022) 137374, https://doi.org/10.1016/j.cej.2022.137374. [27] Y. Sun Y. Wu Y. Bai X. Wu H. Wang Z. Wu High performance iridium loaded on natural halloysite nanotubes for CO-SCR reaction Fuel 357 2024 129938 10.1016/j.fuel.2023.129938 Y. Sun, Y. Wu, Y. Bai, X. Wu, H. Wang, Z. Wu, High performance iridium loaded on natural halloysite nanotubes for CO-SCR reaction, Fuel, 357 (2024) 129938, https://doi.org/10.1016/j.fuel.2023.129938. [28] Q. Xu X. Cheng N. Zhang Y. Tu L. Wu H. Pan J. Hu H. Ding J. Zhu Y. Li Unraveling the advantages of Pd/CeO2 single-atom catalysts in the NO + CO reaction by model catalysts Nano Res 16 2023 8882 8892 10.1007/s12274-023-5585-2 Q. Xu, X. Cheng, N. Zhang, Y. Tu, L. Wu, H. Pan, J. Hu, H. Ding, J. Zhu, Y. Li, Unraveling the advantages of Pd/CeO2 single-atom catalysts in the NO + CO reaction by model catalysts, Nano Res., 16 (2023) 8882–8892, https://doi.org/10.1007/s12274-023-5585-2. [29] Y. Ji X. Chen S. Liu S. Song W. Xu R. Jiang W. Chen H. Li T. Zhu Z. Li Z. Zhong D. Wang G. Xu F. Su Tailoring the Electronic Structure of Single Ag Atoms in Ag/WO3 for Efficient NO Reduction by CO in the Presence of O2 ACS Catal 13 2023 1230 1239 10.1021/acscatal.2c05048 Y. Ji, X. Chen, S. Liu, S. Song, W. Xu, R. Jiang, W. Chen, H. Li, T. Zhu, Z. Li, Z. Zhong, D. Wang, G. Xu, F. Su, Tailoring the Electronic Structure of Single Ag Atoms in Ag/WO3 for Efficient NO Reduction by CO in the Presence of O2, ACS Catal., 13 (2023) 1230–1239, https://doi.org/10.1021/acscatal.2c05048. [30] J. Zhou D. Li B. Jing B. Xiao Z. Ao Metal-free C2N catalyst with superior H2O/SO2 tolerance for NO reduction with CO during incomplete combustion process Fuel 354 2023 129262 10.1016/j.fuel.2023.129262 J. Zhou, D. Li, B. Jing, B. Xiao, Z. Ao, Metal-free C2N catalyst with superior H2O/SO2 tolerance for NO reduction with CO during incomplete combustion process, Fuel, 354 (2023) 129262, https://doi.org/10.1016/j.fuel.2023.129262. [31] Y. Han G. Liu B. Sun J. Shi M. Wu B. Xu C. Ouyang Penta-graphene as a Metal-free catalyst for CO and NO reaction -Insights from First-principles calculations Appl. Surf. Sci. 565 2021 150515 10.1016/j.apsusc.2021.150515 Y. Han, G. Liu, B. Sun, J. Shi, M. Wu, B. Xu, C. Ouyang, Penta-graphene as a Metal-free catalyst for CO and NO reaction -Insights from First-principles calculations, Appl. Surf. Sci., 565 (2021) 150515, https://doi.org/10.1016/j.apsusc.2021.150515. [32] G. Li L.Z. Zhang W.Y. Xu J.B. Pan S.R. Song Y. Zhang H.T. Zhou Y.L. Wang L.H. Bao Y.Y. Zhang S.X. Du M. Ouyang S.T. Pantelides H.J. Gao Stable Silicene in Graphene/Silicene Van der Waals Heterostructures Adv. Mater. 30 2018 1804650 10.1002/adma.201804650 G. Li, L.Z. Zhang, W.Y. Xu, J.B. Pan, S.R. Song, Y. Zhang, H.T. Zhou, Y.L. Wang, L.H. Bao, Y.Y. Zhang, S.X. Du, M. Ouyang, S.T. Pantelides, H.J. Gao, Stable Silicene in Graphene/Silicene Van der Waals Heterostructures, Adv. Mater., 30 (2018) 1804650, https://doi.org/10.1002/adma.201804650. [33] A. Molle C. Grazianetti L. Tao D. Taneja M.H. Alam D. Akinwande Silicene, silicene derivatives, and their device applications Chem. Soc. Rev. 47 2018 6370 6387 10.1039/c8cs00338f A. Molle, C. Grazianetti, L. Tao, D. Taneja, M.H. Alam, D. Akinwande, Silicene, silicene derivatives, and their device applications, Chem. Soc. Rev., 47 (2018) 6370–6387, https://doi.org/10.1039/c8cs00338f. [34] G. Liu S.B. Liu B. Xu C.Y. Ouyang H.Y. Song S. Guan S.Y.A. Yang Multiple Dirac Points and Hydrogenation-Induced Magnetism of Germanene Layer on Al (111) Surface J. Phys. Chem. Lett. 6 2015 4936 4942 10.1021/acs.jpclett.5b02413 G. Liu, S.B. Liu, B. Xu, C.Y. Ouyang, H.Y. Song, S. Guan, S.Y.A. Yang, Multiple Dirac Points and Hydrogenation-Induced Magnetism of Germanene Layer on Al (111) Surface, J. Phys. Chem. Lett., 6 (2015) 4936–4942, https://doi.org/10.1021/acs.jpclett.5b02413. [35] X.R. Hu J.M. Zheng Z.Y. Ren Strong interlayer coupling in phosphorene/graphene van der Waals heterostructure: a first-principles investigation Front. Phys. 13 2018 137302 10.1007/s11467-017-0736-0 X.R. Hu, J.M. Zheng, Z.Y. Ren, Strong interlayer coupling in phosphorene/graphene van der Waals heterostructure: a first-principles investigation, Front. Phys., 13 (2018) 137302, https://doi.org/10.1007/s11467-017-0736-0. [36] S.L. Zhang Z. Yan Y.F. Li Z.F. Chen H.B. Zeng Atomically Thin Arsenene and Antimonene: semimetal-Semiconductor and Indirect-Direct Band-Gap Transitions Angew. Chem., Int. Ed. 54 2015 3112 3115 10.1002/anie.201411246 S.L. Zhang, Z. Yan, Y.F. Li, Z.F. Chen, H.B. Zeng, Atomically Thin Arsenene and Antimonene: semimetal-Semiconductor and Indirect-Direct Band-Gap Transitions, Angew. Chem., Int. Ed., 54 (2015) 3112–3115, https://doi.org/10.1002/anie.201411246. [37] J.P. Ji X.F. Song J.Z. Liu Z. Yan C.X. Huo S.L. Zhang M. Su L. Liao W.H. Wang Z.H. Ni Y.F. Hao H.B. Zeng Two-dimensional antimonene single crystals grown by van der Waals epitaxy Nat. Commun. 7 2016 13352 10.1038/ncomms13352 J.P. Ji, X.F. Song, J.Z. Liu, Z. Yan, C.X. Huo, S.L. Zhang, M. Su, L. Liao, W.H. Wang, Z.H. Ni, Y.F. Hao, H.B. Zeng, Two-dimensional antimonene single crystals grown by van der Waals epitaxy, Nat. Commun., 7 (2016) 13352, https://doi.org/10.1038/ncomms13352. [38] A.J. Mannix X.F. Zhou B. Kiraly J.D. Wood D. Alducin B.D. Myers X.L. Liu B.L. Fisher U. Santiago J.R. Guest M.J. Yacaman A. Ponce A.R. Oganov M.C. Hersam N.P. Guisinger Synthesis of borophenes: anisotropic, two-dimensional boron polymorphs Science 350 2015 1513 1516 10.1126/science.aad1080 A.J. Mannix, X.F. Zhou, B. Kiraly, J.D. Wood, D. Alducin, B.D. Myers, X.L. Liu, B.L. Fisher, U. Santiago, J.R. Guest, M.J. Yacaman, A. Ponce, A.R. Oganov, M.C. Hersam, N.P. Guisinger, Synthesis of borophenes: anisotropic, two-dimensional boron polymorphs, Science, 350 (2015) 1513–1516, https://doi.org/10.1126/science.aad1080. [39] B.J. Feng J. Zhang Q. Zhong W.B. Li S. Li H. Li P. Cheng S. Meng L. Chen K.H. Wu Experimental realization of two-dimensional boron sheets Nat. Chem. 8 2016 564 569 10.1038/nchem.2491 B.J. Feng, J. Zhang, Q. Zhong, W.B. Li, S. Li, H. Li, P. Cheng, S. Meng, L. Chen, K.H. Wu, Experimental realization of two-dimensional boron sheets, Nat. Chem., 8 (2016) 564–569, https://doi.org/10.1038/nchem.2491. [40] L. Shi C.Y. Ling Y.X. Ouyang J.L. Wang High intrinsic catalytic activity of two-dimensional boron monolayers for the hydrogen evolution reaction Nanoscale 9 2017 533 537 10.1039/c6nr06621f L. Shi, C.Y. Ling, Y.X. Ouyang, J.L. Wang, High intrinsic catalytic activity of two-dimensional boron monolayers for the hydrogen evolution reaction, Nanoscale, 9 (2017) 533–537, https://doi.org/10.1039/c6nr06621f. [41] Y. Singh S. Back Y. Jung Computational exploration of borophane-supported single transition metal atoms as potential oxygen reduction and evolution electrocatalysts Phys. Chem. Chem. Phys. 20 2018 21095 21104 10.1039/c8cp03130d Y. Singh, S. Back, Y. Jung, Computational exploration of borophane-supported single transition metal atoms as potential oxygen reduction and evolution electrocatalysts, Phys. Chem. Chem. Phys., 20 (2018) 21095–21104, https://doi.org/10.1039/c8cp03130d. [42] S.H. Mir S. Chakraborty P.C. Jha J. Wärnå H. Soni P.K. Jha R. Ahuja Two-dimensional boron: lightest catalyst for hydrogen and oxygen evolution reaction Appl. Phys. Lett. 109 2016 053903 10.1063/1.4960102 S.H. Mir, S. Chakraborty, P.C. Jha, J. Wärnå, H. Soni, P.K. Jha, R. Ahuja, Two-dimensional boron: lightest catalyst for hydrogen and oxygen evolution reaction, Appl. Phys. Lett., 109 (2016) 053903, https://doi.org/10.1063/1.4960102. [43] T.B. Tai M.T. Nguyen Interaction Mechanism of CO2 Ambient Adsorption on Transition-Metal-Coated Boron Sheets CHEM-EUR J 19 2013 2942 2946 10.1002/chem.201203664 T.B. Tai, M.T. Nguyen, Interaction Mechanism of CO2 Ambient Adsorption on Transition-Metal-Coated Boron Sheets, CHEM-EUR J, 19 (2013) 2942–2946, https://doi.org/10.1002/chem.201203664. [44] C.S. Huang A. Murat V. Babar E. Montes U. Schwingenschlögl Adsorption of the Gas Molecules NH3, NO, NO2, and CO on Borophene J. Phys. Chem. C 122 2018 14665 14670 10.1021/acs.jpcc.8b03811 C.S. Huang, A. Murat, V. Babar, E. Montes, U. Schwingenschlögl, Adsorption of the Gas Molecules NH3, NO, NO2, and CO on Borophene, J. Phys. Chem. C, 122 (2018) 14665–14670, https://doi.org/10.1021/acs.jpcc.8b03811. [45] P.E. Blöchl Projector augmented-wave method Phys. Rev. B 50 1994 17953 17979 10.1103/PhysRevB.50.17953 P.E. Blöchl, Projector augmented-wave method, Phys. Rev. B, 50 (1994) 17953–17979, https://doi.org/10.1103/PhysRevB.50.17953. [46] J.P. Perdew K. Burke M. Ernzerhof Generalized Gradient Approximation Made Simple Phys. Rev. Lett. 77 1996 3865 3868 10.1103/PhysRevLett.77.3865 J.P. Perdew, K. Burke, M. Ernzerhof, Generalized Gradient Approximation Made Simple, Phys. Rev. Lett., 77 (1996) 3865–3868, https://doi.org/10.1103/PhysRevLett.77.3865. [47] J.P. Perdew K. Burke Y. Wang Generalized gradient approximation for the exchange-correlation hole of a many-electron system Phys. Rev. B 54 1996 16533 16539 10.1103/PhysRevB.54.16533 J.P. Perdew, K. Burke, Y. Wang, Generalized gradient approximation for the exchange-correlation hole of a many-electron system, Phys. Rev. B, 54 (1996) 16533–16539, https://doi.org/10.1103/PhysRevB.54.16533. [48] S. Grimme J. Antony S. Ehrlich H. Krieg A consistent and accurate ab initio parametrization of density functional dispersion correction (DFT-D) for the 94 elements H-Pu J. Chem. Phys. 132 2010 154104 10.1063/1.3382344 S. Grimme, J. Antony, S. Ehrlich, H. Krieg, A consistent and accurate ab initio parametrization of density functional dispersion correction (DFT-D) for the 94 elements H-Pu, J. Chem. Phys., 132 (2010) 154104, https://doi.org/10.1063/1.3382344. [49] H.C. Andersen Molecular dynamics simulations at constant pressure and/or temperature J. Chem. Phys. 72 1980 2384 2393 10.1063/1.439486 H.C. Andersen, Molecular dynamics simulations at constant pressure and/or temperature, J. Chem. Phys., 72 (1980) 2384–2393, https://doi.org/10.1063/1.439486. [50] S.G. Moustafa A.J. Schultz D.A. Kofke Effects of thermostatting in molecular dynamics on anharmonic properties of crystals: application to fcc Al at high pressure and temperature J. Chem. Phys. 149 2018 124109 10.1063/1.5043614 S.G. Moustafa, A.J. Schultz, D.A. Kofke, Effects of thermostatting in molecular dynamics on anharmonic properties of crystals: application to fcc Al at high pressure and temperature, J. Chem. Phys., 149 (2018) 124109, https://doi.org/10.1063/1.5043614. [51] A.A. Peterson F. Abild-Pedersen F. Studt J. Rossmeisl J.K. Nørskov How copper catalyzes the electroreduction of carbon dioxide into hydrocarbon fuels Energ. Environ. Sci. 3 2010 1311 1315 10.1039/C0EE00071J A.A. Peterson, F. Abild-Pedersen, F. Studt, J. Rossmeisl, J.K. Nørskov, How copper catalyzes the electroreduction of carbon dioxide into hydrocarbon fuels, Energ. Environ. Sci., 3 (2010) 1311–1315, https://doi.org/10.1039/C0EE00071J. [52] B. Peng H. Zhang H. Shao Y. Xu R. Zhang H. Zhu The electronic, optical, and thermodynamic properties of borophene from first-principles calculations J. Mater. Chem. C 4 2016 3592 3598 10.1039/C6TC00115G B. Peng, H. Zhang, H. Shao, Y. Xu, R. Zhang, H. Zhu, The electronic, optical, and thermodynamic properties of borophene from first-principles calculations, J. Mater. Chem. C, 4 (2016) 3592–3598, https://doi.org/10.1039/C6TC00115G.",
+      "scopus-id": "85204456828",
+      "coredata": {
+        "eid": "1-s2.0-S2468823124007387",
+        "dc:description": "The electrocatalytic reduction of NO (NORR) and selective catalytic reduction of NO by CO (CO-SCR) are the two most attractive approaches for selective conversion of NO. Herein, a bifunctional metal-free catalyst 2-Pmmn borophene is reported that is effective for both NORR and CO-SCR. NO can form NH3 and N2 through NORR and CO-SCR respectively. The results show that NO chemically adsorbed on the surface of borophene through the NO terminal can be electrocatalytically reduced to NH3. The optimal reaction path for NO to generate NH3 is through the protonation process of *NHO instead of *NOH. The rate-determining step is the hydrogenation of *NH2O to *NH2OH, and the free energy increases by 0.41 eV. At the same time, NO can also react with CO on the surface of borophene to form N2 and CO2. First, NO can form chemically adsorbed ONNO intermediate through NN coupling, then ONNO can be denitrified to form N2 and residual oxygen, and finally residual oxygen and CO can generate CO2 through the LH mechanism. The rate-determining step of the reaction is the NN coupling process of NO, and activation energy barrier is 1.27 eV. The present work provides theoretical insights for the effective conversion of NO.",
+        "openArchiveArticle": "false",
+        "prism:coverDate": "2024-12-31",
+        "openaccessUserLicense": null,
+        "prism:aggregationType": "Journal",
+        "prism:url": "https://api.elsevier.com/content/article/pii/S2468823124007387",
+        "dc:creator": [
+          {
+            "@_fa": "true",
+            "$": "Liu, Pengfei"
+          },
+          {
+            "@_fa": "true",
+            "$": "Feng, Xiaoying"
+          },
+          {
+            "@_fa": "true",
+            "$": "Wang, Mingqian"
+          },
+          {
+            "@_fa": "true",
+            "$": "Hu, Wanfei"
+          },
+          {
+            "@_fa": "true",
+            "$": "Gao, Xing"
+          },
+          {
+            "@_fa": "true",
+            "$": "Xing, Yanyan"
+          },
+          {
+            "@_fa": "true",
+            "$": "Wang, Qiang"
+          },
+          {
+            "@_fa": "true",
+            "$": "Zhang, Junying"
+          }
+        ],
+        "link": [
+          {
+            "@_fa": "true",
+            "@rel": "self",
+            "@href": "https://api.elsevier.com/content/article/pii/S2468823124007387"
+          },
+          {
+            "@_fa": "true",
+            "@rel": "scidir",
+            "@href": "https://www.sciencedirect.com/science/article/pii/S2468823124007387"
+          }
+        ],
+        "dc:format": "application/json",
+        "openaccessType": null,
+        "pii": "S2468-8231(24)00738-7",
+        "prism:volume": "569",
+        "articleNumber": "114556",
+        "prism:publisher": "Elsevier B.V. All rights are reserved, including those for text and data mining, AI training, and similar technologies.",
+        "dc:title": "Theoretical study on borophene as metal-free catalyst for selective conversion of NO",
+        "prism:copyright": "© 2024 Elsevier B.V. All rights are reserved, including those for text and data mining, AI training, and similar technologies.",
+        "openaccess": "0",
+        "prism:issn": "24688231",
+        "dcterms:subject": [
+          {
+            "@_fa": "true",
+            "$": "2-Pmmn borophene"
+          },
+          {
+            "@_fa": "true",
+            "$": "NORR"
+          },
+          {
+            "@_fa": "true",
+            "$": "Co-SCR"
+          },
+          {
+            "@_fa": "true",
+            "$": "Reaction mechanism"
+          },
+          {
+            "@_fa": "true",
+            "$": "Density functional theory"
+          }
+        ],
+        "openaccessArticle": "false",
+        "prism:publicationName": "Molecular Catalysis",
+        "openaccessSponsorType": null,
+        "prism:pageRange": "114556",
+        "pubType": "fla",
+        "prism:coverDisplayDate": "December 2024",
+        "prism:doi": "10.1016/j.mcat.2024.114556",
+        "prism:startingPage": "114556",
+        "dc:identifier": "doi:10.1016/j.mcat.2024.114556",
+        "openaccessSponsorName": null
+      },
+      "objects": {
+        "object": [
+          {
+            "@category": "standard",
+            "@height": "582",
+            "@width": "508",
+            "@_fa": "true",
+            "$": "https://api.elsevier.com/content/object/eid/1-s2.0-S2468823124007387-gr9.jpg?httpAccept=%2A%2F%2A",
+            "@multimediatype": "JPEG image file",
+            "@type": "IMAGE-DOWNSAMPLED",
+            "@size": "80668",
+            "@ref": "gr9",
+            "@mimetype": "image/jpeg"
+          },
+          {
+            "@category": "standard",
+            "@height": "494",
+            "@width": "565",
+            "@_fa": "true",
+            "$": "https://api.elsevier.com/content/object/eid/1-s2.0-S2468823124007387-gr7.jpg?httpAccept=%2A%2F%2A",
+            "@multimediatype": "JPEG image file",
+            "@type": "IMAGE-DOWNSAMPLED",
+            "@size": "95509",
+            "@ref": "gr7",
+            "@mimetype": "image/jpeg"
+          },
+          {
+            "@category": "standard",
+            "@height": "396",
+            "@width": "678",
+            "@_fa": "true",
+            "$": "https://api.elsevier.com/content/object/eid/1-s2.0-S2468823124007387-gr8.jpg?httpAccept=%2A%2F%2A",
+            "@multimediatype": "JPEG image file",
+            "@type": "IMAGE-DOWNSAMPLED",
+            "@size": "101317",
+            "@ref": "gr8",
+            "@mimetype": "image/jpeg"
+          },
+          {
+            "@category": "standard",
+            "@height": "291",
+            "@width": "508",
+            "@_fa": "true",
+            "$": "https://api.elsevier.com/content/object/eid/1-s2.0-S2468823124007387-gr5.jpg?httpAccept=%2A%2F%2A",
+            "@multimediatype": "JPEG image file",
+            "@type": "IMAGE-DOWNSAMPLED",
+            "@size": "50888",
+            "@ref": "gr5",
+            "@mimetype": "image/jpeg"
+          },
+          {
+            "@category": "standard",
+            "@height": "393",
+            "@width": "678",
+            "@_fa": "true",
+            "$": "https://api.elsevier.com/content/object/eid/1-s2.0-S2468823124007387-gr6.jpg?httpAccept=%2A%2F%2A",
+            "@multimediatype": "JPEG image file",
+            "@type": "IMAGE-DOWNSAMPLED",
+            "@size": "98675",
+            "@ref": "gr6",
+            "@mimetype": "image/jpeg"
+          },
+          {
+            "@category": "standard",
+            "@height": "386",
+            "@width": "678",
+            "@_fa": "true",
+            "$": "https://api.elsevier.com/content/object/eid/1-s2.0-S2468823124007387-gr3.jpg?httpAccept=%2A%2F%2A",
+            "@multimediatype": "JPEG image file",
+            "@type": "IMAGE-DOWNSAMPLED",
+            "@size": "94373",
+            "@ref": "gr3",
+            "@mimetype": "image/jpeg"
+          },
+          {
+            "@category": "standard",
+            "@height": "536",
+            "@width": "678",
+            "@_fa": "true",
+            "$": "https://api.elsevier.com/content/object/eid/1-s2.0-S2468823124007387-gr4.jpg?httpAccept=%2A%2F%2A",
+            "@multimediatype": "JPEG image file",
+            "@type": "IMAGE-DOWNSAMPLED",
+            "@size": "112520",
+            "@ref": "gr4",
+            "@mimetype": "image/jpeg"
+          },
+          {
+            "@category": "standard",
+            "@height": "247",
+            "@width": "376",
+            "@_fa": "true",
+            "$": "https://api.elsevier.com/content/object/eid/1-s2.0-S2468823124007387-gr1.jpg?httpAccept=%2A%2F%2A",
+            "@multimediatype": "JPEG image file",
+            "@type": "IMAGE-DOWNSAMPLED",
+            "@size": "46798",
+            "@ref": "gr1",
+            "@mimetype": "image/jpeg"
+          },
+          {
+            "@category": "standard",
+            "@height": "398",
+            "@width": "678",
+            "@_fa": "true",
+            "$": "https://api.elsevier.com/content/object/eid/1-s2.0-S2468823124007387-gr2.jpg?httpAccept=%2A%2F%2A",
+            "@multimediatype": "JPEG image file",
+            "@type": "IMAGE-DOWNSAMPLED",
+            "@size": "96082",
+            "@ref": "gr2",
+            "@mimetype": "image/jpeg"
+          },
+          {
+            "@category": "standard",
+            "@height": "200",
+            "@width": "354",
+            "@_fa": "true",
+            "$": "https://api.elsevier.com/content/object/eid/1-s2.0-S2468823124007387-ga1.jpg?httpAccept=%2A%2F%2A",
+            "@multimediatype": "JPEG image file",
+            "@type": "IMAGE-DOWNSAMPLED",
+            "@size": "32017",
+            "@ref": "ga1",
+            "@mimetype": "image/jpeg"
+          },
+          {
+            "@category": "thumbnail",
+            "@height": "164",
+            "@width": "143",
+            "@_fa": "true",
+            "$": "https://api.elsevier.com/content/object/eid/1-s2.0-S2468823124007387-gr9.sml?httpAccept=%2A%2F%2A",
+            "@multimediatype": "GIF image file",
+            "@type": "IMAGE-THUMBNAIL",
+            "@size": "11592",
+            "@ref": "gr9",
+            "@mimetype": "image/gif"
+          },
+          {
+            "@category": "thumbnail",
+            "@height": "164",
+            "@width": "188",
+            "@_fa": "true",
+            "$": "https://api.elsevier.com/content/object/eid/1-s2.0-S2468823124007387-gr7.sml?httpAccept=%2A%2F%2A",
+            "@multimediatype": "GIF image file",
+            "@type": "IMAGE-THUMBNAIL",
+            "@size": "18676",
+            "@ref": "gr7",
+            "@mimetype": "image/gif"
+          },
+          {
+            "@category": "thumbnail",
+            "@height": "128",
+            "@width": "219",
+            "@_fa": "true",
+            "$": "https://api.elsevier.com/content/object/eid/1-s2.0-S2468823124007387-gr8.sml?httpAccept=%2A%2F%2A",
+            "@multimediatype": "GIF image file",
+            "@type": "IMAGE-THUMBNAIL",
+            "@size": "17565",
+            "@ref": "gr8",
+            "@mimetype": "image/gif"
+          },
+          {
+            "@category": "thumbnail",
+            "@height": "126",
+            "@width": "219",
+            "@_fa": "true",
+            "$": "https://api.elsevier.com/content/object/eid/1-s2.0-S2468823124007387-gr5.sml?httpAccept=%2A%2F%2A",
+            "@multimediatype": "GIF image file",
+            "@type": "IMAGE-THUMBNAIL",
+            "@size": "11618",
+            "@ref": "gr5",
+            "@mimetype": "image/gif"
+          },
+          {
+            "@category": "thumbnail",
+            "@height": "127",
+            "@width": "219",
+            "@_fa": "true",
+            "$": "https://api.elsevier.com/content/object/eid/1-s2.0-S2468823124007387-gr6.sml?httpAccept=%2A%2F%2A",
+            "@multimediatype": "GIF image file",
+            "@type": "IMAGE-THUMBNAIL",
+            "@size": "17411",
+            "@ref": "gr6",
+            "@mimetype": "image/gif"
+          },
+          {
+            "@category": "thumbnail",
+            "@height": "125",
+            "@width": "219",
+            "@_fa": "true",
+            "$": "https://api.elsevier.com/content/object/eid/1-s2.0-S2468823124007387-gr3.sml?httpAccept=%2A%2F%2A",
+            "@multimediatype": "GIF image file",
+            "@type": "IMAGE-THUMBNAIL",
+            "@size": "16844",
+            "@ref": "gr3",
+            "@mimetype": "image/gif"
+          },
+          {
+            "@category": "thumbnail",
+            "@height": "164",
+            "@width": "207",
+            "@_fa": "true",
+            "$": "https://api.elsevier.com/content/object/eid/1-s2.0-S2468823124007387-gr4.sml?httpAccept=%2A%2F%2A",
+            "@multimediatype": "GIF image file",
+            "@type": "IMAGE-THUMBNAIL",
+            "@size": "16622",
+            "@ref": "gr4",
+            "@mimetype": "image/gif"
+          },
+          {
+            "@category": "thumbnail",
+            "@height": "144",
+            "@width": "219",
+            "@_fa": "true",
+            "$": "https://api.elsevier.com/content/object/eid/1-s2.0-S2468823124007387-gr1.sml?httpAccept=%2A%2F%2A",
+            "@multimediatype": "GIF image file",
+            "@type": "IMAGE-THUMBNAIL",
+            "@size": "15319",
+            "@ref": "gr1",
+            "@mimetype": "image/gif"
+          },
+          {
+            "@category": "thumbnail",
+            "@height": "128",
+            "@width": "219",
+            "@_fa": "true",
+            "$": "https://api.elsevier.com/content/object/eid/1-s2.0-S2468823124007387-gr2.sml?httpAccept=%2A%2F%2A",
+            "@multimediatype": "GIF image file",
+            "@type": "IMAGE-THUMBNAIL",
+            "@size": "17213",
+            "@ref": "gr2",
+            "@mimetype": "image/gif"
+          },
+          {
+            "@category": "thumbnail",
+            "@height": "124",
+            "@width": "219",
+            "@_fa": "true",
+            "$": "https://api.elsevier.com/content/object/eid/1-s2.0-S2468823124007387-ga1.sml?httpAccept=%2A%2F%2A",
+            "@multimediatype": "GIF image file",
+            "@type": "IMAGE-THUMBNAIL",
+            "@size": "13768",
+            "@ref": "ga1",
+            "@mimetype": "image/gif"
+          },
+          {
+            "@category": "high",
+            "@height": "2579",
+            "@width": "2250",
+            "@_fa": "true",
+            "$": "https://api.elsevier.com/content/object/eid/1-s2.0-S2468823124007387-gr9_lrg.jpg?httpAccept=%2A%2F%2A",
+            "@multimediatype": "JPEG image file",
+            "@type": "IMAGE-HIGH-RES",
+            "@size": "557974",
+            "@ref": "gr9",
+            "@mimetype": "image/jpeg"
+          },
+          {
+            "@category": "high",
+            "@height": "2184",
+            "@width": "2500",
+            "@_fa": "true",
+            "$": "https://api.elsevier.com/content/object/eid/1-s2.0-S2468823124007387-gr7_lrg.jpg?httpAccept=%2A%2F%2A",
+            "@multimediatype": "JPEG image file",
+            "@type": "IMAGE-HIGH-RES",
+            "@size": "647163",
+            "@ref": "gr7",
+            "@mimetype": "image/jpeg"
+          },
+          {
+            "@category": "high",
+            "@height": "1753",
+            "@width": "3000",
+            "@_fa": "true",
+            "$": "https://api.elsevier.com/content/object/eid/1-s2.0-S2468823124007387-gr8_lrg.jpg?httpAccept=%2A%2F%2A",
+            "@multimediatype": "JPEG image file",
+            "@type": "IMAGE-HIGH-RES",
+            "@size": "677865",
+            "@ref": "gr8",
+            "@mimetype": "image/jpeg"
+          },
+          {
+            "@category": "high",
+            "@height": "1291",
+            "@width": "2250",
+            "@_fa": "true",
+            "$": "https://api.elsevier.com/content/object/eid/1-s2.0-S2468823124007387-gr5_lrg.jpg?httpAccept=%2A%2F%2A",
+            "@multimediatype": "JPEG image file",
+            "@type": "IMAGE-HIGH-RES",
+            "@size": "336355",
+            "@ref": "gr5",
+            "@mimetype": "image/jpeg"
+          },
+          {
+            "@category": "high",
+            "@height": "1741",
+            "@width": "3000",
+            "@_fa": "true",
+            "$": "https://api.elsevier.com/content/object/eid/1-s2.0-S2468823124007387-gr6_lrg.jpg?httpAccept=%2A%2F%2A",
+            "@multimediatype": "JPEG image file",
+            "@type": "IMAGE-HIGH-RES",
+            "@size": "659981",
+            "@ref": "gr6",
+            "@mimetype": "image/jpeg"
+          },
+          {
+            "@category": "high",
+            "@height": "1709",
+            "@width": "3000",
+            "@_fa": "true",
+            "$": "https://api.elsevier.com/content/object/eid/1-s2.0-S2468823124007387-gr3_lrg.jpg?httpAccept=%2A%2F%2A",
+            "@multimediatype": "JPEG image file",
+            "@type": "IMAGE-HIGH-RES",
+            "@size": "635767",
+            "@ref": "gr3",
+            "@mimetype": "image/jpeg"
+          },
+          {
+            "@category": "high",
+            "@height": "2370",
+            "@width": "3000",
+            "@_fa": "true",
+            "$": "https://api.elsevier.com/content/object/eid/1-s2.0-S2468823124007387-gr4_lrg.jpg?httpAccept=%2A%2F%2A",
+            "@multimediatype": "JPEG image file",
+            "@type": "IMAGE-HIGH-RES",
+            "@size": "749198",
+            "@ref": "gr4",
+            "@mimetype": "image/jpeg"
+          },
+          {
+            "@category": "high",
+            "@height": "1094",
+            "@width": "1667",
+            "@_fa": "true",
+            "$": "https://api.elsevier.com/content/object/eid/1-s2.0-S2468823124007387-gr1_lrg.jpg?httpAccept=%2A%2F%2A",
+            "@multimediatype": "JPEG image file",
+            "@type": "IMAGE-HIGH-RES",
+            "@size": "288473",
+            "@ref": "gr1",
+            "@mimetype": "image/jpeg"
+          },
+          {
+            "@category": "high",
+            "@height": "1760",
+            "@width": "3000",
+            "@_fa": "true",
+            "$": "https://api.elsevier.com/content/object/eid/1-s2.0-S2468823124007387-gr2_lrg.jpg?httpAccept=%2A%2F%2A",
+            "@multimediatype": "JPEG image file",
+            "@type": "IMAGE-HIGH-RES",
+            "@size": "646311",
+            "@ref": "gr2",
+            "@mimetype": "image/jpeg"
+          },
+          {
+            "@category": "high",
+            "@height": "886",
+            "@width": "1568",
+            "@_fa": "true",
+            "$": "https://api.elsevier.com/content/object/eid/1-s2.0-S2468823124007387-ga1_lrg.jpg?httpAccept=%2A%2F%2A",
+            "@multimediatype": "JPEG image file",
+            "@type": "IMAGE-HIGH-RES",
+            "@size": "192558",
+            "@ref": "ga1",
+            "@mimetype": "image/jpeg"
+          },
+          {
+            "@category": "standard",
+            "@_fa": "true",
+            "$": "https://api.elsevier.com/content/object/eid/1-s2.0-S2468823124007387-mmc1.docx?httpAccept=%2A%2F%2A",
+            "@multimediatype": "Microsoft Word file",
+            "@type": "APPLICATION",
+            "@size": "167933",
+            "@ref": "mmc1",
+            "@mimetype": "application/word"
+          },
+          {
+            "@category": "thumbnail",
+            "@_fa": "true",
+            "$": "https://api.elsevier.com/content/object/eid/1-s2.0-S2468823124007387-si1.svg?httpAccept=%2A%2F%2A",
+            "@multimediatype": "Scalable Vector Graphics file",
+            "@type": "ALTIMG",
+            "@size": "9954",
+            "@ref": "si1",
+            "@mimetype": "image/svg+xml"
+          },
+          {
+            "@category": "thumbnail",
+            "@_fa": "true",
+            "$": "https://api.elsevier.com/content/object/eid/1-s2.0-S2468823124007387-si2.svg?httpAccept=%2A%2F%2A",
+            "@multimediatype": "Scalable Vector Graphics file",
+            "@type": "ALTIMG",
+            "@size": "5444",
+            "@ref": "si2",
+            "@mimetype": "image/svg+xml"
+          },
+          {
+            "@category": "thumbnail",
+            "@_fa": "true",
+            "$": "https://api.elsevier.com/content/object/eid/1-s2.0-S2468823124007387-si3.svg?httpAccept=%2A%2F%2A",
+            "@multimediatype": "Scalable Vector Graphics file",
+            "@type": "ALTIMG",
+            "@size": "1159",
+            "@ref": "si3",
+            "@mimetype": "image/svg+xml"
+          },
+          {
+            "@category": "thumbnail",
+            "@_fa": "true",
+            "$": "https://api.elsevier.com/content/object/eid/1-s2.0-S2468823124007387-si4.svg?httpAccept=%2A%2F%2A",
+            "@multimediatype": "Scalable Vector Graphics file",
+            "@type": "ALTIMG",
+            "@size": "2431",
+            "@ref": "si4",
+            "@mimetype": "image/svg+xml"
+          },
+          {
+            "@category": "thumbnail",
+            "@_fa": "true",
+            "$": "https://api.elsevier.com/content/object/eid/1-s2.0-S2468823124007387-si5.svg?httpAccept=%2A%2F%2A",
+            "@multimediatype": "Scalable Vector Graphics file",
+            "@type": "ALTIMG",
+            "@size": "1326",
+            "@ref": "si5",
+            "@mimetype": "image/svg+xml"
+          }
+        ]
+      },
+      "link": {
+        "@rel": "abstract",
+        "@href": "https://api.elsevier.com/content/abstract/scopus_id/85204456828"
+      }
+    }
+  }
+}

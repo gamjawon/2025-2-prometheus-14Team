@@ -1,0 +1,570 @@
+{
+  "metadata": {
+    "title": "Theoretical study on water gas shift mechanism on MoS<ce:inf loc=post>2</ce:inf> supported single transition metal M (M=Co, Ni, Cu) catalysts",
+    "authors": "; ; ",
+    "journal": "Molecular Catalysis",
+    "date": "2022-10-31",
+    "doi": "10.1016/j.mcat.2022.112713",
+    "abstract": "",
+    "uri": "https://api.elsevier.com/content/article/pii/S2468823122005995",
+    "pii": "S2468823122005995"
+  },
+  "fulltext": {
+    "full-text-retrieval-response": {
+      "scopus-eid": "2-s2.0-85138990658",
+      "originalText": "serial JL 315758 291210 291744 291790 291809 31 Molecular Catalysis MOLECULARCATALYSIS 2022-10-01 2022-10-01 2022-10-01 2022-10-01 2023-04-12T11:58:50 1-s2.0-S2468823122005995 S2468-8231(22)00599-5 S2468823122005995 10.1016/j.mcat.2022.112713 S300 S300.1 FULL-TEXT 1-s2.0-S2468823122X0014X 2024-06-26T17:47:42.309552Z 0 0 20221001 20221031 2022 2022-10-01T15:59:42.988836Z absattachment articleinfo articlenumber articletitlenorm authfirstinitialnorm authfirstsurnamenorm cid cids contenttype copyright crossmark dateloaded dateloadedtxt datesearch datesort dateupdated dco docsubtype doctype doi eid ewtransactionid hubeid indexeddate issn issnnorm itemstage itemtransactionid itemweight openaccess openarchive pg pgfirst pii piinorm pubdateend pubdatestart pubdatetxt pubyr sectiontitle sortorder srctitle srctitlenorm srctype ssids alllist content subj subheadings suppl tomb volfirst volissue volumelist webpdf webpdfpagecount yearnav figure table e-component body mmlmath acknowledge affil appendices articletitle auth authfirstini authfull authkeywords authlast highlightsabst orcid primabst ref specialabst 2468-8231 24688231 true 531 531 C Volume 531 56 112713 112713 112713 202210 October 2022 2022-10-01 2022-10-31 2022 Regular Papers article fla © 2022 Elsevier B.V. All rights reserved. THEORETICALSTUDYWATERGASSHIFTMECHANISMMOS2SUPPORTEDSINGLETRANSITIONMETALMMCONICUCATALYSTS DU Y Introduction Computational details Calculation method Model construction Results and discussion Structural stability analysis Adsorption configuration and energy analysis Analysis of WGSR mechanism Conclusion Acknowledgment Appendix Supplementary materials References BANG 2021 128473 G ZHANG 2022 6045 6055 L BARAJ 2021 119817 E ZHANG 2022 133670 G MICHAELNAGUIB 2012 1322 1331 O LI 2020 5003 5013 S LOLLA 2020 144892 S LI 2021 11415 11421 J SUN 2021 5942 5950 L DU 2022 Y DING 2018 1801370 J ZHANG 2019 1900653 J XIE 2013 5807 5813 J SU 2020 20411 20416 H SHI 2016 10664 10672 J ZHENG 2021 162 182 J JO 2021 57 64 D LIN 2011 18582 18588 C XU 2017 7600 7609 M YAN 2018 182 193 H YANG 2021 124908 C FANG 2020 110757 L ZHANG 2020 123684 G CHANG 2019 26243 26249 C LI 2014 1067 1075 H MANZELI 2017 17033 S WU 2021 121547 C CHU 2016 020101 S YANG 2021 2 14 S ZHANG 2021 89 94 Z MENG 2020 464 476 Y ZENG 2019 120814 Q SHIN 2021 147047 D YU 2021 133 141 X BREWER 2000 603 607 L GAO 2021 8394 8400 B WANG 2016 5419 5430 S KATSIEV 2016 14711 14715 K OLSEN 2010 2133 2143 L HAMMER 1995 238 240 J ACERBI 2013 7737 7741 N HAMMER 1995 211 220 J ZHU 2019 11303 11309 T WANG 2020 4298 4308 X ZHANG 2022 106435 L ZHANG 2023 129916 G YUAN 2022 120965 X KAUR 2021 122065 T HASSANPOUR 2021 124 A ZHANG 2019 1900653 J GOKHALE 2008 1402 1414 A WANG 2018 13879 13886 R FAJIN 2021 148589 J NOOR 2020 118430 T QI 2019 5231 K DUX2022X112713 DUX2022X112713XY 2024-10-01T00:00:00.000Z 2024-10-01T00:00:00.000Z http://creativecommons.org/licenses/by-nc-nd/4.0/ © 2022 Elsevier B.V. All rights reserved. 2022-10-06T06:32:56.486Z http://vtw.elsevier.com/data/voc/AddOnTypes/50.7/aggregated-refined National Natural Science Foundation of China 51871091 92061126 NSFC National Natural Science Foundation of China http://data.elsevier.com/vocabulary/SciValFunders/501100001809 http://sws.geonames.org/1814991/ Zhejiang Leading Innovation and Entrepreneurship Team Project 2018R01008 This work is supported by National Natural Science Foundation of China (92061126, 51871091) and Zhejiang Leading Innovation and Entrepreneurship Team Project (2018R01008). https://doi.org/10.15223/policy-017 https://doi.org/10.15223/policy-037 https://doi.org/10.15223/policy-012 https://doi.org/10.15223/policy-029 https://doi.org/10.15223/policy-004 item S2468-8231(22)00599-5 S2468823122005995 1-s2.0-S2468823122005995 10.1016/j.mcat.2022.112713 315758 2023-04-12T12:18:01.928278Z 2022-10-01 2022-10-31 1-s2.0-S2468823122005995-main.pdf https://s3-eu-west-1.amazonaws.com/prod-ucs-content-store-eu-west/content/pii:S2468823122005995/MAIN/application/pdf/3c022072bed80994592b04eccbd260d6/main.pdf main.pdf pdf true 7978003 MAIN 9 1-s2.0-S2468823122005995-main_1.png https://s3-eu-west-1.amazonaws.com/prod-ucs-content-store-eu-west/content/pii:S2468823122005995/PREVIEW/image/png/5befeddd7bd6d84b9c2a088a60d3f92c/main_1.png main_1.png png 58706 849 656 IMAGE-WEB-PDF 1 1-s2.0-S2468823122005995-gr2.jpg https://s3-eu-west-1.amazonaws.com/prod-ucs-content-store-eu-west/content/pii:S2468823122005995/gr2/DOWNSAMPLED/image/jpeg/2e2a4742cbeca845aea03c56f4fc2575/gr2.jpg gr2 gr2.jpg jpg 55346 177 659 IMAGE-DOWNSAMPLED 1-s2.0-S2468823122005995-ga1.jpg https://s3-eu-west-1.amazonaws.com/prod-ucs-content-store-eu-west/content/pii:S2468823122005995/ga1/DOWNSAMPLED/image/jpeg/9978a297dfa6b0a4a90195963997ddb7/ga1.jpg ga1 true ga1.jpg jpg 21558 200 219 IMAGE-DOWNSAMPLED 1-s2.0-S2468823122005995-gr3.jpg https://s3-eu-west-1.amazonaws.com/prod-ucs-content-store-eu-west/content/pii:S2468823122005995/gr3/DOWNSAMPLED/image/jpeg/19e149ea070cc32748cf2cca7e172a58/gr3.jpg gr3 gr3.jpg jpg 115577 496 715 IMAGE-DOWNSAMPLED 1-s2.0-S2468823122005995-gr4.jpg https://s3-eu-west-1.amazonaws.com/prod-ucs-content-store-eu-west/content/pii:S2468823122005995/gr4/DOWNSAMPLED/image/jpeg/48ce0b1d4dc1769ce068a4d182c54470/gr4.jpg gr4 gr4.jpg jpg 46010 267 395 IMAGE-DOWNSAMPLED 1-s2.0-S2468823122005995-gr5.jpg https://s3-eu-west-1.amazonaws.com/prod-ucs-content-store-eu-west/content/pii:S2468823122005995/gr5/DOWNSAMPLED/image/jpeg/532becf51e6697acce58b99ad8f2c692/gr5.jpg gr5 gr5.jpg jpg 163119 560 715 IMAGE-DOWNSAMPLED 1-s2.0-S2468823122005995-gr1.jpg https://s3-eu-west-1.amazonaws.com/prod-ucs-content-store-eu-west/content/pii:S2468823122005995/gr1/DOWNSAMPLED/image/jpeg/89248df9d46e4a4006461012ba984426/gr1.jpg gr1 gr1.jpg jpg 50691 230 565 IMAGE-DOWNSAMPLED 1-s2.0-S2468823122005995-gr8.jpg https://s3-eu-west-1.amazonaws.com/prod-ucs-content-store-eu-west/content/pii:S2468823122005995/gr8/DOWNSAMPLED/image/jpeg/edf0618cba99da33fcd242e0a15f42f0/gr8.jpg gr8 gr8.jpg jpg 59867 322 772 IMAGE-DOWNSAMPLED 1-s2.0-S2468823122005995-gr6.jpg https://s3-eu-west-1.amazonaws.com/prod-ucs-content-store-eu-west/content/pii:S2468823122005995/gr6/DOWNSAMPLED/image/jpeg/168d870cc431e73a1e2785bc2b5676ad/gr6.jpg gr6 gr6.jpg jpg 32929 283 678 IMAGE-DOWNSAMPLED 1-s2.0-S2468823122005995-gr7.jpg https://s3-eu-west-1.amazonaws.com/prod-ucs-content-store-eu-west/content/pii:S2468823122005995/gr7/DOWNSAMPLED/image/jpeg/4c679828c9554089382841deeff90070/gr7.jpg gr7 gr7.jpg jpg 242161 1017 539 IMAGE-DOWNSAMPLED 1-s2.0-S2468823122005995-gr2.sml https://s3-eu-west-1.amazonaws.com/prod-ucs-content-store-eu-west/content/pii:S2468823122005995/gr2/THUMBNAIL/image/gif/c96ccfcca7e247fd9f5bf49c78323e7b/gr2.sml gr2 gr2.sml sml 10928 59 219 IMAGE-THUMBNAIL 1-s2.0-S2468823122005995-ga1.sml https://s3-eu-west-1.amazonaws.com/prod-ucs-content-store-eu-west/content/pii:S2468823122005995/ga1/THUMBNAIL/image/gif/a77cbf13d110f4945d0f0f7fa8d484fa/ga1.sml ga1 true ga1.sml sml 13371 163 179 IMAGE-THUMBNAIL 1-s2.0-S2468823122005995-gr3.sml https://s3-eu-west-1.amazonaws.com/prod-ucs-content-store-eu-west/content/pii:S2468823122005995/gr3/THUMBNAIL/image/gif/dc77929e46d15808a05479875ee9be09/gr3.sml gr3 gr3.sml sml 14555 152 219 IMAGE-THUMBNAIL 1-s2.0-S2468823122005995-gr4.sml https://s3-eu-west-1.amazonaws.com/prod-ucs-content-store-eu-west/content/pii:S2468823122005995/gr4/THUMBNAIL/image/gif/9a26c25188bb5717b9ac29304ab968f9/gr4.sml gr4 gr4.sml sml 12113 148 219 IMAGE-THUMBNAIL 1-s2.0-S2468823122005995-gr5.sml https://s3-eu-west-1.amazonaws.com/prod-ucs-content-store-eu-west/content/pii:S2468823122005995/gr5/THUMBNAIL/image/gif/a4554a61e8f0e2a8c8cb2f37533cfc7b/gr5.sml gr5 gr5.sml sml 18110 164 209 IMAGE-THUMBNAIL 1-s2.0-S2468823122005995-gr1.sml https://s3-eu-west-1.amazonaws.com/prod-ucs-content-store-eu-west/content/pii:S2468823122005995/gr1/THUMBNAIL/image/gif/2a1026eba598a611a65583550008e073/gr1.sml gr1 gr1.sml sml 10218 89 219 IMAGE-THUMBNAIL 1-s2.0-S2468823122005995-gr8.sml https://s3-eu-west-1.amazonaws.com/prod-ucs-content-store-eu-west/content/pii:S2468823122005995/gr8/THUMBNAIL/image/gif/bd7acf7c64d8cc5badc834993e2a8725/gr8.sml gr8 gr8.sml sml 7681 91 219 IMAGE-THUMBNAIL 1-s2.0-S2468823122005995-gr6.sml https://s3-eu-west-1.amazonaws.com/prod-ucs-content-store-eu-west/content/pii:S2468823122005995/gr6/THUMBNAIL/image/gif/670c74eaa5c8ff9faf4c98fcf5b84b65/gr6.sml gr6 gr6.sml sml 5910 91 219 IMAGE-THUMBNAIL 1-s2.0-S2468823122005995-gr7.sml https://s3-eu-west-1.amazonaws.com/prod-ucs-content-store-eu-west/content/pii:S2468823122005995/gr7/THUMBNAIL/image/gif/f8acdea4b1a7ae78562c3fb52cce0185/gr7.sml gr7 gr7.sml sml 11254 164 87 IMAGE-THUMBNAIL 1-s2.0-S2468823122005995-gr2_lrg.jpg https://s3-eu-west-1.amazonaws.com/prod-ucs-content-store-eu-west/content/pii:S2468823122005995/HIGHRES/image/jpeg/8b19ca48db59ed363178f6777797bd96/gr2_lrg.jpg gr2 gr2_lrg.jpg jpg 397798 783 2917 IMAGE-HIGH-RES 1-s2.0-S2468823122005995-ga1_lrg.jpg https://s3-eu-west-1.amazonaws.com/prod-ucs-content-store-eu-west/content/pii:S2468823122005995/HIGHRES/image/jpeg/4020112ead2f724b5d4c1a29d9dc02e8/ga1_lrg.jpg ga1 true ga1_lrg.jpg jpg 134577 886 970 IMAGE-HIGH-RES 1-s2.0-S2468823122005995-gr3_lrg.jpg https://s3-eu-west-1.amazonaws.com/prod-ucs-content-store-eu-west/content/pii:S2468823122005995/HIGHRES/image/jpeg/de9da370fa0ddfe790b8daeb489a7372/gr3_lrg.jpg gr3 gr3_lrg.jpg jpg 942643 2199 3168 IMAGE-HIGH-RES 1-s2.0-S2468823122005995-gr4_lrg.jpg https://s3-eu-west-1.amazonaws.com/prod-ucs-content-store-eu-west/content/pii:S2468823122005995/HIGHRES/image/jpeg/94e6279a76281d9a0e20897ab99782de/gr4_lrg.jpg gr4 gr4_lrg.jpg jpg 336302 1183 1751 IMAGE-HIGH-RES 1-s2.0-S2468823122005995-gr5_lrg.jpg https://s3-eu-west-1.amazonaws.com/prod-ucs-content-store-eu-west/content/pii:S2468823122005995/HIGHRES/image/jpeg/596699e4b7f652c137910e4e5e899ca7/gr5_lrg.jpg gr5 gr5_lrg.jpg jpg 1183219 2481 3167 IMAGE-HIGH-RES 1-s2.0-S2468823122005995-gr1_lrg.jpg https://s3-eu-west-1.amazonaws.com/prod-ucs-content-store-eu-west/content/pii:S2468823122005995/HIGHRES/image/jpeg/3adf9b7d2ccf0f7a5cdefa675563d64c/gr1_lrg.jpg gr1 gr1_lrg.jpg jpg 411939 1019 2500 IMAGE-HIGH-RES 1-s2.0-S2468823122005995-gr8_lrg.jpg https://s3-eu-west-1.amazonaws.com/prod-ucs-content-store-eu-west/content/pii:S2468823122005995/HIGHRES/image/jpeg/a287dcc084574f828afa03bb96cbe6d4/gr8_lrg.jpg gr8 gr8_lrg.jpg jpg 390047 1428 3419 IMAGE-HIGH-RES 1-s2.0-S2468823122005995-gr6_lrg.jpg https://s3-eu-west-1.amazonaws.com/prod-ucs-content-store-eu-west/content/pii:S2468823122005995/HIGHRES/image/jpeg/edd468f3846eff8ae61bdb394576c623/gr6_lrg.jpg gr6 gr6_lrg.jpg jpg 188867 1251 3000 IMAGE-HIGH-RES 1-s2.0-S2468823122005995-gr7_lrg.jpg https://s3-eu-west-1.amazonaws.com/prod-ucs-content-store-eu-west/content/pii:S2468823122005995/HIGHRES/image/jpeg/74cad86b9572842871db6a99322bb680/gr7_lrg.jpg gr7 gr7_lrg.jpg jpg 2041979 4500 2385 IMAGE-HIGH-RES 1-s2.0-S2468823122005995-mmc1.docx https://s3-eu-west-1.amazonaws.com/prod-ucs-content-store-eu-west/content/pii:S2468823122005995/mmc1/MAIN/application/vnd.openxmlformats-officedocument.wordprocessingml.document/492681c2424bd120ad96ff3ee00769aa/mmc1.docx mmc1 mmc1.docx docx 1306850 APPLICATION 1-s2.0-S2468823122005995-si1.svg https://s3-eu-west-1.amazonaws.com/prod-ucs-content-store-eu-west/content/pii:S2468823122005995/image/svg+xml/15049f62dc1da9f437b56f15b7693e6f/si1.svg si1 si1.svg svg 2476 ALTIMG 1-s2.0-S2468823122005995-si10.svg https://s3-eu-west-1.amazonaws.com/prod-ucs-content-store-eu-west/content/pii:S2468823122005995/image/svg+xml/d9bd2562a7516aef837193bd71e8ba93/si10.svg si10 si10.svg svg 5672 ALTIMG 1-s2.0-S2468823122005995-si11.svg https://s3-eu-west-1.amazonaws.com/prod-ucs-content-store-eu-west/content/pii:S2468823122005995/image/svg+xml/93d258356b8610bbb4bac4202210d177/si11.svg si11 si11.svg svg 487 ALTIMG 1-s2.0-S2468823122005995-si2.svg https://s3-eu-west-1.amazonaws.com/prod-ucs-content-store-eu-west/content/pii:S2468823122005995/image/svg+xml/e26063a844c60efe9b603a4c6bef8fbf/si2.svg si2 si2.svg svg 2309 ALTIMG 1-s2.0-S2468823122005995-si3.svg https://s3-eu-west-1.amazonaws.com/prod-ucs-content-store-eu-west/content/pii:S2468823122005995/image/svg+xml/0ccc505df5a49934aeb69f5a27ad241e/si3.svg si3 si3.svg svg 2116 ALTIMG 1-s2.0-S2468823122005995-si4.svg https://s3-eu-west-1.amazonaws.com/prod-ucs-content-store-eu-west/content/pii:S2468823122005995/image/svg+xml/7423dae271ab549d36c4289b75b053a2/si4.svg si4 si4.svg svg 8073 ALTIMG 1-s2.0-S2468823122005995-si5.svg https://s3-eu-west-1.amazonaws.com/prod-ucs-content-store-eu-west/content/pii:S2468823122005995/image/svg+xml/94da6bccc4d59cf872bd830048be67e9/si5.svg si5 si5.svg svg 9825 ALTIMG 1-s2.0-S2468823122005995-si6.svg https://s3-eu-west-1.amazonaws.com/prod-ucs-content-store-eu-west/content/pii:S2468823122005995/image/svg+xml/9087ae7914a1d87b2754838248b66b17/si6.svg si6 si6.svg svg 10528 ALTIMG 1-s2.0-S2468823122005995-si7.svg https://s3-eu-west-1.amazonaws.com/prod-ucs-content-store-eu-west/content/pii:S2468823122005995/image/svg+xml/9df03d8fe9f4af976bce47bdf586facc/si7.svg si7 si7.svg svg 2231 ALTIMG 1-s2.0-S2468823122005995-si8.svg https://s3-eu-west-1.amazonaws.com/prod-ucs-content-store-eu-west/content/pii:S2468823122005995/image/svg+xml/8275b10f2f817b593730d59b4bf886a1/si8.svg si8 si8.svg svg 2476 ALTIMG 1-s2.0-S2468823122005995-si9.svg https://s3-eu-west-1.amazonaws.com/prod-ucs-content-store-eu-west/content/pii:S2468823122005995/image/svg+xml/f33af5981e75e1031dbca64a829c447a/si9.svg si9 si9.svg svg 4188 ALTIMG 1-s2.0-S2468823122005995-am.pdf https://s3-eu-west-1.amazonaws.com/prod-ucs-content-store-eu-west/content/egi:10DX00T6BX2/MAIN/application/pdf/03dffc76077c38a02fffd27e2898fec5/am.pdf am am.pdf pdf false 1245049 AAM-PDF MCAT 112713 112713 S2468-8231(22)00599-5 10.1016/j.mcat.2022.112713 Elsevier B.V. Fig. 1 Optimized geometries for (a)Co/MoS2, (b)Ni/MoS2, (c)Cu/MoS2. Fig 1 Fig. 2 Deformation charge density of (a)Co/MoS2, (b)Ni/MoS2 and (c)Cu/MoS2 (isovaule=0.036e/ Å3, pink and blue represents the departure and accumulation of charge, and the arrow indicates the direction of charge transfer). Fig 2 Fig. 3 Partial density of states (PDOS) of (a) MoS2, (b) Co/MoS2, (c) Ni/MoS2 and (d) Cu/MoS2. Fig 3 Fig. 4 s, p and d Orbital partial density of state (PDOS)((a)MoS2, (b)Co/MoS2, (c)Ni/MoS2 and (d)Cu/MoS2). Fig 4 Fig. 5 Optimal adsorption configuration of adsorbed species on pristine MoS2 and M/MoS2 (M=Co, Ni, Cu) (The white, gray, red, yellow, blue, brown, bronze and cyan spheres represent hydrogen, carbon, oxygen, sulfur, cobalt, nickel, copper and molybdenum atoms, respectively). Fig 5 Fig. 6 WGSR mechanism diagram (The yellow and green lines respectively represent the redox mechanism and associative mechanism). Fig 6 Fig. 7 Initial state(IS), transition state(TS) and final state(FS) structures diagrams of WGSR element steps on Co/MoS2, Ni/MoS2 and Cu/MoS2(001) surfaces. Fig 7 Fig. 8 Redox and associative mechanism on three types of MoS2. Fig 8 Table 1 Structural geometry for original MoS2 and M modified MoS2. Table 1 Construction MoS2 Co/MoS2 Ni/MoS2 Cu/MoS2 Mo-S bond length (Å) 2.42 2.53 2.52 2.47 M-S bond length (Å) - 2.12 2.13 2.41 h (Å) a 3.17 3.18 3.17 3.17 S-Mo-S bond angle (˚) 81.70 81.14 81.86 81.77 Δq b - 0.21 0.03 0.05 Eb (eV) c - 5.16 4.58 3.79 band gap (eV) 2.11 1.35 1.60 1.63 a h is height of monolayer MoS2. b Δq is charge transfer between mental and MoS2. c Eb is binding energy. Table 2 Average energy ( ε d /eV) and width ( W d /eV) of the d-band of MoS2and M/MoS2 (M=Co, Ni, Cu). Table 2 Surface MoS2 Co/MoS2 Ni/MoS2 Cu/MoS2 ε d −2.21 −2.87 −2.39 −3.70 W d 3.81 4.17 3.87 4.75 Table 3 Adsorption energy of species involved in WGSR. Table 3 Species Eads (eV) MoS2 Co/MoS2 Ni/MoS2 Cu/MoS2 CO* −0.05 −2.30 −2.11 −1.42 CO2* −0.08 −0.64 −0.50 −0.31 COOH* −0.28 −3.07 −2.41 −2.76 H* −0.85 −2.35 −2.11 −2.64 H2* −0.03 −0.82 −0.72 −0.31 H2O* −0.22 −1.15 −1.08 −1.22 O* −3.59 −3.38 −3.31 −3.20 OH* −0.86 −3.94 −3.01 −3.42 HCOO* −0.40 −4.22 −2.85 −3.46 Table 4 Activation energy and reaction energy change of each reaction step on three types of MoS2. Table 4 Element reaction MoS2 Co/MoS2 Ni/MoS2 Cu/MoS2 E a/eV ΔE/eV E a/eV ΔE/eV E a/eV ΔE/eV E a/eV ΔE/eV ER 1: H2O* + * = H* + OH* 3.19 2.71 1.35 0.65 1.64 1.54 0.61 −1.58 ER 2: OH* + *= O* + H* 2.47 1.56 1.98 1.78 1.31 1.71 1.68 1.90 ER 3: CO* + O* = CO2* + * 3.75 −2. 87 0.44 −1.57 0.31 −1.85 0.69 −1.43 ER 4: CO* + OH* = COOH* + * 1.33 −1.21 0.47 −0.99 0.65 −0.60 1.04 −0.81 ER 5: CO* + OH* = HCOO*+ * 1.08 −1.27 0.35 −1.28 0.48 −0.94 0.28 −1.45 ER 6: HCOO* + * = CO2* + H* 2.26 −0.31 0.94 0.76 0.95 0.53 1.48 0.64 ER 7: 2H* = H2*+ * 1.71 −2.37 0.34 −1.62 0.40 −1.85 1.27 −1.49 Theoretical study on water gas shift mechanism on MoS2 supported single transition metal M (M=Co, Ni, Cu) catalysts Yue Du a Zhiling Huang b Ziying Yuan a Hui Shen c Jinhua Li c Bo Xie a Zheming Ni a Shengjie Xia a ⁎ a Department of Chemistry, College of Chemical Engineering, Zhejiang University of Technology, 18 Chaowang Road, Hangzhou 310014, PR China Department of Chemistry College of Chemical Engineering Zhejiang University of Technology 18 Chaowang Road Hangzhou 310014 PR China aDepartment of Chemistry, College of Chemical Engineering, Zhejiang University of Technology,18 Chaowang Road, Hangzhou 310014, P R China b Department of Pharmaceutical Engineering, School of Life and Health Sciences, Huzhou College, 313000, Huzhou, China Department of Pharmaceutical Engineering School of Life and Health Sciences Huzhou College Huzhou 313000 China bDepartment of Life and Health Sciences, Huzhou College, 313000, Huzhou, China c Zhejiang Huayuan Pigment Co., Ltd, Deqing 310024, Zhejiang, PR China Zhejiang Huayuan Pigment Co. Ltd Deqing Zhejiang 310024 PR China cZhejiang Huayuan Pigment Co., Ltd, Deqing 310024, Zhejiang, P R China ⁎ Corresponding author. In this paper, a two-dimensional M/MoS2 material system was constructed by supporting transition metal atoms M (M=Co, Ni, Cu) on the surface of MoS2. The structural properties, molecular adsorption and the reaction mechanism for water gas shift reaction (WGSR) were investigated based on DFT calculation. Compared with pristine MoS2, doping transition metal can make M/MoS2 more stable because the charge transfer between metal and MoS2 increases the polarization of Mo and S. The adsorption performance is significantly improved, which is conducive to the forward progress of the reaction. The band gap of materials is narrowed, which motivates MoS2 transforms to metal phase. The supporting metal can increase the charge transfer and the number of active sites in the system, which can effectively reduce the reaction energy barrier of WGS and improve the catalytic activity. The most potential WGSR mechanism of the three materials is the association mechanism, in which the HCOO* intermediate plays the leading role. Graphic abstract Image, graphical abstract Keywords Water gas shift reaction (WGSR) Density functional theory (DFT), 2D material, Transition metal supporting Reaction mechanism Data availability Data will be made available on request. Introduction Hydrogen energy is a kind of clean secondary energy sources with the greatest development potential in the 21st century. Water gas shift reaction (WGSR) H2O(g)+CO(g)=CO2(g)+H2(g), mainly used in the hydrogen production industry and synthetic ammonia industry [1,2]. Commercial WGSR catalysts are mainly divided into iron-based catalysts and copper-based catalysts, but they all have disadvantage of thermal sintering, sulfur and chloride poisoning [3,4]. Thus, preparing a high-efficiency catalyst to improve hydrogen production is an urgent problem to be solved. In recent years, by exfoliating layered two-dimensional (3D) precursors such as boron nitride, metal sulfides (such as MoS2, WS2), oxides and hydroxides, two-dimensional (2D) materials with different chemical properties have been synthesized [5]. As a new 2D material, molybdenum disulfide (MoS2) has become hot area due to their excellent anti-sintering, abundant natural resources and low price [6,7]. MoS2 commonly used for hydrogen production with excellent catalytic activity [8–10]. For example, Ding et al. [11] found that herein a series of transition metals (M = Mn, Fe, Co, Ni, Cu, and Zn) into the column−like superstructures with edge-terminated MoS2 nanosheet building blocks (termed as M−ET MoS2 SSs) is doped as the efficient catalysts for WGSR. 5%Ni−ET MoS2 SSs displaying the best average rate of 50.48 µmolH2gcat −1 s−1 in WGSR at 473 K, which is 4 and 13 times higher than those of the ET MoS2 SSs and commercial MoS2, respectively, and is even comparable to many noble-metal-based catalysts. A single‐atom Ru supported on MoS2 (SA‐Ru‐MoS2) electrocatalyst are prepared by Zhang et al. SA‐Ru‐MoS2 electrocatalyst exhibits a low overpotential of 76 mV at 10 mA cm−2 and the origin of high HER activity is mainly attributed to the synergy effects of single‐atom Ru doping and S vacancies [12]. However, the disadvantage of MoS2 is that its active site is at the edge and basal plane has no catalytic activity [13]. The key to solving this bottleneck lies in how to generate more effective active sites on inert surface of the MoS2, establish an effective electron transfer channel between the MoS2 surface and the CO and H2O molecules, and effectively transfer the large number of electrons to molecules. It has been reported that supporting transition metals is an effective way to use charge redistribution to increase the active sites on the catalyst surface. Studies have shown that transition metals supported on sulfides can significantly improve catalytic activity hydrogen production [14–16]. Copper [17], cobalt [18], and nickel-based [19] catalysts are widely used in WGSR with excellent activity. Cu-Fe3O4 catalysts are synthesized via an aerosol-spray self-assembly (ASSA) method by Yan et al. Study shows the Cu0.3Fe0.7Ox catalyst exhibits very high catalytic activity [20]. However, few research haves investigated transition metal MoS2 catalyzing WGSR. Therefore, transition metal M supporting MoS2 catalyst (M/MoS2, M=Co, Ni, Cu) was constructed in this paper. The Co, Ni, Cu atoms were used as a highly efficient active site and electron transfer channels, which effectively improved the electrons transfer ability to enhance CO and H2O molecules adsorption ability. Co, Ni, and Cu atoms make electron enrichment on a local scale to provide the driving force for CO and H2O redox. Computational details Calculation method All calculations in this paper were done under the Dmol3 in Material Studio 8.0, using electron exchange correlation potential and PBE functional based on generalized gradient (GGA), and considering spin polarization in the calculation [21,22]. The inner electrons of M/MoS2 (M=Co, Ni, Cu) are treated as frozen cores and replaced by effective nuclear potential pseudopotentials (ECP). The valence electron wave function is expanded by a dual-value basis set plus polarization function (DNP). The appropriate 4 × 4 × 1 k-point grids are adopted to sample the reciprocal space using the Monkhorst-Pack method. The Methfessel-paxton smearing is set to 5.0 × 10−3 Ha, and the accuracy is set to customized during the calculation process. The structural optimization is based on the energy difference less than 1 × 10−6 Ha, the atomic displacement less than 5.0 × 10−4 nm, and the convergence of the forces on each atom 2.0 × 10−3 Ha·Å−1 as criteria. The nine active species of CO*, H2O*, OH*, H*, O*, COOH* (cis-COOH*, trans-COOH*), CO2*, H2*, and HCOO* have optimized bond lengths and energies in accordance with literatures [23]. The linear synchronous transit (LST)/quadratic synchronous transit (QST) method are employed to search the minimum energy pathway and transition state (TS). Model construction Experimental methods such as chemical vapor deposition (CVD) [24] and mechanical exfoliation methods [25] can be used to prepare monolayer MoS2, and the experimental results also show that monolayer MoS2 has excellent catalytic activity [26]. Hence, we construct a MoS2 monolayer model. The one thickness layer is a 4 × 4 unit of MoS2 (001) surface, including 16 Mo atoms and 32 S atoms. The lattice parameters are a=12.64 Å, b=12.64 Å, and c=18.17 Å. The slab layer is simulated by periodically repeating enough symmetrical slabs. To avoid interaction between the adsorption and the bottom layer, we perform enough periodic repetitions and introduce a 15 Å thick vacuum layer in the z-direction. In this article, we use the M/MoS2 (M=Co, Ni, Cu) (001) surface as a model of active phase to research all WGSR steps. The top and side views of the surface are shown in Fig. 1 . Results and discussion Structural stability analysis The structural parameters of pristine MoS2 and metal modified MoS2 were analyzed and the results are shown in Table 1 . It indicates that the Mo-S bond length, interlayer height, S-Mo-S bond angle, and band gap of the original MoS2 are 2.42 Å, 3.17 Å, 81.70°and 2.11 eV, respectively, which are consistent with experimental and literature values [27,28]. After supporting metal, the Mo-S bond length is extended to 2.53, 2.52 and 2.47 Å, but the S-Mo-S bond angle and the interlayer height (h) do not change much. Thus, supporting metal does not cause a major change in the structure of MoS2. The metal forms metal-sulfur bonds with three surrounding sulfur atoms (Fig. 1), and the average bond length is 2.12 Å, 2.13 Å and 2.41 Å, respectively. According to the difference charge density (Fig. 2 ) and Mulliken population analysis (Table 1), it can be seen the charge transfer is from metal to sulfur, and finally transferred 0.21 e, 0.03 e and 0.05 e, which is quite similar with the literature [29]. The charge transfer between metal and MoS2 increases the polarization of Mo and S. There is strong electrostatic interaction between metal and layer, which is conducive to enhancing stability of the system [30]. For judging the stability of M/MoS2, the building energy ( E b ) is calculated according to formula (1): (1) E b = − [ E ( M / M o S 2 ) − E ( M ) − E ( M o S 2 ) ] E(MoS2), E(M/MoS2) and E(M) represent the total energy of MoS2, metal modified MoS2 and metal atom, respectively. E b is one of the bases for judging structural stability [31,32], the larger the building energy value, the more stable the system [33,34]. Calculation result shows that after metal supporting, E b of three MoS2 is 5.16 eV, 4.58 eV and 3.79 eV, respectively. According to the data provided by Professor Leo Brewer [35], the cohesive energies of Co, Ni, and Cu are 4.39 eV, 4.44 eV, and 3.49 eV, respectively. They are all smaller than E b , so the metals will not agglomerate into clusters, but will be stably dispersed in surface of MoS2. There is no imaginary frequency in M/MoS2, which indicates the system of M/MoS2 is stable. Previous literature reports that MoS2 has phase transition from semiconductor (2H) to metal (1T) with the band gap decreases [36], while 1T phase MoS2 is catalytically active [37]. After supporting metal, the band gap of Co/MoS2, Ni/MoS2 and Cu/MoS2 are reduced from 2.11 eV to 1.35 eV, 1.60 eV and 1.63 eV, respectively (Table 1, Fig. S1), indicating that MoS2 changes from the semiconductor phase (2H phase) to the metal phase (1T phase), which is beneficial to improve the catalytic activity. It can be seen from the partial density of states (PDOS) (Figs. 3 and 4 ) that the metal states are mainly derived from the 3d orbitals of M and the 4d orbitals of Mo. The density of states in the range from −6 to −3 eV mainly comes from the 2p orbitals of S. The number of peaks at the same energy increased after supporting metals, indicating that orbital between the metal and MoS2 is hybridized, and there is strong interaction between them [38,39]. In line with research of Norskov et al. [40–42], the d-band center theory has important applications in predicting the electronic activity and adsorption energy of transition metal catalysts. According to formula (2), the d-band center ( ε d ) can be calculated and in formula (3), we can calculate the d-band width ( W d ) through the spin-up/spin-down electrons: (2) ε d = ∫ − ∞ + ∞ E ρ d ( E ) d E ∫ − ∞ + ∞ ρ d ( E ) d E (3) W d = ∫ − ∞ + ∞ E 2 ρ d ( E ) d E ∫ − ∞ + ∞ ρ d ( E ) d E where ρ d is the density of states projected onto the d-band of M or Mo. Table 2 displays the calculated data of ε d and W d . By calculating the value of the d-band center, we can preliminarily predict the activity of the catalyst. Calculation proves that with introduction of metal, the ε d of MoS2 moves to lower energy level, Cu/MoS2 has the smallest ε d , which is −3.70 eV. It indicates that the intermediate is easily converted into products [43,44], which is benefit to the positive progress of the reaction. Supporting metals also leads to the increase of W d of system, and the value of Cu/MoS2 is 4.75 eV at the maximum. In short, with the introduction of metals, electron transfer from metal to molybdenum disulfide. There is strong electrostatic interaction between metal and layer, and the hybridization between orbitals makes system more stable. Supporting metal promotes the transition of MoS2 from semiconductor phase to metal phase. ε d moves to lower energy level, which makes intermediates easier to be converted into products. Such results are good at the improvement of catalytic activity. Consequently, introduction of transition metals may improve the stability and catalytic activity. Adsorption configuration and energy analysis To explore the most stable adsorption structure on the surface of M/MoS2 in WGSR, different positions and directions were considered (Fig.S2), including parallel and vertical. Base of formula (4), the adsorption energy ( E a d s ) is calculated: (4) E a d s = E − E 1 − E 2 where E, E1 and E2 are the energy of the optimized structure with adsorption, the isolated adsorption and three types of MoS2 catalysts. The symbol and numerical value of E a d s can measure the possibility and strength of adsorption. The larger the value is, the more heat liberation is released and the more stable the adsorption system is formed [45–47]. Adsorption configurations were optimized, and the optimal configuration (Fig. 5 ) was obtained by comparing E a d s (Table 3 ). The frequency calculation shows that there is no imaginary frequency, indicating that the adsorptions can be stably adsorbed on M/MoS2 [48,49]. As shown in Fig. S3, H2O* is mainly parallelly adsorbed in with the O end on metal sites and form an M-O bond with bond lengths of 2.05, 2.08, and 2.09 Å, respectively (also shown in Table S1), while pristine MoS2 has not format bond. Compared with the original MoS2 (−0.21 eV), the E a d s of MoS2 are significantly increased, which are −1.15 eV, −1.08 eV, and −1.22 eV, respectively. After adsorption, the O-H bond length of H2O* does not change significantly, but the bond angles expanded from 102.8˚ to 105.3˚, 105.2˚, and 105.2˚. According to Fig. S3, the charge transfers between the metal and the O of H2O*. The above shows that for H2O*, the adsorption changes from physisorption to chemisorption. Fig. S4 is the most stable structures and charge density differences of CO*. It shows that CO* is vertically adsorbed to the metal site with C-terminus and forms bond. The bond lengths of chemical bond in three types of MoS2 are 1.78, 1.78, and 1.83 Å (Table S2). It can be seen from Fig. S4 that charges are transferred from metal to the C of CO* and accumulated on the C-O bond. To sum up, the adsorption changed from physisorption to chemisorption. It can be seen from Fig. 5 and Table S3 that CO2* is adsorbed on the metal site by the O end. The bond length and bond angle of CO2* have not change significantly, and the adsorption energies for M/MoS2 are −0.64 eV, −0.50 eV and −0.31 eV, respectively. Although the adsorption energy is obviously increased compared to MoS2 (−0.08 eV), but the value is still small, and the bond length and angle of CO2* have not changed evidently, indicating that CO2* is adsorbed still by physical adsorption. H2* parallelly adsorbs on the metal site, and forms two M-H bonds (Fig. S5), the bond lengths for Co/MoS2, Ni/MoS2 and Cu/MoS2 are 1.66, 1.67 and 1.79 Å, severally (Table S4). However, when adsorbed on pristine MoS2, H2* does not form bonds and the adsorption energy was only −0.03 eV. After adsorption, the bond length of the H-H bond elongates from 0.75 Å to 0.84, 0.82, and 0.79 Å. The adsorption energy was increased to −0.82 eV, −0.72 eV, and −0.31 eV, respectively. Fig. S5 also indicates the charge transfer between H2* and metal, which shows that H2* is chemically adsorbed on M/MoS2. Studies have shown that molecules are easily adsorbed on metal sites, which is in line with literature reports [50]. It can be seen from Table 3 that the adsorption energy is significantly improved after supporting, indicating that M/MoS2 can improve the adsorption capacity, which is benefit the forward progress. The adsorption energies of the H2* and CO2* are small, which is favorable for desorption. It can be seen from Fig. 5 that OH* is adsorbed on the surface with O end, which may be because the metal easily accepts the lone pair electrons of O. COOH* is adsorbed with cis configuration, possibly due to the easier formation of intermolecular hydrogen bonds, which reduces energy. The stability of species on M/MoS2 is basically arranged in the order of Co/MoS2>Cu/MoS2>Ni/MoS2. Thus, the above results show that supporting metals can greatly improve the adsorption capacity of MoS2. Analysis of WGSR mechanism It is reported that hydrolysis and hydrogen dissociation are slow steps [3,51], so how to reduce the energy of breaking O-H bond and dissociating hydrogen to accelerate WGSR under mild conditions is the main difficulty in current industrial hydrogen production. The water-gas shift reaction usually involve redox mechanism and association mechanism [52]. Both mechanisms involve the steps of H2O* dissociation and hydrogen formation. H2O* is adsorbed on the catalyst surface in chemisorption manner before the decomposition reaction occurs, it makes O-H bond strength reduce. In the redox mechanism, OH* from water splitting further decomposed into O* and H*, and CO* and O* react to generate CO2*. In the associative mechanism, CO* and OH* react to HCOO* or COOH*, which are subsequently decomposed to CO2* and H*. We carried out frequency vibration analysis during the transition state search and determined that each transition state has only one imaginary frequency (Table S5), indicating that the transition state structure is stable. The specific reaction route is shown in Fig. 6 and the initial state(IS), transition state(TS) and final state(FS) structures diagrams of WGSR element steps on M/MoS2 and MoS2 are displayed in Figs. 7 and S6. H2O* and CO* were first adsorbed and activated on catalyst, the energy of system was reduced, then the activated H2O* broke an O-H bond to generate H *and OH*. OH* will continue to decompose or react with CO*. The energy barrier of the slowest step in the redox mechanism on Co/MoS2 surface is 1.98 eV while in the association mechanism is 0.35 eV. In the Ni/MoS2 system, the values are 1.31 eV and 0.65 eV, respectively. In the Cu/MoS2 system, the values are 1.68 eV and 1.04 eV, respectively. The difference in the energy barrier values of the redox mechanism and the association mechanism indicates that the associative mechanism is more favored on M/MoS2. Table 4 shows the specific reaction energy barriers and energies, and the values are in line with other literature research values [53,54]. From the data in Table 4, it can be seen that Δ Ea of CO* and OH* react to HCOO* is lower than generating COOH* in three materials, so it is more likely to generate HCOO* intermediate, which may be because HCOO* is more stable. It is consistent with the adsorption energy results. After that, HCOO* is decomposed into CO2* and H*. The active H* reacted with another H* to produce H2* and subsequently desorption, then the whole reaction path ends. The overall energy changes suggest that among the three materials, the WGS reaction proceeds more readily with associative mechanism. The energy barrier ( Δ Ea ) of the system at each step was plotted as a graph (Fig. 8 ), from Fig. 8 we can find that no matter which system, the step with the highest energy barrier in the association mechanism is in ER 6. This indicates that for metal-supported MoS2, the decomposition of HCOO* to CO2* is the rate-determining step of the whole reaction for metal-supported MoS2. Simultaneous calculations show that the Ea of the H2* formation on pristine MoS2 is 1.71 eV, which is higher than that of Ni/MoS2. The Ea of the remaining reactions are higher than those of the three modified materials, indicating that the two-dimensional structure system of MoS2 supported by transition metal can activate H2O* and CO*, reduce the reaction energy barrier and improve the WGS reaction efficiency. We speculate that this may because that supporting metal increases the charge transfer and the number of active sites [55]. Conclusion (1) In this paper, M/MoS2 (M=Co, Ni, Cu) was constructed by supporting transition metal M (M=Co, Ni, Cu) on the surface of MoS2. After adding metal, the structure did not change much. The formation energies of three materials are 5.16 eV, 4.58 eV and 3.79 eV, respectively. The orbital between the metal and MoS2 is hybridized, indicating that M/MoS2 has good stability. The band gap of M/MoS2 is reduced to 1.35 eV, 1.60 eV and 1.63 eV after introduction of metals, which promotes the transformation of MoS2 to metal phase, and is favorable for catalytic activity improvement. (2) In M/MoS2, electrons are transferred from metal to MoS2. M/MoS2 transfers 0.21 e, 0.03 e and 0.05 e, which increases the charge density of metal-sulfur bond. Supporting metals enhance the adsorption capacity of species and change from physical adsorption to chemical adsorption. Each species can be stably adsorbed on M/MoS2, and the adsorption energy of H2O* and CO2* are small, which is beneficial to desorption and accordingly accelerating the reaction rate. (3) The WGSR mechanism of the three materials is an association mechanism, and the HCOO* intermediate plays a leading role. We speculate that this may be related to the stability of HCOO*. The energy barrier value of the WGS reaction was significantly reduced after doping metal, this may be due to the increasing charge transfer and number of active sites. Declaration of Competing Interest The authors declare that they have no known competing financial interests or personal relationships that could have appeared to influence the work reported in this paper. Acknowledgment This work is supported by National Natural Science Foundation of China (92061126, 51871091) and Zhejiang Leading Innovation and Entrepreneurship Team Project (2018R01008). Supplementary materials Supplementary material associated with this article can be found, in the online version, at doi:10.1016/j.mcat.2022.112713. Appendix Supplementary materials Image, application 1 References [1] G. Bang D.K. Moon J.H. Kang Y.J. Han K.M. Kim C.H. Lee High−purity hydrogen production via a water-gas−shift reaction in a palladium−copper catalytic membrane reactor integrated with pressure swing adsorption Chem. Eng. J. 411 2021 128473 G. Bang, D.K. Moon, J.H. Kang, Y.J. Han, K.M. Kim, C.H. Lee. High−purity hydrogen production via a water-gas−shift reaction in a palladium−copper catalytic membrane reactor integrated with pressure swing adsorption. Chem. Eng. J. 2021; 411:128473. [2] L.Y. Zhang Y. Meng H. Shen J.H. Li C.F. Yang B. Xie S.J. Xia High efficiency photocatalytic ammonia synthesis by facet orientation supported heterojunction Cu2O@BiOCl[100] boosted by double built-in electric field Inorg. Chem. 61 2022 6045 6055 P. Bodhankar, S. Patnaik, G.R. Kale. Thermodynamic analysis of autothermal steam−reforming of methane for ammonia production. Int. J. Energy Res. 2020; 45:6943–6957. [3] E. Baraj K. Ciahotný T. Hlinčík The water gas shift reaction: Catalysts and reaction mechanism Fuel 288 2021 119817 E. Baraj, K. Ciahotný, T. Hlinčík. The water gas shift reaction: Catalysts and reaction mechanism. Fuel 2021;288:119817. [4] G.H. Zhang X.X. Yuan B. Xie Y. Meng Z.M. Ni S.J. Xia S Vacancies act as a bridge to promote electron injection from Z-scheme heterojunction to nitrogen molecule for photocatalytic ammonia synthesis Chem. Eng. J. 433 2022 133670 W.H. Chen, C.Y. Chen, Water gas shift reaction for hydrogen production and carbon dioxide capture: a review. Appl. Energy 2020; 258:114078. [5] O.M. Michael Naguib Joshua Carle Volker Presser,Jun Lu Lars Hultman Yury Gogots, et al. Two−dimensional transition metal carbides ACS Nano 6 2012 1322 1331 O.M. Michael Naguib, Joshua Carle, Volker Presser,Jun Lu, Lars Hultman,Yury Gogots, et al. Two−dimensional transition metal carbides. ACS Nano 2012; 6:1322–1331. [6] S.S. Li L. Zhao S.L. Lei A.P. Liu Jun Chen C.R. Li Improved charge injection of edge aligned MoS2/MoO2 hybrid nanosheets for highly robust and efficient electrocatalysis of H2 production Nanoscale 12 2020 5003 5013 S.S. Li, L. Zhao, S.L. Lei, A.P. Liu, Jun Chen, C.R. Li, et al. Improved charge injection of edge aligned MoS2/MoO2 hybrid nanosheets for highly robust and efficient electrocatalysis of H2 production. Nanoscale 2020;12:5003–5013. [7] S. Lolla X. Luo Tuning the catalytic properties of monolayer MoS2 through doping and sulfur vacancies Appl. Surf. Sci. 507 2020 144892 S. Lolla, X. Luo, Tuning the catalytic properties of monolayer MoS2 through doping and sulfur vacancies. Appl. Surf. Sci. 2020;507:144892. [8] J. Li L. Sun Q. Wan J. Lin S. Lin X.D. Wang α-MoC supported noble metal catalysts for water–gas shift reaction: single-atom promoter or single-atom player J. Phys. Chem. Lett. 12 2021 11415 11421 J. Li, L. Sun, Q. Wan, J. Lin, S. Lin, X.D. Wang. α-MoC supported noble metal catalysts for water–gas shift reaction: single-atom promoter or single-atom player. J. Phys. Chem. Lett. 2021;12:11415–11421. [9] L. Sun J.K. Xu X.Y. Liu B.T. Qiao L. Li Y.J. Ren High-efficiency water gas shift reaction catalysis on α-MoC promoted by single-atom Ir species ACS Catal. 11 2021 5942 5950 Li Sun, J.K. Xu, X.Y. Liu, B.T. Qiao, L. Li, Y.J. Ren, et al. High-efficiency water gas shift reaction catalysis on α-MoC promoted by single-atom Ir species. ACS Catalysis 2021;11:5942–5950. [10] Y. Du Y. Meng G.X. Pan H. Shen Y.Y. Yao B. Xie Z.M. Ni S.J. Xia Comparison of performance and mechanism for single and double vacancies MoS2 catalyzing water gas shift reaction Int. J. Hydrogen Energ. 2022 10.1016/j.ijhydene.2022.06.198 In press Z.S. Lu, Y.J. Cheng, S.Li, Z.X. Yang, R.Q. Wu. CO2 thermoreduction to methanol on the MoS2 supported single Co atom catalyst: A DFT study. Appl. Surf. Sci 2020; 528:147047. [11] J. Ding Q. Shao S. Bai X. Huang Transition Metal-Doped Edge−Terminated MoS2 Superstructures as Efficient Catalysts for H2 Production Adv. Mater. Interfaces 5 2018 1801370 J. Ding, Q. Shao, S. Bai, X. Huang. Transition Metal-Doped Edge−Terminated MoS2 Superstructures as Efficient Catalysts for H2 Production. Adv. Mater. Interfaces 2018; 5:1801370. [12] J.M. Zhang X.P. Xu L. Yang D.J. Cheng D.P. Cao Single-atom Ru doping induced phase transition of MoS2 and S vacancy for hydrogen evolution reaction Small Methods 3 2019 1900653 J.M. Zhang, X.P. Xu, L. Yang, D.J. Cheng, D.P. Cao. Single-atom Ru doping induced phase transition of MoS2 and S vacancy for hydrogen evolution reaction. Small Methods 2019; 3:1900653. [13] J. Xie H. Zhang S. Li R. Wang X. Sun M. Zhou Defect−rich MoS2 ultrathin nanosheets with additional active edge sites for enhanced electrocatalytic hydrogen evolution Adv. Mater. 25 2013 5807 5813 J. Xie, H. Zhang, S. Li, R. Wang, X. Sun, M. Zhou,et al. Defect−rich MoS2 ultrathin nanosheets with additional active edge sites for enhanced electrocatalytic hydrogen evolution. Adv. Mater. 2013; 25:5807–5813. [14] H. Su L. Chen Y. Chen R. Si Y. Wu X. Wu Single atoms of Iron on MoS2 nanosheets for N2 electroreduction into ammonia Angew. Chem. Int. Ed. Engl. 59 2020 20411 20416 H. Su, L. Chen, Y. Chen, R. Si, Y. Wu, X. Wu, et al. Single atoms of Iron on MoS2 nanosheets for N2 electroreduction into ammonia. Angew. Chem. Int. Ed. Engl. 2020; 59:20411–20416. [15] J. Shi R. Tong X. Zhou Y. Gong Z. Zhang Q. Ji Temperature−mediated selective growth of MoS2 /WS2 and WS2 /MoS2 vertical stacks on Au foils for direct photocatalytic applications Adv. Mater. 28 2016 10664 10672 J. Shi, R. Tong, X. Zhou, Y. Gong, Z. Zhang, Q. Ji, et al. Temperature−mediated selective growth of MoS2 /WS2 and WS2 /MoS2 vertical stacks on Au foils for direct photocatalytic applications. Adv. Mater. 2016; 28:10664–10672. [16] J. Zheng L. Lu K. Lebedev S. Wu P. Zhao I.J. McPherson Fe on molecular-layer MoS2 as inorganic Fe−S2−Mo motifs for light−driven nitrogen fixation to ammonia at elevated temperatures Chem. Catal 1 2021 162 182 J. Zheng, L. Lu, K. Lebedev, S. Wu, P. Zhao, I.J. McPherson, et al. Fe on molecular-layer MoS2 as inorganic Fe−S2−Mo motifs for light−driven nitrogen fixation to ammonia at elevated temperatures. Chem Catal. 2021; 1:162–182. [17] D.Y. Jo M.W. Lee C.H. Kim J.W. Choung H.C. Ham K.Y. Lee Interplay of ligand and strain effects in CO adsorption on bimetallic Cu/M (M = Ni, Ir, Pd, and Pt) catalysts from first−principles: effect of different facets on catalysis Catal. Today 359 2021 57 64 D.Y. Jo, M.W. Lee, C.H. Kim, J.W. Choung, H.C. Ham, K.Y. Lee, Interplay of ligand and strain effects in CO adsorption on bimetallic Cu/M (M = Ni, Ir, Pd, and Pt) catalysts from first−principles: effect of different facets on catalysis. Catal. Today 2021; 359:57–64. [18] C.H. Lin C.L. Chen J.H. Wang Mechanistic studies of water–gas−shift reaction on transition metals J. Phys. Chem. C 115 2011 18582 18588 C.H. Lin, C.L. Chen, J.H. Wang, Mechanistic studies of water–gas−shift reaction on transition metals. J. Phys. Chem. C 2011; 115:18582–18588. [19] M. Xu S. He H. Chen G. Cui L. Zheng B. Wang TiO2–x−modified Ni Nanocatalyst with tunable metal–support interaction for water–gas shift reaction ACS Catal 7 2017 7600 7609 M. Xu, S. He, H. Chen, G. Cui, L. Zheng, B. Wang, et al. TiO2–x−modified Ni Nanocatalyst with tunable metal–support interaction for water–gas shift reaction. ACS Catal. 2017; 7:7600–7609. [20] H. Yan X.T. Qin Y. Yin Y.F. Teng Z. Jin C.J. Jia Promoted Cu-Fe3O4 catalysts for low-temperature water gas shift reaction: Optimization of Cu content Appl. Catal. B 226 2018 182 193 H. Yan, X.T. Qin, Y. Yin, Y.F. Teng, Z. Jin, C.J. Jia. Promoted Cu-Fe3O4 catalysts for low-temperature water gas shift reaction: Optimization of Cu content. Appl. Catal. B 2018; 226:182–193. [21] C. Yang G.H. Zhang Y. Meng G.X. Pan Z. Ni S. Xia Direct Z-scheme CeO2@LDH core-shell heterostructure for photodegradation of Rhodamine B by synergistic persulfate activation J. Hazard. Mater. 408 2021 124908 Y. Wang, Y. Du, Y. Meng, B. Xie, Z. Ni, S. Xia, Monatomic Ti doped on defective monolayer boron nitride as an electrocatalyst for the synthesis of ammonia: A DFT study, Appl. Sur. Sci. 2021; 563:147047. [22] L. Fang T. Chen Y. Meng Y. Wang J. Xue Z. Ni Water−gas shift reaction catalyzed by Au32M6 (M = Cu, Pt, Pd, Rh, Ir) core−shell nanoclusters: A density functional theory study Mol. Catal. 483 2020 110757 L. Fang, T. Chen, Y. Meng, Y. Wang, J. Xue, Z. Ni, et al. Water−gas shift reaction catalyzed by Au32M6 (M = Cu, Pt, Pd, Rh, Ir) core−shell nanoclusters: A density functional theory study, Mol. Catal. 2020; 483:110757. [23] G.H. Zhang X.Q. Zhang Y. Meng G.X. Pan Z.M. Ni S.J. Xia Layered double hydroxides–based photocatalysts in visible–light photodegradation of organic pollutants: A review Chem. Eng. J. 392 2020 123684 X.Y. Zou, L. Mi, Z.J. Zuo, Z.H. Gao, W. Huang. DFT study the water−gas shift reaction over Cu/alpha−MoC surface. J. Mol. Model., 2020; 26:237. [24] C.Y. Chang H.T. Lin M.S. Lai C.L. Yu C.R. Wu H.C. Chou Large−area and strain−reduced two−dimensional molybdenum disulfide monolayer emitters on a three−dimensional substrate ACS Appl. Mater. Interfaces 11 2019 26243 26249 C.Y. Chang, H.T. Lin, M.S. Lai, C.L. Yu, C.R. Wu, H.C. Chou, et al. Large−area and strain−reduced two−dimensional molybdenum disulfide monolayer emitters on a three−dimensional substrate. ACS Appl. Mater. Interfaces 2019; 11:26243–26249. [25] H. Li J. Wu Z. Yin H. Zhang Preparation and applications of mechanically exfoliated single−layer and multilayer MoS(2) and WSe(2) nanosheets Acc. Chem. Res. 47 2014 1067 1075 H. Li, J. Wu, Z. Yin, H. Zhang. Preparation and applications of mechanically exfoliated single−layer and multilayer MoS(2) and WSe(2) nanosheets. Acc. Chem. Res. 2014; 47:1067–1075. [26] S. Manzeli D. Ovchinnikov D. Pasquier O.V. Yazyev A. Kis 2D transition metal dichalcogenides Nat. Rev. Mater 2 2017 17033 S. Manzeli, D. Ovchinnikov, D. Pasquier, O.V. Yazyev, A. Kis. 2D transition metal dichalcogenides. Nat. Rev. Mater 2017; 2:17033. [27] C. Wu W. Yang J. Wang R. Kannaiyan I.D. Gates CO2 adsorption and dissociation on single and double iron atomic molybdenum disulfide catalysts: A DFT study Fuel 305 2021 121547 C. Wu, W. Yang, J. Wang, R. Kannaiyan, I.D. Gates. CO2 adsorption and dissociation on single and double iron atomic molybdenum disulfide catalysts: A DFT study. Fuel 2021; 305:121547. [28] S. Chu C. Park G. Shen Structural characteristic correlated to the electronic band gap inMoS2 Phys. Rev. B 94 2016 020101 S. Chu, C. Park, G. Shen. Structural characteristic correlated to the electronic band gap inMoS2. Phys. Rev. B 2016; 94:020101. [29] S. Yang Y. Liu G. Lei Y. Xie L. Peng H. Xu A DFT study on the hydrogen storage performance of MoS2 monolayers doped with group 8B transition metals Int. J. Hydrog. Energy 2021 2 14 S. Yang, Y. Liu, G. Lei, Y. Xie, L. Peng, H. Xu, et al. A DFT study on the hydrogen storage performance of MoS2 monolayers doped with group 8B transition metals. Int. J. Hydrog. Energy 2021; 2–14. [30] Z. Zhang K. Chen Q. Zhao M. Huang X. Ouyang Electrocatalytic and photocatalytic performance of noble metal doped monolayer MoS2 in the hydrogen evolution reaction: a first principles study Nano Mater. Sci. 3 2021 89 94 Z. Zhang, K. Chen, Q. Zhao, M. Huang, X. Ouyang. Electrocatalytic and photocatalytic performance of noble metal doped monolayer MoS2 in the hydrogen evolution reaction: a first principles study. Nano Mater. Sci. 2021; 3:89–94. [31] Y. Meng Y. Chen X. Zhou G. Pan S. Xia Experimental and theoretical investigations into the activity and mechanism of the water–gas shift reaction catalyzed by Au nanoparticles supported on Zn–Al/Cr/Fe layered double hydroxides Int. J. Hydrog. Energy 45 2020 464 476 Y. Meng, Y. Chen, X. Zhou, G. Pan, S. Xia. Experimental and theoretical investigations into the activity and mechanism of the water–gas shift reaction catalyzed by Au nanoparticles supported on Zn–Al/Cr/Fe layered double hydroxides. Int. J. Hydrog. Energy 2020; 45:464–476. [32] Q. Zeng X. Xie X. Wang G. Lu H. Li S. Cheng Lee New insights into the synergistic effect of active radicals and adsorptive ability on the photodegradation of gaseous acetaldehyde over reduced graphene Oxide/P25 composite J. Hazard. Mater. 380 2019 120814 Q. Zeng, X. Xie, X. Wang, G. Lu, H. Li, S. Cheng Lee, et al. New insights into the synergistic effect of active radicals and adsorptive ability on the photodegradation of gaseous acetaldehyde over reduced graphene Oxide/P25 composite. J. Hazard. Mater. 2019; 380:120814. [33] D. Shin M.H. Kim J.W. Han Structure-activity relationship of VO/TiO2 catalysts for mercury oxidation: A DFT study Appl. Surf. Sci. 552 2021 147047 D. Shin, M.H. Kim, J.W. Han. Structure-activity relationship of VO/TiO2 catalysts for mercury oxidation: A DFT study. Appl. Surf. Sci. 2021; 552:147047. [34] X. Yu J. Xie Q. Liu H. Dong Y. Li The origin of enhanced photocatalytic activity in g-C3N4/TiO2 heterostructure revealed by DFT calculations J. Colloid Interface Sci. 593 2021 133 141 X. Yu, J. Xie, Q. Liu, H. Dong, Y. Li, The origin of enhanced photocatalytic activity in g-C3N4/TiO2 heterostructure revealed by DFT calculations, J. Colloid Interface Sci.. 2021 593:133–141. [35] L. Brewer Prediction of properties of intermetallics using a chemical bonding model Metall. Mater. Trans. B 31B 2000 603 607 L. BREWER, Prediction of properties of intermetallics using a chemical bonding model, Metall. Mater. Trans. B 2000 31B:603–607. [36] B. Gao Y. Zhao X. Du Y. Chen B. Guan Facile phase transition engineering of MoS2 for electrochemical hydrogen evolution J. Mater. Chem. A 9 2021 8394 8400 B. Gao, Y. Zhao, X. Du, Y. Chen, B. Guan, et al. Facile phase transition engineering of MoS2 for electrochemical hydrogen evolution, J. Mater. Chem. A 2021; 9:8394–8400. [37] S. Wang G.D. Lee S. Lee E. Yoon J.H. Warner Detailed atomic reconstruction of extended line defects in monolayer MoS2 ACS Nano 10 2016 5419 5430 S. Wang, G.D. Lee, S. Lee, E. Yoon, J.H. Warner. Detailed atomic reconstruction of extended line defects in monolayer MoS2. ACS Nano 2016; 10:5419–5430. [38] K. Katsiev N. Lozova L. Wang K. Sai Krishna R. Li The electronic structure of Au25 clusters: between discrete and continuous Nanoscale 8 2016 14711 14715 K. Katsiev, N. Lozova, L. Wang, K. Sai Krishna, R. Li, et al. The electronic structure of Au25 clusters: between discrete and continuous. Nanoscale 2016; 8:14711–14715. [39] L.A. Olsen J. López-Solano A. García T. Balić−Žunić E. Makovicky Dependence of the lone pair of bismuth on coordination environment and pressure: An ab initio study on Cu4Bi5S10 and Bi2S3 J. Solid State Chem. 183 2010 2133 2143 L.A. Olsen, J. López-Solano, A. García, T. Balić−Žunić, E. Makovicky. Dependence of the lone pair of bismuth on coordination environment and pressure: An ab initio study on Cu4Bi5S10 and Bi2S3, J. Solid State Chem. 2010; 183:2133–2143. [40] J.K.N.B. Hammer Why gold is the noblest of all the metals Nature 376 1995 238 240 J.K.N. B. Hammer. Why gold is the noblest of all the metals. Nature 1995; 376:238–240. [41] N. Acerbi S.C. Tsang G. Jones S. Golunski P. Collier Rationalization of interactions in precious metal/ceria catalysts using the d−band center model Angew. Chem. Int. Ed. Engl. 52 2013 7737 7741 N. Acerbi, S.C. Tsang, G. Jones, S. Golunski, P. Collier. Rationalization of interactions in precious metal/ceria catalysts using the d−band center model. Angew. Chem. Int. Ed. Engl. 2013; 52:7737–7741. [42] J.K.N.B. Hammer Electronic factors determining the reactivity of metal surfaces Surf. Sci. 343 1995 211 220 J.K.N. B. Hammer. Electronic factors determining the reactivity of metal surfaces. Surf. Sci. 1995; 343:211–220. [43] T. Zhu C. Liu X.Y. Tan B. Huang G.Q. Bian Q. Shao Se-incorporation stabilizes and activates metastable MoS2 for efficient and cost-effective water gas shift reaction ACS Nano 13 2019 11303 11309 T. Zhu, C. Liu, X.Y. Tan, B. Huang, G.Q. Bian, Q. Shao, et al. Se-incorporation stabilizes and activates metastable MoS2 for efficient and cost-effective water gas shift reaction. ACS Nano 2019;13:11303–11309. [44] X. Wang Y. Zhang H. Si Q. Zhang J. Wu Single−atom vacancy defect to trigger high−efficiency hydrogen evolution of MoS2 J. Am. Chem. Soc. 142 2020 4298 4308 X. Wang, Y. Zhang, H. Si, Q. Zhang, J. Wu, et al. Single−atom vacancy defect to trigger high−efficiency hydrogen evolution of MoS2. J. Am. Chem. Soc. 2020; 142:4298–4308. [45] L.Y. Zhang Y. Meng T.T. Dai Y.Y. Yao H. Shen B. Xie Z.M. Ni S.J. Xia The fabrication of coated BiVO4@LDHs Z-scheme heterojunction and its photodegradation of antibiotics Appl. Clay Sci. 219 2022 106435 Y. Wang, Y. Meng, Z. Ni, S. Xia. Promotion of H2 adsorption performance on InN monolayer by embedding Cu atom: a first-principles study. J. Hydrog. Energy 2021; 46:865–874. [46] G.H. Zhang J.Y. Yang Z.L. Huang G.X. Pan B. Xie Z.M. Ni S.J. Xia Construction dual vacancies to regulate the energy band structure of ZnIn2S4 for enhanced visible light-driven photodegradation of 4-Nitrophenol J. Hazard. Mater. 441 2023 129916 J.L. Xue, L. Fang, W. Luo, Y. Meng, T. Chen, S. j. Xia, Density functional study of water gas shift reaction catalyzed by Cu−Pt−Au ternary alloy, J. Fuel Chem. Technol. 2019; 47:688–696. [47] X.X. Yuan J.Y. Yang Y.Y. Yao H. Shen Y. Meng B. Xie Z.M. Ni S.J. Xia Preparation, characterization, and mechanism of 0D/2D Cu2O/BiOCl Z-scheme heterojunction for efficient photocatalytic degradation of tetracycline Sep. Purif. Technol. 291 2022 120965 J. L. Xue, Y. Wang, Y. Meng, X. Zhou, G. Pan, S. Xia. Theoretical investigation of decarbonylation mechanism of furfural on Pd(111) and M/Pd(111) (M = Ru, Ni, Ir) surfaces. Mol. Catal. 2020; 493:111054. [48] T. Kaur M.M. Sinha Revealing the trend of structural, electronic, mechanical and vibrational properties in Co2VX (X= Si, Ge, Sn) J. Solid State Chem. 297 2021 122065 T. Kaur, M.M. Sinha. Revealing the trend of structural, electronic, mechanical and vibrational properties in Co2VX (X= Si, Ge, Sn). J. Solid State Chem. 2021; 297:122065. [49] A. Hassanpour S. Yasar A. Ebadi S. Ebrahimiasl S. Ahmadi Thermodynamic stability, structural and electronic properties for the C20−nAln heterofullerenes (n = 1−5): a DFT study J. Mol. Model. 27 2021 124 A. Hassanpour, S. Yasar, A. Ebadi, S. Ebrahimiasl, S. Ahmadi. Thermodynamic stability, structural and electronic properties for the C20−nAln heterofullerenes (n = 1−5): a DFT study. J. Mol. Model. 2021; 27:124. [50] J. Zhang X. Xu L. Yang D. Cheng. D. Cao Single-atom Ru doping induced phase transition of MoS2 and S vacancy for hydrogen evolution reaction Small Methods 3 2019 1900653 J. Zhang, X. Xu, L. Yang, D. Cheng. D. Cao. Single-atom Ru doping induced phase transition of MoS2 and S vacancy for hydrogen evolution reaction. Small Methods 2019; 3:1900653. [51] Amit A. Gokhale Manos Mavrikakis On the mechanism of low−temperature water gas shift reaction on copper J. Am. Chem. Soc. 130 2008 1402 1414 Amit A. Gokhale, Manos Mavrikakis. On the mechanism of low−temperature water gas shift reaction on copper. J. Am. Chem. Soc. 2008; 130:1402–1414. [52] R. Wang L. Guo H. Jin L. Lu L. Yi D. Zhang DFT study of the enhancement on hydrogen production by alkaline catalyzed water gas shift reaction in supercritical water J. Hydrog. Energy 43 2018 13879 13886 R. Wang, L. Guo, H. Jin, L. Lu, L. Yi, D. Zhang, et al. DFT study of the enhancement on hydrogen production by alkaline catalyzed water gas shift reaction in supercritical water. J. Hydrog. Energy 2018; 43:13879–13886. [53] J.L.C. Fajin M.N.D.S. Cordeiro Insights into the catalytic activity of trimetallic Al/Zn/Cu surfaces for the water gas shift reaction Appl. Sur. Sci. 542 2021 148589 J.L.C. Fajin, M.N.D.S. Cordeiro. Insights into the catalytic activity of trimetallic Al/Zn/Cu surfaces for the water gas shift reaction. Appl. Sur. Sci. 2021; 542:148589. [54] T. Noor Y. Qi D. Chen Hydrogen dependence of the reaction mechanism and kinetics of water gas shift reaction on Ni catalyst: Experimental and DFT study Appl. Catal. B 264 2020 118430 T. Noor, Y. Qi, D. Chen. Hydrogen dependence of the reaction mechanism and kinetics of water gas shift reaction on Ni catalyst: Experimental and DFT study. Appl. Catal. B 2020;264:118430. [55] K. Qi X. Cui L. Gu S. Yu X. Fan Single−atom cobalt array bound to distorted 1T MoS2 with ensemble effect for hydrogen evolution catalysis Nat. Commun. 10 2019 5231 K. Qi, X. Cui, L. Gu, S. Yu, X. Fan, et al. Single−atom cobalt array bound to distorted 1T MoS2 with ensemble effect for hydrogen evolution catalysis. Nat. Commun. 2019; 10:5231.",
+      "scopus-id": "85138990658",
+      "coredata": {
+        "eid": "1-s2.0-S2468823122005995",
+        "dc:description": "In this paper, a two-dimensional M/MoS2 material system was constructed by supporting transition metal atoms M (M=Co, Ni, Cu) on the surface of MoS2. The structural properties, molecular adsorption and the reaction mechanism for water gas shift reaction (WGSR) were investigated based on DFT calculation. Compared with pristine MoS2, doping transition metal can make M/MoS2 more stable because the charge transfer between metal and MoS2 increases the polarization of Mo and S. The adsorption performance is significantly improved, which is conducive to the forward progress of the reaction. The band gap of materials is narrowed, which motivates MoS2 transforms to metal phase. The supporting metal can increase the charge transfer and the number of active sites in the system, which can effectively reduce the reaction energy barrier of WGS and improve the catalytic activity. The most potential WGSR mechanism of the three materials is the association mechanism, in which the HCOO* intermediate plays the leading role.",
+        "openArchiveArticle": "false",
+        "prism:coverDate": "2022-10-31",
+        "openaccessUserLicense": null,
+        "prism:aggregationType": "Journal",
+        "prism:url": "https://api.elsevier.com/content/article/pii/S2468823122005995",
+        "dc:creator": [
+          {
+            "@_fa": "true",
+            "$": "Du, Yue"
+          },
+          {
+            "@_fa": "true",
+            "$": "Huang, Zhiling"
+          },
+          {
+            "@_fa": "true",
+            "$": "Yuan, Ziying"
+          },
+          {
+            "@_fa": "true",
+            "$": "Shen, Hui"
+          },
+          {
+            "@_fa": "true",
+            "$": "Li, Jinhua"
+          },
+          {
+            "@_fa": "true",
+            "$": "Xie, Bo"
+          },
+          {
+            "@_fa": "true",
+            "$": "Ni, Zheming"
+          },
+          {
+            "@_fa": "true",
+            "$": "Xia, Shengjie"
+          }
+        ],
+        "link": [
+          {
+            "@_fa": "true",
+            "@rel": "self",
+            "@href": "https://api.elsevier.com/content/article/pii/S2468823122005995"
+          },
+          {
+            "@_fa": "true",
+            "@rel": "scidir",
+            "@href": "https://www.sciencedirect.com/science/article/pii/S2468823122005995"
+          }
+        ],
+        "dc:format": "application/json",
+        "openaccessType": null,
+        "pii": "S2468-8231(22)00599-5",
+        "prism:volume": "531",
+        "articleNumber": "112713",
+        "prism:publisher": "Elsevier B.V.",
+        "dc:title": "Theoretical study on water gas shift mechanism on MoS2 supported single transition metal M (M=Co, Ni, Cu) catalysts",
+        "prism:copyright": "© 2022 Elsevier B.V. All rights reserved.",
+        "openaccess": "0",
+        "prism:issn": "24688231",
+        "dcterms:subject": [
+          {
+            "@_fa": "true",
+            "$": "Water gas shift reaction (WGSR)"
+          },
+          {
+            "@_fa": "true",
+            "$": "Density functional theory (DFT), 2D material, Transition metal supporting"
+          },
+          {
+            "@_fa": "true",
+            "$": "Reaction mechanism"
+          }
+        ],
+        "openaccessArticle": "false",
+        "prism:publicationName": "Molecular Catalysis",
+        "openaccessSponsorType": null,
+        "prism:pageRange": "112713",
+        "pubType": "fla",
+        "prism:coverDisplayDate": "October 2022",
+        "prism:doi": "10.1016/j.mcat.2022.112713",
+        "prism:startingPage": "112713",
+        "dc:identifier": "doi:10.1016/j.mcat.2022.112713",
+        "openaccessSponsorName": null
+      },
+      "objects": {
+        "object": [
+          {
+            "@category": "standard",
+            "@height": "177",
+            "@width": "659",
+            "@_fa": "true",
+            "$": "https://api.elsevier.com/content/object/eid/1-s2.0-S2468823122005995-gr2.jpg?httpAccept=%2A%2F%2A",
+            "@multimediatype": "JPEG image file",
+            "@type": "IMAGE-DOWNSAMPLED",
+            "@size": "55346",
+            "@ref": "gr2",
+            "@mimetype": "image/jpeg"
+          },
+          {
+            "@category": "standard",
+            "@height": "200",
+            "@width": "219",
+            "@_fa": "true",
+            "$": "https://api.elsevier.com/content/object/eid/1-s2.0-S2468823122005995-ga1.jpg?httpAccept=%2A%2F%2A",
+            "@multimediatype": "JPEG image file",
+            "@type": "IMAGE-DOWNSAMPLED",
+            "@size": "21558",
+            "@ref": "ga1",
+            "@mimetype": "image/jpeg"
+          },
+          {
+            "@category": "standard",
+            "@height": "496",
+            "@width": "715",
+            "@_fa": "true",
+            "$": "https://api.elsevier.com/content/object/eid/1-s2.0-S2468823122005995-gr3.jpg?httpAccept=%2A%2F%2A",
+            "@multimediatype": "JPEG image file",
+            "@type": "IMAGE-DOWNSAMPLED",
+            "@size": "115577",
+            "@ref": "gr3",
+            "@mimetype": "image/jpeg"
+          },
+          {
+            "@category": "standard",
+            "@height": "267",
+            "@width": "395",
+            "@_fa": "true",
+            "$": "https://api.elsevier.com/content/object/eid/1-s2.0-S2468823122005995-gr4.jpg?httpAccept=%2A%2F%2A",
+            "@multimediatype": "JPEG image file",
+            "@type": "IMAGE-DOWNSAMPLED",
+            "@size": "46010",
+            "@ref": "gr4",
+            "@mimetype": "image/jpeg"
+          },
+          {
+            "@category": "standard",
+            "@height": "560",
+            "@width": "715",
+            "@_fa": "true",
+            "$": "https://api.elsevier.com/content/object/eid/1-s2.0-S2468823122005995-gr5.jpg?httpAccept=%2A%2F%2A",
+            "@multimediatype": "JPEG image file",
+            "@type": "IMAGE-DOWNSAMPLED",
+            "@size": "163119",
+            "@ref": "gr5",
+            "@mimetype": "image/jpeg"
+          },
+          {
+            "@category": "standard",
+            "@height": "230",
+            "@width": "565",
+            "@_fa": "true",
+            "$": "https://api.elsevier.com/content/object/eid/1-s2.0-S2468823122005995-gr1.jpg?httpAccept=%2A%2F%2A",
+            "@multimediatype": "JPEG image file",
+            "@type": "IMAGE-DOWNSAMPLED",
+            "@size": "50691",
+            "@ref": "gr1",
+            "@mimetype": "image/jpeg"
+          },
+          {
+            "@category": "standard",
+            "@height": "322",
+            "@width": "772",
+            "@_fa": "true",
+            "$": "https://api.elsevier.com/content/object/eid/1-s2.0-S2468823122005995-gr8.jpg?httpAccept=%2A%2F%2A",
+            "@multimediatype": "JPEG image file",
+            "@type": "IMAGE-DOWNSAMPLED",
+            "@size": "59867",
+            "@ref": "gr8",
+            "@mimetype": "image/jpeg"
+          },
+          {
+            "@category": "standard",
+            "@height": "283",
+            "@width": "678",
+            "@_fa": "true",
+            "$": "https://api.elsevier.com/content/object/eid/1-s2.0-S2468823122005995-gr6.jpg?httpAccept=%2A%2F%2A",
+            "@multimediatype": "JPEG image file",
+            "@type": "IMAGE-DOWNSAMPLED",
+            "@size": "32929",
+            "@ref": "gr6",
+            "@mimetype": "image/jpeg"
+          },
+          {
+            "@category": "standard",
+            "@height": "1017",
+            "@width": "539",
+            "@_fa": "true",
+            "$": "https://api.elsevier.com/content/object/eid/1-s2.0-S2468823122005995-gr7.jpg?httpAccept=%2A%2F%2A",
+            "@multimediatype": "JPEG image file",
+            "@type": "IMAGE-DOWNSAMPLED",
+            "@size": "242161",
+            "@ref": "gr7",
+            "@mimetype": "image/jpeg"
+          },
+          {
+            "@category": "thumbnail",
+            "@height": "59",
+            "@width": "219",
+            "@_fa": "true",
+            "$": "https://api.elsevier.com/content/object/eid/1-s2.0-S2468823122005995-gr2.sml?httpAccept=%2A%2F%2A",
+            "@multimediatype": "GIF image file",
+            "@type": "IMAGE-THUMBNAIL",
+            "@size": "10928",
+            "@ref": "gr2",
+            "@mimetype": "image/gif"
+          },
+          {
+            "@category": "thumbnail",
+            "@height": "163",
+            "@width": "179",
+            "@_fa": "true",
+            "$": "https://api.elsevier.com/content/object/eid/1-s2.0-S2468823122005995-ga1.sml?httpAccept=%2A%2F%2A",
+            "@multimediatype": "GIF image file",
+            "@type": "IMAGE-THUMBNAIL",
+            "@size": "13371",
+            "@ref": "ga1",
+            "@mimetype": "image/gif"
+          },
+          {
+            "@category": "thumbnail",
+            "@height": "152",
+            "@width": "219",
+            "@_fa": "true",
+            "$": "https://api.elsevier.com/content/object/eid/1-s2.0-S2468823122005995-gr3.sml?httpAccept=%2A%2F%2A",
+            "@multimediatype": "GIF image file",
+            "@type": "IMAGE-THUMBNAIL",
+            "@size": "14555",
+            "@ref": "gr3",
+            "@mimetype": "image/gif"
+          },
+          {
+            "@category": "thumbnail",
+            "@height": "148",
+            "@width": "219",
+            "@_fa": "true",
+            "$": "https://api.elsevier.com/content/object/eid/1-s2.0-S2468823122005995-gr4.sml?httpAccept=%2A%2F%2A",
+            "@multimediatype": "GIF image file",
+            "@type": "IMAGE-THUMBNAIL",
+            "@size": "12113",
+            "@ref": "gr4",
+            "@mimetype": "image/gif"
+          },
+          {
+            "@category": "thumbnail",
+            "@height": "164",
+            "@width": "209",
+            "@_fa": "true",
+            "$": "https://api.elsevier.com/content/object/eid/1-s2.0-S2468823122005995-gr5.sml?httpAccept=%2A%2F%2A",
+            "@multimediatype": "GIF image file",
+            "@type": "IMAGE-THUMBNAIL",
+            "@size": "18110",
+            "@ref": "gr5",
+            "@mimetype": "image/gif"
+          },
+          {
+            "@category": "thumbnail",
+            "@height": "89",
+            "@width": "219",
+            "@_fa": "true",
+            "$": "https://api.elsevier.com/content/object/eid/1-s2.0-S2468823122005995-gr1.sml?httpAccept=%2A%2F%2A",
+            "@multimediatype": "GIF image file",
+            "@type": "IMAGE-THUMBNAIL",
+            "@size": "10218",
+            "@ref": "gr1",
+            "@mimetype": "image/gif"
+          },
+          {
+            "@category": "thumbnail",
+            "@height": "91",
+            "@width": "219",
+            "@_fa": "true",
+            "$": "https://api.elsevier.com/content/object/eid/1-s2.0-S2468823122005995-gr8.sml?httpAccept=%2A%2F%2A",
+            "@multimediatype": "GIF image file",
+            "@type": "IMAGE-THUMBNAIL",
+            "@size": "7681",
+            "@ref": "gr8",
+            "@mimetype": "image/gif"
+          },
+          {
+            "@category": "thumbnail",
+            "@height": "91",
+            "@width": "219",
+            "@_fa": "true",
+            "$": "https://api.elsevier.com/content/object/eid/1-s2.0-S2468823122005995-gr6.sml?httpAccept=%2A%2F%2A",
+            "@multimediatype": "GIF image file",
+            "@type": "IMAGE-THUMBNAIL",
+            "@size": "5910",
+            "@ref": "gr6",
+            "@mimetype": "image/gif"
+          },
+          {
+            "@category": "thumbnail",
+            "@height": "164",
+            "@width": "87",
+            "@_fa": "true",
+            "$": "https://api.elsevier.com/content/object/eid/1-s2.0-S2468823122005995-gr7.sml?httpAccept=%2A%2F%2A",
+            "@multimediatype": "GIF image file",
+            "@type": "IMAGE-THUMBNAIL",
+            "@size": "11254",
+            "@ref": "gr7",
+            "@mimetype": "image/gif"
+          },
+          {
+            "@category": "high",
+            "@height": "783",
+            "@width": "2917",
+            "@_fa": "true",
+            "$": "https://api.elsevier.com/content/object/eid/1-s2.0-S2468823122005995-gr2_lrg.jpg?httpAccept=%2A%2F%2A",
+            "@multimediatype": "JPEG image file",
+            "@type": "IMAGE-HIGH-RES",
+            "@size": "397798",
+            "@ref": "gr2",
+            "@mimetype": "image/jpeg"
+          },
+          {
+            "@category": "high",
+            "@height": "886",
+            "@width": "970",
+            "@_fa": "true",
+            "$": "https://api.elsevier.com/content/object/eid/1-s2.0-S2468823122005995-ga1_lrg.jpg?httpAccept=%2A%2F%2A",
+            "@multimediatype": "JPEG image file",
+            "@type": "IMAGE-HIGH-RES",
+            "@size": "134577",
+            "@ref": "ga1",
+            "@mimetype": "image/jpeg"
+          },
+          {
+            "@category": "high",
+            "@height": "2199",
+            "@width": "3168",
+            "@_fa": "true",
+            "$": "https://api.elsevier.com/content/object/eid/1-s2.0-S2468823122005995-gr3_lrg.jpg?httpAccept=%2A%2F%2A",
+            "@multimediatype": "JPEG image file",
+            "@type": "IMAGE-HIGH-RES",
+            "@size": "942643",
+            "@ref": "gr3",
+            "@mimetype": "image/jpeg"
+          },
+          {
+            "@category": "high",
+            "@height": "1183",
+            "@width": "1751",
+            "@_fa": "true",
+            "$": "https://api.elsevier.com/content/object/eid/1-s2.0-S2468823122005995-gr4_lrg.jpg?httpAccept=%2A%2F%2A",
+            "@multimediatype": "JPEG image file",
+            "@type": "IMAGE-HIGH-RES",
+            "@size": "336302",
+            "@ref": "gr4",
+            "@mimetype": "image/jpeg"
+          },
+          {
+            "@category": "high",
+            "@height": "2481",
+            "@width": "3167",
+            "@_fa": "true",
+            "$": "https://api.elsevier.com/content/object/eid/1-s2.0-S2468823122005995-gr5_lrg.jpg?httpAccept=%2A%2F%2A",
+            "@multimediatype": "JPEG image file",
+            "@type": "IMAGE-HIGH-RES",
+            "@size": "1183219",
+            "@ref": "gr5",
+            "@mimetype": "image/jpeg"
+          },
+          {
+            "@category": "high",
+            "@height": "1019",
+            "@width": "2500",
+            "@_fa": "true",
+            "$": "https://api.elsevier.com/content/object/eid/1-s2.0-S2468823122005995-gr1_lrg.jpg?httpAccept=%2A%2F%2A",
+            "@multimediatype": "JPEG image file",
+            "@type": "IMAGE-HIGH-RES",
+            "@size": "411939",
+            "@ref": "gr1",
+            "@mimetype": "image/jpeg"
+          },
+          {
+            "@category": "high",
+            "@height": "1428",
+            "@width": "3419",
+            "@_fa": "true",
+            "$": "https://api.elsevier.com/content/object/eid/1-s2.0-S2468823122005995-gr8_lrg.jpg?httpAccept=%2A%2F%2A",
+            "@multimediatype": "JPEG image file",
+            "@type": "IMAGE-HIGH-RES",
+            "@size": "390047",
+            "@ref": "gr8",
+            "@mimetype": "image/jpeg"
+          },
+          {
+            "@category": "high",
+            "@height": "1251",
+            "@width": "3000",
+            "@_fa": "true",
+            "$": "https://api.elsevier.com/content/object/eid/1-s2.0-S2468823122005995-gr6_lrg.jpg?httpAccept=%2A%2F%2A",
+            "@multimediatype": "JPEG image file",
+            "@type": "IMAGE-HIGH-RES",
+            "@size": "188867",
+            "@ref": "gr6",
+            "@mimetype": "image/jpeg"
+          },
+          {
+            "@category": "high",
+            "@height": "4500",
+            "@width": "2385",
+            "@_fa": "true",
+            "$": "https://api.elsevier.com/content/object/eid/1-s2.0-S2468823122005995-gr7_lrg.jpg?httpAccept=%2A%2F%2A",
+            "@multimediatype": "JPEG image file",
+            "@type": "IMAGE-HIGH-RES",
+            "@size": "2041979",
+            "@ref": "gr7",
+            "@mimetype": "image/jpeg"
+          },
+          {
+            "@category": "standard",
+            "@_fa": "true",
+            "$": "https://api.elsevier.com/content/object/eid/1-s2.0-S2468823122005995-mmc1.docx?httpAccept=%2A%2F%2A",
+            "@multimediatype": "Microsoft Word file",
+            "@type": "APPLICATION",
+            "@size": "1306850",
+            "@ref": "mmc1",
+            "@mimetype": "application/word"
+          },
+          {
+            "@category": "thumbnail",
+            "@_fa": "true",
+            "$": "https://api.elsevier.com/content/object/eid/1-s2.0-S2468823122005995-si1.svg?httpAccept=%2A%2F%2A",
+            "@multimediatype": "Scalable Vector Graphics file",
+            "@type": "ALTIMG",
+            "@size": "2476",
+            "@ref": "si1",
+            "@mimetype": "image/svg+xml"
+          },
+          {
+            "@category": "thumbnail",
+            "@_fa": "true",
+            "$": "https://api.elsevier.com/content/object/eid/1-s2.0-S2468823122005995-si10.svg?httpAccept=%2A%2F%2A",
+            "@multimediatype": "Scalable Vector Graphics file",
+            "@type": "ALTIMG",
+            "@size": "5672",
+            "@ref": "si10",
+            "@mimetype": "image/svg+xml"
+          },
+          {
+            "@category": "thumbnail",
+            "@_fa": "true",
+            "$": "https://api.elsevier.com/content/object/eid/1-s2.0-S2468823122005995-si11.svg?httpAccept=%2A%2F%2A",
+            "@multimediatype": "Scalable Vector Graphics file",
+            "@type": "ALTIMG",
+            "@size": "487",
+            "@ref": "si11",
+            "@mimetype": "image/svg+xml"
+          },
+          {
+            "@category": "thumbnail",
+            "@_fa": "true",
+            "$": "https://api.elsevier.com/content/object/eid/1-s2.0-S2468823122005995-si2.svg?httpAccept=%2A%2F%2A",
+            "@multimediatype": "Scalable Vector Graphics file",
+            "@type": "ALTIMG",
+            "@size": "2309",
+            "@ref": "si2",
+            "@mimetype": "image/svg+xml"
+          },
+          {
+            "@category": "thumbnail",
+            "@_fa": "true",
+            "$": "https://api.elsevier.com/content/object/eid/1-s2.0-S2468823122005995-si3.svg?httpAccept=%2A%2F%2A",
+            "@multimediatype": "Scalable Vector Graphics file",
+            "@type": "ALTIMG",
+            "@size": "2116",
+            "@ref": "si3",
+            "@mimetype": "image/svg+xml"
+          },
+          {
+            "@category": "thumbnail",
+            "@_fa": "true",
+            "$": "https://api.elsevier.com/content/object/eid/1-s2.0-S2468823122005995-si4.svg?httpAccept=%2A%2F%2A",
+            "@multimediatype": "Scalable Vector Graphics file",
+            "@type": "ALTIMG",
+            "@size": "8073",
+            "@ref": "si4",
+            "@mimetype": "image/svg+xml"
+          },
+          {
+            "@category": "thumbnail",
+            "@_fa": "true",
+            "$": "https://api.elsevier.com/content/object/eid/1-s2.0-S2468823122005995-si5.svg?httpAccept=%2A%2F%2A",
+            "@multimediatype": "Scalable Vector Graphics file",
+            "@type": "ALTIMG",
+            "@size": "9825",
+            "@ref": "si5",
+            "@mimetype": "image/svg+xml"
+          },
+          {
+            "@category": "thumbnail",
+            "@_fa": "true",
+            "$": "https://api.elsevier.com/content/object/eid/1-s2.0-S2468823122005995-si6.svg?httpAccept=%2A%2F%2A",
+            "@multimediatype": "Scalable Vector Graphics file",
+            "@type": "ALTIMG",
+            "@size": "10528",
+            "@ref": "si6",
+            "@mimetype": "image/svg+xml"
+          },
+          {
+            "@category": "thumbnail",
+            "@_fa": "true",
+            "$": "https://api.elsevier.com/content/object/eid/1-s2.0-S2468823122005995-si7.svg?httpAccept=%2A%2F%2A",
+            "@multimediatype": "Scalable Vector Graphics file",
+            "@type": "ALTIMG",
+            "@size": "2231",
+            "@ref": "si7",
+            "@mimetype": "image/svg+xml"
+          },
+          {
+            "@category": "thumbnail",
+            "@_fa": "true",
+            "$": "https://api.elsevier.com/content/object/eid/1-s2.0-S2468823122005995-si8.svg?httpAccept=%2A%2F%2A",
+            "@multimediatype": "Scalable Vector Graphics file",
+            "@type": "ALTIMG",
+            "@size": "2476",
+            "@ref": "si8",
+            "@mimetype": "image/svg+xml"
+          },
+          {
+            "@category": "thumbnail",
+            "@_fa": "true",
+            "$": "https://api.elsevier.com/content/object/eid/1-s2.0-S2468823122005995-si9.svg?httpAccept=%2A%2F%2A",
+            "@multimediatype": "Scalable Vector Graphics file",
+            "@type": "ALTIMG",
+            "@size": "4188",
+            "@ref": "si9",
+            "@mimetype": "image/svg+xml"
+          },
+          {
+            "@category": "standard",
+            "@_fa": "true",
+            "$": "https://api.elsevier.com/content/object/eid/1-s2.0-S2468823122005995-am.pdf?httpAccept=%2A%2F%2A",
+            "@multimediatype": "Acrobat PDF file",
+            "@type": "AAM-PDF",
+            "@size": "1245049",
+            "@ref": "am",
+            "@mimetype": "application/pdf"
+          }
+        ]
+      },
+      "link": {
+        "@rel": "abstract",
+        "@href": "https://api.elsevier.com/content/abstract/scopus_id/85138990658"
+      }
+    }
+  }
+}

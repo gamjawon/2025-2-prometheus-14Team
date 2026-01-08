@@ -1,0 +1,942 @@
+{
+  "metadata": {
+    "title": "Effect of a palladium catalyst and initial pressure on methane-air catalytic combustion process in a helical coil microchannel: A molecular dynamics approach",
+    "authors": "; ; ",
+    "journal": "Molecular Catalysis",
+    "date": "2023-01-15",
+    "doi": "10.1016/j.mcat.2022.112868",
+    "abstract": "",
+    "uri": "https://api.elsevier.com/content/article/pii/S2468823122007544",
+    "pii": "S2468823122007544"
+  },
+  "fulltext": {
+    "full-text-retrieval-response": {
+      "scopus-eid": "2-s2.0-85144015975",
+      "originalText": "serial JL 315758 291210 291744 291790 291809 31 Molecular Catalysis MOLECULARCATALYSIS 2022-12-14 2022-12-14 2022-12-14 2022-12-14 2023-01-07T15:56:45 1-s2.0-S2468823122007544 S2468-8231(22)00754-4 S2468823122007544 10.1016/j.mcat.2022.112868 S300 S300.1 FULL-TEXT 1-s2.0-S2468823122X00187 2024-06-26T17:47:58.012062Z 0 0 20230115 2023 2022-12-14T17:46:42.845338Z absattachment articleinfo articlenumber articletitlenorm authfirstinitialnorm authfirstsurnamenorm cid cids contenttype copyright crossmark dateloaded dateloadedtxt datesearch datesort dateupdated dco docsubtype doctype doi eid ewtransactionid hubeid indexeddate issn issnnorm itemstage itemtransactionid itemweight openaccess openarchive pg pgfirst pii piinorm pubdatestart pubdatetxt pubyr sectiontitle sortorder srctitle srctitlenorm srctype ssids alllist content subj subheadings suppl tomb volfirst volissue volumelist webpdf webpdfpagecount yearnav figure table body mmlmath acknowledge affil articletitle auth authfirstini authfull authkeywords authlast highlightsabst nomenclature orcid primabst ref specialabst 2468-8231 24688231 true 535 535 C Volume 535 40 112868 112868 112868 20230115 15 January 2023 2023-01-15 2023 Regular Papers article fla © 2022 Elsevier B.V. All rights reserved. EFFECTAPALLADIUMCATALYSTINITIALPRESSUREMETHANEAIRCATALYTICCOMBUSTIONPROCESSINAHELICALCOILMICROCHANNELAMOLECULARDYNAMICSAPPROACH LIU Z Nomenclature 1 Introduction 2 Simulation 2.1 MD simulation 2.2 Present simulation details 2.3 Stability process 3 Results 3.1 The atomic ratio of the catalyst 3.2 The effect of IP 4 Conclusion Author statement CRediT authorship contribution statement Acknowledgments References ZAHOOR 2021 368 383. R ARIYO 2020 140 154 D LIKUN 2021 157 160 C YUAN 2021 194 200 M KANDILLI 2020 128 139. C XIAOTIAN 2021 158 162 M BILAL 2021 1931 1942 A ZAHMATKESH 2021 1893 1908 R TU 2022 117216 J RUHANI 2022 11373 B TU 2022 562 583 J TANG 2022 105840 Z SADEGHI 2017 560 574 R SADEGHI 2016 58 66 R SHADLOO 2019 167 182 M SHADLOO 2020 M RUHANI 2019 616 627 B WANG 2019 4929 4932 M CHENG 2021 105652 Z QU 2022 123747 J TRIMM 1983 249 282 D HAYES 2021 R INTRODUCTIONCATALYTICCOMBUSTION LI 2020 118372 C DUAN 2020 7395 7404 Q LI 2020 12130 12138 C NAEIMI 2022 15-26 A PRASAD 1984 1 58 R LEE 1995 339 359 J CIUPARU 2002 593 649 D YAN 2019 403 410 Y FENG 2018 145 153 X FENG 2019 177 182 Z HE 2020 109589 L ALDER 1959 459 466 B SWOPE 1982 637 649 W HAIRER 2003 399 450 E GREEN 1954 398 413 M DAW 1984 6443 M LENNARDJONES 1931 461 J PROCEEDINGSPHYSICALSOCIETY19261948 COHESION BERENDSEN 1987 6269 6271 H RAPPE 1992 10024 10035 A HURAY 2011 P MAXWELLSEQUATIONS LIUX2023X112868 LIUX2023X112868XZ 2024-12-14T00:00:00.000Z 2024-12-14T00:00:00.000Z http://creativecommons.org/licenses/by-nc-nd/4.0/ © 2022 Elsevier B.V. All rights reserved. 2022-12-21T07:54:30.651Z http://vtw.elsevier.com/data/voc/AddOnTypes/50.7/aggregated-refined Hunan Provincial Department of Education 20B534 Education Department of Hunan Province http://data.elsevier.com/vocabulary/SciValFunders/100009377 http://sws.geonames.org/1814991/ Department of Education of Hunan Province 20C1670 Education Department of Henan Province http://data.elsevier.com/vocabulary/SciValFunders/501100009101 http://sws.geonames.org/1814991/ (1) General Project of Department of Education of Hunan Province, 20C1670;, (2) Outstanding Youth Project of Hunan Provincial Department of Education, 20B534. (1) General Project of Department of Education of Hunan Province, 20C1670; 0 https://doi.org/10.15223/policy-017 https://doi.org/10.15223/policy-037 https://doi.org/10.15223/policy-012 https://doi.org/10.15223/policy-029 https://doi.org/10.15223/policy-004 item S2468-8231(22)00754-4 S2468823122007544 1-s2.0-S2468823122007544 10.1016/j.mcat.2022.112868 315758 2023-01-07T16:15:48.577702Z 2023-01-15 1-s2.0-S2468823122007544-main.pdf https://s3-eu-west-1.amazonaws.com/prod-ucs-content-store-eu-west/content/pii:S2468823122007544/MAIN/application/pdf/1a57fa46378cb566482b75a1a2ab3686/main.pdf main.pdf pdf true 5966630 MAIN 9 1-s2.0-S2468823122007544-main_1.png https://s3-eu-west-1.amazonaws.com/prod-ucs-content-store-eu-west/content/pii:S2468823122007544/PREVIEW/image/png/039cb2ecd8dff669c72fb39504bd0fc1/main_1.png main_1.png png 59398 849 656 IMAGE-WEB-PDF 1 1-s2.0-S2468823122007544-gr17.jpg https://s3-eu-west-1.amazonaws.com/prod-ucs-content-store-eu-west/content/pii:S2468823122007544/gr17/DOWNSAMPLED/image/jpeg/db3414fca6d39ed64a9311a8f47df695/gr17.jpg gr17 gr17.jpg jpg 16977 312 380 IMAGE-DOWNSAMPLED 1-s2.0-S2468823122007544-gr8.jpg https://s3-eu-west-1.amazonaws.com/prod-ucs-content-store-eu-west/content/pii:S2468823122007544/gr8/DOWNSAMPLED/image/jpeg/f2f5b8de41db79469fdf2759d6741a1d/gr8.jpg gr8 gr8.jpg jpg 17508 323 376 IMAGE-DOWNSAMPLED 1-s2.0-S2468823122007544-gr15.jpg https://s3-eu-west-1.amazonaws.com/prod-ucs-content-store-eu-west/content/pii:S2468823122007544/gr15/DOWNSAMPLED/image/jpeg/bb8db85eb0149d806eb1c51f83097a20/gr15.jpg gr15 gr15.jpg jpg 15768 301 380 IMAGE-DOWNSAMPLED 1-s2.0-S2468823122007544-gr9.jpg https://s3-eu-west-1.amazonaws.com/prod-ucs-content-store-eu-west/content/pii:S2468823122007544/gr9/DOWNSAMPLED/image/jpeg/2bc5c7f51cd81ebb1e24aa5dfdfa3e46/gr9.jpg gr9 gr9.jpg jpg 16296 333 376 IMAGE-DOWNSAMPLED 1-s2.0-S2468823122007544-gr16.jpg https://s3-eu-west-1.amazonaws.com/prod-ucs-content-store-eu-west/content/pii:S2468823122007544/gr16/DOWNSAMPLED/image/jpeg/e7695da489eb63d590e2f7506d3fd739/gr16.jpg gr16 gr16.jpg jpg 16039 306 376 IMAGE-DOWNSAMPLED 1-s2.0-S2468823122007544-gr13.jpg https://s3-eu-west-1.amazonaws.com/prod-ucs-content-store-eu-west/content/pii:S2468823122007544/gr13/DOWNSAMPLED/image/jpeg/9ef941bd5546e90a4c4a224f2d86d1b8/gr13.jpg gr13 gr13.jpg jpg 16417 310 380 IMAGE-DOWNSAMPLED 1-s2.0-S2468823122007544-gr14.jpg https://s3-eu-west-1.amazonaws.com/prod-ucs-content-store-eu-west/content/pii:S2468823122007544/gr14/DOWNSAMPLED/image/jpeg/e703f2ea0663193b70f3ed3e1cb7ed86/gr14.jpg gr14 gr14.jpg jpg 14375 304 376 IMAGE-DOWNSAMPLED 1-s2.0-S2468823122007544-gr11.jpg https://s3-eu-west-1.amazonaws.com/prod-ucs-content-store-eu-west/content/pii:S2468823122007544/gr11/DOWNSAMPLED/image/jpeg/ba467d8b1df2c6ca1e0be126bc9bc37d/gr11.jpg gr11 gr11.jpg jpg 169693 556 640 IMAGE-DOWNSAMPLED 1-s2.0-S2468823122007544-gr12.jpg https://s3-eu-west-1.amazonaws.com/prod-ucs-content-store-eu-west/content/pii:S2468823122007544/gr12/DOWNSAMPLED/image/jpeg/939307c9fc341b7c5d4968587ff456f2/gr12.jpg gr12 gr12.jpg jpg 16326 299 378 IMAGE-DOWNSAMPLED 1-s2.0-S2468823122007544-ga1.jpg https://s3-eu-west-1.amazonaws.com/prod-ucs-content-store-eu-west/content/pii:S2468823122007544/ga1/DOWNSAMPLED/image/jpeg/21dc1383efc18de2c461bf80b58501de/ga1.jpg ga1 true ga1.jpg jpg 19225 175 301 IMAGE-DOWNSAMPLED 1-s2.0-S2468823122007544-gr10.jpg https://s3-eu-west-1.amazonaws.com/prod-ucs-content-store-eu-west/content/pii:S2468823122007544/gr10/DOWNSAMPLED/image/jpeg/7350be82a606d06a57f59081d05a77fe/gr10.jpg gr10 gr10.jpg jpg 18187 333 376 IMAGE-DOWNSAMPLED 1-s2.0-S2468823122007544-gr2.jpg https://s3-eu-west-1.amazonaws.com/prod-ucs-content-store-eu-west/content/pii:S2468823122007544/gr2/DOWNSAMPLED/image/jpeg/8af3ab48e386b0db7f8e5ae980503b84/gr2.jpg gr2 gr2.jpg jpg 16524 337 380 IMAGE-DOWNSAMPLED 1-s2.0-S2468823122007544-gr3.jpg https://s3-eu-west-1.amazonaws.com/prod-ucs-content-store-eu-west/content/pii:S2468823122007544/gr3/DOWNSAMPLED/image/jpeg/83c15d6089cc434ada8e0b9639ab761c/gr3.jpg gr3 gr3.jpg jpg 16165 328 376 IMAGE-DOWNSAMPLED 1-s2.0-S2468823122007544-gr1.jpg https://s3-eu-west-1.amazonaws.com/prod-ucs-content-store-eu-west/content/pii:S2468823122007544/gr1/DOWNSAMPLED/image/jpeg/e7e8c0e2fe26dd2344596590dd154211/gr1.jpg gr1 gr1.jpg jpg 48060 287 386 IMAGE-DOWNSAMPLED 1-s2.0-S2468823122007544-gr6.jpg https://s3-eu-west-1.amazonaws.com/prod-ucs-content-store-eu-west/content/pii:S2468823122007544/gr6/DOWNSAMPLED/image/jpeg/1ea9e64962e14af353f0471871e83240/gr6.jpg gr6 gr6.jpg jpg 16187 308 378 IMAGE-DOWNSAMPLED 1-s2.0-S2468823122007544-gr7.jpg https://s3-eu-west-1.amazonaws.com/prod-ucs-content-store-eu-west/content/pii:S2468823122007544/gr7/DOWNSAMPLED/image/jpeg/2083d230515299730e75c829b6575b20/gr7.jpg gr7 gr7.jpg jpg 15781 312 386 IMAGE-DOWNSAMPLED 1-s2.0-S2468823122007544-gr4.jpg https://s3-eu-west-1.amazonaws.com/prod-ucs-content-store-eu-west/content/pii:S2468823122007544/gr4/DOWNSAMPLED/image/jpeg/c86586bd6fd5622151ce3ad34040d336/gr4.jpg gr4 gr4.jpg jpg 92688 293 682 IMAGE-DOWNSAMPLED 1-s2.0-S2468823122007544-gr5.jpg https://s3-eu-west-1.amazonaws.com/prod-ucs-content-store-eu-west/content/pii:S2468823122007544/gr5/DOWNSAMPLED/image/jpeg/0196a11c6d7280703ffe43c60aa98998/gr5.jpg gr5 gr5.jpg jpg 17220 328 378 IMAGE-DOWNSAMPLED 1-s2.0-S2468823122007544-gr17.sml https://s3-eu-west-1.amazonaws.com/prod-ucs-content-store-eu-west/content/pii:S2468823122007544/gr17/THUMBNAIL/image/gif/7784edeb900a5662f05a32496446a151/gr17.sml gr17 gr17.sml sml 5201 164 200 IMAGE-THUMBNAIL 1-s2.0-S2468823122007544-gr8.sml https://s3-eu-west-1.amazonaws.com/prod-ucs-content-store-eu-west/content/pii:S2468823122007544/gr8/THUMBNAIL/image/gif/da8b27a17aab61f12ef848491aa3341f/gr8.sml gr8 gr8.sml sml 5236 164 191 IMAGE-THUMBNAIL 1-s2.0-S2468823122007544-gr15.sml https://s3-eu-west-1.amazonaws.com/prod-ucs-content-store-eu-west/content/pii:S2468823122007544/gr15/THUMBNAIL/image/gif/48c956477ae187d31c3e776dd451a152/gr15.sml gr15 gr15.sml sml 5347 164 207 IMAGE-THUMBNAIL 1-s2.0-S2468823122007544-gr9.sml https://s3-eu-west-1.amazonaws.com/prod-ucs-content-store-eu-west/content/pii:S2468823122007544/gr9/THUMBNAIL/image/gif/44c59deb8b89ce49649e54ea6967c211/gr9.sml gr9 gr9.sml sml 5065 164 185 IMAGE-THUMBNAIL 1-s2.0-S2468823122007544-gr16.sml https://s3-eu-west-1.amazonaws.com/prod-ucs-content-store-eu-west/content/pii:S2468823122007544/gr16/THUMBNAIL/image/gif/b9c3e903d8a77351cb1a5bfde1383100/gr16.sml gr16 gr16.sml sml 5252 164 201 IMAGE-THUMBNAIL 1-s2.0-S2468823122007544-gr13.sml https://s3-eu-west-1.amazonaws.com/prod-ucs-content-store-eu-west/content/pii:S2468823122007544/gr13/THUMBNAIL/image/gif/f02ceac6981afec50feb6fd3d6bc8713/gr13.sml gr13 gr13.sml sml 5208 164 201 IMAGE-THUMBNAIL 1-s2.0-S2468823122007544-gr14.sml https://s3-eu-west-1.amazonaws.com/prod-ucs-content-store-eu-west/content/pii:S2468823122007544/gr14/THUMBNAIL/image/gif/3930b89f1e8cf46614795a8b04304efb/gr14.sml gr14 gr14.sml sml 5127 164 203 IMAGE-THUMBNAIL 1-s2.0-S2468823122007544-gr11.sml https://s3-eu-west-1.amazonaws.com/prod-ucs-content-store-eu-west/content/pii:S2468823122007544/gr11/THUMBNAIL/image/gif/13e3a194a4695c1182aecc783a65aef7/gr11.sml gr11 gr11.sml sml 23834 164 189 IMAGE-THUMBNAIL 1-s2.0-S2468823122007544-gr12.sml https://s3-eu-west-1.amazonaws.com/prod-ucs-content-store-eu-west/content/pii:S2468823122007544/gr12/THUMBNAIL/image/gif/c7e03345646b59f880573ddb97f36066/gr12.sml gr12 gr12.sml sml 5501 164 207 IMAGE-THUMBNAIL 1-s2.0-S2468823122007544-ga1.sml https://s3-eu-west-1.amazonaws.com/prod-ucs-content-store-eu-west/content/pii:S2468823122007544/ga1/THUMBNAIL/image/gif/0e7073469e9a8595628cee6420263b88/ga1.sml ga1 true ga1.sml sml 9649 127 219 IMAGE-THUMBNAIL 1-s2.0-S2468823122007544-gr10.sml https://s3-eu-west-1.amazonaws.com/prod-ucs-content-store-eu-west/content/pii:S2468823122007544/gr10/THUMBNAIL/image/gif/cdacdfa7a90c5b136b758e854fc68c2a/gr10.sml gr10 gr10.sml sml 5286 164 185 IMAGE-THUMBNAIL 1-s2.0-S2468823122007544-gr2.sml https://s3-eu-west-1.amazonaws.com/prod-ucs-content-store-eu-west/content/pii:S2468823122007544/gr2/THUMBNAIL/image/gif/1fcd1418e9cee548c25efec9d895a388/gr2.sml gr2 gr2.sml sml 5494 164 185 IMAGE-THUMBNAIL 1-s2.0-S2468823122007544-gr3.sml https://s3-eu-west-1.amazonaws.com/prod-ucs-content-store-eu-west/content/pii:S2468823122007544/gr3/THUMBNAIL/image/gif/b538391c817d5a7902294e174a5cdc24/gr3.sml gr3 gr3.sml sml 5618 164 188 IMAGE-THUMBNAIL 1-s2.0-S2468823122007544-gr1.sml https://s3-eu-west-1.amazonaws.com/prod-ucs-content-store-eu-west/content/pii:S2468823122007544/gr1/THUMBNAIL/image/gif/d219b244505a3182a68bb586ef418690/gr1.sml gr1 gr1.sml sml 20814 163 219 IMAGE-THUMBNAIL 1-s2.0-S2468823122007544-gr6.sml https://s3-eu-west-1.amazonaws.com/prod-ucs-content-store-eu-west/content/pii:S2468823122007544/gr6/THUMBNAIL/image/gif/6b97a92b79f9df5504fd855ea986c2d8/gr6.sml gr6 gr6.sml sml 5185 164 201 IMAGE-THUMBNAIL 1-s2.0-S2468823122007544-gr7.sml https://s3-eu-west-1.amazonaws.com/prod-ucs-content-store-eu-west/content/pii:S2468823122007544/gr7/THUMBNAIL/image/gif/91af928ed40db401f235ba75c393541a/gr7.sml gr7 gr7.sml sml 5008 163 202 IMAGE-THUMBNAIL 1-s2.0-S2468823122007544-gr4.sml https://s3-eu-west-1.amazonaws.com/prod-ucs-content-store-eu-west/content/pii:S2468823122007544/gr4/THUMBNAIL/image/gif/7aada6f3ffb0dfc3c442d46748f2872a/gr4.sml gr4 gr4.sml sml 16390 94 219 IMAGE-THUMBNAIL 1-s2.0-S2468823122007544-gr5.sml https://s3-eu-west-1.amazonaws.com/prod-ucs-content-store-eu-west/content/pii:S2468823122007544/gr5/THUMBNAIL/image/gif/819c99a5bc8125956baf6a7b74d94116/gr5.sml gr5 gr5.sml sml 5400 164 189 IMAGE-THUMBNAIL 1-s2.0-S2468823122007544-gr17_lrg.jpg https://s3-eu-west-1.amazonaws.com/prod-ucs-content-store-eu-west/content/pii:S2468823122007544/HIGHRES/image/jpeg/dcd0b3ecffbdcab85ad0208e644ab29a/gr17_lrg.jpg gr17 gr17_lrg.jpg jpg 107685 1381 1683 IMAGE-HIGH-RES 1-s2.0-S2468823122007544-gr8_lrg.jpg https://s3-eu-west-1.amazonaws.com/prod-ucs-content-store-eu-west/content/pii:S2468823122007544/HIGHRES/image/jpeg/8dd1de89a457dd480ebf4c501ecb58ca/gr8_lrg.jpg gr8 gr8_lrg.jpg jpg 116049 1432 1667 IMAGE-HIGH-RES 1-s2.0-S2468823122007544-gr15_lrg.jpg https://s3-eu-west-1.amazonaws.com/prod-ucs-content-store-eu-west/content/pii:S2468823122007544/HIGHRES/image/jpeg/4bd67265276053924d074610465d48ec/gr15_lrg.jpg gr15 gr15_lrg.jpg jpg 101191 1334 1683 IMAGE-HIGH-RES 1-s2.0-S2468823122007544-gr9_lrg.jpg https://s3-eu-west-1.amazonaws.com/prod-ucs-content-store-eu-west/content/pii:S2468823122007544/HIGHRES/image/jpeg/459f6c22a0447cf80fe6f4d39a0764ba/gr9_lrg.jpg gr9 gr9_lrg.jpg jpg 107692 1478 1667 IMAGE-HIGH-RES 1-s2.0-S2468823122007544-gr16_lrg.jpg https://s3-eu-west-1.amazonaws.com/prod-ucs-content-store-eu-west/content/pii:S2468823122007544/HIGHRES/image/jpeg/a39a61496c48d476a77f36c705d8bcd4/gr16_lrg.jpg gr16 gr16_lrg.jpg jpg 102899 1357 1667 IMAGE-HIGH-RES 1-s2.0-S2468823122007544-gr13_lrg.jpg https://s3-eu-west-1.amazonaws.com/prod-ucs-content-store-eu-west/content/pii:S2468823122007544/HIGHRES/image/jpeg/66ed797759c1c928e69ce76c98f2cacb/gr13_lrg.jpg gr13 gr13_lrg.jpg jpg 101686 1371 1683 IMAGE-HIGH-RES 1-s2.0-S2468823122007544-gr14_lrg.jpg https://s3-eu-west-1.amazonaws.com/prod-ucs-content-store-eu-west/content/pii:S2468823122007544/HIGHRES/image/jpeg/a2d4790a346192ec0b16935d32cc3e08/gr14_lrg.jpg gr14 gr14_lrg.jpg jpg 97746 1348 1667 IMAGE-HIGH-RES 1-s2.0-S2468823122007544-gr11_lrg.jpg https://s3-eu-west-1.amazonaws.com/prod-ucs-content-store-eu-west/content/pii:S2468823122007544/HIGHRES/image/jpeg/a773383ce734a7e5c53985b5060e603f/gr11_lrg.jpg gr11 gr11_lrg.jpg jpg 1610969 2461 2833 IMAGE-HIGH-RES 1-s2.0-S2468823122007544-gr12_lrg.jpg https://s3-eu-west-1.amazonaws.com/prod-ucs-content-store-eu-west/content/pii:S2468823122007544/HIGHRES/image/jpeg/fa77a321a2faab424cbbbd8596929b83/gr12_lrg.jpg gr12 gr12_lrg.jpg jpg 105323 1325 1675 IMAGE-HIGH-RES 1-s2.0-S2468823122007544-ga1_lrg.jpg https://s3-eu-west-1.amazonaws.com/prod-ucs-content-store-eu-west/content/pii:S2468823122007544/HIGHRES/image/jpeg/7d59e1cec3938af2c16dcb8e375a9af6/ga1_lrg.jpg ga1 true ga1_lrg.jpg jpg 152856 773 1333 IMAGE-HIGH-RES 1-s2.0-S2468823122007544-gr10_lrg.jpg https://s3-eu-west-1.amazonaws.com/prod-ucs-content-store-eu-west/content/pii:S2468823122007544/HIGHRES/image/jpeg/e5b541b49b13f61e6b532a5a3435e5e3/gr10_lrg.jpg gr10 gr10_lrg.jpg jpg 119033 1478 1667 IMAGE-HIGH-RES 1-s2.0-S2468823122007544-gr2_lrg.jpg https://s3-eu-west-1.amazonaws.com/prod-ucs-content-store-eu-west/content/pii:S2468823122007544/HIGHRES/image/jpeg/382bcb6fda6bcc7b946880d83371ea2b/gr2_lrg.jpg gr2 gr2_lrg.jpg jpg 106713 1493 1683 IMAGE-HIGH-RES 1-s2.0-S2468823122007544-gr3_lrg.jpg https://s3-eu-west-1.amazonaws.com/prod-ucs-content-store-eu-west/content/pii:S2468823122007544/HIGHRES/image/jpeg/66d894352a800f573a209e3107c89dca/gr3_lrg.jpg gr3 gr3_lrg.jpg jpg 108983 1452 1667 IMAGE-HIGH-RES 1-s2.0-S2468823122007544-gr1_lrg.jpg https://s3-eu-west-1.amazonaws.com/prod-ucs-content-store-eu-west/content/pii:S2468823122007544/HIGHRES/image/jpeg/f878a95b55efb34cac059885b733940e/gr1_lrg.jpg gr1 gr1_lrg.jpg jpg 432267 1270 1708 IMAGE-HIGH-RES 1-s2.0-S2468823122007544-gr6_lrg.jpg https://s3-eu-west-1.amazonaws.com/prod-ucs-content-store-eu-west/content/pii:S2468823122007544/HIGHRES/image/jpeg/e992ec4f9b4eb5750bfc8ede6c359017/gr6_lrg.jpg gr6 gr6_lrg.jpg jpg 103361 1364 1675 IMAGE-HIGH-RES 1-s2.0-S2468823122007544-gr7_lrg.jpg https://s3-eu-west-1.amazonaws.com/prod-ucs-content-store-eu-west/content/pii:S2468823122007544/HIGHRES/image/jpeg/13058e1db1c0860a51e7aafce4eff22b/gr7_lrg.jpg gr7 gr7_lrg.jpg jpg 100451 1382 1708 IMAGE-HIGH-RES 1-s2.0-S2468823122007544-gr4_lrg.jpg https://s3-eu-west-1.amazonaws.com/prod-ucs-content-store-eu-west/content/pii:S2468823122007544/HIGHRES/image/jpeg/16b1d72bfc0d1e3b6f866c3da01b7d9a/gr4_lrg.jpg gr4 gr4_lrg.jpg jpg 897876 1298 3021 IMAGE-HIGH-RES 1-s2.0-S2468823122007544-gr5_lrg.jpg https://s3-eu-west-1.amazonaws.com/prod-ucs-content-store-eu-west/content/pii:S2468823122007544/HIGHRES/image/jpeg/43b302f0022dfff356770ababbca634d/gr5_lrg.jpg gr5 gr5_lrg.jpg jpg 119862 1455 1675 IMAGE-HIGH-RES 1-s2.0-S2468823122007544-si1.svg https://s3-eu-west-1.amazonaws.com/prod-ucs-content-store-eu-west/content/pii:S2468823122007544/image/svg+xml/2de23fb4174b875140a3db6c45933cd3/si1.svg si1 si1.svg svg 2166 ALTIMG 1-s2.0-S2468823122007544-si10.svg https://s3-eu-west-1.amazonaws.com/prod-ucs-content-store-eu-west/content/pii:S2468823122007544/image/svg+xml/d858d94f59c160e0d475280b7f0a1e66/si10.svg si10 si10.svg svg 15929 ALTIMG 1-s2.0-S2468823122007544-si11.svg https://s3-eu-west-1.amazonaws.com/prod-ucs-content-store-eu-west/content/pii:S2468823122007544/image/svg+xml/6ce9e345c4411f52b83c9916a1a6a585/si11.svg si11 si11.svg svg 15602 ALTIMG 1-s2.0-S2468823122007544-si12.svg https://s3-eu-west-1.amazonaws.com/prod-ucs-content-store-eu-west/content/pii:S2468823122007544/image/svg+xml/b37da238a9db608662e40487681fe90f/si12.svg si12 si12.svg svg 10702 ALTIMG 1-s2.0-S2468823122007544-si13.svg https://s3-eu-west-1.amazonaws.com/prod-ucs-content-store-eu-west/content/pii:S2468823122007544/image/svg+xml/393b0df9c6ecedc552cbbf03ccb1f94b/si13.svg si13 si13.svg svg 7898 ALTIMG 1-s2.0-S2468823122007544-si14.svg https://s3-eu-west-1.amazonaws.com/prod-ucs-content-store-eu-west/content/pii:S2468823122007544/image/svg+xml/105033c67794de9f03444923fa5341eb/si14.svg si14 si14.svg svg 10702 ALTIMG 1-s2.0-S2468823122007544-si15.svg https://s3-eu-west-1.amazonaws.com/prod-ucs-content-store-eu-west/content/pii:S2468823122007544/image/svg+xml/310387f387cf9fcfca9bdd5877ed3955/si15.svg si15 si15.svg svg 3823 ALTIMG 1-s2.0-S2468823122007544-si16.svg https://s3-eu-west-1.amazonaws.com/prod-ucs-content-store-eu-west/content/pii:S2468823122007544/image/svg+xml/22ce76489a742515b2bc0b8e7f56f0ab/si16.svg si16 si16.svg svg 4382 ALTIMG 1-s2.0-S2468823122007544-si17.svg https://s3-eu-west-1.amazonaws.com/prod-ucs-content-store-eu-west/content/pii:S2468823122007544/image/svg+xml/f84edd5002e129b788d2ebd9b53d95c4/si17.svg si17 si17.svg svg 10109 ALTIMG 1-s2.0-S2468823122007544-si18.svg https://s3-eu-west-1.amazonaws.com/prod-ucs-content-store-eu-west/content/pii:S2468823122007544/image/svg+xml/a5e5544b0bf1744a3f088bc6d2bd05a2/si18.svg si18 si18.svg svg 551 ALTIMG 1-s2.0-S2468823122007544-si2.svg https://s3-eu-west-1.amazonaws.com/prod-ucs-content-store-eu-west/content/pii:S2468823122007544/image/svg+xml/e21fdaf20b46ba1f4c6e7b24ab956f5b/si2.svg si2 si2.svg svg 1908 ALTIMG 1-s2.0-S2468823122007544-si3.svg https://s3-eu-west-1.amazonaws.com/prod-ucs-content-store-eu-west/content/pii:S2468823122007544/image/svg+xml/c4b481f4c628d83c37e505fbdead9cf5/si3.svg si3 si3.svg svg 3040 ALTIMG 1-s2.0-S2468823122007544-si4.svg https://s3-eu-west-1.amazonaws.com/prod-ucs-content-store-eu-west/content/pii:S2468823122007544/image/svg+xml/b87d1730f9298299bcefb9f111692028/si4.svg si4 si4.svg svg 1068 ALTIMG 1-s2.0-S2468823122007544-si5.svg https://s3-eu-west-1.amazonaws.com/prod-ucs-content-store-eu-west/content/pii:S2468823122007544/image/svg+xml/e27410770dac5ac1c35b978aed571a2f/si5.svg si5 si5.svg svg 3054 ALTIMG 1-s2.0-S2468823122007544-si6.svg https://s3-eu-west-1.amazonaws.com/prod-ucs-content-store-eu-west/content/pii:S2468823122007544/image/svg+xml/bd3532891a45d43e32c46f6af82ee576/si6.svg si6 si6.svg svg 5284 ALTIMG 1-s2.0-S2468823122007544-si7.svg https://s3-eu-west-1.amazonaws.com/prod-ucs-content-store-eu-west/content/pii:S2468823122007544/image/svg+xml/f4a12cd234401818d4cf1777a5a57f49/si7.svg si7 si7.svg svg 8224 ALTIMG 1-s2.0-S2468823122007544-si8.svg https://s3-eu-west-1.amazonaws.com/prod-ucs-content-store-eu-west/content/pii:S2468823122007544/image/svg+xml/5a4f9fe2cf90c1f0b5aef6a85a74defa/si8.svg si8 si8.svg svg 8902 ALTIMG 1-s2.0-S2468823122007544-si9.svg https://s3-eu-west-1.amazonaws.com/prod-ucs-content-store-eu-west/content/pii:S2468823122007544/image/svg+xml/e56fecea4e7aece21c2a2659bb64913a/si9.svg si9 si9.svg svg 6382 ALTIMG 1-s2.0-S2468823122007544-am.pdf https://s3-eu-west-1.amazonaws.com/prod-ucs-content-store-eu-west/content/egi:10SL1BP1Q95/MAIN/application/pdf/a3df8c8aa23cd0900e055135cb1e63b8/am.pdf am am.pdf pdf false 1403301 AAM-PDF MCAT 112868 112868 S2468-8231(22)00754-4 10.1016/j.mcat.2022.112868 Elsevier B.V. Fig. 1 A view of the initial simulated structure during the combustion process. Fig 1 Fig. 2 The changes in simulated atomic sample kinetic energy over simulation time. Fig 2 Fig. 3 Potential energy changes in terms of simulation time. Fig 3 Fig. 4 Atomic evolution of the fluid in the presence of 4% Pd catalyst during the combustion process in (a) initial and (b) final step. Fig 4 Fig. 5 The change in maximum density in the presence of Pd catalysts with different ratios. Fig 5 Fig. 6 The changes in the maximum velocity of simulated atomic samples in the presence of catalysts with different ratios. Fig 6 Fig. 7 The changes in Maximum temperature in the presence of Pd catalyst with different ratios. Fig 7 Fig. 8 HF changes over the different atomic ratios of Pd catalysts. Fig 8 Fig. 9 The TC changes over the Pd catalyst's different atomic ratios. Fig 9 Fig. 10 CE changes over the different atomic ratios of Pd catalysts. Fig 10 Fig. 11 Atomic evolution of the fluid during the combustion process at IP (a) 1, (b) 2, (c) 5, and (d) 10 bar. Fig 11 Fig. 12 The change in maximum density of simulated samples at different IPs. Fig 12 Fig. 13 The change in maximum velocity of simulated atomic samples at different IPs. Fig 13 Fig. 14 The changes in maximum temperature of simulated atomic samples at different IPs. Fig 14 Fig. 15 HF changes in the simulated atomic sample at different IPs. Fig 15 Fig. 16 The changes in TC in a simulated atomic sample at different IPs. Fig 16 Fig. 17 The changes in CE in a simulated atomic sample at different IPs. Fig 17 Table 1 LJ potential parameters of present particles [41,42]. Table 1 Atom εij (kcal/mol) σij (Å) Cut of radii (Å) H 0.044 2.886 12 O 0.06 3.500 12 Cu 0.005 3.495 12 Fe 0.013 2.912 12 N 0.069 3.660 12 C 0.105 3.851 12 Table 2 The changes in Maximum density, velocity and temperature of simulated atomic at a different atomic ratio of Pd catalysts. Table 2 The atomic ratio of the catalyst (%) Maximum density (atom/Å3) Maximum velocity (Å/ps) Maximum temperature (K) 1 0.105 0.45 551 2 0.112 0.48 564 4 0.118 0.52 585 6 0.117 0.51 504 10 0.115 0.46 503 Table 3 The changes in HF, TC and CE in the simulated atomic sample at different catalysts. Table 3 The atomic ratio catalyst (%) HF (W/m2) TC (W/m.K) CE (%) 1 2067 1.28 81 2 2085 1.33 85 4 2096 1.45 93 6 2074 1.36 82 10 2055 1.30 80 Table 4 The changes in maximum density, velocity and temperature of simulated atomic at different IPs. Table 4 IP (bar) Maximum density (atom/Å3) Maximum velocity (Å/ps) Maximum temperature (K) 0 0.118 0.52 585 1 0.116 0.50 562 2 0.116 0.48 503 5 0.117 0.41 496 10 0.117 0.35 441 Table 5 The changes in HF, TC and CE in the simulated atomic sample at different IPs. Table 5 IP (bar) HF (W/m2) TC (W/m.K) CE (%) 0 2096 1.45 93 1 2055 1.40 90 2 2043 1.31 84 5 2001 1.25 82 10 1981 1.19 79 Effect of a palladium catalyst and initial pressure on methane-air catalytic combustion process in a helical coil microchannel: A molecular dynamics approach Zhihui Liu Investigation Writing – original draft Writing – review & editing Methodology Software Validation a b ⁎ Kejun Zhu Investigation Writing – original draft Writing – review & editing Methodology Software Validation a Azher M. Abed Investigation Writing – original draft Writing – review & editing Methodology Software Validation c ⁎ Davood Toghraie Investigation Writing – original draft Writing – review & editing Methodology Software Validation d ⁎ a College of Mechanical and Energy Engineering, Shaoyang University, Shaoyang, Hunan 422000, China College of Mechanical and Energy Engineering Shaoyang University Shaoyang Hunan 422000 China aCollege of Mechanical and Energy Engineering, Shaoyang University, Shaoyang, Hunan 422000, China b Key Laboratory of Hunan Province for Efficient Power System and Intelligent Manufacturing, Shaoyang University, Shaoyang, Hunan 422000, China Key Laboratory of Hunan Province for Efficient Power System and Intelligent Manufacturing Shaoyang University Shaoyang Hunan 422000 China bKey Laboratory of Hunan Province for Efficient Power System and Intelligent Manufacturing, Shaoyang University, Shaoyang, Hunan 422000, China c Air conditioning and Refrigeration Techniques Engineering Department, Al-Mustaqbal University College, Babylon 51001, Iraq Air conditioning and Refrigeration Techniques Engineering Department Al-Mustaqbal University College Babylon 51001 Iraq cAir conditioning and Refrigeration Techniques Engineering Department, Al-Mustaqbal University College, Babylon 51001, Iraq d Department of Mechanical Engineering, Khomeinishahr Branch, Islamic Azad University, Khomeinishahr, Iran Department of Mechanical Engineering, Khomeinishahr Branch Islamic Azad University Khomeinishahr Iran dDepartment of Mechanical Engineering, Khomeinishahr Branch, Islamic Azad University, Khomeinishahr, Iran ⁎ Corresponding author at: College of Mechanical and Energy Engineering, Shaoyang University, Shaoyang, Hunan 422000, China. College of Mechanical and Energy Engineering Shaoyang University Shaoyang Hunan 422000 China Catalytic combustion is a flame-free process which occurs at low temperatures and reduces less release of nitric oxide (NOx). Although catalysts help reduce the release of toxic gases, they have detrimental environmental effects. Therefore, by simulation these reactions, a constraint on the flammability limits and improving their performance can be achieved. In this research, using the molecular dynamics (MD) simulation, the catalytic combustion process of air-methane was studied in a helical microchannel. Palladium (Pd) was used as the catalyst. The results show that adding a Pd catalyst further improved the simulated structure's thermal performance(TP). The heat flux(HF) and thermal conductivity (TC) of atomic samples increased from 2067 W/m2 and 1.28 W/m.K to 2096 W/m2 and 1.45 W/m.K with an increase in atomic ratio Pd catalyst from 1 to 4%. Finally, the combustion efficiency (CE) converges to 93% in the presence of 4% Pd catalysts. By increasing the initial pressure (IP) from 0 to 10 bar, the maximum density did not change much, and the velocity and temperature values decrease in terms of the limitation in atomic oscillations. Increasing the IP reduces the HF and TC from 2096 W/m2 and 1.45 W/m.K to 1981 W/m2 and 1.19 W/m.K. Regarding different types of combustion processes, such as catalytic combustion, were considered in different types of industrial applications, it is expected to study the effect of the parameters of the atomic ratio of Pd catalyst and the IP, propose an optimal mechanism to create catalytic combustion in real and practical samples. Graphical abstract Image, graphical abstract Keywords Molecular dynamics method Palladium Catalytic combustion Microchannel Data availability No data was used for the research described in the article. Nomenclature σij Potential well's depth; εij finite distance at which the potential becomes zero; rij atomic distance between i and j particles; rc Cut-off distance; S i virial (tensor); e i energy; f i j force exerted on the i and j particles; J i ( t ) heat flux flow; ψ ( r i j ) interaction potential; t MD simulation time; m particle mass; T temperature; v velocity of particle; Natom number of particles. 1 Introduction Simulation at the micro and nano scale is one of the topics that today has attracted the attention of many researchers in various processes such as combustion, heat transfer, composites, flow in microchannels, etc. This issue has led to numerous researches in the field of computer numerical simulation at heat transfer and fluid flow in different scales [1–17]. A catalyst is a substance which can be obtained at the end of a reaction without undergoing a chemical change [18]. Combustion process of methane and the effects of methane and oxygen on heat/mass transfer were examined by many researchers [19,20]. This substance affects the reaction rate and increases it. Catalytic combustion is a flame-free process which occurs at low temperatures. Therefore, it releases less NOx [21,22]. This combustion usually consists of a preheater and a catalyst, and even though cold catalytic systems are currently operating at ambient temperature, they do not require a preheater [23–26]. Palladium was used as the catalyst or other photocatalytic Applications [27]. There is no direct flame in such a system, although the catalyst's surface has luminosity. The efficiency of such combustions depends on many factors, including the concentration of pollutant, gas flow temperature, oxygen concentration at the time of contact, and the type of catalyst [23,28]. Achieving a return of more than 90% seems impossible in this process. Catalytic combustion processes are used to control the emission of hydrocarbons and carbon monoxide. Although catalysts help reduce the release of toxic gases, they have environmental effects. Therefore, by simulating these reactions, a constraint on the flammability limits and improving their performance can be achieved. So far, various studies were performed on the catalytic combustion of different structures. For example, in an experimental study, Lee and Trim [29] studied the catalytic combustion process of methane. This study shows that using Pd catalysts caused the process of catalytic combustion. Hence, after this process, methane was converted into water molecules and CO2. Ciuparu et al. [30] reviewed previous studies on catalytic combustion of methane structure to study the effective parameters in this process. They showed that temperature and pressure were among the most important parameters to effect catalytic combustion processes. In computational research, Yan et al. [31] studied the effect of simulated sample dimensions on the catalytic combustion process. The results of this study, which was performed using the finite element method, show an increase in the thermal efficiency of simulated samples by reducing the dimensions of the sample on a micrometre scale. Feng et al. [32] studied the effect of adding strontium nanoparticles to the Co/CeO2 primary catalyst and showed that the TP of fluid improved during the combustion process by adding these nanoparticles and atomic pollution. Feng et al. [33] investigated the catalytic combustion process in the presence of a toluene catalyst. This study adds CeO2 nanoparticles with different percentages to the primary toluene catalyst. The results show that the catalytic combustion process could be observed at lower temperatures using the optimal ratio of these nanoparticles and nanopollutations. Although catalysts help reduce the emission of toxic gases, they have harmful environmental effects. During the conversion of hydrocarbons and CO, CO2 is produced. This gas is one of the main greenhouse gases, the main factor in global warming. By helping CO2, these gas “catalysts” sometimes convert nitrogen and oxygen compounds into nitrous oxide. This gas, also known as “nitro”, is the same gas used to increase the speed of the car, and it is 377 times stronger than CO2 in warming the earth. Therefore, by simulating these reactions, it is possible to achieve limits for flammability and improve their performance [34]. Previous studies show that various factors, such as temperature, pressure, nanoparticle volume fraction, type of catalyst, etc., affect the catalytic combustion process. The effect of IP and the atomic ratio of Pd catalyst on the catalytic combustion process of air-methane was not studied. This study uses the MD simulations in a helical coil microchannel. Because laboratory measurements at micro and nano scales were difficult, the MD simulation could provide relatively detailed images of surface-level phenomena. They could be used to understand the TP of these structures. Regarding different types of combustion processes, such as catalytic combustion, were considered in different types of industrial applications, it is expected to study the effect of the parameters of the atomic ratio of the Pd catalyst and the IP, propose an optimal mechanism to create catalytic combustion in real and practical samples. 2 Simulation 2.1 MD simulation MD simulation is one of the most powerful tools to obtain macroscopic and microscopic properties of materials. Especially for quantities whose experimental values are difficult to obtain under unusual conditions, the MD technique can be used. In the MD method, system changes are obtained by integrating the equations of motion. First, the initial position of particles is determined based on an initial configuration model to determine and distribute the equilibrium velocity of particles from the Maxwell-Boltzmann distribution equation [35]. (1) F i = m i a i = − ∇ i U = − d U d r i After determining the initial conditions, the intermolecular and intramolecular forces were calculated and integrated from the equations of motion. The new position and velocity of the atoms were obtained by the Verlet algorithm Eqs. (2) and ((3)) [36,37]. This continuous loop was repeated until the system was equilibrated. (2) r i ( t + Δ t ) = 2 r i ( t ) − r i ( t − Δ t ) + ( d 2 r i d t 2 ) ( Δ t ) 2 (3) v ( t + Δ t ) = v ( t ) + Δ t v ( t ) + Δ t ( a ( t ) + a ( t + Δ t ) ) 2 The equilibrium method was used using the Green-Kubo function to study and calculate the TC and HF Eqs. (4) and ((5)) [38]: (4) K = V k B T 2 ∫ 0 ∞ ( J x ( 0 ) J x ( t ) ) d t = V 3 k B T 2 ∫ 0 ∞ ( J ( 0 ) . J ( t ) ) d t (5) J = 1 V [ ∑ i e i v i − ∑ i S i v i ] = 1 V [ ∑ i e i v i − ∑ i 〈 j ( f i j v j ) x i j ] = 1 V [ ∑ i e i v i − 1 2 ∑ i 〈 j ( f i j ( v i + v j ) ) x i j ] In the Green-Kubo equation, the integral HF function should be taken, and it increases the volume of differential equations which should be solved at each time step to obtain the exact state of the system, which is solved at each stage of the MD simulation for each atom at each time step. The basis of MD simulation was selecting the appropriate interaction potential among the particles. The closer this potential was to the actual potential among the particles, the better the model of reality. In computer simulations, intermolecular and intramolecular forces were expressed as a set of mathematical equations and were very important in the accuracy of the simulation results. Consequently, the main problem was finding the interaction between atoms and the forces acting on them at any given moment. The choice of an interatomic potential, the mode of interaction of atoms, was certainly the main input for developing an atomic model; Therefore, the potential energy of the whole molecular system was the sum of intermolecular intramolecular energies. In the present simulation, Lennard-Jones (LJ), Embedded Atom Model (EAM), and Coulomb potential functions were used to examine the interaction potential of particles [29–31]. The potential function of EAM represents the common model of atomic bonding in metal systems and is represented as follows [39]: (6) U i = ∑ i = 1 N − 1 ∑ j = i + 1 N ϕ ( r i j ) + ∑ i = 1 N F ( ρ i ) (7) ρ i = ∑ i = 1 N ψ ( r i j ) here, ψ ( r i j ) and F(ρi) represent the interatomic energy and potential embedding function. LJ potential function is a simple mathematical model that approximates the interactions among the neutral particles and is represented as follows [40]: (8) U L J = 4 ε i j [ ( σ i j r ) 12 − ( σ i j r ) 6 ] here, εij is the depth of the potential well, and σij is the finite distance in which the potential is zero, The numerical values of εij and σij for all particles are reported in Table 1 . The bond energy and bond distance among the atoms at the common surface with each other, according to the Lorentz-Bertolt mixing law, are obtained as follows [41]: (9) ε i j = ε i ε j (10) σ i j = σ i + σ j 2 Finally, Coulomb potential function was used to determine the forces of static electric charges of the attraction or repeller particles and is represented as follows [43]: (11) U i j ( r ) = − 1 4 π ε 0 q i q j r i j 2 here, ε0 is the vacuum electric permittivity (8.85 × 10−12 F/m). 2.2 Present simulation details Using the MD method, air-methane's catalytic combustion process was studied in a helical microchannel made of iron and copper. This study uses the LAMMPS software (an open-source code) to perform all calculations. The air-methane was considered the fuel, and Pd was used as the catalyst. Since the stoichiometric amount of oxygen inside the simulation box creates the most optimal state in the samples and, as a result, it will be the best option in the field of heat transfer, in this study, the stoichiometric ratio of diatomic oxygen molecules to methane molecule is observed with a ratio of 2:1. Initial structures were modelled with Avogadro software. In this study, 1500 methane molecules and 3000 diatomic oxygen molecules have been modelled for initial structures. The dimension of the simulation box was considered 1 × 1 × 1 μm3 with a fixed boundary condition in all directions. The IP and temperature were set to 0 bar and 300 K. The simulation time was regarded. The simulation time was considered 20 ns with a 1 fs time step. NPT ensemble was used to control IP and temperature. By choosing constant boundary conditions, the size of atomic structures is fixed in three directions, and the atomic system is repeated in selected directions by choosing periodic boundary conditions. To implement the combustion process in this sample, the initial and final pressure and temperature settings should be determined so that the combustion process can be implemented by raising the temperature in the simulation box. As a result, the temperature and pressure of the simulated structures will be equilibrated using the Nose-Hoover thermostat and the large focal tube (NPT). In the first step of the simulation, the structure will be equilibrated at room temperature (377 K). And after ensuring the atomic stability and thermodynamic equilibration of the simulated sample, the temperature of the sample will be increased until the combustion process occurs. A view of the atomic structure during the combustion process is represented in Fig. 1 . Afte examined the stability of structures, the ensemble changed to NVE, and the combustion process. 2.3 Stability process The equilibrium process in atomic samples at a temperature of 300 K and 0 bar was studied by examining kinetic and potential energy changes. Fig. 2 shows the simulated sample's kinetic energy changes over simulation time. The kinetic energy in the present simulation converged to a numerical value of 96 eV after 10 ns. Convergence of kinetic energy of atomic samples to a certain value resulting from a decrease in the oscillation amplitude of this quantity will indicate equilibrium in atomic samples. This behavior indicated the proper definition of atomic structures and interatomic potentials. This factor caused the distance among the atoms in the structures to tend to a certain value, and as a result, the amount of kinetic energy of the atomic samples did not diverge. Studying potential energy changes in atomic samples was another important factor in the MD simulation. The numerical value of the potential energy in an atomic sample indicated its atomic stability. Fig. 3 shows the changes in potential energy in the simulated atomic sample over simulation time. According to Fig. 3, the atomic structure simulated using the MD simulation method had good stability. The potential energy in atomic samples indicated the presence of an attractive force among the atomic samples and, consequently, the atomic stability. From a numerical point of view, the amount of potential energy in the modelled structure converged to -278 eV after 10 ns. The negative value reported in this section showed the presence of an atomic attraction force inside the simulation box. The interatomic attraction force in the simulated samples caused the interatomic distance in the atomic structure not to increase. The atoms were placed next to each other and at a small distance. It preserved the continuity of the atomic sample. The negative amount of potential energy in the sample indicated the presence of an attractive force among the atoms after 10 ns. 3 Results 3.1 The atomic ratio of the catalyst A catalyst is a substance that, if added to a reaction mixture, changes the rate at which the substance reaches equilibrium in the system without undergoing a stable chemical change and usually increases it. Catalysts may be homogeneous or heterogeneous. Theoretically, the catalyst can be obtained at the end of the reaction without undergoing chemical change, although it may be physically altered. Although the catalyst can affect the reaction rate, it can not change the equilibrium position in a reversible reaction. The addition of a catalyst could improve the TP of the simulated prototype. Therefore, in the first computational step, a Pd catalyst with atomic ratios of 1, 2, 4, 6, and 10% was added to the initial fluid, and the atomic and TP were evaluated. Fig. 4 shows the atomic samples with the catalyst in the initial and final steps. Fig. 5 shows the change in maximum density in the presence of Pd catalysts with different ratios. The results show that adding a Pd catalyst with an atomic ratio of 1% and up to an atomic ratio of 4% had an upward trend. Finally, the value of this quantity converged to 0.115 atom/Å3. Numerical values related to the maximum density value in the presence of Pd catalysts are presented in Table 2 . Fig. 6 shows the changes in the maximum velocity of simulated atomic samples in the presence of Pd catalysts with different ratios. The results show that adding 1% Pd catalyst increased the maximum velocity to 0.45 Å/ps. By increasing the atomic ratio of a Pd catalyst, the velocity value had an upward trend. The atomic ratio of 4% reached the maximum velocity value, which is 0.52 Å/ps. After reaching the maximum value, the numerical value of the velocity decreased, and finally, in the atomic ratio of 10%, this quantity decreased to 0.46. Using the presented results, by increasing the atomic ratio of the catalyst in atomic samples, the velocity in atomic samples decreased, which resulted from reducing atomic oscillations in terms of the space constraint created. Fig. 7 shows the changes in maximum temperature in simulated atomic samples in the presence of Pd catalysts at different ratios. As the velocity of particles increases, so does the temperature in the atomic structure. The temperature in the samples increased to a numerical value of 584 K with a 4% atomic ratio of Pd. As the atomic ratio of the catalyst increased further, as the particle velocity decreased, so did the temperature. With the presence of a 10% of catalyst, its value increased to 503 K. Numerical values related to the maximum temperature value in Pd catalysts are presented in Table 2. After ensuring the structural equilibration in the simulated samples, the amount of HF, TC, and CE will express the TP of the samples. Fig. 8 shows the changes in HF in a simulated atomic sample with the addition of different atomic ratios of Pd catalysts. According to the presented results, it can be seen that by adding 1% Pd catalyst, the HF reached 2067 W/m2. By increasing the atomic ratio of the catalyst to 4%, the amount of HF reached the maximum value. Then by increasing the atomic ratio of the catalyst, the HF had a decreasing trend. From a numerical point of view, increasing the atomic ratio of the catalyst from 4% to 10% decreased the HF from 2096 to 2055 W/m2. Fig. 9 shows the TC changes in the simulated atomic sample using a different atomic ratio of Pd catalysts. The results show that by increasing the atomic ratio of the catalyst, the TC increased, and after reaching the maximum value, it went through a downward trend. Increasing the atomic ratio of the Pd catalyst from 1 to 4%, the TC reaches from 1.28 to 1.45 W/m.K. Besides, by increasing the atomic ratio of the catalyst from 4 to 10%, the TC decreased and finally reached 1.30 W/m.K. The results are presented in more detail in Table 3 . Fig. 10 shows the CE changes in the simulated atomic sample with the addition of different atomic ratios of Pd catalysts. The results show that the addition of a Pd catalyst further improved the TP of the initial fluid. This behavior was in terms of the increasing atomic mobility in the modelled samples in return for the addition of Pd catalyst, corresponding to the increase in oscillation amplitude in the defined samples. On the other hand, this improvement reached its maximum value by adding 4% of the catalyst to the initial structure. Consequently, the simulated sample showed higher thermal efficiency for different catalysts. By further increasing the atomic ratio of the catalyst in the simulated samples, the aggregation process reduced the thermal efficiency in the optimized sample. From a numerical point of view, the amount of HF and conductivity of atomic samples with the addition of 4% Pd catalyst reached 2096 W/m2 and 1.45 W/m.K, which was the maximum value obtained based on Table 2. Numerical values related to the change in HF, TC, and CE values in Pd catalysts are presented in Table 2. 3.2 The effect of IP The IP was an effective factor in the simulation fluid combustion process. Therefore, in this section, the effect of the IP on the atomic and TP of fluid was studied. The IP inside the simulation box was in 0, 1, 2, 5 and 10 bar values. Fig. 11 shows the atomic evolution of the fluid understudy at the IP combustion process 1, 2, 5, and 10 bar. Fig. 12 shows the changes in the maximum density of simulated atomic samples at different IPs. The results defined did not change much for different IP values. In other words, by increasing the IP of the atomic sample from 0 to 10 bar, the maximum density value decreased from 0.118 to 0.117 atom/Å3. Fig. 13 shows the maximum velocities in atomic samples simulated at different IPs. According to the results in Table 6, the atomic samples’ velocity decreased by increasing pressure and converged to a value of 0.35 Å/ps at 10 bar. This decrease in the value of velocity profiles was the limitation of atomic oscillations inside the simulation box, which could directly affect the TP of the sample under study. On the other hand, increasing the IP does not disrupt the atomic structure. As a result, the system designed in this study could be used in different environmental conditions. Fig. 14 shows the change in the maximum temperature of simulated atomic samples at different IPs. According to the results presented in Table 6, the maximum temperature in atomic samples decreased by increasing IP and converged to a numerical value of 441 K at a pressure of 10 bar. This decrease in the value of the temperature profile was the limitation of the atomic oscillations inside the simulation box with increasing IP, which could directly affect the TP of the sample under study Table 4 . Considering the kinetic constraints created in atomic samples and the effect of atomic velocities on the amount of IP in the simulated samples, it is expected that the TP of these samples will also change. The heat fluctuations in the simulated atomic sample for different IPs are shown in Fig. 15 . According to the results presented in Table 7, increasing the IP from 0 to 10 bar in atomic samples reduces the HF flowing in atomic samples from 2096 to 1981 W/m2. Fig. 16 shows the changes in the TC of simulated atomic samples at different IPs. The results show that increasing the IP up to 10 bar decreased the TC from 1.45 to 1.19 W/m.K. the numerical results are listed in Table 5 . As the HF and TC decreased, the CE of the atomic samples was expected to decrease. Fig. 17 shows the CE changes in the simulated atomic sample for different IPs. According to the presented results, by increasing the IP from 0 to 10 bar, the numerical value of CE decreased from 93 to 79%. This can be evaluated by reducing the participation of atoms present in the simulation box in the combustion process and should be considered in practical applications of the thermal structure introduced in the present study because the defined initial conditions could disrupt the behavior of the proposed heating system. 4 Conclusion In summary, the present study investigated the catalytic combustion process of air-methane in a helical coil microchannel. This study was performed by simulating MD in 10 ns. In the first step of the research, the equilibrium process in atomic samples at a temperature of 300 K and 0 bar was studied by examining kinetic and potential energy changes. Finally, the atomic behavior of the structure was studied with changes in maximum density, temperature, and velocity, and TP were studied by examining changes in HF, TC and CE. The following general results were obtained: • As the atomic ratio of the Pd catalyst in the atomic samples increased (to 4%), the velocity and temperature in the atomic samples increased. • Adding a Pd catalyst to 4% improves the TP of the samples. In the presence of a 4% Pd catalyst, the structures’ TC, HF, and CE reached 1.45 W/m.K, 2096 W/m2, and 93%, respectively. This increase was in terms of increased atomic mobility in the modelled samples with the addition of the catalyst, which will correspond to the increase in oscillation amplitude in the defined samples. • The results for the maximum density of the sample defined did not change much for different IP values. Increasing the IP from 0 to 10 bar, the maximum velocity and temperature in atomic samples decrease and converge to 0.35 Å/ps and 441 K. • Increased pressure in atomic samples reduces the TP of structures. More precisely, by increasing the IP to 10 bar, the HF flowing in the atomic samples decreased from 2096 to 1981 W/m2. The TC and CE decreased to 1.19 W/m.K and 79%. Author statement • The corresponding author is responsible for ensuring that the descriptions are accurate and agreed by all authors. • The role(s) of all authors are listed. • Authors have contributed in multiple roles. CRediT authorship contribution statement Zhihui Liu: Investigation, Writing – original draft, Writing – review & editing, Methodology, Software, Validation. Kejun Zhu: Investigation, Writing – original draft, Writing – review & editing, Methodology, Software, Validation. Azher M. Abed: Investigation, Writing – original draft, Writing – review & editing, Methodology, Software, Validation. Davood Toghraie: Investigation, Writing – original draft, Writing – review & editing, Methodology, Software, Validation. Declaration of Competing Interest The authors declare that they have no known competing financial interests or personal relationships that could have appeared to influence the work reported in this paper. Acknowledgments (1) General Project of Department of Education of Hunan Province, 20C1670; (2) Outstanding Youth Project of Hunan Provincial Department of Education, 20B534. References [1] R. Zahoor S. Bajt B. Šarler A numerical investigation of micro-jet characteristics in different pressure environments Int. J. Hydromechatronics 4 4 2021 368 383. M. Mansouri, M. Nademi, M.E. Olya, H. Lotfi (2017). Study of methyl tert-butyl ether (MTBE) photocatalytic degradation with UV/TiO2-ZnO-CuO nanoparticles. J. Chem. Health Risks, 7(1), 19–32. 10.22034/jchr.2017.544161 [2] D.O. Ariyo T. Bello-Ochende Critical heat fluxes for subcooled flow boiling in optimised microchannels Int. J. Hydromechatronics 3 2 2020 140 154 H.D. Ashkezari, H.S Kalal, H. Hoveidi, M.R. Almasian, and M. Ashoor. \"Fabrication of UV/TiO2 nanotubes/Pd system by electrochemical anodization for furfural photocatalytic degradation.\" Casp. J. Environ. Sci. 15, no. 1 (2017): 1–11. [3] CUI Likun DU Mingming YE Wei Numerical simulation for chemical non-equilibrium flow in combustion chamber of SDR J. Ordnan. Equip. Eng. 42 01 2021 157 160 M. Issa (2022). Rapid enzymatically reduction of zincum gluconicum for the biomanufacturing of zinc oxide nanoparticles by mycoextracellular filtrate of penicillium digitatum (Pdig-B3) as a soft green technique. Arch. Razi Inst., 77(1), 101–110. 10.22092/ari.2021.356422.1841 [4] M.A. Yuan ZOU Gang KONG Guangming Numerical study on the uniformity of the outlet flow field of a two phase rotating detonation engine J. Ordnan. Equip. Eng. 42(01) 2021 194 200 M. Shojaie, One-pot multicomponent synthesis of pyrano[2,3-c]pyrazoles catalyzed by copper oxide nanoparticles (CuO NPs). J. Synth. Chem. 2022, 1, 125–131. 10.22034/jsc.2022.155286 [5] C. Kandilli B. Mertoglu Optimisation design and operation parameters of a photovoltaic thermal system integrated with natural zeolite Int. J. Hydromechatronics 3 2 2020 128 139. W. Xiaoming, L.I. Changhe, Z. Yanbin, S. Zafar, D. Sujan, S. Shubham, Y. Min, G.A.O. Teng Influence of texture shape and arrangement on nanofluid minimum quantity lubrication turning. Int. J. Adv. Manuf. Technol. 2022. Vol. 119, (1-2): 631–646. 10.1007/s00170-021-08235-4 [6] MING. Xiaotian Numerical simulation research on downhole high energy gas fracturing design J. Ordnan. Equip. Eng. 42 05 2021 158 162 H. Narimani, Research on synthesis of heterocyclic structures using ZnO NPs as catalyst. J. Synth. Chem. 2022, 1, 62–83. 10.22034/jsc.2022.155232 [7] A. Bilal F. Mabood CNumerical investigation of mixed convection flow of viscoelastic nanofluid with convective conditions over an exponentially stretching surface, Iran J. Chem. Chem. 40 6 2021 1931 1942 H. Durak, and S. Genel, “Catalytic hydrothermal liquefaction of lactuca scariola with a heterogeneous catalyst: the investigation of temperature, reaction time and synergistic effect of catalysts,” Bioresour. Technol., vol. 309, pp. 123375, 2020. [8] R. Zahmatkesh Theoretical investigation of entropy generation in axisymmetric stagnation point flow of nanofluid impinging on the cylinder axes with constant wall heat flux and uniform transpiration Iran. J. Chem. Chem. 40 6 2021 1893 1908 S. Gupta, R. Jain, D. Goyal (2021) Recent trends in conversion of c6-sugars into value-added chemicals over solid catalysts. Eur. Chem. Bull. 10 (2), 80–84. [9] J. Tu F. Fan C. Qi Z. Ding L. Liang Experimental study on the particle fouling properties of magnetic nanofluids in a corrugated tube with built-in twisted turbulator under variable magnetic field Powder Technol. 400 2022 117216 J. Tu, F. Fan, C. Qi, Z. Ding, and L. Liang, “Experimental study on the particle fouling properties of magnetic nanofluids in a corrugated tube with built-in twisted turbulator under variable magnetic field,” Powder Technol., vol. 400, pp. 117216, 2022. [10] B. Ruhani Statistical modeling and investigation of thermal characteristics of a new nanofluid containing cerium oxide powder Heliyon 2022 11373 10.1016/j.heliyon.2022.e11373 Y. Wang, C. Qi, R. Zhao, and C. Wang, “Study on the mechanism of modified surface and magnetic nanofluids on cooling performance of wireless charging equipment under magnetic field,” Appl. Therm. Eng., vol. 208, pp. 118258, 2022. [11] J. Tu C. Qi K. Li Z. Tang Numerical analysis of flow and heat characteristic around micro-ribbed tube in heat exchanger system Powder Technol. 395 2022 562 583 J. Tu, C. Qi, K. Li, and Z. Tang, “Numerical analysis of flow and heat characteristic around micro-ribbed tube in heat exchanger system,” Powder Technol., vol. 395, pp. 562–583, 2022. [12] Z. Tang C. Qi Z. Tian L. Chen Thermal management of electronic components based on new wave bio-inspired structures and nanofluids Int. Commun. Heat Mass Transf. 131 2022 105840 Z. Tang, C. Qi, Z. Tian, and L. Chen, “Thermal management of electronic components based on new wave bio-inspired structures and nanofluids,” Int. Commun. Heat Mass Transf. vol. 131, pp. 105840, 2022. [13] R. Sadeghi M. Shadloo Three-dimensional numerical investigation of film boiling by the lattice Boltzmann method Numer. Heat Transf. Part A Appl. 71 5 2017 560 574 R. Sadeghi, and M. Shadloo, “Three-dimensional numerical investigation of film boiling by the lattice Boltzmann method,” Numer. Heat Transf. Part A Appl. vol. 71, no. 5, pp. 560–574, 2017. [14] R. Sadeghi M.S. Shadloo M.Y.A. Jamalabadi A. Karimipour A three-dimensional lattice Boltzmann model for numerical investigation of bubble growth in pool boiling Int. Commun. Heat Mass Transf. 79 2016 58 66 R. Sadeghi, M.S. Shadloo, M.Y.A. Jamalabadi, and A. Karimipour, “A three-dimensional lattice Boltzmann model for numerical investigation of bubble growth in pool boiling,” Int. Commun. Heat Mass Transf. vol. 79, pp. 58–66, 2016. [15] M.S Shadloo Numerical simulation of compressible flows by lattice Boltzmann method Numer. Heat Transf. Part A Appl. 75 3 2019 167 182 M.S Shadloo, “Numerical simulation of compressible flows by lattice Boltzmann method,” Numer. Heat Transf. Part A Appl. vol. 75, no. 3, pp. 167–182, 2019. [16] M.S. Shadloo Application of support vector machines for accurate prediction of convection heat transfer coefficient of nanofluids through circular pipes Int. J. Numer. Methods Heat Fluid Flow 2020 M.S. Shadloo, “Application of support vector machines for accurate prediction of convection heat transfer coefficient of nanofluids through circular pipes,” Int. J. Numer. Methods Heat Fluid Flow, 2020. [17] B. Ruhani Statistical investigation for developing a new model for rheological behavior of Silica–ethylene glycol/Water hybrid Newtonian nanofluid using experimental data Physica A 525 2019 616 627 M.Q. Nguyen, M.S. Shadloo, A. Hadjadj, B. Lebon, and J. Peixinho, “Perturbation threshold and hysteresis associated with the transition to turbulence in sudden expansion pipe flow,” Int. J. Heat Fluid Flow, vol. 76, pp. 187–196, 2019. [18] M. Wang L. Deng G. Liu L. Wen J. Wang K. Huang Y. Pan Porous organic polymer-derived nanopalladium catalysts for chemoselective synthesis of antitumor benzofuro[2,3‑b]pyrazine from 2‑bromophenol and isonitriles Org. Lett. 21 13 2019 4929 4932 10.1021/acs.orglett.9b01230 M. Wang, L. Deng, G. Liu, L. Wen, J. Wang, K. Huang, Y. Pan (2019). Porous organic polymer-derived nanopalladium catalysts for chemoselective synthesis of antitumor benzofuro[2,3‑b]pyrazine from 2‑bromophenol and isonitriles. Org. Lett., 21(13), 4929–4932. 10.1021/acs.orglett.9b01230 [19] Z. Cheng Z. Guo P. Fu J. Yang Q. Wang New insights into the effects of methane and oxygen on heat/mass transfer in reactive porous media Int. Commun. Heat Mass Transf. 129 2021 105652 10.1016/j.icheatmasstransfer.2021.105652 Z. Cheng, Z. Guo, P. Fu, J. Yang, & Q. Wang (2021). New insights into the effects of methane and oxygen on heat/mass transfer in reactive porous media. Int. Commun. Heat Mass Transf. 129, 105652. 10.1016/j.icheatmasstransfer.2021.105652 [20] J. Qu Y. Feng G. Xu M. Zhang Y. Zhu S. Zhou Design and thermodynamics analysis of marine dual fuel low speed engine with methane reforming integrated high pressure exhaust gas recirculation system Fuel 319 2022 123747 10.1016/j.fuel.2022.123747 J. Qu, Y. Feng, G. Xu, M. Zhang, Y. Zhu, S. Zhou (2022). Design and thermodynamics analysis of marine dual fuel low speed engine with methane reforming integrated high pressure exhaust gas recirculation system. Fuel, 319, 123747. 10.1016/j.fuel.2022.123747 [21] C. Koch, “Process and equipment for the flame-free combustion of gaseous or vapour fuel/air mixtures,” 1977. [22] D.T. Trimm Catalytic combustion Appl. Catal. 7 3 1983 249 282 D.T. Trimm, “Catalytic combustion,” Appl. Catal. vol. 7, no. 3, pp. 249–282, 1983. [23] R.E. Hayes S.T. Kolaczkowski Introduction to Catalytic Combustion 2021 Routledge R.E. Hayes, and S.T. Kolaczkowski, Introduction to Catalytic Combustion: Routledge, 2021. [24] C. Li W. Li K. Chen A.T. Ogunbiyi Z. Zhou Q. Duan F. Xue Highly active Pd catalysts supported on surface-modified cobalt-nickel mixed oxides for low temperature oxidation of lean methane Fuel 279 2020 118372 C. Li, W. Li, K. Chen, A.T. Ogunbiyi, Z. Zhou, Q. Duan, and F. Xue, “Highly active Pd catalysts supported on surface-modified cobalt-nickel mixed oxides for low temperature oxidation of lean methane,” Fuel, vol. 279, pp. 118372, 2020. [25] Q. Duan C. Zhang S. Sun Y. Pan X. Zhou Y. Liu K. Chen C. Li X. Wang W. Li Atomically dispersed palladium-based catalysts obtained via constructing a spatial structure with high performance for lean methane combustion J. Mater. Chem. A 8 15 2020 7395 7404 Q. Duan, C. Zhang, S. Sun, Y. Pan, X. Zhou, Y. Liu, K. Chen, C. Li, X. Wang, and W. Li, “Atomically dispersed palladium-based catalysts obtained via constructing a spatial structure with high performance for lean methane combustion,” J. Mater. Chem. A, vol. 8, no. 15, pp. 7395–7404, 2020. [26] C. Li W. Li K. Chen A.T. Ogunbiyi Z. Zhou F. Xue L. Yuan Palladium nanoparticles supported on surface-modified metal oxides for catalytic oxidation of lean methane ACS Appl. Nano Mater. 3 12 2020 12130 12138 C. Li, W. Li, K. Chen, A.T. Ogunbiyi, Z. Zhou, F. Xue, and L. Yuan, “Palladium nanoparticles supported on surface-modified metal oxides for catalytic oxidation of lean methane,” ACS Appl. Nano Mater. vol. 3, no. 12, pp. 12130–12138, 2020. [27] A. Naeimi R. Nejat Synthesis and characterization of a novel bio-magnetically recoverable palladium nanocomposite for the photocatalytic applications Iran. J. Chem. Chem. 41(1) 2022 15-26 C. Li, B. Tang, A.T. Ogunbiyi, S. Tang, W. Li, Q. Lu, and L. Yuan, “The effects of facet-dependent palladium-titania interactions on the activity of Pd/Rutile catalysts for lean methane oxidation,” Mol. Catal. vol. 528, pp. 112475, 2022. [28] R. Prasad L.A. Kennedy E. Ruckenstein Catalytic combustion Catal. Rev. Sci. Eng. 26 1 1984 1 58 R. Prasad, L.A. Kennedy, and E. Ruckenstein, “Catalytic combustion,” Catal. Rev. Sci. Eng. vol. 26, no. 1, pp. 1–58, 1984. [29] J.H. Lee D.L. Trimm Catalytic combustion of methane Fuel Process. Technol. 42 2-3 1995 339 359 J.H. Lee, and D.L. Trimm, “Catalytic combustion of methane,” Fuel Process. Technol., vol. 42, no. 2-3, pp. 339–359, 1995. [30] D. Ciuparu M.R. Lyubovsky E. Altman L.D. Pfefferle A. Datye Catalytic combustion of methane over palladium-based catalysts Catal. Rev. 44 4 2002 593 649 D. Ciuparu, M.R. Lyubovsky, E. Altman, L.D. Pfefferle, and A. Datye, “Catalytic combustion of methane over palladium-based catalysts,” Catal. Rev. vol. 44, no. 4, pp. 593–649, 2002. [31] Y. Yan G. Wu W. Huang L. Zhang L. Li Z. Yang Numerical comparison study of methane catalytic combustion characteristic between newly proposed opposed counter-flow micro-combustor and the conventional ones Energy 170 2019 403 410 Y. Yan, G. Wu, W. Huang, L. Zhang, L. Li, and Z. Yang, “Numerical comparison study of methane catalytic combustion characteristic between newly proposed opposed counter-flow micro-combustor and the conventional ones,” Energy, vol. 170, pp. 403–410, 2019. [32] X. Feng J. Guo X. Wen M. Xu Y. Chu S. Yuan Enhancing performance of Co/CeO2 catalyst by Sr doping for catalytic combustion of toluene Appl. Surf. Sci. 445 2018 145 153 X. Feng, J. Guo, X. Wen, M. Xu, Y. Chu, and S. Yuan, “Enhancing performance of Co/CeO2 catalyst by Sr doping for catalytic combustion of toluene,” Appl. Surf. Sci., vol. 445, pp. 145–153, 2018. [33] Z. Feng Q. Ren R. Peng S. Mo M. Zhang M. Fu L. Chen D. Ye Effect of CeO2 morphologies on toluene catalytic combustion Catal. Today 332 2019 177 182 Z. Feng, Q. Ren, R. Peng, S. Mo, M. Zhang, M. Fu, L. Chen, and D. Ye, “Effect of CeO2 morphologies on toluene catalytic combustion,” Catal. Today, vol. 332, pp. 177–182, 2019. [34] L. He Y. Fan J. Bellettre J. Yue L. Luo A review on catalytic methane combustion at low temperatures: catalysts, mechanisms, reaction conditions and reactor designs Renew. Sustain. Energy Rev. 119 2020 109589 L. He, Y. Fan, J. Bellettre, J. Yue, and L. Luo, “A review on catalytic methane combustion at low temperatures: catalysts, mechanisms, reaction conditions and reactor designs,” Renew. Sustain. Energy Rev., vol. 119, pp. 109589, 2020. [35] B.J. Alder T.E. Wainwright Studies in molecular dynamics. I. General method J. Chem. Phys. 31 2 1959 459 466 B.J. Alder, and T.E. Wainwright, “Studies in molecular dynamics. I. General method,” J. Chem. Phys., vol. 31, no. 2, pp. 459–466, 1959. [36] W.C. Swope H.C. Andersen P.H. Berens K.R. Wilson A computer simulation method for the calculation of equilibrium constants for the formation of physical clusters of molecules: application to small water clusters J. Chem. Phys. 76 1 1982 637 649 W.C. Swope, H.C. Andersen, P.H. Berens, and K.R. Wilson, “A computer simulation method for the calculation of equilibrium constants for the formation of physical clusters of molecules: application to small water clusters,” J. Chem. Phys., vol. 76, no. 1, pp. 637–649, 1982. [37] E. Hairer C. Lubich G. Wanner Geometric numerical integration illustrated by the Störmer–Verlet method Acta Numer. 12 2003 399 450 E. Hairer, C. Lubich, and G. Wanner, “Geometric numerical integration illustrated by the Störmer–Verlet method,” Acta Numer., vol. 12, pp. 399–450, 2003. [38] M.S. Green Markoff random processes and the statistical mechanics of time-dependent phenomena. II. Irreversible processes in fluids J. Chem. Phys. 22 3 1954 398 413 M.S. Green, “Markoff random processes and the statistical mechanics of time-dependent phenomena. II. Irreversible processes in fluids,” J. Chem. Phys., vol. 22, no. 3, pp. 398–413, 1954. [39] M.S. Daw M.I. Baskes Embedded-atom method: Derivation and application to impurities, surfaces, and other defects in metals Phys. Rev. B 29 12 1984 6443 M.S. Daw, and M.I. Baskes, “Embedded-atom method: Derivation and application to impurities, surfaces, and other defects in metals,” Phys. Rev. B, vol. 29, no. 12, pp. 6443, 1984. [40] J.E. Lennard-Jones Cohesion Proceedings of the Physical Society (1926-1948) 43 1931 461 J.E. Lennard-Jones, “Cohesion,” Proceedings of the Physical Society (1926-1948), vol. 43, no. 5, pp. 461, 1931. [41] H. Berendsen J. Grigera T. Straatsma The missing term in effective pair potentials J. Phys. Chem. 91 24 1987 6269 6271 H. Berendsen, J. Grigera, and T. Straatsma, “The missing term in effective pair potentials,” J. Phys. Chem., vol. 91, no. 24, pp. 6269–6271, 1987. [42] A.K. Rappé C.J. Casewit K. Colwell W.A. Goddard W.M. Skiff UFF, a full periodic table force field for molecular mechanics and molecular dynamics simulations J. Am. Chem. Soc. 114 25 1992 10024 10035 A.K. Rappé, C.J. Casewit, K. Colwell, W.A. Goddard and W.M. Skiff, “UFF, a full periodic table force field for molecular mechanics and molecular dynamics simulations,” J. Am. Chem. Soc., vol. 114, no. 25, pp. 10024–10035, 1992. [43] P.G. Huray Maxwell's Equations 2011 John Wiley & Sons P.G. Huray, Maxwell's Equations: John Wiley & Sons, 2011.",
+      "scopus-id": "85144015975",
+      "coredata": {
+        "eid": "1-s2.0-S2468823122007544",
+        "dc:description": "Catalytic combustion is a flame-free process which occurs at low temperatures and reduces less release of nitric oxide (NOx). Although catalysts help reduce the release of toxic gases, they have detrimental environmental effects. Therefore, by simulation these reactions, a constraint on the flammability limits and improving their performance can be achieved. In this research, using the molecular dynamics (MD) simulation, the catalytic combustion process of air-methane was studied in a helical microchannel. Palladium (Pd) was used as the catalyst. The results show that adding a Pd catalyst further improved the simulated structure's thermal performance(TP). The heat flux(HF) and thermal conductivity (TC) of atomic samples increased from 2067 W/m2 and 1.28 W/m.K to 2096 W/m2 and 1.45 W/m.K with an increase in atomic ratio Pd catalyst from 1 to 4%. Finally, the combustion efficiency (CE) converges to 93% in the presence of 4% Pd catalysts. By increasing the initial pressure (IP) from 0 to 10 bar, the maximum density did not change much, and the velocity and temperature values decrease in terms of the limitation in atomic oscillations. Increasing the IP reduces the HF and TC from 2096 W/m2 and 1.45 W/m.K to 1981 W/m2 and 1.19 W/m.K. Regarding different types of combustion processes, such as catalytic combustion, were considered in different types of industrial applications, it is expected to study the effect of the parameters of the atomic ratio of Pd catalyst and the IP, propose an optimal mechanism to create catalytic combustion in real and practical samples.",
+        "openArchiveArticle": "false",
+        "prism:coverDate": "2023-01-15",
+        "openaccessUserLicense": null,
+        "prism:aggregationType": "Journal",
+        "prism:url": "https://api.elsevier.com/content/article/pii/S2468823122007544",
+        "dc:creator": [
+          {
+            "@_fa": "true",
+            "$": "Liu, Zhihui"
+          },
+          {
+            "@_fa": "true",
+            "$": "Zhu, Kejun"
+          },
+          {
+            "@_fa": "true",
+            "$": "Abed, Azher M."
+          },
+          {
+            "@_fa": "true",
+            "$": "Toghraie, Davood"
+          }
+        ],
+        "link": [
+          {
+            "@_fa": "true",
+            "@rel": "self",
+            "@href": "https://api.elsevier.com/content/article/pii/S2468823122007544"
+          },
+          {
+            "@_fa": "true",
+            "@rel": "scidir",
+            "@href": "https://www.sciencedirect.com/science/article/pii/S2468823122007544"
+          }
+        ],
+        "dc:format": "application/json",
+        "openaccessType": null,
+        "pii": "S2468-8231(22)00754-4",
+        "prism:volume": "535",
+        "articleNumber": "112868",
+        "prism:publisher": "Elsevier B.V.",
+        "dc:title": "Effect of a palladium catalyst and initial pressure on methane-air catalytic combustion process in a helical coil microchannel: A molecular dynamics approach",
+        "prism:copyright": "© 2022 Elsevier B.V. All rights reserved.",
+        "openaccess": "0",
+        "prism:issn": "24688231",
+        "dcterms:subject": [
+          {
+            "@_fa": "true",
+            "$": "Molecular dynamics method"
+          },
+          {
+            "@_fa": "true",
+            "$": "Palladium"
+          },
+          {
+            "@_fa": "true",
+            "$": "Catalytic combustion"
+          },
+          {
+            "@_fa": "true",
+            "$": "Microchannel"
+          }
+        ],
+        "openaccessArticle": "false",
+        "prism:publicationName": "Molecular Catalysis",
+        "openaccessSponsorType": null,
+        "prism:pageRange": "112868",
+        "pubType": "fla",
+        "prism:coverDisplayDate": "15 January 2023",
+        "prism:doi": "10.1016/j.mcat.2022.112868",
+        "prism:startingPage": "112868",
+        "dc:identifier": "doi:10.1016/j.mcat.2022.112868",
+        "openaccessSponsorName": null
+      },
+      "objects": {
+        "object": [
+          {
+            "@category": "standard",
+            "@height": "312",
+            "@width": "380",
+            "@_fa": "true",
+            "$": "https://api.elsevier.com/content/object/eid/1-s2.0-S2468823122007544-gr17.jpg?httpAccept=%2A%2F%2A",
+            "@multimediatype": "JPEG image file",
+            "@type": "IMAGE-DOWNSAMPLED",
+            "@size": "16977",
+            "@ref": "gr17",
+            "@mimetype": "image/jpeg"
+          },
+          {
+            "@category": "standard",
+            "@height": "323",
+            "@width": "376",
+            "@_fa": "true",
+            "$": "https://api.elsevier.com/content/object/eid/1-s2.0-S2468823122007544-gr8.jpg?httpAccept=%2A%2F%2A",
+            "@multimediatype": "JPEG image file",
+            "@type": "IMAGE-DOWNSAMPLED",
+            "@size": "17508",
+            "@ref": "gr8",
+            "@mimetype": "image/jpeg"
+          },
+          {
+            "@category": "standard",
+            "@height": "301",
+            "@width": "380",
+            "@_fa": "true",
+            "$": "https://api.elsevier.com/content/object/eid/1-s2.0-S2468823122007544-gr15.jpg?httpAccept=%2A%2F%2A",
+            "@multimediatype": "JPEG image file",
+            "@type": "IMAGE-DOWNSAMPLED",
+            "@size": "15768",
+            "@ref": "gr15",
+            "@mimetype": "image/jpeg"
+          },
+          {
+            "@category": "standard",
+            "@height": "333",
+            "@width": "376",
+            "@_fa": "true",
+            "$": "https://api.elsevier.com/content/object/eid/1-s2.0-S2468823122007544-gr9.jpg?httpAccept=%2A%2F%2A",
+            "@multimediatype": "JPEG image file",
+            "@type": "IMAGE-DOWNSAMPLED",
+            "@size": "16296",
+            "@ref": "gr9",
+            "@mimetype": "image/jpeg"
+          },
+          {
+            "@category": "standard",
+            "@height": "306",
+            "@width": "376",
+            "@_fa": "true",
+            "$": "https://api.elsevier.com/content/object/eid/1-s2.0-S2468823122007544-gr16.jpg?httpAccept=%2A%2F%2A",
+            "@multimediatype": "JPEG image file",
+            "@type": "IMAGE-DOWNSAMPLED",
+            "@size": "16039",
+            "@ref": "gr16",
+            "@mimetype": "image/jpeg"
+          },
+          {
+            "@category": "standard",
+            "@height": "310",
+            "@width": "380",
+            "@_fa": "true",
+            "$": "https://api.elsevier.com/content/object/eid/1-s2.0-S2468823122007544-gr13.jpg?httpAccept=%2A%2F%2A",
+            "@multimediatype": "JPEG image file",
+            "@type": "IMAGE-DOWNSAMPLED",
+            "@size": "16417",
+            "@ref": "gr13",
+            "@mimetype": "image/jpeg"
+          },
+          {
+            "@category": "standard",
+            "@height": "304",
+            "@width": "376",
+            "@_fa": "true",
+            "$": "https://api.elsevier.com/content/object/eid/1-s2.0-S2468823122007544-gr14.jpg?httpAccept=%2A%2F%2A",
+            "@multimediatype": "JPEG image file",
+            "@type": "IMAGE-DOWNSAMPLED",
+            "@size": "14375",
+            "@ref": "gr14",
+            "@mimetype": "image/jpeg"
+          },
+          {
+            "@category": "standard",
+            "@height": "556",
+            "@width": "640",
+            "@_fa": "true",
+            "$": "https://api.elsevier.com/content/object/eid/1-s2.0-S2468823122007544-gr11.jpg?httpAccept=%2A%2F%2A",
+            "@multimediatype": "JPEG image file",
+            "@type": "IMAGE-DOWNSAMPLED",
+            "@size": "169693",
+            "@ref": "gr11",
+            "@mimetype": "image/jpeg"
+          },
+          {
+            "@category": "standard",
+            "@height": "299",
+            "@width": "378",
+            "@_fa": "true",
+            "$": "https://api.elsevier.com/content/object/eid/1-s2.0-S2468823122007544-gr12.jpg?httpAccept=%2A%2F%2A",
+            "@multimediatype": "JPEG image file",
+            "@type": "IMAGE-DOWNSAMPLED",
+            "@size": "16326",
+            "@ref": "gr12",
+            "@mimetype": "image/jpeg"
+          },
+          {
+            "@category": "standard",
+            "@height": "175",
+            "@width": "301",
+            "@_fa": "true",
+            "$": "https://api.elsevier.com/content/object/eid/1-s2.0-S2468823122007544-ga1.jpg?httpAccept=%2A%2F%2A",
+            "@multimediatype": "JPEG image file",
+            "@type": "IMAGE-DOWNSAMPLED",
+            "@size": "19225",
+            "@ref": "ga1",
+            "@mimetype": "image/jpeg"
+          },
+          {
+            "@category": "standard",
+            "@height": "333",
+            "@width": "376",
+            "@_fa": "true",
+            "$": "https://api.elsevier.com/content/object/eid/1-s2.0-S2468823122007544-gr10.jpg?httpAccept=%2A%2F%2A",
+            "@multimediatype": "JPEG image file",
+            "@type": "IMAGE-DOWNSAMPLED",
+            "@size": "18187",
+            "@ref": "gr10",
+            "@mimetype": "image/jpeg"
+          },
+          {
+            "@category": "standard",
+            "@height": "337",
+            "@width": "380",
+            "@_fa": "true",
+            "$": "https://api.elsevier.com/content/object/eid/1-s2.0-S2468823122007544-gr2.jpg?httpAccept=%2A%2F%2A",
+            "@multimediatype": "JPEG image file",
+            "@type": "IMAGE-DOWNSAMPLED",
+            "@size": "16524",
+            "@ref": "gr2",
+            "@mimetype": "image/jpeg"
+          },
+          {
+            "@category": "standard",
+            "@height": "328",
+            "@width": "376",
+            "@_fa": "true",
+            "$": "https://api.elsevier.com/content/object/eid/1-s2.0-S2468823122007544-gr3.jpg?httpAccept=%2A%2F%2A",
+            "@multimediatype": "JPEG image file",
+            "@type": "IMAGE-DOWNSAMPLED",
+            "@size": "16165",
+            "@ref": "gr3",
+            "@mimetype": "image/jpeg"
+          },
+          {
+            "@category": "standard",
+            "@height": "287",
+            "@width": "386",
+            "@_fa": "true",
+            "$": "https://api.elsevier.com/content/object/eid/1-s2.0-S2468823122007544-gr1.jpg?httpAccept=%2A%2F%2A",
+            "@multimediatype": "JPEG image file",
+            "@type": "IMAGE-DOWNSAMPLED",
+            "@size": "48060",
+            "@ref": "gr1",
+            "@mimetype": "image/jpeg"
+          },
+          {
+            "@category": "standard",
+            "@height": "308",
+            "@width": "378",
+            "@_fa": "true",
+            "$": "https://api.elsevier.com/content/object/eid/1-s2.0-S2468823122007544-gr6.jpg?httpAccept=%2A%2F%2A",
+            "@multimediatype": "JPEG image file",
+            "@type": "IMAGE-DOWNSAMPLED",
+            "@size": "16187",
+            "@ref": "gr6",
+            "@mimetype": "image/jpeg"
+          },
+          {
+            "@category": "standard",
+            "@height": "312",
+            "@width": "386",
+            "@_fa": "true",
+            "$": "https://api.elsevier.com/content/object/eid/1-s2.0-S2468823122007544-gr7.jpg?httpAccept=%2A%2F%2A",
+            "@multimediatype": "JPEG image file",
+            "@type": "IMAGE-DOWNSAMPLED",
+            "@size": "15781",
+            "@ref": "gr7",
+            "@mimetype": "image/jpeg"
+          },
+          {
+            "@category": "standard",
+            "@height": "293",
+            "@width": "682",
+            "@_fa": "true",
+            "$": "https://api.elsevier.com/content/object/eid/1-s2.0-S2468823122007544-gr4.jpg?httpAccept=%2A%2F%2A",
+            "@multimediatype": "JPEG image file",
+            "@type": "IMAGE-DOWNSAMPLED",
+            "@size": "92688",
+            "@ref": "gr4",
+            "@mimetype": "image/jpeg"
+          },
+          {
+            "@category": "standard",
+            "@height": "328",
+            "@width": "378",
+            "@_fa": "true",
+            "$": "https://api.elsevier.com/content/object/eid/1-s2.0-S2468823122007544-gr5.jpg?httpAccept=%2A%2F%2A",
+            "@multimediatype": "JPEG image file",
+            "@type": "IMAGE-DOWNSAMPLED",
+            "@size": "17220",
+            "@ref": "gr5",
+            "@mimetype": "image/jpeg"
+          },
+          {
+            "@category": "thumbnail",
+            "@height": "164",
+            "@width": "200",
+            "@_fa": "true",
+            "$": "https://api.elsevier.com/content/object/eid/1-s2.0-S2468823122007544-gr17.sml?httpAccept=%2A%2F%2A",
+            "@multimediatype": "GIF image file",
+            "@type": "IMAGE-THUMBNAIL",
+            "@size": "5201",
+            "@ref": "gr17",
+            "@mimetype": "image/gif"
+          },
+          {
+            "@category": "thumbnail",
+            "@height": "164",
+            "@width": "191",
+            "@_fa": "true",
+            "$": "https://api.elsevier.com/content/object/eid/1-s2.0-S2468823122007544-gr8.sml?httpAccept=%2A%2F%2A",
+            "@multimediatype": "GIF image file",
+            "@type": "IMAGE-THUMBNAIL",
+            "@size": "5236",
+            "@ref": "gr8",
+            "@mimetype": "image/gif"
+          },
+          {
+            "@category": "thumbnail",
+            "@height": "164",
+            "@width": "207",
+            "@_fa": "true",
+            "$": "https://api.elsevier.com/content/object/eid/1-s2.0-S2468823122007544-gr15.sml?httpAccept=%2A%2F%2A",
+            "@multimediatype": "GIF image file",
+            "@type": "IMAGE-THUMBNAIL",
+            "@size": "5347",
+            "@ref": "gr15",
+            "@mimetype": "image/gif"
+          },
+          {
+            "@category": "thumbnail",
+            "@height": "164",
+            "@width": "185",
+            "@_fa": "true",
+            "$": "https://api.elsevier.com/content/object/eid/1-s2.0-S2468823122007544-gr9.sml?httpAccept=%2A%2F%2A",
+            "@multimediatype": "GIF image file",
+            "@type": "IMAGE-THUMBNAIL",
+            "@size": "5065",
+            "@ref": "gr9",
+            "@mimetype": "image/gif"
+          },
+          {
+            "@category": "thumbnail",
+            "@height": "164",
+            "@width": "201",
+            "@_fa": "true",
+            "$": "https://api.elsevier.com/content/object/eid/1-s2.0-S2468823122007544-gr16.sml?httpAccept=%2A%2F%2A",
+            "@multimediatype": "GIF image file",
+            "@type": "IMAGE-THUMBNAIL",
+            "@size": "5252",
+            "@ref": "gr16",
+            "@mimetype": "image/gif"
+          },
+          {
+            "@category": "thumbnail",
+            "@height": "164",
+            "@width": "201",
+            "@_fa": "true",
+            "$": "https://api.elsevier.com/content/object/eid/1-s2.0-S2468823122007544-gr13.sml?httpAccept=%2A%2F%2A",
+            "@multimediatype": "GIF image file",
+            "@type": "IMAGE-THUMBNAIL",
+            "@size": "5208",
+            "@ref": "gr13",
+            "@mimetype": "image/gif"
+          },
+          {
+            "@category": "thumbnail",
+            "@height": "164",
+            "@width": "203",
+            "@_fa": "true",
+            "$": "https://api.elsevier.com/content/object/eid/1-s2.0-S2468823122007544-gr14.sml?httpAccept=%2A%2F%2A",
+            "@multimediatype": "GIF image file",
+            "@type": "IMAGE-THUMBNAIL",
+            "@size": "5127",
+            "@ref": "gr14",
+            "@mimetype": "image/gif"
+          },
+          {
+            "@category": "thumbnail",
+            "@height": "164",
+            "@width": "189",
+            "@_fa": "true",
+            "$": "https://api.elsevier.com/content/object/eid/1-s2.0-S2468823122007544-gr11.sml?httpAccept=%2A%2F%2A",
+            "@multimediatype": "GIF image file",
+            "@type": "IMAGE-THUMBNAIL",
+            "@size": "23834",
+            "@ref": "gr11",
+            "@mimetype": "image/gif"
+          },
+          {
+            "@category": "thumbnail",
+            "@height": "164",
+            "@width": "207",
+            "@_fa": "true",
+            "$": "https://api.elsevier.com/content/object/eid/1-s2.0-S2468823122007544-gr12.sml?httpAccept=%2A%2F%2A",
+            "@multimediatype": "GIF image file",
+            "@type": "IMAGE-THUMBNAIL",
+            "@size": "5501",
+            "@ref": "gr12",
+            "@mimetype": "image/gif"
+          },
+          {
+            "@category": "thumbnail",
+            "@height": "127",
+            "@width": "219",
+            "@_fa": "true",
+            "$": "https://api.elsevier.com/content/object/eid/1-s2.0-S2468823122007544-ga1.sml?httpAccept=%2A%2F%2A",
+            "@multimediatype": "GIF image file",
+            "@type": "IMAGE-THUMBNAIL",
+            "@size": "9649",
+            "@ref": "ga1",
+            "@mimetype": "image/gif"
+          },
+          {
+            "@category": "thumbnail",
+            "@height": "164",
+            "@width": "185",
+            "@_fa": "true",
+            "$": "https://api.elsevier.com/content/object/eid/1-s2.0-S2468823122007544-gr10.sml?httpAccept=%2A%2F%2A",
+            "@multimediatype": "GIF image file",
+            "@type": "IMAGE-THUMBNAIL",
+            "@size": "5286",
+            "@ref": "gr10",
+            "@mimetype": "image/gif"
+          },
+          {
+            "@category": "thumbnail",
+            "@height": "164",
+            "@width": "185",
+            "@_fa": "true",
+            "$": "https://api.elsevier.com/content/object/eid/1-s2.0-S2468823122007544-gr2.sml?httpAccept=%2A%2F%2A",
+            "@multimediatype": "GIF image file",
+            "@type": "IMAGE-THUMBNAIL",
+            "@size": "5494",
+            "@ref": "gr2",
+            "@mimetype": "image/gif"
+          },
+          {
+            "@category": "thumbnail",
+            "@height": "164",
+            "@width": "188",
+            "@_fa": "true",
+            "$": "https://api.elsevier.com/content/object/eid/1-s2.0-S2468823122007544-gr3.sml?httpAccept=%2A%2F%2A",
+            "@multimediatype": "GIF image file",
+            "@type": "IMAGE-THUMBNAIL",
+            "@size": "5618",
+            "@ref": "gr3",
+            "@mimetype": "image/gif"
+          },
+          {
+            "@category": "thumbnail",
+            "@height": "163",
+            "@width": "219",
+            "@_fa": "true",
+            "$": "https://api.elsevier.com/content/object/eid/1-s2.0-S2468823122007544-gr1.sml?httpAccept=%2A%2F%2A",
+            "@multimediatype": "GIF image file",
+            "@type": "IMAGE-THUMBNAIL",
+            "@size": "20814",
+            "@ref": "gr1",
+            "@mimetype": "image/gif"
+          },
+          {
+            "@category": "thumbnail",
+            "@height": "164",
+            "@width": "201",
+            "@_fa": "true",
+            "$": "https://api.elsevier.com/content/object/eid/1-s2.0-S2468823122007544-gr6.sml?httpAccept=%2A%2F%2A",
+            "@multimediatype": "GIF image file",
+            "@type": "IMAGE-THUMBNAIL",
+            "@size": "5185",
+            "@ref": "gr6",
+            "@mimetype": "image/gif"
+          },
+          {
+            "@category": "thumbnail",
+            "@height": "163",
+            "@width": "202",
+            "@_fa": "true",
+            "$": "https://api.elsevier.com/content/object/eid/1-s2.0-S2468823122007544-gr7.sml?httpAccept=%2A%2F%2A",
+            "@multimediatype": "GIF image file",
+            "@type": "IMAGE-THUMBNAIL",
+            "@size": "5008",
+            "@ref": "gr7",
+            "@mimetype": "image/gif"
+          },
+          {
+            "@category": "thumbnail",
+            "@height": "94",
+            "@width": "219",
+            "@_fa": "true",
+            "$": "https://api.elsevier.com/content/object/eid/1-s2.0-S2468823122007544-gr4.sml?httpAccept=%2A%2F%2A",
+            "@multimediatype": "GIF image file",
+            "@type": "IMAGE-THUMBNAIL",
+            "@size": "16390",
+            "@ref": "gr4",
+            "@mimetype": "image/gif"
+          },
+          {
+            "@category": "thumbnail",
+            "@height": "164",
+            "@width": "189",
+            "@_fa": "true",
+            "$": "https://api.elsevier.com/content/object/eid/1-s2.0-S2468823122007544-gr5.sml?httpAccept=%2A%2F%2A",
+            "@multimediatype": "GIF image file",
+            "@type": "IMAGE-THUMBNAIL",
+            "@size": "5400",
+            "@ref": "gr5",
+            "@mimetype": "image/gif"
+          },
+          {
+            "@category": "high",
+            "@height": "1381",
+            "@width": "1683",
+            "@_fa": "true",
+            "$": "https://api.elsevier.com/content/object/eid/1-s2.0-S2468823122007544-gr17_lrg.jpg?httpAccept=%2A%2F%2A",
+            "@multimediatype": "JPEG image file",
+            "@type": "IMAGE-HIGH-RES",
+            "@size": "107685",
+            "@ref": "gr17",
+            "@mimetype": "image/jpeg"
+          },
+          {
+            "@category": "high",
+            "@height": "1432",
+            "@width": "1667",
+            "@_fa": "true",
+            "$": "https://api.elsevier.com/content/object/eid/1-s2.0-S2468823122007544-gr8_lrg.jpg?httpAccept=%2A%2F%2A",
+            "@multimediatype": "JPEG image file",
+            "@type": "IMAGE-HIGH-RES",
+            "@size": "116049",
+            "@ref": "gr8",
+            "@mimetype": "image/jpeg"
+          },
+          {
+            "@category": "high",
+            "@height": "1334",
+            "@width": "1683",
+            "@_fa": "true",
+            "$": "https://api.elsevier.com/content/object/eid/1-s2.0-S2468823122007544-gr15_lrg.jpg?httpAccept=%2A%2F%2A",
+            "@multimediatype": "JPEG image file",
+            "@type": "IMAGE-HIGH-RES",
+            "@size": "101191",
+            "@ref": "gr15",
+            "@mimetype": "image/jpeg"
+          },
+          {
+            "@category": "high",
+            "@height": "1478",
+            "@width": "1667",
+            "@_fa": "true",
+            "$": "https://api.elsevier.com/content/object/eid/1-s2.0-S2468823122007544-gr9_lrg.jpg?httpAccept=%2A%2F%2A",
+            "@multimediatype": "JPEG image file",
+            "@type": "IMAGE-HIGH-RES",
+            "@size": "107692",
+            "@ref": "gr9",
+            "@mimetype": "image/jpeg"
+          },
+          {
+            "@category": "high",
+            "@height": "1357",
+            "@width": "1667",
+            "@_fa": "true",
+            "$": "https://api.elsevier.com/content/object/eid/1-s2.0-S2468823122007544-gr16_lrg.jpg?httpAccept=%2A%2F%2A",
+            "@multimediatype": "JPEG image file",
+            "@type": "IMAGE-HIGH-RES",
+            "@size": "102899",
+            "@ref": "gr16",
+            "@mimetype": "image/jpeg"
+          },
+          {
+            "@category": "high",
+            "@height": "1371",
+            "@width": "1683",
+            "@_fa": "true",
+            "$": "https://api.elsevier.com/content/object/eid/1-s2.0-S2468823122007544-gr13_lrg.jpg?httpAccept=%2A%2F%2A",
+            "@multimediatype": "JPEG image file",
+            "@type": "IMAGE-HIGH-RES",
+            "@size": "101686",
+            "@ref": "gr13",
+            "@mimetype": "image/jpeg"
+          },
+          {
+            "@category": "high",
+            "@height": "1348",
+            "@width": "1667",
+            "@_fa": "true",
+            "$": "https://api.elsevier.com/content/object/eid/1-s2.0-S2468823122007544-gr14_lrg.jpg?httpAccept=%2A%2F%2A",
+            "@multimediatype": "JPEG image file",
+            "@type": "IMAGE-HIGH-RES",
+            "@size": "97746",
+            "@ref": "gr14",
+            "@mimetype": "image/jpeg"
+          },
+          {
+            "@category": "high",
+            "@height": "2461",
+            "@width": "2833",
+            "@_fa": "true",
+            "$": "https://api.elsevier.com/content/object/eid/1-s2.0-S2468823122007544-gr11_lrg.jpg?httpAccept=%2A%2F%2A",
+            "@multimediatype": "JPEG image file",
+            "@type": "IMAGE-HIGH-RES",
+            "@size": "1610969",
+            "@ref": "gr11",
+            "@mimetype": "image/jpeg"
+          },
+          {
+            "@category": "high",
+            "@height": "1325",
+            "@width": "1675",
+            "@_fa": "true",
+            "$": "https://api.elsevier.com/content/object/eid/1-s2.0-S2468823122007544-gr12_lrg.jpg?httpAccept=%2A%2F%2A",
+            "@multimediatype": "JPEG image file",
+            "@type": "IMAGE-HIGH-RES",
+            "@size": "105323",
+            "@ref": "gr12",
+            "@mimetype": "image/jpeg"
+          },
+          {
+            "@category": "high",
+            "@height": "773",
+            "@width": "1333",
+            "@_fa": "true",
+            "$": "https://api.elsevier.com/content/object/eid/1-s2.0-S2468823122007544-ga1_lrg.jpg?httpAccept=%2A%2F%2A",
+            "@multimediatype": "JPEG image file",
+            "@type": "IMAGE-HIGH-RES",
+            "@size": "152856",
+            "@ref": "ga1",
+            "@mimetype": "image/jpeg"
+          },
+          {
+            "@category": "high",
+            "@height": "1478",
+            "@width": "1667",
+            "@_fa": "true",
+            "$": "https://api.elsevier.com/content/object/eid/1-s2.0-S2468823122007544-gr10_lrg.jpg?httpAccept=%2A%2F%2A",
+            "@multimediatype": "JPEG image file",
+            "@type": "IMAGE-HIGH-RES",
+            "@size": "119033",
+            "@ref": "gr10",
+            "@mimetype": "image/jpeg"
+          },
+          {
+            "@category": "high",
+            "@height": "1493",
+            "@width": "1683",
+            "@_fa": "true",
+            "$": "https://api.elsevier.com/content/object/eid/1-s2.0-S2468823122007544-gr2_lrg.jpg?httpAccept=%2A%2F%2A",
+            "@multimediatype": "JPEG image file",
+            "@type": "IMAGE-HIGH-RES",
+            "@size": "106713",
+            "@ref": "gr2",
+            "@mimetype": "image/jpeg"
+          },
+          {
+            "@category": "high",
+            "@height": "1452",
+            "@width": "1667",
+            "@_fa": "true",
+            "$": "https://api.elsevier.com/content/object/eid/1-s2.0-S2468823122007544-gr3_lrg.jpg?httpAccept=%2A%2F%2A",
+            "@multimediatype": "JPEG image file",
+            "@type": "IMAGE-HIGH-RES",
+            "@size": "108983",
+            "@ref": "gr3",
+            "@mimetype": "image/jpeg"
+          },
+          {
+            "@category": "high",
+            "@height": "1270",
+            "@width": "1708",
+            "@_fa": "true",
+            "$": "https://api.elsevier.com/content/object/eid/1-s2.0-S2468823122007544-gr1_lrg.jpg?httpAccept=%2A%2F%2A",
+            "@multimediatype": "JPEG image file",
+            "@type": "IMAGE-HIGH-RES",
+            "@size": "432267",
+            "@ref": "gr1",
+            "@mimetype": "image/jpeg"
+          },
+          {
+            "@category": "high",
+            "@height": "1364",
+            "@width": "1675",
+            "@_fa": "true",
+            "$": "https://api.elsevier.com/content/object/eid/1-s2.0-S2468823122007544-gr6_lrg.jpg?httpAccept=%2A%2F%2A",
+            "@multimediatype": "JPEG image file",
+            "@type": "IMAGE-HIGH-RES",
+            "@size": "103361",
+            "@ref": "gr6",
+            "@mimetype": "image/jpeg"
+          },
+          {
+            "@category": "high",
+            "@height": "1382",
+            "@width": "1708",
+            "@_fa": "true",
+            "$": "https://api.elsevier.com/content/object/eid/1-s2.0-S2468823122007544-gr7_lrg.jpg?httpAccept=%2A%2F%2A",
+            "@multimediatype": "JPEG image file",
+            "@type": "IMAGE-HIGH-RES",
+            "@size": "100451",
+            "@ref": "gr7",
+            "@mimetype": "image/jpeg"
+          },
+          {
+            "@category": "high",
+            "@height": "1298",
+            "@width": "3021",
+            "@_fa": "true",
+            "$": "https://api.elsevier.com/content/object/eid/1-s2.0-S2468823122007544-gr4_lrg.jpg?httpAccept=%2A%2F%2A",
+            "@multimediatype": "JPEG image file",
+            "@type": "IMAGE-HIGH-RES",
+            "@size": "897876",
+            "@ref": "gr4",
+            "@mimetype": "image/jpeg"
+          },
+          {
+            "@category": "high",
+            "@height": "1455",
+            "@width": "1675",
+            "@_fa": "true",
+            "$": "https://api.elsevier.com/content/object/eid/1-s2.0-S2468823122007544-gr5_lrg.jpg?httpAccept=%2A%2F%2A",
+            "@multimediatype": "JPEG image file",
+            "@type": "IMAGE-HIGH-RES",
+            "@size": "119862",
+            "@ref": "gr5",
+            "@mimetype": "image/jpeg"
+          },
+          {
+            "@category": "thumbnail",
+            "@_fa": "true",
+            "$": "https://api.elsevier.com/content/object/eid/1-s2.0-S2468823122007544-si1.svg?httpAccept=%2A%2F%2A",
+            "@multimediatype": "Scalable Vector Graphics file",
+            "@type": "ALTIMG",
+            "@size": "2166",
+            "@ref": "si1",
+            "@mimetype": "image/svg+xml"
+          },
+          {
+            "@category": "thumbnail",
+            "@_fa": "true",
+            "$": "https://api.elsevier.com/content/object/eid/1-s2.0-S2468823122007544-si10.svg?httpAccept=%2A%2F%2A",
+            "@multimediatype": "Scalable Vector Graphics file",
+            "@type": "ALTIMG",
+            "@size": "15929",
+            "@ref": "si10",
+            "@mimetype": "image/svg+xml"
+          },
+          {
+            "@category": "thumbnail",
+            "@_fa": "true",
+            "$": "https://api.elsevier.com/content/object/eid/1-s2.0-S2468823122007544-si11.svg?httpAccept=%2A%2F%2A",
+            "@multimediatype": "Scalable Vector Graphics file",
+            "@type": "ALTIMG",
+            "@size": "15602",
+            "@ref": "si11",
+            "@mimetype": "image/svg+xml"
+          },
+          {
+            "@category": "thumbnail",
+            "@_fa": "true",
+            "$": "https://api.elsevier.com/content/object/eid/1-s2.0-S2468823122007544-si12.svg?httpAccept=%2A%2F%2A",
+            "@multimediatype": "Scalable Vector Graphics file",
+            "@type": "ALTIMG",
+            "@size": "10702",
+            "@ref": "si12",
+            "@mimetype": "image/svg+xml"
+          },
+          {
+            "@category": "thumbnail",
+            "@_fa": "true",
+            "$": "https://api.elsevier.com/content/object/eid/1-s2.0-S2468823122007544-si13.svg?httpAccept=%2A%2F%2A",
+            "@multimediatype": "Scalable Vector Graphics file",
+            "@type": "ALTIMG",
+            "@size": "7898",
+            "@ref": "si13",
+            "@mimetype": "image/svg+xml"
+          },
+          {
+            "@category": "thumbnail",
+            "@_fa": "true",
+            "$": "https://api.elsevier.com/content/object/eid/1-s2.0-S2468823122007544-si14.svg?httpAccept=%2A%2F%2A",
+            "@multimediatype": "Scalable Vector Graphics file",
+            "@type": "ALTIMG",
+            "@size": "10702",
+            "@ref": "si14",
+            "@mimetype": "image/svg+xml"
+          },
+          {
+            "@category": "thumbnail",
+            "@_fa": "true",
+            "$": "https://api.elsevier.com/content/object/eid/1-s2.0-S2468823122007544-si15.svg?httpAccept=%2A%2F%2A",
+            "@multimediatype": "Scalable Vector Graphics file",
+            "@type": "ALTIMG",
+            "@size": "3823",
+            "@ref": "si15",
+            "@mimetype": "image/svg+xml"
+          },
+          {
+            "@category": "thumbnail",
+            "@_fa": "true",
+            "$": "https://api.elsevier.com/content/object/eid/1-s2.0-S2468823122007544-si16.svg?httpAccept=%2A%2F%2A",
+            "@multimediatype": "Scalable Vector Graphics file",
+            "@type": "ALTIMG",
+            "@size": "4382",
+            "@ref": "si16",
+            "@mimetype": "image/svg+xml"
+          },
+          {
+            "@category": "thumbnail",
+            "@_fa": "true",
+            "$": "https://api.elsevier.com/content/object/eid/1-s2.0-S2468823122007544-si17.svg?httpAccept=%2A%2F%2A",
+            "@multimediatype": "Scalable Vector Graphics file",
+            "@type": "ALTIMG",
+            "@size": "10109",
+            "@ref": "si17",
+            "@mimetype": "image/svg+xml"
+          },
+          {
+            "@category": "thumbnail",
+            "@_fa": "true",
+            "$": "https://api.elsevier.com/content/object/eid/1-s2.0-S2468823122007544-si18.svg?httpAccept=%2A%2F%2A",
+            "@multimediatype": "Scalable Vector Graphics file",
+            "@type": "ALTIMG",
+            "@size": "551",
+            "@ref": "si18",
+            "@mimetype": "image/svg+xml"
+          },
+          {
+            "@category": "thumbnail",
+            "@_fa": "true",
+            "$": "https://api.elsevier.com/content/object/eid/1-s2.0-S2468823122007544-si2.svg?httpAccept=%2A%2F%2A",
+            "@multimediatype": "Scalable Vector Graphics file",
+            "@type": "ALTIMG",
+            "@size": "1908",
+            "@ref": "si2",
+            "@mimetype": "image/svg+xml"
+          },
+          {
+            "@category": "thumbnail",
+            "@_fa": "true",
+            "$": "https://api.elsevier.com/content/object/eid/1-s2.0-S2468823122007544-si3.svg?httpAccept=%2A%2F%2A",
+            "@multimediatype": "Scalable Vector Graphics file",
+            "@type": "ALTIMG",
+            "@size": "3040",
+            "@ref": "si3",
+            "@mimetype": "image/svg+xml"
+          },
+          {
+            "@category": "thumbnail",
+            "@_fa": "true",
+            "$": "https://api.elsevier.com/content/object/eid/1-s2.0-S2468823122007544-si4.svg?httpAccept=%2A%2F%2A",
+            "@multimediatype": "Scalable Vector Graphics file",
+            "@type": "ALTIMG",
+            "@size": "1068",
+            "@ref": "si4",
+            "@mimetype": "image/svg+xml"
+          },
+          {
+            "@category": "thumbnail",
+            "@_fa": "true",
+            "$": "https://api.elsevier.com/content/object/eid/1-s2.0-S2468823122007544-si5.svg?httpAccept=%2A%2F%2A",
+            "@multimediatype": "Scalable Vector Graphics file",
+            "@type": "ALTIMG",
+            "@size": "3054",
+            "@ref": "si5",
+            "@mimetype": "image/svg+xml"
+          },
+          {
+            "@category": "thumbnail",
+            "@_fa": "true",
+            "$": "https://api.elsevier.com/content/object/eid/1-s2.0-S2468823122007544-si6.svg?httpAccept=%2A%2F%2A",
+            "@multimediatype": "Scalable Vector Graphics file",
+            "@type": "ALTIMG",
+            "@size": "5284",
+            "@ref": "si6",
+            "@mimetype": "image/svg+xml"
+          },
+          {
+            "@category": "thumbnail",
+            "@_fa": "true",
+            "$": "https://api.elsevier.com/content/object/eid/1-s2.0-S2468823122007544-si7.svg?httpAccept=%2A%2F%2A",
+            "@multimediatype": "Scalable Vector Graphics file",
+            "@type": "ALTIMG",
+            "@size": "8224",
+            "@ref": "si7",
+            "@mimetype": "image/svg+xml"
+          },
+          {
+            "@category": "thumbnail",
+            "@_fa": "true",
+            "$": "https://api.elsevier.com/content/object/eid/1-s2.0-S2468823122007544-si8.svg?httpAccept=%2A%2F%2A",
+            "@multimediatype": "Scalable Vector Graphics file",
+            "@type": "ALTIMG",
+            "@size": "8902",
+            "@ref": "si8",
+            "@mimetype": "image/svg+xml"
+          },
+          {
+            "@category": "thumbnail",
+            "@_fa": "true",
+            "$": "https://api.elsevier.com/content/object/eid/1-s2.0-S2468823122007544-si9.svg?httpAccept=%2A%2F%2A",
+            "@multimediatype": "Scalable Vector Graphics file",
+            "@type": "ALTIMG",
+            "@size": "6382",
+            "@ref": "si9",
+            "@mimetype": "image/svg+xml"
+          },
+          {
+            "@category": "standard",
+            "@_fa": "true",
+            "$": "https://api.elsevier.com/content/object/eid/1-s2.0-S2468823122007544-am.pdf?httpAccept=%2A%2F%2A",
+            "@multimediatype": "Acrobat PDF file",
+            "@type": "AAM-PDF",
+            "@size": "1403301",
+            "@ref": "am",
+            "@mimetype": "application/pdf"
+          }
+        ]
+      },
+      "link": {
+        "@rel": "abstract",
+        "@href": "https://api.elsevier.com/content/abstract/scopus_id/85144015975"
+      }
+    }
+  }
+}

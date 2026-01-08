@@ -1,0 +1,842 @@
+{
+  "metadata": {
+    "title": "Efficient proton conduction in porous and crystalline covalent-organic frameworks (COFs)",
+    "authors": "; ; ",
+    "journal": "Journal of Energy Chemistry",
+    "date": "2023-07-31",
+    "doi": "10.1016/j.jechem.2023.04.002",
+    "abstract": "",
+    "uri": "https://api.elsevier.com/content/article/pii/S2095495623002115",
+    "pii": "S2095495623002115"
+  },
+  "fulltext": {
+    "full-text-retrieval-response": {
+      "scopus-eid": "2-s2.0-85153246960",
+      "originalText": "serial JL 286353 291210 291711 291744 291809 31 Journal of Energy Chemistry JOURNALENERGYCHEMISTRY 2023-04-14 2023-04-14 2023-04-25 2023-04-25 2023-06-29T19:57:18 1-s2.0-S2095495623002115 S2095-4956(23)00211-5 S2095495623002115 10.1016/j.jechem.2023.04.002 S300 S300.1 FULL-TEXT 1-s2.0-S2095495623X00059 2024-06-03T13:21:35.135389Z 0 0 20230701 20230731 2023 2023-04-14T08:02:08.275586Z absattachment articleinfo articletitlenorm authfirstinitialnorm authfirstsurnamenorm cid cids contenttype copyright crossmark dateloaded dateloadedtxt datesearch datesort dateupdated dco docsubtype doctype doi eid ewtransactionid hubeid indexeddate issn issnnorm itemstage itemtransactionid itemweight openaccess openarchive pg pgfirst pglast pii piinorm pubdateend pubdatestart pubdatetxt pubyr sortorder srctitle srctitlenorm srctype ssids alllist content subj subheadings suppl tomb volfirst volissue volumelist webpdf webpdfpagecount yearnav figure e-component body mmlmath acknowledge affil appendices articletitle auth authfirstini authfull authkeywords authlast primabst pubtype ref specialabst vitae 2095-4956 20954956 false 82 82 C Volume 82 16 198 218 198 218 202307 July 2023 2023-07-01 2023-07-31 2023 article rev © 2023 Science Press and Dalian Institute of Chemical Physics, Chinese Academy of Sciences. Published by ELSEVIER B.V. and Science Press. All rights reserved. EFFICIENTPROTONCONDUCTIONINPOROUSCRYSTALLINECOVALENTORGANICFRAMEWORKSCOFS ZHU L 1 Introduction 2 The general proton conduction mechanism 3 Design principles of COFs Features of pores and pore-surface engineering 4 Strategies adopted to achieve the proton conduction properties in COFs 4.1 Achieving efficient proton conduction through intrinsic properties 4.2 Achieving efficient proton conduction through extrinsic properties 4.3 Achieving efficient proton conduction through combined properties (intrinsic and extrinsic) 4.4 Integration with 1D proton-conduction polymers 5 Application of proton-conducting COFs in fuel cells 6 Theoretical simulation and structure characterization 7 Critical discussion 8 Summary, perspectives, and opportunities Acknowledgments Appendix A Supplementary material References ZHANG 2022 181 186 Q JIAO 2021 361 369 K MOGHADDAM 2010 230 236 S TRIGG 2018 725 731 E ZHANG 2012 2382 2394 H DEVANATHAN 2008 101 119 R REN 2022 588 598 H HICKNER 2004 4587 4611 M WACHSMAN 2011 935 939 E ZHANG 2012 2780 2832 H CAO 2021 406 427 J WANG 2020 178 203 Y SHAO 2019 1807615 Y CHEN 2023 448 458 J GUO 2021 393 429 Z THOMAS 2020 405 415 J HAIDER 2021 1138 1187 R HAO 2015 199 206 J VAZQUEZFERNANDEZ 2021 197 207 I WU 2019 123 130 X WANG 2020 14399 14416 B MAURITZ 2004 4535 4585 K PRYKHODKO 2021 127329 Y KIM 2010 1 7 S KE 2021 110860 Y LIU 2021 6076 6085 B PEI 2014 60 75 P YOUSFISTEINER 2008 260 274 N JEWETT 2007 434 446 G PARK 2016 480 483 C LYU 2018 1517 1520 K ESCORIHUELA 2019 180146 J LIM 2020 8416 8467 D YE 2020 1907090 Y KARMAKAR 2016 10667 10671 A XING 2018 5345 5349 G RAMASWAMY 2014 5913 5932 P YANG 2017 877 883 F NAGARKAR 2014 2638 2642 S DAI 2021 193 211 L XIE 2020 213100 X OKAWA 2013 2256 2262 H SAHOO 2022 4490 4500 R PAL 2021 2101584 S ZHONG 2021 113 129 M LI 2020 4763 4769 H TAN 2012 3153 3167 K FENG 2020 13087 13133 L DING 2013 548 568 S LIU 2021 120 242 R ZHAO 2021 6871 6913 X WANG 2021 688 728 D LYU 2019 6848 6852 H CHEN 2021 2101883 Z TONG 2022 441 447 Z NING 2022 490 496 J LIN 2015 1208 1213 S MA 2016 5897 5903 H EVANS 2020 2004205 A CAI 2019 1802365 M YUAN 2019 2665 2681 S CHANDRA 2014 6570 6573 S YANG 2022 131124 C WANG 2022 136883 Y ZHOU 2020 57 64 L JIN 2020 12162 12169 E HUANG 2016 1 19 N GUI 2020 2225 2234 B WANG 2019 54 60 J GU 2022 428 433 S DALAPATI 2015 1 8 S PANG 2017 3866 3870 Z KANG 2020 16346 16356 X WU 2023 140121 M YAN 2019 2920 2924 S XIE 2022 2177 2181 Y HAO 2022 202217240 L HURD 2009 705 710 J CAO 2020 2005565 L XU 2016 722 726 H DEY 2017 13083 13091 K WANG 2022 133749 Z SHAO 2018 16501 16505 P PENG 2022 120603 J LI 2018 1 8 X LU 2022 9624 9633 Z PENG 2016 18505 18512 Y ROTTER 2020 12843 12853 J WANG 2022 2200678 S BIAN 2022 1298 1304 S SHI 2022 6666 B MATSUMOTO 2018 308 317 M LIM 2020 114461 S MEDINA 2015 1016 1019 D HAN 2022 2464 2468 X LI 2020 2852 2868 Y LIU 2021 14875 14880 L KANG 2022 20363 20371 C SHI 2023 2211004 B WANG 2019 18004 18008 P LIANG 2022 100777 Y FU 2021 19743 19755 Y WANG 2022 7366 7373 X XU 2018 1706330 Q WU 2020 14357 14364 X LI 2019 13324 13329 H GUI 2022 437 450 B FAN 2021 17720 17723 C JIANG 2022 e202208086 G YANG 2020 3678 3684 Y GUO 2022 6499 6507 Y CHANDRA 2016 1489 1494 S XIE 2019 15742 15746 Z LI 2021 129021 P LI 2022 P WANG 2022 518 526 M YANG 2019 2101 H JEONG 2019 5880 5885 K LI 2019 327 335 X SASMAL 2018 10894 10898 H KONG 2019 75 78 W FAN 2020 115316 C SHINDE 2016 2682 2690 D PAL 2020 7847 7853 S OTAKE 2020 1 7 K XU 2019 1 8 J TUNUGUNTLA 2016 639 644 R CHEN 2020 13702 13709 S TAO 2020 1981 S ZHOU 2020 8198 8205 B WU 2021 37172 37178 X KANG 2020 7474 7494 D ZHANG 2021 6234 6238 Y ZHUX2023X198 ZHUX2023X198X218 ZHUX2023X198XL ZHUX2023X198X218XL 2025-04-25T00:00:00.000Z 2025-04-25T00:00:00.000Z http://creativecommons.org/licenses/by-nc-nd/4.0/ © 2023 Science Press and Dalian Institute of Chemical Physics, Chinese Academy of Sciences. Published by ELSEVIER B.V. and Science Press. All rights reserved. 2023-04-27T08:06:09.007Z http://vtw.elsevier.com/data/voc/AddOnTypes/50.7/aggregated-refined National Natural Science Foundation of China 21978024 NSFC National Natural Science Foundation of China http://data.elsevier.com/vocabulary/SciValFunders/501100001809 http://sws.geonames.org/1814991/ Beijing Natural Science Foundation 2202034 Natural Science Foundation of Beijing Municipality http://data.elsevier.com/vocabulary/SciValFunders/501100004826 http://sws.geonames.org/1814991/ We gratefully acknowledge financial support from the National Natural Science Foundation of China (21978024), the Beijing Natural Science Foundation (2202034). item S2095-4956(23)00211-5 S2095495623002115 1-s2.0-S2095495623002115 10.1016/j.jechem.2023.04.002 286353 2023-06-29T19:10:03.054529Z 2023-07-01 2023-07-31 1-s2.0-S2095495623002115-main.pdf https://s3-eu-west-1.amazonaws.com/prod-ucs-content-store-eu-west/content/pii:S2095495623002115/MAIN/application/pdf/6f11aad3a41a1e84eef7dd28aae8337d/main.pdf main.pdf pdf true 9282691 MAIN 21 1-s2.0-S2095495623002115-main_1.png https://s3-eu-west-1.amazonaws.com/prod-ucs-content-store-eu-west/content/pii:S2095495623002115/PREVIEW/image/png/552f10f22cd5f35fa8d78378c090a281/main_1.png main_1.png png 53517 849 656 IMAGE-WEB-PDF 1 1-s2.0-S2095495623002115-gr10.jpg https://s3-eu-west-1.amazonaws.com/prod-ucs-content-store-eu-west/content/pii:S2095495623002115/gr10/DOWNSAMPLED/image/jpeg/170afae864eef65690d9027e710caf59/gr10.jpg gr10 gr10.jpg jpg 176755 657 711 IMAGE-DOWNSAMPLED 1-s2.0-S2095495623002115-gr11.jpg https://s3-eu-west-1.amazonaws.com/prod-ucs-content-store-eu-west/content/pii:S2095495623002115/gr11/DOWNSAMPLED/image/jpeg/d56a59698f4b545800a599b245b4a49b/gr11.jpg gr11 gr11.jpg jpg 124767 447 711 IMAGE-DOWNSAMPLED 1-s2.0-S2095495623002115-gr12.jpg https://s3-eu-west-1.amazonaws.com/prod-ucs-content-store-eu-west/content/pii:S2095495623002115/gr12/DOWNSAMPLED/image/jpeg/450d14932b1566c87266eaa34187c63c/gr12.jpg gr12 gr12.jpg jpg 169873 706 711 IMAGE-DOWNSAMPLED 1-s2.0-S2095495623002115-gr13.jpg https://s3-eu-west-1.amazonaws.com/prod-ucs-content-store-eu-west/content/pii:S2095495623002115/gr13/DOWNSAMPLED/image/jpeg/c5f846414e9c1f0c961df8ed424c079a/gr13.jpg gr13 gr13.jpg jpg 160275 666 791 IMAGE-DOWNSAMPLED 1-s2.0-S2095495623002115-gr14.jpg https://s3-eu-west-1.amazonaws.com/prod-ucs-content-store-eu-west/content/pii:S2095495623002115/gr14/DOWNSAMPLED/image/jpeg/a9dfe2f8a8119d08497ba832579d4848/gr14.jpg gr14 gr14.jpg jpg 145332 583 622 IMAGE-DOWNSAMPLED 1-s2.0-S2095495623002115-gr15.jpg https://s3-eu-west-1.amazonaws.com/prod-ucs-content-store-eu-west/content/pii:S2095495623002115/gr15/THUMBNAIL/image/jpeg/c0ef09ccc2ed7c18bfa67d389d17786a/gr15.jpg gr15 gr15.jpg jpg 23563 216 333 IMAGE-DOWNSAMPLED 1-s2.0-S2095495623002115-gr2.jpg https://s3-eu-west-1.amazonaws.com/prod-ucs-content-store-eu-west/content/pii:S2095495623002115/gr2/DOWNSAMPLED/image/jpeg/7cc3cc08391e1eb72e4735d76a65e349/gr2.jpg gr2 gr2.jpg jpg 110297 556 556 IMAGE-DOWNSAMPLED 1-s2.0-S2095495623002115-gr3.jpg https://s3-eu-west-1.amazonaws.com/prod-ucs-content-store-eu-west/content/pii:S2095495623002115/gr3/DOWNSAMPLED/image/jpeg/945b18c10b68c16c68c5446118beaec7/gr3.jpg gr3 gr3.jpg jpg 132213 758 622 IMAGE-DOWNSAMPLED 1-s2.0-S2095495623002115-gr4.jpg https://s3-eu-west-1.amazonaws.com/prod-ucs-content-store-eu-west/content/pii:S2095495623002115/gr4/DOWNSAMPLED/image/jpeg/ae2ef3a74e90c91103e49d19f7580df5/gr4.jpg gr4 gr4.jpg jpg 97694 472 622 IMAGE-DOWNSAMPLED 1-s2.0-S2095495623002115-gr5.jpg https://s3-eu-west-1.amazonaws.com/prod-ucs-content-store-eu-west/content/pii:S2095495623002115/gr5/DOWNSAMPLED/image/jpeg/3d5113978fbd276bb96483481e2d3fba/gr5.jpg gr5 gr5.jpg jpg 131259 542 667 IMAGE-DOWNSAMPLED 1-s2.0-S2095495623002115-gr6.jpg https://s3-eu-west-1.amazonaws.com/prod-ucs-content-store-eu-west/content/pii:S2095495623002115/gr6/DOWNSAMPLED/image/jpeg/555786c167e750f49388b07116d95c41/gr6.jpg gr6 gr6.jpg jpg 84736 372 711 IMAGE-DOWNSAMPLED 1-s2.0-S2095495623002115-gr7.jpg https://s3-eu-west-1.amazonaws.com/prod-ucs-content-store-eu-west/content/pii:S2095495623002115/gr7/DOWNSAMPLED/image/jpeg/e8202372c79ba34e17b41b22f17047db/gr7.jpg gr7 gr7.jpg jpg 138727 615 667 IMAGE-DOWNSAMPLED 1-s2.0-S2095495623002115-gr8.jpg https://s3-eu-west-1.amazonaws.com/prod-ucs-content-store-eu-west/content/pii:S2095495623002115/gr8/MAIN/image/jpeg/e93ece4bcbcd99f158bb1ceaf13cbc24/gr8.jpg gr8 gr8.jpg jpg 152538 625 622 IMAGE-DOWNSAMPLED 1-s2.0-S2095495623002115-gr9.jpg https://s3-eu-west-1.amazonaws.com/prod-ucs-content-store-eu-west/content/pii:S2095495623002115/gr9/HIGHRES/image/jpeg/fa3d1020da6b1a5958eabac0f62089e8/gr9.jpg gr9 gr9.jpg jpg 174645 666 711 IMAGE-DOWNSAMPLED 1-s2.0-S2095495623002115-ga1.jpg https://s3-eu-west-1.amazonaws.com/prod-ucs-content-store-eu-west/content/pii:S2095495623002115/ga1/DOWNSAMPLED/image/jpeg/41b9ffe6fa12d865fb7b34e92f9d3ca4/ga1.jpg ga1 true ga1.jpg jpg 37326 200 403 IMAGE-DOWNSAMPLED 1-s2.0-S2095495623002115-fx1.jpg https://s3-eu-west-1.amazonaws.com/prod-ucs-content-store-eu-west/content/pii:S2095495623002115/fx1/DOWNSAMPLED/image/jpeg/ee5c73bfd0ddfa9b49610f2d243af002/fx1.jpg fx1 fx1.jpg jpg 5337 155 111 IMAGE-DOWNSAMPLED 1-s2.0-S2095495623002115-fx2.jpg https://s3-eu-west-1.amazonaws.com/prod-ucs-content-store-eu-west/content/pii:S2095495623002115/fx2/DOWNSAMPLED/image/jpeg/9e93cd5c4b1baec983ddf0dd3db627bd/fx2.jpg fx2 fx2.jpg jpg 5865 155 111 IMAGE-DOWNSAMPLED 1-s2.0-S2095495623002115-fx3.jpg https://s3-eu-west-1.amazonaws.com/prod-ucs-content-store-eu-west/content/pii:S2095495623002115/fx3/DOWNSAMPLED/image/jpeg/f91032c2d67deda38593ce9354918896/fx3.jpg fx3 fx3.jpg jpg 10825 155 111 IMAGE-DOWNSAMPLED 1-s2.0-S2095495623002115-gr1.jpg https://s3-eu-west-1.amazonaws.com/prod-ucs-content-store-eu-west/content/pii:S2095495623002115/gr1/DOWNSAMPLED/image/jpeg/d17c695a4c9e92c98728199bb93d34ca/gr1.jpg gr1 gr1.jpg jpg 81973 395 622 IMAGE-DOWNSAMPLED 1-s2.0-S2095495623002115-gr10.sml https://s3-eu-west-1.amazonaws.com/prod-ucs-content-store-eu-west/content/pii:S2095495623002115/gr10/THUMBNAIL/image/gif/b8c4f56e25154da166f7bc8ccf1a54ec/gr10.sml gr10 gr10.sml sml 14980 164 177 IMAGE-THUMBNAIL 1-s2.0-S2095495623002115-gr11.sml https://s3-eu-west-1.amazonaws.com/prod-ucs-content-store-eu-west/content/pii:S2095495623002115/gr11/THUMBNAIL/image/gif/9c30981d1e4b9097242b17bd0d867c7f/gr11.sml gr11 gr11.sml sml 17643 138 219 IMAGE-THUMBNAIL 1-s2.0-S2095495623002115-gr12.sml https://s3-eu-west-1.amazonaws.com/prod-ucs-content-store-eu-west/content/pii:S2095495623002115/gr12/THUMBNAIL/image/gif/6ce21cc88d05bfa507bebbd5a7df2d2e/gr12.sml gr12 gr12.sml sml 12924 164 165 IMAGE-THUMBNAIL 1-s2.0-S2095495623002115-gr13.sml https://s3-eu-west-1.amazonaws.com/prod-ucs-content-store-eu-west/content/pii:S2095495623002115/gr13/THUMBNAIL/image/gif/9a768289cebeeb370c17a7db29748720/gr13.sml gr13 gr13.sml sml 18832 164 195 IMAGE-THUMBNAIL 1-s2.0-S2095495623002115-gr14.sml https://s3-eu-west-1.amazonaws.com/prod-ucs-content-store-eu-west/content/pii:S2095495623002115/gr14/THUMBNAIL/image/gif/c7b783798521803594e89ccf935762a5/gr14.sml gr14 gr14.sml sml 15047 164 175 IMAGE-THUMBNAIL 1-s2.0-S2095495623002115-gr15.sml https://s3-eu-west-1.amazonaws.com/prod-ucs-content-store-eu-west/content/pii:S2095495623002115/gr15/DOWNSAMPLED/image/gif/af7dc373af3c934190ff8f970170f661/gr15.sml gr15 gr15.sml sml 8712 142 219 IMAGE-THUMBNAIL 1-s2.0-S2095495623002115-gr2.sml https://s3-eu-west-1.amazonaws.com/prod-ucs-content-store-eu-west/content/pii:S2095495623002115/gr2/DOWNSAMPLED/image/gif/d6b268e1ab8a1bcbeafbdc8a7184c68e/gr2.sml gr2 gr2.sml sml 15695 164 164 IMAGE-THUMBNAIL 1-s2.0-S2095495623002115-gr3.sml https://s3-eu-west-1.amazonaws.com/prod-ucs-content-store-eu-west/content/pii:S2095495623002115/gr3/THUMBNAIL/image/gif/3709dd5d047af5c870e687faffab8e3c/gr3.sml gr3 gr3.sml sml 7668 163 134 IMAGE-THUMBNAIL 1-s2.0-S2095495623002115-gr4.sml https://s3-eu-west-1.amazonaws.com/prod-ucs-content-store-eu-west/content/pii:S2095495623002115/gr4/THUMBNAIL/image/gif/e117d7a6099e2768852cde7f211f674a/gr4.sml gr4 gr4.sml sml 14664 164 216 IMAGE-THUMBNAIL 1-s2.0-S2095495623002115-gr5.sml https://s3-eu-west-1.amazonaws.com/prod-ucs-content-store-eu-west/content/pii:S2095495623002115/gr5/DOWNSAMPLED/image/gif/921be4bc0a178d755f448db504ce128e/gr5.sml gr5 gr5.sml sml 12550 164 202 IMAGE-THUMBNAIL 1-s2.0-S2095495623002115-gr6.sml https://s3-eu-west-1.amazonaws.com/prod-ucs-content-store-eu-west/content/pii:S2095495623002115/gr6/THUMBNAIL/image/gif/d9247f9588228cc300d199f012530147/gr6.sml gr6 gr6.sml sml 9332 114 219 IMAGE-THUMBNAIL 1-s2.0-S2095495623002115-gr7.sml https://s3-eu-west-1.amazonaws.com/prod-ucs-content-store-eu-west/content/pii:S2095495623002115/gr7/THUMBNAIL/image/gif/c08205be6effbad0058cae0f284324bd/gr7.sml gr7 gr7.sml sml 12375 164 178 IMAGE-THUMBNAIL 1-s2.0-S2095495623002115-gr8.sml https://s3-eu-west-1.amazonaws.com/prod-ucs-content-store-eu-west/content/pii:S2095495623002115/gr8/THUMBNAIL/image/gif/ab2b903182fec95e171548ff802116fc/gr8.sml gr8 gr8.sml sml 13755 164 163 IMAGE-THUMBNAIL 1-s2.0-S2095495623002115-gr9.sml https://s3-eu-west-1.amazonaws.com/prod-ucs-content-store-eu-west/content/pii:S2095495623002115/gr9/THUMBNAIL/image/gif/351f3d7c30b151e4471455fac40f2d7d/gr9.sml gr9 gr9.sml sml 13143 164 175 IMAGE-THUMBNAIL 1-s2.0-S2095495623002115-ga1.sml https://s3-eu-west-1.amazonaws.com/prod-ucs-content-store-eu-west/content/pii:S2095495623002115/ga1/MAIN/image/gif/e7101c766f62bad6b5d23b8b93b44d1f/ga1.sml ga1 true ga1.sml sml 11300 109 219 IMAGE-THUMBNAIL 1-s2.0-S2095495623002115-fx1.sml https://s3-eu-west-1.amazonaws.com/prod-ucs-content-store-eu-west/content/pii:S2095495623002115/fx1/THUMBNAIL/image/gif/17ca5f3cc151c89487ce6fc6cad4249c/fx1.sml fx1 fx1.sml sml 10396 164 117 IMAGE-THUMBNAIL 1-s2.0-S2095495623002115-fx2.sml https://s3-eu-west-1.amazonaws.com/prod-ucs-content-store-eu-west/content/pii:S2095495623002115/fx2/THUMBNAIL/image/gif/cfc579dad43e190ff17247eb8c8846cb/fx2.sml fx2 fx2.sml sml 13272 164 117 IMAGE-THUMBNAIL 1-s2.0-S2095495623002115-fx3.sml https://s3-eu-west-1.amazonaws.com/prod-ucs-content-store-eu-west/content/pii:S2095495623002115/fx3/THUMBNAIL/image/gif/972d153089b7e8d221b0d5581ef02834/fx3.sml fx3 fx3.sml sml 18644 164 117 IMAGE-THUMBNAIL 1-s2.0-S2095495623002115-gr1.sml https://s3-eu-west-1.amazonaws.com/prod-ucs-content-store-eu-west/content/pii:S2095495623002115/gr1/THUMBNAIL/image/gif/97f07be191215c3d9f78e767c7425e56/gr1.sml gr1 gr1.sml sml 12566 139 219 IMAGE-THUMBNAIL 1-s2.0-S2095495623002115-gr10_lrg.jpg https://s3-eu-west-1.amazonaws.com/prod-ucs-content-store-eu-west/content/pii:S2095495623002115/HIGHRES/image/jpeg/4f14a164eabe50a115394a636aabe195/gr10_lrg.jpg gr10 gr10_lrg.jpg jpg 1038182 2912 3150 IMAGE-HIGH-RES 1-s2.0-S2095495623002115-gr11_lrg.jpg https://s3-eu-west-1.amazonaws.com/prod-ucs-content-store-eu-west/content/pii:S2095495623002115/HIGHRES/image/jpeg/3b61190f8dc048633b8a680e4a81bfda/gr11_lrg.jpg gr11 gr11_lrg.jpg jpg 691778 1982 3150 IMAGE-HIGH-RES 1-s2.0-S2095495623002115-gr12_lrg.jpg https://s3-eu-west-1.amazonaws.com/prod-ucs-content-store-eu-west/content/pii:S2095495623002115/THUMBNAIL/image/jpeg/20cc3820855e4e94fe12a7052ff5026d/gr12_lrg.jpg gr12 gr12_lrg.jpg jpg 992038 3128 3150 IMAGE-HIGH-RES 1-s2.0-S2095495623002115-gr13_lrg.jpg https://s3-eu-west-1.amazonaws.com/prod-ucs-content-store-eu-west/content/pii:S2095495623002115/HIGHRES/image/jpeg/338a5ec4317e141ad62ede8d645a5799/gr13_lrg.jpg gr13 gr13_lrg.jpg jpg 828092 2951 3504 IMAGE-HIGH-RES 1-s2.0-S2095495623002115-gr14_lrg.jpg https://s3-eu-west-1.amazonaws.com/prod-ucs-content-store-eu-west/content/pii:S2095495623002115/HIGHRES/image/jpeg/1294684389b3a939081a36ef60313cf3/gr14_lrg.jpg gr14 gr14_lrg.jpg jpg 977134 2584 2756 IMAGE-HIGH-RES 1-s2.0-S2095495623002115-gr15_lrg.jpg https://s3-eu-west-1.amazonaws.com/prod-ucs-content-store-eu-west/content/pii:S2095495623002115/HIGHRES/image/jpeg/4c1e7e8179c9acdbd1e380b9ea10e92b/gr15_lrg.jpg gr15 gr15_lrg.jpg jpg 170137 956 1476 IMAGE-HIGH-RES 1-s2.0-S2095495623002115-gr2_lrg.jpg https://s3-eu-west-1.amazonaws.com/prod-ucs-content-store-eu-west/content/pii:S2095495623002115/HIGHRES/image/jpeg/9b19a379c04d8498ef33836eb24cb416/gr2_lrg.jpg gr2 gr2_lrg.jpg jpg 607505 2461 2461 IMAGE-HIGH-RES 1-s2.0-S2095495623002115-gr3_lrg.jpg https://s3-eu-west-1.amazonaws.com/prod-ucs-content-store-eu-west/content/pii:S2095495623002115/HIGHRES/image/jpeg/e667af5d87d6c8c502f1000df7e7d2ae/gr3_lrg.jpg gr3 gr3_lrg.jpg jpg 728213 3360 2756 IMAGE-HIGH-RES 1-s2.0-S2095495623002115-gr4_lrg.jpg https://s3-eu-west-1.amazonaws.com/prod-ucs-content-store-eu-west/content/pii:S2095495623002115/HIGHRES/image/jpeg/7532497a37e68c1b90792c4bb21aa750/gr4_lrg.jpg gr4 gr4_lrg.jpg jpg 599380 2090 2756 IMAGE-HIGH-RES 1-s2.0-S2095495623002115-gr5_lrg.jpg https://s3-eu-west-1.amazonaws.com/prod-ucs-content-store-eu-west/content/pii:S2095495623002115/HIGHRES/image/jpeg/c37759eb41a94d6e64e553dd1d2bd0a9/gr5_lrg.jpg gr5 gr5_lrg.jpg jpg 778809 2400 2953 IMAGE-HIGH-RES 1-s2.0-S2095495623002115-gr6_lrg.jpg https://s3-eu-west-1.amazonaws.com/prod-ucs-content-store-eu-west/content/pii:S2095495623002115/HIGHRES/image/jpeg/40547bf60379237564ef616f9b395533/gr6_lrg.jpg gr6 gr6_lrg.jpg jpg 428599 1646 3150 IMAGE-HIGH-RES 1-s2.0-S2095495623002115-gr7_lrg.jpg https://s3-eu-west-1.amazonaws.com/prod-ucs-content-store-eu-west/content/pii:S2095495623002115/HIGHRES/image/jpeg/f3fdef8b85277c8970d4273e1fbdeb3d/gr7_lrg.jpg gr7 gr7_lrg.jpg jpg 820735 2722 2953 IMAGE-HIGH-RES 1-s2.0-S2095495623002115-gr8_lrg.jpg https://s3-eu-west-1.amazonaws.com/prod-ucs-content-store-eu-west/content/pii:S2095495623002115/HIGHRES/image/jpeg/5638376ee34d42781a9664e2a4e8ec02/gr8_lrg.jpg gr8 gr8_lrg.jpg jpg 906544 2768 2756 IMAGE-HIGH-RES 1-s2.0-S2095495623002115-gr9_lrg.jpg https://s3-eu-west-1.amazonaws.com/prod-ucs-content-store-eu-west/content/pii:S2095495623002115/HIGHRES/image/jpeg/ed834301f0b521296eac834918c225b4/gr9_lrg.jpg gr9 gr9_lrg.jpg jpg 1014812 2950 3150 IMAGE-HIGH-RES 1-s2.0-S2095495623002115-ga1_lrg.jpg https://s3-eu-west-1.amazonaws.com/prod-ucs-content-store-eu-west/content/pii:S2095495623002115/HIGHRES/image/jpeg/5dd2464be1cbfe105d2d61eb1adff233/ga1_lrg.jpg ga1 true ga1_lrg.jpg jpg 243250 886 1785 IMAGE-HIGH-RES 1-s2.0-S2095495623002115-fx1_lrg.jpg https://s3-eu-west-1.amazonaws.com/prod-ucs-content-store-eu-west/content/pii:S2095495623002115/HIGHRES/image/jpeg/25dca83fbd3e572a2ba02c11d4a96ac3/fx1_lrg.jpg fx1 fx1_lrg.jpg jpg 27405 689 492 IMAGE-HIGH-RES 1-s2.0-S2095495623002115-fx2_lrg.jpg https://s3-eu-west-1.amazonaws.com/prod-ucs-content-store-eu-west/content/pii:S2095495623002115/HIGHRES/image/jpeg/3442743e4096d6d6266b5f57cc7e593b/fx2_lrg.jpg fx2 fx2_lrg.jpg jpg 44377 689 492 IMAGE-HIGH-RES 1-s2.0-S2095495623002115-fx3_lrg.jpg https://s3-eu-west-1.amazonaws.com/prod-ucs-content-store-eu-west/content/pii:S2095495623002115/HIGHRES/image/jpeg/d2da83d9a1d6884f97dd111349ade242/fx3_lrg.jpg fx3 fx3_lrg.jpg jpg 104204 689 492 IMAGE-HIGH-RES 1-s2.0-S2095495623002115-gr1_lrg.jpg https://s3-eu-west-1.amazonaws.com/prod-ucs-content-store-eu-west/content/pii:S2095495623002115/HIGHRES/image/jpeg/5d159819945085a0807bd9041ac27273/gr1_lrg.jpg gr1 gr1_lrg.jpg jpg 518474 1752 2756 IMAGE-HIGH-RES 1-s2.0-S2095495623002115-mmc1.docx https://s3-eu-west-1.amazonaws.com/prod-ucs-content-store-eu-west/content/pii:S2095495623002115/mmc1/MAIN/application/vnd.openxmlformats-officedocument.wordprocessingml.document/8a698bd56f6f7ba78944ecb222ac2305/mmc1.docx mmc1 mmc1.docx docx 132827 APPLICATION 1-s2.0-S2095495623002115-si1.svg https://s3-eu-west-1.amazonaws.com/prod-ucs-content-store-eu-west/content/pii:S2095495623002115/STRIPIN/image/svg+xml/16ddab51e935e749fc3cf68ac9a233a9/si1.svg si1 si1.svg svg 5993 ALTIMG 1-s2.0-S2095495623002115-si2.svg https://s3-eu-west-1.amazonaws.com/prod-ucs-content-store-eu-west/content/pii:S2095495623002115/STRIPIN/image/svg+xml/2aea130b15e799bd5823b956fb551d72/si2.svg si2 si2.svg svg 26888 ALTIMG 1-s2.0-S2095495623002115-si3.svg https://s3-eu-west-1.amazonaws.com/prod-ucs-content-store-eu-west/content/pii:S2095495623002115/STRIPIN/image/svg+xml/826c3494643385d091ebed18a0eb1f02/si3.svg si3 si3.svg svg 3922 ALTIMG 1-s2.0-S2095495623002115-am.pdf https://s3-eu-west-1.amazonaws.com/prod-ucs-content-store-eu-west/content/egi:10D7K4S8J0R/MAIN/application/pdf/e24f3590abb5c6de15eea8dacb2cc3fa/am.pdf am am.pdf pdf false 3929260 AAM-PDF JECHEM 3124 S2095-4956(23)00211-5 10.1016/j.jechem.2023.04.002 Science Press and Dalian Institute of Chemical Physics, Chinese Academy of Sciences Fig. 1 Timeline of the development of proton-conducting materials and proton-conducting COFs. Fig. 2 Several strategies for achieving superb proton conduction properties and stability properties using COFs materials. Fig. 3 (a and b) The schematic illustration of the basic topology for the 2D and 3D COFs. (c) The schematic illustration of the effect of topology on the pore size and column π-density of 2D COFs. Fig. 4 Schematic illustration of the strategy and corresponding features for constructing proton-conducting COFs. Fig. 5 (a) Synthetic scheme for liquid-assisted grinding of sulfonated COFs NUS-9 (G) and NUS-10 (G) at room temperature. (b) The crystal structure of NUS-9 and NUS-10. (c) The temperature-dependent proton conductivity and Arrhenius-type plots of NUS-9(G)@PVDF and NUS-10(G)@PVDF composite membranes with different COFs loading. Reproduced with permission from Ref. [90]. Copyright 2016, American Chemical Society. (d) Synthetic scheme of alkyl phosphoric acid-decorated COFs. Reproduced with permission from Ref. [92]. Copyright 2022, Wiley-VCH. (e) Schematic illustration of the bottom-up synthesis of COF-Im and COF-Im+-SO3 -. Reproduced with permission from Ref. [93]. Copyright 2022, American Chemical Society. (f) Schematic illustration of proton transfer via short hydrogen-bond and normal H-bond in confined waters. Reproduced with permission from Ref. [94]. Copyright 2022, Nature Publishing Group. Fig. 6 (a) Illustration of the ionic channel structure and the spacer length dependent proton transport. (b) and (c) are the through-plane and in-plane proton conductivity of iCOFMs. Reproduced with permission from Ref. [102]. Copyright 2020, Wiley-VCH. Fig. 7 (a) Schematic illustration of the preparation of the sulfonic COF membrane transferred on silicon wafers and the free-standing sulfonic COF membrane. (b) Schematic illustration of the preparation of a freestanding sulfonic COF membrane transferred to an inter-digitated electrode. Reproduced with permission from Ref. [100]. Copyright 2021, Wiley-VCH. (c) Schematic illustration of the bottom-up synthesis of IPC-COF nanosheets. (d) Schematic illustration of the membrane assembly and mechanical property of IPC-COF. (e) Schematic comparison of proton conductivity for IPC-COF membranes and other state-of-the-art PEMs. Reproduced with permission from Ref. [82]. Copyright 2020, Wiley-VCH. Fig. 8 (a) Schematic illustration of the synthetic route of COF-Fx-H. (b) The electrochemical properties of COF-F6-H with various amounts of guest loading. Reproduced with permission from Ref. [108]. Copyright 2020, American Chemical Society. (c) Schematic illustration of H3PO4 doping in COFs. (d) Proton conductivity of PA@Tp-Stb and PA@Tp-Azo under hydrous and anhydrous conditions, respectively. Reproduced with permission from Ref. [65]. Copyright 2014, American Chemical Society. (e) Graphic representations of triazole and imidazole molecules in the 1D open channels of TPB-DMTP-COFs. Reproduced with permission from Ref. [83]. Copyright 2016, Nature Publishing Group. (f) Schematic illustration of the synthesis of COF-300 membrane. (g) Schematic illustration of the pore changes of COF-300 membranes immersed in ethanol and water. Reproduced with permission from Ref. [111]. Copyright 2021, The Royal Society of Chemistry. Fig. 9 (a) Schematic illustration of the COFs with anhydrous proton conduction employing a pore engineering approach. (b) Nyquist plots of H3PO4@NKCOF-52, 53, and 54 were measured at different temperatures. Reproduced with permission from Ref. [80]. Copyright 2022, Wiley-VCH. (c) Bottom-up strategy for the synthesis of TPB-COF, TPB-TPT-COF, TPT-TPB-COF, and TPT-COF. (d) Nyquist plots of H@TPT-COF under 100 ℃ to 160 ℃ and long-term measurement of H@TPT-COF at 160 ℃. Reproduced with permission from Ref. [112]. Copyright 2022, Wiley-VCH. Fig. 10 (a) Schematic illustration of the synthetic route of NKCOFs. (b) The assembly process of MEAs using H3PO4@NKCOFs as a solid electrolyte membrane. (c) The electrochemical test plots (Nyquist plots, Arrhenius plots, and proton conductivity) of NKCOF-1 and H3PO4@NKCOF-1. Reproduced with permission from Ref. [113]. Copyright 2020, Wiley-VCH. (d) The synthetic route and structure of TB-COF and PIL-TB-COF. (e) Nyquist plots of TB-COF and PIL-TB-COF at different temperatures. (f) Theoretical elucidation of H+ migration energy diagrams inside the pores and the corresponding behaviors. Reproduced with permission from Ref. [114]. Copyright 2022, The Royal Society of Chemistry. Fig. 11 (a) Schematic illustration of the proton conduction paths within the nanochannels. (b) Nyquist plots of Tp-SO3H, phytic@TpPa-(SO3H-Py), and phytic@TpPa-Py at different temperatures under anhydrous conditions. Reproduced with permission from Ref. [115]. Copyright 2016, American Chemical Society. Fig. 12 (a) Schematic illustration of the synthesis of DBC-2P by transamination reaction between DBC-TIM and BPDA. (b) Schematic illustration of PEG infiltration into nanochannels of DBC-2P. (c) Schematic illustration of the ionic transport in the nanochannels of COF-PEG composites. (d) The EIS spectra and Arrhenius plots of DBC-2P and DBC-2P composites at 70 ℃ and 98 % RH. Reproduced with permission from Ref. [116]. Copyright 2019, Wiley-VCH. (e) Schematic illustration of fabricating of IL-COF-SO3H@SNF composite membrane. (f) Schematic illustration of hydrogen bonds in IL-COF-SO3H@SNF-X and SNF. (g) Temperature-dependent, RH-dependent, and time-dependent conductivities of SNF and IL-COF-SO3H@SNF-X under different conditions as well as the fuel cell performance of IL-COF-SO3H@SNF-35 at 60 ℃ and 100% RH. Reproduced with permission from Ref. [117]. Copyright 2021, Elsevier Ltd. Fig. 13 (a) Schematic illustration of MEA fabrication of H3PO4@NKCOFs. (b) OCV lifetime plot, fuel cell polarization/power density curves, and OCV/power density cyclic stability of H3PO4@NKCOF-1. (c) The assembly process of MEAs using H3PO4@NKCOFs as a solid electrolyte membrane. Reproduced with permission from Ref. [113]. Copyright 2019, Wiley-VCH. (d) Schematic illustration of the process of preparing MEA employing pelletized COFs powder. (e) Nyquist plot and (f) fuel cell polarization plot of TpBpy COF powder. Reproduced with permission from Ref. [126]. Copyright 2016, Royal Society of Chemistry. (g) Schematic illustration of MEA fabrication and fuel cell polarization plot of COFMs employing pelletized COFs powder. Reproduced with permission from Ref. [123]. Copyright 2018, Wiley-VCH. Fig. 14 (a) Schematic illustration of PA molecules in COFs pore channels. (b) Schematic illustration of 1,2,4-Triazole molecules in COFs pore channels. (c) The proton conductivities of (i) PA@COFs and (ii) tra@COFs in different temperatures. Reproduced with permission from Ref. [131]. Copyright 2020, The Royal Society of Chemistry. (d) The reconstructed structure of one hexagonal macrocycle and 1D channel. (e) Schematic illustration of the H3PO4 molecules being anchored in the 1D channel of TPB-DMeTP-COFs. Reproduced with permission from Ref. [132]. Copyright 2020, Nature Publishing Group. (f) Topological structures of the COFs with twelve and six -SO3H groups. (g) Schematic illustration of proton shuttle/transfer event and the number of protons jumping versus simulation time. Reproduced with permission from Ref. [94]. Copyright 2022, Nature Publishing Group. Fig. 15 The comparison of proton conductivity and durability of the reported COFs. Review Efficient proton conduction in porous and crystalline covalent-organic frameworks (COFs) Liyu Zhu a b Huatai Zhu a Luying Wang a b Jiandu Lei a b ⁎ Jing Liu a b ⁎ a Beijing Key Laboratory of Lignocellulosic Chemistry, Beijing Forestry University, Beijing 100083, China Beijing Key Laboratory of Lignocellulosic Chemistry Beijing Forestry University Beijing 100083 China Beijing Key Laboratory of Lignocellulosic Chemistry, Beijing Forestry University, Beijing 100083, China b MOE Engineering Research Center of Forestry Biomass Materials and Bioenergy, Beijing Forestry University, Beijing 100083, China MOE Engineering Research Center of Forestry Biomass Materials and Bioenergy Beijing Forestry University Beijing 100083 China MOE Engineering Research Center of Forestry Biomass Materials and Bioenergy, Beijing Forestry University, Beijing 100083, China ⁎ Corresponding authors. Graphical abstract This review provides a systematic and comprehensive summary of the research progress in proton-conducting COFs and their applications in fuel cells, and gives corresponding figures and suitable examples for in-depth discussion. To attain the objectives of carbon peaking and carbon neutrality, the development of stable and high-performance ion-conducting materials holds enormous relevance in various energy storage and conversion devices. Particularly, crystalline porous materials possessing built-in ordered nanochannels exhibit remarkable superiority in comprehending the ion transfer mechanisms with precision. In this regard, covalent organic frameworks (COFs) are highly regarded as a promising alternative due to their pre-eminent structural tunability, accessible well-defined pores, and excellent thermal/chemical stability under hydrous/anhydrous conditions. By the availability of organic units and the diversity of topologies and connections, advances in COFs have been increasing rapidly over the last decade and they have emerged as a new field of proton-conducting materials. Therefore, a comprehensive summary and discussion are urgently needed to provide an “at a glance” understanding of the prospects and challenges in the development of proton-conducting COFs. In this review, we target a comprehensive review of COFs in the field of proton conductivity from the aspects of design strategies, the proton conducting mechanism/features, the relationships of structure–function, and the application of research. The relevant content of theoretical simulation, advanced structural characterizations, prospects, and challenges are also presented elaborately and critically. More importantly, we sincerely hope that this progress report will form a consistent view of this field and provide inspiration for future research. Keywords Covalent-organic frameworks Proton conduction mechanism Proton exchange membrane Fuel cells 1 Introduction Developing renewable and eco-friendly energy solutions to move away from the burning of fossil fuels is attracting widespread attention [1,2]. Among the various advanced energy conversion/storage devices being explored to tackle these issues, fuel cells (FCs) are considered as a highly promising option due to their numerous superiorities such as low to zero-emission, exceptional energy conversion efficiency, mild operating conditions, and extended durability [3–7]. Typically, several types of FCs are distinguished by the type of electrolytes used (solid oxide, alkaline, molten carbonate, phosphoric acid, and proton exchange membrane (PEM) [8–12]. Among several fuel cell technologies, proton exchange membrane fuel cells (PEMFCs) are expected to be one of the optimal choices for transportation [13–16]. In particular, the solid-state electrolyte or proton transfer membrane is an important component to achieve high performance and safety in FCs [17]. Briefly, protons are transported through the membrane and electrons flow through an external circuit, and oxygen combines with protons and electrons to form water and heat as by-products in the presence of a cathode catalyst [2,4,18]. Therefore, the desired membrane properties for PEMFCs include excellent proton conductivity, low permeability for reactant fuels, sustained dimensional stability during fuel cell operation, commendable chemical/thermal stability, and durability under prolonged operation under different conditions [6,19,20]. The proton conduction through the hydrogen bonding network in a solid was proposed by Reger and Ubbelohde in 1950 s, and a fundamental and critical principle in H+ transport is its acid-base nature [21,22]. The first and most well-established commercial proton-conducting material is the perfluorinated sulfonated polymer (Nafion), which was developed by DuPont in the 1960 s [23]. The distinctive morphological architecture of Nafion enables efficient proton transport via its aligned ionic nanochannels, rendering it the standard for proton conductive materials in current research [10,24]. However, it is often necessary to humidify the incoming gas stream in order to maintain a high proton conductivity inside the fuel cell system, thus complicating the whole system [25–28]. Thus, the management of water content in PEMFCs has been one of the key challenges for a long time [29–31]. Technically, a humidification system can be introduced to keep the minimum level of electrolyte hydration to obtain high proton conductivity; however, it is worth noting that these additional components not only complicate the structure of PEMFCs but also increase the cost, especially in multi-cell stacks [32,33]. Considering the potential and versatility of proton-conducting materials, widespread research efforts have been devoted to devising innovative proton-conducting materials, however, the development of stable superprotonic conductors remains demanding and challenging. Recently, the crystalline porous materials (CPMs) (MOFs, COFs, Hydrogen-bonded organic framework, Metal-organic polyhedra, and traditional zeolite) with built-in and ordered nanochannels are highly conductive to an accurate understanding of the proton transfer mechanism and thus to the enhancement of proton conductivity [34–38] (Table S1). Embedding sulfonate/phosphonate moieties on the pore surface and/or in the pores of SSOPMs has been proven to be an efficient way to beget novel proton conductors or strengthen proton conductivities of the parent materials. The augment of proton carrier concentration and mobility to achieve the high proton conductivity is a common design principle. For example, metal–organic frameworks (MOFs) can induce fast proton conduction by integrating functional acidic groups (such as HCl, H3PO4, H2SO4, and CF3SO3H) onto the channel walls or accommodating guest molecules (such as imidazole and water) in well-defined pores [39–42]. However, the low tolerance to pH changes remains a major drawback as the deprotonation of the occluded guests can cause the breaking of the coordination bonds and thus of the whole framework [43–47]. Furthermore, their instability at high temperatures, high gravimetric weight, and the difficulty of enabling them to form compact membranes are issues that to be addressed in the development of proton-conducting MOF materials [39,48–50]. And metal–organic polyhedra (MOPs) will be another good candidate as proton conductor if one can make them more water-soluble by functional modification, which will enhance the interfacial compatibility between MOPs blocks and polymer membranes although the research about MOPs is needed to enhance. By contrast, the exploration of proton conduction in COFs, a family of crystalline porous organic materials, has revealed their prominent advantages [51–54]. In detail, COFs are composed of light elements (e.g., C, O, N, etc.) and have stable covalent bonds, resulting in high chemical/thermal stability, low mass density, wide pH tolerance, and high processability as a membrane material [55–57]. More importantly, COFs could provide environmentally friendly solutions for future applications to a certain extent due to their absence of heavy metal ions [58,59]. This exceptional adaptability and excellent compatibility offered researchers enough motivation to rapidly explore the application of COFs in enormous fields, starting from energy to environment such as environmental remediation [60], ionic conduction [61], sensor materials [62], heterogeneous catalysis [63], separation applications [64], and so on. Motivated by these superior properties, they have been employed extensively in the field of proton conduction (Fig. 1 ) [61,65–67]. In this regard, the organic nature of COFs not only contributes to the reduction of the precipitation or agglomeration during membrane formation but also allows for better compatibility with the polymer matrix as a filler, which is the huge advantage of COFs over other crystalline materials in the preparation of PEMs. Furthermore, the high crystallinity of COFs also provides an additional advantage over the amorphous/low crystalline of conventional porous materials for a better understanding of the proton conduction mechanism at the molecular level. Herein, we present a systematic and comprehensive summary of the research progress in proton-conducting COFs and their application in the FCs, with corresponding figures and suitable examples for in-depth discussion. Inspired by the rapid progress of COFs in the field of proton conduction, we have organized several strategies adopted to achieve exceptional proton conduction properties using COFs and divided them into four parts (Fig. 2 ). Moreover, we also critically discuss the current state of progress on this topic and provide a comprehensive discussion of the challenges and prospects for the future, thereby attracting a broader scientific community to further develop this field. 2 The general proton conduction mechanism Two main mechanisms of proton conduction are proposed: the “Grutthuss mechanism” which includes jump diffusion of a proton between the conducting media, and the “vehicle mechanism”, where the molecular diffusion of protic species as a proton-attached vehicle is predominant [68]. Additionally, the activation energy (E a), which includes the H-bonding formation and dissociation, provides an intuitive signal for inferring the conduction mechanism, as the Grotthuss (E a < 0.4 eV) and vehicle mechanisms (E a > 0.4 eV) have a distinct range of E a, which can be assessed by fitting the temperature-dependent conductivity to the Arrhenius equation. Experimentally, proton conductivity is usually measured by alternating current electrochemical impedance spectroscopy (EIS) measurement in a wide frequency range. The proton conductivity is expressed using Eq (1). (1) σ = L RS where L (cm), S (cm2), and R (Ω) represent the sample thickness, contact area, and impedance, respectively. Moreover, the E a values of the samples are obtained by the least square fitting of the Arrhenius diagram. E a is calculated using Eq (2). (2) σ = n e 2 D 0 e x p Δ S m k kT e x p - E a kT → σ = σ 0 T e x p - E a kT where n is the number of carriers, e is the charge of the carriers, D 0 is constantly associated with the proton conduction mechanism, Δ S m is the entropy, σ 0 is the pre-exponential factor, k is the Boltzmann constant, E a is the activation energy of the proton hopping, and T is the absolute temperature in kelvin, respectively. 3 Design principles of COFs To effectively tailor the design of novel COFs, a comprehensive comprehension of the fundamental principles and bonding mechanisms governing COFs formation is imperative. The essence of the topology design diagram is to elucidate the direction of covalent bond formation and to provide guidance for the polymer backbone [69–71]. Notably, the linking monomers of COFs are required to have relatively rigid backbones in which the reactive sites are distributed in a unique geometry, thus ensuring that each covalent bond has a clear direction of the connection [47,72,73]. As shown in Fig. 3 , the design concept of COFs can be described and simplified with the block model. Briefly, each geometric pattern represents a specific reactive monomer and the end of the pattern represents the relative position of the reactive site. Meanwhile, the covalent bonds guide the growth direction of spatial and determine the relative positions of the reaction monomer units. This rule is then repeated for each connection and restricts the direction of the chain growth in a manner that strictly follows a pre-designed topology diagram [71]. In other words, the geometry matching of the topology diagram and monomers can create the spatial and structural basis for the control and growth of the primary structure. As shown in Fig. 3(a), the combination of planar-type reactive monomers restricts the connection of the polymer backbone to occur only in the 2D direction, which in turn leads to the creation of 2D atomic layers with a specific topology. Meanwhile, the growing polymer chains create periodically ordered open polygonal spaces in the 2D planes. With this expansion mode, these 2D covalent polymers not only form scalable primary structures but also intrinsic nanochannels. From this perspective, a distinctive feature of 2D COFs is their ability to form not only fully ordered arrays of cells but also 1D open nanochannels. Therefore, the pre-design of the monomer structure allows for customized functionality of the 2D COFs. In designing the topology of 2D COFs, two commonly employed design concepts are utilized (symmetric topologies and asymmetric topologies) [74–76]. The diversity of topologies provides a broad range of options for the structural diversity of 2D COFs. There are a large number of members of COFs with different linkers and building blocks behind each topology. The use of different combinations of active monomers to design COFs with different pores and skeletons is a common design strategy. As shown in Fig. 3(c), the pore size of the COFs with triangular pores is only L/√3 when the distance between the two connection points is set to L, which is 1/√3 and 1/3 of that of the quadrilateral and hexagonal COFs, respectively. Understanding the relationship between bonding type and pore size of COFs is essential for the design of COFs with proton conduction properties, particularly those achieved through extrinsic properties. The topological schematic diagram mentioned above is based on two-component systems consisting of a linker and a knot, which are alternately connected to constitute a regular polygon and an isotropic tiling structure. However, the prerequisites for this traditional two-component also largely limit the diversity of COFs. In this regard, the introduction of the concept of multi-component in the design of the COFs breaks down the limitation. Interestingly, the specific arrays of acceptor and donor monomers may trigger specific interactions that lead to the production of specific conductivity rather than a simple summation of COFs counterparts. Moreover, the synthesis of 3D COFs requires at least one building unit with an orthogonal geometry to guide the extension compared with 2D COFs (Fig. 3b). To this end, various combinations of monomers were designed to form 3D COFs in which the polymer chains interpenetrate and fold in different polygons to form multidimensional frameworks and pores [77,78]. However, the topology diagram of 3D COFs is difficult to predict precisely due to the interpenetrated structures [71,79]. In this regard, 3D COFs are hardly synthetically and pre-designable controllable compared with 2D COFs. Therefore, the potential capabilities of the 3D COFs in terms of proton conduction as well as other aspects need to be further investigated and validated in the future. Features of pores and pore-surface engineering As we mentioned above, to better understand the behavior (host–guest interaction and utilization efficiency) of protons/proton carriers in COF nanochannels, a deeper exploration of pore-surface characteristics is required [80]. In particular, the pores of COFs exhibited distinctive characteristics that are inaccessible to other porous materials: (i) the 1D pores are open and can only be accessed from the top and bottom of the 2D layer; (ii) they are separate spaces and do not interpenetrate; (iii) they are uniform in shape and can be predesigned; (iv) they can be tailored to design various interfaces on the pore walls to control the interactions with guests. Therefore, this structural designability is the most distinctive feature of COFs and it can explore a variety of functions and interfaces based on the same COF framework. Fully exploiting and exploring the porosity of COFs is both an interesting subject and a serious challenge. In this regard, large pore volume and exceptional surface area are two essential parameters for the development of porosity. Indeed, the porosity of COFs is strongly dependent on their molecular weight, bulkiness, and building blocks, and is also influenced by crystallinity. Table S2 summarized the pore features of some COFs reported. However, it seems difficult to clarify the general trend of a direct correlation between the porosity and structure from these data, even for COFs with the same connections. 4 Strategies adopted to achieve the proton conduction properties in COFs The proton conductivity measurements of CPMs are usually carried out either under anhydrous conditions or humid conditions. Under anhydrous conditions, the proton transport is completely dependent on the presence of active proton species. Under humid conditions, the active proton species and the entrapped water molecules create a suitable and continuous proton transport pathway through hydrogen bonding interactions within the well-defined 1D nanochannels [41,81]. In this regard, the commonly used methods for developing proton-conducting COFs are either by installing proton donating functionalities (such as –OH and -SO3H) to modulate the backbones of COFs or by incorporating proton species (organic acids (p-toluene sulfonic acid (PTSA), phytic acid, etc.) or mineral acids (H3PO4, H2SO4) or several N-heterocycles (histamine, pyrrole, tetrazole, triazole, imidazole, etc.)) within the well-defined pore channels [65,82–84]. Although the impregnation of COF cavities with an external proton source can significantly enhance proton conduction properties, the introduction of such proton sources is not only difficult to control but also prone to problems such as leaching and leakage [85–88]. Meanwhile, the COFs with intrinsic conductive properties can achieve better stability and effectiveness, but the fabrication of such frameworks is quite difficult to achieve. A more feasible approach to maximize proton conduction is to combine these two strategies in one COF system. Interestingly, the high concentration of proton carriers within the COFs pores not only ensures the formation of hydrogen bond networks, but also offers low energy barrier conduction pathways for proton hopping throughout the system. Moreover, compounding COFs with one-dimensional polymeric materials rich in conduction groups to achieve stable and excellent proton conduction properties is also a practical strategy. Fig. 4 summarizes the strategy and corresponding features for constructing a proton-conducting COF. 4.1 Achieving efficient proton conduction through intrinsic properties In the process of covalent pre-assembly of COFs, a class of reactive monomers with sulfonate, phosphate, carboxylate, imidazole, and phenolic hydroxyl moieties groups act as intrinsic proton sources, ensuring stable and efficient proton conduction properties (Table S3) [89–91]. These reactive groups within well-defined pore channels are important for increasing the mobility and concentration of the proton carriers. More importantly, the feature not only strengthens the acidity of the pore channels but also facilitates the formation of extensive continuous H-bonds throughout the framework, which further effectively triggers the proton conduction properties. Indeed, the incorporation of strong acid groups into the porous COFs is very challenging as it is incompatible with the COF synthesis process under hydrothermal conditions. Previously, Zhao and co-workers designed two fully sulfonated COFs (NUS-9 (G) and NUS-10 (G)) by liquid-assisted grinding at room temperature (Fig. 5 a) [90]. The NUS-9 and NUS-10 COFs both possessed hexagonal structures and exhibited eclipsed AA stacking layers (Fig. 5b). Notably, the extremely poor solubility of DABDA monomer in organic solvents makes it difficult to synthesize NUS-10 (G) using solvothermal methods. With the help of abundant sulfonic acid groups in the ordered nano-porous channels, these COFs exhibited high intrinsic proton conductivity (3.96 × 10-2 S cm−1) and long-term stability. Interestingly, the mixed-matrix membranes prepared by blending COFs with nonconductive polyvinylidene fluoride showed high proton conductivity (1.58 × 10-2 S cm−1) and low activation energy (0.21 eV), which suggests that the protons hop through the network formed by the sulphonic acid and water molecules via hydrogen bonding interactions, in accordance with the Grotthuss conduction mechanism (Fig. 5c). As we know, phosphoric acid (PA) is a promising component for proton conduction due to its superior ability and lower conduction barrier for proton dissociation. Previously, PA was extensively used as the nanofiller in porous materials to enhance proton conductivity, however, one problem that such strategies have to face is the leakage of phosphoric acid molecules. Gu and co-workers constructed a PA-functionalized, imine-linked COF (TPB-DPPA) by a side-chain decorated strategy (Fig. 5d) [92]. By integrating the vigorously moved PA side chains with 1D nanochannels, the resulting COFs presented a remarkably high intrinsic proton conductivity (4.96 × 10-4 S cm−1 at 90 ℃ and 98% RH). Importantly, this scalable strategy for the de novo synthesis of designed PA-based COFs offers a competitive approach for fabricating functionalized COFs with high intrinsic proton conductivity. Compared to the direct synthesis of COFs with intrinsic proton conduction properties, the improvement of the synthesized COFs using a chemical bond modification strategy seems to be an interesting approach. Zhang and co-workers designed a couple of 2D COFs by a hydrazone bond (Fig. 5e) [93]. One connects imidazole through a covalent bond (COF-Im) and the other one connects the positively charged imidazole and the negatively charged sulfonate (COF-Im+-SO3 -). With the help of the interactions between these reactive groups (NH4Br), the proton conductivity of NH4Br@COF-Im+-SO3 - (3.7 × 10-3 S cm−1 at 90 ℃ and 100% RH) is higher than that of neutral COFs (the charges in NH4Br@COF-Im+-SO3 - are more easily separated). Meanwhile, the lower activation energy of the charged COFs also reflects the easier-moving proton carriers and strengthened charge separation ability. Restricting the research object to a specific area to achieve a particular function has gained widespread attention in numerous applications. The confined short hydrogen-bond (SHB) network in the COFs enables the ultrafast transfer of proton in a nearly barrierless manner. Jiang and co-workers proposed a strategy to build a surface-confined SHB network for ultrafast proton conduction through a precisely regulated arrangement of hydrophilic ligands (Fig. 5f) [94]. Notably, the COF membranes with closed SHB networks constructed by precisely adjusting the arrangement of hydrophilic ligands can reach a maximum proton conductivity of 1389 mS cm−1 at 90 ℃ and 100% RH. Interestingly, this study found that a limited number of water molecules are confined by each -SO3H of COFs with its proton detached and binding to an adjacent water molecule, which can ensure a locally high concentration of SHBs and hydronium ions in each water-hydronium domain (H2O-H+–OH2), thus resulting in ultra-high proton conductivity. Additionally, side-chain engineering is well recognized as an effective, straightforward regulation strategy for ion transport through altering the molecular structure of side chains. In general, side chains on the main framework of COFs play a critical role in manipulating intrinsic solubility, crystallinity, and molecular assembly, which further control the spatial morphology and ion conduction behavior. In this regard, Jiang and co-workers designed and prepared ionic COF membranes (iCOFMs) with spacer-engineered ionic channels (Fig. 6 a). Due to the robust covalent network structure, the distribution of -SO3H groups in TpBd-SO3H is similar to the original state. In contrast, the -SO3H groups in TpBd-C3-SO3H and TpBd-C4-SO3H tend to aggregate into clusters because of the greater flexibility of the side chains. And the proton conductivities of iCOFMs follow the order of TpBd-C3-SO3H > TpBd-SO3H > TpBd-C4-SO3H (Fig. 6b and c). The high hydronium density and the flexibility of side chains of TpBd-C3-SO3H allow hydrogen bond reorganization which obviously promotes the proton conduction. Due to the lower water content and higher proton dissociation energy, TpBd-C4-SO3H membrane exhibits lower proton conductivity. Compared with the traditional synthesis of COFs materials (interfacial polymerization (IP) [95], vacuum-assisted [96], vapor-assisted conversion [97], and solvothermal synthesis [98]), surface-initiated polymerization (SIP) has become a critical approach in obtaining polymer coatings and surface modification [99]. To date, almost all polymerization strategies employ the technique of SIP for the synthesis of polymer coatings with defined composition/architecture and high grafting density. Zhu and co-workers constructed a COF coating on a silicon substrate utilizing the SIP reactions of a tri-aldehyde and a phenylenediamine (Fig. 7 a) [100]. By controlling the polymerization time, the thickness of the COF layer can be finely tuned from 10 to 100 nm. A free-standing COF membrane can be obtained without decomposing the COF structure by sacrificing the bridging layer. Moreover, the combined influence of the test environment and the wire connection resistance in the conductivity test of the ultrathin membrane will cause large test errors. Therefore, the prepared COF membranes were transferred to the interdigitated electrodes to minimize the experimental error (Fig. 7b). Due to the defined pore structure, plenty of sulfonic acid groups, and rigid organic skeleton, the free-standing COF membrane exhibited superior proton conductivity of 0.54 S cm−1 at 80 ℃ and 100% RH. Notably, the strategy employing SIP is highly customizable and tractable and has great potential for applications in sensing, photoelectronic, and separation applications [101]. Similarly, to address the processing capability of COF materials and the poor structural integrity of COF membranes, Jiang and co-workers reported a diffusion and solvent co-mediated modulation strategy for preparing highly crystalline NUS-9 COF nanosheets that can be processed into robust and defect-free COF membranes (intrinsic proton-conducting COF) by vacuum-assisted self-assembly (Fig. 7c and d) [82]. The rigid and crystalline ionic nanochannels of NUS-9 endow it with exceptional water retention properties and Grotthuss mechanism-dominated proton conduction, thus exhibiting weakly humidity-dependent conductivity and fuel cell performance over a wide range of humidity (Fig. 7e). Additionally, the water sorption and swelling ratio capacity of the IPC-COF membrane remains almost constant even when the temperature is increased from 25 ℃ to 100 ℃, which further confirmed the excellent framework rigidity, mechanical stability, and structural integrity. Notably, the proposed strategy of employing rigid and crystalline nanochannels in COF membranes to reduce their humidity dependence on the proton conduction process represents an alternative research direction for designing new-generation PEMs. Considering the persistence of COF materials as emerging building blocks for high-performance PEMs, more attention should be dedicated to the issue of fuel crossover, which is essential for the use of electrochemical devices. 4.2 Achieving efficient proton conduction through extrinsic properties The presence of pre-installed proton-donating groups onto the COF’s framework to promote proton conduction is undoubtedly effective. However, it is worth mentioning that these COFs are difficult to synthesize directly and require post-synthetic treatments of the pristine backbone. In this regard, extrinsically incorporation of some guest protonic species such as imidazole [103], tetrazole [104], triazole [105], pyrrole [106], H3PO4 [65], phytic acid (PA) [107], polyoxometalates (POMs) [46], etc., onto the nanochannels of COFs may dramatically enhance the proton conduction property (Table S4). As mentioned above, the incorporation of guest protonic species within the pore channels of COFs can participate in proton diffusion through molecular diffusion motion or proton donation with a hydrogen bonding network, which further enhances proton conductivity. For some non-volatile strong acids with a high dissociation constant (such as H3PO4 and H2SO4), it is highly desirable to design stable COFs capable of accommodating large quantities of these strong acids. Employing the “extrinsic incorporation of several acids” and bottom-up self-assembly synthesis strategy, Horike and co-workers constructed three perfluoroalkyl-functionalized hydrazone-linked 2D COFs (COF-Fx), which exhibited outstanding structural stability in strong acids (Fig. 8 a) [108]. Interestingly, the superhydrophobic 1D nanochannels in fluorinated COFs can act as a powerful host to accommodate large amounts of PA for long-term and rapid proton conduction in anhydrous conditions. The COFs were loaded extrinsically with different wt% H3PO4 and described as COF-Fx-H. Furthermore, the spectroscopic research revealed that the H3PO4 molecule can interact with the abundant –NH groups in the framework and the side chains of the backbone. H3PO4 molecules were anchored to the 1D nanochannels of COF-Fx through O-H···F-C, P = O···H-N, and OH···N = C hydrogen bonding interactions. Proton conduction measurement of COF-F6-H showed the maximum proton conductivity of 4.2 × 10-2 S cm−1 at 140 ℃ at 62 wt% loadings of H3PO4 (Fig. 8b). More strikingly, the COF-F6-H with 42 wt% H3PO4 loading maintained long-term proton conductivity for 40 h at 140 ℃. In other words, the strategy of pre-engineering and pore surface modification paved the way for the functionalization of COFs and highlighted the great potential of COFs as a rigid platform for rapid ion transportation. As we mentioned above, a proper functionalization of the COF backbone to further strengthen the interaction with carrier molecules is attracting widespread attention. In this regard, the azo group shows remarkable effectiveness in stabilizing the H3PO4 molecule in the pore channels of COFs. Briefly, the H3PO4 can find an anchor site at the azo center by protonation, while the H2PO4 - anions are stabilized via H-bonds. Based on this, Banerjee and co-workers presented an azo-functionalized COF (Tp-Azo) made by the Schiff base reaction between 4,4′-azodianiline (Azo) and triformylphloroglucinol (Tp), which exhibited excellent porosity, crystallinity, and structural stability after PA loading (Fig. 8c) [65]. Notably, the nonazo counterpart, Tp-Stb, had lower stability, porosity, crystallinity, and much less proton conductivity than Tp-Azo due to the absence of an anchoring site. Compared to Tp-Stb (2.8 wt%), Tp-Azo possessed a higher acid loading (5.4 wt%). Therefore, PA@Tp-Azo showed decent proton conductivity values under both hydrous and anhydrous conditions (9.9 × 10-4 S cm−1 at 58 ℃ under 98% RH and 6.7 × 10-5 S cm−1 at 66 ℃ under anhydrous conditions, respectively) (Fig. 8d). The design of materials for proton conduction is precluded by the preconceived notion that large pores lead to the flow of proton carrier molecules rather than protons. Jiang and co-workers designed highly robust COFs (TPB-DMTP-COF) that presented ultrahigh proton conductivity by employing an extrinsic binding strategy of N-heterocycle (Fig. 8e) [83]. The TPB-DMTP-COF was designed to hexagonally align, straight, and dense 1D mesoporous channels that allowed for loading of N-heterocyclic. Notably, the surface area, pore size, and pore volume of TPB-DMTP-COF were 2072 m2 g−1, 3.26 nm, and 1.34 cm3 g−1, respectively. TGA measurement of imidazole and triazole-loaded TPB-DMTP-COF indicated that the TPB-DMTP-COF could accommodate 155 and 180 wt% of imidazole and triazole guest molecules respectively, which was in agreement with the theoretical values (164 wt% for imidazole and 186 wt% for triazole). Despite the proton-insulating nature of TPB-DMTP-COF (<10-12 S cm−1), the proton conductivity of im@TPB-DMTP-COF and trz@TPB-DMTP-COF could reach 4.37 × 10-3 S cm−1 and 1.1 × 10-3 S cm−1 at 130 ℃, respectively. The proton conductivity of trz@TPB-DMTP-COF was lower than that of im@TPB-DMTP-COF, probably due to the lower proton concentration in trz@TPB-DMTP-COF. Interestingly, we also noted that some 3D COFs exhibited specific dynamic behavior when affected by different guest inclusions (such as crystal contraction and expansion) [109,110]. These unique structural dynamics features may provide a novel platform for the construction of proton conductors. In this regard, Jiang and co-workers designed an etidronic acid@COF-300 membrane by encapsulating etidronic acid in the nanochannels of the COF-300 membrane (Fig. 8f) [111]. Notably, a feature belonging to COF-300 is its reversible expansion and contraction when immersed in ethanol and water, respectively. In brief, the etidronic acid was blocked in the nanochannels of the COF-300 membrane under the expansion conditions in ethanol and washed the membrane under contraction conditions in water (Fig. 8g). The etidronic acid could be well confined in the pore channels of COF-300 due to the size of the etidronic acid molecular was smaller than the pore size of COF-300 in water. Thus, the resultant etidronic acid@COF-300 membrane displayed a proton conductivity of 0.65 S cm−1 at 90 ℃ under 100% RH. Importantly, the size characteristics of the proton carrier were important to consider, as it had to be sized to match the size of the COF in different solvents. Compared to the several previously mentioned methods of stabilizing proton carriers within the COF pore channels, the design of the pore surface (installing functional groups such as –OH, -N = N-, -C = N, and -CF3) and pore geometry (generating concave dodecagonal nanopores) to improve the efficiency of proton carrier utilization and host–guest interaction had shown strong competitiveness in anhydrous proton conduction. Recently, Zhang and co-workers conceived and achieved a pore engineering approach (pore surface engineering and pore geometry engineering) to construct COFs to realize high proton conductivity in anhydrous conditions (Fig. 9 a) [80]. The pore engineering approach mainly consists of two components: (i) Several functional groups (–OH, -C = N, -N = N-, and -CF3) were mounted on the pore surface to create acid-base pairs, which could create convenient proton hopping sites and enhance the performance of anhydrous proton conduction. (ii) The predesign capability of the COFs is used to modify monomers with amino groups to construct COFs with customized pore sizes (Fig. 9a). Notably, the occupied volume of H3PO4 and the free volume of the NKCOFs were calculated by Visual Molecular Dynamics (VMD) software to simulate the effect of NKCOFs loaded with proton carriers. Taking into account the effects of changes in layer spacing and channel variation caused by functional group modification, the theoretical H3PO4 capacity was 131.1 mg, 142.7 mg, and 167.7 mg per 100 mg for NKCOF-54, NKCOF-53, and NKCOF-52, respectively. Thanks to a variety of strategies to increase the efficiency and host–guest interaction of proton carriers, the H3PO4@NKCOFs exhibited a proton conductivity of 2.33 × 10-2 S cm−1 under anhydrous conditions (Fig. 9b). Briefly, the construction of novel COFs with the help of pore engineering methods could provide important guidance for proton conduction for anhydrous applications. Furthermore, in terms of managing the interlayer interactions of COFs, the rational design of linker ligands for COFs can help to significantly enhance their chemical stability and proton conductivity. Du and co-workers presented a strategy to enhance the interlayer interactions of 2D COFs by importing rigid and planar triazine units into the center of C3-symmetric monomers (Fig. 9c) [112]. Subsequently, the H3PO4 network was anchored to the channel walls of TPT-COF through the hydrogen bonding of O-H···N = C (Fig. 9c). The proton conductivity of H3PO4-TPT-COF could reach 1.27 × 10-2 S cm−1 at 160 ℃, about 10 times that of non-triazinyl COFs under the same H3PO4 loading, owing to the ordered pore structures and stronger interlayer interactions of the former (Fig. 9d). Importantly, this strategy for tuning interlayer interactions could provide a simple solution to the instability of imminently connected COFs and facilitate the rapid development of COF-based energy-related devices. 4.3 Achieving efficient proton conduction through combined properties (intrinsic and extrinsic) As we know, the proton conductivity of the developed material depended on the number of proton carriers presents throughout the framework. In this regard, a single intrinsic or extrinsic method probably does not induce significant proton conduction properties on COFs and thus does not meet our expectations for stronger and more stable proton conductivities. To maximize the proton conductivity, it is practical to combine the intrinsic and extrinsic methods in a COFs system (Table S5). Zhang and co-workers synthesized a series of highly stable, crystalline, and porous COFs (NKCOF-1 to 4) by a stepwise synthesis strategy (Fig. 10 a) [113]. These COFs not only exhibited high hydrophilicity but also displayed ultrahigh proton conductivity over a wide range of relative temperature (20–80 ℃) and humidity (40–100%). Notably, the phenolic hydroxyl groups (–OH) of NKCOFs could trigger the intrinsic proton conductivity by donating protons. Meanwhile, the azo groups present in NKCOFs allowed the doping of H3PO4 for extrinsic proton conductivity. In other words, the phenolic hydroxy groups and azo groups endowed NKCOFs with high hydrophilicity, which promoted the uptake of water molecules by COF pores and facilitated the process of proton migration. Furthermore, the proton conductivities of NKCOFs were measured in the form of pellets under variable relative humidities (Fig. 10b). Combining the intrinsic and extrinsic proton conduction pathways, the H3PO4@NKCOFs achieved an ultrahigh proton conductivity of 1.13 × 10-1 S cm−1 at 80 ℃ under 98% RH (Fig. 10c). Notably, the activation energy calculation showed that both H3PO4@NKCOFs and NKCOFs proceed through the Grotthuss mechanism of proton hopping with an activation energy of less than 0.4 eV. In summary, the high proton conductivity of H3PO4@NKCOFs could be attributed to extended H-bonding between the incorporated extrinsic guest molecules and the intrinsic functional groups as well as the high hydrophilicity. This study provided an important guide to the development of multifunctional COFs and inspired further research on COFs with ultrahigh proton conduction properties. Although most reported COFs showed ultrahigh proton conductivity under the hydrous conditions, it is crucial to design COFs with such a level of proton conductivity in the anhydrous conditions as the higher temperature can produce relatively faster kinetics and reduce the CO poisoning at the Pt electrodes. Meanwhile, water and energy management would become easier as no additional humidifiers would be required under anhydrous conditions. Ionic liquids (ILs) are environmentally friendly materials composed entirely of ions with low volatility, low corrosivity, high thermal stability, and high ionic conductivity, which have extremely important applications in energy devices and sensing. Yan and co-workers synthesized a composite COF-based solid-state electrolyte (PIL-TB-COF) in which the porous crystalline COFs (TpBD-(SO3H)2) with sulfonic acid groups as intrinsic proton conductors and the protic ionic liquids (PILs) as extrinsic proton sources (Fig. 10d) [114]. Notably, PILs (the combination of Brønsted acids and base) can form hydrogen bonding to act as proton carriers, while the TpBD-(SO3H)2 has an abundance of intrinsic proton conductors (the -SO3H groups suspended on the COF backbone can create continuous proton transport pathways). With the help of these two pathways, the anhydrous proton conductivity of PIL-TB-COF was 2.21 × 10-3 S cm−1 at 120 ℃ (Fig. 10e). Additionally, the DFT calculations also theoretically elucidated that the conduction of H+ occurred along the stacked pores of PIL-TB-COF with the help of O atoms on the keto groups (Fig. 10f). The presence of PIL increased the number of hopping sites for H+ and reduced the migration energy. Along similar design paths, Banerjee and co-workers synthesized a hybrid COF (TpPa-(SO3H-Py)) that contains pyridine as the basic site and sulfonic acid as the acidic site to anchor phytic acid molecules (Fig. 11 a) [115]. Noteworthy, the H3PO4 molecules were usually impregnated into the pores of the COFs to impart the proton conductivity in previous studies. Compared to H3PO4, the phytic acid has the following characteristics as proton carriers: (i) the low volatility of phytic acid increases the possibility of operating at higher temperatures; (ii) the better match between phytic acid (ca. 11 Å) and COFs (ca. 14.5 Å) in terms of dimension and pore size can prevent leaching problem to a certain extent. Therefore, the proton conductivity of phytic@TpPa-(SO3H-Py) reached 5 × 10-4 S cm−1 at 120 ℃. Such high proton conductivity was due to the synergistic effect of the extrinsic conductivity of the phytic acid immobilized via pyridinic nitrogen and the intrinsic conductivity of the -SO3H group (Fig. 11b). To further explore the proton transport pathways along with the reason behind the enhanced conductivity, the proton conductivity measurements were carried out for phytic@TpPa-(SO3H-Py), phytic@TpPa-Py, and TpPa-SO3H under anhydrous conditions (Fig. 11b). Actually, the proton conduction occurred through the polar groups (C = O, S = O, NH) present in the framework. Due to the lack of proton immobilization in TpPa-(SO3H-Py) and the lack of protogenic species in TpPa-Py, the TpPa-(SO3H-Py) and TpPa-Py did not present proton conductivity at 120 ℃. After phytic acid was incorporated, the proton conductivity of phytic@TpPa-(SO3H-Py) and phytic@TpPa-Py was 5 × 10-4 S cm−1 and 3 × 10-4 S cm−1 under the same condition. Furthermore, the calculated activation energy values of the phytic@TpPa-Py and phytic@TpPa-(SO3H-Py) were 0.1 eV and 0.16 eV, respectively, which were lower than the commercially available proton conducting material (Nafion, 10-1 S cm−1). 4.4 Integration with 1D proton-conduction polymers As we mentioned above, it is feasible and promising to impart ultrahigh proton conductivity to COFs materials through several strategies (intrinsic, extrinsic, and combined properties). Indeed, besides achieving high proton conductivity, the rigidity and stability of the COFs are also issues that must be considered, otherwise, the developed materials may not be suitable as PEMs for commercial fuel cells. In this regard, the development of proton-conducting materials by integrating COFs and 1D proton-conducting polymers has received widespread attention because of the better reliability and efficiency of such composites. Chen and co-workers first synthesized a highly crystalline, heterosporous, and highly stable dibenzo[g, p]chrysene-based COF (DBC-2P) by taking advantage of the strong interlayer interactions between the large conjugated DBC-based knot (Fig. 12 a) [116]. A composite material with ultrahigh proton conductivity was subsequently synthesized by encapsulating PEG-LiBF4 salt and linear polyethylene glycol (PEG, M r = 1000 Da) into the nanochannels of DBC-2P (Fig. 12b). The amount of PEG incorporated into the DBC-2P was estimated by TGA (37–45 wt%) and the theoretical saturation capacity (49 wt%) was calculated from the pore volume. Furthermore, the mobility of ions in the nanochannels of COFs is an intriguing issue in nanoelectronics. Thanks to the good hygroscopicity and stability of PEG, the COF-PEG hybrids exhibited outstanding humidity sensitivity and could effectively facilitate proton conduction (Fig. 12c). The electrochemical impedance spectroscopy (EIS) exhibited that the proton conductivity of DBC-2P/PEG-28 wt% was 4.5 × 10-5 S cm−1 at 70 ℃ and 98% RH (Fig. 12d). After doping with LiBF4 salt (34 wt%), the proton conductivity of DBC-2P/PEG-LiBF4 reached 2.31 × 10-3 S cm−1 at the same condition (Fig. 12d). Notably, the DBC-2P/PEG-LiBF4 hybrids also exhibited high proton conductivity and maintained good crystallinity after three wetting-dewetting cycles. In other words, the stability and conductivity of DBC-2P/PEG-LiBF4 hybrids were comparable with the most reported hybrid materials based on the COFs. Many proteins in living organisms can act as transport/carrier channels, allowing ions to across the biological membranes to maintain life activities. Inspired by the model of bioprotein, Tang and co-workers prepared ionic liquids (ILs) impregnated COF/silk nanofibrils (SNFs) composite membrane by assembling IL-COF-SO3H and SNFs via the casting method (Fig. 12e) [117]. SNFs are a core fibrous protein from natural silkworm cocoon silks with high mechanical strength and abundant active groups (–NH2, –COOH, –OH) that can form strong hydrogen bonds with IL-COF-SO3H (Fig. 12f). The -SO3H groups in COF-SO3H are expected to confine the ILs ([Bmim][BF4]) into the pores. Therefore, the proton conductivity of IL-COF-SO3H@SNF-15 and IL-COF-SO3H@SNF-35 can reach 156 mS cm−1 and 224 mS cm−1 at 90 ℃ and 100% RH, respectively (Fig. 12g). This significantly enhanced proton conduction was attributed to the electrostatic interactions between the imidazole groups of ILs and -SO3H groups of COFs, which not only facilitated the deprotonation of the -SO3H group but also offered additional proton conduction pathways due to the construction of extensive hydrogen bonding in the IL-COF-SO3H and SNFs interface region. The long-term operational stability of IL-COF-SO3H@SNF-35 composite membrane was verified by immersing it in water at 90 ℃, which exhibited the retention of weight and conductivity for almost 70 h (Fig. 12g). Under 90 ℃ and 100% RH, the proton conductivity of the COF-SO3H@SNF-35 composite membrane was 139 mS cm−1, which was significantly lower than the IL-COF-SO3H@SNF-35 composite membrane (224 mS cm−1) but higher than the pristine SNF membrane (85.7 mS cm−1). This study also provided new insights into the preparation of high-performance conductive materials based on a combined strategy of COFs, 1D polymers and proton carriers. Similarly, SNFs could be further compounded with COF nanosheets (SCON) synthesized by interfacial polymerization to prepare the proton-conducting materials with controlled thickness, dense structure, good stability, and high mechanical integrity [118]. The proton conductivity of COFs has been studied through the pressed pellets of bulk powder for the sake of infusibility and insolubility, which may bring some sacrifices in FC performance due to the existence of boundaries and defects among the particles. Benefiting from the monolayer or multilayer structure formed by interfacial polymerization, the COF nanosheets possessed fully exposed functional sites and excellent dispersion in solvents. The flexible SNFs can not only physically entangle with the COF nanosheets but also form strong hydrogen bonding interactions, thus enhancing the linkage of COF nanosheets and building interfacial hydrogen bonding transfer pathways. Therefore, the proton conductivity of the SCON/SNF-4 composite membrane was 365 mS cm−1 at 80 ℃ and 100% RH. Compared with SCON/SNF-1 and SCON/SNF-2 composite membranes, the SCON/SNF-4 composite membrane possessed the lowest E a value of 0.09 eV (<0.4 eV), indicating that the proton was conducted at the SCON/SNF interface via the Grotthuss mechanism. Moreover, the SCON/SNF-4 composite membrane also achieved long-term conductivity stability and satisfactory fuel cell performance due to the high structural stability. Notably, the two aforementioned studies provide a promising strategy to design controlled and robust membranes that combine the advantages of 2D COFs and 1D polymers, and it is expected to further expand the application of COFs as novel materials for seawater desalination [119], molecular separation [120], and Li+/K+/Na+ conduction [121]. 5 Application of proton-conducting COFs in fuel cells Although a large variety of proton-conducting COFs have been developed and some also exhibit strikingly proton conduction properties (10-2 S cm−1 or higher), the performance of COFs as real solid-state electrolyte separators in PEMFCs has not been widely compared and demonstrated [122,123]. Such real potentiality and validation checks in real fuel cells are necessary for further industrial applications. Therefore, some examples of the electrochemical performance of such proton-conducting COFs assessed by membrane electrode assembly were summarized in this section (Table S6). As mentioned previously (Section 4.3), the H3PO4@NKCOF-1, 2, 3, and 4 exhibited superior proton conductivity of 1.13 × 10-1, 4.28 × 10-2, 1.12 × 10-2, and 7.71 × 10-2 S cm−1 at 80 ℃ and 98% RH, respectively. Their fuel cell performance was then analyzed via MEA fabrication under the H2/O2 operating conditions (Fig. 13 a-c). Notably, the power density of H3PO4@NKCOF-1 was 81 mW cm−2 and the maximum current density was 456 mA cm−2. Meanwhile, the recyclability test demonstrated the retention of OCVs and maximum power density can be cycled three times, which made H3PO4@NKCOF-1 promising in this direction. Moreover, as discussed in the previous section, the H3PO4@NKCOF-10 exhibited an OCV of 0.87 V with a maximum power density of 135 mW cm−2 and current density of 676 mA cm−2 at 60 ℃ and 100% RH, respectively. Similarly, the maximum current density and power density of IL-COF-SO3H@SNF-35 were 364 mA cm−2 and 104 mW cm−2, which also demonstrated the capability of IL-COF-SO3H@SNF-35 for practical applications in fuel cells. Along the same lines of research, PA was doped into the nanochannels of TpBpy-COF (TpBpy-solvothermally (TpBpy-ST) and TpBpy-mechanochemically (TpBpy-MC)) as a guest molecule to produce PA@TpBpy-COF. Thanks to the intramolecular hydrogen bond between the dihydrogen phosphate moieties and the protonated pyridine unit, the PA@TpBpy-COF exhibited superior proton conductivity. Subsequently, the TpBpy-COFs were used as solid-state electrolytes in PEMFCs under real H2/O2 fuel cell operating conditions. Considering the standard protocol for the preparation of PEMFCs, PA@TpBpy-COF power was pressed into a pellet to fabricate an MEA with 4 cm2 cross-sectional area, which was further sandwiched between the two Pt/C gas diffusion electrodes (Fig. 13d). The PA@TpBpy-ST exhibited OCV of 0.66 ± 0.02 V at 50 ℃. Similarly, the PA@TpBpy-MC exhibited OCV of 0.86 ± 0.02 V at 30 ℃ and reached the maximum of 0.9 V at 50 ℃. It is worth mentioning that the higher durability of PA@TpBpy-MC could be attributed to the compactness of the pelletized sample, while the lower durability of PA@TpBpy-ST may be an adverse effect of high porosity. The electromotive force (EMF) analysis was carried out using an in-situ impedance technique at 10 mV voltage amplitude and 1 MHz to 100 Hz frequency range to obtain the proton conductivity values of 1.4 × 10-2 S cm−1 at high-frequency resistance (Fig. 13e and f). Meanwhile, the maximum power density and current density were 7 mW cm−2 and 29 mA cm−2, respectively. Furthermore, the OCV of the fuel cell increased from 0.9 V to 0.92 V when increasing the flow rate of reactant gases. This is because the performance of the fuel cell is not only determined by the proton conduction capacity of the PEM but also influenced by its gas-separating capability. Moreover, employing the extrinsic guest loading approach and slow crystallization method, TpBD(Me)2, TpBpy, and TpAzo were synthesized using amino p-toluene sulfonic acid (PTSA). Interestingly, despite the impregnation of PTSA on these COFMs was relatively smaller (about 8–12 wt%), they still showed superior proton conductivity at 80 ℃ and 95% RH (5.3 × 10-2, 6.2 × 10-2, 7.8 × 10-2 S cm−1 for PTSA@TpBD(Me)2, PTSA@TpBpy, and PTSA@TpAzo, respectively). Additionally, an MEA was fabricated to verify the proton conduction capacity of PTSA@COFMs (Fig. 13g). The COFM-based MEA exhibited a maximum current density (90 mA cm−2) at 0.2 V and a maximum power output (24 mW cm−2) at 0.33 V (Fig. 13g). Overall, due to the application of proton-conducting COFs used in fuel cell research primarily, the research data obtained is very limited. However, the strong affinity with other polymers (such as Nafion, SPEEK, CNFs, SNFs) and the self-supporting membrane-forming properties of the COFs are conducive to the application research of these compounds in the field of fuel cells [120,124,125]. Meanwhile, the remarkable fuel cell performance exhibited by COF materials has also created a strong incentive for further research. 6 Theoretical simulation and structure characterization It is essential to further develop the proton-conducting COFs by interpreting the relationship between the structure and properties of COFs at the molecular level through the collaboration of experimental data and theoretical simulation for a better understanding of the proton conduction process [127]. To endow the COFs materials with high proton conduction properties, two factors require special attention: (i) increasing the number of transportable free proton carriers; (ii) constructing well-defined ion transport nanochannels to reduce the resistance of proton diffusion. As we mentioned above, employing the intrinsic/extrinsic approach to endow the proton conduction ability is very efficient and beneficial as they have low proton dissociation energy barriers. A deeper analysis of this process through the theoretical simulations can help to enhance our understanding of the proton conduction mechanism and pathway. In this regard, Ma and co-workers demonstrated the anhydrous proton conductivity of COFs can be triggered by tuning the proton dissociation energy of the proton species, which was further supported by molecular dynamics simulation studies. Four 2D COFs with neutral, polar, Lewis basic, and positively charged sites were developed to determine the formation of nanoscale ionic phases in COF’s channels (Fig. 14 a and b). As we mentioned previously in Section 4.2, 1,2,4-Triazole and PA molecules were doped into the pore channels of COFs to enable the proton conduction properties (Fig. 14a and b). To investigate whether 1,2,4-Triazole (tra) doped COFs and PA-doped COFs can form continuous hydrogen bonding networks, the proton dissociation energy of the composite system was calculated using molecular dynamics simulation studies. The DFT results showed that the proton dissociation energy of PA@PD-COF, PA@EB-COF, PA@DAAQ-COF, PA@TAP-COF, tra@PD-COF, tra@EB-COF, tra@DAAQ-COF, tra@TAP-COF were 3.17, 2.38, 2.89, 3.68, 3.66, 2.85, 3.93, 3.83 eV, respectively. Notably, these values were obviously lower than the energy required to release one proton from 1,2,4-Triazole (4.07 eV) and PA (3.86 eV) molecules. The reduced proton dissociation energy of the doped COF materials is due to the strong coulombic interaction between the anionic H2PO4 and cationic COFs, which can decrease the energy barrier and trigger the proton conduction efficiently. Meanwhile, the activation energy calculation indicated that all the PA@COFs and tra@COFs lie in the range of 0.1–0.4 eV, which further demonstrated that the proton conduction occurs via the Grotthuss mechanism (Fig. 14c). Therefore, based on the relationship between simulation calculations and experimental evidence, two directions require our particular attention: (i) COFs with a highly polar surface (such as a charged skeleton or Lewis basic sites) can form stronger and robust interactions with proton carriers and allow more protons to be readily released for free migration; (ii) COFs with large pore sizes could theoretically accommodate more guest molecules, but this may not be necessary to provide maximum proton conduction property, the hydrogen bonding network formed within the COFs pores are crucial to the generation of proton conductivity. Thus, appropriate adjustment of the pore size of the COFs to match the size of the proton carriers for proper interaction is necessary to achieve proton conduction properties under anhydrous conditions. Along the same line of research, Jiang and co-workers reported topology-guided COFs (TPB-DMeTP-COF) containing highly robust imine bonds (C = N) that exhibited ultrahigh proton conductivity upon the addition of H3PO4 guest molecules (Fig. 14d and e). Taking advantage of H3PO4 as a proton carrier, such as nonvolatility, nontoxicity, and superior tendency to form hydrogen-bonding network with COFs via P = O···H-O and P-O···H-O interactions, H3PO4 guest molecules were doped into the TPB-DMeTP-COF at various wt% (50, 70, and 266.6) and termed as H3PO4@TPB-DMeTP-COF. Interestingly, compared to other porous materials combined with H3PO4, the TPB-DMeTP-COF is distinct because the six Nin chains can reinforce and anchor the H3PO4 molecules in the nanochannels, which can ensure a strong overall Nin···H-O hydrogen bonding force between H3PO4 molecules and Nin chains (Fig. 14e). Meanwhile, the quantitative analysis indicated that the maximum H3PO4-loaded was 266.6 wt%, which was also consistent with the maximum loading calculated from the pore volume. Notably, the molecular dynamics simulation (MDS) indicated that the binding energy of Nin···H-O was 49.6 kJ mol−1, meaning that the 3D multichain/multisite interactions throughout the whole channel were strong enough to stabilize the H3PO4 network. Furthermore, the MDS also further revealed the proton diffusion rate of 266.6%H3PO4@TPB-DMeTP-COF (6.28 × 10-4 S cm−1) at 110 ℃ was significantly higher than the neat molten H3PO4 (4.0 × 10-6 S cm−1). Thus, the collaboration of MDS with experimental results allowed for a better insight into the designability of COFs structures and allowed us to understand the proton conduction pathways at the molecular level. As we know, the spatial confinement of water molecules in porous materials can produce a local environment rich in protons in which higher charge carrier concentrations and more rapid water-mediated proton conduction can be generated [128–130]. Therefore, to further analyze the microscopic situation of proton conduction in surface-confined water, Jiang and co-workers combined experimental and theoretical evidence to demonstrate the confinement of water molecules on each ligand of COFs and further revealed the transport mechanism for the rapid proton transfer across the crystal skeleton [94]. In the confined water around -SO3 - (COFs similar to TpPa-SO3H and TpBD-SO3H), the high concentration of hydrogen ions can induce the rearrangement of water molecules and form short hydrogen-bond networks in the water-hydronium domains (Fig. 14f). These -SO3H groups displayed an ordered distribution and could share the water-hydronium domains between each pair of neighboring domains by overlapping to form a fully interconnected H-bond network. In the cases of TpPa-SO3H and TpBD-SO3H, for example, TpPa-SO3H COFs with six -SO3H groups represented the larger group distance (∼2.0 nm) and TpBD-SO3H COFs with twelve -SO3H groups represented the shorter group distance (∼0.9 nm) (Fig. 14f). To further elucidated the microscopic situation of proton conduction in surface-confined water, this process was simulated using the ab initio molecular dynamics (AIMD) method. The simulation results revealed that the shuttle events dominated in the confined region due to the attraction of the negatively charged -SO3 - groups to protons (Fig. 14g). Importantly, the electrostatic interaction between the -SO3 - groups and the protons was the main factor in the spatial confinement of the hydronium ions due to the low kinetic barriers for Grotthuss-type proton conduction in the water-hydronium network (Fig. 14g). Furthermore, in contrast to the isolated water domains on TpPa-SO3H COFs, the confined regions on TpBD-SO3H COFs are interconnected. The construction of the interconnected water-hydronium networks allows for convenient Grotthuss-type proton conduction between the confined regions. Meanwhile, the protons were shuttled rapidly between the surface-confined water molecules rather than transported to the bulk water due to the electrostatic interactions, thus producing a high concentration of hydronium ions in the hydrogen bonding network. Exploring the ordered structure of such surface-bound water domains can provide a new design paradigm for further designing COFs with intrinsic proton conductivity and also resolve the mechanism of proton conduction in the water-hydronium network. 7 Critical discussion Inspired by the excellent guest compatibility and large cavity size, the construction of guest-bound COFs (achieved proton conduction through the extrinsic property) to achieve significantly enhanced proton conduction properties has received widespread attention. Despite the relatively well-designed extrinsic guest loading method used in the design of proton-conducting COFs, they are also subject to weaker host–guest interaction and suffer from the inevitable leaching of the proton carrier, which limits their further application potential [133,134]. Notably, another class of proton-conducting COFs (achieved proton conduction through the intrinsic property) has been developed by utilizing –OH and -SO3H proton-donating groups on organic precursors. In this regard, the -PO3H2, –COOH, and other proton-donating groups remained unexplored. Therefore, the design and development of ultrahigh proton-conducting COFs with novel proton-donating groups may be a promising direction. Moreover, employing post-synthetic modifications (PSMs) has the potential to develop desirable proton-conducting COFs, but the post-surface functionalization may be affected by the inhomogeneous distribution of doping proton carriers [135,136]. Briefly, although the development of proton-conducting COFs by doping external guests with proton carriers or by random integration of pendant groups onto the frameworks through PSMs is simple and effective, the great potential for nonuniform loading of dopant groups due to leaching concerns and a lack of consistency to obtain reliable results, which requires the design of proton carrier-linked COFs through in-situ synthesis methods. Furthermore, most proton-conducting COFs were synthesized based on the solvothermal method. Employing mechanochemical synthesis process to obtain the proton-conducting COFs (such as NUS-9(G), TpBpy-MC, and TpPa/BD-SO3H) may be a good choice. In this process, large-scale synthesis of G-scale COFs is necessary, but relatively low crystallinity may exist for COFs synthesized by the mechanochemical synthesis process. Notably, most of the developed proton-conducting COFs exhibited low activation energy through the proton hopping Grotthuss mechanism, which made these COFs feasible in terms of proton conduction for practical applications, but the main limitation is their durability. Although a large number of COFs showed superior proton conductivity, only a few have investigated the durability of this efficiency under real practical conditions. In other words, an appropriate trade-off between durability and proton conductivity is truly necessary in terms of the overall potential of COFs for successful deployment as PEMs in PEMFCs. Therefore, it is necessary to summarize and compare the reported proton conductivity and durability of the COFs to demonstrate the performance of the developed COFs in practical applications (Fig. 15 ). A detailed comparison was shown in Table S7. As we mentioned above, both the H3PO4@TPB-DMeTP-COF and IL-COF-SO3H showed high proton conductivity, but their durability was unsatisfactory. NUS-9(R) and NUS-10(R) showed good durability, but suffer from low proton conductivity. Borrowing from the criteria we mentioned earlier, neither of these two types of COFs can be successfully applied as our ultimate goal is to gain a good trade-off between proton conductivity and durability. Notably, the SPEEK/HPW@COF composite membrane developed by Jiang and co-workers offers a relatively good trade-off between proton conductivity and durability and holds the promise for successful industrial employment in PEMFCs. In other words, there is enormous scope and urgency for the future development of ultrahigh proton-conducting COFs materials with extended durability. 8 Summary, perspectives, and opportunities Over the past decade, considerable effort has been invested in the development of proton-conducting COFs. Unlike other porous materials (such as metal–organic frameworks, GO/MXene/WS2, mesoporous silicas, zeolites, amorphous porous organic polymers, and cage compounds), COFs are a unique class of scalable molecular frameworks. The unique feature is that their structures can be pre-engineered by the topological design of the building blocks (such as 2D or 3D conformations), and meanwhile, the skeleton of the extended structure is driven by irreversible or reversible chemical reactions to ensure structural integrity and crystallinity. Therefore, the chemistry involved in the design and application of COFs is essentially polymer chemistry and organic chemistry. Despite the limited number of proton-conducting COFs documented in the literature, extant research findings have demonstrated the material’s potential and exceptional utility in the field of proton conduction. In other words, the outstanding structural advantages (high porosity and crystallinity, excellent affinity, low density, and high water, thermal, and chemical stability) of COFs as well as good controllability and designability are enough to make such materials promising in the field of proton conductors and PEMFCs. In this regard, several pristine and post-modified COFs have demonstrated exceptional proton conductivity, which can be comparable to conventional Nafion materials. Despite the foregoing, with a view towards the future, we propose the following perspectives for the research of proton-conducting COFs materials: (i) The structural design and synthesis of proton-conducting COFs: From the perspective of structural stability, the COFs linked by imine groups and b-ketoenamine groups have remained the main object of proton conduction research for a considerably long time, and meanwhile, the COFs formed by C–C/C = C linkages also prove fascinating proton conductivity. Thus, selecting a wider variety of organic precursors, introducing more functional groups (proton carriers or acidic units) into the pores/frameworks of COFs, preparing more 3D structures and exploring milder preparation conditions (such as the solution/mechanical synthesis conditions at room/low temperature) are the directions of development that researchers must consider. (ii) The practical application of proton-conducting COFs: The majority of the research on proton-conducting COFs only focuses on their proton conductivity and has not applied them to fuel cells. As we mentioned above, getting a good balance between the proton conductivity and durability of the COFs is an issue that requires special attention. Moreover, the stability issues of COFs are also of particular importance. In detail, the stability can be strengthened by adopting the following strategies: (a) designing building units that can trigger inter and intralayer interactions; (b) considering the intrinsic approach and anchoring functional groups in the pore channels can extend stability; (c) constructing dense and aligned 1D nanochannels. Meanwhile, considering that the ultimate goal of theoretical research is practical application, we must strengthen the application of such conductive materials in our future exploration. Notably, in addition to the field of fuel cells, other fields (such as chemical sensors, biological, desalination, and molecular separation) also require our strong attention. (iii) The current scientific issues and directions for further improvement: Elucidating the mechanism of proton conduction in COFs at the molecular level is a problem that requires particular attention. Detailed studies combining theoretical study/simulation calculations with some in-situ experiments could provide better insights for an effective understanding of the proton conduction mechanism. In this regard, the experiments such as solid-state NMR and quasi-elastic neutron scattering (QENS) could be used to visualize the proton transport process at the molecular level. Notably, the QENS measurements are suitable for detecting the dynamics of individual protons under different operating conditions, and NMR can be used to study the proton conductivity under various chemical environments. Therefore, the optimization of crystal growth and the improvement of experimental technology would be beneficial to further grasp the mechanism of proton conductivity and lay a more solid theoretical foundation for the preparation of more COFs. Overall, the design, preparation, and performance exploration of proton-conducting COFs combined energy chemistry, material chemistry, structural chemistry, organic chemistry, and crystal engineering, which had great vitality and promising prospects at present and especially in the future. We believe that this timely review will promote further understanding of proton-conducting COFs and the exploration of novel stable and efficient COF-conducting materials. Declaration of competing interest The authors declare that they have no known competing financial interests or personal relationships that could have appeared to influence the work reported in this paper. Acknowledgments We gratefully acknowledge financial support from the National Natural Science Foundation of China (21978024), the Beijing Natural Science Foundation (2202034). Appendix A Supplementary material Supplementary data to this article can be found online at https://doi.org/10.1016/j.jechem.2023.04.002. Appendix A Supplementary material The following are the Supplementary data to this article: Supplementary data 1 References [1] Q. Zhang S. Dong P. Shao Y. Zhu Z. Mu D. Sheng T. Zhang X. Jiang R. Shao Z. Ren J. Xie X. Feng B. Wang Science 378 2022 181 186 Q. Zhang, S. Dong, P. Shao, Y. Zhu, Z. Mu, D. Sheng, T. Zhang, X. Jiang, R. Shao, Z. Ren, J. Xie, X. Feng, B. Wang, Science 378 (2022) 181-186. [2] K. Jiao J. Xuan Q. Du Z.M. Bao B.A. Xie B.W. Wang Y. Zhao L.H. Fan H.Z. Wang Z.J. Hou S. Huo N.P. Brandon Y. Yin M.D. Guiver Nature 595 2021 361 369 K. Jiao, J. Xuan, Q. Du, Z.M. Bao, B.A. Xie, B.W. Wang, Y. Zhao, L.H. Fan, H.Z. Wang, Z.J. Hou, S. Huo, N.P. Brandon, Y. Yin, M.D. Guiver, Nature 595 (2021) 361-369. [3] S. Moghaddam E. Pengwang Y.B. Jiang A.R. Garcia D.J. Burnett C.J. Brinker R.I. Masel M.A. Shannon Nat. Nanotechnol. 5 2010 230 236 S. Moghaddam, E. Pengwang, Y.B. Jiang, A.R. Garcia, D.J. Burnett, C.J. Brinker, R.I. Masel, M.A. Shannon, Nat. Nanotechnol. 5 (2010) 230-236. [4] E.B. Trigg T.W. Gaines M. Marechal D.E. Moed P. Rannou K.B. Wagener M.J. Stevens K.I. Winey Nat. Mater. 17 2018 725 731 E.B. Trigg, T.W. Gaines, M. Marechal, D.E. Moed, P. Rannou, K.B. Wagener, M.J. Stevens, K.I. Winey, Nat. Mater. 17 (2018) 725-731. [5] H.W. Zhang P.K. Shen Chem. Soc. Rev. 41 2012 2382 2394 H.W. Zhang, P.K. Shen, Chem. Soc. Rev. 41 (2012) 2382-2394. [6] R. Devanathan Energy Environ. Sci. 1 2008 101 119 R. Devanathan, Energy Environ. Sci. 1 (2008) 101-119. [7] H. Ren X.C. Meng Y.L. Lin Z.G. Shao J. Energy Chem. 73 2022 588 598 H. Ren, X.C. Meng, Y.L. Lin, Z.G. Shao, J. Energy Chem. 73 (2022) 588-598. [8] M.A. Hickner H. Ghassemi Y.S. Kim B.R. Einsla J.E. Mcgrath Chem. Rev. 104 2004 4587 4611 M.A. Hickner, H. Ghassemi, Y.S. Kim, B.R. Einsla, J.E. Mcgrath, Chem. Rev. 104 (2004) 4587-4611. [9] E.D. Wachsman K.T. Lee Science 334 2011 935 939 E.D. Wachsman, K.T. Lee, Science 334 (2011) 935-939. [10] H.W. Zhang P.K. Shen Chem. Rev. 112 2012 2780 2832 H.W. Zhang, P.K. Shen, Chem. Rev. 112 (2012) 2780-2832. [11] M.a.U. Din, M. Idrees, S. Jamil, S. Irfan, G. Nazir, M.A. Mudassir, M.S. Saleem, S. Batool, N.P. Cheng, R. Saidur, J. Energy Chem. 77 (2023) 499-513 [12] J.F. Cao C. Su Y.X. Ji G.M. Yang Z.P. Shao J. Energy Chem. 57 2021 406 427 J.F. Cao, C. Su, Y.X. Ji, G.M. Yang, Z.P. Shao, J. Energy Chem. 57 (2021) 406-427. [13] Y. Wang D.F.R. Diaz K.S. Chen Z. Wang X.C. Adroher Mater. Today 32 2020 178 203 Y. Wang, D.F.R. Diaz, K.S. Chen, Z. Wang, X.C. Adroher, Mater. Today 32 (2020) 178-203. [14] Y.Y. Shao J.P. Dodelet G. Wu P. Zelenay Adv. Mater. 31 2019 1807615 Y.Y. Shao, J.P. Dodelet, G. Wu, P. Zelenay, Adv. Mater. 31 (2019) 1807615. [15] J.N. Chen Z.M. Guo M. Perez-Page Y.F. Jia Z.Y. Zhao S.M. Holmes J. Energy Chem. 76 2023 448 458 J.N. Chen, Z.M. Guo, M. Perez-Page, Y.F. Jia, Z.Y. Zhao, S.M. Holmes, J. Energy Chem. 76 (2023) 448-458. [16] Z.M. Guo M. Perez-Page J. Chen Z.Q. Ji S.M. Holmes J. Energy Chem. 63 2021 393 429 Z.M. Guo, M. Perez-Page, J. Chen, Z.Q. Ji, S.M. Holmes, J. Energy Chem. 63 (2021) 393-429. [17] J.M. Thomas P.P. Edwards P.J. Dobson G.P. Owen J. Energy Chem. 51 2020 405 415 J.M. Thomas, P.P. Edwards, P.J. Dobson, G.P. Owen, J. Energy Chem. 51 (2020) 405-415. [18] R. Haider Y.C. Wen Z.F. Ma D.P. Wilkinson L. Zhang X.X. Yuan S.Q. Song J.J. Zhang Chem. Soc. Rev. 50 2021 1138 1187 R. Haider, Y.C. Wen, Z.F. Ma, D.P. Wilkinson, L. Zhang, X.X. Yuan, S.Q. Song, J.J. Zhang, Chem. Soc. Rev. 50 (2021) 1138-1187. [19] J.K. Hao X.J. Li S.C. Yu Y.Y. Jiang J.S. Luo Z.G. Shao B.L. Yi J. Energy Chem. 24 2015 199 206 J.K. Hao, X.J. Li, S.C. Yu, Y.Y. Jiang, J.S. Luo, Z.G. Shao, B.L. Yi, J. Energy Chem. 24 (2015) 199-206. [20] I. Vazquez-Fernandez M. Raghibi A. Bouzina L. Timperman J. Bigarre M. Anouti J. Energy Chem. 53 2021 197 207 I. Vazquez-Fernandez, M. Raghibi, A. Bouzina, L. Timperman, J. Bigarre, M. Anouti, J. Energy Chem. 53 (2021) 197-207. [21] X.Y. Wu J.J. Hong W. Shin L. Ma T.C. Liu X.X. Bi Y.F. Yuan Y.T. Qi T.W. Surta W.X. Huang J. Neuefeind T.P. Wu P.A. Greaney J. Lu X.L. Ji Nat. Energy 4 2019 123 130 X.Y. Wu, J.J. Hong, W. Shin, L. Ma, T.C. Liu, X.X. Bi, Y.F. Yuan, Y.T. Qi, T.W. Surta, W.X. Huang, J. Neuefeind, T.P. Wu, P.A. Greaney, J. Lu, X.L. Ji, Nat. Energy 4 (2019) 123-130. [22] B. Wang R.B. Lin Z.J. Zhang S.C. Xiang B.L. Chen J. Am. Chem. Soc. 142 2020 14399 14416 B. Wang, R.B. Lin, Z.J. Zhang, S.C. Xiang, B.L. Chen, J. Am. Chem. Soc. 142 (2020) 14399-14416. [23] K.A. Mauritz R.B. Moore Chem. Rev. 104 2004 4535 4585 K.A. Mauritz, R.B. Moore, Chem. Rev. 104 (2004) 4535-4585. [24] Y. Prykhodko K. Fatyeyeva L. Hespel S. Marais Chem. Eng. J. 409 2021 127329 Y. Prykhodko, K. Fatyeyeva, L. Hespel, S. Marais, Chem. Eng. J. 409 (2021) 127329. [25] S.Y. Kim S. Kim M.J. Park Nat. Commun. 1 2010 1 7 S.Y. Kim, S. Kim, M.J. Park, Nat. Commun. 1 (2010) 1-7. [26] T. Fabian, R. O'hayre, S. Litster, F.B. Prinz, J.G. Santiago, J. Power Sources 195 (2010) 3201-3206 [27] Y.Z. Ke W. Yuan F.K. Zhou W.W. Guo J.G. Li Z.Y. Zhuang X.Q. Su B.W. Lu Y.H. Zhao Y. Tang Y. Chen J.L. Song Renew. Sust. Energy Rev. 145 2021 110860 Y.Z. Ke, W. Yuan, F.K. Zhou, W.W. Guo, J.G. Li, Z.Y. Zhuang, X.Q. Su, B.W. Lu, Y.H. Zhao, Y. Tang, Y. Chen, J.L. Song, Renew. Sust. Energy Rev. 145 (2021) 110860. [28] B.L. Liu B. Hu J. Du D.M. Cheng H.Y. Zang X. Ge H.Q. Tan Y.H. Wang X.Z. Duan Z. Jin W. Zhang Y.G. Li Z.M. Su Angew. Chem. Int. Ed. 60 2021 6076 6085 B.L. Liu, B. Hu, J. Du, D.M. Cheng, H.Y. Zang, X. Ge, H.Q. Tan, Y.H. Wang, X.Z. Duan, Z. Jin, W. Zhang, Y.G. Li, Z.M. Su, Angew. Chem. Int. Ed. 60 (2021) 6076-6085. [29] P.C. Pei H.C. Chen Appl. Energy 125 2014 60 75 P.C. Pei, H.C. Chen, Appl. Energy 125 (2014) 60-75. [30] N. Yousfi-Steiner P. Mocoteguy D. Candusso D. Hissel A. Hernandez A. Aslanides J. Power Sources 183 2008 260 274 N. Yousfi-Steiner, P. Mocoteguy, D. Candusso, D. Hissel, A. Hernandez, A. Aslanides, J. Power Sources 183 (2008) 260-274. [31] G. Jewett Z. Guo A. Faghri J. Power Sources 168 2007 434 446 G. Jewett, Z. Guo, A. Faghri, J. Power Sources 168 (2007) 434-446. [32] C.H. Park S.Y. Lee D.S. Hwang D.W. Shin D.H. Cho K.H. Lee T.W. Kim T.W. Kim M. Lee D.S. Kim C.M. Doherty A.W. Thornton A.J. Hill M.D. Guiver Y.M. Lee Nature 532 2016 480 483 C.H. Park, S.Y. Lee, D.S. Hwang, D.W. Shin, D.H. Cho, K.H. Lee, T.W. Kim, T.W. Kim, M. Lee, D.S. Kim, C.M. Doherty, A.W. Thornton, A.J. Hill, M.D. Guiver, Y.M. Lee, Nature 532 (2016) 480-483. [33] K.J. Lyu Y.Q. Peng L. Xiao J.T. Lu L. Zhuang J. Energy Chem. 27 2018 1517 1520 K.J. Lyu, Y.Q. Peng, L. Xiao, J.T. Lu, L. Zhuang, J. Energy Chem. 27 (2018) 1517-1520. [34] J. Escorihuela R. Narducci V. Compan F. Costantino Adv. Mater. Interfaces 6 2019 180146 J. Escorihuela, R. Narducci, V. Compan, F. Costantino, Adv. Mater. Interfaces 6 (2019) 180146. [35] D.W. Lim H. Kitagawa Chem. Rev. 120 2020 8416 8467 D.W. Lim, H. Kitagawa, Chem. Rev. 120 (2020) 8416-8467. [36] Y.X. Ye L.S. Gong S.C. Xiang Z.J. Zhang B.L. Chen Adv. Mater. 32 2020 1907090 Y.X. Ye, L.S. Gong, S.C. Xiang, Z.J. Zhang, B.L. Chen, Adv. Mater. 32 (2020) 1907090. [37] A. Karmakar R. Illathvalappil B. Anothumakkool A. Sen P. Samanta A.V. Desai S. Kurungot S.K. Ghosh Angew. Chem. Int. Ed. 55 2016 10667 10671 A. Karmakar, R. Illathvalappil, B. Anothumakkool, A. Sen, P. Samanta, A.V. Desai, S. Kurungot, S.K. Ghosh, Angew. Chem. Int. Ed. 55 (2016) 10667-10671. [38] G.L. Xing T.T. Yan S. Das T. Ben S.L. Qiu Angew. Chem. Int. Ed. 57 2018 5345 5349 G.L. Xing, T.T. Yan, S. Das, T. Ben, S.L. Qiu, Angew. Chem. Int. Ed. 57 (2018) 5345-5349. [39] P. Ramaswamy N.E. Wong G.K.H. Shimizu Chem. Soc. Rev. 43 2014 5913 5932 P. Ramaswamy, N.E. Wong, G.K.H. Shimizu, Chem. Soc. Rev. 43 (2014) 5913-5932. [40] F. Yang G. Xu Y.B. Dou B. Wang H. Zhang H. Wu W. Zhou J.R. Li B.L. Chen Nat. Energy 2 2017 877 883 F. Yang, G. Xu, Y.B. Dou, B. Wang, H. Zhang, H. Wu, W. Zhou, J.R. Li, B.L. Chen, Nat. Energy 2 (2017) 877-883. [41] S.S. Nagarkar S.M. Unni A. Sharma S. Kurungot S.K. Ghosh Angew. Chem. Int. Ed. 53 2014 2638 2642 S.S. Nagarkar, S.M. Unni, A. Sharma, S. Kurungot, S.K. Ghosh, Angew. Chem. Int. Ed. 53 (2014) 2638-2642. [42] L.H. Dai K. Huang Y.S. Xia Z. Xu Green Energy Environ. 6 2021 193 211 L.H. Dai, K. Huang, Y.S. Xia, Z. Xu, Green Energy Environ. 6 (2021) 193-211. [43] X.X. Xie Y.C. Yang B.H. Dou Z.F. Li G. Li Coord. Chem. Rev. 403 2020 213100 X.X. Xie, Y.C. Yang, B.H. Dou, Z.F. Li, G. Li, Coord. Chem. Rev. 403 (2020) 213100. [44] H. Okawa M. Sadakiyo T. Yamada M. Maesato M. Ohba H. Kitagawa J. Am. Chem. Soc. 135 2013 2256 2262 H. Okawa, M. Sadakiyo, T. Yamada, M. Maesato, M. Ohba, H. Kitagawa, J. Am. Chem. Soc. 135 (2013) 2256-2262. [45] R. Sahoo S.C. Pal M.C. Das ACS Energy Lett. 7 2022 4490 4500 R. Sahoo, S.C. Pal, M.C. Das, ACS Energy Lett. 7 (2022) 4490-4500. [46] S.C. Pal M.C. Das Adv. Funct. Mater. 31 2021 2101584 S.C. Pal, M.C. Das, Adv. Funct. Mater. 31 (2021) 2101584. [47] M. Zhong M. Liu N. Li X.H. Bu J. Energy Chem. 63 2021 113 129 M. Zhong, M. Liu, N. Li, X.H. Bu, J. Energy Chem. 63 (2021) 113-129. [48] H.F. Li P. Wu Y.W. Xiao M. Shao Y. Shen Y. Fan H.H. Chen R.J. Xie W.L. Zhang S. Li J.S. Wu Y. Fu B. Zheng W.N. Zhang F.W. Huo Angew. Chem. Int. Ed. 59 2020 4763 4769 H.F. Li, P. Wu, Y.W. Xiao, M. Shao, Y. Shen, Y. Fan, H.H. Chen, R.J. Xie, W.L. Zhang, S. Li, J.S. Wu, Y. Fu, B. Zheng, W.N. Zhang, F.W. Huo, Angew. Chem. Int. Ed. 59 (2020) 4763-4769. [49] K. Tan N. Nijem P. Canepa Q. Gong J. Li T. Thonhauser Y.J. Chabal Chem. Mater. 24 2012 3153 3167 K. Tan, N. Nijem, P. Canepa, Q. Gong, J. Li, T. Thonhauser, Y.J. Chabal, Chem. Mater. 24 (2012) 3153-3167. [50] L. Feng K.Y. Wang G.S. Day M.R. Ryder H.C. Zhou Chem. Rev. 120 2020 13087 13133 L. Feng, K.Y. Wang, G.S. Day, M.R. Ryder, H.C. Zhou, Chem. Rev. 120 (2020) 13087-13133. [51] S.Y. Ding W. Wang Chem. Soc. Rev. 42 2013 548 568 S.Y. Ding, W. Wang, Chem. Soc. Rev. 42 (2013) 548-568. [52] R.Y. Liu K.T. Tan Y.F. Gong Y.Z. Chen Z.E. Li S.L. Xie T. He Z. Lu H. Yang D.L. Jiang Chem. Soc. Rev. 50 2021 120 242 R.Y. Liu, K.T. Tan, Y.F. Gong, Y.Z. Chen, Z.E. Li, S.L. Xie, T. He, Z. Lu, H. Yang, D.L. Jiang, Chem. Soc. Rev. 50 (2021) 120-242. [53] X.J. Zhao P. Pachfule A. Thomas Chem. Soc. Rev. 50 2021 6871 6913 X.J. Zhao, P. Pachfule, A. Thomas, Chem. Soc. Rev. 50 (2021) 6871-6913. [54] D.G. Wang T.J. Qiu W.H. Guo Z.B. Liang H. Tabassum D.G. Xia R.Q. Zou Energy Environ. Sci. 14 2021 688 728 D.G. Wang, T.J. Qiu, W.H. Guo, Z.B. Liang, H. Tabassum, D.G. Xia, R.Q. Zou, Energy Environ. Sci. 14 (2021) 688-728. [55] A.P. Cote, A.I. Benin, N.W. Ockwig, M. O'keeffe, A.J. Matzger, O.M. Yaghi, Science 310 (2005) 1166-1170 [56] H. Lyu C.S. Diercks C.H. Zhu O.M. Yaghi J. Am. Chem. Soc. 141 2019 6848 6852 H. Lyu, C.S. Diercks, C.H. Zhu, O.M. Yaghi, J. Am. Chem. Soc. 141 (2019) 6848-6852. [57] Z.M. Chen X.L. Li C.Q. Yang K.P. Cheng T.W. Tan Y.Q. Lv Y. Liu Adv. Sci. 8 2021 2101883 Z.M. Chen, X.L. Li, C.Q. Yang, K.P. Cheng, T.W. Tan, Y.Q. Lv, Y. Liu, Adv. Sci. 8 (2021) 2101883. [58] Z.Q. Tong H. Wang T.X. Kang Y. Wu Z.Q. Guan F. Zhang Y.B. Tang C.S. Lee J. Energy Chem. 75 2022 441 447 Z.Q. Tong, H. Wang, T.X. Kang, Y. Wu, Z.Q. Guan, F. Zhang, Y.B. Tang, C.S. Lee, J. Energy Chem. 75 (2022) 441-447. [59] J. Ning Y. Gao X.D. Cao H.T. Wei B. Wang L. Hao J. Energy Chem. 65 2022 490 496 J. Ning, Y. Gao, X.D. Cao, H.T. Wei, B. Wang, L. Hao, J. Energy Chem. 65 (2022) 490-496. [60] S. Lin C.S. Diercks Y.B. Zhang N. Kornienko E.M. Nichols Y.B. Zhao A.R. Paris D. Kim P. Yang O.M. Yaghi C.J. Chang Science 349 2015 1208 1213 S. Lin, C.S. Diercks, Y.B. Zhang, N. Kornienko, E.M. Nichols, Y.B. Zhao, A.R. Paris, D. Kim, P. Yang, O.M. Yaghi, C.J. Chang, Science 349 (2015) 1208-1213. [61] H.P. Ma B.L. Liu B. Li L.M. Zhang Y.G. Li H.Q. Tan H.Y. Zang G.S. Zhu J. Am. Chem. Soc. 138 2016 5897 5903 H.P. Ma, B.L. Liu, B. Li, L.M. Zhang, Y.G. Li, H.Q. Tan, H.Y. Zang, G.S. Zhu, J. Am. Chem. Soc. 138 (2016) 5897-5903. [62] A.M. Evans N.P. Bradshaw B. Litchfield M.J. Strauss B. Seckman M.R. Ryder I. Castano C. Gilmore N.C. Gianneschi C.R. Mulzer M.C. Hersam W.R. Dichtel Adv. Mater. 32 2020 2004205 A.M. Evans, N.P. Bradshaw, B. Litchfield, M.J. Strauss, B. Seckman, M.R. Ryder, I. Castano, C. Gilmore, N.C. Gianneschi, C.R. Mulzer, M.C. Hersam, W.R. Dichtel, Adv. Mater. 32 (2020) 2004205. [63] M.K. Cai Y.L. Li Q.L. Liu Z.A. Xue H.P. Wang Y.N. Fan K.L. Zhu Z.F. Ke C.Y. Su G.Q. Li Adv. Sci. 6 2019 1802365 M.K. Cai, Y.L. Li, Q.L. Liu, Z.A. Xue, H.P. Wang, Y.N. Fan, K.L. Zhu, Z.F. Ke, C.Y. Su, G.Q. Li, Adv. Sci. 6 (2019) 1802365. [64] S.S. Yuan X. Li J.Y. Zhu G. Zhang P. Van Puyvelde B. Van Der Bruggen Chem. Soc. Rev. 48 2019 2665 2681 S.S. Yuan, X. Li, J.Y. Zhu, G. Zhang, P. Van Puyvelde, B. Van Der Bruggen, Chem. Soc. Rev. 48 (2019) 2665-2681. [65] S. Chandra T. Kundu S. Kandambeth R. Babarao Y. Marathe S.M. Kunjir R. Banerjee J. Am. Chem. Soc. 136 2014 6570 6573 S. Chandra, T. Kundu, S. Kandambeth, R. Babarao, Y. Marathe, S.M. Kunjir, R. Banerjee, J. Am. Chem. Soc. 136 (2014) 6570-6573. [66] C. Yang L.X. Hou J.J. Zhao Z.K. Yao G. Li L. Zhang L. Hou Chem. Eng. J. 428 2022 131124 C. Yang, L.X. Hou, J.J. Zhao, Z.K. Yao, G. Li, L. Zhang, L. Hou, Chem. Eng. J. 428 (2022) 131124. [67] Y. Wang P.Y. Dong K. Zhu A.C.J. Zhang J.K. Pan Z.Z. Chen Z.Q. Li R.F. Guan X.G. Xi J.L. Zhang Chem. Eng. J. 446 2022 136883 Y. Wang, P.Y. Dong, K. Zhu, A.C.J. Zhang, J.K. Pan, Z.Z. Chen, Z.Q. Li, R.F. Guan, X.G. Xi, J.L. Zhang, Chem. Eng. J. 446 (2022) 136883. [68] L.J. Zhou J.Y. Zhu M.J. Lin J.Q. Xu Z.L. Xie D.Y. Chen J. Energy Chem. 40 2020 57 64 L.J. Zhou, J.Y. Zhu, M.J. Lin, J.Q. Xu, Z.L. Xie, D.Y. Chen, J. Energy Chem. 40 (2020) 57-64. [69] E.Q. Jin K.Y. Geng K.H. Lee W.M. Jiang J. Li Q.H. Jiang S. Irle D.L. Jiang Angew. Chem. Int. Ed. 59 2020 12162 12169 E.Q. Jin, K.Y. Geng, K.H. Lee, W.M. Jiang, J. Li, Q.H. Jiang, S. Irle, D.L. Jiang, Angew. Chem. Int. Ed. 59 (2020) 12162-12169. [70] N. Huang P. Wang D.L. Jiang Nat. Rev. Mater. 1 2016 1 19 N. Huang, P. Wang, D.L. Jiang, Nat. Rev. Mater. 1 (2016) 1-19. [71] B. Gui G.Q. Lin H.M. Ding C. Gao A. Mal C. Wang Acc. Chem. Res. 53 2020 2225 2234 B. Gui, G.Q. Lin, H.M. Ding, C. Gao, A. Mal, C. Wang, Acc. Chem. Res. 53 (2020) 2225-2234. [72] J.Y. Wang L.P. Si Q. Wei X.J. Hong L.G. Lin X. Li J.Y. Chen P.B. Wen Y.P. Cai J. Energy Chem. 28 2019 54 60 J.Y. Wang, L.P. Si, Q. Wei, X.J. Hong, L.G. Lin, X. Li, J.Y. Chen, P.B. Wen, Y.P. Cai, J. Energy Chem. 28 (2019) 54-60. [73] S. Gu X.X. Ma J.J. Chen R. Hao Z.Q. Wang N. Qin W. Zheng Q.M. Gan W. Luo M.Q. Li Z.Q. Li K.M. Liao H. Guo G.Y. Liu K.L. Zhang Z.G. Lu J. Energy Chem. 69 2022 428 433 S. Gu, X.X. Ma, J.J. Chen, R. Hao, Z.Q. Wang, N. Qin, W. Zheng, Q.M. Gan, W. Luo, M.Q. Li, Z.Q. Li, K.M. Liao, H. Guo, G.Y. Liu, K.L. Zhang, Z.G. Lu, J. Energy Chem. 69 (2022) 428-433. [74] S. Dalapati M. Addicoat S.B. Jin T. Sakurai J. Gao H. Xu S. Irle S. Seki D.L. Jiang Nat. Commun. 6 2015 1 8 S. Dalapati, M. Addicoat, S.B. Jin, T. Sakurai, J. Gao, H. Xu, S. Irle, S. Seki, D.L. Jiang, Nat. Commun. 6 (2015) 1-8. [75] Z.F. Pang T.Y. Zhou R.R. Liang Q.Y. Qi X. Zhao Chem. Sci. 8 2017 3866 3870 Z.F. Pang, T.Y. Zhou, R.R. Liang, Q.Y. Qi, X. Zhao, Chem. Sci. 8 (2017) 3866-3870. [76] X. Kang X. Han C. Yuan C. Cheng Y. Liu Y. Cui J. Am. Chem. Soc. 142 2020 16346 16356 X. Kang, X. Han, C. Yuan, C. Cheng, Y. Liu, Y. Cui, J. Am. Chem. Soc. 142 (2020) 16346-16356. [77] M.M. Wu Z. Shan J.J. Wang T.T. Liu G. Zhang Chem. Eng. J. 454 2023 140121 M.M. Wu, Z. Shan, J.J. Wang, T.T. Liu, G. Zhang, Chem. Eng. J. 454 (2023) 140121. [78] S.C. Yan X.Y. Guan H. Li D.H. Li M. Xue Y.S. Yan V. Valtchev S.L. Qiu Q.R. Fang J. Am. Chem. Soc. 141 2019 2920 2924 S.C. Yan, X.Y. Guan, H. Li, D.H. Li, M. Xue, Y.S. Yan, V. Valtchev, S.L. Qiu, Q.R. Fang, J. Am. Chem. Soc. 141 (2019) 2920-2924. [79] Y. Xie M. Liu H.L. Du B. Gui J.L. Sun C. Wang Sci. China Chem. 65 2022 2177 2181 Y. Xie, M. Liu, H.L. Du, B. Gui, J.L. Sun, C. Wang, Sci. China Chem. 65 (2022) 2177-2181. [80] L. Hao S. Jia X. Qiao E. Lin Y. Yang Y. Chen P. Cheng Z. Zhang Angew. Chem. Int. Ed. 62 2022 202217240 L. Hao, S. Jia, X. Qiao, E. Lin, Y. Yang, Y. Chen, P. Cheng, Z. Zhang, Angew. Chem. Int. Ed. 62 (2022) 202217240. [81] J.A. Hurd R. Vaidhyanathan V. Thangadurai C.I. Ratcliffe I.L. Moudrakovski G.K.H. Shimizu Nat. Chem. 1 2009 705 710 J.A. Hurd, R. Vaidhyanathan, V. Thangadurai, C.I. Ratcliffe, I.L. Moudrakovski, G.K.H. Shimizu, Nat. Chem. 1 (2009) 705-710. [82] L. Cao H. Wu Y. Cao C.Y. Fan R. Zhao X.Y. He P.F. Yang B.B. Shi X.D. You Z.Y. Jiang Adv. Mater. 32 2020 2005565 L. Cao, H. Wu, Y. Cao, C.Y. Fan, R. Zhao, X.Y. He, P.F. Yang, B.B. Shi, X.D. You, Z.Y. Jiang, Adv. Mater. 32 (2020) 2005565. [83] H. Xu S. Tao D. Jiang Nat. Mater. 15 2016 722 726 H. Xu, S. Tao, D. Jiang, Nat. Mater. 15 (2016) 722-726. [84] K. Dey M. Pal K.C. Rout H.S. Kunjattu A. Das R. Mukherjee U.K. Kharul R. Banerjee J. Am. Chem. Soc. 139 2017 13083 13091 K. Dey, M. Pal, K.C. Rout, H.S. Kunjattu, A. Das, R. Mukherjee, U.K. Kharul, R. Banerjee, J. Am. Chem. Soc. 139 (2017) 13083-13091. [85] Z.N. Wang W.Z. Zheng B.H. Li W.Z. Sun L. Zhao W.K. Yuan Chem. Eng. J. 433 2022 133749 Z.N. Wang, W.Z. Zheng, B.H. Li, W.Z. Sun, L. Zhao, W.K. Yuan, Chem. Eng. J. 433 (2022) 133749. [86] P.P. Shao J. Li F. Chen L. Ma Q.B. Li M.X. Zhang J.W. Zhou A.X. Yin X. Feng B. Wang Angew. Chem. Int. Ed. 57 2018 16501 16505 P.P. Shao, J. Li, F. Chen, L. Ma, Q.B. Li, M.X. Zhang, J.W. Zhou, A.X. Yin, X. Feng, B. Wang, Angew. Chem. Int. Ed. 57 (2018) 16501-16505. [87] J.W. Peng X.Z. Fu D. Liu J.L. Luo L. Wang X.J. Peng J. Membr. Sci. 655 2022 120603 J.W. Peng, X.Z. Fu, D. Liu, J.L. Luo, L. Wang, X.J. Peng, J. Membr. Sci. 655 (2022) 120603. [88] X.L. Li C.L. Zhang S.L. Cai X.H. Lei V. Altoe F. Hong J.J. Urban J. Ciston E.M. Chan Y. Liu Nat. Commun. 9 2018 1 8 X.L. Li, C.L. Zhang, S.L. Cai, X.H. Lei, V. Altoe, F. Hong, J.J. Urban, J. Ciston, E.M. Chan, Y. Liu, Nat. Commun. 9 (2018) 1-8. [89] Z.W. Lu C.Y. Yang L. He J. Hong C.H. Huang T. Wu X. Wang Z.F. Wu X.H. Liu Z.X. Miao B.R. Zeng Y.T. Xu C.H. Yuan L.Z. Dai J. Am. Chem. Soc. 144 2022 9624 9633 Z.W. Lu, C.Y. Yang, L. He, J. Hong, C.H. Huang, T. Wu, X. Wang, Z.F. Wu, X.H. Liu, Z.X. Miao, B.R. Zeng, Y.T. Xu, C.H. Yuan, L.Z. Dai, J. Am. Chem. Soc. 144 (2022) 9624-9633. [90] Y.W. Peng G.D. Xu Z.G. Hu Y.D. Cheng C.L. Chi D.Q. Yuan H.S. Cheng D. Zhao ACS Appl. Mater. Interfaces 8 2016 18505 18512 Y.W. Peng, G.D. Xu, Z.G. Hu, Y.D. Cheng, C.L. Chi, D.Q. Yuan, H.S. Cheng, D. Zhao, ACS Appl. Mater. Interfaces 8 (2016) 18505-18512. [91] J.M. Rotter R. Guntermann M. Auth A. Mahringer A. Sperlich V. Dyakonov D.D. Medina T. Bein Chem. Sci. 11 2020 12843 12853 J.M. Rotter, R. Guntermann, M. Auth, A. Mahringer, A. Sperlich, V. Dyakonov, D.D. Medina, T. Bein, Chem. Sci. 11 (2020) 12843-12853. [92] S.D. Wang X.H. Tang K.J. Yang B. Chen K. Zhang H. Xu W.T. Wang G. Zhang C. Gu Macromol. Rapid Commun. 5 2022 2200678 S.D. Wang, X.H. Tang, K.J. Yang, B. Chen, K. Zhang, H. Xu, W.T. Wang, G. Zhang, C. Gu, Macromol. Rapid Commun. 5 (2022) 2200678. [93] S.Y. Bian K. Zhang Y.X. Wang Z.Y. Liu G.X. Wang X.Z. Jiang Y.Y. Pan B.Q. Xu G.J. Huang G. Zhang ACS Appl. Energy Mater. 5 2022 1298 1304 S.Y. Bian, K. Zhang, Y.X. Wang, Z.Y. Liu, G.X. Wang, X.Z. Jiang, Y.Y. Pan, B.Q. Xu, G.J. Huang, G. Zhang, ACS Appl. Energy Mater. 5 (2022) 1298-1304. [94] B.B. Shi X. Pang S.N. Li H. Wu J.L. Shen X.Y. Wang C.Y. Fan L. Cao T.H. Zhu M. Qiu Z.Y. Yin Y. Kong Y.Q. Liu M.Z. Zhang Y.W. Liu F. Pan Z.Y. Jiang Nat. Commun. 13 2022 6666 B.B. Shi, X. Pang, S.N. Li, H. Wu, J.L. Shen, X.Y. Wang, C.Y. Fan, L. Cao, T.H. Zhu, M. Qiu, Z.Y. Yin, Y. Kong, Y.Q. Liu, M.Z. Zhang, Y.W. Liu, F. Pan, Z.Y. Jiang, Nat. Commun. 13 (2022) 6666. [95] M. Matsumoto L. Valentino G.M. Stiehl H.B. Balch A.R. Corcos F. Wang D.C. Ralph B.J. Marinas W.R. Dichtel Chem 4 2018 308 317 M. Matsumoto, L. Valentino, G.M. Stiehl, H.B. Balch, A.R. Corcos, F. Wang, D.C. Ralph, B.J. Marinas, W.R. Dichtel, Chem 4 (2018) 308-317. [96] S. Lim N. Akther V.H. Tran T.H. Bae S. Phuntsho A. Merenda L.F. Dumee H.K. Shon Desalination 485 2020 114461 S. Lim, N. Akther, V.H. Tran, T.H. Bae, S. Phuntsho, A. Merenda, L.F. Dumee, H.K. Shon, Desalination 485 (2020) 114461. [97] D.D. Medina J.M. Rotter Y.H. Hu M. Dogru V. Werner F. Auras J.T. Markiewicz P. Knochel T. Bein J. Am. Chem. Soc. 137 2015 1016 1019 D.D. Medina, J.M. Rotter, Y.H. Hu, M. Dogru, V. Werner, F. Auras, J.T. Markiewicz, P. Knochel, T. Bein, J. Am. Chem. Soc. 137 (2015) 1016-1019. [98] X.H. Han J.Q. Chu W.Z. Wang Q.Y. Qi X. Zhao Chin. Chem. Lett. 33 2022 2464 2468 X.H. Han, J.Q. Chu, W.Z. Wang, Q.Y. Qi, X. Zhao, Chin. Chem. Lett. 33 (2022) 2464-2468. [99] Y.S. Li W.B. Chen G.L. Xing D.L. Jiang L. Chen Chem. Soc. Rev. 49 2020 2852 2868 Y.S. Li, W.B. Chen, G.L. Xing, D.L. Jiang, L. Chen, Chem. Soc. Rev. 49 (2020) 2852-2868. [100] L. Liu L.Y. Yin D.M. Cheng S. Zhao H.Y. Zang N. Zhang G.S. Zhu Angew. Chem. Int. Ed. 60 2021 14875 14880 L. Liu, L.Y. Yin, D.M. Cheng, S. Zhao, H.Y. Zang, N. Zhang, G.S. Zhu, Angew. Chem. Int. Ed. 60 (2021) 14875-14880. [101] C.J. Kang Z. Zhang A. Usadi D. Calabro L. Baugh K. Chai Y. Wang D. Zhao J. Am. Chem. Soc. 144 2022 20363 20371 C.J. Kang, Z. Zhang, A. Usadi, D. Calabro, L. Baugh, K. Chai, Y. Wang, D. Zhao, J. Am. Chem. Soc. 144 (2022) 20363-20371. [102] B.B. Shi X. Pang B. Lyu H. Wu J.L. Shen J.Y. Guan X.Y. Wang C.Y. Fan L. Cao T.H. Zhu Y. Kong Y.W. Liu Z.Y. Jiang Adv. Mater. 2023 2211004 B.B. Shi, X. Pang, B. Lyu, H. Wu, J.L. Shen, J.Y. Guan, X.Y. Wang, C.Y. Fan, L. Cao, T.H. Zhu, Y. Kong, Y.W. Liu, Z.Y. Jiang, Adv. Mater. (2023) 2211004. [103] P.L. Wang S.Y. Ding Z.C. Zhang Z.P. Wang W. Wang J. Am. Chem. Soc. 141 2019 18004 18008 P.L. Wang, S.Y. Ding, Z.C. Zhang, Z.P. Wang, W. Wang, J. Am. Chem. Soc. 141 (2019) 18004-18008. [104] Y. Liang T. Xia Z.Z. Wu Y.J. Yang Y.P. Li Z.Y. Sui C.K. Li R.M. Fan X.L. Tian Q. Chen Mater. Today Chem. 24 2022 100777 Y. Liang, T. Xia, Z.Z. Wu, Y.J. Yang, Y.P. Li, Z.Y. Sui, C.K. Li, R.M. Fan, X.L. Tian, Q. Chen, Mater. Today Chem. 24 (2022) 100777. [105] Y. Fu Y. Wu S.H. Chen W.X. Zhang Y. Zhang T. Yan B.L. Yang H.P. Ma ACS Nano 15 2021 19743 19755 Y. Fu, Y. Wu, S.H. Chen, W.X. Zhang, Y. Zhang, T. Yan, B.L. Yang, H.P. Ma, ACS Nano 15 (2021) 19743-19755. [106] X. Wang X. Han C. Cheng X. Kang Y. Liu Y. Cui J. Am. Chem. Soc. 144 2022 7366 7373 X. Wang, X. Han, C. Cheng, X. Kang, Y. Liu, Y. Cui, J. Am. Chem. Soc. 144 (2022) 7366-7373. [107] Q. Xu Y.P. Tang X.B. Zhang Y. Oshima Q.H. Chen D.L. Jiang Adv. Mater. 30 2018 1706330 Q. Xu, Y.P. Tang, X.B. Zhang, Y. Oshima, Q.H. Chen, D.L. Jiang, Adv. Mater. 30 (2018) 1706330. [108] X.W. Wu Y.L. Hong B.Q. Xu Y. Nishiyama W. Jiang J.W. Zhu G. Zhang S. Kitagawa S. Horike J. Am. Chem. Soc. 142 2020 14357 14364 X.W. Wu, Y.L. Hong, B.Q. Xu, Y. Nishiyama, W. Jiang, J.W. Zhu, G. Zhang, S. Kitagawa, S. Horike, J. Am. Chem. Soc. 142 (2020) 14357-14364. [109] H. Li J.H. Chang S.S. Li X.Y. Guan D.H. Li C.Y. Li L.X. Tang M. Xue Y.S. Yan V. Valtchev S.L. Qiu Q.R. Fang J. Am. Chem. Soc. 141 2019 13324 13329 H. Li, J.H. Chang, S.S. Li, X.Y. Guan, D.H. Li, C.Y. Li, L.X. Tang, M. Xue, Y.S. Yan, V. Valtchev, S.L. Qiu, Q.R. Fang, J. Am. Chem. Soc. 141 (2019) 13324-13329. [110] B. Gui H.M. Ding Y.P. Cheng A. Mal C. Wang Trends in Chemistry 4 2022 437 450 B. Gui, H.M. Ding, Y.P. Cheng, A. Mal, C. Wang, Trends in Chemistry 4 (2022) 437-450. [111] C. Fan H. Geng H. Wu Q. Peng X. Wang B. Shi Y. Kong Z. Yin Y. Liu Z. Jiang J. Mater. Chem. A 9 2021 17720 17723 C. Fan, H. Geng, H. Wu, Q. Peng, X. Wang, B. Shi, Y. Kong, Z. Yin, Y. Liu, Z. Jiang, J. Mater. Chem. A 9 (2021) 17720-17723. [112] G. Jiang W. Zou Z. Ou L. Zhang W. Zhang X. Wang H. Song Z. Cui Z. Liang L. Du Angew. Chem. Int. Ed. 61 2022 e202208086 G. Jiang, W. Zou, Z. Ou, L. Zhang, W. Zhang, X. Wang, H. Song, Z. Cui, Z. Liang, L. Du, Angew. Chem. Int. Ed. 61 (2022) e202208086. [113] Y. Yang X.Y. He P.H. Zhang Y.H. Andaloussi H.L. Zhang Z.Y. Jiang Y. Chen S.Q. Ma P. Cheng Z.J. Zhang Angew. Chem. Int. Ed. 59 2020 3678 3684 Y. Yang, X.Y. He, P.H. Zhang, Y.H. Andaloussi, H.L. Zhang, Z.Y. Jiang, Y. Chen, S.Q. Ma, P. Cheng, Z.J. Zhang, Angew. Chem. Int. Ed. 59 (2020) 3678-3684. [114] Y. Guo X. Zou W. Li Y. Hu Z. Jin Z. Sun S. Gong S. Guo F. Yan J. Mater. Chem. A 10 2022 6499 6507 Y. Guo, X. Zou, W. Li, Y. Hu, Z. Jin, Z. Sun, S. Gong, S. Guo, F. Yan, J. Mater. Chem. A 10 (2022) 6499-6507. [115] S. Chandra T. Kundu K. Dey M. Addicoat T. Heine R. Banerjee Chem. Mater. 28 2016 1489 1494 S. Chandra, T. Kundu, K. Dey, M. Addicoat, T. Heine, R. Banerjee, Chem. Mater. 28 (2016) 1489-1494. [116] Z. Xie B. Wang Z. Yang X. Yang X. Yu G. Xing Y. Zhang L. Chen Angew. Chem. Int. Ed. 58 2019 15742 15746 Z. Xie, B. Wang, Z. Yang, X. Yang, X. Yu, G. Xing, Y. Zhang, L. Chen, Angew. Chem. Int. Ed. 58 (2019) 15742-15746. [117] P. Li J. Chen S. Tang Chem. Eng. J. 415 2021 129021 P. Li, J. Chen, S. Tang, Chem. Eng. J. 415 (2021) 129021. [118] P. Li N. Zhang X. Li S. Tang Green Energy Environ. 2022 10.1016/j.gee.2022.1005.1008 P. Li, N. Zhang, X. Li, S. Tang, Green Energy Environ. (2022) https://doi.org/10.1016/j.gee.2022.1005.1008. [119] M. Wang P. Zhang X. Liang J. Zhao Y. Liu Y. Cao H. Wang Y. Chen Z. Zhang F. Pan Z. Zhang Z. Jiang Nat. Sustain. 5 2022 518 526 M. Wang, P. Zhang, X. Liang, J. Zhao, Y. Liu, Y. Cao, H. Wang, Y. Chen, Z. Zhang, F. Pan, Z. Zhang, Z. Jiang, Nat. Sustain. 5 (2022) 518-526. [120] H. Yang L. Yang H. Wang Z. Xu Y. Zhao Y. Luo N. Nasir Y. Song H. Wu F. Pan Z. Jiang Nat. Commun. 10 2019 2101 H. Yang, L. Yang, H. Wang, Z. Xu, Y. Zhao, Y. Luo, N. Nasir, Y. Song, H. Wu, F. Pan, Z. Jiang, Nat. Commun. 10 (2019) 2101. [121] K. Jeong S. Park G.Y. Jung S.H. Kim Y.H. Lee S.K. Kwak S.Y. Lee J. Am. Chem. Soc. 141 2019 5880 5885 K. Jeong, S. Park, G.Y. Jung, S.H. Kim, Y.H. Lee, S.K. Kwak, S.Y. Lee, J. Am. Chem. Soc. 141 (2019) 5880-5885. [122] X. Li K.P. Loh ACS Mater. Lett. 1 2019 327 335 X. Li, K.P. Loh, ACS Mater. Lett. 1 (2019) 327-335. [123] H.S. Sasmal H.B. Aiyappa S.N. Bhange S. Karak A. Halder S. Kurungot R. Banerjee Angew. Chem. Int. Ed. 57 2018 10894 10898 H.S. Sasmal, H.B. Aiyappa, S.N. Bhange, S. Karak, A. Halder, S. Kurungot, R. Banerjee, Angew. Chem. Int. Ed. 57 (2018) 10894-10898. [124] W.F. Kong W. Jia R. Wang Y.F. Gong C.C. Wang P.Y. Wu J. Guo Chem. Commun. 55 2019 75 78 W.F. Kong, W. Jia, R. Wang, Y.F. Gong, C.C. Wang, P.Y. Wu, J. Guo, Chem. Commun. 55 (2019) 75-78. [125] C. Fan H. Wu Y. Li B. Shi X. He M. Qiu X. Mao Z. Jiang Solid State Ion. 349 2020 115316 C. Fan, H. Wu, Y. Li, B. Shi, X. He, M. Qiu, X. Mao, Z. Jiang, Solid State Ion. 349 (2020) 115316. [126] D.B. Shinde H.B. Aiyappa M. Bhadra B.P. Biswal P. Wadge S. Kandambeth B. Garai T. Kundu S. Kurungot R. Banerjee J. Mater. Chem. A 4 2016 2682 2690 D.B. Shinde, H.B. Aiyappa, M. Bhadra, B.P. Biswal, P. Wadge, S. Kandambeth, B. Garai, T. Kundu, S. Kurungot, R. Banerjee, J. Mater. Chem. A 4 (2016) 2682-2690. [127] S.C. Pal S. Chand A.G. Kumar P.G.M. Mileo I. Silverwood G. Maurin S. Banerjee S.M. Elahi M.C. Das J. Mater. Chem. A 8 2020 7847 7853 S.C. Pal, S. Chand, A.G. Kumar, P.G.M. Mileo, I. Silverwood, G. Maurin, S. Banerjee, S.M. Elahi, M.C. Das, J. Mater. Chem. A 8 (2020) 7847-7853. [128] K. Otake K. Otsubo T. Komatsu S. Dekura J.M. Taylor R. Ikeda K. Sugimoto A. Fujiwara C.P. Chou A.W. Sakti Y. Nishimura H. Nakai H. Kitagawa Nat. Commun. 11 2020 1 7 K. Otake, K. Otsubo, T. Komatsu, S. Dekura, J.M. Taylor, R. Ikeda, K. Sugimoto, A. Fujiwara, C.P. Chou, A.W. Sakti, Y. Nishimura, H. Nakai, H. Kitagawa, Nat. Commun. 11 (2020) 1-7. [129] J.Y. Xu H.Y. Jiang Y.T. Shen X.Z. Li E.G. Wang S. Meng Nat. Commun. 10 2019 1 8 J.Y. Xu, H.Y. Jiang, Y.T. Shen, X.Z. Li, E.G. Wang, S. Meng, Nat. Commun. 10 (2019) 1-8. [130] R.H. Tunuguntla F.I. Allen K. Kim A. Belliveau A. Noy Nat. Nanotechnol. 11 2016 639 644 R.H. Tunuguntla, F.I. Allen, K. Kim, A. Belliveau, A. Noy, Nat. Nanotechnol. 11 (2016) 639-644. [131] S.H. Chen Y. Wu Y. Zhang W.X. Zhang Y. Fu W.B. Huang Y. Tong H.P. Ma J. Mater. Chem. A 8 2020 13702 13709 S.H. Chen, Y. Wu, Y. Zhang, W.X. Zhang, Y. Fu, W.B. Huang, Y. Tong, H.P. Ma, J. Mater. Chem. A 8 (2020) 13702-13709. [132] S.S. Tao L.P. Zhai A.D.D. Wonanke M.A. Addicoat Q.H. Jiang D.L. Jiang Nat. Commun. 11 2020 1981 S.S. Tao, L.P. Zhai, A.D.D. Wonanke, M.A. Addicoat, Q.H. Jiang, D.L. Jiang, Nat. Commun. 11 (2020) 1981. [133] B. Zhou J.B. Le Z.Y. Cheng X. Zhao M. Shen M.L. Xie B.W. Hu X.D. Yang L.W. Chen H.W. Chen ACS Appl. Mater. Interfaces 12 2020 8198 8205 B. Zhou, J.B. Le, Z.Y. Cheng, X. Zhao, M. Shen, M.L. Xie, B.W. Hu, X.D. Yang, L.W. Chen, H.W. Chen, ACS Appl. Mater. Interfaces 12 (2020) 8198-8205. [134] X.W. Wu Z.Y. Liu H. Guo Y.L. Hong B.Q. Xu K. Zhang Y. Nishiyama W. Jiang S. Horike S. Kitagawa G. Zhang ACS Appl. Mater. Interfaces 13 2021 37172 37178 X.W. Wu, Z.Y. Liu, H. Guo, Y.L. Hong, B.Q. Xu, K. Zhang, Y. Nishiyama, W. Jiang, S. Horike, S. Kitagawa, G. Zhang, ACS Appl. Mater. Interfaces 13 (2021) 37172-37178. [135] D.W. Kang M. Kang C.S. Hong J. Mater. Chem. A 8 2020 7474 7494 D.W. Kang, M. Kang, C.S. Hong, J. Mater. Chem. A 8 (2020) 7474-7494. [136] Y.W. Zhang C.Z. Li Z.H. Liu Y.Z. Yao M.M. Hasan Q.Y. Liu J.Q. Wan Z.P. Li H. Li Y. Nagao CrystEngComm 23 2021 6234 6238 Y.W. Zhang, C.Z. Li, Z.H. Liu, Y.Z. Yao, M.M. Hasan, Q.Y. Liu, J.Q. Wan, Z.P. Li, H. Li, Y. Nagao, CrystEngComm 23 (2021) 6234-6238. Liyu Zhu is currently a Ph.D. in the MOE Engineering Research Center of Forestry Biomass Materials and Bioenergy at Beijing Forestry University (BJFU). He received her Bachelor’s degree (2019) from Qilu University of Technology in China. His research interests are related to synthesis and characterization of metal-organic frameworks, covalent-organic frameworks, for suitable application in proton conduction. Jiandu Lei is a distinguished professor of MOE Engineering Research Center of Forestry Biomass Materials and Bioenergy at Beijing Forestry University (BJFU), China. He received his Ph.D. in 2002 at Beijing University of Chemical Technology, and completed postdoctoral work at Tsinghua University in 2004. He is an expert in materials chemistry, electrochemistry, and biological medicine. His research interests include sodium-ion batteries, dye-sensitized solar cells, proton exchange membrane fuel cells (PEMFCs), adsorptive separation materials, and functional nanomaterials. Jing Liu is an associate professor of MOE Engineering Research Center of Forestry Biomass Materials and Bioenergy at Beijing Forestry University (BJFU), China. She received his Ph.D. in 2013 at Beihang University. Her research interests include biomass-based functional materials, nanocatalysts, and natural product etc.",
+      "scopus-id": "85153246960",
+      "coredata": {
+        "eid": "1-s2.0-S2095495623002115",
+        "dc:description": "To attain the objectives of carbon peaking and carbon neutrality, the development of stable and high-performance ion-conducting materials holds enormous relevance in various energy storage and conversion devices. Particularly, crystalline porous materials possessing built-in ordered nanochannels exhibit remarkable superiority in comprehending the ion transfer mechanisms with precision. In this regard, covalent organic frameworks (COFs) are highly regarded as a promising alternative due to their pre-eminent structural tunability, accessible well-defined pores, and excellent thermal/chemical stability under hydrous/anhydrous conditions. By the availability of organic units and the diversity of topologies and connections, advances in COFs have been increasing rapidly over the last decade and they have emerged as a new field of proton-conducting materials. Therefore, a comprehensive summary and discussion are urgently needed to provide an “at a glance” understanding of the prospects and challenges in the development of proton-conducting COFs. In this review, we target a comprehensive review of COFs in the field of proton conductivity from the aspects of design strategies, the proton conducting mechanism/features, the relationships of structure–function, and the application of research. The relevant content of theoretical simulation, advanced structural characterizations, prospects, and challenges are also presented elaborately and critically. More importantly, we sincerely hope that this progress report will form a consistent view of this field and provide inspiration for future research.",
+        "openArchiveArticle": "false",
+        "prism:coverDate": "2023-07-31",
+        "openaccessUserLicense": null,
+        "prism:aggregationType": "Journal",
+        "prism:url": "https://api.elsevier.com/content/article/pii/S2095495623002115",
+        "dc:creator": [
+          {
+            "@_fa": "true",
+            "$": "Zhu, Liyu"
+          },
+          {
+            "@_fa": "true",
+            "$": "Zhu, Huatai"
+          },
+          {
+            "@_fa": "true",
+            "$": "Wang, Luying"
+          },
+          {
+            "@_fa": "true",
+            "$": "Lei, Jiandu"
+          },
+          {
+            "@_fa": "true",
+            "$": "Liu, Jing"
+          }
+        ],
+        "link": [
+          {
+            "@_fa": "true",
+            "@rel": "self",
+            "@href": "https://api.elsevier.com/content/article/pii/S2095495623002115"
+          },
+          {
+            "@_fa": "true",
+            "@rel": "scidir",
+            "@href": "https://www.sciencedirect.com/science/article/pii/S2095495623002115"
+          }
+        ],
+        "dc:format": "application/json",
+        "openaccessType": null,
+        "pii": "S2095-4956(23)00211-5",
+        "prism:volume": "82",
+        "prism:publisher": "Science Press and Dalian Institute of Chemical Physics, Chinese Academy of Sciences. Published by ELSEVIER B.V. and Science Press.",
+        "dc:title": "Efficient proton conduction in porous and crystalline covalent-organic frameworks (COFs)",
+        "prism:copyright": "© 2023 Science Press and Dalian Institute of Chemical Physics, Chinese Academy of Sciences. Published by ELSEVIER B.V. and Science Press. All rights reserved.",
+        "openaccess": "0",
+        "prism:issn": "20954956",
+        "dcterms:subject": [
+          {
+            "@_fa": "true",
+            "$": "Covalent-organic frameworks"
+          },
+          {
+            "@_fa": "true",
+            "$": "Proton conduction mechanism"
+          },
+          {
+            "@_fa": "true",
+            "$": "Proton exchange membrane"
+          },
+          {
+            "@_fa": "true",
+            "$": "Fuel cells"
+          }
+        ],
+        "openaccessArticle": "false",
+        "prism:publicationName": "Journal of Energy Chemistry",
+        "openaccessSponsorType": null,
+        "prism:pageRange": "198-218",
+        "prism:endingPage": "218",
+        "pubType": "rev",
+        "prism:coverDisplayDate": "July 2023",
+        "prism:doi": "10.1016/j.jechem.2023.04.002",
+        "prism:startingPage": "198",
+        "dc:identifier": "doi:10.1016/j.jechem.2023.04.002",
+        "openaccessSponsorName": null
+      },
+      "objects": {
+        "object": [
+          {
+            "@category": "standard",
+            "@height": "657",
+            "@width": "711",
+            "@_fa": "true",
+            "$": "https://api.elsevier.com/content/object/eid/1-s2.0-S2095495623002115-gr10.jpg?httpAccept=%2A%2F%2A",
+            "@multimediatype": "JPEG image file",
+            "@type": "IMAGE-DOWNSAMPLED",
+            "@size": "176755",
+            "@ref": "gr10",
+            "@mimetype": "image/jpeg"
+          },
+          {
+            "@category": "standard",
+            "@height": "447",
+            "@width": "711",
+            "@_fa": "true",
+            "$": "https://api.elsevier.com/content/object/eid/1-s2.0-S2095495623002115-gr11.jpg?httpAccept=%2A%2F%2A",
+            "@multimediatype": "JPEG image file",
+            "@type": "IMAGE-DOWNSAMPLED",
+            "@size": "124767",
+            "@ref": "gr11",
+            "@mimetype": "image/jpeg"
+          },
+          {
+            "@category": "standard",
+            "@height": "706",
+            "@width": "711",
+            "@_fa": "true",
+            "$": "https://api.elsevier.com/content/object/eid/1-s2.0-S2095495623002115-gr12.jpg?httpAccept=%2A%2F%2A",
+            "@multimediatype": "JPEG image file",
+            "@type": "IMAGE-DOWNSAMPLED",
+            "@size": "169873",
+            "@ref": "gr12",
+            "@mimetype": "image/jpeg"
+          },
+          {
+            "@category": "standard",
+            "@height": "666",
+            "@width": "791",
+            "@_fa": "true",
+            "$": "https://api.elsevier.com/content/object/eid/1-s2.0-S2095495623002115-gr13.jpg?httpAccept=%2A%2F%2A",
+            "@multimediatype": "JPEG image file",
+            "@type": "IMAGE-DOWNSAMPLED",
+            "@size": "160275",
+            "@ref": "gr13",
+            "@mimetype": "image/jpeg"
+          },
+          {
+            "@category": "standard",
+            "@height": "583",
+            "@width": "622",
+            "@_fa": "true",
+            "$": "https://api.elsevier.com/content/object/eid/1-s2.0-S2095495623002115-gr14.jpg?httpAccept=%2A%2F%2A",
+            "@multimediatype": "JPEG image file",
+            "@type": "IMAGE-DOWNSAMPLED",
+            "@size": "145332",
+            "@ref": "gr14",
+            "@mimetype": "image/jpeg"
+          },
+          {
+            "@category": "standard",
+            "@height": "216",
+            "@width": "333",
+            "@_fa": "true",
+            "$": "https://api.elsevier.com/content/object/eid/1-s2.0-S2095495623002115-gr15.jpg?httpAccept=%2A%2F%2A",
+            "@multimediatype": "JPEG image file",
+            "@type": "IMAGE-DOWNSAMPLED",
+            "@size": "23563",
+            "@ref": "gr15",
+            "@mimetype": "image/jpeg"
+          },
+          {
+            "@category": "standard",
+            "@height": "556",
+            "@width": "556",
+            "@_fa": "true",
+            "$": "https://api.elsevier.com/content/object/eid/1-s2.0-S2095495623002115-gr2.jpg?httpAccept=%2A%2F%2A",
+            "@multimediatype": "JPEG image file",
+            "@type": "IMAGE-DOWNSAMPLED",
+            "@size": "110297",
+            "@ref": "gr2",
+            "@mimetype": "image/jpeg"
+          },
+          {
+            "@category": "standard",
+            "@height": "758",
+            "@width": "622",
+            "@_fa": "true",
+            "$": "https://api.elsevier.com/content/object/eid/1-s2.0-S2095495623002115-gr3.jpg?httpAccept=%2A%2F%2A",
+            "@multimediatype": "JPEG image file",
+            "@type": "IMAGE-DOWNSAMPLED",
+            "@size": "132213",
+            "@ref": "gr3",
+            "@mimetype": "image/jpeg"
+          },
+          {
+            "@category": "standard",
+            "@height": "472",
+            "@width": "622",
+            "@_fa": "true",
+            "$": "https://api.elsevier.com/content/object/eid/1-s2.0-S2095495623002115-gr4.jpg?httpAccept=%2A%2F%2A",
+            "@multimediatype": "JPEG image file",
+            "@type": "IMAGE-DOWNSAMPLED",
+            "@size": "97694",
+            "@ref": "gr4",
+            "@mimetype": "image/jpeg"
+          },
+          {
+            "@category": "standard",
+            "@height": "542",
+            "@width": "667",
+            "@_fa": "true",
+            "$": "https://api.elsevier.com/content/object/eid/1-s2.0-S2095495623002115-gr5.jpg?httpAccept=%2A%2F%2A",
+            "@multimediatype": "JPEG image file",
+            "@type": "IMAGE-DOWNSAMPLED",
+            "@size": "131259",
+            "@ref": "gr5",
+            "@mimetype": "image/jpeg"
+          },
+          {
+            "@category": "standard",
+            "@height": "372",
+            "@width": "711",
+            "@_fa": "true",
+            "$": "https://api.elsevier.com/content/object/eid/1-s2.0-S2095495623002115-gr6.jpg?httpAccept=%2A%2F%2A",
+            "@multimediatype": "JPEG image file",
+            "@type": "IMAGE-DOWNSAMPLED",
+            "@size": "84736",
+            "@ref": "gr6",
+            "@mimetype": "image/jpeg"
+          },
+          {
+            "@category": "standard",
+            "@height": "615",
+            "@width": "667",
+            "@_fa": "true",
+            "$": "https://api.elsevier.com/content/object/eid/1-s2.0-S2095495623002115-gr7.jpg?httpAccept=%2A%2F%2A",
+            "@multimediatype": "JPEG image file",
+            "@type": "IMAGE-DOWNSAMPLED",
+            "@size": "138727",
+            "@ref": "gr7",
+            "@mimetype": "image/jpeg"
+          },
+          {
+            "@category": "standard",
+            "@height": "625",
+            "@width": "622",
+            "@_fa": "true",
+            "$": "https://api.elsevier.com/content/object/eid/1-s2.0-S2095495623002115-gr8.jpg?httpAccept=%2A%2F%2A",
+            "@multimediatype": "JPEG image file",
+            "@type": "IMAGE-DOWNSAMPLED",
+            "@size": "152538",
+            "@ref": "gr8",
+            "@mimetype": "image/jpeg"
+          },
+          {
+            "@category": "standard",
+            "@height": "666",
+            "@width": "711",
+            "@_fa": "true",
+            "$": "https://api.elsevier.com/content/object/eid/1-s2.0-S2095495623002115-gr9.jpg?httpAccept=%2A%2F%2A",
+            "@multimediatype": "JPEG image file",
+            "@type": "IMAGE-DOWNSAMPLED",
+            "@size": "174645",
+            "@ref": "gr9",
+            "@mimetype": "image/jpeg"
+          },
+          {
+            "@category": "standard",
+            "@height": "200",
+            "@width": "403",
+            "@_fa": "true",
+            "$": "https://api.elsevier.com/content/object/eid/1-s2.0-S2095495623002115-ga1.jpg?httpAccept=%2A%2F%2A",
+            "@multimediatype": "JPEG image file",
+            "@type": "IMAGE-DOWNSAMPLED",
+            "@size": "37326",
+            "@ref": "ga1",
+            "@mimetype": "image/jpeg"
+          },
+          {
+            "@category": "standard",
+            "@height": "155",
+            "@width": "111",
+            "@_fa": "true",
+            "$": "https://api.elsevier.com/content/object/eid/1-s2.0-S2095495623002115-fx1.jpg?httpAccept=%2A%2F%2A",
+            "@multimediatype": "JPEG image file",
+            "@type": "IMAGE-DOWNSAMPLED",
+            "@size": "5337",
+            "@ref": "fx1",
+            "@mimetype": "image/jpeg"
+          },
+          {
+            "@category": "standard",
+            "@height": "155",
+            "@width": "111",
+            "@_fa": "true",
+            "$": "https://api.elsevier.com/content/object/eid/1-s2.0-S2095495623002115-fx2.jpg?httpAccept=%2A%2F%2A",
+            "@multimediatype": "JPEG image file",
+            "@type": "IMAGE-DOWNSAMPLED",
+            "@size": "5865",
+            "@ref": "fx2",
+            "@mimetype": "image/jpeg"
+          },
+          {
+            "@category": "standard",
+            "@height": "155",
+            "@width": "111",
+            "@_fa": "true",
+            "$": "https://api.elsevier.com/content/object/eid/1-s2.0-S2095495623002115-fx3.jpg?httpAccept=%2A%2F%2A",
+            "@multimediatype": "JPEG image file",
+            "@type": "IMAGE-DOWNSAMPLED",
+            "@size": "10825",
+            "@ref": "fx3",
+            "@mimetype": "image/jpeg"
+          },
+          {
+            "@category": "standard",
+            "@height": "395",
+            "@width": "622",
+            "@_fa": "true",
+            "$": "https://api.elsevier.com/content/object/eid/1-s2.0-S2095495623002115-gr1.jpg?httpAccept=%2A%2F%2A",
+            "@multimediatype": "JPEG image file",
+            "@type": "IMAGE-DOWNSAMPLED",
+            "@size": "81973",
+            "@ref": "gr1",
+            "@mimetype": "image/jpeg"
+          },
+          {
+            "@category": "thumbnail",
+            "@height": "164",
+            "@width": "177",
+            "@_fa": "true",
+            "$": "https://api.elsevier.com/content/object/eid/1-s2.0-S2095495623002115-gr10.sml?httpAccept=%2A%2F%2A",
+            "@multimediatype": "GIF image file",
+            "@type": "IMAGE-THUMBNAIL",
+            "@size": "14980",
+            "@ref": "gr10",
+            "@mimetype": "image/gif"
+          },
+          {
+            "@category": "thumbnail",
+            "@height": "138",
+            "@width": "219",
+            "@_fa": "true",
+            "$": "https://api.elsevier.com/content/object/eid/1-s2.0-S2095495623002115-gr11.sml?httpAccept=%2A%2F%2A",
+            "@multimediatype": "GIF image file",
+            "@type": "IMAGE-THUMBNAIL",
+            "@size": "17643",
+            "@ref": "gr11",
+            "@mimetype": "image/gif"
+          },
+          {
+            "@category": "thumbnail",
+            "@height": "164",
+            "@width": "165",
+            "@_fa": "true",
+            "$": "https://api.elsevier.com/content/object/eid/1-s2.0-S2095495623002115-gr12.sml?httpAccept=%2A%2F%2A",
+            "@multimediatype": "GIF image file",
+            "@type": "IMAGE-THUMBNAIL",
+            "@size": "12924",
+            "@ref": "gr12",
+            "@mimetype": "image/gif"
+          },
+          {
+            "@category": "thumbnail",
+            "@height": "164",
+            "@width": "195",
+            "@_fa": "true",
+            "$": "https://api.elsevier.com/content/object/eid/1-s2.0-S2095495623002115-gr13.sml?httpAccept=%2A%2F%2A",
+            "@multimediatype": "GIF image file",
+            "@type": "IMAGE-THUMBNAIL",
+            "@size": "18832",
+            "@ref": "gr13",
+            "@mimetype": "image/gif"
+          },
+          {
+            "@category": "thumbnail",
+            "@height": "164",
+            "@width": "175",
+            "@_fa": "true",
+            "$": "https://api.elsevier.com/content/object/eid/1-s2.0-S2095495623002115-gr14.sml?httpAccept=%2A%2F%2A",
+            "@multimediatype": "GIF image file",
+            "@type": "IMAGE-THUMBNAIL",
+            "@size": "15047",
+            "@ref": "gr14",
+            "@mimetype": "image/gif"
+          },
+          {
+            "@category": "thumbnail",
+            "@height": "142",
+            "@width": "219",
+            "@_fa": "true",
+            "$": "https://api.elsevier.com/content/object/eid/1-s2.0-S2095495623002115-gr15.sml?httpAccept=%2A%2F%2A",
+            "@multimediatype": "GIF image file",
+            "@type": "IMAGE-THUMBNAIL",
+            "@size": "8712",
+            "@ref": "gr15",
+            "@mimetype": "image/gif"
+          },
+          {
+            "@category": "thumbnail",
+            "@height": "164",
+            "@width": "164",
+            "@_fa": "true",
+            "$": "https://api.elsevier.com/content/object/eid/1-s2.0-S2095495623002115-gr2.sml?httpAccept=%2A%2F%2A",
+            "@multimediatype": "GIF image file",
+            "@type": "IMAGE-THUMBNAIL",
+            "@size": "15695",
+            "@ref": "gr2",
+            "@mimetype": "image/gif"
+          },
+          {
+            "@category": "thumbnail",
+            "@height": "163",
+            "@width": "134",
+            "@_fa": "true",
+            "$": "https://api.elsevier.com/content/object/eid/1-s2.0-S2095495623002115-gr3.sml?httpAccept=%2A%2F%2A",
+            "@multimediatype": "GIF image file",
+            "@type": "IMAGE-THUMBNAIL",
+            "@size": "7668",
+            "@ref": "gr3",
+            "@mimetype": "image/gif"
+          },
+          {
+            "@category": "thumbnail",
+            "@height": "164",
+            "@width": "216",
+            "@_fa": "true",
+            "$": "https://api.elsevier.com/content/object/eid/1-s2.0-S2095495623002115-gr4.sml?httpAccept=%2A%2F%2A",
+            "@multimediatype": "GIF image file",
+            "@type": "IMAGE-THUMBNAIL",
+            "@size": "14664",
+            "@ref": "gr4",
+            "@mimetype": "image/gif"
+          },
+          {
+            "@category": "thumbnail",
+            "@height": "164",
+            "@width": "202",
+            "@_fa": "true",
+            "$": "https://api.elsevier.com/content/object/eid/1-s2.0-S2095495623002115-gr5.sml?httpAccept=%2A%2F%2A",
+            "@multimediatype": "GIF image file",
+            "@type": "IMAGE-THUMBNAIL",
+            "@size": "12550",
+            "@ref": "gr5",
+            "@mimetype": "image/gif"
+          },
+          {
+            "@category": "thumbnail",
+            "@height": "114",
+            "@width": "219",
+            "@_fa": "true",
+            "$": "https://api.elsevier.com/content/object/eid/1-s2.0-S2095495623002115-gr6.sml?httpAccept=%2A%2F%2A",
+            "@multimediatype": "GIF image file",
+            "@type": "IMAGE-THUMBNAIL",
+            "@size": "9332",
+            "@ref": "gr6",
+            "@mimetype": "image/gif"
+          },
+          {
+            "@category": "thumbnail",
+            "@height": "164",
+            "@width": "178",
+            "@_fa": "true",
+            "$": "https://api.elsevier.com/content/object/eid/1-s2.0-S2095495623002115-gr7.sml?httpAccept=%2A%2F%2A",
+            "@multimediatype": "GIF image file",
+            "@type": "IMAGE-THUMBNAIL",
+            "@size": "12375",
+            "@ref": "gr7",
+            "@mimetype": "image/gif"
+          },
+          {
+            "@category": "thumbnail",
+            "@height": "164",
+            "@width": "163",
+            "@_fa": "true",
+            "$": "https://api.elsevier.com/content/object/eid/1-s2.0-S2095495623002115-gr8.sml?httpAccept=%2A%2F%2A",
+            "@multimediatype": "GIF image file",
+            "@type": "IMAGE-THUMBNAIL",
+            "@size": "13755",
+            "@ref": "gr8",
+            "@mimetype": "image/gif"
+          },
+          {
+            "@category": "thumbnail",
+            "@height": "164",
+            "@width": "175",
+            "@_fa": "true",
+            "$": "https://api.elsevier.com/content/object/eid/1-s2.0-S2095495623002115-gr9.sml?httpAccept=%2A%2F%2A",
+            "@multimediatype": "GIF image file",
+            "@type": "IMAGE-THUMBNAIL",
+            "@size": "13143",
+            "@ref": "gr9",
+            "@mimetype": "image/gif"
+          },
+          {
+            "@category": "thumbnail",
+            "@height": "109",
+            "@width": "219",
+            "@_fa": "true",
+            "$": "https://api.elsevier.com/content/object/eid/1-s2.0-S2095495623002115-ga1.sml?httpAccept=%2A%2F%2A",
+            "@multimediatype": "GIF image file",
+            "@type": "IMAGE-THUMBNAIL",
+            "@size": "11300",
+            "@ref": "ga1",
+            "@mimetype": "image/gif"
+          },
+          {
+            "@category": "thumbnail",
+            "@height": "164",
+            "@width": "117",
+            "@_fa": "true",
+            "$": "https://api.elsevier.com/content/object/eid/1-s2.0-S2095495623002115-fx1.sml?httpAccept=%2A%2F%2A",
+            "@multimediatype": "GIF image file",
+            "@type": "IMAGE-THUMBNAIL",
+            "@size": "10396",
+            "@ref": "fx1",
+            "@mimetype": "image/gif"
+          },
+          {
+            "@category": "thumbnail",
+            "@height": "164",
+            "@width": "117",
+            "@_fa": "true",
+            "$": "https://api.elsevier.com/content/object/eid/1-s2.0-S2095495623002115-fx2.sml?httpAccept=%2A%2F%2A",
+            "@multimediatype": "GIF image file",
+            "@type": "IMAGE-THUMBNAIL",
+            "@size": "13272",
+            "@ref": "fx2",
+            "@mimetype": "image/gif"
+          },
+          {
+            "@category": "thumbnail",
+            "@height": "164",
+            "@width": "117",
+            "@_fa": "true",
+            "$": "https://api.elsevier.com/content/object/eid/1-s2.0-S2095495623002115-fx3.sml?httpAccept=%2A%2F%2A",
+            "@multimediatype": "GIF image file",
+            "@type": "IMAGE-THUMBNAIL",
+            "@size": "18644",
+            "@ref": "fx3",
+            "@mimetype": "image/gif"
+          },
+          {
+            "@category": "thumbnail",
+            "@height": "139",
+            "@width": "219",
+            "@_fa": "true",
+            "$": "https://api.elsevier.com/content/object/eid/1-s2.0-S2095495623002115-gr1.sml?httpAccept=%2A%2F%2A",
+            "@multimediatype": "GIF image file",
+            "@type": "IMAGE-THUMBNAIL",
+            "@size": "12566",
+            "@ref": "gr1",
+            "@mimetype": "image/gif"
+          },
+          {
+            "@category": "high",
+            "@height": "2912",
+            "@width": "3150",
+            "@_fa": "true",
+            "$": "https://api.elsevier.com/content/object/eid/1-s2.0-S2095495623002115-gr10_lrg.jpg?httpAccept=%2A%2F%2A",
+            "@multimediatype": "JPEG image file",
+            "@type": "IMAGE-HIGH-RES",
+            "@size": "1038182",
+            "@ref": "gr10",
+            "@mimetype": "image/jpeg"
+          },
+          {
+            "@category": "high",
+            "@height": "1982",
+            "@width": "3150",
+            "@_fa": "true",
+            "$": "https://api.elsevier.com/content/object/eid/1-s2.0-S2095495623002115-gr11_lrg.jpg?httpAccept=%2A%2F%2A",
+            "@multimediatype": "JPEG image file",
+            "@type": "IMAGE-HIGH-RES",
+            "@size": "691778",
+            "@ref": "gr11",
+            "@mimetype": "image/jpeg"
+          },
+          {
+            "@category": "high",
+            "@height": "3128",
+            "@width": "3150",
+            "@_fa": "true",
+            "$": "https://api.elsevier.com/content/object/eid/1-s2.0-S2095495623002115-gr12_lrg.jpg?httpAccept=%2A%2F%2A",
+            "@multimediatype": "JPEG image file",
+            "@type": "IMAGE-HIGH-RES",
+            "@size": "992038",
+            "@ref": "gr12",
+            "@mimetype": "image/jpeg"
+          },
+          {
+            "@category": "high",
+            "@height": "2951",
+            "@width": "3504",
+            "@_fa": "true",
+            "$": "https://api.elsevier.com/content/object/eid/1-s2.0-S2095495623002115-gr13_lrg.jpg?httpAccept=%2A%2F%2A",
+            "@multimediatype": "JPEG image file",
+            "@type": "IMAGE-HIGH-RES",
+            "@size": "828092",
+            "@ref": "gr13",
+            "@mimetype": "image/jpeg"
+          },
+          {
+            "@category": "high",
+            "@height": "2584",
+            "@width": "2756",
+            "@_fa": "true",
+            "$": "https://api.elsevier.com/content/object/eid/1-s2.0-S2095495623002115-gr14_lrg.jpg?httpAccept=%2A%2F%2A",
+            "@multimediatype": "JPEG image file",
+            "@type": "IMAGE-HIGH-RES",
+            "@size": "977134",
+            "@ref": "gr14",
+            "@mimetype": "image/jpeg"
+          },
+          {
+            "@category": "high",
+            "@height": "956",
+            "@width": "1476",
+            "@_fa": "true",
+            "$": "https://api.elsevier.com/content/object/eid/1-s2.0-S2095495623002115-gr15_lrg.jpg?httpAccept=%2A%2F%2A",
+            "@multimediatype": "JPEG image file",
+            "@type": "IMAGE-HIGH-RES",
+            "@size": "170137",
+            "@ref": "gr15",
+            "@mimetype": "image/jpeg"
+          },
+          {
+            "@category": "high",
+            "@height": "2461",
+            "@width": "2461",
+            "@_fa": "true",
+            "$": "https://api.elsevier.com/content/object/eid/1-s2.0-S2095495623002115-gr2_lrg.jpg?httpAccept=%2A%2F%2A",
+            "@multimediatype": "JPEG image file",
+            "@type": "IMAGE-HIGH-RES",
+            "@size": "607505",
+            "@ref": "gr2",
+            "@mimetype": "image/jpeg"
+          },
+          {
+            "@category": "high",
+            "@height": "3360",
+            "@width": "2756",
+            "@_fa": "true",
+            "$": "https://api.elsevier.com/content/object/eid/1-s2.0-S2095495623002115-gr3_lrg.jpg?httpAccept=%2A%2F%2A",
+            "@multimediatype": "JPEG image file",
+            "@type": "IMAGE-HIGH-RES",
+            "@size": "728213",
+            "@ref": "gr3",
+            "@mimetype": "image/jpeg"
+          },
+          {
+            "@category": "high",
+            "@height": "2090",
+            "@width": "2756",
+            "@_fa": "true",
+            "$": "https://api.elsevier.com/content/object/eid/1-s2.0-S2095495623002115-gr4_lrg.jpg?httpAccept=%2A%2F%2A",
+            "@multimediatype": "JPEG image file",
+            "@type": "IMAGE-HIGH-RES",
+            "@size": "599380",
+            "@ref": "gr4",
+            "@mimetype": "image/jpeg"
+          },
+          {
+            "@category": "high",
+            "@height": "2400",
+            "@width": "2953",
+            "@_fa": "true",
+            "$": "https://api.elsevier.com/content/object/eid/1-s2.0-S2095495623002115-gr5_lrg.jpg?httpAccept=%2A%2F%2A",
+            "@multimediatype": "JPEG image file",
+            "@type": "IMAGE-HIGH-RES",
+            "@size": "778809",
+            "@ref": "gr5",
+            "@mimetype": "image/jpeg"
+          },
+          {
+            "@category": "high",
+            "@height": "1646",
+            "@width": "3150",
+            "@_fa": "true",
+            "$": "https://api.elsevier.com/content/object/eid/1-s2.0-S2095495623002115-gr6_lrg.jpg?httpAccept=%2A%2F%2A",
+            "@multimediatype": "JPEG image file",
+            "@type": "IMAGE-HIGH-RES",
+            "@size": "428599",
+            "@ref": "gr6",
+            "@mimetype": "image/jpeg"
+          },
+          {
+            "@category": "high",
+            "@height": "2722",
+            "@width": "2953",
+            "@_fa": "true",
+            "$": "https://api.elsevier.com/content/object/eid/1-s2.0-S2095495623002115-gr7_lrg.jpg?httpAccept=%2A%2F%2A",
+            "@multimediatype": "JPEG image file",
+            "@type": "IMAGE-HIGH-RES",
+            "@size": "820735",
+            "@ref": "gr7",
+            "@mimetype": "image/jpeg"
+          },
+          {
+            "@category": "high",
+            "@height": "2768",
+            "@width": "2756",
+            "@_fa": "true",
+            "$": "https://api.elsevier.com/content/object/eid/1-s2.0-S2095495623002115-gr8_lrg.jpg?httpAccept=%2A%2F%2A",
+            "@multimediatype": "JPEG image file",
+            "@type": "IMAGE-HIGH-RES",
+            "@size": "906544",
+            "@ref": "gr8",
+            "@mimetype": "image/jpeg"
+          },
+          {
+            "@category": "high",
+            "@height": "2950",
+            "@width": "3150",
+            "@_fa": "true",
+            "$": "https://api.elsevier.com/content/object/eid/1-s2.0-S2095495623002115-gr9_lrg.jpg?httpAccept=%2A%2F%2A",
+            "@multimediatype": "JPEG image file",
+            "@type": "IMAGE-HIGH-RES",
+            "@size": "1014812",
+            "@ref": "gr9",
+            "@mimetype": "image/jpeg"
+          },
+          {
+            "@category": "high",
+            "@height": "886",
+            "@width": "1785",
+            "@_fa": "true",
+            "$": "https://api.elsevier.com/content/object/eid/1-s2.0-S2095495623002115-ga1_lrg.jpg?httpAccept=%2A%2F%2A",
+            "@multimediatype": "JPEG image file",
+            "@type": "IMAGE-HIGH-RES",
+            "@size": "243250",
+            "@ref": "ga1",
+            "@mimetype": "image/jpeg"
+          },
+          {
+            "@category": "high",
+            "@height": "689",
+            "@width": "492",
+            "@_fa": "true",
+            "$": "https://api.elsevier.com/content/object/eid/1-s2.0-S2095495623002115-fx1_lrg.jpg?httpAccept=%2A%2F%2A",
+            "@multimediatype": "JPEG image file",
+            "@type": "IMAGE-HIGH-RES",
+            "@size": "27405",
+            "@ref": "fx1",
+            "@mimetype": "image/jpeg"
+          },
+          {
+            "@category": "high",
+            "@height": "689",
+            "@width": "492",
+            "@_fa": "true",
+            "$": "https://api.elsevier.com/content/object/eid/1-s2.0-S2095495623002115-fx2_lrg.jpg?httpAccept=%2A%2F%2A",
+            "@multimediatype": "JPEG image file",
+            "@type": "IMAGE-HIGH-RES",
+            "@size": "44377",
+            "@ref": "fx2",
+            "@mimetype": "image/jpeg"
+          },
+          {
+            "@category": "high",
+            "@height": "689",
+            "@width": "492",
+            "@_fa": "true",
+            "$": "https://api.elsevier.com/content/object/eid/1-s2.0-S2095495623002115-fx3_lrg.jpg?httpAccept=%2A%2F%2A",
+            "@multimediatype": "JPEG image file",
+            "@type": "IMAGE-HIGH-RES",
+            "@size": "104204",
+            "@ref": "fx3",
+            "@mimetype": "image/jpeg"
+          },
+          {
+            "@category": "high",
+            "@height": "1752",
+            "@width": "2756",
+            "@_fa": "true",
+            "$": "https://api.elsevier.com/content/object/eid/1-s2.0-S2095495623002115-gr1_lrg.jpg?httpAccept=%2A%2F%2A",
+            "@multimediatype": "JPEG image file",
+            "@type": "IMAGE-HIGH-RES",
+            "@size": "518474",
+            "@ref": "gr1",
+            "@mimetype": "image/jpeg"
+          },
+          {
+            "@category": "standard",
+            "@_fa": "true",
+            "$": "https://api.elsevier.com/content/object/eid/1-s2.0-S2095495623002115-mmc1.docx?httpAccept=%2A%2F%2A",
+            "@multimediatype": "Microsoft Word file",
+            "@type": "APPLICATION",
+            "@size": "132827",
+            "@ref": "mmc1",
+            "@mimetype": "application/word"
+          },
+          {
+            "@category": "thumbnail",
+            "@_fa": "true",
+            "$": "https://api.elsevier.com/content/object/eid/1-s2.0-S2095495623002115-si1.svg?httpAccept=%2A%2F%2A",
+            "@multimediatype": "Scalable Vector Graphics file",
+            "@type": "ALTIMG",
+            "@size": "5993",
+            "@ref": "si1",
+            "@mimetype": "image/svg+xml"
+          },
+          {
+            "@category": "thumbnail",
+            "@_fa": "true",
+            "$": "https://api.elsevier.com/content/object/eid/1-s2.0-S2095495623002115-si2.svg?httpAccept=%2A%2F%2A",
+            "@multimediatype": "Scalable Vector Graphics file",
+            "@type": "ALTIMG",
+            "@size": "26888",
+            "@ref": "si2",
+            "@mimetype": "image/svg+xml"
+          },
+          {
+            "@category": "thumbnail",
+            "@_fa": "true",
+            "$": "https://api.elsevier.com/content/object/eid/1-s2.0-S2095495623002115-si3.svg?httpAccept=%2A%2F%2A",
+            "@multimediatype": "Scalable Vector Graphics file",
+            "@type": "ALTIMG",
+            "@size": "3922",
+            "@ref": "si3",
+            "@mimetype": "image/svg+xml"
+          },
+          {
+            "@category": "standard",
+            "@_fa": "true",
+            "$": "https://api.elsevier.com/content/object/eid/1-s2.0-S2095495623002115-am.pdf?httpAccept=%2A%2F%2A",
+            "@multimediatype": "Acrobat PDF file",
+            "@type": "AAM-PDF",
+            "@size": "3929260",
+            "@ref": "am",
+            "@mimetype": "application/pdf"
+          }
+        ]
+      },
+      "link": {
+        "@rel": "abstract",
+        "@href": "https://api.elsevier.com/content/abstract/scopus_id/85153246960"
+      }
+    }
+  }
+}

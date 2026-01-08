@@ -1,0 +1,838 @@
+{
+  "metadata": {
+    "title": "Molecular dynamics and Monte Carlo simulations of molecules through ZSM-5 nano-catalysts applied in SCR of NO<ce:inf loc=post>x</ce:inf> with ammonia: Effect of Cu heteroatom",
+    "authors": "; ; ",
+    "journal": "Molecular Catalysis",
+    "date": "2022-08-31",
+    "doi": "10.1016/j.mcat.2022.112421",
+    "abstract": "",
+    "uri": "https://api.elsevier.com/content/article/pii/S2468823122003078",
+    "pii": "S2468823122003078"
+  },
+  "fulltext": {
+    "full-text-retrieval-response": {
+      "scopus-eid": "2-s2.0-85132820406",
+      "originalText": "serial JL 315758 291210 291744 291790 291809 31 Molecular Catalysis MOLECULARCATALYSIS 2022-06-23 2022-06-23 2022-06-23 2022-06-23 2023-04-22T07:57:07 1-s2.0-S2468823122003078 S2468-8231(22)00307-8 S2468823122003078 10.1016/j.mcat.2022.112421 S300 S300.1 FULL-TEXT 1-s2.0-S2468823122X00114 2024-06-26T17:47:42.388403Z 0 0 20220801 20220831 2022 2022-06-24T00:40:40.912361Z absattachment articleinfo articlenumber articletitlenorm authfirstinitialnorm authfirstsurnamenorm cid cids contenttype copyright crossmark dateloaded dateloadedtxt datesearch datesort dateupdated dco docsubtype doctype doi eid ewtransactionid hubeid indexeddate issn issnnorm itemstage itemtransactionid itemweight openaccess openarchive pg pgfirst pii piinorm pubdateend pubdatestart pubdatetxt pubyr sectiontitle sortorder srctitle srctitlenorm srctype ssids alllist content subj subheadings suppl tomb volfirst volissue volumelist webpdf webpdfpagecount yearnav figure table body mmlmath acknowledge affil articletitle auth authfirstini authfull authkeywords authlast highlightsabst orcid primabst ref specialabst 2468-8231 24688231 true 528 528 C Volume 528 22 112421 112421 112421 202208 August 2022 2022-08-01 2022-08-31 2022 Regular Papers article fla © 2022 Elsevier B.V. All rights reserved. MOLECULARDYNAMICSMONTECARLOSIMULATIONSMOLECULESTHROUGHZSM5NANOCATALYSTSAPPLIEDINSCRNOXAMMONIAEFFECTCUHETEROATOM JAMALZADEH S 1 Introduction 2 Simulation details 3 Results and discussions 3.1 Morphological analysis 3.2 Molecular dynamics simulations 3.2.1 Diffusion study of molecules through the catalysts 3.2.2 Radial distribution function 3.2.3 Effect of loading 3.3 Monte Carlo simulation 3.3.1 Effect of temperature in pollutant abatement Sorption isotherms Sorption energies 3.3.2 Effect of catalyst support Sorption isotherms Sorption energies 3.3.3 Isosteric heat of adsorption 3.4 Selectivity 3.5 Evaluation 4 Conclusions CRediT authorship contribution statement Acknowledgments References WANG 2013 914 918 C LIU 2013 2741 2748 B BIN 2012 26262 26274 F HUIYONG 2009 396 402 C MOHAN 2020 123253 S JIANG 2020 124210 B NAKHOSTINPANAHI 2015 1647 1654 P PANAHI 2013 1793 1799 P DAI 2013 254 266 C WANG 2010 41 46 Y LI 2011 621 628 Y SUNG 2008 64 75 C SIERRAALTA 2002 107 114 A PILLAI 2010 5816 5825 R ARI 2009 8073 8079 M PLANT 2007 2836 2844 D FLEYS 2005 453 458 M HIMEI 1995 12461 12465 H ARI 2009 8073 8079 M FARBEROW 2014 3307 3319 C MORENOGONZALEZ 2019 2725 2738 M ZHANG 2014 167 176 H BRAUN 2019 E HASANZADEH 2021 102651 A MOHAMMADZADEH 2022 5593 5599 M CHOE 2000 419 424 J LEACH 1996 A MOLECULARMODELLINGPRINCIPLESAPPLICATIONS PEARSON 1995 93 98 R PEARSON 1968 581 R PARR 1983 7512 7516 R XIAO 2008 3858 3863 J JAMALZADEHX2022X112421 JAMALZADEHX2022X112421XS 2024-06-23T00:00:00.000Z 2024-06-23T00:00:00.000Z http://creativecommons.org/licenses/by-nc-nd/4.0/ © 2022 Elsevier B.V. All rights reserved. 2022-06-29T22:17:22.716Z http://vtw.elsevier.com/data/voc/AddOnTypes/50.7/aggregated-refined Iran Nanotechnology Initiative Council INIC Iran Nanotechnology Initiative Council http://data.elsevier.com/vocabulary/SciValFunders/501100004485 http://sws.geonames.org/130758/ University of Tabriz University of Tabriz http://data.elsevier.com/vocabulary/SciValFunders/501100007831 http://sws.geonames.org/130758/ The authors gratefully acknowledge University of Tabriz and Iran Nanotechnology Initiative Council for the complementary support of the project. We sincerely thank Dr. Morteza Azizi for their assistance and useful suggestions throughout the course of this work. Thanks to Siyamak Pakdel for insightful discussions. https://doi.org/10.15223/policy-017 https://doi.org/10.15223/policy-037 https://doi.org/10.15223/policy-012 https://doi.org/10.15223/policy-029 https://doi.org/10.15223/policy-004 item S2468-8231(22)00307-8 S2468823122003078 1-s2.0-S2468823122003078 10.1016/j.mcat.2022.112421 315758 2023-04-22T20:35:22.619314Z 2022-08-01 2022-08-31 1-s2.0-S2468823122003078-main.pdf https://s3-eu-west-1.amazonaws.com/prod-ucs-content-store-eu-west/content/pii:S2468823122003078/MAIN/application/pdf/161706fe35f5ba672301c919bb016dec/main.pdf main.pdf pdf true 18354241 MAIN 16 1-s2.0-S2468823122003078-main_1.png https://s3-eu-west-1.amazonaws.com/prod-ucs-content-store-eu-west/content/pii:S2468823122003078/PREVIEW/image/png/87d939967130f58f48c4762c7d93e77a/main_1.png main_1.png png 56622 849 656 IMAGE-WEB-PDF 1 1-s2.0-S2468823122003078-gr8.jpg https://s3-eu-west-1.amazonaws.com/prod-ucs-content-store-eu-west/content/pii:S2468823122003078/gr8/DOWNSAMPLED/image/jpeg/fd325624f36d9dbfd13e203624d5a39b/gr8.jpg gr8 gr8.jpg jpg 55223 323 678 IMAGE-DOWNSAMPLED 1-s2.0-S2468823122003078-gr9.jpg https://s3-eu-west-1.amazonaws.com/prod-ucs-content-store-eu-west/content/pii:S2468823122003078/gr9/DOWNSAMPLED/image/jpeg/e2b4419ba03b91668e9cb06976bf44d2/gr9.jpg gr9 gr9.jpg jpg 119765 591 715 IMAGE-DOWNSAMPLED 1-s2.0-S2468823122003078-ga1.jpg https://s3-eu-west-1.amazonaws.com/prod-ucs-content-store-eu-west/content/pii:S2468823122003078/ga1/DOWNSAMPLED/image/jpeg/e630bff56502ff02cd860d9cd320b13d/ga1.jpg ga1 true ga1.jpg jpg 28272 200 225 IMAGE-DOWNSAMPLED 1-s2.0-S2468823122003078-gr7a.jpg https://s3-eu-west-1.amazonaws.com/prod-ucs-content-store-eu-west/content/pii:S2468823122003078/gr7a/DOWNSAMPLED/image/jpeg/02f72860c42eda2a8ac65c7057e10c4a/gr7a.jpg gr7a gr7a.jpg jpg 163327 884 678 IMAGE-DOWNSAMPLED 1-s2.0-S2468823122003078-gr7b.jpg https://s3-eu-west-1.amazonaws.com/prod-ucs-content-store-eu-west/content/pii:S2468823122003078/gr7b/DOWNSAMPLED/image/jpeg/dac0a03069e0f8208b2e50d793d80ba6/gr7b.jpg gr7b gr7b.jpg jpg 116202 589 678 IMAGE-DOWNSAMPLED 1-s2.0-S2468823122003078-gr15.jpg https://s3-eu-west-1.amazonaws.com/prod-ucs-content-store-eu-west/content/pii:S2468823122003078/gr15/DOWNSAMPLED/image/jpeg/204755769993566e76ae9883d424a809/gr15.jpg gr15 gr15.jpg jpg 22768 330 368 IMAGE-DOWNSAMPLED 1-s2.0-S2468823122003078-gr13.jpg https://s3-eu-west-1.amazonaws.com/prod-ucs-content-store-eu-west/content/pii:S2468823122003078/gr13/DOWNSAMPLED/image/jpeg/ccc861ea014957928e8069e16c918e1c/gr13.jpg gr13 gr13.jpg jpg 92155 620 715 IMAGE-DOWNSAMPLED 1-s2.0-S2468823122003078-gr14.jpg https://s3-eu-west-1.amazonaws.com/prod-ucs-content-store-eu-west/content/pii:S2468823122003078/gr14/DOWNSAMPLED/image/jpeg/2782dccdcf69c91c8921414864262efc/gr14.jpg gr14 gr14.jpg jpg 158223 631 710 IMAGE-DOWNSAMPLED 1-s2.0-S2468823122003078-gr11.jpg https://s3-eu-west-1.amazonaws.com/prod-ucs-content-store-eu-west/content/pii:S2468823122003078/gr11/DOWNSAMPLED/image/jpeg/64cbca1306e1b53853c23071287160b6/gr11.jpg gr11 gr11.jpg jpg 157188 600 706 IMAGE-DOWNSAMPLED 1-s2.0-S2468823122003078-gr12.jpg https://s3-eu-west-1.amazonaws.com/prod-ucs-content-store-eu-west/content/pii:S2468823122003078/gr12/DOWNSAMPLED/image/jpeg/70f25cb0dd6ccd37519cd5b9f9a7d9ec/gr12.jpg gr12 gr12.jpg jpg 112009 614 715 IMAGE-DOWNSAMPLED 1-s2.0-S2468823122003078-gr2.jpg https://s3-eu-west-1.amazonaws.com/prod-ucs-content-store-eu-west/content/pii:S2468823122003078/gr2/DOWNSAMPLED/image/jpeg/0b28285fc7386a083c000ff766e0f591/gr2.jpg gr2 gr2.jpg jpg 140183 253 702 IMAGE-DOWNSAMPLED 1-s2.0-S2468823122003078-gr3.jpg https://s3-eu-west-1.amazonaws.com/prod-ucs-content-store-eu-west/content/pii:S2468823122003078/gr3/DOWNSAMPLED/image/jpeg/a834a347e6043426b9a2192519262a4b/gr3.jpg gr3 gr3.jpg jpg 23499 325 376 IMAGE-DOWNSAMPLED 1-s2.0-S2468823122003078-gr10.jpg https://s3-eu-west-1.amazonaws.com/prod-ucs-content-store-eu-west/content/pii:S2468823122003078/gr10/DOWNSAMPLED/image/jpeg/b764599bbfeac869e7e05ddb497543ff/gr10.jpg gr10 gr10.jpg jpg 114397 583 715 IMAGE-DOWNSAMPLED 1-s2.0-S2468823122003078-gr1.jpg https://s3-eu-west-1.amazonaws.com/prod-ucs-content-store-eu-west/content/pii:S2468823122003078/gr1/DOWNSAMPLED/image/jpeg/a8db686af2d5a663a97ea33ab81a2827/gr1.jpg gr1 gr1.jpg jpg 146882 454 565 IMAGE-DOWNSAMPLED 1-s2.0-S2468823122003078-gr6.jpg https://s3-eu-west-1.amazonaws.com/prod-ucs-content-store-eu-west/content/pii:S2468823122003078/gr6/DOWNSAMPLED/image/jpeg/ef02f86e7b499e1a399b1b0fdd44107b/gr6.jpg gr6 gr6.jpg jpg 40827 304 698 IMAGE-DOWNSAMPLED 1-s2.0-S2468823122003078-gr4.jpg https://s3-eu-west-1.amazonaws.com/prod-ucs-content-store-eu-west/content/pii:S2468823122003078/gr4/DOWNSAMPLED/image/jpeg/ef0a479e2c95553a192dae11b74a0b21/gr4.jpg gr4 gr4.jpg jpg 205426 431 715 IMAGE-DOWNSAMPLED 1-s2.0-S2468823122003078-gr5.jpg https://s3-eu-west-1.amazonaws.com/prod-ucs-content-store-eu-west/content/pii:S2468823122003078/gr5/DOWNSAMPLED/image/jpeg/66d5bbf8e3f61f18f490ab3a4ba45408/gr5.jpg gr5 gr5.jpg jpg 64604 606 666 IMAGE-DOWNSAMPLED 1-s2.0-S2468823122003078-gr8.sml https://s3-eu-west-1.amazonaws.com/prod-ucs-content-store-eu-west/content/pii:S2468823122003078/gr8/THUMBNAIL/image/gif/760d108b6d4b6f86271a3e6595c03c4b/gr8.sml gr8 gr8.sml sml 8395 104 219 IMAGE-THUMBNAIL 1-s2.0-S2468823122003078-gr9.sml https://s3-eu-west-1.amazonaws.com/prod-ucs-content-store-eu-west/content/pii:S2468823122003078/gr9/THUMBNAIL/image/gif/72b84df913d718091872853a144699c5/gr9.sml gr9 gr9.sml sml 13051 164 198 IMAGE-THUMBNAIL 1-s2.0-S2468823122003078-ga1.sml https://s3-eu-west-1.amazonaws.com/prod-ucs-content-store-eu-west/content/pii:S2468823122003078/ga1/THUMBNAIL/image/gif/f3f14ebf9889614930e31c54858af0ec/ga1.sml ga1 true ga1.sml sml 17396 164 185 IMAGE-THUMBNAIL 1-s2.0-S2468823122003078-gr7a.sml https://s3-eu-west-1.amazonaws.com/prod-ucs-content-store-eu-west/content/pii:S2468823122003078/gr7a/THUMBNAIL/image/gif/8b29798e994a274d84f0d6975be3fff2/gr7a.sml gr7a gr7a.sml sml 10030 163 125 IMAGE-THUMBNAIL 1-s2.0-S2468823122003078-gr7b.sml https://s3-eu-west-1.amazonaws.com/prod-ucs-content-store-eu-west/content/pii:S2468823122003078/gr7b/THUMBNAIL/image/gif/3578ae9072dc27676b6e0a6b20eef3bc/gr7b.sml gr7b gr7b.sml sml 11747 163 188 IMAGE-THUMBNAIL 1-s2.0-S2468823122003078-gr15.sml https://s3-eu-west-1.amazonaws.com/prod-ucs-content-store-eu-west/content/pii:S2468823122003078/gr15/THUMBNAIL/image/gif/1bf4746d2afd78f3abfff1acc72e0029/gr15.sml gr15 gr15.sml sml 6423 164 183 IMAGE-THUMBNAIL 1-s2.0-S2468823122003078-gr13.sml https://s3-eu-west-1.amazonaws.com/prod-ucs-content-store-eu-west/content/pii:S2468823122003078/gr13/THUMBNAIL/image/gif/e6733e1a25a19b558b5d1608cdd76488/gr13.sml gr13 gr13.sml sml 10548 164 189 IMAGE-THUMBNAIL 1-s2.0-S2468823122003078-gr14.sml https://s3-eu-west-1.amazonaws.com/prod-ucs-content-store-eu-west/content/pii:S2468823122003078/gr14/THUMBNAIL/image/gif/180146260f93d798c0bba91e0e435a68/gr14.sml gr14 gr14.sml sml 16709 163 184 IMAGE-THUMBNAIL 1-s2.0-S2468823122003078-gr11.sml https://s3-eu-west-1.amazonaws.com/prod-ucs-content-store-eu-west/content/pii:S2468823122003078/gr11/THUMBNAIL/image/gif/a2eb4b7424e33b803eb8540442d067b7/gr11.sml gr11 gr11.sml sml 15480 164 193 IMAGE-THUMBNAIL 1-s2.0-S2468823122003078-gr12.sml https://s3-eu-west-1.amazonaws.com/prod-ucs-content-store-eu-west/content/pii:S2468823122003078/gr12/THUMBNAIL/image/gif/2a0faff2fccf68e7a70d840d9adb9018/gr12.sml gr12 gr12.sml sml 12265 164 191 IMAGE-THUMBNAIL 1-s2.0-S2468823122003078-gr2.sml https://s3-eu-west-1.amazonaws.com/prod-ucs-content-store-eu-west/content/pii:S2468823122003078/gr2/THUMBNAIL/image/gif/00930e4376ea81c4cc25551c0951cef7/gr2.sml gr2 gr2.sml sml 16509 79 219 IMAGE-THUMBNAIL 1-s2.0-S2468823122003078-gr3.sml https://s3-eu-west-1.amazonaws.com/prod-ucs-content-store-eu-west/content/pii:S2468823122003078/gr3/THUMBNAIL/image/gif/1aff95e1b666013bb4e01f03f8aba812/gr3.sml gr3 gr3.sml sml 7784 163 189 IMAGE-THUMBNAIL 1-s2.0-S2468823122003078-gr10.sml https://s3-eu-west-1.amazonaws.com/prod-ucs-content-store-eu-west/content/pii:S2468823122003078/gr10/THUMBNAIL/image/gif/b3e286965c443eeb19ae7e95bfd7be08/gr10.sml gr10 gr10.sml sml 12881 164 201 IMAGE-THUMBNAIL 1-s2.0-S2468823122003078-gr1.sml https://s3-eu-west-1.amazonaws.com/prod-ucs-content-store-eu-west/content/pii:S2468823122003078/gr1/THUMBNAIL/image/gif/13635a5178eb948a4839de649e565d77/gr1.sml gr1 gr1.sml sml 26551 164 204 IMAGE-THUMBNAIL 1-s2.0-S2468823122003078-gr6.sml https://s3-eu-west-1.amazonaws.com/prod-ucs-content-store-eu-west/content/pii:S2468823122003078/gr6/THUMBNAIL/image/gif/5a2fdfca5bc424818966c573bf569fa3/gr6.sml gr6 gr6.sml sml 7551 95 219 IMAGE-THUMBNAIL 1-s2.0-S2468823122003078-gr4.sml https://s3-eu-west-1.amazonaws.com/prod-ucs-content-store-eu-west/content/pii:S2468823122003078/gr4/THUMBNAIL/image/gif/9f4eda54b04d3b4e3b3690d9bdc4543d/gr4.sml gr4 gr4.sml sml 25443 132 219 IMAGE-THUMBNAIL 1-s2.0-S2468823122003078-gr5.sml https://s3-eu-west-1.amazonaws.com/prod-ucs-content-store-eu-west/content/pii:S2468823122003078/gr5/THUMBNAIL/image/gif/f412af40364558c08ae4902e710137ec/gr5.sml gr5 gr5.sml sml 8524 164 180 IMAGE-THUMBNAIL 1-s2.0-S2468823122003078-gr8_lrg.jpg https://s3-eu-west-1.amazonaws.com/prod-ucs-content-store-eu-west/content/pii:S2468823122003078/gr8/HIGHRES/image/jpeg/ef192790742062e1c393b6e8fb83d5ea/gr8_lrg.jpg gr8 gr8_lrg.jpg jpg 307177 1431 3000 IMAGE-HIGH-RES 1-s2.0-S2468823122003078-gr9_lrg.jpg https://s3-eu-west-1.amazonaws.com/prod-ucs-content-store-eu-west/content/pii:S2468823122003078/gr9/HIGHRES/image/jpeg/3c590c5f09f68219ef05a6c86fd2a097/gr9_lrg.jpg gr9 gr9_lrg.jpg jpg 844208 2619 3167 IMAGE-HIGH-RES 1-s2.0-S2468823122003078-ga1_lrg.jpg https://s3-eu-west-1.amazonaws.com/prod-ucs-content-store-eu-west/content/pii:S2468823122003078/ga1/HIGHRES/image/jpeg/adbf4c70a7bf7ca2662fd6e0c61306b1/ga1_lrg.jpg ga1 true ga1_lrg.jpg jpg 219659 886 999 IMAGE-HIGH-RES 1-s2.0-S2468823122003078-gr7a_lrg.jpg https://s3-eu-west-1.amazonaws.com/prod-ucs-content-store-eu-west/content/pii:S2468823122003078/gr7a/HIGHRES/image/jpeg/fcac97a63b98ea8023649af18c1f3ffe/gr7a_lrg.jpg gr7a gr7a_lrg.jpg jpg 1149886 3911 3000 IMAGE-HIGH-RES 1-s2.0-S2468823122003078-gr7b_lrg.jpg https://s3-eu-west-1.amazonaws.com/prod-ucs-content-store-eu-west/content/pii:S2468823122003078/gr7b/HIGHRES/image/jpeg/a33fde110cdd46301537d0329a7bc110/gr7b_lrg.jpg gr7b gr7b_lrg.jpg jpg 745882 2608 3000 IMAGE-HIGH-RES 1-s2.0-S2468823122003078-gr15_lrg.jpg https://s3-eu-west-1.amazonaws.com/prod-ucs-content-store-eu-west/content/pii:S2468823122003078/gr15/HIGHRES/image/jpeg/f42a2fae4d0adad749a7f129c410d907/gr15_lrg.jpg gr15 gr15_lrg.jpg jpg 131545 1464 1632 IMAGE-HIGH-RES 1-s2.0-S2468823122003078-gr13_lrg.jpg https://s3-eu-west-1.amazonaws.com/prod-ucs-content-store-eu-west/content/pii:S2468823122003078/gr13/HIGHRES/image/jpeg/7b8fdfafe4b337c798e247c3415f5232/gr13_lrg.jpg gr13 gr13_lrg.jpg jpg 661895 2748 3167 IMAGE-HIGH-RES 1-s2.0-S2468823122003078-gr14_lrg.jpg https://s3-eu-west-1.amazonaws.com/prod-ucs-content-store-eu-west/content/pii:S2468823122003078/gr14/HIGHRES/image/jpeg/2f9d840449f7fc452795aaba90661906/gr14_lrg.jpg gr14 gr14_lrg.jpg jpg 1209075 2795 3146 IMAGE-HIGH-RES 1-s2.0-S2468823122003078-gr11_lrg.jpg https://s3-eu-west-1.amazonaws.com/prod-ucs-content-store-eu-west/content/pii:S2468823122003078/gr11/HIGHRES/image/jpeg/54a3c98667b69a08aef1584e0f78fc1a/gr11_lrg.jpg gr11 gr11_lrg.jpg jpg 1116865 2655 3126 IMAGE-HIGH-RES 1-s2.0-S2468823122003078-gr12_lrg.jpg https://s3-eu-west-1.amazonaws.com/prod-ucs-content-store-eu-west/content/pii:S2468823122003078/gr12/HIGHRES/image/jpeg/e0d619841807b110a4d61b60851ad74c/gr12_lrg.jpg gr12 gr12_lrg.jpg jpg 804731 2719 3167 IMAGE-HIGH-RES 1-s2.0-S2468823122003078-gr2_lrg.jpg https://s3-eu-west-1.amazonaws.com/prod-ucs-content-store-eu-west/content/pii:S2468823122003078/gr2/HIGHRES/image/jpeg/c45722da4072177cc59e07528875168a/gr2_lrg.jpg gr2 gr2_lrg.jpg jpg 1006214 1121 3110 IMAGE-HIGH-RES 1-s2.0-S2468823122003078-gr3_lrg.jpg https://s3-eu-west-1.amazonaws.com/prod-ucs-content-store-eu-west/content/pii:S2468823122003078/gr3/HIGHRES/image/jpeg/a5a09c292d49d14cfc91895317c57a2c/gr3_lrg.jpg gr3 gr3_lrg.jpg jpg 155942 1442 1667 IMAGE-HIGH-RES 1-s2.0-S2468823122003078-gr10_lrg.jpg https://s3-eu-west-1.amazonaws.com/prod-ucs-content-store-eu-west/content/pii:S2468823122003078/gr10/HIGHRES/image/jpeg/4d7e84cfba560acee87ad6ee512b86dd/gr10_lrg.jpg gr10 gr10_lrg.jpg jpg 838315 2582 3167 IMAGE-HIGH-RES 1-s2.0-S2468823122003078-gr1_lrg.jpg https://s3-eu-west-1.amazonaws.com/prod-ucs-content-store-eu-west/content/pii:S2468823122003078/gr1/HIGHRES/image/jpeg/3e891cbfb389ce75f3953e060a61e31c/gr1_lrg.jpg gr1 gr1_lrg.jpg jpg 1033950 2007 2500 IMAGE-HIGH-RES 1-s2.0-S2468823122003078-gr6_lrg.jpg https://s3-eu-west-1.amazonaws.com/prod-ucs-content-store-eu-west/content/pii:S2468823122003078/gr6/HIGHRES/image/jpeg/b9a31c33da62bd1dc28626ca1d4cfe89/gr6_lrg.jpg gr6 gr6_lrg.jpg jpg 283903 1348 3092 IMAGE-HIGH-RES 1-s2.0-S2468823122003078-gr4_lrg.jpg https://s3-eu-west-1.amazonaws.com/prod-ucs-content-store-eu-west/content/pii:S2468823122003078/gr4/HIGHRES/image/jpeg/6294724d2f3d02d8d382c7e11fa3ae83/gr4_lrg.jpg gr4 gr4_lrg.jpg jpg 1702543 1907 3167 IMAGE-HIGH-RES 1-s2.0-S2468823122003078-gr5_lrg.jpg https://s3-eu-west-1.amazonaws.com/prod-ucs-content-store-eu-west/content/pii:S2468823122003078/gr5/HIGHRES/image/jpeg/6ccd84ec286b6cebc0304e7cde070e22/gr5_lrg.jpg gr5 gr5_lrg.jpg jpg 461065 2683 2949 IMAGE-HIGH-RES 1-s2.0-S2468823122003078-si1.svg https://s3-eu-west-1.amazonaws.com/prod-ucs-content-store-eu-west/content/pii:S2468823122003078/STRIPIN/image/svg+xml/c4018e3af2523f62922f9dbc8fdee3dd/si1.svg si1 si1.svg svg 4739 ALTIMG 1-s2.0-S2468823122003078-si10.svg https://s3-eu-west-1.amazonaws.com/prod-ucs-content-store-eu-west/content/pii:S2468823122003078/STRIPIN/image/svg+xml/f8f63cfec2a80ed55096a26d39876868/si10.svg si10 si10.svg svg 9597 ALTIMG 1-s2.0-S2468823122003078-si2.svg https://s3-eu-west-1.amazonaws.com/prod-ucs-content-store-eu-west/content/pii:S2468823122003078/STRIPIN/image/svg+xml/71ac7ca7a1285909c7c368bc7e7a9b96/si2.svg si2 si2.svg svg 12302 ALTIMG 1-s2.0-S2468823122003078-si3.svg https://s3-eu-west-1.amazonaws.com/prod-ucs-content-store-eu-west/content/pii:S2468823122003078/STRIPIN/image/svg+xml/d272c31ee095e65bb9b278e9c8d92778/si3.svg si3 si3.svg svg 14064 ALTIMG 1-s2.0-S2468823122003078-si4.svg https://s3-eu-west-1.amazonaws.com/prod-ucs-content-store-eu-west/content/pii:S2468823122003078/STRIPIN/image/svg+xml/6d327953aeeddb75e1d4e983812175fa/si4.svg si4 si4.svg svg 3800 ALTIMG 1-s2.0-S2468823122003078-si5.svg https://s3-eu-west-1.amazonaws.com/prod-ucs-content-store-eu-west/content/pii:S2468823122003078/STRIPIN/image/svg+xml/11a1cdd61805442dd4ed3acb4dafc52a/si5.svg si5 si5.svg svg 6005 ALTIMG 1-s2.0-S2468823122003078-si6.svg https://s3-eu-west-1.amazonaws.com/prod-ucs-content-store-eu-west/content/pii:S2468823122003078/STRIPIN/image/svg+xml/4cf9d81494e5561a6479f7a3b95c1462/si6.svg si6 si6.svg svg 17960 ALTIMG 1-s2.0-S2468823122003078-si7.svg https://s3-eu-west-1.amazonaws.com/prod-ucs-content-store-eu-west/content/pii:S2468823122003078/STRIPIN/image/svg+xml/45f0e405bf048cd541d2dc4ddb95dee5/si7.svg si7 si7.svg svg 17874 ALTIMG 1-s2.0-S2468823122003078-si8.svg https://s3-eu-west-1.amazonaws.com/prod-ucs-content-store-eu-west/content/pii:S2468823122003078/STRIPIN/image/svg+xml/8ff3d79c42ca20382381764d725aee7a/si8.svg si8 si8.svg svg 3501 ALTIMG 1-s2.0-S2468823122003078-si9.svg https://s3-eu-west-1.amazonaws.com/prod-ucs-content-store-eu-west/content/pii:S2468823122003078/STRIPIN/image/svg+xml/05861a869aae84af5d3e2c5fb88a78c7/si9.svg si9 si9.svg svg 5871 ALTIMG 1-s2.0-S2468823122003078-am.pdf https://s3-eu-west-1.amazonaws.com/prod-ucs-content-store-eu-west/content/egi:100FB4RQ4BP/MAIN/application/pdf/1a4d41ba554e034a967ed5e01c67a81a/am.pdf am am.pdf pdf false 2975850 AAM-PDF MCAT 112421 112421 S2468-8231(22)00307-8 10.1016/j.mcat.2022.112421 Fig. 1 Schematic of simulation box. Fig 1 Fig. 2 Structure of catalysts designed in Materials Studio software (a) H-ZSM5, (b) Cu-ZSM5. Fig 2 Fig. 3 Structure density versus simulation time. Fig 3 Fig. 4 MFI structure and the corresponding accessible surface area in catalyst. Fig 4 Fig. 5 NO and NH3 self-diffusivity in Catalysts (MFI, ZSM5, Cu-ZSM5), for a constant loading of 16 molecules per cell and a simulation time of 1 ns. Fig 5 Fig. 6 Radial Distribution Function (RDF) of NO and NH3 in H-ZSM5 (right) and Cu-ZSM5 (left). Fig 6 Fig. 7 NO and NH3 corresponding MSD charts for loadings (a) 8, (b) 16, (c) 32, (d) 48 and (e) 64 molecules. Fig 7 Fig. 8 NO and NH3 molecular diffusion coefficients in different loadings. Fig 8 Fig. 9 NO+NH3 Sorption isotherms in MFI, H-ZSM5, and Cu-ZSM5 catalysts. Fig 9 Fig. 10 NO+NH3 Sorption energy Profiles in MFI, H-ZSM5, and Cu-ZSM5 catalysts. Fig 10 Fig. 11 NO+NH3 Sorption isotherms in MFI, H-ZSM5, and Cu-ZSM5 catalysts. Fig 11 Fig. 12 NO+NH3 Sorption energy Profiles in MFI, H-ZSM5, and Cu-ZSM5 catalysts. Fig 12 Fig. 13 Isosteric Heats of NO, NH3, and NO+NH3 Sorption in catalysts. Fig 13 Fig. 14 Schematic of simulations results in SCR of NOx with NH3 in ZSM5 and Cu-ZSM5. Fig 14 Fig. 15 Catalysts performance in SCR of NOx from 100 to 400 °C [7,8]. Fig 15 Table 1 Accessible surface area in catalysts (MFI, ZSM5, Cu-ZSM5). Table 1 Catalyst Cell size Total Volume (Å3) Occupied Volume(Å3) Available Volume(Å2) FFV MFI 2 × 2 × 2 42,656.21 32,471.84 18,693.81 23.860 Cu-ZSM5 2 × 2 × 2 42,921.93 32,619.65 18,885.83 24.002 H-ZSM5 2 × 2 × 2 42,921.93 32,543.51 18,470.24 24.180 Table 2 Ratio of NO to NH3 self-diffusivity in catalysts (MFI, ZSM5, Cu-ZSM5). Table 2 Zeolite T (K) D*10−8 (m2/s) Ratio NO NH3 (NO/NH3) MFI 373 2.075 2.873 0.722 473 2.485 3.070 0.809 573 2.914 3.294 0.885 673 3.246 3.59 0.904 Cu-ZSM5 373 1.897 0.035 54.20 473 2.101 0.143 14.69 573 2.335 0.341 6.846 673 2.457 0.772 3.183 H-ZSM5 373 1.796 2.589 0.694 473 2.375 3.091 0.768 573 3.307 3.523 0.939 673 3.407 3.778 0.902 Table 3 Arrhenius coefficient of diffusion correlation for molecules through catalysts. Table 3 Zeolite Component ED D0 R2 MFI NO 3.119 1.724 0.994 NH3 1.492 1.521 0.947 Cu-ZSM5 NO 1.836 1.225 0.990 NH3 21.192 3.457 0.997 H-ZSM5 NO 4.550 2.120 0.965 NH3 2.664 1.810 0.998 Table 4 Maximum capacity of the catalysts for NO and NH3 sorption. Table 4 Zeolite T (K) Maximum Sorption Capacity Sorption Capacity in Mixture NH3 NO NH3 NO MFI 373 4.441 27.707 1.839 13.446 473 1.454 8.128 0.687 3.289 573 0.681 2.491 0.336 1.221 673 0.405 1.205 0.201 0.603 Cu-SZM5 373 26.603 29.736 14.753 14.327 473 16.099 9.637 7.074 4.517 573 8.985 4.326 4.136 1.716 673 3.698 1.713 1.739 0.856 H-ZSM5 373 7.076 29.938 2.923 15.064 473 2.227 10.348 1.061 4.953 573 1.053 5.133 0.518 1.854 673 0.614 2.322 0.306 0.902 Table 5 Adsorption Arrhenius coefficients. Table 5 Catalyst Component Pure Mixture ΔH ( J m o l . K ) A0 *10−4 R2 ΔH ( J m o l . K ) A0 *10−4 R2 MFI NO −21.774 2.51 0.999 −21.583 1.29 0.999 NH3 −16.678 2.03 0.999 −15.389 1.3 0.998 Cu-ZSM5 NO −21.774 3.52 0.999 −21.059 1.96 0.999 NH3 −12.878 72.55 0.906 −12.637 38.6 0.891 H-ZSM5 NO −21.941 3.79 0.991 −21.608 1.93 0.999 NH3 −16.977 2.93 1.000 −15.655 1.89 0.999 Table 6 Products Arrhenius coefficients. Table 6 Zeolite Component ED D0 R2 MFI N2 2.88 2.62 0.98 N2O 4.28 2.59 0.97 NO2 5.72 4.09 0.99 Cu-ZSM5 N2 3.19 2.80 0.98 N2O 5.25 3.48 0.95 NO2 5.25 3.33 1.00 H-ZSM5 N2 4.94 3.80 0.99 N2O 4.04 4.07 0.99 NO2 4.35 2.79 0.98 Table 7 Products self-diffusivity ratio in catalysts. Table 7 Zeolite T (K) D*10−8 (m2/s) N2/ N2O N2/NO2 MFI 373 1.52 1.57 473 1.47 1.02 573 1.16 1.11 673 1.47 1.66 Cu-ZSM5 373 1.50 1.67 473 1.58 1.10 573 1.72 1.57 673 0.85 0.94 H-ZSM5 373 1.01 1.10 473 1.09 1.25 573 1.00 1.11 673 1.28 1.39 Table 8 Summary of the diffusion and adsorption results of NO and NH3 in Cu-ZSM5 and ZSM5. Table 8 Zeolite T (K) Sorption Capacity D*10−8 (m2/s) NO NH3 NO NH3 N2/ N2O Cu-ZSM5 373 14.327 14.753 1.897 0.035 1.50 473 4.517 7.074 2.101 0.143 1.58 573 1.716 4.136 2.335 0.341 1.72 673 0.856 1.739 2.457 0.772 0.85 H-ZSM5 373 15.064 2.923 1.796 2.589 1.01 473 4.953 1.061 2.375 3.091 1.09 573 1.854 0.518 3.307 3.523 1.00 673 0.902 0.306 3.407 3.778 1.28 Molecular dynamics and Monte Carlo simulations of molecules through ZSM-5 nano-catalysts applied in SCR of NOx with ammonia: Effect of Cu heteroatom Sheida Jamalzadeh Conceptualization Visualization Methodology Software Formal analysis Writing – review & editing a b Sogand Aghamohammadi Conceptualization Data curation Writing – review & editing c ⁎ Aligholi Niaei Supervision a Hamid Erfan-Niya Supervision a a Reactor and Catalyst Research Lab., Department of Chemical Engineering and Petroleum, University of Tabriz, Tabriz, Iran Reactor and Catalyst Research Lab. Department of Chemical Engineering and Petroleum University of Tabriz Tabriz Iran aReactor and Catalyst Research Lab., Department of Chemical Engineering and Petroleum, University of Tabriz, Tabriz, Iran b Department of Chemical and Biological Engineering, State University of New York at Buffalo, Buffalo, NY, USA Department of Chemical and Biological Engineering State University of New York at Buffalo Buffalo NY USA bDepartment of Chemical and Biological Engineering, State University of New York at Buffalo, Buffalo, NY, USA c Department of Chemical Engineering, Faculty of Engineering, Azarbaijan Shahid Madani University, P.O. BOX 5375171379, Tabriz, Iran Department of Chemical Engineering Faculty of Engineering Azarbaijan Shahid Madani University P.O. BOX 5375171379 Tabriz Iran cDepartment of Chemical Engineering, Faculty of Engineering, Azarbaijan Shahid Madani University, P.O. BOX 5375171379, Tabriz, Iran ⁎ Corresponding author at: Department of Chemical Engineering, Faculty of Engineering, Azarbaijan Shahid Madani University, P.O. BOX 5375171379, Tabriz, Iran. Department of Chemical Engineering Faculty of Engineering Azarbaijan Shahid Madani University P.O. BOX 5375171379 Tabriz Iran NOx, generally used for nitric oxides (NO and NO2), is one of the important atmospheric pollutants. Selective catalytic reduction (SCR) of NOx with ammonia has widely been considered to be an effective technology for reducing the emissions of NOx pollutants. Zeolites are recognized as the proper catalytic support in SCR of NOx. In this study, Molecular Dynamics and Monte Carlo methods were applied to study the adsorption and diffusion behavior of molecules in the catalytic process of NOx reduction using the Materials Studio package. Metal interactions with the ZSM-5 catalyst and the role of the metals during the two major catalytic stages, adsorption and diffusion processes, were investigated. The results revealed the adsorption capacity was increased by adding copper cations to the ZSM-5. Furthermore, we achieved a high selectivity of desired products for the Cu-ZSM5 catalyst at 300 °C which was in a good correlation with empirical work results. Graphical abstract Image, graphical abstract In the present paper, the adsorption and diffusion behavior of molecules used in the catalytic process of NOx reduction is investigated by molecular dynamics and Monte Carlo methods in Materials Studio software. The amount of adsorption capacity increased by adding copper cation to the ZSM-5. The results of products diffusion simulations also indicated a high selectivity of desired products for the Cu-ZSM5 catalyst at 300 °C. Keywords Molecular simulation Diffusion Adsorption Monte Carlo Molecular dynamics ZSM5 SCR of NOx 1 Introduction Nitrogen oxides, NOx (NO + NO2) is recognized as one of the most hazardous air pollutants mainly caused by combustion of fossil fuels at high temperatures. Due to NOx toxicity to the environment, their involvement in the ecological and health hazards as well as formation of acid rain and visibility degradation, decreasing their emissions is subject of many researches [1–4]. Many treatment techniques have been developed for NOx removal from stationary and mobile sources. In recent decades, selective catalytic reduction (SCR) of NOx with ammonia has widely been considered to be an effective technology for reducing the emissions of NOx pollutants. Zeolites, regarding to their particular characterizations, are recognized as the proper catalytic support in SCR of NOx [5–10]. Computer simulation is one of the methods used by researchers in various fields of science, particularly in the field of nanomaterials [9,11]. The computer simulations of substance behavior are examined on a microscopic scale and provide a comprehensible understanding of macroscopic material behavior. This kind of information is useful both in research and in industry. It is difficult or impossible to perform some of the experiments under very high temperature and pressure, while a computer simulation can be performed in a high-temperature plasma or a nuclear reactor [10,12,13]. Computer simulations are based on techniques such as Quantum Mechanics (QM), Monte Carlo (MC) and Molecular Dynamics (MD). Today, Monte Carlo and molecular dynamics techniques are widely used [14–18]. As known, there are seven steps involved in a heterogeneous catalytic gas-solid reaction: (1) Reactant diffusion (from the bulk fluid to the external surface). (2) Reactant diffusion (from the pore mouth through the catalyst pores). (3) Reactant adsorption (onto the catalytic surface). (4) Reaction on the catalyst surface. (5) Products desorption (from the catalyst surface). (6) Products diffusion (from the catalyst pores to the pore mouth). (7) Products diffusion (from the external surface to the bulk fluid). The majority of the scientific studies have investigated the NOx removal process in molecular level by Density Functional Theory (DFT) methods [19–22]. Hence, in spite of the wide use of molecular simulations, the fundamentals of diffusion and adsorption (abovementioned steps of 2, 3, 5, and 6) through the catalyst is still not well understood for SCR of NOx process. MD and MC simulations, with its unique capability to fabricate new structures at the atomic scale offers improvement of advanced materials and manufacturing techniques. Besides, the interaction role of various cations with catalyst support can be examined. Therefore, the aim of this research is to investigate the diffusion and adsorption of NO and NH3 molecules in SCR of NOx using the ZSM-5 catalysts. Self-diffusivity, radial distribution function, isotherms, energy distributions, as well as the isosteric heats of the components in the catalysts were used to study the diffusion and adsorption in catalysts applying Molecular Dynamic and Monte Carlo simulations. 2 Simulation details Materials Studio program (Accelrys Software Inc.) is used for investigating the nature of the two stages of the catalytic processes (diffusion and adsorption) for the SCR of NOx with ammonia. The amorphous cell module of the software was used to build the simulation box. At first, catalyst structures have been created in the simulation of MFI zeolite (2 × 2 × 2 supercell), and NO2, N2O, N2, NH3, NO components have also been developed. H-ZSM5 and Cu-ZSM-5 were also simulated to study the effect of cation introduction. The MFI zeolite system is a three-dimensional channel. It includes direct channels with a pore diameter of 5.6 × 5.3 Ȧ viewed along [010] and ten sinusoidal channels with a pore diameter of 5.4 × 5.1 Ȧ viewed along [100]. The middle region of these channels is 9 Ȧ in diameter. In the figure shown, the yellow atoms represent the silica atoms attached to the red oxygen atoms. Alumina is marked in purple. The colors copper, turquoise, blue-red, blue-white, green-green, blue-blue-red, and red-turquoise also represent copper, hydrogen, and N2O, N2, NH3, NO, and NO2 molecules, respectively (as shown in Figs. 1 and 2 ). After calling each of the molecules needed to make a specific simulation box and adding it to the simulation box in the required number, we adjusted the initial conditions such as temperature and box type, which is a kind of periodic. Afterward, the structure of zeolites with molecules are optimized and their energy was minimized. In the next step, using the amorphous cell module, a number of reactive molecules and products (for reactants, NO and NH3 molecules, and for products, N2O, N2 and NO2 molecules) were randomly placed inside the zeolite structure. The initial velocities were applied according to the Maxwell-Boltzmann distribution and then with the smart algorithm, 5000 energy minimization steps were performed on the simulation box. The smart algorithm performs minimum energy-structure operation with the steepest decent and quasi-Newton methods. After optimizing and minimizing the energy of the system, for the stage of equilibrium, the pressure of the system was considered to be 1 atmosphere with NPT ensemble (fixed number of atoms, constant pressure, constant temperature) to reach the corresponding density of the system at this pressure. In order to relax the system to the target temperature, the Berendsen thermostat was used. In this stage, 4 thermostats (Nose-Hoover, NHL, Berendsen and Andersen) were considered to perform molecular dynamic drives. We examined the performance of all 4 thermostats. For this purpose, NVT was performed on H-ZSM5 zeolite for 50 ps with each thermostat. According to the obtained results, the Berendsen thermostat has the lowest standard deviation. Therefore, the Berendsen thermostat was selected for all the studies in this paper. The application of the Berendsen thermostat in the MD simulations is simple and this algorithm is very efficient for bringing the configurations far from equilibrium to the prescribed temperature. One advantage of Berendsen thermostat is that it allows the temperature fluctuations, thereby not fixing it to a constant value. However, the fluctuations are small. The motivation for the Berendsen thermostat is the minimization of local disturbances of a stochastic thermostat while keeping the global effects unchanged [23,24]. To conclude, because the Berendsen method relaxes very quickly and has small fluctuations, it is useful for equilibration. After preparing the system model and constructing the simulation box, the first step is to perform molecular simulation step by reaching the equilibration of the structure. In order to have the proper time resulted in equilibrium stage, we performed this step for the simulation times of 50, 100, 150, 200 and 300 ps, and density variation of the system was studied. The results are shown in Fig. 3 . The density diagram at different simulation times shows that at low simulation times, the density changes are large and over time the system density tends to a constant value, i.e., the system reaches equilibrium. According to the obtained results, the optimal simulation time of 200 ps was selected for the equilibrium step of the next simulations. Of course, good accuracy has also been obtained for the time of 300 ps, but due to the prolongation of the simulation time and also the negligible difference of 200 and 300 ps, so 200 ps was considered as the optimal time. The obtained data from the NPT ensemble was used for the simulation stage of NVT ensemble (fixed number of atoms, constant volume, constant temperature). NVT simulations were carried out at 4 different temperatures of 100–400 °C. The momentum equations under these conditions were integrated using the Verlet algorithm and time step of 1 fs. One of the most fundamental requirements of a simulation process, which plays an important role in the accuracy of the results, is to determine the interactions of particles defined by a field of force. Here, we used COMPASS force field which uses multiple expressions to express the potential energy for various system components. In this study, a cut-off radius of 12.5 Å was used for van der Waals interactions. For the Coulomb forces, the Ewald summation method has been used. The simulation is divided into two parts: diffusion of molecules into catalysts using molecular dynamics method and the adsorption of species in zeolites by the Monte Carlo method. The reactants’ diffusion into the porous catalyst and preparing for the reaction is one of the most important steps in heterogeneous catalysis that needs to be examined first. For this purpose, initially by using the amorphous cell module, NH3 and NO molecules were randomly placed in a quantity of 16 molecules in a super cell (2 molecules per cell). The NVT ensemble was used at 4 temperatures with simulation time of 1 ns and time step of 1 fs. As shown in Fig. 3, the structure will reach a stable energy level within 200 ps. Thus, the simulation time of 1 ns is acceptable [25–27]. In case of time step in flexible simulations, the time step should be approximately equal to one tenth of the shortest motion cycle [28,29]. In flexible molecules, the highest vibrational frequency is related to the tension of bonds, especially bonds containing hydrogen atoms. The vibration period of a CH bond is approximately 10 fs (ten femtoseconds). The Berendsen thermostat with a Q-ratio of 0.01 and Decay constant of 0.1 ps was used to control the temperature in this simulation. Electrostatic forces were calculated using the Ewald summation method. For van der Waals forces Atom based method was used with a cut-off radius less than the smallest side of the simulation box being 12.5 Å in this work. The configuration was initiated from a preliminary simulation carried out at atmospheric pressure at 298 K. The initial velocities were randomly obtained from the Boltzmann distribution at given temperatures. The mean square displacements (MSDs) for the studied molecules at different temperatures were obtained from the reported results through the classical correlation below: (1) M S D = 〈 Δ r j 2 ( t ) 〉 = 1 N ∑ j = 1 N Δ r j 2 ( t ) = 1 N ∑ j = 1 N [ r j ( t ) − r j ( 0 ) ] 2 Where rj is the coordinate of the molecule j and t is the simulation time in ps and N is the number of specific molecules for which MSD is calculated. To improve the reliability of the calculations, each run was repeated 7 times. From the obtained MSDs, the self-diffusion coefficient (Ds) is obtained according to Einstein's equation: (2) D = lim t → 0 〈 | ( r ( t ) − r ( 0 ) ) 2 | 〉 6 t D s = 1 6 ( Δ R ( t ) ) 2 And consequently follows: (3) D s = a 6 Where a is the linear slope of the MSD diagram versus time. Then the activation energy and the corrected diffusion coefficient (D0) are calculated from the linear least squares of the Arrhenius equation: (4) ln ( D 0 ) = f ( 1000 / t ) In addition to the reactants’ diffusion, the diffusion step of the products from the internal pores of the catalyst to external surface is considered to be critical. Hence, 24 molecules of each of the product molecules, NO, NO2, and N2O here, were loaded in super cell. There are several involved reported reactions for SCR of NOx, but for complete conversion of NOx and NH3 to probable products, stoichiometric molar ratio of products/reactants = 1.5 was selected. So, with 16 molecules of reactants, 24 molecules of products were used. After optimizing the structure and minimizing energy, the diffusion simulation was performed using the Forcite module. This design would help us to understand how products diffuse into the bulk as well as understanding the final selectivity of the products. The adsorption coefficient is obtained by applying the Monte Carlo method using the corresponding adsorption graph and calculating its slope at low pressures. The possibility of accepting or not accepting an adsorbed molecule can be calculated through the following relationships: (5) P a d d = min [ 1 : 1 N s + 1 p V k b T exp ( − Δ U k b T ) ] (6) P d e l = min [ 1 : N s k b T p V exp ( − Δ U k b T ) ] Where U is the total non-bonding energy of both van der Waals and coulomb energies and NS is the number of adsorbent molecules. Acceptance occurs when energy changes are negative or if Boltzman's agent exp(-ΔU/KbT) is greater than a random number generated between zero and one. Monte Carlo simulations were also performed with μVT ensemble, using sorption module with 1 million steps to reach equilibrium and 107 million data generation steps. Moreover, the adsorption of molecules in zeolites was carried out at 4 temperatures being 100–400 °C and at a pressure of 10−3–103 kPa. 3 Results and discussions 3.1 Morphological analysis Accessible surface area (ASA) or solvent accessible surface area (SASA) is the surface area of the molecule that is available for the solvent. ASA is typically calculated using the developed rolling ball algorithm. This algorithm uses a sphere with specified radius to probe on the surface of the molecule. Free volume refers to the volume of simulation box space that is not occupied by molecules. The percentage of free volume of a system is calculated by the following equation: (7) FFV = ( V − V 0 ) / V (8) V 0 = 1.3 V vdw In which V is the total volume determined by Connolly surface placed on the zeolite structure at a specified temperature, V0 is the volume occupied by solid catalyst molecules and Vvdw is the van der Waals volume. The van der Waals volume for an atom is calculated by the volume of the sphere in which van der Waals radius was used. For a molecule, the van der Waals volume is calculated from the molecular van der Waals surface area. Therefore, van der Waals volume is usually lower compared to the case of calculating single- atoms volumes. Because in the mentioned molecular state, the overlapping of atoms with a chemical bond reduces the van der Waals volume. The visualizer module of Material Studio software was used to calculate the van der Waals volume and accessible volume. For estimating the total volume (V), Connolly surface placed on the zeolite structure was considered after constructing the zeolite structures. Free, occupied and accessible volumes for MFI structure are illustrated in Fig. 4 . Similarly, free volume calculations for catalysts are carried out and the results are presented in Table 1 . It should be noted that the computed volumes of micropores do not include the effective volumes occupied by species within the crystals, but are a symbol of available volumes that are estimated based on energy and spatial considerations. Free volume fraction, or in other words the vacant space not occupied by molecules, plays a crucial role in the transfer of gas molecules inside the porous zeolites. The catalysts have almost the same volume, of which silicate has the lowest void volume fraction. Research has shown that the void volume fraction influences the diffusion coefficients. 3.2 Molecular dynamics simulations 3.2.1 Diffusion study of molecules through the catalysts For a better understanding of the molecular movements as a function of time, a limited number of gas molecules are considered for simulation leading to better understanding of diffusion phenomenon. The results of the study on the effect of temperature on self-diffusivity of NO and NH3 showed that the self-diffusivity coefficient of these species increases with temperature as shown in Fig. 5 , in which the self-diffusivity is reported in terms of temperature (for a constant loading of 16 molecules per cell and a simulation time of 1 ns). According to the results, it can be seen that the amount of diffusion in the three investigated catalysts does not vary a lot. The results of free volume fraction (Table 1) are well suited to the results of the diffusion coefficients for the gas molecules (FFV of these catalysts is approximately the same). We also observed that NH3 diffusion is higher compared to diffusion of NO molecule in MFI and H-ZSM5 catalysts. This can be addressed by the small kinetic diameter of the ammonia molecule in comparison with NO molecule which has increased its diffusion. But the Cu-ZSM5 catalyst showed a different behavior. The calculated self diffusion coefficients at various temperatures indicate a significant decrease for the NH3 molecule. This amount was up to ten times smaller than the amount of NO diffusion. This result could be due to the nature of copper and its electrostatic interaction with ammonia molecule. As a result, ammonia molecules upholded adjacent to copper sites preventing its the diffusion and further movement in other positions. Thus, the NO molecule in the Cu-ZSM5 catalyst moves like a free ball while NH3 remains by copper sites. On the other hand, one of the important parameters in the molecular diffusion in a porous structure is the molecular weight described by Graham's law. It indicates that the rate of gas diffusion is inversely proportional with the molecular weight of the gas. In fact, gases with a lower molecular weight pass through the pores faster than gases that are more weighed. Therefore, a gas having a lower molecular weight has a higher molecular diffusion rate and needs less time for its penetration. A more complete theory of Graham's law was presented several years later as a kinetic theory of gases. In the present work, the diffusion ratio of the NO molecule to NH3 is 0.718, according to Graham's law. Table 2 reports the diffusion ratio achieved for the species. In the MFI and H-ZSM5 catalysts, gas molecules penetrate according to the Graham's law without any limitation. However, in the case of the Cu-ZSM5 catalyst, despite the fact that the pore diameter of the three studied structures is the same, it is observed that the amount of NH3 diffusion is very low and it can be explained by the chemical interactions of copper with ammonia, which eliminates the effect of molecular weight on diffusion. For the Cu-ZSM5 catalyst, the diffusion ratio of NO to NH3 is much higher than the predicted values by Graham’ law. Besides, the adherence of the diffusion relation to the Arrhenius relationship is another factor in studying molecules diffusion. The energies in the form of the activation are calculated and the corrected diffusion coefficients are presented in Table 3 . As observed, the lower the amount of activation energy, the more catalyst diffusion coefficient is influenced by temperature. In other words, under the specific temperature changes, the diffusion coefficients for catalysts with lower activation energy will change more and have a more intense penetration. It is observed that the activation energy of NH3 in the Cu-ZSM5 catalyst is very high, so diffusion of ammonia within this catalyst will be severely limited. Thus, these observations demonstrate that the activation energies follow the Arrhenius correlation. The copper introduced catalysts fall outside which indicate the presence of a specific interaction with ammonia that leads to an increase in activation energy. 3.2.2 Radial distribution function Particle's arrangement in a molecular dynamics’ simulation is commonly considered in many aspects and is very important in analyzing crystalline structure. The radial distribution function represents the distribution of the atoms in the system which provides us with useful information on how the particle is dispersed amongst other particles. The RDF value is the probability of finding a pair of atoms at the distance of r from each other to the probability of completely randomized distribution at the same density. Fig. 6 shows the radial distribution function (RDF) for NO and NH3 molecules in H-ZSM5 and Cu-ZSM5 catalysts. The first peak, created at a radius of less than 5 Å, is due to the presence of molecules adjacent to the cations in the middle region of channels (intersection). It clearly proves the fact that the intensity of the peak for NH3 in the vicinity of Cu is very noticeable. It is clear that this behavior results in a small amount of ammonia diffusion in the catalysts with copper. The RDF for NO also suggests that this molecule is more likely to be embedded in some sites compared to NH3. This seems to result in the limited movement of NO in the H-ZSM5 catalyst. The self-diffusion coefficient results also support the mentioned statement. In the H-ZSM catalyst, diffusion of NH3 was more than NO diffusion. 3.2.3 Effect of loading Fig. 7 shows the mean square displacement for molecules in H-ZSM5 in loadings of 8, 16, 32, 48 and 64 molecules as a function of temperature. MSDs are seen to be high at high temperatures, and in all loads over time, the graphs are linear, indicating unlimited 3-D diffusion in zeolite pores. MSD values up to 10,000 Å2 in 500 ps for higher temperatures in lower loadings indicate unobstructed diffusion in zeolite pores across multiple supercages. However, values of the MSDs start decreasing after loadings higher than 16 molecules (Fig. 7d and e). Therefore, loading of 16 molecules was selected for further studies considering both short-range motion on the length scale of a single cage and long-range motion on length scale of whole cell. It will involve diffusion throughout the pore structure combining both intra- and intersupercage motions with accordance to the available space calculated for the studied cell from Table 1. Diffusion coefficients are reported in Fig. 8 . It can be seen that by increasing the molecules loading, the movement of the molecules is limited and the diffusion decreases due to the accumulation of higher molecules in the structure and the smaller space. In all temperature range, diffusion coefficient graphs at loadings of 32, 48 and 64 flatten specifically for NO molecules. Thus, loading of 16 molecules was selected for more studies to assure complete diffusion. 3.3 Monte Carlo simulation 3.3.1 Effect of temperature in pollutant abatement Sorption isotherms To compare and study the adsorption rate using the thermodynamic relationships, absolute adsorption and isothermal heat of adsorption are used. At a given temperature, a thorough description of the adsorption is provided by the isotherms. Adsorption isotherm for species i is a fundamental relationship between the corresponding molar density (ρmolecxi / NAvo) or mass (ρmolecxi / (NAvo Mi) in the adsorption phase and its fugacity ƒi. The effects of different catalyst structures, using cation, the behavior of different species, temperature and pressure on adsorption and the corresponding quantities are studied using corresponding curves and energy distribution. As a result, a model for describing and understanding the adsorption mechanism is presented. To study the interaction between NO and NH3 when both are adsorbed into zeolite, the simultaneous adsorption with molar ratio of NO/NH3 being 1 and under operating conditions of pressure being between 10−3 and 103 kPa and temperature being in a range of 100–400 °C, for each adsorbate over the catalyst is considered. NO and NH3 adsorption results for all three catalysts at temperatures from 100 to 400 °C are presented in Fig. 9 . It is obvious from the diagrams that with increasing temperature, the adsorption rate is reduced, which is observed for all the catalysts. The process of adsorption is completely spontaneous; therefore, the Gibbs free energy variation is negative (∆G ≤ 0). Thus, entropy variations during the adsorption process are usually negative. By the consideration of free energy changes being negative, the enthalpy variations must be sufficiently negative, so that ΔG is going to be negative (ΔG = ΔH-TΔS < 0). Moreover, the adsorption process is exothermic, and when the temperature rises, adsorption would like to decrease. In all of the catalysts, adsorption of both species has increased with decreasing temperature, and increasing pressure. The results indicate that the isotherms are consistent with the Henray's law, except for the Cu-ZSM5 catalyst, which showed Langmuir's behavior. The graphs indicate that NO has always been adsorbed more than NH3 except for the Cu-ZSM5 catalyst, which adsorbs NH3 more than NO. As a smaller molecule would be placed much easier in the zeolite pores, the NO adsorption rate is higher in the catalysts. On the other hand, NO is a linear molecule, so it has the ability to adsorb from each side. But, NH3 will not be able to adsorb too much due to its spatial geometry. In the case of Cu-ZSM5 catalyst, adsorption of NH3 is higher than NO. As mentioned earlier, due to the strong electrostatic interaction of copper and NH3, adsorption energy of the NH3 molecule with copper is higher leading to higher NH3 adsorption. At low temperatures, this behavior is observed in low fugacities, and in high fugacities, the opposite behavior has occurred and the NO adsorption is significantly higher than NH3. However, with higher temperatures at higher pressures, NH3 adsorption increases more than NO adsorption, even at temperatures of 300 and 400 °C and 2000 KPa pressure, NH3 adsorption is still higher than NO. As a result, we observe that the loading of copper on silicate structure has given the high ammonia adsorption capacity to this catalyst, which will also have a very important effect on the performance of this catalyst for the NOx catalytic reduction process, which we will discuss in following. Sorption energies The energy distribution diagrams for NO and NH3 and the effect of temperature for various catalysts are shown in Fig. 10 . More stable adsorption can be obtained while the values of sorption energies are more negative. It can be seen that in all of the catalysts, the adsorption energy is more negative at lower temperatures. This behavior has occurred for both species. With the increase of temperature, energy peaks maxima tend to have larger positive values, so we get stronger adsorption at lower temperatures. Also, in MFI and H-ZSM5 structures, NO adsorption is stronger than NH3, which indicates a higher adsorption of this molecule than NH3 over catalysts which is consistent with the previously explained adsorption isotherms. But the Cu-ZSM5 catalyst has shown a different behavior, and more stable ammonia adsorption is observed in this catalyst. 3.3.2 Effect of catalyst support Sorption isotherms Fig. 11 shows the sorption isotherms for NH3 and NO applying a co-molar mixture within the structure of zeolites as a function of species fugacity. The graphs indicate that NO has always been adsorbed more than NH3 except for the Cu-ZSM5 catalyst, which adsorbs NH3 more than NO. The smaller the molecules, the easier adsorption into the pores of catalysts. As of this, the NO adsorption rate seems to be higher. On the other hand, this can also be explained by the fact that NO is a linear molecule while NH3 has a pyramidal spatial geometry. A linear molecule is capable of adsorbing over the zeolite with both of its sides. This type of end-to-end interaction with cation provides additional space for the placement of more adsorbing molecules. Therefore, NH3 adsorption will be less than that of NO. Pillai and colleagues [14] also have reported similar adsorption behavior for linear molecules N2 and CO2 and spherical molecules CH4. Of course, in the case of Cu-ZSM5 catalyst, adsorption of NH3 is higher than NO. As already mentioned, the electrostatic interactions between copper and NH3 have led to such behavior in this catalyst. Strong bond between NH3 and Cu cations is formed considering the fact that NH3 is treated as base Lewis and Cu as acid Lewis. On the other hand, according to Pearson [30], some of the metal oxides as active sites on the surface also cause acid-base interactions. These interactions are explained by the Hard and Soft Acids and Bases (HSAB) theory [31]. This theory states that hard acids would like to adsorb hard bases, and soft acids prefer to adsorb soft bases [32]. Pearson [30] apply this theory expressing the values of \"hardness\" and \"softness\" for the acids and bases. These values are calculated by the density function theory. In general, based on Par and Pearson's classification, if the electronegativity is smaller than 2.8 eV, it is a soft base composition [33]. Based on this classification, Cu+ is a soft acid and NH3 is considered to be soft base. Therefore, an increase in NH3 adsorption by catalyst containing copper cations may be due to the acid-base interaction, i.e., NH3 acts as a soft base, and the Cu+ ion acts as a soft acid. And, according to the HSAB theory, since NH3 is softer than NO, it tends to show a higher tendency to copper cations as soft base, which results in its more adsorption. In summary, the adsorbance data of NO and NH3 and their mixture, the maximum catalyst adsorption capacity at atmospheric pressure is calculated and presented in Table 4 . The results indicate that the Cu-ZSM5 catalyst has a high potential for NH3 uptake. This behavior of copper was predictable, because in this catalyst, the interaction with gas molecules is greater, so more molecules of NH3 are adsorbed on the Cu-ZSM5 catalyst. Therefore, the type of cation plays a significant role in increasing ammonia storage capacity. The results indicate higher adsorption for larger cations. Moreover, while the surface around the cation for absorbing becomes larger, it is followed by the number of more molecules adsorbed, on the other hand, retaining forces will decrease with increasing cation diameter in zeolite structure. In other words, by increasing the cation size, the power of the van der Waals interactions between the absorbing atoms and the cation is gradually reduced. Consequently, the adsorption capacity of large size cations will not be large enough to cause a dense layer of absorbents. These two features act in an opposite way. In case of NO, retaining forces are the dominant factor, so NO adsorption was decreased with increasing cation size. For the NH3 molecule, the electrostatic interaction of copper-ammonia was dominant and ammonia adsorption was higher on copper-loaded catalyst. Sorption energies The effect of different catalysts on energy distribution diagrams for the NO+NH3 adsorbing mixture is shown in Fig. 12 . It is observed that in all catalysts, the energy of adsorption of NO is less than NH3, and as we have seen in the adsorption coherence charts that the amount of NO adsorbed in all catalysts was greater than that of ammonia, again the energy distribution charts for the Cu-ZSM5 catalyst show a different behavior. The graph shows two peaks in NH3 adsorption, which indicates adsorption in two different sites of zeolite. Also, energy level of ammonia is more negative, so the catalyst will be more stable in comparison with NO, and this behavior has been observed before. The adsorption enthalpy of the molecules studied in the catalysts follows the Arrhenius relationship, which results in Table 5 . The results indicate that the activation energy of adsorption is approximately the same for NO in all catalysts. For NH3 adsorption, the lowest activation energy has been obtained for the Cu-ZSM5 catalyst leading to the strong and stable adsorption of ammonia on this catalyst. Similarly, the adsorption pre-exponential coefficient for the NH3 is approximately first order in the catalysts except in Cu-ZSM5. 3.3.3 Isosteric heat of adsorption The isosteric heat of adsorption is one of the thermodynamic parameters as a function of temperature which can be obtained by adsorption isotherms. In fact, the isosteric heat is the amount of heat released by the adsorption of a molecule or atom onto the catalyst surface. The isosteric heat can be obtained from the slope of the curve of the logarithm of pressure versus the reverse temperature at a constant loading. The adsorption heat, Qst, is calculated from the following equation: (9) Q st = − R [ ∂ ( ln P ) / ∂ ( 1 / T ) ] The isosteric heat of adsorption for the MFI, H-ZSM5 and Cu-ZSM5 catalysts by NH3, NO and NH3 + NO mixtures were calculated and illustrated in Fig. 13 . In the adsorption of NO, all catalysts behaved similarly and the isosteric heat was obtained at about 5.7 kJ/mol. In MFI catalyst pattern, it was initially reduced, followed by a slight mild increase suggesting that this can be due to strong side interactions between adsorbed molecules. The adsorption heat fluctuations with loading are a significant indicator of the presence of active sites with different powers on the surface. With the increase of loading and the filling of single-layer, Adsorbate-Adsorbate interactions (A-A) occur and the amount of isosteric heat of adsorption increases. The amounts of NH3 adsorption heat for the MFI catalyst with constant loading was calculated to be 4 kJ/mol. For H-ZSM5, the isosteric heat of adsorption is mildly increased by loading, but its amount remains low and close to the MFI value (4.1 kJ/mol). The reason why the H-ZSM5 isosteric heat is slightly higher than MFI may be due to the adsorbate-zeolite interaction energy of the H-ZSM in comparison to the MFI. The proximity of heat adsorption shows that the adsorption process is identical in these two catalysts, in which the hydrophobicity is very high and the loading is very low. At lower loadings, the A-A interactions are not significant, therefore, the amount of isosteric heat is lower for zeolites. In fact, cations have a substantial effect on the isosteric heat. In Cu-ZSM5, the NH3 isosteric heat is much higher than H-ZSM5, and its amount is about 14.5 kJ/mol at negligible adsorption, and it is about 11 kJ/mol at higher loadings. In lower loadings, cations behave like a pump, and adsorbing molecules are adsorbed in cationic sites. Hence, the isosteric heat of adsorption is high. Then, in moderate loadings, a single layer and then several layers of adsorbing molecules cover the zeolite walls, which results in a decrease in the isosteric released heat due to the fact that the stronger sites are previously occupied. In the current research, where there was no cation (i.e., silicate zeolite without Al), there was not a pump effect to increase the adsorption, and thus the adsorption amount such as the amount of isosteric heat was very low. On the other hand, the continuous decrease of adsorption heat indicates the presence of active sites with non-identical strength. Earlier, in the Cu-ZSM5 catalyst energy charts, it was observed that NH3 molecules are adsorbed in two different kinds of sites with different energies. The adsorption isotherms of ammonia also indicate a high adsorption of this species on copper introduced catalyst. Therefore, the presence of strong sites with different energies led to a reduction in the NH3 isosteric heat of adsorption on the Cu-ZSM5 catalyst. Comparison of isosteric heat for NH3 in MFI and Cu-ZSM5 shows that it has higher values for copper introduced catalyst. This is due to the fact that species interactions with zeolite pore walls is much stronger in Cu-ZSM5 compared to MFI. Furthermore, the adsorbing molecules have strong electrostatic interactions with copper as previously this behavior was observed in the corresponding adsorption patterns. In the isosteric heat pattern for the mixture of NH3 and NO, we see that the isosteric heat of adsorption for NO is the same for all three catalysts and has remained constant with increasing loading. However, the isosteric heat of NH3 adsorption on Cu-ZSM5 in a negligible coating is approximately 14 kJ/mol. This high amount of adsorption heat can indicate strong interactions that occur due to electrostatic interactions between copper and NH3. On the other hand, observing this behavior in the isosteric heat is also explained by the polarizability of the adsorbed molecules. Polarizability of NH3 is greater than NO, hence it will have a higher adsorption heat. In MFI and H-ZSM5, the adsorption was approximately low and in these low loadings, the adsorbed molecules spread inside the cavities. Thus, in these cases, the interactions of adsorbed molecules and the zeolite wall are important and the interactions of A-A can be neglected at lower loading. These interactions could be slightly stronger in H-ZSM5 compared to silicates due to the stronger capture of molecules. That is why the isosteric heat shows a mild increase by the increase of molecules loading on the H-ZSM5. A-A interactions are more important in higher loadings. 3.4 Selectivity Activation energy of diffusion which indicates the characteristics of long-range motion was obtained by fitting the linear least squares of the Arrhenius diagram. The calculated activation energy and the diffusion factors are listed in Table 6 . As the amount of activation energy is lower, diffusion coefficients in these catalysts will be more affected under varying temperature. It is observed that the activation energy of N2O in the Cu-ZSM5 catalyst is higher than that of the other two catalysts. This high activation energy will cause limited diffusion of N2O which is an undesirable product in copper introduced catalyst. The activation energy of N2 is low in the MFI structure which will lead to higher diffusion of N2 as desired product. But it will limit the NO2 diffusion required to accelerate the SCR reaction. The H-ZSM5 catalyst also provides a lower limitation for the movement of NO2 within the catalyst structure, but limits the diffusion of the desired product N2. Thus, the results obtained from products diffusion and Arrhenius coefficients indicate that the Cu-ZSM5 catalyst can be a good option for the production of N2 by reducing the limitation of its diffusion and simultaneously limiting more N2O to diffuse. Thus, the results obtained in this section show that the activation energy and products diffusion in NOx removal process follow the Arrhenius relationship. Regarding the importance of N2 selectivity alongside undesired products, the diffusion ratios of N2/N2O and N2/NO2 are reported in Table 7 . From the Graham diffusion law, these ratios were obtained as 1.26 × 10−8 and 1.25 × 10−8 m2/s, respectively. As seen, the diffusion coefficients obtained by Graham's law and molecular simulation are almost in the same orders. Thus, it can be implied that molecules move in accordance with the law of molecular diffusion within the catalyst. The results also show that these ratios are higher in Cu-ZSM5 compared to other catalysts and the highest value obtained at 300 °C. Therefore, it can be concluded that from the diffusion point of view, copper cations can be used for the SCR of NOx increasing N2 selectivity by limiting the penetration of larger nitrogen oxides, especially N2O. Fig. 14 shows the schematic of simulations results in SCR of NOx with NH3 in ZSM5 and Cu-ZSM5. 3.5 Evaluation The catalyst was prepared in this work and was tested in the process of selective catalytic reduction of NOx with ammonia in the presence of oxygen in lab scale pilot [7,8] and the results are depicted in Fig. 15 . Results showed that copper introduced catalyst had the best performance in removing NOx (80% conversion of NOx to N2 at 300 °C). To explain this behavior, the diffusion and adsorption differences of reactant molecules should be considered. A summary of the diffusion and adsorption results of NO and NH3 in two of catalysts is presented in Table 8 . The results of diffusion simulations show that despite the small kinetic diameter of the NH3 molecule compared with NO, it has weaker diffusion which can be due to the interactions of copper with ammonia tending to hold around it. Furthermore, adsorption simulation results showed that the Cu-ZSM5 catalyst had the highest NH3 uptake. As a general conclusion, it can be seen that the higher presence of NH3 makes it possible to reduce the higher percentage of pollutant gas, which gives NO more chance of being reduced in the presence of a reducing agent (NH3). Thus, it can be concluded that the Cu-ZSM5 catalyst shows a higher conversion due to the provision of more active sites for the reduction and removal of NO. The last column of the Table 8 shows that the highest selectivity of desired product for the Cu-ZSM5 catalyst occurs at 573 K which was the optimum temperature according to experimental results (Fig. 15). 4 Conclusions The selective catalytic reduction (SCR) process as one of the most effective methods for the removal of NOx pollutants has been of great interest to researchers in recent years. Zeolites are considered as a good catalytic support in the SCR process because of their unique properties. From molecular perspective, the NOx catalytic reduction process has not been studied so far, therefore, in the current paper, the behavior of the nano catalysts was studied on a molecular scale. In this regard, the relationship between the presence of cations on diffusion coefficient, adsorption, and products selectivity was studied. Research was conducted in three parts including molecular dynamics simulation for the study of reactants diffusion, Monte Carlo simulation to study the adsorption of reactants, and molecular dynamics simulation to study the products selectivity. The simulations carried out for the reactant's diffusion showed that the increase in temperature leads to an increase in diffusion. Also, the results of the study indicated that the structure of the catalytic materials had no effect on diffusion coefficient due to the almost uniform accessible volumes. At the same time, diffusion coefficient was affected by introduction of cation in the structure. The molecules moved within structures according to the Graham's law and the NH3 species had a greater diffusion due to its lower molecular weight. Of course, the NH3 movement in the Cu-ZSM5 catalyst was limited, due to electrostatic interactions between NH3 and copper. The results of radial distribution functions indicate that NH3 is present in the vicinity of Cu cation. The results of Monte Carlo simulations showed that adsorption capacity increases with the addition of cation to the structure of zeolite. Moreover, adsorption capacity decreased with increasing temperature and increased at high pressures. The Cu-ZSM5 catalyst showed an extremely high NH3 adsorption. It could be due to the filling of molecular orbitals and strong electrostatic interactions between the absorbate and copper catalyst. One of the other reasons for increasing the efficiency of MFI zeolite by adding Cu ions is the creation of a Lewis acid-base interaction, which is explained Hard and Soft Acids and Bases (HSAB) theory. Based on this classification, NH3 is a soft base. Therefore, increasing the amount of ammonia adsorption by the Cu-ZSM5 catalyst can be due to the soft acid-base interaction. The isosteric heat for NH3 in the Cu-ZSM5 catalyst is higher in comparison with the two catalysts. While, isosteric heat of adsorption for NO was the same for all three catalysts. Product diffusion studies also showed the highest selectivity of N2 in the Cu-ZSM5 catalyst. Simulation results of this study were consistent with the experimental results. The temperature of 300 °C was determined to be the optimized temperature in SCR of NOx with ammonia. CRediT authorship contribution statement Sheida Jamalzadeh: Conceptualization, Visualization, Methodology, Software, Formal analysis, Writing – review & editing. Sogand Aghamohammadi: Conceptualization, Data curation, Writing – review & editing. Aligholi Niaei: Supervision. Hamid Erfan-Niya: Supervision. Declaration of Competing Interest The authors declare that they have no known competing financial interests or personal relationships that could have appeared to influence the work reported in this paper. Acknowledgments The authors gratefully acknowledge University of Tabriz and Iran Nanotechnology Initiative Council for the complementary support of the project. We sincerely thank Dr. Morteza Azizi for their assistance and useful suggestions throughout the course of this work. Thanks to Siyamak Pakdel for insightful discussions. References [1] C. Wang B. Li Y. Wang Z. Xie Insight into the topology effect on the diffusion of ethene and propene in zeolites: A molecular dynamics simulation study J. Energy Chem. 22 6 2013 914 918 10.1016/S2095-4956(14)60272-2 C. Wang, B. Li, Y. Wang, Z. Xie, Insight into the topology effect on the diffusion of ethene and propene in zeolites: A molecular dynamics simulation study, Journal of Energy Chemistry22(6) (2013) 914-918. https://doi.org/10.1016/S2095-4956(14)60272-2. [2] B. Liu Y. Wu D. Liu Y. Wu H. Xi Y. Qian Molecular simulation and experimental studies of a mesoporous ZSM-5 type molecular sieve Phys. Chem. Chem. Phys. 15 8 2013 2741 2748 10.1039/C2CP43900J B. Liu, Y. Wu, D. Liu, Y. Wu, H. Xi, Y. Qian, Molecular simulation and experimental studies of a mesoporous ZSM-5 type molecular sieve, Physical Chemistry Chemical Physics15(8) (2013) 2741-2748. https://doi.org/10.1039/C2CP43900J. [3] F. Bin C. Song G. Lv J. Song X. Cao H. Pang K. Wang Structural Characterization and Selective Catalytic Reduction of Nitrogen Oxides with Ammonia: A Comparison between Co/ZSM-5 and Co/SBA-15 J. Phys. Chem. C 116 50 2012 26262 26274 10.1021/jp303830x F. Bin, C. Song, G. Lv, J. Song, X. Cao, H. Pang, K. Wang, Structural Characterization and Selective Catalytic Reduction of Nitrogen Oxides with Ammonia: A Comparison between Co/ZSM-5 and Co/SBA-15, The Journal of Physical Chemistry C116(50) (2012) 26262-26274. https://doi.org/10.1021/jp303830x. [4] C. Huiyong X. Hongxia C. Xianying Q. Yu Experimental and molecular simulation studies of a ZSM-5-MCM-41 micro-mesoporous molecular sieve Microporous and Mesoporous Mater. 118 1 2009 396 402 10.1016/j.micromeso.2008.09.020 C. Huiyong, X. Hongxia, C. Xianying, Q. Yu, Experimental and molecular simulation studies of a ZSM-5-MCM-41 micro-mesoporous molecular sieve, Microporous and Mesoporous Materials118(1) (2009) 396-402. https://doi.org/10.1016/j.micromeso.2008.09.020. [5] S. Mohan P. Dinesha S. Kumar NOx reduction behaviour in copper zeolite catalysts for ammonia SCR systems: A review Chem. Eng. J. 384 2020 123253 10.1016/j.cej.2019.123253 S. Mohan, P. Dinesha, S. Kumar, NOx reduction behaviour in copper zeolite catalysts for ammonia SCR systems: A review, Chemical Engineering Journal384 (2020) 123253. https://doi.org/10.1016/j.cej.2019.123253. [6] B. Jiang B. Lin Z. Li S. Zhao Z. Chen Mn/TiO2 catalysts prepared by ultrasonic spray pyrolysis method for NOx removal in low-temperature SCR reaction Colloids Surf. A: Physicochem. Eng. Asp. 586 2020 124210 10.1016/j.colsurfa.2019.124210 B. Jiang, B. Lin, Z. Li, S. Zhao, Z. Chen, Mn/TiO2 catalysts prepared by ultrasonic spray pyrolysis method for NOx removal in low-temperature SCR reaction, Colloids and Surfaces A: Physicochemical and Engineering Aspects586 (2020) 124210. https://doi.org/10.1016/j.colsurfa.2019.124210. [7] P. Nakhostin Panahi D. Salari A. Niaei S.M. Mousavi Study of M-ZSM-5 nanocatalysts (M: Cu, Mn, Fe, Co …) for selective catalytic reduction of NO with NH3: Process optimization by Taguchi method Chin. J. Chem. Eng. 23 10 2015 1647 1654 10.1016/j.cjche.2015.08.003 P. Nakhostin Panahi, D. Salari, A. Niaei, S.M. Mousavi, Study of M-ZSM-5 nanocatalysts (M: Cu, Mn, Fe, Co …) for selective catalytic reduction of NO with NH3: Process optimization by Taguchi method, Chinese Journal of Chemical Engineering23(10) (2015) 1647-1654. https://doi.org/10.1016/j.cjche.2015.08.003. [8] P.N. Panahi D. Salari A. Niaei S.M. Mousavi NO reduction over nanostructure M-Cu/ZSM-5 (M: Cr, Mn, Co and Fe) bimetallic catalysts and optimization of catalyst preparation by RSM J. Ind. Eng. Chem. 19 6 2013 1793 1799 10.1016/j.jiec.2013.02.022 P.N. Panahi, D. Salari, A. Niaei, S.M. Mousavi, NO reduction over nanostructure M-Cu/ZSM-5 (M: Cr, Mn, Co and Fe) bimetallic catalysts and optimization of catalyst preparation by RSM, Journal of Industrial and Engineering Chemistry19(6) (2013) 1793-1799. https://doi.org/10.1016/j.jiec.2013.02.022. [9] C. Dai Z. Lei Y. Wang R. Zhang B. Chen Reduction of N2O by CO over Fe- and Cu-BEA zeolites: An experimental and computational study of the mechanism Microporous and Mesoporous Mater. 167 2013 254 266 10.1016/j.micromeso.2012.09.001 C. Dai, Z. Lei, Y. Wang, R. Zhang, B. Chen, Reduction of N2O by CO over Fe- and Cu-BEA zeolites: An experimental and computational study of the mechanism, Microporous and Mesoporous Materials167 (2013) 254-266. https://doi.org/10.1016/j.micromeso.2012.09.001. [10] Y. Wang Z. Lei R. Zhang B. Chen Adsorption of NO and N2O on Cu-BEA zeolite J. Mol. Struct.: THEOCHEM 957 1 2010 41 46 10.1016/j.theochem.2010.07.004 Y. Wang, Z. Lei, R. Zhang, B. Chen, Adsorption of NO and N2O on Cu-BEA zeolite, Journal of Molecular Structure: THEOCHEM957(1) (2010) 41-46. https://doi.org/10.1016/j.theochem.2010.07.004. [11] Y. Li H. Liu J. Zhu P. He P. Wang H. Tian DFT study on the accommodation and role of La species in ZSM-5 zeolite Microporous and Mesoporous Mater. 142 2 2011 621 628 10.1016/j.micromeso.2011.01.007 Y. Li, H. Liu, J. Zhu, P. He, P. Wang, H. Tian, DFT study on the accommodation and role of La species in ZSM-5 zeolite, Microporous and Mesoporous Materials142(2) (2011) 621-628. https://doi.org/10.1016/j.micromeso.2011.01.007. [12] C.-Y. Sung L.J. Broadbelt R.Q. Snurr A DFT study of adsorption of intermediates in the NOx reduction pathway over BaNaY zeolites Catal. Today 136 1 2008 64 75 10.1016/j.cattod.2008.01.010 C.-Y. Sung, L.J. Broadbelt, R.Q. Snurr, A DFT study of adsorption of intermediates in the NOx reduction pathway over BaNaY zeolites, Catalysis Today136(1) (2008) 64-75. https://doi.org/10.1016/j.cattod.2008.01.010. [13] A. Sierraalta R. Añez M.-R. Brussin Theoretical Study of NO2 Adsorption on a Transition-Metal Zeolite Model J. Catal. 205 1 2002 107 114 10.1006/jcat.2001.3425 A. Sierraalta, R. Añez, M.-R. Brussin, Theoretical Study of NO2 Adsorption on a Transition-Metal Zeolite Model, Journal of Catalysis205(1) (2002) 107-114. https://doi.org/10.1006/jcat.2001.3425. [14] R.S. Pillai G. Sethia R.V. Jasra Sorption of CO, CH4, and N2 in Alkali Metal Ion Exchanged Zeolite-X: Grand Canonical Monte Carlo Simulation and Volumetric Measurements Ind. Eng. Chem. Res. 49 12 2010 5816 5825 10.1021/ie901713m R.S. Pillai, G. Sethia, R.V. Jasra, Sorption of CO, CH4, and N2 in Alkali Metal Ion Exchanged Zeolite-X: Grand Canonical Monte Carlo Simulation and Volumetric Measurements, Industrial & Engineering Chemistry Research49(12) (2010) 5816-5825. https://doi.org/10.1021/ie901713m. [15] M.U. Arı M.G. Ahunbay M. Yurtsever A. Erdem-Şenatalar Molecular Dynamics Simulation of Water Diffusion in MFI-Type Zeolites J. Phys. Chem. B 113 23 2009 8073 8079 10.1021/jp901986s M.U. Arı, M.G. Ahunbay, M. Yurtsever, A. Erdem-Şenatalar, Molecular Dynamics Simulation of Water Diffusion in MFI-Type Zeolites, The Journal of Physical Chemistry B113(23) (2009) 8073-8079. https://doi.org/10.1021/jp901986s. [16] D.F. Plant G. Maurin R.G. Bell Diffusion of Methanol in Zeolite NaY: A Molecular Dynamics Study J. Phys. Chem. B 111 11 2007 2836 2844 10.1021/jp0674524 D.F. Plant, G. Maurin, R.G. Bell, Diffusion of Methanol in Zeolite NaY: A Molecular Dynamics Study, The Journal of Physical Chemistry B111(11) (2007) 2836-2844. https://doi.org/10.1021/jp0674524. [17] M. Fleys R.W. Thompson Monte Carlo Simulations of Water Adsorption Isotherms in Silicalite and Dealuminated Zeolite Y J. Chem. Theory Comput. 1 3 2005 453 458 10.1021/ct049896e M. Fleys, R.W. Thompson, Monte Carlo Simulations of Water Adsorption Isotherms in Silicalite and Dealuminated Zeolite Y, Journal of Chemical Theory and Computation1(3) (2005) 453-458. https://doi.org/10.1021/ct049896e. [18] H. Himei M. Yamadaya M. Kubo R. Vetrivel E. Broclawik A. Miyamoto Study of the Activity of Ga-ZSM-5 in the de-NOx Process by a Combination of Quantum Chemistry, Molecular Dynamics, and Computer Graphics Methods J. Phys. Chem. 99 33 1995 12461 12465 10.1021/j100033a015 H. Himei, M. Yamadaya, M. Kubo, R. Vetrivel, E. Broclawik, A. Miyamoto, Study of the Activity of Ga-ZSM-5 in the de-NOx Process by a Combination of Quantum Chemistry, Molecular Dynamics, and Computer Graphics Methods, The Journal of Physical Chemistry99(33) (1995) 12461-12465. https://doi.org/10.1021/j100033a015. [19] M.U. Ari M.G. Ahunbay M. Yurtsever A. Erdem-Senatalar Molecular dynamics simulation of water diffusion in MFI-type zeolites J. Phys. Chem. B 113 23 2009 8073 8079 10.1021/jp901986s M.U. Ari, M.G. Ahunbay, M. Yurtsever, A. Erdem-Senatalar, Molecular dynamics simulation of water diffusion in MFI-type zeolites, J Phys Chem B113(23) (2009) 8073-9. https://doi.org/10.1021/jp901986s. [20] C.A. Farberow J.A. Dumesic M. Mavrikakis Density Functional Theory Calculations and Analysis of Reaction Pathways for Reduction of Nitric Oxide by Hydrogen on Pt(111) ACS Catal. 4 10 2014 3307 3319 10.1021/cs500668k C.A. Farberow, J.A. Dumesic, M. Mavrikakis, Density Functional Theory Calculations and Analysis of Reaction Pathways for Reduction of Nitric Oxide by Hydrogen on Pt(111), ACS Catalysis4(10) (2014) 3307-3319. https://doi.org/10.1021/cs500668k. [21] M. Moreno-González R. Millán P. Concepción T. Blasco M. Boronat Spectroscopic Evidence and Density Functional Theory (DFT) Analysis of Low-Temperature Oxidation of Cu+ to Cu2+NOx in Cu-CHA Catalysts: Implications for the SCR-NOx Reaction Mechanism ACS Catal. 9 4 2019 2725 2738 10.1021/acscatal.8b04717 M. Moreno-González, R. Millán, P. Concepción, T. Blasco, M. Boronat, Spectroscopic Evidence and Density Functional Theory (DFT) Analysis of Low-Temperature Oxidation of Cu+ to Cu2+NOx in Cu-CHA Catalysts: Implications for the SCR-NOx Reaction Mechanism, ACS Catalysis9(4) (2019) 2725-2738. https://doi.org/10.1021/acscatal.8b04717. [22] H. Zhang X. Jiang J. Liu J. Shen Application of density functional theory to the nitric oxide heterogeneous reduction mechanism in the presence of hydroxyl and carbonyl groups Energ. Conversion Manage. 83 2014 167 176 10.1016/j.enconman.2014.03.067 H. Zhang, X. Jiang, J. Liu, J. Shen, Application of density functional theory to the nitric oxide heterogeneous reduction mechanism in the presence of hydroxyl and carbonyl groups, Energy Conversion and Management83 (2014) 167-176. https://doi.org/10.1016/j.enconman.2014.03.067. [23] V. Rühle, Berendsen and Nose-Hoover thermostats, 2007. [24] Y. Zhao, Brief introduction to the thermostats, 2008. [25] E. Braun J. Gilmer H.B. Mayes D.L. Mobley J.I. Monroe S. Prasad D.M. Zuckerman Best Practices for Foundations in Molecular Simulations Living J. Comput. Mol. Sci. 1 1 2019 10.33011/livecoms.1.1.5957 E. Braun, J. Gilmer, H.B. Mayes, D.L. Mobley, J.I. Monroe, S. Prasad, D.M. Zuckerman, Best Practices for Foundations in Molecular Simulations LivingJ Comput Mol Sci1(1) (2019). https://doi.org/10.33011/livecoms.1.1.5957. [26] A. Hasanzadeh S. Pakdel J. Azamat H. Erfan-Niya A. Khataee The removal of nitrogen monoxide from polluted air using CHA- and DDR-type zeolite membranes: Insights from molecular simulations Mater. Today Commun. 28 2021 102651 10.1016/j.mtcomm.2021.102651 A. Hasanzadeh, S. Pakdel, J. Azamat, H. Erfan-Niya, A. Khataee, The removal of nitrogen monoxide from polluted air using CHA- and DDR-type zeolite membranes: Insights from molecular simulations, Materials Today Communications28 (2021) 102651. https://doi.org/10.1016/j.mtcomm.2021.102651. [27] M. Mohammadzadeh S. Pakdel J. Azamat H. Erfan-Niya A. Khataee Theoretical Study of CO2/N2 Gas Mixture Separation through a High-Silica PWN-type Zeolite Membrane Ind. Eng. Chem. Res. 61 16 2022 5593 5599 10.1021/acs.iecr.2c00087 M. Mohammadzadeh, S. Pakdel, J. Azamat, H. Erfan-Niya, A. Khataee, Theoretical Study of CO2/N2 Gas Mixture Separation through a High-Silica PWN-type Zeolite Membrane, Industrial & Engineering Chemistry Research61(16) (2022) 5593-5599. https://doi.org/10.1021/acs.iecr.2c00087. [28] J.-I. Choe B. Kim Determination of Proper Time Step for Molecular Dynamics Simulation Bull. Korean Chem. Soc. 21 4 2000 419 424 10.5012/bkcs.2000.21.4.419 J.-I. Choe, B. Kim, Determination of Proper Time Step for Molecular Dynamics Simulation, Bulletin of the Korean Chemical Society21(4) (2000) 419-424. https://doi.org/10.5012/bkcs.2000.21.4.419. [29] A. Leach Molecular Modelling: Principles and Applications 1996 Pearson A. Leach, Molecular Modelling: Principles and Applications, Pearson1996. [30] R.G. Pearson The HSAB Principle — more quantitative aspects Inorganica Chimica. Acta 240 1 1995 93 98 10.1016/0020-1693(95)04648-8 R.G. Pearson, The HSAB Principle — more quantitative aspects, Inorganica Chimica Acta240(1) (1995) 93-98. https://doi.org/10.1016/0020-1693(95)04648-8. [31] R.G. Pearson Hard and soft acids and bases, HSAB, part 1: Fundamental principles J. Chem. Educ. 45 9 1968 581 10.1021/ed045p581 R.G. Pearson, Hard and soft acids and bases, HSAB, part 1: Fundamental principles, Journal of Chemical Education45(9) (1968) 581. https://doi.org/10.1021/ed045p581. [32] R.G. Parr R.G. Pearson Absolute hardness: companion parameter to absolute electronegativity J. Am. Chem. Soc. 105 26 1983 7512 7516 10.1021/ja00364a005 R.G. Parr, R.G. Pearson, Absolute hardness: companion parameter to absolute electronegativity, Journal of the American Chemical Society105(26) (1983) 7512-7516. https://doi.org/10.1021/ja00364a005. [33] J. Xiao Z. Li B. Liu Q. Xia M. Yu Adsorption of Benzothiophene and Dibenzothiophene on Ion-Impregnated Activated Carbons and Ion-Exchanged Y Zeolites Energ. Fuels 22 6 2008 3858 3863 10.1021/ef800437e J. Xiao, Z. Li, B. Liu, Q. Xia, M. Yu, Adsorption of Benzothiophene and Dibenzothiophene on Ion-Impregnated Activated Carbons and Ion-Exchanged Y Zeolites, Energy & Fuels22(6) (2008) 3858-3863. https://doi.org/10.1021/ef800437e.",
+      "scopus-id": "85132820406",
+      "coredata": {
+        "eid": "1-s2.0-S2468823122003078",
+        "dc:description": "NOx, generally used for nitric oxides (NO and NO2), is one of the important atmospheric pollutants. Selective catalytic reduction (SCR) of NOx with ammonia has widely been considered to be an effective technology for reducing the emissions of NOx pollutants. Zeolites are recognized as the proper catalytic support in SCR of NOx. In this study, Molecular Dynamics and Monte Carlo methods were applied to study the adsorption and diffusion behavior of molecules in the catalytic process of NOx reduction using the Materials Studio package. Metal interactions with the ZSM-5 catalyst and the role of the metals during the two major catalytic stages, adsorption and diffusion processes, were investigated. The results revealed the adsorption capacity was increased by adding copper cations to the ZSM-5. Furthermore, we achieved a high selectivity of desired products for the Cu-ZSM5 catalyst at 300 °C which was in a good correlation with empirical work results.",
+        "openArchiveArticle": "false",
+        "prism:coverDate": "2022-08-31",
+        "openaccessUserLicense": null,
+        "prism:aggregationType": "Journal",
+        "prism:url": "https://api.elsevier.com/content/article/pii/S2468823122003078",
+        "dc:creator": [
+          {
+            "@_fa": "true",
+            "$": "Jamalzadeh, Sheida"
+          },
+          {
+            "@_fa": "true",
+            "$": "Aghamohammadi, Sogand"
+          },
+          {
+            "@_fa": "true",
+            "$": "Niaei, Aligholi"
+          },
+          {
+            "@_fa": "true",
+            "$": "Erfan-Niya, Hamid"
+          }
+        ],
+        "link": [
+          {
+            "@_fa": "true",
+            "@rel": "self",
+            "@href": "https://api.elsevier.com/content/article/pii/S2468823122003078"
+          },
+          {
+            "@_fa": "true",
+            "@rel": "scidir",
+            "@href": "https://www.sciencedirect.com/science/article/pii/S2468823122003078"
+          }
+        ],
+        "dc:format": "application/json",
+        "openaccessType": null,
+        "pii": "S2468-8231(22)00307-8",
+        "prism:volume": "528",
+        "articleNumber": "112421",
+        "prism:publisher": "Elsevier B.V.",
+        "dc:title": "Molecular dynamics and Monte Carlo simulations of molecules through ZSM-5 nano-catalysts applied in SCR of NOx with ammonia: Effect of Cu heteroatom",
+        "prism:copyright": "© 2022 Elsevier B.V. All rights reserved.",
+        "openaccess": "0",
+        "prism:issn": "24688231",
+        "dcterms:subject": [
+          {
+            "@_fa": "true",
+            "$": "Molecular simulation"
+          },
+          {
+            "@_fa": "true",
+            "$": "Diffusion"
+          },
+          {
+            "@_fa": "true",
+            "$": "Adsorption"
+          },
+          {
+            "@_fa": "true",
+            "$": "Monte Carlo"
+          },
+          {
+            "@_fa": "true",
+            "$": "Molecular dynamics"
+          },
+          {
+            "@_fa": "true",
+            "$": "ZSM5"
+          },
+          {
+            "@_fa": "true",
+            "$": "SCR of NOx"
+          }
+        ],
+        "openaccessArticle": "false",
+        "prism:publicationName": "Molecular Catalysis",
+        "openaccessSponsorType": null,
+        "prism:pageRange": "112421",
+        "pubType": "fla",
+        "prism:coverDisplayDate": "August 2022",
+        "prism:doi": "10.1016/j.mcat.2022.112421",
+        "prism:startingPage": "112421",
+        "dc:identifier": "doi:10.1016/j.mcat.2022.112421",
+        "openaccessSponsorName": null
+      },
+      "objects": {
+        "object": [
+          {
+            "@category": "standard",
+            "@height": "323",
+            "@width": "678",
+            "@_fa": "true",
+            "$": "https://api.elsevier.com/content/object/eid/1-s2.0-S2468823122003078-gr8.jpg?httpAccept=%2A%2F%2A",
+            "@multimediatype": "JPEG image file",
+            "@type": "IMAGE-DOWNSAMPLED",
+            "@size": "55223",
+            "@ref": "gr8",
+            "@mimetype": "image/jpeg"
+          },
+          {
+            "@category": "standard",
+            "@height": "591",
+            "@width": "715",
+            "@_fa": "true",
+            "$": "https://api.elsevier.com/content/object/eid/1-s2.0-S2468823122003078-gr9.jpg?httpAccept=%2A%2F%2A",
+            "@multimediatype": "JPEG image file",
+            "@type": "IMAGE-DOWNSAMPLED",
+            "@size": "119765",
+            "@ref": "gr9",
+            "@mimetype": "image/jpeg"
+          },
+          {
+            "@category": "standard",
+            "@height": "200",
+            "@width": "225",
+            "@_fa": "true",
+            "$": "https://api.elsevier.com/content/object/eid/1-s2.0-S2468823122003078-ga1.jpg?httpAccept=%2A%2F%2A",
+            "@multimediatype": "JPEG image file",
+            "@type": "IMAGE-DOWNSAMPLED",
+            "@size": "28272",
+            "@ref": "ga1",
+            "@mimetype": "image/jpeg"
+          },
+          {
+            "@category": "standard",
+            "@height": "884",
+            "@width": "678",
+            "@_fa": "true",
+            "$": "https://api.elsevier.com/content/object/eid/1-s2.0-S2468823122003078-gr7a.jpg?httpAccept=%2A%2F%2A",
+            "@multimediatype": "JPEG image file",
+            "@type": "IMAGE-DOWNSAMPLED",
+            "@size": "163327",
+            "@ref": "gr7a",
+            "@mimetype": "image/jpeg"
+          },
+          {
+            "@category": "standard",
+            "@height": "589",
+            "@width": "678",
+            "@_fa": "true",
+            "$": "https://api.elsevier.com/content/object/eid/1-s2.0-S2468823122003078-gr7b.jpg?httpAccept=%2A%2F%2A",
+            "@multimediatype": "JPEG image file",
+            "@type": "IMAGE-DOWNSAMPLED",
+            "@size": "116202",
+            "@ref": "gr7b",
+            "@mimetype": "image/jpeg"
+          },
+          {
+            "@category": "standard",
+            "@height": "330",
+            "@width": "368",
+            "@_fa": "true",
+            "$": "https://api.elsevier.com/content/object/eid/1-s2.0-S2468823122003078-gr15.jpg?httpAccept=%2A%2F%2A",
+            "@multimediatype": "JPEG image file",
+            "@type": "IMAGE-DOWNSAMPLED",
+            "@size": "22768",
+            "@ref": "gr15",
+            "@mimetype": "image/jpeg"
+          },
+          {
+            "@category": "standard",
+            "@height": "620",
+            "@width": "715",
+            "@_fa": "true",
+            "$": "https://api.elsevier.com/content/object/eid/1-s2.0-S2468823122003078-gr13.jpg?httpAccept=%2A%2F%2A",
+            "@multimediatype": "JPEG image file",
+            "@type": "IMAGE-DOWNSAMPLED",
+            "@size": "92155",
+            "@ref": "gr13",
+            "@mimetype": "image/jpeg"
+          },
+          {
+            "@category": "standard",
+            "@height": "631",
+            "@width": "710",
+            "@_fa": "true",
+            "$": "https://api.elsevier.com/content/object/eid/1-s2.0-S2468823122003078-gr14.jpg?httpAccept=%2A%2F%2A",
+            "@multimediatype": "JPEG image file",
+            "@type": "IMAGE-DOWNSAMPLED",
+            "@size": "158223",
+            "@ref": "gr14",
+            "@mimetype": "image/jpeg"
+          },
+          {
+            "@category": "standard",
+            "@height": "600",
+            "@width": "706",
+            "@_fa": "true",
+            "$": "https://api.elsevier.com/content/object/eid/1-s2.0-S2468823122003078-gr11.jpg?httpAccept=%2A%2F%2A",
+            "@multimediatype": "JPEG image file",
+            "@type": "IMAGE-DOWNSAMPLED",
+            "@size": "157188",
+            "@ref": "gr11",
+            "@mimetype": "image/jpeg"
+          },
+          {
+            "@category": "standard",
+            "@height": "614",
+            "@width": "715",
+            "@_fa": "true",
+            "$": "https://api.elsevier.com/content/object/eid/1-s2.0-S2468823122003078-gr12.jpg?httpAccept=%2A%2F%2A",
+            "@multimediatype": "JPEG image file",
+            "@type": "IMAGE-DOWNSAMPLED",
+            "@size": "112009",
+            "@ref": "gr12",
+            "@mimetype": "image/jpeg"
+          },
+          {
+            "@category": "standard",
+            "@height": "253",
+            "@width": "702",
+            "@_fa": "true",
+            "$": "https://api.elsevier.com/content/object/eid/1-s2.0-S2468823122003078-gr2.jpg?httpAccept=%2A%2F%2A",
+            "@multimediatype": "JPEG image file",
+            "@type": "IMAGE-DOWNSAMPLED",
+            "@size": "140183",
+            "@ref": "gr2",
+            "@mimetype": "image/jpeg"
+          },
+          {
+            "@category": "standard",
+            "@height": "325",
+            "@width": "376",
+            "@_fa": "true",
+            "$": "https://api.elsevier.com/content/object/eid/1-s2.0-S2468823122003078-gr3.jpg?httpAccept=%2A%2F%2A",
+            "@multimediatype": "JPEG image file",
+            "@type": "IMAGE-DOWNSAMPLED",
+            "@size": "23499",
+            "@ref": "gr3",
+            "@mimetype": "image/jpeg"
+          },
+          {
+            "@category": "standard",
+            "@height": "583",
+            "@width": "715",
+            "@_fa": "true",
+            "$": "https://api.elsevier.com/content/object/eid/1-s2.0-S2468823122003078-gr10.jpg?httpAccept=%2A%2F%2A",
+            "@multimediatype": "JPEG image file",
+            "@type": "IMAGE-DOWNSAMPLED",
+            "@size": "114397",
+            "@ref": "gr10",
+            "@mimetype": "image/jpeg"
+          },
+          {
+            "@category": "standard",
+            "@height": "454",
+            "@width": "565",
+            "@_fa": "true",
+            "$": "https://api.elsevier.com/content/object/eid/1-s2.0-S2468823122003078-gr1.jpg?httpAccept=%2A%2F%2A",
+            "@multimediatype": "JPEG image file",
+            "@type": "IMAGE-DOWNSAMPLED",
+            "@size": "146882",
+            "@ref": "gr1",
+            "@mimetype": "image/jpeg"
+          },
+          {
+            "@category": "standard",
+            "@height": "304",
+            "@width": "698",
+            "@_fa": "true",
+            "$": "https://api.elsevier.com/content/object/eid/1-s2.0-S2468823122003078-gr6.jpg?httpAccept=%2A%2F%2A",
+            "@multimediatype": "JPEG image file",
+            "@type": "IMAGE-DOWNSAMPLED",
+            "@size": "40827",
+            "@ref": "gr6",
+            "@mimetype": "image/jpeg"
+          },
+          {
+            "@category": "standard",
+            "@height": "431",
+            "@width": "715",
+            "@_fa": "true",
+            "$": "https://api.elsevier.com/content/object/eid/1-s2.0-S2468823122003078-gr4.jpg?httpAccept=%2A%2F%2A",
+            "@multimediatype": "JPEG image file",
+            "@type": "IMAGE-DOWNSAMPLED",
+            "@size": "205426",
+            "@ref": "gr4",
+            "@mimetype": "image/jpeg"
+          },
+          {
+            "@category": "standard",
+            "@height": "606",
+            "@width": "666",
+            "@_fa": "true",
+            "$": "https://api.elsevier.com/content/object/eid/1-s2.0-S2468823122003078-gr5.jpg?httpAccept=%2A%2F%2A",
+            "@multimediatype": "JPEG image file",
+            "@type": "IMAGE-DOWNSAMPLED",
+            "@size": "64604",
+            "@ref": "gr5",
+            "@mimetype": "image/jpeg"
+          },
+          {
+            "@category": "thumbnail",
+            "@height": "104",
+            "@width": "219",
+            "@_fa": "true",
+            "$": "https://api.elsevier.com/content/object/eid/1-s2.0-S2468823122003078-gr8.sml?httpAccept=%2A%2F%2A",
+            "@multimediatype": "GIF image file",
+            "@type": "IMAGE-THUMBNAIL",
+            "@size": "8395",
+            "@ref": "gr8",
+            "@mimetype": "image/gif"
+          },
+          {
+            "@category": "thumbnail",
+            "@height": "164",
+            "@width": "198",
+            "@_fa": "true",
+            "$": "https://api.elsevier.com/content/object/eid/1-s2.0-S2468823122003078-gr9.sml?httpAccept=%2A%2F%2A",
+            "@multimediatype": "GIF image file",
+            "@type": "IMAGE-THUMBNAIL",
+            "@size": "13051",
+            "@ref": "gr9",
+            "@mimetype": "image/gif"
+          },
+          {
+            "@category": "thumbnail",
+            "@height": "164",
+            "@width": "185",
+            "@_fa": "true",
+            "$": "https://api.elsevier.com/content/object/eid/1-s2.0-S2468823122003078-ga1.sml?httpAccept=%2A%2F%2A",
+            "@multimediatype": "GIF image file",
+            "@type": "IMAGE-THUMBNAIL",
+            "@size": "17396",
+            "@ref": "ga1",
+            "@mimetype": "image/gif"
+          },
+          {
+            "@category": "thumbnail",
+            "@height": "163",
+            "@width": "125",
+            "@_fa": "true",
+            "$": "https://api.elsevier.com/content/object/eid/1-s2.0-S2468823122003078-gr7a.sml?httpAccept=%2A%2F%2A",
+            "@multimediatype": "GIF image file",
+            "@type": "IMAGE-THUMBNAIL",
+            "@size": "10030",
+            "@ref": "gr7a",
+            "@mimetype": "image/gif"
+          },
+          {
+            "@category": "thumbnail",
+            "@height": "163",
+            "@width": "188",
+            "@_fa": "true",
+            "$": "https://api.elsevier.com/content/object/eid/1-s2.0-S2468823122003078-gr7b.sml?httpAccept=%2A%2F%2A",
+            "@multimediatype": "GIF image file",
+            "@type": "IMAGE-THUMBNAIL",
+            "@size": "11747",
+            "@ref": "gr7b",
+            "@mimetype": "image/gif"
+          },
+          {
+            "@category": "thumbnail",
+            "@height": "164",
+            "@width": "183",
+            "@_fa": "true",
+            "$": "https://api.elsevier.com/content/object/eid/1-s2.0-S2468823122003078-gr15.sml?httpAccept=%2A%2F%2A",
+            "@multimediatype": "GIF image file",
+            "@type": "IMAGE-THUMBNAIL",
+            "@size": "6423",
+            "@ref": "gr15",
+            "@mimetype": "image/gif"
+          },
+          {
+            "@category": "thumbnail",
+            "@height": "164",
+            "@width": "189",
+            "@_fa": "true",
+            "$": "https://api.elsevier.com/content/object/eid/1-s2.0-S2468823122003078-gr13.sml?httpAccept=%2A%2F%2A",
+            "@multimediatype": "GIF image file",
+            "@type": "IMAGE-THUMBNAIL",
+            "@size": "10548",
+            "@ref": "gr13",
+            "@mimetype": "image/gif"
+          },
+          {
+            "@category": "thumbnail",
+            "@height": "163",
+            "@width": "184",
+            "@_fa": "true",
+            "$": "https://api.elsevier.com/content/object/eid/1-s2.0-S2468823122003078-gr14.sml?httpAccept=%2A%2F%2A",
+            "@multimediatype": "GIF image file",
+            "@type": "IMAGE-THUMBNAIL",
+            "@size": "16709",
+            "@ref": "gr14",
+            "@mimetype": "image/gif"
+          },
+          {
+            "@category": "thumbnail",
+            "@height": "164",
+            "@width": "193",
+            "@_fa": "true",
+            "$": "https://api.elsevier.com/content/object/eid/1-s2.0-S2468823122003078-gr11.sml?httpAccept=%2A%2F%2A",
+            "@multimediatype": "GIF image file",
+            "@type": "IMAGE-THUMBNAIL",
+            "@size": "15480",
+            "@ref": "gr11",
+            "@mimetype": "image/gif"
+          },
+          {
+            "@category": "thumbnail",
+            "@height": "164",
+            "@width": "191",
+            "@_fa": "true",
+            "$": "https://api.elsevier.com/content/object/eid/1-s2.0-S2468823122003078-gr12.sml?httpAccept=%2A%2F%2A",
+            "@multimediatype": "GIF image file",
+            "@type": "IMAGE-THUMBNAIL",
+            "@size": "12265",
+            "@ref": "gr12",
+            "@mimetype": "image/gif"
+          },
+          {
+            "@category": "thumbnail",
+            "@height": "79",
+            "@width": "219",
+            "@_fa": "true",
+            "$": "https://api.elsevier.com/content/object/eid/1-s2.0-S2468823122003078-gr2.sml?httpAccept=%2A%2F%2A",
+            "@multimediatype": "GIF image file",
+            "@type": "IMAGE-THUMBNAIL",
+            "@size": "16509",
+            "@ref": "gr2",
+            "@mimetype": "image/gif"
+          },
+          {
+            "@category": "thumbnail",
+            "@height": "163",
+            "@width": "189",
+            "@_fa": "true",
+            "$": "https://api.elsevier.com/content/object/eid/1-s2.0-S2468823122003078-gr3.sml?httpAccept=%2A%2F%2A",
+            "@multimediatype": "GIF image file",
+            "@type": "IMAGE-THUMBNAIL",
+            "@size": "7784",
+            "@ref": "gr3",
+            "@mimetype": "image/gif"
+          },
+          {
+            "@category": "thumbnail",
+            "@height": "164",
+            "@width": "201",
+            "@_fa": "true",
+            "$": "https://api.elsevier.com/content/object/eid/1-s2.0-S2468823122003078-gr10.sml?httpAccept=%2A%2F%2A",
+            "@multimediatype": "GIF image file",
+            "@type": "IMAGE-THUMBNAIL",
+            "@size": "12881",
+            "@ref": "gr10",
+            "@mimetype": "image/gif"
+          },
+          {
+            "@category": "thumbnail",
+            "@height": "164",
+            "@width": "204",
+            "@_fa": "true",
+            "$": "https://api.elsevier.com/content/object/eid/1-s2.0-S2468823122003078-gr1.sml?httpAccept=%2A%2F%2A",
+            "@multimediatype": "GIF image file",
+            "@type": "IMAGE-THUMBNAIL",
+            "@size": "26551",
+            "@ref": "gr1",
+            "@mimetype": "image/gif"
+          },
+          {
+            "@category": "thumbnail",
+            "@height": "95",
+            "@width": "219",
+            "@_fa": "true",
+            "$": "https://api.elsevier.com/content/object/eid/1-s2.0-S2468823122003078-gr6.sml?httpAccept=%2A%2F%2A",
+            "@multimediatype": "GIF image file",
+            "@type": "IMAGE-THUMBNAIL",
+            "@size": "7551",
+            "@ref": "gr6",
+            "@mimetype": "image/gif"
+          },
+          {
+            "@category": "thumbnail",
+            "@height": "132",
+            "@width": "219",
+            "@_fa": "true",
+            "$": "https://api.elsevier.com/content/object/eid/1-s2.0-S2468823122003078-gr4.sml?httpAccept=%2A%2F%2A",
+            "@multimediatype": "GIF image file",
+            "@type": "IMAGE-THUMBNAIL",
+            "@size": "25443",
+            "@ref": "gr4",
+            "@mimetype": "image/gif"
+          },
+          {
+            "@category": "thumbnail",
+            "@height": "164",
+            "@width": "180",
+            "@_fa": "true",
+            "$": "https://api.elsevier.com/content/object/eid/1-s2.0-S2468823122003078-gr5.sml?httpAccept=%2A%2F%2A",
+            "@multimediatype": "GIF image file",
+            "@type": "IMAGE-THUMBNAIL",
+            "@size": "8524",
+            "@ref": "gr5",
+            "@mimetype": "image/gif"
+          },
+          {
+            "@category": "high",
+            "@height": "1431",
+            "@width": "3000",
+            "@_fa": "true",
+            "$": "https://api.elsevier.com/content/object/eid/1-s2.0-S2468823122003078-gr8_lrg.jpg?httpAccept=%2A%2F%2A",
+            "@multimediatype": "JPEG image file",
+            "@type": "IMAGE-HIGH-RES",
+            "@size": "307177",
+            "@ref": "gr8",
+            "@mimetype": "image/jpeg"
+          },
+          {
+            "@category": "high",
+            "@height": "2619",
+            "@width": "3167",
+            "@_fa": "true",
+            "$": "https://api.elsevier.com/content/object/eid/1-s2.0-S2468823122003078-gr9_lrg.jpg?httpAccept=%2A%2F%2A",
+            "@multimediatype": "JPEG image file",
+            "@type": "IMAGE-HIGH-RES",
+            "@size": "844208",
+            "@ref": "gr9",
+            "@mimetype": "image/jpeg"
+          },
+          {
+            "@category": "high",
+            "@height": "886",
+            "@width": "999",
+            "@_fa": "true",
+            "$": "https://api.elsevier.com/content/object/eid/1-s2.0-S2468823122003078-ga1_lrg.jpg?httpAccept=%2A%2F%2A",
+            "@multimediatype": "JPEG image file",
+            "@type": "IMAGE-HIGH-RES",
+            "@size": "219659",
+            "@ref": "ga1",
+            "@mimetype": "image/jpeg"
+          },
+          {
+            "@category": "high",
+            "@height": "3911",
+            "@width": "3000",
+            "@_fa": "true",
+            "$": "https://api.elsevier.com/content/object/eid/1-s2.0-S2468823122003078-gr7a_lrg.jpg?httpAccept=%2A%2F%2A",
+            "@multimediatype": "JPEG image file",
+            "@type": "IMAGE-HIGH-RES",
+            "@size": "1149886",
+            "@ref": "gr7a",
+            "@mimetype": "image/jpeg"
+          },
+          {
+            "@category": "high",
+            "@height": "2608",
+            "@width": "3000",
+            "@_fa": "true",
+            "$": "https://api.elsevier.com/content/object/eid/1-s2.0-S2468823122003078-gr7b_lrg.jpg?httpAccept=%2A%2F%2A",
+            "@multimediatype": "JPEG image file",
+            "@type": "IMAGE-HIGH-RES",
+            "@size": "745882",
+            "@ref": "gr7b",
+            "@mimetype": "image/jpeg"
+          },
+          {
+            "@category": "high",
+            "@height": "1464",
+            "@width": "1632",
+            "@_fa": "true",
+            "$": "https://api.elsevier.com/content/object/eid/1-s2.0-S2468823122003078-gr15_lrg.jpg?httpAccept=%2A%2F%2A",
+            "@multimediatype": "JPEG image file",
+            "@type": "IMAGE-HIGH-RES",
+            "@size": "131545",
+            "@ref": "gr15",
+            "@mimetype": "image/jpeg"
+          },
+          {
+            "@category": "high",
+            "@height": "2748",
+            "@width": "3167",
+            "@_fa": "true",
+            "$": "https://api.elsevier.com/content/object/eid/1-s2.0-S2468823122003078-gr13_lrg.jpg?httpAccept=%2A%2F%2A",
+            "@multimediatype": "JPEG image file",
+            "@type": "IMAGE-HIGH-RES",
+            "@size": "661895",
+            "@ref": "gr13",
+            "@mimetype": "image/jpeg"
+          },
+          {
+            "@category": "high",
+            "@height": "2795",
+            "@width": "3146",
+            "@_fa": "true",
+            "$": "https://api.elsevier.com/content/object/eid/1-s2.0-S2468823122003078-gr14_lrg.jpg?httpAccept=%2A%2F%2A",
+            "@multimediatype": "JPEG image file",
+            "@type": "IMAGE-HIGH-RES",
+            "@size": "1209075",
+            "@ref": "gr14",
+            "@mimetype": "image/jpeg"
+          },
+          {
+            "@category": "high",
+            "@height": "2655",
+            "@width": "3126",
+            "@_fa": "true",
+            "$": "https://api.elsevier.com/content/object/eid/1-s2.0-S2468823122003078-gr11_lrg.jpg?httpAccept=%2A%2F%2A",
+            "@multimediatype": "JPEG image file",
+            "@type": "IMAGE-HIGH-RES",
+            "@size": "1116865",
+            "@ref": "gr11",
+            "@mimetype": "image/jpeg"
+          },
+          {
+            "@category": "high",
+            "@height": "2719",
+            "@width": "3167",
+            "@_fa": "true",
+            "$": "https://api.elsevier.com/content/object/eid/1-s2.0-S2468823122003078-gr12_lrg.jpg?httpAccept=%2A%2F%2A",
+            "@multimediatype": "JPEG image file",
+            "@type": "IMAGE-HIGH-RES",
+            "@size": "804731",
+            "@ref": "gr12",
+            "@mimetype": "image/jpeg"
+          },
+          {
+            "@category": "high",
+            "@height": "1121",
+            "@width": "3110",
+            "@_fa": "true",
+            "$": "https://api.elsevier.com/content/object/eid/1-s2.0-S2468823122003078-gr2_lrg.jpg?httpAccept=%2A%2F%2A",
+            "@multimediatype": "JPEG image file",
+            "@type": "IMAGE-HIGH-RES",
+            "@size": "1006214",
+            "@ref": "gr2",
+            "@mimetype": "image/jpeg"
+          },
+          {
+            "@category": "high",
+            "@height": "1442",
+            "@width": "1667",
+            "@_fa": "true",
+            "$": "https://api.elsevier.com/content/object/eid/1-s2.0-S2468823122003078-gr3_lrg.jpg?httpAccept=%2A%2F%2A",
+            "@multimediatype": "JPEG image file",
+            "@type": "IMAGE-HIGH-RES",
+            "@size": "155942",
+            "@ref": "gr3",
+            "@mimetype": "image/jpeg"
+          },
+          {
+            "@category": "high",
+            "@height": "2582",
+            "@width": "3167",
+            "@_fa": "true",
+            "$": "https://api.elsevier.com/content/object/eid/1-s2.0-S2468823122003078-gr10_lrg.jpg?httpAccept=%2A%2F%2A",
+            "@multimediatype": "JPEG image file",
+            "@type": "IMAGE-HIGH-RES",
+            "@size": "838315",
+            "@ref": "gr10",
+            "@mimetype": "image/jpeg"
+          },
+          {
+            "@category": "high",
+            "@height": "2007",
+            "@width": "2500",
+            "@_fa": "true",
+            "$": "https://api.elsevier.com/content/object/eid/1-s2.0-S2468823122003078-gr1_lrg.jpg?httpAccept=%2A%2F%2A",
+            "@multimediatype": "JPEG image file",
+            "@type": "IMAGE-HIGH-RES",
+            "@size": "1033950",
+            "@ref": "gr1",
+            "@mimetype": "image/jpeg"
+          },
+          {
+            "@category": "high",
+            "@height": "1348",
+            "@width": "3092",
+            "@_fa": "true",
+            "$": "https://api.elsevier.com/content/object/eid/1-s2.0-S2468823122003078-gr6_lrg.jpg?httpAccept=%2A%2F%2A",
+            "@multimediatype": "JPEG image file",
+            "@type": "IMAGE-HIGH-RES",
+            "@size": "283903",
+            "@ref": "gr6",
+            "@mimetype": "image/jpeg"
+          },
+          {
+            "@category": "high",
+            "@height": "1907",
+            "@width": "3167",
+            "@_fa": "true",
+            "$": "https://api.elsevier.com/content/object/eid/1-s2.0-S2468823122003078-gr4_lrg.jpg?httpAccept=%2A%2F%2A",
+            "@multimediatype": "JPEG image file",
+            "@type": "IMAGE-HIGH-RES",
+            "@size": "1702543",
+            "@ref": "gr4",
+            "@mimetype": "image/jpeg"
+          },
+          {
+            "@category": "high",
+            "@height": "2683",
+            "@width": "2949",
+            "@_fa": "true",
+            "$": "https://api.elsevier.com/content/object/eid/1-s2.0-S2468823122003078-gr5_lrg.jpg?httpAccept=%2A%2F%2A",
+            "@multimediatype": "JPEG image file",
+            "@type": "IMAGE-HIGH-RES",
+            "@size": "461065",
+            "@ref": "gr5",
+            "@mimetype": "image/jpeg"
+          },
+          {
+            "@category": "thumbnail",
+            "@_fa": "true",
+            "$": "https://api.elsevier.com/content/object/eid/1-s2.0-S2468823122003078-si1.svg?httpAccept=%2A%2F%2A",
+            "@multimediatype": "Scalable Vector Graphics file",
+            "@type": "ALTIMG",
+            "@size": "4739",
+            "@ref": "si1",
+            "@mimetype": "image/svg+xml"
+          },
+          {
+            "@category": "thumbnail",
+            "@_fa": "true",
+            "$": "https://api.elsevier.com/content/object/eid/1-s2.0-S2468823122003078-si10.svg?httpAccept=%2A%2F%2A",
+            "@multimediatype": "Scalable Vector Graphics file",
+            "@type": "ALTIMG",
+            "@size": "9597",
+            "@ref": "si10",
+            "@mimetype": "image/svg+xml"
+          },
+          {
+            "@category": "thumbnail",
+            "@_fa": "true",
+            "$": "https://api.elsevier.com/content/object/eid/1-s2.0-S2468823122003078-si2.svg?httpAccept=%2A%2F%2A",
+            "@multimediatype": "Scalable Vector Graphics file",
+            "@type": "ALTIMG",
+            "@size": "12302",
+            "@ref": "si2",
+            "@mimetype": "image/svg+xml"
+          },
+          {
+            "@category": "thumbnail",
+            "@_fa": "true",
+            "$": "https://api.elsevier.com/content/object/eid/1-s2.0-S2468823122003078-si3.svg?httpAccept=%2A%2F%2A",
+            "@multimediatype": "Scalable Vector Graphics file",
+            "@type": "ALTIMG",
+            "@size": "14064",
+            "@ref": "si3",
+            "@mimetype": "image/svg+xml"
+          },
+          {
+            "@category": "thumbnail",
+            "@_fa": "true",
+            "$": "https://api.elsevier.com/content/object/eid/1-s2.0-S2468823122003078-si4.svg?httpAccept=%2A%2F%2A",
+            "@multimediatype": "Scalable Vector Graphics file",
+            "@type": "ALTIMG",
+            "@size": "3800",
+            "@ref": "si4",
+            "@mimetype": "image/svg+xml"
+          },
+          {
+            "@category": "thumbnail",
+            "@_fa": "true",
+            "$": "https://api.elsevier.com/content/object/eid/1-s2.0-S2468823122003078-si5.svg?httpAccept=%2A%2F%2A",
+            "@multimediatype": "Scalable Vector Graphics file",
+            "@type": "ALTIMG",
+            "@size": "6005",
+            "@ref": "si5",
+            "@mimetype": "image/svg+xml"
+          },
+          {
+            "@category": "thumbnail",
+            "@_fa": "true",
+            "$": "https://api.elsevier.com/content/object/eid/1-s2.0-S2468823122003078-si6.svg?httpAccept=%2A%2F%2A",
+            "@multimediatype": "Scalable Vector Graphics file",
+            "@type": "ALTIMG",
+            "@size": "17960",
+            "@ref": "si6",
+            "@mimetype": "image/svg+xml"
+          },
+          {
+            "@category": "thumbnail",
+            "@_fa": "true",
+            "$": "https://api.elsevier.com/content/object/eid/1-s2.0-S2468823122003078-si7.svg?httpAccept=%2A%2F%2A",
+            "@multimediatype": "Scalable Vector Graphics file",
+            "@type": "ALTIMG",
+            "@size": "17874",
+            "@ref": "si7",
+            "@mimetype": "image/svg+xml"
+          },
+          {
+            "@category": "thumbnail",
+            "@_fa": "true",
+            "$": "https://api.elsevier.com/content/object/eid/1-s2.0-S2468823122003078-si8.svg?httpAccept=%2A%2F%2A",
+            "@multimediatype": "Scalable Vector Graphics file",
+            "@type": "ALTIMG",
+            "@size": "3501",
+            "@ref": "si8",
+            "@mimetype": "image/svg+xml"
+          },
+          {
+            "@category": "thumbnail",
+            "@_fa": "true",
+            "$": "https://api.elsevier.com/content/object/eid/1-s2.0-S2468823122003078-si9.svg?httpAccept=%2A%2F%2A",
+            "@multimediatype": "Scalable Vector Graphics file",
+            "@type": "ALTIMG",
+            "@size": "5871",
+            "@ref": "si9",
+            "@mimetype": "image/svg+xml"
+          },
+          {
+            "@category": "standard",
+            "@_fa": "true",
+            "$": "https://api.elsevier.com/content/object/eid/1-s2.0-S2468823122003078-am.pdf?httpAccept=%2A%2F%2A",
+            "@multimediatype": "Acrobat PDF file",
+            "@type": "AAM-PDF",
+            "@size": "2975850",
+            "@ref": "am",
+            "@mimetype": "application/pdf"
+          }
+        ]
+      },
+      "link": {
+        "@rel": "abstract",
+        "@href": "https://api.elsevier.com/content/abstract/scopus_id/85132820406"
+      }
+    }
+  }
+}

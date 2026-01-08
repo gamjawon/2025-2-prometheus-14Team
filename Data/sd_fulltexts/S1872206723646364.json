@@ -1,0 +1,624 @@
+{
+  "metadata": {
+    "title": "Construction of efficient and stable low-temperature reverse-bias bipolar membrane electrolyser for CO<ce:inf loc=post>2</ce:inf> reduction",
+    "authors": "; ; ",
+    "journal": "Chinese Journal of Catalysis",
+    "date": "2024-04-30",
+    "doi": "10.1016/S1872-2067(23)64636-4",
+    "abstract": "",
+    "uri": "https://api.elsevier.com/content/article/pii/S1872206723646364",
+    "pii": "S1872206723646364"
+  },
+  "fulltext": {
+    "full-text-retrieval-response": {
+      "scopus-eid": "2-s2.0-85191655949",
+      "originalText": "serial JL 273538 291210 291744 291809 31 Chinese Journal of Catalysis CHINESEJOURNALCATALYSIS 2024-04-30 2024-04-30 2024-04-30 2024-04-30 2024-04-30T07:57:15 1-s2.0-S1872206723646364 S1872-2067(23)64636-4 S1872206723646364 10.1016/S1872-2067(23)64636-4 S300 S300.1 FULL-TEXT 1-s2.0-S1872206724X00054 2024-05-08T04:32:31.025308Z 0 0 20240401 20240430 2024 2024-04-30T08:22:58.194294Z absattachment articleinfo articletitlenorm authfirstinitialnorm authfirstsurnamenorm cid cids contenttype copyright crossmark dateloaded dateloadedtxt datesearch datesort dateupdated dco docsubtype doctype doi eid ewtransactionid hubeid indexeddate issn issnnorm itemstage itemtransactionid itemweight openaccess openarchive pg pgfirst pglast pii piinorm pubdateend pubdatestart pubdatetxt pubyr sortorder srctitle srctitlenorm srctype ssids alllist content subj subheadings suppl tomb volfirst volissue volumelist webpdf webpdfpagecount yearnav figure table body mmlmath affil articletitle auth authfirstini authfull authkeywords authlast grantnumber grantsponsor primabst pubtype ref specialabst vitae 1872-2067 18722067 true 59 59 C Volume 59 6 82 96 82 96 202404 April 2024 2024-04-01 2024-04-30 2024 article rev Copyright © 2024 Dalian Institute of Chemical Physics, the Chinese Academy of Sciences. Published by Elsevier B.V. All rights reserved. CONSTRUCTIONEFFICIENTSTABLELOWTEMPERATUREREVERSEBIASBIPOLARMEMBRANEELECTROLYSERFORCO2REDUCTION XIE Y 1 Introduction 2 Bipolar membrane 2.1 Operation mode of bipolar membrane 2.2 Voltage break down in BPM 2.2.1 Thermodynamic potential 2.2.2 Water dissociation 2.3 Optimisation of membrane 3 Reverse-bias BPM electrolyser 3.1 Flow cell electrolyser 3.2 Membrane-electrode-assembly (MEA) electrolyser 3.3 CO2 electrolyser with solid-state electrolyte 4 Summary and perspective References WAKERLEY 2022 130 143 D MASEL 2021 118 128 R BUSHUYEV 2018 825 832 O MA 2020 478 487 W SISLER 2021 997 1002 J SHIN 2021 911 919 H CHENG 2022 231 240 Y OVERA 2022 638 648 S RABINOWITZ 2020 5231 J OZDEN 2022 563 573 A COOK 1990 607 608 R DEARQUER 2020 661 666 F DINH 2018 783 787 C YANG 2021 33 40 K YUAN 2019 8 12 Y XU 2023 e230 D LV 2022 e202207252 J TANG 2022 140 158 J CHEN 2021 20 27 X GU 2021 429 440 Z VASS 2022 1037 1051 A SHE 2024 X ALKAYYALI 2023 4674 4683 T XIE 2022 3609 K SALVATORE 2018 149 154 D SIRITANARATKUL 2022 7551 7556 B YANG 2021 4291 4298 K HUANG 2021 1074 1078 J WEN 2022 978 988 G XIE 2022 564 570 Y ZHAO 2023 403 412 Y XU 2022 1081 1088 A XIE 2022 e202213423 M LI 2020 509 513 F ZHANG 2021 5745 G NWABARA 2020 855 875 U BLOMMAERT 2022 557 563 M COFELL 2021 15132 15142 E GU 2022 268 276 J OBRIEN 2021 2952 2959 C PRESTAT 2023 232469 M QIU 2024 921 954 C BLOMMAERT 2021 2539 2548 M MA 2020 8854 8861 M YAN 2021 33 40 Z GARG 2022 4440 4469 S XU 2023 108075 J QIU 2023 140942 Z WANG 2022 121390 H HARNISCH 2008 1740 1746 F ZHANG 2023 e202302789 Z YAN 2021 1156 1166 Z PARNAMAE 2021 118538 R LI 2021 14886 14896 Y MARIN 2023 765 781 D LI 2022 231754 Z ALDHUBHANI 2021 119748 E LI 2018 1700187 Y BUI 2024 45 60 J PATRU 2019 F34 F43 A BLOMMAERT 2021 11179 11186 M LI 2021 2004243 L BLOMMAERT 2019 19060 19069 M DONNAN 1995 45 55 F AYDOGANGOKTURK 2022 5880 P GALAMA 2013 131 139 A CHEN 2000 2866 2871 T KHALID 2022 989 H GIESBRECHT 2020 8060 8090 P WILHELM 2002 579 586 F VERMAAS 2018 2006 2015 D HOLDIK 1998 13 18 H OENER 2017 2625 2634 S REITER 2016 H3132 H3134 R OENER 2020 1099 1103 S YAN 2018 2235 2245 Z SIMONS 1985 275 282 R EIGEN 1954 194 205 M BUI 2021 24974 24987 J CHEN 2022 3846 L ONSAGER 1934 599 615 L KAISER 2013 1033 1037 V KUNST 1962 219 229 B MAFE 1998 406 412 S SIMONS 1979 824 826 R ZABOLOTSKII 2014 183 203 V RAMIREZ 1992 191 201 P CHEN 2023 1867 1886 L RAMIREZ 1994 101 108 P SALVATORE 2021 339 348 D KAMCEV 2016 111 133 J VOLGIN 2005 110 121 V ZIV 2018 109 113 N MAYERHOFER 2020 9635 9644 B OENER 2021 1 8 S SHEN 2017 1435 1442 C CHEN 2020 4559 4569 Y XU 2023 1619 Z BURDYNY 2019 1442 1453 T LIU 2019 639 643 K LAMOUREUX 2019 6194 6201 P LIU 2019 32 X OOKA 2017 9307 9313 H BONDUE 2021 279 285 C NIU 2021 4169 4176 Z KUHL 2012 7050 7059 K BIRDJA 2019 732 745 Y BAGGER 2017 3266 3273 A PENG 2022 2204476 C JIN 2023 724 729 J NAM 2020 266 276 D MONTEIRO 2021 654 662 M MONTEIRO 2021 4943 M MONTEIRO 2022 1589 1602 M XU 2022 e202200052 Z RINGE 2019 3001 3014 S PEREZGALLENT 2017 16412 16419 E RESASCO 2017 11277 11287 J ZHENG 2019 265 278 T LIU 2018 J3371 J3377 Z GABARDO 2019 2777 2791 C VENNEKOETTER 2019 89 101 J BRIGHTMAN 2015 1 4 E YANO 2002 113 118 H ZHANG 2023 e202300829 J FAN 2023 763 772 M LI 2023 e202300226 L WUTTIG 2021 17042 17050 A ZHANG 2014 3742 3748 Y CAVE 2018 3035 3040 E JIANG 2023 2203603 Z PAN 2022 4224 4231 B GREENBLATT 2018 381 420 J XIA 2019 776 785 C FAN 2020 3633 L KIM 2022 288 299 J MIAO 2021 2742 2753 R XU 2022 1333 1343 Y WANG 2022 2201278 S TOH 2023 1405 1416 W ZHU 2021 e2010868118 P XIEX2024X82 XIEX2024X82X96 XIEX2024X82XY XIEX2024X82X96XY 2026-04-30T00:00:00.000Z 2026-04-30T00:00:00.000Z http://creativecommons.org/licenses/by-nc-nd/4.0/ 2024-05-08T04:03:57.022Z http://vtw.elsevier.com/data/voc/AddOnTypes/50.7/aggregated-refined Research Grants Council of the Hong Kong Special Administrative Region 14305323 研究資助局 Research Grants Council, University Grants Committee http://data.elsevier.com/vocabulary/SciValFunders/501100002920 http://sws.geonames.org/1819730/ Excellent Young Scientist Fund Excellent Young Scientists Fund http://data.elsevier.com/vocabulary/SciValFunders/501100010909 http://sws.geonames.org/1814991/ National Natural Science Foundation of China 22222208 NSFC National Natural Science Foundation of China http://data.elsevier.com/vocabulary/SciValFunders/501100001809 http://sws.geonames.org/1814991/ This work was supported by the Excellent Young Scientist Fund (Hong Kong and Macau) from the National Natural Science Foundation of China (22222208) and Research Grants Council of the Hong Kong Special Administrative Region (14305323). item S1872-2067(23)64636-4 S1872206723646364 1-s2.0-S1872206723646364 10.1016/S1872-2067(23)64636-4 273538 2024-04-30T07:22:58.194294Z 2024-04-01 2024-04-30 1-s2.0-S1872206723646364-main.pdf https://s3-eu-west-1.amazonaws.com/prod-ucs-content-store-eu-west/content/pii:S1872206723646364/MAIN/application/pdf/6ebb82973875eac918827144b5324783/main.pdf main.pdf pdf true 7890133 MAIN 15 1-s2.0-S1872206723646364-main_1.png https://s3-eu-west-1.amazonaws.com/prod-ucs-content-store-eu-west/content/pii:S1872206723646364/PREVIEW/image/png/a86f2b56e1afba025917e7d924e0bbeb/main_1.png main_1.png png 53920 849 656 IMAGE-WEB-PDF 1 1-s2.0-S1872206723646364-fx1.jpg https://s3-eu-west-1.amazonaws.com/prod-ucs-content-store-eu-west/content/pii:S1872206723646364/fx1/DOWNSAMPLED/image/jpeg/5b2086fa180c2bfcc41999173b9e6e57/fx1.jpg fx1 true fx1.jpg jpg 28506 245 247 IMAGE-DOWNSAMPLED 1-s2.0-S1872206723646364-fx2.jpg https://s3-eu-west-1.amazonaws.com/prod-ucs-content-store-eu-west/content/pii:S1872206723646364/fx2/DOWNSAMPLED/image/jpeg/4ac8634cc9a731672f36f436c1a6faa1/fx2.jpg fx2 fx2.jpg jpg 10594 220 178 IMAGE-DOWNSAMPLED 1-s2.0-S1872206723646364-gr1.jpg https://s3-eu-west-1.amazonaws.com/prod-ucs-content-store-eu-west/content/pii:S1872206723646364/gr1/DOWNSAMPLED/image/jpeg/17cc1284c356b9d736214385e332008f/gr1.jpg gr1 gr1.jpg jpg 68269 388 636 IMAGE-DOWNSAMPLED 1-s2.0-S1872206723646364-gr2.jpg https://s3-eu-west-1.amazonaws.com/prod-ucs-content-store-eu-west/content/pii:S1872206723646364/gr2/DOWNSAMPLED/image/jpeg/261ae5428630cd2bbaf7d298f5dde7f4/gr2.jpg gr2 gr2.jpg jpg 40653 307 309 IMAGE-DOWNSAMPLED 1-s2.0-S1872206723646364-gr3.jpg https://s3-eu-west-1.amazonaws.com/prod-ucs-content-store-eu-west/content/pii:S1872206723646364/gr3/DOWNSAMPLED/image/jpeg/0b97f666edc431aaa6c6667aa7ae6623/gr3.jpg gr3 gr3.jpg jpg 31119 330 361 IMAGE-DOWNSAMPLED 1-s2.0-S1872206723646364-gr4.jpg https://s3-eu-west-1.amazonaws.com/prod-ucs-content-store-eu-west/content/pii:S1872206723646364/gr4/DOWNSAMPLED/image/jpeg/db478f008860a5b45134c85baeb160b4/gr4.jpg gr4 gr4.jpg jpg 82422 473 678 IMAGE-DOWNSAMPLED 1-s2.0-S1872206723646364-gr5.jpg https://s3-eu-west-1.amazonaws.com/prod-ucs-content-store-eu-west/content/pii:S1872206723646364/gr5/DOWNSAMPLED/image/jpeg/722646422914c2366902de8a4ad2dcd2/gr5.jpg gr5 gr5.jpg jpg 161889 747 639 IMAGE-DOWNSAMPLED 1-s2.0-S1872206723646364-gr6.jpg https://s3-eu-west-1.amazonaws.com/prod-ucs-content-store-eu-west/content/pii:S1872206723646364/gr6/DOWNSAMPLED/image/jpeg/aa6a2a3c8588f787298e0f423762eb32/gr6.jpg gr6 gr6.jpg jpg 60563 210 748 IMAGE-DOWNSAMPLED 1-s2.0-S1872206723646364-gr7.jpg https://s3-eu-west-1.amazonaws.com/prod-ucs-content-store-eu-west/content/pii:S1872206723646364/gr7/DOWNSAMPLED/image/jpeg/2d72b612b36d445bb3da2a0c7a13afc5/gr7.jpg gr7 gr7.jpg jpg 94246 487 580 IMAGE-DOWNSAMPLED 1-s2.0-S1872206723646364-gr8.jpg https://s3-eu-west-1.amazonaws.com/prod-ucs-content-store-eu-west/content/pii:S1872206723646364/gr8/DOWNSAMPLED/image/jpeg/1b8daf0e9c6a8da5ba0394a2b5b28e86/gr8.jpg gr8 gr8.jpg jpg 59204 327 609 IMAGE-DOWNSAMPLED 1-s2.0-S1872206723646364-gr9.jpg https://s3-eu-west-1.amazonaws.com/prod-ucs-content-store-eu-west/content/pii:S1872206723646364/gr9/DOWNSAMPLED/image/jpeg/618bb15df66cfe090f2a65dfc1876ed7/gr9.jpg gr9 gr9.jpg jpg 95132 413 597 IMAGE-DOWNSAMPLED 1-s2.0-S1872206723646364-fx1.sml https://s3-eu-west-1.amazonaws.com/prod-ucs-content-store-eu-west/content/pii:S1872206723646364/fx1/THUMBNAIL/image/gif/1aa82aaf22100aa1d95ea56bdc4b697c/fx1.sml fx1 true fx1.sml sml 14378 164 165 IMAGE-THUMBNAIL 1-s2.0-S1872206723646364-fx2.sml https://s3-eu-west-1.amazonaws.com/prod-ucs-content-store-eu-west/content/pii:S1872206723646364/fx2/THUMBNAIL/image/gif/4d8244fc220f06401714f1defc2ff2e1/fx2.sml fx2 fx2.sml sml 15647 163 132 IMAGE-THUMBNAIL 1-s2.0-S1872206723646364-gr1.sml https://s3-eu-west-1.amazonaws.com/prod-ucs-content-store-eu-west/content/pii:S1872206723646364/gr1/THUMBNAIL/image/gif/818abd222ef531b3bf81fea07f64e57a/gr1.sml gr1 gr1.sml sml 11485 134 219 IMAGE-THUMBNAIL 1-s2.0-S1872206723646364-gr2.sml https://s3-eu-west-1.amazonaws.com/prod-ucs-content-store-eu-west/content/pii:S1872206723646364/gr2/THUMBNAIL/image/gif/f1851fb03aad84a4289d46982242c1cf/gr2.sml gr2 gr2.sml sml 12790 164 165 IMAGE-THUMBNAIL 1-s2.0-S1872206723646364-gr3.sml https://s3-eu-west-1.amazonaws.com/prod-ucs-content-store-eu-west/content/pii:S1872206723646364/gr3/THUMBNAIL/image/gif/130c7fe99f1fdc9d7162ac7f7c49a18a/gr3.sml gr3 gr3.sml sml 11516 164 179 IMAGE-THUMBNAIL 1-s2.0-S1872206723646364-gr4.sml https://s3-eu-west-1.amazonaws.com/prod-ucs-content-store-eu-west/content/pii:S1872206723646364/gr4/THUMBNAIL/image/gif/12cbc1f3741c84ce3f7334379a6494cf/gr4.sml gr4 gr4.sml sml 11109 153 219 IMAGE-THUMBNAIL 1-s2.0-S1872206723646364-gr5.sml https://s3-eu-west-1.amazonaws.com/prod-ucs-content-store-eu-west/content/pii:S1872206723646364/gr5/THUMBNAIL/image/gif/f1019edcc19381c16bcf14056f32b0fb/gr5.sml gr5 gr5.sml sml 12808 164 140 IMAGE-THUMBNAIL 1-s2.0-S1872206723646364-gr6.sml https://s3-eu-west-1.amazonaws.com/prod-ucs-content-store-eu-west/content/pii:S1872206723646364/gr6/MAIN/image/gif/7e5032f6a69157553ee919346a08e323/gr6.sml gr6 gr6.sml sml 10534 61 219 IMAGE-THUMBNAIL 1-s2.0-S1872206723646364-gr7.sml https://s3-eu-west-1.amazonaws.com/prod-ucs-content-store-eu-west/content/pii:S1872206723646364/gr7/THUMBNAIL/image/gif/6d3597722c1a89d613046e9261bec36c/gr7.sml gr7 gr7.sml sml 14070 164 195 IMAGE-THUMBNAIL 1-s2.0-S1872206723646364-gr8.sml https://s3-eu-west-1.amazonaws.com/prod-ucs-content-store-eu-west/content/pii:S1872206723646364/gr8/THUMBNAIL/image/gif/40042e90271261ecbc50f782d2d2eafd/gr8.sml gr8 gr8.sml sml 10128 118 219 IMAGE-THUMBNAIL 1-s2.0-S1872206723646364-gr9.sml https://s3-eu-west-1.amazonaws.com/prod-ucs-content-store-eu-west/content/pii:S1872206723646364/gr9/THUMBNAIL/image/gif/6e3dea8dfe3987b17f352a147cfb3cce/gr9.sml gr9 gr9.sml sml 15656 151 219 IMAGE-THUMBNAIL 1-s2.0-S1872206723646364-fx1_lrg.jpg https://s3-eu-west-1.amazonaws.com/prod-ucs-content-store-eu-west/content/pii:S1872206723646364/HIGHRES/image/jpeg/4e0ff9c4812137da817346e11ab35683/fx1_lrg.jpg fx1 true fx1_lrg.jpg jpg 109043 651 656 IMAGE-HIGH-RES 1-s2.0-S1872206723646364-fx2_lrg.jpg https://s3-eu-west-1.amazonaws.com/prod-ucs-content-store-eu-west/content/pii:S1872206723646364/HIGHRES/image/jpeg/6a42c17a261e185781a86033ccca57a2/fx2_lrg.jpg fx2 fx2_lrg.jpg jpg 56404 588 475 IMAGE-HIGH-RES 1-s2.0-S1872206723646364-gr1_lrg.jpg https://s3-eu-west-1.amazonaws.com/prod-ucs-content-store-eu-west/content/pii:S1872206723646364/HIGHRES/image/jpeg/1bb7a6b2156b321de59f7635650ca988/gr1_lrg.jpg gr1 gr1_lrg.jpg jpg 282182 1032 1690 IMAGE-HIGH-RES 1-s2.0-S1872206723646364-gr2_lrg.jpg https://s3-eu-west-1.amazonaws.com/prod-ucs-content-store-eu-west/content/pii:S1872206723646364/THUMBNAIL/image/jpeg/efd6fb522639163c6c0035a830e0877a/gr2_lrg.jpg gr2 gr2_lrg.jpg jpg 171866 816 822 IMAGE-HIGH-RES 1-s2.0-S1872206723646364-gr3_lrg.jpg https://s3-eu-west-1.amazonaws.com/prod-ucs-content-store-eu-west/content/pii:S1872206723646364/HIGHRES/image/jpeg/612497844d7bc12489576554b32214c4/gr3_lrg.jpg gr3 gr3_lrg.jpg jpg 135027 877 960 IMAGE-HIGH-RES 1-s2.0-S1872206723646364-gr4_lrg.jpg https://s3-eu-west-1.amazonaws.com/prod-ucs-content-store-eu-west/content/pii:S1872206723646364/HIGHRES/image/jpeg/02074361b0ebca7bc6e5c870d7b81a1a/gr4_lrg.jpg gr4 gr4_lrg.jpg jpg 331936 1256 1801 IMAGE-HIGH-RES 1-s2.0-S1872206723646364-gr5_lrg.jpg https://s3-eu-west-1.amazonaws.com/prod-ucs-content-store-eu-west/content/pii:S1872206723646364/HIGHRES/image/jpeg/adc495523e0405c1693e0099d3d8e8b9/gr5_lrg.jpg gr5 gr5_lrg.jpg jpg 709648 1984 1697 IMAGE-HIGH-RES 1-s2.0-S1872206723646364-gr6_lrg.jpg https://s3-eu-west-1.amazonaws.com/prod-ucs-content-store-eu-west/content/pii:S1872206723646364/HIGHRES/image/jpeg/a989fa3fcea8bd9d218daa983e95bcc7/gr6_lrg.jpg gr6 gr6_lrg.jpg jpg 306838 558 1988 IMAGE-HIGH-RES 1-s2.0-S1872206723646364-gr7_lrg.jpg https://s3-eu-west-1.amazonaws.com/prod-ucs-content-store-eu-west/content/pii:S1872206723646364/HIGHRES/image/jpeg/31266e8f997e87093d300b013e310572/gr7_lrg.jpg gr7 gr7_lrg.jpg jpg 419358 1294 1540 IMAGE-HIGH-RES 1-s2.0-S1872206723646364-gr8_lrg.jpg https://s3-eu-west-1.amazonaws.com/prod-ucs-content-store-eu-west/content/pii:S1872206723646364/HIGHRES/image/jpeg/f0e740e54fe0fc01e8757e085258c080/gr8_lrg.jpg gr8 gr8_lrg.jpg jpg 249010 869 1617 IMAGE-HIGH-RES 1-s2.0-S1872206723646364-gr9_lrg.jpg https://s3-eu-west-1.amazonaws.com/prod-ucs-content-store-eu-west/content/pii:S1872206723646364/HIGHRES/image/jpeg/4e5ddde8446e8c248a7f08797a5913cd/gr9_lrg.jpg gr9 gr9_lrg.jpg jpg 467024 1096 1586 IMAGE-HIGH-RES 1-s2.0-S1872206723646364-si1.gif https://s3-eu-west-1.amazonaws.com/prod-ucs-content-store-eu-west/content/pii:S1872206723646364/STRIPIN/image/gif/d6d932c6e37ef469918ded62a0a702d3/si1.gif si1 si1.gif gif 813 18 235 ALTIMG 1-s2.0-S1872206723646364-si10.gif https://s3-eu-west-1.amazonaws.com/prod-ucs-content-store-eu-west/content/pii:S1872206723646364/STRIPIN/image/gif/7829166915dbb71fbb36311a0d801b1d/si10.gif si10 si10.gif gif 561 19 172 ALTIMG 1-s2.0-S1872206723646364-si2.gif https://s3-eu-west-1.amazonaws.com/prod-ucs-content-store-eu-west/content/pii:S1872206723646364/STRIPIN/image/gif/bbd10e3dba25466cb0206b8daa30231c/si2.gif si2 si2.gif gif 815 41 136 ALTIMG 1-s2.0-S1872206723646364-si3.gif https://s3-eu-west-1.amazonaws.com/prod-ucs-content-store-eu-west/content/pii:S1872206723646364/STRIPIN/image/gif/ce65698e35f684d820246e7c8516abf3/si3.gif si3 si3.gif gif 886 53 116 ALTIMG 1-s2.0-S1872206723646364-si4.gif https://s3-eu-west-1.amazonaws.com/prod-ucs-content-store-eu-west/content/pii:S1872206723646364/STRIPIN/image/gif/8c35c72dab874ece0ad03b2f78292017/si4.gif si4 si4.gif gif 2340 57 346 ALTIMG 1-s2.0-S1872206723646364-si5.gif https://s3-eu-west-1.amazonaws.com/prod-ucs-content-store-eu-west/content/pii:S1872206723646364/STRIPIN/image/gif/73689b57c436c3054e6caacd0164f947/si5.gif si5 si5.gif gif 509 15 126 ALTIMG 1-s2.0-S1872206723646364-si6.gif https://s3-eu-west-1.amazonaws.com/prod-ucs-content-store-eu-west/content/pii:S1872206723646364/STRIPIN/image/gif/d601c3c45cb4c69b86294326a4866ba1/si6.gif si6 si6.gif gif 994 22 282 ALTIMG 1-s2.0-S1872206723646364-si7.gif https://s3-eu-west-1.amazonaws.com/prod-ucs-content-store-eu-west/content/pii:S1872206723646364/STRIPIN/image/gif/247b4c1d1e8f9e2b28f8e8dff16cf090/si7.gif si7 si7.gif gif 535 19 173 ALTIMG 1-s2.0-S1872206723646364-si8.gif https://s3-eu-west-1.amazonaws.com/prod-ucs-content-store-eu-west/content/pii:S1872206723646364/STRIPIN/image/gif/3ea6f31415655c15c756fd678fde4ac5/si8.gif si8 si8.gif gif 588 19 183 ALTIMG 1-s2.0-S1872206723646364-si9.gif https://s3-eu-west-1.amazonaws.com/prod-ucs-content-store-eu-west/content/pii:S1872206723646364/STRIPIN/image/gif/cfb3db36c0f4a924abeffd4da8e267fd/si9.gif si9 si9.gif gif 522 16 169 ALTIMG CHNJC 64636 S1872-2067(23)64636-4 10.1016/S1872-2067(23)64636-4 Dalian Institute of Chemical Physics, the Chinese Academy of Sciences Fig. 1 (a) Performance comparison of alkaline and acidic CO2RR electrolyser. Schematic illustration of CO2 electrolyser with AEM (b), CEM (c), forward-bias BPM (d), and reverse-bias BPM (e). (f) Different anode catalysts are used under acidic, alkaline, and neutral pH. (g) Current density and reaction time by using different anode catalysts [21]. Copyright 2022, American Chemical Society. Fig. 2 Summary diagram of advantages, challenges, and optimisation strategies of reverse-bias BPM electrolyser for CO2RR. Fig. 3 Functionalities from CEM (left) and AEM (right) (a) and their combination in a BPM (b) [1]. Copyright 2022, Springer Nature. (c,d) Performance in forward-bias BPM electrolyser. (c) C2H4 and voltage stability at 50 mA cm–2 [40]. Copyright 2021, American Chemical Society. (d) A picture of BPM after funning for 2 h at 50 mA cm–2 [40]. Ion migration in forward-bias BPM configuration leads to water, salt, and gas accumulation at the bipolar junction and device failure. Copyright 2021, American Chemical Society. Fig. 4 (a) Voltage distribution of an BPM electrolyser [43]. Copyright 2021 American Chemical Society. (b) Charge distribution, electric field, electrostatic potential and chemical potential of BPM at open circuit (OCV) [69]. Copyright 2020, American Chemical Society. (c) Qualitative i-V curve at forward bias and reverse bias [53]. Copyright 2020, Elsevier B.V. (d) A schematic i-V curve at reverse bias in salt electrolyte [70]. Copyright 2002, American Chemical Society. i-V curve at reverse bias for concentrations of 0.01, 0.1, 1 and 3 mol L–1 of H2SO4 and K2HPO4/K2HPO4 (e) and 0.1, 1, and 3 mol L–1 of KOH and K2HPO4/K2HPO4 (f) [71]. Copyright 2018, the Royal Society of Chemistry. Fig. 5 Strategies for BPM optimisation. (a) Schematic representation of (1) ohmic losses, (2) water dissociation reaction, and (3) diffusion boundary layer [63]. Copyright 2019, Royal Society of Chemistry. (b) Water dissociation in BPM electrolysers with thinner CEL [95]. Copyright 2020, American Chemical Society. (c) Performance of alkaline, acidic, and BPM electrolysers [75]. Copyright 2020, AAAS. Performance of BPM electrolysers with various water dissociation catalysts at 450 mA cm–2 (d) and 150 mA cm–2 (e) [80]. Copyright 2022, Springer Nature. (f) Cross-section scanning electron microscope images of BPM with 3D junction [76]. Copyright 2018, Royal Society of Chemistry. (g) Voltage increases during testing at 500 mA cm–2 for 14 h for FBM and 3D BPM [98]. Copyright 2020, American Chemical Society. (h) Schematic of multi-step 3D “mortise-tenon joint” structure interface fabrication processes [99]. The 3D physically interlocked interface maximises the catalytic active area and physical contact area for efficient water dissociation and durable operation. Copyright 2023, Springer Nature. Fig. 6 Illustration of CO2 electrolysers for industrially relevant performance. (a) Flow cell electrolyser. (b) Membrane-assembly-electrode (MEA) electrolyser. (c) CO2 electrolyser with solid-state electrolyte (SSE). Fig. 7 Optimisation and performance of CO2RR in flow cell with bulk acidic media. (a) Schematic illustration and mass transport in the BPM-based flow electrolyser with aqueous catholyte for CO2RR [24]. Copyright 2022, Springer Nature. (b) The simulated pH distribution near the cathode surface with different catholyte (K2SO4) chamber thickness. The surface acidity increases as the distance between the cathode and BPM decreases [24]. Copyright 2022, Springer Nature. (c) The total CO2 single-pass utilisation with different thicknesses of catholyte and input CO2 flow rates [24]. Copyright 2022, Springer Nature. (d) Proposed reaction mechanism and enhanced C–C coupling for CO2-to-C2H4 on F-Cu catalyst. Purple: potassium; blue: fluorine; red: oxygen; grey: carbon; white: hydrogen [4]. Copyright 2022, Springer Nature. (e) Relationship between C2H4 FE and calculated Bader charge for the nitrogen atom of the N-aryl-substituted tetrahydro-bipyridines prepared from different N-arylpyridinium additives. The structure of additive 1 is shown in the bottom left [34]. Copyright 2020, Springer Nature. (f) Product distribution of CO2RR in electrolytes with pH = 2 containing different Na+:K+ ratios under 220 mA cm–2 [116]. Copyright 2022, Wiley-VCH GmbH. (g) Schematic illustration of ionic environment and transport near the cathode surface functionalised by the cation-augmenting layer (CAL) [28]. Copyright 2021, AAAS. (h) FEs towards H2 and CO2RR products and SPCE on CAL-modified Cu electrode at 1.2 A cm–2 with varying CO2 flow rates [28]. Copyright 2021, AAAS. (i) Stabilisation of CO2RR intermediates with significant dipole moments by cation-introduced local electrical field [119]. Copyright 2017, American Chemical Society. Fig. 8 Optimisation and performance of CO2RR in BPM-base MEA (BPMEA) electrolyser. (a) Current efficiency for zero-gap CO2 electrolyser combining with CEM. Red and blue labels indicate Cu and Ag, respectively, as cathode catalysts [123]. Copyright 2019, Elsevier B.V. (b) Faradaic efficiency for CO and H2 using Ni-based molecular and Ag catalysts for zero-gap CO2 electrolyser with reverse-bias BPM configuration [26]. Copyright 2022, American Chemical Society. (c) Cross-section scanning electron microscope of the cathode with a permeable CO2 regeneration layer (PCRL) on Cu/PTFE [40]. Copyright 2021, American Chemical Society. (d) CO2 distribution in CEM-based MEA with anion-selective CO2 regeneration layer under 100 mA cm–2. The CO2 crossover indicates CO2 detected from the anode tail gas [40]. Copyright 2021, American Chemical Society. FEs of H2 and CO in reverse-bias BPMEA as a function of current density with anolyte at 0.2 mol L–1 KOH (e) and 3 mol L–1 KOH (f) [27]. Copyright 2021, American Chemical Society. Fig. 9 Optimisation and performance of CO2 electrolyser with solid-state electrolyte (SSE). (a) Schematic illustration of CO2 electrolyser with SSE [135]. Copyright 2019, Springer Nature. (b) The CO2 recovery performance of solid electrolyte reactor. The CO2 recovered by water/gas flow through the SSE includes CO2 recovered as gas and CO2 recovered in water. Crossover CO2 and its theoretical value are obtained from GC measurement and calculated based on applied current, respectively [137]. Copyright 2022, Springer Nature. (c) Schematic illustration of promoted CO2RR by poly(aryl piperidinium) functionalised anion-conducting layer [139]. Copyright 2022, Elsevier B.V. (d) COMSOL simulation of the pH distribution in SSE electrolyser under 100 mA cm–2 with different content of dissolved CO2 (100% is the ambient CO2 solubility limit) [139]. Copyright 2022, Elsevier B.V. Table 1 Performance of recently reported CO2 electrolyser with current density higher than 100 mA cm-2. Catalyst Membrane j total (mA cm‒2) Major product FE of major product (%) Stability (> 90% retention) SPCE of major product (%) EE of major product (%) Ref. SS-Cu BPM 300 C2+ 52 1000 h N/A* 18.2 [22] Cu-PTFE BPM 300 C2+ 65 14 h 69 17 [23] Cu NPs BPM 200 C2H4 42 40 h 12 12 [24] Ag NPs BPM 100 CO 65 24 h N/A 24 [25] [Ni(CycCOOH)]2+ BPM 100 CO 33 N/A N/A 9.5 [26] Sputtered Ag BPM 200 CO 50 N/A 9 14 [27] SSC@Cu NPs-Cu PTFE CEM 1200 C2+ 45 12 h 50 N/A [28] Cu-TE CEM 1000 C2+ 55–60 68 h N/A N/A [29] Cu-Pd CEM 500 C2+ 87 4.5 h 60 N/A [30] COF:PFSA/Cu-PTFE CEM 200 C2+ 75 10 h 75 25 [31] CuBaO x AEM 400 EtOH 61 20 h N/A N/A [32] F-Cu AEM 1600 C2H4 65 N/A 2.6 N/A [4] SSC@Cu-PTFE AEM 1500 C2H4 65–75 < 1 h 2.7 N/A [12] Cu-Mg AEM 1000 C2H4 70 48 h 1.8 N/A [33] N-arylpyridinium @Cu-PTFE AEM 120 C2H4 64 190 h < 1 20 [34] Cu(100) AEM 120 C2H4 55.8 4.5 h 1.7 26.4 [35] AEM 500 C2+ 70 2.5 h 13.2 N/A * N/A means the data is not available. Available online 15 April 2024 This work was supported by the Excellent Young Scientist Fund (Hong Kong and Macau) from the National Natural Science Foundation of China (22222208) and Research Grants Council of the Hong Kong Special Administrative Region (14305323). Review Construction of efficient and stable low-temperature reverse-bias bipolar membrane electrolyser for CO2 reduction Yi Xie a Zhanyou Xu a Qian Lu a b Ying Wang a * a Department of Chemistry, The Chinese University of Hong Kong, Shatin, New Territories, Hong Kong, China Department of Chemistry The Chinese University of Hong Kong Shatin, New Territories Hong Kong China Department of Chemistry, The Chinese University of Hong Kong, Shatin, New Territories, Hong Kong, China b Jiangsu Collaborative Innovation Center of Atmospheric Environment and Equipment Technology, Jiangsu Key Laboratory of Atmospheric Environment Monitoring and Pollution Control, UNIST-NUIST Environment and Energy Jointed Laboratory, School of Environmental Science and Technology, Nanjing University of Information Science and Technology, Nanjing 210044, Jiangsu, China Jiangsu Collaborative Innovation Center of Atmospheric Environment and Equipment Technology Jiangsu Key Laboratory of Atmospheric Environment Monitoring and Pollution Control UNIST-NUIST Environment and Energy Jointed Laboratory School of Environmental Science and Technology Nanjing University of Information Science and Technology Nanjing Jiangsu 210044 China Jiangsu Collaborative Innovation Center of Atmospheric Environment and Equipment Technology, Jiangsu Key Laboratory of Atmospheric Environment Monitoring and Pollution Control, UNIST-NUIST Environment and Energy Jointed Laboratory, School of Environmental Science and Technology, Nanjing University of Information Science and Technology, Nanjing 210044, Jiangsu, China * Corresponding author. ABSTRACT Electrochemical conversion of CO2 and H2O to value-added products is an attractive approach for sustainable chemical production. Significant progress has been made in the past few decades in improving activity and selectivity, advancing this technology to practical application. Considering the next step for the electrochemical CO2 reduction reaction, improving carbon utilisation efficiency, stability, and energy efficiency are essential. Bipolar membrane (BPM)-based electrolysers, which allow electrodes to be operated under different pH, are advantageous to tackle the challenge mentioned above. Herein, we introduced the current status of CO2 electrolysers, followed by configuration, challenges, progress and outlook for combining reverse-bias BPM with different types of electrolysers. Our aim is to provide insight into developing carbon-efficient and energy-efficient CO2RR systems towards practical application. Graphical Abstract Advantages, challenges, and optimisation strategies of reverse-bias bipolar membrane electrolysers for CO2 reduction reactions are discussed, giving insight into constructing carbon-efficient and energy-efficient CO2 electrolysers. Keywords Carbon dioxide reduction Electrocatalysis Bipolar membrane Carbon utilisation Energy efficiency 1 Introduction Electrochemical CO2 reduction reaction (CO2RR) is a promising approach for converting intermittent renewables and CO2 into valuable chemicals and feedstock [1]. The increased accessibility of renewable electricity and the needs for decarbonisation technologies promote rapid growth in this field. The potential of commercially relevant application of CO2RR to produce value-added products is up-and-coming in recent years [2]. Multi-carbon (C2+) products are of particular interest due to the relatively high market price, energy density and demand in chemical industries, while remarkable obstacles are still heading towards large-scale application [3,4]. For practical application, CO2RR electrolyser is required to operate under certain conditions: (1) high current density (j) – for fast reaction rate, (2) high faradaic efficiency (FE) – for high selectivity to targeted products, (3) long-term stability – for minimised capital cost, (4) high energy efficiency (EE) – for low electrical energy consumption, and (5) high single-pass conversion efficiency (SPCE) – for efficient carbon utilisation and low separation cost [1,5–10]. Significant progress has been made in advancing this technology by improving the targeted performance metrics (summarised in Table 1 and Fig. 1(a) ), including modulating active sites, tuning microenvironment, and device design [11–18]. The recent benchmark by Sargent et al. [12] reported partial current densities of CO2RR > 1 A cm–2 with perfluorosulfonic acid (PFSA) ionomers modified Cu-polytetrafluoroethylene (PTFE) electrode. Gewirth et al. [19] achieved high Faradaic efficiency for C2H4 (FE = 72%) at 433 mA cm–2 on a polyamine-incorporated Cu catalyst. Zheng et al. [20] obtained highly selective C2+ alcohol production (FE = 60%) at around 200 mA cm–2 using a defect-site-rich Cu catalyst. Typical CO2RR electrolysers convert CO2 to value-added products at the cathode and oxidise water to O2 at the anode, with the two compartments separated by an ion exchange membrane (Figs. 1(b)–(e)). To suppress the competitive hydrogen evolution reaction (HER), most state-of-the-art CO2 electrolysers for C2+ production are based on alkaline media using anion exchange membrane (AEM) (Fig. 1(b)). Wang et al. [4] achieved C2+ FE of over 80% with a current density of 1.6 A cm– 2 in 0.75 mol L– 1 KOH. Zheng and co-workers [20] reported a high FE of alcohol at 56% under 800 mA cm– 2 in 1 mol L– 1 KOH. Although the concentrated alkaline condition enables high selectivity and activity for CO2-to-C2+, carbonate formation through CO2 and hydroxide is unavoidable. This acid-base reaction is exceptionally fast [36], leading to the formation of electrochemically inert (bi)carbonate for low SPCE and instability of solution pH [37]. Additionally, the formed carbonate precipitation is observed to block CO2 diffusion on the catalyst surface, causing CO2 electrolysers failing in long-term operation [36,38]. Thus, the carbonate issue, caused by the reaction between CO2 and OH–, is a critical challenge in the low-temperature CO2RR electrolyser. Conducting CO2RR in bulk acidic media with a cation exchange membrane (CEM) can address the carbonate issue in alkaline CO2RR electrolysers (Fig. 1(c)) [26,28,30,39,40]. The large amount of H+ in bulk acidic electrolytes can react with the formed carbonate to convert it back into CO2, suppressing carbonate formation. The regenerated CO2 can then be re-used on the cathode to promote the carbon utilisation efficiency. Previously, we reported acidic CO2RR with the FE of CO2 to C2+ at 89% with SPCE of 60% [30]. In another work, Sargent et al. [28] achieved single-pass CO2 utilisation of 77% under 1.2 A cm–2 in strongly acidic media. Although performing CO2RR in acid is beneficial, the sluggish and high-cost acidic oxygen evolution reaction (OER) at the anode hinders the practical application of CO2RR in acid (Figs. 1(f) and (g)) [21]. Besides, the corrosion of electrolyser, especially the anode current collector, can be severe in acidic solution, posing challenges for scaling up and commercialisation [41,42]. Bipolar membrane (BPM) offers the opportunity to conduct electrochemical reactions at different pH at the cathode and the anode (Figs. 1(d) and (e)). Such design enables performing CO2RR in the acid to avoid the carbonate issue and operating OER in alkaline electrolytes at the anode [24–27,43–49]. This review will discuss recent progress in CO2RR approaching practical conditions and future research directions focusing on BPM-based CO2 electrolysers (Fig. 2 ). We first introduce the structure, operation modes and working principles of BPM. We then further highlight the challenges and discuss the optimisation strategies based on different architectures of the electrolyser. Finally, we outline the perspectives of reverse-bias BPM electrolyser. Here, we aim to describe the stage and indicate the additional work of constructing carbon-efficient and energy-efficient reverse-bias BPM CO2RR electrolyser. 2 Bipolar membrane There are two major categories of membranes, i.e., monopolar membrane (such as CEM, AEM) and bipolar membrane (such as BPM) [50]. Monopolar ion exchange membrane selectively transports cations or anions from one side of the membrane to the other. CEM (such as Nafion) allows cations to pass through negatively charged functional groups, while AEM (such as Sustainion and PiperION) primarily enables anions to pass through positively charged groups (Fig. 3(a) ) [51,52]. In contrast to the monopolar membrane, BPM can direct cation and anion transport due to its unique structure—a cation exchange layer (CEL), an anion exchange layer (AEL), and an interface catalyst layer for water dissociation or association (Fig. 3(b)) [53]. Such design in BPM enables different pH conditions at the individual electrode, which are used for several applications, such as electrodialysis [54], water electrolysers [55], fuel cells [56], flow batteries [57], CO2 electrolysers [45]. The employment of BPM in the CO2RR is now under the spotlight for its ability to address the carbonate issue for long-term stability and efficiency at the device level. Additionally, BPM can reduce the product crossover to the anode to avoid loss. This is due to the electrostatic repulsion (Donnan exclusion), and the inhibition by the outward flux of H+/OH– from the water dissociation in the BPM junction [58,59]. Another benefit of BPM over monopolar membranes is the ability to inhibit undesired ion transport in the reversed bias mode. For example, Cl– is commonly used as a supporting electrolyte due to the high ion mobility, but Cl– can be oxidised into toxic and highly corrosive by-products in the electrolyser. With BPM as the separator, the stability increases to > 100 h at 250 mA cm–2 with an FE of 0.005% for corrosive by-product [55]. The immediate challenges in the BPM CO2RR electrolyser are the large cell voltage (low energy efficiency) and poor selectivity towards multi-carbon products (Table 1). Understanding BPM operation modes, thermodynamics, species transport phenomena, water dissociation/association process, and the origin of limiting current density is necessary to improve BPM energy efficiency, which will be discussed in detail in this section. Selectivity is influenced by the gas diffusion electrode (GDE) structure and electrolyser, which will be discussed in Section 3. 2.1 Operation mode of bipolar membrane Unlike monopolar membranes, there are two operation modes of BPM, forward or reverse bias modes (Figs. 1(d) and (e)), depending on the direction of the applied electrical field. In the forward bias mode (Fig. 1(d)), the CEL faces the anode, and the AEL faces the cathode, where H+ and OH– transport from the outer solution to meet at the bipolar junction for water association. Such conditions make the cathode pH alkaline, favouring CO2RR, but the anode is acidic, which is not ideal for the OER [60]. One benefit of applying BPM is the prevention of carbonate/bicarbonate species migrating from the cathode side to the anode for carbon loss (Fig. 1(d)). However, the direction of ion migration in this configuration leads to water, salt, and gas formation at the bipolar junction, causing the “blister” — membrane delamination (Figs. 3(c) and (d)) [40,61]. Thus, forward-bias BPM CO2 electrolysers are less common and not the primary focus of this review. Under reverse bias mode, the CEL faces the cathode, and the AEL faces the anode (Fig. 1(e)) [24–27,43–45]. Water dissociation occurs at the inter-catalyst layer to produce H+ and OH–, the primary charge carriers inside the membrane, which are directed to the cathode and the anode, respectively [43]. The bulk acidic media on the cathode suppresses carbonate formation, and the alkaline solution at the anode is favourable and cost-effective for OER [21,62]. The suppression of carbonate formation is proved by Sargent et al. [24]. Besides, due to the unique structure of BPM, Seger and co-workers found the captured CO2 could be released at the catholyte/membrane interface for potentially higher carbon utilisation efficiency [44]. However, reserve-bias BPM has considerable membrane resistance compared to the monopolar membrane, which limits the energy efficiency of BPM-based electrolysers (Fig. 4(a) ) [43,63]. Developing efficient reserve-bias BPM electrolysers requires fundamental understanding of voltage breakdown and further optimisation of BPMs, 2.2 Voltage break down in BPM Thermodynamic equilibrium potential, overpotential for water dissociation reactions, and ohmic losses of individual ion-exchange layers (iR) are the primary sources of membrane voltage loss. 2.2.1 Thermodynamic potential The thermodynamic potential of BPM is contributed by the ion-exchange layer with the solution and the interfacial layer: CEL-catholyte interface, AEL-anolyte interface, and CEL-AEL interface. (Fig. 4(b)). (1) E mem = E Don , CEL + E Don , AEL + V j The potential at the ion exchange layer with the solution is determined by Donnan exclusion. In an ideal scenario, the CEL and AEL selectively transport only cations and anions, creating a thin ionic double-layer at the solution-CEL (AEL) interface, also termed the Donnan exclusion of the membrane [64,65]. The concentration gradient of counterions on the solution-CEL (AEL) interface creates a potential difference for Donnan potential (E Don) [66], which can be calculated by the Nernst equation (Eq. (2)). Since the fixed charge density in the membrane is about 1 meq g–1 H2O [67,68], the H+ concentration is about 1 mol L–1 H+ in the CEL and about 1 mol L–1 OH– in the AEL at equilibrium [66]. The potential at each membrane-electrolyte interface is close to zero by considering a catholyte of pH = 0 and an anolyte of pH = 14. (2) E Don = R T Z i F In ( C i , m C i ) where R is the ideal gas constant, T is the temperature, F is Faraday’s constant, C i,m and C i are the concentrations of ion species i in the membrane and solution, and Z i is the charge valence. Another contribution is the thermodynamic potential established at the interface between CEL and AEL. The counterions of CEL and AEL generate an electric field across the interfacial layer [72]. This junction potential between the CEL and AEL, V j, can be determined from the activity of H+ in CEL and OH- in AEL (Eq. 3). (3) V i = R T F In ( a H + CEL a H + AEL ) By considering the Donnan potential at solution-CEL (AEL) interface and the junction potential, the thermodynamic equilibrium voltage on the BPM is equal to: (4) E men = R T F ( - In ( a H + CEL a H + Cathode ) + In ( a H + AEL a H + anode ) + In ( a H + CEL a H + AEL ) ) (5) E men = 0.059 Δ pH Care must be taken when reporting these values. The OCV of the BPM depends on the pH difference between the solutions, while the V j relies on the activity of protons and hydroxide ions in the CEL and AEL. 2.2.2 Water dissociation Under reverse bias conditions, water dissociation starts to occur when the applied voltage exceeds its thermodynamic potential (Fig. 4(c)). The current-voltage curve in reverse bias mode can be divided into four regions depending on the applied voltage (Fig. 4(d)). At low current density, salt ions are the charge carriers and water dissociation has not started yet [63]. The electric resistance is the highest, contributed by the membrane. A plateau of the first limiting current density (j LIM) appears when the potential increases, determined by co-ion concentration within the membrane. Note that co-ions refer to salt ions not participating in water dissociation [71]. j LIM depends on the co-ion species and membrane properties; the higher the membrane selectivity, the fewer co-ions permeate the membrane and the lower the j LIM. The current increases dramatically when the electrostatic voltage across the BPM exceeds the thermodynamic potential associated with water dissociation. The charge carriers are, thereby, H+ and OH–. Theoretically, a voltage of 0.83 V is developed for the dissociation of water in the BPM, according to Eq. (6) [73–75]. (6) E wd O = - Δ G wd O / F = 0.059 Δ pH = - 0.83 V The slope represents the ability of BPM for water dissociation rate—a large slope refers to a high catalytic activity [76]. When further voltage increases, the current reaches a second plateau (secondary limit current density j LIM,2) due to insufficient water supply to replenish the water dissociation rate [53,69]. In different solutions (pH, salt concentration), the current-voltage characteristics of BPM are different in shape (Figs. 4(e)–(f)) [69,71]. BPM in salt solution has a lower onset potential (< 0.83 V) due to co-ion crossover and local concentration polarisation [71]. Efficient water dissociation is critical to reducing membrane resistance. The rate of water dissociation in free solution without an externally applied electric field (2 × 10–5 s–1) is 104-to 106-fold slower compared to the rate in BPM with applied voltage [69,77,78]. Two mechanisms for water dissociation enhancement in BPM are proposed—the second Wien field effect and the protonation-deprotonation [53,69,77,79,80]. The second Wien field effect is related to the internal electric field enhancement on water dissociation. Onsager described the Wien effect of bound ion pairs dissociating into free ions under electric fields in 1934 [81,82]. The extensions in the BPM show that the internal electrical field at the bipolar junction enhances the water dissociation by increasing the dissociation degree and ion mobility [53,69,72,83]. Mafé et al. [84] proposed a statistical thermodynamics model describing the orientation and arrangement of water molecules along the electric field. The arrangement induces interaction between neighbouring molecules and creates a local electric field, reducing the energy barrier for proton transfer and favouring water dissociation. The second Wien field effect can explain the increase in WD rate observed in BPM without a catalyst layer at the AEL/CEL interface, but it cannot explain the catalytic effect. The protonation-deprotonation mechanism explains why the ionic headgroups at the BPM junction influence the rate of water dissociation. In this mechanism, water molecules dissociate in a two-step reaction involving a catalyst, as shown in Eqs. (7)–(10) [69,77]. Simons observed a 1000-fold increase in water dissociation at tertiary amino groups on AEL in an eight-chamber cell [85]. The enhanced rate was related to the membrane-bound amines, improving the forward rate constant (8). Zabolotskii et al. [86] observed a similar effect that BPM with strong basic and strong acidic headgroups show higher voltage under the same j than others. By a joint computational and experimental approach, Aguilella et al. observed that the protonation-deprotonation model better agrees with the experimental result than the second Wein effect model [87]. Weak base model: (7) B + H 2 O ⇌ BH + + OH - (8) BH + + H 2 O ⇌ B + + H 3 O + Weak acid model: (9) A - + A 2 O ⇌ AH + OH - (10) AH + H 2 O ⇌ A - + H 3 O + Recent research shows that in BPM, electronic properties, acid-base properties, coverage or thickness of the catalyst will affect WD, which might result from the interplay between these two mechanisms [75,80,88]. However, considering the complex phenomena resulting from ion transport and chemical reaction, such as the concentration profiles of H+ and OH–, space charge density, the electric field distribution, surface adsorption and polymer dynamics, the mechanical details and interplay of the factors are more complicated in the actual situations [52,79,80,89]. 2.3 Optimisation of membrane Recent progress has been made in membrane optimisation, especially in reducing the significant voltage loss from ion transport and slow water dissociation kinetics. Regulating the ionic conductivity by optimising the fixed charge group concentration (quantified as ion exchange capacity, IEC) [90,91] of membranes and the composition and concentration of ions in solution [92,93] reduces the ohmic losses of the individual layers (Fig. 5(a) , Region 1). Utilising thinner membranes (< 10 μm) enables BPM electrolyser to achieve high current densities with reduced cell voltage for high energy efficiency. Thiele et al. achieved a 40-fold increase in current density at 2.2 V in a BPM-MEA water electrolysis device by reducing the thickness of AEL from 9 to 3 μm [94]. Boettcher and co-workers demonstrated a thin-CEL BPM (2 μm Nafion CEL) for current densities of up to 3.4 A cm–2 with improved water transport to water-consuming junction (Fig. 5(b)) [95]. It is worth noting that reducing the thickness of the membrane will increase the ion conductivity, water permeability, and undesired increase of ion crossover. Modifying the interfacial catalyst layer to improve the water dissociation rate is necessary (Fig. 5(a), Region 2). Rates of water dissociation can be enhanced by designing efficient catalysts and the electric field in the junction [80]. Boettcher et al. combined metal-oxide water dissociation catalysts that are efficient near the CEL with those efficient near the AEL, achieving water dissociation with overpotentials of < 10 mV at 20 and 500 mA cm–2 with a total pure water BPM-MEA cell voltage of ~2.2 V (Fig. 5(c)) [75]. With controlled water dissociation catalyst loading, particle size, composition, and interfacial area, total cell voltage decreased below 2 V (Figs. 5(d) and (e)) [80]. By developing graphene oxide catalysts and thinner AEM layers, Xiang et al. [96] reported an asymmetric BPM that exhibits overpotentials < 250 mV at 1 A cm–2. Furthermore, due to the strong electrostatic interaction between Nafion CEL and PiperION AEL, asymmetric BPM shows excellent layer-to-layer adhesion, enabling stable operation at 80 mA cm–2 of 1100 h [96]. Constructing a three-dimensional (3D) junction with more active sites/ reaction zone accelerates the water dissociation reaction (Fig. 5(f)) [76,97–99]. Deutsch et al. constructed novel electrospun 3D BPMs with increased catalytic sites to enhance water dissociation kinetic and entangled fibres to facilitate ion transport away from the junction. The intertwined fibres can also prevent the formation of blistering, enhancing membrane stability under high current density (Fig. 5(g)) [98]. Wang et al. [99] constructed a 3D physical interlocking interface with mortise-tenon joint interlayer (Fig. 5(h)), showing enhanced water dissociation kinetic, ion transport, and interface stability. 3 Reverse-bias BPM electrolyser There are three types of electrolysers developed for highly efficient CO2RR at low temperatures, including flow cell (Fig. 6(a) ), membrane-electrode-assembly (MEA) (Fig. 6(b)) and solid-state-electrolyte (SSE) device (Fig. 6(c)). Besides the membrane(s), a typical CO2 electrolyser contains an anode for oxygen evolution reaction and a cathode GDE, which can promote CO2 mass transport by constructing a gas-liquid-solid three-phase boundary, allowing to achieve industrially relevant CO2RR current density [100,101]. The progress and challenges of combining BPM with these electrolysers will be reviewed in this section. 3.1 Flow cell electrolyser A typical flow cell electrolyser consists of three chambers designed to feed CO2 gas, catholyte and anolyte, respectively (Fig. 6(a)). The CO2 can diffuse through the GDE to be electrochemically reduced at the catalyst layer. The polymer ion exchange membrane separates the catholyte and anolyte and enables the migration of specific ions as charge carriers. A reverse-bias BPM-based flow cell helps proton transport to the cathode to suppress (bi)carbonate formation for enhanced carbon utilisation [44]. However, the large proton flux can promote HER and suppress the CO2-to-C2+ pathway [102,103]. The aqueous catholyte in the flow cell electrolyser can provide a buffer layer to obtain a relatively high local pH for CO2RR at the cathode while maintaining bulk acidic conditions [104,105]. The thickness of the catholyte is, therefore, critical–a balance between local pH and ionic resistance. Sargent et al. [24] systematically studied the influence of the catholyte chamber thickness in the BPM CO2RR electrolyser. A thick catholyte layer (> 150 μm) can hinder the diffusion of generated CO2 towards the cathode and lead to large ohmic loss. In comparison, a thin catholyte layer (16 μm) results in a relatively low pH (8.7) at the cathode surface and unfavourable CO2RR (Fig. 7(a) and (b)). Appropriate thickness ensures the conversion of (bi)carbonate back to CO2 near the cathode surface, mitigating the influence of bubble formation on ions migration while providing high local pH to promote C2+ production and obtain a single pass of 78% (Fig. 7(c)). Gao et al. [106] found that the electrolyte flow rate influences bubble removal. A lower electrolyte flow rate can generate a more considerable static pressure, encouraging the gas bubbles to move to the GDE instead of the catholyte. The locally alkaline environment under considerable current density allows BPM electrolyser to adopt catalyst design strategies widely studied in neutral/alkaline conditions. The state-of-the-art catalysts for CO2-to-C2+ are based on copper (Cu) that exhibits appropriate adsorption energy for *CO, which is believed to be the key intermediate for C-C coupling and C2+ production [107–109]. Commonly used strategies, including heteroatom doping [4,110], bi-metallic catalysts [30,33,111] and hybrid molecular catalysts, are proven to be effective [19,34,112]. Wang et al. [4] developed a fluorine-modified copper catalyst that exhibits Faradaic efficiency (FE) towards C2+ of 80% at a current density of 1.6 A cm–2, benefiting from the promoted formation of *CHO and *CHO-*CHO coupling by fluorine-doping (Fig. 7(d)). Another work by Wang et al. [33] reported a magnesium-modified copper catalyst achieving 80% C2+ FE under a current density of 1 A cm–2. The magnesium is suggested to activate CO2 and stabilise Cu+ to enhance CO adsorption and C-C coupling. Sargent et al. [34] obtained a partial current density of CO2-to-C2H4 at 230 mA cm–2 with C2H4 FE at 72% on Cu-based catalyst modified by N-arylpyridinium derived oligomer, which contains nitrogen sites with optimal electron-donating properties to stabilise *CO for C2H4 production (Fig. 7(e)). These works offer guidance for developing efficient and selective catalysts in BPM-based flow cell due to its locally alkaline environment near the cathode. The effect of alkaline metal ions has also been revealed to play a crucial role in promoting CO2RR under bulk acidic conditions, which is created in the catholyte of flow cell with reverse-bias BPM [113–116]. Wang et al. [116] reported that by switching the cation from Na+ to K+ in electrolyte with pH = 2.0, the FE of C2+ increases from 11.6% to 69.6%, while the FE of competing HER is reduced from 39.6% to 6.4% under 220 mA cm–2 (Fig. 7(f)). Sargent and Sinton et al. [28] constructed a cation-augmenting layer containing cation-exchange ionomer to enrich the K+ on the cathode surface by negatively charged-SO3 – on the side chain of ionomer under locally alkaline environments. The high concentration of K+ enables around 45% C2+ FE and 50% single pass carbon efficiency towards C2+ at 1.2 A cm–2 in electrolyte with bulk pH < 1 (Fig. 7(g) and (h)). The cations with large ionic radius and weak hydration capacity, such as K+ and Cs+, are found to suppress HER and promote CO2RR through manipulating the local electrical field and stabilisation of intermediates [117,118] (Fig. 7(i)). Although the aqueous catholyte plays a vital role for CO2RR, it can result in extra ohmic loss and limit energy efficiency of BPM-based flow cell. Additionally, the buffering effect of aqueous catholytes makes carbonate formation unavoidable, leading to the development of catholyte-free electrolysers that raise new platforms and challenges for coupling with BPM. 3.2 Membrane-electrode-assembly (MEA) electrolyser The typical MEA electrolyser contains an ion exchange membrane sandwiched by cathode catalyst and anode catalyst (Fig. 6(b)). The CO2 gas (usually humidified) is fed into the cathode flow field and diffuses through GDE to be reduced at the cathode. Unlike the flow cell, MEA eliminates the usage of catholyte, giving rise to a reduced ohmic loss for better energy efficiency [120–122]. The MEA electrolyser is “zero-gap”, where the catalyst layer is in direct contact with the BPM, making the chemical environment on the cathode surface strongly influenced by the membrane. The massive proton flux through the CL exposes the cathode surface to a strongly acidic environment, giving rise to great challenges in developing efficient CO2RR catalysts. Wessling et al. [123] found that the locally acidic environment on the cathode in direct contact with CEM can result in dominant HER (almost 100% FE) instead of CO2RR on both Cu and Ag catalysts (Fig. 8(a) ). The severe HER in acidic environments can be attributed to favourable *H adsorption due to sufficient transport of H+ and thus lower overpotential than CO2RR [124,125]. Comparing with catalyst for neutral or alkaline media, catalysts which are intrinsically active for CO2RR over HER in strong acid, are required. Several strategies have been applied to design catalysts for CO2RR in electrolytes with pH ≤ 1, including developing bi-metallic catalysts, non-metal doping, and advancing molecular catalysts to enhance the adsorption of CO2RR intermediates [19,126–128]. Mechanistic studies have shed light on the potential of developing catalysts that are preferable for CO2RR over HER through modulating the competitive adsorption between *CO and *H, which are believed to be the key intermediates for C2+ production and HER, respectively [129–131]. Jaramillo et al. [131] proposed that metals with strong affinity towards *CO can suppress the adsorption of *H through adsorbate-adsorbate interactions, endowing them with the potential to promote CO2RR activity under acidic conditions. Fu et al. [126] proposed Ni-N-C catalyst with high electron density on the metal center to promote CO2 adsorption, leading to 90% FE for CO at 500 mA cm–2 in electrolyte with pH = 0.69. Molecular catalysts with well-defined structures are advantageous for CO2 conversion in acid. Liang et al. [132] proposed a β-tetra methoxy-substituted Ni phthalocyanine molecular catalyst that obtains over 95% CO FE in pH = 0.47 within 50 to 400 mA cm–2, benefiting from the strong *COOH adsorption on Ni centre. Cowan et al. [26] reported acid-tolerant Ni molecular catalysts to operate CO2RR in reverse-bias BPM-based MEA (BPMEA) (Fig. 8(b)). The Ni molecular catalysts are intrinsically selective towards CO2RR in acidic environments due to the high binding constant with CO2 and low pK a of the Ni(I) centre, yielding a CO2-to-CO FE of 60% at 25 mA cm–2 (Fig. 8(b)). Alternative approaches to promote CO2RR in reverse-bias BPM-MEA include modulating the local pH by interfacial buffer layer and optimising the chemical environment on the cathode surface. Sinton et al. [40] introduced an anion-selective permeable CO2 regeneration layer (PCRL) between the cathode surface and the cation exchange membrane (CEM) to provide the locally alkaline environment and enable the regeneration of CO2 by proton transferred through the CEM (Figs. 8(c) and (d)). Such an approach achieved a high faradaic efficiency of C2+ (55%) and single pass CO2 conversion of 85% under 100 mA cm–2. Li et al. [133] operated CO2RR in a CEM-base MEA with anion-exchange ionomer-covered cathode catalyst layer. Upon optimisation of H+ and Cs+ concentration, the faradaic efficiency of CO2-to-CO is as high as 80%, and the single-pass conversion efficiency achieves 90% under 60 mA cm–2. The dominant CO2RR is contributed from the promoted adsorption of key intermediates by the accumulated Cs+ at the outer Helmholtz plane. Another work reported by Burdyny et al. [27] also emphasised the importance of metal cations in reverse-bias BPM-MEA (Figs. 8(e) and (f)). With increasing concentration of K+ in anolyte from 0.2 to 3 mol L–1, the FE of CO under 50 mA cm–2 can be raised from 23% to 68%, resulting from promoted diffusion of K+ towards the cathode. However, it remains challenging for BPM-MEA to modulate local acidity for efficient CO2RR and to avoid technical challenges such as carbonate formation and liquid products crossover, which can lead to carbon loss and low carbon utilisation. 3.3 CO2 electrolyser with solid-state electrolyte To achieve commercially relevant application, highly concentrated products are desired for CO2RR to reduce the separation cost [134]. CO2RR electrolyser using solid-state electrolyte (SSE) is developed to enable the collection of concentrated liquid products [135–140] (Fig. 6(c)). Wang et al. [135] proposed a solid-electrolyte device for CO2RR to produce HCOOH with high purity (up to 12 mol L–1) (Fig. 9(a) ). Another work by Wang and co-workers [137] employed SSE to regenerate pure CO2 (> 99% purity) from carbonate for CO2-to-CO with a conversion efficiency of over 90% (Fig. 9(b)). In these works, the solid-state electrolyte is located between an anion exchange membrane and a cation exchange membrane, which are in contact with the cathode and anode. The ions serving as charge carriers can be shuttled between anode and cathode through solid ion conductors such as polymers or ceramics. The locally formed negatively charged species on cathode (e.g., carbonate ion, HCOO– and CH3COO–) and other liquid products can be transported into the SSE through AEM. Combining with proton supplied from the anode and crossing through the CEM, the carbonate and anionic products can be transformed into CO2 and the product molecules (e.g., HCOOH and CH3COOH), respectively. The regenerated CO2 can be reused and the formed liquid products with high purity can be easily collected from gas or water flow through the SSE. Combining reverse-bias BPM with SSE not only enables collection of highly concentrated liquid products, but also creates alkaline environment at the anode to allow use of non-noble metal OER catalyst with low cost and considerable stability. It is noted that the electrolyte used for CO2 electrolyser with SSE usually contains no alkaline metal ions, eliminating the carbonate salt precipitation on the cathode GDE and exhibiting the potential for high stability. On the other hand, the absence of metal cations challenges the efficient production of C2+. To solve this, Sinton et al. [139] reported a quaternary ammonium cations functionalised anion-conducting layer combined with SSE to obtain 77% C2+ FE under 100 mA cm–2. The device can be operated at the same current density for 200 hours with limited carbon loss at around 3%. The quaternary ammonium cations are suggested to play a similar role with metal cations to stabilise *CO2 – and inhibit carbonate salt formation (Fig. 9(c) and (d)). Based on the advantages of high carbon efficiency and considerable stability, the CO2 electrolyser with solid-state electrolyte is still under development to improve the ion conductivity of SSE and further enhance energy efficiency. 4 Summary and perspective Reverse-bias bipolar membrane (BPM) electrolyser allows the CO2 reduction reaction (CO2RR) to perform in acid and oxygen evolution reaction in base. Such working conditions can effectively suppress the carbonate issue to develop CO2 electrolysers for high carbon utilisation and long-term stability. In this review, we discussed the structure and operation mode of the BPM, followed by the construction of CO2RR electrolyser. Developing catalysts with intrinsically high activity to C2+ products is crucial in building BPM-CO2RR electrolysers. In addition, we also point out that the design of the membrane, electrode and electrolyser is critical in improving carbon efficiency (CE), energy efficiency (EE) and stability. However, it is still a great challenge toward industrialisation. Efforts should be made as follows: (1). Membrane design. The BPM affects the cell voltage distribution and the local reaction environment, thus influencing the reactivity. For example, employing a thinner membrane can diminish the ion transport distance, thereby minimising the membrane voltage. However, this also decreases the ion selectivity and influences mechanical stability, which in turn reduces the device’s durability. Therefore, synthesising efficient membranes with small resistance while maintaining mechanical stability is needed. Besides, the effect of ionic impurities on membrane durability and voltage has not been fully studied. A recent study showed reduced conductivity and ion blockage when impurities accumulate at the interfacial catalyst layer [141]. Mixed electrolytes are commonly used in the CO2RR, but systematic studies of the effects of mixed ions on the water association/dissociation kinetics are still lacking. (2). Catalysts development. Despite the progress of acidic CO2RR to C2+ product, a few of catalysts show intrinsically high activity and selectivity to the single value-up product, such as ethylene, ethanol and acetic acid which are highly demanded in chemical industry including organic synthesis, rubber manufacturing and food industry. Recent works have shown remarkable direct production of acetic acid in acid, which attracts more attention than acetate due to its lower cost of separation and purification [142]. The search for efficient catalysts for CO2RR requires joint efforts from theoretical understanding and experiments. (3). GDE optimisation. Flooding is commonly observed in the GDE, contributing to device failure. When flooding occurs, the pores in the hydrophobic GDL are filled with liquid, which prevents CO2 from reaching the CO2RR active sites and promotes HER. Electrochemical wetting, a major contributor to flooding, is more severe in the BPM system due to the high applied potential at the cathode. Besides, BPM CO2RR electrolysers usually suffer high interfacial gas pressure due to the carbonates reacting with H+ to release CO2, significantly influencing the stability. Introducing a highly hydrophobic polymer layer at the interface is also effective. Direct tuning of MPL thickness and pores can reduce gas transport resistance and suppress liquid influx into the GDE. Electrolyser design. Selective CO2RR in acid can be obtained by tuning the electrolyte composition in the flow cell. Proper usage of electrolytes can also lower ohmic resistance to achieve desired energy efficiency. However, inevitable carbonate formation occurs under high cation concentrations, hampering the stability at a device level. Further development of zero-gap or solid-state electrolysers could be an important direction. In addition to the reversed-bias BPM, the forward-bias BPM electrolyser presents the potential for substantially reducing cell voltage loss from the membrane, as the voltage for water dissociation is eliminated. However, the stability of the membrane poses a significant challenge for the forward-bias BPM, as membrane delamination becomes a more serious concern. References 1 D. Wakerley S. Lamaison J. Wicks A. Clemens J. Feaster D. Corral S.A. Jaffer A. Sarkar M. Fontecave E.B. Duoss S. Baker E.H. Sargent T.F. Jaramillo C. Hahn Nat. Energy 7 2022 130 143 D. Wakerley, S. Lamaison, J. Wicks, A. Clemens, J. Feaster, D. Corral, S. A. Jaffer, A. Sarkar, M. Fontecave, E. B. Duoss, S. Baker, E. H. Sargent, T. F. Jaramillo, C. Hahn, Nat. Energy, 2022, 7, 130–143. 2 R.I. Masel Z. Liu H. Yang J.J. Kaczur D. Carrillo S. Ren D. Salvatore C.P. Berlinguette Nat. Nanotechnol. 16 2021 118 128 R. I. Masel, Z. Liu, H. Yang, J. J. Kaczur, D. Carrillo, S. Ren, D. Salvatore, C. P. Berlinguette, Nat. Nanotechnol., 2021, 16, 118–128. 3 O.S. Bushuyev P. De Luna C.T. Dinh L. Tao G. Saur J. van de Lagemaat S.O. Kelley E.H. Sargent Joule 2 2018 825 832 O. S. Bushuyev, P. De Luna, C. T. Dinh, L. Tao, G. Saur, J. van de Lagemaat, S. O. Kelley, E. H. Sargent, Joule, 2018, 2, 825–832. 4 W. Ma S. Xie T. Liu Q. Fan J. Ye F. Sun Z. Jiang Q. Zhang J. Cheng Y. Wang Nat. Catal. 3 2020 478 487 W. Ma, S. Xie, T. Liu, Q. Fan, J. Ye, F. Sun, Z. Jiang, Q. Zhang, J. Cheng, Y. Wang, Nat. Catal., 2020, 3, 478–487. 5 J. Sisler S. Khan A.H. Ip M.W. Schreiber S.A. Jaffer E.R. Bobicki C.-T. Dinh E.H. Sargent ACS Energy Lett. 6 2021 997 1002 J. Sisler, S. Khan, A. H. Ip, M. W. Schreiber, S. A. Jaffer, E. R. Bobicki, C.-T. Dinh, E. H. Sargent, ACS Energy Lett., 2021, 6, 997–1002. 6 H. Shin K.U. Hansen F. Jiao Nat. Sustain. 4 2021 911 919 H. Shin, K. U. Hansen, F. Jiao, Nat. Sustain., 2021, 4, 911–919. 7 Y. Cheng P. Hou X. Wang P. Kang Acc. Chem. Res. 55 2022 231 240 Y. Cheng, P. Hou, X. Wang, P. Kang, Acc. Chem. Res., 2022, 55, 231–240. 8 S. Overa B.H. Ko Y. Zhao F. Jiao Acc. Chem. Res. 55 2022 638 648 S. Overa, B. H. Ko, Y. Zhao, F. Jiao, Acc. Chem. Res., 2022, 55, 638–648. 9 J.A. Rabinowitz M.W. Kanan Nat. Commun. 11 2020 5231 J. A. Rabinowitz, M. W. Kanan, Nat. Commun., 2020, 11, 5231. 10 A. Ozden F.P. García de Arquer J.E. Huang J. Wicks J. Sisler R.K. Miao C.P. O'Brien G. Lee X. Wang A.H. Ip E.H. Sargent D. Sinton Nat. Sustain. 5 2022 563 573 A. Ozden, F. P. García de Arquer, J. E. Huang, J. Wicks, J. Sisler, R. K. Miao, C. P. O'Brien, G. Lee, X. Wang, A. H. Ip, E. H. Sargent, D. Sinton, Nat. Sustain., 2022, 5, 563–573. 11 R.L. Cook R.C. MacDuff A.F. Sammells J. Electrochem. Soc. 137 1990 607 608 R. L. Cook, R. C. MacDuff, A. F. Sammells, J. Electrochem. Soc., 1990, 137, 607–608. 12 F.P.G. de Arquer C.T. Dinh A. Ozden J. Wicks C. McCallum A.R. Kirmani D.H. Nam C. Gabardo A. Seifitokaldani X. Wang Y.G.C. Li F.W. Li J. Edwards L.J. Richter S.J. Thorpe D. Sinton E.H. Sargent Science 367 2020 661 666 F. P. G. de Arquer, C. T. Dinh, A. Ozden, J. Wicks, C. McCallum, A. R. Kirmani, D. H. Nam, C. Gabardo, A. Seifitokaldani, X. Wang, Y. G. C. Li, F. W. Li, J. Edwards, L. J. Richter, S. J. Thorpe, D. Sinton, E. H. Sargent, Science, 2020, 367, 661–666. 13 C.-T. Dinh T. Burdyny M.G. Kibria A. Seifitokaldani C.M. Gabardo F.P. García de Arquer A. Kiani J.P. Edwards P. De Luna O.S. Bushuyev C. Zou R. Quintero-Bermudez Y. Pang D. Sinton E.H. Sargent Science 360 2018 783 787 C.-T. Dinh, T. Burdyny, M. G. Kibria, A. Seifitokaldani, C. M. Gabardo, F. P. García de Arquer, A. Kiani, J. P. Edwards, P. De Luna, O. S. Bushuyev, C. Zou, R. Quintero-Bermudez, Y. Pang, D. Sinton, E. H. Sargent, Science, 2018, 360, 783–787. 14 K. Yang R. Kas W.A. Smith T. Burdyny ACS Energy Lett. 6 2021 33 40 K. Yang, R. Kas, W. A. Smith, T. Burdyny, ACS Energy Lett., 2021, 6, 33–40. 15 Y. Yuan J. Lu Carbon Energy 1 2019 8 12 Y. Yuan, J. Lu, Carbon Energy, 2019, 1, 8–12. 16 D. Xu K. Li B. Jia W. Sun W. Zhang X. Liu T. Ma Carbon Energy 5 2023 e230 D. Xu, K. Li, B. Jia, W. Sun, W. Zhang, X. Liu, T. Ma, Carbon Energy, 2023, 5, e230. 17 J.-J. Lv R. Yin L. Zhou J. Li R. Kikas T. Xu Z.-J. Wang H. Jin X. Wang S. Wang Angew. Chem. Int. Ed. 61 2022 e202207252 J.-J. Lv, R. Yin, L. Zhou, J. Li, R. Kikas, T. Xu, Z.-J. Wang, H. Jin, X. Wang, S. Wang, Angew. Chem. Int. Ed., 2022, 61, e202207252. 18 J. Tang E. Weiss Z. Shao Carbon Neutralization 1 2022 140 158 J. Tang, E. Weiss, Z. Shao, Carbon Neutralization, 2022, 1, 140–158. 19 X. Chen J. Chen N.M. Alghoraibi D.A. Henckel R. Zhang U.O. Nwabara K.E. Madsen P.J.A. Kenis S.C. Zimmerman A.A. Gewirth Nat. Catal. 4 2021 20 27 X. Chen, J. Chen, N. M. Alghoraibi, D. A. Henckel, R. Zhang, U. O. Nwabara, K. E. Madsen, P. J. A. Kenis, S. C. Zimmerman, A. A. Gewirth, Nat. Catal., 2021, 4, 20–27. 20 Z. Gu H. Shen Z. Chen Y. Yang C. Yang Y. Ji Y. Wang C. Zhu J. Liu J. Li T.-K. Sham X. Xu G. Zheng Joule 5 2021 429 440 Z. Gu, H. Shen, Z. Chen, Y. Yang, C. Yang, Y. Ji, Y. Wang, C. Zhu, J. Liu, J. Li, T.-K. Sham, X. Xu, G. Zheng, Joule, 2021, 5, 429–440. 21 Á. Vass A. Kormányos Z. Kószó B. Endrődi C. Janáky ACS Catal 2022 1037 1051 Á. Vass, A. Kormányos, Z. Kószó, B. Endrődi, C. Janáky, ACS Catal., 2022, 1037–1051. 22 X. She L. Zhai Y. Wang P. Xiong M. M.-J. Li T.-S. Wu M.C. Wong X. Guo Z. Xu H. Li H. Xu Y. Zhu S.C.E. Tsang S.P. Lau Nat. Energy 2024 DOI: 10.1038/s41560-023-01415-4 X. She, L. Zhai, Y. Wang, P. Xiong, M. M.-J. Li, T.-S. Wu, M. C. Wong, X. Guo, Z. Xu, H. Li, H. Xu, Y. Zhu, S. C. E. Tsang, S. P. Lau, Nat. Energy, 2024, DOI: 10.1038/s41560-023-01415-4 23 T. Alkayyali A.S. Zeraati H. Mar F. Arabyarmohammadi S. Saber R.K. Miao C.P. O'Brien H. Liu Z. Xie G. Wang E.H. Sargent N. Zhao D. Sinton ACS Energy Lett. 8 2023 4674 4683 T. Alkayyali, A. S. Zeraati, H. Mar, F. Arabyarmohammadi, S. Saber, R. K. Miao, C. P. O'Brien, H. Liu, Z. Xie, G. Wang, E. H. Sargent, N. Zhao, D. Sinton, ACS Energy Lett., 2023, 8, 4674–4683. 24 K. Xie R.K. Miao A. Ozden S. Liu Z. Chen C.-T. Dinh J.E. Huang Q. Xu C.M. Gabardo G. Lee J.P. Edwards C.P. O'Brien S.W. Boettcher D. Sinton E.H. Sargent Nat. Commun. 13 2022 3609 K. Xie, R. K. Miao, A. Ozden, S. Liu, Z. Chen, C.-T. Dinh, J. E. Huang, Q. Xu, C. M. Gabardo, G. Lee, J. P. Edwards, C. P. O'Brien, S. W. Boettcher, D. Sinton, E. H. Sargent, Nat. Commun., 2022, 13, 3609. 25 D.A. Salvatore D.M. Weekes J. He K.E. Dettelbach Y.C. Li T.E. Mallouk C.P. Berlinguette ACS Energy Lett. 3 2018 149 154 D. A. Salvatore, D. M. Weekes, J. He, K. E. Dettelbach, Y. C. Li, T. E. Mallouk, C. P. Berlinguette, ACS Energy Lett., 2018, 3, 149–154. 26 B. Siritanaratkul M. Forster F. Greenwell P.K. Sharma E.H. Yu A.J. Cowan J. Am. Chem. Soc. 144 2022 7551 7556 B. Siritanaratkul, M. Forster, F. Greenwell, P. K. Sharma, E. H. Yu, A. J. Cowan, J. Am. Chem. Soc., 2022, 144, 7551–7556. 27 K. Yang M. Li S. Subramanian M.A. Blommaert W.A. Smith T. Burdyny ACS Energy Lett. 6 2021 4291 4298 K. Yang, M. Li, S. Subramanian, M. A. Blommaert, W. A. Smith, T. Burdyny, ACS Energy Lett., 2021, 6, 4291–4298. 28 J.E. Huang F. Li A. Ozden A.S. Rasouli F.P.G.D. Arquer S. Liu S. Zhang M. Luo X. Wang Y. Lum Y. Xu K. Bertens R.K. Miao C.-T. Dinh D. Sinton E.H. Sargent Science 372 2021 1074 1078 J. E. Huang, F. Li, A. Ozden, A. S. Rasouli, F. P. G. D. Arquer, S. Liu, S. Zhang, M. Luo, X. Wang, Y. Lum, Y. Xu, K. Bertens, R. K. Miao, C.-T. Dinh, D. Sinton, E. H. Sargent, Science, 2021, 372, 1074–1078. 29 G. Wen B. Ren X. Wang D. Luo H. Dou Y. Zheng R. Gao J. Gostick A. Yu Z. Chen Nat. Energy 7 2022 978 988 G. Wen, B. Ren, X. Wang, D. Luo, H. Dou, Y. Zheng, R. Gao, J. Gostick, A. Yu, Z. Chen, Nat. Energy, 2022, 7, 978–988. 30 Y. Xie P.F. Ou X. Wang Z.Y. Xu Y.C. Li Z.Y. Wang J.E. Huang J. Wicks C. McCallum N. Wang Y.H. Wang T.X. Chen B.T.W. Lo D. Sinton J.C. Yu Y. Wang E.H. Sargent Nat. Catal. 5 2022 564 570 Y. Xie, P. F. Ou, X. Wang, Z. Y. Xu, Y. C. Li, Z. Y. Wang, J. E. Huang, J. Wicks, C. McCallum, N. Wang, Y. H. Wang, T. X. Chen, B. T. W. Lo, D. Sinton, J. C. Yu, Y. Wang, E. H. Sargent, Nat. Catal., 2022, 5, 564–570. 31 Y. Zhao L. Hao A. Ozden S. Liu R.K. Miao P. Ou T. Alkayyali S. Zhang J. Ning Y. Liang Y. Xu M. Fan Y. Chen J.E. Huang K. Xie J. Zhang C.P. O'Brien F. Li E.H. Sargent D. Sinton Nat. Synth. 2 2023 403 412 Y. Zhao, L. Hao, A. Ozden, S. Liu, R. K. Miao, P. Ou, T. Alkayyali, S. Zhang, J. Ning, Y. Liang, Y. Xu, M. Fan, Y. Chen, J. E. Huang, K. Xie, J. Zhang, C. P. O'Brien, F. Li, E. H. Sargent, D. Sinton, Nat. Synth., 2023, 2, 403–412. 32 A. Xu S.-F. Hung A. Cao Z. Wang N. Karmodak J.E. Huang Y. Yan A. Sedighian Rasouli A. Ozden F.-Y. Wu Z.-Y. Lin H.-J. Tsai T.-J. Lee F. Li M. Luo Y. Wang X. Wang J. Abed Z. Wang D.-H. Nam Y.C. Li A.H. Ip D. Sinton C. Dong E.H. Sargent Nat. Catal. 5 2022 1081 1088 A. Xu, S.-F. Hung, A. Cao, Z. Wang, N. Karmodak, J. E. Huang, Y. Yan, A. Sedighian Rasouli, A. Ozden, F.-Y. Wu, Z.-Y. Lin, H.-J. Tsai, T.-J. Lee, F. Li, M. Luo, Y. Wang, X. Wang, J. Abed, Z. Wang, D.-H. Nam, Y. C. Li, A. H. Ip, D. Sinton, C. Dong, E. H. Sargent, Nat. Catal., 2022, 5, 1081–1088. 33 M. Xie Y. Shen W. Ma D. Wei B. Zhang Z. Wang Y. Wang Q. Zhang S. Xie C. Wang Y. Wang Angew. Chem. Int. Ed. 61 2022 e202213423 M. Xie, Y. Shen, W. Ma, D. Wei, B. Zhang, Z. Wang, Y. Wang, Q. Zhang, S. Xie, C. Wang, Y. Wang, Angew. Chem. Int. Ed., 2022, 61, e202213423. 34 F. Li A. Thevenon A. Rosas-Hernández Z. Wang Y. Li C.M. Gabardo A. Ozden C.T. Dinh J. Li Y. Wang J.P. Edwards Y. Xu C. McCallum L. Tao Z.-Q. Liang M. Luo X. Wang H. Li C.P. O'Brien C.-S. Tan D.-H. Nam R. Quintero-Bermudez T.-T. Zhuang Y.C. Li Z. Han R.D. Britt D. Sinton T. Agapie J.C. Peters E.H. Sargent Nature 577 2020 509 513 F. Li, A. Thevenon, A. Rosas-Hernández, Z. Wang, Y. Li, C. M. Gabardo, A. Ozden, C. T. Dinh, J. Li, Y. Wang, J. P. Edwards, Y. Xu, C. McCallum, L. Tao, Z.-Q. Liang, M. Luo, X. Wang, H. Li, C. P. O'Brien, C.-S. Tan, D.-H. Nam, R. Quintero-Bermudez, T.-T. Zhuang, Y. C. Li, Z. Han, R. D. Britt, D. Sinton, T. Agapie, J. C. Peters, E. H. Sargent, Nature, 2020, 577, 509–513. 35 G. Zhang Z.-J. Zhao D. Cheng H. Li J. Yu Q. Wang H. Gao J. Guo H. Wang G.A. Ozin T. Wang J. Gong Nat. Commun. 12 2021 5745 G. Zhang, Z.-J. Zhao, D. Cheng, H. Li, J. Yu, Q. Wang, H. Gao, J. Guo, H. Wang, G. A. Ozin, T. Wang, J. Gong, Nat. Commun., 2021, 12, 5745. 36 U.O. Nwabara E.R. Cofell S. Verma E. Negro P.J.A. Kenis ChemSusChem 13 2020 855 875 U. O. Nwabara, E. R. Cofell, S. Verma, E. Negro, P. J. A. Kenis, ChemSusChem, 2020, 13, 855–875. 37 M.A. Blommaert S. Subramanian K. Yang W.A. Smith D.A. Vermaas ACS Appl. Mater. Interfaces 14 2022 557 563 M. A. Blommaert, S. Subramanian, K. Yang, W. A. Smith, D. A. Vermaas, ACS Appl. Mater. Interfaces, 2022, 14, 557–563. 38 E.R. Cofell U.O. Nwabara S.S. Bhargava D.E. Henckel P.J.A. Kenis ACS Appl. Mater. Interfaces 13 2021 15132 15142 E. R. Cofell, U. O. Nwabara, S. S. Bhargava, D. E. Henckel, P. J. A. Kenis, ACS Appl. Mater. Interfaces, 2021, 13, 15132–15142. 39 J. Gu S. Liu W. Ni W. Ren S. Haussener X. Hu Nat. Catal. 5 2022 268 276 J. Gu, S. Liu, W. Ni, W. Ren, S. Haussener, X. Hu, Nat. Catal., 2022, 5, 268–276. 40 C.P. O'Brien R.K. Miao S. Liu Y. Xu G. Lee A. Robb J.E. Huang K. Xie K. Bertens C.M. Gabardo J.P. Edwards C.-T. Dinh E.H. Sargent D. Sinton ACS Energy Lett. 6 2021 2952 2959 C. P. O'Brien, R. K. Miao, S. Liu, Y. Xu, G. Lee, A. Robb, J. E. Huang, K. Xie, K. Bertens, C. M. Gabardo, J. P. Edwards, C.-T. Dinh, E. H. Sargent, D. Sinton, ACS Energy Lett., 2021, 6, 2952–2959. 41 M. Prestat J. Power Sources 556 2023 232469 M. Prestat, J. Power Sources, 2023, 556, 232469. 42 C. Qiu Z. Xu F.-Y. Chen H. Wang ACS Catal. 14 2024 921 954 C. Qiu, Z. Xu, F.-Y. Chen, H. Wang, ACS Catal., 2024, 14, 921–954. 43 M.A. Blommaert D. Aili R.A. Tufa Q. Li W.A. Smith D.A. Vermaas ACS Energy Lett. 6 2021 2539 2548 M. A. Blommaert, D. Aili, R. A. Tufa, Q. Li, W. A. Smith, D. A. Vermaas, ACS Energy Lett., 2021, 6, 2539–2548. 44 M. Ma S. Kim I. Chorkendorff B. Seger Chem. Sci. 11 2020 8854 8861 M. Ma, S. Kim, I. Chorkendorff, B. Seger, Chem. Sci., 2020, 11, 8854–8861. 45 Z. Yan J.L. Hitt Z. Zeng M.A. Hickner T.E. Mallouk Nat. Chem. 13 2021 33 40 Z. Yan, J. L. Hitt, Z. Zeng, M. A. Hickner, T. E. Mallouk, Nat. Chem., 2021, 13, 33–40. 46 S. Garg C.A. Giron Rodriguez T.E. Rufford J.R. Varcoe B. Seger Energy Environ. Sci. 15 2022 4440 4469 S. Garg, C. A. Giron Rodriguez, T. E. Rufford, J. R. Varcoe, B. Seger, Energy Environ. Sci., 2022, 15, 4440–4469. 47 J. Xu G. Zhong M. Li D. Zhao Y. Sun X. Hu J. Sun X. Li W. Zhu M. Li Z. Zhang Y. Zhang L. Zhao C. Zheng X. Sun Chin. Chem. Lett. 34 2023 108075 J. Xu, G. Zhong, M. Li, D. Zhao, Y. Sun, X. Hu, J. Sun, X. Li, W. Zhu, M. Li, Z. Zhang, Y. Zhang, L. Zhao, C. Zheng, X. Sun, Chin. Chem. Lett., 2023, 34, 108075. 48 Z. Qiu Y. Yun M. He L. Wang Chem. Eng. J. 456 2023 140942 Z. Qiu, Y. Yun, M. He, L. Wang, Chem. Eng. J., 2023, 456, 140942. 49 H. Wang J. Yan W. Song C. Jiang Y. Wang T. Xu Sep. Purif. Technol. 296 2022 121390 H. Wang, J. Yan, W. Song, C. Jiang, Y. Wang, T. Xu, Sep. Purif. Technol., 2022, 296, 121390. 50 F. Harnisch U. Schröder F. Scholz Environ. Sci. Technol. 42 2008 1740 1746 F. Harnisch, U. Schröder, F. Scholz, Environ. Sci. Technol., 2008, 42, 1740–1746. 51 Z. Zhang X. Huang Z. Chen J. Zhu B. Endrődi C. Janáky D. Deng Angew. Chem. Int. Ed. 62 2023 e202302789 Z. Zhang, X. Huang, Z. Chen, J. Zhu, B. Endrődi, C. Janáky, D. Deng, Angew. Chem. Int. Ed., 2023, 62, e202302789. 52 Z. Yan T.E. Mallouk Acc. Mater. Res. 2 2021 1156 1166 Z. Yan, T. E. Mallouk, Acc. Mater. Res., 2021, 2, 1156–1166. 53 R. Pärnamäe S. Mareev V. Nikonenko S. Melnikov N. Sheldeshov V. Zabolotskii H.V.M. Hamelers M. Tedesco J. Membr. Sci. 617 2021 118538 R. Pärnamäe, S. Mareev, V. Nikonenko, S. Melnikov, N. Sheldeshov, V. Zabolotskii, H. V. M. Hamelers, M. Tedesco, J. Membr. Sci., 2021, 617, 118538. 54 Y. Li R. Wang S. Shi H. Cao N.Y. Yip S. Lin Environ. Sci. Technol. 55 2021 14886 14896 Y. Li, R. Wang, S. Shi, H. Cao, N. Y. Yip, S. Lin, Environ. Sci. Technol., 2021, 55, 14886–14896. 55 D.H. Marin J.T. Perryman M.A. Hubert G.A. Lindquist L. Chen A.M. Aleman G.A. Kamat V.A. Niemann M.B. Stevens Y.N. Regmi S.W. Boettcher A.C. Nielander T.F. Jaramillo Joule 7 2023 765 781 D. H. Marin, J. T. Perryman, M. A. Hubert, G. A. Lindquist, L. Chen, A. M. Aleman, G. A. Kamat, V. A. Niemann, M. B. Stevens, Y. N. Regmi, S. W. Boettcher, A. C. Nielander, T. F. Jaramillo, Joule, 2023, 7, 765–781. 56 Z. Li S. Chen L. Cui H. Wang S. Lu Y. Xiang J. Power Sources 542 2022 231754 Z. Li, S. Chen, L. Cui, H. Wang, S. Lu, Y. Xiang, J. Power Sources, 2022, 542, 231754. 57 E. Al-Dhubhani R. Pärnamäe J.W. Post M. Saakes M. Tedesco J. Membr. Sci. 640 2021 119748 E. Al-Dhubhani, R. Pärnamäe, J. W. Post, M. Saakes, M. Tedesco, J. Membr. Sci., 2021, 640, 119748. 58 Y.C. Li Z. Yan J. Hitt R. Wycisk P.N. Pintauro T.E. Mallouk Adv. Sustain. Syst. 2 2018 1700187 Y. C. Li, Z. Yan, J. Hitt, R. Wycisk, P. N. Pintauro, T. E. Mallouk, Adv. Sustain. Syst., 2018, 2, 1700187. 59 J.C. Bui E.W. Lees D.H. Marin T.N. Stovall L. Chen A. Kusoglu A.C. Nielander T.F. Jaramillo S.W. Boettcher A.T. Bell A.Z. Weber Nat. Chem. Eng. 1 2024 45 60 J. C. Bui, E. W. Lees, D. H. Marin, T. N. Stovall, L. Chen, A. Kusoglu, A. C. Nielander, T. F. Jaramillo, S. W. Boettcher, A. T. Bell, A. Z. Weber, Nat. Chem. Eng., 2024, 1, 45–60. 60 A. Pătru T. Binninger B. Pribyl T.J. Schmidt J. Electrochem. Soc. 166 2019 F34 F43 A. Pătru, T. Binninger, B. Pribyl, T. J. Schmidt, J. Electrochem. Soc., 2019, 166, F34–F43. 61 M.A. Blommaert R. Sharifian N.U. Shah N.T. Nesbitt W.A. Smith D.A. Vermaas J. Mater. Chem. A 9 2021 11179 11186 M. A. Blommaert, R. Sharifian, N. U. Shah, N. T. Nesbitt, W. A. Smith, D. A. Vermaas, J. Mater. Chem. A, 2021, 9, 11179–11186. 62 L. Li P. Wang Q. Shao X. Huang Adv. Mater. 33 2021 2004243 L. Li, P. Wang, Q. Shao, X. Huang, Adv. Mater., 2021, 33, 2004243. 63 M.A. Blommaert D.A. Vermaas B. Izelaar B. in ’t Veen W.A. Smith J. Mater. Chem. A 7 2019 19060 19069 M. A. Blommaert, D. A. Vermaas, B. Izelaar, B. in ’t Veen, W. A. Smith, J. Mater. Chem. A, 2019, 7, 19060–19069. 64 F.G. Donnan J. Membr. Sci. 100 1995 45 55 F. G. Donnan, J. Membr. Sci., 1995, 100, 45–55. 65 P. Aydogan Gokturk R. Sujanani J. Qian Y. Wang L.E. Katz B.D. Freeman E.J. Crumlin Nat. Commun. 13 2022 5880 P. Aydogan Gokturk, R. Sujanani, J. Qian, Y. Wang, L. E. Katz, B. D. Freeman, E. J. Crumlin, Nat. Commun., 2022, 13, 5880. 66 A.H. Galama J.W. Post M.A. Cohen Stuart P.M. Biesheuvel J. Membr. Sci. 442 2013 131 139 A. H. Galama, J. W. Post, M. A. Cohen Stuart, P. M. Biesheuvel, J. Membr. Sci., 2013, 442, 131–139. 67 T.-Y. Chen J. Leddy Langmuir 16 2000 2866 2871 T.-Y. Chen, J. Leddy, Langmuir, 2000, 16, 2866–2871. 68 H. Khalid M. Najibah H.S. Park C. Bae D. Henkensmeier Membranes 12 2022 989 H. Khalid, M. Najibah, H. S. Park, C. Bae, D. Henkensmeier, Membranes, 2022, 12, 989. 69 P.K. Giesbrecht M.S. Freund Chem. Mater. 32 2020 8060 8090 P. K. Giesbrecht, M. S. Freund, Chem. Mater., 2020, 32, 8060–8090. 70 F.G. Wilhelm I. Pünt N.F.A. van der Vegt H. Strathmann M. Wessling Ind. Eng. Chem. Res 41 2002 579 586 F. G. Wilhelm, I. Pünt, N. F. A. van der Vegt, H. Strathmann, M. Wessling, Ind. Eng. Chem. Res, 2002, 41, 579–586. 71 D.A. Vermaas S. Wiegman T. Nagaki W.A. Smith Sustain. Energy Fuels 2 2018 2006 2015 D. A. Vermaas, S. Wiegman, T. Nagaki, W. A. Smith, Sustain. Energy Fuels, 2018, 2, 2006–2015. 72 H. Holdik A. Alcaraz P. Ramırez S. Mafé J. Electroanal. Chem. 442 1998 13 18 H. Holdik, A. Alcaraz, P. Ramırez, S. Mafé, J. Electroanal. Chem., 1998, 442, 13–18. 73 S.Z. Oener S. Ardo S.W. Boettcher ACS Energy Lett. 2 2017 2625 2634 S. Z. Oener, S. Ardo, S. W. Boettcher, ACS Energy Lett., 2017, 2, 2625–2634. 74 R.S. Reiter W. White S. Ardo J. Electrochem. Soc. 163 2016 H3132 H3134 R. S. Reiter, W. White, S. Ardo, J. Electrochem. Soc., 2016, 163, H3132–H3134. 75 S.Z. Oener M.J. Foster S.W. Boettcher Science 369 2020 1099 1103 S. Z. Oener, M. J. Foster, S. W. Boettcher, Science, 2020, 369, 1099–1103. 76 Z. Yan L. Zhu Y.C. Li R.J. Wycisk P.N. Pintauro M.A. Hickner T.E. Mallouk Energy Environ. Sci. 11 2018 2235 2245 Z. Yan, L. Zhu, Y. C. Li, R. J. Wycisk, P. N. Pintauro, M. A. Hickner, T. E. Mallouk, Energy Environ. Sci., 2018, 11, 2235–2245. 77 R. Simons Electrochim. Acta 30 1985 275 282 R. Simons, Electrochim. Acta, 1985, 30, 275–282. 78 M. Eigen Discuss. Faraday Soc. 17 1954 194 205 M. Eigen, Discuss. Faraday Soc., 1954, 17, 194–205. 79 J.C. Bui K.R.M. Corpus A.T. Bell A.Z. Weber J. Phys. Chem. C 125 2021 24974 24987 J. C. Bui, K. R. M. Corpus, A. T. Bell, A. Z. Weber, J. Phys. Chem. C, 2021, 125, 24974–24987. 80 L. Chen Q. Xu S.Z. Oener K. Fabrizio S.W. Boettcher Nat. Commun. 13 2022 3846 L. Chen, Q. Xu, S. Z. Oener, K. Fabrizio, S. W. Boettcher, Nat. Commun., 2022, 13, 3846. 81 L. Onsager J. Chem. Phys. 2 1934 599 615 L. Onsager, J. Chem. Phys., 1934, 2, 599–615. 82 V. Kaiser S.T. Bramwell P.C.W. Holdsworth R. Moessner Nat. Mater. 12 2013 1033 1037 V. Kaiser, S. T. Bramwell, P. C. W. Holdsworth, R. Moessner, Nat. Mater., 2013, 12, 1033–1037. 83 B. Kunst B. Lovreček Croat. Chem. Acta 34 1962 219 229 B. Kunst, B. Lovreček, Croat. Chem. Acta, 1962, 34, 219–229. 84 S. Mafé P. Ramırez A. Alcaraz Chem. Phys. Lett. 294 1998 406 412 S. Mafé, P. Ramırez, A. Alcaraz, Chem. Phys. Lett., 1998, 294, 406–412. 85 R. Simons Nature 280 1979 824 826 R. Simons, Nature, 1979, 280, 824–826. 86 V. Zabolotskii N. Sheldeshov S. Melnikov Desalination 342 2014 183 203 V. Zabolotskii, N. Sheldeshov, S. Melnikov, Desalination, 2014, 342, 183–203. 87 P. Ramírez V.M. Aguilella J.A. Manzanares S. Mafé J. Membr. Sci. 73 1992 191 201 P. Ramírez, V. M. Aguilella, J. A. Manzanares, S. Mafé, J. Membr. Sci., 1992, 73, 191–201. 88 L. Chen Q. Xu S.W. Boettcher Joule 7 2023 1867 1886 L. Chen, Q. Xu, S. W. Boettcher, Joule, 2023, 7, 1867–1886. 89 P. Ramírez H.-J. Rapp S. Mafé B. Bauer J. Electroanal. Chem. 375 1994 101 108 P. Ramírez, H.-J. Rapp, S. Mafé, B. Bauer, J. Electroanal. Chem., 1994, 375, 101–108. 90 D.A. Salvatore C.M. Gabardo A. Reyes C.P. O'Brien S. Holdcroft P. Pintauro B. Bahar M. Hickner C. Bae D. Sinton E.H. Sargent C.P. Berlinguette Nat. Energy 6 2021 339 348 D. A. Salvatore, C. M. Gabardo, A. Reyes, C. P. O'Brien, S. Holdcroft, P. Pintauro, B. Bahar, M. Hickner, C. Bae, D. Sinton, E. H. Sargent, C. P. Berlinguette, Nat. Energy, 2021, 6, 339–348. 91 J. Kamcev B.D. Freeman Annu. Rev. Chem. Biomol. Eng. 7 2016 111 133 J. Kamcev, B. D. Freeman, Annu. Rev. Chem. Biomol. Eng., 2016, 7, 111–133. 92 V.M. Volgin A.D. Davydov J. Membr. Sci. 259 2005 110 121 V. M. Volgin, A. D. Davydov, J. Membr. Sci., 2005, 259, 110–121. 93 N. Ziv D.R. Dekel Electrochem. Commun. 88 2018 109 113 N. Ziv, D. R. Dekel, Electrochem. Commun., 2018, 88, 109–113. 94 B. Mayerhöfer D. McLaughlin T. Böhm M. Hegelheimer D. Seeberger S. Thiele ACS Appl. Energy Mater. 3 2020 9635 9644 B. Mayerhöfer, D. McLaughlin, T. Böhm, M. Hegelheimer, D. Seeberger, S. Thiele, ACS Appl. Energy Mater., 2020, 3, 9635–9644. 95 S.Z. Oener L.P. Twight G.A. Lindquist S.W. Boettcher ACS Energy Lett. 6 2021 1 8 S. Z. Oener, L. P. Twight, G. A. Lindquist, S. W. Boettcher, ACS Energy Lett., 2021, 6, 1–8. 96 É. Lucas, J. C. Bui, M. Hwang, K. Wang, A. T. Bell, A. Z. Weber, S. Ardo, H. A. Atwater and C. Xiang, ChemRxiv, 2023, 1-33, Preprint at 10.26434/chemrxiv-2023-n4c6x. 97 C. Shen R. Wycisk P.N. Pintauro Energy Environ. Sci. 10 2017 1435 1442 C. Shen, R. Wycisk, P. N. Pintauro, Energy Environ. Sci., 2017, 10, 1435–1442. 98 Y. Chen J.A. Wrubel W.E. Klein S. Kabir W.A. Smith K.C. Neyerlin T.G. Deutsch ACS Appl. Polym. Mater. 2 2020 4559 4569 Y. Chen, J. A. Wrubel, W. E. Klein, S. Kabir, W. A. Smith, K. C. Neyerlin, T. G. Deutsch, ACS Appl. Polym. Mater., 2020, 2, 4559–4569. 99 Z. Xu L. Wan Y. Liao M. Pang Q. Xu P. Wang B. Wang Nat. Commun. 14 2023 1619 Z. Xu, L. Wan, Y. Liao, M. Pang, Q. Xu, P. Wang, B. Wang, Nat. Commun., 2023, 14, 1619. 100 T. Burdyny W.A. Smith Energy Environ. Sci. 12 2019 1442 1453 T. Burdyny, W. A. Smith, Energy Environ. Sci., 2019, 12, 1442–1453. 101 K. Liu W.A. Smith T. Burdyny ACS Energy Lett. 4 2019 639 643 K. Liu, W. A. Smith, T. Burdyny, ACS Energy Lett., 2019, 4, 639–643. 102 P.S. Lamoureux A.R. Singh K. Chan ACS Catal. 9 2019 6194 6201 P. S. Lamoureux, A. R. Singh, K. Chan, ACS Catal., 2019, 9, 6194–6201. 103 X. Liu P. Schlexer J. Xiao Y. Ji L. Wang R.B. Sandberg M. Tang K.S. Brown H. Peng S. Ringe C. Hahn T.F. Jaramillo J.K. Nørskov K. Chan Nat. Commun. 10 2019 32 X. Liu, P. Schlexer, J. Xiao, Y. Ji, L. Wang, R. B. Sandberg, M. Tang, K. S. Brown, H. Peng, S. Ringe, C. Hahn, T. F. Jaramillo, J. K. Nørskov, K. Chan, Nat. Commun., 2019, 10, 32. 104 H. Ooka M.C. Figueiredo M.T.M. Koper Langmuir 33 2017 9307 9313 H. Ooka, M. C. Figueiredo, M. T. M. Koper, Langmuir, 2017, 33, 9307–9313. 105 C.J. Bondue M. Graf A. Goyal M.T.M. Koper J. Am. Chem. Soc. 143 2021 279 285 C. J. Bondue, M. Graf, A. Goyal, M. T. M. Koper, J. Am. Chem. Soc., 2021, 143, 279–285. 106 Z.-Z. Niu L.-P. Chi R. Liu Z. Chen M.-R. Gao Energy Environ. Sci. 14 2021 4169 4176 Z.-Z. Niu, L.-P. Chi, R. Liu, Z. Chen, M.-R. Gao, Energy Environ. Sci., 2021, 14, 4169–4176. 107 K.P. Kuhl E.R. Cave D.N. Abram T.F. Jaramillo Energy Environ. Sci. 5 2012 7050 7059 K. P. Kuhl, E. R. Cave, D. N. Abram, T. F. Jaramillo, Energy Environ. Sci., 2012, 5, 7050–7059. 108 Y.Y. Birdja E. Pérez-Gallent M.C. Figueiredo A.J. Göttle F. Calle-Vallejo M.T.M. Koper Nat. Energy 4 2019 732 745 Y. Y. Birdja, E. Pérez-Gallent, M. C. Figueiredo, A. J. Göttle, F. Calle-Vallejo, M. T. M. Koper, Nat. Energy, 2019, 4, 732–745. 109 A. Bagger W. Ju A.S. Varela P. Strasser J. Rossmeisl ChemPhysChem 18 2017 3266 3273 A. Bagger, W. Ju, A. S. Varela, P. Strasser, J. Rossmeisl, ChemPhysChem, 2017, 18, 3266–3273. 110 C. Peng S. Yang G. Luo S. Yan M. Shakouri J. Zhang Y. Chen W. Li Z. Wang T.-K. Sham G. Zheng Adv. Mater. 34 2022 2204476 C. Peng, S. Yang, G. Luo, S. Yan, M. Shakouri, J. Zhang, Y. Chen, W. Li, Z. Wang, T.-K. Sham, G. Zheng, Adv. Mater., 2022, 34, 2204476. 111 J. Jin J. Wicks Q. Min J. Li Y. Hu J. Ma Y. Wang Z. Jiang Y. Xu R. Lu G. Si P. Papangelakis M. Shakouri Q. Xiao P. Ou X. Wang Z. Chen W. Zhang K. Yu J. Song X. Jiang P. Qiu Y. Lou D. Wu Y. Mao A. Ozden C. Wang B.Y. Xia X. Hu V.P. Dravid Y.M. Yiu T.K. Sham Z. Wang D. Sinton L. Mai E.H. Sargent Y. Pang Nature 617 2023 724 729 J. Jin, J. Wicks, Q. Min, J. Li, Y. Hu, J. Ma, Y. Wang, Z. Jiang, Y. Xu, R. Lu, G. Si, P. Papangelakis, M. Shakouri, Q. Xiao, P. Ou, X. Wang, Z. Chen, W. Zhang, K. Yu, J. Song, X. Jiang, P. Qiu, Y. Lou, D. Wu, Y. Mao, A. Ozden, C. Wang, B. Y. Xia, X. Hu, V. P. Dravid, Y. M. Yiu, T. K. Sham, Z. Wang, D. Sinton, L. Mai, E. H. Sargent, Y. Pang, Nature, 2023, 617, 724–729. 112 D.-H. Nam P. De Luna A. Rosas-Hernández A. Thevenon F. Li T. Agapie J.C. Peters O. Shekhah M. Eddaoudi E.H. Sargent Nat. Mater. 19 2020 266 276 D.-H. Nam, P. De Luna, A. Rosas-Hernández, A. Thevenon, F. Li, T. Agapie, J. C. Peters, O. Shekhah, M. Eddaoudi, E. H. Sargent, Nat. Mater., 2020, 19, 266–276. 113 M.C.O. Monteiro F. Dattila B. Hagedoorn R. García-Muelas N. López M.T.M. Koper Nat. Catal. 4 2021 654 662 M. C. O. Monteiro, F. Dattila, B. Hagedoorn, R. García-Muelas, N. López, M. T. M. Koper, Nat. Catal., 2021, 4, 654–662. 114 M.C.O. Monteiro M.F. Philips K.J.P. Schouten M.T.M. Koper Nat. Commun. 12 2021 4943 M. C. O. Monteiro, M. F. Philips, K. J. P. Schouten, M. T. M. Koper, Nat. Commun., 2021, 12, 4943. 115 M.C.O. Monteiro F. Dattila N. López M.T.M. Koper J. Am. Chem. Soc. 144 2022 1589 1602 M. C. O. Monteiro, F. Dattila, N. López, M. T. M. Koper, J. Am. Chem. Soc., 2022, 144, 1589–1602. 116 Z. Xu M. Sun Z. Zhang Y. Xie H. Hou X. Ji T. Liu B. Huang Y. Wang ChemCatChem 14 2022 e202200052 Z. Xu, M. Sun, Z. Zhang, Y. Xie, H. Hou, X. Ji, T. Liu, B. Huang, Y. Wang, ChemCatChem, 2022, 14, e202200052. 117 S. Ringe E.L. Clark J. Resasco A. Walton B. Seger A.T. Bell K. Chan Energy Environ. Sci. 12 2019 3001 3014 S. Ringe, E. L. Clark, J. Resasco, A. Walton, B. Seger, A. T. Bell, K. Chan, Energy Environ. Sci., 2019, 12, 3001–3014. 118 E. Pérez-Gallent G. Marcandalli M.C. Figueiredo F. Calle-Vallejo M.T.M. Koper J. Am. Chem. Soc. 139 2017 16412 16419 E. Pérez-Gallent, G. Marcandalli, M. C. Figueiredo, F. Calle-Vallejo, M. T. M. Koper, J. Am. Chem. Soc., 2017, 139, 16412–16419. 119 J. Resasco L.D. Chen E. Clark C. Tsai C. Hahn T.F. Jaramillo K. Chan A.T. Bell J. Am. Chem. Soc. 139 2017 11277 11287 J. Resasco, L. D. Chen, E. Clark, C. Tsai, C. Hahn, T. F. Jaramillo, K. Chan, A. T. Bell, J. Am. Chem. Soc., 2017, 139, 11277–11287. 120 T. Zheng K. Jiang N. Ta Y. Hu J. Zeng J. Liu H. Wang Joule 3 2019 265 278 T. Zheng, K. Jiang, N. Ta, Y. Hu, J. Zeng, J. Liu, H. Wang, Joule, 2019, 3, 265–278. 121 Z. Liu H. Yang R. Kutz R.I. Masel J. Electrochem. Soc. 165 2018 J3371 J3377 Z. Liu, H. Yang, R. Kutz, R. I. Masel, J. Electrochem. Soc., 2018, 165, J3371–J3377. 122 C.M. Gabardo C.P. O'Brien J.P. Edwards C. McCallum Y. Xu C.-T. Dinh J. Li E.H. Sargent D. Sinton Joule 3 2019 2777 2791 C. M. Gabardo, C. P. O'Brien, J. P. Edwards, C. McCallum, Y. Xu, C.-T. Dinh, J. Li, E. H. Sargent, D. Sinton, Joule, 2019, 3, 2777–2791. 123 J.-B. Vennekoetter R. Sengpiel M. Wessling Chem. Eng. J. 364 2019 89 101 J.-B. Vennekoetter, R. Sengpiel, M. Wessling, Chem. Eng. J., 2019, 364, 89–101. 124 E. Brightman J. Dodwell N. van Dijk G. Hinds Electrochem. Commun. 52 2015 1 4 E. Brightman, J. Dodwell, N. van Dijk, G. Hinds, Electrochem. Commun., 2015, 52, 1–4. 125 H. Yano F. Shirai M. Nakayama K. Ogura J. Electroanal. Chem. 533 2002 113 118 H. Yano, F. Shirai, M. Nakayama, K. Ogura, J. Electroanal. Chem., 2002, 533, 113–118. 126 J. Zhang G. Lin J. Zhu S. Wang W. Zhou X. Lv B. Li J. Wang X. Lu J. Fu ChemSusChem 16 2023 e202300829 J. Zhang, G. Lin, J. Zhu, S. Wang, W. Zhou, X. Lv, B. Li, J. Wang, X. Lu, J. Fu, ChemSusChem, 2023, 16, e202300829. 127 M. Fan J.E. Huang R.K. Miao Y. Mao P. Ou F. Li X.-Y. Li Y. Cao Z. Zhang J. Zhang Y. Yan A. Ozden W. Ni Y. Wang Y. Zhao Z. Chen B. Khatir C.P. O'Brien Y. Xu Y.C. Xiao G.I.N. Waterhouse K. Golovin Z. Wang E.H. Sargent D. Sinton Nat. Catal. 6 2023 763 772 M. Fan, J. E. Huang, R. K. Miao, Y. Mao, P. Ou, F. Li, X.-Y. Li, Y. Cao, Z. Zhang, J. Zhang, Y. Yan, A. Ozden, W. Ni, Y. Wang, Y. Zhao, Z. Chen, B. Khatir, C. P. O'Brien, Y. Xu, Y. C. Xiao, G. I. N. Waterhouse, K. Golovin, Z. Wang, E. H. Sargent, D. Sinton, Nat. Catal., 2023, 6, 763–772. 128 L. Li Z. Liu X. Yu M. Zhong Angew. Chem. Int. Ed. 62 2023 e202300226 L. Li, Z. Liu, X. Yu, M. Zhong, Angew. Chem. Int. Ed., 2023, 62, e202300226. 129 A. Wuttig J. Ryu Y. Surendranath J. Phys. Chem. C. 125 2021 17042 17050 A. Wuttig, J. Ryu, Y. Surendranath, J. Phys. Chem. C., 2021, 125, 17042–17050. 130 Y.-J. Zhang V. Sethuraman R. Michalsky A.A. Peterson ACS Catal. 4 2014 3742 3748 Y.-J. Zhang, V. Sethuraman, R. Michalsky, A. A. Peterson, ACS Catal., 2014, 4, 3742–3748. 131 E.R. Cave C. Shi K.P. Kuhl T. Hatsukade D.N. Abram C. Hahn K. Chan T.F. Jaramillo ACS Catal. 8 2018 3035 3040 E. R. Cave, C. Shi, K. P. Kuhl, T. Hatsukade, D. N. Abram, C. Hahn, K. Chan, T. F. Jaramillo, ACS Catal., 2018, 8, 3035–3040. 132 Z. Jiang Z. Zhang H. Li Y. Tang Y. Yuan J. Zao H. Zheng Y. Liang Adv. Energy Mater. 13 2023 2203603 Z. Jiang, Z. Zhang, H. Li, Y. Tang, Y. Yuan, J. Zao, H. Zheng, Y. Liang, Adv. Energy Mater., 2023, 13, 2203603. 133 B. Pan J. Fan J. Zhang Y. Luo C. Shen C. Wang Y. Wang Y. Li ACS Energy Lett. 7 2022 4224 4231 B. Pan, J. Fan, J. Zhang, Y. Luo, C. Shen, C. Wang, Y. Wang, Y. Li, ACS Energy Lett., 2022, 7, 4224–4231. 134 J.B. Greenblatt D.J. Miller J.W. Ager F.A. Houle I.D. Sharp Joule 2 2018 381 420 J. B. Greenblatt, D. J. Miller, J. W. Ager, F. A. Houle, I. D. Sharp, Joule, 2018, 2, 381–420. 135 C. Xia P. Zhu Q. Jiang Y. Pan W. Liang E. Stavitski H.N. Alshareef H. Wang Nat. Energy 4 2019 776 785 C. Xia, P. Zhu, Q. Jiang, Y. Pan, W. Liang, E. Stavitski, H. N. Alshareef, H. Wang, Nat. Energy, 2019, 4, 776–785. 136 L. Fan C. Xia P. Zhu Y. Lu H. Wang Nat. Commun. 11 2020 3633 L. Fan, C. Xia, P. Zhu, Y. Lu, H. Wang, Nat. Commun., 2020, 11, 3633. 137 J.Y.T. Kim P. Zhu F.-Y. Chen Z.-Y. Wu D.A. Cullen H. Wang Nat. Catal. 5 2022 288 299 J. Y. T. Kim, P. Zhu, F.-Y. Chen, Z.-Y. Wu, D. A. Cullen, H. Wang, Nat. Catal., 2022, 5, 288–299. 138 R.K. Miao Y. Xu A. Ozden A. Robb C.P. O'Brien C.M. Gabardo G. Lee J.P. Edwards J.E. Huang M. Fan X. Wang S. Liu Y. Yan E.H. Sargent D. Sinton Joule 5 2021 2742 2753 R. K. Miao, Y. Xu, A. Ozden, A. Robb, C. P. O'Brien, C. M. Gabardo, G. Lee, J. P. Edwards, J. E. Huang, M. Fan, X. Wang, S. Liu, Y. Yan, E. H. Sargent, D. Sinton, Joule, 2021, 5, 2742–2753. 139 Y. Xu R.K. Miao J.P. Edwards S. Liu C.P. O'Brien C.M. Gabardo M. Fan J.E. Huang A. Robb E.H. Sargent D. Sinton Joule 6 2022 1333 1343 Y. Xu, R. K. Miao, J. P. Edwards, S. Liu, C. P. O'Brien, C. M. Gabardo, M. Fan, J. E. Huang, A. Robb, E. H. Sargent, D. Sinton, Joule, 2022, 6, 1333–1343. 140 S. Wang Z. Qian Q. Huang Y. Tan F. Lv L. Zeng C. Shang K. Wang G. Wang Y. Mao Y. Wang Q. Zhang L. Gu S. Guo Adv. Energy Mater. 12 2022 2201278 S. Wang, Z. Qian, Q. Huang, Y. Tan, F. Lv, L. Zeng, C. Shang, K. Wang, G. Wang, Y. Mao, Y. Wang, Q. Zhang, L. Gu, S. Guo, Adv. Energy Mater., 2022, 12, 2201278. 141 W.L. Toh H.Q. Dinh A.T. Chu E.R. Sauvé Y. Surendranath Nat. Energy 8 2023 1405 1416 W. L. Toh, H. Q. Dinh, A. T. Chu, E. R. Sauvé, Y. Surendranath, Nat. Energy, 2023, 8, 1405–1416. 142 P. Zhu C. Xia C.-Y. Liu K. Jiang G. Gao X. Zhang Y. Xia Y. Lei H.N. Alshareef T.P. Senftle H. Wang Proc. Natl. Acad. Sci. U. S. A. 118 2021 e2010868118 P. Zhu, C. Xia, C.-Y. Liu, K. Jiang, G. Gao, X. Zhang, Y. Xia, Y. Lei, H. N. Alshareef, T. P. Senftle, H. Wang, Proc. Natl. Acad. Sci. U. S. A., 2021, 118, e2010868118. Ying Wang (Department of Chemistry, the Chinese University of Hong Kong.) Prof. Ying Wang completed the D.Phil degree in electrochemistry with Prof. Richard G. Compton at Oxford University. She worked as a postdoctoral research fellow in electrocatalytic CO2 reduction reaction (CO2RR) with Prof. Thomas J Meyer at the University of North Carolina at Chapel Hill and Prof. Edward Sargent at the University of Toronto. She is now an assistant professor at the Department of Chemistry at the Chinese University of Hong Kong. The Wang group at CUHK focuses on understanding electrode processes and electrochemical systems in electrocatalysis, especially for CO2RR.",
+      "scopus-id": "85191655949",
+      "coredata": {
+        "eid": "1-s2.0-S1872206723646364",
+        "dc:description": "ABSTRACT Electrochemical conversion of CO2 and H2O to value-added products is an attractive approach for sustainable chemical production. Significant progress has been made in the past few decades in improving activity and selectivity, advancing this technology to practical application. Considering the next step for the electrochemical CO2 reduction reaction, improving carbon utilisation efficiency, stability, and energy efficiency are essential. Bipolar membrane (BPM)-based electrolysers, which allow electrodes to be operated under different pH, are advantageous to tackle the challenge mentioned above. Herein, we introduced the current status of CO2 electrolysers, followed by configuration, challenges, progress and outlook for combining reverse-bias BPM with different types of electrolysers. Our aim is to provide insight into developing carbon-efficient and energy-efficient CO2RR systems towards practical application.",
+        "openArchiveArticle": "false",
+        "prism:coverDate": "2024-04-30",
+        "openaccessUserLicense": null,
+        "prism:aggregationType": "Journal",
+        "prism:url": "https://api.elsevier.com/content/article/pii/S1872206723646364",
+        "dc:creator": [
+          {
+            "@_fa": "true",
+            "$": "Xie, Yi"
+          },
+          {
+            "@_fa": "true",
+            "$": "Xu, Zhanyou"
+          },
+          {
+            "@_fa": "true",
+            "$": "Lu, Qian"
+          },
+          {
+            "@_fa": "true",
+            "$": "Wang, Ying"
+          }
+        ],
+        "link": [
+          {
+            "@_fa": "true",
+            "@rel": "self",
+            "@href": "https://api.elsevier.com/content/article/pii/S1872206723646364"
+          },
+          {
+            "@_fa": "true",
+            "@rel": "scidir",
+            "@href": "https://www.sciencedirect.com/science/article/pii/S1872206723646364"
+          }
+        ],
+        "dc:format": "application/json",
+        "openaccessType": null,
+        "pii": "S1872-2067(23)64636-4",
+        "prism:volume": "59",
+        "prism:publisher": "Dalian Institute of Chemical Physics, the Chinese Academy of Sciences. Published by Elsevier B.V.",
+        "dc:title": "Construction of efficient and stable low-temperature reverse-bias bipolar membrane electrolyser for CO2 reduction",
+        "prism:copyright": "Copyright © 2024 Dalian Institute of Chemical Physics, the Chinese Academy of Sciences. Published by Elsevier B.V. All rights reserved.",
+        "openaccess": "0",
+        "prism:issn": "18722067",
+        "dcterms:subject": [
+          {
+            "@_fa": "true",
+            "$": "Carbon dioxide reduction"
+          },
+          {
+            "@_fa": "true",
+            "$": "Electrocatalysis"
+          },
+          {
+            "@_fa": "true",
+            "$": "Bipolar membrane"
+          },
+          {
+            "@_fa": "true",
+            "$": "Carbon utilisation"
+          },
+          {
+            "@_fa": "true",
+            "$": "Energy efficiency"
+          }
+        ],
+        "openaccessArticle": "false",
+        "prism:publicationName": "Chinese Journal of Catalysis",
+        "openaccessSponsorType": null,
+        "prism:pageRange": "82-96",
+        "prism:endingPage": "96",
+        "pubType": "rev",
+        "prism:coverDisplayDate": "April 2024",
+        "prism:doi": "10.1016/S1872-2067(23)64636-4",
+        "prism:startingPage": "82",
+        "dc:identifier": "doi:10.1016/S1872-2067(23)64636-4",
+        "openaccessSponsorName": null
+      },
+      "objects": {
+        "object": [
+          {
+            "@category": "standard",
+            "@height": "245",
+            "@width": "247",
+            "@_fa": "true",
+            "$": "https://api.elsevier.com/content/object/eid/1-s2.0-S1872206723646364-fx1.jpg?httpAccept=%2A%2F%2A",
+            "@multimediatype": "JPEG image file",
+            "@type": "IMAGE-DOWNSAMPLED",
+            "@size": "28506",
+            "@ref": "fx1",
+            "@mimetype": "image/jpeg"
+          },
+          {
+            "@category": "standard",
+            "@height": "220",
+            "@width": "178",
+            "@_fa": "true",
+            "$": "https://api.elsevier.com/content/object/eid/1-s2.0-S1872206723646364-fx2.jpg?httpAccept=%2A%2F%2A",
+            "@multimediatype": "JPEG image file",
+            "@type": "IMAGE-DOWNSAMPLED",
+            "@size": "10594",
+            "@ref": "fx2",
+            "@mimetype": "image/jpeg"
+          },
+          {
+            "@category": "standard",
+            "@height": "388",
+            "@width": "636",
+            "@_fa": "true",
+            "$": "https://api.elsevier.com/content/object/eid/1-s2.0-S1872206723646364-gr1.jpg?httpAccept=%2A%2F%2A",
+            "@multimediatype": "JPEG image file",
+            "@type": "IMAGE-DOWNSAMPLED",
+            "@size": "68269",
+            "@ref": "gr1",
+            "@mimetype": "image/jpeg"
+          },
+          {
+            "@category": "standard",
+            "@height": "307",
+            "@width": "309",
+            "@_fa": "true",
+            "$": "https://api.elsevier.com/content/object/eid/1-s2.0-S1872206723646364-gr2.jpg?httpAccept=%2A%2F%2A",
+            "@multimediatype": "JPEG image file",
+            "@type": "IMAGE-DOWNSAMPLED",
+            "@size": "40653",
+            "@ref": "gr2",
+            "@mimetype": "image/jpeg"
+          },
+          {
+            "@category": "standard",
+            "@height": "330",
+            "@width": "361",
+            "@_fa": "true",
+            "$": "https://api.elsevier.com/content/object/eid/1-s2.0-S1872206723646364-gr3.jpg?httpAccept=%2A%2F%2A",
+            "@multimediatype": "JPEG image file",
+            "@type": "IMAGE-DOWNSAMPLED",
+            "@size": "31119",
+            "@ref": "gr3",
+            "@mimetype": "image/jpeg"
+          },
+          {
+            "@category": "standard",
+            "@height": "473",
+            "@width": "678",
+            "@_fa": "true",
+            "$": "https://api.elsevier.com/content/object/eid/1-s2.0-S1872206723646364-gr4.jpg?httpAccept=%2A%2F%2A",
+            "@multimediatype": "JPEG image file",
+            "@type": "IMAGE-DOWNSAMPLED",
+            "@size": "82422",
+            "@ref": "gr4",
+            "@mimetype": "image/jpeg"
+          },
+          {
+            "@category": "standard",
+            "@height": "747",
+            "@width": "639",
+            "@_fa": "true",
+            "$": "https://api.elsevier.com/content/object/eid/1-s2.0-S1872206723646364-gr5.jpg?httpAccept=%2A%2F%2A",
+            "@multimediatype": "JPEG image file",
+            "@type": "IMAGE-DOWNSAMPLED",
+            "@size": "161889",
+            "@ref": "gr5",
+            "@mimetype": "image/jpeg"
+          },
+          {
+            "@category": "standard",
+            "@height": "210",
+            "@width": "748",
+            "@_fa": "true",
+            "$": "https://api.elsevier.com/content/object/eid/1-s2.0-S1872206723646364-gr6.jpg?httpAccept=%2A%2F%2A",
+            "@multimediatype": "JPEG image file",
+            "@type": "IMAGE-DOWNSAMPLED",
+            "@size": "60563",
+            "@ref": "gr6",
+            "@mimetype": "image/jpeg"
+          },
+          {
+            "@category": "standard",
+            "@height": "487",
+            "@width": "580",
+            "@_fa": "true",
+            "$": "https://api.elsevier.com/content/object/eid/1-s2.0-S1872206723646364-gr7.jpg?httpAccept=%2A%2F%2A",
+            "@multimediatype": "JPEG image file",
+            "@type": "IMAGE-DOWNSAMPLED",
+            "@size": "94246",
+            "@ref": "gr7",
+            "@mimetype": "image/jpeg"
+          },
+          {
+            "@category": "standard",
+            "@height": "327",
+            "@width": "609",
+            "@_fa": "true",
+            "$": "https://api.elsevier.com/content/object/eid/1-s2.0-S1872206723646364-gr8.jpg?httpAccept=%2A%2F%2A",
+            "@multimediatype": "JPEG image file",
+            "@type": "IMAGE-DOWNSAMPLED",
+            "@size": "59204",
+            "@ref": "gr8",
+            "@mimetype": "image/jpeg"
+          },
+          {
+            "@category": "standard",
+            "@height": "413",
+            "@width": "597",
+            "@_fa": "true",
+            "$": "https://api.elsevier.com/content/object/eid/1-s2.0-S1872206723646364-gr9.jpg?httpAccept=%2A%2F%2A",
+            "@multimediatype": "JPEG image file",
+            "@type": "IMAGE-DOWNSAMPLED",
+            "@size": "95132",
+            "@ref": "gr9",
+            "@mimetype": "image/jpeg"
+          },
+          {
+            "@category": "thumbnail",
+            "@height": "164",
+            "@width": "165",
+            "@_fa": "true",
+            "$": "https://api.elsevier.com/content/object/eid/1-s2.0-S1872206723646364-fx1.sml?httpAccept=%2A%2F%2A",
+            "@multimediatype": "GIF image file",
+            "@type": "IMAGE-THUMBNAIL",
+            "@size": "14378",
+            "@ref": "fx1",
+            "@mimetype": "image/gif"
+          },
+          {
+            "@category": "thumbnail",
+            "@height": "163",
+            "@width": "132",
+            "@_fa": "true",
+            "$": "https://api.elsevier.com/content/object/eid/1-s2.0-S1872206723646364-fx2.sml?httpAccept=%2A%2F%2A",
+            "@multimediatype": "GIF image file",
+            "@type": "IMAGE-THUMBNAIL",
+            "@size": "15647",
+            "@ref": "fx2",
+            "@mimetype": "image/gif"
+          },
+          {
+            "@category": "thumbnail",
+            "@height": "134",
+            "@width": "219",
+            "@_fa": "true",
+            "$": "https://api.elsevier.com/content/object/eid/1-s2.0-S1872206723646364-gr1.sml?httpAccept=%2A%2F%2A",
+            "@multimediatype": "GIF image file",
+            "@type": "IMAGE-THUMBNAIL",
+            "@size": "11485",
+            "@ref": "gr1",
+            "@mimetype": "image/gif"
+          },
+          {
+            "@category": "thumbnail",
+            "@height": "164",
+            "@width": "165",
+            "@_fa": "true",
+            "$": "https://api.elsevier.com/content/object/eid/1-s2.0-S1872206723646364-gr2.sml?httpAccept=%2A%2F%2A",
+            "@multimediatype": "GIF image file",
+            "@type": "IMAGE-THUMBNAIL",
+            "@size": "12790",
+            "@ref": "gr2",
+            "@mimetype": "image/gif"
+          },
+          {
+            "@category": "thumbnail",
+            "@height": "164",
+            "@width": "179",
+            "@_fa": "true",
+            "$": "https://api.elsevier.com/content/object/eid/1-s2.0-S1872206723646364-gr3.sml?httpAccept=%2A%2F%2A",
+            "@multimediatype": "GIF image file",
+            "@type": "IMAGE-THUMBNAIL",
+            "@size": "11516",
+            "@ref": "gr3",
+            "@mimetype": "image/gif"
+          },
+          {
+            "@category": "thumbnail",
+            "@height": "153",
+            "@width": "219",
+            "@_fa": "true",
+            "$": "https://api.elsevier.com/content/object/eid/1-s2.0-S1872206723646364-gr4.sml?httpAccept=%2A%2F%2A",
+            "@multimediatype": "GIF image file",
+            "@type": "IMAGE-THUMBNAIL",
+            "@size": "11109",
+            "@ref": "gr4",
+            "@mimetype": "image/gif"
+          },
+          {
+            "@category": "thumbnail",
+            "@height": "164",
+            "@width": "140",
+            "@_fa": "true",
+            "$": "https://api.elsevier.com/content/object/eid/1-s2.0-S1872206723646364-gr5.sml?httpAccept=%2A%2F%2A",
+            "@multimediatype": "GIF image file",
+            "@type": "IMAGE-THUMBNAIL",
+            "@size": "12808",
+            "@ref": "gr5",
+            "@mimetype": "image/gif"
+          },
+          {
+            "@category": "thumbnail",
+            "@height": "61",
+            "@width": "219",
+            "@_fa": "true",
+            "$": "https://api.elsevier.com/content/object/eid/1-s2.0-S1872206723646364-gr6.sml?httpAccept=%2A%2F%2A",
+            "@multimediatype": "GIF image file",
+            "@type": "IMAGE-THUMBNAIL",
+            "@size": "10534",
+            "@ref": "gr6",
+            "@mimetype": "image/gif"
+          },
+          {
+            "@category": "thumbnail",
+            "@height": "164",
+            "@width": "195",
+            "@_fa": "true",
+            "$": "https://api.elsevier.com/content/object/eid/1-s2.0-S1872206723646364-gr7.sml?httpAccept=%2A%2F%2A",
+            "@multimediatype": "GIF image file",
+            "@type": "IMAGE-THUMBNAIL",
+            "@size": "14070",
+            "@ref": "gr7",
+            "@mimetype": "image/gif"
+          },
+          {
+            "@category": "thumbnail",
+            "@height": "118",
+            "@width": "219",
+            "@_fa": "true",
+            "$": "https://api.elsevier.com/content/object/eid/1-s2.0-S1872206723646364-gr8.sml?httpAccept=%2A%2F%2A",
+            "@multimediatype": "GIF image file",
+            "@type": "IMAGE-THUMBNAIL",
+            "@size": "10128",
+            "@ref": "gr8",
+            "@mimetype": "image/gif"
+          },
+          {
+            "@category": "thumbnail",
+            "@height": "151",
+            "@width": "219",
+            "@_fa": "true",
+            "$": "https://api.elsevier.com/content/object/eid/1-s2.0-S1872206723646364-gr9.sml?httpAccept=%2A%2F%2A",
+            "@multimediatype": "GIF image file",
+            "@type": "IMAGE-THUMBNAIL",
+            "@size": "15656",
+            "@ref": "gr9",
+            "@mimetype": "image/gif"
+          },
+          {
+            "@category": "high",
+            "@height": "651",
+            "@width": "656",
+            "@_fa": "true",
+            "$": "https://api.elsevier.com/content/object/eid/1-s2.0-S1872206723646364-fx1_lrg.jpg?httpAccept=%2A%2F%2A",
+            "@multimediatype": "JPEG image file",
+            "@type": "IMAGE-HIGH-RES",
+            "@size": "109043",
+            "@ref": "fx1",
+            "@mimetype": "image/jpeg"
+          },
+          {
+            "@category": "high",
+            "@height": "588",
+            "@width": "475",
+            "@_fa": "true",
+            "$": "https://api.elsevier.com/content/object/eid/1-s2.0-S1872206723646364-fx2_lrg.jpg?httpAccept=%2A%2F%2A",
+            "@multimediatype": "JPEG image file",
+            "@type": "IMAGE-HIGH-RES",
+            "@size": "56404",
+            "@ref": "fx2",
+            "@mimetype": "image/jpeg"
+          },
+          {
+            "@category": "high",
+            "@height": "1032",
+            "@width": "1690",
+            "@_fa": "true",
+            "$": "https://api.elsevier.com/content/object/eid/1-s2.0-S1872206723646364-gr1_lrg.jpg?httpAccept=%2A%2F%2A",
+            "@multimediatype": "JPEG image file",
+            "@type": "IMAGE-HIGH-RES",
+            "@size": "282182",
+            "@ref": "gr1",
+            "@mimetype": "image/jpeg"
+          },
+          {
+            "@category": "high",
+            "@height": "816",
+            "@width": "822",
+            "@_fa": "true",
+            "$": "https://api.elsevier.com/content/object/eid/1-s2.0-S1872206723646364-gr2_lrg.jpg?httpAccept=%2A%2F%2A",
+            "@multimediatype": "JPEG image file",
+            "@type": "IMAGE-HIGH-RES",
+            "@size": "171866",
+            "@ref": "gr2",
+            "@mimetype": "image/jpeg"
+          },
+          {
+            "@category": "high",
+            "@height": "877",
+            "@width": "960",
+            "@_fa": "true",
+            "$": "https://api.elsevier.com/content/object/eid/1-s2.0-S1872206723646364-gr3_lrg.jpg?httpAccept=%2A%2F%2A",
+            "@multimediatype": "JPEG image file",
+            "@type": "IMAGE-HIGH-RES",
+            "@size": "135027",
+            "@ref": "gr3",
+            "@mimetype": "image/jpeg"
+          },
+          {
+            "@category": "high",
+            "@height": "1256",
+            "@width": "1801",
+            "@_fa": "true",
+            "$": "https://api.elsevier.com/content/object/eid/1-s2.0-S1872206723646364-gr4_lrg.jpg?httpAccept=%2A%2F%2A",
+            "@multimediatype": "JPEG image file",
+            "@type": "IMAGE-HIGH-RES",
+            "@size": "331936",
+            "@ref": "gr4",
+            "@mimetype": "image/jpeg"
+          },
+          {
+            "@category": "high",
+            "@height": "1984",
+            "@width": "1697",
+            "@_fa": "true",
+            "$": "https://api.elsevier.com/content/object/eid/1-s2.0-S1872206723646364-gr5_lrg.jpg?httpAccept=%2A%2F%2A",
+            "@multimediatype": "JPEG image file",
+            "@type": "IMAGE-HIGH-RES",
+            "@size": "709648",
+            "@ref": "gr5",
+            "@mimetype": "image/jpeg"
+          },
+          {
+            "@category": "high",
+            "@height": "558",
+            "@width": "1988",
+            "@_fa": "true",
+            "$": "https://api.elsevier.com/content/object/eid/1-s2.0-S1872206723646364-gr6_lrg.jpg?httpAccept=%2A%2F%2A",
+            "@multimediatype": "JPEG image file",
+            "@type": "IMAGE-HIGH-RES",
+            "@size": "306838",
+            "@ref": "gr6",
+            "@mimetype": "image/jpeg"
+          },
+          {
+            "@category": "high",
+            "@height": "1294",
+            "@width": "1540",
+            "@_fa": "true",
+            "$": "https://api.elsevier.com/content/object/eid/1-s2.0-S1872206723646364-gr7_lrg.jpg?httpAccept=%2A%2F%2A",
+            "@multimediatype": "JPEG image file",
+            "@type": "IMAGE-HIGH-RES",
+            "@size": "419358",
+            "@ref": "gr7",
+            "@mimetype": "image/jpeg"
+          },
+          {
+            "@category": "high",
+            "@height": "869",
+            "@width": "1617",
+            "@_fa": "true",
+            "$": "https://api.elsevier.com/content/object/eid/1-s2.0-S1872206723646364-gr8_lrg.jpg?httpAccept=%2A%2F%2A",
+            "@multimediatype": "JPEG image file",
+            "@type": "IMAGE-HIGH-RES",
+            "@size": "249010",
+            "@ref": "gr8",
+            "@mimetype": "image/jpeg"
+          },
+          {
+            "@category": "high",
+            "@height": "1096",
+            "@width": "1586",
+            "@_fa": "true",
+            "$": "https://api.elsevier.com/content/object/eid/1-s2.0-S1872206723646364-gr9_lrg.jpg?httpAccept=%2A%2F%2A",
+            "@multimediatype": "JPEG image file",
+            "@type": "IMAGE-HIGH-RES",
+            "@size": "467024",
+            "@ref": "gr9",
+            "@mimetype": "image/jpeg"
+          },
+          {
+            "@category": "thumbnail",
+            "@height": "18",
+            "@width": "235",
+            "@_fa": "true",
+            "$": "https://api.elsevier.com/content/object/eid/1-s2.0-S1872206723646364-si1.gif?httpAccept=%2A%2F%2A",
+            "@multimediatype": "GIF image file",
+            "@type": "ALTIMG",
+            "@size": "813",
+            "@ref": "si1",
+            "@mimetype": "image/gif"
+          },
+          {
+            "@category": "thumbnail",
+            "@height": "19",
+            "@width": "172",
+            "@_fa": "true",
+            "$": "https://api.elsevier.com/content/object/eid/1-s2.0-S1872206723646364-si10.gif?httpAccept=%2A%2F%2A",
+            "@multimediatype": "GIF image file",
+            "@type": "ALTIMG",
+            "@size": "561",
+            "@ref": "si10",
+            "@mimetype": "image/gif"
+          },
+          {
+            "@category": "thumbnail",
+            "@height": "41",
+            "@width": "136",
+            "@_fa": "true",
+            "$": "https://api.elsevier.com/content/object/eid/1-s2.0-S1872206723646364-si2.gif?httpAccept=%2A%2F%2A",
+            "@multimediatype": "GIF image file",
+            "@type": "ALTIMG",
+            "@size": "815",
+            "@ref": "si2",
+            "@mimetype": "image/gif"
+          },
+          {
+            "@category": "thumbnail",
+            "@height": "53",
+            "@width": "116",
+            "@_fa": "true",
+            "$": "https://api.elsevier.com/content/object/eid/1-s2.0-S1872206723646364-si3.gif?httpAccept=%2A%2F%2A",
+            "@multimediatype": "GIF image file",
+            "@type": "ALTIMG",
+            "@size": "886",
+            "@ref": "si3",
+            "@mimetype": "image/gif"
+          },
+          {
+            "@category": "thumbnail",
+            "@height": "57",
+            "@width": "346",
+            "@_fa": "true",
+            "$": "https://api.elsevier.com/content/object/eid/1-s2.0-S1872206723646364-si4.gif?httpAccept=%2A%2F%2A",
+            "@multimediatype": "GIF image file",
+            "@type": "ALTIMG",
+            "@size": "2340",
+            "@ref": "si4",
+            "@mimetype": "image/gif"
+          },
+          {
+            "@category": "thumbnail",
+            "@height": "15",
+            "@width": "126",
+            "@_fa": "true",
+            "$": "https://api.elsevier.com/content/object/eid/1-s2.0-S1872206723646364-si5.gif?httpAccept=%2A%2F%2A",
+            "@multimediatype": "GIF image file",
+            "@type": "ALTIMG",
+            "@size": "509",
+            "@ref": "si5",
+            "@mimetype": "image/gif"
+          },
+          {
+            "@category": "thumbnail",
+            "@height": "22",
+            "@width": "282",
+            "@_fa": "true",
+            "$": "https://api.elsevier.com/content/object/eid/1-s2.0-S1872206723646364-si6.gif?httpAccept=%2A%2F%2A",
+            "@multimediatype": "GIF image file",
+            "@type": "ALTIMG",
+            "@size": "994",
+            "@ref": "si6",
+            "@mimetype": "image/gif"
+          },
+          {
+            "@category": "thumbnail",
+            "@height": "19",
+            "@width": "173",
+            "@_fa": "true",
+            "$": "https://api.elsevier.com/content/object/eid/1-s2.0-S1872206723646364-si7.gif?httpAccept=%2A%2F%2A",
+            "@multimediatype": "GIF image file",
+            "@type": "ALTIMG",
+            "@size": "535",
+            "@ref": "si7",
+            "@mimetype": "image/gif"
+          },
+          {
+            "@category": "thumbnail",
+            "@height": "19",
+            "@width": "183",
+            "@_fa": "true",
+            "$": "https://api.elsevier.com/content/object/eid/1-s2.0-S1872206723646364-si8.gif?httpAccept=%2A%2F%2A",
+            "@multimediatype": "GIF image file",
+            "@type": "ALTIMG",
+            "@size": "588",
+            "@ref": "si8",
+            "@mimetype": "image/gif"
+          },
+          {
+            "@category": "thumbnail",
+            "@height": "16",
+            "@width": "169",
+            "@_fa": "true",
+            "$": "https://api.elsevier.com/content/object/eid/1-s2.0-S1872206723646364-si9.gif?httpAccept=%2A%2F%2A",
+            "@multimediatype": "GIF image file",
+            "@type": "ALTIMG",
+            "@size": "522",
+            "@ref": "si9",
+            "@mimetype": "image/gif"
+          }
+        ]
+      },
+      "link": {
+        "@rel": "abstract",
+        "@href": "https://api.elsevier.com/content/abstract/scopus_id/85191655949"
+      }
+    }
+  }
+}

@@ -1,0 +1,144 @@
+{
+  "description": "Meta-ontology for prompt structure - OntoChatGPT approach",
+  "version": "1.0",
+  "tasks": [
+    {
+      "id": "chemical_synthesis_extraction",
+      "task_order": "chemical_synthesis",
+      "language": "en",
+      "description": "Extract structured chemical synthesis information from JSON data and map to ontology",
+      
+      "instructions": [
+        {
+          "field_name": "task_description",
+          "value": "You are extracting chemical synthesis information from JSON data. Map each field to the ontology structure defined below.",
+          "order": 1
+        },
+        {
+          "field_name": "ontology_constraints",
+          "value": "Follow the domain ontology structure with classes: InorganicMaterial, Precursor, Solvent, Product, Additive, SynthesisMethod, SynthesisStep, Condition",
+          "order": 2
+        },
+        {
+          "field_name": "extraction_guidelines",
+          "value": "1. Map each operation to a synthesis step\n2. Preserve exact chemical formulas\n3. **CRITICAL: For EVERY mixing/dissolving/adding step, identify which precursors from the input are used**\n4. Link precursors to steps using the usesPrecursor field\n5. If operation text doesn't specify which precursors, link ALL precursors to the FIRST mixing step\n6. Convert all temperatures to Celsius (numeric float)\n7. Convert all durations to ISO 8601 format",
+          "order": 3
+        }, 
+        {
+          "field_name": "precursor_linking_rule",
+          "value": "IMPORTANT: Precursor linking is MANDATORY. Every mixing/dissolving/adding step MUST have usesPrecursor filled. At minimum, link all precursors from the input to the first mixing step.",
+          "order": 4
+        }
+      ],
+      
+      "input_fields": [
+        {
+          "field_name": "target",
+          "json_path": "target",
+          "maps_to_class": "InorganicMaterial",
+          "required": true,
+          "is_array": false,
+          "description": "Target material to be synthesized"
+        },
+        {
+          "field_name": "precursors",
+          "json_path": "precursors",
+          "maps_to_class": "Precursor",
+          "required": true,
+          "is_array": true,
+          "description": "Input materials for synthesis"
+        },
+        {
+          "field_name": "operations",
+          "json_path": "operations",
+          "maps_to_class": "SynthesisStep",
+          "required": true,
+          "is_array": true,
+          "description": "Synthesis operations/steps"
+        }
+      ],
+      
+      "output_fields": [
+        {
+          "field_name": "InorganicMaterial",
+          "structure": {
+            "hasName": {"type": "string", "required": true},
+            "hasAcronym": {"type": "string", "required": false},
+            "hasPhase": {"type": "string", "required": false},
+            "hasReaction": {"type": "string", "required": false}
+          },
+          "required": true
+        },
+        {
+          "field_name": "SynthesisMethod",
+          "structure": {
+            "hasID": {"type": "integer", "required": true},
+            "steps": {
+              "type": "array",
+              "items": {
+                "step_number": {"type": "integer", "required": true},
+                "hasAction": {"type": "string", "required": true},
+                "usesPrecursor": {"type": "array", "required": false},
+                "usesSolvent": {"type": "array", "required": false},
+                "producesProduct": {"type": "array", "required": false},
+                "usesAdditive": {"type": "array", "required": false},
+                "performedUnder": {"type": "object", "required": false},
+                "hasNote": {"type": "string", "required": false},
+                "nextStep": {"type": "integer", "required": false}
+              }
+            }
+          },
+          "required": true
+        }
+      ],
+      
+      "validation_rules": [
+        {
+          "rule_id": "material_name_required",
+          "rule_type": "required_field",
+          "field_path": "InorganicMaterial.hasName",
+          "error_message": "Material name is required and cannot be empty"
+        },
+        {
+          "rule_id": "method_id_required",
+          "rule_type": "required_field",
+          "field_path": "SynthesisMethod.hasID",
+          "error_message": "SynthesisMethod must have an ID"
+        },
+        {
+          "rule_id": "method_id_type",
+          "rule_type": "type_check",
+          "field_path": "SynthesisMethod.hasID",
+          "expected_type": "integer",
+          "error_message": "SynthesisMethod.hasID must be an integer"
+        },
+        {
+          "rule_id": "step_action_required",
+          "rule_type": "required_field",
+          "field_path": "SynthesisMethod.steps[*].hasAction",
+          "error_message": "Each synthesis step must have an action"
+        },
+        {
+          "rule_id": "temperature_type",
+          "rule_type": "type_check",
+          "field_path": "SynthesisMethod.steps[*].performedUnder.hasTemperature",
+          "expected_type": "float",
+          "error_message": "Temperature must be a numeric value (float)"
+        },
+        {
+          "rule_id": "time_format",
+          "rule_type": "format_check",
+          "field_path": "SynthesisMethod.steps[*].performedUnder.hasTime",
+          "expected_format": "ISO8601",
+          "error_message": "Time must be in ISO 8601 duration format (e.g., PT12H)"
+        },
+        {
+          "rule_id": "steps_not_empty",
+          "rule_type": "not_empty",
+          "field_path": "SynthesisMethod.steps",
+          "error_message": "SynthesisMethod must have at least one step"
+        }
+      ]
+    }
+  ]
+}

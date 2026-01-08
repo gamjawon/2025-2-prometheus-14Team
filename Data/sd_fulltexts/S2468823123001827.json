@@ -1,0 +1,684 @@
+{
+  "metadata": {
+    "title": "Surface segregation machine-learned with inexpensive numerical fingerprint for the design of alloy catalysts",
+    "authors": "; ; ",
+    "journal": "Molecular Catalysis",
+    "date": "2023-04-15",
+    "doi": "10.1016/j.mcat.2023.113096",
+    "abstract": "",
+    "uri": "https://api.elsevier.com/content/article/pii/S2468823123001827",
+    "pii": "S2468823123001827"
+  },
+  "fulltext": {
+    "full-text-retrieval-response": {
+      "scopus-eid": "2-s2.0-85151256137",
+      "originalText": "serial JL 315758 291210 291744 291790 291809 31 Molecular Catalysis MOLECULARCATALYSIS 2023-03-29 2023-03-29 2023-03-29 2023-03-29 2023-04-14T11:57:02 1-s2.0-S2468823123001827 S2468-8231(23)00182-7 S2468823123001827 10.1016/j.mcat.2023.113096 S300 S300.1 FULL-TEXT 1-s2.0-S2468823123X00078 2024-06-26T17:47:58.02126Z 0 0 20230415 2023 2023-03-29T05:07:35.780787Z absattachment articleinfo articlenumber articletitlenorm authfirstinitialnorm authfirstsurnamenorm cid cids contenttype copyright crossmark dateloaded dateloadedtxt datesearch datesort dateupdated dco docsubtype doctype doi eid ewtransactionid hubeid indexeddate issn issnnorm itemstage itemtransactionid itemweight openaccess openarchive pg pgfirst pii piinorm pubdatestart pubdatetxt pubyr sectiontitle sortorder srctitle srctitlenorm srctype ssids alllist content subj subheadings suppl tomb volfirst volissue volumelist webpdf webpdfpagecount yearnav figure e-component body mmlmath acknowledge affil appendices articletitle auth authfirstini authfull authkeywords authlast grantnumber grantsponsor grantsponsorid highlightsabst orcid primabst ref specialabst 2468-8231 24688231 true 541 541 C Volume 541 35 113096 113096 113096 20230415 15 April 2023 2023-04-15 2023 Regular Papers article fla © 2023 Elsevier B.V. All rights reserved. SURFACESEGREGATIONMACHINELEARNEDINEXPENSIVENUMERICALFINGERPRINTFORDESIGNALLOYCATALYSTS SHIN D 1 Introduction 2 Methods 2.1 Data collection 2.2 Hyperparameter tuning of ML models and deep learning model 2.3 Calculation of SHAP values 2.4 Principal component analysis (PCA) 2.5 Sparse PCA 2.6 Mapping DNN-predicted E segr onto NP structure to explain the formation of nanosegregated alloy catalysts 3 Results and Discussion 3.1 Featurization of surface segregation thermodynamics by inexpensive numerical fingerprint 3.2 Construction of ML models and their prediction abilities 3.3 Feature importance analysis by explainable artificial intelligence approach 3.4 Example: Finding feasible metal combinations to design nanosegregated alloy catalysts 3.5 Guidance for further data collection to develop more accurate segregation energy model 4 Conclusion CRediT authorship contribution statement Acknowledgments Appendix Supplementary materials References HANNAGAN 2021 1444 1447 R HE 2022 251 257 Q HUANG 2018 eaau7557 X PAN 2022 eabn4372 H ZHANG 2020 411 417 X NIU 2016 1188 1194 Z RUBAN 1999 15990 A NILEKAR 2009 91 96 A HAN 2009 124710 J TIBSHIRANI 1996 267 288 R BREIMAN 2001 5 32 L CHEN 2016 785 794 T PROCEEDINGS22NDACMSIGKDDINTERNATIONALCONFERENCEKNOWLEDGEDISCOVERYDATAMINING XGBOOSTASCALABLETREEBOOSTINGSYSTEM IOFFE 2015 448 456 S LUNDBERG 2017 4765 4774 S HALKO 2011 217 288 N PEDREGOSA 2011 2825 2830 F SMITH 2020 118257 A MAIRAL 2009 689 696 J PROCEEDINGS26THANNUALINTERNATIONALCONFERENCEMACHINELEARNING ONLINEDICTIONARYLEARNINGFORSPARSECODING LARSEN 2017 273002 A ZHONG 2020 178 183 M SILVER 2018 1140 1144 D XIONG 2022 625 635 X BURGER 2020 237 241 B BURTON 1975 106 113 J SALEM 2022 4471 4481 M ABRAHAM 1981 546 F MA 2015 3528 3533 X TOMANEK 1985 5051 D YAMAUCHI 1985 7688 H KIEJNA 1990 6331 A MURR 1975 L INTERFACIALPHENOMENAINMETALSALLOYS RUBAN 1997 421 429 A BILODEAU 1999 012505 R PORTERFIELD 1984 W INORGANICCHEMISTRYAUNIFIEDAPPROACH JAMES 1992 A MACMILLANSCHEMICALPHYSICALDATA JOHANSSON 1980 4427 B FLODSTROM 1992 A ADVANCESINSURFACEINTERFACESCIENCE SHAPLEY 1951 L NOTESNPERSONGAMEIIVALUENPERSONGAME ALDEN 1994 5131 M FARSI 2019 23626 23637 L HANNAGAN 2020 12044 12088 R RAO 2020 728 741 K GUAN 2021 840 849 Q VANDERHOEVEN 2021 1216 1220 J WANG 2018 1198 1204 X ZHU 2020 69 77 J YANG 2011 19993 20000 C OH 2015 2856 2867 A CHEN 2014 1339 1343 C CHEN 2020 1974 1979 S BECKNELL 2016 328 332 N HYUN 2020 5680 5685 G XIONG 2019 1 11 L AHN 2018 298 307 J MAHMOUD 2010 12704 12710 M MCEACHRAN 2011 8066 8069 M SHINX2023X113096 SHINX2023X113096XD 2025-03-29T00:00:00.000Z 2025-03-29T00:00:00.000Z http://creativecommons.org/licenses/by-nc-nd/4.0/ © 2023 Elsevier B.V. All rights reserved. 2023-04-05T04:41:26.101Z http://vtw.elsevier.com/data/voc/AddOnTypes/50.7/aggregated-refined MSIT MSIP Ministry of Science, ICT and Future Planning http://data.elsevier.com/vocabulary/SciValFunders/501100003621 http://sws.geonames.org/1835841/ Korean Institute of Science and Technology Information KSC-2021-CRE-0040 KISTI Korea Institute of Science and Technology Information http://data.elsevier.com/vocabulary/SciValFunders/501100003708 http://sws.geonames.org/1835841/ Basic Science Research Program National Research Foundation of Korea NRF-2021R1A2C3004019 NRF National Research Foundation of Korea http://data.elsevier.com/vocabulary/SciValFunders/501100003725 http://sws.geonames.org/1835841/ Korea Institute of Energy Technology Evaluation and Planning 20193410100050 KETEP Korea Institute of Energy Technology Evaluation and Planning http://data.elsevier.com/vocabulary/SciValFunders/501100007053 http://sws.geonames.org/1835841/ Ministry of Trade, Industry and Energy MOTIE Ministry of Trade, Industry and Energy http://data.elsevier.com/vocabulary/SciValFunders/501100003052 http://sws.geonames.org/1835841/ The authors acknowledge the financial support from Basic Science Research Program (NRF-2021R1A2C3004019) through the National Research Foundation of Korea (NRF) grant funded by the Korea government (MSIT) and the Korea Institute of Energy Technology Evaluation and Planning ( 20193410100050 ) in Ministry of Trade, Industry and Energy. The authors also acknowledge the supercomputing resource including technical support from the Supercomputing Center, the Korean Institute of Science and Technology Information (KSC-2021-CRE-0040). The authors acknowledge the financial support from Basic Science Research Program (NRF-2021R1A2C3004019) through the National Research Foundation of Korea (NRF) grant funded by the Korea government (MSIT) and the Korea Institute of Energy Technology Evaluation and Planning (20193410100050) in Ministry of Trade, Industry and Energy. The authors also acknowledge the supercomputing resource including technical support from the Supercomputing Center, the Korean Institute of Science and Technology Information (KSC-2021-CRE-0040). https://doi.org/10.15223/policy-017 https://doi.org/10.15223/policy-037 https://doi.org/10.15223/policy-012 https://doi.org/10.15223/policy-029 https://doi.org/10.15223/policy-004 item S2468-8231(23)00182-7 S2468823123001827 1-s2.0-S2468823123001827 10.1016/j.mcat.2023.113096 315758 2023-04-14T11:15:23.207329Z 2023-04-15 1-s2.0-S2468823123001827-main.pdf https://s3-eu-west-1.amazonaws.com/prod-ucs-content-store-eu-west/content/pii:S2468823123001827/MAIN/application/pdf/6558ee8c5fd1e2c52b59043ae2e40761/main.pdf main.pdf pdf true 7226733 MAIN 11 1-s2.0-S2468823123001827-main_1.png https://s3-eu-west-1.amazonaws.com/prod-ucs-content-store-eu-west/content/pii:S2468823123001827/PREVIEW/image/png/4ab416762928b5bf6388137368c0ac8d/main_1.png main_1.png png 59560 849 656 IMAGE-WEB-PDF 1 1-s2.0-S2468823123001827-gr3.jpg https://s3-eu-west-1.amazonaws.com/prod-ucs-content-store-eu-west/content/pii:S2468823123001827/gr3/DOWNSAMPLED/image/jpeg/c966cd7a958337b7a08945c427749286/gr3.jpg gr3 gr3.jpg jpg 87408 821 470 IMAGE-DOWNSAMPLED 1-s2.0-S2468823123001827-gr4.jpg https://s3-eu-west-1.amazonaws.com/prod-ucs-content-store-eu-west/content/pii:S2468823123001827/gr4/DOWNSAMPLED/image/jpeg/d2ada5edba947c3d03721226d161ef8c/gr4.jpg gr4 gr4.jpg jpg 174994 797 679 IMAGE-DOWNSAMPLED 1-s2.0-S2468823123001827-gr1.jpg https://s3-eu-west-1.amazonaws.com/prod-ucs-content-store-eu-west/content/pii:S2468823123001827/gr1/DOWNSAMPLED/image/jpeg/d384437b2ef8b64e102e798c24d19afb/gr1.jpg gr1 gr1.jpg jpg 98810 475 696 IMAGE-DOWNSAMPLED 1-s2.0-S2468823123001827-gr2.jpg https://s3-eu-west-1.amazonaws.com/prod-ucs-content-store-eu-west/content/pii:S2468823123001827/gr2/DOWNSAMPLED/image/jpeg/602d8eba7a2f2f469cb3f17e77ef0242/gr2.jpg gr2 gr2.jpg jpg 113954 538 687 IMAGE-DOWNSAMPLED 1-s2.0-S2468823123001827-ga1.jpg https://s3-eu-west-1.amazonaws.com/prod-ucs-content-store-eu-west/content/pii:S2468823123001827/ga1/DOWNSAMPLED/image/jpeg/a5146195833298d92624bd16216d728d/ga1.jpg ga1 true ga1.jpg jpg 41811 245 295 IMAGE-DOWNSAMPLED 1-s2.0-S2468823123001827-gr5.jpg https://s3-eu-west-1.amazonaws.com/prod-ucs-content-store-eu-west/content/pii:S2468823123001827/gr5/DOWNSAMPLED/image/jpeg/b4800bb0bb1a944ed8021347b0627afd/gr5.jpg gr5 gr5.jpg jpg 148575 715 692 IMAGE-DOWNSAMPLED 1-s2.0-S2468823123001827-gr3.sml https://s3-eu-west-1.amazonaws.com/prod-ucs-content-store-eu-west/content/pii:S2468823123001827/gr3/THUMBNAIL/image/gif/3db5c5585fd8bfbc9334268a210f20e3/gr3.sml gr3 gr3.sml sml 8036 163 93 IMAGE-THUMBNAIL 1-s2.0-S2468823123001827-gr4.sml https://s3-eu-west-1.amazonaws.com/prod-ucs-content-store-eu-west/content/pii:S2468823123001827/gr4/THUMBNAIL/image/gif/39a6465cdf348a2565f4b869c50cc2ae/gr4.sml gr4 gr4.sml sml 18306 164 140 IMAGE-THUMBNAIL 1-s2.0-S2468823123001827-gr1.sml https://s3-eu-west-1.amazonaws.com/prod-ucs-content-store-eu-west/content/pii:S2468823123001827/gr1/THUMBNAIL/image/gif/00a2898a718e851f07ff57700c29454e/gr1.sml gr1 gr1.sml sml 17230 149 219 IMAGE-THUMBNAIL 1-s2.0-S2468823123001827-gr2.sml https://s3-eu-west-1.amazonaws.com/prod-ucs-content-store-eu-west/content/pii:S2468823123001827/gr2/THUMBNAIL/image/gif/316fa9b84a6bcbf9782b3e323f3f00dd/gr2.sml gr2 gr2.sml sml 15650 164 209 IMAGE-THUMBNAIL 1-s2.0-S2468823123001827-ga1.sml https://s3-eu-west-1.amazonaws.com/prod-ucs-content-store-eu-west/content/pii:S2468823123001827/ga1/THUMBNAIL/image/gif/a6fb2f17d15e9d8f9d4285d0344c7fbf/ga1.sml ga1 true ga1.sml sml 18694 164 198 IMAGE-THUMBNAIL 1-s2.0-S2468823123001827-gr5.sml https://s3-eu-west-1.amazonaws.com/prod-ucs-content-store-eu-west/content/pii:S2468823123001827/gr5/THUMBNAIL/image/gif/1da979c4fcb86d4ea26d868540b210da/gr5.sml gr5 gr5.sml sml 15355 164 159 IMAGE-THUMBNAIL 1-s2.0-S2468823123001827-gr3_lrg.jpg https://s3-eu-west-1.amazonaws.com/prod-ucs-content-store-eu-west/content/pii:S2468823123001827/HIGHRES/image/jpeg/534cbc2d6b2d71dd662eee05ae7b7f26/gr3_lrg.jpg gr3 gr3_lrg.jpg jpg 584217 3640 2083 IMAGE-HIGH-RES 1-s2.0-S2468823123001827-gr4_lrg.jpg https://s3-eu-west-1.amazonaws.com/prod-ucs-content-store-eu-west/content/pii:S2468823123001827/HIGHRES/image/jpeg/a60e7e66f17f21d061858f322635ee85/gr4_lrg.jpg gr4 gr4_lrg.jpg jpg 1219531 3529 3008 IMAGE-HIGH-RES 1-s2.0-S2468823123001827-gr1_lrg.jpg https://s3-eu-west-1.amazonaws.com/prod-ucs-content-store-eu-west/content/pii:S2468823123001827/HIGHRES/image/jpeg/a4257e461af3cfaf106e9c7d24f062cf/gr1_lrg.jpg gr1 gr1_lrg.jpg jpg 775059 2103 3084 IMAGE-HIGH-RES 1-s2.0-S2468823123001827-gr2_lrg.jpg https://s3-eu-west-1.amazonaws.com/prod-ucs-content-store-eu-west/content/pii:S2468823123001827/HIGHRES/image/jpeg/d7ab1e6f0724e5e5b340551ae7028f38/gr2_lrg.jpg gr2 gr2_lrg.jpg jpg 867186 2382 3044 IMAGE-HIGH-RES 1-s2.0-S2468823123001827-ga1_lrg.jpg https://s3-eu-west-1.amazonaws.com/prod-ucs-content-store-eu-west/content/pii:S2468823123001827/HIGHRES/image/jpeg/eddfe6f86c7d828a1c5f9a2a5cb068ef/ga1_lrg.jpg ga1 true ga1_lrg.jpg jpg 310236 1085 1309 IMAGE-HIGH-RES 1-s2.0-S2468823123001827-gr5_lrg.jpg https://s3-eu-west-1.amazonaws.com/prod-ucs-content-store-eu-west/content/pii:S2468823123001827/HIGHRES/image/jpeg/6e10e42b229bba93cd57802be40ef7fc/gr5_lrg.jpg gr5 gr5_lrg.jpg jpg 1145569 3164 3063 IMAGE-HIGH-RES 1-s2.0-S2468823123001827-mmc2.xlsx https://s3-eu-west-1.amazonaws.com/prod-ucs-content-store-eu-west/content/pii:S2468823123001827/mmc2/MAIN/application/vnd.openxmlformats-officedocument.spreadsheetml.sheet/11ba48013af5ab5f3cdaeabee7507dbb/mmc2.xlsx mmc2 mmc2.xlsx xlsx 151415 APPLICATION 1-s2.0-S2468823123001827-mmc1.xlsx https://s3-eu-west-1.amazonaws.com/prod-ucs-content-store-eu-west/content/pii:S2468823123001827/mmc1/MAIN/application/vnd.openxmlformats-officedocument.spreadsheetml.sheet/a323f137466cdb6930241c73ddb27717/mmc1.xlsx mmc1 mmc1.xlsx xlsx 181876 APPLICATION 1-s2.0-S2468823123001827-mmc4.xlsx https://s3-eu-west-1.amazonaws.com/prod-ucs-content-store-eu-west/content/pii:S2468823123001827/mmc4/MAIN/application/vnd.openxmlformats-officedocument.spreadsheetml.sheet/6f8834a5013fd9163c321001ed0b21ca/mmc4.xlsx mmc4 mmc4.xlsx xlsx 22610 APPLICATION 1-s2.0-S2468823123001827-mmc3.xlsx https://s3-eu-west-1.amazonaws.com/prod-ucs-content-store-eu-west/content/pii:S2468823123001827/mmc3/MAIN/application/vnd.openxmlformats-officedocument.spreadsheetml.sheet/3aba5f2dba88d30a4b676e5285aa83bf/mmc3.xlsx mmc3 mmc3.xlsx xlsx 139523 APPLICATION 1-s2.0-S2468823123001827-mmc5.pdf https://s3-eu-west-1.amazonaws.com/prod-ucs-content-store-eu-west/content/pii:S2468823123001827/mmc5/MAIN/application/pdf/75265157ad5bfe732dd73ad277523003/mmc5.pdf mmc5 mmc5.pdf pdf false 1872314 APPLICATION 1-s2.0-S2468823123001827-si1.svg https://s3-eu-west-1.amazonaws.com/prod-ucs-content-store-eu-west/content/pii:S2468823123001827/image/svg+xml/e042b7d8acebb4cfbe4f8bb1818ce7dc/si1.svg si1 si1.svg svg 735 ALTIMG 1-s2.0-S2468823123001827-si10.svg https://s3-eu-west-1.amazonaws.com/prod-ucs-content-store-eu-west/content/pii:S2468823123001827/image/svg+xml/969e39d1bd55b7f481599ab2b6396643/si10.svg si10 si10.svg svg 12581 ALTIMG 1-s2.0-S2468823123001827-si11.svg https://s3-eu-west-1.amazonaws.com/prod-ucs-content-store-eu-west/content/pii:S2468823123001827/image/svg+xml/5b6907dd9f9c8ee7ae9c764d7832ea5c/si11.svg si11 si11.svg svg 718 ALTIMG 1-s2.0-S2468823123001827-si12.svg https://s3-eu-west-1.amazonaws.com/prod-ucs-content-store-eu-west/content/pii:S2468823123001827/image/svg+xml/180e1decf56c975e6234da00db07f8e1/si12.svg si12 si12.svg svg 3065 ALTIMG 1-s2.0-S2468823123001827-si13.svg https://s3-eu-west-1.amazonaws.com/prod-ucs-content-store-eu-west/content/pii:S2468823123001827/image/svg+xml/0461c9f4a75ca5c34f6b4a8896b74181/si13.svg si13 si13.svg svg 1320 ALTIMG 1-s2.0-S2468823123001827-si14.svg https://s3-eu-west-1.amazonaws.com/prod-ucs-content-store-eu-west/content/pii:S2468823123001827/image/svg+xml/09d6bb7dc15dd8984fa5aaae566575c4/si14.svg si14 si14.svg svg 6552 ALTIMG 1-s2.0-S2468823123001827-si15.svg https://s3-eu-west-1.amazonaws.com/prod-ucs-content-store-eu-west/content/pii:S2468823123001827/image/svg+xml/912e4ccad3356903ec3634a5975fb904/si15.svg si15 si15.svg svg 6110 ALTIMG 1-s2.0-S2468823123001827-si16.svg https://s3-eu-west-1.amazonaws.com/prod-ucs-content-store-eu-west/content/pii:S2468823123001827/image/svg+xml/def33498f0786e1ebbd26fde8c6c2c65/si16.svg si16 si16.svg svg 2244 ALTIMG 1-s2.0-S2468823123001827-si17.svg https://s3-eu-west-1.amazonaws.com/prod-ucs-content-store-eu-west/content/pii:S2468823123001827/image/svg+xml/cc95f0c09d3e211594ae4ad2f9a0a038/si17.svg si17 si17.svg svg 2937 ALTIMG 1-s2.0-S2468823123001827-si18.svg https://s3-eu-west-1.amazonaws.com/prod-ucs-content-store-eu-west/content/pii:S2468823123001827/image/svg+xml/5815264cca35182416cbc19233a0d3f4/si18.svg si18 si18.svg svg 4400 ALTIMG 1-s2.0-S2468823123001827-si19.svg https://s3-eu-west-1.amazonaws.com/prod-ucs-content-store-eu-west/content/pii:S2468823123001827/image/svg+xml/e9d7cf1d9d8a24056e19aeb81d8eddae/si19.svg si19 si19.svg svg 4104 ALTIMG 1-s2.0-S2468823123001827-si2.svg https://s3-eu-west-1.amazonaws.com/prod-ucs-content-store-eu-west/content/pii:S2468823123001827/image/svg+xml/3aceca345f67d65e97d2644ac2f5a94a/si2.svg si2 si2.svg svg 10085 ALTIMG 1-s2.0-S2468823123001827-si20.svg https://s3-eu-west-1.amazonaws.com/prod-ucs-content-store-eu-west/content/pii:S2468823123001827/image/svg+xml/165dffd2c521ef5331f2e263316a4149/si20.svg si20 si20.svg svg 4409 ALTIMG 1-s2.0-S2468823123001827-si21.svg https://s3-eu-west-1.amazonaws.com/prod-ucs-content-store-eu-west/content/pii:S2468823123001827/image/svg+xml/70947be6d36df176e370bd7447fb169d/si21.svg si21 si21.svg svg 1278 ALTIMG 1-s2.0-S2468823123001827-si22.svg https://s3-eu-west-1.amazonaws.com/prod-ucs-content-store-eu-west/content/pii:S2468823123001827/image/svg+xml/9238cb50cf7625903eca4b66b98a098f/si22.svg si22 si22.svg svg 1685 ALTIMG 1-s2.0-S2468823123001827-si23.svg https://s3-eu-west-1.amazonaws.com/prod-ucs-content-store-eu-west/content/pii:S2468823123001827/image/svg+xml/eecf6c4d7b4b62d664633b7fbfe49187/si23.svg si23 si23.svg svg 2617 ALTIMG 1-s2.0-S2468823123001827-si24.svg https://s3-eu-west-1.amazonaws.com/prod-ucs-content-store-eu-west/content/pii:S2468823123001827/image/svg+xml/ea700371820fea44712a8df2428d94e6/si24.svg si24 si24.svg svg 4013 ALTIMG 1-s2.0-S2468823123001827-si25.svg https://s3-eu-west-1.amazonaws.com/prod-ucs-content-store-eu-west/content/pii:S2468823123001827/image/svg+xml/b8f0dc7ebaa75b0aa3ddb08efe4abb75/si25.svg si25 si25.svg svg 631 ALTIMG 1-s2.0-S2468823123001827-si26.svg https://s3-eu-west-1.amazonaws.com/prod-ucs-content-store-eu-west/content/pii:S2468823123001827/image/svg+xml/3d0b237b0793b46f2546c9c87f1f6994/si26.svg si26 si26.svg svg 2803 ALTIMG 1-s2.0-S2468823123001827-si27.svg https://s3-eu-west-1.amazonaws.com/prod-ucs-content-store-eu-west/content/pii:S2468823123001827/image/svg+xml/6f05ad95ac530b8089dc4c60260eb696/si27.svg si27 si27.svg svg 19187 ALTIMG 1-s2.0-S2468823123001827-si28.svg https://s3-eu-west-1.amazonaws.com/prod-ucs-content-store-eu-west/content/pii:S2468823123001827/image/svg+xml/05fec46a7b728cd42d84d9ee9f2c6dec/si28.svg si28 si28.svg svg 1220 ALTIMG 1-s2.0-S2468823123001827-si29.svg https://s3-eu-west-1.amazonaws.com/prod-ucs-content-store-eu-west/content/pii:S2468823123001827/image/svg+xml/865f1f77ca3b2772cb05a3a00ccf40be/si29.svg si29 si29.svg svg 7217 ALTIMG 1-s2.0-S2468823123001827-si3.svg https://s3-eu-west-1.amazonaws.com/prod-ucs-content-store-eu-west/content/pii:S2468823123001827/image/svg+xml/4f2f58976892b865dadb2c61353a0327/si3.svg si3 si3.svg svg 10589 ALTIMG 1-s2.0-S2468823123001827-si30.svg https://s3-eu-west-1.amazonaws.com/prod-ucs-content-store-eu-west/content/pii:S2468823123001827/image/svg+xml/403e16ce548a138bc5fbab3b8e410b68/si30.svg si30 si30.svg svg 8620 ALTIMG 1-s2.0-S2468823123001827-si4.svg https://s3-eu-west-1.amazonaws.com/prod-ucs-content-store-eu-west/content/pii:S2468823123001827/image/svg+xml/156994920c6dd9ac4b30c4de8b43ac36/si4.svg si4 si4.svg svg 3929 ALTIMG 1-s2.0-S2468823123001827-si5.svg https://s3-eu-west-1.amazonaws.com/prod-ucs-content-store-eu-west/content/pii:S2468823123001827/image/svg+xml/e60c55d890397d786edf39d4492097cf/si5.svg si5 si5.svg svg 3162 ALTIMG 1-s2.0-S2468823123001827-si6.svg https://s3-eu-west-1.amazonaws.com/prod-ucs-content-store-eu-west/content/pii:S2468823123001827/image/svg+xml/e8e6a13dab278dc83985f39b5079fb1e/si6.svg si6 si6.svg svg 4065 ALTIMG 1-s2.0-S2468823123001827-si7.svg https://s3-eu-west-1.amazonaws.com/prod-ucs-content-store-eu-west/content/pii:S2468823123001827/image/svg+xml/0f11d50cb682f9093ffdd8dea3e2909a/si7.svg si7 si7.svg svg 1802 ALTIMG 1-s2.0-S2468823123001827-si8.svg https://s3-eu-west-1.amazonaws.com/prod-ucs-content-store-eu-west/content/pii:S2468823123001827/image/svg+xml/163dbba10f696981a3761118e318b9e3/si8.svg si8 si8.svg svg 5807 ALTIMG 1-s2.0-S2468823123001827-si9.svg https://s3-eu-west-1.amazonaws.com/prod-ucs-content-store-eu-west/content/pii:S2468823123001827/image/svg+xml/82259e05ef2816442ee952a9813e604c/si9.svg si9 si9.svg svg 6315 ALTIMG 1-s2.0-S2468823123001827-am.pdf https://s3-eu-west-1.amazonaws.com/prod-ucs-content-store-eu-west/content/egi:102CKBFR7VN/MAIN/application/pdf/b68462db05809c5fb545ba9cdba2438a/am.pdf am am.pdf pdf false 2225163 AAM-PDF MCAT 113096 113096 S2468-8231(23)00182-7 10.1016/j.mcat.2023.113096 Elsevier B.V. Fig. 1 Featurization of E segr by inexpensive numerical fingerprint. (a) Schematic of featurization of E segr by a numerical fingerprint and training process of ML model. (b) Data structure comprising structural and elemental features. Fig 1 Fig. 2 Optimization of DNN structure and the analysis on the predictability of the DNN model. (a) Flowchart for the automated hyperparameter tuning of a ML model using Bayesian optimization and 10-fold CV. (b) Comparison of CV scores of several ML models; error bar: standard deviation for 10 folds. (c) The DNN model's structure after hyperparameter tuning; values above each layer: the number of nodes. (d) Parity plot for E segr of DNN model trained with 1226 data without (643) facet data. (e) PCA for the training and test set. (f) Parity plot for E segr of DNN trained using the total 1366 data. Fig 2 Fig. 3 Influences of features on the E segr. (a) Influence of each feature estimated by each feature's SHAP values for the whole 1366 data; in the order of feature importance; solid lines: features in the same category. (b) Feature importance based on the mean of |SHAP value|. Fig 3 Fig. 4 Thermodynamics of low-CN site-selective nanosegregation of bimetallic alloy catalysts explained by DNN model. (a) E segr as a function of CN when Ni and Pt were set to impurity and host metals, respectively, and vice versa; atomic structure: facet-controlled octahedra NP structure; atom color: Esegr of corresponding site. (b) ΔE segr data with h = 6, k = 4, l = 3 calculated for the whole 552 (=24 × 24–24) combinations of 3d, 4d, and 5d transition metals; gray masking: self-segregation; yellow: found by screening; black: reported Pt nanosegregated catalysts, blue: new Pt nanosegregated catalysts found by screening. (c) E segr as a function of CN for Pt impurity metal and selected host metals (Co, Ni, Mo, Rh, W, and Os); atomic structure: Wulff construction NP structure of corresponding host metal; atom color: E segr of corresponding site. Fig 4 Fig. 5 Principal component analysis of 1366 E segr data. Total data projected onto PC1-PC2 plane, colored with respect to selected features, (a) h, (b) k, (c) l, (d) ΔCN, (e) r im, (f) PENim, (g) IEim, and (h) EAim. (i) Data distribution in PC space by scatter plot and marginal KDE plot with respect to each PC. Fig 5 Surface segregation machine-learned with inexpensive numerical fingerprint for the design of alloy catalysts Dongjae Shin Conceptualization Methodology Software Formal analysis Investigation Data curation Visualization Writing – original draft a Geonyeong Choi Methodology Software Investigation b Charmgil Hong Supervision Resources b Jeong Woo Han Project administration Funding acquisition Supervision Resources Writing – review & editing a ⁎ a Department of Chemical Engineering, Pohang University of Science and Technology (POSTECH), Pohang, Gyeongbuk 37673, Republic of Korea Department of Chemical Engineering Pohang University of Science and Technology (POSTECH) Pohang Gyeongbuk 37673 Republic of Korea aDepartment of Chemical Engineering, Pohang University of Science and Technology (POSTECH), Pohang, Gyeongbuk 37673, Republic of Korea b School of Computer Science and Electrical Engineering, Handong Global University, Pohang, Gyeongbuk 37554, Republic of Korea School of Computer Science and Electrical Engineering Handong Global University Pohang Gyeongbuk 37554 Republic of Korea bSchool of Computer Science and Electrical Engineering, Handong Global University, Pohang, Gyeongbuk 37554, Republic of Korea ⁎ Corresponding author. Metal alloy catalysts have been known to enhance many essential reactions. Surface-adsorbate interaction of an alloy catalyst depends on the composition and nanostructure of the surface, which can be changed by a phenomenon called surface segregation. Thus, thermodynamic information on the surface segregation is critical to tune the surface-adsorbate interaction, and thus the reactivity of alloy catalysts. Collected 1,366 density functional theory-calculated segregation energies (E segr) from literature were featurized by 19-dimensional inexpensive numerical fingerprint, which represents facet-, site-, and elemental-dependencies. Deep neural network (DNN) model was constructed based on the data. Reasonable interpolative and extrapolative prediction by the DNN was clearly demonstrated using principal component (PC) analysis. On top of that, impact of each feature on the E segr was analyzed by an explainable artificial intelligence approach, giving useful insights for alloy catalyst design based on surface segregation. As an example of the applications, the DNN model was used to explain the formation thermodynamics of site-selective nanosegregated Pt alloy catalyst, and was also used to perform elemental screening to find impurity-host metal combinations feasible to form the nanosegregated alloy catalyst. In addition, the guidance for data collection to improve the DNN model was given by analyzing PC space and performing the weight analysis of PCs. Graphical abstract Image, graphical abstract Keywords Machine learning Metal alloy Surface segregation Density functional theory Explainable artificial intelligence Data availability The E segr data that were collected from literature and used for training ML models are provided as spreadsheets in Supplementary material. Other data will be made available on request. 1 Introduction Metal alloy has been widely studied due to its wide range of applications in various fields, such as heterogeneous catalysis [1], medical devices [2], energy storage [3], and robotics [4]. The metal alloys can exhibit improved essential properties and/or can be more economically efficient compared with pure metals by selecting proper metal combination. For instance, metal alloy catalyst, compared with pure metal catalyst, may have different reactivity because alloy surface composed of several elements differently interacts with reactants or intermediates, leading to the change of catalytic activity [1]. Thermal energy and/or the adsorbate molecule on the metal alloy surface can induce the impurity metals in the bulk region of the alloy to segregate toward the surface [5], enriching the surface region; it is called surface segregation. The surface segregation leads to the change of alloy surface's composition, surface-reactant interaction, and thus the change of reactivity. On top of that, selective removal of specific element after the spatially heterogeneous surface segregation can lead to highly active hollow nanostructured catalysts [6]. Thus, the surface segregation is an important phenomenon because it is related with the reactivity change during chemical reaction or annealing process, and may be used to tune surface reactivity of alloy catalysts. Segregation energy (E segr), the energetic change upon the surface segregation, represents the thermodynamic favorability of the segregation (Fig. 1 a). Previous studies calculated the E segr for various surface environment, e.g., facet and coordination number (CN), and elemental combinations using density functional theory (DFT) calculations. Ruban et al. calculated E segr for the 24 × 24 elemental combinations of single transition metal impurities and transition metal hosts with closed-packed surface using Green's function linear-muffin-tin-orbitals method [7]. Nilekar et al. also calculated E segr for the same 24 × 24 bimetallic elemental combinations but for open low-index surfaces [8]. Han et al. calculated 302 E segr for several transition metal impurity and host metals to identify thermodynamically feasible stepped metal surfaces decorated with impurity metal [9]. However, these works show that an extension of E segr’s elemental trend to other facet or CN requires additional 552 (=24 × 24 - 24) E segr calculations. Namely, calculating E segr for all the possible combinations of facet, CN, and element is computationally demanding. Using machine learning (ML) approach, complex relationship between surface-related variables and the E segr can be learned using E segr data previously calculated by other researchers, and the E segr behavior of unseen alloy surface can be predicted rapidly without costly DFT calculations. In this contribution, 1366 E segr data were collected from the above three previous papers and featurized with inexpensive fingerprint that is easily accessible in literature to make a ML model of E segr. Interpolative and extrapolative predicting abilities of the model were evaluated using experimental E segr data obtained by surface core-level shifts (SCLS) method and test data distributed outside the training/validation data region. Influential features to the E segr were identified by SHAP (SHapley Additive exPlanations) value analysis within explainable artificial intelligence (XAI) approach. The trained E segr model was found to explain the formation thermodynamics of site-selective nanosegregated Pt–Ni alloy catalyst, and then was used to screen 552 impurity/host metal combinations to find other thermodynamically feasible combinations to form the nanosegregated alloy. In addition, data distribution was further analyzed using principal component analysis (PCA) and sparse PCA to present guidance for further data collection. This work is believed to show how to make a ML model learn published data to provide useful design knowledge and to discover feasible elements for metal alloy catalysts, being combined with data science techniques. 2 Methods 2.1 Data collection 1429 DFT-calculated E segr data were collected from three previous works by Ruban et al., Nilekar et al., and Han et al., respectively [7–9]. However, 126 data overlapped between those works; 40, 40, and 46 data overlapped between Han et al. and Ruban et al., Han et al. and Nilekar et al., and Ruban et al. and Nilekar et al., respectively (See the spreadsheets in the Supplementary material). These three works calculated E segr using DFT calculations with different approximations; In the previous work by Ruban et al., the DFT in local density approximation (LDA) was used with coherent potential approximation (CPA) and Green's function technique for semi-infinite surfaces within tight-binding representation of the linear-muffin-tin-orbitals (LMTO) method, where spd basis set was used [7]. In the work by Nilekar et al., the DFT in LDA with Perdew-Wang flavor was used with locally self-consistent Green's function (LSGF) technique and Korringa-Kohn-Rostoker-atomic sphere approximation (KKR-ASA) method, where spdf basis set was used [8]. In the work by Han et al., on the other hand, the plane-wave DFT in generalized gradient approximation (GGA) with Perdew-Wang 91 parameterization was used with plane-wave expansion cutoff of 241.6 eV [9]. Thus, each overlapped E segr value was different despite the same feature vector. This overlapping would necessarily increase the MAE values of the ML model to be trained, and thus wrong weight parameters will be captured during the training. Thus, the different E segr values for the same feature were averaged. In the end, only 63 unique E segr data were left in the database, leading to the 1366 E segr data to be used to train E segr model. The difference of E segr values between the papers may also be attributed to the difference in the impurity concentrations in the host metal slab models in DFT calculations. The E segr were calculated within single impurity limit in the works of Ruban et al. and Han et al. The E segr by Nilekar et al. were calculated based on single transition metal impurity; they used (3 × 3) surface unit cell for fcc(100) slab models, the size of which is the same with that of Han et al. Therefore, all the E segr by three papers were calculated in the single impurity limit, indicating that there is negligible difference of E segr due to the concentration difference. Hexagonal lattice systems, e.g., hexagonal close packed (HCP), usually use four indices (hkil), called Bravais-Miller index, using redundant index i, which obeys the constraint h + k + i = 0. The four-index notation is normally used for clarity, but the lattice plane of a lattice system basically can be denoted by Miller index (hkl), which is three-index scheme. Thus, all the collected E segr data of HCP host metal were featurized based on the Miller index for consistency of featurization, e.g., HCP(0001) → HCP(001), HCP(10 1 ¯ 0) → HCP(100). 2.2 Hyperparameter tuning of ML models and deep learning model Deep neural network (DNN) and conventional ML models, such as least absolute shrinkage and selection operator (LASSO) [10], random forest (RF) [11], extreme gradient boost (XGB) [12], were considered as models to learn the relationship between the E segr and the 19-dimensional numerical fingerprint. The LASSO is a linear model using weight decay method which suppresses overfitting, and was used as a base model to examine if the fingerprint and the E segr have a linear relationship. The RF and XGB are ML models based on bagging and boosting, respectively. Ensemble method, which includes the bagging and boosting, can increase the accuracy and generalizability of a single ML model by combining several models; thus, the RF and XGB were considered in this work. The hyperparameters of each model were optimized by Bayesian optimization scheme, implemented in KerasTuner [13], combined with 10-fold cross validation (CV). First, each feature was scaled by Min-max normalization. Initial (3 × number of hyperparameters) samples were used to construct Gaussian process regression (GPR) model. A N h-dimensional hyperparameter set was suggested by maximizing acquisition function (Tables S1-S4). Upper confidence bound (UCB) was used as the acquisition function: α UCB ( x ; β ) = μ ( x ) − β σ ( x ) , where the x is the N h-dimensional hyperparameter vector, the μ(x) is the mean value of the CV score at x estimated by the GPR, the σ is the standard deviation (uncertainty) of the estimated CV score, and the β is the weight to determine the portion of exploitation (μ(x)) and exploration (σ(x)). For the suggested hyperparameter set, 10-fold CV was performed; the accuracy of the model was evaluated using the mean of all the 10 folds’ mean absolute errors (MAEs) for validation set, which is called CV score. During each fold's training, Mean squared error (MSE) was used as the loss function, which will be minimized by the optimizer, but the MAE was used as the metric in early stopping and 10-fold CV to judge the performance of each trained model because the MAE shows the error values in physically intuitive scale of eV. The suggestion of feasible hyperparameter was repeated until the total 100 trials were exhausted, resulting in the optimized hyperparameter set to give the best model accuracy (Tables S1-S4). Particularly for the DNN, batch normalization re-centers and re-scales the input feature distribution at each hidden layer [14]. It has been known to alleviate vanishing or exploding gradient problem and to regularize the model, leading to less overfitting and better generalization, i.e., batch normalization stabilizes the training process; the stabilization also allows for the use of larger learning rate, speeding up the training process. Thus, the bath normalization was used for training each model in the 10-fold CV. Maximum epochs of back-propagation was set as 10,000, and early-stopping was used with patience = 1000 to mitigate overfitting during the training of each fold. 2.3 Calculation of SHAP values The calculation of SHAP (Shapley Additive exPlanations) values is based upon the additive feature attribution method, such that, f ( x ) = g ( x ′ ) = ϕ 0 + ∑ i = 1 M ϕ i x ′ i , where g ( x ′ ) is explanation model for a trained predictive model f ( x ) at a sample vector x with mapping of x = h x ( x ′ ) , x ′ is simplified input feature vector ( x ′ ∈ { 0 , 1 } M ; M: the number of simplified features), ϕ 0 = f ( h x ( 0 ) ) indicates that the output value without any feature. The SHAP value of feature i of the predictive model f for a single sample vector x can then be locally calculated as the average of marginal contribution of the feature i as follows: ϕ i ( f , x ) = ∑ z ′ ⊆ x ′ | z ′ | ! ( M − | z ′ | − 1 ) ! M ! [ f x ( z ′ ) − f x ( z ′ / i ) ] , where | · | is cardinality of a set, z ′ ⊆ x ′ indicates all the z ′ vectors (or subsets) where its non-zero entries are a subset of the entries in the simplified input vector x ′ , [ f x ( z ′ ) − f x ( z ′ / i ) ] indicates marginal contribution of the feature i to the output value; f x ( z ′ ) = f ( h x ( z ′ ) ) ; z ′ / i denotes z ′ i = 0 . The calculations of the SHAP value was implemented in SHAP python module [15]. Here, the f corresponds to the DNN model of E segr. 2.4 Principal component analysis (PCA) Visualization of high-dimensional data requires the reduction of dimension to lower dimension. The dimensional reduction can be performed by principal component analysis (PCA); PCA can project a multivariate dataset onto a set of successive orthogonal components that explain a maximum amount of the variance or information. The PCA finds new orthonormal axes v i ∈ R d × 1 that maximize the projected data's variance (or information). Data matrix D ∈ R n × d , where n is the number of samples and d is the number of features, is first centralized to make X ∈ R n × d by subtracting the elements of each column with the mean value of the column. The maximization of the variance of the X projected along the v i ( v i T Σ v i ; Σ = 1 n − 1 X T X ) turns out to be equivalent to choosing ith eigenvector of the covariance matrix Σ , indicating that the eigenvectors { v i } are the new orthonormal axes {PCi} or the principal components (PCs). The eigenvectors can be obtained by the eigenvalue decomposition (EVD) of Σ or the singular value decomposition (SVD) of the X . Because the SVD is usually known to be numerically more stable than EVD, the SVD was performed here using radomized method by Halko et al. [16], which is implemented in scikit-learn [17]. Herein, the PCA was performed to visulize the distribution of Min-max normalized 1366 19-dimensional data, used to train the machine learning models, in two-dimensional PC1-PC2 space. 2.5 Sparse PCA A PC can be represented as a linear combination of unit vectors in original feature space. During the maximization process of the PCA, the weights are determined, which are actually the components of a PC vector. The weight of each feature indicates how much the feature changes along with the PC. By analyzing the weight values, we can roughly see the distribution of each feature, categorize features into PCs, or obtain guidance for the data collection to improve the accuracy of the trained model [18]. However, regular PCA usually has disadvantage that PCs have non-zero weights for all the variables (features), making it difficult to interpret the PCA result. Sparse PCA can alleviate this disadvantage of the regular PCA by restricting the number of non-zero weights of the PCs. Thus, the maximization problem changes into, a r g max v i T Σ v i v i subject to | v i | = 1 , | v i | 0 ≤ k , where the | · | 0 indicates the L0 norm and the k the maximum number of non-zero weights. However, L1 norm is usually used instead of the L0 norm because the L0 norm constraint is generally NP-hard. Thus, out of various formulations of the sparse PCA, the L1 norm was applied here according to Mairal et al. [19], as implemented in the scikit-learn. By limiting the number of features with non-zero weight, interpretation of the PCA result can be clearer than the regular PCA. 2.6 Mapping DNN-predicted E segr onto NP structure to explain the formation of nanosegregated alloy catalysts To visualize the site-selectivity of surface segregation depending on the exposed site's CN, the corresponding E segr values were mapped onto each atomic site. (Fig. S1) First, nanoparticle (NP) structure of host metal was made following the Wulff construction or experimental characterization result. The CN of every site in the structure was calculated using atomic simulation environment (ASE) python module [20]. The obtained CNs were then used to get the ΔCN (=12-CN) feature to predict E segr using the trained DNN model. Each site was colored with the corresponding E segr value. Although facet cannot easily be defined for small NP structures, Miller indices features were set as h = 6, k = 4, l = 3 because the (643) is a facet that covers broad range of CNs from 6 to 12. 3 Results and Discussion 3.1 Featurization of surface segregation thermodynamics by inexpensive numerical fingerprint A property of interest can be characterized by several variables, called features, related with the property. Although the property and the features have complex nonlinear relationship, the relationship can be recognized by many advanced computational techniques. Recently, ML approaches have been widely employed to learn or parameterize complex relationships between target value and its effective features in many research fields [21–24]. Once the ML model is successfully trained on data, the target property is predicted only by the set of features, numerical fingerprint. Moreover, if all the features are easily obtainable without costly experimental measurements or theoretical calculations, the target value can be predicted rapidly even for unseen numerical fingerprints. The E segr was featurized by 19 features to make a ML model that can predict the E segr for various surface environments and elemental combinations (Fig. 1b). The 19-dimensional feature vector, used as the numerical fingerprint for the E segr, was composed of four structural features and 15 elemental features. The structural features comprise three Miller indices (h, k, l) and the loss of CN (ΔCN=12-CN), which is the CN difference between the segregation site at the surface and the bulk position (CN=12). According to previous studies [9,25–27], the CN was considered to be critical to the E segr, and the Miller indices obviously are closely related with the CN at a surface-segregation site because the indices represent the exposed facets, or nanostructure, of an alloy catalyst. Nilekar et al. also observed that negative (positive) E segr values of close-packed surfaces, such as fcc(111) and bcc(110), become more negative (positive) for open surfaces, such as fcc(100) and bcc(100), with the respective impurity/host combinations. The sign of E segr values were even reversed by the change of exposed facet for some combinations [8]. The elemental features comprise liquid surface tension (ε), Wigner-Seitz radius (r), Pauling electronegativity (PEN), ionization energy (IE), and electron affinity (EA) of impurity metal (F im) and host metal (F h), and their difference (ΔF) (5 × 3 = 15 features); ΔF = F im - F h. These elemental features represent the unique characteristics of a metal element, and have been used as ML models’ features to predict catalytic properties such as adsorption energy of reaction intermediate molecules [9,21,28]. Particularly, the ε is equivalent to the surface free energy of a solid metal, and can be used to characterize the bond strength of solid metal atoms; The bond strength difference between host and impurity metals has been known to be critical to explain the E segr [27,29]. As the size mismatch of the impurity and host can lead to strain [30,31], and thus the surface segregation, r of a metal was also considered as a feature. All the 19 features used for the numerical fingerprint can be chosen by user (structural features) or can be accessible from literature (elemental features) [32–37], so the ML model that will be trained using this inexpensive fingerprint will be able to promptly predict E segr for various combinations of structural and elemental features, even for the unseen data. 3.2 Construction of ML models and their prediction abilities Least absolute shrinkage and selection operator (LASSO), random forest (RF), extreme gradient boost (XGB), and deep neural network (DNN) were considered as ML models to learn the relationship between the E segr and the 19-dimensional numerical fingerprint. The hyperparameters of each model were optimized by Bayesian optimization scheme combined with 10-fold cross validation (CV) (Fig. 2 a). First, each feature was scaled by Min-max normalization. Initial hyperparameter samples were used to construct Gaussian process regression (GPR) model. A N h-dimensional hyperparameter set was suggested by maximizing acquisition function. For the suggested hyperparameter set, 10-fold CV was performed; the accuracy of the model was evaluated using the mean of all the 10 folds’ mean absolute errors (MAEs) for validation set, which is called CV score. Upper confidence bound (UCB) was used as the acquisition function. The suggestion of feasible hyperparameter was repeated until all the predefined trials were exhausted, resulting in the optimized hyperparameter set (See 2. Methods for the details). The CV scores of the four ML models were compared (Fig. 2b, Table S5). LASSO showed the worst accuracy with CV score of 0.45 (±0.03) eV. CV scores of RF and XGB were 0.25 (±0.02) eV and 0.19 (±0.03) eV, respectively. DNN model showed the best CV score of 0.18 (±0.02) eV. Thus, after hyperparameter tuning, the DNN model with the best validation MAE (MAEvalid) (6th fold) was chosen out of 10 folds for further analysis of prediction ability and the prediction of E segr (Fig. 2c, Tables S1, S6). Among 1366 data, 140 data were used as test data and the remaining 1226 data were used as training/validation data. As the 123 validation data were randomly chosen out of the 1226 data for each fold while the rest were used as training data, the MAEvalid is likely to only measure the interpolative prediction ability of the model. Thus, 140 data with (643) facet (h = 6, k = 4, l = 3), which were not present in the training/validation data, were chosen as test data to measure extrapolative prediction ability of the DNN model, especially for Miller indices (h, k, l) and ΔCN features (Fig. S2). The DNN model reproduced the E segr of training data well, showing good parity with training MAE (MAEtrain)=0.05 eV (Fig. 2d). The model also showed good parity for validation data with MAEvalid=0.13 eV, showing reasonable interpolative predicting accuracy (Table S7). Test MAE (MAEtest) for the (643) facet data was 0.13 eV, indicating reasonable extrapolative predicting accuracy for unseen Miller index features. Considering that the test data includes the data with CN=11 (ΔCN=12–11=1), which was not included in the training/validation data, the MAE of 0.08 eV for these data indicates the extrapolative predicting accuracy for ΔCN feature. As the data set includes a broad range of 552 (=24 × 24 – 24) elemental combinations of 3d, 4d, and 5d group transition metals, the trained model is likely to accurately predict the change of the E segr with respect to elemental combinations within the d group metals. The E segr of an impurity atom with atom number of Z + 1 within a host metal with atom number of Z can be experimentally obtained by photoemission spectroscopy of surface core-level shift (SCLS) within Z + 1 approximation [38]. Six experimental E segr data by SCLS (E segr,SCLS) were collected from literature (Table S8) [39]. The MAE for the six E segr,SCLS data (MAEexpt) was 0.10 eV, indicating that the DNN model well reproduces the experimental E segr values. To examine whether the MAEs for validation (MAEvalid) and test data (MAEtest) measure interpolative and extrapolative prediction abilities of the model, respectively, the distribution of the total 1366 data was visualized. Principal component analysis (PCA) is a useful tool to reduce the dimension of the data, enabling the visualization of high-dimensional data on two-dimensional plot. Thus, the 1366 data were projected onto the PC1-PC2 plane by maximizing the variance of the projected data; PC1: 1st principal component 1; PC2: 2nd principal component (See 2. Methods for the details) (Fig. 2e). During the projection, 55.68% of variation was preserved by choosing PC1 and PC2 (Fig. S3). The validation data were shown to be present inside the region of training data because they were randomly chosen within the 1226 data. Experimental SCLS data were also within the training data region. As expected, on the other hand, the test data turned out to be present outside of the training/validation data region. Therefore, the MAEvalid (MAEexpt) and MAEtest actually measure the interpolative and extrapolative prediction abilities of the trained DNN model, respectively. Finally, all the 1366 data were used to make the final DNN model to be used for the applications in the following sections. The MAEtrain, MAEvalid, and MAEexpt of the final DNN model were 0.05, 0.13, and 0.08 eV, respectively. 3.3 Feature importance analysis by explainable artificial intelligence approach Explainable artificial intelligence (XAI) concept is a useful approach to extract physical insights from ML model as it gives explanation for the predicted results. Classic Shapley value was first introduced in economics field to give a solution to the problem of fairly determining the contribution of each player participating in cooperative game [40]. SHAP value was later proposed to apply the concept of Shapley value to explanation of complex ML models trained on large data set [15]. The SHAP value can intuitively quantify directional impact of each feature on the model output (See 2. Methods for the details). SHAP values for the whole 1366 samples were calculated, providing directional feature importance to the corresponding E segr values (Figs. 3 a, S4). The ε im was found to be the most influential on the E segr. As the feature value of ε im decreases, the impact on the model output (SHAP value) becomes more negative, i.e., the lower the ε im value is, the more negative the E segr value is likely to be. Thermodynamically, a nanoparticle (NP) prefers to lower its total surface free energy, so larger exposure of metal components with low surface energy (or ε) on the surface would be favorable, reducing total surface free energy. Thus, it makes sense that a low-ε impurity element favors to be segregated to the host metal's surface. On the other hand, as the ε h decreases, the impact on the E segr becomes more positive. It can be understood that the decrease of ε h leads to the relative increase of ε im, so the impurity metal would less favor the surface position, resulting in the increase of E segr. The E segr decreases as the Δε decreases. According to the definition of Δε (= ε im - ε h), its decrease indicates the decrease of ε im and/or the increase of ε h. Thus, the decrease of E segr by the decrease of Δε is consistent with the tendencies of SHAP values of ε im and ε h. Therefore, selecting a metal element with lower surface energy, compared to host metal, as an impurity metal would be beneficial for thermodynamically favorable segregation of the impurity metal (decrease of E segr). This is also in agreement with the finding by Alden et al. that the difference of the surface energies of impurity and host metals are critical for the segregation of impurity metal, which was consistent with experimental SCLS of 4d and 5d transition metals [41]. Other than ε-related features, r was found to have the second largest impact on the E segr values. As the r im increased, the impact on the E segr became negative. Relatively larger size of impurity metal than that of host metal would cause stronger local strain around the impurity metal's position inside the host metal lattice, so the SHAP value tendency of r im also physically makes sense [30,31]. Similar to the case of the ε-related features, the tendency of r h is opposite to that of r im, and the E segr accordingly decreases with the increase of Δr. Thus, selecting the metal element with relatively larger size, compared to host metal, as an impurity metal will lead to the favorable surface segregation. The ΔCN feature was found to have the third largest impact on the E segr values. However, the ΔCN's SHAP values showed no clear directional tendency. Apparently, CN of the impurity metal's segregation site seems to have nonnegligible impact on the E segr, considering the large SHAP values. Thus, the directional tendency of ΔCN might depend on the choice of elemental combination, which was found to be more influential on the E segr than ΔCN in the analyses of ε- and r-related features’ SHAP values. According to previous works, the E segr’s dependency on the CN is actually different with respect to the elemental combinations of impurity and host metals [26,42]. Particularly, Han et al. calculated surface segregation energies for various impurity-host combinations and facets using DFT calculations, and the segregation energies were shown to have various relationships with the CN, e.g., posivite/negative linear, convex, and concave relationships [9]. Miller index k was found to have the fourth largest impact on the E segr. The k’s SHAP values also have no clear directional tendency on the E segr. Similarly, the other Miller indices l and h also showed no directional tendency. This may be related with the absence of directionality in ΔCN feature's SHAP values because the Miller indices determine the exposed facets of NPs, which obviously lead to the change of the exposed metal site's CN. The absence of directional tendency for these structural features makes simple tendency-based prediction of E segr difficult, implying the necessity of fast screening of feature combinations by ML model to tailor E segr value. The remaining features are all elemental features, reflecting charge transfer effect between the impurity and host metals [26]. These features related with electronic effects were shown to have smaller effects on the E segr than thermodynamic (ε im, ε h, and Δε), and structural features (r im, ΔCN, and k) (Fig. 3a, b). Particularly, PEN-related features (PENim, PENh, and ΔPEN) showed no directional tendency, and EA- and IE-related features (EAim, EAh, ΔEA, IEim, IEh, and ΔIE) showed tendency similar to ε- and r-related features. However, these features related with electronic effects are not independently controllable and determined by the choice of elemental combination of impurity and host metals. Placing specific element at the outer shell of alloy NPs is critical to design highly reactive and costly effective alloy metal catalysts such as core-shell NPs and single atom alloy (SAA) because the change of surface composition by the surface segregation would lead to the change of surface-reactant interactions, leading to change of catalytic reactivity [5,43,44]. Therefore, enhanced alloy catalysts can be designed by controlling the E segr, which can be tuned by proper choice of elemental combination (surface energy and radius) and surface structures (CN and facet). 3.4 Example: Finding feasible metal combinations to design nanosegregated alloy catalysts Surface segregation can be used to design highly active catalysts. For example, core-shell alloy catalyst has been reported to efficiently promote many essential reactions [45,46]. The core-shell catalyst benefits from the dominant surface fraction of active metal in the shell with host metal in the core; the surface segregation can lead to the specific atomic arrangement. Thus, the amount of active metal can be reduced while still benefitting from metal mixing effects, represented as strain and ligand effect [47]. For instance, extremely low abundance and high price of highly ORR-active Pt electrode catalyst has been one of major barriers to the commercialization of polymer electrolyte membrane fuel cells (PEMFCs) [48]. Thus, making cost-effective Pt-based core-shell catalysts can be critical to lowering the barrier. The activity of the core-shell catalyst can be tuned by shape control into a variety of morphologies, such cubes, octahedral, and icosahedra, because highly active high-index facets can be mainly exposed on the surface depending on the morphology [48,49]. Another notable advantage of the shaped core-shell compared with the ordinary one is that surface atoms have various CNs, e.g., low-CN sites at edge and vertex, and high-CN sites at flat {111}-like facets. This indicates that, using proper impurity-host combination, the surface segregation can preferably occur at highly-active low-CN site, leading to site-selective nanosegregated alloy catalyst. Therefore, if the active impurity metal is selectively placed at the low-CN sites of host metal, such as edge and vertex, by the site-selective segregation, most of active metals are likely to show high intrinsic activity due to their low CN. Simultaneously, the used amount of active metals can be saved as is in ordinary core-shell catalysts, so improved activity per used amount of the active metal can be achieved. Thus, examination of CN-dependency of E segr can be helpful to find proper elemental combination that can lead to the low CN-selective surface segregation. As an example, the DNN-predicted E segr was used to explain the formation of site-selective nanosegregated Pt-Ni octahedron alloy catalysts from a thermodynamic perspective (Fig. 4 a). Changing the CN from 12 (bulk or subsurface) to 4, the corresponding E segr were predicted by the DNN model. When Pt and Ni were set as impurity and host metals, respectively, all the predicted E segr values were negative, indicating that the segregation of Pt towards the Ni NP's surface is thermodynamically favored. On top of that, the E segr values decreased as the CN decreased, meaning that the surface segregation of Pt towards low-CN site is preferred to high-CN site; red E segr values mapped onto vertex and edges sites of the octahedron NP structure demonstrates this tendency (Figs. 4a, S1). Thus, the site-selective Pt nanosegregation at vertex and edge sites can be explained by the E segr’s dependency on CN. Oh et al. actually reported the synthesis of phase-segregated octahedral Pt-Ni nanoparticle where Pt impurity metals are mainly present at edges and vertices [50]. Conversely, when Pt and Ni were set as host and impurity metals, respectively, the E segr values were all positive regardless of CN, showing why the Ni should be used as a host metal to make the nanosegregated Pt alloy catalyst; blue E segr values on the NP structure show that the segregation is not favorable. Although there may be other factors affecting the surface segregation, such as surface stabilization agents or diffusion path [50], E segr suggests us a key criteria of thermodynamic preference for the formation of the nanosegregated catalyst. For many catalytic applications, active metals other than Pt may be necessary, and use of economically more efficient host metal is important for the industrial synthesis of the nanosegregated alloy catalysts. Besides, choosing a proper elemental impurity-host combination was found to be the most impactful factor on the E segr in the previous section. Thus, the prediction of thermodynamically feasible elemental combinations would be highly beneficial to choosing proper metals for specific applications. Therefore, 552 (=24 × 24–24) combinations of 3d, 4d, and 5d transition metals were screened by the DNN model using the following screening criteria (Fig. 4b): (1) E segr CN = 12 < 0.13 eV, (2) E segr at lower CN sites should be lower than at higher CN sites. First criterion indicates the physical validity that bulk-to-bulk or bulk-to-subsurface segregation should be thermodynamically neutral or favorable, respectively, within the error range of the DNN model. Second criterion indicates the favorability of segregation towards the low-CN sites, which would be beneficial for site-selective surface segregation of impurity metal. After the screening process, 44 elemental combinations passed the criteria (Fig. S5); the difference of E segr ( Δ E segr = E segr CN = 4 − E segr CN = 12 ) measures how much the segregation to low-CN site is favorable. Among them, six metals were found to be feasible candidates as host metals to make the nanosegregated Pt catalyst, which might be active for ORR: Co, Ni, Mo, Rh, W, and Os (Figs. 4b, c, Table S9). All the six host metals showed monotonically decreasing E segr tendency (favorability of surface segregation at low-CN sites). Out of six candidates, Rh showed poorer site-selectivity of the segregation than the already-reported Ni host. Co showed similar site-selectivity to Ni while Mo, W, and Os showed better selectivity than Ni; the E segr values mapped on the each host metal's Wulff structure demonstrate the poorest site-selectivity of Rh and the best site-selectivity of W. Particularly, among the six candidate host metals, Ni and Co have been reported to be able to show anisotropic phase segregation of Pt impurity; this shows the validity of DNN-based host metal screening process [6,50–53]. Meanwhile, 12 metals were found to be feasible as host metals for nanosegregated Cu catalyst, which have potential to be active for CO2RR: Ir, OS, Re, W, Ta, Ru, Tc, Mo, Ni, Co, Fe, and Cr (Fig. S5a). Among them, choosing a metal, which is cheaper than Cu active to the CO2RR, as the host metal would lead to the efficient Cu alloy catalyst for CO2RR. Site-selective nanosegregated alloy catalysts as described above can also be used as base materials to make nanoframe catalysts. Nanoframe catalyst can be obtained by etching with a proper acid agent to selectively remove host metal in the nanosegregated alloy, leaving skeletal framed structure mainly composed of impurity metal [6]. Nanoframe catalyst has been considered as a promising catalyst that can significantly enhance the efficiency of electrocatalytic reactions because it shows highly large surface area, high intrinsic activity, and/or stability. Pt-Ni alloy, one of combinations found by our screening, has been used as the base material for Pt nanoframe catalysts. Chen et al. made open-framework structure of Pt based on nanosegregated Pt-Ni alloy NP, demonstrating the superior ORR activity to that of conventional Pt/C catalyst [51]. Oh et al. also synthesized similar Pt-rich skeletal alloy catalyst using anisotropic nanoscale phase segregation and host metal-selective etching afterwards, showing greatly improved ORR activity [50]. As another example, since Au catalyst has been reported to be active to electrocatalytic reactions such as CO2RR and methanol oxidation [54,55], several previous works have made Au nanoframe catalysts [55–58]. However, their syntheses were not segregation-based, but based on Ag template-directed galvanic replacement; this may be because the site-selective surface segregation of Au in Ag host is not thermodynamically favorable as was shown by our screening result (Fig. 4b). 3.5 Guidance for further data collection to develop more accurate segregation energy model Information on the data distribution can allow us to qualitatively estimate the prediction ability of a model that was trained on the data, e.g., a data distribution localized at a particular region in feature space would give poor generality of prediction. Thus, the information can also give insights on how to add more data to improve the accuracy of the model [18]. As introduced in the previous section, PCA is a useful data-science technique to visualize the distribution of high-dimensional data in low-dimensional space. Thus, the 1366 E segr data were further analyzed by PCA to extract insights on the data distribution. Each principal component (PC) can be represented as a linear combination of original feature variables. Thus, the weight of each feature for a PC indicates how much the feature changes with following the PC. Weights of features for PC1 and PC2 were calculated and they were roughly categorized into the two groups: structural features (h, k, l, and ΔCN) and elemental features (ε im, ε h, Δε, r im, r h, Δr, PENim, PENh, ΔPEN, IEim, IEh, ΔIE, EAim, EAh, and ΔEA) (Fig. S6a, Table S10). Structural features were shown to have larger weights on PC1 axis, and elemental features larger weights on PC2 axis, indicating that the PC1 is likely to have information on the distribution of structural features, and the PC2 the distribution of elemental features. Regular PCA usually has disadvantage that it has non-zero weights for all the variables (features), making it difficult to interpret the PCA result. Sparse PCA can alleviate this disadvantage of the regular PCA by applying L1 penalty on the weight values, limiting the number of feature with non-zero weight [19]. Therefore, sparse PCA was used to differentiate the two feature groups clearer (Fig. S6b, Table S10). After the sparse PCA, the structural features were found to have non-zero weights only for the PC1. Only eight elemental features survived the sparse PCA, and the remaining features of impurity metal (r im, PENim, IEim, and EAim) were found to have larger weights than the features of host and their differences in the same category (F h and ΔF). Thus, the whole data in the PC space were plotted with respect to structural features and the chosen four elemental features (r im, PENim, IEim, and EAim) (Figs. 5 a–h). The four structural features were found to actually change along the PC1 axis (Figs. 5a–d). For instance, the data for various facets, such as (100), (001), (111), (322), (643), and (531), were distributed in a grouped manner, with the change of PC1 values (Fig. 5a). The ΔCN was also found to change along the PC1, but less drastically than Miller indices particularly at high PC1 region (Fig. 5d). On the other hand, the four elemental features were found to change mainly along the PC2 axis (Figs. 5e–h). Thus, the distribution of the structural and elemental features can be analyzed by investigating the data distribution along the PC1 and PC2, respectively. Kernel density estimate (KDE) plot showed that the data distribution along the structural axis (PC1) has some valleys in the middle of the distribution (Fig. 5i), and most of the data are concentrated at low-index facet region ((100), (001), and (111)) while small number of data are placed at high-index facet region (Fig. 5a). It indicates that the accuracy of the DNN model that was trained on these data might be poor for unseen high-index facets (Miller indices features) or unseen CNs although our DNN model showed pretty good accuracy for unseen facet and CN, e.g., (643) facet and CN=11. Therefore, the model's predicting accuracy for structural features can be further improved by collecting more data with unseen facets and CNs, filling the valleys of the data distribution along structural axis. The KDE plot along the elemental axis (PC2) showed nearly normal distribution without any valley. Thus, the predicting accuracy for elemental choice would be stably good within the elemental combinations of (24 × 24) 3d, 4d, and 5d group transition metals. However, since the PC1 data distribution at high-index region (high PC2 region) are still sparse, data with various elemental combinations should be collected more for unseen structures (facet and CN), especially for the high-index region, to further improve the accuracy of the model. 4 Conclusion DFT-calculated E segr collected from the previous papers were featurized by inexpensive 19-dimensional numerical fingerprint, and were used to train several ML models. The ML models were rigorously trained by hyperparameter tuning based on Bayesian optimization scheme, and were compared using 10-fold CV, showing DNN as the best model. The interpolative and extrapolative predicting abilities of the DNN model were analyzed to be fairly good by data splitting and PCA. The DNN model was also used to extract directional influence of each feature on the E segr value using XAI approach. Surface energy and radius of metal elements were found to be the most impactful on the E segr, indicating that the proper choice of elemental combination would be critical to tune the E segr of alloy metal. Therefore, by screening 552 elemental combinations of transition metals, 44 combinations were found to be feasible to form the site-selective nanosegregated alloy catalysts, which can potentially be used as base materials for the synthesis of nanoframe catalysts. Moreover, six candidate host metals were also found to be feasible to show site-selective surface segregation of Pt. Two of them turned out to be already synthesized, validating the screening result. We also suggested data collection strategies based on PCA and sparse PCA to further improve the accuracy of the DNN model, which will show better interpolative and extrapolative prediction abilities. Furthermore, we expect that addition of the other factors affecting the surface segregation, such as the impurity/host ratio, adsorbate molecule on the surface, and directional dependency of impurity migration, would lead to more accurate E segr model in the future. The featurization of E segr by inexpensive numerical fingerprint that we presented here is useful because each feature can be easily obtained from literature or set by the user. Thus, massive prediction of E segr for a vast range of elemental combinations and surface structures is allowed, thanks to the rapid prediction of E segr by DNN. We thus believe our ML framework to predict E segr can be used to various applications that require the surface composition change of alloy catalysts and the design of segregation-based alloy catalysts. CRediT authorship contribution statement Dongjae Shin: Conceptualization, Methodology, Software, Formal analysis, Investigation, Data curation, Visualization, Writing – original draft. Geonyeong Choi: Methodology, Software, Investigation. Charmgil Hong: Supervision, Resources. Jeong Woo Han: Project administration, Funding acquisition, Supervision, Resources, Writing – review & editing. Declaration of Competing Interest The authors declare that they have no known competing financial interests or personal relationships that could have appeared to influence the work reported in this paper. Acknowledgments The authors acknowledge the financial support from Basic Science Research Program (NRF-2021R1A2C3004019) through the National Research Foundation of Korea (NRF) grant funded by the Korea government (MSIT) and the Korea Institute of Energy Technology Evaluation and Planning (20193410100050) in Ministry of Trade, Industry and Energy. The authors also acknowledge the supercomputing resource including technical support from the Supercomputing Center, the Korean Institute of Science and Technology Information (KSC-2021-CRE-0040). Supplementary materials Supplementary material associated with this article can be found, in the online version, at doi:10.1016/j.mcat.2023.113096. Appendix Supplementary materials Image, application 1 Image, application 2 Image, application 3 Image, application 4 Image, application 5 References [1] R.T. Hannagan G. Giannakakis R. Réocreux J. Schumann J. Finzel Y. Wang A. Michaelides P. Deshlahra P. Christopher M. Flytzani-Stephanopoulos First-principles design of a single-atom–alloy propane dehydrogenation catalyst Science 372 2021 1444 1447 10.1126/science.abg8389 R.T. Hannagan, G. Giannakakis, R. Réocreux, J. Schumann, J. Finzel, Y. Wang, A. Michaelides, P. Deshlahra, P. Christopher, M. Flytzani-Stephanopoulos, First-principles design of a single-atom–alloy propane dehydrogenation catalyst, Science 372 (2021) 1444–1447, 10.1126/science.abg8389. [2] Q.F. He J.G. Wang H.A. Chen Z.Y. Ding Z.Q. Zhou L.H. Xiong J.H. Luan J.M. Pelletier J.C. Qiao Q. Wang L.L. Fan Y. Ren Q.S. Zeng C.T. Liu C.W. Pao D.J. Srolovitz Y. Yang A highly distorted ultraelastic chemically complex Elinvar alloy Nature 602 2022 251 257 10.1038/s41586-021-04309-1 Q.F. He, J.G. Wang, H.A. Chen, Z.Y. Ding, Z.Q. Zhou, L.H. Xiong, J.H. Luan, J.M. Pelletier, J.C. Qiao, Q. Wang, L.L. Fan, Y. Ren, Q.S. Zeng, C.T. Liu, C.W. Pao, D.J. Srolovitz, Y. Yang, A highly distorted ultraelastic chemically complex Elinvar alloy, Nature 602 (2022) 251–257, 10.1038/s41586-021-04309-1. [3] X. Huang K. Kumar M.K. Jawed A.M. Nasab Z. Ye W. Shan C. Majidi Chasing biomimetic locomotion speeds: creating untethered soft robots with shape memory alloy actuators Sci. Robot. 3 2018 eaau7557 10.1126/scirobotics.aau7557 X. Huang, K. Kumar, M.K. Jawed, A.M. Nasab, Z. Ye, W. Shan, C. Majidi, Chasing biomimetic locomotion speeds: creating untethered soft robots with shape memory alloy actuators, Sci. Robot. 3 (2018) eaau7557, 10.1126/scirobotics.aau7557. [4] H. Pan M. Zhang Z. Cheng H. Jiang J. Yang P. Wang P. He H. Zhou Carbon-free and binder-free Li-Al alloy anode enabling an all-solid-state Li-S battery with high energy and stability Sci. Adv. 8 2022 eabn4372 10.1126/sciadv.abn4372 H. Pan, M. Zhang, Z. Cheng, H. Jiang, J. Yang, P. Wang, P. He, H. Zhou, Carbon-free and binder-free Li-Al alloy anode enabling an all-solid-state Li-S battery with high energy and stability, Sci. Adv. 8 (2022) eabn4372, 10.1126/sciadv.abn4372. [5] X. Zhang S. Han B. Zhu G. Zhang X. Li Y. Gao Z. Wu B. Yang Y. Liu W. Baaziz Reversible loss of core–shell structure for Ni–Au bimetallic nanoparticles during CO2 hydrogenation Nat. Catal. 3 2020 411 417 10.1038/s41929-020-0440-2 X. Zhang, S. Han, B. Zhu, G. Zhang, X. Li, Y. Gao, Z. Wu, B. Yang, Y. Liu, W. Baaziz, Reversible loss of core–shell structure for Ni–Au bimetallic nanoparticles during CO2 hydrogenation, Nat. Catal. 3 (2020) 411–417, 10.1038/s41929-020-0440-2. [6] Z. Niu N. Becknell Y. Yu D. Kim C. Chen N. Kornienko G.A. Somorjai P. Yang Anisotropic phase segregation and migration of Pt in nanocrystals en route to nanoframe catalysts Nat. Mater. 15 2016 1188 1194 10.1038/nmat4724 Z. Niu, N. Becknell, Y. Yu, D. Kim, C. Chen, N. Kornienko, G.A. Somorjai, P. Yang, Anisotropic phase segregation and migration of Pt in nanocrystals en route to nanoframe catalysts, Nat. Mater. 15 (2016) 1188–1194, 10.1038/nmat4724. [7] A.V. Ruban H.L. Skriver J.K. Nørskov Surface segregation energies in transition-metal alloys Phys. Rev. B 59 1999 15990 10.1103/PhysRevB.59.15990 A.V. Ruban, H.L. Skriver, J.K. Nørskov, Surface segregation energies in transition-metal alloys, Phys. Rev. B 59 (1999) 15990, 10.1103/PhysRevB.59.15990. [8] A.U. Nilekar A.V. Ruban M. Mavrikakis Surface segregation energies in low-index open surfaces of bimetallic transition metal alloys Surf. Sci. 603 2009 91 96 10.1016/j.susc.2008.10.029 A.U. Nilekar, A.V. Ruban, M. Mavrikakis, Surface segregation energies in low-index open surfaces of bimetallic transition metal alloys, Surf. Sci. 603 (2009) 91–96, 10.1016/j.susc.2008.10.029. [9] J.W. Han J.R. Kitchin D.S. Sholl Step decoration of chiral metal surfaces J. Chem. Phys. 130 2009 124710 10.1063/1.3096964 J.W. Han, J.R. Kitchin, D.S. Sholl, Step decoration of chiral metal surfaces, J. Chem. Phys. 130 (2009) 124710, 10.1063/1.3096964. [10] R. Tibshirani Regression shrinkage and selection via the lasso J. R. Stat. Soc. Ser. B Methodol. 58 1996 267 288 10.1111/j.2517-6161.1996.tb02080.x R. Tibshirani, Regression shrinkage and selection via the lasso, J. R. Stat. Soc. Ser. B Methodol. 58 (1996) 267–288, 10.1111/j.2517-6161.1996.tb02080.x. [11] L. Breiman Random forests Mach. Learn. 45 2001 5 32 10.1023/A:1010933404324 L. Breiman, Random forests, Mach. Learn. 45 (2001) 5–32, 10.1023/A:1010933404324. [12] T. Chen C. Guestrin XGBoost: a scalable tree boosting system Proceedings of the 22nd ACM SIGKDD International Conference on Knowledge Discovery and Data Mining 2016 785 794 10.1145/2939672.2939785 T. Chen, C. Guestrin, XGBoost: a scalable tree boosting system, in: Proceedings of the 22nd ACM SIGKDD International Conference on Knowledge Discovery and Data Mining: pp. 785–794, 10.1145/2939672.2939785 (2023). [13] T. O'Malley, E. Bursztein, J. Long, F. Chollet, H. Jin, L. Invernizzi, KerasTuner. https://github.com/keras-team/keras-tuner, 2019 (accessed 12 March 2023). [14] S. Ioffe C. Szegedy Batch normalization: accelerating deep network training by reducing internal covariate shift Proceedings of the 32nd International Conference on Machine Learning 2015 448 456 10.5555/3045118.3045167 S. Ioffe, C. Szegedy, Batch normalization: accelerating deep network training by reducing internal covariate shift, in: PMLR: pp. 448–456 (2023). [15] S.M. Lundberg S.I. Lee A unified approach to interpreting model predictions Adv. Neural Inf. Process Syst. 30 2017 4765 4774 S.M. Lundberg, S.I. Lee, A unified approach to interpreting model predictions, Adv. Neural Inf. Process Syst. 30 (2017). [16] N. Halko P.G. Martinsson J.A. Tropp Finding structure with randomness: probabilistic algorithms for constructing approximate matrix decompositions SIAM Rev. 53 2011 217 288 10.1137/090771806 N. Halko, P.G. Martinsson, J.A. Tropp, Finding structure with randomness: probabilistic algorithms for constructing approximate matrix decompositions, SIAM Rev. 53 (2011) 217–288, 10.1137/090771806. [17] F. Pedregosa G. Varoquaux A. Gramfort V. Michel B. Thirion O. Grisel M. Blondel P. Prettenhofer R. Weiss V. Dubourg Scikit-learn: machine learning in Python J. Mach. Learn. Res. 12 2011 2825 2830 F. Pedregosa, G. Varoquaux, A. Gramfort, V. Michel, B. Thirion, O. Grisel, M. Blondel, P. Prettenhofer, R. Weiss, V. Dubourg, Scikit-learn: machine learning in Python, J. Mach. Learn. Res. 12 (2011) 2825–2830. [18] A. Smith A. Keane J.A. Dumesic G.W. Huber V.M. Zavala A machine learning framework for the analysis and prediction of catalytic activity from experimental data Appl. Catal. B 263 2020 118257 10.1016/j.apcatb.2019.118257 A. Smith, A. Keane, J.A. Dumesic, G.W. Huber, V.M. Zavala, A machine learning framework for the analysis and prediction of catalytic activity from experimental data, Appl. Catal. B 263 (2020) 118257, 10.1016/j.apcatb.2019.118257. [19] J. Mairal F. Bach J. Ponce G. Sapiro Online dictionary learning for sparse coding Proceedings of the 26th Annual International Conference On Machine Learning 2009 689 696 10.1145/1553374.1553463 J. Mairal, F. Bach, J. Ponce, G. Sapiro, Online dictionary learning for sparse coding, in: Proceedings of the 26th Annual International Conference On Machine Learning: pp. 689–696, 10.1145/1553374.1553463 (2023). [20] A.H. Larsen J.J. Mortensen J. Blomqvist I.E. Castelli R. Christensen M. Dułak J. Friis M.N. Groves B. Hammer C. Hargus The atomic simulation environment—A Python library for working with atoms J. Phys. Condens. Matter. 29 2017 273002 10.1088/1361-648X/aa680e A.H. Larsen, J.J. Mortensen, J. Blomqvist, I.E. Castelli, R. Christensen, M. Dułak, J. Friis, M.N. Groves, B. Hammer, C. Hargus, The atomic simulation environment—A Python library for working with atoms, J. Phys. Condens. Matter. 29 (2017) 273002, 10.1088/1361-648X/aa680e. [21] M. Zhong K. Tran Y. Min C. Wang Z. Wang C.-.T. Dinh P. De Luna Z. Yu A.S. Rasouli P. Brodersen Accelerated discovery of CO2 electrocatalysts using active machine learning Nature 581 2020 178 183 10.1038/s41586-020-2242-8 M. Zhong, K. Tran, Y. Min, C. Wang, Z. Wang, C.-.T. Dinh, P. De Luna, Z. Yu, A.S. Rasouli, P. Brodersen, Accelerated discovery of CO2 electrocatalysts using active machine learning, Nature. 581 (2020) 178–183, 10.1038/s41586-020-2242-8. [22] D. Silver T. Hubert J. Schrittwieser I. Antonoglou M. Lai A. Guez M. Lanctot L. Sifre D. Kumaran T. Graepel A general reinforcement learning algorithm that masters chess, shogi, and Go through self-play Science 362 2018 1140 1144 10.1126/science.aar6404 D. Silver, T. Hubert, J. Schrittwieser, I. Antonoglou, M. Lai, A. Guez, M. Lanctot, L. Sifre, D. Kumaran, T. Graepel, A general reinforcement learning algorithm that masters chess, shogi, and Go through self-play, Science 362 (2018) 1140–1144, 10.1126/science.aar6404. [23] X. Xiong T. Zhu Y. Zhu M. Cao J. Xiao L. Li F. Wang C. Fan H. Pei Molecular convolutional neural networks with DNA regulatory circuits Nat. Mach. Intell. 4 2022 625 635 10.1038/s42256-022-00502-7 X. Xiong, T. Zhu, Y. Zhu, M. Cao, J. Xiao, L. Li, F. Wang, C. Fan, H. Pei, Molecular convolutional neural networks with DNA regulatory circuits, Nat. Mach. Intell. 4 (2022) 625–635, 10.1038/s42256-022-00502-7. [24] B. Burger P.M. Maffettone V.V. Gusev C.M. Aitchison Y. Bai X. Wang X. Li B.M. Alston B. Li R. Clowes A mobile robotic chemist Nature 583 2020 237 241 10.1038/s41586-020-2442-2 B. Burger, P.M. Maffettone, V.V. Gusev, C.M. Aitchison, Y. Bai, X. Wang, X. Li, B.M. Alston, B. Li, R. Clowes, A mobile robotic chemist, Nature 583 (2020) 237–241, 10.1038/s41586-020-2442-2. [25] J.J. Burton E. Hyman D.G. Fedak Surface segregation in alloys J. Catal. 37 1975 106 113 10.1016/0021-9517(75)90138-4 J.J. Burton, E. Hyman, D.G. Fedak, Surface segregation in alloys, J. Catal. 37 (1975) 106–113, 10.1016/0021-9517(75)90138-4. [26] M. Salem M.J. Cowan G. Mpourmpakis Predicting segregation energy in single atom alloys using physics and machine learning ACS Omega 7 2022 4471 4481 10.1021/acsomega.1c06337 M. Salem, M.J. Cowan, G. Mpourmpakis, Predicting segregation energy in single atom alloys using physics and machine learning, ACS Omega 7 (2022) 4471–4481, 10.1021/acsomega.1c06337. [27] F.F. Abraham Surface segregation in binary solid solutions: the γ− σ representation Phys. Rev. Lett. 46 1981 546 10.1103/PhysRevLett.46.546 F.F. Abraham, Surface segregation in binary solid solutions: the γ− σ representation, Phys. Rev. Lett. 46 (1981) 546, 10.1103/PhysRevLett.46.546. [28] X. Ma Z. Li L.E.K. Achenie H. Xin Machine-learning-augmented chemisorption model for CO2 electroreduction catalyst screening J. Phys. Chem. Lett. 6 2015 3528 3533 10.1021/acs.jpclett.5b01660 X. Ma, Z. Li, L.E.K. Achenie, H. Xin, Machine-learning-augmented chemisorption model for CO2 electroreduction catalyst screening, J. Phys. Chem. Lett. 6 (2015) 3528–3533, 10.1021/acs.jpclett.5b01660. [29] D. Tomanek A.A. Aligia C.A. Balseiro Calculation of elastic strain and electronic effects on surface segregation Phys. Rev. B 32 1985 5051 10.1103/PhysRevB.32.5051 D. Tomanek, A.A. Aligia, C.A. Balseiro, Calculation of elastic strain and electronic effects on surface segregation, Phys. Rev. B 32 (1985) 5051, 10.1103/PhysRevB.32.5051. [30] H. Yamauchi Surface segregation in jellium binary solid solutions Phys. Rev. B 31 1985 7688 10.1103/PhysRevB.31.7688 H. Yamauchi, Surface segregation in jellium binary solid solutions, Phys. Rev. B 31 (1985) 7688, 10.1103/PhysRevB.31.7688. [31] A. Kiejna Comment on the surface segregation in alkali-metal alloys J. Phys. Condens. Matter 2 1990 6331 10.1088/0953-8984/2/29/012 A. Kiejna, Comment on the surface segregation in alkali-metal alloys, J. Phys. Condens. Matter 2 (1990) 6331, 10.1088/0953-8984/2/29/012. [32] L.E. Murr Interfacial phenomena in metals and alloys first ed. 1975 Addison-Wesley Reading, MA Interfacial phenomena in metals and alloys. [33] A. Ruban B. Hammer P. Stoltze H.L. Skriver J.K. Nørskov Surface electronic structure and reactivity of transition and noble metals J. Mol. Catal. A Chem. 115 1997 421 429 10.1016/S1381-1169(96)00348-2 A. Ruban, B. Hammer, P. Stoltze, H.L. Skriver, J.K. Nørskov, Surface electronic structure and reactivity of transition and noble metals, J. Mol. Catal. A Chem. 115 (1997) 421–429, 10.1016/S1381-1169(96)00348-2 . [34] [dataset] [34] A. Kramida, Y. Ralchenko, J. Reader, NIST Atomic Spectra Database, Standard Reference Data, v5.3, 2015, https://doi.org/10.18434/T4W30F. [35] R.C. Bilodeau M. Scheer H.K. Haugen R.L. Brooks Near-threshold laser spectroscopy of iridium and platinum negative ions: electron affinities and the threshold law Phys. Rev. A 61 1999 012505 10.1103/PhysRevA.61.012505 R.C. Bilodeau, M. Scheer, H.K. Haugen, R.L. Brooks, Near-threshold laser spectroscopy of iridium and platinum negative ions: electron affinities and the threshold law, Phys. Rev. A 61 (1999) 012505, 10.1103/PhysRevA.61.012505. [36] W.W. Porterfield Inorganic Chemistry: a Unified Approach 1984 Addison-Wesley Reading, MA W.W. Porterfield, Inorganic Chemistry: a Unified Approach, Addison-Wesley, Reading, MA, 1984. [37] A.M. James M.P. Lord Macmillan’s Chemical and Physical Data 1992 Pan Macmillan London A.M. James, M.P. Lord, Macmillan's Chemical and Physical Data, Pan Macmillan, London, 1992. [38] B. Johansson N. Mårtensson Core-level binding-energy shifts for the metallic elements Phys. Rev. B 21 1980 4427 10.1103/PhysRevB.21.4427 B. Johansson, N. Mårtensson, Core-level binding-energy shifts for the metallic elements, Phys. Rev. B 21 (1980) 4427, 10.1103/PhysRevB.21.4427. [39] A. Flodstrom R. Nyholm B. Johansson Advances in Surface and Interface Science 1992 Plenum Press New York A. Flodstrom, R. Nyholm, B. Johansson, Advances in Surface and Interface Science, in: Techniques, Plenum Press, New York, 1992. [40] L.S. Shapley Notes On the N-Person Game — II: The Value of an N-Person Game 1951 RAND Corporation 10.7249/RM0670 L.S. Shapley, Notes On the N-Person Game — II: The Value of an N-Person Game, RAND Corporation, Santa Monica, CA, 1951, 10.7249/RM0670. [41] M. Aldén I.A. Abrikosov B. Johansson N.M. Rosengaard H.L. Skriver Self-consistent Green's-function technique for bulk and surface impurity calculations: surface core-level shifts by complete screening Phys. Rev. B 50 1994 5131 10.1103/PhysRevB.50.5131 M. Aldén, I.A. Abrikosov, B. Johansson, N.M. Rosengaard, H.L. Skriver, Self-consistent Green's-function technique for bulk and surface impurity calculations: surface core-level shifts by complete screening, Phys. Rev. B 50 (1994) 5131, 10.1103/PhysRevB.50.5131. [42] L. Farsi N.A. Deskins First principles analysis of surface dependent segregation in bimetallic alloys Phys. Chem. Chem. Phys. 21 2019 23626 23637 10.1039/C9CP03984H L. Farsi, N.A. Deskins, First principles analysis of surface dependent segregation in bimetallic alloys, Phys. Chem. Chem. Phys. 21 (2019) 23626–23637, 10.1039/C9CP03984H. [43] R.T. Hannagan G. Giannakakis M. Flytzani-Stephanopoulos E.C.H. Sykes Single-atom alloy catalysis Chem. Rev. 120 2020 12044 12088 10.1021/acs.chemrev.0c00078 R.T. Hannagan, G. Giannakakis, M. Flytzani-Stephanopoulos, E.C.H. Sykes, Single-atom alloy catalysis, Chem. Rev. 120 (2020) 12044–12088, 10.1021/acs.chemrev.0c00078. [44] K.K. Rao Q.K. Do K. Pham D. Maiti L.C. Grabow Extendable machine learning model for the stability of single atom alloys Top. Catal. 63 2020 728 741 10.1007/s11244-020-01267-2 K.K. Rao, Q.K. Do, K. Pham, D. Maiti, L.C. Grabow, Extendable machine learning model for the stability of single atom alloys, Top. Catal. 63 (2020) 728–741, 10.1007/s11244-020-01267-2. [45] Q. Guan C. Zhu Y. Lin E.I. Vovk X. Zhou Y. Yang H. Yu L. Cao H. Wang X. Zhang X. Liu M. Zhang S. Wei W.X. Li J. Lu Bimetallic monolayer catalyst breaks the activity–selectivity trade-off on metal particle size for efficient chemoselective hydrogenations Nat. Catal. 4 2021 840 849 10.1038/s41929-021-00679-x Q. Guan, C. Zhu, Y. Lin, E.I. Vovk, X. Zhou, Y. Yang, H. Yu, L. Cao, H. Wang, X. Zhang, X. Liu, M. Zhang, S. Wei, W.X. Li, J. Lu, Bimetallic monolayer catalyst breaks the activity–selectivity trade-off on metal particle size for efficient chemoselective hydrogenations, Nat. Catal. 4 (2021) 840–849, 10.1038/s41929-021-00679-x. [46] J.E.S. van der Hoeven J. Jelic L.A. Olthof G. Totarella R.J.A. van Dijk-Moes J.M. Krafft C. Louis F. Studt A. van Blaaderen P.E. de Jongh Unlocking synergy in bimetallic catalysts by core–shell design Nat. Mater. 20 2021 1216 1220 10.1038/s41563-021-00996-3 J.E.S. van der Hoeven, J. Jelic, L.A. Olthof, G. Totarella, R.J.A. van Dijk-Moes, J.M. Krafft, C. Louis, F. Studt, A. van Blaaderen, P.E. de Jongh, Unlocking synergy in bimetallic catalysts by core–shell design, Nat. Mater. 20 (2021) 1216–1220, 10.1038/s41563-021-00996-3. [47] X. Wang Y. Zhu A. Vasileff Y. Jiao S. Chen L. Song B. Zheng Y. Zheng S.Z. Qiao Strain effect in bimetallic electrocatalysts in the hydrogen evolution reaction ACS Energy Lett. 3 2018 1198 1204 10.1021/acsenergylett.8b00454 X. Wang, Y. Zhu, A. Vasileff, Y. Jiao, S. Chen, L. Song, B. Zheng, Y. Zheng, S.Z. Qiao, Strain effect in bimetallic electrocatalysts in the hydrogen evolution reaction, ACS Energy Lett. 3 (2018) 1198–1204, 10.1021/acsenergylett.8b00454. [48] J. Zhu A.O. Elnabawy Z. Lyu M. Xie E.A. Murray Z. Chen W. Jin M. Mavrikakis Y. Xia Facet-controlled Pt–Ir nanocrystals with substantially enhanced activity and durability towards oxygen reduction Mater. Today 35 2020 69 77 10.1016/j.mattod.2019.11.002 J. Zhu, A.O. Elnabawy, Z. Lyu, M. Xie, E.A. Murray, Z. Chen, W. Jin, M. Mavrikakis, Y. Xia, Facet-controlled Pt–Ir nanocrystals with substantially enhanced activity and durability towards oxygen reduction, Mater. Today 35 (2020) 69–77, 10.1016/j.mattod.2019.11.002. [49] C.W. Yang K. Chanda P.H. Lin Y.N. Wang C.W. Liao M.H. Huang Fabrication of Au–Pd core–shell heterostructures with systematic shape evolution using octahedral nanocrystal cores and their catalytic activity J. Am. Chem. Soc. 133 2011 19993 20000 10.1021/ja209121x C.W. Yang, K. Chanda, P.H. Lin, Y.N. Wang, C.W. Liao, M.H. Huang, Fabrication of Au–Pd core–shell heterostructures with systematic shape evolution using octahedral nanocrystal cores and their catalytic activity, J. Am. Chem. Soc. 133 (2011) 19993–20000, 10.1021/ja209121x. [50] A. Oh H. Baik D.S. Choi J.Y. Cheon B. Kim H. Kim S.J. Kwon S.H. Joo Y. Jung K. Lee Skeletal octahedral nanoframe with cartesian coordinates via geometrically precise nanoscale phase segregation in a Pt@Ni core–shell nanocrystal ACS Nano 9 2015 2856 2867 10.1021/nn5068539 A. Oh, H. Baik, D.S. Choi, J.Y. Cheon, B. Kim, H. Kim, S.J. Kwon, S.H. Joo, Y. Jung, K. Lee, Skeletal octahedral nanoframe with cartesian coordinates via geometrically precise nanoscale phase segregation in a Pt@Ni core–shell nanocrystal, ACS Nano 9 (2015) 2856–2867, 10.1021/nn5068539. [51] C. Chen Y. Kang Z. Huo Z. Zhu W. Huang H.L. Xin J.D. Snyder D. Li J.A. Herron M. Mavrikakis Highly crystalline multimetallic nanoframes with three-dimensional electrocatalytic surfaces Science 343 2014 1339 1343 10.1126/science.1249061 C. Chen, Y. Kang, Z. Huo, Z. Zhu, W. Huang, H.L. Xin, J.D. Snyder, D. Li, J.A. Herron, M. Mavrikakis, Highly crystalline multimetallic nanoframes with three-dimensional electrocatalytic surfaces, Science 343 (2014) 1339–1343, 10.1126/science.1249061. [52] S. Chen M. Li M. Gao J. Jin M.A. van Spronsen M.B. Salmeron P. Yang High-performance Pt–Co nanoframes for fuel-cell electrocatalysis Nano Lett. 20 2020 1974 1979 10.1021/acs.nanolett.9b05251 S. Chen, M. Li, M. Gao, J. Jin, M.A. van Spronsen, M.B. Salmeron, P. Yang, High-performance Pt–Co nanoframes for fuel-cell electrocatalysis, Nano Lett. 20 (2020) 1974–1979, 10.1021/acs.nanolett.9b05251. [53] N. Becknell C. Zheng C. Chen Y. Yu P. Yang Synthesis of PtCo3 polyhedral nanoparticles and evolution to Pt3Co nanoframes Surf. Sci. 648 2016 328 332 10.1016/j.susc.2015.09.024 N. Becknell, C. Zheng, C. Chen, Y. Yu, P. Yang, Synthesis of PtCo3 polyhedral nanoparticles and evolution to Pt3Co nanoframes, Surf. Sci. 648 (2016) 328–332, 10.1016/j.susc.2015.09.024. [54] G. Hyun J.T. Song C. Ahn Y. Ham D. Cho J. Oh S. Jeon Hierarchically porous Au nanostructures with interconnected channels for efficient mass transport in electrocatalytic CO2 reduction Proc. Natl. Acad. Sci 117 2020 5680 5685 10.1073/pnas.191883711 G. Hyun, J.T. Song, C. Ahn, Y. Ham, D. Cho, J. Oh, S. Jeon, Hierarchically porous Au nanostructures with interconnected channels for efficient mass transport in electrocatalytic CO2 reduction, Proc. Natl. Acad. Sci. 117 (2020) 5680–5685, 10.1073/pnas.191883711. [55] L. Xiong Z. Sun X. Zhang L. Zhao P. Huang X. Chen H. Jin H. Sun Y. Lian Z. Deng Octahedral gold-silver nanoframes with rich crystalline defects for efficient methanol oxidation manifesting a CO-promoting effect Nat. Commun. 10 2019 1 11 10.1038/s41467-019-11766-w L. Xiong, Z. Sun, X. Zhang, L. Zhao, P. Huang, X. Chen, H. Jin, H. Sun, Y. Lian, Z. Deng, Octahedral gold-silver nanoframes with rich crystalline defects for efficient methanol oxidation manifesting a CO-promoting effect, Nat. Commun. 10 (2019) 1–11, 10.1038/s41467-019-11766-w. [56] J. Ahn D. Wang Y. Ding J. Zhang D. Qin Site-selective carving and Co-deposition: transformation of Ag nanocubes into concave nanocrystals encased by Au–Ag alloy frames ACS Nano 12 2018 298 307 10.1021/acsnano.7b06353 J. Ahn, D. Wang, Y. Ding, J. Zhang, D. Qin, Site-selective carving and Co-deposition: transformation of Ag nanocubes into concave nanocrystals encased by Au–Ag alloy frames, ACS Nano. 12 (2018) 298–307, 10.1021/acsnano.7b06353. [57] M.A. Mahmoud M.A. El-Sayed Gold nanoframes: very high surface plasmon fields and excellent near-infrared sensors J. Am. Chem. Soc. 132 2010 12704 12710 10.1021/ja104532z M.A. Mahmoud, M.A. El-Sayed, Gold nanoframes: very high surface plasmon fields and excellent near-infrared sensors, J. Am. Chem. Soc. 132 (2010) 12704–12710, 10.1021/ja104532z. [58] M. McEachran D. Keogh B. Pietrobon N. Cathcart I. Gourevich N. Coombs V. Kitaev Ultrathin gold nanoframes through surfactant-free templating of faceted pentagonal silver nanoparticles J. Am. Chem. Soc. 133 2011 8066 8069 10.1021/ja111642d M. McEachran, D. Keogh, B. Pietrobon, N. Cathcart, I. Gourevich, N. Coombs, V. Kitaev, Ultrathin gold nanoframes through surfactant-free templating of faceted pentagonal silver nanoparticles, J. Am. Chem. Soc. 133 (2011) 8066–8069, 10.1021/ja111642d.",
+      "scopus-id": "85151256137",
+      "coredata": {
+        "eid": "1-s2.0-S2468823123001827",
+        "dc:description": "Metal alloy catalysts have been known to enhance many essential reactions. Surface-adsorbate interaction of an alloy catalyst depends on the composition and nanostructure of the surface, which can be changed by a phenomenon called surface segregation. Thus, thermodynamic information on the surface segregation is critical to tune the surface-adsorbate interaction, and thus the reactivity of alloy catalysts. Collected 1,366 density functional theory-calculated segregation energies (E segr) from literature were featurized by 19-dimensional inexpensive numerical fingerprint, which represents facet-, site-, and elemental-dependencies. Deep neural network (DNN) model was constructed based on the data. Reasonable interpolative and extrapolative prediction by the DNN was clearly demonstrated using principal component (PC) analysis. On top of that, impact of each feature on the E segr was analyzed by an explainable artificial intelligence approach, giving useful insights for alloy catalyst design based on surface segregation. As an example of the applications, the DNN model was used to explain the formation thermodynamics of site-selective nanosegregated Pt alloy catalyst, and was also used to perform elemental screening to find impurity-host metal combinations feasible to form the nanosegregated alloy catalyst. In addition, the guidance for data collection to improve the DNN model was given by analyzing PC space and performing the weight analysis of PCs.",
+        "openArchiveArticle": "false",
+        "prism:coverDate": "2023-04-15",
+        "openaccessUserLicense": null,
+        "prism:aggregationType": "Journal",
+        "prism:url": "https://api.elsevier.com/content/article/pii/S2468823123001827",
+        "dc:creator": [
+          {
+            "@_fa": "true",
+            "$": "Shin, Dongjae"
+          },
+          {
+            "@_fa": "true",
+            "$": "Choi, Geonyeong"
+          },
+          {
+            "@_fa": "true",
+            "$": "Hong, Charmgil"
+          },
+          {
+            "@_fa": "true",
+            "$": "Han, Jeong Woo"
+          }
+        ],
+        "link": [
+          {
+            "@_fa": "true",
+            "@rel": "self",
+            "@href": "https://api.elsevier.com/content/article/pii/S2468823123001827"
+          },
+          {
+            "@_fa": "true",
+            "@rel": "scidir",
+            "@href": "https://www.sciencedirect.com/science/article/pii/S2468823123001827"
+          }
+        ],
+        "dc:format": "application/json",
+        "openaccessType": null,
+        "pii": "S2468-8231(23)00182-7",
+        "prism:volume": "541",
+        "articleNumber": "113096",
+        "prism:publisher": "Elsevier B.V.",
+        "dc:title": "Surface segregation machine-learned with inexpensive numerical fingerprint for the design of alloy catalysts",
+        "prism:copyright": "© 2023 Elsevier B.V. All rights reserved.",
+        "openaccess": "0",
+        "prism:issn": "24688231",
+        "dcterms:subject": [
+          {
+            "@_fa": "true",
+            "$": "Machine learning"
+          },
+          {
+            "@_fa": "true",
+            "$": "Metal alloy"
+          },
+          {
+            "@_fa": "true",
+            "$": "Surface segregation"
+          },
+          {
+            "@_fa": "true",
+            "$": "Density functional theory"
+          },
+          {
+            "@_fa": "true",
+            "$": "Explainable artificial intelligence"
+          }
+        ],
+        "openaccessArticle": "false",
+        "prism:publicationName": "Molecular Catalysis",
+        "openaccessSponsorType": null,
+        "prism:pageRange": "113096",
+        "pubType": "fla",
+        "prism:coverDisplayDate": "15 April 2023",
+        "prism:doi": "10.1016/j.mcat.2023.113096",
+        "prism:startingPage": "113096",
+        "dc:identifier": "doi:10.1016/j.mcat.2023.113096",
+        "openaccessSponsorName": null
+      },
+      "objects": {
+        "object": [
+          {
+            "@category": "standard",
+            "@height": "821",
+            "@width": "470",
+            "@_fa": "true",
+            "$": "https://api.elsevier.com/content/object/eid/1-s2.0-S2468823123001827-gr3.jpg?httpAccept=%2A%2F%2A",
+            "@multimediatype": "JPEG image file",
+            "@type": "IMAGE-DOWNSAMPLED",
+            "@size": "87408",
+            "@ref": "gr3",
+            "@mimetype": "image/jpeg"
+          },
+          {
+            "@category": "standard",
+            "@height": "797",
+            "@width": "679",
+            "@_fa": "true",
+            "$": "https://api.elsevier.com/content/object/eid/1-s2.0-S2468823123001827-gr4.jpg?httpAccept=%2A%2F%2A",
+            "@multimediatype": "JPEG image file",
+            "@type": "IMAGE-DOWNSAMPLED",
+            "@size": "174994",
+            "@ref": "gr4",
+            "@mimetype": "image/jpeg"
+          },
+          {
+            "@category": "standard",
+            "@height": "475",
+            "@width": "696",
+            "@_fa": "true",
+            "$": "https://api.elsevier.com/content/object/eid/1-s2.0-S2468823123001827-gr1.jpg?httpAccept=%2A%2F%2A",
+            "@multimediatype": "JPEG image file",
+            "@type": "IMAGE-DOWNSAMPLED",
+            "@size": "98810",
+            "@ref": "gr1",
+            "@mimetype": "image/jpeg"
+          },
+          {
+            "@category": "standard",
+            "@height": "538",
+            "@width": "687",
+            "@_fa": "true",
+            "$": "https://api.elsevier.com/content/object/eid/1-s2.0-S2468823123001827-gr2.jpg?httpAccept=%2A%2F%2A",
+            "@multimediatype": "JPEG image file",
+            "@type": "IMAGE-DOWNSAMPLED",
+            "@size": "113954",
+            "@ref": "gr2",
+            "@mimetype": "image/jpeg"
+          },
+          {
+            "@category": "standard",
+            "@height": "245",
+            "@width": "295",
+            "@_fa": "true",
+            "$": "https://api.elsevier.com/content/object/eid/1-s2.0-S2468823123001827-ga1.jpg?httpAccept=%2A%2F%2A",
+            "@multimediatype": "JPEG image file",
+            "@type": "IMAGE-DOWNSAMPLED",
+            "@size": "41811",
+            "@ref": "ga1",
+            "@mimetype": "image/jpeg"
+          },
+          {
+            "@category": "standard",
+            "@height": "715",
+            "@width": "692",
+            "@_fa": "true",
+            "$": "https://api.elsevier.com/content/object/eid/1-s2.0-S2468823123001827-gr5.jpg?httpAccept=%2A%2F%2A",
+            "@multimediatype": "JPEG image file",
+            "@type": "IMAGE-DOWNSAMPLED",
+            "@size": "148575",
+            "@ref": "gr5",
+            "@mimetype": "image/jpeg"
+          },
+          {
+            "@category": "thumbnail",
+            "@height": "163",
+            "@width": "93",
+            "@_fa": "true",
+            "$": "https://api.elsevier.com/content/object/eid/1-s2.0-S2468823123001827-gr3.sml?httpAccept=%2A%2F%2A",
+            "@multimediatype": "GIF image file",
+            "@type": "IMAGE-THUMBNAIL",
+            "@size": "8036",
+            "@ref": "gr3",
+            "@mimetype": "image/gif"
+          },
+          {
+            "@category": "thumbnail",
+            "@height": "164",
+            "@width": "140",
+            "@_fa": "true",
+            "$": "https://api.elsevier.com/content/object/eid/1-s2.0-S2468823123001827-gr4.sml?httpAccept=%2A%2F%2A",
+            "@multimediatype": "GIF image file",
+            "@type": "IMAGE-THUMBNAIL",
+            "@size": "18306",
+            "@ref": "gr4",
+            "@mimetype": "image/gif"
+          },
+          {
+            "@category": "thumbnail",
+            "@height": "149",
+            "@width": "219",
+            "@_fa": "true",
+            "$": "https://api.elsevier.com/content/object/eid/1-s2.0-S2468823123001827-gr1.sml?httpAccept=%2A%2F%2A",
+            "@multimediatype": "GIF image file",
+            "@type": "IMAGE-THUMBNAIL",
+            "@size": "17230",
+            "@ref": "gr1",
+            "@mimetype": "image/gif"
+          },
+          {
+            "@category": "thumbnail",
+            "@height": "164",
+            "@width": "209",
+            "@_fa": "true",
+            "$": "https://api.elsevier.com/content/object/eid/1-s2.0-S2468823123001827-gr2.sml?httpAccept=%2A%2F%2A",
+            "@multimediatype": "GIF image file",
+            "@type": "IMAGE-THUMBNAIL",
+            "@size": "15650",
+            "@ref": "gr2",
+            "@mimetype": "image/gif"
+          },
+          {
+            "@category": "thumbnail",
+            "@height": "164",
+            "@width": "198",
+            "@_fa": "true",
+            "$": "https://api.elsevier.com/content/object/eid/1-s2.0-S2468823123001827-ga1.sml?httpAccept=%2A%2F%2A",
+            "@multimediatype": "GIF image file",
+            "@type": "IMAGE-THUMBNAIL",
+            "@size": "18694",
+            "@ref": "ga1",
+            "@mimetype": "image/gif"
+          },
+          {
+            "@category": "thumbnail",
+            "@height": "164",
+            "@width": "159",
+            "@_fa": "true",
+            "$": "https://api.elsevier.com/content/object/eid/1-s2.0-S2468823123001827-gr5.sml?httpAccept=%2A%2F%2A",
+            "@multimediatype": "GIF image file",
+            "@type": "IMAGE-THUMBNAIL",
+            "@size": "15355",
+            "@ref": "gr5",
+            "@mimetype": "image/gif"
+          },
+          {
+            "@category": "high",
+            "@height": "3640",
+            "@width": "2083",
+            "@_fa": "true",
+            "$": "https://api.elsevier.com/content/object/eid/1-s2.0-S2468823123001827-gr3_lrg.jpg?httpAccept=%2A%2F%2A",
+            "@multimediatype": "JPEG image file",
+            "@type": "IMAGE-HIGH-RES",
+            "@size": "584217",
+            "@ref": "gr3",
+            "@mimetype": "image/jpeg"
+          },
+          {
+            "@category": "high",
+            "@height": "3529",
+            "@width": "3008",
+            "@_fa": "true",
+            "$": "https://api.elsevier.com/content/object/eid/1-s2.0-S2468823123001827-gr4_lrg.jpg?httpAccept=%2A%2F%2A",
+            "@multimediatype": "JPEG image file",
+            "@type": "IMAGE-HIGH-RES",
+            "@size": "1219531",
+            "@ref": "gr4",
+            "@mimetype": "image/jpeg"
+          },
+          {
+            "@category": "high",
+            "@height": "2103",
+            "@width": "3084",
+            "@_fa": "true",
+            "$": "https://api.elsevier.com/content/object/eid/1-s2.0-S2468823123001827-gr1_lrg.jpg?httpAccept=%2A%2F%2A",
+            "@multimediatype": "JPEG image file",
+            "@type": "IMAGE-HIGH-RES",
+            "@size": "775059",
+            "@ref": "gr1",
+            "@mimetype": "image/jpeg"
+          },
+          {
+            "@category": "high",
+            "@height": "2382",
+            "@width": "3044",
+            "@_fa": "true",
+            "$": "https://api.elsevier.com/content/object/eid/1-s2.0-S2468823123001827-gr2_lrg.jpg?httpAccept=%2A%2F%2A",
+            "@multimediatype": "JPEG image file",
+            "@type": "IMAGE-HIGH-RES",
+            "@size": "867186",
+            "@ref": "gr2",
+            "@mimetype": "image/jpeg"
+          },
+          {
+            "@category": "high",
+            "@height": "1085",
+            "@width": "1309",
+            "@_fa": "true",
+            "$": "https://api.elsevier.com/content/object/eid/1-s2.0-S2468823123001827-ga1_lrg.jpg?httpAccept=%2A%2F%2A",
+            "@multimediatype": "JPEG image file",
+            "@type": "IMAGE-HIGH-RES",
+            "@size": "310236",
+            "@ref": "ga1",
+            "@mimetype": "image/jpeg"
+          },
+          {
+            "@category": "high",
+            "@height": "3164",
+            "@width": "3063",
+            "@_fa": "true",
+            "$": "https://api.elsevier.com/content/object/eid/1-s2.0-S2468823123001827-gr5_lrg.jpg?httpAccept=%2A%2F%2A",
+            "@multimediatype": "JPEG image file",
+            "@type": "IMAGE-HIGH-RES",
+            "@size": "1145569",
+            "@ref": "gr5",
+            "@mimetype": "image/jpeg"
+          },
+          {
+            "@category": "standard",
+            "@_fa": "true",
+            "$": "https://api.elsevier.com/content/object/eid/1-s2.0-S2468823123001827-mmc2.xlsx?httpAccept=%2A%2F%2A",
+            "@multimediatype": "Microsoft Excel file",
+            "@type": "APPLICATION",
+            "@size": "151415",
+            "@ref": "mmc2",
+            "@mimetype": "application/excel"
+          },
+          {
+            "@category": "standard",
+            "@_fa": "true",
+            "$": "https://api.elsevier.com/content/object/eid/1-s2.0-S2468823123001827-mmc1.xlsx?httpAccept=%2A%2F%2A",
+            "@multimediatype": "Microsoft Excel file",
+            "@type": "APPLICATION",
+            "@size": "181876",
+            "@ref": "mmc1",
+            "@mimetype": "application/excel"
+          },
+          {
+            "@category": "standard",
+            "@_fa": "true",
+            "$": "https://api.elsevier.com/content/object/eid/1-s2.0-S2468823123001827-mmc4.xlsx?httpAccept=%2A%2F%2A",
+            "@multimediatype": "Microsoft Excel file",
+            "@type": "APPLICATION",
+            "@size": "22610",
+            "@ref": "mmc4",
+            "@mimetype": "application/excel"
+          },
+          {
+            "@category": "standard",
+            "@_fa": "true",
+            "$": "https://api.elsevier.com/content/object/eid/1-s2.0-S2468823123001827-mmc3.xlsx?httpAccept=%2A%2F%2A",
+            "@multimediatype": "Microsoft Excel file",
+            "@type": "APPLICATION",
+            "@size": "139523",
+            "@ref": "mmc3",
+            "@mimetype": "application/excel"
+          },
+          {
+            "@category": "standard",
+            "@_fa": "true",
+            "$": "https://api.elsevier.com/content/object/eid/1-s2.0-S2468823123001827-mmc5.pdf?httpAccept=%2A%2F%2A",
+            "@multimediatype": "Acrobat PDF file",
+            "@type": "APPLICATION",
+            "@size": "1872314",
+            "@ref": "mmc5",
+            "@mimetype": "application/pdf"
+          },
+          {
+            "@category": "thumbnail",
+            "@_fa": "true",
+            "$": "https://api.elsevier.com/content/object/eid/1-s2.0-S2468823123001827-si1.svg?httpAccept=%2A%2F%2A",
+            "@multimediatype": "Scalable Vector Graphics file",
+            "@type": "ALTIMG",
+            "@size": "735",
+            "@ref": "si1",
+            "@mimetype": "image/svg+xml"
+          },
+          {
+            "@category": "thumbnail",
+            "@_fa": "true",
+            "$": "https://api.elsevier.com/content/object/eid/1-s2.0-S2468823123001827-si10.svg?httpAccept=%2A%2F%2A",
+            "@multimediatype": "Scalable Vector Graphics file",
+            "@type": "ALTIMG",
+            "@size": "12581",
+            "@ref": "si10",
+            "@mimetype": "image/svg+xml"
+          },
+          {
+            "@category": "thumbnail",
+            "@_fa": "true",
+            "$": "https://api.elsevier.com/content/object/eid/1-s2.0-S2468823123001827-si11.svg?httpAccept=%2A%2F%2A",
+            "@multimediatype": "Scalable Vector Graphics file",
+            "@type": "ALTIMG",
+            "@size": "718",
+            "@ref": "si11",
+            "@mimetype": "image/svg+xml"
+          },
+          {
+            "@category": "thumbnail",
+            "@_fa": "true",
+            "$": "https://api.elsevier.com/content/object/eid/1-s2.0-S2468823123001827-si12.svg?httpAccept=%2A%2F%2A",
+            "@multimediatype": "Scalable Vector Graphics file",
+            "@type": "ALTIMG",
+            "@size": "3065",
+            "@ref": "si12",
+            "@mimetype": "image/svg+xml"
+          },
+          {
+            "@category": "thumbnail",
+            "@_fa": "true",
+            "$": "https://api.elsevier.com/content/object/eid/1-s2.0-S2468823123001827-si13.svg?httpAccept=%2A%2F%2A",
+            "@multimediatype": "Scalable Vector Graphics file",
+            "@type": "ALTIMG",
+            "@size": "1320",
+            "@ref": "si13",
+            "@mimetype": "image/svg+xml"
+          },
+          {
+            "@category": "thumbnail",
+            "@_fa": "true",
+            "$": "https://api.elsevier.com/content/object/eid/1-s2.0-S2468823123001827-si14.svg?httpAccept=%2A%2F%2A",
+            "@multimediatype": "Scalable Vector Graphics file",
+            "@type": "ALTIMG",
+            "@size": "6552",
+            "@ref": "si14",
+            "@mimetype": "image/svg+xml"
+          },
+          {
+            "@category": "thumbnail",
+            "@_fa": "true",
+            "$": "https://api.elsevier.com/content/object/eid/1-s2.0-S2468823123001827-si15.svg?httpAccept=%2A%2F%2A",
+            "@multimediatype": "Scalable Vector Graphics file",
+            "@type": "ALTIMG",
+            "@size": "6110",
+            "@ref": "si15",
+            "@mimetype": "image/svg+xml"
+          },
+          {
+            "@category": "thumbnail",
+            "@_fa": "true",
+            "$": "https://api.elsevier.com/content/object/eid/1-s2.0-S2468823123001827-si16.svg?httpAccept=%2A%2F%2A",
+            "@multimediatype": "Scalable Vector Graphics file",
+            "@type": "ALTIMG",
+            "@size": "2244",
+            "@ref": "si16",
+            "@mimetype": "image/svg+xml"
+          },
+          {
+            "@category": "thumbnail",
+            "@_fa": "true",
+            "$": "https://api.elsevier.com/content/object/eid/1-s2.0-S2468823123001827-si17.svg?httpAccept=%2A%2F%2A",
+            "@multimediatype": "Scalable Vector Graphics file",
+            "@type": "ALTIMG",
+            "@size": "2937",
+            "@ref": "si17",
+            "@mimetype": "image/svg+xml"
+          },
+          {
+            "@category": "thumbnail",
+            "@_fa": "true",
+            "$": "https://api.elsevier.com/content/object/eid/1-s2.0-S2468823123001827-si18.svg?httpAccept=%2A%2F%2A",
+            "@multimediatype": "Scalable Vector Graphics file",
+            "@type": "ALTIMG",
+            "@size": "4400",
+            "@ref": "si18",
+            "@mimetype": "image/svg+xml"
+          },
+          {
+            "@category": "thumbnail",
+            "@_fa": "true",
+            "$": "https://api.elsevier.com/content/object/eid/1-s2.0-S2468823123001827-si19.svg?httpAccept=%2A%2F%2A",
+            "@multimediatype": "Scalable Vector Graphics file",
+            "@type": "ALTIMG",
+            "@size": "4104",
+            "@ref": "si19",
+            "@mimetype": "image/svg+xml"
+          },
+          {
+            "@category": "thumbnail",
+            "@_fa": "true",
+            "$": "https://api.elsevier.com/content/object/eid/1-s2.0-S2468823123001827-si2.svg?httpAccept=%2A%2F%2A",
+            "@multimediatype": "Scalable Vector Graphics file",
+            "@type": "ALTIMG",
+            "@size": "10085",
+            "@ref": "si2",
+            "@mimetype": "image/svg+xml"
+          },
+          {
+            "@category": "thumbnail",
+            "@_fa": "true",
+            "$": "https://api.elsevier.com/content/object/eid/1-s2.0-S2468823123001827-si20.svg?httpAccept=%2A%2F%2A",
+            "@multimediatype": "Scalable Vector Graphics file",
+            "@type": "ALTIMG",
+            "@size": "4409",
+            "@ref": "si20",
+            "@mimetype": "image/svg+xml"
+          },
+          {
+            "@category": "thumbnail",
+            "@_fa": "true",
+            "$": "https://api.elsevier.com/content/object/eid/1-s2.0-S2468823123001827-si21.svg?httpAccept=%2A%2F%2A",
+            "@multimediatype": "Scalable Vector Graphics file",
+            "@type": "ALTIMG",
+            "@size": "1278",
+            "@ref": "si21",
+            "@mimetype": "image/svg+xml"
+          },
+          {
+            "@category": "thumbnail",
+            "@_fa": "true",
+            "$": "https://api.elsevier.com/content/object/eid/1-s2.0-S2468823123001827-si22.svg?httpAccept=%2A%2F%2A",
+            "@multimediatype": "Scalable Vector Graphics file",
+            "@type": "ALTIMG",
+            "@size": "1685",
+            "@ref": "si22",
+            "@mimetype": "image/svg+xml"
+          },
+          {
+            "@category": "thumbnail",
+            "@_fa": "true",
+            "$": "https://api.elsevier.com/content/object/eid/1-s2.0-S2468823123001827-si23.svg?httpAccept=%2A%2F%2A",
+            "@multimediatype": "Scalable Vector Graphics file",
+            "@type": "ALTIMG",
+            "@size": "2617",
+            "@ref": "si23",
+            "@mimetype": "image/svg+xml"
+          },
+          {
+            "@category": "thumbnail",
+            "@_fa": "true",
+            "$": "https://api.elsevier.com/content/object/eid/1-s2.0-S2468823123001827-si24.svg?httpAccept=%2A%2F%2A",
+            "@multimediatype": "Scalable Vector Graphics file",
+            "@type": "ALTIMG",
+            "@size": "4013",
+            "@ref": "si24",
+            "@mimetype": "image/svg+xml"
+          },
+          {
+            "@category": "thumbnail",
+            "@_fa": "true",
+            "$": "https://api.elsevier.com/content/object/eid/1-s2.0-S2468823123001827-si25.svg?httpAccept=%2A%2F%2A",
+            "@multimediatype": "Scalable Vector Graphics file",
+            "@type": "ALTIMG",
+            "@size": "631",
+            "@ref": "si25",
+            "@mimetype": "image/svg+xml"
+          },
+          {
+            "@category": "thumbnail",
+            "@_fa": "true",
+            "$": "https://api.elsevier.com/content/object/eid/1-s2.0-S2468823123001827-si26.svg?httpAccept=%2A%2F%2A",
+            "@multimediatype": "Scalable Vector Graphics file",
+            "@type": "ALTIMG",
+            "@size": "2803",
+            "@ref": "si26",
+            "@mimetype": "image/svg+xml"
+          },
+          {
+            "@category": "thumbnail",
+            "@_fa": "true",
+            "$": "https://api.elsevier.com/content/object/eid/1-s2.0-S2468823123001827-si27.svg?httpAccept=%2A%2F%2A",
+            "@multimediatype": "Scalable Vector Graphics file",
+            "@type": "ALTIMG",
+            "@size": "19187",
+            "@ref": "si27",
+            "@mimetype": "image/svg+xml"
+          },
+          {
+            "@category": "thumbnail",
+            "@_fa": "true",
+            "$": "https://api.elsevier.com/content/object/eid/1-s2.0-S2468823123001827-si28.svg?httpAccept=%2A%2F%2A",
+            "@multimediatype": "Scalable Vector Graphics file",
+            "@type": "ALTIMG",
+            "@size": "1220",
+            "@ref": "si28",
+            "@mimetype": "image/svg+xml"
+          },
+          {
+            "@category": "thumbnail",
+            "@_fa": "true",
+            "$": "https://api.elsevier.com/content/object/eid/1-s2.0-S2468823123001827-si29.svg?httpAccept=%2A%2F%2A",
+            "@multimediatype": "Scalable Vector Graphics file",
+            "@type": "ALTIMG",
+            "@size": "7217",
+            "@ref": "si29",
+            "@mimetype": "image/svg+xml"
+          },
+          {
+            "@category": "thumbnail",
+            "@_fa": "true",
+            "$": "https://api.elsevier.com/content/object/eid/1-s2.0-S2468823123001827-si3.svg?httpAccept=%2A%2F%2A",
+            "@multimediatype": "Scalable Vector Graphics file",
+            "@type": "ALTIMG",
+            "@size": "10589",
+            "@ref": "si3",
+            "@mimetype": "image/svg+xml"
+          },
+          {
+            "@category": "thumbnail",
+            "@_fa": "true",
+            "$": "https://api.elsevier.com/content/object/eid/1-s2.0-S2468823123001827-si30.svg?httpAccept=%2A%2F%2A",
+            "@multimediatype": "Scalable Vector Graphics file",
+            "@type": "ALTIMG",
+            "@size": "8620",
+            "@ref": "si30",
+            "@mimetype": "image/svg+xml"
+          },
+          {
+            "@category": "thumbnail",
+            "@_fa": "true",
+            "$": "https://api.elsevier.com/content/object/eid/1-s2.0-S2468823123001827-si4.svg?httpAccept=%2A%2F%2A",
+            "@multimediatype": "Scalable Vector Graphics file",
+            "@type": "ALTIMG",
+            "@size": "3929",
+            "@ref": "si4",
+            "@mimetype": "image/svg+xml"
+          },
+          {
+            "@category": "thumbnail",
+            "@_fa": "true",
+            "$": "https://api.elsevier.com/content/object/eid/1-s2.0-S2468823123001827-si5.svg?httpAccept=%2A%2F%2A",
+            "@multimediatype": "Scalable Vector Graphics file",
+            "@type": "ALTIMG",
+            "@size": "3162",
+            "@ref": "si5",
+            "@mimetype": "image/svg+xml"
+          },
+          {
+            "@category": "thumbnail",
+            "@_fa": "true",
+            "$": "https://api.elsevier.com/content/object/eid/1-s2.0-S2468823123001827-si6.svg?httpAccept=%2A%2F%2A",
+            "@multimediatype": "Scalable Vector Graphics file",
+            "@type": "ALTIMG",
+            "@size": "4065",
+            "@ref": "si6",
+            "@mimetype": "image/svg+xml"
+          },
+          {
+            "@category": "thumbnail",
+            "@_fa": "true",
+            "$": "https://api.elsevier.com/content/object/eid/1-s2.0-S2468823123001827-si7.svg?httpAccept=%2A%2F%2A",
+            "@multimediatype": "Scalable Vector Graphics file",
+            "@type": "ALTIMG",
+            "@size": "1802",
+            "@ref": "si7",
+            "@mimetype": "image/svg+xml"
+          },
+          {
+            "@category": "thumbnail",
+            "@_fa": "true",
+            "$": "https://api.elsevier.com/content/object/eid/1-s2.0-S2468823123001827-si8.svg?httpAccept=%2A%2F%2A",
+            "@multimediatype": "Scalable Vector Graphics file",
+            "@type": "ALTIMG",
+            "@size": "5807",
+            "@ref": "si8",
+            "@mimetype": "image/svg+xml"
+          },
+          {
+            "@category": "thumbnail",
+            "@_fa": "true",
+            "$": "https://api.elsevier.com/content/object/eid/1-s2.0-S2468823123001827-si9.svg?httpAccept=%2A%2F%2A",
+            "@multimediatype": "Scalable Vector Graphics file",
+            "@type": "ALTIMG",
+            "@size": "6315",
+            "@ref": "si9",
+            "@mimetype": "image/svg+xml"
+          },
+          {
+            "@category": "standard",
+            "@_fa": "true",
+            "$": "https://api.elsevier.com/content/object/eid/1-s2.0-S2468823123001827-am.pdf?httpAccept=%2A%2F%2A",
+            "@multimediatype": "Acrobat PDF file",
+            "@type": "AAM-PDF",
+            "@size": "2225163",
+            "@ref": "am",
+            "@mimetype": "application/pdf"
+          }
+        ]
+      },
+      "link": {
+        "@rel": "abstract",
+        "@href": "https://api.elsevier.com/content/abstract/scopus_id/85151256137"
+      }
+    }
+  }
+}

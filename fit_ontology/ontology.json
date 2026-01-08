@@ -1,0 +1,197 @@
+{
+    "ontology": {
+        "name": "SynthesisOntology",
+        "version": "1.0"
+    },
+    "classes": {
+        "ChemicalEntity": {
+            "label": "ChemicalEntity",
+            "children": [
+                "InorganicMaterial",
+                "Precursor",
+                "Solvent",
+                "Media",
+                "Abrasive",
+                "Product",
+                "Additive"
+            ]
+        },
+        "InorganicMaterial": {
+            "label": "InorganicMaterial",
+            "parent": "ChemicalEntity",
+            "description": "무기물"
+        },
+        "Precursor": {
+            "label": "Precursor",
+            "parent": "ChemicalEntity",
+            "description": "각 step의 input"
+        },
+        "Solvent": {
+            "label": "Solvent",
+            "parent": "ChemicalEntity",
+            "description": "각 step에서 사용할 용매"
+        },
+        "Media": {
+            "label": "Media",
+            "parent": "ChemicalEntity",
+            "description": "각 step에서 mixing, dispersion, reaction environment 용 재료"
+        },
+        "Abrasive": {
+            "label": "Abrasive",
+            "parent": "ChemicalEntity",
+            "description": "각 step에서 polishing 단계에서 사용하는 solid"
+        },
+        "Product": {
+            "label": "Product",
+            "parent": "ChemicalEntity",
+            "description": "각 step의 output"
+        },
+        "Additive": {
+            "label": "Additive",
+            "parent": "ChemicalEntity",
+            "description": "각 step에 들어갈 수 있는 첨가제"
+        },
+        "Process": {
+            "label": "Process",
+            "children": [
+                "SynthesisMethod",
+                "SynthesisStep"
+            ]
+        },
+        "SynthesisMethod": {
+            "label": "SynthesisMethod",
+            "parent": "Process",
+            "description": "step 시퀀스의 루트 노드, method 번호는 data property로"
+        },
+        "SynthesisStep": {
+            "label": "SynthesisStep",
+            "parent": "Process",
+            "description": "각 합성 step"
+        },
+        "ConditionSet": {
+            "label": "ConditionSet",
+            "children": [
+                "Condition"
+            ]
+        },
+        "Condition": {
+            "label": "Condition",
+            "parent": "ConditionSet",
+            "description": "각 step의 조건"
+        }
+    },
+    "objectProperties": {
+        "usesPrecursor": {
+            "domain": "SynthesisStep",
+            "range": "Precursor",
+            "description": "해당 step의 input은 무엇인가"
+        },
+        "usesSolvent": {
+            "domain": "SynthesisStep",
+            "range": "Solvent",
+            "description": "해당 step에서 투입하는 용매"
+        },
+        "producesProduct": {
+            "domain": "SynthesisStep",
+            "range": "Product",
+            "description": "해당 step에서 생성되는 생성물"
+        },
+        "usesAdditive": {
+            "domain": "SynthesisStep",
+            "range": "Additive",
+            "description": "해당 step에서 투입할 첨가제"
+        },
+        "usesMedia": {
+            "domain": "SynthesisStep",
+            "range": "Media",
+            "description": "해당 step에서 투입할 media"
+        },
+        "usesAbrasive": {
+            "domain": "SynthesisStep",
+            "range": "Abrasive",
+            "description": "해당 step에서 투입할 abrasive"
+        },
+        "hasSynthesisMethod": {
+            "domain": "InorganicMaterial",
+            "range": "SynthesisMethod",
+            "description": "무기물에서 뻗어나오는 합성법들"
+        },
+        "performedUnder": {
+            "domain": "SynthesisStep",
+            "range": "Condition",
+            "description": "각 step의 조건들"
+        },
+        "nextStep": {
+            "domain": "SynthesisStep",
+            "range": "SynthesisStep",
+            "description": "다음 step"
+        },
+        "consistOfStep": {
+            "domain": "SynthesisMethod",
+            "range": "SynthesisStep",
+            "description": "method 루트노드에서 첫 노드로 이동하는 프로퍼티"
+        }
+    },
+    "dataProperties": {
+        "hasName": {
+            "domain": "ChemicalEntity",
+            "range": "xsd:string",
+            "description": "이름 필요한 애들"
+        },
+        "hasAcronym": {
+            "domain": "InorganicMaterial",
+            "range": "xsd:string",
+            "description": "약어 있다면 같이 저장"
+        },
+        "hasPhase": {
+            "domain": "InorganicMaterial",
+            "range": "xsd:string",
+            "description": "결정상 또는 구조 유형 저장"
+        },
+        "isOxygenDeficiency": {
+            "domain": "InorganicMaterial",
+            "range": "xsd:float",
+            "description": "normal보다 산소가 얼마 정도 결함되어 있는가"
+        },
+        "hasReaction": {
+            "domain": "InorganicMaterial",
+            "range": "xsd:string",
+            "description": "반응 화학식 저장"
+        },
+        "hasID": {
+            "domain": "SynthesisMethod",
+            "range": "xsd:integer",
+            "description": "method 여러 개라면 구분 위해서 정수 id"
+        },
+        "hasTemperature": {
+            "domain": "Condition",
+            "range": "xsd:string",
+            "description": "온도(string이라 단위포함)"
+        },
+        "hasTime": {
+            "domain": "Condition",
+            "range": "xsd:string",
+            "description": "시간(string이라 단위포함)"
+        },
+        "haspH": {
+            "domain": "Condition",
+            "range": "xsd:string",
+            "description": "pH(string이라 단위포함)"
+        },
+        "hasPressure": {
+            "domain": "Condition",
+            "range": "xsd: string",
+            "description": "압력(string이라 단위포함)"
+        },
+        "hasAction": {
+            "domain": "SynthesisStep",
+            "range": "xsd:string",
+            "description": "각 synthesisstep에서 어떤 반응 또는 어떤 일을 일으키는가 (ex. Calcination)"
+        },
+        "hasNote": {
+            "domain": "SynthesisStep",
+            "range": "xsd:string",
+            "description": "각 step별 기타 특이사항 (시약 투입량 등)"
+        }
+    }
+}

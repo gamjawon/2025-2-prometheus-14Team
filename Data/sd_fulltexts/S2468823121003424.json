@@ -1,0 +1,928 @@
+{
+  "metadata": {
+    "title": "Insights on the Catalytic Active Site for CO<ce:inf loc=post>2</ce:inf> Reduction on Copper-based Catalyst: A DFT study",
+    "authors": "; ; ",
+    "journal": "Molecular Catalysis",
+    "date": "2021-07-31",
+    "doi": "10.1016/j.mcat.2021.111725",
+    "abstract": "",
+    "uri": "https://api.elsevier.com/content/article/pii/S2468823121003424",
+    "pii": "S2468823121003424"
+  },
+  "fulltext": {
+    "full-text-retrieval-response": {
+      "scopus-eid": "2-s2.0-85111024904",
+      "originalText": "serial JL 315758 291210 291744 291790 291809 31 Molecular Catalysis MOLECULARCATALYSIS 2021-07-09 2021-07-09 2021-07-09 2021-07-09 2021-09-21T23:55:52 1-s2.0-S2468823121003424 S2468-8231(21)00342-4 S2468823121003424 10.1016/j.mcat.2021.111725 S300 S300.1 FULL-TEXT 1-s2.0-S2468823121X00119 2022-12-12T23:36:21.627889Z 0 0 20210701 20210731 2021 2021-07-09T10:40:26.896926Z absattachment articleinfo articlenumber articletitlenorm authfirstinitialnorm authfirstsurnamenorm cid cids contenttype copyright crossmark dateloaded dateloadedtxt datesearch datesort dateupdated dco docsubtype doctype doi eid ewtransactionid hubeid indexeddate issn issnnorm itemstage itemtransactionid itemweight openaccess openarchive pg pgfirst pii piinorm pubdateend pubdatestart pubdatetxt pubyr sectiontitle sortorder srctitle srctitlenorm srctype ssids alllist content subj subheadings suppl tomb volfirst volissue volumelist webpdf webpdfpagecount yearnav figure table e-component body acknowledge affil appendices articletitle auth authfirstini authfull authkeywords authlast highlightsabst orcid primabst ref specialabst 2468-8231 24688231 true 511 511 C Volume 511 14 111725 111725 111725 202107 July 2021 2021-07-01 2021-07-31 2021 Regular Papers article fla © 2021 Elsevier B.V. All rights reserved. INSIGHTSCATALYTICACTIVESITEFORCO2REDUCTIONCOPPERBASEDCATALYSTADFTSTUDY GUAN Y 1 Introduction 2 Computational details 3 Results and discussion 3.1 Adsorption of reaction species 3.2 Kinetics for CO2 reduction 3.2.1 CO2 dissociation to CO* (R1) 3.2.2 CO2 hydrogenation to COOH* (R2) 3.2.3 COOH* dissociation to CO* and OH* (R3) 3.2.4 COOH* hydrogenation to CO* and H2O* (R4) 3.2.5 CO2* hydrogenation to HCOO* (R5) 3.2.6 HCOO* hydrogenation to HCOOH* (R6) 3.2.7 HCOOH* dissociation to HCO*+OH* (R7) 3.3 Kinetics for CO hydrogenation to CH3OH 3.3.1 Electronic structure analysis 3.3.1 CO* hydrogenation to HCO* (R8) 3.3.2 HCO* hydrogenation to CH2O* (R9) 3.3.3 CH2O* hydrogenation to CH3O* (R10) 3.3.4 CH3O* hydrogenation to CH3OH* (R11) 3.3.5 CO* hydrogenation to COH* (R12) 3.3.6 COH* hydrogenation to CHOH* (R13) 3.3.7 CHOH* hydrogenation to CH2OH* (R14) 3.3.8 CH2OH* hydrogenation to CH3OH* (R15) 3.3.9 Hydrogen evolution reaction (R16) 3.4 General discussion 3.4.1 CO2 reduction to CO 3.5.2 CH3OH production from CO* hydrogenation 3.5.3 Dynamic analysis of CO2 reduction to CH3OH 4 Conclusions CRediT authorship contribution statement Acknowledgments Appendix Supplementary materials Reference SONG 2006 2 32 C ZHAO 2011 199 211 Y YANG 2010 9909 9917 Y DOU 2018 7 12 M KATTEL 2017 1296 1299 S POROSOFF 2013 30 37 M STUDT 2014 320 324 F COKOJA 2011 8510 8537 M BENSON 2009 89 99 E CENTI 2013 1711 1731 G GAWANDE 2016 3722 3811 M HANDOKO 2016 20058 20067 A SCHEDELNIEDRIG 2000 2407 2417 T BOTTGER 2000 1870 1876 I MISHRA 2016 2198 2214 A LIU 2017 59 65 Y KRESSE 1996 11169 G KRESSE 1996 15 50 G KRESSE 1999 1758 1775 G WHITE 1994 4954(R) J PERDEW 1996 3865 3868 J SHISHKIN 2008 19662 19669 M REN 2017 374 384 B VONBARTH 1972 1629 U DUDAREV 1998 1505 S NOLAN 2006 5350 5358 M EKUMA 2014 23 C HENKELMAN 2000 9901 9904 G LIU 2019 26 36 L SUN 2015 21806 21811 S ZIJLSTRA 2020 135665 B OUYANG 2020 10305 10313 T BOWKER 1988 263 273 M NESA 2020 110536 M GUANX2021X111725 GUANX2021X111725XY 2023-07-09T00:00:00.000Z 2023-07-09T00:00:00.000Z http://creativecommons.org/licenses/by-nc-nd/4.0/ © 2021 Elsevier B.V. All rights reserved. 2021-07-28T05:02:41.581Z http://vtw.elsevier.com/data/voc/AddOnTypes/50.7/aggregated-refined National Natural Science Foundation of China 21802031 21978063 NSFC National Natural Science Foundation of China http://data.elsevier.com/vocabulary/SciValFunders/501100001809 http://sws.geonames.org/1814991/ Natural Science Foundation of Hebei Province B2020202069 Natural Science Foundation of Hebei Province http://data.elsevier.com/vocabulary/SciValFunders/501100003787 http://sws.geonames.org/1814991/ The authors thank the financial support from Natural Science Foundation of Hebei Province (B2020202069) and the National Natural Science Foundation of China (21802031, 21978063). 0 https://doi.org/10.15223/policy-017 https://doi.org/10.15223/policy-037 https://doi.org/10.15223/policy-012 https://doi.org/10.15223/policy-029 https://doi.org/10.15223/policy-004 item S2468-8231(21)00342-4 S2468823121003424 1-s2.0-S2468823121003424 10.1016/j.mcat.2021.111725 315758 2021-09-21T23:13:22.414864Z 2021-07-01 2021-07-31 1-s2.0-S2468823121003424-main.pdf https://s3-eu-west-1.amazonaws.com/prod-ucs-content-store-eu-west/content/pii:S2468823121003424/MAIN/application/pdf/19ee437c4f863aacdce85d5ecec620a8/main.pdf main.pdf pdf true 10398878 MAIN 14 1-s2.0-S2468823121003424-main_1.png https://s3-eu-west-1.amazonaws.com/prod-ucs-content-store-eu-west/content/pii:S2468823121003424/PREVIEW/image/png/bb1a474f57bdcb7c24a07fee3ab4a4be/main_1.png main_1.png png 59916 849 656 IMAGE-WEB-PDF 1 1-s2.0-S2468823121003424-gr18.jpg https://s3-eu-west-1.amazonaws.com/prod-ucs-content-store-eu-west/content/pii:S2468823121003424/gr18/DOWNSAMPLED/image/jpeg/8df46ef7b0b46ff861eaa2be41a308f1/gr18.jpg gr18 gr18.jpg jpg 54450 297 491 IMAGE-DOWNSAMPLED 1-s2.0-S2468823121003424-gr17.jpg https://s3-eu-west-1.amazonaws.com/prod-ucs-content-store-eu-west/content/pii:S2468823121003424/gr17/DOWNSAMPLED/image/jpeg/a7fbcc26b0df2a4aa0fc3e5357b5cb1e/gr17.jpg gr17 gr17.jpg jpg 51458 338 489 IMAGE-DOWNSAMPLED 1-s2.0-S2468823121003424-gr16.jpg https://s3-eu-west-1.amazonaws.com/prod-ucs-content-store-eu-west/content/pii:S2468823121003424/gr16/DOWNSAMPLED/image/jpeg/d15a2528610068359e2660770b70b1b0/gr16.jpg gr16 gr16.jpg jpg 53709 309 491 IMAGE-DOWNSAMPLED 1-s2.0-S2468823121003424-gr15.jpg https://s3-eu-west-1.amazonaws.com/prod-ucs-content-store-eu-west/content/pii:S2468823121003424/gr15/DOWNSAMPLED/image/jpeg/02488cdf254d2266254a4a2e5025f33e/gr15.jpg gr15 gr15.jpg jpg 46470 269 489 IMAGE-DOWNSAMPLED 1-s2.0-S2468823121003424-gr19.jpg https://s3-eu-west-1.amazonaws.com/prod-ucs-content-store-eu-west/content/pii:S2468823121003424/gr19/DOWNSAMPLED/image/jpeg/63a724a9ff9201fd0f7cde7b164ce38b/gr19.jpg gr19 gr19.jpg jpg 31035 236 470 IMAGE-DOWNSAMPLED 1-s2.0-S2468823121003424-gr10.jpg https://s3-eu-west-1.amazonaws.com/prod-ucs-content-store-eu-west/content/pii:S2468823121003424/gr10/DOWNSAMPLED/image/jpeg/a454c2446b8132d83a613af8e0b747df/gr10.jpg gr10 gr10.jpg jpg 112722 486 753 IMAGE-DOWNSAMPLED 1-s2.0-S2468823121003424-gr21.jpg https://s3-eu-west-1.amazonaws.com/prod-ucs-content-store-eu-west/content/pii:S2468823121003424/gr21/DOWNSAMPLED/image/jpeg/8117d060b1227d1887d4d5b41cf7a64e/gr21.jpg gr21 gr21.jpg jpg 63822 346 639 IMAGE-DOWNSAMPLED 1-s2.0-S2468823121003424-gr20.jpg https://s3-eu-west-1.amazonaws.com/prod-ucs-content-store-eu-west/content/pii:S2468823121003424/gr20/DOWNSAMPLED/image/jpeg/4f571ef391247732479d97c14bdc1b6d/gr20.jpg gr20 gr20.jpg jpg 46323 302 602 IMAGE-DOWNSAMPLED 1-s2.0-S2468823121003424-gr2.jpg https://s3-eu-west-1.amazonaws.com/prod-ucs-content-store-eu-west/content/pii:S2468823121003424/gr2/DOWNSAMPLED/image/jpeg/a240205be8306451050c7a59a5a98706/gr2.jpg gr2 gr2.jpg jpg 165032 442 753 IMAGE-DOWNSAMPLED 1-s2.0-S2468823121003424-gr14.jpg https://s3-eu-west-1.amazonaws.com/prod-ucs-content-store-eu-west/content/pii:S2468823121003424/gr14/DOWNSAMPLED/image/jpeg/c58e9765a441dfa658532f5c3e3a153a/gr14.jpg gr14 gr14.jpg jpg 52098 323 489 IMAGE-DOWNSAMPLED 1-s2.0-S2468823121003424-gr3.jpg https://s3-eu-west-1.amazonaws.com/prod-ucs-content-store-eu-west/content/pii:S2468823121003424/gr3/DOWNSAMPLED/image/jpeg/e7a83af497da4a651825850ddab97b1c/gr3.jpg gr3 gr3.jpg jpg 25336 244 491 IMAGE-DOWNSAMPLED 1-s2.0-S2468823121003424-gr13.jpg https://s3-eu-west-1.amazonaws.com/prod-ucs-content-store-eu-west/content/pii:S2468823121003424/gr13/DOWNSAMPLED/image/jpeg/b096d1736edcb4c4c258d1c27eb90e41/gr13.jpg gr13 gr13.jpg jpg 50749 308 489 IMAGE-DOWNSAMPLED 1-s2.0-S2468823121003424-gr12.jpg https://s3-eu-west-1.amazonaws.com/prod-ucs-content-store-eu-west/content/pii:S2468823121003424/gr12/DOWNSAMPLED/image/jpeg/1cd72f177370979b1f689242933836e6/gr12.jpg gr12 gr12.jpg jpg 50095 312 491 IMAGE-DOWNSAMPLED 1-s2.0-S2468823121003424-gr1.jpg https://s3-eu-west-1.amazonaws.com/prod-ucs-content-store-eu-west/content/pii:S2468823121003424/gr1/DOWNSAMPLED/image/jpeg/4683269393097acb8ed7d5cd1816d541/gr1.jpg gr1 gr1.jpg jpg 56933 184 565 IMAGE-DOWNSAMPLED 1-s2.0-S2468823121003424-gr11.jpg https://s3-eu-west-1.amazonaws.com/prod-ucs-content-store-eu-west/content/pii:S2468823121003424/gr11/DOWNSAMPLED/image/jpeg/9be15c0a8b832dd4fcfeb8d01afe18b1/gr11.jpg gr11 gr11.jpg jpg 47506 318 489 IMAGE-DOWNSAMPLED 1-s2.0-S2468823121003424-gr6.jpg https://s3-eu-west-1.amazonaws.com/prod-ucs-content-store-eu-west/content/pii:S2468823121003424/gr6/DOWNSAMPLED/image/jpeg/35db3677d167ebac5f0f5ad5504e2d67/gr6.jpg gr6 gr6.jpg jpg 37098 248 489 IMAGE-DOWNSAMPLED 1-s2.0-S2468823121003424-gr7.jpg https://s3-eu-west-1.amazonaws.com/prod-ucs-content-store-eu-west/content/pii:S2468823121003424/gr7/DOWNSAMPLED/image/jpeg/3f070c7b5511d4f7ea5b3ac657687525/gr7.jpg gr7 gr7.jpg jpg 36238 249 491 IMAGE-DOWNSAMPLED 1-s2.0-S2468823121003424-gr4.jpg https://s3-eu-west-1.amazonaws.com/prod-ucs-content-store-eu-west/content/pii:S2468823121003424/gr4/DOWNSAMPLED/image/jpeg/b8b77fae5768951d7e1e2f4110d22f59/gr4.jpg gr4 gr4.jpg jpg 33394 275 491 IMAGE-DOWNSAMPLED 1-s2.0-S2468823121003424-gr5.jpg https://s3-eu-west-1.amazonaws.com/prod-ucs-content-store-eu-west/content/pii:S2468823121003424/gr5/DOWNSAMPLED/image/jpeg/ecc5bb707e1352f8cdb97402bd448ff3/gr5.jpg gr5 gr5.jpg jpg 34092 251 489 IMAGE-DOWNSAMPLED 1-s2.0-S2468823121003424-gr8.jpg https://s3-eu-west-1.amazonaws.com/prod-ucs-content-store-eu-west/content/pii:S2468823121003424/gr8/DOWNSAMPLED/image/jpeg/94daaa03b14624bae3c463fa6da64f56/gr8.jpg gr8 gr8.jpg jpg 38707 272 489 IMAGE-DOWNSAMPLED 1-s2.0-S2468823121003424-gr9.jpg https://s3-eu-west-1.amazonaws.com/prod-ucs-content-store-eu-west/content/pii:S2468823121003424/gr9/DOWNSAMPLED/image/jpeg/6693bb52deed7bf885803087b1f654f7/gr9.jpg gr9 gr9.jpg jpg 36315 250 489 IMAGE-DOWNSAMPLED 1-s2.0-S2468823121003424-ga1.jpg https://s3-eu-west-1.amazonaws.com/prod-ucs-content-store-eu-west/content/pii:S2468823121003424/ga1/DOWNSAMPLED/image/jpeg/c516b8f609aada95199246e67d701259/ga1.jpg ga1 true ga1.jpg jpg 25997 142 301 IMAGE-DOWNSAMPLED 1-s2.0-S2468823121003424-gr18.sml https://s3-eu-west-1.amazonaws.com/prod-ucs-content-store-eu-west/content/pii:S2468823121003424/gr18/THUMBNAIL/image/gif/6de952ab432dc574fbec84a1d96e76fa/gr18.sml gr18 gr18.sml sml 11913 132 219 IMAGE-THUMBNAIL 1-s2.0-S2468823121003424-gr17.sml https://s3-eu-west-1.amazonaws.com/prod-ucs-content-store-eu-west/content/pii:S2468823121003424/gr17/THUMBNAIL/image/gif/57f3e5c3616eed44cf3f349475719b6b/gr17.sml gr17 gr17.sml sml 12199 151 219 IMAGE-THUMBNAIL 1-s2.0-S2468823121003424-gr16.sml https://s3-eu-west-1.amazonaws.com/prod-ucs-content-store-eu-west/content/pii:S2468823121003424/gr16/THUMBNAIL/image/gif/f6386d491d7154ac94fc94bc29ddfcbe/gr16.sml gr16 gr16.sml sml 11515 138 219 IMAGE-THUMBNAIL 1-s2.0-S2468823121003424-gr15.sml https://s3-eu-west-1.amazonaws.com/prod-ucs-content-store-eu-west/content/pii:S2468823121003424/gr15/THUMBNAIL/image/gif/31047a0c1f1c0552e9a260bb3156b4fb/gr15.sml gr15 gr15.sml sml 11732 121 219 IMAGE-THUMBNAIL 1-s2.0-S2468823121003424-gr19.sml https://s3-eu-west-1.amazonaws.com/prod-ucs-content-store-eu-west/content/pii:S2468823121003424/gr19/THUMBNAIL/image/gif/1a23483f3c100ab9473a97eef88263f7/gr19.sml gr19 gr19.sml sml 8517 110 219 IMAGE-THUMBNAIL 1-s2.0-S2468823121003424-gr10.sml https://s3-eu-west-1.amazonaws.com/prod-ucs-content-store-eu-west/content/pii:S2468823121003424/gr10/THUMBNAIL/image/gif/42724e97dca31ec6aa43c74751216f1a/gr10.sml gr10 gr10.sml sml 14043 141 219 IMAGE-THUMBNAIL 1-s2.0-S2468823121003424-gr21.sml https://s3-eu-west-1.amazonaws.com/prod-ucs-content-store-eu-west/content/pii:S2468823121003424/gr21/THUMBNAIL/image/gif/8e5d14d8fce46a29d4ccdafc3ea05a7e/gr21.sml gr21 gr21.sml sml 9345 119 219 IMAGE-THUMBNAIL 1-s2.0-S2468823121003424-gr20.sml https://s3-eu-west-1.amazonaws.com/prod-ucs-content-store-eu-west/content/pii:S2468823121003424/gr20/THUMBNAIL/image/gif/4f1fb770807339e3d752d263cedd7ec4/gr20.sml gr20 gr20.sml sml 8828 110 219 IMAGE-THUMBNAIL 1-s2.0-S2468823121003424-gr2.sml https://s3-eu-west-1.amazonaws.com/prod-ucs-content-store-eu-west/content/pii:S2468823121003424/gr2/THUMBNAIL/image/gif/63194e9f8053dc851eda309686abfef8/gr2.sml gr2 gr2.sml sml 18836 129 219 IMAGE-THUMBNAIL 1-s2.0-S2468823121003424-gr14.sml https://s3-eu-west-1.amazonaws.com/prod-ucs-content-store-eu-west/content/pii:S2468823121003424/gr14/THUMBNAIL/image/gif/87eae03b0beedaa9cc298eb6cd41c17d/gr14.sml gr14 gr14.sml sml 12322 145 219 IMAGE-THUMBNAIL 1-s2.0-S2468823121003424-gr3.sml https://s3-eu-west-1.amazonaws.com/prod-ucs-content-store-eu-west/content/pii:S2468823121003424/gr3/THUMBNAIL/image/gif/a0dd9babefac8ba576024928d55f1af3/gr3.sml gr3 gr3.sml sml 7103 109 219 IMAGE-THUMBNAIL 1-s2.0-S2468823121003424-gr13.sml https://s3-eu-west-1.amazonaws.com/prod-ucs-content-store-eu-west/content/pii:S2468823121003424/gr13/THUMBNAIL/image/gif/ace9b2218cf2a443bc6a817156d7efbf/gr13.sml gr13 gr13.sml sml 11492 138 219 IMAGE-THUMBNAIL 1-s2.0-S2468823121003424-gr12.sml https://s3-eu-west-1.amazonaws.com/prod-ucs-content-store-eu-west/content/pii:S2468823121003424/gr12/THUMBNAIL/image/gif/daf1cade2e8774e4934496eeb3e9119c/gr12.sml gr12 gr12.sml sml 11316 139 219 IMAGE-THUMBNAIL 1-s2.0-S2468823121003424-gr1.sml https://s3-eu-west-1.amazonaws.com/prod-ucs-content-store-eu-west/content/pii:S2468823121003424/gr1/THUMBNAIL/image/gif/86191dd262b8f92cddc0c5ebf30d2b4b/gr1.sml gr1 gr1.sml sml 12089 71 219 IMAGE-THUMBNAIL 1-s2.0-S2468823121003424-gr11.sml https://s3-eu-west-1.amazonaws.com/prod-ucs-content-store-eu-west/content/pii:S2468823121003424/gr11/THUMBNAIL/image/gif/e537c356a86c0113c097c16d37cd5b82/gr11.sml gr11 gr11.sml sml 10924 142 219 IMAGE-THUMBNAIL 1-s2.0-S2468823121003424-gr6.sml https://s3-eu-west-1.amazonaws.com/prod-ucs-content-store-eu-west/content/pii:S2468823121003424/gr6/THUMBNAIL/image/gif/e9164d3a5364f743b671a00109c6b9b4/gr6.sml gr6 gr6.sml sml 9775 111 219 IMAGE-THUMBNAIL 1-s2.0-S2468823121003424-gr7.sml https://s3-eu-west-1.amazonaws.com/prod-ucs-content-store-eu-west/content/pii:S2468823121003424/gr7/THUMBNAIL/image/gif/3d02e81c5a496bbc326d02997e29f528/gr7.sml gr7 gr7.sml sml 8775 111 219 IMAGE-THUMBNAIL 1-s2.0-S2468823121003424-gr4.sml https://s3-eu-west-1.amazonaws.com/prod-ucs-content-store-eu-west/content/pii:S2468823121003424/gr4/THUMBNAIL/image/gif/b98fe30d3976dfa3c32115393ae9b3f2/gr4.sml gr4 gr4.sml sml 8838 123 219 IMAGE-THUMBNAIL 1-s2.0-S2468823121003424-gr5.sml https://s3-eu-west-1.amazonaws.com/prod-ucs-content-store-eu-west/content/pii:S2468823121003424/gr5/THUMBNAIL/image/gif/898b583a2538f7273fdab51a7257d503/gr5.sml gr5 gr5.sml sml 8819 112 219 IMAGE-THUMBNAIL 1-s2.0-S2468823121003424-gr8.sml https://s3-eu-west-1.amazonaws.com/prod-ucs-content-store-eu-west/content/pii:S2468823121003424/gr8/THUMBNAIL/image/gif/b4c663f1e75d50cc1b942fc79e0dd4c1/gr8.sml gr8 gr8.sml sml 9420 122 219 IMAGE-THUMBNAIL 1-s2.0-S2468823121003424-gr9.sml https://s3-eu-west-1.amazonaws.com/prod-ucs-content-store-eu-west/content/pii:S2468823121003424/gr9/THUMBNAIL/image/gif/dc114328ae4e6585fb339e9f0b2d853b/gr9.sml gr9 gr9.sml sml 9600 112 219 IMAGE-THUMBNAIL 1-s2.0-S2468823121003424-ga1.sml https://s3-eu-west-1.amazonaws.com/prod-ucs-content-store-eu-west/content/pii:S2468823121003424/ga1/THUMBNAIL/image/gif/a02c15b55e3b83bfe258b5b9cd9ab91d/ga1.sml ga1 true ga1.sml sml 12591 103 219 IMAGE-THUMBNAIL 1-s2.0-S2468823121003424-gr18_lrg.jpg https://s3-eu-west-1.amazonaws.com/prod-ucs-content-store-eu-west/content/pii:S2468823121003424/gr18/HIGHRES/image/jpeg/65007f6e231d20860091f531e61ea0be/gr18_lrg.jpg gr18 gr18_lrg.jpg jpg 415738 1315 2175 IMAGE-HIGH-RES 1-s2.0-S2468823121003424-gr17_lrg.jpg https://s3-eu-west-1.amazonaws.com/prod-ucs-content-store-eu-west/content/pii:S2468823121003424/gr17/HIGHRES/image/jpeg/b6dd506dc12f2d27a41012f1cda9d430/gr17_lrg.jpg gr17 gr17_lrg.jpg jpg 381652 1499 2167 IMAGE-HIGH-RES 1-s2.0-S2468823121003424-gr16_lrg.jpg https://s3-eu-west-1.amazonaws.com/prod-ucs-content-store-eu-west/content/pii:S2468823121003424/gr16/HIGHRES/image/jpeg/5319b3c28582f44f6d77d213c58371f7/gr16_lrg.jpg gr16 gr16_lrg.jpg jpg 386281 1370 2175 IMAGE-HIGH-RES 1-s2.0-S2468823121003424-gr15_lrg.jpg https://s3-eu-west-1.amazonaws.com/prod-ucs-content-store-eu-west/content/pii:S2468823121003424/gr15/HIGHRES/image/jpeg/fab130985f263f0bf9553f90f522dfb9/gr15_lrg.jpg gr15 gr15_lrg.jpg jpg 345976 1194 2167 IMAGE-HIGH-RES 1-s2.0-S2468823121003424-gr19_lrg.jpg https://s3-eu-west-1.amazonaws.com/prod-ucs-content-store-eu-west/content/pii:S2468823121003424/gr19/HIGHRES/image/jpeg/cab612b305662bda38ba8614bc0f3516/gr19_lrg.jpg gr19 gr19_lrg.jpg jpg 219847 1048 2083 IMAGE-HIGH-RES 1-s2.0-S2468823121003424-gr10_lrg.jpg https://s3-eu-west-1.amazonaws.com/prod-ucs-content-store-eu-west/content/pii:S2468823121003424/gr10/HIGHRES/image/jpeg/ae3b84eb37caa2e86f05122229c15612/gr10_lrg.jpg gr10 gr10_lrg.jpg jpg 786661 2149 3333 IMAGE-HIGH-RES 1-s2.0-S2468823121003424-gr21_lrg.jpg https://s3-eu-west-1.amazonaws.com/prod-ucs-content-store-eu-west/content/pii:S2468823121003424/gr21/HIGHRES/image/jpeg/0695e9c5772d33d194b981e44c0cd10c/gr21_lrg.jpg gr21 gr21_lrg.jpg jpg 448284 1532 2831 IMAGE-HIGH-RES 1-s2.0-S2468823121003424-gr20_lrg.jpg https://s3-eu-west-1.amazonaws.com/prod-ucs-content-store-eu-west/content/pii:S2468823121003424/gr20/HIGHRES/image/jpeg/77dd306309d2b239927865a6d7b47d93/gr20_lrg.jpg gr20 gr20_lrg.jpg jpg 330105 1336 2667 IMAGE-HIGH-RES 1-s2.0-S2468823121003424-gr2_lrg.jpg https://s3-eu-west-1.amazonaws.com/prod-ucs-content-store-eu-west/content/pii:S2468823121003424/gr2/HIGHRES/image/jpeg/b66f9eb2140c6555b7d94d8cc03af306/gr2_lrg.jpg gr2 gr2_lrg.jpg jpg 1225614 1958 3333 IMAGE-HIGH-RES 1-s2.0-S2468823121003424-gr14_lrg.jpg https://s3-eu-west-1.amazonaws.com/prod-ucs-content-store-eu-west/content/pii:S2468823121003424/gr14/HIGHRES/image/jpeg/a5edab94b116cc8049b20052fc3bba78/gr14_lrg.jpg gr14 gr14_lrg.jpg jpg 377436 1432 2167 IMAGE-HIGH-RES 1-s2.0-S2468823121003424-gr3_lrg.jpg https://s3-eu-west-1.amazonaws.com/prod-ucs-content-store-eu-west/content/pii:S2468823121003424/gr3/HIGHRES/image/jpeg/c093a1cce01ef4b05a397c3ae7a79492/gr3_lrg.jpg gr3 gr3_lrg.jpg jpg 175828 1079 2175 IMAGE-HIGH-RES 1-s2.0-S2468823121003424-gr13_lrg.jpg https://s3-eu-west-1.amazonaws.com/prod-ucs-content-store-eu-west/content/pii:S2468823121003424/gr13/HIGHRES/image/jpeg/796b1ff6307b7210d5f5c97c3b471771/gr13_lrg.jpg gr13 gr13_lrg.jpg jpg 360792 1364 2167 IMAGE-HIGH-RES 1-s2.0-S2468823121003424-gr12_lrg.jpg https://s3-eu-west-1.amazonaws.com/prod-ucs-content-store-eu-west/content/pii:S2468823121003424/gr12/HIGHRES/image/jpeg/779ef05ebdcee0f1bf27a8f69774a4a4/gr12_lrg.jpg gr12 gr12_lrg.jpg jpg 364876 1381 2175 IMAGE-HIGH-RES 1-s2.0-S2468823121003424-gr1_lrg.jpg https://s3-eu-west-1.amazonaws.com/prod-ucs-content-store-eu-west/content/pii:S2468823121003424/gr1/HIGHRES/image/jpeg/fc6a0390f8d8ea737507acd5f6bd0582/gr1_lrg.jpg gr1 gr1_lrg.jpg jpg 427123 814 2500 IMAGE-HIGH-RES 1-s2.0-S2468823121003424-gr11_lrg.jpg https://s3-eu-west-1.amazonaws.com/prod-ucs-content-store-eu-west/content/pii:S2468823121003424/gr11/HIGHRES/image/jpeg/153ee13b9ea9eab8eae55db79d2bf125/gr11_lrg.jpg gr11 gr11_lrg.jpg jpg 341623 1410 2167 IMAGE-HIGH-RES 1-s2.0-S2468823121003424-gr6_lrg.jpg https://s3-eu-west-1.amazonaws.com/prod-ucs-content-store-eu-west/content/pii:S2468823121003424/gr6/HIGHRES/image/jpeg/6aecbee6e180a91f83d4437a377b8013/gr6_lrg.jpg gr6 gr6_lrg.jpg jpg 257905 1097 2167 IMAGE-HIGH-RES 1-s2.0-S2468823121003424-gr7_lrg.jpg https://s3-eu-west-1.amazonaws.com/prod-ucs-content-store-eu-west/content/pii:S2468823121003424/gr7/HIGHRES/image/jpeg/7fd665253fa56d55a7eafeb6665164e8/gr7_lrg.jpg gr7 gr7_lrg.jpg jpg 260179 1104 2175 IMAGE-HIGH-RES 1-s2.0-S2468823121003424-gr4_lrg.jpg https://s3-eu-west-1.amazonaws.com/prod-ucs-content-store-eu-west/content/pii:S2468823121003424/gr4/HIGHRES/image/jpeg/61e5174c1f7c745e6881ff2f6f555ad4/gr4_lrg.jpg gr4 gr4_lrg.jpg jpg 223469 1218 2175 IMAGE-HIGH-RES 1-s2.0-S2468823121003424-gr5_lrg.jpg https://s3-eu-west-1.amazonaws.com/prod-ucs-content-store-eu-west/content/pii:S2468823121003424/gr5/HIGHRES/image/jpeg/8e9e6a59e35ee27d22ba4f577f0fa3d0/gr5_lrg.jpg gr5 gr5_lrg.jpg jpg 240631 1112 2167 IMAGE-HIGH-RES 1-s2.0-S2468823121003424-gr8_lrg.jpg https://s3-eu-west-1.amazonaws.com/prod-ucs-content-store-eu-west/content/pii:S2468823121003424/gr8/HIGHRES/image/jpeg/c426ca99d4ff0688981f0c93c9abb115/gr8_lrg.jpg gr8 gr8_lrg.jpg jpg 275433 1205 2167 IMAGE-HIGH-RES 1-s2.0-S2468823121003424-gr9_lrg.jpg https://s3-eu-west-1.amazonaws.com/prod-ucs-content-store-eu-west/content/pii:S2468823121003424/gr9/HIGHRES/image/jpeg/8f3aec3f9f1288e12148e978e02eb52d/gr9_lrg.jpg gr9 gr9_lrg.jpg jpg 260890 1106 2167 IMAGE-HIGH-RES 1-s2.0-S2468823121003424-ga1_lrg.jpg https://s3-eu-west-1.amazonaws.com/prod-ucs-content-store-eu-west/content/pii:S2468823121003424/ga1/HIGHRES/image/jpeg/94e26c56fcde9c09b0cfa2cdc7972bd5/ga1_lrg.jpg ga1 true ga1_lrg.jpg jpg 197436 628 1333 IMAGE-HIGH-RES 1-s2.0-S2468823121003424-mmc1.docx https://s3-eu-west-1.amazonaws.com/prod-ucs-content-store-eu-west/content/pii:S2468823121003424/mmc1/MAIN/application/vnd.openxmlformats-officedocument.wordprocessingml.document/b2b5b2dbe5928af4f35cc8b5e4f314d8/mmc1.docx mmc1 mmc1.docx docx 1266773 APPLICATION 1-s2.0-S2468823121003424-am.pdf https://s3-eu-west-1.amazonaws.com/prod-ucs-content-store-eu-west/content/egi:102T8JHPFR4/MAIN/application/pdf/be5742abd7b14d33e010ae0fca336071/am.pdf am am.pdf pdf false 4009369 AAM-PDF MCAT 111725 111725 S2468-8231(21)00342-4 10.1016/j.mcat.2021.111725 Fig. 1 Surface structures and adsorption sites of Cu (111) and CuO (111) surfaces (Red: O atom; Orange: Cu atom). Fig. 1 Fig. 2 The most stable adsorption configurations of all reaction intermediates on Cu (111) and CuO (111) surfaces, and the corresponding adsorption energies (eV) (Red: O; Orange: Cu; gray: C; White: H). Fig. 2 Fig. 3 Energetic diagram of CO2 direct dissociation (R1) with transition states (TS) on Cu (111) and clean CuO (111) surfaces. (Red: O; Orange: Cu; gray: C; White: H). Fig. 3 Fig. 4 Energetic diagram of CO2 hydrogenation to COOH* (R2) and the transition states (TS) on Cu (111) and clean CuO (111) surfaces (Red: O; Orange: Cu; gray: C; White: H). Fig. 4 Fig. 5 Energetic diagram of COOH* dissociation to CO* and OH* (R3) with transition states (TS) on Cu (111) and clean CuO (111) surfaces (Red: O; Orange: Cu; gray: C; White: H). Fig. 5 Fig. 6 Energetic diagram of COOH* reduction to CO* and H2O* (R4) with corresponding transition states (TS) on Cu (111) and clean CuO (111) surfaces (Red: O; Orange: Cu; gray: C; White: H). Fig. 6 Fig. 7 Energetic diagram of CO2 hydrogenation to HCOO* (R5) with corresponding transition states (TS) on Cu (111) and clean CuO (111) surfaces (Red: O; Orange: Cu; gray: C; White: H). Fig. 7 Fig. 8 Energetic diagram of HCOO hydrogenation to HCOOH* (R6) with corresponding transition states (TS) on Cu (111) and clean CuO (111) surfaces (Red: O; Orange: Cu; gray: C; White: H). Fig. 8 Fig. 9 Energetic diagram of HCOOH dissociation to HCO*+OH* (R7) with corresponding transition states (TS) on Cu (111) and clean CuO (111) surfaces (Red: O; Orange: Cu; gray: C; White: H). Fig. 9 Fig. 10 DOS analysis for a) clear CuO (111) and b) H pre-covered CuO (111) surfaces; c) the pDOS of 2p orbital of O on clear CuO (111) and H pre-covered CuO (111) surfaces; d) the pDOS of 3d orbital of Cu on Cu (111), clean CuO (111) and H pre-covered CuO (111) surfaces. Fig. 10 Fig. 11 Energetic diagram of CO* hydrogenation to HCO* (R8) and its transition states (TS) on Cu (111), clean CuO (111) and H pre-covered CuO (111)-HCu surfaces (Red: O; Orange: Cu; gray: C; White: H). Fig. 11 Fig. 12 Energetic diagram of HCO hydrogenation to CH2O (R9) and the transition states (TS) on Cu (111), clean CuO (111) and H pre-covered CuO (111)-HCu surfaces (Red: O; Orange: Cu; gray: C; White: H). Fig. 12 Fig. 13 Energetic diagram of CH2O* hydrogenation to CH3O* (R10) with transition states (TS) on Cu (111), clean CuO (111) and H pre-covered CuO (111)-HCu surfaces (Red: O; Orange: Cu; gray: C; White: H). Fig. 13 Fig. 14 Energetic diagram of CH3O hydrogenation to I-CH3OH (R11) with corresponding transition states (TS) on Cu (111), clean CuO (111) and H-covered CuO (111)-HCu surfaces (Red: O; Orange: Cu; gray: C; White: H). Fig. 14 Fig. 15 Energetic diagram of CO hydrogenation to COH (R12) and the transition states (TS) on Cu (111), clean CuO (111) and H pre-covered CuO (111)-HCu surfaces. (Red: O; Orange: Cu; gray: C; White: H). Fig. 15 Fig. 16 Energetic diagram of COH hydrogenation to CHOH (R13) with corresponding transition states (TS) on Cu (111), clean CuO (111) and H pre-covered CuO (111)-HCu models. (Red: O; Orange: Cu; gray: C; White: H). Fig. 16 Fig. 17 Energetic diagram of CHOH* hydrogenation to CH2OH* (R14) with corresponding transition states (TS) on Cu (111), clean CuO (111) and H pre-covered CuO (111)-HCu models (Red: O; Orange: Cu; gray: C; White: H). Fig. 17 Fig. 18 Energetic diagram of CH2OH* hydrogenation to CH3OH* (R15) with corresponding transition states (TS) on Cu (111), clean CuO (111) and H pre-covered CuO (111)-HCu models (Red: O atom; Orange: Cu; gray: C; White: H). Fig. 18 Fig. 19 Energetic diagram of hydrogenation evolution reaction (R16) with corresponding transition states (TS) on Cu (111) and CuO (111) models (Red: O atom; Orange: Cu; gray: C; White: H). Fig. 19 Fig. 20 The overall potential energy profiles for CO2 reduction to CO on Cu (111) and CuO (111) surfaces. Fig. 20 Fig. 21 The overall potential energy profile for CO hydrogenation to CH3OH (two paths) on Cu (111), clean CuO (111) and H pre-covered CuO (111)-HCu surfaces. Fig. 21 Table 1 The elementary reactions and surface intermediates considered in CO2RR reaction for CH3OH production. Table 1 Step Reaction R1 CO2 (g)→CO*+O* R2 CO2 (g)+H*→COOH* R3 COOH*→CO*+OH* R4 COOH*+H*→CO*+H2O* R5 CO2 (g)+H*→HCOO* R6 HCOO*+H*→HCOOH* R7 HCOOH*→HCO*+OH* R8 CO*+H*→HCO* R9 HCO*+H*→CH2O* R10 CH2O*+H*→CH3O* R11 CH3O*+H*→I-CH3OH* R12 CO*+H*→COH* R13 COH*+H*→CHOH* R14 CHOH*+H*→CH2OH* R15 CH2OH*+H*→II-CH3OH* R16 H*+H*→H2 (g) Insights on the Catalytic Active Site for CO2 Reduction on Copper-based Catalyst: A DFT study Yani Guan Data curation Formal analysis Writing – original draft a Wei Suo Data curation a Zisheng Zhang Conceptualization Writing – review & editing b Yanji Wang Conceptualization Supervision Writing – review & editing a Shujuan Sun Supervision a ⁎ Guihua Liu Conceptualization Methodology Writing – review & editing a ⁎ a Hebei Provincial Key Laboratory of Green Chemical Technology and High Efficient Energy Saving, Tianjin Key Laboratory of Chemical Process Safety, School of Chemical Engineering and Technology, Hebei University of Technology, Tianjin, 300130, China Hebei Provincial Key Laboratory of Green Chemical Technology and High Efficient Energy Saving Tianjin Key Laboratory of Chemical Process Safety School of Chemical Engineering and Technology, Hebei University of Technology Tianjin 300130 China aHebei Provincial Key Laboratory of Green Chemical Technology and High Efficient Energy Saving, Tianjin Key Laboratory of Chemical Process Safety, School of Chemical Engineering and Technology, Hebei University of Technology, Tianjin, 300130, China b Department of Chemical and Biological Engineering, University of Ottawa, Ottawa,ON K1N 6N5, Canada Department of Chemical and Biological Engineering University of Ottawa Ottawa ON K1N 6N5 Canada bDepartment of Chemical and Biological Engineering, University of Ottawa, Ottawa,ON K1N 6N5, Canada ⁎ Corresponding authors. Cu oxide and Cu are widely used catalyst in CO2 reduction reaction (CO2RR) for methanol (CH3OH) production. However, due to the complexity of the oxidation states on catalyst surfaces, the active sites of Cu-based catalysts for CO2RR are still unclear. In this study, density functional theory (DFT) calculations were performed to investigate the active sites for CO2RR reduction into CH3OH on Cu (111) and CuO (111) surface. The most favored adsorption sites and reaction energetics involved in CO2 activation and sequent CO hydrogenation steps for CH3OH formation were determined. It has been found that, for CO2 reduction, the CO2→COOH*→CO* pathway prefers to occur on both Cu (111) and CuO (111) surfaces. More importantly, the analysis reveals that, compared with Cu (111) and clean CuO (111), sequent CO hydrogenation into CH3OH is promoted by the H pre-covered CuO (111), on which the surface H is set on Cu site (HCu). That is, in CO2RR, the catalytic active sites for CH3OH production are the H-covered Cu sites on CuO (111) surface. These new insights on the catalytic active sites for CH3OH production on Cu-based catalyst would potentially guide the design of efficient CO2RR catalysts. Graphical abstract Image, graphical abstract Keywords CO2 reduction Methanol Cu (111) CuO (111) Density functional theory 1 Introduction The increasing emission of CO2 into the atmosphere has caused global warming and possible environmental issues [1–3]. Accordingly, CO2 utilization has attracted significant attention. For example, CO2 can be converted into many valuable C1 products, e.g., CO, methane, methanol [4–7], showing a promising industrial application. Among these C1 chemicals, methanol (CH3OH) is an important chemical as hydrogen energy carriers and raw resource to synthesize other organic compounds for chemical industry [8–10]. Therefore, CO2 reduction reaction (CO2RR) to produce CH3OH is of great significance for CO2 utilization technologies. Copper-based materials are widely used catalysts for CO2 thermochemical reduction to produce CH3OH [11]. Although there have been extensive studies on this catalytic system, the active sites of Cu-based catalysts toward CO2RR is still unclear [12]. For example, it has been reported that the active component for CO2RR is neither Cu oxide nor metal Cu, but a transient phase between the two states [13,14]. In a theoretical study by Mishra et al. [15], it was reported that CuO (111) is active for CO2 adsorption with exothermic reaction energy. In another DFT study, Liu et al. [16] investigated the reaction mechanism of CH3OH production by CO/CO2 hydrogenation on Cu (111) and Cu2O (111) surfaces. That study found that CH3OH formation pathway can be affected by the oxidation state of the Cu catalyst surface. On metallic Cu (111), CH3OH production from CO2 hydrogenation is more favorable, whereas the CO hydrogenation route is favored on Cu2O (111) surface. These studies indicate that both metallic and oxidized Cu surfaces might be active sites for CO2RR reaction, but its reaction pathways vary with the oxidation state of the catalyst. However, the reported theoretical studies have neglected that, during the hydrogenation steps in CO2RR, there would exist two types of surface H* on oxidized Cu surfaces: Cu-H and OH bonding, which will be discussed in detail in the following parts. The formation of Cu-H bonds would come after the OH bonding formation, because the latter is a covalent bonding and more stable than that of Cu-H. Therefore, a realistic picture might be, on oxidized Cu surface, both of the two types of H* would participate into the continuous hydrogenation reaction, but the H* in Cu-H bond might play an essential role due to its weak interaction with Cu, which makes the breaking of the bonding easier and therefore promotes its sequent hydrogenation reaction with CO. In the present study, DFT calculations were performed to investigate the effect of surface oxidation and H surface bonding on the reaction kinetics of CO2RR for CH3OH production. Specifically, the adsorption and kinetics of reaction intermediates involved in this catalytic reaction have been systematically studied on CuO (111) and Cu (111) surfaces. In the CuO (111) surface, clean and H pre-covered models have been considered to investigate the effect of surface H on sequent CO hydrogenation reaction kinetics. The results would provide new insights on the catalytic active sites for CO2RR reduction on Cu-based catalyst. 2 Computational details The DFT calculations were performed using the Vienna Ab initio Simulation Package [17,18]. The projector-augmented wave (PAW) method was applied to deal with the ion-electron interactions [19]. The generalized gradient approximation (GGA) [20] with Perdew-Burke-Ernzerhof (PBE) [21] functional was used. The cut off energy was set to 400 eV, and the Monkforst-Pack k-point mesh of 2 × 2 × 1 k-points was employed [22,23]. The optimization convergences when a Hellmann-Feynman [24] force reaches 0.01 eV/Å. DFT + U method [25] was used to account for the strong on-site Coulomb repulsion among localized Cu 3d electrons in CuO, and the Ueff = 7 eV was adopted [26,27]. The transition state (TS) search was performed using the climbing image nudge-elastic band (CI-NEB) method [28]. The Cu (111) and CuO (111) surfaces were represented using slab models that having four atomic layers with a 3 × 3 and 3 × 2 unit cell, respectively. The H pre-covered CuO (111) was modeled by placing two H atoms on adjacent surface Cu and O sites on clean CuO (111) surface. In all the calculations, the bottom one atomic layer of these slabs was fixed at their bulk positions, and the other layers and the adsorbates were allowed to relax. The vacuum height was set to be 15 Å. The adsorption energy Eads is defined as follow: Eads = Eabsorbates/slab - Eadsorbates - Eslab, where Eabsorbates/slab represents the total energy of surface slabs with adsorbates, Eadsorbates is the energy of free adsorbates, and Eslab is the energy of bare surface slab of Cu (111) or CuO (111). 3 Results and discussion 3.1 Adsorption of reaction species The adsorption of surface reaction intermediates in CO2RR for CH3OH synthesis was first examined. The adsorption energies of all the possible adsorption configurations are shown in Table S1 in the supporting information with the most stable configurations of each intermediate displayed in Fig. 2 . The elementary reactions and surface intermediates considered in this catalytic system are listed in Table 1 . These are the typical reaction steps considered in the study of CO2RR for CH3OH production [16,29]. For each adsorbate, different adsorption sites were considered, such as top, face centered cubic (fcc), hexagonal closed packed (hcp) and bridge sites on Cu (111) surface, “Cusub”, “Cusurf”, “Osub” and “Osurf” sites on CuO (111) surface [15,30]. Note that, “surf” represents a convex layer of surface, and “sub” means a concave layer of surface, see Fig. 1 . CO2 (g). The most stable CO2 adsorption configurations on Cu (111) and CuO (111) surfaces have an adsorption energy of −0.23 eV and −0.24 eV, respectively (Fig. 2 ). The weak interaction between CO2 and Cu-based catalyst surfaces suggests that it is difficult for CO2 molecule to adsorb on both surfaces regardless of the oxidation state. This is consistent with that reported in the literature [15], suggesting that CO2 prefers to dissociate directly rather than adsorb on Cu-based catalyst surface. CO*. Fig. 2 shows that CO* prefers to occupy the top site on Cu (111) and Cusub top site on CuO (111), forming a CCu bonding with an adsorption energy of −0.78 eV and −0.57 eV, respectively. The lower adsorption energy on CuO (111) surface suggests that the oxidized Cu surface might weaken its interaction with CO*. It was found that CO* adsorption is unstable through OCu bonding, especially on CuO (111) surface, making CCu bonding the most favorable configuration. As we have tried various adsorption configurations, for example C towards Cu, O toward Cu (for both Cu (111) and CuO (111)) and C toward O of CuO (111), the CO will automatically adsorb through CCu bonding after optimization, no matter what the designed configuration is. In addition, it was found that C is always bonded with Cu atom in Cu-based catalyst in the literatures [31,32], which is similar to that observed in the present study . COOH* . CO2 hydrogenation would lead to the production of COOH and HCOO. Firstly, COOH adsorption is considered in this study. Previous studies [31,32] have demonstrated that, via COOH, CH3OH production following CO2→ COOH→ CO→CH3OH pathway are more likely to occur. That is, COOH is the key reaction intermediate to produce CO. Depends on the direction of the hydroxyl group, the adsorbed COOH* has two isomers, which can be referred as trans-COOH* and cis-COOH*. It has been reported that, although the trans-COOH* is more stable to adsorb on the surface with higher adsorption energy than cis-COOH* on Cu (111), the transition of trans-COOH* into cis-COOH* is very facile [29]. In other word, the most likely structure of COOH on Cu-based catalysts are cis-COOH*. Therefore, in the present study, cis-COOH* is chosen as the intermediate to produce CO through CO2 hydrogenation. It is found that, on Cu (111) surface, COOH* adsorbs at the bridge site through CCu and OCu bonding with an adsorption energy of −1.76 eV (Fig. 2). On CuO (111) surface, COOH* would bind on top of Cusub through C atom with an adsorption energy of −1.49 eV, lower than that on Cu (111) surface. This result shows that COOH* is more stable on Cu (111) surface. HCOO* . HCOO is another key intermediate after CO2 hydrogenation. As a supplement to the COOH path, HCOO is more likely to follow the path of HCOO+H→HCOOH→HCO+OH [31,32]. In other words, COOH is to produce CO, and HCOO is to produce HCO. As shown in Fig. 2, the structure of HCOO on both Cu (111) and CuO (111) surfaces are of great symmetry, with adsorbing on the surfaces through two OCu bonds. The results show that HCOO adsorbs on CuO (111) is more strongly with adsorption energy of −1.82 eV compared with −1.79 eV on Cu (111) surface. By contrast with COOH adsorption, HCOO adsorption is relatively stronger on CuO (111) surface than Cu (111) surface. HCOOH* . HCOOH is the product of HCOO hydrogenation to further produce HCO and OH, where HCO is a key intermediate in this study to react with H to produce CH3OH. In this study, HCOOH adsorption energy on Cu (111) surface is −1.46 eV through OCu bond. In CuO (111) surface, the adsorption energy is −1.58 eV through OCusub bond. Therefore, HCOOH adsorbs more strongly on CuO (111) surface. This means that oxide Cu-based surface will contribute to more stable adsorption of HCOOH. OH* . OH is one of the products from COOH* dissociation. For OH* adsorption, it can stably adsorb on the hcp site on Cu (111) surface. The corresponding adsorption energy is −3.62 eV. This is in good agreement with that reported by Liu et al. [16], in which the adsorption energy of OH * on Cu (111) is −3.61 eV. On CuO (111), OH* prefer to adsorb on the top site of surface Cusub with an adsorption energy of −2.51 eV. The results indicate that the surface oxidation weakens OH* adsorption on surface Cu sites, which is similar with that for CO adsorption. H* . The most stable adsorption site for H* on Cu (111) is the hcp site, and the corresponding adsorption energy is −2.41 eV (Fig. 2). On CuO (111), H adsorbed on top site of surface Osurf atom (HO) and top site of surface Cusub atom (HCu) were studied. The corresponding adsorption energies are found to be −3.31 eV and −1.48 eV, respectively, suggesting that H prefer to form OH bonding on CuO (111). However, this also means that, it would be difficult for H atom to break OH bonds and participate into the hydrogenation reaction in CO2RR. HCO* . The calculations show that, on both Cu (111) and CuO (111) surfaces, HCO* tends to adsorb on the top site via CCu bonding (Fig. 2). The adsorption energies are −1.33 eV and −1.53 eV for Cu (111) and CuO (111) surfaces, respectively. Compared with Cu (111), it can be found that the adsorption of HCO* on CuO (111) surface is slightly strengthened. CH2O* . As displayed in Fig. 2, CH2O* adsorbs weakly on the top site via OCu bond on Cu (111), and the adsorption energy is −0.36 eV. On CuO (111) surface, CH2O* is also found most stable on the surface Cusub site by forming OCusub bonding. The corresponding adsorption energy is −0.72 eV. This is higher than that on Cu (111), suggesting that the CH2O* adsorption is enhanced by oxidized surface. CH3O*. CH3O* is an important surface intermediate during CO2RR into CH3OH production [33]. In the present study, it is found that CH3O* prefers to adsorb on the hcp site of Cu (111) surface and top site of Cusub on CuO (111) surface (Fig. 2) by O-Cu bonding. The corresponding adsorption energies are −2.50 eV and −1.49 eV, respectively. This result shows that surface oxidation will lower the stability of CH3O* adsorption. The reason may be there is a stronger repulsive force between oxidized surface and CH3O* when CH3O adsorbs through O atom. COH* . It is another reaction intermediate formed by CO hydrogenation. The calculation shows that, on Cu (111), COH* adsorbs on the hcp site via three CCu bonds. On CuO (111), it would sit on the bridge site forming an Osurf-C-Cusub bond. The COH* adsorption energies are −2.67 eV and −4.34 eV on Cu (111) and CuO (111) surfaces, respectively. The significantly increased adsorption energy on CuO (111) surface might be resulted from the covalent bonding between C in COH* and Osurf in CuO (111) . It suggests that COH* is more stable on CuO (111) than Cu (111) based on a strong interaction with surface O sites. Moreover, it indicates that COH*+Osub will form COOH*-like structure, which would be more stable on CuO (111) surface. CHOH* . It is found that, on Cu (111), CHOH* adsorbs strongly at the bridge site by forming a Cu-C-Cu bonding, and the corresponding adsorption energy is −2.06 eV. On CuO (111) surface, CHOH* sits at the top site of Cusub, and the adsorption energy is found to be −1.40 eV. This result shows that surface oxidation will lower CHOH* adsorption stability. Note that, similar with that in COH* adsorption, CHOH* might also interact with surface Osurf atom to form the HCOOH*-like structure (Figure S1). This adsorption configuration would contribute to a higher adsorption energy for CHOH* on CuO (111) surface. CH2OH* . On both Cu (111) and CuO (111) surfaces, CH2OH* prefers to adsorb on the top site through C atom forming a CCu bonding. CH2OH* on Cu (111) has an adsorption energy of −1.27 eV, which is slightly lower than that (−1.59 eV) on CuO (111). These results indicate that oxidized Cu surface is beneficial CH2OH* adsorption. I-CH3OH* . I-CH3OH * is produced from CH3O* hydrogenation, in which the new formed -OH group faces toward the catalyst surface. The present study shows that I-CH3OH * is weakly bonded on both Cu (111) and CuO (111) surfaces. On Cu (111) surface, it sits free above the surface, whereas it adsorbs on top site of Cusub site through O on CuO (111) (Fig. 2). The adsorption energies are −0.33 eV and −1.06 eV for Cu (111) and CuO (111) surfaces, respectively, suggesting that surface oxidation will promote I-CH3OH* adsorption. II-CH3OH* . II-CH3OH is produced from CH2OH* hydrogenation. The calculations show that the adsorption of II-CH3OH is free above both Cu (111) and CuO (111) surfaces with relatively small adsorption energy, which are −0.32 eV and −0.82 eV for Cu (111) and CuO (111) surfaces, respectively (Fig. 2). The –CH3 group in II-CH3OH faces to surface because the last hydrogenation step is –CH2 group hydrogenation. In comparison, the adsorption energy of I-CH3OH and II-CH3OH on Cu (111) surface is similar. But on CuO (111) surface, it is higher for I-CH3OH to adsorb on CuO (111) than II-CH3OH. Maybe the –CH3 group will repel CuO (111) surface, but –OH group will be likely to adsorb on CuO (111) surface. 3.2 Kinetics for CO2 reduction 3.2.1 CO2 dissociation to CO* (R1) In the study of CO2 adsorption, it has been found that CO2 is far away from surface, suggesting that CO2 prefers to dissociate directly rather than adsorb first (Figure S2). Fig. 3 shows that, during the dissociation of CO2 on Cu (111), the active CO bond is enlarged into 1.86 Å with an energy barrier of 1.61 eV. The corresponding reaction energy is calculated to be 1.17 eV. On CuO (111) surface, the TS along CO2 dissociation is not found. However, the corresponding reaction energy (3.79 eV) is much higher than that on Cu (111), indicating that CO2 dissociation on CuO (111) is thermodynamically unlikely to occur. 3.2.2 CO2 hydrogenation to COOH* (R2) As mentioned in Section 3.1, COOH is the production of CO2 hydrogenation. Its further dissociation would lead to the formation of CO. It is noticed that, at the initial state (IS) of CO2 hydrogenation reaction, CO2 approaches the metal surfaces and H* sits at the hollow site on Cu (111) surface and top site on CuO (111) surface (Figure S2). The bonding distance between O and H is 3.56 Å and 3.18 Å on Cu (111) and CuO (111) surfaces, respectively. Fig. 4 shows the transition states (TS) of this reaction, in which the distance between the O and H atoms decreases to 1.36 Å and 1.63 Å on Cu (111) and CuO (111) surfaces, respectively. The activation barriers for this step on Cu (111) and CuO (111) surfaces are found to be 2.32 eV and 0.64 eV, respectively. The corresponding reaction energies are 0.47 eV and 0.02 eV, respectively. The low energy barrier and reaction energy on CuO (111) surface imply that the CO2 hydrogenation to produce COOH is favored on CuO surface. 3.2.3 COOH* dissociation to CO* and OH* (R3) On Cu (111), COOH* dissociation occurs at two adjacent bridge sites, and in the TS, the activated CO bonding is enlarged to 1.83 Å (Fig. 5 ). This step needs to overcome an activation barrier of 0.61 eV with reaction energy of −0.17 eV. On CuO (111) surface, the decomposition of COOH* into CO is relatively difficult, the activated CO bonding is enlarged to 1.73 Å and the corresponding energy barrier and reaction energy are 0.72 eV and 0.68 eV, respectively (Fig. 5 ). That is, metallic Cu (111) is more active towards COOH* dissociation than the oxidized CuO (111) surface. 3.2.4 COOH* hydrogenation to CO* and H2O* (R4) In addition to the direct dissociation, COOH* can also be reduced to produce CO through dehydration reaction. It is found that, on Cu (111) surface, COOH* prefers to bind at the top site during the dehydration reaction, and the distance of the activated OH is 1.46 Å in the TS (Fig. 6 ). The energy barrier of this hydrogenation step on Cu (111) is 1.26 eV, and the reaction is exothermic by −0.55 eV. On CuO (111), the energy barrier for this COOH* hydrogenation step is calculated to be 0.50 eV, much lower than that on Cu (111). In the TS, the distance of activated OH bonding is 1.61 Å. Similar with that on Cu (111), this reaction step on CuO (111) is also exothermic (−0.61 eV), revealing that the hydrogenation of COOH* is more favorable on CuO (111) surface. 3.2.5 CO2* hydrogenation to HCOO* (R5) HCOO is another important intermediate after CO2 hydrogenation. This step on Cu (111) surface is with activation energy of 1.57 eV. Compared with COOH formation, the formation of HCOO is potentially occur on this surface. Accordingly, the reaction energy is 0.21 eV. In the transition state, CO2 and H are adsorbed on the same Cu atom with distance of 1.80 Å. On the CuO (111) surface, the picture of transition state is shown in the Fig. 7 , with 1.53 Å of CH distance. The energy barrier is 2.05 eV, which is relatively higher than that of COOH formation on Cu (111) surface. Along with the energy barrier, reaction energy is 1.95 eV, which is thermodynamically unfavorable. Considered this step, HCOO is more likely to occur on Cu (111) surface. 3.2.6 HCOO* hydrogenation to HCOOH* (R6) HCOO hydrogenation to HCOOH is the key step via HCOO intermediate. The results are shown in Fig. 8 , the energy barrier on Cu (111) surface is 0.71 eV, accordingly, the reaction energy is −0.01 eV. As for the transition state structure, the distance of OH is 1.91 Å. On CuO (111) surface, this distance is 1.07 Å. Accordingly, the energy barrier is 0.42 eV, which is lower than that on Cu (111) surface. However, the reaction energy on CuO (111) surface is 0.35 eV, which is higher than that on Cu (111) surface. Compare the results, this step is more likely to occur on CuO (111) surface. 3.2.7 HCOOH* dissociation to HCO*+OH* (R7) This step is significantly important for CO2 reduction via HCOOH intermediate, where HCOOH is supposed to produce HCO and OH, and HCO will continue to hydrogenate with H. As shown in Fig. 9 , on Cu (111) surface, the energy barrier is 1.74 eV and the reaction energy is 1.09 eV, where the distance of CO is 1.97 Å in transition state. Compared with Cu (111) surface, this step on CuO (111) surface is with energy barrier of 1.72 eV, and the reaction energy is 0.26 eV. As for the transition state, the distance between reactant C and O is 2.19 Å. Based on the above analysis, it is clearly that this step is relatively favorable on CuO (111) surface. This step on both surfaces is endothermic reaction, but the reaction energy is lower on CuO (111) surface than that on Cu (111) surface. 3.3 Kinetics for CO hydrogenation to CH3OH 3.3.1 Electronic structure analysis In order to understand the effect of surface H* on CuO, density of states (DOS) and projected density of states (pDOS) are conducted on clean CuO (111) and H pre-covered CuO (111) surfaces. Fig. 10 a and 10b present the contribution of each element to the total DOS in CuO and H-covered CuO surfaces, respectively. The results show that, both the clean CuO surface and H-covered CuO surface show good electron transfer capability with small band gaps [34]. However, after H adsorption on CuO surface, the contribution of Cu to total DOS is increased in the valence band with two intensified peaks at around −2.5~3.0 eV (Fig. 10b). Meanwhile, the state of Cu and O overlaps with each other near Fermi level. This is also consistent with that observed in the pDOS of prominent 3d orbital of Cu and 2p orbital of O on clear CuO (111) and H pre-covered CuO (111) surfaces. Fig. 10c shows that the existence of surface H will lower the O 2p density of states. On the other hand, Cu 3d orbital density of states is increased after H coverage (Fig. 10d). These observations imply that H coverage would promote the activity of Cu sites on CuO surface. Therefore, in the study of CO* continuous hydrogenation for CH3OH production, two CuO (111)-H surface models: H on top site of Cusub (HCu) referred to as CuO (111)-HCu and H on top site of Osurf (HO) referred to as CuO (111)-HO were considered. 3.3.1 CO* hydrogenation to HCO* (R8) Fig. 11 shows the transition state and reaction energetics for CO* hydrogenation to HCO* on Cu (111), CuO (111)-HO and CuO (111)-HCu models. The reaction has similar transition states on the three models, in which CO* sits at the top site of surface Cu atom through CCu bonding, and H* moves to the neighboring C atom with the C–H length of 1.21 Å, 1.42 Å and 1.66 Å on Cu (111), CuO (111)-HO and CuO (111)-HCu surfaces, respectively (Fig. 11). The difference of this hydrogenation reaction on the three models is the incoming H atom. On Cu (111), the H originates from the neighboring Cu-H bond. On CuO (111)-HO and CuO (111)-HCu, the active H atoms come from its adjacent HOsurf and HCusub bonds on the CuO surface. Among the two types of H* bonding, one can expect the breaking of covalent OH bond would be more difficult. Meanwhile, H* adsorption on top of the Cu site on CuO surface would be destabilized by its neighboring Cu-O bonds, which would result into a weak HCu bond. This is also consisted with the H* adsorption energy obtained on the Cu (111) and CuO (111) surfaces (Fig. 2). The strength of the two types of H* bonding would affect the energy barrier required to break its bond during CO* hydrogenation reaction. The results show that CO* hydrogenation for HCO* formation on CuO (111)-Ho needs to overcome the highest activation barrier (1.38 eV), followed by Cu (111) of 0.85 eV and CuO (111)-HCu of 0.27 eV. In addition, this process is endothermic on Cu (111) and CuO (111)-Ho with reaction energies of 0.72 eV and 1.22 eV, respectively. However, on CuO (111)-HCu surface, the reaction is exothermic by −0.37 eV. The low activity energy barrier and exothermic reaction energy suggest that catalysis performance of CuO (111) is promoted in the present of H on top of Cu sites. That is, the active site for HCO formation is HCu site on CuO (111) surface. 3.3.2 HCO* hydrogenation to CH2O* (R9) Fig. 12 shows that, on Cu (111) surface, HCO* sits on the Cu site through the O atom in the TS. The incoming H atom forms a C–H bond with C of HCO*, and the corresponding distance is 1.27 Å. This reaction has an energy barrier of 0.46 eV with an exothermic reaction energy of −0.43 eV. On CuO (111)-HO, the TS is featured with a C–H bond distance of 1.68 Å. The energy barrier and reaction energy are 2.61 eV and 1.46 eV, respectively. The high energetic values indicates that CH2O* production reaction through CuO (111)-HO is unlikely to occur. On CuO (111)-HCu model, the TS has an activated C–H bond of 1.77 Å. The activation barrier is 0.62 eV with a reaction energy of 0.30 eV, much lower than that occurs on HO site. Therefore, the Cu site on metallic Cu and HCu on CuO both contribute to CH2O formation. 3.3.3 CH2O* hydrogenation to CH3O* (R10) On Cu (111), CH2O* adsorbs on the top site through O atom and the activated C–H distance is decreased from 2.94 Å (Figure S2) of the IS into 1.69 Å of the TS (Fig. 13 ). This reaction is an exothermic process with reaction energy of −0.90 eV, and it proceeds with an activation barrier of 0.30 eV. On CuO (111)-HO, the CH2O* and H* forms a C–H bonding of 1.34 Å in the TS, with an activation barrier of 1.24 eV. The reaction energy on CuO (111)-HO is 0.82 eV, indicating it is an endothermic process. On CuO (111)-HCu, it has a similar TS structure with that on CuO (111)-HO surface and the forming C–H bond is 1.67 Å. The activation barrier of this reaction is 0.04 eV, and it is exothermic by −1.82 eV. These energetic results suggest that CH2O* hydrogenation to CH3O* is promoted by the existence of HCu on CuO (111), indicating the HCu on CuO (111) is the most active site for this reaction. 3.3.4 CH3O* hydrogenation to CH3OH* (R11) The CH3O* hydrogenation would result into the formation of CH3OH*. Fig. 14 shows the TS for CH3O* hydrogenation reaction on Cu (111), CuO (111)-HO and CuO (111)-HCu models. One can see that, on Cu (111) surface, CH3O* prefers to adsorb at the hollow site and the incoming H* sits on top of the neighboring Cu atom forming an OH bond of 1.64 Å. The corresponding activation energy of this process is 1.28 eV, and the reaction energy is calculated to be 0.01 eV. In the TS on CuO (111)-HO and CuO (111)-HCu models, CH3O* was found to sit on top site with an activated OH bonding distance of 1.89 Å and 1.77 Å, respectively. This process needs to overcome the activation barriers of 0.79 eV and 0.06 eV on CuO (111)-HO and CuO (111)-HCu model, respectively. The activation barrier is much lower on CuO (111)-HCu than that on Cu (111) surface. The corresponding reaction energies are 0.12 eV and −1.48 eV, respectively. The low energy barrier and exothermic reaction energy for CH3O* hydrogenation on CuO (111)-HCu indicate that this reaction is thermodynamically promoted when there is H covering the Cu sites on CuO surface. These results show that the HCu on CuO (111) is the most active site for I-CH3OH formation step among the three surface models. 3.3.5 CO* hydrogenation to COH* (R12) Before the reaction, the CO* and H* co-adsorption prefers the hollow-hollow sites on Cu (111) surface and top-top sites of neighboring Osurf and Cusub sites on CuO (111) surface. In the TS, on Cu (111) surface, one can see that CO* prefers to adsorb at the bridge site with the incoming H* to form a OH bond of 1.38 Å. The corresponding activation energy of this process is 2.13 eV, and the reaction energy is calculated to be 1.24 eV. On CuO (111)-Ho surface, in TS (Fig. 15 ), CO* is found located at the bridge sites between Cusub and Osurf. At the same time, the CO* also forms a CO bond with the Osurf on CuO. When the H* moves up to this Osurf atom forming a O–H length of 1.35 Å, it needs to overcome a relatively high activation barrier of 1.46 eV. This process is endothermic by 0.27 eV. On CuO (111)-HCu model, the TS is from the continuous reaction of CO*+H*→HCO*→COH*, with the O–H bond length of 1.56 Å. The corresponding activation energy is 1.39 eV, and the reaction energy is calculated to be 0.87 eV. Compared with HCO* formation, COH* formation is relatively difficult to occur on all surfaces because of the space steric hindrance, that the reactant H* is hard to rise to react with H by overcoming the surface species’ attraction to it. Overall, CuO (111)-HCu model also has the highest catalysis performance in CO* hydrogenation to form COH*, indicating that the surface HCu is the most active site for this reaction step. 3.3.6 COH* hydrogenation to CHOH* (R13) On Cu (111), in the TS of this reaction, the C atom in COH* forms a C–H bond of 1.88 Å with the incoming H* atom (Fig. 16 ). This process needs to overcome an activation barrier of 1.01 eV with an exothermic reaction energy of −0.37 eV. On both CuO (111)-Ho and CuO (111)-HCu models, COH* would interact with the surface Osurf site to form CHOH*-like structure. As for CuO (111)-Ho surface, the active C–H bond has a bonding distance of 1.79 Å in the TS. Then, CHOH* adsorbs at the bridge site through COsurf and CCusub bonds. The activation barrier and reaction energy of this step are 2.47 eV and 0.86 eV, respectively, suggesting that COH* hydrogenation on CuO (111)-Ho is exceedingly difficult. On CuO (111)-HCu surface, the TS is similar with that on CuO (111)-HO with a C–H bond of 2.05 Å. The corresponding activation barrier is 1.36 eV, and the reaction energy is 0.54 eV. The energy barrier of this step on Cu (111) is the lowest in these three models, indicating that pure metal Cu is beneficial for this COH* hydrogenation step. In other words, the oxide state may lower the catalysis performance of Cu-based catalysts for this elementary reaction. 3.3.7 CHOH* hydrogenation to CH2OH* (R14) On Cu (111) surface, CHOH* adsorbs at the bridge site with an activated C–H distance of 1.78 Å in TS (Fig. 17 ). Then, CH2OH* moves towards the top site of Cu through C atom. The reaction is exothermic with a reaction energy of −0.71 eV with an activation barrier of 0.39 eV. On CuO (111)-HO, the length of the activated C–H bond is 1.88 Å in the TS. The energy barrier of this elementary step is 2.47 eV, and the reaction is endothermic with a reaction energy of 0.88 eV. On CuO (111)-HCu, the actived C–H bond has a length of 1.81 Å in the TS. The corresponding activation barrier is 0.36 eV, slightly lower than that on Cu (111). The reaction on CuO (111)-HCu surface is exothermic with a reaction energy of −0.39 eV, suggesting that CHOH* hydrogenation into CH2OH* is energetically promoted by the existence of surface Cu-H species on CuO. The low energy barrier observed on Cu (111) and HCu. site of CuO (111) show that both metallic and oxide surfaces are active towards the hydrogenation reaction of CHOH* into CH2OH*. 3.3.8 CH2OH* hydrogenation to CH3OH* (R15) The CH2OH* hydrogenation is the final step for CH3OH* production. On Cu (111), in the TS, CH2OH* is free above the surface and its C faces to the adsorbed H* atom with a distance of 2.28 Å, see Fig. 18 . The energy barrier for this reaction step is found to be 0.64 eV with an exothermic energy of −1.52 eV. On CuO (111)-HO, CH2OH* is free above the surface with –CH2 group facing to adsorbed H on top site of Osurf, forming a new C–H bond with a distance of 1.35 Å in TS (Fig. 18). This process needs to overcome an activation barrier of 0.47 eV with an exothermic energy of −0.42 eV. As for this step on CuO (111)-HCu model, the new formed C–H bond is 1.73 Å and the activation barrier is 0.40 eV. The reaction on CuO (111)-HCu is exothermic by −1.90 eV, suggesting it is thermodynamically more favorable than that on Cu (111) and CuO (111)-HO. Considering the low energy barrier, it is concluded that CH2OH* hydrogenation into CH3OH* is promoted when H is covered on top of Cu sites on CuO (111) surface. 3.3.9 Hydrogen evolution reaction (R16) Due to the strategy of H pre-covered CuO (111) surface, the hydrogen evolution reaction, which is the competitive reaction with hydrogenation process, has been considered in this study. On Cu (111) surface, the barrier energy is 0.99 eV and the distance between two H is 0.81 Å. Accordingly, the reaction energy is 0.21 eV. While on CuO (111) surface, three different combinations of H adsorption sites have been considered, namely HCu+HCu, HO+HO and HCu+HO. After comparing the adsorption energies of these three adsorption configurations (Figure S4), the model HCu+HO, that one H adsorbed on Cusub and one H adsorbed on Osurf is selected to compare with that on Cu (111). As shown in Fig. 19 , the reaction barrier is 0.37 eV and the reaction energy is 0.11 eV. Comparing this step on both surfaces, hydrogenation evolution reaction is potentially more likely to occur on CuO (111) surface with lower energy barrier, but both surfaces can contribute to hydrogenation evolution. This means that H2 can form during the hydrogenation process. 3.4 General discussion 3.4.1 CO2 reduction to CO Fig. 20 shows a comparison of the reaction energies for CO2 reduction to CO through different pathways on Cu (111) and CuO (111) models. One can see that, for CO2 direct dissociation into CO (Path a and b), it is most energetically favored on Cu (111) (Path a). However, for the CO2 hydrogenation process, COOH formation pathway exhibits the lowest energy barrier (Path c and d), while HCOOH is also likely to form on Cu (111) surface and then further to produce HCO and OH (Path g). On CuO (111) surface, although it is unlikely for CO2 to dissociate directly, it can form COOH through hydrogenation first. Then, COOH* will dissociate into to CO and OH (Path d), and OH can further react with H to form H2O (Path f), which is relatively easy to occur, making the whole process energetically favored. Overall, the most favorable pathway to produce CO occurs on CuO (111) surface through CO2+2H*→COOH*+H*→CO*+H2O*. 3.5.2 CH3OH production from CO* hydrogenation Fig. 21 compares the energetics of the two CO* hydrogenation pathways for CH3OH production on the three catalyst models. It shows that, on Cu (111) and H-covered CuO (111)-HCu, CH3OH production is favorable through HCO* formation pathway (Path a and c). This result shows that the CuO (111) have better catalysis performance given that the reactant H is covered on the surface Cu atoms. In fact, the realistic reaction situation on CuO (111) surface is that H would first adsorb on O atoms until the OH binds are saturated. After that, H adsorption on the surface Cu atoms might occur. In other word, although HO bonds are more stable, it is the H on Cu atom that might actually participates in the hydrogenation reaction. Since HCu bond is relatively easy to break than HO bond, further CO hydrogenation reactions can be promoted with low energy barriers. Meanwhile, the comparison also shows that CH3OH production through HCO* hydrogenation (Path a and c) is generally more favorable than via COH* hydrogenation (Path d, e and f), and the most active site is on H-covered CuOHCu surface. 3.5.3 Dynamic analysis of CO2 reduction to CH3OH According to the results above, the dynamic reaction process of CO2 reduction to CH3OH is analyzed here. For both Cu (111) and CuO (111) surfaces, H-coverage firstly occur due to the acidic solution for CO2 reduction. And specially, on CuO (111) surface, the formation of Cu-H bonds would come after the OH bonding formation. Then for Cu (111), the CO2* will direct dissociate into CO* or convert into HCOO* by hydrogenation process with similar energy batteries. On one hand, the next step of HCOO* hydrogenation can easily occur to form HCOOH*, with the subsequent decomposition a little difficult to occur due to the relatively high energy barrier. On the other hand, the direct dissociated CO* of CO2 will hydrogenate into HCO* other than COH* thanks to the much lower barrier, following with 3 steps of hydrogenation to form the terminal Ⅰ-CH3OH*. And for CuO (111), CO2 will firstly hydrogenate to form COOH* with a small barrier, and then dissociate into CO* and H2O*. In the next step, CO* prefers to react with Cu-H other than OH with a much lower energy barrier to form HCO*, after 3 steps of hydrogenation by Cu-H, the terminal product Ⅰ-CH3OH* will be produced. Ultimately, on Cu (111), both HCOOH and Ⅰ-CH3OH may exist, and on CuO (111), Ⅰ-CH3OH may be the main product. 4 Conclusions In this study, DFT calculations were performed to investigate the active sites for CO2RR reduction to CH3OH that occurs on Cu (111) and CuO (111) surfaces. The favored adsorption sites, and reaction kinetics involved in CO2 activation and CO hydrogenation steps were determined. More importantly, realistic models that represent H-covered CuO (111) surface sites were considered. This is because, during the continuous hydrogenation steps, it is very likely that H* would first bond with the O atoms on CuO (111) surface, and then adsorbed on surface Cu atoms sites. The results reveal that, for CO2 reduction into CO, metallic Cu (111) surface is more active towards CO2 direct dissociation than CuO (111) surface. On the other hand, CO2 hydrogenation into COOH* and CO+H2O is favored on CuO (111) than Cu (111) surface. Notably, it is found that H* on the Cu sites of CuO (111) surface plays an essential role in promoting the CO hydrogenation reactions for CH3OH production. In addition, it is also found that CH3OH production through HCO* continuous hydrogenation is more favorable than COH* continuous hydrogenation pathway. These observations provide new fundamental insights on the active sites and reaction mechanism of CO2RR reduction on Cu-based catalysts. CRediT authorship contribution statement Yani Guan: Data curation, Formal analysis, Writing – original draft. Wei Suo: Data curation. Zisheng Zhang: Conceptualization, Writing – review & editing. Yanji Wang: Conceptualization, Supervision, Writing – review & editing. Shujuan Sun: Supervision. Guihua Liu: Conceptualization, Methodology, Writing – review & editing. Declaration of Competing Interest The authors declare that they have no known competing financial interests or personal relationships that could have appeared to influence the work reported in this paper. Acknowledgments The authors thank the financial support from Natural Science Foundation of Hebei Province (B2020202069) and the National Natural Science Foundation of China (21802031, 21978063). Supplementary materials Supplementary material associated with this article can be found, in the online version, at doi:10.1016/j.mcat.2021.111725. Appendix Supplementary materials Image, application 1 Reference [1] C. Song Global challenges and strategies for control, conversion and utilization of CO2 for sustainable development involving energy, catalysis, adsorption and chemical processing Catal. Today. 115 2006 2 32 10.1016/j.cattod.2006.02.029 C. Song, Global challenges and strategies for control, conversion and utilization of CO2 for sustainable development involving energy, catalysis, adsorption and chemical processing, Catal. Today.115 (2006) 2–32. https://doi.org/10.1016/j.cattod.2006.02.029. [2] Y.F. Zhao Y. Yang C. Mims C.H.F. Peden J. Li D. Mei Insight into methanol synthesis from CO2 hydrogenation on Cu(1 1 1): complex reaction network and the effects of H2O J. Catal. 281 2011 199 211 10.1016/j.jcat.2011.04.012 Y.F. Zhao, Y. Yang, C. Mims, C.H.F. Peden, J. Li, D. Mei, Insight into methanol synthesis from CO2 hydrogenation on Cu(1 1 1): complex reaction network and the effects of H2O, J. Catal.281 (2011) 199–211. https://doi.org/10.1016/j.jcat.2011.04.012. [3] Y. Yang J. Evans J.A. Rodriguez M.G. White P. Liu Fundamental studies of methanol synthesis from CO2 hydrogenation on Cu(111), Cu clusters, and Cu/ZnO(0001) Phys. Chem. Chem. Phys 12 2010 9909 9917 10.1039/c001484b Y. Yang, J. Evans, J.A. Rodriguez, M.G. White, P. Liu, Fundamental studies of methanol synthesis from CO2 hydrogenation on Cu(111), Cu clusters, and Cu/ZnO(0001), Phys. Chem. Chem. Phys. 12 (2010) 9909–9917. https://doi.org/10.1039/c001484b. [4] M. Dou M. Zhang Y. Chen Y. Yu Theoretical study of methanol synthesis from CO2 and CO hydrogenation on the surface of ZrO2 supported In2O3 catalyst Surf. Sci. 2018 7 12 10.1016/j.susc.2018.02.013 672-673 M. Dou, M. Zhang, Y. Chen, Y. Yu, Theoretical study of methanol synthesis from CO2 and CO hydrogenation on the surface of ZrO2 supported In2O3 catalyst, Surf. Sci.672-673 (2018) 7–12. https://doi.org/10.1016/j.susc.2018.02.013. [5] S. Kattel P.J. Ramírez J.G. Chen J.A. Rodriguez P. Liu Active sites for CO2 hydrogenation to methanol on Cu/ZnO catalysts Science 355 2017 1296 1299 10.1126/science.aal3573 S. Kattel, P.J. Ramírez, J.G. Chen, J.A. Rodriguez, P. Liu, Active sites for CO2 hydrogenation to methanol on Cu/ZnO catalysts, Science. 355 (2017) 1296–1299. https://doi.org/10.1126/science.aal3573. [6] M.D. Porosoff J.G. Chen Trends in the catalytic reduction of CO2 by hydrogen over supported monometallic and bimetallic catalysts J. Catal. 301 2013 30 37 10.1016/j.jcat.2013.01.022 M.D. Porosoff, J.G. Chen, Trends in the catalytic reduction of CO2 by hydrogen over supported monometallic and bimetallic catalysts, J. Catal.301 (2013) 30–37. https://doi.org/10.1016/j.jcat.2013.01.022. [7] F. Studt I. Sharafutdinov F. Abild-Pedersen C.F. Elkjær J.S. Hummelshøj S. Dahl I. Chorkendorff J.K. Nørskov Discovery of a Ni-Ga catalyst for carbon dioxide reduction to methanol Nat. Chem. 6 2014 320 324 10.1038/nchem.1873 F. Studt, I. Sharafutdinov, F. Abild-Pedersen, C.F. Elkjær, J.S. Hummelshøj, S. Dahl, I. Chorkendorff, J.K. Nørskov, Discovery of a Ni-Ga catalyst for carbon dioxide reduction to methanol, Nat. Chem.6 (2014) 320–324. https://doi.org/10.1038/nchem.1873. [8] M. Cokoja C. Bruckmeier B. Rieger W.A. Herrmann F.E. Kühn Transformation of carbon dioxide with homogeneous transition-metal catalysts: a molecular solution to a global challenge? Angew. Chemie - Int. Ed 50 2011 8510 8537 10.1002/anie.201102010 M. Cokoja, C. Bruckmeier, B. Rieger, W.A. Herrmann, F.E. Kühn, Transformation of carbon dioxide with homogeneous transition-metal catalysts: a molecular solution to a global challenge?, Angew. Chemie - Int. Ed. 50 (2011) 8510–8537. https://doi.org/10.1002/anie.201102010. [9] E.E. Benson C.P. Kubiak A.J. Sathrum J.M. Smieja Electrocatalytic and homogeneous approaches to conversion of CO2 to liquid fuels Chem. Soc. Rev. 38 2009 89 99 10.1039/b804323j E.E. Benson, C.P. Kubiak, A.J. Sathrum, J.M. Smieja, Electrocatalytic and homogeneous approaches to conversion of CO2 to liquid fuels, Chem. Soc. Rev.38 (2009) 89–99. https://doi.org/10.1039/b804323j. [10] G. Centi E.A. Quadrelli S. Perathoner Catalysis for CO2 conversion: a key technology for rapid introduction of renewable energy in the value chain of chemical industries Energy Environ. Sci. 6 2013 1711 1731 10.1039/c3ee00056g G. Centi, E.A. Quadrelli, S. Perathoner, Catalysis for CO2 conversion: a key technology for rapid introduction of renewable energy in the value chain of chemical industries, Energy Environ. Sci.6 (2013) 1711–1731. https://doi.org/10.1039/c3ee00056g. [11] M.B. Gawande A. Goswami F.X. Felpin T. Asefa X. Huang R. Silva X. Zou R. Zboril R.S. Varma Cu and Cu-Based Nanoparticles: synthesis and Applications in Catalysis Chem. Rev. 116 2016 3722 3811 10.1021/acs.chemrev.5b00482 M.B. Gawande, A. Goswami, F.X. Felpin, T. Asefa, X. Huang, R. Silva, X. Zou, R. Zboril, R.S. Varma, Cu and Cu-Based Nanoparticles: synthesis and Applications in Catalysis, Chem. Rev.116 (2016) 3722–3811. https://doi.org/10.1021/acs.chemrev.5b00482. [12] A.D. Handoko C.W. Ong Y. Huang Z.G. Lee L. Lin G.B. Panetti B.S. Yeo Mechanistic insights into the selective electroreduction of carbon dioxide to ethylene on Cu2O-derived copper catalysts J. Phys. Chem. C. 120 2016 20058 20067 10.1021/acs.jpcc.6b07128 A.D. Handoko, C.W. Ong, Y. Huang, Z.G. Lee, L. Lin, G.B. Panetti, B.S. Yeo, Mechanistic insights into the selective electroreduction of carbon dioxide to ethylene on Cu2O-derived copper catalysts, J. Phys. Chem. C.120 (2016) 20058–20067. https://doi.org/10.1021/acs.jpcc.6b07128. [13] T. Schedel-Niedrig T. Neisius I. Böttger E. Kitzelmann G. Weinberg D. Demuth R. Schlögl Copper (sub)oxide formation: a surface sensitive characterization of model catalysts Phys. Chem. Chem. Phys. 2 2000 2407 2417 10.1039/b000253o T. Schedel-Niedrig, T. Neisius, I. Böttger, E. Kitzelmann, G. Weinberg, D. Demuth, R. Schlögl, Copper (sub)oxide formation: a surface sensitive characterization of model catalysts, Phys. Chem. Chem. Phys.2 (2000) 2407–2417. https://doi.org/10.1039/b000253o. [14] I. Böttger T. Schedel-Niedrig O. Timpe R. Gottschall M. Hävecker T. Ressler R. Schlögl Catalytic methanol oxidation over copper: observation of reaction-induced nanoscale restructuring by means of in situ time-resolved X-ray absorption spectroscopy Chem. - A Eur. J. 6 2000 1870 1876 10.1002/(sici)1521-3765(20000515)6:10<1870::aid-chem1870>3.0.co;2-0 I. Böttger, T. Schedel-Niedrig, O. Timpe, R. Gottschall, M. Hävecker, T. Ressler, R. Schlögl, Catalytic methanol oxidation over copper: observation of reaction-induced nanoscale restructuring by means of in situ time-resolved X-ray absorption spectroscopy, Chem. - A Eur. J.6 (2000) 1870–1876. https://doi.org/10.1002/(sici)1521-3765(20000515)6:10<1870::aid-chem1870>3.0.co;2-0. [15] A.K. Mishra A. Roldan N.H. De Leeuw CuO Surfaces and CO2 Activation: a Dispersion-Corrected DFT+U Study J. Phys. Chem. C. 120 2016 2198 2214 10.1021/acs.jpcc.5b10431 A.K. Mishra, A. Roldan, N.H. De Leeuw, CuO Surfaces and CO2 Activation: a Dispersion-Corrected DFT+U Study, J. Phys. Chem. C.120 (2016) 2198–2214. https://doi.org/10.1021/acs.jpcc.5b10431. [16] Y.M. Liu J.T. Liu S.Z. Liu J. Li Z.H. Gao Z.J. Zuo W. Huang Reaction mechanisms of methanol synthesis from CO/CO2 hydrogenation on Cu2O(111): comparison with Cu(111) J. CO2 Util. 20 2017 59 65 10.1016/j.jcou.2017.05.005 Y.M. Liu, J.T. Liu, S.Z. Liu, J. Li, Z.H. Gao, Z.J. Zuo, W. Huang, Reaction mechanisms of methanol synthesis from CO/CO2 hydrogenation on Cu2O(111): comparison with Cu(111), J. CO2 Util.20 (2017) 59–65. https://doi.org/10.1016/j.jcou.2017.05.005. [17] G. Kresse J. Furthmüller Efficient iterative schemes for ab initio total-energy calculations using a plane-wave basis set Phys. Rev. B - Condens. Matter Mater. Phys. 54 1996 11169 10.1103/PhysRevB.54.11169 G. Kresse, J. Furthmüller, Efficient iterative schemes for ab initio total-energy calculations using a plane-wave basis set, Phys. Rev. B - Condens. Matter Mater. Phys.54 (1996) 11169. https://doi.org/10.1103/PhysRevB.54.11169. [18] G. Kresse J. Furthmüller Efficiency of ab-initio total energy calculations for metals and semiconductors using a plane-wave basis set Comput. Mater. Sci. 6 1996 15 50 10.1016/0927-0256(96)00008-0 G. Kresse, J. Furthmüller, Efficiency of ab-initio total energy calculations for metals and semiconductors using a plane-wave basis set, Comput. Mater. Sci.6 (1996) 15–50. https://doi.org/10.1016/0927-0256(96)00008-0. [19] G. Kresse D. Joubert From ultrasoft pseudopotentials to the projector augmented-wave method Phys. Rev. B. 59 1999 1758 1775 10.1103/PhysRevB.59.1758 G. Kresse, D. Joubert, From ultrasoft pseudopotentials to the projector augmented-wave method, Phys. Rev. B.59 (1999) 1758–1775. https://doi.org/10.1103/PhysRevB.59.1758. [20] J.A. White D.M. Bird Implementation of gradient-corrected exchange-correlation potentials in Car-Parrinello total-energy calculations Phys. Rev. B. 50 1994 4954(R) 10.1103/PhysRevB.50.4954 J.A. White, D.M. Bird, Implementation of gradient-corrected exchange-correlation potentials in Car-Parrinello total-energy calculations, Phys. Rev. B.50 (1994) 4954(R). https://doi.org/10.1103/PhysRevB.50.4954. [21] J.P. Perdew K. Burke M. Ernzerhof Generalized Gradient Approximation Made Simple Phys. Rev. Lett. 77 1996 3865 3868 10.1103/PhysRevLett.77.3865 J.P. Perdew, K. Burke, M. Ernzerhof, Generalized Gradient Approximation Made Simple, Phys. Rev. Lett.77 (1996) 3865–3868. https://doi.org/10.1103/PhysRevLett.77.3865. [22] M. Shishkin T. Ziegler The oxidation of H2 and CH4 on an oxygen-enriched yttria-stabilized zirconia surface: a theoretical study based on density functional theory J. Phys. Chem. C. 112 2008 19662 19669 10.1021/jp808049p M. Shishkin, T. Ziegler, The oxidation of H2 and CH4 on an oxygen-enriched yttria-stabilized zirconia surface: a theoretical study based on density functional theory, J. Phys. Chem. C.112 (2008) 19662–19669. https://doi.org/10.1021/jp808049p. [23] B. Ren X. Dong Y. Yu G. Wen M. Zhang A density functional theory study on the carbon chain growth of ethanol formation on Cu-Co (111) and (211) surfaces Appl. Surf. Sci. 412 2017 374 384 10.1016/j.apsusc.2017.03.106 B. Ren, X. Dong, Y. Yu, G. Wen, M. Zhang, A density functional theory study on the carbon chain growth of ethanol formation on Cu-Co (111) and (211) surfaces, Appl. Surf. Sci.412 (2017) 374–384. https://doi.org/10.1016/j.apsusc.2017.03.106. [24] U. Von Barth L. Hedin A Local Exchange-Correlation Potential For the Spin Polarized case. I J. Phys. C Solid State Phys 5 1972 1629 10.1088/0022-3719/5/13/012 U. Von Barth, L. Hedin, A Local Exchange-Correlation Potential For the Spin Polarized case. I, J. Phys. C Solid State Phys. 5 (1972) 1629. https://doi.org/10.1088/0022-3719/5/13/012. [25] S. Dudarev G. Botton Electron-energy-loss spectra and the structural stability of nickel oxide: an LSDA+U study Phys. Rev. B - Condens. Matter Mater. Phys. 57 1998 1505 10.1103/PhysRevB.57.1505 S. Dudarev, G. Botton, Electron-energy-loss spectra and the structural stability of nickel oxide: an LSDA+U study, Phys. Rev. B - Condens. Matter Mater. Phys.57 (1998) 1505. https://doi.org/10.1103/PhysRevB.57.1505. [26] M. Nolan S.D. Elliott The p-type conduction mechanism in Cu2O: a first principles study Phys. Chem. Chem. Phys. 8 2006 5350 5358 10.1039/b611969g M. Nolan, S.D. Elliott, The p-type conduction mechanism in Cu2O: a first principles study, Phys. Chem. Chem. Phys.8 (2006) 5350–5358. https://doi.org/10.1039/b611969g. [27] C.E. Ekuma V.I. Anisimov J. Moreno M. Jarrell Electronic structure and spectra of CuO Eur. Phys. J. B. 87 2014 23 10.1140/epjb/e2013-40949-5 C.E. Ekuma, V.I. Anisimov, J. Moreno, M. Jarrell, Electronic structure and spectra of CuO, Eur. Phys. J. B.87 (2014) 23. https://doi.org/10.1140/epjb/e2013-40949-5. [28] G. Henkelman B.P. Uberuaga H. Jonsson A climbing image nudged elastic band method for finding saddle points and minimum energy paths J. Chem. Phys. 113 2000 9901 9904 10.1063/1.1329672 G. Henkelman, B.P. Uberuaga, H. Jonsson, A climbing image nudged elastic band method for finding saddle points and minimum energy paths, J. Chem. Phys.113 (2000) 9901–9904. https://doi.org/10.1063/1.1329672. [29] L. Liu F. Fan M. Bai F. Xue X. Ma Z. Jiang T. Fang Mechanistic study of methanol synthesis from CO2 hydrogenation on Rh-doped Cu(111) surfaces Mol. Catal. 466 2019 26 36 10.1016/j.mcat.2019.01.009 L. Liu, F. Fan, M. Bai, F. Xue, X. Ma, Z. Jiang, T. Fang, Mechanistic study of methanol synthesis from CO2 hydrogenation on Rh-doped Cu(111) surfaces, Mol. Catal.466 (2019) 26–36. https://doi.org/10.1016/j.mcat.2019.01.009. [30] S. Sun D. Zhang C. Li Y. Wang DFT study on the adsorption and dissociation of H2S on CuO(111) surface RSC Adv 5 2015 21806 21811 10.1039/c4ra16549g S. Sun, D. Zhang, C. Li, Y. Wang, DFT study on the adsorption and dissociation of H2S on CuO(111) surface, RSC Adv. 5 (2015) 21806–21811. https://doi.org/10.1039/c4ra16549g. [31] B. Zijlstra X. Zhang J.X. Liu I.A.W. Filot Z. Zhou S. Sun E.J.M. Hensen First-principles microkinetics simulations of electrochemical reduction of CO2 over Cu catalysts Electrochim. Acta. 335 2020 135665 10.1016/j.electacta.2020.135665 B. Zijlstra, X. Zhang, J.X. Liu, I.A.W. Filot, Z. Zhou, S. Sun, E.J.M. Hensen, First-principles microkinetics simulations of electrochemical reduction of CO2 over Cu catalysts, Electrochim. Acta.335 (2020) 135665. https://doi.org/10.1016/j.electacta.2020.135665. [32] T. Ouyang W. Fan J. Guo Y. Zheng X. Yin Y. Shen DFT study on Ag loaded 2H-MoS2 for understanding the mechanism of improved photocatalytic reduction of CO2 Phys. Chem. Chem. Phys. 22 2020 10305 10313 10.1039/d0cp01485k T. Ouyang, W. Fan, J. Guo, Y. Zheng, X. Yin, Y. Shen, DFT study on Ag loaded 2H-MoS2 for understanding the mechanism of improved photocatalytic reduction of CO2, Phys. Chem. Chem. Phys.22 (2020) 10305–10313. https://doi.org/10.1039/d0cp01485k. [33] M. Bowker R.A. Hadden H. Houghton J.N.K. Hyland K.C. Waugh The mechanism of methanol synthesis on copper/zinc oxide/alumina catalysts J. Catal. 109 1988 263 273 10.1016/0021-9517(88)90209-6 M. Bowker, R.A. Hadden, H. Houghton, J.N.K. Hyland, K.C. Waugh, The mechanism of methanol synthesis on copper/zinc oxide/alumina catalysts, J. Catal.109 (1988) 263–273. https://doi.org/10.1016/0021-9517(88)90209-6. [34] M. Nesa M.A. Momin M. Sharmin A.H. Bhuiyan Structural, optical and electronic properties of CuO and Zn doped CuO: DFT based First-principles calculations Chem. Phys. 538 2020 110536 10.1016/j.chemphys.2019.110536 M. Nesa, M.A. Momin, M. Sharmin, A.H. Bhuiyan, Structural, optical and electronic properties of CuO and Zn doped CuO: DFT based First-principles calculations, Chem. Phys.538 (2020) 110536. https://doi.org/10.1016/j.chemphys.2019.110536.",
+      "scopus-id": "85111024904",
+      "coredata": {
+        "eid": "1-s2.0-S2468823121003424",
+        "dc:description": "Cu oxide and Cu are widely used catalyst in CO2 reduction reaction (CO2RR) for methanol (CH3OH) production. However, due to the complexity of the oxidation states on catalyst surfaces, the active sites of Cu-based catalysts for CO2RR are still unclear. In this study, density functional theory (DFT) calculations were performed to investigate the active sites for CO2RR reduction into CH3OH on Cu (111) and CuO (111) surface. The most favored adsorption sites and reaction energetics involved in CO2 activation and sequent CO hydrogenation steps for CH3OH formation were determined. It has been found that, for CO2 reduction, the CO2→COOH*→CO* pathway prefers to occur on both Cu (111) and CuO (111) surfaces. More importantly, the analysis reveals that, compared with Cu (111) and clean CuO (111), sequent CO hydrogenation into CH3OH is promoted by the H pre-covered CuO (111), on which the surface H is set on Cu site (HCu). That is, in CO2RR, the catalytic active sites for CH3OH production are the H-covered Cu sites on CuO (111) surface. These new insights on the catalytic active sites for CH3OH production on Cu-based catalyst would potentially guide the design of efficient CO2RR catalysts.",
+        "openArchiveArticle": "false",
+        "prism:coverDate": "2021-07-31",
+        "openaccessUserLicense": null,
+        "prism:aggregationType": "Journal",
+        "prism:url": "https://api.elsevier.com/content/article/pii/S2468823121003424",
+        "dc:creator": [
+          {
+            "@_fa": "true",
+            "$": "Guan, Yani"
+          },
+          {
+            "@_fa": "true",
+            "$": "Suo, Wei"
+          },
+          {
+            "@_fa": "true",
+            "$": "Zhang, Zisheng"
+          },
+          {
+            "@_fa": "true",
+            "$": "Wang, Yanji"
+          },
+          {
+            "@_fa": "true",
+            "$": "Sun, Shujuan"
+          },
+          {
+            "@_fa": "true",
+            "$": "Liu, Guihua"
+          }
+        ],
+        "link": [
+          {
+            "@_fa": "true",
+            "@rel": "self",
+            "@href": "https://api.elsevier.com/content/article/pii/S2468823121003424"
+          },
+          {
+            "@_fa": "true",
+            "@rel": "scidir",
+            "@href": "https://www.sciencedirect.com/science/article/pii/S2468823121003424"
+          }
+        ],
+        "dc:format": "application/json",
+        "openaccessType": null,
+        "pii": "S2468-8231(21)00342-4",
+        "prism:volume": "511",
+        "articleNumber": "111725",
+        "prism:publisher": "Elsevier B.V.",
+        "dc:title": "Insights on the Catalytic Active Site for CO2 Reduction on Copper-based Catalyst: A DFT study",
+        "prism:copyright": "© 2021 Elsevier B.V. All rights reserved.",
+        "openaccess": "0",
+        "prism:issn": "24688231",
+        "dcterms:subject": [
+          {
+            "@_fa": "true",
+            "$": "CO2 reduction"
+          },
+          {
+            "@_fa": "true",
+            "$": "Methanol"
+          },
+          {
+            "@_fa": "true",
+            "$": "Cu (111)"
+          },
+          {
+            "@_fa": "true",
+            "$": "CuO (111)"
+          },
+          {
+            "@_fa": "true",
+            "$": "Density functional theory"
+          }
+        ],
+        "openaccessArticle": "false",
+        "prism:publicationName": "Molecular Catalysis",
+        "openaccessSponsorType": null,
+        "prism:pageRange": "111725",
+        "pubType": "fla",
+        "prism:coverDisplayDate": "July 2021",
+        "prism:doi": "10.1016/j.mcat.2021.111725",
+        "prism:startingPage": "111725",
+        "dc:identifier": "doi:10.1016/j.mcat.2021.111725",
+        "openaccessSponsorName": null
+      },
+      "objects": {
+        "object": [
+          {
+            "@category": "standard",
+            "@height": "297",
+            "@width": "491",
+            "@_fa": "true",
+            "$": "https://api.elsevier.com/content/object/eid/1-s2.0-S2468823121003424-gr18.jpg?httpAccept=%2A%2F%2A",
+            "@multimediatype": "JPEG image file",
+            "@type": "IMAGE-DOWNSAMPLED",
+            "@size": "54450",
+            "@ref": "gr18",
+            "@mimetype": "image/jpeg"
+          },
+          {
+            "@category": "standard",
+            "@height": "338",
+            "@width": "489",
+            "@_fa": "true",
+            "$": "https://api.elsevier.com/content/object/eid/1-s2.0-S2468823121003424-gr17.jpg?httpAccept=%2A%2F%2A",
+            "@multimediatype": "JPEG image file",
+            "@type": "IMAGE-DOWNSAMPLED",
+            "@size": "51458",
+            "@ref": "gr17",
+            "@mimetype": "image/jpeg"
+          },
+          {
+            "@category": "standard",
+            "@height": "309",
+            "@width": "491",
+            "@_fa": "true",
+            "$": "https://api.elsevier.com/content/object/eid/1-s2.0-S2468823121003424-gr16.jpg?httpAccept=%2A%2F%2A",
+            "@multimediatype": "JPEG image file",
+            "@type": "IMAGE-DOWNSAMPLED",
+            "@size": "53709",
+            "@ref": "gr16",
+            "@mimetype": "image/jpeg"
+          },
+          {
+            "@category": "standard",
+            "@height": "269",
+            "@width": "489",
+            "@_fa": "true",
+            "$": "https://api.elsevier.com/content/object/eid/1-s2.0-S2468823121003424-gr15.jpg?httpAccept=%2A%2F%2A",
+            "@multimediatype": "JPEG image file",
+            "@type": "IMAGE-DOWNSAMPLED",
+            "@size": "46470",
+            "@ref": "gr15",
+            "@mimetype": "image/jpeg"
+          },
+          {
+            "@category": "standard",
+            "@height": "236",
+            "@width": "470",
+            "@_fa": "true",
+            "$": "https://api.elsevier.com/content/object/eid/1-s2.0-S2468823121003424-gr19.jpg?httpAccept=%2A%2F%2A",
+            "@multimediatype": "JPEG image file",
+            "@type": "IMAGE-DOWNSAMPLED",
+            "@size": "31035",
+            "@ref": "gr19",
+            "@mimetype": "image/jpeg"
+          },
+          {
+            "@category": "standard",
+            "@height": "486",
+            "@width": "753",
+            "@_fa": "true",
+            "$": "https://api.elsevier.com/content/object/eid/1-s2.0-S2468823121003424-gr10.jpg?httpAccept=%2A%2F%2A",
+            "@multimediatype": "JPEG image file",
+            "@type": "IMAGE-DOWNSAMPLED",
+            "@size": "112722",
+            "@ref": "gr10",
+            "@mimetype": "image/jpeg"
+          },
+          {
+            "@category": "standard",
+            "@height": "346",
+            "@width": "639",
+            "@_fa": "true",
+            "$": "https://api.elsevier.com/content/object/eid/1-s2.0-S2468823121003424-gr21.jpg?httpAccept=%2A%2F%2A",
+            "@multimediatype": "JPEG image file",
+            "@type": "IMAGE-DOWNSAMPLED",
+            "@size": "63822",
+            "@ref": "gr21",
+            "@mimetype": "image/jpeg"
+          },
+          {
+            "@category": "standard",
+            "@height": "302",
+            "@width": "602",
+            "@_fa": "true",
+            "$": "https://api.elsevier.com/content/object/eid/1-s2.0-S2468823121003424-gr20.jpg?httpAccept=%2A%2F%2A",
+            "@multimediatype": "JPEG image file",
+            "@type": "IMAGE-DOWNSAMPLED",
+            "@size": "46323",
+            "@ref": "gr20",
+            "@mimetype": "image/jpeg"
+          },
+          {
+            "@category": "standard",
+            "@height": "442",
+            "@width": "753",
+            "@_fa": "true",
+            "$": "https://api.elsevier.com/content/object/eid/1-s2.0-S2468823121003424-gr2.jpg?httpAccept=%2A%2F%2A",
+            "@multimediatype": "JPEG image file",
+            "@type": "IMAGE-DOWNSAMPLED",
+            "@size": "165032",
+            "@ref": "gr2",
+            "@mimetype": "image/jpeg"
+          },
+          {
+            "@category": "standard",
+            "@height": "323",
+            "@width": "489",
+            "@_fa": "true",
+            "$": "https://api.elsevier.com/content/object/eid/1-s2.0-S2468823121003424-gr14.jpg?httpAccept=%2A%2F%2A",
+            "@multimediatype": "JPEG image file",
+            "@type": "IMAGE-DOWNSAMPLED",
+            "@size": "52098",
+            "@ref": "gr14",
+            "@mimetype": "image/jpeg"
+          },
+          {
+            "@category": "standard",
+            "@height": "244",
+            "@width": "491",
+            "@_fa": "true",
+            "$": "https://api.elsevier.com/content/object/eid/1-s2.0-S2468823121003424-gr3.jpg?httpAccept=%2A%2F%2A",
+            "@multimediatype": "JPEG image file",
+            "@type": "IMAGE-DOWNSAMPLED",
+            "@size": "25336",
+            "@ref": "gr3",
+            "@mimetype": "image/jpeg"
+          },
+          {
+            "@category": "standard",
+            "@height": "308",
+            "@width": "489",
+            "@_fa": "true",
+            "$": "https://api.elsevier.com/content/object/eid/1-s2.0-S2468823121003424-gr13.jpg?httpAccept=%2A%2F%2A",
+            "@multimediatype": "JPEG image file",
+            "@type": "IMAGE-DOWNSAMPLED",
+            "@size": "50749",
+            "@ref": "gr13",
+            "@mimetype": "image/jpeg"
+          },
+          {
+            "@category": "standard",
+            "@height": "312",
+            "@width": "491",
+            "@_fa": "true",
+            "$": "https://api.elsevier.com/content/object/eid/1-s2.0-S2468823121003424-gr12.jpg?httpAccept=%2A%2F%2A",
+            "@multimediatype": "JPEG image file",
+            "@type": "IMAGE-DOWNSAMPLED",
+            "@size": "50095",
+            "@ref": "gr12",
+            "@mimetype": "image/jpeg"
+          },
+          {
+            "@category": "standard",
+            "@height": "184",
+            "@width": "565",
+            "@_fa": "true",
+            "$": "https://api.elsevier.com/content/object/eid/1-s2.0-S2468823121003424-gr1.jpg?httpAccept=%2A%2F%2A",
+            "@multimediatype": "JPEG image file",
+            "@type": "IMAGE-DOWNSAMPLED",
+            "@size": "56933",
+            "@ref": "gr1",
+            "@mimetype": "image/jpeg"
+          },
+          {
+            "@category": "standard",
+            "@height": "318",
+            "@width": "489",
+            "@_fa": "true",
+            "$": "https://api.elsevier.com/content/object/eid/1-s2.0-S2468823121003424-gr11.jpg?httpAccept=%2A%2F%2A",
+            "@multimediatype": "JPEG image file",
+            "@type": "IMAGE-DOWNSAMPLED",
+            "@size": "47506",
+            "@ref": "gr11",
+            "@mimetype": "image/jpeg"
+          },
+          {
+            "@category": "standard",
+            "@height": "248",
+            "@width": "489",
+            "@_fa": "true",
+            "$": "https://api.elsevier.com/content/object/eid/1-s2.0-S2468823121003424-gr6.jpg?httpAccept=%2A%2F%2A",
+            "@multimediatype": "JPEG image file",
+            "@type": "IMAGE-DOWNSAMPLED",
+            "@size": "37098",
+            "@ref": "gr6",
+            "@mimetype": "image/jpeg"
+          },
+          {
+            "@category": "standard",
+            "@height": "249",
+            "@width": "491",
+            "@_fa": "true",
+            "$": "https://api.elsevier.com/content/object/eid/1-s2.0-S2468823121003424-gr7.jpg?httpAccept=%2A%2F%2A",
+            "@multimediatype": "JPEG image file",
+            "@type": "IMAGE-DOWNSAMPLED",
+            "@size": "36238",
+            "@ref": "gr7",
+            "@mimetype": "image/jpeg"
+          },
+          {
+            "@category": "standard",
+            "@height": "275",
+            "@width": "491",
+            "@_fa": "true",
+            "$": "https://api.elsevier.com/content/object/eid/1-s2.0-S2468823121003424-gr4.jpg?httpAccept=%2A%2F%2A",
+            "@multimediatype": "JPEG image file",
+            "@type": "IMAGE-DOWNSAMPLED",
+            "@size": "33394",
+            "@ref": "gr4",
+            "@mimetype": "image/jpeg"
+          },
+          {
+            "@category": "standard",
+            "@height": "251",
+            "@width": "489",
+            "@_fa": "true",
+            "$": "https://api.elsevier.com/content/object/eid/1-s2.0-S2468823121003424-gr5.jpg?httpAccept=%2A%2F%2A",
+            "@multimediatype": "JPEG image file",
+            "@type": "IMAGE-DOWNSAMPLED",
+            "@size": "34092",
+            "@ref": "gr5",
+            "@mimetype": "image/jpeg"
+          },
+          {
+            "@category": "standard",
+            "@height": "272",
+            "@width": "489",
+            "@_fa": "true",
+            "$": "https://api.elsevier.com/content/object/eid/1-s2.0-S2468823121003424-gr8.jpg?httpAccept=%2A%2F%2A",
+            "@multimediatype": "JPEG image file",
+            "@type": "IMAGE-DOWNSAMPLED",
+            "@size": "38707",
+            "@ref": "gr8",
+            "@mimetype": "image/jpeg"
+          },
+          {
+            "@category": "standard",
+            "@height": "250",
+            "@width": "489",
+            "@_fa": "true",
+            "$": "https://api.elsevier.com/content/object/eid/1-s2.0-S2468823121003424-gr9.jpg?httpAccept=%2A%2F%2A",
+            "@multimediatype": "JPEG image file",
+            "@type": "IMAGE-DOWNSAMPLED",
+            "@size": "36315",
+            "@ref": "gr9",
+            "@mimetype": "image/jpeg"
+          },
+          {
+            "@category": "standard",
+            "@height": "142",
+            "@width": "301",
+            "@_fa": "true",
+            "$": "https://api.elsevier.com/content/object/eid/1-s2.0-S2468823121003424-ga1.jpg?httpAccept=%2A%2F%2A",
+            "@multimediatype": "JPEG image file",
+            "@type": "IMAGE-DOWNSAMPLED",
+            "@size": "25997",
+            "@ref": "ga1",
+            "@mimetype": "image/jpeg"
+          },
+          {
+            "@category": "thumbnail",
+            "@height": "132",
+            "@width": "219",
+            "@_fa": "true",
+            "$": "https://api.elsevier.com/content/object/eid/1-s2.0-S2468823121003424-gr18.sml?httpAccept=%2A%2F%2A",
+            "@multimediatype": "GIF image file",
+            "@type": "IMAGE-THUMBNAIL",
+            "@size": "11913",
+            "@ref": "gr18",
+            "@mimetype": "image/gif"
+          },
+          {
+            "@category": "thumbnail",
+            "@height": "151",
+            "@width": "219",
+            "@_fa": "true",
+            "$": "https://api.elsevier.com/content/object/eid/1-s2.0-S2468823121003424-gr17.sml?httpAccept=%2A%2F%2A",
+            "@multimediatype": "GIF image file",
+            "@type": "IMAGE-THUMBNAIL",
+            "@size": "12199",
+            "@ref": "gr17",
+            "@mimetype": "image/gif"
+          },
+          {
+            "@category": "thumbnail",
+            "@height": "138",
+            "@width": "219",
+            "@_fa": "true",
+            "$": "https://api.elsevier.com/content/object/eid/1-s2.0-S2468823121003424-gr16.sml?httpAccept=%2A%2F%2A",
+            "@multimediatype": "GIF image file",
+            "@type": "IMAGE-THUMBNAIL",
+            "@size": "11515",
+            "@ref": "gr16",
+            "@mimetype": "image/gif"
+          },
+          {
+            "@category": "thumbnail",
+            "@height": "121",
+            "@width": "219",
+            "@_fa": "true",
+            "$": "https://api.elsevier.com/content/object/eid/1-s2.0-S2468823121003424-gr15.sml?httpAccept=%2A%2F%2A",
+            "@multimediatype": "GIF image file",
+            "@type": "IMAGE-THUMBNAIL",
+            "@size": "11732",
+            "@ref": "gr15",
+            "@mimetype": "image/gif"
+          },
+          {
+            "@category": "thumbnail",
+            "@height": "110",
+            "@width": "219",
+            "@_fa": "true",
+            "$": "https://api.elsevier.com/content/object/eid/1-s2.0-S2468823121003424-gr19.sml?httpAccept=%2A%2F%2A",
+            "@multimediatype": "GIF image file",
+            "@type": "IMAGE-THUMBNAIL",
+            "@size": "8517",
+            "@ref": "gr19",
+            "@mimetype": "image/gif"
+          },
+          {
+            "@category": "thumbnail",
+            "@height": "141",
+            "@width": "219",
+            "@_fa": "true",
+            "$": "https://api.elsevier.com/content/object/eid/1-s2.0-S2468823121003424-gr10.sml?httpAccept=%2A%2F%2A",
+            "@multimediatype": "GIF image file",
+            "@type": "IMAGE-THUMBNAIL",
+            "@size": "14043",
+            "@ref": "gr10",
+            "@mimetype": "image/gif"
+          },
+          {
+            "@category": "thumbnail",
+            "@height": "119",
+            "@width": "219",
+            "@_fa": "true",
+            "$": "https://api.elsevier.com/content/object/eid/1-s2.0-S2468823121003424-gr21.sml?httpAccept=%2A%2F%2A",
+            "@multimediatype": "GIF image file",
+            "@type": "IMAGE-THUMBNAIL",
+            "@size": "9345",
+            "@ref": "gr21",
+            "@mimetype": "image/gif"
+          },
+          {
+            "@category": "thumbnail",
+            "@height": "110",
+            "@width": "219",
+            "@_fa": "true",
+            "$": "https://api.elsevier.com/content/object/eid/1-s2.0-S2468823121003424-gr20.sml?httpAccept=%2A%2F%2A",
+            "@multimediatype": "GIF image file",
+            "@type": "IMAGE-THUMBNAIL",
+            "@size": "8828",
+            "@ref": "gr20",
+            "@mimetype": "image/gif"
+          },
+          {
+            "@category": "thumbnail",
+            "@height": "129",
+            "@width": "219",
+            "@_fa": "true",
+            "$": "https://api.elsevier.com/content/object/eid/1-s2.0-S2468823121003424-gr2.sml?httpAccept=%2A%2F%2A",
+            "@multimediatype": "GIF image file",
+            "@type": "IMAGE-THUMBNAIL",
+            "@size": "18836",
+            "@ref": "gr2",
+            "@mimetype": "image/gif"
+          },
+          {
+            "@category": "thumbnail",
+            "@height": "145",
+            "@width": "219",
+            "@_fa": "true",
+            "$": "https://api.elsevier.com/content/object/eid/1-s2.0-S2468823121003424-gr14.sml?httpAccept=%2A%2F%2A",
+            "@multimediatype": "GIF image file",
+            "@type": "IMAGE-THUMBNAIL",
+            "@size": "12322",
+            "@ref": "gr14",
+            "@mimetype": "image/gif"
+          },
+          {
+            "@category": "thumbnail",
+            "@height": "109",
+            "@width": "219",
+            "@_fa": "true",
+            "$": "https://api.elsevier.com/content/object/eid/1-s2.0-S2468823121003424-gr3.sml?httpAccept=%2A%2F%2A",
+            "@multimediatype": "GIF image file",
+            "@type": "IMAGE-THUMBNAIL",
+            "@size": "7103",
+            "@ref": "gr3",
+            "@mimetype": "image/gif"
+          },
+          {
+            "@category": "thumbnail",
+            "@height": "138",
+            "@width": "219",
+            "@_fa": "true",
+            "$": "https://api.elsevier.com/content/object/eid/1-s2.0-S2468823121003424-gr13.sml?httpAccept=%2A%2F%2A",
+            "@multimediatype": "GIF image file",
+            "@type": "IMAGE-THUMBNAIL",
+            "@size": "11492",
+            "@ref": "gr13",
+            "@mimetype": "image/gif"
+          },
+          {
+            "@category": "thumbnail",
+            "@height": "139",
+            "@width": "219",
+            "@_fa": "true",
+            "$": "https://api.elsevier.com/content/object/eid/1-s2.0-S2468823121003424-gr12.sml?httpAccept=%2A%2F%2A",
+            "@multimediatype": "GIF image file",
+            "@type": "IMAGE-THUMBNAIL",
+            "@size": "11316",
+            "@ref": "gr12",
+            "@mimetype": "image/gif"
+          },
+          {
+            "@category": "thumbnail",
+            "@height": "71",
+            "@width": "219",
+            "@_fa": "true",
+            "$": "https://api.elsevier.com/content/object/eid/1-s2.0-S2468823121003424-gr1.sml?httpAccept=%2A%2F%2A",
+            "@multimediatype": "GIF image file",
+            "@type": "IMAGE-THUMBNAIL",
+            "@size": "12089",
+            "@ref": "gr1",
+            "@mimetype": "image/gif"
+          },
+          {
+            "@category": "thumbnail",
+            "@height": "142",
+            "@width": "219",
+            "@_fa": "true",
+            "$": "https://api.elsevier.com/content/object/eid/1-s2.0-S2468823121003424-gr11.sml?httpAccept=%2A%2F%2A",
+            "@multimediatype": "GIF image file",
+            "@type": "IMAGE-THUMBNAIL",
+            "@size": "10924",
+            "@ref": "gr11",
+            "@mimetype": "image/gif"
+          },
+          {
+            "@category": "thumbnail",
+            "@height": "111",
+            "@width": "219",
+            "@_fa": "true",
+            "$": "https://api.elsevier.com/content/object/eid/1-s2.0-S2468823121003424-gr6.sml?httpAccept=%2A%2F%2A",
+            "@multimediatype": "GIF image file",
+            "@type": "IMAGE-THUMBNAIL",
+            "@size": "9775",
+            "@ref": "gr6",
+            "@mimetype": "image/gif"
+          },
+          {
+            "@category": "thumbnail",
+            "@height": "111",
+            "@width": "219",
+            "@_fa": "true",
+            "$": "https://api.elsevier.com/content/object/eid/1-s2.0-S2468823121003424-gr7.sml?httpAccept=%2A%2F%2A",
+            "@multimediatype": "GIF image file",
+            "@type": "IMAGE-THUMBNAIL",
+            "@size": "8775",
+            "@ref": "gr7",
+            "@mimetype": "image/gif"
+          },
+          {
+            "@category": "thumbnail",
+            "@height": "123",
+            "@width": "219",
+            "@_fa": "true",
+            "$": "https://api.elsevier.com/content/object/eid/1-s2.0-S2468823121003424-gr4.sml?httpAccept=%2A%2F%2A",
+            "@multimediatype": "GIF image file",
+            "@type": "IMAGE-THUMBNAIL",
+            "@size": "8838",
+            "@ref": "gr4",
+            "@mimetype": "image/gif"
+          },
+          {
+            "@category": "thumbnail",
+            "@height": "112",
+            "@width": "219",
+            "@_fa": "true",
+            "$": "https://api.elsevier.com/content/object/eid/1-s2.0-S2468823121003424-gr5.sml?httpAccept=%2A%2F%2A",
+            "@multimediatype": "GIF image file",
+            "@type": "IMAGE-THUMBNAIL",
+            "@size": "8819",
+            "@ref": "gr5",
+            "@mimetype": "image/gif"
+          },
+          {
+            "@category": "thumbnail",
+            "@height": "122",
+            "@width": "219",
+            "@_fa": "true",
+            "$": "https://api.elsevier.com/content/object/eid/1-s2.0-S2468823121003424-gr8.sml?httpAccept=%2A%2F%2A",
+            "@multimediatype": "GIF image file",
+            "@type": "IMAGE-THUMBNAIL",
+            "@size": "9420",
+            "@ref": "gr8",
+            "@mimetype": "image/gif"
+          },
+          {
+            "@category": "thumbnail",
+            "@height": "112",
+            "@width": "219",
+            "@_fa": "true",
+            "$": "https://api.elsevier.com/content/object/eid/1-s2.0-S2468823121003424-gr9.sml?httpAccept=%2A%2F%2A",
+            "@multimediatype": "GIF image file",
+            "@type": "IMAGE-THUMBNAIL",
+            "@size": "9600",
+            "@ref": "gr9",
+            "@mimetype": "image/gif"
+          },
+          {
+            "@category": "thumbnail",
+            "@height": "103",
+            "@width": "219",
+            "@_fa": "true",
+            "$": "https://api.elsevier.com/content/object/eid/1-s2.0-S2468823121003424-ga1.sml?httpAccept=%2A%2F%2A",
+            "@multimediatype": "GIF image file",
+            "@type": "IMAGE-THUMBNAIL",
+            "@size": "12591",
+            "@ref": "ga1",
+            "@mimetype": "image/gif"
+          },
+          {
+            "@category": "high",
+            "@height": "1315",
+            "@width": "2175",
+            "@_fa": "true",
+            "$": "https://api.elsevier.com/content/object/eid/1-s2.0-S2468823121003424-gr18_lrg.jpg?httpAccept=%2A%2F%2A",
+            "@multimediatype": "JPEG image file",
+            "@type": "IMAGE-HIGH-RES",
+            "@size": "415738",
+            "@ref": "gr18",
+            "@mimetype": "image/jpeg"
+          },
+          {
+            "@category": "high",
+            "@height": "1499",
+            "@width": "2167",
+            "@_fa": "true",
+            "$": "https://api.elsevier.com/content/object/eid/1-s2.0-S2468823121003424-gr17_lrg.jpg?httpAccept=%2A%2F%2A",
+            "@multimediatype": "JPEG image file",
+            "@type": "IMAGE-HIGH-RES",
+            "@size": "381652",
+            "@ref": "gr17",
+            "@mimetype": "image/jpeg"
+          },
+          {
+            "@category": "high",
+            "@height": "1370",
+            "@width": "2175",
+            "@_fa": "true",
+            "$": "https://api.elsevier.com/content/object/eid/1-s2.0-S2468823121003424-gr16_lrg.jpg?httpAccept=%2A%2F%2A",
+            "@multimediatype": "JPEG image file",
+            "@type": "IMAGE-HIGH-RES",
+            "@size": "386281",
+            "@ref": "gr16",
+            "@mimetype": "image/jpeg"
+          },
+          {
+            "@category": "high",
+            "@height": "1194",
+            "@width": "2167",
+            "@_fa": "true",
+            "$": "https://api.elsevier.com/content/object/eid/1-s2.0-S2468823121003424-gr15_lrg.jpg?httpAccept=%2A%2F%2A",
+            "@multimediatype": "JPEG image file",
+            "@type": "IMAGE-HIGH-RES",
+            "@size": "345976",
+            "@ref": "gr15",
+            "@mimetype": "image/jpeg"
+          },
+          {
+            "@category": "high",
+            "@height": "1048",
+            "@width": "2083",
+            "@_fa": "true",
+            "$": "https://api.elsevier.com/content/object/eid/1-s2.0-S2468823121003424-gr19_lrg.jpg?httpAccept=%2A%2F%2A",
+            "@multimediatype": "JPEG image file",
+            "@type": "IMAGE-HIGH-RES",
+            "@size": "219847",
+            "@ref": "gr19",
+            "@mimetype": "image/jpeg"
+          },
+          {
+            "@category": "high",
+            "@height": "2149",
+            "@width": "3333",
+            "@_fa": "true",
+            "$": "https://api.elsevier.com/content/object/eid/1-s2.0-S2468823121003424-gr10_lrg.jpg?httpAccept=%2A%2F%2A",
+            "@multimediatype": "JPEG image file",
+            "@type": "IMAGE-HIGH-RES",
+            "@size": "786661",
+            "@ref": "gr10",
+            "@mimetype": "image/jpeg"
+          },
+          {
+            "@category": "high",
+            "@height": "1532",
+            "@width": "2831",
+            "@_fa": "true",
+            "$": "https://api.elsevier.com/content/object/eid/1-s2.0-S2468823121003424-gr21_lrg.jpg?httpAccept=%2A%2F%2A",
+            "@multimediatype": "JPEG image file",
+            "@type": "IMAGE-HIGH-RES",
+            "@size": "448284",
+            "@ref": "gr21",
+            "@mimetype": "image/jpeg"
+          },
+          {
+            "@category": "high",
+            "@height": "1336",
+            "@width": "2667",
+            "@_fa": "true",
+            "$": "https://api.elsevier.com/content/object/eid/1-s2.0-S2468823121003424-gr20_lrg.jpg?httpAccept=%2A%2F%2A",
+            "@multimediatype": "JPEG image file",
+            "@type": "IMAGE-HIGH-RES",
+            "@size": "330105",
+            "@ref": "gr20",
+            "@mimetype": "image/jpeg"
+          },
+          {
+            "@category": "high",
+            "@height": "1958",
+            "@width": "3333",
+            "@_fa": "true",
+            "$": "https://api.elsevier.com/content/object/eid/1-s2.0-S2468823121003424-gr2_lrg.jpg?httpAccept=%2A%2F%2A",
+            "@multimediatype": "JPEG image file",
+            "@type": "IMAGE-HIGH-RES",
+            "@size": "1225614",
+            "@ref": "gr2",
+            "@mimetype": "image/jpeg"
+          },
+          {
+            "@category": "high",
+            "@height": "1432",
+            "@width": "2167",
+            "@_fa": "true",
+            "$": "https://api.elsevier.com/content/object/eid/1-s2.0-S2468823121003424-gr14_lrg.jpg?httpAccept=%2A%2F%2A",
+            "@multimediatype": "JPEG image file",
+            "@type": "IMAGE-HIGH-RES",
+            "@size": "377436",
+            "@ref": "gr14",
+            "@mimetype": "image/jpeg"
+          },
+          {
+            "@category": "high",
+            "@height": "1079",
+            "@width": "2175",
+            "@_fa": "true",
+            "$": "https://api.elsevier.com/content/object/eid/1-s2.0-S2468823121003424-gr3_lrg.jpg?httpAccept=%2A%2F%2A",
+            "@multimediatype": "JPEG image file",
+            "@type": "IMAGE-HIGH-RES",
+            "@size": "175828",
+            "@ref": "gr3",
+            "@mimetype": "image/jpeg"
+          },
+          {
+            "@category": "high",
+            "@height": "1364",
+            "@width": "2167",
+            "@_fa": "true",
+            "$": "https://api.elsevier.com/content/object/eid/1-s2.0-S2468823121003424-gr13_lrg.jpg?httpAccept=%2A%2F%2A",
+            "@multimediatype": "JPEG image file",
+            "@type": "IMAGE-HIGH-RES",
+            "@size": "360792",
+            "@ref": "gr13",
+            "@mimetype": "image/jpeg"
+          },
+          {
+            "@category": "high",
+            "@height": "1381",
+            "@width": "2175",
+            "@_fa": "true",
+            "$": "https://api.elsevier.com/content/object/eid/1-s2.0-S2468823121003424-gr12_lrg.jpg?httpAccept=%2A%2F%2A",
+            "@multimediatype": "JPEG image file",
+            "@type": "IMAGE-HIGH-RES",
+            "@size": "364876",
+            "@ref": "gr12",
+            "@mimetype": "image/jpeg"
+          },
+          {
+            "@category": "high",
+            "@height": "814",
+            "@width": "2500",
+            "@_fa": "true",
+            "$": "https://api.elsevier.com/content/object/eid/1-s2.0-S2468823121003424-gr1_lrg.jpg?httpAccept=%2A%2F%2A",
+            "@multimediatype": "JPEG image file",
+            "@type": "IMAGE-HIGH-RES",
+            "@size": "427123",
+            "@ref": "gr1",
+            "@mimetype": "image/jpeg"
+          },
+          {
+            "@category": "high",
+            "@height": "1410",
+            "@width": "2167",
+            "@_fa": "true",
+            "$": "https://api.elsevier.com/content/object/eid/1-s2.0-S2468823121003424-gr11_lrg.jpg?httpAccept=%2A%2F%2A",
+            "@multimediatype": "JPEG image file",
+            "@type": "IMAGE-HIGH-RES",
+            "@size": "341623",
+            "@ref": "gr11",
+            "@mimetype": "image/jpeg"
+          },
+          {
+            "@category": "high",
+            "@height": "1097",
+            "@width": "2167",
+            "@_fa": "true",
+            "$": "https://api.elsevier.com/content/object/eid/1-s2.0-S2468823121003424-gr6_lrg.jpg?httpAccept=%2A%2F%2A",
+            "@multimediatype": "JPEG image file",
+            "@type": "IMAGE-HIGH-RES",
+            "@size": "257905",
+            "@ref": "gr6",
+            "@mimetype": "image/jpeg"
+          },
+          {
+            "@category": "high",
+            "@height": "1104",
+            "@width": "2175",
+            "@_fa": "true",
+            "$": "https://api.elsevier.com/content/object/eid/1-s2.0-S2468823121003424-gr7_lrg.jpg?httpAccept=%2A%2F%2A",
+            "@multimediatype": "JPEG image file",
+            "@type": "IMAGE-HIGH-RES",
+            "@size": "260179",
+            "@ref": "gr7",
+            "@mimetype": "image/jpeg"
+          },
+          {
+            "@category": "high",
+            "@height": "1218",
+            "@width": "2175",
+            "@_fa": "true",
+            "$": "https://api.elsevier.com/content/object/eid/1-s2.0-S2468823121003424-gr4_lrg.jpg?httpAccept=%2A%2F%2A",
+            "@multimediatype": "JPEG image file",
+            "@type": "IMAGE-HIGH-RES",
+            "@size": "223469",
+            "@ref": "gr4",
+            "@mimetype": "image/jpeg"
+          },
+          {
+            "@category": "high",
+            "@height": "1112",
+            "@width": "2167",
+            "@_fa": "true",
+            "$": "https://api.elsevier.com/content/object/eid/1-s2.0-S2468823121003424-gr5_lrg.jpg?httpAccept=%2A%2F%2A",
+            "@multimediatype": "JPEG image file",
+            "@type": "IMAGE-HIGH-RES",
+            "@size": "240631",
+            "@ref": "gr5",
+            "@mimetype": "image/jpeg"
+          },
+          {
+            "@category": "high",
+            "@height": "1205",
+            "@width": "2167",
+            "@_fa": "true",
+            "$": "https://api.elsevier.com/content/object/eid/1-s2.0-S2468823121003424-gr8_lrg.jpg?httpAccept=%2A%2F%2A",
+            "@multimediatype": "JPEG image file",
+            "@type": "IMAGE-HIGH-RES",
+            "@size": "275433",
+            "@ref": "gr8",
+            "@mimetype": "image/jpeg"
+          },
+          {
+            "@category": "high",
+            "@height": "1106",
+            "@width": "2167",
+            "@_fa": "true",
+            "$": "https://api.elsevier.com/content/object/eid/1-s2.0-S2468823121003424-gr9_lrg.jpg?httpAccept=%2A%2F%2A",
+            "@multimediatype": "JPEG image file",
+            "@type": "IMAGE-HIGH-RES",
+            "@size": "260890",
+            "@ref": "gr9",
+            "@mimetype": "image/jpeg"
+          },
+          {
+            "@category": "high",
+            "@height": "628",
+            "@width": "1333",
+            "@_fa": "true",
+            "$": "https://api.elsevier.com/content/object/eid/1-s2.0-S2468823121003424-ga1_lrg.jpg?httpAccept=%2A%2F%2A",
+            "@multimediatype": "JPEG image file",
+            "@type": "IMAGE-HIGH-RES",
+            "@size": "197436",
+            "@ref": "ga1",
+            "@mimetype": "image/jpeg"
+          },
+          {
+            "@category": "standard",
+            "@_fa": "true",
+            "$": "https://api.elsevier.com/content/object/eid/1-s2.0-S2468823121003424-mmc1.docx?httpAccept=%2A%2F%2A",
+            "@multimediatype": "Microsoft Word file",
+            "@type": "APPLICATION",
+            "@size": "1266773",
+            "@ref": "mmc1",
+            "@mimetype": "application/word"
+          },
+          {
+            "@category": "standard",
+            "@_fa": "true",
+            "$": "https://api.elsevier.com/content/object/eid/1-s2.0-S2468823121003424-am.pdf?httpAccept=%2A%2F%2A",
+            "@multimediatype": "Acrobat PDF file",
+            "@type": "AAM-PDF",
+            "@size": "4009369",
+            "@ref": "am",
+            "@mimetype": "application/pdf"
+          }
+        ]
+      },
+      "link": {
+        "@rel": "abstract",
+        "@href": "https://api.elsevier.com/content/abstract/scopus_id/85111024904"
+      }
+    }
+  }
+}

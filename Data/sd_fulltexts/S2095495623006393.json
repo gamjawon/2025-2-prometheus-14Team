@@ -1,0 +1,892 @@
+{
+  "metadata": {
+    "title": "Advances in sodium-ion batteries at low-temperature: Challenges and strategies",
+    "authors": "; ; ",
+    "journal": "Journal of Energy Chemistry",
+    "date": "2024-03-31",
+    "doi": "10.1016/j.jechem.2023.11.004",
+    "abstract": "",
+    "uri": "https://api.elsevier.com/content/article/pii/S2095495623006393",
+    "pii": "S2095495623006393"
+  },
+  "fulltext": {
+    "full-text-retrieval-response": {
+      "scopus-eid": "2-s2.0-85181122955",
+      "originalText": "serial JL 286353 291210 291711 291744 291809 31 Journal of Energy Chemistry JOURNALENERGYCHEMISTRY 2023-11-15 2023-11-15 2023-12-27 2023-12-27 2024-02-09T23:59:06 1-s2.0-S2095495623006393 S2095-4956(23)00639-3 S2095495623006393 10.1016/j.jechem.2023.11.004 S300 S300.1 FULL-TEXT 1-s2.0-S2095495623X00138 2024-02-10T00:10:12.454632Z 0 0 20240301 20240331 2024 2023-11-15T21:21:03.491376Z absattachment articleinfo articletitlenorm authfirstinitialnorm authfirstsurnamenorm cid cids contenttype copyright crossmark dateloaded dateloadedtxt datesearch datesort dateupdated dco docsubtype doctype doi eid ewtransactionid hubeid indexeddate issn issnnorm itemstage itemtransactionid itemweight openaccess openarchive pg pgfirst pglast pii piinorm pubdateend pubdatestart pubdatetxt pubyr sortorder srctitle srctitlenorm srctype ssids alllist content subj subheadings suppl tomb volfirst volissue volumelist webpdf webpdfpagecount yearnav figure e-component body acknowledge affil appendices articletitle auth authfirstini authfull authkeywords authlast grantnumber grantsponsor grantsponsorid orcid primabst pubtype ref specialabst vitae 2095-4956 20954956 false 90 90 C Volume 90 41 518 539 518 539 202403 March 2024 2024-03-01 2024-03-31 2024 article rev © 2023 Science Press and Dalian Institute of Chemical Physics, Chinese Academy of Sciences. Published by ELSEVIER B.V. and Science Press. All rights reserved. ADVANCESINSODIUMIONBATTERIESLOWTEMPERATURECHALLENGESSTRATEGIES BAI H 1 Introduction 2 Research progress of SIBs in LT environment 2.1 Reaction kinetics 2.1.1 Charge transfer 2.1.2 Mass transfer 2.2 Cycle stability 2.2.1 Why cycling stability is crucial? 2.2.2 Anode for LT long-lifespace SIBs 2.2.3 Cathode for LT long-lifespace SIBs 2.3 Safety concerns 2.3.1 Heat generation and thermal runaway 2.3.2 Inherently safe electrolytes 2.3.3 Electrolyte additives for SIBs 2.3.3.1 Flame retardant additives 2.3.3.2 Additives for overcharge protection 3 Strategies for LT SIB development 3.1 Sodium superionic conductor (NASICON) cathode 3.2 Effective anode materials 3.3 Chemical adjustments of cathode/electrolyte interface (CEI) 3.4 Solid electrolyte layer (SEI) 3.5 Harmonious integration of various structural components 4 Summary and outlook Acknowledgments Appendix A Supplementary data References GUO 2017 1701968 J BAI 2018 1702998 Q ORTIZVITORIANO 2017 1051 1074 N PENG 2016 1600025 L FANG 2017 1600392 Y SURTA 2022 2200647 T LONG 2018 1700634 H LI 2022 e202116930 Z HOU 2021 4023 4054 D GOODENOUGH 2013 1167 1176 J YOU 2016 7243 7248 Y WANG 2011 805 817 Y LIAO 2012 269 273 L NITTA 2015 252 264 N LIU 2016 109 123 C ARMAND 2008 652 657 M HWANG 2017 3529 3614 J LIANG 2023 2301975 X HUANG 2019 1808393 Y PERVEEN 2020 109549 T CUI 2021 2003178 X HU 2018 1801010 Y ZHENG 2020 1788 1798 X LIU 2021 382 395 W LIU 2021 335 344 X ZHENG 2021 4936 4947 X LI 2020 2000473 H DENG 2018 1701428 J DELMAS 2018 1703137 C DENG 2022 82 92 L YUAN 2020 2001418 H CHEN 2021 126736 S SUN 2022 2200716 Z GUO 2021 2010863 X JOW 2012 A604 A612 T HU 2020 Y NAIONBATTERIESSCIENCETECHNOLOGY FENG 2019 217 224 M YU 2021 54884 54893 H DAI 2021 18272 18279 D RUAN 2023 2301509 J URBAN 2016 16002 A LEE 2014 519 522 J CHENG 2021 102701 Y ZHANG 2021 5143 5151 J ZHANG 2018 549 554 W JONSSON 2012 10774 10779 E SU 2015 1401205 D SONG 2016 7815 7822 J KANG 2019 16149 16160 J YU 2022 139703 D LIU 2015 40 48 J LUI 2016 72 77 G CHEN 2021 115420 G NAKAMOTO 2018 1800220 K LIU 2020 1909530 Q HUANG 2023 832 845 G XIAO 2021 3735 3764 J ZHANG 2021 522 545 L WANG 2018 110 133 B LYU 2020 2000982 Y FERGUS 2010 939 954 J CHEN 2010 1588 1593 Z WANG 2015 9353 9378 L LIU 2016 1 15 Y BUIEL 1999 121 130 E IRISARRI 2015 A2476 A2482 E BAI 2023 289 X XUE 2020 4010 4015 Y KIM 2018 22809 22818 C MENG 2023 e2301376 W CALLEGARI 2021 13170 13182 D WANG 2021 156746 Y LI 2016 1600376 Q ZHANG 2021 400 417 W DENG 2020 155413 D QI 2021 128159 Y ZHOU 2022 134838 L WANG 2018 1703252 Y XU 2023 14329 14338 S RUI 2021 2009458 X WANG 2021 131251 C HU 2021 738 747 Y XING 2023 F JI 2020 1225 B WANG 2018 1 7 Q FENG 2022 436 444 J ZHOU 2023 479 486 D LIU 2022 478 485 H XIONG 2023 71 81 T YANG 2022 542 548 T YIN 2022 210 217 X ZHAO 2023 107053 L YANG 2020 2000974 C ZHAO 2020 7823 7830 X ZHANG 2022 e2107899 N XU 2020 1542 1554 J WU 2022 179 X WANG 2016 515 518 C HU 2020 100806 X CHAYAMBUKA 2018 1800079 K ESHETU 2020 2000093 G ZHANG 2020 237 257 J YANG 2019 17109 17127 J ZHANG 2018 15002 15027 H ZHANG 2006 1379 1394 S ABE 2014 167 207 K HAREGEWOIN 2016 1955 1988 A ZHANG 2021 2106047 Z FENG 2015 14539 14544 J JI 2020 104705 W ZHOU 2021 793 823 Q LIU 2016 756 761 T SHEN 2020 2006066 L LI 2022 461 472 J XIA 2022 143 Y QUE 2020 13765 13774 L ZHENG 2022 107693 Y DESAI 2023 102 117 P HWANG 2020 2001880 J DU 2019 1903351 G WANG 2018 52 60 Y OU 2016 410 416 X LV 2017 235501 X FAN 2019 7564 7570 X LIAO 2013 1699 1705 Y WANG 2022 4934 C MA 2018 195 203 Z GUO 2022 100187 R LI 2021 12406 12416 R MAO 2023 e2207224 Z JIN 2020 e1806304 T BEDA 2020 5558 5571 A ZHENG 2020 105123 X MUKAI 2017 864 872 K LI 2023 2274 2292 Z JIN 2023 e2208340 C RUSTOMJI 2017 1351 C BAIX2024X518 BAIX2024X518X539 BAIX2024X518XH BAIX2024X518X539XH 2025-12-27T00:00:00.000Z 2025-12-27T00:00:00.000Z http://creativecommons.org/licenses/by-nc-nd/4.0/ © 2023 Science Press and Dalian Institute of Chemical Physics, Chinese Academy of Sciences. Published by ELSEVIER B.V. and Science Press. All rights reserved. 2024-01-05T05:04:52.416Z http://vtw.elsevier.com/data/voc/AddOnTypes/50.7/aggregated-refined Natural Science Foundation of Jiangsu Province BK20220618 Natural Science Foundation of Jiangsu Province http://data.elsevier.com/vocabulary/SciValFunders/501100004608 http://sws.geonames.org/1814991/ JST Jiangsu Province Department of Science and Technology http://data.elsevier.com/vocabulary/SciValFunders/501100008868 http://sws.geonames.org/1814991 National Natural Science Foundation of China 21978026 22078028 NSFC National Natural Science Foundation of China http://data.elsevier.com/vocabulary/SciValFunders/501100001809 http://sws.geonames.org/1814991/ This work was supported by the Natural Science Foundation of Jiangsu Province (No. BK20220618 ) and the National Natural Science Foundation of China (Nos. 22078028 and 21978026 ). We would particularly like to thank Professor Huang Yanqiang for providing constructive feedback and valuable insights while writing the Review. item S2095-4956(23)00639-3 S2095495623006393 1-s2.0-S2095495623006393 10.1016/j.jechem.2023.11.004 286353 2024-02-10T00:10:12.454632Z 2024-03-01 2024-03-31 1-s2.0-S2095495623006393-main.pdf https://s3-eu-west-1.amazonaws.com/prod-ucs-content-store-eu-west/content/pii:S2095495623006393/MAIN/application/pdf/52e3a3dd0884d188dd995d7624bfc57b/main.pdf main.pdf pdf true 8463246 MAIN 22 1-s2.0-S2095495623006393-main_1.png https://s3-eu-west-1.amazonaws.com/prod-ucs-content-store-eu-west/content/pii:S2095495623006393/PREVIEW/image/png/4c281cabdb39a2f0d7adb5f55b32c1af/main_1.png main_1.png png 51083 849 656 IMAGE-WEB-PDF 1 1-s2.0-S2095495623006393-gr10.jpg https://s3-eu-west-1.amazonaws.com/prod-ucs-content-store-eu-west/content/pii:S2095495623006393/gr10/DOWNSAMPLED/image/jpeg/e156786bf78fe3f5f4182952727a28d6/gr10.jpg gr10 gr10.jpg jpg 159850 795 711 IMAGE-DOWNSAMPLED 1-s2.0-S2095495623006393-gr11.jpg https://s3-eu-west-1.amazonaws.com/prod-ucs-content-store-eu-west/content/pii:S2095495623006393/gr11/DOWNSAMPLED/image/jpeg/27b04e286cd994c855fd32be10a4e069/gr11.jpg gr11 gr11.jpg jpg 176217 856 622 IMAGE-DOWNSAMPLED 1-s2.0-S2095495623006393-gr12.jpg https://s3-eu-west-1.amazonaws.com/prod-ucs-content-store-eu-west/content/pii:S2095495623006393/gr12/DOWNSAMPLED/image/jpeg/0dd75269b705272bcce8caf9f69ca71a/gr12.jpg gr12 gr12.jpg jpg 98082 406 711 IMAGE-DOWNSAMPLED 1-s2.0-S2095495623006393-gr13.jpg https://s3-eu-west-1.amazonaws.com/prod-ucs-content-store-eu-west/content/pii:S2095495623006393/gr13/THUMBNAIL/image/jpeg/b331fea8175ea70b3b08feeae74c4de0/gr13.jpg gr13 gr13.jpg jpg 86431 566 533 IMAGE-DOWNSAMPLED 1-s2.0-S2095495623006393-gr14.jpg https://s3-eu-west-1.amazonaws.com/prod-ucs-content-store-eu-west/content/pii:S2095495623006393/gr14/DOWNSAMPLED/image/jpeg/373f978b7ab3b21478dd383bf24e36a7/gr14.jpg gr14 gr14.jpg jpg 101183 474 622 IMAGE-DOWNSAMPLED 1-s2.0-S2095495623006393-gr2.jpg https://s3-eu-west-1.amazonaws.com/prod-ucs-content-store-eu-west/content/pii:S2095495623006393/gr2/DOWNSAMPLED/image/jpeg/8f16207cb738a21c59644161368ea1b3/gr2.jpg gr2 gr2.jpg jpg 58497 324 622 IMAGE-DOWNSAMPLED 1-s2.0-S2095495623006393-gr3.jpg https://s3-eu-west-1.amazonaws.com/prod-ucs-content-store-eu-west/content/pii:S2095495623006393/gr3/DOWNSAMPLED/image/jpeg/8de54b76288442607e151b90be9d9739/gr3.jpg gr3 gr3.jpg jpg 110587 935 622 IMAGE-DOWNSAMPLED 1-s2.0-S2095495623006393-gr4.jpg https://s3-eu-west-1.amazonaws.com/prod-ucs-content-store-eu-west/content/pii:S2095495623006393/gr4/DOWNSAMPLED/image/jpeg/aece8cf1e1085372c878532a6cf7019a/gr4.jpg gr4 gr4.jpg jpg 224782 977 583 IMAGE-DOWNSAMPLED 1-s2.0-S2095495623006393-gr5.jpg https://s3-eu-west-1.amazonaws.com/prod-ucs-content-store-eu-west/content/pii:S2095495623006393/gr5/DOWNSAMPLED/image/jpeg/29fe00b8ba7d188e59c5e33743851f0f/gr5.jpg gr5 gr5.jpg jpg 120106 879 622 IMAGE-DOWNSAMPLED 1-s2.0-S2095495623006393-gr6.jpg https://s3-eu-west-1.amazonaws.com/prod-ucs-content-store-eu-west/content/pii:S2095495623006393/gr6/THUMBNAIL/image/jpeg/323cc025539b9bac9cc1da2f685f30f1/gr6.jpg gr6 gr6.jpg jpg 207529 825 622 IMAGE-DOWNSAMPLED 1-s2.0-S2095495623006393-gr7.jpg https://s3-eu-west-1.amazonaws.com/prod-ucs-content-store-eu-west/content/pii:S2095495623006393/gr7/DOWNSAMPLED/image/jpeg/41a803d168cf015d8e765da5a56492ac/gr7.jpg gr7 gr7.jpg jpg 178337 977 652 IMAGE-DOWNSAMPLED 1-s2.0-S2095495623006393-gr8.jpg https://s3-eu-west-1.amazonaws.com/prod-ucs-content-store-eu-west/content/pii:S2095495623006393/gr8/DOWNSAMPLED/image/jpeg/dacc202064d27330543bd110c55f327b/gr8.jpg gr8 gr8.jpg jpg 121450 530 711 IMAGE-DOWNSAMPLED 1-s2.0-S2095495623006393-gr9.jpg https://s3-eu-west-1.amazonaws.com/prod-ucs-content-store-eu-west/content/pii:S2095495623006393/gr9/DOWNSAMPLED/image/jpeg/424b1d5a9f013aa031b6887dfd43ddb0/gr9.jpg gr9 gr9.jpg jpg 52801 533 533 IMAGE-DOWNSAMPLED 1-s2.0-S2095495623006393-ga1.jpg https://s3-eu-west-1.amazonaws.com/prod-ucs-content-store-eu-west/content/pii:S2095495623006393/ga1/DOWNSAMPLED/image/jpeg/d5372bbf5aca25a849e1347d40dfdd82/ga1.jpg ga1 true ga1.jpg jpg 31880 200 372 IMAGE-DOWNSAMPLED 1-s2.0-S2095495623006393-fx1.jpg https://s3-eu-west-1.amazonaws.com/prod-ucs-content-store-eu-west/content/pii:S2095495623006393/fx1/DOWNSAMPLED/image/jpeg/e5daac90e6ea708c968079eb0ffea92e/fx1.jpg fx1 fx1.jpg jpg 4937 155 111 IMAGE-DOWNSAMPLED 1-s2.0-S2095495623006393-fx2.jpg https://s3-eu-west-1.amazonaws.com/prod-ucs-content-store-eu-west/content/pii:S2095495623006393/fx2/DOWNSAMPLED/image/jpeg/60d900701f142f6abf26c594f2cd7c5f/fx2.jpg fx2 fx2.jpg jpg 6664 155 111 IMAGE-DOWNSAMPLED 1-s2.0-S2095495623006393-fx3.jpg https://s3-eu-west-1.amazonaws.com/prod-ucs-content-store-eu-west/content/pii:S2095495623006393/fx3/DOWNSAMPLED/image/jpeg/dbf5539e823231c26e0d76d5f435470c/fx3.jpg fx3 fx3.jpg jpg 5592 155 111 IMAGE-DOWNSAMPLED 1-s2.0-S2095495623006393-fx4.jpg https://s3-eu-west-1.amazonaws.com/prod-ucs-content-store-eu-west/content/pii:S2095495623006393/fx4/DOWNSAMPLED/image/jpeg/9d88aa7510fb9e9c3b1498e1c1c59c4f/fx4.jpg fx4 fx4.jpg jpg 7877 155 111 IMAGE-DOWNSAMPLED 1-s2.0-S2095495623006393-fx5.jpg https://s3-eu-west-1.amazonaws.com/prod-ucs-content-store-eu-west/content/pii:S2095495623006393/fx5/DOWNSAMPLED/image/jpeg/f5cc136e4fcfa0f4304bb16dd5b2d72e/fx5.jpg fx5 fx5.jpg jpg 5998 155 111 IMAGE-DOWNSAMPLED 1-s2.0-S2095495623006393-fx6.jpg https://s3-eu-west-1.amazonaws.com/prod-ucs-content-store-eu-west/content/pii:S2095495623006393/fx6/DOWNSAMPLED/image/jpeg/74938ef945acb802f86c510916392d20/fx6.jpg fx6 fx6.jpg jpg 6040 155 111 IMAGE-DOWNSAMPLED 1-s2.0-S2095495623006393-gr1.jpg https://s3-eu-west-1.amazonaws.com/prod-ucs-content-store-eu-west/content/pii:S2095495623006393/gr1/DOWNSAMPLED/image/jpeg/bc1d85348b0772b074acc4f47e4f9cb3/gr1.jpg gr1 gr1.jpg jpg 160901 681 711 IMAGE-DOWNSAMPLED 1-s2.0-S2095495623006393-gr10.sml https://s3-eu-west-1.amazonaws.com/prod-ucs-content-store-eu-west/content/pii:S2095495623006393/gr10/THUMBNAIL/image/gif/b491641651d8409a952e62026d0735f9/gr10.sml gr10 gr10.sml sml 11137 163 146 IMAGE-THUMBNAIL 1-s2.0-S2095495623006393-gr11.sml https://s3-eu-west-1.amazonaws.com/prod-ucs-content-store-eu-west/content/pii:S2095495623006393/gr11/THUMBNAIL/image/gif/9891e38aaa48fe3e8a741bfc9c04a261/gr11.sml gr11 gr11.sml sml 12864 164 119 IMAGE-THUMBNAIL 1-s2.0-S2095495623006393-gr12.sml https://s3-eu-west-1.amazonaws.com/prod-ucs-content-store-eu-west/content/pii:S2095495623006393/gr12/THUMBNAIL/image/gif/bb7a72c140ca4167f051c52803ffcbf4/gr12.sml gr12 gr12.sml sml 16712 125 219 IMAGE-THUMBNAIL 1-s2.0-S2095495623006393-gr13.sml https://s3-eu-west-1.amazonaws.com/prod-ucs-content-store-eu-west/content/pii:S2095495623006393/gr13/THUMBNAIL/image/gif/62f0133ee0991430071e28f48aae5546/gr13.sml gr13 gr13.sml sml 13724 164 154 IMAGE-THUMBNAIL 1-s2.0-S2095495623006393-gr14.sml https://s3-eu-west-1.amazonaws.com/prod-ucs-content-store-eu-west/content/pii:S2095495623006393/gr14/HIGHRES/image/gif/2f52baedec1439cec8f8d56d80c77254/gr14.sml gr14 gr14.sml sml 15074 164 215 IMAGE-THUMBNAIL 1-s2.0-S2095495623006393-gr2.sml https://s3-eu-west-1.amazonaws.com/prod-ucs-content-store-eu-west/content/pii:S2095495623006393/gr2/THUMBNAIL/image/gif/e6912dab49a678dbd26cabe698de8625/gr2.sml gr2 gr2.sml sml 12512 114 219 IMAGE-THUMBNAIL 1-s2.0-S2095495623006393-gr3.sml https://s3-eu-west-1.amazonaws.com/prod-ucs-content-store-eu-west/content/pii:S2095495623006393/gr3/HEAD-TAIL/image/gif/f87c1a9c46a4fa6d1b5b4f031ec5d816/gr3.sml gr3 gr3.sml sml 8213 164 109 IMAGE-THUMBNAIL 1-s2.0-S2095495623006393-gr4.sml https://s3-eu-west-1.amazonaws.com/prod-ucs-content-store-eu-west/content/pii:S2095495623006393/gr4/THUMBNAIL/image/gif/99448164c72508a4a8ae1e91f07970a2/gr4.sml gr4 gr4.sml sml 12442 163 97 IMAGE-THUMBNAIL 1-s2.0-S2095495623006393-gr5.sml https://s3-eu-west-1.amazonaws.com/prod-ucs-content-store-eu-west/content/pii:S2095495623006393/gr5/THUMBNAIL/image/gif/8b0a4af99391e0c2a63b40162ec58ee2/gr5.sml gr5 gr5.sml sml 8072 164 116 IMAGE-THUMBNAIL 1-s2.0-S2095495623006393-gr6.sml https://s3-eu-west-1.amazonaws.com/prod-ucs-content-store-eu-west/content/pii:S2095495623006393/gr6/THUMBNAIL/image/gif/af12f0fe88c310ef18c9c51c88422be9/gr6.sml gr6 gr6.sml sml 16297 163 123 IMAGE-THUMBNAIL 1-s2.0-S2095495623006393-gr7.sml https://s3-eu-west-1.amazonaws.com/prod-ucs-content-store-eu-west/content/pii:S2095495623006393/gr7/THUMBNAIL/image/gif/febedca106bf6d63cb800dd0cc69d1aa/gr7.sml gr7 gr7.sml sml 9419 163 109 IMAGE-THUMBNAIL 1-s2.0-S2095495623006393-gr8.sml https://s3-eu-west-1.amazonaws.com/prod-ucs-content-store-eu-west/content/pii:S2095495623006393/gr8/THUMBNAIL/image/gif/992cadb48ebdcd2cbdf5a1868c787088/gr8.sml gr8 gr8.sml sml 17473 163 219 IMAGE-THUMBNAIL 1-s2.0-S2095495623006393-gr9.sml https://s3-eu-west-1.amazonaws.com/prod-ucs-content-store-eu-west/content/pii:S2095495623006393/gr9/THUMBNAIL/image/gif/35bc9ec3b3be1d7bafc85e4f5e579f90/gr9.sml gr9 gr9.sml sml 7724 164 164 IMAGE-THUMBNAIL 1-s2.0-S2095495623006393-ga1.sml https://s3-eu-west-1.amazonaws.com/prod-ucs-content-store-eu-west/content/pii:S2095495623006393/ga1/THUMBNAIL/image/gif/f57680a20793c2eb48faa2b5ded3bd94/ga1.sml ga1 true ga1.sml sml 20493 118 219 IMAGE-THUMBNAIL 1-s2.0-S2095495623006393-fx1.sml https://s3-eu-west-1.amazonaws.com/prod-ucs-content-store-eu-west/content/pii:S2095495623006393/fx1/THUMBNAIL/image/gif/7994389450c3b450d4416a558c8e5e1a/fx1.sml fx1 fx1.sml sml 11571 164 117 IMAGE-THUMBNAIL 1-s2.0-S2095495623006393-fx2.sml https://s3-eu-west-1.amazonaws.com/prod-ucs-content-store-eu-west/content/pii:S2095495623006393/fx2/THUMBNAIL/image/gif/4b11109ab529d87b7470e0d6118aed63/fx2.sml fx2 fx2.sml sml 14188 164 117 IMAGE-THUMBNAIL 1-s2.0-S2095495623006393-fx3.sml https://s3-eu-west-1.amazonaws.com/prod-ucs-content-store-eu-west/content/pii:S2095495623006393/fx3/THUMBNAIL/image/gif/b2a2d4d364ff46f74726d17abd8fb9b6/fx3.sml fx3 fx3.sml sml 13225 164 117 IMAGE-THUMBNAIL 1-s2.0-S2095495623006393-fx4.sml https://s3-eu-west-1.amazonaws.com/prod-ucs-content-store-eu-west/content/pii:S2095495623006393/fx4/THUMBNAIL/image/gif/59147754a5da4910526231e4fdf0e93f/fx4.sml fx4 fx4.sml sml 17462 164 117 IMAGE-THUMBNAIL 1-s2.0-S2095495623006393-fx5.sml https://s3-eu-west-1.amazonaws.com/prod-ucs-content-store-eu-west/content/pii:S2095495623006393/fx5/THUMBNAIL/image/gif/fa462ad293bd6e752aed47d0481e506f/fx5.sml fx5 fx5.sml sml 14647 164 117 IMAGE-THUMBNAIL 1-s2.0-S2095495623006393-fx6.sml https://s3-eu-west-1.amazonaws.com/prod-ucs-content-store-eu-west/content/pii:S2095495623006393/fx6/THUMBNAIL/image/gif/51ced319dd544608fc3b8ebfe3c41eea/fx6.sml fx6 fx6.sml sml 13956 164 117 IMAGE-THUMBNAIL 1-s2.0-S2095495623006393-gr1.sml https://s3-eu-west-1.amazonaws.com/prod-ucs-content-store-eu-west/content/pii:S2095495623006393/gr1/THUMBNAIL/image/gif/048b9ded434580c24eb3a2fc81c666b0/gr1.sml gr1 gr1.sml sml 15674 164 171 IMAGE-THUMBNAIL 1-s2.0-S2095495623006393-gr10_lrg.jpg https://s3-eu-west-1.amazonaws.com/prod-ucs-content-store-eu-west/content/pii:S2095495623006393/HIGHRES/image/jpeg/99251009c8248df0a4c60e0c9c9a9cab/gr10_lrg.jpg gr10 gr10_lrg.jpg jpg 825554 3523 3150 IMAGE-HIGH-RES 1-s2.0-S2095495623006393-gr11_lrg.jpg https://s3-eu-west-1.amazonaws.com/prod-ucs-content-store-eu-west/content/pii:S2095495623006393/HIGHRES/image/jpeg/61924c80350fb67ef8cd6bcfffb97191/gr11_lrg.jpg gr11 gr11_lrg.jpg jpg 1008260 3795 2756 IMAGE-HIGH-RES 1-s2.0-S2095495623006393-gr12_lrg.jpg https://s3-eu-west-1.amazonaws.com/prod-ucs-content-store-eu-west/content/pii:S2095495623006393/HIGHRES/image/jpeg/7575da3210de997c2482e90e24bb1203/gr12_lrg.jpg gr12 gr12_lrg.jpg jpg 528837 1799 3150 IMAGE-HIGH-RES 1-s2.0-S2095495623006393-gr13_lrg.jpg https://s3-eu-west-1.amazonaws.com/prod-ucs-content-store-eu-west/content/pii:S2095495623006393/HIGHRES/image/jpeg/7dda1f6c865adfd7423d49d8c53d2fae/gr13_lrg.jpg gr13 gr13_lrg.jpg jpg 483902 2510 2362 IMAGE-HIGH-RES 1-s2.0-S2095495623006393-gr14_lrg.jpg https://s3-eu-west-1.amazonaws.com/prod-ucs-content-store-eu-west/content/pii:S2095495623006393/HIGHRES/image/jpeg/f441b58800e7f16b86c469e76b51aed5/gr14_lrg.jpg gr14 gr14_lrg.jpg jpg 540898 2099 2756 IMAGE-HIGH-RES 1-s2.0-S2095495623006393-gr2_lrg.jpg https://s3-eu-west-1.amazonaws.com/prod-ucs-content-store-eu-west/content/pii:S2095495623006393/HIGHRES/image/jpeg/573f9156501972c69a96759ed9b22228/gr2_lrg.jpg gr2 gr2_lrg.jpg jpg 328155 1436 2756 IMAGE-HIGH-RES 1-s2.0-S2095495623006393-gr3_lrg.jpg https://s3-eu-west-1.amazonaws.com/prod-ucs-content-store-eu-west/content/pii:S2095495623006393/HIGHRES/image/jpeg/9d4136d485441111eb87ce855424e40b/gr3_lrg.jpg gr3 gr3_lrg.jpg jpg 606602 4141 2756 IMAGE-HIGH-RES 1-s2.0-S2095495623006393-gr4_lrg.jpg https://s3-eu-west-1.amazonaws.com/prod-ucs-content-store-eu-west/content/pii:S2095495623006393/HIGHRES/image/jpeg/b02289e2b62020d46256c675d6a6d822/gr4_lrg.jpg gr4 gr4_lrg.jpg jpg 1354424 4331 2584 IMAGE-HIGH-RES 1-s2.0-S2095495623006393-gr5_lrg.jpg https://s3-eu-west-1.amazonaws.com/prod-ucs-content-store-eu-west/content/pii:S2095495623006393/HIGHRES/image/jpeg/7b37eb480e20147325fb331e44b0cee7/gr5_lrg.jpg gr5 gr5_lrg.jpg jpg 694790 3894 2756 IMAGE-HIGH-RES 1-s2.0-S2095495623006393-gr6_lrg.jpg https://s3-eu-west-1.amazonaws.com/prod-ucs-content-store-eu-west/content/pii:S2095495623006393/HIGHRES/image/jpeg/3f088d955e4a1d07aab0fff8ab784ebb/gr6_lrg.jpg gr6 gr6_lrg.jpg jpg 1222985 3655 2756 IMAGE-HIGH-RES 1-s2.0-S2095495623006393-gr7_lrg.jpg https://s3-eu-west-1.amazonaws.com/prod-ucs-content-store-eu-west/content/pii:S2095495623006393/HIGHRES/image/jpeg/af78ab320323dda79fbf0c0b0ff87819/gr7_lrg.jpg gr7 gr7_lrg.jpg jpg 1004602 4331 2889 IMAGE-HIGH-RES 1-s2.0-S2095495623006393-gr8_lrg.jpg https://s3-eu-west-1.amazonaws.com/prod-ucs-content-store-eu-west/content/pii:S2095495623006393/HIGHRES/image/jpeg/6e51f5e1f78622fb59c810082e6bd9e1/gr8_lrg.jpg gr8 gr8_lrg.jpg jpg 625206 2347 3150 IMAGE-HIGH-RES 1-s2.0-S2095495623006393-gr9_lrg.jpg https://s3-eu-west-1.amazonaws.com/prod-ucs-content-store-eu-west/content/pii:S2095495623006393/HIGHRES/image/jpeg/696cd472baa74ce7401d41836eacd58b/gr9_lrg.jpg gr9 gr9_lrg.jpg jpg 283961 2363 2362 IMAGE-HIGH-RES 1-s2.0-S2095495623006393-ga1_lrg.jpg https://s3-eu-west-1.amazonaws.com/prod-ucs-content-store-eu-west/content/pii:S2095495623006393/DOWNSAMPLED/image/jpeg/e3fae0c1f2d6941ec59ec4bc821b8c78/ga1_lrg.jpg ga1 true ga1_lrg.jpg jpg 282302 886 1650 IMAGE-HIGH-RES 1-s2.0-S2095495623006393-fx1_lrg.jpg https://s3-eu-west-1.amazonaws.com/prod-ucs-content-store-eu-west/content/pii:S2095495623006393/HIGHRES/image/jpeg/00ed43aa495bb05bda8e825f00a42360/fx1_lrg.jpg fx1 fx1_lrg.jpg jpg 13993 413 295 IMAGE-HIGH-RES 1-s2.0-S2095495623006393-fx2_lrg.jpg https://s3-eu-west-1.amazonaws.com/prod-ucs-content-store-eu-west/content/pii:S2095495623006393/HIGHRES/image/jpeg/f43b618f8651629c0fb00d41d3ce304a/fx2_lrg.jpg fx2 fx2_lrg.jpg jpg 19405 413 295 IMAGE-HIGH-RES 1-s2.0-S2095495623006393-fx3_lrg.jpg https://s3-eu-west-1.amazonaws.com/prod-ucs-content-store-eu-west/content/pii:S2095495623006393/HIGHRES/image/jpeg/0bd76197f9c6e1004f633b8d5545d633/fx3_lrg.jpg fx3 fx3_lrg.jpg jpg 15313 413 295 IMAGE-HIGH-RES 1-s2.0-S2095495623006393-fx4_lrg.jpg https://s3-eu-west-1.amazonaws.com/prod-ucs-content-store-eu-west/content/pii:S2095495623006393/HIGHRES/image/jpeg/dc1414442ab366a0ce5fcedce5069210/fx4_lrg.jpg fx4 fx4_lrg.jpg jpg 30162 413 295 IMAGE-HIGH-RES 1-s2.0-S2095495623006393-fx5_lrg.jpg https://s3-eu-west-1.amazonaws.com/prod-ucs-content-store-eu-west/content/pii:S2095495623006393/HIGHRES/image/jpeg/718216e8b1feac668621c3cb36450915/fx5_lrg.jpg fx5 fx5_lrg.jpg jpg 18115 413 295 IMAGE-HIGH-RES 1-s2.0-S2095495623006393-fx6_lrg.jpg https://s3-eu-west-1.amazonaws.com/prod-ucs-content-store-eu-west/content/pii:S2095495623006393/HIGHRES/image/jpeg/fa589366806fa6167a94a7039bcae503/fx6_lrg.jpg fx6 fx6_lrg.jpg jpg 18656 413 295 IMAGE-HIGH-RES 1-s2.0-S2095495623006393-gr1_lrg.jpg https://s3-eu-west-1.amazonaws.com/prod-ucs-content-store-eu-west/content/pii:S2095495623006393/HIGHRES/image/jpeg/9f7c71fc2826c7253344a0e75c6e4963/gr1_lrg.jpg gr1 gr1_lrg.jpg jpg 940235 3019 3150 IMAGE-HIGH-RES 1-s2.0-S2095495623006393-mmc1.docx https://s3-eu-west-1.amazonaws.com/prod-ucs-content-store-eu-west/content/pii:S2095495623006393/mmc1/MAIN/application/vnd.openxmlformats-officedocument.wordprocessingml.document/f88cd1d87a0053a50ba104301701da7a/mmc1.docx mmc1 mmc1.docx docx 27716 APPLICATION 1-s2.0-S2095495623006393-am.pdf https://s3-eu-west-1.amazonaws.com/prod-ucs-content-store-eu-west/content/egi:1066SFK4TNG/MAIN/application/pdf/147d91aa4905ac7afddff5ff8df9c040/am.pdf am am.pdf pdf false 3885248 AAM-PDF JECHEM 3492 S2095-4956(23)00639-3 10.1016/j.jechem.2023.11.004 Science Press and Dalian Institute of Chemical Physics, Chinese Academy of Sciences Fig. 1 Recent research progress of (a) cathode, and (b) anode electrode materials for SIBs. Reproduced with permission from Ref. [17]. Copyright 2017, Royal Society of Chemistry. And (c) typical electrolytes and interfaces models of SIBs with both liquid and solid states as well as various components, with corresponding properties and sodium-ion transport mechanisms. Reproduced with permission from Ref. [19]. Copyright 2019, Wiley. (d) Publications in recent decades with the specific temperature range involved in and (e) corresponding word cloud of 25 research areas out of 92 entries with 79 records (0.553%) do not contain data in the field being analyzed. Fig. 2 Four key indicators in regard to SIBs and their related problems. Fig. 3 (a) Schematics of the battery design principle showing the difference between adopting solid metal or liquid metal as electrodes with a solid polymer electrolyte. The inset scheme indicates the solid polymer electrolytes (SPE) composition designed for demonstration. Reproduced with permission from Ref. [34]. Copyright 2021, Wiley. Schematic illustration of ion transport in B-CPE (b) and composite polymer electrolyte without B (C-CPE) (c) during the charge–discharge process. Reproduced with permission from Ref. [32]. Copyright 2021, Elsevier. Fig. 4 (a) A schematic illustration shows the reaction path of a typical electrode process together with Na+ transport behavior. Reproduced with permission from Ref. [30]. Copyright 2022, Elsevier. (b) A schematic illustration shows the reaction path of a typical electrode process together with Na+ transport behavior. Plots are obtained, rearranged, and relabeled from Ref. [41] with permission from Wiley. (c) The corresponding migration energy of Na+ in different migration paths in materials. Reproduced with permission from Ref. [11]. Copyright 2016, Wiley. (d) Illustration of freezing process from 25 °C to − 30 °C for Na2SO4-SiO2 hydrogel electrolytes. Reproduced with permission from Ref. [44]. Copyright 2021, Elsevier. (e) Migration pathways and the corresponding diffusion energy barriers. Reproduced with permission from Ref. [45]. Copyright 2021, Royal Society of Chemistry. Fig. 5 Schematic diagrams of (a) 3D primary mesoporous and nanostructure, (b) well-crystallized framework of the ion transport channel presented by the Conolly surface with a radius of 0.9 Å (grey: high value inside, yellow: low value outside, respectively), (c) 2D nanoplates with induced interlayer anionic ligands and (d) their corresponding performance parameters. (e) The charge and discharge capacity of the TiO2@rGO versus cycle number at current densities of 5 C in the temperature of −20 and −40 °C, respectively. Reproduced with permission from Ref. [76]. Copyright 2020, Elsevier. (f) Cycling performance of the KTOP electrode at −35 °C and 3 C. Reproduced with permission from Ref. [77]. Copyright 2021, Elsevier. (g) Cycle performance and coulombic efficiency at 0.2 C for NbSSe, NbS2, and NbSe2 under 0 °C. Reproduced with permission from Ref. [78]. Copyright 2022, Elsevier. Fig. 6 (a and b) The crystal structure diagrams of NVPOF and NTP, respectively. (c) Diagram of Na+ transport channel structure presented by the Conolly surface with a radius of 0.9 Å (grey: high value inside, yellow: low value outside, respectively) for Na+ superconducting material. (d and e) Morphology characterizations of the as-prepared (d) porous NVP/C-F and (e) foam NTP/C-F. Corresponding (f) Cycling performance at 0.2 C, (g) rate capability, and (h) long-term cycling performance at high rates of 10 and 20 C. Reproduced with permission from Ref. [81]. Copyright 2020, Wiley. (i) Schematics illustration of interfacial engineering of CB-NVPOF and its performance. Reproduced with permission from Ref. [80]. Copyright 2023, American Chemical Society. Fig. 7 (a) Schematic diagram of heat generation source in a sodium ion battery. (b) Schematic illustration of the thermal runaway process of a Na-ion battery. Inset photo shows a split and parched sodium pouch cell after thermal runaway process. Reproduced with permission from Ref. [94]. Copyright 2020, Wiley. (c) Diffusion kinetics of NVPOF at different temperatures. Diffusion coefficients at different temperatures during discharging. Reproduced with permission from Ref. [95]. Copyright 2020, Wiley. Fig. 8 Schematic illustration of the inherent advantages of polymer electrolytes (PEs) for advanced SIBs as compared with that of liquid electrolytes (LEs): (a) Non-leakage and flexible properties. (b) Suppressing the growth of sodium dendrites and (c) fewer decompositions of electrolytes. Reproduced with permission from Ref. [104]. Copyright 2019, American Chemical Society. Fig. 9 Three typical types of electrolyte additives and corresponding representatives for thermal runaway. Fig. 10 Schematic illustration of (a) the Na+ hopping transportation in crystalline structure and (b) synthesis of the NVP@C nanocomposite. (c) Rate performance of the NVP@C at different temperatures. (d) Cycling performance of the NVP@C with 1 C. Reproduced with permission from Ref. [113]. Copyright 2016, Elsevier. The LT performance of NVPF-NTP: (e) Galvanostatic discharge curves of NVPF-NTP cycled at 0.2C (25 to −25 °C) and (f) corresponding capacity retentions at various rates. (g) The performance of the Sb-CNT//NVPF-NTP full cell. The right inset in (g) shows the application of full cell, powering 33 LED bulbs. Reproduced with permission from Ref. [1]. Copyright 2017 Wiley. Fig. 11 (a) Illustrations of the Na+ diffusion and electron transportation in the desired a-KTiO x /Ti2CT x electrode. (b) Nyquist plots of a-KTiO x /Ti2CT x electrode after 100 cycles at 0.1 A g−1. (c) Schematic illustration for the preparation of a-KTiO x /Ti2CT x . (d and e) FESEM images of pristine Ti2AlC MAX, (f and g) multi-layered Ti2CT x , and (h and i) a-KTiO x /Ti2CT x with different magnifications. Reproduced with permission from Ref. [115]. Copyright 2022, Elsevier. (j) Schematic diagram of enhanced storage of Na ions at LT by interlayer restriction of Sn2+. Reproduced with permission from Ref. [117]. Copyright 2020, American Chemical Society. (k) Schematic diagram of tailoring nitrogen terminals on MXene. Images are obtained and relabeled from Ref. [116] with permission from Springer. Fig. 12 (a) Scheme of electrode kinetic acceleration by self-construction of solvent-separated ion pair in the weakly-solvating structure. (b) Arrhenius plots for charge transfer active energy (E a,ct) and the active energy corresponding to Na+ transport through the compact CEI (E a,CEI) of the NVPF cathodes in different electrolytes. (c) Long-term cycling performance of the NVPF cathodes at 1 C and –25 °C. (d) A schematic illustration of the NVPF/interface/electrolyte system in the weakly-solvating electrolyte. Reproduced with permission from Ref. [30]. Copyright 2022, Elsevier. Fig. 13 (a) Schematic diagram of a battery system constituted by a cathode, an anode, and an electrolyte, with chemically, thermodynamically, and mechanically compatible properties. Reproduced with permission from Ref. [8]. Copyright 2022, Wiley. (b) The green and red regions show the optimum and poor salt reduction potentials for building a uniform SEI. Reproduced with permission from Ref. [127]. Copyright 2022, Nature Publishing Group. Fig. 14 Physical and chemical properties of liquefied gas solvents. (a) Density functional theory-calculated ionization potentials and electron affinities. (b) Electrostatic potential maps. (c) Relative dielectric, viscosity, and dielectric-fluidity values. (d) Vapor pressure curves with a liquid range of various conventional and liquefied gas solvents. Reproduced with permission from Ref. [138]. Copyright 2017, American Association for the Advancement of Science. Review Advances in sodium-ion batteries at low-temperature: Challenges and strategies Haoran Bai a Xiaohui Zhu a Huaisheng Ao a Guangyu He a ⁎ Hai Xiao b Yinjuan Chen a ⁎ a Key Laboratory of Advanced Catalytic Materials and Technology, Advanced Catalysis and Green Manufacturing Collaborative Innovation Center, Changzhou University, Changzhou 213164, Jiangsu, China Key Laboratory of Advanced Catalytic Materials and Technology Advanced Catalysis and Green Manufacturing Collaborative Innovation Center Changzhou University Changzhou Jiangsu 213164 China Key Laboratory of Advanced Catalytic Materials and Technology, Advanced Catalysis and Green Manufacturing Collaborative Innovation Center, Changzhou University, Changzhou 213164, Jiangsu, China b Department of Chemistry, Tsinghua University, Beijing 100084, China Department of Chemistry Tsinghua University Beijing 100084 China Department of Chemistry, Tsinghua University, Beijing 100084, China ⁎ Corresponding authors. Graphical abstract Diagram depicting reaction kinetics, cycle stability, and safety of sodium-ion batteries during the charge and discharge process of equipment at low temperatures. With the continuing boost in the demand for energy storage, there is an increasing requirement for batteries to be capable of operation in extreme environmental conditions. Sodium-ion batteries (SIBs) have emerged as a highly promising energy storage solution due to their promising performance over a wide range of temperatures and the abundance of sodium resources in the earth's crust. Compared to lithium-ion batteries (LIBs), although sodium ions possess a larger ionic radius, they are more easily desolvated than lithium ions. Furthermore, SIBs have a smaller Stokes radius than lithium ions, resulting in improved sodium-ion mobility in the electrolyte. Nevertheless, SIBs demonstrate a significant decrease in performance at low temperatures (LT), which constrains their operation in harsh weather conditions. Despite the increasing interest in SIBs, there is a notable scarcity of research focusing specifically on their mechanism under LT conditions. This review explores recent research that considers the thermal tolerance of SIBs from an inner chemistry process perspective, spanning a wide temperature spectrum (−70 to 100 °C), particularly at LT conditions. In addition, the enhancement of electrochemical performance in LT SIBs is based on improvements in reaction kinetics and cycling stability achieved through the utilization of effective electrode materials and electrolyte components. Furthermore, the safety concerns associated with SIBs are addressed and effective strategies are proposed for mitigating these issues. Finally, prospects conducted to extend the environmental frontiers of commercial SIBs are discussed mainly from three viewpoints including innovations in materials, development and research of relevant theoretical mechanisms, and intelligent safety management system establishment for larger-scale energy storage SIBs. Keywords Low-temperature Sodium-ion batteries Reaction kinetics Cycle stability Safety concerns of Sodium-ion batteries 1 Introduction In the context of the turnaround in energy policy and rapidly increasing demand for energy storage, sodium-ion batteries (SIBs) with similar operation mechanisms to the domain commercialized lithium-ion batteries (LIBs) have received widespread attention due to low materials cost, high natural abundance, and improved wide service temperature range (−70 to 100 °C) [1–8]. Despite the advancements in many other beyond-Li technologies, such as K and Mg-ion batteries, SIBs offer the best performance, cost-effectiveness, and scalability, and have recently approached the stage of commercialization [9]. However, for the storage of clean energies such as solar energy, wind energy, hydro energy, storage devices used for peak shaving and valley filling require a broader temperature range and higher performance stability [10]. Unfortunately, while the temperature falls into the subzero range, the viscosity of the electrolyte and the impedance of the solid electrolyte interphase (SEI) film increase as the conductivity decreases, the compatibility of electrodes deteriorate, which greatly reduces the energy density and cycle performance of the batteries [11–13]. Recently, research on SIB with wide temperature range service performance has flourished, providing deeper insights into their behavior at specific temperature ranges [14–16]. Fig. 1 illustrates and summarizes the materials used in cathodes, anodes, and electrolytes [17]. Highly reversible cathode materials involving the interstitial introduction of Na+ are needed for high capacity and good cyclability of SIBs, including Prussian Blue analogs (PBAs), polyanionic compounds, organic compounds, transition metal oxides, and NASICON (Na superionic conductor) types have been developed to date (Fig. 1a) [18]. Additionally, significant progress has been made in the development of anodes for SIBs, through the utilization of carbonaceous materials, transition metal oxides (or sulfides), intermetallic compounds, and organic compounds (Fig. 1b). The electrolyte, as an essential medium for internal communication within the battery, is developed and optimized in parallel with the research on cathode and anode electrode materials. Huang et al. [19] described typical electrolytes and interface models of SIBs with both liquid and solid states and varied components, with corresponding properties and sodium-ion transport mechanisms (Fig. 1c). As is shown in Fig. 1(d), researchers focused on SIBs tailored to specific temperatures ranges such as room, high, and low-temperatures, have grown in parallel with the publication of literature on SIBs. In addition to obvious fields like chemistry and materials science, the development and improvement of high-cost-effectiveness SIBs involves numerous research areas, such as crystallography, polymer science, metallurgy metallurgical engineering as well as relatively low-frequency disciplines, including business economics and thermodynamics (Fig. 1e). However, due to the complexity of battery systems, the inherent non-equilibrium nature during charge/discharge processes, and the imperfection in non-equilibrium theoretical mechanisms of electrochemistry, there are limited reports on key scientific issues related to ion diffusion dynamics and kinetics of electrode surface non-equilibrium reaction dynamics. Similar to LIBs, SIBs follow a comparable mechanism, whereby ions shuttle reversibly between two electrodes, conducting ions in the electrolyte through a “rocking chair mechanism” [20]. Typically, during the charge–discharge process of batteries, challenges are involved in operating safety, high reactivity, Na dendritic growth, and significant volume changes, which pose a considerable obstacle to their stable operation [21,22]. The room temperature (RT) SIBs containing metal sodium anodes and flammable organic solvent electrolytes have serious safety problems. However, introducing non-flammable, highly-fluorinated structures as bridge solvents, enabled superior miscibility into fluorinated carbonate electrolyte [23]. The dendrite growth that causes electrical shorting and cell failure is mainly due to the cycling instability of the SEI of Na metal anode [24,25]. Thus, many comprehensive strategies in terms of electrolyte formulation, artificial single event latch-up engineering, current collector design, etc. were implemented to stabilize Na metal and permit its long-term operation at RT. However, the LT performance of SIBs remains to be further studied and summarized. Given the significance of LT battery operation in a variety of applications such as electric vehicles, large-scale energy storage devices in extreme weather conditions, and space missions, it is thus urgent to explore the behavior of sodium at LT [26]. This paper summarizes the problems and challenges faced by SIBs at LT. Specifically, reaction kinetics, cycle stability, and storage performance at LT of SIB are analyzed. In addition, the current safety problems of SIBs and their prevention and response strategies related to the sluggish kinetics caused by LT conditions are highlighted in this review (Fig. 2 ). This unique perspective aims to inspire researchers in the field to develop high-performance SIBs in LT and to “attract jade” for prolongating the pathways of SIBs application in the field of large-scale energy storage, especially at LT. Last but not least, the urgentness of both relevant theoretical mechanisms developing and establishing, as well as intelligent safety management system development for larger-scale energy storage SIBs are discussed from the perspective of addition to materials innovation. 2 Research progress of SIBs in LT environment Despite the growing popularity of SIB research, there remains an inadequate availability of batteries with the necessary electrochemical performance at LT to facilitate their widespread commercial and industrial implementation under extreme conditions. The primary technical obstacles related to SIBs involve the limited spread and restitution of ions as a result of the instability of electrode materials when undergoing electrochemical cycling, alongside uncontrolled side effects that arise at the electrode/electrolyte interface [27–29]. 2.1 Reaction kinetics The limitations of SIBs in cold environments are primarily attributed to two factors: the slow charge transfer process at the electrode/electrolyte interface and the slow mass transfer process in the electrolyte, both of which result in inherent hysteresis dynamics at LT [30]. 2.1.1 Charge transfer For the problem of slow charge transfer at the electrode/electrolyte interface, solid-state batteries are currently the most studied, and researchers are tackling these problems in different ways [31–33]. Accordingly, ether-based electrolytes with high-capacity alloy-type anodes were paired to achieve fast both charge and ion storage kinetics [31]. The DME (ethylene glycol dimethyl ether)-based cell exhibited a low charge transfer resistance (R ct) of 7 Ω cm2, which was kept at <10 Ω cm2 during 50 cycles, indicating the fast and stable charge transfer kinetics at the electrode/electrolyte interface. A liquid Na-K alloy anode is employed as an ideal alternative to the high-energy–density alkali-metal anodes for superior compatibility in solid-state batteries due to the conformal interfacial contact that benefits both physical and electrically (Fig. 3 a) [34]. An innovative three-dimensional (3D) composite polymer electrolyte modified with anion-trapping boron (B-CPE) is reported, thus the solid-state SIBs were assembled by a one-step in situ solidification method to form “gentle” electrode/electrolyte contact, with the charge-transfer efficiency significantly improved at the electrode/electrolyte interface as well as in cathode due to the formation of ion-conducting continuous polymer phase (Fig. 3b) [33]. 2.1.2 Mass transfer In addition to the great challenges of the rapid ion transport process and charge transfer reaction, the electrical contact between the active material and the current collector in the electrode will deteriorate with the slower diffusion process of Na+ in the solid phase. The diffusion process of ions in electrode materials often has a diffusion energy barrier. Therefore, according to the Arrhenius equation and the Van' t Hoff rule, the larger the activation energy E a or the lower the temperature, the more sensitive the reaction rate constant is to temperature changes [35,36]. As is shown in Table S1, Hu et al. summarized some typical electrode materials with relatively lower Na+ diffusion energy barriers which are promising alternatives for LT SIBs [37]. Some researchers improved electrode materials by carbon coating [38] and element doping [39,40], but the results are not ideal. Delightfully, weakly solvated structures and high ionic conductivity have become promising strategies for enhancing Na+ transportation at LT. Which are beneficial for both the cathode/electrolyte interface (CEI) layer and the solid electrolyte interphase (SEI) (Fig. 4 a and b) [30,41]. The ability of ions to diffuse through solids, electrode/electrolyte interfaces, and liquids has an impact on the battery's power density and rate capacity [11], which also determines the time required for the battery to complete the charge and discharge process [42,43]. You et al. [11] have reported a subzero-temperature cathode material by nucleating cubic Prussian blue crystals at inhomogeneities in carbon nanotubes. Instead of a single Na+ diffusion path, a cooperative Na+ migration path was proposed with remarkable energy barriers decreasing in Na x FeFe(CN)6 by using a DFT calculation (Fig. 4c). Cheng et al. [44] reported a gel-based fumed silica with methanol as an antifreeze additive, which worked at –30 °C (Fig. 4d). The SIBs based on Na2SO4-SiO2 hydrogel electrolytes have higher capacity retention and conductivity at LT (0.070 mS cm−1 at − 30 °C). The main reason is that at LT, the precipitation of Na2SO4 and the continued growth of Na2SO4 grains are highly inhibited by the material. Zhang et al. [45] proposed one kind of two-dimensional (2D) material with buckled configuration for which was first used as an anode material (b-AsP monolayer) for Li/Na-ion batteries. A systematic theoretical investigation was carried out to determine the geometric structure, electronic, and electrochemical properties of the b-AsP monolayer by using DFT calculations. Lower energy barriers both for Li (0.15–0.17 eV), and Na (0.07–0.08 eV) were estimated for b-AsP monolayer compared with many other 2D anode materials by diffusivity studies (Fig. 4e). The main influencing factors of the chemical diffusion coefficient in solids are the ion diffusion pathway and activation energy [46]. It is often difficult to obtain these details from the experiments and in terms of various electrode materials, especially their specific reaction mechanisms at the atomic level. Therefore, the density functional theory (DFT) method is used to study the related reaction kinetics such as the migration barrier, and clarify the diffusion pathway [45,47]. In addition, the rapid migration rate of ions in electrode materials requires not only a low migration energy barrier but also a short diffusion pathway [48,49]. Nanoparticles provide a shorter diffusion path leading to an enhanced charge–discharge rate [48]. However, although nano-design can accelerate the reaction kinetics to a certain extent, thereby increasing the reaction rate, other aspects of nanomaterials such as high cost, low tap density, and serious side reactions will lead to low coulombic efficiency and reduced volumetric energy density [45,50]. In addition, materials with 2D or 3D structures are likely to exhibit high-rate performance, because they can provide more diffusion channels for ion migration [51–57]. 2.2 Cycle stability 2.2.1 Why cycling stability is crucial? Cycling stability also plays a crucial role in assessing the reliability of battery systems. The larger atomic radius of Na+ (1.02 Å) compared to Li+ (0.76 Å) leads to volume variations during electrochemical cycling, which are key issues causing electrode material pulverization and capacity fading [58]. The average voltage and capacity of representative electrode materials such as LIBs and SIBs are summarized as shown in Table S2 [17,59–67]. Although there are various materials available for positive electrodes in SIBs, as with LIBs, the available anode candidates are limited. Sodium foil should be avoided for SIBs due to its high reactivity, instability in organic electrolytes and tendency to form dendrites; it also poses a safety risk with a low melting point of 97.7 °C. To address this, researchers are investigating types of anode materials, including carbonaceous materials, metal oxides, alloys, sulphides and phosphates, organic compounds and 2D materials [68]. While graphite that has been widely used as an anode material for commercial LIBs is not suitable for SIBs due to thermodynamic limitations. Graphite reacts exclusively with sodium, forming NaC64 which has a limited capacity, thus making it an impractical anode material for SIBs. Thus, hard carbon anodes are highly promising for SIBs with lower sodium-embedded platform and higher specific capacity [69]. However, pure hard carbon generally exhibits a very low initial coulombic efficiency, low electronic conductance, and other drawbacks. Autonomous “self-healing” metal alloys and phosphates have emerged exhibiting enhanced ultra-long cycle life at high and even RT attributed to a reversible conversion reaction combined with an alloy reaction [70–73]. To the best of our knowledge, “self-healing” materials are rarely reported for LT SIBs due to the temperature dependent alloying mechanism. However, it should be noted that the low energy capacity and poor cycle stability of SIBs are the primary hurdles for their potential large-scale energy storage applications [74]. Particularly, when replacement or maintenance of electric energy storage becomes necessary, the higher cost of SIBs demands greater stability and longer service life. Hence, cycle stability serves as a vital indicator for assessing the reliability of battery systems [75]. Therefore, designing sodium-rich layered compounds as cathodes may be an effective way to improve the specific energy. In view of the materials design, the proper selection of substituted cations with large ionic radius could be beneficial to the accommodation of more Na ions in the layered structure. The compounds with high Na content are generally not stable, however, due to the crystal distortion or phase transitions during electrochemical cycling. In the future, utilizing the redox couples such as by the introduction of Mg, Ti, and Al as structural stabilizers should also be taken into consideration. The stability of the positive and negative electrode materials stands out as the key factor influencing the cycle performance of SIBs. Theoretically, if the positive and negative electrode materials can be fully recovered each time, the lifespan of SIBs would be infinitely long. In fact, with each cycle, the positive and negative electrode materials experience deterioration, leading to a gradual attenuation of the cycle capacity. Since charge transport, ion diffusion, and interfacial reactions are unavoidable, the development of materials with low-temperature self-healing properties or higher flexibility in structural and electronic property changes is potentially valuable for the application of LT SIBs in extreme climatic conditions. 2.2.2 Anode for LT long-lifespace SIBs Deng et al. [76] synthesized a 3D mesoporous TiO2@reduced graphene oxide (TiO2@rGO) structure by in-situ reduction of graphene and oxidized Ti3+ (Fig. 5 a). The material has excellent capacity retention and rate performance, a current density of 7 A g−1, a capacity retention rate of more than 90%, and a capacity decay rate of 0.0003% per cycle. The material also has excellent LT properties, with the electrode still able to provide high capacity at a rate of 20C (7 A g−1) at fairly LT (−40 °C), which is one of the best LT properties of SIBs up to the publication of the specific work (Fig. 5e). The excellent electrochemical performance of the material is mainly due to the strong crystal structure of TiO2 to ensure the cycle stability and LT performance of the battery. And the mesoporous and nanostructure primary building of TiO2 sheets offer fast ion insertion/deinsertion and short diffusion distance. A kind of well-crystallized KTiOPO4 (KTOP) nanoparticles with stable primary ion transport channels were prepared through a one-step hydrothermal method as anode materials for SIBs and potassium ion batteries (PIBs) [77]. Without the need for carbon coating or high-temperature treatment, the KTOP nanoparticles exhibit remarkable electrochemical performance in Na/K-ion batteries. Key highlights of their performance include high reversible capacities, superior rate capabilities (103.0 mA h g−1 at 100 C in SIBs), and excellent cycling stability (91% capacity retention at 30C in SIBs after 1000 cycles and 78.4% capacity retention at 20 C in PIBs after 10,000 cycles). Notably, these nanoparticles demonstrate exceptional performance even at LT (no capacity decay after 550 cycles at 3 C and −35 °C) and in Na-ion full cells. The outstanding electrochemical performance can be attributed to the stable framework and highly reversible reactions during the Na+/K+ (de)insertion process (Fig. 5f). These findings highlight the potential of the KTOP nanoparticles as promising Na/K-ion reservoirs. Zhou et al. [78] developed a 2D NbSSe material as an anode material for LT SIBs with a consolidated interlayer band gap and an optimized electronic structure that induces interlayer anionic ligands. The material has high electrical conductivity and good affinity with sodium ions at LT due to the complementary advantages of combining two anionic ligands (Fig. 5g). Provides a highly reversible capacity of 136 mA h g−1 at 0 °C, maintaining 92.67% after 500 cycles at 0.2 C. The sodium ion diffusion coefficients are in the range of 3.23 × 10–13 to 4.47 × 10–12 at 0 °C with a diffusion apparent activation energy of 54.92 kJ mol−1 and an activation energy of 65.97 kJ mol−1. 2.2.3 Cathode for LT long-lifespace SIBs To improve the intrinsic long cycling performance and LT Na storage of SIBs, a superior cathode material (Na3V2(PO4)2O2F, NVPOF) had significantly developed by Wang et al. [79] with the full battery (SIFB) assembled by an anode of 3D Se/graphene composite (Fig. 6 a). An ultralong lifespan (over even 15,000 cycles), outstanding LT energy storage performance (at temperatures from 25 to −25 °C at 0.4 A g−1, all capacity retention values exceeding 75% after 1000 cycles), and high-energy/power properties were demonstrated. The remarkable longevity of this ultra-long cycle life makes it well-suited for battery grid energy storage requirements. To address these challenges, the construction of chemical bonding at the interface has proven to be a highly effective solution. In this regard, a novel approach has been developed by Xu et al. [80] wherein NVPOF with interfacial V-F-C bonding (referred to as CB-NVPOF) is utilized (Fig. 6i). Rui et al. [81] have developed an effective hydrothermal-assisted approach to fabricate a superior LT SIB composed of 3D porous Na3V2(PO4)3/C (NVP/C-F) (Fig. 6d) and NaTi2(PO4)3/C foams (NTP/C-F) (Fig. 6b and e). The designed 3D interconnected porous foam structures demonstrate excellent electrolyte absorption ability and Na+ transport performance at LT (Fig. 6c). Electrochemically, the capacity of the NVP/C-F and NTP/C-F half cells is close to the theoretical capacity (reversible capacities of 105 and 106 mA h g−1 at 0.2 C and −20 °C), respectively, along with fast charging/discharging at 20 C (Fig. 6f). More importantly, under −20 °C, the designed NTP/C-F||NVP/C-F full cells can reach the theoretical capacity (around 57 mA h g−1) and illustrate outstanding cycling stabilities at high rates of 10 and 20 C over 1000 cycles (Fig. 6g and h). The as-prepared foam architectures demonstrate an excellent electrolyte absorption ability at −20 °C, facilitating LT Na+ transport kinetics, making a great stride forward in the development of LT SIBs. Additionally, based on the “single-molecule-energy-storage” capability for rechargeable batteries, Fan’s group reported successively two small-molecule organic cathodes with long-lifespan in half cells (10 months at least and over 8000 cycles, respectively) at RT [82,83]. Organic nanostructured electrodes present significant potential for next-generation SIBs. Their distinct advantages in terms of improved electron and ion transport and more exposed redox active sites would lead to higher actual capacity and improved rate performance. Xing et al. [84] fabricated one kind of nanostructured cathodes based on a rationally designed N-hydroxy naphthalene imide sodium salt (NDI-ONa) for high-performance sodium-organic batteries by utilizing a bioinspired self-assembly strategy. NDA-ONa (SA) shows a superior cycling performance of 20,000 cycles with a capacity retention of 93% at a high rate of 3 A g−1, surpassing those of all previously reported organic cathodes. The excellent ion and electron transports allow NDA-ONa (SA) also to perform well at various temperatures (from 30 to −50 °C). Moreover, a new type of anode material with excellent storage performance of sodium at LT can be prepared by the fusible diffusion method. The coupling of the anode material with high voltage NVPOF can improve the cycle stability of SIB at LT. Finally, 3D NVP/C-F cathodes and NTP/C-F anodes with a large number of interconnecting channels will facilitate LT Na+ transport kinetics. Excellent electrode structures can not only improve the cycle stability of the SIB but also improve the reaction kinetics of the SIB mentioned in the previous section [74,79,81]. Recently, researchers found that fluorine substitution allows for lower valences of transition metals, which results in long-term cycling stability [85]. Wang et al. [86] developed a tunnel-structured Na0.66[Mn0.66Ti0.34]O2-x F x (x < 0.1) cathode used as the cathode material of SIBs. F doping increases the S-shaped channel of sodium ion transport, which has better kinetic, thermodynamic and structural stability. The test results confirm that F doping significantly increases the diffusion coefficient of Na+ at LT (−20 °C). Furthermore, the recommendations put forward involve providing insights into the phase transition of both O3 and P2-type cathode materials [87,88], coupled with the process of heteroatom doping to suppress the Jahn-Teller distortion [89–91], as well as the establishment of a polysulfide defense system to significantly extend the cycle life of SIBs [92]. Last but not least, DFT calculations have been superficially employed to elucidate the underlying mechanism and electrochemistry behavior of the aforementioned materials. However, the redox mechanism of subunit for organic nanostructured electrodes, insolubility of organic cathode, and even ion adsorption, transport, and migration path were successfully illustrated by implementing of DFT study. Assuming that researchers can obtain a sufficient database of materials to characterize battery properties through DFT calculations and build a complete set of descriptors, it is expected that artificial intelligence can be used to enable the design and screening of battery materials. 2.3 Safety concerns Battery safety has always been an important focus in the development of battery technology. Despite significant advancements in performance and energy density, there are still safety concerns due to the inherent chemical properties of batteries and limitations in usage conditions. Here are some common battery safety issues and possible solutions: (1) Heat generation and thermal runaway: in a conventional electrochemical secondary cell, electric power is accumulated and dispensed via procedures that generate heat energy, leading to temperature rises within the battery system. These increments in temperature are the main source of thermal maltreatment to the battery. Thus, within battery systems, thermal runaway refers to a series of reactions and processes that lead to uncontrolled temperature increase in the battery which will discussed in detail in section 2.3.1. (2) Short circuits and electrolyte leakage: damaged batteries or improper usage can result in internal short circuits or electrolyte leakage into the surroundings. This could potentially lead to safety hazards including explosions or fires. Solutions involve enhancing battery packaging to prevent damage, using electrolytes with lower volatility and higher stability, and improving the sealing capabilities of packaging materials. (3) Extreme operating environments: In grid-scale energy storage systems, batteries typically operate under complex environmental conditions (extremely high temperatures above 60 °C or extreme temperatures below −20 °C). Therefore, the battery thermal management system should be optimized to control the temperature distribution of the battery pack within an appropriate range. The investigation of heat generation, accumulation, and transportation in a battery system is of paramount importance for battery safety, especially at LT. In addition, compared with lithium plating in LIBs, the safety risks and preventive measures brought about by sodium plating in LT SIBs should also be paid attention to. Due to the LT during the charging process, the lattice shrinks, and the negative sodium embedding space is insufficient, and the charge transfer and solid phase diffusion become slower. Sodium ions that cannot be embedded in the negative electrode can only obtain electrons on the surface of the negative electrode, thus forming a silver-white metallic sodium elemental, which is sodium plating behavior. The uneven growth of sodium plating at LT is easy to form sodium dendrites, and large sodium dendrites will puncture the diaphragm and even cause functional failure. At present, solid-state batteries are the mainstream choice for battery applications at LT. Due to the strong mechanical properties of solid electrolyte, it can effectively inhibit the growth of sodium dendrites. In particular, all-solid film SIBs do not need to add conductive agents and binders, and there is less deterioration mechanism causing LT performance. However, existing solid electrolytes still have major problems at the well-formed “electrode/electrolyte interface”. Therefore, battery safety issues require a comprehensive consideration of factors such as materials, design, management, and usage. By continuously improving technology and enforcing regulations, battery safety across different climate conditions can be enhanced, driving the development of more reliable and sustainable energy storage solutions. Consequently, we provide a concise summary of the safety challenges encountered by SIBs and propose suitable solutions to mitigate them. 2.3.1 Heat generation and thermal runaway The main reason for security concerns regarding the battery stems from its thermal runaway. In the daily use of batteries, it is found that the batteries of mobile phones and electric vehicles will still heat up at LT. Thus, the investigation of the energy generated during the chemical/electrochemical reactions is of paramount importance for battery safety. Unfortunately, it has not received the attention it deserves, which hinders the application of LIBs and SIBs in electric vehicles and stationary energy storage systems [93]. In addition to external heat sources at high temperature environment, inadequate thermal management, for instance, ineffective cooling or inadequate heat dissipation within the battery pack, may also cause heat buildup, thus triggering thermal runaway at LT. Furthermore, internal heat generation due to the conversion of energy processes and internal resistance in the battery may generate heat. In the event that this heat is not dissipated properly, it may also contribute to thermal runaway. Electrochemical reactions can generate excessive heat, leading to thermal runaway in certain situations, such as overcharging, overdischarging, or short circuits. It is crucial to prevent uncontrolled reactions from occurring within the battery. The fundamentals of the heat origination, accumulation, and corresponding typical thermal runaway process in SIBs are summarized and highlighted by Yang et al. [94]. A series of electrochemical and chemical reactions, some reversible and some irreversible, produce heat in a sodium-ion cell, which can be divided into reversible heat Q r, polarization heat Q p, and side reaction heat Q s. These different types of heat generation are shown in Fig. 7 (a). The reversible heat Q r is directly proportional to the reversible entropy changes ΔS of the active materials during electrochemical reactions and the applied current I. Polarization heat Q p is an irreversible heat generated in a battery system due to the deviation between cell operating potential and thermodynamic equilibrium potential, caused by ohmic, activation, and concentration polarization. While the concentration polarization is associated with the limited diffusion and migration of Na+ ions among electrodes and at the electrode surface. Q s is another irreversible heat generated by undesired exothermic chemical reactions, such as breakdown of SEI and interactions between electrolyte and electrode materials, which can lead to a rise in cell temperature and initiate thermal chain reactions. The reversible heat Q r can be endothermic or exothermic, while the irreversible heat Q p and Q s are always exothermic. Factors such as charge/discharge rate, ambient temperature, state of charge, and electrode microstructure strongly affect the rates of reversible and irreversible heat generation. Due to slower diffusion process of ion at LT (Fig. 7c) [95], corresponding low C-rates will lead to concentration polarization and accumulation of reversible heat Q r and polarization heat Q p. If exothermic reactions in batteries become uncontrollable, it can lead to a catastrophic failure mode known as thermal runaway. Thermal runaway in batteries happens because of a positive feedback loop of heat-temperature-reaction (HTR). This loop happens when heat generated in the cell raises the temperature, thereby accelerating exothermic reactions that release more heat. The temperature constantly goes up, which can cause fire or explosion, particularly in large battery packs. The thermal runaway process comprises of three phases: the pre-stage, heat accumulation phase, and thermal abuse phase (Fig. 7b). At pre-stage, thermal runaway processes are usually triggered by excessive heat generated during charge/discharge process, which depends on the C-rates, kinetics of electrochemical reactions, the current density distributions, and so on. The nonuniformly distributed current during cycling further forms local hotspot where the onset of overheating normally starts. Furthermore, mechanical failure such as cell piercing, crushing, and falling may result in an internal short circuit. A self-heating process will commence once the cell temperature reaches a critical threshold for thermal runaway. Thus, the temperature in the cell rapidly rises due to exothermic chemical chain reactions during the heat accumulation phase. The typical exothermic chemical chain reactions including decomposition of SEI, reactions between anode and electrolyte, separator meltdown, and cathode breakdown. Finally, thermal runaway occurs when there is sufficient heat and oxygen within the system, and the limiting oxygen index (LOI) of the system meets the combustion requirements for organic solvents in the electrolyte [94]. Therefore, there is an urgent need for a fundamental understanding and appropriate theoretical models to explain the thermal failure mechanisms in terms of materials, units, and cladding layers even at LT. This will enable the generation of comprehensive experimental data to address the thermal runaway problem in batteries [59,75]. In SIBs, the onset temperature of the thermal runaway process is closely related to the stability of SEI on the surface of the anode at elevated temperatures. Enhancing the thermal stability of SEI can improve the T onset (self-heating temperature T onset: T onset refers to the onset of a self-heating process, i.e., the beginning decomposition temperature of SEI.) and expand the operation temperature range for SIBs. One of the research directions to improve SEI stability is to optimize the composition by increasing the inorganic content and reducing the organic matter content because too much organic composition can lead to high-temperature sensitivity and serious side reactions caused by porous properties. In addition to the problems of thermal stabilizer electrode materials and interface thermal runaway, the electrolyte is also an important part of the thermal runaway problem [94]. Due to the requirement for the specific design or additional heating for low-temperature charging and operation of secondary batteries, inadequately managed thermal conditions could still result in thermal runaway risks. So far as the related references proposed, the special design of LT charging of SIBs and the means of auxiliary heating are largely unexplored. Thus, it is necessary to refer to the work of LIBs. Zhang et al. [96] provided a comprehensive research progress and understanding of the factors affecting the low-temperature performance of LIBs, addressing challenges in anodes, electrolytes, cathodes, and interphases while emphasizing Li-ion transport mechanisms, and presenting promising strategies and solutions to enhance low-temperature performance for future high-energy Li-ion/metal batteries including development of self-heating “all-climate” batteries. Xu et al. [97] proposed a near-zero energy smart battery thermal management (SBTM) strategy based on passive heating and cooling by absorbing energy from the air, enabling batteries to automatically achieve battery cooling and heating according to different temperature environments, thereby improving the working environment of batteries. Aiming at the problem of continuous LT in winter, which restricts the normal use of electric vehicles, Wu et al. [98] took 30 Ah LiFePO4 (LFP) bag-like battery as the research object and designed a three-sided liquid cooling structure considering the preheating of the battery module. Based on the designed preheating structure, an internal and external preheating strategy based on the available power of the battery was proposed. The high cell resistance of LIBs at LT leads to the conversion of electrical energy to thermal energy when a current is applied. This heat generated during the electrochemical process can be utilized for internal heating of the batteries. Wang et al. [99] introduced a breakthrough battery structure that included a self-heating module. By embedding a thin nickel foil inside the cell, they achieved controllable temperature for low-temperature battery configurations without altering the battery chemistries. Despite extensive research progress to date, how to efficiently preheat batteries at sub-zero temperatures remains a challenge. Therefore, the future development trend is proposed from the following aspects to encourage more breakthroughs in this research field. Firstly, the heat transfer process of the battery preheating system needs to be designed comprehensively from the perspective of thermal science to improve its heating performance. Second, develop special auxiliary systems that can achieve heating inside and outside the battery. Finally, the effect of preheating on battery aging needs to be systematically studied, especially the effect on alternating current heating [100]. 2.3.2 Inherently safe electrolytes SIBs have a similar structure to LIBs, consisting of an anode and a cathode immersed in an electrolyte and separated by a separator [20,101]. During the charging process, the cathode undergoes oxidation, resulting in the formation of Na+ ions and electrons. Simultaneously, Na+ ions migrate to the anode where they are inserted. Conversely, during discharge, Na+ ions move to the cathode and are inserted into its structure. The electrolyte, an essential component of the battery, enables the repeated movement of Na ions between the electrodes. Nonaqueous electrolytes, composed of solvents, salts, and additives, are commonly used in SIBs [102,103]. In recent years, there has been widespread acceptance of the concept of non-flammable electrolytes or fire-retardant solvents, particularly in the field of LIBs and SIBs. The substitution of flammable liquid electrolytes (LEs) with solid electrolytes (SEs) promises improved safety. In addition, to address issues such as side reactions between the electrodes and electrolytes, as well as the formation of sodium dendrites, flexible polymer electrolytes (PEs) offer the optimal solution. These polymer electrolytes encompass a range of polymers that contain ethoxylated units, such as poly(vinylidene fluoride-hexafluoropropylene) (P(VDF-HFP)), poly methyl methacrylate (PMMA), polyacrylonitrile (PAN), polyvinylpyrrolidone (PVP), single ion conductors, polysaccharides, and so on (Fig. 8 ) [104]. 2.3.3 Electrolyte additives for SIBs Similar to LIBs, the addition of electrolyte additives in SIBs is a cost-effective and efficient method to enhance their performance. Integrating a small number of additives into the SIBs electrolyte can significantly alleviate cycle deterioration and safety concerns. It is important to note that the additive content should not exceed 5% by weight or volume. These additives used in SIBs can be categorized into functional improvement additives and safety protection additives. Fig. 9 illustrates some examples of electrolyte additives that address LT performance and safety issues. In this section, two kinds of safety protection additives such as flame-retardant additives and overcharge protection additives were taken into consideration [105–108]. 2.3.3.1 Flame retardant additives Flame retardant additives are a crucial choice to prevent batteries from burning or exploding due to thermal runaway during operation. The mechanism of flame retardant additives is complex, but in simple terms, they scavenge active free radicals, reducing their concentration and combustion rate until the flame is extinguished. Phosphates, such as organic phosphates (e.g., triethyl phosphate (TEP), trimethyl phosphate (TMP), and dimethyl methyl phosphonate (DMMP)), have been extensively studied as flame retardant additives due to their good salt solubility and wide electrochemical stability window [75]. Research has shown that high concentrations of electrolyte (generally >3 M) are needed to maintain stability and chemical compatibility with the electrode [109]. Feng et al. [110] developed a non-flammable electrolyte for SIBs, incorporating ethoxy (pentafluoro) cyclotriphosphazene (EFPN) as a flame retardant additive. EFPN not only suppressed the flammability of the organic electrolyte but also improved the cycling performances of both the anode and cathode. The addition of 5 wt% EFPN to the 1 M NaPF6 EC: DEC (1:1, volume ratio, EC: ethylene carbonate, DEC: diethyl carbonate) significantly reduced the self-extinguishing time of the baseline electrolyte from 58 to 0 s. Furthermore, unlike the highly flammable electrolyte, the EFPN-containing electrolyte did not burn. It demonstrated excellent compatibility with sodium metal, and no obvious side reactions were observed between them. 2.3.3.2 Additives for overcharge protection Currently, in order to mitigate the risk of explosion caused by overcharging LIBs, the use of overcharging protective additives has proven to be an effective solution. These additives function by absorbing the excess current and preventing the voltage from spiraling out of control during the overcharge process, thereby providing internal protection for the battery. Recently, Ji et al. [111] proposed a similar approach to address the issue of overcharging in SIBs. They introduced a compound called triamine cyclopropylene perchlorate (TAC•ClO4) as a promising redox shuttle additive for overcharge protection in SIBs. During the overcharging process, the TAC molecule plays a crucial role in maintaining the Na3V2(PO4)3 (NVP) cathode’s potential at a safe level of 3.75 V (vs. Na+/Na). This is achieved through a reversible shuttle mechanism, wherein the TAC molecule undergoes a single-electron redox reaction, transitioning between cationic and dicationic forms. By incorporating just 0.1 M of TAC into the electrolyte, the NVP cathode demonstrated enhanced tolerance to overcharge currents of up to 10C or 400% state of charge. Moreover, the introduction of TAC resulted in a notable 20% reduction in heat generation during the overcharge process. As a result, the TAC additive not only delays the onset of thermal runaway but also effectively diminishes heat generation in the cathode, significantly improving battery safety during overcharge. To address the issue of thermal runaway in SIBs, there are two main approaches: selecting an appropriate electrolyte and incorporating electrolyte additives. One effective way to enhance the safety of SIBs is by introducing flame-retardant additives, such as phosphorus-based organic compounds. These can make organic electrolytes less flammable and improve the overall safety of the battery. Additionally, solvents in the electrolyte can further improve battery safety. Redox shuttle additives have also been developed to prevent overcharging and mitigate voltage spikes by reducing excessive current. However, the success of redox shuttle additives depends on maintaining the proper reaction potential. While many additives have been tested in the electrolytes of LIBs, they may not necessarily provide significant advantages in SIBs due to differences in sodium and lithium chemistry. At present, the main additives to improve the LT performance of the electrolyte are sulfone, organic sulfite, vinyl fluoride carbonate (FEC), vinyl carbonate (VC) and so on. Therefore, further research is needed to discover new additives that are specifically suited for SIBs. This is particularly important given the frequent occurrence of safety accidents involving liquid electrolytes in commercial electric vehicles. By addressing safety concerns and improving the cycle life of SIBs, their LT performance and range of applications can be expanded. In this section, based on the redox reaction and fundamentals of secondary cells, the reaction kinetics that are determined by both charge and ion transport are discussed. However, limited reports are available regarding the fundamental scientific aspects of ion diffusion dynamics, the kinetics of electrode surfaces, and the theoretical non-equilibrium mechanisms of electrochemistry. This scarcity is due to the complex nature of battery systems, inherent non-equilibrium phenomena during the charge and discharge processes, and the challenges in comprehending these mechanisms thoroughly. Additionally, cycle stability and safety concerns are emphasized to extend the utilization of SIB in large-scale energy storage under extreme environmental conditions. Although miscellaneous Na insertion materials, electrolytes, as well as electrolyte additives, seem dazzling. Deliberate well-designed materials with better Na diffusion channels and electrolytes with appropriate components and portability are essential for both long-lifespace and safe SIBs. In addition, limited reports are available regarding safety management system development and research, which is also crucial for energy storage base stations. 3 Strategies for LT SIB development Based on the challenges faced with LT SIBs, researchers are dedicated to the development of new LT SIBs electrode materials, electrolyte materials, and the optimization of the assembly process. Thus, the main strategies for developing LT SIBs include but are not limited to the following: (1) Optimization of electrode materials: one effective strategy is to optimize electrode materials by incorporating new additives, changing their morphology, or developing innovative synthesis processes to ensure their improved performance at LT. (2) Solid-state electrolytes: solid-state electrolytes can offer improved safety and stability for SIBs while maintaining good performance at LT. (3) Thermal management systems and novel cell designs: thermal management systems can be incorporated to maintain the operating temperature of the battery range in a certain threshold to achieve optimized electrochemical performance, while novel cell designs can be created to guarantee high performance at LT. 3.1 Sodium superionic conductor (NASICON) cathode In view of the impact of the LT performance of SIBs, an improvement in the performance of electrode materials is essential. In various materials used for SIB, electrode materials based on sodium superionic conductors (NASICON) are one of the most promising candidates for sodium storage electrodes due to their significant structural stability and high ionic conductivity [112]. The molecular formula of NASICON can be represented as Na x MM'(XO4)3 (M or M' = V, Fe, etc., X = P or S, x = 0–4). Which have the unit cell of angular sharing MO6 (M'O6) and polyhedral XO4 groups that provide a large open structure and highly ionized anions, facilitating the transport and diffusion of sodium ions. In addition, the high porosity of these materials can provide more storage space for sodium ions. Among NASICON-type SIB cathodes, Na3V2(PO4)3 and Na3V2O2x (PO4)2F3-2x have been well studied. Guo et al. [1] reported a high-voltage cathode composed of Na3V2(PO4)2O2F nano-tetraprisms (NVPF-NTP) to improve the energy density and LT performance of SIBs. The experimental results show that NVPF-NTP has low strain (∼2.56% volume change) and good Na transport kinetics during Na intercalation/deintercalation, with long cycle life, superior LT performance, and excellent high-rate capability (Fig. 10 e–g). To address the challenge of wide temperature fluctuations in rechargeable batteries and develop effective solutions. By employing similar strategies, Liu et al. [113] reported that they have achieved all-climate electrochemistry performance of SIBs. A more excellent performance of as-prepared NASICON-structured carbon-coated Na3V2(PO4)3 (NVP@C) nanocomposite at high rates in a wide temperature range (i.e., from −30 to 55 °C) was exhibited comparing to the last work (i.e., from −25 to 25 °C). The discharge capacities of NVP@C are 115.3 mA h g−1 and 85.5 mA h g−1 at 55 °C and 30 °C, respectively. Even at an LT of −20 °C, the NVP@C cathode can still maintain a discharge capacity of 91.3 mA h g−1 or 85.2% of the room performance at 10 C, and secure an average output voltage of 2.86 V (vs. Na+/Na). (Fig. 10a–d). The finding in these works offer a promising strategy to address the longstanding inherent wide-temperature issues of rechargeable batteries and extends the potential application of SIBs. It is propagated that with the emergence of high-performance and low-cost SIB anode materials such as hard carbon in the future, all-climate SIB full batteries are expected to be commercialized [114]. 3.2 Effective anode materials Addressing the significant challenge of enhancing the performance of SIBs at LT, another crucial aspect is the development of effective anode materials with novel structures and rapid reaction kinetics. This involves exploring innovative approaches to design and optimize the architecture of anode materials, allowing for efficient sodium-ion storage and transfer even in sub-zero conditions. As reported by Li et al. [115] a unique 3D cross-linked heterostructure was developed by synthesizing one-dimensional (1D) amorphous potassium titanate nanobelts directly grown on 2D titanium carbide nanosheets. The exceptional sodium storage performance of the resulting crosslinked 3D heterostructure can be attributed to the strategic amorphization design and the formation of a tight interface. These factors provide the hybrid structure with numerous active sites, minimal mechanical strain, rapid ionic diffusion kinetics, and enhanced electrode integrity. As a result, the heterostructure demonstrates remarkable sodium storage capabilities not only in RT but also in LT conditions (Fig. 11 c–i). Additionally, as is reported by the same group of Wang et al. [116], an interlayer confined strategy for tailoring nitrogen terminals on Ti3C2 MXene (Ti3C2-Nfunct) is employed to address sluggish kinetics and aggravated dendrites of LT SIBs (Fig. 11a and b). Tailoring the nitrogen terminals in Ti3C2-based material (Ti3C2-Nfunct) has been found to have beneficial effects on the diffusion kinetics of Na+ ions and reduce the charge transfer barrier (Fig. 11j) [117]. This is due to the synergistic effects of a larger interlayer spacing, redistribution of charges, and strong adsorption. As a result, Ti3C2-Nfunct exhibits a higher Na+ diffusion coefficient and a 10% reduction in activation energy at LT. The inorganic compounds present in the solid-electrolyte interphase (SEI) on Ti3C2-Nfunct also facilitate the transfer of Na+ ions (Fig. 11k) [116]. Additionally, the Ti3C2-Nfunct material shows a co-intercalation behavior of ions and solvent, enabling fast-charging capability even at LT Consequently, Ti3C2-Nfunct anodes exhibit high-capacity retention, fast-charging ability (charging 80% capacity within 18 min), and an ultra-long lifespan (5000 cycles with 80.9% capacity retention) at −25 °C. These performance metrics surpass those of the pristine Ti3C2 material. 3.3 Chemical adjustments of cathode/electrolyte interface (CEI) In response to the problem, the performance of SIBs deteriorates significantly when the temperature drops below zero degrees. Deng et al. [30] reported that the charge transfer reaction is accelerated by simultaneously adjusting ion–solvent chemistry and interfacial chemistry, rather than improving the electrode or optimizing the electrolyte composition, so as to obtain SIBs with excellent performance and economic feasibility. More importantly, although they worked under such extreme conditions of LT (−25 °C) and low concentration of electrolyte, the Na3V2(PO4)2F3||hard carbon whole battery made by them continued to operate well over 300 h (Fig. 12 ). It has been shown that a special cathode/electrolyte interface (CEI) layer is formed on the cathode surface when using weakly solvated electrolytes. In addition, a Na3V2(PO4)2F3||Na2Ti2O5 full cell with a long lifespan of 10,000 cycles and excellent adaptability at –60 °C contributes to weakly-solvated effect reported by Zheng et al. [118]. By constructing a weakly solvated structure and optimizing the interface chemistry, better charge transfer kinetics and higher energy densities can be achieved at sub-zero temperatures. Also, the low-cost, weakly soluble electrolyte with reduced/eliminated vanadium dissolution is essential to fasten the commercialization of Na3V2(PO4)2F3 (NVPF) based Na-ion cells. In summary, the sodium salt concentration of the electrolyte should not be too low, but rather a reasonable range of values should be found that can better balance the cost of the electrolyte and the battery performance [119–121]. 3.4 Solid electrolyte layer (SEI) At temperatures below 0 °C, SIBs suffer severe energy and power losses, mainly due to the diffusion of sodium ions in the active material, surface charge transfer resistance, and solid electrolyte layer (SEI). One of the real culprits in these blockages is the sluggishness of the active material and the kinetics of electrochemical reactions within the interface, especially at the anode surface. Therefore, it is necessary and important to explore suitable LT SIB anode materials. Taking 2D materials as an example, the layered structure weakly bonded by van der Waals forces provides a natural host and diffusion pathway for Na+, which is conducive to the salinization and desalination process of Na+. For example, the MXene/SnS2 composite exhibits nearly 80% RT performance at 0 °C [122]. The Ni1.8Co1.2Se4 composite had 92% of the performance compared to the RT at −5 °C. Due to the lowest energy configuration from absorbed sodium ions rearranged via a surface migration, a low activation barrier for sodium ions migration is crucial for enabling their applications at LT SIBs [123–125]. Among 2D materials family members, NbS2 nanosheets are expected to have the lowest Na+ migration barrier value of 0.07 eV, which are lower than Li+ migration barrier [126]. Moreover, improved properties of narrowing interlayer energy band can be obtained by anionic Se doping to form -S-Se interlayer ligands, in which an expanded interlayer spacing benefiting for optimal van der Waals forces can be realized as well. 3.5 Harmonious integration of various structural components As the Chinese proverb goes, “One bamboo pole is easy to bend, but ten chopsticks cannot be broken”. The harmonious integration of various structural components, devices, and assembly methods within a battery is crucial for the development of high-performance batteries. The main components of SIBs are positive electrode, negative electrode, diaphragm, electrolyte and fluid collector, which generally hold together and adhered by polymeric binders within the battery cell. The positive and negative electrodes are separated by a diaphragm to prevent short circuit, and the electrolyte infiltrates the positive and negative electrodes as the medium for ion flow, and the fluid collector plays the role of collecting and transmitting electrons. A broad temperature range (−70 to 100 °C) SIB has been successfully assembled by Li et al. [8], Which features a Bi anode, a NFPP@C (carbon-coated Na4Fe3(PO4)2P2O7) cathode, and a diglyme-based electrolyte (Fig. 13 ). The solvent co-intercalation process of Bi electrode in an ether-based electrolyte, the related alloying reaction, high Na+ diffusion coefficient NFPP@C with 3D diffusion channel were demonstrated at extremely LT, which are all critical for low-temperature operation. Furthermore, electrolyte with a high boiling point and low freezing point enable the SIB to operate effectively in an extensive temperature range, spanning from −70 to 100 °C. To circumvent issues including electrolyte resistance and solid electrolyte interphase (SEI) instability at LT. Wang et al. [127] proposed a specific electrolyte formulation comprising acyclic/cyclic ethers and sodium trifluoromethanesulfonate (NaOTf) salt that are thermally stable down to −150 °C and enable the formation of a stable SEI at LT. DFT calculations have demonstrated that NaOTf boasts a reduction potential of 1.02 V vs. Na/Na+. This high reduction potential results in the creation of an inorganic protective layer before the electrolyte solvent is decomposed, which leads to a moderate reaction with Na metal. As a result, a smooth and uniform SEI is formed. Binary solvent electrolytes consisting of NaOTf and 1,3-dioxolane have been introduced to further decrease the temperature threshold. The optimized electrolyte displays a low 3.4-fold increase in resistance from 20 to −80 °C. It is also highly thermally stable, with no phase transition down to −150 °C. Moreover, the electrolyte has been shown to support stable Na cycling with a small overpotential of 50 mV for over 2000 hours at −80 °C. The impressive electrochemical performance of the electrolyte can be attributed to the formation of a robust SEI with high NaF content in the upper layer. The SEI has a uniform morphology and mechanical strength, which contributes to the electrolyte's outstanding performance. Typically, in SIBs, binders are polymeric materials blended with active electrode materials, conductive additives, and current collectors to form a cohesive mixture [128]. The role of binders was first systematically investigated in conversion/alloy type anodes of SIBs by Ma et al. [128]. The performance enhancement mechanism was attributed to the carboxylate and hydroxyl groups of the binders. The behavior of binders at LT is quite different from that at room temperature. With the decrease of temperature, the movement of polymer binder molecular chain slows down. The flexibility, adhesive property, and conductivity of the binder change with the change of temperature. At LT, most polymers become hard when the temperature is below the glass transition temperature (T g). The electrode with high glass transition temperature binder is prone to brittle fracture at LT [129]. In addition, developing novel binders with multifunctional integration via combining conductive binders, cross-link binders, and self-healing binders under synergistic effect and introducing functional groups to binders is also an effective approach to achieve high-performance SIBs [130,131]. Furthermore, binder-free electrodes offer great opportunities for high performance RT SIBs in terms of improved electronic conductivity and reversibility of electrochemical reactions, as well as an alternative way to address the glass transition that is unavoidable with most LT binder [132–134]. Consequently, synergistically optimization of major components such as the electrolyte, anode, and cathode materials can enhance the performance of SIBs at LT. Formulation of electrolytes and functional additives presents challenges not only for the conductivity and structural stability of electrode materials but also for ensuring appropriate resultant properties. Molecular simulations, such as DFT studies, classic molecular dynamics simulations, and even ab initio molecular dynamics (AIMD), can be used to provide quantitative analysis and description of the coordination structures of solvents, cations, and anions. DFT calculation methods have been used to achieve an insight viewer of the interaction mechanism of Na+/Li+ ions with organic electrolytes [135], reduction potentials for the different salts [127], and migration pathways and the corresponding energy barriers of ion/charge transportation in electrodes [11]. To validate the limiting step of interfacial processes that dominate the cell impedance and capacity at LT, Zeheng Li et al. [136] and Cheng-Bin Jin et al. [137] calculated the radial distribution function (RDF) of Li+ ions, solvent–solute interaction environments related to desolvation and lifespan, interfacial kinetics of LT LIBs by conducting classic MD simulations. Similar to LT SIBs, electrolytes formulated with solvent and solute with weakly solvated structures and high ionic conductivity have been proposed to present and facilitate rapid desolvation, enabling superior battery performance at ultra- LT. Thus, a comprehensive and precise understanding at the molecular or atomic level can help design and develop innovative materials. In this review, the corresponding dominant strategies related to the reaction kinetics, cycle stability, and safety concerns of SIB at LT were summarized. From our perspective, there are several principles that can be summarized to enhance the reaction kinetics and long cycle stability of SIB at LT: Simultaneous optimization of ion–solvent chemistry and interface chemistry, including weakly solvated electrolytes with compatible and synergistic formulations, formation of robust SEI, extremally lower freezing point, and so on; increasing the surface area and changing the space structure of the battery cathode; construction of suitable structures for enhanced Na+ storage and migration, such as the utilization of superionic conductor cathodes, involving the electrode materials with appropriate ligands and chemical bonding, construction of 2D/3D ion diffusion channeled porous/foams electrodes with reversible reaction characteristics. Modeling the effects using DFT and MD simulation (Fig. 14 ) is challenging due to the complexity and size of the system. Therefore, it requires significant theoretical and experimental research incorporating various electrode and electrolyte systems. By implementing advanced technologies such as advanced electrode materials and optimized electrode space structures in the battery system, the reaction kinetics performance further enhances and inspires the development of SIBs at LT in the future [138]. Meanwhile, a comprehensive grasp of the interface reaction mechanism and factors influencing ion diffusion, as well as a clear conception of both the CEI and SEI evolution, could systematically enhance the assembly of LT-SIBs and promote a significant development in the large-scale grid utilization of SIBs under extreme environmental conditions. 4 Summary and outlook Overall, SIBs have made rapid progress in the past decade. In the context of the shortage of lithium resources, SIBs have significant resource advantages compared with LIBs, and their strategic significance has been highlighted with the continuing research and development of high-cost effective battery systems. Especially in the field of LT, large-scale energy storage where other secondary batteries are difficult to reach. This paper reviews the issues and obstacles facing LT SIBs. Specifically, it outlines the problems and related strategies pertaining to reaction kinetics, cycle stability, and storage capacity. Additionally, the current safety concerns surrounding SIBs and the corresponding prevention and response strategies have been discussed. Aims to inspire researchers to develop high-performance SIBs and guide the design of materials for future SIBs with a wider temperature range. Taking into account the state of the art of materials science and electrochemistry mechanism, it is possible to establish the direction to be followed in the research and development of the large-scale application. In this respect, there are certain crucial issues in the design of materials, establishment of theory, and improvement of the system, which must be thoroughly addressed and continually investigated. (1) Innovations in materials: Breakthroughs in material technologies to overcome barriers in sodium-ion battery technology. Regardless of the type of battery system, advancements in materials determine the progress of the battery. In particular, materials with rich active sites and efficient mass transport properties are needed to achieve fast reaction kinetics, high capacity, and cycle stability. The well-ordered and regular arrangement of materials at the micro- and even at the mesoscale based on “precise chemistry” may provide possible pathways for the efficient transfer of ions and electrons at LT. Theoretically, materials that have no or very low energy barriers to ion/electron transfer/reaction could have universal applications in LT environments. (2) Development and establishment of relevant theoretical mechanisms: Over the past few decades, there have been advances in various aspects of new energy technologies, but the scientific understanding of these technologies has not significantly deepened or evolved. In comparison to the vibrant development of energy storage-related materials and the constant emergence of new concepts, there is a lack of conceptual innovation in electrochemistry itself. Due to the complexity of electrode/electrolyte interfaces and the non-equilibrium nature during battery operation, a comprehensive understanding of system-level electrochemistry and a unified theory has not yet been established. With the innovation in machine learning and computer technology, the concept of “material genome” has once again become essential in scientific research. Collaborating on software and data sharing, focusing on electrochemical reaction kinetics, thermodynamics of interface, and non-equilibrium mechanism development, promises to establish innovative relevant theoretical mechanisms will be proposed. (3) Intelligent safety management system development for larger-scale energy storage SIBs: Due to the relatively low energy density of SIBs, one of their main potential applications is in large-scale energy storage systems involved in variable climate conditions. Electrochemical energy storage systems consist not only of the internal battery modules, but also of peripheral auxiliary equipment such as electrical management systems (EMS), transformers, power conversion systems (PCS), static voltage generation (SVG), and so on. In addition to ensuring the normal charging and discharging of the energy storage system, these devices play a critical role in ensuring the safe operation of the energy storage system. System safety refers to the fact that if a single battery short-circuits or overheats, it can destroy the entire energy storage system, often contained in a single container, and even cause serious accidents. Isolation between battery packs is key to preventing fire propagation. Furthermore, clean energy projects such as photovoltaic, solar energy, or wind energy generally require the installation of energy storage systems capable of providing 20%×2 h of power generation. However, the variations in the clean energy grid often result in unstable currents and voltages. Therefore, the PCS of the energy storage system must have functions such as capacity compensation, power smoothing, and voltage stabilization. At present, SIBs are in the early stage of industrialization, and their future development potential has some uncertainties. Therefore, intelligent safety systems suitable for SIBs and systems capable of adapting to fluctuations in clean power grids are urgently needed. At present, the development of electric vehicles is advancing by leaps and bounds, and batteries will play a key role in promoting environmentally friendly transportation. In addition to the exploration of battery performance, the disposal and recycling of batteries after waste is also an important issue that cannot be ignored. Improper disposal and recycling of waste batteries will cause environmental pollution and pose a threat to human health. Solutions include educating users on proper ways to dispose of battery waste and setting up proper recycling and reuse systems. In summary, the practical application of new scientific technologies is never an overnight success. Although the current research on LT SIBs and the practical experience in the commercialization of LIBs can provide some reference for the application of LT SIBs in energy storage under extreme climatic conditions, it is more urgent to establish a rapid development of basic theoretical mechanisms on large-scale energy storage systems. This will promote technological innovation and further consolidate the progress of SIBs in the process of practical industrialization. Declaration of competing interest The authors declare that they have no known competing financial interests or personal relationships that could have appeared to influence the work reported in this paper. Acknowledgments This work was supported by the Natural Science Foundation of Jiangsu Province (No. BK20220618) and the National Natural Science Foundation of China (Nos. 22078028 and 21978026). We would particularly like to thank Professor Huang Yanqiang for providing constructive feedback and valuable insights while writing the Review. Appendix A Supplementary data Supplementary data to this article can be found online at https://doi.org/10.1016/j.jechem.2023.11.004. Appendix A Supplementary data The following are the Supplementary data to this article: Supplementary data 1 References [1] J.Z. Guo P.F. Wang X.L. Wu X.H. Zhang Q. Yan H. Chen J.P. Zhang Y.G. Guo Adv. Mater. 29 2017 1701968 J.Z. Guo, P.F. Wang, X.L. Wu, X.H. Zhang, Q. Yan, H. Chen, J.P. Zhang, Y.G. Guo, Adv. Mater. 29 (2017) 1701968. [2] Q. Bai L. Yang H. Chen Y. Mo Adv. Energy Mater. 8 2018 1702998 Q. Bai, L. Yang, H. Chen, Y. Mo, Adv. Energy Mater. 8 (2018) 1702998. [3] N. Ortiz-Vitoriano N.E. Drewett E. Gonzalo T. Rojo Energy Environ. Sci. 10 2017 1051 1074 N. Ortiz-Vitoriano, N.E. Drewett, E. Gonzalo, T. Rojo, Energy Environ. Sci. 10 (2017) 1051–1074. [4] L. Peng Y. Zhu D. Chen R.S. Ruoff G. Yu Adv. Energy Mater. 6 2016 1600025 L. Peng, Y. Zhu, D. Chen, R.S. Ruoff, G. Yu, Adv. Energy Mater. 6 (2016) 1600025. [5] Y. Fang J. Zhang L. Xiao X. Ai Y. Cao H. Yang Adv. Sci. 4 2017 1600392 Y. Fang, J. Zhang, L. Xiao, X. Ai, Y. Cao, H. Yang, Adv. Sci. 4 (2017) 1600392. [6] T.W. Surta E. Koh Z. Li D.B. Fast X. Ji P.A. Greaney M.R. Dolgos Adv. Energy Mater. 12 2022 2200647 T.W. Surta, E. Koh, Z. Li, D.B. Fast, X. Ji, P.A. Greaney, M.R. Dolgos, Adv. Energy Mater. 12 (2022) 2200647. [7] H. Long W. Zeng H. Wang M. Qian Y. Liang Z. Wang Adv. Sci. 5 2018 1700634 H. Long, W. Zeng, H. Wang, M. Qian, Y. Liang, Z. Wang, Adv. Sci. 5 (2018) 1700634. [8] Z. Li Y. Zhang J. Zhang Y. Cao J. Chen H. Liu Y. Wang Angew Chem. Int. Ed. 61 2022 e202116930 Z. Li, Y. Zhang, J. Zhang, Y. Cao, J. Chen, H. Liu, Y. Wang, Angew Chem. Int. Ed. 61 (2022) e202116930. [9] D. Hou D. Xia E. Gabriel J.A. Russell K. Graff Y. Ren C.J. Sun F. Lin Y. Liu H. Xiong ACS Energy Lett. 6 2021 4023 4054 D. Hou, D. Xia, E. Gabriel, J.A. Russell, K. Graff, Y. Ren, C.J. Sun, F. Lin, Y. Liu, H. Xiong, ACS Energy Lett 6 (2021) 4023–4054. [10] J.B. Goodenough K.S. Park J. Am. Chem. Soc. 135 2013 1167 1176 J.B. Goodenough, K.S. Park, J. Am. Chem. Soc. 135 (2013) 1167–1176. [11] Y. You H.R. Yao S. Xin Y.X. Yin T.T. Zuo C.P. Yang Y.G. Guo Y. Cui L.J. Wan J.B. Goodenough Adv. Mater. 28 2016 7243 7248 Y. You, H.R. Yao, S. Xin, Y.X. Yin, T.T. Zuo, C.P. Yang, Y.G. Guo, Y. Cui, L.J. Wan, J.B. Goodenough, Adv. Mater. 28 (2016) 7243–7248. [12] Y. Wang P. He H. Zhou Energy Environ. Sci. 4 2011 805 817 Y. Wang, P. He, H. Zhou, Energy Environ. Sci. 4 (2011) 805–817. [13] L. Liao P. Zuo Y. Ma X. Chen Y. An Y. Gao G. Yin Electrochim. Acta 60 2012 269 273 L. Liao, P. Zuo, Y. Ma, X. Chen, Y. An, Y. Gao, G. Yin, Electrochim. Acta 60 (2012) 269–273. [14] N. Nitta F. Wu J.T. Lee G. Yushin Mater. Today 18 2015 252 264 N. Nitta, F. Wu, J.T. Lee, G. Yushin, Mater. Today 18 (2015) 252–264. [15] C. Liu Z.G. Neale G. Cao Mater. Today 19 2016 109 123 C. Liu, Z.G. Neale, G. Cao, Mater. Today 19 (2016) 109–123. [16] M. Armand J.M. Tarascon Nature 451 2008 652 657 M. Armand, J.M. Tarascon, Nature 451 (2008) 652–657. [17] J.Y. Hwang S.T. Myung Y.K. Sun Chem. Soc. Rev. 46 2017 3529 3614 J.Y. Hwang, S.T. Myung, Y.K. Sun, Chem. Soc. Rev. 46 (2017) 3529–3614. [18] X. Liang J.Y. Hwang Y.K. Sun Adv. Energy Mater. 13 2023 2301975 X. Liang, J.Y. Hwang, Y.K. Sun, Adv. Energy Mater. 13 (2023) 2301975. [19] Y. Huang L. Zhao L. Li M. Xie F. Wu R. Chen Adv. Mater. 31 2019 1808393 Y. Huang, L. Zhao, L. Li, M. Xie, F. Wu, R. Chen, Adv Mater 31 (2019) e1808393. [20] T. Perveen M. Siddiq N. Shahzad R. Ihsan A. Ahmad M.I. Shahzad Renew. Sust. Energ. Rev. 119 2020 109549 T. Perveen, M. Siddiq, N. Shahzad, R. Ihsan, A. Ahmad, M.I. Shahzad, Renew. Sust. Energ. Rev. 119 (2020) 109549. [21] X.Y. Cui Y.J. Wang H.D. Wu X.D. Lin S. Tang P. Xu H.G. Liao M.S. Zheng Q.F. Dong Adv. Sci. 8 2021 2003178 X.Y. Cui, Y.J. Wang, H.D. Wu, X.D. Lin, S. Tang, P. Xu, H.G. Liao, M.S. Zheng, Q.F. Dong, Adv. Sci. 8 (2021) 2003178. [22] Y. Hu B. Li X. Jiao C. Zhang X. Dai J. Song Adv. Funct. Mater. 28 2018 1801010 Y. Hu, B. Li, X. Jiao, C. Zhang, X. Dai, J. Song, Adv. Funct. Mater. 28 (2018) 1801010. [23] X. Zheng Z. Gu X. Liu Z. Wang J. Wen X. Wu W. Luo Y. Huang Energy Environ. Sci. 13 2020 1788 1798 X. Zheng, Z. Gu, X. Liu, Z. Wang, J. Wen, X. Wu, W. Luo, Y. Huang, Energy Environ. Sci. 13 (2020) 1788–1798. [24] W. Liu Z. Chen Z. Zhang P. Jiang Y. Chen E. Paek Y. Wang D. Mitlin Energy Environ. Sci. 14 2021 382 395 W. Liu, Z. Chen, Z. Zhang, P. Jiang, Y. Chen, E. Paek, Y. Wang, D. Mitlin, Energy Environ. Sci. 14 (2021) 382–395. [25] X. Liu X. Lei Y.-G. Wang Y. Ding ACS Cent. Sci. 7 2021 335 344 X. Liu, X. Lei, Y.-G. Wang, Y. Ding, ACS Cent. Sci. 7 (2021) 335–344. [26] X. Zheng Z. Gu J. Fu H. Wang X. Ye L. Huang X. Liu X. Wu W. Luo Y. Huang Energy Environ. Sci. 14 2021 4936 4947 X. Zheng, Z. Gu, J. Fu, H. Wang, X. Ye, L. Huang, X. Liu, X. Wu, W. Luo, Y. Huang, Energy Environ. Sci. 14 (2021) 4936–4947. [27] H. Li M. Xu Z. Zhang Y. Lai J. Ma Adv. Funct. Mater. 30 2020 2000473 H. Li, M. Xu, Z. Zhang, Y. Lai, J. Ma, Adv. Funct. Mater. 30 (2020) 2000473. [28] J. Deng W.-B. Luo S.-L. Chou H.-K. Liu S.-X. Dou Adv. Energy Mater. 8 2018 1701428 J. Deng, W.-B. Luo, S.-L. Chou, H.-K. Liu, S.-X. Dou, Adv. Energy Mater. 8 (2018) 1701428. [29] C. Delmas Adv. Energy Mater. 8 2018 1703137 C. Delmas, Adv. Energy Mater. 8 (2018) 1703137. [30] L. Deng K. Goh F.-D. Yu Y. Xia Y.-S. Jiang W. Ke Y. Han L.-F. Que J. Zhou Z.-B. Wang Energy Storage Mater. 44 2022 82 92 L. Deng, K. Goh, F.-D. Yu, Y. Xia, Y.-S. Jiang, W. Ke, Y. Han, L.-F. Que, J. Zhou, Z.-B. Wang, Energy Storage Mater. 44 (2022) 82–92. [31] H. Yuan F. Ma X. Wei J.L. Lan Y. Liu Y. Yu X. Yang H.S. Park Adv. Energy Mater. 10 2020 2001418 H. Yuan, F. Ma, X. Wei, J.L. Lan, Y. Liu, Y. Yu, X. Yang, H.S. Park, Adv. Energy Mater. 10 (2020) 2001418. [32] S. Chen F. Feng H. Che Y. Yin Z.-F. Ma Chem. Eng. J. 406 2021 126736 S. Chen, F. Feng, H. Che, Y. Yin, Z.-F. Ma, Chem. Eng. J. 406 (2021) 126736. [33] Z. Sun Y. Zhao Q. Ni Y. Liu C. Sun J. Li H. Jin Small 18 2022 2200716 Z. Sun, Y. Zhao, Q. Ni, Y. Liu, C. Sun, J. Li, H. Jin, Small 18 (2022) e2200716. [34] X. Guo J. Bae Y. Ding X. Zhang G. Yu Adv. Funct. Mater. 31 2021 2010863 X. Guo, J. Bae, Y. Ding, X. Zhang, G. Yu, Adv. Funct. Mater. 31 (2021) 2010863. [35] T.R. Jow M.B. Marx J.L. Allen J. Electrochem. Soc. 159 2012 A604 A612 T.R. Jow, M.B. Marx, J.L. Allen, J. Electrochem. Soc. 159 (2012) A604–A612. [36] L.R.F. Allen J. Bard, Electrochemical Methods Fundamentals and Applications, second ed, Faulkner, New York, 2001. [37] Y.L. Hu L. Chen Na-Ion Batteries: Science and Technology first ed 2020 Science Press Beijing Y.L. Hu, L. Chen, Na-Ion Batteries: Science and Technology, first ed, Science Press, Beijing, 2020. [38] M. Feng M. Zhang H. Zhang X. Liu H. Feng Carbon 153 2019 217 224 M. Feng, M. Zhang, H. Zhang, X. Liu, H. Feng, Carbon 153 (2019) 217–224. [39] H. Yu M. Walsh X. Liang ACS Appl. Mater. Interfaces 13 2021 54884 54893 H. Yu, M. Walsh, X. Liang, ACS Appl. Mater. Interfaces 13 (2021) 54884–54893. [40] D. Dai J. Qiu H. Hou X. Wang S. Li B. Cao X. Zhou D.-H. Liu B. Wang B. Li J. Mater. Chem. A 9 2021 18272 18279 D. Dai, J. Qiu, H. Hou, X. Wang, S. Li, B. Cao, X. Zhou, D.-H. Liu, B. Wang, B. Li, J. Mater. Chem. A 9 (2021) 18272–18279. [41] J. Ruan S. Luo S. Wang J. Hu F. Fang F. Wang M. Chen S. Zheng D. Sun Y. Song Adv. Energy Mater. 13 2023 2301509 J. Ruan, S. Luo, S. Wang, J. Hu, F. Fang, F. Wang, M. Chen, S. Zheng, D. Sun, Y. Song, Adv. Energy Mater. 13 (2023) 2301509. [42] A. Urban D.-H. Seo G. Ceder npj Computat. Mater. 2 2016 16002 A. Urban, D.-H. Seo, G. Ceder, npj Computat. Mater. 2 (2016) 16002. [43] J. Lee A. Urban X. Li D. Su G. Hautier G. Ceder Science 343 2014 519 522 J. Lee, A. Urban, X. Li, D. Su, G. Hautier, G. Ceder, Science 343 (2014) 519–522. [44] Y. Cheng X. Chi J. Yang Y. Liu J. Energy Storage 40 2021 102701 Y. Cheng, X. Chi, J. Yang, Y. Liu, J. Energy Storage 40 (2021) 102701. [45] J. Zhang Y.-F. Zhang Y. Li Y.-R. Ren S. Huang W. Lin W.-K. Chen Phys. Chem. Chem. Phys. 23 2021 5143 5151 J. Zhang, Y.-F. Zhang, Y. Li, Y.-R. Ren, S. Huang, W. Lin, W.-K. Chen, Phys. Chem. Chem. Phys. 23 (2021) 5143–5151. [46] W. Zhang J. Mao W.K. Pang X. Wang Z. Guo Nano Energy 49 2018 549 554 W. Zhang, J. Mao, W.K. Pang, X. Wang, Z. Guo, Nano Energy 49 (2018) 549-554. [47] E. Jonsson P. Johansson Phys. Chem. Chem. Phys. 14 2012 10774 10779 E. Jonsson, P. Johansson, Phys. Chem. Chem. Phys. 14 (2012) 10774–10779. [48] D. Su S. Dou G. Wang Adv. Energy Mater. 5 2015 1401205 D. Su, S. Dou, G. Wang, Adv. Energy Mater. 5 (2015) 1401205. [49] J. Song S. Park J. Gim V. Mathew S. Kim J. Jo S. Kim J. Kim J. Mater. Chem. A 4 2016 7815 7822 J. Song, S. Park, J. Gim, V. Mathew, S. Kim, J. Jo, S. Kim, J. Kim, J. Mater. Chem. A 4 (2016) 7815–7822. [50] J. Kang D.-Y. Kim S.-A. Chae N. Saito S.-Y. Choi K.-H. Kim J. Mater. Chem. A 7 2019 16149 16160 J. Kang, D.-Y. Kim, S.-A. Chae, N. Saito, S.-Y. Choi, K.-H. Kim, J. Mater. Chem. A 7 (2019) 16149–16160. [51] D. Yu X. Wei D. Zhao S. Gao G. Zhao H. Zhang Z. Li M. Yu Y. Sun Electrochim. Acta 404 2022 139703 D. Yu, X. Wei, D. Zhao, S. Gao, G. Zhao, H. Zhang, Z. Li, M. Yu, Y. Sun, Electrochim. Acta 404 (2022) 139703. [52] J. Liu S.J. Kelly E.S. Epstein Z. Pan X. Huang J. Liu P.V. Braun J. Power Sources 299 2015 40 48 J. Liu, S.J. Kelly, E.S. Epstein, Z. Pan, X. Huang, J. Liu, P.V. Braun, J. Power Sources 299 (2015) 40–48. [53] G. Lui G. Li X. Wang G. Jiang E. Lin M. Fowler A. Yu Z. Chen Nano Energy 24 2016 72 77 G. Lui, G. Li, X. Wang, G. Jiang, E. Lin, M. Fowler, A. Yu, Z. Chen, Nano Energy 24 (2016) 72–77. [54] G. Chen L. Gao L. Zhang X. Yang J. Electroanal. Chem. 895 2021 115420 G. Chen, L. Gao, L. Zhang, X. Yang, J. Electroanal. Chem. 895 (2021) 115420. [55] K. Nakamoto R. Sakamoto Y. Sawada M. Ito S. Okada Small Methods 3 2018 1800220 K. Nakamoto, R. Sakamoto, Y. Sawada, M. Ito, S. Okada, Small Methods 3 (2018) 1800220. [56] Q. Liu Z. Hu M. Chen C. Zou H. Jin S. Wang S.L. Chou Y. Liu S.X. Dou Adv. Funct. Mater. 30 2020 1909530 Q. Liu, Z. Hu, M. Chen, C. Zou, H. Jin, S. Wang, S.L. Chou, Y. Liu, S.X. Dou, Adv. Funct. Mater. 30 (2020) 1909530. [57] G. Huang Q. Kong W. Yao Q. Wang J. Colloid Interface Sci. 629 2023 832 845 G. Huang, Q. Kong, W. Yao, Q. Wang, J. Colloid Interface Sci. 629 (2023) 832–845. [58] J. Xiao X. Li K. Tang D. Wang M. Long H. Gao W. Chen C. Liu H. Liu G. Wang Mater. Chem. Front. 5 2021 3735 3764 J. Xiao, X. Li, K. Tang, D. Wang, M. Long, H. Gao, W. Chen, C. Liu, H. Liu, G. Wang, Materials Chemistry Frontiers 5 (2021) 3735–3764. [59] L. Zhang X. Li M. Yang W. Chen Energy Storage Mater. 41 2021 522 545 L. Zhang, X. Li, M. Yang, W. Chen, Energy Storage Mater. 41 (2021) 522–545. [60] B. Wang Y. Han X. Wang N. Bahlawane H. Pan M. Yan Y. Jiang iScience 3 2018 110 133 B. Wang, Y. Han, X. Wang, N. Bahlawane, H. Pan, M. Yan, Y. Jiang, iScience 3 (2018) 110–133. [61] Y. Lyu X. Wu K. Wang Z. Feng T. Cheng Y. Liu M. Wang R. Chen L. Xu J. Zhou Y. Lu B. Guo Adv. Energy Mater. 11 2020 2000982 Y. Lyu, X. Wu, K. Wang, Z. Feng, T. Cheng, Y. Liu, M. Wang, R. Chen, L. Xu, J. Zhou, Y. Lu, B. Guo, Adv. Energy Mater. 11 (2020) 2000982. [62] J.W. Fergus J. Power Sources 195 2010 939 954 J.W. Fergus, J. Power Sources 195 (2010) 939–954. [63] Z.Y. Chen J.L. Zhang H.L. Zhu W. Zhu Q.F. Li ACS Appl. Mater. Interfaces 2 2010 1588 1593 Z.Y. Chen, J.L. Zhang, H.L. Zhu, W. Zhu, Q.F. Li, ACS Appl. Mater. Interfaces 160-162 (2010) 1588–1595. [64] L.P. Wang L. Yu X. Wang M. Srinivasan Z.J. Xu J. Mater. Chem. A 3 2015 9353 9378 L.P. Wang, L. Yu, X. Wang, M. Srinivasan, Z.J. Xu, J. Mater. Chem. A 3 (2015) 9353–9378. [65] Y. Liu Y. Yang J. Nanomater. 2016 2016 1 15 Y. Liu, Y. Yang, J. Nanomater. 2016 (2016) 1–15. [66] E. Buiel J.R. Dahn Electrochim. Acta 45 1999 121 130 E. Buiel, J.R. Dahn, Electrochim. Acta 45 (1999) 121–130. [67] E. Irisarri A. Ponrouch M.R. Palacin J. Electrochem. Soc. 162 2015 A2476 A2482 E. Irisarri, A. Ponrouch, M.R. Palacin, J. Electrochem. Soc. 162 (2015) A2476–A2482. [68] X. Bai N. Wu G. Yu T. Li Inorganics 11 2023 289 X. Bai, N. Wu, G. Yu, T. Li, Inorganics 11 (2023) 289. [69] Y. Xue M. Gao M. Wu D. Su X. Guo J. Shi M. Duan J. Chen J. Zhang Q. Kong ChemElectroChem 7 2020 4010 4015 Y. Xue, M. Gao, M. Wu, D. Su, X. Guo, J. Shi, M. Duan, J. Chen, J. Zhang, Q. Kong, ChemElectroChem 7 (2020) 4010–4015. [70] C. Kim I. Kim H. Kim M.K. Sadan H. Yeo G. Cho J. Ahn J. Ahn H. Ahn J. Mater. Chem. A 6 2018 22809 22818 C. Kim, I. Kim, H. Kim, M.K. Sadan, H. Yeo, G. Cho, J. Ahn, J. Ahn, H. Ahn, J. Mater. Chem. A 6 (2018) 22809–22818. [71] W. Meng Z. Dang D. Li L. Jiang Adv. Mater. 35 2023 e2301376 W. Meng, Z. Dang, D. Li, L. Jiang, Adv. Mater. 35 (2023) e2301376. [72] D. Callegari S. Colombi A. Nitti C. Simari I. Nicotera C. Ferrara P. Mustarelli D. Pasini E. Quartarone ACS Appl. Mater. Interfaces 13 2021 13170 13182 D. Callegari, S. Colombi, A. Nitti, C. Simari, I. Nicotera, C. Ferrara, P. Mustarelli, D. Pasini, E. Quartarone, ACS Appl. Mater. Interfaces 13 (2021) 13170–13182. [73] Y. Wang H. Shi J. Niu W. Mai L. Liu Z. Xu J. Alloy. Compound. 851 2021 156746 Y. Wang, H. Shi, J. Niu, W. Mai, L. Liu, Z. Xu, J. Alloy. Compound. 851 (2021) 156746. [74] Q. Li Z. Li Z. Zhang C. Li J. Ma C. Wang X. Ge S. Dong L. Yin Adv. Energy Mater. 6 2016 1600376 Q. Li, Z. Li, Z. Zhang, C. Li, J. Ma, C. Wang, X. Ge, S. Dong, L. Yin, Adv. Energy Mater. 6 (2016) 1600376. [75] W. Zhang J. Lu Z. Guo Mater. Today 50 2021 400 417 W. Zhang, J. Lu, Z. Guo, Mater. Today 50 (2021) 400–417. [76] D.-R. Deng X.-Y. Cui Q.-H. Wu M.-S. Zheng Q.-F. Dong J. Alloys Compd. 835 2020 155413 D.-R. Deng, X.-Y. Cui, Q.-H. Wu, M.-S. Zheng, Q.-F. Dong, J. Alloys Compd. 835 (2020) 155413 [77] Y. Qi J. Li W. Zhong S. Bao M. Xu Chem. Eng. J. 417 2021 128159 Y. Qi, J. Li, W. Zhong, S. Bao, M. Xu, Chem. Eng. J. 417 (2021) 128159. [78] L.-F. Zhou X.-W. Gao T. Du H. Gong L.-Y. Liu W.-B. Luo Chem. Eng. J. 435 2022 134838 L.-F. Zhou, X.-W. Gao, T. Du, H. Gong, L.-Y. Liu, W.-B. Luo, Chem. Eng. J. 435 (2022) 134838. [79] Y.-Y. Wang B.-H. Hou J.-Z. Guo Q.-L. Ning W.-L. Pang J. Wang C.-L. Lü X.-L. Wu Adv. Energy Mater. 8 2018 1703252 Y.-Y. Wang, B.-H. Hou, J.-Z. Guo, Q.-L. Ning, W.-L. Pang, J. Wang, C.-L. Lü, X.-L. Wu, Adv. Energy Mater. 8 (2018) 1703252. [80] S. Xu K. Yao D. Yang D. Chen C. Lin C. Liu H. Wu J. Zeng L. Liu Y. Zheng X. Rui ACS Appl. Mater. Interfaces 15 2023 14329 14338 S. Xu, K. Yao, D. Yang, D. Chen, C. Lin, C. Liu, H. Wu, J. Zeng, L. Liu, Y. Zheng, X. Rui, ACS Appl. Mater. Interfaces 15 (2023) 14329−14338. [81] X. Rui X. Zhang S. Xu H. Tan Y. Jiang L.Y. Gan Y. Feng C.C. Li Y. Yu Adv. Funct. Mater. 31 2021 2009458 X. Rui, X. Zhang, S. Xu, H. Tan, Y. Jiang, L.Y. Gan, Y. Feng, C.C. Li, Y. Yu, Adv. Funct. Mater. 31 (2020) 2009458. [82] C. Wang W. Tang S. Jia Y. Yan D. Li Y. Hu J. Gao H. Wu M. Wang S. Liu H. Lai T. Zou L. Xu J. Xiong C. Fan Chem. Eng. J. 426 2021 131251 C. Wang, W. Tang, S. Jia, Y. Yan, D. Li, Y. Hu, J. Gao, H. Wu, M. Wang, S. Liu, H. Lai, T. Zou, L. Xu, J. Xiong, C. Fan, Chem. Eng. J. 426 (2021) 131251. [83] Y. Hu Q. Yu W. Tang M. Cheng X. Wang S. Liu J. Gao M. Wang M. Xiong J. Hu C. Liu T. Zou C. Fan Energy Storage Mater. 41 2021 738 747 Y. Hu, Q. Yu, W. Tang, M. Cheng, X. Wang, S. Liu, J. Gao, M. Wang, M. Xiong, J. Hu, C. Liu, T. Zou, C. Fan, Energy Storage Mater. 41 (2021) 738–747. [84] F. Xing S. Li L. Chen J.S. Dang X. He ACS Nano 2023 10.1021/acsnano.3c06189 F. Xing, S. Li, L. Chen, J.S. Dang, X. He, ACS Nano (2023). https://doi.org/10.1021/acsnano.3c06189. [85] B. Ji W. Yao Y. Zheng P. Kidkhunthod X. Zhou S. Tunmee S. Sattayaporn H.M. Cheng H. He Y. Tang Nat. Commun. 11 2020 1225 B. Ji, W. Yao, Y. Zheng, P. Kidkhunthod, X. Zhou, S. Tunmee, S. Sattayaporn, H.M. Cheng, H. He, Y. Tang, Nat. Commun. 11 (2020) 1225. [86] Q.-C. Wang Q.-Q. Qiu N. Xiao Z.-W. Fu X.-J. Wu X.-Q. Yang Y.-N. Zhou Energy Storage Mater. 15 2018 1 7 Q.-C. Wang, Q.-Q. Qiu, N. Xiao, Z.-W. Fu, X.-J. Wu, X.-Q. Yang, Y.-N. Zhou, Energy Storage Mater. 15 (2018) 1–7. [87] J. Feng J. Li N. Wen S. Chen J. Wu Q. Fan Y. Dong Q. Kuang Y. Zhao J. Energy Chem. 73 2022 436 444 J. Feng, J. Li, N. Wen, S. Chen, J. Wu, Q. Fan, Y. Dong, Q. Kuang, Y. Zhao, J. Energy Chem. 73 (2022) 436–444. [88] D. Zhou D. Ning J. Wang J. Liu G. Zhang Y. Xiao J. Zheng Y. Li J. Li X. Liu J. Energy Chem. 77 2023 479 486 D. Zhou, D. Ning, J. Wang, J. Liu, G. Zhang, Y. Xiao, J. Zheng, Y. Li, J. Li, X. Liu, J. Energy Chem. 77 (2023) 479–486. [89] H. Liu X. Gao J. Chen J. Gao H. Wang Y. Mei H. Liu W. Deng G. Zou H. Hou X. Ji J. Energy Chem. 75 2022 478 485 H. Liu, X. Gao, J. Chen, J. Gao, H. Wang, Y. Mei, H. Liu, W. Deng, G. Zou, H. Hou, X. Ji, J. Energy Chem. 75 (2022) 478–485. [90] T. Xiong J. Li J. Chandra Roy M. Koroma Z. Zhu H. Yang L. Zhang T. Ouyang M.S. Balogun M. Al-Mamun J. Energy Chem. 81 2023 71 81 T. Xiong, J. Li, J. Chandra Roy, M. Koroma, Z. Zhu, H. Yang, L. Zhang, T. Ouyang, M.S. Balogun, M. Al-Mamun, J. Energy Chem. 81 (2023) 71–81. [91] T. Yang Y. Huang J. Zhang H. Zhu J. Ren T. Li L.C. Gallington S. Lan L. Yang Q. Liu J. Energy Chem. 73 2022 542 548 T. Yang, Y. Huang, J. Zhang, H. Zhu, J. Ren, T. Li, L.C. Gallington, S. Lan, L. Yang, Q. Liu, J. Energy Chem. 73 (2022) 542–548. [92] X. Yin Y. Ren L. Wu Z. Zhang C. Du J. Wang G. Yin H. Huo J. Energy Chem. 71 2022 210 217 X. Yin, Y. Ren, L. Wu, Z. Zhang, C. Du, J. Wang, G. Yin, H. Huo, J. Energy Chem. 71 (2022) 210–217. [93] L. Zhao M. Zheng J. Zhang H. Liu W. Li M. Chen J. Energy Storage 63 2023 107053 L. Zhao, M. Zheng, J. Zhang, H. Liu, W. Li, M. Chen, J. Energy Storage 63 (2023) 107053. [94] C. Yang S. Xin L. Mai Y. You Adv. Energy Mater. 11 2020 2000974 C. Yang, S. Xin, L. Mai, Y. You, Adv. Energy Mater. 11 (2020) 2000974. [95] X.X. Zhao Z.Y. Gu W.H. Li X. Yang J.Z. Guo X.L. Wu Chem-Eur. J. 26 2020 7823 7830 X.X. Zhao, Z.Y. Gu, W.H. Li, X. Yang, J.Z. Guo, X.L. Wu, Chem-Eur. J. 26 (2020) 7823–7830. [96] N. Zhang T. Deng S. Zhang C. Wang L. Chen C. Wang X. Fan Adv. Mater. 34 2022 e2107899 N. Zhang, T. Deng, S. Zhang, C. Wang, L. Chen, C. Wang, X. Fan, Adv. Mater. 34 (2022) e2107899. [97] J. Xu J. Chao T. Li T. Yan S. Wu M. Wu B. Zhao R. Wang ACS Cent. Sci. 6 2020 1542 1554 J. Xu, J. Chao, T. Li, T. Yan, S. Wu, M. Wu, B. Zhao, R. Wang, ACS Cent. Sci. 6 (2020) 1542–1554. [98] X. Wu Z. Wei Y. Sun J. Sun J. Du Batteries 8 2022 179 X. Wu, Z. Wei, Y. Sun, J. Sun, J. Du, Batteries 8 (2022) 179. [99] C.Y. Wang G. Zhang S. Ge T. Xu Y. Ji X.G. Yang Y. Leng Nature 529 2016 515 518 C.Y. Wang, G. Zhang, S. Ge, T. Xu, Y. Ji, X.G. Yang, Y. Leng, Nature 529 (2016) 515–518. [100] X. Hu Y. Zheng D.A. Howey H. Perez A. Foley M. Pecht Prog. Energ. Combust. 77 2020 100806 X. Hu, Y. Zheng, D.A. Howey, H. Perez, A. Foley, M. Pecht, Prog. Energ. Combust. 77 (2020) 100806. [101] K. Chayambuka G. Mulder D.L. Danilov P.H.L. Notten Adv. Energy Mater. 8 2018 1800079 K. Chayambuka, G. Mulder, D.L. Danilov, P.H.L. Notten, Adv. Energy Mater. 8 (2018) 1800079. [102] G.G. Eshetu G.A. Elia M. Armand M. Forsyth S. Komaba T. Rojo S. Passerini Adv. Energy Mater. 10 2020 2000093 G.G. Eshetu, G.A. Elia, M. Armand, M. Forsyth, S. Komaba, T. Rojo, S. Passerini, Adv. Energy Mater. 10 (2020) 2000093. [103] J. Zhang X. Yao R.K. Misra Q. Cai Y. Zhao J. Mater. Sci. Technol. 44 2020 237 257 J. Zhang, X. Yao, R.K. Misra, Q. Cai, Y. Zhao, J. Mater. Sci. Technol. 44 (2020) 237–257. [104] J. Yang H. Zhang Q. Zhou H. Qu T. Dong M. Zhang B. Tang J. Zhang G. Cui ACS Appl. Mater. Interfaces 11 2019 17109 17127 J. Yang, H. Zhang, Q. Zhou, H. Qu, T. Dong, M. Zhang, B. Tang, J. Zhang, G. Cui, ACS Appl. Mater. Interfaces 11 (2019) 17109–17127. [105] H. Zhang G.G. Eshetu X. Judez C. Li L.M. Rodriguez-Martinez M. Armand Angew Chem. Int. Ed. 57 2018 15002 15027 H. Zhang, G.G. Eshetu, X. Judez, C. Li, L.M. Rodriguez-Martinez, M. Armand, Angew Chem. Int. Ed. 57 (2018) 15002–15027. [106] S.S. Zhang J. Power Sources 162 2006 1379 1394 S.S. Zhang, J. Power Sources 162 (2006) 1379–1394. [107] K. Abe Electrolytes for Lithium and Lithium-Ion Batteries 2014 167 207 10.1007/978-1-4939-0302-3_3 K. Abe, Electrolytes for Lithium and Lithium-Ion Batteries, 2014, pp. 167–207. https://doi.org/10.1007/978-1-4939-0302-3_3. [108] A.M. Haregewoin A.S. Wotango B.-J. Hwang Energy Environ. Sci. 9 2016 1955 1988 A.M. Haregewoin, A.S. Wotango, B.-J. Hwang, Energy Environ. Sci. 9 (2016) 1955–1988. [109] Z. Zhang R. Wang J. Zeng K. Shi C. Zhu X. Yan Adv. Funct. Mater. 31 2021 2106047 Z. Zhang, R. Wang, J. Zeng, K. Shi, C. Zhu, X. Yan, Adv. Funct. Mater. 31 (2021) 2106047. [110] J. Feng Y. An L. Ci S. Xiong J. Mater. Chem. A 3 2015 14539 14544 J. Feng, Y. An, L. Ci, S. Xiong, J. Mater. Chem. A 3 (2015) 14539–14544. [111] W. Ji H. Huang X. Zhang D. Zheng T. Ding T.H. Lambert D. Qu Nano Energy 72 2020 104705 W. Ji, H. Huang, X. Zhang, D. Zheng, T. Ding, T.H. Lambert, D. Qu, Nano Energy 72 (2020) 104705. [112] Q. Zhou L. Wang W. Li K. Zhao M. Liu Q. Wu Y. Yang G. He I.P. Parkin P.R. Shearing D.J.L. Brett J. Zhang X. Sun Electrochem. Energy Rev. 4 2021 793 823 Q. Zhou, L. Wang, W. Li, K. Zhao, M. Liu, Q. Wu, Y. Yang, G. He, I.P. Parkin, P.R. Shearing, D.J.L. Brett, J. Zhang, X. Sun, Electrochem. Energy Rev. 4 (2021) 793–823. [113] T. Liu B. Wang X. Gu L. Wang M. Ling G. Liu D. Wang S. Zhang Nano Energy 30 2016 756 761 T. Liu, B. Wang, X. Gu, L. Wang, M. Ling, G. Liu, D. Wang, S. Zhang, Nano Energy 30 (2016) 756–761. [114] L. Shen S. Shi S. Roy X. Yin W. Liu Y. Zhao Adv. Funct. Mater. 31 2020 2006066 L. Shen, S. Shi, S. Roy, X. Yin, W. Liu, Y. Zhao, Adv. Funct. Mater. 31 (2020) 2006066. [115] J. Li S. Tang Z. Li Z. Ding T. Wang C. Wang J. Colloid Interface Sci. 629 2022 461 472 J. Li, S. Tang, Z. Li, Z. Ding, T. Wang, C. Wang, J. Colloid Interface Sci. 629 (2022) 461–472. [116] Y. Xia L. Que F. Yu L. Deng Z. Liang Y. Jiang M. Sun L. Zhao Z. Wang Nano-Micro Lett. 14 2022 143 Y. Xia, L. Que, F. Yu, L. Deng, Z. Liang, Y. Jiang, M. Sun, L. Zhao, Z. Wang, Nano-Micro Lett. 14 (2022) 143. [117] L.F. Que F.D. Yu Y. Xia L. Deng K. Goh C. Liu Y.S. Jiang X.L. Sui Z.B. Wang ACS Nano 14 2020 13765 13774 L.F. Que, F.D. Yu, Y. Xia, L. Deng, K. Goh, C. Liu, Y.S. Jiang, X.L. Sui, Z.B. Wang, ACS Nano 14 (2020) 13765–13774. [118] Y.-Q. Zheng M.-Y. Sun F.-D. Yu L. Deng Y. Xia Y.-S. Jiang L.-F. Que L. Zhao Z.-B. Wang Nano Energy 102 2022 107693 Y.-Q. Zheng, M.-Y. Sun, F.-D. Yu, L. Deng, Y. Xia, Y.-S. Jiang, L.-F. Que, L. Zhao, Z.-B. Wang, Nano Energy 102 (2022) 107693. [119] P. Desai J. Forero-Saboya V. Meunier G. Rousse M. Deschamps A.M. Abakumov J.-M. Tarascon S. Mariyappan Energy Storage Mater. 57 2023 102 117 P. Desai, J. Forero-Saboya, V. Meunier, G. Rousse, M. Deschamps, A.M. Abakumov, J.-M. Tarascon, S. Mariyappan, Energy Storage Mater. 57 (2023) 102–117. [120] J. Hwang K. Matsumoto R. Hagiwara Adv. Energy Mater. 10 2020 2001880 J. Hwang, K. Matsumoto, R. Hagiwara, Adv. Energy Mater. 10 (2020) 2001880. [121] G. Du M. Tao J. Li T. Yang W. Gao J. Deng Y. Qi S.J. Bao M. Xu Adv. Energy Mater. 10 2019 1903351 G. Du, M. Tao, J. Li, T. Yang, W. Gao, J. Deng, Y. Qi, S.J. Bao, M. Xu, Adv. Energy Mater. 10 (2019) 1903351. [122] Y. Wang N. Xiao Z. Wang H. Li M. Yu Y. Tang M. Hao C. Liu Y. Zhou J. Qiu Chem. Eng. J. 342 2018 52 60 Y. Wang, N. Xiao, Z. Wang, H. Li, M. Yu, Y. Tang, M. Hao, C. Liu, Y. Zhou, J. Qiu, Chem. Eng. J. 342 (2018) 52–60. [123] X. Ou X. Xiong F. Zheng C. Yang Z. Lin R. Hu C. Jin Y. Chen M. Liu J. Power Sources 325 2016 410 416 X. Ou, X. Xiong, F. Zheng, C. Yang, Z. Lin, R. Hu, C. Jin, Y. Chen, M. Liu, J. Power Sources 325 (2016) 410–416. [124] X. Lv W. Wei Q. Sun B. Huang Y. Dai J. Phys. D: Appl. Phys. 50 2017 235501 X. Lv, W. Wei, Q. Sun, B. Huang, Y. Dai, J. Phys. D: Appl. Phys. 50 (2017) 235501. [125] X. Fan H. Chen J. Deng X. Sun L. Zhao L. Chen S. Jin G. Wang X. Chen Inorg. Chem. 58 2019 7564 7570 X. Fan, H. Chen, J. Deng, X. Sun, L. Zhao, L. Chen, S. Jin, G. Wang, X. Chen, Inorg. Chem. 58 (2019) 7564–7570. [126] Y. Liao K.-S. Park P. Xiao G. Henkelman W. Li J.B. Goodenough Chem. Mater. 25 2013 1699 1705 Y. Liao, K.-S. Park, P. Xiao, G. Henkelman, W. Li, J.B. Goodenough, Chem. Mater. 25 (2013) 1699–1705. [127] C. Wang A.C. Thenuwara J. Luo P.P. Shetty M.T. McDowell H. Zhu S. Posada-Perez H. Xiong G. Hautier W. Li Nat. Commun. 13 2022 4934 C. Wang, A.C. Thenuwara, J. Luo, P.P. Shetty, M.T. McDowell, H. Zhu, S. Posada-Perez, H. Xiong, G. Hautier, W. Li, Nat. Commun. 13 (2022) 4934. [128] Z. Ma Y. Lyu H. Yang Q. Li B. Guo A. Nie J. Power Sources 401 2018 195 203 Z. Ma, Y. Lyu, H. Yang, Q. Li, B. Guo, A. Nie, J. Power Sources 401 (2018) 195–203. [129] R. Guo W. Han Mater. Today Sustain. 19 2022 100187 R. Guo, W. Han, Mater. Today Sustain. 19 (2022) 100187. [130] R.R. Li Z. Yang X.X. He X.H. Liu H. Zhang Y. Gao Y. Qiao L. Li S.L. Chou Chem. Commun. 57 2021 12406 12416 R.R. Li, Z. Yang, X.X. He, X.H. Liu, H. Zhang, Y. Gao, Y. Qiao, L. Li, S.L. Chou, Chem. Commun. 57 (2021) 12406–12416. [131] Z. Mao R. Wang B. He J. Jin Y. Gong H. Wang Small 19 2023 e2207224 Z. Mao, R. Wang, B. He, J. Jin, Y. Gong, H. Wang, Small 19 (2023) e2207224. [132] T. Jin Q. Han L. Jiao Adv. Mater. 32 2020 e1806304 T. Jin, Q. Han, L. Jiao, Adv. Mater. 32 (2020) e1806304. [133] A. Beda C. Villevieille P.-L. Taberna P. Simon C. Matei Ghimbeu J. Mater. Chem. A 8 2020 5558 5571 A. Beda, C. Villevieille, P.-L. Taberna, P. Simon, C. Matei Ghimbeu, J. Mater. Chem. A 8 (2020) 5558–5571. [134] X.-M. Zheng J.-H. You J.-J. Fan G.-P. Tu W.-Q. Rong W.-J. Li Y.-X. Wang S. Tao P.-Y. Zhang S.-Y. Zhang S.-Y. Shen J.-T. Li L. Huang S.-G. Sun Nano Energy 77 2020 105123 X.-M. Zheng, J.-H. You, J.-J. Fan, G.-P. Tu, W.-Q. Rong, W.-J. Li, Y.-X. Wang, S. Tao, P.-Y. Zhang, S.-Y. Zhang, S.-Y. Shen, J.-T. Li, L. Huang, S.-G. Sun, Nano Energy 77 (2020) 105123. [135] K. Mukai T. Inoue Y. Kato S. Shirai ACS Omega 2 2017 864 872 K. Mukai, T. Inoue, Y. Kato, S. Shirai, ACS Omega 2 (2017) 864–872. [136] Z. Li N. Yao L. Yu Y.-X. Yao C.-B. Jin Y. Yang Y. Xiao X.-Y. Yue W.-L. Cai L. Xu P. Wu C. Yan Q. Zhang Matter 6 2023 2274 2292 Z. Li, N. Yao, L. Yu, Y.-X. Yao, C.-B. Jin, Y. Yang, Y. Xiao, X.-Y. Yue, W.-L. Cai, L. Xu, P. Wu, C. Yan, Q. Zhang, Matter 6 (2023) 2274–2292. [137] C.B. Jin N. Yao Y. Xiao J. Xie Z. Li X. Chen B.Q. Li X.Q. Zhang J.Q. Huang Q. Zhang Adv. Mater. 35 2023 e2208340 C.B. Jin, N. Yao, Y. Xiao, J. Xie, Z. Li, X. Chen, B.Q. Li, X.Q. Zhang, J.Q. Huang, Q. Zhang, Adv. Mater. 35 (2023) e2208340. [138] C.S. Rustomji Y. Yang T.K. Kim J. Mac Y.J. Kim E. Caldwell H. Chung Y.S. Meng Science 356 2017 1351 C.S. Rustomji, Y. Yang, T.K. Kim, J. Mac, Y.J. Kim, E. Caldwell, H. Chung, Y.S. Meng, Science 356 (2017) 1351. Haoran Bai is currently undertaking a Master’s degree at Changzhou University where he is researching the cathode materials and the ion transport mechanisms of sodium-ion batteries. Xiaohui Zhu is currently pursuing a master's degree at Changzhou University, wherein she is undertaking research on the theoretical study of structural design and electronic structure investigation of single atom catalysts. Huaisheng Ao is currently a lecturer at Changzhou University. He received his B.S. from Beijing University of Chemical and Technology in 2016 and Ph.D. under the supervision of Professor Yitai Qian at the University of Science and Technology of China in 2021. His research mainly includes the design of novel systems for green and high energy density batteries for energy storage, especially for rechargeable aqueous metal-ion batteries, and the fundamental mechanisms. Guangyu He is a professor at Changzhou University. She received her Ph.D. degree from Nanjing University of Science and Technology. Her research mainly focuses on graphene-based functional materials for applications in advanced energy storage materials and devices and environmental engineering Hai Xiao obtained his B.Sc. and M.Sc. from Tsinghua University, and later earned his Ph.D. (2015) from California Institute of Technology (Caltech). He continued to work at Caltech as a post-doc and research scientist and joined Tsinghua University in 2017, and is currently an associate professor. His research area lies in computational chemistry, and his current research interests focus on the structure-performance relationships in heterogenous catalysis and understanding of catalysis at electrochemical interfaces. Yinjuan Chen obtained her B.Sc. and Ph.D. (2021) in Chemical Engineering and Technology from the China University of Petroleum (East China), under the guidance of Professor Chenguang Liu. She was a visiting Ph.D. student at Tsinghua University under the supervision of Professor Jun Li from 2016 to 2021. She became a lecturer at Changzhou University in 2021. Her current research interests focus on the materials design and theoretical investigation of heterogeneous single-atom catalysts, as well as electrochemical energy storage.",
+      "scopus-id": "85181122955",
+      "coredata": {
+        "eid": "1-s2.0-S2095495623006393",
+        "dc:description": "With the continuing boost in the demand for energy storage, there is an increasing requirement for batteries to be capable of operation in extreme environmental conditions. Sodium-ion batteries (SIBs) have emerged as a highly promising energy storage solution due to their promising performance over a wide range of temperatures and the abundance of sodium resources in the earth's crust. Compared to lithium-ion batteries (LIBs), although sodium ions possess a larger ionic radius, they are more easily desolvated than lithium ions. Furthermore, SIBs have a smaller Stokes radius than lithium ions, resulting in improved sodium-ion mobility in the electrolyte. Nevertheless, SIBs demonstrate a significant decrease in performance at low temperatures (LT), which constrains their operation in harsh weather conditions. Despite the increasing interest in SIBs, there is a notable scarcity of research focusing specifically on their mechanism under LT conditions. This review explores recent research that considers the thermal tolerance of SIBs from an inner chemistry process perspective, spanning a wide temperature spectrum (−70 to 100 °C), particularly at LT conditions. In addition, the enhancement of electrochemical performance in LT SIBs is based on improvements in reaction kinetics and cycling stability achieved through the utilization of effective electrode materials and electrolyte components. Furthermore, the safety concerns associated with SIBs are addressed and effective strategies are proposed for mitigating these issues. Finally, prospects conducted to extend the environmental frontiers of commercial SIBs are discussed mainly from three viewpoints including innovations in materials, development and research of relevant theoretical mechanisms, and intelligent safety management system establishment for larger-scale energy storage SIBs.",
+        "openArchiveArticle": "false",
+        "prism:coverDate": "2024-03-31",
+        "openaccessUserLicense": null,
+        "prism:aggregationType": "Journal",
+        "prism:url": "https://api.elsevier.com/content/article/pii/S2095495623006393",
+        "dc:creator": [
+          {
+            "@_fa": "true",
+            "$": "Bai, Haoran"
+          },
+          {
+            "@_fa": "true",
+            "$": "Zhu, Xiaohui"
+          },
+          {
+            "@_fa": "true",
+            "$": "Ao, Huaisheng"
+          },
+          {
+            "@_fa": "true",
+            "$": "He, Guangyu"
+          },
+          {
+            "@_fa": "true",
+            "$": "Xiao, Hai"
+          },
+          {
+            "@_fa": "true",
+            "$": "Chen, Yinjuan"
+          }
+        ],
+        "link": [
+          {
+            "@_fa": "true",
+            "@rel": "self",
+            "@href": "https://api.elsevier.com/content/article/pii/S2095495623006393"
+          },
+          {
+            "@_fa": "true",
+            "@rel": "scidir",
+            "@href": "https://www.sciencedirect.com/science/article/pii/S2095495623006393"
+          }
+        ],
+        "dc:format": "application/json",
+        "openaccessType": null,
+        "pii": "S2095-4956(23)00639-3",
+        "prism:volume": "90",
+        "prism:publisher": "Science Press and Dalian Institute of Chemical Physics, Chinese Academy of Sciences. Published by ELSEVIER B.V. and Science Press.",
+        "dc:title": "Advances in sodium-ion batteries at low-temperature: Challenges and strategies",
+        "prism:copyright": "© 2023 Science Press and Dalian Institute of Chemical Physics, Chinese Academy of Sciences. Published by ELSEVIER B.V. and Science Press. All rights reserved.",
+        "openaccess": "0",
+        "prism:issn": "20954956",
+        "dcterms:subject": [
+          {
+            "@_fa": "true",
+            "$": "Low-temperature"
+          },
+          {
+            "@_fa": "true",
+            "$": "Sodium-ion batteries"
+          },
+          {
+            "@_fa": "true",
+            "$": "Reaction kinetics"
+          },
+          {
+            "@_fa": "true",
+            "$": "Cycle stability"
+          },
+          {
+            "@_fa": "true",
+            "$": "Safety concerns of Sodium-ion batteries"
+          }
+        ],
+        "openaccessArticle": "false",
+        "prism:publicationName": "Journal of Energy Chemistry",
+        "openaccessSponsorType": null,
+        "prism:pageRange": "518-539",
+        "prism:endingPage": "539",
+        "pubType": "rev",
+        "prism:coverDisplayDate": "March 2024",
+        "prism:doi": "10.1016/j.jechem.2023.11.004",
+        "prism:startingPage": "518",
+        "dc:identifier": "doi:10.1016/j.jechem.2023.11.004",
+        "openaccessSponsorName": null
+      },
+      "objects": {
+        "object": [
+          {
+            "@category": "standard",
+            "@height": "795",
+            "@width": "711",
+            "@_fa": "true",
+            "$": "https://api.elsevier.com/content/object/eid/1-s2.0-S2095495623006393-gr10.jpg?httpAccept=%2A%2F%2A",
+            "@multimediatype": "JPEG image file",
+            "@type": "IMAGE-DOWNSAMPLED",
+            "@size": "159850",
+            "@ref": "gr10",
+            "@mimetype": "image/jpeg"
+          },
+          {
+            "@category": "standard",
+            "@height": "856",
+            "@width": "622",
+            "@_fa": "true",
+            "$": "https://api.elsevier.com/content/object/eid/1-s2.0-S2095495623006393-gr11.jpg?httpAccept=%2A%2F%2A",
+            "@multimediatype": "JPEG image file",
+            "@type": "IMAGE-DOWNSAMPLED",
+            "@size": "176217",
+            "@ref": "gr11",
+            "@mimetype": "image/jpeg"
+          },
+          {
+            "@category": "standard",
+            "@height": "406",
+            "@width": "711",
+            "@_fa": "true",
+            "$": "https://api.elsevier.com/content/object/eid/1-s2.0-S2095495623006393-gr12.jpg?httpAccept=%2A%2F%2A",
+            "@multimediatype": "JPEG image file",
+            "@type": "IMAGE-DOWNSAMPLED",
+            "@size": "98082",
+            "@ref": "gr12",
+            "@mimetype": "image/jpeg"
+          },
+          {
+            "@category": "standard",
+            "@height": "566",
+            "@width": "533",
+            "@_fa": "true",
+            "$": "https://api.elsevier.com/content/object/eid/1-s2.0-S2095495623006393-gr13.jpg?httpAccept=%2A%2F%2A",
+            "@multimediatype": "JPEG image file",
+            "@type": "IMAGE-DOWNSAMPLED",
+            "@size": "86431",
+            "@ref": "gr13",
+            "@mimetype": "image/jpeg"
+          },
+          {
+            "@category": "standard",
+            "@height": "474",
+            "@width": "622",
+            "@_fa": "true",
+            "$": "https://api.elsevier.com/content/object/eid/1-s2.0-S2095495623006393-gr14.jpg?httpAccept=%2A%2F%2A",
+            "@multimediatype": "JPEG image file",
+            "@type": "IMAGE-DOWNSAMPLED",
+            "@size": "101183",
+            "@ref": "gr14",
+            "@mimetype": "image/jpeg"
+          },
+          {
+            "@category": "standard",
+            "@height": "324",
+            "@width": "622",
+            "@_fa": "true",
+            "$": "https://api.elsevier.com/content/object/eid/1-s2.0-S2095495623006393-gr2.jpg?httpAccept=%2A%2F%2A",
+            "@multimediatype": "JPEG image file",
+            "@type": "IMAGE-DOWNSAMPLED",
+            "@size": "58497",
+            "@ref": "gr2",
+            "@mimetype": "image/jpeg"
+          },
+          {
+            "@category": "standard",
+            "@height": "935",
+            "@width": "622",
+            "@_fa": "true",
+            "$": "https://api.elsevier.com/content/object/eid/1-s2.0-S2095495623006393-gr3.jpg?httpAccept=%2A%2F%2A",
+            "@multimediatype": "JPEG image file",
+            "@type": "IMAGE-DOWNSAMPLED",
+            "@size": "110587",
+            "@ref": "gr3",
+            "@mimetype": "image/jpeg"
+          },
+          {
+            "@category": "standard",
+            "@height": "977",
+            "@width": "583",
+            "@_fa": "true",
+            "$": "https://api.elsevier.com/content/object/eid/1-s2.0-S2095495623006393-gr4.jpg?httpAccept=%2A%2F%2A",
+            "@multimediatype": "JPEG image file",
+            "@type": "IMAGE-DOWNSAMPLED",
+            "@size": "224782",
+            "@ref": "gr4",
+            "@mimetype": "image/jpeg"
+          },
+          {
+            "@category": "standard",
+            "@height": "879",
+            "@width": "622",
+            "@_fa": "true",
+            "$": "https://api.elsevier.com/content/object/eid/1-s2.0-S2095495623006393-gr5.jpg?httpAccept=%2A%2F%2A",
+            "@multimediatype": "JPEG image file",
+            "@type": "IMAGE-DOWNSAMPLED",
+            "@size": "120106",
+            "@ref": "gr5",
+            "@mimetype": "image/jpeg"
+          },
+          {
+            "@category": "standard",
+            "@height": "825",
+            "@width": "622",
+            "@_fa": "true",
+            "$": "https://api.elsevier.com/content/object/eid/1-s2.0-S2095495623006393-gr6.jpg?httpAccept=%2A%2F%2A",
+            "@multimediatype": "JPEG image file",
+            "@type": "IMAGE-DOWNSAMPLED",
+            "@size": "207529",
+            "@ref": "gr6",
+            "@mimetype": "image/jpeg"
+          },
+          {
+            "@category": "standard",
+            "@height": "977",
+            "@width": "652",
+            "@_fa": "true",
+            "$": "https://api.elsevier.com/content/object/eid/1-s2.0-S2095495623006393-gr7.jpg?httpAccept=%2A%2F%2A",
+            "@multimediatype": "JPEG image file",
+            "@type": "IMAGE-DOWNSAMPLED",
+            "@size": "178337",
+            "@ref": "gr7",
+            "@mimetype": "image/jpeg"
+          },
+          {
+            "@category": "standard",
+            "@height": "530",
+            "@width": "711",
+            "@_fa": "true",
+            "$": "https://api.elsevier.com/content/object/eid/1-s2.0-S2095495623006393-gr8.jpg?httpAccept=%2A%2F%2A",
+            "@multimediatype": "JPEG image file",
+            "@type": "IMAGE-DOWNSAMPLED",
+            "@size": "121450",
+            "@ref": "gr8",
+            "@mimetype": "image/jpeg"
+          },
+          {
+            "@category": "standard",
+            "@height": "533",
+            "@width": "533",
+            "@_fa": "true",
+            "$": "https://api.elsevier.com/content/object/eid/1-s2.0-S2095495623006393-gr9.jpg?httpAccept=%2A%2F%2A",
+            "@multimediatype": "JPEG image file",
+            "@type": "IMAGE-DOWNSAMPLED",
+            "@size": "52801",
+            "@ref": "gr9",
+            "@mimetype": "image/jpeg"
+          },
+          {
+            "@category": "standard",
+            "@height": "200",
+            "@width": "372",
+            "@_fa": "true",
+            "$": "https://api.elsevier.com/content/object/eid/1-s2.0-S2095495623006393-ga1.jpg?httpAccept=%2A%2F%2A",
+            "@multimediatype": "JPEG image file",
+            "@type": "IMAGE-DOWNSAMPLED",
+            "@size": "31880",
+            "@ref": "ga1",
+            "@mimetype": "image/jpeg"
+          },
+          {
+            "@category": "standard",
+            "@height": "155",
+            "@width": "111",
+            "@_fa": "true",
+            "$": "https://api.elsevier.com/content/object/eid/1-s2.0-S2095495623006393-fx1.jpg?httpAccept=%2A%2F%2A",
+            "@multimediatype": "JPEG image file",
+            "@type": "IMAGE-DOWNSAMPLED",
+            "@size": "4937",
+            "@ref": "fx1",
+            "@mimetype": "image/jpeg"
+          },
+          {
+            "@category": "standard",
+            "@height": "155",
+            "@width": "111",
+            "@_fa": "true",
+            "$": "https://api.elsevier.com/content/object/eid/1-s2.0-S2095495623006393-fx2.jpg?httpAccept=%2A%2F%2A",
+            "@multimediatype": "JPEG image file",
+            "@type": "IMAGE-DOWNSAMPLED",
+            "@size": "6664",
+            "@ref": "fx2",
+            "@mimetype": "image/jpeg"
+          },
+          {
+            "@category": "standard",
+            "@height": "155",
+            "@width": "111",
+            "@_fa": "true",
+            "$": "https://api.elsevier.com/content/object/eid/1-s2.0-S2095495623006393-fx3.jpg?httpAccept=%2A%2F%2A",
+            "@multimediatype": "JPEG image file",
+            "@type": "IMAGE-DOWNSAMPLED",
+            "@size": "5592",
+            "@ref": "fx3",
+            "@mimetype": "image/jpeg"
+          },
+          {
+            "@category": "standard",
+            "@height": "155",
+            "@width": "111",
+            "@_fa": "true",
+            "$": "https://api.elsevier.com/content/object/eid/1-s2.0-S2095495623006393-fx4.jpg?httpAccept=%2A%2F%2A",
+            "@multimediatype": "JPEG image file",
+            "@type": "IMAGE-DOWNSAMPLED",
+            "@size": "7877",
+            "@ref": "fx4",
+            "@mimetype": "image/jpeg"
+          },
+          {
+            "@category": "standard",
+            "@height": "155",
+            "@width": "111",
+            "@_fa": "true",
+            "$": "https://api.elsevier.com/content/object/eid/1-s2.0-S2095495623006393-fx5.jpg?httpAccept=%2A%2F%2A",
+            "@multimediatype": "JPEG image file",
+            "@type": "IMAGE-DOWNSAMPLED",
+            "@size": "5998",
+            "@ref": "fx5",
+            "@mimetype": "image/jpeg"
+          },
+          {
+            "@category": "standard",
+            "@height": "155",
+            "@width": "111",
+            "@_fa": "true",
+            "$": "https://api.elsevier.com/content/object/eid/1-s2.0-S2095495623006393-fx6.jpg?httpAccept=%2A%2F%2A",
+            "@multimediatype": "JPEG image file",
+            "@type": "IMAGE-DOWNSAMPLED",
+            "@size": "6040",
+            "@ref": "fx6",
+            "@mimetype": "image/jpeg"
+          },
+          {
+            "@category": "standard",
+            "@height": "681",
+            "@width": "711",
+            "@_fa": "true",
+            "$": "https://api.elsevier.com/content/object/eid/1-s2.0-S2095495623006393-gr1.jpg?httpAccept=%2A%2F%2A",
+            "@multimediatype": "JPEG image file",
+            "@type": "IMAGE-DOWNSAMPLED",
+            "@size": "160901",
+            "@ref": "gr1",
+            "@mimetype": "image/jpeg"
+          },
+          {
+            "@category": "thumbnail",
+            "@height": "163",
+            "@width": "146",
+            "@_fa": "true",
+            "$": "https://api.elsevier.com/content/object/eid/1-s2.0-S2095495623006393-gr10.sml?httpAccept=%2A%2F%2A",
+            "@multimediatype": "GIF image file",
+            "@type": "IMAGE-THUMBNAIL",
+            "@size": "11137",
+            "@ref": "gr10",
+            "@mimetype": "image/gif"
+          },
+          {
+            "@category": "thumbnail",
+            "@height": "164",
+            "@width": "119",
+            "@_fa": "true",
+            "$": "https://api.elsevier.com/content/object/eid/1-s2.0-S2095495623006393-gr11.sml?httpAccept=%2A%2F%2A",
+            "@multimediatype": "GIF image file",
+            "@type": "IMAGE-THUMBNAIL",
+            "@size": "12864",
+            "@ref": "gr11",
+            "@mimetype": "image/gif"
+          },
+          {
+            "@category": "thumbnail",
+            "@height": "125",
+            "@width": "219",
+            "@_fa": "true",
+            "$": "https://api.elsevier.com/content/object/eid/1-s2.0-S2095495623006393-gr12.sml?httpAccept=%2A%2F%2A",
+            "@multimediatype": "GIF image file",
+            "@type": "IMAGE-THUMBNAIL",
+            "@size": "16712",
+            "@ref": "gr12",
+            "@mimetype": "image/gif"
+          },
+          {
+            "@category": "thumbnail",
+            "@height": "164",
+            "@width": "154",
+            "@_fa": "true",
+            "$": "https://api.elsevier.com/content/object/eid/1-s2.0-S2095495623006393-gr13.sml?httpAccept=%2A%2F%2A",
+            "@multimediatype": "GIF image file",
+            "@type": "IMAGE-THUMBNAIL",
+            "@size": "13724",
+            "@ref": "gr13",
+            "@mimetype": "image/gif"
+          },
+          {
+            "@category": "thumbnail",
+            "@height": "164",
+            "@width": "215",
+            "@_fa": "true",
+            "$": "https://api.elsevier.com/content/object/eid/1-s2.0-S2095495623006393-gr14.sml?httpAccept=%2A%2F%2A",
+            "@multimediatype": "GIF image file",
+            "@type": "IMAGE-THUMBNAIL",
+            "@size": "15074",
+            "@ref": "gr14",
+            "@mimetype": "image/gif"
+          },
+          {
+            "@category": "thumbnail",
+            "@height": "114",
+            "@width": "219",
+            "@_fa": "true",
+            "$": "https://api.elsevier.com/content/object/eid/1-s2.0-S2095495623006393-gr2.sml?httpAccept=%2A%2F%2A",
+            "@multimediatype": "GIF image file",
+            "@type": "IMAGE-THUMBNAIL",
+            "@size": "12512",
+            "@ref": "gr2",
+            "@mimetype": "image/gif"
+          },
+          {
+            "@category": "thumbnail",
+            "@height": "164",
+            "@width": "109",
+            "@_fa": "true",
+            "$": "https://api.elsevier.com/content/object/eid/1-s2.0-S2095495623006393-gr3.sml?httpAccept=%2A%2F%2A",
+            "@multimediatype": "GIF image file",
+            "@type": "IMAGE-THUMBNAIL",
+            "@size": "8213",
+            "@ref": "gr3",
+            "@mimetype": "image/gif"
+          },
+          {
+            "@category": "thumbnail",
+            "@height": "163",
+            "@width": "97",
+            "@_fa": "true",
+            "$": "https://api.elsevier.com/content/object/eid/1-s2.0-S2095495623006393-gr4.sml?httpAccept=%2A%2F%2A",
+            "@multimediatype": "GIF image file",
+            "@type": "IMAGE-THUMBNAIL",
+            "@size": "12442",
+            "@ref": "gr4",
+            "@mimetype": "image/gif"
+          },
+          {
+            "@category": "thumbnail",
+            "@height": "164",
+            "@width": "116",
+            "@_fa": "true",
+            "$": "https://api.elsevier.com/content/object/eid/1-s2.0-S2095495623006393-gr5.sml?httpAccept=%2A%2F%2A",
+            "@multimediatype": "GIF image file",
+            "@type": "IMAGE-THUMBNAIL",
+            "@size": "8072",
+            "@ref": "gr5",
+            "@mimetype": "image/gif"
+          },
+          {
+            "@category": "thumbnail",
+            "@height": "163",
+            "@width": "123",
+            "@_fa": "true",
+            "$": "https://api.elsevier.com/content/object/eid/1-s2.0-S2095495623006393-gr6.sml?httpAccept=%2A%2F%2A",
+            "@multimediatype": "GIF image file",
+            "@type": "IMAGE-THUMBNAIL",
+            "@size": "16297",
+            "@ref": "gr6",
+            "@mimetype": "image/gif"
+          },
+          {
+            "@category": "thumbnail",
+            "@height": "163",
+            "@width": "109",
+            "@_fa": "true",
+            "$": "https://api.elsevier.com/content/object/eid/1-s2.0-S2095495623006393-gr7.sml?httpAccept=%2A%2F%2A",
+            "@multimediatype": "GIF image file",
+            "@type": "IMAGE-THUMBNAIL",
+            "@size": "9419",
+            "@ref": "gr7",
+            "@mimetype": "image/gif"
+          },
+          {
+            "@category": "thumbnail",
+            "@height": "163",
+            "@width": "219",
+            "@_fa": "true",
+            "$": "https://api.elsevier.com/content/object/eid/1-s2.0-S2095495623006393-gr8.sml?httpAccept=%2A%2F%2A",
+            "@multimediatype": "GIF image file",
+            "@type": "IMAGE-THUMBNAIL",
+            "@size": "17473",
+            "@ref": "gr8",
+            "@mimetype": "image/gif"
+          },
+          {
+            "@category": "thumbnail",
+            "@height": "164",
+            "@width": "164",
+            "@_fa": "true",
+            "$": "https://api.elsevier.com/content/object/eid/1-s2.0-S2095495623006393-gr9.sml?httpAccept=%2A%2F%2A",
+            "@multimediatype": "GIF image file",
+            "@type": "IMAGE-THUMBNAIL",
+            "@size": "7724",
+            "@ref": "gr9",
+            "@mimetype": "image/gif"
+          },
+          {
+            "@category": "thumbnail",
+            "@height": "118",
+            "@width": "219",
+            "@_fa": "true",
+            "$": "https://api.elsevier.com/content/object/eid/1-s2.0-S2095495623006393-ga1.sml?httpAccept=%2A%2F%2A",
+            "@multimediatype": "GIF image file",
+            "@type": "IMAGE-THUMBNAIL",
+            "@size": "20493",
+            "@ref": "ga1",
+            "@mimetype": "image/gif"
+          },
+          {
+            "@category": "thumbnail",
+            "@height": "164",
+            "@width": "117",
+            "@_fa": "true",
+            "$": "https://api.elsevier.com/content/object/eid/1-s2.0-S2095495623006393-fx1.sml?httpAccept=%2A%2F%2A",
+            "@multimediatype": "GIF image file",
+            "@type": "IMAGE-THUMBNAIL",
+            "@size": "11571",
+            "@ref": "fx1",
+            "@mimetype": "image/gif"
+          },
+          {
+            "@category": "thumbnail",
+            "@height": "164",
+            "@width": "117",
+            "@_fa": "true",
+            "$": "https://api.elsevier.com/content/object/eid/1-s2.0-S2095495623006393-fx2.sml?httpAccept=%2A%2F%2A",
+            "@multimediatype": "GIF image file",
+            "@type": "IMAGE-THUMBNAIL",
+            "@size": "14188",
+            "@ref": "fx2",
+            "@mimetype": "image/gif"
+          },
+          {
+            "@category": "thumbnail",
+            "@height": "164",
+            "@width": "117",
+            "@_fa": "true",
+            "$": "https://api.elsevier.com/content/object/eid/1-s2.0-S2095495623006393-fx3.sml?httpAccept=%2A%2F%2A",
+            "@multimediatype": "GIF image file",
+            "@type": "IMAGE-THUMBNAIL",
+            "@size": "13225",
+            "@ref": "fx3",
+            "@mimetype": "image/gif"
+          },
+          {
+            "@category": "thumbnail",
+            "@height": "164",
+            "@width": "117",
+            "@_fa": "true",
+            "$": "https://api.elsevier.com/content/object/eid/1-s2.0-S2095495623006393-fx4.sml?httpAccept=%2A%2F%2A",
+            "@multimediatype": "GIF image file",
+            "@type": "IMAGE-THUMBNAIL",
+            "@size": "17462",
+            "@ref": "fx4",
+            "@mimetype": "image/gif"
+          },
+          {
+            "@category": "thumbnail",
+            "@height": "164",
+            "@width": "117",
+            "@_fa": "true",
+            "$": "https://api.elsevier.com/content/object/eid/1-s2.0-S2095495623006393-fx5.sml?httpAccept=%2A%2F%2A",
+            "@multimediatype": "GIF image file",
+            "@type": "IMAGE-THUMBNAIL",
+            "@size": "14647",
+            "@ref": "fx5",
+            "@mimetype": "image/gif"
+          },
+          {
+            "@category": "thumbnail",
+            "@height": "164",
+            "@width": "117",
+            "@_fa": "true",
+            "$": "https://api.elsevier.com/content/object/eid/1-s2.0-S2095495623006393-fx6.sml?httpAccept=%2A%2F%2A",
+            "@multimediatype": "GIF image file",
+            "@type": "IMAGE-THUMBNAIL",
+            "@size": "13956",
+            "@ref": "fx6",
+            "@mimetype": "image/gif"
+          },
+          {
+            "@category": "thumbnail",
+            "@height": "164",
+            "@width": "171",
+            "@_fa": "true",
+            "$": "https://api.elsevier.com/content/object/eid/1-s2.0-S2095495623006393-gr1.sml?httpAccept=%2A%2F%2A",
+            "@multimediatype": "GIF image file",
+            "@type": "IMAGE-THUMBNAIL",
+            "@size": "15674",
+            "@ref": "gr1",
+            "@mimetype": "image/gif"
+          },
+          {
+            "@category": "high",
+            "@height": "3523",
+            "@width": "3150",
+            "@_fa": "true",
+            "$": "https://api.elsevier.com/content/object/eid/1-s2.0-S2095495623006393-gr10_lrg.jpg?httpAccept=%2A%2F%2A",
+            "@multimediatype": "JPEG image file",
+            "@type": "IMAGE-HIGH-RES",
+            "@size": "825554",
+            "@ref": "gr10",
+            "@mimetype": "image/jpeg"
+          },
+          {
+            "@category": "high",
+            "@height": "3795",
+            "@width": "2756",
+            "@_fa": "true",
+            "$": "https://api.elsevier.com/content/object/eid/1-s2.0-S2095495623006393-gr11_lrg.jpg?httpAccept=%2A%2F%2A",
+            "@multimediatype": "JPEG image file",
+            "@type": "IMAGE-HIGH-RES",
+            "@size": "1008260",
+            "@ref": "gr11",
+            "@mimetype": "image/jpeg"
+          },
+          {
+            "@category": "high",
+            "@height": "1799",
+            "@width": "3150",
+            "@_fa": "true",
+            "$": "https://api.elsevier.com/content/object/eid/1-s2.0-S2095495623006393-gr12_lrg.jpg?httpAccept=%2A%2F%2A",
+            "@multimediatype": "JPEG image file",
+            "@type": "IMAGE-HIGH-RES",
+            "@size": "528837",
+            "@ref": "gr12",
+            "@mimetype": "image/jpeg"
+          },
+          {
+            "@category": "high",
+            "@height": "2510",
+            "@width": "2362",
+            "@_fa": "true",
+            "$": "https://api.elsevier.com/content/object/eid/1-s2.0-S2095495623006393-gr13_lrg.jpg?httpAccept=%2A%2F%2A",
+            "@multimediatype": "JPEG image file",
+            "@type": "IMAGE-HIGH-RES",
+            "@size": "483902",
+            "@ref": "gr13",
+            "@mimetype": "image/jpeg"
+          },
+          {
+            "@category": "high",
+            "@height": "2099",
+            "@width": "2756",
+            "@_fa": "true",
+            "$": "https://api.elsevier.com/content/object/eid/1-s2.0-S2095495623006393-gr14_lrg.jpg?httpAccept=%2A%2F%2A",
+            "@multimediatype": "JPEG image file",
+            "@type": "IMAGE-HIGH-RES",
+            "@size": "540898",
+            "@ref": "gr14",
+            "@mimetype": "image/jpeg"
+          },
+          {
+            "@category": "high",
+            "@height": "1436",
+            "@width": "2756",
+            "@_fa": "true",
+            "$": "https://api.elsevier.com/content/object/eid/1-s2.0-S2095495623006393-gr2_lrg.jpg?httpAccept=%2A%2F%2A",
+            "@multimediatype": "JPEG image file",
+            "@type": "IMAGE-HIGH-RES",
+            "@size": "328155",
+            "@ref": "gr2",
+            "@mimetype": "image/jpeg"
+          },
+          {
+            "@category": "high",
+            "@height": "4141",
+            "@width": "2756",
+            "@_fa": "true",
+            "$": "https://api.elsevier.com/content/object/eid/1-s2.0-S2095495623006393-gr3_lrg.jpg?httpAccept=%2A%2F%2A",
+            "@multimediatype": "JPEG image file",
+            "@type": "IMAGE-HIGH-RES",
+            "@size": "606602",
+            "@ref": "gr3",
+            "@mimetype": "image/jpeg"
+          },
+          {
+            "@category": "high",
+            "@height": "4331",
+            "@width": "2584",
+            "@_fa": "true",
+            "$": "https://api.elsevier.com/content/object/eid/1-s2.0-S2095495623006393-gr4_lrg.jpg?httpAccept=%2A%2F%2A",
+            "@multimediatype": "JPEG image file",
+            "@type": "IMAGE-HIGH-RES",
+            "@size": "1354424",
+            "@ref": "gr4",
+            "@mimetype": "image/jpeg"
+          },
+          {
+            "@category": "high",
+            "@height": "3894",
+            "@width": "2756",
+            "@_fa": "true",
+            "$": "https://api.elsevier.com/content/object/eid/1-s2.0-S2095495623006393-gr5_lrg.jpg?httpAccept=%2A%2F%2A",
+            "@multimediatype": "JPEG image file",
+            "@type": "IMAGE-HIGH-RES",
+            "@size": "694790",
+            "@ref": "gr5",
+            "@mimetype": "image/jpeg"
+          },
+          {
+            "@category": "high",
+            "@height": "3655",
+            "@width": "2756",
+            "@_fa": "true",
+            "$": "https://api.elsevier.com/content/object/eid/1-s2.0-S2095495623006393-gr6_lrg.jpg?httpAccept=%2A%2F%2A",
+            "@multimediatype": "JPEG image file",
+            "@type": "IMAGE-HIGH-RES",
+            "@size": "1222985",
+            "@ref": "gr6",
+            "@mimetype": "image/jpeg"
+          },
+          {
+            "@category": "high",
+            "@height": "4331",
+            "@width": "2889",
+            "@_fa": "true",
+            "$": "https://api.elsevier.com/content/object/eid/1-s2.0-S2095495623006393-gr7_lrg.jpg?httpAccept=%2A%2F%2A",
+            "@multimediatype": "JPEG image file",
+            "@type": "IMAGE-HIGH-RES",
+            "@size": "1004602",
+            "@ref": "gr7",
+            "@mimetype": "image/jpeg"
+          },
+          {
+            "@category": "high",
+            "@height": "2347",
+            "@width": "3150",
+            "@_fa": "true",
+            "$": "https://api.elsevier.com/content/object/eid/1-s2.0-S2095495623006393-gr8_lrg.jpg?httpAccept=%2A%2F%2A",
+            "@multimediatype": "JPEG image file",
+            "@type": "IMAGE-HIGH-RES",
+            "@size": "625206",
+            "@ref": "gr8",
+            "@mimetype": "image/jpeg"
+          },
+          {
+            "@category": "high",
+            "@height": "2363",
+            "@width": "2362",
+            "@_fa": "true",
+            "$": "https://api.elsevier.com/content/object/eid/1-s2.0-S2095495623006393-gr9_lrg.jpg?httpAccept=%2A%2F%2A",
+            "@multimediatype": "JPEG image file",
+            "@type": "IMAGE-HIGH-RES",
+            "@size": "283961",
+            "@ref": "gr9",
+            "@mimetype": "image/jpeg"
+          },
+          {
+            "@category": "high",
+            "@height": "886",
+            "@width": "1650",
+            "@_fa": "true",
+            "$": "https://api.elsevier.com/content/object/eid/1-s2.0-S2095495623006393-ga1_lrg.jpg?httpAccept=%2A%2F%2A",
+            "@multimediatype": "JPEG image file",
+            "@type": "IMAGE-HIGH-RES",
+            "@size": "282302",
+            "@ref": "ga1",
+            "@mimetype": "image/jpeg"
+          },
+          {
+            "@category": "high",
+            "@height": "413",
+            "@width": "295",
+            "@_fa": "true",
+            "$": "https://api.elsevier.com/content/object/eid/1-s2.0-S2095495623006393-fx1_lrg.jpg?httpAccept=%2A%2F%2A",
+            "@multimediatype": "JPEG image file",
+            "@type": "IMAGE-HIGH-RES",
+            "@size": "13993",
+            "@ref": "fx1",
+            "@mimetype": "image/jpeg"
+          },
+          {
+            "@category": "high",
+            "@height": "413",
+            "@width": "295",
+            "@_fa": "true",
+            "$": "https://api.elsevier.com/content/object/eid/1-s2.0-S2095495623006393-fx2_lrg.jpg?httpAccept=%2A%2F%2A",
+            "@multimediatype": "JPEG image file",
+            "@type": "IMAGE-HIGH-RES",
+            "@size": "19405",
+            "@ref": "fx2",
+            "@mimetype": "image/jpeg"
+          },
+          {
+            "@category": "high",
+            "@height": "413",
+            "@width": "295",
+            "@_fa": "true",
+            "$": "https://api.elsevier.com/content/object/eid/1-s2.0-S2095495623006393-fx3_lrg.jpg?httpAccept=%2A%2F%2A",
+            "@multimediatype": "JPEG image file",
+            "@type": "IMAGE-HIGH-RES",
+            "@size": "15313",
+            "@ref": "fx3",
+            "@mimetype": "image/jpeg"
+          },
+          {
+            "@category": "high",
+            "@height": "413",
+            "@width": "295",
+            "@_fa": "true",
+            "$": "https://api.elsevier.com/content/object/eid/1-s2.0-S2095495623006393-fx4_lrg.jpg?httpAccept=%2A%2F%2A",
+            "@multimediatype": "JPEG image file",
+            "@type": "IMAGE-HIGH-RES",
+            "@size": "30162",
+            "@ref": "fx4",
+            "@mimetype": "image/jpeg"
+          },
+          {
+            "@category": "high",
+            "@height": "413",
+            "@width": "295",
+            "@_fa": "true",
+            "$": "https://api.elsevier.com/content/object/eid/1-s2.0-S2095495623006393-fx5_lrg.jpg?httpAccept=%2A%2F%2A",
+            "@multimediatype": "JPEG image file",
+            "@type": "IMAGE-HIGH-RES",
+            "@size": "18115",
+            "@ref": "fx5",
+            "@mimetype": "image/jpeg"
+          },
+          {
+            "@category": "high",
+            "@height": "413",
+            "@width": "295",
+            "@_fa": "true",
+            "$": "https://api.elsevier.com/content/object/eid/1-s2.0-S2095495623006393-fx6_lrg.jpg?httpAccept=%2A%2F%2A",
+            "@multimediatype": "JPEG image file",
+            "@type": "IMAGE-HIGH-RES",
+            "@size": "18656",
+            "@ref": "fx6",
+            "@mimetype": "image/jpeg"
+          },
+          {
+            "@category": "high",
+            "@height": "3019",
+            "@width": "3150",
+            "@_fa": "true",
+            "$": "https://api.elsevier.com/content/object/eid/1-s2.0-S2095495623006393-gr1_lrg.jpg?httpAccept=%2A%2F%2A",
+            "@multimediatype": "JPEG image file",
+            "@type": "IMAGE-HIGH-RES",
+            "@size": "940235",
+            "@ref": "gr1",
+            "@mimetype": "image/jpeg"
+          },
+          {
+            "@category": "standard",
+            "@_fa": "true",
+            "$": "https://api.elsevier.com/content/object/eid/1-s2.0-S2095495623006393-mmc1.docx?httpAccept=%2A%2F%2A",
+            "@multimediatype": "Microsoft Word file",
+            "@type": "APPLICATION",
+            "@size": "27716",
+            "@ref": "mmc1",
+            "@mimetype": "application/word"
+          },
+          {
+            "@category": "standard",
+            "@_fa": "true",
+            "$": "https://api.elsevier.com/content/object/eid/1-s2.0-S2095495623006393-am.pdf?httpAccept=%2A%2F%2A",
+            "@multimediatype": "Acrobat PDF file",
+            "@type": "AAM-PDF",
+            "@size": "3885248",
+            "@ref": "am",
+            "@mimetype": "application/pdf"
+          }
+        ]
+      },
+      "link": {
+        "@rel": "abstract",
+        "@href": "https://api.elsevier.com/content/abstract/scopus_id/85181122955"
+      }
+    }
+  }
+}

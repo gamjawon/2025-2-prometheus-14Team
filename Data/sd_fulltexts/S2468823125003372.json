@@ -1,0 +1,872 @@
+{
+  "metadata": {
+    "title": "Accelerating the screening of catalysts for hydrogen evolution reaction in graphene materials based on DFT calculations and machine learning",
+    "authors": "; ; ",
+    "journal": "Molecular Catalysis",
+    "date": "2025-06-15",
+    "doi": "10.1016/j.mcat.2025.115152",
+    "abstract": "",
+    "uri": "https://api.elsevier.com/content/article/pii/S2468823125003372",
+    "pii": "S2468823125003372"
+  },
+  "fulltext": {
+    "full-text-retrieval-response": {
+      "scopus-eid": "2-s2.0-105003376096",
+      "originalText": "serial JL 315758 291210 291744 291790 291809 31 Molecular Catalysis MOLECULARCATALYSIS 2025-04-25 2025-04-25 2025-04-25 2025-04-25 2025-05-07T07:56:13 1-s2.0-S2468823125003372 S2468-8231(25)00337-2 S2468823125003372 10.1016/j.mcat.2025.115152 S300 S300.1 FULL-TEXT 1-s2.0-S2468823125X00080 2025-05-07T07:05:45.865726Z 0 0 20250615 2025 2025-04-25T21:28:32.810197Z absattachment articleinfo articlenumber articletitlenorm authfirstinitialnorm authfirstsurnamenorm cid cids contenttype copyright crossmark dateloaded dateloadedtxt datesearch datesort dateupdated dco docsubtype doctype doi eid ewtransactionid hubeid indexeddate issn issnnorm itemstage itemtransactionid itemweight openaccess openarchive pg pgfirst pii piinorm pubdatestart pubdatetxt pubyr sectiontitle sortorder srctitle srctitlenorm srctype ssids alllist content subj subheadings suppl tomb volfirst volissue volumelist webpdf webpdfpagecount yearnav figure table e-component body mmlmath affil appendices articletitle auth authfirstini authfull authkeywords authlast highlightsabst orcid primabst pubtype ref specialabst 2468-8231 24688231 true 581 581 C Volume 581 12 115152 115152 115152 20250615 15 June 2025 2025-06-15 2025 Regular Papers article fla © 2025 Elsevier B.V. All rights are reserved, including those for text and data mining, AI training, and similar technologies. ACCELERATINGSCREENINGCATALYSTSFORHYDROGENEVOLUTIONREACTIONINGRAPHENEMATERIALSBASEDDFTCALCULATIONSMACHINELEARNING XIONG Z 1 Introduction 2 Computational methods 2.1 DFT calculations 2.2 Machine learning 3 Results and discussion 3.1 Structural and stability of TM@g 3.2 HER catalytic activity 3.3 Feature engineering 3.4 Machine learning 4 Conclusion CRediT authorship contribution statement Appendix Supplementary materials References XIONGX2025X115152 XIONGX2025X115152XZ 2027-04-25T00:00:00.000Z 2027-04-25T00:00:00.000Z http://creativecommons.org/licenses/by-nc-nd/4.0/ © 2025 Elsevier B.V. All rights are reserved, including those for text and data mining, AI training, and similar technologies. https://doi.org/10.15223/policy-017 https://doi.org/10.15223/policy-037 https://doi.org/10.15223/policy-012 https://doi.org/10.15223/policy-029 https://doi.org/10.15223/policy-004 item S2468-8231(25)00337-2 S2468823125003372 1-s2.0-S2468823125003372 10.1016/j.mcat.2025.115152 315758 2025-05-07T07:05:45.865726Z 2025-06-15 1-s2.0-S2468823125003372-main.pdf https://s3-eu-west-1.amazonaws.com/prod-ucs-content-store-eu-west/content/pii:S2468823125003372/MAIN/application/pdf/4eeeec125ee278e813d1c4bdbc814387/main.pdf main.pdf pdf true 8271191 MAIN 12 1-s2.0-S2468823125003372-main_1.png https://s3-eu-west-1.amazonaws.com/prod-ucs-content-store-eu-west/content/pii:S2468823125003372/PREVIEW/image/png/71d759b50ead81583bc80430a1cba0bf/main_1.png main_1.png png 58021 849 656 IMAGE-WEB-PDF 1 1-s2.0-S2468823125003372-gr11.jpg https://s3-eu-west-1.amazonaws.com/prod-ucs-content-store-eu-west/content/pii:S2468823125003372/gr11/DOWNSAMPLED/image/jpeg/1c7715c3ad0b3232a1ba218547be27f0/gr11.jpg gr11 gr11.jpg jpg 29588 265 753 IMAGE-DOWNSAMPLED 1-s2.0-S2468823125003372-gr3.jpg https://s3-eu-west-1.amazonaws.com/prod-ucs-content-store-eu-west/content/pii:S2468823125003372/gr3/DOWNSAMPLED/image/jpeg/4ecc6a1c018057941fbb3e186c546a62/gr3.jpg gr3 gr3.jpg jpg 142118 599 753 IMAGE-DOWNSAMPLED 1-s2.0-S2468823125003372-gr2.jpg https://s3-eu-west-1.amazonaws.com/prod-ucs-content-store-eu-west/content/pii:S2468823125003372/gr2/DOWNSAMPLED/image/jpeg/0592e7b7ab48070d399f870d1804c6ee/gr2.jpg gr2 gr2.jpg jpg 78345 384 753 IMAGE-DOWNSAMPLED 1-s2.0-S2468823125003372-gr1.jpg https://s3-eu-west-1.amazonaws.com/prod-ucs-content-store-eu-west/content/pii:S2468823125003372/gr1/DOWNSAMPLED/image/jpeg/d784a34900be38168827e5cc33edc3fd/gr1.jpg gr1 gr1.jpg jpg 42023 227 565 IMAGE-DOWNSAMPLED 1-s2.0-S2468823125003372-gr10.jpg https://s3-eu-west-1.amazonaws.com/prod-ucs-content-store-eu-west/content/pii:S2468823125003372/gr10/DOWNSAMPLED/image/jpeg/37a2b57adc15ca983bb8620583759976/gr10.jpg gr10 gr10.jpg jpg 52468 307 753 IMAGE-DOWNSAMPLED 1-s2.0-S2468823125003372-gr7.jpg https://s3-eu-west-1.amazonaws.com/prod-ucs-content-store-eu-west/content/pii:S2468823125003372/gr7/DOWNSAMPLED/image/jpeg/1e3ed5f9a14447566b5f25055ece1969/gr7.jpg gr7 gr7.jpg jpg 62436 453 565 IMAGE-DOWNSAMPLED 1-s2.0-S2468823125003372-gr6.jpg https://s3-eu-west-1.amazonaws.com/prod-ucs-content-store-eu-west/content/pii:S2468823125003372/gr6/DOWNSAMPLED/image/jpeg/e683d21ae340b1989e6f93a59f0d27c3/gr6.jpg gr6 gr6.jpg jpg 59475 260 753 IMAGE-DOWNSAMPLED 1-s2.0-S2468823125003372-gr5.jpg https://s3-eu-west-1.amazonaws.com/prod-ucs-content-store-eu-west/content/pii:S2468823125003372/gr5/DOWNSAMPLED/image/jpeg/fc33938cd23457bd5bb1bbc386f06397/gr5.jpg gr5 gr5.jpg jpg 98484 617 753 IMAGE-DOWNSAMPLED 1-s2.0-S2468823125003372-gr4.jpg https://s3-eu-west-1.amazonaws.com/prod-ucs-content-store-eu-west/content/pii:S2468823125003372/gr4/DOWNSAMPLED/image/jpeg/a591d5b9738bb2da284b8a850206e6c0/gr4.jpg gr4 gr4.jpg jpg 157972 576 753 IMAGE-DOWNSAMPLED 1-s2.0-S2468823125003372-gr9.jpg https://s3-eu-west-1.amazonaws.com/prod-ucs-content-store-eu-west/content/pii:S2468823125003372/gr9/DOWNSAMPLED/image/jpeg/0393f44f48d571d2d17bfb3351aa908a/gr9.jpg gr9 gr9.jpg jpg 83172 404 753 IMAGE-DOWNSAMPLED 1-s2.0-S2468823125003372-gr8.jpg https://s3-eu-west-1.amazonaws.com/prod-ucs-content-store-eu-west/content/pii:S2468823125003372/gr8/DOWNSAMPLED/image/jpeg/413b9dde3adcf65d70b7d6a7001e9676/gr8.jpg gr8 gr8.jpg jpg 147867 526 753 IMAGE-DOWNSAMPLED 1-s2.0-S2468823125003372-ga1.jpg https://s3-eu-west-1.amazonaws.com/prod-ucs-content-store-eu-west/content/pii:S2468823125003372/ga1/DOWNSAMPLED/image/jpeg/0042d2ae0b2f90a3bd208be327ad71b4/ga1.jpg ga1 true ga1.jpg jpg 43744 200 357 IMAGE-DOWNSAMPLED 1-s2.0-S2468823125003372-gr11.sml https://s3-eu-west-1.amazonaws.com/prod-ucs-content-store-eu-west/content/pii:S2468823125003372/gr11/THUMBNAIL/image/gif/076b444abf795b0cc450c3789eb398fd/gr11.sml gr11 gr11.sml sml 5475 77 219 IMAGE-THUMBNAIL 1-s2.0-S2468823125003372-gr3.sml https://s3-eu-west-1.amazonaws.com/prod-ucs-content-store-eu-west/content/pii:S2468823125003372/gr3/THUMBNAIL/image/gif/c9710fa4e29b19ad1fd531c4032188ee/gr3.sml gr3 gr3.sml sml 15739 164 206 IMAGE-THUMBNAIL 1-s2.0-S2468823125003372-gr2.sml https://s3-eu-west-1.amazonaws.com/prod-ucs-content-store-eu-west/content/pii:S2468823125003372/gr2/THUMBNAIL/image/gif/4a92733a22b3fd186cb8141a2124f3d2/gr2.sml gr2 gr2.sml sml 10707 112 219 IMAGE-THUMBNAIL 1-s2.0-S2468823125003372-gr1.sml https://s3-eu-west-1.amazonaws.com/prod-ucs-content-store-eu-west/content/pii:S2468823125003372/gr1/THUMBNAIL/image/gif/d48114a5e4ccec1ee35333d166171200/gr1.sml gr1 gr1.sml sml 9227 88 219 IMAGE-THUMBNAIL 1-s2.0-S2468823125003372-gr10.sml https://s3-eu-west-1.amazonaws.com/prod-ucs-content-store-eu-west/content/pii:S2468823125003372/gr10/THUMBNAIL/image/gif/2304178a6a14ebfdfcee953c5ca421da/gr10.sml gr10 gr10.sml sml 9706 89 219 IMAGE-THUMBNAIL 1-s2.0-S2468823125003372-gr7.sml https://s3-eu-west-1.amazonaws.com/prod-ucs-content-store-eu-west/content/pii:S2468823125003372/gr7/THUMBNAIL/image/gif/5ca0fc16749f9935cd9f837160ab44f2/gr7.sml gr7 gr7.sml sml 11598 164 205 IMAGE-THUMBNAIL 1-s2.0-S2468823125003372-gr6.sml https://s3-eu-west-1.amazonaws.com/prod-ucs-content-store-eu-west/content/pii:S2468823125003372/gr6/THUMBNAIL/image/gif/07447ad2c2323aad6fcf88e5a5284abc/gr6.sml gr6 gr6.sml sml 9515 76 219 IMAGE-THUMBNAIL 1-s2.0-S2468823125003372-gr5.sml https://s3-eu-west-1.amazonaws.com/prod-ucs-content-store-eu-west/content/pii:S2468823125003372/gr5/THUMBNAIL/image/gif/00dce6a354afc1f2a2a21c1b41b6e2c4/gr5.sml gr5 gr5.sml sml 12295 164 200 IMAGE-THUMBNAIL 1-s2.0-S2468823125003372-gr4.sml https://s3-eu-west-1.amazonaws.com/prod-ucs-content-store-eu-west/content/pii:S2468823125003372/gr4/THUMBNAIL/image/gif/85f95340724ce8863893f6ccfe9b15f1/gr4.sml gr4 gr4.sml sml 15437 164 214 IMAGE-THUMBNAIL 1-s2.0-S2468823125003372-gr9.sml https://s3-eu-west-1.amazonaws.com/prod-ucs-content-store-eu-west/content/pii:S2468823125003372/gr9/THUMBNAIL/image/gif/7e14d8e5d4a17fdffaea797c2c6bdb10/gr9.sml gr9 gr9.sml sml 10990 118 219 IMAGE-THUMBNAIL 1-s2.0-S2468823125003372-gr8.sml https://s3-eu-west-1.amazonaws.com/prod-ucs-content-store-eu-west/content/pii:S2468823125003372/gr8/THUMBNAIL/image/gif/674e8c0b6ab3554eaebe1f880502a175/gr8.sml gr8 gr8.sml sml 16520 153 219 IMAGE-THUMBNAIL 1-s2.0-S2468823125003372-ga1.sml https://s3-eu-west-1.amazonaws.com/prod-ucs-content-store-eu-west/content/pii:S2468823125003372/ga1/THUMBNAIL/image/gif/86272542e4c05511fe2c7466760b5075/ga1.sml ga1 true ga1.sml sml 13593 123 219 IMAGE-THUMBNAIL 1-s2.0-S2468823125003372-gr11_lrg.jpg https://s3-eu-west-1.amazonaws.com/prod-ucs-content-store-eu-west/content/pii:S2468823125003372/HIGHRES/image/jpeg/4821f26777bb7fbbbd4f000aa5b6680b/gr11_lrg.jpg gr11 gr11_lrg.jpg jpg 163657 1172 3333 IMAGE-HIGH-RES 1-s2.0-S2468823125003372-gr3_lrg.jpg https://s3-eu-west-1.amazonaws.com/prod-ucs-content-store-eu-west/content/pii:S2468823125003372/HIGHRES/image/jpeg/68b031cb18a7bb367034234cd65e7e5e/gr3_lrg.jpg gr3 gr3_lrg.jpg jpg 909669 2653 3333 IMAGE-HIGH-RES 1-s2.0-S2468823125003372-gr2_lrg.jpg https://s3-eu-west-1.amazonaws.com/prod-ucs-content-store-eu-west/content/pii:S2468823125003372/HIGHRES/image/jpeg/3e14f9c133f0c77f9e8bf821522362d8/gr2_lrg.jpg gr2 gr2_lrg.jpg jpg 466347 1699 3333 IMAGE-HIGH-RES 1-s2.0-S2468823125003372-gr1_lrg.jpg https://s3-eu-west-1.amazonaws.com/prod-ucs-content-store-eu-west/content/pii:S2468823125003372/HIGHRES/image/jpeg/62216062ee4a03bfe18758faae129bb9/gr1_lrg.jpg gr1 gr1_lrg.jpg jpg 251647 1003 2500 IMAGE-HIGH-RES 1-s2.0-S2468823125003372-gr10_lrg.jpg https://s3-eu-west-1.amazonaws.com/prod-ucs-content-store-eu-west/content/pii:S2468823125003372/HIGHRES/image/jpeg/e06fe09a726f1653a77a02d0190fb8f0/gr10_lrg.jpg gr10 gr10_lrg.jpg jpg 409783 1357 3333 IMAGE-HIGH-RES 1-s2.0-S2468823125003372-gr7_lrg.jpg https://s3-eu-west-1.amazonaws.com/prod-ucs-content-store-eu-west/content/pii:S2468823125003372/HIGHRES/image/jpeg/d4542127a4313a63654401fef6a7452a/gr7_lrg.jpg gr7 gr7_lrg.jpg jpg 345100 2003 2500 IMAGE-HIGH-RES 1-s2.0-S2468823125003372-gr6_lrg.jpg https://s3-eu-west-1.amazonaws.com/prod-ucs-content-store-eu-west/content/pii:S2468823125003372/HIGHRES/image/jpeg/cc5d47b1236fdd9cd9782dd5a8c19684/gr6_lrg.jpg gr6 gr6_lrg.jpg jpg 332454 1150 3333 IMAGE-HIGH-RES 1-s2.0-S2468823125003372-gr5_lrg.jpg https://s3-eu-west-1.amazonaws.com/prod-ucs-content-store-eu-west/content/pii:S2468823125003372/HIGHRES/image/jpeg/c6bb0325a4dd4dea5881e042579b26e1/gr5_lrg.jpg gr5 gr5_lrg.jpg jpg 601134 2732 3333 IMAGE-HIGH-RES 1-s2.0-S2468823125003372-gr4_lrg.jpg https://s3-eu-west-1.amazonaws.com/prod-ucs-content-store-eu-west/content/pii:S2468823125003372/HIGHRES/image/jpeg/13e0d34905548cd88379b3b788cb33e1/gr4_lrg.jpg gr4 gr4_lrg.jpg jpg 857183 2551 3333 IMAGE-HIGH-RES 1-s2.0-S2468823125003372-gr9_lrg.jpg https://s3-eu-west-1.amazonaws.com/prod-ucs-content-store-eu-west/content/pii:S2468823125003372/HIGHRES/image/jpeg/8df5a8fa6da429aafe3eae3d7eb2acad/gr9_lrg.jpg gr9 gr9_lrg.jpg jpg 521225 1789 3333 IMAGE-HIGH-RES 1-s2.0-S2468823125003372-gr8_lrg.jpg https://s3-eu-west-1.amazonaws.com/prod-ucs-content-store-eu-west/content/pii:S2468823125003360/HIGHRES/image/jpeg/b82f682f133691e5360b71f7aeb574fe/gr8_lrg.jpg gr8 gr8_lrg.jpg jpg 938265 2328 3333 IMAGE-HIGH-RES 1-s2.0-S2468823125003372-ga1_lrg.jpg https://s3-eu-west-1.amazonaws.com/prod-ucs-content-store-eu-west/content/pii:S2468823125003372/HIGHRES/image/jpeg/6dcc3fa8e60b6f126335c8364f36858a/ga1_lrg.jpg ga1 true ga1_lrg.jpg jpg 320337 886 1580 IMAGE-HIGH-RES 1-s2.0-S2468823125003372-mmc1.docx https://s3-eu-west-1.amazonaws.com/prod-ucs-content-store-eu-west/content/pii:S2468823125003372/mmc1/MAIN/application/vnd.openxmlformats-officedocument.wordprocessingml.document/4bc7d902a25b4c1bca26338489448748/mmc1.docx mmc1 mmc1.docx docx 45669 APPLICATION 1-s2.0-S2468823125003372-si1.svg https://s3-eu-west-1.amazonaws.com/prod-ucs-content-store-eu-west/content/pii:S2468823125003372/image/svg+xml/83c4bae1fcd5a4ee6308754a34921cec/si1.svg si1 si1.svg svg 2492 ALTIMG 1-s2.0-S2468823125003372-si10.svg https://s3-eu-west-1.amazonaws.com/prod-ucs-content-store-eu-west/content/pii:S2468823125003372/image/svg+xml/43cae63bcc01fe5a585322aeac9b0594/si10.svg si10 si10.svg svg 10517 ALTIMG 1-s2.0-S2468823125003372-si11.svg https://s3-eu-west-1.amazonaws.com/prod-ucs-content-store-eu-west/content/pii:S2468823125003372/image/svg+xml/0352873d9147522f465610a8b1e1edcd/si11.svg si11 si11.svg svg 6070 ALTIMG 1-s2.0-S2468823125003372-si12.svg https://s3-eu-west-1.amazonaws.com/prod-ucs-content-store-eu-west/content/pii:S2468823125003372/image/svg+xml/72985901ac0cefc3b0086fd325bd1cb1/si12.svg si12 si12.svg svg 2114 ALTIMG 1-s2.0-S2468823125003372-si13.svg https://s3-eu-west-1.amazonaws.com/prod-ucs-content-store-eu-west/content/pii:S2468823125003372/image/svg+xml/f244e2e6ee3804ac62d0052f82283e11/si13.svg si13 si13.svg svg 8675 ALTIMG 1-s2.0-S2468823125003372-si14.svg https://s3-eu-west-1.amazonaws.com/prod-ucs-content-store-eu-west/content/pii:S2468823125003372/image/svg+xml/12d7162591d2ec62a899afd81893c274/si14.svg si14 si14.svg svg 4375 ALTIMG 1-s2.0-S2468823125003372-si15.svg https://s3-eu-west-1.amazonaws.com/prod-ucs-content-store-eu-west/content/pii:S2468823125003372/image/svg+xml/0b5a98a89b9ab9a7e0ac30011877d6cd/si15.svg si15 si15.svg svg 2042 ALTIMG 1-s2.0-S2468823125003372-si16.svg https://s3-eu-west-1.amazonaws.com/prod-ucs-content-store-eu-west/content/pii:S2468823125003372/image/svg+xml/e327c09cb829f851271b18135164613a/si16.svg si16 si16.svg svg 2438 ALTIMG 1-s2.0-S2468823125003372-si17.svg https://s3-eu-west-1.amazonaws.com/prod-ucs-content-store-eu-west/content/pii:S2468823125003372/image/svg+xml/a040840dc3ef0ed7dcfd49accc262751/si17.svg si17 si17.svg svg 10341 ALTIMG 1-s2.0-S2468823125003372-si18.svg https://s3-eu-west-1.amazonaws.com/prod-ucs-content-store-eu-west/content/pii:S2468823125003372/image/svg+xml/c4e679cc938557ddeefae2e811f8dbbd/si18.svg si18 si18.svg svg 4053 ALTIMG 1-s2.0-S2468823125003372-si19.svg https://s3-eu-west-1.amazonaws.com/prod-ucs-content-store-eu-west/content/pii:S2468823125003372/image/svg+xml/0adbfdba48c055690c557908c7e57b78/si19.svg si19 si19.svg svg 7901 ALTIMG 1-s2.0-S2468823125003372-si2.svg https://s3-eu-west-1.amazonaws.com/prod-ucs-content-store-eu-west/content/pii:S2468823125003372/image/svg+xml/e7324909957c7a43b83ba452c5ce56b9/si2.svg si2 true si2.svg svg 2342 ALTIMG 1-s2.0-S2468823125003372-si20.svg https://s3-eu-west-1.amazonaws.com/prod-ucs-content-store-eu-west/content/pii:S2468823125003372/image/svg+xml/9e15404ecf543b06cb96264aff458ca1/si20.svg si20 si20.svg svg 11721 ALTIMG 1-s2.0-S2468823125003372-si21.svg https://s3-eu-west-1.amazonaws.com/prod-ucs-content-store-eu-west/content/pii:S2468823125003372/image/svg+xml/dfce1e237d838efab682ee6a39a81c9e/si21.svg si21 si21.svg svg 1739 ALTIMG 1-s2.0-S2468823125003372-si22.svg https://s3-eu-west-1.amazonaws.com/prod-ucs-content-store-eu-west/content/pii:S2468823125003372/image/svg+xml/1a71173784f5e4842062071215919784/si22.svg si22 si22.svg svg 8284 ALTIMG 1-s2.0-S2468823125003372-si23.svg https://s3-eu-west-1.amazonaws.com/prod-ucs-content-store-eu-west/content/pii:S2468823125003372/image/svg+xml/3f1f49192ad67a5da716f2827e9fc170/si23.svg si23 si23.svg svg 2129 ALTIMG 1-s2.0-S2468823125003372-si24.svg https://s3-eu-west-1.amazonaws.com/prod-ucs-content-store-eu-west/content/pii:S2468823125003372/image/svg+xml/7ed69f5932f099a1f313c7f01b3c63a7/si24.svg si24 si24.svg svg 1763 ALTIMG 1-s2.0-S2468823125003372-si25.svg https://s3-eu-west-1.amazonaws.com/prod-ucs-content-store-eu-west/content/pii:S2468823125003372/image/svg+xml/b28950b4167bd48d126f6c07ab436f63/si25.svg si25 si25.svg svg 1519 ALTIMG 1-s2.0-S2468823125003372-si26.svg https://s3-eu-west-1.amazonaws.com/prod-ucs-content-store-eu-west/content/pii:S2468823125003372/image/svg+xml/350ecb06b73189eb99d4c1e9f761c971/si26.svg si26 si26.svg svg 1173 ALTIMG 1-s2.0-S2468823125003372-si27.svg https://s3-eu-west-1.amazonaws.com/prod-ucs-content-store-eu-west/content/pii:S2468823125003372/image/svg+xml/c2d6d52a823194d669cffceb4d00fe07/si27.svg si27 si27.svg svg 1049 ALTIMG 1-s2.0-S2468823125003372-si28.svg https://s3-eu-west-1.amazonaws.com/prod-ucs-content-store-eu-west/content/pii:S2468823125003372/image/svg+xml/780b65d054612fed2a525a02194f7292/si28.svg si28 si28.svg svg 3073 ALTIMG 1-s2.0-S2468823125003372-si29.svg https://s3-eu-west-1.amazonaws.com/prod-ucs-content-store-eu-west/content/pii:S2468823125003372/image/svg+xml/027eba21f81854743de91810d1fa54a1/si29.svg si29 si29.svg svg 4127 ALTIMG 1-s2.0-S2468823125003372-si3.svg https://s3-eu-west-1.amazonaws.com/prod-ucs-content-store-eu-west/content/pii:S2468823125003372/image/svg+xml/1511340afa46397d0780346cd35089c2/si3.svg si3 si3.svg svg 7130 ALTIMG 1-s2.0-S2468823125003372-si30.svg https://s3-eu-west-1.amazonaws.com/prod-ucs-content-store-eu-west/content/pii:S2468823125003372/image/svg+xml/7d40d3445eff8d0bc2794fd09f4c81d7/si30.svg si30 si30.svg svg 4933 ALTIMG 1-s2.0-S2468823125003372-si31.svg https://s3-eu-west-1.amazonaws.com/prod-ucs-content-store-eu-west/content/pii:S2468823125003372/image/svg+xml/0b2733e5fa71be2e7906b4d01e6d3d78/si31.svg si31 si31.svg svg 3730 ALTIMG 1-s2.0-S2468823125003372-si4.svg https://s3-eu-west-1.amazonaws.com/prod-ucs-content-store-eu-west/content/pii:S2468823125003372/image/svg+xml/6c0dffb89c13566b6cc31eb49719be25/si4.svg si4 si4.svg svg 2798 ALTIMG 1-s2.0-S2468823125003372-si5.svg https://s3-eu-west-1.amazonaws.com/prod-ucs-content-store-eu-west/content/pii:S2468823125003372/image/svg+xml/4333257fa4780fecfbb63c6767450f41/si5.svg si5 si5.svg svg 2561 ALTIMG 1-s2.0-S2468823125003372-si6.svg https://s3-eu-west-1.amazonaws.com/prod-ucs-content-store-eu-west/content/pii:S2468823125003372/image/svg+xml/6bbe113706857078865718d4c0a59695/si6.svg si6 si6.svg svg 2508 ALTIMG 1-s2.0-S2468823125003372-si7.svg https://s3-eu-west-1.amazonaws.com/prod-ucs-content-store-eu-west/content/pii:S2468823125003372/image/svg+xml/5287e4eec689cf5cbba930b563a44338/si7.svg si7 si7.svg svg 10096 ALTIMG 1-s2.0-S2468823125003372-si8.svg https://s3-eu-west-1.amazonaws.com/prod-ucs-content-store-eu-west/content/pii:S2468823125003372/image/svg+xml/40aa0d9e084677b16f99598d5abe7511/si8.svg si8 si8.svg svg 7098 ALTIMG 1-s2.0-S2468823125003372-si9.svg https://s3-eu-west-1.amazonaws.com/prod-ucs-content-store-eu-west/content/pii:S2468823125003372/image/svg+xml/ce8b4184a26779493b20c3ee6d094ad2/si9.svg si9 si9.svg svg 2807 ALTIMG MCAT 115152 115152 S2468-8231(25)00337-2 10.1016/j.mcat.2025.115152 Elsevier B.V. Fig. 1 Schematic showing the machine learning process. The complete process usually involves three parts: data extraction, model training and testing, and then performance analysis. Fig 1 Fig. 2 Schematic structure of TM@g (TM = Co, Cr, Cu, Ag, Au, Cd, Fe, Mn, Mo, Hf, Hg, Ir, Nb, Ni, Os, Pd, Pt, Re, Rh, Ru, Sc, Ta, Ti, V, W, Y, Zr, Zn), and the top and side views of the 1 × 1 × 1 TM@g (a), with the pink and gray spheres representing the TM and C atoms respectively. atoms and C atoms, respectively; (b) formation energy ( Δ E f ) of individual metal atoms doped on graphene; (c) cohesion energy (Ec) of individual metal atoms doped on graphene; and (d) electrocatalytic reaction mechanism and pathway diagrams of different 2D materials. Fig 2 Fig. 3 (a)Re@gp-G,(b)V@gp-G,(c)Co@vg-G and (d)W@vg-G Energy variations of four catalysts over 10 ps at 800 K vs. the AIMD simulation time. Fig 3 Fig. 4 The Gibbs free energy diagram of HER process for (a)TM@g-GP;(b) TM@g-GP;(c)TM@g-GP;(d)TM@g-GP. (TM = Co,Cr,Cu,Ag,Au,Cd,Fe,Mn,Mo,Hf,Hg,Ir,Nb,Ni,Os,Pd,Pt,Re,Rh,Ru,Sc,Ta,Ti,V,W,Y,Zr,Zn). Fig 4 Fig. 5 Comparison of Partial density of states (PDOS) of (a) Co@vg-G;(b) W@gp-G;(c) Ta@gp-G;(d) Y@vg-G. Dashed line denotes EFermi. Fig 5 Fig. 6 (a) Heat map of the Pearson correlation coefficient matrix; (b) The ranking of the important features of RFR. Fig 6 Fig. 7 The comparison of Δ G H prediction results of four machine learning algorithms is visualized. (a) prediction results of random forest Regression (RFR) algorithm, (b) prediction results of gradient lifting regression (GBR) algorithm, (c) prediction results of Extreme Gradient Boosting Regression (XGBR) algorithm, (d) prediction results of decision tree regression (DTR) algorithm. Fig 7 Fig. 8 The basic schematic diagram of ensemble learning algorithm and its basic workflow are shown. Fig 8 Fig. 9 Showcases the combination of 4 machine learning algorithms in the context of ensemble learning. (a) Random forest regression (RFR) and Decision tree regression (DTR) algorithm combination. (b) Decision tree regression (DTR) and Gradient Boosting Regression algorithm(GBR) combination. (c) Extreme Gradient Boosting Regression (XBGR) and Decision tree regression (DTR) algorithm combination. (d) Extreme Gradient Boosting Regression (XBGR) and Gradient Boosting Regression algorithm(GBR) algorithm combination. (e) Random forest regression (RFR) and Extreme Gradient Boosting Regression (XBGR) algorithm combination. (f) Random forest regression (RFR) and Gradient Boosting Regression algorithm(GBR) algorithm combination. Fig 9 Fig. 10 Combination of machine learning algorithm models. (a) R2 radar map of six Ensemble learning algorithms; (b)RMSE radar map of six Ensemble learning algorithms. Fig 10 Fig. 11 Feature importance based on SHAP values. (a) SHAP values are used to illustrate the influence of each input feature on the model output according to the order of feature importance. Here, red indicates a positive impact on the Δ G H prediction, and blue indicates a negative impact. (b) Based on the mean absolute SHAP values of each feature in the RFR model, representing the overall feature importance ranked from the most important to the least important. Fig 11 Table 1 Hyperparameter tuning setting. Table 1 Model Hyperparameter name Hyperparameter value Best value Random Forest Regression n_estimatorsmax_depthmin_samples_leaf [50,100,150][5,10,15][1,2,4] 10051 Extreme Gradient Boosted Regression n_estimatorsmax_depthlearning_rate [50, 100, 200, 250][3,5,7,8,9][0.05,0.1,0.2,0.3] 10030.1 Gradient Boosted Regression n_estimatorsmax_depthlearning_rate [50, 100, 200, 250][3,5,7,8,9][0.05,0.1,0.2,0.3] 10030.1 Decision Tree Regression n_estimatorsmax_depthmin_samples_leafmin_samples_split [50,100,150][1,3,6][1,2,4][2,4,10] 100312 Research Paper Accelerating the screening of catalysts for hydrogen evolution reaction in graphene materials based on DFT calculations and machine learning Zhiwei Xiong Writing – review & editing Writing – original draft Software Methodology a Shengjun Huo Software Methodology a Wanglai Cen Software c Jikun Feng Visualization Validation a Jiahao Zeng Writing – review & editing Methodology a Meiling Hou Writing – review & editing a b ⁎ Yu Liu Software Methodology a ⁎ a College of Engineering, Hebei Normal University, Shijiazhuang 050024, China College of Engineering Hebei Normal University Shijiazhuang 050024 China aCollege of Engineering, Hebei Normal University, Shijiazhuang 050024, China b Hebei Provincial Key Laboratory of Information Fusion and Intelligent Control, Shijiazhuang 050024, China Hebei Provincial Key Laboratory of Information Fusion and Intelligent Control Shijiazhuang 050024 China bHebei Provincial Key Laboratory of Information Fusion and Intelligent Control, Shijiazhuang 050024, China c Institute of New Energy and Low Carbon Technology and the National Engineering Research Center for Flue Gas Desulfurization, Sichuan University, Chengdu 610065,China Institute of New Energy and Low Carbon Technology and the National Engineering Research Center for Flue Gas Desulfurization Sichuan University Chengdu 610065 China cInstitute of New Energy and Low Carbon Technology and the National Engineering Research Center for Flue Gas Desulfurization, Sichuan University, Chengdu 610065,China ⁎ Corresponding authors. Carbon-based transition metal (TM) single-atom catalysts (SACs) are a new type of electrocatalytic material that is expected to replace platinum group metals, and they have a promising application in the field of hydrogen production from electrolyzed water. However, the current screening of carbon-based transition metal single-atom catalysts is very time-consuming and challenging. In this study, we employ a density-functional theory (DFT) combined with machine learning (ML) approach to predict effective HER electrocatalysts for 3d/4d/5d TM doping in graphene single-atom catalysts (SACs). The Gibbs free energy for assessing catalytic activity ( Δ G H ) was used as the target value for the prediction, and data collected from the literature as well as self-calculated data were also used. The results based on Δ G H indicate that Mo, W, Ru, Re, V, Fe, and Co single atoms embedded on graphene can serve as active sites for efficient hydrogen precipitation. The ensemble learning model based on the combination of gradient boosted regression (GBR) and decision tree regression (DTR) is able to predict ( Δ G H ) quickly and accurately, showing the best prediction performance with high coefficient of determination (R2) and low root mean square error (RMSE) of 0.95 and 0.19, respectively. In addition, all features are analyzed based on a random forest (RFR) model, it is found that the d-band center, the average distance between the transition metal and its nearest carbon atom, and the Bader transfer charge number can be used as key descriptors. In conclusion, the combination of DFT calculations and ML modeling can effectively predict the performance variation of catalysts and greatly facilitate the design and screening of catalysts. Graphical abstract Image, graphical abstract Keywords Machine learning Graphene Hydrogen evolution reaction Density functional theory Single-atom catalysts Data availability I have shared my data in the datasheet. 1 Introduction With the extensive utilization of fossil fuels, the issues of global warming and atmospheric pollution are becoming increasingly severe, bringing significant harm to our daily life. Hydrogen is a renewable energy source with tremendous potential for development due to its cleanliness and high energy density [1,2], which is expected to replace traditional fossil fuels, thus effectively alleviating the environmental pollution problem. Therefore, it has aroused extensive research interest. Among various hydrogen-production techniques, hydrogen production through water electrolysis is a significant approach to achieving the sustainable development of hydrogen energy. Moreover, the oxygen evolution reaction (OER) at the anode plays a vital role in enhancing the efficiency of these batteries and in the development of renewable green clean-energy technologies [3]. However, it has problems such as high energy consumption and high cost. Consequently, it is necessary to seek highly efficient catalysts that can increase the reaction kinetic rate so as to effectively improve the hydrogen evolution performance. And the development of highly efficient, inexpensive, and high-performance HER electro-catalysts is currently an important challenge. Platinum (Pt)-based catalysts are currently the most promising and highly efficient ones in the hydrogen evolution reaction (HER). Nevertheless, their high cost and scarce resources limit their widespread use [4–6]. Therefore, people are devoting themselves to the development of new type non-precious-metal catalysts that are inexpensive, stable, and highly efficient. Recently, various two-dimensional (2D) materials have shown promising applications in hydrogen precipitation reactions. With the successful exfoliation of graphene, 2D materials have turned into a research focus due to their distinctive layered structure and electrical properties [7,8]. Such as transition metal dichalcogenides (TMD) [9,10], phosphides [11], nitrides [12], and g-C3N4 [13,14]. These various types of materials have been widely utilized in many electrocatalytic fields and have shown impressive electrocatalytic activities in hydrogen-removal reaction (HER) [15,16], oxygen-removal/reduction reaction (OER/ORR) [17–19], nitrogen-reduction reaction (NRR) [20,21], and carbon dioxide-reduction reaction (CO2RR) [22–24], among others. Recently, oxygen electrode reactions (OERs) of transition metals have attracted much attention in the fields of energy and materials science. Oxygen electrode reactions, including ORR and OER, are key processes in many energy-related applications such as fuel cells and metal-air batteries. Transition metals and their compounds (e.g., oxides, nitrides, and carbides) have become ideal catalysts for a variety of electrochemical reactions including HER, OER, and ORR due to their unique electronic and geometrical properties. For example, Jin et al. [25] explored the surface chemistry, reactivity or stability properties of transition metals in oxygen electrode reactions. Wang et al. [26] experimentally found that doping graphene with heteroatoms such as N and S can improve the catalytic performance for HER by enhancing the electrical conductivity and electronic defects of the graphene layer. Gao et al. [27] and Zhou et al. [28] found that by doping graphene or introducing transition metals with different numbers of coordination sites, the hydrogen precipitation reactivities are very different. However, the search for appropriate single-metal atom dopants through an iterative approach is extremely time-consuming and costly. Hence, there is an urgent need for a more appropriate method to accelerate this process. In recent years, methods based on the combination of density functional theory (DFT) and machine learning (ML) have provided powerful tools for catalyst design [29–31]. ML is capable of predicting the properties of novel catalysts through feature engineering, accelerating the screening process of single-atom catalysts, and providing a theoretical basis for the design of new and efficient single-atom catalysts, which makes the research more targeted. In addition, machine learning has been widely used in materials screening, especially in the field of catalyst design [32,33]. For example, Zheng et al. [34] input the free energy of hydrogen precipitation ( Δ G H ) value into the kernel ridge regression (KRR) for HER catalyst screening, and found that NiSi2N4 and VSi2N4 have better hydrogen precipitation performance. Yang et al. [35] investigated the strategy of co-doping transition metal and non-metal atoms on g-CN (graphitic phase carbon nitride) for efficient hydrogenolysis reaction (HER) by using a combination of density-functional theory (DFT) and machine learning (ML) methods. Yu et al. [36] provided a comprehensive overview of the combination of ML and DFT and its applications in materials science, and further concluded that AI not only helps in identifying high-performance catalysts, but also generates new material structures tailored to specific needs. However, these DFT-based ML studies still demand extensive computations of catalyst characteristics, such as the quantity of d-orbital electrons and the bond lengths between surface atoms. Therefore, the development of a DFT-ML framework that only conducts the calculation of catalyst features through simple DFT is of great significance for the rapid and efficient screening of HER catalysts based on TM-doped carbon-based materials. In this study, a method based on the DFT-ML framework for rapid screening of TM-doped graphene HER catalysts was used to systematically investigate the electrocatalytic HER performance in 3d, 4d and 5d transition metal (TM)-loaded graphene(g). The stability of 28 TM anchors in graphene (TM@g) was investigated by first-principles calculations. Subsequently, we used different machine learning algorithms to predict Δ G H in TM@g. As a result, it was found that eight of the catalysts exhibited excellent stability and near-zero Gibbs free energy. In addition, we trained different ML models by considering basic physicochemical properties as the underlying features and analyzed their relationship with Δ G H to some extent. In order to identify the machine learning model with optimal performance, the machine learning algorithms are compared with the ensemble learning algorithm model, respectively. Finally, the ML model is used to determine the key descriptors of HER by analyzing the importance of all training features and determining the main factors that affect Δ G H . In conclusion, this paper presents a fast and efficient method for screening and designing novel HER catalysts, revealing the potential factors affecting the performance of catalytic materials. 2 Computational methods 2.1 DFT calculations In this study, the Vienna Ab initio Simulation Package (VASP) [37,38] is used to perform spin polarization calculations for Density functional theory (DFT). The Projected Augmented Wave (PAW) method is adopted to describe the ion-electron interaction, and the Perdew-Burke-Ernzerhof (PBE) [39,40] and Generalized Gradient ApproXimation (GGA) functionals are used to describe the electron exchange correlation. For geometry optimization, we used a Monkhorst-Pack grid to sample the first Brillouin zone, and 3 × 3 × 1 K-point grids for structure optimization and electronic structure calculations, respectively. In all the calculation processes, the calculation is carried out using a 1 × 1 × 1 supercell; the vacuum layer on the z-axis is set to 15 Å, thereby effectively avoiding the coupling effect between atoms between layers. In the structural optimization, the cut-off energy is set to 450 eV; the convergence criteria of energy and force are set to 10−5 eV and 0.02 eV/Å respectively. In order to accurately characterize the interactions between molecules and to prevent bias in the prediction of material properties, we used van der Waals corrections. In addition, the computational data were processed using VASPKIT developed by Wang et al [41]. The Gibbs free energy of hydrogen adsorption ( Δ G H ) is an important indicator to characterize the hydrogen evolution reaction performance of different catalytic systems, and can better reflect the reduction performance of the catalyst for hydrogen. Calculate the Gibbs free energy according to the method proposed by Norskov et al. [42], and its expression is: (1) Δ G H = Δ E H + Δ E Z P E − T Δ S H where Δ E Z P E and Δ S H are the zero-point energy difference and entropy difference between adsorbed and gaseous hydrogen, respectively. Δ E H is corresponding to the adsorption energy of H atoms on the surface of TM@g. T is the temperature (298.15 K). The activity of the hydrogen precipitation reaction is optimal at an absolute value of 0 for Δ G H . In addition, Δ E H was calculated according to the following equation: (2) Δ E H = E H − E s u r f a c e − 1 2 E H 2 where Δ E H , E s u r f a c e and E H 2 are calculated by density-functional theory (DFT) and represent the energy of the system with adsorbed H atoms, the energy of the system without adsorbed H atoms, and the energy of the free gas-phase H2 molecule, respectively. Generally speaking, in order to depict the strength of the interaction between molecules or atoms of substances, we have introduced the significant parameter of cohesive energy. The expression of its cohesive energy is [43]: (3) E c o h = ( E M ( b u l k ) − n E M ) / n where E M ( b u l k ) and E M are the total energy of the dopant atoms and the energy of individual metal atoms, respectively, and n is the number of corresponding atoms. By doping the TM@g surface with single metal elements and exploring their optimal loading sites on the surface, we calculated the formation energy ( Δ E f ). The definition is as follows: (4) Δ E f = E t o t a l − ( E _ A − E _ B ) where E t o t a l is the total energy of the metal doped on graphene, E _ A is the energy of the doped metal, and E _ B is the energy of the graphene with the doping sites removed. In addition, the d-band center of the metal atom is an important parameter describing the distribution of the d-electron energy level, and its position directly affects the interaction between the catalyst surface and the reactants, which in turn determines the catalytic activity. Its expression is: ε d = ∫ + ∞ − ∞ E * ρ d ( E ) d E ∫ + ∞ − ∞ ρ d ( E ) d E where E is the energy and ρ d ( E ) is the density of states (DOS) of the d-electrons, which indicates the number of states of the d-electrons at energy E. 2.2 Machine learning In this work, we have employed a variety of distinct machine learning algorithms to predict the HER performance, namely the Gradient Boosting Regressor (GBR) [44], the Random Forest Regression (RFR) [45], the Extreme Gradient Boosting Regressor (XGBR) [46], and the Decision Tree Regression (DTR) [47], as well as the Ensemble learning algorithm model formed by combining the above algorithms. As depicted in Fig. 1 , it presents a schematic illustration of the machine learning process. The machine learning models used in this paper were trained and evaluated using the Scikit-Learn package [48–49] and libraries such as Pandas in the open source Python (2023.1) distribution platform. Experiments were performed on a high-performance computing cluster with 128 GB of RAM and 16 CPU cores. Additionally, in order to set the hyperparameters, we tested a reasonable range of candidate values on the training set through the 7-fold cross-validation (CV) of the grid search as a method, and then applied it to the test set. Grid search is an exhaustive search algorithm that finds the best model configuration by traversing all possible hyperparameter combinations to improve the prediction accuracy and robustness of the model. The dataset was randomly divided into two subsets, of which 90% was used to train the models, while the remaining 10% was used to test the model performance [50]. Furthermore, we have provided the formulae for the coefficient of determination (R2) and the root mean square error (RMSE) for evaluating the models [51], which are given below: (5) R 2 = 1 − ∑ i ( Y i − y i ) 2 ∑ i ( Y i − Y ¯ ) 2 (6) R M S E = 1 N ∑ i n ( Y i − y i ) 2 where R 2 is the accuracy of the model and RMSE is the error between the DFT calculated value and the ML predicted value. If R 2 is closer to 1 and RMSE is closer to 0, it indicates a better machine learning model. In order to assess the interdependence between the features, we performed a Pearson correlation analysis [52] for each feature descriptor according to the following formula: (7) ρ = ∑ i ( a i − a ) ( b i − b ¯ ) ∑ i ( a i − a ¯ ) 2 ∑ i ( b i − b ¯ ) 2 where a i and b i are the features being compared, and a ¯ and b ¯ represent their respective mean values. ρ takes values ranging from -1.0 to 1.0, with larger absolute values of ρ indicating stronger correlation, and values of ρ closer to 0 indicating weaker or no correlation. 3 Results and discussion 3.1 Structural and stability of TM@g In this study, 28 TM@g were selected to investigate the catalytic performance of HER. To efficiently screen HER catalysts, a systematic DFT investigation was adopted. Here, we first considered the stability of TM@g. The schematic structure of TM@g is illustrated in Fig. 2 a, revealing two distinct doping sites: a single-vacancy site and a double-vacancy doping site, both of which serve as anchors for the chosen transition metal atoms. Furthermore, nearly all atoms within these single- and double-vacancy structures exhibit notable planar geometric configurations. A crucial prerequisite for single-atom catalysts incorporated into graphene is their ability to sustain high catalytic activity and stability over prolonged periods. In essence, the dopant element must be securely bonded to graphene to preclude atomic agglomeration. As shown in Fig. 2b, it can be seen that the formation energies of these TMs (Co, Cr, Fe, Mn, Nb, Os, Re, Ru, Rh, Ti, V, W, Ir, and Zr) are negative, which indicates that the single atoms of these TMs can be stably bound into the substrate. Notably, among these TM atoms, Zr (-4.102 eV) has the lowest formation energy. Cao et al. [53] explored the use of machine learning-assisted screening of doped metal-phosphide electrocatalysts for efficient hydrogen precipitation reactions, but it suffers from potential shortcomings for the limited range of dopants studied. Instead, we expand the range of dopant metals and candidates considered, which in turn effectively addresses the potential shortcomings. We can also see in Table S1 that the formation energy ( Δ E f ) is lower for the single vacancy system compared to the bi-vacancy system, indicating that the single vacancy system is structurally stable and easier to synthesize. The anisotropy of formation energy shows that single metal doping has a significant impact on the stability of TM@g. We calculated the cohesion energy of the structure by the method proposed by Li et al. [54] based on thermodynamic data and molecular simulations, and further investigated the electrochemical stability of the TM@g structure. Cohesion energy ( E coh ), as a widely recognized parameter, has been used to evaluate the feasibility of predicted experimental synthesis of two-dimensional materials [55–57]. Liu et al. [58] provided an in-depth analysis and experimental evidence of the relationship between the cohesion and binding energies of TM when embedded in graphene. If the cohesion energy is smaller than the binding energy, it indicates that the dopant element will be more stable and easy to synthesize when embedded in graphene. Wang et al. [59] investigated how the dopant atoms interact with the substrate and how the presence of the dopant atoms affects the cohesion energy, and provided a basis for the dopant atoms to be embedded in the substrate. The cohesion energies of TM@g can be used for preliminary evaluation as shown in Table S1. As can be seen in Fig. 2c, the cohesion energies of most TM@g are mainly concentrated between -2.0 and -7.0 eV/atom, and all of them are somewhat lower than their formation energies. It indicates that the dopant elements can be stably embedded in graphene with very high synthesizability. Therefore, most of the TM@g have very high synthesizability while may be stable enough under HER conditions. Moreover, to further verify the reliability of these models, we employed Ab initio Molecular Dynamics (AIMD) to assess the thermodynamic stabilities of some relatively excellent-performing catalysts, namely Re@gp-G, V@gp-G, Co@vg-G and W@vg-G, at different temperatures. At a temperature of 800K, the energy-change graphs with a total simulation time of 10ps are presented inFig. 3 a-d. It can be observed that throughout the simulation process, the energies of these catalyst configurations remain in dynamic equilibrium, and the structures fluctuate within a relatively narrow energy range, which further attests to their structural stabilities. By using DFT and AIMD in synergy, we are able to thoroughly evaluate the catalytic performance and thermodynamic stability of SACs from both static electronic structures and dynamic reaction behaviors. The Bader charge-transfer number is also a very effective indicator for predicting HER [60]. As can be seen from the Bader charge data in Table S1, the charge transfer of transition metal-doped double-vacancy is greater than that of single-vacancy doping. In other words, the transition metal-doped double-vacancy significantly enhances the interaction between graphene and H*, reduces the Δ G H value, and thus further improves the HER performance. 3.2 HER catalytic activity The Gibbs free energy of hydrogen adsorption ( Δ G H ) is largely an important criterion used to screen HER catalysts with high activity. In acidic media, electrocatalysts can exhibit excellent hydrogen precipitation performance when the Δ G H value is close to zero. We calculated the Gibbs free energy of hydrogen adsorption ( Δ G H ) of a single metal atom doped in graphene by DFT. When their | Δ G H | values are <0.1 eV [61], it means that their hydrogen precipitation performance is expected to surpass that of their commercial noble-metal Pt-based catalysts (0.09 eV) and is expected to be an ideal HER electrocatalyst. Under standard conditions, the hydrogen evolution reaction can proceed via two different mechanistic paths. First, hydrogen adsorption is achieved based on the Volmer reaction ( H + + e → H * , where the asterisk denotes the adsorbed state); then, H₂ is desorbed via the Heyrovsky reaction ( H * + H + + e − → H 2 ) or the Tafel reaction pathway ( 2 H * → H 2 ) (as shown in Fig. 2d). It should be noted that hydrogen adsorption and desorption are requisite for hydrogen evolution reactions; overly weak or overly strong adsorption of H typically slows down the reaction: a positive Δ G H results in a weak bond between the proton and the catalyst, while a negative Δ G H indicates that the adsorption of hydrogen atoms has a strong binding force. As presented in Table S1, we took into account the top sites of hydrogen adsorbed transition metals on the surface of 56 TM@g structures. As shown in Fig. 4 a-d for all the results of Δ G H , we discovered that the Δ G H of eight structures, namely Mo@gp-G, W@gp-G, Ru@gp-G, Re@gp-G, V@gp-G, W@vg-G, Fe@vg-G and Co@vg- G are close to 0 eV, and their Δ G H are -0.057eV, -0.023eV, 0.061eV, -0.056eV, -0.046eV, 0.025eV, 0.060eV and -0.038eV. Their Δ G H values fall within the range of -0.1 to 0.1 eV, which is in accordance with the activity criteria utilized in previous reports [62]. Yang et al. [63] reported a graphene-based catalyst similar to ours. The graphene-based catalyst they selected has excellent HER performance, which is highly consistent with our computational predictions. Surprisingly, the HER free energy in these systems is even lower than that of commercial platinum (0.09 eV)-based catalysts [64], which means that these systems can be regarded as potential HER electro-catalysts both from the thermodynamic and kinetic perspectives. These results indicate that the catalytic performance of the system can be effectively regulated by fine-tuning the structure of single-atom clusters. To gain insight into the origin of HER activity, we performed spin multiplicity calculations on the partial density of states (PDOS) of its 56 systems and analyzed their d-band centers (see Table S1). We found that as the number of electrons in the d orbitals of the transition metal atoms increases, there is an overall tendency for their d-band centers to move to the left. As shown in Fig. 5 , the DOS of the Co@vg-G and W@gp-G structures are spin-up and spin-down asymmetric and thus exhibit magnetic properties, whereas the DOS of the Ta@gp-G and Y@vg-G structures are spin-up and spin-down symmetric and thus exhibit nonmagnetic properties. In addition, we can also see from Fig. 5a,b that the Co and W metals doped in graphene have their d-band peaks near the Fermi energy level, and the band gap of the W@vg-G structure is obviously a bit narrower than that of Co@vg-G. How this narrowing of the energy gap is caused, we see that the valence band top in Fig. 5a is mainly the 2d orbitals of Co, while in Fig. 5b, in the region of energy higher than the 2d orbitals of Co, there are some 2d orbitals of W that are occupied by electrons, and it is these extra 2d orbitals of W that bring about the narrowing of the bandgap of the system. One more thing is because the valence band top (VBM) of the W@vg-G structure is a bit smaller compared to the absence of high and conduction band bottom (CBM). In the two-vacancy system, the introduction of the transition metal element causes the CBM to shift toward the Fermi energy level, which results in a smaller band gap, but the position of the VBM remains almost unchanged. The narrower bandgap improves the electrical conductivity of the material and promotes the electron transfer in the material. Moreover, these Co, W, Ta, and Y atoms tend to be in low-spin states due to their strong interaction with the substrate, which stabilizes the low-spin configuration. Furthermore, there are strong interactions between these TMs and non-metallic orbitals, which is also favorable for catalytic reactions. 3.3 Feature engineering In order to be able to screen out other promising catalysts and construct rational design principles, we sought to find key features that could be used to predict Δ G H . In the previous chapter, we proved that the ensemble algorithm can successfully establish the association between the feature descriptors and the free energy of the hydrogen evolution reaction. In addition, the clarification of key features also helps to guide the design of efficient hydrogen evolution catalysts. Therefore, we use the ensemble algorithm to explore the impact of structural features on catalytic activity. Generally, a good descriptor will cover atomic properties, structural properties, and chemical properties. Atomic properties, e.g., electronegativity (En), TM atomic radius (Rm), ionization energy (Ie), cohesion energy (Ec); structural properties, e.g., average distance between the TM and its nearest C atom (ζb); and chemical properties, e.g., number of valence electrons (N), center of the d-band (ξd), TM-Bader charge (η1), C-Bader charge (η2), formation energy (Ef). In order to train fast and efficient machine learning models, feature selection plays a crucial role. By selecting the most relevant and representative features, the dimensionality of the data can be greatly reduced, the complexity of the model can be simplified, the speed of training and prediction can be accelerated, and problems such as overfitting can be avoided. Therefore, feature engineering before training machine learning models is the key to obtaining ML models with high prediction accuracy. To ensure the reliability of ML models, strong linear correlations between database features should be avoided as much as possible. Pearson's correlation coefficient (ρ) is often used to identify suitable features in ML models, with ρ values between -1 and 1, where 1 indicates a perfectly positive correlation and -1 indicates a perfectly negative correlation. If a feature has a strong linear correlation with other features (|ρ| > 0.95), the feature is regarded as unsuitable for training ML models [65]. As shown in Fig. 6 a, most of the features do not reflect strong correlation with each other, which indicates that the features are independent of each other and provide good conditions for machine learning. Based on the RFR algorithm, the importance of the features is ranked. As shown in Fig. 6b, we find that the feature of the average distance between the TM and its nearest C atom (ζb) dominates it, and the reason why this feature dominates it is because it reflects the local coordination environment, which is a key determinant of the catalytic activity. This is followed by the d-band center (ξd) and the C-Bader charge number (η2), which also have a significant impact on the model predictions. Consolidation of the above results, we analyzed that the promotion effect of TM@g on its electrocatalytic activity may originate from the adjustment of the number of electrons in the d orbitals as well as the change of interatomic distances [66]. These adjustments can optimize the electronic structure, improve the adsorbed Δ G H electronic coupling strength and transfer efficiency, and enhance the catalytic active sites and stability, which in turn will have great application prospects in electrocatalysis. 3.4 Machine learning For machine learning models, four distinct machine learning methods are employed, namely Random Forest Regression (RFR), Gradient Boosted Regression (GBR), Decision Tree Regression (DTR) and Extreme Gradient Boosted Regression (XGBR). In the ensemble learning algorithm, the four ML algorithms are combined to fully and comprehensively leverage their advantages, and then effectively enhance the performance and generalization ability of the overall learner. As a result, the risk of overfitting is significantly reduced, and the stability and robustness of the model are enhanced. Furthermore, Lones et al.[67], in order to avoid problems such as overfitting, reasonably selected different proportions of the dataset for multiple trials as well as used a cross-validation strategy and other methods to determine the appropriate proportion of the dataset to be divided. In this regard, we adopt a similar approach to rationally divide the dataset. In order to evaluate the performance of these four machine learning model algorithms, we utilize two evaluation parameters, R2 and RMSE, to evaluate these four models. Typically, machine learning models with high prediction accuracy will exhibit high R2 values and low RMSE values. As shown in Fig. 7 a-d, it can be seen that the XGBR algorithm has an R2 value of 0.90 and an RMSE of 0.28 on the test set, which outperforms any other algorithms and demonstrates that the model has a good predictive performance. The RFR algorithm has an R2 value of 0.84 and an RMSE of 0.35 on the test set. The GBR algorithm has an R2 value of 0.89 and an RMSE of 0.29; the DTR algorithm has an R2 value of 0.55 and an RMSE of 0.52 on the test set. The specific values of R2, RMSE for the model are given in the data table (S2). Therefore, the results obtained by using a single ML algorithm for prediction are not remarkable. Here, in order to be able to evaluate the performance of the model on different data subsets more comprehensively, we adopt the k(k=7) fold cross-validation strategy. The k-fold cross-validation strategy is chosen because it can not only be applied to datasets of various sizes and characteristics, but also combine multiple training and testing results, making the model performance evaluation more reliable and stable. In this study, we set the hyperparameters for the machine learning models separately. For example, in order to overcome the problems caused by overfitting, we will carefully calibrate the parameters such as the number of estimators, the maximum depth, the minimum sample split, and the minimum sample leaf in the random forest and decision tree models. Their detailed values are listed in Table 1 . In order to be capable of enhancing the accuracy and stability of the model more effectively, an ensemble learning algorithm is utilized. An ensemble learning algorithm is an algorithmic strategy that combines multiple learners (also known as base learners or weak learners) to boost the overall performance (also known as strong learners). Each weak learner can either be a different instance of the same algorithm, as in the case of applying the same algorithm but with different parameter settings or training data; or it can be a different type of algorithm [68]. Each weak learner learns from the data and makes predictions to generate its own predictions. Then, by means of voting or weighted average, ensemble learning integrates these prediction results to get the final prediction results. Ensemble learning combines multiple weak learners and makes use of their respective advantages and characteristics to obtain better prediction, generalization and robustness than a single learner. The basic flow chart of ensemble learning algorithm is shown in Fig. 8 . In this paper, its four ML algorithms are combined to form six different ensemble learning algorithms, namely RFR+DTR, DTR+GBR, XGBR+DTR, XGBR+GBR, RFR+XGBR and RFR+GBR. As shown in Fig. 9 , we can see that the R2 value of ensemble learning algorithms in the test set can generally reach more than 0.88, and their mutual combination also greatly improves their prediction performance. This is to be compared to Zhang et al. [69] who used the DFT-ML approach to study the hydrogen precipitation properties of transition metal atoms doped on graphene-based materials. In their machine learning model, the prediction accuracy is 83% while ours reaches 95%. The incorporation of more parameters and catalyst structural features in our machine learning model allows our model to better capture the complex relationships between different factors affecting the HER process. The specific prediction results of the six ensemble algorithm models are shown in Fig. 10 . Among them, RFR+DTR achieves an R2 value of 0.97/0.94 on the training/test set, with an RMSE of 0.10/0.25; DTR+GBR has an R2 value of 0.99/0.95 on the training/test set, with an RMSE of 0.02/0.19; RFR+XGBR has an R2 value of 0.97/0.90 on the training/test set, with an RMSE of 0.11/0.28; RFR+GBR on the training/test set has an R2 of 0.96/0.88 and an RMSE of 0.11/0.30; XGBR+DTR on the training/test set has an R2 value of 0.99/0.93 and an RMSE of 0.01/0.23; XGBR+GBR on the training/test set has an R2 value of 0.99/0.91 and RMSE of 0.02/0.26. It can be seen that the DTR+GBR algorithm has a slightly higher accuracy compared to other algorithms on either the test set or the training set, which also proves that the algorithm has excellent prediction performance. The detailed values of R2 and RMSE of the model are given in the data Table S3. It can be seen that the relationship between the selected eigenvalues and the target Gibbs free energy can be well described by the ensemble learning algorithm. The aforesaid results demonstrate that the ensemble learning algorithm can not only better depict the intrinsic relationship between feature descriptors and target values ( Δ G H ), but also improve the prediction ability of basic weak learners. Hence, the ensemble learning algorithm is a highly effective approach that can considerably enhance the model prediction performance and strengthen the stability. Furthermore, in order to encode the importance of the ML (Machine Learning) model and elucidate the contribution of each feature, we introduce the SHAP (Shapley Additive exPlanation) analytical framework [70]. In traditional feature importance evaluation methods, most merely focus on the importance of individual features themselves. However, the SHAP method is unique in that it takes into account the interactions between features. In this way, SHAP can not only comprehensively explain the specific contribution of each feature to the prediction result, but also deeply explore and show the interaction relationships among features, thus providing a more comprehensive and in-depth perspective for us to understand the working mechanism of the ML model. We calculated the SHAP values and the mean absolute SHAP values for each feature, as shown in Fig. 11 . It can be observed in Fig. 11a that the average distance (ζb) between TM and its nearest C atom, the cohesive energy (Ec), and the C-Bader charge transfer number (η2) show higher SHAP values, indicating a significant impact on the model and on the prediction result. 4 Conclusion In summary, by using first-principles DFT calculations and machine-learning ML methods, we systematically investigated single-atom catalysts doped with individual metal atoms in graphene for Δ G H determination to identify the most promising HER catalysts. Of the 56 configurations of the 28 transition metal embeddings involved in the study, 25 inside (Co, Cr, Fe, Ir, Nb, Os, Re, Rh, Ru, Ti, Mn, V, W, and Zr in single vacancies; and Ir, Mn, Fe, Re, Nb, Ru, Os, Ta, V, W, and Zr in double vacancies) show negative formation energy, which indicates that they are structurally stable and easier to synthesize. In Table S1, it can be seen that there are 22 doped graphene structures with absolute values of Δ G H less than or close to 0.25 eV. Among them, the Gibbs free energies of Mo@gp-G, W@gp-G, Ru@gp-G, Re@gp-G, V@gp-G, W@vg-G, Fe@vg-G and Co@vg-G ( Δ G H ) is closer to its ideal value of 0 eV with Δ G H of -0.057 eV, -0.023 eV, 0.061 eV, -0.056 eV, -0.046 eV, 0.025 eV, 0.060 eV and -0.038 eV. Through a series of theoretical calculations, we found that the introduction of transition metal elements in TM@g system is a very effective catalyst for hydrogen evolution. In addition, we used the ensemble learning algorithm combining four kinds of basis learners, and the prediction accuracy could generally reach above 0.88, which improved the overall stability and accuracy of the model. The structural optimization of TM@g reveals that its d-band center, the average distance between the transition metal and its nearest carbon atom, and the Bader charge number are important factors in determining its catalytic performance. Overall, this study not only provides a new joint DFT-ML algorithm to screen HER catalysts efficiently and accurately, but also will reveal the key factors affecting the properties of TM@g catalysts. CRediT authorship contribution statement Zhiwei Xiong: Writing – review & editing, Writing – original draft, Software, Methodology. Shengjun Huo: Software, Methodology. Wanglai Cen: Software. Jikun Feng: Visualization, Validation. Jiahao Zeng: Writing – review & editing, Methodology. Meiling Hou: Writing – review & editing. Yu Liu: Software, Methodology. Declaration of competing interest The authors declare that they have no known competing financial interests or personal relationships that could have appeared to influence the work reported in this paper. Supplementary materials Supplementary material associated with this article can be found, in the online version, at doi:10.1016/j.mcat.2025.115152. Appendix Supplementary materials Image, application 1 References [1] Sadhasivam T, Hudson M S L, Pandey S K, et al. Effects of nano size mischmetal and its oxide on improving the hydrogen sorption behaviour of MgH2[J]. Int. J. Hydrog. Energy, 2013, 38(18): 7353-7362.https://doi.org/10.1016/j.ijhydene.2013.04.040. [2] Bhatnagar A, Pandey S K, Vishwakarma A K, et al. Fe 3 O 4@ graphene as a superior catalyst for hydrogen de/absorption from/in MgH 2/Mg[J]. J. Mater. Chem. A, 2016, 4(38): 14761-14772. https://doi.org/10.1039/C6TA05998H. [3] Xu T, Wang D, Fu Q, et al. Theoretical study on oxygen evolution reaction mechanism of double rare earth europium-doped graphene under hydroxyl modification in alkaline environment[J]. Mol. Catal., 2024, 559: 114053. https://doi.org/10.1016/j.mcat.2024.114053. [4] Ouyang T, Ye Y Q, Wu C Y, et al. Heterostructures composed of N-doped carbon nanotubes encapsulating cobalt and β-Mo2C nanoparticles as bifunctional electrodes for water splitting[J]. Angew. Chem. Int. Ed., 2019, 58(15): 4923-4928. https://doi.org/10.1002/anie.201814262. [5] Feng J X, Wu J Q, Tong Y X, et al. Efficient hydrogen evolution on Cu nanodots-decorated Ni3S2 nanotubes by optimizing atomic hydrogen adsorption and desorption[J]. J. Am. Chem. Soc., 2018, 140(2): 610-617. https://doi.org/10.1021/jacs.7b08521. [6] Gao G, O’Mullane A P, Du A. 2D MXenes: a new family of promising catalysts for the hydrogen evolution reaction[J]. Acs Catal., 2017, 7(1): 494-500. https://doi.org/10.1021/acscatal.6b02754. [7] Tang Q, Jiang D. Stabilization and band-gap tuning of the 1T-MoS2 monolayer by covalent functionalization[J]. Chem. Mater., 2015, 27(10): 3743-3748. https://doi.org/10.1021/acs.chemmater.5b00986. [8] Gupta A, Sakthivel T, Seal S. Recent development in 2D materials beyond graphene[J]. Prog. Mater. Sci., 2015, 73: 44-126. https://doi.org/10.1016/j.pmatsci.2015.02.002. [9] Liu Z, He T, Jiang Q, et al. A review of heteroatomic doped two-dimensional materials as electrocatalysts for hydrogen evolution reaction[J]. Int. J. Hydrog. Energy, 2022, 47(69): 29698-29729. https://doi.org/10.1016/j.ijhydene.2022.06.306. [10] Tan S M, Chua C K, Sedmidubský D, et al. Electrochemistry of layered GaSe and GeS: applications to ORR, OER and HER[J]. Phys. Chem. Chem. Phys., 2016, 18(3): 1699-1711. https://doi.org/10.1039/C5CP06682D. [11] Tang Q, Jiang D. Mechanism of hydrogen evolution reaction on 1T-MoS2 from first principles[J]. Acs Catal., 2016, 6(8): 4953-4961. https://doi.org/10.1021/acscatal.6b01211. [12] Xiao P, Chen W, Wang X. A review of phosphide-based materials for electrocatalytic hydrogen evolution[J]. Adv. Energy Mater., 2015, 5(24): 1500985. https://doi.org/10.1002/aenm.201500985. [13] Gupta A, Bhoyar T, Abraham B M, et al. Potassium molten salt-mediated in situ structural reconstruction of a carbon nitride photocatalyst[J]. ACS Appl. Mater. Interfaces, 2023, 15(15): 18898-18906. https://doi.org/10.1021/acsami.3c00239. [14] Bhoyar T, Kim D J, Abraham B M, et al. Tailoring photoactivity of polymeric carbon nitride via donor-π-acceptor network[J]. Appl. Catal. B: Environ., 2022, 310: 121347. https://doi.org/10.1016/j.apcatb.2022.121347. [15] Gao X, Zhou Y, Tan Y, et al. Mo isolated single atoms on S, N-codoped carbon as efficient catalyst for hydrogen evolution reaction: A theoretical evaluation[J]. Appl. Surf. Sci., 2019, 473: 770-776. https://doi.org/10.1016/j.apsusc.2018.12.206. [16] Ullah F, Ayub K, Mahmood T. High performance SACs for HER process using late first-row transition metals anchored on graphyne support: A DFT insight[J]. Int. J. Hydrog. Energy, 2021, 46(76): 37814-37823. https://doi.org/10.1016/j.ijhydene.2021.09.063. [17] Wang Q, Yu G, Yang E, et al. Through the self-optimization process to achieve high OER activity of SAC catalysts within the framework of TMO3@ G and TMO4@ G: A high-throughput theoretical study[J]. J. Colloid Interface Sci., 2023, 640: 405-414. https://doi.org/10.1016/j.jcis.2023.02.122. [18] Zhang X, Luo Z, Zhou Z, et al. Transition metal atom anchored by defective WSSe monolayer as bifunctional single atom catalyst for ORR and OER[J]. J. Electroanal. Chem., 2022, 922: 116731. https://doi.org/10.1016/j.jelechem.2022.116731. [19] Ha M, Kim D Y, Umer M, et al. Tuning metal single atoms embedded in N x C y moieties toward high-performance electrocatalysis[J]. Energy Environ. Sci., 2021, 14(6): 3455-3468. https://doi.org/10.1039/D1EE00154J. [20] Zhang L, ** N, Yang Y, et al. Advances on axial coordination design of single-atom catalysts for energy electrocatalysis: a review[J]. Nano-Micro Lett., 2023, 15(1): 228. https://doi.org/10.1007/s40820-023-01196-1. [21] Long X, Huang F, Yao Z, et al. Advancements in electrocatalytic nitrogen reduction: A comprehensive review of single-atom catalysts for sustainable Ammonia synthesis[J]. Small, 2024: 2400551.https://doi.org/10.1002/smll.202400551. [22] Tripathi A, Thapa R. Optimizing CO2RR selectivity on single atom catalysts using graphical construction and identification of energy descriptor[J]. Carbon, 2023, 208: 330-337.https://doi.org/10.1016/j.carbon.2023.03.065. [23] Sun Y, Liu J. CO 2 electroreduction performance of PtS 2 supported single transition metal atoms: a theoretical study[J]. Phys. Chem. Chem. Phys., 2023, 25(6): 4773-4779.https://doi.org/10.1039/D2CP04385H. [24] Xing G, Liu S, Liu J. Single transition metal anchored on defective boron carbide monolayer for efficient and selective CO2 electrochemical reduction: A theoretical study[J]. Mol. Catal., 2024, 553: 113771.https://doi.org/10.1016/j.mcat.2023.113771. [25] Jin L, Liu C, Wang D, et al. CdN4C0-gra as efficient trifunctional electrocatalyst for the HER, OER and ORR: A density functional theory study[J]. Appl. Surf. Sci., 2023, 610: 155580.https://doi.org/10.1016/j.apsusc.2022.155580. [26] Bogdanis G C, Mastorakos G, Tsirigkakis S, et al. Bout duration in high-intensity interval exercise modifies hematologic, metabolic and antioxidant responses[J]. J. Exerc. Sci. Fit., 2022, 20(3): 216-223.https://doi.org/10.1016/j.jesf.2022.03.005. [27] Gao X, Zhou Y, Tan Y, et al. Graphyne doped with transition-metal single atoms as effective bifunctional electrocatalysts for water splitting[J]. Appl. Surf. Sci., 2019, 492: 8-15.https://doi.org/10.1016/j.apsusc.2019.06.050. [28] Zhou Y, Gao G, Li Y, et al. Transition-metal single atoms in nitrogen-doped graphenes as efficient active centers for water splitting: a theoretical study[J]. Phys. Chem. Chem. Phys., 2019, 21(6): 3024-3032.https://doi.org/10.1039/C8CP06755D. [29] Hu Y, Chen J, Wei Z, et al. Recent advances and applications of machine learning in electrocatalysis[J]. J Mater Inf., 2023, 3: 18.https://dx.doi.org/10.20517/jmi.2023.23. [30] Li H, Deng C, Li F, et al. Investigation of dual atom doped single-layer MoS2 for electrochemical reduction of carbon dioxide by first-principle calculations and machine-learning[J]. J. Mater. Inform., 2023, 3(4): N/A-N/A. http://dx.doi.org/10.20517/jmi.2023.29. [31] Zhang J, Wang Y, Zhou X, et al. Accurate and efficient machine learning models for predicting hydrogen evolution reaction catalysts based on structural and electronic feature engineering in alloys[J]. Nanoscale, 2023, 15(26): 11072-11082.https://doi.org/10.1039/D3NR01442H. [32] Zhang N, Yang B, Liu K, et al. Machine learning in screening high performance electrocatalysts for CO2 reduction[J]. Small Methods, 2021, 5(11): 2100987.https://doi.org/10.1002/smtd.202100987. [33] Wang M, Zhu H. Machine learning for transition-metal-based hydrogen generation electrocatalysts[J]. ACS Catal., 2021, 11(7): 3930-3937.https://doi.org/10.1021/acscatal.1c00178. [34] Zheng J, Sun X, Hu J, et al. Symbolic transformer accelerating machine learning screening of hydrogen and deuterium evolution reaction catalysts in MA2Z4 materials[J]. ACS Appl. Mater. Interf., 2021, 13(43): 50878-50891.https://doi.org/10.1021/acsami.1c13236. [35] Yang Y, Zhao X, Liu T, et al. The rational co-do** strategy of transition metal and non-metal atoms on g-CN for highly efficient hydrogen evolution by DFT and machine learning[J]. Int. J. Hydrog. Energy, 2024, 56: 949-958.https://doi.org/10.1016/j.ijhydene.2023.12.229. [36] Yu Q, Ma N, Leung C, et al. AI in single-atom catalysts: a review of design and applications[J]. J. Mater. Inform., 2025, 5(1): N/A-N/A. http://dx.doi.org/10.20517/jmi.2024.78. [37] Kresse G, Furthmüller J. Efficiency of ab-initio total energy calculations for metals and semiconductors using a plane-wave basis set[J]. Computational materials science, 1996, 6(1): 15-50.https://doi.org/10.1016/0927-0256(96)00008-0. [38] Kresse G, Furthmüller J. Efficient iterative schemes for ab initio total-energy calculations using a plane-wave basis set[J]. Phys. Rev. B, 1996, 54(16): 11169.https://doi.org/10.1103/PhysRevB.54.11169. [39] Kresse G, Joubert D. From ultrasoft pseudopotentials to the projector augmented-wave method[J]. Phys. Rev. b, 1999, 59(3): 1758.https://doi.org/10.1103/PhysRevB.59.1758. [40] Blöchl P E. Projector augmented-wave method[J]. Phys. rev. B, 1994, 50(24): 17953.https://doi.org/10.1103/PhysRevB.50.17953. [41] Wang V, Xu N, Liu J C, et al. VASPKIT: A user-friendly interface facilitating high-throughput computing and analysis using VASP code[J]. Comput. Phys. Commun., 2021, 267: 108033.https://doi.org/10.1016/j.cpc.2021.108033. [42] Valdés Á, Qu Z W, Kroes G J, et al. Oxidation and photo-oxidation of water on TiO2 surface[J]. J. Phys. Chem. C, 2008, 112(26): 9872-9879.https://doi.org/10.1021/jp711929d. [43] Zhang N, Hong Y, Yazdanparast S, et al. Superior structural, elastic and electronic properties of 2D titanium nitride MXenes over carbide MXenes: a comprehensive first principles study[J]. 2D Mater., 2018, 5(4): 045004.https://iopscience.iop.org/article/10.1088/2053-1583/aacfb3. [44] Friedman J H. Stochastic gradient boosting[J]. Comput. Stat. Data Anal., 2002, 38(4): 367-378.https://doi.org/10.1016/S0167-9473(01)00065-2. [45] O’Connor N J, Jonayat A S M, Janik M J, et al. Interaction trends between single metal atoms and oxide supports identified with density functional theory and statistical learning[J]. Nat. Catal., 2018, 1(7): 531-539.https://doi.org/10.1038/s41929-018-0094-5. [46] Chen T, Guestrin C. Xgboost: A scalable tree boosting system[C]//proceedings of the 22nd acm sigkdd international conference on knowledge discovery and data mining. 2016: 785-794.https://doi.org/10.1145/2939672.2939785. [47] Wang G. Quantum algorithm for linear regression[J]. Phys. rev. A, 2017, 96(1): 012335.https://doi.org/10.1103/PhysRevA.96.012335. [48] Herzen J, Lässig F, Piazzetta S G, et al. Darts: user-friendly modern machine learning for time series[J]. J. Mach. Learn. Res., 2022, 23(124): 1-6.https://www.jmlr.org/papers/v23/21-1177.html. [49] Pölsterl S. scikit-survival: A library for time-to-event analysis built on top of scikit-learn[J]. J. Mach. Learn. Res., 2020, 21(212): 1-6.https://www.jmlr.org/papers/v21/20-729.html. [50] He S, Liu C, Liu K, et al. Generating natural answers by incorporating copying and retrieving mechanisms in sequence-to-sequence learning[C]//proceedings of the 55th Annual Meeting of the Association for Computational Linguistics (Volume 1: Long Papers). 2017: 199-208.https://aclanthology.org/P17-1019. [51] Chicco D, Warrens M J, Jurman G. The coefficient of determination R-squared is more informative than SMAPE, MAE, MAPE, MSE and RMSE in regression analysis evaluation[J]. Peerj comput. Sci., 2021, 7: e623.https://doi.org/10.7717/peerj-cs.623. [52] Armstrong R A. Should Pearson's correlation coefficient be avoided?[J]. Ophthalmic and physiological optics, 2019, 39(5): 316-327.https://doi.org/10.1111/opo.12636. [53] Cao S, Luo Y, Li T, et al. Machine learning assisted screening of doped metals phosphides electrocatalyst towards efficient hydrogen evolution reaction[J]. Molecular catalysis, 2023, 551: 113625.https://doi.org/10.1016/j.mcat.2023.113625. [54] Li C, Strachan A. Cohesive energy density and solubility parameter evolution during the curing of thermoset[J]. Polymer, 2018, 135: 162-170.https://doi.org/10.1016/j.polymer.2017.12.002. [55] Yu T, Zhao Z, Liu L, et al. TiC3 monolayer with high specific capacity for sodium-ion batteries[J]. J. Am. Chem. Soc., 2018, 140(18): 5962-5968.https://doi.org/10.1021/jacs.8b02016. [56] Zhang H, Li Y, Hou J, et al. FeB6 monolayers: the graphene-like material with hypercoordinate transition metal[J]. J. Am. Chem. Soc., 2016, 138(17): 5644-5651.https://doi.org/10.1021/jacs.6b01769. [57] Yang L M, Bacic V, Popov I A, et al. Two-dimensional Cu2Si monolayer with planar hexacoordinate copper and silicon bonding[J]. J. Am. Chem. Soc., 2015, 137(7): 2757-2762.https://doi.org/10.1021/ja513209c. [58] Liu S S, Huang Q Y, Wang L L, et al. Boosting hydrogen evolution activity of transition meta-nitrogen embedded graphene through introducing secondary transition metal[J]. Surf. Interf., 2022, 29: 101714.https://doi.org/10.1016/j.surfin.2021.101714. [59] Bie J, Wang J, Chen S, et al. Catalytic ability comparison of five transition metal clusters (Zn, Cu, Fe, Ni, and Ru) for heat-induced graphene etching by Ab initio molecular dynamics simulations[J]. Adv. Theory Simul., 2022, 5(1): 2100380.https://doi.org/10.1002/adts.202100380. [60] Yao Y, Gu X K, He D, et al. Engineering the electronic structure of submonolayer Pt on intermetallic Pd3Pb via charge transfer boosts the hydrogen evolution reaction[J]. J. Am. Chem. Soc., 2019, 141(51): 19964-19968.https://doi.org/10.1021/jacs.9b09391. [61] Umer M, Umer S, Zafari M, et al. Machine learning assisted high-throughput screening of transition metal single atom based superb hydrogen evolution electrocatalysts[J]. J. Mater. Chem. A, 2022, 10(12): 6679-6689.https://doi.org/10.1039/D1TA09878K. [62] Zang W, Sun T, Yang T, et al. Efficient hydrogen evolution of oxidized Ni-N3 defective sites for alkaline freshwater and seawater electrolysis[J]. Adv. Mater., 2021, 33(8): 2003846.https://doi.org/10.1002/adma.202003846. [63] Yang Y, Zhao X, Liu T, et al. The rational co-do** strategy of transition metal and non-metal atoms on g-CN for highly efficient hydrogen evolution by DFT and machine learning[J]. Int. J. Hydrog. Energy, 2024, 56: 949-958.https://doi.org/10.1016/j.ijhydene.2023.12.229. [64] Nørskov J K, Bligaard T, Logadottir A, et al. Trends in the exchange current for hydrogen evolution[J]. J. Electrochem. Soc., 2005, 152(3): J23.https://iopscience.iop.org/article/10.1149/1.1856988. [65] Guan C, Chen H, Feng H. Room-temperature synthesis of sub-2 nm ultrasmall platinum–rare-earth metal nanoalloys for hydrogen evolution reaction[J]. Inorg. Chem., 2022, 61(34): 13379-13385.https://doi.org/10.1021/acs.inorgchem.2c01502. [66] Cheng H, Liu Q, Diao Y, et al. CoMo2S4 with superior conductivity for electrocatalytic hydrogen evolution: elucidating the key role of Co[J]. Adv. Funct. Mater., 2021, 31(37): 2103732.https://doi.org/10.1002/adfm.202103732. [67] Lones M A. Avoiding common machine learning pitfalls[J]. Patterns, 2024, 5(10).https://doi.org/10.1016/j.patter.2024.101046. [68] Mai H, Le T C, Chen D, et al. Machine learning for electrocatalyst and photocatalyst design and discovery[J]. Chem. Rev., 2022, 122(16): 13478-13515.https://doi.org/10.1021/acs.chemrev.2c00061. [69] Zhang H, Wei Q, Wei S, et al. Machine learning assisted screening of nitrogen-doped graphene-based dual-atom hydrogen evolution electrocatalysts[J]. Molecular catalysis, 2025, 570: 114649.https://doi.org/10.1016/j.mcat.2024.114649. [70] Fu Q, Xu T, Wang D, et al. Rare earth modified carbon-based catalysts for oxygen electrode reactions: a machine learning assisted density functional theory investigation[J]. Carbon, 2024, 223: 119045.https://doi.org/10.1016/j.carbon.2024.119045.",
+      "scopus-id": "105003376096",
+      "coredata": {
+        "eid": "1-s2.0-S2468823125003372",
+        "dc:description": "Carbon-based transition metal (TM) single-atom catalysts (SACs) are a new type of electrocatalytic material that is expected to replace platinum group metals, and they have a promising application in the field of hydrogen production from electrolyzed water. However, the current screening of carbon-based transition metal single-atom catalysts is very time-consuming and challenging. In this study, we employ a density-functional theory (DFT) combined with machine learning (ML) approach to predict effective HER electrocatalysts for 3d/4d/5d TM doping in graphene single-atom catalysts (SACs). The Gibbs free energy for assessing catalytic activity ( Δ G H ) was used as the target value for the prediction, and data collected from the literature as well as self-calculated data were also used. The results based on Δ G H indicate that Mo, W, Ru, Re, V, Fe, and Co single atoms embedded on graphene can serve as active sites for efficient hydrogen precipitation. The ensemble learning model based on the combination of gradient boosted regression (GBR) and decision tree regression (DTR) is able to predict ( Δ G H ) quickly and accurately, showing the best prediction performance with high coefficient of determination (R2) and low root mean square error (RMSE) of 0.95 and 0.19, respectively. In addition, all features are analyzed based on a random forest (RFR) model, it is found that the d-band center, the average distance between the transition metal and its nearest carbon atom, and the Bader transfer charge number can be used as key descriptors. In conclusion, the combination of DFT calculations and ML modeling can effectively predict the performance variation of catalysts and greatly facilitate the design and screening of catalysts.",
+        "openArchiveArticle": "false",
+        "prism:coverDate": "2025-06-15",
+        "openaccessUserLicense": null,
+        "prism:aggregationType": "Journal",
+        "prism:url": "https://api.elsevier.com/content/article/pii/S2468823125003372",
+        "dc:creator": [
+          {
+            "@_fa": "true",
+            "$": "Xiong, Zhiwei"
+          },
+          {
+            "@_fa": "true",
+            "$": "Huo, Shengjun"
+          },
+          {
+            "@_fa": "true",
+            "$": "Cen, Wanglai"
+          },
+          {
+            "@_fa": "true",
+            "$": "Feng, Jikun"
+          },
+          {
+            "@_fa": "true",
+            "$": "Zeng, Jiahao"
+          },
+          {
+            "@_fa": "true",
+            "$": "Hou, Meiling"
+          },
+          {
+            "@_fa": "true",
+            "$": "Liu, Yu"
+          }
+        ],
+        "link": [
+          {
+            "@_fa": "true",
+            "@rel": "self",
+            "@href": "https://api.elsevier.com/content/article/pii/S2468823125003372"
+          },
+          {
+            "@_fa": "true",
+            "@rel": "scidir",
+            "@href": "https://www.sciencedirect.com/science/article/pii/S2468823125003372"
+          }
+        ],
+        "dc:format": "application/json",
+        "openaccessType": null,
+        "pii": "S2468-8231(25)00337-2",
+        "prism:volume": "581",
+        "articleNumber": "115152",
+        "prism:publisher": "Elsevier B.V. All rights are reserved, including those for text and data mining, AI training, and similar technologies.",
+        "dc:title": "Accelerating the screening of catalysts for hydrogen evolution reaction in graphene materials based on DFT calculations and machine learning",
+        "prism:copyright": "© 2025 Elsevier B.V. All rights are reserved, including those for text and data mining, AI training, and similar technologies.",
+        "openaccess": "0",
+        "prism:issn": "24688231",
+        "dcterms:subject": [
+          {
+            "@_fa": "true",
+            "$": "Machine learning"
+          },
+          {
+            "@_fa": "true",
+            "$": "Graphene"
+          },
+          {
+            "@_fa": "true",
+            "$": "Hydrogen evolution reaction"
+          },
+          {
+            "@_fa": "true",
+            "$": "Density functional theory"
+          },
+          {
+            "@_fa": "true",
+            "$": "Single-atom catalysts"
+          }
+        ],
+        "openaccessArticle": "false",
+        "prism:publicationName": "Molecular Catalysis",
+        "openaccessSponsorType": null,
+        "prism:pageRange": "115152",
+        "pubType": "fla",
+        "prism:coverDisplayDate": "15 June 2025",
+        "prism:doi": "10.1016/j.mcat.2025.115152",
+        "prism:startingPage": "115152",
+        "dc:identifier": "doi:10.1016/j.mcat.2025.115152",
+        "openaccessSponsorName": null
+      },
+      "objects": {
+        "object": [
+          {
+            "@category": "standard",
+            "@height": "265",
+            "@width": "753",
+            "@_fa": "true",
+            "$": "https://api.elsevier.com/content/object/eid/1-s2.0-S2468823125003372-gr11.jpg?httpAccept=%2A%2F%2A",
+            "@multimediatype": "JPEG image file",
+            "@type": "IMAGE-DOWNSAMPLED",
+            "@size": "29588",
+            "@ref": "gr11",
+            "@mimetype": "image/jpeg"
+          },
+          {
+            "@category": "standard",
+            "@height": "599",
+            "@width": "753",
+            "@_fa": "true",
+            "$": "https://api.elsevier.com/content/object/eid/1-s2.0-S2468823125003372-gr3.jpg?httpAccept=%2A%2F%2A",
+            "@multimediatype": "JPEG image file",
+            "@type": "IMAGE-DOWNSAMPLED",
+            "@size": "142118",
+            "@ref": "gr3",
+            "@mimetype": "image/jpeg"
+          },
+          {
+            "@category": "standard",
+            "@height": "384",
+            "@width": "753",
+            "@_fa": "true",
+            "$": "https://api.elsevier.com/content/object/eid/1-s2.0-S2468823125003372-gr2.jpg?httpAccept=%2A%2F%2A",
+            "@multimediatype": "JPEG image file",
+            "@type": "IMAGE-DOWNSAMPLED",
+            "@size": "78345",
+            "@ref": "gr2",
+            "@mimetype": "image/jpeg"
+          },
+          {
+            "@category": "standard",
+            "@height": "227",
+            "@width": "565",
+            "@_fa": "true",
+            "$": "https://api.elsevier.com/content/object/eid/1-s2.0-S2468823125003372-gr1.jpg?httpAccept=%2A%2F%2A",
+            "@multimediatype": "JPEG image file",
+            "@type": "IMAGE-DOWNSAMPLED",
+            "@size": "42023",
+            "@ref": "gr1",
+            "@mimetype": "image/jpeg"
+          },
+          {
+            "@category": "standard",
+            "@height": "307",
+            "@width": "753",
+            "@_fa": "true",
+            "$": "https://api.elsevier.com/content/object/eid/1-s2.0-S2468823125003372-gr10.jpg?httpAccept=%2A%2F%2A",
+            "@multimediatype": "JPEG image file",
+            "@type": "IMAGE-DOWNSAMPLED",
+            "@size": "52468",
+            "@ref": "gr10",
+            "@mimetype": "image/jpeg"
+          },
+          {
+            "@category": "standard",
+            "@height": "453",
+            "@width": "565",
+            "@_fa": "true",
+            "$": "https://api.elsevier.com/content/object/eid/1-s2.0-S2468823125003372-gr7.jpg?httpAccept=%2A%2F%2A",
+            "@multimediatype": "JPEG image file",
+            "@type": "IMAGE-DOWNSAMPLED",
+            "@size": "62436",
+            "@ref": "gr7",
+            "@mimetype": "image/jpeg"
+          },
+          {
+            "@category": "standard",
+            "@height": "260",
+            "@width": "753",
+            "@_fa": "true",
+            "$": "https://api.elsevier.com/content/object/eid/1-s2.0-S2468823125003372-gr6.jpg?httpAccept=%2A%2F%2A",
+            "@multimediatype": "JPEG image file",
+            "@type": "IMAGE-DOWNSAMPLED",
+            "@size": "59475",
+            "@ref": "gr6",
+            "@mimetype": "image/jpeg"
+          },
+          {
+            "@category": "standard",
+            "@height": "617",
+            "@width": "753",
+            "@_fa": "true",
+            "$": "https://api.elsevier.com/content/object/eid/1-s2.0-S2468823125003372-gr5.jpg?httpAccept=%2A%2F%2A",
+            "@multimediatype": "JPEG image file",
+            "@type": "IMAGE-DOWNSAMPLED",
+            "@size": "98484",
+            "@ref": "gr5",
+            "@mimetype": "image/jpeg"
+          },
+          {
+            "@category": "standard",
+            "@height": "576",
+            "@width": "753",
+            "@_fa": "true",
+            "$": "https://api.elsevier.com/content/object/eid/1-s2.0-S2468823125003372-gr4.jpg?httpAccept=%2A%2F%2A",
+            "@multimediatype": "JPEG image file",
+            "@type": "IMAGE-DOWNSAMPLED",
+            "@size": "157972",
+            "@ref": "gr4",
+            "@mimetype": "image/jpeg"
+          },
+          {
+            "@category": "standard",
+            "@height": "404",
+            "@width": "753",
+            "@_fa": "true",
+            "$": "https://api.elsevier.com/content/object/eid/1-s2.0-S2468823125003372-gr9.jpg?httpAccept=%2A%2F%2A",
+            "@multimediatype": "JPEG image file",
+            "@type": "IMAGE-DOWNSAMPLED",
+            "@size": "83172",
+            "@ref": "gr9",
+            "@mimetype": "image/jpeg"
+          },
+          {
+            "@category": "standard",
+            "@height": "526",
+            "@width": "753",
+            "@_fa": "true",
+            "$": "https://api.elsevier.com/content/object/eid/1-s2.0-S2468823125003372-gr8.jpg?httpAccept=%2A%2F%2A",
+            "@multimediatype": "JPEG image file",
+            "@type": "IMAGE-DOWNSAMPLED",
+            "@size": "147867",
+            "@ref": "gr8",
+            "@mimetype": "image/jpeg"
+          },
+          {
+            "@category": "standard",
+            "@height": "200",
+            "@width": "357",
+            "@_fa": "true",
+            "$": "https://api.elsevier.com/content/object/eid/1-s2.0-S2468823125003372-ga1.jpg?httpAccept=%2A%2F%2A",
+            "@multimediatype": "JPEG image file",
+            "@type": "IMAGE-DOWNSAMPLED",
+            "@size": "43744",
+            "@ref": "ga1",
+            "@mimetype": "image/jpeg"
+          },
+          {
+            "@category": "thumbnail",
+            "@height": "77",
+            "@width": "219",
+            "@_fa": "true",
+            "$": "https://api.elsevier.com/content/object/eid/1-s2.0-S2468823125003372-gr11.sml?httpAccept=%2A%2F%2A",
+            "@multimediatype": "GIF image file",
+            "@type": "IMAGE-THUMBNAIL",
+            "@size": "5475",
+            "@ref": "gr11",
+            "@mimetype": "image/gif"
+          },
+          {
+            "@category": "thumbnail",
+            "@height": "164",
+            "@width": "206",
+            "@_fa": "true",
+            "$": "https://api.elsevier.com/content/object/eid/1-s2.0-S2468823125003372-gr3.sml?httpAccept=%2A%2F%2A",
+            "@multimediatype": "GIF image file",
+            "@type": "IMAGE-THUMBNAIL",
+            "@size": "15739",
+            "@ref": "gr3",
+            "@mimetype": "image/gif"
+          },
+          {
+            "@category": "thumbnail",
+            "@height": "112",
+            "@width": "219",
+            "@_fa": "true",
+            "$": "https://api.elsevier.com/content/object/eid/1-s2.0-S2468823125003372-gr2.sml?httpAccept=%2A%2F%2A",
+            "@multimediatype": "GIF image file",
+            "@type": "IMAGE-THUMBNAIL",
+            "@size": "10707",
+            "@ref": "gr2",
+            "@mimetype": "image/gif"
+          },
+          {
+            "@category": "thumbnail",
+            "@height": "88",
+            "@width": "219",
+            "@_fa": "true",
+            "$": "https://api.elsevier.com/content/object/eid/1-s2.0-S2468823125003372-gr1.sml?httpAccept=%2A%2F%2A",
+            "@multimediatype": "GIF image file",
+            "@type": "IMAGE-THUMBNAIL",
+            "@size": "9227",
+            "@ref": "gr1",
+            "@mimetype": "image/gif"
+          },
+          {
+            "@category": "thumbnail",
+            "@height": "89",
+            "@width": "219",
+            "@_fa": "true",
+            "$": "https://api.elsevier.com/content/object/eid/1-s2.0-S2468823125003372-gr10.sml?httpAccept=%2A%2F%2A",
+            "@multimediatype": "GIF image file",
+            "@type": "IMAGE-THUMBNAIL",
+            "@size": "9706",
+            "@ref": "gr10",
+            "@mimetype": "image/gif"
+          },
+          {
+            "@category": "thumbnail",
+            "@height": "164",
+            "@width": "205",
+            "@_fa": "true",
+            "$": "https://api.elsevier.com/content/object/eid/1-s2.0-S2468823125003372-gr7.sml?httpAccept=%2A%2F%2A",
+            "@multimediatype": "GIF image file",
+            "@type": "IMAGE-THUMBNAIL",
+            "@size": "11598",
+            "@ref": "gr7",
+            "@mimetype": "image/gif"
+          },
+          {
+            "@category": "thumbnail",
+            "@height": "76",
+            "@width": "219",
+            "@_fa": "true",
+            "$": "https://api.elsevier.com/content/object/eid/1-s2.0-S2468823125003372-gr6.sml?httpAccept=%2A%2F%2A",
+            "@multimediatype": "GIF image file",
+            "@type": "IMAGE-THUMBNAIL",
+            "@size": "9515",
+            "@ref": "gr6",
+            "@mimetype": "image/gif"
+          },
+          {
+            "@category": "thumbnail",
+            "@height": "164",
+            "@width": "200",
+            "@_fa": "true",
+            "$": "https://api.elsevier.com/content/object/eid/1-s2.0-S2468823125003372-gr5.sml?httpAccept=%2A%2F%2A",
+            "@multimediatype": "GIF image file",
+            "@type": "IMAGE-THUMBNAIL",
+            "@size": "12295",
+            "@ref": "gr5",
+            "@mimetype": "image/gif"
+          },
+          {
+            "@category": "thumbnail",
+            "@height": "164",
+            "@width": "214",
+            "@_fa": "true",
+            "$": "https://api.elsevier.com/content/object/eid/1-s2.0-S2468823125003372-gr4.sml?httpAccept=%2A%2F%2A",
+            "@multimediatype": "GIF image file",
+            "@type": "IMAGE-THUMBNAIL",
+            "@size": "15437",
+            "@ref": "gr4",
+            "@mimetype": "image/gif"
+          },
+          {
+            "@category": "thumbnail",
+            "@height": "118",
+            "@width": "219",
+            "@_fa": "true",
+            "$": "https://api.elsevier.com/content/object/eid/1-s2.0-S2468823125003372-gr9.sml?httpAccept=%2A%2F%2A",
+            "@multimediatype": "GIF image file",
+            "@type": "IMAGE-THUMBNAIL",
+            "@size": "10990",
+            "@ref": "gr9",
+            "@mimetype": "image/gif"
+          },
+          {
+            "@category": "thumbnail",
+            "@height": "153",
+            "@width": "219",
+            "@_fa": "true",
+            "$": "https://api.elsevier.com/content/object/eid/1-s2.0-S2468823125003372-gr8.sml?httpAccept=%2A%2F%2A",
+            "@multimediatype": "GIF image file",
+            "@type": "IMAGE-THUMBNAIL",
+            "@size": "16520",
+            "@ref": "gr8",
+            "@mimetype": "image/gif"
+          },
+          {
+            "@category": "thumbnail",
+            "@height": "123",
+            "@width": "219",
+            "@_fa": "true",
+            "$": "https://api.elsevier.com/content/object/eid/1-s2.0-S2468823125003372-ga1.sml?httpAccept=%2A%2F%2A",
+            "@multimediatype": "GIF image file",
+            "@type": "IMAGE-THUMBNAIL",
+            "@size": "13593",
+            "@ref": "ga1",
+            "@mimetype": "image/gif"
+          },
+          {
+            "@category": "high",
+            "@height": "1172",
+            "@width": "3333",
+            "@_fa": "true",
+            "$": "https://api.elsevier.com/content/object/eid/1-s2.0-S2468823125003372-gr11_lrg.jpg?httpAccept=%2A%2F%2A",
+            "@multimediatype": "JPEG image file",
+            "@type": "IMAGE-HIGH-RES",
+            "@size": "163657",
+            "@ref": "gr11",
+            "@mimetype": "image/jpeg"
+          },
+          {
+            "@category": "high",
+            "@height": "2653",
+            "@width": "3333",
+            "@_fa": "true",
+            "$": "https://api.elsevier.com/content/object/eid/1-s2.0-S2468823125003372-gr3_lrg.jpg?httpAccept=%2A%2F%2A",
+            "@multimediatype": "JPEG image file",
+            "@type": "IMAGE-HIGH-RES",
+            "@size": "909669",
+            "@ref": "gr3",
+            "@mimetype": "image/jpeg"
+          },
+          {
+            "@category": "high",
+            "@height": "1699",
+            "@width": "3333",
+            "@_fa": "true",
+            "$": "https://api.elsevier.com/content/object/eid/1-s2.0-S2468823125003372-gr2_lrg.jpg?httpAccept=%2A%2F%2A",
+            "@multimediatype": "JPEG image file",
+            "@type": "IMAGE-HIGH-RES",
+            "@size": "466347",
+            "@ref": "gr2",
+            "@mimetype": "image/jpeg"
+          },
+          {
+            "@category": "high",
+            "@height": "1003",
+            "@width": "2500",
+            "@_fa": "true",
+            "$": "https://api.elsevier.com/content/object/eid/1-s2.0-S2468823125003372-gr1_lrg.jpg?httpAccept=%2A%2F%2A",
+            "@multimediatype": "JPEG image file",
+            "@type": "IMAGE-HIGH-RES",
+            "@size": "251647",
+            "@ref": "gr1",
+            "@mimetype": "image/jpeg"
+          },
+          {
+            "@category": "high",
+            "@height": "1357",
+            "@width": "3333",
+            "@_fa": "true",
+            "$": "https://api.elsevier.com/content/object/eid/1-s2.0-S2468823125003372-gr10_lrg.jpg?httpAccept=%2A%2F%2A",
+            "@multimediatype": "JPEG image file",
+            "@type": "IMAGE-HIGH-RES",
+            "@size": "409783",
+            "@ref": "gr10",
+            "@mimetype": "image/jpeg"
+          },
+          {
+            "@category": "high",
+            "@height": "2003",
+            "@width": "2500",
+            "@_fa": "true",
+            "$": "https://api.elsevier.com/content/object/eid/1-s2.0-S2468823125003372-gr7_lrg.jpg?httpAccept=%2A%2F%2A",
+            "@multimediatype": "JPEG image file",
+            "@type": "IMAGE-HIGH-RES",
+            "@size": "345100",
+            "@ref": "gr7",
+            "@mimetype": "image/jpeg"
+          },
+          {
+            "@category": "high",
+            "@height": "1150",
+            "@width": "3333",
+            "@_fa": "true",
+            "$": "https://api.elsevier.com/content/object/eid/1-s2.0-S2468823125003372-gr6_lrg.jpg?httpAccept=%2A%2F%2A",
+            "@multimediatype": "JPEG image file",
+            "@type": "IMAGE-HIGH-RES",
+            "@size": "332454",
+            "@ref": "gr6",
+            "@mimetype": "image/jpeg"
+          },
+          {
+            "@category": "high",
+            "@height": "2732",
+            "@width": "3333",
+            "@_fa": "true",
+            "$": "https://api.elsevier.com/content/object/eid/1-s2.0-S2468823125003372-gr5_lrg.jpg?httpAccept=%2A%2F%2A",
+            "@multimediatype": "JPEG image file",
+            "@type": "IMAGE-HIGH-RES",
+            "@size": "601134",
+            "@ref": "gr5",
+            "@mimetype": "image/jpeg"
+          },
+          {
+            "@category": "high",
+            "@height": "2551",
+            "@width": "3333",
+            "@_fa": "true",
+            "$": "https://api.elsevier.com/content/object/eid/1-s2.0-S2468823125003372-gr4_lrg.jpg?httpAccept=%2A%2F%2A",
+            "@multimediatype": "JPEG image file",
+            "@type": "IMAGE-HIGH-RES",
+            "@size": "857183",
+            "@ref": "gr4",
+            "@mimetype": "image/jpeg"
+          },
+          {
+            "@category": "high",
+            "@height": "1789",
+            "@width": "3333",
+            "@_fa": "true",
+            "$": "https://api.elsevier.com/content/object/eid/1-s2.0-S2468823125003372-gr9_lrg.jpg?httpAccept=%2A%2F%2A",
+            "@multimediatype": "JPEG image file",
+            "@type": "IMAGE-HIGH-RES",
+            "@size": "521225",
+            "@ref": "gr9",
+            "@mimetype": "image/jpeg"
+          },
+          {
+            "@category": "high",
+            "@height": "2328",
+            "@width": "3333",
+            "@_fa": "true",
+            "$": "https://api.elsevier.com/content/object/eid/1-s2.0-S2468823125003372-gr8_lrg.jpg?httpAccept=%2A%2F%2A",
+            "@multimediatype": "JPEG image file",
+            "@type": "IMAGE-HIGH-RES",
+            "@size": "938265",
+            "@ref": "gr8",
+            "@mimetype": "image/jpeg"
+          },
+          {
+            "@category": "high",
+            "@height": "886",
+            "@width": "1580",
+            "@_fa": "true",
+            "$": "https://api.elsevier.com/content/object/eid/1-s2.0-S2468823125003372-ga1_lrg.jpg?httpAccept=%2A%2F%2A",
+            "@multimediatype": "JPEG image file",
+            "@type": "IMAGE-HIGH-RES",
+            "@size": "320337",
+            "@ref": "ga1",
+            "@mimetype": "image/jpeg"
+          },
+          {
+            "@category": "standard",
+            "@_fa": "true",
+            "$": "https://api.elsevier.com/content/object/eid/1-s2.0-S2468823125003372-mmc1.docx?httpAccept=%2A%2F%2A",
+            "@multimediatype": "Microsoft Word file",
+            "@type": "APPLICATION",
+            "@size": "45669",
+            "@ref": "mmc1",
+            "@mimetype": "application/word"
+          },
+          {
+            "@category": "thumbnail",
+            "@_fa": "true",
+            "$": "https://api.elsevier.com/content/object/eid/1-s2.0-S2468823125003372-si1.svg?httpAccept=%2A%2F%2A",
+            "@multimediatype": "Scalable Vector Graphics file",
+            "@type": "ALTIMG",
+            "@size": "2492",
+            "@ref": "si1",
+            "@mimetype": "image/svg+xml"
+          },
+          {
+            "@category": "thumbnail",
+            "@_fa": "true",
+            "$": "https://api.elsevier.com/content/object/eid/1-s2.0-S2468823125003372-si10.svg?httpAccept=%2A%2F%2A",
+            "@multimediatype": "Scalable Vector Graphics file",
+            "@type": "ALTIMG",
+            "@size": "10517",
+            "@ref": "si10",
+            "@mimetype": "image/svg+xml"
+          },
+          {
+            "@category": "thumbnail",
+            "@_fa": "true",
+            "$": "https://api.elsevier.com/content/object/eid/1-s2.0-S2468823125003372-si11.svg?httpAccept=%2A%2F%2A",
+            "@multimediatype": "Scalable Vector Graphics file",
+            "@type": "ALTIMG",
+            "@size": "6070",
+            "@ref": "si11",
+            "@mimetype": "image/svg+xml"
+          },
+          {
+            "@category": "thumbnail",
+            "@_fa": "true",
+            "$": "https://api.elsevier.com/content/object/eid/1-s2.0-S2468823125003372-si12.svg?httpAccept=%2A%2F%2A",
+            "@multimediatype": "Scalable Vector Graphics file",
+            "@type": "ALTIMG",
+            "@size": "2114",
+            "@ref": "si12",
+            "@mimetype": "image/svg+xml"
+          },
+          {
+            "@category": "thumbnail",
+            "@_fa": "true",
+            "$": "https://api.elsevier.com/content/object/eid/1-s2.0-S2468823125003372-si13.svg?httpAccept=%2A%2F%2A",
+            "@multimediatype": "Scalable Vector Graphics file",
+            "@type": "ALTIMG",
+            "@size": "8675",
+            "@ref": "si13",
+            "@mimetype": "image/svg+xml"
+          },
+          {
+            "@category": "thumbnail",
+            "@_fa": "true",
+            "$": "https://api.elsevier.com/content/object/eid/1-s2.0-S2468823125003372-si14.svg?httpAccept=%2A%2F%2A",
+            "@multimediatype": "Scalable Vector Graphics file",
+            "@type": "ALTIMG",
+            "@size": "4375",
+            "@ref": "si14",
+            "@mimetype": "image/svg+xml"
+          },
+          {
+            "@category": "thumbnail",
+            "@_fa": "true",
+            "$": "https://api.elsevier.com/content/object/eid/1-s2.0-S2468823125003372-si15.svg?httpAccept=%2A%2F%2A",
+            "@multimediatype": "Scalable Vector Graphics file",
+            "@type": "ALTIMG",
+            "@size": "2042",
+            "@ref": "si15",
+            "@mimetype": "image/svg+xml"
+          },
+          {
+            "@category": "thumbnail",
+            "@_fa": "true",
+            "$": "https://api.elsevier.com/content/object/eid/1-s2.0-S2468823125003372-si16.svg?httpAccept=%2A%2F%2A",
+            "@multimediatype": "Scalable Vector Graphics file",
+            "@type": "ALTIMG",
+            "@size": "2438",
+            "@ref": "si16",
+            "@mimetype": "image/svg+xml"
+          },
+          {
+            "@category": "thumbnail",
+            "@_fa": "true",
+            "$": "https://api.elsevier.com/content/object/eid/1-s2.0-S2468823125003372-si17.svg?httpAccept=%2A%2F%2A",
+            "@multimediatype": "Scalable Vector Graphics file",
+            "@type": "ALTIMG",
+            "@size": "10341",
+            "@ref": "si17",
+            "@mimetype": "image/svg+xml"
+          },
+          {
+            "@category": "thumbnail",
+            "@_fa": "true",
+            "$": "https://api.elsevier.com/content/object/eid/1-s2.0-S2468823125003372-si18.svg?httpAccept=%2A%2F%2A",
+            "@multimediatype": "Scalable Vector Graphics file",
+            "@type": "ALTIMG",
+            "@size": "4053",
+            "@ref": "si18",
+            "@mimetype": "image/svg+xml"
+          },
+          {
+            "@category": "thumbnail",
+            "@_fa": "true",
+            "$": "https://api.elsevier.com/content/object/eid/1-s2.0-S2468823125003372-si19.svg?httpAccept=%2A%2F%2A",
+            "@multimediatype": "Scalable Vector Graphics file",
+            "@type": "ALTIMG",
+            "@size": "7901",
+            "@ref": "si19",
+            "@mimetype": "image/svg+xml"
+          },
+          {
+            "@category": "thumbnail",
+            "@_fa": "true",
+            "$": "https://api.elsevier.com/content/object/eid/1-s2.0-S2468823125003372-si2.svg?httpAccept=%2A%2F%2A",
+            "@multimediatype": "Scalable Vector Graphics file",
+            "@type": "ALTIMG",
+            "@size": "2342",
+            "@ref": "si2",
+            "@mimetype": "image/svg+xml"
+          },
+          {
+            "@category": "thumbnail",
+            "@_fa": "true",
+            "$": "https://api.elsevier.com/content/object/eid/1-s2.0-S2468823125003372-si20.svg?httpAccept=%2A%2F%2A",
+            "@multimediatype": "Scalable Vector Graphics file",
+            "@type": "ALTIMG",
+            "@size": "11721",
+            "@ref": "si20",
+            "@mimetype": "image/svg+xml"
+          },
+          {
+            "@category": "thumbnail",
+            "@_fa": "true",
+            "$": "https://api.elsevier.com/content/object/eid/1-s2.0-S2468823125003372-si21.svg?httpAccept=%2A%2F%2A",
+            "@multimediatype": "Scalable Vector Graphics file",
+            "@type": "ALTIMG",
+            "@size": "1739",
+            "@ref": "si21",
+            "@mimetype": "image/svg+xml"
+          },
+          {
+            "@category": "thumbnail",
+            "@_fa": "true",
+            "$": "https://api.elsevier.com/content/object/eid/1-s2.0-S2468823125003372-si22.svg?httpAccept=%2A%2F%2A",
+            "@multimediatype": "Scalable Vector Graphics file",
+            "@type": "ALTIMG",
+            "@size": "8284",
+            "@ref": "si22",
+            "@mimetype": "image/svg+xml"
+          },
+          {
+            "@category": "thumbnail",
+            "@_fa": "true",
+            "$": "https://api.elsevier.com/content/object/eid/1-s2.0-S2468823125003372-si23.svg?httpAccept=%2A%2F%2A",
+            "@multimediatype": "Scalable Vector Graphics file",
+            "@type": "ALTIMG",
+            "@size": "2129",
+            "@ref": "si23",
+            "@mimetype": "image/svg+xml"
+          },
+          {
+            "@category": "thumbnail",
+            "@_fa": "true",
+            "$": "https://api.elsevier.com/content/object/eid/1-s2.0-S2468823125003372-si24.svg?httpAccept=%2A%2F%2A",
+            "@multimediatype": "Scalable Vector Graphics file",
+            "@type": "ALTIMG",
+            "@size": "1763",
+            "@ref": "si24",
+            "@mimetype": "image/svg+xml"
+          },
+          {
+            "@category": "thumbnail",
+            "@_fa": "true",
+            "$": "https://api.elsevier.com/content/object/eid/1-s2.0-S2468823125003372-si25.svg?httpAccept=%2A%2F%2A",
+            "@multimediatype": "Scalable Vector Graphics file",
+            "@type": "ALTIMG",
+            "@size": "1519",
+            "@ref": "si25",
+            "@mimetype": "image/svg+xml"
+          },
+          {
+            "@category": "thumbnail",
+            "@_fa": "true",
+            "$": "https://api.elsevier.com/content/object/eid/1-s2.0-S2468823125003372-si26.svg?httpAccept=%2A%2F%2A",
+            "@multimediatype": "Scalable Vector Graphics file",
+            "@type": "ALTIMG",
+            "@size": "1173",
+            "@ref": "si26",
+            "@mimetype": "image/svg+xml"
+          },
+          {
+            "@category": "thumbnail",
+            "@_fa": "true",
+            "$": "https://api.elsevier.com/content/object/eid/1-s2.0-S2468823125003372-si27.svg?httpAccept=%2A%2F%2A",
+            "@multimediatype": "Scalable Vector Graphics file",
+            "@type": "ALTIMG",
+            "@size": "1049",
+            "@ref": "si27",
+            "@mimetype": "image/svg+xml"
+          },
+          {
+            "@category": "thumbnail",
+            "@_fa": "true",
+            "$": "https://api.elsevier.com/content/object/eid/1-s2.0-S2468823125003372-si28.svg?httpAccept=%2A%2F%2A",
+            "@multimediatype": "Scalable Vector Graphics file",
+            "@type": "ALTIMG",
+            "@size": "3073",
+            "@ref": "si28",
+            "@mimetype": "image/svg+xml"
+          },
+          {
+            "@category": "thumbnail",
+            "@_fa": "true",
+            "$": "https://api.elsevier.com/content/object/eid/1-s2.0-S2468823125003372-si29.svg?httpAccept=%2A%2F%2A",
+            "@multimediatype": "Scalable Vector Graphics file",
+            "@type": "ALTIMG",
+            "@size": "4127",
+            "@ref": "si29",
+            "@mimetype": "image/svg+xml"
+          },
+          {
+            "@category": "thumbnail",
+            "@_fa": "true",
+            "$": "https://api.elsevier.com/content/object/eid/1-s2.0-S2468823125003372-si3.svg?httpAccept=%2A%2F%2A",
+            "@multimediatype": "Scalable Vector Graphics file",
+            "@type": "ALTIMG",
+            "@size": "7130",
+            "@ref": "si3",
+            "@mimetype": "image/svg+xml"
+          },
+          {
+            "@category": "thumbnail",
+            "@_fa": "true",
+            "$": "https://api.elsevier.com/content/object/eid/1-s2.0-S2468823125003372-si30.svg?httpAccept=%2A%2F%2A",
+            "@multimediatype": "Scalable Vector Graphics file",
+            "@type": "ALTIMG",
+            "@size": "4933",
+            "@ref": "si30",
+            "@mimetype": "image/svg+xml"
+          },
+          {
+            "@category": "thumbnail",
+            "@_fa": "true",
+            "$": "https://api.elsevier.com/content/object/eid/1-s2.0-S2468823125003372-si31.svg?httpAccept=%2A%2F%2A",
+            "@multimediatype": "Scalable Vector Graphics file",
+            "@type": "ALTIMG",
+            "@size": "3730",
+            "@ref": "si31",
+            "@mimetype": "image/svg+xml"
+          },
+          {
+            "@category": "thumbnail",
+            "@_fa": "true",
+            "$": "https://api.elsevier.com/content/object/eid/1-s2.0-S2468823125003372-si4.svg?httpAccept=%2A%2F%2A",
+            "@multimediatype": "Scalable Vector Graphics file",
+            "@type": "ALTIMG",
+            "@size": "2798",
+            "@ref": "si4",
+            "@mimetype": "image/svg+xml"
+          },
+          {
+            "@category": "thumbnail",
+            "@_fa": "true",
+            "$": "https://api.elsevier.com/content/object/eid/1-s2.0-S2468823125003372-si5.svg?httpAccept=%2A%2F%2A",
+            "@multimediatype": "Scalable Vector Graphics file",
+            "@type": "ALTIMG",
+            "@size": "2561",
+            "@ref": "si5",
+            "@mimetype": "image/svg+xml"
+          },
+          {
+            "@category": "thumbnail",
+            "@_fa": "true",
+            "$": "https://api.elsevier.com/content/object/eid/1-s2.0-S2468823125003372-si6.svg?httpAccept=%2A%2F%2A",
+            "@multimediatype": "Scalable Vector Graphics file",
+            "@type": "ALTIMG",
+            "@size": "2508",
+            "@ref": "si6",
+            "@mimetype": "image/svg+xml"
+          },
+          {
+            "@category": "thumbnail",
+            "@_fa": "true",
+            "$": "https://api.elsevier.com/content/object/eid/1-s2.0-S2468823125003372-si7.svg?httpAccept=%2A%2F%2A",
+            "@multimediatype": "Scalable Vector Graphics file",
+            "@type": "ALTIMG",
+            "@size": "10096",
+            "@ref": "si7",
+            "@mimetype": "image/svg+xml"
+          },
+          {
+            "@category": "thumbnail",
+            "@_fa": "true",
+            "$": "https://api.elsevier.com/content/object/eid/1-s2.0-S2468823125003372-si8.svg?httpAccept=%2A%2F%2A",
+            "@multimediatype": "Scalable Vector Graphics file",
+            "@type": "ALTIMG",
+            "@size": "7098",
+            "@ref": "si8",
+            "@mimetype": "image/svg+xml"
+          },
+          {
+            "@category": "thumbnail",
+            "@_fa": "true",
+            "$": "https://api.elsevier.com/content/object/eid/1-s2.0-S2468823125003372-si9.svg?httpAccept=%2A%2F%2A",
+            "@multimediatype": "Scalable Vector Graphics file",
+            "@type": "ALTIMG",
+            "@size": "2807",
+            "@ref": "si9",
+            "@mimetype": "image/svg+xml"
+          }
+        ]
+      },
+      "link": {
+        "@rel": "abstract",
+        "@href": "https://api.elsevier.com/content/abstract/scopus_id/105003376096"
+      }
+    }
+  }
+}

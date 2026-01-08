@@ -1,0 +1,646 @@
+{
+  "metadata": {
+    "title": "Application of machine learning in designing and understanding effective catalyst for selective catalytic reduction of nitrogen oxide",
+    "authors": "; ; ",
+    "journal": "Applied Catalysis A: General",
+    "date": "2024-08-05",
+    "doi": "10.1016/j.apcata.2024.119825",
+    "abstract": "",
+    "uri": "https://api.elsevier.com/content/article/pii/S0926860X24002709",
+    "pii": "S0926860X24002709"
+  },
+  "fulltext": {
+    "full-text-retrieval-response": {
+      "scopus-eid": "2-s2.0-85195171466",
+      "originalText": "serial JL 271346 291210 291744 291809 31 Applied Catalysis A: General APPLIEDCATALYSISAGENERAL 2024-05-31 2024-05-31 2024-06-07 2024-06-07 2024-07-10T08:53:26 1-s2.0-S0926860X24002709 S0926-860X(24)00270-9 S0926860X24002709 10.1016/j.apcata.2024.119825 S300 S300.1 FULL-TEXT 1-s2.0-S0926860X24X00113 2024-08-03T06:02:24.397753Z 0 0 20240805 2024 2024-05-31T16:04:57.102748Z absattachment articleinfo articlenumber articletitlenorm authfirstinitialnorm authfirstsurnamenorm cid cids contenttype copyright crossmark dateloaded dateloadedtxt datesearch datesort dateupdated dco docsubtype doctype doi eid ewtransactionid hubeid indexeddate issn issnnorm itemstage itemtransactionid itemweight openaccess openarchive pg pgfirst pii piinorm pubdatestart pubdatetxt pubyr sortorder srctitle srctitlenorm srctype ssids alllist content subj subheadings suppl tomb volfirst volissue volumelist webpdf webpdfpagecount yearnav figure table e-component body mmlmath acknowledge affil appendices articletitle auth authfirstini authfull authkeywords authlast grantnumber grantsponsor grantsponsorid highlightsabst orcid primabst ref specialabst 0926-860X 0926860X true 683 683 C Volume 683 4 119825 119825 119825 20240805 5 August 2024 2024-08-05 2024 article fla © 2024 Elsevier B.V. All rights are reserved, including those for text and data mining, AI training, and similar technologies. APPLICATIONMACHINELEARNINGINDESIGNINGUNDERSTANDINGEFFECTIVECATALYSTFORSELECTIVECATALYTICREDUCTIONNITROGENOXIDE ZHANG Q 1 Introduction 2 Materials and methods 2.1 Machine-learning sorting of main elements 2.2 Machine-learning screening of auxiliary metals 2.3 Catalyst preparations 2.4 Catalytic activities 2.5 Characterizations 3 Results and discussion 3.1 Main element sorting 3.2 Auxiliary metal screening 3.3 Catalytic activities 3.4 Role of Cr(VI) 4 Conclusion CRediT authorship contribution statement Acknowledgements Appendix A Supplementary material References WANG 2024 3261 3301 L CHEN 2020 1903242 C YANG 2020 83 88 W ROTHENBERG 2008 2 10 G SENER 2018 289 302 A CAVALCANTI 2019 585 594 F JIANG 2020 109697 Z DING 2022 129825 S GOU 2023 119371 C ZHAO 2024 167553 H WU 2023 138942 T GUI 2022 129665 R LANZA 2021 128933 A ZHAO 2022 971 992 S YANG 2020 122398 J CHEN 2021 106504 L LIU 2021 127833 X XIE 2020 146014 S WANG 2017 100 104 J ZHAO 2015 67 75 H ZHANG 2018 045004 L TAMORADI 2021 106009 T HELMI 2022 107062 M MOUSAVI 2016 68 77 S SOLEIMANZADEH 2019 360 367 H CHEN 2016 T CAO 2021 674 683 D LIN 2021 36 J WANG 2006 272 277 J TRIPATHI 2021 131 152 V HANDBOOKSYNTHESISSTRATEGIESFORADVANCEDMATERIALSVOLUMEITECHNIQUESFUNDAMENTALS HYDROTHERMALMETHODFORSYNTHESISMATERIALS ZHANG 2021 123444 J LIU 2023 157495 X WANG 2019 54 60 F YAO 2022 118915 D WANG 2018 917 924 G PEI 2019 229 232 D ROJAS 2002 2346 2355 F WANG 2020 12204 12214 X FLOREA 2022 118860 M WANG 2024 131355 Y PARK 2008 54 61 D TSAI 2023 49379 49389 Y WANG 2019 260 268 Q DU 2020 40870 40881 H NAM 2017 55 62 K WENG 2016 9 14 X ZHANGX2024X119825 ZHANGX2024X119825XQ 2026-06-07T00:00:00.000Z 2026-06-07T00:00:00.000Z http://creativecommons.org/licenses/by-nc-nd/4.0/ © 2024 Elsevier B.V. All rights are reserved, including those for text and data mining, AI training, and similar technologies. 2024-06-09T04:40:35.630Z http://vtw.elsevier.com/data/voc/AddOnTypes/50.7/aggregated-refined Natural Science Foundation of Shanghai 2021 Science and Technology Innovation Action Plan 21ZR1424000 http://sws.geonames.org/1814991 This project was financially supported by the Natural Science Foundation of Shanghai 2021 Science and Technology Innovation Action Plan (21ZR1424000). The corresponding author also appreciates the Gold Spirit of JoJo. https://doi.org/10.15223/policy-017 https://doi.org/10.15223/policy-037 https://doi.org/10.15223/policy-012 https://doi.org/10.15223/policy-029 https://doi.org/10.15223/policy-004 item S0926-860X(24)00270-9 S0926860X24002709 1-s2.0-S0926860X24002709 10.1016/j.apcata.2024.119825 271346 2024-08-03T06:02:24.397753Z 2024-08-05 1-s2.0-S0926860X24002709-main.pdf https://s3-eu-west-1.amazonaws.com/prod-ucs-content-store-eu-west/content/pii:S0926860X24002709/MAIN/application/pdf/dcb0f94f66529b7665f8643f53a914ad/main.pdf main.pdf pdf true 3865288 MAIN 9 1-s2.0-S0926860X24002709-main_1.png https://s3-eu-west-1.amazonaws.com/prod-ucs-content-store-eu-west/content/pii:S0926860X24002709/PREVIEW/image/png/d2a2a7d58d1d625a93e16099748f49cd/main_1.png main_1.png png 60134 849 656 IMAGE-WEB-PDF 1 1-s2.0-S0926860X24002709-gr1.jpg https://s3-eu-west-1.amazonaws.com/prod-ucs-content-store-eu-west/content/pii:S0926860X24002709/gr1/DOWNSAMPLED/image/jpeg/fecb6ffddbc89216de067000b7230a2e/gr1.jpg gr1 gr1.jpg jpg 57016 611 751 IMAGE-DOWNSAMPLED 1-s2.0-S0926860X24002709-gr2.jpg https://s3-eu-west-1.amazonaws.com/prod-ucs-content-store-eu-west/content/pii:S0926860X24002709/gr2/DOWNSAMPLED/image/jpeg/9fbcd08b75d293168292503fd24df97e/gr2.jpg gr2 gr2.jpg jpg 64129 532 751 IMAGE-DOWNSAMPLED 1-s2.0-S0926860X24002709-ga1.jpg https://s3-eu-west-1.amazonaws.com/prod-ucs-content-store-eu-west/content/pii:S0926860X24002709/ga1/DOWNSAMPLED/image/jpeg/c39d02de77f3025ba9cf24b56082cd17/ga1.jpg ga1 true ga1.jpg jpg 29752 200 338 IMAGE-DOWNSAMPLED 1-s2.0-S0926860X24002709-gr3.jpg https://s3-eu-west-1.amazonaws.com/prod-ucs-content-store-eu-west/content/pii:S0926860X24002709/gr3/DOWNSAMPLED/image/jpeg/94795447e91482d1bf3fe38719ba69cd/gr3.jpg gr3 gr3.jpg jpg 99004 671 791 IMAGE-DOWNSAMPLED 1-s2.0-S0926860X24002709-gr4.jpg https://s3-eu-west-1.amazonaws.com/prod-ucs-content-store-eu-west/content/pii:S0926860X24002709/gr4/DOWNSAMPLED/image/jpeg/24420af86bd1b763abcd4e944e4e4d4d/gr4.jpg gr4 gr4.jpg jpg 60667 275 791 IMAGE-DOWNSAMPLED 1-s2.0-S0926860X24002709-gr5.jpg https://s3-eu-west-1.amazonaws.com/prod-ucs-content-store-eu-west/content/pii:S0926860X24002709/gr5/DOWNSAMPLED/image/jpeg/bc73a10f9607f33ce521392f169278c5/gr5.jpg gr5 gr5.jpg jpg 111345 995 710 IMAGE-DOWNSAMPLED 1-s2.0-S0926860X24002709-gr6.jpg https://s3-eu-west-1.amazonaws.com/prod-ucs-content-store-eu-west/content/pii:S0926860X24002709/gr6/DOWNSAMPLED/image/jpeg/e2283c1a04c56867abd46265cd81832b/gr6.jpg gr6 gr6.jpg jpg 183513 995 791 IMAGE-DOWNSAMPLED 1-s2.0-S0926860X24002709-gr7.jpg https://s3-eu-west-1.amazonaws.com/prod-ucs-content-store-eu-west/content/pii:S0926860X24002709/gr7/DOWNSAMPLED/image/jpeg/1114f257d77e38d8a6426ba6411e87ee/gr7.jpg gr7 gr7.jpg jpg 21657 252 339 IMAGE-DOWNSAMPLED 1-s2.0-S0926860X24002709-gr1.sml https://s3-eu-west-1.amazonaws.com/prod-ucs-content-store-eu-west/content/pii:S0926860X24002709/gr1/THUMBNAIL/image/gif/b2f657cd8439b621881991c38c796610/gr1.sml gr1 gr1.sml sml 6997 164 201 IMAGE-THUMBNAIL 1-s2.0-S0926860X24002709-gr2.sml https://s3-eu-west-1.amazonaws.com/prod-ucs-content-store-eu-west/content/pii:S0926860X24002709/gr2/THUMBNAIL/image/gif/9702ad83cd45feeb0978d8f5b0e93ae3/gr2.sml gr2 gr2.sml sml 9696 155 219 IMAGE-THUMBNAIL 1-s2.0-S0926860X24002709-ga1.sml https://s3-eu-west-1.amazonaws.com/prod-ucs-content-store-eu-west/content/pii:S0926860X24002709/ga1/THUMBNAIL/image/gif/af63919bf869ac98628f1e35dd523e2e/ga1.sml ga1 true ga1.sml sml 13313 130 219 IMAGE-THUMBNAIL 1-s2.0-S0926860X24002709-gr3.sml https://s3-eu-west-1.amazonaws.com/prod-ucs-content-store-eu-west/content/pii:S0926860X24002709/gr3/THUMBNAIL/image/gif/d8dbf0d1c17394954317738e24e17c8a/gr3.sml gr3 gr3.sml sml 7554 164 193 IMAGE-THUMBNAIL 1-s2.0-S0926860X24002709-gr4.sml https://s3-eu-west-1.amazonaws.com/prod-ucs-content-store-eu-west/content/pii:S0926860X24002709/gr4/THUMBNAIL/image/gif/42728ebb6ae86fa81094f55fdcc0cac7/gr4.sml gr4 gr4.sml sml 11643 76 219 IMAGE-THUMBNAIL 1-s2.0-S0926860X24002709-gr5.sml https://s3-eu-west-1.amazonaws.com/prod-ucs-content-store-eu-west/content/pii:S0926860X24002709/gr5/THUMBNAIL/image/gif/f2b8d4510bc7afc9a51c0020cc8618df/gr5.sml gr5 gr5.sml sml 6602 164 117 IMAGE-THUMBNAIL 1-s2.0-S0926860X24002709-gr6.sml https://s3-eu-west-1.amazonaws.com/prod-ucs-content-store-eu-west/content/pii:S0926860X24002709/gr6/THUMBNAIL/image/gif/96307b4162385b4079b34bee67aba4e6/gr6.sml gr6 gr6.sml sml 9017 164 130 IMAGE-THUMBNAIL 1-s2.0-S0926860X24002709-gr7.sml https://s3-eu-west-1.amazonaws.com/prod-ucs-content-store-eu-west/content/pii:S0926860X24002709/gr7/THUMBNAIL/image/gif/633a099fc543c4e443a58dcb3c12c9a3/gr7.sml gr7 gr7.sml sml 20792 163 219 IMAGE-THUMBNAIL 1-s2.0-S0926860X24002709-gr1_lrg.jpg https://s3-eu-west-1.amazonaws.com/prod-ucs-content-store-eu-west/content/pii:S0926860X24002709/HIGHRES/image/jpeg/9ae754d865ba14f51f9d69312184e554/gr1_lrg.jpg gr1 gr1_lrg.jpg jpg 255341 2707 3326 IMAGE-HIGH-RES 1-s2.0-S0926860X24002709-gr2_lrg.jpg https://s3-eu-west-1.amazonaws.com/prod-ucs-content-store-eu-west/content/pii:S0926860X24002709/HIGHRES/image/jpeg/438727c37494fbe52f8740b6c64a0245/gr2_lrg.jpg gr2 gr2_lrg.jpg jpg 288263 2355 3326 IMAGE-HIGH-RES 1-s2.0-S0926860X24002709-ga1_lrg.jpg https://s3-eu-west-1.amazonaws.com/prod-ucs-content-store-eu-west/content/pii:S0926860X24002709/HIGHRES/image/jpeg/580e1267c1a0dd619708b8b6216fe0bd/ga1_lrg.jpg ga1 true ga1_lrg.jpg jpg 201737 886 1497 IMAGE-HIGH-RES 1-s2.0-S0926860X24002709-gr3_lrg.jpg https://s3-eu-west-1.amazonaws.com/prod-ucs-content-store-eu-west/content/pii:S0926860X24002709/HIGHRES/image/jpeg/09a1644b64ea3f9711ee95ab7f64cf40/gr3_lrg.jpg gr3 gr3_lrg.jpg jpg 619306 2965 3494 IMAGE-HIGH-RES 1-s2.0-S0926860X24002709-gr4_lrg.jpg https://s3-eu-west-1.amazonaws.com/prod-ucs-content-store-eu-west/content/pii:S0926860X24002709/HIGHRES/image/jpeg/4f97312b4fa44b0a4cf07a0f153cb2e6/gr4_lrg.jpg gr4 gr4_lrg.jpg jpg 308746 1214 3493 IMAGE-HIGH-RES 1-s2.0-S0926860X24002709-gr5_lrg.jpg https://s3-eu-west-1.amazonaws.com/prod-ucs-content-store-eu-west/content/pii:S0926860X24002692/HIGHRES/image/jpeg/e2c6bab29f1938ee1644bffec01e46ae/gr5_lrg.jpg gr5 gr5_lrg.jpg jpg 768804 4409 3146 IMAGE-HIGH-RES 1-s2.0-S0926860X24002709-gr6_lrg.jpg https://s3-eu-west-1.amazonaws.com/prod-ucs-content-store-eu-west/content/pii:S0926860X24002692/HIGHRES/image/jpeg/90ebf20829a0e0d9e85fba1534326a07/gr6_lrg.jpg gr6 gr6_lrg.jpg jpg 1363526 4408 3504 IMAGE-HIGH-RES 1-s2.0-S0926860X24002709-gr7_lrg.jpg https://s3-eu-west-1.amazonaws.com/prod-ucs-content-store-eu-west/content/pii:S0926860X24002709/HIGHRES/image/jpeg/1b3ca6cc6b7a3671e7356ee79b6cf940/gr7_lrg.jpg gr7 gr7_lrg.jpg jpg 85957 1111 1497 IMAGE-HIGH-RES 1-s2.0-S0926860X24002709-mmc1.docx https://s3-eu-west-1.amazonaws.com/prod-ucs-content-store-eu-west/content/pii:S0926860X24002709/mmc1/MAIN/application/vnd.openxmlformats-officedocument.wordprocessingml.document/9c1def1f47046a475c260d730dce4fa0/mmc1.docx mmc1 mmc1.docx docx 1260168 APPLICATION 1-s2.0-S0926860X24002709-mmc2.xlsx https://s3-eu-west-1.amazonaws.com/prod-ucs-content-store-eu-west/content/pii:S0926860X24002709/mmc2/MAIN/application/vnd.openxmlformats-officedocument.spreadsheetml.sheet/46f9c85fbd31951084e27bbce54be555/mmc2.xlsx mmc2 mmc2.xlsx xlsx 37739 APPLICATION 1-s2.0-S0926860X24002709-mmc3.xlsx https://s3-eu-west-1.amazonaws.com/prod-ucs-content-store-eu-west/content/pii:S0926860X24002709/mmc3/MAIN/application/vnd.openxmlformats-officedocument.spreadsheetml.sheet/42fcfe3226328e89b669b74389d2db03/mmc3.xlsx mmc3 mmc3.xlsx xlsx 18174 APPLICATION 1-s2.0-S0926860X24002709-si0001.svg https://s3-eu-west-1.amazonaws.com/prod-ucs-content-store-eu-west/content/pii:S0926860X24002709/image/svg+xml/9b0248d5e474981b3225dc0f081a7edd/si0001.svg si0001 si0001.svg svg 1227 ALTIMG 1-s2.0-S0926860X24002709-si0002.svg https://s3-eu-west-1.amazonaws.com/prod-ucs-content-store-eu-west/content/pii:S0926860X24002709/image/svg+xml/a5420aa6d6201b36551e0f30c6f13492/si0002.svg si0002 si0002.svg svg 1600 ALTIMG 1-s2.0-S0926860X24002709-si0003.svg https://s3-eu-west-1.amazonaws.com/prod-ucs-content-store-eu-west/content/pii:S0926860X24002709/image/svg+xml/df4544be0748c3d0eb9dbbc37cc0d5bb/si0003.svg si0003 si0003.svg svg 2487 ALTIMG 1-s2.0-S0926860X24002709-si0004.svg https://s3-eu-west-1.amazonaws.com/prod-ucs-content-store-eu-west/content/pii:S0926860X24002709/image/svg+xml/2f1cc3e2213bc328abdc48fe23ad7c76/si0004.svg si0004 si0004.svg svg 1876 ALTIMG 1-s2.0-S0926860X24002709-si0005.svg https://s3-eu-west-1.amazonaws.com/prod-ucs-content-store-eu-west/content/pii:S0926860X24002709/image/svg+xml/c7eabaa88f27d3887d0d5bc9515e8b05/si0005.svg si0005 si0005.svg svg 2832 ALTIMG 1-s2.0-S0926860X24002709-si0006.svg https://s3-eu-west-1.amazonaws.com/prod-ucs-content-store-eu-west/content/pii:S0926860X24002709/image/svg+xml/db61ea88d632b7aebfb648879890457f/si0006.svg si0006 si0006.svg svg 1782 ALTIMG 1-s2.0-S0926860X24002709-si0007.svg https://s3-eu-west-1.amazonaws.com/prod-ucs-content-store-eu-west/content/pii:S0926860X24002709/image/svg+xml/7d9df304d7b2ea79065eed2815705406/si0007.svg si0007 si0007.svg svg 2905 ALTIMG 1-s2.0-S0926860X24002709-si0008.svg https://s3-eu-west-1.amazonaws.com/prod-ucs-content-store-eu-west/content/pii:S0926860X24002709/image/svg+xml/36b8aecd4a4c88297a3fd11285f0022f/si0008.svg si0008 si0008.svg svg 1645 ALTIMG 1-s2.0-S0926860X24002709-si0009.svg https://s3-eu-west-1.amazonaws.com/prod-ucs-content-store-eu-west/content/pii:S0926860X24002709/image/svg+xml/f2ea8871ca37a84154b807e2bb3124c5/si0009.svg si0009 si0009.svg svg 2589 ALTIMG 1-s2.0-S0926860X24002709-si0010.svg https://s3-eu-west-1.amazonaws.com/prod-ucs-content-store-eu-west/content/pii:S0926860X24002709/image/svg+xml/41aa72ead877c19f5400fdb0823f5ec5/si0010.svg si0010 si0010.svg svg 1697 ALTIMG 1-s2.0-S0926860X24002709-si0011.svg https://s3-eu-west-1.amazonaws.com/prod-ucs-content-store-eu-west/content/pii:S0926860X24002709/image/svg+xml/2453aa2b6352eebd7ee6428b0e4a9d90/si0011.svg si0011 si0011.svg svg 2731 ALTIMG 1-s2.0-S0926860X24002709-si0012.svg https://s3-eu-west-1.amazonaws.com/prod-ucs-content-store-eu-west/content/pii:S0926860X24002709/image/svg+xml/9382bcc8e1871cc0fd072036993240f7/si0012.svg si0012 si0012.svg svg 4571 ALTIMG 1-s2.0-S0926860X24002709-si0013.svg https://s3-eu-west-1.amazonaws.com/prod-ucs-content-store-eu-west/content/pii:S0926860X24002709/image/svg+xml/574037424172479d34328d7cea1933fa/si0013.svg si0013 si0013.svg svg 2998 ALTIMG 1-s2.0-S0926860X24002709-si0014.svg https://s3-eu-west-1.amazonaws.com/prod-ucs-content-store-eu-west/content/pii:S0926860X24002709/image/svg+xml/65d9fe337b455dc79ad3c34eb8cc6e0d/si0014.svg si0014 si0014.svg svg 1057 ALTIMG 1-s2.0-S0926860X24002709-si0015.svg https://s3-eu-west-1.amazonaws.com/prod-ucs-content-store-eu-west/content/pii:S0926860X24002709/image/svg+xml/58929bc438bf2240fbf5a84a37217c0b/si0015.svg si0015 si0015.svg svg 1020 ALTIMG 1-s2.0-S0926860X24002709-si0016.svg https://s3-eu-west-1.amazonaws.com/prod-ucs-content-store-eu-west/content/pii:S0926860X24002709/image/svg+xml/94a6d8dea2f23e076e148c3540964e8b/si0016.svg si0016 si0016.svg svg 1029 ALTIMG 1-s2.0-S0926860X24002709-si0017.svg https://s3-eu-west-1.amazonaws.com/prod-ucs-content-store-eu-west/content/pii:S0926860X24002709/image/svg+xml/cc2557e2d9b72c8b6a42a8a4f5977aee/si0017.svg si0017 si0017.svg svg 1057 ALTIMG 1-s2.0-S0926860X24002709-si0018.svg https://s3-eu-west-1.amazonaws.com/prod-ucs-content-store-eu-west/content/pii:S0926860X24002709/image/svg+xml/9e5637db7ceafb1d0e3babaa9d5199de/si0018.svg si0018 si0018.svg svg 2621 ALTIMG 1-s2.0-S0926860X24002709-si0019.svg https://s3-eu-west-1.amazonaws.com/prod-ucs-content-store-eu-west/content/pii:S0926860X24002709/image/svg+xml/d9be71160b739c4dd4a6236458f2b7b9/si0019.svg si0019 si0019.svg svg 1037 ALTIMG 1-s2.0-S0926860X24002709-si0020.svg https://s3-eu-west-1.amazonaws.com/prod-ucs-content-store-eu-west/content/pii:S0926860X24002709/image/svg+xml/279f9fdbc1f8170abd9cc6810bf8031a/si0020.svg si0020 si0020.svg svg 1073 ALTIMG 1-s2.0-S0926860X24002709-si0021.svg https://s3-eu-west-1.amazonaws.com/prod-ucs-content-store-eu-west/content/pii:S0926860X24002709/image/svg+xml/ce0631a22a442d216c539460f0db008b/si0021.svg si0021 si0021.svg svg 1187 ALTIMG 1-s2.0-S0926860X24002709-am.pdf am am.pdf pdf 1248370 AAM-PDF https://s3-eu-west-1.amazonaws.com/prod-ucs-content-store-eu-west/content/egi:1053LCXTXR4/MAIN/application/pdf/7f6372fbbe44666c83cf23b9dfe2955d/am.pdf APCATA 119825 119825 S0926-860X(24)00270-9 10.1016/j.apcata.2024.119825 Elsevier B.V. Fig. 1 (A) Performance of different machine-learning model on test set. Performance of the XGB model: (B) Validation set and (C) Test set. Feature importance sorting based on SHAP value (D). Fig. 1 Fig. 2 (A) Performance of model in validation set when Leaving One Out method for cross validation; (B) Importance of atomic features based on SHAP value; (C) Potential enhancements for catalytic activity by combing elements with Mn. Fig. 2 Fig. 3 Catalytic activities (A, C), N2 selectivity (B, D) (1000 ppm, 30,000 mL·g−1·h−1) of prepared catalysts. Fig. 3 Fig. 4 SEM of Mn (A) and Cr(III)-Mn together with EDX mappings of Mn, Cr, and Si (B). Fig. 4 Fig. 5 XPS Mn 2p (A), Cr 2p (B), O 1 s (C), and leaching concentration of Cr6+ (D) from Cr-Mn. Note: Cr-Mn-NH3 stood for sample treated under NH3 at 150°C for 1 h; Cr-Mn-SCR stood for sample carried out SCR at 150°C for 1 h. Fig. 5 Fig. 6 DRIFTS of Mn (A), Cr(III)-Mn (B), and Cr(VI)-Mn (C) when NH3 reacted with pre-adsorbed NOx; DRIFTS of Mn (D), Cr(III)-Mn (E), and Cr(VI)-Mn (F) when NOx reacted with pre-adsorbed NH3. Fig. 6 Fig. 7 Role of Cr6+ in Cr-Mn during SCR. Fig. 7 Table 1 Atomic-scale features and calculation formula. Table 1 Feature Unit Formula Mn at% a Mn Total atomic radius (T_R) Å ∑ i = 1 9 a i r i Atomic radius difference (diff_R) ∑ i = 1 9 a i ( 1 − r i / r Mn ) 2 Total Valance Electron (T_VEC) ∑ i = 1 9 a i VEC i Valance Electron difference (diff_VEC) ∑ i = 1 9 a i ( 1 − VE i / VE Mn ) 2 Total Electro-Negativity (T_PE) ∑ i = 1 9 a i PE i Electro-Negativity difference (diff_PE) ∑ i = 1 9 a i ( 1 − EN i / EN Mn ) 2 Total atomic volume (T_V) cm³/mol ∑ i = 1 9 a i V i Atomic volume (diff_V) ∑ i = 1 9 a i ( 1 − V i / V Mn ) 2 Total atomic mass(T_M) ∑ i = 1 9 a i M i Atomic mass difference (diff_M) ∑ i = 1 9 a i ( 1 − M i / M Mn ) 2 Table 2 XPS fitting results. Table 2 Mn2+ Mn3+ Mn4+ Cr3+ Cr6+ Oα Oβ Oγ Mn 20 % 40 % 40 % 55 % 45 % 18 % 70 % 12 % Mn-NH3 28 % 38 % 34 % 61 % 39 % 19 % 70 % 11 % Mn-SCR 20 % 40 % 40 % 56 % 44 % 18 % 69 % 13 % Application of machine learning in designing and understanding effective catalyst for selective catalytic reduction of nitrogen oxide Qiang Zhang Writing – original draft Investigation a Yuanhao Wang Software Methodology b Jia Zhang Writing – review & editing Funding acquisition Conceptualization a ⁎ Yang Yue Methodology b Guangren Qian Resources a a SHU Center of Green Urban Mining & Industry Ecology, School of Environmental and Chemical Engineering, Shanghai University, No. 381 Nanchen Road, Shanghai 200444, PR China SHU Center of Green Urban Mining & Industry Ecology, School of Environmental and Chemical Engineering, Shanghai University No. 381 Nanchen Road Shanghai 200444 PR China SHU Center of Green Urban Mining & Industry Ecology, School of Environmental and Chemical Engineering, Shanghai University, No. 381 Nanchen Road, Shanghai 200444, P. R. China b MGI of Shanghai University, Shanghai University, No. 333 Nanchen Road, Shanghai 200444, PR China MGI of Shanghai University, Shanghai University No. 333 Nanchen Road Shanghai 200444 PR China MGI of Shanghai University, Shanghai University, No. 333 Nanchen Road, Shanghai 200444, P. R. China ⁎ Corresponding author. Traditional catalyst design includes trial-and-error and orthogonal methods. However, these processes usually require large number of experiments to get an optimized formula. Machine learning was applied in designing effective catalyst for selective catalytic reduction (SCR) of nitrogen oxide (NOx). Catalyst formulas and their activities in previous reports were collected and fitted by extreme gradient boosting algorithm and explanatory algorithm-SHapley Additive exPlanations. Mn-Cr coupling was predicted to be the most effective for SCR among various couplings, which was then proved by experimental results. SCR activity of Mn catalyst was increased from 50.3 % to 85.0 % at 150°C after the catalyst was loaded by Cr. Furthermore, machine learning and experimental characterizations revealed that the big total electronegativity of Cr resulted in bidentate nitrate bonding one cation with two oxygens, which was the most active NOx-derived intermediate during SCR. This work is in favor of catalyst design and catalytic-species recognition at the same time. Graphical Abstract Keywords Machine Learning Selective Catalytic Reduction, Catalyst Design Electro-negativity Chromate Data Availability Data will be made available on request. 1 Introduction Traditional strategy for developing the catalyst is based on experience and ‘trial and error’ [1], which consumes a lot of resources. With the rapid development of artificial intelligence in recent years, data mining and machine learning are gradually applied to the design and development of various materials [2], such as catalysis [3]. In brief, machine-learning method gets “knowledge” from a large number of catalyst data, throws away “garbage”, and thus guides experiment [4,5]. For example, artificial neural network targeted CO conversion, and effectively predicted the catalyst for water-gas shift reaction [6]. A generalized prediction model was established by artificial neural network to predict the rate constant of TiO2 during wastewater photodegradation [7]. The variables, which had great influences on the catalyst, were obtained to facilitate the design of catalyst [4–7]. Nitrogen oxide (NOx) is one general atmospheric pollutant, which results in various hazards, such as acid rain and human respiratory diseases [8]. Thus, modern countries usually set strict discharging limit for NOx. At present, selective catalytic reduction (SCR) is the most useful method to remove nitrogen oxides from over discharging [9,10]. For a typical SCR, one catalyst accelerates the reaction between nitrogen oxide and reductant (such as ammonia), producing harmless N2 and H2O [11,12]. The catalyst is the key of SCR and attracts the most attentions in the field of SCR. Vanadium supported TiO2 is a commercial catalyst, and effectively removed NOx at around 250°C [13,14]. Manganese-based catalysts removed NOx at a temperature below 200°C [15,16]. General transition metals all showed SCR activity, higher or lower. Worldwide researchers are trying to develop new catalysts with high activity together with low cost. Metal modification usually enhances the SCR performance [17,18], and the single-factor investigation is a typical method. Orthogonal design is a method using orthogonal tables to arrange and analyze multi-factor experiments in order to find optimal level combination [19,20]. For example, this method analyzed the effects of metal species, calcination temperature, calcination time, and metal-load quantities on the SCR performance of a coke-based catalyst [21]. Response Surface Methodology (RSM) uses multiple quadratic equations to fit the relationship between factors and reference variables, finding the best parameters [22,23]. RSM optimized SCR performance of MnOx/γ-alumina catalysts [24]. In another investigation, RSM optimized SCR performance of V/TiO2, and indicated that calcination temperature was the most important factor [25]. Although the number of experiments was reduced by above methods, it’s our speculation that development time and cost for SCR catalyst would be significantly decreased by a machine-learning design and analysis. Therefore, this paper applied machine learning to screen out an effective SCR catalyst by recognizing atomic-scale features of elements. First, experimental data were collected from previous literatures so as to predict SCR performances. Second, catalysts were synthesized, and applied in SCR to verify the prediction. Third, the optimized formula was characterized to verify the predication from atomic-scale reorganization. Above investigations revealed the reason why certain elements were more inclined to show a better SCR activity than others. 2 Materials and methods 2.1 Machine-learning sorting of main elements 200 experimental data were collected from previous works. The selection criteria were catalysts, which contained widely-investigated catalytic elements (Co, Sn, Zr, Cu, W, V, Ti, Nb, Eu, Gd, Sb, Nd, Mn, Ce, and Fe) in SCR and were published in recent ten years. Both the conversion as well as test conditions (such as gas hourly space velocity and reaction temperature) were featured to predict active components, which performed better at lower temperatures and explained the mechanism through atom-scale features. All the selections were supplied in the supporting file (Data.xlsx). These data were made up of features and targets. Table S1 shows the lists in the Supporting Information. The features included calcination temperature (CT, °C), calcination time (time, h), preparation method (PM), active components (at%), support type (ST), gas hourly space velocity (GHSV, h−1)，reducing agent NH3 content (ppm), moisture content (vol%), sulfur dioxide content (ppm) and reaction temperature (T, °C). The target was NO conversion (%). All these data were normalized, which were described in the supporting information, and then fitted by four different machine-learning models, including linear least-square (LLS), support vector regression (SVR), artificial neural network (ANN), and XGBoost (XGB) [26–28]. The data were randomly divided into two subsets, 80 % of which were used as training set to train the model, and 20 % as test set to test the generalization ability of the model. The specific parameters of the model are listed in Table S2. Pearson correlation coefficient (R) and root mean square error (RMSE) were calculated by Eqs. (1) and (2), and evaluated the performances of four different models. (1) R = ∑ i = 1 n y i − y ̅ y ˆ i − y ˆ ̅ ∑ i = 1 n y i − y ̅ 2 ∑ i = 1 n ( y ˆ i − y ˆ ̅ ) 2 (2) RMSE = 1 n ∑ i = 1 n y i − y i ˆ 2 In these two equations, y i is the true value, y ̅ is the average of the true values, y ˆ is the predicted value of the model, and y ˆ ̅ is the average of the predicted values. Interpretive algorithm SHAP (SHapley Additive exPlanations) analyzed features that affected the catalytic activity [29]. The SHAP value was based on the Shapley value, which was a concept in game theory. The SHAP was aimed to explain the model predictions by calculating the contribution of each feature to the model predictions. It turned a black box model of machine learning into a transparent and interpretable model. The mathematical description was expressed by Eq. (3). (3) g z ′ = Ø 0 + ∑ j = 1 M Ø j In this equation, g is the interpretation model, M is the input characteristic number, Ø is the Shapley value of each feature, and Ø 0 is a constant, which is generally the average of the target performance. 2.2 Machine-learning screening of auxiliary metals In order to screen out effective auxiliary metals, eleven atomic-scale characteristics were calculated by the formulas in Table 1, including total atomic radius (T_R), atomic radius difference (diff_R), total valance electron (T_VEC), valance electron difference (diff_VEC), total electro-negativity (T_PE), electro-negativity difference (diff_PE), total atomic volume (T_V), atomic volume (diff_V), total atomic mass(T_M), and atomic mass difference (diff_M). For example, the T_PE was the sum up of the product of elemental ratio (ai) and elemental electro-negativity (PEi) involving all the catalytic elements in one catalyst. The used data were supplied in the supporting file (Data-atom feature.xlsx). 2.3 Catalyst preparations In order to check whether an additional metal resulted in an enhanced effect, a batch of manganese supported SiO2 was firstly prepared by incipient wetness impregnation method [30], and denoted as Mn. Second, a hydrothermal method modified the Mn to increase the interaction between manganese and co-doping metals [31]. In detail, 10 g of the Mn was immersed in 100 mL of nitrate solution (0.25 mol·L−1) for 8 h. The mixture was transferred to an autoclave, and treated at 180°C for 12 h. The solid was separated by filtration, washed 5 times by deionized water, dried at 110°C, and finally calcined at 400°C for 3 h. The obtained solid was denoted as M-Mn (M = Fe, Cr, Zn, Cu, Co and Ni), indicating the cation species in the nitrate solution. Furthermore, during the synthesis of Cr-Mn, 50 % and 100 % (molar amount) of Cr(NO3)3·9 H2O was replaced by K2Cr2O7, in which Cr was hexavalent. The obtained Cr(VI)-containing catalysts were denoted as Cr(III)0.5Cr(IV)0.5-Mn and Cr(IV)-Mn. In this case, the above Cr-Mn was also denoted as Cr(III)-Mn for an easy comparison. All above catalysts were milled to 200 meshes. In one catalyst, Mn content was 1.5 mmol·g−1 and the content of the additional metal was 1.3 ± 0.06 mmol·g−1, which were detected by an inductively coupled plasma-atomic emission spectrometry (ICP-AES, Prodigy7, Leeman) after digestion. 2.4 Catalytic activities A fixed-bed reactor detected catalytic activities of the above catalysts [32]. Inflow gas contained 1000 ppm of NO, 1000 ppm of NH3, and 5 % of O2 (Ar balance), which flowed through catalyst at a GHSV of 30,000 mL·g−1·h−1. All the gases were controlled by mass flow meters (Beijing Seven-star Electronics Co., Ltd.). Residual concentration of NOx (NO, NO2, and N2O) was detected by a FTIR gas analyzer (MultiGas 2030-HS High Speed, MKS). Catalytic activity was expressed by the conversion of NOx. Catalytic selectivity was calculated by the formation rate of N2. 2.5 Characterizations Crystal morphology (XRD) was measured by X-ray diffraction (X’Pert3 MRD) equipped with α (= 0.154 nm) radiation. X-ray photoelectron spectroscopy (XPS) was obtained using a monochromatic Al-Kα source and a charge neutralizer (wscalab, Thermo Scientific). N2 adsorption–desorption isotherms were performed on an BELSORP-max (MicrotracBEL, Japan). Specific surface areas were measured by BET (Brunauer–Emmett–Teller) method. Total content of Cr was detected by ICP-AES. Cr(VI) concentration was analyzed by using a UV–vis spectrophotometer method (GB7467–87). Micro-morphologies were examined by scanning electron microscopy (SEM) using a MERLIN compact machine (ZEISS, Germany) equipped with an energy dispersive X-ray spectrometer (EDX). In-situ Diffuse Reflection Fourier Transform Infrared (DRIFTS) was carried out on a FTIR spectrometer (Therm Scientific, Nicolet IS10) [33]. After a catalyst was set in the chamber, N2 purged it for 30 min to clean residual air. A spectrum was collected at 150°C as the background. NH3/NO+O2 was then adsorbed at 150°C for 30 min before NO+O2/NH3 flowed into the cell and reacted with the pre-adsorbed species. All spectra were recorded by overlapping 32 scans at a resolution of 4 cm−1. 3 Results and discussion 3.1 Main element sorting Fig. 1A shows the performances of four models in the test set. A bigger R and a lower RMSE indicated a better performance. XGB attained the R value of 0.87, bigger than LLS (0.80), SVR (0.82), and ANN (0.82). At the same time, XGB had the lowest RMSE of 6.66 %, lower than LLS (8.44 %), SVR (7.32 %), and ANN (8.03 %). Fig. 1 B and 1 C shows the distribution of XGB between the predicted value and the real value in the validation set and the test set. The closer the slant line was, the more accurate the prediction was. According to these results, the prediction was more accurate at the data with higher NO conversions (> 90 %) together with considering the influence of GHSV, and this part of data was more important to find better catalysts. Fig. S1 compares the predictions of other models. Fig. 1 D shows the sorting of feature importance. Among all the investigated elements, Mn played the biggest role at the low-temperature SCR. Sulfur dioxide and water both affected the catalytic activity [34,35]. Although support type (ST) and calcination temperature (CT) were also important, their weights were inferior to those key elements. After all, Mn was chosen as the main element. 3.2 Auxiliary metal screening Features of auxiliary metals were screened by calculating the correlation coefficient between each feature (Pearson correlation coefficient was used in this paper). Fig. S2 shows the heat map. Features with high correlation (R > 0.95) were thus removed, and the remaining atomic features were diff_VEC, T_PE, diff_PE, and diff_M (Fig. S3). The super parameters of XGB were determined by using Leave One Out cross validation on the whole data set. Fig. 2 A shows the performance of the model on the validation set. Most data were well fitted. R reached 0.91 and RMSE was 4.4 %. Feature importance was further analyzed based on SHAP value. The T_PE had the greatest influence on the catalytic activity (Fig. 2 B). According to this result, typical transition metals were screened ( Fig. 3 C). A deeper color indicated a potential better auxiliary metal. Obviously, Fe and Cr formed an enhanced catalyst with Mn. In comparison to other efficient auxiliary candidates (such as Ce and Re), these elements had advantages of low cost and plenty source. 3.3 Catalytic activities Fig. 3A shows the catalytic activities of synthesized catalyst. Generally, an auxiliary metal enhanced the SCR activity [36]. Mn removed 50.3 % of NO at 150°C. After loading an auxiliary metal, the activity was increased to 91.9 % (Fe), 85.0 % (Cr), 51.4 % (Zn), 56.8 % (Cu), 71.5 % (Co), and 62.0 % (Ni). Fe-Mn and Cr-Mn showed better performances than others. This was consistent with the machine-learning prediction (Fig. 2). On the contrary, most of the auxiliary metals decreased the N2 selectivity (Fig. 3 B). Mn attained a selectivity of 91.9 % at 150°C, which was decreased to 87.2 % (Fe), 86.1 % (Zn), 80.4 % (Cu), 89.7 % (Co), and 90.0 % (Ni), except for Cr-Mn (96.3 %). Thus, Cr improved the catalytic activity and N2 selectivity at the same time. When 50 % and 100 % of Cr(III) was replaced by Cr(VI), the catalytic activities were further increased (Fig. 3 C). Cr(III)0.5Cr(VI)0.5-Mn and Cr(VI)-Mn both removed > 88 % of NO at 150°C. However, Cr(VI) loaded Mn showed inferior selectivity than Cr(III)-Mn and Mn (Fig. 3 D). In addition, Cr(III)0.5Cr(VI)0.5-Mn showed a stable conversion in a long-time performance (Fig. S4). Even under a higher GHSV of 40,000 mL·g−1·h−1 (Fig. S5), Cr(III)0.5Cr(VI)0.5-Mn still removed 75.4 % of NO at 150°C. Therefore, Cr(VI) had a better activity than Cr(III) when cooperating with Mn. 3.4 Role of Cr(VI) All catalysts showed a main phase of SiO2, which had diffractions at 20.9°, 26.7°, 28.7°, and 50.2° (Fig. S6) [37]. Besides, diffractions of MnO2 were also recognized. N2 adsorption–desorption isotherms of these catalysts had a similar pattern (Fig. S7), indicating a type IV with a H3 hysteresis loop according to IUPAC classification [38]. This was a typical character of a mesoporous material [39]. Table S3 lists the textural properties, including specific surface area (28.55 – 58.70 m2·g−1), pore volume (0.09 – 0.17 cm3·g−1), and pore size (11.43 – 14.73 nm). Obviously, these were similar values. Fig. 4 A and 4 B shows the SEM of Mn before and after co-loading Cr(III), the micro-morphologies were similar amorphous particles. In addition, all elements, including Mn, Cr, and Si were well dispersed with each other (Fig. 4 B). Mn 2p curves were fitted into three species ( Fig. 5 A), including Mn2+ (640.3 eV), Mn3+ (641.4 eV), and Mn4+ (643.1 eV) [40,41]. Their percentages are listed in Table 2. Cr-Mn contained 20 % of Mn2+, 40 % of Mn3+, and 40 % of Mn4+. When it was treated under NH3 at 150°C, the percentage of Mn2+ was increased to 28 %. In comparison, if the Cr-Mn was applied in SCR at 150°C. The percentages of Mn species maintained the same values. Hence, NH3 reduced the valence and NOx recovered the reduced valence. Cr 2p was made up of Cr3+ (575.9 eV) and Cr6+ (579.0 eV) (Fig. 5 B) [42,43]. Cr-Mn contained 55 % of Cr3+ and 45 % of Cr6+. Although only Cr3+ was used during preparation, partial Cr3+ was oxidized to Cr6+. When Cr-Mn was treated under NH3, the percentage of Cr6+ was decreased to 39 %. If being used in SCR, the percentages hardly changed. This was similar to the tendency of Mn valences. O 1 s curves were fitted into lattice oxygen (Oα, 529.2 eV), surface oxygen (Oβ, 531.4 eV), and hydroxyl oxygen (Oγ, 532.7 eV) (Fig. 5 C) [44,45]. However, their percentages maintained same values under NH3 and SCR. These catalysts were washed by hydrochloric acid, and Cr6+ concentrations were detected in the leaching (Fig. 5 D). In the first circle, 4.1 mg·L−1 of Cr6+ was detected. This value was decreased to 1.5 mg·L−1 if the catalyst was treated under NH3. This value was increased to 3.6 mg·L−1 after SCR. In the next two circles, the same tendency was observed, which was consistent with the result in Fig. 5 B. When Mn, Cr(III)-Mn, and Cr(VI)-Mn adsorbed NOx, a similar pattern were observed ( Fig. 6 A, 6 B, and 6 C), including three nitrate species [46–48]. Bidentate nitrate bonded two cations with two oxygens, and showed one vibration at 1604 cm−1 (v B1 ). When bidentate nitrate bonded one cation with two oxygens, the structure showed one vibration at 1540 cm−1 (v B2 ). In comparison, when monodentate nitrate bonded one cation with one oxygen, the structure showed one vibration at 1294 cm−1 (v M ). After NH3 reacted with these species, the intensity of v B2 was decreased along with time. At the same time, the intensity of adsorbed NH4 (1467–1511 cm−1) was increased. In other words, NH3 was adsorbed on adsorptive sites, which was pre-occupied by NOx and consumed by NH3. As for v B1 and v M , their intensities showed no obvious decreases. Thus, these two species were not active for SCR. When Mn, Cr(III)-Mn, and Cr(VI)-Mn adsorbed NH3, a similar pattern were also observed (Fig. 6 D, 6 E, and 6 F), including three nitrate species. Adsorbed NH3 showed two vibrations at 1610 and 1250 cm−1 [46–48]. NH4 species were located at 1459 cm−1 and NH2 species were observed at 1530 cm−1. Note that NH2 intensities of Cr(III)-Mn and Cr(VI)-Mn were stronger than that of Mn. After NOx reacted with these species, the intensities of all these species were decreased. At the same time, one vibration was formed step by step at 1530 cm−1, which was attributed to v M1 . Besides, v B and v M2 were also observed in Mn. On the contrary, these two nitrates were not formed in Cr(III)-Mn and Cr(VI)-Mn. Fig. 7 shows the role of Cr6+ in Cr-Mn during SCR. The regeneration of adsorptive sites played an important role in SCR. According to Fig. 6, the consumption of adsorbed NOx was important to the release of adsorptive sites. However, only when NOx was adsorbed by one cation with two oxygens (v B2 ), the formed NOx species were consumable. Cr6+ had a significant electronegativity, which means that it easily formed v B2 with NOx. Note that Mn4+ also had a big electronegativity and formed v B2 . However, when Mn4+ was reduced by NH3 (Fig. 5), the formed Mn2+ bonded NOx by v B2 and v M . In comparison, Cr6+ was only reduced to Cr3+, which still had a considerable electronegativity. The electronegativity explanation was consistent with the result of machine learning in Fig. 1 and 2. As a result, the Cr-doped Mn showed a better SCR activity than the Mn (Fig. 3). 4 Conclusion In this work, machine-learning method was used to predict potential effective catalyst formula for effective SCR at low temperature. First, the main element was sorted, and then auxiliary metal was screened. As a result, Mn-Cr coupling showed to be one optimized formula, which was supported by the experimental verifications. After Cr was loaded on the Mn, SCR activity was increased from 50.3 % to 85.0 % at 150°C. The machine learning suggested that total electronegativity of one element played a quite important role in determining SCR activity. XPS and DRIFTS characterizations revealed that Cr resulted in bidentate nitrate (adsorbed NOx) bonding one cation with two oxygens. This configuration was the most active NOx-intermediate at low-temperature SCR. This work is a successful example of catalyst design and mechanism revelation by machine learning. CRediT authorship contribution statement Guangren Qian: Resources. Qiang Zhang: Writing – original draft, Investigation. Jia Zhang: Writing – review & editing, Funding acquisition, Conceptualization. Yang Yue: Methodology. Yuanhao Wang: Software, Methodology. Declaration of Competing Interest The authors declare that they have no known competing financial interests or personal relationships that could have appeared to influence the work reported in this paper. Acknowledgements This project was financially supported by the Natural Science Foundation of Shanghai 2021 Science and Technology Innovation Action Plan (21ZR1424000). The corresponding author also appreciates the Gold Spirit of JoJo. Appendix A Supporting information Supplementary data associated with this article can be found in the online version at doi:10.1016/j.apcata.2024.119825. Appendix A Supplementary material Supplementary material. Supplementary material. Supplementary material. References [1] L. Wang J. Wu S. Wang H. Liu Y. Wang D. Wang Nano Res. 17 2024 3261 3301 L. Wang, J. Wu, S. Wang, H. Liu, Y. Wang, D. Wang, The reformation of catalyst: From a trial-and-error synthesis to rational design, Nano Res., 17 (2024) 3261-3301. [2] C. Chen Y. Zuo W. Ye X. Li Z. Deng S.P. Ong Adv. Energy Mater. 10 2020 1903242 C. Chen, Y. Zuo, W. Ye, X. Li, Z. Deng, S.P. Ong, A critical review of machine learning of energy materials, Adv. Energy Mater., 10 (2020) 1903242. [3] W. Yang T.T. Fidelis W.-H. Sun ACS Omega 5 2020 83 88 W. Yang, T.T. Fidelis, W.-H. Sun, Machine larning in catalysis, from proposal to practicing, ACS Omega, 5 (2020) 83-88. [4] G. Rothenberg Catal. Today 137 2008 2 10 G. Rothenberg, Data mining in catalysis: Separating knowledge from garbage, Catal. Today, 137 (2008) 2-10. [5] A.N. Şener M.E. Günay A. Leba R. Yıldırım Catal. Today 299 2018 289 302 A.N. Şener, M.E. Günay, A. Leba, R. Yıldırım, Statistical review of dry reforming of methane literature using decision tree and artificial neural network analysis, Catal. Today, 299 (2018) 289-302. [6] F.M. Cavalcanti M. Schmal R. Giudici R.M. Brito Alves J. Environ. Manag. 237 2019 585 594 F.M. Cavalcanti, M. Schmal, R. Giudici, R.M. Brito Alves, A catalyst selection method for hydrogen production through Water-Gas Shift Reaction using artificial neural networks, J. Environ. Manage., 237 (2019) 585-594. [7] Z. Jiang J. Hu X. Zhang Y. Zhao X. Fan S. Zhong H. Zhang X. Yu Environ. Res. 187 2020 109697 Z. Jiang, J. Hu, X. Zhang, Y. Zhao, X. Fan, S. Zhong, H. Zhang, X. Yu, A generalized predictive model for TiO2-Catalyzed photo-degradation rate constants of water contaminants through artificial neural network, Environ. Res., 187 (2020) 109697. [8] S. Ding C. Li C. Bian J. Zhang Y. Xu G. Qian J. Clean. Prod. 330 2022 129825 S. Ding, C. Li, C. Bian, J. Zhang, Y. Xu, G. Qian, Application of low-cost MFe2O4 (M = Cu, Mn, and Zn) spinels in low-temperature selective catalytic reduction of nitrogen oxide, J. Cleaner Prod., 330 (2022) 129825. [9] C. Gou P. Wang X. Lyu C. Dou Z. Meng L. Lei Appl. Catal., A 665 2023 119371 C. Gou, P. Wang, X. Lyu, C. Dou, Z. Meng, L. Lei, Effect of migration of ZCu(OH) to Z2Cu upon hydrothermal aging on the NH3-SCR reaction mechanism over a Cu-CHA catalyst, Appl. Catal., A, 665 (2023) 119371. [10] H. Zhao P. Meng S. Gao Y. Wang P. Sun Z. Wu Sci. Total Environ. 906 2024 167553 H. Zhao, P. Meng, S. Gao, Y. Wang, P. Sun, Z. Wu, Recent advances in simultaneous removal of NOx and VOCs over bifunctional catalysts via SCR and oxidation reaction, Sci. Total Environ., 906 (2024) 167553. [11] T. Wu R.-t Guo C.-f Li Y.-h You W.-g Pan Chemosphere 333 2023 138942 T. Wu, R.-t Guo, C.-f Li, Y.-h You, W.-g Pan, Recent advances in core-shell structured catalysts for low-temperature NH3-SCR of NOx, Chemosphere, 333 (2023) 138942. [12] R. Gui Q. Yan T. Xue Y. Gao Y. Li T. Zhu Q. Wang J. Hazard. Mater. 439 2022 129665 R. Gui, Q. Yan, T. Xue, Y. Gao, Y. Li, T. Zhu, Q. Wang, The promoting/inhibiting effect of water vapor on the selective catalytic reduction of NOx, J. Hazard. Mater., 439 (2022) 129665. [13] A. Lanza L. Zheng R. Matarrese L. Lietti J.-D. Grunwaldt S.A. Clave J. Collier A. Beretta Chem. Eng. J. 416 2021 128933 A. Lanza, L. Zheng, R. Matarrese, L. Lietti, J.-D. Grunwaldt, S.A. Clave, J. Collier, A. Beretta, HCl-doping of V/TiO2-based catalysts reveals the promotion of NH3-SCR and the rate limiting role of NO oxidative activation, Chem. Eng. J., 416 (2021) 128933. [14] S. Zhao J. Peng R. Ge K. Yang S. Wu Y. Qian T. Xu J. Gao Y. Chen Z. Sun Process Saf. Environ. Prot. 168 2022 971 992 S. Zhao, J. Peng, R. Ge, K. Yang, S. Wu, Y. Qian, T. Xu, J. Gao, Y. Chen, Z. Sun, Poisoning and regeneration of commercial V2O5-WO3/TiO2 selective catalytic reduction (SCR) catalyst in coal-fired power plants, Process Saf. Environ. Prot., 168 (2022) 971-992. [15] J. Yang S. Ren T. Zhang Z. Su H. Long M. Kong L. Yao Chem. Eng. J. 379 2020 122398 J. Yang, S. Ren, T. Zhang, Z. Su, H. Long, M. Kong, L. Yao, Iron doped effects on active sites formation over activated carbon supported Mn-Ce oxide catalysts for low-temperature SCR of NO, Chem. Eng. J., 379 (2020) 122398. [16] L. Chen S. Ren W. Liu J. Yang Z. Chen M. Wang Q. Liu J. Environ. Chem. Eng. 9 2021 106504 L. Chen, S. Ren, W. Liu, J. Yang, Z. Chen, M. Wang, Q. Liu, Low-temperature NH3-SCR activity of M (M=Zr, Ni and Co) doped MnOx supported biochar catalysts, J. Environ. Chem. Eng., 9 (2021) 106504. [17] X. Liu P. Jiang Y. Chen Y. Wang Q. Ding Z. Sui H. Chen Z. Shen X. Wu Chem. Eng. J. 421 2021 127833 X. Liu, P. Jiang, Y. Chen, Y. Wang, Q. Ding, Z. Sui, H. Chen, Z. Shen, X. Wu, A basic comprehensive study on synergetic effects among the metal oxides in CeO2-WO3/TiO2 NH3-SCR catalyst, Chem. Eng. J., 421 (2021) 127833. [18] S. Xie L. Li L. Jin Y. Wu H. Liu Q. Qin X. Wei J. Liu L. Dong B. Li Appl. Surf. Sci. 515 2020 146014 S. Xie, L. Li, L. Jin, Y. Wu, H. Liu, Q. Qin, X. Wei, J. Liu, L. Dong, B. Li, Low temperature high activity of M (M = Ce, Fe, Co, Ni) doped M-Mn/TiO2 catalysts for NH3-SCR and in situ DRIFTS for investigating the reaction mechanism, Appl. Surf. Sci., 515 (2020) 146014. [19] J. Wang S. Dong C. Yu X. Han J. Guo J. Sun Catal. Commun. 92 2017 100 104 J. Wang, S. Dong, C. Yu, X. Han, J. Guo, J. Sun, An efficient MoO3 catalyst for in-practical degradation of dye wastewater under room conditions, Catal. Commun., 92 (2017) 100-104. [20] H. Zhao X. Luo J. He C. Peng T. Wu Fuel 147 2015 67 75 H. Zhao, X. Luo, J. He, C. Peng, T. Wu, Recovery of elemental sulphur via selective catalytic reduction of SO2 over sulphided CoMo/γ-Al2O3 catalysts, Fuel, 147 (2015) 67-75. [21] L. Zhang X. Wen Z. Lei L. Gao X. Sha Z. Ma H. He Y. Wang Y. Jia Y. Li AIP Adv. 8 2018 045004 L. Zhang, X. Wen, Z. Lei, L. Gao, X. Sha, Z. Ma, H. He, Y. Wang, Y. Jia, Y. Li, Study on the mechanism of a manganese-based catalyst for catalytic NOX flue gas denitration, AIP Advances, 8 (2018) 045004. [22] T. Tamoradi A.R. Kiasat H. Veisi V. Nobakht Z. Besharati B. Karmakar J. Environ. Chem. Eng. 9 2021 106009 T. Tamoradi, A.R. Kiasat, H. Veisi, V. Nobakht, Z. Besharati, B. Karmakar, MgO doped magnetic graphene derivative as a competent heterogeneous catalyst producing biofuels via transesterification: Process optimization through Response Surface Methodology (RSM), J. Environ. Chem. Eng., 9 (2021) 106009. [23] M. Helmi K. Tahvildari A. Hemmati P.A. Azar A. Safekordi Fuel Process. Technol. 225 2022 107062 M. Helmi, K. Tahvildari, A. Hemmati, P.A. Azar, A. Safekordi, Converting waste cooking oil into biodiesel using phosphomolybdic acid/clinoptilolite as an innovative green catalyst via electrolysis procedure; optimization by response surface methodology (RSM), Fuel Process. Technol., 225 (2022) 107062. [24] S.M. Mousavi P. Nakhostin Panahi J. Taiwan Inst. Chem. Eng. 69 2016 68 77 S.M. Mousavi, P. Nakhostin Panahi, Modeling and optimization of NH3-SCR performance of MnOx/γ-alumina nanocatalysts by response surface methodology, J. Taiwan Inst. Chem. Eng., 69 (2016) 68-77. [25] H. Soleimanzadeh A. Niaei D. Salari A. Tarjomannejad S. Penner M. Grünbacher S.A. Hosseini S.M. Mousavi J. Environ. Manag. 238 2019 360 367 H. Soleimanzadeh, A. Niaei, D. Salari, A. Tarjomannejad, S. Penner, M. Grünbacher, S.A. Hosseini, S.M. Mousavi, Modeling and optimization of V2O5/TiO2 nanocatalysts for NH3-Selective catalytic reduction (SCR) of NOx by RSM and ANN techniques, J. Environ. Manage., 238 (2019) 360-367. [26] T. Chen C. Guestrin M. Assoc. Comp. 2016 T. Chen, C. Guestrin, M. Assoc Comp, XGBoost: A Scalable Tree Boosting System, 2016. [27] D. Cao Y. Ma L. Sun L. Gao Remote Sens. Lett. 12 2021 674 683 D. Cao, Y. Ma, L. Sun, L. Gao, Fast observation simulation method based on XGBoost for visible bands over the ocean surface under clear-sky conditions, Remote Sens. Lett., 12 (2021) 674-683. [28] J. Lin C. Qi H. Wan J. Min J. Chen K. Zhang L. Zhang Chin. J. Mech. Eng. 34 2021 36 J. Lin, C. Qi, H. Wan, J. Min, J. Chen, K. Zhang, L. Zhang, Prediction of cross-tension strength of self-piercing riveted joints using finite element simulation and XGBoost algorithm, Chin. J. Mech. Eng., 34 (2021) 36. [29] S.M. Lundberg, S.-I. Lee, A unified approach to interpreting model predictions, in: I. Guyon, U.V. Luxburg, S. Bengio, H. Wallach, R. Fergus, S. Vishwanathan, R. Garnett (Eds.) Advances in Neural Information Processing Systems 30, 2017. [30] J. Wang L. Chou B. Zhang H. Song J. Zhao J. Yang S. Li J. Mol. Catal. A: Chem. 245 2006 272 277 J. Wang, L. Chou, B. Zhang, H. Song, J. Zhao, J. Yang, S. Li, Comparative study on oxidation of methane to ethane and ethylene over Na2WO4–Mn/SiO2 catalysts prepared by different methods, J. Mol. Catal. A: Chem., 245 (2006) 272-277. [31] V.S. Tripathi Hydrothermal method for synthesis of materials A.K. Tyagi R.S. Ningthoujam Handbook on Synthesis Strategies for Advanced Materials: Volume-I: Techniques and Fundamentals 2021 Springer Singapore Singapore 131 152 V.S. Tripathi, Hydrothermal method for synthesis of materials, in: A.K. Tyagi, R.S. Ningthoujam (Eds.) Handbook on Synthesis Strategies for Advanced Materials: Volume-I: Techniques and Fundamentals, Springer Singapore, Singapore, 2021, pp. 131-152. [32] J. Zhang J. Zeng J. Wu Y. Yue J. Zhang G. Qian J. Hazard. Mater. 401 2021 123444 J. Zhang, J. Zeng, J. Wu, Y. Yue, J. Zhang, G. Qian, A plasma thermal slag-derived from hazardous waste has a born hydrothermal stability, J. Hazard. Mater., 401 (2021) 123444. [33] X. Liu M. Jiang C. Hao Y. Lv J. Zhang G. Qian Appl. Surf. Sci. 630 2023 157495 X. Liu, M. Jiang, C. Hao, Y. Lv, J. Zhang, G. Qian, A method for calculating catalytic-site amount and judging antagonistic/synergetic effect in multi-metallic catalyst, Appl. Surf. Sci., 630 (2023) 157495. [34] F. Wang B. Shen S. Zhu Z. Wang Fuel 249 2019 54 60 F. Wang, B. Shen, S. Zhu, Z. Wang, Promotion of Fe and Co doped Mn-Ce/TiO2 catalysts for low temperature NH3-SCR with SO2 tolerance, Fuel, 249 (2019) 54-60. [35] D. Yao Y. Li B. Liu X. Hu F. Wu Appl. Catal. A 648 2022 118915 D. Yao, Y. Li, B. Liu, X. Hu, F. Wu, Mechanism-based kinetic modeling of N2O formation on SCR activity over Cu-SSZ-13 catalysts for diesel vehicle, Appl. Catal., A, 648 (2022) 118915. [36] G. Wang J. Zhang L. Liu J.Z. Zhou Q. Liu G. Qian Z.P. Xu R.M. Richards J. Clean. Prod. 183 2018 917 924 G. Wang, J. Zhang, L. Liu, J.Z. Zhou, Q. Liu, G. Qian, Z.P. Xu, R.M. Richards, Novel multi-metal containing MnCr catalyst made from manganese slag and chromium wastewater for effective selective catalytic reduction of nitric oxide at low temperature, J. Cleaner Prod., 183 (2018) 917-924. [37] D. Pei Y. Li D. Cang Mater. Lett. 240 2019 229 232 D. Pei, Y. Li, D. Cang, In situ XRD study on sintering mechanism of SiO2-Al2O3-CaO-MgO ceramics from red mud, Mater. Lett., 240 (2019) 229-232. [38] F. Rojas I. Kornhauser C. Felipe J.M. Esparza S. Cordero A. Domínguez J.L. Riccardo Phys. Chem. Chem. Phys. 4 2002 2346 2355 F. Rojas, I. Kornhauser, C. Felipe, J.M. Esparza, S. Cordero, A. Domínguez, J.L. Riccardo, Capillary condensation in heterogeneous mesoporous networks consisting of variable connectivity and pore-size correlation, Phys. Chem. Chem. Phys., 4 (2002) 2346-2355. [39] X. Wang H. Cheng P. Chai J. Bian X. Wang Y. Liu X. Yin S. Pan Z. Pan Energy Fuels 34 2020 12204 12214 X. Wang, H. Cheng, P. Chai, J. Bian, X. Wang, Y. Liu, X. Yin, S. Pan, Z. Pan, Pore characterization of different clay minerals and its impact on methane adsorption capacity, Energy Fuels, 34 (2020) 12204-12214. [40] M. Florea A. Bocirnea S. Neațu A.M. Kuncser M.-M. Trandafir F. Neațu Appl. Catal., A 646 2022 118860 M. Florea, A. Bocirnea, S. Neațu, A.M. Kuncser, M.-M. Trandafir, F. Neațu, Tuning the acidity by addition of transition metal to Mn modified hollow silica spheres and their catalytic activity in ethanol dehydration to ethylene, Appl. Catal., A, 646 (2022) 118860. [41] Y. Wang Y. Wen Y. Zhang M. Jiang J. Zhang G. Qian Fuel 366 2024 131355 Y. Wang, Y. Wen, Y. Zhang, M. Jiang, J. Zhang, G. Qian, EPR evidence of carrier effect on unpaired-electron number of Mn in SCR: The good, the bad, the ugly, Fuel, 366 (2024) 131355. [42] D. Park Y.-S. Yun J.M. Park J. Colloid Interface Sci. 317 2008 54 61 D. Park, Y.-S. Yun, J.M. Park, XAS and XPS studies on chromium-binding groups of biomaterial during Cr(VI) biosorption, J. Colloid Interface Sci., 317 (2008) 54-61. [43] Y.-T. Tsai N. Majewska M. Kamiński B.-H. Lin S. Mahlik M.-H. Fang ACS Appl. Mater. Interfaces 15 2023 49379 49389 Y.-T. Tsai, N. Majewska, M. Kamiński, B.-H. Lin, S. Mahlik, M.-H. Fang, Hidden hexavalent chromium ions with subtle structural evolution in near-infrared phosphors, ACS Appl. Mater. Interfaces, 15 (2023) 49379-49389. [44] Q. Wang X. Wang L. Wang Y. Hu P. Ning Y. Ma L. Tan Micro Mesopor. Mat. 282 2019 260 268 Q. Wang, X. Wang, L. Wang, Y. Hu, P. Ning, Y. Ma, L. Tan, Catalytic oxidation and hydrolysis of HCN over LaxCuy/TiO2 catalysts at low temperatures, Micropor. Mesopor. Mat., 282 (2019) 260-268. [45] H. Du Z. Han Q. Wang Y. Gao C. Gao J. Dong X. Pan Environ. Sci. Pollut. Res. 27 2020 40870 40881 H. Du, Z. Han, Q. Wang, Y. Gao, C. Gao, J. Dong, X. Pan, Effects of ferric and manganese precursors on catalytic activity of Fe-Mn/TiO2 catalysts for selective reduction of NO with ammonia at low temperature, Environ. Sci. Pollut. Res., 27 (2020) 40870-40881. [46] The Nature of Oxide Surface Centers, in: Molecular Spectroscopy of Oxide Catalyst Surfaces, 2003, pp. 27-179. [47] K.B. Nam D.W. Kwon S.C. Hong Appl. Catal., A 542 2017 55 62 K.B. Nam, D.W. Kwon, S.C. Hong, DRIFT study on promotion effects of tungsten-modified Mn/Ce/Ti catalysts for the SCR reaction at low-temperature, Appl. Catal., A, 542 (2017) 55-62. [48] X. Weng X. Dai Q. Zeng Y. Liu Z. Wu J. Colloid Interface Sci. 461 2016 9 14 X. Weng, X. Dai, Q. Zeng, Y. Liu, Z. Wu, DRIFT studies on promotion mechanism of H3PW12O40 in selective catalytic reduction of NO with NH3, J. Colloid Interface Sci., 461 (2016) 9-14.",
+      "scopus-id": "85195171466",
+      "coredata": {
+        "eid": "1-s2.0-S0926860X24002709",
+        "dc:description": "Traditional catalyst design includes trial-and-error and orthogonal methods. However, these processes usually require large number of experiments to get an optimized formula. Machine learning was applied in designing effective catalyst for selective catalytic reduction (SCR) of nitrogen oxide (NOx). Catalyst formulas and their activities in previous reports were collected and fitted by extreme gradient boosting algorithm and explanatory algorithm-SHapley Additive exPlanations. Mn-Cr coupling was predicted to be the most effective for SCR among various couplings, which was then proved by experimental results. SCR activity of Mn catalyst was increased from 50.3 % to 85.0 % at 150°C after the catalyst was loaded by Cr. Furthermore, machine learning and experimental characterizations revealed that the big total electronegativity of Cr resulted in bidentate nitrate bonding one cation with two oxygens, which was the most active NOx-derived intermediate during SCR. This work is in favor of catalyst design and catalytic-species recognition at the same time.",
+        "openArchiveArticle": "false",
+        "prism:coverDate": "2024-08-05",
+        "openaccessUserLicense": null,
+        "prism:aggregationType": "Journal",
+        "prism:url": "https://api.elsevier.com/content/article/pii/S0926860X24002709",
+        "dc:creator": [
+          {
+            "@_fa": "true",
+            "$": "Zhang, Qiang"
+          },
+          {
+            "@_fa": "true",
+            "$": "Wang, Yuanhao"
+          },
+          {
+            "@_fa": "true",
+            "$": "Zhang, Jia"
+          },
+          {
+            "@_fa": "true",
+            "$": "Yue, Yang"
+          },
+          {
+            "@_fa": "true",
+            "$": "Qian, Guangren"
+          }
+        ],
+        "link": [
+          {
+            "@_fa": "true",
+            "@rel": "self",
+            "@href": "https://api.elsevier.com/content/article/pii/S0926860X24002709"
+          },
+          {
+            "@_fa": "true",
+            "@rel": "scidir",
+            "@href": "https://www.sciencedirect.com/science/article/pii/S0926860X24002709"
+          }
+        ],
+        "dc:format": "application/json",
+        "openaccessType": null,
+        "pii": "S0926-860X(24)00270-9",
+        "prism:volume": "683",
+        "articleNumber": "119825",
+        "prism:publisher": "Elsevier B.V. All rights are reserved, including those for text and data mining, AI training, and similar technologies.",
+        "dc:title": "Application of machine learning in designing and understanding effective catalyst for selective catalytic reduction of nitrogen oxide",
+        "prism:copyright": "© 2024 Elsevier B.V. All rights are reserved, including those for text and data mining, AI training, and similar technologies.",
+        "openaccess": "0",
+        "prism:issn": "0926860X",
+        "dcterms:subject": [
+          {
+            "@_fa": "true",
+            "$": "Machine Learning"
+          },
+          {
+            "@_fa": "true",
+            "$": "Selective Catalytic Reduction, Catalyst Design"
+          },
+          {
+            "@_fa": "true",
+            "$": "Electro-negativity"
+          },
+          {
+            "@_fa": "true",
+            "$": "Chromate"
+          }
+        ],
+        "openaccessArticle": "false",
+        "prism:publicationName": "Applied Catalysis A: General",
+        "openaccessSponsorType": null,
+        "prism:pageRange": "119825",
+        "pubType": "fla",
+        "prism:coverDisplayDate": "5 August 2024",
+        "prism:doi": "10.1016/j.apcata.2024.119825",
+        "prism:startingPage": "119825",
+        "dc:identifier": "doi:10.1016/j.apcata.2024.119825",
+        "openaccessSponsorName": null
+      },
+      "objects": {
+        "object": [
+          {
+            "@category": "standard",
+            "@height": "611",
+            "@width": "751",
+            "@_fa": "true",
+            "$": "https://api.elsevier.com/content/object/eid/1-s2.0-S0926860X24002709-gr1.jpg?httpAccept=%2A%2F%2A",
+            "@multimediatype": "JPEG image file",
+            "@type": "IMAGE-DOWNSAMPLED",
+            "@size": "57016",
+            "@ref": "gr1",
+            "@mimetype": "image/jpeg"
+          },
+          {
+            "@category": "standard",
+            "@height": "532",
+            "@width": "751",
+            "@_fa": "true",
+            "$": "https://api.elsevier.com/content/object/eid/1-s2.0-S0926860X24002709-gr2.jpg?httpAccept=%2A%2F%2A",
+            "@multimediatype": "JPEG image file",
+            "@type": "IMAGE-DOWNSAMPLED",
+            "@size": "64129",
+            "@ref": "gr2",
+            "@mimetype": "image/jpeg"
+          },
+          {
+            "@category": "standard",
+            "@height": "200",
+            "@width": "338",
+            "@_fa": "true",
+            "$": "https://api.elsevier.com/content/object/eid/1-s2.0-S0926860X24002709-ga1.jpg?httpAccept=%2A%2F%2A",
+            "@multimediatype": "JPEG image file",
+            "@type": "IMAGE-DOWNSAMPLED",
+            "@size": "29752",
+            "@ref": "ga1",
+            "@mimetype": "image/jpeg"
+          },
+          {
+            "@category": "standard",
+            "@height": "671",
+            "@width": "791",
+            "@_fa": "true",
+            "$": "https://api.elsevier.com/content/object/eid/1-s2.0-S0926860X24002709-gr3.jpg?httpAccept=%2A%2F%2A",
+            "@multimediatype": "JPEG image file",
+            "@type": "IMAGE-DOWNSAMPLED",
+            "@size": "99004",
+            "@ref": "gr3",
+            "@mimetype": "image/jpeg"
+          },
+          {
+            "@category": "standard",
+            "@height": "275",
+            "@width": "791",
+            "@_fa": "true",
+            "$": "https://api.elsevier.com/content/object/eid/1-s2.0-S0926860X24002709-gr4.jpg?httpAccept=%2A%2F%2A",
+            "@multimediatype": "JPEG image file",
+            "@type": "IMAGE-DOWNSAMPLED",
+            "@size": "60667",
+            "@ref": "gr4",
+            "@mimetype": "image/jpeg"
+          },
+          {
+            "@category": "standard",
+            "@height": "995",
+            "@width": "710",
+            "@_fa": "true",
+            "$": "https://api.elsevier.com/content/object/eid/1-s2.0-S0926860X24002709-gr5.jpg?httpAccept=%2A%2F%2A",
+            "@multimediatype": "JPEG image file",
+            "@type": "IMAGE-DOWNSAMPLED",
+            "@size": "111345",
+            "@ref": "gr5",
+            "@mimetype": "image/jpeg"
+          },
+          {
+            "@category": "standard",
+            "@height": "995",
+            "@width": "791",
+            "@_fa": "true",
+            "$": "https://api.elsevier.com/content/object/eid/1-s2.0-S0926860X24002709-gr6.jpg?httpAccept=%2A%2F%2A",
+            "@multimediatype": "JPEG image file",
+            "@type": "IMAGE-DOWNSAMPLED",
+            "@size": "183513",
+            "@ref": "gr6",
+            "@mimetype": "image/jpeg"
+          },
+          {
+            "@category": "standard",
+            "@height": "252",
+            "@width": "339",
+            "@_fa": "true",
+            "$": "https://api.elsevier.com/content/object/eid/1-s2.0-S0926860X24002709-gr7.jpg?httpAccept=%2A%2F%2A",
+            "@multimediatype": "JPEG image file",
+            "@type": "IMAGE-DOWNSAMPLED",
+            "@size": "21657",
+            "@ref": "gr7",
+            "@mimetype": "image/jpeg"
+          },
+          {
+            "@category": "thumbnail",
+            "@height": "164",
+            "@width": "201",
+            "@_fa": "true",
+            "$": "https://api.elsevier.com/content/object/eid/1-s2.0-S0926860X24002709-gr1.sml?httpAccept=%2A%2F%2A",
+            "@multimediatype": "GIF image file",
+            "@type": "IMAGE-THUMBNAIL",
+            "@size": "6997",
+            "@ref": "gr1",
+            "@mimetype": "image/gif"
+          },
+          {
+            "@category": "thumbnail",
+            "@height": "155",
+            "@width": "219",
+            "@_fa": "true",
+            "$": "https://api.elsevier.com/content/object/eid/1-s2.0-S0926860X24002709-gr2.sml?httpAccept=%2A%2F%2A",
+            "@multimediatype": "GIF image file",
+            "@type": "IMAGE-THUMBNAIL",
+            "@size": "9696",
+            "@ref": "gr2",
+            "@mimetype": "image/gif"
+          },
+          {
+            "@category": "thumbnail",
+            "@height": "130",
+            "@width": "219",
+            "@_fa": "true",
+            "$": "https://api.elsevier.com/content/object/eid/1-s2.0-S0926860X24002709-ga1.sml?httpAccept=%2A%2F%2A",
+            "@multimediatype": "GIF image file",
+            "@type": "IMAGE-THUMBNAIL",
+            "@size": "13313",
+            "@ref": "ga1",
+            "@mimetype": "image/gif"
+          },
+          {
+            "@category": "thumbnail",
+            "@height": "164",
+            "@width": "193",
+            "@_fa": "true",
+            "$": "https://api.elsevier.com/content/object/eid/1-s2.0-S0926860X24002709-gr3.sml?httpAccept=%2A%2F%2A",
+            "@multimediatype": "GIF image file",
+            "@type": "IMAGE-THUMBNAIL",
+            "@size": "7554",
+            "@ref": "gr3",
+            "@mimetype": "image/gif"
+          },
+          {
+            "@category": "thumbnail",
+            "@height": "76",
+            "@width": "219",
+            "@_fa": "true",
+            "$": "https://api.elsevier.com/content/object/eid/1-s2.0-S0926860X24002709-gr4.sml?httpAccept=%2A%2F%2A",
+            "@multimediatype": "GIF image file",
+            "@type": "IMAGE-THUMBNAIL",
+            "@size": "11643",
+            "@ref": "gr4",
+            "@mimetype": "image/gif"
+          },
+          {
+            "@category": "thumbnail",
+            "@height": "164",
+            "@width": "117",
+            "@_fa": "true",
+            "$": "https://api.elsevier.com/content/object/eid/1-s2.0-S0926860X24002709-gr5.sml?httpAccept=%2A%2F%2A",
+            "@multimediatype": "GIF image file",
+            "@type": "IMAGE-THUMBNAIL",
+            "@size": "6602",
+            "@ref": "gr5",
+            "@mimetype": "image/gif"
+          },
+          {
+            "@category": "thumbnail",
+            "@height": "164",
+            "@width": "130",
+            "@_fa": "true",
+            "$": "https://api.elsevier.com/content/object/eid/1-s2.0-S0926860X24002709-gr6.sml?httpAccept=%2A%2F%2A",
+            "@multimediatype": "GIF image file",
+            "@type": "IMAGE-THUMBNAIL",
+            "@size": "9017",
+            "@ref": "gr6",
+            "@mimetype": "image/gif"
+          },
+          {
+            "@category": "thumbnail",
+            "@height": "163",
+            "@width": "219",
+            "@_fa": "true",
+            "$": "https://api.elsevier.com/content/object/eid/1-s2.0-S0926860X24002709-gr7.sml?httpAccept=%2A%2F%2A",
+            "@multimediatype": "GIF image file",
+            "@type": "IMAGE-THUMBNAIL",
+            "@size": "20792",
+            "@ref": "gr7",
+            "@mimetype": "image/gif"
+          },
+          {
+            "@category": "high",
+            "@height": "2707",
+            "@width": "3326",
+            "@_fa": "true",
+            "$": "https://api.elsevier.com/content/object/eid/1-s2.0-S0926860X24002709-gr1_lrg.jpg?httpAccept=%2A%2F%2A",
+            "@multimediatype": "JPEG image file",
+            "@type": "IMAGE-HIGH-RES",
+            "@size": "255341",
+            "@ref": "gr1",
+            "@mimetype": "image/jpeg"
+          },
+          {
+            "@category": "high",
+            "@height": "2355",
+            "@width": "3326",
+            "@_fa": "true",
+            "$": "https://api.elsevier.com/content/object/eid/1-s2.0-S0926860X24002709-gr2_lrg.jpg?httpAccept=%2A%2F%2A",
+            "@multimediatype": "JPEG image file",
+            "@type": "IMAGE-HIGH-RES",
+            "@size": "288263",
+            "@ref": "gr2",
+            "@mimetype": "image/jpeg"
+          },
+          {
+            "@category": "high",
+            "@height": "886",
+            "@width": "1497",
+            "@_fa": "true",
+            "$": "https://api.elsevier.com/content/object/eid/1-s2.0-S0926860X24002709-ga1_lrg.jpg?httpAccept=%2A%2F%2A",
+            "@multimediatype": "JPEG image file",
+            "@type": "IMAGE-HIGH-RES",
+            "@size": "201737",
+            "@ref": "ga1",
+            "@mimetype": "image/jpeg"
+          },
+          {
+            "@category": "high",
+            "@height": "2965",
+            "@width": "3494",
+            "@_fa": "true",
+            "$": "https://api.elsevier.com/content/object/eid/1-s2.0-S0926860X24002709-gr3_lrg.jpg?httpAccept=%2A%2F%2A",
+            "@multimediatype": "JPEG image file",
+            "@type": "IMAGE-HIGH-RES",
+            "@size": "619306",
+            "@ref": "gr3",
+            "@mimetype": "image/jpeg"
+          },
+          {
+            "@category": "high",
+            "@height": "1214",
+            "@width": "3493",
+            "@_fa": "true",
+            "$": "https://api.elsevier.com/content/object/eid/1-s2.0-S0926860X24002709-gr4_lrg.jpg?httpAccept=%2A%2F%2A",
+            "@multimediatype": "JPEG image file",
+            "@type": "IMAGE-HIGH-RES",
+            "@size": "308746",
+            "@ref": "gr4",
+            "@mimetype": "image/jpeg"
+          },
+          {
+            "@category": "high",
+            "@height": "4409",
+            "@width": "3146",
+            "@_fa": "true",
+            "$": "https://api.elsevier.com/content/object/eid/1-s2.0-S0926860X24002709-gr5_lrg.jpg?httpAccept=%2A%2F%2A",
+            "@multimediatype": "JPEG image file",
+            "@type": "IMAGE-HIGH-RES",
+            "@size": "768804",
+            "@ref": "gr5",
+            "@mimetype": "image/jpeg"
+          },
+          {
+            "@category": "high",
+            "@height": "4408",
+            "@width": "3504",
+            "@_fa": "true",
+            "$": "https://api.elsevier.com/content/object/eid/1-s2.0-S0926860X24002709-gr6_lrg.jpg?httpAccept=%2A%2F%2A",
+            "@multimediatype": "JPEG image file",
+            "@type": "IMAGE-HIGH-RES",
+            "@size": "1363526",
+            "@ref": "gr6",
+            "@mimetype": "image/jpeg"
+          },
+          {
+            "@category": "high",
+            "@height": "1111",
+            "@width": "1497",
+            "@_fa": "true",
+            "$": "https://api.elsevier.com/content/object/eid/1-s2.0-S0926860X24002709-gr7_lrg.jpg?httpAccept=%2A%2F%2A",
+            "@multimediatype": "JPEG image file",
+            "@type": "IMAGE-HIGH-RES",
+            "@size": "85957",
+            "@ref": "gr7",
+            "@mimetype": "image/jpeg"
+          },
+          {
+            "@category": "standard",
+            "@_fa": "true",
+            "$": "https://api.elsevier.com/content/object/eid/1-s2.0-S0926860X24002709-mmc1.docx?httpAccept=%2A%2F%2A",
+            "@multimediatype": "Microsoft Word file",
+            "@type": "APPLICATION",
+            "@size": "1260168",
+            "@ref": "mmc1",
+            "@mimetype": "application/word"
+          },
+          {
+            "@category": "standard",
+            "@_fa": "true",
+            "$": "https://api.elsevier.com/content/object/eid/1-s2.0-S0926860X24002709-mmc2.xlsx?httpAccept=%2A%2F%2A",
+            "@multimediatype": "Microsoft Excel file",
+            "@type": "APPLICATION",
+            "@size": "37739",
+            "@ref": "mmc2",
+            "@mimetype": "application/excel"
+          },
+          {
+            "@category": "standard",
+            "@_fa": "true",
+            "$": "https://api.elsevier.com/content/object/eid/1-s2.0-S0926860X24002709-mmc3.xlsx?httpAccept=%2A%2F%2A",
+            "@multimediatype": "Microsoft Excel file",
+            "@type": "APPLICATION",
+            "@size": "18174",
+            "@ref": "mmc3",
+            "@mimetype": "application/excel"
+          },
+          {
+            "@category": "thumbnail",
+            "@_fa": "true",
+            "$": "https://api.elsevier.com/content/object/eid/1-s2.0-S0926860X24002709-si0001.svg?httpAccept=%2A%2F%2A",
+            "@multimediatype": "Scalable Vector Graphics file",
+            "@type": "ALTIMG",
+            "@size": "1227",
+            "@ref": "si0001",
+            "@mimetype": "image/svg+xml"
+          },
+          {
+            "@category": "thumbnail",
+            "@_fa": "true",
+            "$": "https://api.elsevier.com/content/object/eid/1-s2.0-S0926860X24002709-si0002.svg?httpAccept=%2A%2F%2A",
+            "@multimediatype": "Scalable Vector Graphics file",
+            "@type": "ALTIMG",
+            "@size": "1600",
+            "@ref": "si0002",
+            "@mimetype": "image/svg+xml"
+          },
+          {
+            "@category": "thumbnail",
+            "@_fa": "true",
+            "$": "https://api.elsevier.com/content/object/eid/1-s2.0-S0926860X24002709-si0003.svg?httpAccept=%2A%2F%2A",
+            "@multimediatype": "Scalable Vector Graphics file",
+            "@type": "ALTIMG",
+            "@size": "2487",
+            "@ref": "si0003",
+            "@mimetype": "image/svg+xml"
+          },
+          {
+            "@category": "thumbnail",
+            "@_fa": "true",
+            "$": "https://api.elsevier.com/content/object/eid/1-s2.0-S0926860X24002709-si0004.svg?httpAccept=%2A%2F%2A",
+            "@multimediatype": "Scalable Vector Graphics file",
+            "@type": "ALTIMG",
+            "@size": "1876",
+            "@ref": "si0004",
+            "@mimetype": "image/svg+xml"
+          },
+          {
+            "@category": "thumbnail",
+            "@_fa": "true",
+            "$": "https://api.elsevier.com/content/object/eid/1-s2.0-S0926860X24002709-si0005.svg?httpAccept=%2A%2F%2A",
+            "@multimediatype": "Scalable Vector Graphics file",
+            "@type": "ALTIMG",
+            "@size": "2832",
+            "@ref": "si0005",
+            "@mimetype": "image/svg+xml"
+          },
+          {
+            "@category": "thumbnail",
+            "@_fa": "true",
+            "$": "https://api.elsevier.com/content/object/eid/1-s2.0-S0926860X24002709-si0006.svg?httpAccept=%2A%2F%2A",
+            "@multimediatype": "Scalable Vector Graphics file",
+            "@type": "ALTIMG",
+            "@size": "1782",
+            "@ref": "si0006",
+            "@mimetype": "image/svg+xml"
+          },
+          {
+            "@category": "thumbnail",
+            "@_fa": "true",
+            "$": "https://api.elsevier.com/content/object/eid/1-s2.0-S0926860X24002709-si0007.svg?httpAccept=%2A%2F%2A",
+            "@multimediatype": "Scalable Vector Graphics file",
+            "@type": "ALTIMG",
+            "@size": "2905",
+            "@ref": "si0007",
+            "@mimetype": "image/svg+xml"
+          },
+          {
+            "@category": "thumbnail",
+            "@_fa": "true",
+            "$": "https://api.elsevier.com/content/object/eid/1-s2.0-S0926860X24002709-si0008.svg?httpAccept=%2A%2F%2A",
+            "@multimediatype": "Scalable Vector Graphics file",
+            "@type": "ALTIMG",
+            "@size": "1645",
+            "@ref": "si0008",
+            "@mimetype": "image/svg+xml"
+          },
+          {
+            "@category": "thumbnail",
+            "@_fa": "true",
+            "$": "https://api.elsevier.com/content/object/eid/1-s2.0-S0926860X24002709-si0009.svg?httpAccept=%2A%2F%2A",
+            "@multimediatype": "Scalable Vector Graphics file",
+            "@type": "ALTIMG",
+            "@size": "2589",
+            "@ref": "si0009",
+            "@mimetype": "image/svg+xml"
+          },
+          {
+            "@category": "thumbnail",
+            "@_fa": "true",
+            "$": "https://api.elsevier.com/content/object/eid/1-s2.0-S0926860X24002709-si0010.svg?httpAccept=%2A%2F%2A",
+            "@multimediatype": "Scalable Vector Graphics file",
+            "@type": "ALTIMG",
+            "@size": "1697",
+            "@ref": "si0010",
+            "@mimetype": "image/svg+xml"
+          },
+          {
+            "@category": "thumbnail",
+            "@_fa": "true",
+            "$": "https://api.elsevier.com/content/object/eid/1-s2.0-S0926860X24002709-si0011.svg?httpAccept=%2A%2F%2A",
+            "@multimediatype": "Scalable Vector Graphics file",
+            "@type": "ALTIMG",
+            "@size": "2731",
+            "@ref": "si0011",
+            "@mimetype": "image/svg+xml"
+          },
+          {
+            "@category": "thumbnail",
+            "@_fa": "true",
+            "$": "https://api.elsevier.com/content/object/eid/1-s2.0-S0926860X24002709-si0012.svg?httpAccept=%2A%2F%2A",
+            "@multimediatype": "Scalable Vector Graphics file",
+            "@type": "ALTIMG",
+            "@size": "4571",
+            "@ref": "si0012",
+            "@mimetype": "image/svg+xml"
+          },
+          {
+            "@category": "thumbnail",
+            "@_fa": "true",
+            "$": "https://api.elsevier.com/content/object/eid/1-s2.0-S0926860X24002709-si0013.svg?httpAccept=%2A%2F%2A",
+            "@multimediatype": "Scalable Vector Graphics file",
+            "@type": "ALTIMG",
+            "@size": "2998",
+            "@ref": "si0013",
+            "@mimetype": "image/svg+xml"
+          },
+          {
+            "@category": "thumbnail",
+            "@_fa": "true",
+            "$": "https://api.elsevier.com/content/object/eid/1-s2.0-S0926860X24002709-si0014.svg?httpAccept=%2A%2F%2A",
+            "@multimediatype": "Scalable Vector Graphics file",
+            "@type": "ALTIMG",
+            "@size": "1057",
+            "@ref": "si0014",
+            "@mimetype": "image/svg+xml"
+          },
+          {
+            "@category": "thumbnail",
+            "@_fa": "true",
+            "$": "https://api.elsevier.com/content/object/eid/1-s2.0-S0926860X24002709-si0015.svg?httpAccept=%2A%2F%2A",
+            "@multimediatype": "Scalable Vector Graphics file",
+            "@type": "ALTIMG",
+            "@size": "1020",
+            "@ref": "si0015",
+            "@mimetype": "image/svg+xml"
+          },
+          {
+            "@category": "thumbnail",
+            "@_fa": "true",
+            "$": "https://api.elsevier.com/content/object/eid/1-s2.0-S0926860X24002709-si0016.svg?httpAccept=%2A%2F%2A",
+            "@multimediatype": "Scalable Vector Graphics file",
+            "@type": "ALTIMG",
+            "@size": "1029",
+            "@ref": "si0016",
+            "@mimetype": "image/svg+xml"
+          },
+          {
+            "@category": "thumbnail",
+            "@_fa": "true",
+            "$": "https://api.elsevier.com/content/object/eid/1-s2.0-S0926860X24002709-si0017.svg?httpAccept=%2A%2F%2A",
+            "@multimediatype": "Scalable Vector Graphics file",
+            "@type": "ALTIMG",
+            "@size": "1057",
+            "@ref": "si0017",
+            "@mimetype": "image/svg+xml"
+          },
+          {
+            "@category": "thumbnail",
+            "@_fa": "true",
+            "$": "https://api.elsevier.com/content/object/eid/1-s2.0-S0926860X24002709-si0018.svg?httpAccept=%2A%2F%2A",
+            "@multimediatype": "Scalable Vector Graphics file",
+            "@type": "ALTIMG",
+            "@size": "2621",
+            "@ref": "si0018",
+            "@mimetype": "image/svg+xml"
+          },
+          {
+            "@category": "thumbnail",
+            "@_fa": "true",
+            "$": "https://api.elsevier.com/content/object/eid/1-s2.0-S0926860X24002709-si0019.svg?httpAccept=%2A%2F%2A",
+            "@multimediatype": "Scalable Vector Graphics file",
+            "@type": "ALTIMG",
+            "@size": "1037",
+            "@ref": "si0019",
+            "@mimetype": "image/svg+xml"
+          },
+          {
+            "@category": "thumbnail",
+            "@_fa": "true",
+            "$": "https://api.elsevier.com/content/object/eid/1-s2.0-S0926860X24002709-si0020.svg?httpAccept=%2A%2F%2A",
+            "@multimediatype": "Scalable Vector Graphics file",
+            "@type": "ALTIMG",
+            "@size": "1073",
+            "@ref": "si0020",
+            "@mimetype": "image/svg+xml"
+          },
+          {
+            "@category": "thumbnail",
+            "@_fa": "true",
+            "$": "https://api.elsevier.com/content/object/eid/1-s2.0-S0926860X24002709-si0021.svg?httpAccept=%2A%2F%2A",
+            "@multimediatype": "Scalable Vector Graphics file",
+            "@type": "ALTIMG",
+            "@size": "1187",
+            "@ref": "si0021",
+            "@mimetype": "image/svg+xml"
+          },
+          {
+            "@category": "standard",
+            "@_fa": "true",
+            "$": "https://api.elsevier.com/content/object/eid/1-s2.0-S0926860X24002709-am.pdf?httpAccept=%2A%2F%2A",
+            "@multimediatype": "Acrobat PDF file",
+            "@type": "AAM-PDF",
+            "@size": "1248370",
+            "@ref": "am",
+            "@mimetype": "application/pdf"
+          }
+        ]
+      },
+      "link": {
+        "@rel": "abstract",
+        "@href": "https://api.elsevier.com/content/abstract/scopus_id/85195171466"
+      }
+    }
+  }
+}

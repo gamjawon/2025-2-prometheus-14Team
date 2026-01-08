@@ -1,0 +1,1045 @@
+{
+  "metadata": {
+    "title": "Effects of water on the kinetics of acetone hydrogenation over Pt and Ru catalysts",
+    "authors": "; ; ",
+    "journal": "Journal of Catalysis",
+    "date": "2021-11-30",
+    "doi": "10.1016/j.jcat.2021.03.013",
+    "abstract": "",
+    "uri": "https://api.elsevier.com/content/article/pii/S0021951721001172",
+    "pii": "S0021951721001172"
+  },
+  "fulltext": {
+    "full-text-retrieval-response": {
+      "scopus-eid": "2-s2.0-85103958628",
+      "originalText": "serial JL 272561 291210 291744 291809 31 Journal of Catalysis JOURNALCATALYSIS 2021-03-18 2021-03-18 2021-12-15 2021-12-15 2021-12-15T07:37:09 1-s2.0-S0021951721001172 S0021-9517(21)00117-2 S0021951721001172 10.1016/j.jcat.2021.03.013 S300 S300.1 FULL-TEXT 1-s2.0-S0021951721X00115 2022-12-13T01:11:43.862556Z 0 0 20211101 20211130 2021 2021-03-18T09:13:30.908621Z absattachment articleinfo articletitlenorm authfirstinitialnorm authfirstsurnamenorm cid cids confeditor contenttype copyright crossmark dateloaded dateloadedtxt datesearch datesort dateupdated dco docsubtype doctype doi eid ewtransactionid hubeid indexeddate issn issnnorm itemstage itemtransactionid itemweight openaccess openarchive pg pgfirst pglast pii piinorm pubdateend pubdatestart pubdatetxt pubyr sectiontitle sortorder srctitle srctitlenorm srctype ssids alllist content subj subheadings suppl tomb vol volfirst volissue volumelist webpdf webpdfpagecount yearnav figure table e-component body mmlmath acknowledge affil appendices articletitle auth authfirstini authfull authkeywords authlast footnotes highlightsabst orcid primabst ref specialabst 0021-9517 00219517 true 403 403 C Volume 403 21 215 227 215 227 202111 November 2021 2021-11-01 2021-11-30 2021 Special issue of Journal of Catalysis in honour of Dr. Henrik Topsøe Roel Prins Ted Oyama Bjerne S. Clausen Metals article fla © 2021 Elsevier Inc. All rights reserved. EFFECTSWATERKINETICSACETONEHYDROGENATIONOVERPTRUCATALYSTS DEMIR B 1 Introduction 2 Methods 2.1 Experimental methods 2.1.1 Catalyst synthesis and characterization 2.1.2 Catalytic activity measurements 2.1.3 Analysis 2.2 Computational methods 2.2.1 Density functional theory calculations 2.2.2 Microkinetic modeling 3 Results and discussion 3.1 Experimental reactivity studies under steady state 3.1.1 Effect of water on the activity over Pt-based catalyst 3.1.2 Effect of water on the activity over Ru-based catalyst 3.1.3 Reaction kinetics studies 3.1.4 Effect of water on the activity over Ru/C at high acetone-water concentrations 3.1.5 Catalyst stability 3.2 Density functional theory calculations 3.2.1 Reaction mechanism 3.2.2 Water-free surface energetics 3.2.3 Impact of co-adsorbed water on the energetics 3.3 Microkinetic modeling 3.4 Isotopic tracing studies 4 Conclusions Data availability Code availability Acknowledgment Appendix A Supplementary material References TOPSOE 2011 337 351 N TEMEL 2010 280 289 B MOSES 2007 188 203 P SEN 1988 52 71 B SINHA 2012 31 44 N ABDELRAHMAN 2017 59 74 O MICHEL 2014 12450 12453 C WAN 2014 174 184 H AKPA 2012 30 41 B ALONSO 2013 584 D NING 2007 1763 1766 J ABDELRAHMAN 2015 10 21 O GERCEKER 2017 2088 2100 D BLOCHL 1994 17953 17979 P KRESSE 1999 11 19 G KRESSE 1996 11169 11186 G KRESSE 1996 15 50 G PERDEW 1996 3865 3868 J GRIMME 2006 1787 1799 S KERBER 2008 2088 2097 T REGO 2017 235422 C ROYER 2011 24 65 S MOMMA 2011 1272 1276 K MOTAGAMWALA 2018 413 450 A PISKUN 2016 2939 2950 A ABDELRAHMAN 2014 1171 1181 O DEMIR 2020 3446 3450 B CAMPBELL 1994 353 366 C CAMPBELL 2001 520 524 C DEMIRX2021X215 DEMIRX2021X215X227 DEMIRX2021X215XB DEMIRX2021X215X227XB CHU_DOE publishAcceptedManuscriptIndexable http://www.elsevier.com/open-access/userlicense/1.0/ 2022-12-15T00:00:00.000Z http://creativecommons.org/licenses/by-nc-nd/4.0/ © 2021 Elsevier Inc. All rights reserved. 2021-06-07T14:56:54.674Z http://vtw.elsevier.com/data/voc/AddOnTypes/50.7/aggregated-refined Center for Nanoscale Materials Argonne National Laboratory DE-AC02-06CH11357 ANL Argonne National Laboratory http://data.elsevier.com/vocabulary/SciValFunders/100006224 http://sws.geonames.org/6252001/ DOE-BES DE-AC02-05CH11231 DE-FG02-05ER15731 Chemical Sciences, Geosciences, and Biosciences Division DE-SC0014058 CSGB Chemical Sciences, Geosciences, and Biosciences Division http://data.elsevier.com/vocabulary/SciValFunders/100013145 http://sws.geonames.org/6252001/ DOE USDOE US Department of Energy http://data.elsevier.com/vocabulary/SciValFunders/100000015 http://sws.geonames.org/6252001 DOE Great Lakes Bioenergy Research Center DE-SC0018409 GLBRC Great Lakes Bioenergy Research Center http://data.elsevier.com/vocabulary/SciValFunders/100015814 http://sws.geonames.org/6252001/ Alexander von Humboldt Foundation Alexander von Humboldt-Stiftung http://data.elsevier.com/vocabulary/SciValFunders/100005156 http://sws.geonames.org/2921044/ Office of Basic Energy Sciences BES Basic Energy Sciences http://data.elsevier.com/vocabulary/SciValFunders/100006151 http://sws.geonames.org/6252001/ Office of Science SC Office of Science http://data.elsevier.com/vocabulary/SciValFunders/100006132 http://sws.geonames.org/6252001/ This material is based upon work supported by the U.S. Department of Energy, Office of Science, Office of Basic Energy Sciences, Chemical Sciences, Geosciences, and Biosciences Division, under Contract DE-SC0014058. This work has also been supported by the U.S. Department of Energy (DOE) through the Office of Basic Energy Sciences by the DOE Great Lakes Bioenergy Research Center (GLBRC) by grant DE-SC0018409. Computational work, supported by DOE-BES, grant # DE-FG02-05ER15731, was performed using supercomputing resources at the National Energy Research Scientific Computing Center (NERSC), supported by DOE under contract number DE-AC02-05CH11231, and at the Center for Nanoscale Materials (CNM) at Argonne National Laboratory supported by DOE under contract number DE-AC02-06CH11357. Thomas Kropp is grateful for partial financial support by the Alexander von Humboldt Foundation. This paper was inspired by Dr. Henrik Topsøe, who was a strong advocate for the combined use of microkinetic analysis and experimental studies in catalysis research. 0 https://doi.org/10.15223/policy-017 https://doi.org/10.15223/policy-037 https://doi.org/10.15223/policy-012 https://doi.org/10.15223/policy-029 https://doi.org/10.15223/policy-004 item S0021-9517(21)00117-2 S0021951721001172 1-s2.0-S0021951721001172 10.1016/j.jcat.2021.03.013 272561 2022-03-07T01:16:52.196761Z 2021-11-01 2021-11-30 1-s2.0-S0021951721001172-main.pdf https://s3-eu-west-1.amazonaws.com/prod-ucs-content-store-eu-west/content/pii:S0021951721001172/MAIN/application/pdf/c70d838e4bb881cad213bec46d7c3889/main.pdf main.pdf pdf true 2115345 MAIN 13 1-s2.0-S0021951721001172-main_1.png https://s3-eu-west-1.amazonaws.com/prod-ucs-content-store-eu-west/content/pii:S0021951721001172/PREVIEW/image/png/304b704e5a9d600a16cf0a225ce12446/main_1.png main_1.png png 58901 849 656 IMAGE-WEB-PDF 1 1-s2.0-S0021951721001172-fx1.jpg https://s3-eu-west-1.amazonaws.com/prod-ucs-content-store-eu-west/content/pii:S0021951721001172/fx1/DOWNSAMPLED/image/jpeg/246f06c97c7f931c92dc85e874ba2ecf/fx1.jpg fx1 fx1.jpg jpg 420 9 9 IMAGE-DOWNSAMPLED 1-s2.0-S0021951721001172-fx2.jpg https://s3-eu-west-1.amazonaws.com/prod-ucs-content-store-eu-west/content/pii:S0021951721001172/fx2/DOWNSAMPLED/image/jpeg/c2049a4333e074cf7344bbc0ca8bc248/fx2.jpg fx2 fx2.jpg jpg 455 10 10 IMAGE-DOWNSAMPLED 1-s2.0-S0021951721001172-fx3.jpg https://s3-eu-west-1.amazonaws.com/prod-ucs-content-store-eu-west/content/pii:S0021951721001172/fx3/DOWNSAMPLED/image/jpeg/f5d5e91de364b358bfddf2a25fecc27d/fx3.jpg fx3 fx3.jpg jpg 103793 744 690 IMAGE-DOWNSAMPLED 1-s2.0-S0021951721001172-ga1.jpg https://s3-eu-west-1.amazonaws.com/prod-ucs-content-store-eu-west/content/pii:S0021951721001172/ga1/DOWNSAMPLED/image/jpeg/2720205134c02be3b2c78f99c12a6fc1/ga1.jpg ga1 true ga1.jpg jpg 33021 200 491 IMAGE-DOWNSAMPLED 1-s2.0-S0021951721001172-gr1.jpg https://s3-eu-west-1.amazonaws.com/prod-ucs-content-store-eu-west/content/pii:S0021951721001172/gr1/DOWNSAMPLED/image/jpeg/f508c96c7fc3a047fafe8a5c91663779/gr1.jpg gr1 gr1.jpg jpg 26043 263 364 IMAGE-DOWNSAMPLED 1-s2.0-S0021951721001172-gr10.jpg https://s3-eu-west-1.amazonaws.com/prod-ucs-content-store-eu-west/content/pii:S0021951721001172/gr10/DOWNSAMPLED/image/jpeg/720eff7ada8db54d3cf5877796e87ebc/gr10.jpg gr10 gr10.jpg jpg 70525 579 543 IMAGE-DOWNSAMPLED 1-s2.0-S0021951721001172-gr2.jpg https://s3-eu-west-1.amazonaws.com/prod-ucs-content-store-eu-west/content/pii:S0021951721001172/gr2/DOWNSAMPLED/image/jpeg/d499c7134735f3947715263c6707f606/gr2.jpg gr2 gr2.jpg jpg 27869 262 364 IMAGE-DOWNSAMPLED 1-s2.0-S0021951721001172-gr3.jpg https://s3-eu-west-1.amazonaws.com/prod-ucs-content-store-eu-west/content/pii:S0021951721001172/gr3/DOWNSAMPLED/image/jpeg/66b70cd923a2f5aac397fbd711f448c0/gr3.jpg gr3 gr3.jpg jpg 84021 580 667 IMAGE-DOWNSAMPLED 1-s2.0-S0021951721001172-gr4.jpg https://s3-eu-west-1.amazonaws.com/prod-ucs-content-store-eu-west/content/pii:S0021951721001172/gr4/DOWNSAMPLED/image/jpeg/4e805e8daa573db4b53441bc0607be21/gr4.jpg gr4 gr4.jpg jpg 48899 284 543 IMAGE-DOWNSAMPLED 1-s2.0-S0021951721001172-gr5.jpg https://s3-eu-west-1.amazonaws.com/prod-ucs-content-store-eu-west/content/pii:S0021951721001172/gr5/DOWNSAMPLED/image/jpeg/b208ccea830f43a4f2c5e3eb54accc5c/gr5.jpg gr5 gr5.jpg jpg 16986 213 364 IMAGE-DOWNSAMPLED 1-s2.0-S0021951721001172-gr6.jpg https://s3-eu-west-1.amazonaws.com/prod-ucs-content-store-eu-west/content/pii:S0021951721001172/gr6/DOWNSAMPLED/image/jpeg/8e29b959005cf5b54a526c57b9a56787/gr6.jpg gr6 gr6.jpg jpg 81790 571 667 IMAGE-DOWNSAMPLED 1-s2.0-S0021951721001172-gr7.jpg https://s3-eu-west-1.amazonaws.com/prod-ucs-content-store-eu-west/content/pii:S0021951721001172/gr7/DOWNSAMPLED/image/jpeg/83508f0d43f905d89d929062d569322c/gr7.jpg gr7 gr7.jpg jpg 35343 198 711 IMAGE-DOWNSAMPLED 1-s2.0-S0021951721001172-gr8.jpg https://s3-eu-west-1.amazonaws.com/prod-ucs-content-store-eu-west/content/pii:S0021951721001172/gr8/DOWNSAMPLED/image/jpeg/4beae35e48f1dcd7d4ff1b38e3eb618e/gr8.jpg gr8 gr8.jpg jpg 41568 198 711 IMAGE-DOWNSAMPLED 1-s2.0-S0021951721001172-gr9.jpg https://s3-eu-west-1.amazonaws.com/prod-ucs-content-store-eu-west/content/pii:S0021951721001172/gr9/DOWNSAMPLED/image/jpeg/ca18b8ee40c250f4f0c7f5d4aeabe9f6/gr9.jpg gr9 gr9.jpg jpg 29361 551 364 IMAGE-DOWNSAMPLED 1-s2.0-S0021951721001172-fx1.sml https://s3-eu-west-1.amazonaws.com/prod-ucs-content-store-eu-west/content/pii:S0021951721001172/fx1/THUMBNAIL/image/gif/3c0ba3bbca959fe554c0faf321ec3194/fx1.sml fx1 fx1.sml sml 1758 40 40 IMAGE-THUMBNAIL 1-s2.0-S0021951721001172-fx2.sml https://s3-eu-west-1.amazonaws.com/prod-ucs-content-store-eu-west/content/pii:S0021951721001172/fx2/THUMBNAIL/image/gif/c96b6db142228ba0077e0ea69b37f097/fx2.sml fx2 fx2.sml sml 2206 45 45 IMAGE-THUMBNAIL 1-s2.0-S0021951721001172-fx3.sml https://s3-eu-west-1.amazonaws.com/prod-ucs-content-store-eu-west/content/pii:S0021951721001172/fx3/THUMBNAIL/image/gif/29c7350d267b81633933890e9797fc4c/fx3.sml fx3 fx3.sml sml 5583 164 152 IMAGE-THUMBNAIL 1-s2.0-S0021951721001172-ga1.sml https://s3-eu-west-1.amazonaws.com/prod-ucs-content-store-eu-west/content/pii:S0021951721001172/ga1/THUMBNAIL/image/gif/642c17fe4c855577ea0acea225608d72/ga1.sml ga1 true ga1.sml sml 7113 89 219 IMAGE-THUMBNAIL 1-s2.0-S0021951721001172-gr1.sml https://s3-eu-west-1.amazonaws.com/prod-ucs-content-store-eu-west/content/pii:S0021951721001172/gr1/THUMBNAIL/image/gif/7327a398db88649d46505df956adc84c/gr1.sml gr1 gr1.sml sml 8946 158 219 IMAGE-THUMBNAIL 1-s2.0-S0021951721001172-gr10.sml https://s3-eu-west-1.amazonaws.com/prod-ucs-content-store-eu-west/content/pii:S0021951721001172/gr10/THUMBNAIL/image/gif/4e15ccbfebd0337d3cd932d622ab0df1/gr10.sml gr10 gr10.sml sml 6801 164 154 IMAGE-THUMBNAIL 1-s2.0-S0021951721001172-gr2.sml https://s3-eu-west-1.amazonaws.com/prod-ucs-content-store-eu-west/content/pii:S0021951721001172/gr2/THUMBNAIL/image/gif/7b1232b198398580af4b774fad2f7656/gr2.sml gr2 gr2.sml sml 9127 158 219 IMAGE-THUMBNAIL 1-s2.0-S0021951721001172-gr3.sml https://s3-eu-west-1.amazonaws.com/prod-ucs-content-store-eu-west/content/pii:S0021951721001172/gr3/THUMBNAIL/image/gif/7917adecb68f82609d7b6c72eef7003a/gr3.sml gr3 gr3.sml sml 6951 164 189 IMAGE-THUMBNAIL 1-s2.0-S0021951721001172-gr4.sml https://s3-eu-west-1.amazonaws.com/prod-ucs-content-store-eu-west/content/pii:S0021951721001172/gr4/THUMBNAIL/image/gif/68c9645e0bca4ad56fd71fe62985bd4a/gr4.sml gr4 gr4.sml sml 7936 115 219 IMAGE-THUMBNAIL 1-s2.0-S0021951721001172-gr5.sml https://s3-eu-west-1.amazonaws.com/prod-ucs-content-store-eu-west/content/pii:S0021951721001172/gr5/THUMBNAIL/image/gif/68d92d1ffb7fe2cdc161f5de94d9443d/gr5.sml gr5 gr5.sml sml 5543 128 219 IMAGE-THUMBNAIL 1-s2.0-S0021951721001172-gr6.sml https://s3-eu-west-1.amazonaws.com/prod-ucs-content-store-eu-west/content/pii:S0021951721001172/gr6/THUMBNAIL/image/gif/e1d47427e07bfaa3e8b397eb38302384/gr6.sml gr6 gr6.sml sml 8340 164 191 IMAGE-THUMBNAIL 1-s2.0-S0021951721001172-gr7.sml https://s3-eu-west-1.amazonaws.com/prod-ucs-content-store-eu-west/content/pii:S0021951721001172/gr7/THUMBNAIL/image/gif/8a99f41bd5b70d6bdf091585887f73b4/gr7.sml gr7 gr7.sml sml 4837 61 219 IMAGE-THUMBNAIL 1-s2.0-S0021951721001172-gr8.sml https://s3-eu-west-1.amazonaws.com/prod-ucs-content-store-eu-west/content/pii:S0021951721001172/gr8/THUMBNAIL/image/gif/55664f981bc15444530d95e6fe7b72dd/gr8.sml gr8 gr8.sml sml 5555 61 219 IMAGE-THUMBNAIL 1-s2.0-S0021951721001172-gr9.sml https://s3-eu-west-1.amazonaws.com/prod-ucs-content-store-eu-west/content/pii:S0021951721001172/gr9/THUMBNAIL/image/gif/03bb347eebab4bf6233bab4079c86ba9/gr9.sml gr9 gr9.sml sml 2658 163 108 IMAGE-THUMBNAIL 1-s2.0-S0021951721001172-fx1_lrg.jpg https://s3-eu-west-1.amazonaws.com/prod-ucs-content-store-eu-west/content/pii:S0021951721001172/fx1/HIGHRES/image/jpeg/fca9d3ff110304b764c4d511cc59fff5/fx1_lrg.jpg fx1 fx1_lrg.jpg jpg 1067 40 40 IMAGE-HIGH-RES 1-s2.0-S0021951721001172-fx2_lrg.jpg https://s3-eu-west-1.amazonaws.com/prod-ucs-content-store-eu-west/content/pii:S0021951721001172/fx2/HIGHRES/image/jpeg/1f4b3f43738e7f2bb666553a11ebacb3/fx2_lrg.jpg fx2 fx2_lrg.jpg jpg 1083 45 45 IMAGE-HIGH-RES 1-s2.0-S0021951721001172-fx3_lrg.jpg https://s3-eu-west-1.amazonaws.com/prod-ucs-content-store-eu-west/content/pii:S0021951721001172/fx3/HIGHRES/image/jpeg/310924fb69ef044bef1daa8339cb8005/fx3_lrg.jpg fx3 fx3_lrg.jpg jpg 599210 3294 3055 IMAGE-HIGH-RES 1-s2.0-S0021951721001172-ga1_lrg.jpg https://s3-eu-west-1.amazonaws.com/prod-ucs-content-store-eu-west/content/pii:S0021951721001172/ga1/HIGHRES/image/jpeg/7bc6deaefee8370c48d16a925c68ae5a/ga1_lrg.jpg ga1 true ga1_lrg.jpg jpg 111110 531 1305 IMAGE-HIGH-RES 1-s2.0-S0021951721001172-gr1_lrg.jpg https://s3-eu-west-1.amazonaws.com/prod-ucs-content-store-eu-west/content/pii:S0021951721001172/gr1/HIGHRES/image/jpeg/1ee1cddfa78e28fa063b288cdb095bdb/gr1_lrg.jpg gr1 gr1_lrg.jpg jpg 211732 1165 1614 IMAGE-HIGH-RES 1-s2.0-S0021951721001172-gr10_lrg.jpg https://s3-eu-west-1.amazonaws.com/prod-ucs-content-store-eu-west/content/pii:S0021951721001172/gr10/HIGHRES/image/jpeg/ff9a2c515485f8ea0f5708beb784f4db/gr10_lrg.jpg gr10 gr10_lrg.jpg jpg 525893 2561 2403 IMAGE-HIGH-RES 1-s2.0-S0021951721001172-gr2_lrg.jpg https://s3-eu-west-1.amazonaws.com/prod-ucs-content-store-eu-west/content/pii:S0021951721001172/gr2/HIGHRES/image/jpeg/4ee8a20a1e29652e4d98fc76852233df/gr2_lrg.jpg gr2 gr2_lrg.jpg jpg 207969 1162 1614 IMAGE-HIGH-RES 1-s2.0-S0021951721001172-gr3_lrg.jpg https://s3-eu-west-1.amazonaws.com/prod-ucs-content-store-eu-west/content/pii:S0021951721001172/gr3/HIGHRES/image/jpeg/a5d77d6df577a5389d1e9bc1afd23193/gr3_lrg.jpg gr3 gr3_lrg.jpg jpg 557593 2566 2953 IMAGE-HIGH-RES 1-s2.0-S0021951721001172-gr4_lrg.jpg https://s3-eu-west-1.amazonaws.com/prod-ucs-content-store-eu-west/content/pii:S0021951721001172/gr4/HIGHRES/image/jpeg/300dff9cd72c9ec092e045dff6430a53/gr4_lrg.jpg gr4 gr4_lrg.jpg jpg 372686 1257 2403 IMAGE-HIGH-RES 1-s2.0-S0021951721001172-gr5_lrg.jpg https://s3-eu-west-1.amazonaws.com/prod-ucs-content-store-eu-west/content/pii:S0021951721001172/gr5/HIGHRES/image/jpeg/8491d86fe0e8c9ee99d485e97f1e155b/gr5_lrg.jpg gr5 gr5_lrg.jpg jpg 141450 943 1614 IMAGE-HIGH-RES 1-s2.0-S0021951721001172-gr6_lrg.jpg https://s3-eu-west-1.amazonaws.com/prod-ucs-content-store-eu-west/content/pii:S0021951721001172/gr6/HIGHRES/image/jpeg/75ea6b3cc4f4729f9ff508386dfe29c1/gr6_lrg.jpg gr6 gr6_lrg.jpg jpg 581045 2529 2953 IMAGE-HIGH-RES 1-s2.0-S0021951721001172-gr7_lrg.jpg https://s3-eu-west-1.amazonaws.com/prod-ucs-content-store-eu-west/content/pii:S0021951721001172/gr7/HIGHRES/image/jpeg/429d2d7163ba65211119350d71f95811/gr7_lrg.jpg gr7 gr7_lrg.jpg jpg 174864 876 3150 IMAGE-HIGH-RES 1-s2.0-S0021951721001172-gr8_lrg.jpg https://s3-eu-west-1.amazonaws.com/prod-ucs-content-store-eu-west/content/pii:S0021951721001172/gr8/HIGHRES/image/jpeg/5b42e2393c3ec0e3b2fde990f450b651/gr8_lrg.jpg gr8 gr8_lrg.jpg jpg 204201 877 3150 IMAGE-HIGH-RES 1-s2.0-S0021951721001172-gr9_lrg.jpg https://s3-eu-west-1.amazonaws.com/prod-ucs-content-store-eu-west/content/pii:S0021951721001172/gr9/HIGHRES/image/jpeg/8f44680a88672af08b66b0ffbf22d971/gr9_lrg.jpg gr9 gr9_lrg.jpg jpg 167975 2442 1614 IMAGE-HIGH-RES 1-s2.0-S0021951721001172-mmc1.docx https://s3-eu-west-1.amazonaws.com/prod-ucs-content-store-eu-west/content/pii:S0021951721001172/mmc1/MAIN/application/vnd.openxmlformats-officedocument.wordprocessingml.document/d5975cc03130a1bba5f95d66fd9142cc/mmc1.docx mmc1 mmc1.docx docx 322205 APPLICATION 1-s2.0-S0021951721001172-si1.svg https://s3-eu-west-1.amazonaws.com/prod-ucs-content-store-eu-west/content/pii:S0021951721001172/STRIPIN/image/svg+xml/1ec26539b99f289627006efb1c110ac1/si1.svg si1 si1.svg svg 47326 ALTIMG 1-s2.0-S0021951721001172-si10.svg https://s3-eu-west-1.amazonaws.com/prod-ucs-content-store-eu-west/content/pii:S0021951721001172/STRIPIN/image/svg+xml/9762f7dc53bf28fb3bc527c353eff94e/si10.svg si10 si10.svg svg 4200 ALTIMG 1-s2.0-S0021951721001172-si11.svg https://s3-eu-west-1.amazonaws.com/prod-ucs-content-store-eu-west/content/pii:S0021951721001172/STRIPIN/image/svg+xml/fc6c76347abb1ce86d523cb006babaff/si11.svg si11 si11.svg svg 3309 ALTIMG 1-s2.0-S0021951721001172-si12.svg https://s3-eu-west-1.amazonaws.com/prod-ucs-content-store-eu-west/content/pii:S0021951721001172/STRIPIN/image/svg+xml/c6ff7139a3b799986e84b3f66fe20e94/si12.svg si12 si12.svg svg 4203 ALTIMG 1-s2.0-S0021951721001172-si13.svg https://s3-eu-west-1.amazonaws.com/prod-ucs-content-store-eu-west/content/pii:S0021951721001172/STRIPIN/image/svg+xml/64f43bc426abb8abad355fd449812bdc/si13.svg si13 si13.svg svg 4506 ALTIMG 1-s2.0-S0021951721001172-si14.svg https://s3-eu-west-1.amazonaws.com/prod-ucs-content-store-eu-west/content/pii:S0021951721001172/STRIPIN/image/svg+xml/7069ae53adee3ba5edd37e0af240db18/si14.svg si14 si14.svg svg 20607 ALTIMG 1-s2.0-S0021951721001172-si15.svg https://s3-eu-west-1.amazonaws.com/prod-ucs-content-store-eu-west/content/pii:S0021951721001172/STRIPIN/image/svg+xml/85d49f516869846a39584bcbbbdff45e/si15.svg si15 si15.svg svg 22580 ALTIMG 1-s2.0-S0021951721001172-si16.svg https://s3-eu-west-1.amazonaws.com/prod-ucs-content-store-eu-west/content/pii:S0021951721001172/STRIPIN/image/svg+xml/bb2afa6c60f6a50b64c311e6987819cb/si16.svg si16 si16.svg svg 20649 ALTIMG 1-s2.0-S0021951721001172-si17.svg https://s3-eu-west-1.amazonaws.com/prod-ucs-content-store-eu-west/content/pii:S0021951721001172/STRIPIN/image/svg+xml/d918a17956021ca81533b8b7b96a4763/si17.svg si17 si17.svg svg 15656 ALTIMG 1-s2.0-S0021951721001172-si18.svg https://s3-eu-west-1.amazonaws.com/prod-ucs-content-store-eu-west/content/pii:S0021951721001172/STRIPIN/image/svg+xml/0c8997ac2fdcda27b41b5b2467811eb1/si18.svg si18 si18.svg svg 16655 ALTIMG 1-s2.0-S0021951721001172-si19.svg https://s3-eu-west-1.amazonaws.com/prod-ucs-content-store-eu-west/content/pii:S0021951721001172/STRIPIN/image/svg+xml/d61c140e413b127cf5dab4656c41c55d/si19.svg si19 si19.svg svg 9653 ALTIMG 1-s2.0-S0021951721001172-si2.svg https://s3-eu-west-1.amazonaws.com/prod-ucs-content-store-eu-west/content/pii:S0021951721001172/STRIPIN/image/svg+xml/1482c55ad6be2064c5e2c3da914db9b8/si2.svg si2 si2.svg svg 29690 ALTIMG 1-s2.0-S0021951721001172-si20.svg https://s3-eu-west-1.amazonaws.com/prod-ucs-content-store-eu-west/content/pii:S0021951721001172/STRIPIN/image/svg+xml/6ae32f0bf6a835fad72d1e9de234080a/si20.svg si20 si20.svg svg 18334 ALTIMG 1-s2.0-S0021951721001172-si21.svg https://s3-eu-west-1.amazonaws.com/prod-ucs-content-store-eu-west/content/pii:S0021951721001172/STRIPIN/image/svg+xml/ab1e3a7409a2068d17f84072ca7c4a5f/si21.svg si21 si21.svg svg 2518 ALTIMG 1-s2.0-S0021951721001172-si22.svg https://s3-eu-west-1.amazonaws.com/prod-ucs-content-store-eu-west/content/pii:S0021951721001172/STRIPIN/image/svg+xml/0efb2c02b5b154da2d253b5679da2b9d/si22.svg si22 si22.svg svg 3520 ALTIMG 1-s2.0-S0021951721001172-si23.svg https://s3-eu-west-1.amazonaws.com/prod-ucs-content-store-eu-west/content/pii:S0021951721001172/STRIPIN/image/svg+xml/ce1a9b27a8410a689b40f85c358b6eb5/si23.svg si23 si23.svg svg 4494 ALTIMG 1-s2.0-S0021951721001172-si24.svg https://s3-eu-west-1.amazonaws.com/prod-ucs-content-store-eu-west/content/pii:S0021951721001172/STRIPIN/image/svg+xml/93d31626be4b81ebc518d8ef538cd263/si24.svg si24 si24.svg svg 11813 ALTIMG 1-s2.0-S0021951721001172-si25.svg https://s3-eu-west-1.amazonaws.com/prod-ucs-content-store-eu-west/content/pii:S0021951721001172/STRIPIN/image/svg+xml/d870f7dba7c54e1ed01ede3209aeef10/si25.svg si25 si25.svg svg 11352 ALTIMG 1-s2.0-S0021951721001172-si26.svg https://s3-eu-west-1.amazonaws.com/prod-ucs-content-store-eu-west/content/pii:S0021951721001172/STRIPIN/image/svg+xml/4172d8bfedabdba178325ead97e09a10/si26.svg si26 si26.svg svg 21819 ALTIMG 1-s2.0-S0021951721001172-si27.svg https://s3-eu-west-1.amazonaws.com/prod-ucs-content-store-eu-west/content/pii:S0021951721001172/STRIPIN/image/svg+xml/012d929c99e4cc9dc0e12537ca11f5c4/si27.svg si27 si27.svg svg 8872 ALTIMG 1-s2.0-S0021951721001172-si28.svg https://s3-eu-west-1.amazonaws.com/prod-ucs-content-store-eu-west/content/pii:S0021951721001172/STRIPIN/image/svg+xml/5ab060434ba23a68e0bdf9c030cab4ad/si28.svg si28 si28.svg svg 8987 ALTIMG 1-s2.0-S0021951721001172-si29.svg https://s3-eu-west-1.amazonaws.com/prod-ucs-content-store-eu-west/content/pii:S0021951721001172/STRIPIN/image/svg+xml/bfb9227f9947b28f8eadb8f2350246f2/si29.svg si29 si29.svg svg 4768 ALTIMG 1-s2.0-S0021951721001172-si3.svg https://s3-eu-west-1.amazonaws.com/prod-ucs-content-store-eu-west/content/pii:S0021951721001172/STRIPIN/image/svg+xml/46d79e5b798d2528dafd6bb116622568/si3.svg si3 si3.svg svg 15874 ALTIMG 1-s2.0-S0021951721001172-si30.svg https://s3-eu-west-1.amazonaws.com/prod-ucs-content-store-eu-west/content/pii:S0021951721001172/STRIPIN/image/svg+xml/e13bd2320d43b3374f120f4e05bd3e16/si30.svg si30 si30.svg svg 6177 ALTIMG 1-s2.0-S0021951721001172-si31.svg https://s3-eu-west-1.amazonaws.com/prod-ucs-content-store-eu-west/content/pii:S0021951721001172/STRIPIN/image/svg+xml/b40829bfdaf2383a1c8314194c8d79b6/si31.svg si31 si31.svg svg 9921 ALTIMG 1-s2.0-S0021951721001172-si32.svg https://s3-eu-west-1.amazonaws.com/prod-ucs-content-store-eu-west/content/pii:S0021951721001172/STRIPIN/image/svg+xml/dcc175d8952c6825014d5bbeb512d9f1/si32.svg si32 si32.svg svg 6136 ALTIMG 1-s2.0-S0021951721001172-si33.svg https://s3-eu-west-1.amazonaws.com/prod-ucs-content-store-eu-west/content/pii:S0021951721001172/STRIPIN/image/svg+xml/d06673b6db48514afccebe94fddba2e2/si33.svg si33 si33.svg svg 19753 ALTIMG 1-s2.0-S0021951721001172-si34.svg https://s3-eu-west-1.amazonaws.com/prod-ucs-content-store-eu-west/content/pii:S0021951721001172/STRIPIN/image/svg+xml/1ff44054caa0ae1b6e0366c35b8149a8/si34.svg si34 si34.svg svg 21547 ALTIMG 1-s2.0-S0021951721001172-si35.svg https://s3-eu-west-1.amazonaws.com/prod-ucs-content-store-eu-west/content/pii:S0021951721001172/STRIPIN/image/svg+xml/c199c42a7e5605749642b4f011300ba0/si35.svg si35 si35.svg svg 18295 ALTIMG 1-s2.0-S0021951721001172-si36.svg https://s3-eu-west-1.amazonaws.com/prod-ucs-content-store-eu-west/content/pii:S0021951721001172/STRIPIN/image/svg+xml/c76db74671351217f1b0b562209a61a9/si36.svg si36 si36.svg svg 26416 ALTIMG 1-s2.0-S0021951721001172-si37.svg https://s3-eu-west-1.amazonaws.com/prod-ucs-content-store-eu-west/content/pii:S0021951721001172/STRIPIN/image/svg+xml/04122f57acdfa47eac88f0af250ef607/si37.svg si37 si37.svg svg 21206 ALTIMG 1-s2.0-S0021951721001172-si38.svg https://s3-eu-west-1.amazonaws.com/prod-ucs-content-store-eu-west/content/pii:S0021951721001172/STRIPIN/image/svg+xml/a0d20c9d22f4cabd01b695292e9b2324/si38.svg si38 si38.svg svg 21274 ALTIMG 1-s2.0-S0021951721001172-si39.svg https://s3-eu-west-1.amazonaws.com/prod-ucs-content-store-eu-west/content/pii:S0021951721001172/STRIPIN/image/svg+xml/aee2c306b0de68d5eb6e1d4804aae1fc/si39.svg si39 si39.svg svg 35162 ALTIMG 1-s2.0-S0021951721001172-si4.svg https://s3-eu-west-1.amazonaws.com/prod-ucs-content-store-eu-west/content/pii:S0021951721001172/STRIPIN/image/svg+xml/558e91a528beabed005fcb74a7fe7c3f/si4.svg si4 si4.svg svg 14515 ALTIMG 1-s2.0-S0021951721001172-si40.svg https://s3-eu-west-1.amazonaws.com/prod-ucs-content-store-eu-west/content/pii:S0021951721001172/STRIPIN/image/svg+xml/5d99daa09ff3d848173641954165432c/si40.svg si40 si40.svg svg 26692 ALTIMG 1-s2.0-S0021951721001172-si41.svg https://s3-eu-west-1.amazonaws.com/prod-ucs-content-store-eu-west/content/pii:S0021951721001172/STRIPIN/image/svg+xml/931c2cb8479dbe3a40f989abb1114e0a/si41.svg si41 si41.svg svg 7097 ALTIMG 1-s2.0-S0021951721001172-si42.svg https://s3-eu-west-1.amazonaws.com/prod-ucs-content-store-eu-west/content/pii:S0021951721001172/STRIPIN/image/svg+xml/c44992a8e0679683693586ca7856b40d/si42.svg si42 si42.svg svg 849 ALTIMG 1-s2.0-S0021951721001172-si5.svg https://s3-eu-west-1.amazonaws.com/prod-ucs-content-store-eu-west/content/pii:S0021951721001172/STRIPIN/image/svg+xml/ec1ff63deca0c8d39756985ebf74116b/si5.svg si5 si5.svg svg 15487 ALTIMG 1-s2.0-S0021951721001172-si6.svg https://s3-eu-west-1.amazonaws.com/prod-ucs-content-store-eu-west/content/pii:S0021951721001172/STRIPIN/image/svg+xml/3f8f2d9c36ff0a14888a120814c896c8/si6.svg si6 si6.svg svg 14777 ALTIMG 1-s2.0-S0021951721001172-si7.svg https://s3-eu-west-1.amazonaws.com/prod-ucs-content-store-eu-west/content/pii:S0021951721001172/STRIPIN/image/svg+xml/d72d96beed512b2081766ddf5ab1e816/si7.svg si7 si7.svg svg 11229 ALTIMG 1-s2.0-S0021951721001172-am.pdf am am.pdf pdf 1027978 AAM-PDF https://s3-eu-west-1.amazonaws.com/prod-ucs-content-store-eu-west/content/egi:10BVX9MSX3B/MAIN/application/pdf/dddf8bfe6c912a95f9ed8fa9d5f24116/am.pdf YJCAT 14121 S0021-9517(21)00117-2 10.1016/j.jcat.2021.03.013 Elsevier Inc. Fig. 1 The effect of water on the kinetics of gas-phase acetone hydrogenation on 3 wt% Pt/SiO2 over a range of acetone partial pressures. The activity of Pt in the absence of water is represented in red circles ( ); while that in the presence of water is represented in blue diamonds ( ). Experimental errors were found by calculating the standard deviation between replicates. Reaction conditions: 125 mg Pt/SiO2 mixed with 1.5 g α-Al2O3, T = 353 K, P = 1 atm, Feed: acetone or acetone:water mixtures (50:50–51:49 vol%) (liq.) = 0.02–0.04 ml/min, H2 = 80–300 cm3(NTP)/min, He = 0–117 cm3(NTP)/min. The site density of 3 wt.% Pt/SiO2 (prepared by incipient wetness impregnation) were determined as 38 μmol of Pt/g catalyst by CO chemisorption, which was used in TOF calculation. The reaction rates were recorded at steady state. Fig. 2 The effect of water on the kinetics of gas-phase acetone hydrogenation on 5 wt% Ru/C over a range of acetone partial pressures. The activity of Ru in the absence of water is represented in red circles ( ); while that in the presence of water is represented in blue diamonds ( ). Error bars for the experiments in the presence of water represent the standard deviation between the replicates; whereas those for the experiments in the absence of water represent the standard deviation between the data points in a single reaction. Reaction conditions: 50–200 mg Ru/C mixed with 0.5–2 g α-Al2O3, T = 353 K, P = 1 atm, Feed: acetone or acetone:water mixtures (50:50–51:49 vol%) (liq.) = 0.02–0.04 ml/min, H2 = 80–300 cm3(NTP)/min, He = 0–117 cm3(NTP)/min. The site density of 5 wt% Ru/C (Aldrich) were determined as 228 μmol of Ru/g catalyst by CO chemisorption, which was used in TOF calculation. The reaction rates were recorded at steady state. (For interpretation of the references to color in this figure legend, the reader is referred to the web version of this article.) Fig. 3 Reaction kinetics parameters for acetone hydrogenation on 5 wt% Ru/C; a) The effect of acetone partial pressure on the turnover frequency of hydrogenation at 353 K, 1 atm, 50 mg catalyst, PAc = 0.02–0.13 atm, PHe = 0–0.11 atm, PH2 = 0.71 atm, PH2O = 0.17 atm; b) The effect of hydrogen partial pressure on the turnover frequency of hydrogenation at 353 K, 1 atm, 50 mg catalyst, PH2 = 0.60–0.79 atm, PHe = 0–0.28 atm, PH2O = 0.17 atm, PAc = 0.04 atm; c) The effect of water partial pressure on the turnover frequency of hydrogenation at 353 K, 1 atm, 50 mg catalyst, PH2O = 0.04–0.17 atm, PHe = 0.08–0.21 atm, PH2 = 0.71 atm, PAc = 0.04 atm; d) Arrhenius plot for hydrogenation in the presence of water at 338–383 K, 1 atm, 50 mg catalyst, PH2 = 0.71 atm, PHe = 0.21 atm, PH2O = 0.06 atm, PAc = 0.02 atm. The reaction rates were recorded at steady state. Fig. 4 The effect of water on the kinetics of gas-phase acetone hydrogenation on 5 wt% Ru/C at high concentrations of water and acetone (AC). Partial pressures of hydrogen, acetone and water for each reaction are given in the legend. Reaction conditions: 200 mg Ru/C mixed with 2 g α-Al2O3, T = 353 K, P = 1 atm, concentration of the feed solution = 100–60 wt% AC: 0–40 wt% water, Feed (liq.) = 0.2 ml/min, H2 = 27 cm3(NTP)/min. The site density of 5 wt% Ru/C (Aldrich) were determined as 228 μmol of Ru/g catalyst by CO chemisorption, which was used in TOF calculation. Fig. 5 Rectification plot of the predicted rates (TOF-predicted) using the rate expression for Ru catalyzed acetone hydrogenation in the presence of water (Eqn. (11)) versus the experimental rates (TOF-exp) in Fig. 4 for the various concentrations of acetone and water. The experimental rates in x-axis (TOF-exp) represent the steady-state turnover frequency of acetone hydrogenation at 100–60 wt% acetone (AC): 0–40 wt% water concentrations as indicated on each data-point in the plot. Fig. 6 Stability of the catalysts for acetone hydrogenation through the reaction time of 16 h; a) 3 wt% Pt/SiO2 stability in the absence of water at 353 K, 1 atm, 125 mg catalyst, PAc = 0.04 atm, PHe = 0.25 atm, PH2 = 0.71 atm; b) 3 wt% Pt/SiO2 stability in the presence of water at 353 K, 1 atm, 125 mg catalyst, PAc = 0.04 atm, PHe = 0.08 atm, PH2 = 0.71 atm, PH2O = 0.17 atm; c) 5 wt% Ru/C stability in the absence of water at 353 K, 1 atm, 200 mg catalyst, PAc = 0.04 atm, PHe = 0.25 atm, PH2 = 0.71 atm; d) 5 wt% Ru/C stability in the presence of water at 353 K, 1 atm, 50 mg catalyst, PAc = 0.04 atm, PHe = 0.08 atm, PH2 = 0.71 atm, PH2O = 0.17 atm. Fig. 7 Acetone hydrogenation on Ru(0001) along the isopropoxy (black) and the hydroxypropyl (red) pathways. Side views on reaction intermediates along the two hydrogenation steps are shown, using the following color code: C (black), H (white), O (red), and Ru (teal). Transition states are indicated by a double dagger. (For interpretation of the references to color in this figure legend, the reader is referred to the web version of this article.) Fig. 8 Acetone hydrogenation on Ru(0001) along the isopropoxy pathway in the presence of water (black) and the water-assisted hydroxypropyl pathway (blue). Side views on reaction intermediates along the two hydrogenation steps are shown, using the same color code as in Fig. 7. Transition states are indicated by double daggers. To close the catalytic cycle for the water-assisted pathway (blue), a second H* has to react with the remaining OH* to regenerate the surface water. (For interpretation of the references to color in this figure legend, the reader is referred to the web version of this article.) Fig. 9 Surface coverage of each species (a) and degree of rate control for each elementary step (b) predicted by the microkinetic model for Ru-catalyzed acetone hydrogenation in the presence of water. Reaction conditions: 50 mg Ru/C (Site density = 228 µmol/g cat), T = 353 K, P = 1 atm, Feed: acetone:water mixtures (51:49 vol%) (liq.) = 0.04 ml/min, H2 = 112 cm3 (NTP)/min, He = 13 cm3 (NTP)/min. Fig. 10 GC-MS fractionation patterns for A. a water-simulated product stream containing a mixture of acetone, isopropanol and H2O assuming a 30% conversion of acetone to isopropanol; B. a deuterated-simulated product stream containing a mixture of pure acetone, isopropanol, and deuterium oxide assuming a similar 50% reaction conversion; and C. a set of reaction samples from a feed of acetone and D2O over Ru/C taken at various time points at steady state (Reaction conditions: 50 mg Ru/C, T = 353 K, P = 1 atm, Feed: acetone:D2O mixtures (51:49 vol%) (liq.) = 0.04 ml/min, H2 = 105 cm3 (NTP)/min, He = 12 cm3 (NTP)/min; PAc = 0.04 atm, PHe = 0.08 atm, PH2 = 0.71 atm, PD2O = 0.17 atm). The fragment at 45 represents IPA with a methyl group cleaved, while fragments at 46 and 47 represent the same molecule with one and two deuterium atoms replacing hydrogen atoms, respectively. Standard deviation for these samples was < 1%. Table 1 Equations used in the microkinetic model for acetone hydrogenation. k for , s 1 - s 3 & r e v , s 12 = e - Ea s 1 - s 3 , r e v s 12 R · T · δ · P tot n sites \" 2 · π · m · k · T (7) k for , s 4 - s 11 = k · T h · e - Ea s 4 - s 11 R · T · e Δ S s 4 - s 11 ‡ R (8) K s 1 - s 12 = e - Δ G s 1 - s 12 R · T (9) k rev , s 1 - s 12 = k for , s 1 - s 12 K s 1 - s 12 (10) *The abbreviations used in these equations are defined in Supplementary Table S3. Table 2 Reaction mechanism for acetone hydrogenation in the presence of water. C3H6O + * → C3H6O* (s1) H2 + 2* → 2H* (s2) H2O + * → H2O* (s3) C3H6O* + H* → C3H7O* + * (s4) C3H7O* + H* → C3H7OH* + * (s5) C3H6O* + H* → C3H6OH* + * (s6) C3H6OH* + H* → C3H7OH* + * (s7) C3H6O* + H2O* → C3H6OH* + OH* (s8) C3H6OH* + OH* + H* → C3H7OH* + OH* (s9) H* + OH* → H2O* + * (s10) H2 + OH* + * → H2O* + H* (s11) C3H7OH* → C3H7OH + * (s12) C3H6O + H2 → C3H7OH Overall Table 3 DFT-calculated energies on clean Ru(0001), θ SUM - i n i t i a l s t a t e = 0 and θ SUM - f i n a l s t a t e = 1/9ML for each species. Δ W a t e r E f f e c t s represents the adjustments made in the values for the clean surface to account for the impact of adsorbed water in the microkinetic model. The energy changes that are adjusted based on DFT-predictions for water-decorated Ru surface and additional changes to fit the data corresponding to the water effects are colored in red and blue, respectively. Table 4 Reaction kinetics parameters obtained from experimental results (Exp) and predicted by the microkinetic model (MKM). Reaction conditions: 50 mg Ru/C (Site density = 228 µmol/g cat) mixed with 0.5 g α-Al2O3, T = 333–373 K, P = 1 atm, Feed: acetone or acetone:water mixtures (50:50–51:49 vol%) (liq.) = 0.02–0.04 ml/min, H2 = 80–300 cm3 (NTP)/min, He = 0–117 cm3 (NTP)/min. Standard errors show the precision of the data regression analysis. Model-predicted reaction kinetics parameters were calculated at acetone conversion near 10%. TOF (1/s) Acetone Order Hydrogen Order Water Order Activation Energy (kJ/mol) Exp 0.08 ± 0.02 −0.83 ± 0.24 0.46 ± 0.19 0.41 ± 0.03 10 ± 2 MKM 0.08 ± 0.004 −0.84 ± 0.15 0.48 ± 0.02 0.29 ± 0.05 23 ± 5 Effects of water on the kinetics of acetone hydrogenation over Pt and Ru catalysts Benginur Demir a b 1 Thomas Kropp a 1 Elise B. Gilcher a b Manos Mavrikakis a James A. Dumesic a b ⁎ a Department of Chemical and Biological Engineering, University of Wisconsin–Madison, 1415 Engineering Drive, Madison, WI 53706, United States Department of Chemical and Biological Engineering University of Wisconsin–Madison 1415 Engineering Drive Madison WI 53706 United States Department of Chemical and Biological Engineering, University of Wisconsin–Madison, 1415 Engineering Drive, Madison, WI 53706, United States b DOE Great Lakes Bioenergy Research Center, University of Wisconsin–Madison, 1552 University Avenue, Madison, WI 53706, United States DOE Great Lakes Bioenergy Research Center University of Wisconsin–Madison 1552 University Avenue Madison WI 53706 United States DOE Great Lakes Bioenergy Research Center, University of Wisconsin–Madison, 1552 University Avenue, Madison, WI 53706, United States ⁎ Corresponding author at: 3014 Engineering Hall, 1415 Engineering Drive, Madison, WI 53706, United States. 3014 Engineering Hall, 1415 Engineering Drive Madison WI 53706 United States 1 Both authors contributed equally. Graphical abstract We employed an approach combining reaction kinetics measurements at steady state conditions, electronic structure calculations employing density functional theory, and microkinetic modeling for acetone hydrogenation to provide insights into the effects of water on metal catalyst surfaces for the hydrogenation of oxygenates over a wide range of reaction conditions. Elucidation of the repulsive interactions due to adsorbed water molecules at various reaction conditions provides a basis to formulate rate expressions for heterogeneous catalytic processes of biomass oxygenates. Reaction kinetics experiments were carried out at partial pressures of H2, acetone, water and helium in the range of 0.51–0.79, 0.02–0.13, 0.08–0.23, 0–0.28 atm, respectively. We show that the addition of water enhances the hydrogenation rate at 353 K and 1 atm on oxophilic metal catalysts such as Ru/C, whereas the same promotional effect of water is not observed for Pt-based catalysts. Microkinetic model predictions for the hydrogenation of acetone on Ru in the absence and presence of water, using enthalpies and entropies obtained from DFT calculations, were in agreement with the experimentally observed reaction orders and activation barriers. The model shows that a water-assisted hydroxypropyl path is expected to be the favored path on Ru with a rate-determining step of H-OH-mediated hydrogenation of C3H6OH (i.e., the hydroxypropyl intermediate formed by H2O-mediated initial hydrogenation of acetone) to produce isopropyl alcohol (IPA). Furthermore, hydrogen, acetone, hydroxypropyl intermediate and hydroxyl species were predicted to be abundant on the Ru surface with a high coverage of nearly 85%. The combined studies of computational and experimental catalysis on hydrogenation reactions help to elucidate the mechanistic role of water on metal catalyzed reactions for producing chemical building blocks from biomass-derived oxygenates. Keywords Hydrogenation Platinum Ruthenium Reaction kinetics Density functional theory Acetone Water effects 1 Introduction Henrik Topsøe and his close collaborators were pioneers in using the combination of experimental and theoretical methods to elucidate the nature of active sites on working catalysts, and to understand the fundamental processes taking place on surfaces that catalyst control the chemical reaction kinetics. Perhaps his most detailed studies involved the fundamental surface chemistry involved in hydrodesulfurization over MoS2-based catalysts. For example, in a paper published in the Journal of Catalysis[1], they used NO as a probe molecule of the nature of the edge sites. Results from density functional theory (DFT) calculations and scanning tunneling microscopy (STM) experiments elucidated a hydrodesulfurization mechanism involving simultaneous vacancy formation, NO adsorption and H2S release, showing that NO can be used as a probe molecule to obtain atomic-scale information on hydrotreating catalysts and to understand the underlying chemical reaction kinetics. In related work published in the Journal of Catalysis[2], they used results from STM experiments and DFT calculations to show that pyridine interacts with MoS2 surfaces in the presence of hydrogen to form pyridinium ions at catalytically active brim sites. These studies elucidated the inhibition effects of basic N-compounds in hydrodesulfurization catalysis and thereby provided the basis for including these effects in chemical reaction kinetics rate expressions. In addition to the aforementioned studies of adsorbed probe molecules, Henrik Topsøe and his collaborators also elucidated the nature of reaction pathways for hydrodesulfurization over MoS2-based catalysts. In another paper published in the Journal of Catalysis[3,4], they explored hydrogenation (HYD) and direct desulfurization (DDS) routes in the hydrodesulfurization of thiophene over the different MoS2 edge structures. They showed that the HYD reaction path takes place through hydrogenation to 2-hydrothiophene followed by hydrogenation to 2,5-dihydrothiophene and subsequent S-C scission, without the formation of coordinatively unsaturated Mo edge sites. The presence of sulfur vacancies leads to addition sites for the HYD pathway and opens the DDS pathway involving an initial hydrogenation step to 2-hydrothiophene, followed by S-C scission. These various elementary steps for a catalytic cycle involving steps that start at one type of edge and are completed at another site, and regeneration of the active sites is a key step for all of the reaction pathways. It is in the spirit of the research approach championed by Henrik Topsøe and his collaborators, involving the close integration of experimental and theoretical studies by complementary research groups, that we have embarked in our studies of the effects of water on the hydrogenation of acetone over Pt and Ru catalysts. Fundamental information on the kinetics and catalysis of hydrogenation reactions is required to improve the efficiency of biomass-derived chemical conversions to produce building blocks that are widely used in the fuel and chemical industries.[5–7] Although ruthenium is not as effective as platinum or palladium to catalyze hydrogenation of ketones, the use of water with Ru catalysts has been shown to promote the activity of these reactions at low temperatures, becoming comparable to the reactivity of Pt and Pd-based catalysts.[8–10] In a computational study applied to elaborate the reactivity of levulinic acid hydrogenation to produce gamma-valerolactone, a sustainable and effective solvent for biomass conversions[11], it was observed that the addition of water decreases the calculated energy barrier for acetone hydrogenation over Ru while not affecting the activation energy of Pt-catalyzed reaction.[8] This study by the group of Sautet suggests that the hydrogenation reactivity enhancement under aqueous phase conditions can be correlated with the oxophilicity of the metal.[8] Similar promotional effects of water have been utilized to improve the activity and selectivity of the hydrogenation of p-chloronitrobenzene to p-chloroaniline over various oxophilic metal catalysts such as Fe/SiO2, Co/SiO2, Ni/SiO2, Cu/SiO2, and Ag/SiO2.[12] Computational studies of biomass-derived oxygenated compounds are cumbersome in view of the complexity of these molecules; thus, many research studies have employed model reactions to elucidate the reaction kinetics. For instance, a previous report indicates that the rate of levulinic acid hydrogenation is identical to the rate of the 2-pentanone hydrogenation in water.[13] In a following study, Bond et al. constructed a microkinetic analysis for vapor-phase hydrogenation of acetone, 2-butanone and 2-pentanone to develop a foundation for the transformation of levulinic acid-type oxygenates.[7] Herein, we present results of the reactivity of 5 wt% Ru/C and 3 wt% Pt/SiO2 catalysts for acetone hydrogenation in the absence and presence of water, as a model study to explore the effect of water’s presence in the rates of metal-catalyzed biomass conversions. In this study, we have combined methods of experimental reaction kinetics studies at low and high concentrations of water and acetone, density functional theory calculations and microkinetic modeling. 2 Methods 2.1 Experimental methods 2.1.1 Catalyst synthesis and characterization Ru/C (5 wt%, Lot# MKBR7939V) was purchased from Aldrich and used without pretreatment except the in situ reduction before each reaction. A Pt/SiO2 catalyst was prepared by impregnation, following the methods described by Gerceker et al.[14] 5 g SiO2 (Davisil, Grade 646, 36–60 mesh, Sigma-Aldrich) was impregnated with the designated amount of tetraammineplatinum(II) nitrate precursor (Sigma Aldrich; 99%) dissolved in Milli-Q water (0.3 g tetraammineplatinum, corresponding to 0.15 g Pt, dissolved in 6.4 g water) to achieve 3 wt% Pt. The catalyst was dried overnight at 383 K and then calcined by flowing air (50 cm3/min [NTP]) at 573 K for 2 h. Afterwards, the catalyst was reduced under hydrogen (50 cm3/min [NTP]) at 773 K for 6 h and cooled to room temperature under argon flow. Before exposure to air, the catalyst was passivated with flowing 1% O2/Ar for 30 min. CO chemisorption at 307 K (Micromeritics, ASAP, 2020C Analyzer) was used to determine the platinum and ruthenium surface site densities of the fresh catalysts. The irreversible CO uptake gives the number of catalytically active Pt or Ru sites. The turnover frequency (TOF) for product formation was calculated using this site density of the catalyst. 2.1.2 Catalytic activity measurements Acetone (Fisher Scientific; HPLC Grade) and 2-propanol (Sigma Aldrich; 99.9%) were used without further purification. Acetone hydrogenation was carried out in a flow-through system (Supplementary Fig. S1). The designated amount of catalyst was mixed with α-Al2O3 (α-Al2O3/catalyst = 10) and loaded on top of a bed containing silica chips in a 0.25in stainless steel tubular reactor. The catalyst was immobilized by placing quartz wool at the top and at the bottom of the catalyst bed as well as the silica chip bed. The fixed bed reactor was placed in an aluminum block in up-flow configuration and heated to the reduction temperature (573 K for Pt/SiO2 and 723 K for Ru/C) using an insulated furnace. After reduction under H2 flow (25 cm3/min [NTP]) for 2 h, the reactor was cooled to the reaction temperature (353 K) while H2 was kept flowing. The temperature was measured by a thermocouple (Omega) at the reactor wall and controlled by 16A series programmable temperature controller (Love Controls). In a typical experiment, 0.125 g of Pt/SiO2 or 0.050–0.200 g Ru/C was packed with ten times the amount of α-Al2O3. The amount of catalyst packed in the reactor was determined to keep the reactant conversion around 25% in the kinetically-relevant regime. For these catalysts in the acetone hydrogenation reaction with and without water, internal mass transport limitations were predicted to be negligible according to the Weisz Prater Criterion (Supplementary Table S1-S2).[15,16] Reaction kinetics parameters were obtained by flowing H2 (80–300 cm3/min [NTP]) and He (0–117 cm3/min [NTP]) and by introducing acetone (0.02–0.04 ml/min [NTP]) or acetone:water mixtures (50:50–51:49 vol%) using an HPLC pump (Lab Alliance Series I) at 353 K and 1 atm. For experiments with lower H2 flow, ultra-high purity helium was used to counterbalance the flow. The reactor effluent was passed through the heat-traced stainless steel lines at 353 K to the inlet of GC sampling loop to prevent product condensation. At these conditions, values of TOF were measured below 25% acetone conversion. 2.1.3 Analysis The concentrations of acetone and 2-propanol were monitored by an online gas chromatograph (Shimadzu GC-2010 Plus) equipped with a barrier discharge ionization detector (BID) and a Zebron ZB-BAC2 GC column (Phenomenex; L = 30 mm; ID = 0.53 mm; FT = 2.0 μm). External calibrations with known standards were used to quantify the concentrations of reactant and product. The conversion of acetone and the yield of 2-propanol were calculated using equations (1) and (2), respectively. C AC o is the initial concentration of acetone in the feed, and C AC and C IPA are the concentrations of acetone and 2-propanol in the product, respectively. No side product was observed, i.e. the selectivity of 2-propanol was ~100% for all the reactions reported in this study. In Figure S2, it is shown that there is one additional peak appearing in the product stream compared to the peaks in the feed stream, which corresponds to 2-propanol. Acetone conversion, 2-propanol selectivity and the overall carbon balance for the reactions shown in Figs. 1 and 2 are documented in Table S8. Reaction rates and turnover frequencies (TOF) of 2-propanol production are calculated using equations (3) and (4), where F IPA is the molar flow rate of 2-propanol in the effluent. (1) a c e t o n e c o n v e r s i o n % = C AC o - C AC C AC o × 100 (2) i s o p r o p a n o l y i e l d % = C IPA C AC o × 100 (3) r a t e I P A = F IPA c a t a l y s t w e i g h t (4) T O F = r a t e I P A s i t e d e n s i t y Using eq. (5), the reactivity data were fitted to determine the reaction orders for hydrogen (m) and acetone (n). k is the rate constant for acetone hydrogenation (eq. (6)), Pi is the partial pressure of species i, A is the pre-exponential factor, and Ea is the activation energy. (5) r a t e I P A = k P H 2 m P AC n (6) k = A e - E a RT 2.2 Computational methods 2.2.1 Density functional theory calculations Density functional theory calculations were performed using the projector augmented wave (PAW) method[17,18] as implemented in the Vienna ab initio simulation package (VASP).[19,20] Exchange–correlation energies were obtained using the functional by Perdew, Burke, and Ernzerhof (PBE)[21] with a plane wave cutoff of 600 eV. The semiempirical C6/R6 term by Grimme (DFT + D2)[22,23] was added to correct for missing van der Waals interactions. Structure optimizations were performed until total energies were converged to 10−6 eV, and forces acting on the relaxed ions were below 0.02 eV/Å. Transition state structures were obtained using the improved dimer method.[24,25] Optimized structures were proven to be minima by the absence of imaginary frequencies; for transition state structures, one imaginary frequency was obtained. These frequency calculations include displacement of adatoms only. Harmonic force constants were calculated as numerical derivatives with atomic displacements of ±1.5 pm. Entropies, heat capacities, and zero-point vibrational energies (ZPVE) were calculated from these frequencies. The p(3 × 3) surface unit cell was generated by cutting bulk Ru (lattice constants a = 273 pm and 432 pm) in (0001) orientation. The slab model consisted of three atomic layers, where the lowest layer was frozen to simulate the bulk, and a vacuum layer of 12 Å. Structures were visualized using VESTA.[26] The Brillouin zone was sampled over 4 × 4 × 1 k points. Increasing the number of k points changes total energies by less than 1 meV. 2.2.2 Microkinetic modeling The microkinetic model was developed as described in a previous report.[27] The equations of the rate constant (kfor, krev) and equilibrium constant (Keq) for acetone hydrogenation mechanism including 12 elementary steps (s1-s12) are given in Table 1 . The ordinary differential equations that gave the steady-state solution for the surface coverages of the species and the rate of the overall reaction were solved using the ODE solver in MATLAB. 3 Results and discussion 3.1 Experimental reactivity studies under steady state 3.1.1 Effect of water on the activity over Pt-based catalyst We compared the activity of Pt/SiO2 on gas-phase acetone hydrogenation in the absence and the presence of water over a range of acetone partial pressures. In these experiments, we kept the ratio of water to acetone partial pressures at 4, the hydrogen partial pressure was held constant at 0.71 atm, and helium was used as an inert filling gas to the reaction pressure of 1 atm. Then, we measured the effect of water on the reactivity at each acetone pressure while maintaining acetone and hydrogen partial pressures constant for the experiments with and without water (blue diamonds and red circles in Fig. 1, respectively). At the various acetone pressures, we observed that the presence of water decreases the reactivity of acetone hydrogenation over Pt catalyst, as shown in Fig. 1. As the acetone concentration increases, the diminishing effect of water on the TOF increases. At 0.06 atm of acetone, the reactivity without water is 7 times more than the reactivity with 0.23 atm of steam in the reactor. 3.1.2 Effect of water on the activity over Ru-based catalyst To study the effects of water on the Ru-based catalyst activity, Ru/C was selected as a well-characterized hydrogenation catalyst in the literature.[9,28,29] Similar to the Pt study, we measured the activity of 5 wt% Ru/C for vapor-phase acetone hydrogenation with and without the addition of water (blue diamonds and red circles in Fig. 2 , respectively). First, we used a constant ratio of water to acetone partial pressures, constant hydrogen pressure, and helium as the inert gas. The impact of water on the kinetics using Ru catalyst was observed to be significantly different than the effect on the Pt catalyst at various acetone pressures (Fig. 2). Up to 10-fold increase in the reactivity of acetone hydrogenation over Ru/C was observed in the presence of water. The promotional effect of water becomes more pronounced as the acetone partial pressure and the amount of steam in the reactor increases. 3.1.3 Reaction kinetics studies We determined the rate expression of gas-phase acetone hydrogenation on Ru-based catalyst in the presence of water by measuring the reaction orders of acetone, hydrogen and water (Fig. 3 a-c). For each reaction order calculation, we kept the partial pressures of the other two components constant and applied helium as a carrier gas. At acetone partial pressures ranging between 0.02 and 0.13 atm while maintaining hydrogen and water partial pressures at 0.71 and 0.17 atm, respectively, the reaction order for acetone was calculated as −0.83 ± 0.24 (Fig. 3a). The negative value of the reaction order with respect to the acetone partial pressure for acetone hydrogenation using Ru with water is more severe compared to the value over Pt without water[30]. Thus, it is expected that Ru surface is highly covered with species, including acetone or acetone-derived oxygenated intermediates. To determine the hydrogen dependence of the rate, we changed the hydrogen concentration from 0.60 atm to 0.79 atm with constant acetone pressure of 0.04 atm and constant water pressure of 0.17 atm. These experiments determined that the hydrogen order was 0.46 ± 0.19 (Fig. 3b), indicating that hydrogen participates in kinetically relevant reactions steps. The reaction order with respect to the water partial pressure was determined as 0.41 ± 0.03 (Fig. 3c) by varying the water pressure from 0.04 atm to 0.17 atm, at constant acetone pressure of 0.04 atm and constant hydrogen pressure of 0.71 atm. The positive order in terms of water was expected considering the promotional effects of water on the kinetics that are shown earlier. The following rate expression, eqn. (11), was deduced by applying the experimentally obtained reaction orders for Ru-catalyzed acetone hydrogenation in the presence of water. (11) r IPA = k P Ac - 0.83 P H 2 0.46 P H 2 O 0.41 The activation energy was obtained for the acetone hydrogenation on Ru/C by altering the reaction temperature between 338 and 383 K at the partial pressures of acetone, hydrogen, water and helium as 0.02, 0.71, 0.06 and 0.21 atm, respectively. The Arrhenius plot of TOF versus the inverse of temperature shown in Fig. 3d gives an apparent activation energy of 10 ± 2 kJ/mol. 3.1.4 Effect of water on the activity over Ru/C at high acetone-water concentrations We investigated the promotional effect of water on the reactivity of gas-phase acetone hydrogenation using Ru/C at high concentrations of acetone and water. We carried out flow reaction experiments with 5 different feed solutions containing 100% acetone, 90:10, 80:20, 70:30 and 60:40 acetone:water mixtures. The turnover frequencies for these reactions are plotted with respect to reaction time in Fig. 4 . Since the partial pressures of all components changed during these reactions, it is not possible to deduce the sole effect of water on the reactivity. Thus, we constructed a rectification plot in Fig. 5 which compares the predicted rates using the rate equation given above for Ru catalyzed acetone hydrogenation in the presence of water (Eqn. (11)) and the experimental rates for the various water and acetone amounts in the feed solutions. At high concentrations of acetone and water, the experimental data agree well with the predicted rate, showing the positive dependence of the rate on water and hydrogen partial pressures and negative dependence on the acetone partial pressure. Moreover, the rate expression is still valid at high pressures of acetone and water with the oxophilic metal catalyst, Ru/C. 3.1.5 Catalyst stability In Fig. 6 , we show plots of reactivity versus time on stream for acetone hydrogenation on Pt/SiO2 and Ru/C catalysts in the absence and presence of water. There was a slight reactivity decrease of the Pt catalyst with and without water during the reaction time of 16 h (Fig. 6a-b). This took place in the first few hours due to initial deactivation. The reaction without water using Ru/C showed an observable reactivity decrease versus time (Fig. 6c), whereas the reaction with the addition of water was stable during 16 h (Fig. 6d). These results show that the addition of water not only increases the reactivity of acetone hydrogenation but also improves the stability of oxophilic metal catalysts such as Ru/C. In a previous report summarizing the structural changes in a 5 wt% Ru/C catalyst during hydrogenation of levulinic acid to γ-valerolactone in water at 90οC, it is stated that the average Ru nanoparticle size differs only slightly, and the metal leaching was below 1 wt% after the reaction.[28] Although the Ru/C catalyst showed a significant reduction in the surface area and total pore volume after 6 h on stream, these effects did not result in loss of catalyst activity considering that there was no significant deactivation observed in 6 h[28], similar to our experimental findings. 3.2 Density functional theory calculations 3.2.1 Reaction mechanism We first considered acetone hydrogenation pathways that were previously studied by Sautet and coworkers[8] on a Ru(0001) surface. The reaction network with possible elementary reactions of acetone hydrogenation in the presence of water is demonstrated in Table 2 . This mechanism consists of 12 elementary reaction steps and accounts for four parallel pathways to produce IPA from acetone with and without the aid of water. The elementary steps s1, s2, s3 and s12 represent the adsorption of acetone, hydrogen, water and desorption of isopropanol, respectively. These steps were calculated to be spontaneous. The first reaction route to form IPA in the absence of water is the isopropoxy pathway shown in elementary steps s4 and s5, while the second route is the hydroxypropyl pathway consisting of steps s6 and s7. The third and the fourth routes of the parallel pathways occur in the presence of water and contain additional elementary steps that were not discussed previously[8]. In the third pathway, adsorbed water is considered to be an intermediate in a reaction route with steps s1, s2, s8, s9, s10 and s12. Finally, the fourth pathway uses elementary steps s1, s8, s9, s11 and s12, which also has adsorbed water as an intermediate and an alternative to the dissociative adsorption of H2 in step s2. 3.2.2 Water-free surface energetics Along the isopropoxy pathway (black line in Fig. 7 ), the first H atom is transferred to the C atom, a nearly thermoneutral step (ΔHrxn = 0.07 eV). Then, the second H atom is transferred to the O atom, which is 0.84 eV endothermic, as it weakens the strong Ru–O bond. The intrinsic barriers for these steps amount to 0.88 eV and 1.46 eV, respectively, which indicates rather low activity under typical reaction conditions. Along the hydroxypropyl pathway (red line in Fig. 7), the O atom is hydrogenated first, which is 0.30 eV endothermic. Then, a second H atom inserts into the Ru–C bond, which is 0.60 eV endothermic. The intrinsic barriers for these steps amount to 1.58 eV and 1.82 eV, respectively. These barriers are significantly higher than the ones along the isopropoxy pathway, which is in agreement with the findings by Sautet and coworkers[8]. Thus, we conclude that, in the absence of water, the isopropoxy pathway is preferred, although elevated temperatures are required to observe isopropanol formation. This behavior differs significantly from the case on Pt(111), where hydrogenation barriers are much lower and the hydroxypropyl pathway is preferred.[30] These findings are in agreement with experimentally observed activity trends in the absence of water. 3.2.3 Impact of co-adsorbed water on the energetics To explore the impact of water on acetone hydrogenation on Ru(0001), we employed the microsolvation model by Sautet and coworkers[8]. Thus, we recalculated the reaction energetics for the previously discussed pathways in the presence of one co-adsorbed water molecule that is H-bonded to the C3 intermediate. The corresponding intermediates along the isopropoxy pathway are shown in Fig. 8 (black pathway). As previously reported by Sautet and coworkers, this solvation lowers the hydrogenation barriers by up to 0.5 eV. While this change represents a significant increase in activity, the barriers remain large (~1 eV) compared to the values obtained on Pt(111) in the absence of water.[30] This result is in agreement with the experimental observations that wet Ru (Fig. 6d; TOF = 0.08 s−1) is a more active catalyst than wet Pt (Fig. 6b; TOF = 0.06 s−1) while less active than Pt without water (Fig. 6a; TOF = 0.32 s−1 as similarly reported in the previous work[30]). We therefore included additional elementary steps in our analysis. First, we allowed for water to be the hydrogen source. This inclusion reduces the barrier for the hydrogenation of the O atom, as the formation of the Ru–OH bond energetically compensates for the weakened Ru–OC3H6 bond. Furthermore, the resulting hydroxypropyl intermediate is stabilized by a H bond to the surface OH species. The reaction is −0.27 eV exothermic and has an intrinsic barrier of only 0.09 eV. Thus, it is strongly preferred over the hydrogenation of acetone by surface H*. The hydrogenation barrier for C3H6OH* in the presence of OH* becomes 0.98 eV, which is similar to the value on the water-decorated surface (0.93 eV). This pathway (blue in Fig. 8) has been considered in the literature[8], but the authors concluded that it would not contribute to the overall flux, since the protonation of OH* is kinetically hindered with an intrinsic barrier of 1.14 eV. However, applying the microsolvation model to the re-hydrogenation of OH* lowers the intrinsic barrier to 0.66 eV, making this step feasible under reaction conditions. This stabilization by additional water molecules was not considered in the previous report by the group of Sautet. [8]. Interestingly, the energetics for the water-assisted hydroxypropyl pathway are qualitatively similar to the low coverage energetics for acetone hydrogenation on Pt(111), i.e. the first hydrogenation step is mildly exothermic with a very low barrier, while the second hydrogenation step is endothermic with a substantial barrier. Adsorption energies on both catalysts are significantly exothermic, which indicates high coverage under reaction conditions. On Pt(111), coverage effects destabilize the C3H6OH* intermediate more than other C3 species, as it binds parallel to the surface.[30] As a result, the reaction energies for both hydrogenation steps become more similar, which increases the lower first barrier and decreases the rate-limiting second barrier. Thus, coverage effects improve the overall activity of Pt(111). Based on the similarities in reaction intermediates and energetics, similar coverage effects are expected for Ru(0001), leading to an overall increase in the activity of hydrogenation. Based on these results, we conclude that the impact of water on the hydrogenation of acetone goes beyond a mere solvation effect. Adsorbed water molecules actively participate in the reaction and, therefore, act as a co-catalyst. 3.3 Microkinetic modeling To further elucidate the reaction kinetics and mechanism of acetone hydrogenation on Ru catalysts with the effects of water, we built a microkinetic model including the reaction mechanism with 4 parallel pathways and 12 elementary steps as described above (Table 2). In the microkinetic model for the hydrogenation of acetone on Ru(0001), enthalpies and entropies of adsorbed species and the elementary steps as well as the activation energies of each step obtained from DFT calculations were used. At the typical reaction conditions of our experiments (353 K; H2 partial pressure of 0.71 atm, acetone partial pressure of 0.04 atm, water partial pressure of 0.17 atm, helium partial pressure of 0.08 atm), we predicted the overall turnover frequency by calculating the rate constants for the adsorption–desorption of reactants and product (step s1, s2, s3 and s12) using collision theory (Table 1, eqn. 7). Forward rate constants for the rest of the steps were determined using transition state theory (Table 1, eqn. 8). The binding energy of water is a significant parameter by altering the coverages of hydrogen ( θ H ), hydroxyl ( θ O H ) and water ( θ H 2 O ) species on the catalyst surface, and ultimately influencing the reaction kinetics. As we discussed in our previous work[30], the microkinetic models with the coverage-dependent energies are more accurate to estimate the activity and the reaction kinetics of acetone hydrogenation over highly-covered catalyst surfaces. Hence, we implemented the binding energy of water as a function of the coverages of water and hydroxyl species [ BE H 2 O ( θ s u m ) ] as in equations 12–13. This correlation in equation (13) was obtained from DFT calculations by assuming that the averaged binding energy per H2O* is a quadratic function. (12) θ s u m = θ H 2 O + θ O H (13) B E H 2 O θ sum = 0.035 × θ sum 2 - 0.29 × θ sum - B E H 2 O ° B E H 2 O ° is the binding energy of water on the clean Ru surface. Using the coverage dependent binding energy of water (eqn. (13)), the model recalculates the adsorbed enthalpy ( H H 2 O - a d s ) and Gibbs free energy ( G H 2 O - a d s ) of water on the Ru surface as in equations 14–15. Subsequently, the changes in the free energy between the products and the reactants of the elementary steps including an adsorbed water, Δ G s x , (i.e., steps s3, s8, s10 and s11) are computed as a function of the coverage-dependent surface energies as in equations 16–19. Finally, the equilibrium constants ( K sx ∗ ) and the reverse rate constants ( k rev , s x ∗ ) of these steps are predicted with respect to the coverages of adsorbed water and hydroxyl molecules in equations 20–21. ( θ s u m ) notation in these equations represents the coverage dependence. (14) H H 2 O - a d s θ s u m = H H 2 O + BE H 2 O ( θ s u m ) (15) G H 2 O - a d s θ s u m = H H 2 O - a d s θ s u m - S H 2 O - a d s × T (16) Δ G s 3 θ s u m = G H 2 O - a d s θ s u m - G H 2 O (17) Δ G s 8 θ s u m = G C 3 H 6 O H - a d s + G OH - a d s - G H 2 O - a d s θ s u m - G C 3 H 6 O - a d s (18) Δ G s 10 θ s u m = G H 2 O - a d s θ s u m - G OH - a d s - G H - a d s (19) Δ G s 11 θ s u m = G H 2 O - a d s θ s u m + G H - a d s - G OH - a d s - G H 2 (20) K s 3 , s 8 , s 10 , s 11 ∗ θ s u m = e - Δ G s 3 , s 8 , s 10 , s 11 θ s u m R · T (21) k rev , s 3 , s 8 , s 10 , s 11 ∗ θ s u m = k for , s 3 , s 8 , s 10 , s 11 K s 3 , s 8 , s 10 , s 11 ∗ θ s u m *The abbreviations used in these equations are defined in Supplementary Table S3. In addition to the incorporation of the coverage-dependent binding energy of water, we adjusted the energetics of kinetically relevant species and elementary steps in the model to improve agreement with the experimental data. These adjustments are necessary to incorporate additional adsorbate–adsorbate interactions and to correct for the shortcomings of density functional theory within the generalized–gradient approximation. The specific energies obtained from the DFT calculations on clean catalyst surface and the adjustments corresponding to the water effects are given in Table 3 . The enthalpy and entropy changes between the transition states and the reactants of each elementary step on a clean Ru surface as well as on a water-decorated surface are reported in Supplementary Table S4. Also, these changes between the products and the reactants of each step on a clean Ru surface and on a covered surface are listed in Supplementary Table S5. Applying these adjustments, the model predicted the hydrogenation TOF to be 0.08 s−1 with an acetone conversion around 21%, similar to the experimental values (i.e., TOF of 0.08 s−1 and acetone conversion of 28 ± 7%). Therefore, we concluded that the adjustments compensated the catalyst surface property changes that would occur after the adsorption of a water on Ru(0001) and are aligned with the DFT predictions accounting for the effects of surface water. The adjustments on binding energies of acetone, hydrogen, hydroxypropyl and hydroxyl species are within ±0.2 eV, which is within the accuracy of the chosen DFT approach. The change in the binding energy of the hydrogenated acetone formed in step s4, C3H7O, is slightly higher than the calculation error. Due to the strong adsorption of C3H7O species (−3.32 eV; in reference to gas phase H2 and acetone on a clean slab of Ru), the model without this adjustment was initially predicting that the Ru surface was completely blocked by that species. Thus, we weakened the binding energy of C3H7O by 0.28 eV. Furthermore, we report that the model for the water-assisted acetone hydrogenation predicted the binding energy of water as −0.72 eV using equation (13), in which B E H 2 O ° representing the DFT-derived binding energy of water on the clean Ru surface is −0.67 eV. Similarly, we applied some minor changes in the entropy values of adsorbed C3H6O, C3H7O, C3H6OH to reflect the surface property changes predicted by DFT calculations in the presence of water. As discussed above, the changes in the activation energy and entropy of adsorbed transition states for the kinetically relevant steps for the first and second hydrogenation of acetone are reasonable considering the DFT estimates on water facilitating the reaction kinetics (Section 3.2.3). The implementation of these adjustments ( Δ x in Table 3) in the final equations for the equilibrium constants, forward and reverse rate constants for each elementary step in the microkinetic model is provided in Supplementary Table S6. The forward and reverse rate constants for all elementary steps at zero coverage in the absence of water and those at the surface coverages predicted by the model in the presence of water are provided in Supplementary Table S7. Furthermore, as summarized in Table 4 , the microkinetic model after the adjustments corresponding to the water effects reproduces experimentally observed reaction orders in the presence of water. An exception to the overall agreement is that the predicted apparent activation energy is slightly higher than the experimental value, which might be due to the lack of dynamic coverage-dependence in the barriers of the elementary steps in the microkinetic model. We statically implemented the effect of H2O, OH and H coverages on the surface properties as in the microkinetic model with the Langmuir approximation described in our previous work for Pt-catalyzed acetone hydrogenation[30]. This assumption can explain why the model overestimates the overall apparent activation energy. We also performed the degree of rate control analysis introduced by Campbell[31,32] to identify the rate-limiting steps by determining the change in overall reaction rate that results from an incremental change in the forward and reverse rate constants of that step, while keeping the equilibrium constant for that step and all other rate constants constant. As shown in Fig. 9 a, we conclude that the rate-determining step is s9 which is the H*–OH* mediated hydrogenation of C3H6OH* intermediate to produce IPA on the surface. The most abundant surface intermediates (MASI) were also determined by solving the differential coverage equations in the model (Fig. 9b). This model predicted that the surface coverages of the hydrogen, acetone, hydoxypropyl and hydroxyl species are equal to 0.26, 0.22, 0.21 and 0.18 respectively. As predicted by the DFT calculation for water dissociation and the negative acetone order, it was expected that the Ru surface will be highly covered with H*, OH* and C3H6O* at reaction conditions. 3.4 Isotopic tracing studies We also performed isotopic tracing studies to probe a water-assisted mechanism of acetone hydrogenation in the presence of D2O. Analysis was carried out on a GC-MS with a Shimadzu GCMS-QP2010 mass spectrometer equipped with an RTX-VMS column. Two control samples and an experimental sample were examined: A. a “water-simulated” product stream containing a mixture of acetone (Fischer Chemical), isopropanol (Sigma-Aldrich), and H2O (Sigma-Aldrich) assuming a 30% conversion of acetone to isopropanol; B. a “deuterated-simulated” product stream containing a mixture of pure acetone, isopropanol, and deuterium oxide (Aldrich) assuming a similar 50% reaction conversion; and C. a set of reaction samples from a feed of acetone and D2O over Ru/C taken at various time points at steady state (Reaction conditions: 50 mg Ru/C, T = 353 K, P = 1 atm, Feed: acetone: D2O mixtures (51:49 vol%) (liq.) = 0.04 ml/min, H2 = 105 cm3 (NTP)/min, He = 12 cm3 (NTP)/min; PAc = 0.04 atm, PHe = 0.08 atm, PH2 = 0.71 atm, PD2O = 0.17 atm). The conditions for the reaction C were selected to mimic the experiment with water at PAc = 0.04 atm by replacing the water content with heavy water. D2O containing samples in B and C were flowed through the heated reactor bypass or through the reactor, respectively. Then, the product stream was condensed in an ice bath to ensure identical treatment of deuterated sample mixtures prior to analysis on the GC-MS, and to eliminate differences of the H-D exchange due to heating and recondensing. All samples were then diluted 100 times in dimethyl sulfoxide (Sigma-Aldrich) for analysis in the GC-MS and to limit the protons available for H-D exchange in solution. Results showed addition of deuterium into IPA for both samples B (simulated product mixture) and C (experimental product), but with a significantly higher incorporation of deuterium onto the alcohol and carbon backbone for the experimental product passed over the Ru/C catalyst, supporting our claims of a water-assisted hydrogenation mechanism. In Fig. 10 , the mass to charge ratios at 45, 46, and 47 amu show the addition of deuterium in IPA through substitution of the –OH proton and of a proton along the carbon backbone, especially for the samples in C undergoing hydrogenation. We examined the distribution of mass to charge ratios at the main peak of the IPA fractionation pattern. Fig. 10 shows the fraction of IPA at 45–47 amu, which can be correlated to the fraction of deuterated IPA. The fragment at 45 represents IPA with a methyl group cleaved, while fragments at 46 and 47 represent the same molecule with one and two deuterium atoms replacing hydrogen atoms, respectively. We note that m/z of 46 and 47 are also populated by the natural abundance of 13C (~1% of 12C). Isopropanol with naturally occurring 13C can also acquire deuterium in the deuterated samples. Thus, we included a reference of a non-deuterated control to account for natural 13C and 2H abundances. As samples contain the same molecules at similar concentrations and have undergone identical treatment, fragmentation patterns can be compared quantitatively when accounting for the measurement of a non-deuterated reference sample. By subtracting the percent of non-deuterated IPA at 46 and 47 amu from each sample, we account for the natural abundance of 13C and 2H and can quantify the fraction of deuterated IPA from H-D exchange and mechanistic incorporation in the deuterated IPA samples. The set of reaction samples (C) consistently showed higher concentration of deuterium incorporated into the molecule than both standards (A and B). The relatively high concentration of deuterium in the deuterated control, identified here by the high intensity at 46 amu, was expected due to the H-D exchange that occurs readily in solution between –OH group protons and protic deuterated solvents (D2O). Still, the reaction samples showed higher incorporation of deuterium at this mass to charge ratio. Further, examination of the relative deuterium concentrations in samples at a mass to charge ratio of 47 shows a greater difference between the deuterated control and reaction products. This result reflects a second deuterium atom is present along the carbon backbone. As H-D exchange occurs most readily with protons involved in hydrogen bonding, the larger relative increase in deuterium along the carbon backbone of IPA implies a mechanistic transfer of deuterium to IPA in the hydrogenation, and not due to H-D exchange from heating and recondensing of the mixture. In conclusion, the detection of deuterated isopropanol as a result of the experiments with heavy water supports the water-assisted reaction mechanism we have proposed. 4 Conclusions In this study, we explored the effects of the presence of water on the kinetics of acetone hydrogenation catalyzed by Ru and Pt-based catalysts. These effects are elucidated by intrinsic reaction kinetics experiments and by DFT-informed microkinetic modeling studies. The reactivity for acetone hydrogenation over a supported Pt catalyst decreases with the presence of water in gas phase. However, the promotional effect of water is observed when an oxophilic metal such as Ru is used as the catalyst. At low acetone partial pressures (<0.06 atm), a 3 to 10-fold increase in the reactivity was observed over Ru/C catalyst with a PH2O / PAc ratio of 4. At high concentration of acetone (>0.3 atm), the reaction rate increases 5 times when there is 30% water in the feed. These experimental trends are supported by DFT calculations and microkinetic modeling considering coverage-dependent surface properties. We showed that the energy barrier for the acetone hydrogenation over oxophilic metal catalysts is decreased by the presence of water molecules on the surface acting as co-catalysts, and resulting in enhanced rates of acetone hydrogenation. These fundamental reactivity studies on acetone hydrogenation are employed to provide insights in understanding the hydrogenation of biomass-derived oxygenates and to understand the effects of solvent environments for metal-catalyzed biomass conversions. Data availability The data that support the plots within this paper and other findings of this study are available from the corresponding author upon reasonable request. Code availability The computer code that supports the plots within this paper and other findings of this study are available from the corresponding author upon reasonable request. Declaration of Competing Interest The authors do not have any conflicts of interest or financial interests to declare. Acknowledgment This material is based upon work supported by the U.S. Department of Energy, Office of Science, Office of Basic Energy Sciences, Chemical Sciences, Geosciences, and Biosciences Division, under Contract DE-SC0014058. This work has also been supported by the U.S. Department of Energy (DOE) through the Office of Basic Energy Sciences by the DOE Great Lakes Bioenergy Research Center (GLBRC) by grant DE-SC0018409. Computational work, supported by DOE-BES, grant # DE-FG02-05ER15731, was performed using supercomputing resources at the National Energy Research Scientific Computing Center (NERSC), supported by DOE under contract number DE-AC02-05CH11231, and at the Center for Nanoscale Materials (CNM) at Argonne National Laboratory supported by DOE under contract number DE-AC02-06CH11357. Thomas Kropp is grateful for partial financial support by the Alexander von Humboldt Foundation. This paper was inspired by Dr. Henrik Topsøe, who was a strong advocate for the combined use of microkinetic analysis and experimental studies in catalysis research. Appendix A Supplementary material Supplementary data to this article can be found online at https://doi.org/10.1016/j.jcat.2021.03.013. Appendix A Supplementary material The following are the Supplementary data to this article: Supplementary data 1 References [1] N.Y. Topsøe A. Tuxen B. Hinnemann J.V. Lauritsen K.G. Knudsen F. Besenbacher H. Topsøe Spectroscopy, microscopy and theoretical study of NO adsorption on MoS2 and Co-Mo-S hydrotreating catalysts J. Catal. 279 2011 337 351 10.1016/j.jcat.2011.02.002 [[1]] N.Y. Topsøe, A. Tuxen, B. Hinnemann, J. V. Lauritsen, K.G. Knudsen, F. Besenbacher, H. Topsøe, Spectroscopy, microscopy and theoretical study of NO adsorption on MoS 2 and Co-Mo-S hydrotreating catalysts, J. Catal. 279 (2011) 337–351. https://doi.org/10.1016/j.jcat.2011.02.002. [2] B. Temel A.K. Tuxen J. Kibsgaard N.Y. Topsøe B. Hinnemann K.G. Knudsen H. Topsøe J.V. Lauritsen F. Besenbacher Atomic-scale insight into the origin of pyridine inhibition of MoS2-based hydrotreating catalysts J. Catal. 271 2010 280 289 10.1016/j.jcat.2010.02.007 [[2]] B. Temel, A.K. Tuxen, J. Kibsgaard, N.Y. Topsøe, B. Hinnemann, K.G. Knudsen, H. Topsøe, J. V. Lauritsen, F. Besenbacher, Atomic-scale insight into the origin of pyridine inhibition of MoS2-based hydrotreating catalysts, J. Catal. 271 (2010) 280–289. https://doi.org/10.1016/j.jcat.2010.02.007. [3] P.G. Moses B. Hinnemann H. Topsøe J.K. Nørskov The hydrogenation and direct desulfurization reaction pathway in thiophene hydrodesulfurization over MoS2 catalysts at realistic conditions: A density functional study J. Catal. 248 2007 188 203 10.1016/j.jcat.2007.02.028 [[3]] P.G. Moses, B. Hinnemann, H. Topsøe, J.K. Nørskov, The hydrogenation and direct desulfurization reaction pathway in thiophene hydrodesulfurization over MoS2 catalysts at realistic conditions: A density functional study, J. Catal. 248 (2007) 188–203. https://doi.org/10.1016/j.jcat.2007.02.028. [4] P.G. Moses, B. Hinnemann, H. Topsøe, J.K. Nørskov, Corrigendum to “The hydrogenation and direct desulfurization reaction pathway in thiophene hydrodesulfurization over MoS2 catalysts at realistic conditions: A density functional study” [J. Catal. 248 (2007) 188] (DOI:10.1016/j.jcat.2007.02.028), J. Catal. 260 (2008) 202–203. https://doi.org/10.1016/j.jcat.2008.09.008. [5] B. Sen M.A. Vannice Metal-Support Effects on Acetone Hydrogenation over Platinum Catalysts J. Catal. 113 1988 52 71 [[5]] B. Sen, M.A. Vannice, Metal-Support Effects on Acetone Hydrogenation over Platinum Catalysts, J. Catal. 113 (1988) 52–71. [6] N.K. Sinha M. Neurock A first principles analysis of the hydrogenation of C 1 A C 4 aldehydes and ketones over Ru (0 0 0 1) J. Catal. 295 2012 31 44 10.1016/j.jcat.2012.07.018 [[6]] N.K. Sinha, M. Neurock, A first principles analysis of the hydrogenation of C 1 A C 4 aldehydes and ketones over Ru (0 0 0 1), J. Catal. 295 (2012) 31–44. https://doi.org/10.1016/j.jcat.2012.07.018. [7] O.A. Abdelrahman A. Heyden J.Q. Bond Microkinetic analysis of C3–C5 ketone hydrogenation over supported Ru catalysts J. Catal. 348 2017 59 74 10.1016/j.jcat.2017.01.022 [[7]] O.A. Abdelrahman, A. Heyden, J.Q. Bond, Microkinetic analysis of C3–C5 ketone hydrogenation over supported Ru catalysts, J. Catal. 348 (2017) 59–74. https://doi.org/10.1016/j.jcat.2017.01.022. [8] C. Michel J. Zaffran A.M. Ruppert J. Matras-Michalska M. Jędrzejczyk J. Grams P. Sautet Role of water in metal catalyst performance for ketone hydrogenation: A joint experimental and theoretical study on levulinic acid conversion into gamma-valerolactone Chem. Commun. 50 2014 12450 12453 10.1039/c4cc04401k [[8]] C. Michel, J. Zaffran, A.M. Ruppert, J. Matras-Michalska, M. Jędrzejczyk, J. Grams, P. Sautet, Role of water in metal catalyst performance for ketone hydrogenation: A joint experimental and theoretical study on levulinic acid conversion into gamma-valerolactone, Chem. Commun. 50 (2014) 12450–12453. https://doi.org/10.1039/c4cc04401k. [9] H. Wan A. Vitter R.V. Chaudhari B. Subramaniam Kinetic investigations of unusual solvent effects during Ru/C catalyzed hydrogenation of model oxygenates J. Catal. 309 2014 174 184 10.1016/j.jcat.2013.09.020 [[9]] H. Wan, A. Vitter, R. V. Chaudhari, B. Subramaniam, Kinetic investigations of unusual solvent effects during Ru/C catalyzed hydrogenation of model oxygenates, J. Catal. 309 (2014) 174–184. https://doi.org/10.1016/j.jcat.2013.09.020. [10] B.S. Akpa C. D’Agostino L.F. Gladden K. Hindle H. Manyar J. McGregor R. Li M. Neurock N. Sinha E.H. Stitt D. Weber J.A. Zeitler D.W. Rooney Solvent effects in the hydrogenation of 2-butanone J. Catal. 289 2012 30 41 10.1016/j.jcat.2012.01.011 [[10]] B.S. Akpa, C. D’Agostino, L.F. Gladden, K. Hindle, H. Manyar, J. McGregor, R. Li, M. Neurock, N. Sinha, E.H. Stitt, D. Weber, J.A. Zeitler, D.W. Rooney, Solvent effects in the hydrogenation of 2-butanone, J. Catal. 289 (2012) 30–41. https://doi.org/10.1016/j.jcat.2012.01.011. [11] D.M. Alonso S.G. Wettstein J.A. Dumesic Gamma-valerolactone, a sustainable platform molecule derived from lignocellulosic biomass Green Chem. 15 2013 584 10.1039/c3gc37065h [[11]] D.M. Alonso, S.G. Wettstein, J.A. Dumesic, Gamma-valerolactone, a sustainable platform molecule derived from lignocellulosic biomass, Green Chem. 15 (2013) 584. https://doi.org/10.1039/c3gc37065h. [12] J. Ning J. Xu J. Liu H. Miao H. Ma C. Chen X. Li L. Zhou W. Yu A remarkable promoting effect of water addition on selective hydrogenation of p-chloronitrobenzene in ethanol Catal. Commun. 8 2007 1763 1766 10.1016/j.catcom.2007.01.032 [[12]] J. Ning, J. Xu, J. Liu, H. Miao, H. Ma, C. Chen, X. Li, L. Zhou, W. Yu, A remarkable promoting effect of water addition on selective hydrogenation of p-chloronitrobenzene in ethanol, Catal. Commun. 8 (2007) 1763–1766. https://doi.org/10.1016/j.catcom.2007.01.032. [13] O.A. Abdelrahman H.Y. Luo A. Heyden Y. Román-Leshkov J.Q. Bond Toward rational design of stable, supported metal catalysts for aqueous-phase processing: Insights from the hydrogenation of levulinic acid J. Catal. 329 2015 10 21 10.1016/j.jcat.2015.04.026 [[13]] O.A. Abdelrahman, H.Y. Luo, A. Heyden, Y. Román-Leshkov, J.Q. Bond, Toward rational design of stable, supported metal catalysts for aqueous-phase processing: Insights from the hydrogenation of levulinic acid, J. Catal. 329 (2015) 10–21. https://doi.org/10.1016/j.jcat.2015.04.026. [14] D. Gerceker A.H. Motagamwala K.R. Rivera-Dones J.B. Miller G.W. Huber M. Mavrikakis J.A. Dumesic Methane Conversion to Ethylene and Aromatics on PtSn Catalysts ACS Catal. 7 2017 2088 2100 10.1021/acscatal.6b02724 [[14]] D. Gerceker, A.H. Motagamwala, K.R. Rivera-Dones, J.B. Miller, G.W. Huber, M. Mavrikakis, J.A. Dumesic, Methane Conversion to Ethylene and Aromatics on PtSn Catalysts, ACS Catal. 7 (2017) 2088–2100. https://doi.org/10.1021/acscatal.6b02724. [15] H.S. Fogler, Chapter 12: Diffusion and Reaction, in: Elem. Chem. React. Eng., Pearson Education Limited, 2006: pp. 813–866. [16] C.G. Hill, T.W. Root, Reactor Design for Heterogeneous Catalytic Reactions, in: Introd. to Chem. Eng. Kinet. React. Des., John Wiley & Sons, Incorporated, 2014: pp. 371–451. [17] P.E. Blöchl Projector augmented-wave method Phys. Rev. B. 50 1994 17953 17979 10.1142/9789814365031_0023 [[17]] P.E. Blöchl, Projector augmented-wave method, Phys. Rev. B. 50 (1994) 17953–17979. https://doi.org/10.1142/9789814365031_0023. [18] G. Kresse D. Joubert From ultrasoft pseudopotentials to the projector augmented-wave method Phys. Rev. B. 59 1999 11 19 [[18]] G. Kresse, D. Joubert, From ultrasoft pseudopotentials to the projector augmented-wave method, Phys. Rev. B. 59 (1999) 11–19. [19] G. Kresse J. Furthmüller Efficient iterative schemes for ab initio total-energy calculations using a plane-wave basis set Phys. Rev. B. 54 1996 11169 11186 [[19]] G. Kresse, J. Furthmüller, Efficient iterative schemes for ab initio total-energy calculations using a plane-wave basis set, Phys. Rev. B. 54 (1996) 11169–11186. [20] G. Kresse J. Furthmüller Efficiency of ab-initio total energy calculations for metals and semiconductors using a plane-wave basis set av * Comput. Mater. Sci. 6 6 1996 15 50 [[20]] G. Kresse, J. Furthmüller, Efficiency of ab-initio total energy calculations for metals and semiconductors using a plane-wave basis set av *, Comput. Mater. Sci. 6. 6 (1996) 15–50. [21] J.P. Perdew K. Burke M. Ernzerhof Generalized Gradient Approximation Made Simple Phys. Rev. Lett. 77 1996 3865 3868 [[21]] J.P. Perdew, K. Burke, M. Ernzerhof, Generalized Gradient Approximation Made Simple, Phys. Rev. Lett. 77 (1996) 3865–3868. [22] S. Grimme Semiempirical GGA-type density functional constructed with a long-range dispersion correction J. Comput. Chem. 27 2006 1787 1799 10.1002/jcc.20495 [[22]] S. Grimme, Semiempirical GGA-type density functional constructed with a long-range dispersion correction, J. Comput. Chem. 27 (2006) 1787–1799. https://doi.org/10.1002/jcc.20495. [23] T. Kerber M. Sierka J. Sauer Application of Semiempirical Long-Range Dispersion Corrections to Periodic Systems in Density Functional Theory J. Comput. Chem. 29 2008 2088 2097 10.1002/jcc [[23]] T. Kerber, M. Sierka, J. Sauer, Application of Semiempirical Long-Range Dispersion Corrections to Periodic Systems in Density Functional Theory, J. Comput. Chem. 29 (2008) 2088–2097. https://doi.org/10.1002/jcc. [24] C.R.C. Rêgo P. Tereshchuk L.N. Oliveira J.L.F. Da Silva Graphene-supported small transition-metal clusters: A density functional theory investigation within van der Waals corrections Phys. Rev. B. 95 2017 235422 10.1103/PhysRevB.95.235422 [[24]] C.R.C. Rêgo, P. Tereshchuk, L.N. Oliveira, J.L.F. Da Silva, Graphene-supported small transition-metal clusters: A density functional theory investigation within van der Waals corrections, Phys. Rev. B. 95 (2017) 235422. https://doi.org/10.1103/PhysRevB.95.235422. [25] S. Royer D. Duprez Catalytic Oxidation of Carbon Monoxide over Transition Metal Oxides ChemCatChem 3 2011 24 65 10.1002/cctc.201000378 [[25]] S. Royer, D. Duprez, Catalytic Oxidation of Carbon Monoxide over Transition Metal Oxides, ChemCatChem. 3 (2011) 24–65. https://doi.org/10.1002/cctc.201000378. [26] K. Momma F. Izumi VESTA 3 for three-dimensional visualization of crystal, volumetric and morphology data J. Appl. Crystallogr. 44 2011 1272 1276 10.1107/S0021889811038970 [[26]] K. Momma, F. Izumi, VESTA 3 for three-dimensional visualization of crystal, volumetric and morphology data, J. Appl. Crystallogr. 44 (2011) 1272–1276. https://doi.org/10.1107/S0021889811038970. [27] A.H. Motagamwala M.R. Ball J.A. Dumesic Microkinetic Analysis and Scaling Relations for Catalyst Design Annu. Rev. Chem. Biomol. Eng. 9 2018 413 450 10.1146/annurev-chembioeng-060817-084103 [[27]] A.H. Motagamwala, M.R. Ball, J.A. Dumesic, Microkinetic Analysis and Scaling Relations for Catalyst Design, Annu. Rev. Chem. Biomol. Eng. 9 (2018) 413–450. https://doi.org/10.1146/annurev-chembioeng-060817-084103. [28] A.S. Piskun J.E. De Haan E. Wilbers H.H. Van De Bovenkamp Z. Tang H.J. Heeres Hydrogenation of Levulinic Acid to γ-Valerolactone in Water Using Millimeter Sized Supported Ru Catalysts in a Packed Bed Reactor ACS Sustain. Chem. Eng. 4 2016 2939 2950 10.1021/acssuschemeng.5b00774 [[28]] A.S. Piskun, J.E. De Haan, E. Wilbers, H.H. Van De Bovenkamp, Z. Tang, H.J. Heeres, Hydrogenation of Levulinic Acid to γ-Valerolactone in Water Using Millimeter Sized Supported Ru Catalysts in a Packed Bed Reactor, ACS Sustain. Chem. Eng. 4 (2016) 2939–2950. https://doi.org/10.1021/acssuschemeng.5b00774. [29] O.A. Abdelrahman A. Heyden J.Q. Bond Analysis of kinetics and reaction pathways in the aqueous-phase hydrogenation of levulinic acid to form γ-Valerolactone over Ru/C ACS Catal. 4 2014 1171 1181 10.1021/cs401177p [[29]] O.A. Abdelrahman, A. Heyden, J.Q. Bond, Analysis of kinetics and reaction pathways in the aqueous-phase hydrogenation of levulinic acid to form γ-Valerolactone over Ru/C, ACS Catal. 4 (2014) 1171–1181. https://doi.org/10.1021/cs401177p. [30] B. Demir T. Kropp K.R. Rivera-Dones E.B. Gilcher G.W. Huber M. Mavrikakis J.A. Dumesic A self-adjusting platinum surface for acetone hydrogenation Proc. Natl. Acad. Sci. USA 117 2020 3446 3450 10.1073/pnas.1917110117 [[30]] B. Demir, T. Kropp, K.R. Rivera-Dones, E.B. Gilcher, G.W. Huber, M. Mavrikakis, J.A. Dumesic, A self-adjusting platinum surface for acetone hydrogenation, Proc. Natl. Acad. Sci. U. S. A. 117 (2020) 3446–3450. https://doi.org/10.1073/pnas.1917110117. [31] C.T. Campbell Future Directions and Industrial Perspectives Micro- and macro-kinetics: Their relationship in heterogeneous catalysis Top. Catal. 1 1994 353 366 10.1007/BF01492288 [[31]] C.T. Campbell, Future Directions and Industrial Perspectives Micro- and macro-kinetics: Their relationship in heterogeneous catalysis, Top. Catal. 1 (1994) 353–366. https://doi.org/10.1007/BF01492288. [32] C.T. Campbell Finding the rate-determining step in a mechanism: Comparing DeDonder relations with the “Degree of Rate Control” J. Catal. 204 2001 520 524 10.1006/jcat.2001.3396 [[32]] C.T. Campbell, Finding the rate-determining step in a mechanism: Comparing DeDonder relations with the “Degree of Rate Control,” J. Catal. 204 (2001) 520–524. https://doi.org/10.1006/jcat.2001.3396.",
+      "scopus-id": "85103958628",
+      "coredata": {
+        "eid": "1-s2.0-S0021951721001172",
+        "dc:description": "We employed an approach combining reaction kinetics measurements at steady state conditions, electronic structure calculations employing density functional theory, and microkinetic modeling for acetone hydrogenation to provide insights into the effects of water on metal catalyst surfaces for the hydrogenation of oxygenates over a wide range of reaction conditions. Elucidation of the repulsive interactions due to adsorbed water molecules at various reaction conditions provides a basis to formulate rate expressions for heterogeneous catalytic processes of biomass oxygenates. Reaction kinetics experiments were carried out at partial pressures of H2, acetone, water and helium in the range of 0.51–0.79, 0.02–0.13, 0.08–0.23, 0–0.28 atm, respectively. We show that the addition of water enhances the hydrogenation rate at 353 K and 1 atm on oxophilic metal catalysts such as Ru/C, whereas the same promotional effect of water is not observed for Pt-based catalysts. Microkinetic model predictions for the hydrogenation of acetone on Ru in the absence and presence of water, using enthalpies and entropies obtained from DFT calculations, were in agreement with the experimentally observed reaction orders and activation barriers. The model shows that a water-assisted hydroxypropyl path is expected to be the favored path on Ru with a rate-determining step of H-OH-mediated hydrogenation of C3H6OH (i.e., the hydroxypropyl intermediate formed by H2O-mediated initial hydrogenation of acetone) to produce isopropyl alcohol (IPA). Furthermore, hydrogen, acetone, hydroxypropyl intermediate and hydroxyl species were predicted to be abundant on the Ru surface with a high coverage of nearly 85%. The combined studies of computational and experimental catalysis on hydrogenation reactions help to elucidate the mechanistic role of water on metal catalyzed reactions for producing chemical building blocks from biomass-derived oxygenates.",
+        "openArchiveArticle": "false",
+        "prism:coverDate": "2021-11-30",
+        "openaccessUserLicense": null,
+        "prism:aggregationType": "Journal",
+        "prism:url": "https://api.elsevier.com/content/article/pii/S0021951721001172",
+        "dc:creator": [
+          {
+            "@_fa": "true",
+            "$": "Demir, Benginur"
+          },
+          {
+            "@_fa": "true",
+            "$": "Kropp, Thomas"
+          },
+          {
+            "@_fa": "true",
+            "$": "Gilcher, Elise B."
+          },
+          {
+            "@_fa": "true",
+            "$": "Mavrikakis, Manos"
+          },
+          {
+            "@_fa": "true",
+            "$": "Dumesic, James A."
+          }
+        ],
+        "link": [
+          {
+            "@_fa": "true",
+            "@rel": "self",
+            "@href": "https://api.elsevier.com/content/article/pii/S0021951721001172"
+          },
+          {
+            "@_fa": "true",
+            "@rel": "scidir",
+            "@href": "https://www.sciencedirect.com/science/article/pii/S0021951721001172"
+          }
+        ],
+        "dc:format": "application/json",
+        "openaccessType": null,
+        "pii": "S0021-9517(21)00117-2",
+        "prism:volume": "403",
+        "prism:publisher": "Elsevier Inc.",
+        "dc:title": "Effects of water on the kinetics of acetone hydrogenation over Pt and Ru catalysts",
+        "prism:copyright": "© 2021 Elsevier Inc. All rights reserved.",
+        "prism:issueName": "Special issue of Journal of Catalysis in honour of Dr. Henrik Topsøe",
+        "openaccess": "0",
+        "prism:issn": "00219517",
+        "dcterms:subject": [
+          {
+            "@_fa": "true",
+            "$": "Hydrogenation"
+          },
+          {
+            "@_fa": "true",
+            "$": "Platinum"
+          },
+          {
+            "@_fa": "true",
+            "$": "Ruthenium"
+          },
+          {
+            "@_fa": "true",
+            "$": "Reaction kinetics"
+          },
+          {
+            "@_fa": "true",
+            "$": "Density functional theory"
+          },
+          {
+            "@_fa": "true",
+            "$": "Acetone"
+          },
+          {
+            "@_fa": "true",
+            "$": "Water effects"
+          }
+        ],
+        "openaccessArticle": "false",
+        "prism:publicationName": "Journal of Catalysis",
+        "openaccessSponsorType": null,
+        "prism:pageRange": "215-227",
+        "prism:endingPage": "227",
+        "pubType": "fla",
+        "prism:coverDisplayDate": "November 2021",
+        "prism:doi": "10.1016/j.jcat.2021.03.013",
+        "prism:startingPage": "215",
+        "dc:identifier": "doi:10.1016/j.jcat.2021.03.013",
+        "openaccessSponsorName": null
+      },
+      "objects": {
+        "object": [
+          {
+            "@category": "standard",
+            "@height": "9",
+            "@width": "9",
+            "@_fa": "true",
+            "$": "https://api.elsevier.com/content/object/eid/1-s2.0-S0021951721001172-fx1.jpg?httpAccept=%2A%2F%2A",
+            "@multimediatype": "JPEG image file",
+            "@type": "IMAGE-DOWNSAMPLED",
+            "@size": "420",
+            "@ref": "fx1",
+            "@mimetype": "image/jpeg"
+          },
+          {
+            "@category": "standard",
+            "@height": "10",
+            "@width": "10",
+            "@_fa": "true",
+            "$": "https://api.elsevier.com/content/object/eid/1-s2.0-S0021951721001172-fx2.jpg?httpAccept=%2A%2F%2A",
+            "@multimediatype": "JPEG image file",
+            "@type": "IMAGE-DOWNSAMPLED",
+            "@size": "455",
+            "@ref": "fx2",
+            "@mimetype": "image/jpeg"
+          },
+          {
+            "@category": "standard",
+            "@height": "744",
+            "@width": "690",
+            "@_fa": "true",
+            "$": "https://api.elsevier.com/content/object/eid/1-s2.0-S0021951721001172-fx3.jpg?httpAccept=%2A%2F%2A",
+            "@multimediatype": "JPEG image file",
+            "@type": "IMAGE-DOWNSAMPLED",
+            "@size": "103793",
+            "@ref": "fx3",
+            "@mimetype": "image/jpeg"
+          },
+          {
+            "@category": "standard",
+            "@height": "200",
+            "@width": "491",
+            "@_fa": "true",
+            "$": "https://api.elsevier.com/content/object/eid/1-s2.0-S0021951721001172-ga1.jpg?httpAccept=%2A%2F%2A",
+            "@multimediatype": "JPEG image file",
+            "@type": "IMAGE-DOWNSAMPLED",
+            "@size": "33021",
+            "@ref": "ga1",
+            "@mimetype": "image/jpeg"
+          },
+          {
+            "@category": "standard",
+            "@height": "263",
+            "@width": "364",
+            "@_fa": "true",
+            "$": "https://api.elsevier.com/content/object/eid/1-s2.0-S0021951721001172-gr1.jpg?httpAccept=%2A%2F%2A",
+            "@multimediatype": "JPEG image file",
+            "@type": "IMAGE-DOWNSAMPLED",
+            "@size": "26043",
+            "@ref": "gr1",
+            "@mimetype": "image/jpeg"
+          },
+          {
+            "@category": "standard",
+            "@height": "579",
+            "@width": "543",
+            "@_fa": "true",
+            "$": "https://api.elsevier.com/content/object/eid/1-s2.0-S0021951721001172-gr10.jpg?httpAccept=%2A%2F%2A",
+            "@multimediatype": "JPEG image file",
+            "@type": "IMAGE-DOWNSAMPLED",
+            "@size": "70525",
+            "@ref": "gr10",
+            "@mimetype": "image/jpeg"
+          },
+          {
+            "@category": "standard",
+            "@height": "262",
+            "@width": "364",
+            "@_fa": "true",
+            "$": "https://api.elsevier.com/content/object/eid/1-s2.0-S0021951721001172-gr2.jpg?httpAccept=%2A%2F%2A",
+            "@multimediatype": "JPEG image file",
+            "@type": "IMAGE-DOWNSAMPLED",
+            "@size": "27869",
+            "@ref": "gr2",
+            "@mimetype": "image/jpeg"
+          },
+          {
+            "@category": "standard",
+            "@height": "580",
+            "@width": "667",
+            "@_fa": "true",
+            "$": "https://api.elsevier.com/content/object/eid/1-s2.0-S0021951721001172-gr3.jpg?httpAccept=%2A%2F%2A",
+            "@multimediatype": "JPEG image file",
+            "@type": "IMAGE-DOWNSAMPLED",
+            "@size": "84021",
+            "@ref": "gr3",
+            "@mimetype": "image/jpeg"
+          },
+          {
+            "@category": "standard",
+            "@height": "284",
+            "@width": "543",
+            "@_fa": "true",
+            "$": "https://api.elsevier.com/content/object/eid/1-s2.0-S0021951721001172-gr4.jpg?httpAccept=%2A%2F%2A",
+            "@multimediatype": "JPEG image file",
+            "@type": "IMAGE-DOWNSAMPLED",
+            "@size": "48899",
+            "@ref": "gr4",
+            "@mimetype": "image/jpeg"
+          },
+          {
+            "@category": "standard",
+            "@height": "213",
+            "@width": "364",
+            "@_fa": "true",
+            "$": "https://api.elsevier.com/content/object/eid/1-s2.0-S0021951721001172-gr5.jpg?httpAccept=%2A%2F%2A",
+            "@multimediatype": "JPEG image file",
+            "@type": "IMAGE-DOWNSAMPLED",
+            "@size": "16986",
+            "@ref": "gr5",
+            "@mimetype": "image/jpeg"
+          },
+          {
+            "@category": "standard",
+            "@height": "571",
+            "@width": "667",
+            "@_fa": "true",
+            "$": "https://api.elsevier.com/content/object/eid/1-s2.0-S0021951721001172-gr6.jpg?httpAccept=%2A%2F%2A",
+            "@multimediatype": "JPEG image file",
+            "@type": "IMAGE-DOWNSAMPLED",
+            "@size": "81790",
+            "@ref": "gr6",
+            "@mimetype": "image/jpeg"
+          },
+          {
+            "@category": "standard",
+            "@height": "198",
+            "@width": "711",
+            "@_fa": "true",
+            "$": "https://api.elsevier.com/content/object/eid/1-s2.0-S0021951721001172-gr7.jpg?httpAccept=%2A%2F%2A",
+            "@multimediatype": "JPEG image file",
+            "@type": "IMAGE-DOWNSAMPLED",
+            "@size": "35343",
+            "@ref": "gr7",
+            "@mimetype": "image/jpeg"
+          },
+          {
+            "@category": "standard",
+            "@height": "198",
+            "@width": "711",
+            "@_fa": "true",
+            "$": "https://api.elsevier.com/content/object/eid/1-s2.0-S0021951721001172-gr8.jpg?httpAccept=%2A%2F%2A",
+            "@multimediatype": "JPEG image file",
+            "@type": "IMAGE-DOWNSAMPLED",
+            "@size": "41568",
+            "@ref": "gr8",
+            "@mimetype": "image/jpeg"
+          },
+          {
+            "@category": "standard",
+            "@height": "551",
+            "@width": "364",
+            "@_fa": "true",
+            "$": "https://api.elsevier.com/content/object/eid/1-s2.0-S0021951721001172-gr9.jpg?httpAccept=%2A%2F%2A",
+            "@multimediatype": "JPEG image file",
+            "@type": "IMAGE-DOWNSAMPLED",
+            "@size": "29361",
+            "@ref": "gr9",
+            "@mimetype": "image/jpeg"
+          },
+          {
+            "@category": "thumbnail",
+            "@height": "40",
+            "@width": "40",
+            "@_fa": "true",
+            "$": "https://api.elsevier.com/content/object/eid/1-s2.0-S0021951721001172-fx1.sml?httpAccept=%2A%2F%2A",
+            "@multimediatype": "GIF image file",
+            "@type": "IMAGE-THUMBNAIL",
+            "@size": "1758",
+            "@ref": "fx1",
+            "@mimetype": "image/gif"
+          },
+          {
+            "@category": "thumbnail",
+            "@height": "45",
+            "@width": "45",
+            "@_fa": "true",
+            "$": "https://api.elsevier.com/content/object/eid/1-s2.0-S0021951721001172-fx2.sml?httpAccept=%2A%2F%2A",
+            "@multimediatype": "GIF image file",
+            "@type": "IMAGE-THUMBNAIL",
+            "@size": "2206",
+            "@ref": "fx2",
+            "@mimetype": "image/gif"
+          },
+          {
+            "@category": "thumbnail",
+            "@height": "164",
+            "@width": "152",
+            "@_fa": "true",
+            "$": "https://api.elsevier.com/content/object/eid/1-s2.0-S0021951721001172-fx3.sml?httpAccept=%2A%2F%2A",
+            "@multimediatype": "GIF image file",
+            "@type": "IMAGE-THUMBNAIL",
+            "@size": "5583",
+            "@ref": "fx3",
+            "@mimetype": "image/gif"
+          },
+          {
+            "@category": "thumbnail",
+            "@height": "89",
+            "@width": "219",
+            "@_fa": "true",
+            "$": "https://api.elsevier.com/content/object/eid/1-s2.0-S0021951721001172-ga1.sml?httpAccept=%2A%2F%2A",
+            "@multimediatype": "GIF image file",
+            "@type": "IMAGE-THUMBNAIL",
+            "@size": "7113",
+            "@ref": "ga1",
+            "@mimetype": "image/gif"
+          },
+          {
+            "@category": "thumbnail",
+            "@height": "158",
+            "@width": "219",
+            "@_fa": "true",
+            "$": "https://api.elsevier.com/content/object/eid/1-s2.0-S0021951721001172-gr1.sml?httpAccept=%2A%2F%2A",
+            "@multimediatype": "GIF image file",
+            "@type": "IMAGE-THUMBNAIL",
+            "@size": "8946",
+            "@ref": "gr1",
+            "@mimetype": "image/gif"
+          },
+          {
+            "@category": "thumbnail",
+            "@height": "164",
+            "@width": "154",
+            "@_fa": "true",
+            "$": "https://api.elsevier.com/content/object/eid/1-s2.0-S0021951721001172-gr10.sml?httpAccept=%2A%2F%2A",
+            "@multimediatype": "GIF image file",
+            "@type": "IMAGE-THUMBNAIL",
+            "@size": "6801",
+            "@ref": "gr10",
+            "@mimetype": "image/gif"
+          },
+          {
+            "@category": "thumbnail",
+            "@height": "158",
+            "@width": "219",
+            "@_fa": "true",
+            "$": "https://api.elsevier.com/content/object/eid/1-s2.0-S0021951721001172-gr2.sml?httpAccept=%2A%2F%2A",
+            "@multimediatype": "GIF image file",
+            "@type": "IMAGE-THUMBNAIL",
+            "@size": "9127",
+            "@ref": "gr2",
+            "@mimetype": "image/gif"
+          },
+          {
+            "@category": "thumbnail",
+            "@height": "164",
+            "@width": "189",
+            "@_fa": "true",
+            "$": "https://api.elsevier.com/content/object/eid/1-s2.0-S0021951721001172-gr3.sml?httpAccept=%2A%2F%2A",
+            "@multimediatype": "GIF image file",
+            "@type": "IMAGE-THUMBNAIL",
+            "@size": "6951",
+            "@ref": "gr3",
+            "@mimetype": "image/gif"
+          },
+          {
+            "@category": "thumbnail",
+            "@height": "115",
+            "@width": "219",
+            "@_fa": "true",
+            "$": "https://api.elsevier.com/content/object/eid/1-s2.0-S0021951721001172-gr4.sml?httpAccept=%2A%2F%2A",
+            "@multimediatype": "GIF image file",
+            "@type": "IMAGE-THUMBNAIL",
+            "@size": "7936",
+            "@ref": "gr4",
+            "@mimetype": "image/gif"
+          },
+          {
+            "@category": "thumbnail",
+            "@height": "128",
+            "@width": "219",
+            "@_fa": "true",
+            "$": "https://api.elsevier.com/content/object/eid/1-s2.0-S0021951721001172-gr5.sml?httpAccept=%2A%2F%2A",
+            "@multimediatype": "GIF image file",
+            "@type": "IMAGE-THUMBNAIL",
+            "@size": "5543",
+            "@ref": "gr5",
+            "@mimetype": "image/gif"
+          },
+          {
+            "@category": "thumbnail",
+            "@height": "164",
+            "@width": "191",
+            "@_fa": "true",
+            "$": "https://api.elsevier.com/content/object/eid/1-s2.0-S0021951721001172-gr6.sml?httpAccept=%2A%2F%2A",
+            "@multimediatype": "GIF image file",
+            "@type": "IMAGE-THUMBNAIL",
+            "@size": "8340",
+            "@ref": "gr6",
+            "@mimetype": "image/gif"
+          },
+          {
+            "@category": "thumbnail",
+            "@height": "61",
+            "@width": "219",
+            "@_fa": "true",
+            "$": "https://api.elsevier.com/content/object/eid/1-s2.0-S0021951721001172-gr7.sml?httpAccept=%2A%2F%2A",
+            "@multimediatype": "GIF image file",
+            "@type": "IMAGE-THUMBNAIL",
+            "@size": "4837",
+            "@ref": "gr7",
+            "@mimetype": "image/gif"
+          },
+          {
+            "@category": "thumbnail",
+            "@height": "61",
+            "@width": "219",
+            "@_fa": "true",
+            "$": "https://api.elsevier.com/content/object/eid/1-s2.0-S0021951721001172-gr8.sml?httpAccept=%2A%2F%2A",
+            "@multimediatype": "GIF image file",
+            "@type": "IMAGE-THUMBNAIL",
+            "@size": "5555",
+            "@ref": "gr8",
+            "@mimetype": "image/gif"
+          },
+          {
+            "@category": "thumbnail",
+            "@height": "163",
+            "@width": "108",
+            "@_fa": "true",
+            "$": "https://api.elsevier.com/content/object/eid/1-s2.0-S0021951721001172-gr9.sml?httpAccept=%2A%2F%2A",
+            "@multimediatype": "GIF image file",
+            "@type": "IMAGE-THUMBNAIL",
+            "@size": "2658",
+            "@ref": "gr9",
+            "@mimetype": "image/gif"
+          },
+          {
+            "@category": "high",
+            "@height": "40",
+            "@width": "40",
+            "@_fa": "true",
+            "$": "https://api.elsevier.com/content/object/eid/1-s2.0-S0021951721001172-fx1_lrg.jpg?httpAccept=%2A%2F%2A",
+            "@multimediatype": "JPEG image file",
+            "@type": "IMAGE-HIGH-RES",
+            "@size": "1067",
+            "@ref": "fx1",
+            "@mimetype": "image/jpeg"
+          },
+          {
+            "@category": "high",
+            "@height": "45",
+            "@width": "45",
+            "@_fa": "true",
+            "$": "https://api.elsevier.com/content/object/eid/1-s2.0-S0021951721001172-fx2_lrg.jpg?httpAccept=%2A%2F%2A",
+            "@multimediatype": "JPEG image file",
+            "@type": "IMAGE-HIGH-RES",
+            "@size": "1083",
+            "@ref": "fx2",
+            "@mimetype": "image/jpeg"
+          },
+          {
+            "@category": "high",
+            "@height": "3294",
+            "@width": "3055",
+            "@_fa": "true",
+            "$": "https://api.elsevier.com/content/object/eid/1-s2.0-S0021951721001172-fx3_lrg.jpg?httpAccept=%2A%2F%2A",
+            "@multimediatype": "JPEG image file",
+            "@type": "IMAGE-HIGH-RES",
+            "@size": "599210",
+            "@ref": "fx3",
+            "@mimetype": "image/jpeg"
+          },
+          {
+            "@category": "high",
+            "@height": "531",
+            "@width": "1305",
+            "@_fa": "true",
+            "$": "https://api.elsevier.com/content/object/eid/1-s2.0-S0021951721001172-ga1_lrg.jpg?httpAccept=%2A%2F%2A",
+            "@multimediatype": "JPEG image file",
+            "@type": "IMAGE-HIGH-RES",
+            "@size": "111110",
+            "@ref": "ga1",
+            "@mimetype": "image/jpeg"
+          },
+          {
+            "@category": "high",
+            "@height": "1165",
+            "@width": "1614",
+            "@_fa": "true",
+            "$": "https://api.elsevier.com/content/object/eid/1-s2.0-S0021951721001172-gr1_lrg.jpg?httpAccept=%2A%2F%2A",
+            "@multimediatype": "JPEG image file",
+            "@type": "IMAGE-HIGH-RES",
+            "@size": "211732",
+            "@ref": "gr1",
+            "@mimetype": "image/jpeg"
+          },
+          {
+            "@category": "high",
+            "@height": "2561",
+            "@width": "2403",
+            "@_fa": "true",
+            "$": "https://api.elsevier.com/content/object/eid/1-s2.0-S0021951721001172-gr10_lrg.jpg?httpAccept=%2A%2F%2A",
+            "@multimediatype": "JPEG image file",
+            "@type": "IMAGE-HIGH-RES",
+            "@size": "525893",
+            "@ref": "gr10",
+            "@mimetype": "image/jpeg"
+          },
+          {
+            "@category": "high",
+            "@height": "1162",
+            "@width": "1614",
+            "@_fa": "true",
+            "$": "https://api.elsevier.com/content/object/eid/1-s2.0-S0021951721001172-gr2_lrg.jpg?httpAccept=%2A%2F%2A",
+            "@multimediatype": "JPEG image file",
+            "@type": "IMAGE-HIGH-RES",
+            "@size": "207969",
+            "@ref": "gr2",
+            "@mimetype": "image/jpeg"
+          },
+          {
+            "@category": "high",
+            "@height": "2566",
+            "@width": "2953",
+            "@_fa": "true",
+            "$": "https://api.elsevier.com/content/object/eid/1-s2.0-S0021951721001172-gr3_lrg.jpg?httpAccept=%2A%2F%2A",
+            "@multimediatype": "JPEG image file",
+            "@type": "IMAGE-HIGH-RES",
+            "@size": "557593",
+            "@ref": "gr3",
+            "@mimetype": "image/jpeg"
+          },
+          {
+            "@category": "high",
+            "@height": "1257",
+            "@width": "2403",
+            "@_fa": "true",
+            "$": "https://api.elsevier.com/content/object/eid/1-s2.0-S0021951721001172-gr4_lrg.jpg?httpAccept=%2A%2F%2A",
+            "@multimediatype": "JPEG image file",
+            "@type": "IMAGE-HIGH-RES",
+            "@size": "372686",
+            "@ref": "gr4",
+            "@mimetype": "image/jpeg"
+          },
+          {
+            "@category": "high",
+            "@height": "943",
+            "@width": "1614",
+            "@_fa": "true",
+            "$": "https://api.elsevier.com/content/object/eid/1-s2.0-S0021951721001172-gr5_lrg.jpg?httpAccept=%2A%2F%2A",
+            "@multimediatype": "JPEG image file",
+            "@type": "IMAGE-HIGH-RES",
+            "@size": "141450",
+            "@ref": "gr5",
+            "@mimetype": "image/jpeg"
+          },
+          {
+            "@category": "high",
+            "@height": "2529",
+            "@width": "2953",
+            "@_fa": "true",
+            "$": "https://api.elsevier.com/content/object/eid/1-s2.0-S0021951721001172-gr6_lrg.jpg?httpAccept=%2A%2F%2A",
+            "@multimediatype": "JPEG image file",
+            "@type": "IMAGE-HIGH-RES",
+            "@size": "581045",
+            "@ref": "gr6",
+            "@mimetype": "image/jpeg"
+          },
+          {
+            "@category": "high",
+            "@height": "876",
+            "@width": "3150",
+            "@_fa": "true",
+            "$": "https://api.elsevier.com/content/object/eid/1-s2.0-S0021951721001172-gr7_lrg.jpg?httpAccept=%2A%2F%2A",
+            "@multimediatype": "JPEG image file",
+            "@type": "IMAGE-HIGH-RES",
+            "@size": "174864",
+            "@ref": "gr7",
+            "@mimetype": "image/jpeg"
+          },
+          {
+            "@category": "high",
+            "@height": "877",
+            "@width": "3150",
+            "@_fa": "true",
+            "$": "https://api.elsevier.com/content/object/eid/1-s2.0-S0021951721001172-gr8_lrg.jpg?httpAccept=%2A%2F%2A",
+            "@multimediatype": "JPEG image file",
+            "@type": "IMAGE-HIGH-RES",
+            "@size": "204201",
+            "@ref": "gr8",
+            "@mimetype": "image/jpeg"
+          },
+          {
+            "@category": "high",
+            "@height": "2442",
+            "@width": "1614",
+            "@_fa": "true",
+            "$": "https://api.elsevier.com/content/object/eid/1-s2.0-S0021951721001172-gr9_lrg.jpg?httpAccept=%2A%2F%2A",
+            "@multimediatype": "JPEG image file",
+            "@type": "IMAGE-HIGH-RES",
+            "@size": "167975",
+            "@ref": "gr9",
+            "@mimetype": "image/jpeg"
+          },
+          {
+            "@category": "standard",
+            "@_fa": "true",
+            "$": "https://api.elsevier.com/content/object/eid/1-s2.0-S0021951721001172-mmc1.docx?httpAccept=%2A%2F%2A",
+            "@multimediatype": "Microsoft Word file",
+            "@type": "APPLICATION",
+            "@size": "322205",
+            "@ref": "mmc1",
+            "@mimetype": "application/word"
+          },
+          {
+            "@category": "thumbnail",
+            "@_fa": "true",
+            "$": "https://api.elsevier.com/content/object/eid/1-s2.0-S0021951721001172-si1.svg?httpAccept=%2A%2F%2A",
+            "@multimediatype": "Scalable Vector Graphics file",
+            "@type": "ALTIMG",
+            "@size": "47326",
+            "@ref": "si1",
+            "@mimetype": "image/svg+xml"
+          },
+          {
+            "@category": "thumbnail",
+            "@_fa": "true",
+            "$": "https://api.elsevier.com/content/object/eid/1-s2.0-S0021951721001172-si10.svg?httpAccept=%2A%2F%2A",
+            "@multimediatype": "Scalable Vector Graphics file",
+            "@type": "ALTIMG",
+            "@size": "4200",
+            "@ref": "si10",
+            "@mimetype": "image/svg+xml"
+          },
+          {
+            "@category": "thumbnail",
+            "@_fa": "true",
+            "$": "https://api.elsevier.com/content/object/eid/1-s2.0-S0021951721001172-si11.svg?httpAccept=%2A%2F%2A",
+            "@multimediatype": "Scalable Vector Graphics file",
+            "@type": "ALTIMG",
+            "@size": "3309",
+            "@ref": "si11",
+            "@mimetype": "image/svg+xml"
+          },
+          {
+            "@category": "thumbnail",
+            "@_fa": "true",
+            "$": "https://api.elsevier.com/content/object/eid/1-s2.0-S0021951721001172-si12.svg?httpAccept=%2A%2F%2A",
+            "@multimediatype": "Scalable Vector Graphics file",
+            "@type": "ALTIMG",
+            "@size": "4203",
+            "@ref": "si12",
+            "@mimetype": "image/svg+xml"
+          },
+          {
+            "@category": "thumbnail",
+            "@_fa": "true",
+            "$": "https://api.elsevier.com/content/object/eid/1-s2.0-S0021951721001172-si13.svg?httpAccept=%2A%2F%2A",
+            "@multimediatype": "Scalable Vector Graphics file",
+            "@type": "ALTIMG",
+            "@size": "4506",
+            "@ref": "si13",
+            "@mimetype": "image/svg+xml"
+          },
+          {
+            "@category": "thumbnail",
+            "@_fa": "true",
+            "$": "https://api.elsevier.com/content/object/eid/1-s2.0-S0021951721001172-si14.svg?httpAccept=%2A%2F%2A",
+            "@multimediatype": "Scalable Vector Graphics file",
+            "@type": "ALTIMG",
+            "@size": "20607",
+            "@ref": "si14",
+            "@mimetype": "image/svg+xml"
+          },
+          {
+            "@category": "thumbnail",
+            "@_fa": "true",
+            "$": "https://api.elsevier.com/content/object/eid/1-s2.0-S0021951721001172-si15.svg?httpAccept=%2A%2F%2A",
+            "@multimediatype": "Scalable Vector Graphics file",
+            "@type": "ALTIMG",
+            "@size": "22580",
+            "@ref": "si15",
+            "@mimetype": "image/svg+xml"
+          },
+          {
+            "@category": "thumbnail",
+            "@_fa": "true",
+            "$": "https://api.elsevier.com/content/object/eid/1-s2.0-S0021951721001172-si16.svg?httpAccept=%2A%2F%2A",
+            "@multimediatype": "Scalable Vector Graphics file",
+            "@type": "ALTIMG",
+            "@size": "20649",
+            "@ref": "si16",
+            "@mimetype": "image/svg+xml"
+          },
+          {
+            "@category": "thumbnail",
+            "@_fa": "true",
+            "$": "https://api.elsevier.com/content/object/eid/1-s2.0-S0021951721001172-si17.svg?httpAccept=%2A%2F%2A",
+            "@multimediatype": "Scalable Vector Graphics file",
+            "@type": "ALTIMG",
+            "@size": "15656",
+            "@ref": "si17",
+            "@mimetype": "image/svg+xml"
+          },
+          {
+            "@category": "thumbnail",
+            "@_fa": "true",
+            "$": "https://api.elsevier.com/content/object/eid/1-s2.0-S0021951721001172-si18.svg?httpAccept=%2A%2F%2A",
+            "@multimediatype": "Scalable Vector Graphics file",
+            "@type": "ALTIMG",
+            "@size": "16655",
+            "@ref": "si18",
+            "@mimetype": "image/svg+xml"
+          },
+          {
+            "@category": "thumbnail",
+            "@_fa": "true",
+            "$": "https://api.elsevier.com/content/object/eid/1-s2.0-S0021951721001172-si19.svg?httpAccept=%2A%2F%2A",
+            "@multimediatype": "Scalable Vector Graphics file",
+            "@type": "ALTIMG",
+            "@size": "9653",
+            "@ref": "si19",
+            "@mimetype": "image/svg+xml"
+          },
+          {
+            "@category": "thumbnail",
+            "@_fa": "true",
+            "$": "https://api.elsevier.com/content/object/eid/1-s2.0-S0021951721001172-si2.svg?httpAccept=%2A%2F%2A",
+            "@multimediatype": "Scalable Vector Graphics file",
+            "@type": "ALTIMG",
+            "@size": "29690",
+            "@ref": "si2",
+            "@mimetype": "image/svg+xml"
+          },
+          {
+            "@category": "thumbnail",
+            "@_fa": "true",
+            "$": "https://api.elsevier.com/content/object/eid/1-s2.0-S0021951721001172-si20.svg?httpAccept=%2A%2F%2A",
+            "@multimediatype": "Scalable Vector Graphics file",
+            "@type": "ALTIMG",
+            "@size": "18334",
+            "@ref": "si20",
+            "@mimetype": "image/svg+xml"
+          },
+          {
+            "@category": "thumbnail",
+            "@_fa": "true",
+            "$": "https://api.elsevier.com/content/object/eid/1-s2.0-S0021951721001172-si21.svg?httpAccept=%2A%2F%2A",
+            "@multimediatype": "Scalable Vector Graphics file",
+            "@type": "ALTIMG",
+            "@size": "2518",
+            "@ref": "si21",
+            "@mimetype": "image/svg+xml"
+          },
+          {
+            "@category": "thumbnail",
+            "@_fa": "true",
+            "$": "https://api.elsevier.com/content/object/eid/1-s2.0-S0021951721001172-si22.svg?httpAccept=%2A%2F%2A",
+            "@multimediatype": "Scalable Vector Graphics file",
+            "@type": "ALTIMG",
+            "@size": "3520",
+            "@ref": "si22",
+            "@mimetype": "image/svg+xml"
+          },
+          {
+            "@category": "thumbnail",
+            "@_fa": "true",
+            "$": "https://api.elsevier.com/content/object/eid/1-s2.0-S0021951721001172-si23.svg?httpAccept=%2A%2F%2A",
+            "@multimediatype": "Scalable Vector Graphics file",
+            "@type": "ALTIMG",
+            "@size": "4494",
+            "@ref": "si23",
+            "@mimetype": "image/svg+xml"
+          },
+          {
+            "@category": "thumbnail",
+            "@_fa": "true",
+            "$": "https://api.elsevier.com/content/object/eid/1-s2.0-S0021951721001172-si24.svg?httpAccept=%2A%2F%2A",
+            "@multimediatype": "Scalable Vector Graphics file",
+            "@type": "ALTIMG",
+            "@size": "11813",
+            "@ref": "si24",
+            "@mimetype": "image/svg+xml"
+          },
+          {
+            "@category": "thumbnail",
+            "@_fa": "true",
+            "$": "https://api.elsevier.com/content/object/eid/1-s2.0-S0021951721001172-si25.svg?httpAccept=%2A%2F%2A",
+            "@multimediatype": "Scalable Vector Graphics file",
+            "@type": "ALTIMG",
+            "@size": "11352",
+            "@ref": "si25",
+            "@mimetype": "image/svg+xml"
+          },
+          {
+            "@category": "thumbnail",
+            "@_fa": "true",
+            "$": "https://api.elsevier.com/content/object/eid/1-s2.0-S0021951721001172-si26.svg?httpAccept=%2A%2F%2A",
+            "@multimediatype": "Scalable Vector Graphics file",
+            "@type": "ALTIMG",
+            "@size": "21819",
+            "@ref": "si26",
+            "@mimetype": "image/svg+xml"
+          },
+          {
+            "@category": "thumbnail",
+            "@_fa": "true",
+            "$": "https://api.elsevier.com/content/object/eid/1-s2.0-S0021951721001172-si27.svg?httpAccept=%2A%2F%2A",
+            "@multimediatype": "Scalable Vector Graphics file",
+            "@type": "ALTIMG",
+            "@size": "8872",
+            "@ref": "si27",
+            "@mimetype": "image/svg+xml"
+          },
+          {
+            "@category": "thumbnail",
+            "@_fa": "true",
+            "$": "https://api.elsevier.com/content/object/eid/1-s2.0-S0021951721001172-si28.svg?httpAccept=%2A%2F%2A",
+            "@multimediatype": "Scalable Vector Graphics file",
+            "@type": "ALTIMG",
+            "@size": "8987",
+            "@ref": "si28",
+            "@mimetype": "image/svg+xml"
+          },
+          {
+            "@category": "thumbnail",
+            "@_fa": "true",
+            "$": "https://api.elsevier.com/content/object/eid/1-s2.0-S0021951721001172-si29.svg?httpAccept=%2A%2F%2A",
+            "@multimediatype": "Scalable Vector Graphics file",
+            "@type": "ALTIMG",
+            "@size": "4768",
+            "@ref": "si29",
+            "@mimetype": "image/svg+xml"
+          },
+          {
+            "@category": "thumbnail",
+            "@_fa": "true",
+            "$": "https://api.elsevier.com/content/object/eid/1-s2.0-S0021951721001172-si3.svg?httpAccept=%2A%2F%2A",
+            "@multimediatype": "Scalable Vector Graphics file",
+            "@type": "ALTIMG",
+            "@size": "15874",
+            "@ref": "si3",
+            "@mimetype": "image/svg+xml"
+          },
+          {
+            "@category": "thumbnail",
+            "@_fa": "true",
+            "$": "https://api.elsevier.com/content/object/eid/1-s2.0-S0021951721001172-si30.svg?httpAccept=%2A%2F%2A",
+            "@multimediatype": "Scalable Vector Graphics file",
+            "@type": "ALTIMG",
+            "@size": "6177",
+            "@ref": "si30",
+            "@mimetype": "image/svg+xml"
+          },
+          {
+            "@category": "thumbnail",
+            "@_fa": "true",
+            "$": "https://api.elsevier.com/content/object/eid/1-s2.0-S0021951721001172-si31.svg?httpAccept=%2A%2F%2A",
+            "@multimediatype": "Scalable Vector Graphics file",
+            "@type": "ALTIMG",
+            "@size": "9921",
+            "@ref": "si31",
+            "@mimetype": "image/svg+xml"
+          },
+          {
+            "@category": "thumbnail",
+            "@_fa": "true",
+            "$": "https://api.elsevier.com/content/object/eid/1-s2.0-S0021951721001172-si32.svg?httpAccept=%2A%2F%2A",
+            "@multimediatype": "Scalable Vector Graphics file",
+            "@type": "ALTIMG",
+            "@size": "6136",
+            "@ref": "si32",
+            "@mimetype": "image/svg+xml"
+          },
+          {
+            "@category": "thumbnail",
+            "@_fa": "true",
+            "$": "https://api.elsevier.com/content/object/eid/1-s2.0-S0021951721001172-si33.svg?httpAccept=%2A%2F%2A",
+            "@multimediatype": "Scalable Vector Graphics file",
+            "@type": "ALTIMG",
+            "@size": "19753",
+            "@ref": "si33",
+            "@mimetype": "image/svg+xml"
+          },
+          {
+            "@category": "thumbnail",
+            "@_fa": "true",
+            "$": "https://api.elsevier.com/content/object/eid/1-s2.0-S0021951721001172-si34.svg?httpAccept=%2A%2F%2A",
+            "@multimediatype": "Scalable Vector Graphics file",
+            "@type": "ALTIMG",
+            "@size": "21547",
+            "@ref": "si34",
+            "@mimetype": "image/svg+xml"
+          },
+          {
+            "@category": "thumbnail",
+            "@_fa": "true",
+            "$": "https://api.elsevier.com/content/object/eid/1-s2.0-S0021951721001172-si35.svg?httpAccept=%2A%2F%2A",
+            "@multimediatype": "Scalable Vector Graphics file",
+            "@type": "ALTIMG",
+            "@size": "18295",
+            "@ref": "si35",
+            "@mimetype": "image/svg+xml"
+          },
+          {
+            "@category": "thumbnail",
+            "@_fa": "true",
+            "$": "https://api.elsevier.com/content/object/eid/1-s2.0-S0021951721001172-si36.svg?httpAccept=%2A%2F%2A",
+            "@multimediatype": "Scalable Vector Graphics file",
+            "@type": "ALTIMG",
+            "@size": "26416",
+            "@ref": "si36",
+            "@mimetype": "image/svg+xml"
+          },
+          {
+            "@category": "thumbnail",
+            "@_fa": "true",
+            "$": "https://api.elsevier.com/content/object/eid/1-s2.0-S0021951721001172-si37.svg?httpAccept=%2A%2F%2A",
+            "@multimediatype": "Scalable Vector Graphics file",
+            "@type": "ALTIMG",
+            "@size": "21206",
+            "@ref": "si37",
+            "@mimetype": "image/svg+xml"
+          },
+          {
+            "@category": "thumbnail",
+            "@_fa": "true",
+            "$": "https://api.elsevier.com/content/object/eid/1-s2.0-S0021951721001172-si38.svg?httpAccept=%2A%2F%2A",
+            "@multimediatype": "Scalable Vector Graphics file",
+            "@type": "ALTIMG",
+            "@size": "21274",
+            "@ref": "si38",
+            "@mimetype": "image/svg+xml"
+          },
+          {
+            "@category": "thumbnail",
+            "@_fa": "true",
+            "$": "https://api.elsevier.com/content/object/eid/1-s2.0-S0021951721001172-si39.svg?httpAccept=%2A%2F%2A",
+            "@multimediatype": "Scalable Vector Graphics file",
+            "@type": "ALTIMG",
+            "@size": "35162",
+            "@ref": "si39",
+            "@mimetype": "image/svg+xml"
+          },
+          {
+            "@category": "thumbnail",
+            "@_fa": "true",
+            "$": "https://api.elsevier.com/content/object/eid/1-s2.0-S0021951721001172-si4.svg?httpAccept=%2A%2F%2A",
+            "@multimediatype": "Scalable Vector Graphics file",
+            "@type": "ALTIMG",
+            "@size": "14515",
+            "@ref": "si4",
+            "@mimetype": "image/svg+xml"
+          },
+          {
+            "@category": "thumbnail",
+            "@_fa": "true",
+            "$": "https://api.elsevier.com/content/object/eid/1-s2.0-S0021951721001172-si40.svg?httpAccept=%2A%2F%2A",
+            "@multimediatype": "Scalable Vector Graphics file",
+            "@type": "ALTIMG",
+            "@size": "26692",
+            "@ref": "si40",
+            "@mimetype": "image/svg+xml"
+          },
+          {
+            "@category": "thumbnail",
+            "@_fa": "true",
+            "$": "https://api.elsevier.com/content/object/eid/1-s2.0-S0021951721001172-si41.svg?httpAccept=%2A%2F%2A",
+            "@multimediatype": "Scalable Vector Graphics file",
+            "@type": "ALTIMG",
+            "@size": "7097",
+            "@ref": "si41",
+            "@mimetype": "image/svg+xml"
+          },
+          {
+            "@category": "thumbnail",
+            "@_fa": "true",
+            "$": "https://api.elsevier.com/content/object/eid/1-s2.0-S0021951721001172-si42.svg?httpAccept=%2A%2F%2A",
+            "@multimediatype": "Scalable Vector Graphics file",
+            "@type": "ALTIMG",
+            "@size": "849",
+            "@ref": "si42",
+            "@mimetype": "image/svg+xml"
+          },
+          {
+            "@category": "thumbnail",
+            "@_fa": "true",
+            "$": "https://api.elsevier.com/content/object/eid/1-s2.0-S0021951721001172-si5.svg?httpAccept=%2A%2F%2A",
+            "@multimediatype": "Scalable Vector Graphics file",
+            "@type": "ALTIMG",
+            "@size": "15487",
+            "@ref": "si5",
+            "@mimetype": "image/svg+xml"
+          },
+          {
+            "@category": "thumbnail",
+            "@_fa": "true",
+            "$": "https://api.elsevier.com/content/object/eid/1-s2.0-S0021951721001172-si6.svg?httpAccept=%2A%2F%2A",
+            "@multimediatype": "Scalable Vector Graphics file",
+            "@type": "ALTIMG",
+            "@size": "14777",
+            "@ref": "si6",
+            "@mimetype": "image/svg+xml"
+          },
+          {
+            "@category": "thumbnail",
+            "@_fa": "true",
+            "$": "https://api.elsevier.com/content/object/eid/1-s2.0-S0021951721001172-si7.svg?httpAccept=%2A%2F%2A",
+            "@multimediatype": "Scalable Vector Graphics file",
+            "@type": "ALTIMG",
+            "@size": "11229",
+            "@ref": "si7",
+            "@mimetype": "image/svg+xml"
+          },
+          {
+            "@category": "standard",
+            "@_fa": "true",
+            "$": "https://api.elsevier.com/content/object/eid/1-s2.0-S0021951721001172-am.pdf?httpAccept=%2A%2F%2A",
+            "@multimediatype": "Acrobat PDF file",
+            "@type": "AAM-PDF",
+            "@size": "1027978",
+            "@ref": "am",
+            "@mimetype": "application/pdf"
+          }
+        ]
+      },
+      "link": {
+        "@rel": "abstract",
+        "@href": "https://api.elsevier.com/content/abstract/scopus_id/85103958628"
+      }
+    }
+  }
+}

@@ -1,0 +1,1230 @@
+{
+  "metadata": {
+    "title": "Exploring the performance of dual-atom Pd<ce:inf loc=post>2</ce:inf> catalysts for benzene hydrogenation and cyclohexane dehydrogenation: A DFT and microkinetic modeling study",
+    "authors": "; ; ",
+    "journal": "Journal of Catalysis",
+    "date": "2025-09-30",
+    "doi": "10.1016/j.jcat.2025.116214",
+    "abstract": "",
+    "uri": "https://api.elsevier.com/content/article/pii/S0021951725002799",
+    "pii": "S0021951725002799"
+  },
+  "fulltext": {
+    "full-text-retrieval-response": {
+      "scopus-eid": "2-s2.0-105005519823",
+      "originalText": "serial JL 272561 291210 291744 291809 31 Journal of Catalysis JOURNALCATALYSIS 2025-05-15 2025-05-15 2025-05-22 2025-05-22 2025-09-02T04:45:33 1-s2.0-S0021951725002799 S0021-9517(25)00279-9 S0021951725002799 10.1016/j.jcat.2025.116214 S300 S300.1 FULL-TEXT 1-s2.0-S0021951725X00075 2025-09-02T04:08:10.843057Z 0 0 20250901 20250930 2025 2025-05-15T23:48:07.34612Z absattachment articleinfo articlenumber articletitlenorm authfirstinitialnorm authfirstsurnamenorm cid cids contenttype copyright crossmark dateloaded dateloadedtxt datesearch datesort dateupdated dco docsubtype doctype doi eid ewtransactionid hubeid indexeddate issn issnnorm itemstage itemtransactionid itemweight openaccess openarchive pg pgfirst pii piinorm pubdateend pubdatestart pubdatetxt pubyr sectiontitle sortorder srctitle srctitlenorm srctype ssids alllist content subj subheadings suppl tomb volfirst volissue volumelist webpdf webpdfpagecount yearnav figure table e-component body mmlmath acknowledge affil appendices articletitle auth authfirstini authfull authkeywords authlast grantnumber grantsponsor grantsponsorid highlightsabst primabst pubtype ref specialabst 0021-9517 00219517 true 449 449 C Volume 449 7 116214 116214 116214 202509 September 2025 2025-09-01 2025-09-30 2025 Regular Articles article fla © 2025 Elsevier Inc. All rights are reserved, including those for text and data mining, AI training, and similar technologies. EXPLORINGPERFORMANCEDUALATOMPD2CATALYSTSFORBENZENEHYDROGENATIONCYCLOHEXANEDEHYDROGENATIONADFTMICROKINETICMODELINGSTUDY THARAT B 1 Introduction 2 Computational method 2.1 Energetics 2.2 Microkinetic modeling 3 Results and discussion 3.1 Stability of the proposed Pd2 catalyst 3.2 Lowest barrier path for hydrogenation and dehydrogenation over Pd2 3.3 Microkinetic modeling 3.3.1 Benzene hydrogenation 3.3.2 Dehydrogenation 4 Conclusions CRediT authorship contribution statement Acknowledgments Appendix A Supplementary data References JENA 2011 206 211 P ZHANG 2023 113204 T ROSS 2006 1084 1089 D ABE 2019 15072 15086 J ABDALLA 2018 602 627 A NIERMANN 2019 6631 6654 M NIERMANN 2019 290 307 M ZHU 2015 478 512 Q MODISHA 2019 2778 2796 P EYPASCH 2017 320 330 M ALI 2022 105844 A ZHOU 2021 14540 14555 G GE 2022 121958 L YANG 2014 18976 18983 M XUE 2023 122453 W LI 2016 16129 16134 L OKADA 2006 1348 1356 Y CHIU 2014 4178 4188 C SABBE 2017 5267 5283 M SAEYS 2002 7489 7498 M MORIN 2006 1339 1350 C HENN 1992 5965 5974 F SAEYS 2005 2064 2073 M HONKELA 2012 5849 5854 M GHIRINGHELLI 2007 113403 L LESNARD 2007 4298 4305 H TYO 2012 2409 2423 E MONTALVOCASTRO 2023 99 112 H LI 2024 5016 5026 Z HE 2021 11831 11842 H CHOU 1987 129 139 P JEN 2007 133 141 P CUI 2025 57 Y BURKHOLDER 2022 100196 M XU 2018 146 160 H AKRAM 2024 343 M YAN 2018 70 79 H HAN 2022 681 688 L YUN 2024 2409436 Y KOHN 1965 A1133 A1138 W KRESSE 1996 11169 11186 G KRESSE 1996 15 50 G PERDEW 1996 3865 3868 J BLOCHL 1994 17953 17979 P KRESSE 1999 1758 1775 G GRIMME 2010 S SMIDSTRUP 2014 S HENKELMAN 1999 7010 7022 G HENKELMAN 2001 9657 9666 G OLSEN 2004 9776 9792 R MONKHORST 1976 5188 5192 H XIA 2013 44 49 Y SABBE 2015 406 422 M CHOI 2024 5784 5810 Y GEMECHU 2025 1598 1610 D ZHOU 2024 561 573 G GAO 2008 W THARATX2025X116214 THARATX2025X116214XB 2027-05-22T00:00:00.000Z 2027-05-22T00:00:00.000Z http://creativecommons.org/licenses/by-nc-nd/4.0/ © 2025 Elsevier Inc. All rights are reserved, including those for text and data mining, AI training, and similar technologies. 2025-05-24T01:52:52.529Z http://vtw.elsevier.com/data/voc/AddOnTypes/50.7/aggregated-refined https://doi.org/10.15223/policy-017 https://doi.org/10.15223/policy-037 https://doi.org/10.15223/policy-012 https://doi.org/10.15223/policy-029 https://doi.org/10.15223/policy-004 item S0021-9517(25)00279-9 S0021951725002799 1-s2.0-S0021951725002799 10.1016/j.jcat.2025.116214 272561 2025-09-02T04:08:10.843057Z 2025-09-01 2025-09-30 1-s2.0-S0021951725002799-main.pdf https://s3-eu-west-1.amazonaws.com/prod-ucs-content-store-eu-west/content/pii:S0021951725002799/MAIN/application/pdf/f5a3818ec2f399ff8785f1cd81726ea4/main.pdf main.pdf pdf true 7188919 MAIN 13 1-s2.0-S0021951725002799-main_1.png https://s3-eu-west-1.amazonaws.com/prod-ucs-content-store-eu-west/content/pii:S0021951725002799/PREVIEW/image/png/414b84cff6eaeeeb71c5f98e603580ed/main_1.png main_1.png png 58041 928 656 IMAGE-WEB-PDF 1 1-s2.0-S0021951725002799-ga1.jpg https://s3-eu-west-1.amazonaws.com/prod-ucs-content-store-eu-west/content/pii:S0021951725002799/ga1/DOWNSAMPLED/image/jpeg/13cb0e1199c3840b176f23bbd1c30faa/ga1.jpg ga1 true ga1.jpg jpg 28826 200 372 IMAGE-DOWNSAMPLED 1-s2.0-S0021951725002799-gr3.jpg https://s3-eu-west-1.amazonaws.com/prod-ucs-content-store-eu-west/content/pii:S0021951725002799/gr3/DOWNSAMPLED/image/jpeg/517c71bfe6cbb262a740305d907f8cd0/gr3.jpg gr3 gr3.jpg jpg 43799 302 625 IMAGE-DOWNSAMPLED 1-s2.0-S0021951725002799-gr4.jpg https://s3-eu-west-1.amazonaws.com/prod-ucs-content-store-eu-west/content/pii:S0021951725002799/gr4/DOWNSAMPLED/image/jpeg/ef5a6a8dc88d66c0c1a0838da3b1f29c/gr4.jpg gr4 gr4.jpg jpg 40479 531 383 IMAGE-DOWNSAMPLED 1-s2.0-S0021951725002799-gr1.jpg https://s3-eu-west-1.amazonaws.com/prod-ucs-content-store-eu-west/content/pii:S0021951725002799/gr1/DOWNSAMPLED/image/jpeg/7c78ca07710db21e6bfa18f670f107e9/gr1.jpg gr1 gr1.jpg jpg 26158 182 382 IMAGE-DOWNSAMPLED 1-s2.0-S0021951725002799-gr2.jpg https://s3-eu-west-1.amazonaws.com/prod-ucs-content-store-eu-west/content/pii:S0021951725002799/gr2/DOWNSAMPLED/image/jpeg/78cc3ba2bf3090e716943e170a8f1a4d/gr2.jpg gr2 gr2.jpg jpg 47306 411 713 IMAGE-DOWNSAMPLED 1-s2.0-S0021951725002799-gr7.jpg https://s3-eu-west-1.amazonaws.com/prod-ucs-content-store-eu-west/content/pii:S0021951725002799/gr7/DOWNSAMPLED/image/jpeg/4d15a912c9b5b87ed6c6dd774be42a0e/gr7.jpg gr7 gr7.jpg jpg 72836 371 759 IMAGE-DOWNSAMPLED 1-s2.0-S0021951725002799-gr8.jpg https://s3-eu-west-1.amazonaws.com/prod-ucs-content-store-eu-west/content/pii:S0021951725002799/gr8/DOWNSAMPLED/image/jpeg/af448b3e881a712b8715e9318ef346c1/gr8.jpg gr8 gr8.jpg jpg 61891 342 711 IMAGE-DOWNSAMPLED 1-s2.0-S0021951725002799-gr5.jpg https://s3-eu-west-1.amazonaws.com/prod-ucs-content-store-eu-west/content/pii:S0021951725002799/gr5/DOWNSAMPLED/image/jpeg/be49102a423e2a35f7930e4fb5506565/gr5.jpg gr5 gr5.jpg jpg 73118 365 759 IMAGE-DOWNSAMPLED 1-s2.0-S0021951725002799-gr6.jpg https://s3-eu-west-1.amazonaws.com/prod-ucs-content-store-eu-west/content/pii:S0021951725002799/gr6/DOWNSAMPLED/image/jpeg/da204a6a1a43d92c7529c4547963192e/gr6.jpg gr6 gr6.jpg jpg 71987 367 759 IMAGE-DOWNSAMPLED 1-s2.0-S0021951725002799-sc1.jpg https://s3-eu-west-1.amazonaws.com/prod-ucs-content-store-eu-west/content/pii:S0021951725002799/sc1/DOWNSAMPLED/image/jpeg/2688734ffd8b7d3925e4a72cc95d3787/sc1.jpg sc1 sc1.jpg jpg 69179 815 622 IMAGE-DOWNSAMPLED 1-s2.0-S0021951725002799-ga1.sml https://s3-eu-west-1.amazonaws.com/prod-ucs-content-store-eu-west/content/pii:S0021951725002799/ga1/THUMBNAIL/image/gif/57b91f6a0dc731c77abf5a113793c475/ga1.sml ga1 true ga1.sml sml 17403 118 219 IMAGE-THUMBNAIL 1-s2.0-S0021951725002799-gr3.sml https://s3-eu-west-1.amazonaws.com/prod-ucs-content-store-eu-west/content/pii:S0021951725002799/gr3/THUMBNAIL/image/gif/de505a32d0838976c43b990bb3e331bd/gr3.sml gr3 gr3.sml sml 7501 106 219 IMAGE-THUMBNAIL 1-s2.0-S0021951725002799-gr4.sml https://s3-eu-west-1.amazonaws.com/prod-ucs-content-store-eu-west/content/pii:S0021951725002799/gr4/THUMBNAIL/image/gif/d3e8f18fe4019ab3dc709b1af275ef01/gr4.sml gr4 gr4.sml sml 7485 164 118 IMAGE-THUMBNAIL 1-s2.0-S0021951725002799-gr1.sml https://s3-eu-west-1.amazonaws.com/prod-ucs-content-store-eu-west/content/pii:S0021951725002799/gr1/THUMBNAIL/image/gif/89d916187177a64f05fc06719118e1b9/gr1.sml gr1 gr1.sml sml 12336 104 219 IMAGE-THUMBNAIL 1-s2.0-S0021951725002799-gr2.sml https://s3-eu-west-1.amazonaws.com/prod-ucs-content-store-eu-west/content/pii:S0021951725002799/gr2/THUMBNAIL/image/gif/5b673c762c4be1265695b623e5cb9bf1/gr2.sml gr2 gr2.sml sml 5941 126 219 IMAGE-THUMBNAIL 1-s2.0-S0021951725002799-gr7.sml https://s3-eu-west-1.amazonaws.com/prod-ucs-content-store-eu-west/content/pii:S0021951725002799/gr7/THUMBNAIL/image/gif/c047431a378b8f850ecdd30487b99c73/gr7.sml gr7 gr7.sml sml 8872 107 219 IMAGE-THUMBNAIL 1-s2.0-S0021951725002799-gr8.sml https://s3-eu-west-1.amazonaws.com/prod-ucs-content-store-eu-west/content/pii:S0021951725002799/gr8/THUMBNAIL/image/gif/c2b8617a79199fe98f10657939bde78a/gr8.sml gr8 gr8.sml sml 9017 105 219 IMAGE-THUMBNAIL 1-s2.0-S0021951725002799-gr5.sml https://s3-eu-west-1.amazonaws.com/prod-ucs-content-store-eu-west/content/pii:S0021951725002799/gr5/THUMBNAIL/image/gif/59ef057411182a65ed43391583ba5967/gr5.sml gr5 gr5.sml sml 9254 105 219 IMAGE-THUMBNAIL 1-s2.0-S0021951725002799-gr6.sml https://s3-eu-west-1.amazonaws.com/prod-ucs-content-store-eu-west/content/pii:S0021951725002799/gr6/THUMBNAIL/image/gif/603ab5b3aa4bffe75d94f3b597afd31a/gr6.sml gr6 gr6.sml sml 9188 106 219 IMAGE-THUMBNAIL 1-s2.0-S0021951725002799-sc1.sml https://s3-eu-west-1.amazonaws.com/prod-ucs-content-store-eu-west/content/pii:S0021951725002933/sc1/THUMBNAIL/image/gif/ea5cf53375330ca17c1713de3f73d02a/sc1.sml sc1 sc1.sml sml 5157 164 125 IMAGE-THUMBNAIL 1-s2.0-S0021951725002799-ga1_lrg.jpg https://s3-eu-west-1.amazonaws.com/prod-ucs-content-store-eu-west/content/pii:S0021951725002799/HIGHRES/image/jpeg/9de2e01b102c2bb9102850c4c3eb2861/ga1_lrg.jpg ga1 true ga1_lrg.jpg jpg 77993 531 988 IMAGE-HIGH-RES 1-s2.0-S0021951725002799-gr3_lrg.jpg https://s3-eu-west-1.amazonaws.com/prod-ucs-content-store-eu-west/content/pii:S0021951725002799/HIGHRES/image/jpeg/4879ca7526fcc8df5ef3d3541bc68057/gr3_lrg.jpg gr3 gr3_lrg.jpg jpg 241350 1146 2368 IMAGE-HIGH-RES 1-s2.0-S0021951725002799-gr4_lrg.jpg https://s3-eu-west-1.amazonaws.com/prod-ucs-content-store-eu-west/content/pii:S0021951725002799/HIGHRES/image/jpeg/91d1d3d74bd9a0919ed2c1ecee16b7a8/gr4_lrg.jpg gr4 gr4_lrg.jpg jpg 215286 2356 1699 IMAGE-HIGH-RES 1-s2.0-S0021951725002799-gr1_lrg.jpg https://s3-eu-west-1.amazonaws.com/prod-ucs-content-store-eu-west/content/pii:S0021951725002799/HIGHRES/image/jpeg/7950cfdd17a07fbda04a61460e34ffdf/gr1_lrg.jpg gr1 gr1_lrg.jpg jpg 150788 805 1693 IMAGE-HIGH-RES 1-s2.0-S0021951725002799-gr2_lrg.jpg https://s3-eu-west-1.amazonaws.com/prod-ucs-content-store-eu-west/content/pii:S0021951725002799/HIGHRES/image/jpeg/c2c0c32f3df9df7c00d985162bba1f06/gr2_lrg.jpg gr2 gr2_lrg.jpg jpg 259499 1818 3157 IMAGE-HIGH-RES 1-s2.0-S0021951725002799-gr7_lrg.jpg https://s3-eu-west-1.amazonaws.com/prod-ucs-content-store-eu-west/content/pii:S0021951725002799/HIGHRES/image/jpeg/c22964da741e6d27e7c626345e2b2158/gr7_lrg.jpg gr7 gr7_lrg.jpg jpg 420806 1642 3360 IMAGE-HIGH-RES 1-s2.0-S0021951725002799-gr8_lrg.jpg https://s3-eu-west-1.amazonaws.com/prod-ucs-content-store-eu-west/content/pii:S0021951725002799/HIGHRES/image/jpeg/728ec95c4c148c999b98e2ba6062d1a2/gr8_lrg.jpg gr8 gr8_lrg.jpg jpg 322745 1517 3150 IMAGE-HIGH-RES 1-s2.0-S0021951725002799-gr5_lrg.jpg https://s3-eu-west-1.amazonaws.com/prod-ucs-content-store-eu-west/content/pii:S0021951725002799/HIGHRES/image/jpeg/032fb901fd90bed440273ed604efe61d/gr5_lrg.jpg gr5 gr5_lrg.jpg jpg 400744 1615 3360 IMAGE-HIGH-RES 1-s2.0-S0021951725002799-gr6_lrg.jpg https://s3-eu-west-1.amazonaws.com/prod-ucs-content-store-eu-west/content/pii:S0021951725002933/HIGHRES/image/jpeg/e5b9b99e29eeefa7016dc9e9338dd03b/gr6_lrg.jpg gr6 gr6_lrg.jpg jpg 395451 1623 3360 IMAGE-HIGH-RES 1-s2.0-S0021951725002799-sc1_lrg.jpg https://s3-eu-west-1.amazonaws.com/prod-ucs-content-store-eu-west/content/pii:S0021951725002933/HIGHRES/image/jpeg/387ff1a5cfa821d33d0687f7882489cd/sc1_lrg.jpg sc1 sc1_lrg.jpg jpg 369057 3609 2756 IMAGE-HIGH-RES 1-s2.0-S0021951725002799-mmc1.docx https://s3-eu-west-1.amazonaws.com/prod-ucs-content-store-eu-west/content/pii:S0021951725002799/mmc1/MAIN/application/vnd.openxmlformats-officedocument.wordprocessingml.document/9964f7e0533fb599b717ba08cfa072c6/mmc1.docx mmc1 mmc1.docx docx 1890857 APPLICATION 1-s2.0-S0021951725002799-mmc3.mp4 https://s3-eu-west-1.amazonaws.com/prod-ucs-content-store-eu-west/content/pii:S0021951725002799/mmc3/MAIN/video/mp4/997be187cc9c0f45ba8a9e7bfe744f80/mmc3.mp4 mmc3 mmc3.mp4 mp4 17886606 VIDEO 1-s2.0-S0021951725002799-mmc2.mp4 https://s3-eu-west-1.amazonaws.com/prod-ucs-content-store-eu-west/content/pii:S0021951725002799/mmc2/MAIN/video/mp4/cf3b5f10dc9b040204cd0a97312d8a57/mmc2.mp4 mmc2 mmc2.mp4 mp4 15373890 VIDEO 1-s2.0-S0021951725002799-mmc4.zip https://s3-eu-west-1.amazonaws.com/prod-ucs-content-store-eu-west/content/pii:S0021951725002799/mmc4/MAIN/application/zip/bcd777b72f4d9dfe01073e55a63007db/mmc4.zip mmc4 mmc4.zip zip 263316 APPLICATION 1-s2.0-S0021951725002799-si1.svg https://s3-eu-west-1.amazonaws.com/prod-ucs-content-store-eu-west/content/pii:S0021951725002799/image/svg+xml/eabf5a80ecb18ba65bcb1628f22decd5/si1.svg si1 si1.svg svg 12805 ALTIMG 1-s2.0-S0021951725002799-si10.svg https://s3-eu-west-1.amazonaws.com/prod-ucs-content-store-eu-west/content/pii:S0021951725002799/image/svg+xml/eecd98f6770ec10a1c525e0b8d0e43fd/si10.svg si10 si10.svg svg 13981 ALTIMG 1-s2.0-S0021951725002799-si11.svg https://s3-eu-west-1.amazonaws.com/prod-ucs-content-store-eu-west/content/pii:S0021951725002799/image/svg+xml/34ec72d2688fbc98d0d0eedfcba832e1/si11.svg si11 si11.svg svg 14103 ALTIMG 1-s2.0-S0021951725002799-si12.svg https://s3-eu-west-1.amazonaws.com/prod-ucs-content-store-eu-west/content/pii:S0021951725002799/image/svg+xml/5c2fa728cf508d961085c0003a1f8644/si12.svg si12 si12.svg svg 14148 ALTIMG 1-s2.0-S0021951725002799-si13.svg https://s3-eu-west-1.amazonaws.com/prod-ucs-content-store-eu-west/content/pii:S0021951725002799/image/svg+xml/3c211c668365702300fadd9e267949bd/si13.svg si13 si13.svg svg 17180 ALTIMG 1-s2.0-S0021951725002799-si14.svg https://s3-eu-west-1.amazonaws.com/prod-ucs-content-store-eu-west/content/pii:S0021951725002799/image/svg+xml/0dbb61ad9873182fe4fa22305f705942/si14.svg si14 si14.svg svg 15385 ALTIMG 1-s2.0-S0021951725002799-si15.svg https://s3-eu-west-1.amazonaws.com/prod-ucs-content-store-eu-west/content/pii:S0021951725002799/image/svg+xml/af2c6845a1f205bbf1809f830a1031f8/si15.svg si15 si15.svg svg 14547 ALTIMG 1-s2.0-S0021951725002799-si16.svg https://s3-eu-west-1.amazonaws.com/prod-ucs-content-store-eu-west/content/pii:S0021951725002799/image/svg+xml/de7a7ecddaa72d0cc088cb541d720e2d/si16.svg si16 si16.svg svg 16560 ALTIMG 1-s2.0-S0021951725002799-si17.svg https://s3-eu-west-1.amazonaws.com/prod-ucs-content-store-eu-west/content/pii:S0021951725002799/image/svg+xml/90944b3332aed8c0dda6ad2766f92ada/si17.svg si17 si17.svg svg 15529 ALTIMG 1-s2.0-S0021951725002799-si18.svg https://s3-eu-west-1.amazonaws.com/prod-ucs-content-store-eu-west/content/pii:S0021951725002799/image/svg+xml/69e4261d52c8737871f774d42ed80e80/si18.svg si18 si18.svg svg 16947 ALTIMG 1-s2.0-S0021951725002799-si19.svg https://s3-eu-west-1.amazonaws.com/prod-ucs-content-store-eu-west/content/pii:S0021951725002799/image/svg+xml/a59e706e512bfea898253bad1c239d6a/si19.svg si19 si19.svg svg 16788 ALTIMG 1-s2.0-S0021951725002799-si2.svg https://s3-eu-west-1.amazonaws.com/prod-ucs-content-store-eu-west/content/pii:S0021951725002799/image/svg+xml/39fe5d819ee6d18b6b0aff9617a1f3b2/si2.svg si2 si2.svg svg 13182 ALTIMG 1-s2.0-S0021951725002799-si20.svg https://s3-eu-west-1.amazonaws.com/prod-ucs-content-store-eu-west/content/pii:S0021951725002799/image/svg+xml/88f0046c3fc2d2874db1682ff710c193/si20.svg si20 si20.svg svg 18510 ALTIMG 1-s2.0-S0021951725002799-si21.svg https://s3-eu-west-1.amazonaws.com/prod-ucs-content-store-eu-west/content/pii:S0021951725002799/image/svg+xml/05898e55a7f1e54d8000e430396e7428/si21.svg si21 si21.svg svg 15586 ALTIMG 1-s2.0-S0021951725002799-si22.svg https://s3-eu-west-1.amazonaws.com/prod-ucs-content-store-eu-west/content/pii:S0021951725002799/image/svg+xml/71362f7044b86e398ff95aa3749629d5/si22.svg si22 si22.svg svg 14842 ALTIMG 1-s2.0-S0021951725002799-si23.svg https://s3-eu-west-1.amazonaws.com/prod-ucs-content-store-eu-west/content/pii:S0021951725002799/image/svg+xml/cd2a19ca433929f37d0847365ec01117/si23.svg si23 si23.svg svg 19307 ALTIMG 1-s2.0-S0021951725002799-si24.svg https://s3-eu-west-1.amazonaws.com/prod-ucs-content-store-eu-west/content/pii:S0021951725002799/image/svg+xml/c300ab922d36b0fa6cd43db6461e9b51/si24.svg si24 si24.svg svg 14116 ALTIMG 1-s2.0-S0021951725002799-si25.svg https://s3-eu-west-1.amazonaws.com/prod-ucs-content-store-eu-west/content/pii:S0021951725002799/image/svg+xml/28379619d7b986acf3b4c37813dbf9ab/si25.svg si25 si25.svg svg 16937 ALTIMG 1-s2.0-S0021951725002799-si26.svg https://s3-eu-west-1.amazonaws.com/prod-ucs-content-store-eu-west/content/pii:S0021951725002799/image/svg+xml/4303a57b4512df6e69532e12b41219fb/si26.svg si26 si26.svg svg 16717 ALTIMG 1-s2.0-S0021951725002799-si27.svg https://s3-eu-west-1.amazonaws.com/prod-ucs-content-store-eu-west/content/pii:S0021951725002799/image/svg+xml/f1d85ab04d0160c0c12dab1dd75c0d6d/si27.svg si27 si27.svg svg 18819 ALTIMG 1-s2.0-S0021951725002799-si28.svg https://s3-eu-west-1.amazonaws.com/prod-ucs-content-store-eu-west/content/pii:S0021951725002799/image/svg+xml/7a6b74c5e75ecac938a0c375c6464a12/si28.svg si28 si28.svg svg 16331 ALTIMG 1-s2.0-S0021951725002799-si29.svg https://s3-eu-west-1.amazonaws.com/prod-ucs-content-store-eu-west/content/pii:S0021951725002799/image/svg+xml/b8222b1f009f8e4de7a3844641ced391/si29.svg si29 si29.svg svg 16066 ALTIMG 1-s2.0-S0021951725002799-si3.svg https://s3-eu-west-1.amazonaws.com/prod-ucs-content-store-eu-west/content/pii:S0021951725002799/image/svg+xml/7d79014c992ace4a25a7cedccd2eab74/si3.svg si3 si3.svg svg 13791 ALTIMG 1-s2.0-S0021951725002799-si30.svg https://s3-eu-west-1.amazonaws.com/prod-ucs-content-store-eu-west/content/pii:S0021951725002799/image/svg+xml/3ef44922797b85d910284b3050873dd9/si30.svg si30 si30.svg svg 15992 ALTIMG 1-s2.0-S0021951725002799-si31.svg https://s3-eu-west-1.amazonaws.com/prod-ucs-content-store-eu-west/content/pii:S0021951725002799/image/svg+xml/8ba927a90ab3179f7b19345dbd477a14/si31.svg si31 si31.svg svg 16061 ALTIMG 1-s2.0-S0021951725002799-si32.svg https://s3-eu-west-1.amazonaws.com/prod-ucs-content-store-eu-west/content/pii:S0021951725002799/image/svg+xml/aba1533baa7ec6e00a0d7db21d7d7f3f/si32.svg si32 si32.svg svg 16546 ALTIMG 1-s2.0-S0021951725002799-si33.svg https://s3-eu-west-1.amazonaws.com/prod-ucs-content-store-eu-west/content/pii:S0021951725002799/image/svg+xml/8f25d474cdda6dc3083a305a5ba5ee91/si33.svg si33 si33.svg svg 18443 ALTIMG 1-s2.0-S0021951725002799-si34.svg https://s3-eu-west-1.amazonaws.com/prod-ucs-content-store-eu-west/content/pii:S0021951725002799/image/svg+xml/7745db264ed5663ab52cda6d349c57a8/si34.svg si34 si34.svg svg 15942 ALTIMG 1-s2.0-S0021951725002799-si35.svg https://s3-eu-west-1.amazonaws.com/prod-ucs-content-store-eu-west/content/pii:S0021951725002799/image/svg+xml/8706512872e2e64cf21b6e7b4fac83fe/si35.svg si35 si35.svg svg 16000 ALTIMG 1-s2.0-S0021951725002799-si36.svg https://s3-eu-west-1.amazonaws.com/prod-ucs-content-store-eu-west/content/pii:S0021951725002799/image/svg+xml/958913de1d1dfec8d7287625040f23a5/si36.svg si36 si36.svg svg 20706 ALTIMG 1-s2.0-S0021951725002799-si37.svg https://s3-eu-west-1.amazonaws.com/prod-ucs-content-store-eu-west/content/pii:S0021951725002799/image/svg+xml/b32e96d98239b8de8b67ded775838154/si37.svg si37 si37.svg svg 13639 ALTIMG 1-s2.0-S0021951725002799-si38.svg https://s3-eu-west-1.amazonaws.com/prod-ucs-content-store-eu-west/content/pii:S0021951725002799/image/svg+xml/a930fbd8fb7b55f0540a7517a878e433/si38.svg si38 si38.svg svg 17221 ALTIMG 1-s2.0-S0021951725002799-si39.svg https://s3-eu-west-1.amazonaws.com/prod-ucs-content-store-eu-west/content/pii:S0021951725002799/image/svg+xml/7afaea13644f5b86c971b667f31f40e7/si39.svg si39 si39.svg svg 15010 ALTIMG 1-s2.0-S0021951725002799-si4.svg https://s3-eu-west-1.amazonaws.com/prod-ucs-content-store-eu-west/content/pii:S0021951725002799/image/svg+xml/83dacf343a7241de14083e24151c6653/si4.svg si4 si4.svg svg 13785 ALTIMG 1-s2.0-S0021951725002799-si40.svg https://s3-eu-west-1.amazonaws.com/prod-ucs-content-store-eu-west/content/pii:S0021951725002799/image/svg+xml/ecdd4f78eef366b4ecb146f465ba8542/si40.svg si40 si40.svg svg 14532 ALTIMG 1-s2.0-S0021951725002799-si41.svg https://s3-eu-west-1.amazonaws.com/prod-ucs-content-store-eu-west/content/pii:S0021951725002799/image/svg+xml/c4f3d662bd03eadae1443f9f443a3fe2/si41.svg si41 si41.svg svg 13860 ALTIMG 1-s2.0-S0021951725002799-si42.svg https://s3-eu-west-1.amazonaws.com/prod-ucs-content-store-eu-west/content/pii:S0021951725002799/image/svg+xml/4e7c5c26a66dfc759cf0567969c2c923/si42.svg si42 si42.svg svg 16380 ALTIMG 1-s2.0-S0021951725002799-si43.svg https://s3-eu-west-1.amazonaws.com/prod-ucs-content-store-eu-west/content/pii:S0021951725002799/image/svg+xml/424d884d37d75b978e8587de91a3d454/si43.svg si43 si43.svg svg 14981 ALTIMG 1-s2.0-S0021951725002799-si44.svg https://s3-eu-west-1.amazonaws.com/prod-ucs-content-store-eu-west/content/pii:S0021951725002799/image/svg+xml/debac25b0a03bd7842184a9fc7585e5d/si44.svg si44 si44.svg svg 13271 ALTIMG 1-s2.0-S0021951725002799-si45.svg https://s3-eu-west-1.amazonaws.com/prod-ucs-content-store-eu-west/content/pii:S0021951725002799/image/svg+xml/aa35db9e08ef8c1ae2bfaac09fc64e60/si45.svg si45 si45.svg svg 14337 ALTIMG 1-s2.0-S0021951725002799-si46.svg https://s3-eu-west-1.amazonaws.com/prod-ucs-content-store-eu-west/content/pii:S0021951725002799/image/svg+xml/02516e0fbaf4c13579892a769216dfc2/si46.svg si46 si46.svg svg 16903 ALTIMG 1-s2.0-S0021951725002799-si47.svg https://s3-eu-west-1.amazonaws.com/prod-ucs-content-store-eu-west/content/pii:S0021951725002799/image/svg+xml/2249b8f47996f9301e13173cfa589c62/si47.svg si47 si47.svg svg 16070 ALTIMG 1-s2.0-S0021951725002799-si48.svg https://s3-eu-west-1.amazonaws.com/prod-ucs-content-store-eu-west/content/pii:S0021951725002799/image/svg+xml/9fdc02448d7182ae594bcbdbe80cd2ff/si48.svg si48 si48.svg svg 18699 ALTIMG 1-s2.0-S0021951725002799-si49.svg https://s3-eu-west-1.amazonaws.com/prod-ucs-content-store-eu-west/content/pii:S0021951725002799/image/svg+xml/7c9d10868c90c1170db4718807193179/si49.svg si49 si49.svg svg 16794 ALTIMG 1-s2.0-S0021951725002799-si5.svg https://s3-eu-west-1.amazonaws.com/prod-ucs-content-store-eu-west/content/pii:S0021951725002799/image/svg+xml/a0fe158f722b450eeabf811d7bb92076/si5.svg si5 si5.svg svg 12647 ALTIMG 1-s2.0-S0021951725002799-si50.svg https://s3-eu-west-1.amazonaws.com/prod-ucs-content-store-eu-west/content/pii:S0021951725002799/image/svg+xml/cc04a1e04f58a86af52465137354be18/si50.svg si50 si50.svg svg 16838 ALTIMG 1-s2.0-S0021951725002799-si51.svg https://s3-eu-west-1.amazonaws.com/prod-ucs-content-store-eu-west/content/pii:S0021951725002799/image/svg+xml/c9ff1baa97c044ddcf276a67ca615b3e/si51.svg si51 si51.svg svg 20002 ALTIMG 1-s2.0-S0021951725002799-si52.svg https://s3-eu-west-1.amazonaws.com/prod-ucs-content-store-eu-west/content/pii:S0021951725002799/image/svg+xml/eeed28df6438baf620592784a78ff452/si52.svg si52 si52.svg svg 13587 ALTIMG 1-s2.0-S0021951725002799-si53.svg https://s3-eu-west-1.amazonaws.com/prod-ucs-content-store-eu-west/content/pii:S0021951725002799/image/svg+xml/e8115c95425c7d59c26ff3dad99848b7/si53.svg si53 si53.svg svg 15271 ALTIMG 1-s2.0-S0021951725002799-si54.svg https://s3-eu-west-1.amazonaws.com/prod-ucs-content-store-eu-west/content/pii:S0021951725002799/image/svg+xml/9a72b77e5b2ea4f7542a7231672e096a/si54.svg si54 si54.svg svg 15491 ALTIMG 1-s2.0-S0021951725002799-si55.svg https://s3-eu-west-1.amazonaws.com/prod-ucs-content-store-eu-west/content/pii:S0021951725002799/image/svg+xml/66d9ac1e0c2ae5116469498a4a64f7db/si55.svg si55 si55.svg svg 16943 ALTIMG 1-s2.0-S0021951725002799-si56.svg https://s3-eu-west-1.amazonaws.com/prod-ucs-content-store-eu-west/content/pii:S0021951725002799/image/svg+xml/9cc51b0bcfb0f5f4ab7325cb56ac1e4a/si56.svg si56 si56.svg svg 17256 ALTIMG 1-s2.0-S0021951725002799-si57.svg https://s3-eu-west-1.amazonaws.com/prod-ucs-content-store-eu-west/content/pii:S0021951725002799/image/svg+xml/0c43dc32e2c961b273d522decf14f365/si57.svg si57 si57.svg svg 16731 ALTIMG 1-s2.0-S0021951725002799-si58.svg https://s3-eu-west-1.amazonaws.com/prod-ucs-content-store-eu-west/content/pii:S0021951725002799/image/svg+xml/cd81eb4ab3117ba301005cb59ba38083/si58.svg si58 si58.svg svg 15213 ALTIMG 1-s2.0-S0021951725002799-si59.svg https://s3-eu-west-1.amazonaws.com/prod-ucs-content-store-eu-west/content/pii:S0021951725002799/image/svg+xml/d8b53c6c71b069fc616012e3b0da1706/si59.svg si59 si59.svg svg 16464 ALTIMG 1-s2.0-S0021951725002799-si6.svg https://s3-eu-west-1.amazonaws.com/prod-ucs-content-store-eu-west/content/pii:S0021951725002799/image/svg+xml/6cc87f60762527fcb02acc82a39f63f8/si6.svg si6 si6.svg svg 13284 ALTIMG 1-s2.0-S0021951725002799-si60.svg https://s3-eu-west-1.amazonaws.com/prod-ucs-content-store-eu-west/content/pii:S0021951725002799/image/svg+xml/23334f66d34504c297146363a3fb2303/si60.svg si60 si60.svg svg 15953 ALTIMG 1-s2.0-S0021951725002799-si61.svg https://s3-eu-west-1.amazonaws.com/prod-ucs-content-store-eu-west/content/pii:S0021951725002799/image/svg+xml/5216e761c7b3717ebc949256730c273e/si61.svg si61 si61.svg svg 15158 ALTIMG 1-s2.0-S0021951725002799-si62.svg https://s3-eu-west-1.amazonaws.com/prod-ucs-content-store-eu-west/content/pii:S0021951725002799/image/svg+xml/14c0db6c8500372c37f5f925ede78d26/si62.svg si62 si62.svg svg 13978 ALTIMG 1-s2.0-S0021951725002799-si63.svg https://s3-eu-west-1.amazonaws.com/prod-ucs-content-store-eu-west/content/pii:S0021951725002799/image/svg+xml/897fbb7cd071b9abbb69020faadf9a63/si63.svg si63 si63.svg svg 15432 ALTIMG 1-s2.0-S0021951725002799-si64.svg https://s3-eu-west-1.amazonaws.com/prod-ucs-content-store-eu-west/content/pii:S0021951725002799/image/svg+xml/43a8378b7177a387d3312d4fab4fca56/si64.svg si64 si64.svg svg 17708 ALTIMG 1-s2.0-S0021951725002799-si65.svg https://s3-eu-west-1.amazonaws.com/prod-ucs-content-store-eu-west/content/pii:S0021951725002799/image/svg+xml/e8a15251fbf80e65c5d6e61ff24504c8/si65.svg si65 si65.svg svg 16096 ALTIMG 1-s2.0-S0021951725002799-si66.svg https://s3-eu-west-1.amazonaws.com/prod-ucs-content-store-eu-west/content/pii:S0021951725002799/image/svg+xml/a41a8445f7eede82a39637e73df345df/si66.svg si66 si66.svg svg 14989 ALTIMG 1-s2.0-S0021951725002799-si67.svg https://s3-eu-west-1.amazonaws.com/prod-ucs-content-store-eu-west/content/pii:S0021951725002799/image/svg+xml/da9177ff4bdb02277a7b4e1761f4bfe3/si67.svg si67 si67.svg svg 24658 ALTIMG 1-s2.0-S0021951725002799-si68.svg https://s3-eu-west-1.amazonaws.com/prod-ucs-content-store-eu-west/content/pii:S0021951725002799/image/svg+xml/ae737b560a833c8b3811b1d06d10640f/si68.svg si68 si68.svg svg 11408 ALTIMG 1-s2.0-S0021951725002799-si69.svg https://s3-eu-west-1.amazonaws.com/prod-ucs-content-store-eu-west/content/pii:S0021951725002799/image/svg+xml/ba4341d54c5d24cee5aabd8d35d2dbbb/si69.svg si69 si69.svg svg 32988 ALTIMG 1-s2.0-S0021951725002799-si7.svg https://s3-eu-west-1.amazonaws.com/prod-ucs-content-store-eu-west/content/pii:S0021951725002799/image/svg+xml/4eac6e7c54207f1a063e5418ae8845aa/si7.svg si7 si7.svg svg 14684 ALTIMG 1-s2.0-S0021951725002799-si70.svg https://s3-eu-west-1.amazonaws.com/prod-ucs-content-store-eu-west/content/pii:S0021951725002799/image/svg+xml/852f2c5398e415dfecb8cbc9d46d4cc5/si70.svg si70 si70.svg svg 13180 ALTIMG 1-s2.0-S0021951725002799-si71.svg https://s3-eu-west-1.amazonaws.com/prod-ucs-content-store-eu-west/content/pii:S0021951725002799/image/svg+xml/fc812a30aa07c782765977649dd26669/si71.svg si71 si71.svg svg 26513 ALTIMG 1-s2.0-S0021951725002799-si8.svg https://s3-eu-west-1.amazonaws.com/prod-ucs-content-store-eu-west/content/pii:S0021951725002799/image/svg+xml/0073027564fcaf43e3a76f2f398b8d12/si8.svg si8 si8.svg svg 12507 ALTIMG 1-s2.0-S0021951725002799-si9.svg https://s3-eu-west-1.amazonaws.com/prod-ucs-content-store-eu-west/content/pii:S0021951725002799/image/svg+xml/353ff1185d4964774bc5e629f1f0c211/si9.svg si9 si9.svg svg 15399 ALTIMG YJCAT 116214 116214 S0021-9517(25)00279-9 10.1016/j.jcat.2025.116214 Elsevier Inc. Fig. 1 (a) Optimized geometry of the Pd2 catalyst model and (b) the surface area of the adsorption site, which is required for Eq. (2). Fig. 2 Energy profile for the hydrogenation of benzene over Pd2. The lowest energy pathway is marked in dark blue. The energetically higher-lying reaction pathways are shown in a lighter shade. (For interpretation of the references to colour in this figure legend, the reader is referred to the web version of this article.) Fig. 3 Calculated steady-state reaction rates for the single reactions in the benzene hydrogenation over Pd2 at p B = 5.0 bar, p H2 = 90 bar, and T = 450 K. The bars in red mark reactions that take place in the forward direction, and the bars in blue mark reactions in the backward direction. Reactions explicitly discussed in the main text are additionally marked. (For interpretation of the references to colour in this figure legend, the reader is referred to the web version of this article.) Fig. 4 Rate in units of s−1 for the reactions R1 to R8 during the benzene hydrogenation at p B = 5.0 bar, p H2 = 90 bar, and T = 450 K. The width of the arrow gives a rough idea of the reaction rates. The dominating pathway is marked by the dark blue arrows. (For interpretation of the references to colour in this figure legend, the reader is referred to the web version of this article.) Fig. 5 The simulated desorption rates for 12B, 14B, 1234B, and CHA at different (a) temperatures T and (d) hydrogen partial pressures p H2. (b) and (e) represent the selectivity, (c) and (f) represent the total coverage rates for selected species in steady state as a function of T and p H2, respectively. Reaction conditions: p B = 5.0 bar; p H2 = 90 bar, T = 450 K, if not specified otherwise. Fig. 6 (a) The desorption rate for the different products obtained from CHA dehydrogenation, (b) the selectivity for the main product 1234B, and (c) the total coverage rate as a function of temperature at a constant CHA pressure of 100 bar. (d), (e), and (f) present the desorption rate, selectivity, and total coverage rate as a function of CHA pressure at a constant temperature of 450 K, respectively. Fig. 7 (a) The desorption rate for the different products obtained from the dehydrogenation process with 1234B as feedstock and (b) the selectivity for the two most abundant products 12B and B, and (c) the total coverage rate as a function of temperature at a constant 1234B pressure of 100 bar. (d), (e) and (f) present the desorption rate, the selectivity, and the total coverage rate as a function of 1234B pressure at a constant temperature of 450 K, respectively. Fig. 8 (a) The desorption rate for the different products obtained from the dehydrogenation process with 12B as feedstock, (b) the selectivity for the main product benzene, and (c) the total coverage rate as a function of temperature at a constant 12B pressure of 100 bar. (d), (e) and (f) present the desorption rate, the selectivity, and the total coverage rate as a function of 12B pressure at a constant temperature of 450 K, respectively. Scheme 1 Simplified reaction network for the hydrogenation of benzene (B) to cyclohexane (CHA). The lowest energy path is marked in blue. The barriers for the forward (black values) and backward reactions (red values) are shown in units of eV. For adsorption and desorption steps, the corresponding adsorption/desorption energy is shown. Note that in this scheme, multiple elementary steps may be summarized into one reaction. In this case, the shown barriers then refer to the energy difference between the lowest lying minima and the highest lying TS in the elementary steps. Values in square brackets refer to the rearrangement processes that are assumed to be barrier-less in the exothermic direction. Table 1 The elementary steps in benzene hydrogenation over Pd2, and their rate equations. In the latter, Px and θx represent the partial pressure and the coverage rate (per Pd2 unit) of species x. In addition, the barriers for the forward (E f) and backward (E b) reaction of surface reactions are displayed. For adsorption and desorption processes, we show the corresponding adsorption (E ads) or desorption energies (E des) for the reaction in the forward direction. All values are in eV. No Elementary steps Rate equations E ads / des E f E b 1 H2(g) + * ⇌ H2* r 1 = k 1 θ ∗ P H 2 - k -1 θ H 2 * −0.65 2 H2* + B(g) ⇌ B_H2* r 2 = k 2 θ H 2 * P B - k -2 θ B_ H 2 * −0.23 3 H2* ⇌ H_H* r 3 = k 3 θ H 2 * - k -3 θ H_H* 0.30 0.02 4 B(g) + H_H* ⇌ B_H_H* r 4 = k 4 θ H_H* P B - k -4 θ B_H_H* −0.28 5 B(g) + * ⇌ B* r 5 = k 5 θ ∗ P B - k -5 θ B* −0.87 6 B* + H2(g) ⇌ B_H2* r 6 = k 6 θ B* P H 2 - k -6 θ B_ H 2 * −0.002 7 B_H2* ⇌ B_H_H* r 7 = k 7 θ B_ H 2 * - k -7 θ B_H_H* 0.36 0.13 8 B_H_H* ⇌ BH_H* r 8 = k 8 θ B_H_H* - k -8 θ BH_H* 0.83 0.77 9 BH_H* ⇌ 12B* r 9 = k 9 θ BH_H* - k -9 θ 12B* 0.21 0.47 10 12B* ⇌ 12B(g) + * r 10 = k 10 θ 12B* - k -10 θ ∗ P 12B 0.91 11 12B* + H2(g) ⇌ 12B_H2* r 11 = k 11 θ 12B* P H 2 - k -11 θ 12B_ H 2 * −0.61 12 12B_H2* ⇌ 12B(g) + H2* r 12 = k 12 θ 12B_ H 2 * - k -12 P 12B θ H 2 * 0.88 13 12B_H2* ⇌ 12B_H_H* r 13 = k 13 θ 12B_ H 2 * - k -13 θ 12B_H_H* 0.33 0.13 14 12B_H_H* ⇌ 12B(g) + H_H* r 14 = k 14 θ 12B_H_H* - k -14 θ H_H* P 12B 0.96 15 12B_H_H* ⇌ 123B_H* r 15 = k 15 θ 12B_H_H* - k -15 θ 123B_H* 0.90 1.07 16 123B_H* ⇌ 1234B* r 16 = k 16 θ 123B_H* - k -16 θ 1234B* 0.23 1.49 17 1234B* ⇌ 1234B(g) + * r 17 = k 17 θ 1234B* - k -17 θ ∗ P 1234B 1.32 18 1234B* + H2(g) ⇌ 1234B_H2* r 18 = k 18 θ 1234B* P H 2 - k -18 θ 1234B_ H 2 * 0.20 0.23 0.05 19 1234B_H2* ⇌ 1234B(g) + H2* r 19 = k 19 θ 1234B_ H 2 * - k -19 θ H 2 * P 1234B 0.47 20 1234B_H2* ⇌ 1234B_H_H* r 20 = k 20 θ 1234B_ H 2 * - k -20 θ 1234B_H_H* 0.72 0.33 21 1234B_H_H* ⇌ 1234B(g) + H_H* r 21 = k 21 θ 1234B_H_H* - k -21 θ H_H* P 1234B 0.37 22 1234B_H_H* ⇌ 12345B_H* r 22 = k 22 θ 1234B_H_H* - k -22 θ 12345B_H* 0.38 1.03 23 12345B_H* ⇌ CHA* r 23 = k 23 θ 12345B_H* - k -23 θ CHA* 0.14 0.83 24 CHA* ⇌ CHA(g) + * r 24 = k 24 θ CHA* - k -24 θ ∗ P CHA 0.56 25 BH_H* ⇌ 13B* r 25 = k 25 θ BH_H* - k -25 θ 13B* 0.54 0.14 26 13B* + H2(g) ⇌ 13B_H2_I* r 26 = k 26 θ 13B* P H 2 - k -26 θ 13B_ H 2 _I* −0.46 27 13B_H2_I* ⇌ 13B_H_H_I* r 27 = k 27 θ 13B_ H 2 _I* - k -27 θ 13B_H_H_I* 0.23 0.14 28 13B_H_H_I* ⇌ 135B_H* r 28 = k 28 θ 13B_H_H_I* - k -28 θ 135B_H* 0.92 0.10 29 135B_H* ⇌ 135B_H_I* r 29 = k 29 θ 135B_H* - k -29 θ 135B_H_I* 0.00 0.67 30 135B_H_I* ⇌ 1235B_I* r 30 = k 30 θ 135B_H_I* - k -30 θ 1235B_I* 0.12 1.21 31 1235B_I* ⇌ 1235B* r 31 = k 31 θ 1235B_I* - k -31 θ 1235B* 0.00 0.02 32 1235B* + H2(g) ⇌ 1235B_H2* r 32 = k 32 θ 1235B* P H 2 - k -32 θ 1235B_ H 2 * −0.09 33 1235B_H2* ⇌ 1235B_H_H* r 33 = k 33 θ 1235B_ H 2 * - k -33 θ 1235B_H_H* 0.17 0.16 34 1235B_H_H* ⇌ 1235B_H_H_I* r 34 = k 34 θ 1235B_H_H* - k -34 θ 1235B_H_H_I* 0.88 0.52 35 1235B_H_H_I* ⇌ 12345B_H_I* r 35 = k 35 θ 1235B_H_H_I* - k -35 θ 12345B_H_I* 0.27 1.46 36 12345B_H_I* ⇌ CHA* r 36 = k 36 θ 12345B_H_I* - k -36 θ CHA* 0.20 1.25 37 BH_H* ⇌ BH_H_I* r 37 = k 37 θ BH_H* - k -37 θ BH_H_I* 0.97 1.01 38 BH_H_I* ⇌ 14B* r 38 = k 38 θ BH_H_I* - k -38 θ 14B* 1.10 1.72 39 14B* ⇌ 14B(g) + * r 39 = k 39 θ 14B* - k -39 P 14B θ ∗ 1.33 40 14B* + H2(g) ⇌ 14B_H2* r 40 = k 40 θ 14B* P H 2 - k -40 θ 14B_ H 2 * −0.02 41 14B_H2* ⇌ 14B(g) + H2* r 41 = k 41 θ 14B_ H 2 * - k -41 θ H 2 * P 14B 0.71 42 14B_H2* ⇌ 14B_H_H* r 42 = k 42 θ 14B_ H 2 * - k -42 θ 14B_H_H* 0.58 0.04 43 14B_H_H* ⇌ 14B(g) + H_H* r 43 = k 43 θ 14B_H_H* - k -43 θ H_H* P 14B 0.45 44 14B_H_H* ⇌ 14B_H_H_I* r 44 = k 44 θ 14B_H_H* - k -44 θ 14B_H_H_I* 0.39 0.97 45 14B_H_H_I* ⇌ 124B_H_II* r 45 = k 45 θ 14B_H_H_I* - k -45 θ 124B_H_II* 0.19 0.24 46 124B_H_II* ⇌ 1245B* r 46 = k 46 θ 124B_H_II* - k -46 θ 1245B* 0.63 0.24 47 1245B* + H2(g) ⇌ 1245B_H2* r 47 = k 47 θ 1245B* P H 2 - k -47 θ 1245B_ H 2 * −0.71 48 1245B_H2* ⇌ 1245B_H_H* r 48 = k 48 θ 1245B_ H 2 * - k -48 θ 1245B_H_H* 0.34 0.16 49 1245B_H_H* ⇌ 12345B_H_II* r 49 = k 49 θ 1245B_H_H* - k -49 θ 12345B_H_II* 0.33 0.45 50 12345B_H_II* ⇌ 12345B_H_III* r 50 = k 50 θ 12345B_H_II* - k -50 θ 12345B_H_III* 0.14 1.20 51 12345B_H_III* ⇌ CHA* r 51 = k 51 θ 12345B_H_III* - k -51 θ CHA* 0.30 1.07 52 12B_H_H* ⇌ 124B_H* r 52 = k 52 θ 12B_H_H* - k -52 θ 124B_H* 1.33 1.26 53 124B_H* ⇌ 124B_H_I* r 53 = k 53 θ 124B_H* - k -53 θ 124B_H_I* 1.42 0.10 54 124B_H_I* ⇌ 1234B_I* r 54 = k 54 θ 124B_H_I* - k -54 θ 1234B_I* 0.10 2.84 55 1234B_I* ⇌ 1234B(g) + * r 55 = k 55 θ 1234B_I* - k -55 θ ∗ P 1234B 1.23 56 1234B_I* ⇌ 1234B* r 56 = k 56 θ 1234B_I* - k -56 θ 1234B* 0.22 0.31 57 123B_H* ⇌ 1235B* r 57 = k 57 θ 123B_H* - k -57 θ 1235B* 1.72 1.79 58 124B_H* ⇌ 124B_H_II* r 58 = k 58 θ 124B_H* - k -58 θ 124B_H_II* 0.58 0.74 59 124B_H_II* ⇌ 1235B_II* r 59 = k 59 θ 124B_H_II* - k -59 θ 1235B_II* 0.22 0.17 60 1235B_II* ⇌ 1235B_I* r 60 = k 60 θ 1235B_II* - k -60 θ 1235B_I* 0.00 0.19 61 13B_H_H_I* ⇌ 124B_H_III* r 61 = k 61 θ 13 B_ H_ H_ I * - k -61 θ 124 B_ H_ III * 0.37 0.29 62 124B_H_III* ⇌ 124B_H_II* r 62 = k 62 θ 124 B_ H_ III * - k -62 θ 124 B_ H_ II * 0.00 0.88 63 13B* + H2(g) ⇌ 13B_H2* r 63 = k 63 θ 13 B * P H 2 - k -63 θ 13 B_ H 2 * −1.07 64 13B_H2* ⇌ 13B_H_H* r 64 = k 64 θ 13B_ H 2 * - k -64 θ 13B_H_H* 0.22 0.16 65 13B_H_H* ⇌ 123B_H_I* r 65 = k 65 θ 13B_H_H* - k -65 θ 123B_H_I* 0.64 1.05 66 123B_H_I* ⇌ 123B_H* r 66 = k 66 θ 123B_H_I* - k -66 θ 123B_H* 0.72 0.56 Research article Exploring the performance of dual-atom Pd2 catalysts for benzene hydrogenation and cyclohexane dehydrogenation: A DFT and microkinetic modeling study Bunrat Tharat Writing – original draft Visualization Validation Methodology Investigation Formal analysis Data curation a Cheng-Te Tsai Visualization Validation Formal analysis b Suwit Suthirakun Writing – review & editing Visualization Validation Supervision Funding acquisition a ⁎ Cheng-chau Chiu Writing – review & editing Writing – original draft Visualization Validation Supervision Methodology Investigation Funding acquisition Formal analysis Data curation Conceptualization b c d ⁎ a School of Chemistry, Institute of Science, Suranaree University of Technology, Nakhon Ratchasima 30000, Thailand School of Chemistry Institute of Science Suranaree University of Technology Nakhon Ratchasima 30000 Thailand School of Chemistry, Institute of Science, Suranaree University of Technology, Nakhon Ratchasima 30000, Thailand b Department of Chemistry, National Sun Yat-sen University, Kaohsiung 80424, Taiwan Department of Chemistry National Sun Yat-sen University Kaohsiung 80424 Taiwan Department of Chemistry, National Sun Yat-sen University, Kaohsiung 80424, Taiwan c Green Hydrogen Research Center, National Sun Yat-sen University, Kaohsiung 80424, Taiwan Green Hydrogen Research Center National Sun Yat-sen University Kaohsiung 80424 Taiwan Green Hydrogen Research Center, National Sun Yat-sen University, Kaohsiung 80424, Taiwan d Center for Theoretical and Computational Physics, National Sun Yat-sen University, Kaohsiung 80424, Taiwan Center for Theoretical and Computational Physics National Sun Yat-sen University Kaohsiung 80424 Taiwan Center for Theoretical and Computational Physics, National Sun Yat-sen University, Kaohsiung 80424, Taiwan ⁎ Corresponding authors at: School of Chemistry, Institute of Science, Suranaree University of Technology, Nakhon Ratchasima 30000, Thailand (S. Suthirakun), and Department of Chemistry, National Sun Yat-sen University, Kaohsiung 80424, Taiwan (C.-c. Chiu). School of Chemistry Institute of Science Suranaree University of Technology Nakhon Ratchasima 30000 Thailand Graphical abstract Hydrogenation and dehydrogenation of aromatics play an important role in the hydrogen storage concept referred to as “liquid organic hydrogen carriers” (LOHCs). This work uses periodic DFT calculations in combination with microkinetic modeling to investigate the catalytic hydrogenation and dehydrogenation of the benzene/cyclohexane system, which can be understood as the simplest LOHC system. The considered catalyst is a Pd2 structure supported on N-doped, defective graphene. Although the overall process is, with a reaction energy of −2.89 eV, highly exothermic, and the highest barrier for single reactions along the hydrogenation pathway is only 1.07 eV, the hydrogenation process is rather ineffective and only leads to the formation of a small amount of 1,2-dihydrobenzene (12B). This is related to the limited number of adsorption sites on the catalyst, which makes the co-adsorption of the reactants challenging, as the adsorption of H2 facilitates the desorption of benzene and vice versa. We further studied the dehydrogenation of cyclohexane, 1,2,3,4-tetrahydrobenzene (1234B) and 12B. In the simulations, the considered dehydrogenation processes only lead to the removal of two hydrogen atoms instead of full dehydrogenation. This, again, is related to the limited adsorption sites: the activation of the C–H bonds and subsequent transfer of the H-atoms to the metal side weakens the interaction between the catalyst and the organic intermediate, resulting in the desorption of the latter before it can continue to dehydrogenate. The results of this work highlight the importance of considering the availability of adsorption sites, particularly when working with single- or few-atom catalysts. Though the inability to catalyze the full dehydrogenation is a problem for the concept of LOHCs, the considered Pd2 catalyst may be interesting for selective dehydrogenation, another important process in the chemical industry. Keywords Liquid organic hydrogen carriers DFT Microkinetic modeling Hydrogenation Dehydrogenation Few-atom catalyst Palladium Benzene Data availability Data will be made available on request. 1 Introduction The rising energy demands of the modern society, declining fossil fuel supplies, and increasing environmental pollution make it urgent to find new energy sources to replace fossil fuels. Hydrogen has become one of the most important new energy carriers due to its abundant availability and environmental friendliness. However, many challenges associated with hydrogen storage and transportation still need to be overcome [1]. Currently, most hydrogen storage technologies require ultra-high pressures of up to around 700 bar or extremely low temperatures of about −253 °C when operating under ambient pressure [2]. These methods are not only expensive but also pose significant safety risks due to the extreme storage conditions, making hydrogen storage a bottleneck in the development of hydrogen technologies [3,4]. Liquid organic hydrogen carriers (LOHCs) are considered a promising approach for hydrogen storage. Here, hydrogen is stored in hydrocarbons through reversible hydrogenation and dehydrogenation reactions [5–9]. LOHCs offer advantages such as high capacity, good reversible cycle performance, a high degree of safety, and is pollution-free [10]. Additionally, they allow hydrogen to be stored and transported through the existing gasoline infrastructure for long-term storage at room temperature [10]. Typical organic systems that are discussed as LOHCs include benzene/cyclohexane, [11,12] N-ethylcarbazole/12H-N-ethylcarbazole, [13–15] 2-methylindole/8H-2-methylindole, [16] and toluene/methylcyclohexane, [17] which feature gravimetric hydrogen storage capacities between 5.76 and 7.19 wt%. However, the storage capacity is not the only important aspect for evaluating a hydrogen storage concept. It is also required that the loading and the release of hydrogen can occur within a reasonable time, which requires the development of efficient hydrogenation and dehydrogenation catalysts. In the context of petrochemical processes and later also of biomass utilization, the hydrogenation and dehydrogenation of aromatic systems like benzene have been studied extensively with quantum chemical calculations [18–29]. The large majority of these works are looking at reactions on extended metal surfaces, which typically describe the situation on metal nanoparticle catalysts. An important finding here shows that whether benzene is fully hydrogenated to form cyclohexane depends much on the binding of the reactant, which in return dictates the competition between the desorption and the hydrogenation process [30]. For the hydrogenation of benzene (and other aromatics), Pd typically is one of the best catalysts [31–33]. However, the high price of precious metals like Pd made it necessary to use the limited resources more efficiently, which led to the development of single-atom catalysts (SACs), which, in the ideal case, make use of every metal atom for catalysis. In SAC systems, metal atoms can be anchored in doped/defective graphene, which features high thermal and chemical stability. The doping and/or defect sites in graphene are typically necessary to ensure a sufficiently strong interaction between the metal atoms and the support material to avoid clustering of the metal atoms [34–36]. Despite the strong attention SACs have received in literature, they are not free from problems. Particularly when a reaction requires the simultaneous activation of substrate species on neighboring adsorption sites, the SACs are limited in their applicability. The limited availability of adsorption sites in SACs can lead to a decreased catalytic performance when a substrate blocks the adsorption of other reactants [37,38]. In this case, dual-atom catalysts (DACs) or few-atom catalysts are more suitable while still maintaining the advantage of using the metal atoms efficiently for catalysis [39]. Although DACs offer the additional possibility of combining different metals, resulting in potential synergistic interactions that enhance the catalytic performance, this work will mainly focus on the hydrogenation and dehydrogenation of the benzene/cyclohexane system by a Pd2 catalyst. This study will use DFT calculations to explore the energetics of the full reaction network from benzene to cyclohexane. Then, the energetics will be used to set up a microkinetic model to study how the obtained energy profile translates to catalytic performances. Based on the case study presented in this work, we hope to understand better the challenges involved in designing suitable hydrogenation/dehydrogenation systems, which may be helpful when attempting to improve existing catalytic systems. 2 Computational method 2.1 Energetics Plane wave-based, periodic density functional theory (DFT) [40] calculations as implemented in the Vienna ab initio simulation package (VASP, Version 6.3.2) were conducted in this work [41,42]. All calculations used the generalized gradient approximation (GGA) functional of type Perdew–Burke–Ernzerhof (PBE) [43] in combination with the projector augmented wave (PAW) method [44,45]. The cutoff value for the plane-wave basis set was set to 550 eV. Van der Waals dispersion correction was accounted for by applying the DFT-D3 method [46]. The convergence criteria for the electronic energy and the force on each atom were set to 10-6 eV and 0.02 eV/Å, respectively. Transition state (TS) structures are located with the climbing image nudged elastic band (CINEB) [47] and the dimer method [48–50]. The simulation cell for the supported Pd2 catalyst is constructed by taking a 6 × 6 graphene supercell and creating a vacancy site by removing two neighboring C atoms. The five C-atoms directly bordering the vacancy sites are then replaced by N atoms. Finally, the Pd2 unit is placed on the vacancy site, see Fig. 1 . The band energies of the periodic structures are sampled with a 3 × 3 × 1 k-point grid generated using the Monkhorst–Pack scheme [51]. To evaluate the energy of species in the gas phase, we have placed the corresponding molecule in a cubic 30 Å × 30 Å × 30 Å simulation cell and evaluated the band energy at the Γ-point only. 2.2 Microkinetic modeling To convert the energetics obtained above into observable, macroscopic reaction rates, we have set up a microkinetic model. Table 1 shows all considered elementary steps as reversible reactions and the corresponding rate expressions. Here, gas phase species are marked with the label “(g)”, while adsorbed structures are denoted with a “*” sign. A single “*” sign refers to the empty catalyst. B and CHA are used as abbreviations for benzene and cyclohexane. The partially hydrogenated intermediates, except for singly hydrogenated benzene (BH), are referred to as xyz…B with x ,y, z… being the positions at which the benzene structure is hydrogenated. For example, cyclohexene (= 1,2,3,4-tetrahydrobenzene) would be referred to as 1234B in this work. Co-adsorbed species are separated by a “_”. For instance, B_H_H refers to an adsorbed benzene molecule with two co-adsorbed H atoms. In addition, there are cases in which the same adsorbate(s) can feature different stable conformations. In this case, a Roman numeral may be added to distinguish the structures. An example is the pair of structures 123B_H and 123B_H_I as shown in Fig. S1: Whereas in the latter structure, all three unsaturated C atoms bind to the same Pd atom, the former features Pd-C bonds on both Pd atoms. The different reactions are denoted with labels of the form Ri, with i being a positive sequential number. The corresponding rate constants are referred to as k i, while k -i represents the rate constant for the reverse process, which will be denoted as R-i. The rate constant for the surface reactions is evaluated within the framework of transition state theory (TST) and can be calculated by the following equation: (1) k i = k B T h q T S , i q I S , i exp - E a , i k B T = A i T exp - E a , i k B T where k B is the Boltzmann constant, h the Planck constant, and T the temperature. E a,i is the activation energy required for reaction Ri. q TS,i, and q IS,i are the partition functions of the TS and initial state (IS) structure, respectively. The detailed calculation of the partition function terms is illustrated in Section S2 of the Supplementary Material. The temperature-dependent pre-exponential term in the equation can be summarized as A i(T). For adsorption processes, we assume, with one exception addressed separately below, that the processes are barrier-less. In this case, the rate constants can be derived from collision theory to give: (2) k i = 1 2 π m k B T A where A is, not to be confused with the pre-exponential terms A i(T) in Eq (1), the surface area of the active site, which is assumed to be 11.24 Å2 in this work. This value corresponds to the surface of the area marked by the nitrogen atoms around the defect site on the graphene support, as shown in Fig. 1b. m is the molecular mass of the adsorbed species. The rate constants for desorption processes are calculated as follows: (3) k i = k B T h q g a s , 2 D q g a s , r o t q g a s , v i b q a d s exp E a d s k B T = A i T exp E a d s k B T where q gas,2D is the partition function for the two-dimensional translation of the desorbing molecule in the gas phase, q gas,rot, and q gas,vib are the rotational and vibrational contribution to the partition function of the molecule in the gas phase. In contrast, q ads is the partition function for a molecule when it is still adsorbed on the catalyst. Again here, the pre-exponential term can be summarized as A i(T). In our calculation, we found an adsorption process (R18), which is endothermic due to bonding competition between the adsorbates. In this case, the corresponding TS has been identified, and the corresponding rate constant has been computed via Eq. (1). For the structure rearrangement steps R29, R31, R60, and R62, we have assumed that they do not strongly impact the overall kinetics. Thus, we have assumed that the TS of these processes can be approximated with the product or the initial state, depending on which is higher in energy. This approach formally assumes that the reaction in the exothermic direction is barrier-less. At the same time, it ensures a correct distribution of the reactant and product species in equilibrium. Section S4 of the Supplementary Material provides a collection of all rate constants and the corresponding exponential and pre-exponential terms at all temperatures considered in this work as well as a brief discussion on the contribution of the two terms to the rate constant. The set of ordinary differential equations (provided in Section S6 of the Supplementary Material) that describe the microkinetic model are integrated numerically to determine the rates of the various reactions. The simulations assume that the catalytic sites are initially all empty. The partial pressure of the reactants and the temperature stay constant throughout the simulation. To calculate the selectivity of the catalytic process, we have analyzed the desorption rate of the organic product and intermediate species. Note that there can be multiple processes that lead to the desorption of a species x, e.g., the desorption from surface structures with different co-adsorbed species. The desorption rate for a species x, r des,x, is the sum of the rates of all these processes. The selectivity S(x) for a product species is then calculated as (4) S x = r des , x ∑ j r des , j where the sum in the denominator goes over all closed-shell, organic product and intermediate species. Due to the instability of organic radical species, the desorption of these species has not been considered in this work. This work will also analyze the total coverage rate θ x,t of selected surface species x, defined as the number of adsorbed x per Pd2 site. Instead of the coverage rates θ x used in the rate expressions in Table 1, the reported values for θ x,t will not distinguish between the different conformers of an adsorbate molecule. In addition, a structure like B_H2, in which two molecules are co-adsorbed to the Pd2 site, is not treated as an independent species as done for the rate expressions. Instead, the occurrence of the B_H2 structure contributes to the total coverage rate of both H2 and benzene. Due to the possibility of having two molecules co-adsorbed to the same Pd2 site, the total coverage rates for all considered species can add up to a value larger than 1. When calculating θ H2,t, we not only count adsorbed H2 in molecular form but also account for adsorbed H atoms, where one H atom counts as 0.5 H2. 3 Results and discussion In the following, we will start by evaluating the stability of the catalyst structure. Then, we will look at the catalytic process. Here, we will first address the energetics obtained from the periodic DFT calculations and the resulting insights on the mechanism. We will focus on identifying the reaction pathway associated with the lowest activation barriers. Next, the calculated energetics are used as input for the microkinetic models to analyze the catalytic activity and selectivity under different operating conditions. 3.1 Stability of the proposed Pd2 catalyst One of the biggest problems of SAC, DAC and other few-atom catalyst systems is the sintering and/or restructuring of the catalytic sites. Thus, in the first step, we have calculated the stability of the structure referred to bulk Pd: (5) E stability = E Pd 2 /NDG - E NDG - 2 · E Pd bulk 4 here, E Pd2/NDG and E NDG are the electronic energies of the catalyst structure and of the N-doped defective graphene without the Pd2 dimer. E Pd bulk is the energy of the unit cell of the face-centered cubic crystal structure of Pd with four atoms. A calculated value of 0.52 eV for E stability indicates that the sintering of the Pd atoms is thermodynamically favorable. Whether this process happens depends on whether the Pd2 dimer can break its bonds to the N atoms of the support. To evaluate this, we have conducted ab initio molecular dynamics (AIMD) simulations for empty Pd2 and for Pd2 with an adsorbed benzene molecule. Both systems are allowed to propagate for 5 ps at 600 K, the highest considered temperature in this work. Videos of the AIMD simulations provided in the Supplementary Material illustrate that the Pd2 unit is indeed stable on the N-doped, defective graphene support. The settings for the AIMD calculations are shown in Section S3 of the Supplementary Material. 3.2 Lowest barrier path for hydrogenation and dehydrogenation over Pd2 The energetics for the reaction network of benzene hydrogenation over Pd2 are discussed in this section. As already known from studies on other catalysts, there are many possible reaction pathways for the hydrogenation of benzene to yield cyclohexane (CHA). On most catalytic surfaces, the reactions proceed via the reaction sequence B → BH → 12B → 123B → 1234B → 12345B → CHA [19,52,53]. Scheme 1 illustrates a compact version of the reaction network and the corresponding activation barriers for the processes in forward and backward direction. The complete reaction network is presented in Section S5 of the Supplementary Material. In addition, all coordinates and absolute energies of the TS and intermediate states in the reaction network are also presented in the Supplementary Material. The reaction naturally starts with the adsorption of the reactants, benzene and H2, at the catalytic Pd2 site. The seemingly simple process actually turned out to be more complex than initially thought due to the limitation of the adsorption sites. Thus, we will also briefly address the molecular structures, see Fig. S4 of the Supplementary Material, of the involved intermediates here. We found that benzene has, with a value of −0.87 eV, a more exothermic adsorption energy than molecular H2, −0.65 eV. One problem in the catalytic process is that the presence of an adsorbate on the Pd2 site makes the adsorption of the other reactant significantly less exothermic, showcasing the challenges of getting the reactants co-adsorbed on the catalyst, which is also reflected in the molecular structures. As shown in Fig. S4a, for a single H2 adsorbed in molecular form on the Pd2 site, the H-H distance of gas phase H2, 0.75 Å, is increased to 0.85 Å, while the Pd-H distances are 1.74 Å and 1.75 Å. When an H2 molecule is co-adsorbed with a benzene molecule as in B_H2, the Pd-H distances are 2.06 Å or longer, while the H2 bond is, with 0.78 Å, only slightly longer than in gas phase H2, indicating the weakened interaction between H2 and the catalyst (Fig. S4b). In contrast, the effect of co-adsorbed H2 on benzene is less significant. As shown in Fig. S4c, upon adsorbing a single benzene molecule on the Pd2 dimer (B), the benzene molecule is bound in η2-mode with two short Pd-C bonds of 2.25 Å and 2.29 Å, while the other Pd-C distances are between 3.00 Å and 3.63 Å. This adsorption geometry also leads to a distortion of the ring structure: The initially uniform C–C bonds of 1.40 Å bond length are partially elongated to feature bond lengths between 1.39 Å and 1.42 Å. When the H2 molecule is added, the C–C distances are essentially unaffected, while the Pd-C distances increase by up to 0.2 Å, half as much as the difference in the H2-Pd distance between H2 with and without co-adsorbed benzene. Assuming that H2 and benzene can co-adsorb on the catalyst, then the B_H_H intermediate, i.e., benzene co-adsorbed with two H atoms, has to be formed before the first hydrogenation step can take place. The calculated energy profile in Fig. 2 reveals that the presence of the benzene molecules also has an impact on the H2 dissociation. In the presence of benzene, the H2 dissociation via R7 has a slightly higher barrier, 0.36 eV, than R3, the dissociation in the absence of benzene with a value of 0.30 eV. However, despite the lower barrier for the latter, that reaction is not necessarily favorable due to the more endothermic reaction energy of 0.28 eV, which makes the H_H intermediate unstable. Structure-wise, the scission of adsorbed H2 yielding the structure H_H or B_H_H is also an interesting process, as the Pd-H bonds become as short as 1.56 Å (Fig. S4d), indicating an increased interaction between the hydrogen and the metal compared to the situation of adsorbed, molecular H2, with or without co-adsorbed benzene. The bonding competition has a visible impact on the co-adsorbed benzene, which can only interact via dispersive interactions with the metal centers while displaying Pd-C distances of 4.29 Å or longer (Fig. S4e). At the same time, the activation of the C–C bonds becomes rather insignificant as the uniform C–C bond length of 1.40 Å shows. The structural analysis here already hints that the challenged co-adsorption of the reactants may be a big issue for the hydrogenation process, as we will see in more detail in the next section. The first hydrogenation step for any hydrogenation mechanism is the reaction from B_H_H to the BH_H intermediate (R8). This step requires an energy of 0.83 eV to overcome the reaction barrier. After that, the reaction can branch into three separate paths, which lead to the formation of 12B (R9), 13B (R25), and 14B (R38). The energy profile in Fig. 2 as well as Scheme 1 reveals that the formation of 12B has a lower energy barrier, 0.21 eV, than the formation of 13B, 0.54 eV, and 14B, 1.10 eV, respectively. Note that only the formation of the (formally) biradical 13B structure is thermodynamically unfavorable with an endothermic reaction energy of 0.40 eV. In contrast, 14B is the most stable species among the two-fold hydrogenated compounds. However, the need to surpass a much higher barrier than for the formation of 12B and 13B suggests that the second hydrogenation step will rather favor the formation of 12B. After that, the further reactions of 12B are expected to proceed only via the formation of 123B with a barrier of 0.90 eV (R15), as the reaction toward 124B has a much higher barrier of 1.33 eV (R52). A more likely reaction pathway that may lead to the formation of 124B is the hydrogenation of the less favorable intermediate 13B. After the formation of 123B, the lowest energy reaction channel leads to the formation of 1234B with a barrier of 0.23 eV for R16. From here, the reaction can only proceed via the intermediate 12345B to the final product CHA. Note that the H2 adsorption prior to the fifth hydrogenation step, which leads to the formation of the co-adsorbed structure, 1234B_H2 (R18), is actually an endothermic process with a barrier of 0.23 eV. The unstable co-adsorption between 1234B and H2 and the high barrier of 0.72 eV for the subsequent H2 dissociation to form 1234B_H_H (R20) make the benzene hydrogenation beyond the fourth hydrogen a potential bottleneck of the overall process. In summary, based on the analysis of the calculated energetics mentioned above, the most likely pathway for benzene hydrogenation to cyclohexane follows the pathway marked in blue in Scheme 1 and Fig. 2, namely B → BH → 12B → 123B → 1234B → 12345B → CHA, which is identical to the previously reported catalytic pathway over Pd [19], Pt [53], Zn/Ru [52], and Pd/Zn [33]. Now, we assume that the same catalyst could be used for the dehydrogenation of CHA back to form benzene. The lowest barrier pathway for this process is the exact reverse pathway of the hydrogenation pathway. As visible from the energy profile, the dehydrogenation process is highly endothermic, which aligns with earlier reports in the literature [54–57]. To realize such a reaction, it seems necessary to work under low to zero H2 pressure to shift the equilibrium toward the side of the dehydrogenated products. Before we continue with the results of the kinetic modeling, it should be noted here that the discussion above is based on the assumption that the reaction from benzene to CHA, or vice versa, occurs completely as outlined in the energy profile in Fig. 2. However, there is also the possibility that the reaction sequence is interrupted by the desorption of the intermediates. In the direction of the hydrogenation, the process has to compete with the desorption of either H2 or the organic intermediate from the co-adsorbed surface structure. For example, in the case of benzene, the competition between hydrogenation and desorption can be illustrated by the reactions B_H_H → BH_H (R8) and B_H_H → B(g) + H_H (R-4). As shown in Table 1, benzene desorption is favored, with a desorption energy of 0.28 eV, while the hydrogenation pathway requires overcoming a high barrier of 0.83 eV. A similar trend is observed for the 12B intermediate. Starting from the low-energy 12B_H2 configuration, its desorption energy is 0.88 eV (R12). For the hydrogenation of 12B, H–H bond cleavage in 12B_H2 is required, which proceeds via slightly endothermic step with a reaction energy of 0.20 eV and a moderate barrier of 0.33 eV (R13), forming 12B_H_H. The subsequent hydrogenation to 123B_H requires an additional barrier of 0.90 eV. The corresponding TS is by 1.10 eV energetically higher than the 12B_H2 intermediate. These findings indicate that, similar to benzene, the desorption of 12B is energetically preferred over the hydrogenation process. Regarding dehydrogenation, our results reveal that the desorption of closed-shell intermediates, such as CHA and 1234B, is generally more favorable than their dehydrogenation pathways. As shown in Table 1, CHA exhibits a desorption energy of 0.56 eV (R24) that is lower than the dehydrogenation barrier of 0.83 eV (R-23), indicating that CHA tends to desorb rather than undergo further transformation. Similarly, the desorption of 1234B is also preferred, with a desorption energy of 1.32 eV (R17) that is lower than the barrier of the competing dehydrogenation processes of 1.49 eV (R-16). In contrast, the behavior of 12B deviates from this trend. For this intermediate, dehydrogenation is more favorable, requiring only an activation energy of 0.47 eV (R-9), which is lower than the desorption energy of 0.91 eV (R10). In other words, 12B is more likely to undergo further dehydrogenation than to desorb from the surface. 3.3 Microkinetic modeling In the following section, we will discuss the results of the microkinetic modeling. The model contains 66 elementary reactions, which include surface reactions, adsorption/desorption processes, and rearrangements of the adsorbed species. The detailed rate expressions for the 66 elementary reactions are provided in Table 1. The differential equations describing the whole reaction network are provided in Section S6 of the Supplementary Material. The model can be used to study the hydrogenation and the dehydrogenation process, and the only difference is the boundary conditions that describe the partial pressure of the different gas phase species. 3.3.1 Benzene hydrogenation We first considered a reaction at 450 K and partial pressures of 5.0 and 90 bar for benzene and H2, respectively. The microkinetic model reveals that the rate of benzene hydrogenation through the 12B intermediate (r9 = 3.94 × 10-4 s−1) is significantly higher than that of 13B (r25 = 4.71 × 10-10 s−1) and 14B (r38 = 1.36 × 10-12 s−1), as shown in Fig. 3 . The hydrogenation rate to form 12B exceeds that of 13B and 14B by five and nine orders of magnitude, respectively, demonstrating that the formation of 12B is, consistent with the discussion of the energetics in Section 3.2, kinetically more favorable. However, it should also be noted that the formation rate of 12B is already not very high. The further hydrogenation of 12B to form CHA has an even lower rate. This is related to the circumstance that most of the formed 12B intermediate desorbs from the surface with a rate of 3.93 × 10-4 s−1 via reaction R12. Note here that R12 is actually the desorption of 12B that is co-adsorbed with H2. This hints at the problem that the co-adsorption of the reactants on the small Pd2 cluster can be a problem for the catalytic process. In the following, we will address the low formation rate of 12B. This is, similar to the situation above, also related to the issue of co-adsorption, in this case of H2 and B, on the Pd2 catalyst. Fig. 4 shows the reaction rates for the reactions R1 to R8, which describes the adsorption of the reactants, the activation of the H-H bond (R3 and R7), as well as the first hydrogenation step (R8). As visible from the figure, the dominating processes are the adsorption and desorption of the reactants. The co-adsorption of a benzene molecule (R2) seems to trigger the desorption of surface H2 via R-6, the reverse process of R6. A minor reaction pathway involves about 7 % of the H2 molecules that adsorb onto the catalyst. Instead of directly desorbing again, these can dissociate. However, once a benzene molecule co-adsorbs with the dissociated H atoms to form the intermediate B_H_H*, the H atoms are rapidly pushed together to form molecular H2 and to allow for a stronger Pd-benzene interaction that stabilizes the system. Only a very small fraction of the B_H_H* intermediate continues with the actual hydrogenation step R8, which is unsurprising due to the high energy barrier of 0.83 eV, as mentioned in Table 1. Here, the problem with the limited size of the catalyst and its impact on the co-adsorption of the reactants becomes relatively apparent. We have systematically varied the reaction conditions to test whether one can achieve a more efficient hydrogenation process, i.e., a higher rate or the formation of a product with a higher hydrogen content. Fig. 5 a and 5d show the rate at which the different hydrogenation products desorb from the catalyst. It can be seen that for all tested conditions, the formation of 12B is clearly favored. The rate for the desorption of 12B is, depending on the temperature, five to seven orders higher than the desorption of the second most favorable product, 1234B. This indicates that neither by tuning the temperature (Fig. 5b) nor the hydrogen pressure (Fig. 5e) can the selectivity be visibly shifted towards the products with a higher hydrogen content. The selectivity for 12B is essentially 100 % for all tested conditions. Though not really relevant for the practical application, one interesting observation in Fig. 5d is that the desorption rate for CHA is lower than that for 14B at low hydrogen pressures. In contrast, at higher hydrogen pressures, the situation is reversed. This agrees with the expectations according to Le Chatelier's principle: a higher H2 pressure favors the formation of the fully hydrogenated product more. This shows that the used model produces results that generally agree with chemical intuition. Another result from Fig. 5d is that a higher hydrogen pressure leads to a marginal increase in the overall rate for the formation of the hydrogenation products. Fig. 5f shows that the rise of the hydrogen pressure leads to an increase in θ H2,t at the cost of total coverage rate for benzene, θ B,t. The fact that θ H2,t and θ B,t add up to approximately 1 hints at the main problem of the reaction: hydrogen and benzene are not co-adsorbed on a Pd2 site. Instead, the vast majority of the catalytic sites are either occupied by hydrogen or a benzene molecule, which cannot react by themselves. The variation in the hydrogen pressure is only reflected in the ratio of the sites occupied by benzene and by hydrogen, respectively. Now, let's look at the effect of the temperature. Although one could expect that a higher temperature may disfavor the hydrogenation process due to entropy, the results in Fig. 5a show the opposite. A higher temperature makes the formation of all considered hydrogenation products faster. At a temperature of 600 K, the desorption rate of 12B from the catalyst can be accelerated to 9.43 × 10-2 s−1 despite the increased temperature noticeably reduces the amount of adsorbed benzene, see Fig. 5c. As the figure indicates, a small part of the released surface sites remains empty while the majority is occupied by H2, which is supplied with a much higher pressure than benzene. Also here, the issue seems to be that the reactants do not favor the co-adsorption onto the same catalytic site. The overall picture we obtained from the results of the microkinetic model indicates that the Pd2 structure is not a good catalyst for benzene hydrogenation. The biggest problem is that it only favors the hydrogenation to 12B and not the formation of products with a higher hydrogen content, which is a problem in the context of hydrogen storage. 3.3.2 Dehydrogenation Given the findings from Section 3.3.1, the proposed Pd2 catalyst is likely not a very good hydrogenation catalyst. In light of this, we have tested whether it can be used for the catalytic dehydrogenation of cyclohexane (CHA), a process that would be required to release H2 when needed for combustion. Fig. 6 a and d display the simulated formation rates (as characterized by the rate of desorption) for the different products of CHA dehydrogenation at a constant CHA pressure of 100 bar and varying temperatures, as well as at a constant temperature of 450 K and varying CHA pressures, respectively. Under all considered conditions, the main products are 1234B and H2, which form at a stoichiometric ratio of almost 1:1. A diminishing part of the reactant is converted, in order of decreasing rate, into 14B, 12B, and benzene, respectively. The simulation results, as visible from, Fig. 6b and e, show a selectivity for 1234B (and H2) of close to 100 % under all tested conditions. Although higher temperatures will lead to desorption of the reactant from the catalyst surface, as confirmed by Fig. 6c, increasing the temperature from 350 K to 600 K can raise the overall dehydrogenation rates by about nine orders of magnitude, reaching, at 600 K, a reaction rate comparable to the hydrogenation rate at the same temperature discussed above in Section 3.3.1. In contrast, there is no significant increase in the rates with rising CHA pressure, although it will lead to a higher CHA coverage on the catalyst, as shown in Fig. 6f. The ideal case for catalytic dehydrogenation would be that the reaction directly converts CHA to benzene. 1234B being the main product in the simulated dehydrogenation process is a bit disappointing in light of this and reflects again the problem of the limited adsorption sites. The transfer of the hydrogen atoms from the organic intermediate to the metal site of the catalyst results in a significant weakening of the bond between the organic intermediate and the metal and ultimately leads to the desorption of the intermediate. Under the simulated reaction conditions, in which the partial pressure of the desorbed intermediates in the gas phase above the catalyst is 0 bar, the intermediates are rapidly removed from the catalytic system and are therefore not available for further dehydrogenation anymore. This is visible from the total coverage rates in Fig. 6c and f, which show that under all considered conditions, no other species than CHA has a significant occurrence on the catalyst surface. However, in an actual experimental set-up, depending on the dimension of the reactor and other reaction parameters, the dehydrogenated intermediates may accumulate in the gas phase and eventually re-adsorb onto the catalyst again. To address this case, we have also performed a set of simulations in which 1234B is the only feedstock for the dehydrogenation process. Fig. 7 a-c show the simulated results for varying temperatures and a constant 1234B pressure of 100 bar. It can be seen that 12B is, together with approximately the same amount of H2, formed as the main product, while benzene is, with a selectivity of up to 20 % at 350 K a side product. It can be seen here that the formation rate of 12B is by far lower than the rate for the reaction from CHA to 1234B, only 8.94 × 10-6 s-1at 600 K. This reflects the high barrier of 1.49 eV for the C–H bond scission in 1234B via R-16. This is the highest barrier along the lowest energy pathway for the dehydration process from CHA to B. The high barrier on the one side and the highly exothermic adsorption energy of −1.23 eV for 1234B render the structure a thermodynamic sink along the reaction pathway, leading to a near 100 % total coverage of 1234B at all considered temperatures. The analysis of the minor products bears some interesting further findings: we see that some CHA is being formed, although no external H2 is provided for the reaction. The formation of CHA indicates that, after the main dehydrogenation product 12B desorbs from the catalyst, some catalytic sites are still covered by hydrogen. If these sites adsorb a molecule of 1234B, it can be hydrogenated to form CHA. A second interesting aspect is that the formation of 14B is much slower than the formation of 12B and benzene. This finding is consistent with the lowest energy dehydrogenation pathway mentioned in Section 3.2. However, it appears to contradict the results obtained for the dehydrogenation of CHA in Fig. 6. There, the rate for the formation of 14B is higher than that for 12B, which seems to indicate that CHA first dehydrogenates to 1234B, which then predominantly reacts to 14B. If that is the case, then one would expect that 14B should be the main product when 1234B is used as feedstock for the dehydrogenation process. This apparent contradiction can be resolved by a closer inspection of the reaction network in Scheme 1: aside from the dehydrogenation of CHA to 12345B (R-23) and then to 1234B (R-22), there is an alternative pathway for the dehydrogenation of CHA that is slightly higher in energy and leads to the formation of the 1245B intermediate (R-51 and R-49) and from there to the formation of 14B (R-46 and R-45). As 1245B is formally a di-radical species, it is expected to be relatively unstable in gas phase. Thus, its desorption has not been accounted for in this work. As 1245B remains on the catalyst, nearly all formed 1245B is converted to 14B. In contrast, the formation of 12B predominantly proceeds via the 1234B intermediate, a closed-shell species that easily desorbs from the catalyst. Due to the desorption of 1234B, the amount of 12B that can be formed will be reduced, which rationalizes the lower formation rate of 12B compared to 14B when CHA is used as feedstock. On the other hand, when 1234B is provided as the feedstock for dehydrogenation, the pathway via 1245B is negligible, which leads to the low rate for the formation of 14B. It would be desirable if the above argument could be confirmed via the calculated coverage rates. However, it should be stressed here that the rate of the reaction pathway under discussion is several orders of magnitudes lower than the rate of the main reaction path. The coverage rates of the corresponding intermediates are diminishingly small and, unfortunately, are not visible in the surface coverage rate plots in Fig. 6. Due to the mentioned very exothermic adsorption energy of 1234B, a partial pressure of 10 bar is already sufficient to fully cover the catalyst with 1234B, see Fig. 7f. Thus, similar to the situation discussed for CHA above, varying the partial pressure only has a limited impact on the reaction rate as visible from Fig. 7d. In addition, we see, particularly at higher temperatures, the same issue with the desorption of the intermediate, resulting in incomplete dehydrogenation (Fig. 7b and e), as mentioned above for CHA. Summing up, aside from the generally lower rate, the overall situation when 1234B is used as feedstock is relatively similar to the situation when CHA is used as feedstock. Thus, we have also used the main product of the 1234B dehydrogenation, 12B, as the only feedstock and simulated the dehydrogenation process. Fig. 8 illustrates the simulated results for the dehydrogenation of 12B. The behavior of the reaction rates and selectivities is much like the considered cases above; the main product alongside H2 is, here with essentially 100 % selectivity, benzene, the structure obtained by removing two hydrogen atoms from the reactant. A small fraction of the reactant isomerizes to 14B; the most likely pathway here is the dehydrogenation to BH and the re-hydrogenation via R38 with a barrier of 1.10 eV, as mentioned in Section 3.2. Another part of the reactant can react with the hydrogen atoms that remain on the catalyst to form the hydrogenation product 1234B. Also, for the dehydrogenation of 12B shown here, the variation of the reactant pressure has no visible effect on the reaction rate, while increasing the process temperature from 350 to 600 K leads to an increase of the benzene formation rate by four orders of magnitude, from 1.24 × 103 s−1 to 5.82 × 107 s−1 . This number here also illustrates that converting 12B to benzene is much faster than the preceding dehydrogenation processes discussed above, which correctly reflects the lower reaction barriers in Table 1. The lower barrier for converting 12B to benzene allows the system to reach a steady state that, unlike the previously studied cases, shows a visible coverage of the dehydration product on the catalyst, which is, according to Fig. 8c, as high as 0.4 at 350 K. With rising temperature, the total coverage rate for benzene decreases. This allows the coverage of 12B to increase, reaching a maximum at about 450 K before the entropic effects start to dominate and result in less favorable adsorption of the reactant 12B. While the temperature variation leads to a visible change in the surface coverage rates, the effect of the pressure is negligible, see Fig. 8f. If one sums up the kinetics for the dehydrogenation processes discussed in this section, one sees that for a potential dehydrogenation process that should react from CHA to benzene, the interaction between the intermediate and the catalyst is an important issue. It has to be strong enough to ensure that the intermediates remain on the catalyst instead of desorbing. If the interactions are small compared to the activation barriers, one will have to think about how to accumulate the intermediate species in the gas phase so they reach a sufficiently high partial pressure and can re-adsorb on the catalyst again. For the overall reaction from CHA to benzene, it appears that the dehydrogenation of 1234B is the bottleneck and may eventually hinder the efficient usage of the stored hydrogen. However, this does not necessarily indicate that the considered catalyst system is not useful. The low rate for the conversion of 1234B may make it interesting for selective (de)hydrogenation processes, [30] which play a role in the large-scale production of chemicals. 4 Conclusions In this study, we have investigated the hydrogenation and dehydrogenation processes of the benzene/cyclohexane system over a Pd2 catalyst. Though single- and few-atom catalysts are often claimed to be highly efficient catalytic systems, the simulated catalytic performance is not quite as high as we have hoped. This was somewhat surprising because the overall hydrogenation process was calculated to be strongly exothermic, with barriers for single reactions not exceeding a value of 1.07 eV. However, the kinetic modeling revealed that the problem here is related to the limited number of adsorption sites on the catalyst, which equally affects the hydrogenation and dehydrogenation processes. In the former, the co-adsorption of the reactant is hindered. At the same time, in the latter, the interaction between the metal centers and the H-atoms from the activated C–H bond weakens the bond between the organic intermediate and the catalyst, leading to its desorption before it can continue to dehydrogenate. This issue is not only limited to the hydrogenation and dehydrogenation processes in the context of liquid organic hydrogen carriers. Instead, it likely affects many single- or few-atom catalyst systems. The fact that it is not the barriers of the surface reactions which predominantly hinder the studied catalytic reaction but rather the adsorption/desorption processes, which often do not receive sufficient attention in mechanistic studies, shows the importance of including these processes into the analysis. Although the catalyst did not show the hoped catalytic activity for the hydrogenation and dehydrogenation of the benzene/cyclohexane system, we want to close the study here on a positive note: the results of this work indicate that one may be able to tune the selectivity of the hydrogenation/dehydrogenation process by varying the size, and with that the amount of available adsorption sites, of a few-atom catalyst, which may be important in the context of selective, partial hydrogenation and dehydrogenation processes. CRediT authorship contribution statement Bunrat Tharat: Writing – original draft, Visualization, Validation, Methodology, Investigation, Formal analysis, Data curation. Cheng-Te Tsai: Visualization, Validation, Formal analysis. Suwit Suthirakun: Writing – review & editing, Visualization, Validation, Supervision, Funding acquisition. Cheng-chau Chiu: Writing – review & editing, Writing – original draft, Visualization, Validation, Supervision, Methodology, Investigation, Funding acquisition, Formal analysis, Data curation, Conceptualization. Declaration of competing interest The authors declare that they have no known competing financial interests or personal relationships that could have appeared to influence the work reported in this paper. Acknowledgments BT and SS thank the Research and Innovation Fund (NSRF) for financial support via the Program Management Unit for Human Resources & Institutional Development, Research and Innovation, Thailand (grant number B42G670035). In addition, (i) Suranaree University of Technology (SUT), (ii) Thailand Science Research and Innovation (TSRI), and (iii) National Science, Research, and Innovation Fund (NSRF) (NRIIS Project Number 204271) are acknowledged. CTT and CCC thank the National Science and Technology Council (NSTC), Taiwan, for financial support from the Young Scholar Fellowship Program under grant NSTC 113-2636-M-110-007. The authors further thank the computational resources provided by the National Center for High-Performance Computing (NCHC) of the National Applied Research Laboratories (NARLabs), Taiwan, and the NSTDA Supercomputer Center (ThaiSC), Thailand. CCC further thanks the National Center for Theoretical Sciences, particularly TG4.2, for providing a framework for valuable discussions and exchanging ideas. Appendix A Supplementary data The Supplementary Material contains the illustration of selected molecular structures, the details of the calculation of the partition function terms, the computational details for the AIMD calculations, the calculated rate constants, the illustration of the whole reaction network (including energetics and figures of the intermediates) and the differential equations describing the kinetic model. The coordinates and electronic energies for the optimized geometries as well as videos showing the AIMD simulations are also provided. Supplementary data to this article can be found online at https://doi.org/10.1016/j.jcat.2025.116214. Appendix A Supplementary data The following are the Supplementary data to this article: Supplementary Data 1 Supplementary video 2 Supplementary video 3 Supplementary Data 4 References [1] P. Jena Materials for hydrogen storage: past, present, and future J. Phys. Chem. Lett. 2 2011 206 211 10.1021/jz1015372 P. Jena, Materials for Hydrogen Storage: Past, Present, and Future, The Journal of Physical Chemistry Letters, 2 (2011) 206-211. doi: 10.1021/jz1015372. [2] T. Zhang J. Uratani Y. Huang L. Xu S. Griffiths Y. Ding Hydrogen liquefaction and storage: Recent progress and perspectives Renew. Sustain. Energy Rev. 176 2023 113204 10.1016/j.rser.2023.113204 T. Zhang, J. Uratani, Y. Huang, L. Xu, S. Griffiths, Y. Ding, Hydrogen liquefaction and storage: Recent progress and perspectives, Renewable and Sustainable Energy Reviews, 176 (2023) 113204. doi: 10.1016/j.rser.2023.113204. [3] D.K. Ross Hydrogen storage: the major technological barrier to the development of hydrogen fuel cell cars Vacuum 80 2006 1084 1089 10.1016/j.vacuum.2006.03.030 D.K. Ross, Hydrogen storage: The major technological barrier to the development of hydrogen fuel cell cars, Vacuum, 80 (2006) 1084-1089. doi: 10.1016/j.vacuum.2006.03.030. [4] J.O. Abe A.P.I. Popoola E. Ajenifuja O.M. Popoola Hydrogen energy, economy and storage: Review and recommendation Int. J. Hydrogen Energy 44 2019 15072 15086 10.1016/j.ijhydene.2019.04.068 J.O. Abe, A.P.I. Popoola, E. Ajenifuja, O.M. Popoola, Hydrogen energy, economy and storage: Review and recommendation, International Journal of Hydrogen Energy, 44 (2019) 15072-15086. doi: 10.1016/j.ijhydene.2019.04.068. [5] A.M. Abdalla S. Hossain O.B. Nisfindy A.T. Azad M. Dawood A.K. Azad Hydrogen production, storage, transportation and key challenges with applications: a review Energ. Conver. Manage. 165 2018 602 627 10.1016/j.enconman.2018.03.088 A.M. Abdalla, S. Hossain, O.B. Nisfindy, A.T. Azad, M. Dawood, A.K. Azad, Hydrogen production, storage, transportation and key challenges with applications: A review, Energy Conversion and Management, 165 (2018) 602-627. doi: 10.1016/j.enconman.2018.03.088. [6] M. Niermann A. Beckendorff M. Kaltschmitt K. Bonhoff Liquid Organic Hydrogen Carrier (LOHC) – Assessment based on chemical and economicproperties Int. J. Hydrogen Energy 44 2019 6631 6654 10.1016/j.ijhydene.2019.01.199 M. Niermann, A. Beckendorff, M. Kaltschmitt, K. Bonhoff, Liquid Organic Hydrogen Carrier (LOHC) – Assessment based on chemical and economicproperties, International Journal of Hydrogen Energy, 44 (2019) 6631-6654. doi: 10.1016/j.ijhydene.2019.01.199. [7] M. Niermann S. Drünert M. Kaltschmitt K. Bonhoff Liquid organic hydrogen carriers (LOHCs) – techno-economic analysis of LOHCs in a defined process chain Energ. Environ. Sci. 12 2019 290 307 10.1039/C8EE02700E M. Niermann, S. Drünert, M. Kaltschmitt, K. Bonhoff, Liquid organic hydrogen carriers (LOHCs) – techno-economic analysis of LOHCs in a defined process chain, Energy & Environmental Science, 12 (2019) 290-307. doi: 10.1039/C8EE02700E. [8] Q.-L. Zhu Q. Xu Liquid organic and inorganic chemical hydrides for high-capacity hydrogen storage Energ. Environ. Sci. 8 2015 478 512 10.1039/C4EE03690E Q.-L. Zhu, Q. Xu, Liquid organic and inorganic chemical hydrides for high-capacity hydrogen storage, Energy & Environmental Science, 8 (2015) 478-512. doi: 10.1039/C4EE03690E. [9] P.M. Modisha C.N.M. Ouma R. Garidzirai P. Wasserscheid D. Bessarabov The prospect of hydrogen storage using liquid organic hydrogen carriers Energy Fuel 33 2019 2778 2796 10.1021/acs.energyfuels.9b00296 P.M. Modisha, C.N.M. Ouma, R. Garidzirai, P. Wasserscheid, D. Bessarabov, The Prospect of Hydrogen Storage Using Liquid Organic Hydrogen Carriers, Energy & Fuels, 33 (2019) 2778-2796. doi: 10.1021/acs.energyfuels.9b00296. [10] M. Eypasch M. Schimpe A. Kanwar T. Hartmann S. Herzog T. Frank T. Hamacher Model-based techno-economic evaluation of an electricity storage system based on Liquid Organic Hydrogen Carriers Appl. Energy 185 2017 320 330 10.1016/j.apenergy.2016.10.068 M. Eypasch, M. Schimpe, A. Kanwar, T. Hartmann, S. Herzog, T. Frank, T. Hamacher, Model-based techno-economic evaluation of an electricity storage system based on Liquid Organic Hydrogen Carriers, Applied Energy, 185 (2017) 320-330. doi: 10.1016/j.apenergy.2016.10.068. [11] A. Ali M.A. Khan N. Abbas H. Choi Prediction of hydrogen storage in dibenzyltoluene empowered with machine learning J. Storage Mater. 55 2022 105844 10.1016/j.est.2022.105844 A. Ali, M.A. Khan, N. Abbas, H. Choi, Prediction of hydrogen storage in dibenzyltoluene empowered with machine learning, Journal of Energy Storage, 55 (2022) 105844. doi: 10.1016/j.est.2022.105844. [12] G. Zhou T. Li J. Chen L. Deng H. Xie Nano-Pd/CeO2 catalysts for hydrogen storage by reversible benzene hydrogenation/dehydrogenation reactions Int. J. Hydrogen Energy 46 2021 14540 14555 10.1016/j.ijhydene.2021.01.235 G. Zhou, T. Li, J. Chen, L. Deng, H. Xie, Nano-Pd/CeO2 catalysts for hydrogen storage by reversible benzene hydrogenation/dehydrogenation reactions, International Journal of Hydrogen Energy, 46 (2021) 14540-14555. doi: 10.1016/j.ijhydene.2021.01.235. [13] L. Ge M. Qiu Y. Zhu S. Yang W. Li W. Li Z. Jiang X. Chen Synergistic catalysis of Ru single-atoms and zeolite boosts high-efficiency hydrogen storage Appl Catal B 319 2022 121958 10.1016/j.apcatb.2022.121958 L. Ge, M. Qiu, Y. Zhu, S. Yang, W. Li, W. Li, Z. Jiang, X. Chen, Synergistic catalysis of Ru single-atoms and zeolite boosts high-efficiency hydrogen storage, Applied Catalysis B: Environmental, 319 (2022) 121958. doi: 10.1016/j.apcatb.2022.121958. [14] M. Yang Y. Dong S. Fei H. Ke H. Cheng A comparative study of catalytic dehydrogenation of perhydro-N-ethylcarbazole over noble metal catalysts Int. J. Hydrogen Energy 39 2014 18976 18983 10.1016/j.ijhydene.2014.09.123 M. Yang, Y. Dong, S. Fei, H. Ke, H. Cheng, A comparative study of catalytic dehydrogenation of perhydro-N-ethylcarbazole over noble metal catalysts, International Journal of Hydrogen Energy, 39 (2014) 18976-18983. doi: 10.1016/j.ijhydene.2014.09.123. [15] W. Xue H. Liu B. Zhao L. Ge S. Yang M. Qiu J. Li W. Han X. Chen Single Rh1Co catalyst enabling reversible hydrogenation and dehydrogenation of N-ethylcarbazole for hydrogen storage Appl Catal B 327 2023 122453 10.1016/j.apcatb.2023.122453 W. Xue, H. Liu, B. Zhao, L. Ge, S. Yang, M. Qiu, J. Li, W. Han, X. Chen, Single Rh1Co catalyst enabling reversible hydrogenation and dehydrogenation of N-ethylcarbazole for hydrogen storage, Applied Catalysis B: Environmental, 327 (2023) 122453. doi: 10.1016/j.apcatb.2023.122453. [16] L. Li M. Yang Y. Dong P. Mei H. Cheng Hydrogen storage and release from a new promising Liquid Organic Hydrogen Storage Carrier (LOHC): 2-methylindole Int. J. Hydrogen Energy 41 2016 16129 16134 10.1016/j.ijhydene.2016.04.240 L. Li, M. Yang, Y. Dong, P. Mei, H. Cheng, Hydrogen storage and release from a new promising Liquid Organic Hydrogen Storage Carrier (LOHC): 2-methylindole, International Journal of Hydrogen Energy, 41 (2016) 16129-16134. doi: 10.1016/j.ijhydene.2016.04.240. [17] Y. Okada E. Sasaki E. Watanabe S. Hyodo H. Nishijima Development of dehydrogenation catalyst for hydrogen generation in organic chemical hydride method Int. J. Hydrogen Energy 31 2006 1348 1356 10.1016/j.ijhydene.2005.11.014 Y. Okada, E. Sasaki, E. Watanabe, S. Hyodo, H. Nishijima, Development of dehydrogenation catalyst for hydrogen generation in organic chemical hydride method, International Journal of Hydrogen Energy, 31 (2006) 1348-1356. doi: 10.1016/j.ijhydene.2005.11.014. [18] C.-C. Chiu A. Genest A. Borgna N. Rösch Hydrodeoxygenation of Guaiacol over Ru(0001): a DFT study ACS Catal. 4 2014 4178 4188 10.1021/cs500911j C.-c. Chiu, A. Genest, A. Borgna, N. Rösch, Hydrodeoxygenation of Guaiacol over Ru(0001): A DFT Study, ACS Catalysis, 4 (2014) 4178-4188. doi: 10.1021/cs500911j. [19] M.K. Sabbe G. Canduela-Rodriguez J.-F. Joly M.-F. Reyniers G.B. Marin Ab initio coverage-dependent microkinetic modeling of benzene hydrogenation on Pd(111) Cat. Sci. Technol. 7 2017 5267 5283 10.1039/C7CY00962C M.K. Sabbe, G. Canduela-Rodriguez, J.-F. Joly, M.-F. Reyniers, G.B. Marin, Ab initio coverage-dependent microkinetic modeling of benzene hydrogenation on Pd(111), Catalysis Science & Technology, 7 (2017) 5267-5283. doi: 10.1039/C7CY00962C. [20] M. Saeys M.-F. Reyniers G.B. Marin M. Neurock Density functional study of benzene adsorption on Pt(111) J. Phys. Chem. B 106 2002 7489 7498 10.1021/jp0201231 M. Saeys, M.-F. Reyniers, G.B. Marin, M. Neurock, Density Functional Study of Benzene Adsorption on Pt(111), The Journal of Physical Chemistry B, 106 (2002) 7489-7498. doi: 10.1021/jp0201231. [21] C. Morin D. Simon P. Sautet Intermediates in the hydrogenation of benzene to cyclohexene on Pt(111) and Pd(111): A comparison from DFT calculations Surf. Sci. 600 2006 1339 1350 10.1016/j.susc.2006.01.033 C. Morin, D. Simon, P. Sautet, Intermediates in the hydrogenation of benzene to cyclohexene on Pt(111) and Pd(111): A comparison from DFT calculations, Surface Science, 600 (2006) 1339-1350. doi: 10.1016/j.susc.2006.01.033. [22] F.C. Henn A.L. Diaz M.E. Bussell M.B. Hugenschmidt M.E. Domagala C.T. Campbell Decomposition of cyclohexene on platinum (111): a BPTDS and HREELS study J. Phys. Chem. 96 1992 5965 5974 10.1021/j100193a059 F.C. Henn, A.L. Diaz, M.E. Bussell, M.B. Hugenschmidt, M.E. Domagala, C.T. Campbell, Decomposition of cyclohexene on platinum (111): a BPTDS and HREELS study, The Journal of Physical Chemistry, 96 (1992) 5965-5974. doi: 10.1021/j100193a059. [23] M. Saeys M.F. Reyniers M. Neurock G.B. Marin Ab initio reaction path analysis of benzene hydrogenation to cyclohexane on Pt(111) J. Phys. Chem. B 109 2005 2064 2073 10.1021/jp049421j M. Saeys, M.F. Reyniers, M. Neurock, G.B. Marin, Ab Initio Reaction Path Analysis of Benzene Hydrogenation to Cyclohexane on Pt(111), The Journal of Physical Chemistry B, 109 (2005) 2064-2073. doi: 10.1021/jp049421j. [24] M.L. Honkela J. Björk M. Persson Computational study of the adsorption and dissociation of phenol on Pt and Rh surfaces PCCP 14 2012 5849 5854 10.1039/C2CP24064E M.L. Honkela, J. Björk, M. Persson, Computational study of the adsorption and dissociation of phenol on Pt and Rh surfaces, Physical Chemistry Chemical Physics, 14 (2012) 5849-5854. doi: 10.1039/C2CP24064E. [25] L.M. Ghiringhelli R. Caputo L.D. Site Phenol near Ni(111), Ni(110), and Ni(221) surfaces in a vertical ring geometry: a density functional study of the oxygen-surface bonding and O-H cleavage Phys. Rev. B 75 2007 113403 10.1103/PhysRevB.75.113403 L.M. Ghiringhelli, R. Caputo, L.D. Site, Phenol near Ni(111), Ni(110), and Ni(221) surfaces in a vertical ring geometry: A density functional study of the oxygen-surface bonding and O-H cleavage, Physical Review B, 75 (2007) 113403. doi: 10.1103/PhysRevB.75.113403. [26] H. Lesnard M.-L. Bocquet N. Lorente Dehydrogenation of aromatic molecules under a scanning tunneling microscope: pathways and inelastic spectroscopy simulations J. Am. Chem. Soc. 129 2007 4298 4305 10.1021/ja067442g H. Lesnard, M.-L. Bocquet, N. Lorente, Dehydrogenation of Aromatic Molecules under a Scanning Tunneling Microscope: Pathways and Inelastic Spectroscopy Simulations, Journal of the American Chemical Society, 129 (2007) 4298-4305. doi: 10.1021/ja067442g. [27] E.C. Tyo C. Yin M. Di Vece Q. Qian G. Kwon S. Lee B. Lee J.E. DeBartolo S. Seifert R.E. Winans R. Si B. Ricks S. Goergen M. Rutter B. Zugic M. Flytzani-Stephanopoulos Z.W. Wang R.E. Palmer M. Neurock S. Vajda Oxidative dehydrogenation of cyclohexane on cobalt oxide (Co3O4) nanoparticles: the effect of particle size on activity and selectivity ACS Catal. 2 2012 2409 2423 10.1021/cs300479a E.C. Tyo, C. Yin, M. Di Vece, Q. Qian, G. Kwon, S. Lee, B. Lee, J.E. DeBartolo, S. Seifert, R.E. Winans, R. Si, B. Ricks, S. Goergen, M. Rutter, B. Zugic, M. Flytzani-Stephanopoulos, Z.W. Wang, R.E. Palmer, M. Neurock, S. Vajda, Oxidative Dehydrogenation of Cyclohexane on Cobalt Oxide (Co3O4) Nanoparticles: The Effect of Particle Size on Activity and Selectivity, ACS Catalysis, 2 (2012) 2409-2423. doi: 10.1021/cs300479a. [28] H. Montalvo-Castro M. DeLuca L. Kilburn D. Hibbitts Mechanisms and kinetics of the dehydrogenation of C6–C8 cycloalkanes, cycloalkenes, and cyclodienes to aromatics in H-MFI Zeolite Framework ACS Catal. 13 2023 99 112 10.1021/acscatal.2c03360 H. Montalvo-Castro, M. DeLuca, L. Kilburn, D. Hibbitts, Mechanisms and Kinetics of the Dehydrogenation of C6–C8 Cycloalkanes, Cycloalkenes, and Cyclodienes to Aromatics in H-MFI Zeolite Framework, ACS Catalysis, 13 (2023) 99-112. doi: 10.1021/acscatal.2c03360. [29] Z. Li F. Meng X. Yang Y. Qi Y. Qin B. Zhang The role of mo single atoms and clusters in enhancing Pt catalyst for benzene hydrogenation: distinguishing between benzene spillover and electronic effect ACS Catal. 14 2024 5016 5026 10.1021/acscatal.3c06026 Z. Li, F. Meng, X. Yang, Y. Qi, Y. Qin, B. Zhang, The Role of Mo Single Atoms and Clusters in Enhancing Pt Catalyst for Benzene Hydrogenation: Distinguishing Between Benzene Spillover and Electronic Effect, ACS Catalysis, 14 (2024) 5016-5026. doi: 10.1021/acscatal.3c06026. [30] H. He R.J. Meyer R.M. Rioux M.J. Janik Catalyst design for selective hydrogenation of benzene to cyclohexene through density functional theory and microkinetic modeling ACS Catal. 11 2021 11831 11842 10.1021/acscatal.1c02630 H. He, R.J. Meyer, R.M. Rioux, M.J. Janik, Catalyst Design for Selective Hydrogenation of Benzene to Cyclohexene through Density Functional Theory and Microkinetic Modeling, ACS Catalysis, 11 (2021) 11831-11842. doi: 10.1021/acscatal.1c02630. [31] P. Chou M.A. Vannice Benzene hydrogenation over supported and unsupported palladium: I. Kinetic behavior J. Catal. 107 1987 129 139 10.1016/0021-9517(87)90278-8 P. Chou, M.A. Vannice, Benzene hydrogenation over supported and unsupported palladium: I. Kinetic behavior, Journal of Catalysis, 107 (1987) 129-139. doi: 10.1016/0021-9517(87)90278-8. [32] P.-H. Jen Y.-H. Hsu S.D. Lin The activity and stability of Pd/C catalysts in benzene hydrogenation Catal. Today 123 2007 133 141 10.1016/j.cattod.2007.01.033 P.-H. Jen, Y.-H. Hsu, S.D. Lin, The activity and stability of Pd/C catalysts in benzene hydrogenation, Catalysis Today, 123 (2007) 133-141. doi: 10.1016/j.cattod.2007.01.033. [33] Y. Cui N. Wang J. Han Z. Wang M. Zhang Z. Peng Z. Liu F. Illas Y. Yang Theoretical study on the effect of Pd/Zn ratio on benzene hydrogenation catalytic activity and selectivity Catalysts 15 2025 57 10.3390/catal15010057 Y. Cui, N. Wang, J. Han, Z. Wang, M. Zhang, Z. Peng, Z. Liu, F. Illas, Y. Yang, Theoretical Study on the Effect of Pd/Zn Ratio on Benzene Hydrogenation Catalytic Activity and Selectivity, Catalysts, 15 (2025) 57. doi: 10.3390/catal15010057. [34] M.B. Burkholder F.B.A. Rahman E.H. Chandler J.R. Regalbuto B.F. Gupton J.M.M. Tengco Metal supported graphene catalysis: a review on the benefits of nanoparticular supported specialty sp2 carbon catalysts on enhancing the activities of multiple chemical transformations Carbon Trends 9 2022 100196 10.1016/j.cartre.2022.100196 M.B. Burkholder, F.B.A. Rahman, E.H. Chandler, J.R. Regalbuto, B.F. Gupton, J.M.M. Tengco, Metal supported graphene catalysis: A review on the benefits of nanoparticular supported specialty sp2 carbon catalysts on enhancing the activities of multiple chemical transformations, Carbon Trends, 9 (2022) 100196. doi: 10.1016/j.cartre.2022.100196. [35] H. Xu L. Ma Z. Jin Nitrogen-doped graphene: Synthesis, characterizations and energy applications J. Energy Chem. 27 2018 146 160 10.1016/j.jechem.2017.12.006 H. Xu, L. Ma, Z. Jin, Nitrogen-doped graphene: Synthesis, characterizations and energy applications, Journal of Energy Chemistry, 27 (2018) 146-160. doi: 10.1016/j.jechem.2017.12.006. [36] M.Y. Akram T. Ashraf M.S. Jagirani A. Nazir M. Saqib M. Imran Recent advances in graphene-based single-atom photocatalysts for CO2 reduction and H2 production Catalysts 14 2024 343 10.3390/catal14060343 M.Y. Akram, T. Ashraf, M.S. Jagirani, A. Nazir, M. Saqib, M. Imran, Recent Advances in Graphene-Based Single-Atom Photocatalysts for CO2 Reduction and H2 Production, Catalysts, 14 (2024) 343. doi: 10.3390/catal14060343. [37] H. Yan H. Lv H. Yi W. Liu Y. Xia X. Huang W. Huang S. Wei X. Wu J. Lu Understanding the underlying mechanism of improved selectivity in pd1 single-atom catalyzed hydrogenation reaction J. Catal. 366 2018 70 79 10.1016/j.jcat.2018.07.033 H. Yan, H. Lv, H. Yi, W. Liu, Y. Xia, X. Huang, W. Huang, S. Wei, X. Wu, J. Lu, Understanding the underlying mechanism of improved selectivity in pd1 single-atom catalyzed hydrogenation reaction, Journal of Catalysis, 366 (2018) 70-79. doi: 10.1016/j.jcat.2018.07.033. [38] L. Han H. Cheng W. Liu H. Li P. Ou R. Lin H.-T. Wang C.-W. Pao A.R. Head C.-H. Wang X. Tong C.-J. Sun W.-F. Pong J. Luo J.-C. Zheng H.L. Xin A single-atom library for guided monometallic and concentration-complex multimetallic designs Nat. Mater. 21 2022 681 688 10.1038/s41563-022-01252-y L. Han, H. Cheng, W. Liu, H. Li, P. Ou, R. Lin, H.-T. Wang, C.-W. Pao, A.R. Head, C.-H. Wang, X. Tong, C.-J. Sun, W.-F. Pong, J. Luo, J.-C. Zheng, H.L. Xin, A single-atom library for guided monometallic and concentration-complex multimetallic designs, Nature Materials, 21 (2022) 681-688. doi: 10.1038/s41563-022-01252-y. [39] Y. Yun H. Shen Y. Shi Y. Zhu S. Wang K. Li B. Zhang T. Yao H. Sheng H. Yu M. Zhu Dynamically precise constructing dual-atom Pd2 Catalyst:a monodisperse catalyst with high stability for semi-hydrogenation of alkyne Adv. Mater. 36 2024 2409436 10.1002/adma.202409436 Y. Yun, H. Shen, Y. Shi, Y. Zhu, S. Wang, K. Li, B. Zhang, T. Yao, H. Sheng, H. Yu, M. Zhu, Dynamically Precise Constructing Dual-Atom Pd2 Catalyst:A Monodisperse Catalyst With High Stability for Semi-Hydrogenation of Alkyne, Advanced Materials, 36 (2024) 2409436. doi: 10.1002/adma.202409436. [40] W. Kohn L.J. Sham Self-consistent equations including exchange and correlation effects Phys. Rev. B 140 1965 A1133 A1138 10.1103/PhysRev.140.A1133 W. Kohn, L.J. Sham, Self-Consistent Equations Including Exchange and Correlation Effects, Phys. Rev. B, 140 (1965) A1133-A1138. doi: 10.1103/PhysRev.140.A1133. [41] G. Kresse J. Furthmüller Efficient iterative schemes for ab initio total-energy calculations using a plane-wave basis set Phys. Rev. B 54 1996 11169 11186 10.1103/PhysRevB.54.11169 G. Kresse, J. Furthmüller, Efficient iterative schemes for ab initio total-energy calculations using a plane-wave basis set, Physical Review B, 54 (1996) 11169-11186. doi: 10.1103/PhysRevB.54.11169. [42] G. Kresse J. Furthmüller Efficiency of ab-initio total energy calculations for metals and semiconductors using a plane-wave basis set Comput. Mater. Sci. 6 1996 15 50 10.1016/0927-0256(96)00008-0 G. Kresse, J. Furthmüller, Efficiency of ab-initio total energy calculations for metals and semiconductors using a plane-wave basis set, Computational Materials Science, 6 (1996) 15-50. doi: 10.1016/0927-0256(96)00008-0. [43] J.P. Perdew K. Burke M. Ernzerhof Generalized gradient approximation made simple Phys. Rev. Lett. 77 1996 3865 3868 10.1103/PhysRevLett.77.3865 J.P. Perdew, K. Burke, M. Ernzerhof, Generalized Gradient Approximation Made Simple, Physical Review Letters, 77 (1996) 3865-3868. doi: 10.1103/PhysRevLett.77.3865. [44] P.E. Blöchl Projector augmented-wave method Phys. Rev. B 50 1994 17953 17979 10.1103/PhysRevB.50.17953 P.E. Blöchl, Projector augmented-wave method, Physical Review B, 50 (1994) 17953-17979. doi: 10.1103/PhysRevB.50.17953. [45] G. Kresse D. Joubert From ultrasoft pseudopotentials to the projector augmented-wave method Phys. Rev. B 59 1999 1758 1775 10.1103/PhysRevB.59.1758 G. Kresse, D. Joubert, From ultrasoft pseudopotentials to the projector augmented-wave method, Physical Review B, 59 (1999) 1758-1775. doi: 10.1103/PhysRevB.59.1758. [46] S. Grimme J. Antony S. Ehrlich H. Krieg A consistent and accurate ab initio parametrization of density functional dispersion correction (DFT-D) for the 94 elements H-Pu J. Chem. Phys. 132 2010 10.1063/1.3382344 S. Grimme, J. Antony, S. Ehrlich, H. Krieg, A consistent and accurate ab initio parametrization of density functional dispersion correction (DFT-D) for the 94 elements H-Pu, The Journal of Chemical Physics, 132 (2010). doi: 10.1063/1.3382344. [47] S. Smidstrup A. Pedersen K. Stokbro H. Jónsson Improved initial guess for minimum energy path calculations J. Chem. Phys. 140 2014 10.1063/1.4878664 S. Smidstrup, A. Pedersen, K. Stokbro, H. Jónsson, Improved initial guess for minimum energy path calculations, The Journal of Chemical Physics, 140 (2014). doi: 10.1063/1.4878664. [48] G. Henkelman H. Jónsson A dimer method for finding saddle points on high dimensional potential surfaces using only first derivatives J. Chem. Phys. 111 1999 7010 7022 10.1063/1.480097 G. Henkelman, H. Jónsson, A dimer method for finding saddle points on high dimensional potential surfaces using only first derivatives, The Journal of Chemical Physics, 111 (1999) 7010-7022. doi: 10.1063/1.480097. [49] G. Henkelman H. Jónsson Long time scale kinetic Monte Carlo simulations without lattice approximation and predefined event table J. Chem. Phys. 115 2001 9657 9666 10.1063/1.1415500 G. Henkelman, H. Jónsson, Long time scale kinetic Monte Carlo simulations without lattice approximation and predefined event table, The Journal of Chemical Physics, 115 (2001) 9657-9666. doi: 10.1063/1.1415500. [50] R.A. Olsen G.J. Kroes G. Henkelman A. Arnaldsson H. Jónsson Comparison of methods for finding saddle points without knowledge of the final states J. Chem. Phys. 121 2004 9776 9792 10.1063/1.1809574 R.A. Olsen, G.J. Kroes, G. Henkelman, A. Arnaldsson, H. Jónsson, Comparison of methods for finding saddle points without knowledge of the final states, The Journal of Chemical Physics, 121 (2004) 9776-9792. doi: 10.1063/1.1809574. [51] H.J. Monkhorst J.D. Pack Special points for Brillouin-zone integrations Phys. Rev. B 13 1976 5188 5192 10.1103/PhysRevB.13.5188 H.J. Monkhorst, J.D. Pack, Special points for Brillouin-zone integrations, Physical Review B, 13 (1976) 5188-5192. doi: 10.1103/PhysRevB.13.5188. [52] Y. Xia C. Fan Z.-L. Zhou Y.-A. Zhu X.-G. Zhou Effect of Zn on the selectivity of Ru in benzene partial hydrogenation from density functional theory investigations J. Mol. Catal. A Chem. 370 2013 44 49 10.1016/j.molcata.2012.12.014 Y. Xia, C. Fan, Z.-L. Zhou, Y.-A. Zhu, X.-G. Zhou, Effect of Zn on the selectivity of Ru in benzene partial hydrogenation from density functional theory investigations, Journal of Molecular Catalysis A: Chemical, 370 (2013) 44-49. doi: 10.1016/j.molcata.2012.12.014. [53] M.K. Sabbe G. Canduela-Rodriguez M.-F. Reyniers G.B. Marin DFT-based modeling of benzene hydrogenation on Pt at industrially relevant coverage J. Catal. 330 2015 406 422 10.1016/j.jcat.2015.08.003 M.K. Sabbe, G. Canduela-Rodriguez, M.-F. Reyniers, G.B. Marin, DFT-based modeling of benzene hydrogenation on Pt at industrially relevant coverage, Journal of Catalysis, 330 (2015) 406-422. doi: 10.1016/j.jcat.2015.08.003. [54] Y. Choi X. Wu J.-W. Lee K. Na Catalytic dehydrogenation for hydrogen production controlled by metal-supported heterogeneous catalysts Cat. Sci. Technol. 14 2024 5784 5810 10.1039/D4CY00875H Y. Choi, X. Wu, J.-W. Lee, K. Na, Catalytic dehydrogenation for hydrogen production controlled by metal-supported heterogeneous catalysts, Catalysis Science & Technology, 14 (2024) 5784-5810. doi: 10.1039/D4CY00875H. [55] D.N. Gemechu K.O. Obodo A.M. Mohammed Y.S. Mekonnen Evaluating the dehydrogenation performance of cyclohexane on Pt-Skin AgPt3(111) and Ag3Pt(111) surface slabs: a density functional theory approach J. Phys. Chem. C 129 2025 1598 1610 10.1021/acs.jpcc.4c05825 D.N. Gemechu, K.O. Obodo, A.M. Mohammed, Y.S. Mekonnen, Evaluating the Dehydrogenation Performance of Cyclohexane on Pt-Skin AgPt3(111) and Ag3Pt(111) Surface Slabs: A Density Functional Theory Approach, The Journal of Physical Chemistry C, 129 (2025) 1598-1610. doi: 10.1021/acs.jpcc.4c05825. [56] G. Zhou W. Liu Y. Zhao X. Wang S. Chen A. Jia H. Xie Reversible hydrogenation and dehydrogenation of benzene for hydrogen storage on highly dispersed Pd/γ-Al2O3 catalyst J. Ind. Eng. Chem. 134 2024 561 573 10.1016/j.jiec.2024.01.018 G. Zhou, W. Liu, Y. Zhao, X. Wang, S. Chen, A. Jia, H. Xie, Reversible hydrogenation and dehydrogenation of benzene for hydrogen storage on highly dispersed Pd/γ-Al2O3 catalyst, Journal of Industrial and Engineering Chemistry, 134 (2024) 561-573. doi: 10.1016/j.jiec.2024.01.018. [57] W. Gao W.T. Zheng Q. Jiang Dehydrogenation of benzene on Pt(111) surface J. Chem. Phys. 129 2008 10.1063/1.3001610 W. Gao, W.T. Zheng, Q. Jiang, Dehydrogenation of benzene on Pt(111) surface, The Journal of Chemical Physics, 129 (2008). doi: 10.1063/1.3001610.",
+      "scopus-id": "105005519823",
+      "coredata": {
+        "eid": "1-s2.0-S0021951725002799",
+        "dc:description": "Hydrogenation and dehydrogenation of aromatics play an important role in the hydrogen storage concept referred to as “liquid organic hydrogen carriers” (LOHCs). This work uses periodic DFT calculations in combination with microkinetic modeling to investigate the catalytic hydrogenation and dehydrogenation of the benzene/cyclohexane system, which can be understood as the simplest LOHC system. The considered catalyst is a Pd2 structure supported on N-doped, defective graphene. Although the overall process is, with a reaction energy of −2.89 eV, highly exothermic, and the highest barrier for single reactions along the hydrogenation pathway is only 1.07 eV, the hydrogenation process is rather ineffective and only leads to the formation of a small amount of 1,2-dihydrobenzene (12B). This is related to the limited number of adsorption sites on the catalyst, which makes the co-adsorption of the reactants challenging, as the adsorption of H2 facilitates the desorption of benzene and vice versa. We further studied the dehydrogenation of cyclohexane, 1,2,3,4-tetrahydrobenzene (1234B) and 12B. In the simulations, the considered dehydrogenation processes only lead to the removal of two hydrogen atoms instead of full dehydrogenation. This, again, is related to the limited adsorption sites: the activation of the C–H bonds and subsequent transfer of the H-atoms to the metal side weakens the interaction between the catalyst and the organic intermediate, resulting in the desorption of the latter before it can continue to dehydrogenate. The results of this work highlight the importance of considering the availability of adsorption sites, particularly when working with single- or few-atom catalysts. Though the inability to catalyze the full dehydrogenation is a problem for the concept of LOHCs, the considered Pd2 catalyst may be interesting for selective dehydrogenation, another important process in the chemical industry.",
+        "openArchiveArticle": "false",
+        "prism:coverDate": "2025-09-30",
+        "openaccessUserLicense": null,
+        "prism:aggregationType": "Journal",
+        "prism:url": "https://api.elsevier.com/content/article/pii/S0021951725002799",
+        "dc:creator": [
+          {
+            "@_fa": "true",
+            "$": "Tharat, Bunrat"
+          },
+          {
+            "@_fa": "true",
+            "$": "Tsai, Cheng-Te"
+          },
+          {
+            "@_fa": "true",
+            "$": "Suthirakun, Suwit"
+          },
+          {
+            "@_fa": "true",
+            "$": "Chiu, Cheng-chau"
+          }
+        ],
+        "link": [
+          {
+            "@_fa": "true",
+            "@rel": "self",
+            "@href": "https://api.elsevier.com/content/article/pii/S0021951725002799"
+          },
+          {
+            "@_fa": "true",
+            "@rel": "scidir",
+            "@href": "https://www.sciencedirect.com/science/article/pii/S0021951725002799"
+          }
+        ],
+        "dc:format": "application/json",
+        "openaccessType": null,
+        "pii": "S0021-9517(25)00279-9",
+        "prism:volume": "449",
+        "articleNumber": "116214",
+        "prism:publisher": "Elsevier Inc. All rights are reserved, including those for text and data mining, AI training, and similar technologies.",
+        "dc:title": "Exploring the performance of dual-atom Pd2 catalysts for benzene hydrogenation and cyclohexane dehydrogenation: A DFT and microkinetic modeling study",
+        "prism:copyright": "© 2025 Elsevier Inc. All rights are reserved, including those for text and data mining, AI training, and similar technologies.",
+        "openaccess": "0",
+        "prism:issn": "00219517",
+        "dcterms:subject": [
+          {
+            "@_fa": "true",
+            "$": "Liquid organic hydrogen carriers"
+          },
+          {
+            "@_fa": "true",
+            "$": "DFT"
+          },
+          {
+            "@_fa": "true",
+            "$": "Microkinetic modeling"
+          },
+          {
+            "@_fa": "true",
+            "$": "Hydrogenation"
+          },
+          {
+            "@_fa": "true",
+            "$": "Dehydrogenation"
+          },
+          {
+            "@_fa": "true",
+            "$": "Few-atom catalyst"
+          },
+          {
+            "@_fa": "true",
+            "$": "Palladium"
+          },
+          {
+            "@_fa": "true",
+            "$": "Benzene"
+          }
+        ],
+        "openaccessArticle": "false",
+        "prism:publicationName": "Journal of Catalysis",
+        "openaccessSponsorType": null,
+        "prism:pageRange": "116214",
+        "pubType": "fla",
+        "prism:coverDisplayDate": "September 2025",
+        "prism:doi": "10.1016/j.jcat.2025.116214",
+        "prism:startingPage": "116214",
+        "dc:identifier": "doi:10.1016/j.jcat.2025.116214",
+        "openaccessSponsorName": null
+      },
+      "objects": {
+        "object": [
+          {
+            "@category": "standard",
+            "@height": "200",
+            "@width": "372",
+            "@_fa": "true",
+            "$": "https://api.elsevier.com/content/object/eid/1-s2.0-S0021951725002799-ga1.jpg?httpAccept=%2A%2F%2A",
+            "@multimediatype": "JPEG image file",
+            "@type": "IMAGE-DOWNSAMPLED",
+            "@size": "28826",
+            "@ref": "ga1",
+            "@mimetype": "image/jpeg"
+          },
+          {
+            "@category": "standard",
+            "@height": "302",
+            "@width": "625",
+            "@_fa": "true",
+            "$": "https://api.elsevier.com/content/object/eid/1-s2.0-S0021951725002799-gr3.jpg?httpAccept=%2A%2F%2A",
+            "@multimediatype": "JPEG image file",
+            "@type": "IMAGE-DOWNSAMPLED",
+            "@size": "43799",
+            "@ref": "gr3",
+            "@mimetype": "image/jpeg"
+          },
+          {
+            "@category": "standard",
+            "@height": "531",
+            "@width": "383",
+            "@_fa": "true",
+            "$": "https://api.elsevier.com/content/object/eid/1-s2.0-S0021951725002799-gr4.jpg?httpAccept=%2A%2F%2A",
+            "@multimediatype": "JPEG image file",
+            "@type": "IMAGE-DOWNSAMPLED",
+            "@size": "40479",
+            "@ref": "gr4",
+            "@mimetype": "image/jpeg"
+          },
+          {
+            "@category": "standard",
+            "@height": "182",
+            "@width": "382",
+            "@_fa": "true",
+            "$": "https://api.elsevier.com/content/object/eid/1-s2.0-S0021951725002799-gr1.jpg?httpAccept=%2A%2F%2A",
+            "@multimediatype": "JPEG image file",
+            "@type": "IMAGE-DOWNSAMPLED",
+            "@size": "26158",
+            "@ref": "gr1",
+            "@mimetype": "image/jpeg"
+          },
+          {
+            "@category": "standard",
+            "@height": "411",
+            "@width": "713",
+            "@_fa": "true",
+            "$": "https://api.elsevier.com/content/object/eid/1-s2.0-S0021951725002799-gr2.jpg?httpAccept=%2A%2F%2A",
+            "@multimediatype": "JPEG image file",
+            "@type": "IMAGE-DOWNSAMPLED",
+            "@size": "47306",
+            "@ref": "gr2",
+            "@mimetype": "image/jpeg"
+          },
+          {
+            "@category": "standard",
+            "@height": "371",
+            "@width": "759",
+            "@_fa": "true",
+            "$": "https://api.elsevier.com/content/object/eid/1-s2.0-S0021951725002799-gr7.jpg?httpAccept=%2A%2F%2A",
+            "@multimediatype": "JPEG image file",
+            "@type": "IMAGE-DOWNSAMPLED",
+            "@size": "72836",
+            "@ref": "gr7",
+            "@mimetype": "image/jpeg"
+          },
+          {
+            "@category": "standard",
+            "@height": "342",
+            "@width": "711",
+            "@_fa": "true",
+            "$": "https://api.elsevier.com/content/object/eid/1-s2.0-S0021951725002799-gr8.jpg?httpAccept=%2A%2F%2A",
+            "@multimediatype": "JPEG image file",
+            "@type": "IMAGE-DOWNSAMPLED",
+            "@size": "61891",
+            "@ref": "gr8",
+            "@mimetype": "image/jpeg"
+          },
+          {
+            "@category": "standard",
+            "@height": "365",
+            "@width": "759",
+            "@_fa": "true",
+            "$": "https://api.elsevier.com/content/object/eid/1-s2.0-S0021951725002799-gr5.jpg?httpAccept=%2A%2F%2A",
+            "@multimediatype": "JPEG image file",
+            "@type": "IMAGE-DOWNSAMPLED",
+            "@size": "73118",
+            "@ref": "gr5",
+            "@mimetype": "image/jpeg"
+          },
+          {
+            "@category": "standard",
+            "@height": "367",
+            "@width": "759",
+            "@_fa": "true",
+            "$": "https://api.elsevier.com/content/object/eid/1-s2.0-S0021951725002799-gr6.jpg?httpAccept=%2A%2F%2A",
+            "@multimediatype": "JPEG image file",
+            "@type": "IMAGE-DOWNSAMPLED",
+            "@size": "71987",
+            "@ref": "gr6",
+            "@mimetype": "image/jpeg"
+          },
+          {
+            "@category": "standard",
+            "@height": "815",
+            "@width": "622",
+            "@_fa": "true",
+            "$": "https://api.elsevier.com/content/object/eid/1-s2.0-S0021951725002799-sc1.jpg?httpAccept=%2A%2F%2A",
+            "@multimediatype": "JPEG image file",
+            "@type": "IMAGE-DOWNSAMPLED",
+            "@size": "69179",
+            "@ref": "sc1",
+            "@mimetype": "image/jpeg"
+          },
+          {
+            "@category": "thumbnail",
+            "@height": "118",
+            "@width": "219",
+            "@_fa": "true",
+            "$": "https://api.elsevier.com/content/object/eid/1-s2.0-S0021951725002799-ga1.sml?httpAccept=%2A%2F%2A",
+            "@multimediatype": "GIF image file",
+            "@type": "IMAGE-THUMBNAIL",
+            "@size": "17403",
+            "@ref": "ga1",
+            "@mimetype": "image/gif"
+          },
+          {
+            "@category": "thumbnail",
+            "@height": "106",
+            "@width": "219",
+            "@_fa": "true",
+            "$": "https://api.elsevier.com/content/object/eid/1-s2.0-S0021951725002799-gr3.sml?httpAccept=%2A%2F%2A",
+            "@multimediatype": "GIF image file",
+            "@type": "IMAGE-THUMBNAIL",
+            "@size": "7501",
+            "@ref": "gr3",
+            "@mimetype": "image/gif"
+          },
+          {
+            "@category": "thumbnail",
+            "@height": "164",
+            "@width": "118",
+            "@_fa": "true",
+            "$": "https://api.elsevier.com/content/object/eid/1-s2.0-S0021951725002799-gr4.sml?httpAccept=%2A%2F%2A",
+            "@multimediatype": "GIF image file",
+            "@type": "IMAGE-THUMBNAIL",
+            "@size": "7485",
+            "@ref": "gr4",
+            "@mimetype": "image/gif"
+          },
+          {
+            "@category": "thumbnail",
+            "@height": "104",
+            "@width": "219",
+            "@_fa": "true",
+            "$": "https://api.elsevier.com/content/object/eid/1-s2.0-S0021951725002799-gr1.sml?httpAccept=%2A%2F%2A",
+            "@multimediatype": "GIF image file",
+            "@type": "IMAGE-THUMBNAIL",
+            "@size": "12336",
+            "@ref": "gr1",
+            "@mimetype": "image/gif"
+          },
+          {
+            "@category": "thumbnail",
+            "@height": "126",
+            "@width": "219",
+            "@_fa": "true",
+            "$": "https://api.elsevier.com/content/object/eid/1-s2.0-S0021951725002799-gr2.sml?httpAccept=%2A%2F%2A",
+            "@multimediatype": "GIF image file",
+            "@type": "IMAGE-THUMBNAIL",
+            "@size": "5941",
+            "@ref": "gr2",
+            "@mimetype": "image/gif"
+          },
+          {
+            "@category": "thumbnail",
+            "@height": "107",
+            "@width": "219",
+            "@_fa": "true",
+            "$": "https://api.elsevier.com/content/object/eid/1-s2.0-S0021951725002799-gr7.sml?httpAccept=%2A%2F%2A",
+            "@multimediatype": "GIF image file",
+            "@type": "IMAGE-THUMBNAIL",
+            "@size": "8872",
+            "@ref": "gr7",
+            "@mimetype": "image/gif"
+          },
+          {
+            "@category": "thumbnail",
+            "@height": "105",
+            "@width": "219",
+            "@_fa": "true",
+            "$": "https://api.elsevier.com/content/object/eid/1-s2.0-S0021951725002799-gr8.sml?httpAccept=%2A%2F%2A",
+            "@multimediatype": "GIF image file",
+            "@type": "IMAGE-THUMBNAIL",
+            "@size": "9017",
+            "@ref": "gr8",
+            "@mimetype": "image/gif"
+          },
+          {
+            "@category": "thumbnail",
+            "@height": "105",
+            "@width": "219",
+            "@_fa": "true",
+            "$": "https://api.elsevier.com/content/object/eid/1-s2.0-S0021951725002799-gr5.sml?httpAccept=%2A%2F%2A",
+            "@multimediatype": "GIF image file",
+            "@type": "IMAGE-THUMBNAIL",
+            "@size": "9254",
+            "@ref": "gr5",
+            "@mimetype": "image/gif"
+          },
+          {
+            "@category": "thumbnail",
+            "@height": "106",
+            "@width": "219",
+            "@_fa": "true",
+            "$": "https://api.elsevier.com/content/object/eid/1-s2.0-S0021951725002799-gr6.sml?httpAccept=%2A%2F%2A",
+            "@multimediatype": "GIF image file",
+            "@type": "IMAGE-THUMBNAIL",
+            "@size": "9188",
+            "@ref": "gr6",
+            "@mimetype": "image/gif"
+          },
+          {
+            "@category": "thumbnail",
+            "@height": "164",
+            "@width": "125",
+            "@_fa": "true",
+            "$": "https://api.elsevier.com/content/object/eid/1-s2.0-S0021951725002799-sc1.sml?httpAccept=%2A%2F%2A",
+            "@multimediatype": "GIF image file",
+            "@type": "IMAGE-THUMBNAIL",
+            "@size": "5157",
+            "@ref": "sc1",
+            "@mimetype": "image/gif"
+          },
+          {
+            "@category": "high",
+            "@height": "531",
+            "@width": "988",
+            "@_fa": "true",
+            "$": "https://api.elsevier.com/content/object/eid/1-s2.0-S0021951725002799-ga1_lrg.jpg?httpAccept=%2A%2F%2A",
+            "@multimediatype": "JPEG image file",
+            "@type": "IMAGE-HIGH-RES",
+            "@size": "77993",
+            "@ref": "ga1",
+            "@mimetype": "image/jpeg"
+          },
+          {
+            "@category": "high",
+            "@height": "1146",
+            "@width": "2368",
+            "@_fa": "true",
+            "$": "https://api.elsevier.com/content/object/eid/1-s2.0-S0021951725002799-gr3_lrg.jpg?httpAccept=%2A%2F%2A",
+            "@multimediatype": "JPEG image file",
+            "@type": "IMAGE-HIGH-RES",
+            "@size": "241350",
+            "@ref": "gr3",
+            "@mimetype": "image/jpeg"
+          },
+          {
+            "@category": "high",
+            "@height": "2356",
+            "@width": "1699",
+            "@_fa": "true",
+            "$": "https://api.elsevier.com/content/object/eid/1-s2.0-S0021951725002799-gr4_lrg.jpg?httpAccept=%2A%2F%2A",
+            "@multimediatype": "JPEG image file",
+            "@type": "IMAGE-HIGH-RES",
+            "@size": "215286",
+            "@ref": "gr4",
+            "@mimetype": "image/jpeg"
+          },
+          {
+            "@category": "high",
+            "@height": "805",
+            "@width": "1693",
+            "@_fa": "true",
+            "$": "https://api.elsevier.com/content/object/eid/1-s2.0-S0021951725002799-gr1_lrg.jpg?httpAccept=%2A%2F%2A",
+            "@multimediatype": "JPEG image file",
+            "@type": "IMAGE-HIGH-RES",
+            "@size": "150788",
+            "@ref": "gr1",
+            "@mimetype": "image/jpeg"
+          },
+          {
+            "@category": "high",
+            "@height": "1818",
+            "@width": "3157",
+            "@_fa": "true",
+            "$": "https://api.elsevier.com/content/object/eid/1-s2.0-S0021951725002799-gr2_lrg.jpg?httpAccept=%2A%2F%2A",
+            "@multimediatype": "JPEG image file",
+            "@type": "IMAGE-HIGH-RES",
+            "@size": "259499",
+            "@ref": "gr2",
+            "@mimetype": "image/jpeg"
+          },
+          {
+            "@category": "high",
+            "@height": "1642",
+            "@width": "3360",
+            "@_fa": "true",
+            "$": "https://api.elsevier.com/content/object/eid/1-s2.0-S0021951725002799-gr7_lrg.jpg?httpAccept=%2A%2F%2A",
+            "@multimediatype": "JPEG image file",
+            "@type": "IMAGE-HIGH-RES",
+            "@size": "420806",
+            "@ref": "gr7",
+            "@mimetype": "image/jpeg"
+          },
+          {
+            "@category": "high",
+            "@height": "1517",
+            "@width": "3150",
+            "@_fa": "true",
+            "$": "https://api.elsevier.com/content/object/eid/1-s2.0-S0021951725002799-gr8_lrg.jpg?httpAccept=%2A%2F%2A",
+            "@multimediatype": "JPEG image file",
+            "@type": "IMAGE-HIGH-RES",
+            "@size": "322745",
+            "@ref": "gr8",
+            "@mimetype": "image/jpeg"
+          },
+          {
+            "@category": "high",
+            "@height": "1615",
+            "@width": "3360",
+            "@_fa": "true",
+            "$": "https://api.elsevier.com/content/object/eid/1-s2.0-S0021951725002799-gr5_lrg.jpg?httpAccept=%2A%2F%2A",
+            "@multimediatype": "JPEG image file",
+            "@type": "IMAGE-HIGH-RES",
+            "@size": "400744",
+            "@ref": "gr5",
+            "@mimetype": "image/jpeg"
+          },
+          {
+            "@category": "high",
+            "@height": "1623",
+            "@width": "3360",
+            "@_fa": "true",
+            "$": "https://api.elsevier.com/content/object/eid/1-s2.0-S0021951725002799-gr6_lrg.jpg?httpAccept=%2A%2F%2A",
+            "@multimediatype": "JPEG image file",
+            "@type": "IMAGE-HIGH-RES",
+            "@size": "395451",
+            "@ref": "gr6",
+            "@mimetype": "image/jpeg"
+          },
+          {
+            "@category": "high",
+            "@height": "3609",
+            "@width": "2756",
+            "@_fa": "true",
+            "$": "https://api.elsevier.com/content/object/eid/1-s2.0-S0021951725002799-sc1_lrg.jpg?httpAccept=%2A%2F%2A",
+            "@multimediatype": "JPEG image file",
+            "@type": "IMAGE-HIGH-RES",
+            "@size": "369057",
+            "@ref": "sc1",
+            "@mimetype": "image/jpeg"
+          },
+          {
+            "@category": "standard",
+            "@_fa": "true",
+            "$": "https://api.elsevier.com/content/object/eid/1-s2.0-S0021951725002799-mmc1.docx?httpAccept=%2A%2F%2A",
+            "@multimediatype": "Microsoft Word file",
+            "@type": "APPLICATION",
+            "@size": "1890857",
+            "@ref": "mmc1",
+            "@mimetype": "application/word"
+          },
+          {
+            "@category": "standard",
+            "@_fa": "true",
+            "$": "https://api.elsevier.com/content/object/eid/1-s2.0-S0021951725002799-mmc3.mp4?httpAccept=%2A%2F%2A",
+            "@multimediatype": "MPEG-4 movie",
+            "@type": "VIDEO",
+            "@size": "17886606",
+            "@ref": "mmc3",
+            "@mimetype": "video/mp4"
+          },
+          {
+            "@category": "standard",
+            "@_fa": "true",
+            "$": "https://api.elsevier.com/content/object/eid/1-s2.0-S0021951725002799-mmc2.mp4?httpAccept=%2A%2F%2A",
+            "@multimediatype": "MPEG-4 movie",
+            "@type": "VIDEO",
+            "@size": "15373890",
+            "@ref": "mmc2",
+            "@mimetype": "video/mp4"
+          },
+          {
+            "@category": "standard",
+            "@_fa": "true",
+            "$": "https://api.elsevier.com/content/object/eid/1-s2.0-S0021951725002799-mmc4.zip?httpAccept=%2A%2F%2A",
+            "@multimediatype": "ZIP file",
+            "@type": "APPLICATION",
+            "@size": "263316",
+            "@ref": "mmc4",
+            "@mimetype": "application/zip"
+          },
+          {
+            "@category": "thumbnail",
+            "@_fa": "true",
+            "$": "https://api.elsevier.com/content/object/eid/1-s2.0-S0021951725002799-si1.svg?httpAccept=%2A%2F%2A",
+            "@multimediatype": "Scalable Vector Graphics file",
+            "@type": "ALTIMG",
+            "@size": "12805",
+            "@ref": "si1",
+            "@mimetype": "image/svg+xml"
+          },
+          {
+            "@category": "thumbnail",
+            "@_fa": "true",
+            "$": "https://api.elsevier.com/content/object/eid/1-s2.0-S0021951725002799-si10.svg?httpAccept=%2A%2F%2A",
+            "@multimediatype": "Scalable Vector Graphics file",
+            "@type": "ALTIMG",
+            "@size": "13981",
+            "@ref": "si10",
+            "@mimetype": "image/svg+xml"
+          },
+          {
+            "@category": "thumbnail",
+            "@_fa": "true",
+            "$": "https://api.elsevier.com/content/object/eid/1-s2.0-S0021951725002799-si11.svg?httpAccept=%2A%2F%2A",
+            "@multimediatype": "Scalable Vector Graphics file",
+            "@type": "ALTIMG",
+            "@size": "14103",
+            "@ref": "si11",
+            "@mimetype": "image/svg+xml"
+          },
+          {
+            "@category": "thumbnail",
+            "@_fa": "true",
+            "$": "https://api.elsevier.com/content/object/eid/1-s2.0-S0021951725002799-si12.svg?httpAccept=%2A%2F%2A",
+            "@multimediatype": "Scalable Vector Graphics file",
+            "@type": "ALTIMG",
+            "@size": "14148",
+            "@ref": "si12",
+            "@mimetype": "image/svg+xml"
+          },
+          {
+            "@category": "thumbnail",
+            "@_fa": "true",
+            "$": "https://api.elsevier.com/content/object/eid/1-s2.0-S0021951725002799-si13.svg?httpAccept=%2A%2F%2A",
+            "@multimediatype": "Scalable Vector Graphics file",
+            "@type": "ALTIMG",
+            "@size": "17180",
+            "@ref": "si13",
+            "@mimetype": "image/svg+xml"
+          },
+          {
+            "@category": "thumbnail",
+            "@_fa": "true",
+            "$": "https://api.elsevier.com/content/object/eid/1-s2.0-S0021951725002799-si14.svg?httpAccept=%2A%2F%2A",
+            "@multimediatype": "Scalable Vector Graphics file",
+            "@type": "ALTIMG",
+            "@size": "15385",
+            "@ref": "si14",
+            "@mimetype": "image/svg+xml"
+          },
+          {
+            "@category": "thumbnail",
+            "@_fa": "true",
+            "$": "https://api.elsevier.com/content/object/eid/1-s2.0-S0021951725002799-si15.svg?httpAccept=%2A%2F%2A",
+            "@multimediatype": "Scalable Vector Graphics file",
+            "@type": "ALTIMG",
+            "@size": "14547",
+            "@ref": "si15",
+            "@mimetype": "image/svg+xml"
+          },
+          {
+            "@category": "thumbnail",
+            "@_fa": "true",
+            "$": "https://api.elsevier.com/content/object/eid/1-s2.0-S0021951725002799-si16.svg?httpAccept=%2A%2F%2A",
+            "@multimediatype": "Scalable Vector Graphics file",
+            "@type": "ALTIMG",
+            "@size": "16560",
+            "@ref": "si16",
+            "@mimetype": "image/svg+xml"
+          },
+          {
+            "@category": "thumbnail",
+            "@_fa": "true",
+            "$": "https://api.elsevier.com/content/object/eid/1-s2.0-S0021951725002799-si17.svg?httpAccept=%2A%2F%2A",
+            "@multimediatype": "Scalable Vector Graphics file",
+            "@type": "ALTIMG",
+            "@size": "15529",
+            "@ref": "si17",
+            "@mimetype": "image/svg+xml"
+          },
+          {
+            "@category": "thumbnail",
+            "@_fa": "true",
+            "$": "https://api.elsevier.com/content/object/eid/1-s2.0-S0021951725002799-si18.svg?httpAccept=%2A%2F%2A",
+            "@multimediatype": "Scalable Vector Graphics file",
+            "@type": "ALTIMG",
+            "@size": "16947",
+            "@ref": "si18",
+            "@mimetype": "image/svg+xml"
+          },
+          {
+            "@category": "thumbnail",
+            "@_fa": "true",
+            "$": "https://api.elsevier.com/content/object/eid/1-s2.0-S0021951725002799-si19.svg?httpAccept=%2A%2F%2A",
+            "@multimediatype": "Scalable Vector Graphics file",
+            "@type": "ALTIMG",
+            "@size": "16788",
+            "@ref": "si19",
+            "@mimetype": "image/svg+xml"
+          },
+          {
+            "@category": "thumbnail",
+            "@_fa": "true",
+            "$": "https://api.elsevier.com/content/object/eid/1-s2.0-S0021951725002799-si2.svg?httpAccept=%2A%2F%2A",
+            "@multimediatype": "Scalable Vector Graphics file",
+            "@type": "ALTIMG",
+            "@size": "13182",
+            "@ref": "si2",
+            "@mimetype": "image/svg+xml"
+          },
+          {
+            "@category": "thumbnail",
+            "@_fa": "true",
+            "$": "https://api.elsevier.com/content/object/eid/1-s2.0-S0021951725002799-si20.svg?httpAccept=%2A%2F%2A",
+            "@multimediatype": "Scalable Vector Graphics file",
+            "@type": "ALTIMG",
+            "@size": "18510",
+            "@ref": "si20",
+            "@mimetype": "image/svg+xml"
+          },
+          {
+            "@category": "thumbnail",
+            "@_fa": "true",
+            "$": "https://api.elsevier.com/content/object/eid/1-s2.0-S0021951725002799-si21.svg?httpAccept=%2A%2F%2A",
+            "@multimediatype": "Scalable Vector Graphics file",
+            "@type": "ALTIMG",
+            "@size": "15586",
+            "@ref": "si21",
+            "@mimetype": "image/svg+xml"
+          },
+          {
+            "@category": "thumbnail",
+            "@_fa": "true",
+            "$": "https://api.elsevier.com/content/object/eid/1-s2.0-S0021951725002799-si22.svg?httpAccept=%2A%2F%2A",
+            "@multimediatype": "Scalable Vector Graphics file",
+            "@type": "ALTIMG",
+            "@size": "14842",
+            "@ref": "si22",
+            "@mimetype": "image/svg+xml"
+          },
+          {
+            "@category": "thumbnail",
+            "@_fa": "true",
+            "$": "https://api.elsevier.com/content/object/eid/1-s2.0-S0021951725002799-si23.svg?httpAccept=%2A%2F%2A",
+            "@multimediatype": "Scalable Vector Graphics file",
+            "@type": "ALTIMG",
+            "@size": "19307",
+            "@ref": "si23",
+            "@mimetype": "image/svg+xml"
+          },
+          {
+            "@category": "thumbnail",
+            "@_fa": "true",
+            "$": "https://api.elsevier.com/content/object/eid/1-s2.0-S0021951725002799-si24.svg?httpAccept=%2A%2F%2A",
+            "@multimediatype": "Scalable Vector Graphics file",
+            "@type": "ALTIMG",
+            "@size": "14116",
+            "@ref": "si24",
+            "@mimetype": "image/svg+xml"
+          },
+          {
+            "@category": "thumbnail",
+            "@_fa": "true",
+            "$": "https://api.elsevier.com/content/object/eid/1-s2.0-S0021951725002799-si25.svg?httpAccept=%2A%2F%2A",
+            "@multimediatype": "Scalable Vector Graphics file",
+            "@type": "ALTIMG",
+            "@size": "16937",
+            "@ref": "si25",
+            "@mimetype": "image/svg+xml"
+          },
+          {
+            "@category": "thumbnail",
+            "@_fa": "true",
+            "$": "https://api.elsevier.com/content/object/eid/1-s2.0-S0021951725002799-si26.svg?httpAccept=%2A%2F%2A",
+            "@multimediatype": "Scalable Vector Graphics file",
+            "@type": "ALTIMG",
+            "@size": "16717",
+            "@ref": "si26",
+            "@mimetype": "image/svg+xml"
+          },
+          {
+            "@category": "thumbnail",
+            "@_fa": "true",
+            "$": "https://api.elsevier.com/content/object/eid/1-s2.0-S0021951725002799-si27.svg?httpAccept=%2A%2F%2A",
+            "@multimediatype": "Scalable Vector Graphics file",
+            "@type": "ALTIMG",
+            "@size": "18819",
+            "@ref": "si27",
+            "@mimetype": "image/svg+xml"
+          },
+          {
+            "@category": "thumbnail",
+            "@_fa": "true",
+            "$": "https://api.elsevier.com/content/object/eid/1-s2.0-S0021951725002799-si28.svg?httpAccept=%2A%2F%2A",
+            "@multimediatype": "Scalable Vector Graphics file",
+            "@type": "ALTIMG",
+            "@size": "16331",
+            "@ref": "si28",
+            "@mimetype": "image/svg+xml"
+          },
+          {
+            "@category": "thumbnail",
+            "@_fa": "true",
+            "$": "https://api.elsevier.com/content/object/eid/1-s2.0-S0021951725002799-si29.svg?httpAccept=%2A%2F%2A",
+            "@multimediatype": "Scalable Vector Graphics file",
+            "@type": "ALTIMG",
+            "@size": "16066",
+            "@ref": "si29",
+            "@mimetype": "image/svg+xml"
+          },
+          {
+            "@category": "thumbnail",
+            "@_fa": "true",
+            "$": "https://api.elsevier.com/content/object/eid/1-s2.0-S0021951725002799-si3.svg?httpAccept=%2A%2F%2A",
+            "@multimediatype": "Scalable Vector Graphics file",
+            "@type": "ALTIMG",
+            "@size": "13791",
+            "@ref": "si3",
+            "@mimetype": "image/svg+xml"
+          },
+          {
+            "@category": "thumbnail",
+            "@_fa": "true",
+            "$": "https://api.elsevier.com/content/object/eid/1-s2.0-S0021951725002799-si30.svg?httpAccept=%2A%2F%2A",
+            "@multimediatype": "Scalable Vector Graphics file",
+            "@type": "ALTIMG",
+            "@size": "15992",
+            "@ref": "si30",
+            "@mimetype": "image/svg+xml"
+          },
+          {
+            "@category": "thumbnail",
+            "@_fa": "true",
+            "$": "https://api.elsevier.com/content/object/eid/1-s2.0-S0021951725002799-si31.svg?httpAccept=%2A%2F%2A",
+            "@multimediatype": "Scalable Vector Graphics file",
+            "@type": "ALTIMG",
+            "@size": "16061",
+            "@ref": "si31",
+            "@mimetype": "image/svg+xml"
+          },
+          {
+            "@category": "thumbnail",
+            "@_fa": "true",
+            "$": "https://api.elsevier.com/content/object/eid/1-s2.0-S0021951725002799-si32.svg?httpAccept=%2A%2F%2A",
+            "@multimediatype": "Scalable Vector Graphics file",
+            "@type": "ALTIMG",
+            "@size": "16546",
+            "@ref": "si32",
+            "@mimetype": "image/svg+xml"
+          },
+          {
+            "@category": "thumbnail",
+            "@_fa": "true",
+            "$": "https://api.elsevier.com/content/object/eid/1-s2.0-S0021951725002799-si33.svg?httpAccept=%2A%2F%2A",
+            "@multimediatype": "Scalable Vector Graphics file",
+            "@type": "ALTIMG",
+            "@size": "18443",
+            "@ref": "si33",
+            "@mimetype": "image/svg+xml"
+          },
+          {
+            "@category": "thumbnail",
+            "@_fa": "true",
+            "$": "https://api.elsevier.com/content/object/eid/1-s2.0-S0021951725002799-si34.svg?httpAccept=%2A%2F%2A",
+            "@multimediatype": "Scalable Vector Graphics file",
+            "@type": "ALTIMG",
+            "@size": "15942",
+            "@ref": "si34",
+            "@mimetype": "image/svg+xml"
+          },
+          {
+            "@category": "thumbnail",
+            "@_fa": "true",
+            "$": "https://api.elsevier.com/content/object/eid/1-s2.0-S0021951725002799-si35.svg?httpAccept=%2A%2F%2A",
+            "@multimediatype": "Scalable Vector Graphics file",
+            "@type": "ALTIMG",
+            "@size": "16000",
+            "@ref": "si35",
+            "@mimetype": "image/svg+xml"
+          },
+          {
+            "@category": "thumbnail",
+            "@_fa": "true",
+            "$": "https://api.elsevier.com/content/object/eid/1-s2.0-S0021951725002799-si36.svg?httpAccept=%2A%2F%2A",
+            "@multimediatype": "Scalable Vector Graphics file",
+            "@type": "ALTIMG",
+            "@size": "20706",
+            "@ref": "si36",
+            "@mimetype": "image/svg+xml"
+          },
+          {
+            "@category": "thumbnail",
+            "@_fa": "true",
+            "$": "https://api.elsevier.com/content/object/eid/1-s2.0-S0021951725002799-si37.svg?httpAccept=%2A%2F%2A",
+            "@multimediatype": "Scalable Vector Graphics file",
+            "@type": "ALTIMG",
+            "@size": "13639",
+            "@ref": "si37",
+            "@mimetype": "image/svg+xml"
+          },
+          {
+            "@category": "thumbnail",
+            "@_fa": "true",
+            "$": "https://api.elsevier.com/content/object/eid/1-s2.0-S0021951725002799-si38.svg?httpAccept=%2A%2F%2A",
+            "@multimediatype": "Scalable Vector Graphics file",
+            "@type": "ALTIMG",
+            "@size": "17221",
+            "@ref": "si38",
+            "@mimetype": "image/svg+xml"
+          },
+          {
+            "@category": "thumbnail",
+            "@_fa": "true",
+            "$": "https://api.elsevier.com/content/object/eid/1-s2.0-S0021951725002799-si39.svg?httpAccept=%2A%2F%2A",
+            "@multimediatype": "Scalable Vector Graphics file",
+            "@type": "ALTIMG",
+            "@size": "15010",
+            "@ref": "si39",
+            "@mimetype": "image/svg+xml"
+          },
+          {
+            "@category": "thumbnail",
+            "@_fa": "true",
+            "$": "https://api.elsevier.com/content/object/eid/1-s2.0-S0021951725002799-si4.svg?httpAccept=%2A%2F%2A",
+            "@multimediatype": "Scalable Vector Graphics file",
+            "@type": "ALTIMG",
+            "@size": "13785",
+            "@ref": "si4",
+            "@mimetype": "image/svg+xml"
+          },
+          {
+            "@category": "thumbnail",
+            "@_fa": "true",
+            "$": "https://api.elsevier.com/content/object/eid/1-s2.0-S0021951725002799-si40.svg?httpAccept=%2A%2F%2A",
+            "@multimediatype": "Scalable Vector Graphics file",
+            "@type": "ALTIMG",
+            "@size": "14532",
+            "@ref": "si40",
+            "@mimetype": "image/svg+xml"
+          },
+          {
+            "@category": "thumbnail",
+            "@_fa": "true",
+            "$": "https://api.elsevier.com/content/object/eid/1-s2.0-S0021951725002799-si41.svg?httpAccept=%2A%2F%2A",
+            "@multimediatype": "Scalable Vector Graphics file",
+            "@type": "ALTIMG",
+            "@size": "13860",
+            "@ref": "si41",
+            "@mimetype": "image/svg+xml"
+          },
+          {
+            "@category": "thumbnail",
+            "@_fa": "true",
+            "$": "https://api.elsevier.com/content/object/eid/1-s2.0-S0021951725002799-si42.svg?httpAccept=%2A%2F%2A",
+            "@multimediatype": "Scalable Vector Graphics file",
+            "@type": "ALTIMG",
+            "@size": "16380",
+            "@ref": "si42",
+            "@mimetype": "image/svg+xml"
+          },
+          {
+            "@category": "thumbnail",
+            "@_fa": "true",
+            "$": "https://api.elsevier.com/content/object/eid/1-s2.0-S0021951725002799-si43.svg?httpAccept=%2A%2F%2A",
+            "@multimediatype": "Scalable Vector Graphics file",
+            "@type": "ALTIMG",
+            "@size": "14981",
+            "@ref": "si43",
+            "@mimetype": "image/svg+xml"
+          },
+          {
+            "@category": "thumbnail",
+            "@_fa": "true",
+            "$": "https://api.elsevier.com/content/object/eid/1-s2.0-S0021951725002799-si44.svg?httpAccept=%2A%2F%2A",
+            "@multimediatype": "Scalable Vector Graphics file",
+            "@type": "ALTIMG",
+            "@size": "13271",
+            "@ref": "si44",
+            "@mimetype": "image/svg+xml"
+          },
+          {
+            "@category": "thumbnail",
+            "@_fa": "true",
+            "$": "https://api.elsevier.com/content/object/eid/1-s2.0-S0021951725002799-si45.svg?httpAccept=%2A%2F%2A",
+            "@multimediatype": "Scalable Vector Graphics file",
+            "@type": "ALTIMG",
+            "@size": "14337",
+            "@ref": "si45",
+            "@mimetype": "image/svg+xml"
+          },
+          {
+            "@category": "thumbnail",
+            "@_fa": "true",
+            "$": "https://api.elsevier.com/content/object/eid/1-s2.0-S0021951725002799-si46.svg?httpAccept=%2A%2F%2A",
+            "@multimediatype": "Scalable Vector Graphics file",
+            "@type": "ALTIMG",
+            "@size": "16903",
+            "@ref": "si46",
+            "@mimetype": "image/svg+xml"
+          },
+          {
+            "@category": "thumbnail",
+            "@_fa": "true",
+            "$": "https://api.elsevier.com/content/object/eid/1-s2.0-S0021951725002799-si47.svg?httpAccept=%2A%2F%2A",
+            "@multimediatype": "Scalable Vector Graphics file",
+            "@type": "ALTIMG",
+            "@size": "16070",
+            "@ref": "si47",
+            "@mimetype": "image/svg+xml"
+          },
+          {
+            "@category": "thumbnail",
+            "@_fa": "true",
+            "$": "https://api.elsevier.com/content/object/eid/1-s2.0-S0021951725002799-si48.svg?httpAccept=%2A%2F%2A",
+            "@multimediatype": "Scalable Vector Graphics file",
+            "@type": "ALTIMG",
+            "@size": "18699",
+            "@ref": "si48",
+            "@mimetype": "image/svg+xml"
+          },
+          {
+            "@category": "thumbnail",
+            "@_fa": "true",
+            "$": "https://api.elsevier.com/content/object/eid/1-s2.0-S0021951725002799-si49.svg?httpAccept=%2A%2F%2A",
+            "@multimediatype": "Scalable Vector Graphics file",
+            "@type": "ALTIMG",
+            "@size": "16794",
+            "@ref": "si49",
+            "@mimetype": "image/svg+xml"
+          },
+          {
+            "@category": "thumbnail",
+            "@_fa": "true",
+            "$": "https://api.elsevier.com/content/object/eid/1-s2.0-S0021951725002799-si5.svg?httpAccept=%2A%2F%2A",
+            "@multimediatype": "Scalable Vector Graphics file",
+            "@type": "ALTIMG",
+            "@size": "12647",
+            "@ref": "si5",
+            "@mimetype": "image/svg+xml"
+          },
+          {
+            "@category": "thumbnail",
+            "@_fa": "true",
+            "$": "https://api.elsevier.com/content/object/eid/1-s2.0-S0021951725002799-si50.svg?httpAccept=%2A%2F%2A",
+            "@multimediatype": "Scalable Vector Graphics file",
+            "@type": "ALTIMG",
+            "@size": "16838",
+            "@ref": "si50",
+            "@mimetype": "image/svg+xml"
+          },
+          {
+            "@category": "thumbnail",
+            "@_fa": "true",
+            "$": "https://api.elsevier.com/content/object/eid/1-s2.0-S0021951725002799-si51.svg?httpAccept=%2A%2F%2A",
+            "@multimediatype": "Scalable Vector Graphics file",
+            "@type": "ALTIMG",
+            "@size": "20002",
+            "@ref": "si51",
+            "@mimetype": "image/svg+xml"
+          },
+          {
+            "@category": "thumbnail",
+            "@_fa": "true",
+            "$": "https://api.elsevier.com/content/object/eid/1-s2.0-S0021951725002799-si52.svg?httpAccept=%2A%2F%2A",
+            "@multimediatype": "Scalable Vector Graphics file",
+            "@type": "ALTIMG",
+            "@size": "13587",
+            "@ref": "si52",
+            "@mimetype": "image/svg+xml"
+          },
+          {
+            "@category": "thumbnail",
+            "@_fa": "true",
+            "$": "https://api.elsevier.com/content/object/eid/1-s2.0-S0021951725002799-si53.svg?httpAccept=%2A%2F%2A",
+            "@multimediatype": "Scalable Vector Graphics file",
+            "@type": "ALTIMG",
+            "@size": "15271",
+            "@ref": "si53",
+            "@mimetype": "image/svg+xml"
+          },
+          {
+            "@category": "thumbnail",
+            "@_fa": "true",
+            "$": "https://api.elsevier.com/content/object/eid/1-s2.0-S0021951725002799-si54.svg?httpAccept=%2A%2F%2A",
+            "@multimediatype": "Scalable Vector Graphics file",
+            "@type": "ALTIMG",
+            "@size": "15491",
+            "@ref": "si54",
+            "@mimetype": "image/svg+xml"
+          },
+          {
+            "@category": "thumbnail",
+            "@_fa": "true",
+            "$": "https://api.elsevier.com/content/object/eid/1-s2.0-S0021951725002799-si55.svg?httpAccept=%2A%2F%2A",
+            "@multimediatype": "Scalable Vector Graphics file",
+            "@type": "ALTIMG",
+            "@size": "16943",
+            "@ref": "si55",
+            "@mimetype": "image/svg+xml"
+          },
+          {
+            "@category": "thumbnail",
+            "@_fa": "true",
+            "$": "https://api.elsevier.com/content/object/eid/1-s2.0-S0021951725002799-si56.svg?httpAccept=%2A%2F%2A",
+            "@multimediatype": "Scalable Vector Graphics file",
+            "@type": "ALTIMG",
+            "@size": "17256",
+            "@ref": "si56",
+            "@mimetype": "image/svg+xml"
+          },
+          {
+            "@category": "thumbnail",
+            "@_fa": "true",
+            "$": "https://api.elsevier.com/content/object/eid/1-s2.0-S0021951725002799-si57.svg?httpAccept=%2A%2F%2A",
+            "@multimediatype": "Scalable Vector Graphics file",
+            "@type": "ALTIMG",
+            "@size": "16731",
+            "@ref": "si57",
+            "@mimetype": "image/svg+xml"
+          },
+          {
+            "@category": "thumbnail",
+            "@_fa": "true",
+            "$": "https://api.elsevier.com/content/object/eid/1-s2.0-S0021951725002799-si58.svg?httpAccept=%2A%2F%2A",
+            "@multimediatype": "Scalable Vector Graphics file",
+            "@type": "ALTIMG",
+            "@size": "15213",
+            "@ref": "si58",
+            "@mimetype": "image/svg+xml"
+          },
+          {
+            "@category": "thumbnail",
+            "@_fa": "true",
+            "$": "https://api.elsevier.com/content/object/eid/1-s2.0-S0021951725002799-si59.svg?httpAccept=%2A%2F%2A",
+            "@multimediatype": "Scalable Vector Graphics file",
+            "@type": "ALTIMG",
+            "@size": "16464",
+            "@ref": "si59",
+            "@mimetype": "image/svg+xml"
+          },
+          {
+            "@category": "thumbnail",
+            "@_fa": "true",
+            "$": "https://api.elsevier.com/content/object/eid/1-s2.0-S0021951725002799-si6.svg?httpAccept=%2A%2F%2A",
+            "@multimediatype": "Scalable Vector Graphics file",
+            "@type": "ALTIMG",
+            "@size": "13284",
+            "@ref": "si6",
+            "@mimetype": "image/svg+xml"
+          },
+          {
+            "@category": "thumbnail",
+            "@_fa": "true",
+            "$": "https://api.elsevier.com/content/object/eid/1-s2.0-S0021951725002799-si60.svg?httpAccept=%2A%2F%2A",
+            "@multimediatype": "Scalable Vector Graphics file",
+            "@type": "ALTIMG",
+            "@size": "15953",
+            "@ref": "si60",
+            "@mimetype": "image/svg+xml"
+          },
+          {
+            "@category": "thumbnail",
+            "@_fa": "true",
+            "$": "https://api.elsevier.com/content/object/eid/1-s2.0-S0021951725002799-si61.svg?httpAccept=%2A%2F%2A",
+            "@multimediatype": "Scalable Vector Graphics file",
+            "@type": "ALTIMG",
+            "@size": "15158",
+            "@ref": "si61",
+            "@mimetype": "image/svg+xml"
+          },
+          {
+            "@category": "thumbnail",
+            "@_fa": "true",
+            "$": "https://api.elsevier.com/content/object/eid/1-s2.0-S0021951725002799-si62.svg?httpAccept=%2A%2F%2A",
+            "@multimediatype": "Scalable Vector Graphics file",
+            "@type": "ALTIMG",
+            "@size": "13978",
+            "@ref": "si62",
+            "@mimetype": "image/svg+xml"
+          },
+          {
+            "@category": "thumbnail",
+            "@_fa": "true",
+            "$": "https://api.elsevier.com/content/object/eid/1-s2.0-S0021951725002799-si63.svg?httpAccept=%2A%2F%2A",
+            "@multimediatype": "Scalable Vector Graphics file",
+            "@type": "ALTIMG",
+            "@size": "15432",
+            "@ref": "si63",
+            "@mimetype": "image/svg+xml"
+          },
+          {
+            "@category": "thumbnail",
+            "@_fa": "true",
+            "$": "https://api.elsevier.com/content/object/eid/1-s2.0-S0021951725002799-si64.svg?httpAccept=%2A%2F%2A",
+            "@multimediatype": "Scalable Vector Graphics file",
+            "@type": "ALTIMG",
+            "@size": "17708",
+            "@ref": "si64",
+            "@mimetype": "image/svg+xml"
+          },
+          {
+            "@category": "thumbnail",
+            "@_fa": "true",
+            "$": "https://api.elsevier.com/content/object/eid/1-s2.0-S0021951725002799-si65.svg?httpAccept=%2A%2F%2A",
+            "@multimediatype": "Scalable Vector Graphics file",
+            "@type": "ALTIMG",
+            "@size": "16096",
+            "@ref": "si65",
+            "@mimetype": "image/svg+xml"
+          },
+          {
+            "@category": "thumbnail",
+            "@_fa": "true",
+            "$": "https://api.elsevier.com/content/object/eid/1-s2.0-S0021951725002799-si66.svg?httpAccept=%2A%2F%2A",
+            "@multimediatype": "Scalable Vector Graphics file",
+            "@type": "ALTIMG",
+            "@size": "14989",
+            "@ref": "si66",
+            "@mimetype": "image/svg+xml"
+          },
+          {
+            "@category": "thumbnail",
+            "@_fa": "true",
+            "$": "https://api.elsevier.com/content/object/eid/1-s2.0-S0021951725002799-si67.svg?httpAccept=%2A%2F%2A",
+            "@multimediatype": "Scalable Vector Graphics file",
+            "@type": "ALTIMG",
+            "@size": "24658",
+            "@ref": "si67",
+            "@mimetype": "image/svg+xml"
+          },
+          {
+            "@category": "thumbnail",
+            "@_fa": "true",
+            "$": "https://api.elsevier.com/content/object/eid/1-s2.0-S0021951725002799-si68.svg?httpAccept=%2A%2F%2A",
+            "@multimediatype": "Scalable Vector Graphics file",
+            "@type": "ALTIMG",
+            "@size": "11408",
+            "@ref": "si68",
+            "@mimetype": "image/svg+xml"
+          },
+          {
+            "@category": "thumbnail",
+            "@_fa": "true",
+            "$": "https://api.elsevier.com/content/object/eid/1-s2.0-S0021951725002799-si69.svg?httpAccept=%2A%2F%2A",
+            "@multimediatype": "Scalable Vector Graphics file",
+            "@type": "ALTIMG",
+            "@size": "32988",
+            "@ref": "si69",
+            "@mimetype": "image/svg+xml"
+          },
+          {
+            "@category": "thumbnail",
+            "@_fa": "true",
+            "$": "https://api.elsevier.com/content/object/eid/1-s2.0-S0021951725002799-si7.svg?httpAccept=%2A%2F%2A",
+            "@multimediatype": "Scalable Vector Graphics file",
+            "@type": "ALTIMG",
+            "@size": "14684",
+            "@ref": "si7",
+            "@mimetype": "image/svg+xml"
+          },
+          {
+            "@category": "thumbnail",
+            "@_fa": "true",
+            "$": "https://api.elsevier.com/content/object/eid/1-s2.0-S0021951725002799-si70.svg?httpAccept=%2A%2F%2A",
+            "@multimediatype": "Scalable Vector Graphics file",
+            "@type": "ALTIMG",
+            "@size": "13180",
+            "@ref": "si70",
+            "@mimetype": "image/svg+xml"
+          },
+          {
+            "@category": "thumbnail",
+            "@_fa": "true",
+            "$": "https://api.elsevier.com/content/object/eid/1-s2.0-S0021951725002799-si71.svg?httpAccept=%2A%2F%2A",
+            "@multimediatype": "Scalable Vector Graphics file",
+            "@type": "ALTIMG",
+            "@size": "26513",
+            "@ref": "si71",
+            "@mimetype": "image/svg+xml"
+          },
+          {
+            "@category": "thumbnail",
+            "@_fa": "true",
+            "$": "https://api.elsevier.com/content/object/eid/1-s2.0-S0021951725002799-si8.svg?httpAccept=%2A%2F%2A",
+            "@multimediatype": "Scalable Vector Graphics file",
+            "@type": "ALTIMG",
+            "@size": "12507",
+            "@ref": "si8",
+            "@mimetype": "image/svg+xml"
+          },
+          {
+            "@category": "thumbnail",
+            "@_fa": "true",
+            "$": "https://api.elsevier.com/content/object/eid/1-s2.0-S0021951725002799-si9.svg?httpAccept=%2A%2F%2A",
+            "@multimediatype": "Scalable Vector Graphics file",
+            "@type": "ALTIMG",
+            "@size": "15399",
+            "@ref": "si9",
+            "@mimetype": "image/svg+xml"
+          }
+        ]
+      },
+      "link": {
+        "@rel": "abstract",
+        "@href": "https://api.elsevier.com/content/abstract/scopus_id/105005519823"
+      }
+    }
+  }
+}
