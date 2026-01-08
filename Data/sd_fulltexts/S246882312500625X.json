@@ -1,0 +1,700 @@
+{
+  "metadata": {
+    "title": "Theoretical design of dual-metal-doped M<ce:inf loc=post>2</ce:inf>–N<ce:inf loc=post>6</ce:inf>–C sheet: An efficient electrocatalyst for urea synthesis from N<ce:inf loc=post>2</ce:inf> and CO<ce:inf loc=post>2</ce:inf>",
+    "authors": "; ; ",
+    "journal": "Molecular Catalysis",
+    "date": "2025-11-30",
+    "doi": "10.1016/j.mcat.2025.115440",
+    "abstract": "",
+    "uri": "https://api.elsevier.com/content/article/pii/S246882312500625X",
+    "pii": "S246882312500625X"
+  },
+  "fulltext": {
+    "full-text-retrieval-response": {
+      "scopus-eid": "2-s2.0-105013963365",
+      "originalText": "serial JL 315758 291210 291744 291790 291809 31 Molecular Catalysis MOLECULARCATALYSIS 2025-08-26 2025-08-26 2025-08-26 2025-08-26 2025-09-12T11:56:17 1-s2.0-S246882312500625X S2468-8231(25)00625-X S246882312500625X 10.1016/j.mcat.2025.115440 S300 S300.1 FULL-TEXT 1-s2.0-S2468823125X00134 2025-09-12T11:06:16.171864Z 0 0 20251101 20251130 2025 2025-08-26T09:26:56.914091Z absattachment articleinfo articlenumber articletitlenorm authfirstinitialnorm authfirstsurnamenorm cid cids contenttype copyright crossmark dateloaded dateloadedtxt datesearch datesort dateupdated dco docsubtype doctype doi eid ewtransactionid hubeid indexeddate issn issnnorm itemstage itemtransactionid itemweight openaccess openarchive pg pgfirst pii piinorm pubdateend pubdatestart pubdatetxt pubyr sectiontitle sortorder srctitle srctitlenorm srctype ssids alllist content subj subheadings suppl tomb volfirst volissue volumelist webpdf webpdfpagecount yearnav figure e-component body mmlmath acknowledge affil appendices articletitle auth authfirstini authfull authkeywords authlast grantnumber grantsponsor highlightsabst orcid primabst pubtype ref specialabst 2468-8231 24688231 true 586 586 C Volume 586 32 115440 115440 115440 202511 November 2025 2025-11-01 2025-11-30 2025 Regular Papers article fla © 2025 Elsevier B.V. All rights are reserved, including those for text and data mining, AI training, and similar technologies. THEORETICALDESIGNDUALMETALDOPEDM2N6CSHEETEFFICIENTELECTROCATALYSTFORUREASYNTHESISN2CO2 XIAO T 1 Introduction 2 Computational details 3 Results and discussions 3.1 Screening and reaction mechanisms 3.1.1 Structure and stability 3.1.2 Electrochemical urea production reaction 3.1.3 The electrocatalytic selectivity toward urea production 3.2 Electronic interaction mechanism 4 Conclusion CRediT authorship contribution statement Acknowledgments Appendix Supplementary materials References HOU 2024 Y WAN 2024 Y KONG 2023 L CHEN 2020 717 C MURPHY 2024 9797 9811 E DEOLIVEIRA 2020 M ZHANG 2024 16704 16715 Y ZHU 2021 X LIU 2023 J MUKHERJEE 2022 J SU 2025 18492 18501 Q DUTTA 2023 S LIU 2023 25667 25678 J LIU 2024 8951 8959 C 2024 YANG 2023 6428 6439 Y WANG 2022 H ZHAO 2023 Y HOU 2023 363 378 Y CAO 2023 990 999 Y KRESSE 1996 15 50 G KRESSE 1994 13181 13185 F GRIMME 2006 1787 1799 S BLOCHL 2003 33 41 P PERDEW 1993 4978 C BADER 1985 9 15 R WANG 2021 108033 V MATHEW 2014 K MOMMA 2008 653 658 K MOMMA 2011 1272 1276 K HOU 2024 124539 Y ZHONG 2024 80 89 W ROY 2021 10837 10844 P ZHU 2022 C LIU 2024 8951 8959 C YUAN 2021 6605 6615 M ZAIDI 2022 S POKLUDA 2015 127 158 J LIU 2016 D VOGIATZIS 2019 2453 2523 K BU 2021 557 564 J CHEN 2017 12370 12373 Y ZITOLO 2015 937 A LIU 2022 F GHARIBI 2022 H QIU 2019 9413 9421 J KONO 2020 T XIAOX2025X115440 XIAOX2025X115440XT 2027-08-26T00:00:00.000Z 2027-08-26T00:00:00.000Z http://creativecommons.org/licenses/by-nc-nd/4.0/ © 2025 Elsevier B.V. All rights are reserved, including those for text and data mining, AI training, and similar technologies. 2025-08-28T00:16:58.657Z http://vtw.elsevier.com/data/voc/AddOnTypes/50.7/aggregated-refined 2024005 2025012 Water Conservancy Science and Technology Project of Jiangsu Province http://data.elsevier.com/vocabulary/SciValFunders/501100018581 http://sws.geonames.org/1814991 This work was supported by the Water Conservancy Science and Technology Project of Jiangsu Province, China (No.2024005 and 2025012) https://doi.org/10.15223/policy-017 https://doi.org/10.15223/policy-037 https://doi.org/10.15223/policy-012 https://doi.org/10.15223/policy-029 https://doi.org/10.15223/policy-004 item S2468-8231(25)00625-X S246882312500625X 1-s2.0-S246882312500625X 10.1016/j.mcat.2025.115440 315758 2025-09-12T11:06:16.171864Z 2025-11-01 2025-11-30 1-s2.0-S246882312500625X-main.pdf https://s3-eu-west-1.amazonaws.com/prod-ucs-content-store-eu-west/content/pii:S246882312500625X/MAIN/application/pdf/7b6fc6e454bf2747c442c1c4791e52d2/main.pdf main.pdf pdf true 4802240 MAIN 9 1-s2.0-S246882312500625X-main_1.png https://s3-eu-west-1.amazonaws.com/prod-ucs-content-store-eu-west/content/pii:S246882312500625X/PREVIEW/image/png/4eb9e2717fc493cba2adcf697673af27/main_1.png main_1.png png 59537 928 656 IMAGE-WEB-PDF 1 1-s2.0-S246882312500625X-gr5.jpg https://s3-eu-west-1.amazonaws.com/prod-ucs-content-store-eu-west/content/pii:S246882312500625X/gr5/DOWNSAMPLED/image/jpeg/4a670ed0d534472ce4f335d789ac35db/gr5.jpg gr5 gr5.jpg jpg 56220 332 565 IMAGE-DOWNSAMPLED 1-s2.0-S246882312500625X-gr4.jpg https://s3-eu-west-1.amazonaws.com/prod-ucs-content-store-eu-west/content/pii:S246882312500625X/gr4/DOWNSAMPLED/image/jpeg/7773e5d9d69a407aa841bf80ff903c19/gr4.jpg gr4 gr4.jpg jpg 55366 512 470 IMAGE-DOWNSAMPLED 1-s2.0-S246882312500625X-gr6.jpg https://s3-eu-west-1.amazonaws.com/prod-ucs-content-store-eu-west/content/pii:S246882312500625X/gr6/DOWNSAMPLED/image/jpeg/77af14cb8b532e8ccd23cc75973d122f/gr6.jpg gr6 gr6.jpg jpg 92437 397 734 IMAGE-DOWNSAMPLED 1-s2.0-S246882312500625X-gr1.jpg https://s3-eu-west-1.amazonaws.com/prod-ucs-content-store-eu-west/content/pii:S246882312500625X/gr1/DOWNSAMPLED/image/jpeg/cbb2f0516f4276d7227e6a551b999279/gr1.jpg gr1 gr1.jpg jpg 111070 668 734 IMAGE-DOWNSAMPLED 1-s2.0-S246882312500625X-gr3.jpg https://s3-eu-west-1.amazonaws.com/prod-ucs-content-store-eu-west/content/pii:S246882312500625X/gr3/DOWNSAMPLED/image/jpeg/136ecce1b1ee822e23a6f5ada492098e/gr3.jpg gr3 gr3.jpg jpg 71878 781 452 IMAGE-DOWNSAMPLED 1-s2.0-S246882312500625X-gr2.jpg https://s3-eu-west-1.amazonaws.com/prod-ucs-content-store-eu-west/content/pii:S246882312500625X/gr2/DOWNSAMPLED/image/jpeg/63a960dcdbb660811d02035f6c87ab4d/gr2.jpg gr2 gr2.jpg jpg 49849 312 513 IMAGE-DOWNSAMPLED 1-s2.0-S246882312500625X-ga1.jpg https://s3-eu-west-1.amazonaws.com/prod-ucs-content-store-eu-west/content/pii:S246882312500625X/ga1/DOWNSAMPLED/image/jpeg/e10ef5f4ad790a92102fe9694aad43ff/ga1.jpg ga1 true ga1.jpg jpg 46995 245 293 IMAGE-DOWNSAMPLED 1-s2.0-S246882312500625X-gr5.sml https://s3-eu-west-1.amazonaws.com/prod-ucs-content-store-eu-west/content/pii:S246882312500625X/gr5/THUMBNAIL/image/gif/6ecdd197977613711ef14739679bdb90/gr5.sml gr5 gr5.sml sml 11468 129 219 IMAGE-THUMBNAIL 1-s2.0-S246882312500625X-gr4.sml https://s3-eu-west-1.amazonaws.com/prod-ucs-content-store-eu-west/content/pii:S246882312500625X/gr4/THUMBNAIL/image/gif/1ae7d5e90ad8b01f3fba19b054b48ea2/gr4.sml gr4 gr4.sml sml 8446 163 150 IMAGE-THUMBNAIL 1-s2.0-S246882312500625X-gr6.sml https://s3-eu-west-1.amazonaws.com/prod-ucs-content-store-eu-west/content/pii:S246882312500625X/gr6/THUMBNAIL/image/gif/cadc9e9bff085d9f9316048d077fc830/gr6.sml gr6 gr6.sml sml 12998 118 219 IMAGE-THUMBNAIL 1-s2.0-S246882312500625X-gr1.sml https://s3-eu-west-1.amazonaws.com/prod-ucs-content-store-eu-west/content/pii:S246882312500625X/gr1/THUMBNAIL/image/gif/17f47ca3c25d18f6b30784876a317af0/gr1.sml gr1 gr1.sml sml 12387 164 180 IMAGE-THUMBNAIL 1-s2.0-S246882312500625X-gr3.sml https://s3-eu-west-1.amazonaws.com/prod-ucs-content-store-eu-west/content/pii:S246882312500625X/gr3/THUMBNAIL/image/gif/db2989d663fc21156863d24f3a639702/gr3.sml gr3 gr3.sml sml 7446 164 95 IMAGE-THUMBNAIL 1-s2.0-S246882312500625X-gr2.sml https://s3-eu-west-1.amazonaws.com/prod-ucs-content-store-eu-west/content/pii:S246882312500625X/gr2/THUMBNAIL/image/gif/64eb065b6cc79b3173391c2adcb41517/gr2.sml gr2 gr2.sml sml 12393 133 219 IMAGE-THUMBNAIL 1-s2.0-S246882312500625X-ga1.sml https://s3-eu-west-1.amazonaws.com/prod-ucs-content-store-eu-west/content/pii:S246882312500625X/ga1/THUMBNAIL/image/gif/317a658f6ae5aae2bea0288c6c7c7888/ga1.sml ga1 true ga1.sml sml 28051 164 196 IMAGE-THUMBNAIL 1-s2.0-S246882312500625X-gr5_lrg.jpg https://s3-eu-west-1.amazonaws.com/prod-ucs-content-store-eu-west/content/pii:S246882312500625X/HIGHRES/image/jpeg/a8a34107b7d1f980b3c001adb62b7c58/gr5_lrg.jpg gr5 gr5_lrg.jpg jpg 379312 1467 2500 IMAGE-HIGH-RES 1-s2.0-S246882312500625X-gr4_lrg.jpg https://s3-eu-west-1.amazonaws.com/prod-ucs-content-store-eu-west/content/pii:S246882312500625X/HIGHRES/image/jpeg/091dd2e1cad5536101ed63fa0ce39418/gr4_lrg.jpg gr4 gr4_lrg.jpg jpg 373630 2269 2083 IMAGE-HIGH-RES 1-s2.0-S246882312500625X-gr6_lrg.jpg https://s3-eu-west-1.amazonaws.com/prod-ucs-content-store-eu-west/content/pii:S246882312500625X/HIGHRES/image/jpeg/109f263dcce7c977c86fff6bf9208a73/gr6_lrg.jpg gr6 gr6_lrg.jpg jpg 662143 1757 3250 IMAGE-HIGH-RES 1-s2.0-S246882312500625X-gr1_lrg.jpg https://s3-eu-west-1.amazonaws.com/prod-ucs-content-store-eu-west/content/pii:S246882312500625X/HIGHRES/image/jpeg/57c4dc4b06bdc3971ef3f41c6e55d635/gr1_lrg.jpg gr1 gr1_lrg.jpg jpg 734031 2959 3250 IMAGE-HIGH-RES 1-s2.0-S246882312500625X-gr3_lrg.jpg https://s3-eu-west-1.amazonaws.com/prod-ucs-content-store-eu-west/content/pii:S246882312500625X/HIGHRES/image/jpeg/2ac468a21979725731cdef115bc3575f/gr3_lrg.jpg gr3 gr3_lrg.jpg jpg 471742 3456 2000 IMAGE-HIGH-RES 1-s2.0-S246882312500625X-gr2_lrg.jpg https://s3-eu-west-1.amazonaws.com/prod-ucs-content-store-eu-west/content/pii:S246882312500625X/HIGHRES/image/jpeg/8708d229bf92c282be7fdebe1d78051b/gr2_lrg.jpg gr2 gr2_lrg.jpg jpg 315942 1384 2273 IMAGE-HIGH-RES 1-s2.0-S246882312500625X-ga1_lrg.jpg https://s3-eu-west-1.amazonaws.com/prod-ucs-content-store-eu-west/content/pii:S246882312500625X/HIGHRES/image/jpeg/80c9d877b89376460346a30e44ebecdd/ga1_lrg.jpg ga1 true ga1_lrg.jpg jpg 341213 1085 1300 IMAGE-HIGH-RES 1-s2.0-S246882312500625X-mmc1.docx https://s3-eu-west-1.amazonaws.com/prod-ucs-content-store-eu-west/content/pii:S246882312500625X/mmc1/MAIN/application/vnd.openxmlformats-officedocument.wordprocessingml.document/303f7fc656d73356347652e6eadf5681/mmc1.docx mmc1 mmc1.docx docx 3697343 APPLICATION 1-s2.0-S246882312500625X-si1.svg https://s3-eu-west-1.amazonaws.com/prod-ucs-content-store-eu-west/content/pii:S246882312500625X/image/svg+xml/1bf18ce9c1a8af5fd043bf483ba186f0/si1.svg si1 si1.svg svg 2229 ALTIMG 1-s2.0-S246882312500625X-si10.svg https://s3-eu-west-1.amazonaws.com/prod-ucs-content-store-eu-west/content/pii:S246882312500625X/image/svg+xml/577a531119690d33f3bd9786a45a2b52/si10.svg si10 true si10.svg svg 7880 ALTIMG 1-s2.0-S246882312500625X-si11.svg https://s3-eu-west-1.amazonaws.com/prod-ucs-content-store-eu-west/content/pii:S246882312500625X/image/svg+xml/36afcd38aad778f562ea90fec1eb3fe2/si11.svg si11 si11.svg svg 7669 ALTIMG 1-s2.0-S246882312500625X-si12.svg https://s3-eu-west-1.amazonaws.com/prod-ucs-content-store-eu-west/content/pii:S246882312500625X/image/svg+xml/3d2dbe2c8f8f1a4f609731f5e89e5ff2/si12.svg si12 si12.svg svg 4840 ALTIMG 1-s2.0-S246882312500625X-si13.svg https://s3-eu-west-1.amazonaws.com/prod-ucs-content-store-eu-west/content/pii:S246882312500625X/image/svg+xml/a83e2cd0ff31a2e400fa8d8d0df0e6c1/si13.svg si13 si13.svg svg 3423 ALTIMG 1-s2.0-S246882312500625X-si14.svg https://s3-eu-west-1.amazonaws.com/prod-ucs-content-store-eu-west/content/pii:S246882312500625X/image/svg+xml/72985901ac0cefc3b0086fd325bd1cb1/si14.svg si14 si14.svg svg 2114 ALTIMG 1-s2.0-S246882312500625X-si15.svg https://s3-eu-west-1.amazonaws.com/prod-ucs-content-store-eu-west/content/pii:S246882312500625X/image/svg+xml/2dfffa0f2f3c7a071eb6572d8d45913d/si15.svg si15 si15.svg svg 7795 ALTIMG 1-s2.0-S246882312500625X-si16.svg https://s3-eu-west-1.amazonaws.com/prod-ucs-content-store-eu-west/content/pii:S246882312500625X/image/svg+xml/9013a12a949a7d487ad85a91178332e1/si16.svg si16 si16.svg svg 4333 ALTIMG 1-s2.0-S246882312500625X-si17.svg https://s3-eu-west-1.amazonaws.com/prod-ucs-content-store-eu-west/content/pii:S246882312500625X/image/svg+xml/10e665b65e32268089180be4b7d92811/si17.svg si17 si17.svg svg 2975 ALTIMG 1-s2.0-S246882312500625X-si18.svg https://s3-eu-west-1.amazonaws.com/prod-ucs-content-store-eu-west/content/pii:S246882312500625X/image/svg+xml/64924b7a00f6eff71758ccd2a83f48de/si18.svg si18 si18.svg svg 4599 ALTIMG 1-s2.0-S246882312500625X-si19.svg https://s3-eu-west-1.amazonaws.com/prod-ucs-content-store-eu-west/content/pii:S246882312500625X/image/svg+xml/df43106f492b61f07f4db37253c00b26/si19.svg si19 si19.svg svg 3084 ALTIMG 1-s2.0-S246882312500625X-si2.svg https://s3-eu-west-1.amazonaws.com/prod-ucs-content-store-eu-west/content/pii:S246882312500625X/image/svg+xml/eddbb0f10030cd9680c7f372701f9340/si2.svg si2 si2.svg svg 3852 ALTIMG 1-s2.0-S246882312500625X-si20.svg https://s3-eu-west-1.amazonaws.com/prod-ucs-content-store-eu-west/content/pii:S246882312500625X/image/svg+xml/1241aa8d858a42b983a42e39ef3f7c5c/si20.svg si20 si20.svg svg 1311 ALTIMG 1-s2.0-S246882312500625X-si21.svg https://s3-eu-west-1.amazonaws.com/prod-ucs-content-store-eu-west/content/pii:S246882312500625X/image/svg+xml/3598eb6cd97ed569be63472c9569192d/si21.svg si21 si21.svg svg 1673 ALTIMG 1-s2.0-S246882312500625X-si22.svg https://s3-eu-west-1.amazonaws.com/prod-ucs-content-store-eu-west/content/pii:S246882312500625X/image/svg+xml/3bca2382f72c50d03de4b09528893474/si22.svg si22 si22.svg svg 4717 ALTIMG 1-s2.0-S246882312500625X-si23.svg https://s3-eu-west-1.amazonaws.com/prod-ucs-content-store-eu-west/content/pii:S246882312500625X/image/svg+xml/89a7907ad7c678a01bf0f24af4aa5318/si23.svg si23 si23.svg svg 3331 ALTIMG 1-s2.0-S246882312500625X-si24.svg https://s3-eu-west-1.amazonaws.com/prod-ucs-content-store-eu-west/content/pii:S246882312500625X/image/svg+xml/15992b132c5c349f801a51d2c71ae4c3/si24.svg si24 si24.svg svg 3388 ALTIMG 1-s2.0-S246882312500625X-si25.svg https://s3-eu-west-1.amazonaws.com/prod-ucs-content-store-eu-west/content/pii:S246882312500625X/image/svg+xml/fa945dd3ae01c12693d34b417fae9b4c/si25.svg si25 si25.svg svg 1673 ALTIMG 1-s2.0-S246882312500625X-si26.svg https://s3-eu-west-1.amazonaws.com/prod-ucs-content-store-eu-west/content/pii:S246882312500625X/image/svg+xml/0fa2280592981634d53b951f38367522/si26.svg si26 si26.svg svg 4133 ALTIMG 1-s2.0-S246882312500625X-si27.svg https://s3-eu-west-1.amazonaws.com/prod-ucs-content-store-eu-west/content/pii:S246882312500625X/image/svg+xml/94847737f3e4cef36949b25d0ff6cc52/si27.svg si27 si27.svg svg 5067 ALTIMG 1-s2.0-S246882312500625X-si28.svg https://s3-eu-west-1.amazonaws.com/prod-ucs-content-store-eu-west/content/pii:S246882312500625X/image/svg+xml/038fbf4d645eeef3d75d2c9eb040f3d0/si28.svg si28 si28.svg svg 7879 ALTIMG 1-s2.0-S246882312500625X-si29.svg https://s3-eu-west-1.amazonaws.com/prod-ucs-content-store-eu-west/content/pii:S246882312500625X/image/svg+xml/bfcf83951952d6d0245700434a2a1a07/si29.svg si29 si29.svg svg 7872 ALTIMG 1-s2.0-S246882312500625X-si3.svg https://s3-eu-west-1.amazonaws.com/prod-ucs-content-store-eu-west/content/pii:S246882312500625X/image/svg+xml/8a1248991fb079577e39b5dbba17b0e2/si3.svg si3 si3.svg svg 3611 ALTIMG 1-s2.0-S246882312500625X-si30.svg https://s3-eu-west-1.amazonaws.com/prod-ucs-content-store-eu-west/content/pii:S246882312500625X/image/svg+xml/b96f04c84d26feeba48fb49695107788/si30.svg si30 si30.svg svg 2732 ALTIMG 1-s2.0-S246882312500625X-si31.svg https://s3-eu-west-1.amazonaws.com/prod-ucs-content-store-eu-west/content/pii:S246882312500625X/image/svg+xml/82c7d00c55806eac4e6a988bff965a91/si31.svg si31 si31.svg svg 2943 ALTIMG 1-s2.0-S246882312500625X-si32.svg https://s3-eu-west-1.amazonaws.com/prod-ucs-content-store-eu-west/content/pii:S246882312500625X/image/svg+xml/148530e71d746c2b6e558f9d3903c289/si32.svg si32 si32.svg svg 3106 ALTIMG 1-s2.0-S246882312500625X-si33.svg https://s3-eu-west-1.amazonaws.com/prod-ucs-content-store-eu-west/content/pii:S246882312500625X/image/svg+xml/c1af8382fe7707012b04a559dbd85802/si33.svg si33 si33.svg svg 4476 ALTIMG 1-s2.0-S246882312500625X-si4.svg https://s3-eu-west-1.amazonaws.com/prod-ucs-content-store-eu-west/content/pii:S246882312500625X/image/svg+xml/53966214b14d5d293eac4544a6ed23fe/si4.svg si4 si4.svg svg 3111 ALTIMG 1-s2.0-S246882312500625X-si5.svg https://s3-eu-west-1.amazonaws.com/prod-ucs-content-store-eu-west/content/pii:S246882312500625X/image/svg+xml/e490b4e4e7ad40aa93af67e0f90f3ec4/si5.svg si5 si5.svg svg 3447 ALTIMG 1-s2.0-S246882312500625X-si6.svg https://s3-eu-west-1.amazonaws.com/prod-ucs-content-store-eu-west/content/pii:S246882312500625X/image/svg+xml/cd50f0808907822710c4422f4620dcee/si6.svg si6 si6.svg svg 2775 ALTIMG 1-s2.0-S246882312500625X-si7.svg https://s3-eu-west-1.amazonaws.com/prod-ucs-content-store-eu-west/content/pii:S246882312500625X/image/svg+xml/98b7fea6def9e0de27bb6b351cbba14a/si7.svg si7 si7.svg svg 4358 ALTIMG 1-s2.0-S246882312500625X-si8.svg https://s3-eu-west-1.amazonaws.com/prod-ucs-content-store-eu-west/content/pii:S246882312500625X/image/svg+xml/15049f62dc1da9f437b56f15b7693e6f/si8.svg si8 si8.svg svg 2476 ALTIMG 1-s2.0-S246882312500625X-si9.svg https://s3-eu-west-1.amazonaws.com/prod-ucs-content-store-eu-west/content/pii:S246882312500625X/image/svg+xml/a6483499ada3450c06274c78727890c6/si9.svg si9 si9.svg svg 2184 ALTIMG MCAT 115440 115440 S2468-8231(25)00625-X 10.1016/j.mcat.2025.115440 Elsevier B.V. Fig. 1 (a) Top and side views of the schematic structure of M2-N6-C monolayer; (b) Four-stage screening; (c) E f and U d i s s of M2–N6–C. Fig. 1: Fig. 2 Schematic diagram of the reaction path for electrochemical synthesis of urea from N2 and CO2. Fig. 2: Fig. 3 Free energy profiles of electrochemical urea production on (a) Ru2–N6–C and (b) Fe2–N6–C. Fig. 3: Fig. 4 Free energy profiles of the (a) NRR and (b) HER of M2–N6–C. Fig. 4: Fig. 5 Variation of energy with time for AIMD simulation of Ru2-N6-C surface at 300 K and 500 K with an interval of 2 fs. The inset figures show the optimized geometries (top and side views) at the endpoint. Fig. 5: Fig. 6 (a) Orbital coupling between the outermost orbitals of Fe and N in *N/Fe2–N6–C; (b) The orbital shapes of Fe's d x y , d y z , d x z , d z 2 and d x 2 − y 2 ; (c) PDOS of Fe in *N/Fe2–N6–C;(d) The PDOS M-d and N-p in N2 adsorbed Cr2–N6–C; Fe2–N6–C; and Ru2–N6–C, where the red dashed line and the gray dashed line indicate the d-band center ( ε d ) and the Fermi level ( E F ). Fig. 6: Research Paper Theoretical design of dual-metal-doped M2–N6–C sheet: An efficient electrocatalyst for urea synthesis from N2 and CO2 Ting Xiao Writing – original draft Validation Software Methodology Investigation Formal analysis Data curation Chunmei Tang Writing – review & editing Validation Supervision Methodology Investigation Conceptualization ⁎ Fujian Xion Investigation Formal analysis Yuanyuan Wang Validation Data curation College of Mechanics and Engineering Sciences, Hohai University, Nanjing 210098, China College of Mechanics and Engineering Sciences Hohai University Nanjing 210098 China College of Mechanics and Engineering Sciences, Hohai University, Nanjing 210098, China ⁎ Corresponding author. Industrial urea production remains heavily reliant on the energy-intensive Haber-Bosch process for ammonia synthesis, highlighting the critical need for sustainable alternatives. This study pioneers the exploration of dual-metal-doped M₂–N₆–C monolayer materials as novel catalysts for the sustainable electrocatalytic co-reduction of nitrogen (N₂) and carbon dioxide (CO₂) into urea. High-throughput first-principles calculations are employed to screen diverse bimetallic active centers. Ru₂–N₆–C, Fe₂–N₆–C, and Cr₂–N₆–C emerge as the most promising catalysts for the challenging urea synthesis reaction. Notably, the Ru₂–N₆–C catalyst exhibits a remarkably low limiting potential of 0.25 V, demonstrating not only superior catalytic activity but also exceptional selectivity towards urea formation. A key breakthrough lies in its effective suppression of competing reactions, specifically the nitrogen reduction reaction (NRR) and the hydrogen evolution reaction (HER), thereby addressing a major obstacle in electrochemical urea synthesis. This work underscores the significant potential of tailored dual-metal carbon-based catalysts and provides a crucial theoretical foundation for developing efficient and highly selective electrocatalytic urea synthesis technologies. Graphical abstract Image, graphical abstract Keywords Urea synthesis N2 and CO2 coupling Electrocatalysis First-principles calculations Dual atom catalyst Data availability Data will be made available on request. 1 Introduction Urea is an important chemical raw material and one of the most produced nitrogen fertilizers in the world. With the development of agriculture and industry, the demand for urea increases annually. At present, large-scale industry production of urea is mainly by the reaction of ammonia (NH3) and carbon dioxide (CO2) [2NH3 + CO2 → NH2CONH2 + H2O]. However, in recent years, NH3 is primarily obtained by the Haber-Bosch industrial synthesis of nitrogen and hydrogen at high temperatures (180∼200°C) and high pressures (150–250 atm), which consumes much thermal energy [1]. In addition, the rapid depletion of fossil fuel energy emits much CO2, which poses unprecedented challenges to carbon neutrality and the artificial nitrogen cycle [2]. Therefore, the C–N coupled urea synthesis of urea by CO2 and N2 under ambient conditions has received much attention [1]. In recent years, many researchers have contributed to the research of CO2+N2 coupled urea synthesis. For example, Kong et al. [3] proposed that anchoring a single metal atom in different sites in the two-dimensional (2D) BN nanosheets can obtain multiple active sites, which become highly activated and efficient electrocatalysts for the urea synthesis coupled with N2 and CO2. However, exploring more effective electrocatalysts is becoming important. As reported, bimetallic sites on the 2D nanomaterial can couple CO2 and N2 to produce urea more effectively under ambient conditions. In addition, Chen et al. [4] used PdCu–TiO2 for the electrocatalytic urea synthesis directly from N2 and CO2 under ambient conditions, indicating that bimetallic active sites are crucial for urea synthesis, of which the urea production rate is 2.8 times of that for the monometallic electrocatalyst, experimentally verifying the superiority of bimetallic coordination in reducing activation energy barriers. Graphene is a single-layer carbon atom arranged in a hexagonal lattice to form a honeycomb structure. Atomically dispersed metal–nitrogen–graphene (M–N–C) single-atom catalysts (SACs) are gaining attention in electrocatalysis for their high metal utilization efficiency due to their enhanced performance with lower metal loading [5]. For example, de Oliveira et al. [6] used the low-cost Fe–N–C electrocatalyst to couple N2 and CO2, producing urea at 0.156 mmol g⁻¹h⁻¹ with a Faraday efficiency of 2.13 % due to the enhanced chemisorption of N2 and CO2 at the active metal sites. Meanwhile, the 2D Fe-N4-C catalyst has shown excellent oxygen reduction activity and long-term stability. Zhang et al. [7] proposed a catalyst Cu/Mo₂C by anchoring size-selected Cu clusters on the 2D molybdenum carbide MXene, which can ensure the high selectivity for urea synthesis. As reported, Zhu et al. [8] researched the MBenes Mo2B2, Ti2B2, and Cr2B2 for coupling N2 and CO2 to produce urea by the electrocatalytic method, which showed superior activity and inhibited N2 reduction to NH3. From the practical application, doping low-ratio precious metal or cheap metal into the 2D nanomaterial should be cost-saving and important for catalyst development. Recently, Liu et al. [9] discovered dual V atom doping into defective graphene can activate adsorbed N₂, exhibiting catalytic activity for urea synthesis. Similarly, Cu and Pc dual metal doped C-N 2D sheet demonstrated a urea production rate of 143.47 µg h⁻¹mg⁻¹cat and a Faraday efficiency of 12.99 % by N2 and CO2 coupling [10]. Recently, Su et al. [11] reported single-atom metals dispersed on N-doped carbon materials, presenting a new strategy for designing catalysts for urea synthesis. Furthermore, other graphene-based nanosheets where N atoms substitute some C atoms to create vacancies, can be doped by dual metals to create structures such as Si2C9N4 monolayer [12], M2C4N3 monolayer [13], M1M2C2N monolayer [14], Mo2P [15] monolayer Mo2B2 [8] and Cr2B2 monolayer [8], Mo2VC2 MXene [16], and V2N6 monolayer [9], which have exhibited high catalytic activity for urea synthesis. Furthermore, Wang et al. [17] experimentally synthesized urea via the electroreduction of AuPd nanoalloys, achieving a Faradaic efficiency of 15.6 % and a urea production rate of 204.2 μg·mg⁻¹·h⁻¹. Mukherjee et al. [10] also demonstrated that copper phthalocyanine nanotubes (CuPc NTs) are effective for urea synthesis. A CuWO₄ catalyst featuring bimetallic sites achieved a high urea production rate of 98.5 μg·h⁻¹·mg⁻¹cat at −0.2 V. Numerous studies have demonstrated that bimetallic catalysts can be experimentally synthesized and are effective for urea production [18]. In electrochemical synthesis of urea, N2 and CO2 reaction involves a six-electron-proton coupling process, (N2 + CO2 + 6H+ + 6e- → CO(NH2)2 + H2O). However, there are still significant challenges to the response process: (1) N2 is an inert gas characterized by low chemical activity and weak chemical adsorption; (2) the dissociation energies of N-N (940.95 kJ mol-1) and C–O (806 kJ mol-1) are large and the reaction is slow; (3) NRR and HER [19] are the existing competing reactions. Therefore, the key challenges in the electrochemical synthesis of urea are the efficient design of electrocatalysts to facilitate electrochemical hydrogenation and give a good explanation and understanding of the reaction mechanism of C–N coupling [20]. This work theoretically designs 28 homonuclear diatomic catalysts by introducing bimetallic atoms into N-doped graphene. Based on density functional theory calculations, an efficient screening strategy is proposed to identify promising catalysts capable of effectively promoting the coupling reaction of N₂ and CO₂ to urea. The study demonstrates that the metal dimers and their adjacent N atoms serve as cooperative adsorption sites, facilitating the activation of the C–N coupling reaction and enabling selective urea formation. Notably, the Ru₂-N₆-C catalyst exhibits superior activity, selectivity, and stability. Finally, electronic structure analysis reveals the underlying mechanism responsible for the excellent performance of the identified catalysts. 2 Computational details Theoretical calculations in this paper are performed using the Vienna ab initio simulation package (VASP) based on the plane wave pseudo potentials method [21,22], with DFT-D3 method to correct the van der Waals interaction [23]. The projection-enhanced wave (PAW) [24] method can characterize the ion-electron interactions. The Perdew–Burke–Ernzerhof (PBE) [25] of generalized gradient approximation (GGA) exchange-correlation functions is adopted. The cutoff energy of the plane-wave basis group is 450 eV. The convergence criteria for self-consistent iterations are set to 10–5 eV for energy and 0.02 eV/Å for force. A vacuum layer with a thickness of 16 Å is used to simulate the structure. The C-N coupling reaction is in a 3 × 3 × 1 supercell. The structural stability is determined by frequency calculations of the optimized geometry. The charge of each atom can be obtained by the Bader charge calculation [26]. The thermodynamic stabilities of the doped structures at 300 K and 500 K are investigated using the ab initio arithmetic molecular dynamics simulation (AIMD) method based on the Nosé thermostat method of the 2 fs step length [27]. The implicit solvent model (via the VASPsol code) is used to account for the effects of solvation (Fig.S8) [28]. The graphical tool VESTA [29,30] is widely used to draw reports and graphs containing the electronic structure and isosurfaces. 3 Results and discussions 3.1 Screening and reaction mechanisms 3.1.1 Structure and stability As previously reported [31,32], the incorporation of 3d to 5d transition metals into the 2D structure has demonstrated the potential for urea production. Thus, as shown in Fig. 1 (a), we dope various 3d to 5d transition metals, including Al, Sc, Ti, V, Cr, Mn, Fe, Co, Ni, Cu, Zn, Ga, Y, Zr, Nb, Mo, Ru, Rh, Pd, Ag, Sn, Hf, Ta, W, Ir, Pt, Au, and Bi, into the 2D nitrogen-containing graphene-based substrates (N6-C) sheet and name them as M2–N6–C. This comprehensive research aims to identify the most effective metallic combinations and elucidate the catalytic mechanism for urea synthesis underlying the C–N coupling process [31,32]. Therefore, four criteria are established to screen for the optimal electrocatalyst in this study, as shown in Fig. 1(b). In addition, each metal atom in the M2–N6–C monolayer is bound to two N atoms with a low coordination number, which favors the adsorption and activation of inert N2 molecules. The formation energy ( E f ) and dissolution potential ( U d i s s ) of the M2–N6–C candidates are calculated to assess their thermodynamic and electrochemical stability. The E f can be calculated using the following expression [33]: (1) E f = ( E M 2 − N 6 − C − E N 6 − C − 2 E M ) / 2 Where, E M 2 − N 6 − C represents the total energy of the M2-N₆-C structure, E N 6 − C is the total energy of the N₆–C structure with a vacancy, and E M represents the total energy of isolated M atom in the supercell. The dissolution potential ( U d i s s ) is calculated using the following equation [34]: (2) U diss = U diss ∘ × E f ne Where, U d i s s ∘ and n represents the standard dissolution potential of the bulk metal M and the number of electrons involved in the dissolution process, respectively. As shown in Fig. 1(c) and Table S1, E f < 0 and U d i s s > 0 provide a quantitative evaluation of the stability of the structure. The E f of M2-N6-C (M = Ag, Au, Bi, Cu, Hf, Ir, Pt, Sc, Ti) monolayers are 0.53 eV, 1.10 eV, 2.60 eV, 0.65 eV, 2.15 eV, 2.52 eV, 1.24 eV, 0.14 eV, 1.68 eV. The U d i s s of M2-N6-C (M = Al, Ga, Hf, Mn, Sc, Ti, Y, Zn, Zr) monolayers are-0.66 V, −0.31 V, −2.09 V, −0.10 V, −2.13 V, −2.47 V, −2.29 V, −0.62 V, and −0.19 V, respectively, indicating these 15 catalytic systems do not exhibit excellent electrochemical stability. Moreover, as shown in Figure S1, the distance between M and the neighboring N atom is approximately 3.2 ∼ 4.5 Å, indicating the weak M–N interaction and the instability of the optimized M2–N6–C (M = Ag, Au, Bi, Pt, Ga, Ir) structures. Commonly, in the urea synthesis process, the stability of the intermediate is crucial to the reaction. Thus, only 13 kinds of metals, concluding V, Cr, Fe, Co, Ni, Nb, Mo, Ru, Rh, Pd, Sn, W, Ta are left for consideration. The performance in urea synthesis by N2 and CO2 is further explored. Notably, as shown in Fig. 2 , N2 and CO2 undergo synergistic reduction to synthesize urea (N2 + CO2 + 6H+ → CO(NH2)2 + H2O). This process typically involves four key stages: (1) adsorption of N2 molecules; (2) reduction of *CO2 to *CO; (3) coupling of *N2 and *CO to form *NCON (or further hydrogenation of *N2 to *N2H4); (4) hydrogenation of *NCON to synthesize urea (or coupling of *N2H4 with *CO to produce urea). Thus, the adsorption of N2 molecules should be the prerequisite for the urea synthesis process. Particularly, the design of the urea synthesis pathway emphasizes the N2 molecular adsorption, because the stably adsorbed N2 molecule is critical for more effectively completing the C–N coupling process [35]. Here, two N atoms are adsorbed on the surface in two adsorption modes (Fig. S2), where the left configuration shows parallel adsorption on two M atoms, while the right configuration involves vertical adsorption on one M atom. The adsorption energy ( E a b ) is a critical parameter for evaluating the ability of catalysts to adsorb reactant molecules. The positive E a b indicates the instability of the reactant molecules on the catalyst surface, thereby hindering the effective formation or activation of key intermediates in catalysis. As shown in Table S2, the E a b values of two N2 styles adsorbed by Mo2-N6-C monolayer are positive, reflecting their instability. The N2 adsorbed structures with the negative E a b are considered for the next reaction with CO2. At the same time, Fig. S3(b, c) illustrate that when Sn is doped into N6-graphene as bimetallic components, the distance between the adsorbed N2 and the metal atoms exceeds 3.3 Å, indicating the weak N2 adsorption. In addition, when two Zn atoms are introduced into the N6-graphene monolayer, the structure is also destroyed, which can prove the conclusion of U d i s s calculation results, as shown in Fig. S3(c). The Gibbs free energy change ( Δ G ) values for all possible reaction intermediates are calculated to identify the reaction pathway. As illustrated in Fig. 2, the reaction pathways for reducing CO2 and N2 to H2NCONH2 via C–N coupling primarily include three mechanisms. Pathway I assume vertical adsorption of *NN on the top site above the metal atom, which couples with CO2 to form the intermediate *NNCO2H. Subsequently, a hydrogenation reaction occurs, generating the key intermediate *NCON and releasing one H2O molecule. The *NCON intermediate undergoes further reduction to *NCONH, *HNCONH/*NCONH2, *HNCONH2, and finally *H2NCONH2. These transformations involve four electron transfer steps, ultimately leading to urea formation, depending on the mechanistic contributions of *HNCONH/*NCONH2. Pathways II and III explore the reduction of *NN after parallel adsorption. In Pathway II, *NN couples with CO2 to form the *NNCO2H intermediate, releasing one H2O molecule, followed by reduction steps similar to Pathway I. In contrast, Pathway III begins with the direct reduction of N2, proceeding through four electron transfer steps to generate the intermediates *NNH, *NNH2/*NHNH, *NHNH2, and *NH2NH2. These intermediates subsequently couple with CO2 to form *NH2CO2HNH2, which undergoes further reduction to *NH2CONH2, releasing an H2O molecule and ultimately producing urea. All three pathways involve both distal and alternative mechanisms. In summary, the optimal reaction pathway should prioritize catalysts capable of driving the reaction under low limiting overpotentials( U L ) to avoid the increased energy consumption and side reactions associated with high overpotentials [36]. Based on the data presented in Tables S3-S13 and Figure S4-S7, the limiting voltages ( U L ) for the M₂-N₆-C systems (M = W, Nb, Co, V, Ta, Pd, Cr, Ni, Ru, Rh, Fe) are −1.03 V, −1.13 V, −1.06 V, −1.05 V, −2.80 V, −0.94 V, −0.65 V, −0.57 V, −0.25 V, −0.50 V, and −0.43 V, respectively. Among these, the UL of M2–N6–C (M = W, Nb, Co, V, Ta, Pd) are all greater than that for the widely recognized PdCu catalyst (0.78 V) [4] and CuPc catalyst (1.67 V) [10]. In conclusion, M2–N6–C (M = Cr, Ni, Ru, Rh, Fe) should be the most promising characteristics and can be further investigated as ideal catalysts for urea synthesis. In addition, the mechanical properties of materials, including hardness, stiffness, and stability, are strongly related to their elastic constants [37]. Due to the high symmetry, M2–N6–C has only four independent elastic constants: C11, C12, C22, and C66. The elastic properties of M2–N6–C can also be described using a 3 × 3 elastic stiffness matrix [38,39]: (3) ( C 11 C 12 0 C 21 C 22 0 0 0 C 66 ) When studying the mechanical stability of M2–N6–C monolayer, the out-of-plane C66 can be calculated using the in-plane elastic constants C11 and C12 via the equation below [39]: (4) C 66 = C 11 − C 12 2 As shown in Table S14, the calculated elastic constants for M2–N6–C (M=Fe, Ni, Cr, Rh, Ru) meet the Born criteria (C11C22 - C12² > 0; C66 > 0), indicating their excellent mechanical stabilities. 3.1.2 Electrochemical urea production reaction To investigate the reaction mechanisms of M2–N6–C (M = Cr, Fe, Ru, Ni, and Rh) five catalysts, the Gibbs free energy difference ( Δ G ) of the intermediates in the urea production reaction is calculated and listed in Figs. 3 and S5–S7. Urea production can be divided into the electrochemical process (hydrogenation reaction) and the thermochemical process (molecular adsorption and desorption, as well as C-N coupling). The chemical adsorption and effective activation of inert N₂ molecules is the first step in electrochemical urea production, with Δ G values ranging from −0.60 eV to −1.49 eV. Fig. 3(a) shows the Δ G values and the structures of the intermediates during urea synthesis by Ru2–N6–C. The main reaction intermediates and their corresponding Δ G values are shown in the figure, where the distant pathway is colored in red and the alternate pathway is indicated by a blue curve. In the initial stage, N2 molecules are adsorbed and activated by the catalyst’s active sites, with the E a d value changes reflected in the energy drop section of the diagram. Subsequently, the activated CO2 and N2 species couple to form the key intermediate, *NHNH → *NHNH3, which is the rate-limiting step of the reaction, with a corresponding U L of -0.25 V (as indicated by the green arrow). The subsequent reaction path involves the transformation of multiple intermediates, with energy gradually decreasing until urea (NH2CONH2) is finally formed. Specific data can be found in Table S11. Additionally, a large number of studies have shown that the reasonable U value maintains a relatively stable trend in the performance of M-N-C catalysts. This suggests that the effect of DFT+U can be neglected on the performance for synthesizing urea in electrocatalysis [40–42]. Similarly, as shown in Fig. 3(b), the optimal path for urea synthesis over Fe2-N6-C is Path I, with *N2 → *N2CO2H as the rate-limiting step, and its U L value is −0.43 V. The subsequent four hydrogenation steps show a gradual decrease in energy, with a slight increase in energy during the conversion from *NHCOH2 to *CO(NH2)2. The alternate path is indicated by the red curve, and the distant path is shown in the blue curve. Specific data can be found in Table S13. Furthermore, experimentally, Zitolo et al. [43] successfully synthesized and characterized a dual-atom catalyst with a well-defined Fe₂–N₆ configuration on an N-doped carbon support. Liu et al. [44] proposed Fe-Nₓ configurations, while Gharibi et al. [45] reported Ru-based dual-atom sites. Qiu et al. [46] demonstrated the successful synthesis of a Ru single-atom catalyst (primarily Ru-N₄) and its excellent catalytic performance. These works provide the most direct experimental evidence for the Fe₂–N₆–C and Ru₂-N₆-C configurations. In Figure S5, the alternate path is indicated by the red curve, and the distant path by the blue curve, with Cr2–N6–C showing a U L of −0.65 V for urea synthesis. The optimal path is also Path III, where the intermediate structures are stable. Finally, in Fig. S6, the optimal pathway for urea synthesis on Ni₂–N₆–C is identified as Pathway III, where *N₂ → N₂H acts as the rate-determining step (RDS) with a U L of -0.57 V. All subsequent six steps are endergonic (requiring energy input). Similarly, Figure S7 reveals that Pathway III is the most favorable route for urea synthesis on Rh₂-N₆-C, with *NH₂CO₂HNH₂ → NH₂CONH₂ as the RDS exhibiting an overpotential of 0.50 V. It can be seen from Tables S9, S10, S11, and S13 that the urea desorption energies on these four catalyst surfaces are all less than 0, indicating that the process can proceed spontaneously. When the solvation effects are considered for these three materials (Figure S8), it is evident that solvation exerts only a minor influence on the catalytic activity. In summary, the electronic structure and surface properties of the catalysts significantly affect the efficiency of urea synthesis. 3.1.3 The electrocatalytic selectivity toward urea production As shown in Fig. 4 (a), the U L values for the NRR reaction ( U L N H 3 ) of M2-N6-C (M = Cr, Fe, Ni, Rh, Ru) are −0.67 V, −0.74 V, −0.57 V, −0.20 V, and −0.68 V, respectively. It is clear that the U L u r e a for urea formation should be lower than the U L N H 3 for ammonia formation to ensure high selectivity. According to Figure S9 and Table S15, the last two steps of the NRR reaction are both exergonic, meaning they can occur spontaneously during the reaction, while the last two steps of urea synthesis require an applied voltage to proceed. Additionally, U L N H 3 < U L u r e a is for Rh2-N6-C and U L u r e a = U L N H 3 is for Ni2-N6-C. Therefore, Ni2-N6-C and Rh2-N6-C are not ideal catalysts for urea synthesis. As shown in Fig. 4(b), the U L for the competitive HER for these five systems are more negative than that for urea synthesis. This indicates a strong inhibition of the HER reaction. Therefore, M2-N6-C (M = Cr, Fe, Ru) exhibits high selectivity for urea formation. The AIMD simulation results for the thermodynamic stability of M2–N6–C (M = Cr, Ru, Fe) at 300 K and 500 K are shown in Fig. 5 and Figure S10. As illustrated in the figure, no noticeable structural distortion is detected after 5000 molecular dynamics steps, which corresponds to a total 10 ps simulation time with a time step of 2 fs, which further confirms their excellent thermodynamic stability. 3.2 Electronic interaction mechanism As shown in Fig. 3 and Figure S5, the monolayer Fe2–N6–C exhibits the best N2 adsorption in a vertical configuration, while Cr2–N6–C and Ru2–N6–C monolayers prefer the N2 adsorption in a parallel configuration. According to the calculated electronic band structures (Fig. S11), the M2–N6–C (M=Cr, Ru, Fe) monolayers exhibit multiple bands crossing the Fermi level ( E F ), indicating their metallic nature and excellent electronic conductivity. This is in complete agreement with previous theoretical studies [47]. The Bader charge analysis in Figure S12 indicates that approximately 0.59 e to 0.76 e is transferred from the M metal to the anti-bonding π * orbital of the N2 molecule, resulting in an elongation of the N–N bond and consequently activating the N2 molecule. As shown in Fig. 6 (a∼c), the project density of states (PDOS) of d z 2 , d x z and d y z orbitals for Fe2–N6–C present peaks near the E F , indicating their strong involvement in the adsorption process and orbital coupling with N2. In contrast, the PDOS peaks of d x y and d x 2 − y 2 orbitals are more discrete, suggesting that these orbitals are primarily influenced by the local Fe environment, with relatively weaker coupling to N2. Specifically, the d z 2 orbital primarily forms a strong σ-bond coupling with the σ 2 p orbital of N2, enabling effective overlap between the lone pair electrons of N2 and the d z 2 orbital of Fe. This interaction facilitates robust adsorption of N2. Meanwhile, the d x z and d y z orbitals are involved in π-bond coupling with the π 2 p and π 2 p * orbitals of N2. Notably, the π 2 p * anti-bonding orbital exhibits a strong electron-accepting capability, allowing electron transfer from the Fe d-orbitals to N2. This electron transfer weakens the NN triple bond, effectively activating the N2 molecule. The d x y and d x 2 − y 2 orbitals are predominantly associated with crystal field interactions from surface atoms and have limited direct coupling with N2. However, they contribute to the overall stability of the geometrical structure. Consequently, the activation and adsorption of N2 primarily depend on the metal atoms at the active site, which is consistent with the Bader charge analysis. This mechanistic insight highlights the critical role of specific Fe d-orbitals in facilitating N2 activation and underscores the importance of electronic structure tuning in the design of effective catalysts for C–N coupling reactions. From the PDOS analysis of the *NN intermediates for M2-N6-C (M=Cr, Fe, Ru) shown in Figure 6(d), it can be seen that the d-orbitals of the metal atoms overlap with the p-orbitals of N, indicating that the empty orbitals of the metal atoms can accept π-electrons from N2, thereby strengthening the adsorption of N2. This is consistent with the analysis in Figs. S13 and 6. The overlap primarily occurs in the low-energy states below the E F , suggesting that the interaction between the metal and N is significantly enhanced, resulting in the formation of a stronger M–N bond, which makes the NN bond more susceptible to cleavage. Finally, the calculated d-band centers ( ε d ) for the M2–N6–C (M = Cr, Fe, Ru) catalysts are −0.89 eV, −1.42 eV, and −1.60 eV, respectively. When the d-band center is positioned close to the E F , the interaction between the d-orbital electrons and the orbitals of reactant molecules becomes more pronounced. This results in enhanced bonding between the metal and the adsorbate, promoting the adsorption of reactants onto the catalyst surface. In addition, the total density of states (TDOS) shown in Fig.S13(a) indicates that five systems exhibit metallic properties. The PDOS shown in Fig. S13(b) is preliminarily assessed for its potential as urea production catalyst. The contribution of the d-orbitals of the metal atoms to the TDOS is the largest and serves as the primary source of their conductivity. 4 Conclusion Among the 28 bimetallic-doped systems screened, Ru2–N6–C, Fe2–N6–C, and Cr2–N6–C exhibited superior activity and selectivity in electrochemical urea synthesis, with limiting potentials of 0.25 V, 0.43 V, and 0.65 V, respectively, which are significantly lower than the 0.78 V those of the traditional PdCu catalyst (0.78 V). Analysis of the electronic structure, reaction pathways, and thermodynamic stability indicated that the high efficiency of these catalysts originated from their strong synergistic adsorption and activation of N2 and CO2. Electron transfer from metal d-orbitals to the antibonding π* orbitals of N2 weakened the NN bond, promoting C-N coupling. AIMD simulations demonstrated that these catalysts maintained excellent geometric stability at 300 K and 500 K. Ru2-N6-C had the lowest rate-determining step energy barrier (*N2H2 → *NHNH2, Δ G = 0.25 eV), while Fe2–N6–C and Cr2–N6–C had rate-limiting steps at *N2 → *N2CO2H ( Δ G = 0.43 eV) and *NHNH2 → *N2H4 ( Δ G = 0.65 eV), respectively. Electronic structure analysis revealed that metal d-orbital coupling with N2’s π orbitals was the core mechanism for N2 activation, and Bader charge transfer (0.59–0.76 e) supported the electronic effect on the reaction pathway. Ru2-N6-C, Fe2-N6-C, and Cr2-N6-C had higher selectivity for urea synthesis than NRR ( U L u r e a < U L N H 3 ). Ru2-N6-C’s U L u r e a (0.25 V) is much lower than its U L N H 3 (0.68 V), and the HER competitive potential indicated effective suppression of hydrogen gas by-products, ensuring high Faraday efficiency for urea. In conclusion, this work can provide a theoretical basis for designing efficient and low-cost electrocatalysts for urea synthesis, highlighting the unique advantages of bimetallic-doped M2-N6-C materials in C-N coupling reactions. CRediT authorship contribution statement Ting Xiao: Writing – original draft, Validation, Software, Methodology, Investigation, Formal analysis, Data curation. Chunmei Tang: Writing – review & editing, Validation, Supervision, Methodology, Investigation, Conceptualization. Fujian Xion: Investigation, Formal analysis. Yuanyuan Wang: Validation, Data curation. Declaration of competing interest The authors declare that they have no known competing financial interests or personal relationships that could have appeared to influence the work reported in this paper. Acknowledgments This work was supported by the Water Conservancy Science and Technology Project of Jiangsu Province, China (No.2024005 and 2025012) Supplementary materials Supplementary material associated with this article can be found, in the online version, at doi:10.1016/j.mcat.2025.115440. Appendix Supplementary materials Image, application 1 References [1] Y.J. Hou L. Guo Theoretical study on the synthesis of urea by series electrocatalysis of lithium main group embedded in COF structure J. Solid State Chem. 332 2024 Y.J. Hou, L. Guo, Theoretical study on the synthesis of urea by series electrocatalysis of lithium main group embedded in COF structure, J. Solid State Chem. 332 (2024) [2] Y.C. Wan M.Y. Zheng W. Yan J.J. Zhang R.T. Lv Fundamentals and rational design of heterogeneous C-N Coupling electrocatalysts for urea synthesis at ambient conditions Adv. Energy Mater. 14 2024 Y.C. Wan, M.Y. Zheng, W. Yan, J.J. Zhang, R.T. Lv, Fundamentals and rational design of heterogeneous C-N Coupling electrocatalysts for urea synthesis at ambient conditions, Adv. Energy Mater. 14 (2024) [3] L.Y. Kong D.X. Jiao Z.X. Wang Y.J. Liu Y.C. Shang L.C. Yin Q.H. Cai J.X. Zhao Single metal atom anchored on porous boron nitride nanosheet for efficient collaborative urea electrosynthesis: a computational study Chem. Eng. J. 451 2023 L.Y. Kong, D.X. Jiao, Z.X. Wang, Y.J. Liu, Y.C. Shang, L.C. Yin, Q.H. Cai, J.X. Zhao, Single metal atom anchored on porous boron nitride nanosheet for efficient collaborative urea electrosynthesis: a computational study, Chem. Eng. J. 451 (2023) [4] C. Chen X. Zhu X. Wen Y. Zhou L. Zhou H. Li L. Tao Q. Li S. Du T. Liu Coupling N2 and CO2 in H2O to synthesize urea under ambient conditions Nat. Chem. 12 2020 717 C. Chen, X. Zhu, X. Wen, Y. Zhou, L. Zhou, H. Li, L. Tao, Q. Li, S. Du, T. Liu, Coupling N2 and CO2 in H2O to synthesize urea under ambient conditions, Nat. Chem. 12 (2020) 717. [5] E. Murphy Y.C. Liu B.Y. Sun Y.H. Chen S.Y. Guo P. Atanassov Atomically dispersed metal-nitrogen-carbon catalysts for electrochemical nitrogen transformations to ammonia and beyond ACS Catal. 14 2024 9797 9811 E. Murphy, Y.C. Liu, B.Y. Sun, Y.H. Chen, S.Y. Guo, P. Atanassov, Atomically dispersed metal-nitrogen-carbon catalysts for electrochemical nitrogen transformations to ammonia and beyond, ACS Catal. 14 (2024) 9797–9811. [6] M.A.C. de Oliveira P.P.M. Pico W.D. Freitas A. D'Epifanio B. Mecheri Iron-based electrocatalysts for energy conversion: effect of ball milling on oxygen reduction activity Appl.. Sci. 10 2020 M.A.C. de Oliveira, P.P.M. Pico, W.D. Freitas, A. D'Epifanio, B. Mecheri, Iron-based electrocatalysts for energy conversion: effect of ball milling on oxygen reduction activity, Appl.. Sci. 10 (2020) [7] Y. Zhang L.G. Lu T.T. Zhao J.X. Zhao Q.H. Cai Z.F. Chen Efficient urea synthesis via one-step N-C-N coupling: strong metal-support interaction-driven planar Cu clusters on two-dimensional Mo2C MXene J. Mater. Chem. A 12 2024 16704 16715 Y. Zhang, L.G. Lu, T.T. Zhao, J.X. Zhao, Q.H. Cai, Z.F. Chen, Efficient urea synthesis via one-step N-C-N coupling: strong metal-support interaction-driven planar Cu clusters on two-dimensional Mo2C MXene, J. Mater. Chem. A 12 (2024) 16704–16715. [8] X.R. Zhu X.C. Zhou Y. Jing Y.F. Li Electrochemical synthesis of urea on MBenes Nat. Commun. 12 2021 X.R. Zhu, X.C. Zhou, Y. Jing, Y.F. Li, Electrochemical synthesis of urea on MBenes, Nat. Commun. 12 (2021) [9] J.X. Liu S.C. Smith Y.T. Gu L.Z. Kou C-N coupling enabled by N-N bond breaking for electrochemical urea production Adv. Funct. Mater. 33 2023 J.X. Liu, S.C. Smith, Y.T. Gu, L.Z. Kou, C-N coupling enabled by N-N bond breaking for electrochemical urea production, Adv. Funct. Mater. 33 (2023) [10] J. Mukherjee S. Paul A. Adalder S. Kapse R. Thapa S. Mandal B. Ghorai S. Sarkar U.K. Ghorai Understanding the site-selective electrocatalytic Co-reduction mechanism for green urea synthesis using copper phthalocyanine nanotubes Adv. Funct. Mater. 32 2022 J. Mukherjee, S. Paul, A. Adalder, S. Kapse, R. Thapa, S. Mandal, B. Ghorai, S. Sarkar, U.K. Ghorai, Understanding the site-selective electrocatalytic Co-reduction mechanism for green urea synthesis using copper phthalocyanine nanotubes, Adv. Funct. Mater. 32 (2022) [11] Q.W. Su S.C. Yang S.Y. Shang S. Liu D.X. Jiao Y.W. Yan X.S. Song K. Chu J.X. Zhao Theory-guide design of integrative catalytic pairs for urea synthesis from nitrate and carbon dioxide ACS Nano 19 2025 18492 18501 Q.W. Su, S.C. Yang, S.Y. Shang, S. Liu, D.X. Jiao, Y.W. Yan, X.S. Song, K. Chu, J.X. Zhao, Theory-guide design of integrative catalytic pairs for urea synthesis from nitrate and carbon dioxide, ACS Nano 19 (2025) 18492–18501. [12] S. Dutta S.K. Pati Urea production on metal-free dual silicon doped C9N4 nanosheet under ambient conditions by electrocatalysis: a first principles study Chemphyschem 24 2023 S. Dutta, S.K. Pati, Urea production on metal-free dual silicon doped C9N4 nanosheet under ambient conditions by electrocatalysis: a first principles study, Chemphyschem 24 (2023) [13] J.X. Liu X.S. Lv Y.D. Ma S.C. Smith Y.T. Gu L.Z. Kou Electrocatalytic urea synthesis via N2 dimerization and universal descriptor ACS NANO 17 2023 25667 25678 J.X. Liu, X.S. Lv, Y.D. Ma, S.C. Smith, Y.T. Gu, L.Z. Kou, Electrocatalytic urea synthesis via N2 dimerization and universal descriptor, ACS NANO 17 (2023) 25667–25678. [14] C.Z. Liu F. Gong Q. Zhou Y.L. Xie Urea synthesis from N2 and CO2 over dual-atom catalysts: a high-throughput computational insight Energy Fuels 38 2024 8951 8959 C.Z. Liu, F. Gong, Q. Zhou, Y.L. Xie, Urea synthesis from N2 and CO2 over dual-atom catalysts: a high-throughput computational insight, Energy Fuels 38 (2024) 8951–8959. [15] D. jiao, Z. Wang, Y. Liu, Q. Cai, J. Zhao, C. R. Cabrera, & Z. Chen, Mo2P monolayer as a superior electrocatalyst for urea synthesis from nitrogen and carbon dioxide fixation: a computational study Energy Environ. Mater. 7 2024 Mo2P monolayer as a superior electrocatalyst for urea synthesis from nitrogen and carbon dioxide fixation: a computational study, Energy Environ. Mater. 7 (2024) [16] Y.F. Yang J.H. Peng Z.H. Shi P. Zhang A. Arramel N. Li Unveiling the key intermediates in electrocatalytic synthesis of urea with CO2 and N2 coupling reactions on double transition-metal MXenes J. Mater. Chem. A 11 2023 6428 6439 Y.F. Yang, J.H. Peng, Z.H. Shi, P. Zhang, A. Arramel, N. Li, Unveiling the key intermediates in electrocatalytic synthesis of urea with CO2 and N2 coupling reactions on double transition-metal MXenes, J. Mater. Chem. A 11 (2023) 6428–6439. [17] H. Wang Y. Jiang S.J. Li F.L. Gou X.R. Liu Y.M. Jiang W. Luo W. Shen R.X. He M. Li Realizing efficient C-N coupling via electrochemical co-reduction of CO2 and NO3 on AuPd nanoalloy to form urea: Key C-N coupling intermediates Appl. Catal. B-Environ. Energy 318 2022 H. Wang, Y. Jiang, S.J. Li, F.L. Gou, X.R. Liu, Y.M. Jiang, W. Luo, W. Shen, R.X. He, M. Li, Realizing efficient C-N coupling via electrochemical co-reduction of CO2 and NO3 on AuPd nanoalloy to form urea: Key C-N coupling intermediates, Appl. Catal. B-Environ. Energy 318 (2022) [18] Y.L. Zhao Y.X. Ding W.L. Li C. Liu Y.Z. Li Z.Q. Zhao Y. Shan F. Li L.C. Sun F.S. Li Efficient urea electrosynthesis from carbon dioxide and nitrate via alternating Cu-W bimetallic C-N coupling sites Nat. Commun. 14 2023 Y.L. Zhao, Y.X. Ding, W.L. Li, C. Liu, Y.Z. Li, Z.Q. Zhao, Y. Shan, F. Li, L.C. Sun, F.S. Li, Efficient urea electrosynthesis from carbon dioxide and nitrate via alternating Cu-W bimetallic C-N coupling sites, Nat. Commun. 14 (2023) [19] Y.J. Hou L. Guo F.L. Luo Theoretical study on urea synthesis from N2 and CO2 catalyzed by electrochemical tandem catalysis of CCFs materials Catal. Surv. Asia 27 2023 363 378 Y.J. Hou, L. Guo, F.L. Luo, Theoretical study on urea synthesis from N2 and CO2 catalyzed by electrochemical tandem catalysis of CCFs materials, Catal. Surv. Asia 27 (2023) 363–378. [20] Y.Y. Cao Y.X. Meng R.Z. An X.H. Zou H.J. Huang W.C. Zhong Z.F. Shen Q.E. Xia X. Li Y.A. Wang Revealing electrocatalytic C-N coupling for urea synthesis with metal-free electrocatalyst J. Colloid Interface Sci. 641 2023 990 999 Y.Y. Cao, Y.X. Meng, R.Z. An, X.H. Zou, H.J. Huang, W.C. Zhong, Z.F. Shen, Q.E. Xia, X. Li, Y.A. Wang, Revealing electrocatalytic C-N coupling for urea synthesis with metal-free electrocatalyst, J. Colloid Interface Sci. 641 (2023) 990–999. [21] G. Kresse J. Furthmuller Efficiency of ab-initio total energy calculations for metals and semiconductors using a plane-wave basis set Comput. Mater. Sci. 6 1996 15 50 G. Kresse, J. Furthmuller, Efficiency of ab-initio total energy calculations for metals and semiconductors using a plane-wave basis set, Comput. Mater. Sci. 6 (1996) 15–50. [22] Furthmuller Kresse Hafner Theory of the crystal structures of selenium and tellurium: The effect of generalized-gradient corrections to the local-density approximation Phys. Rev., B Condens. Matter 50 1994 13181 13185 Kresse, Furthmuller, Hafner, Theory of the crystal structures of selenium and tellurium: The effect of generalized-gradient corrections to the local-density approximation, Phys. Rev., B Condens. Matter 50 (1994) 13181–13185. [23] S. Grimme Semiempirical GGA-type density functional constructed with a long-range dispersion correction J. Comput. Chem. 27 2006 1787 1799 S. Grimme, Semiempirical GGA-type density functional constructed with a long-range dispersion correction, J. Comput. Chem. 27 (2006) 1787–1799. [24] P.E. Blöchl C.J. Först J. Schimpl Projector augmented wave method: ab initio molecular dynamics with full wave functions Bull. Mater. Sci. 26 2003 33 41 P.E. Blöchl, C.J. Först, J. Schimpl, Projector augmented wave method: ab initio molecular dynamics with full wave functions, Bull. Mater. Sci. 26 (2003) 33–41. [25] C. Perdew J. Vosko S. Pederson Fiolhais Erratum: aatoms, molecules, solids, and surfaces: aapplications of the generalized gradient approximation for exchange and correlation Phys. Rev., B Condens. Matter 48 1993 4978 Perdew, C., Vosko, J., Pederson, S., Fiolhais, Erratum: aatoms, molecules, solids, and surfaces: aapplications of the generalized gradient approximation for exchange and correlation, Phys. Rev., B Condens. Matter 48 (1993) 4978. [26] R.F.W. Bader Atoms in molecules Acc. Chem. Res. 18 1985 9 15 R.F.W. Bader, Atoms in molecules, Acc. Chem. Res. 18 (1985) 9–15. [27] V. Wang N. Xu J.-C. Liu G. Tang W.-T. Geng VASPKIT: a user-friendly interface facilitating high-throughput computing and analysis using VASP code Comput. Phys. Commun. 267 2021 108033 V. Wang, N. Xu, J.-C. Liu, G. Tang, W.-T. Geng, VASPKIT: a user-friendly interface facilitating high-throughput computing and analysis using VASP code, Comput. Phys. Commun. 267 (2021) 108033. [28] K. Mathew R. Sundararaman K. Letchworth-Weaver T.A. Arias R.G. Hennig Implicit solvation model for density-functional study of nanocrystal surfaces and reaction pathways J. Chem. Phys. 140 2014 K. Mathew, R. Sundararaman, K. Letchworth-Weaver, T.A. Arias, R.G. Hennig, Implicit solvation model for density-functional study of nanocrystal surfaces and reaction pathways, J. Chem. Phys. 140 (2014) [29] K. Momma F. Izumi VESTA: a three-dimensional visualization system for electronic and structural analysis J. Appl. Crystallogr. 41 2008 653 658 K. Momma, F. Izumi, VESTA: a three-dimensional visualization system for electronic and structural analysis, J. Appl. Crystallogr. 41 (2008) 653–658. [30] K. Momma F. Izumi VESTA 3 for three-dimensional visualization of crystal, volumetric and morphology data J. Appl. Crystallogr. 44 2011 1272 1276 K. Momma, F. Izumi, VESTA 3 for three-dimensional visualization of crystal, volumetric and morphology data, J. Appl. Crystallogr. 44 (2011) 1272–1276. [31] Y. Hou L. Guo Theoretical study on the synthesis of urea by series electrocatalysis of lithium main group embedded in COF structure J. Solid State Chem. 332 2024 124539 Y. Hou, L. Guo, Theoretical study on the synthesis of urea by series electrocatalysis of lithium main group embedded in COF structure, J. Solid State Chem. 332 (2024) 124539. [32] W. Zhong D. Chen Y. Wu J. Yue Z. Shen H. Huang Y. Wang X. Li J.-P. Lang Q. Xia Y. Cao Screening of transition metal and boron atoms co-doped graphdiyne catalysts for electrocatalytic urea synthesis J. Colloid Interface Sci. 655 2024 80 89 W. Zhong, D. Chen, Y. Wu, J. Yue, Z. Shen, H. Huang, Y. Wang, X. Li, J.-P. Lang, Q. Xia, Y. Cao, Screening of transition metal and boron atoms co-doped graphdiyne catalysts for electrocatalytic urea synthesis, J. Colloid Interface Sci. 655 (2024) 80–89. [33] P. Roy A. Pramanik P. Sarkar Dual-silicon-doped graphitic carbon nitride sheet: an efficient metal-free electrocatalyst for urea synthesis J. Phys.Chem. Lett. 12 2021 10837 10844 P. Roy, A. Pramanik, P. Sarkar, Dual-silicon-doped graphitic carbon nitride sheet: an efficient metal-free electrocatalyst for urea synthesis, J. Phys.Chem. Lett. 12 (2021) 10837–10844. [34] C.Y. Zhu M. Wang C.X. Wen M. Zhang Y. Geng G.S. Zhu Z.M. Su Establishing the Principal descriptor for electrochemical urea production via the dispersed dual-metals anchored on the N-decorated graphene Adv. Sci. 9 2022 C.Y. Zhu, M. Wang, C.X. Wen, M. Zhang, Y. Geng, G.S. Zhu, Z.M. Su, Establishing the Principal descriptor for electrochemical urea production via the dispersed dual-metals anchored on the N-decorated graphene, Adv. Sci. 9 (2022) [35] C. Liu F. Gong Q. Zhou Y. Xie Urea synthesis from N2 and CO2 over dual-atom catalysts: a high-throughput computational insight Energy Fuels 38 2024 8951 8959 C. Liu, F. Gong, Q. Zhou, Y. Xie, Urea synthesis from N2 and CO2 over dual-atom catalysts: a high-throughput computational insight, Energy Fuels 38 (2024) 8951–8959. [36] M.L. Yuan J.W. Chen Y. Xu R.J. Liu T.K. Zhao J.X. Zhang Z.Y. Ren Z.J. Liu C. Streb H.Y. He C. Yang S.J. Zhang G.J. Zhang Highly selective electroreduction of N2 and CO2 to urea over artificial frustrated Lewis pairs Energy Environ. Sci. 14 2021 6605 6615 M.L. Yuan, J.W. Chen, Y. Xu, R.J. Liu, T.K. Zhao, J.X. Zhang, Z.Y. Ren, Z.J. Liu, C. Streb, H.Y. He, C. Yang, S.J. Zhang, G.J. Zhang, Highly selective electroreduction of N2 and CO2 to urea over artificial frustrated Lewis pairs, Energy Environ. Sci. 14 (2021) 6605–6615. [37] S.M.J. Zaidi M.I. Khan S.S.A. Gillani M.S.U. Sahar S. Ullah M. Tanveer A comprehensive DFT study to evaluate the modulation in the band gap, elastic, and optical behaviour of CsPbBr3 under the effect of stress Mater. Res. Express 9 2022 S.M.J. Zaidi, M.I. Khan, S.S.A. Gillani, M.S.U. Sahar, S. Ullah, M. Tanveer, A comprehensive DFT study to evaluate the modulation in the band gap, elastic, and optical behaviour of CsPbBr3 under the effect of stress, Mater. Res. Express 9 (2022) [38] J. Pokluda M. Černý M. Šob Y. Umeno Ab initio calculations of mechanical properties: methods and applications Prog. Mater. Sci. 73 2015 127 158 J. Pokluda, M. Černý, M. Šob, Y. Umeno, Ab initio calculations of mechanical properties: methods and applications, Prog. Mater. Sci. 73 (2015) 127–158. [39] D. Liu A.G. Every D. Tománek Continuum approach for long-wavelength acoustic phonons in quasi-two-dimensional structures Phys. Rev. B 94 2016 D. Liu, A.G. Every, D. Tománek, Continuum approach for long-wavelength acoustic phonons in quasi-two-dimensional structures, Phys. Rev. B 94 (2016) [40] K.D. Vogiatzis M.V. Polynski J.K. Kirkland J. Townsend A. Hashemi C. Liu E.A. Pidko Computational approach to molecular catalysis by 3d transition metals: challenges and opportunities Chem. Rev. 119 2019 2453 2523 K.D. Vogiatzis, M.V. Polynski, J.K. Kirkland, J. Townsend, A. Hashemi, C. Liu, E.A. Pidko, Computational approach to molecular catalysis by 3d transition metals: challenges and opportunities, Chem. Rev. 119 (2019) 2453–2523. [41] J. Bu Z.P. Liu W.X. Ma L. Zhang T. Wang H.P. Zhang Q.Y. Zhang X.L. Feng J. Zhang Selective electrocatalytic semihydrogenation of acetylene impurities for the production of polymer-grade ethylene Nat. Catal. 4 2021 557 564 J. Bu, Z.P. Liu, W.X. Ma, L. Zhang, T. Wang, H.P. Zhang, Q.Y. Zhang, X.L. Feng, J. Zhang, Selective electrocatalytic semihydrogenation of acetylene impurities for the production of polymer-grade ethylene, Nat. Catal. 4 (2021) 557–564. [42] Y.L. Chen G.T. Yu W. Chen Y.P. Liu G.D. Li P.W. Zhu Q. Tao Q.J. Li J.W. Liu X.P. Shen H. Li X.R. Huang D.J. Wang T. Asefa X.X. Zou Highly active, nonprecious electrocatalyst comprising borophene subunits for the hydrogen evolution reaction J. Am. Chem. Soc. 139 2017 12370 12373 Y.L. Chen, G.T. Yu, W. Chen, Y.P. Liu, G.D. Li, P.W. Zhu, Q. Tao, Q.J. Li, J.W. Liu, X.P. Shen, H. Li, X.R. Huang, D.J. Wang, T. Asefa, X.X. Zou, Highly active, nonprecious electrocatalyst comprising borophene subunits for the hydrogen evolution reaction, J. Am. Chem. Soc. 139 (2017) 12370–12373. [43] A. Zitolo V. Goellner V. Armel M.T. Sougrati T. Mineva L. Stievano E. Fonda F. Jaouen Identification of catalytic sites for oxygen reduction in iron- and nitrogen-doped graphene materials Nat. Mater. 14 2015 937 A. Zitolo, V. Goellner, V. Armel, M.T. Sougrati, T. Mineva, L. Stievano, E. Fonda, F. Jaouen, Identification of catalytic sites for oxygen reduction in iron- and nitrogen-doped graphene materials, Nat. Mater. 14 (2015) 937. [44] F. Liu L. Shi X.N. Lin D.L. Yu C. Zhang R. Xu D. Liu J.S. Qiu L.M. Dai Site-density engineering of single-atomic iron catalysts for high-performance proton exchange membrane fuel cells Appl. Catal. B-Environ. Energy 302 2022 F. Liu, L. Shi, X.N. Lin, D.L. Yu, C. Zhang, R. Xu, D. Liu, J.S. Qiu, L.M. Dai, Site-density engineering of single-atomic iron catalysts for high-performance proton exchange membrane fuel cells, Appl. Catal. B-Environ. Energy 302 (2022) [45] H. Gharibi N. Dalir M. Jafari M.J. Parnian M. Zhiani Engineering dual metal single-atom sites with the nitrogen-coordinated nonprecious catalyst for oxygen reduction reaction (ORR) in acidic electrolyte Appl. Surf. Sci. 572 2022 H. Gharibi, N. Dalir, M. Jafari, M.J. Parnian, M. Zhiani, Engineering dual metal single-atom sites with the nitrogen-coordinated nonprecious catalyst for oxygen reduction reaction (ORR) in acidic electrolyte, Appl. Surf. Sci. 572 (2022) [46] J.Z. Qiu J.B. Hu J.G. Lan L.F. Wang G.Y. Fu R.J. Xiao B.H. Ge J.X. Jiang Pure siliceous zeolite-supported Ru single-atom active sites for ammonia synthesis Chem. Mater. 31 2019 9413 9421 J.Z. Qiu, J.B. Hu, J.G. Lan, L.F. Wang, G.Y. Fu, R.J. Xiao, B.H. Ge, J.X. Jiang, Pure siliceous zeolite-supported Ru single-atom active sites for ammonia synthesis, Chem. Mater. 31 (2019) 9413–9421. [47] T. Kono M. Kakoki T. Yoshikawa X.X. Wang K. Goto T. Muro R.Y. Umetsu A. Kimura Visualizing half-metallic bulk band structure with multiple Weyl cones of the heusler ferromagnet Phys. Rev. Lett. 125 2020 T. Kono, M. Kakoki, T. Yoshikawa, X.X. Wang, K. Goto, T. Muro, R.Y. Umetsu, A. Kimura, Visualizing half-metallic bulk band structure with multiple Weyl cones of the heusler ferromagnet, Phys. Rev. Lett. 125 (2020)",
+      "scopus-id": "105013963365",
+      "coredata": {
+        "eid": "1-s2.0-S246882312500625X",
+        "dc:description": "Industrial urea production remains heavily reliant on the energy-intensive Haber-Bosch process for ammonia synthesis, highlighting the critical need for sustainable alternatives. This study pioneers the exploration of dual-metal-doped M₂–N₆–C monolayer materials as novel catalysts for the sustainable electrocatalytic co-reduction of nitrogen (N₂) and carbon dioxide (CO₂) into urea. High-throughput first-principles calculations are employed to screen diverse bimetallic active centers. Ru₂–N₆–C, Fe₂–N₆–C, and Cr₂–N₆–C emerge as the most promising catalysts for the challenging urea synthesis reaction. Notably, the Ru₂–N₆–C catalyst exhibits a remarkably low limiting potential of 0.25 V, demonstrating not only superior catalytic activity but also exceptional selectivity towards urea formation. A key breakthrough lies in its effective suppression of competing reactions, specifically the nitrogen reduction reaction (NRR) and the hydrogen evolution reaction (HER), thereby addressing a major obstacle in electrochemical urea synthesis. This work underscores the significant potential of tailored dual-metal carbon-based catalysts and provides a crucial theoretical foundation for developing efficient and highly selective electrocatalytic urea synthesis technologies.",
+        "openArchiveArticle": "false",
+        "prism:coverDate": "2025-11-30",
+        "openaccessUserLicense": null,
+        "prism:aggregationType": "Journal",
+        "prism:url": "https://api.elsevier.com/content/article/pii/S246882312500625X",
+        "dc:creator": [
+          {
+            "@_fa": "true",
+            "$": "Xiao, Ting"
+          },
+          {
+            "@_fa": "true",
+            "$": "Tang, Chunmei"
+          },
+          {
+            "@_fa": "true",
+            "$": "Xion, Fujian"
+          },
+          {
+            "@_fa": "true",
+            "$": "Wang, Yuanyuan"
+          }
+        ],
+        "link": [
+          {
+            "@_fa": "true",
+            "@rel": "self",
+            "@href": "https://api.elsevier.com/content/article/pii/S246882312500625X"
+          },
+          {
+            "@_fa": "true",
+            "@rel": "scidir",
+            "@href": "https://www.sciencedirect.com/science/article/pii/S246882312500625X"
+          }
+        ],
+        "dc:format": "application/json",
+        "openaccessType": null,
+        "pii": "S2468-8231(25)00625-X",
+        "prism:volume": "586",
+        "articleNumber": "115440",
+        "prism:publisher": "Elsevier B.V. All rights are reserved, including those for text and data mining, AI training, and similar technologies.",
+        "dc:title": "Theoretical design of dual-metal-doped M2–N6–C sheet: An efficient electrocatalyst for urea synthesis from N2 and CO2",
+        "prism:copyright": "© 2025 Elsevier B.V. All rights are reserved, including those for text and data mining, AI training, and similar technologies.",
+        "openaccess": "0",
+        "prism:issn": "24688231",
+        "dcterms:subject": [
+          {
+            "@_fa": "true",
+            "$": "Urea synthesis"
+          },
+          {
+            "@_fa": "true",
+            "$": "N2 and CO2 coupling"
+          },
+          {
+            "@_fa": "true",
+            "$": "Electrocatalysis"
+          },
+          {
+            "@_fa": "true",
+            "$": "First-principles calculations"
+          },
+          {
+            "@_fa": "true",
+            "$": "Dual atom catalyst"
+          }
+        ],
+        "openaccessArticle": "false",
+        "prism:publicationName": "Molecular Catalysis",
+        "openaccessSponsorType": null,
+        "prism:pageRange": "115440",
+        "pubType": "fla",
+        "prism:coverDisplayDate": "November 2025",
+        "prism:doi": "10.1016/j.mcat.2025.115440",
+        "prism:startingPage": "115440",
+        "dc:identifier": "doi:10.1016/j.mcat.2025.115440",
+        "openaccessSponsorName": null
+      },
+      "objects": {
+        "object": [
+          {
+            "@category": "standard",
+            "@height": "332",
+            "@width": "565",
+            "@_fa": "true",
+            "$": "https://api.elsevier.com/content/object/eid/1-s2.0-S246882312500625X-gr5.jpg?httpAccept=%2A%2F%2A",
+            "@multimediatype": "JPEG image file",
+            "@type": "IMAGE-DOWNSAMPLED",
+            "@size": "56220",
+            "@ref": "gr5",
+            "@mimetype": "image/jpeg"
+          },
+          {
+            "@category": "standard",
+            "@height": "512",
+            "@width": "470",
+            "@_fa": "true",
+            "$": "https://api.elsevier.com/content/object/eid/1-s2.0-S246882312500625X-gr4.jpg?httpAccept=%2A%2F%2A",
+            "@multimediatype": "JPEG image file",
+            "@type": "IMAGE-DOWNSAMPLED",
+            "@size": "55366",
+            "@ref": "gr4",
+            "@mimetype": "image/jpeg"
+          },
+          {
+            "@category": "standard",
+            "@height": "397",
+            "@width": "734",
+            "@_fa": "true",
+            "$": "https://api.elsevier.com/content/object/eid/1-s2.0-S246882312500625X-gr6.jpg?httpAccept=%2A%2F%2A",
+            "@multimediatype": "JPEG image file",
+            "@type": "IMAGE-DOWNSAMPLED",
+            "@size": "92437",
+            "@ref": "gr6",
+            "@mimetype": "image/jpeg"
+          },
+          {
+            "@category": "standard",
+            "@height": "668",
+            "@width": "734",
+            "@_fa": "true",
+            "$": "https://api.elsevier.com/content/object/eid/1-s2.0-S246882312500625X-gr1.jpg?httpAccept=%2A%2F%2A",
+            "@multimediatype": "JPEG image file",
+            "@type": "IMAGE-DOWNSAMPLED",
+            "@size": "111070",
+            "@ref": "gr1",
+            "@mimetype": "image/jpeg"
+          },
+          {
+            "@category": "standard",
+            "@height": "781",
+            "@width": "452",
+            "@_fa": "true",
+            "$": "https://api.elsevier.com/content/object/eid/1-s2.0-S246882312500625X-gr3.jpg?httpAccept=%2A%2F%2A",
+            "@multimediatype": "JPEG image file",
+            "@type": "IMAGE-DOWNSAMPLED",
+            "@size": "71878",
+            "@ref": "gr3",
+            "@mimetype": "image/jpeg"
+          },
+          {
+            "@category": "standard",
+            "@height": "312",
+            "@width": "513",
+            "@_fa": "true",
+            "$": "https://api.elsevier.com/content/object/eid/1-s2.0-S246882312500625X-gr2.jpg?httpAccept=%2A%2F%2A",
+            "@multimediatype": "JPEG image file",
+            "@type": "IMAGE-DOWNSAMPLED",
+            "@size": "49849",
+            "@ref": "gr2",
+            "@mimetype": "image/jpeg"
+          },
+          {
+            "@category": "standard",
+            "@height": "245",
+            "@width": "293",
+            "@_fa": "true",
+            "$": "https://api.elsevier.com/content/object/eid/1-s2.0-S246882312500625X-ga1.jpg?httpAccept=%2A%2F%2A",
+            "@multimediatype": "JPEG image file",
+            "@type": "IMAGE-DOWNSAMPLED",
+            "@size": "46995",
+            "@ref": "ga1",
+            "@mimetype": "image/jpeg"
+          },
+          {
+            "@category": "thumbnail",
+            "@height": "129",
+            "@width": "219",
+            "@_fa": "true",
+            "$": "https://api.elsevier.com/content/object/eid/1-s2.0-S246882312500625X-gr5.sml?httpAccept=%2A%2F%2A",
+            "@multimediatype": "GIF image file",
+            "@type": "IMAGE-THUMBNAIL",
+            "@size": "11468",
+            "@ref": "gr5",
+            "@mimetype": "image/gif"
+          },
+          {
+            "@category": "thumbnail",
+            "@height": "163",
+            "@width": "150",
+            "@_fa": "true",
+            "$": "https://api.elsevier.com/content/object/eid/1-s2.0-S246882312500625X-gr4.sml?httpAccept=%2A%2F%2A",
+            "@multimediatype": "GIF image file",
+            "@type": "IMAGE-THUMBNAIL",
+            "@size": "8446",
+            "@ref": "gr4",
+            "@mimetype": "image/gif"
+          },
+          {
+            "@category": "thumbnail",
+            "@height": "118",
+            "@width": "219",
+            "@_fa": "true",
+            "$": "https://api.elsevier.com/content/object/eid/1-s2.0-S246882312500625X-gr6.sml?httpAccept=%2A%2F%2A",
+            "@multimediatype": "GIF image file",
+            "@type": "IMAGE-THUMBNAIL",
+            "@size": "12998",
+            "@ref": "gr6",
+            "@mimetype": "image/gif"
+          },
+          {
+            "@category": "thumbnail",
+            "@height": "164",
+            "@width": "180",
+            "@_fa": "true",
+            "$": "https://api.elsevier.com/content/object/eid/1-s2.0-S246882312500625X-gr1.sml?httpAccept=%2A%2F%2A",
+            "@multimediatype": "GIF image file",
+            "@type": "IMAGE-THUMBNAIL",
+            "@size": "12387",
+            "@ref": "gr1",
+            "@mimetype": "image/gif"
+          },
+          {
+            "@category": "thumbnail",
+            "@height": "164",
+            "@width": "95",
+            "@_fa": "true",
+            "$": "https://api.elsevier.com/content/object/eid/1-s2.0-S246882312500625X-gr3.sml?httpAccept=%2A%2F%2A",
+            "@multimediatype": "GIF image file",
+            "@type": "IMAGE-THUMBNAIL",
+            "@size": "7446",
+            "@ref": "gr3",
+            "@mimetype": "image/gif"
+          },
+          {
+            "@category": "thumbnail",
+            "@height": "133",
+            "@width": "219",
+            "@_fa": "true",
+            "$": "https://api.elsevier.com/content/object/eid/1-s2.0-S246882312500625X-gr2.sml?httpAccept=%2A%2F%2A",
+            "@multimediatype": "GIF image file",
+            "@type": "IMAGE-THUMBNAIL",
+            "@size": "12393",
+            "@ref": "gr2",
+            "@mimetype": "image/gif"
+          },
+          {
+            "@category": "thumbnail",
+            "@height": "164",
+            "@width": "196",
+            "@_fa": "true",
+            "$": "https://api.elsevier.com/content/object/eid/1-s2.0-S246882312500625X-ga1.sml?httpAccept=%2A%2F%2A",
+            "@multimediatype": "GIF image file",
+            "@type": "IMAGE-THUMBNAIL",
+            "@size": "28051",
+            "@ref": "ga1",
+            "@mimetype": "image/gif"
+          },
+          {
+            "@category": "high",
+            "@height": "1467",
+            "@width": "2500",
+            "@_fa": "true",
+            "$": "https://api.elsevier.com/content/object/eid/1-s2.0-S246882312500625X-gr5_lrg.jpg?httpAccept=%2A%2F%2A",
+            "@multimediatype": "JPEG image file",
+            "@type": "IMAGE-HIGH-RES",
+            "@size": "379312",
+            "@ref": "gr5",
+            "@mimetype": "image/jpeg"
+          },
+          {
+            "@category": "high",
+            "@height": "2269",
+            "@width": "2083",
+            "@_fa": "true",
+            "$": "https://api.elsevier.com/content/object/eid/1-s2.0-S246882312500625X-gr4_lrg.jpg?httpAccept=%2A%2F%2A",
+            "@multimediatype": "JPEG image file",
+            "@type": "IMAGE-HIGH-RES",
+            "@size": "373630",
+            "@ref": "gr4",
+            "@mimetype": "image/jpeg"
+          },
+          {
+            "@category": "high",
+            "@height": "1757",
+            "@width": "3250",
+            "@_fa": "true",
+            "$": "https://api.elsevier.com/content/object/eid/1-s2.0-S246882312500625X-gr6_lrg.jpg?httpAccept=%2A%2F%2A",
+            "@multimediatype": "JPEG image file",
+            "@type": "IMAGE-HIGH-RES",
+            "@size": "662143",
+            "@ref": "gr6",
+            "@mimetype": "image/jpeg"
+          },
+          {
+            "@category": "high",
+            "@height": "2959",
+            "@width": "3250",
+            "@_fa": "true",
+            "$": "https://api.elsevier.com/content/object/eid/1-s2.0-S246882312500625X-gr1_lrg.jpg?httpAccept=%2A%2F%2A",
+            "@multimediatype": "JPEG image file",
+            "@type": "IMAGE-HIGH-RES",
+            "@size": "734031",
+            "@ref": "gr1",
+            "@mimetype": "image/jpeg"
+          },
+          {
+            "@category": "high",
+            "@height": "3456",
+            "@width": "2000",
+            "@_fa": "true",
+            "$": "https://api.elsevier.com/content/object/eid/1-s2.0-S246882312500625X-gr3_lrg.jpg?httpAccept=%2A%2F%2A",
+            "@multimediatype": "JPEG image file",
+            "@type": "IMAGE-HIGH-RES",
+            "@size": "471742",
+            "@ref": "gr3",
+            "@mimetype": "image/jpeg"
+          },
+          {
+            "@category": "high",
+            "@height": "1384",
+            "@width": "2273",
+            "@_fa": "true",
+            "$": "https://api.elsevier.com/content/object/eid/1-s2.0-S246882312500625X-gr2_lrg.jpg?httpAccept=%2A%2F%2A",
+            "@multimediatype": "JPEG image file",
+            "@type": "IMAGE-HIGH-RES",
+            "@size": "315942",
+            "@ref": "gr2",
+            "@mimetype": "image/jpeg"
+          },
+          {
+            "@category": "high",
+            "@height": "1085",
+            "@width": "1300",
+            "@_fa": "true",
+            "$": "https://api.elsevier.com/content/object/eid/1-s2.0-S246882312500625X-ga1_lrg.jpg?httpAccept=%2A%2F%2A",
+            "@multimediatype": "JPEG image file",
+            "@type": "IMAGE-HIGH-RES",
+            "@size": "341213",
+            "@ref": "ga1",
+            "@mimetype": "image/jpeg"
+          },
+          {
+            "@category": "standard",
+            "@_fa": "true",
+            "$": "https://api.elsevier.com/content/object/eid/1-s2.0-S246882312500625X-mmc1.docx?httpAccept=%2A%2F%2A",
+            "@multimediatype": "Microsoft Word file",
+            "@type": "APPLICATION",
+            "@size": "3697343",
+            "@ref": "mmc1",
+            "@mimetype": "application/word"
+          },
+          {
+            "@category": "thumbnail",
+            "@_fa": "true",
+            "$": "https://api.elsevier.com/content/object/eid/1-s2.0-S246882312500625X-si1.svg?httpAccept=%2A%2F%2A",
+            "@multimediatype": "Scalable Vector Graphics file",
+            "@type": "ALTIMG",
+            "@size": "2229",
+            "@ref": "si1",
+            "@mimetype": "image/svg+xml"
+          },
+          {
+            "@category": "thumbnail",
+            "@_fa": "true",
+            "$": "https://api.elsevier.com/content/object/eid/1-s2.0-S246882312500625X-si10.svg?httpAccept=%2A%2F%2A",
+            "@multimediatype": "Scalable Vector Graphics file",
+            "@type": "ALTIMG",
+            "@size": "7880",
+            "@ref": "si10",
+            "@mimetype": "image/svg+xml"
+          },
+          {
+            "@category": "thumbnail",
+            "@_fa": "true",
+            "$": "https://api.elsevier.com/content/object/eid/1-s2.0-S246882312500625X-si11.svg?httpAccept=%2A%2F%2A",
+            "@multimediatype": "Scalable Vector Graphics file",
+            "@type": "ALTIMG",
+            "@size": "7669",
+            "@ref": "si11",
+            "@mimetype": "image/svg+xml"
+          },
+          {
+            "@category": "thumbnail",
+            "@_fa": "true",
+            "$": "https://api.elsevier.com/content/object/eid/1-s2.0-S246882312500625X-si12.svg?httpAccept=%2A%2F%2A",
+            "@multimediatype": "Scalable Vector Graphics file",
+            "@type": "ALTIMG",
+            "@size": "4840",
+            "@ref": "si12",
+            "@mimetype": "image/svg+xml"
+          },
+          {
+            "@category": "thumbnail",
+            "@_fa": "true",
+            "$": "https://api.elsevier.com/content/object/eid/1-s2.0-S246882312500625X-si13.svg?httpAccept=%2A%2F%2A",
+            "@multimediatype": "Scalable Vector Graphics file",
+            "@type": "ALTIMG",
+            "@size": "3423",
+            "@ref": "si13",
+            "@mimetype": "image/svg+xml"
+          },
+          {
+            "@category": "thumbnail",
+            "@_fa": "true",
+            "$": "https://api.elsevier.com/content/object/eid/1-s2.0-S246882312500625X-si14.svg?httpAccept=%2A%2F%2A",
+            "@multimediatype": "Scalable Vector Graphics file",
+            "@type": "ALTIMG",
+            "@size": "2114",
+            "@ref": "si14",
+            "@mimetype": "image/svg+xml"
+          },
+          {
+            "@category": "thumbnail",
+            "@_fa": "true",
+            "$": "https://api.elsevier.com/content/object/eid/1-s2.0-S246882312500625X-si15.svg?httpAccept=%2A%2F%2A",
+            "@multimediatype": "Scalable Vector Graphics file",
+            "@type": "ALTIMG",
+            "@size": "7795",
+            "@ref": "si15",
+            "@mimetype": "image/svg+xml"
+          },
+          {
+            "@category": "thumbnail",
+            "@_fa": "true",
+            "$": "https://api.elsevier.com/content/object/eid/1-s2.0-S246882312500625X-si16.svg?httpAccept=%2A%2F%2A",
+            "@multimediatype": "Scalable Vector Graphics file",
+            "@type": "ALTIMG",
+            "@size": "4333",
+            "@ref": "si16",
+            "@mimetype": "image/svg+xml"
+          },
+          {
+            "@category": "thumbnail",
+            "@_fa": "true",
+            "$": "https://api.elsevier.com/content/object/eid/1-s2.0-S246882312500625X-si17.svg?httpAccept=%2A%2F%2A",
+            "@multimediatype": "Scalable Vector Graphics file",
+            "@type": "ALTIMG",
+            "@size": "2975",
+            "@ref": "si17",
+            "@mimetype": "image/svg+xml"
+          },
+          {
+            "@category": "thumbnail",
+            "@_fa": "true",
+            "$": "https://api.elsevier.com/content/object/eid/1-s2.0-S246882312500625X-si18.svg?httpAccept=%2A%2F%2A",
+            "@multimediatype": "Scalable Vector Graphics file",
+            "@type": "ALTIMG",
+            "@size": "4599",
+            "@ref": "si18",
+            "@mimetype": "image/svg+xml"
+          },
+          {
+            "@category": "thumbnail",
+            "@_fa": "true",
+            "$": "https://api.elsevier.com/content/object/eid/1-s2.0-S246882312500625X-si19.svg?httpAccept=%2A%2F%2A",
+            "@multimediatype": "Scalable Vector Graphics file",
+            "@type": "ALTIMG",
+            "@size": "3084",
+            "@ref": "si19",
+            "@mimetype": "image/svg+xml"
+          },
+          {
+            "@category": "thumbnail",
+            "@_fa": "true",
+            "$": "https://api.elsevier.com/content/object/eid/1-s2.0-S246882312500625X-si2.svg?httpAccept=%2A%2F%2A",
+            "@multimediatype": "Scalable Vector Graphics file",
+            "@type": "ALTIMG",
+            "@size": "3852",
+            "@ref": "si2",
+            "@mimetype": "image/svg+xml"
+          },
+          {
+            "@category": "thumbnail",
+            "@_fa": "true",
+            "$": "https://api.elsevier.com/content/object/eid/1-s2.0-S246882312500625X-si20.svg?httpAccept=%2A%2F%2A",
+            "@multimediatype": "Scalable Vector Graphics file",
+            "@type": "ALTIMG",
+            "@size": "1311",
+            "@ref": "si20",
+            "@mimetype": "image/svg+xml"
+          },
+          {
+            "@category": "thumbnail",
+            "@_fa": "true",
+            "$": "https://api.elsevier.com/content/object/eid/1-s2.0-S246882312500625X-si21.svg?httpAccept=%2A%2F%2A",
+            "@multimediatype": "Scalable Vector Graphics file",
+            "@type": "ALTIMG",
+            "@size": "1673",
+            "@ref": "si21",
+            "@mimetype": "image/svg+xml"
+          },
+          {
+            "@category": "thumbnail",
+            "@_fa": "true",
+            "$": "https://api.elsevier.com/content/object/eid/1-s2.0-S246882312500625X-si22.svg?httpAccept=%2A%2F%2A",
+            "@multimediatype": "Scalable Vector Graphics file",
+            "@type": "ALTIMG",
+            "@size": "4717",
+            "@ref": "si22",
+            "@mimetype": "image/svg+xml"
+          },
+          {
+            "@category": "thumbnail",
+            "@_fa": "true",
+            "$": "https://api.elsevier.com/content/object/eid/1-s2.0-S246882312500625X-si23.svg?httpAccept=%2A%2F%2A",
+            "@multimediatype": "Scalable Vector Graphics file",
+            "@type": "ALTIMG",
+            "@size": "3331",
+            "@ref": "si23",
+            "@mimetype": "image/svg+xml"
+          },
+          {
+            "@category": "thumbnail",
+            "@_fa": "true",
+            "$": "https://api.elsevier.com/content/object/eid/1-s2.0-S246882312500625X-si24.svg?httpAccept=%2A%2F%2A",
+            "@multimediatype": "Scalable Vector Graphics file",
+            "@type": "ALTIMG",
+            "@size": "3388",
+            "@ref": "si24",
+            "@mimetype": "image/svg+xml"
+          },
+          {
+            "@category": "thumbnail",
+            "@_fa": "true",
+            "$": "https://api.elsevier.com/content/object/eid/1-s2.0-S246882312500625X-si25.svg?httpAccept=%2A%2F%2A",
+            "@multimediatype": "Scalable Vector Graphics file",
+            "@type": "ALTIMG",
+            "@size": "1673",
+            "@ref": "si25",
+            "@mimetype": "image/svg+xml"
+          },
+          {
+            "@category": "thumbnail",
+            "@_fa": "true",
+            "$": "https://api.elsevier.com/content/object/eid/1-s2.0-S246882312500625X-si26.svg?httpAccept=%2A%2F%2A",
+            "@multimediatype": "Scalable Vector Graphics file",
+            "@type": "ALTIMG",
+            "@size": "4133",
+            "@ref": "si26",
+            "@mimetype": "image/svg+xml"
+          },
+          {
+            "@category": "thumbnail",
+            "@_fa": "true",
+            "$": "https://api.elsevier.com/content/object/eid/1-s2.0-S246882312500625X-si27.svg?httpAccept=%2A%2F%2A",
+            "@multimediatype": "Scalable Vector Graphics file",
+            "@type": "ALTIMG",
+            "@size": "5067",
+            "@ref": "si27",
+            "@mimetype": "image/svg+xml"
+          },
+          {
+            "@category": "thumbnail",
+            "@_fa": "true",
+            "$": "https://api.elsevier.com/content/object/eid/1-s2.0-S246882312500625X-si28.svg?httpAccept=%2A%2F%2A",
+            "@multimediatype": "Scalable Vector Graphics file",
+            "@type": "ALTIMG",
+            "@size": "7879",
+            "@ref": "si28",
+            "@mimetype": "image/svg+xml"
+          },
+          {
+            "@category": "thumbnail",
+            "@_fa": "true",
+            "$": "https://api.elsevier.com/content/object/eid/1-s2.0-S246882312500625X-si29.svg?httpAccept=%2A%2F%2A",
+            "@multimediatype": "Scalable Vector Graphics file",
+            "@type": "ALTIMG",
+            "@size": "7872",
+            "@ref": "si29",
+            "@mimetype": "image/svg+xml"
+          },
+          {
+            "@category": "thumbnail",
+            "@_fa": "true",
+            "$": "https://api.elsevier.com/content/object/eid/1-s2.0-S246882312500625X-si3.svg?httpAccept=%2A%2F%2A",
+            "@multimediatype": "Scalable Vector Graphics file",
+            "@type": "ALTIMG",
+            "@size": "3611",
+            "@ref": "si3",
+            "@mimetype": "image/svg+xml"
+          },
+          {
+            "@category": "thumbnail",
+            "@_fa": "true",
+            "$": "https://api.elsevier.com/content/object/eid/1-s2.0-S246882312500625X-si30.svg?httpAccept=%2A%2F%2A",
+            "@multimediatype": "Scalable Vector Graphics file",
+            "@type": "ALTIMG",
+            "@size": "2732",
+            "@ref": "si30",
+            "@mimetype": "image/svg+xml"
+          },
+          {
+            "@category": "thumbnail",
+            "@_fa": "true",
+            "$": "https://api.elsevier.com/content/object/eid/1-s2.0-S246882312500625X-si31.svg?httpAccept=%2A%2F%2A",
+            "@multimediatype": "Scalable Vector Graphics file",
+            "@type": "ALTIMG",
+            "@size": "2943",
+            "@ref": "si31",
+            "@mimetype": "image/svg+xml"
+          },
+          {
+            "@category": "thumbnail",
+            "@_fa": "true",
+            "$": "https://api.elsevier.com/content/object/eid/1-s2.0-S246882312500625X-si32.svg?httpAccept=%2A%2F%2A",
+            "@multimediatype": "Scalable Vector Graphics file",
+            "@type": "ALTIMG",
+            "@size": "3106",
+            "@ref": "si32",
+            "@mimetype": "image/svg+xml"
+          },
+          {
+            "@category": "thumbnail",
+            "@_fa": "true",
+            "$": "https://api.elsevier.com/content/object/eid/1-s2.0-S246882312500625X-si33.svg?httpAccept=%2A%2F%2A",
+            "@multimediatype": "Scalable Vector Graphics file",
+            "@type": "ALTIMG",
+            "@size": "4476",
+            "@ref": "si33",
+            "@mimetype": "image/svg+xml"
+          },
+          {
+            "@category": "thumbnail",
+            "@_fa": "true",
+            "$": "https://api.elsevier.com/content/object/eid/1-s2.0-S246882312500625X-si4.svg?httpAccept=%2A%2F%2A",
+            "@multimediatype": "Scalable Vector Graphics file",
+            "@type": "ALTIMG",
+            "@size": "3111",
+            "@ref": "si4",
+            "@mimetype": "image/svg+xml"
+          },
+          {
+            "@category": "thumbnail",
+            "@_fa": "true",
+            "$": "https://api.elsevier.com/content/object/eid/1-s2.0-S246882312500625X-si5.svg?httpAccept=%2A%2F%2A",
+            "@multimediatype": "Scalable Vector Graphics file",
+            "@type": "ALTIMG",
+            "@size": "3447",
+            "@ref": "si5",
+            "@mimetype": "image/svg+xml"
+          },
+          {
+            "@category": "thumbnail",
+            "@_fa": "true",
+            "$": "https://api.elsevier.com/content/object/eid/1-s2.0-S246882312500625X-si6.svg?httpAccept=%2A%2F%2A",
+            "@multimediatype": "Scalable Vector Graphics file",
+            "@type": "ALTIMG",
+            "@size": "2775",
+            "@ref": "si6",
+            "@mimetype": "image/svg+xml"
+          },
+          {
+            "@category": "thumbnail",
+            "@_fa": "true",
+            "$": "https://api.elsevier.com/content/object/eid/1-s2.0-S246882312500625X-si7.svg?httpAccept=%2A%2F%2A",
+            "@multimediatype": "Scalable Vector Graphics file",
+            "@type": "ALTIMG",
+            "@size": "4358",
+            "@ref": "si7",
+            "@mimetype": "image/svg+xml"
+          },
+          {
+            "@category": "thumbnail",
+            "@_fa": "true",
+            "$": "https://api.elsevier.com/content/object/eid/1-s2.0-S246882312500625X-si8.svg?httpAccept=%2A%2F%2A",
+            "@multimediatype": "Scalable Vector Graphics file",
+            "@type": "ALTIMG",
+            "@size": "2476",
+            "@ref": "si8",
+            "@mimetype": "image/svg+xml"
+          },
+          {
+            "@category": "thumbnail",
+            "@_fa": "true",
+            "$": "https://api.elsevier.com/content/object/eid/1-s2.0-S246882312500625X-si9.svg?httpAccept=%2A%2F%2A",
+            "@multimediatype": "Scalable Vector Graphics file",
+            "@type": "ALTIMG",
+            "@size": "2184",
+            "@ref": "si9",
+            "@mimetype": "image/svg+xml"
+          }
+        ]
+      },
+      "link": {
+        "@rel": "abstract",
+        "@href": "https://api.elsevier.com/content/abstract/scopus_id/105013963365"
+      }
+    }
+  }
+}

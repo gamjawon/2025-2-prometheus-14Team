@@ -1,0 +1,832 @@
+{
+  "metadata": {
+    "title": "Substantial potential effects on single-atom catalysts for the oxygen evolution reaction simulated via a fixed-potential method",
+    "authors": "; ",
+    "journal": "Journal of Catalysis",
+    "date": "2020-11-30",
+    "doi": "10.1016/j.jcat.2020.08.032",
+    "abstract": "",
+    "uri": "https://api.elsevier.com/content/article/pii/S0021951720303547",
+    "pii": "S0021951720303547"
+  },
+  "fulltext": {
+    "full-text-retrieval-response": {
+      "scopus-eid": "2-s2.0-85092189845",
+      "originalText": "serial JL 272561 291210 291744 291809 31 Journal of Catalysis JOURNALCATALYSIS 2020-09-12 2020-09-12 2020-10-11 2020-10-11 2021-01-21T19:14:12 1-s2.0-S0021951720303547 S0021-9517(20)30354-7 S0021951720303547 10.1016/j.jcat.2020.08.032 S300 S300.2 FULL-TEXT 1-s2.0-S0021951720X00108 2021-10-25T06:32:35.602063Z 0 0 20201101 20201130 2020 2020-09-12T03:28:16.343753Z absattachment articleinfo articletitlenorm authfirstinitialnorm authfirstsurnamenorm cid cids contenttype copyright crossmark dateloaded dateloadedtxt datesearch datesort dateupdated dco docsubtype doctype doi eid ewtransactionid hubeid indexeddate issn issnnorm itemstage itemtransactionid itemweight openaccess openarchive pg pgfirst pglast pii piinorm pubdateend pubdatestart pubdatetxt pubyr sectiontitle sortorder srctitle srctitlenorm srctype ssids alllist content subj subheadings suppl tomb volfirst volissue volumelist webpdf webpdfpagecount yearnav figure table e-component body mmlmath acknowledge affil appendices articletitle auth authfirstini authfull authkeywords authlast grantsponsor highlightsabst orcid primabst ref specialabst 0021-9517 00219517 true 391 391 C Volume 391 51 530 538 530 538 202011 November 2020 2020-11-01 2020-11-30 2020 Regular Articles article fla © 2020 Elsevier Inc. All rights reserved. SUBSTANTIALPOTENTIALEFFECTSSINGLEATOMCATALYSTSFOROXYGENEVOLUTIONREACTIONSIMULATEDVIAAFIXEDPOTENTIALMETHOD GAO G 1 Introduction 2 Computational details 3 Results and discussion 4 Conclusions Acknowledgments Appendix A Supplementary material References BENI 1979 281 283 G MENG 2019 23915 23922 Y NORSKOV 2004 17886 17892 J VALDES 2008 9872 9879 A LONG 2020 9711 9718 J LIU 2019 9664 9672 X CHAN 2015 2663 2668 K FILHOL 2006 402 406 J GOODPASTER 2016 1471 1477 J KIM 2018 9127 9131 D RAVISHANKAR 2017 114104 S GUAN 2018 870 877 J ZHANG 2018 285 297 L FEI 2018 63 72 H OUYANG 2020 1807 1813 Y LIU 2016 5758 5764 W WANG 2019 1806 1854 Y GAO 2017 579 585 G GAO 2018 996 1001 G JIA 2013 9 18 W JIA 2013 102 115 W PERDEW 1996 3865 3868 J PERDEW 1996 9982 9985 J GRIMME 2006 1787 1799 S ZHAO 2020 5773 5777 X DUDAREV 1998 1505 1509 S WANG 2014 184102 Z MATHEW 2014 084106 K FISICARO 2016 014103 G ANDREUSSI 2012 064102 O TRASATTI 1986 417 428 S XU 2018 339 348 H ZHOU 2019 3024 3032 Y GAOX2020X530 GAOX2020X530X538 GAOX2020X530XG GAOX2020X530X538XG 2022-10-11T00:00:00.000Z https://vtw.elsevier.com/content/oragreement/10131 CHU_DOE publishAcceptedManuscriptIndexable http://www.elsevier.com/open-access/userlicense/1.0/ 2021-10-11T00:00:00Z http://creativecommons.org/licenses/by-nc-nd/4.0/ © 2020 Elsevier Inc. All rights reserved. 2020-09-09T18:23:15.815Z http://vtw.elsevier.com/data/voc/AddOnTypes/50.7/eoas 0 item S0021-9517(20)30354-7 S0021951720303547 1-s2.0-S0021951720303547 10.1016/j.jcat.2020.08.032 272561 2021-01-22T03:21:16.876025Z 2020-11-01 2020-11-30 1-s2.0-S0021951720303547-main.pdf https://s3-eu-west-1.amazonaws.com/prod-ucs-content-store-eu-west/content/pii:S0021951720303547/MAIN/application/pdf/0342a68fd1b6148c3b0e6f18a287d3b5/main.pdf main.pdf pdf true 1765931 MAIN 9 1-s2.0-S0021951720303547-main_1.png https://s3-eu-west-1.amazonaws.com/prod-ucs-content-store-eu-west/content/pii:S0021951720303547/PREVIEW/image/png/fd8a89f7ae0ba5af4979bd74f0593f15/main_1.png main_1.png png 57834 849 656 IMAGE-WEB-PDF 1 1-s2.0-S0021951720303547-ga1.jpg https://s3-eu-west-1.amazonaws.com/prod-ucs-content-store-eu-west/content/pii:S0021951720303547/ga1/DOWNSAMPLED/image/jpeg/3b3882d7e905f45a5d3d0fecd5c83b52/ga1.jpg ga1 true ga1.jpg jpg 29142 200 393 IMAGE-DOWNSAMPLED 1-s2.0-S0021951720303547-gr2.jpg https://s3-eu-west-1.amazonaws.com/prod-ucs-content-store-eu-west/content/pii:S0021951720303547/gr2/DOWNSAMPLED/image/jpeg/00721f9f2ef15b1b11656fdbdf8cdc7b/gr2.jpg gr2 gr2.jpg jpg 98150 598 529 IMAGE-DOWNSAMPLED 1-s2.0-S0021951720303547-gr3.jpg https://s3-eu-west-1.amazonaws.com/prod-ucs-content-store-eu-west/content/pii:S0021951720303547/gr3/DOWNSAMPLED/image/jpeg/c6c288ab7e2763bf851e6ecf03f526de/gr3.jpg gr3 gr3.jpg jpg 86585 471 710 IMAGE-DOWNSAMPLED 1-s2.0-S0021951720303547-gr4.jpg https://s3-eu-west-1.amazonaws.com/prod-ucs-content-store-eu-west/content/pii:S0021951720303547/gr4/DOWNSAMPLED/image/jpeg/172632757c89e9488aa9b87560b14345/gr4.jpg gr4 gr4.jpg jpg 23986 290 362 IMAGE-DOWNSAMPLED 1-s2.0-S0021951720303547-gr5.jpg https://s3-eu-west-1.amazonaws.com/prod-ucs-content-store-eu-west/content/pii:S0021951720303547/gr5/DOWNSAMPLED/image/jpeg/cd93b53148b91d05840fd90b2d74b81d/gr5.jpg gr5 gr5.jpg jpg 64722 762 370 IMAGE-DOWNSAMPLED 1-s2.0-S0021951720303547-gr6.jpg https://s3-eu-west-1.amazonaws.com/prod-ucs-content-store-eu-west/content/pii:S0021951720303547/gr6/DOWNSAMPLED/image/jpeg/a28ac9a705bfb77aa3df721d70ead6b2/gr6.jpg gr6 gr6.jpg jpg 55077 459 710 IMAGE-DOWNSAMPLED 1-s2.0-S0021951720303547-gr1.jpg https://s3-eu-west-1.amazonaws.com/prod-ucs-content-store-eu-west/content/pii:S0021951720303547/gr1/DOWNSAMPLED/image/jpeg/070d45485b9bae43ab0fafaa0267583c/gr1.jpg gr1 gr1.jpg jpg 30605 166 533 IMAGE-DOWNSAMPLED 1-s2.0-S0021951720303547-ga1.sml https://s3-eu-west-1.amazonaws.com/prod-ucs-content-store-eu-west/content/pii:S0021951720303547/ga1/THUMBNAIL/image/gif/e7a803c459b1921ca08d13d245036c37/ga1.sml ga1 true ga1.sml sml 10203 111 219 IMAGE-THUMBNAIL 1-s2.0-S0021951720303547-gr2.sml https://s3-eu-west-1.amazonaws.com/prod-ucs-content-store-eu-west/content/pii:S0021951720303547/gr2/THUMBNAIL/image/gif/c0802008d3b328757fb2d96134fda84d/gr2.sml gr2 gr2.sml sml 11730 164 145 IMAGE-THUMBNAIL 1-s2.0-S0021951720303547-gr3.sml https://s3-eu-west-1.amazonaws.com/prod-ucs-content-store-eu-west/content/pii:S0021951720303547/gr3/THUMBNAIL/image/gif/3a4133261846922746df4d48a76cb610/gr3.sml gr3 gr3.sml sml 9893 145 219 IMAGE-THUMBNAIL 1-s2.0-S0021951720303547-gr4.sml https://s3-eu-west-1.amazonaws.com/prod-ucs-content-store-eu-west/content/pii:S0021951720303547/gr4/THUMBNAIL/image/gif/f329ec7627fca239480fdd452208c6fb/gr4.sml gr4 gr4.sml sml 7392 164 204 IMAGE-THUMBNAIL 1-s2.0-S0021951720303547-gr5.sml https://s3-eu-west-1.amazonaws.com/prod-ucs-content-store-eu-west/content/pii:S0021951720303547/gr5/THUMBNAIL/image/gif/0d12ddd81545a5b00af4f2cf4e912080/gr5.sml gr5 gr5.sml sml 5200 163 79 IMAGE-THUMBNAIL 1-s2.0-S0021951720303547-gr6.sml https://s3-eu-west-1.amazonaws.com/prod-ucs-content-store-eu-west/content/pii:S0021951720303547/gr6/THUMBNAIL/image/gif/d4decfab70a38333688e7f21ddef26ec/gr6.sml gr6 gr6.sml sml 6996 141 219 IMAGE-THUMBNAIL 1-s2.0-S0021951720303547-gr1.sml https://s3-eu-west-1.amazonaws.com/prod-ucs-content-store-eu-west/content/pii:S0021951720303547/gr1/THUMBNAIL/image/gif/21a9997757d7841bb1bedb5777b870e6/gr1.sml gr1 gr1.sml sml 6138 68 219 IMAGE-THUMBNAIL 1-s2.0-S0021951720303547-ga1_lrg.jpg https://s3-eu-west-1.amazonaws.com/prod-ucs-content-store-eu-west/content/pii:S0021951720303547/ga1/HIGHRES/image/jpeg/8dec582d1b00341780efe84ef9d7feb4/ga1_lrg.jpg ga1 true ga1_lrg.jpg jpg 94050 531 1045 IMAGE-HIGH-RES 1-s2.0-S0021951720303547-gr2_lrg.jpg https://s3-eu-west-1.amazonaws.com/prod-ucs-content-store-eu-west/content/pii:S0021951720303547/gr2/HIGHRES/image/jpeg/63e6152a7244b5d166c113c7bcb8dc24/gr2_lrg.jpg gr2 gr2_lrg.jpg jpg 863594 2648 2344 IMAGE-HIGH-RES 1-s2.0-S0021951720303547-gr3_lrg.jpg https://s3-eu-west-1.amazonaws.com/prod-ucs-content-store-eu-west/content/pii:S0021951720303547/gr3/HIGHRES/image/jpeg/f8a0bf7ec205eb4f71fb9c91ad249e7d/gr3_lrg.jpg gr3 gr3_lrg.jpg jpg 592239 2088 3146 IMAGE-HIGH-RES 1-s2.0-S0021951720303547-gr4_lrg.jpg https://s3-eu-west-1.amazonaws.com/prod-ucs-content-store-eu-west/content/pii:S0021951720303547/gr4/HIGHRES/image/jpeg/f84f20a30ef4d97ea19b2bbc230d4c47/gr4_lrg.jpg gr4 gr4_lrg.jpg jpg 168569 1288 1606 IMAGE-HIGH-RES 1-s2.0-S0021951720303547-gr5_lrg.jpg https://s3-eu-west-1.amazonaws.com/prod-ucs-content-store-eu-west/content/pii:S0021951720303547/gr5/HIGHRES/image/jpeg/a6ef8a40e7ff19856d0233ac6e9a0809/gr5_lrg.jpg gr5 gr5_lrg.jpg jpg 469783 3376 1640 IMAGE-HIGH-RES 1-s2.0-S0021951720303547-gr6_lrg.jpg https://s3-eu-west-1.amazonaws.com/prod-ucs-content-store-eu-west/content/pii:S0021951720303547/gr6/HIGHRES/image/jpeg/b0a6011ef02e7863c1c17c90664912df/gr6_lrg.jpg gr6 gr6_lrg.jpg jpg 389473 2032 3146 IMAGE-HIGH-RES 1-s2.0-S0021951720303547-gr1_lrg.jpg https://s3-eu-west-1.amazonaws.com/prod-ucs-content-store-eu-west/content/pii:S0021951720303547/gr1/HIGHRES/image/jpeg/5a599882d2e4bd17c8bc170cbef8b923/gr1_lrg.jpg gr1 gr1_lrg.jpg jpg 161405 737 2362 IMAGE-HIGH-RES 1-s2.0-S0021951720303547-mmc1.docx https://s3-eu-west-1.amazonaws.com/prod-ucs-content-store-eu-west/content/pii:S0021951720303547/mmc1/MAIN/application/vnd.openxmlformats-officedocument.wordprocessingml.document/13508bdba74e74f016bc4c79383506d8/mmc1.docx mmc1 mmc1.docx docx 66561 APPLICATION 1-s2.0-S0021951720303547-si1.svg https://s3-eu-west-1.amazonaws.com/prod-ucs-content-store-eu-west/content/pii:S0021951720303547/STRIPIN/image/svg+xml/92bc3aa65c587d2bd93167a69bd980a8/si1.svg si1 si1.svg svg 11540 ALTIMG 1-s2.0-S0021951720303547-si10.svg https://s3-eu-west-1.amazonaws.com/prod-ucs-content-store-eu-west/content/pii:S0021951720303547/STRIPIN/image/svg+xml/d31913aaa63e2bb7d353151beba000ed/si10.svg si10 si10.svg svg 4851 ALTIMG 1-s2.0-S0021951720303547-si11.svg https://s3-eu-west-1.amazonaws.com/prod-ucs-content-store-eu-west/content/pii:S0021951720303547/STRIPIN/image/svg+xml/f1fa22a22add46537c5ec03a19bf4225/si11.svg si11 si11.svg svg 9398 ALTIMG 1-s2.0-S0021951720303547-si12.svg https://s3-eu-west-1.amazonaws.com/prod-ucs-content-store-eu-west/content/pii:S0021951720303547/STRIPIN/image/svg+xml/0223df7f40a434b86caa58c886570f0e/si12.svg si12 si12.svg svg 13777 ALTIMG 1-s2.0-S0021951720303547-si13.svg https://s3-eu-west-1.amazonaws.com/prod-ucs-content-store-eu-west/content/pii:S0021951720303547/STRIPIN/image/svg+xml/5884fb417a72f3708a870008a927c9ec/si13.svg si13 si13.svg svg 4970 ALTIMG 1-s2.0-S0021951720303547-si14.svg https://s3-eu-west-1.amazonaws.com/prod-ucs-content-store-eu-west/content/pii:S0021951720303547/STRIPIN/image/svg+xml/9609a55240b6cb02c2aee1c1d20692f8/si14.svg si14 si14.svg svg 34520 ALTIMG 1-s2.0-S0021951720303547-si15.svg https://s3-eu-west-1.amazonaws.com/prod-ucs-content-store-eu-west/content/pii:S0021951720303547/STRIPIN/image/svg+xml/1c83cfed43dc5a6947830aed46bf7649/si15.svg si15 si15.svg svg 28141 ALTIMG 1-s2.0-S0021951720303547-si16.svg https://s3-eu-west-1.amazonaws.com/prod-ucs-content-store-eu-west/content/pii:S0021951720303547/STRIPIN/image/svg+xml/e0dd54788401e944cde84f611af0c48a/si16.svg si16 si16.svg svg 10729 ALTIMG 1-s2.0-S0021951720303547-si17.svg https://s3-eu-west-1.amazonaws.com/prod-ucs-content-store-eu-west/content/pii:S0021951720303547/STRIPIN/image/svg+xml/c1dc1605a0b85b374fdde6f8f5254524/si17.svg si17 si17.svg svg 21528 ALTIMG 1-s2.0-S0021951720303547-si18.svg https://s3-eu-west-1.amazonaws.com/prod-ucs-content-store-eu-west/content/pii:S0021951720303547/STRIPIN/image/svg+xml/3d3f35056a80298ee316209d25e12aa7/si18.svg si18 si18.svg svg 6995 ALTIMG 1-s2.0-S0021951720303547-si19.svg https://s3-eu-west-1.amazonaws.com/prod-ucs-content-store-eu-west/content/pii:S0021951720303547/STRIPIN/image/svg+xml/eb7c66a2d4b7d8ff5855a638c2b48885/si19.svg si19 si19.svg svg 6891 ALTIMG 1-s2.0-S0021951720303547-si2.svg https://s3-eu-west-1.amazonaws.com/prod-ucs-content-store-eu-west/content/pii:S0021951720303547/STRIPIN/image/svg+xml/e7fe76ec3e953b1b989df4692fffbb87/si2.svg si2 si2.svg svg 8145 ALTIMG 1-s2.0-S0021951720303547-si20.svg https://s3-eu-west-1.amazonaws.com/prod-ucs-content-store-eu-west/content/pii:S0021951720303547/STRIPIN/image/svg+xml/60d98d14c48054ed5565ef63b9d7920c/si20.svg si20 si20.svg svg 4478 ALTIMG 1-s2.0-S0021951720303547-si21.svg https://s3-eu-west-1.amazonaws.com/prod-ucs-content-store-eu-west/content/pii:S0021951720303547/STRIPIN/image/svg+xml/567e09c3066e7e133ace9711b8dc93e5/si21.svg si21 si21.svg svg 42554 ALTIMG 1-s2.0-S0021951720303547-si22.svg https://s3-eu-west-1.amazonaws.com/prod-ucs-content-store-eu-west/content/pii:S0021951720303547/STRIPIN/image/svg+xml/e5c33cb86ccfbe9975f8bfbbcd81c478/si22.svg si22 si22.svg svg 4536 ALTIMG 1-s2.0-S0021951720303547-si23.svg https://s3-eu-west-1.amazonaws.com/prod-ucs-content-store-eu-west/content/pii:S0021951720303547/STRIPIN/image/svg+xml/61513e467956a3b7c13b4789d0fded98/si23.svg si23 si23.svg svg 26713 ALTIMG 1-s2.0-S0021951720303547-si24.svg https://s3-eu-west-1.amazonaws.com/prod-ucs-content-store-eu-west/content/pii:S0021951720303547/STRIPIN/image/svg+xml/037f8eedb764cde8253e21c23b25efa9/si24.svg si24 si24.svg svg 15344 ALTIMG 1-s2.0-S0021951720303547-si25.svg https://s3-eu-west-1.amazonaws.com/prod-ucs-content-store-eu-west/content/pii:S0021951720303547/STRIPIN/image/svg+xml/bef0d19e644c9684d55646628cd0c0b0/si25.svg si25 si25.svg svg 7399 ALTIMG 1-s2.0-S0021951720303547-si26.svg https://s3-eu-west-1.amazonaws.com/prod-ucs-content-store-eu-west/content/pii:S0021951720303547/STRIPIN/image/svg+xml/bd05b8a8c3f230d6d8e9da48ed411123/si26.svg si26 si26.svg svg 7045 ALTIMG 1-s2.0-S0021951720303547-si27.svg https://s3-eu-west-1.amazonaws.com/prod-ucs-content-store-eu-west/content/pii:S0021951720303547/STRIPIN/image/svg+xml/2e088e310f7208ac10df2fe056fec114/si27.svg si27 si27.svg svg 3863 ALTIMG 1-s2.0-S0021951720303547-si28.svg https://s3-eu-west-1.amazonaws.com/prod-ucs-content-store-eu-west/content/pii:S0021951720303547/STRIPIN/image/svg+xml/ff93cee03fc2e105266aa134cce701c1/si28.svg si28 si28.svg svg 4162 ALTIMG 1-s2.0-S0021951720303547-si29.svg https://s3-eu-west-1.amazonaws.com/prod-ucs-content-store-eu-west/content/pii:S0021951720303547/STRIPIN/image/svg+xml/d561e07bde6d5c03db82ad25a5632d52/si29.svg si29 si29.svg svg 1344 ALTIMG 1-s2.0-S0021951720303547-si3.svg https://s3-eu-west-1.amazonaws.com/prod-ucs-content-store-eu-west/content/pii:S0021951720303547/STRIPIN/image/svg+xml/736b7506c3275fc6dbeb88b15e47d185/si3.svg si3 si3.svg svg 4588 ALTIMG 1-s2.0-S0021951720303547-si30.svg https://s3-eu-west-1.amazonaws.com/prod-ucs-content-store-eu-west/content/pii:S0021951720303547/STRIPIN/image/svg+xml/06299afb8ba1cd3d2a8d600cf8e2ebc9/si30.svg si30 si30.svg svg 14271 ALTIMG 1-s2.0-S0021951720303547-si31.svg https://s3-eu-west-1.amazonaws.com/prod-ucs-content-store-eu-west/content/pii:S0021951720303547/STRIPIN/image/svg+xml/021d8b6b8a220716a57a138557c5103f/si31.svg si31 si31.svg svg 5850 ALTIMG 1-s2.0-S0021951720303547-si32.svg https://s3-eu-west-1.amazonaws.com/prod-ucs-content-store-eu-west/content/pii:S0021951720303547/STRIPIN/image/svg+xml/ae08664ab3c44e3350ffa0de9587909e/si32.svg si32 si32.svg svg 1967 ALTIMG 1-s2.0-S0021951720303547-si33.svg https://s3-eu-west-1.amazonaws.com/prod-ucs-content-store-eu-west/content/pii:S0021951720303547/STRIPIN/image/svg+xml/4141f3eb5814beb01b799c27a69c303d/si33.svg si33 si33.svg svg 9984 ALTIMG 1-s2.0-S0021951720303547-si34.svg https://s3-eu-west-1.amazonaws.com/prod-ucs-content-store-eu-west/content/pii:S0021951720303547/STRIPIN/image/svg+xml/6ad356441e06a8edc62c96f9148c9dfc/si34.svg si34 si34.svg svg 9721 ALTIMG 1-s2.0-S0021951720303547-si35.svg https://s3-eu-west-1.amazonaws.com/prod-ucs-content-store-eu-west/content/pii:S0021951720303547/STRIPIN/image/svg+xml/4af9836fdd9adea8f09941fe25b12b83/si35.svg si35 si35.svg svg 8592 ALTIMG 1-s2.0-S0021951720303547-si36.svg https://s3-eu-west-1.amazonaws.com/prod-ucs-content-store-eu-west/content/pii:S0021951720303547/STRIPIN/image/svg+xml/e6cfab08f12d61d522760cbb7174bfac/si36.svg si36 si36.svg svg 9962 ALTIMG 1-s2.0-S0021951720303547-si37.svg https://s3-eu-west-1.amazonaws.com/prod-ucs-content-store-eu-west/content/pii:S0021951720303547/STRIPIN/image/svg+xml/feb44cc8715892172a42fe25c9648ca2/si37.svg si37 si37.svg svg 28750 ALTIMG 1-s2.0-S0021951720303547-si38.svg https://s3-eu-west-1.amazonaws.com/prod-ucs-content-store-eu-west/content/pii:S0021951720303547/STRIPIN/image/svg+xml/b4b84a63c94e832d3f53379da9c8072e/si38.svg si38 si38.svg svg 5560 ALTIMG 1-s2.0-S0021951720303547-si39.svg https://s3-eu-west-1.amazonaws.com/prod-ucs-content-store-eu-west/content/pii:S0021951720303547/STRIPIN/image/svg+xml/a69349b55e69db9b6b5cb9ab632d15b3/si39.svg si39 si39.svg svg 12472 ALTIMG 1-s2.0-S0021951720303547-si4.svg https://s3-eu-west-1.amazonaws.com/prod-ucs-content-store-eu-west/content/pii:S0021951720303547/STRIPIN/image/svg+xml/5ed73727df529212461adb3133772726/si4.svg si4 si4.svg svg 4893 ALTIMG 1-s2.0-S0021951720303547-si40.svg https://s3-eu-west-1.amazonaws.com/prod-ucs-content-store-eu-west/content/pii:S0021951720303547/STRIPIN/image/svg+xml/b287859f9669eada3e6241b613316bd1/si40.svg si40 si40.svg svg 13124 ALTIMG 1-s2.0-S0021951720303547-si41.svg https://s3-eu-west-1.amazonaws.com/prod-ucs-content-store-eu-west/content/pii:S0021951720303547/STRIPIN/image/svg+xml/1f167c5839445e113acd0c8decda5c08/si41.svg si41 si41.svg svg 12913 ALTIMG 1-s2.0-S0021951720303547-si42.svg https://s3-eu-west-1.amazonaws.com/prod-ucs-content-store-eu-west/content/pii:S0021951720303547/STRIPIN/image/svg+xml/98ff3a6073badd76e40dbce3fd1ff969/si42.svg si42 si42.svg svg 11862 ALTIMG 1-s2.0-S0021951720303547-si43.svg https://s3-eu-west-1.amazonaws.com/prod-ucs-content-store-eu-west/content/pii:S0021951720303547/STRIPIN/image/svg+xml/2843e18bf2dba7e5bff958cfe7d49082/si43.svg si43 si43.svg svg 6258 ALTIMG 1-s2.0-S0021951720303547-si44.svg https://s3-eu-west-1.amazonaws.com/prod-ucs-content-store-eu-west/content/pii:S0021951720303547/STRIPIN/image/svg+xml/c86e93295ec17c61b633e67a7b39d277/si44.svg si44 si44.svg svg 7494 ALTIMG 1-s2.0-S0021951720303547-si45.svg https://s3-eu-west-1.amazonaws.com/prod-ucs-content-store-eu-west/content/pii:S0021951720303547/STRIPIN/image/svg+xml/d7156ba49611c46a036da9812a2c0f9b/si45.svg si45 si45.svg svg 10109 ALTIMG 1-s2.0-S0021951720303547-si46.svg https://s3-eu-west-1.amazonaws.com/prod-ucs-content-store-eu-west/content/pii:S0021951720303547/STRIPIN/image/svg+xml/75432d6c2469d3a6796de94ea27a4208/si46.svg si46 si46.svg svg 15616 ALTIMG 1-s2.0-S0021951720303547-si5.svg https://s3-eu-west-1.amazonaws.com/prod-ucs-content-store-eu-west/content/pii:S0021951720303547/STRIPIN/image/svg+xml/67755f154e9d2bfa5c10a800920b6baf/si5.svg si5 si5.svg svg 4622 ALTIMG 1-s2.0-S0021951720303547-si6.svg https://s3-eu-west-1.amazonaws.com/prod-ucs-content-store-eu-west/content/pii:S0021951720303547/STRIPIN/image/svg+xml/f00215d594f46c3b0c05d1c2c926ef08/si6.svg si6 si6.svg svg 8942 ALTIMG 1-s2.0-S0021951720303547-si7.svg https://s3-eu-west-1.amazonaws.com/prod-ucs-content-store-eu-west/content/pii:S0021951720303547/STRIPIN/image/svg+xml/bba8463af7857a108d098c0b6dbd7f81/si7.svg si7 si7.svg svg 2177 ALTIMG 1-s2.0-S0021951720303547-si8.svg https://s3-eu-west-1.amazonaws.com/prod-ucs-content-store-eu-west/content/pii:S0021951720303547/STRIPIN/image/svg+xml/269f20fd8d77ce81aa1ac48ec6311156/si8.svg si8 si8.svg svg 4880 ALTIMG 1-s2.0-S0021951720303547-si9.svg https://s3-eu-west-1.amazonaws.com/prod-ucs-content-store-eu-west/content/pii:S0021951720303547/STRIPIN/image/svg+xml/ea01b4569b1667090cef297fe846c8bd/si9.svg si9 si9.svg svg 6332 ALTIMG 1-s2.0-S0021951720303547-am.pdf https://s3-eu-west-1.amazonaws.com/prod-ucs-content-store-eu-west/content/egi:10MSFR1J9F5/MAIN/application/pdf/15e8e11a05f269c36603f2148201b9f0/am.pdf am am.pdf pdf false 3077906 AAM-PDF YJCAT 13883 S0021-9517(20)30354-7 10.1016/j.jcat.2020.08.032 Elsevier Inc. Fig. 1 The geometric structures of transition-metal- and nitrogen-co-doped graphene (MN4@graphene, a), and transition-metal-doped graphene (M@graphene, b). M represents Co or Ni. Fig. 2 The densities of state for CoN4@graphene and CoN4@graphene with OH*, O*, and OOH* adsorbing calculated by the normal charge-neutral method and the fixed-potential method (E F = -5.63 V). In all the calculations, the vacuum energy levels are set to zero. Fig. 3 The free energy diagrams for the oxygen evolution reaction on CoN4@graphene(a), Co@graphene(b), NiN4@graphene(c), and Ni@graphene(d). The results obtained by the fixed-potential method are plotted with solid lines, while the results obtained by the charge-neutral method are plotted with dashed lines. U electrode = -4.4 V is the ideal hydrogen evolution potential, while U electrode = -5.63 V is the ideal oxygen evolution potential. Fig. 4 The energy dependence (the electronic energy transfer from the electrode to a catalyst, Δ G U e l e c t r o d e - Δ G - 4.4 ) for each intermediate when U electrode ranges from −4.4 V to lower potential. The energy dependence for OH*, O*, and OOH* obtained by the charge-neutral method is plotted as a solid line, while that obtained by the fixed-potential method is plotted as symbols. Fig. 5 The density of state of Cod and Op orbitals in the CoN4@graphene with OH* adsorbing under different potentials. Fig. 6 The free energy diagrams for the oxygen evolution reaction on CoN4@graphene(a), Co@graphene(b), NiN4@graphene(c), and Ni@graphene(d). U electrode = -4.4 V is the ideal hydrogen evolution potential, while U electrode = -5.63 V is the ideal oxygen evolution potential. Q FCM is the average charge of the four intermediate states from the FPM calculation at U e l e c t r o d e h (as listed in Table S4 in the Supporting Information). Table 1 The overpotential of OER on different single-atom catalysts calculated via the charge-neutral method, the fixed-potential method (V), and the fixed-charge method (FCM). CoN4@graphene Co@graphene NiN4@graphene Ni@graphene η C N M 0.55(2) 1.01(4) 0.86(2) 0.35(3) η F P M 0.85(1) 0.73(3) 1.34(1) 0.39(2) η F C M 0.86(1) 0.67(3) 1.43(1) 0.41(2) Note: The charge state of four intermediate species in the FCM (QFCM) is fixed at the average charge of the four intermediate states from the FPM calculation at U e l e c t r o d e h , as shown in Table S4 in the Supporting Information. The rate-determining step numbers are also listed in parentheses. Substantial potential effects on single-atom catalysts for the oxygen evolution reaction simulated via a fixed-potential method Guoping Gao ⁎ Lin-Wang Wang Materials Sciences Division, Lawrence Berkeley National Laboratory, Berkeley CA 94720, United States Materials Sciences Division Lawrence Berkeley National Laboratory Berkeley CA 94720 United States Materials Sciences Division, Lawrence Berkeley National Laboratory, Berkeley CA 94720, United States ⁎ Corresponding author. Graphical abstract Potential not only governs the direction of electrochemical reactions, but also shapes the electronic properties of single-atom catalysts dramatically. However, it is a challenge to simulate the effects of potential theoretically. Normally, DFT calculations are performed at a constant number of electrons, not a constant voltage. In this work, we apply a new fixed-potential method (grand canonical method) in the DFT simulation to mimic the electrochemical processes, in which the total number of the electron in the system was floated to match the ‘‘applied voltage,’, or the electrode Fermi energy at the atomic level. Here, the single-atom catalysts on two-dimension substrates for the oxygen evolution reaction process are used as examples to test the fixed-potential method. This fixed-potential method changes the rate-determining step and yields an overpotential difference of as much as 0.48 V in comparison with the conventional charge-neutral method. The quantitative error in the overpotential is not as important as the qualitative error in rate-determining steps. These errors can be avoided via the fixed-charge method with the proper charge. We believe our work advances the understanding of the effects of potential on the catalytic process in real electrochemical reactions and offers practical guidance for designing catalysts. Keywords Oxygen evolution reaction Fixed-potential method Fixed-charge method Electrical energy Chemical energy 1 Introduction Electrochemical reactions, with interconversion of chemical energy and electrical energy, occur widely in metallurgy, electroplating, batteries, and water splitting. The applied voltage is crucial for these processes to occur. Obtaining the total free energy change ( Δ G ) of every elementary step under the applied voltage, including the electrical energy change ( Δ G e l e c t ) and chemical energy change ( Δ G c h e m ), is vital for elucidating the underlying mechanism. So far, the common practice of DFT calculation to simulate electrochemical reactions is based on a constant number of electrons or constant charge state, not a constant voltage, which ignores the effects of potential on the reactivity in the experiment (grand canonical ensemble). The oxygen evolution reaction (OER), for example, which consumes the major energy in many electrochemical reactions, is the most important anodic reactions involving in energy conversion and storage processes, such as water splitting [1] and CO2 reduction [2]. The widely-used four-charge-steps pathway model of OER was first proposed by Nørskov et al. to simulate the catalytic properties of pure metals and metal oxidation [3,4]. A computational hydrogen electrode (CHE) approach is proposed based on the idea that one electron will transfer from the charge-neutral system into the electrode reservoir in each elementary step. In this scheme (we named it the charge-neutral method (CNM)), it is only necessary to calculate the chemical formation energies Δ G c h e m of *(bare substrate), OH*, O*, and OOH* intermediate species once at neutral charge and get the energy values of these intermediate states by adding the N e × U term for any applied voltage U. More specifically, the U-dependent energy comes from Δ G e l e c t = N e × U only, where N e is the number of electrons transferring in each step (e.g., N e = 1 for each elementary step of OER). The thermodynamic overpotential η is derived from the minimum electrode potential U required to convert the above four steps exothermically. This CNM significantly reduces the cost of calculations [5,6]. However, the above calculation ignores the effects of U on the electronic properties of catalysts, or the U dependence of Δ G c h e m and can introduce big errors, especially for low-dimensional catalysts, as we will show later. There are some modified models, such as the extrapolation scheme [7] and the double reference method [8], converting the reactivity calculated under the constant-charge condition to that under the constant-potential condition. However, these models require some extra experimental parameters and assumptions as benchmarks and are difficult to follow. Ideally, the reaction chemical energy under applied voltage should be calculated explicitly with constant U throughout the calculation. This approach will be a grand canonical calculation. In this approach, the electrode potential (Fermi energy) is fixed, while the total number of electrons can vary at the atomic level. A few prior works have applied this approach to investigate electrode potential effects. Head-Gordon et al. have proved that the potential effect changes the mechanism for C–C bond formation [9]. Liu et al. have shown that the charge effects of different potentials have a strong impact on the electrochemical reaction, especially in 2D materials [10]. However, the present grand canonical calculations are realized by adding an outside loop, which iterates the fixed-charge calculations through different charge values until the resulting Fermi energy reaches the desired value. Together with the requirement for the solvent model, this makes the grand canonical fixed-potential method (FPM) calculation rather expensive, and have only been used in limited cases so far. In the current work, a new computational approach, in which the orbital occupations in a self-consistent field (SCF) density functional theory (DFT) calculation are calculated using the fixed Fermi level [11], will be used to adjust the total charge of the system throughout the SCF iterations. In this implementation, a finite number is used at the G = 0 point, while 1/G 2 is used at the other G point in the metrics during the Kerker preconditioning, and the Pulay charge mixing is not changed significantly. By doing so, one can change the orbital occupations. Note that one can use the auxiliary Hamiltonian method instead of this self-consistent field method [11]. We believe different codes favor different implementations. Based on our calculations, the self-consistent field method works fine. This direct grand canonical calculation, together with efficient implementation of the solvent model (including the linearized Poisson–Boltzmann equation), allows fast fixed-potential calculations. A proper expression for the total energy is required to obtain the variation minimum solution of the SCF procedure quickly. In addition, one can use the Hellman–Feynman force to guide molecular dynamics, atomic relaxation, and NEB calculations. All these functionalities work fine in the PWmat code. Single-atom catalysts, for example those dispersing the transition metal atoms on 2D substrates, have emerged as a new research frontier for electrolytic water splitting, CO2 reduction, NO2 reduction, etc. [2,12–16]. The low-coordinated isolated transition metals in these catalysts usually exhibit excellent activity [17,18]. Meanwhile, these single-atom catalysts provide a relatively easy platform for theorists to explore the intrinsic reaction mechanisms due to their limited atomic configurations [6]. Combinations of different transition metals and substrates provide a large pool to deliver atomic-scale insight into the activity trends in a wide range of catalysts, allowing the designs of more effective and optimized catalysts [19]. The density of states of single-atom catalysts, especially for the transition metal d-states, is more susceptible to environmental conditions (such as potential, pH, charge states) than that of bulk or surface catalysts. At different U, the reaction site electronic structures (e.g., state occupation and charge state) will be different. That apparently will affect Δ G e l e c t , Δ G c h e m , and the reaction mechanism. Here, we use transition-metal- and nitrogen-co-doped graphene (MN4@graphene) and transition-metal-doped graphene (M@graphene) as examples to investigate the OER process via the FPM. In the FPM, the system is charged (not neutral) by accepting/donating electrons from/to the electrode to match the catalyst Fermi level with the applied electrode potential. The overpotentials obtained by the CNM and FPM can differ by as much as 0.48 V (NiN4@graphene). The reaction-driving force caused by the increase of the electrode potential is greater in the FPM than in the traditional CNM. Based on the electronic properties of the MO bond, we find that different electrode potentials give different local electronic structures and binding environments, which changes the catalytic activities and energies. Thus, one cannot use the local electronic structure at a neutral charge to describe the reaction at the operando electrode potential. 2 Computational details All calculations were performed using the PWmat code [20,21] with norm-conserving SG15 pseudopotential. The PWmat is a plane wave pseudopotential package for density functional theory (DFT) calculations, which is designed to run efficiently on CPU/GPU processors by a drastic redesign of the algorithm and moving all the major computation parts into GPU. The exchange–correlation interactions are treated by the generalized gradient approximation in the form of the Perdew–Burke–Ernzerhof functional [22,23]. The electron wave functions are expanded by plane waves with cutoff energies of 680 eV, and the convergence tolerance for residual force and energy on each atom during structure relaxation are set to 0.005 eV Å−1 and 10−5 eV, respectively. The van der Waals interaction is described using the empirical correction in Grimme's scheme, i.e., DFT + D2 [24]. Here, we note that the hydrogen bonding from the local water is also important to electrochemical reactions [25]. However, it will make fixed-potential calculation much more challenging if some water molecules are included in our model. So the solid-water effect of the aqueous solution is approximated via the self-consistent continuum solvation model with a dielectric constant of 78 for both CNM and FPM calculations. Spin polarization is applied in all the calculations as well. The magnetic moment of the whole system or transition metal is calculated from the difference between spin-up and -down atomic charges based on the Hirshfield scheme. The Hubbard U (DFT + U) treatment is used on the transition metal. The U values for Co and Ni are set to 3.42 and 3.40, respectively, following the literature values [26]. The FPM, which can automatically adjust the total electrons of the system to satisfy an applied electrode potential [9,27], is implemented in the PWmat. Compared with fixed-charge (e.g., charge-neutral) calculations, the FPM could be more expensive. First, an implicit self-consistent continuum solvation model [28] together with a linearized Poisson–Boltzmann equation [29] must be used. The solvent model in PWmat is based on the framework of the self-consistent continuum solvation model [30], which is similar to the model used in VASPsol [28]. This solvation model uses a continuum mediate and a space variation dielectric constant ɛ(r) to represent the solvation effects, mostly the polarization effects. The Poisson–Boltzmann equation is used to screen the effects of free ions, provide a reference potential (0 V) far away from the surface, and define the absolute potential of the electrode corresponding to the experimental potential in the fixed-potential (fixed-Fermi-energy) calculations. Second, in the previous literature, an outside loop in an existing ab initio package (e.g., VASP [10]) was used to adjust the total electron of the system until the desired Fermi energy is reached. In the current study, we have used the PWmat package, where a fixed-Fermi-energy self-consistent field (SCF) procedure was implemented in the DFT electronic structure calculation itself, so that it was not necessary to iterate through the outside loop to adjust the total electrons of the system. Overall, this has significantly speeded up the calculation. For a given U, compared with the normal fixed-charge calculation, the fixed-potential calculation is only about 50% more expensive. The PWmat code also allows atomic relaxation at a given constant potential U. The details of the computation for OER via the charge-neutral method can be found in the Supporting Information. The formulation of the fixed-potential method shown in the manuscript is based on these equations with proper modifications. In this work, the electrode potential (U electrode) or the electrode Fermi energy (E F) used below is defined as the difference in electronic energy between a point outside the electrolyte in which the electrode is submerged (an electron at rest in the vacuum) and a point inside the metal (Fermi level) of an electrode, or the opposite values from absolute electrode potential, as illustrated in [31]. Also, note that U electrode = -(U NHE + 4.40). Here, U NHE refers to the normal hydrogen electrode (NHE) potential. The definition of electrode potential connects the “relative” electrode potential to the “absolute” physical quantities (Fermi level, E F) of the calculated model. This vacuum reference potential is also the far-away potential from our Poisson–Boltzmann solution in our calculation. So the E F used in our FPM is equivalent to the potential U electrode applied in the experiment. 3 Results and discussion Fig. 1 presents the configurations of two types of single-atom catalysts made by dispersing transition metal atoms on 2D graphene-based substrates, transition-metal- and nitrogen-co-doped graphene (MN4@graphene) and transition-metal-doped graphene (M@graphene), as studied in this work (M = Co or Ni). In MN4@graphene, the single-atom transition metal is surrounded by four nitrogen atoms, while in M@graphene, it is surrounded directly by four carbon atoms. Both these two types are widely studied and realized in the experiment [13,14]. The low-coordinated isolated transition metals in these catalysts are considered as active sites due to their high activity. The clean catalyst, OH*, O*, and OOH* (* denotes the catalyst) are considered as the four key stages of OER. Here, we choose CoN4@graphene as an example to plot the DOS of these four stages via normal CNM (see left panel, Fig. 2 ) and FPM (see right panel, Fig. 2). In the CNM, the clean CoN4@graphene’s Fermi level is −3.88 eV. With intermediate species adsorbing, the Fermi level decreases to −4.27, −4.25, and −4.13 eV for OH*, O*, and OOH*, respectively. The variation in adsorbents tunes the Fermi level of the neutral catalyst to variable values. On the other hand, if we set the Fermi energy level to a constant value, −5.63 V (the ideal OER potential level) in the FPM, the total net charges of these four stages varied from + 1.25 to + 1.59e, which is far from zero. The charge varies as the reaction proceeds under fix Fermi level due to the oxidative state of transition metal changing during the process. The same phenomena are also confirmed by other catalysts as shown in Tables S1 and S2 in the Supporting Information. Also, the DOS of Co obtained in these two methods are dramatically different. Therefore, the CNM and FPM are performed under dramatically different local Fermi energies and orbital occupations, which create different microscopic environments for chemical reactions. The FPM directly follows the experimental conditions. Thus it should be more realistic. In the following, we discuss how to use the FPM to calculate the Gibbs free energetics of the elementary steps in an OER process. The widely used four-charge-steps pathway model of OER via the charge-neutral method is summarized in the Supporting Information. Here, we take the first elementary charge step of OER as an example to compare the difference in the Gibbs free energy calculation between the CNM and FPM. Within the CNM, the first reaction can be written as (1) H 2 O l + ∗ - e - → O H ∗ + H + In the CNM, the Gibbs free energy of this step ( Δ G C N M ) is calculated as follows: (2) Δ G C N M = G O H ∗ + 1 2 G H 2 + 4.4 e - G H 2 O l - G ∗ - k T l n 10 ∙ p H + e U e l e c t r o d e Here, an electron on the left-hand side is transferring from the surface/catalysis system to the electrode reservoir with Fermi energy at U electrode. The lower the Uelectrode, the smaller is the Δ G C N M , and the more easily the reaction is realized. One can define the first five terms in Eq. (2) as chemical reaction formation energy: Δ G c h e m = G O H * + 1 2 G H 2 + 4.4 e - G H 2 O - G ∗ - k T l n 10 ∙ p H . Note that, in this CNM approximation, for every reaction step, the charge transfer from the surface/catalysis system (for which we calculated) to the electrode reservoir is always 1. Thus, one can define the electrical (or electronic) energy, the energy of an electron at rest in vacuum jumped down to the electrode potential: Δ G e l e c t = e U e l e c t r o d e . The total formation energy is thus the sum of the chemical reaction formation energy Δ G c h e m and the electrical energy Δ G e l e c t . As we can see, Δ G c h e m and Δ G e l e c t are well defined by the above formulas and independent from each other in the CNM. Under the FPM, the various intermediates’ (OH*, O*, and OOH*) adsorption onto catalysts involves oxidative state changing in the transition metal at a constant potential, resulting in noninteger charge transfer. Assume that, before the reaction, the total charge is q 1, and after the reaction, the total charge is q 2; then the reaction equation that balances both the elements and charges should look like (3) H 2 O l + ∗ q 1 - 1 + q 2 - q 1 e - → O H ∗ , q 2 + H + (where q 1 and q 2 are defined as the positive charge determined by the U e l e c t r o d e ). In our FPM, what we calculated are the energies of O H ∗ , q 2 and ∗ q 1 . As a result, the reaction Gibbs free energy under FPM is (4) Δ G F P M = G O H * q 2 + 1 2 G H 2 + 4.4 e - G H 2 O l - G ∗ q 1 - k T l n 10 ∙ p H + 1 + q 2 - q 1 eU e l e c t r o d e . It is very interesting that in this elementary step, the charge flowing to the reservoir (e.g., the total current flowing through a wire connecting the electrode to the cathode) is not 1e ( q 1 ≠ q 2 ). Instead, it is (1 + q 2 - q 1)e. This charge is different for each step, although the sum of the total charge for the four steps will remain 4e. This difference can certainly change the balance between different steps and the highest potential U electrode required to make all four steps exothermic. Following our definition in the CNM, Δ G c h e m of this elementary step is obtained by G O H ∗ q 2 + 1 2 G H 2 + e × 4.4 - G H 2 O ( l ) - G ∗ q 1 - k T l n 10 ∙ p H , and the corresponding Δ G e l e c t is expressed by + 1 + q 2 - q 1 eU e l e c t r o d e . Both terms are strongly dependent on U e l e c t r o d e . Therefore, there is a strong correlation between Δ G c h e m and Δ G e l e c t . In calculating G O H ∗ q 2 , we have included the contributions of vibrational entropy and vibrational zero-point energy. G H 2 O ( l ) is calculated by a vapor phase of water with low pressure that is in equilibrium with the liquid water. The gas-phase G H 2 at 1 atmosphere standard condition is calculated by its molecular energy plus the vibrational zero-point energy and vibrational entropy term (see the Supporting Information for more details). Fig. 3 shows the free energy diagrams for OER of different single-atom catalysts obtained by the charge-neutral method and the fixed-potential method at different U electrode. As the Fermi energy levels of neutral catalysts and their intermediate states in CNM are close to −4.4 V as shown in Table S1 in the Supporting Information, the energy paths obtained via the fixed-potential method (black solid line) are very close to those in the CNM (black dashed line), especially for the Co@graphene (Fig. 3b) and Ni@graphene (Fig. 3d) when U electrode = -4.4 V (the ideal SHE potential). In CNM, it is assumed that the intermediate energies at this U electrode correspond to the neutral charge results, However, in reality, two factors make the CNM and FPM different even at this U. First, in the FPM, the U electrode = -4.4 V does not correspond to the exact neutral charge system. From the bare surface * to all the intermediate states OH*, O*, OOH*, these systems are actually charged. Second, the charges for these systems under the FPM calculation are slightly different, which also causes energy differences between CNM and FPM at different intermediate states. In the FPM, q 2 - q 1 can still be rather large, e.g., −0.39e for the * to OH* step for CoN4@graphene. The Δ G e l e c t obtained via CNM and FPM ((q 2 - q 1)*eU electrode) will give a 1.7-eV energy difference. There is no such large difference between FPM and CNM, as shown in Fig. 3a. Thus, the large electric energy Δ G e l e c induced by this charge flow is compensated for by Δ G c h e m . When the potential decreases to U electrode = −5.63 V (the ideal oxygen evolution potential), a larger amount of electron charge in catalysts and their intermediates is donated to the reservoir of the electrode. As a result, the catalytic systems are more positively charged. This positive charge induces the different local orbital occupations between FPM and CNM, and different OER pathway curves. In reality, a potential lower than −5.63 V is required for any catalysts to drive the OER (overpotential). Since at U electrode = −5.63 V, we already see a big difference between FPM and CNM curves, we expect these two methods to give an even bigger difference under the real working condition (see the green solid lines vs. the green dashed lines in Fig. 3). In the following, we analyze the errors in CNM in two aspects: the overpotential error and the energy error. In the OER reaction, the thermal dynamic overpotential ( η ), in which we ignore the effect of kinetic barriers, is the most important parameter to evaluate the activities of catalysts. This overpotential allows us to estimate the reaction threshold (instead of the full Tafel plot). Computationally, the η can be calculated from the highest U electrode ( U e l e c t r o d e h ) which makes all four reaction steps exothermic: (5) η = - 5.63 - U e l e c t r o d e h Here, −5.63 eV is the theoretical ideal OER potential. In the CNM, the free energy dependence on U electrode is only based on the Δ G e l e c t = N e ∗ U electrode term, as the Δ G c h e m term is fixed. The U e l e c t r o d e h can be obtained relatively easily from the highest ΔG step in the U electrode = −4.4 plot via Eq. (8) in the Supporting Information. For FPM, one has to iterate the calculation with different U electrode until every elementary step is exothermic. In practice, when the U electrode is close to the U e l e c t r o d e h , one can assume the N e is not changed and use the Δ G e l e c t = N e ∗ U electrode to estimate the U e l e c t r o d e h . Thus, a few iterations will be sufficient to find U e l e c t r o d e h . Table 1 lists the overpotentials obtained via the CNM and FPM ( η C N M and η F P M ) for different single-atom catalysts, as well as the rate-determining steps. In both methods, the Co atoms exhibit stronger interactions with the intermediate species than the Ni atoms, regardless of the surrounding environment (the red curves in Fig. 3a are lower than those in Fig. 3b, and the red curves in Fig. 3c are lower than those in Fig. 3d). However, the overstrong interaction with intermediate species in Co@graphene is detrimental to its activity. As we can see, the overpotential for CoN4@graphene is lower than that for NiN4@graphene, while the overpotential for Co@graphene is larger than that for Ni@graphene in both methods (CNM and FPM). Thus, the activity trends of Co vs. Ni are consistent between the two methods. However, the rate-determining steps predicated by the CNM and FPM are different. In Co@graphene, for example, the fourth step is the rate-determining step in the CNM, while the FPM predicted that the third step is the rate-determining step. Meanwhile, the η C N M and η F P M of the same catalyst are different as well, and the difference can be as great as 0.48 V (NiN4@graphene, for example, η C N M = 0.86 V and η F P M = 1.34 V ). The CoN4@graphene has been predicted theoretically to be an excellent catalyst with a small overpotential calculated from the CNM [32,33]. Ref. [32] reports a 0.37-V overpotential, and Ref. [33]] reports a 0.38-V overpotential, agreeing with η C N M = 0.55 V based on CNM calculations within the calculation uncertainties (e.g., magnetic movement and solvent model). However, there is a conspicuous lack of experimental evidence for its good catalytic properties. Our FPM result of η C P M = 0.85 V indicates that this indeed might not be a good catalyst. On the other hand, the Ni@graphene is proven to be an excellent catalyst experimentally [13]. Both the CNM and FPM predict that the overpotential of Ni@graphene is low, 0.35 V and 0.39 V respectively. Thus, overall, we find that the FPM provides good agreement with experiments. Fig. 4 plots the U-dependent energy ( Δ G U e l e c t r o d e - Δ G - 4.4 ) for each intermediate state when U electrode shifts from −4.4 V to a lower potential. Here, for each intermediate state, Δ means it is referenced from the corresponding * state. For the CNM, based on Eq. (2), these U-dependent energies for different intermediates state should be the straight lines plotted in Fig. 4 following the equation (6) Δ G C N M = Δ G U e l e c t r o d e - Δ G - 4.4 = N e × U e l e c t r o d e + 4.4 For OH*, O*, and OOH*, the N e is 1, 2, and 3, respectively. The U-dependent energies in the FPM ( Δ G F P M ) do not follow a simple expression. In Eq. (4), everything depends on the U electrode. Nevertheless, they can be calculated directly, and have been plotted with scatters in Fig. 4. As we can see, the values for each intermediate species in different systems collapse into a single curve. Overall, the curves are close to the ideal N e × ( U a n o d e + 4.4 ) dependence as in the CNM case. For OH*, O*, and OOH*, the slope is slightly smaller than the ideal slope N e (N e = 1, 2, and 3 for OH*, O*, and OOH*, respectively). This slight reduction in slope might be a result of Le Chatelier’s principle, which states that in a real system, under external perturbation (here the change of the potential U electrode), the effects of the adjustment of the system will reduce the effect of this external perturbation (here this means to effectively reduce U electrode + 4.4, hence reducing the slope). Overall, the collapse into a single curve (for every kind of intermediates in different systems), and the relative closeness to the ideal slope are a bit surprising. If one used only the Δ G e l e c t : (1 + q2 - q1)eU electrode to analyze the energy dependence on U electrode, one could get a rather different result, as q2 - q1 is far from zero, and q2, and q1 also depend sensitively on U electrode. In Fig. S1 in the Supporting Information, we show the effect of this term (1 + q2 - q1)eU electrode from the FPM calculation, compared with that of the N e × ( U e l e c t r o d e + 4.4 ) term from the CNM calculation. As we can see, the result scatters in Fig. S1 in a disorderly fashion. However, when the Δ G c h e m are added, the total U-dependent energies as shown in Fig. 4 are close to the CNM cases due to the compensation between Δ G c h e m and Δ G e l e c t . That indicates that the CNM is not completely wrong. However, we believe the quantitative error in the free energies is not as important as the qualitative error in rate-determining steps. We will prove that the rate-determining steps obtained in the FPM can be confirmed via the fixed-charge method with proper charge rather than the charge-neutral state in the following. We next use the CoO bond in the CoN4@graphene with OH* adsorbing as an example to illustrate how the MO bond responds to the potential change. Fig. 5 plots the DOS of Co-d and O-p orbitals in the CoN4@graphene with OH* adsorbing under different potentials. The orbitals of the CoO bond are labeled by their electron clouds. As we can see, the CoO bonds mainly consist of two compounds: σ bond (hybridization of Co-dz 2 and O-pz ) and π bond (hybridization of Co-dyz and O-py ). The σ bond is stronger as the density state of the hybridization of Co-dz 2 and O-pz disperses from −8 to −4 eV, while the density state of the weaker π bond is very local. The contribution of the Co-dyz orbital to the π bond decreases gradually as the applied potential shifts from −4.40 V to a lower energy level, −5.63 V, which weakens CoO bond strength. When the U electrode shifts further to −6.55 V, the Co-dxy orbital becomes empty. Meanwhile, the local magnetic moments of Co also jump from 0.58 V ( U e l e c t r o d e = - 5.63 V ) to 1.55 V ( U e l e c t r o d e = - 6.55 V ; see Table S6 in the Supporting Information). That indicates that the applied potential changes the CoO bond substantially. Therefore, different electrode potentials will give different local electronic structures and binding environments, which change the catalytic activity and energy. Similar results are also observed in recent fixed-potential work by Liu and co-workers[10]. Therefore, the difference between CNM and FPM is mainly due to the active site’s local electronic structure changes at different potential (or different total charge). Thus, one cannot use the local electronic structure at a neutral charge to describe the reaction at the operando electrode potential. The compensation phenomenon between Δ G c h e m and Δ G e l e c t indicates that the difference between FPM and CNM (e.g., for the overpotential difference) may not be caused only by noninteger charge transfers from one intermediate state to another intermediate state (from q1 to q2) while the potential is fixed. The total charge states that change the local electronic structure of catalysts may be the main factor that induced the overpotential difference from the traditional charge-neutral method. In other words, it does not matter whether it is a fixed-charge (canonical) or fixed-potential (grand canonical) calculation. What matters is the charge value to be fixed (not neutral charge). In the FPM case, to get the overpotential, it is clear the most relevant calculation is the one with U electrode equals to U e l e c t r o d e h . Thus, for the fixed-charge method (FCM), the issue is that we should have the calculation at the non-neutral charge (hence, not CNM) where the resulting Fermi energy is not far away from U e l e c t r o d e h . Instead, the charge value we used for FCM fits the average Fermi energy of the four intermediate states equal or close to U e l e c t r o d e h . One can consider this a self-consistent procedure, since the U e l e c t r o d e h value in this procedure will in turn depend on the charge value used in the FCM. Furthermore, if the average Fermi energy is close to the U e l e c t r o d e h , the final result will not so sensitively depend on the method we used any more (FCM or FPM). Guided by this assumption, we have calculated the FCM using the average charge of the four intermediate states from U e l e c t r o d e h obtained by the FCM. The average charges used for the four systems (CoN4@graphene, Co@graphene, NiN4@graphene, and Ni@graphene) are + 2.15, +1.60, +2.53, and + 1.15, respectively (as listed in Table S4 in the Supporting Information). Equation (2) is used to calculate the Gibbs free energy, while G OH* and G * are calculated with the above total charge state. The resulting energy curves at U a n o d e h = -6.55, −6.36, −6.97, and −6.02 for the four systems are shown in Fig. 6 , in comparison with the FPM at these potentials. We see that the corresponding curves are rather similar except for Co@graphene. The difference in Co@graphene is caused by the free energy of * obtained by the FCM being lower by about 0.3 eV than that obtained in the FPM. The overpotentials of the FCM from these curves are 0.86, 0.67, 1.43, and 0.41 V, as shown in Table 1, which agree very well with the FPM results. In addition, the rate-determining steps obtained via FCM and FPM are the same for all the systems. Note that it is also possible that this FCM could still be wrong if the charges from one intermediate state differed significantly from another intermediate state in the FPM calculation (Table S5 in the Supporting Information). Conversely, if the Fermi energies of the four intermediate states at the above FCM are very different, this FCM can also break down. In our case, these variations are relatively small; thus the FCM works fine. Therefore, the traditional NCM will cause errors in both rate-determining steps and overpotentials in the real operando local environments simulation. These issues can be improved via the FCM with proper charge. However, it is still a challenge to determine the charge state that should be used by these methods themselves. 4 Conclusions In summary, we have used the fixed-potential grand canonical method to simulate the electric charging effects between an electrode and single-atom catalysts during OER processes at different electrode potentials. The FPM automatically adjusts the total system charge to satisfy an applied electrode potential. At this applied potential, the system can have dramatically different local orbital occupations at the catalytic site than in the neutral charge system, resulting in different microscopic environments for catalytic chemical reactions. The grand-canonical-FPM-calculated overpotential can differ from the traditional CNM results by as much as 0.48 V, and can also yield different rate-limiting steps. On the other hand, this difference is not really from the difference between fixed-potential or fixed-charge calculations (through the four steps), but from the local electronic configuration difference used to calculate the chemical reactions. This assumption is demonstrated by a test using the FCM calculation (the same charge for the four steps), but with the charge that yields the desired average Fermi energy corresponding to the operando applied electrode potential (instead of the neutral charge). This FCM calculation yields almost the same results as the FPM calculation. Therefore, the traditional NCM will cause errors in both rate-determining steps and overpotentials in the real operando local environments simulation. These issues can be improved via the FCM with proper charge values. However, it is still a challenge to determine the total charge value that should be used in the FCM. The fixed-potential method (grand canonical method), in which the total number of electrons in the system is floated automatically to match the given electrode Fermi energy, is a better model to simulate the electrochemical reactions in a more straightforward way. We believe our work advances the understanding of potential effects on the catalytic process in real electrochemical reactions and offers practical guidance for designing catalysts. As analyzed in our study, the major difference between the FPM and the NCM comes from the occupation of the local density of state at different electrode potentials. This effect is probably strongest for 2D material due to its relatively low density of states. In the bulk electrode, even if the potential changes significantly relative to the vacuum level, the Fermi energy relative to the density of states in the bulk should not change. Nevertheless, for oxides such as TiO2, SrTiO3, and WO3, the surface density of state occupations can still change significantly due to the existence of a surface density of states near the Fermi energy. As a result, there could still be a significant FPM effect. On the other hand, for metal, due to the high bulk density of states near the Fermi energy and the relatively simple electronic structure for the surface, the effect could be rather small. That said, there could be other effects, caused by the change of charge in the reaction species themselves, for example, during the energy barrier calculation, when the molecule has different structures. Such change is not related to the substrate, but the species themselves. Such effects can significantly alter the results for energy barrier calculations, and will be studied in the future. The supporting information provides the following: A brief instruction to PWmat code, the solvent model, and the Poisson–Boltzmann equation. The process of OER for the charge-neutral method. The Fermi energy levels of different neutral catalysts and intermediates. The charge states of different catalysts and intermediates when the Fermi energy level is set to −4.4 eV and −5.63 V via the fixed-potential method. The charge states of different catalysts and intermediates when the Fermi energy level is set to U a n o d e h V via the fixed-potential method, The Fermi energy levels of different catalysts and intermediates when the charge is set to the average charges at U a n o d e h V via the fixed-charge method. The energy dependence obtained from the electron transfer energy term ( Δ G U a n o d e e l e c t - Δ G - 4.40 e l e c t ) for each intermediate when U electrode shifts from −4.4 V to lower potentials, and the total magnetic moment and local magnetic moment of Co in CoN4@graphene with OH* adsorbing under different U electrode and neutral states. Declaration of Competing Interest The authors declare that they have no known competing financial interests or personal relationships that could have appeared to influence the work reported in this paper. Acknowledgments This work was supported by the Assistant Secretary for Energy Efficiency and Renewable Energy of the U.S. Department of Energy under the Battery Materials Research (BMR) program. The theoretical work in this research used the resources of the National Renewable Energy Laboratory High-Performance Computing. Appendix A Supplementary material Supplementary data to this article can be found online at https://doi.org/10.1016/j.jcat.2020.08.032. Appendix A Supplementary material The following are the Supplementary data to this article: Supplementary data 1 References [1] G. Beni L.M. Schiavone J.L. Shay W.C. Dautremont-Smith B.S. Schneider Electrocatalytic oxygen evolution on reactively sputtered electrochromic iridium oxide films Nature 282 1979 281 283 G. Beni, L.M. Schiavone, J.L. Shay, W.C. Dautremont-Smith, B.S. Schneider, Electrocatalytic oxygen evolution on reactively sputtered electrochromic iridium oxide films, Nature 282 (1979) 281-283. [2] Y. Meng X. Zhang W.-H. Hung J. He Y.-S. Tsai Y. Kuang M.J. Kenney J.-J. Shyue Y. Liu K.H. Stone X. Zheng S.L. Suib M.-C. Lin Y. Liang H. Dai Highly active oxygen evolution integrated with efficient CO2 to CO electroreduction Proc. Natl. Acad. Sci. USA 116 2019 23915 23922 Y. Meng, X. Zhang, W.-H. Hung, J. He, Y.-S. Tsai, Y. Kuang, M.J. Kenney, J.-J. Shyue, Y. Liu, K.H. Stone, X. Zheng, S.L. Suib, M.-C. Lin, Y. Liang, H. Dai, Highly active oxygen evolution integrated with efficient CO2 to CO electroreduction, Proc. Natl. Acad. Sci. USA 116 (2019) 23915-23922. [3] J.K. Nørskov J. Rossmeisl A. Logadottir L. Lindqvist J.R. Kitchin T. Bligaard H. Jónsson Origin of the Overpotential for Oxygen Reduction at a Fuel-Cell Cathode J. Phys. Chem. B 108 2004 17886 17892 J.K. Nørskov, J. Rossmeisl, A. Logadottir, L. Lindqvist, J.R. Kitchin, T. Bligaard, H. Jónsson, Origin of the Overpotential for Oxygen Reduction at a Fuel-Cell Cathode, J. Phys. Chem. B 108 (2004) 17886-17892. [4] Á. Valdés Z.W. Qu G.J. Kroes J. Rossmeisl J.K. Nørskov Oxidation and Photo-Oxidation of Water on TiO2 Surface J. Phys. Chem. C 112 2008 9872 9879 Á. Valdés, Z.W. Qu, G.J. Kroes, J. Rossmeisl, J.K. Nørskov, Oxidation and Photo-Oxidation of Water on TiO2 Surface, J. Phys. Chem. C 112 (2008) 9872-9879. [5] J. Long S. Chen Y. Zhang C. Guo X. Fu D. Deng J. Xiao Direct Electrochemical Ammonia Synthesis from Nitric Oxide Angew. Chem. Int. Ed. 59 2020 9711 9718 Long, S. Chen, Y. Zhang, C. Guo, X. Fu, D. Deng, J. Xiao, Direct Electrochemical Ammonia Synthesis from Nitric Oxide, Angew. Chem. Int. Ed. doi: 10.1002/anie.202002337. [6] X. Liu Y. Jiao Y. Zheng M. Jaroniec S.-Z. Qiao Building Up a Picture of the Electrocatalytic Nitrogen Reduction Activity of Transition Metal Single-Atom Catalysts J. Am. Chem. Soc. 141 2019 9664 9672 X. Liu, Y. Jiao, Y. Zheng, M. Jaroniec, S.-Z. Qiao, Building Up a Picture of the Electrocatalytic Nitrogen Reduction Activity of Transition Metal Single-Atom Catalysts, J. Am. Chem. Soc. 141 (2019) 9664-9672. [7] K. Chan J.K. Nørskov Electrochemical Barriers Made Simple J. Phys. Chem. Lett. 6 2015 2663 2668 K. Chan, J.K. Nørskov, Electrochemical Barriers Made Simple, J. Phys. Chem. Lett. 6 (2015) 2663-2668. [8] J.-S. Filhol M. Neurock Elucidation of the Electrochemical Activation of Water over Pd by First Principles Angew. Chem. Int. Ed. 45 2006 402 406 J.-S. Filhol, M. Neurock, Elucidation of the Electrochemical Activation of Water over Pd by First Principles, Angew. Chem. Int. Ed. 45 (2006) 402-406. [9] J.D. Goodpaster A.T. Bell M. Head-Gordon Identification of Possible Pathways for C-C Bond Formation during Electrochemical Reduction of CO2: New Theoretical Insights from an Improved Electrochemical Model J. Phys. Chem. Lett. 7 2016 1471 1477 J.D. Goodpaster, A.T. Bell, M. Head-Gordon, Identification of Possible Pathways for C–C Bond Formation during Electrochemical Reduction of CO2: New Theoretical Insights from an Improved Electrochemical Model, J. Phys. Chem. Lett. 7 (2016) 1471-1477. [10] D. Kim J. Shi Y. Liu Substantial Impact of Charge on Electrochemical Reactions of Two-Dimensional Materials J. Am. Chem. Soc. 140 2018 9127 9131 D. Kim, J. Shi, Y. Liu, Substantial Impact of Charge on Electrochemical Reactions of Two-Dimensional Materials, J. Am. Chem. Soc. 140 (2018) 9127-9131. [11] S. Ravishankar A.G.I. William A.A. Tomas Grand canonical electronic density-functional theory: Algorithms and applications to electrochemistry J. Chem. Phys. 146 2017 114104 S. Ravishankar, A.G.I. William, A.A. Tomas, Grand canonical electronic density-functional theory: Algorithms and applications to electrochemistry, J. Chem. Phys. 146 (2017) 114104. [12] J. Guan Z. Duan F. Zhang S.D. Kelly R. Si M. Dupuis Q. Huang J.Q. Chen C. Tang C. Li Water oxidation on a mononuclear manganese heterogeneous catalyst Nat. Catal. 1 2018 870 877 J. Guan, Z. Duan, F. Zhang, S.D. Kelly, R. Si, M. Dupuis, Q. Huang, J.Q. Chen, C. Tang, C. Li, Water oxidation on a mononuclear manganese heterogeneous catalyst, Nat. Catal., 1 (2018) 870-877. [13] L. Zhang Y. Jia G. Gao X. Yan N. Chen J. Chen M.T. Soo B. Wood D. Yang A. Du X. Yao Graphene Defects Trap Atomic Ni Species for Hydrogen and Oxygen Evolution Reactions Chem 4 2018 285 297 L. Zhang, Y. Jia, G. Gao, X. Yan, N. Chen, J. Chen, M.T. Soo, B. Wood, D. Yang, A. Du, X. Yao, Graphene Defects Trap Atomic Ni Species for Hydrogen and Oxygen Evolution Reactions, Chem 4 (2018) 285-297. [14] H. Fei J. Dong Y. Feng C.S. Allen C. Wan B. Volosskiy M. Li Z. Zhao Y. Wang H. Sun P. An W. Chen Z. Guo C. Lee D. Chen I. Shakir M. Liu T. Hu Y. Li A.I. Kirkland X. Duan Y. Huang General synthesis and definitive structural identification of MN4C4 single-atom catalysts with tunable electrocatalytic activities Nat. Catal. 1 2018 63 72 H. Fei, J. Dong, Y. Feng, C.S. Allen, C. Wan, B. Volosskiy, M. Li, Z. Zhao, Y. Wang, H. Sun, P. An, W. Chen, Z. Guo, C. Lee, D. Chen, I. Shakir, M. Liu, T. Hu, Y. Li, A.I. Kirkland, X. Duan, Y. Huang, General synthesis and definitive structural identification of MN4C4 single-atom catalysts with tunable electrocatalytic activities, Nat. Catal. 1 (2018) 63-72. [15] Y. Ouyang L. Shi X. Bai Q. Li J. Wang Breaking scaling relations for efficient CO2 electrochemical reduction through dual-atom catalysts Chem. Sci. 11 2020 1807 1813 Y. Ouyang, L. Shi, X. Bai, Q. Li, J. Wang, Breaking scaling relations for efficient CO2 electrochemical reduction through dual-atom catalysts, Chem. Sci. 11 (2020) 1807-1813. [16] W. Liu L. Zhang W. Yan X. Liu X. Yang S. Miao W. Wang A. Wang T. Zhang Single-atom dispersed Co–N–C catalyst: structure identification and performance for hydrogenative coupling of nitroarenes Chem. Sci. 7 2016 5758 5764 W. Liu, L. Zhang, W. Yan, X. Liu, X. Yang, S. Miao, W. Wang, A. Wang, T. Zhang, Single-atom dispersed Co–N–C catalyst: structure identification and performance for hydrogenative coupling of nitroarenes, Chem. Sci. 7 (2016) 5758-5764. [17] Y. Wang J. Mao X. Meng L. Yu D. Deng X. Bao Catalysis with Two-Dimensional Materials Confining Single Atoms: Concept, Design, and Applications Chem. Rev. 119 2019 1806 1854 Y. Wang, J. Mao, X. Meng, L. Yu, D. Deng, X. Bao, Catalysis with Two-Dimensional Materials Confining Single Atoms: Concept, Design, and Applications, Chem. Rev. 119 (2019) 1806-1854. [18] G. Gao E.R. Waclawik A. Du Computational screening of two-dimensional coordination polymers as efficient catalysts for oxygen evolution and reduction reaction J. Catal. 352 2017 579 585 G. Gao, E.R. Waclawik, A. Du, Computational screening of two-dimensional coordination polymers as efficient catalysts for oxygen evolution and reduction reaction, J. Catal. 352 (2017) 579-585. [19] G. Gao S. Bottle A. Du Understanding the activity and selectivity of single atom catalysts for hydrogen and oxygen evolution via ab initial study Catal. Sci. Technol. 8 2018 996 1001 G. Gao, S. Bottle, A. Du, Understanding the activity and selectivity of single atom catalysts for hydrogen and oxygen evolution via ab initial study, Catal. Sci. Technol. 8 (2018) 996-1001. [20] W. Jia Z. Cao L. Wang J. Fu X. Chi W. Gao L.-W. Wang The analysis of a plane wave pseudopotential density functional theory code on a GPU machine Comput. Phys. Commun. 184 2013 9 18 W. Jia, Z. Cao, L. Wang, J. Fu, X. Chi, W. Gao, L.-W. Wang, The analysis of a plane wave pseudopotential density functional theory code on a GPU machine, Comput. Phys. Commun. 184 (2013) 9-18. [21] W. Jia J. Fu Z. Cao L. Wang X. Chi W. Gao L.-W. Wang Fast plane wave density functional theory molecular dynamics calculations on multi-GPU machines J. Comput. Phys. 251 2013 102 115 W. Jia, J. Fu, Z. Cao, L. Wang, X. Chi, W. Gao, L.-W. Wang, Fast plane wave density functional theory molecular dynamics calculations on multi-GPU machines, J. Comput. Phys. 251 (2013) 102-115. [22] J.P. Perdew K. Burke M. Ernzerhof Generalized Gradient Approximation Made Simple Phys. Rev. Lett. 77 1996 3865 3868 J.P. Perdew, K. Burke, M. Ernzerhof, Generalized Gradient Approximation Made Simple, Phys. Rev. Lett. 77 (1996) 3865-3868. [23] J.P. Perdew M. Ernzerhof K. Burke Rationale for mixing exact exchange with density functional approximations J. Chem. Phys. 105 1996 9982 9985 J.P. Perdew, M. Ernzerhof, K. Burke, Rationale for mixing exact exchange with density functional approximations, J. Chem. Phys. 105 (1996) 9982-9985. [24] S. Grimme Semiempirical GGA-type density functional constructed with a long-range dispersion correction J. Comput. Chem. 27 2006 1787 1799 S. Grimme, Semiempirical GGA-type density functional constructed with a long-range dispersion correction, J. Comput. Chem. 27 (2006) 1787-1799. [25] X. Zhao Y. Liu Unveiling the Active Structure of Single Nickel Atom Catalysis: Critical Roles of Charge Capacity and Hydrogen Bonding J. Am. Chem. Soc. 142 2020 5773 5777 X. Zhao, Y. Liu, Unveiling the Active Structure of Single Nickel Atom Catalysis: Critical Roles of Charge Capacity and Hydrogen Bonding, J. Am. Chem. Soc. 142 (2020) 5773-5777. [26] S.L. Dudarev G.A. Botton S.Y. Savrasov C.J. Humphreys A.P. Sutton Electron-energy-loss spectra and the structural stability of nickel oxide: An LSDA+U study Phys. Rev. B 57 1998 1505 1509 S.L. Dudarev, G.A. Botton, S.Y. Savrasov, C.J. Humphreys, A.P. Sutton, Electron-energy-loss spectra and the structural stability of nickel oxide: An LSDA+U study, Phys. Rev. B 57 (1998) 1505-1509. [27] Z. Wang Y. Yang D.L. Olmsted M. Asta B.B. Laird Evaluation of the constant potential method in simulating electric double-layer capacitors J. Chem. Phys. 141 2014 184102 Z. Wang, Y. Yang, D.L. Olmsted, M. Asta, B.B. Laird, Evaluation of the constant potential method in simulating electric double-layer capacitors, J. Chem. Phys. 141 (2014) 184102. [28] K. Mathew R. Sundararaman K. Letchworth-Weaver T.A. Arias R.G. Hennig Implicit solvation model for density-functional study of nanocrystal surfaces and reaction pathways J. Chem. Phys. 140 2014 084106 K. Mathew, R. Sundararaman, K. Letchworth-Weaver, T.A. Arias, R.G. Hennig, Implicit solvation model for density-functional study of nanocrystal surfaces and reaction pathways, J. Chem. Phys. 140 (2014) 084106. [29] G. Fisicaro L. Genovese O. Andreussi N. Marzari S. Goedecker A generalized Poisson and Poisson-Boltzmann solver for electrostatic environments J. Chem. Phys. 144 2016 014103 G. Fisicaro, L. Genovese, O. Andreussi, N. Marzari, S. Goedecker, A generalized Poisson and Poisson-Boltzmann solver for electrostatic environments, J. Chem. Phys. 144 (2016) 014103. [30] O. Andreussi I. Dabo N. Marzari Revised self-consistent continuum solvation in electronic-structure calculations J. Chem. Phys. 136 2012 064102 O. Andreussi, I. Dabo, N. Marzari, Revised self-consistent continuum solvation in electronic-structure calculations, J. Chem. Phys. 136 (2012) 064102. [31] S. Trasatti The absolute electrode potential: an explanatory note (Recommendations 1986) J. Electroanal. Chem. Interfac. Electrochem. 209 1986 417 428 S. Trasatti, The absolute electrode potential: an explanatory note (Recommendations 1986), J. Electroanal. Chem. Interfac. Electrochem. 209 (1986) 417-428. [32] H. Xu D. Cheng D. Cao X.C. Zeng A universal principle for a rational design of single-atom electrocatalysts Nat. Catal. 1 2018 339 348 H. Xu, D. Cheng, D. Cao, X.C. Zeng, A universal principle for a rational design of single-atom electrocatalysts, Nat. Catal. 1 (2018) 339-348. [33] Y. Zhou G. Gao Y. Li W. Chu L.-W. Wang Transition-metal single atoms in nitrogen-doped graphenes as efficient active centers for water splitting: a theoretical study Phys. Chem. Chem. Phys. 21 2019 3024 3032 Y. Zhou, G. Gao, Y. Li, W. Chu, L.-W. Wang, Transition-metal single atoms in nitrogen-doped graphenes as efficient active centers for water splitting: a theoretical study, Phys. Chem. Chem. Phys. 21 (2019) 3024-3032.",
+      "scopus-id": "85092189845",
+      "coredata": {
+        "eid": "1-s2.0-S0021951720303547",
+        "dc:description": "Potential not only governs the direction of electrochemical reactions, but also shapes the electronic properties of single-atom catalysts dramatically. However, it is a challenge to simulate the effects of potential theoretically. Normally, DFT calculations are performed at a constant number of electrons, not a constant voltage. In this work, we apply a new fixed-potential method (grand canonical method) in the DFT simulation to mimic the electrochemical processes, in which the total number of the electron in the system was floated to match the ‘‘applied voltage,’, or the electrode Fermi energy at the atomic level. Here, the single-atom catalysts on two-dimension substrates for the oxygen evolution reaction process are used as examples to test the fixed-potential method. This fixed-potential method changes the rate-determining step and yields an overpotential difference of as much as 0.48 V in comparison with the conventional charge-neutral method. The quantitative error in the overpotential is not as important as the qualitative error in rate-determining steps. These errors can be avoided via the fixed-charge method with the proper charge. We believe our work advances the understanding of the effects of potential on the catalytic process in real electrochemical reactions and offers practical guidance for designing catalysts.",
+        "openArchiveArticle": "false",
+        "prism:coverDate": "2020-11-30",
+        "openaccessUserLicense": null,
+        "prism:aggregationType": "Journal",
+        "prism:url": "https://api.elsevier.com/content/article/pii/S0021951720303547",
+        "dc:creator": [
+          {
+            "@_fa": "true",
+            "$": "Gao, Guoping"
+          },
+          {
+            "@_fa": "true",
+            "$": "Wang, Lin-Wang"
+          }
+        ],
+        "link": [
+          {
+            "@_fa": "true",
+            "@rel": "self",
+            "@href": "https://api.elsevier.com/content/article/pii/S0021951720303547"
+          },
+          {
+            "@_fa": "true",
+            "@rel": "scidir",
+            "@href": "https://www.sciencedirect.com/science/article/pii/S0021951720303547"
+          }
+        ],
+        "dc:format": "application/json",
+        "openaccessType": null,
+        "pii": "S0021-9517(20)30354-7",
+        "prism:volume": "391",
+        "prism:publisher": "Elsevier Inc.",
+        "dc:title": "Substantial potential effects on single-atom catalysts for the oxygen evolution reaction simulated via a fixed-potential method",
+        "prism:copyright": "© 2020 Elsevier Inc. All rights reserved.",
+        "openaccess": "0",
+        "prism:issn": "00219517",
+        "dcterms:subject": [
+          {
+            "@_fa": "true",
+            "$": "Oxygen evolution reaction"
+          },
+          {
+            "@_fa": "true",
+            "$": "Fixed-potential method"
+          },
+          {
+            "@_fa": "true",
+            "$": "Fixed-charge method"
+          },
+          {
+            "@_fa": "true",
+            "$": "Electrical energy"
+          },
+          {
+            "@_fa": "true",
+            "$": "Chemical energy"
+          }
+        ],
+        "openaccessArticle": "false",
+        "prism:publicationName": "Journal of Catalysis",
+        "openaccessSponsorType": null,
+        "prism:pageRange": "530-538",
+        "prism:endingPage": "538",
+        "pubType": "fla",
+        "prism:coverDisplayDate": "November 2020",
+        "prism:doi": "10.1016/j.jcat.2020.08.032",
+        "prism:startingPage": "530",
+        "dc:identifier": "doi:10.1016/j.jcat.2020.08.032",
+        "openaccessSponsorName": null
+      },
+      "objects": {
+        "object": [
+          {
+            "@category": "standard",
+            "@height": "200",
+            "@width": "393",
+            "@_fa": "true",
+            "$": "https://api.elsevier.com/content/object/eid/1-s2.0-S0021951720303547-ga1.jpg?httpAccept=%2A%2F%2A",
+            "@multimediatype": "JPEG image file",
+            "@type": "IMAGE-DOWNSAMPLED",
+            "@size": "29142",
+            "@ref": "ga1",
+            "@mimetype": "image/jpeg"
+          },
+          {
+            "@category": "standard",
+            "@height": "598",
+            "@width": "529",
+            "@_fa": "true",
+            "$": "https://api.elsevier.com/content/object/eid/1-s2.0-S0021951720303547-gr2.jpg?httpAccept=%2A%2F%2A",
+            "@multimediatype": "JPEG image file",
+            "@type": "IMAGE-DOWNSAMPLED",
+            "@size": "98150",
+            "@ref": "gr2",
+            "@mimetype": "image/jpeg"
+          },
+          {
+            "@category": "standard",
+            "@height": "471",
+            "@width": "710",
+            "@_fa": "true",
+            "$": "https://api.elsevier.com/content/object/eid/1-s2.0-S0021951720303547-gr3.jpg?httpAccept=%2A%2F%2A",
+            "@multimediatype": "JPEG image file",
+            "@type": "IMAGE-DOWNSAMPLED",
+            "@size": "86585",
+            "@ref": "gr3",
+            "@mimetype": "image/jpeg"
+          },
+          {
+            "@category": "standard",
+            "@height": "290",
+            "@width": "362",
+            "@_fa": "true",
+            "$": "https://api.elsevier.com/content/object/eid/1-s2.0-S0021951720303547-gr4.jpg?httpAccept=%2A%2F%2A",
+            "@multimediatype": "JPEG image file",
+            "@type": "IMAGE-DOWNSAMPLED",
+            "@size": "23986",
+            "@ref": "gr4",
+            "@mimetype": "image/jpeg"
+          },
+          {
+            "@category": "standard",
+            "@height": "762",
+            "@width": "370",
+            "@_fa": "true",
+            "$": "https://api.elsevier.com/content/object/eid/1-s2.0-S0021951720303547-gr5.jpg?httpAccept=%2A%2F%2A",
+            "@multimediatype": "JPEG image file",
+            "@type": "IMAGE-DOWNSAMPLED",
+            "@size": "64722",
+            "@ref": "gr5",
+            "@mimetype": "image/jpeg"
+          },
+          {
+            "@category": "standard",
+            "@height": "459",
+            "@width": "710",
+            "@_fa": "true",
+            "$": "https://api.elsevier.com/content/object/eid/1-s2.0-S0021951720303547-gr6.jpg?httpAccept=%2A%2F%2A",
+            "@multimediatype": "JPEG image file",
+            "@type": "IMAGE-DOWNSAMPLED",
+            "@size": "55077",
+            "@ref": "gr6",
+            "@mimetype": "image/jpeg"
+          },
+          {
+            "@category": "standard",
+            "@height": "166",
+            "@width": "533",
+            "@_fa": "true",
+            "$": "https://api.elsevier.com/content/object/eid/1-s2.0-S0021951720303547-gr1.jpg?httpAccept=%2A%2F%2A",
+            "@multimediatype": "JPEG image file",
+            "@type": "IMAGE-DOWNSAMPLED",
+            "@size": "30605",
+            "@ref": "gr1",
+            "@mimetype": "image/jpeg"
+          },
+          {
+            "@category": "thumbnail",
+            "@height": "111",
+            "@width": "219",
+            "@_fa": "true",
+            "$": "https://api.elsevier.com/content/object/eid/1-s2.0-S0021951720303547-ga1.sml?httpAccept=%2A%2F%2A",
+            "@multimediatype": "GIF image file",
+            "@type": "IMAGE-THUMBNAIL",
+            "@size": "10203",
+            "@ref": "ga1",
+            "@mimetype": "image/gif"
+          },
+          {
+            "@category": "thumbnail",
+            "@height": "164",
+            "@width": "145",
+            "@_fa": "true",
+            "$": "https://api.elsevier.com/content/object/eid/1-s2.0-S0021951720303547-gr2.sml?httpAccept=%2A%2F%2A",
+            "@multimediatype": "GIF image file",
+            "@type": "IMAGE-THUMBNAIL",
+            "@size": "11730",
+            "@ref": "gr2",
+            "@mimetype": "image/gif"
+          },
+          {
+            "@category": "thumbnail",
+            "@height": "145",
+            "@width": "219",
+            "@_fa": "true",
+            "$": "https://api.elsevier.com/content/object/eid/1-s2.0-S0021951720303547-gr3.sml?httpAccept=%2A%2F%2A",
+            "@multimediatype": "GIF image file",
+            "@type": "IMAGE-THUMBNAIL",
+            "@size": "9893",
+            "@ref": "gr3",
+            "@mimetype": "image/gif"
+          },
+          {
+            "@category": "thumbnail",
+            "@height": "164",
+            "@width": "204",
+            "@_fa": "true",
+            "$": "https://api.elsevier.com/content/object/eid/1-s2.0-S0021951720303547-gr4.sml?httpAccept=%2A%2F%2A",
+            "@multimediatype": "GIF image file",
+            "@type": "IMAGE-THUMBNAIL",
+            "@size": "7392",
+            "@ref": "gr4",
+            "@mimetype": "image/gif"
+          },
+          {
+            "@category": "thumbnail",
+            "@height": "163",
+            "@width": "79",
+            "@_fa": "true",
+            "$": "https://api.elsevier.com/content/object/eid/1-s2.0-S0021951720303547-gr5.sml?httpAccept=%2A%2F%2A",
+            "@multimediatype": "GIF image file",
+            "@type": "IMAGE-THUMBNAIL",
+            "@size": "5200",
+            "@ref": "gr5",
+            "@mimetype": "image/gif"
+          },
+          {
+            "@category": "thumbnail",
+            "@height": "141",
+            "@width": "219",
+            "@_fa": "true",
+            "$": "https://api.elsevier.com/content/object/eid/1-s2.0-S0021951720303547-gr6.sml?httpAccept=%2A%2F%2A",
+            "@multimediatype": "GIF image file",
+            "@type": "IMAGE-THUMBNAIL",
+            "@size": "6996",
+            "@ref": "gr6",
+            "@mimetype": "image/gif"
+          },
+          {
+            "@category": "thumbnail",
+            "@height": "68",
+            "@width": "219",
+            "@_fa": "true",
+            "$": "https://api.elsevier.com/content/object/eid/1-s2.0-S0021951720303547-gr1.sml?httpAccept=%2A%2F%2A",
+            "@multimediatype": "GIF image file",
+            "@type": "IMAGE-THUMBNAIL",
+            "@size": "6138",
+            "@ref": "gr1",
+            "@mimetype": "image/gif"
+          },
+          {
+            "@category": "high",
+            "@height": "531",
+            "@width": "1045",
+            "@_fa": "true",
+            "$": "https://api.elsevier.com/content/object/eid/1-s2.0-S0021951720303547-ga1_lrg.jpg?httpAccept=%2A%2F%2A",
+            "@multimediatype": "JPEG image file",
+            "@type": "IMAGE-HIGH-RES",
+            "@size": "94050",
+            "@ref": "ga1",
+            "@mimetype": "image/jpeg"
+          },
+          {
+            "@category": "high",
+            "@height": "2648",
+            "@width": "2344",
+            "@_fa": "true",
+            "$": "https://api.elsevier.com/content/object/eid/1-s2.0-S0021951720303547-gr2_lrg.jpg?httpAccept=%2A%2F%2A",
+            "@multimediatype": "JPEG image file",
+            "@type": "IMAGE-HIGH-RES",
+            "@size": "863594",
+            "@ref": "gr2",
+            "@mimetype": "image/jpeg"
+          },
+          {
+            "@category": "high",
+            "@height": "2088",
+            "@width": "3146",
+            "@_fa": "true",
+            "$": "https://api.elsevier.com/content/object/eid/1-s2.0-S0021951720303547-gr3_lrg.jpg?httpAccept=%2A%2F%2A",
+            "@multimediatype": "JPEG image file",
+            "@type": "IMAGE-HIGH-RES",
+            "@size": "592239",
+            "@ref": "gr3",
+            "@mimetype": "image/jpeg"
+          },
+          {
+            "@category": "high",
+            "@height": "1288",
+            "@width": "1606",
+            "@_fa": "true",
+            "$": "https://api.elsevier.com/content/object/eid/1-s2.0-S0021951720303547-gr4_lrg.jpg?httpAccept=%2A%2F%2A",
+            "@multimediatype": "JPEG image file",
+            "@type": "IMAGE-HIGH-RES",
+            "@size": "168569",
+            "@ref": "gr4",
+            "@mimetype": "image/jpeg"
+          },
+          {
+            "@category": "high",
+            "@height": "3376",
+            "@width": "1640",
+            "@_fa": "true",
+            "$": "https://api.elsevier.com/content/object/eid/1-s2.0-S0021951720303547-gr5_lrg.jpg?httpAccept=%2A%2F%2A",
+            "@multimediatype": "JPEG image file",
+            "@type": "IMAGE-HIGH-RES",
+            "@size": "469783",
+            "@ref": "gr5",
+            "@mimetype": "image/jpeg"
+          },
+          {
+            "@category": "high",
+            "@height": "2032",
+            "@width": "3146",
+            "@_fa": "true",
+            "$": "https://api.elsevier.com/content/object/eid/1-s2.0-S0021951720303547-gr6_lrg.jpg?httpAccept=%2A%2F%2A",
+            "@multimediatype": "JPEG image file",
+            "@type": "IMAGE-HIGH-RES",
+            "@size": "389473",
+            "@ref": "gr6",
+            "@mimetype": "image/jpeg"
+          },
+          {
+            "@category": "high",
+            "@height": "737",
+            "@width": "2362",
+            "@_fa": "true",
+            "$": "https://api.elsevier.com/content/object/eid/1-s2.0-S0021951720303547-gr1_lrg.jpg?httpAccept=%2A%2F%2A",
+            "@multimediatype": "JPEG image file",
+            "@type": "IMAGE-HIGH-RES",
+            "@size": "161405",
+            "@ref": "gr1",
+            "@mimetype": "image/jpeg"
+          },
+          {
+            "@category": "standard",
+            "@_fa": "true",
+            "$": "https://api.elsevier.com/content/object/eid/1-s2.0-S0021951720303547-mmc1.docx?httpAccept=%2A%2F%2A",
+            "@multimediatype": "Microsoft Word file",
+            "@type": "APPLICATION",
+            "@size": "66561",
+            "@ref": "mmc1",
+            "@mimetype": "application/word"
+          },
+          {
+            "@category": "thumbnail",
+            "@_fa": "true",
+            "$": "https://api.elsevier.com/content/object/eid/1-s2.0-S0021951720303547-si1.svg?httpAccept=%2A%2F%2A",
+            "@multimediatype": "Scalable Vector Graphics file",
+            "@type": "ALTIMG",
+            "@size": "11540",
+            "@ref": "si1",
+            "@mimetype": "image/svg+xml"
+          },
+          {
+            "@category": "thumbnail",
+            "@_fa": "true",
+            "$": "https://api.elsevier.com/content/object/eid/1-s2.0-S0021951720303547-si10.svg?httpAccept=%2A%2F%2A",
+            "@multimediatype": "Scalable Vector Graphics file",
+            "@type": "ALTIMG",
+            "@size": "4851",
+            "@ref": "si10",
+            "@mimetype": "image/svg+xml"
+          },
+          {
+            "@category": "thumbnail",
+            "@_fa": "true",
+            "$": "https://api.elsevier.com/content/object/eid/1-s2.0-S0021951720303547-si11.svg?httpAccept=%2A%2F%2A",
+            "@multimediatype": "Scalable Vector Graphics file",
+            "@type": "ALTIMG",
+            "@size": "9398",
+            "@ref": "si11",
+            "@mimetype": "image/svg+xml"
+          },
+          {
+            "@category": "thumbnail",
+            "@_fa": "true",
+            "$": "https://api.elsevier.com/content/object/eid/1-s2.0-S0021951720303547-si12.svg?httpAccept=%2A%2F%2A",
+            "@multimediatype": "Scalable Vector Graphics file",
+            "@type": "ALTIMG",
+            "@size": "13777",
+            "@ref": "si12",
+            "@mimetype": "image/svg+xml"
+          },
+          {
+            "@category": "thumbnail",
+            "@_fa": "true",
+            "$": "https://api.elsevier.com/content/object/eid/1-s2.0-S0021951720303547-si13.svg?httpAccept=%2A%2F%2A",
+            "@multimediatype": "Scalable Vector Graphics file",
+            "@type": "ALTIMG",
+            "@size": "4970",
+            "@ref": "si13",
+            "@mimetype": "image/svg+xml"
+          },
+          {
+            "@category": "thumbnail",
+            "@_fa": "true",
+            "$": "https://api.elsevier.com/content/object/eid/1-s2.0-S0021951720303547-si14.svg?httpAccept=%2A%2F%2A",
+            "@multimediatype": "Scalable Vector Graphics file",
+            "@type": "ALTIMG",
+            "@size": "34520",
+            "@ref": "si14",
+            "@mimetype": "image/svg+xml"
+          },
+          {
+            "@category": "thumbnail",
+            "@_fa": "true",
+            "$": "https://api.elsevier.com/content/object/eid/1-s2.0-S0021951720303547-si15.svg?httpAccept=%2A%2F%2A",
+            "@multimediatype": "Scalable Vector Graphics file",
+            "@type": "ALTIMG",
+            "@size": "28141",
+            "@ref": "si15",
+            "@mimetype": "image/svg+xml"
+          },
+          {
+            "@category": "thumbnail",
+            "@_fa": "true",
+            "$": "https://api.elsevier.com/content/object/eid/1-s2.0-S0021951720303547-si16.svg?httpAccept=%2A%2F%2A",
+            "@multimediatype": "Scalable Vector Graphics file",
+            "@type": "ALTIMG",
+            "@size": "10729",
+            "@ref": "si16",
+            "@mimetype": "image/svg+xml"
+          },
+          {
+            "@category": "thumbnail",
+            "@_fa": "true",
+            "$": "https://api.elsevier.com/content/object/eid/1-s2.0-S0021951720303547-si17.svg?httpAccept=%2A%2F%2A",
+            "@multimediatype": "Scalable Vector Graphics file",
+            "@type": "ALTIMG",
+            "@size": "21528",
+            "@ref": "si17",
+            "@mimetype": "image/svg+xml"
+          },
+          {
+            "@category": "thumbnail",
+            "@_fa": "true",
+            "$": "https://api.elsevier.com/content/object/eid/1-s2.0-S0021951720303547-si18.svg?httpAccept=%2A%2F%2A",
+            "@multimediatype": "Scalable Vector Graphics file",
+            "@type": "ALTIMG",
+            "@size": "6995",
+            "@ref": "si18",
+            "@mimetype": "image/svg+xml"
+          },
+          {
+            "@category": "thumbnail",
+            "@_fa": "true",
+            "$": "https://api.elsevier.com/content/object/eid/1-s2.0-S0021951720303547-si19.svg?httpAccept=%2A%2F%2A",
+            "@multimediatype": "Scalable Vector Graphics file",
+            "@type": "ALTIMG",
+            "@size": "6891",
+            "@ref": "si19",
+            "@mimetype": "image/svg+xml"
+          },
+          {
+            "@category": "thumbnail",
+            "@_fa": "true",
+            "$": "https://api.elsevier.com/content/object/eid/1-s2.0-S0021951720303547-si2.svg?httpAccept=%2A%2F%2A",
+            "@multimediatype": "Scalable Vector Graphics file",
+            "@type": "ALTIMG",
+            "@size": "8145",
+            "@ref": "si2",
+            "@mimetype": "image/svg+xml"
+          },
+          {
+            "@category": "thumbnail",
+            "@_fa": "true",
+            "$": "https://api.elsevier.com/content/object/eid/1-s2.0-S0021951720303547-si20.svg?httpAccept=%2A%2F%2A",
+            "@multimediatype": "Scalable Vector Graphics file",
+            "@type": "ALTIMG",
+            "@size": "4478",
+            "@ref": "si20",
+            "@mimetype": "image/svg+xml"
+          },
+          {
+            "@category": "thumbnail",
+            "@_fa": "true",
+            "$": "https://api.elsevier.com/content/object/eid/1-s2.0-S0021951720303547-si21.svg?httpAccept=%2A%2F%2A",
+            "@multimediatype": "Scalable Vector Graphics file",
+            "@type": "ALTIMG",
+            "@size": "42554",
+            "@ref": "si21",
+            "@mimetype": "image/svg+xml"
+          },
+          {
+            "@category": "thumbnail",
+            "@_fa": "true",
+            "$": "https://api.elsevier.com/content/object/eid/1-s2.0-S0021951720303547-si22.svg?httpAccept=%2A%2F%2A",
+            "@multimediatype": "Scalable Vector Graphics file",
+            "@type": "ALTIMG",
+            "@size": "4536",
+            "@ref": "si22",
+            "@mimetype": "image/svg+xml"
+          },
+          {
+            "@category": "thumbnail",
+            "@_fa": "true",
+            "$": "https://api.elsevier.com/content/object/eid/1-s2.0-S0021951720303547-si23.svg?httpAccept=%2A%2F%2A",
+            "@multimediatype": "Scalable Vector Graphics file",
+            "@type": "ALTIMG",
+            "@size": "26713",
+            "@ref": "si23",
+            "@mimetype": "image/svg+xml"
+          },
+          {
+            "@category": "thumbnail",
+            "@_fa": "true",
+            "$": "https://api.elsevier.com/content/object/eid/1-s2.0-S0021951720303547-si24.svg?httpAccept=%2A%2F%2A",
+            "@multimediatype": "Scalable Vector Graphics file",
+            "@type": "ALTIMG",
+            "@size": "15344",
+            "@ref": "si24",
+            "@mimetype": "image/svg+xml"
+          },
+          {
+            "@category": "thumbnail",
+            "@_fa": "true",
+            "$": "https://api.elsevier.com/content/object/eid/1-s2.0-S0021951720303547-si25.svg?httpAccept=%2A%2F%2A",
+            "@multimediatype": "Scalable Vector Graphics file",
+            "@type": "ALTIMG",
+            "@size": "7399",
+            "@ref": "si25",
+            "@mimetype": "image/svg+xml"
+          },
+          {
+            "@category": "thumbnail",
+            "@_fa": "true",
+            "$": "https://api.elsevier.com/content/object/eid/1-s2.0-S0021951720303547-si26.svg?httpAccept=%2A%2F%2A",
+            "@multimediatype": "Scalable Vector Graphics file",
+            "@type": "ALTIMG",
+            "@size": "7045",
+            "@ref": "si26",
+            "@mimetype": "image/svg+xml"
+          },
+          {
+            "@category": "thumbnail",
+            "@_fa": "true",
+            "$": "https://api.elsevier.com/content/object/eid/1-s2.0-S0021951720303547-si27.svg?httpAccept=%2A%2F%2A",
+            "@multimediatype": "Scalable Vector Graphics file",
+            "@type": "ALTIMG",
+            "@size": "3863",
+            "@ref": "si27",
+            "@mimetype": "image/svg+xml"
+          },
+          {
+            "@category": "thumbnail",
+            "@_fa": "true",
+            "$": "https://api.elsevier.com/content/object/eid/1-s2.0-S0021951720303547-si28.svg?httpAccept=%2A%2F%2A",
+            "@multimediatype": "Scalable Vector Graphics file",
+            "@type": "ALTIMG",
+            "@size": "4162",
+            "@ref": "si28",
+            "@mimetype": "image/svg+xml"
+          },
+          {
+            "@category": "thumbnail",
+            "@_fa": "true",
+            "$": "https://api.elsevier.com/content/object/eid/1-s2.0-S0021951720303547-si29.svg?httpAccept=%2A%2F%2A",
+            "@multimediatype": "Scalable Vector Graphics file",
+            "@type": "ALTIMG",
+            "@size": "1344",
+            "@ref": "si29",
+            "@mimetype": "image/svg+xml"
+          },
+          {
+            "@category": "thumbnail",
+            "@_fa": "true",
+            "$": "https://api.elsevier.com/content/object/eid/1-s2.0-S0021951720303547-si3.svg?httpAccept=%2A%2F%2A",
+            "@multimediatype": "Scalable Vector Graphics file",
+            "@type": "ALTIMG",
+            "@size": "4588",
+            "@ref": "si3",
+            "@mimetype": "image/svg+xml"
+          },
+          {
+            "@category": "thumbnail",
+            "@_fa": "true",
+            "$": "https://api.elsevier.com/content/object/eid/1-s2.0-S0021951720303547-si30.svg?httpAccept=%2A%2F%2A",
+            "@multimediatype": "Scalable Vector Graphics file",
+            "@type": "ALTIMG",
+            "@size": "14271",
+            "@ref": "si30",
+            "@mimetype": "image/svg+xml"
+          },
+          {
+            "@category": "thumbnail",
+            "@_fa": "true",
+            "$": "https://api.elsevier.com/content/object/eid/1-s2.0-S0021951720303547-si31.svg?httpAccept=%2A%2F%2A",
+            "@multimediatype": "Scalable Vector Graphics file",
+            "@type": "ALTIMG",
+            "@size": "5850",
+            "@ref": "si31",
+            "@mimetype": "image/svg+xml"
+          },
+          {
+            "@category": "thumbnail",
+            "@_fa": "true",
+            "$": "https://api.elsevier.com/content/object/eid/1-s2.0-S0021951720303547-si32.svg?httpAccept=%2A%2F%2A",
+            "@multimediatype": "Scalable Vector Graphics file",
+            "@type": "ALTIMG",
+            "@size": "1967",
+            "@ref": "si32",
+            "@mimetype": "image/svg+xml"
+          },
+          {
+            "@category": "thumbnail",
+            "@_fa": "true",
+            "$": "https://api.elsevier.com/content/object/eid/1-s2.0-S0021951720303547-si33.svg?httpAccept=%2A%2F%2A",
+            "@multimediatype": "Scalable Vector Graphics file",
+            "@type": "ALTIMG",
+            "@size": "9984",
+            "@ref": "si33",
+            "@mimetype": "image/svg+xml"
+          },
+          {
+            "@category": "thumbnail",
+            "@_fa": "true",
+            "$": "https://api.elsevier.com/content/object/eid/1-s2.0-S0021951720303547-si34.svg?httpAccept=%2A%2F%2A",
+            "@multimediatype": "Scalable Vector Graphics file",
+            "@type": "ALTIMG",
+            "@size": "9721",
+            "@ref": "si34",
+            "@mimetype": "image/svg+xml"
+          },
+          {
+            "@category": "thumbnail",
+            "@_fa": "true",
+            "$": "https://api.elsevier.com/content/object/eid/1-s2.0-S0021951720303547-si35.svg?httpAccept=%2A%2F%2A",
+            "@multimediatype": "Scalable Vector Graphics file",
+            "@type": "ALTIMG",
+            "@size": "8592",
+            "@ref": "si35",
+            "@mimetype": "image/svg+xml"
+          },
+          {
+            "@category": "thumbnail",
+            "@_fa": "true",
+            "$": "https://api.elsevier.com/content/object/eid/1-s2.0-S0021951720303547-si36.svg?httpAccept=%2A%2F%2A",
+            "@multimediatype": "Scalable Vector Graphics file",
+            "@type": "ALTIMG",
+            "@size": "9962",
+            "@ref": "si36",
+            "@mimetype": "image/svg+xml"
+          },
+          {
+            "@category": "thumbnail",
+            "@_fa": "true",
+            "$": "https://api.elsevier.com/content/object/eid/1-s2.0-S0021951720303547-si37.svg?httpAccept=%2A%2F%2A",
+            "@multimediatype": "Scalable Vector Graphics file",
+            "@type": "ALTIMG",
+            "@size": "28750",
+            "@ref": "si37",
+            "@mimetype": "image/svg+xml"
+          },
+          {
+            "@category": "thumbnail",
+            "@_fa": "true",
+            "$": "https://api.elsevier.com/content/object/eid/1-s2.0-S0021951720303547-si38.svg?httpAccept=%2A%2F%2A",
+            "@multimediatype": "Scalable Vector Graphics file",
+            "@type": "ALTIMG",
+            "@size": "5560",
+            "@ref": "si38",
+            "@mimetype": "image/svg+xml"
+          },
+          {
+            "@category": "thumbnail",
+            "@_fa": "true",
+            "$": "https://api.elsevier.com/content/object/eid/1-s2.0-S0021951720303547-si39.svg?httpAccept=%2A%2F%2A",
+            "@multimediatype": "Scalable Vector Graphics file",
+            "@type": "ALTIMG",
+            "@size": "12472",
+            "@ref": "si39",
+            "@mimetype": "image/svg+xml"
+          },
+          {
+            "@category": "thumbnail",
+            "@_fa": "true",
+            "$": "https://api.elsevier.com/content/object/eid/1-s2.0-S0021951720303547-si4.svg?httpAccept=%2A%2F%2A",
+            "@multimediatype": "Scalable Vector Graphics file",
+            "@type": "ALTIMG",
+            "@size": "4893",
+            "@ref": "si4",
+            "@mimetype": "image/svg+xml"
+          },
+          {
+            "@category": "thumbnail",
+            "@_fa": "true",
+            "$": "https://api.elsevier.com/content/object/eid/1-s2.0-S0021951720303547-si40.svg?httpAccept=%2A%2F%2A",
+            "@multimediatype": "Scalable Vector Graphics file",
+            "@type": "ALTIMG",
+            "@size": "13124",
+            "@ref": "si40",
+            "@mimetype": "image/svg+xml"
+          },
+          {
+            "@category": "thumbnail",
+            "@_fa": "true",
+            "$": "https://api.elsevier.com/content/object/eid/1-s2.0-S0021951720303547-si41.svg?httpAccept=%2A%2F%2A",
+            "@multimediatype": "Scalable Vector Graphics file",
+            "@type": "ALTIMG",
+            "@size": "12913",
+            "@ref": "si41",
+            "@mimetype": "image/svg+xml"
+          },
+          {
+            "@category": "thumbnail",
+            "@_fa": "true",
+            "$": "https://api.elsevier.com/content/object/eid/1-s2.0-S0021951720303547-si42.svg?httpAccept=%2A%2F%2A",
+            "@multimediatype": "Scalable Vector Graphics file",
+            "@type": "ALTIMG",
+            "@size": "11862",
+            "@ref": "si42",
+            "@mimetype": "image/svg+xml"
+          },
+          {
+            "@category": "thumbnail",
+            "@_fa": "true",
+            "$": "https://api.elsevier.com/content/object/eid/1-s2.0-S0021951720303547-si43.svg?httpAccept=%2A%2F%2A",
+            "@multimediatype": "Scalable Vector Graphics file",
+            "@type": "ALTIMG",
+            "@size": "6258",
+            "@ref": "si43",
+            "@mimetype": "image/svg+xml"
+          },
+          {
+            "@category": "thumbnail",
+            "@_fa": "true",
+            "$": "https://api.elsevier.com/content/object/eid/1-s2.0-S0021951720303547-si44.svg?httpAccept=%2A%2F%2A",
+            "@multimediatype": "Scalable Vector Graphics file",
+            "@type": "ALTIMG",
+            "@size": "7494",
+            "@ref": "si44",
+            "@mimetype": "image/svg+xml"
+          },
+          {
+            "@category": "thumbnail",
+            "@_fa": "true",
+            "$": "https://api.elsevier.com/content/object/eid/1-s2.0-S0021951720303547-si45.svg?httpAccept=%2A%2F%2A",
+            "@multimediatype": "Scalable Vector Graphics file",
+            "@type": "ALTIMG",
+            "@size": "10109",
+            "@ref": "si45",
+            "@mimetype": "image/svg+xml"
+          },
+          {
+            "@category": "thumbnail",
+            "@_fa": "true",
+            "$": "https://api.elsevier.com/content/object/eid/1-s2.0-S0021951720303547-si46.svg?httpAccept=%2A%2F%2A",
+            "@multimediatype": "Scalable Vector Graphics file",
+            "@type": "ALTIMG",
+            "@size": "15616",
+            "@ref": "si46",
+            "@mimetype": "image/svg+xml"
+          },
+          {
+            "@category": "thumbnail",
+            "@_fa": "true",
+            "$": "https://api.elsevier.com/content/object/eid/1-s2.0-S0021951720303547-si5.svg?httpAccept=%2A%2F%2A",
+            "@multimediatype": "Scalable Vector Graphics file",
+            "@type": "ALTIMG",
+            "@size": "4622",
+            "@ref": "si5",
+            "@mimetype": "image/svg+xml"
+          },
+          {
+            "@category": "thumbnail",
+            "@_fa": "true",
+            "$": "https://api.elsevier.com/content/object/eid/1-s2.0-S0021951720303547-si6.svg?httpAccept=%2A%2F%2A",
+            "@multimediatype": "Scalable Vector Graphics file",
+            "@type": "ALTIMG",
+            "@size": "8942",
+            "@ref": "si6",
+            "@mimetype": "image/svg+xml"
+          },
+          {
+            "@category": "thumbnail",
+            "@_fa": "true",
+            "$": "https://api.elsevier.com/content/object/eid/1-s2.0-S0021951720303547-si7.svg?httpAccept=%2A%2F%2A",
+            "@multimediatype": "Scalable Vector Graphics file",
+            "@type": "ALTIMG",
+            "@size": "2177",
+            "@ref": "si7",
+            "@mimetype": "image/svg+xml"
+          },
+          {
+            "@category": "thumbnail",
+            "@_fa": "true",
+            "$": "https://api.elsevier.com/content/object/eid/1-s2.0-S0021951720303547-si8.svg?httpAccept=%2A%2F%2A",
+            "@multimediatype": "Scalable Vector Graphics file",
+            "@type": "ALTIMG",
+            "@size": "4880",
+            "@ref": "si8",
+            "@mimetype": "image/svg+xml"
+          },
+          {
+            "@category": "thumbnail",
+            "@_fa": "true",
+            "$": "https://api.elsevier.com/content/object/eid/1-s2.0-S0021951720303547-si9.svg?httpAccept=%2A%2F%2A",
+            "@multimediatype": "Scalable Vector Graphics file",
+            "@type": "ALTIMG",
+            "@size": "6332",
+            "@ref": "si9",
+            "@mimetype": "image/svg+xml"
+          },
+          {
+            "@category": "standard",
+            "@_fa": "true",
+            "$": "https://api.elsevier.com/content/object/eid/1-s2.0-S0021951720303547-am.pdf?httpAccept=%2A%2F%2A",
+            "@multimediatype": "Acrobat PDF file",
+            "@type": "AAM-PDF",
+            "@size": "3077906",
+            "@ref": "am",
+            "@mimetype": "application/pdf"
+          }
+        ]
+      },
+      "link": {
+        "@rel": "abstract",
+        "@href": "https://api.elsevier.com/content/abstract/scopus_id/85092189845"
+      }
+    }
+  }
+}

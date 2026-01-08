@@ -1,0 +1,750 @@
+{
+  "metadata": {
+    "title": "DFT models for active sites on high temperature water-gas shift catalysts",
+    "authors": "; ; ",
+    "journal": "Journal of Molecular Catalysis A: Chemical",
+    "date": "2008-09-17",
+    "doi": "10.1016/j.molcata.2008.07.015",
+    "abstract": "",
+    "uri": "https://api.elsevier.com/content/article/pii/S1381116908003282",
+    "pii": "S1381116908003282"
+  },
+  "fulltext": {
+    "full-text-retrieval-response": {
+      "scopus-eid": "2-s2.0-52049098250",
+      "originalText": "serial JL 271358 291210 291744 291790 291809 31 Journal of Molecular Catalysis A: Chemical JOURNALMOLECULARCATALYSISACHEMICAL 2008-08-07 2008-08-07 2010-03-29T10:57:16 1-s2.0-S1381116908003282 S1381-1169(08)00328-2 S1381116908003282 10.1016/j.molcata.2008.07.015 S300 S300.1 FULL-TEXT 1-s2.0-S1381116908X00111 2015-05-15T05:56:33.307883-04:00 0 0 20080917 2008 2008-08-07T00:00:00Z articleinfo crossmark dco dateupdated tomb dateloaded datesearch indexeddate issuelist volumelist yearnav absattachment articletitlenorm authfirstinitialnorm authfirstsurnamenorm cid cids contenttype copyright dateloadedtxt docsubtype doctype doi eid ewtransactionid hubeid issfirst issn issnnorm itemstage itemtransactionid itemweight openaccess openarchive pg pgfirst pglast pii piinorm pubdatestart pubdatetxt pubyr sectiontitle sortorder srctitle srctitlenorm srctype subheadings volfirst volissue webpdf webpdfpagecount figure table body mmlmath acknowledge affil articletitle auth authfirstini authfull authkeywords authlast nomenclature primabst ref specialabst alllist content subj ssids 1381-1169 13811169 292 292 1 2 1 2 Volume 292, Issues 1–2 13 76 82 76 82 20080917 17 September 2008 2008-09-17 2008 Regular papers article fla Copyright © 2008 Elsevier B.V. All rights reserved. DFTMODELSFORACTIVESITESHIGHTEMPERATUREWATERGASSHIFTCATALYSTS VANNATTER R 1 Introduction 2 Experimental 2.1 Microkinetic modeling 2.2 Cluster models for the active sites 2.3 Computational chemistry 3 Results and discussion 3.1 Two-step microkinetic model 3.2 Cluster models for the active site 3.3 Comparison of experimental and computational results 4 Conclusions Acknowledgements References LUND 1985 313 C ACSSYMPOSIUMSERIESVOL279 ROLESOLIDSTATECHEMISTRYINCATALYSIS RHODES 1995 43 58 C KANEKO 1965 55 Y KANEKO 1965 169 Y KANEKO 1967 185 Y MEZAKI 1973 488 489 R OKI 1973 447 452 S OKI 1973 1601 1605 S DIAGNE 1990 25 31 C GLAVACEK 1968 1107 1110 V RUBENE 1976 465 471 N RHODES 2003 2719 2723 C BOHLBRO 1961 502 520 H BOHLBRO 1962 431 438 H BOHLBRO 1963 1001 1011 H BOHLBRO 1964 207 215 H SANG 2005 2295 2301 C NELDER 1965 308 313 J ALEKSEEV 1967 308 313 A DOMKA 1983 275 282 F DOMKA 1984 101 108 F EDWARDS 2002 3902 3908 M MARKINA 1961 867 871 M KUBSH 1982 793 800 J TINKLE 1987 65 78 M KLEIN 1993 C MANUALMINERALOGY FINNIS 1998 397 416 M JOSEPH 1999 195 202 Y LENNIE 1996 10244 10253 A VANNATTERX2008X76 VANNATTERX2008X76X82 VANNATTERX2008X76XR VANNATTERX2008X76X82XR item S1381-1169(08)00328-2 S1381116908003282 1-s2.0-S1381116908003282 10.1016/j.molcata.2008.07.015 271358 2010-10-11T07:05:36.538426-04:00 2008-09-17 1-s2.0-S1381116908003282-main.pdf https://s3.amazonaws.com/prod-ucs-content-store-us-east/content/pii:S1381116908003282/MAIN/application/pdf/4570d7ab9686515aeb8a95031a5130b1/main.pdf https://s3-eu-west-1.amazonaws.com/prod-ucs-content-store-eu-west/content/pii:S1381116908003282/MAIN/application/pdf/4570d7ab9686515aeb8a95031a5130b1/main.pdf main.pdf pdf true 852985 MAIN 7 1-s2.0-S1381116908003282-main_1.png https://s3.amazonaws.com/prod-ucs-content-store-us-east/content/pii:S1381116908003282/PREVIEW/image/png/b600141e22a62ca39e42a4f5d04ef18d/main_1.png https://s3-eu-west-1.amazonaws.com/prod-ucs-content-store-eu-west/content/pii:S1381116908003282/PREVIEW/image/png/b600141e22a62ca39e42a4f5d04ef18d/main_1.png main_1.png png 88392 849 656 IMAGE-WEB-PDF 1 1-s2.0-S1381116908003282-si42.gif https://s3.amazonaws.com/prod-ucs-content-store-us-east/content/pii:S1381116908003282/STRIPIN/image/gif/e59834c888eccd3a86426c1fe061b58f/si38.gif https://s3-eu-west-1.amazonaws.com/prod-ucs-content-store-eu-west/content/pii:S1381116908003282/STRIPIN/image/gif/e59834c888eccd3a86426c1fe061b58f/si38.gif si42 si42.gif gif 304 21 54 ALTIMG 1-s2.0-S1381116908003282-si41.gif https://s3.amazonaws.com/prod-ucs-content-store-us-east/content/pii:S1381116908003282/STRIPIN/image/gif/e59834c888eccd3a86426c1fe061b58f/si38.gif https://s3-eu-west-1.amazonaws.com/prod-ucs-content-store-eu-west/content/pii:S1381116908003282/STRIPIN/image/gif/e59834c888eccd3a86426c1fe061b58f/si38.gif si41 si41.gif gif 304 21 54 ALTIMG 1-s2.0-S1381116908003282-si40.gif https://s3.amazonaws.com/prod-ucs-content-store-us-east/content/pii:S1381116908003282/STRIPIN/image/gif/e59834c888eccd3a86426c1fe061b58f/si38.gif https://s3-eu-west-1.amazonaws.com/prod-ucs-content-store-eu-west/content/pii:S1381116908003282/STRIPIN/image/gif/e59834c888eccd3a86426c1fe061b58f/si38.gif si40 si40.gif gif 304 21 54 ALTIMG 1-s2.0-S1381116908003282-si39.gif https://s3.amazonaws.com/prod-ucs-content-store-us-east/content/pii:S1381116908003282/STRIPIN/image/gif/e59834c888eccd3a86426c1fe061b58f/si38.gif https://s3-eu-west-1.amazonaws.com/prod-ucs-content-store-eu-west/content/pii:S1381116908003282/STRIPIN/image/gif/e59834c888eccd3a86426c1fe061b58f/si38.gif si39 si39.gif gif 304 21 54 ALTIMG 1-s2.0-S1381116908003282-si38.gif https://s3.amazonaws.com/prod-ucs-content-store-us-east/content/pii:S1381116908003282/STRIPIN/image/gif/e59834c888eccd3a86426c1fe061b58f/si38.gif https://s3-eu-west-1.amazonaws.com/prod-ucs-content-store-eu-west/content/pii:S1381116908003282/STRIPIN/image/gif/e59834c888eccd3a86426c1fe061b58f/si38.gif si38 si38.gif gif 304 21 54 ALTIMG 1-s2.0-S1381116908003282-si37.gif https://s3.amazonaws.com/prod-ucs-content-store-us-east/content/pii:S1381116908003282/STRIPIN/image/gif/f8164261c1f4f7c20b52e4d62cd0e6b3/si37.gif https://s3-eu-west-1.amazonaws.com/prod-ucs-content-store-eu-west/content/pii:S1381116908003282/STRIPIN/image/gif/f8164261c1f4f7c20b52e4d62cd0e6b3/si37.gif si37 si37.gif gif 296 21 58 ALTIMG 1-s2.0-S1381116908003282-si36.gif https://s3.amazonaws.com/prod-ucs-content-store-us-east/content/pii:S1381116908003282/STRIPIN/image/gif/58646e1a88d03dd5efea8c8a4d7a708c/si31.gif https://s3-eu-west-1.amazonaws.com/prod-ucs-content-store-eu-west/content/pii:S1381116908003282/STRIPIN/image/gif/58646e1a88d03dd5efea8c8a4d7a708c/si31.gif si36 si36.gif gif 254 22 31 ALTIMG 1-s2.0-S1381116908003282-si35.gif https://s3.amazonaws.com/prod-ucs-content-store-us-east/content/pii:S1381116908003282/STRIPIN/image/gif/e7e72025a0a162b6df8886d7114078c8/si30.gif https://s3-eu-west-1.amazonaws.com/prod-ucs-content-store-eu-west/content/pii:S1381116908003282/STRIPIN/image/gif/e7e72025a0a162b6df8886d7114078c8/si30.gif si35 si35.gif gif 249 22 31 ALTIMG 1-s2.0-S1381116908003282-si34.gif https://s3.amazonaws.com/prod-ucs-content-store-us-east/content/pii:S1381116908003282/STRIPIN/image/gif/ccc4675bd69f47b6ccff1a8f5d2e8b6f/si10.gif https://s3-eu-west-1.amazonaws.com/prod-ucs-content-store-eu-west/content/pii:S1381116908003282/STRIPIN/image/gif/ccc4675bd69f47b6ccff1a8f5d2e8b6f/si10.gif si34 si34.gif gif 228 22 28 ALTIMG 1-s2.0-S1381116908003282-si33.gif https://s3.amazonaws.com/prod-ucs-content-store-us-east/content/pii:S1381116908003282/STRIPIN/image/gif/edabfa5848a319042ec6ca4fc33ba67f/si33.gif https://s3-eu-west-1.amazonaws.com/prod-ucs-content-store-eu-west/content/pii:S1381116908003282/STRIPIN/image/gif/edabfa5848a319042ec6ca4fc33ba67f/si33.gif si33 si33.gif gif 228 22 28 ALTIMG 1-s2.0-S1381116908003282-si32.gif https://s3.amazonaws.com/prod-ucs-content-store-us-east/content/pii:S1381116908003282/STRIPIN/image/gif/e59834c888eccd3a86426c1fe061b58f/si38.gif https://s3-eu-west-1.amazonaws.com/prod-ucs-content-store-eu-west/content/pii:S1381116908003282/STRIPIN/image/gif/e59834c888eccd3a86426c1fe061b58f/si38.gif si32 si32.gif gif 304 21 54 ALTIMG 1-s2.0-S1381116908003282-si31.gif https://s3.amazonaws.com/prod-ucs-content-store-us-east/content/pii:S1381116908003282/STRIPIN/image/gif/58646e1a88d03dd5efea8c8a4d7a708c/si31.gif https://s3-eu-west-1.amazonaws.com/prod-ucs-content-store-eu-west/content/pii:S1381116908003282/STRIPIN/image/gif/58646e1a88d03dd5efea8c8a4d7a708c/si31.gif si31 si31.gif gif 254 22 31 ALTIMG 1-s2.0-S1381116908003282-si30.gif https://s3.amazonaws.com/prod-ucs-content-store-us-east/content/pii:S1381116908003282/STRIPIN/image/gif/e7e72025a0a162b6df8886d7114078c8/si30.gif https://s3-eu-west-1.amazonaws.com/prod-ucs-content-store-eu-west/content/pii:S1381116908003282/STRIPIN/image/gif/e7e72025a0a162b6df8886d7114078c8/si30.gif si30 si30.gif gif 249 22 31 ALTIMG 1-s2.0-S1381116908003282-si29.gif https://s3.amazonaws.com/prod-ucs-content-store-us-east/content/pii:S1381116908003282/STRIPIN/image/gif/ccc4675bd69f47b6ccff1a8f5d2e8b6f/si10.gif https://s3-eu-west-1.amazonaws.com/prod-ucs-content-store-eu-west/content/pii:S1381116908003282/STRIPIN/image/gif/ccc4675bd69f47b6ccff1a8f5d2e8b6f/si10.gif si29 si29.gif gif 228 22 28 ALTIMG 1-s2.0-S1381116908003282-si28.gif https://s3.amazonaws.com/prod-ucs-content-store-us-east/content/pii:S1381116908003282/STRIPIN/image/gif/edabfa5848a319042ec6ca4fc33ba67f/si33.gif https://s3-eu-west-1.amazonaws.com/prod-ucs-content-store-eu-west/content/pii:S1381116908003282/STRIPIN/image/gif/edabfa5848a319042ec6ca4fc33ba67f/si33.gif si28 si28.gif gif 228 22 28 ALTIMG 1-s2.0-S1381116908003282-si27.gif https://s3.amazonaws.com/prod-ucs-content-store-us-east/content/pii:S1381116908003282/STRIPIN/image/gif/e59834c888eccd3a86426c1fe061b58f/si38.gif https://s3-eu-west-1.amazonaws.com/prod-ucs-content-store-eu-west/content/pii:S1381116908003282/STRIPIN/image/gif/e59834c888eccd3a86426c1fe061b58f/si38.gif si27 si27.gif gif 304 21 54 ALTIMG 1-s2.0-S1381116908003282-si26.gif https://s3.amazonaws.com/prod-ucs-content-store-us-east/content/pii:S1381116908003282/STRIPIN/image/gif/e502485fd69515f9fdaf36f9e2c67bae/si26.gif https://s3-eu-west-1.amazonaws.com/prod-ucs-content-store-eu-west/content/pii:S1381116908003282/STRIPIN/image/gif/e502485fd69515f9fdaf36f9e2c67bae/si26.gif si26 si26.gif gif 246 22 38 ALTIMG 1-s2.0-S1381116908003282-si25.gif https://s3.amazonaws.com/prod-ucs-content-store-us-east/content/pii:S1381116908003282/STRIPIN/image/gif/3858ed53ab3cd9545cf9d41375f22a26/si25.gif https://s3-eu-west-1.amazonaws.com/prod-ucs-content-store-eu-west/content/pii:S1381116908003282/STRIPIN/image/gif/3858ed53ab3cd9545cf9d41375f22a26/si25.gif si25 si25.gif gif 154 19 15 ALTIMG 1-s2.0-S1381116908003282-si24.gif https://s3.amazonaws.com/prod-ucs-content-store-us-east/content/pii:S1381116908003282/STRIPIN/image/gif/7b35a441cecae2aa2fe40cf2b725cc7b/si24.gif https://s3-eu-west-1.amazonaws.com/prod-ucs-content-store-eu-west/content/pii:S1381116908003282/STRIPIN/image/gif/7b35a441cecae2aa2fe40cf2b725cc7b/si24.gif si24 si24.gif gif 240 22 32 ALTIMG 1-s2.0-S1381116908003282-si23.gif https://s3.amazonaws.com/prod-ucs-content-store-us-east/content/pii:S1381116908003282/STRIPIN/image/gif/bc0b96564f3695be35a1312aee4728fc/si20.gif https://s3-eu-west-1.amazonaws.com/prod-ucs-content-store-eu-west/content/pii:S1381116908003282/STRIPIN/image/gif/bc0b96564f3695be35a1312aee4728fc/si20.gif si23 si23.gif gif 226 22 28 ALTIMG 1-s2.0-S1381116908003282-si22.gif https://s3.amazonaws.com/prod-ucs-content-store-us-east/content/pii:S1381116908003282/STRIPIN/image/gif/a0814e575effefe3f0a75c4f848880e6/si13.gif https://s3-eu-west-1.amazonaws.com/prod-ucs-content-store-eu-west/content/pii:S1381116908003282/STRIPIN/image/gif/a0814e575effefe3f0a75c4f848880e6/si13.gif si22 si22.gif gif 248 24 33 ALTIMG 1-s2.0-S1381116908003282-si21.gif https://s3.amazonaws.com/prod-ucs-content-store-us-east/content/pii:S1381116908003282/STRIPIN/image/gif/80fd0caa883b5925dc2f49a472b98ec4/si21.gif https://s3-eu-west-1.amazonaws.com/prod-ucs-content-store-eu-west/content/pii:S1381116908003282/STRIPIN/image/gif/80fd0caa883b5925dc2f49a472b98ec4/si21.gif si21 si21.gif gif 213 24 28 ALTIMG 1-s2.0-S1381116908003282-si20.gif https://s3.amazonaws.com/prod-ucs-content-store-us-east/content/pii:S1381116908003282/STRIPIN/image/gif/bc0b96564f3695be35a1312aee4728fc/si20.gif https://s3-eu-west-1.amazonaws.com/prod-ucs-content-store-eu-west/content/pii:S1381116908003282/STRIPIN/image/gif/bc0b96564f3695be35a1312aee4728fc/si20.gif si20 si20.gif gif 226 22 28 ALTIMG 1-s2.0-S1381116908003282-si19.gif https://s3.amazonaws.com/prod-ucs-content-store-us-east/content/pii:S1381116908003282/STRIPIN/image/gif/80fd0caa883b5925dc2f49a472b98ec4/si21.gif https://s3-eu-west-1.amazonaws.com/prod-ucs-content-store-eu-west/content/pii:S1381116908003282/STRIPIN/image/gif/80fd0caa883b5925dc2f49a472b98ec4/si21.gif si19 si19.gif gif 213 24 28 ALTIMG 1-s2.0-S1381116908003282-si18.gif https://s3.amazonaws.com/prod-ucs-content-store-us-east/content/pii:S1381116908003282/STRIPIN/image/gif/3858ed53ab3cd9545cf9d41375f22a26/si25.gif https://s3-eu-west-1.amazonaws.com/prod-ucs-content-store-eu-west/content/pii:S1381116908003282/STRIPIN/image/gif/3858ed53ab3cd9545cf9d41375f22a26/si25.gif si18 si18.gif gif 154 19 15 ALTIMG 1-s2.0-S1381116908003282-si17.gif https://s3.amazonaws.com/prod-ucs-content-store-us-east/content/pii:S1381116908003282/STRIPIN/image/gif/f527440efb3376e7df03566234873694/si17.gif https://s3-eu-west-1.amazonaws.com/prod-ucs-content-store-eu-west/content/pii:S1381116908003282/STRIPIN/image/gif/f527440efb3376e7df03566234873694/si17.gif si17 si17.gif gif 138 13 14 ALTIMG 1-s2.0-S1381116908003282-si16.gif https://s3.amazonaws.com/prod-ucs-content-store-us-east/content/pii:S1381116908003282/STRIPIN/image/gif/e59834c888eccd3a86426c1fe061b58f/si38.gif https://s3-eu-west-1.amazonaws.com/prod-ucs-content-store-eu-west/content/pii:S1381116908003282/STRIPIN/image/gif/e59834c888eccd3a86426c1fe061b58f/si38.gif si16 si16.gif gif 304 21 54 ALTIMG 1-s2.0-S1381116908003282-si15.gif https://s3.amazonaws.com/prod-ucs-content-store-us-east/content/pii:S1381116908003282/STRIPIN/image/gif/e502485fd69515f9fdaf36f9e2c67bae/si26.gif https://s3-eu-west-1.amazonaws.com/prod-ucs-content-store-eu-west/content/pii:S1381116908003282/STRIPIN/image/gif/e502485fd69515f9fdaf36f9e2c67bae/si26.gif si15 si15.gif gif 246 22 38 ALTIMG 1-s2.0-S1381116908003282-si14.gif https://s3.amazonaws.com/prod-ucs-content-store-us-east/content/pii:S1381116908003282/STRIPIN/image/gif/7b35a441cecae2aa2fe40cf2b725cc7b/si24.gif https://s3-eu-west-1.amazonaws.com/prod-ucs-content-store-eu-west/content/pii:S1381116908003282/STRIPIN/image/gif/7b35a441cecae2aa2fe40cf2b725cc7b/si24.gif si14 si14.gif gif 240 22 32 ALTIMG 1-s2.0-S1381116908003282-si13.gif https://s3.amazonaws.com/prod-ucs-content-store-us-east/content/pii:S1381116908003282/STRIPIN/image/gif/a0814e575effefe3f0a75c4f848880e6/si13.gif https://s3-eu-west-1.amazonaws.com/prod-ucs-content-store-eu-west/content/pii:S1381116908003282/STRIPIN/image/gif/a0814e575effefe3f0a75c4f848880e6/si13.gif si13 si13.gif gif 248 24 33 ALTIMG 1-s2.0-S1381116908003282-si12.gif https://s3.amazonaws.com/prod-ucs-content-store-us-east/content/pii:S1381116908003282/STRIPIN/image/gif/58646e1a88d03dd5efea8c8a4d7a708c/si31.gif https://s3-eu-west-1.amazonaws.com/prod-ucs-content-store-eu-west/content/pii:S1381116908003282/STRIPIN/image/gif/58646e1a88d03dd5efea8c8a4d7a708c/si31.gif si12 si12.gif gif 254 22 31 ALTIMG 1-s2.0-S1381116908003282-si11.gif https://s3.amazonaws.com/prod-ucs-content-store-us-east/content/pii:S1381116908003282/STRIPIN/image/gif/ca17a01efa1e84d9bdc79d9abf74db80/si11.gif https://s3-eu-west-1.amazonaws.com/prod-ucs-content-store-eu-west/content/pii:S1381116908003282/STRIPIN/image/gif/ca17a01efa1e84d9bdc79d9abf74db80/si11.gif si11 si11.gif gif 257 22 33 ALTIMG 1-s2.0-S1381116908003282-si10.gif https://s3.amazonaws.com/prod-ucs-content-store-us-east/content/pii:S1381116908003282/STRIPIN/image/gif/ccc4675bd69f47b6ccff1a8f5d2e8b6f/si10.gif https://s3-eu-west-1.amazonaws.com/prod-ucs-content-store-eu-west/content/pii:S1381116908003282/STRIPIN/image/gif/ccc4675bd69f47b6ccff1a8f5d2e8b6f/si10.gif si10 si10.gif gif 228 22 28 ALTIMG 1-s2.0-S1381116908003282-si9.gif https://s3.amazonaws.com/prod-ucs-content-store-us-east/content/pii:S1381116908003282/STRIPIN/image/gif/edabfa5848a319042ec6ca4fc33ba67f/si33.gif https://s3-eu-west-1.amazonaws.com/prod-ucs-content-store-eu-west/content/pii:S1381116908003282/STRIPIN/image/gif/edabfa5848a319042ec6ca4fc33ba67f/si33.gif si9 si9.gif gif 228 22 28 ALTIMG 1-s2.0-S1381116908003282-si8.gif https://s3.amazonaws.com/prod-ucs-content-store-us-east/content/pii:S1381116908003282/STRIPIN/image/gif/2af01e1b52c9767d8837358dbafba05b/si8.gif https://s3-eu-west-1.amazonaws.com/prod-ucs-content-store-eu-west/content/pii:S1381116908003282/STRIPIN/image/gif/2af01e1b52c9767d8837358dbafba05b/si8.gif si8 si8.gif gif 323 22 53 ALTIMG 1-s2.0-S1381116908003282-si7.gif https://s3.amazonaws.com/prod-ucs-content-store-us-east/content/pii:S1381116908003282/STRIPIN/image/gif/29d10c6969556c067441a4b3498381cc/si7.gif https://s3-eu-west-1.amazonaws.com/prod-ucs-content-store-eu-west/content/pii:S1381116908003282/STRIPIN/image/gif/29d10c6969556c067441a4b3498381cc/si7.gif si7 si7.gif gif 2247 74 285 ALTIMG 1-s2.0-S1381116908003282-si6.gif https://s3.amazonaws.com/prod-ucs-content-store-us-east/content/pii:S1381116908003282/STRIPIN/image/gif/579a17818a94002b0d71a91f72a21b94/si6.gif https://s3-eu-west-1.amazonaws.com/prod-ucs-content-store-eu-west/content/pii:S1381116908003282/STRIPIN/image/gif/579a17818a94002b0d71a91f72a21b94/si6.gif si6 si6.gif gif 3417 102 330 ALTIMG 1-s2.0-S1381116908003282-si5.gif https://s3.amazonaws.com/prod-ucs-content-store-us-east/content/pii:S1381116908003282/STRIPIN/image/gif/bb5d29473a88515455366dc26bceb8e8/si5.gif https://s3-eu-west-1.amazonaws.com/prod-ucs-content-store-eu-west/content/pii:S1381116908003282/STRIPIN/image/gif/bb5d29473a88515455366dc26bceb8e8/si5.gif si5 si5.gif gif 2056 102 213 ALTIMG 1-s2.0-S1381116908003282-si4.gif https://s3.amazonaws.com/prod-ucs-content-store-us-east/content/pii:S1381116908003282/STRIPIN/image/gif/941b9e2d328af65b76df8bcaad846430/si4.gif https://s3-eu-west-1.amazonaws.com/prod-ucs-content-store-eu-west/content/pii:S1381116908003282/STRIPIN/image/gif/941b9e2d328af65b76df8bcaad846430/si4.gif si4 si4.gif gif 2274 102 209 ALTIMG 1-s2.0-S1381116908003282-si3.gif https://s3.amazonaws.com/prod-ucs-content-store-us-east/content/pii:S1381116908003282/STRIPIN/image/gif/6c96db5537179e09b4a4b196945371c5/si3.gif https://s3-eu-west-1.amazonaws.com/prod-ucs-content-store-eu-west/content/pii:S1381116908003282/STRIPIN/image/gif/6c96db5537179e09b4a4b196945371c5/si3.gif si3 si3.gif gif 794 26 206 ALTIMG 1-s2.0-S1381116908003282-si2.gif https://s3.amazonaws.com/prod-ucs-content-store-us-east/content/pii:S1381116908003282/STRIPIN/image/gif/a66c4f0584f3ed149c31bf2f62b138bf/si2.gif https://s3-eu-west-1.amazonaws.com/prod-ucs-content-store-eu-west/content/pii:S1381116908003282/STRIPIN/image/gif/a66c4f0584f3ed149c31bf2f62b138bf/si2.gif si2 si2.gif gif 2167 84 226 ALTIMG 1-s2.0-S1381116908003282-si1.gif https://s3.amazonaws.com/prod-ucs-content-store-us-east/content/pii:S1381116908003282/STRIPIN/image/gif/ebd26ff1530b290f336c4f662f6eff96/si1.gif https://s3-eu-west-1.amazonaws.com/prod-ucs-content-store-eu-west/content/pii:S1381116908003282/STRIPIN/image/gif/ebd26ff1530b290f336c4f662f6eff96/si1.gif si1 si1.gif gif 1526 73 288 ALTIMG 1-s2.0-S1381116908003282-gr1.jpg https://s3.amazonaws.com/prod-ucs-content-store-us-east/content/pii:S1381116908003282/gr1/DOWNSAMPLED/image/jpeg/30fad90848178fb84003e77cd50346e6/gr1.jpg https://s3-eu-west-1.amazonaws.com/prod-ucs-content-store-eu-west/content/pii:S1381116908003282/gr1/DOWNSAMPLED/image/jpeg/30fad90848178fb84003e77cd50346e6/gr1.jpg gr1 gr1.jpg jpg 113479 963 345 IMAGE-DOWNSAMPLED 1-s2.0-S1381116908003282-gr1.sml https://s3.amazonaws.com/prod-ucs-content-store-us-east/content/pii:S1381116908003282/gr1/THUMBNAIL/image/gif/5b6de962639010bde863f1c3d104678f/gr1.sml https://s3-eu-west-1.amazonaws.com/prod-ucs-content-store-eu-west/content/pii:S1381116908003282/gr1/THUMBNAIL/image/gif/5b6de962639010bde863f1c3d104678f/gr1.sml gr1 gr1.sml sml 2248 92 33 IMAGE-THUMBNAIL 1-s2.0-S1381116908003282-gr2.jpg https://s3.amazonaws.com/prod-ucs-content-store-us-east/content/pii:S1381116908003282/gr2/DOWNSAMPLED/image/jpeg/ae31105f4ba064653f5068bc83d4a312/gr2.jpg https://s3-eu-west-1.amazonaws.com/prod-ucs-content-store-eu-west/content/pii:S1381116908003282/gr2/DOWNSAMPLED/image/jpeg/ae31105f4ba064653f5068bc83d4a312/gr2.jpg gr2 gr2.jpg jpg 108287 891 339 IMAGE-DOWNSAMPLED 1-s2.0-S1381116908003282-gr2.sml https://s3.amazonaws.com/prod-ucs-content-store-us-east/content/pii:S1381116908003282/gr2/THUMBNAIL/image/gif/ac1b1c5ff355a5eecc5c5cbddaf685f3/gr2.sml https://s3-eu-west-1.amazonaws.com/prod-ucs-content-store-eu-west/content/pii:S1381116908003282/gr2/THUMBNAIL/image/gif/ac1b1c5ff355a5eecc5c5cbddaf685f3/gr2.sml gr2 gr2.sml sml 2339 92 35 IMAGE-THUMBNAIL 1-s2.0-S1381116908003282-gr3.jpg https://s3.amazonaws.com/prod-ucs-content-store-us-east/content/pii:S1381116908003282/gr3/DOWNSAMPLED/image/jpeg/407781ba8847d96e8d3104a5c48c42d4/gr3.jpg https://s3-eu-west-1.amazonaws.com/prod-ucs-content-store-eu-west/content/pii:S1381116908003282/gr3/DOWNSAMPLED/image/jpeg/407781ba8847d96e8d3104a5c48c42d4/gr3.jpg gr3 gr3.jpg jpg 20126 342 364 IMAGE-DOWNSAMPLED 1-s2.0-S1381116908003282-gr3.sml https://s3.amazonaws.com/prod-ucs-content-store-us-east/content/pii:S1381116908003282/gr3/THUMBNAIL/image/gif/7234357d0b80833ab72b930153e6bb4c/gr3.sml https://s3-eu-west-1.amazonaws.com/prod-ucs-content-store-eu-west/content/pii:S1381116908003282/gr3/THUMBNAIL/image/gif/7234357d0b80833ab72b930153e6bb4c/gr3.sml gr3 gr3.sml sml 1318 93 99 IMAGE-THUMBNAIL 1-s2.0-S1381116908003282-gr4.jpg https://s3.amazonaws.com/prod-ucs-content-store-us-east/content/pii:S1381116908003282/gr4/DOWNSAMPLED/image/jpeg/d3e7f5dd87c0a3a4cda1b8b654bcbb4c/gr4.jpg https://s3-eu-west-1.amazonaws.com/prod-ucs-content-store-eu-west/content/pii:S1381116908003282/gr4/DOWNSAMPLED/image/jpeg/d3e7f5dd87c0a3a4cda1b8b654bcbb4c/gr4.jpg gr4 gr4.jpg jpg 20229 256 378 IMAGE-DOWNSAMPLED 1-s2.0-S1381116908003282-gr4.sml https://s3.amazonaws.com/prod-ucs-content-store-us-east/content/pii:S1381116908003282/gr4/THUMBNAIL/image/gif/e4acfe381f2692592c82397b28a534cb/gr4.sml https://s3-eu-west-1.amazonaws.com/prod-ucs-content-store-eu-west/content/pii:S1381116908003282/gr4/THUMBNAIL/image/gif/e4acfe381f2692592c82397b28a534cb/gr4.sml gr4 gr4.sml sml 1444 85 125 IMAGE-THUMBNAIL 1-s2.0-S1381116908003282-gr5.jpg https://s3.amazonaws.com/prod-ucs-content-store-us-east/content/pii:S1381116908003282/gr5/DOWNSAMPLED/image/jpeg/f4bfafb620c750721738a28a1d61a659/gr5.jpg https://s3-eu-west-1.amazonaws.com/prod-ucs-content-store-eu-west/content/pii:S1381116908003282/gr5/DOWNSAMPLED/image/jpeg/f4bfafb620c750721738a28a1d61a659/gr5.jpg gr5 gr5.jpg jpg 25216 664 391 IMAGE-DOWNSAMPLED 1-s2.0-S1381116908003282-gr5.sml https://s3.amazonaws.com/prod-ucs-content-store-us-east/content/pii:S1381116908003282/gr5/THUMBNAIL/image/gif/7eee0fb75154d6e8e39268e04458d258/gr5.sml https://s3-eu-west-1.amazonaws.com/prod-ucs-content-store-eu-west/content/pii:S1381116908003282/gr5/THUMBNAIL/image/gif/7eee0fb75154d6e8e39268e04458d258/gr5.sml gr5 gr5.sml sml 753 93 55 IMAGE-THUMBNAIL 1-s2.0-S1381116908003282-fx1.jpg https://s3.amazonaws.com/prod-ucs-content-store-us-east/content/pii:S1381116908003282/fx1/DOWNSAMPLED/image/jpeg/aaffcc71d44be4085bdfc93a500baf58/fx1.jpg https://s3-eu-west-1.amazonaws.com/prod-ucs-content-store-eu-west/content/pii:S1381116908003282/fx1/DOWNSAMPLED/image/jpeg/aaffcc71d44be4085bdfc93a500baf58/fx1.jpg fx1 true fx1.jpg jpg 31567 188 235 IMAGE-DOWNSAMPLED 1-s2.0-S1381116908003282-fx1.sml https://s3.amazonaws.com/prod-ucs-content-store-us-east/content/pii:S1381116908003282/fx1/THUMBNAIL/image/gif/f4371d6ea8fa516b1638ddac3d43bd7a/fx1.sml https://s3-eu-west-1.amazonaws.com/prod-ucs-content-store-eu-west/content/pii:S1381116908003282/fx1/THUMBNAIL/image/gif/f4371d6ea8fa516b1638ddac3d43bd7a/fx1.sml fx1 true fx1.sml sml 4251 94 117 IMAGE-THUMBNAIL MOLCAA 7227 S1381-1169(08)00328-2 10.1016/j.molcata.2008.07.015 Elsevier B.V. Fig. 1 Clusters used to model the oxygen-covered active site for water-gas shift on magnetite exposing (a) a {100} surface, (b) a {110} surface and (c) a {111} surface. The smaller spheres represent iron cations and the larger spheres represent oxygen anions. Fig. 2 Clusters used to model the reduced form of the active site for water-gas shift on magnetite exposing (a) a {100} surface, (b) a {110} surface and (c) a {111} surface. The smaller spheres represent iron cations and the larger spheres represent oxygen anions. Fig. 3 Parity plot showing the agreement between the measured CO conversion and that predicted by the model. Fig. 4 Residuals (difference between CO conversion from experiment and model) as a function of experimental temperature. The circled data were used by Bohlbro to estimate the activation energy. Fig. 5 Sensitivity of the sum of the squares of the errors between the model and experiment to variation in each model parameter, holding all other parameters constant at their optimum value. The scale in (a) is much larger than in (b) because the fit is much more sensitive to the value of the enthalpy of localization of oxygen (circles) than to the entropies of activation of reactions (2) and (3) (diamonds and squares, respectively) or to the enthalpies of activations of reactions (2) and (3) (crosses and triangles, respectively). Table 1 Microkinetic model for water-gas shift Gas phase mole balances d n ˙ CO d m = − r 2 ; d n ˙ C O 2 d m = r 2 ; d n ˙ H 2 O d m = − r 3 d n ˙ H 2 d m = r 3 ; d n ˙ N 2 d m = 0 Surface mole balance r 2 − r 3 =0 Conservation of active sites θ v + θ o =1 Rate expressions r 2 = k 2 P CO θ O 1 − P C O 2 θ v K 2 P CO θ O r 3 = k 3 P H 2 O θ v 1 − P H 2 θ O K 3 P H 2 O θ v Partial pressures P i = n ˙ i n ˙ CO + n ˙ C O 2 + n ˙ H 2 O + n ˙ H 2 + n ˙ N 2 P Rate coefficients k 2 = exp Δ S 2 ‡ R exp − Δ H 2 ‡ R T k 3 = exp Δ S 3 ‡ R exp − Δ H 3 ‡ R T Equilibrium constants K 2 = exp Δ S 2 ° R exp − Δ H 2 ° R T K 3 = exp Δ S 3 ° R exp − Δ H 3 ° R T Entropies and enthalpies of reaction Δ S 2 ° = S C O 2 ° + S * ° − S CO ° − S O- * ° Δ S 3 ° = S H 2 ° + S O- * ° − S H 2 O ° − S * ° Δ H 2 ° = Δ H f ,CO 2 ° + Δ H f , * ° − Δ H f ,CO ° − Δ H f ,O- * ° Δ H 3 ° = Δ H f ,H 2 ° + Δ H f ,O- * ° − Δ H f , H 2 O ° − Δ H f , * ° Initial conditions n ˙ CO ( m = 0 ) = n ˙ CO ° ; n ˙ CO 2 ° ( m = 0 ) = n ˙ CO 2 ° ; n ˙ H 2 O ° ( m = 0 ) = n ˙ H 2 O ° ; n ˙ H 2 ( m = 0 ) = n ˙ H 2 ° ; n ˙ N 2 ( m = 0 ) = n ˙ N 2 ° Table 2 Microkinetic model parameters Parameter Value Δ H loc,O ° −611kJmol−1 Δ S 2 ‡ −142Jmol−1 K−1 Δ S 3 ‡ −145Jmol−1 K−1 Δ H 2 ‡ 80.3kJmol−1 Δ H 3 ‡ 19.9kJmol−1 Table 3 Calculated energies of localization of an oxygen adatom Fe3O4 surface Energy of localization {111} −668kJmol−1 {110} −378kJmol−1 {100} −112kJmol−1 DFT models for active sites on high temperature water-gas shift catalysts R.M. Van Natter J.S. Coleman C.R.F. Lund ⁎ Department of Chemical and Biological Engineering, University at Buffalo, 505 Furnas Hall, SUNY, Buffalo, NY 14260-4200, USA ⁎ Corresponding author. Tel.: +1 716 645 2911x2211; fax: +1 716 645 3822. Graphical abstract The active sites on iron oxide shift catalysts were modeled using density functional theory. Comparison of the calculated heat of localization of oxygen adatoms to values derived from experimental kinetics suggest that on average, the active site on the working catalyst is coordinated to 3.2 oxygen anions in addition to the oxygen adatom. A simple two-step regenerative model for the kinetics of high temperature water-gas shift provided a good fit to published experimental data for a commercial ferrochrome catalyst. The fitting process yielded an enthalpy of localization of oxygen adatoms on the surface equal to −611kJmol−1, and it predicted that virtually all adsorption sites were covered by oxygen adatoms at reaction conditions. Cluster models were created to represent possible active sites on {100}, {110} and {111} surfaces of Fe3O4, the active state of the catalyst. Energies of localization of oxygen adatoms on exposed cation sites were calculated using density functional theory. The computed energies were found to vary in proportion to the number of oxygen anions missing from the normal octahedral coordination of the cation adsorption sites. Comparing the results from the kinetic modeling to the computed energies of localization suggests that on average, the active site on the working catalyst is coordinated to 3.2 oxygen anions, not counting the oxygen adatom. Keywords Water-gas shift Ferrochrome Iron oxide Active sites Δ H j ‡ enthalpy of activation for reaction j Δ H j ° standard enthalpy of reaction j Δ H f , i ° standard enthalpy of formation of species i at prevailing temperature (calculated from Shomate equation) Δ H loc , O ° enthalpy of localization of an oxygen adatom k j rate coefficient for reaction j K j equilibrium constant for reaction j m mass of catalyst in the reactor n ˙ i molar flow rate of species i, a superscript 0 denotes the value at the reactor inlet P i partial pressure of species i; total pressure if no subscript r j rate of reaction j per mass of catalyst S i ° standard entropy of species i at prevailing temperature (calculated from Shomate equation) Δ S j ‡ entropy of activation for reaction j Δ S j ° standard entropy of reaction j Greek letter θ i fractional coverage of surface sites by species i 1 Introduction Two fundamentally different types of reaction mechanism can be used to model the kinetics of high temperature water-gas shift (HTWGS), reaction (1), over ferrochrome catalysts [1,2]. One type is often referred to as a regenerative or a redox mechanism. Regenerative mechanisms consist of two sub-mechanisms. In one regenerative sub-mechanism, steam oxidizes a site on the catalyst surface, and in the other regenerative sub-mechanism carbon monoxide reduces a previously oxidized site on the catalyst surface. The other type of water-gas shift mechanism is sometimes referred to as an associative mechanism. A distinguishing feature of associative mechanisms is that they cannot be split into two sub-mechanisms that involve alternative oxidation and reduction of the catalyst surface. Associative mechanisms that have been proposed for water-gas shift typically involve species such as formates or bicarbonates as reactive surface intermediates [1,3–9]. (1) CO+H2O⇄CO2 +H2 Reaction kinetics alone does not permit discrimination among the different mechanistic kinetic models for HTWGS [10]. Observed kinetics can be equally well described using either regenerative or associative mechanistic models. Similarly, infrared spectroscopy and other techniques provide evidence for the existence of species like formates and bicarbonates [9,11], but they do not provide definitive evidence that such species participate in the primary mechanistic pathways of water-gas shift conversion. Indeed, it can be argued that over ferrochrome catalysts, HTWGS occurs by more than one pathway depending upon the prevailing conditions [2]. The identity of the prevailing mechanism is even less certain for ferrochrome catalysts that are promoted with copper [12]. Computational chemistry might prove useful in discriminating among HTWGS mechanistic possibilities. Before computational chemistry can be used in this way, it is necessary to decide how to best represent the catalytically active site. Real water-gas shift catalysts consist of small particles of Fe3O4 (magnetite) to which chromia and other promoters are added. These materials are expected to expose a variety of different surface geometries, each of which might be catalytically active. Either periodic slab type representations or truncated clusters can serve to model the active sites, and each will have specific advantages and disadvantages. In the work reported here, truncated cluster models were employed where each cluster exposed a surface geometry characteristic of one of the low-Miller-index surfaces of magnetite. Small computational clusters are not likely to reproduce the ferrimagnetic properties of magnetite nor the rapid electron hopping among its octahedral cations. As such, it is not clear whether cluster models will be capable of accurately modeling HTWGS active sites. The objective of this work was to explore their suitability in this regard. To do so, a simple two-step microkinetic model has been fit to experimental rate data, yielding an estimate for the heat of localization of a surface oxygen adatom. Density functional theory (DFT) has been used to calculate the heats of localization of a surface oxygen adatom using the cluster models. The resulting values are then compared to assess the adequacy of the cluster models and to find which exposed surface geometry provides the best representation of the active sites. 2 Experimental 2.1 Microkinetic modeling The simplest redox-type mechanism that could be written for water-gas shift is given by equations (2) and (3). It is unlikely that reactions (2) and (3) are actually elementary steps, but for present purposes they will be treated as if they are, and the corresponding models will be referred to as microkinetic models instead of mechanistic kinetic models. This microkinetic model is attractive for present purposes because it involves only two surface species: vacant sites (*) and sites containing an oxygen adatom (O–*). Thus for a given cluster model, only two DFT calculations need to be performed, and this facilitates efficient screening of several different cluster models. Furthermore, as will be seen presently, the microkinetic model can be formulated so that it yields a meaningful estimate for the enthalpy of localization of a surface oxygen adatom (provided, of course, that the fit of the microkinetic model to experimental data is sensitive to that parameter). (2) CO+O–*⇄*+CO2 (3) H2O+*⇄O–*+H2 Bohlbro has conducted an extensive study of the kinetics of HTWGS [13–17], and his data have been used in the microkinetic modeling performed in the present study. The data set includes 189 separate experiments wherein the feed composition, temperature, pressure and mass of catalyst were varied. Bohlbro's experiments were performed in a tubular packed bed reactor that can be modeled as an isothermal, isobaric, steady-state, plug flow reactor. Doing so leads to a reactor model that consists of the coupled set of five differential equations and two algebraic equations given in Table 1 . (Bohlbro included nitrogen as a diluent in the feed, hence the additional mole balance equation.) As noted, reactions (2) and (3) can be treated as if they are elementary, in which case their rate expressions will take the form given in Table 1. Simple transition state theory allows the two rate coefficients appearing in the rate expressions to be written in terms of an entropy of activation, Δ S j ‡ , and an enthalpy of activation, Δ H j ‡ , for each reaction, j. This is also shown in Table 1. The equilibrium constants appearing in the rate expressions can be written in terms of the entropies, Δ S j ° , and enthalpies, Δ H j ° , of the two reactions, again as shown in Table 1. Finally, the entropies and enthalpies of the two reactions can be expressed in terms of the standard entropies, S i ° and enthalpies of formation, Δ H f , i ° , of the species, i, participating in the reactions (Table 1). Combining all the information in Table 1, it can be seen that there are six unknown quantities that appear in the microkinetic model: the entropy of activation for each of reactions (2) and (3), the enthalpies of activation for each of reactions (2) and (3), the entropy of formation of a surface oxygen adatom and the enthalpy of formation of a surface oxygen adatom (the entropy and enthalpy of formation of a vacant site may be taken to equal zero). All other quantities are fundamental constants, experimentally measured quantities, or tabulated thermodynamic quantities (i.e. the thermodynamic data for the gas phase species). Herein, the standard entropies and enthalpies of formation of gas phase CO, CO2, H2O, H2 and N2 were computed as a function of temperature using the Shomate equation with parameters available from the NIST Chemistry Web Book [18]. In this work, the standard entropy of an oxygen adatom at a given temperature was taken to equal the standard entropy of a gas phase oxygen atom at that temperature (as calculated using Shomate parameters from the NIST Chemistry Web Book) less all three degrees of translational entropy (treating it as an ideal gas at the average experimental temperature and pressure). The standard enthalpy of formation of an oxygen adatom at a given temperature was similarly taken to equal the standard enthalpy of formation of a gas phase oxygen atom at that temperature (similarly calculated using the Shomate equation) less an unknown enthalpy of localization at a surface site. This enthalpy of localization, Δ H ° was treated as a constant and used as an adjustable parameter when fitting the microkinetic model to Bohlbro's experimental data. Thus, by fitting the microkinetic model to Bohlbro's experimental data, using Δ S 2 ‡ , Δ S 3 ‡ , Δ H 2 ‡ , Δ H 3 ‡ and Δ H loc , O ° as adjustable parameters, it is possible to generate experimental estimates for the values of those parameters. The mathematical procedures used to solve the reactor design equations and to fit the microkinetic model to the data are analogous to those used and described previously [19]. Briefly, in order to model any one of Bohlbro's experimental data points, the model equations in Table 1 were integrated numerically using the implicit Euler method. The integration step size was chosen to be sufficiently small that it did not affect the result. The initial conditions were simply the inlet molar flow rates of each of the gas phase species for the experiment being modeled, as given in Table 1, and the integration range corresponded to the mass of catalyst used in that experiment. The fitting was also performed numerically by minimizing the sum (over all 189 experimental data points) of the square of the difference between the experimentally measured CO conversion and that predicted by the model. The Nelder–Mead downhill simplex method [20] was employed to find the parameter values that minimized this objective function. 2.2 Cluster models for the active sites Magnetite is an inverse spinel wherein the oxygen anions adopt a cubic closest packed arrangement, Fe(III) cations are found in tetrahedral sites and equal numbers of Fe(II) and Fe(III) cations are found in octahedral sites. The structure is slightly distorted because the Fe(III) cations are larger than the tetrahedral voids between the oxygen anions. Clusters to represent active sites were created by starting from this crystallographic structure (including the distortion). The structure was first cleaved to generate the desired low-Miller-index surface. A cluster then was formed by cutting additional atoms from what remained. The clusters were always chosen so that they would be symmetric, uncharged, and where possible, so that they would contain an integer number of stoichiometric formula units. This was done because formally, the individual bonds in magnetite involve fractional charges. As such, cut bonds cannot be “healed” in the usual manner by adding a hydrogen atom. The magnetite structure can be cut perpendicular to each of the [100], [110] and [111] directions so that different surfaces are revealed. Here, in each case, the cut was made so that the surface retained octahedral cations that were not fully coordinated to oxygen anions. This was done because the octahedral cations are the more likely catalytic sites, containing both Fe(II) and Fe(III) cations between which rapid electron hopping occurs. In other words, tetrahedral cations have not been considered as potential active sites in this study. The resulting clusters exposing a {110} and a {111} surface each had only a single oxygen adsorption site, but the cluster exposing a {100} surface had two oxygen adsorption sites. It will be seen later that the microkinetic modeling predicts a very high coverage of the surface by adsorbed oxygen adatoms. Therefore, the clusters were initially created to include an oxygen atom occupying each surface site, and the redox cycle was presumed to involve removal of one adsorbed oxygen atom. The resulting clusters presenting a {100}, {110} or {111} surface with all oxygen atom adsorption sites occupied are shown in Fig. 1a through 1c, respectively. The cluster representing the {100} surface, Fig. 1a, contains 35 atoms, that is, five Fe3O4 units. Calculations were also performed on a smaller cluster, not shown, that consisted of only two Fe3O4 units. The cluster representing the {110} surface, Fig. 1b, includes four Fe3O4 units. In the case of the cluster representing the {111} surface, it was not possible to create a cluster that was both symmetric and that contained an integer number of Fe3O4 units. Thus, the final, symmetric cluster, Fig. 1c, contains six Fe3O4 units plus an additional octahedral Fe atom (charge +2) and an additional O atom (charge −2). Calculations were also performed on a smaller cluster, not shown, that consisted of three Fe3O4 units plus one Fe atom and one O atom. The corresponding clusters representing the same surfaces as Fig. 1, but with a single oxygen adatom removed are shown in Fig. 2a through 2c. 2.3 Computational chemistry The structure and energy of possible catalytic intermediate species were calculated using Jaguar, version 7.0. Density functional theory (DFT) was employed using B3LYP hybrid exchange and correlation functionals and TZV** basis sets. Fine DFT grids were employed, and ultrafine geometry convergence was specified. Symmetry constraints were not imposed upon any of the species investigated. Zero-point energies were not calculated, and corrections were not made for any possible basis set superposition errors. Iron oxides are high spin compounds, and consequently the iron has been assumed to exist in the high spin state. Jaguar includes a facility for generating starting wavefunctions wherein the formal charge and spin state of each ion can be specified. For the results reported here, it was assumed that the formal charges on the iron ions in a cluster with one oxygen adatom removed from the surface site(s) (that is, the clusters in Fig. 2) correspond to the formal charge state of Fe3O4, and that when an oxygen atom is adsorbed (as in Fig. 1), two Fe(II) cations are formally oxidized to Fe(III) cations with the adatom becoming an oxygen anion. The formal spin states used in setting up the initial guesses were consistent with the known ferromagnetic coupling in magnetite. The spatial coordinates of all atoms other than the oxygen adatoms were held fixed at their crystallographic positions as already noted, but when adatoms were present, their location was determined by geometry optimization before any other properties were calculated. 3 Results and discussion 3.1 Two-step microkinetic model Despite its simplicity, the fit of the two-step microkinetic model to Bohlbro's data set was very good. Fig. 3 presents a parity plot comparing the measured CO conversion to the value predicted by the model for all 189 data. The correlation coefficient for the fit, r 2, was equal to 0.91. The resulting parameter values are presented in Table 2 . The magnitudes of the entropies of activation are quite reasonable for reactions involving a gas phase reactant and an activated complex that is localized on the catalyst surface. Specifically, they are close in magnitude to the entropy change that is computed if the gas phase species loses all its translational entropy in forming the activated complex. Similarly, the enthalpies of activation and the enthalpy of localization of an oxygen atom are of reasonable magnitudes. When Bohlbro analyzed his data set, he used power-law kinetic models. He used smaller sub-sets of the data to determine apparent reaction orders and activation energy. More importantly, Bohlbro noted that his catalyst aged under reaction conditions. As a consequence, he performed separate experiments for the purpose of estimating the apparent activation energy of the reaction. The residuals plot presented in Fig. 4 shows the difference between the CO conversion predicted by the present microkinetic model and Bohlbro's measured conversion as a function of temperature. The full data set is plotted, with the experiments Bohlbro used in estimating the activation energy additionally circled. It can be seen that the circled data points do deviate systematically, almost all give negative residuals. However, the magnitudes of the residuals for these selected data points fall within the range of the other data. That is, the size of the selected residuals is not significantly larger than the other data in the set. Hence, the aging that Bohlbro noted is not expected to have caused large errors in the microkinetic model parameters presented in Table 2, but their uncertainties may be somewhat greater than indicated by the correlation coefficient of 0.91. In generating the microkinetic model, reactions (2) and (3) were treated as if they are elementary steps, but this is not necessarily true. It is quite possible that reactions (2) and (3) are not elementary, but instead represent the net effect of two or more molecular events. As a consequence it would not be correct to relate the entropies and enthalpies of activation ( Δ S 2 ‡ , Δ S 3 ‡ , Δ H 2 ‡ and Δ H 3 ‡ ) to molecular properties that could be computed using DFT with a transition state search. In contrast, the enthalpy of localization of a surface oxygen adatom, Δ H loc , O ° , is a thermodynamic quantity associated with an actual surface species. As such, it can be related to molecular properties that can be computed using DFT (given a molecular model for the active site). Fig. 5 shows that the fit of the microkinetic model to the experimental data is highly sensitive to the value of Δ H loc , O ° . Specifically the plot shows how the sum of the squares of the residuals changes when each fitting parameter is varied from its optimum value. It is very clear that the fit is much, much more sensitive to the value of Δ H loc , O ° than to any other parameter. This means that the value of Δ H loc , O ° derived by fitting the model to the data should have the least uncertainty among the parameters derived from fitting. Further, it suggests that it should be possible to make meaningful comparisons between this value and one that is computed using DFT. The catalyst aging noted by Bohlbro, makes it difficult to assign an uncertainty to the estimated value of Δ H loc , O ° . On the basis of additional mechanistic modeling not presented here, the uncertainty in the value of Δ H loc , O ° is believed to be of the order of 25kJmol−1. The microkinetic model was used to predict the fractional surface coverage of oxygen adatoms under reaction conditions. In all cases considered, the model predicted that more than 99% of the sites would have an oxygen atom adsorbed upon them at reaction conditions. This included simulations at the outlet conditions for every experimental data point as well as additional simulations as a function of CO conversion at 700K. 3.2 Cluster models for the active site It can be seen that the cluster models do not contain chromium atoms whereas the experimental studies employed commercial ferrochrome catalysts. It is well established [2,21–25] that chromia is a textural promoter which serves to stabilize the active surface area of catalysts in which it is used. In particular, the addition of chromia does not change the specific rate of reaction, the reaction orders or the apparent activation energy. The presence of the chromium cations in the iron oxide lattice is believed to lower the rate of diffusion of iron cations and thereby to reduce the rate of sintering of the catalyst [2]. As such, the absence of chromium atoms in the cluster models is not expected to affect the present results. DFT was used to compute the self-consistent field (SCF) energy for each cluster considered (after geometry optimization, where appropriate), and also for a gas phase oxygen atom. The results were used to calculate the energy of localization corresponding to formation of an oxygen adatom on each of the cluster surfaces. The results for the cluster models shown in Figs. 1 and 2 are presented in Table 3 . As already noted, these small cluster models are expected to have deficiencies with respect to predicting bulk magnetic properties and electron hopping phenomena. It is not known whether these inaccuracies will also include calculated surface binding energies. Normally an uncertainty in the energy of localization of the order of 14–17kJmol−1 might be expected, but in the present case the uncertainty may be greater. The size of the cluster had a substantial effect upon the calculated energy of localization of an O adatom. Initially a 3 formula unit cluster exposing a {111} surface and a 2 formula unit cluster exposing a {100} surface were examined. The energy of localization of an O adatom on a {111} surface was −934kJmol−1 when the 3 formula unit cluster was used compared to −668kJmol−1 when the 6 formula unit cluster was used. Similarly, for the {100} surface, the energy of localization of an O adatom calculated using a 2 formula unit cluster was −174kJmol−1 compared to −112kJmol−1 when using a 5 formula unit cluster. It was not computationally practical to use clusters larger than those reported in Table 3, even though these results suggest that the energies of localization of an O adatom presented there may not be converged with respect to the effect of cluster size. At the least, they reinforce the earlier statement that uncertainty in the energies of localization are greater than would normally be expected. As noted previously, the microkinetic model predicts that effectively every site on the working catalyst has an oxygen adatom adsorbed upon it. This raises the question of what formal charges to assign to the iron cations in the cluster models. One possibility would be to take the oxygen covered cluster models (Fig. 1) to correspond to formal charges for Fe3O4. For the {100} cluster, as an example, this gives five tetrahedral Fe3+ cations, five octahedral Fe3+ cations and five octahedral Fe2+ cations. Then, when the adsorbed oxygen adatom was removed (Fig. 2), there would be five tetrahedral Fe3+ cations, three octahedral Fe3+ cations and seven octahedral Fe2+ cations. In this case, the most oxidized species in the redox cycle of Eqs. (2) and (3) would correspond to Fe3O4. The alternative possibility would be to assume that Fe3O4 is the least oxidized species in the redox cycle. In that case, the cluster in Fig. 1a (oxygen covered {100} surface) would contain five tetrahedral Fe3+ cations, seven octahedral Fe3+ cations and three octahedral Fe2+ cations while the cluster in Fig. 2a (one oxygen removed from the {100} surface) would contain five tetrahedral Fe3+ cations, five octahedral Fe3+ cations and five octahedral Fe2+ cations. Calculations were performed for both of these possibilities. For the cluster exposing the {111} surface the first alternative (Fe3O4 corresponding to the most oxidized state) the energy of oxygen localization was found to equal −679kJmol−1, and for the second alternative (Fe3O4 being the least oxidized state) the energy of oxygen localization was found to equal −668kJmol−1. The difference is quite small, and the latter alternative was used in generating the results in Table 3. Table 3 shows that the energy of oxygen localization becomes more negative upon moving from the {100} to the {110} to the {111} surfaces. This is not surprising. The exposed octahedral cation on the vacant {100} surface, Fig. 2a, is already coordinated to five other anions. The exposed octahedral cation on the vacant {110} surface, Fig. 2b, is coordinated to four anions while that on the {111} surface is coordinated to only three anions. Indeed, analysis of these data shows that the computed energy of localization of an oxygen adatom onto an octahedral cation site is directly proportional to the number of other anions coordinated to that cation. As the existing coordination of the vacant octahedral site cation increases, the energy of localization of an additional oxygen adatom becomes more positive. 3.3 Comparison of experimental and computational results Fitting the microkinetic model to experimental data gave a value of −611kJmol−1 for the enthalpy of localization of oxygen on the ferrochrome surface. The closest computed value is −668kJmol−1 for the energy of localization of oxygen on the cluster model exposing a {111} surface. The difference, 57kJmol−1 is significant, even after accounting for the uncertainties in the values. There are many possible reasons for the poor agreement, and a few can be offered here. First, it is likely that the real catalyst exposes a variety of different surfaces. As such, the value obtained from the fit represents some sort of weighted average of the values for the surfaces actually exposed by the real commercial catalyst. If this interpretation is accepted, the proportionality with the energy of localization suggests that on average each vacant octahedral cation site is coordinated to 3.2 oxygen anions. An alternative possibility, already discussed, is that the computational clusters are still too small, and that increasing the size of the clusters would eventually lead to a situation where the computed localization energy of one of the clusters would equal the experimental value to within their uncertainties. A third possibility is that the regenerative microkinetic model is not an accurate representation of the mechanistic pathway, but this seems unlikely since the model fits the data so well and other independent measurements are consistent with it [26,27]. As just discussed, the results suggest that the catalyst surface most nearly resembles a {111} surface. The experimental oxygen adatom localization enthalpy falls between the energy computed for the {111} and {110} surfaces, but closer to the former. It has been mentioned that this might suggest that the real catalyst predominantly exposes features characteristic of these two surfaces. This is not unreasonable in that natural octahedral crystals of Fe3O4 typically expose {111} surfaces, and less common natural dodecahedral crystals expose {110} surfaces [28]. Atomistic calculations suggest that the {111} surface of Fe3O4 is thermodynamically stable [29]. This surface has been imaged many times using scanning tunneling microscopy and has been found to be stable following high temperature annealing and during thermal desorption of water [30,31]. Thus, it is reasonable that the majority of the active sites for water-gas shift on Fe3O4 catalysts should resemble sites found on the {111} surface. 4 Conclusions A simple two-step microkinetic model based upon reactions (2) and (3) provides a very good description of the kinetics of high temperature water-gas shift over a commercial ferrochrome catalyst. The model can be formulated so that the enthalpy of localization of an oxygen adatom appears as one of the unknown model parameters. The fit of the microkinetic model to the experimental data is most sensitive to this particular parameter, and consequently a good estimate for its value can be obtained. Using Bohlbro's published data set to do so resulted in a value of −611kJmol−1 for the enthalpy of localization of a surface oxygen adatom. Density functional theory was used to calculate corresponding energies of oxygen adatom localization on octahedral cation sites typical of the {100}, {110} and {111} surfaces of Fe3O4. These calculations used cluster models to represent the catalyst sites, and while clusters containing as many as 6 formula units of Fe3O4 were used, it is possible that the cluster size influenced the results. Nonetheless, the computed energies of localization were found to vary linearly in proportion to the number of oxygen anions missing from the normal octahedral coordination of the cation adsorption sites. The experimental enthalpy of localization was between the energies computed for the {111} and {110} surfaces, but much closer to that of the {111} surface. This suggests that the active sites on the real catalyst are similar to those found on the {111} surfaces of magnetite. Acknowledgements Acknowledgement is made to the Donors of the American Chemical Society Petroleum Research Fund for support of this research. References [1] C.R.F. Lund J.E. Kubsh J.A. Dumesic The role of solid state chemistry in catalysis ACS Symposium Series, vol. 279 1985 313 [2] C. Rhodes G.J. Hutchings A.M. Ward Catal. Today 23 1995 43 58 [3] Y. Kaneko S. Oki J. Res. Inst. Catalysis, Hokkaido Univ. 13 1965 55 [4] Y. Kaneko S. Oki J. Res. Inst. Catal., Hokkaido Univ. 13 1965 169 [5] Y. Kaneko S. Oki J. Res. Inst. Catal., Hokkaido Univ. 15 1967 185 [6] R. Mezaki S. Oki J. Catal. 30 1973 488 489 [7] S. Oki R. Mezaki J. Phys. Chem. 77 1973 447 452 [8] S. Oki R. Mezaki J. Phys. Chem. 77 1973 1601 1605 [9] C. Diagne P.J. Vos A. Kiennemann M.J. Perrez M.F. Portela React. Kinet. Catal. Lett. 42 1990 25 31 [10] V. Glavacek M. Marek M. Korzhinkova Kinet. Katal. 9 1968 1107 1110 [11] N.A. Rubene A.A. Davydov A.V. Kravtsov N.V. Usheva S.I. Smol’yaninov Kinet. Katal. 17 1976 465 471 [12] C. Rhodes G.J. Hutchings Phys. Chem. Chem. Phys. 5 2003 2719 2723 [13] H. Bohlbro Act. Chem. Scand. 15 1961 502 520 [14] H. Bohlbro Acta Chem. Scand. 16 1962 431 438 [15] H. Bohlbro Acta Chem. Scand. 17 1963 1001 1011 [16] H. Bohlbro J. Catal. 3 1964 207 215 [17] Bohlbro, H., An investigation on the conversion of carbon monoxide with water vapour over iron oxide based catalysts, Haldor Topsøe, Gjellerup, Copenhagen, 1969. [18] NIST Chemistry WebBook, NIST Standard Reference Database Number 69, National Institute of Standards and Technology, Gaithersburg, MD, 20899 (http://webbook.nist.gov), 2005. [19] C. Sang B.H. Kim C.R.F. Lund J. Phys. Chem. A 109 2005 2295 2301 [20] J.A. Nelder R. Mead J. Comput. 7 1965 308 313 [21] A.M. Alekseev I.P. Kirillov V.V. Kostrov Izvestiya Vysshikh Uchebnykh Zavedenii Khimiya i Khimicheskaya Tekhnologiya 10 1967 308 313 [22] F. Domka A. Basinska R. Fiedorow Surf. Technol. 18 1983 275 282 [23] F. Domka A. Basinska W. Przystajko R. Fiedorow Surf. Technol. 21 1984 101 108 [24] M.A. Edwards D.M. Whittle C. Rhodes A.M. Ward D. Rohan M.D. Shannon G.J. Hutchings C.J. Kiely Phys. Chem. Chem. Phys. 4 2002 3902 3908 [25] M.I. Markina G.K. Boreskov F.P. Ivanovskii B.G. Lyudkovskaya Kinetika i Kataliz 2 1961 867 871 [26] J.E. Kubsh J.A. Dumesic AIChE J. 28 1982 793 800 [27] M. Tinkle J.A. Dumesic J. Catal. 103 1987 65 78 [28] C. Klein Manual of Mineralogy 21 ed. 1993 Wiley New York [29] M.W. Finnis Phys. State Sol. A 166 1998 397 416 [30] Y. Joseph C. Kuhrs W. Ranke M. Ritter W. Weiss Chem. Phys. Lett. 314 1999 195 202 [31] A.R. Lennie N.G. Condon F.M. Leibsle P.W. Murray G. Thornton D.J. Vaughn Phys. Rev. B 53 1996 10244 10253",
+      "scopus-id": "52049098250",
+      "coredata": {
+        "eid": "1-s2.0-S1381116908003282",
+        "dc:description": "A simple two-step regenerative model for the kinetics of high temperature water-gas shift provided a good fit to published experimental data for a commercial ferrochrome catalyst. The fitting process yielded an enthalpy of localization of oxygen adatoms on the surface equal to −611kJmol−1, and it predicted that virtually all adsorption sites were covered by oxygen adatoms at reaction conditions. Cluster models were created to represent possible active sites on {100}, {110} and {111} surfaces of Fe3O4, the active state of the catalyst. Energies of localization of oxygen adatoms on exposed cation sites were calculated using density functional theory. The computed energies were found to vary in proportion to the number of oxygen anions missing from the normal octahedral coordination of the cation adsorption sites. Comparing the results from the kinetic modeling to the computed energies of localization suggests that on average, the active site on the working catalyst is coordinated to 3.2 oxygen anions, not counting the oxygen adatom.",
+        "openArchiveArticle": "false",
+        "prism:coverDate": "2008-09-17",
+        "openaccessUserLicense": null,
+        "prism:aggregationType": "Journal",
+        "prism:url": "https://api.elsevier.com/content/article/pii/S1381116908003282",
+        "dc:creator": [
+          {
+            "@_fa": "true",
+            "$": "Van Natter, R.M."
+          },
+          {
+            "@_fa": "true",
+            "$": "Coleman, J.S."
+          },
+          {
+            "@_fa": "true",
+            "$": "Lund, C.R.F."
+          }
+        ],
+        "link": [
+          {
+            "@_fa": "true",
+            "@rel": "self",
+            "@href": "https://api.elsevier.com/content/article/pii/S1381116908003282"
+          },
+          {
+            "@_fa": "true",
+            "@rel": "scidir",
+            "@href": "https://www.sciencedirect.com/science/article/pii/S1381116908003282"
+          }
+        ],
+        "dc:format": "application/json",
+        "openaccessType": null,
+        "pii": "S1381-1169(08)00328-2",
+        "prism:volume": "292",
+        "prism:publisher": "Elsevier B.V.",
+        "dc:title": "DFT models for active sites on high temperature water-gas shift catalysts",
+        "prism:copyright": "Copyright © 2008 Elsevier B.V. All rights reserved.",
+        "openaccess": "0",
+        "prism:issn": "13811169",
+        "prism:issueIdentifier": "1-2",
+        "dcterms:subject": [
+          {
+            "@_fa": "true",
+            "$": "Water-gas shift"
+          },
+          {
+            "@_fa": "true",
+            "$": "Ferrochrome"
+          },
+          {
+            "@_fa": "true",
+            "$": "Iron oxide"
+          },
+          {
+            "@_fa": "true",
+            "$": "Active sites"
+          }
+        ],
+        "openaccessArticle": "false",
+        "prism:publicationName": "Journal of Molecular Catalysis A: Chemical",
+        "prism:number": "1-2",
+        "openaccessSponsorType": null,
+        "prism:pageRange": "76-82",
+        "prism:endingPage": "82",
+        "pubType": "fla",
+        "prism:coverDisplayDate": "17 September 2008",
+        "prism:doi": "10.1016/j.molcata.2008.07.015",
+        "prism:startingPage": "76",
+        "dc:identifier": "doi:10.1016/j.molcata.2008.07.015",
+        "openaccessSponsorName": null
+      },
+      "objects": {
+        "object": [
+          {
+            "@category": "thumbnail",
+            "@height": "21",
+            "@width": "54",
+            "@_fa": "true",
+            "$": "https://api.elsevier.com/content/object/eid/1-s2.0-S1381116908003282-si42.gif?httpAccept=%2A%2F%2A",
+            "@multimediatype": "GIF image file",
+            "@type": "ALTIMG",
+            "@size": "304",
+            "@ref": "si42",
+            "@mimetype": "image/gif"
+          },
+          {
+            "@category": "thumbnail",
+            "@height": "21",
+            "@width": "54",
+            "@_fa": "true",
+            "$": "https://api.elsevier.com/content/object/eid/1-s2.0-S1381116908003282-si41.gif?httpAccept=%2A%2F%2A",
+            "@multimediatype": "GIF image file",
+            "@type": "ALTIMG",
+            "@size": "304",
+            "@ref": "si41",
+            "@mimetype": "image/gif"
+          },
+          {
+            "@category": "thumbnail",
+            "@height": "21",
+            "@width": "54",
+            "@_fa": "true",
+            "$": "https://api.elsevier.com/content/object/eid/1-s2.0-S1381116908003282-si40.gif?httpAccept=%2A%2F%2A",
+            "@multimediatype": "GIF image file",
+            "@type": "ALTIMG",
+            "@size": "304",
+            "@ref": "si40",
+            "@mimetype": "image/gif"
+          },
+          {
+            "@category": "thumbnail",
+            "@height": "21",
+            "@width": "54",
+            "@_fa": "true",
+            "$": "https://api.elsevier.com/content/object/eid/1-s2.0-S1381116908003282-si39.gif?httpAccept=%2A%2F%2A",
+            "@multimediatype": "GIF image file",
+            "@type": "ALTIMG",
+            "@size": "304",
+            "@ref": "si39",
+            "@mimetype": "image/gif"
+          },
+          {
+            "@category": "thumbnail",
+            "@height": "21",
+            "@width": "54",
+            "@_fa": "true",
+            "$": "https://api.elsevier.com/content/object/eid/1-s2.0-S1381116908003282-si38.gif?httpAccept=%2A%2F%2A",
+            "@multimediatype": "GIF image file",
+            "@type": "ALTIMG",
+            "@size": "304",
+            "@ref": "si38",
+            "@mimetype": "image/gif"
+          },
+          {
+            "@category": "thumbnail",
+            "@height": "21",
+            "@width": "58",
+            "@_fa": "true",
+            "$": "https://api.elsevier.com/content/object/eid/1-s2.0-S1381116908003282-si37.gif?httpAccept=%2A%2F%2A",
+            "@multimediatype": "GIF image file",
+            "@type": "ALTIMG",
+            "@size": "296",
+            "@ref": "si37",
+            "@mimetype": "image/gif"
+          },
+          {
+            "@category": "thumbnail",
+            "@height": "22",
+            "@width": "31",
+            "@_fa": "true",
+            "$": "https://api.elsevier.com/content/object/eid/1-s2.0-S1381116908003282-si36.gif?httpAccept=%2A%2F%2A",
+            "@multimediatype": "GIF image file",
+            "@type": "ALTIMG",
+            "@size": "254",
+            "@ref": "si36",
+            "@mimetype": "image/gif"
+          },
+          {
+            "@category": "thumbnail",
+            "@height": "22",
+            "@width": "31",
+            "@_fa": "true",
+            "$": "https://api.elsevier.com/content/object/eid/1-s2.0-S1381116908003282-si35.gif?httpAccept=%2A%2F%2A",
+            "@multimediatype": "GIF image file",
+            "@type": "ALTIMG",
+            "@size": "249",
+            "@ref": "si35",
+            "@mimetype": "image/gif"
+          },
+          {
+            "@category": "thumbnail",
+            "@height": "22",
+            "@width": "28",
+            "@_fa": "true",
+            "$": "https://api.elsevier.com/content/object/eid/1-s2.0-S1381116908003282-si34.gif?httpAccept=%2A%2F%2A",
+            "@multimediatype": "GIF image file",
+            "@type": "ALTIMG",
+            "@size": "228",
+            "@ref": "si34",
+            "@mimetype": "image/gif"
+          },
+          {
+            "@category": "thumbnail",
+            "@height": "22",
+            "@width": "28",
+            "@_fa": "true",
+            "$": "https://api.elsevier.com/content/object/eid/1-s2.0-S1381116908003282-si33.gif?httpAccept=%2A%2F%2A",
+            "@multimediatype": "GIF image file",
+            "@type": "ALTIMG",
+            "@size": "228",
+            "@ref": "si33",
+            "@mimetype": "image/gif"
+          },
+          {
+            "@category": "thumbnail",
+            "@height": "21",
+            "@width": "54",
+            "@_fa": "true",
+            "$": "https://api.elsevier.com/content/object/eid/1-s2.0-S1381116908003282-si32.gif?httpAccept=%2A%2F%2A",
+            "@multimediatype": "GIF image file",
+            "@type": "ALTIMG",
+            "@size": "304",
+            "@ref": "si32",
+            "@mimetype": "image/gif"
+          },
+          {
+            "@category": "thumbnail",
+            "@height": "22",
+            "@width": "31",
+            "@_fa": "true",
+            "$": "https://api.elsevier.com/content/object/eid/1-s2.0-S1381116908003282-si31.gif?httpAccept=%2A%2F%2A",
+            "@multimediatype": "GIF image file",
+            "@type": "ALTIMG",
+            "@size": "254",
+            "@ref": "si31",
+            "@mimetype": "image/gif"
+          },
+          {
+            "@category": "thumbnail",
+            "@height": "22",
+            "@width": "31",
+            "@_fa": "true",
+            "$": "https://api.elsevier.com/content/object/eid/1-s2.0-S1381116908003282-si30.gif?httpAccept=%2A%2F%2A",
+            "@multimediatype": "GIF image file",
+            "@type": "ALTIMG",
+            "@size": "249",
+            "@ref": "si30",
+            "@mimetype": "image/gif"
+          },
+          {
+            "@category": "thumbnail",
+            "@height": "22",
+            "@width": "28",
+            "@_fa": "true",
+            "$": "https://api.elsevier.com/content/object/eid/1-s2.0-S1381116908003282-si29.gif?httpAccept=%2A%2F%2A",
+            "@multimediatype": "GIF image file",
+            "@type": "ALTIMG",
+            "@size": "228",
+            "@ref": "si29",
+            "@mimetype": "image/gif"
+          },
+          {
+            "@category": "thumbnail",
+            "@height": "22",
+            "@width": "28",
+            "@_fa": "true",
+            "$": "https://api.elsevier.com/content/object/eid/1-s2.0-S1381116908003282-si28.gif?httpAccept=%2A%2F%2A",
+            "@multimediatype": "GIF image file",
+            "@type": "ALTIMG",
+            "@size": "228",
+            "@ref": "si28",
+            "@mimetype": "image/gif"
+          },
+          {
+            "@category": "thumbnail",
+            "@height": "21",
+            "@width": "54",
+            "@_fa": "true",
+            "$": "https://api.elsevier.com/content/object/eid/1-s2.0-S1381116908003282-si27.gif?httpAccept=%2A%2F%2A",
+            "@multimediatype": "GIF image file",
+            "@type": "ALTIMG",
+            "@size": "304",
+            "@ref": "si27",
+            "@mimetype": "image/gif"
+          },
+          {
+            "@category": "thumbnail",
+            "@height": "22",
+            "@width": "38",
+            "@_fa": "true",
+            "$": "https://api.elsevier.com/content/object/eid/1-s2.0-S1381116908003282-si26.gif?httpAccept=%2A%2F%2A",
+            "@multimediatype": "GIF image file",
+            "@type": "ALTIMG",
+            "@size": "246",
+            "@ref": "si26",
+            "@mimetype": "image/gif"
+          },
+          {
+            "@category": "thumbnail",
+            "@height": "19",
+            "@width": "15",
+            "@_fa": "true",
+            "$": "https://api.elsevier.com/content/object/eid/1-s2.0-S1381116908003282-si25.gif?httpAccept=%2A%2F%2A",
+            "@multimediatype": "GIF image file",
+            "@type": "ALTIMG",
+            "@size": "154",
+            "@ref": "si25",
+            "@mimetype": "image/gif"
+          },
+          {
+            "@category": "thumbnail",
+            "@height": "22",
+            "@width": "32",
+            "@_fa": "true",
+            "$": "https://api.elsevier.com/content/object/eid/1-s2.0-S1381116908003282-si24.gif?httpAccept=%2A%2F%2A",
+            "@multimediatype": "GIF image file",
+            "@type": "ALTIMG",
+            "@size": "240",
+            "@ref": "si24",
+            "@mimetype": "image/gif"
+          },
+          {
+            "@category": "thumbnail",
+            "@height": "22",
+            "@width": "28",
+            "@_fa": "true",
+            "$": "https://api.elsevier.com/content/object/eid/1-s2.0-S1381116908003282-si23.gif?httpAccept=%2A%2F%2A",
+            "@multimediatype": "GIF image file",
+            "@type": "ALTIMG",
+            "@size": "226",
+            "@ref": "si23",
+            "@mimetype": "image/gif"
+          },
+          {
+            "@category": "thumbnail",
+            "@height": "24",
+            "@width": "33",
+            "@_fa": "true",
+            "$": "https://api.elsevier.com/content/object/eid/1-s2.0-S1381116908003282-si22.gif?httpAccept=%2A%2F%2A",
+            "@multimediatype": "GIF image file",
+            "@type": "ALTIMG",
+            "@size": "248",
+            "@ref": "si22",
+            "@mimetype": "image/gif"
+          },
+          {
+            "@category": "thumbnail",
+            "@height": "24",
+            "@width": "28",
+            "@_fa": "true",
+            "$": "https://api.elsevier.com/content/object/eid/1-s2.0-S1381116908003282-si21.gif?httpAccept=%2A%2F%2A",
+            "@multimediatype": "GIF image file",
+            "@type": "ALTIMG",
+            "@size": "213",
+            "@ref": "si21",
+            "@mimetype": "image/gif"
+          },
+          {
+            "@category": "thumbnail",
+            "@height": "22",
+            "@width": "28",
+            "@_fa": "true",
+            "$": "https://api.elsevier.com/content/object/eid/1-s2.0-S1381116908003282-si20.gif?httpAccept=%2A%2F%2A",
+            "@multimediatype": "GIF image file",
+            "@type": "ALTIMG",
+            "@size": "226",
+            "@ref": "si20",
+            "@mimetype": "image/gif"
+          },
+          {
+            "@category": "thumbnail",
+            "@height": "24",
+            "@width": "28",
+            "@_fa": "true",
+            "$": "https://api.elsevier.com/content/object/eid/1-s2.0-S1381116908003282-si19.gif?httpAccept=%2A%2F%2A",
+            "@multimediatype": "GIF image file",
+            "@type": "ALTIMG",
+            "@size": "213",
+            "@ref": "si19",
+            "@mimetype": "image/gif"
+          },
+          {
+            "@category": "thumbnail",
+            "@height": "19",
+            "@width": "15",
+            "@_fa": "true",
+            "$": "https://api.elsevier.com/content/object/eid/1-s2.0-S1381116908003282-si18.gif?httpAccept=%2A%2F%2A",
+            "@multimediatype": "GIF image file",
+            "@type": "ALTIMG",
+            "@size": "154",
+            "@ref": "si18",
+            "@mimetype": "image/gif"
+          },
+          {
+            "@category": "thumbnail",
+            "@height": "13",
+            "@width": "14",
+            "@_fa": "true",
+            "$": "https://api.elsevier.com/content/object/eid/1-s2.0-S1381116908003282-si17.gif?httpAccept=%2A%2F%2A",
+            "@multimediatype": "GIF image file",
+            "@type": "ALTIMG",
+            "@size": "138",
+            "@ref": "si17",
+            "@mimetype": "image/gif"
+          },
+          {
+            "@category": "thumbnail",
+            "@height": "21",
+            "@width": "54",
+            "@_fa": "true",
+            "$": "https://api.elsevier.com/content/object/eid/1-s2.0-S1381116908003282-si16.gif?httpAccept=%2A%2F%2A",
+            "@multimediatype": "GIF image file",
+            "@type": "ALTIMG",
+            "@size": "304",
+            "@ref": "si16",
+            "@mimetype": "image/gif"
+          },
+          {
+            "@category": "thumbnail",
+            "@height": "22",
+            "@width": "38",
+            "@_fa": "true",
+            "$": "https://api.elsevier.com/content/object/eid/1-s2.0-S1381116908003282-si15.gif?httpAccept=%2A%2F%2A",
+            "@multimediatype": "GIF image file",
+            "@type": "ALTIMG",
+            "@size": "246",
+            "@ref": "si15",
+            "@mimetype": "image/gif"
+          },
+          {
+            "@category": "thumbnail",
+            "@height": "22",
+            "@width": "32",
+            "@_fa": "true",
+            "$": "https://api.elsevier.com/content/object/eid/1-s2.0-S1381116908003282-si14.gif?httpAccept=%2A%2F%2A",
+            "@multimediatype": "GIF image file",
+            "@type": "ALTIMG",
+            "@size": "240",
+            "@ref": "si14",
+            "@mimetype": "image/gif"
+          },
+          {
+            "@category": "thumbnail",
+            "@height": "24",
+            "@width": "33",
+            "@_fa": "true",
+            "$": "https://api.elsevier.com/content/object/eid/1-s2.0-S1381116908003282-si13.gif?httpAccept=%2A%2F%2A",
+            "@multimediatype": "GIF image file",
+            "@type": "ALTIMG",
+            "@size": "248",
+            "@ref": "si13",
+            "@mimetype": "image/gif"
+          },
+          {
+            "@category": "thumbnail",
+            "@height": "22",
+            "@width": "31",
+            "@_fa": "true",
+            "$": "https://api.elsevier.com/content/object/eid/1-s2.0-S1381116908003282-si12.gif?httpAccept=%2A%2F%2A",
+            "@multimediatype": "GIF image file",
+            "@type": "ALTIMG",
+            "@size": "254",
+            "@ref": "si12",
+            "@mimetype": "image/gif"
+          },
+          {
+            "@category": "thumbnail",
+            "@height": "22",
+            "@width": "33",
+            "@_fa": "true",
+            "$": "https://api.elsevier.com/content/object/eid/1-s2.0-S1381116908003282-si11.gif?httpAccept=%2A%2F%2A",
+            "@multimediatype": "GIF image file",
+            "@type": "ALTIMG",
+            "@size": "257",
+            "@ref": "si11",
+            "@mimetype": "image/gif"
+          },
+          {
+            "@category": "thumbnail",
+            "@height": "22",
+            "@width": "28",
+            "@_fa": "true",
+            "$": "https://api.elsevier.com/content/object/eid/1-s2.0-S1381116908003282-si10.gif?httpAccept=%2A%2F%2A",
+            "@multimediatype": "GIF image file",
+            "@type": "ALTIMG",
+            "@size": "228",
+            "@ref": "si10",
+            "@mimetype": "image/gif"
+          },
+          {
+            "@category": "thumbnail",
+            "@height": "22",
+            "@width": "28",
+            "@_fa": "true",
+            "$": "https://api.elsevier.com/content/object/eid/1-s2.0-S1381116908003282-si9.gif?httpAccept=%2A%2F%2A",
+            "@multimediatype": "GIF image file",
+            "@type": "ALTIMG",
+            "@size": "228",
+            "@ref": "si9",
+            "@mimetype": "image/gif"
+          },
+          {
+            "@category": "thumbnail",
+            "@height": "22",
+            "@width": "53",
+            "@_fa": "true",
+            "$": "https://api.elsevier.com/content/object/eid/1-s2.0-S1381116908003282-si8.gif?httpAccept=%2A%2F%2A",
+            "@multimediatype": "GIF image file",
+            "@type": "ALTIMG",
+            "@size": "323",
+            "@ref": "si8",
+            "@mimetype": "image/gif"
+          },
+          {
+            "@category": "thumbnail",
+            "@height": "74",
+            "@width": "285",
+            "@_fa": "true",
+            "$": "https://api.elsevier.com/content/object/eid/1-s2.0-S1381116908003282-si7.gif?httpAccept=%2A%2F%2A",
+            "@multimediatype": "GIF image file",
+            "@type": "ALTIMG",
+            "@size": "2247",
+            "@ref": "si7",
+            "@mimetype": "image/gif"
+          },
+          {
+            "@category": "thumbnail",
+            "@height": "102",
+            "@width": "330",
+            "@_fa": "true",
+            "$": "https://api.elsevier.com/content/object/eid/1-s2.0-S1381116908003282-si6.gif?httpAccept=%2A%2F%2A",
+            "@multimediatype": "GIF image file",
+            "@type": "ALTIMG",
+            "@size": "3417",
+            "@ref": "si6",
+            "@mimetype": "image/gif"
+          },
+          {
+            "@category": "thumbnail",
+            "@height": "102",
+            "@width": "213",
+            "@_fa": "true",
+            "$": "https://api.elsevier.com/content/object/eid/1-s2.0-S1381116908003282-si5.gif?httpAccept=%2A%2F%2A",
+            "@multimediatype": "GIF image file",
+            "@type": "ALTIMG",
+            "@size": "2056",
+            "@ref": "si5",
+            "@mimetype": "image/gif"
+          },
+          {
+            "@category": "thumbnail",
+            "@height": "102",
+            "@width": "209",
+            "@_fa": "true",
+            "$": "https://api.elsevier.com/content/object/eid/1-s2.0-S1381116908003282-si4.gif?httpAccept=%2A%2F%2A",
+            "@multimediatype": "GIF image file",
+            "@type": "ALTIMG",
+            "@size": "2274",
+            "@ref": "si4",
+            "@mimetype": "image/gif"
+          },
+          {
+            "@category": "thumbnail",
+            "@height": "26",
+            "@width": "206",
+            "@_fa": "true",
+            "$": "https://api.elsevier.com/content/object/eid/1-s2.0-S1381116908003282-si3.gif?httpAccept=%2A%2F%2A",
+            "@multimediatype": "GIF image file",
+            "@type": "ALTIMG",
+            "@size": "794",
+            "@ref": "si3",
+            "@mimetype": "image/gif"
+          },
+          {
+            "@category": "thumbnail",
+            "@height": "84",
+            "@width": "226",
+            "@_fa": "true",
+            "$": "https://api.elsevier.com/content/object/eid/1-s2.0-S1381116908003282-si2.gif?httpAccept=%2A%2F%2A",
+            "@multimediatype": "GIF image file",
+            "@type": "ALTIMG",
+            "@size": "2167",
+            "@ref": "si2",
+            "@mimetype": "image/gif"
+          },
+          {
+            "@category": "thumbnail",
+            "@height": "73",
+            "@width": "288",
+            "@_fa": "true",
+            "$": "https://api.elsevier.com/content/object/eid/1-s2.0-S1381116908003282-si1.gif?httpAccept=%2A%2F%2A",
+            "@multimediatype": "GIF image file",
+            "@type": "ALTIMG",
+            "@size": "1526",
+            "@ref": "si1",
+            "@mimetype": "image/gif"
+          },
+          {
+            "@category": "standard",
+            "@height": "963",
+            "@width": "345",
+            "@_fa": "true",
+            "$": "https://api.elsevier.com/content/object/eid/1-s2.0-S1381116908003282-gr1.jpg?httpAccept=%2A%2F%2A",
+            "@multimediatype": "JPEG image file",
+            "@type": "IMAGE-DOWNSAMPLED",
+            "@size": "113479",
+            "@ref": "gr1",
+            "@mimetype": "image/jpeg"
+          },
+          {
+            "@category": "thumbnail",
+            "@height": "92",
+            "@width": "33",
+            "@_fa": "true",
+            "$": "https://api.elsevier.com/content/object/eid/1-s2.0-S1381116908003282-gr1.sml?httpAccept=%2A%2F%2A",
+            "@multimediatype": "GIF image file",
+            "@type": "IMAGE-THUMBNAIL",
+            "@size": "2248",
+            "@ref": "gr1",
+            "@mimetype": "image/gif"
+          },
+          {
+            "@category": "standard",
+            "@height": "891",
+            "@width": "339",
+            "@_fa": "true",
+            "$": "https://api.elsevier.com/content/object/eid/1-s2.0-S1381116908003282-gr2.jpg?httpAccept=%2A%2F%2A",
+            "@multimediatype": "JPEG image file",
+            "@type": "IMAGE-DOWNSAMPLED",
+            "@size": "108287",
+            "@ref": "gr2",
+            "@mimetype": "image/jpeg"
+          },
+          {
+            "@category": "thumbnail",
+            "@height": "92",
+            "@width": "35",
+            "@_fa": "true",
+            "$": "https://api.elsevier.com/content/object/eid/1-s2.0-S1381116908003282-gr2.sml?httpAccept=%2A%2F%2A",
+            "@multimediatype": "GIF image file",
+            "@type": "IMAGE-THUMBNAIL",
+            "@size": "2339",
+            "@ref": "gr2",
+            "@mimetype": "image/gif"
+          },
+          {
+            "@category": "standard",
+            "@height": "342",
+            "@width": "364",
+            "@_fa": "true",
+            "$": "https://api.elsevier.com/content/object/eid/1-s2.0-S1381116908003282-gr3.jpg?httpAccept=%2A%2F%2A",
+            "@multimediatype": "JPEG image file",
+            "@type": "IMAGE-DOWNSAMPLED",
+            "@size": "20126",
+            "@ref": "gr3",
+            "@mimetype": "image/jpeg"
+          },
+          {
+            "@category": "thumbnail",
+            "@height": "93",
+            "@width": "99",
+            "@_fa": "true",
+            "$": "https://api.elsevier.com/content/object/eid/1-s2.0-S1381116908003282-gr3.sml?httpAccept=%2A%2F%2A",
+            "@multimediatype": "GIF image file",
+            "@type": "IMAGE-THUMBNAIL",
+            "@size": "1318",
+            "@ref": "gr3",
+            "@mimetype": "image/gif"
+          },
+          {
+            "@category": "standard",
+            "@height": "256",
+            "@width": "378",
+            "@_fa": "true",
+            "$": "https://api.elsevier.com/content/object/eid/1-s2.0-S1381116908003282-gr4.jpg?httpAccept=%2A%2F%2A",
+            "@multimediatype": "JPEG image file",
+            "@type": "IMAGE-DOWNSAMPLED",
+            "@size": "20229",
+            "@ref": "gr4",
+            "@mimetype": "image/jpeg"
+          },
+          {
+            "@category": "thumbnail",
+            "@height": "85",
+            "@width": "125",
+            "@_fa": "true",
+            "$": "https://api.elsevier.com/content/object/eid/1-s2.0-S1381116908003282-gr4.sml?httpAccept=%2A%2F%2A",
+            "@multimediatype": "GIF image file",
+            "@type": "IMAGE-THUMBNAIL",
+            "@size": "1444",
+            "@ref": "gr4",
+            "@mimetype": "image/gif"
+          },
+          {
+            "@category": "standard",
+            "@height": "664",
+            "@width": "391",
+            "@_fa": "true",
+            "$": "https://api.elsevier.com/content/object/eid/1-s2.0-S1381116908003282-gr5.jpg?httpAccept=%2A%2F%2A",
+            "@multimediatype": "JPEG image file",
+            "@type": "IMAGE-DOWNSAMPLED",
+            "@size": "25216",
+            "@ref": "gr5",
+            "@mimetype": "image/jpeg"
+          },
+          {
+            "@category": "thumbnail",
+            "@height": "93",
+            "@width": "55",
+            "@_fa": "true",
+            "$": "https://api.elsevier.com/content/object/eid/1-s2.0-S1381116908003282-gr5.sml?httpAccept=%2A%2F%2A",
+            "@multimediatype": "GIF image file",
+            "@type": "IMAGE-THUMBNAIL",
+            "@size": "753",
+            "@ref": "gr5",
+            "@mimetype": "image/gif"
+          },
+          {
+            "@category": "standard",
+            "@height": "188",
+            "@width": "235",
+            "@_fa": "true",
+            "$": "https://api.elsevier.com/content/object/eid/1-s2.0-S1381116908003282-fx1.jpg?httpAccept=%2A%2F%2A",
+            "@multimediatype": "JPEG image file",
+            "@type": "IMAGE-DOWNSAMPLED",
+            "@size": "31567",
+            "@ref": "fx1",
+            "@mimetype": "image/jpeg"
+          },
+          {
+            "@category": "thumbnail",
+            "@height": "94",
+            "@width": "117",
+            "@_fa": "true",
+            "$": "https://api.elsevier.com/content/object/eid/1-s2.0-S1381116908003282-fx1.sml?httpAccept=%2A%2F%2A",
+            "@multimediatype": "GIF image file",
+            "@type": "IMAGE-THUMBNAIL",
+            "@size": "4251",
+            "@ref": "fx1",
+            "@mimetype": "image/gif"
+          }
+        ]
+      },
+      "link": {
+        "@rel": "abstract",
+        "@href": "https://api.elsevier.com/content/abstract/scopus_id/52049098250"
+      }
+    }
+  }
+}

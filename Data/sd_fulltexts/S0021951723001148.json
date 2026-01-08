@@ -1,0 +1,1458 @@
+{
+  "metadata": {
+    "title": "Theoretical study of the mechanism of the hydrogen evolution reaction on the V<ce:inf loc=post>2</ce:inf>C MXene: Thermodynamic and kinetic aspects",
+    "authors": "; ; ",
+    "journal": "Journal of Catalysis",
+    "date": "2023-05-31",
+    "doi": "10.1016/j.jcat.2023.03.027",
+    "abstract": "",
+    "uri": "https://api.elsevier.com/content/article/pii/S0021951723001148",
+    "pii": "S0021951723001148"
+  },
+  "fulltext": {
+    "full-text-retrieval-response": {
+      "scopus-eid": "2-s2.0-85151238072",
+      "originalText": "serial JL 272561 291210 291744 291809 31 90 Journal of Catalysis JOURNALCATALYSIS 2023-03-22 2023-03-22 2023-03-29 2023-03-29 2023-09-04T12:48:42 1-s2.0-S0021951723001148 S0021-9517(23)00114-8 S0021951723001148 10.1016/j.jcat.2023.03.027 S300 S300.2 FULL-TEXT 1-s2.0-S0021951723X00050 2024-01-19T02:48:25.446448Z 0 0 20230501 20230531 2023 2023-03-22T07:41:08.845391Z absattachment articleinfo articletitlenorm authfirstinitialnorm authfirstsurnamenorm cid cids contenttype copyright crossmark dateloaded dateloadedtxt datesearch datesort dateupdated dco docsubtype doctype doi eid ewtransactionid fundingbodyid hubeid indexeddate issn issnnorm itemstage itemtransactionid itemweight oauserlicense openaccess openarchive pg pgfirst pglast pii piinorm pubdateend pubdatestart pubdatetxt pubyr sectiontitle sortorder sponsoredaccesstype srctitle srctitlenorm srctype ssids alllist content oa subj subheadings suppl tomb volfirst volissue volumelist webpdf webpdfpagecount yearnav figure table e-component body mmlmath acknowledge affil appendices articletitle auth authfirstini authfull authkeywords authlast highlightsabst primabst ref specialabst 0021-9517 00219517 UNLIMITED SPAIN2022 true 421 421 C Volume 421 27 252 263 252 263 202305 May 2023 2023-05-01 2023-05-31 2023 Regular Articles article fla © 2023 The Author(s). Published by Elsevier Inc. THEORETICALSTUDYMECHANISMHYDROGENEVOLUTIONREACTIONV2CMXENETHERMODYNAMICKINETICASPECTS LOPEZ M 1 Introduction 2 Surface models and computational approach 3 Hydrogen evolution reaction mechanism 4 Computational construction of Tafel plots 5 Results and discussion 5.1 The V2C-H case 5.2 The V2C-OH case 5.3 Comparison of active sites and mechanisms 6 Conclusions Acknowledgements Appendix A Supplementary material References IEA 2021 GLOBALENERGYREVIEW2021 CHU 2012 294 303 S NOCERA 2006 15729 15735 D CRABTREE 2004 39 44 G LI 2019 1 9 Y GAO 2016 6290 6294 X WANG 2018 364 371 J DU 2012 6012 6021 P HANSEN 2021 1175 1180 J GUTIC 2020 290 S TAHIR 2017 136 157 M SAMANTA 2022 3794 3818 B ZHONG 2016 1500286 Y CHEN 2013 8896 8909 W CHEN 2013 943 951 W VOIRY 2013 850 855 D WU 2019 6071 6079 L JARAMILLO 2007 100 102 T POPCZUN 2014 5427 5430 E YOON 2020 2469 2477 H POPCZUN 2013 9267 9270 E LIU 2021 2100100 L DONG 2015 12058 12063 R CLOUGH 2015 118 121 A GOGOTSI 2019 8491 8494 Y MORALESGARCIA 2020 13487 13503 A NAGUIB 2012 1322 1331 M NAGUIB 2021 2103393 M GOUVEIA 2022 12541 12552 J LIU 2022 100077 S LIANG 2015 3907 3911 X WANG 2015 6544 X RASOOL 2016 3674 3684 K MORALESSALVADOR 2018 17117 17124 R MORALESGARCIA 2018 3381 3385 A PERSSON 2019 1805472 I LI 2017 10825 10833 N HANDOKO 2019 809 827 A HOU 2022 464002 P BROWNE 2022 101021 M SEH 2016 589 594 Z NORSKOV 2005 J23 J LING 2016 9026 9032 C JIN 2020 10584 10592 D PANDEY 2017 13593 13598 M KANG 2021 6089 6108 Z HANDOKO 2018 173 180 A GAO 2017 494 500 G EXNER 2017 1240 1247 K EXNER 2020 10236 10240 K GOMES 2008 1072 1080 J MIU 2022 6420 6433 E GOUVEIA 2020 118191 J LOPEZ 2021 12850 12857 M GOUVEIA 2020 5049 5056 J LOPEZ 2022 2200217 M TANG 2020 28083 28092 M HOHENBERG 1964 B864 B871 P KOHN 1965 A1133 A1138 W KRESSE 1994 8245 8257 G KRESSE 1996 11169 11186 G KRESSE 1996 15 50 G PERDEW 1996 3865 3868 J GRIMME 2010 154104 S BLOCHL 1994 17953 17979 P KRESSE 1999 1758 1775 G MORALESSALVADOR 2021 11248 11255 R PRATS 2020 12296 12300 H XIE 2013 235441 Y FAJIN 2012 1737 1743 J HENKELMAN 2000 9901 9904 G HEYDEN 2005 224101 A MOMMA 2011 1272 1276 K ZHONG 2022 1 8 G SHENG 2010 B1529 W LEDEZMAYANEZ 2017 17031 I BRULLE 2012 919 934 T GUIDELLI 2014 245 258 R PARSONS 1951 1332 1344 R TAFEL 1905 641 712 J EXNER 2021 e2100037 K EXNER 2018 1864 1879 K NORSKOV 2004 17886 17892 J LUAN 2023 685 693 D SKULASON 2010 18182 18197 E LAMOUREUX 2019 6194 6201 P ZERADJANIN 2016 2256 2269 A KRONBERG 2021 8062 8078 R MORALESGARCIA 2019 23136 23142 A LEVY 1973 547 549 R YOON 2019 1903443 Y LOPEZX2023X252 LOPEZX2023X252X263 LOPEZX2023X252XM LOPEZX2023X252X263XM Full 2023-03-17T15:35:00Z FundingBody Spanish Institutions 2022 http://creativecommons.org/licenses/by/4.0/ 2025-03-29T00:00:00.000Z 2025-03-29T00:00:00.000Z http://creativecommons.org/licenses/by-nc-nd/4.0/ This is an open access article under the CC BY license. © 2023 The Author(s). Published by Elsevier Inc. 2023-03-17T20:18:29.014Z http://vtw.elsevier.com/data/voc/AddOnTypes/50.7/aggregated-refined COST COST http://data.elsevier.com/vocabulary/SciValFunders/501100000921 http://sws.geonames.org/2802361 AEI Agencia Estatal de Investigación http://data.elsevier.com/vocabulary/SciValFunders/501100011033 http://sws.geonames.org/2510769 item S0021-9517(23)00114-8 S0021951723001148 1-s2.0-S0021951723001148 10.1016/j.jcat.2023.03.027 272561 2023-09-04T12:26:12.59844Z 2023-05-01 2023-05-31 UNLIMITED SPAIN2022 1-s2.0-S0021951723001148-main.pdf https://s3-eu-west-1.amazonaws.com/prod-ucs-content-store-eu-west/content/pii:S0021951723001148/MAIN/application/pdf/acca6759b3a421291b687b423bb4f744/main.pdf main.pdf pdf true 1776693 MAIN 12 1-s2.0-S0021951723001148-main_1.png https://s3-eu-west-1.amazonaws.com/prod-ucs-content-store-eu-west/content/pii:S0021951723001148/PREVIEW/image/png/078b2357a1330592c668ab6f8a5f27a7/main_1.png main_1.png png 61494 849 656 IMAGE-WEB-PDF 1 1-s2.0-S0021951723001148-ga1.jpg https://s3-eu-west-1.amazonaws.com/prod-ucs-content-store-eu-west/content/pii:S0021951723001148/ga1/DOWNSAMPLED/image/jpeg/c529b411273096efa78ef29c02cbdde1/ga1.jpg ga1 true ga1.jpg jpg 22755 160 500 IMAGE-DOWNSAMPLED 1-s2.0-S0021951723001148-gr1.jpg https://s3-eu-west-1.amazonaws.com/prod-ucs-content-store-eu-west/content/pii:S0021951723001148/gr1/DOWNSAMPLED/image/jpeg/2c78480ed41e3cd597405c1a315cd8d6/gr1.jpg gr1 gr1.jpg jpg 47492 309 542 IMAGE-DOWNSAMPLED 1-s2.0-S0021951723001148-gr10.jpg https://s3-eu-west-1.amazonaws.com/prod-ucs-content-store-eu-west/content/pii:S0021951723001148/gr10/DOWNSAMPLED/image/jpeg/1acfd0949a4cd04fbd31a0e85d23a9e2/gr10.jpg gr10 gr10.jpg jpg 17855 238 382 IMAGE-DOWNSAMPLED 1-s2.0-S0021951723001148-gr2.jpg https://s3-eu-west-1.amazonaws.com/prod-ucs-content-store-eu-west/content/pii:S0021951723001148/gr2/HIGHRES/image/jpeg/647ac0bbabd802d90ce1fe7dea91402d/gr2.jpg gr2 gr2.jpg jpg 23526 230 373 IMAGE-DOWNSAMPLED 1-s2.0-S0021951723001148-gr3.jpg https://s3-eu-west-1.amazonaws.com/prod-ucs-content-store-eu-west/content/pii:S0021951723001148/gr3/THUMBNAIL/image/jpeg/3299752b1cfd9e82828a50661137c3d3/gr3.jpg gr3 gr3.jpg jpg 36422 217 542 IMAGE-DOWNSAMPLED 1-s2.0-S0021951723001148-gr4.jpg https://s3-eu-west-1.amazonaws.com/prod-ucs-content-store-eu-west/content/pii:S0021951723001148/gr4/THUMBNAIL/image/jpeg/334c5e679fb1a8e3080afe9409e240d5/gr4.jpg gr4 gr4.jpg jpg 48046 509 382 IMAGE-DOWNSAMPLED 1-s2.0-S0021951723001148-gr5.jpg https://s3-eu-west-1.amazonaws.com/prod-ucs-content-store-eu-west/content/pii:S0021951723001148/gr5/DOWNSAMPLED/image/jpeg/bff5e983029b726feddbe1c44a883c5a/gr5.jpg gr5 gr5.jpg jpg 39560 524 382 IMAGE-DOWNSAMPLED 1-s2.0-S0021951723001148-gr6.jpg https://s3-eu-west-1.amazonaws.com/prod-ucs-content-store-eu-west/content/pii:S0021951723001148/gr6/DOWNSAMPLED/image/jpeg/e3b084cb8758ffc5e660df6c465f31b2/gr6.jpg gr6 gr6.jpg jpg 19432 233 382 IMAGE-DOWNSAMPLED 1-s2.0-S0021951723001148-gr7.jpg https://s3-eu-west-1.amazonaws.com/prod-ucs-content-store-eu-west/content/pii:S0021951723001148/gr7/DOWNSAMPLED/image/jpeg/a9efdb8290e51ad466615b004661f67a/gr7.jpg gr7 gr7.jpg jpg 13424 252 382 IMAGE-DOWNSAMPLED 1-s2.0-S0021951723001148-gr8.jpg https://s3-eu-west-1.amazonaws.com/prod-ucs-content-store-eu-west/content/pii:S0021951723001148/gr8/HIGHRES/image/jpeg/d052cdaf4f54c4c4d47c176b228b43e8/gr8.jpg gr8 gr8.jpg jpg 22725 233 382 IMAGE-DOWNSAMPLED 1-s2.0-S0021951723001148-gr9.jpg https://s3-eu-west-1.amazonaws.com/prod-ucs-content-store-eu-west/content/pii:S0021951723001148/gr9/DOWNSAMPLED/image/jpeg/ef1d150c186928f70668699ae406fe32/gr9.jpg gr9 gr9.jpg jpg 17147 237 382 IMAGE-DOWNSAMPLED 1-s2.0-S0021951723001148-ga1.sml https://s3-eu-west-1.amazonaws.com/prod-ucs-content-store-eu-west/content/pii:S0021951723001148/ga1/THUMBNAIL/image/gif/79e171d1aa5799d345011c87ea94afdb/ga1.sml ga1 true ga1.sml sml 6535 70 219 IMAGE-THUMBNAIL 1-s2.0-S0021951723001148-gr1.sml https://s3-eu-west-1.amazonaws.com/prod-ucs-content-store-eu-west/content/pii:S0021951723001148/gr1/THUMBNAIL/image/gif/3dd6f71870584a8855972b96be7de00c/gr1.sml gr1 gr1.sml sml 11660 125 219 IMAGE-THUMBNAIL 1-s2.0-S0021951723001148-gr10.sml https://s3-eu-west-1.amazonaws.com/prod-ucs-content-store-eu-west/content/pii:S0021951723001148/gr10/THUMBNAIL/image/gif/835968b32b0ce1a54c18fb5fa4d4d389/gr10.sml gr10 gr10.sml sml 4285 136 219 IMAGE-THUMBNAIL 1-s2.0-S0021951723001148-gr2.sml https://s3-eu-west-1.amazonaws.com/prod-ucs-content-store-eu-west/content/pii:S0021951723001148/gr2/THUMBNAIL/image/gif/135af3bfa78282df41f687eb565b0f1e/gr2.sml gr2 gr2.sml sml 17233 135 219 IMAGE-THUMBNAIL 1-s2.0-S0021951723001148-gr3.sml https://s3-eu-west-1.amazonaws.com/prod-ucs-content-store-eu-west/content/pii:S0021951723001148/gr3/THUMBNAIL/image/gif/9840d027c8ffd06e61bbcd15b88c3cdf/gr3.sml gr3 gr3.sml sml 9606 88 219 IMAGE-THUMBNAIL 1-s2.0-S0021951723001148-gr4.sml https://s3-eu-west-1.amazonaws.com/prod-ucs-content-store-eu-west/content/pii:S0021951723001148/gr4/THUMBNAIL/image/gif/234d6d2f3c5260980d1823ef52cc6a71/gr4.sml gr4 gr4.sml sml 5956 164 123 IMAGE-THUMBNAIL 1-s2.0-S0021951723001148-gr5.sml https://s3-eu-west-1.amazonaws.com/prod-ucs-content-store-eu-west/content/pii:S0021951723001148/gr5/THUMBNAIL/image/gif/4fca07a652f884dfdf8711d84df9c5bf/gr5.sml gr5 gr5.sml sml 4441 163 119 IMAGE-THUMBNAIL 1-s2.0-S0021951723001148-gr6.sml https://s3-eu-west-1.amazonaws.com/prod-ucs-content-store-eu-west/content/pii:S0021951723001148/gr6/THUMBNAIL/image/gif/b264ec1edb157c03a82753489393fb62/gr6.sml gr6 gr6.sml sml 5953 134 219 IMAGE-THUMBNAIL 1-s2.0-S0021951723001148-gr7.sml https://s3-eu-west-1.amazonaws.com/prod-ucs-content-store-eu-west/content/pii:S0021951723001148/gr7/THUMBNAIL/image/gif/aa549507f8e84dc54191e7493a2d2458/gr7.sml gr7 gr7.sml sml 4037 144 219 IMAGE-THUMBNAIL 1-s2.0-S0021951723001148-gr8.sml https://s3-eu-west-1.amazonaws.com/prod-ucs-content-store-eu-west/content/pii:S0021951723001148/gr8/THUMBNAIL/image/gif/2a30444b6497a76238c2352bbb52c199/gr8.sml gr8 gr8.sml sml 6690 134 219 IMAGE-THUMBNAIL 1-s2.0-S0021951723001148-gr9.sml https://s3-eu-west-1.amazonaws.com/prod-ucs-content-store-eu-west/content/pii:S0021951723001148/gr9/THUMBNAIL/image/gif/56851c4f8a8d39ea6858119a3e0d5e8b/gr9.sml gr9 gr9.sml sml 4629 136 219 IMAGE-THUMBNAIL 1-s2.0-S0021951723001148-ga1_lrg.jpg https://s3-eu-west-1.amazonaws.com/prod-ucs-content-store-eu-west/content/pii:S0021951723001148/HIGHRES/image/jpeg/57bb9461f5c87c5af540b24f6ff20b03/ga1_lrg.jpg ga1 true ga1_lrg.jpg jpg 129003 708 2213 IMAGE-HIGH-RES 1-s2.0-S0021951723001148-gr1_lrg.jpg https://s3-eu-west-1.amazonaws.com/prod-ucs-content-store-eu-west/content/pii:S0021951723001148/HIGHRES/image/jpeg/1ef9c2a133db69380e89ef4737a1ff41/gr1_lrg.jpg gr1 gr1_lrg.jpg jpg 268400 1368 2402 IMAGE-HIGH-RES 1-s2.0-S0021951723001148-gr10_lrg.jpg https://s3-eu-west-1.amazonaws.com/prod-ucs-content-store-eu-west/content/pii:S0021951723001148/HIGHRES/image/jpeg/9fbbd46d41623f5d623e5e477fad5b8e/gr10_lrg.jpg gr10 gr10_lrg.jpg jpg 101707 1054 1693 IMAGE-HIGH-RES 1-s2.0-S0021951723001148-gr2_lrg.jpg https://s3-eu-west-1.amazonaws.com/prod-ucs-content-store-eu-west/content/pii:S0021951723001148/HIGHRES/image/jpeg/5d9ba0d5ac2b0f4afb51b44c00ddbf36/gr2_lrg.jpg gr2 gr2_lrg.jpg jpg 130273 1018 1654 IMAGE-HIGH-RES 1-s2.0-S0021951723001148-gr3_lrg.jpg https://s3-eu-west-1.amazonaws.com/prod-ucs-content-store-eu-west/content/pii:S0021951723001148/HIGHRES/image/jpeg/13aecc7d38c33bc70c0fa311f0a72007/gr3_lrg.jpg gr3 gr3_lrg.jpg jpg 196956 961 2402 IMAGE-HIGH-RES 1-s2.0-S0021951723001148-gr4_lrg.jpg https://s3-eu-west-1.amazonaws.com/prod-ucs-content-store-eu-west/content/pii:S0021951723001148/HIGHRES/image/jpeg/adc91ba88a61956be35fdfe3a0d186eb/gr4_lrg.jpg gr4 gr4_lrg.jpg jpg 274555 2258 1693 IMAGE-HIGH-RES 1-s2.0-S0021951723001148-gr5_lrg.jpg https://s3-eu-west-1.amazonaws.com/prod-ucs-content-store-eu-west/content/pii:S0021951723001148/HIGHRES/image/jpeg/74867dbdcff9a50029eb063b6b9ec352/gr5_lrg.jpg gr5 gr5_lrg.jpg jpg 213474 2323 1693 IMAGE-HIGH-RES 1-s2.0-S0021951723001148-gr6_lrg.jpg https://s3-eu-west-1.amazonaws.com/prod-ucs-content-store-eu-west/content/pii:S0021951723001148/HIGHRES/image/jpeg/f7ebb8fdf93729296a3d6aaa483fdf18/gr6_lrg.jpg gr6 gr6_lrg.jpg jpg 115199 1034 1693 IMAGE-HIGH-RES 1-s2.0-S0021951723001148-gr7_lrg.jpg https://s3-eu-west-1.amazonaws.com/prod-ucs-content-store-eu-west/content/pii:S0021951723001148/HIGHRES/image/jpeg/198770721263658869c70ac1d9f3fa07/gr7_lrg.jpg gr7 gr7_lrg.jpg jpg 79959 1116 1693 IMAGE-HIGH-RES 1-s2.0-S0021951723001148-gr8_lrg.jpg https://s3-eu-west-1.amazonaws.com/prod-ucs-content-store-eu-west/content/pii:S0021951723001148/HIGHRES/image/jpeg/33c1fff593c847309c9ac583e1acce02/gr8_lrg.jpg gr8 gr8_lrg.jpg jpg 130517 1034 1693 IMAGE-HIGH-RES 1-s2.0-S0021951723001148-gr9_lrg.jpg https://s3-eu-west-1.amazonaws.com/prod-ucs-content-store-eu-west/content/pii:S0021951723001148/HIGHRES/image/jpeg/d30f25bb9ecab52ec0e46c1779e097e2/gr9_lrg.jpg gr9 gr9_lrg.jpg jpg 98307 1052 1693 IMAGE-HIGH-RES 1-s2.0-S0021951723001148-mmc1.docx https://s3-eu-west-1.amazonaws.com/prod-ucs-content-store-eu-west/content/pii:S0021951723001148/mmc1/MAIN/application/vnd.openxmlformats-officedocument.wordprocessingml.document/13eae28a4a8ba02e134a9043d4081f17/mmc1.docx mmc1 mmc1.docx docx 3376676 APPLICATION 1-s2.0-S0021951723001148-si1.svg https://s3-eu-west-1.amazonaws.com/prod-ucs-content-store-eu-west/content/pii:S0021951723001148/STRIPIN/image/svg+xml/0237e341d3ad1b6ed984f1ca36d014c9/si1.svg si1 si1.svg svg 1769 ALTIMG 1-s2.0-S0021951723001148-si10.svg https://s3-eu-west-1.amazonaws.com/prod-ucs-content-store-eu-west/content/pii:S0021951723001148/STRIPIN/image/svg+xml/53005606553b394b591e95634a02a439/si10.svg si10 si10.svg svg 4057 ALTIMG 1-s2.0-S0021951723001148-si11.svg https://s3-eu-west-1.amazonaws.com/prod-ucs-content-store-eu-west/content/pii:S0021951723001148/STRIPIN/image/svg+xml/a30b55881b7bd58e809d0cc56e197d5f/si11.svg si11 si11.svg svg 3285 ALTIMG 1-s2.0-S0021951723001148-si12.svg https://s3-eu-west-1.amazonaws.com/prod-ucs-content-store-eu-west/content/pii:S0021951723001148/STRIPIN/image/svg+xml/5068b065d25ff71bcbe5890d831acb43/si12.svg si12 si12.svg svg 5444 ALTIMG 1-s2.0-S0021951723001148-si13.svg https://s3-eu-west-1.amazonaws.com/prod-ucs-content-store-eu-west/content/pii:S0021951723001148/STRIPIN/image/svg+xml/e968152ba2eec3c8ecfb4802e66deaea/si13.svg si13 si13.svg svg 4004 ALTIMG 1-s2.0-S0021951723001148-si14.svg https://s3-eu-west-1.amazonaws.com/prod-ucs-content-store-eu-west/content/pii:S0021951723001148/STRIPIN/image/svg+xml/1bf362f009d8ddc7a105a04b9f22e131/si14.svg si14 si14.svg svg 8057 ALTIMG 1-s2.0-S0021951723001148-si15.svg https://s3-eu-west-1.amazonaws.com/prod-ucs-content-store-eu-west/content/pii:S0021951723001148/STRIPIN/image/svg+xml/781c71cae5e33b9a360355423a3fa67c/si15.svg si15 si15.svg svg 4113 ALTIMG 1-s2.0-S0021951723001148-si16.svg https://s3-eu-west-1.amazonaws.com/prod-ucs-content-store-eu-west/content/pii:S0021951723001148/STRIPIN/image/svg+xml/16a8deba84d13b86261e583c5d4f1061/si16.svg si16 si16.svg svg 8254 ALTIMG 1-s2.0-S0021951723001148-si17.svg https://s3-eu-west-1.amazonaws.com/prod-ucs-content-store-eu-west/content/pii:S0021951723001148/STRIPIN/image/svg+xml/a64b374658f61831a187dbdc9306c0c7/si17.svg si17 si17.svg svg 5857 ALTIMG 1-s2.0-S0021951723001148-si18.svg https://s3-eu-west-1.amazonaws.com/prod-ucs-content-store-eu-west/content/pii:S0021951723001148/STRIPIN/image/svg+xml/8b52ab9ac1c7c8086f1eea457de8a2a2/si18.svg si18 si18.svg svg 3509 ALTIMG 1-s2.0-S0021951723001148-si19.svg https://s3-eu-west-1.amazonaws.com/prod-ucs-content-store-eu-west/content/pii:S0021951723001148/STRIPIN/image/svg+xml/b6604358a861574569a7787e49a2a9c0/si19.svg si19 si19.svg svg 3620 ALTIMG 1-s2.0-S0021951723001148-si2.svg https://s3-eu-west-1.amazonaws.com/prod-ucs-content-store-eu-west/content/pii:S0021951723001148/STRIPIN/image/svg+xml/572caf7d810e55da5eda91a5c168adf7/si2.svg si2 si2.svg svg 1770 ALTIMG 1-s2.0-S0021951723001148-si20.svg https://s3-eu-west-1.amazonaws.com/prod-ucs-content-store-eu-west/content/pii:S0021951723001148/STRIPIN/image/svg+xml/e51785f36c1850fe50b48c1da9ad1b67/si20.svg si20 si20.svg svg 5521 ALTIMG 1-s2.0-S0021951723001148-si21.svg https://s3-eu-west-1.amazonaws.com/prod-ucs-content-store-eu-west/content/pii:S0021951723001148/STRIPIN/image/svg+xml/e05bf17f7ca8d5f18325a5d61875a0b9/si21.svg si21 si21.svg svg 8015 ALTIMG 1-s2.0-S0021951723001148-si22.svg https://s3-eu-west-1.amazonaws.com/prod-ucs-content-store-eu-west/content/pii:S0021951723001148/STRIPIN/image/svg+xml/e03497b5cc2e9a8d18e45e359bac2d42/si22.svg si22 si22.svg svg 3561 ALTIMG 1-s2.0-S0021951723001148-si23.svg https://s3-eu-west-1.amazonaws.com/prod-ucs-content-store-eu-west/content/pii:S0021951723001148/STRIPIN/image/svg+xml/929d07d1d4d8d546a96f5d304991a468/si23.svg si23 si23.svg svg 3444 ALTIMG 1-s2.0-S0021951723001148-si24.svg https://s3-eu-west-1.amazonaws.com/prod-ucs-content-store-eu-west/content/pii:S0021951723001148/STRIPIN/image/svg+xml/69ba5c82a609694324041dcb9157afcd/si24.svg si24 si24.svg svg 10266 ALTIMG 1-s2.0-S0021951723001148-si25.svg https://s3-eu-west-1.amazonaws.com/prod-ucs-content-store-eu-west/content/pii:S0021951723001148/STRIPIN/image/svg+xml/fb335a6b5a84a899f2fceccd31400915/si25.svg si25 si25.svg svg 8937 ALTIMG 1-s2.0-S0021951723001148-si26.svg https://s3-eu-west-1.amazonaws.com/prod-ucs-content-store-eu-west/content/pii:S0021951723001148/STRIPIN/image/svg+xml/c25d08fbb33050650f1890be9e95ea80/si26.svg si26 si26.svg svg 9364 ALTIMG 1-s2.0-S0021951723001148-si27.svg https://s3-eu-west-1.amazonaws.com/prod-ucs-content-store-eu-west/content/pii:S0021951723001148/STRIPIN/image/svg+xml/34b49647d889948b124403249de455e6/si27.svg si27 si27.svg svg 4073 ALTIMG 1-s2.0-S0021951723001148-si28.svg https://s3-eu-west-1.amazonaws.com/prod-ucs-content-store-eu-west/content/pii:S0021951723001148/STRIPIN/image/svg+xml/7667fe47038e4d7c041ea27f13909e73/si28.svg si28 si28.svg svg 12447 ALTIMG 1-s2.0-S0021951723001148-si29.svg https://s3-eu-west-1.amazonaws.com/prod-ucs-content-store-eu-west/content/pii:S0021951723001148/STRIPIN/image/svg+xml/c4699197dd849d95f72c76e7fedb66d3/si29.svg si29 si29.svg svg 4192 ALTIMG 1-s2.0-S0021951723001148-si3.svg https://s3-eu-west-1.amazonaws.com/prod-ucs-content-store-eu-west/content/pii:S0021951723001148/STRIPIN/image/svg+xml/9faaa971dce05a749d125d09443ca917/si3.svg si3 si3.svg svg 17632 ALTIMG 1-s2.0-S0021951723001148-si30.svg https://s3-eu-west-1.amazonaws.com/prod-ucs-content-store-eu-west/content/pii:S0021951723001148/STRIPIN/image/svg+xml/c27cdd41ef871cc6f2d5b4bbdee21cbc/si30.svg si30 si30.svg svg 2724 ALTIMG 1-s2.0-S0021951723001148-si31.svg https://s3-eu-west-1.amazonaws.com/prod-ucs-content-store-eu-west/content/pii:S0021951723001148/STRIPIN/image/svg+xml/2cfb6b840768affd9663b1317a222f69/si31.svg si31 si31.svg svg 1638 ALTIMG 1-s2.0-S0021951723001148-si32.svg https://s3-eu-west-1.amazonaws.com/prod-ucs-content-store-eu-west/content/pii:S0021951723001148/STRIPIN/image/svg+xml/c9d1b4ec1dd1993b7c581f31b7ce4bad/si32.svg si32 si32.svg svg 24639 ALTIMG 1-s2.0-S0021951723001148-si33.svg https://s3-eu-west-1.amazonaws.com/prod-ucs-content-store-eu-west/content/pii:S0021951723001148/STRIPIN/image/svg+xml/078ff0e2583062b957206c0bff56250c/si33.svg si33 si33.svg svg 7514 ALTIMG 1-s2.0-S0021951723001148-si34.svg https://s3-eu-west-1.amazonaws.com/prod-ucs-content-store-eu-west/content/pii:S0021951723001148/STRIPIN/image/svg+xml/b13b07c4a4cd7a9eb1f2faebceb175cd/si34.svg si34 si34.svg svg 8704 ALTIMG 1-s2.0-S0021951723001148-si35.svg https://s3-eu-west-1.amazonaws.com/prod-ucs-content-store-eu-west/content/pii:S0021951723001148/STRIPIN/image/svg+xml/30352b07a962615d7840fc8c1c44c83c/si35.svg si35 si35.svg svg 5176 ALTIMG 1-s2.0-S0021951723001148-si36.svg https://s3-eu-west-1.amazonaws.com/prod-ucs-content-store-eu-west/content/pii:S0021951723001148/STRIPIN/image/svg+xml/5b57d4a1e071ca7b97e078e9f03fdfaa/si36.svg si36 si36.svg svg 5424 ALTIMG 1-s2.0-S0021951723001148-si37.svg https://s3-eu-west-1.amazonaws.com/prod-ucs-content-store-eu-west/content/pii:S0021951723001148/STRIPIN/image/svg+xml/f25ece4fb2e508cc2053f3bd00783556/si37.svg si37 si37.svg svg 5279 ALTIMG 1-s2.0-S0021951723001148-si38.svg https://s3-eu-west-1.amazonaws.com/prod-ucs-content-store-eu-west/content/pii:S0021951723001148/STRIPIN/image/svg+xml/e9186b50929443d978f9f8ca0a3c9852/si38.svg si38 si38.svg svg 5527 ALTIMG 1-s2.0-S0021951723001148-si39.svg https://s3-eu-west-1.amazonaws.com/prod-ucs-content-store-eu-west/content/pii:S0021951723001148/STRIPIN/image/svg+xml/dd31174d085744bda90c82bdd3652b47/si39.svg si39 si39.svg svg 3447 ALTIMG 1-s2.0-S0021951723001148-si4.svg https://s3-eu-west-1.amazonaws.com/prod-ucs-content-store-eu-west/content/pii:S0021951723001148/STRIPIN/image/svg+xml/c95864b5886bd024cfdd9aa9931fd2d1/si4.svg si4 si4.svg svg 17312 ALTIMG 1-s2.0-S0021951723001148-si40.svg https://s3-eu-west-1.amazonaws.com/prod-ucs-content-store-eu-west/content/pii:S0021951723001148/STRIPIN/image/svg+xml/392ea7e28eb66a143c8da97c4783c457/si40.svg si40 si40.svg svg 3779 ALTIMG 1-s2.0-S0021951723001148-si41.svg https://s3-eu-west-1.amazonaws.com/prod-ucs-content-store-eu-west/content/pii:S0021951723001148/STRIPIN/image/svg+xml/300eb8061f3f753ac5691e3fba537c0f/si41.svg si41 si41.svg svg 3174 ALTIMG 1-s2.0-S0021951723001148-si42.svg https://s3-eu-west-1.amazonaws.com/prod-ucs-content-store-eu-west/content/pii:S0021951723001148/STRIPIN/image/svg+xml/6bf91a2d60df82f0355bf4868f65bcc0/si42.svg si42 si42.svg svg 2822 ALTIMG 1-s2.0-S0021951723001148-si43.svg https://s3-eu-west-1.amazonaws.com/prod-ucs-content-store-eu-west/content/pii:S0021951723001148/STRIPIN/image/svg+xml/acd347b2a17b4438892c9f4c489a090d/si43.svg si43 si43.svg svg 4521 ALTIMG 1-s2.0-S0021951723001148-si44.svg https://s3-eu-west-1.amazonaws.com/prod-ucs-content-store-eu-west/content/pii:S0021951723001148/STRIPIN/image/svg+xml/8bac21736d4cf005928ef10dbab32faf/si44.svg si44 si44.svg svg 12739 ALTIMG 1-s2.0-S0021951723001148-si45.svg https://s3-eu-west-1.amazonaws.com/prod-ucs-content-store-eu-west/content/pii:S0021951723001148/STRIPIN/image/svg+xml/661fc938b5eda7b366059fff109b08cc/si45.svg si45 si45.svg svg 10640 ALTIMG 1-s2.0-S0021951723001148-si46.svg https://s3-eu-west-1.amazonaws.com/prod-ucs-content-store-eu-west/content/pii:S0021951723001148/STRIPIN/image/svg+xml/5e45cfd6fd67c351666411390e71346c/si46.svg si46 si46.svg svg 17167 ALTIMG 1-s2.0-S0021951723001148-si47.svg https://s3-eu-west-1.amazonaws.com/prod-ucs-content-store-eu-west/content/pii:S0021951723001148/STRIPIN/image/svg+xml/5a3d4fdb7a9bd50a4a6999de340932c6/si47.svg si47 si47.svg svg 20723 ALTIMG 1-s2.0-S0021951723001148-si48.svg https://s3-eu-west-1.amazonaws.com/prod-ucs-content-store-eu-west/content/pii:S0021951723001148/STRIPIN/image/svg+xml/d054fa06057c821593ce3993c8d57971/si48.svg si48 si48.svg svg 13783 ALTIMG 1-s2.0-S0021951723001148-si49.svg https://s3-eu-west-1.amazonaws.com/prod-ucs-content-store-eu-west/content/pii:S0021951723001148/STRIPIN/image/svg+xml/bd3fe5fbed2fda5f59fb13057be38837/si49.svg si49 si49.svg svg 3760 ALTIMG 1-s2.0-S0021951723001148-si5.svg https://s3-eu-west-1.amazonaws.com/prod-ucs-content-store-eu-west/content/pii:S0021951723001148/STRIPIN/image/svg+xml/bbf243a8efd78a4ae6829607856a0ae0/si5.svg si5 si5.svg svg 20647 ALTIMG 1-s2.0-S0021951723001148-si50.svg https://s3-eu-west-1.amazonaws.com/prod-ucs-content-store-eu-west/content/pii:S0021951723001148/STRIPIN/image/svg+xml/390492c72abcf59cf63496e20dd1503a/si50.svg si50 si50.svg svg 44675 ALTIMG 1-s2.0-S0021951723001148-si51.svg https://s3-eu-west-1.amazonaws.com/prod-ucs-content-store-eu-west/content/pii:S0021951723001148/STRIPIN/image/svg+xml/5e9e2ada9c58c2b523438251dd1bd4b5/si51.svg si51 si51.svg svg 3217 ALTIMG 1-s2.0-S0021951723001148-si52.svg https://s3-eu-west-1.amazonaws.com/prod-ucs-content-store-eu-west/content/pii:S0021951723001148/STRIPIN/image/svg+xml/77acd00de7bd16430173bd7e459cd6c6/si52.svg si52 si52.svg svg 4365 ALTIMG 1-s2.0-S0021951723001148-si53.svg https://s3-eu-west-1.amazonaws.com/prod-ucs-content-store-eu-west/content/pii:S0021951723001148/STRIPIN/image/svg+xml/448f6e90b4be084e57bb8eb32172060b/si53.svg si53 si53.svg svg 17076 ALTIMG 1-s2.0-S0021951723001148-si54.svg https://s3-eu-west-1.amazonaws.com/prod-ucs-content-store-eu-west/content/pii:S0021951723001148/STRIPIN/image/svg+xml/88e444c2257bc6c8befaf2e47a027ea0/si54.svg si54 si54.svg svg 2521 ALTIMG 1-s2.0-S0021951723001148-si55.svg https://s3-eu-west-1.amazonaws.com/prod-ucs-content-store-eu-west/content/pii:S0021951723001148/STRIPIN/image/svg+xml/82efb9c32234e1458e8b91d2a315e68a/si55.svg si55 si55.svg svg 2624 ALTIMG 1-s2.0-S0021951723001148-si56.svg https://s3-eu-west-1.amazonaws.com/prod-ucs-content-store-eu-west/content/pii:S0021951723001148/STRIPIN/image/svg+xml/0b785b5667094b5c10763c3104dce2c8/si56.svg si56 si56.svg svg 3978 ALTIMG 1-s2.0-S0021951723001148-si57.svg https://s3-eu-west-1.amazonaws.com/prod-ucs-content-store-eu-west/content/pii:S0021951723001148/STRIPIN/image/svg+xml/0eb8d27da22e8fe98d2e223285034bfb/si57.svg si57 si57.svg svg 4293 ALTIMG 1-s2.0-S0021951723001148-si58.svg https://s3-eu-west-1.amazonaws.com/prod-ucs-content-store-eu-west/content/pii:S0021951723001148/STRIPIN/image/svg+xml/c2a1c3d4022980be2f8e254a57be51c7/si58.svg si58 si58.svg svg 2233 ALTIMG 1-s2.0-S0021951723001148-si59.svg https://s3-eu-west-1.amazonaws.com/prod-ucs-content-store-eu-west/content/pii:S0021951723001148/STRIPIN/image/svg+xml/0ad06a19dba9725fa35e6cb3b725760e/si59.svg si59 si59.svg svg 3286 ALTIMG 1-s2.0-S0021951723001148-si6.svg https://s3-eu-west-1.amazonaws.com/prod-ucs-content-store-eu-west/content/pii:S0021951723001148/STRIPIN/image/svg+xml/f4c1d5e0a843dc966f147e20a8a65563/si6.svg si6 si6.svg svg 15791 ALTIMG 1-s2.0-S0021951723001148-si60.svg https://s3-eu-west-1.amazonaws.com/prod-ucs-content-store-eu-west/content/pii:S0021951723001148/STRIPIN/image/svg+xml/53f12f2216ee336f67996c806469408f/si60.svg si60 si60.svg svg 4093 ALTIMG 1-s2.0-S0021951723001148-si61.svg https://s3-eu-west-1.amazonaws.com/prod-ucs-content-store-eu-west/content/pii:S0021951723001148/STRIPIN/image/svg+xml/18df7e54a23b100aac7c536983d5b35c/si61.svg si61 si61.svg svg 3978 ALTIMG 1-s2.0-S0021951723001148-si62.svg https://s3-eu-west-1.amazonaws.com/prod-ucs-content-store-eu-west/content/pii:S0021951723001148/STRIPIN/image/svg+xml/93897f62f3bd2140941f5d31d2db9eca/si62.svg si62 si62.svg svg 3956 ALTIMG 1-s2.0-S0021951723001148-si63.svg https://s3-eu-west-1.amazonaws.com/prod-ucs-content-store-eu-west/content/pii:S0021951723001148/STRIPIN/image/svg+xml/ef47a7fe9d6329259505469f6a2784ab/si63.svg si63 si63.svg svg 4073 ALTIMG 1-s2.0-S0021951723001148-si64.svg https://s3-eu-west-1.amazonaws.com/prod-ucs-content-store-eu-west/content/pii:S0021951723001148/STRIPIN/image/svg+xml/89d661f810c7162e842585f52dfdd524/si64.svg si64 si64.svg svg 12800 ALTIMG 1-s2.0-S0021951723001148-si65.svg https://s3-eu-west-1.amazonaws.com/prod-ucs-content-store-eu-west/content/pii:S0021951723001148/STRIPIN/image/svg+xml/8f5de7ffafe91d302ed75241ccd01588/si65.svg si65 si65.svg svg 4504 ALTIMG 1-s2.0-S0021951723001148-si66.svg https://s3-eu-west-1.amazonaws.com/prod-ucs-content-store-eu-west/content/pii:S0021951723001148/STRIPIN/image/svg+xml/7300e701da44a08bb3aacce55d747297/si66.svg si66 si66.svg svg 3956 ALTIMG 1-s2.0-S0021951723001148-si67.svg https://s3-eu-west-1.amazonaws.com/prod-ucs-content-store-eu-west/content/pii:S0021951723001148/STRIPIN/image/svg+xml/7b85f0cc7af307b77a89f0ff670bc690/si67.svg si67 si67.svg svg 4073 ALTIMG 1-s2.0-S0021951723001148-si68.svg https://s3-eu-west-1.amazonaws.com/prod-ucs-content-store-eu-west/content/pii:S0021951723001148/STRIPIN/image/svg+xml/47ce6ea2644d38344751b765762bc39a/si68.svg si68 si68.svg svg 9103 ALTIMG 1-s2.0-S0021951723001148-si69.svg https://s3-eu-west-1.amazonaws.com/prod-ucs-content-store-eu-west/content/pii:S0021951723001148/STRIPIN/image/svg+xml/05a8a4f687842b880a457028ba3e1d6c/si69.svg si69 si69.svg svg 9102 ALTIMG 1-s2.0-S0021951723001148-si7.svg https://s3-eu-west-1.amazonaws.com/prod-ucs-content-store-eu-west/content/pii:S0021951723001148/STRIPIN/image/svg+xml/01fced1b3ff6399c05cb5ddd4573b8cf/si7.svg si7 si7.svg svg 11349 ALTIMG 1-s2.0-S0021951723001148-si70.svg https://s3-eu-west-1.amazonaws.com/prod-ucs-content-store-eu-west/content/pii:S0021951723001148/STRIPIN/image/svg+xml/a55dd4f725c15103bd759500c5bfbea0/si70.svg si70 si70.svg svg 5078 ALTIMG 1-s2.0-S0021951723001148-si71.svg https://s3-eu-west-1.amazonaws.com/prod-ucs-content-store-eu-west/content/pii:S0021951723001148/STRIPIN/image/svg+xml/3c42db2a913a9619ab9c1b0b90003748/si71.svg si71 si71.svg svg 13249 ALTIMG 1-s2.0-S0021951723001148-si72.svg https://s3-eu-west-1.amazonaws.com/prod-ucs-content-store-eu-west/content/pii:S0021951723001148/STRIPIN/image/svg+xml/ff8f9abe527f5346efed87a8b08542d3/si72.svg si72 si72.svg svg 13885 ALTIMG 1-s2.0-S0021951723001148-si73.svg https://s3-eu-west-1.amazonaws.com/prod-ucs-content-store-eu-west/content/pii:S0021951723001148/STRIPIN/image/svg+xml/34339459912ae635afcb90e42344500d/si73.svg si73 si73.svg svg 3196 ALTIMG 1-s2.0-S0021951723001148-si74.svg https://s3-eu-west-1.amazonaws.com/prod-ucs-content-store-eu-west/content/pii:S0021951723001148/STRIPIN/image/svg+xml/62068b19ef4aad89f010736179ddfa76/si74.svg si74 si74.svg svg 9778 ALTIMG 1-s2.0-S0021951723001148-si75.svg https://s3-eu-west-1.amazonaws.com/prod-ucs-content-store-eu-west/content/pii:S0021951723001148/STRIPIN/image/svg+xml/14e1b2726896ec3371cc249282891365/si75.svg si75 si75.svg svg 10213 ALTIMG 1-s2.0-S0021951723001148-si76.svg https://s3-eu-west-1.amazonaws.com/prod-ucs-content-store-eu-west/content/pii:S0021951723001148/STRIPIN/image/svg+xml/a648bc82f57655642fa356d7a4d3c0fd/si76.svg si76 si76.svg svg 29956 ALTIMG 1-s2.0-S0021951723001148-si77.svg https://s3-eu-west-1.amazonaws.com/prod-ucs-content-store-eu-west/content/pii:S0021951723001148/STRIPIN/image/svg+xml/27ca615666c23e643e2bd05e641baa37/si77.svg si77 si77.svg svg 2328 ALTIMG 1-s2.0-S0021951723001148-si78.svg https://s3-eu-west-1.amazonaws.com/prod-ucs-content-store-eu-west/content/pii:S0021951723001148/STRIPIN/image/svg+xml/6a938ec7c064031f4d12a193fa7f4a7d/si78.svg si78 si78.svg svg 24480 ALTIMG 1-s2.0-S0021951723001148-si79.svg https://s3-eu-west-1.amazonaws.com/prod-ucs-content-store-eu-west/content/pii:S0021951723001148/STRIPIN/image/svg+xml/78024ed656dba5787c2079ab9017d316/si79.svg si79 si79.svg svg 3896 ALTIMG 1-s2.0-S0021951723001148-si8.svg https://s3-eu-west-1.amazonaws.com/prod-ucs-content-store-eu-west/content/pii:S0021951723001148/STRIPIN/image/svg+xml/fa30b9982a4feedece65f807c5feab0e/si8.svg si8 si8.svg svg 14853 ALTIMG 1-s2.0-S0021951723001148-si80.svg https://s3-eu-west-1.amazonaws.com/prod-ucs-content-store-eu-west/content/pii:S0021951723001148/STRIPIN/image/svg+xml/c1695b04f69b13e4cbd2a9cf01fbb12c/si80.svg si80 si80.svg svg 17111 ALTIMG 1-s2.0-S0021951723001148-si81.svg https://s3-eu-west-1.amazonaws.com/prod-ucs-content-store-eu-west/content/pii:S0021951723001148/STRIPIN/image/svg+xml/717b6be79300677afafa0d01687163f6/si81.svg si81 si81.svg svg 1562 ALTIMG 1-s2.0-S0021951723001148-si82.svg https://s3-eu-west-1.amazonaws.com/prod-ucs-content-store-eu-west/content/pii:S0021951723001148/STRIPIN/image/svg+xml/b0c8e7b0884c30f55a4b12091653c08b/si82.svg si82 si82.svg svg 22766 ALTIMG 1-s2.0-S0021951723001148-si83.svg https://s3-eu-west-1.amazonaws.com/prod-ucs-content-store-eu-west/content/pii:S0021951723001148/STRIPIN/image/svg+xml/663a37ba2227685682b2400ea99dec7d/si83.svg si83 si83.svg svg 26166 ALTIMG 1-s2.0-S0021951723001148-si84.svg https://s3-eu-west-1.amazonaws.com/prod-ucs-content-store-eu-west/content/pii:S0021951723001148/STRIPIN/image/svg+xml/746870d8d8fadd2de5bb21ca6025fd4e/si84.svg si84 si84.svg svg 24101 ALTIMG 1-s2.0-S0021951723001148-si85.svg https://s3-eu-west-1.amazonaws.com/prod-ucs-content-store-eu-west/content/pii:S0021951723001148/STRIPIN/image/svg+xml/1e620ac2bab8a88592bbd31504e4590d/si85.svg si85 si85.svg svg 18232 ALTIMG 1-s2.0-S0021951723001148-si86.svg https://s3-eu-west-1.amazonaws.com/prod-ucs-content-store-eu-west/content/pii:S0021951723001148/STRIPIN/image/svg+xml/708ec3b8106ff18ad13f0ac7449699e4/si86.svg si86 si86.svg svg 20540 ALTIMG 1-s2.0-S0021951723001148-si87.svg https://s3-eu-west-1.amazonaws.com/prod-ucs-content-store-eu-west/content/pii:S0021951723001148/STRIPIN/image/svg+xml/a9db1ffd269402addb507ab00985cafc/si87.svg si87 si87.svg svg 25093 ALTIMG 1-s2.0-S0021951723001148-si88.svg https://s3-eu-west-1.amazonaws.com/prod-ucs-content-store-eu-west/content/pii:S0021951723001148/STRIPIN/image/svg+xml/027d4d758af12a46d980c37fc0995fef/si88.svg si88 si88.svg svg 4095 ALTIMG 1-s2.0-S0021951723001148-si89.svg https://s3-eu-west-1.amazonaws.com/prod-ucs-content-store-eu-west/content/pii:S0021951723001148/STRIPIN/image/svg+xml/3cafbf6f2ad13ccf88684d104ecb7cda/si89.svg si89 si89.svg svg 25849 ALTIMG 1-s2.0-S0021951723001148-si9.svg https://s3-eu-west-1.amazonaws.com/prod-ucs-content-store-eu-west/content/pii:S0021951723001148/STRIPIN/image/svg+xml/afd1330870e864d735e26062d752e48d/si9.svg si9 si9.svg svg 4656 ALTIMG 1-s2.0-S0021951723001148-si90.svg https://s3-eu-west-1.amazonaws.com/prod-ucs-content-store-eu-west/content/pii:S0021951723001148/STRIPIN/image/svg+xml/a2d1e8ba27e4610641af1709e103e2ae/si90.svg si90 si90.svg svg 22794 ALTIMG 1-s2.0-S0021951723001148-si91.svg https://s3-eu-west-1.amazonaws.com/prod-ucs-content-store-eu-west/content/pii:S0021951723001148/STRIPIN/image/svg+xml/461a01a3f7ce5eba2939149ee591ae15/si91.svg si91 si91.svg svg 19324 ALTIMG 1-s2.0-S0021951723001148-si92.svg https://s3-eu-west-1.amazonaws.com/prod-ucs-content-store-eu-west/content/pii:S0021951723001148/STRIPIN/image/svg+xml/6f17703807134b320321d92abc08ab30/si92.svg si92 si92.svg svg 21332 ALTIMG 1-s2.0-S0021951723001148-si93.svg https://s3-eu-west-1.amazonaws.com/prod-ucs-content-store-eu-west/content/pii:S0021951723001148/STRIPIN/image/svg+xml/4fa3f97e64c73dc5764c2ae2600f4487/si93.svg si93 si93.svg svg 21550 ALTIMG 1-s2.0-S0021951723001148-am.pdf https://s3-eu-west-1.amazonaws.com/prod-ucs-content-store-eu-west/content/egi:10RXL82VH2W/MAIN/application/pdf/ecdaf05c615a19fdff895264567c5e56/am.pdf am am.pdf pdf false 1158633 AAM-PDF YJCAT 14954 S0021-9517(23)00114-8 10.1016/j.jcat.2023.03.027 The Author(s) Fig. 1 Top and side views of the p(3×3) supercells used to represent a V2C (0001) basal surface terminated by H (left) and OH (right) with the surface covered by six water molecules in an ice-shaped structure. Metal atoms at the top and bottom layers are represented by bright and light purple spheres, while C atoms are represented by dark brown spheres. H atoms adsorbed on the surface and on the water layer are shown as white and pink spheres, respectively, with O atoms shown as red spheres. (For interpretation of the references to colour in this figure legend, the reader is referred to the web version of this article.) Fig. 2 Schematic view of the two main HER mechanisms. The cycle with green arrows corresponds to the Volmer-Tafel (VT) mechanism whereas orange arrows refer to the description of Volmer-Heyrovsky (VH). Note that the first step, starting on the top of each cycle is the same for both VT and VH, but the formation of H2 in the VT mechanism is of chemical nature whereas it is an electrochemical step in the VH pathway. Adsorbed H atoms, H+ ions, and electrons are depicted by white, pink, and red spheres, respectively, while the rest of the colour coding is specified in Fig. 1. (For interpretation of the references to colour in this figure legend, the reader is referred to the web version of this article.) Fig. 3 Schematic representation of the initial steps for the HER that are possible for the H* and OH* terminated V2C surface. In case of the V2C-H surface (left image), the Volmer step is the first one because incoming H (shown in pink) can be adsorbed on a vacant surface site (Top). However, the Heyrovsky and Tafel steps are forbidden as the first step because hydrogen at the surface (HollowM) is adsorbed too strongly (e.g. ΔG = -1.05 eV). On the contrary, for the V2C-OH surface (right image), the adsorption sites for H adsorption are sterically blocked by the OH adsorbates on the HollowM position, and consequently, the Volmer step is restrained. Therefore, the mechanistic cycle starts with the release of gaseous hydrogen from the OH groups by a Heyrovsky or a Tafel step. (For interpretation of the references to colour in this figure legend, the reader is referred to the web version of this article.) Fig. 4 Schematic representation of an arbitrarily chosen Gibbs free energy profile based on the V2C-H model for the a) Volmer-Heyrovsky and b) Volmer-Tafel mechanisms at η = 0 V and η = 0.2 V in blue and orange, respectively. The initial state (IS) is depicted in black. The final state (FS) and the reaction intermediate (RI) are depicted by a solid line while transition states (TSs) are marked as # n (n = 1, 2) by dashed lines. GRIx(0) and GRIx(0.2) are the corresponding free energies for the reaction intermediate at η = 0 V and η = 0.2 V, respectively. G rds #(0) and G rds #(0.2) correspond to the transition state with highest free energy in dependence of the applied overpotential. Finally, ΔG 2 # in light blue corresponds to the barrier of the second elementary step in panel a). (For interpretation of the references to colour in this figure legend, the reader is referred to the web version of this article.) Fig. 5 Schematic representation of linear Tafel regimes for an arbitrary chosen Volmer-Tafel mechanism. While in a) the linear regimes derived from all the three steps of the mechanism are depicted, and b) shows the final Tafel plot. Green, red, and blue lines indicate the current density in dependence of the applied overpotential for each elementary step. In the present figure, the 3rd step, in blue, governs the kinetics of the reaction for small overpotentials ( η < 0.1 V) whereas the 1st step, in green, is reconciled with the kinetic bottleneck for larger overpotentials ( η > 0.13 V). Consequently, the Tafel plot of the V-T mechanism consists of two linear regimes. The transition between the two linear regimes, indicating a change in the rate-determining step, is not captured by the quasi-equilibrium assumption. (For interpretation of the references to colour in this figure legend, the reader is referred to the web version of this article.) Fig. 6 Free-energy diagram for the VH-I mechanism over the V2C-H surface at η = 0 V and η = 0.2 V in blue and orange, respectively. While the initial state (IS) is depicted in black, the reaction intermediate (RI) and final state (FS) are indicated by blue solid lines. Transition states (TS) are marked by dashed lines. (For interpretation of the references to colour in this figure legend, the reader is referred to the web version of this article.) Fig. 7 Simulated Tafel plot of the HER over V2C-H via the Volmer-Heyrovsky mechanism as obtained from the free-energy landscape of Fig. 6. Given that the first transition state of the mechanism is higher in free energy than the second transition state, the mechanism is limited by a single step, and hence, the Tafel plot reveals a single linear regime. Fig. 8 Free-energy diagram for the Volmer-Tafel mechanism at η = 0 V and η = 0.2 V in blue and orange, respectively. While the initial state (IS) is depicted in black, the reaction intermediate (RI) and final state (FS) are indicated by blue solid lines. Transition states (TS) are marked by dashed lines. (For interpretation of the references to colour in this figure legend, the reader is referred to the web version of this article.) Fig. 9 Simulated Tafel plot of the HER over V2C-H via the Volmer-Tafel mechanism as obtained from the free-energy landscape of Fig. 8. Two linear regimes are obtained in that the second Volmer steps limits the rate for small overpotentials whereas the first Volmer step becomes rate determining for large overpotentials. Fig. 10 Simulated Tafel plots of the HER over V2C-H via the Volmer-Heyrovsky and Volmer-Tafel mechanisms in blue and black, respectively as obtained from the free-energy landscape of Figs. 6 and 8. For small applied overpotential, η 0.07 V, the Volmer- Heyrovsky mechanism is kinetically preferred whereas for larger overpotentials the Volmer-Tafel mechanism describes the reaction rate. (For interpretation of the references to colour in this figure legend, the reader is referred to the web version of this article.) Table 1 Description of the five HER mechanisms over V2C considered in the present study. The mechanism column defines the label for the studied Volmer-Heyrovsky (VH) and Volmer-Tafel (VT) mechanisms. The last three columns correspond to the order of the steps for each pathway. MXene Mechanism Step I Step II Step III V2C-H VH-I Volmer Step Heyrovsky Step VT-I Volmer Step Volmer Step Tafel Step VT-II Volmer Step Tafel Step Volmer Step V2C-OH VH-II Heyrovsky Step Volmer Step VT-III Tafel Step Volmer Step Volmer Step Theoretical study of the mechanism of the hydrogen evolution reaction on the V2C MXene: Thermodynamic and kinetic aspects Martí López a Kai S. Exner b c d ⁎ Francesc Viñes a ⁎ Francesc Illas a a Departament de Ciència de Materials i Química Física & Institut de Química Teòrica i Computacional (IQTCUB), Universitat de Barcelona, c/ Martí i Franqués 1-11, Barcelona 08028, Spain Departament de Ciència de Materials i Química Física & Institut de Química Teòrica i Computacional (IQTCUB) Universitat de Barcelona c/ Martí i Franqués 1-11 Barcelona 08028 Spain Departament de Ciència de Materials i Química Física & Institut de Química Teòrica i Computacional (IQTCUB), Universitat de Barcelona, c/ Martí i Franqués 1-11, Barcelona 08028, Spain b University Duisburg-Essen, Faculty of Chemistry, Theoretical Inorganic Chemistry, Universitätsstraße 5, 45141 Essen, Germany University Duisburg-Essen, Faculty of Chemistry, Theoretical Inorganic Chemistry Universitätsstraße 5 45141 Essen Germany University Duisburg-Essen, Faculty of Chemistry, Theoretical Inorganic Chemistry, Universitätsstraße 5, 45141 Essen, Germany c Cluster of Excellence RESOLV, Bochum, Germany Cluster of Excellence RESOLV Bochum Germany Cluster of Excellence RESOLV, Bochum, Germany d Center for Nanointegration (CENIDE) Duisburg-Essen, Duisburg, Germany Center for Nanointegration (CENIDE) Duisburg-Essen Duisburg Germany Center for Nanointegration (CENIDE) Duisburg-Essen, Duisburg, Germany ⁎ Corresponding authors. Graphical abstract Both experimentally and theoretically, the MXene family has shown promising hydrogen evolution reaction (HER) capabilities. However, so far, the theoretical approach has been relying on the well-known thermodynamic descriptor, ΔG H, whereas experimental studies report Tafel plots, containing kinetic rather than thermodynamic information. Aiming to link theory to experiments, the present study explores five different HER pathways over the exemplary V2C (0001) MXene by density functional theory calculations. While the surface coverage under HER conditions (with either H* or OH* adsorbates) is extracted from a Pourbaix diagram, we determine the energetics of the reaction intermediates and transition states for both surface species as active sites. This enables the construction of free-energy diagrams for the Volmer-Heyrovsky and Volmer-Tafel mechanisms and allows for the simulation of Tafel plots by a rigorous microkinetic framework. While the active-site motif V2C-OH seems to be less relevant for the HER under typical reaction conditions, we demonstrate that the HER is kinetically facile on the V2C-H surface. For this surface termination, we report a potential-depending switching of the preferred mechanism from the Volmer-Heyrovsky to the Volmer-Tafel description with increasing overpotential while encountering similarities to the HER over Pt. Keywords V2C MXene Density functional calculations Hydrogen evolution reaction Kinetics Tafel plots Data availability Data will be made available on request. 1 Introduction Our society is demanding an urgent socioeconomic transformation to face the many issues arising from forthcoming climate emergencies [1–4]. The increasing energetic demand [5] together with the necessity of reducing our dependency on fossil fuels drives the scientific and technological community to look for environmentally sustainable alternatives [6,7]. Among all the alternative energy sources, the use of molecular hydrogen has attracted a considerable attention due to its multiple capabilities in energy storage or for its direct usage replacing the nowadays employed fossil fuels [8–10]. Water splitting is a key reaction towards the production of green hydrogen, where the hydrogen evolution (HER) and oxygen evolution (OER) reactions take place at the cathode and anode of an electrolyzer, respectively [11–13]. However, these technologies still present few setbacks for their large scale application. Currently, the scarce and expensive Pt- and Ir/Ru-based materials are among the best catalysts for HER [14,15] and OER [16], respectively, and consequently, materials based on non-scarce metals are called for to replace Pt- and Ir/Ru-based materials [17]. Currently, materials based on earth-abundant elements are being tested as alternatives to Pt-based catalysts for HER, such as transition-metal carbides (TMCs) and nitrides (TMNs) [18–20] transition-metal sulphides [21–23], phosphides [24–26], or metallic organic frameworks (MOFs) [27] such as Ni-THT [28], Co-BHT, and Co-THT [29]. Among them, a new family of 2D materials, named MXenes [30], is raising considerable expectation [31]. While MXenes are strongly related to TMCs and TMNs in terms of composition, they are structurally very different as MXenes contain a few atomic layers only [32]. Most MXenes adhere to the general formula Mn+1Xn, where M stands for a metal, usually an early transition metal from groups IV to VI (M = Ti, Zr, Hf, V, Nb, Ta, Cr, Mo, W…) while X stands for carbon or nitrogen. Depending on the synthesis, the surfaces of MXenes are functionalized with groups such as -O, –OH, -H, and -F, and these are normally referred to as Mn+1XnTx, where Tx indicates the termination on both metal surfaces of each MXene sheet. In addition, there are new members of the family involving different metals [33] and even MXenes have been proposed where metal and C and N layers can alternate [34]. Meanwhile, MXenes have multiple applications in batteries [35,36], as supercapacitors [37], in antibacterial activity [38], in CO2 abatement technologies [39–42], and for multiple electrocatalytic processes [43] such as the HER, but also equally discussed as electrocatalysts for the OER [44,45]. Relating to the HER activity of MXenes, Seh et al. [46] investigated the suitability of the broadly used Gibbs free energy of hydrogen adsorption, ΔG H [47], to evaluate the electrocatalytic performance of several O-terminated early transition metal MXenes, such as Sc2CO2, V3C2O2, Cr2CO2, Mo2CO2, Mo4C3O2, Cr2NO2, Nb2NO2. Subsequent studies explored an even wider range of MXenes, also addressing the HER activity of these materials [48–51]. In particular, Ling et al. [48] proposed the net charge on the atom(s) directly interacting with adsorbed H as an alternative descriptor, yet this charge is indeed dependent on the MXene Tx termination, as already mentioned. Additionally, the effect of termination on HER activity has been studied in detail by Hondoko et al. [52] pointing out that F-terminated MXenes tend to exhibit a lower HER catalytic activity than the O-terminated counterparts [52]. This led to identify the exposed terminal O as the active sites of the HER over MXenes [53], suggesting that freshly exfoliated MXenes are not active catalysts for the HER and that some surface functionalization is needed. Despite the considerable number of studies that aim to comprehend the HER activity of MXenes, including the most recent review [44], so far all theoretical studies rely on thermodynamic considerations only, thus neglecting the effect of the kinetics in the HER. However, the thermodynamic approach may not suffice to explain experimental results in all cases, particularly not if the tacit precondition of Brønsted − Evans − Polanyi relation, which couples the thermodynamic to the kinetic picture, is violated [54–56]. In the present work we present a comprehensive study where, for the first time, the kinetics of the HER over V2C, taken as an exemplary case of the MXene family, is accounted for besides the thermodynamic picture. This is achieved by the coupling of first-principles calculations in the density functional theory (DFT) approximation, including the determination of transition states, with microkinetic considerations to simulate Tafel plots that can be compared to experiments, a methodology successfully applied in the study of HER over metal oxide systems [57]. 2 Surface models and computational approach The V2C (0001) basal surface is modelled by a p(3×3) supercell with three atomic layers stacked in ABC fashion, as in previous works on similar MXenes, see Fig. 1 [39,40,58–60]. The upper and lower layers contain just V atoms whereas C atoms are placed in the middle layer. A vacuum width of around 12 Å along the z direction is added to the supercell to avoid interaction between interleaved MXenes; this is a technicality arising from the use of a computational code that exploits periodic boundary conditions. The surface termination of the V2C MXene is chosen by inspecting the corresponding Pourbaix diagram as obtained from theoretical calculations [44]. While most works consider a single surface termination only, a recent study considering various adsorbates, including mixed phases [61], showed that the most stable surface coverage is predicted to contain 2/3 and 1/3 of surface sites having adsorbed O* and OH* (2/3O* + 1/3OH*), respectively under HER conditions, in all cases with adsorbates on their most stable HollowM adsorption sites. Accordingly, this surface phase has been adopted as the starting model to explore the HER kinetics. Nevertheless, only when an overpotential is applied, a turnover in terms of hydrogen formation is observed. In the case of V2C, at an applied electrode potential of –0.5 V vs. the reversible hydrogen electrode (RHE), the most stable surface is fully covered by adsorbed H*, again on HollowM, and this surface phase is included as second model in our study. We also considered the case with full OH* coverage even if a previous work suggests that this situation is not thermodynamically favoured at any pH or potential conditions [61]. This is because, most often, the simulated surface Pourbaix diagrams do not account for the effect of the surrounding solvent. Therefore, to account for the aqueous electrochemical environment, we have added six molecules of water to the surface of the (2/3O* + 1/3OH*) phase. The atomic structure of the adsorbed water is reminiscent of the ice-like structure, which has already been successfully applied to study the HER kinetics in other systems [62,63]. The explicit water molecules layer includes one extra hydrogen, i.e. a H3O moiety, to prompt the H adsorption. In the computational models with the initial (2/3O* + 1/3OH*) surface coverage, this leads to a new situation where the surface is fully covered with OH* groups, and this is the reason why the HER kinetics over the fully OH*-covered surface is investigated in the present study as well. The present theoretical study of the HER kinetics and reaction mechanisms over V2C is based on calculations carried out in the framework of density functional theory (DFT) [64,65] using the Vienna ab-initio simulation package (VASP) [66–68]. The Perdew-Burke-Erzenhof (PBE) form of the exchange–correlation potential was used [69] including dispersion effects through the Grimme’s D3 approach [70]. The electronic density of the valence electrons was expanded using a plane-wave basis set with an energy cut off of 415 eV. The effect of the core electrons on the valence electron density is accounted for through the projector augmented wave (PAW) approach of Blöchl [71], as implemented in VASP by Kresse and Joubert [72]. A value of 10-5 eV was set as a convergence criterion for the electronic energy optimization together with a threshold of 0.01 Å−1 for the atomic forces acting on every single atom of the system. For the calculations, the partial occupancies of the orbitals are considered by the tetrahedron method with Blöchl corrections. Consequently, a Γ-centered k-mesh of 5×5×1 dimensions was used to sample the Brillouin zone for the numerical integration in the reciprocal space. At convergence, the total energy was extrapolated to 0 K. Spin polarization was not considered as no magnetism was reported for V2C [73–75], and spin polarization has negligible impact on the reaction profiles of nonmagnetic materials [76]. Nevertheless, test calculations for the reaction profile relevant structure revealed that, even starting from a spin-polarization trial density, the variational self-consistent field procedure always converges to the closed shell, non-spin polarized solution. To locate the transition state (TS) structures along the possible reaction paths, we used the climbing-image nudged elastic band [77] (CI-NEB) and the improved dimer method [78], depending on each single geometrical structure. All the identified TS were characterized by proper frequency analysis, carried out by Hessian matrix construction and diagonalization. We used finite displacements of 0.03 Å in length, verifying that in each case, only one imaginary frequency was present. The structures of interest displayed in this work were represented using the VESTA code [79]. 3 Hydrogen evolution reaction mechanism Strongly acidic solutions are preferably used to carry out the HER, although it is occasionally examined in buffered solutions with an intermediate pH or under alkaline conditions. Considering the ice-like water layer as a proton donor, we refer to the acidic HER equilibrium: (1) 2 H + + 2 e - ⇌ H 2 , U 0 = 0 V v s . R H E Here we assume a H+ activity of one, corresponding to pH = 0. Note, however that HER performance may vary as a function of pH [80], yet the HER is found to be more sluggish at higher pH values. Indeed, on Pt reference electrode, low pH has been found to favor a Tafel-step control of the kinetics, while higher pH favors Volmer-step control, see below. Two reaction mechanisms are frequently discussed in the literature, denoted as Volmer-Heyrovsky (VH) and Volmer-Tafel (VT) [81,82]; their representation is given in Fig. 2 . Both mechanisms have in common that hydrogen is adsorbed on the electrode within the electrochemical Volmer (cf. Eq. (2)), but they differ in the second step. In the VH mechanism, the Heyrovsky step is also of electrochemical nature (cf. Eq. (3)), in that the adsorbed hydrogen species recombines with another proton from the electrolyte solution to release a single H2 molecule. On the contrary, the VT mechanism consists of two subsequent Volmer steps and the Tafel step of Eq. (4), a chemical recombination step of the two adjacent hydrogen adsorbates to form H2. (2) Volmer step : H + + e - + ∗ → H ∗ , (3) Heyrovsky step : H + + e - + H ∗ → ∗ + H 2 , (4) Tafel step : 2 H ∗ → ∗ + H 2 Given that our V2C surface models under HER conditions contain already adsorbed hydrogen atoms, some additional considerations are needed. As such, the HER can also proceed starting with the Heyrovsky step to produce H2 using the surface hydrogen without needing an initial Volmer step. Table 1 describes the sequence of steps for the HER mechanisms examined in the current study, employing the two alternative terminations mentioned above and the same line of thought. Nonetheless, based on the terminations considered, not all the mechanisms resulting from combining these steps are allowed. For instance, in the H-terminated MXene (Tx = H), a H from the water layer can bond the metal V Top site and thus any mechanism starting with a Volmer step will be allowed. However, the hydrogen atoms absorbed at HollowM sites that are present in the initial termination are strongly adsorbed (i.e. ΔG = -1.05 eV). Consequently, these H atoms cannot be used as a hydrogen source for the HER, and therefore, mechanisms starting with a Heyrovsky or Tafel step cannot proceed and are not considered (cf. Fig. 3 ). In contrast, on the fully OH-terminated V2C surface, the V Top sites are sterically blocked by the OH groups, thus leaving no free adsorption sites for the H atoms. In contrast to the case of the V2C-H surface, the mechanisms cannot start with a Volmer step. On the other hand, the H atoms from the surface OH groups are exposed and can be combined to one hydrogen from the water layer via one Heyrovsky step or, alternatively, can form a H2 molecule with another H from the surface OH via one Tafel step as schematically shown in Fig. 3. We would like to emphasize that the approximation of the ice-like water layer as hydrogen source on top of the V2C surface requires caution and, instead of referring to the lowest energy path, we investigated a representative number of options and computed the free-energy diagrams using an average over these paths to reduce possible artifacts. To finally predict the most favourable mechanism, the free-energy diagrams of all the elementary steps and mechanisms are estimated as indicated in the below. Fig. 4 depicts an example of the free-energy diagram for the conventional VH and VT mechanisms at η = 0 V and 0.2 V over the V2C-H example; for simplicity, we refer to the absolute value of the HER overpotential in the following even though cathodic overpotentials are formally negative. The free-energy landscape of the HER is directly affected by an increase in the applied overpotential, and the free energies of the reaction intermediates (RI) and transition states are lowered in dependence of the number of electrons (n) transferred according to Eq. (5) and Eq. (6). In the case of TS, the charge transfer between the two involved states is considered not to be complete, which is characterized by the transfer coefficient, α. Its specific value is usually unknown but for a one-electron transfer step, such as encountered with the Volmer and Heyrovsky steps, α is approximated to be 1/2 based on experimental evidence of HER performance on Pt [83], and a usual choice [84]. (5) Δ G η = Δ G 0 - n ∙ e ∙ η , (6) Δ G # η = Δ G # 0 - n + α ∙ e ∙ η . In equations (5) and (6), Δ G η and Δ G 0 denote the free-energy changes from the initial state (e.g., starting surface) to the final state (e.g., reaction intermediate or product H2) at zero overpotential or any arbitrary η value, respectively. Similarly, Δ G # is the free-energy change from the initial state to a TS, and n or e indicate the number of electrons transferred or the elementary charge, respectively. Based on this framework, the free-energy profile of the VH mechanism is modified in such a way that the Gibbs free energy of TS #1 is reduced by α 1 ∙ e ∙ η and that of RI by 1 ∙ e ∙ η , TS #2 is lowered by ( 1 + α 2 ) ∙ e ∙ η and the product state by 2 ∙ e ∙ η , see Fig. 4a. In a similar way, for the free-energy profile corresponding to the VT mechanism, the first steps are equally affected in that the values for #1 is reduced by α 1 ∙ e ∙ η , that of RI1 by 1 ∙ e ∙ η , that of #2 by (1+ α 2 ) ∙ e ∙ η , while for RI2, #3, and the product state the Gibbs free energy is reduced by 2 ∙ e ∙ η , as no more electrons are transferred in the Tafel step, see Fig. 4b. Recent works on the free-energy landscape in electrocatalysis have demonstrated that not the highest free-energy barrier, Δ G # , but rather the TS with the highest free energy, G rds # , governs the kinetics of the overall reaction [74,85 74]. For the HER, G rds # is either given by the free-energy difference between TS #1 and the starting surface ( G 1 # ) or between TS #2 and the starting surface ( G 2 # ). As such, the free-energy barriers in the free-energy diagram corresponding to the Volmer-Heyrovsky mechanism are related to the respective TS free energies in Eqs. (7) and (8): (7) G 1 # = Δ G 1 # , (8) G 2 # = Δ G 2 # + Δ G RI . Inspecting the free-energy profile of Fig. 4a, it turns out that G 2 # corresponds to G rds # at η = 0 V whereas G 1 # is met with G rds # at η = 0.2 V. Similarly, for the VT free-energy profile one can define G 1 # , G 2 # , and G 3 # by referring to Eqs. (9)-(11); (9) G 1 # = Δ G 1 # , (10) G 2 # = Δ G 2 # + Δ G R I 1 , (11) G 3 # = Δ G 3 # + Δ G R I 2 . Fig. 4b reveals that G 3 # and G 1 # are encountered with G rds # at η = 0 V and η = 0.2 V, respectively. 4 Computational construction of Tafel plots Tafel plots indicate the rate of an electrochemical reaction, estimated from the current density, in dependence of the applied overpotential, serving as the driving force for the process. Commonly, a logarithmic plot is used in that the log10 of the current density, j, is applied. This finding can be traced to the Tafel equation, which can be derived as approximation for sufficiently large overpotentials from the Butler-Volmer theory [85,86]: (12) log 10 j ( η ) = log 10 j 0 + η b , where j ( η ) and j 0 are the current density as a function of the overpotential η , and the exchange current density, respectively, and b denotes the Tafel slope. The Tafel slope contains information about the transfer coefficient which plays an important role for the reaction kinetics relating to the TS (cf. Eq. (6)). While the analysis and interpretation of Tafel plots can offer valuable insight into the elementary reaction steps and kinetics, it is not straightforward to translate the energetic picture in terms of the free-energy landscape (cf. Fig. 4) into a Tafel plot. This requires several assumptions which are discussed in the following. The first aspect refers to the description of the RI coverage. The two common approximations refer to the quasi-equilibrium and steady-state assumptions. The quasi-equilibrium approximation, based on thermodynamic considerations in terms of the law of mass action, assumes that the coverage of the RI remains essentially constant upon increasing overpotential, and thus, the quasi-equilibrium model is only a good choice if coverages are not prone to change. Yet, it was demonstrated that quasi-equilibrium is a valid approximation if there is a single linear regime in the Tafel plot [77]. In case of the steady-state approximation, the RI coverage is described by the rate constants (kinetics) of the elementary steps, thereby taking alterations in the RI concentration on the electrode surface with increasing overpotential into account. Considering the VH mechanism as depicted in Fig. 3a, the time-dependent RI concentration as a function of the applied overpotential is described by Eq. (13): (13) d ( [ R I ] ) dt η = k 1 η ∙ I S + k - 2 η ∙ F S - k - 1 η ∙ R I - k 2 η ∙ R I , which is deduced from the elementary steps of Eqs. (14) and (15): (14) I S k 1 ⇌ k - 1 R I (15) R I k 2 ⇌ k - 2 F S In the above equations, k 1 η and k -1 η are the forward and backward rate constants of the elementary step in Eq. 14; equally, k 2 η and k -2 η correspond to the forward and backward rate constants of the step in Eq. 15. IS , FS , and RI are the concentrations of the initial state, final state, and the reaction intermediate, respectively. We would like to emphasize that we omitted the activity of the reactant (H+) in the microkinetic expression of Eq. 13. This is due to the assumption of a H + = 1, vide supra, emphasizing that our model is dedicated to the HER kinetics in acidic conditions. Please note that depending on the surface configuration of V2C (cf. Table 1), the IS can be either a metal atom, *, or adsorbed hydrogen, *-H. This renders whether the RI corresponds to *-H or * + H2, respectively. Given that all the RIs within the HER are adsorbed species, we can relate their concentrations to their coverage at the electrode surface. In this context, we redefine IS and FS as θ S , and [RI] as θ S - H , where θ S and θ S - H correspond to the coverage of vacant sites or the coverage of adsorbed hydrogen on the MXene surface. Considering the balance of active sites and the steady-state approximation, the two conditions of Eq. (16) and Eq. (17) must be fulfilled. (16) d ( [ R I ] ) dt η = 0 , (17) θ S η + θ S - H η = 1 , where the definition or reaction rate is (18) r η = d H 2 dt = k 2 η ∙ θ S - H η - k - 2 η ∙ θ S η . With this, one can rewrite the reaction rate expression in Eq. (13) as; (19) r η = k 1 η ∙ k 2 η k 1 η + k - 1 η + k 2 η + k - 2 η - k - 1 η ∙ k - 2 η k 1 η + k - 1 η + k 2 η + k - 2 η . Finally, we apply Faraday’s law to obtain the current density in dependence of the applied overpotential: (20) j η = n ∙ e ∙ r η ∙ Γ act . The substitution of the expression of r ( η ) in Eq. (19) into Eq. (20) leads, after some algebra, to Eq. (21). We additionally make use of the assumption that only the forward reaction is accounted for in the Tafel regime ( η > 0.03 V) [87], because the overpotential applied is large enough to fairly neglect the backward reaction. (21) j η = 2 k B T e Γ act h ∙ e x p α 1 + α 2 η e k B T e x p G 1 # + α 2 η e k B T + e x p G 2 # - 1 - α 1 η e k B T + e x p G 2 # - Δ G RI + α 1 η e k B T , where k B is Boltzmann’s constant, T the temperature in Kelvin, h is Planck’s constant, e is the elementary charge, Γ act is the density of active sites in cm−2, defined as Γ act = n ° of sites surface area , α 1 and α 2 are the transfer coefficients of the first and second steps, G 1 # and G 2 # are the TS free energies of the first and second step (cf. equations (7) and (8)), and finally, Δ G RI corresponds to the free energy of the reaction intermediate at η = 0. In order to facilitate the calculations and to compare them to experimental values, j η is not expressed in the international system units but in A/cm−2. Please note that the evaluation of Eq. (21) requires knowledge of both the energetics of the thermodynamics and kinetics in terms of Δ G and Δ G # , respectively. Based on the evaluation of Eq. (21), it becomes possible to simulate Tafel plots in dependence of the applied overpotential and to correlate the Tafel lines to the rate-determining step, as obtained from free-energy diagrams (cf. Fig. 4). However, for reactions with more steps as VT, the steady-state assumption requires a more complex expression since more RIs are involved. Yet, the quasi-equilibrium approach offers a simple alternative to simulate the Tafel plot for the VT mechanism. While the quasi-equilibrium approximation is not able to capture the transitions between linear Tafel regimes, indicating a change in the rate-determining step of the reaction, it can fairly estimate each linear region individually [88]. Thus, by applying the quasi-equilibrium analysis to each TS allows obtaining three linear regimes, and the least favourable regime is reconciled with the rate-determining step in dependence of the applied overpotential, see Fig. 5 . The preceding discussion illustrates that the simulation of Tafel plots requires the knowledge of various quantities, such as Δ G and G s # for the RIs and TSs, respectively. These terms are obtained by DFT calculations, analysing the difference in Gibbs free energies for each individual steps. At zero overpotential, Δ G R I , Δ G 1 # and Δ G 2 # are obtained from Eq. (21): (22) Δ G = Δ E TOT + Δ E ZPE - T Δ S For a free-energy change between two intermediate states, Δ G RI , Δ E T O T refers to the energy difference between the initial and final states whereas for the free-energy barriers Δ G 1 # and Δ G 2 # , Δ E T O T correspond to the energy difference between the initial state and the first or the RI and second TS, respectively. In general, for processes involving n steps the total free-energy difference from n-1 to n is obtained according to Eq. (23) and (24) for RIs and TSs, respectively. (23) Δ E TOT = E n - E n - 1 , or, (24) Δ E TOT # = E n # - E n - 1 In Eq. (22), Δ E ZPE corresponds to the zero-point energy difference between two consecutive steps, n-1 and n. In the present study we computed the Δ E ZPE for the two different surfaces in a slightly different way. For V2C-H we assume that the vibrations of the water layer and the H adsorbate involved in the RIs are decoupled from the vibrations of the MXene, including the H layer of the termination. Therefore, the frequencies taken explicitly into account are those from the extra H and of the water layer. However, for the V2C-OH surface, the vibrations of the OH from the MXene termination are accounted for. The reason for such difference is the nature of the RIs involved on the different MXenes. In the case of V2C-H, the H involved in the RIs are adsorbed on V Top site, and the vibrations can be safely decoupled from those of the rest of the MXene, including the termination. However, in the case of V2C-OH, the RIs directly involve the H atoms form the OH termination and thus, they must be included. Therefore, the Δ E ZPE term is computed within the harmonic approximation, as given in Eqs. (25) and (26); (25) Δ E ZPE = ZPE n - ZPE n - 1 , or, (26) Δ E ZPE # = ZPE n # - ZPE n - 1 , and similarly, we can obtain the entropy corrections T Δ S , see Eqs. (27) and (28); (27) T Δ S = TS n - TS n - 1 , or, (28) T Δ S # = TS n # - TS n - 1 . The entropy containing term in Eqs. (27) and (28) is computed by Eq. (29) [61]; (29) TS = k B N A T ∑ i n h v i / k B T e h v i / k B T - 1 - ln ( 1 - e - h v i / k B T ) , where besides the variables described already in Eq. (21), N A is the Avogadro number and v i correspond to the vibrational frequencies of the same normal modes considered in the ZPE calculation. While the DFT calculations are performed for zero electrode potential, we make use of the computational hydrogen electrode (CHE) [89] approach, to describe the potential dependence on the RHE scale. This framework couples the total energy, the zero-point energy, and entropy of the hydrated proton and electron to half of the free energy of a gaseous H2 molecule. This equilibrium is met for a pressure of 1 bar of H2 in a solution of protons with activity 1 at 298.15 K: (30) H ( a q ) + + e - ⇌ 1 2 H 2 ( g ) , @ U = 0 V v s . R H E , since in equilibrium Δ G = 0 is fulfilled, it can be concluded: (31) G H a q + + G e - = 1 2 G H 2 g . Based on the introduced framework, application of Eq. (21) allows compiling Tafel plots for the different HER mechanisms. Note that to compute the Tafel plot, positive values of the current density j , are required due to its logarithmic representation in the Tafel plot. Thus, we recall that we use the absolute values of the current density and applied overpotential for the discussion of the elementary processes in the HER in the following. Finally, a comment is needed on the description of the electrochemical environment within the DFT calculations. While canonical DFT calculations may inappropriately capture free-energy differences by comparing initial, transition, and final states at constant charge instead of constant potential [90], the grand canonical framework may require the evaluation of surface phases with varying H* coverage to keep the electrode potential constant [91]. Since our MXene phases are fully hydrogenated under acidic HER conditions, the approach of a varying H* coverage is not applicable to reach constant potential conditions. Note also that many of the recent theoretical studies still apply constant charge calculations and use a correction term to reach a constant potential description [90,92,93]. Given that there is no consensus in the literature on the aptitude and error bars of the various modifications proposed, we stay with the canonical formalism even if this does not represent the electrochemical environment. However, this methodology allows resolving the HER kinetics in a qualitative fashion, and the derived conclusions in our manuscript are robust due to the significant free-energy differences between the -H* and –OH* covered surfaces. 5 Results and discussion To simplify the discussion, the results for V2C-H and V2C-OH are presented separately and, for each case, the different mechanisms are discussed one after the other. 5.1 The V2C-H case We start by considering the Volmer Heyrovsky I (VH-I) path by recalling its mechanistic description according to Eqs. (32) and (33): (32) Volmer s tep : H 3 O + + e - + M ∗ ⇌ M - H + H 2 O , (33) Heyrovsky s tep : H 3 O + + e - + M - H ⇌ M ∗ + H 2 + H 2 O . In Eqs. (32) and (33), M* indicates a vacant top site at the water covered V2C-H surface. In the first step, one hydrogen is adsorbed at the top site on the surface, see Eq. (32), and subsequently, a second hydrogen recombines with the adsorbed H atom at the top site to form the final hydrogen molecule, see Eq. (33). This mechanism is only possible for the V2C-H system because the top sites on the V2C-OH surface are sterically hindered. We discuss in the Supplementary Data (SD) that, in principle, hydrogen could also be adsorbed on HollowC as adsorption site, see Fig. S1 of the SD. Using the unit cell described in Section 2, a total of eighteen initial different adsorption sites were evaluated, including direct and indirect adsorptions; see additional details in Figs. S2-S4 of the SD. Direct adsorptions imply that one hydrogen atom from the H3O+ adsorbs in a single step on the respective site. In contrast, indirect adsorption involves two steps in that one H from the H3O+ moves toward a vicinal water molecule first, and in a second step, the hydrogen atom pointing towards the surface of the acceptor water molecule is adsorbed at the surface. Our thermodynamic analysis indicates that the RI, adsorbed hydrogen, appears to be more stable when bound to the top site (adsorption free energies ranging from −0.17 to +0.19 eV) rather than on the HollowC site (adsorption free energy of about 0.30 eV; see Table S1 in the SD). When the water layer is rearranged in response to adsorption, there are several situations where one oxygen atom from the water layer interacts with one V atom from the surface. As the adsorption at the HollowC sites is consistently less energetically favoured than at the top sites, one direct and one indirect HollowC paths are further tested, but we do not find any important differences in terms of the thermodynamic picture. Therefore, hydrogen adsorption on the HollowC site is not further pursued. Finally, a second hydrogen atom is added to the water layer. This hydrogen atom recombines with the hydrogen species adsorbed on the top site in the Heyrovsky step, and the energetics of the TS, see Tables S2 and S3 in the SD, is quantified following the same procedure as for the Volmer step. Fig. 6 depicts the free-energy diagram of the VH-I mechanism at η = 0 V and 0.2 V. Given that the Volmer step reveals higher TS free energy than the Heyrovsky step at η = 0 V, the Volmer step is reconciled with the rate-determining step, even if the applied overpotential is enhanced. Consequently, the computational Tafel plot reveals a single linear regime as shown in Fig. 7 . Next, we have tested the Volmer-Tafel I (VT-I) over the V2C-H surface, and its mechanistic description is given by Eqs. (34)–(36): (34) Volmer s tep : H 3 O + + e - + M ∗ ⇌ M - H + H 2 O , (35) Volmer s tep : H 3 O + + e - + M - H + M ∗ ⇌ 2 M - H + H 2 O , (36) Tafel s tep : 2 M - H ⇌ 2 M ∗ + H 2 . While the Volmer steps of Eqs. (32) and (34) are identical, in contrast to the above-discussed VH-I mechanism, the second step contains the adsorption of a second hydrogen atom (cf. Eq. (35)). Finally, the two adsorbed hydrogen species recombine under the formation of gaseous hydrogen in the Tafel step (cf. Eq. (36)). We recall that the above mechanistic description can only occur on the V2C-H surface, but cannot take place on the V2C-OH phase. The RIs of the VT-I mechanism are reconciled with one hydrogen atom (RI1) or two hydrogen atoms (RI2) adsorbed at the top site. The energetics of the first Volmer step, including the free energies of RI1 and the TS1, can be directly taken from the VH mechanism. Regarding the second Volmer Step, the number of possible pathways increases exponentially as each single RI from the previous mechanism can be taken as a starting point. Therefore, several Top and HollowC sites, including direct and indirect adsorption, are evaluated. Figs S5-S7 of the SD show the adsorption sites tested for the first and second Volmer steps, respectively, and data is encompassed in Tables S4-S6 of the SD. It turns out that hydrogen adsorption at the Top site is energetically preferred over the HollowC site. However, a second hydrogen atom on the surface results in a less favourable adsorption energetics compared to the first Volmer step, revealing adsorption free energies of 0.30 to 0.56 eV. We note that the repulsion of adjacent hydrogen species on solid-state electrodes is well documented in the literature [94]. The kinetic barriers for the Tafel step, however, are surprisingly small, given that these are in the range of 0.32 to 0.61 eV, especially in comparison with the formation barriers of hydrogen on bare MXenes [59]. This can be explained by referring to the surface termination: For V2C-H, the most stable sites of H adsorption (HollowM) are already occupied by hydrogen. Consequently, the less stable top adsorption sites are involved in the formation of the hydrogen molecule, and this leads to a facile kinetics. Fig. 8 shows the Gibbs free energy diagram of the VT-I mechanism at η = 0 V and 0.2 V. Both Volmer step TSs require similar barriers, but the second barrier is slightly higher, implying that for low overpotentials, the rate-determining step refers to the second Volmer step. However, when gradually increasing the overpotential, the first Volmer step is reconciled with the kinetic bottleneck. Thus, the Tafel plot for the VT-I mechanism consists of two lineal regimes where the kinetics of the reaction are dominated by the second and first Volmer steps (cf. Fig. 9 ). The last mechanism tested over the V2C-H surface refers to an alternative Volmer-Tafel mechanism (VT-II). Essentially, this mechanism corresponds to the initial VT description, but the order between the Volmer and Tafel steps is changed: (37) Volmer s tep : H 3 O + + e - + M ∗ ⇌ M - H + H 2 O , (38) Tafel s tep : M - H + H HM ⇌ M ' ∗ + H 2 , (39) Volmer step : H 3 O + + e - + M ' ∗ ⇌ H HM + H 2 O . The first step in Eq. (37) is identical to the two previous mechanisms. Yet, the adsorbed hydrogen species directly recombines with another hydrogen from the HollowM site —HHM in Eq. (38)— to release a hydrogen molecule (cf. Eq. (38)). Finally, the resulting vacancy on the HollowM site is filled up by hydrogen again (cf. Eq. (39)). Please, note that M'* stands for the MXene surface with a free HollowM site. Our calculations reveal though that the Tafel step is blocked. This is mainly related to the fact that hydrogen on the HollowM site is strongly bound, and this majorly hampers the HER kinetics. Therefore, this mechanistic description is not further pursued. 5.2 The V2C-OH case The HER over the V2C-OH surface can occur via the Volmer Heyrovsky mechanism, but here the steps are inverted, and thus, this mechanism is denoted as VH-II. (40) Heyrovsky s tep : H 3 O + + e - + M O - H ⇌ M O ∗ + H 2 + H 2 O (41) Volmer s tep : H 3 O + + e - + M O ∗ ⇌ M O - H + H 2 O . First, one hydrogen from the water layer recombines with adsorbed hydrogen from the OH adsorbates on the HollowM sites to form gaseous hydrogen in the Heyrovsky step (cf. Eq. (40)). Thereafter, one hydrogen atom from the electrolyte replaces the missing hydrogen atom in the Volmer step (cf. Eq. (41)). Consequently, the RI in this mechanism is reconciled with surface oxygen, MO*. We note that, for the water ice-like layer, we have used the same initial configuration as for V2C-H, but the final configuration differs slightly upon relaxation. Four different reaction paths have been considered, which are summarized in Fig. S8 of the SD. The RIs for all four paths are extremely stable in comparison to the IS, ΔG ∼ -3.45 eV. Therefore, regardless of any kinetic barrier this mechanism can already be excluded based on thermodynamic reasoning, and thus, is no longer explored. Finally, the last evaluated pathway corresponds to a third variant of the Volmer Tafel mechanism (VT-III). (42) Tafel s tep : M O - H ∗ + M O - H ∗ ⇌ 2 M O ∗ + H 2 (43) Volmer s tep : H + + e - + 2 M O ∗ ⇌ M O - H ∗ + M O ∗ . (44) Volmer s tep : H + + e - + M O ∗ + M O - H ∗ ⇌ 2 M O - H ∗ . Here, two hydrogen atoms from the OH terminating groups recombine via a Tafel step to form gaseous hydrogen (cf. Eq. (42)), and afterwards, two hydrogen atoms adsorb on the O-covered moieties to close the catalytic cycle (cf. Eqs. (43) and (44)). In this case, the RIs are reconciled with 2 MO* and MO* plus a MO-H*. Our calculations reveal that the free-energy barrier for the initial Tafel step (about 1.43 eV) is the highest among all investigated barriers studied. Therefore, G rds # for this mechanism is twice as large as for the VH-I and VT-I mechanisms, and thus, is not further considered. 5.3 Comparison of active sites and mechanisms In summary, we have investigated the HER kinetics over the V2C-H and V2C-OH surfaces. Our DFT calculations clearly indicate that V2C-H corresponds to the active site motif under HER conditions in that the vacant top sites are responsible for the formation of gaseous hydrogen. This is an important information given that HollowM rather than Top corresponds to the energetically preferred adsorption site of V2C under HER conditions. Using thermodynamic considerations by determining the free energy of adsorbed hydrogen only would likely result in an incorrect result since the hydrogen bond strength on the energetically favoured HollowM site would be evaluated, and this binding energy cannot be related via BEP relation to the kinetics of the HER over the top sites, as resolved in this study. This finding emphasizes the danger of hasty conclusions by thermodynamic approaches and equally underpins the importance of kinetic studies to resolve the entire free-energy landscape. Relating to the V2C-H surface, we have demonstrated that two mechanistic descriptions are possible, namely the VH-I and VT-I pathways. Fig. 10 shows a comparison of the Tafel plot for the two mechanistic descriptions. While for small overpotentials the VH-I mechanism is energetically preferred, it is evident that for larger overpotentials the VT-I pathway is kinetically favoured. This finding can be explained by the fact that with increasing overpotential, the coverage of adsorbed hydrogen on the top site increases, which facilitates the chemical recombination of two adjacent hydrogen atoms on the top sites compared to the electrochemical Heyrovsky step in the VH-I mechanism. Note that the overall qualitative picture remains unaltered when increasing or decreasing α values to 0.3 or 0.7, see Fig. S9 of the SD, with only slight changes in the exact overpotential of transitioning between determining reaction. The obtained results in terms of the top sites as active species for the HER and the Volmer-Tafel mechanism as the preferred mechanistic description for large overpotentials is somewhat reminiscent of the HER over Pt(111) [62,95], and this may be another cornerstone why MXenes are promising electrocatalysts for the generation of hydrogen. Especially, because MXenes are 2D versions of transition metal carbide materials [96], which are known to behave like Pt-group metals in catalysis [97]. Finally, by comparing the Tafel plots of the VH-I and VT-I mechanism with an experimentally reported Tafel plot of the HER over V2C, we observe the impact of the MXene termination (OH– vs. H-covered surface) on the electrocatalytic performance. The experimentally reported Tafel plot [98] indicates that V2C is not active toward the HER in the potential regime of −0.5 V < U vs. RHE < 0 V. We trace this finding to the presence of the OH-covered surface under these potential conditions (cf. Section 2), given that we demonstrated that the HER kinetics of this surface termination is poor. On the contrary, the experimental Tafel plot indicates hydrogen formation for U < -0.5 V vs. RHE, and this can be explained by the presence of the H-covered surface, which has a facile kinetics according to our first-principles study. Consequently, the HER kinetics of V2C can be tuned if the transition from the kinetically inactive OH* phase to the active H* phase is shifted toward more positive potentials and ideally occurs at about U = 0 V vs. RHE. 6 Conclusions Taking V2C (0001) as a representative case of the MXene family, five different hydrogen evolution reaction (HER) mechanisms have been studied for two different surface terminations, which are chosen based on the Pourbaix diagram under HER conditions. The V2C (0001) surface is either covered by H* or OH* on HollowM sites, and we explicitly account for the presence of water by considering an ice-like monolayer in our simulations. The present study pinpoints that, despite the availability of a plethora of hydrogen adsorbates on the V2C surface, the HER is more complex than initially thought. We demonstrate that the OH* termination does not show catalytic activity toward hydrogen formation but rather the H-covered surface corresponds to the active motif under HER conditions. However, the active hydrogen atoms adsorb on the unoccupied top sites and are not reconciled with the energetically preferred HollowM site. We study the Volmer-Heyrovsky and Volmer-Tafel mechanisms over the H-covered surface, construct free-energy diagrams by resolving the thermodynamics (reaction intermediates) and kinetics (transition states) from density functional theory (DFT), and compile Tafel plots by applying a rigorous microkinetic framework. Our simulations reveal that the Volmer-Heyrovsky pathway corresponds to the preferred mechanistic description for small overpotentials whereas the Volmer-Tafel path becomes kinetically preferred for larger overpotentials. The obtained results are surprisingly similar to the HER over Pt, thus providing evidence why MXenes are potential electrocatalysts for the formation of gaseous hydrogen by means of electrochemical water splitting. Also, our combined approach consisting of DFT calculations and microkinetic considerations may serve as a guideline of how to unravel the elementary steps of electrocatalytic processes, such as for the HER, by moving beyond the prototypical thermodynamic framework focusing on adsorption free energies only. Declaration of Competing Interest The authors declare that they have no known competing financial interests or personal relationships that could have appeared to influence the work reported in this paper. Acknowledgements The research carried out at the Universitat de Barcelona has been supported by the Spanish MCIN/AEI/10.13039/501100011033 PID2021-126076NB-I00 project, funded partially by FEDER Una manera de hacer Europa, and María de Maeztu CEX2021-001202-M grants, including funding from European Union and, in part, by and COST Action CA18234. A significant part of the computational resources has been provided by the Red Española de Supercomputación (RES) QS-2020-2-0004 and QS-2020-1-0011. M.L. thanks Universitat de Barcelona for an APIF predoctoral contract, the HPC-EUROPA3 (INFRAIA-2016-1-730897) project supported by the EC Research Innovation Action under the H2020 Programme, the University of Duisburg-Essen and the High Performance Computing Center Stuttgart (HRLS) for supporting his stay in Essen. K.S.E. acknowledges funding by the Ministry of Culture and Science of the Federal State of North Rhine-Westphalia (NRW Return Grant). K.S.E. is associated with the CRC/TRR247: “Heterogeneous Oxidation Catalysis in the Liquid Phase” (Project number 388390466-TRR 247), the RESOLV Cluster of Excellence, funded by the Deutsche Forschungsgemeinschaft under Germany’s Excellence Strategy – EXC 2033-390677874 – RESOLV, and the Center for Nanointegration (CENIDE). Appendix A Supplementary material Supplementary data to this article can be found online at https://doi.org/10.1016/j.jcat.2023.03.027. Appendix A Supplementary material The following are the Supplementary data to this article: Supplementary data 1 References [1] UN Doc FCCC/CP/1997/7/Add.1. Kyoto Protocol to the United Nations Framework Convention on Climate Change Dec. 10, 1997; 37 ILM 22 1998. [2] UN Doc FCCC/CP/2009/L.7, Copenhagen Accord.18 December 2009. [3] UN Doc FCCC/CP/2015/7, Paris Agreement, 2015. [4] UN Doc FCCC/CP/2021/L.13, Glasgow Climate Pact, 2021. [5] Iea Global Energy Review 2021 2021 IEA Paris IEA (2021), Global Energy Review 2021, IEA, Paris [6] S. Chu A. Majumdar Opportunities and Challenges for a Sustainable Energy Future Nature 488 2012 294 303 S. Chu, A. Majumdar, Opportunities and Challenges for a Sustainable Energy Future, Nature 488 (2012) 294–303. [7] D.G. Nocera N.S. Lewis Powering the planet: chemical challenges in solar energy utilization Proc. Natl. Acad. Sci. 103 2006 15729 15735 D.G. Nocera, N.S. Lewis, Powering the Planet: Chemical Challenges in Solar Energy Utilization, Proc. Natl. Acad. Sci. 103 (2006) 15729–15735. [8] I. Dincer, C. Zamfirescu, Sustainable Hydrogen Production; Elsevier, Ed.; 2016. [9] G.W. Crabtree M.S. Dresselhaus M.V. Buchanan The hydrogen economy Phys. Today 57 2004 39 44 G.W. Crabtree, M.S. Dresselhaus, M.V. Buchanan, The Hydrogen Economy, Phys. Today 57 (2004) 39–44. [10] Y. Li W. Liu Z. Zhang X. Du L. Yu Y. Deng A self-powered electrolytic process for glucose to hydrogen conversion Commun. Chem. 2 2019 1 9 Y. Li, W. Liu, Z. Zhang, X. Du, L. Yu, Y. Deng, A Self-Powered Electrolytic Process for Glucose to Hydrogen Conversion, Commun. Chem. 2 (2019) 1–9. [11] X. Gao H. Zhang Q. Li X. Yu Z. Hong X. Zhang C. Liang Z. Lin Hierarchical NiCo2O4 hollow microcuboids as bifunctional electrocatalysts for overall water-splitting Angew. Chemie - Int. Ed. 55 2016 6290 6294 X. Gao, H. Zhang, Q. Li, X. Yu, Z. Hong, X. Zhang, C. Liang, Z. Lin, Hierarchical NiCo2O4 Hollow Microcuboids as Bifunctional Electrocatalysts for Overall Water-Splitting, Angew. Chemie - Int. Ed. 55 (2016) 6290–6294. [12] J. Wang Y. Gao D. Chen J. Liu Z. Zhang Z. Shao F. Ciucci Water splitting with an enhanced bifunctional double perovskite ACS Catal. 8 2018 364 371 J. Wang, Y. Gao, D. Chen, J. Liu, Z. Zhang, Z. Shao, F. Ciucci, Water Splitting with an Enhanced Bifunctional Double Perovskite, ACS Catal. 8 (2018) 364–371. [13] P. Du R. Eisenberg Catalysts made of earth-abundant elements (Co, Ni, Fe) for water splitting: recent progress and future challenges Energy Environ. Sci. 5 2012 6012 6021 P. Du, R. Eisenberg, Catalysts Made of Earth-Abundant Elements (Co, Ni, Fe) for Water Splitting: Recent Progress and Future Challenges, Energy Environ. Sci. 5 (2012) 6012–6021. [14] J.N. Hansen H. Prats K.K. Toudahl N. Mørch Secher K. Chan J. Kibsgaard I. Chorkendorff Is there anything better than Pt for HER? ACS Energy Lett. 2021 1175 1180 J.N. Hansen, H. Prats, K.K. Toudahl, N. Mørch Secher, K. Chan, J. Kibsgaard, I. Chorkendorff, Is There Anything Better than Pt for HER?, ACS Energy Lett. (2021) 1175–1180. [15] S.J. Gutić A.S. Dobrota E. Fako N.V. Skorodumova N. López I.A. Pašti Hydrogen evolution reaction-from single crystal to single atom catalysts Catalysts 10 2020 290 S.J. Gutić, A.S. Dobrota, E. Fako, N.V. Skorodumova, N. López, I.A. Pašti, Hydrogen Evolution Reaction-from Single Crystal to Single Atom Catalysts, Catalysts 10 (2020) 290. [16] M. Tahir L. Pan F. Idrees X. Zhang L. Wang J.J. Zou Z.L. Wang Electrocatalytic oxygen evolution reaction for energy conversion and storage: a comprehensive review Nano Energy 37 2017 136 157 M. Tahir, L. Pan, F. Idrees, X. Zhang, L. Wang, J.J. Zou, Z.L. Wang, Electrocatalytic Oxygen Evolution Reaction for Energy Conversion and Storage: A Comprehensive Review, Nano Energy 37 (2017) 136–157. [17] B. Samanta Á. Morales-García F. Illas N. Goga J.A. Anta S. Calero A. Bieberle-Hütter F. Libisch A.B. Muñoz-García M. Pavone M. Caspary Toroker Challenges of modeling nanostructured materials for photocatalytic water splitting Chem. Soc. Rev. 51 2022 3794 3818 B. Samanta, Á. Morales-García, F. Illas, N. Goga, J.A. Anta, S. Calero, A. Bieberle-Hütter, F. Libisch, A.B. Muñoz-García, M. Pavone, M. Caspary Toroker, Challenges of Modeling Nanostructured Materials for Photocatalytic Water Splitting, Chem. Soc. Rev. 51 (2022) 3794–3818. [18] Y. Zhong X. Xia F. Shi J. Zhan J. Tu H.J. Fan Transition metal carbides and nitrides in energy storage and conversion Adv. Sci. 3 2016 1500286 Y. Zhong, X. Xia, F. Shi, J. Zhan, J. Tu, H.J. Fan, Transition Metal Carbides and Nitrides in Energy Storage and Conversion, Adv. Sci. 3 (2016) 1500286. [19] W.F. Chen J.T. Muckerman E. Fujita Recent developments in transition metal carbides and nitrides as hydrogen evolution electrocatalysts Chem. Commun. 49 2013 8896 8909 W.F. Chen, J.T. Muckerman, E. Fujita, Recent Developments in Transition Metal Carbides and Nitrides as Hydrogen Evolution Electrocatalysts, Chem. Commun. 49 (2013) 8896–8909. [20] W.F. Chen C.H. Wang K. Sasaki N. Marinkovic W. Xu J.T. Muckerman Y. Zhu R.R. Adzic Highly active and durable nanostructured molybdenum carbide electrocatalysts for hydrogen production Energy Environ. Sci. 6 2013 943 951 W.F. Chen, C.H. Wang, K. Sasaki, N. Marinkovic, W. Xu, J.T. Muckerman, Y. Zhu, R.R. Adzic, Highly Active and Durable Nanostructured Molybdenum Carbide Electrocatalysts for Hydrogen Production, Energy Environ. Sci. 6 (2013) 943–951. [21] D. Voiry H. Yamaguchi J. Li R. Silva D.C.B. Alves T. Fujita M. Chen T. Asefa V.B. Shenoy G. Eda M. Chhowalla Enhanced catalytic activity in strained chemically exfoliated WS2 nanosheets for hydrogen evolution Nat. Mater. 12 2013 850 855 D. Voiry, H. Yamaguchi, J. Li, R. Silva, D.C.B. Alves, T. Fujita, M. Chen, T. Asefa, V.B. Shenoy, G. Eda, M. Chhowalla, Enhanced Catalytic Activity in Strained Chemically Exfoliated WS2 Nanosheets for Hydrogen Evolution, Nat. Mater. 12 (2013) 850–855. [22] L. Wu A.J.F. van Hoof N.Y. Dzade L. Gao M.-I. Richard H. Friedrich N.H. de Leeuw E.J.M. Hensen J.P. Hoffman Enhancing the electrocatalytic activity of 2H-WS2 for hydrogen evolution via defect engineering Phys. Chem. Chem. Phys. 21 2019 6071 6079 L. Wu, A.J.F. van Hoof, N.Y. Dzade, L. Gao, M.-I. Richard, H. Friedrich, N.H. de Leeuw, E.J.M. Hensen, J.P. Hoffman, Enhancing the electrocatalytic activity of 2H-WS2 for hydrogen evolution via defect engineering, Phys. Chem. Chem. Phys. 21 (2019) 6071–6079. [23] T.F. Jaramillo K.P. Jørgensen J. Bonde J.H. Nielsen S. Horch I. Chorkendorff Identification of active edge sites for electrochemical H2 evolution from MoS2 nanocatalysts Science 317 2007 100 102 T.F. Jaramillo, K.P. Jørgensen, J. Bonde, J.H. Nielsen, S. Horch, I. Chorkendorff, Identification of Active Edge Sites for Electrochemical H2 Evolution from MoS2 Nanocatalysts, Science 317 (2007) 100–102. [24] E.J. Popczun C.G. Read C.W. Roske N.S. Lewis R.E. Schaak Highly active electrocatalysis of the hydrogen evolution reaction by cobalt phosphide nanoparticles Angew. Chemie - Int. Ed. 53 2014 5427 5430 E.J. Popczun, C.G. Read, C.W. Roske, N.S. Lewis, R.E. Schaak, Highly Active Electrocatalysis of the Hydrogen Evolution Reaction by Cobalt Phosphide Nanoparticles, Angew. Chemie - Int. Ed. 53 (2014) 5427–5430. [25] H. Yoon H.J. Song B. Ju D.W. Kim Cobalt phosphide nanoarrays with crystalline-amorphous hybrid phase for hydrogen production in universal-PH Nano Res. 13 2020 2469 2477 H. Yoon, H.J. Song, B. Ju, D.W. Kim, Cobalt Phosphide Nanoarrays with Crystalline-Amorphous Hybrid Phase for Hydrogen Production in Universal-PH, Nano Res. 13 (2020) 2469–2477. [26] E.J. Popczun J.R. McKone C.G. Read A.J. Biacchi A.M. Wiltrout N.S. Lewis R.E. Schaak Nanostructured nickel phosphide as an electrocatalyst for the hydrogen evolution reaction J. Am. Chem. Soc. 135 2013 9267 9270 E.J. Popczun, J.R. McKone, C.G. Read, A.J. Biacchi, A.M. Wiltrout, N.S. Lewis, R.E. Schaak, Nanostructured Nickel Phosphide as an Electrocatalyst for the Hydrogen Evolution Reaction, J. Am. Chem. Soc. 135 (2013) 9267–9270. [27] L. Liu Q. Xu Q. Zhu Electrically conductive metal-organic frameworks for electrocatalytic applications Adv. Energy Sustain. Res. 2 2021 2100100 L. Liu, Q. Xu, Q. Zhu, Electrically Conductive Metal–Organic Frameworks for Electrocatalytic Applications, Adv. Energy Sustain. Res. 2 (2021) 2100100. [28] R. Dong M. Pfeffermann H. Liang Z. Zheng X. Zhu J. Zhang X. Feng Large-area, free-standing, two-dimensional supramolecular polymer single-layer sheets for highly efficient electrocatalytic hydrogen evolution Angew. Chemie - Int. Ed. 54 2015 12058 12063 R. Dong, M. Pfeffermann, H. Liang, Z. Zheng, X. Zhu, J. Zhang, X. Feng, Large-Area, Free-Standing, Two-Dimensional Supramolecular Polymer Single-Layer Sheets for Highly Efficient Electrocatalytic Hydrogen Evolution, Angew. Chemie - Int. Ed. 54 (2015) 12058–12063. [29] A.J. Clough J.W. Yoo M.H. Mecklenburg S.C. Marinescu Two-dimensional metal-organic surfaces for efficient hydrogen evolution from water J. Am. Chem. Soc. 137 2015 118 121 A.J. Clough, J.W. Yoo, M.H. Mecklenburg, S.C. Marinescu, Two-Dimensional Metal-Organic Surfaces for Efficient Hydrogen Evolution from Water, J. Am. Chem. Soc. 137 (2015) 118–121. [30] Y. Gogotsi B. Anasori The Rise of MXenes ACS Nano 13 2019 8491 8494 Y. Gogotsi, B. Anasori, The Rise of MXenes, ACS Nano 13 (2019) 8491–8494. [31] Á. Morales-García F. Calle-Vallejo F. Illas MXenes: new horizons in catalysis ACS Catal. 10 2020 13487 13503 Á. Morales-García, F. Calle-Vallejo, F. Illas, MXenes: New Horizons in Catalysis, ACS Catal. 10 (2020) 13487–13503. [32] M. Naguib O. Mashtalir J. Carle V. Presser J. Lu L. Hultman Y. Gogotsi M.W. Barsoum Two-dimensional transition metal carbides ACS Nano 6 2012 1322 1331 M. Naguib, O. Mashtalir, J. Carle, V. Presser, J. Lu, L. Hultman, Y. Gogotsi, M.W. Barsoum, Two-Dimensional Transition Metal Carbides, ACS Nano 6 (2012) 1322–1331. [33] M. Naguib M.W. Barsoum Y. Gogotsi Ten years of progress in the synthesis and development of MXenes Adv. Mater. 33 2021 2103393 M. Naguib, M.W. Barsoum, Y. Gogotsi, Ten Years of Progress in the Synthesis and Development of MXenes, Adv. Mater. 33 (2021) 2103393. [34] J.D. Gouveia Á. Morales-García F. Viñes J.R.B. Gomes F. Illas MXenes à La Carte: tailoring the epitaxial growth alternating nitrogen and transition metal layers ACS Nano 16 2022 12541 12552 J.D. Gouveia, Á. Morales-García, F. Viñes, J.R.B. Gomes, F. Illas, MXenes à La Carte: Tailoring the Epitaxial Growth Alternating Nitrogen and Transition Metal Layers, ACS Nano 16 (2022) 12541–12552. [35] S. Liu Z. Song X. Jin R. Mao T. Zhang F. Hu MXenes for metal-ion and metal-sulfur batteries: synthesis, properties, and electrochemistry Mater. Reports Energy 2 2022 100077 S. Liu, Z. Song, X. Jin, R. Mao, T. Zhang, F. Hu, MXenes for Metal-Ion and Metal-Sulfur Batteries: Synthesis, Properties, and Electrochemistry, Mater. Reports Energy 2 (2022) 100077. [36] X. Liang A. Garsuch L.F. Nazar Sulfur cathodes based on conductive MXene nanosheets for high-performance lithium-sulfur batteries Angew. Chemie - Int. Ed. 54 2015 3907 3911 X. Liang, A. Garsuch, L.F. Nazar, Sulfur Cathodes Based on Conductive MXene Nanosheets for High-Performance Lithium-Sulfur Batteries, Angew. Chemie - Int. Ed. 54 (2015) 3907–3911 [37] X. Wang S. Kajiyama H. Iinuma E. Hosono S. Oro I. Moriguchi M. Okubo A. Yamada Pseudocapacitance of MXene nanosheets for high-power sodium-ion hybrid capacitors Nat. Commun. 6 2015 6544 X. Wang, S. Kajiyama, H. Iinuma, E. Hosono, S. Oro, I. Moriguchi, M. Okubo, A. Yamada, Pseudocapacitance of MXene Nanosheets for High-Power Sodium-Ion Hybrid Capacitors, Nat. Commun. 6 (2015) 6544. [38] K. Rasool M. Helal A. Ali C.E. Ren Y. Gogotsi K.A. Mahmoud Antibacterial activity of Ti3C2Tx MXene ACS Nano 10 2016 3674 3684 K. Rasool, M. Helal, A. Ali, C.E. Ren, Y. Gogotsi, K.A. Mahmoud, Antibacterial Activity of Ti3C2Tx MXene, ACS Nano 10 (2016) 3674–3684. [39] R. Morales-Salvador Á. Morales-García F. Viñes F. Illas Two-dimensional nitrides as highly efficient potential candidates for CO2 capture and activation Phys. Chem. Chem. Phys. 20 2018 17117 17124 R. Morales-Salvador, Á. Morales-García, F. Viñes, F. Illas, Two-Dimensional Nitrides as Highly Efficient Potential Candidates for CO2 Capture and Activation, Phys. Chem. Chem. Phys. 20 (2018) 17117–17124. [40] Á. Morales-García A. Fernández-Fernández F. Viñes F. Illas CO2 abatement using two-dimensional MXene carbides J. Mater. Chem. A 6 2018 3381 3385 Á. Morales-García, A. Fernández-Fernández, F. Viñes, F. Illas, CO2 Abatement Using Two-Dimensional MXene Carbides, J. Mater. Chem. A 6 (2018) 3381–3385. [41] I. Persson J. Halim H. Lind T.W. Hansen J.B. Wagner L.Å. Näslund V. Darakchieva J. Palisaitis J. Rosen P.O.Å. Persson 2D transition metal carbides (MXenes) for carbon capture Adv. Mater. 31 2019 1805472 I. Persson, J. Halim, H. Lind, T.W. Hansen, J.B. Wagner, L.Å. Näslund, V. Darakchieva, J. Palisaitis, J. Rosen, P.O.Å. Persson, 2D Transition Metal Carbides (MXenes) for Carbon Capture, Adv. Mater. 31 (2019) 1805472. [42] N. Li X. Chen W.J. Ong D.R. Macfarlane X. Zhao A.K. Cheetham C. Sun Understanding of electrochemical mechanisms for CO2 capture and conversion into hydrocarbon fuels in transition-metal carbides (MXenes) ACS Nano 11 2017 10825 10833 N. Li, X. Chen, W.J. Ong, D.R. Macfarlane, X. Zhao, A.K. Cheetham, C. Sun, Understanding of Electrochemical Mechanisms for CO2 Capture and Conversion into Hydrocarbon Fuels in Transition-Metal Carbides (MXenes), ACS Nano 11 (2017) 10825–10833. [43] A.D. Handoko S.N. Steinmann Z.W. Seh Theory-guided materials design: two-dimensional MXenes in electro- and photocatalysis Nanoscale Horizons 4 2019 809 827 A.D. Handoko, S.N. Steinmann, Z.W. Seh, Theory-Guided Materials Design: Two-Dimensional MXenes in Electro- and Photocatalysis, Nanoscale Horizons 4 (2019) 809–827. [44] P. Hou Y. Tian D. Jin X. Liu Y. Xie F. Du X. Meng Advances in theoretical calculations of MXenes as hydrogen and oxygen evolution reaction (water splitting) electrocatalysts J. Phys. D. Appl. Phys. 55 2022 464002 P. Hou, Y. Tian, D. Jin, X. Liu, Y. Xie, F. Du, X. Meng, Advances in Theoretical Calculations of MXenes as Hydrogen and Oxygen Evolution Reaction (Water Splitting) Electrocatalysts, J. Phys. D. Appl. Phys. 55 (2022) 464002. [45] M.P. Browne D. Tyndall V. Nicolosi The potential of MXene materials as a component in the catalyst layer for the oxygen evolution reaction Curr. Opin. Electrochem. 34 2022 101021 M.P. Browne, D. Tyndall, V. Nicolosi, The Potential of MXene Materials as a Component in the Catalyst Layer for the Oxygen Evolution Reaction, Curr. Opin. Electrochem. 34 (2022) 101021. [46] Z.W. Seh K.D. Fredrickson B. Anasori J. Kibsgaard A.L. Strickler M.R. Lukatskaya Y. Gogotsi T.F. Jaramillo A. Vojvodic Two-dimensional molybdenum carbide (MXene) as an efficient electrocatalyst for hydrogen evolution ACS Energy Lett. 1 2016 589 594 Z.W. Seh, K.D. Fredrickson, B. Anasori, J. Kibsgaard, A.L. Strickler, M.R. Lukatskaya, Y. Gogotsi, T.F. Jaramillo, A. Vojvodic, Two-Dimensional Molybdenum Carbide (MXene) as an Efficient Electrocatalyst for Hydrogen Evolution, ACS Energy Lett. 1 (2016) 589–594. [47] J.K. Nørskov T. Bligaard A. Logadottir J.R. Kitchin J.G. Chen S. Pandelov U. Stimming Trends in the exchange current for hydrogen evolution J. Electrochem. Soc. 152 2005 J23 J.K. Nørskov, T. Bligaard, A. Logadottir, J.R. Kitchin, J.G. Chen, S. Pandelov, U. Stimming, Trends in the Exchange Current for Hydrogen Evolution, J. Electrochem. Soc. 152 (2005) J23. [48] C. Ling L. Shi Y. Ouyang J. Wang Searching for highly active catalysts for hydrogen evolution reaction based on O-terminated MXenes through a simple descriptor Chem. Mater. 28 2016 9026 9032 C. Ling, L. Shi, Y. Ouyang, J. Wang, Searching for Highly Active Catalysts for Hydrogen Evolution Reaction Based on O-Terminated MXenes through a Simple Descriptor, Chem. Mater. 28 (2016) 9026–9032. [49] D. Jin L.R. Johnson A.S. Raman X. Ming Y. Gao F. Du Y. Wei G. Chen A. Vojvodic Y. Gogotsi X. Meng Computational screening of 2D ordered double transition-metal carbides (MXenes) as electrocatalysts for hydrogen evolution reaction J. Phys. Chem. C 124 2020 10584 10592 D. Jin, L.R. Johnson, A.S. Raman, X. Ming, Y. Gao, F. Du, Y. Wei, G. Chen, A. Vojvodic, Y. Gogotsi, X. Meng, Computational Screening of 2D Ordered Double Transition-Metal Carbides (MXenes) as Electrocatalysts for Hydrogen Evolution Reaction, J. Phys. Chem. C 124 (2020) 10584–10592. [50] M. Pandey K.S. Thygesen Two-dimensional MXenes as catalysts for electrochemical hydrogen evolution: a computational screening study J. Phys. Chem. C 121 2017 13593 13598 M. Pandey, K.S. Thygesen, Two-Dimensional MXenes as Catalysts for Electrochemical Hydrogen Evolution: A Computational Screening Study, J. Phys. Chem. C 121 (2017) 13593–13598. [51] Z. Kang M.A. Khan Y. Gong R. Javed Y. Xu D. Ye H. Zhao J. Zhang Recent progress of MXenes and MXene-based nanomaterials for the electrocatalytic hydrogen evolution reaction J. Mater. Chem. A 9 2021 6089 6108 Z. Kang, M.A. Khan, Y. Gong, R. Javed, Y. Xu, D. Ye, H. Zhao, J. Zhang, Recent Progress of MXenes and MXene-Based Nanomaterials for the Electrocatalytic Hydrogen Evolution Reaction, J. Mater. Chem. A 9 (2021) 6089–6108. [52] A.D. Handoko K.D. Fredrickson B. Anasori K.W. Convey L.R. Johnson Y. Gogotsi A. Vojvodic Z.W. Seh Tuning the basal plane functionalization of two-dimensional metal carbides (MXenes) to control hydrogen evolution activity ACS Appl. Energy Mater. 1 2018 173 180 A.D. Handoko, K.D. Fredrickson, B. Anasori, K.W. Convey, L.R. Johnson, Y. Gogotsi, A. Vojvodic, Z.W. Seh, Tuning the Basal Plane Functionalization of Two-Dimensional Metal Carbides (MXenes) to Control Hydrogen Evolution Activity, ACS Appl. Energy Mater. 1 (2018) 173–180. [53] G. Gao A.P. O’Mullane A. Du 2D MXenes: a new family of promising catalysts for the hydrogen evolution reaction ACS Catal. 7 2017 494 500 G. Gao, A.P. O’Mullane, A. Du, 2D MXenes: A New Family of Promising Catalysts for the Hydrogen Evolution Reaction, ACS Catal. 7 (2017) 494–500. [54] K.S. Exner H. Over Kinetics of electrocatalytic reactions from first-principles: a critical comparison with the ab initio thermodynamics approach Acc. Chem. Res. 50 2017 1240 1247 K.S. Exner, H. Over, Kinetics of Electrocatalytic Reactions from First-Principles: A Critical Comparison with the Ab Initio Thermodynamics Approach, Acc. Chem. Res. 50 (2017) 1240–1247. [55] K.S. Exner Does a thermoneutral electrocatalyst correspond to the apex of a volcano plot for a simple two-electron process? Angew. Chemie - Int. Ed. 59 2020 10236 10240 K.S. Exner, Does a Thermoneutral Electrocatalyst Correspond to the Apex of a Volcano Plot for a Simple Two-Electron Process? Angew. Chemie - Int. Ed. 59 (2020) 10236–10240. [56] J.R.B. Gomes J.M. Bofill F. Illas Azomethane decomposition catalyzed by Pt(111): an example of anti-brönsted-evans-polanyi behavior J. Phys. Chem. C 112 2008 1072 1080 J.R.B. Gomes, J.M. Bofill, F. Illas, Azomethane Decomposition Catalyzed by Pt(111): An Example of Anti-Brönsted-Evans-Polanyi Behavior, J. Phys. Chem. C 112 (2008) 1072–1080. [57] E.V. Miu J.R. McKone G. Mpourmpakis The sensitivity of metal oxide electrocatalysis to bulk hydrogen intercalation: hydrogen evolution on tungsten oxide J. Am. Chem. Soc. 144 2022 6420 6433 E.V. Miu, J.R. McKone, G. Mpourmpakis, The Sensitivity of Metal Oxide Electrocatalysis to Bulk Hydrogen Intercalation: Hydrogen Evolution on Tungsten Oxide. J. Am. Chem. Soc. 144 (2022) 6420–6433. [58] J.D. Gouveia Á. Morales-García F. Viñes F. Illas J.R.B. Gomes MXenes as promising catalysts for water dissociation Appl. Catal. B Environ. 260 2020 118191 J.D. Gouveia, Á. Morales-García, F. Viñes, F. Illas, J.R.B. Gomes, MXenes as Promising Catalysts for Water Dissociation, Appl. Catal. B Environ. 260 (2020) 118191. [59] M. López Á. Morales-García F. Viñes F. Illas Thermodynamics and kinetics of molecular hydrogen adsorption and dissociation on MXenes: relevance to heterogeneously catalyzed hydrogenation reactions ACS Catal. 11 2021 12850 12857 M. López, Á. Morales-García, F. Viñes, F. Illas, Thermodynamics and Kinetics of Molecular Hydrogen Adsorption and Dissociation on MXenes: Relevance to Heterogeneously Catalyzed Hydrogenation Reactions, ACS Catal. 11 (2021) 12850–12857. [60] J.D. Gouveia Á. Morales-García F. Viñes J.R.B. Gomes F. Illas Facile heterogeneously catalyzed nitrogen fixation by MXenes ACS Catal. 10 2020 5049 5056 J.D. Gouveia, Á. Morales-García, F. Viñes, J.R.B. Gomes, F. Illas, Facile Heterogeneously Catalyzed Nitrogen Fixation by MXenes, ACS Catal. 10 (2020) 5049–5056. [61] M. López K.S. Exner F. Viñes F. Illas Computational pourbaix diagrams for MXenes: a key ingredient toward proper theoretical electrocatalytic studies Adv. Theory Simul. 2022 2200217 M. López, K.S. Exner, F. Viñes, F. Illas, Computational Pourbaix Diagrams for MXenes: A Key Ingredient toward Proper Theoretical Electrocatalytic Studies, Adv. Theory Simul. (2022) 2200217. [62] P. Lindgren, G. Kastlunger, A.A. Peterson, A challenge to the G ∼0 interpretation of hydrogen evolution. ACS Catal. 10 (2020) 121–128. [63] M.T. Tang X. Liu Y. Ji J.K. Nørskov K. Chan Modeling hydrogen evolution reaction kinetics through explicit water-metal interfaces J. Phys. Chem. C 124 2020 28083 28092 M.T. Tang, X. Liu, Y. Ji, J.K. Nørskov, K. Chan, Modeling Hydrogen Evolution Reaction Kinetics through Explicit Water–Metal Interfaces, J. Phys. Chem. C 124 (2020) 28083–28092. [64] P. Hohenberg W. Kohn Inhomogeneous electron gas Phys. Rev. 136 1964 B864 B871 P. Hohenberg, W. Kohn, Inhomogeneous Electron Gas, Phys. Rev. 136 (1964) B864–B871. [65] W. Kohn L.J. Sham Self-consistent equatios including exchange and correlation effects Phys. Rev. 140 1965 A1133 A1138 W. Kohn, L.J. Sham, Self-Consistent Equatios Including Exchange and Correlation Effects, Phys. Rev. 140 (1965) A1133–A1138. [66] G. Kresse J. Hafner Norm-conserving and ultrasoft pseudopotentials for first-row and transition elements J. Phys. Condens. Matter 6 1994 8245 8257 G. Kresse, J. Hafner, Norm-Conserving and Ultrasoft Pseudopotentials for First-Row and Transition Elements, J. Phys. Condens. Matter 6 (1994) 8245–8257. [67] G. Kresse J. Furthmüller Efficient iterative schemes for ab initio total-enery calculations using a plane-wave basis set Phys. Rev. B 54 1996 11169 11186 G. Kresse, J. Furthmüller, Efficient Iterative Schemes for Ab Initio Total-Enery Calculations Using a Plane-Wave Basis Set, Phys. Rev. B 54 (1996) 11169–11186. [68] G. Kresse J. Furthmüller Efficiency of ab-initio total energy calculations for metals and semiconductors using a plane-wave basis set Comput. Mater. Sci. 6 1996 15 50 G. Kresse, J. Furthmüller, Efficiency of Ab-Initio Total Energy Calculations for Metals and Semiconductors Using a Plane-Wave Basis Set, Comput. Mater. Sci. 6 (1996) 15–50. [69] J.P. Perdew K. Burke M. Ernzerhof Generalized gradient approximation made simple Phys. Rev. Lett. 77 1996 3865 3868 J.P. Perdew, K. Burke, M. Ernzerhof, Generalized Gradient Approximation Made Simple, Phys. Rev. Lett. 77 (1996) 3865–3868. [70] S. Grimme J. Antony S. Ehrlich H. Krieg A consistent and accurate ab initio parametrization of density functional dispersion correction (DFT-D) for the 94 elements H-Pu J. Chem. Phys. 132 2010 154104 S. Grimme, J. Antony, S. Ehrlich, H. Krieg, A Consistent and Accurate Ab Initio Parametrization of Density Functional Dispersion Correction (DFT-D) for the 94 Elements H-Pu, J. Chem. Phys. 132 (2010) 154104. [71] P.E. Blöchl Projector augmented-wave method Phys. Rev. B 50 1994 17953 17979 P.E. Blöchl, Projector Augmented-Wave Method, Phys. Rev. B 50 (1994) 17953–17979. [72] G. Kresse D. Joubert From ultrasoft pseudopotentials to the projector augmented-wave method Phys. Rev. B - Condens. Matter Mater. Phys. 59 1999 1758 1775 G. Kresse, D. Joubert, From Ultrasoft Pseudopotentials to the Projector Augmented-Wave Method, Phys. Rev. B - Condens. Matter Mater. Phys. 59 (1999) 1758–1775. [73] R. Morales-Salvador J.D. Gouveia Á. Morales-García F. Viñes J.R.B. Gomes F. Illas Carbon capture and usage by MXenes ACS Catal. 11 2021 11248 11255 R. Morales-Salvador, J.D. Gouveia, Á. Morales-García, F. Viñes, J.R.B. Gomes, F. Illas, Carbon Capture and Usage by MXenes, ACS Catal. 11 (2021) 11248–11255. [74] H. Prats H. McAloone F. Viñes F. Illas Ultra-high selectivity biogas upgrading through porous MXenes J. Mater. Chem. A 8 2020 12296 12300 H. Prats, H. McAloone, F. Viñes, F. Illas, Ultra-High Selectivity Biogas Upgrading through Porous MXenes, J. Mater. Chem. A 8 (2020) 12296–12300. [75] Y. Xie P.R.C. Kent Hybrid density functional study of structural and electronic properties of functionalized Ti n +1X n (X = C, N) monolayers Phys. Rev. B 87 2013 235441 Y. Xie, P.R.C. Kent, Hybrid Density Functional Study of Structural and Electronic Properties of Functionalized Tin+1Xn (X = C, N) Monolayers, Phys. Rev. B 87 (2013) 235441. [76] J.L.C. Fajín M.N.D.S. Cordeiro J.R.B. Gomes F. Illas On the need for spin polarization in heterogeneously catalyzed reactions on nonmagnetic metallic surfaces J. Chem. Theory Comput. 8 2012 1737 1743 J.L.C. Fajín, M.N.D.S. Cordeiro, J.R.B. Gomes, F. Illas, On the Need for Spin Polarization in Heterogeneously Catalyzed Reactions on Nonmagnetic Metallic Surfaces, J. Chem. Theory Comput. 8 (2012) 1737–1743. [77] G. Henkelman B.P. Uberuaga H. Jónsson Climbing image nudged elastic band method for finding saddle points and minimum energy paths J. Chem. Phys. 113 2000 9901 9904 G. Henkelman, B.P. Uberuaga, H. Jónsson, Climbing Image Nudged Elastic Band Method for Finding Saddle Points and Minimum Energy Paths, J. Chem. Phys. 113 (2000) 9901–9904. [78] A. Heyden A.T. Bell F.J. Keil Efficient methods for finding transition states in chemical reactions: comparison of improved dimer method and partitioned rational function optimization method J. Chem. Phys. 123 2005 224101 A. Heyden, A.T. Bell, F.J. Keil, Efficient Methods for Finding Transition States in Chemical Reactions: Comparison of Improved Dimer Method and Partitioned Rational Function Optimization Method, J. Chem. Phys. 123 (2005) 224101. [79] K. Momma F. Izumi VESTA 3 for three-dimensional visualization of crystal, volumetric and morphology data J. Appl. Crystallogr. 44 2011 1272 1276 K. Momma, F. Izumi, VESTA 3 for Three-Dimensional Visualization of Crystal, Volumetric and Morphology Data, J. Appl. Crystallogr. 44 (2011) 1272–1276. [80] G. Zhong T. Cheng A.H. Shah C. Wan Z. Huang S. Wang T. Leng Y. Huang W.A. Goddard III X. Duan Determining the hydronium PKα at platinum surfaces and the effect on ph-dependent hydrogen evolution reaction kinetics Proc. Natl. Acad. Sci. U. S. A. 119 2022 1 8 G. Zhong, T. Cheng, A. H. Shah, C. Wan, Z. Huang, S. Wang, T. Leng, Y. Huang, W.A. Goddard III, X. Duan, Determining the Hydronium PKα at Platinum Surfaces and the Effect on PH-Dependent Hydrogen Evolution Reaction Kinetics. Proc. Natl. Acad. Sci. U. S. A. 119 (2022) 1–8. [81] W. Sheng H.A. Gasteiger Y. Shao-Horn Hydrogen oxidation and evolution reaction kinetics on platinum: acid vs alkaline electrolytes J. Electrochem. Soc. 157 2010 B1529 W. Sheng, H.A. Gasteiger, Y. Shao-Horn, Hydrogen Oxidation and Evolution Reaction Kinetics on Platinum: Acid vs Alkaline Electrolytes, J. Electrochem. Soc. 157 (2010) B1529. [82] I. Ledezma-Yanez W.D.Z. Wallace P. Sebastián-Pascual V. Climent J.M. Feliu M.T.M. Koper Interfacial water reorganization as a PH-dependent descriptor of the hydrogen evolution rate on platinum electrodes Nat. Energy 2 2017 17031 I. Ledezma-Yanez, W.D.Z. Wallace, P. Sebastián-Pascual, V. Climent, J.M. Feliu, M.T.M. Koper, Interfacial Water Reorganization as a PH-Dependent Descriptor of the Hydrogen Evolution Rate on Platinum Electrodes, Nat. Energy 2 (2017) 17031. [83] T. Brülle O. Schneider U. Stimming Fundamental Investigation of the HER on a Pt(111) surface at temperatures down to 120 K Zeitschrift fur Phys Chemie 226 2012 919 934 T. Brülle, O. Schneider, U. Stimming, Fundamental Investigation of the HER on a Pt(111) Surface at Temperatures down to 120 K, Zeitschrift fur Phys. Chemie 226 (2012) 919–934. [84] R. Guidelli R.G. Compton J.M. Feliu E. Gileadi J. Lipkowski W. Schmickler S. Trassati Defining the transfer coefficient in electrochemistry: an assessment (IUPAC Technical Report) Pure Appl. Chem. 86 2014 245 258 R. Guidelli, R.G. Compton, J.M. Feliu, E. Gileadi, J. Lipkowski, W. Schmickler, S. Trassati, Defining the Transfer Coefficient in Electrochemistry: An Assessment (IUPAC Technical Report), Pure Appl. Chem. 86 (2014) 245–258. [85] R. Parsons General equations for the kinetics of electrode processes Trans. Faraday Soc. 47 1951 1332 1344 R. Parsons, General Equations for the Kinetics of Electrode Processes, Trans. Faraday Soc. 47 (1951) 1332–1344. [86] J. Tafel Über Die Polarisation Bei Kathodischer Wasserstoffentwicklung, Zeitschrift für Phys Chemie 50 1905 641 712 J. Tafel, Über Die Polarisation Bei Kathodischer Wasserstoffentwicklung, Zeitschrift für Phys. Chemie 50 (1905) 641–712. [87] K.S. Exner Why the Microkinetic Modeling of Experimental Tafel Plots Requires Knowledge of the Reaction Intermediate’s Binding Energy Electrochem. Sci. Adv. 2 2021 e2100037 K.S. Exner, Why the Microkinetic Modeling of Experimental Tafel Plots Requires Knowledge of the Reaction Intermediate’s Binding Energy, Electrochem. Sci. Adv. 2 (2021) e2100037. [88] K.S. Exner I. Sohrabnejad-Eskan H. Over A universal approach to determine the free energy diagram of an electrocatalytic reaction ACS Catal. 8 2018 1864 1879 K.S. Exner, I. Sohrabnejad-Eskan, H. Over, A Universal Approach to Determine the Free Energy Diagram of an Electrocatalytic Reaction, ACS Catal. 8 (2018) 1864–1879. [89] J.K. Nørskov J. Rossmeisl A. Logadottir L. Lindqvist J.R. Kitchin T. Bligaard H. Jónsson Origin of the overpotential for oxygen reduction at a fuel-cell cathode J. Phys. Chem. B 108 2004 17886 17892 J.K. Nørskov, J. Rossmeisl, A. Logadottir, L. Lindqvist, J.R. Kitchin, T. Bligaard, H. Jónsson, Origin of the Overpotential for Oxygen Reduction at a Fuel-Cell Cathode, J. Phys. Chem. B 108 (2004) 17886–17892. [90] D. Luan J. Xiao Adaptive Electric Fields Embedded Electrochemical Barrier Calculations J. Phys. Chem. Lett. 14 2023 685 693 D. Luan, J. Xiao, Adaptive Electric Fields Embedded Electrochemical Barrier Calculations. J. Phys. Chem. Lett. 14 (2023) 685–693. [91] H. H. Kristoffersen, Modeling Electrochemical Proton Adsorption at Constant Potential with Explicit Charging. ChemCatChem 14 (2022) e202200826. [92] E. Skúlason V. Tripkovic M.E. Björketun S. Gudmundsdóttir G. Karlberg J. Rossmeisl T. Bligaard H. Jónsson J.K. Nørskov Modeling the electrochemical hydrogen oxidation and evolution reactions on the basis of density functional theory calculations J. Phys. Chem. C 114 2010 18182 18197 E. Skúlason, V. Tripkovic, M. E. Björketun, S. Gudmundsdóttir, G. Karlberg, J. Rossmeisl, T. Bligaard, H. Jónsson, J. K. Nørskov, Modeling the Electrochemical Hydrogen Oxidation and Evolution Reactions on the Basis of Density Functional Theory Calculations. J. Phys. Chem. C 114 (2010) 18182–18197. [93] P.S. Lamoureux A.R. Singh K. Chan PH effects on hydrogen evolution and oxidation over Pt(111): insights from first-principles ACS Catal. 9 2019 6194 6201 P. S. Lamoureux, A. R.; Singh, K. Chan, PH Effects on Hydrogen Evolution and Oxidation over Pt(111): Insights from First-Principles. ACS Catal. 9 (2019) 6194–6201. [94] A.R. Zeradjanin J.P. Grote G. Polymeros K.J.J. Mayrhofer A critical review on hydrogen evolution electrocatalysis: re-exploring the volcano-relationship Electroanalysis 28 2016 2256 2269 A.R. Zeradjanin, J.P. Grote, G. Polymeros, K.J.J. Mayrhofer, A Critical Review on Hydrogen Evolution Electrocatalysis: Re-Exploring the Volcano-Relationship, Electroanalysis 28 (2016) 2256–2269. [95] R. Kronberg K. Laasonen Reconciling the experimental and computational hydrogen evolution activities of Pt(111) through DFT-based constrained MD simulations ACS Catal. 11 2021 8062 8078 R. Kronberg, K. Laasonen, Reconciling the Experimental and Computational Hydrogen Evolution Activities of Pt(111) through DFT-Based Constrained MD Simulations, ACS Catal. 11 (2021) 8062–8078. [96] Á. Morales-García M. Mayans-Llorach F. Viñes F. Illas Thickness biased capture of CO2 on carbide MXenes Phys. Chem. Chem. Phys. 21 2019 23136 23142 Á. Morales-García, M. Mayans-Llorach, F. Viñes, F. Illas, Thickness Biased Capture of CO2 on Carbide MXenes, Phys. Chem. Chem. Phys. 21 (2019) 23136–23142. [97] R.B. Levy M. Boudart Platinum-like behavior of tungsten carbide in surface catalysis Science 181 1973 547 549 R.B. Levy, M. Boudart, Platinum-Like Behavior of Tungsten Carbide in Surface Catalysis, Science 181 (1973) 547–549. [98] Y. Yoon A.P. Tiwari M. Choi T.C. Novak W. Song H. Chang T. Zyung S.S. Lee S. Jeon K.-S. An Precious-metal-free electrocatalysts for activation of hydrogen evolution with nonmetallic electron donor: chemical composition controllable phosphorous doped vanadium carbide MXene Adv. Funct. Mater. 29 2019 1903443 Y. Yoon, A.P. Tiwari, M. Choi, T.C. Novak, W. Song, H. Chang, T. Zyung, S.S. Lee, S. Jeon, K.-S. An, Precious-Metal-Free Electrocatalysts for Activation of Hydrogen Evolution with Nonmetallic Electron Donor: Chemical Composition Controllable Phosphorous Doped Vanadium Carbide MXene, Adv. Funct. Mater. 29 (2019) 1903443.",
+      "scopus-id": "85151238072",
+      "coredata": {
+        "eid": "1-s2.0-S0021951723001148",
+        "dc:description": "Both experimentally and theoretically, the MXene family has shown promising hydrogen evolution reaction (HER) capabilities. However, so far, the theoretical approach has been relying on the well-known thermodynamic descriptor, ΔG H, whereas experimental studies report Tafel plots, containing kinetic rather than thermodynamic information. Aiming to link theory to experiments, the present study explores five different HER pathways over the exemplary V2C (0001) MXene by density functional theory calculations. While the surface coverage under HER conditions (with either H* or OH* adsorbates) is extracted from a Pourbaix diagram, we determine the energetics of the reaction intermediates and transition states for both surface species as active sites. This enables the construction of free-energy diagrams for the Volmer-Heyrovsky and Volmer-Tafel mechanisms and allows for the simulation of Tafel plots by a rigorous microkinetic framework. While the active-site motif V2C-OH seems to be less relevant for the HER under typical reaction conditions, we demonstrate that the HER is kinetically facile on the V2C-H surface. For this surface termination, we report a potential-depending switching of the preferred mechanism from the Volmer-Heyrovsky to the Volmer-Tafel description with increasing overpotential while encountering similarities to the HER over Pt.",
+        "openArchiveArticle": "false",
+        "prism:coverDate": "2023-05-31",
+        "openaccessUserLicense": "http://creativecommons.org/licenses/by/4.0/",
+        "prism:aggregationType": "Journal",
+        "prism:url": "https://api.elsevier.com/content/article/pii/S0021951723001148",
+        "dc:creator": [
+          {
+            "@_fa": "true",
+            "$": "López, Martí"
+          },
+          {
+            "@_fa": "true",
+            "$": "Exner, Kai S."
+          },
+          {
+            "@_fa": "true",
+            "$": "Viñes, Francesc"
+          },
+          {
+            "@_fa": "true",
+            "$": "Illas, Francesc"
+          }
+        ],
+        "link": [
+          {
+            "@_fa": "true",
+            "@rel": "self",
+            "@href": "https://api.elsevier.com/content/article/pii/S0021951723001148"
+          },
+          {
+            "@_fa": "true",
+            "@rel": "scidir",
+            "@href": "https://www.sciencedirect.com/science/article/pii/S0021951723001148"
+          }
+        ],
+        "dc:format": "application/json",
+        "openaccessType": "Full",
+        "pii": "S0021-9517(23)00114-8",
+        "prism:volume": "421",
+        "prism:publisher": "The Author(s). Published by Elsevier Inc.",
+        "dc:title": "Theoretical study of the mechanism of the hydrogen evolution reaction on the V2C MXene: Thermodynamic and kinetic aspects",
+        "prism:copyright": "© 2023 The Author(s). Published by Elsevier Inc.",
+        "openaccess": "1",
+        "prism:issn": "00219517",
+        "dcterms:subject": [
+          {
+            "@_fa": "true",
+            "$": "V2C"
+          },
+          {
+            "@_fa": "true",
+            "$": "MXene"
+          },
+          {
+            "@_fa": "true",
+            "$": "Density functional calculations"
+          },
+          {
+            "@_fa": "true",
+            "$": "Hydrogen evolution reaction"
+          },
+          {
+            "@_fa": "true",
+            "$": "Kinetics"
+          },
+          {
+            "@_fa": "true",
+            "$": "Tafel plots"
+          }
+        ],
+        "openaccessArticle": "true",
+        "prism:publicationName": "Journal of Catalysis",
+        "openaccessSponsorType": "FundingBody",
+        "prism:pageRange": "252-263",
+        "prism:endingPage": "263",
+        "pubType": "fla",
+        "prism:coverDisplayDate": "May 2023",
+        "prism:doi": "10.1016/j.jcat.2023.03.027",
+        "prism:startingPage": "252",
+        "dc:identifier": "doi:10.1016/j.jcat.2023.03.027",
+        "openaccessSponsorName": "Spanish Institutions 2022"
+      },
+      "objects": {
+        "object": [
+          {
+            "@category": "standard",
+            "@height": "160",
+            "@width": "500",
+            "@_fa": "true",
+            "$": "https://api.elsevier.com/content/object/eid/1-s2.0-S0021951723001148-ga1.jpg?httpAccept=%2A%2F%2A",
+            "@multimediatype": "JPEG image file",
+            "@type": "IMAGE-DOWNSAMPLED",
+            "@size": "22755",
+            "@ref": "ga1",
+            "@mimetype": "image/jpeg"
+          },
+          {
+            "@category": "standard",
+            "@height": "309",
+            "@width": "542",
+            "@_fa": "true",
+            "$": "https://api.elsevier.com/content/object/eid/1-s2.0-S0021951723001148-gr1.jpg?httpAccept=%2A%2F%2A",
+            "@multimediatype": "JPEG image file",
+            "@type": "IMAGE-DOWNSAMPLED",
+            "@size": "47492",
+            "@ref": "gr1",
+            "@mimetype": "image/jpeg"
+          },
+          {
+            "@category": "standard",
+            "@height": "238",
+            "@width": "382",
+            "@_fa": "true",
+            "$": "https://api.elsevier.com/content/object/eid/1-s2.0-S0021951723001148-gr10.jpg?httpAccept=%2A%2F%2A",
+            "@multimediatype": "JPEG image file",
+            "@type": "IMAGE-DOWNSAMPLED",
+            "@size": "17855",
+            "@ref": "gr10",
+            "@mimetype": "image/jpeg"
+          },
+          {
+            "@category": "standard",
+            "@height": "230",
+            "@width": "373",
+            "@_fa": "true",
+            "$": "https://api.elsevier.com/content/object/eid/1-s2.0-S0021951723001148-gr2.jpg?httpAccept=%2A%2F%2A",
+            "@multimediatype": "JPEG image file",
+            "@type": "IMAGE-DOWNSAMPLED",
+            "@size": "23526",
+            "@ref": "gr2",
+            "@mimetype": "image/jpeg"
+          },
+          {
+            "@category": "standard",
+            "@height": "217",
+            "@width": "542",
+            "@_fa": "true",
+            "$": "https://api.elsevier.com/content/object/eid/1-s2.0-S0021951723001148-gr3.jpg?httpAccept=%2A%2F%2A",
+            "@multimediatype": "JPEG image file",
+            "@type": "IMAGE-DOWNSAMPLED",
+            "@size": "36422",
+            "@ref": "gr3",
+            "@mimetype": "image/jpeg"
+          },
+          {
+            "@category": "standard",
+            "@height": "509",
+            "@width": "382",
+            "@_fa": "true",
+            "$": "https://api.elsevier.com/content/object/eid/1-s2.0-S0021951723001148-gr4.jpg?httpAccept=%2A%2F%2A",
+            "@multimediatype": "JPEG image file",
+            "@type": "IMAGE-DOWNSAMPLED",
+            "@size": "48046",
+            "@ref": "gr4",
+            "@mimetype": "image/jpeg"
+          },
+          {
+            "@category": "standard",
+            "@height": "524",
+            "@width": "382",
+            "@_fa": "true",
+            "$": "https://api.elsevier.com/content/object/eid/1-s2.0-S0021951723001148-gr5.jpg?httpAccept=%2A%2F%2A",
+            "@multimediatype": "JPEG image file",
+            "@type": "IMAGE-DOWNSAMPLED",
+            "@size": "39560",
+            "@ref": "gr5",
+            "@mimetype": "image/jpeg"
+          },
+          {
+            "@category": "standard",
+            "@height": "233",
+            "@width": "382",
+            "@_fa": "true",
+            "$": "https://api.elsevier.com/content/object/eid/1-s2.0-S0021951723001148-gr6.jpg?httpAccept=%2A%2F%2A",
+            "@multimediatype": "JPEG image file",
+            "@type": "IMAGE-DOWNSAMPLED",
+            "@size": "19432",
+            "@ref": "gr6",
+            "@mimetype": "image/jpeg"
+          },
+          {
+            "@category": "standard",
+            "@height": "252",
+            "@width": "382",
+            "@_fa": "true",
+            "$": "https://api.elsevier.com/content/object/eid/1-s2.0-S0021951723001148-gr7.jpg?httpAccept=%2A%2F%2A",
+            "@multimediatype": "JPEG image file",
+            "@type": "IMAGE-DOWNSAMPLED",
+            "@size": "13424",
+            "@ref": "gr7",
+            "@mimetype": "image/jpeg"
+          },
+          {
+            "@category": "standard",
+            "@height": "233",
+            "@width": "382",
+            "@_fa": "true",
+            "$": "https://api.elsevier.com/content/object/eid/1-s2.0-S0021951723001148-gr8.jpg?httpAccept=%2A%2F%2A",
+            "@multimediatype": "JPEG image file",
+            "@type": "IMAGE-DOWNSAMPLED",
+            "@size": "22725",
+            "@ref": "gr8",
+            "@mimetype": "image/jpeg"
+          },
+          {
+            "@category": "standard",
+            "@height": "237",
+            "@width": "382",
+            "@_fa": "true",
+            "$": "https://api.elsevier.com/content/object/eid/1-s2.0-S0021951723001148-gr9.jpg?httpAccept=%2A%2F%2A",
+            "@multimediatype": "JPEG image file",
+            "@type": "IMAGE-DOWNSAMPLED",
+            "@size": "17147",
+            "@ref": "gr9",
+            "@mimetype": "image/jpeg"
+          },
+          {
+            "@category": "thumbnail",
+            "@height": "70",
+            "@width": "219",
+            "@_fa": "true",
+            "$": "https://api.elsevier.com/content/object/eid/1-s2.0-S0021951723001148-ga1.sml?httpAccept=%2A%2F%2A",
+            "@multimediatype": "GIF image file",
+            "@type": "IMAGE-THUMBNAIL",
+            "@size": "6535",
+            "@ref": "ga1",
+            "@mimetype": "image/gif"
+          },
+          {
+            "@category": "thumbnail",
+            "@height": "125",
+            "@width": "219",
+            "@_fa": "true",
+            "$": "https://api.elsevier.com/content/object/eid/1-s2.0-S0021951723001148-gr1.sml?httpAccept=%2A%2F%2A",
+            "@multimediatype": "GIF image file",
+            "@type": "IMAGE-THUMBNAIL",
+            "@size": "11660",
+            "@ref": "gr1",
+            "@mimetype": "image/gif"
+          },
+          {
+            "@category": "thumbnail",
+            "@height": "136",
+            "@width": "219",
+            "@_fa": "true",
+            "$": "https://api.elsevier.com/content/object/eid/1-s2.0-S0021951723001148-gr10.sml?httpAccept=%2A%2F%2A",
+            "@multimediatype": "GIF image file",
+            "@type": "IMAGE-THUMBNAIL",
+            "@size": "4285",
+            "@ref": "gr10",
+            "@mimetype": "image/gif"
+          },
+          {
+            "@category": "thumbnail",
+            "@height": "135",
+            "@width": "219",
+            "@_fa": "true",
+            "$": "https://api.elsevier.com/content/object/eid/1-s2.0-S0021951723001148-gr2.sml?httpAccept=%2A%2F%2A",
+            "@multimediatype": "GIF image file",
+            "@type": "IMAGE-THUMBNAIL",
+            "@size": "17233",
+            "@ref": "gr2",
+            "@mimetype": "image/gif"
+          },
+          {
+            "@category": "thumbnail",
+            "@height": "88",
+            "@width": "219",
+            "@_fa": "true",
+            "$": "https://api.elsevier.com/content/object/eid/1-s2.0-S0021951723001148-gr3.sml?httpAccept=%2A%2F%2A",
+            "@multimediatype": "GIF image file",
+            "@type": "IMAGE-THUMBNAIL",
+            "@size": "9606",
+            "@ref": "gr3",
+            "@mimetype": "image/gif"
+          },
+          {
+            "@category": "thumbnail",
+            "@height": "164",
+            "@width": "123",
+            "@_fa": "true",
+            "$": "https://api.elsevier.com/content/object/eid/1-s2.0-S0021951723001148-gr4.sml?httpAccept=%2A%2F%2A",
+            "@multimediatype": "GIF image file",
+            "@type": "IMAGE-THUMBNAIL",
+            "@size": "5956",
+            "@ref": "gr4",
+            "@mimetype": "image/gif"
+          },
+          {
+            "@category": "thumbnail",
+            "@height": "163",
+            "@width": "119",
+            "@_fa": "true",
+            "$": "https://api.elsevier.com/content/object/eid/1-s2.0-S0021951723001148-gr5.sml?httpAccept=%2A%2F%2A",
+            "@multimediatype": "GIF image file",
+            "@type": "IMAGE-THUMBNAIL",
+            "@size": "4441",
+            "@ref": "gr5",
+            "@mimetype": "image/gif"
+          },
+          {
+            "@category": "thumbnail",
+            "@height": "134",
+            "@width": "219",
+            "@_fa": "true",
+            "$": "https://api.elsevier.com/content/object/eid/1-s2.0-S0021951723001148-gr6.sml?httpAccept=%2A%2F%2A",
+            "@multimediatype": "GIF image file",
+            "@type": "IMAGE-THUMBNAIL",
+            "@size": "5953",
+            "@ref": "gr6",
+            "@mimetype": "image/gif"
+          },
+          {
+            "@category": "thumbnail",
+            "@height": "144",
+            "@width": "219",
+            "@_fa": "true",
+            "$": "https://api.elsevier.com/content/object/eid/1-s2.0-S0021951723001148-gr7.sml?httpAccept=%2A%2F%2A",
+            "@multimediatype": "GIF image file",
+            "@type": "IMAGE-THUMBNAIL",
+            "@size": "4037",
+            "@ref": "gr7",
+            "@mimetype": "image/gif"
+          },
+          {
+            "@category": "thumbnail",
+            "@height": "134",
+            "@width": "219",
+            "@_fa": "true",
+            "$": "https://api.elsevier.com/content/object/eid/1-s2.0-S0021951723001148-gr8.sml?httpAccept=%2A%2F%2A",
+            "@multimediatype": "GIF image file",
+            "@type": "IMAGE-THUMBNAIL",
+            "@size": "6690",
+            "@ref": "gr8",
+            "@mimetype": "image/gif"
+          },
+          {
+            "@category": "thumbnail",
+            "@height": "136",
+            "@width": "219",
+            "@_fa": "true",
+            "$": "https://api.elsevier.com/content/object/eid/1-s2.0-S0021951723001148-gr9.sml?httpAccept=%2A%2F%2A",
+            "@multimediatype": "GIF image file",
+            "@type": "IMAGE-THUMBNAIL",
+            "@size": "4629",
+            "@ref": "gr9",
+            "@mimetype": "image/gif"
+          },
+          {
+            "@category": "high",
+            "@height": "708",
+            "@width": "2213",
+            "@_fa": "true",
+            "$": "https://api.elsevier.com/content/object/eid/1-s2.0-S0021951723001148-ga1_lrg.jpg?httpAccept=%2A%2F%2A",
+            "@multimediatype": "JPEG image file",
+            "@type": "IMAGE-HIGH-RES",
+            "@size": "129003",
+            "@ref": "ga1",
+            "@mimetype": "image/jpeg"
+          },
+          {
+            "@category": "high",
+            "@height": "1368",
+            "@width": "2402",
+            "@_fa": "true",
+            "$": "https://api.elsevier.com/content/object/eid/1-s2.0-S0021951723001148-gr1_lrg.jpg?httpAccept=%2A%2F%2A",
+            "@multimediatype": "JPEG image file",
+            "@type": "IMAGE-HIGH-RES",
+            "@size": "268400",
+            "@ref": "gr1",
+            "@mimetype": "image/jpeg"
+          },
+          {
+            "@category": "high",
+            "@height": "1054",
+            "@width": "1693",
+            "@_fa": "true",
+            "$": "https://api.elsevier.com/content/object/eid/1-s2.0-S0021951723001148-gr10_lrg.jpg?httpAccept=%2A%2F%2A",
+            "@multimediatype": "JPEG image file",
+            "@type": "IMAGE-HIGH-RES",
+            "@size": "101707",
+            "@ref": "gr10",
+            "@mimetype": "image/jpeg"
+          },
+          {
+            "@category": "high",
+            "@height": "1018",
+            "@width": "1654",
+            "@_fa": "true",
+            "$": "https://api.elsevier.com/content/object/eid/1-s2.0-S0021951723001148-gr2_lrg.jpg?httpAccept=%2A%2F%2A",
+            "@multimediatype": "JPEG image file",
+            "@type": "IMAGE-HIGH-RES",
+            "@size": "130273",
+            "@ref": "gr2",
+            "@mimetype": "image/jpeg"
+          },
+          {
+            "@category": "high",
+            "@height": "961",
+            "@width": "2402",
+            "@_fa": "true",
+            "$": "https://api.elsevier.com/content/object/eid/1-s2.0-S0021951723001148-gr3_lrg.jpg?httpAccept=%2A%2F%2A",
+            "@multimediatype": "JPEG image file",
+            "@type": "IMAGE-HIGH-RES",
+            "@size": "196956",
+            "@ref": "gr3",
+            "@mimetype": "image/jpeg"
+          },
+          {
+            "@category": "high",
+            "@height": "2258",
+            "@width": "1693",
+            "@_fa": "true",
+            "$": "https://api.elsevier.com/content/object/eid/1-s2.0-S0021951723001148-gr4_lrg.jpg?httpAccept=%2A%2F%2A",
+            "@multimediatype": "JPEG image file",
+            "@type": "IMAGE-HIGH-RES",
+            "@size": "274555",
+            "@ref": "gr4",
+            "@mimetype": "image/jpeg"
+          },
+          {
+            "@category": "high",
+            "@height": "2323",
+            "@width": "1693",
+            "@_fa": "true",
+            "$": "https://api.elsevier.com/content/object/eid/1-s2.0-S0021951723001148-gr5_lrg.jpg?httpAccept=%2A%2F%2A",
+            "@multimediatype": "JPEG image file",
+            "@type": "IMAGE-HIGH-RES",
+            "@size": "213474",
+            "@ref": "gr5",
+            "@mimetype": "image/jpeg"
+          },
+          {
+            "@category": "high",
+            "@height": "1034",
+            "@width": "1693",
+            "@_fa": "true",
+            "$": "https://api.elsevier.com/content/object/eid/1-s2.0-S0021951723001148-gr6_lrg.jpg?httpAccept=%2A%2F%2A",
+            "@multimediatype": "JPEG image file",
+            "@type": "IMAGE-HIGH-RES",
+            "@size": "115199",
+            "@ref": "gr6",
+            "@mimetype": "image/jpeg"
+          },
+          {
+            "@category": "high",
+            "@height": "1116",
+            "@width": "1693",
+            "@_fa": "true",
+            "$": "https://api.elsevier.com/content/object/eid/1-s2.0-S0021951723001148-gr7_lrg.jpg?httpAccept=%2A%2F%2A",
+            "@multimediatype": "JPEG image file",
+            "@type": "IMAGE-HIGH-RES",
+            "@size": "79959",
+            "@ref": "gr7",
+            "@mimetype": "image/jpeg"
+          },
+          {
+            "@category": "high",
+            "@height": "1034",
+            "@width": "1693",
+            "@_fa": "true",
+            "$": "https://api.elsevier.com/content/object/eid/1-s2.0-S0021951723001148-gr8_lrg.jpg?httpAccept=%2A%2F%2A",
+            "@multimediatype": "JPEG image file",
+            "@type": "IMAGE-HIGH-RES",
+            "@size": "130517",
+            "@ref": "gr8",
+            "@mimetype": "image/jpeg"
+          },
+          {
+            "@category": "high",
+            "@height": "1052",
+            "@width": "1693",
+            "@_fa": "true",
+            "$": "https://api.elsevier.com/content/object/eid/1-s2.0-S0021951723001148-gr9_lrg.jpg?httpAccept=%2A%2F%2A",
+            "@multimediatype": "JPEG image file",
+            "@type": "IMAGE-HIGH-RES",
+            "@size": "98307",
+            "@ref": "gr9",
+            "@mimetype": "image/jpeg"
+          },
+          {
+            "@category": "standard",
+            "@_fa": "true",
+            "$": "https://api.elsevier.com/content/object/eid/1-s2.0-S0021951723001148-mmc1.docx?httpAccept=%2A%2F%2A",
+            "@multimediatype": "Microsoft Word file",
+            "@type": "APPLICATION",
+            "@size": "3376676",
+            "@ref": "mmc1",
+            "@mimetype": "application/word"
+          },
+          {
+            "@category": "thumbnail",
+            "@_fa": "true",
+            "$": "https://api.elsevier.com/content/object/eid/1-s2.0-S0021951723001148-si1.svg?httpAccept=%2A%2F%2A",
+            "@multimediatype": "Scalable Vector Graphics file",
+            "@type": "ALTIMG",
+            "@size": "1769",
+            "@ref": "si1",
+            "@mimetype": "image/svg+xml"
+          },
+          {
+            "@category": "thumbnail",
+            "@_fa": "true",
+            "$": "https://api.elsevier.com/content/object/eid/1-s2.0-S0021951723001148-si10.svg?httpAccept=%2A%2F%2A",
+            "@multimediatype": "Scalable Vector Graphics file",
+            "@type": "ALTIMG",
+            "@size": "4057",
+            "@ref": "si10",
+            "@mimetype": "image/svg+xml"
+          },
+          {
+            "@category": "thumbnail",
+            "@_fa": "true",
+            "$": "https://api.elsevier.com/content/object/eid/1-s2.0-S0021951723001148-si11.svg?httpAccept=%2A%2F%2A",
+            "@multimediatype": "Scalable Vector Graphics file",
+            "@type": "ALTIMG",
+            "@size": "3285",
+            "@ref": "si11",
+            "@mimetype": "image/svg+xml"
+          },
+          {
+            "@category": "thumbnail",
+            "@_fa": "true",
+            "$": "https://api.elsevier.com/content/object/eid/1-s2.0-S0021951723001148-si12.svg?httpAccept=%2A%2F%2A",
+            "@multimediatype": "Scalable Vector Graphics file",
+            "@type": "ALTIMG",
+            "@size": "5444",
+            "@ref": "si12",
+            "@mimetype": "image/svg+xml"
+          },
+          {
+            "@category": "thumbnail",
+            "@_fa": "true",
+            "$": "https://api.elsevier.com/content/object/eid/1-s2.0-S0021951723001148-si13.svg?httpAccept=%2A%2F%2A",
+            "@multimediatype": "Scalable Vector Graphics file",
+            "@type": "ALTIMG",
+            "@size": "4004",
+            "@ref": "si13",
+            "@mimetype": "image/svg+xml"
+          },
+          {
+            "@category": "thumbnail",
+            "@_fa": "true",
+            "$": "https://api.elsevier.com/content/object/eid/1-s2.0-S0021951723001148-si14.svg?httpAccept=%2A%2F%2A",
+            "@multimediatype": "Scalable Vector Graphics file",
+            "@type": "ALTIMG",
+            "@size": "8057",
+            "@ref": "si14",
+            "@mimetype": "image/svg+xml"
+          },
+          {
+            "@category": "thumbnail",
+            "@_fa": "true",
+            "$": "https://api.elsevier.com/content/object/eid/1-s2.0-S0021951723001148-si15.svg?httpAccept=%2A%2F%2A",
+            "@multimediatype": "Scalable Vector Graphics file",
+            "@type": "ALTIMG",
+            "@size": "4113",
+            "@ref": "si15",
+            "@mimetype": "image/svg+xml"
+          },
+          {
+            "@category": "thumbnail",
+            "@_fa": "true",
+            "$": "https://api.elsevier.com/content/object/eid/1-s2.0-S0021951723001148-si16.svg?httpAccept=%2A%2F%2A",
+            "@multimediatype": "Scalable Vector Graphics file",
+            "@type": "ALTIMG",
+            "@size": "8254",
+            "@ref": "si16",
+            "@mimetype": "image/svg+xml"
+          },
+          {
+            "@category": "thumbnail",
+            "@_fa": "true",
+            "$": "https://api.elsevier.com/content/object/eid/1-s2.0-S0021951723001148-si17.svg?httpAccept=%2A%2F%2A",
+            "@multimediatype": "Scalable Vector Graphics file",
+            "@type": "ALTIMG",
+            "@size": "5857",
+            "@ref": "si17",
+            "@mimetype": "image/svg+xml"
+          },
+          {
+            "@category": "thumbnail",
+            "@_fa": "true",
+            "$": "https://api.elsevier.com/content/object/eid/1-s2.0-S0021951723001148-si18.svg?httpAccept=%2A%2F%2A",
+            "@multimediatype": "Scalable Vector Graphics file",
+            "@type": "ALTIMG",
+            "@size": "3509",
+            "@ref": "si18",
+            "@mimetype": "image/svg+xml"
+          },
+          {
+            "@category": "thumbnail",
+            "@_fa": "true",
+            "$": "https://api.elsevier.com/content/object/eid/1-s2.0-S0021951723001148-si19.svg?httpAccept=%2A%2F%2A",
+            "@multimediatype": "Scalable Vector Graphics file",
+            "@type": "ALTIMG",
+            "@size": "3620",
+            "@ref": "si19",
+            "@mimetype": "image/svg+xml"
+          },
+          {
+            "@category": "thumbnail",
+            "@_fa": "true",
+            "$": "https://api.elsevier.com/content/object/eid/1-s2.0-S0021951723001148-si2.svg?httpAccept=%2A%2F%2A",
+            "@multimediatype": "Scalable Vector Graphics file",
+            "@type": "ALTIMG",
+            "@size": "1770",
+            "@ref": "si2",
+            "@mimetype": "image/svg+xml"
+          },
+          {
+            "@category": "thumbnail",
+            "@_fa": "true",
+            "$": "https://api.elsevier.com/content/object/eid/1-s2.0-S0021951723001148-si20.svg?httpAccept=%2A%2F%2A",
+            "@multimediatype": "Scalable Vector Graphics file",
+            "@type": "ALTIMG",
+            "@size": "5521",
+            "@ref": "si20",
+            "@mimetype": "image/svg+xml"
+          },
+          {
+            "@category": "thumbnail",
+            "@_fa": "true",
+            "$": "https://api.elsevier.com/content/object/eid/1-s2.0-S0021951723001148-si21.svg?httpAccept=%2A%2F%2A",
+            "@multimediatype": "Scalable Vector Graphics file",
+            "@type": "ALTIMG",
+            "@size": "8015",
+            "@ref": "si21",
+            "@mimetype": "image/svg+xml"
+          },
+          {
+            "@category": "thumbnail",
+            "@_fa": "true",
+            "$": "https://api.elsevier.com/content/object/eid/1-s2.0-S0021951723001148-si22.svg?httpAccept=%2A%2F%2A",
+            "@multimediatype": "Scalable Vector Graphics file",
+            "@type": "ALTIMG",
+            "@size": "3561",
+            "@ref": "si22",
+            "@mimetype": "image/svg+xml"
+          },
+          {
+            "@category": "thumbnail",
+            "@_fa": "true",
+            "$": "https://api.elsevier.com/content/object/eid/1-s2.0-S0021951723001148-si23.svg?httpAccept=%2A%2F%2A",
+            "@multimediatype": "Scalable Vector Graphics file",
+            "@type": "ALTIMG",
+            "@size": "3444",
+            "@ref": "si23",
+            "@mimetype": "image/svg+xml"
+          },
+          {
+            "@category": "thumbnail",
+            "@_fa": "true",
+            "$": "https://api.elsevier.com/content/object/eid/1-s2.0-S0021951723001148-si24.svg?httpAccept=%2A%2F%2A",
+            "@multimediatype": "Scalable Vector Graphics file",
+            "@type": "ALTIMG",
+            "@size": "10266",
+            "@ref": "si24",
+            "@mimetype": "image/svg+xml"
+          },
+          {
+            "@category": "thumbnail",
+            "@_fa": "true",
+            "$": "https://api.elsevier.com/content/object/eid/1-s2.0-S0021951723001148-si25.svg?httpAccept=%2A%2F%2A",
+            "@multimediatype": "Scalable Vector Graphics file",
+            "@type": "ALTIMG",
+            "@size": "8937",
+            "@ref": "si25",
+            "@mimetype": "image/svg+xml"
+          },
+          {
+            "@category": "thumbnail",
+            "@_fa": "true",
+            "$": "https://api.elsevier.com/content/object/eid/1-s2.0-S0021951723001148-si26.svg?httpAccept=%2A%2F%2A",
+            "@multimediatype": "Scalable Vector Graphics file",
+            "@type": "ALTIMG",
+            "@size": "9364",
+            "@ref": "si26",
+            "@mimetype": "image/svg+xml"
+          },
+          {
+            "@category": "thumbnail",
+            "@_fa": "true",
+            "$": "https://api.elsevier.com/content/object/eid/1-s2.0-S0021951723001148-si27.svg?httpAccept=%2A%2F%2A",
+            "@multimediatype": "Scalable Vector Graphics file",
+            "@type": "ALTIMG",
+            "@size": "4073",
+            "@ref": "si27",
+            "@mimetype": "image/svg+xml"
+          },
+          {
+            "@category": "thumbnail",
+            "@_fa": "true",
+            "$": "https://api.elsevier.com/content/object/eid/1-s2.0-S0021951723001148-si28.svg?httpAccept=%2A%2F%2A",
+            "@multimediatype": "Scalable Vector Graphics file",
+            "@type": "ALTIMG",
+            "@size": "12447",
+            "@ref": "si28",
+            "@mimetype": "image/svg+xml"
+          },
+          {
+            "@category": "thumbnail",
+            "@_fa": "true",
+            "$": "https://api.elsevier.com/content/object/eid/1-s2.0-S0021951723001148-si29.svg?httpAccept=%2A%2F%2A",
+            "@multimediatype": "Scalable Vector Graphics file",
+            "@type": "ALTIMG",
+            "@size": "4192",
+            "@ref": "si29",
+            "@mimetype": "image/svg+xml"
+          },
+          {
+            "@category": "thumbnail",
+            "@_fa": "true",
+            "$": "https://api.elsevier.com/content/object/eid/1-s2.0-S0021951723001148-si3.svg?httpAccept=%2A%2F%2A",
+            "@multimediatype": "Scalable Vector Graphics file",
+            "@type": "ALTIMG",
+            "@size": "17632",
+            "@ref": "si3",
+            "@mimetype": "image/svg+xml"
+          },
+          {
+            "@category": "thumbnail",
+            "@_fa": "true",
+            "$": "https://api.elsevier.com/content/object/eid/1-s2.0-S0021951723001148-si30.svg?httpAccept=%2A%2F%2A",
+            "@multimediatype": "Scalable Vector Graphics file",
+            "@type": "ALTIMG",
+            "@size": "2724",
+            "@ref": "si30",
+            "@mimetype": "image/svg+xml"
+          },
+          {
+            "@category": "thumbnail",
+            "@_fa": "true",
+            "$": "https://api.elsevier.com/content/object/eid/1-s2.0-S0021951723001148-si31.svg?httpAccept=%2A%2F%2A",
+            "@multimediatype": "Scalable Vector Graphics file",
+            "@type": "ALTIMG",
+            "@size": "1638",
+            "@ref": "si31",
+            "@mimetype": "image/svg+xml"
+          },
+          {
+            "@category": "thumbnail",
+            "@_fa": "true",
+            "$": "https://api.elsevier.com/content/object/eid/1-s2.0-S0021951723001148-si32.svg?httpAccept=%2A%2F%2A",
+            "@multimediatype": "Scalable Vector Graphics file",
+            "@type": "ALTIMG",
+            "@size": "24639",
+            "@ref": "si32",
+            "@mimetype": "image/svg+xml"
+          },
+          {
+            "@category": "thumbnail",
+            "@_fa": "true",
+            "$": "https://api.elsevier.com/content/object/eid/1-s2.0-S0021951723001148-si33.svg?httpAccept=%2A%2F%2A",
+            "@multimediatype": "Scalable Vector Graphics file",
+            "@type": "ALTIMG",
+            "@size": "7514",
+            "@ref": "si33",
+            "@mimetype": "image/svg+xml"
+          },
+          {
+            "@category": "thumbnail",
+            "@_fa": "true",
+            "$": "https://api.elsevier.com/content/object/eid/1-s2.0-S0021951723001148-si34.svg?httpAccept=%2A%2F%2A",
+            "@multimediatype": "Scalable Vector Graphics file",
+            "@type": "ALTIMG",
+            "@size": "8704",
+            "@ref": "si34",
+            "@mimetype": "image/svg+xml"
+          },
+          {
+            "@category": "thumbnail",
+            "@_fa": "true",
+            "$": "https://api.elsevier.com/content/object/eid/1-s2.0-S0021951723001148-si35.svg?httpAccept=%2A%2F%2A",
+            "@multimediatype": "Scalable Vector Graphics file",
+            "@type": "ALTIMG",
+            "@size": "5176",
+            "@ref": "si35",
+            "@mimetype": "image/svg+xml"
+          },
+          {
+            "@category": "thumbnail",
+            "@_fa": "true",
+            "$": "https://api.elsevier.com/content/object/eid/1-s2.0-S0021951723001148-si36.svg?httpAccept=%2A%2F%2A",
+            "@multimediatype": "Scalable Vector Graphics file",
+            "@type": "ALTIMG",
+            "@size": "5424",
+            "@ref": "si36",
+            "@mimetype": "image/svg+xml"
+          },
+          {
+            "@category": "thumbnail",
+            "@_fa": "true",
+            "$": "https://api.elsevier.com/content/object/eid/1-s2.0-S0021951723001148-si37.svg?httpAccept=%2A%2F%2A",
+            "@multimediatype": "Scalable Vector Graphics file",
+            "@type": "ALTIMG",
+            "@size": "5279",
+            "@ref": "si37",
+            "@mimetype": "image/svg+xml"
+          },
+          {
+            "@category": "thumbnail",
+            "@_fa": "true",
+            "$": "https://api.elsevier.com/content/object/eid/1-s2.0-S0021951723001148-si38.svg?httpAccept=%2A%2F%2A",
+            "@multimediatype": "Scalable Vector Graphics file",
+            "@type": "ALTIMG",
+            "@size": "5527",
+            "@ref": "si38",
+            "@mimetype": "image/svg+xml"
+          },
+          {
+            "@category": "thumbnail",
+            "@_fa": "true",
+            "$": "https://api.elsevier.com/content/object/eid/1-s2.0-S0021951723001148-si39.svg?httpAccept=%2A%2F%2A",
+            "@multimediatype": "Scalable Vector Graphics file",
+            "@type": "ALTIMG",
+            "@size": "3447",
+            "@ref": "si39",
+            "@mimetype": "image/svg+xml"
+          },
+          {
+            "@category": "thumbnail",
+            "@_fa": "true",
+            "$": "https://api.elsevier.com/content/object/eid/1-s2.0-S0021951723001148-si4.svg?httpAccept=%2A%2F%2A",
+            "@multimediatype": "Scalable Vector Graphics file",
+            "@type": "ALTIMG",
+            "@size": "17312",
+            "@ref": "si4",
+            "@mimetype": "image/svg+xml"
+          },
+          {
+            "@category": "thumbnail",
+            "@_fa": "true",
+            "$": "https://api.elsevier.com/content/object/eid/1-s2.0-S0021951723001148-si40.svg?httpAccept=%2A%2F%2A",
+            "@multimediatype": "Scalable Vector Graphics file",
+            "@type": "ALTIMG",
+            "@size": "3779",
+            "@ref": "si40",
+            "@mimetype": "image/svg+xml"
+          },
+          {
+            "@category": "thumbnail",
+            "@_fa": "true",
+            "$": "https://api.elsevier.com/content/object/eid/1-s2.0-S0021951723001148-si41.svg?httpAccept=%2A%2F%2A",
+            "@multimediatype": "Scalable Vector Graphics file",
+            "@type": "ALTIMG",
+            "@size": "3174",
+            "@ref": "si41",
+            "@mimetype": "image/svg+xml"
+          },
+          {
+            "@category": "thumbnail",
+            "@_fa": "true",
+            "$": "https://api.elsevier.com/content/object/eid/1-s2.0-S0021951723001148-si42.svg?httpAccept=%2A%2F%2A",
+            "@multimediatype": "Scalable Vector Graphics file",
+            "@type": "ALTIMG",
+            "@size": "2822",
+            "@ref": "si42",
+            "@mimetype": "image/svg+xml"
+          },
+          {
+            "@category": "thumbnail",
+            "@_fa": "true",
+            "$": "https://api.elsevier.com/content/object/eid/1-s2.0-S0021951723001148-si43.svg?httpAccept=%2A%2F%2A",
+            "@multimediatype": "Scalable Vector Graphics file",
+            "@type": "ALTIMG",
+            "@size": "4521",
+            "@ref": "si43",
+            "@mimetype": "image/svg+xml"
+          },
+          {
+            "@category": "thumbnail",
+            "@_fa": "true",
+            "$": "https://api.elsevier.com/content/object/eid/1-s2.0-S0021951723001148-si44.svg?httpAccept=%2A%2F%2A",
+            "@multimediatype": "Scalable Vector Graphics file",
+            "@type": "ALTIMG",
+            "@size": "12739",
+            "@ref": "si44",
+            "@mimetype": "image/svg+xml"
+          },
+          {
+            "@category": "thumbnail",
+            "@_fa": "true",
+            "$": "https://api.elsevier.com/content/object/eid/1-s2.0-S0021951723001148-si45.svg?httpAccept=%2A%2F%2A",
+            "@multimediatype": "Scalable Vector Graphics file",
+            "@type": "ALTIMG",
+            "@size": "10640",
+            "@ref": "si45",
+            "@mimetype": "image/svg+xml"
+          },
+          {
+            "@category": "thumbnail",
+            "@_fa": "true",
+            "$": "https://api.elsevier.com/content/object/eid/1-s2.0-S0021951723001148-si46.svg?httpAccept=%2A%2F%2A",
+            "@multimediatype": "Scalable Vector Graphics file",
+            "@type": "ALTIMG",
+            "@size": "17167",
+            "@ref": "si46",
+            "@mimetype": "image/svg+xml"
+          },
+          {
+            "@category": "thumbnail",
+            "@_fa": "true",
+            "$": "https://api.elsevier.com/content/object/eid/1-s2.0-S0021951723001148-si47.svg?httpAccept=%2A%2F%2A",
+            "@multimediatype": "Scalable Vector Graphics file",
+            "@type": "ALTIMG",
+            "@size": "20723",
+            "@ref": "si47",
+            "@mimetype": "image/svg+xml"
+          },
+          {
+            "@category": "thumbnail",
+            "@_fa": "true",
+            "$": "https://api.elsevier.com/content/object/eid/1-s2.0-S0021951723001148-si48.svg?httpAccept=%2A%2F%2A",
+            "@multimediatype": "Scalable Vector Graphics file",
+            "@type": "ALTIMG",
+            "@size": "13783",
+            "@ref": "si48",
+            "@mimetype": "image/svg+xml"
+          },
+          {
+            "@category": "thumbnail",
+            "@_fa": "true",
+            "$": "https://api.elsevier.com/content/object/eid/1-s2.0-S0021951723001148-si49.svg?httpAccept=%2A%2F%2A",
+            "@multimediatype": "Scalable Vector Graphics file",
+            "@type": "ALTIMG",
+            "@size": "3760",
+            "@ref": "si49",
+            "@mimetype": "image/svg+xml"
+          },
+          {
+            "@category": "thumbnail",
+            "@_fa": "true",
+            "$": "https://api.elsevier.com/content/object/eid/1-s2.0-S0021951723001148-si5.svg?httpAccept=%2A%2F%2A",
+            "@multimediatype": "Scalable Vector Graphics file",
+            "@type": "ALTIMG",
+            "@size": "20647",
+            "@ref": "si5",
+            "@mimetype": "image/svg+xml"
+          },
+          {
+            "@category": "thumbnail",
+            "@_fa": "true",
+            "$": "https://api.elsevier.com/content/object/eid/1-s2.0-S0021951723001148-si50.svg?httpAccept=%2A%2F%2A",
+            "@multimediatype": "Scalable Vector Graphics file",
+            "@type": "ALTIMG",
+            "@size": "44675",
+            "@ref": "si50",
+            "@mimetype": "image/svg+xml"
+          },
+          {
+            "@category": "thumbnail",
+            "@_fa": "true",
+            "$": "https://api.elsevier.com/content/object/eid/1-s2.0-S0021951723001148-si51.svg?httpAccept=%2A%2F%2A",
+            "@multimediatype": "Scalable Vector Graphics file",
+            "@type": "ALTIMG",
+            "@size": "3217",
+            "@ref": "si51",
+            "@mimetype": "image/svg+xml"
+          },
+          {
+            "@category": "thumbnail",
+            "@_fa": "true",
+            "$": "https://api.elsevier.com/content/object/eid/1-s2.0-S0021951723001148-si52.svg?httpAccept=%2A%2F%2A",
+            "@multimediatype": "Scalable Vector Graphics file",
+            "@type": "ALTIMG",
+            "@size": "4365",
+            "@ref": "si52",
+            "@mimetype": "image/svg+xml"
+          },
+          {
+            "@category": "thumbnail",
+            "@_fa": "true",
+            "$": "https://api.elsevier.com/content/object/eid/1-s2.0-S0021951723001148-si53.svg?httpAccept=%2A%2F%2A",
+            "@multimediatype": "Scalable Vector Graphics file",
+            "@type": "ALTIMG",
+            "@size": "17076",
+            "@ref": "si53",
+            "@mimetype": "image/svg+xml"
+          },
+          {
+            "@category": "thumbnail",
+            "@_fa": "true",
+            "$": "https://api.elsevier.com/content/object/eid/1-s2.0-S0021951723001148-si54.svg?httpAccept=%2A%2F%2A",
+            "@multimediatype": "Scalable Vector Graphics file",
+            "@type": "ALTIMG",
+            "@size": "2521",
+            "@ref": "si54",
+            "@mimetype": "image/svg+xml"
+          },
+          {
+            "@category": "thumbnail",
+            "@_fa": "true",
+            "$": "https://api.elsevier.com/content/object/eid/1-s2.0-S0021951723001148-si55.svg?httpAccept=%2A%2F%2A",
+            "@multimediatype": "Scalable Vector Graphics file",
+            "@type": "ALTIMG",
+            "@size": "2624",
+            "@ref": "si55",
+            "@mimetype": "image/svg+xml"
+          },
+          {
+            "@category": "thumbnail",
+            "@_fa": "true",
+            "$": "https://api.elsevier.com/content/object/eid/1-s2.0-S0021951723001148-si56.svg?httpAccept=%2A%2F%2A",
+            "@multimediatype": "Scalable Vector Graphics file",
+            "@type": "ALTIMG",
+            "@size": "3978",
+            "@ref": "si56",
+            "@mimetype": "image/svg+xml"
+          },
+          {
+            "@category": "thumbnail",
+            "@_fa": "true",
+            "$": "https://api.elsevier.com/content/object/eid/1-s2.0-S0021951723001148-si57.svg?httpAccept=%2A%2F%2A",
+            "@multimediatype": "Scalable Vector Graphics file",
+            "@type": "ALTIMG",
+            "@size": "4293",
+            "@ref": "si57",
+            "@mimetype": "image/svg+xml"
+          },
+          {
+            "@category": "thumbnail",
+            "@_fa": "true",
+            "$": "https://api.elsevier.com/content/object/eid/1-s2.0-S0021951723001148-si58.svg?httpAccept=%2A%2F%2A",
+            "@multimediatype": "Scalable Vector Graphics file",
+            "@type": "ALTIMG",
+            "@size": "2233",
+            "@ref": "si58",
+            "@mimetype": "image/svg+xml"
+          },
+          {
+            "@category": "thumbnail",
+            "@_fa": "true",
+            "$": "https://api.elsevier.com/content/object/eid/1-s2.0-S0021951723001148-si59.svg?httpAccept=%2A%2F%2A",
+            "@multimediatype": "Scalable Vector Graphics file",
+            "@type": "ALTIMG",
+            "@size": "3286",
+            "@ref": "si59",
+            "@mimetype": "image/svg+xml"
+          },
+          {
+            "@category": "thumbnail",
+            "@_fa": "true",
+            "$": "https://api.elsevier.com/content/object/eid/1-s2.0-S0021951723001148-si6.svg?httpAccept=%2A%2F%2A",
+            "@multimediatype": "Scalable Vector Graphics file",
+            "@type": "ALTIMG",
+            "@size": "15791",
+            "@ref": "si6",
+            "@mimetype": "image/svg+xml"
+          },
+          {
+            "@category": "thumbnail",
+            "@_fa": "true",
+            "$": "https://api.elsevier.com/content/object/eid/1-s2.0-S0021951723001148-si60.svg?httpAccept=%2A%2F%2A",
+            "@multimediatype": "Scalable Vector Graphics file",
+            "@type": "ALTIMG",
+            "@size": "4093",
+            "@ref": "si60",
+            "@mimetype": "image/svg+xml"
+          },
+          {
+            "@category": "thumbnail",
+            "@_fa": "true",
+            "$": "https://api.elsevier.com/content/object/eid/1-s2.0-S0021951723001148-si61.svg?httpAccept=%2A%2F%2A",
+            "@multimediatype": "Scalable Vector Graphics file",
+            "@type": "ALTIMG",
+            "@size": "3978",
+            "@ref": "si61",
+            "@mimetype": "image/svg+xml"
+          },
+          {
+            "@category": "thumbnail",
+            "@_fa": "true",
+            "$": "https://api.elsevier.com/content/object/eid/1-s2.0-S0021951723001148-si62.svg?httpAccept=%2A%2F%2A",
+            "@multimediatype": "Scalable Vector Graphics file",
+            "@type": "ALTIMG",
+            "@size": "3956",
+            "@ref": "si62",
+            "@mimetype": "image/svg+xml"
+          },
+          {
+            "@category": "thumbnail",
+            "@_fa": "true",
+            "$": "https://api.elsevier.com/content/object/eid/1-s2.0-S0021951723001148-si63.svg?httpAccept=%2A%2F%2A",
+            "@multimediatype": "Scalable Vector Graphics file",
+            "@type": "ALTIMG",
+            "@size": "4073",
+            "@ref": "si63",
+            "@mimetype": "image/svg+xml"
+          },
+          {
+            "@category": "thumbnail",
+            "@_fa": "true",
+            "$": "https://api.elsevier.com/content/object/eid/1-s2.0-S0021951723001148-si64.svg?httpAccept=%2A%2F%2A",
+            "@multimediatype": "Scalable Vector Graphics file",
+            "@type": "ALTIMG",
+            "@size": "12800",
+            "@ref": "si64",
+            "@mimetype": "image/svg+xml"
+          },
+          {
+            "@category": "thumbnail",
+            "@_fa": "true",
+            "$": "https://api.elsevier.com/content/object/eid/1-s2.0-S0021951723001148-si65.svg?httpAccept=%2A%2F%2A",
+            "@multimediatype": "Scalable Vector Graphics file",
+            "@type": "ALTIMG",
+            "@size": "4504",
+            "@ref": "si65",
+            "@mimetype": "image/svg+xml"
+          },
+          {
+            "@category": "thumbnail",
+            "@_fa": "true",
+            "$": "https://api.elsevier.com/content/object/eid/1-s2.0-S0021951723001148-si66.svg?httpAccept=%2A%2F%2A",
+            "@multimediatype": "Scalable Vector Graphics file",
+            "@type": "ALTIMG",
+            "@size": "3956",
+            "@ref": "si66",
+            "@mimetype": "image/svg+xml"
+          },
+          {
+            "@category": "thumbnail",
+            "@_fa": "true",
+            "$": "https://api.elsevier.com/content/object/eid/1-s2.0-S0021951723001148-si67.svg?httpAccept=%2A%2F%2A",
+            "@multimediatype": "Scalable Vector Graphics file",
+            "@type": "ALTIMG",
+            "@size": "4073",
+            "@ref": "si67",
+            "@mimetype": "image/svg+xml"
+          },
+          {
+            "@category": "thumbnail",
+            "@_fa": "true",
+            "$": "https://api.elsevier.com/content/object/eid/1-s2.0-S0021951723001148-si68.svg?httpAccept=%2A%2F%2A",
+            "@multimediatype": "Scalable Vector Graphics file",
+            "@type": "ALTIMG",
+            "@size": "9103",
+            "@ref": "si68",
+            "@mimetype": "image/svg+xml"
+          },
+          {
+            "@category": "thumbnail",
+            "@_fa": "true",
+            "$": "https://api.elsevier.com/content/object/eid/1-s2.0-S0021951723001148-si69.svg?httpAccept=%2A%2F%2A",
+            "@multimediatype": "Scalable Vector Graphics file",
+            "@type": "ALTIMG",
+            "@size": "9102",
+            "@ref": "si69",
+            "@mimetype": "image/svg+xml"
+          },
+          {
+            "@category": "thumbnail",
+            "@_fa": "true",
+            "$": "https://api.elsevier.com/content/object/eid/1-s2.0-S0021951723001148-si7.svg?httpAccept=%2A%2F%2A",
+            "@multimediatype": "Scalable Vector Graphics file",
+            "@type": "ALTIMG",
+            "@size": "11349",
+            "@ref": "si7",
+            "@mimetype": "image/svg+xml"
+          },
+          {
+            "@category": "thumbnail",
+            "@_fa": "true",
+            "$": "https://api.elsevier.com/content/object/eid/1-s2.0-S0021951723001148-si70.svg?httpAccept=%2A%2F%2A",
+            "@multimediatype": "Scalable Vector Graphics file",
+            "@type": "ALTIMG",
+            "@size": "5078",
+            "@ref": "si70",
+            "@mimetype": "image/svg+xml"
+          },
+          {
+            "@category": "thumbnail",
+            "@_fa": "true",
+            "$": "https://api.elsevier.com/content/object/eid/1-s2.0-S0021951723001148-si71.svg?httpAccept=%2A%2F%2A",
+            "@multimediatype": "Scalable Vector Graphics file",
+            "@type": "ALTIMG",
+            "@size": "13249",
+            "@ref": "si71",
+            "@mimetype": "image/svg+xml"
+          },
+          {
+            "@category": "thumbnail",
+            "@_fa": "true",
+            "$": "https://api.elsevier.com/content/object/eid/1-s2.0-S0021951723001148-si72.svg?httpAccept=%2A%2F%2A",
+            "@multimediatype": "Scalable Vector Graphics file",
+            "@type": "ALTIMG",
+            "@size": "13885",
+            "@ref": "si72",
+            "@mimetype": "image/svg+xml"
+          },
+          {
+            "@category": "thumbnail",
+            "@_fa": "true",
+            "$": "https://api.elsevier.com/content/object/eid/1-s2.0-S0021951723001148-si73.svg?httpAccept=%2A%2F%2A",
+            "@multimediatype": "Scalable Vector Graphics file",
+            "@type": "ALTIMG",
+            "@size": "3196",
+            "@ref": "si73",
+            "@mimetype": "image/svg+xml"
+          },
+          {
+            "@category": "thumbnail",
+            "@_fa": "true",
+            "$": "https://api.elsevier.com/content/object/eid/1-s2.0-S0021951723001148-si74.svg?httpAccept=%2A%2F%2A",
+            "@multimediatype": "Scalable Vector Graphics file",
+            "@type": "ALTIMG",
+            "@size": "9778",
+            "@ref": "si74",
+            "@mimetype": "image/svg+xml"
+          },
+          {
+            "@category": "thumbnail",
+            "@_fa": "true",
+            "$": "https://api.elsevier.com/content/object/eid/1-s2.0-S0021951723001148-si75.svg?httpAccept=%2A%2F%2A",
+            "@multimediatype": "Scalable Vector Graphics file",
+            "@type": "ALTIMG",
+            "@size": "10213",
+            "@ref": "si75",
+            "@mimetype": "image/svg+xml"
+          },
+          {
+            "@category": "thumbnail",
+            "@_fa": "true",
+            "$": "https://api.elsevier.com/content/object/eid/1-s2.0-S0021951723001148-si76.svg?httpAccept=%2A%2F%2A",
+            "@multimediatype": "Scalable Vector Graphics file",
+            "@type": "ALTIMG",
+            "@size": "29956",
+            "@ref": "si76",
+            "@mimetype": "image/svg+xml"
+          },
+          {
+            "@category": "thumbnail",
+            "@_fa": "true",
+            "$": "https://api.elsevier.com/content/object/eid/1-s2.0-S0021951723001148-si77.svg?httpAccept=%2A%2F%2A",
+            "@multimediatype": "Scalable Vector Graphics file",
+            "@type": "ALTIMG",
+            "@size": "2328",
+            "@ref": "si77",
+            "@mimetype": "image/svg+xml"
+          },
+          {
+            "@category": "thumbnail",
+            "@_fa": "true",
+            "$": "https://api.elsevier.com/content/object/eid/1-s2.0-S0021951723001148-si78.svg?httpAccept=%2A%2F%2A",
+            "@multimediatype": "Scalable Vector Graphics file",
+            "@type": "ALTIMG",
+            "@size": "24480",
+            "@ref": "si78",
+            "@mimetype": "image/svg+xml"
+          },
+          {
+            "@category": "thumbnail",
+            "@_fa": "true",
+            "$": "https://api.elsevier.com/content/object/eid/1-s2.0-S0021951723001148-si79.svg?httpAccept=%2A%2F%2A",
+            "@multimediatype": "Scalable Vector Graphics file",
+            "@type": "ALTIMG",
+            "@size": "3896",
+            "@ref": "si79",
+            "@mimetype": "image/svg+xml"
+          },
+          {
+            "@category": "thumbnail",
+            "@_fa": "true",
+            "$": "https://api.elsevier.com/content/object/eid/1-s2.0-S0021951723001148-si8.svg?httpAccept=%2A%2F%2A",
+            "@multimediatype": "Scalable Vector Graphics file",
+            "@type": "ALTIMG",
+            "@size": "14853",
+            "@ref": "si8",
+            "@mimetype": "image/svg+xml"
+          },
+          {
+            "@category": "thumbnail",
+            "@_fa": "true",
+            "$": "https://api.elsevier.com/content/object/eid/1-s2.0-S0021951723001148-si80.svg?httpAccept=%2A%2F%2A",
+            "@multimediatype": "Scalable Vector Graphics file",
+            "@type": "ALTIMG",
+            "@size": "17111",
+            "@ref": "si80",
+            "@mimetype": "image/svg+xml"
+          },
+          {
+            "@category": "thumbnail",
+            "@_fa": "true",
+            "$": "https://api.elsevier.com/content/object/eid/1-s2.0-S0021951723001148-si81.svg?httpAccept=%2A%2F%2A",
+            "@multimediatype": "Scalable Vector Graphics file",
+            "@type": "ALTIMG",
+            "@size": "1562",
+            "@ref": "si81",
+            "@mimetype": "image/svg+xml"
+          },
+          {
+            "@category": "thumbnail",
+            "@_fa": "true",
+            "$": "https://api.elsevier.com/content/object/eid/1-s2.0-S0021951723001148-si82.svg?httpAccept=%2A%2F%2A",
+            "@multimediatype": "Scalable Vector Graphics file",
+            "@type": "ALTIMG",
+            "@size": "22766",
+            "@ref": "si82",
+            "@mimetype": "image/svg+xml"
+          },
+          {
+            "@category": "thumbnail",
+            "@_fa": "true",
+            "$": "https://api.elsevier.com/content/object/eid/1-s2.0-S0021951723001148-si83.svg?httpAccept=%2A%2F%2A",
+            "@multimediatype": "Scalable Vector Graphics file",
+            "@type": "ALTIMG",
+            "@size": "26166",
+            "@ref": "si83",
+            "@mimetype": "image/svg+xml"
+          },
+          {
+            "@category": "thumbnail",
+            "@_fa": "true",
+            "$": "https://api.elsevier.com/content/object/eid/1-s2.0-S0021951723001148-si84.svg?httpAccept=%2A%2F%2A",
+            "@multimediatype": "Scalable Vector Graphics file",
+            "@type": "ALTIMG",
+            "@size": "24101",
+            "@ref": "si84",
+            "@mimetype": "image/svg+xml"
+          },
+          {
+            "@category": "thumbnail",
+            "@_fa": "true",
+            "$": "https://api.elsevier.com/content/object/eid/1-s2.0-S0021951723001148-si85.svg?httpAccept=%2A%2F%2A",
+            "@multimediatype": "Scalable Vector Graphics file",
+            "@type": "ALTIMG",
+            "@size": "18232",
+            "@ref": "si85",
+            "@mimetype": "image/svg+xml"
+          },
+          {
+            "@category": "thumbnail",
+            "@_fa": "true",
+            "$": "https://api.elsevier.com/content/object/eid/1-s2.0-S0021951723001148-si86.svg?httpAccept=%2A%2F%2A",
+            "@multimediatype": "Scalable Vector Graphics file",
+            "@type": "ALTIMG",
+            "@size": "20540",
+            "@ref": "si86",
+            "@mimetype": "image/svg+xml"
+          },
+          {
+            "@category": "thumbnail",
+            "@_fa": "true",
+            "$": "https://api.elsevier.com/content/object/eid/1-s2.0-S0021951723001148-si87.svg?httpAccept=%2A%2F%2A",
+            "@multimediatype": "Scalable Vector Graphics file",
+            "@type": "ALTIMG",
+            "@size": "25093",
+            "@ref": "si87",
+            "@mimetype": "image/svg+xml"
+          },
+          {
+            "@category": "thumbnail",
+            "@_fa": "true",
+            "$": "https://api.elsevier.com/content/object/eid/1-s2.0-S0021951723001148-si88.svg?httpAccept=%2A%2F%2A",
+            "@multimediatype": "Scalable Vector Graphics file",
+            "@type": "ALTIMG",
+            "@size": "4095",
+            "@ref": "si88",
+            "@mimetype": "image/svg+xml"
+          },
+          {
+            "@category": "thumbnail",
+            "@_fa": "true",
+            "$": "https://api.elsevier.com/content/object/eid/1-s2.0-S0021951723001148-si89.svg?httpAccept=%2A%2F%2A",
+            "@multimediatype": "Scalable Vector Graphics file",
+            "@type": "ALTIMG",
+            "@size": "25849",
+            "@ref": "si89",
+            "@mimetype": "image/svg+xml"
+          },
+          {
+            "@category": "thumbnail",
+            "@_fa": "true",
+            "$": "https://api.elsevier.com/content/object/eid/1-s2.0-S0021951723001148-si9.svg?httpAccept=%2A%2F%2A",
+            "@multimediatype": "Scalable Vector Graphics file",
+            "@type": "ALTIMG",
+            "@size": "4656",
+            "@ref": "si9",
+            "@mimetype": "image/svg+xml"
+          },
+          {
+            "@category": "thumbnail",
+            "@_fa": "true",
+            "$": "https://api.elsevier.com/content/object/eid/1-s2.0-S0021951723001148-si90.svg?httpAccept=%2A%2F%2A",
+            "@multimediatype": "Scalable Vector Graphics file",
+            "@type": "ALTIMG",
+            "@size": "22794",
+            "@ref": "si90",
+            "@mimetype": "image/svg+xml"
+          },
+          {
+            "@category": "thumbnail",
+            "@_fa": "true",
+            "$": "https://api.elsevier.com/content/object/eid/1-s2.0-S0021951723001148-si91.svg?httpAccept=%2A%2F%2A",
+            "@multimediatype": "Scalable Vector Graphics file",
+            "@type": "ALTIMG",
+            "@size": "19324",
+            "@ref": "si91",
+            "@mimetype": "image/svg+xml"
+          },
+          {
+            "@category": "thumbnail",
+            "@_fa": "true",
+            "$": "https://api.elsevier.com/content/object/eid/1-s2.0-S0021951723001148-si92.svg?httpAccept=%2A%2F%2A",
+            "@multimediatype": "Scalable Vector Graphics file",
+            "@type": "ALTIMG",
+            "@size": "21332",
+            "@ref": "si92",
+            "@mimetype": "image/svg+xml"
+          },
+          {
+            "@category": "thumbnail",
+            "@_fa": "true",
+            "$": "https://api.elsevier.com/content/object/eid/1-s2.0-S0021951723001148-si93.svg?httpAccept=%2A%2F%2A",
+            "@multimediatype": "Scalable Vector Graphics file",
+            "@type": "ALTIMG",
+            "@size": "21550",
+            "@ref": "si93",
+            "@mimetype": "image/svg+xml"
+          },
+          {
+            "@category": "standard",
+            "@_fa": "true",
+            "$": "https://api.elsevier.com/content/object/eid/1-s2.0-S0021951723001148-am.pdf?httpAccept=%2A%2F%2A",
+            "@multimediatype": "Acrobat PDF file",
+            "@type": "AAM-PDF",
+            "@size": "1158633",
+            "@ref": "am",
+            "@mimetype": "application/pdf"
+          }
+        ]
+      },
+      "link": {
+        "@rel": "abstract",
+        "@href": "https://api.elsevier.com/content/abstract/scopus_id/85151238072"
+      }
+    }
+  }
+}

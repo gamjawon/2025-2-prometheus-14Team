@@ -1,0 +1,1310 @@
+{
+  "metadata": {
+    "title": "Enhanced predictive optimization of methane dry reforming via ResponseSurface methodology and artificial neural network approaches: Insights using a novel nickel-strontium-zirconium-aluminum catalyst",
+    "authors": "; ; ",
+    "journal": "Molecular Catalysis",
+    "date": "2024-06-01",
+    "doi": "10.1016/j.mcat.2024.114216",
+    "abstract": "",
+    "uri": "https://api.elsevier.com/content/article/pii/S2468823124003997",
+    "pii": "S2468823124003997"
+  },
+  "fulltext": {
+    "full-text-retrieval-response": {
+      "scopus-eid": "2-s2.0-85192956002",
+      "originalText": "serial JL 315758 291210 291744 291790 291809 31 90 Molecular Catalysis MOLECULARCATALYSIS 2024-05-13 2024-05-13 2024-05-13 2024-05-13 2025-01-21T07:56:21 1-s2.0-S2468823124003997 S2468-8231(24)00399-7 S2468823124003997 10.1016/j.mcat.2024.114216 S300 S300.1 FULL-TEXT 1-s2.0-S2468823124X00085 2025-01-21T11:14:04.860928Z 0 0 20240601 2024 2024-05-13T04:25:47.854856Z absattachment articleinfo articlenumber articletitlenorm authfirstinitialnorm authfirstsurnamenorm cid cids contenttype copyright crossmark dateloaded dateloadedtxt datesearch datesort dateupdated dco docsubtype doctype doi eid ewtransactionid fundingbodyid hubeid indexeddate issn issnnorm itemstage itemtransactionid itemweight oauserlicense openaccess openarchive pg pgfirst pii piinorm pubdatestart pubdatetxt pubyr sectiontitle sortorder sponsoredaccesstype srctitle srctitlenorm srctype ssids alllist content oa subj subheadings suppl tomb volfirst volissue volumelist webpdf webpdfpagecount yearnav figure table e-component body mmlmath acknowledge affil appendices articletitle auth authfirstini authfull authkeywords authlast grantnumber grantsponsor highlightsabst orcid primabst pubtype ref specialabst 2468-8231 24688231 UNLIMITED JISC2022 true 562 562 C Volume 562 15 114216 114216 114216 20240601 1 June 2024 2024-06-01 2024 Regular Papers article fla © 2024 The Author(s). Published by Elsevier B.V. ENHANCEDPREDICTIVEOPTIMIZATIONMETHANEDRYREFORMINGVIARESPONSESURFACEMETHODOLOGYARTIFICIALNEURALNETWORKAPPROACHESINSIGHTSUSINGANOVELNICKELSTRONTIUMZIRCONIUMALUMINUMCATALYST GENDY T 1 Introduction 2 Experimental 2.1 Material 2.2 Catalyst preparation 2.3 Catalyst characterization 2.4 Catalyst activity test 3 Process optimization 3.1 Response surface methodology (RSM) 3.2 Artificial neural network (ANN) 3.2.1 Radial basis function 3.2.2 Radial basis function neural networks (RBFNNs) 3.3 Assessment of the predictive capability RSM and ANN models 4 Simulation and optimization 5 Comparative appraisal of RSM and ANN 6 Conclusion CRediT authorship contribution statement Acknowledgements Appendix Supplementary materials References FAROOQI 2023 A IOPCONFERENCESERIESEARTHENVIRONMENTSCIENCEINSTITUTEPHYSICS SYNGASPRODUCTIONVIADRYREFORMINGMETHANEOVERNIMGOZRO2CATALYST GEORGIADIS 2023 A ALGHAMDI 2024 A CHOYA 2024 A ALVAREZ 2018 M VANG 2005 R CAI 2011 318 324 M MAINA 2020 S BELLIDO 2009 J BINTIROSDIN 2021 R HA 2017 Q ELNOUR 2024 A SUTTHIUMPORN 2011 K AYODELE 2020 B BENKHELIFA 2022 O BENKHELIFA 2023 O EFETOBOR 2024 U DING 2023 X CHONG 2024 S SAHU 2023 110 131 P SUDHIRKUMAR 2024 B ZIN 2020 K RAY 2023 S ALMASAEID 2022 H ALI 2023 A NGUYEN 2023 T CHEN 2023 J GOUTHAM 2024 D ALITASB 2024 442 451 G NEJAD 2024 107997 R CHIME 2023 F DEMIR 2023 H MAKOMERE 2023 R AYODELE 2015 B HAMBALI 2021 H CHONG 2020 C IZHAB 2021 I FAN 2011 M ALFATESH 2024 A KUMAR 2022 R SURFACECHARACTERIZATIONTECHNIQUESTHEORYRESEARCH THOMAS 2009 6 J ACHARYA 2023 1 13 K DEFALCO 2013 M CO2AVALUABLESOURCECARBON HU 2021 119901 X ALFATESH 2022 16468 16483 A PTACEK 2015 115 126 P KOUROUMA 2023 M HABCHI 2023 S BRZEZINSKA 2023 R AKLILU 2023 E ZHAO 2023 Y BIOWEBCONF OPTIMIZATIONPROCESSINGTECHNOLOGYCHINESECHESTNUTSTUFFINGBYRESPONSESURFACEMETHODOLOGY APPIAHBREMPONG 2023 M GHATTAS 2023 B SURI 2023 R YAMIN 2023 J OGUNSILE 2024 B WADAY 2023 Y GENDY 2016 T GENDY 2018 T GENDY 2019 T GENDY 2022 T GENDY 2017 230 242 T MUKHERJEE 2022 R HOSSAIN 2019 M MA 2022 H BELLO 2023 A FITRIANI 2023 N SOHRABI 2023 N SETYANI 2023 W GRANATO 2014 D MATHEMATICALSTATISTICALMETHODSINFOODSCIENCETECHNOLOGY MUANDA 2023 M FENG 2022 X FENG 2022 X TRAWCZYNSKA 2023 I ONU 2022 C MCCULLOCH 1943 W MURTHY 2024 85 106 Y ABUWATFA 2023 W ABHISHEK 2023 R RUDENKO 2023 697 702 O GHORBANI 2024 A RAVITHEJA 2023 A WANG 2022 S ELNJIKKALJEROME 2022 R WANG 2023 C HARDY 1971 R AYODELE 2021 B AYODELE 2021 B ALSAFFAR 2022 M YAGHOUTI 2023 M ZHOU 2023 S BEALE 2010 77 81 M PASHAEI 2023 H MAARUF 2023 M ALSAFFAR 2020 M IOPCONFERENCESERIESMATERIALSSCIENCEENGINEERING ELUCIDATINGNONLINEAREFFECTPROCESSPARAMETERSHYDROGENPRODUCTIONBYCATALYTICMETHANEREFORMINGARTIFICIALINTELLIGENCEAPPROACH BOUTRA 2022 B PEREIRA 2020 A GENDYX2024X114216 GENDYX2024X114216XT Full 2024-05-08T19:09:55Z FundingBody JISC UK 2022: Hybrid journals http://creativecommons.org/licenses/by/4.0/ 2026-05-13T00:00:00.000Z 2026-05-13T00:00:00.000Z http://creativecommons.org/licenses/by-nc-nd/4.0/ This is an open access article under the CC BY license. © 2024 The Author(s). Published by Elsevier B.V. 2024-05-15T08:29:04.873Z http://vtw.elsevier.com/data/voc/AddOnTypes/50.7/aggregated-refined RSP2024R368 KSU King Saud University http://data.elsevier.com/vocabulary/SciValFunders/501100002383 http://sws.geonames.org/102358 The authors would like to extend their sincere appreciation to the Researchers Supporting Project number (RSP2024R368), King Saud University, Riyadh, Saudi Arabia. item S2468-8231(24)00399-7 S2468823124003997 1-s2.0-S2468823124003997 10.1016/j.mcat.2024.114216 315758 2025-01-21T11:14:04.860928Z 2024-06-01 UNLIMITED JISC2022 1-s2.0-S2468823124003997-main.pdf https://s3-eu-west-1.amazonaws.com/prod-ucs-content-store-eu-west/content/pii:S2468823124003997/MAIN/application/pdf/534a9ad0018f705d5fff95e411d560e6/main.pdf main.pdf pdf true 6179634 MAIN 13 1-s2.0-S2468823124003997-main_1.png https://s3-eu-west-1.amazonaws.com/prod-ucs-content-store-eu-west/content/pii:S2468823124003997/PREVIEW/image/png/f464d546e96f4678de9b4f8986bfc2ae/main_1.png main_1.png png 58736 849 656 IMAGE-WEB-PDF 1 1-s2.0-S2468823124003997-gr9.jpg https://s3-eu-west-1.amazonaws.com/prod-ucs-content-store-eu-west/content/pii:S2468823124003997/gr9/DOWNSAMPLED/image/jpeg/98d54918a003193e141cd8c1a4372c53/gr9.jpg gr9 gr9.jpg jpg 29279 272 376 IMAGE-DOWNSAMPLED 1-s2.0-S2468823124003997-gr1.jpg https://s3-eu-west-1.amazonaws.com/prod-ucs-content-store-eu-west/content/pii:S2468823124003997/gr1/DOWNSAMPLED/image/jpeg/91e038b8e65d55042995da5e6ab96a5f/gr1.jpg gr1 gr1.jpg jpg 37924 228 602 IMAGE-DOWNSAMPLED 1-s2.0-S2468823124003997-gr2.jpg https://s3-eu-west-1.amazonaws.com/prod-ucs-content-store-eu-west/content/pii:S2468823124003997/gr2/DOWNSAMPLED/image/jpeg/ad7b334f3dc36532d02f4b786e2eb0f0/gr2.jpg gr2 gr2.jpg jpg 36515 407 602 IMAGE-DOWNSAMPLED 1-s2.0-S2468823124003997-gr3a.jpg https://s3-eu-west-1.amazonaws.com/prod-ucs-content-store-eu-west/content/pii:S2468823124003997/gr3a/DOWNSAMPLED/image/jpeg/ed4f8fd48123b5bc896dc6add7884038/gr3a.jpg gr3a gr3a.jpg jpg 78008 201 791 IMAGE-DOWNSAMPLED 1-s2.0-S2468823124003997-gr4b.jpg https://s3-eu-west-1.amazonaws.com/prod-ucs-content-store-eu-west/content/pii:S2468823124003997/gr4b/DOWNSAMPLED/image/jpeg/01fdd7de9330b764cdcc06ad68efa3cc/gr4b.jpg gr4b gr4b.jpg jpg 73704 201 791 IMAGE-DOWNSAMPLED 1-s2.0-S2468823124003997-gr3b.jpg https://s3-eu-west-1.amazonaws.com/prod-ucs-content-store-eu-west/content/pii:S2468823124003997/gr3b/DOWNSAMPLED/image/jpeg/27458ba2e7ce917db7bf9b359506c6e8/gr3b.jpg gr3b gr3b.jpg jpg 74494 199 791 IMAGE-DOWNSAMPLED 1-s2.0-S2468823124003997-gr5a.jpg https://s3-eu-west-1.amazonaws.com/prod-ucs-content-store-eu-west/content/pii:S2468823124003997/gr5a/DOWNSAMPLED/image/jpeg/366cabfe23ac4c25f5c1e1206af86bad/gr5a.jpg gr5a gr5a.jpg jpg 81287 196 791 IMAGE-DOWNSAMPLED 1-s2.0-S2468823124003997-gr6b.jpg https://s3-eu-west-1.amazonaws.com/prod-ucs-content-store-eu-west/content/pii:S2468823124003997/gr6b/DOWNSAMPLED/image/jpeg/f21de5b2d4f54993cbbe1ca7425f7d95/gr6b.jpg gr6b gr6b.jpg jpg 74642 193 772 IMAGE-DOWNSAMPLED 1-s2.0-S2468823124003997-gr4a.jpg https://s3-eu-west-1.amazonaws.com/prod-ucs-content-store-eu-west/content/pii:S2468823124003997/gr4a/DOWNSAMPLED/image/jpeg/681a54a840e1a35c5bb7fa7525000e99/gr4a.jpg gr4a gr4a.jpg jpg 86058 199 791 IMAGE-DOWNSAMPLED 1-s2.0-S2468823124003997-gr5b.jpg https://s3-eu-west-1.amazonaws.com/prod-ucs-content-store-eu-west/content/pii:S2468823124003997/gr5b/DOWNSAMPLED/image/jpeg/6b8098ab390c09bd188a9546a34320f8/gr5b.jpg gr5b gr5b.jpg jpg 65077 198 791 IMAGE-DOWNSAMPLED 1-s2.0-S2468823124003997-gr7a.jpg https://s3-eu-west-1.amazonaws.com/prod-ucs-content-store-eu-west/content/pii:S2468823124003997/gr7a/DOWNSAMPLED/image/jpeg/5fd1b8ba40893f6eb303bc1fd772b337/gr7a.jpg gr7a gr7a.jpg jpg 86612 207 791 IMAGE-DOWNSAMPLED 1-s2.0-S2468823124003997-gr8b.jpg https://s3-eu-west-1.amazonaws.com/prod-ucs-content-store-eu-west/content/pii:S2468823124003997/gr8b/DOWNSAMPLED/image/jpeg/16fa27bbfbd83c6c5f8424b9aefcc729/gr8b.jpg gr8b gr8b.jpg jpg 62274 195 785 IMAGE-DOWNSAMPLED 1-s2.0-S2468823124003997-gr6a.jpg https://s3-eu-west-1.amazonaws.com/prod-ucs-content-store-eu-west/content/pii:S2468823124003997/gr6a/DOWNSAMPLED/image/jpeg/f4993aef636b9160c32160bf885b7d03/gr6a.jpg gr6a gr6a.jpg jpg 78780 199 791 IMAGE-DOWNSAMPLED 1-s2.0-S2468823124003997-gr7b.jpg https://s3-eu-west-1.amazonaws.com/prod-ucs-content-store-eu-west/content/pii:S2468823124003997/gr7b/DOWNSAMPLED/image/jpeg/c055e1749c9bbd54a2d219b82223f074/gr7b.jpg gr7b gr7b.jpg jpg 79536 207 791 IMAGE-DOWNSAMPLED 1-s2.0-S2468823124003997-ga1.jpg https://s3-eu-west-1.amazonaws.com/prod-ucs-content-store-eu-west/content/pii:S2468823124003997/ga1/DOWNSAMPLED/image/jpeg/743d720c8364ed1d8ded8a314e593561/ga1.jpg ga1 true ga1.jpg jpg 31786 245 245 IMAGE-DOWNSAMPLED 1-s2.0-S2468823124003997-gr8a.jpg https://s3-eu-west-1.amazonaws.com/prod-ucs-content-store-eu-west/content/pii:S2468823124003997/gr8a/DOWNSAMPLED/image/jpeg/6792fbbfb92e33da917ea7069ac2756a/gr8a.jpg gr8a gr8a.jpg jpg 80122 195 785 IMAGE-DOWNSAMPLED 1-s2.0-S2468823124003997-gr9.sml https://s3-eu-west-1.amazonaws.com/prod-ucs-content-store-eu-west/content/pii:S2468823124003997/gr9/THUMBNAIL/image/gif/34a2ba765347bed672a9fe5a52842d76/gr9.sml gr9 gr9.sml sml 9081 159 219 IMAGE-THUMBNAIL 1-s2.0-S2468823124003997-gr1.sml https://s3-eu-west-1.amazonaws.com/prod-ucs-content-store-eu-west/content/pii:S2468823124003997/gr1/THUMBNAIL/image/gif/7c3f50c7cf0f5b50d7e122c35a70660e/gr1.sml gr1 gr1.sml sml 9380 83 219 IMAGE-THUMBNAIL 1-s2.0-S2468823124003997-gr2.sml https://s3-eu-west-1.amazonaws.com/prod-ucs-content-store-eu-west/content/pii:S2468823124003997/gr2/THUMBNAIL/image/gif/862195ab95e87a2cd2269314c69225b7/gr2.sml gr2 gr2.sml sml 5388 148 219 IMAGE-THUMBNAIL 1-s2.0-S2468823124003997-gr3a.sml https://s3-eu-west-1.amazonaws.com/prod-ucs-content-store-eu-west/content/pii:S2468823124003997/gr3a/THUMBNAIL/image/gif/d283127353a299793ff8474cd3eab080/gr3a.sml gr3a gr3a.sml sml 9234 56 219 IMAGE-THUMBNAIL 1-s2.0-S2468823124003997-gr4b.sml https://s3-eu-west-1.amazonaws.com/prod-ucs-content-store-eu-west/content/pii:S2468823124003997/gr4b/THUMBNAIL/image/gif/f17bbf4846d7c972bb3ad900fc7b5682/gr4b.sml gr4b gr4b.sml sml 9430 56 219 IMAGE-THUMBNAIL 1-s2.0-S2468823124003997-gr3b.sml https://s3-eu-west-1.amazonaws.com/prod-ucs-content-store-eu-west/content/pii:S2468823124003997/gr3b/THUMBNAIL/image/gif/40bb1e4b9a3efe4e8a11d6385941330c/gr3b.sml gr3b gr3b.sml sml 9568 55 219 IMAGE-THUMBNAIL 1-s2.0-S2468823124003997-gr5a.sml https://s3-eu-west-1.amazonaws.com/prod-ucs-content-store-eu-west/content/pii:S2468823124003997/gr5a/THUMBNAIL/image/gif/6ae279993f504028343825784893eeba/gr5a.sml gr5a gr5a.sml sml 9187 54 219 IMAGE-THUMBNAIL 1-s2.0-S2468823124003997-gr6b.sml https://s3-eu-west-1.amazonaws.com/prod-ucs-content-store-eu-west/content/pii:S2468823124003997/gr6b/THUMBNAIL/image/gif/2f696fbed57653363b417b18547e4345/gr6b.sml gr6b gr6b.sml sml 10053 55 219 IMAGE-THUMBNAIL 1-s2.0-S2468823124003997-gr4a.sml https://s3-eu-west-1.amazonaws.com/prod-ucs-content-store-eu-west/content/pii:S2468823124003997/gr4a/THUMBNAIL/image/gif/7aaa964dd12dc81cc885aa679f377f70/gr4a.sml gr4a gr4a.sml sml 9883 55 219 IMAGE-THUMBNAIL 1-s2.0-S2468823124003997-gr5b.sml https://s3-eu-west-1.amazonaws.com/prod-ucs-content-store-eu-west/content/pii:S2468823124003997/gr5b/THUMBNAIL/image/gif/44227a55dcee5686b30eafb5a2800a3d/gr5b.sml gr5b gr5b.sml sml 8713 55 219 IMAGE-THUMBNAIL 1-s2.0-S2468823124003997-gr7a.sml https://s3-eu-west-1.amazonaws.com/prod-ucs-content-store-eu-west/content/pii:S2468823124003997/gr7a/THUMBNAIL/image/gif/daa1facbc8cba046a5fcf1275ca4dac1/gr7a.sml gr7a gr7a.sml sml 10015 57 219 IMAGE-THUMBNAIL 1-s2.0-S2468823124003997-gr8b.sml https://s3-eu-west-1.amazonaws.com/prod-ucs-content-store-eu-west/content/pii:S2468823124003997/gr8b/THUMBNAIL/image/gif/de8be2d822fa52db34bef3d147097cf9/gr8b.sml gr8b gr8b.sml sml 8460 54 219 IMAGE-THUMBNAIL 1-s2.0-S2468823124003997-gr6a.sml https://s3-eu-west-1.amazonaws.com/prod-ucs-content-store-eu-west/content/pii:S2468823124003997/gr6a/THUMBNAIL/image/gif/5e4b32566a591f361339446609439410/gr6a.sml gr6a gr6a.sml sml 9290 55 219 IMAGE-THUMBNAIL 1-s2.0-S2468823124003997-gr7b.sml https://s3-eu-west-1.amazonaws.com/prod-ucs-content-store-eu-west/content/pii:S2468823124003997/gr7b/THUMBNAIL/image/gif/8408e212798fe29e93b803d8824aa830/gr7b.sml gr7b gr7b.sml sml 9923 57 219 IMAGE-THUMBNAIL 1-s2.0-S2468823124003997-ga1.sml https://s3-eu-west-1.amazonaws.com/prod-ucs-content-store-eu-west/content/pii:S2468823124003997/ga1/THUMBNAIL/image/gif/ac38c94c4a47098af61e659e85fc7f66/ga1.sml ga1 true ga1.sml sml 14190 164 164 IMAGE-THUMBNAIL 1-s2.0-S2468823124003997-gr8a.sml https://s3-eu-west-1.amazonaws.com/prod-ucs-content-store-eu-west/content/pii:S2468823124003997/gr8a/THUMBNAIL/image/gif/8cc4da5789c1e032de8c51a5ac094f2f/gr8a.sml gr8a gr8a.sml sml 9241 54 219 IMAGE-THUMBNAIL 1-s2.0-S2468823124003997-gr9_lrg.jpg https://s3-eu-west-1.amazonaws.com/prod-ucs-content-store-eu-west/content/pii:S2468823124003997/HIGHRES/image/jpeg/370590c126f9eec550df6b12c7d6216e/gr9_lrg.jpg gr9 gr9_lrg.jpg jpg 175294 1208 1667 IMAGE-HIGH-RES 1-s2.0-S2468823124003997-gr1_lrg.jpg https://s3-eu-west-1.amazonaws.com/prod-ucs-content-store-eu-west/content/pii:S2468823124003997/HIGHRES/image/jpeg/4b4571f0adbf237753432d3cb35d9284/gr1_lrg.jpg gr1 gr1_lrg.jpg jpg 316229 1009 2667 IMAGE-HIGH-RES 1-s2.0-S2468823124003997-gr2_lrg.jpg https://s3-eu-west-1.amazonaws.com/prod-ucs-content-store-eu-west/content/pii:S2468823124003997/HIGHRES/image/jpeg/9c0ec610ce03585e2847a06479dd0c4d/gr2_lrg.jpg gr2 gr2_lrg.jpg jpg 285368 1803 2667 IMAGE-HIGH-RES 1-s2.0-S2468823124003997-gr3a_lrg.jpg https://s3-eu-west-1.amazonaws.com/prod-ucs-content-store-eu-west/content/pii:S2468823124003997/HIGHRES/image/jpeg/33376127c9eb80c4716586d5c4fab068/gr3a_lrg.jpg gr3a gr3a_lrg.jpg jpg 814761 888 3501 IMAGE-HIGH-RES 1-s2.0-S2468823124003997-gr4b_lrg.jpg https://s3-eu-west-1.amazonaws.com/prod-ucs-content-store-eu-west/content/pii:S2468823124003997/HIGHRES/image/jpeg/cfb34e66c91328558fbfbf71b8535f0f/gr4b_lrg.jpg gr4b gr4b_lrg.jpg jpg 560063 889 3501 IMAGE-HIGH-RES 1-s2.0-S2468823124003997-gr3b_lrg.jpg https://s3-eu-west-1.amazonaws.com/prod-ucs-content-store-eu-west/content/pii:S2468823124003997/HIGHRES/image/jpeg/d569d3301e628471ac5d3ab6790e2c38/gr3b_lrg.jpg gr3b gr3b_lrg.jpg jpg 556295 879 3501 IMAGE-HIGH-RES 1-s2.0-S2468823124003997-gr5a_lrg.jpg https://s3-eu-west-1.amazonaws.com/prod-ucs-content-store-eu-west/content/pii:S2468823124003997/HIGHRES/image/jpeg/4ccc38cdf22efb5a7ef0a66c6fdf77ea/gr5a_lrg.jpg gr5a gr5a_lrg.jpg jpg 858761 869 3501 IMAGE-HIGH-RES 1-s2.0-S2468823124003997-gr6b_lrg.jpg https://s3-eu-west-1.amazonaws.com/prod-ucs-content-store-eu-west/content/pii:S2468823124003997/HIGHRES/image/jpeg/684a6a41295f978c83e97af2b48925c8/gr6b_lrg.jpg gr6b gr6b_lrg.jpg jpg 572693 853 3417 IMAGE-HIGH-RES 1-s2.0-S2468823124003997-gr4a_lrg.jpg https://s3-eu-west-1.amazonaws.com/prod-ucs-content-store-eu-west/content/pii:S2468823124003997/HIGHRES/image/jpeg/1d23db79ecefa7ca861a21b7f374644c/gr4a_lrg.jpg gr4a gr4a_lrg.jpg jpg 948612 879 3502 IMAGE-HIGH-RES 1-s2.0-S2468823124003997-gr5b_lrg.jpg https://s3-eu-west-1.amazonaws.com/prod-ucs-content-store-eu-west/content/pii:S2468823124003997/HIGHRES/image/jpeg/5df6b564635987bfe60f59b4e8adc791/gr5b_lrg.jpg gr5b gr5b_lrg.jpg jpg 484320 877 3501 IMAGE-HIGH-RES 1-s2.0-S2468823124003997-gr7a_lrg.jpg https://s3-eu-west-1.amazonaws.com/prod-ucs-content-store-eu-west/content/pii:S2468823124003997/HIGHRES/image/jpeg/83c7faec99a33645ae9fc5c2dafaa16c/gr7a_lrg.jpg gr7a gr7a_lrg.jpg jpg 917398 914 3500 IMAGE-HIGH-RES 1-s2.0-S2468823124003997-gr8b_lrg.jpg https://s3-eu-west-1.amazonaws.com/prod-ucs-content-store-eu-west/content/pii:S2468823124003997/HIGHRES/image/jpeg/c408c30d6b14ab162a8ad38053b766d0/gr8b_lrg.jpg gr8b gr8b_lrg.jpg jpg 475815 863 3474 IMAGE-HIGH-RES 1-s2.0-S2468823124003997-gr6a_lrg.jpg https://s3-eu-west-1.amazonaws.com/prod-ucs-content-store-eu-west/content/pii:S2468823124003997/HIGHRES/image/jpeg/2c745ddb44a214c2698b50604973b2b4/gr6a_lrg.jpg gr6a gr6a_lrg.jpg jpg 816125 882 3503 IMAGE-HIGH-RES 1-s2.0-S2468823124003997-gr7b_lrg.jpg https://s3-eu-west-1.amazonaws.com/prod-ucs-content-store-eu-west/content/pii:S2468823124003997/HIGHRES/image/jpeg/c06485cd2b14e740f79c92b6fda97b25/gr7b_lrg.jpg gr7b gr7b_lrg.jpg jpg 586071 915 3500 IMAGE-HIGH-RES 1-s2.0-S2468823124003997-ga1_lrg.jpg https://s3-eu-west-1.amazonaws.com/prod-ucs-content-store-eu-west/content/pii:S2468823124003997/HIGHRES/image/jpeg/089656cd8ed141651e87a56e3c134af2/ga1_lrg.jpg ga1 true ga1_lrg.jpg jpg 301361 1085 1085 IMAGE-HIGH-RES 1-s2.0-S2468823124003997-gr8a_lrg.jpg https://s3-eu-west-1.amazonaws.com/prod-ucs-content-store-eu-west/content/pii:S2468823124003997/HIGHRES/image/jpeg/28eb5642bfbe2f04182695810a0051e9/gr8a_lrg.jpg gr8a gr8a_lrg.jpg jpg 846472 862 3475 IMAGE-HIGH-RES 1-s2.0-S2468823124003997-mmc1.docx https://s3-eu-west-1.amazonaws.com/prod-ucs-content-store-eu-west/content/pii:S2468823124003997/mmc1/MAIN/application/vnd.openxmlformats-officedocument.wordprocessingml.document/3f80761c3bccab06656a26e3fa5e345c/mmc1.docx mmc1 mmc1.docx docx 823685 APPLICATION 1-s2.0-S2468823124003997-si1.svg https://s3-eu-west-1.amazonaws.com/prod-ucs-content-store-eu-west/content/pii:S2468823124003997/image/svg+xml/a60686093e3fbc1163be9e406a0dfa8e/si1.svg si1 si1.svg svg 11646 ALTIMG 1-s2.0-S2468823124003997-si10.svg https://s3-eu-west-1.amazonaws.com/prod-ucs-content-store-eu-west/content/pii:S2468823124003997/image/svg+xml/5e7eaae53364e49eb2ec4280d7f20ef5/si10.svg si10 si10.svg svg 5729 ALTIMG 1-s2.0-S2468823124003997-si11.svg https://s3-eu-west-1.amazonaws.com/prod-ucs-content-store-eu-west/content/pii:S2468823124003997/image/svg+xml/34353868e5de8848a5bdb372eaa1cc31/si11.svg si11 si11.svg svg 3566 ALTIMG 1-s2.0-S2468823124003997-si12.svg https://s3-eu-west-1.amazonaws.com/prod-ucs-content-store-eu-west/content/pii:S2468823124003997/image/svg+xml/fb6bf69775d500d18393086f5410169c/si12.svg si12 si12.svg svg 2584 ALTIMG 1-s2.0-S2468823124003997-si13.svg https://s3-eu-west-1.amazonaws.com/prod-ucs-content-store-eu-west/content/pii:S2468823124003997/image/svg+xml/5e4690b854a3b08846596ff84fb37f8c/si13.svg si13 si13.svg svg 2888 ALTIMG 1-s2.0-S2468823124003997-si14.svg https://s3-eu-west-1.amazonaws.com/prod-ucs-content-store-eu-west/content/pii:S2468823124003997/image/svg+xml/2f1ff00491117c8bd5fb18b9ba4c046c/si14.svg si14 si14.svg svg 4835 ALTIMG 1-s2.0-S2468823124003997-si15.svg https://s3-eu-west-1.amazonaws.com/prod-ucs-content-store-eu-west/content/pii:S2468823124003997/image/svg+xml/1457f7d7bfff432ab2125110c8ce198b/si15.svg si15 si15.svg svg 5166 ALTIMG 1-s2.0-S2468823124003997-si16.svg https://s3-eu-west-1.amazonaws.com/prod-ucs-content-store-eu-west/content/pii:S2468823124003997/image/svg+xml/0e6bb1f92f7d495097613cf5f7a2e22b/si16.svg si16 si16.svg svg 5713 ALTIMG 1-s2.0-S2468823124003997-si17.svg https://s3-eu-west-1.amazonaws.com/prod-ucs-content-store-eu-west/content/pii:S2468823124003997/image/svg+xml/67fa033801142e06c20357353dc38765/si17.svg si17 si17.svg svg 7850 ALTIMG 1-s2.0-S2468823124003997-si18.svg https://s3-eu-west-1.amazonaws.com/prod-ucs-content-store-eu-west/content/pii:S2468823124003997/image/svg+xml/4c0676dd37aae83c34b823fa19f2d2f0/si18.svg si18 si18.svg svg 7425 ALTIMG 1-s2.0-S2468823124003997-si19.svg https://s3-eu-west-1.amazonaws.com/prod-ucs-content-store-eu-west/content/pii:S2468823124003997/image/svg+xml/fb8bb6dacbdbc17476d51181ee1486a5/si19.svg si19 si19.svg svg 7387 ALTIMG 1-s2.0-S2468823124003997-si2.svg https://s3-eu-west-1.amazonaws.com/prod-ucs-content-store-eu-west/content/pii:S2468823124003997/image/svg+xml/03c7c77282890c3260b5a1aea8397e42/si2.svg si2 si2.svg svg 11227 ALTIMG 1-s2.0-S2468823124003997-si20.svg https://s3-eu-west-1.amazonaws.com/prod-ucs-content-store-eu-west/content/pii:S2468823124003997/image/svg+xml/175759632344f8eae50cd21ca1a546a5/si20.svg si20 si20.svg svg 7085 ALTIMG 1-s2.0-S2468823124003997-si21.svg https://s3-eu-west-1.amazonaws.com/prod-ucs-content-store-eu-west/content/pii:S2468823124003997/image/svg+xml/26c9941f22af1790ee166c76e138fcd9/si21.svg si21 si21.svg svg 1896 ALTIMG 1-s2.0-S2468823124003997-si22.svg https://s3-eu-west-1.amazonaws.com/prod-ucs-content-store-eu-west/content/pii:S2468823124003997/image/svg+xml/0271ad5137ad7c42341c955488224d52/si22.svg si22 si22.svg svg 2292 ALTIMG 1-s2.0-S2468823124003997-si23.svg https://s3-eu-west-1.amazonaws.com/prod-ucs-content-store-eu-west/content/pii:S2468823124003997/image/svg+xml/bfc7e8a4873ecfdefcd6a8ad7024b431/si23.svg si23 si23.svg svg 3015 ALTIMG 1-s2.0-S2468823124003997-si24.svg https://s3-eu-west-1.amazonaws.com/prod-ucs-content-store-eu-west/content/pii:S2468823124003997/image/svg+xml/fae61a366734ac1214d4d590ba9904b6/si24.svg si24 si24.svg svg 3716 ALTIMG 1-s2.0-S2468823124003997-si25.svg https://s3-eu-west-1.amazonaws.com/prod-ucs-content-store-eu-west/content/pii:S2468823124003997/image/svg+xml/6c1f35ce3afc9a3c76cad715eeeef117/si25.svg si25 si25.svg svg 5836 ALTIMG 1-s2.0-S2468823124003997-si26.svg https://s3-eu-west-1.amazonaws.com/prod-ucs-content-store-eu-west/content/pii:S2468823124003997/image/svg+xml/deaa073a5c3771a85fdfa234a392870f/si26.svg si26 si26.svg svg 3147 ALTIMG 1-s2.0-S2468823124003997-si27.svg https://s3-eu-west-1.amazonaws.com/prod-ucs-content-store-eu-west/content/pii:S2468823124003997/image/svg+xml/45092eed90fe9bc339227552c526f5ab/si27.svg si27 true si27.svg svg 4765 ALTIMG 1-s2.0-S2468823124003997-si28.svg https://s3-eu-west-1.amazonaws.com/prod-ucs-content-store-eu-west/content/pii:S2468823124003997/image/svg+xml/bb525ac8fa06cfe1f565a1393aa9f42b/si28.svg si28 si28.svg svg 14223 ALTIMG 1-s2.0-S2468823124003997-si29.svg https://s3-eu-west-1.amazonaws.com/prod-ucs-content-store-eu-west/content/pii:S2468823124003997/image/svg+xml/4979ea8b01f287f84c84c6716a419261/si29.svg si29 si29.svg svg 14356 ALTIMG 1-s2.0-S2468823124003997-si3.svg https://s3-eu-west-1.amazonaws.com/prod-ucs-content-store-eu-west/content/pii:S2468823124003997/image/svg+xml/9a1d72468c12630680907abf4611d51f/si3.svg si3 si3.svg svg 1901 ALTIMG 1-s2.0-S2468823124003997-si30.svg https://s3-eu-west-1.amazonaws.com/prod-ucs-content-store-eu-west/content/pii:S2468823124003997/image/svg+xml/caf18b05b81260c42089f905911cfbf9/si30.svg si30 si30.svg svg 13290 ALTIMG 1-s2.0-S2468823124003997-si31.svg https://s3-eu-west-1.amazonaws.com/prod-ucs-content-store-eu-west/content/pii:S2468823124003997/image/svg+xml/d83c8b089b34653efb0029c22b4a5d5f/si31.svg si31 si31.svg svg 14492 ALTIMG 1-s2.0-S2468823124003997-si32.svg https://s3-eu-west-1.amazonaws.com/prod-ucs-content-store-eu-west/content/pii:S2468823124003997/image/svg+xml/26699f195dd9107473f68e6333c5daa5/si32.svg si32 si32.svg svg 11205 ALTIMG 1-s2.0-S2468823124003997-si33.svg https://s3-eu-west-1.amazonaws.com/prod-ucs-content-store-eu-west/content/pii:S2468823124003997/image/svg+xml/fe51ae84d6675f393c8f57e1473112fa/si33.svg si33 si33.svg svg 2123 ALTIMG 1-s2.0-S2468823124003997-si34.svg https://s3-eu-west-1.amazonaws.com/prod-ucs-content-store-eu-west/content/pii:S2468823124003997/image/svg+xml/79aa6225ccf163fae608e59120967777/si34.svg si34 si34.svg svg 2271 ALTIMG 1-s2.0-S2468823124003997-si35.svg https://s3-eu-west-1.amazonaws.com/prod-ucs-content-store-eu-west/content/pii:S2468823124003997/image/svg+xml/519d68947c73671053b6d380af0b4ad5/si35.svg si35 si35.svg svg 1291 ALTIMG 1-s2.0-S2468823124003997-si36.svg https://s3-eu-west-1.amazonaws.com/prod-ucs-content-store-eu-west/content/pii:S2468823124003997/image/svg+xml/18fbe77aa524105e8203801b7b05810c/si36.svg si36 si36.svg svg 1867 ALTIMG 1-s2.0-S2468823124003997-si37.svg https://s3-eu-west-1.amazonaws.com/prod-ucs-content-store-eu-west/content/pii:S2468823124003997/image/svg+xml/7701440c190300c5c158c6d090cf113d/si37.svg si37 si37.svg svg 1907 ALTIMG 1-s2.0-S2468823124003997-si38.svg https://s3-eu-west-1.amazonaws.com/prod-ucs-content-store-eu-west/content/pii:S2468823124003997/image/svg+xml/1bf58c84dee08752f03c4bc73f479ec7/si38.svg si38 si38.svg svg 1959 ALTIMG 1-s2.0-S2468823124003997-si39.svg https://s3-eu-west-1.amazonaws.com/prod-ucs-content-store-eu-west/content/pii:S2468823124003997/image/svg+xml/a97b98a81776d11b855a4f55b75362ac/si39.svg si39 si39.svg svg 2677 ALTIMG 1-s2.0-S2468823124003997-si4.svg https://s3-eu-west-1.amazonaws.com/prod-ucs-content-store-eu-west/content/pii:S2468823124003997/image/svg+xml/02643a16fa35f4f57ede91ded4be59e9/si4.svg si4 si4.svg svg 3001 ALTIMG 1-s2.0-S2468823124003997-si40.svg https://s3-eu-west-1.amazonaws.com/prod-ucs-content-store-eu-west/content/pii:S2468823124003997/image/svg+xml/d27363279182ded39cf772cbdfc5292e/si40.svg si40 si40.svg svg 15637 ALTIMG 1-s2.0-S2468823124003997-si41.svg https://s3-eu-west-1.amazonaws.com/prod-ucs-content-store-eu-west/content/pii:S2468823124003997/image/svg+xml/054b9c2c97584aa3ed63359480171b87/si41.svg si41 si41.svg svg 19738 ALTIMG 1-s2.0-S2468823124003997-si42.svg https://s3-eu-west-1.amazonaws.com/prod-ucs-content-store-eu-west/content/pii:S2468823124003997/image/svg+xml/b1fea598a7fc20b1254cce25387730e3/si42.svg si42 si42.svg svg 16174 ALTIMG 1-s2.0-S2468823124003997-si43.svg https://s3-eu-west-1.amazonaws.com/prod-ucs-content-store-eu-west/content/pii:S2468823124003997/image/svg+xml/8bd930fbf93d8e38bb76569953714ced/si43.svg si43 si43.svg svg 3106 ALTIMG 1-s2.0-S2468823124003997-si44.svg https://s3-eu-west-1.amazonaws.com/prod-ucs-content-store-eu-west/content/pii:S2468823124003997/image/svg+xml/be89a297147bdce7b5b12f4192db22ab/si44.svg si44 si44.svg svg 19951 ALTIMG 1-s2.0-S2468823124003997-si45.svg https://s3-eu-west-1.amazonaws.com/prod-ucs-content-store-eu-west/content/pii:S2468823124003997/image/svg+xml/3e0a0424795fb7ecdc646aad749cacbf/si45.svg si45 si45.svg svg 5152 ALTIMG 1-s2.0-S2468823124003997-si46.svg https://s3-eu-west-1.amazonaws.com/prod-ucs-content-store-eu-west/content/pii:S2468823124003997/image/svg+xml/176121411c208ed97f8075ce1f50558b/si46.svg si46 si46.svg svg 5251 ALTIMG 1-s2.0-S2468823124003997-si47.svg https://s3-eu-west-1.amazonaws.com/prod-ucs-content-store-eu-west/content/pii:S2468823124003997/image/svg+xml/e1219a522858a7c60cfdb0000dc865b4/si47.svg si47 si47.svg svg 3869 ALTIMG 1-s2.0-S2468823124003997-si48.svg https://s3-eu-west-1.amazonaws.com/prod-ucs-content-store-eu-west/content/pii:S2468823124003997/image/svg+xml/a6d6dc93f9ae5780c0ebf03f3cbf36a9/si48.svg si48 si48.svg svg 2950 ALTIMG 1-s2.0-S2468823124003997-si49.svg https://s3-eu-west-1.amazonaws.com/prod-ucs-content-store-eu-west/content/pii:S2468823124003997/image/svg+xml/fb325ad30918df0062a00454379df9e4/si49.svg si49 si49.svg svg 2114 ALTIMG 1-s2.0-S2468823124003997-si5.svg https://s3-eu-west-1.amazonaws.com/prod-ucs-content-store-eu-west/content/pii:S2468823124003997/image/svg+xml/8b138da297a7f68b9073fe45e972436d/si5.svg si5 si5.svg svg 2892 ALTIMG 1-s2.0-S2468823124003997-si50.svg https://s3-eu-west-1.amazonaws.com/prod-ucs-content-store-eu-west/content/pii:S2468823124003997/image/svg+xml/e677a759d8237733821fc5c385a9cb56/si50.svg si50 si50.svg svg 2029 ALTIMG 1-s2.0-S2468823124003997-si51.svg https://s3-eu-west-1.amazonaws.com/prod-ucs-content-store-eu-west/content/pii:S2468823124003997/image/svg+xml/4b1a9c2df59179c37fd04b21725e3727/si51.svg si51 si51.svg svg 1785 ALTIMG 1-s2.0-S2468823124003997-si52.svg https://s3-eu-west-1.amazonaws.com/prod-ucs-content-store-eu-west/content/pii:S2468823124003997/image/svg+xml/a56f1249b39c95ddb8cf149ca8367fc2/si52.svg si52 si52.svg svg 7149 ALTIMG 1-s2.0-S2468823124003997-si53.svg https://s3-eu-west-1.amazonaws.com/prod-ucs-content-store-eu-west/content/pii:S2468823124003997/image/svg+xml/9e36c334ef9237ed1cca1c52d0392f6f/si53.svg si53 si53.svg svg 2403 ALTIMG 1-s2.0-S2468823124003997-si54.svg https://s3-eu-west-1.amazonaws.com/prod-ucs-content-store-eu-west/content/pii:S2468823124003997/image/svg+xml/26f66b4c1034dd153e2b05cd9c331f83/si54.svg si54 si54.svg svg 5447 ALTIMG 1-s2.0-S2468823124003997-si55.svg https://s3-eu-west-1.amazonaws.com/prod-ucs-content-store-eu-west/content/pii:S2468823124003997/image/svg+xml/70565289513ed3d6876b28d39cc27b83/si55.svg si55 si55.svg svg 2695 ALTIMG 1-s2.0-S2468823124003997-si56.svg https://s3-eu-west-1.amazonaws.com/prod-ucs-content-store-eu-west/content/pii:S2468823124003997/image/svg+xml/e3e59c9b1af9e2faff466f38c0d72153/si56.svg si56 si56.svg svg 6231 ALTIMG 1-s2.0-S2468823124003997-si57.svg https://s3-eu-west-1.amazonaws.com/prod-ucs-content-store-eu-west/content/pii:S2468823124003997/image/svg+xml/72493a22286bb3b85f4916061a23f8ad/si57.svg si57 si57.svg svg 2872 ALTIMG 1-s2.0-S2468823124003997-si58.svg https://s3-eu-west-1.amazonaws.com/prod-ucs-content-store-eu-west/content/pii:S2468823124003997/image/svg+xml/83d8b4dcf9e0b0cc9a40461c70d45c5b/si58.svg si58 si58.svg svg 4624 ALTIMG 1-s2.0-S2468823124003997-si59.svg https://s3-eu-west-1.amazonaws.com/prod-ucs-content-store-eu-west/content/pii:S2468823124003997/image/svg+xml/4b6b6cd216a3bbf3a67ebfbf01c4104f/si59.svg si59 si59.svg svg 7579 ALTIMG 1-s2.0-S2468823124003997-si6.svg https://s3-eu-west-1.amazonaws.com/prod-ucs-content-store-eu-west/content/pii:S2468823124003997/image/svg+xml/997359059ea78ca9518da0fd8c144126/si6.svg si6 si6.svg svg 2018 ALTIMG 1-s2.0-S2468823124003997-si7.svg https://s3-eu-west-1.amazonaws.com/prod-ucs-content-store-eu-west/content/pii:S2468823124003997/image/svg+xml/65cd4ad80998c4d65b073fb1ce6246e3/si7.svg si7 si7.svg svg 3257 ALTIMG 1-s2.0-S2468823124003997-si8.svg https://s3-eu-west-1.amazonaws.com/prod-ucs-content-store-eu-west/content/pii:S2468823124003997/image/svg+xml/ffec8228edc195bf535f4d446dbde50f/si8.svg si8 si8.svg svg 4911 ALTIMG 1-s2.0-S2468823124003997-si9.svg https://s3-eu-west-1.amazonaws.com/prod-ucs-content-store-eu-west/content/pii:S2468823124003997/image/svg+xml/2dee1ed61608915c5be8a56bba72d36e/si9.svg si9 si9.svg svg 5167 ALTIMG 1-s2.0-S2468823124003997-am.pdf https://s3-eu-west-1.amazonaws.com/prod-ucs-content-store-eu-west/content/egi:103050W5HJL/MAIN/application/pdf/8adac0885e9ba48ce175d8cdccb062ec/am.pdf am am.pdf pdf false 3365017 AAM-PDF MCAT 114216 114216 S2468-8231(24)00399-7 10.1016/j.mcat.2024.114216 The Author(s) Fig. 1 The salient reaction scheme for DRM reaction. Fig 1 Fig. 2 (a) Predicted vs Experimental CH4 conversion (b) Predicted vs Experimental CO2 conversion (c) Predicted vs Experimental H2/CO mole ratio. Fig 2 Fig. 3 a. RSM plots for CH4 conversion of methane dry reforming over NiSrZrAL Catalyst. b. Contour plots for CH4 conversion of methane dry reforming over NiSrZrAL Catalyst. Fig 3 Fig. 4 a. RSM plots for CO2 conversion of methane dry reforming over NiSrZrAL Catalyst. b. Contour plots for CO2 conversion of methane dry reforming over NiSrZrAL Catalyst. Fig 4 Fig. 5 a. RSM plots for H2/CO molar ratio of methane dry reforming over NiSrZrAL Catalyst. b. Contour plots for H2/CO molar ratio of methane dry reforming over NiSrZrAL Catalyst. Fig 5 Fig. 6 a. NN Surface plots for CH4 conversion of methane dry reforming over NiSrZrAL Catalyst. b. NN Contour plots for CH4 conversion of methane dry reforming over NiSrZrAL Catalyst. Fig 6 Fig. 7 a. NN Surface plots for CO2 conversion of methane dry reforming over NiSrZrAL Catalyst. b. NN Contour plots for CO2 conversion of methane dry reforming over NiSrZrAL Catalyst. Fig 7 Fig. 8 a. NN Surface plots for H2/CO molar ratio of methane dry reforming over NiSrZrAL Catalyst. b. NN Contour plots for H2/CO molar ratio of methane dry reforming over NiSrZrAL Catalyst. Fig 8 Fig. 9 The long time on stream study over NiSrZrAl catalyst, Conditions: Catalyst Pre-treatment temperature= 800 °C, reaction temperature =750 °C, space velocity = 12,000 cm3g−1h−1, CH4/CO2 = 1:1 and N2 flow rate = 10 ml/min. Fig 9 Table 1 Experimental data and predicted results for various components of the reaction system on 90 minutes Time on stream. Table 1: EX NO A= GHSV XA B= T XB C= CH4: CO2 XC CH4 conversion CO2 conversion H2/CO Exp. Pred. %Error Exp. Pred. %Error Exp. Pred. %Error 1 42,000 1 600 -1 1 1 26.49 26.83 1.27 35.09 35.26 0.48 0.731 0.73 0.38 2 42,000 1 600 -1 0.667 -0.332 32.45 31.49 2.96 32.95 31.92 3.11 0.66 0.63 5.18 3 32,000 0.3333 600 -1 0.5 -1 48.71 46.26 5.03 35.06 34.89 0.49 0.6 0.6 0.59 4 32,000 0.3333 600 -1 1 1 30.12 31.04 3.06 39.94 39.90 0.11 0.73 0.76 3.91 5 22,000 -0.3333 600 -1 0.8 0.2 42.91 41.59 3.08 40.26 42.53 5.64 0.72 0.77 7.23 6 12,000 -1 600 -1 0.667 -0.332 63.65 62.57 1.69 49.69 45.84 7.76 0.88 0.86 2.18 7 12,000 -1 600 -1 0.5 -1 74.3 73.13 1.58 46.46 44.16 4.95 0.82 0.81 1.63 8 42,000 1 650 -0.3333 1 1 36.44 34.30 5.86 47.11 50.84 7.91 0.78 0.82 5.39 9 42,000 1 650 -0.3333 0.5 -1 48.58 49.52 1.94 36.5 38.62 5.79 0.668 0.66 1.20 10 32,000 0.3333 650 -0.3333 0.8 0.2 45.09 49.11 8.92 47.62 50.59 6.23 0.77 0.77 0.11 11 32,000 0.3333 650 -0.3333 0.667 -0.332 48.93 53.17 8.68 43.65 47.33 8.44 0.74 0.73 1.88 12 22,000 -0.3333 650 -0.3333 1 1 51.36 52.41 2.04 64.3 60.11 6.51 0.93 0.9 3.28 13 22,000 -0.3333 650 -0.3333 0.5 -1 65.23 67.63 3.67 44.99 47.89 6.44 0.78 0.74 5.45 14 12,000 -1 650 -0.3333 0.667 -0.332 71.2 71.73 0.75 57.07 56.61 0.81 0.84 0.91 8.41 15 12,000 -1 650 -0.3333 0.8 0.2 66.97 67.67 1.04 57.78 59.86 3.60 1.01 0.95 5.57 16 32,000 0.3333 700 0.3333 1 1 62.5 61.59 1.46 73.4 71.05 3.20 0.87 0.88 1.07 17 42,000 1 700 0.3333 0.8 0.2 62.49 59.70 4.47 61.68 58.64 4.93 0.82 0.82 0.57 18 32,000 0.3333 700 0.3333 0.8 0.2 67.51 67.89 0.57 66.49 63.28 4.83 0.83 0.81 1.87 19 22,000 -0.3333 700 0.3333 0.667 -0.332 81.05 79.90 1.42 65.01 62.74 3.49 0.83 0.82 0.72 20 22,000 -0.3333 700 0.3333 0.5 -1 88.25 84.78 3.94 55.48 56.25 1.39 0.76 0.77 1.31 21 12,000 -1 700 0.3333 0.5 -1 90.9 92.52 1.78 61.57 60.89 1.11 0.83 0.88 5.57 22 42,000 1 750 1 0.667 -0.332 74.63 76.48 2.48 62.85 64.24 2.22 0.8 0.8 0.01 23 32,000 0.3333 750 1 0.5 -1 91.24 89.01 2.45 58.67 59.98 2.23 0.68 0.73 7.69 24 42,000 1 750 1 0.8 0.2 73.93 72.86 1.45 75.98 71.33 6.12 0.86 0.84 1.95 25 22,000 -0.3333 750 1 0.667 -0.332 91.97 96.17 4.56 75.44 73.52 2.55 0.85 0.83 2.78 26 22,000 -0.3333 750 1 1 1 78.72 80.56 2.34 89.26 91.27 2.25 0.95 0.93 1.65 27 12,000 -1 750 1 1 1 83.77 81.19 3.08 92.27 95.90 3.94 1.02 1.03 0.76 28 12,000 -1 750 1 0.8 0.2 94.87 93.18 1.78 84.1 85.24 1.36 0.98 0.96 1.74 Table 2 Regression Statistics and Analysis of Variance for various components over NiSrZrAl Catalyst. Table 2: Regression & Prediction Statistics Component CH4 CO2 H2/ CO Regression Statistics R2 0.9888 0.9764 0.9159 Adjusted R2 0.9855 0.9723 0.8919 Standard Error 2.432 2.769 0.0345 Analysis of Variance Regression MS 1821.7 1826.4 0.0454 df 6 4 6 Residual MS 5.917 7.670 1.189E-03 df 21 23 21 F 307.9 238.1 38.14 Significance F 2.403E-19 2.351E-18 3.127E-10 Prediction Regression Statistics PRESS 211.6478 255.9 0.0435 R2pred 0.9809 0.9658 0.8536 Adeqval 53.33 49.91 23.40 CV 3.7962 4.845 4.246 Table 3 Estimated Regression Parameters for various components over NiSrZrAl Catalyst. Table 3: Y = β 0 + β S V * X S V + β T * X T + β R t * X R t + β S V * T * X S V * X T + β T * R t X T X R t + β T * R t 2 * X T * X R t 2 + β S V 2 * X S V 2 + β T 2 * X T 2 + β T 3 * X T 3 Regression Parameters components CH4 CO2 H2/ CO β 0 Coeff. 64.31 57.67 0.8023 ± C.L. 1.923 2.173 0.0525 Standard Error 0.462 0.525 0.0126 t Stat 139.1 109.8 63.54 P-value 1.277E-32 8.571E-33 1.710E-25 β S V Coeff. −12.85 −6.956 −0.0887 ± C.L. 2.649 3.048 0.0368 Standard Error 0.637 0.737 8.847E-03 t Stat −20.17 −9.440 −10.02 P-value 3.153E-15 2.240E-09 1.862E-09 P e f f 15.49 10.45 33.57 β T Coeff. 27.39 17.96 0.0583 ± C.L. 5.261 2.916 0.0365 Standard Error 1.265 0.705 8.787E-03 t Stat 21.66 25.47 6.637 P-value 7.600E-16 2.343E-18 1.432E-06 P e f f 70.37 69.69 14.50 β R t Coeff. -7.609 7.915 0.0810 ± C.L. 2.794 3.004 0.0389 Standard Error 0.672 0.726 9.360E-03 t Stat −11.33 10.90 8.657 P-value 2.094E-10 1.465E-10 2.269E-08 P e f f 5.431 13.53 27.99 β S V * T Coeff. 2.692 0.0288 ± C.L. 3.429 0.0486 Standard Error 0.824 0.0117 t Stat 3.265 2.466 P-value 3.700E-03 0.0223 P e f f 0.6798 3.539 β T * R t Coeff. 5.410 ± C.L. 4.139 Standard Error 1.000 t Stat 5.408 P-value 1.706E-05 P e f f 6.32 β T * R t 2 Coeff. −6.148 ± C.L. 5.775 Standard Error 1.388 t Stat −4.428 P-value 2.335E-04 P e f f 3.546 β S V 2 Coeff. 0.0602 ± C.L. 0.0617 Standard Error 0.0148 t Stat 4.059 P-value 5.637E-04 P e f f 15.46 β T 2 Coeff. −0.0340 ± C.L. 0.0618 Standard Error 0.0149 t Stat −2.284 P-value 0.0329 P e f f 4.932 β T 3 Coeff. -6.912 ± C.L. 5.837 Standard Error 1.403 t Stat -4.925 P-value 7.155E-05 P e f f 4.482 Table 4 (a) Performance and Error Evaluation of RSM and ANN Methods for Dry Reforming of CH4 Over NiSrZrAl Catalyst (b) Performance and Error Evaluation of RSM and ANN Methods for Dry Reforming of CH4 Over NiSrZrAl Catalyst (c) Performance and Error Evaluation of RSM and ANN Methods for Dry Reforming of CH4 Over NiSrZrAl Catalyst. Table 4: Comp _Method Average concentration Maximum concentration Minimum concentration R_square R a d j 2 F_ratio SD Elapsed time Exp. Pred. Exp. Pred. Exp. Pred. CH4_NN 64.08 64.08 94.87 94.87 26.49 26.49 1.0 1.0 3.71E+31 1.50E-16 8.3396 CH4_ Reg 64.08 64.08 94.87 93.69 26.49 26.71 0.9955 0.9924 322.82 0.0216 0.5995 CO2_ NN 57.17 57.17 92.27 92.27 32.95 32.95 1.0 1.0 1.94E+31 1.92E-16 8.4796 CO2_ Reg 57.17 57.17 92.27 95.90 32.95 31.92 0.9764 0.9723 238.2 0.0463 0.1776 H2/CO_ NN 0.8121 0.8121 1.02 1.02 0.6 0.6 1.0 1.0 6.89E+30 1.42E-16 8.8259 H2/CO_Reg 0.8121 0.8121 1.02 1.028 0.6 0.596 0.9160 0.89193 38.14 0.0382 0.3307 Min NN = 0.8121 0.8121 1.0200 1.0200 0.6000 0.6000 1.0 1.0 6.89E+30 1.42E-16 8.3396 Max NN = 64.0807 64.0807 94.8700 94.8700 32.9500 32.9500 1.0 1.0 3.71E+31 1.92E-16 8.8259 Min Reg = 0.8121 0.8121 1.0200 1.0277 0.6000 0.5965 0.9160 0.8919 38.14 0.0216 0.1776 Max Reg = 64.0807 64.0807 94.8700 95.9000 32.9500 31.9200 0.9955 0.9924 322.82 0.0463 0.5995 Comp _Method E r a v % E r a , a v % E r a , m i n % E r a , m a x % RMSE SEP CC CE1 CE2 m a x e r r o r % A D T m a x % CH4_ NN 1.54E-15 1.02E-14 0 3.51E-14 1.22E-14 1.91E-14 1.0 1.0 1.0 3.00E-14 0 CH4_ Reg -0.0590 1.6734 0.0555 4.5310 1.7604 2.7472 0.9978 0.9955 0.9955 4.4751 1.3658 CO2_ NN -7.13E-15 1.54E-14 0 3.89E-14 1.16E-14 2.02E-14 1.0 1.0 1.0 3.08E-14 1.54E-14 CO2_ Reg -0.2843 3.8530 0.1082 8.4400 2.7690 4.8440 0.9881 0.9764 0.9764 5.0378 3.9371 H2/CO_ NN -1.61E-15 1.00E-14 0 3.36E-14 1.28E-16 1.58E-14 1.0 1.0 1.0 2.18E-14 0 H2/CO_ Reg -0.1205 2.8597 0.0119 8.4126 0.0345 4.2461 0.9571 0.9159 0.9160 6.9282 0.7592 Min NN = -7.13E-15 1.00E-14 0 3.36E-14 1.28E-16 1.58E-14 1.0 1.0 1.0 2.18E-14 0.0 Max NN = 1.54E-15 1.54E-14 0 3.89E-14 1.22E-14 2.02E-14 1.0 1.0 1.0 3.08E-14 1.54E-14 Min Reg = -0.2843 1.6734 0.0119 4.5310 0.0345 2.7472 0.9571 0.9159 0.9160 4.4751 0.7592 Max Reg = -0.0590 3.8530 0.1082 8.4400 2.7690 4.8440 0.9978 0.9955 0.9955 6.9282 3.9371 Comp _Method Ch2 MAE MARE ARD AAD A f B f R V % AFV R F S V R F T e m p R F R t CH4_ NN 3.64E-29 5.96E-15 8.72E-17 1.02E-16 2.16E-32 1.11E-15 3.17E-16 1.89E-14 1.0 -0.5445 0.7709 -0.3481 CH4_ Reg 0.7372 1.0503 0.0154 0.0167 0.0005 0.1672 0.0037 2.7258 0.9996 -0.5457 0.7727 -0.3489 CO2_ NN 5.30E-29 8.37E-15 1.41E-16 1.54E-16 3.55E-32 1.67E-15 -5.55E-16 2.03E-14 1.0 -0.3520 0.8567 0.3397 CO2_ Reg 3.1 2.155 0.0363 0.0385 2.07E-03 0.3844 0.0181 4.915 0.9982 -0.3562 0.8669 0.3438 H2/CO_ NN 4.28E-31 7.93E-17 1.89E-16 1.00E-16 1.94E-32 1.07E-15 3.97E-17 1.57E-14 1.0 -0.5866 0.4721 0.4555 H2/CO_ Reg 0.0303 0.0230 0.0547 0.0286 0.0014 0.2840 0.0052 4.2307 0.999 -0.6129 0.4933 0.4759 Min NN = 4.28E-31 7.93E-17 8.72E-17 1.00E-16 1.94E-32 1.07E-15 -5.55E-16 1.57E-14 1.0 -0.5866 0.4721 -0.3481 Max NN = 5.30E-29 8.37E-15 1.89E-16 1.54E-16 3.55E-32 1.67E-15 3.17E-16 2.03E-14 1.0 -0.3520 0.8567 0.4555 Min Reg = 0.0303 0.0230 0.0154 0.0167 0.0005 0.1672 0.0037 2.7258 0.9982 -0.6129 0.4933 -0.3489 Max Reg = 3.1000 2.1550 0.0547 0.0385 0.0021 0.3844 0.0181 4.9150 0.9996 -0.3562 0.8669 0.4759 Note: NN and Reg signify ANN and RSM methods, respectively. Table 5 Predicted maximum of components at various zero input variables over NiSrZrAL Catalyst. Table 5: Y Method Zero Ratio Zero Temperature Zero Space Velocity Max_Y SV Temp Max_Y SV Rt Max_Y Tmp Rt CH4 Conv NN 93.61 -0.8 1 87.28 -0.7 -0.9 92.45 0.9 -0.7 Reg 95.18 -1 0.9 86.13 -1 -1 93.10 1 -1 CO2 Conv NN 80.89 -0.8 1 68.63 0.1 0.9 76.75 0.7 0.9 Reg 82.04 -1 1 72.079 -1 1 87.904 1 1 H2/CO NN 0.9661 -1 -0.4 0.9567 -1 0.3 0.8972 -0.1 1 Reg 0.9576 -1 0.4 1.0322 -1 1 0.9082 0.9 1 Research Paper Enhanced predictive optimization of methane dry reforming via ResponseSurface methodology and artificial neural network approaches: Insights using a novel nickel-strontium-zirconium-aluminum catalyst Tahani S. Gendy Writing – review & editing Writing – original draft Visualization Methodology Investigation Formal analysis Conceptualization a Radwa A. El-Salamony Writing – review & editing Writing – original draft Supervision Software Formal analysis Conceptualization a Maher M. Alrashed Writing – review & editing Writing – original draft Visualization Software Methodology Investigation b Abdulaziz Bentalib Writing – review & editing Writing – original draft Software Methodology Investigation b Ahmed I. Osman Writing – review & editing Writing – original draft Supervision Resources Methodology Investigation Conceptualization c ⁎ Rawesh Kumar Writing – review & editing Writing – original draft Visualization Validation d Anis H. Fakeeha Writing – review & editing Writing – original draft Investigation b Ahmed S. Al-Fatesh Writing – review & editing Writing – original draft Visualization Supervision Methodology Investigation Conceptualization b ⁎ a Process Development Department, Egyptian Petroleum Research Institute (EPRI), Cairo 11727, Egypt Process Development Department Egyptian Petroleum Research Institute (EPRI) Cairo 11727 Egypt aProcess Development Department, Egyptian Petroleum Research Institute (EPRI), Cairo 11727, Egypt b Chemical Engineering Department, College of Engineering, King Saud University, P.O. Box 800, Riyadh 11421, Saudi Arabia Chemical Engineering Department College of Engineering King Saud University P.O. Box 800 Riyadh 11421 Saudi Arabia bChemical Engineering Department, College of Engineering, King Saud University, P.O. Box 800, Riyadh 11421, Saudi Arabia c School of Chemistry and Chemical Engineering, Queen's University Belfast, Belfast BT9 5AG, Northern Ireland, UK School of Chemistry and Chemical Engineering Queen's University Belfast Belfast Northern Ireland BT9 5AG UK cSchool of Chemistry and Chemical Engineering, Queen's University Belfast, Belfast BT9 5AG, Northern Ireland, UK d Department of Chemistry, Indus University, Ahmedabad, Gujarat,382115, India Department of Chemistry Indus University Ahmedabad Gujarat 382115 India dDepartment of Chemistry, Indus University, Ahmedabad, Gujarat,382115, India ⁎ Corresponding authors. This study investigates the molecular dynamics of methane dry reforming catalyzed by a novel nickel-strontium-zirconium-aluminum (5Ni+3Sr/10Zr+Al) catalyst, leveraging both Response Surface Methodology (RSM) and Radial Basis Function Neural Network (RBFNN) for predictive optimization. Focusing on the impact of operational parameters—hourly space velocity, reaction temperature, and CO2:CH4 mole ratio—on the conversion rates and formation of reaction components, we aim to predict optimal conditions and corresponding process variables. Through a comparison of a three-layer Feed Forward Neural Network, optimized at a 3:10:1 topology, with traditional RSM approaches, our findings highlight the superior predictive capabilities of ANN models. Notably, ANN demonstrated exceptional performance with R adj 2 and F_Ratio values significantly surpass those of RSM, alongside lower statistical error terms. This superiority is attributed to ANN's robust handling of nonlinear relationships between inputs and outputs, asserting its potential for enhancing predictive accuracy in chemical process optimization. At optimum predicted conditions like 1 CH4/CO2,750 °C reaction temperature, 12000 cm3g−1h−1 space velocity, NiSrZrAl outperformed with > 85 % CH4 and CO2 conversion with H2/CO ∼1 up to 20 h time on stream. Our research underscores the importance of integrating advanced modeling techniques for the efficient and accurate prediction of catalytic reactions, offering valuable insights for future applications in chemical engineering and catalysis. Graphical abstract Image, graphical abstract Keywords Carbon dioxide Methane dry reforming Response surface methodology Artificial neural network Radial basis function Data availability Data will be made available on request. 1 Introduction The intensive exploitation of fossil resources, pivotal to humanity's development, has led to a dramatic increase in atmospheric CO2 emissions—from 228 ppm in the pre-industrial era to 424.55 ppm in February 2024 (NOAA Global Monitoring Laboratory (.gov). This surge exerts significant pressure on human survival, highlighting carbon dioxide as the primary greenhouse gas driving human-induced climate change. In response, various strategies for CO2 emission reduction and control have been explored, focusing on carbon capture and storage (CCS) or its utilization (CCU). Notably, converting captured CO2 into fuels, using green hydrogen produced through the electrolysis of water powered by renewable energy sources, not only mitigates atmospheric CO2 levels but also offers a means to store excess renewable energy efficiently. Among various techniques for CO2 conversion, the dry reforming of methane (DRM) has garnered considerable attention. This process, capable of transforming two potent greenhouse gases—methane (CH4) and CO2—into valuable syngas (H2 and CO) with a near-ideal H2:CO ratio for synthesizing liquid hydrocarbons, fuels, and chemicals, represents a promising avenue for leveraging excess methane, particularly from low-quality natural gas and biogas sources rich in CO2 [1–4]. The relevant reaction scheme for DRM reaction can be presented as the dissociation of CH4 over edge-step sites of Ni followed by oxidation of dissociated (CH4-x; x = 1–4) by CO2 [5,6] (Fig. 1 ). Ni supported over conventional support Al2O3 has certain catalytic limitation for DRM reaction that is diffusion of active sites “Ni” into alumina lattice. This issue was mitigated by incorporating a small amount of ZrO2 into the Al2O3 support, which prevents the diffusion of nickel [7]. The zirconia-alumina support also benefited from oxygen endowing capacity of zirconia. Alkali metal oxide (Ba, Ca, Mg) promoted DRM catalyst was found to enhance the CO2 interaction over the surface [8]. Calcium addition into Ni/ZrO2 also showed stabilization of the tetragonal phase of zirconia [9], whereas MgO addition in Ni/Al2O3 and Ni/ZrO2 resulted in enhanced metal support interaction and optimization of the size of active sites [10,11]. Recently, strontium addition as a promotor was found to enhance Sr+2 mediated CO2 interaction, surface oxide enrichment and generation of smaller crystallite in DRM [12]. So, Sr promoted catalyst can induce both more CO2 interaction and enhanced C-H dissociation [13]. After getting a potential catalyst, the industry relies on process optimization to maximize the catalytic performance. The optimization of DRM, along with other chemical and physical processes, has been significantly advanced through the employment of Response Surface Methodology (RSM). RSM stands out for its simplicity, flexibility, and robustness, enabling the identification and quantification of both significant and insignificant factors and their interactions. It simplifies the assessment of input parameters' impact on the response, offering a streamlined evaluation of their relative significance [14–17]. Parallelly, the Artificial Neural Network (ANN) methodology, a deep learning algorithm mimicking the human brain's structure and function, has shown remarkable precision and reliability. It surpasses RSM in modeling complex, nonlinear multivariate systems, evidenced by higher R2 values, F-tests, and lower error terms. The ANN's superiority in predictive capability and fault tolerance, especially in handling systems with a high degree of nonlinearity, underscores its potential for refining process optimization in various fields [18–21]. RSM and ANN have been extensively applied across several domains, evaluating process parameters' significance and investigating diverse process aspects without necessitating accurate system expressions or physical meanings. Their combined use has particularly highlighted ANN's dominance, offering more accurate predictions compared to RSM alone. This is attributed to ANN's comprehensive data utilization for response prediction, necessitating more extensive runs than RSM [14,22,23]. This omnipotence of ANN, alongside its ability to capture complex nonlinear relationships and perform intricate operations, has been validated in multiple studies across different applications—from predicting permeable concrete properties and Pavement Condition Index (PCI) accuracy to optimizing methane yield from palm oil mill effluent and forecasting the mechanical performance of recycled aggregate concretes [24–27]. Further illustrating ANN's versatility and superiority, [21] demonstrated that ANN models notably outperform traditional Multiple Linear Regression (MLR) in predicting the properties of pervious concrete blended with Ground Granulated Blast-furnace Slag. This positions ANN as an effective alternative for accurately forecasting material strength and permeability. Additionally, ANN's capability extends to multi-variable regression models (MVR), outshining conventional models in predicting the unconfined compressive strength of expansive soil amended with bagasse ash and lime, as shown by [28]. In a distinct application, [29] introduced a model predictive control (MPC) for a Multiple-Input Multiple-Output (MIMO) biomass control system, leveraging the radial basis function (RBF) in ANN for enhanced control performance. Their findings revealed that RBFNN-based MPC outperforms the traditional state space model-based MPC, attributing this to ANN's dynamic monitoring capabilities over static models. Similarly [30], observed that ANNs provide a more effective approach for predicting the fatigue life of riveted joints in AA2024 aluminum alloy plates compared to analytical or numerical methods, highlighting the method's adaptability to complex engineering challenges. The application of RSM and ANN in simulating the petroleum refining process further underscores their utility, with researchers successfully employing these methodologies to predict the properties of various compositions of Iraqi oil [18]. This widespread adoption and success of ANN can be attributed to its remarkable fault tolerance, ability to model complex nonlinear relationships, and ability to execute sophisticated operations, especially beneficial in systems characterized by significant nonlinearity[16,18,31–33]. Ayodele et al. employed the ANN model to investigate the effect of partial pressure, CH4:CO2 ratio (feed ratio) and temperature over catalytic activity over ceria-supported cobalt catalyst [34]. By using RSM, the optimum reaction conditions are predicted over Ta-promoted Ni/ZSM-5, Dendritic fibrous type SBA-15-supported Ni catalyst, activated carbon-supported cobalt catalyst and NieCo/MgO-ZrO2 catalysts [35–38]. Izhab et al. achieved optimum response of H2-yield (82.9) and CO-yield (59%) at 903 °C, 0.88 bar, 1.31 feed ratio and 4.488 L/h.g GHSV over activated carbon-supported cobalt catalyst [37]. The close experimental results (86% H2 yield and 53.8% CO yield) validate the authenticity of the RSM model. This study pioneers the comprehensive evaluation of Response Surface Methodology (RSM) and Artificial Neural Network (ANN) techniques, specifically employing Radial Basis Function Neural Networks (RBFNN), for optimizing the dry reforming of methane using a novel 5Ni+3Sr/10Zr+Al catalyst composition. Unlike previous research, this work integrates extensive experimental data [39] to compare the predictive accuracies of RSM and ANN, leveraging determination coefficients (R2), F ratios, and a suite of error analysis parameters. Through the application of second-order regression models, validated by meticulous ANOVA testing, we not only establish but also rigorously test a three-layered Feed Forward Neural Network coupled with the Radial Basis Function. This innovative approach enables a nuanced investigation into the effects of input variables across both three and two-dimensional spaces, culminating in the precise identification of optimal reaction conditions. Our findings not only underscore the enhanced predictive capabilities and efficiency of ANN, particularly RBFNN, over traditional RSM in chemical process optimization but also introduce a robust framework for the application of these methodologies in catalysis and chemical engineering. This study sets a new benchmark for methodological precision and depth in the field, paving the way for future investigations into catalytic process optimization and modeling. 2 Experimental 2.1 Material 10 %ZrO2-Al2O3 (purchased from Daiichi Kigenso Kagaku Kogyo Co. Ltd.), Ni (NO3)2·6H2O (98 %, Alfa Aesar) and Sr(NO3)2 (98 %, Alfa Aesar) 2.2 Catalyst preparation The support 10 %ZrO2-Al2O3 (purchased from Daiichi Kigenso Kagaku Kogyo Co. Ltd.) is made up of 9.72 wt% ZrO2 and 90.28 wt% alumina. It has 126 m2/g specific surface area, and 50 % of the support particles are smaller than 60.3 μm (D50 = 60.3 μm). 5 wt% Ni (NO3)2·6H2O (Equivalent to 5wt% Ni) is dissolved in 10 ml distilled water, and then after, Sr(NO3)2 (equivalent to 3 wt% Sr) is added to this solution. Lastly, the support 10 %ZrO2-Al2O3 is added into the solution under stirring conditions. The solution is heated and agitated until a slurry is formed. The slurry is dried in the oven at 120 °C and then calcined at 600 °C (at 3 °C/min heating ramp) for 3 hours. Subsequently, the prepared catalysts were ground into powder. The support and catalyst are abbreviated as ZrAl and NiSrZrAl. The elemental composition of the NiSrZrAl catalyst is analyzed by Energy-dispersive X-ray (EDX) spectra (Fig. S1). After discarding the oxygen, the elemental composition of Sr, Ni, Zr and Al is found to be 3.6 wt%, 5.4 wt%, 13.8 wt% and 68.2 wt%, respectively. 2.3 Catalyst characterization The NiSrZrAl catalyst is characterized with surface area and porosity and, H2-temperature programmed reduction (H2-TPR) and CO2-temperature programmed desorption (CO2-TPD). The detailed descriptions of the catalyst characterization techniques are included in the supplementary information S2. The NiSrZrAl has a type IV adsorption isotherm with an H1 hysteresis loop, indicating the presence of ordered mesopores [40] (Fig. S3 A). With respect to support ZrAl, the specific surface area of the catalyst is decreased marginally (123 m2/g). For such an isotherm, a desorption branch is recommended for pore volume and pore size calculation [41]. dV/dlogW vs W plot (V is pore volume and W is pore width) shows a monomodal pore size distribution of size 18.5 nm (Fig. S 3B). H2-TPR result indicates moderate and strong interaction of NiO with support, which tends to reduce under H2 at intermediate temperature range and high-temperature range (> 600 °C) [42] (Fig. S 3C). A small shoulder peak of about 750 °C was also observed, which indicates the presence of reducible SrCO3 species [43]. SrCO3 species is formed by the interaction of Sr+2 and CO2 over the catalyst [43]. CO2-temperature programmed desorption result shows a diffuse peak of weak basic sites by surface hydroxyl (at 100 °C) and intense peak of moderate strength basic sites by surface oxide (at ∼300 °C) [44] (Fig. S 3D). Apart from these, diffuse peaks for “surface bond CO2-interacting species” (at 625 °C) and “Sr+2 bond CO2 species” (at 800 °C) are also observed, which are attributed to strong basic sites [45,46]. Overall, it can be said that after bearing Ni and Sr over ZrAl support, the surface area of the catalyst is marginally decreased, NiSrZrAl has a wide range of basic sites (from weak to strong), and it bears adequate active sites “Ni” which is under moderate and strong interaction with support. 2.4 Catalyst activity test 0.1 g catalyst was packed in a tubular stainless steel fixed-bed reactor (PID Eng & Tech, 9 mm I.D.) equipped with a K-type thermocouple for temperature monitoring. Catalyst is pre-reduced by H2 (flow rate 30 mL/min for 1 h) at 800 °C and then DRM reaction was carried out in the following operating conditions: 600 °C to 750 °C reaction temperatures, 12,000 cm3g−1h−1 to 42,000 cm3g−1h−1 space velocities, and 0.5–1 CH4/CO2 ratios. The DRM gas feed is composed of CH4, CO2 and N2, where the flow of nitrogen is fixed at 10 ml/min in all runs. The product is analyzed by a gas chromatograph equipped with a proper Q column, molecular sieve columns, and a thermal conductivity detector. After 90 min on stream, the experimental CH4 conversion, CO2 conversion and H2/CO ratio were calculated (as shown below). The final value is taken by averaging the value of three consecutive readings. C H 4 conversion ( % ) = C H 4 in − C H 4 out C H 4 in × 100 C O 2 conversion ( % ) = C O 2 in − C O 2 out C O 2 in × 100 H 2 CO = moles of H 2 produced moles of CO produced 3 Process optimization 3.1 Response surface methodology (RSM) Response surface methodology is an empirical modeling technique used to estimate the relationship between the set of controllable experimental factors and the observed results [47]. RSM is a resourceful tool that is conjured up with mathematical and statistical techniques for designing experiments and building models utilized in the analysis of engineering issues. It is also useful for evaluating the effects of variables besides investigating the interactive effects between several factors at different levels, powerful for reducing the complexity of problems and solving multivariate equations concurrently in addition to searching for the optimum conditions of variables to predict targeted responses as well as the evaluation of the most influential factors on chosen responses [48]. RSM is efficient in dealing with the limitations of the conventional method of one factor at a time besides being suitable for problems in which there is no exact relationship between controllable input independent variables and the obtained response outlets with a minimum number of experiments [49–52]. To eliminate the effect of different units and ranges in the experimental domain, to allow the parameters of a different magnitude to be investigated more evenly, and to establish the proper experimental design to be performed, the actual values of the process variables should be codified to be in the range of –1 and +1, employing the following Eq: [53–56]. (1) coded value = actual value − mean value half of range Actual and coded values for the process parameters are presented in Table (1) . The mathematical model expressed in terms of coded variables is useful for identifying the relative impact of the factors by comparing the factor coefficients [57]. Response Surface Method (RSM) has been established through a second-order equation of the following form via multiple regression techniques to fit the functional relationships between the coded independent and dependent variables while the robustness of data fitting is inspected by analysis of variance (ANOVA) [17,53,55,56]: (2) Y = β 0 + ∑ i = 1 k β i X i + ∑ i = 1 k − 1 ∑ j = i + 1 k β ij X i X j + ∑ i = 1 k β i X i 2 + ɛ where, Y is the response variable; X i and X j are the input coded values of the variables that affect the response variable and ɛ represents the random error or uncertainties between predicted and measured values, k is the number of variables, and β 0 , β i , β ii and β ij are the regression constants of intercept, linear, quadratic and interaction terms, respectively. The following Eq. (3) has been advocated to represent the response surface of conversion or formation of the various components as a function of the coded input variables. (3) Y = β 0 + β SV * X SV + β T * X T + β Rt * X Rt + β SV * T * X SV * X T + β T * Rt X T * X Rt + β T * R t 2 * X T * X Rt 2 + β SV 2 * X SV 2 + β T 2 * X T 2 + β T 3 * X T 3 Multiple regression techniques employing Eq. (3) has been applied to the experimental data cited in Table (1) by means of Microsoft Excel 2010 and Matlab 9.0 to establish the relationships between the coded independent and dependent variables. Details of all these concepts have been dealt with in the papers of [58–62]. The resulting predictive models for the various responses are as follows: For CH4 conversion: (4) Y = C H 4 = 64.31 − 12.85 * X SV + 27.39 * X T − 7.609 * X Rt + 2.692 * X SV * X T − 6.148 * X T * X Rt 2 − 6.912 * X T 3 For CO2 conversion: (5) Y = C O 2 = 57.67 − 6.956 * X SV + 17.96 * X T + 7.915 * X Rt + 5.410 * X T * X Rt For H 2 / CO molar ratio: (6) Y = H 2 / CO = 0.8023 − 0.0887 * X SV + 0.0583 * X T + 0.0810 * X Rt + 0.0288 * X SV * X T + 0.0602 * X SV 2 − 0.0340 * X T 2 The large F-values and small Significance F values in Table (2) signify the validation of the above polynomial equation models for all terms within a 95 % confidence interval [18,63]. These regression equations can precisely predict the true response surface well [64,65]. The R2 and adj-R2 values ≥ 0.9 beside the negligible difference between them in addition to the agreement between the “ R pred 2 ” values with the corresponding “ R adj 2 ” (difference < 0.2) indicates the real and good relations between the independent and dependent variables for the various components of the reaction system [17,32,56,66]. The adequate precision values of (> 4) show good model discernment, and each of these models could be used to traverse the design space [56,67–69]. The values of CV < 10 indicate the great degree of precision with which experiments were performed [70,71] The evidence for the validity of the regression models and their high capability to forecast the response has been affirmed by comparing the experimental data and the corresponding predicted ones recorded in Table (1) beside the parity plots of Fig. 2 (a)–(c) as the data points on the plot were reasonably clustered around the diagonal [72–74]. Only the values of the significant coefficients of the cited Eq. (3) along with the related low values of p < (α = 0.05) and Standard Error beside ǀt-statǀ and % P i _ eff are recorded in Table (3) , indicating the validity of the model equations [16,63]. The larger the magnitude of the t-value, P i _ eff and the smaller the p-value, the more significant is the corresponding coefficient [74,75]. The empty cells belong to the omitted non-significant coefficients. The positive sign of the model terms indicates the synergistic effect of temperature for the conversion of CH4 & CO2, while the negative sign of the space velocity indicates its antagonistic effect. Increasing the CH4:CO2 mole ratio decreases the CH4 conversion but increases the CO2 conversion. The effect of the process parameters on the conversion of CH4 & CO2 is of the order of temperature > space velocity > CH4:CO2 mole ratio. This is indicated by comparing the values of the coefficients, |tStat|, P-value & P eff . As for the H2/CO mole ratio, it increases with the increase of temperature and CH4:CO2 mole ratio and decrease of space velocity. The effect of the operating conditions is of the order of space velocity > CH4:CO2 mole ratio > temperature. 3.2 Artificial neural network (ANN) Artificial neural networks (ANNs) are highly versatile and scalable tools that can be used to model and analyze complex relations to offer excellent correlations resolving inadequately formalized or in_formalized task results used across the globe [25,76]. ANN, since its introduction as a universal function approximator [77,78], has dominated machine learning and artificial intelligence due to its capability to learn from previous events and its general structure to specify the relationship between input parameters and output responses without the need to specify the affiliation among variables or relevant mathematical equations beside its ability to approximate any function and capturing nonlinear and complex interactions among variables in a system where the accuracy and flexibility offered by ANN are quite impressive guaranteed to reach the accuracy of cumbersome regression models which use significant computing resources during operation [55,79–82]. ANN is a massive structure of interconnected networks of supervised deep learning algorithms based on a simplified analogy to the behavior of the human brain to mimic the pattern of processing information through a large number of interlinked units called neurons arranged in layers [19,83]. Each neuron is a mathematical function that collects, classifies information and produces an output. ANN algorithms have emerged for modeling resilient and nonlinear systems, predicting more precise and accurate results compared to RSM [84,85]. Many characteristics exhibited by artificial neural networks, such as nonlinearity, large scale, strong parallel processing ability, fault tolerance, as well as robustness and strong self-learning ability make it attractive for fault detection and diagnosis in complex systems. They are widely used in chemical and engineering processes, complex systems, industrial processes, catalyst optimization design, reaction optimization, Optimal Design of Reactors and process control [31,32,86]. 3.2.1 Radial basis function The radial Basis Function (Fig. S4), originally established by [87] as a universal approximator similar to the Gaussian density function, enjoying the best approximation property among all feed-forward networks, works on the principle of function approximation to fit irregular topographic contours of geographical data of both deterministic and stochastic response functions [88]. 3.2.2 Radial basis function neural networks (RBFNNs) An RBFNN (Fig. S5, Fig. S6) is a “supervised” learning method network having three layers of neurons: a hidden radial basis layer of S1 RADBAS neurons, an output linear layer of S2 PURELIN neurons (that represents and is equal to the response of the system besides), and an input layer with a number of neurons represents and is equal to the independent variables of the system to feed their values to each of the neurons in the hidden layer without performing any processing. RBFNN can fit any function satisfactory to any desired accuracy with correct weight to modify the signal carried from one node to the other and either enhance or diminish the influence of the specific connection beside bias value, allowing the sensitivity of the radbas neuron to be attuned [88–94]. The Details of RBFNNs are described in Supplementary Information S7). Radial Basis Function and Model are commonly employed in several fields with high accuracy for the interpolation of scattered data in high dimensions as they can deal with the regularity that is difficult to analyze in the system. This is due to their simple structure and implementation, strong ability for nonlinear function approximation, not having the problem of local minima, fast convergence to optimum solution, strong tolerance to input noise, aptitude to adapt to online learning and ease to configure via simple nature of the three-layer architecture [88–93]. RBFNNs are widely used in the control and optimization of distillation tower, fault diagnosis, image recognition, chemical process optimization, prediction of physical properties of compounds, optimization of CO2 mass transfer flux, suitable for the control of nonlinear and time-varying dynamic systems, as function approximators in control system design and for quantitative structure-property relationship model (QSPR) to predict the properties of compounds or mixtures due to their approximating capabilities and compensation for complex disturbances and model uncertainties [86,95,96]. Prior to performing modeling of the reaction tests, various Radial Basis Function ANN configurations were tested in terms of the SSE and R2 to determine the model with the best performance by varying the hidden neurons from 1 to 20. This was done to avoid over-fitting and reduction in the convergence rate associated with large numbers or small numbers of neurons, respectively [54,75]. The best performance of the Radial Basis Function ANN models was obtained for the 3–10–1 topology. Details of all concepts of ANN & RBFNNs have been dealt with in previous papers[59]. 3.3 Assessment of the predictive capability RSM and ANN models Many methodologies cited in the literature for assessment of the goodness of models fitting for RSM & ANN methods besides error analyses, as presented in supplement S2, have been employed in this study, and the results are recorded in Tables (4: a-c) . The results revealed that the ANN is highly effective in response prediction compared to the RSM model in all aspects, with superior reliability and accuracy with better alignment of the experimental and predicted values. This is conveyed in the very high values of the R 2 & F ratio and the exceedingly low value of error indicators for the ANN results compared to that of RSM ones. Similar observations were obtained by many research groups studying various engineering problems, as revealed earlier in this study. The values of R adj 2 are (0.9924, 0.9723, 0.89193) in the case of RSM compared to the values of 1.00 in the case of ANN, and of F_ratio in the case of RSM are (322.82, 238.2, 38.14) matched to the (6.89E+30, 1.94E+31, 6.89E+30) in case of ANN for C H 4 , C O 2 conversion & H 2 /CO mole ratio respectively, entitling the superiority of ANN in prediction. Also, in all cases studied, the range of m a x e r r o r % & A D C m a x % for ANN are 2.18E-14 - 3.08E-14 & 0.0 - 1.54E-14, while those for RSM are 4.4751- 6.9282 & 0.7592 - 3.9371. Moreover, the values RMSE & MAPE for ANN are 1.28E-16 - 1.22E-14 & 1.00E-14 – 1.54E-14, whereas those for RSM are 0.0345 - 2.7690 & 1.6734 – 3.853 respectively as depicted in Table (4:b). These results designate an excellent generalization prediction capacity of ANN than that of the RSM. The greater modelling competence of ANN can be attributed to its universal approximation facility for nonlinearity, whereas RSM is only limited to a second-order polynomial regression (Shafi et al., 2018). Table (4:c) presents the relevancy factor RF , which reflects the effect of the independent variables on the response. The positive relevancy factor of R F Temp (0.4721- 0.8567) indicates the prominent effect of the increase of temperature towards the increase of CH4 & CO2 conversion and H2/CO ratio in agreement with [14,97]. Increase in CH4:CO2 mole ratio R F Rt , decreases CH4 conversion ( R F Rt = − 0.35 ) and increases both CO2 conversion R F Rt = 0.35 and H2/CO mole ratio R F Rt = 0.46 . Increase of space velocity decreases both CH4 & CO2 conversion and decreases H2/CO mole ratio, ( R F SV = − 0.5866 : -0.3520). These results agree with those obtained with RSM.Table (4:a) reveals that the ANN method is more expensive than RSM. This is shown in the larger elapsed time for NN (8.3396 - 8.8259 sec) compared to that of RSM (0.1776 - 0.5995 sec) because the ANN method performs a series of computationally expensive function evaluations for a single model. 4 Simulation and optimization Graphical demonstration of results through three-D (3D) surface and contour plots represent endlessness of combinations between two variables while the third variable is kept constant. These plots envisage and interpret the nature of the synergetic relationship and mutual interaction between two combined experimental parameters and the response in a clarified view. The contour plot echoed the important influence of various factors interacting with the overall evaluation. The steeper the curve, the greater the widespread processing conditions [18,67,68,75,98]. Matlab 9.0 has been utilized to estimate the concentration of the various components of the reaction system and to accomplish the response surface plots for the predicted components. Eqs. 4-6 have been exploited for the RSM plots, while for the ANN method, the final optimum architecture was utilized. This has been accomplished by dividing each factor into 20 intervals and carrying out the simulation versus two coded variables while keeping the third at zero coded value. Therefore, a total of 400 situations were evaluated. The simulation results are exposed in Figs. 3, 4 and 5 for RSM & Figs. 6, 7 and 8 for the ANN method, along with the experimental data. The maximum response concentration and its corresponding input variables for RSM & ANN methods, as depicted in Table (5) , have been achieved by grid search exploring the simulated results of the entire region defined by the experimental design limits. 5 Comparative appraisal of RSM and ANN RSM has the facility to diagnose, itemize and evaluate significant and insignificant factors and their interactions based on their involvement in response estimation besides performing precise sensitivity analysis. ANN is more rigorous, truthful and responsible compared to RSM superior for sophisticated, complex nonlinear multivariate models because of its unexpected capability in simulating the nonlinear relation between the variables and response by the iterative training process. ANN has a higher prophetic power compared with RSM, which is only applied to quadratic estimation. However, the ANN model offers little information about the participation of the factors and their influence on the response if further analysis has not been done[14,32,72,99]. For testing the resilience and long life of the catalyst, the stability test of the Ni-Sr-Zr-Al catalyst is performed for 20 h time on stream using the optimum conditions as 1:1 CH4/CO2 gas feed ratio, 750 °C reaction temperature, 12,000 cm3g−1h−1 space velocity. The activity results in terms of CH4 conversion, CO2 conversion and H2/CO is presented in Fig. 9 . The H2/CO ratio is 1, which remains invariant during 20 h time on stream, whereas CH4 conversion and CO2 conversion varies slightly from 87 to 85 % and from 91 to 87 % respectively. The high conversion (>85 %) and constant H2/CO ratio (equal to 1) up to 20 h time on stream indicates the industrial suitability of the NiSrZrAl catalyst. 6 Conclusion This study aims to optimize methane dry reforming through Response Surface Methodology (RSM) and Artificial Neural Network (ANN) models, focusing on the influence of operational parameters such as temperature, CO2:CH4 mole ratio, and space velocity on the system's efficiency. Utilizing second-order quadratic models, the RSM analysis demonstrated commendable predictive accuracy, reflected in high F-values, adequate precision, R2, and adjusted R2 values, all exceeding 0.9. This precision underscores the models' capability to accurately predict the system's behavior within the tested parameters, highlighting their relevance for new experimental conditions. In parallel, a robust and finely tuned artificial neural network model incorporating a radial basis function with ten neurons was developed, trained, and rigorously validated against experimental data. This model's predictions outshone the RSM's in accuracy, showcasing superior performance through elevated R2 and F-ratios and minimal error margins. Such findings attest to the ANN model's exceptional predictive power and reliability, especially in capturing the nonlinear dynamics of the catalytic reforming process. The investigative approach of both RSM and ANN elucidated the significant role temperature plays in enhancing methane and CO2 conversion rates. Furthermore, simulations conducted across the spectrum of input variables yielded a comprehensive depiction of the optimal conditions conducive to maximizing reaction efficiency, as corroborated by experimental data. These simulations, rendered in both three-dimensional and two-dimensional perspectives, offer invaluable insights into the synergetic interactions between operational parameters and their collective impact on the catalytic reforming process. NiSrZrAl catalyst outperformed with > 85 % CH4 and CO2 conversion with H2/CO ∼1 up to 20 h time on stream at optimum operating conditions (1 CH4/CO2,750 °C reaction temperature, 12,000 cm3g−1h−1 space velocity). In essence, this study not only underscores the pivotal contributions of RSM and ANN in advancing our understanding of methane dry reforming but also illuminates the path forward for optimizing such catalytic processes. Through precise modeling and simulation, we unveil the nuanced interplay of variables that govern the reaction dynamics, setting a benchmark for future research in catalytic process optimization. CRediT authorship contribution statement Tahani S. Gendy: Writing – review & editing, Writing – original draft, Visualization, Methodology, Investigation, Formal analysis, Conceptualization. Radwa A. El-Salamony: Writing – review & editing, Writing – original draft, Supervision, Software, Formal analysis, Conceptualization. Maher M. Alrashed: Writing – review & editing, Writing – original draft, Visualization, Software, Methodology, Investigation. Abdulaziz Bentalib: Writing – review & editing, Writing – original draft, Software, Methodology, Investigation. Ahmed I. Osman: Writing – review & editing, Writing – original draft, Supervision, Resources, Methodology, Investigation, Conceptualization. Rawesh Kumar: Writing – review & editing, Writing – original draft, Visualization, Validation. Anis H. Fakeeha: Writing – review & editing, Writing – original draft, Investigation. Ahmed S. Al-Fatesh: Writing – review & editing, Writing – original draft, Visualization, Supervision, Methodology, Investigation, Conceptualization. Declaration of competing interest The authors declare that they have no known competing financial interests or personal relationships that could have appeared to influence the work reported in this paper. Acknowledgements The authors would like to extend their sincere appreciation to the Researchers Supporting Project number (RSP2024R368), King Saud University, Riyadh, Saudi Arabia. Supplementary materials Supplementary material associated with this article can be found, in the online version, at doi:10.1016/j.mcat.2024.114216. Appendix Supplementary materials Image, application 1 References [1] A.S. Farooqi B. Abdullah S.M.W. Hasnain S.A. Farooqi Syngas production via dry reforming of methane over Ni/MgO-ZrO2 catalyst IOP Conference Series of Earth Environment Science, Institute of Physics 2023 10.1088/1755-1315/1261/1/012028 A.S. Farooqi, B. Abdullah, S.M.W. Hasnain, S.A. Farooqi, Syngas production via dry reforming of methane over Ni/MgO-ZrO2 catalyst, in: IOP Conference Series of Earth Environment Science, Institute of Physics, 2023. https://doi.org/10.1088/1755-1315/1261/1/012028. [2] A.G. Georgiadis N.D. Charisiou M.A. Goula A mini-review on lanthanum–Nickel-based perovskite-derived catalysts for hydrogen production via the dry reforming of methane (DRM) Catalysts. 13 2023 10.3390/catal13101357 A.G. Georgiadis, N.D. Charisiou, M.A. Goula, A mini-review on lanthanum–Nickel-based perovskite-derived catalysts for hydrogen production via the dry reforming of methane (DRM), Catalysts. 13 (2023). https://doi.org/10.3390/catal13101357. [3] A.M. Alghamdi A.A. Ibrahim F.A.A. Ali N.A. Bamatraf A.H. Fakeeha A.I. Osman S.B. Alreshaidan F. Fadhillah S.A. Al-Zahrani A.S. Al-Fatesh Tailored Ni-MgO catalysts: unveiling temperature-driven synergy in CH4-CO2 reforming Catalysts. 14 2024 10.3390/catal14010033 A.M. Alghamdi, A.A. Ibrahim, F.A.A. Ali, N.A. Bamatraf, A.H. Fakeeha, A.I. Osman, S.B. Alreshaidan, F. Fadhillah, S.A. Al-Zahrani, A.S. Al-Fatesh, Tailored Ni-MgO catalysts: unveiling temperature-driven synergy in CH4-CO2 reforming, Catalysts. 14 (2024). https://doi.org/10.3390/catal14010033. [4] A. Choya B. de Rivas M.L. No J.I. Gutiérrez-Ortiz R. López-Fonseca Dry reforming of methane over sub-stoichiometric NiAl2O4-mediated Ni/Al2O3 catalysts Fuel 358 2024 10.1016/j.fuel.2023.130166 A. Choya, B. de Rivas, M.L. No, J.I. Gutiérrez-Ortiz, R. López-Fonseca, Dry reforming of methane over sub-stoichiometric NiAl2O4-mediated Ni/Al2O3 catalysts, Fuel 358 (2024). https://doi.org/10.1016/j.fuel.2023.130166. [5] M.A. Álvarez L.F. Bobadilla V. Garcilaso M.A. Centeno J.A. Odriozola CO2 reforming of methane over Ni-Ru supported catalysts: On the nature of active sites by operando DRIFTS study J. CO2 Util. 24 2018 10.1016/j.jcou.2018.01.027 M.A. Álvarez, L.F. Bobadilla, V. Garcilaso, M.A. Centeno, J.A. Odriozola, CO2 reforming of methane over Ni-Ru supported catalysts: On the nature of active sites by operando DRIFTS study, J. CO2 Util. 24 (2018). https://doi.org/10.1016/j.jcou.2018.01.027. [6] R.T. Vang K. Honkala S. Dahl E.K. Vestergaard J. Schnadt E. Lægsgaard B.S. Clausen J.K. Nørskov F. Besenbacher Controlling the catalytic bond-breaking selectivity of Ni surfaces by step blocking Nat. Mater. 4 2005 10.1038/nmat1311 R.T. Vang, K. Honkala, S. Dahl, E.K. Vestergaard, J. Schnadt, E. Lægsgaard, B.S. Clausen, J.K. Nørskov, F. Besenbacher, Controlling the catalytic bond-breaking selectivity of Ni surfaces by step blocking, Nat. Mater. 4 (2005). https://doi.org/10.1038/nmat1311. [7] M. Cai J. Wen W. Chu X. Cheng Z. Li Methanation of carbon dioxide on Ni/ZrO2-Al2O3 catalysts: Effects of ZrO2 promoter and preparation method of novel ZrO2-Al2O3 carrier J. Nat. Gas Chem. 20 2011 318 324 10.1016/S1003-9953(10)60187-9 M. Cai, J. Wen, W. Chu, X. Cheng, Z. Li, Methanation of carbon dioxide on Ni/ZrO2-Al2O3 catalysts: Effects of ZrO2 promoter and preparation method of novel ZrO2-Al2O3 carrier, J. Nat. Gas Chem. 20 (2011) 318–324. https://doi.org/10.1016/S1003-9953(10)60187-9. [8] S.C.P. Maina A.D. Ballarini J.I. Vilella S.R. de Miguel Study of the performance and stability in the dry reforming of methane of doped alumina supported iridium catalysts Catal. Today 344 2020 10.1016/j.cattod.2018.11.023 S.C.P. Maina, A.D. Ballarini, J.I. Vilella, S.R. de Miguel, Study of the performance and stability in the dry reforming of methane of doped alumina supported iridium catalysts, Catal. Today 344 (2020). https://doi.org/10.1016/j.cattod.2018.11.023. [9] J.D.A. Bellido J.E. De Souza J.C. M'Peko E.M. Assaf Effect of adding CaO to ZrO2 support on nickel catalyst activity in dry reforming of methane Appl. Catal. A Gen. 358 2009 10.1016/j.apcata.2009.02.014 J.D.A. Bellido, J.E. De Souza, J.C. M'Peko, E.M. Assaf, Effect of adding CaO to ZrO2 support on nickel catalyst activity in dry reforming of methane, Appl. Catal. A Gen. 358 (2009). https://doi.org/10.1016/j.apcata.2009.02.014. [10] R.D. binti Rosdin M. Yusuf B. Abdullah Dry reforming of methane over Ni-based catalysts: Effect of ZrO2 and MgO addition as support Materials Letters X 12 2021 10.1016/j.mlblux.2021.100095 R.D. binti Rosdin, M. Yusuf, B. Abdullah, Dry reforming of methane over Ni-based catalysts: Effect of ZrO2 and MgO addition as support, Materials Letters X 12 (2021). https://doi.org/10.1016/j.mlblux.2021.100095. [11] Q.L.M. Ha U. Armbruster H. Atia M. Schneider H. Lund G. Agostini J. Radnik H.T. Vuong A. Martin Development of active and stable low nickel content catalysts for dry reforming of methane Catalysts. 7 2017 10.3390/catal7050157 Q.L.M. Ha, U. Armbruster, H. Atia, M. Schneider, H. Lund, G. Agostini, J. Radnik, H.T. Vuong, A. Martin, Development of active and stable low nickel content catalysts for dry reforming of methane, Catalysts. 7 (2017). https://doi.org/10.3390/catal7050157. [12] A.Y. Elnour A.H. Fakeeha A.A. Ibrahim A.I. Osman A.E. Abasaeed S.F. Adil R. Kumar A.S. Al-Fatesh Enhancing catalytic performance, coke resistance, and stability with strontium-promoted Ni/WO3-ZrO2 catalysts for methane dry reforming Res. Chem. Intermed. 2024 10.1007/s11164-023-05210-4 A.Y. Elnour, A.H. Fakeeha, A.A. Ibrahim, A.I. Osman, A.E. Abasaeed, S.F. Adil, R. Kumar, A.S. Al-Fatesh, Enhancing catalytic performance, coke resistance, and stability with strontium-promoted Ni/WO3-ZrO2 catalysts for methane dry reforming, Res. Chem. Intermed. (2024). https://doi.org/10.1007/s11164-023-05210-4. [13] K. Sutthiumporn S. Kawi Promotional effect of alkaline earth over Ni-La2O3 catalyst for CO2 reforming of CH4: Role of surface oxygen species on H2 production and carbon suppression Int. J. Hydrogen. Energy 36 2011 10.1016/j.ijhydene.2011.08.022 K. Sutthiumporn, S. Kawi, Promotional effect of alkaline earth over Ni-La2O3 catalyst for CO2 reforming of CH4: Role of surface oxygen species on H2 production and carbon suppression, Int. J. Hydrogen. Energy 36 (2011). https://doi.org/10.1016/j.ijhydene.2011.08.022. [14] B.V. Ayodele M.A. Alsaffar S.I. Mustapa D.V.N. Vo Backpropagation neural networks modelling of photocatalytic degradation of organic pollutants using TiO2-based photocatalysts J. Chem. Technol. Biotechnol. 95 2020 10.1002/jctb.6407 B.V. Ayodele, M.A. Alsaffar, S.I. Mustapa, D.V.N. Vo, Backpropagation neural networks modelling of photocatalytic degradation of organic pollutants using TiO2-based photocatalysts, J. Chem. Technol. Biotechnol. 95 (2020). https://doi.org/10.1002/jctb.6407. [15] O. Benkhelifa A. Cherfia M. Nouioua Modeling and multi-response optimization of cutting parameters in turning of AISI 316L using RSM and desirability function approach Int. J. Adv. Manuf. Technol. 122 2022 10.1007/s00170-022-10044-2 O. Benkhelifa, A. Cherfia, M. Nouioua, Modeling and multi-response optimization of cutting parameters in turning of AISI 316L using RSM and desirability function approach, Int. J. Adv. Manuf. Technol. 122 (2022). https://doi.org/10.1007/s00170-022-10044-2. [16] oussama benkhelifa O. Benkhelifa A. Cherfia M. Nouioua Monitoring and optimization of machining process when turning of AISI316L based on response surface methodology, artiicial neural network and desirability function Response Surf. Methodol. 2023 10.21203/rs.3.rs-2463873/v1 oussama benkhelifa, O. Benkhelifa, A. Cherfia, M. Nouioua, Monitoring and optimization of machining process when turning of AISI316L based on response surface methodology, artiicial neural network and desirability function. Response Surf. Methodol., (2023). https://doi.org/10.21203/rs.3.rs-2463873/v1. [17] U.J. Efetobor A.O. Onokwai E. Onokpite U.C. Okonkwo Response surface methodology application for the optimization of biogas yield from an anaerobic co-digestion process Portugaliae Electrochim. Acta 42 2024 10.4152/pea.2024420304 U.J. Efetobor, A.O. Onokwai, E. Onokpite, U.C. Okonkwo, Response surface methodology application for the optimization of biogas yield from an anaerobic co-digestion process, Portugaliae Electrochim. Acta 42 (2024). https://doi.org/10.4152/pea.2024420304. [18] X. Ding H. Wang H. Li T. Wang S. Hao W. Li C. Wang L. Wang Y. Zheng Q. An L. Guo D. Zhang Optimization of the processing technology of schizonepetae herba carbonisata using response surface methodology and artificial neural network and comparing the chemical profiles between raw and charred schizonepetae herba by UPLC-Q-TOF-MS Heliyon. 9 2023 10.1016/j.heliyon.2023.e13398 X. Ding, H. Wang, H. Li, T. Wang, S. Hao, W. Li, C. Wang, L. Wang, Y. Zheng, Q. An, L. Guo, D. Zhang, Optimization of the processing technology of schizonepetae herba carbonisata using response surface methodology and artificial neural network and comparing the chemical profiles between raw and charred schizonepetae herba by UPLC-Q-TOF-MS, Heliyon. 9 (2023). https://doi.org/10.1016/j.heliyon.2023.e13398. [19] S.S. Chong Y.S. Ng H.Q. Wang J.C. Zheng Advances of machine learning in materials science: ideas and techniques Front. Phys. (Beijing) 19 2024 10.1007/s11467-023-1325-z S.S. Chong, Y.S. Ng, H.Q. Wang, J.C. Zheng, Advances of machine learning in materials science: ideas and techniques, Front. Phys. (Beijing) 19 (2024). https://doi.org/10.1007/s11467-023-1325-z. [20] P. Sahu S.N. Londhe P.S. Kulkarni Soft computing techniques for predicting chemical oxygen demand in river water J. Soft Comput. Civil Eng. 7 2023 110 131 10.22115/SCCE.2023.366329.1544 P. Sahu, S.N. Londhe, P.S. Kulkarni, Soft computing techniques for predicting chemical oxygen demand in river water, J. Soft Comput. Civil Eng. 7 (2023) 110–131. https://doi.org/10.22115/SCCE.2023.366329.1544. [21] B. Sudhir Kumar K. Srikanth T. Eeshwar Implementation of soft computing techniques in forecasting compressive strength and permeability of pervious concrete blended with ground granulated blast-furnace slag J. Soft Comput. Civil Eng. 8 2024 10.22115/SCCE.2023.359399.1517 B. Sudhir Kumar, K. Srikanth, T. Eeshwar, Implementation of soft computing techniques in forecasting compressive strength and permeability of pervious concrete blended with ground granulated blast-furnace slag, J. Soft Comput. Civil Eng. 8 (2024). https://doi.org/10.22115/SCCE.2023.359399.1517. [22] K.M. Zin M.I. Effendi Halmi S.S. Abd Gani U.H. Zaidan A.W. Samsuri M.Y. Abd Shukor Microbial decolorization of Triazo dye, direct blue 71: an optimization approach using response surface methodology (RSM) and artificial neural network (ANN) Biomed. Res. Int. 2020 2020 10.1155/2020/2734135 K.M. Zin, M.I. Effendi Halmi, S.S. Abd Gani, U.H. Zaidan, A.W. Samsuri, M.Y. Abd Shukor, Microbial decolorization of Triazo dye, direct blue 71: an optimization approach using response surface methodology (RSM) and artificial neural network (ANN), Biomed. Res. Int. 2020 (2020). https://doi.org/10.1155/2020/2734135. [23] S. Ray M. Haque T. Ahmed T.T. Nahin Comparison of artificial neural network (ANN) and response surface methodology (RSM) in predicting the compressive and splitting tensile strength of concrete prepared with glass waste and tin (Sn) can fiber J. King Saud. Univ. Eng. Sci. 35 2023 10.1016/j.jksues.2021.03.006 S. Ray, M. Haque, T. Ahmed, T.T. Nahin, Comparison of artificial neural network (ANN) and response surface methodology (RSM) in predicting the compressive and splitting tensile strength of concrete prepared with glass waste and tin (Sn) can fiber, J. King Saud. Univ. Eng. Sci. 35 (2023). https://doi.org/10.1016/j.jksues.2021.03.006. [24] H.H. Almasaeid D.G. Salman Application of artificial neural network to predict the properties of permeable concrete Civil Eng. Architect. 10 2022 10.13189/cea.2022.100605 H.H. Almasaeid, D.G. Salman, Application of artificial neural network to predict the properties of permeable concrete, Civil Eng. Architect. 10 (2022). https://doi.org/10.13189/cea.2022.100605. [25] A.A. Ali U. Heneash A. Hussein S.I. Ali S. Khan Models development for asphalt pavement performance index in different climate regions using soft computing techniques J. Soft Comput. Civil Eng. 7 2023 10.22115/SCCE.2022.357135.1512 A.A. Ali, U. Heneash, A. Hussein, S.I. Ali, S. Khan, Models development for asphalt pavement performance index in different climate regions using soft computing techniques, J. Soft Comput. Civil Eng. 7 (2023). https://doi.org/10.22115/SCCE.2022.357135.1512. [26] T.D. Nguyen R. Cherif P.Y. Mahieux J. Lux A. Aït-Mokhtar E. Bastidas-Arteaga Artificial intelligence algorithms for prediction and sensitivity analysis of mechanical properties of recycled aggregate concrete: A review J. Build. Eng. 66 2023 10.1016/j.jobe.2023.105929 T.D. Nguyen, R. Cherif, P.Y. Mahieux, J. Lux, A. Aït-Mokhtar, E. Bastidas-Arteaga, Artificial intelligence algorithms for prediction and sensitivity analysis of mechanical properties of recycled aggregate concrete: A review, J. Build. Eng. 66 (2023). https://doi.org/10.1016/j.jobe.2023.105929. [27] J.W. Chen Y.J. Chan S.K. Arumugasamy S.K. Yazdi Process modelling and optimisation of methane yield from palm oil mill effluent using response surface methodology and artificial neural network J. Water. Process. Eng. 52 2023 10.1016/j.jwpe.2023.103493 J.W. Chen, Y.J. Chan, S.K. Arumugasamy, S.K. Yazdi, Process modelling and optimisation of methane yield from palm oil mill effluent using response surface methodology and artificial neural network, J. Water. Process. Eng. 52 (2023). https://doi.org/10.1016/j.jwpe.2023.103493. [28] D.R. Goutham A.J. Krishnaiah Prediction of unconfined compressive strength of expansive soil amended with bagasse ash and lime using artificial neural network J. Soft Comput. Civil Eng. 8 2024 10.22115/SCCE.2023.367214.1545 D.R. Goutham, A.J. Krishnaiah, Prediction of unconfined compressive strength of expansive soil amended with bagasse ash and lime using artificial neural network, J. Soft Comput. Civil Eng. 8 (2024). https://doi.org/10.22115/SCCE.2023.367214.1545. [29] G.K. Alitasb A.O. Salau Multiple-input multiple-output radial basis function neural network modeling and model predictive control of a biomass boiler Energy Rep. 11 2024 442 451 10.1016/j.egyr.2023.11.063 G.K. Alitasb, A.O. Salau, Multiple-input multiple-output radial basis function neural network modeling and model predictive control of a biomass boiler, Energy Rep. 11 (2024) 442–451. https://doi.org/10.1016/j.egyr.2023.11.063. [30] R.M. Nejad N. Sina W. Ma W. Song S.-P. Zhu R. Branco W. Macek A. Gholami Artificial neural network based fatigue life assessment of riveted joints in AA2024 aluminum alloy plates and optimization of riveted joints parameters Int. J. Fatigue 178 2024 107997 R.M. Nejad, N. Sina, W. Ma, W. Song, S.-P. Zhu, R. Branco, W. Macek, A. Gholami, Artificial neural network based fatigue life assessment of riveted joints in AA2024 aluminum alloy plates and optimization of riveted joints parameters, Int. J. Fatigue 178 (2024) 107997. [31] F.C. Chime P.E. Ohale C.E. Onu N.J. Ohale Application of ANN and RSM techniques in optimal parameter evaluation for turbidity removal from abattoir effluent using valorized chicken bone coagulant J. Eng. Res. Rep. 2023 10.9734/jerr/2023/v24i1795 F.C. Chime, P.E. Ohale, C.E. Onu, N.J. Ohale, Application of ANN and RSM techniques in optimal parameter evaluation for turbidity removal from abattoir effluent using valorized chicken bone coagulant, J. Eng. Res. Rep. (2023). https://doi.org/10.9734/jerr/2023/v24i1795. [32] H. Demir H. Demir B. Lončar L. Pezo I. Brandić N. Voća F. Yilmaz Optimization of caper drying using response surface methodology and artificial neural networks for energy efficiency characteristics Energies (Basel) 16 2023 10.3390/en16041687 H. Demir, H. Demir, B. Lončar, L. Pezo, I. Brandić, N. Voća, F. Yilmaz, Optimization of caper drying using response surface methodology and artificial neural networks for energy efficiency characteristics, Energies (Basel) 16 (2023). https://doi.org/10.3390/en16041687. [33] R. Makomere H. Rutto L. Koech The assessment of response surface methodology (RSM) and artificial neural network (ANN) modeling in dry flue gas desulfurization at low temperatures J. Environ. Sci. Health Tox. Hazard. Subst. Environ. Eng. 58 2023 10.1080/10934529.2023.2174334 R. Makomere, H. Rutto, L. Koech, The assessment of response surface methodology (RSM) and artificial neural network (ANN) modeling in dry flue gas desulfurization at low temperatures, J. Environ. Sci. Health Tox. Hazard. Subst. Environ. Eng. 58 (2023). https://doi.org/10.1080/10934529.2023.2174334. [34] B.V. Ayodele C.K. Cheng Modelling and optimization of syngas production from methane dry reforming over ceria-supported cobalt catalyst using artificial neural networks and Box-Behnken design J. Ind. Eng. Chem. 32 2015 10.1016/j.jiec.2015.08.021 B.V. Ayodele, C.K. Cheng, Modelling and optimization of syngas production from methane dry reforming over ceria-supported cobalt catalyst using artificial neural networks and Box-Behnken design, J. Ind. Eng. Chem. 32 (2015). https://doi.org/10.1016/j.jiec.2015.08.021. [35] H.U. Hambali A.A. Jalil A.A. Abdulrasheed T.J. Siang A.H.K. Owgi F.F.A. Aziz CO2 reforming of methane over Ta-promoted Ni/ZSM-5 fibre-like catalyst: Insights on deactivation behavior and optimization using response surface methodology (RSM) Chem. Eng. Sci. 231 2021 10.1016/j.ces.2020.116320 H.U. Hambali, A.A. Jalil, A.A. Abdulrasheed, T.J. Siang, A.H.K. Owgi, F.F.A. Aziz, CO2 reforming of methane over Ta-promoted Ni/ZSM-5 fibre-like catalyst: Insights on deactivation behavior and optimization using response surface methodology (RSM), Chem. Eng. Sci. 231 (2021). https://doi.org/10.1016/j.ces.2020.116320. [36] C.C. Chong Y.W. Cheng H.D. Setiabudi N. Ainirazali D.V.N. Vo B. Abdullah Dry reforming of methane over Ni/dendritic fibrous SBA-15 (Ni/DFSBA-15): Optimization, mechanism, and regeneration studies Int. J. Hydrogen. Energy 45 2020 10.1016/j.ijhydene.2020.01.056 C.C. Chong, Y.W. Cheng, H.D. Setiabudi, N. Ainirazali, D.V.N. Vo, B. Abdullah, Dry reforming of methane over Ni/dendritic fibrous SBA-15 (Ni/DFSBA-15): Optimization, mechanism, and regeneration studies, Int. J. Hydrogen. Energy 45 (2020). https://doi.org/10.1016/j.ijhydene.2020.01.056. [37] I. Izhab M. Asmadi N.A. Saidina Amin Methane dry reforming using oil palm shell activated carbon supported cobalt catalyst: Multi-response optimization Int. J. Hydrogen. Energy 46 2021 10.1016/j.ijhydene.2020.04.188 I. Izhab, M. Asmadi, N.A. Saidina Amin, Methane dry reforming using oil palm shell activated carbon supported cobalt catalyst: Multi-response optimization, Int. J. Hydrogen. Energy 46 (2021). https://doi.org/10.1016/j.ijhydene.2020.04.188. [38] M.S. Fan A.Z. Abdullah S. Bhatia Hydrogen production from carbon dioxide reforming of methane over Ni-Co/MgO-ZrO2 catalyst: Process optimization Int. J. Hydrogen. Energy 36 2011 10.1016/j.ijhydene.2011.01.064 M.S. Fan, A.Z. Abdullah, S. Bhatia, Hydrogen production from carbon dioxide reforming of methane over Ni-Co/MgO-ZrO2 catalyst: Process optimization, Int. J. Hydrogen. Energy 36 (2011). https://doi.org/10.1016/j.ijhydene.2011.01.064. [39] A.S. Al-Fatesh R.A. El-Salamony M.H. Roushdy S.M. Alwan A.I. Osman S.A. Alfatesh H. Ahmed A.H. Fakeeha A.A. Ibrahim Process optimization for syngas production from the dry reforming of methane over 5Ni+3Sr/10Zr+Al catalyst using multiple response surface methodology Adv. Mater. Interfaces 11 2024 10.1002/admi.202300509 A.S. Al-Fatesh, R.A. El-Salamony, M.H. Roushdy, S.M. Alwan, A.I. Osman, S.A. Alfatesh, H. Ahmed, A.H. Fakeeha, A.A. Ibrahim, Process optimization for syngas production from the dry reforming of methane over 5Ni+3Sr/10Zr+Al catalyst using multiple response surface methodology, Adv. Mater. Interfaces 11 (2024). https://doi.org/10.1002/admi.202300509. [40] R. Kumar Surface Characterization Techniques: From Theory to Research 2022 Walter de Gruyter GmbH & Co KG R. Kumar, Surface Characterization Techniques: From Theory to Research, Walter de Gruyter GmbH & Co KG, 2022. [41] J.M. Thomas The periodic table Angew. Chem. Int. Ed 530573 2009 6 J.M. Thomas, The periodic table, Angew. Chem. Int. Ed 530573 (2009) 6. [42] K. Acharya A.S. Al-Fatesh G. Almutairi A.H. Fakeeha A.A. Ibrahim A.E. Abasaeed M.R.H. Siddiqui R. Kumar The role of strontium as an economic promoter over WO3+ ZrO2 supported Ni catalyst for H2 production through dry reforming of methane Catal. Letters. 2023 1 13 K. Acharya, A.S. Al-Fatesh, G. Almutairi, A.H. Fakeeha, A.A. Ibrahim, A.E. Abasaeed, M.R.H. Siddiqui, R. Kumar, The role of strontium as an economic promoter over WO3+ ZrO2 supported Ni catalyst for H2 production through dry reforming of methane, Catal. Letters. (2023) 1–13. [43] M. De Falco G. Iaquaniello G. Centi CO2: A valuable Source of Carbon 2013 Springer M. De Falco, G. Iaquaniello, G. Centi, CO2: A valuable Source of Carbon, Springer, 2013. [44] X. Hu Y. Xie Y. Wan Y. Yang X. Wu C. Xia Antimony-doped strontium cobalt oxide as promising cathode for low-temperature solid oxide fuel cell with excellent carbon dioxide tolerance Appl. Catal. B 286 2021 119901 X. Hu, Y. Xie, Y. Wan, Y. Yang, X. Wu, C. Xia, Antimony-doped strontium cobalt oxide as promising cathode for low-temperature solid oxide fuel cell with excellent carbon dioxide tolerance, Appl. Catal. B 286 (2021) 119901. [45] A.S. Al-Fatesh R. Patel V.K. Srivastava A.A. Ibrahim M.A. Naeem A.H. Fakeeha A.E. Abasaeed A.A. Alquraini R. Kumar Barium-promoted yttria–zirconia-supported Ni catalyst for hydrogen production via the dry reforming of methane: role of barium in the phase stabilization of cubic ZrO2 ACS. Omega 7 2022 16468 16483 A.S. Al-Fatesh, R. Patel, V.K. Srivastava, A.A. Ibrahim, M.A. Naeem, A.H. Fakeeha, A.E. Abasaeed, A.A. Alquraini, R. Kumar, Barium-promoted yttria–zirconia-supported Ni catalyst for hydrogen production via the dry reforming of methane: role of barium in the phase stabilization of cubic ZrO2, ACS. Omega 7 (2022) 16468–16483. [46] P. Ptáček E. Bartoníčková J. Švec T. Opravil F. Šoukal F. Frajkorová The kinetics and mechanism of thermal decomposition of SrCO3 polymorphs Ceram. Int. 41 2015 115 126 P. Ptáček, E. Bartoníčková, J. Švec, T. Opravil, F. Šoukal, F. Frajkorová, The kinetics and mechanism of thermal decomposition of SrCO3 polymorphs, Ceram. Int. 41 (2015) 115–126. [47] M.C. Kourouma M. Mbengue A. Thioye C.T. Kane Response surface methodology as an approach for optimization of vinegar fermentation conditions using three different thermotolerant acetic acid bacteria Food Nutr. Sci. 14 2023 10.4236/fns.2023.147042 M.C. Kourouma, M. Mbengue, A. Thioye, C.T. Kane, Response surface methodology as an approach for optimization of vinegar fermentation conditions using three different thermotolerant acetic acid bacteria, Food Nutr. Sci. 14 (2023). https://doi.org/10.4236/fns.2023.147042. [48] S. Habchi N. Lahboubi B. Sallek H. El Bari Response surface methodology for anaerobic digestion of waste from poultry slaughterhouse: Optimization of load and hydraulic retention time Results. Eng. 18 2023 10.1016/j.rineng.2023.101215 S. Habchi, N. Lahboubi, B. Sallek, H. El Bari, Response surface methodology for anaerobic digestion of waste from poultry slaughterhouse: Optimization of load and hydraulic retention time, Results. Eng. 18 (2023). https://doi.org/10.1016/j.rineng.2023.101215. [49] R. Brzezińska M. Wirkowska-Wojdyła I. Piasecka A. Górska Application of response surface methodology to optimize the extraction process of bioactive compounds obtained from coffee Silverskin Appl. Sci. (Switzerland) 13 2023 10.3390/app13095388 R. Brzezińska, M. Wirkowska-Wojdyła, I. Piasecka, A. Górska, Application of response surface methodology to optimize the extraction process of bioactive compounds obtained from coffee Silverskin, Appl. Sci. (Switzerland) 13 (2023). https://doi.org/10.3390/app13095388. [50] E.G. Aklilu Y.A. Waday Optimizing the process parameters to maximize biogas yield from anaerobic co-digestion of alkali-treated corn stover and poultry manure using artificial neural network and response surface methodology BioMass Convers. Biorefin. 13 2023 10.1007/s13399-021-01966-0 E.G. Aklilu, Y.A. Waday, Optimizing the process parameters to maximize biogas yield from anaerobic co-digestion of alkali-treated corn stover and poultry manure using artificial neural network and response surface methodology, BioMass Convers. Biorefin. 13 (2023). https://doi.org/10.1007/s13399-021-01966-0. [51] Y. Zhao X. Guo J. Lu X. Chang Optimization of processing technology of Chinese chestnut stuffing by response surface methodology BIO Web Conf 2023 10.1051/bioconf/20236001016 Y. Zhao, X. Guo, J. Lu, X. Chang, Optimization of processing technology of Chinese chestnut stuffing by response surface methodology, in: BIO Web Conf, 2023. https://doi.org/10.1051/bioconf/20236001016. [52] M. Appiah-Brempong H. Michelle Korkor Essandoh N. Yaw Asiedu S. Kwame Dadzie F. Yao Momade Performance optimization of chemical and green coagulants in tannery wastewater treatment: a response surface methodology approach J. Optim. 2023 2023 10.1155/2023/9939499 M. Appiah-Brempong, H. Michelle Korkor Essandoh, N. Yaw Asiedu, S. Kwame Dadzie, F. Yao Momade, Performance optimization of chemical and green coagulants in tannery wastewater treatment: a response surface methodology approach, J. Optim. 2023 (2023). https://doi.org/10.1155/2023/9939499. [53] B. Ghattas D. Manzon Machine learning alternatives to response surface models Mathematics 11 2023 10.3390/math11153406 B. Ghattas, D. Manzon, Machine learning alternatives to response surface models, Mathematics 11 (2023). https://doi.org/10.3390/math11153406. [54] R.S. Suri A.K. Jain N.R. Kapoor A. Kumar H.C. Arora K. Kumar H. Jahangir Air quality prediction-a study using neural network based approach J. Soft Comput. Civil Eng. 7 2023 10.22115/SCCE.2022.352017.1488 R.S. Suri, A.K. Jain, N.R. Kapoor, A. Kumar, H.C. Arora, K. Kumar, H. Jahangir, Air quality prediction-a study using neural network based approach, J. Soft Comput. Civil Eng. 7 (2023). https://doi.org/10.22115/SCCE.2022.352017.1488. [55] J. YAMİN E. SHEET A. ِAL JUBORİ ANN and RSM modelling and optimization of paraffins and aromatics in crude oil distillation products’ properties in Iraq Gazi Univ. J. Sci. 2023 10.35378/gujs.1143087 J. YAMİN, E. SHEET, A. ِAL JUBORİ, ANN and RSM modelling and optimization of paraffins and aromatics in crude oil distillation products’ properties in Iraq, Gazi Univ. J. Sci. (2023). https://doi.org/10.35378/gujs.1143087. [56] B.O. Ogunsile O.S. Okoh I.P. Ejidike O.R. Omolaja Biosynthesis and optimization of AgNPs yield from chromolaena odorata leaf extract using response surface methodology (RSM) Phys. Chem. Res. 12 2024 10.22036/pcr.2023.366212.2226 B.O. Ogunsile, O.S. Okoh, I.P. Ejidike, O.R. Omolaja, Biosynthesis and optimization of AgNPs yield from chromolaena odorata leaf extract using response surface methodology (RSM), Phys. Chem. Res. 12 (2024). https://doi.org/10.22036/pcr.2023.366212.2226. [57] Y.A. Waday E.G. Aklilu ANN and RSM modeling for the synthesis of avocado seed starch combined orange peel extract antimicrobial packaging film Int. J. Polym. Sci. 2023 2023 10.1155/2023/8877598 Y.A. Waday, E.G. Aklilu, ANN and RSM modeling for the synthesis of avocado seed starch combined orange peel extract antimicrobial packaging film, Int. J. Polym. Sci. 2023 (2023). https://doi.org/10.1155/2023/8877598. [58] T.S. Gendy S.A. El-Temtamy S.A. Ghoneim R.A. El-Salamony A.Y. El-Naggar A.K. El-Morsi Response surface methodology for carbon dioxide reforming of natural gas, energy sources Part A Recovery Util. Environ. Effects 38 2016 10.1080/15567036.2013.876466 T.S. Gendy, S.A. El-Temtamy, S.A. Ghoneim, R.A. El-Salamony, A.Y. El-Naggar, A.K. El-Morsi, Response surface methodology for carbon dioxide reforming of natural gas, energy sources, Part A Recovery Util. Environ. Effects 38 (2016). https://doi.org/10.1080/15567036.2013.876466. [59] T.S. Gendy S.A. El-Temtamy R.A. El-Salamony S.A. Ghoneim Comparative assessment of response surface methodology quadratic models and artificial neural network method for dry reforming of natural gas, Energy Sources Part A Recovery Util. Environ. Effects 40 2018 10.1080/15567036.2018.1486476 T.S. Gendy, S.A. El-Temtamy, R.A. El-Salamony, S.A. Ghoneim, Comparative assessment of response surface methodology quadratic models and artificial neural network method for dry reforming of natural gas, Energy Sources, Part A Recovery Util. Environ. Effects 40 (2018). https://doi.org/10.1080/15567036.2018.1486476. [60] T.S. Gendy S.A. Ghoneim A.S. Zakhary Response surface modeling of fuel rich and fuel lean catalytic combustion of the stabilized confined turbulent gaseous diffusion flames World J. Eng. Technol. 07 2019 10.4236/wjet.2019.71001 T.S. Gendy, S.A. Ghoneim, A.S. Zakhary, Response surface modeling of fuel rich and fuel lean catalytic combustion of the stabilized confined turbulent gaseous diffusion flames, World J. Eng. Technol. 07 (2019). https://doi.org/10.4236/wjet.2019.71001. [61] T.S. Gendy R.A. El-Salamony S.A. El-Temtamy S.A. Ghoneim D.R.A. El-Hafiz M.A. Ebiad A.M.A. El Naggar Optimization of dry reforming of methane over a Ni/MgO catalyst using response surface methodology Chem. Eng. Technol. 45 2022 10.1002/ceat.202200115 T.S. Gendy, R.A. El-Salamony, S.A. El-Temtamy, S.A. Ghoneim, D.R.A. El-Hafiz, M.A. Ebiad, A.M.A. El Naggar, Optimization of dry reforming of methane over a Ni/MgO catalyst using response surface methodology, Chem. Eng. Technol. 45 (2022). https://doi.org/10.1002/ceat.202200115. [62] T.S. Gendy A.S. Zakhary T.M. El-Shiekh Response surface methodology for stabilized turbulent confined jet diffusion flames using bluff-body burners J. Sci. Eng. Res. 4 2017 230 242 T.S. Gendy, A.S. Zakhary, T.M. El-Shiekh, Response surface methodology for stabilized turbulent confined jet diffusion flames using bluff-body burners, J. Sci. Eng. Res. 4 (2017) 230–242. [63] R. Mukherjee D. Bera Statistical optimization of asparaginase production by a novel isolated bacterium Brevibacillus borstelensis ML12 using Plackett–Burman design and response surface methodology J. Appl. Biol. Biotechnol. 10 2022 10.7324/JABB.2022.100303 R. Mukherjee, D. Bera, Statistical optimization of asparaginase production by a novel isolated bacterium Brevibacillus borstelensis ML12 using Plackett–Burman design and response surface methodology, J. Appl. Biol. Biotechnol. 10 (2022). https://doi.org/10.7324/JABB.2022.100303. [64] M.A. Hossain B.V. Ayodele C.K. Cheng M.R. Khan Optimization of renewable hydrogen-rich syngas production from catalytic reforming of greenhouse gases (CH4 and CO2) over calcium iron oxide supported nickel catalyst J. Energy Institute 92 2019 10.1016/j.joei.2017.10.010 M.A. Hossain, B.V. Ayodele, C.K. Cheng, M.R. Khan, Optimization of renewable hydrogen-rich syngas production from catalytic reforming of greenhouse gases (CH4 and CO2) over calcium iron oxide supported nickel catalyst, J. Energy Institute 92 (2019). https://doi.org/10.1016/j.joei.2017.10.010. [65] H. Ma Z. Sun G. Ma Research on compressive strength of manufactured sand concrete based on response surface methodology (RSM) Appl. Sci. (Switzerland) 12 2022 10.3390/app12073506 H. Ma, Z. Sun, G. Ma, Research on compressive strength of manufactured sand concrete based on response surface methodology (RSM), Appl. Sci. (Switzerland) 12 (2022). https://doi.org/10.3390/app12073506. [66] A.M. Bello N.A. Muhammad A. Hamisu RSM optimized adsorption of Eriochrome black T Dye onto alumina nanoprticles: isotherm and kinetics studies Phys. Chem. Res. 11 2023 10.22036/pcr.2022.335182.2065 A.M. Bello, N.A. Muhammad, A. Hamisu, RSM optimized adsorption of Eriochrome black T Dye onto alumina nanoprticles: isotherm and kinetics studies, Phys. Chem. Res. 11 (2023). https://doi.org/10.22036/pcr.2022.335182.2065. [67] N. Fitriani F.E. Wahyudianto N.F. Salsabila R.M.S.R. Mohamed S.B. Kurniawan Performance of modified slow sand filter to reduce turbidity, total suspended solids, and iron in river water as water treatment in disaster areas J. Ecol. Eng. 24 2023 10.12911/22998993/156009 N. Fitriani, F.E. Wahyudianto, N.F. Salsabila, R.M.S.R. Mohamed, S.B. Kurniawan, Performance of modified slow sand filter to reduce turbidity, total suspended solids, and iron in river water as water treatment in disaster areas, J. Ecol. Eng. 24 (2023). https://doi.org/10.12911/22998993/156009. [68] N. Sohrabi M. Hemmasi N. Rasuli Optimization of adsorption process parameters of Allura red removal using Nanodiopside/Zn-Fe layered double hydroxide composite by response surface methodology: a kinetic, thermodynamic, and equilibrium approach Phys. Chem. Res. 11 2023 10.22036/pcr.2022.321821.2009 N. Sohrabi, M. Hemmasi, N. Rasuli, Optimization of adsorption process parameters of Allura red removal using Nanodiopside/Zn-Fe layered double hydroxide composite by response surface methodology: a kinetic, thermodynamic, and equilibrium approach, Phys. Chem. Res. 11 (2023). https://doi.org/10.22036/pcr.2022.321821.2009. [69] W. Setyani R. Murwanti T.N.S. Sulaiman T. Hertiani Application of response surface methodology (RSM) for the optimization of ultrasound-assisted extraction (UAE) of moringa oleifera: extraction yield, content of bioactive compounds, and biological effects in vitro Plants 12 2023 10.3390/plants12132455 W. Setyani, R. Murwanti, T.N.S. Sulaiman, T. Hertiani, Application of response surface methodology (RSM) for the optimization of ultrasound-assisted extraction (UAE) of moringa oleifera: extraction yield, content of bioactive compounds, and biological effects in vitro, Plants 12 (2023). https://doi.org/10.3390/plants12132455. [70] D. Granato G. Ares Mathematical and Statistical Methods in Food Science and Technology 2014 John Wiley & Sons D. Granato, G. Ares, Mathematical and Statistical Methods in Food Science and Technology, John Wiley & Sons, 2014. [71] M.M. Muanda P.P.D. Omalanga V.M. Mitonga M.N. Ilunga Gold removal from gold-bearing ore using alpha-cyclodextrin: response surface methodology and artificial neural analysis network optimizations J. Eng. Technol. Ind. Appl. 9 2023 10.5935/jetia.v9i42.879 M.M. Muanda, P.P.D. Omalanga, V.M. Mitonga, M.N. Ilunga, Gold removal from gold-bearing ore using alpha-cyclodextrin: response surface methodology and artificial neural analysis network optimizations, J. Eng. Technol. Ind. Appl. 9 (2023). https://doi.org/10.5935/jetia.v9i42.879. [72] X. Feng Y. Liu X. Li H. Liu RSM, ANN-GA and ANN-PSO modeling of SDBS removal from greywater in rural areas via Fe2O3- coated volcanic rocks RSC. Adv. 12 2022 10.1039/d1ra09147f X. Feng, Y. Liu, X. Li, H. Liu, RSM, ANN-GA and ANN-PSO modeling of SDBS removal from greywater in rural areas via Fe2O3- coated volcanic rocks, RSC. Adv. 12 (2022). https://doi.org/10.1039/d1ra09147f. [73] X. Feng L. Sun Application progress of artificial neural network in chemical industry J. Eng. Res. Rep. 2022 10.9734/jerr/2022/v23i7733 X. Feng, L. Sun, Application progress of artificial neural network in chemical industry, J. Eng. Res. Rep. (2022). https://doi.org/10.9734/jerr/2022/v23i7733. [74] I. Trawczyńska S. Kwiatkowska-Marks Application of response surface methodology for optimization of the biosorption process from copper-containing wastewater Molecules 28 2023 10.3390/molecules28010444 I. Trawczyńska, S. Kwiatkowska-Marks, Application of response surface methodology for optimization of the biosorption process from copper-containing wastewater, Molecules 28 (2023). https://doi.org/10.3390/molecules28010444. [75] C.E. Onu P.K. Igbokwe J.T. Nwabanne P.E. Ohale ANN ANFIS RSM modeling of moisture content reduction of cocoyam slices J. Food Process. Preserv. 46 2022 10.1111/jfpp.16032 C.E. Onu, P.K. Igbokwe, J.T. Nwabanne, P.E. Ohale, ANFIS, ANN, and RSM modeling of moisture content reduction of cocoyam slices, J. Food Process. Preserv. 46 (2022). https://doi.org/10.1111/jfpp.16032. [76] G. Naqvi, Role of artificial neural networks in AI, (n.d.). 10.14704/nq.2022.20.13.NQ88416. [77] W.S. McCulloch W. Pitts A logical calculus of the ideas immanent in nervous activity Bull. Math. Biophys. 5 1943 10.1007/BF02478259 W.S. McCulloch, W. Pitts, A logical calculus of the ideas immanent in nervous activity, Bull. Math. Biophys. 5 (1943). https://doi.org/10.1007/BF02478259. [78] Y.I. Murthy Neural network models for the half-cell potential of reinforced slabs with magnesium sacrificial anodes subjected to chloride ingress J. Soft Comput. Civil Eng. 8 2024 85 106 10.22115/SCCE.2023.347658.1470 Y.I. Murthy, Neural network models for the half-cell potential of reinforced slabs with magnesium sacrificial anodes subjected to chloride ingress, J. Soft Comput. Civil Eng. 8 (2024) 85–106. https://doi.org/10.22115/SCCE.2023.347658.1470. [79] W.H. Abuwatfa N. AlSawaftah N. Darwish W.G. Pitt G.A. Husseini A review on membrane fouling prediction using artificial neural networks (ANNs) Membranes. (Basel) 13 2023 10.3390/membranes13070685 W.H. Abuwatfa, N. AlSawaftah, N. Darwish, W.G. Pitt, G.A. Husseini, A review on membrane fouling prediction using artificial neural networks (ANNs), Membranes. (Basel) 13 (2023). https://doi.org/10.3390/membranes13070685. [80] R. Abhishek B.S.K. Gowda D.C. Naveen K. Naresh R. Sundarakannan V. Arumugaprabu A. Varsha Prediction of compressive strength of corncob ash concrete for environmental sustainability using an artificial neural network: a soft computing techniques J. Soft Comput. Civil Eng. 7 2023 10.22115/SCCE.2023.347663.1471 R. Abhishek, B.S.K. Gowda, D.C. Naveen, K. Naresh, R. Sundarakannan, V. Arumugaprabu, A. Varsha, Prediction of compressive strength of corncob ash concrete for environmental sustainability using an artificial neural network: a soft computing techniques, J. Soft Comput. Civil Eng. 7 (2023). https://doi.org/10.22115/SCCE.2023.347663.1471. [81] O. Rudenko O. Bezsonov O. Ilyunin O. Demirskiy N. Serdiuk O. Arsenyeva O. Semenenko Using a neural network approach to predict deposits on the surfaces of heat exchange equipment Chem. Eng. Trans. 103 2023 697 702 10.3303/CET23103117 O. Rudenko, O. Bezsonov, O. Ilyunin, O. Demirskiy, N. Serdiuk, O. Arsenyeva, O. Semenenko, Using a neural network approach to predict deposits on the surfaces of heat exchange equipment, Chem. Eng. Trans. 103 (2023) 697–702. https://doi.org/10.3303/CET23103117. [82] A. Ghorbani H. Maleki H. Naderpour S.M.H. Khatami Advancing compressive strength prediction in self-compacting concrete via soft computing: a robust modeling approach J. Soft Comput. Civil Eng. 8 2024 10.22115/SCCE.2023.396669.1646 A. Ghorbani, H. Maleki, H. Naderpour, S.M.H. Khatami, Advancing compressive strength prediction in self-compacting concrete via soft computing: a robust modeling approach, J. Soft Comput. Civil Eng. 8 (2024). https://doi.org/10.22115/SCCE.2023.396669.1646. [83] A. Ravi Theja M. Srinivasula Reddy B.B. Jindal C. Sashidhar Predicting the strength properties of self healing concrete using artificial neural network J. Soft Comput. Civil Eng. 7 2023 10.22115/SCCE.2022.349792.1478 A. Ravi Theja, M. Srinivasula Reddy, B.B. Jindal, C. Sashidhar, Predicting the strength properties of self healing concrete using artificial neural network, J. Soft Comput. Civil Eng. 7 (2023). https://doi.org/10.22115/SCCE.2022.349792.1478. [84] S. Wang J. Di D. Wang X. Dai Y. Hua X. Gao A. Zheng J. Gao State-of-the-art review of artificial neural networks to predict, characterize and optimize pharmaceutical formulation Pharmaceutics 14 2022 10.3390/pharmaceutics14010183 S. Wang, J. Di, D. Wang, X. Dai, Y. Hua, X. Gao, A. Zheng, J. Gao, State-of-the-art review of artificial neural networks to predict, characterize and optimize pharmaceutical formulation, Pharmaceutics 14 (2022). https://doi.org/10.3390/pharmaceutics14010183. [85] R. Elnjikkal Jerome M. Dwivedi Microwave vacuum drying of pomegranate peel: evaluation of specific energy consumption and quality attributes by response surface methodology and artificial neural network J. Food Process. Preserv. 46 2022 10.1111/jfpp.16325 R. Elnjikkal Jerome, M. Dwivedi, Microwave vacuum drying of pomegranate peel: evaluation of specific energy consumption and quality attributes by response surface methodology and artificial neural network, J. Food Process. Preserv. 46 (2022). https://doi.org/10.1111/jfpp.16325. [86] C. Wang L. Wang Artificial neural network and its application in image recognition J. Eng. Res. Rep. 2023 10.9734/jerr/2023/v24i2802 C. Wang, L. Wang, Artificial neural network and its application in image recognition, J. Eng. Res. Rep. (2023). https://doi.org/10.9734/jerr/2023/v24i2802. [87] R.L. Hardy Multiquadric equations of topography and other irregular surfaces J. Geophys. Res. 76 1971 10.1029/jb076i008p01905 R.L. Hardy, Multiquadric equations of topography and other irregular surfaces, J. Geophys. Res. 76 (1971). https://doi.org/10.1029/jb076i008p01905. [88] B.V. Ayodele S.I. Mustapa T. Witoon R. Kanthasamy M. Zwawi C.N. Owabor Radial basis function neural network model prediction of thermo-catalytic carbon dioxide oxidative coupling of methane to C2-hydrocarbon Top. Catal. 64 2021 10.1007/s11244-020-01401-0 B.V. Ayodele, S.I. Mustapa, T. Witoon, R. Kanthasamy, M. Zwawi, C.N. Owabor, Radial basis function neural network model prediction of thermo-catalytic carbon dioxide oxidative coupling of methane to C2-hydrocarbon, Top. Catal. 64 (2021). https://doi.org/10.1007/s11244-020-01401-0. [89] B.V. Ayodele S.I. Mustapa R. Kanthasamy M. Zwawi C.K. Cheng Modeling the prediction of hydrogen production by co-gasification of plastic and rubber wastes using machine learning algorithms Int. J. Energy Res. 45 2021 10.1002/er.6483 B.V. Ayodele, S.I. Mustapa, R. Kanthasamy, M. Zwawi, C.K. Cheng, Modeling the prediction of hydrogen production by co-gasification of plastic and rubber wastes using machine learning algorithms, Int. J. Energy Res. 45 (2021). https://doi.org/10.1002/er.6483. [90] M.A. Alsaffar M.A.A. Ghany A.K. Mageed Data-driven radial basis function approach to evaluate the effect of process variables on solar-assisted degradation of starch-plastics composite in an extruder reactor Egypt. J. Chem. 65 2022 10.21608/EJCHEM.2022.112777.5117 M.A. Alsaffar, M.A.A. Ghany, A.K. Mageed, Data-driven radial basis function approach to evaluate the effect of process variables on solar-assisted degradation of starch-plastics composite in an extruder reactor, Egypt. J. Chem. 65 (2022). https://doi.org/10.21608/EJCHEM.2022.112777.5117. [91] M.R. Yaghouti F. Farshadmoghadam Choosing the best value of shape parameter in radial basis functions by Leave-P-Out cross validation Comput. Methods Different. Eq. 11 2023 10.22034/CMDE.2022.46208.1939 M.R. Yaghouti, F. Farshadmoghadam, Choosing the best value of shape parameter in radial basis functions by Leave-P-Out cross validation, Comput. Methods Different. Eq. 11 (2023). https://doi.org/10.22034/CMDE.2022.46208.1939. [92] S. Zhou C. Yang Z. Su P. Yu J. Jiao An aeromagnetic compensation algorithm based on radial basis function artificial neural network Appl. Sci. (Switzerland) 13 2023 10.3390/app13010136 S. Zhou, C. Yang, Z. Su, P. Yu, J. Jiao, An aeromagnetic compensation algorithm based on radial basis function artificial neural network, Appl. Sci. (Switzerland) 13 (2023). https://doi.org/10.3390/app13010136. [93] C.C. Aggarwal, Neural networks and deep learning, 2018. 10.1007/978-3-319-94463-0. [94] M.H. Beale M.T. Hagan H.B. Demuth Neural network toolbox, user's guide MathWorks 2 2010 77 81 M.H. Beale, M.T. Hagan, H.B. Demuth, Neural network toolbox, user's guide, MathWorks 2 (2010) 77–81. [95] H. Pashaei H. Mashhadimoslem A. Ghaemi Modeling and optimization of CO2 mass transfer flux into Pz-KOH-CO2 system using RSM and ANN Sci. Rep. 13 2023 10.1038/s41598-023-30856-w H. Pashaei, H. Mashhadimoslem, A. Ghaemi, Modeling and optimization of CO2 mass transfer flux into Pz-KOH-CO2 system using RSM and ANN, Sci. Rep. 13 (2023). https://doi.org/10.1038/s41598-023-30856-w. [96] M. Maaruf W.M. Hamanah M.A. Abido Hybrid backstepping control of a quadrotor using a radial basis function neural network Mathematics 11 2023 10.3390/math11040991 M. Maaruf, W.M. Hamanah, M.A. Abido, Hybrid backstepping control of a quadrotor using a radial basis function neural network, Mathematics 11 (2023). https://doi.org/10.3390/math11040991. [97] M.A. Alsaffar A.K. Mageed M.A.R. Abdel Ghany B.V. Ayodele S.I. Mustapa Elucidating the nonlinear effect of process parameters on hydrogen production by catalytic methane reforming: An artificial intelligence approach IOP Conference Series Materials Science and Engineering 2020 10.1088/1757-899X/991/1/012078 M.A. Alsaffar, A.K. Mageed, M.A.R. Abdel Ghany, B.V. Ayodele, S.I. Mustapa, Elucidating the nonlinear effect of process parameters on hydrogen production by catalytic methane reforming: An artificial intelligence approach, in: IOP Conference Series Materials Science and Engineering, 2020. https://doi.org/10.1088/1757-899X/991/1/012078. [98] B. Boutra A. Sebti M. Trari Response surface methodology and artificial neural network for optimization and modeling the photodegradation of organic pollutants in water Int. J. Environ. Sci. Technol. 19 2022 10.1007/s13762-021-03875-1 B. Boutra, A. Sebti, M. Trari, Response surface methodology and artificial neural network for optimization and modeling the photodegradation of organic pollutants in water, Int. J. Environ. Sci. Technol. 19 (2022). https://doi.org/10.1007/s13762-021-03875-1. [99] A.K.V. Pereira R. de M. Barbosa M.A.C. Fernandes L. Finkler C.L.L. Finkler Comparative analyses of response surface methodology and artificial neural networks on incorporating tetracaine into liposomes Brazil. J. Pharmaceut. Sci. 56 2020 10.1590/s2175-97902019000317808 A.K.V. Pereira, R. de M. Barbosa, M.A.C. Fernandes, L. Finkler, C.L.L. Finkler, Comparative analyses of response surface methodology and artificial neural networks on incorporating tetracaine into liposomes, Brazil. J. Pharmaceut. Sci. 56 (2020). https://doi.org/10.1590/s2175-97902019000317808.",
+      "scopus-id": "85192956002",
+      "coredata": {
+        "eid": "1-s2.0-S2468823124003997",
+        "dc:description": "This study investigates the molecular dynamics of methane dry reforming catalyzed by a novel nickel-strontium-zirconium-aluminum (5Ni+3Sr/10Zr+Al) catalyst, leveraging both Response Surface Methodology (RSM) and Radial Basis Function Neural Network (RBFNN) for predictive optimization. Focusing on the impact of operational parameters—hourly space velocity, reaction temperature, and CO2:CH4 mole ratio—on the conversion rates and formation of reaction components, we aim to predict optimal conditions and corresponding process variables. Through a comparison of a three-layer Feed Forward Neural Network, optimized at a 3:10:1 topology, with traditional RSM approaches, our findings highlight the superior predictive capabilities of ANN models. Notably, ANN demonstrated exceptional performance with R adj 2 and F_Ratio values significantly surpass those of RSM, alongside lower statistical error terms. This superiority is attributed to ANN's robust handling of nonlinear relationships between inputs and outputs, asserting its potential for enhancing predictive accuracy in chemical process optimization. At optimum predicted conditions like 1 CH4/CO2,750 °C reaction temperature, 12000 cm3g−1h−1 space velocity, NiSrZrAl outperformed with > 85 % CH4 and CO2 conversion with H2/CO ∼1 up to 20 h time on stream. Our research underscores the importance of integrating advanced modeling techniques for the efficient and accurate prediction of catalytic reactions, offering valuable insights for future applications in chemical engineering and catalysis.",
+        "openArchiveArticle": "false",
+        "prism:coverDate": "2024-06-01",
+        "openaccessUserLicense": "http://creativecommons.org/licenses/by/4.0/",
+        "prism:aggregationType": "Journal",
+        "prism:url": "https://api.elsevier.com/content/article/pii/S2468823124003997",
+        "dc:creator": [
+          {
+            "@_fa": "true",
+            "$": "Gendy, Tahani S."
+          },
+          {
+            "@_fa": "true",
+            "$": "El-Salamony, Radwa A."
+          },
+          {
+            "@_fa": "true",
+            "$": "Alrashed, Maher M."
+          },
+          {
+            "@_fa": "true",
+            "$": "Bentalib, Abdulaziz"
+          },
+          {
+            "@_fa": "true",
+            "$": "Osman, Ahmed I."
+          },
+          {
+            "@_fa": "true",
+            "$": "Kumar, Rawesh"
+          },
+          {
+            "@_fa": "true",
+            "$": "Fakeeha, Anis H."
+          },
+          {
+            "@_fa": "true",
+            "$": "Al-Fatesh, Ahmed S."
+          }
+        ],
+        "link": [
+          {
+            "@_fa": "true",
+            "@rel": "self",
+            "@href": "https://api.elsevier.com/content/article/pii/S2468823124003997"
+          },
+          {
+            "@_fa": "true",
+            "@rel": "scidir",
+            "@href": "https://www.sciencedirect.com/science/article/pii/S2468823124003997"
+          }
+        ],
+        "dc:format": "application/json",
+        "openaccessType": "Full",
+        "pii": "S2468-8231(24)00399-7",
+        "prism:volume": "562",
+        "articleNumber": "114216",
+        "prism:publisher": "The Author(s). Published by Elsevier B.V.",
+        "dc:title": "Enhanced predictive optimization of methane dry reforming via ResponseSurface methodology and artificial neural network approaches: Insights using a novel nickel-strontium-zirconium-aluminum catalyst",
+        "prism:copyright": "© 2024 The Author(s). Published by Elsevier B.V.",
+        "openaccess": "1",
+        "prism:issn": "24688231",
+        "dcterms:subject": [
+          {
+            "@_fa": "true",
+            "$": "Carbon dioxide"
+          },
+          {
+            "@_fa": "true",
+            "$": "Methane dry reforming"
+          },
+          {
+            "@_fa": "true",
+            "$": "Response surface methodology"
+          },
+          {
+            "@_fa": "true",
+            "$": "Artificial neural network"
+          },
+          {
+            "@_fa": "true",
+            "$": "Radial basis function"
+          }
+        ],
+        "openaccessArticle": "true",
+        "prism:publicationName": "Molecular Catalysis",
+        "openaccessSponsorType": "FundingBody",
+        "prism:pageRange": "114216",
+        "pubType": "fla",
+        "prism:coverDisplayDate": "1 June 2024",
+        "prism:doi": "10.1016/j.mcat.2024.114216",
+        "prism:startingPage": "114216",
+        "dc:identifier": "doi:10.1016/j.mcat.2024.114216",
+        "openaccessSponsorName": "JISC UK 2022: Hybrid journals"
+      },
+      "objects": {
+        "object": [
+          {
+            "@category": "standard",
+            "@height": "272",
+            "@width": "376",
+            "@_fa": "true",
+            "$": "https://api.elsevier.com/content/object/eid/1-s2.0-S2468823124003997-gr9.jpg?httpAccept=%2A%2F%2A",
+            "@multimediatype": "JPEG image file",
+            "@type": "IMAGE-DOWNSAMPLED",
+            "@size": "29279",
+            "@ref": "gr9",
+            "@mimetype": "image/jpeg"
+          },
+          {
+            "@category": "standard",
+            "@height": "228",
+            "@width": "602",
+            "@_fa": "true",
+            "$": "https://api.elsevier.com/content/object/eid/1-s2.0-S2468823124003997-gr1.jpg?httpAccept=%2A%2F%2A",
+            "@multimediatype": "JPEG image file",
+            "@type": "IMAGE-DOWNSAMPLED",
+            "@size": "37924",
+            "@ref": "gr1",
+            "@mimetype": "image/jpeg"
+          },
+          {
+            "@category": "standard",
+            "@height": "407",
+            "@width": "602",
+            "@_fa": "true",
+            "$": "https://api.elsevier.com/content/object/eid/1-s2.0-S2468823124003997-gr2.jpg?httpAccept=%2A%2F%2A",
+            "@multimediatype": "JPEG image file",
+            "@type": "IMAGE-DOWNSAMPLED",
+            "@size": "36515",
+            "@ref": "gr2",
+            "@mimetype": "image/jpeg"
+          },
+          {
+            "@category": "standard",
+            "@height": "201",
+            "@width": "791",
+            "@_fa": "true",
+            "$": "https://api.elsevier.com/content/object/eid/1-s2.0-S2468823124003997-gr3a.jpg?httpAccept=%2A%2F%2A",
+            "@multimediatype": "JPEG image file",
+            "@type": "IMAGE-DOWNSAMPLED",
+            "@size": "78008",
+            "@ref": "gr3a",
+            "@mimetype": "image/jpeg"
+          },
+          {
+            "@category": "standard",
+            "@height": "201",
+            "@width": "791",
+            "@_fa": "true",
+            "$": "https://api.elsevier.com/content/object/eid/1-s2.0-S2468823124003997-gr4b.jpg?httpAccept=%2A%2F%2A",
+            "@multimediatype": "JPEG image file",
+            "@type": "IMAGE-DOWNSAMPLED",
+            "@size": "73704",
+            "@ref": "gr4b",
+            "@mimetype": "image/jpeg"
+          },
+          {
+            "@category": "standard",
+            "@height": "199",
+            "@width": "791",
+            "@_fa": "true",
+            "$": "https://api.elsevier.com/content/object/eid/1-s2.0-S2468823124003997-gr3b.jpg?httpAccept=%2A%2F%2A",
+            "@multimediatype": "JPEG image file",
+            "@type": "IMAGE-DOWNSAMPLED",
+            "@size": "74494",
+            "@ref": "gr3b",
+            "@mimetype": "image/jpeg"
+          },
+          {
+            "@category": "standard",
+            "@height": "196",
+            "@width": "791",
+            "@_fa": "true",
+            "$": "https://api.elsevier.com/content/object/eid/1-s2.0-S2468823124003997-gr5a.jpg?httpAccept=%2A%2F%2A",
+            "@multimediatype": "JPEG image file",
+            "@type": "IMAGE-DOWNSAMPLED",
+            "@size": "81287",
+            "@ref": "gr5a",
+            "@mimetype": "image/jpeg"
+          },
+          {
+            "@category": "standard",
+            "@height": "193",
+            "@width": "772",
+            "@_fa": "true",
+            "$": "https://api.elsevier.com/content/object/eid/1-s2.0-S2468823124003997-gr6b.jpg?httpAccept=%2A%2F%2A",
+            "@multimediatype": "JPEG image file",
+            "@type": "IMAGE-DOWNSAMPLED",
+            "@size": "74642",
+            "@ref": "gr6b",
+            "@mimetype": "image/jpeg"
+          },
+          {
+            "@category": "standard",
+            "@height": "199",
+            "@width": "791",
+            "@_fa": "true",
+            "$": "https://api.elsevier.com/content/object/eid/1-s2.0-S2468823124003997-gr4a.jpg?httpAccept=%2A%2F%2A",
+            "@multimediatype": "JPEG image file",
+            "@type": "IMAGE-DOWNSAMPLED",
+            "@size": "86058",
+            "@ref": "gr4a",
+            "@mimetype": "image/jpeg"
+          },
+          {
+            "@category": "standard",
+            "@height": "198",
+            "@width": "791",
+            "@_fa": "true",
+            "$": "https://api.elsevier.com/content/object/eid/1-s2.0-S2468823124003997-gr5b.jpg?httpAccept=%2A%2F%2A",
+            "@multimediatype": "JPEG image file",
+            "@type": "IMAGE-DOWNSAMPLED",
+            "@size": "65077",
+            "@ref": "gr5b",
+            "@mimetype": "image/jpeg"
+          },
+          {
+            "@category": "standard",
+            "@height": "207",
+            "@width": "791",
+            "@_fa": "true",
+            "$": "https://api.elsevier.com/content/object/eid/1-s2.0-S2468823124003997-gr7a.jpg?httpAccept=%2A%2F%2A",
+            "@multimediatype": "JPEG image file",
+            "@type": "IMAGE-DOWNSAMPLED",
+            "@size": "86612",
+            "@ref": "gr7a",
+            "@mimetype": "image/jpeg"
+          },
+          {
+            "@category": "standard",
+            "@height": "195",
+            "@width": "785",
+            "@_fa": "true",
+            "$": "https://api.elsevier.com/content/object/eid/1-s2.0-S2468823124003997-gr8b.jpg?httpAccept=%2A%2F%2A",
+            "@multimediatype": "JPEG image file",
+            "@type": "IMAGE-DOWNSAMPLED",
+            "@size": "62274",
+            "@ref": "gr8b",
+            "@mimetype": "image/jpeg"
+          },
+          {
+            "@category": "standard",
+            "@height": "199",
+            "@width": "791",
+            "@_fa": "true",
+            "$": "https://api.elsevier.com/content/object/eid/1-s2.0-S2468823124003997-gr6a.jpg?httpAccept=%2A%2F%2A",
+            "@multimediatype": "JPEG image file",
+            "@type": "IMAGE-DOWNSAMPLED",
+            "@size": "78780",
+            "@ref": "gr6a",
+            "@mimetype": "image/jpeg"
+          },
+          {
+            "@category": "standard",
+            "@height": "207",
+            "@width": "791",
+            "@_fa": "true",
+            "$": "https://api.elsevier.com/content/object/eid/1-s2.0-S2468823124003997-gr7b.jpg?httpAccept=%2A%2F%2A",
+            "@multimediatype": "JPEG image file",
+            "@type": "IMAGE-DOWNSAMPLED",
+            "@size": "79536",
+            "@ref": "gr7b",
+            "@mimetype": "image/jpeg"
+          },
+          {
+            "@category": "standard",
+            "@height": "245",
+            "@width": "245",
+            "@_fa": "true",
+            "$": "https://api.elsevier.com/content/object/eid/1-s2.0-S2468823124003997-ga1.jpg?httpAccept=%2A%2F%2A",
+            "@multimediatype": "JPEG image file",
+            "@type": "IMAGE-DOWNSAMPLED",
+            "@size": "31786",
+            "@ref": "ga1",
+            "@mimetype": "image/jpeg"
+          },
+          {
+            "@category": "standard",
+            "@height": "195",
+            "@width": "785",
+            "@_fa": "true",
+            "$": "https://api.elsevier.com/content/object/eid/1-s2.0-S2468823124003997-gr8a.jpg?httpAccept=%2A%2F%2A",
+            "@multimediatype": "JPEG image file",
+            "@type": "IMAGE-DOWNSAMPLED",
+            "@size": "80122",
+            "@ref": "gr8a",
+            "@mimetype": "image/jpeg"
+          },
+          {
+            "@category": "thumbnail",
+            "@height": "159",
+            "@width": "219",
+            "@_fa": "true",
+            "$": "https://api.elsevier.com/content/object/eid/1-s2.0-S2468823124003997-gr9.sml?httpAccept=%2A%2F%2A",
+            "@multimediatype": "GIF image file",
+            "@type": "IMAGE-THUMBNAIL",
+            "@size": "9081",
+            "@ref": "gr9",
+            "@mimetype": "image/gif"
+          },
+          {
+            "@category": "thumbnail",
+            "@height": "83",
+            "@width": "219",
+            "@_fa": "true",
+            "$": "https://api.elsevier.com/content/object/eid/1-s2.0-S2468823124003997-gr1.sml?httpAccept=%2A%2F%2A",
+            "@multimediatype": "GIF image file",
+            "@type": "IMAGE-THUMBNAIL",
+            "@size": "9380",
+            "@ref": "gr1",
+            "@mimetype": "image/gif"
+          },
+          {
+            "@category": "thumbnail",
+            "@height": "148",
+            "@width": "219",
+            "@_fa": "true",
+            "$": "https://api.elsevier.com/content/object/eid/1-s2.0-S2468823124003997-gr2.sml?httpAccept=%2A%2F%2A",
+            "@multimediatype": "GIF image file",
+            "@type": "IMAGE-THUMBNAIL",
+            "@size": "5388",
+            "@ref": "gr2",
+            "@mimetype": "image/gif"
+          },
+          {
+            "@category": "thumbnail",
+            "@height": "56",
+            "@width": "219",
+            "@_fa": "true",
+            "$": "https://api.elsevier.com/content/object/eid/1-s2.0-S2468823124003997-gr3a.sml?httpAccept=%2A%2F%2A",
+            "@multimediatype": "GIF image file",
+            "@type": "IMAGE-THUMBNAIL",
+            "@size": "9234",
+            "@ref": "gr3a",
+            "@mimetype": "image/gif"
+          },
+          {
+            "@category": "thumbnail",
+            "@height": "56",
+            "@width": "219",
+            "@_fa": "true",
+            "$": "https://api.elsevier.com/content/object/eid/1-s2.0-S2468823124003997-gr4b.sml?httpAccept=%2A%2F%2A",
+            "@multimediatype": "GIF image file",
+            "@type": "IMAGE-THUMBNAIL",
+            "@size": "9430",
+            "@ref": "gr4b",
+            "@mimetype": "image/gif"
+          },
+          {
+            "@category": "thumbnail",
+            "@height": "55",
+            "@width": "219",
+            "@_fa": "true",
+            "$": "https://api.elsevier.com/content/object/eid/1-s2.0-S2468823124003997-gr3b.sml?httpAccept=%2A%2F%2A",
+            "@multimediatype": "GIF image file",
+            "@type": "IMAGE-THUMBNAIL",
+            "@size": "9568",
+            "@ref": "gr3b",
+            "@mimetype": "image/gif"
+          },
+          {
+            "@category": "thumbnail",
+            "@height": "54",
+            "@width": "219",
+            "@_fa": "true",
+            "$": "https://api.elsevier.com/content/object/eid/1-s2.0-S2468823124003997-gr5a.sml?httpAccept=%2A%2F%2A",
+            "@multimediatype": "GIF image file",
+            "@type": "IMAGE-THUMBNAIL",
+            "@size": "9187",
+            "@ref": "gr5a",
+            "@mimetype": "image/gif"
+          },
+          {
+            "@category": "thumbnail",
+            "@height": "55",
+            "@width": "219",
+            "@_fa": "true",
+            "$": "https://api.elsevier.com/content/object/eid/1-s2.0-S2468823124003997-gr6b.sml?httpAccept=%2A%2F%2A",
+            "@multimediatype": "GIF image file",
+            "@type": "IMAGE-THUMBNAIL",
+            "@size": "10053",
+            "@ref": "gr6b",
+            "@mimetype": "image/gif"
+          },
+          {
+            "@category": "thumbnail",
+            "@height": "55",
+            "@width": "219",
+            "@_fa": "true",
+            "$": "https://api.elsevier.com/content/object/eid/1-s2.0-S2468823124003997-gr4a.sml?httpAccept=%2A%2F%2A",
+            "@multimediatype": "GIF image file",
+            "@type": "IMAGE-THUMBNAIL",
+            "@size": "9883",
+            "@ref": "gr4a",
+            "@mimetype": "image/gif"
+          },
+          {
+            "@category": "thumbnail",
+            "@height": "55",
+            "@width": "219",
+            "@_fa": "true",
+            "$": "https://api.elsevier.com/content/object/eid/1-s2.0-S2468823124003997-gr5b.sml?httpAccept=%2A%2F%2A",
+            "@multimediatype": "GIF image file",
+            "@type": "IMAGE-THUMBNAIL",
+            "@size": "8713",
+            "@ref": "gr5b",
+            "@mimetype": "image/gif"
+          },
+          {
+            "@category": "thumbnail",
+            "@height": "57",
+            "@width": "219",
+            "@_fa": "true",
+            "$": "https://api.elsevier.com/content/object/eid/1-s2.0-S2468823124003997-gr7a.sml?httpAccept=%2A%2F%2A",
+            "@multimediatype": "GIF image file",
+            "@type": "IMAGE-THUMBNAIL",
+            "@size": "10015",
+            "@ref": "gr7a",
+            "@mimetype": "image/gif"
+          },
+          {
+            "@category": "thumbnail",
+            "@height": "54",
+            "@width": "219",
+            "@_fa": "true",
+            "$": "https://api.elsevier.com/content/object/eid/1-s2.0-S2468823124003997-gr8b.sml?httpAccept=%2A%2F%2A",
+            "@multimediatype": "GIF image file",
+            "@type": "IMAGE-THUMBNAIL",
+            "@size": "8460",
+            "@ref": "gr8b",
+            "@mimetype": "image/gif"
+          },
+          {
+            "@category": "thumbnail",
+            "@height": "55",
+            "@width": "219",
+            "@_fa": "true",
+            "$": "https://api.elsevier.com/content/object/eid/1-s2.0-S2468823124003997-gr6a.sml?httpAccept=%2A%2F%2A",
+            "@multimediatype": "GIF image file",
+            "@type": "IMAGE-THUMBNAIL",
+            "@size": "9290",
+            "@ref": "gr6a",
+            "@mimetype": "image/gif"
+          },
+          {
+            "@category": "thumbnail",
+            "@height": "57",
+            "@width": "219",
+            "@_fa": "true",
+            "$": "https://api.elsevier.com/content/object/eid/1-s2.0-S2468823124003997-gr7b.sml?httpAccept=%2A%2F%2A",
+            "@multimediatype": "GIF image file",
+            "@type": "IMAGE-THUMBNAIL",
+            "@size": "9923",
+            "@ref": "gr7b",
+            "@mimetype": "image/gif"
+          },
+          {
+            "@category": "thumbnail",
+            "@height": "164",
+            "@width": "164",
+            "@_fa": "true",
+            "$": "https://api.elsevier.com/content/object/eid/1-s2.0-S2468823124003997-ga1.sml?httpAccept=%2A%2F%2A",
+            "@multimediatype": "GIF image file",
+            "@type": "IMAGE-THUMBNAIL",
+            "@size": "14190",
+            "@ref": "ga1",
+            "@mimetype": "image/gif"
+          },
+          {
+            "@category": "thumbnail",
+            "@height": "54",
+            "@width": "219",
+            "@_fa": "true",
+            "$": "https://api.elsevier.com/content/object/eid/1-s2.0-S2468823124003997-gr8a.sml?httpAccept=%2A%2F%2A",
+            "@multimediatype": "GIF image file",
+            "@type": "IMAGE-THUMBNAIL",
+            "@size": "9241",
+            "@ref": "gr8a",
+            "@mimetype": "image/gif"
+          },
+          {
+            "@category": "high",
+            "@height": "1208",
+            "@width": "1667",
+            "@_fa": "true",
+            "$": "https://api.elsevier.com/content/object/eid/1-s2.0-S2468823124003997-gr9_lrg.jpg?httpAccept=%2A%2F%2A",
+            "@multimediatype": "JPEG image file",
+            "@type": "IMAGE-HIGH-RES",
+            "@size": "175294",
+            "@ref": "gr9",
+            "@mimetype": "image/jpeg"
+          },
+          {
+            "@category": "high",
+            "@height": "1009",
+            "@width": "2667",
+            "@_fa": "true",
+            "$": "https://api.elsevier.com/content/object/eid/1-s2.0-S2468823124003997-gr1_lrg.jpg?httpAccept=%2A%2F%2A",
+            "@multimediatype": "JPEG image file",
+            "@type": "IMAGE-HIGH-RES",
+            "@size": "316229",
+            "@ref": "gr1",
+            "@mimetype": "image/jpeg"
+          },
+          {
+            "@category": "high",
+            "@height": "1803",
+            "@width": "2667",
+            "@_fa": "true",
+            "$": "https://api.elsevier.com/content/object/eid/1-s2.0-S2468823124003997-gr2_lrg.jpg?httpAccept=%2A%2F%2A",
+            "@multimediatype": "JPEG image file",
+            "@type": "IMAGE-HIGH-RES",
+            "@size": "285368",
+            "@ref": "gr2",
+            "@mimetype": "image/jpeg"
+          },
+          {
+            "@category": "high",
+            "@height": "888",
+            "@width": "3501",
+            "@_fa": "true",
+            "$": "https://api.elsevier.com/content/object/eid/1-s2.0-S2468823124003997-gr3a_lrg.jpg?httpAccept=%2A%2F%2A",
+            "@multimediatype": "JPEG image file",
+            "@type": "IMAGE-HIGH-RES",
+            "@size": "814761",
+            "@ref": "gr3a",
+            "@mimetype": "image/jpeg"
+          },
+          {
+            "@category": "high",
+            "@height": "889",
+            "@width": "3501",
+            "@_fa": "true",
+            "$": "https://api.elsevier.com/content/object/eid/1-s2.0-S2468823124003997-gr4b_lrg.jpg?httpAccept=%2A%2F%2A",
+            "@multimediatype": "JPEG image file",
+            "@type": "IMAGE-HIGH-RES",
+            "@size": "560063",
+            "@ref": "gr4b",
+            "@mimetype": "image/jpeg"
+          },
+          {
+            "@category": "high",
+            "@height": "879",
+            "@width": "3501",
+            "@_fa": "true",
+            "$": "https://api.elsevier.com/content/object/eid/1-s2.0-S2468823124003997-gr3b_lrg.jpg?httpAccept=%2A%2F%2A",
+            "@multimediatype": "JPEG image file",
+            "@type": "IMAGE-HIGH-RES",
+            "@size": "556295",
+            "@ref": "gr3b",
+            "@mimetype": "image/jpeg"
+          },
+          {
+            "@category": "high",
+            "@height": "869",
+            "@width": "3501",
+            "@_fa": "true",
+            "$": "https://api.elsevier.com/content/object/eid/1-s2.0-S2468823124003997-gr5a_lrg.jpg?httpAccept=%2A%2F%2A",
+            "@multimediatype": "JPEG image file",
+            "@type": "IMAGE-HIGH-RES",
+            "@size": "858761",
+            "@ref": "gr5a",
+            "@mimetype": "image/jpeg"
+          },
+          {
+            "@category": "high",
+            "@height": "853",
+            "@width": "3417",
+            "@_fa": "true",
+            "$": "https://api.elsevier.com/content/object/eid/1-s2.0-S2468823124003997-gr6b_lrg.jpg?httpAccept=%2A%2F%2A",
+            "@multimediatype": "JPEG image file",
+            "@type": "IMAGE-HIGH-RES",
+            "@size": "572693",
+            "@ref": "gr6b",
+            "@mimetype": "image/jpeg"
+          },
+          {
+            "@category": "high",
+            "@height": "879",
+            "@width": "3502",
+            "@_fa": "true",
+            "$": "https://api.elsevier.com/content/object/eid/1-s2.0-S2468823124003997-gr4a_lrg.jpg?httpAccept=%2A%2F%2A",
+            "@multimediatype": "JPEG image file",
+            "@type": "IMAGE-HIGH-RES",
+            "@size": "948612",
+            "@ref": "gr4a",
+            "@mimetype": "image/jpeg"
+          },
+          {
+            "@category": "high",
+            "@height": "877",
+            "@width": "3501",
+            "@_fa": "true",
+            "$": "https://api.elsevier.com/content/object/eid/1-s2.0-S2468823124003997-gr5b_lrg.jpg?httpAccept=%2A%2F%2A",
+            "@multimediatype": "JPEG image file",
+            "@type": "IMAGE-HIGH-RES",
+            "@size": "484320",
+            "@ref": "gr5b",
+            "@mimetype": "image/jpeg"
+          },
+          {
+            "@category": "high",
+            "@height": "914",
+            "@width": "3500",
+            "@_fa": "true",
+            "$": "https://api.elsevier.com/content/object/eid/1-s2.0-S2468823124003997-gr7a_lrg.jpg?httpAccept=%2A%2F%2A",
+            "@multimediatype": "JPEG image file",
+            "@type": "IMAGE-HIGH-RES",
+            "@size": "917398",
+            "@ref": "gr7a",
+            "@mimetype": "image/jpeg"
+          },
+          {
+            "@category": "high",
+            "@height": "863",
+            "@width": "3474",
+            "@_fa": "true",
+            "$": "https://api.elsevier.com/content/object/eid/1-s2.0-S2468823124003997-gr8b_lrg.jpg?httpAccept=%2A%2F%2A",
+            "@multimediatype": "JPEG image file",
+            "@type": "IMAGE-HIGH-RES",
+            "@size": "475815",
+            "@ref": "gr8b",
+            "@mimetype": "image/jpeg"
+          },
+          {
+            "@category": "high",
+            "@height": "882",
+            "@width": "3503",
+            "@_fa": "true",
+            "$": "https://api.elsevier.com/content/object/eid/1-s2.0-S2468823124003997-gr6a_lrg.jpg?httpAccept=%2A%2F%2A",
+            "@multimediatype": "JPEG image file",
+            "@type": "IMAGE-HIGH-RES",
+            "@size": "816125",
+            "@ref": "gr6a",
+            "@mimetype": "image/jpeg"
+          },
+          {
+            "@category": "high",
+            "@height": "915",
+            "@width": "3500",
+            "@_fa": "true",
+            "$": "https://api.elsevier.com/content/object/eid/1-s2.0-S2468823124003997-gr7b_lrg.jpg?httpAccept=%2A%2F%2A",
+            "@multimediatype": "JPEG image file",
+            "@type": "IMAGE-HIGH-RES",
+            "@size": "586071",
+            "@ref": "gr7b",
+            "@mimetype": "image/jpeg"
+          },
+          {
+            "@category": "high",
+            "@height": "1085",
+            "@width": "1085",
+            "@_fa": "true",
+            "$": "https://api.elsevier.com/content/object/eid/1-s2.0-S2468823124003997-ga1_lrg.jpg?httpAccept=%2A%2F%2A",
+            "@multimediatype": "JPEG image file",
+            "@type": "IMAGE-HIGH-RES",
+            "@size": "301361",
+            "@ref": "ga1",
+            "@mimetype": "image/jpeg"
+          },
+          {
+            "@category": "high",
+            "@height": "862",
+            "@width": "3475",
+            "@_fa": "true",
+            "$": "https://api.elsevier.com/content/object/eid/1-s2.0-S2468823124003997-gr8a_lrg.jpg?httpAccept=%2A%2F%2A",
+            "@multimediatype": "JPEG image file",
+            "@type": "IMAGE-HIGH-RES",
+            "@size": "846472",
+            "@ref": "gr8a",
+            "@mimetype": "image/jpeg"
+          },
+          {
+            "@category": "standard",
+            "@_fa": "true",
+            "$": "https://api.elsevier.com/content/object/eid/1-s2.0-S2468823124003997-mmc1.docx?httpAccept=%2A%2F%2A",
+            "@multimediatype": "Microsoft Word file",
+            "@type": "APPLICATION",
+            "@size": "823685",
+            "@ref": "mmc1",
+            "@mimetype": "application/word"
+          },
+          {
+            "@category": "thumbnail",
+            "@_fa": "true",
+            "$": "https://api.elsevier.com/content/object/eid/1-s2.0-S2468823124003997-si1.svg?httpAccept=%2A%2F%2A",
+            "@multimediatype": "Scalable Vector Graphics file",
+            "@type": "ALTIMG",
+            "@size": "11646",
+            "@ref": "si1",
+            "@mimetype": "image/svg+xml"
+          },
+          {
+            "@category": "thumbnail",
+            "@_fa": "true",
+            "$": "https://api.elsevier.com/content/object/eid/1-s2.0-S2468823124003997-si10.svg?httpAccept=%2A%2F%2A",
+            "@multimediatype": "Scalable Vector Graphics file",
+            "@type": "ALTIMG",
+            "@size": "5729",
+            "@ref": "si10",
+            "@mimetype": "image/svg+xml"
+          },
+          {
+            "@category": "thumbnail",
+            "@_fa": "true",
+            "$": "https://api.elsevier.com/content/object/eid/1-s2.0-S2468823124003997-si11.svg?httpAccept=%2A%2F%2A",
+            "@multimediatype": "Scalable Vector Graphics file",
+            "@type": "ALTIMG",
+            "@size": "3566",
+            "@ref": "si11",
+            "@mimetype": "image/svg+xml"
+          },
+          {
+            "@category": "thumbnail",
+            "@_fa": "true",
+            "$": "https://api.elsevier.com/content/object/eid/1-s2.0-S2468823124003997-si12.svg?httpAccept=%2A%2F%2A",
+            "@multimediatype": "Scalable Vector Graphics file",
+            "@type": "ALTIMG",
+            "@size": "2584",
+            "@ref": "si12",
+            "@mimetype": "image/svg+xml"
+          },
+          {
+            "@category": "thumbnail",
+            "@_fa": "true",
+            "$": "https://api.elsevier.com/content/object/eid/1-s2.0-S2468823124003997-si13.svg?httpAccept=%2A%2F%2A",
+            "@multimediatype": "Scalable Vector Graphics file",
+            "@type": "ALTIMG",
+            "@size": "2888",
+            "@ref": "si13",
+            "@mimetype": "image/svg+xml"
+          },
+          {
+            "@category": "thumbnail",
+            "@_fa": "true",
+            "$": "https://api.elsevier.com/content/object/eid/1-s2.0-S2468823124003997-si14.svg?httpAccept=%2A%2F%2A",
+            "@multimediatype": "Scalable Vector Graphics file",
+            "@type": "ALTIMG",
+            "@size": "4835",
+            "@ref": "si14",
+            "@mimetype": "image/svg+xml"
+          },
+          {
+            "@category": "thumbnail",
+            "@_fa": "true",
+            "$": "https://api.elsevier.com/content/object/eid/1-s2.0-S2468823124003997-si15.svg?httpAccept=%2A%2F%2A",
+            "@multimediatype": "Scalable Vector Graphics file",
+            "@type": "ALTIMG",
+            "@size": "5166",
+            "@ref": "si15",
+            "@mimetype": "image/svg+xml"
+          },
+          {
+            "@category": "thumbnail",
+            "@_fa": "true",
+            "$": "https://api.elsevier.com/content/object/eid/1-s2.0-S2468823124003997-si16.svg?httpAccept=%2A%2F%2A",
+            "@multimediatype": "Scalable Vector Graphics file",
+            "@type": "ALTIMG",
+            "@size": "5713",
+            "@ref": "si16",
+            "@mimetype": "image/svg+xml"
+          },
+          {
+            "@category": "thumbnail",
+            "@_fa": "true",
+            "$": "https://api.elsevier.com/content/object/eid/1-s2.0-S2468823124003997-si17.svg?httpAccept=%2A%2F%2A",
+            "@multimediatype": "Scalable Vector Graphics file",
+            "@type": "ALTIMG",
+            "@size": "7850",
+            "@ref": "si17",
+            "@mimetype": "image/svg+xml"
+          },
+          {
+            "@category": "thumbnail",
+            "@_fa": "true",
+            "$": "https://api.elsevier.com/content/object/eid/1-s2.0-S2468823124003997-si18.svg?httpAccept=%2A%2F%2A",
+            "@multimediatype": "Scalable Vector Graphics file",
+            "@type": "ALTIMG",
+            "@size": "7425",
+            "@ref": "si18",
+            "@mimetype": "image/svg+xml"
+          },
+          {
+            "@category": "thumbnail",
+            "@_fa": "true",
+            "$": "https://api.elsevier.com/content/object/eid/1-s2.0-S2468823124003997-si19.svg?httpAccept=%2A%2F%2A",
+            "@multimediatype": "Scalable Vector Graphics file",
+            "@type": "ALTIMG",
+            "@size": "7387",
+            "@ref": "si19",
+            "@mimetype": "image/svg+xml"
+          },
+          {
+            "@category": "thumbnail",
+            "@_fa": "true",
+            "$": "https://api.elsevier.com/content/object/eid/1-s2.0-S2468823124003997-si2.svg?httpAccept=%2A%2F%2A",
+            "@multimediatype": "Scalable Vector Graphics file",
+            "@type": "ALTIMG",
+            "@size": "11227",
+            "@ref": "si2",
+            "@mimetype": "image/svg+xml"
+          },
+          {
+            "@category": "thumbnail",
+            "@_fa": "true",
+            "$": "https://api.elsevier.com/content/object/eid/1-s2.0-S2468823124003997-si20.svg?httpAccept=%2A%2F%2A",
+            "@multimediatype": "Scalable Vector Graphics file",
+            "@type": "ALTIMG",
+            "@size": "7085",
+            "@ref": "si20",
+            "@mimetype": "image/svg+xml"
+          },
+          {
+            "@category": "thumbnail",
+            "@_fa": "true",
+            "$": "https://api.elsevier.com/content/object/eid/1-s2.0-S2468823124003997-si21.svg?httpAccept=%2A%2F%2A",
+            "@multimediatype": "Scalable Vector Graphics file",
+            "@type": "ALTIMG",
+            "@size": "1896",
+            "@ref": "si21",
+            "@mimetype": "image/svg+xml"
+          },
+          {
+            "@category": "thumbnail",
+            "@_fa": "true",
+            "$": "https://api.elsevier.com/content/object/eid/1-s2.0-S2468823124003997-si22.svg?httpAccept=%2A%2F%2A",
+            "@multimediatype": "Scalable Vector Graphics file",
+            "@type": "ALTIMG",
+            "@size": "2292",
+            "@ref": "si22",
+            "@mimetype": "image/svg+xml"
+          },
+          {
+            "@category": "thumbnail",
+            "@_fa": "true",
+            "$": "https://api.elsevier.com/content/object/eid/1-s2.0-S2468823124003997-si23.svg?httpAccept=%2A%2F%2A",
+            "@multimediatype": "Scalable Vector Graphics file",
+            "@type": "ALTIMG",
+            "@size": "3015",
+            "@ref": "si23",
+            "@mimetype": "image/svg+xml"
+          },
+          {
+            "@category": "thumbnail",
+            "@_fa": "true",
+            "$": "https://api.elsevier.com/content/object/eid/1-s2.0-S2468823124003997-si24.svg?httpAccept=%2A%2F%2A",
+            "@multimediatype": "Scalable Vector Graphics file",
+            "@type": "ALTIMG",
+            "@size": "3716",
+            "@ref": "si24",
+            "@mimetype": "image/svg+xml"
+          },
+          {
+            "@category": "thumbnail",
+            "@_fa": "true",
+            "$": "https://api.elsevier.com/content/object/eid/1-s2.0-S2468823124003997-si25.svg?httpAccept=%2A%2F%2A",
+            "@multimediatype": "Scalable Vector Graphics file",
+            "@type": "ALTIMG",
+            "@size": "5836",
+            "@ref": "si25",
+            "@mimetype": "image/svg+xml"
+          },
+          {
+            "@category": "thumbnail",
+            "@_fa": "true",
+            "$": "https://api.elsevier.com/content/object/eid/1-s2.0-S2468823124003997-si26.svg?httpAccept=%2A%2F%2A",
+            "@multimediatype": "Scalable Vector Graphics file",
+            "@type": "ALTIMG",
+            "@size": "3147",
+            "@ref": "si26",
+            "@mimetype": "image/svg+xml"
+          },
+          {
+            "@category": "thumbnail",
+            "@_fa": "true",
+            "$": "https://api.elsevier.com/content/object/eid/1-s2.0-S2468823124003997-si27.svg?httpAccept=%2A%2F%2A",
+            "@multimediatype": "Scalable Vector Graphics file",
+            "@type": "ALTIMG",
+            "@size": "4765",
+            "@ref": "si27",
+            "@mimetype": "image/svg+xml"
+          },
+          {
+            "@category": "thumbnail",
+            "@_fa": "true",
+            "$": "https://api.elsevier.com/content/object/eid/1-s2.0-S2468823124003997-si28.svg?httpAccept=%2A%2F%2A",
+            "@multimediatype": "Scalable Vector Graphics file",
+            "@type": "ALTIMG",
+            "@size": "14223",
+            "@ref": "si28",
+            "@mimetype": "image/svg+xml"
+          },
+          {
+            "@category": "thumbnail",
+            "@_fa": "true",
+            "$": "https://api.elsevier.com/content/object/eid/1-s2.0-S2468823124003997-si29.svg?httpAccept=%2A%2F%2A",
+            "@multimediatype": "Scalable Vector Graphics file",
+            "@type": "ALTIMG",
+            "@size": "14356",
+            "@ref": "si29",
+            "@mimetype": "image/svg+xml"
+          },
+          {
+            "@category": "thumbnail",
+            "@_fa": "true",
+            "$": "https://api.elsevier.com/content/object/eid/1-s2.0-S2468823124003997-si3.svg?httpAccept=%2A%2F%2A",
+            "@multimediatype": "Scalable Vector Graphics file",
+            "@type": "ALTIMG",
+            "@size": "1901",
+            "@ref": "si3",
+            "@mimetype": "image/svg+xml"
+          },
+          {
+            "@category": "thumbnail",
+            "@_fa": "true",
+            "$": "https://api.elsevier.com/content/object/eid/1-s2.0-S2468823124003997-si30.svg?httpAccept=%2A%2F%2A",
+            "@multimediatype": "Scalable Vector Graphics file",
+            "@type": "ALTIMG",
+            "@size": "13290",
+            "@ref": "si30",
+            "@mimetype": "image/svg+xml"
+          },
+          {
+            "@category": "thumbnail",
+            "@_fa": "true",
+            "$": "https://api.elsevier.com/content/object/eid/1-s2.0-S2468823124003997-si31.svg?httpAccept=%2A%2F%2A",
+            "@multimediatype": "Scalable Vector Graphics file",
+            "@type": "ALTIMG",
+            "@size": "14492",
+            "@ref": "si31",
+            "@mimetype": "image/svg+xml"
+          },
+          {
+            "@category": "thumbnail",
+            "@_fa": "true",
+            "$": "https://api.elsevier.com/content/object/eid/1-s2.0-S2468823124003997-si32.svg?httpAccept=%2A%2F%2A",
+            "@multimediatype": "Scalable Vector Graphics file",
+            "@type": "ALTIMG",
+            "@size": "11205",
+            "@ref": "si32",
+            "@mimetype": "image/svg+xml"
+          },
+          {
+            "@category": "thumbnail",
+            "@_fa": "true",
+            "$": "https://api.elsevier.com/content/object/eid/1-s2.0-S2468823124003997-si33.svg?httpAccept=%2A%2F%2A",
+            "@multimediatype": "Scalable Vector Graphics file",
+            "@type": "ALTIMG",
+            "@size": "2123",
+            "@ref": "si33",
+            "@mimetype": "image/svg+xml"
+          },
+          {
+            "@category": "thumbnail",
+            "@_fa": "true",
+            "$": "https://api.elsevier.com/content/object/eid/1-s2.0-S2468823124003997-si34.svg?httpAccept=%2A%2F%2A",
+            "@multimediatype": "Scalable Vector Graphics file",
+            "@type": "ALTIMG",
+            "@size": "2271",
+            "@ref": "si34",
+            "@mimetype": "image/svg+xml"
+          },
+          {
+            "@category": "thumbnail",
+            "@_fa": "true",
+            "$": "https://api.elsevier.com/content/object/eid/1-s2.0-S2468823124003997-si35.svg?httpAccept=%2A%2F%2A",
+            "@multimediatype": "Scalable Vector Graphics file",
+            "@type": "ALTIMG",
+            "@size": "1291",
+            "@ref": "si35",
+            "@mimetype": "image/svg+xml"
+          },
+          {
+            "@category": "thumbnail",
+            "@_fa": "true",
+            "$": "https://api.elsevier.com/content/object/eid/1-s2.0-S2468823124003997-si36.svg?httpAccept=%2A%2F%2A",
+            "@multimediatype": "Scalable Vector Graphics file",
+            "@type": "ALTIMG",
+            "@size": "1867",
+            "@ref": "si36",
+            "@mimetype": "image/svg+xml"
+          },
+          {
+            "@category": "thumbnail",
+            "@_fa": "true",
+            "$": "https://api.elsevier.com/content/object/eid/1-s2.0-S2468823124003997-si37.svg?httpAccept=%2A%2F%2A",
+            "@multimediatype": "Scalable Vector Graphics file",
+            "@type": "ALTIMG",
+            "@size": "1907",
+            "@ref": "si37",
+            "@mimetype": "image/svg+xml"
+          },
+          {
+            "@category": "thumbnail",
+            "@_fa": "true",
+            "$": "https://api.elsevier.com/content/object/eid/1-s2.0-S2468823124003997-si38.svg?httpAccept=%2A%2F%2A",
+            "@multimediatype": "Scalable Vector Graphics file",
+            "@type": "ALTIMG",
+            "@size": "1959",
+            "@ref": "si38",
+            "@mimetype": "image/svg+xml"
+          },
+          {
+            "@category": "thumbnail",
+            "@_fa": "true",
+            "$": "https://api.elsevier.com/content/object/eid/1-s2.0-S2468823124003997-si39.svg?httpAccept=%2A%2F%2A",
+            "@multimediatype": "Scalable Vector Graphics file",
+            "@type": "ALTIMG",
+            "@size": "2677",
+            "@ref": "si39",
+            "@mimetype": "image/svg+xml"
+          },
+          {
+            "@category": "thumbnail",
+            "@_fa": "true",
+            "$": "https://api.elsevier.com/content/object/eid/1-s2.0-S2468823124003997-si4.svg?httpAccept=%2A%2F%2A",
+            "@multimediatype": "Scalable Vector Graphics file",
+            "@type": "ALTIMG",
+            "@size": "3001",
+            "@ref": "si4",
+            "@mimetype": "image/svg+xml"
+          },
+          {
+            "@category": "thumbnail",
+            "@_fa": "true",
+            "$": "https://api.elsevier.com/content/object/eid/1-s2.0-S2468823124003997-si40.svg?httpAccept=%2A%2F%2A",
+            "@multimediatype": "Scalable Vector Graphics file",
+            "@type": "ALTIMG",
+            "@size": "15637",
+            "@ref": "si40",
+            "@mimetype": "image/svg+xml"
+          },
+          {
+            "@category": "thumbnail",
+            "@_fa": "true",
+            "$": "https://api.elsevier.com/content/object/eid/1-s2.0-S2468823124003997-si41.svg?httpAccept=%2A%2F%2A",
+            "@multimediatype": "Scalable Vector Graphics file",
+            "@type": "ALTIMG",
+            "@size": "19738",
+            "@ref": "si41",
+            "@mimetype": "image/svg+xml"
+          },
+          {
+            "@category": "thumbnail",
+            "@_fa": "true",
+            "$": "https://api.elsevier.com/content/object/eid/1-s2.0-S2468823124003997-si42.svg?httpAccept=%2A%2F%2A",
+            "@multimediatype": "Scalable Vector Graphics file",
+            "@type": "ALTIMG",
+            "@size": "16174",
+            "@ref": "si42",
+            "@mimetype": "image/svg+xml"
+          },
+          {
+            "@category": "thumbnail",
+            "@_fa": "true",
+            "$": "https://api.elsevier.com/content/object/eid/1-s2.0-S2468823124003997-si43.svg?httpAccept=%2A%2F%2A",
+            "@multimediatype": "Scalable Vector Graphics file",
+            "@type": "ALTIMG",
+            "@size": "3106",
+            "@ref": "si43",
+            "@mimetype": "image/svg+xml"
+          },
+          {
+            "@category": "thumbnail",
+            "@_fa": "true",
+            "$": "https://api.elsevier.com/content/object/eid/1-s2.0-S2468823124003997-si44.svg?httpAccept=%2A%2F%2A",
+            "@multimediatype": "Scalable Vector Graphics file",
+            "@type": "ALTIMG",
+            "@size": "19951",
+            "@ref": "si44",
+            "@mimetype": "image/svg+xml"
+          },
+          {
+            "@category": "thumbnail",
+            "@_fa": "true",
+            "$": "https://api.elsevier.com/content/object/eid/1-s2.0-S2468823124003997-si45.svg?httpAccept=%2A%2F%2A",
+            "@multimediatype": "Scalable Vector Graphics file",
+            "@type": "ALTIMG",
+            "@size": "5152",
+            "@ref": "si45",
+            "@mimetype": "image/svg+xml"
+          },
+          {
+            "@category": "thumbnail",
+            "@_fa": "true",
+            "$": "https://api.elsevier.com/content/object/eid/1-s2.0-S2468823124003997-si46.svg?httpAccept=%2A%2F%2A",
+            "@multimediatype": "Scalable Vector Graphics file",
+            "@type": "ALTIMG",
+            "@size": "5251",
+            "@ref": "si46",
+            "@mimetype": "image/svg+xml"
+          },
+          {
+            "@category": "thumbnail",
+            "@_fa": "true",
+            "$": "https://api.elsevier.com/content/object/eid/1-s2.0-S2468823124003997-si47.svg?httpAccept=%2A%2F%2A",
+            "@multimediatype": "Scalable Vector Graphics file",
+            "@type": "ALTIMG",
+            "@size": "3869",
+            "@ref": "si47",
+            "@mimetype": "image/svg+xml"
+          },
+          {
+            "@category": "thumbnail",
+            "@_fa": "true",
+            "$": "https://api.elsevier.com/content/object/eid/1-s2.0-S2468823124003997-si48.svg?httpAccept=%2A%2F%2A",
+            "@multimediatype": "Scalable Vector Graphics file",
+            "@type": "ALTIMG",
+            "@size": "2950",
+            "@ref": "si48",
+            "@mimetype": "image/svg+xml"
+          },
+          {
+            "@category": "thumbnail",
+            "@_fa": "true",
+            "$": "https://api.elsevier.com/content/object/eid/1-s2.0-S2468823124003997-si49.svg?httpAccept=%2A%2F%2A",
+            "@multimediatype": "Scalable Vector Graphics file",
+            "@type": "ALTIMG",
+            "@size": "2114",
+            "@ref": "si49",
+            "@mimetype": "image/svg+xml"
+          },
+          {
+            "@category": "thumbnail",
+            "@_fa": "true",
+            "$": "https://api.elsevier.com/content/object/eid/1-s2.0-S2468823124003997-si5.svg?httpAccept=%2A%2F%2A",
+            "@multimediatype": "Scalable Vector Graphics file",
+            "@type": "ALTIMG",
+            "@size": "2892",
+            "@ref": "si5",
+            "@mimetype": "image/svg+xml"
+          },
+          {
+            "@category": "thumbnail",
+            "@_fa": "true",
+            "$": "https://api.elsevier.com/content/object/eid/1-s2.0-S2468823124003997-si50.svg?httpAccept=%2A%2F%2A",
+            "@multimediatype": "Scalable Vector Graphics file",
+            "@type": "ALTIMG",
+            "@size": "2029",
+            "@ref": "si50",
+            "@mimetype": "image/svg+xml"
+          },
+          {
+            "@category": "thumbnail",
+            "@_fa": "true",
+            "$": "https://api.elsevier.com/content/object/eid/1-s2.0-S2468823124003997-si51.svg?httpAccept=%2A%2F%2A",
+            "@multimediatype": "Scalable Vector Graphics file",
+            "@type": "ALTIMG",
+            "@size": "1785",
+            "@ref": "si51",
+            "@mimetype": "image/svg+xml"
+          },
+          {
+            "@category": "thumbnail",
+            "@_fa": "true",
+            "$": "https://api.elsevier.com/content/object/eid/1-s2.0-S2468823124003997-si52.svg?httpAccept=%2A%2F%2A",
+            "@multimediatype": "Scalable Vector Graphics file",
+            "@type": "ALTIMG",
+            "@size": "7149",
+            "@ref": "si52",
+            "@mimetype": "image/svg+xml"
+          },
+          {
+            "@category": "thumbnail",
+            "@_fa": "true",
+            "$": "https://api.elsevier.com/content/object/eid/1-s2.0-S2468823124003997-si53.svg?httpAccept=%2A%2F%2A",
+            "@multimediatype": "Scalable Vector Graphics file",
+            "@type": "ALTIMG",
+            "@size": "2403",
+            "@ref": "si53",
+            "@mimetype": "image/svg+xml"
+          },
+          {
+            "@category": "thumbnail",
+            "@_fa": "true",
+            "$": "https://api.elsevier.com/content/object/eid/1-s2.0-S2468823124003997-si54.svg?httpAccept=%2A%2F%2A",
+            "@multimediatype": "Scalable Vector Graphics file",
+            "@type": "ALTIMG",
+            "@size": "5447",
+            "@ref": "si54",
+            "@mimetype": "image/svg+xml"
+          },
+          {
+            "@category": "thumbnail",
+            "@_fa": "true",
+            "$": "https://api.elsevier.com/content/object/eid/1-s2.0-S2468823124003997-si55.svg?httpAccept=%2A%2F%2A",
+            "@multimediatype": "Scalable Vector Graphics file",
+            "@type": "ALTIMG",
+            "@size": "2695",
+            "@ref": "si55",
+            "@mimetype": "image/svg+xml"
+          },
+          {
+            "@category": "thumbnail",
+            "@_fa": "true",
+            "$": "https://api.elsevier.com/content/object/eid/1-s2.0-S2468823124003997-si56.svg?httpAccept=%2A%2F%2A",
+            "@multimediatype": "Scalable Vector Graphics file",
+            "@type": "ALTIMG",
+            "@size": "6231",
+            "@ref": "si56",
+            "@mimetype": "image/svg+xml"
+          },
+          {
+            "@category": "thumbnail",
+            "@_fa": "true",
+            "$": "https://api.elsevier.com/content/object/eid/1-s2.0-S2468823124003997-si57.svg?httpAccept=%2A%2F%2A",
+            "@multimediatype": "Scalable Vector Graphics file",
+            "@type": "ALTIMG",
+            "@size": "2872",
+            "@ref": "si57",
+            "@mimetype": "image/svg+xml"
+          },
+          {
+            "@category": "thumbnail",
+            "@_fa": "true",
+            "$": "https://api.elsevier.com/content/object/eid/1-s2.0-S2468823124003997-si58.svg?httpAccept=%2A%2F%2A",
+            "@multimediatype": "Scalable Vector Graphics file",
+            "@type": "ALTIMG",
+            "@size": "4624",
+            "@ref": "si58",
+            "@mimetype": "image/svg+xml"
+          },
+          {
+            "@category": "thumbnail",
+            "@_fa": "true",
+            "$": "https://api.elsevier.com/content/object/eid/1-s2.0-S2468823124003997-si59.svg?httpAccept=%2A%2F%2A",
+            "@multimediatype": "Scalable Vector Graphics file",
+            "@type": "ALTIMG",
+            "@size": "7579",
+            "@ref": "si59",
+            "@mimetype": "image/svg+xml"
+          },
+          {
+            "@category": "thumbnail",
+            "@_fa": "true",
+            "$": "https://api.elsevier.com/content/object/eid/1-s2.0-S2468823124003997-si6.svg?httpAccept=%2A%2F%2A",
+            "@multimediatype": "Scalable Vector Graphics file",
+            "@type": "ALTIMG",
+            "@size": "2018",
+            "@ref": "si6",
+            "@mimetype": "image/svg+xml"
+          },
+          {
+            "@category": "thumbnail",
+            "@_fa": "true",
+            "$": "https://api.elsevier.com/content/object/eid/1-s2.0-S2468823124003997-si7.svg?httpAccept=%2A%2F%2A",
+            "@multimediatype": "Scalable Vector Graphics file",
+            "@type": "ALTIMG",
+            "@size": "3257",
+            "@ref": "si7",
+            "@mimetype": "image/svg+xml"
+          },
+          {
+            "@category": "thumbnail",
+            "@_fa": "true",
+            "$": "https://api.elsevier.com/content/object/eid/1-s2.0-S2468823124003997-si8.svg?httpAccept=%2A%2F%2A",
+            "@multimediatype": "Scalable Vector Graphics file",
+            "@type": "ALTIMG",
+            "@size": "4911",
+            "@ref": "si8",
+            "@mimetype": "image/svg+xml"
+          },
+          {
+            "@category": "thumbnail",
+            "@_fa": "true",
+            "$": "https://api.elsevier.com/content/object/eid/1-s2.0-S2468823124003997-si9.svg?httpAccept=%2A%2F%2A",
+            "@multimediatype": "Scalable Vector Graphics file",
+            "@type": "ALTIMG",
+            "@size": "5167",
+            "@ref": "si9",
+            "@mimetype": "image/svg+xml"
+          },
+          {
+            "@category": "standard",
+            "@_fa": "true",
+            "$": "https://api.elsevier.com/content/object/eid/1-s2.0-S2468823124003997-am.pdf?httpAccept=%2A%2F%2A",
+            "@multimediatype": "Acrobat PDF file",
+            "@type": "AAM-PDF",
+            "@size": "3365017",
+            "@ref": "am",
+            "@mimetype": "application/pdf"
+          }
+        ]
+      },
+      "link": {
+        "@rel": "abstract",
+        "@href": "https://api.elsevier.com/content/abstract/scopus_id/85192956002"
+      }
+    }
+  }
+}

@@ -1,0 +1,774 @@
+{
+  "metadata": {
+    "title": "N-doped graphene as catalysts for oxygen reduction and oxygen evolution reactions: Theoretical considerations",
+    "authors": "; ; ",
+    "journal": "Journal of Catalysis",
+    "date": "2014-05-31",
+    "doi": "10.1016/j.jcat.2014.03.011",
+    "abstract": "",
+    "uri": "https://api.elsevier.com/content/article/pii/S0021951714000736",
+    "pii": "S0021951714000736"
+  },
+  "fulltext": {
+    "full-text-retrieval-response": {
+      "scopus-eid": "2-s2.0-84899547407",
+      "originalText": "serial JL 272561 291210 291744 291809 31 Journal of Catalysis JOURNALCATALYSIS 2014-04-26 2014-04-26 2014-05-09T12:57:48 1-s2.0-S0021951714000736 S0021-9517(14)00073-6 S0021951714000736 10.1016/j.jcat.2014.03.011 S300 S300.1 FULL-TEXT 1-s2.0-S0021951714X00047 2021-04-03T16:59:40.963421Z 0 0 20140501 20140531 2014 2014-04-26T00:00:00Z articleinfo crossmark dco dateupdated tomb dateloaded datesearch indexeddate volumelist yearnav absattachment articletitlenorm authfirstinitialnorm authfirstsurnamenorm cid cids contenttype copyright dateloadedtxt docsubtype doctype doi eid ewtransactionid hubeid issn issnnorm itemstage itemtransactionid itemweight openaccess openarchive pg pgfirst pglast pii piinorm pubdateend pubdatestart pubdatetxt pubyr sectiontitle sortorder srctitle srctitlenorm srctype subheadings suppl volfirst volissue webpdf webpdfpagecount figure e-component body mmlmath acknowledge affil appendices articletitle auth authfirstini authfull authkeywords authlast highlightsabst primabst ref specialabst alllist content subj ssids 0021-9517 00219517 true 314 314 C Volume 314 10 66 72 66 72 201405 May 2014 2014-05-01 2014-05-31 2014 Regular Articles article fla Copyright © 2014 Elsevier Inc. All rights reserved. NDOPEDGRAPHENECATALYSTSFOROXYGENREDUCTIONOXYGENEVOLUTIONREACTIONSTHEORETICALCONSIDERATIONS LI M 1 Introduction 2 Computational models and methods 3 Results and discussion 4 Conclusion Acknowledgments Appendix A Supplementary material References JI 2010 286 X GRAY 2009 7 H KANAN 2008 1072 M LU 2010 12170 Y SUNTIVICH 2011 1383 J GASTEIGER 2005 9 H AHN 1992 1167 J NOVOSELOV 2004 666 K RAO 2009 7752 C PARK 2009 217 S LEE 2008 385 C BALANDIN 2008 902 A LUNGHAOHU 2013 1687 B ZHU 2011 1537 Y LIANG 2011 780 Y YOO 2012 6928 E ZHANG 2011 11170 L LIU 2012 313 Q LIN 2009 2153 W WANG 2010 1790 Y LIN 2013 130 Z LIN 2013 241 Z OKAMOTO 2009 335 Y ZHANG 2012 7542 L KIM 2011 17505 H KRESSE 1996 15 G KRESSE 1996 11169 G BLOCHL 1994 17953 P KRESSE 1999 1758 G PERDEW 1996 3865 J TANG 2009 084204 W JIANG 2012 014702 J CALLEVALLEJO 2012 3 F NORSKOV 2004 17886 J MAN 2011 1159 I ZULUAGA 2011 134702 S CI 2009 4487 L CI 2008 116 L JIA 2009 1701 X WANG 2009 768 X JEON 2013 6138 I LIX2014X66 LIX2014X66X72 LIX2014X66XM LIX2014X66X72XM 2019-03-02T07:58:04.874Z http://vtw.elsevier.com/data/voc/AddOnTypes/50.7/nlp S0021951714000736 National Science Foundation National Science Foundation http://data.elsevier.com/vocabulary/SciValFunders/100000001 http://sws.geonames.org/6252001/ We thank Air Forces MURI program for the support of this research under the contract #FA9550-12-1-0037, and National Science Foundation (NSF) for the suppoet under the contract: #IIP- 1343270. Computational resources were provided by UNT high performance computing initiative, a project of academic computing and user services within the UNT computing and information technology center. Appendix A item S0021-9517(14)00073-6 S0021951714000736 1-s2.0-S0021951714000736 10.1016/j.jcat.2014.03.011 272561 2014-05-09T21:04:13.158076-04:00 2014-05-01 2014-05-31 1-s2.0-S0021951714000736-main.pdf https://s3.amazonaws.com/prod-ucs-content-store-us-east/content/pii:S0021951714000736/MAIN/application/pdf/bb4d84c65351b333ed1d7a70ee1b50c9/main.pdf https://s3-eu-west-1.amazonaws.com/prod-ucs-content-store-eu-west/content/pii:S0021951714000736/MAIN/application/pdf/bb4d84c65351b333ed1d7a70ee1b50c9/main.pdf main.pdf pdf true 1380931 MAIN 7 1-s2.0-S0021951714000736-main_1.png https://s3.amazonaws.com/prod-ucs-content-store-us-east/content/pii:S0021951714000736/PREVIEW/image/png/a17fe42493f50b390e88d4cb4582b661/main_1.png https://s3-eu-west-1.amazonaws.com/prod-ucs-content-store-eu-west/content/pii:S0021951714000736/PREVIEW/image/png/a17fe42493f50b390e88d4cb4582b661/main_1.png main_1.png png 59226 849 656 IMAGE-WEB-PDF 1 1-s2.0-S0021951714000736-si24.gif https://s3.amazonaws.com/prod-ucs-content-store-us-east/content/pii:S0021951714000736/STRIPIN/image/gif/70eab9572cf53d6d6f217478e8eaa83c/si24.gif https://s3-eu-west-1.amazonaws.com/prod-ucs-content-store-eu-west/content/pii:S0021951714000736/STRIPIN/image/gif/70eab9572cf53d6d6f217478e8eaa83c/si24.gif si24 si24.gif gif 855 22 164 ALTIMG 1-s2.0-S0021951714000736-si23.gif https://s3.amazonaws.com/prod-ucs-content-store-us-east/content/pii:S0021951714000736/STRIPIN/image/gif/d7723f3a942b9c79c99e0d61c8c9c028/si23.gif https://s3-eu-west-1.amazonaws.com/prod-ucs-content-store-eu-west/content/pii:S0021951714000736/STRIPIN/image/gif/d7723f3a942b9c79c99e0d61c8c9c028/si23.gif si23 si23.gif gif 1159 22 247 ALTIMG 1-s2.0-S0021951714000736-si22.gif https://s3.amazonaws.com/prod-ucs-content-store-us-east/content/pii:S0021951714000736/STRIPIN/image/gif/b7ecac3d5d4fdc2c5f9fb616aa32b6b5/si22.gif https://s3-eu-west-1.amazonaws.com/prod-ucs-content-store-eu-west/content/pii:S0021951714000736/STRIPIN/image/gif/b7ecac3d5d4fdc2c5f9fb616aa32b6b5/si22.gif si22 si22.gif gif 745 21 149 ALTIMG 1-s2.0-S0021951714000736-si21.gif https://s3.amazonaws.com/prod-ucs-content-store-us-east/content/pii:S0021951714000736/STRIPIN/image/gif/70489f0f080e08711df839ccef6c6014/si21.gif https://s3-eu-west-1.amazonaws.com/prod-ucs-content-store-eu-west/content/pii:S0021951714000736/STRIPIN/image/gif/70489f0f080e08711df839ccef6c6014/si21.gif si21 si21.gif gif 1112 18 287 ALTIMG 1-s2.0-S0021951714000736-si20.gif https://s3.amazonaws.com/prod-ucs-content-store-us-east/content/pii:S0021951714000736/STRIPIN/image/gif/b604c61ddc99ade1ae2f5661d84b1b42/si20.gif https://s3-eu-west-1.amazonaws.com/prod-ucs-content-store-eu-west/content/pii:S0021951714000736/STRIPIN/image/gif/b604c61ddc99ade1ae2f5661d84b1b42/si20.gif si20 si20.gif gif 1021 22 217 ALTIMG 1-s2.0-S0021951714000736-si16.gif https://s3.amazonaws.com/prod-ucs-content-store-us-east/content/pii:S0021951714000736/STRIPIN/image/gif/b550d3d80d36d4c4be2b0d09cea9b5bf/si16.gif https://s3-eu-west-1.amazonaws.com/prod-ucs-content-store-eu-west/content/pii:S0021951714000736/STRIPIN/image/gif/b550d3d80d36d4c4be2b0d09cea9b5bf/si16.gif si16 si16.gif gif 1106 21 260 ALTIMG 1-s2.0-S0021951714000736-si15.gif https://s3.amazonaws.com/prod-ucs-content-store-us-east/content/pii:S0021951714000736/STRIPIN/image/gif/f81eb06a8736c154c7ed1f008e9357ee/si15.gif https://s3-eu-west-1.amazonaws.com/prod-ucs-content-store-eu-west/content/pii:S0021951714000736/STRIPIN/image/gif/f81eb06a8736c154c7ed1f008e9357ee/si15.gif si15 si15.gif gif 1467 21 339 ALTIMG 1-s2.0-S0021951714000736-si14.gif https://s3.amazonaws.com/prod-ucs-content-store-us-east/content/pii:S0021951714000736/STRIPIN/image/gif/46528976bcd71b60fe80a367942f4b0f/si14.gif https://s3-eu-west-1.amazonaws.com/prod-ucs-content-store-eu-west/content/pii:S0021951714000736/STRIPIN/image/gif/46528976bcd71b60fe80a367942f4b0f/si14.gif si14 si14.gif gif 1306 21 309 ALTIMG 1-s2.0-S0021951714000736-si13.gif https://s3.amazonaws.com/prod-ucs-content-store-us-east/content/pii:S0021951714000736/STRIPIN/image/gif/d2b0aacb9fcfc969916c22f27fe3a3b3/si13.gif https://s3-eu-west-1.amazonaws.com/prod-ucs-content-store-eu-west/content/pii:S0021951714000736/STRIPIN/image/gif/d2b0aacb9fcfc969916c22f27fe3a3b3/si13.gif si13 si13.gif gif 913 20 230 ALTIMG 1-s2.0-S0021951714000736-si12.gif https://s3.amazonaws.com/prod-ucs-content-store-us-east/content/pii:S0021951714000736/STRIPIN/image/gif/7e183006ac7d8c7028cf808a4f24844f/si12.gif https://s3-eu-west-1.amazonaws.com/prod-ucs-content-store-eu-west/content/pii:S0021951714000736/STRIPIN/image/gif/7e183006ac7d8c7028cf808a4f24844f/si12.gif si12 si12.gif gif 1121 20 304 ALTIMG 1-s2.0-S0021951714000736-si11.gif https://s3.amazonaws.com/prod-ucs-content-store-us-east/content/pii:S0021951714000736/STRIPIN/image/gif/175f5ec2954136592c15cfb29746158e/si11.gif https://s3-eu-west-1.amazonaws.com/prod-ucs-content-store-eu-west/content/pii:S0021951714000736/STRIPIN/image/gif/175f5ec2954136592c15cfb29746158e/si11.gif si11 si11.gif gif 690 20 170 ALTIMG 1-s2.0-S0021951714000736-si10.gif https://s3.amazonaws.com/prod-ucs-content-store-us-east/content/pii:S0021951714000736/STRIPIN/image/gif/017d1bff6b962bc2cbfcebeb57ff3832/si10.gif https://s3-eu-west-1.amazonaws.com/prod-ucs-content-store-eu-west/content/pii:S0021951714000736/STRIPIN/image/gif/017d1bff6b962bc2cbfcebeb57ff3832/si10.gif si10 si10.gif gif 926 20 246 ALTIMG 1-s2.0-S0021951714000736-si9.gif https://s3.amazonaws.com/prod-ucs-content-store-us-east/content/pii:S0021951714000736/STRIPIN/image/gif/3024e3ea78b1e074ee4b20d619089d42/si9.gif https://s3-eu-west-1.amazonaws.com/prod-ucs-content-store-eu-west/content/pii:S0021951714000736/STRIPIN/image/gif/3024e3ea78b1e074ee4b20d619089d42/si9.gif si9 si9.gif gif 1012 20 252 ALTIMG 1-s2.0-S0021951714000736-si8.gif https://s3.amazonaws.com/prod-ucs-content-store-us-east/content/pii:S0021951714000736/STRIPIN/image/gif/be48f2d0e6a408c26ae473585a0bf061/si8.gif https://s3-eu-west-1.amazonaws.com/prod-ucs-content-store-eu-west/content/pii:S0021951714000736/STRIPIN/image/gif/be48f2d0e6a408c26ae473585a0bf061/si8.gif si8 si8.gif gif 786 20 183 ALTIMG 1-s2.0-S0021951714000736-si7.gif https://s3.amazonaws.com/prod-ucs-content-store-us-east/content/pii:S0021951714000736/STRIPIN/image/gif/90e8bc9510165a0b542ae8ae01aa61d7/si7.gif https://s3-eu-west-1.amazonaws.com/prod-ucs-content-store-eu-west/content/pii:S0021951714000736/STRIPIN/image/gif/90e8bc9510165a0b542ae8ae01aa61d7/si7.gif si7 si7.gif gif 961 20 234 ALTIMG 1-s2.0-S0021951714000736-si6.gif https://s3.amazonaws.com/prod-ucs-content-store-us-east/content/pii:S0021951714000736/STRIPIN/image/gif/7d4f7378f63a7461eba8b3e53283af84/si6.gif https://s3-eu-west-1.amazonaws.com/prod-ucs-content-store-eu-west/content/pii:S0021951714000736/STRIPIN/image/gif/7d4f7378f63a7461eba8b3e53283af84/si6.gif si6 si6.gif gif 1009 20 252 ALTIMG 1-s2.0-S0021951714000736-si5.gif https://s3.amazonaws.com/prod-ucs-content-store-us-east/content/pii:S0021951714000736/STRIPIN/image/gif/ab231e7f80aa3a0706a445bafc9091b6/si5.gif https://s3-eu-west-1.amazonaws.com/prod-ucs-content-store-eu-west/content/pii:S0021951714000736/STRIPIN/image/gif/ab231e7f80aa3a0706a445bafc9091b6/si5.gif si5 si5.gif gif 687 20 170 ALTIMG 1-s2.0-S0021951714000736-si4.gif https://s3.amazonaws.com/prod-ucs-content-store-us-east/content/pii:S0021951714000736/STRIPIN/image/gif/f6523b3af9bbe91152d7a4107a9b0ad2/si4.gif https://s3-eu-west-1.amazonaws.com/prod-ucs-content-store-eu-west/content/pii:S0021951714000736/STRIPIN/image/gif/f6523b3af9bbe91152d7a4107a9b0ad2/si4.gif si4 si4.gif gif 913 20 230 ALTIMG 1-s2.0-S0021951714000736-si1.gif https://s3.amazonaws.com/prod-ucs-content-store-us-east/content/pii:S0021951714000736/STRIPIN/image/gif/4e3c1f8341c4ef7b58a58c21d6c68491/si1.gif https://s3-eu-west-1.amazonaws.com/prod-ucs-content-store-eu-west/content/pii:S0021951714000736/STRIPIN/image/gif/4e3c1f8341c4ef7b58a58c21d6c68491/si1.gif si1 si1.gif gif 1093 18 250 ALTIMG 1-s2.0-S0021951714000736-si30.gif https://s3.amazonaws.com/prod-ucs-content-store-us-east/content/pii:S0021951714000736/STRIPIN/image/gif/5d3edb71478947eb03630a428d45a8ff/si2.gif https://s3-eu-west-1.amazonaws.com/prod-ucs-content-store-eu-west/content/pii:S0021951714000736/STRIPIN/image/gif/5d3edb71478947eb03630a428d45a8ff/si2.gif si30 si30.gif gif 347 21 34 ALTIMG 1-s2.0-S0021951714000736-si3.gif https://s3.amazonaws.com/prod-ucs-content-store-us-east/content/pii:S0021951714000736/STRIPIN/image/gif/5d3edb71478947eb03630a428d45a8ff/si2.gif https://s3-eu-west-1.amazonaws.com/prod-ucs-content-store-eu-west/content/pii:S0021951714000736/STRIPIN/image/gif/5d3edb71478947eb03630a428d45a8ff/si2.gif si3 si3.gif gif 347 21 34 ALTIMG 1-s2.0-S0021951714000736-si29.gif https://s3.amazonaws.com/prod-ucs-content-store-us-east/content/pii:S0021951714000736/STRIPIN/image/gif/0dc08085c3e748da06f7630f1c054944/si29.gif https://s3-eu-west-1.amazonaws.com/prod-ucs-content-store-eu-west/content/pii:S0021951714000736/STRIPIN/image/gif/0dc08085c3e748da06f7630f1c054944/si29.gif si29 si29.gif gif 391 21 43 ALTIMG 1-s2.0-S0021951714000736-si28.gif https://s3.amazonaws.com/prod-ucs-content-store-us-east/content/pii:S0021951714000736/STRIPIN/image/gif/38ca1f61e16ef173d7c063df0478b91b/si28.gif https://s3-eu-west-1.amazonaws.com/prod-ucs-content-store-eu-west/content/pii:S0021951714000736/STRIPIN/image/gif/38ca1f61e16ef173d7c063df0478b91b/si28.gif si28 si28.gif gif 666 19 111 ALTIMG 1-s2.0-S0021951714000736-si27.gif https://s3.amazonaws.com/prod-ucs-content-store-us-east/content/pii:S0021951714000736/STRIPIN/image/gif/94c47fd320ad0d1b25592174bdc352b2/si27.gif https://s3-eu-west-1.amazonaws.com/prod-ucs-content-store-eu-west/content/pii:S0021951714000736/STRIPIN/image/gif/94c47fd320ad0d1b25592174bdc352b2/si27.gif si27 si27.gif gif 578 20 103 ALTIMG 1-s2.0-S0021951714000736-si26.gif https://s3.amazonaws.com/prod-ucs-content-store-us-east/content/pii:S0021951714000736/STRIPIN/image/gif/ac5fdcbba8205504140a27482c1e618a/si26.gif https://s3-eu-west-1.amazonaws.com/prod-ucs-content-store-eu-west/content/pii:S0021951714000736/STRIPIN/image/gif/ac5fdcbba8205504140a27482c1e618a/si26.gif si26 si26.gif gif 1044 19 225 ALTIMG 1-s2.0-S0021951714000736-si25.gif https://s3.amazonaws.com/prod-ucs-content-store-us-east/content/pii:S0021951714000736/STRIPIN/image/gif/721dcd358f857657996de2452ea3fec1/si25.gif https://s3-eu-west-1.amazonaws.com/prod-ucs-content-store-eu-west/content/pii:S0021951714000736/STRIPIN/image/gif/721dcd358f857657996de2452ea3fec1/si25.gif si25 si25.gif gif 1048 19 226 ALTIMG 1-s2.0-S0021951714000736-si2.gif https://s3.amazonaws.com/prod-ucs-content-store-us-east/content/pii:S0021951714000736/STRIPIN/image/gif/5d3edb71478947eb03630a428d45a8ff/si2.gif https://s3-eu-west-1.amazonaws.com/prod-ucs-content-store-eu-west/content/pii:S0021951714000736/STRIPIN/image/gif/5d3edb71478947eb03630a428d45a8ff/si2.gif si2 si2.gif gif 347 21 34 ALTIMG 1-s2.0-S0021951714000736-si19.gif https://s3.amazonaws.com/prod-ucs-content-store-us-east/content/pii:S0021951714000736/STRIPIN/image/gif/aa6b7e830694e4b20e31dd883becdd7d/si19.gif https://s3-eu-west-1.amazonaws.com/prod-ucs-content-store-eu-west/content/pii:S0021951714000736/STRIPIN/image/gif/aa6b7e830694e4b20e31dd883becdd7d/si19.gif si19 si19.gif gif 406 20 41 ALTIMG 1-s2.0-S0021951714000736-si18.gif https://s3.amazonaws.com/prod-ucs-content-store-us-east/content/pii:S0021951714000736/STRIPIN/image/gif/6a7c81a2bdeb4b1b8b1af1a83648716b/si18.gif https://s3-eu-west-1.amazonaws.com/prod-ucs-content-store-eu-west/content/pii:S0021951714000736/STRIPIN/image/gif/6a7c81a2bdeb4b1b8b1af1a83648716b/si18.gif si18 si18.gif gif 259 16 24 ALTIMG 1-s2.0-S0021951714000736-si17.gif https://s3.amazonaws.com/prod-ucs-content-store-us-east/content/pii:S0021951714000736/STRIPIN/image/gif/10ed95c3bf6876e8a2a2e581e9075160/si17.gif https://s3-eu-west-1.amazonaws.com/prod-ucs-content-store-eu-west/content/pii:S0021951714000736/STRIPIN/image/gif/10ed95c3bf6876e8a2a2e581e9075160/si17.gif si17 si17.gif gif 296 17 31 ALTIMG 1-s2.0-S0021951714000736-mmc1.docx https://s3.amazonaws.com/prod-ucs-content-store-us-east/content/pii:S0021951714000736/mmc1/MAIN/application/msword/39f314ffce273af074c7cd44acade154/mmc1.docx https://s3-eu-west-1.amazonaws.com/prod-ucs-content-store-eu-west/content/pii:S0021951714000736/mmc1/MAIN/application/msword/39f314ffce273af074c7cd44acade154/mmc1.docx mmc1 mmc1.docx docx 24845 APPLICATION 1-s2.0-S0021951714000736-gr1_lrg.jpg https://s3.amazonaws.com/prod-ucs-content-store-us-east/content/pii:S0021951714000736/gr1/HIGHRES/image/jpeg/feabcaf6fe1c1184551a54745f589f9a/gr1_lrg.jpg https://s3-eu-west-1.amazonaws.com/prod-ucs-content-store-eu-west/content/pii:S0021951714000736/gr1/HIGHRES/image/jpeg/feabcaf6fe1c1184551a54745f589f9a/gr1_lrg.jpg gr1 gr1_lrg.jpg jpg 134803 698 836 IMAGE-HIGH-RES 1-s2.0-S0021951714000736-fx1_lrg.jpg https://s3.amazonaws.com/prod-ucs-content-store-us-east/content/pii:S0021951714000736/fx1/HIGHRES/image/jpeg/0b8d415af26b54442bb93d4e15af814f/fx1_lrg.jpg https://s3-eu-west-1.amazonaws.com/prod-ucs-content-store-eu-west/content/pii:S0021951714000736/fx1/HIGHRES/image/jpeg/0b8d415af26b54442bb93d4e15af814f/fx1_lrg.jpg fx1 true fx1_lrg.jpg jpg 233350 708 2213 IMAGE-HIGH-RES 1-s2.0-S0021951714000736-gr7_lrg.jpg https://s3.amazonaws.com/prod-ucs-content-store-us-east/content/pii:S0021951714000736/gr7/HIGHRES/image/jpeg/b5ca33b7f77edccb919c42ccbfe84c04/gr7_lrg.jpg https://s3-eu-west-1.amazonaws.com/prod-ucs-content-store-eu-west/content/pii:S0021951714000736/gr7/HIGHRES/image/jpeg/b5ca33b7f77edccb919c42ccbfe84c04/gr7_lrg.jpg gr7 gr7_lrg.jpg jpg 187747 829 2352 IMAGE-HIGH-RES 1-s2.0-S0021951714000736-gr6_lrg.jpg https://s3.amazonaws.com/prod-ucs-content-store-us-east/content/pii:S0021951714000736/gr6/HIGHRES/image/jpeg/b094f41ffc68a55592fb6dba7f7d28c5/gr6_lrg.jpg https://s3-eu-west-1.amazonaws.com/prod-ucs-content-store-eu-west/content/pii:S0021951714000736/gr6/HIGHRES/image/jpeg/b094f41ffc68a55592fb6dba7f7d28c5/gr6_lrg.jpg gr6 gr6_lrg.jpg jpg 388170 1233 1743 IMAGE-HIGH-RES 1-s2.0-S0021951714000736-gr5_lrg.jpg https://s3.amazonaws.com/prod-ucs-content-store-us-east/content/pii:S0021951714000736/gr5/HIGHRES/image/jpeg/72cd0936eae8ecd559a5f46dce9ae317/gr5_lrg.jpg https://s3-eu-west-1.amazonaws.com/prod-ucs-content-store-eu-west/content/pii:S0021951714000736/gr5/HIGHRES/image/jpeg/72cd0936eae8ecd559a5f46dce9ae317/gr5_lrg.jpg gr5 gr5_lrg.jpg jpg 237415 764 2408 IMAGE-HIGH-RES 1-s2.0-S0021951714000736-gr4_lrg.jpg https://s3.amazonaws.com/prod-ucs-content-store-us-east/content/pii:S0021951714000736/gr4/HIGHRES/image/jpeg/13b4d9eb5f63a2895ea0788f831c1406/gr4_lrg.jpg https://s3-eu-west-1.amazonaws.com/prod-ucs-content-store-eu-west/content/pii:S0021951714000736/gr4/HIGHRES/image/jpeg/13b4d9eb5f63a2895ea0788f831c1406/gr4_lrg.jpg gr4 gr4_lrg.jpg jpg 241249 867 2352 IMAGE-HIGH-RES 1-s2.0-S0021951714000736-gr3_lrg.jpg https://s3.amazonaws.com/prod-ucs-content-store-us-east/content/pii:S0021951714000736/gr3/HIGHRES/image/jpeg/a62d4b4548ed861d000cc20ce17326b8/gr3_lrg.jpg https://s3-eu-west-1.amazonaws.com/prod-ucs-content-store-eu-west/content/pii:S0021951714000736/gr3/HIGHRES/image/jpeg/a62d4b4548ed861d000cc20ce17326b8/gr3_lrg.jpg gr3 gr3_lrg.jpg jpg 287593 885 2394 IMAGE-HIGH-RES 1-s2.0-S0021951714000736-gr2_lrg.jpg https://s3.amazonaws.com/prod-ucs-content-store-us-east/content/pii:S0021951714000736/gr2/HIGHRES/image/jpeg/de97aa8e2815fc153dda489a9e76403a/gr2_lrg.jpg https://s3-eu-west-1.amazonaws.com/prod-ucs-content-store-eu-west/content/pii:S0021951714000736/gr2/HIGHRES/image/jpeg/de97aa8e2815fc153dda489a9e76403a/gr2_lrg.jpg gr2 gr2_lrg.jpg jpg 192600 968 1320 IMAGE-HIGH-RES 1-s2.0-S0021951714000736-gr1.jpg https://s3.amazonaws.com/prod-ucs-content-store-us-east/content/pii:S0021951714000736/gr1/DOWNSAMPLED/image/jpeg/b2c0cc71ee51dca9bc7e127a757c0087/gr1.jpg https://s3-eu-west-1.amazonaws.com/prod-ucs-content-store-eu-west/content/pii:S0021951714000736/gr1/DOWNSAMPLED/image/jpeg/b2c0cc71ee51dca9bc7e127a757c0087/gr1.jpg gr1 gr1.jpg jpg 43548 250 299 IMAGE-DOWNSAMPLED 1-s2.0-S0021951714000736-fx1.jpg https://s3.amazonaws.com/prod-ucs-content-store-us-east/content/pii:S0021951714000736/fx1/DOWNSAMPLED/image/jpeg/129e9fce9e3ec8f6e2fb87c9b781a1a6/fx1.jpg https://s3-eu-west-1.amazonaws.com/prod-ucs-content-store-eu-west/content/pii:S0021951714000736/fx1/DOWNSAMPLED/image/jpeg/129e9fce9e3ec8f6e2fb87c9b781a1a6/fx1.jpg fx1 true fx1.jpg jpg 35216 160 500 IMAGE-DOWNSAMPLED 1-s2.0-S0021951714000736-gr7.jpg https://s3.amazonaws.com/prod-ucs-content-store-us-east/content/pii:S0021951714000736/gr7/DOWNSAMPLED/image/jpeg/c0c72d58e3dbd396ad7b7c99e0677a68/gr7.jpg https://s3-eu-west-1.amazonaws.com/prod-ucs-content-store-eu-west/content/pii:S0021951714000736/gr7/DOWNSAMPLED/image/jpeg/c0c72d58e3dbd396ad7b7c99e0677a68/gr7.jpg gr7 gr7.jpg jpg 26523 187 531 IMAGE-DOWNSAMPLED 1-s2.0-S0021951714000736-gr6.jpg https://s3.amazonaws.com/prod-ucs-content-store-us-east/content/pii:S0021951714000736/gr6/DOWNSAMPLED/image/jpeg/90177cfda6e9d2afb533b2d9d39bed89/gr6.jpg https://s3-eu-west-1.amazonaws.com/prod-ucs-content-store-eu-west/content/pii:S0021951714000736/gr6/DOWNSAMPLED/image/jpeg/90177cfda6e9d2afb533b2d9d39bed89/gr6.jpg gr6 gr6.jpg jpg 121178 464 656 IMAGE-DOWNSAMPLED 1-s2.0-S0021951714000736-gr5.jpg https://s3.amazonaws.com/prod-ucs-content-store-us-east/content/pii:S0021951714000736/gr5/DOWNSAMPLED/image/jpeg/f6ee9ce3c124be0b30ff04bb6eede4e3/gr5.jpg https://s3-eu-west-1.amazonaws.com/prod-ucs-content-store-eu-west/content/pii:S0021951714000736/gr5/DOWNSAMPLED/image/jpeg/f6ee9ce3c124be0b30ff04bb6eede4e3/gr5.jpg gr5 gr5.jpg jpg 30661 173 544 IMAGE-DOWNSAMPLED 1-s2.0-S0021951714000736-gr4.jpg https://s3.amazonaws.com/prod-ucs-content-store-us-east/content/pii:S0021951714000736/gr4/DOWNSAMPLED/image/jpeg/dcd068b815b20bddddaeb69dd679d2b0/gr4.jpg https://s3-eu-west-1.amazonaws.com/prod-ucs-content-store-eu-west/content/pii:S0021951714000736/gr4/DOWNSAMPLED/image/jpeg/dcd068b815b20bddddaeb69dd679d2b0/gr4.jpg gr4 gr4.jpg jpg 31174 196 531 IMAGE-DOWNSAMPLED 1-s2.0-S0021951714000736-gr3.jpg https://s3.amazonaws.com/prod-ucs-content-store-us-east/content/pii:S0021951714000736/gr3/DOWNSAMPLED/image/jpeg/d650c1e35d4b93b74fe964c4cbdc4639/gr3.jpg https://s3-eu-west-1.amazonaws.com/prod-ucs-content-store-eu-west/content/pii:S0021951714000736/gr3/DOWNSAMPLED/image/jpeg/d650c1e35d4b93b74fe964c4cbdc4639/gr3.jpg gr3 gr3.jpg jpg 36760 200 541 IMAGE-DOWNSAMPLED 1-s2.0-S0021951714000736-gr2.jpg https://s3.amazonaws.com/prod-ucs-content-store-us-east/content/pii:S0021951714000736/gr2/DOWNSAMPLED/image/jpeg/72ae496da1cdf43ff91d212b7533eea6/gr2.jpg https://s3-eu-west-1.amazonaws.com/prod-ucs-content-store-eu-west/content/pii:S0021951714000736/gr2/DOWNSAMPLED/image/jpeg/72ae496da1cdf43ff91d212b7533eea6/gr2.jpg gr2 gr2.jpg jpg 25066 219 298 IMAGE-DOWNSAMPLED 1-s2.0-S0021951714000736-gr1.sml https://s3.amazonaws.com/prod-ucs-content-store-us-east/content/pii:S0021951714000736/gr1/THUMBNAIL/image/gif/09c2fecdf5c5c16f1fec2ee7e9af6834/gr1.sml https://s3-eu-west-1.amazonaws.com/prod-ucs-content-store-eu-west/content/pii:S0021951714000736/gr1/THUMBNAIL/image/gif/09c2fecdf5c5c16f1fec2ee7e9af6834/gr1.sml gr1 gr1.sml sml 8959 164 196 IMAGE-THUMBNAIL 1-s2.0-S0021951714000736-fx1.sml https://s3.amazonaws.com/prod-ucs-content-store-us-east/content/pii:S0021951714000736/fx1/THUMBNAIL/image/gif/12717715a6c60be00ea80976b8ccfc06/fx1.sml https://s3-eu-west-1.amazonaws.com/prod-ucs-content-store-eu-west/content/pii:S0021951714000736/fx1/THUMBNAIL/image/gif/12717715a6c60be00ea80976b8ccfc06/fx1.sml fx1 true fx1.sml sml 4480 70 219 IMAGE-THUMBNAIL 1-s2.0-S0021951714000736-gr7.sml https://s3.amazonaws.com/prod-ucs-content-store-us-east/content/pii:S0021951714000736/gr7/THUMBNAIL/image/gif/b5f04d853b1cc1a45098a87424fc3e20/gr7.sml https://s3-eu-west-1.amazonaws.com/prod-ucs-content-store-eu-west/content/pii:S0021951714000736/gr7/THUMBNAIL/image/gif/b5f04d853b1cc1a45098a87424fc3e20/gr7.sml gr7 gr7.sml sml 3817 77 219 IMAGE-THUMBNAIL 1-s2.0-S0021951714000736-gr6.sml https://s3.amazonaws.com/prod-ucs-content-store-us-east/content/pii:S0021951714000736/gr6/THUMBNAIL/image/gif/ab254dae78a4d1baf612705b2df2ce5b/gr6.sml https://s3-eu-west-1.amazonaws.com/prod-ucs-content-store-eu-west/content/pii:S0021951714000736/gr6/THUMBNAIL/image/gif/ab254dae78a4d1baf612705b2df2ce5b/gr6.sml gr6 gr6.sml sml 11508 155 219 IMAGE-THUMBNAIL 1-s2.0-S0021951714000736-gr5.sml https://s3.amazonaws.com/prod-ucs-content-store-us-east/content/pii:S0021951714000736/gr5/THUMBNAIL/image/gif/37b510cf4f2cf62e8f30ca590196c6d5/gr5.sml https://s3-eu-west-1.amazonaws.com/prod-ucs-content-store-eu-west/content/pii:S0021951714000736/gr5/THUMBNAIL/image/gif/37b510cf4f2cf62e8f30ca590196c6d5/gr5.sml gr5 gr5.sml sml 4271 69 219 IMAGE-THUMBNAIL 1-s2.0-S0021951714000736-gr4.sml https://s3.amazonaws.com/prod-ucs-content-store-us-east/content/pii:S0021951714000736/gr4/THUMBNAIL/image/gif/39a57ba2e0f460bf6311874c98a26936/gr4.sml https://s3-eu-west-1.amazonaws.com/prod-ucs-content-store-eu-west/content/pii:S0021951714000736/gr4/THUMBNAIL/image/gif/39a57ba2e0f460bf6311874c98a26936/gr4.sml gr4 gr4.sml sml 4343 81 219 IMAGE-THUMBNAIL 1-s2.0-S0021951714000736-gr3.sml https://s3.amazonaws.com/prod-ucs-content-store-us-east/content/pii:S0021951714000736/gr3/THUMBNAIL/image/gif/c81882d30cb9e2a6dedfc843033e1aba/gr3.sml https://s3-eu-west-1.amazonaws.com/prod-ucs-content-store-eu-west/content/pii:S0021951714000736/gr3/THUMBNAIL/image/gif/c81882d30cb9e2a6dedfc843033e1aba/gr3.sml gr3 gr3.sml sml 4929 81 219 IMAGE-THUMBNAIL 1-s2.0-S0021951714000736-gr2.sml https://s3.amazonaws.com/prod-ucs-content-store-us-east/content/pii:S0021951714000736/gr2/THUMBNAIL/image/gif/54a3bf1dffb4b0550b30f112cca933f5/gr2.sml https://s3-eu-west-1.amazonaws.com/prod-ucs-content-store-eu-west/content/pii:S0021951714000736/gr2/THUMBNAIL/image/gif/54a3bf1dffb4b0550b30f112cca933f5/gr2.sml gr2 gr2.sml sml 7301 161 219 IMAGE-THUMBNAIL YJCAT 11438 S0021-9517(14)00073-6 10.1016/j.jcat.2014.03.011 Elsevier Inc. Fig. 1 (a) Armchair and (b) Zigzag N-doped graphene structures used in the calculations. The numbers denote substitutional sites and reaction sites. Symbols a, b, c, d, e, and f denote reaction sites apart from 1, 2, 3, 4, 5, and 6. Fig. 2 Formation energy Ef and minimum C–N bond length d min C – N as a function of the distance de from the nitrogen dopants to the edge of the graphene nanoribbons. Fig. 3 (a) Adsorption energies of OOH* versus adsorption energies of OH* and (b) adsorption energies of OH* versus adsorption energies of O* on different sites of armchair and zigzag graphene nanoribbons. Fig. 4 Volcano plots for (a) OER and (b) ORR on different sites of armchair and zigzag graphene nanoribbons. Fig. 5 Free energy diagram for (a) the OER on site 3 for A2 structure (A2–3), and (b) the ORR on site 1 for Z2 structure (Z2–1) at different electrode potential U. Fig. 6 Bader effective charges of (a) A2 and (b) Z2 structures. Fig. 7 (a) OER and (b) ORR overpotential verse the distance from edge to N atom. N-doped graphene as catalysts for oxygen reduction and oxygen evolution reactions: Theoretical considerations Mingtao Li a b Lipeng Zhang a Quan Xu a Jianbing Niu a Zhenhai Xia a c ⁎ a Department of Materials Science and Engineering, University of North Texas, Denton, TX 76203, USA Department of Materials Science and Engineering University of North Texas Denton TX 76203 USA b International Research Center for Renewable Energy, State Key Laboratory of Multiphase Flow in Power Engineering, Xi’an Jiaotong University, Xi’an, Shaanxi 710049, PR China International Research Center for Renewable Energy State Key Laboratory of Multiphase Flow in Power Engineering Xi’an Jiaotong University Xi’an Shaanxi 710049 PR China c Department of Chemistry, University of North Texas, Denton, TX 76203, USA Department of Chemistry University of North Texas Denton TX 76203 USA ⁎ Corresponding author at: Department of Materials Science and Engineering, University of North Texas, Denton, TX 76203, USA. Email: zhenhai.xia@unt.edu Graphical abstract Electrocatalysts are essential to two key electrochemical reactions, oxygen evolution reaction (OER) and oxygen reduction reaction (ORR) in renewable energy conversion and storage technologies such as regenerative fuel cells and rechargeable metal–air batteries. Here, we explored N-doped graphene as cost-effective electrocatalysts for these key reactions by employing density functional theory (DFT). The results show that the substitution of carbon at graphene edge by nitrogen results in the best performance in terms of overpotentials. For armchair nanoribbons, the lowest OER and ORR overpotentials were estimated to be 0.405V and 0.445V, respectively, which are comparable to those for Pt-containing catalysts. OER and ORR with the minimum overpotentials can occur near the edge on the same structure but different sites. These calculations suggest that engineering the edge structures of the graphene can increase the efficiency of the N-doped graphene as efficient OER/ORR electrocatalysts for metal–air batteries, water splitting, and regenerative fuel cells. Keywords N-doped graphene Oxygen evolution reaction Oxygen reduction reaction Catalysts Fuel cells First principles calculation 1 Introduction The oxygen reduction reaction (ORR) and oxygen evolution reaction (OER) play pivotal roles in various renewable energy conversion and storage technologies, such as fuel cells [1], direct solar driven water splitting [2] hydrogen production from water electrolysis [3], rechargeable metal–air batteries [4], and regenerative fuel cells [5]. The current bottleneck of fuel cells lies in the sluggish ORR on the cathode side, while OER, a reverse reaction of ORR, plays an important role in efficiency of energy storage such as direct solar driven water splitting systems, Li–air batteries and regenerative fuel cells. Extensive efforts have been devoted to the development and understanding of electrocatalysts for OER/ORR. To date, platinum and its alloy have been used as catalysts for ORR [6] while platinum and metal oxides/hydroxides of iridium, ruthenium, nickel and other metals for OER [7]. However, the OER/ORR is sluggish, even facilitated by these catalysts. Furthermore, the limited resources and high cost of the platinum catalysts has been shown to be the major “showstopper” to mass market fuel cells for commercial applications. Even though the amount of platinum needed for desired catalytic effect could be reduced, the commercial mass production will still require large amount of platinum. Therefore, it is highly desirable to develop low-cost OER and ORR catalysts. In particular, bifunctional OER/ORR catalysts are needed for rechargeable metal–air batteries and regenerative fuel cells. Graphene, a two-dimensional one-atom-thick single layer of graphite, has attracted intense scientific and technological interest since its freestanding form was isolated in 2004 [8]. With its unique properties such as huge surface area [9], high mobility of charge carriers [10], excellent mechanical properties [11], and superior thermal conductivity [12], graphene could be an excellent materials candidate for energy conversion and storage such as batteries [13], supercapacitors [14], and fuel cells [15,16]. Nitrogen-doped graphene has been demonstrated as an excellent catalyst for electrochemical reactions, such as oxygen reduction [17,18] and hydroperoxide oxidation [19,20] due to their unique electronic properties derived from the conjugation between the nitrogen lone-pair electrons and the graphene π system. N-doped graphene as bifunctional catalysts for OER and ORR has also been demonstrated recently [21,22]. These carbon-based electrocatalysts have the potential to replace noble metals for energy applications, particularly for Li–air batteries and regenerative fuel cells [15]. Understanding of the OER/ORR mechanisms of N-doped graphene could provide design guidelines for materials and process development, and discovery of new catalysts. Many researchers have been devoted to theoretical studies to understand the high ORR activity in N-doped carbon-based materials. Based on DFT investigations, Okamoto suggested that the complete four-electron ORR activation can be achieved with an adequate binding energy of the oxygen atoms on multiple N-doped graphitic sites [23]. Zhang et al. found that the ORR over N-doped graphene is a four-electron pathway but pure graphene does not have such catalytic activities. They also concluded that the catalytic active sites on the N-doped graphene depend on spin density distribution and atomic charge distribution on the neighboring carbon atoms to the doping sites [17,24]. Kim et al. proposed that the ORR activation initiates at the outermost graphitic nitrogen site with the first reduction step, the latter graphitic nitrogen becomes pyridinic-like in the next reduction steps via the ring-opening of a cyclic C–N bond [25]. However, to our knowledge, little work is done on single OER or bifunctional OER/ORR over N-doped graphene. In this work, we studied OER/ORR mechanism of N-doped armchair and zigzag graphene nanoribbons by using density functional theory (DFT) calculations, in an effort to understand how ORR/OER occur over N-doped graphene, and provide design principles how the doping structure can be translated into enhanced performance of electrocatalysts for renewable energy conversion and storage. 2 Computational models and methods First-principle calculations were performed within the framework of density functional theory (DFT) as implemented in the plane wave set Vienna ab initio Simulation Package (VASP) code [26,27]. Nuclei–electron interactions were described by the projector augmented wave (PAW) pseudo-potentials [28,29], while the electronic exchange and correlation effects were described within the generalized gradient approximation (GGA) as parameterized by Perdew, Burke, and Ernzerhof [30]. The C-2s22p2, O-2s22p4, H-1s1 were treated as valence electrons. All nanoribbons were modeled as three-dimensional periodic structures, where a rectangle periodic box was represented with a dashed line in Fig. 1 and vacuum layers were set around 14 and 18Å in the y- and z-directions, respectively to avoid interaction between slabs. The k-point sampling of the Brillioun zone was obtained using a 4×1×1 grid centered at the gamma (Γ) point using Monkhorst Pack Scheme. The plane wave basis set with a high cut off energy of 450eV was used throughout the computations. The k point meshes and energy cut off were chosen to ensure that the energies were converged within 1meV/per atom. The Fermi level was slightly broadened using a Fermi–Dirac smearing of 50meV. All calculations were spin polarized and were done until the force of the system converged to about 0.02eV/Å. The lattice a was optimized previously by fitting the energy-volume relationship with Murnaghan Equation of State for further absorption and reaction free energy calculations. All structures were fully relaxed. Bader charge analysis was performed to calculate the effective charge for these N-doped graphene nanoribbons [31]. The formation energy for a nitrogen dopant, Ef , was calculated by (1) E f = E NGNR + m μ C - ( E GNR + m μ N ) where ENGNR is the total energy of the supercell with N-doped graphene nanoribbon, and EGNR is the total energy of the pristine graphene nanoribbon. μC is the chemical potential of carbon defined as the total energy of graphene per carbon atom. μN is the chemical potential of N taken as one-half the total energy of N2 molecule. And m is the number of nitrogen atoms in the model. 3 Results and discussion We developed a series of models for graphene nanoribbons with a single nitrogen dopant at different sites, as shown in Fig. 1. For each N-doped structure, we consider all the sites at which ORR/OER could occur. These models are labeled as Ax–y, or Zx–y, where A and Z refer to armchair and zigzag graphene, respectively, and symbols x and y denote substitutional sites of nitrogen atoms and reaction sites of ORR/OER, respectively. Also, we use x =□ to denote pristine graphene nanoribbons. For example, Model A1–2 (Fig. 1a) represents an armchair graphene nanoribbon with a nitrogen dopant on site 1, and reactions occur on site 2. The location of nitrogen dopants is important to OER/ORR activities. In order to identify efficiently catalytic sites of N-doped graphene for OER/ORR, we began with calculations of formation energies Ef of nitrogen dopants. The calculated formation energy and minimum C–N bond length are plotted as a function of the distance (de ) from the dopants to the edge, as shown in Fig. 2 . It can be seen that the formation energy is relatively low when the dopant locates at the edge, but it increases and becomes constant with increasing the distance de . Thus, nitrogen atoms prefer to substitute the carbon atoms near the edge. Among all the models, Model Z1 is the most stable one from the formation energy viewpoint, which is consistent with the results reported in Ref. [32]. The minimum C–N bond length d min C – N also varies with regard to the distance de . Besides, the N doping changes the C–C bond length due to larger electronegativity of nitrogen atoms. From the general trends of the formation energy and bond length, shown in Fig. 2, the changes in the formation energy Ef and minimum C–N bond length d min C – N are correlated with each other, and an edge effect exists within the range of 2.5Å from the edge. Such edge effect may have pronounced influence on catalytic activities of the N-doped graphene. The ORR and OER activities on active sites of N-doped graphene were studied in detail. In acidic environment, OER could occur over N-doped graphene in the following four electron reaction paths, (2) H 2 O ( l ) + ∗ → OH ∗ + ( H + + e - ) (3) OH ∗ → O ∗ + ( H + + e - ) (4) O ∗ + H 2 O ( l ) → OOH ∗ + ( H + + e - ) (5) OOH ∗ → ∗ + O 2 ( g ) + ( H + + e - ) where * stands for an active site on the graphene surface, (l) and (g) refer to gas and liquid phases, respectively, and O*, OH* and OOH* are adsorbed intermediates. The ORR can proceed incompletely through a two-step two-electron pathway that reduces O2 to hydrogen peroxide, H2O2, or completely via a direct four-electron process in which O2 is reduced directly to water, H2O, without involvement of hydrogen peroxide. Here, we study the complete reduction cycle because the previous results showed that the ORR proceeds on N-doped graphene through the four-electron mechanism [17]. The ORR mechanism is summarized using the following elementary steps [17], (6) O 2 ∗ + ( H + + e - ) → OOH ∗ (7a) OOH ∗ + ( H + + e - ) → O ∗ + H 2 O ( l ) (7b) OOH ∗ + ( H + + e - ) → OH ∗ + OH ∗ (8a) O ∗ + ( H + + e - ) → OH ∗ (8b) OH ∗ + OH ∗ + ( H + + e - ) → OH ∗ + H 2 O ( l ) (9) OH ∗ + ( H + + e - ) → ∗ + H 2 O ( l ) There are two branching paths for the 2nd and 3rd steps, where OOH* is reduced to O* and H2O in path (a) defined in Eq. (7a), or to 2OH* in path (b) defined in Eq. (7b). Both paths lead to the same final products in the third step as shown in Eqs. (8a) and (8b). These reactions (6), (7a), (8a), and (9) for ORR are inversed from the reactions (2)–(5) for OER. In OER, the potential-determining steps can either be the formation of O* from OH* (Eq. (3)) or the transformation of O* to OOH* (Eq. (4)) [33]. However, in ORR, it was reported that the rate determining steps can either be the adsorption of O2 as OOH* (Eq. (6)) or the desorption of OH* as water (Eq. (9)) [33]. Here, we took reactions (2)–(5) to derive the thermochemistry of both OER and ORR, because the reactions (6), (7a), (8a), and (9) are inversed from reactions (2)–(5). The overpotentials of the ORR/OER processes can be determined by examining the reaction free-energies of the different elementary steps. The thermochemistry of these electrochemical reactions was obtained by using DFT calculations in conjunction with SHE model developed by Nørskov and co-workers [34,35]. This thermodynamic approach establishes a minimum set of requirements for the reactions based on the binding of the intermediates and the assumption that there are no extra barriers from adsorption/dissociation of O2 or proton/electron transfer reactions. In our calculations, the OER and ORR were analyzed using intermediate species associated with one electron transfer at a time, which is energetically more favorable than the simultaneous transfer of more than one electron. In order to obtain the rate limiting step of OER and ORR on different sites for different model structures, we calculated the adsorption free energy of O∗, OH∗ and OOH∗. The absorption energies were calculated as follows [35], (10) Δ E OH ∗ = E ( OH ∗ ) - E ( ∗ ) - E H 2 O - 1 / 2 E H 2 (11) Δ E OOH ∗ = E ( OOH ∗ ) - E ( ∗ ) - 2 E H 2 O - 3 / 2 E H 2 (12) Δ E O ∗ = E ( O ∗ ) - E ( ∗ ) - E H 2 O - E H 2 in which, E(*), E(OH*), E(O*), and E(OOH*) are the ground state energies of a clean surface and surfaces adsorbed with OH*, O*, and OOH*, respectively. E H 2 O and E H 2 are the calculated DFT energies of H2O and H2 molecules in the gas phase using the approaches outlined by Nørskov et al. [35]. Also, we considered the ZPE and entropy corrections here. These calculations transform DFT binding energies, Δ E ads DFT , into free energies of adsorption, ΔG ads, by the following equation [35], (13) Δ G ads = Δ E ads DFT + Δ ZPE - T Δ S where T is the temperature and ΔS is the entropy change. For the zero-point energy (ZPE), the vibrational frequencies of adsorbed species (O*, OH*, and OOH*) were calculated with the N-doped graphene nanoribbons fixed to obtain ZPE contribution in the free energy expression. Moreover, only vibration entropy contributions were considered for adsorbates and total entropies for solvent molecules were taken from standard thermodynamic tables (see the Supporting information). In present study, we did not use any solvent corrections to the adsorbed species. Fig. 3 (a) shows the adsorption free energies of OOH* and OH* for various N-doped structures. The free energies of OOH* are linearly related to that of OH* by y = x +3.177 with a constant of approximate 3.177eV, independent of the binding strength to the surface. The slope of unity in the linear fit is motivated by the single bond between O and the carbon of N-doped graphene nanoribbons for both OH* and OOH*, which is very similar to that on the surface of ABO3 perovskite [29]. The constant energy difference between the binding energies of OH* and OOH* implies that there is a scaling relation between OH* and OOH*. Fig. 3(b) shows the adsorption free energies of OH* and O* for various N-doped structures. These is also a scaling relation with a slope of 0.5 between OH* and O* except some sites where oxygen atom is adsorbed in bridge-on mode, such as A2–1, Z1–2, Z2–1 and A□–1. Due to the scaling relation between OH* and OOH*, the total reaction enthalpy differences for reaction (3), (4), (7a), and (8a) should be a constant, which results in a lower limit over potential of OER and ORR as described below. For each step, the reaction free energy ΔG is defined as the difference between free energies of the initial and final states and is given by the expression [36], (14) Δ G = Δ E + Δ ZPE - T Δ S + Δ G U + Δ G pH where ΔE is the reaction energy of reactant and product molecules adsorbed on catalyst surface, obtained from DFT calculations, ΔGU =−eU, where U is the potential at the electrode, and e is the charge transferred. ΔG pH is the correction of the H+ free energy by the concentration dependence of the entropy: (15) Δ G pH = - k B T ln [ H + ] The free energy of reaction (2)–(5) can be calculated using Eq. (14). For the OER reactions, Nørskov et al. developed a method to determine the overpotentials [35], (16) G OER = max { Δ G 1 , Δ G 2 , Δ G 3 , Δ G 4 } (17) η OER = G OER / e- 1.23 V where ΔG 1, ΔG 2, ΔG 3, and ΔG 4 are the free energy of reaction (2)–(5), respectively. An ideal catalyst should be able to facilitate water oxidation just above the equilibrium potential, but requires all the four charge transfer steps to have reaction free energies of the same magnitude at zero potential (i.e., 4.92eV/4=1.23eV). This is equivalent to all the reaction free energies being zero at the equilibrium potential, 1.23V. Since there is a scaling relation between OH* and OOH*, this set a constraint on ΔG 2 and ΔG 3, i.e., ΔG 2 +ΔG 3 =ΔG OOH* −ΔG OH* =3.177eV, resulting a lower limit of OER overpotential. When ΔG 2 =ΔG 3 =(G OOH* − G OH*)/2=1.589eV, the OER overpotential has the minimum value, η limit OER = 1.589 – 1.23 = 0.359 V . For ORR, there is also a lower limit of the overpotential. The overall free energy of reaction (2)–(5) is 4.92eV, leading to ΔG 1 +ΔG 2 +ΔG 3 +ΔG 4 =4.92eV. Since ΔG 2 +ΔG 3 =constant, we derived that ΔG 1 +ΔG 4 =constant. When ΔG 1 =ΔG 4 =0.871eV, the ORR overpotential has its minimum value, η limit OER = 1.23 – 0.871 = 0.359 V . To derive the minimum overpotential in N-doped graphene systems, we calculated the overpotenials for different reaction sites on different structures employing a descriptor Δ G O ∗ 0 - Δ G HO ∗ 0 . Fig. 4 (a) shows the volcano plot, i.e., overpotential η OER versus the descriptor for various reaction sites on armchair and zigzag graphene structures. From this theoretical analysis, Model A2–3 is identified to have a minimum OER overpotential ( η min OER = 0.405 V ). For the ORR activity, previous results showed that the pathway (6), (7a), (8a), and (9) had close reaction enthypl distribution for each steps [17], which would result in small overall ORR overpotentail. Using similar methods described above, we calculated the overpotenials of this ORR pathway η ORR for various reaction sites on armchair/zigzag graphene structures. A volcano plot was made using the descriptor Δ G OH ∗ 0 . As shown in Fig. 4(b), among the structures studied, Model A2–1 has the lowest ORR overpotential, which was estimated to be 0.445V. These values of the overpotential for ORR and OER are comparable to those of Pt containing catalysts (∼0.4V for OER on PtO2-rutile and ∼0.45V for ORR on Pt [34]), indicating that N-doped graphene as bifunctional catalysts may have as good performance as its counterparts. To determine at what condition the OER or ORR can spontaneously occur, we calculated the free energy under different electrode potentials U. Fig. 5 shows the diagrams of OER substeps on reaction site A2–3 and ORR substeps on reaction site A2–1. For sites on A2–3, the OER is uphill when the electrode potential is 0V. At U =1.23V, an ideal water splitting potential, the transformation of OOH* to O2 becomes downhill, but the reactions (2)–(4) are still uphill. Only when the potential increases to 1.635V (i.e., 0.405V in overpotentail), can all the elementary reaction steps become downhill. So, 1.635–1.23=0.405V is the overpotentail for this reaction site, and the transformation of O* to OOH* is the rate determination step. Since the OER overpotential is reduced by nitrogen doping, the above OER is facilitated overall by the N-doped graphene. For ORR on A2–1, when the electrode potential is 0V, the ORR substeps (6), (7a), (8a), and (9) are all downhill, corresponding to a short circuit condition of fuel cells. As the electrode potential increased to 1.23V, the reaction steps (7a), (8a), and (9) are all uphill, corresponding to an open circuit condition of fuel cells. Since the reaction (6), adsorption of O2 as OOH* becomes uphill while other subreactions still keep downhill at U =0.785V, the adsorption of O2 as OOH* must be the rate determination step in ORR. Thus, the minimum ORR overpotential is 1.23–0.785=0.445V. The most active sites identified above are attributed to the redistribution of surface charge induced by the incorporation of nitrogen atoms into carbon lattice. As shown in Fig. 6 , some carbon atoms become positively charged while others are negative after a nitrogen atom is doped on the graphene. Those carbon atoms with positive effective charge will facilitate the adsorption of some species with negative charges [17]. However, if the adsorption free energy of O* is too high due to high positive charge or edge effect, it in turn becomes a barrier for O* to transfer to OOH* in OER. For example, sites A1–a, A1–2, A2–1 and Z2–1 have relatively large positive charge (>0.21–0.38) or edge effect (de =0–1.2Å), leading to high adsorption energy, and consequently high overpotentials. For site 3 of structure A2 (Fig. 6(a)), with moderate charge (0.27) and edge effect (de =2.4Å), the adsorption free energies of O* and OOH* both have moderate values, which result in low OER overpotentail (Fig. 4). It was found that there is a belt region near the edge (de ∼2.4Å) but within the edge effect range identified in Fig. 2, where active sites are generated by nitrogen dopants, resulting in high OER activity because of the moderate edge and charge effect. Similar phenomena were observed in ORR, but the reaction active sites were quite different from those in OER. For most of armchair nanoribbons, the reaction (9) has moderate free energy, but the reaction (6) has the largest free energy, making this the rate determination step. An example is site A2–1, which has relatively high positive charge (0.209) and strong edge effect (de =0), resulting in the lowest OER overpotential, 0.445V. Since reaction (6) involves two substeps, the adsorption of O2 on graphene and reaction with a proton, the adsorption of O2 may also be the critical step. We calculated the adsorption O2 on different sites of model A2 and found that O2 can be adsorbed on the edge in side-on mode and nitrogen doping increases the adsorption energy, which means nitrogen doping can promote the adsorption process. An exception is site A1–a. Although the adsorption of O2 is relative easy on this site (in side-on mode), the overall potential is still larger than that of A2–1, due to a very small free energy of the reaction (9), making it the rate determination step. For zigzag graphene, although from the overpotential viewpoint, the site Z□-1 has a relatively low overpotential 0.468V, a small adsorption energy of O2 makes adsorption O2 inefficient. For site Z2–1 with large positive charge and de =0 (Fig. 6(b)), the adsorption of O2 and the subsequent transformation of OH* to H2O are easy on this site and the calculated overpotential is relative lower than those of other zigzag graphene nanoribbon cases. However, the reaction (7a), transformation OOH* to O*, involves a ring-opening of a C–N bond on this site, which is consistent with the results of Ref. [25]. Even in dissociative reaction pathway, the dissociation of O2 as 2O* involves a ring-opening of a C–N bond, which makes this site inefficient. In all cases, these most active sites for ORR are located at a distance of de =0. These results suggest that while ORR takes place at the edge of the graphene, OER usually occurs near the edge but within the range of edge effect. Fig. 7 shows the plot of ORR and OER overpotentials versus the distance of N atom from the edge. Generally speaking, the ORR and OER overpotentials for zigzag graphene are larger than those for armchair graphene nanoribbons, but in some cases, the potential for the zigzag can be as small as that for the armchair. In most cases, the low OER/ORR overpotentails can be achieved by doping nitrogen atom near the edge within the distance of edge effect. For ORR, near-edge doping of N makes the adsorption O2 as OOH* easier, except some structures such as A1–2, which has a high OER overpotential up to 1.96V. It should be noted that the large OER overpotential for the armchair graphene nanoribbons with nitrogen atom near edge originates from different oxygen adsorption configuration. For example, the O atom adsorbed near A2–1 in bridge mode rather than end-on mode is unfavorable to the efficient transformation of O* to OOH*. Overall, edge doping plays an important role in reducing the overpotentail and enhancing OER/ORR catalytic capability of graphene. Also, under sufficiently high potentials, the nitrogen present in the graphene nanoribbons could be removed as NH3. From the formation energy viewpoint, the structure with the substituting nitrogen atom near the edge is more stable. Since the graphene edge structures could be controlled by various methods [37–41], engineering the edge structure of the graphene could significantly increase the efficiency of the N-doped graphene as OER/ORR electrocatalysts for energy conversion and storage. 4 Conclusion Oxygen reduction reaction and oxygen evolution reaction on nitrogen doped graphene nanoribbons were analyzed by density functional theory calculations. It was found that there is a linear relation between the binding energy of OOH* and OH* for these structures. The OER active sites were identified on the armchair nanoribbons at the carbon atoms near the nitrogen atom, while the ORR active sites are those on the edge carbon near the nitrogen atom. The armchair nanoribbons with nitrogen dopants near the edge have the minimum theoretical OER overpotential, which was estimated to be 0.405V; while the minimum overpotential for ORR was calculated to be 0.445V. Those values of ORR and OER overpotentials are comparable to those of Pt containing catalysts. These theoretic calculations suggest that N doped graphene nanoribbons are a highly promising OER/ORR catalyst for metal–air batteries, water splitting systems, and regenerative fuel cells. Acknowledgments We thank Air Forces MURI program for the support of this research under the contract #FA9550-12-1-0037, and National Science Foundation (NSF) for the suppoet under the contract: #IIP- 1343270. Computational resources were provided by UNT high performance computing initiative, a project of academic computing and user services within the UNT computing and information technology center. Appendix A Supplementary material Supplementary data associated with this article can be found, in the online version, at http://dx.doi.org/10.1016/j.jcat.2014.03.011. Appendix A Supplementary material Supplementary data 1 References [1] X. Ji K.T. Lee R. Holden L. Zhang J. Zhang G.A. Botton M. Couillard L.F. Nazar Nat. Chem. 2 2010 286 [2] H.B. Gray Nat. Chem. 1 2009 7 [3] M.W. Kanan D.G. Nocera Science 321 2008 1072 [4] Y.-C. Lu Z. Xu H.A. Gasteiger S. Chen K. Hamad-Schifferli Y. Shao-Horn J. Am. Chem. Soc. 132 2010 12170 [5] J. Suntivich K.J. May H.A. Gasteiger J.B. Goodenough Y. Shao-Horn Science 334 2011 1383 [6] H.A. Gasteiger S.S. Kocha B. Sompalli F.T. Wagner Appl. Catal. B: Environ. 56 2005 9 [7] J. Ahn R. Holze J. Appl. Electrochem. 22 1992 1167 [8] K.S. Novoselov A.K. Geim S.V. Morozov D. Jiang Y. Zhang S.V. Dubonos I.V. Grigorieva A.A. Firsov Science 306 2004 666 [9] C.N.R. Rao A.K. Sood K.S. Subrahmanyam A. Govindaraj Angew. Chem. Int. Ed. Engl. 48 2009 7752 [10] S. Park R.S. Ruoff Nat. Nanotechnol. 4 2009 217 [11] C. Lee X. Wei J.W. Kysar J. Hone Science 321 2008 385 [12] A.A. Balandin S. Ghosh W. Bao I. Calizo D. Teweldebrhan F. Miao C.N. Lau Nano Lett. 8 2008 902 [13] B. Lung-Hao Hu F.-Y. Wu C.-T. Lin A.N. Khlobystov L.-J. Li Nat. Commun. 4 2013 1687 [14] Y. Zhu S. Murali M.D. Stoller K.J. Ganesh W. Cai P.J. Ferreira A. Pirkle R.M. Wallace K.A. Cychosz M. Thommes Science 332 2011 1537 [15] Y. Liang Y. Li H. Wang J. Zhou J. Wang T. Regier H. Dai Nat. Mater. 10 2011 780 [16] E. Yoo J. Nakamura H. Zhou Energy Environ. Sci. 5 2012 6928 [17] L. Zhang Z. Xia J. Phys. Chem. C 115 2011 11170 [18] Q. Liu H. Zhang H. Zhong S. Zhang S. Chen Electrochim. Acta 81 2012 313 [19] W.-J. Lin C.-S. Liao J.-H. Jhang Y.-C. Tsai Electrochem. Commun. 11 2009 2153 [20] Y. Wang Y. Shao D.W. Matson J. Li Y. Lin ACS Nano 4 2010 1790 [21] Z. Lin G.H. Waller Y. Liu M. Liu C. Wong Carbon 53 2013 130 [22] Z. Lin G.H. Waller Y. Liu M. Liu C. Wong Nano Energy 2 2013 241 [23] Y. Okamoto Appl. Surf. Sci. 256 2009 335 [24] L. Zhang J. Niu L. Dai Z. Xia Langmuir 28 2012 7542 [25] H. Kim K. Lee S.I. Woo Y. Jung Phys. Chem. Chem. Phys. 13 2011 17505 [26] G. Kresse J. Furthmüller Comput. Mater. Sci. 6 1996 15 [27] G. Kresse J. Furthmüller Phys. Rev. B 54 1996 11169 [28] P.E. Blöchl Phys. Rev. B 50 1994 17953 [29] G. Kresse Phys. Rev. B 59 1999 1758 [30] J.P. Perdew K. Burke M. Ernzerhof Phys. Rev. Lett. 77 1996 3865 [31] W. Tang E. Sanville G. Henkelman J. Phys.: Condens. Matter 21 2009 084204 [32] J. Jiang J. Turnbull W. Lu P. Boguslawski J. Bernholc J. Chem. Phys. 136 2012 014702 [33] F. Calle-Vallejo M.T.M. Koper Electrochim. Acta 84 2012 3 [34] J.K. Nørskov J. Rossmeisl A. Logadottir L. Lindqvist J.R. Kitchin T. Bligaard H. Jónsson J. Phys. Chem. B 108 2004 17886 [35] I.C. Man H.-Y. Su F. Calle-Vallejo H.A. Hansen J.I. Martínez N.G. Inoglu J. Kitchin T.F. Jaramillo J.K. Nørskov J. Rossmeisl ChemCatChem 3 2011 1159 [36] S. Zuluaga S. Stolbov J. Chem. Phys. 135 2011 134702 [37] L. Ci L. Song D. Jariwala A.L. ElÃas W. Gao M. Terrones P.M. Ajayan Adv. Mater. 21 2009 4487 [38] L. Ci Z. Xu L. Wang W. Gao F. Ding K.F. Kelly B.I. Yakobson P.M. Ajayan Nano Res. 1 2008 116 [39] X. Jia M. Hofmann V. Meunier B.G. Sumpter J. Campos-Delgado J.M. Romo-Herrera H. Son Y.-P. Hsieh A. Reina J. Kong, Science 323 2009 1701 [40] X. Wang X. Li L. Zhang Y. Yoon P.K. Weber H. Wang J. Guo H. Dai Science 324 2009 768 [41] I.-Y. Jeon S. Zhang L. Zhang H.-J. Choi J.-M. Seo Z. Xia L. Dai J.-B. Baek Adv. Mater. 25 2013 6138",
+      "scopus-id": "84899547407",
+      "coredata": {
+        "eid": "1-s2.0-S0021951714000736",
+        "dc:description": "Electrocatalysts are essential to two key electrochemical reactions, oxygen evolution reaction (OER) and oxygen reduction reaction (ORR) in renewable energy conversion and storage technologies such as regenerative fuel cells and rechargeable metal–air batteries. Here, we explored N-doped graphene as cost-effective electrocatalysts for these key reactions by employing density functional theory (DFT). The results show that the substitution of carbon at graphene edge by nitrogen results in the best performance in terms of overpotentials. For armchair nanoribbons, the lowest OER and ORR overpotentials were estimated to be 0.405V and 0.445V, respectively, which are comparable to those for Pt-containing catalysts. OER and ORR with the minimum overpotentials can occur near the edge on the same structure but different sites. These calculations suggest that engineering the edge structures of the graphene can increase the efficiency of the N-doped graphene as efficient OER/ORR electrocatalysts for metal–air batteries, water splitting, and regenerative fuel cells.",
+        "openArchiveArticle": "false",
+        "prism:coverDate": "2014-05-31",
+        "openaccessUserLicense": null,
+        "prism:aggregationType": "Journal",
+        "prism:url": "https://api.elsevier.com/content/article/pii/S0021951714000736",
+        "dc:creator": [
+          {
+            "@_fa": "true",
+            "$": "Li, Mingtao"
+          },
+          {
+            "@_fa": "true",
+            "$": "Zhang, Lipeng"
+          },
+          {
+            "@_fa": "true",
+            "$": "Xu, Quan"
+          },
+          {
+            "@_fa": "true",
+            "$": "Niu, Jianbing"
+          },
+          {
+            "@_fa": "true",
+            "$": "Xia, Zhenhai"
+          }
+        ],
+        "link": [
+          {
+            "@_fa": "true",
+            "@rel": "self",
+            "@href": "https://api.elsevier.com/content/article/pii/S0021951714000736"
+          },
+          {
+            "@_fa": "true",
+            "@rel": "scidir",
+            "@href": "https://www.sciencedirect.com/science/article/pii/S0021951714000736"
+          }
+        ],
+        "dc:format": "application/json",
+        "openaccessType": null,
+        "pii": "S0021-9517(14)00073-6",
+        "prism:volume": "314",
+        "prism:publisher": "Elsevier Inc.",
+        "dc:title": "N-doped graphene as catalysts for oxygen reduction and oxygen evolution reactions: Theoretical considerations",
+        "prism:copyright": "Copyright © 2014 Elsevier Inc. All rights reserved.",
+        "openaccess": "0",
+        "prism:issn": "00219517",
+        "dcterms:subject": [
+          {
+            "@_fa": "true",
+            "$": "N-doped graphene"
+          },
+          {
+            "@_fa": "true",
+            "$": "Oxygen evolution reaction"
+          },
+          {
+            "@_fa": "true",
+            "$": "Oxygen reduction reaction"
+          },
+          {
+            "@_fa": "true",
+            "$": "Catalysts"
+          },
+          {
+            "@_fa": "true",
+            "$": "Fuel cells"
+          },
+          {
+            "@_fa": "true",
+            "$": "First principles calculation"
+          }
+        ],
+        "openaccessArticle": "false",
+        "prism:publicationName": "Journal of Catalysis",
+        "openaccessSponsorType": null,
+        "prism:pageRange": "66-72",
+        "prism:endingPage": "72",
+        "pubType": "fla",
+        "prism:coverDisplayDate": "May 2014",
+        "prism:doi": "10.1016/j.jcat.2014.03.011",
+        "prism:startingPage": "66",
+        "dc:identifier": "doi:10.1016/j.jcat.2014.03.011",
+        "openaccessSponsorName": null
+      },
+      "objects": {
+        "object": [
+          {
+            "@category": "thumbnail",
+            "@height": "22",
+            "@width": "164",
+            "@_fa": "true",
+            "$": "https://api.elsevier.com/content/object/eid/1-s2.0-S0021951714000736-si24.gif?httpAccept=%2A%2F%2A",
+            "@multimediatype": "GIF image file",
+            "@type": "ALTIMG",
+            "@size": "855",
+            "@ref": "si24",
+            "@mimetype": "image/gif"
+          },
+          {
+            "@category": "thumbnail",
+            "@height": "22",
+            "@width": "247",
+            "@_fa": "true",
+            "$": "https://api.elsevier.com/content/object/eid/1-s2.0-S0021951714000736-si23.gif?httpAccept=%2A%2F%2A",
+            "@multimediatype": "GIF image file",
+            "@type": "ALTIMG",
+            "@size": "1159",
+            "@ref": "si23",
+            "@mimetype": "image/gif"
+          },
+          {
+            "@category": "thumbnail",
+            "@height": "21",
+            "@width": "149",
+            "@_fa": "true",
+            "$": "https://api.elsevier.com/content/object/eid/1-s2.0-S0021951714000736-si22.gif?httpAccept=%2A%2F%2A",
+            "@multimediatype": "GIF image file",
+            "@type": "ALTIMG",
+            "@size": "745",
+            "@ref": "si22",
+            "@mimetype": "image/gif"
+          },
+          {
+            "@category": "thumbnail",
+            "@height": "18",
+            "@width": "287",
+            "@_fa": "true",
+            "$": "https://api.elsevier.com/content/object/eid/1-s2.0-S0021951714000736-si21.gif?httpAccept=%2A%2F%2A",
+            "@multimediatype": "GIF image file",
+            "@type": "ALTIMG",
+            "@size": "1112",
+            "@ref": "si21",
+            "@mimetype": "image/gif"
+          },
+          {
+            "@category": "thumbnail",
+            "@height": "22",
+            "@width": "217",
+            "@_fa": "true",
+            "$": "https://api.elsevier.com/content/object/eid/1-s2.0-S0021951714000736-si20.gif?httpAccept=%2A%2F%2A",
+            "@multimediatype": "GIF image file",
+            "@type": "ALTIMG",
+            "@size": "1021",
+            "@ref": "si20",
+            "@mimetype": "image/gif"
+          },
+          {
+            "@category": "thumbnail",
+            "@height": "21",
+            "@width": "260",
+            "@_fa": "true",
+            "$": "https://api.elsevier.com/content/object/eid/1-s2.0-S0021951714000736-si16.gif?httpAccept=%2A%2F%2A",
+            "@multimediatype": "GIF image file",
+            "@type": "ALTIMG",
+            "@size": "1106",
+            "@ref": "si16",
+            "@mimetype": "image/gif"
+          },
+          {
+            "@category": "thumbnail",
+            "@height": "21",
+            "@width": "339",
+            "@_fa": "true",
+            "$": "https://api.elsevier.com/content/object/eid/1-s2.0-S0021951714000736-si15.gif?httpAccept=%2A%2F%2A",
+            "@multimediatype": "GIF image file",
+            "@type": "ALTIMG",
+            "@size": "1467",
+            "@ref": "si15",
+            "@mimetype": "image/gif"
+          },
+          {
+            "@category": "thumbnail",
+            "@height": "21",
+            "@width": "309",
+            "@_fa": "true",
+            "$": "https://api.elsevier.com/content/object/eid/1-s2.0-S0021951714000736-si14.gif?httpAccept=%2A%2F%2A",
+            "@multimediatype": "GIF image file",
+            "@type": "ALTIMG",
+            "@size": "1306",
+            "@ref": "si14",
+            "@mimetype": "image/gif"
+          },
+          {
+            "@category": "thumbnail",
+            "@height": "20",
+            "@width": "230",
+            "@_fa": "true",
+            "$": "https://api.elsevier.com/content/object/eid/1-s2.0-S0021951714000736-si13.gif?httpAccept=%2A%2F%2A",
+            "@multimediatype": "GIF image file",
+            "@type": "ALTIMG",
+            "@size": "913",
+            "@ref": "si13",
+            "@mimetype": "image/gif"
+          },
+          {
+            "@category": "thumbnail",
+            "@height": "20",
+            "@width": "304",
+            "@_fa": "true",
+            "$": "https://api.elsevier.com/content/object/eid/1-s2.0-S0021951714000736-si12.gif?httpAccept=%2A%2F%2A",
+            "@multimediatype": "GIF image file",
+            "@type": "ALTIMG",
+            "@size": "1121",
+            "@ref": "si12",
+            "@mimetype": "image/gif"
+          },
+          {
+            "@category": "thumbnail",
+            "@height": "20",
+            "@width": "170",
+            "@_fa": "true",
+            "$": "https://api.elsevier.com/content/object/eid/1-s2.0-S0021951714000736-si11.gif?httpAccept=%2A%2F%2A",
+            "@multimediatype": "GIF image file",
+            "@type": "ALTIMG",
+            "@size": "690",
+            "@ref": "si11",
+            "@mimetype": "image/gif"
+          },
+          {
+            "@category": "thumbnail",
+            "@height": "20",
+            "@width": "246",
+            "@_fa": "true",
+            "$": "https://api.elsevier.com/content/object/eid/1-s2.0-S0021951714000736-si10.gif?httpAccept=%2A%2F%2A",
+            "@multimediatype": "GIF image file",
+            "@type": "ALTIMG",
+            "@size": "926",
+            "@ref": "si10",
+            "@mimetype": "image/gif"
+          },
+          {
+            "@category": "thumbnail",
+            "@height": "20",
+            "@width": "252",
+            "@_fa": "true",
+            "$": "https://api.elsevier.com/content/object/eid/1-s2.0-S0021951714000736-si9.gif?httpAccept=%2A%2F%2A",
+            "@multimediatype": "GIF image file",
+            "@type": "ALTIMG",
+            "@size": "1012",
+            "@ref": "si9",
+            "@mimetype": "image/gif"
+          },
+          {
+            "@category": "thumbnail",
+            "@height": "20",
+            "@width": "183",
+            "@_fa": "true",
+            "$": "https://api.elsevier.com/content/object/eid/1-s2.0-S0021951714000736-si8.gif?httpAccept=%2A%2F%2A",
+            "@multimediatype": "GIF image file",
+            "@type": "ALTIMG",
+            "@size": "786",
+            "@ref": "si8",
+            "@mimetype": "image/gif"
+          },
+          {
+            "@category": "thumbnail",
+            "@height": "20",
+            "@width": "234",
+            "@_fa": "true",
+            "$": "https://api.elsevier.com/content/object/eid/1-s2.0-S0021951714000736-si7.gif?httpAccept=%2A%2F%2A",
+            "@multimediatype": "GIF image file",
+            "@type": "ALTIMG",
+            "@size": "961",
+            "@ref": "si7",
+            "@mimetype": "image/gif"
+          },
+          {
+            "@category": "thumbnail",
+            "@height": "20",
+            "@width": "252",
+            "@_fa": "true",
+            "$": "https://api.elsevier.com/content/object/eid/1-s2.0-S0021951714000736-si6.gif?httpAccept=%2A%2F%2A",
+            "@multimediatype": "GIF image file",
+            "@type": "ALTIMG",
+            "@size": "1009",
+            "@ref": "si6",
+            "@mimetype": "image/gif"
+          },
+          {
+            "@category": "thumbnail",
+            "@height": "20",
+            "@width": "170",
+            "@_fa": "true",
+            "$": "https://api.elsevier.com/content/object/eid/1-s2.0-S0021951714000736-si5.gif?httpAccept=%2A%2F%2A",
+            "@multimediatype": "GIF image file",
+            "@type": "ALTIMG",
+            "@size": "687",
+            "@ref": "si5",
+            "@mimetype": "image/gif"
+          },
+          {
+            "@category": "thumbnail",
+            "@height": "20",
+            "@width": "230",
+            "@_fa": "true",
+            "$": "https://api.elsevier.com/content/object/eid/1-s2.0-S0021951714000736-si4.gif?httpAccept=%2A%2F%2A",
+            "@multimediatype": "GIF image file",
+            "@type": "ALTIMG",
+            "@size": "913",
+            "@ref": "si4",
+            "@mimetype": "image/gif"
+          },
+          {
+            "@category": "thumbnail",
+            "@height": "18",
+            "@width": "250",
+            "@_fa": "true",
+            "$": "https://api.elsevier.com/content/object/eid/1-s2.0-S0021951714000736-si1.gif?httpAccept=%2A%2F%2A",
+            "@multimediatype": "GIF image file",
+            "@type": "ALTIMG",
+            "@size": "1093",
+            "@ref": "si1",
+            "@mimetype": "image/gif"
+          },
+          {
+            "@category": "thumbnail",
+            "@height": "21",
+            "@width": "34",
+            "@_fa": "true",
+            "$": "https://api.elsevier.com/content/object/eid/1-s2.0-S0021951714000736-si30.gif?httpAccept=%2A%2F%2A",
+            "@multimediatype": "GIF image file",
+            "@type": "ALTIMG",
+            "@size": "347",
+            "@ref": "si30",
+            "@mimetype": "image/gif"
+          },
+          {
+            "@category": "thumbnail",
+            "@height": "21",
+            "@width": "34",
+            "@_fa": "true",
+            "$": "https://api.elsevier.com/content/object/eid/1-s2.0-S0021951714000736-si3.gif?httpAccept=%2A%2F%2A",
+            "@multimediatype": "GIF image file",
+            "@type": "ALTIMG",
+            "@size": "347",
+            "@ref": "si3",
+            "@mimetype": "image/gif"
+          },
+          {
+            "@category": "thumbnail",
+            "@height": "21",
+            "@width": "43",
+            "@_fa": "true",
+            "$": "https://api.elsevier.com/content/object/eid/1-s2.0-S0021951714000736-si29.gif?httpAccept=%2A%2F%2A",
+            "@multimediatype": "GIF image file",
+            "@type": "ALTIMG",
+            "@size": "391",
+            "@ref": "si29",
+            "@mimetype": "image/gif"
+          },
+          {
+            "@category": "thumbnail",
+            "@height": "19",
+            "@width": "111",
+            "@_fa": "true",
+            "$": "https://api.elsevier.com/content/object/eid/1-s2.0-S0021951714000736-si28.gif?httpAccept=%2A%2F%2A",
+            "@multimediatype": "GIF image file",
+            "@type": "ALTIMG",
+            "@size": "666",
+            "@ref": "si28",
+            "@mimetype": "image/gif"
+          },
+          {
+            "@category": "thumbnail",
+            "@height": "20",
+            "@width": "103",
+            "@_fa": "true",
+            "$": "https://api.elsevier.com/content/object/eid/1-s2.0-S0021951714000736-si27.gif?httpAccept=%2A%2F%2A",
+            "@multimediatype": "GIF image file",
+            "@type": "ALTIMG",
+            "@size": "578",
+            "@ref": "si27",
+            "@mimetype": "image/gif"
+          },
+          {
+            "@category": "thumbnail",
+            "@height": "19",
+            "@width": "225",
+            "@_fa": "true",
+            "$": "https://api.elsevier.com/content/object/eid/1-s2.0-S0021951714000736-si26.gif?httpAccept=%2A%2F%2A",
+            "@multimediatype": "GIF image file",
+            "@type": "ALTIMG",
+            "@size": "1044",
+            "@ref": "si26",
+            "@mimetype": "image/gif"
+          },
+          {
+            "@category": "thumbnail",
+            "@height": "19",
+            "@width": "226",
+            "@_fa": "true",
+            "$": "https://api.elsevier.com/content/object/eid/1-s2.0-S0021951714000736-si25.gif?httpAccept=%2A%2F%2A",
+            "@multimediatype": "GIF image file",
+            "@type": "ALTIMG",
+            "@size": "1048",
+            "@ref": "si25",
+            "@mimetype": "image/gif"
+          },
+          {
+            "@category": "thumbnail",
+            "@height": "21",
+            "@width": "34",
+            "@_fa": "true",
+            "$": "https://api.elsevier.com/content/object/eid/1-s2.0-S0021951714000736-si2.gif?httpAccept=%2A%2F%2A",
+            "@multimediatype": "GIF image file",
+            "@type": "ALTIMG",
+            "@size": "347",
+            "@ref": "si2",
+            "@mimetype": "image/gif"
+          },
+          {
+            "@category": "thumbnail",
+            "@height": "20",
+            "@width": "41",
+            "@_fa": "true",
+            "$": "https://api.elsevier.com/content/object/eid/1-s2.0-S0021951714000736-si19.gif?httpAccept=%2A%2F%2A",
+            "@multimediatype": "GIF image file",
+            "@type": "ALTIMG",
+            "@size": "406",
+            "@ref": "si19",
+            "@mimetype": "image/gif"
+          },
+          {
+            "@category": "thumbnail",
+            "@height": "16",
+            "@width": "24",
+            "@_fa": "true",
+            "$": "https://api.elsevier.com/content/object/eid/1-s2.0-S0021951714000736-si18.gif?httpAccept=%2A%2F%2A",
+            "@multimediatype": "GIF image file",
+            "@type": "ALTIMG",
+            "@size": "259",
+            "@ref": "si18",
+            "@mimetype": "image/gif"
+          },
+          {
+            "@category": "thumbnail",
+            "@height": "17",
+            "@width": "31",
+            "@_fa": "true",
+            "$": "https://api.elsevier.com/content/object/eid/1-s2.0-S0021951714000736-si17.gif?httpAccept=%2A%2F%2A",
+            "@multimediatype": "GIF image file",
+            "@type": "ALTIMG",
+            "@size": "296",
+            "@ref": "si17",
+            "@mimetype": "image/gif"
+          },
+          {
+            "@category": "standard",
+            "@_fa": "true",
+            "$": "https://api.elsevier.com/content/object/eid/1-s2.0-S0021951714000736-mmc1.docx?httpAccept=%2A%2F%2A",
+            "@multimediatype": "Microsoft Word file",
+            "@type": "APPLICATION",
+            "@size": "24845",
+            "@ref": "mmc1",
+            "@mimetype": "application/word"
+          },
+          {
+            "@category": "high",
+            "@height": "698",
+            "@width": "836",
+            "@_fa": "true",
+            "$": "https://api.elsevier.com/content/object/eid/1-s2.0-S0021951714000736-gr1_lrg.jpg?httpAccept=%2A%2F%2A",
+            "@multimediatype": "JPEG image file",
+            "@type": "IMAGE-HIGH-RES",
+            "@size": "134803",
+            "@ref": "gr1",
+            "@mimetype": "image/jpeg"
+          },
+          {
+            "@category": "high",
+            "@height": "708",
+            "@width": "2213",
+            "@_fa": "true",
+            "$": "https://api.elsevier.com/content/object/eid/1-s2.0-S0021951714000736-fx1_lrg.jpg?httpAccept=%2A%2F%2A",
+            "@multimediatype": "JPEG image file",
+            "@type": "IMAGE-HIGH-RES",
+            "@size": "233350",
+            "@ref": "fx1",
+            "@mimetype": "image/jpeg"
+          },
+          {
+            "@category": "high",
+            "@height": "829",
+            "@width": "2352",
+            "@_fa": "true",
+            "$": "https://api.elsevier.com/content/object/eid/1-s2.0-S0021951714000736-gr7_lrg.jpg?httpAccept=%2A%2F%2A",
+            "@multimediatype": "JPEG image file",
+            "@type": "IMAGE-HIGH-RES",
+            "@size": "187747",
+            "@ref": "gr7",
+            "@mimetype": "image/jpeg"
+          },
+          {
+            "@category": "high",
+            "@height": "1233",
+            "@width": "1743",
+            "@_fa": "true",
+            "$": "https://api.elsevier.com/content/object/eid/1-s2.0-S0021951714000736-gr6_lrg.jpg?httpAccept=%2A%2F%2A",
+            "@multimediatype": "JPEG image file",
+            "@type": "IMAGE-HIGH-RES",
+            "@size": "388170",
+            "@ref": "gr6",
+            "@mimetype": "image/jpeg"
+          },
+          {
+            "@category": "high",
+            "@height": "764",
+            "@width": "2408",
+            "@_fa": "true",
+            "$": "https://api.elsevier.com/content/object/eid/1-s2.0-S0021951714000736-gr5_lrg.jpg?httpAccept=%2A%2F%2A",
+            "@multimediatype": "JPEG image file",
+            "@type": "IMAGE-HIGH-RES",
+            "@size": "237415",
+            "@ref": "gr5",
+            "@mimetype": "image/jpeg"
+          },
+          {
+            "@category": "high",
+            "@height": "867",
+            "@width": "2352",
+            "@_fa": "true",
+            "$": "https://api.elsevier.com/content/object/eid/1-s2.0-S0021951714000736-gr4_lrg.jpg?httpAccept=%2A%2F%2A",
+            "@multimediatype": "JPEG image file",
+            "@type": "IMAGE-HIGH-RES",
+            "@size": "241249",
+            "@ref": "gr4",
+            "@mimetype": "image/jpeg"
+          },
+          {
+            "@category": "high",
+            "@height": "885",
+            "@width": "2394",
+            "@_fa": "true",
+            "$": "https://api.elsevier.com/content/object/eid/1-s2.0-S0021951714000736-gr3_lrg.jpg?httpAccept=%2A%2F%2A",
+            "@multimediatype": "JPEG image file",
+            "@type": "IMAGE-HIGH-RES",
+            "@size": "287593",
+            "@ref": "gr3",
+            "@mimetype": "image/jpeg"
+          },
+          {
+            "@category": "high",
+            "@height": "968",
+            "@width": "1320",
+            "@_fa": "true",
+            "$": "https://api.elsevier.com/content/object/eid/1-s2.0-S0021951714000736-gr2_lrg.jpg?httpAccept=%2A%2F%2A",
+            "@multimediatype": "JPEG image file",
+            "@type": "IMAGE-HIGH-RES",
+            "@size": "192600",
+            "@ref": "gr2",
+            "@mimetype": "image/jpeg"
+          },
+          {
+            "@category": "standard",
+            "@height": "250",
+            "@width": "299",
+            "@_fa": "true",
+            "$": "https://api.elsevier.com/content/object/eid/1-s2.0-S0021951714000736-gr1.jpg?httpAccept=%2A%2F%2A",
+            "@multimediatype": "JPEG image file",
+            "@type": "IMAGE-DOWNSAMPLED",
+            "@size": "43548",
+            "@ref": "gr1",
+            "@mimetype": "image/jpeg"
+          },
+          {
+            "@category": "standard",
+            "@height": "160",
+            "@width": "500",
+            "@_fa": "true",
+            "$": "https://api.elsevier.com/content/object/eid/1-s2.0-S0021951714000736-fx1.jpg?httpAccept=%2A%2F%2A",
+            "@multimediatype": "JPEG image file",
+            "@type": "IMAGE-DOWNSAMPLED",
+            "@size": "35216",
+            "@ref": "fx1",
+            "@mimetype": "image/jpeg"
+          },
+          {
+            "@category": "standard",
+            "@height": "187",
+            "@width": "531",
+            "@_fa": "true",
+            "$": "https://api.elsevier.com/content/object/eid/1-s2.0-S0021951714000736-gr7.jpg?httpAccept=%2A%2F%2A",
+            "@multimediatype": "JPEG image file",
+            "@type": "IMAGE-DOWNSAMPLED",
+            "@size": "26523",
+            "@ref": "gr7",
+            "@mimetype": "image/jpeg"
+          },
+          {
+            "@category": "standard",
+            "@height": "464",
+            "@width": "656",
+            "@_fa": "true",
+            "$": "https://api.elsevier.com/content/object/eid/1-s2.0-S0021951714000736-gr6.jpg?httpAccept=%2A%2F%2A",
+            "@multimediatype": "JPEG image file",
+            "@type": "IMAGE-DOWNSAMPLED",
+            "@size": "121178",
+            "@ref": "gr6",
+            "@mimetype": "image/jpeg"
+          },
+          {
+            "@category": "standard",
+            "@height": "173",
+            "@width": "544",
+            "@_fa": "true",
+            "$": "https://api.elsevier.com/content/object/eid/1-s2.0-S0021951714000736-gr5.jpg?httpAccept=%2A%2F%2A",
+            "@multimediatype": "JPEG image file",
+            "@type": "IMAGE-DOWNSAMPLED",
+            "@size": "30661",
+            "@ref": "gr5",
+            "@mimetype": "image/jpeg"
+          },
+          {
+            "@category": "standard",
+            "@height": "196",
+            "@width": "531",
+            "@_fa": "true",
+            "$": "https://api.elsevier.com/content/object/eid/1-s2.0-S0021951714000736-gr4.jpg?httpAccept=%2A%2F%2A",
+            "@multimediatype": "JPEG image file",
+            "@type": "IMAGE-DOWNSAMPLED",
+            "@size": "31174",
+            "@ref": "gr4",
+            "@mimetype": "image/jpeg"
+          },
+          {
+            "@category": "standard",
+            "@height": "200",
+            "@width": "541",
+            "@_fa": "true",
+            "$": "https://api.elsevier.com/content/object/eid/1-s2.0-S0021951714000736-gr3.jpg?httpAccept=%2A%2F%2A",
+            "@multimediatype": "JPEG image file",
+            "@type": "IMAGE-DOWNSAMPLED",
+            "@size": "36760",
+            "@ref": "gr3",
+            "@mimetype": "image/jpeg"
+          },
+          {
+            "@category": "standard",
+            "@height": "219",
+            "@width": "298",
+            "@_fa": "true",
+            "$": "https://api.elsevier.com/content/object/eid/1-s2.0-S0021951714000736-gr2.jpg?httpAccept=%2A%2F%2A",
+            "@multimediatype": "JPEG image file",
+            "@type": "IMAGE-DOWNSAMPLED",
+            "@size": "25066",
+            "@ref": "gr2",
+            "@mimetype": "image/jpeg"
+          },
+          {
+            "@category": "thumbnail",
+            "@height": "164",
+            "@width": "196",
+            "@_fa": "true",
+            "$": "https://api.elsevier.com/content/object/eid/1-s2.0-S0021951714000736-gr1.sml?httpAccept=%2A%2F%2A",
+            "@multimediatype": "GIF image file",
+            "@type": "IMAGE-THUMBNAIL",
+            "@size": "8959",
+            "@ref": "gr1",
+            "@mimetype": "image/gif"
+          },
+          {
+            "@category": "thumbnail",
+            "@height": "70",
+            "@width": "219",
+            "@_fa": "true",
+            "$": "https://api.elsevier.com/content/object/eid/1-s2.0-S0021951714000736-fx1.sml?httpAccept=%2A%2F%2A",
+            "@multimediatype": "GIF image file",
+            "@type": "IMAGE-THUMBNAIL",
+            "@size": "4480",
+            "@ref": "fx1",
+            "@mimetype": "image/gif"
+          },
+          {
+            "@category": "thumbnail",
+            "@height": "77",
+            "@width": "219",
+            "@_fa": "true",
+            "$": "https://api.elsevier.com/content/object/eid/1-s2.0-S0021951714000736-gr7.sml?httpAccept=%2A%2F%2A",
+            "@multimediatype": "GIF image file",
+            "@type": "IMAGE-THUMBNAIL",
+            "@size": "3817",
+            "@ref": "gr7",
+            "@mimetype": "image/gif"
+          },
+          {
+            "@category": "thumbnail",
+            "@height": "155",
+            "@width": "219",
+            "@_fa": "true",
+            "$": "https://api.elsevier.com/content/object/eid/1-s2.0-S0021951714000736-gr6.sml?httpAccept=%2A%2F%2A",
+            "@multimediatype": "GIF image file",
+            "@type": "IMAGE-THUMBNAIL",
+            "@size": "11508",
+            "@ref": "gr6",
+            "@mimetype": "image/gif"
+          },
+          {
+            "@category": "thumbnail",
+            "@height": "69",
+            "@width": "219",
+            "@_fa": "true",
+            "$": "https://api.elsevier.com/content/object/eid/1-s2.0-S0021951714000736-gr5.sml?httpAccept=%2A%2F%2A",
+            "@multimediatype": "GIF image file",
+            "@type": "IMAGE-THUMBNAIL",
+            "@size": "4271",
+            "@ref": "gr5",
+            "@mimetype": "image/gif"
+          },
+          {
+            "@category": "thumbnail",
+            "@height": "81",
+            "@width": "219",
+            "@_fa": "true",
+            "$": "https://api.elsevier.com/content/object/eid/1-s2.0-S0021951714000736-gr4.sml?httpAccept=%2A%2F%2A",
+            "@multimediatype": "GIF image file",
+            "@type": "IMAGE-THUMBNAIL",
+            "@size": "4343",
+            "@ref": "gr4",
+            "@mimetype": "image/gif"
+          },
+          {
+            "@category": "thumbnail",
+            "@height": "81",
+            "@width": "219",
+            "@_fa": "true",
+            "$": "https://api.elsevier.com/content/object/eid/1-s2.0-S0021951714000736-gr3.sml?httpAccept=%2A%2F%2A",
+            "@multimediatype": "GIF image file",
+            "@type": "IMAGE-THUMBNAIL",
+            "@size": "4929",
+            "@ref": "gr3",
+            "@mimetype": "image/gif"
+          },
+          {
+            "@category": "thumbnail",
+            "@height": "161",
+            "@width": "219",
+            "@_fa": "true",
+            "$": "https://api.elsevier.com/content/object/eid/1-s2.0-S0021951714000736-gr2.sml?httpAccept=%2A%2F%2A",
+            "@multimediatype": "GIF image file",
+            "@type": "IMAGE-THUMBNAIL",
+            "@size": "7301",
+            "@ref": "gr2",
+            "@mimetype": "image/gif"
+          }
+        ]
+      },
+      "link": {
+        "@rel": "abstract",
+        "@href": "https://api.elsevier.com/content/abstract/scopus_id/84899547407"
+      }
+    }
+  }
+}

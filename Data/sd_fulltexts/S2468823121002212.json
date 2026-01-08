@@ -1,0 +1,604 @@
+{
+  "metadata": {
+    "title": "High-performance Pd-N (<ce:italic>N</ce:italic> = Ga or Ag) bimetallic monolithic catalyst for the hydrogenation of 2-ethylanthraquinone: Experimental and DFT studies",
+    "authors": "; ; ",
+    "journal": "Molecular Catalysis",
+    "date": "2021-06-30",
+    "doi": "10.1016/j.mcat.2021.111604",
+    "abstract": "",
+    "uri": "https://api.elsevier.com/content/article/pii/S2468823121002212",
+    "pii": "S2468823121002212"
+  },
+  "fulltext": {
+    "full-text-retrieval-response": {
+      "scopus-eid": "2-s2.0-85106307587",
+      "originalText": "serial JL 315758 291210 291744 291790 291809 31 Molecular Catalysis MOLECULARCATALYSIS 2021-05-17 2021-05-17 2021-05-17 2021-05-17 2021-06-17T07:55:17 1-s2.0-S2468823121002212 S2468-8231(21)00221-2 S2468823121002212 10.1016/j.mcat.2021.111604 S300 S300.1 FULL-TEXT 1-s2.0-S2468823121X00090 2022-12-12T23:36:12.42485Z 0 0 20210601 20210630 2021 2021-05-17T04:12:59.121136Z absattachment articleinfo articlenumber articletitlenorm authfirstinitialnorm authfirstsurnamenorm cid cids contenttype copyright crossmark dateloaded dateloadedtxt datesearch datesort dateupdated dco docsubtype doctype doi eid ewtransactionid hubeid indexeddate issn issnnorm itemstage itemtransactionid itemweight openaccess openarchive pg pgfirst pii piinorm pubdateend pubdatestart pubdatetxt pubyr sectiontitle sortorder srctitle srctitlenorm srctype ssids alllist content subj subheadings suppl tomb volfirst volissue volumelist webpdf webpdfpagecount yearnav figure table e-component body mmlmath acknowledge affil appendices articletitle auth authfirstini authfull authkeywords authlast grantnumber grantsponsor highlightsabst orcid primabst ref specialabst 2468-8231 24688231 true 509 509 C Volume 509 4 111604 111604 111604 202106 June 2021 2021-06-01 2021-06-30 2021 Regular Papers article fla © 2021 Elsevier B.V. All rights reserved. HIGHPERFORMANCEPDNNGAAGBIMETALLICMONOLITHICCATALYSTFORHYDROGENATION2ETHYLANTHRAQUINONEEXPERIMENTALDFTSTUDIES GUO Y 1 Introduction 2 Experimental 2.1 Materials 2.2 Catalyst preparation 2.2.1 Silicon dioxide/cordierite (SD/C) 2.2.2 Monolithic catalysts (Pd-N (N = Ga or Ag)/Sd/C) 2.3 Catalyst characterization 2.4 Catalytic performance 2.5 Computational section 3 Results and discussion 3.1 Characterizations of catalysts 3.2 Activity evaluation 3.3 DFT calculations 4 Conclusions CRediT authorship contribution statement Acknowledgement Appendix Supplementary materials References LI 2016 168 174 X SANTACESARIA 1994 277 284 E SHANG 2012 1851 1857 H CAMPOSMARTIN 2007 6962 6984 J PAUNOVIC 2014 325 332 V OUYANG 2014 129 136 L CHEN 2015 356 363 H GUO 2017 370 384 Y ZHANG 2008 2565 2569 J KOSYDAR 2011 121 131 R SHEN 2011 226 232 C ZHU 2013 98 102 Y LI 2015 100968 100977 X GUO 2016 36 45 Y GLYZDOVA 2018 18 27 D GLYZDOVA 2017 140 146 D COLLINS 2012 90 98 S IWASA 1998 119 123 N IWASA 2003 153 160 N SALES 1998 273 283 E ZHANG 2000 221 228 Q ZHU 2019 12955 12963 J FENG 2010 240 245 J CAR 1985 2471 2474 R PAYNE 1986 2656 M KRESSE 1999 1758 1775 G BLOECHL 1994 17953 17979 P PERDEW 1996 3865 3868 J ARMBRUSTER 2010 14745 14747 M ALFONSO 2003 12 26 D YUAN 2017 79 88 E AGOSTINI 2014 187 194 G CHO 2018 13514 13520 H TANKSALE 2008 366 377 A KUMAR 2004 541 551 D SANDOVAL 2011 40 49 A LIU 2011 288 296 X ZHANG 2000 221 228 Q ZHANG 2018 3077 3086 L GUO 2017 370 384 Y HE 2014 166 173 Y ZHANG 2016 6236 6245 Q WANG 2019 e5076 Y ZHANG 2018 1 10 L KAMACHI 2015 8748 8754 T SITTHISA 2011 17 27 S GUOX2021X111604 GUOX2021X111604XY 2023-05-17T00:00:00.000Z 2023-05-17T00:00:00.000Z http://creativecommons.org/licenses/by-nc-nd/4.0/ © 2021 Elsevier B.V. All rights reserved. 2021-06-05T09:48:57.825Z http://vtw.elsevier.com/data/voc/AddOnTypes/50.7/aggregated-refined Natural Science Foundation of Anhui Province 2008085QB75 Natural Science Foundation of Anhui Province http://data.elsevier.com/vocabulary/SciValFunders/501100003995 http://sws.geonames.org/1814991/ Anhui Province University Natural Science Research Project - Key Project KJ2020A0440 University Natural Science Research Project of Anhui Province http://data.elsevier.com/vocabulary/SciValFunders/501100009558 http://sws.geonames.org/1814991/ National Key R&D Program of China 2018YFB0604902 2019YFC1711300 NKRDPC National Key Research and Development Program of China http://data.elsevier.com/vocabulary/SciValFunders/501100012166 http://sws.geonames.org/1814991/ Anhui University of Chinese Medicine Foundation 2020py03 National Natural Science Foundation of China 21975016 21978010 NSFC National Natural Science Foundation of China http://data.elsevier.com/vocabulary/SciValFunders/501100001809 http://sws.geonames.org/1814991/ Innovation Project of China Energy Investment GJNY-18-62 This work is financially supported by the National Key R&D Program of China (No. 2018YFB0604902 and No. 2019YFC1711300 ), National Natural Science Foundation of China (No. 21978010 and 21975016 ), Anhui University of Chinese Medicine Foundation (No. 2020py03 ), Natural Science Foundation of Anhui Province (No. 2008085QB75 ), Innovation Project of China Energy Investment (No. GJNY-18-62 ) and Anhui Province University Natural Science Research Project - Key Project (No. KJ2020A0440 ). https://doi.org/10.15223/policy-017 https://doi.org/10.15223/policy-037 https://doi.org/10.15223/policy-012 https://doi.org/10.15223/policy-029 https://doi.org/10.15223/policy-004 item S2468-8231(21)00221-2 S2468823121002212 1-s2.0-S2468823121002212 10.1016/j.mcat.2021.111604 315758 2021-06-17T07:09:16.486617Z 2021-06-01 2021-06-30 1-s2.0-S2468823121002212-main.pdf https://s3-eu-west-1.amazonaws.com/prod-ucs-content-store-eu-west/content/pii:S2468823121002212/MAIN/application/pdf/5a681b12b6484b6353d2bc84c3499d2e/main.pdf main.pdf pdf true 11695365 MAIN 12 1-s2.0-S2468823121002212-main_1.png https://s3-eu-west-1.amazonaws.com/prod-ucs-content-store-eu-west/content/pii:S2468823121002212/PREVIEW/image/png/56a2f70484a053aa20a7915a49729803/main_1.png main_1.png png 61268 849 656 IMAGE-WEB-PDF 1 1-s2.0-S2468823121002212-gr8.jpg https://s3-eu-west-1.amazonaws.com/prod-ucs-content-store-eu-west/content/pii:S2468823121002212/gr8/DOWNSAMPLED/image/jpeg/4e9d86980eff3fc50190796da3c54401/gr8.jpg gr8 gr8.jpg jpg 150913 872 565 IMAGE-DOWNSAMPLED 1-s2.0-S2468823121002212-gr6.jpg https://s3-eu-west-1.amazonaws.com/prod-ucs-content-store-eu-west/content/pii:S2468823121002212/gr6/DOWNSAMPLED/image/jpeg/5f55fa71ffef061121b5222d9107938c/gr6.jpg gr6 gr6.jpg jpg 49502 566 386 IMAGE-DOWNSAMPLED 1-s2.0-S2468823121002212-gr7.jpg https://s3-eu-west-1.amazonaws.com/prod-ucs-content-store-eu-west/content/pii:S2468823121002212/gr7/DOWNSAMPLED/image/jpeg/66c1cb0ce06b159cd838457a3641eee0/gr7.jpg gr7 gr7.jpg jpg 59124 623 557 IMAGE-DOWNSAMPLED 1-s2.0-S2468823121002212-sc1.jpg https://s3-eu-west-1.amazonaws.com/prod-ucs-content-store-eu-west/content/pii:S2468823121002212/sc1/DOWNSAMPLED/image/jpeg/d6f20f9fa073f744e9caa41710d62351/sc1.jpg sc1 sc1.jpg jpg 36665 488 364 IMAGE-DOWNSAMPLED 1-s2.0-S2468823121002212-fx1.jpg https://s3-eu-west-1.amazonaws.com/prod-ucs-content-store-eu-west/content/pii:S2468823121002212/fx1/DOWNSAMPLED/image/jpeg/8c1aec70c213b07c694187971af09be0/fx1.jpg fx1 true fx1.jpg jpg 24380 179 301 IMAGE-DOWNSAMPLED 1-s2.0-S2468823121002212-gr3b.jpg https://s3-eu-west-1.amazonaws.com/prod-ucs-content-store-eu-west/content/pii:S2468823121002212/gr3b/DOWNSAMPLED/image/jpeg/6e25a96feb23f8520edb56cee933e9ec/gr3b.jpg gr3b gr3b.jpg jpg 63750 473 489 IMAGE-DOWNSAMPLED 1-s2.0-S2468823121002212-gr1.jpg https://s3-eu-west-1.amazonaws.com/prod-ucs-content-store-eu-west/content/pii:S2468823121002212/gr1/DOWNSAMPLED/image/jpeg/4dc8486e82c884517d2d035f89d25e9e/gr1.jpg gr1 gr1.jpg jpg 47511 387 501 IMAGE-DOWNSAMPLED 1-s2.0-S2468823121002212-gr3a.jpg https://s3-eu-west-1.amazonaws.com/prod-ucs-content-store-eu-west/content/pii:S2468823121002212/gr3a/DOWNSAMPLED/image/jpeg/0487ec39ca27c3ce8f39a1fded4177c7/gr3a.jpg gr3a gr3a.jpg jpg 114720 930 489 IMAGE-DOWNSAMPLED 1-s2.0-S2468823121002212-gr4.jpg https://s3-eu-west-1.amazonaws.com/prod-ucs-content-store-eu-west/content/pii:S2468823121002212/gr4/DOWNSAMPLED/image/jpeg/1d79e41b32952f349ff5f5da2b5a8e52/gr4.jpg gr4 gr4.jpg jpg 156924 760 809 IMAGE-DOWNSAMPLED 1-s2.0-S2468823121002212-gr5.jpg https://s3-eu-west-1.amazonaws.com/prod-ucs-content-store-eu-west/content/pii:S2468823121002212/gr5/DOWNSAMPLED/image/jpeg/f04e4f4258b388e19819bf046134c2cb/gr5.jpg gr5 gr5.jpg jpg 154907 674 809 IMAGE-DOWNSAMPLED 1-s2.0-S2468823121002212-gr2.jpg https://s3-eu-west-1.amazonaws.com/prod-ucs-content-store-eu-west/content/pii:S2468823121002212/gr2/DOWNSAMPLED/image/jpeg/8db6aa9d3aa422ca950aaa25fa1f739d/gr2.jpg gr2 gr2.jpg jpg 56559 737 467 IMAGE-DOWNSAMPLED 1-s2.0-S2468823121002212-gr8.sml https://s3-eu-west-1.amazonaws.com/prod-ucs-content-store-eu-west/content/pii:S2468823121002212/gr8/THUMBNAIL/image/gif/011652963a179435f89b3a0b983a1406/gr8.sml gr8 gr8.sml sml 12890 164 106 IMAGE-THUMBNAIL 1-s2.0-S2468823121002212-gr6.sml https://s3-eu-west-1.amazonaws.com/prod-ucs-content-store-eu-west/content/pii:S2468823121002212/gr6/THUMBNAIL/image/gif/da7f6744d007df574ca58f27c9486e09/gr6.sml gr6 gr6.sml sml 7555 164 112 IMAGE-THUMBNAIL 1-s2.0-S2468823121002212-gr7.sml https://s3-eu-west-1.amazonaws.com/prod-ucs-content-store-eu-west/content/pii:S2468823121002212/gr7/THUMBNAIL/image/gif/702cbf5a1b3090f68e486ce3c2ac9a94/gr7.sml gr7 gr7.sml sml 10122 163 146 IMAGE-THUMBNAIL 1-s2.0-S2468823121002212-sc1.sml https://s3-eu-west-1.amazonaws.com/prod-ucs-content-store-eu-west/content/pii:S2468823121002212/sc1/THUMBNAIL/image/gif/d4731f879c2182ed4ee32fc6048f4a9c/sc1.sml sc1 sc1.sml sml 6208 164 122 IMAGE-THUMBNAIL 1-s2.0-S2468823121002212-fx1.sml https://s3-eu-west-1.amazonaws.com/prod-ucs-content-store-eu-west/content/pii:S2468823121002212/fx1/THUMBNAIL/image/gif/7e615ee8e6285e6e0b4d24c765c05cac/fx1.sml fx1 true fx1.sml sml 16821 130 219 IMAGE-THUMBNAIL 1-s2.0-S2468823121002212-gr3b.sml https://s3-eu-west-1.amazonaws.com/prod-ucs-content-store-eu-west/content/pii:S2468823121002212/gr3b/THUMBNAIL/image/gif/d17c3dbf191e129088fdaefa629d43d2/gr3b.sml gr3b gr3b.sml sml 10049 164 169 IMAGE-THUMBNAIL 1-s2.0-S2468823121002212-gr1.sml https://s3-eu-west-1.amazonaws.com/prod-ucs-content-store-eu-west/content/pii:S2468823121002212/gr1/THUMBNAIL/image/gif/f597a7808823965f811cf9b3af16067d/gr1.sml gr1 gr1.sml sml 8802 164 212 IMAGE-THUMBNAIL 1-s2.0-S2468823121002212-gr3a.sml https://s3-eu-west-1.amazonaws.com/prod-ucs-content-store-eu-west/content/pii:S2468823121002212/gr3a/THUMBNAIL/image/gif/fff076fa34505acc4025e29e7067548e/gr3a.sml gr3a gr3a.sml sml 8030 164 86 IMAGE-THUMBNAIL 1-s2.0-S2468823121002212-gr4.sml https://s3-eu-west-1.amazonaws.com/prod-ucs-content-store-eu-west/content/pii:S2468823121002212/gr4/THUMBNAIL/image/gif/d1c1a2740baeed25d6e74d8b4b8aa904/gr4.sml gr4 gr4.sml sml 17859 164 174 IMAGE-THUMBNAIL 1-s2.0-S2468823121002212-gr5.sml https://s3-eu-west-1.amazonaws.com/prod-ucs-content-store-eu-west/content/pii:S2468823121002212/gr5/THUMBNAIL/image/gif/c42793a08b2a60d33e109a52dddee159/gr5.sml gr5 gr5.sml sml 12940 164 197 IMAGE-THUMBNAIL 1-s2.0-S2468823121002212-gr2.sml https://s3-eu-west-1.amazonaws.com/prod-ucs-content-store-eu-west/content/pii:S2468823121002212/gr2/THUMBNAIL/image/gif/d07aa2b50b6440611c2cffcfe6c90c6e/gr2.sml gr2 gr2.sml sml 5331 164 104 IMAGE-THUMBNAIL 1-s2.0-S2468823121002212-gr8_lrg.jpg https://s3-eu-west-1.amazonaws.com/prod-ucs-content-store-eu-west/content/pii:S2468823121002212/gr8/HIGHRES/image/jpeg/8d1554b1f4c128b9d16bac1e793753f0/gr8_lrg.jpg gr8 gr8_lrg.jpg jpg 1221189 3859 2500 IMAGE-HIGH-RES 1-s2.0-S2468823121002212-gr6_lrg.jpg https://s3-eu-west-1.amazonaws.com/prod-ucs-content-store-eu-west/content/pii:S2468823121002212/gr6/HIGHRES/image/jpeg/2bd2debeff158ff4db327e534630be58/gr6_lrg.jpg gr6 gr6_lrg.jpg jpg 296780 2504 1708 IMAGE-HIGH-RES 1-s2.0-S2468823121002212-gr7_lrg.jpg https://s3-eu-west-1.amazonaws.com/prod-ucs-content-store-eu-west/content/pii:S2468823121002212/gr7/HIGHRES/image/jpeg/70fae5947744555241ca69d9042155a9/gr7_lrg.jpg gr7 gr7_lrg.jpg jpg 450857 2760 2468 IMAGE-HIGH-RES 1-s2.0-S2468823121002212-sc1_lrg.jpg https://s3-eu-west-1.amazonaws.com/prod-ucs-content-store-eu-west/content/pii:S2468823121002212/sc1/HIGHRES/image/jpeg/2645f1eb341b7d365ac82919d64f3675/sc1_lrg.jpg sc1 sc1_lrg.jpg jpg 342256 2598 1938 IMAGE-HIGH-RES 1-s2.0-S2468823121002212-fx1_lrg.jpg https://s3-eu-west-1.amazonaws.com/prod-ucs-content-store-eu-west/content/pii:S2468823121002212/fx1/HIGHRES/image/jpeg/848e061cabeee7a2b2cb11953f3ff40f/fx1_lrg.jpg fx1 true fx1_lrg.jpg jpg 174306 794 1333 IMAGE-HIGH-RES 1-s2.0-S2468823121002212-gr3b_lrg.jpg https://s3-eu-west-1.amazonaws.com/prod-ucs-content-store-eu-west/content/pii:S2468823121002212/gr3b/HIGHRES/image/jpeg/346f24d730a336ff8ba10e093e3f4ea0/gr3b_lrg.jpg gr3b gr3b_lrg.jpg jpg 650043 2098 2167 IMAGE-HIGH-RES 1-s2.0-S2468823121002212-gr1_lrg.jpg https://s3-eu-west-1.amazonaws.com/prod-ucs-content-store-eu-west/content/pii:S2468823121002212/gr1/HIGHRES/image/jpeg/4275c4f0adb2f8461877f89537b1c30a/gr1_lrg.jpg gr1 gr1_lrg.jpg jpg 373784 1715 2220 IMAGE-HIGH-RES 1-s2.0-S2468823121002212-gr3a_lrg.jpg https://s3-eu-west-1.amazonaws.com/prod-ucs-content-store-eu-west/content/pii:S2468823121002212/gr3a/HIGHRES/image/jpeg/0f60c30ae4e841f980884eb30520347f/gr3a_lrg.jpg gr3a gr3a_lrg.jpg jpg 1299900 4121 2167 IMAGE-HIGH-RES 1-s2.0-S2468823121002212-gr4_lrg.jpg https://s3-eu-west-1.amazonaws.com/prod-ucs-content-store-eu-west/content/pii:S2468823121002212/gr4/HIGHRES/image/jpeg/d8bc8a817f080706e7f49313b41d76e9/gr4_lrg.jpg gr4 gr4_lrg.jpg jpg 1391139 3367 3583 IMAGE-HIGH-RES 1-s2.0-S2468823121002212-gr5_lrg.jpg https://s3-eu-west-1.amazonaws.com/prod-ucs-content-store-eu-west/content/pii:S2468823121002212/gr5/HIGHRES/image/jpeg/5d50d01513880377a0c0fe473c93caee/gr5_lrg.jpg gr5 gr5_lrg.jpg jpg 1178542 2986 3583 IMAGE-HIGH-RES 1-s2.0-S2468823121002212-gr2_lrg.jpg https://s3-eu-west-1.amazonaws.com/prod-ucs-content-store-eu-west/content/pii:S2468823121002212/gr2/HIGHRES/image/jpeg/06b7f6a7329865dd1efa5f0a0361d37d/gr2_lrg.jpg gr2 gr2_lrg.jpg jpg 456498 3265 2068 IMAGE-HIGH-RES 1-s2.0-S2468823121002212-mmc1.doc https://s3-eu-west-1.amazonaws.com/prod-ucs-content-store-eu-west/content/pii:S2468823121002212/mmc1/MAIN/application/msword/a474cd3d348109f189516f29eedb7c89/mmc1.doc mmc1 mmc1.doc doc 4962816 APPLICATION 1-s2.0-S2468823121002212-si1.svg https://s3-eu-west-1.amazonaws.com/prod-ucs-content-store-eu-west/content/pii:S2468823121002212/STRIPIN/image/svg+xml/e5c1b2add1b3cef220d57a9e96656e4b/si1.svg si1 si1.svg svg 14280 ALTIMG 1-s2.0-S2468823121002212-si2.svg https://s3-eu-west-1.amazonaws.com/prod-ucs-content-store-eu-west/content/pii:S2468823121002212/STRIPIN/image/svg+xml/5e30deb0b93ed05fc3798b3445dcbd20/si2.svg si2 si2.svg svg 17412 ALTIMG 1-s2.0-S2468823121002212-si3.svg https://s3-eu-west-1.amazonaws.com/prod-ucs-content-store-eu-west/content/pii:S2468823121002212/STRIPIN/image/svg+xml/be6274f5e1a3f89407eef3ac0cebbef6/si3.svg si3 si3.svg svg 9800 ALTIMG 1-s2.0-S2468823121002212-si4.svg https://s3-eu-west-1.amazonaws.com/prod-ucs-content-store-eu-west/content/pii:S2468823121002212/STRIPIN/image/svg+xml/e2312d449781e9fe7317d6906c01ab89/si4.svg si4 si4.svg svg 10010 ALTIMG 1-s2.0-S2468823121002212-si5.svg https://s3-eu-west-1.amazonaws.com/prod-ucs-content-store-eu-west/content/pii:S2468823121002212/STRIPIN/image/svg+xml/11a9bec7c5b6ecfc8507dc8b1e02c6d8/si5.svg si5 si5.svg svg 8123 ALTIMG 1-s2.0-S2468823121002212-si6.svg https://s3-eu-west-1.amazonaws.com/prod-ucs-content-store-eu-west/content/pii:S2468823121002212/STRIPIN/image/svg+xml/e8e1f24c966a42c23c737b94746b46a5/si6.svg si6 si6.svg svg 9502 ALTIMG 1-s2.0-S2468823121002212-si7.svg https://s3-eu-west-1.amazonaws.com/prod-ucs-content-store-eu-west/content/pii:S2468823121002212/STRIPIN/image/svg+xml/070207994cfb00347f07c4492349d29f/si7.svg si7 si7.svg svg 566 ALTIMG 1-s2.0-S2468823121002212-si8.svg https://s3-eu-west-1.amazonaws.com/prod-ucs-content-store-eu-west/content/pii:S2468823121002212/STRIPIN/image/svg+xml/656ea3b12cac5a61136f8a8ef6bf5103/si8.svg si8 si8.svg svg 7314 ALTIMG 1-s2.0-S2468823121002212-am.pdf https://s3-eu-west-1.amazonaws.com/prod-ucs-content-store-eu-west/content/egi:10VVNGSPLJX/MAIN/application/pdf/bdad441f9ec1c717d3ef15c426e40dc4/am.pdf am am.pdf pdf false 4775736 AAM-PDF MCAT 111604 111604 S2468-8231(21)00221-2 10.1016/j.mcat.2021.111604 Elsevier B.V. Scheme 1 The anthraquinone hydrogenation/oxidation reaction route [8]. Scheme 1 Fig. 1 XRD patterns of the Pd/SD/C, Ga/SD/C, Ag/SD/C and Pd-N/SD/C catalysts. (a) 0.3% Pd-0.6% Ag/SD/C; (b) 0.45% Pd-0.45% Ag/SD/C; (c) 0.6% Pd-0.3% Ag/SD/C; (d) 0.3% Pd-0.6% Ga/SD/C; (e) 0.45% Pd-0.45% Ga/SD/C; (f) 0.6% Pd-0.3% Ga/SD/C; (g) 0.9% Ag/SD/C; (h) 0.9% Ga/SD/C; (i) 0.9% Pd/SD/C. Fig 1 Fig. 2 H2-TPR profiles of Pd/SD/C, Ga/SD/C, Ag/SD/C and Pd-N/SD/C catalysts. (A) (a) 0.9% Ga/SD/C; (b) 0.3% Pd-0.6% Ga/SD/C; (c) 0.45% Pd-0.45% Ga/SD/C; (d) 0.6% Pd-0.3% Ga/SD/C; (e) 0.9% Pd/SD/C. (B) (a) 0.9% Ag/SD/C; (b) 0.3% Pd-0.6% Ag/SD/C; (c) 0.45% Pd-0.45% Ag/SD/C; (d) 0.6% Pd-0.3% Ag/SD/C; (e) 0.9% Pd/SD/C. Fig 2 Fig. 3 SEM photos of 0.6% Pd-0.3% Ga/SD/C (a), (b); TEM photos and Pd particle size distributions of 0.9% Pd/SD/C (c), (d); 0.9% Ga/SD/C (e), (f); 0.6% Pd-0.3% Ga/SD/C (g), (h); 0.45% Pd-0.45% Ga/SD/C (i), (j); and 0.3% Pd-0.6% Ga/SD/C (k), (l). Fig 3 Fig. 4 HRTEM photos of (a) 0.9% Pd/SD/C; (b) 0.6% Pd-0.3% Ga/SD/C; and (c) 0.6% Pd-0.3% Ag/SD/C. Fig 4 Fig. 5 Pd3d, Ga2p, and Ag3d spectra of Pd/SD/C, Ga/SD/C, Ag/SD/C and Pd-N/SD/C catalysts. (A) Pd3d (a) 0.9% Pd/SD/C; (b) 0.6% Pd-0.3% Ga/SD/C; (c) 0.45% Pd-0.45% Ga/SD/C; (d) 0.3% Pd-0.6% Ga/SD/C. (B) Ga2p (a) 0.9% Ga/SD/C; (b) 0.6% Pd-0.3% Ga/SD/C; (c) 0.45% Pd-0.45% Ga/SD/C; (d) 0.3% Pd-0.6% Ga/SD/C. (C) Pd3d (a) 0.9% Pd/SD/C; (b) 0.6% Pd-0.3% Ag/SD/C; (c) 0.45% Pd-0.45% Ag/SD/C; (d) 0.3% Pd-0.6% Ag/SD/C. (D) Ag3d (a) 0.9% Ag/SD/C; (b) 0.6% Pd-0.3% Ag/SD/C; (c) 0.45% Pd-0.45% Ag/SD/C; (d) 0.3% Pd-0.6% Ag/SD/C. Fig 5 Fig. 6 The relationship between the second metal content and selectivity (a) as well as H2O2 yield (b). A, 0.9% Pd/SD/C; B, 0.72% Pd-0.18% N/SD/C; C, 0.6% Pd-0.3% N/SD/C; D, 0.45% Pd-0.45% N/SD/C; E, 0.3% Pd-0.6% N/SD/C; F, 0.18% Pd-0.72% N/SD/C. (N = Ga or Ag). Fig 6 Fig. 7 Pd and Pd-N (N = Ga and Ag) alloy structures. Fig 7 Fig. 8 The most stable eAQ (a), Pd (1 1 1)-eAQ (b), PdGa (1 1 1)-eAQ (c) and PdAg (1 1 1)-eAQ (d) structures. Fig 8 Table 1 EAQ hydrogenation catalyzed by different monolithic catalysts. Table 1 Catalyst SD washcoat content (wt.%) Pd content (wt.%) Ga or Ag content (wt.%) Selectivity towards active quinones (%) Hydrogenation efficiency (g•L−1) TOF (s−1) Pd efficiency (g H2O2•g−1 Pd•h−1) D Pd (%) S Pd (m2•g−1) Pd/SD/C 35 0.9% – 62 4.3 0.75 806 18 93 Ga/SD/C 35 0.9% – 22 0.6 0.21 – – – Pd-Ga/SD/C 35 0.6% 0.3% 90 7.4 1.26 1285 35 180 Pd-Ag/SD/C 35 0.6% 0.3% 84 6.2 1.01 900 30 155 Pd/SD/C +Ga/SD/C 35 0.6% 0.3% 76 4.8 0.83 850 – – Table 2 Different adsorption energy and bond lengths for the most stable eAQ-Pd(1 1 1)/Pd3N1(1 1 1) (N = Ga, and Ag) structures. Table 2 Model (as shown in Fig. 8) C-O (Å) PdCa (Å) Pd-Ob (Å) N-Cc (Å) NOd (Å) E ads (kcal•mol−1) eAQ 1.237 – – – – – eAQ/Pd(1 1 1) 1.285/1.286 2.276/2.268 2.382/2.372 – – 61.4 eAQ/Pd3Ga1(1 1 1) 1.275/1.271 2.681/2.702 3.095 – 2.597 59.5 eAQ/Pd3Ag1(1 1 1) 1.271/1.293 2.689/2.219 2.774 – 2.551 53.9 Pd-Ca (Ob): the distance between C/O and the nearest Pd. NCc (Od): the distance between C/O and the nearest N. High-performance Pd-N (N = Ga or Ag) bimetallic monolithic catalyst for the hydrogenation of 2-ethylanthraquinone: Experimental and DFT studies Yanyan Guo Investigation Writing - original draft a Yichun Dong Data curation Writing - review & editing b ⁎ Zhigang Lei Writing - review & editing Funding acquisition Supervision c Zhixue Liu Writing - review & editing Funding acquisition d Jiqin Zhu Writing - review & editing Funding acquisition e ⁎ a Department of Medicinal Chemistry, School of Pharmacy, Anhui University of Chinese Medicine, Hefei 230031, China Department of Medicinal Chemistry School of Pharmacy Anhui University of Chinese Medicine Hefei 230031 China aDepartment of Medicinal Chemistry, School of Pharmacy, Anhui University of Chinese Medicine, Hefei 230031, China b School of Chemistry and Chemical Engineering, Hefei University of Technology, Hefei 230009, China School of Chemistry and Chemical Engineering Hefei University of Technology Hefei 230009 China bSchool of Chemistry and Chemical Engineering, Hefei University of Technology, Hefei 230009, China c School of Chemistry and Chemical Engineering, Shihezi University, Shihezi 832003, China School of Chemistry and Chemical Engineering Shihezi University Shihezi 832003 China cSchool of Chemistry and Chemical Engineering, Shihezi University, Shihezi 832003, China d Appraisal Center for Environment and Engineering, Ministry of Ecology and Environment, Beijing 100012, China Appraisal Center for Environment and Engineering Ministry of Ecology and Environment Beijing 100012 China dAppraisal Center for Environment and Engineering, Ministry of Ecology and Environment, Beijing 100012, China e State Key Laboratory of Chemical Resource Engineering, Beijing University of Chemical Technology, Box 266, Beijing 100029, China State Key Laboratory of Chemical Resource Engineering Beijing University of Chemical Technology Box 266 Beijing 100029 China eState Key Laboratory of Chemical Resource Engineering, Beijing University of Chemical Technology, Box 266, Beijing 100029, China ⁎ Corresponding author. The catalytic performance of Pd-N/Silicon Dioxide/Cordierite (Pd-N/SD/C) (N = Ga and Ag) bimetallic monolithic catalysts for 2-ethylanthraquinone (eAQ) hydrogenation was investigated. Catalyst characterization by HRTEM, XPS, and TPR reveal that Pd-Ga/SD/C can form an alloy structure to produce significant synergetic effects. Moreover, the use of different Pd/Ga mass ratio in catalysts reveals that when the mass ratio of Pd and Ga/Ag = 2:1, Pd-Ga/SD/C obtains the highest yield of H2O2 and selectivity toward active quinones, which can reach 7.4 g L−1 and 90%. Moreover, to have a deep understanding of the eAQ-PdN(1 1 1) or eAQ-Pd(1 1 1) interaction mechanism, the calculation of eAQ adsorption on Pd-N/SD/C catalysts surface was performed by density functional theory (DFT). It is shown that the higher catalytic activity over Pd-Ga/SD/C is due to the stronger carbonyl group of eAQ adsorption on Pd3Ga1 (1 1 1). Graphical abstract Image, graphical abstract Keywords Pd-Ga (Ag)/silicon dioxide/Cordierite eAQ hydrogenation DFT calculation Synergy 1 Introduction Hydrogen peroxide (H2O2), an environmental friendly oxidizing agent and important green chemical raw material, is applied in many industrial fields [1–6]. In industry, anthraquinone process is the most widely used method, by which more than 98% of H2O2 is produced. This process consists of two steps: the first step is that 2-ethyl-9,10-anthrahydroquinone (eAQH2) is obtained by the hydrogenation of 2-ethyl-9,10-anthraquinone (eAQ); the second step is that eAQH2 is oxidized by O2 to generate eAQ and H2O2 (see Scheme 1 ). In the above process, besides target products (i.e., eAQ, eAQH2 and H4eAQH2), nontarget products (2-ethyl-anthrone (eAN), 2-ethyloxoanthrone (OXO), 2-ethyl-tetrahydro-anthrone (H4eAN), and octahydroanthrahydroquinone (H8eAQH2)) cannot produce H2O2 [7]. At present, Pd supported pellet catalysts are the most extensively applied in the process of eAQ hydrogenation, originating from better selectivity and H2O2 yield compared to other pellet catalysts. However, because eAQ hydrogenation reaction is a fast reaction, mass transfer plays a key role for the catalytic performances [8–13]. Moreover, pellet catalysts have bad mass transfer performance. The monolithic catalysts have the advantages of high mass transfer performance, low internal and external diffusion resistances, resulting in increasing the catalytic performance. Thus, in this work, the monolithic catalysts instead of pellet catalysts were proposed to be used in the process of eAQ hydrogenation. The selectivity and yield of H2O2 over Pd/SiO2/Cordierite monolithic catalysts and Pd/Al2O3 pellet catalysts was first investigated in the process of eAQ hydrogenation in our previous work, and it was shown that the monolithic catalysts have better selectivity and H2O2 yield than pellet catalysts due to higher mass transfer performance [14]. Because the modification of active sites and support of catalysts can improve the catalytic activities. Thus, in this work, based on the monolithic catalysts, we want to modify the active sites of the monolithic catalysts to further increase the catalytic activities in the process of eAQ hydrogenation. Moreover, many studies showed that Pd-Ga and Pd-Ag bimetallic catalysts presents better catalytic performance compared to Pd monometallic catalysts in hydrogenation reactions [15–22]. For example, Pd–Ga bimetallic catalysts exhibited higher selectivity than Pd catalyst in the selective hydrogenation of CO2 to ethanol, ascribed to Pd-Ga hampering the decomposition of CH3OH and CO production [17]. Iwasa and coworkers reported that the Pd–Ga bimetal can improve the selectivity to CO2 in the steam reforming of methanol, due to Pd-Ga alloy forming [18,19]. In addition, Pd–Ag bimetallic catalysts increased the selectivity in the selective hydrogenation of acetylene [20]. Pd–Ag bimetallic catalysts were also used for the hexa-1,5-diene hydrogenation, and the results showed that Pd-Ag bimetallic catalysts can improve the hex‑1-ene fractional selectivity and activity, attributed to Pd-Ag alloy forming [21]. For the selective hydrogenation of acetylene, the selectivity towards ethylene is improved by Pd-Ag bimetallic catalysts [22]. Therefore, the synergy between Pd and Ga or Ag show the possibility for improving the yield of H2O2 and selectivity in the process of eAQ hydrogenation. Thus, it is interesting to extend the Pd-Ga (Ag)/silicon dioxide/Cordierite (Pd-Ga (Ag)/SD/C) catalysts to the process of eAQ hydrogenation. This work is focused on improving catalytic performance (i.e., selectivity and H2O2 yield) by the addition of Ga or Ag into Pd/SD/C monolithic catalyst, and the content can be divided in to three parts: (i) preparing a great number of Ga, Ag and Pd-N (N = Ga, or Ag) monolithic catalysts by the co-impregnation method. (ii) investigating the morphology of monolithic catalysts using different characterizations to reveal the synergy between Pd and Ga or Ag. (iii) calculating eAQ-Pd/PdN interaction by DFT to further understand eAQ hydrogenation. 2 Experimental 2.1 Materials Commercial cordierite (Shanghai xinmao precision ceramics technology Co. LTD); Ga(NO)3•9H2O (AR, Aladdin, China); AgNO3 (AR, Aladdin, China); and SiO2 sol (30 wt%, Sigma Aldrich, China). 2.2 Catalyst preparation 2.2.1 Silicon dioxide/cordierite (SD/C) The surface area of purchased cordierites (C) is low so that the active sites on its surface are not sufficient for active species. Thus, silicon dioxide (SD) as washcoat are introduced into the cordierite to obtain SD/C support to increase surface area. The following procedures are shown in our previous work [14]. 2.2.2 Monolithic catalysts (Pd-N (N = Ga or Ag)/Sd/C) A great number of Ga, Ag monometallic and Pd-N (N = Ga, Ag) bimetallic monolithic catalysts were obtained by incipient wetness co-impregnation method. First, PdCl2 aqueous solution, GaCl2 aqueous solution, AgNO3 aqueous solution, the mixed solution of GaCl2 and PdCl2, and the mixed solution of PdCl2 and AgNO3 were prepared after the metal salts are dissolved into water and then stirred for 45 min. Then these SD/C were immersed into these five solutions at 100 °C for 6 h to obtain Ga, Ag and Pd-N (N = Ga, or Ag) monolithic catalysts precursors. After the obtained precursors was dried at 100 °C, and calcined at 550 °C for 4 h in air, Ga, Ag and Pd-N (N = Ga, or Ag) monolithic catalysts oxide species were obtained. Before the catalytic hydrogenation, these obtained oxide species should be reduced using H2 gas, and then Ga/SD/C, Ag/SD/C, and Pd-N/SD/C (N = Ga, or Ag) monolithic catalysts were obtained. Herein, the SD washcoat and metal (Pd, Ga or Ag) loading were calculated in view of the weight of monolithic catalyst including C and SD and the weight of SD washcoat, respectively. Moreover, the metal (Pd, Ga or Ag) loading was analyzed by inductively coupled plasma-atomic emission spectrometry (ICP-AES). 2.3 Catalyst characterization X-ray diffraction (XRD) was carried out on D8 Advance with Cu-Kα radiation. Scanning electron microscopy (SEM) was performed on JSM-6701F with a 5.0 kV accelerating voltage. Transmission electron microscopy (TEM) was recorded on a JEOL-2100 transmission electron microscope. Temperature programmed reduction with hydrogen (H2-TPR) were carried out on a Quantachrome ChemBET-3000 chemisorption instrument connected with an online mass spectrometer (Proline Dycor, AMETEK Process Instrument, USA). X-ray photoelectron spectroscopy (XPS) spectra was performed on ESCALAB 250 X-ray photoelectron spectrometer and all of XPS spectra were corrected at C1 peak = 284.6 eV. Inductively coupled plasma atomic emission spectrometry (ICP-AES) was performed on a Optima 2100DV ICP optical emission spectrometer with axial plasma viewing to identify the actual metal loading of catalysts. The H2–O2 titration was carried out on a Tianjin XQ TP-5080 autoadsorption system, as shown in published publication [22]. The Pd dispersion (D Pd) and Pd metal surface area (S Pd) were expressed by [23]: (1) D P d ( % ) = 2 × V H × M P d × 10 − 3 3 × 22.4 × m × w × 100 (2) S P d ( m 2 · g − 1 ) = 2 × V H × N × σ × 10 − 3 3 × 22.4 × m × w × 100 where V H, M Pd, m and w are the volume of H2 used for the titration of O2 (mL), the mole mass of Pd (g•mol−1), the catalyst weight (g), and the mass fraction of Pd (%), respectively. N and σ are Avogadro's constant (6.023 × 1023) and the atomic cross sectional area of Pd (0.083 nm2), respectively. 2.4 Catalytic performance The hydrogenation activities (i.e., selectivity and H2O2 yield) of Ga/SD/C, Ag/SD/C and Pd-N/SD/C (N = Ga, Ag) catalysts were measured in a stainless steel fixed-bed reactor, and the diameter and height of the reactor are 20 and 450 mm, respectively. Before the reaction, the working solution can be obtained by dissolving eAQ powder (7.2 g) into the mixed solution consisting of trioctyl phosphate (30 mL) and industrial grade C9 aromatics (90 mL). Ten monolithic catalysts (ϕ20 × 10 mm) were put into the fixed-bed at the constant temperature reaction zone. After these monolithic catalyst precursors in the reactor were reduced by H2 gas at 150 °C for 2 h, monolithic catalysts are obtained. After the catalyst reduction, eAQ, which originated from the working solution with 10 mL•min−1 flow rate, reacted with H2 gas using 0.7 mL•min−1 flow rate at 80 °C. The detailed operating parameters are given in our published work [14]. After the hydrogenation reaction was complete, the hydrogenated working solution was oxidized with air originating from air generator (GC-ready SPB-5000 Automatic Air Source, China) for 30 min at 25 °C and 101 kPa. After the oxidization reaction was complete, the obtained solution was first extracted by distilled water, and then the extracted solution with the addition of 10 mL H2SO4 solution (25 wt.%) was titrated by potassium permanganate solution to measure the amount of H2O2 The H2O2 yield (B) (3) B = 5 C KMn O 4 × V KMn O 4 × M H 2 O 2 2 V The catalyst selectivity (S) (4) S = n eAQ + n H 4 eAQ n 0 ( eAQ ) · 100 % The turnover frequency (TOF) (5) T O F = n 0 C n c a t t (6) n c a t = mw M P d D P d where C KMnO4, V KMnO4 and V represent the concentration of KMnO4 solution (mol•L−1), the volumes of KMnO4, and H2O2 solutions (mL), respectively; S is the selectivity toward active quinones (eAQ and H4eAQ); n 0 and n are the molar concentrations of components in the initial working solution and oxidized solution (mol•L−1), respectively; n cat is the mole number of exposed Pd atom; and C is the conversion of eAQ at the reaction time t. 2.5 Computational section In this work, based on the first-principles, density functional theory (DFT) calculation, along with a plane wave basis set, was performed with the Vienna Ab-Initio Simulation Package (VASP) [24,25]. The projector augmented wave (PAW) method to describe the electron interaction [26,27], suitable for accurate calculation of transition metals (Ga and Ag), were used in this calculation. The generalized gradient approximation (GGA), describing the exchange–correlation functional, was put forward by Perdew, Burke, and Ernzerhof (PBE) [28]. Calculations were all based on 2 × 2 × 1 k-point mesh. The plane wave cutoff energy was set to 400 eV. The force less than 0.05 eV•Å −1 and energy differences less than 4 × 10−6 eV were set as the criterion of convergence. The Pd3N1 (N = Ga or Ag) and pure Pd models are shown in Fig. 7. After optimization, the lattice constants (a = b = c) for Pd, Pd3Ga1, and Pd3Ag1 are 3.94, 4.00, and 3.99 Å, respectively, in good agreement with the published values in previous literatures [29,30]. A 3-layer slab with p(3 × 2) supercell was used to model Pd(111), Pd3Ga1(111), and Pd3Ag1(111) surfaces, and in order to calculate accurately, the first layer Pd atoms and the adsorbed eAQ molecule are relaxed, while the rest of Pd atoms are fixed. To ensure the adsorbate (eAQ) and the subsequent slab cannot contact with each other, a vacuum gap is higher than 10 Å. To calculate the adsorption energies (E ads) of adsorbates, the following expression is used: (7) E a d s = E a d + E s u b − − E a d / s u b where E ad, E sub, E ad/sub are the DFT total energies of the gas-phase adsorbate, substrate, and adsorbate complex, respectively. 3 Results and discussion 3.1 Characterizations of catalysts Pd-N/SD/C catalysts with different second metal (Ga or Ag) were characterized by XRD to confirm the structure characteristics, as shown in Fig. 1 . C characteristic peaks for all of Pd-N/SD/C, Pd/SD/C, Ga/SD/C and Ag/SD/C catalysts agrees well with the XRD standard PDF card no. 83–1385. But the characteristic peaks of Pd, Ga, and Ag species cannot be detected, due to the good dispersion of these metal species on monolithic catalyst surface [31]. Fig. 2 shows the reducibility curves of Ga, Ag monometallic and Pd-N (N = Ga, Ag) bimetallic monolithic catalysts, which are measured by H2-TPR. For Ga/SD/C, there exists only a reduction peak, which is ascribed to the reduction of Ga2O3. For Ag/SD/C, there exists only a reduction peak, which is ascribed to the reduction of AgO. In addition, there are not positive reduction peaks for Pd/SD/C, ascribed to the easy reduction of PdOx at low temperature [32]. But there exist a −80 °C characteristic peak on reduction curve of Pd/SD/C, ascribed to the decomposition of PdH originating from the Pd first interacting with H2 gas. The particle size is vital for the reducibility of catalysts, as reported in previous publications [33–35]. Moreover, many authors showed that formed bimetallic alloy catalysts by adding Ag, or Cu can suppress PdH forming [36–38]. For these investigated catalysts, PdH peak cannot be detected on the reduction curves of Pd-N/SD/C (N = Ga or Ag) catalysts, revealing Pd-N alloy (N = Ga or Ag) forming. As shown in Fig. 2, as Pd loading increases, the reduction peak shifts to lower temperature, which is ascribed to the hydrogen spillover from Pd to Ga or Ag, thus promoting the reduction of Ga or Ag. The morphologies and the particle size distribution of monolithic catalysts were characterized by SEM, TEM and HRTEM, respectively, as shown in Figs. 3 and 4 . It can be seen that there exists a thin layer of SD washcoat on the monolithic catalyst surface [39–40]. Moreover, the metal particles exhibit good dispersion. The mean particle sizes of 0.9% Pd/SD/C, 0.9% Ga/SD/C, 0.6% Pd-0.3% Ga/SD/C, 0.45% Pd-0.45% Ga/SD/C, and 0.3% Pd-0.6% Ga/SD/C catalysts are 7.5, 3.2, 4.4, 3.8, and 3.3 nm, respectively, which is calculated by selecting 60 metal particles originating from different HRTEM regions. As the increase of Ga loading, the particle size decreases. The surface energy of Pd (2.1 J m − 2) is higher than that of Ga (3.5 J m−2), which indicates that Pd diffuse faster than Ga, leading to Pd accumulation [41]. Therefore, 0.6% Pd-0.3% Ga/SD/C and 0.45% Pd-0.45% Ga/SD/C exhibit higher selectivity and H2O2 yield than 0.9% Pd/SD/C, which is ascribed to the addition of Ga preventing Pd accumulation and thus resulting in Pd dispersing better on catalyst surface. Although 0.3% Pd-0.6% Ga/SD/C has the smaller particle size than 0.6% Pd-0.3% Ga/SD/C and 0.45% Pd-0.45% Ga/SD/C bimetallic monolithic catalyst, it has lower selectivity and H2O2 yield than 0.6% Pd-0.3% Ga/SD/C and 0.45% Pd-0.45% Ga/SD/C bimetallic monolithic catalyst, which is mainly ascribed to Ga depositing on Pd surface, resulting in Ga covering Pd. The results from HRTEM graphs demonstrate that the lattice plane spacings for 0.9% Pd/SD/C, 0.6% Pd-0.3% Ga/SD/C and 0.6% Pd-0.3% Ag/SD/C bimetallic monolithic catalysts are 0.227, 0.219, and 0.215 nm, respectively, corresponding to Pd(111), PdGa(111), and PdAg(111) lattice planes, revealing PdN alloy forming. We used XPS spectra to measure the binding energy of Pd, Ga, and Ag in different monolithic catalysts, as shown in Fig. 5 . For Pd/SD/C, the two main Pd3d spectrum peaks for Pd 3d5/2 and Pd 3d3/2 of Pd0 are 335.3 and 340.5 eV, respectively, in good agreement with previous publications [42,43]. Compared with Pd/SD/C, the binding energy for Pd 3d5/2 and Pd 3d3/2 in Pd-N/SD/C (N = Ga or Ag) bimetallic catalysts is 0.2–1.0 eV higher than reported values, ascribed to Pd transferring charge to Ga or Ag. For Ga/SD/C, the binding energies for Ga 2p3/2 and Ga 2p1/2 are 1118.4 eV and 1145.4 eV, in good agreement with previous publication for pure Ga [41]. For Pd-Ga bimetallic catalysts, Ga 2p3/2 and Ga 2p1/2 have a shift toward lower binding energies, in good agreement with the Pd XPS results, demonstrating Pd transferring electron to Ga in Pd-Ga/SD/C. For Ag/SD/C, Ag 3d spectrum for Ag 3d3/2 (374.2 eV) and Ag 3d5/2 (368.2 eV) is consistent with previous publication for pure Ag [44]. For Pd-Ag bimetallic monolithic catalysts, Ag 3d3/2 and Ag 3d5/2 shift to the lower binding energies, in good agreement with Pd XPS data, thus demonstrating Pd transferring electron to Ag in Pd-Ag/SD/C. The synergistic electronic effect, Pd can transfer electron to the Ga or Ag, can facilitate the products rapidly leave from catalysts surface, therefore improving the catalytic performance. H2–O2 titration was applied for investigating the Pd dispersion and Pd-specific surface area of Pd monometallic and Pd-N/SD/C (N = Ga or Ag) bimetallic monolithic catalysts, due to the second metal playing a crucial role on the dispersion degree and specific surface area for Pd. Table 1 shows that Pd-Ga/SD/C has a better Pd dispersion than Pd-Ag/SD/C at the same amount of Pd loading, indicating that the migration and aggregation of Pd can be prevented better after the addition of Ga, resulting in Pd-Ga/SD/C bimetallic monolithic catalysts having better Pd dispersion. In addition, Pd-N/SD/C (N = Ga or Ag) has the higher Pd dispersion and Pd-specific surface area than Pd/SD/C, which demonstrates that the agglomeration of Pd on Pd/SD/C catalyst surface can be prevented after adding a small amount of Ga or Ag, which agrees with HRTEM results, revealing the strong synergy between Pd and Ga or Ag. 3.2 Activity evaluation The Pd/SD/C, Ga/SD/C, and Pd-N/SD/C (N = Ga or Ag) monolithic catalysts were investigated in the fixed-bed reactor for eAQ hydrogenation. As shown in Table 1, 4.3 g L−1 H2O2 is achieved over 0.9% Pd/SD/C, while 0.9% Ga/SD/C only achieve 0.6 g L−1 H2O2. Meanwhile, considering the selectivity, the Ga/SD/C exhibited very low activity in the hydrogenation of eAQ to active quinones. When Ga or Ag are incorporated into with Pd, as shown in Fig. 6 , it can be seen that 0.6% Pd-0.3%Ga/SD/C have the highest selectivity (90%) and H2O2 yield (7.4 g L−1). As shown in Table 1, Pd-Ga/SD/C has higher selectivity and H2O2 yield than Pd/SD/C and Ga/SD/C. Moreover, the mixture of Pd/SD/C and Ga/SD/C has lower selectivity and H2O2 yield than Pd-Ga/SD/C, which is ascribed to the formation of PdGa alloy. On one hand the higher selectivity and H2O2 yield for Pd-Ga/SD/C is ascribed to the synergistic effect, as determined by the characterization results (i.e., HRTEM, XPS, and TPR), on the other hand the higher selectivity and H2O2 yield for Pd-Ga/SD/C is ascribed to Pd3Ga1 (111) strongly interacting with carbonyl group (C=O) of eAQ, as determined by DFT calculation. Because the selectivity and H2O2 yield of monolithic catalysts are largely influenced by the content of metal, the catalytic performance of Pd-N/SD/C with various Pd/N (N = Ga or Ag) mass ratio were further studied. The results showed that there is an optimal value for the Pd/N (N = Ga or Ag) mass ratio, namely 2, at which Pd-N/SD/C obtain the highest selectivity and H2O2 yield. Increasing Pd/N (N = Ga or Ag) mass ratio results in the accumulation of Pd to decrease metal dispersion, thus decreasing catalytic performance. Low metal loading can increase metal dispersion, but the active sites is not enough for hydrogenation. Due to adding the second metal leading to Pd dispersing better, 0.6% Pd-0.3% N/SD/C (N = Ga or Ag) exhibit higher TOF than Pd/SD/C. 3.3 DFT calculations The experimental results showed that the high selectivity and H2O2 yield are ascribed to the synergy between Pd and Ga or Ag, but the detail mechanism for synergy Pd-N and reactants is not clear. Thus, the reaction mechanism is investigated by DFT calculation in this work. For Pd-based catalysts, in terms of the previous publications, Langmuir-Hinshelwood (L-H) mechanism is main mechanism for AQ hydrogenation [45], which includes three steps, i.e., the adsorption of AQ, the adsorption and decomposition of H2 to two hydrogen atoms to absorb on Pd atom, and then AQ react with H2 to produce AQH2. The results showed the adsorption energy of the most stable structure (Pd-AQ) is 44.3 kcal•mol−1, the second step is facile (3.9 kcal•mol−1) and the low reaction barrier for the hydrogenation of AQ is facile (16.1 kcal•mol−1). Therefore, eAQ adsorption on Pd/Pd-N (N = Ga or Ag) monolithic catalysts is vital, which was investigated to provide a deep understanding for reaction mechanism. Here, Pd3Ga1, Pd3Ag1, and pure Pd were used to model Pd-N alloys and Pd. As reported by previous literatures [45], there are four most relevant structures for these models (i.e., Pd3Ga1, Pd3Ag1 and pure Pd) were selected from many possible adsorption structures. Moreover, according to the calculated results, we found the most stable adsorption structure among these four models, as shown in Fig. 8 . Meanwhile, there are three possible adsorption structures for these models, as listed in Fig. S1. Tables 2 and S1 list the adsorption energies (E ads) and bond lengths of different structures. Other possible adsorption structures are summarized in Figure S2. In the most stable eAQ-Pd (1 1 1) model, two O atoms of C=O and two benzene rings of eAQ are adsorbed at bridge positions. Moreover, the length of C=O in the above structure is 0.048, which is longer than that in single eAQ, ascribed to the carbonyl π bond interacting with the Pd (1 1 1) surface, as demonstrated in previous publication [45]. The adsorption energy for eAQ on Pd(1 1 1) surface is 61.4 kcal•mol−1, which is a little higher than that of eAQ-Pd3Ga1 (1 1 1) (59.5 kcal•mol−1) and eAQ-Pd3Ag1 (1 1 1) (53.9 kcal•mol−1) models, due to the stronger affinity between benzene ring and Pd (not Ga or Ag) [46]. Moreover, the decrease is small, indicating that C=O interacting strongly with Ga or Ag makes up the decrease of adsorption energy originating from the weak affinity. The bond (i.e., C=O, Pd-C/NC, and Pd-O) (N = Ga and Ag) of eAQ-PdN adsorption model are longer than that of eAQ-Pd (1 1 1) adsorption model, revealing the weaker benzene ring bonding and the stronger C=O, as listed in Tables 2 and S1. Meanwhile, the NO bond (N = Ga and Ag) have a significant reduction than Pd-O, revealing C=O strongly bonding with Ga or Ag. Therefore, due to the stronger adsorption between C=O and the Pd-N (N = Ga and Ag) alloy, Pd-N/SD/C present the better catalytic performance than Pd/SiO2/COR. 4 Conclusions We have developed the novel bimetallic monolith catalysts (Pd-Ga/SD/C and Pd-Ag/SD/C) for eAQ hydrogenation in this work. It was demonstrated that adding Ga or Ag to Pd/SD/C can increase the selectivity and H2O2 yield, especially for Ga, which is ascribed to Pd strongly interacting with the second metal. Moreover, the 0.6% Pd-0.3% Ga/SD/C exhibits the highest H2O2 yield (7.4 g•L−1) and selectivity (90%), which is ascribed to Pd strongly interacting with Ga. Moreover, the effect of Ga or Ag decoration at Pd has been confirmed by DFT calculations. DFT calculation revealed that the stronger interaction between carbonyl group of eAQ with Pd-Ga alloy leads to the higher catalytic activity (i.e., selectivity and H2O2 yield), which is ascribed to Ga decoration at Pd can also modify the electronic structure of surface Pd and thus influence the C=O adsorption. This work provides a theoretical basis to further explore eAQ hydrogenation mechanism on Pd/SD/C and Pd-N/SD/C catalysts. CRediT authorship contribution statement Yanyan Guo: Investigation, Writing - original draft. Yichun Dong: Data curation, Writing - review & editing. Zhigang Lei: Writing - review & editing, Funding acquisition, Supervision. Zhixue Liu: Writing - review & editing, Funding acquisition. Jiqin Zhu: Writing - review & editing, Funding acquisition. Declaration of Competing Interest The authors declare that they have no known competing financial interests or personal relationships that could have appeared to influence the work reported in this paper. Acknowledgement This work is financially supported by the National Key R&D Program of China (No. 2018YFB0604902 and No. 2019YFC1711300), National Natural Science Foundation of China (No. 21978010 and 21975016), Anhui University of Chinese Medicine Foundation (No. 2020py03), Natural Science Foundation of Anhui Province (No. 2008085QB75), Innovation Project of China Energy Investment (No. GJNY-18-62) and Anhui Province University Natural Science Research Project - Key Project (No. KJ2020A0440). Supplementary materials Supplementary material associated with this article can be found, in the online version, at doi:10.1016/j.mcat.2021.111604. Appendix Supplementary materials Image, application 1 References [1] X. Li H. Su D. Li H. Chen X. Yang S. Wang Highly dispersed Pd/AlPO-5 catalyst for catalytic hydrogenation of 2-ethylanthraquinone Appl. Catal. A: Gen 528 2016 168 174 X. Li, H. Su, D. Li, H. Chen, X. Yang, S. Wang, Highly dispersed Pd/AlPO-5 catalyst for catalytic hydrogenation of 2-ethylanthraquinone, Appl. Catal. A: Gen528 (2016) 168-174. [2] E. Santacesaria M.D. Serio R. Velotti U. Leone Kinetics, Mass Transfer, and Palladium Catalyst Deactivation in the Hydrogenation Step of the Hydrogen Peroxide Synthesis via Anthraquinone Ind. Eng. Chem. Res. 33 1994 277 284 E. Santacesaria, M.D. Serio, R. Velotti, U. Leone, Kinetics, Mass Transfer, and Palladium Catalyst Deactivation in the Hydrogenation Step of the Hydrogen Peroxide Synthesis via Anthraquinone, Ind. Eng. Chem. Res.33 (1994) 277–284. [3] H. Shang H. Zhou Z. Zhu W. Zhang Study on the new hydrogenation catalyst and processes for hydrogen peroxide through anthraquinone route J. Ind. Eng. Chem. 18 2012 1851 1857 H. Shang, H. Zhou, Z. Zhu, W. Zhang, Study on the new hydrogenation catalyst and processes for hydrogen peroxide through anthraquinone route, J. Ind. Eng. Chem.18 (2012) 1851–1857. [4] J.M. Campos-Martin G. Blanco-Brieva J.L.G. Fierro Hydrogen peroxide synthesis: an outlook beyond the anthraquinone process Angew. Chem. 38 2007 6962 6984 J.M. Campos-Martin, G. Blanco-Brieva, J.L.G. Fierro, Hydrogen peroxide synthesis: an outlook beyond the anthraquinone process, Angew. Chem.38 (2007) 6962–6984. [5] V. Paunovic V. Ordomsky M.F.N. D'Angelo J.C. Schouten T.A. Nijhuis Direct synthesis of hydrogen peroxide over Au–Pd catalyst in a wall-coated microchannel J. Catal. 309 2014 325 332 V. Paunovic, V. Ordomsky, M.F.N. D'Angelo, J.C. Schouten, T.A. Nijhuis, Direct synthesis of hydrogen peroxide over Au–Pd catalyst in a wall-coated microchannel, J. Catal.309 (2014) 325–332. [6] L. Ouyang G.J. Da P.F. Tian T.Y. Chen G.D. Liang J. Xu Y.F. Han Insight into active sites of Pd–Au/TiO2 catalysts in hydrogen peroxide synthesis directly from H2 and O2 J. Catal. 311 2014 129 136 L. Ouyang, G.J. Da, P.F. Tian, T.Y. Chen, G.D. Liang, J. Xu, Y.F. Han, Insight into active sites of Pd–Au/TiO2 catalysts in hydrogen peroxide synthesis directly from H2 and O2, J. Catal.311 (2014) 129–136. [7] H. Chen D. Huang X. Su J. Huang X. Jing M. Du D. Sun L. Jia Q. Li Fabrication of Pd/gamma-Al2O3 catalysts for hydrogenation of 2-ethyl-9,10-anthraquinone assisted by plant-mediated strategy Chem. Eng. J. 262 2015 356 363 H. Chen, D. Huang, X. Su, J. Huang, X. Jing, M. Du, D. Sun, L. Jia, Q. Li, Fabrication of Pd/gamma-Al2O3 catalysts for hydrogenation of 2-ethyl-9,10-anthraquinone assisted by plant-mediated strategy, Chem. Eng. J.262 (2015) 356–363. [8] Y. Guo C. Dai Z. Lei Hydrogenation of 2-Ethylanthraquinone with Monolith Catalysts: An Experimental and Modeling Study Chem. Eng. Sci. 172 2017 370 384 Y. Guo, C. Dai, Z. Lei, Hydrogenation of 2-Ethylanthraquinone with Monolith Catalysts: An Experimental and Modeling Study, Chem. Eng. Sci.172 (2017) 370–384. [9] J. Zhang D. Li Y. Zhao Q. Kong S. Wang A Pd/Al2O3/cordierite monolithic catalyst for hydrogenation of 2-ethylanthraquinone Catal. Commun. 9 2008 2565 2569 J. Zhang, D. Li, Y. Zhao, Q. Kong, S. Wang, A Pd/Al2O3/cordierite monolithic catalyst for hydrogenation of 2-ethylanthraquinone, Catal. Commun.9 (2008) 2565–2569. [10] R. Kosydar A. Linkiewicz E. Lalik J. Gurgual The role of alkali modifiers (Li, Na, K, Cs) in activity of 2%Pd/Al2O3 catalysts for 2-ethyl-9,10-anthraquione hydrogenation Appl. Catal. A: Gen. 402 2011 121 131 R. Kosydar, A. Linkiewicz, E. Lalik, J. Gurgual, The role of alkali modifiers (Li, Na, K, Cs) in activity of 2%Pd/Al2O3 catalysts for 2-ethyl-9,10-anthraquione hydrogenation, Appl. Catal. A: Gen.402 (2011) 121–131. [11] C. Shen Y. Wang J. Xu Y. Lu G. Luo Preparation and the hydrogenation performance of a novel catalyst-Pd nanoparticles loaded on glass beads with an egg–shell structure Chem. Eng. J. 173 2011 226 232 C. Shen, Y. Wang, J. Xu, Y. Lu, G. Luo, Preparation and the hydrogenation performance of a novel catalyst-Pd nanoparticles loaded on glass beads with an egg–shell structure, Chem. Eng. J.173 (2011) 226–232. [12] Y. Zhu L. Yu X. Wang Y. Zhou H. Ye A novel monolithic Pd catalyst supported on cordierite with graphene coating Catal. Commun. 40 2013 98 102 Y. Zhu, L. Yu, X. Wang, Y. Zhou, H. Ye, A novel monolithic Pd catalyst supported on cordierite with graphene coating, Catal. Commun.40 (2013) 98–102. [13] X. Li H. Su G. Ren S. Wang A highly stable Pd/SiO2/cordierite monolith catalyst for 2-ethyl-anthraquinone hydrogenation RSC Adv 5 2015 100968 100977 X. Li, H. Su, G. Ren, S. Wang, A highly stable Pd/SiO2/cordierite monolith catalyst for 2-ethyl-anthraquinone hydrogenation, RSC Adv. 5 (2015) 100968–100977. [14] Y. Guo C. Dai Z. Lei B. Chen X. Fang Synthesis of hydrogen peroxide over Pd/SiO2/COR monolith catalysts by anthraquinone method Catal. Today 276 2016 36 45 Y. Guo, C. Dai, Z. Lei, B. Chen, X. Fang, Synthesis of hydrogen peroxide over Pd/SiO2/COR monolith catalysts by anthraquinone method, Catal. Today276 (2016) 36–45. [15] D.V. Glyzdova A.A. Vedyagin A.M. Tsapina V.V. Kaichev A.L. Trigub M.V. Trenikhin D.A. Shlyapin P.G. Tsyrulnikov A.V. Lavrenov A study on structural features of bimetallic Pd-M/C (M: Zn, Ga, Ag) catalysts for liquid-phase selective hydrogenation of acetylene Appl. Catal. A: Gen 563 2018 18 27 D.V. Glyzdova, A.A. Vedyagin, A.M. Tsapina, V.V. Kaichev, A.L. Trigub, M.V. Trenikhin, D.A. Shlyapin, P.G. Tsyrulnikov, A.V. Lavrenov, A study on structural features of bimetallic Pd-M/C (M: Zn, Ga, Ag) catalysts for liquid-phase selective hydrogenation of acetylene, Appl. Catal. A: Gen. 563 (2018) 18-27. [16] D.V. Glyzdova N.S. Smirnova N.N. Leont'eva E.Y. Gerasimov I.P. Prosvirin V.I. Vershinin D.A. Shlyapin P.G. Tsyrulnikov Synthesis and characterization of Sibunit-supported Pd–Ga, Pd–Zn, and Pd–Ag catalysts for liquid-phase acetylene hydrogenation Kinet. Catal. 58 2017 140 146 D.V. Glyzdova, N.S. Smirnova, N.N. Leont'eva, E.Y. Gerasimov, I.P. Prosvirin, V.I. Vershinin, D.A. Shlyapin, P.G. Tsyrulnikov, Synthesis and characterization of Sibunit-supported Pd–Ga, Pd–Zn, and Pd–Ag catalysts for liquid-phase acetylene hydrogenation, Kinet. Catal.58 (2017) 140-146. [17] S.E. Collins J.J. Delgado C. Mira J.J. Calvino S. Bernal D.L. Chiavassa M.A. Baltanas A.L. Bonivardi The role of Pd–Ga bimetallic particles in the bifunctional mechanism of selective methanol synthesis via CO2 hydrogenation on a Pd/Ga2O3 catalyst J. Catal. 292 2012 90 98 S.E. Collins, J.J. Delgado, C. Mira, J.J. Calvino, S. Bernal, D.L. Chiavassa, M.A. Baltanas, A.L. Bonivardi, The role of Pd–Ga bimetallic particles in the bifunctional mechanism of selective methanol synthesis via CO2 hydrogenation on a Pd/Ga2O3 catalyst, J. Catal.292 (2012) 90-98. [18] N. Iwasa T. Mayanagi N. Ogawa K. Sakata N. Takezawa New catalytic functions of Pd–Zn, Pd–Ga, Pd–In, Pt–Zn, Pt–Ga and Pt–In alloys in the conversions of methanol Catal. Lett 54 1998 119 123 N. Iwasa, T. Mayanagi, N. Ogawa, K. Sakata, N. Takezawa, New catalytic functions of Pd–Zn, Pd–Ga, Pd–In, Pt–Zn, Pt–Ga and Pt–In alloys in the conversions of methanol, Catal. Lett. 54 (1998) 119-123. [19] N. Iwasa T. Mayanagi W. Nomura M. Arai N. Takezawa Effect of Zn addition to supported Pd catalysts in the steam reforming of methanol Appl. Catal. A: Gen. 248 2003 153 160 N. Iwasa, T. Mayanagi, W. Nomura, M. Arai, N. Takezawa, Effect of Zn addition to supported Pd catalysts in the steam reforming of methanol, Appl. Catal. A: Gen.248 (2003) 153-160. [20] E.A. Sales B. Benhamida V. Caizergues J.P. Lagier F. Fievet F. Bozon-Verduraz Alumina-supported Pd, Ag and Pd–Ag catalysts: preparation through the polyol process, characterization and reactivity in hexa-1, 5-diene hydrogenation Appl. Catal. A: Gen. 172 1998 273 283 E.A. Sales, B. Benhamida, V. Caizergues, J.P. Lagier, F. Fievet, F. Bozon-Verduraz, Alumina-supported Pd, Ag and Pd–Ag catalysts: preparation through the polyol process, characterization and reactivity in hexa-1, 5-diene hydrogenation, Appl. Catal. A: Gen.172 (1998) 273-283. [21] Q. Zhang J. Li X. Liu Q. Zhu Synergetic effect of Pd and Ag dispersed on Al2O3 in the selective hydrogenation of acetylene Appl. Catal. A: Gen. 197 2000 221 228 Q. Zhang, J. Li, X. Liu, Q. Zhu, Synergetic effect of Pd and Ag dispersed on Al2O3 in the selective hydrogenation of acetylene, Appl. Catal. A: Gen.197 (2000) 221-228. [22] J. Zhu F. Chen Z. Zhang M. Li Q. Yang Y. Yang Z. Bao Q. Ren M-Gallate (M= Ni, Co) metal–organic framework-derived Ni/C and bimetallic Ni–Co/C catalysts for lignin conversion into monophenols ACS Sustain. Chem. Eng. 7 2019 12955 12963 J. Zhu, F. Chen, Z. Zhang, M. Li, Q. Yang, Y. Yang, Z. Bao, Q. Ren, M-Gallate (M= Ni, Co) metal–organic framework-derived Ni/C and bimetallic Ni–Co/C catalysts for lignin conversion into monophenols, ACS Sustain. Chem. Eng.7 (2019) 12955-12963. [23] J.T. Feng H.Y. Wang D.G. Evans X. Duan D.Q. Li Catalytic hydrogenation of ethylanthraquinone over highly dispersed eggshell Pd/SiO2–Al2O3 spherical catalysts Appl. Catal. A: Gen. 382 2010 240 245 J.T. Feng, H.Y. Wang, D.G. Evans, X. Duan, D.Q. Li, Catalytic hydrogenation of ethylanthraquinone over highly dispersed eggshell Pd/SiO2–Al2O3 spherical catalysts, Appl. Catal. A: Gen.382 (2010) 240–245 [24] R. Car M. Parrinello Approach for Molecular Dynamics and Density-Functional Theory Phys. Rev. Lett. 55 1985 2471 2474 R. Car, M. Parrinello, Approach for Molecular Dynamics and Density-Functional Theory, Phys. Rev. Lett.55 (1985) 2471–2474. [25] M.C. Payne J.D. Joannopoulos D.C. Allan M.P. Teter D.H. Vanderbilt Molecular dynamics and ab initio total energy calculations Phys. Rev. Lett. 56 1986 2656 M.C. Payne, J.D. Joannopoulos, D.C. Allan, M.P. Teter, D.H. Vanderbilt, Molecular dynamics and ab initio total energy calculations, Phys. Rev. Lett.56 (1986) 2656–2656. [26] G. Kresse D. Joubert From ultrasoft pseudopotentials to the projector augmented-wave method Phys. Rev. B 59 1999 1758 1775 G. Kresse, D. Joubert, From ultrasoft pseudopotentials to the projector augmented-wave method, Phys. Rev. B59 (1999) 1758–1775. [27] P.E. Bloechl Projector augmented-wave method J. Phys. Rev. B 50 1994 17953 17979 P.E. Bloechl, Projector augmented-wave method, J. Phys. Rev. B50 (1994) 17953–17979. [28] J.P. Perdew K. Burke M. Ernzerhof Generalized Gradient Approximation Made Simple Phys. Rev. Lett. 77 1996 3865 3868 J.P. Perdew, K. Burke, M. Ernzerhof, Generalized Gradient Approximation Made Simple, Phys. Rev. Lett.77 (1996) 3865–3868. [29] M. Armbrüster K. Kovnir M. Behrens D. Teschner Y. Grin R. Schlgl Pd−Ga intermetallic compounds as highly selective semihydrogenation catalysts J. Am. Chem. Soc. 132 2010 14745 14747 M. Armbrüster, K. Kovnir, M. Behrens, D. Teschner, Y. Grin, R. Schlgl, Pd−Ga intermetallic compounds as highly selective semihydrogenation catalysts, J. Am. Chem. Soc.132 (2010) 14745-14747. [30] D.R. Alfonso A.V. Cugini D.S. Sholl Density functional theory studies of sulfur binding on Pd, Cu and Ag and their alloys Surf. Sci. 546 2003 12 26 D.R. Alfonso, A.V. Cugini, D.S. Sholl, Density functional theory studies of sulfur binding on Pd, Cu and Ag and their alloys, Surf. Sci.546 (2003) 12-26. [31] E. Yuan C. Wu X. Hou M. Dou G. Liu G. Li L. Wang Synergistic effects of second metals on performance of (Co, Ag, Cu)-doped Pd/Al2O3 catalysts for 2-ethyl-anthraquinone hydrogenation J. Catal. 347 2017 79 88 E. Yuan, C. Wu, X. Hou, M. Dou, G. Liu, G. Li, L. Wang, Synergistic effects of second metals on performance of (Co, Ag, Cu)-doped Pd/Al2O3 catalysts for 2-ethyl-anthraquinone hydrogenation, J. Catal.347 (2017) 79–88. [32] G. Agostini C. Lamberti R. Pellegrini G. Leofanti F. Giannici A. Longo E. Groppo Effect of Pre-Reduction on the Properties and the Catalytic Activity of Pd/Carbon Catalysts: A Comparison with Pd/Al2O3 ACS Catal 4 2014 187 194 G. Agostini, C. Lamberti, R. Pellegrini, G. Leofanti, F. Giannici, A. Longo, E. Groppo, Effect of Pre-Reduction on the Properties and the Catalytic Activity of Pd/Carbon Catalysts: A Comparison with Pd/Al2O3, ACS Catal. 4 (2014) 187–194. [33] H.J. Cho D. Kim J. Li D. Su B. Xu Zeolite-encapsulated Pt nanoparticles for tandem catalysis J. Am. Chem. Soc. 140 2018 13514 13520 H.J. Cho, D. Kim, J. Li, D. Su, B. Xu, Zeolite-encapsulated Pt nanoparticles for tandem catalysis, J. Am. Chem. Soc.140 (2018) 13514-13520. [34] A. Tanksale J.N. Beltramini J.A. Dumesic G.Q. Lu Effect of Pt and Pd promoter on Ni supported catalysts—A TPR/TPO/TPD and microcalorimetry study J. Catal. 258 2008 366 377 A. Tanksale, J.N. Beltramini, J.A. Dumesic, G.Q. Lu, Effect of Pt and Pd promoter on Ni supported catalysts—A TPR/TPO/TPD and microcalorimetry study, J. Catal.258(2008) 366-377. [35] D. Kumar S. Varma N.M. Gupta The influence of particle size on H2-reduction, catalytic activity and chemisorption behavior of uranium oxide species dispersed in MCM-41: TPR, methanol-TPD and in situ FTIR studies Catal. today 93 2004 541 551 D. Kumar, S. Varma, N.M. Gupta, The influence of particle size on H2-reduction, catalytic activity and chemisorption behavior of uranium oxide species dispersed in MCM-41: TPR, methanol-TPD and in situ FTIR studies, Catal. today93 (2004) 541-551. [36] A. Sandoval A. Aguilar C. Louis A. Traverse R. Zanella Bimetallic Au–Ag/TiO2 catalyst prepared by deposition–precipitation: high activity and stability in CO oxidation J. Catal. 281 2011 40 49 A. Sandoval, A. Aguilar, C. Louis, A. Traverse, R. Zanella, Bimetallic Au–Ag/TiO2 catalyst prepared by deposition–precipitation: high activity and stability in CO oxidation, J. Catal.281 (2011) 40-49. [37] X. Liu A. Wang L. Li T. Zhang C. Mou J. Lee Structural changes of Au–Cu bimetallic catalysts in CO oxidation: in situ XRD, EPR, XANES, and FT-IR characterizations J. Catal 278 2011 288 296 X. Liu, A. Wang, L. Li, T. Zhang, C. Mou, J. Lee, Structural changes of Au–Cu bimetallic catalysts in CO oxidation: in situ XRD, EPR, XANES, and FT-IR characterizations, J. Catal. 278 (2011) 288-296. [38] Q. Zhang J. Li X. Liu Q. Zhu Synergetic effect of Pd and Ag dispersed on Al2O3 in the selective hydrogenation of acetylene Appl. Catal. A: Gen. 197 2000 221 228 Q. Zhang, J. Li, X. Liu, Q. Zhu, Synergetic effect of Pd and Ag dispersed on Al2O3 in the selective hydrogenation of acetylene, Appl. Catal. A: Gen.197 (2000) 221–228. [39] L. Zhang H. Chu H. Qu Q. Zhang H. Xu J. Cao Z. Tang J. Xuan An investigation of efficient microstructured reactor with monolith Co/anodic γ-Al2O3/Al catalyst in Fischer-Tropsch synthesis Int. J. Hydrogen Energ. 8 2018 3077 3086 L. Zhang, H. Chu, H. Qu, Q. Zhang, H. Xu, J. Cao, Z. Tang, J. Xuan, An investigation of efficient microstructured reactor with monolith Co/anodic γ-Al2O3/Al catalyst in Fischer-Tropsch synthesis, Int. J. Hydrogen Energ.8 (2018) 3077-3086. [40] Y. Guo C. Dai Z. Lei Hydrogenation of 2-ethylanthraquinone with monolithic catalysts: An experimental and modeling study Chem. Eng. Sci. 172 2017 370 384 Y. Guo, C. Dai, Z. Lei, Hydrogenation of 2-ethylanthraquinone with monolithic catalysts: An experimental and modeling study, Chem. Eng. Sci.172 (2017) 370-384. [41] Y.F. He L.L. Liang Y.N. Liu J.T. Feng C. Ma D.Q. Li Partial hydrogenation of acetylene using highly stable dispersed bimetallic Pd–Ga/MgO–Al2O3 catalyst J. Catal. 309 2014 166 173 Y.F. He, L.L. Liang, Y.N. Liu, J.T. Feng, C. Ma, D.Q. Li, Partial hydrogenation of acetylene using highly stable dispersed bimetallic Pd–Ga/MgO–Al2O3 catalyst, J. Catal.309 (2014) 166-173. [42] Q. Zhang X.P. Wu Y. Li R. Chai G. Zhao C. Wang X. Gong Y. Liu Y. Lu High-performance PdNi nanoalloy catalyst in situ structured on Ni foam for catalytic deoxygenation of coalbed methane: experimental and DFT studies ACS Catal 6 2016 6236 6245 Q. Zhang, X.P. Wu, Y. Li, R. Chai, G. Zhao, C. Wang, X. Gong, Y. Liu, Y. Lu, High-performance PdNi nanoalloy catalyst in situ structured on Ni foam for catalytic deoxygenation of coalbed methane: experimental and DFT studies, ACS Catal. 6 (2016) 6236-6245. [43] Y.H. Wang M. Peng C.L. Ye C.N. Gan J.L. Zhang C.L. Guo Enhanced catalytic performance of Pd-Ga bimetallic catalysts for 2-ethylanthraquinone hydrogenation Appl. Organomet. Chem. 33 2019 e5076 Y.H. Wang, M. Peng, C.L. Ye, C.N. Gan, J.L. Zhang, C.L. Guo, Enhanced catalytic performance of Pd-Ga bimetallic catalysts for 2-ethylanthraquinone hydrogenation, Appl. Organomet. Chem.33 (2019), e5076. [44] L. Zhang J. Mao S. Li J. Yin X. Sun X. Guo C. Song J. Zhou Hydrogenation of levulinic acid into gamma-valerolactone over in situ reduced CuAg bimetallic catalyst: Strategy and mechanism of preventing Cu leaching Appl. Catal. B Environ. 232 2018 1 10 L. Zhang, J. Mao, S. Li, J. Yin, X. Sun, X. Guo, C. Song, J. Zhou, Hydrogenation of levulinic acid into gamma-valerolactone over in situ reduced CuAg bimetallic catalyst: Strategy and mechanism of preventing Cu leaching, Appl. Catal. B Environ.232 (2018) 1-10. [45] T. Kamachi T. Ogata E. Mori K. Iura N. Okuda M. Nagata K. Yoshizawa Computational Exploration of the Mechanism of the Hydrogenation Step of the Anthraquinone Process for Hydrogen Peroxide Production J. Phys. Chem. C 119 2015 8748 8754 T. Kamachi, T. Ogata, E. Mori, K. Iura, N. Okuda, M. Nagata, K. Yoshizawa, Computational Exploration of the Mechanism of the Hydrogenation Step of the Anthraquinone Process for Hydrogen Peroxide Production, J. Phys. Chem. C119 (2015) 8748–8754. [46] S. Sitthisa T. Pham T. Prasomsri T. Sooknoi R.G. Mallinson D.E. Resasco Conversion of furfural and 2-methylpentanal on Pd/SiO2 and Pd–Cu/SiO2 catalysts J. Catal. 280 2011 17 27 S. Sitthisa, T. Pham, T. Prasomsri, T. Sooknoi, R.G. Mallinson, D.E. Resasco, Conversion of furfural and 2-methylpentanal on Pd/SiO2 and Pd–Cu/SiO2 catalysts, J. Catal.280 (2011) 17–27.",
+      "scopus-id": "85106307587",
+      "coredata": {
+        "eid": "1-s2.0-S2468823121002212",
+        "dc:description": "The catalytic performance of Pd-N/Silicon Dioxide/Cordierite (Pd-N/SD/C) (N = Ga and Ag) bimetallic monolithic catalysts for 2-ethylanthraquinone (eAQ) hydrogenation was investigated. Catalyst characterization by HRTEM, XPS, and TPR reveal that Pd-Ga/SD/C can form an alloy structure to produce significant synergetic effects. Moreover, the use of different Pd/Ga mass ratio in catalysts reveals that when the mass ratio of Pd and Ga/Ag = 2:1, Pd-Ga/SD/C obtains the highest yield of H2O2 and selectivity toward active quinones, which can reach 7.4 g L−1 and 90%. Moreover, to have a deep understanding of the eAQ-PdN(1 1 1) or eAQ-Pd(1 1 1) interaction mechanism, the calculation of eAQ adsorption on Pd-N/SD/C catalysts surface was performed by density functional theory (DFT). It is shown that the higher catalytic activity over Pd-Ga/SD/C is due to the stronger carbonyl group of eAQ adsorption on Pd3Ga1 (1 1 1).",
+        "openArchiveArticle": "false",
+        "prism:coverDate": "2021-06-30",
+        "openaccessUserLicense": null,
+        "prism:aggregationType": "Journal",
+        "prism:url": "https://api.elsevier.com/content/article/pii/S2468823121002212",
+        "dc:creator": [
+          {
+            "@_fa": "true",
+            "$": "Guo, Yanyan"
+          },
+          {
+            "@_fa": "true",
+            "$": "Dong, Yichun"
+          },
+          {
+            "@_fa": "true",
+            "$": "Lei, Zhigang"
+          },
+          {
+            "@_fa": "true",
+            "$": "Liu, Zhixue"
+          },
+          {
+            "@_fa": "true",
+            "$": "Zhu, Jiqin"
+          }
+        ],
+        "link": [
+          {
+            "@_fa": "true",
+            "@rel": "self",
+            "@href": "https://api.elsevier.com/content/article/pii/S2468823121002212"
+          },
+          {
+            "@_fa": "true",
+            "@rel": "scidir",
+            "@href": "https://www.sciencedirect.com/science/article/pii/S2468823121002212"
+          }
+        ],
+        "dc:format": "application/json",
+        "openaccessType": null,
+        "pii": "S2468-8231(21)00221-2",
+        "prism:volume": "509",
+        "articleNumber": "111604",
+        "prism:publisher": "Elsevier B.V.",
+        "dc:title": "High-performance Pd-N (N = Ga or Ag) bimetallic monolithic catalyst for the hydrogenation of 2-ethylanthraquinone: Experimental and DFT studies",
+        "prism:copyright": "© 2021 Elsevier B.V. All rights reserved.",
+        "openaccess": "0",
+        "prism:issn": "24688231",
+        "dcterms:subject": [
+          {
+            "@_fa": "true",
+            "$": "Pd-Ga (Ag)/silicon dioxide/Cordierite"
+          },
+          {
+            "@_fa": "true",
+            "$": "eAQ hydrogenation"
+          },
+          {
+            "@_fa": "true",
+            "$": "DFT calculation"
+          },
+          {
+            "@_fa": "true",
+            "$": "Synergy"
+          }
+        ],
+        "openaccessArticle": "false",
+        "prism:publicationName": "Molecular Catalysis",
+        "openaccessSponsorType": null,
+        "prism:pageRange": "111604",
+        "pubType": "fla",
+        "prism:coverDisplayDate": "June 2021",
+        "prism:doi": "10.1016/j.mcat.2021.111604",
+        "prism:startingPage": "111604",
+        "dc:identifier": "doi:10.1016/j.mcat.2021.111604",
+        "openaccessSponsorName": null
+      },
+      "objects": {
+        "object": [
+          {
+            "@category": "standard",
+            "@height": "872",
+            "@width": "565",
+            "@_fa": "true",
+            "$": "https://api.elsevier.com/content/object/eid/1-s2.0-S2468823121002212-gr8.jpg?httpAccept=%2A%2F%2A",
+            "@multimediatype": "JPEG image file",
+            "@type": "IMAGE-DOWNSAMPLED",
+            "@size": "150913",
+            "@ref": "gr8",
+            "@mimetype": "image/jpeg"
+          },
+          {
+            "@category": "standard",
+            "@height": "566",
+            "@width": "386",
+            "@_fa": "true",
+            "$": "https://api.elsevier.com/content/object/eid/1-s2.0-S2468823121002212-gr6.jpg?httpAccept=%2A%2F%2A",
+            "@multimediatype": "JPEG image file",
+            "@type": "IMAGE-DOWNSAMPLED",
+            "@size": "49502",
+            "@ref": "gr6",
+            "@mimetype": "image/jpeg"
+          },
+          {
+            "@category": "standard",
+            "@height": "623",
+            "@width": "557",
+            "@_fa": "true",
+            "$": "https://api.elsevier.com/content/object/eid/1-s2.0-S2468823121002212-gr7.jpg?httpAccept=%2A%2F%2A",
+            "@multimediatype": "JPEG image file",
+            "@type": "IMAGE-DOWNSAMPLED",
+            "@size": "59124",
+            "@ref": "gr7",
+            "@mimetype": "image/jpeg"
+          },
+          {
+            "@category": "standard",
+            "@height": "488",
+            "@width": "364",
+            "@_fa": "true",
+            "$": "https://api.elsevier.com/content/object/eid/1-s2.0-S2468823121002212-sc1.jpg?httpAccept=%2A%2F%2A",
+            "@multimediatype": "JPEG image file",
+            "@type": "IMAGE-DOWNSAMPLED",
+            "@size": "36665",
+            "@ref": "sc1",
+            "@mimetype": "image/jpeg"
+          },
+          {
+            "@category": "standard",
+            "@height": "179",
+            "@width": "301",
+            "@_fa": "true",
+            "$": "https://api.elsevier.com/content/object/eid/1-s2.0-S2468823121002212-fx1.jpg?httpAccept=%2A%2F%2A",
+            "@multimediatype": "JPEG image file",
+            "@type": "IMAGE-DOWNSAMPLED",
+            "@size": "24380",
+            "@ref": "fx1",
+            "@mimetype": "image/jpeg"
+          },
+          {
+            "@category": "standard",
+            "@height": "473",
+            "@width": "489",
+            "@_fa": "true",
+            "$": "https://api.elsevier.com/content/object/eid/1-s2.0-S2468823121002212-gr3b.jpg?httpAccept=%2A%2F%2A",
+            "@multimediatype": "JPEG image file",
+            "@type": "IMAGE-DOWNSAMPLED",
+            "@size": "63750",
+            "@ref": "gr3b",
+            "@mimetype": "image/jpeg"
+          },
+          {
+            "@category": "standard",
+            "@height": "387",
+            "@width": "501",
+            "@_fa": "true",
+            "$": "https://api.elsevier.com/content/object/eid/1-s2.0-S2468823121002212-gr1.jpg?httpAccept=%2A%2F%2A",
+            "@multimediatype": "JPEG image file",
+            "@type": "IMAGE-DOWNSAMPLED",
+            "@size": "47511",
+            "@ref": "gr1",
+            "@mimetype": "image/jpeg"
+          },
+          {
+            "@category": "standard",
+            "@height": "930",
+            "@width": "489",
+            "@_fa": "true",
+            "$": "https://api.elsevier.com/content/object/eid/1-s2.0-S2468823121002212-gr3a.jpg?httpAccept=%2A%2F%2A",
+            "@multimediatype": "JPEG image file",
+            "@type": "IMAGE-DOWNSAMPLED",
+            "@size": "114720",
+            "@ref": "gr3a",
+            "@mimetype": "image/jpeg"
+          },
+          {
+            "@category": "standard",
+            "@height": "760",
+            "@width": "809",
+            "@_fa": "true",
+            "$": "https://api.elsevier.com/content/object/eid/1-s2.0-S2468823121002212-gr4.jpg?httpAccept=%2A%2F%2A",
+            "@multimediatype": "JPEG image file",
+            "@type": "IMAGE-DOWNSAMPLED",
+            "@size": "156924",
+            "@ref": "gr4",
+            "@mimetype": "image/jpeg"
+          },
+          {
+            "@category": "standard",
+            "@height": "674",
+            "@width": "809",
+            "@_fa": "true",
+            "$": "https://api.elsevier.com/content/object/eid/1-s2.0-S2468823121002212-gr5.jpg?httpAccept=%2A%2F%2A",
+            "@multimediatype": "JPEG image file",
+            "@type": "IMAGE-DOWNSAMPLED",
+            "@size": "154907",
+            "@ref": "gr5",
+            "@mimetype": "image/jpeg"
+          },
+          {
+            "@category": "standard",
+            "@height": "737",
+            "@width": "467",
+            "@_fa": "true",
+            "$": "https://api.elsevier.com/content/object/eid/1-s2.0-S2468823121002212-gr2.jpg?httpAccept=%2A%2F%2A",
+            "@multimediatype": "JPEG image file",
+            "@type": "IMAGE-DOWNSAMPLED",
+            "@size": "56559",
+            "@ref": "gr2",
+            "@mimetype": "image/jpeg"
+          },
+          {
+            "@category": "thumbnail",
+            "@height": "164",
+            "@width": "106",
+            "@_fa": "true",
+            "$": "https://api.elsevier.com/content/object/eid/1-s2.0-S2468823121002212-gr8.sml?httpAccept=%2A%2F%2A",
+            "@multimediatype": "GIF image file",
+            "@type": "IMAGE-THUMBNAIL",
+            "@size": "12890",
+            "@ref": "gr8",
+            "@mimetype": "image/gif"
+          },
+          {
+            "@category": "thumbnail",
+            "@height": "164",
+            "@width": "112",
+            "@_fa": "true",
+            "$": "https://api.elsevier.com/content/object/eid/1-s2.0-S2468823121002212-gr6.sml?httpAccept=%2A%2F%2A",
+            "@multimediatype": "GIF image file",
+            "@type": "IMAGE-THUMBNAIL",
+            "@size": "7555",
+            "@ref": "gr6",
+            "@mimetype": "image/gif"
+          },
+          {
+            "@category": "thumbnail",
+            "@height": "163",
+            "@width": "146",
+            "@_fa": "true",
+            "$": "https://api.elsevier.com/content/object/eid/1-s2.0-S2468823121002212-gr7.sml?httpAccept=%2A%2F%2A",
+            "@multimediatype": "GIF image file",
+            "@type": "IMAGE-THUMBNAIL",
+            "@size": "10122",
+            "@ref": "gr7",
+            "@mimetype": "image/gif"
+          },
+          {
+            "@category": "thumbnail",
+            "@height": "164",
+            "@width": "122",
+            "@_fa": "true",
+            "$": "https://api.elsevier.com/content/object/eid/1-s2.0-S2468823121002212-sc1.sml?httpAccept=%2A%2F%2A",
+            "@multimediatype": "GIF image file",
+            "@type": "IMAGE-THUMBNAIL",
+            "@size": "6208",
+            "@ref": "sc1",
+            "@mimetype": "image/gif"
+          },
+          {
+            "@category": "thumbnail",
+            "@height": "130",
+            "@width": "219",
+            "@_fa": "true",
+            "$": "https://api.elsevier.com/content/object/eid/1-s2.0-S2468823121002212-fx1.sml?httpAccept=%2A%2F%2A",
+            "@multimediatype": "GIF image file",
+            "@type": "IMAGE-THUMBNAIL",
+            "@size": "16821",
+            "@ref": "fx1",
+            "@mimetype": "image/gif"
+          },
+          {
+            "@category": "thumbnail",
+            "@height": "164",
+            "@width": "169",
+            "@_fa": "true",
+            "$": "https://api.elsevier.com/content/object/eid/1-s2.0-S2468823121002212-gr3b.sml?httpAccept=%2A%2F%2A",
+            "@multimediatype": "GIF image file",
+            "@type": "IMAGE-THUMBNAIL",
+            "@size": "10049",
+            "@ref": "gr3b",
+            "@mimetype": "image/gif"
+          },
+          {
+            "@category": "thumbnail",
+            "@height": "164",
+            "@width": "212",
+            "@_fa": "true",
+            "$": "https://api.elsevier.com/content/object/eid/1-s2.0-S2468823121002212-gr1.sml?httpAccept=%2A%2F%2A",
+            "@multimediatype": "GIF image file",
+            "@type": "IMAGE-THUMBNAIL",
+            "@size": "8802",
+            "@ref": "gr1",
+            "@mimetype": "image/gif"
+          },
+          {
+            "@category": "thumbnail",
+            "@height": "164",
+            "@width": "86",
+            "@_fa": "true",
+            "$": "https://api.elsevier.com/content/object/eid/1-s2.0-S2468823121002212-gr3a.sml?httpAccept=%2A%2F%2A",
+            "@multimediatype": "GIF image file",
+            "@type": "IMAGE-THUMBNAIL",
+            "@size": "8030",
+            "@ref": "gr3a",
+            "@mimetype": "image/gif"
+          },
+          {
+            "@category": "thumbnail",
+            "@height": "164",
+            "@width": "174",
+            "@_fa": "true",
+            "$": "https://api.elsevier.com/content/object/eid/1-s2.0-S2468823121002212-gr4.sml?httpAccept=%2A%2F%2A",
+            "@multimediatype": "GIF image file",
+            "@type": "IMAGE-THUMBNAIL",
+            "@size": "17859",
+            "@ref": "gr4",
+            "@mimetype": "image/gif"
+          },
+          {
+            "@category": "thumbnail",
+            "@height": "164",
+            "@width": "197",
+            "@_fa": "true",
+            "$": "https://api.elsevier.com/content/object/eid/1-s2.0-S2468823121002212-gr5.sml?httpAccept=%2A%2F%2A",
+            "@multimediatype": "GIF image file",
+            "@type": "IMAGE-THUMBNAIL",
+            "@size": "12940",
+            "@ref": "gr5",
+            "@mimetype": "image/gif"
+          },
+          {
+            "@category": "thumbnail",
+            "@height": "164",
+            "@width": "104",
+            "@_fa": "true",
+            "$": "https://api.elsevier.com/content/object/eid/1-s2.0-S2468823121002212-gr2.sml?httpAccept=%2A%2F%2A",
+            "@multimediatype": "GIF image file",
+            "@type": "IMAGE-THUMBNAIL",
+            "@size": "5331",
+            "@ref": "gr2",
+            "@mimetype": "image/gif"
+          },
+          {
+            "@category": "high",
+            "@height": "3859",
+            "@width": "2500",
+            "@_fa": "true",
+            "$": "https://api.elsevier.com/content/object/eid/1-s2.0-S2468823121002212-gr8_lrg.jpg?httpAccept=%2A%2F%2A",
+            "@multimediatype": "JPEG image file",
+            "@type": "IMAGE-HIGH-RES",
+            "@size": "1221189",
+            "@ref": "gr8",
+            "@mimetype": "image/jpeg"
+          },
+          {
+            "@category": "high",
+            "@height": "2504",
+            "@width": "1708",
+            "@_fa": "true",
+            "$": "https://api.elsevier.com/content/object/eid/1-s2.0-S2468823121002212-gr6_lrg.jpg?httpAccept=%2A%2F%2A",
+            "@multimediatype": "JPEG image file",
+            "@type": "IMAGE-HIGH-RES",
+            "@size": "296780",
+            "@ref": "gr6",
+            "@mimetype": "image/jpeg"
+          },
+          {
+            "@category": "high",
+            "@height": "2760",
+            "@width": "2468",
+            "@_fa": "true",
+            "$": "https://api.elsevier.com/content/object/eid/1-s2.0-S2468823121002212-gr7_lrg.jpg?httpAccept=%2A%2F%2A",
+            "@multimediatype": "JPEG image file",
+            "@type": "IMAGE-HIGH-RES",
+            "@size": "450857",
+            "@ref": "gr7",
+            "@mimetype": "image/jpeg"
+          },
+          {
+            "@category": "high",
+            "@height": "2598",
+            "@width": "1938",
+            "@_fa": "true",
+            "$": "https://api.elsevier.com/content/object/eid/1-s2.0-S2468823121002212-sc1_lrg.jpg?httpAccept=%2A%2F%2A",
+            "@multimediatype": "JPEG image file",
+            "@type": "IMAGE-HIGH-RES",
+            "@size": "342256",
+            "@ref": "sc1",
+            "@mimetype": "image/jpeg"
+          },
+          {
+            "@category": "high",
+            "@height": "794",
+            "@width": "1333",
+            "@_fa": "true",
+            "$": "https://api.elsevier.com/content/object/eid/1-s2.0-S2468823121002212-fx1_lrg.jpg?httpAccept=%2A%2F%2A",
+            "@multimediatype": "JPEG image file",
+            "@type": "IMAGE-HIGH-RES",
+            "@size": "174306",
+            "@ref": "fx1",
+            "@mimetype": "image/jpeg"
+          },
+          {
+            "@category": "high",
+            "@height": "2098",
+            "@width": "2167",
+            "@_fa": "true",
+            "$": "https://api.elsevier.com/content/object/eid/1-s2.0-S2468823121002212-gr3b_lrg.jpg?httpAccept=%2A%2F%2A",
+            "@multimediatype": "JPEG image file",
+            "@type": "IMAGE-HIGH-RES",
+            "@size": "650043",
+            "@ref": "gr3b",
+            "@mimetype": "image/jpeg"
+          },
+          {
+            "@category": "high",
+            "@height": "1715",
+            "@width": "2220",
+            "@_fa": "true",
+            "$": "https://api.elsevier.com/content/object/eid/1-s2.0-S2468823121002212-gr1_lrg.jpg?httpAccept=%2A%2F%2A",
+            "@multimediatype": "JPEG image file",
+            "@type": "IMAGE-HIGH-RES",
+            "@size": "373784",
+            "@ref": "gr1",
+            "@mimetype": "image/jpeg"
+          },
+          {
+            "@category": "high",
+            "@height": "4121",
+            "@width": "2167",
+            "@_fa": "true",
+            "$": "https://api.elsevier.com/content/object/eid/1-s2.0-S2468823121002212-gr3a_lrg.jpg?httpAccept=%2A%2F%2A",
+            "@multimediatype": "JPEG image file",
+            "@type": "IMAGE-HIGH-RES",
+            "@size": "1299900",
+            "@ref": "gr3a",
+            "@mimetype": "image/jpeg"
+          },
+          {
+            "@category": "high",
+            "@height": "3367",
+            "@width": "3583",
+            "@_fa": "true",
+            "$": "https://api.elsevier.com/content/object/eid/1-s2.0-S2468823121002212-gr4_lrg.jpg?httpAccept=%2A%2F%2A",
+            "@multimediatype": "JPEG image file",
+            "@type": "IMAGE-HIGH-RES",
+            "@size": "1391139",
+            "@ref": "gr4",
+            "@mimetype": "image/jpeg"
+          },
+          {
+            "@category": "high",
+            "@height": "2986",
+            "@width": "3583",
+            "@_fa": "true",
+            "$": "https://api.elsevier.com/content/object/eid/1-s2.0-S2468823121002212-gr5_lrg.jpg?httpAccept=%2A%2F%2A",
+            "@multimediatype": "JPEG image file",
+            "@type": "IMAGE-HIGH-RES",
+            "@size": "1178542",
+            "@ref": "gr5",
+            "@mimetype": "image/jpeg"
+          },
+          {
+            "@category": "high",
+            "@height": "3265",
+            "@width": "2068",
+            "@_fa": "true",
+            "$": "https://api.elsevier.com/content/object/eid/1-s2.0-S2468823121002212-gr2_lrg.jpg?httpAccept=%2A%2F%2A",
+            "@multimediatype": "JPEG image file",
+            "@type": "IMAGE-HIGH-RES",
+            "@size": "456498",
+            "@ref": "gr2",
+            "@mimetype": "image/jpeg"
+          },
+          {
+            "@category": "standard",
+            "@_fa": "true",
+            "$": "https://api.elsevier.com/content/object/eid/1-s2.0-S2468823121002212-mmc1.doc?httpAccept=%2A%2F%2A",
+            "@multimediatype": "Microsoft Word file",
+            "@type": "APPLICATION",
+            "@size": "4962816",
+            "@ref": "mmc1",
+            "@mimetype": "application/word"
+          },
+          {
+            "@category": "thumbnail",
+            "@_fa": "true",
+            "$": "https://api.elsevier.com/content/object/eid/1-s2.0-S2468823121002212-si1.svg?httpAccept=%2A%2F%2A",
+            "@multimediatype": "Scalable Vector Graphics file",
+            "@type": "ALTIMG",
+            "@size": "14280",
+            "@ref": "si1",
+            "@mimetype": "image/svg+xml"
+          },
+          {
+            "@category": "thumbnail",
+            "@_fa": "true",
+            "$": "https://api.elsevier.com/content/object/eid/1-s2.0-S2468823121002212-si2.svg?httpAccept=%2A%2F%2A",
+            "@multimediatype": "Scalable Vector Graphics file",
+            "@type": "ALTIMG",
+            "@size": "17412",
+            "@ref": "si2",
+            "@mimetype": "image/svg+xml"
+          },
+          {
+            "@category": "thumbnail",
+            "@_fa": "true",
+            "$": "https://api.elsevier.com/content/object/eid/1-s2.0-S2468823121002212-si3.svg?httpAccept=%2A%2F%2A",
+            "@multimediatype": "Scalable Vector Graphics file",
+            "@type": "ALTIMG",
+            "@size": "9800",
+            "@ref": "si3",
+            "@mimetype": "image/svg+xml"
+          },
+          {
+            "@category": "thumbnail",
+            "@_fa": "true",
+            "$": "https://api.elsevier.com/content/object/eid/1-s2.0-S2468823121002212-si4.svg?httpAccept=%2A%2F%2A",
+            "@multimediatype": "Scalable Vector Graphics file",
+            "@type": "ALTIMG",
+            "@size": "10010",
+            "@ref": "si4",
+            "@mimetype": "image/svg+xml"
+          },
+          {
+            "@category": "thumbnail",
+            "@_fa": "true",
+            "$": "https://api.elsevier.com/content/object/eid/1-s2.0-S2468823121002212-si5.svg?httpAccept=%2A%2F%2A",
+            "@multimediatype": "Scalable Vector Graphics file",
+            "@type": "ALTIMG",
+            "@size": "8123",
+            "@ref": "si5",
+            "@mimetype": "image/svg+xml"
+          },
+          {
+            "@category": "thumbnail",
+            "@_fa": "true",
+            "$": "https://api.elsevier.com/content/object/eid/1-s2.0-S2468823121002212-si6.svg?httpAccept=%2A%2F%2A",
+            "@multimediatype": "Scalable Vector Graphics file",
+            "@type": "ALTIMG",
+            "@size": "9502",
+            "@ref": "si6",
+            "@mimetype": "image/svg+xml"
+          },
+          {
+            "@category": "thumbnail",
+            "@_fa": "true",
+            "$": "https://api.elsevier.com/content/object/eid/1-s2.0-S2468823121002212-si7.svg?httpAccept=%2A%2F%2A",
+            "@multimediatype": "Scalable Vector Graphics file",
+            "@type": "ALTIMG",
+            "@size": "566",
+            "@ref": "si7",
+            "@mimetype": "image/svg+xml"
+          },
+          {
+            "@category": "thumbnail",
+            "@_fa": "true",
+            "$": "https://api.elsevier.com/content/object/eid/1-s2.0-S2468823121002212-si8.svg?httpAccept=%2A%2F%2A",
+            "@multimediatype": "Scalable Vector Graphics file",
+            "@type": "ALTIMG",
+            "@size": "7314",
+            "@ref": "si8",
+            "@mimetype": "image/svg+xml"
+          },
+          {
+            "@category": "standard",
+            "@_fa": "true",
+            "$": "https://api.elsevier.com/content/object/eid/1-s2.0-S2468823121002212-am.pdf?httpAccept=%2A%2F%2A",
+            "@multimediatype": "Acrobat PDF file",
+            "@type": "AAM-PDF",
+            "@size": "4775736",
+            "@ref": "am",
+            "@mimetype": "application/pdf"
+          }
+        ]
+      },
+      "link": {
+        "@rel": "abstract",
+        "@href": "https://api.elsevier.com/content/abstract/scopus_id/85106307587"
+      }
+    }
+  }
+}

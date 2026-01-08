@@ -1,0 +1,48 @@
+# Domain Ontology Placeholder
+# 
+# This file will be replaced with the actual OWL file
+# when you receive it from your team member.
+#
+# Your Chemical Synthesis Ontology Structure:
+#
+# Classes:
+# ========
+# ChemicalEntity (base class)
+#   ├── InorganicMaterial (무기물 - target material)
+#   ├── Precursor (전구체 - input materials)
+#   ├── Solvent (용매)
+#   ├── Product (생성물)
+#   └── Additive (첨가제)
+#
+# Process (base class)
+#   ├── SynthesisMethod (합성 방법 - root node)
+#   └── SynthesisStep (합성 단계)
+#
+# ConditionSet
+#   └── Condition (조건)
+#
+# Object Properties:
+# ==================
+# usesPrecursor: SynthesisStep → Precursor
+# usesSolvent: SynthesisStep → Solvent
+# producesProduct: SynthesisStep → Product
+# usesAdditive: SynthesisStep → Additive
+# hasSynthesisMethod: InorganicMaterial → SynthesisMethod
+# performedUnder: SynthesisStep → Condition
+# nextStep: SynthesisStep → SynthesisStep
+# consistOfStep: SynthesisMethod → SynthesisStep
+#
+# Data Properties:
+# ================
+# hasName: ChemicalEntity → xsd:string
+# hasAcronym: InorganicMaterial → xsd:string
+# hasPhase: InorganicMaterial → xsd:string
+# isOxygenDeficiency: InorganicMaterial → xsd:float
+# hasReaction: InorganicMaterial → xsd:string
+# hasID: SynthesisMethod → xsd:integer
+# hasTemperature: Condition → xsd:float
+# hasTime: Condition → xsd:duration
+# haspH: Condition → xsd:float
+# hasPressure: Condition → xsd:float
+# hasAction: SynthesisStep → xsd:string
+# hasNote: SynthesisStep → xsd:string

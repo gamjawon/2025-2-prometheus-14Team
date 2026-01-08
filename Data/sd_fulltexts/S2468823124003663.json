@@ -1,0 +1,396 @@
+{
+  "metadata": {
+    "title": "Towards lignin-based polyurethanes: a computational study of the influence of the reactants structure on the formation of urethanes in the presence of tin(II) dicarboxylate as a catalyst",
+    "authors": "; ; ",
+    "journal": "Molecular Catalysis",
+    "date": "2024-05-15",
+    "doi": "10.1016/j.mcat.2024.114183",
+    "abstract": "",
+    "uri": "https://api.elsevier.com/content/article/pii/S2468823124003663",
+    "pii": "S2468823124003663"
+  },
+  "fulltext": {
+    "full-text-retrieval-response": {
+      "scopus-eid": "2-s2.0-85191460696",
+      "originalText": "serial JL 315758 291210 291744 291790 291809 31 Molecular Catalysis MOLECULARCATALYSIS 2024-04-29 2024-04-29 2024-04-29 2024-04-29 2025-01-16T07:57:07 1-s2.0-S2468823124003663 S2468-8231(24)00366-3 S2468823124003663 10.1016/j.mcat.2024.114183 S300 S300.2 FULL-TEXT 1-s2.0-S2468823124X00073 2025-01-16T09:03:16.538781Z 0 0 20240515 2024 2024-04-29T16:47:54.737156Z absattachment articleinfo articlenumber articletitlenorm authfirstinitialnorm authfirstsurnamenorm cid cids contenttype copyright crossmark dateloaded dateloadedtxt datesearch datesort dateupdated dco docsubtype doctype doi eid ewtransactionid hubeid indexeddate issn issnnorm itemstage itemtransactionid itemweight openaccess openarchive pg pgfirst pii piinorm pubdatestart pubdatetxt pubyr sectiontitle sortorder srctitle srctitlenorm srctype ssids alllist content subj subheadings suppl tomb volfirst volissue volumelist webpdf webpdfpagecount yearnav figure table e-component body acknowledge affil appendices articletitle auth authfirstini authfull authkeywords authlast grantsponsor highlightsabst orcid primabst ref specialabst 2468-8231 24688231 true 561 561 C Volume 561 15 114183 114183 114183 20240515 15 May 2024 2024-05-15 2024 Regular Papers article fla © 2024 Elsevier B.V. All rights reserved. TOWARDSLIGNINBASEDPOLYURETHANESACOMPUTATIONALSTUDYINFLUENCEREACTANTSSTRUCTUREFORMATIONURETHANESINPRESENCETINIIDICARBOXYLATEACATALYST LUNTADILALUFUNGULA L 1 Introduction 2 Computational methods 3 Results and discussion 3.1 Reactions with methyl isocyanate 3.1.1 Methanol 3.1.2 Phenol 3.1.3 Cyclohexanol 3.1.4 (S)−1-Phenylpropan-1-ol (PP) 3.1.5 2-Methoxy-4-propylphenol (PG) and 4-methyl-2,6-dimethoxyphenol (MDP) 3.2 Reactions with phenyl isocyanate 3.3 Use of a solvent model 4 Conclusions CRediT authorship contribution statement Acknowledgements Appendix Supplementary materials References SONNENSCHEIN 2015 M POLYURETHANESSCIENCETECHNOLOGYMARKETSTRENDS SZYCHER 2013 M SZYCHERSHANDBOOKPOLYURETHANES DEVENDRA 2013 126 139 R DEVENDRA 2015 48935 48945 R DEVENDRA 2018 487 502 R DEVENDRA 2020 e04074 R CRESTINI 2017 4104 4121 C RUBENS 2022 114703 M BECKE 1988 3098 3100 A BECKE 1993 5648 5652 A LEE 1988 785 789 C STEPHENS 1994 11623 11627 P VOSKO 1980 1200 1211 S DITCHFIELD 2003 724 728 R HARIHARAN 1973 213 222 P HEHRE 2003 2257 2261 W WADT 1985 284 298 W MIERTUS 1981 117 129 S SCHLEGEL 1982 214 218 H FUKUI 1981 363 368 K BOYS 1970 553 566 S KRUSE 2012 10824 10834 H LU 2013 64 71 L LUNTADILALUFUNGULAX2024X114183 LUNTADILALUFUNGULAX2024X114183XL 2026-04-29T00:00:00.000Z 2026-04-29T00:00:00.000Z http://creativecommons.org/licenses/by-nc-nd/4.0/ © 2024 Elsevier B.V. All rights reserved. 2024-05-07T08:45:50.809Z http://vtw.elsevier.com/data/voc/AddOnTypes/50.7/aggregated-refined Flemish Supercomputer center VSC Vlaams Supercomputer Centrum http://data.elsevier.com/vocabulary/SciValFunders/100019618 http://sws.geonames.org/2802361/ COST CA17128 COST European Cooperation in Science and Technology http://data.elsevier.com/vocabulary/SciValFunders/501100000921 http://sws.geonames.org/2802361 Flemish Government Vlaamse regering http://data.elsevier.com/vocabulary/SciValFunders/501100011878 http://sws.geonames.org/2802361/ FWO FWO Fonds Wetenschappelijk Onderzoek http://data.elsevier.com/vocabulary/SciValFunders/501100003130 http://sws.geonames.org/2802361/ VSC VSC Vermont Studio Center http://data.elsevier.com/vocabulary/SciValFunders/100021906 http://sws.geonames.org/6252001/ The authors wish to acknowledge COST Action CA17128 \\u201CEstablishment of a Pan-European Network on the Sustainable Valorisation of Lignin (LignoCOST)\\u201D. VITO would like to acknowledge the province of Noord-Brabant (The Netherlands) for the financial support in the framework of the activities at the Shared Research Centre Biorizon. The computational resources and services used in this work were provided by the HPC core facility CalcUA of the Universiteit Antwerpen, and VSC (Flemish Supercomputer center), funded by the Research Foundation \\u2013 Flanders (FWO) and the Flemish Government. https://doi.org/10.15223/policy-017 https://doi.org/10.15223/policy-037 https://doi.org/10.15223/policy-012 https://doi.org/10.15223/policy-029 https://doi.org/10.15223/policy-004 item S2468-8231(24)00366-3 S2468823124003663 1-s2.0-S2468823124003663 10.1016/j.mcat.2024.114183 315758 2025-01-16T09:03:16.538781Z 2024-05-15 1-s2.0-S2468823124003663-main.pdf https://s3-eu-west-1.amazonaws.com/prod-ucs-content-store-eu-west/content/pii:S2468823124003663/MAIN/application/pdf/e89b1656f3ea89acc3516838fa81641a/main.pdf main.pdf pdf true 2937944 MAIN 8 1-s2.0-S2468823124003663-main_1.png https://s3-eu-west-1.amazonaws.com/prod-ucs-content-store-eu-west/content/pii:S2468823124003663/PREVIEW/image/png/d927eb15377f3ed8dbfcff514ade941b/main_1.png main_1.png png 58204 849 656 IMAGE-WEB-PDF 1 1-s2.0-S2468823124003663-gr6.jpg https://s3-eu-west-1.amazonaws.com/prod-ucs-content-store-eu-west/content/pii:S2468823124003663/gr6/DOWNSAMPLED/image/jpeg/e8e2b7397d73d1614387f441645a6d9e/gr6.jpg gr6 gr6.jpg jpg 71915 476 678 IMAGE-DOWNSAMPLED 1-s2.0-S2468823124003663-gr4.jpg https://s3-eu-west-1.amazonaws.com/prod-ucs-content-store-eu-west/content/pii:S2468823124003663/gr4/DOWNSAMPLED/image/jpeg/0305a401fcbae6df0e81c02fdd72dc6c/gr4.jpg gr4 gr4.jpg jpg 41865 237 678 IMAGE-DOWNSAMPLED 1-s2.0-S2468823124003663-gr5.jpg https://s3-eu-west-1.amazonaws.com/prod-ucs-content-store-eu-west/content/pii:S2468823124003663/gr5/DOWNSAMPLED/image/jpeg/c858a5193504fe5c1b61c8e7887e90cd/gr5.jpg gr5 gr5.jpg jpg 38431 191 678 IMAGE-DOWNSAMPLED 1-s2.0-S2468823124003663-gr2.jpg https://s3-eu-west-1.amazonaws.com/prod-ucs-content-store-eu-west/content/pii:S2468823124003663/gr2/DOWNSAMPLED/image/jpeg/a60f81cd0a3af7bb2b7dc7cb05221a29/gr2.jpg gr2 gr2.jpg jpg 17602 293 376 IMAGE-DOWNSAMPLED 1-s2.0-S2468823124003663-ga1.jpg https://s3-eu-west-1.amazonaws.com/prod-ucs-content-store-eu-west/content/pii:S2468823124003663/ga1/DOWNSAMPLED/image/jpeg/0fd85e2fe1a76cc4ec068d9c5d37173f/ga1.jpg ga1 true ga1.jpg jpg 25446 200 500 IMAGE-DOWNSAMPLED 1-s2.0-S2468823124003663-gr3.jpg https://s3-eu-west-1.amazonaws.com/prod-ucs-content-store-eu-west/content/pii:S2468823124003663/gr3/DOWNSAMPLED/image/jpeg/c5efd65baa0eea54d2be6983d574cff4/gr3.jpg gr3 gr3.jpg jpg 82264 573 678 IMAGE-DOWNSAMPLED 1-s2.0-S2468823124003663-gr1.jpg https://s3-eu-west-1.amazonaws.com/prod-ucs-content-store-eu-west/content/pii:S2468823124003663/gr1/DOWNSAMPLED/image/jpeg/689c56faea72e166270f9b35eaf8a43f/gr1.jpg gr1 gr1.jpg jpg 55318 403 715 IMAGE-DOWNSAMPLED 1-s2.0-S2468823124003663-gr6.sml https://s3-eu-west-1.amazonaws.com/prod-ucs-content-store-eu-west/content/pii:S2468823124003663/gr6/THUMBNAIL/image/gif/b33a7a749ad7d672ad64edb63c3cc03a/gr6.sml gr6 gr6.sml sml 10745 154 219 IMAGE-THUMBNAIL 1-s2.0-S2468823124003663-gr4.sml https://s3-eu-west-1.amazonaws.com/prod-ucs-content-store-eu-west/content/pii:S2468823124003663/gr4/THUMBNAIL/image/gif/9bc72e46609ae65bebb11949dc5a5814/gr4.sml gr4 gr4.sml sml 7771 77 219 IMAGE-THUMBNAIL 1-s2.0-S2468823124003663-gr5.sml https://s3-eu-west-1.amazonaws.com/prod-ucs-content-store-eu-west/content/pii:S2468823124003663/gr5/THUMBNAIL/image/gif/3ad3edc36daeb4265bb9b66012743c00/gr5.sml gr5 gr5.sml sml 7689 62 219 IMAGE-THUMBNAIL 1-s2.0-S2468823124003663-gr2.sml https://s3-eu-west-1.amazonaws.com/prod-ucs-content-store-eu-west/content/pii:S2468823124003663/gr2/THUMBNAIL/image/gif/0df7954c00ab9f05bfd13fb49968a3c0/gr2.sml gr2 gr2.sml sml 7045 164 210 IMAGE-THUMBNAIL 1-s2.0-S2468823124003663-ga1.sml https://s3-eu-west-1.amazonaws.com/prod-ucs-content-store-eu-west/content/pii:S2468823124003663/ga1/THUMBNAIL/image/gif/3cd5d92c0882ab14a89659b3eb9e77e2/ga1.sml ga1 true ga1.sml sml 10652 88 219 IMAGE-THUMBNAIL 1-s2.0-S2468823124003663-gr3.sml https://s3-eu-west-1.amazonaws.com/prod-ucs-content-store-eu-west/content/pii:S2468823124003663/gr3/THUMBNAIL/image/gif/c11ea2e67a5187d2ad3552606aa3bb9f/gr3.sml gr3 gr3.sml sml 11455 164 194 IMAGE-THUMBNAIL 1-s2.0-S2468823124003663-gr1.sml https://s3-eu-west-1.amazonaws.com/prod-ucs-content-store-eu-west/content/pii:S2468823124003663/gr1/THUMBNAIL/image/gif/2756cf38a5f9b1d39390759602ba39b7/gr1.sml gr1 gr1.sml sml 7437 123 219 IMAGE-THUMBNAIL 1-s2.0-S2468823124003663-gr6_lrg.jpg https://s3-eu-west-1.amazonaws.com/prod-ucs-content-store-eu-west/content/pii:S2468823124003663/HIGHRES/image/jpeg/dfed86fa8aa64774f36e35c985d9918d/gr6_lrg.jpg gr6 gr6_lrg.jpg jpg 536149 2106 3000 IMAGE-HIGH-RES 1-s2.0-S2468823124003663-gr4_lrg.jpg https://s3-eu-west-1.amazonaws.com/prod-ucs-content-store-eu-west/content/pii:S2468823124003663/HIGHRES/image/jpeg/d57b249e6901ab69b8897511c8db0789/gr4_lrg.jpg gr4 gr4_lrg.jpg jpg 291723 1050 3000 IMAGE-HIGH-RES 1-s2.0-S2468823124003663-gr5_lrg.jpg https://s3-eu-west-1.amazonaws.com/prod-ucs-content-store-eu-west/content/pii:S2468823124003663/HIGHRES/image/jpeg/f3dc94fadff29db230d6391e32abd1bd/gr5_lrg.jpg gr5 gr5_lrg.jpg jpg 264462 844 3000 IMAGE-HIGH-RES 1-s2.0-S2468823124003663-gr2_lrg.jpg https://s3-eu-west-1.amazonaws.com/prod-ucs-content-store-eu-west/content/pii:S2468823124003663/HIGHRES/image/jpeg/16153bde86c98c423a3afeaa4bb1af1c/gr2_lrg.jpg gr2 gr2_lrg.jpg jpg 132699 1301 1667 IMAGE-HIGH-RES 1-s2.0-S2468823124003663-ga1_lrg.jpg https://s3-eu-west-1.amazonaws.com/prod-ucs-content-store-eu-west/content/pii:S2468823124003663/HIGHRES/image/jpeg/99d0b7f0a216f10aea4f927ddd83675b/ga1_lrg.jpg ga1 true ga1_lrg.jpg jpg 194719 885 2213 IMAGE-HIGH-RES 1-s2.0-S2468823124003663-gr3_lrg.jpg https://s3-eu-west-1.amazonaws.com/prod-ucs-content-store-eu-west/content/pii:S2468823124003663/HIGHRES/image/jpeg/58b087628a02a1fd311eb33ad8dc82a4/gr3_lrg.jpg gr3 gr3_lrg.jpg jpg 574253 2534 3000 IMAGE-HIGH-RES 1-s2.0-S2468823124003663-gr1_lrg.jpg https://s3-eu-west-1.amazonaws.com/prod-ucs-content-store-eu-west/content/pii:S2468823124003663/HIGHRES/image/jpeg/2f759865daab28e1f4d8e04a28ef7529/gr1_lrg.jpg gr1 gr1_lrg.jpg jpg 389533 1785 3167 IMAGE-HIGH-RES 1-s2.0-S2468823124003663-mmc1.pdf https://s3-eu-west-1.amazonaws.com/prod-ucs-content-store-eu-west/content/pii:S2468823124003663/mmc1/MAIN/application/pdf/156f114e85eef9ed7f3497bb42d8aa78/mmc1.pdf mmc1 mmc1.pdf pdf false 428419 APPLICATION 1-s2.0-S2468823124003663-am.pdf https://s3-eu-west-1.amazonaws.com/prod-ucs-content-store-eu-west/content/egi:10VXKJRQ4LZ/MAIN/application/pdf/972d7a33bb92cf70d2c210520e7046b8/am.pdf am am.pdf pdf false 1025814 AAM-PDF MCAT 114183 114183 S2468-8231(24)00366-3 10.1016/j.mcat.2024.114183 Fig. 1 Reaction mechanism as presented in ref. [6]. Fig 1 Fig. 2 Lignin model alcohols: cyclohexanol (2), (S)−1-phenylpropan-1-ol (PP, 3), phenol (4), 2‑methoxy-4-propylphenol (4-propylguaiacol, PG, 5) and 4-methyl-2,6-dimethoxyphenol (MDP, 6). Fig 2 Fig. 3 Ternary complexes (left), transition states (middle) and stannyl carbamates/carboximidates (right) for the O- (top) and N-coordinated (bottom) gas-phase reaction of methanol with methyl isocyanate. Interactions between reacting centres are depicted as bold dashed lines, all others as plain dotted lines. Fig 3 Fig. 4 Ternary complex (A), transition state (B) and stannyl carbamate (C) for the N-coordinated gas-phase reaction of phenol with methyl isocyanate. Interactions between reacting centres are depicted as bold dashed lines, all others as plain dotted lines. Fig 4 Fig. 5 Ternary complex (A), transition state (B) and stannyl carbamate (C) for the N-coordinated gas phase reaction of (S)−1-phenylpropan-1-ol (PP) with methyl isocyanate. Interactions between reacting centres are depicted as bold dashed lines, all others as plain dotted lines. Fig 5 Fig. 6 Ternary complexes (A and D), transition states (B and E) and stannyl carbamates (C and F) for the N-coordinated gas-phase reactions of 2‑methoxy-4-propylphenol (PG, top) and 4-methyl-2,6-dimethoxyphenol (MDP, bottom) with methyl isocyanate. Interactions between reacting centres are depicted as bold dashed lines, all others as plain dotted lines. Fig 6 Table 1 Activation energies (E a in kJ.mol–1) and relative energies (in kJ.mol–1) of the ternary complex (TC), the transition state (TS) and stannyl carbamate/carboximidate (SC) for the different model alcohols reacting with methyl isocyanate or phenyl isocyanate. All reactions follow the N-coordinated path; for methanol the values for both paths have been given for the reaction with MeNCO. Table 1 MeNCO PhNCO TC TS SC E a TC TS SC E a Methanol (O) –60.86 3.52 –72.28 64.38 – – – – Methanol (N) –58.82 –24.70 –99.89 34.12 –40.58 –13.96 –82.98 26.63 Phenol –63.64 –0.03 –70.14 63.61 −49.82 13.94 –54.34 63.76 Cyclohexanol –55.99 –14.90 –93.13 41.08 –37.44 –3.87 –76.95 33.56 PP –55.82 –13.18 –86.81 42.64 –38.85 –0.48 –69.66 38.37 PG –69.59 –7.52 –80.13 62.07 –43.15 20.44 –67.88 63.59 MDP –55.77 9.21 –66.17 64.98 –44.81 16.24 –50.63 61.05 Towards lignin-based polyurethanes: a computational study of the influence of the reactants structure on the formation of urethanes in the presence of tin(II) dicarboxylate as a catalyst Léon Luntadila Lufungula Writing – review & editing Writing – original draft Methodology Investigation Data curation Conceptualization a R. Vendamme Writing – review & editing Writing – original draft Funding acquisition Conceptualization b W. Eevers Writing – review & editing Writing – original draft Funding acquisition Conceptualization a b E. Feghali Writing – review & editing Writing – original draft Funding acquisition Conceptualization b c M. Rubens Writing – review & editing Writing – original draft Conceptualization b M. Van Wesemael Writing – review & editing Writing – original draft Conceptualization a K. Vanbroekhoven Writing – review & editing Writing – original draft Conceptualization b F. Blockhuys Writing – review & editing Writing – original draft Supervision Formal analysis Conceptualization a ⁎ a University of Antwerp, Department of Chemistry, Groenenborgerlaan 171, B-2020 Antwerpen, Belgium University of Antwerp Department of Chemistry Groenenborgerlaan 171 Antwerpen B-2020 Belgium aUniversity of Antwerp, Department of Chemistry, Groenenborgerlaan 171, B-2020 Antwerpen, Belgium b Flemish Institute for Technological Research (Vito N.V.), Boeretang 200, B-2400 Mol, Belgium Flemish Institute for Technological Research (Vito N.V.) Boeretang 200 Mol B-2400 Belgium bFlemish Institute for Technological Research (Vito N.V.), Boeretang 200, B-2400 Mol, Belgium c Chemical Engineering Program, Notre Dame University-Louaize, PO Box 72, Zouk Mosbeh, Lebanon Chemical Engineering Program Notre Dame University-Louaize PO Box 72 Zouk Mosbeh Lebanon cChemical Engineering Program, Notre Dame University-Louaize, PO Box 72, Zouk Mosbeh, Lebanon ⁎ Corresponding author. An in-depth computational investigation of the tin-catalysed reaction of an alcohol with an isocyanate forming a urethane has been performed to elucidate the influence of the reactants, most importantly the type of alcohol or phenol, on its kinetics. The model alcohols were chosen based on those alcohol moieties present in lignin and comprised aliphatic, aromatic and benzylic alcohols, and reactions with both aliphatic and aromatic isocyanates were studied by modelling the rate-determining step of the urethane formation based on the mechanism proposed by Devendra et al. The results show that N-coordination is both kinetically and thermodynamically favoured for all reactions under consideration. Aliphatic alcohols react more readily than phenols with an aliphatic isocyanate, while benzylic alcohols react similarly to a bulky aliphatic alcohol. In the case of phenols, the kinetics are not influenced by the presence and/or number of ortho‑methoxy groups, but these will slightly alter the thermodynamics of the reaction. Aliphatic alcohols show slightly improved kinetics when reacting with an aromatic isocyanate, whereas phenols show no such preference. The reactions with the aliphatic isocyanate were also modelled in DMSO, but no significant changes in reaction kinetics were observed. Graphical abstract Image, graphical abstract Keywords Lignin Polyurethane Kinetics Hydroxyl groups Density functional theory Data availability Data will be made available on request. 1 Introduction Lignin is a class of complex organic polyols found in the cell walls of most plants. It is the second most abundant natural polymer, and it is commercially obtained as a by-product of the pulp and paper industry. As a result, 50–70 million tonnes of lignin are produced annually worldwide [1]. Despite being such an abundant natural resource, lignin is seldom valorised due to the complexity of its structure and, by extension, its unpredictable reactivity. Therefore, the majority of lignin produced today is simply being put to use as a fuel for power and heat generation, effectively missing out on most of its chemical potential [1]. As a polyol, lignin can react with polyisocyanates to form polyurethane (PU) plastics. By varying both polyol and polyisocyanate, this reaction can produce a broad spectrum of PUs with a wide range of material properties. As such, these plastics can be utilized in a variety of applications such as adhesives, coatings, elastomers, foams and fibres [2]. By using lignin as a green alternative to traditional fossil-fuel-based polyols, the vast amount of lignin produced by the paper industry could be effectively valorised and the overall carbon footprint of the PU synthesis could be reduced. However, the reaction of a polyol with a polyisocyanate proceeds relatively slowly and often requires a catalyst to be performed on a reasonable time scale. Many different types of catalysts have been utilized over the years, but the tin-based catalysts have proven to be most effective [3]. Despite their outstanding efficiency, however, the mechanism of their catalysis is not yet fully understood. The most important insights into the latter come from work by Devendra et al. In their original paper [4] they reported the results of a combined experimental/computational investigation of the organotin(IV)-catalysed coupling of a simple alcohol with an isocyanate to form a urethane molecule and proposed the initial formation of a ternary complex consisting of catalyst, alcohol and isocyanate. The experiments indicated that the dicarboxylate form of the catalyst seems to be preferred over its dialcoholate form and that aliphatic and aromatic isocyanates behave differently, but no direct link between computations (performed in the gas phase as well as in toluene and water) and experiments was made. Furthermore, the conclusions were often based on very small energy differences and only the coordination of the metal atom to the oxygen atom of the isocyanate (so-called “O-coordination”, cfr. Fig. 1 ) was considered. A follow-up paper [5] reported that reactions in different solvents lead to similar results, and even though coordination of the metal atom to the nitrogen atom of the isocyanate (so-called “N-coordination”, cfr. Fig. 1) was mentioned briefly as an alternative to O-coordination, this was not further elaborated. Their subsequent paper [6] presented N-coordination as the preferred reaction mechanism, which seems to render moot all previous conclusions based on O-coordination; it was concluded that the first step in the two-step mechanism is rate determining. In their, to date, final contribution [7] they returned to model the N-coordinated reaction path using alcoholate as the ligand, even though their own experiments (see above) had ruled out the presence of these ligands. Based on all this, the mechanism of the urethane formation can be summarized as follows. The catalyst forms an initial ternary complex with the alcohol and isocyanate through either N-coordination (preferred) or O-coordination. The O-coordinated complex releases a carboxylic acid to form a stannyl carboximidate, which will readily rearrange to form a more stable stannyl carbamate, while the N-coordinated complex reacts to form a stannyl carbamate directly from the starting complex. Subsequently, in both cases, the stannyl carbamate will react with a proton donor (a carboxylic acid or an alcohol) to produce the final urethane product, as depicted in Fig. 1. Despite the apparent inconsistencies in the results presented by Devendra et al. their model provides a good starting point for our investigations, taking the following considerations into account. (1) It is tin(II) and not tin(IV) which was used, and this raises the question whether the mechanism, or at least what happens during the rate determine step, is still valid. (2) Methanol was used as model alcohol in all papers to reduce computational complexity but a broader range of alcohols and phenols needs to be considered so that the influence of the variation in the functional group can be gauged: lignin produced by the pulp and paper industry is a branched polyol with a complex and ill-defined structure containing various aliphatic, benzylic and aromatic hydroxyl groups [8], in which each hydroxyl group has a different chemical environment, which will influence its reactivity. (3) A more detailed analysis has to be performed of the differences between aromatic and aliphatic isocyanates than has been presented up to now. The successful valorisation of lignin requires insight into these differences to better control the reactions and the properties of the resulting PU product. In this paper, a more in-depth computational study of the kinetics of the tin(II)-catalysed urethane formation is performed, based on the mechanism proposed by Devendra et al., by focussing on the kinetics of the first (rate-determining) step and by analysing the structural features of the species involved in terms of the differences in energetics/kinetics. The aliphatic hydroxyl groups in lignin are mainly primary aliphatic alcohols and these were modelled using methanol (1), but cyclohexanol (2) was also included to gauge the influence of steric effects. The benzylic hydroxyl groups in lignin were modelled using (S)−1-phenylpropan-1-ol (PP, 3) [9]. The aromatic hydroxyl groups in lignin either have zero, one or two ortho‑methoxy groups and can be modelled by phenol (4), 2‑methoxy-4-propylphenol (4-propylguaiacol, PG, 5) and 4-methyl-2,6-dimethoxyphenol (MDP, 6), respectively. The structures of these model alcohols are given in Fig. 2 . Reactions with both an aliphatic (methyl isocyanate, MeNCO) and an aromatic isocyanate (phenyl isocyanate, PhNCO) were studied; tin(II) diacetate (TDA) was used as a model catalyst. For each combination of alcohol and isocyanate the rate-determining step of the reaction, i.e., the formation of the stannyl carbamate/carboximidate from the ternary complex, was studied and based on the resulting activation energies the differences in the reactivities of the different hydroxyl groups in lignin were described. 2 Computational methods All calculations were performed using the Gaussian 09 suite of programs [10], at the level of Density Functional Theory (DFT), using the B3LYP functional [11–15] and the 6–31G* (for H, C, N and O) [16–18] and LANL2DZ (for Sn) [19] basis sets, matching those in ref. [6]; the functional and basis set were used as they are implemented in the program. Harmonic-frequency calculations were performed to verify that the resulting structures are minima on the Potential Energy Surface (PES). The Integral Equation Formalism Polarizable Continuum Model (IEFPCM) [20] was used to calculate the reaction profiles in DMSO; the model was used as it is implemented in Gaussian 09. All reactions were modelled by generating a structure close to the transition state (TS) of the reaction based on the mechanism proposed in ref. [6]. This near-TS structure was then optimized using the Berny algorithm [21], followed by a harmonic frequency calculation to verify whether the TS was associated with precisely one imaginary frequency. Subsequently, the structure of the TS was connected to the structures of reactants and products using the intrinsic reaction coordinate (IRC) procedure [22], as it is implemented in Gaussian 09. The structures at both ends of the IRC were optimized to a minimum to obtain the true minimum-energy structures of reactants and products. The energies of both reactants and products were corrected for the basis set superposition error (BSSE) using the counterpoise correction [23], as it is implemented in Gaussian 09. Since there is no systematic way of doing this for transition states (bonds may be formed or broken to different extents in the TS, depending on the reactants) and such a correction is clearly necessary (in many cases, not doing so resulted in negative activation energies), the following strategy was used. For each reaction, the geometry of the TS was compared to the geometry of the reactants and products to determine whether it was an early or a late TS. Subsequently, the atoms of an early TS were divided into the same fragments as those found in the reactant complex (catalyst, alcohol, and isocyanate), while those of a late TS were divided into the same fragments as those seen in the product complex (stannyl carbamate/carboximidate and carboxylic acid). N-coordinated reactions have an early TS, while O-coordinated reactions generally have a mid-to-late TS: because the structure of the latter was considered late in terms of some geometrical parameters and early in terms of others, a counterpoise correction was performed for both cases and the average of the resulting two TS energies was taken to calculate the activation energy. Since B3LYP does not provide accurate thermochemical data and should not be used when accurate Gibbs free energies and enthalpies are required [24-25], all energies are internal energies E at 0 K, without zero-point energy correction. 3 Results and discussion The TDA-catalysed reactions of the six model alcohols with both isocyanates were modelled in the gas phase. Table 1 shows the activation energies for these reactions. In the following, the reaction of methanol with methyl isocyanate will be discussed in detail first. Then, the reactions of the other alcohols with the same isocyanate will be evaluated. For each, the ternary complex (TC) and stannyl carbamate/carboximidate (SC) will be discussed in terms of their relative energies and the observed interaction distances between the various fragments; likewise, the TS will be discussed in terms of the geometry changes on the way to the TS and linked to the activation energy. Finally, the whole cycle will be repeated briefly with phenyl isocyanate and the inclusion of solvent will be evaluated. In the figures and accompanying text the atoms of the isocyanate are labelled “1”, those of the alcohol “2” and those of the tin catalyst “3” or higher (except for the Sn atom). 3.1 Reactions with methyl isocyanate 3.1.1 Methanol The reaction has two distinct pathways in which either the oxygen (O-coordination) or the nitrogen atom of the isocyanate (N-coordination) coordinates with the tin atom of the catalyst. The values of the relative energies of the species involved in the rate-determining step are given in Table 1 for both reaction pathways and the associated ternary complexes are shown in Fig. 3 (structures A and D). The data in Table 1 show that the O-coordinated complex is only slightly more stable (by about 2 kJ.mol–1) than the N-coordinated complex. While the O-coordinated complex has one fewer interaction – replacing C(1)···O(5) and R(1)···O(4) with R(2)···O(5) – the interaction distances are generally shorter than those in the N-coordinated complex (Table S1 in the Supporting Information): O(1)···Sn is 0.075 Å shorter than N(1)···Sn, and R(1)···O(2) is 0.128 Å shorter (Table S1). C(1)···O(2) is the only interaction which is longer for the O-coordinated complex, by 0.044 Å. These differences can be attributed to the steric effect of the methyl group of the isocyanate, which hinders N(1)···Sn and (to a lesser extent) H(2)···O(3) in the N-coordination pathway, and C(1)···O(2) in the O-coordination one. Investigation of the interaction distances and energies of the ternary complexes of all reactions (Table S1) shows that the hydrogen bond between alcohol and catalyst [H(2)···O(3)], and the interaction between one of the heteroatoms of the isocyanate and the tin atom of the catalyst [O(1)/N(1)···Sn] are the main contributors to the stability of the TC. Conversely, the interactions associated with the alkyl groups of the complexing molecules [R(1) for the isocyanate, R(2) for the alcohol, and R(3) and R(4) for the methyl groups of the catalyst], and the interaction between the carbon atom of the isocyanate and the oxygen atom of the alcohol [C(1)···O(2)] only have a small contribution to the ternary complex's stability. Therefore, the destabilization of the O-coordinated complex due to the elongated C(1)···O(2) and the smaller number of interactions is easily counteracted by the shorter H(2)···O(3) and O(1)···Sn interactions, even resulting in a slight stabilization of the TC. Structures B and E in Fig. 3 represent the transition states of both reaction pathways. From these it becomes clear that the N-coordinated reaction has an early TS, strongly resembling the initial complex in both structure and energy. In contrast, the O-coordinated reaction has a rather late TS whereby the change in structure is quite recognizable and the energy difference is relatively large. Indeed, the changes in interaction distances when going from TC to TS are much larger for the O-coordinated reaction, by 0.281, 0.235, 0.340, 0.090 and 0.076 Å for H(2)···O(3), O(1)···Sn, C(1)···O(2), Sn–O(4) and O(2)–H(2), respectively (Table S1). Note that apart from the bonds being broken and formed, the carbon atom in the isocyanate moiety also re-hybridizes during the reaction, going from sp in the TC to sp 2 in the stannyl carbamate/carboximidate. Therefore, the change in the NCO bond angle is also an important parameter in the discussion of the transition states: its change when going from TC to TS is 15.0° larger for the O-coordinated reaction (Table S1). Consequently, all geometric considerations point toward the fact that the O-coordinated reaction has a late TS, which is accompanied by a larger activation energy: 64.38 kJ.mol–1 for the O-coordinated pathway compared to 34.12 kJ.mol–1 for the N-coordinated one (Table 1). Finally, the O-coordinated reaction will form a stannyl carboximidate, which can rearrange to form the stannyl carbamate intermediate. This generally requires little energy, which is also the case here (activation barrier of about 15 kJ.mol–1). Conversely, the N-coordinated reaction forms the stannyl carbamate immediately and requires no additional rearrangement. The structures of the stannyl carboximidate/carbamate are shown as structures C and F in Fig. 3. They show that the stannyl carbamate can place the carbamate moiety in a plane nearly parallel to that of the carboxylic acid, whereby the alkyl and carbonyl groups of the carbamate moiety are placed away from the hydrogen bond, effectively limiting their steric hindrance. The structure of the stannyl carboximidate does not allow for such an advantageous placement of its bulky groups and it will be forced to place them in a plane perpendicular to that of the carboxylic acid, resulting in increased steric hindrance and longer interaction distances: Sn···O(4) and H(2)···O(2) are longer by 0.237 and 0.235 Å, respectively, resulting in a less stable complex compared to the stannyl carbamate. As the O-coordinated reaction pathway is both thermodynamically (from a reaction energy point of view) and kinetically (from an activation energy point of view) disfavoured, it becomes clear that reaction through N-coordination will be the main reaction pathway. This was the case for all reactions under consideration, the numerical details of which have been collected in Table S2. Therefore, only the N-coordinated reactions will be discussed for all subsequent reactions. 3.1.2 Phenol The TC of phenol is about 5 kJ.mol–1 more stable than that of methanol, as can be seen in Table 1. The phenol complex has all the interactions the methanol complex has, with an additional R(2)···O(3) due to one of the ortho hydrogen atoms on the benzene ring, as shown in Fig. 4A. Except for H(2)···O(3) all interactions are longer in the phenol complex than in the methanol one (Table S1), which can be attributed to the steric effects of the benzene ring. The fact that O(2)–H(2) is 0.006 Å longer while H(2)···O(3) is 0.070 Å shorter in the phenol complex can also be attributed to the electron-withdrawing nature of the benzene ring, which will weaken O(2)–H(2) and increase its hydrogen donor capacity, leading to a shorter hydrogen bond. The stabilizing effect due to the latter in combination with the additional interaction is more than enough to counteract the destabilizing effects of the greater interaction distances due to steric effects. This also reinforces the earlier statement claiming the importance of the hydrogen bond for the stability of the TC. With an activation energy of 63.31 kJ mol–1, which is nearly double that of methanol, it becomes clear that the reaction of phenol is disfavoured from a kinetic point of view. Indeed, considering the bonds being broken and formed and the bending of the isocyanate moiety when going from TC to TS (Fig. 4B), it is observed that all geometric changes have progressed significantly further in the reaction of phenol than in that of methanol (Table S1). This can be attributed to what was mentioned above, i.e., the weakening of the O(2)–H(2) bond, which will make it easier for the hydrogen to be abstracted from the alcohol, but it will also decrease the nucleophilicity of the oxygen atom of the alcohol group. The fact that this hydrogen atom is more easily removed will result in larger geometric changes when going from TC to TS, while the decreased nucleophilicity will make it harder for O(2) to attack the C atom of the isocyanate; the latter is also seen in the C(1)···O(2) distance in the TS which is 0.192 Å shorter for phenol than for methanol (Table S1), making it more difficult for the reaction to reach its tipping point for the former. The increased interaction distances in the TC will also be accompanied by larger geometrical changes for the reaction centres to come close enough to react. This all leads to the higher activation energy observed for the phenol reaction. In the TC the benzene ring was part of the hydrogen-donating fragment, and it assisted in the formation of the hydrogen bond. In the SC, however, the benzene ring is now part of the hydrogen-accepting fragment, drawing away electron density from the acceptor oxygen atom and hindering the formation of the hydrogen bond, as shown in Fig. 4C. This is seen in the H(2)···O(2) distance which is 0.031 Å longer in the SC of the phenol reaction than in that of its methanol counterpart. While the Sn···O(4) interaction is a mere 0.005 Å shorter, the weaker hydrogen bond and the steric effects of the benzene ring easily counteract this slight stabilization, and this results in a complex which is about 30 kJ.mol–1 less stable than the methanol one (Table 1). 3.1.3 Cyclohexanol To be able to distinguish steric effects from electronic effects, the reaction of cyclohexanol as a non-aromatic bulky alcohol was also modelled (Figure S1). When the cyclohexanol reaction pathway is compared to that of methanol, it is seen that all structures in the former possess the same interactions as in the latter, but that they are slightly destabilized (by 5 to 10 kJ mol–1, Table 1). This is no surprise, as one would expect the steric effects of the cyclohexyl group to destabilize the complexes formed during the reaction. This is, however, different from what was seen for the reaction of phenol, in which the TC was stabilized due to the electronic effects of the benzene ring. Because steric effects are larger in the TS due to the close proximity of the fragments in this state, the activation energy of the reaction of cyclohexanol is about 7 kJ.mol–1 higher than that of methanol. Again, the difference with the reaction of phenol, in which the activation energy was almost doubled due to the strong influence of the electronic effects of the benzene ring, is noted. These observations show that the differences between methanol and phenol are not solely due to steric effects, but that the electronic effects of the benzene ring too are quite important. 3.1.4 (S)−1-Phenylpropan-1-ol (PP) Comparing the relative energies for the reaction of PP with those of the previous reactions shows large similarities with the energies of the cyclohexanol reaction: the energies of the ternary complexes differ by only 0.17 kJ mol–1. Fig. 5 A shows that the ethyl and benzyl groups of the TC of PP generate two additional interactions: one intermolecular with an oxygen moiety of the catalyst and one intramolecular with the hydroxyl oxygen atom. The latter draws electron density away from the oxygen atom of the hydroxyl group, which results in H(2)···O(3) becoming 0.010 Å shorter (Table S1). These effects are, however, negligible in comparison to the effects on the hydrogen bond observed in the phenol complex and the reaction will be affected mainly by the steric effects of the benzylic alcohol group. Indeed, apart from the hydrogen bond, all other interactions are longer in the PP complex than in the cyclohexanol complex: C(1)···O(2), N(1)···Sn, C(1)···O(5) and R(1)···O(2) are 0.113, 0.019, 0.051 and 0.042 Å shorter in the latter, respectively (Table S1). The additional interactions combined with the slightly shorter hydrogen bond counteract the increased steric strain, resulting in comparable energies. The changes in geometric parameters going from TC to TS are comparable to those observed in the reaction of cyclohexanol, however, steric strain hinders the reaction, resulting in longer interaction distances in both TC and TS. The electronic effects in PP are rather small and the reaction is expected to be mainly influenced by steric effects. Indeed, because PP is a bit bulkier than cyclohexanol in the regions where the interactions occur, the reaction will be slightly slower than that of cyclohexanol. The increased steric strain will be counteracted in part by the stabilization due to the additional interactions observed in the TC; these are retained in the TS, as shown in Fig. 5B. This results in an activation energy that is only about 2 kJ.mol–1 higher compared to the reaction of cyclohexanol. The additional interactions for PP are also maintained in the SC, in which the intermolecular interaction of the benzyl group is now considered an intramolecular one, as shown in Fig. 5C. Despite these additional interactions, steric effects in the SC will hinder the hydrogen bond of the carboxylic acid with the stannyl carbamate, and result in an H(2)···O(2) interaction which is 0.064 Å longer than that for cyclohexanol, leading to a SC which is about 6 kJ.mol–1 less stable. In terms of energy, the reaction of PP is almost identical to that of cyclohexanol, with a largest difference of only about 6 kJ.mol–1 for the SC. Consequently, it can be concluded that the electronic effects of benzylic alcohols are negligible, resulting in a reaction similar to that of a bulky aliphatic alcohol. 3.1.5 2-Methoxy-4-propylphenol (PG) and 4-methyl-2,6-dimethoxyphenol (MDP) From the energies of the structures of PG and MDP in Table 1 it can be seen that the structures of PG are all slightly more stable than those of phenol, while those of MDP are slightly less stable. This can be explained by considering both the electronic and steric effects present in the structures. The ternary complexes of PG and MDP are shown in Fig. 6 (structures A and D). PG has one methoxy group in the ortho position which will inductively draw electrons away from the O(2)-H(2) bond, reducing the H(2)···O(3) distance by 0.015 Å with respect to that of phenol. Because PG only has one ortho methoxy group, it can position itself in such a way that the methoxy group is pointed away from most stabilizing interactions, most importantly the hydrogen bond, resulting in a reaction that is mainly influenced by the electronic effects of the methoxy group. This is exactly what is seen in the TC, in which all interaction distances [H(2)···O(3), N(1)···Sn and C(1)···O(2)] are shorter than those of phenol and an additional interaction with the methoxy group is also present, resulting in a more stable complex. MDP has two ortho methoxy groups which should lead to an even bigger inductive effect and an even stronger hydrogen bond, but the presence of a methoxy group on each side of the hydroxyl group greatly increases the steric strain upon hydrogen bond formation. This can be seen in the H(2)···O(3) hydrogen bond of MDP which is 0.143 Å longer than that of phenol and has an exceptionally bad donor-hydrogen-acceptor angle of 139.2° (31.7° smaller than that of phenol). As in the PG complex, the first methoxy group generates an additional interaction with the isocyanate methyl group. The second methoxy group in MDP forms an intramolecular hydrogen bond with the hydroxyl hydrogen, also making the hydrogen atom less available for bonding with the catalyst's oxygen atom, hindering complexation and reducing the stability of the complex. It becomes clear that the steric effects of the methoxy groups outweigh the electronic effects in the reaction of MDP, resulting in a destabilization of the structures along the reaction path. The transition states of PG and MDP are shown in Fig. 6 (structures B and E). Because the reacting centres in the TC of PG are already quite close together, they will need to cover less distance for the reaction to proceed when compared to the reaction of phenol. Indeed, the changes in the H(2)···O(3), N(1)···Sn and C(1)···O(2) distances are 0.040, 0.063 and 0.116 Å smaller, respectively, than for phenol (Table S1), resulting in a slightly lower activation energy than for phenol. For MDP, the opposite is true: due to its elongated interaction distances, it will have to change more to get the reaction centres at an appropriate distance to react. This is most clearly seen in H(2)···O(3), which has to become shorter by 0.127 Å more than in the reaction of phenol to reach the TS (Table S1). This larger change in geometry is accompanied by an activation energy that is slightly larger than that of phenol. The stabilization of PG and destabilization of MDP is also seen in the stabilities of their respective stannyl carbamates. For the stannyl carbamate of PG, we observe shorter interaction distances [H(2)···O(2) and N(4)···Sn] than those observed for phenol. Fig. 4C shows that the ortho hydrogen atom in the phenol complex forms an intramolecular interaction with the carbonyl oxygen in the carbamate moiety, which twists the ring towards the hydrogen bond and hinders complexation. As shown in Fig. 6C, this interaction is absent in the SC of PG, and the ring remains at an angle perpendicular to the plane of the carboxylic acid, thus reducing its steric effect on the hydrogen bond, resulting in a hydrogen bond which is 0.024 Å shorter (Table S1). The reduced steric strain in the complex is enough to counteract the slightly decreased nucleophilicity of the carbamate oxygen atom and results in a SC which is about 10 kJ.mol–1 more stable than that of phenol. The SC of MDP (Fig. 6F) shows a similar angle for the ring, but the steric strain has become larger and the nucleophilicity of the carbamate oxygen has dropped even more due to the effects of the second methoxy group. In this case, the steric effects of the methoxy groups in combination with the decreased nucleophilicity of the carbamate oxygen atom will result in a SC which is about 4 kJ.mol–1 less stable than that of phenol. 3.2 Reactions with phenyl isocyanate Table 1 clearly shows that going from methyl to phenyl isocyanate causes a destabilization along the reaction path for all reactions. This can be attributed to the increased steric hindrance due to the presence of the benzene ring, as most of the interaction distances become longer in the complexes with phenyl isocyanate (Table S4). From the activation energies of the different reactions, it is clear that the reactions of the aliphatic (methanol and cyclohexanol) and benzylic (PP) alcohols with phenyl isocyanate show slightly lower activation energies than the corresponding ones with methyl isocyanate. For the aromatic alcohols (phenol, PG and MDP) there seems to be little to no effect on the kinetics when going from methyl to phenyl isocyanate. In a recent work, the apparent activation energies of the reactions of a number of lignin model compounds with commercially relevant diisocyanates were determined using non-isothermal DSC experiments [9]. Overall, similar trends were found as presented here: for the reactions of PG and the aliphatic alcohol 3-phenyl-1-propanol with the aromatic isocyanate PMDI (polymeric 4,4′-methylene diphenyl diisocyanate) values of 54.7 and 39.5 kJ.mol–1 were found, respectively, displaying the same trend as those calculated for the reactions of phenol (63.8 kJ.mol–1) and methanol (26.6 kJ.mol–1) with phenyl isocyanate (Table 1). 3.3 Use of a solvent model The N-coordinated reactions of the six model alcohols with methyl isocyanate were also modelled in DMSO and their activation energies and the relative energies of the complexes are shown in Table S3. The solvent model had little effect on the energetics of the reaction as activation energies differed by less than 2 kJ.mol–1 and the relative energies of the structures along the reaction path shifted by less than 8 kJ.mol–1. This is what one would expect, as no large charges are formed during the reaction, resulting in only a minute influence from the polarizable continuum solvent model. 4 Conclusions For all reactions under consideration in this study, it was found that the N-coordinated reaction pathway is both kinetically and thermodynamically favoured and will be the dominant route for the urethane formation reaction under tin(II) catalysis. A clear difference in kinetics was found between the aromatic and aliphatic alcohols, whereby the reactions of aliphatic alcohols showed activation energies which were about 20 to 30 kJ.mol–1 lower than their aromatic counterparts. These differences are attributed to the electron-withdrawing nature of the benzene ring and its negative effect on the reaction kinetics. The reaction of the benzylic alcohol under consideration (1-phenylpropan-1-ol) showed little difference in terms of kinetics from the reaction of a bulky aliphatic alcohol (cyclohexanol), showing the negligible electronic effect of the benzyl group on the reactivity of the hydroxyl group. The presence of ortho methoxy groups in the aromatic alcohols had little effect on the kinetics of the reaction but did show an effect on the thermodynamics. The introduction of one methoxy group resulted in a slight stabilization (less than 5 kJ.mol–1), whereby the stabilizing electronic effects outweighed the destabilizing steric effects. Conversely, the introduction of two methoxy groups resulted in a slight destabilization (between 5 and 10 kJ.mol–1), whereby the steric effects outweighed the electronic effects of the methoxy groups. Aliphatic and benzylic alcohols showed slightly improved kinetics (less than 10 kJ.mol–1) when reacting with an aromatic isocyanate, whereas aromatic alcohols showed no clear difference in terms of kinetics. Lastly, the DMSO solvent model showed little effect on reaction kinetics and thermodynamics, due to the negligible charge accumulation during the reaction. These results lead to a better understanding of the reaction kinetics and thermodynamics when lignin is used as a source of polyol in the PU formation reaction. Indeed, this study confirms the overall behaviour of lignols towards polymerization with polyisocyanates found experimentally. CRediT authorship contribution statement Léon Luntadila Lufungula: Writing – review & editing, Writing – original draft, Methodology, Investigation, Data curation, Conceptualization. R. Vendamme: Writing – review & editing, Writing – original draft, Funding acquisition, Conceptualization. W. Eevers: Writing – review & editing, Writing – original draft, Funding acquisition, Conceptualization. E. Feghali: Writing – review & editing, Writing – original draft, Funding acquisition, Conceptualization. M. Rubens: Writing – review & editing, Writing – original draft, Conceptualization. M. Van Wesemael: Writing – review & editing, Writing – original draft, Conceptualization. K. Vanbroekhoven: Writing – review & editing, Writing – original draft, Conceptualization. F. Blockhuys: Writing – review & editing, Writing – original draft, Supervision, Formal analysis, Conceptualization. Declaration of competing interest The authors declare that they have no known competing financial interests or personal relationships that could have appeared to influence the work reported in this paper. Acknowledgements The authors wish to acknowledge COST Action CA17128 “Establishment of a Pan-European Network on the Sustainable Valorisation of Lignin (LignoCOST)”. VITO would like to acknowledge the province of Noord-Brabant (The Netherlands) for the financial support in the framework of the activities at the Shared Research Centre Biorizon. The computational resources and services used in this work were provided by the HPC core facility CalcUA of the Universiteit Antwerpen, and VSC (Flemish Supercomputer center), funded by the Research Foundation – Flanders (FWO) and the Flemish Government. Supplementary materials Supplementary material associated with this article can be found, in the online version, at doi:10.1016/j.mcat.2024.114183. Appendix Supplementary materials Image, application 1 References [1] H. Luo, M.M. Abu-Omar, Chemicals from lignin, in: M.A. Abraham (Ed.), Encyclopedia of Sustainable Technologies, Elsevier, Oxford, 2017: pp. 573–585. 10.1016/B978-0-12-409548-9.10235-0. [2] M.F. Sonnenschein Polyurethanes: science, technology, markets, and Trends 2015 Wiley Hoboken, New Jersey M.F. Sonnenschein, Polyurethanes: science, technology, markets, and Trends, Wiley, Hoboken, New Jersey, 2015. [3] M. Szycher Szycher's Handbook of Polyurethanes 2. 2013 CRC Press Boca Raton 10.1201/b12343 M. Szycher, Szycher's Handbook of Polyurethanes, 2. ed, CRC Press, Boca Raton, 2013. https://doi.org/10.1201/b12343. [4] R. Devendra N.R. Edmonds T. Söhnel Computational and experimental investigations of the urethane formation mechanism in the presence of organotin(IV) carboxylate catalysts J. Mol. Catal. A Chem. 366 2013 126 139 10.1016/j.molcata.2012.09.015 R. Devendra, N.R. Edmonds, T. Söhnel, Computational and experimental investigations of the urethane formation mechanism in the presence of organotin(IV) carboxylate catalysts, J. Mol. Catal. A Chem. 366 (2013) 126–139. https://doi.org/10.1016/j.molcata.2012.09.015. [5] R. Devendra N.R. Edmonds T. Söhnel Organotin carboxylate catalyst in urethane formation in a polar solvent: an experimental and computational study RSC. Adv. 5 2015 48935 48945 10.1039/C5RA03367E R. Devendra, N.R. Edmonds, T. Söhnel, Organotin carboxylate catalyst in urethane formation in a polar solvent: an experimental and computational study, RSC. Adv.. 5 (2015) 48935–48945. https://doi.org/10.1039/C5RA03367E. [6] R. Devendra N.R. Edmonds T. Söhnel Insight into the mechanism of the catalysis of urethane formation by organotin(IV) dicarboxylate Reac. Kinet. Mech. Cat. 124 2018 487 502 10.1007/s11144-018-1366-4 R. Devendra, N.R. Edmonds, T. Söhnel, Insight into the mechanism of the catalysis of urethane formation by organotin(IV) dicarboxylate, Reac. Kinet. Mech. Cat. 124 (2018) 487–502. https://doi.org/10.1007/s11144-018-1366-4. [7] R. Devendra N.R. Edmonds T. Söhnel Investigations of catalysis of urethane formation using organotin dicarboxylate Heliyon 6 2020 e04074 10.1016/j.heliyon.2020.e04074 R. Devendra, N.R. Edmonds, T. Söhnel, Investigations of catalysis of urethane formation using organotin dicarboxylate, Heliyon 6 (2020) e04074. https://doi.org/10.1016/j.heliyon.2020.e04074. [8] C. Crestini H. Lange M. Sette D.S. Argyropoulos On the structure of softwood kraft lignin Green. Chem. 19 2017 4104 4121 10.1039/C7GC01812F C. Crestini, H. Lange, M. Sette, D.S. Argyropoulos, On the structure of softwood kraft lignin, Green. Chem.. 19 (2017) 4104–4121. https://doi.org/10.1039/C7GC01812F. [9] M. Rubens M.V. Wesemael E. Feghali L.L. Lufungula F. Blockhuys K. Vanbroekhoven W. Eevers R. Vendamme Exploring the reactivity of aliphatic and phenolic hydroxyl groups in lignin hydrogenolysis oil towards urethane bond formation Ind. Crops. Prod. 180 2022 114703 10.1016/j.indcrop.2022.114703 M. Rubens, M.V. Wesemael, E. Feghali, L.L. Lufungula, F. Blockhuys, K. Vanbroekhoven, W. Eevers, R. Vendamme, Exploring the reactivity of aliphatic and phenolic hydroxyl groups in lignin hydrogenolysis oil towards urethane bond formation, Ind. Crops. Prod. 180 (2022) 114703. https://doi.org/10.1016/j.indcrop.2022.114703. [10] M.J. Frisch, G.W. Trucks, J.R. Cheeseman, G. Scalmani, M. Caricato, H.P. Hratchian, X. Li, V. Barone, J. Bloino, G. Zheng, T. Vreven, J.A. Montgomery, G.A. Petersson, G.E. Scuseria, H.B. Schlegel, H. Nakatsuji, A.F. Izmaylov, R.L. Martin, J.L. Sonnenberg, J.E. Peralta, J.J. Heyd, E. Brothers, F. Ogliaro, M. Bearpark, M.A. Robb, B. Mennucci, K.N. Kudin, V.N. Staroverov, R. Kobayashi, J. Normand, A. Rendell, R. Gomperts, V.G. Zakrzewski, M. Hada, M. Ehara, K. Toyota, R. Fukuda, J. Hasegawa, M. Ishida, T. Nakajima, Y. Honda, O. Kitao, H. Nakai, Gaussian 09, revision D.01, (2013). [11] A.D. Becke Density-functional exchange-energy approximation with correct asymptotic behavior Phys. Rev. A 38 1988 3098 3100 10.1103/PhysRevA.38.3098 A.D. Becke, Density-functional exchange-energy approximation with correct asymptotic behavior, Phys. Rev. A 38 (1988) 3098–3100. https://doi.org/10.1103/PhysRevA.38.3098. [12] A.D. Becke Density-functional thermochemistry. III. The role of exact exchange J. Chem. Phys. 98 1993 5648 5652 10.1063/1.464913 A.D. Becke, Density-functional thermochemistry. III. The role of exact exchange, J. Chem. Phys. 98 (1993) 5648–5652. https://doi.org/10.1063/1.464913. [13] C. Lee W. Yang R.G. Parr Development of the Colle-Salvetti correlation-energy formula into a functional of the electron density Phys. Rev. B 37 1988 785 789 10.1103/PhysRevB.37.785 C. Lee, W. Yang, R.G. Parr, Development of the Colle-Salvetti correlation-energy formula into a functional of the electron density, Phys. Rev. B 37 (1988) 785–789. https://doi.org/10.1103/PhysRevB.37.785. [14] P.J. Stephens F.J. Devlin C.F. Chabalowski M.J. Frisch Ab initio calculation of vibrational absorption and circular dichroism spectra using density functional force fields J. Phys. Chem. 98 1994 11623 11627 10.1021/j100096a001 P.J. Stephens, F.J. Devlin, C.F. Chabalowski, M.J. Frisch, Ab initio calculation of vibrational absorption and circular dichroism spectra using density functional force fields, J. Phys. Chem. 98 (1994) 11623–11627. https://doi.org/10.1021/j100096a001. [15] S.H. Vosko L. Wilk M. Nusair Accurate spin-dependent electron liquid correlation energies for local spin density calculations: a critical analysis Can. J. Phys. 58 1980 1200 1211 10.1139/p80-159 S.H. Vosko, L. Wilk, M. Nusair, Accurate spin-dependent electron liquid correlation energies for local spin density calculations: a critical analysis, Can. J. Phys. 58 (1980) 1200–1211. https://doi.org/10.1139/p80-159. [16] R. Ditchfield W.J. Hehre J.A. Pople Self-consistent molecular-orbital methods. IX. An extended gaussian-type basis for molecular-orbital studies of organic molecules J. Chem. Phys. 54 2003 724 728 10.1063/1.1674902 R. Ditchfield, W.J. Hehre, J.A. Pople, Self-consistent molecular-orbital methods. IX. An extended gaussian-type basis for molecular-orbital studies of organic molecules, J. Chem. Phys. 54 (2003) 724–728. https://doi.org/10.1063/1.1674902. [17] P.C. Hariharan J.A. Pople The influence of polarization functions on molecular orbital hydrogenation energies Theoret. Chim. Acta 28 1973 213 222 10.1007/BF00533485 P.C. Hariharan, J.A. Pople, The influence of polarization functions on molecular orbital hydrogenation energies, Theoret. Chim. Acta 28 (1973) 213–222. https://doi.org/10.1007/BF00533485. [18] W.J. Hehre R. Ditchfield J.A. Pople Self—consistent molecular orbital methods. XII. Further extensions of gaussian—type basis sets for use in molecular orbital studies of organic molecules J. Chem. Phys. 56 2003 2257 2261 10.1063/1.1677527 W.J. Hehre, R. Ditchfield, J.A. Pople, Self—consistent molecular orbital methods. XII. Further extensions of gaussian—type basis sets for use in molecular orbital studies of organic molecules, J. Chem. Phys. 56 (2003) 2257–2261. https://doi.org/10.1063/1.1677527. [19] W.R. Wadt P.J. Hay Ab initio effective core potentials for molecular calculations. Potentials for main group elements Na to Bi J. Chem. Phys. 82 1985 284 298 10.1063/1.448800 W.R. Wadt, P.J. Hay, Ab initio effective core potentials for molecular calculations. Potentials for main group elements Na to Bi, J. Chem. Phys. 82 (1985) 284–298. https://doi.org/10.1063/1.448800. [20] S. Miertuš E. Scrocco J. Tomasi Electrostatic interaction of a solute with a continuum. A direct utilizaion of AB initio molecular potentials for the prevision of solvent effects Chem. Phys. 55 1981 117 129 10.1016/0301-0104(81)85090-2 S. Miertuš, E. Scrocco, J. Tomasi, Electrostatic interaction of a solute with a continuum. A direct utilizaion of AB initio molecular potentials for the prevision of solvent effects, Chem. Phys. 55 (1981) 117–129. https://doi.org/10.1016/0301-0104(81)85090-2. [21] H.B. Schlegel Optimization of equilibrium geometries and transition structures J. Comput. Chem. 3 1982 214 218 10.1002/jcc.540030212 H.B. Schlegel, Optimization of equilibrium geometries and transition structures, J. Comput. Chem. 3 (1982) 214–218. https://doi.org/10.1002/jcc.540030212. [22] K. Fukui The path of chemical reactions - the IRC approach Acc. Chem. Res. 14 1981 363 368 10.1021/ar00072a001 K. Fukui, The path of chemical reactions - the IRC approach, Acc. Chem. Res. 14 (1981) 363–368. https://doi.org/10.1021/ar00072a001. [23] S.F. Boys F. Bernardi The calculation of small molecular interactions by the differences of separate total energies. Some procedures with reduced errors Mol. Phys. 19 1970 553 566 10.1080/00268977000101561 S.F. Boys, F. Bernardi, The calculation of small molecular interactions by the differences of separate total energies. Some procedures with reduced errors, Mol. Phys. 19 (1970) 553–566. https://doi.org/10.1080/00268977000101561. [24] H. Kruse L. Goerigk S. Grimme Why the Standard B3LYP/6-31G* Model Chemistry Should Not Be Used in DFT Calculations of Molecular Thermochemistry: understanding and Correcting the Problem J. Org. Chem. 77 2012 10824 10834 10.1021/jo302156p H. Kruse, L. Goerigk, S. Grimme, Why the Standard B3LYP/6-31G* Model Chemistry Should Not Be Used in DFT Calculations of Molecular Thermochemistry: understanding and Correcting the Problem, J. Org. Chem. 77 (2012) 10824–10834. https://doi.org/10.1021/jo302156p. [25] L. Lu H. Hu H. Hou B. Wang An improved B3LYP method in the calculation of organic thermochemistry and reactivity Comput. Theor. Chem. 1015 2013 64 71 10.1016/j.comptc.2013.04.009 L. Lu, H. Hu, H. Hou, B. Wang, An improved B3LYP method in the calculation of organic thermochemistry and reactivity, Comput. Theor. Chem. 1015 (2013) 64–71. https://doi.org/10.1016/j.comptc.2013.04.009.",
+      "scopus-id": "85191460696",
+      "coredata": {
+        "eid": "1-s2.0-S2468823124003663",
+        "dc:description": "An in-depth computational investigation of the tin-catalysed reaction of an alcohol with an isocyanate forming a urethane has been performed to elucidate the influence of the reactants, most importantly the type of alcohol or phenol, on its kinetics. The model alcohols were chosen based on those alcohol moieties present in lignin and comprised aliphatic, aromatic and benzylic alcohols, and reactions with both aliphatic and aromatic isocyanates were studied by modelling the rate-determining step of the urethane formation based on the mechanism proposed by Devendra et al. The results show that N-coordination is both kinetically and thermodynamically favoured for all reactions under consideration. Aliphatic alcohols react more readily than phenols with an aliphatic isocyanate, while benzylic alcohols react similarly to a bulky aliphatic alcohol. In the case of phenols, the kinetics are not influenced by the presence and/or number of ortho‑methoxy groups, but these will slightly alter the thermodynamics of the reaction. Aliphatic alcohols show slightly improved kinetics when reacting with an aromatic isocyanate, whereas phenols show no such preference. The reactions with the aliphatic isocyanate were also modelled in DMSO, but no significant changes in reaction kinetics were observed.",
+        "openArchiveArticle": "false",
+        "prism:coverDate": "2024-05-15",
+        "openaccessUserLicense": null,
+        "prism:aggregationType": "Journal",
+        "prism:url": "https://api.elsevier.com/content/article/pii/S2468823124003663",
+        "dc:creator": [
+          {
+            "@_fa": "true",
+            "$": "Luntadila Lufungula, Léon"
+          },
+          {
+            "@_fa": "true",
+            "$": "Vendamme, R."
+          },
+          {
+            "@_fa": "true",
+            "$": "Eevers, W."
+          },
+          {
+            "@_fa": "true",
+            "$": "Feghali, E."
+          },
+          {
+            "@_fa": "true",
+            "$": "Rubens, M."
+          },
+          {
+            "@_fa": "true",
+            "$": "Van Wesemael, M."
+          },
+          {
+            "@_fa": "true",
+            "$": "Vanbroekhoven, K."
+          },
+          {
+            "@_fa": "true",
+            "$": "Blockhuys, F."
+          }
+        ],
+        "link": [
+          {
+            "@_fa": "true",
+            "@rel": "self",
+            "@href": "https://api.elsevier.com/content/article/pii/S2468823124003663"
+          },
+          {
+            "@_fa": "true",
+            "@rel": "scidir",
+            "@href": "https://www.sciencedirect.com/science/article/pii/S2468823124003663"
+          }
+        ],
+        "dc:format": "application/json",
+        "openaccessType": null,
+        "pii": "S2468-8231(24)00366-3",
+        "prism:volume": "561",
+        "articleNumber": "114183",
+        "prism:publisher": "Elsevier B.V.",
+        "dc:title": "Towards lignin-based polyurethanes: a computational study of the influence of the reactants structure on the formation of urethanes in the presence of tin(II) dicarboxylate as a catalyst",
+        "prism:copyright": "© 2024 Elsevier B.V. All rights reserved.",
+        "openaccess": "0",
+        "prism:issn": "24688231",
+        "dcterms:subject": [
+          {
+            "@_fa": "true",
+            "$": "Lignin"
+          },
+          {
+            "@_fa": "true",
+            "$": "Polyurethane"
+          },
+          {
+            "@_fa": "true",
+            "$": "Kinetics"
+          },
+          {
+            "@_fa": "true",
+            "$": "Hydroxyl groups"
+          },
+          {
+            "@_fa": "true",
+            "$": "Density functional theory"
+          }
+        ],
+        "openaccessArticle": "false",
+        "prism:publicationName": "Molecular Catalysis",
+        "openaccessSponsorType": null,
+        "prism:pageRange": "114183",
+        "pubType": "fla",
+        "prism:coverDisplayDate": "15 May 2024",
+        "prism:doi": "10.1016/j.mcat.2024.114183",
+        "prism:startingPage": "114183",
+        "dc:identifier": "doi:10.1016/j.mcat.2024.114183",
+        "openaccessSponsorName": null
+      },
+      "objects": {
+        "object": [
+          {
+            "@category": "standard",
+            "@height": "476",
+            "@width": "678",
+            "@_fa": "true",
+            "$": "https://api.elsevier.com/content/object/eid/1-s2.0-S2468823124003663-gr6.jpg?httpAccept=%2A%2F%2A",
+            "@multimediatype": "JPEG image file",
+            "@type": "IMAGE-DOWNSAMPLED",
+            "@size": "71915",
+            "@ref": "gr6",
+            "@mimetype": "image/jpeg"
+          },
+          {
+            "@category": "standard",
+            "@height": "237",
+            "@width": "678",
+            "@_fa": "true",
+            "$": "https://api.elsevier.com/content/object/eid/1-s2.0-S2468823124003663-gr4.jpg?httpAccept=%2A%2F%2A",
+            "@multimediatype": "JPEG image file",
+            "@type": "IMAGE-DOWNSAMPLED",
+            "@size": "41865",
+            "@ref": "gr4",
+            "@mimetype": "image/jpeg"
+          },
+          {
+            "@category": "standard",
+            "@height": "191",
+            "@width": "678",
+            "@_fa": "true",
+            "$": "https://api.elsevier.com/content/object/eid/1-s2.0-S2468823124003663-gr5.jpg?httpAccept=%2A%2F%2A",
+            "@multimediatype": "JPEG image file",
+            "@type": "IMAGE-DOWNSAMPLED",
+            "@size": "38431",
+            "@ref": "gr5",
+            "@mimetype": "image/jpeg"
+          },
+          {
+            "@category": "standard",
+            "@height": "293",
+            "@width": "376",
+            "@_fa": "true",
+            "$": "https://api.elsevier.com/content/object/eid/1-s2.0-S2468823124003663-gr2.jpg?httpAccept=%2A%2F%2A",
+            "@multimediatype": "JPEG image file",
+            "@type": "IMAGE-DOWNSAMPLED",
+            "@size": "17602",
+            "@ref": "gr2",
+            "@mimetype": "image/jpeg"
+          },
+          {
+            "@category": "standard",
+            "@height": "200",
+            "@width": "500",
+            "@_fa": "true",
+            "$": "https://api.elsevier.com/content/object/eid/1-s2.0-S2468823124003663-ga1.jpg?httpAccept=%2A%2F%2A",
+            "@multimediatype": "JPEG image file",
+            "@type": "IMAGE-DOWNSAMPLED",
+            "@size": "25446",
+            "@ref": "ga1",
+            "@mimetype": "image/jpeg"
+          },
+          {
+            "@category": "standard",
+            "@height": "573",
+            "@width": "678",
+            "@_fa": "true",
+            "$": "https://api.elsevier.com/content/object/eid/1-s2.0-S2468823124003663-gr3.jpg?httpAccept=%2A%2F%2A",
+            "@multimediatype": "JPEG image file",
+            "@type": "IMAGE-DOWNSAMPLED",
+            "@size": "82264",
+            "@ref": "gr3",
+            "@mimetype": "image/jpeg"
+          },
+          {
+            "@category": "standard",
+            "@height": "403",
+            "@width": "715",
+            "@_fa": "true",
+            "$": "https://api.elsevier.com/content/object/eid/1-s2.0-S2468823124003663-gr1.jpg?httpAccept=%2A%2F%2A",
+            "@multimediatype": "JPEG image file",
+            "@type": "IMAGE-DOWNSAMPLED",
+            "@size": "55318",
+            "@ref": "gr1",
+            "@mimetype": "image/jpeg"
+          },
+          {
+            "@category": "thumbnail",
+            "@height": "154",
+            "@width": "219",
+            "@_fa": "true",
+            "$": "https://api.elsevier.com/content/object/eid/1-s2.0-S2468823124003663-gr6.sml?httpAccept=%2A%2F%2A",
+            "@multimediatype": "GIF image file",
+            "@type": "IMAGE-THUMBNAIL",
+            "@size": "10745",
+            "@ref": "gr6",
+            "@mimetype": "image/gif"
+          },
+          {
+            "@category": "thumbnail",
+            "@height": "77",
+            "@width": "219",
+            "@_fa": "true",
+            "$": "https://api.elsevier.com/content/object/eid/1-s2.0-S2468823124003663-gr4.sml?httpAccept=%2A%2F%2A",
+            "@multimediatype": "GIF image file",
+            "@type": "IMAGE-THUMBNAIL",
+            "@size": "7771",
+            "@ref": "gr4",
+            "@mimetype": "image/gif"
+          },
+          {
+            "@category": "thumbnail",
+            "@height": "62",
+            "@width": "219",
+            "@_fa": "true",
+            "$": "https://api.elsevier.com/content/object/eid/1-s2.0-S2468823124003663-gr5.sml?httpAccept=%2A%2F%2A",
+            "@multimediatype": "GIF image file",
+            "@type": "IMAGE-THUMBNAIL",
+            "@size": "7689",
+            "@ref": "gr5",
+            "@mimetype": "image/gif"
+          },
+          {
+            "@category": "thumbnail",
+            "@height": "164",
+            "@width": "210",
+            "@_fa": "true",
+            "$": "https://api.elsevier.com/content/object/eid/1-s2.0-S2468823124003663-gr2.sml?httpAccept=%2A%2F%2A",
+            "@multimediatype": "GIF image file",
+            "@type": "IMAGE-THUMBNAIL",
+            "@size": "7045",
+            "@ref": "gr2",
+            "@mimetype": "image/gif"
+          },
+          {
+            "@category": "thumbnail",
+            "@height": "88",
+            "@width": "219",
+            "@_fa": "true",
+            "$": "https://api.elsevier.com/content/object/eid/1-s2.0-S2468823124003663-ga1.sml?httpAccept=%2A%2F%2A",
+            "@multimediatype": "GIF image file",
+            "@type": "IMAGE-THUMBNAIL",
+            "@size": "10652",
+            "@ref": "ga1",
+            "@mimetype": "image/gif"
+          },
+          {
+            "@category": "thumbnail",
+            "@height": "164",
+            "@width": "194",
+            "@_fa": "true",
+            "$": "https://api.elsevier.com/content/object/eid/1-s2.0-S2468823124003663-gr3.sml?httpAccept=%2A%2F%2A",
+            "@multimediatype": "GIF image file",
+            "@type": "IMAGE-THUMBNAIL",
+            "@size": "11455",
+            "@ref": "gr3",
+            "@mimetype": "image/gif"
+          },
+          {
+            "@category": "thumbnail",
+            "@height": "123",
+            "@width": "219",
+            "@_fa": "true",
+            "$": "https://api.elsevier.com/content/object/eid/1-s2.0-S2468823124003663-gr1.sml?httpAccept=%2A%2F%2A",
+            "@multimediatype": "GIF image file",
+            "@type": "IMAGE-THUMBNAIL",
+            "@size": "7437",
+            "@ref": "gr1",
+            "@mimetype": "image/gif"
+          },
+          {
+            "@category": "high",
+            "@height": "2106",
+            "@width": "3000",
+            "@_fa": "true",
+            "$": "https://api.elsevier.com/content/object/eid/1-s2.0-S2468823124003663-gr6_lrg.jpg?httpAccept=%2A%2F%2A",
+            "@multimediatype": "JPEG image file",
+            "@type": "IMAGE-HIGH-RES",
+            "@size": "536149",
+            "@ref": "gr6",
+            "@mimetype": "image/jpeg"
+          },
+          {
+            "@category": "high",
+            "@height": "1050",
+            "@width": "3000",
+            "@_fa": "true",
+            "$": "https://api.elsevier.com/content/object/eid/1-s2.0-S2468823124003663-gr4_lrg.jpg?httpAccept=%2A%2F%2A",
+            "@multimediatype": "JPEG image file",
+            "@type": "IMAGE-HIGH-RES",
+            "@size": "291723",
+            "@ref": "gr4",
+            "@mimetype": "image/jpeg"
+          },
+          {
+            "@category": "high",
+            "@height": "844",
+            "@width": "3000",
+            "@_fa": "true",
+            "$": "https://api.elsevier.com/content/object/eid/1-s2.0-S2468823124003663-gr5_lrg.jpg?httpAccept=%2A%2F%2A",
+            "@multimediatype": "JPEG image file",
+            "@type": "IMAGE-HIGH-RES",
+            "@size": "264462",
+            "@ref": "gr5",
+            "@mimetype": "image/jpeg"
+          },
+          {
+            "@category": "high",
+            "@height": "1301",
+            "@width": "1667",
+            "@_fa": "true",
+            "$": "https://api.elsevier.com/content/object/eid/1-s2.0-S2468823124003663-gr2_lrg.jpg?httpAccept=%2A%2F%2A",
+            "@multimediatype": "JPEG image file",
+            "@type": "IMAGE-HIGH-RES",
+            "@size": "132699",
+            "@ref": "gr2",
+            "@mimetype": "image/jpeg"
+          },
+          {
+            "@category": "high",
+            "@height": "885",
+            "@width": "2213",
+            "@_fa": "true",
+            "$": "https://api.elsevier.com/content/object/eid/1-s2.0-S2468823124003663-ga1_lrg.jpg?httpAccept=%2A%2F%2A",
+            "@multimediatype": "JPEG image file",
+            "@type": "IMAGE-HIGH-RES",
+            "@size": "194719",
+            "@ref": "ga1",
+            "@mimetype": "image/jpeg"
+          },
+          {
+            "@category": "high",
+            "@height": "2534",
+            "@width": "3000",
+            "@_fa": "true",
+            "$": "https://api.elsevier.com/content/object/eid/1-s2.0-S2468823124003663-gr3_lrg.jpg?httpAccept=%2A%2F%2A",
+            "@multimediatype": "JPEG image file",
+            "@type": "IMAGE-HIGH-RES",
+            "@size": "574253",
+            "@ref": "gr3",
+            "@mimetype": "image/jpeg"
+          },
+          {
+            "@category": "high",
+            "@height": "1785",
+            "@width": "3167",
+            "@_fa": "true",
+            "$": "https://api.elsevier.com/content/object/eid/1-s2.0-S2468823124003663-gr1_lrg.jpg?httpAccept=%2A%2F%2A",
+            "@multimediatype": "JPEG image file",
+            "@type": "IMAGE-HIGH-RES",
+            "@size": "389533",
+            "@ref": "gr1",
+            "@mimetype": "image/jpeg"
+          },
+          {
+            "@category": "standard",
+            "@_fa": "true",
+            "$": "https://api.elsevier.com/content/object/eid/1-s2.0-S2468823124003663-mmc1.pdf?httpAccept=%2A%2F%2A",
+            "@multimediatype": "Acrobat PDF file",
+            "@type": "APPLICATION",
+            "@size": "428419",
+            "@ref": "mmc1",
+            "@mimetype": "application/pdf"
+          },
+          {
+            "@category": "standard",
+            "@_fa": "true",
+            "$": "https://api.elsevier.com/content/object/eid/1-s2.0-S2468823124003663-am.pdf?httpAccept=%2A%2F%2A",
+            "@multimediatype": "Acrobat PDF file",
+            "@type": "AAM-PDF",
+            "@size": "1025814",
+            "@ref": "am",
+            "@mimetype": "application/pdf"
+          }
+        ]
+      },
+      "link": {
+        "@rel": "abstract",
+        "@href": "https://api.elsevier.com/content/abstract/scopus_id/85191460696"
+      }
+    }
+  }
+}

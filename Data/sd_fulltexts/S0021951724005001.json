@@ -1,0 +1,624 @@
+{
+  "metadata": {
+    "title": "Every reaction Detail Matters: An <ce:italic>in silico</ce:italic> driven Step-by-Step Guide to understand the B<ce:inf loc=post>2</ce:inf>O<ce:inf loc=post>3</ce:inf>-Catalyzed CO<ce:inf loc=post>2</ce:inf> to cyclic carbonates conversion",
+    "authors": "; ",
+    "journal": "Journal of Catalysis",
+    "date": "2024-11-30",
+    "doi": "10.1016/j.jcat.2024.115787",
+    "abstract": "",
+    "uri": "https://api.elsevier.com/content/article/pii/S0021951724005001",
+    "pii": "S0021951724005001"
+  },
+  "fulltext": {
+    "full-text-retrieval-response": {
+      "scopus-eid": "2-s2.0-85205992019",
+      "originalText": "serial JL 272561 291210 291744 291809 31 Journal of Catalysis JOURNALCATALYSIS 2024-10-06 2024-10-06 2024-10-10 2024-10-10 2024-11-04T20:43:04 1-s2.0-S0021951724005001 S0021-9517(24)00500-1 S0021951724005001 10.1016/j.jcat.2024.115787 S300 S300.1 FULL-TEXT 1-s2.0-S0021951724X00111 2024-12-26T15:33:11.490464Z 0 0 20241101 20241130 2024 2024-10-06T22:25:00.661631Z absattachment articleinfo articlenumber articletitlenorm authfirstinitialnorm authfirstsurnamenorm cid cids contenttype copyright crossmark dateloaded dateloadedtxt datesearch datesort dateupdated dco docsubtype doctype doi eid ewtransactionid hubeid indexeddate issn issnnorm itemstage itemtransactionid itemweight openaccess openarchive pg pgfirst pii piinorm pubdateend pubdatestart pubdatetxt pubyr sectiontitle sortorder srctitle srctitlenorm srctype ssids alllist content subj subheadings suppl tomb volfirst volissue volumelist webpdf webpdfpagecount yearnav figure e-component body acknowledge affil appendices articletitle auth authfirstini authfull authkeywords authlast grantsponsor grantsponsorid highlightsabst orcid primabst pubtype ref specialabst 0021-9517 00219517 true 439 439 C Volume 439 38 115787 115787 115787 202411 November 2024 2024-11-01 2024-11-30 2024 Regular Articles article fla © 2024 Elsevier Inc. All rights are reserved, including those for text and data mining, AI training, and similar technologies. EVERYREACTIONDETAILMATTERSINSILICODRIVENSTEPBYSTEPGUIDEUNDERSTANDB2O3CATALYZEDCO2CYCLICCARBONATESCONVERSION KUMAR N 1 Introduction 2 Computational methods 2.1 Computational model 2.2 Computational details 3 Results and discussion 3.1 The non-catalyzed cycloaddition reaction 3.2 The n-NBu4Br catalyzed cycloaddition reaction 3.3 B2O3 (AS1)/n-NBu4Br catalyzed cycloaddition reaction Route 1 3.4 B2O3 (AS1)/n-NBu4Br catalyzed cycloaddition reaction Route 2 3.5 B2O3 (AS2)/n-NBu4Br catalyzed cycloaddition reaction 3.6 Comparison of B2O3 species AS1 v/s AS2 catalyzed reaction 4 Conclusion CRediT authorship contribution statement Acknowledgments Appendix A Supplementary material REFERENCES COX 2000 184 187 P JONES 2020 4955 4957 W ARTZ 2018 434 504 J BURKART 2019 7937 7956 M TOUNZOUA 2022 e202116066 C ZHANG 2020 23291 23298 Y CHEN 2023 9744 9759 J SCHAFFNER 2010 4554 4581 B GUO 2015 11686 11690 W BESSE 2013 4545 4561 V CAI 2016 14194 14197 A SAKAKURA 2007 2365 2387 T LI 2020 4839 4844 Z ADELEYE 2014 18647 18657 A NATONGCHAI 2022 2873 2886 W SHAIKH 2018 419 450 R WANG 2016 6091 6100 W ALROWAILI 2021 101715 F IZATT 2014 2451 2475 R COKOJA 2015 2436 2454 M GRANT 2016 1570 1573 J SHI 2017 1788 1793 L HUANG 2017 3293 3297 R TIAN 2020 1 7 J VENEGAS 2017 2118 2127 J RAWAL 2023 e202300364 P RAWAL 2024 e202303371 P RAWAL 2024 e202401050 P LU 2019 8263 8270 W LIU 2021 24930 24944 Z LIU 2021 8770 8776 Z ZHAO 2019 172 178 L WHITEOAK 2012 2032 2038 C WANG 2016 4871 4876 J ARAYACHUKIAT 2017 6392 6397 S SOPENA 2017 3532 3539 S LIU 2022 21263 21271 Y ZHU 2022 16672 16681 L ZHOU 2023 12942 12952 Q NEESE 2012 73 78 F NEESE 2022 1 15 F STEPHEN 1994 11623 11627 P WEIGEND 2005 3297 3305 F NEESE 2009 98 109 F GRIMME 2011 1456 1465 S HRATCHIAN 2005 61 69 H RIPLINGER 2013 C LU 2012 580 592 T MOMMA 2008 653 658 K KNIZIA 2013 4834 4843 G KOZUCH 2011 101 110 S BABU 2017 15961 15969 R BUTERA 2016 1167 1175 V DELLAMONICA 2018 6882 6893 F HU 2018 200 206 T CASALSSAINZ 2020 339 352 J BICKELHAUPT 2017 10070 10086 F GOSWAMI 2023 11091 11103 N ARORA 2023 e202300688 S KUMARX2024X115787 KUMARX2024X115787XN 2026-10-10T00:00:00.000Z 2026-10-10T00:00:00.000Z http://creativecommons.org/licenses/by-nc-nd/4.0/ © 2024 Elsevier Inc. All rights are reserved, including those for text and data mining, AI training, and similar technologies. 2024-10-25T04:37:08.244Z http://vtw.elsevier.com/data/voc/AddOnTypes/50.7/aggregated-refined SERB CRG/2021/000759 SERB Science and Engineering Research Board http://data.elsevier.com/vocabulary/SciValFunders/501100001843 http://sws.geonames.org/1269750/ Department of Science and Technology DST Department of Science and Technology, Ministry of Science and Technology, India http://data.elsevier.com/vocabulary/SciValFunders/501100001409 http://sws.geonames.org/1269750/ Ministry of Electronics and Information Technology Meity Ministry of Electronics and Information technology http://data.elsevier.com/vocabulary/SciValFunders/501100008628 http://sws.geonames.org/1269750/ CSIR 09/143(1026)/2020-EMR-I CSIR Council of Scientific and Industrial Research, India http://data.elsevier.com/vocabulary/SciValFunders/501100001412 http://sws.geonames.org/1269750/ N.K. thanks CSIR for the SRF fellowship (09/143(1026)/2020-EMR-I). P.G. acknowledges SERB (CRG/2021/000759) for financial support and National Supercomputing Mission (NSM) for providing computing resources of 'PARAM Ganga' at IIT Roorkee, which is implemented by C \\u2212 DAC and supported by the Ministry of Electronics and Information Technology (MeitY) and Department of Science and Technology (DST), Government of India. N.K. thanks CSIR for the SRF fellowship (09/143(1026)/2020-EMR-I). P.G. acknowledges SERB (CRG/2021/000759) for financial support and National Supercomputing Mission ( NSM ) for providing computing resources of 'PARAM Ganga' at IIT Roorkee , which is implemented by C\\u202F\\u2212\\u202FDAC and supported by the Ministry of Electronics and Information Technology (MeitY) and Department of Science and Technology (DST), Government of India. https://doi.org/10.15223/policy-017 https://doi.org/10.15223/policy-037 https://doi.org/10.15223/policy-012 https://doi.org/10.15223/policy-029 https://doi.org/10.15223/policy-004 item S0021-9517(24)00500-1 S0021951724005001 1-s2.0-S0021951724005001 10.1016/j.jcat.2024.115787 272561 2024-12-26T15:33:11.490464Z 2024-11-01 2024-11-30 1-s2.0-S0021951724005001-main.pdf https://s3-eu-west-1.amazonaws.com/prod-ucs-content-store-eu-west/content/pii:S0021951724005001/MAIN/application/pdf/6450804c25c6f9111f70c8122c33da4a/main.pdf main.pdf pdf true 6321468 MAIN 12 1-s2.0-S0021951724005001-main_1.png https://s3-eu-west-1.amazonaws.com/prod-ucs-content-store-eu-west/content/pii:S0021951724005001/PREVIEW/image/png/a24757a9ee72fdecb2b45c72a174bbbe/main_1.png main_1.png png 60011 849 656 IMAGE-WEB-PDF 1 1-s2.0-S0021951724005001-gr1.jpg https://s3-eu-west-1.amazonaws.com/prod-ucs-content-store-eu-west/content/pii:S0021951724005001/gr1/DOWNSAMPLED/image/jpeg/fb78a18d87be2203f100da2b5e1db644/gr1.jpg gr1 gr1.jpg jpg 86403 520 645 IMAGE-DOWNSAMPLED 1-s2.0-S0021951724005001-gr2.jpg https://s3-eu-west-1.amazonaws.com/prod-ucs-content-store-eu-west/content/pii:S0021951724005001/gr2/DOWNSAMPLED/image/jpeg/5b06cdbd8c4cadab2ded435a64a56391/gr2.jpg gr2 gr2.jpg jpg 17180 244 378 IMAGE-DOWNSAMPLED 1-s2.0-S0021951724005001-gr10.jpg https://s3-eu-west-1.amazonaws.com/prod-ucs-content-store-eu-west/content/pii:S0021951724005001/gr10/DOWNSAMPLED/image/jpeg/d37a15dc36b78fb90ecc30c9563ec125/gr10.jpg gr10 gr10.jpg jpg 60972 358 711 IMAGE-DOWNSAMPLED 1-s2.0-S0021951724005001-gr11.jpg https://s3-eu-west-1.amazonaws.com/prod-ucs-content-store-eu-west/content/pii:S0021951724005001/gr11/DOWNSAMPLED/image/jpeg/c5d559bbbc57eae637284d0b4613b365/gr11.jpg gr11 gr11.jpg jpg 84320 435 800 IMAGE-DOWNSAMPLED 1-s2.0-S0021951724005001-gr12.jpg https://s3-eu-west-1.amazonaws.com/prod-ucs-content-store-eu-west/content/pii:S0021951724005001/gr12/DOWNSAMPLED/image/jpeg/0a50bf0b0f923c5e4482c2c61142e627/gr12.jpg gr12 gr12.jpg jpg 136964 552 689 IMAGE-DOWNSAMPLED 1-s2.0-S0021951724005001-gr13.jpg https://s3-eu-west-1.amazonaws.com/prod-ucs-content-store-eu-west/content/pii:S0021951724005001/gr13/DOWNSAMPLED/image/jpeg/333e088b886ca63bffcb06326cd706e8/gr13.jpg gr13 gr13.jpg jpg 95779 726 622 IMAGE-DOWNSAMPLED 1-s2.0-S0021951724005001-ga1.jpg https://s3-eu-west-1.amazonaws.com/prod-ucs-content-store-eu-west/content/pii:S0021951724005001/ga1/DOWNSAMPLED/image/jpeg/ee67595d9e5c63239bca7f1b74ab6cd9/ga1.jpg ga1 true ga1.jpg jpg 25562 245 268 IMAGE-DOWNSAMPLED 1-s2.0-S0021951724005001-gr3.jpg https://s3-eu-west-1.amazonaws.com/prod-ucs-content-store-eu-west/content/pii:S0021951724005001/gr3/DOWNSAMPLED/image/jpeg/8ac68d38003bd64d7cf7ce46e19861c6/gr3.jpg gr3 gr3.jpg jpg 33322 373 373 IMAGE-DOWNSAMPLED 1-s2.0-S0021951724005001-gr4.jpg https://s3-eu-west-1.amazonaws.com/prod-ucs-content-store-eu-west/content/pii:S0021951724005001/gr4/DOWNSAMPLED/image/jpeg/8bf8539ed618581cba0de10611a9d958/gr4.jpg gr4 gr4.jpg jpg 81410 465 778 IMAGE-DOWNSAMPLED 1-s2.0-S0021951724005001-gr5.jpg https://s3-eu-west-1.amazonaws.com/prod-ucs-content-store-eu-west/content/pii:S0021951724005001/gr5/DOWNSAMPLED/image/jpeg/6243d87ec665d511016f713bc64ccc85/gr5.jpg gr5 gr5.jpg jpg 92317 510 778 IMAGE-DOWNSAMPLED 1-s2.0-S0021951724005001-gr6.jpg https://s3-eu-west-1.amazonaws.com/prod-ucs-content-store-eu-west/content/pii:S0021951724005001/gr6/DOWNSAMPLED/image/jpeg/52d94e63b391156dbd4706a9b747ed99/gr6.jpg gr6 gr6.jpg jpg 53740 388 667 IMAGE-DOWNSAMPLED 1-s2.0-S0021951724005001-gr7.jpg https://s3-eu-west-1.amazonaws.com/prod-ucs-content-store-eu-west/content/pii:S0021951724005001/gr7/DOWNSAMPLED/image/jpeg/d9ba238224b92df28f6d841cbf43a67d/gr7.jpg gr7 gr7.jpg jpg 61788 323 711 IMAGE-DOWNSAMPLED 1-s2.0-S0021951724005001-gr8.jpg https://s3-eu-west-1.amazonaws.com/prod-ucs-content-store-eu-west/content/pii:S0021951724005001/gr8/DOWNSAMPLED/image/jpeg/45c9b942a369669f2a168995d6a8f936/gr8.jpg gr8 gr8.jpg jpg 84207 413 787 IMAGE-DOWNSAMPLED 1-s2.0-S0021951724005001-gr9.jpg https://s3-eu-west-1.amazonaws.com/prod-ucs-content-store-eu-west/content/pii:S0021951724005001/gr9/DOWNSAMPLED/image/jpeg/5b17ead3768c41f67325cc3f7aec0bd5/gr9.jpg gr9 gr9.jpg jpg 62712 350 711 IMAGE-DOWNSAMPLED 1-s2.0-S0021951724005001-gr1.sml https://s3-eu-west-1.amazonaws.com/prod-ucs-content-store-eu-west/content/pii:S0021951724005001/gr1/THUMBNAIL/image/gif/3666a0620ddf1bd8e91eb9bfdb479a93/gr1.sml gr1 gr1.sml sml 11501 164 203 IMAGE-THUMBNAIL 1-s2.0-S0021951724005001-gr2.sml https://s3-eu-west-1.amazonaws.com/prod-ucs-content-store-eu-west/content/pii:S0021951724005001/gr2/THUMBNAIL/image/gif/0591b2be8be3d9b9f11b9f80e89d8fa8/gr2.sml gr2 gr2.sml sml 6942 141 219 IMAGE-THUMBNAIL 1-s2.0-S0021951724005001-gr10.sml https://s3-eu-west-1.amazonaws.com/prod-ucs-content-store-eu-west/content/pii:S0021951724005001/gr10/THUMBNAIL/image/gif/d88853549020661e6b053cac4af50ef4/gr10.sml gr10 gr10.sml sml 8121 110 219 IMAGE-THUMBNAIL 1-s2.0-S0021951724005001-gr11.sml https://s3-eu-west-1.amazonaws.com/prod-ucs-content-store-eu-west/content/pii:S0021951724005001/gr11/THUMBNAIL/image/gif/8ba8ced70eb703ea6da4e5dee74104d4/gr11.sml gr11 gr11.sml sml 8386 119 219 IMAGE-THUMBNAIL 1-s2.0-S0021951724005001-gr12.sml https://s3-eu-west-1.amazonaws.com/prod-ucs-content-store-eu-west/content/pii:S0021951724005001/gr12/THUMBNAIL/image/gif/5ce0ab43314a736db1669a28076d2f1f/gr12.sml gr12 gr12.sml sml 16871 164 205 IMAGE-THUMBNAIL 1-s2.0-S0021951724005001-gr13.sml https://s3-eu-west-1.amazonaws.com/prod-ucs-content-store-eu-west/content/pii:S0021951724005001/gr13/THUMBNAIL/image/gif/cf19e2756dca5a1e56982f76073762a2/gr13.sml gr13 gr13.sml sml 8158 163 140 IMAGE-THUMBNAIL 1-s2.0-S0021951724005001-ga1.sml https://s3-eu-west-1.amazonaws.com/prod-ucs-content-store-eu-west/content/pii:S0021951724005001/ga1/THUMBNAIL/image/gif/210ffcdf19ae0ed59975eed359b92970/ga1.sml ga1 true ga1.sml sml 11474 164 179 IMAGE-THUMBNAIL 1-s2.0-S0021951724005001-gr3.sml https://s3-eu-west-1.amazonaws.com/prod-ucs-content-store-eu-west/content/pii:S0021951724005001/gr3/THUMBNAIL/image/gif/3c3d7cedaa562516412f5bcad408a177/gr3.sml gr3 gr3.sml sml 7008 164 164 IMAGE-THUMBNAIL 1-s2.0-S0021951724005001-gr4.sml https://s3-eu-west-1.amazonaws.com/prod-ucs-content-store-eu-west/content/pii:S0021951724005001/gr4/THUMBNAIL/image/gif/2788e56974625b354460fdbbc1e3a62a/gr4.sml gr4 gr4.sml sml 8296 131 219 IMAGE-THUMBNAIL 1-s2.0-S0021951724005001-gr5.sml https://s3-eu-west-1.amazonaws.com/prod-ucs-content-store-eu-west/content/pii:S0021951724005001/gr5/THUMBNAIL/image/gif/ba69f6f28dc89becf4cc319ee2e8c023/gr5.sml gr5 gr5.sml sml 9420 144 219 IMAGE-THUMBNAIL 1-s2.0-S0021951724005001-gr6.sml https://s3-eu-west-1.amazonaws.com/prod-ucs-content-store-eu-west/content/pii:S0021951724005001/gr6/THUMBNAIL/image/gif/f0aa2aa5abeb418a5bd4b07562f58b01/gr6.sml gr6 gr6.sml sml 8180 128 219 IMAGE-THUMBNAIL 1-s2.0-S0021951724005001-gr7.sml https://s3-eu-west-1.amazonaws.com/prod-ucs-content-store-eu-west/content/pii:S0021951724005001/gr7/THUMBNAIL/image/gif/f6984cbd44e022fd561dff4481352d6d/gr7.sml gr7 gr7.sml sml 8153 99 219 IMAGE-THUMBNAIL 1-s2.0-S0021951724005001-gr8.sml https://s3-eu-west-1.amazonaws.com/prod-ucs-content-store-eu-west/content/pii:S0021951724005001/gr8/THUMBNAIL/image/gif/ecdde29fefd26f89960131734b8ca26e/gr8.sml gr8 gr8.sml sml 8725 115 219 IMAGE-THUMBNAIL 1-s2.0-S0021951724005001-gr9.sml https://s3-eu-west-1.amazonaws.com/prod-ucs-content-store-eu-west/content/pii:S0021951724004779/gr9/THUMBNAIL/image/gif/ef5924da27537522309aba5f275e82ca/gr9.sml gr9 gr9.sml sml 8186 108 219 IMAGE-THUMBNAIL 1-s2.0-S0021951724005001-gr1_lrg.jpg https://s3-eu-west-1.amazonaws.com/prod-ucs-content-store-eu-west/content/pii:S0021951724005001/HIGHRES/image/jpeg/25435006991d1038a1c306fd1c95725f/gr1_lrg.jpg gr1 gr1_lrg.jpg jpg 584387 2302 2854 IMAGE-HIGH-RES 1-s2.0-S0021951724005001-gr2_lrg.jpg https://s3-eu-west-1.amazonaws.com/prod-ucs-content-store-eu-west/content/pii:S0021951724005001/HIGHRES/image/jpeg/021c2cb2fae99a548b02d5a2f0e950b8/gr2_lrg.jpg gr2 gr2_lrg.jpg jpg 110809 1079 1673 IMAGE-HIGH-RES 1-s2.0-S0021951724005001-gr10_lrg.jpg https://s3-eu-west-1.amazonaws.com/prod-ucs-content-store-eu-west/content/pii:S0021951724005001/HIGHRES/image/jpeg/6664b1f5766b1da0adaf69c222b31d28/gr10_lrg.jpg gr10 gr10_lrg.jpg jpg 399710 1585 3150 IMAGE-HIGH-RES 1-s2.0-S0021951724005001-gr11_lrg.jpg https://s3-eu-west-1.amazonaws.com/prod-ucs-content-store-eu-west/content/pii:S0021951724005001/HIGHRES/image/jpeg/9141e97381895865a13526d33fd48b5c/gr11_lrg.jpg gr11 gr11_lrg.jpg jpg 548228 1928 3544 IMAGE-HIGH-RES 1-s2.0-S0021951724005001-gr12_lrg.jpg https://s3-eu-west-1.amazonaws.com/prod-ucs-content-store-eu-west/content/pii:S0021951724005001/HIGHRES/image/jpeg/1b78272d0dffd7e54da641200ea32be9/gr12_lrg.jpg gr12 gr12_lrg.jpg jpg 913138 2443 3051 IMAGE-HIGH-RES 1-s2.0-S0021951724005001-gr13_lrg.jpg https://s3-eu-west-1.amazonaws.com/prod-ucs-content-store-eu-west/content/pii:S0021951724005001/HIGHRES/image/jpeg/631bf32a603ddc59648ff639cb106609/gr13_lrg.jpg gr13 gr13_lrg.jpg jpg 652610 3215 2756 IMAGE-HIGH-RES 1-s2.0-S0021951724005001-ga1_lrg.jpg https://s3-eu-west-1.amazonaws.com/prod-ucs-content-store-eu-west/content/pii:S0021951724005001/HIGHRES/image/jpeg/66d5f97e0433cd4e2fff470e933504e1/ga1_lrg.jpg ga1 true ga1_lrg.jpg jpg 194269 1085 1186 IMAGE-HIGH-RES 1-s2.0-S0021951724005001-gr3_lrg.jpg https://s3-eu-west-1.amazonaws.com/prod-ucs-content-store-eu-west/content/pii:S0021951724005001/HIGHRES/image/jpeg/5ecb154b21500d496958fcce991dbb5d/gr3_lrg.jpg gr3 gr3_lrg.jpg jpg 221047 1655 1654 IMAGE-HIGH-RES 1-s2.0-S0021951724005001-gr4_lrg.jpg https://s3-eu-west-1.amazonaws.com/prod-ucs-content-store-eu-west/content/pii:S0021951724005001/HIGHRES/image/jpeg/a638c9aecd44ed0f2f8e6bf7dfd97216/gr4_lrg.jpg gr4 gr4_lrg.jpg jpg 527379 2061 3445 IMAGE-HIGH-RES 1-s2.0-S0021951724005001-gr5_lrg.jpg https://s3-eu-west-1.amazonaws.com/prod-ucs-content-store-eu-west/content/pii:S0021951724005001/HIGHRES/image/jpeg/4ebe7948ea7547a75fd530c543ef30b0/gr5_lrg.jpg gr5 gr5_lrg.jpg jpg 591046 2258 3445 IMAGE-HIGH-RES 1-s2.0-S0021951724005001-gr6_lrg.jpg https://s3-eu-west-1.amazonaws.com/prod-ucs-content-store-eu-west/content/pii:S0021951724005001/HIGHRES/image/jpeg/3e5a14155f6c26aa9b3123518824e716/gr6_lrg.jpg gr6 gr6_lrg.jpg jpg 342076 1720 2953 IMAGE-HIGH-RES 1-s2.0-S0021951724005001-gr7_lrg.jpg https://s3-eu-west-1.amazonaws.com/prod-ucs-content-store-eu-west/content/pii:S0021951724005001/HIGHRES/image/jpeg/561ad79456cfbe6cfcb5810dbfdc08e2/gr7_lrg.jpg gr7 gr7_lrg.jpg jpg 421741 1431 3150 IMAGE-HIGH-RES 1-s2.0-S0021951724005001-gr8_lrg.jpg https://s3-eu-west-1.amazonaws.com/prod-ucs-content-store-eu-west/content/pii:S0021951724004779/HIGHRES/image/jpeg/1025f3f65bfb867a6d056112e28b5d5f/gr8_lrg.jpg gr8 gr8_lrg.jpg jpg 558692 1828 3484 IMAGE-HIGH-RES 1-s2.0-S0021951724005001-gr9_lrg.jpg https://s3-eu-west-1.amazonaws.com/prod-ucs-content-store-eu-west/content/pii:S0021951724004779/HIGHRES/image/jpeg/f84e271248f3208e08d69fa0de96cdb4/gr9_lrg.jpg gr9 gr9_lrg.jpg jpg 403768 1551 3150 IMAGE-HIGH-RES 1-s2.0-S0021951724005001-mmc1.pdf https://s3-eu-west-1.amazonaws.com/prod-ucs-content-store-eu-west/content/pii:S0021951724005001/mmc1/MAIN/application/pdf/f53091593fd8e725d147502a21bd83fa/mmc1.pdf mmc1 mmc1.pdf pdf false 3279390 APPLICATION 1-s2.0-S0021951724005001-am.pdf am am.pdf pdf 4121613 AAM-PDF https://s3-eu-west-1.amazonaws.com/prod-ucs-content-store-eu-west/content/egi:10VGK3PZXFV/MAIN/application/pdf/3de31a7b26d25749e8fbc6cf8668bb60/am.pdf YJCAT 115787 115787 S0021-9517(24)00500-1 10.1016/j.jcat.2024.115787 Elsevier Inc. Fig. 1 (a) Cycloaddition reaction of CO2 and epoxides, (b) Boron species catalyzed reactions, (c) B2O3 catalyzed cycloaddition reaction of CO2 and epoxides. Fig. 2 Computational model of B2O3 six membered active site AS1 and open-chain configuration active site AS2 . Fig. 3 Gibbs energy profile for the non-catalyzed cycloaddition reaction between CO2 and epoxide using B3LYP-D3(BJ)/def2-TZVP level of DFT. Values in parentheses are the Gibbs energies (relative to CO2 + epoxide) in kcal/mol. Fig. 4 Gibbs energy profile for n-NBu4Br catalyzed cycloaddition reaction between CO2 and an epoxide using B3LYP-D3(BJ)/def2-TZVP level of DFT. Values in parentheses are the Gibbs energies (relative to n-NBu4Br) in kcal/mol. Fig. 5 Gibbs energy profile for Route 1 of B2O3( AS1 )/n-NBu4Br catalyzed cycloaddition reaction between CO2 and an epoxide using B3LYP-D3(BJ)/def2-TZVP level of DFT. Values in parentheses are the Gibbs energies (relative to AS1 ) in kcal/mol. Fig. 6 Orbital analysis during B2O3( AS1 )/n-NBu4Br catalyzed ring opening step (For more details, see Supporting Information Section S7 and animated videos). Fig. 7 Orbital analysis during B2O3( AS1 )/n-NBu4Br catalyzed concerted CO2 insertion and ring-closing step (For more details, see Supporting Information Section S7 and animated videos). Fig. 8 Gibbs energy profile for Route 2 of B2O3( AS1 )/n-NBu4Br catalyzed cycloaddition reaction between CO2 and an epoxide using B3LYP-D3(BJ)/def2-TZVP level of DFT. Values in parentheses are the Gibbs energies (relative to AS1 ) in kcal/mol. Fig. 9 Orbital analysis during B2O3( AS1 )/n-NBu4Br catalyzed CO2 insertion step (For more details, see Supporting Information Section S7 and animated videos). Fig. 10 Orbital analysis during B2O3( AS1 )/n-NBu4Br catalyzed ring-closing step (For more details, see Supporting Information Section S7 and animated videos). Fig. 11 Gibbs energy profile for B2O3( AS2 )/n-NBu4Br catalyzed cycloaddition reaction between CO2 and an epoxide using B3LYP-D3(BJ)/def2-TZVP level of DFT. Values in parentheses are the Gibbs energies (relative to AS2 ) in kcal/mol. Fig. 12 Natural Adaptive Orbital (NAdO) analysis of key intermediates and transition states in the AS1 and AS2 catalyzed reactions. Isosurfaces are drawn at isovalue of 0.05 Å−3/2. Fig. 13 Distortion/Interaction Analysis (DIA) of (a) AS1_TS2 (b) AS2_TS2, (c) AS1_TS3 and (d) AS2_TS3. ΔE‡ is the activation energy, ΔECat dist is the distortion energy of the Cat fragment, ΔESub dist is the distortion energy of the Sub fragment, ΔEdist is the total distortion energy and ΔEint is the interaction energy between the Cat and Sub fragments. In DIA model, ΔE‡ = ΔEdist + ΔEint . The Sub fragment is highlighted in all the 3D structures and all the numerical values are in kcal/mol. Research article Every reaction Detail Matters: An in silico driven Step-by-Step Guide to understand the B2O3-Catalyzed CO2 to cyclic carbonates conversion Nikunj Kumar Writing – review & editing Writing – original draft Visualization Software Methodology Investigation Formal analysis Data curation Conceptualization a Puneet Gupta Writing – review & editing Writing – original draft Visualization Validation Supervision Software Resources Project administration Methodology Investigation Funding acquisition Formal analysis Data curation Conceptualization a b ⁎ a Computational Catalysis Center, Department of Chemistry, Indian Institute of Technology, Roorkee 247667, Uttarakhand, India Computational Catalysis Center Department of Chemistry Indian Institute of Technology Roorkee Uttarakhand 247667 India Computational Catalysis Center, Department of Chemistry, Indian Institute of Technology, Roorkee 247667, Uttarakhand, India b Center for Sustainable Energy, Indian Institute of Technology Roorkee, Roorkee 247667, Uttarakhand, India Center for Sustainable Energy Indian Institute of Technology Roorkee Roorkee Uttarakhand 247667 India Center for Sustainable Energy, Indian Institute of Technology Roorkee, Roorkee 247667, Uttarakhand, India ⁎ Corresponding author. Graphical abstract The catalytic conversion of carbon dioxide (CO2) to cyclic organic carbonates (COCs) via cycloaddition with epoxides offers a dual benefit of reducing CO2 emissions while producing valuable chemical products. In this detailed in silico study, we employ density functional theory (DFT) to meticulously investigate the mechanisms underlying the B2O3/n-NBu4Br-catalyzed cycloaddition of CO2 and epoxides, following a step-by-step approach according to the reaction details. We provide a comprehensive comparison of the non-catalyzed, n-NBu4Br alone, and B2O3/n-NBu4Br-catalyzed pathways, emphasizing two distinct active sites within the B2O3 framework: Site 1 (six-membered boroxol ring) and Site 2 (open chain configuration). Our computational analysis highlights that the Site 1-catalyzed reaction pathway is more favorable, featuring a lower overall energy barrier of 26.8 kcal/mol, compared to 32.5 kcal/mol for the Site 2-catalyzed pathway. Detailed intrinsic bond orbital (IBO), natural adaptive orbital (NAdO) and distortion-interaction analysis (DIA) reveal significant differences in bonding properties and energy interactions, elucidating why Site 1 exhibits superior catalytic activity over Site 2. These findings are corroborated by experimental observations, which indicate that ball milling B2O3 increases defect sites, thereby enhancing exposure of active sites Site 1 and improving catalytic performance. This study provides an in-depth understanding of how the intrinsic properties of boron active sites influence the catalytic efficiency of B2O3, offering valuable insights for the design and optimization of metal-free catalysts for CO2 conversion. Keywords Boron oxide Carbon dioxide fixation Density functional theory Cyclic organic carbonate Catalysis Data availability Data will be made available on request. 1 Introduction Carbon dioxide (CO2) emissions have emerged as a primary pollutant, contributing significantly to environmental challenges such as global warming, the greenhouse effect, climate change, and ocean acidification.[1] Paradoxically, CO2 also presents an opportunity as a potentially abundant, non-toxic, and readily available C1 building block for fine chemical production.[2] Thus, converting CO2 into high-value products serves as a kill two birds with one stone technique, as it not only mitigates atmospheric CO2 levels but also facilitates resource utilization.[3–5] Among the myriad of transformation pathways, the cycloaddition of CO2 and epoxides to yield cyclic organic carbonates (COCs) stands out due to its 100 % atom efficiency.[6,7] COCs find diverse applications ranging from green polar aprotic solvents [8] to electrolytes in Li-ion batteries,[9] and precursors for carbamates,[10] polycarbonates,[11] pharmaceuticals.[12]. However, the inherent thermodynamic stability and kinetic inertness of CO2 present significant obstacles to this cycloaddition reaction.[13] Consequently, extensive efforts have been devoted to developing catalysts that effectively convert CO2 and epoxides into COCs. Various catalysts have been explored, including metal porphyrins,[14] metal oxides,[15] alkali metal salts,[16] metal salen complexes,[17] ionic liquids (ILs),[18] and metal–organic frameworks (MOFs).[19] Despite notable progress, challenges such as toxicity, recycling issues, and complex synthesis procedures hinder their industrial applicability (Fig. 1 a).[20] In this regard, the pursuit of metal-free catalysts has garnered significant interest due to their cost-effectiveness, eco-friendliness, chemical and thermal stability.[21]. In recent years, boron-based compounds such as boron oxide (B2O3) and hexagonal boron nitride (h-BN) have emerged as promising candidates in the realm of metal-free catalysis.[22–26] Herman and coworkers (2016) presented their groundbreaking research on metal-free h-BN catalyzed selective oxidative dehydrogenation (ODH) of propane to propene, marking a significant milestone in the resurgence of boron chemistry in catalysis.[22] Lu et al. (2017) utilized edge-hydroxylated boron nitride (edge boron centers bonded to –OH groups) for the ODH transformation of propane to propene, further highlighting the potential of boron-based materials in catalytic processes.[23] Su et al. (2017) demonstrated ethene formation via ODH of ethane employing boron nitride catalysts.[24] In a notable development in 2020, Wang and coworkers illustrated methane oxidation to formaldehyde (HCHO) and carbon monoxide (CO) facilitated by B2O3 catalysts.[25] Recent theoretical studies by our research group have provided valuable insights into the mechanistic pathways underlying the oxidation of methane over both B2O3 and h-BN.[27–29] Moreover, Wang and coworkers conducted computational investigations to elucidate the mechanistic pathways for boron species catalyzed ODH of alkanes.[30–32] Collectively, these studies have triggered a renaissance in boron chemistry and reaffirmed the pivotal role of boron-based compounds as efficient catalysts in various catalytic transformations (Fig. 1 b). Recently, Lu and coworkers demonstrated metal-free B2O3-catalyzed coupling reactions of CO2 and epoxides with the aid of n-NBu4Br to produce cyclic organic carbonates (COCs).[33] Their control experiments revealed a unique aspect of B2O3 catalysis: unlike many other metal-free catalysts that activate epoxides through hydrogen bonding,[34–37] increasing the surface B-OH groups (hydrogen bonding sites) of B2O3 diminishes its catalytic performance in this reaction. However, the precise factors underlying this distinct catalytic activity of B2O3 remain elusive and warrant further investigation. Furthermore, considering the different boron active sites on the B2O3 system, exploring the reactions on various boron active sites is crucial for a comprehensive understanding of how B2O3 acts as a catalyst for CO2 to COCs conversion. To the best of our knowledge, no comprehensive study has explored the catalytic space of this B2O3-catalyzed cycloaddition reaction using computational methods. Herein, we utilize density functional theory (DFT) to illuminate the catalytic activity of B2O3 in CO2 to COCs conversion. We investigate and compare the non-catalyzed, n-NBu4Br-catalyzed alone, and two possible B2O3 active site-catalyzed cycloaddition reactions of CO2 and epoxide to gain a more meaningful understanding of effective and improved catalytic activity of the B2O3 system (Fig. 1 c). Employing geometrical, orbital, and distortion/interaction analysis, we aim to comprehend the differences in activation barriers among various pathways. We believe that our thorough computational study will enhance the understanding of how the inherent properties of boron sites influence the performance of boron-based catalysts. 2 Computational methods 2.1 Computational model Recent mechanistic studies of B2O3-catalyzed oxidative dehydrogenation (ODH) of light alkanes have revealed the presence of two distinct types of active sites in B2O3 framework, characterized by 11B NMR spectroscopy and density functional theory (DFT) calculations. [30,31] Both configurations feature boron atoms in a tricoordinated state but exhibit different coordination environments. In one active site, boron is incorporated into a six-membered boroxol ring, where three alternating vertices are occupied by boron atoms and the remaining vertices by oxygen atoms. Conversely, the other active site presents boron in an open-chain structure, where boron atoms are linked by a common oxygen atom, forming BO3 units in an open linear arrangement. To investigate the reactivity of B2O3 in the cycloaddition reaction of CO2 and epoxide, we utilized two distinct computational models: AS1 , representing the six-membered ring active site and AS2 , representing the open-chain configuration active site. To mimic the specific microenvironment of these active sites, our computational models were terminated with terminal oxygen atoms bonded to B(OH)2 units, as illustrated in Fig. 2 . This modelling approach is motivated by the previous studies to construct computational models for investigating reactions catalyzed by boron species. [28,38–40]. We have used these models to gain deep insights into the electronic structure of the transition states and intermediates involved in the reaction mechanism. This approach allows us to understand the electronic characteristics of these species, providing valuable insights into the factors that contribute to the overall efficiency of the catalyst. 2.2 Computational details Computational calculations were conducted using the ORCA quantum chemical software package (version 5.0.3). [41,42] The geometries of all minima and transition states were fully optimized in the gas phase, employing the B3LYP [43] density functional in conjunction with the def2-TZVP [44] basis set. The choice of the B3LYP functional was motivated by its previous successful application in boron-species catalyzed reactions, ensuring reliable predictions of reaction mechanisms. [27,28,30–32,38–40] To expedite the calculations, the RIJCOSX [45] approximation was implemented. Non-covalent interactions were accounted for using the atom pairwise corrections Becke-Johnson (D3BJ) damping scheme. [46] Since the experimental reaction conditions [33] do not include any solvent, no solvation model is implied in our calculations. All the Gibbs energy calculations were done in the gas phase. Verification of the stationary points and determination of zero-point energy (ZPE) and thermal corrections at 373.15 K were performed through harmonic vibrational frequency analysis at the same level of theory. The intrinsic reaction coordinate (IRC) [47] method was employed to confirm that the transition state effectively connected the reactant and product minima. Relative Gibbs energies reported in mechanistic calculations were obtained at the B3LYP-D3(BJ)/def2-TZVP level of theory. The performance of this DFT method was compared with highly accurate DLPNO-CCSD(T) [48] calculations (see Supporting Information Section S9). The bond order density (BOD) and natural adaptive orbital (NAdO) analyses were carried out using the Multiwfn [49] program. The three-dimensional molecular orbitals and optimized structures were visualized using VESTA [50] and CYLview [51] programs. Intrinsic bond orbital (IBO) analysis was performed using IboView [52] software to visualize electron flow along reaction paths. IBO animations for reaction steps are provided in the Supporting Information (Section 7). The energetic span model (ESM) by Kozuch and Shaik [53] was applied on the Gibbs enegy profiles to identify the turnover determining transition state (TDTS), turnover-determining intermediate (TDI) and Gibbs energetic span (δG) of the catalytic cycles. 3 Results and discussion 3.1 The non-catalyzed cycloaddition reaction The Gibbs energy profile of the non-catalyzed cycloaddition reaction between CO2 and an epoxide is depicted in Fig. 3 . The reaction proceeds via a single elementary step. Initially, the adduct Nc_I forms through weak van der Waals interactions between CO2 and the epoxide, aligning CO2 favorably for subsequent reaction. The reaction then progresses through a concerted transition state Nc_TS1, where the carbon atom of CO2 attacks the oxygen atom of the epoxide with simultaneous attack of one oxygen atom from CO2 on the more substituted carbon of the epoxide. This concerted process results in the ring-opening of the epoxide and the formation of two new C-O bonds, leading to the production of cyclic organic carbonate (COC) product Nc_II. The non-catalyzed cycloaddition reaction exhibits a high energy barrier of 63.3 kcal/mol. We also investigated an alternative pathway where the oxygen atom of CO2 attacks the less substituted carbon of the epoxide (see Figure S1 ), which requires an even higher activation energy barrier of 68.9 kcal/mol. These elevated energy barriers highlight significant challenges in achieving direct formation of cyclic carbonate under non-catalyzed conditions. Therefore, the introduction of a suitable catalytic system is essential to reduce the reaction barrier and enable efficient COC formation. 3.2 The n-NBu4Br catalyzed cycloaddition reaction The computed Gibbs energy profile for the n-NBu4Br catalyzed cycloaddition of CO2 and epoxide is illustrated in Fig. 4 . The reaction initiates with the introduction of the epoxide in the vicinity of n-NBu4Br, forming the initial intermediate Br_I. Subsequently, the nucleophilic Br– ion attacks the less substituted carbon of the epoxide, leading to the ring-opening of the epoxide via a transition state Br_TS1. This ring-opening step exhibits an activation barrier of 29.9 kcal/mol (relative to Br_I) and results in the formation of intermediate Br_II. The addition of CO2 to Br_II forms a complex Br_III, where the negatively charged oxygen of the opened epoxide ring interacts with CO2. The final step involves the conversion of Br_III to Br_IV via a concerted transition state Br_TS2, where CO2 insertion and ring closing occur simultaneously. The Br_TS2 exhibits an energy barrier of 27.2 kcal/mol (relative to Br_I), involving the formation of two C-O bonds between the alkoxide and CO2 along with the concurrent breaking of the C-Br bond to yield Br_IV (the COC product along with regenerated n-NBu4Br). The ring-opening transition state Br_TS1 is identified as the TDTS [53] for the n-NBu4Br catalyzed cycloaddition of CO2 and epoxide. We also explored the possibility where Br– attacks the more hindered carbon of the epoxide (see Figure S3 ), which exhibits a similar overall energy barrier. In comparison with the non-catalyzed reaction, the overall energy barrier for the n-NBu4Br-catalyzed cycloaddition is significantly reduced by 33.4 kcal/mol due to the catalytic activity of n-NBu4Br. Specifically, the Br– ion of the n-NBu4Br attacks the less substituted carbon of the epoxide, facilitating its ring opening and significantly lowering the activation energy. The calculated overall energy barrier (ΔG‡=29.9 kcal/mol) for the n-NBu4Br−catalyzed cycloaddition is thermodynamically favorable at the reaction temperature of 100⁰C and aligns with experimental observations where the exclusive use of n-NBu4Br resulted in a 23 % yield of COC product. 3.3 B2O3 (AS1)/n-NBu4Br catalyzed cycloaddition reaction Route 1 In their experimental work,[33] Lu and coworkers observed a substantial increase (23 % to 91 %) in the yield of cyclic organic carbonate (COC) upon introducing B2O3 into the reaction system, highlighting the crucial catalytic activity of B2O3. To elucidate the catalytic mechanism of B2O3, we initiated an examination of the reaction scenario using a computational model of B2O3 AS1 , as illustrated in Fig. 5 . The influence of the bulky n-NBu4Br was simulated by the Br– ion, given that the catalytic effect of n-NBu4Br predominantly stems from its Br– active center. This modeling approach is consistent with prior studies of quaternary ammonium halide salts in catalysis.[54–57] The reaction initiates with the formation of a stable adduct AS1_I, where the boron species of B2O3 interacts with an oxygen atom of the epoxide. Subsequently, AS1_I undergo ring-opening via transition state AS1_TS1 facilitated by direct nucleophilic attack of the Br– ion on the less substituted carbon atom of the epoxide. The AS1_TS1 transition state exhibits an activation energy barrier of 6.3 kcal/mol (relative to AS1_I) involving concurrent C-O bond breaking and C-Br bond formation to yield a stable intermediate AS1_II. To gain deeper insights into the interaction details during the ring-opening step, we conducted detailed orbital analysis along the reaction coordinate (see Fig. 6 ). In AS1_I, the orbital configuration includes a vacant p-orbital on boron, a lone pair (L.P) on the oxygen of the epoxide, one L.P on the Br– ion, a doubly occupied σ(C-O) bonding orbital, and a vacant σ*(C-O) antibonding orbital. Along the AS1_I → AS1_TS1 → AS1_II conversion, the Br– ion donates electrons from its lone pair to the σ*(C-O) antibonding orbital, resulting in the cleavage of the σ(C-O) bond. Simultaneously, the L.P at the epoxide oxygen overlaps with the vacant p-orbital of boron, forming the σ(B-O–) bond. Consequently, in AS1_II, the orbital configuration includes a L.P on the epoxide O–, a doubly occupied σ(C-Br) orbital, a σ(B-O–) orbital, and an empty σ*(C-Br) orbital. As depicted in Fig. 5, the interaction between incoming CO2 and the O– of intermediate AS1_II leads to the formation of an adduct AS1_III’, characterized by weak van der Waals interactions. This adduct undergoes a concerted CO2 insertion and ring-closing step via a five-membered ring transition state AS1_TS2′ with an activation energy barrier of 33.3 kcal/mol (relative to AS1_II). During this step, two σ(C-O) bonds form between the alkoxide and CO2, accompanied by the simultaneous breaking of σ(C-Br) and σ(B-O–) bonds of the alkoxide and a π(C-O) bond of CO2, resulting in the formation of AS1_IV’ (the COC product along with regenerated B2O3 species AS1 and Br– ion). Orbital analysis provides further insights into the concerted CO2 insertion and ring-closing step (Fig. 7 ). Specifically, the L.P on the alkoxide O– donates its electron density to the antibonding π*(C-O) orbital of CO2, and CO2 back donates electron density from its bonding π(C-O) orbital to the antibonding σ*(C-Br) orbital. This electron flow facilitates the breaking of the π(C-O) bond of CO2 and the σ(C-Br) bond of the alkoxide, enabling the coupling of two C-O bonds between the alkoxide and CO2 to form the final species AS1_IV’. In AS1_IV’, the orbital configuration includes two doubly occupied σ(C-O) orbitals, one L.P on the oxygen atom, and two vacant antibonding σ*(C-O) orbitals on the COC product, along with one L.P on the regenerated Br– ion. The concerted CO2 insertion and ring-closing transition state AS1_TS2′ serves as the TDTS [53] for the AS1 /n-NBu4Br-catalyzed cycloaddition reaction (Fig. 5). Notably, this pathway (Route 1) for AS1 /n-NBu4Br-catalyzed reaction demonstrates a substantially reduced activation energy barrier of 6.3 kcal/mol for the ring-opening step unlike the n-NBu4Br alone catalyzed reaction, which exhibit higher energy barrier for the ring-opening step. However, despite the favorable ring-opening activation energy, the overall energy barrier for Route 1 of the AS1 /n-NBu4Br-catalyzed reaction is 3.4 kcal/mol higher than that for the n-NBu4Br alone catalyzed reaction. We also explored the possibility where Br– attacks the more hindered carbon of the epoxide ( Figure S5 ), that encounters a further higher energy barrier (ΔG‡=35.4 kcal/mol). This discrepancy in activation energy barriers contradicts the experimental observation of the enhanced catalytic effect of B2O3 in the system. Therefore, we looked for an alternative pathway (Route 2) for the AS1 /n-NBu4Br-catalyzed cycloaddition reaction. 3.4 B2O3 (AS1)/n-NBu4Br catalyzed cycloaddition reaction Route 2 The Gibbs energy profile for Route 2 of the B2O3 ( AS1 )/n-NBu4Br-catalyzed cycloaddition is illustrated in Fig. 8 . Route 2 involves a three-step mechanism where CO2 insertion and ring closing occur as separate events. The first step is similar to that of Route 1, where the epoxide binds to the B2O3 species AS1 , and the Br– ion attacks the less substituted carbon of the epoxide, leading to ring opening via transition state AS1_TS1. In Route 2, CO2 approaches the intermediate AS1_II from the opposite side compared to Route 1, above the second boron atom of the B2O3 ring, resulting in the formation of adduct AS1_III. Subsequently, CO2 insertion occurs via a six-membered transition state AS1_TS2, where the negatively charged oxygen of the alkoxide species attacks the carbon of the CO2 to form intermediate AS1_IV. The CO2 insertion transition state AS1_TS2 requires an activation barrier of 26.8 kcal/mol (relative to AS1_II). This step involves the synchronous formation of a new C-O bond between CCO2 and Oalkoxide, a new B-O– bond between OCO2 and the second boron atom of the B2O3 species, and the breaking of the B-O– bond between Oalkoxide and the first boron atom of the B2O3 species. To gain insights into the interactions during the CO2 insertion step, we performed orbital analysis (Fig. 9 ). In AS1_III, π(C-O) and π*(C-O) orbitals on CO2, one L.P on Oalkoxide, a doubly occupied σ(B-O–)1 orbital, and a vacant p orbital on the second boron atom of the B2O3 species are identified. During the CO2 insertion step, the L.P of the alkoxide oxygen donates its electron density to the π*(C-O) orbital of CO2, leading to the breaking of the π(C-O) bond. The π(C-O) orbital of CO2 interacts with the empty p orbital on the second boron atom to form a new σ(B-O–)2 bond. Consequently, in AS1_IV, a new bonding σ(C-O)1 and an antibonding σ*(C-O)1 orbital are located on the bond between CCO2 and Oalkoxide. In the final step of Route 2, ring closing occurs via transition state AS1_TS3, where a new σ(C-O) bond forms with simultaneous breaking of the σ(C-Br) bond (see Fig. 8). The ring closing step requires an activation energy barrier of 24.1 kcal/mol (relative to AS1_II), leading to the formation of AS1_V (the COC product along with regenerated B2O3 species AS1 and Br– ion). Orbital analysis further provides insights into the ring closing step (Fig. 10 ). In AS1_IV, bonding orbitals including σ(B-O–)2, π(C-O), σ(C-Br), and an antibonding orbital σ*(C-Br) are located. During the transition state AS1_TS3, the π(C-O) orbital donates its electron density to the σ*(C-Br) orbital, facilitating the cleavage of the σ(C-Br) bond. Simultaneously, the oxygen atom of the CO2 molecule regains its electron density from the σ(B-O–)2 bond, resulting in the formation of AS1_V. Consequently, in AS1_V, the L.P on the regenerated Br– ion, σ(C-O)2, σ*(C-O)2, and π(C-O) orbitals are present. The CO2 insertion step exhibits the highest energy barrier (ΔG‡ = 26.8 kcal/mol) among the three steps, serving as the TDTS [53] for Route 2 of the B2O3 ( AS1 )/n-NBu4Br-catalyzed reaction. We also explored the possibility where the initial nucleophilic attack of the Br– ion takes place on the more substituted carbon of the epoxide, resulting in an overall energy barrier of 28.6 kcal/mol (refer to Figure S7 ). Notably, the overall reaction energy barrier of the B2O3 ( AS1 )/n-NBu4Br−catalyzed Route 2 is 3.1 kcal/mol lower than that of the n-NBu4Br alone catalyzed reaction, highlighting the catalytic effect of B2O3 in the reaction. This reduction in the reaction barrier corresponds well with experimental observations of increased COC yield (from 23 % to 91 %) when B2O3 is introduced into the system. Additional calculations were performed using two Br– ions to thoroughly assess the impact of amount of Br– on the catalytic activity of the reaction (see Supporting Information Section S10). 3.5 B2O3 (AS2)/n-NBu4Br catalyzed cycloaddition reaction The B2O3 ( AS2 )/n-NBu4Br-catalyzed cycloaddition reaction initiates from the formation of an adduct between the boron oxide species AS2 and the epoxide, denoted as AS2_I (Fig. 11 ). In the first step, direct nucleophilic attack of the Br– ion on the less substituted carbon atom of the epoxide leads to ring opening, forming a highly stable intermediate AS2_II (ΔG = –30.0 kcal/mol relative to AS2 ). The breaking of the C-O bond and the formation of the C-Br bond occur through an almost barrierless transition state AS2_TS1 with a mere activation barrier of 0.4 kcal/mol (relative to AS2_I). Subsequently, the CO2 molecule approaches AS2_II and interacts with the negatively charged oxygen of the alkoxide to form adduct AS2_III. The insertion of CO2 then proceeds via a six-membered transition state AS2_TS2 with an activation barrier of 28.2 kcal/mol (relative to AS2_II). This step involves the simultaneous formation of a new C-O bond between CCO2 and Oalkoxide, a new B-O bond between OCO2 and the second boron atom of the B2O3 species, and the breaking of the B-O bond between Oalkoxide and the first boron atom of the B2O3 species, yielding intermediate AS2_IV. In the final step, AS2_IV undergoes ring closing via transition state AS2_TS3 to form AS2_V (the COC product along with regenerated B2O3 species AS2 and Br– ion). This step features the formation of a new C-O bond with simultaneous breaking of the C-Br bond, characterized by an activation barrier of 32.5 kcal/mol (relative to AS2_III). The ring closing step exhibits the highest energy barrier (ΔG‡ = 32.5 kcal/mol) among the three steps, serving as the TDTS [53] for the B2O3 ( AS2 )/n-NBu4Br-catalyzed cycloaddition reaction. Additionally, we explored an alternative pathway where the initial nucleophilic attack by the Br– ion occurs at the more substituted carbon of the epoxide, resulting in a similar overall energy barrier ( Figure S9 ). 3.6 Comparison of B2O3 species AS1 v/s AS2 catalyzed reaction Both the B2O3( AS1 ) and B2O3( AS2 ) catalyzed reactions feature a stable intermediate formed after the ring opening step as their TDI [53]. However, they exhibit different TDTS [53]. In the AS1 -catalyzed reaction, the CO2 insertion is the TDTS with an activation energy (ΔG‡) of 26.8 kcal/mol, whereas in the AS2 -catalyzed reaction, the ring closing serves as the TDTS with an activation energy (ΔG‡) of 32.5 kcal/mol. To gain deeper insights into the bonding properties of key intermediates and transition states in the AS1 and AS2 catalyzed reactions, Natural Adaptive Orbital (NAdO)[58] analysis were performed. These analyses reveal the distribution, character, and intensity of chemical bonding. As shown in Fig. 12 a and 12d, the NAdO analysis of AS1_I and AS2_I reveals the B1-O1 bond is characterized by a σ-type bonding category with eigenvalues of 0.502 and 0.603, respectively. This indicates a stronger bonding between B1 and O1 in AS2_I compared to AS1_I. Fig. 12 b and 12e show the eigenvalues of the σ(B1-O1) bond in AS1_TS1 and AS2_TS1 as 0.620 and 0.613, respectively. The small difference of 0.01 in the eigenvalues of the σ(B1-O1) bond between AS2_I and AS2_TS1 explains the almost barrierless ring opening transition state in the AS2 -catalyzed reaction. Fig. 12 c shows that the B1-O1 bond in AS1_II exhibits three NAdOs: a relatively strong σ-type with eigenvalues of 0.700 and two weaker π-types with eigen values 0.180 and 0.116, respectively. Similarly, in AS2_II (Fig. 12 f), the B1-O1 bond also bears three NAdOs, with eigen values 0.713, 0.193 and 0.126, respectively. The higher eigenvalues in AS2_II indicate a stronger B1-O1 bonding compared to AS1_II, which is consistent with the Gibbs energies of AS1_II (ΔG = –16.3 kcal/mol relative to AS1 ) and AS2_II (ΔG = –30.0 kcal/mol relative to AS2 ). The CO2 insertion step transition state NAdO analysis reveals that the eigenvalues of the σ(B1-O1) and σ(B2-O2) bonds in AS1_TS2 (Fig. 12 g) are 0.392 and 0.190, respectively. In contrast, the eigenvalues in AS2_TS2 are 0.555 and 0.315, respectively (Fig. 12 j). This discrepancy indicates better bonding between B and O atoms in AS2_TS2 compared to AS1_TS2, making the CO2 insertion step more favorable in the AS2 -catalyzed reaction. The eigenvalues of the σ(B2-O2) bond in AS1_IV, AS1_TS3, AS2_IV, and AS2_TS3 are 0.631, 0.570, 0.634, and 0.590, respectively (Fig. 12 h, 12i, 12 k, and 12 l). These similar values indicate comparable bonding between B2 and O2 during the ring closing step in both AS1 and AS2 catalyzed reactions. We also performed NBO charge calculations for the TDI, CO2 insertion, and ring-closing transition states in the AS1- and AS2- catalyzed reactions to examine the charge evolution at key sites, which corroborates the findings from our NAdO analysis (see Supporting Information Section S8). To elucidate the distinct catalytic behaviors of AS1 and AS2 , we performed a distortion-interaction analysis (DIA)[59–61] on the CO2 insertion step and the ring closing transition states of both AS1- and AS2 -catalyzed reactions (Fig. 13 ). The transition states were partitioned into reactive fragments-namely, the catalyst (Cat) and the substrate (Sub). Single-point energy calculations were then conducted on the isolated fragments to compute the distortion energy (ΔEdist ) and the interaction energy (ΔEint ) between them (see Supporting Information Section S6 for further details). Fig. 13 a and 13b illustrate the DIA on the CO2 insertion transition state of the AS1- and AS2- catalyzed reactions, respectively. While the interaction energy (ΔEint ) in AS1_TS2 is 13.8 kcal/mol higher than in AS2_TS2, the total distortion energy (ΔEdist ) in AS1_TS2 is significantly greater (16.1 kcal/mol higher than in AS2_TS2). This higher distortion energy renders the CO2 insertion step more favourable in the AS2- catalyzed reaction as compared to the AS1 -catalyzed reaction. Similarly, DIA of the ring-closing transition states (Fig. 13 c and 13d) shows that AS1_TS3 has 4.4 kcal/mol lower total distortion energy than AS2_TS3, while the total interaction energy in AS1_TS3 is 3.4 kcal/mol higher than AS2_TS3. These findings suggest that both the lower distortion energy and higher interaction energy contribute to making the ring-closing step more favorable in the AS1 - as compared to AS2 -catalyzed reaction. In summary, although the AS1 and AS2 catalyzed reactions proceed via similar mechanistic steps, the differences in the distortion and interaction energies in CO2 insertion and ring closing transition states significantly influence their catalytic efficiency. For the AS1 catalyzed cycloaddition reaction, the Gibbs energies of the TDI [53] AS1_II and TDTS [53] AS1_TS3 are –16.3 kcal/mol and 10.5 kcal/mol (relative to AS1 ), respectively, resulting in a Gibbs energetic span (δG) [53] of 26.8 kcal/mol. In contrast, for the AS2 catalyzed cycloaddition, the Gibbs energies of the TDI AS2_II and TDTS AS1_TS2 are –30.0 kcal/mol and 2.5 kcal/mol (relative to AS2 ), respectively, yielding a δG of 32.5 kcal/mol. This 5.7 kcal/mol difference in δG makes the AS1 -catalyzed reaction more favorable for the cycloaddition of CO2 and epoxide. Although both AS1 and AS2 δG values are feasible at the reaction temperature of 100 °C, AS1 sites are responsible for the enhanced catalytic activity of the boron oxide, since its δG is 3.1 kcal/mol lower than that of the n-NBu4Br alone catalyzed reaction, which achieved only a 23 % yield of the COC. These computational results align with the experimental observation that the ball milling technique enhances the catalytic activity of the reaction. The ball milling of B2O3 likely increase the defects in the B2O3 structure, thereby exposing more AS1 active sites, further boosting the catalytic activity of B2O3. 4 Conclusion In this study, we have elucidated the catalytic mechanisms of B2O3 species, AS1 (six-membered boroxol ring) and AS2 (open chain configuration) in the cycloaddition reaction of CO2 and epoxides using density functional theory (DFT). The AS1 -catalyzed reaction features the CO2 insertion step as the TDTS with an energy barrier (ΔG‡) of 26.8 kcal/mol, while the AS2 -catalyzed reaction has the ring-closing step as its TDTS, with a higher energy barrier of 32.5 kcal/mol. Natural adaptive orbital (NAdO) and distortion-interaction analysis (DIA) revealed significant differences in bonding properties and energy interactions, explaining the superior catalytic performance of AS1 over AS2 . Our findings indicate that the overall reaction energy barrier for the AS1 -catalyzed pathway is 3.1 kcal/mol lower than that of the n-NBu4Br alone catalyzed reaction, which achieved only a 23 % yield of the COC. This is consistent with experimental observations where the introduction of B2O3 significantly enhances the yield of COCs from 23 to 91 %. Furthermore, the lower Gibbs energy span (δG) for the AS1 -catalyzed reaction, compared to the n-NBu4Br alone catalyzed reaction and AS2 -catalyzed reaction, underscores the potential of AS1 sites in increasing catalytic efficiency. This aligns with the experimental hypothesis that ball milling B2O3 increases defect sites, enhancing the exposure of active AS1 sites and thereby improving catalytic performance. In conclusion, our detailed computational analysis not only sheds light on the mechanistic pathways of B2O3-catalyzed CO2 cycloaddition but also emphasizes the pivotal role of specific boron active sites in dictating catalytic efficiency. These insights pave the way for the rational design and optimization of boron-based catalysts for CO2 utilization, contributing to sustainable chemical processes. Our study thus provides a strong foundation for future experimental and theoretical research aimed at advancing the field of metal-free catalysis utilizing boron oxides. CRediT authorship contribution statement Nikunj Kumar: Writing – review & editing, Writing – original draft, Visualization, Software, Methodology, Investigation, Formal analysis, Data curation, Conceptualization. Puneet Gupta: Writing – review & editing, Writing – original draft, Visualization, Validation, Supervision, Software, Resources, Project administration, Methodology, Investigation, Funding acquisition, Formal analysis, Data curation, Conceptualization. Declaration of competing interest The authors declare that they have no known competing financial interests or personal relationships that could have appeared to influence the work reported in this paper. Acknowledgments N.K. thanks CSIR for the SRF fellowship (09/143(1026)/2020-EMR-I). P.G. acknowledges SERB (CRG/2021/000759) for financial support and National Supercomputing Mission (NSM) for providing computing resources of 'PARAM Ganga' at IIT Roorkee, which is implemented by C − DAC and supported by the Ministry of Electronics and Information Technology (MeitY) and Department of Science and Technology (DST), Government of India. Appendix A Supplementary material Supplementary data to this article can be found online at https://doi.org/10.1016/j.jcat.2024.115787. Appendix A Supplementary material The following are the Supplementary data to this article: Supplementary Data 1 REFERENCES [1] P.M. Cox R.A. Betts C.D. Jones S.A. Spall I.J. Totterdell Acceleration of global warming due to carbon-cycle feedbacks in a coupled climate model Nature 408 2000 184 187 10.1038/35041539 Cox, P. M.; Betts, R. A.; Jones, C. D.; Spall, S. A.; Totterdell, I. J. Acceleration of global warming due to carbon-cycle feedbacks in a coupled climate model. Nature 2000, 408, 184–187. Doi: 10.1038/35041539 [2] W.D. Jones Carbon capture and conversion J. Am. Chem. Soc. 142 2020 4955 4957 10.1021/jacs.0c02356 Jones, W. D. Carbon Capture and Conversion. J. Am. Chem. Soc. 2020, 142, 4955–4957. Doi: 10.1021/jacs.0c02356 [3] J. Artz T.E. Müller K. Thenert J. Kleinekorte R. Meys A. Sternberg A. Bardow W. Leitner Sustainable conversion of carbon dioxide: an integrated review of catalysis and life cycle assessment Chem. Rev. 118 2018 434 504 10.1021/acs.chemrev.7b00435 Artz, J.; Müller, T. E.; Thenert, K.; Kleinekorte, J.; Meys, R.; Sternberg, A.; Bardow, A.; Leitner, W. Sustainable Conversion of Carbon Dioxide: An Integrated Review of Catalysis and Life Cycle Assessment. Chem. Rev. 2018, 118, 434–504. Doi: 10.1021/acs.chemrev.7b00435 [4] M.D. Burkart N. Hazari C.L. Tway E.L. Zeitler Opportunities and challenges for catalysis in carbon dioxide utilization ACS Catal. 9 2019 7937 7956 10.1021/acscatal.9b02113 Burkart, M. D.; Hazari, N.; Tway, C. L.; Zeitler, E. L. Opportunities and Challenges for Catalysis in Carbon Dioxide Utilization. ACS Catal. 2019, 9, 7937–7956. Doi: 10.1021/acscatal.9b02113 [5] C.N. Tounzoua B. Grignard C. Detrembleur Exovinylene cyclic carbonates: multifaceted CO2-based building blocks for modern chemistry and polymer science Angew. Chem., Int. Ed. 61 2022 e202116066 Tounzoua, C. N.; Grignard, B.; Detrembleur, C. Exovinylene Cyclic Carbonates: Multifaceted CO2-Based Building Blocks for Modern Chemistry and Polymer Science. Angew. Chem., Int. Ed. 2022, 61, e202116066. Doi: 10.1002/anie.202116066 [6] Y.-Y. Zhang G.-W. Yang R. Xie L. Yang B. Li G.-P. Wu Scalable, durable, and recyclable metal-free catalysts for highly efficient conversion of CO2 to cyclic carbonates Angew. Chem., Int. Ed. 59 2020 23291 23298 10.1002/anie.202010651 Zhang, Y.-Y.; Yang, G.-W.; Xie, R.; Yang, L.; Li, B.; Wu, G.-P. Scalable, Durable, and Recyclable Metal-Free Catalysts for Highly Efficient Conversion of CO2 to Cyclic Carbonates. Angew. Chem., Int. Ed. 2020, 59, 23291–23298. Doi: 10.1002/anie.202010651 [7] J. Chen G. Chiarioni G.J.W. Euverink P.P. Pescarmona Dyes as efficient and reusable organocatalysts for the synthesis of cyclic carbonates from epoxides and CO2 Green Chem. 25 2023 9744 9759 10.1039/D3GC02161K Chen, J.; Chiarioni, G.; Euverink, G. J. W.; Pescarmona, P. P. Dyes as efficient and reusable organocatalysts for the synthesis of cyclic carbonates from epoxides and CO2. Green Chem. 2023, 25, 9744–9759. Doi: 10.1039/D3GC02161K [8] B. Schäffner F. Schäffner S.P. Verevkin A. Börner Organic carbonates as solvents in synthesis and catalysis Chem. Rev. 110 2010 4554 4581 10.1021/cr900393d Schäffner, B.; Schäffner, F.; Verevkin, S. P.; Börner, A. Organic Carbonates as Solvents in Synthesis and Catalysis. Chem. Rev. 2010, 110, 4554–4581. Doi: 10.1021/cr900393d [9] Nonaqueous Liquid Electrolytes for Lithium-Based Rechargeable Batteries. Chem. Rev. 2004, 104, 4303–4417. Doi: 10.1021/cr030203g. [10] W. Guo J. González-Fabra N.A.G. Bandaria C. Bo A.W. Kleij A metal-free synthesis of N-Aryl carbamates under ambient conditions Angew. Chem., Int. Ed. 54 2015 11686 11690 10.1002/anie.201504956 Guo, W.; González-Fabra, J.; Bandaria, N. A. G.; Bo, C.; Kleij, A. W. A Metal-Free Synthesis of N-Aryl Carbamates under Ambient Conditions. Angew. Chem., Int. Ed. 2015, 54, 11686–11690. Doi: 10.1002/anie.201504956 [11] V. Besse F. Camara C. Voirin R. Auvergne S. Caillol B. Boutevin Synthesis and applications of unsaturated cyclocarbonates Polym. Chem. 4 2013 4545 4561 10.1039/C3PY00343D Besse, V.; Camara, F.; Voirin, C.; Auvergne, R.; Caillol, S.; Boutevin, B. Synthesis and applications of unsaturated cyclocarbonates. Polym. Chem. 2013, 4, 4545–4561. Doi: 10.1039/C3PY00343D [12] A. Cai W. Guo L. Martínez-Rodríguez A.W. Kleij Palladium-catalyzed regio- and enantioselective synthesis of allylic amines featuring tetrasubstituted tertiary carbons J. Am. Chem. Soc. 138 2016 14194 14197 10.1021/jacs.6b08841 Cai, A.; Guo, W.; Martínez-Rodríguez, L.; Kleij, A. W. Palladium-Catalyzed Regio- and Enantioselective Synthesis of Allylic Amines Featuring Tetrasubstituted Tertiary Carbons. J. Am. Chem. Soc. 2016, 138, 14194–14197. Doi: 10.1021/jacs.6b08841 [13] T. Sakakura J.C. Choi H. Yasuda Transformation of carbon dioxide Chem. Rev. 107 2007 2365 2387 10.1021/cr068357u Sakakura, T.; Choi, J. C.; Yasuda, H. Transformation of Carbon Dioxide. Chem. Rev. 2007, 107, 2365–2387. Doi: 10.1021/cr068357u [14] Z. Li Z. Su W. Xu Q. Shi J. Yi C. Bai N. Wang J. Li Cycloaddition reactions of epoxides and CO2 by the novel imidazolium-functionalized metalloporphyrins: optimization and analysis using response surface methodology ChemCatChem 12 2020 4839 4844 10.1002/cctc.202000720 Li, Z.; Su, Z.; Xu, W.; Shi, Q.; Yi, J.; Bai, C.; Wang, N.; Li, J. Cycloaddition Reactions of Epoxides and CO2 by the Novel Imidazolium-Functionalized Metalloporphyrins: Optimization and Analysis using Response Surface Methodology. ChemCatChem 2020, 12, 4839–4844. Doi: 10.1002/cctc.202000720 [15] A.I. Adeleye D. Patel D. Niyogi B. Saha Efficient and greener synthesis of propylene carbonate from carbon dioxide and propylene oxide Ind. Eng. Chem. Res. 53 2014 18647 18657 10.1021/ie500345z Adeleye, A. I.; Patel, D.; Niyogi, D.; Saha, B. Efficient and Greener Synthesis of Propylene Carbonate from Carbon Dioxide and Propylene Oxide. Ind. Eng. Chem. Res. 2014, 53, 18647–18657. Doi: 10.1021/ie500345z [16] W. Natongchai S. Posada-Pérez C. Phungpanya J.A. Luque-Urrutia M. Solà V. D’Elia A. Poater Enhancing the catalytic performance of group I, II metal Halides in the cycloaddition of CO2 to epoxides under atmospheric conditions by cooperation with homogeneous and heterogeneous highly nucleophilic aminopyridines: experimental and theoretical study J. Org. Chem. 87 2022 2873 2886 10.1021/acs.joc.1c02770 Natongchai, W.; Posada-Pérez, S.; Phungpanya, C.; Luque-Urrutia, J. A.; Solà, M.; D’Elia, V.; Poater, A. Enhancing the Catalytic Performance of Group I, II Metal Halides in the Cycloaddition of CO2 to Epoxides under Atmospheric Conditions by Cooperation with Homogeneous and Heterogeneous Highly Nucleophilic Aminopyridines: Experimental and Theoretical Study. J. Org. Chem. 2022, 87, 2873–2886. Doi: 10.1021/acs.joc.1c02770 [17] R.R. Shaikh S. Pornpraprom V. D’Elia Catalytic Strategies for the Cycloaddition of Pure, Diluted, and Waste CO2 to Epoxides under Ambient Conditions ACS Catal. 8 2018 419 450 10.1021/acscatal.7b03580 Shaikh, R. R.; Pornpraprom, S.; D’Elia, V. Catalytic Strategies for the Cycloaddition of Pure, Diluted, and Waste CO2 to Epoxides under Ambient Conditions. ACS Catal. 2018, 8, 419–450. Doi: 10.1021/acscatal.7b03580 [18] W. Wang C. Li L. Yan Y. Wang M. Jiang Y. Ding Ionic liquid/Zn-PPh3 integrated porous organic polymers featuring multifunctional sites: highly active heterogeneous catalyst for cooperative conversion of CO2 to cyclic carbonates ACS Catal. 6 2016 6091 6100 10.1021/acscatal.6b01142 Wang, W.; Li, C.; Yan, L.; Wang, Y.; Jiang, M.; Ding, Y. Ionic Liquid/Zn-PPh3 Integrated Porous Organic Polymers Featuring Multifunctional Sites: Highly Active Heterogeneous Catalyst for Cooperative Conversion of CO2 to Cyclic Carbonates. ACS Catal. 2016, 6, 6091–6100. Doi: 10.1021/acscatal.6b01142 [19] F.N. Al-Rowaili U. Zahid S. Onaizi M. Khaled A. Jamal E.M. AL-Mutairi A review for metal-organic frameworks (MOFs) utilization in capture and conversion of carbon dioxide into valuable products J. CO2 Util. 53 2021 101715 10.1016/j.jcou.2021.101715 Al-Rowaili, F. N.; Zahid, U.; Onaizi, S.; Khaled, M.; Jamal, A.; AL-Mutairi, E. M. A review for Metal-Organic Frameworks (MOFs) utilization in capture and conversion of carbon dioxide into valuable products. J. CO2 Util. 2021, 53, 101715. Doi: 10.1016/j.jcou.2021.101715 [20] R.M. Izatt S.R. Izatt R.L. Bruening N.E. Izatt B.A. Moyer Challenges to achievement of metal sustainability in our high-tech society Chem. Soc. Rev. 43 2014 2451 2475 10.1039/C3CS60440C Izatt, R. M.; Izatt, S. R.; Bruening, R. L.; Izatt, N. E.; Moyer, B. A. Challenges to achievement of metal sustainability in our high-tech society. Chem. Soc. Rev. 2014, 43, 2451–2475. Doi: 10.1039/C3CS60440C [21] M. Cokoja M.E. Wilhelm M.H. Anthofer W.A. Herrmann F.E. Kühn Synthesis of cyclic carbonates from epoxides and carbon dioxide by using organocatalysts ChemSusChem 8 2015 2436 2454 10.1002/cssc.201500161 Cokoja, M.; Wilhelm, M. E.; Anthofer, M. H.; Herrmann, W. A.; Kühn, F. E. Synthesis of Cyclic Carbonates from Epoxides and Carbon Dioxide by Using Organocatalysts. ChemSusChem 2015, 8, 2436–2454. Doi: 10.1002/cssc.201500161 [22] J.T. Grant C.A. Carrero F. Goeltl J. Venegas P. Mueller S.P. Burt S.E. Specht W.P. McDermott A. Chieregato I. Hermans Selective oxidative dehydrogenation of propane to propene using boron nitride catalysts Science 354 2016 1570 1573 https://www.science.org/doi/10.1126/science.aaf7885 Grant, J. T.; Carrero, C. A.; Goeltl, F.; Venegas, J.; Mueller, P.; Burt, S. P.; Specht, S. E.; McDermott, W. P.; Chieregato, A.; Hermans, I. Selective oxidative dehydrogenation of propane to propene using boron nitride catalysts. Science 2016, 354, 1570–1573. https://www.science.org/doi/10.1126/science.aaf7885 [23] L. Shi D. Wang W. Song D. Shao W.-P. Zhang A.-H. Lu Edge-hydroxylated boron nitride for oxidative dehydrogenation of propane to propylene ChemCatChem 9 2017 1788 1793 10.1002/cctc.201700004 Shi, L.; Wang, D.; Song, W.; Shao, D.; Zhang, W.-P.; Lu, A.-H. Edge-hydroxylated Boron Nitride for Oxidative Dehydrogenation of Propane to Propylene. ChemCatChem 2017, 9, 1788–1793. Doi: 10.1002/cctc.201700004 [24] R. Huang B. Zhang J. Wang K.H. Wu W. Shi Y. Zhang Y. Liu A. Zheng R. Schlögl D.S. Su Direct insight into ethane oxidative dehydrogenation over boron nitrides ChemCatChem 9 2017 3293 3297 10.1002/cctc.201700725 Huang, R.; Zhang, B.; Wang, J.; Wu, K. H.; Shi, W.; Zhang, Y.; Liu, Y.; Zheng, A.; Schlögl, R.; Su, D. S. Direct Insight into Ethane Oxidative Dehydrogenation over Boron Nitrides. ChemCatChem 2017, 9, 3293–3297. Doi: 10.1002/cctc.201700725 [25] J. Tian J. Tan Z. Zhang P. Han M. Yin S. Wan J. Lin S. Wang Y. Wang Direct conversion of methane to formaldehyde and CO on B2O3 catalysts Nat. Commun. 11 2020 1 7 10.1038/s41467-020-19517-y Tian, J.; Tan, J.; Zhang, Z.; Han, P.; Yin, M.; Wan, S.; Lin, J.; Wang, S.; Wang, Y. Direct conversion of methane to formaldehyde and CO on B2O3 catalysts. Nat. Commun. 2020, 11, 1–7. Doi: 10.1038/s41467-020-19517-y [26] J.M. Venegas J.T. Grant W.P. McDermott S.P. Burt J. Micka C.A. Carrero I. Hermans Selective oxidation of n-butane and isobutane catalyzed by boron nitride ChemCatChem 9 2017 2118 2127 10.1002/cctc.201601686 Venegas, J. M.; Grant, J. T.; McDermott, W. P.; Burt, S. P.; Micka, J.; Carrero, C. A.; Hermans, I. Selective Oxidation of n-Butane and Isobutane Catalyzed by Boron Nitride. ChemCatChem 2017, 9, 2118–2127. Doi: 10.1002/cctc.201601686 [27] P. Rawal P. Gupta Orbitals-driven insights on the reactivity of boron oxide with dioxygen for methane oxidation on singlet and triplet spin states ChemCatChem 15 2023 e202300364 Rawal, P.; Gupta, P. Orbitals-Driven Insights on the Reactivity of Boron Oxide with Dioxygen for Methane Oxidation on Singlet and Triplet Spin States. ChemCatChem 2023, 15, e202300364. Doi: 10.1002/cctc.202300364 [28] P. Rawal P. Gupta Mapping the catalytic-space for the reactivity of metalfree boron nitride with O2 for H2O-mediated conversion of methane to HCHO and CO Chem. Eur. J. 30 2024 e202303371 Rawal, P.; Gupta, P. Mapping the Catalytic-Space for the Reactivity of Metalfree Boron Nitride with O2 for H2O-Mediated Conversion of Methane to HCHO and CO. Chem. Eur. J. 2024, 30, e202303371. Doi: 10.1002/chem.202303371 [29] P. Rawal P. Gupta Unidentical twins: geometrically similar but chemically distinct metal-free sites in boron oxide for methane oxidation to HCHO, CO and CO2 Chem. Eur. J. 2024 e202401050 Rawal, P.; Gupta, P. Unidentical Twins: Geometrically Similar but Chemically Distinct Metal-free Sites in Boron Oxide for Methane Oxidation to HCHO, CO and CO2. Chem. Eur. J. 2024, e202401050. Doi: 10.1002/chem.202401050 [30] W.D. Lu D. Wang Z. Zhao W. Song W.C. Li A.H. Lu Supported Boron Oxide Catalysts for Selective and Low Temperature Oxidative Dehydrogenation of Propane ACS Catal. 9 2019 8263 8270 10.1021/acscatal.9b02284 Lu, W. D.; Wang, D.; Zhao, Z.; Song, W.; Li, W. C.; Lu, A. H. Supported Boron Oxide Catalysts for Selective and Low Temperature Oxidative Dehydrogenation of Propane. ACS Catal. 2019, 9, 8263–8270. Doi: 10.1021/acscatal.9b02284 [31] Z. Liu W.D. Lu D. Wang A.H. Lu Interplay of on- and off-surface processes in the B2O3–catalyzed oxidative dehydrogenation of propane: a DFT study J. Phys. Chem. C 125 2021 24930 24944 10.1021/acs.jpcc.1c07690 Liu, Z.; Lu, W. D.; Wang, D.; Lu, A. H. Interplay of On- and Off-Surface Processes in the B2O3–Catalyzed Oxidative Dehydrogenation of Propane: A DFT Study. J. Phys. Chem. C 2021, 125, 24930–24944. Doi: 10.1021/acs.jpcc.1c07690 [32] Z. Liu D. Xu M. Xia W.D. Lu A.H. Lu D. Wang Understanding the unique antioxidation property of boron-based catalysts during oxidative dehydrogenation of alkanes J. Phys. Chem. Lett. 12 2021 8770 8776 10.1021/acs.jpclett.1c02709 Liu, Z.; Xu, D.; Xia, M.; Lu, W. D.; Lu, A. H.; Wang, D. Understanding the Unique Antioxidation Property of Boron-Based Catalysts during Oxidative Dehydrogenation of Alkanes. J. Phys. Chem. Lett. 2021, 12, 8770–8776. Doi: 10.1021/acs.jpclett.1c02709 [33] L.Y. Zhao J.Y. Chen W.C. Li A.H. Lu B2O3: A heterogeneous metal-free Lewis acid catalyst for carbon dioxide fixation into cyclic carbonates J. CO2 Util. 29 2019 172 178 10.1016/j.jcou.2018.12.006 Zhao, L. Y.; Chen, J. Y.; Li, W. C.; Lu, A. H. B2O3: A heterogeneous metal-free Lewis acid catalyst for carbon dioxide fixation into cyclic carbonates. J. CO2 Util. 2019, 29, 172–178. Doi: 10.1016/j.jcou.2018.12.006 [34] C.J. Whiteoak A. Nova F. Maseras A.W. Kleij Merging sustainability with organocatalysis in the formation of organic carbonates by using CO2 as a feedstock ChemSusChem 5 2012 2032 2038 10.1002/cssc.201200255 Whiteoak, C. J.; Nova, A.; Maseras, F.; Kleij, A. W. Merging Sustainability with Organocatalysis in the Formation of Organic Carbonates by Using CO2 as a Feedstock. ChemSusChem 2012, 5, 2032–2038. Doi: 10.1002/cssc.201200255 [35] J. Wang Y. Zhang Boronic acids as hydrogen bond donor catalysts for efficient conversion of CO2 into organic carbonate in water ACS Catal. 6 2016 4871 4876 10.1021/acscatal.6b01422 Wang, J.; Zhang, Y. Boronic Acids as Hydrogen Bond Donor Catalysts for Efficient Conversion of CO2 into Organic Carbonate in Water. ACS Catal. 2016, 6, 4871–4876. Doi: 10.1021/acscatal.6b01422 [36] S. Arayachukiat C. Kongtes A. Barthel S.V.C. Vummaleti A. Poater S. Wannakao L. Cavallo V. D’Elia Ascorbic acid as a bifunctional hydrogen bond donor for the synthesis of cyclic carbonates from CO2 under ambient conditions ACS Sustain. Chem. Eng. 5 2017 6392 6397 10.1021/acssuschemeng.7b01650 Arayachukiat, S.; Kongtes, C.; Barthel, A.; Vummaleti, S. V. C.; Poater, A.; Wannakao, S.; Cavallo, L.; D’Elia, V. Ascorbic Acid as a Bifunctional Hydrogen Bond Donor for the Synthesis of Cyclic Carbonates from CO2 under Ambient Conditions. ACS Sustain. Chem. Eng. 2017, 5, 6392–6397. Doi: 10.1021/acssuschemeng.7b01650 [37] S. Sopeña E. Martin E.C. Escudero-Adán A.W. Kleij Pushing the limits with squaramide-based organocatalysts in cyclic carbonate synthesis ACS Catal. 7 2017 3532 3539 10.1021/acscatal.7b00475 Sopeña, S.; Martin, E.; Escudero-Adán, E. C.; Kleij, A. W. Pushing the Limits with Squaramide-Based Organocatalysts in Cyclic Carbonate Synthesis. ACS Catal. 2017, 7, 3532–3539. Doi: 10.1021/acscatal.7b00475 [38] Y. Liu Z. Liu D. Wang A.H. Lu Suppressing deep oxidation by detached nano-sized boron oxide in oxidative dehydrogenation of propane revealed by the density functional theory study J. Phys. Chem. c. 126 2022 21263 21271 10.1021/acs.jpcc.2c06910 Liu, Y.; Liu, Z.; Wang, D.; Lu, A. H. Suppressing Deep Oxidation by Detached Nano-sized Boron Oxide in Oxidative Dehydrogenation of Propane Revealed by the Density Functional Theory Study. J. Phys. Chem. C. 2022, 126, 21263–21271. Doi: 10.1021/acs.jpcc.2c06910 [39] L. Zhu Z. Liu Q. Zhou W. Lu D. Wang Promoting Catalytic Activity of Boron by Phosphor in Propane Oxidative Dehydrogenation J. Phys. Chem. C 126 2022 16672 16681 10.1021/acs.jpcc.2c05082 Zhu, L.; Liu, Z.; Zhou, Q.; Lu, W.; Wang, D. Promoting Catalytic Activity of Boron by Phosphor in Propane Oxidative Dehydrogenation. J. Phys. Chem. C 2022, 126, 16672–16681. Doi: 10.1021/acs.jpcc.2c05082 [40] Q. Zhou Z. Liu L. Zhu W. Lu L. He D. Wang Oxidative Dehydrogenation of Propane on Boron Phosphate: A Computational Mechanistic Study J. Phys. Chem. c. 127 2023 12942 12952 10.1021/acs.jpcc.3c00838 Zhou, Q.; Liu, Z.; Zhu, L.; Lu, W.; He, L.; Wang, D. Oxidative Dehydrogenation of Propane on Boron Phosphate: A Computational Mechanistic Study. J. Phys. Chem. C. 2023, 127, 12942–12952. Doi: 10.1021/acs.jpcc.3c00838 [41] F. Neese The ORCA program system Wiley Interdiscip. Rev. Comput. Mol. Sci. 2 2012 73 78 10.1002/wcms.81 Neese, F. The ORCA program system. Wiley Interdiscip. Rev. Comput. Mol. Sci. 2012, 2, 73–78. Doi: 10.1002/wcms.81 [42] F. Neese Software update: The ORCA program system—Version 5.0 Wiley Interdiscip Rev. Comput. Mol. Sci. 12 2022 1 15 10.1002/wcms.1606 Neese, F. Software update: The ORCA program system—Version 5.0. Wiley Interdiscip. Rev. Comput. Mol. Sci. 2022, 12, 1–15. Doi: 10.1002/wcms.1606 [43] P.J. Stephen F.J. Devlin C.F. Chabalowski M.J. Frisch Ab Initio calculation of vibrational absorption and circular dichroism spectra using density functional force fields J. Phys. Chem. 98 1994 11623 11627 10.1021/j100096a001 Stephen, P. J.; Devlin, F. J.; Chabalowski, C. F.; Frisch, M. J. Ab Initio Calculation of Vibrational Absorption and Circular Dichroism Spectra Using Density Functional Force Fields. J. Phys. Chem. 1994, 98, 11623–11627. Doi: 10.1021/j100096a001 [44] F. Weigend R. Ahlrichs Balanced basis sets of split valence, triple zeta valence andquadruple zeta valence quality for H to Rn: Design and assessment of accuracy Phys. Chem. Chem. Phys. 7 2005 3297 3305 10.1039/B508541A Weigend, F.; Ahlrichs, R. Balanced basis sets of split valence, triple zeta valence andquadruple zeta valence quality for H to Rn: Design and assessment of accuracy. Phys. Chem. Chem. Phys. 2005, 7, 3297–3305. Doi: 10.1039/B508541A [45] F. Neese F. Wennmohs A. Hansen U. Becker Efficient, approximate and parallel Hartree-Fock and hybrid DFT calculations. A ‘chain-of-spheres’ algorithm for the Hartree-Fock exchange Chem. Phys. 356 2009 98 109 10.1016/j.chemphys.2008.10.036 Neese, F.; Wennmohs, F.; Hansen, A.; Becker, U. Efficient, approximate and parallel Hartree–Fock and hybrid DFT calculations. A ‘chain-of-spheres’ algorithm for the Hartree–Fock exchange. Chem. Phys. 2009, 356, 98–109. Doi: 10.1016/j.chemphys.2008.10.036 [46] S. Grimme S. Ehrlich L. Goerigk Effect of the Damping Function in Dispersion Corrected Density Functional Theory J. Comput. Chem. 32 2011 1456 1465 10.1002/jcc.21759 Grimme, S.; Ehrlich, S.; Goerigk, L. Effect of the Damping Function in Dispersion Corrected Density Functional Theory. J. Comput. Chem. 2011, 32, 1456–1465. Doi: 10.1002/jcc.21759 [47] H.P. Hratchian H.B. Schlegel Using Hessian Updating To Increase the Efficiency of a Hessian Based Predictor-Corrector Reaction Path Following Method J. Chem. Theory Comput. 1 2005 61 69 10.1021/ct0499783 Hratchian, H. P.; Schlegel, H. B. Using Hessian Updating To Increase the Efficiency of a Hessian Based Predictor-Corrector Reaction Path Following Method. J. Chem. Theory Comput. 2005, 1, 61–69. Doi: 10.1021/ct0499783 [48] C. Riplinger B. Sandhoefer A. Hansen F. Neese Natural Triple Excitations in Local Coupled Cluster Calculations with Pair Natural Orbitals J. Chem. Phys. 139 13 2013 10.1063/1.4821834 Riplinger, C.; Sandhoefer, B.; Hansen, A.; Neese, F. Natural Triple Excitations in Local Coupled Cluster Calculations with Pair Natural Orbitals. J. Chem. Phys. 2013, 139 (13). Doi: 10.1063/1.4821834. [49] T. Lu F. Chen Multiwfn: A Multifunctional Wavefunction Analyzer J. Comput. Chem. 33 2012 580 592 10.1002/jcc.22885 Lu, T.; Chen, F. Multiwfn: A Multifunctional Wavefunction Analyzer. J. Comput. Chem. 2012, 33, 580–592. Doi: 10.1002/jcc.22885 [50] K. Momma F. Izumi VESTA: a three-dimensional visualization system for electronic and structural analysis J. Appl. Cryst. 41 2008 653 658 10.1107/S0021889808012016 Momma, K.; Izumi, F. VESTA: a three-dimensional visualization system for electronic and structural analysis. J. Appl. Cryst. 2008, 41, 653–658. Doi: 10.1107/S0021889808012016 [51] C.Y. Legault. CYLview, version 1.0b, https://www.cylview.org/ (accessed June 1, 2023). [52] G. Knizia Intrinsic atomic orbitals: an unbiased bridge between quantum theory and chemical concepts J. Chem. Theory Comput. 9 2013 4834 4843 10.1021/ct400687b Knizia, G. Intrinsic Atomic Orbitals: An Unbiased Bridge between Quantum Theory and Chemical Concepts. J. Chem. Theory Comput. 2013, 9, 4834–4843. Doi: 10.1021/ct400687b [53] S. Kozuch S. Shaik How to conceptualize catalytic cycles? the energetic span model Acc. Chem. Res. 44 2011 101 110 10.1021/ar1000956 Kozuch, S.; Shaik, S. How to Conceptualize Catalytic Cycles? The Energetic Span Model. Acc. Chem. Res. 2011, 44, 101–110. Doi: 10.1021/ar1000956 [54] R. Babu R. Roshan Y. Gim Y.H. Jang J.F. Kurisingal D.W. Kim D.W. Park Inverse relationship of dimensionality and catalytic activity in CO2 transformation: a systematic investigation by comparing multidimensional metal-organic frameworks J. Mater. Chem. A 5 30 2017 15961 15969 10.1039/c7ta04004k Babu, R.; Roshan, R.; Gim, Y.; Jang, Y. H.; Kurisingal, J. F.; Kim, D. W.; Park, D. W. Inverse Relationship of Dimensionality and Catalytic Activity in CO2 Transformation: A Systematic Investigation by Comparing Multidimensional Metal-Organic Frameworks. J. Mater. Chem. A 2017, 5 (30), 15961–15969. Doi: 10.1039/c7ta04004k. [55] V. Butera N. Russo U. Cosentino C. Greco G. Moro D. Pitea E. Sicilia Computational insight on CO2 fixation to produce styrene carbonate assisted by a single-center aluminum(III) catalyst and quaternary ammonium salts ChemCatChem 8 6 2016 1167 1175 10.1002/cctc.201501272 Butera, V.; Russo, N.; Cosentino, U.; Greco, C.; Moro, G.; Pitea, D.; Sicilia, E. Computational Insight on CO2 Fixation to Produce Styrene Carbonate Assisted by a Single-Center Aluminum(III) Catalyst and Quaternary Ammonium Salts. ChemCatChem 2016, 8 (6), 1167–1175. Doi: 10.1002/cctc.201501272. [56] F. Della Monica B. Maity T. Pehl A. Buonerba A. De Nisi M. Monari A. Grassi B. Rieger L. Cavallo C. Capacchione [OSSO]-type iron(III) complexes for the low-pressure reaction of carbon dioxide with epoxides: catalytic activity, reaction kinetics, and computational study ACS Catal. 8 8 2018 6882 6893 10.1021/acscatal.8b01695 Della Monica, F.; Maity, B.; Pehl, T.; Buonerba, A.; De Nisi, A.; Monari, M.; Grassi, A.; Rieger, B.; Cavallo, L.; Capacchione, C. [OSSO]-Type Iron(III) Complexes for the Low-Pressure Reaction of Carbon Dioxide with Epoxides: Catalytic Activity, Reaction Kinetics, and Computational Study. ACS Catal. 2018, 8 (8), 6882–6893. Doi: 10.1021/acscatal.8b01695. [57] T.D. Hu Y.W. Sun Y.H. Ding A quantum-chemical insight on chemical fixation carbon dioxide with epoxides co-catalyzed by MIL-101 and tetrabutylammonium bromide J. CO2 Util. 28 September 2018 200 206 10.1016/j.jcou.2018.09.027 Hu, T. D.; Sun, Y. W.; Ding, Y. H. A Quantum-Chemical Insight on Chemical Fixation Carbon Dioxide with Epoxides Co-Catalyzed by MIL-101 and Tetrabutylammonium Bromide. J. CO2 Util. 2018, 28 (September), 200–206. Doi: 10.1016/j.jcou.2018.09.027. [58] J.L. Casals-Sainz A. Fernández-Alarcón E. Francisco A. Costales Á. Martín Pendás Bond order densities in real space J. Phys. Chem. A 124 2020 339 352 10.1021/acs.jpca.9b10113 Casals-Sainz, J. L.; Fernández-Alarcón, A.; Francisco, E.; Costales, A.; Martín Pendás, Á. Bond Order Densities in Real Space. J. Phys. Chem. A 2020, 124, 339–352. Doi: 10.1021/acs.jpca.9b10113 [59] F.M. Bickelhaupt K.N. Houk Analyzing reaction rates with the distortion/interaction-activation strain model Angew. Chem., Int. Ed. 56 2017 10070 10086 10.1002/anie.201701486 Bickelhaupt, F. M.; Houk, K. N. Analyzing Reaction Rates with the Distortion/Interaction-Activation Strain Model. Angew. Chem., Int. Ed. 2017, 56, 10070–10086. Doi: 10.1002/anie.201701486 [60] N. Goswami N. Kumar S. Bag P. Gupta D. Maiti Deciphering the mechanistic insights of temporary directing group-assisted meta-alkenylation of complex biaryl systems ACS Catal. 13 2023 11091 11103 10.1021/acscatal.3c02383 Goswami, N.; Kumar, N.; Bag, S.; Gupta, P.; Maiti, D. Deciphering the Mechanistic Insights of Temporary Directing Group-Assisted meta-Alkenylation of Complex Biaryl Systems. ACS Catal. 2023, 13, 11091–11103. Doi: 10.1021/acscatal.3c02383 [61] S. Arora P. Gupta Counter-anions rendered weak-interactions perturb the stability of tyrosinase-mimicked peroxo-dicopper(II) active site: unraveling computational indicators Chem. Asian J. 18 2023 e202300688 Arora, S.; Gupta, P. Counter-Anions Rendered Weak-Interactions Perturb the Stability of Tyrosinase-Mimicked Peroxo-Dicopper(II) Active Site: Unraveling Computational Indicators. Chem. Asian J. 2023, 18, e202300688. Doi: 10.1002/asia.202300688",
+      "scopus-id": "85205992019",
+      "coredata": {
+        "eid": "1-s2.0-S0021951724005001",
+        "dc:description": "The catalytic conversion of carbon dioxide (CO2) to cyclic organic carbonates (COCs) via cycloaddition with epoxides offers a dual benefit of reducing CO2 emissions while producing valuable chemical products. In this detailed in silico study, we employ density functional theory (DFT) to meticulously investigate the mechanisms underlying the B2O3/n-NBu4Br-catalyzed cycloaddition of CO2 and epoxides, following a step-by-step approach according to the reaction details. We provide a comprehensive comparison of the non-catalyzed, n-NBu4Br alone, and B2O3/n-NBu4Br-catalyzed pathways, emphasizing two distinct active sites within the B2O3 framework: Site 1 (six-membered boroxol ring) and Site 2 (open chain configuration). Our computational analysis highlights that the Site 1-catalyzed reaction pathway is more favorable, featuring a lower overall energy barrier of 26.8 kcal/mol, compared to 32.5 kcal/mol for the Site 2-catalyzed pathway. Detailed intrinsic bond orbital (IBO), natural adaptive orbital (NAdO) and distortion-interaction analysis (DIA) reveal significant differences in bonding properties and energy interactions, elucidating why Site 1 exhibits superior catalytic activity over Site 2. These findings are corroborated by experimental observations, which indicate that ball milling B2O3 increases defect sites, thereby enhancing exposure of active sites Site 1 and improving catalytic performance. This study provides an in-depth understanding of how the intrinsic properties of boron active sites influence the catalytic efficiency of B2O3, offering valuable insights for the design and optimization of metal-free catalysts for CO2 conversion.",
+        "openArchiveArticle": "false",
+        "prism:coverDate": "2024-11-30",
+        "openaccessUserLicense": null,
+        "prism:aggregationType": "Journal",
+        "prism:url": "https://api.elsevier.com/content/article/pii/S0021951724005001",
+        "dc:creator": [
+          {
+            "@_fa": "true",
+            "$": "Kumar, Nikunj"
+          },
+          {
+            "@_fa": "true",
+            "$": "Gupta, Puneet"
+          }
+        ],
+        "link": [
+          {
+            "@_fa": "true",
+            "@rel": "self",
+            "@href": "https://api.elsevier.com/content/article/pii/S0021951724005001"
+          },
+          {
+            "@_fa": "true",
+            "@rel": "scidir",
+            "@href": "https://www.sciencedirect.com/science/article/pii/S0021951724005001"
+          }
+        ],
+        "dc:format": "application/json",
+        "openaccessType": null,
+        "pii": "S0021-9517(24)00500-1",
+        "prism:volume": "439",
+        "articleNumber": "115787",
+        "prism:publisher": "Elsevier Inc. All rights are reserved, including those for text and data mining, AI training, and similar technologies.",
+        "dc:title": "Every reaction Detail Matters: An in silico driven Step-by-Step Guide to understand the B2O3-Catalyzed CO2 to cyclic carbonates conversion",
+        "prism:copyright": "© 2024 Elsevier Inc. All rights are reserved, including those for text and data mining, AI training, and similar technologies.",
+        "openaccess": "0",
+        "prism:issn": "00219517",
+        "dcterms:subject": [
+          {
+            "@_fa": "true",
+            "$": "Boron oxide"
+          },
+          {
+            "@_fa": "true",
+            "$": "Carbon dioxide fixation"
+          },
+          {
+            "@_fa": "true",
+            "$": "Density functional theory"
+          },
+          {
+            "@_fa": "true",
+            "$": "Cyclic organic carbonate"
+          },
+          {
+            "@_fa": "true",
+            "$": "Catalysis"
+          }
+        ],
+        "openaccessArticle": "false",
+        "prism:publicationName": "Journal of Catalysis",
+        "openaccessSponsorType": null,
+        "prism:pageRange": "115787",
+        "pubType": "fla",
+        "prism:coverDisplayDate": "November 2024",
+        "prism:doi": "10.1016/j.jcat.2024.115787",
+        "prism:startingPage": "115787",
+        "dc:identifier": "doi:10.1016/j.jcat.2024.115787",
+        "openaccessSponsorName": null
+      },
+      "objects": {
+        "object": [
+          {
+            "@category": "standard",
+            "@height": "520",
+            "@width": "645",
+            "@_fa": "true",
+            "$": "https://api.elsevier.com/content/object/eid/1-s2.0-S0021951724005001-gr1.jpg?httpAccept=%2A%2F%2A",
+            "@multimediatype": "JPEG image file",
+            "@type": "IMAGE-DOWNSAMPLED",
+            "@size": "86403",
+            "@ref": "gr1",
+            "@mimetype": "image/jpeg"
+          },
+          {
+            "@category": "standard",
+            "@height": "244",
+            "@width": "378",
+            "@_fa": "true",
+            "$": "https://api.elsevier.com/content/object/eid/1-s2.0-S0021951724005001-gr2.jpg?httpAccept=%2A%2F%2A",
+            "@multimediatype": "JPEG image file",
+            "@type": "IMAGE-DOWNSAMPLED",
+            "@size": "17180",
+            "@ref": "gr2",
+            "@mimetype": "image/jpeg"
+          },
+          {
+            "@category": "standard",
+            "@height": "358",
+            "@width": "711",
+            "@_fa": "true",
+            "$": "https://api.elsevier.com/content/object/eid/1-s2.0-S0021951724005001-gr10.jpg?httpAccept=%2A%2F%2A",
+            "@multimediatype": "JPEG image file",
+            "@type": "IMAGE-DOWNSAMPLED",
+            "@size": "60972",
+            "@ref": "gr10",
+            "@mimetype": "image/jpeg"
+          },
+          {
+            "@category": "standard",
+            "@height": "435",
+            "@width": "800",
+            "@_fa": "true",
+            "$": "https://api.elsevier.com/content/object/eid/1-s2.0-S0021951724005001-gr11.jpg?httpAccept=%2A%2F%2A",
+            "@multimediatype": "JPEG image file",
+            "@type": "IMAGE-DOWNSAMPLED",
+            "@size": "84320",
+            "@ref": "gr11",
+            "@mimetype": "image/jpeg"
+          },
+          {
+            "@category": "standard",
+            "@height": "552",
+            "@width": "689",
+            "@_fa": "true",
+            "$": "https://api.elsevier.com/content/object/eid/1-s2.0-S0021951724005001-gr12.jpg?httpAccept=%2A%2F%2A",
+            "@multimediatype": "JPEG image file",
+            "@type": "IMAGE-DOWNSAMPLED",
+            "@size": "136964",
+            "@ref": "gr12",
+            "@mimetype": "image/jpeg"
+          },
+          {
+            "@category": "standard",
+            "@height": "726",
+            "@width": "622",
+            "@_fa": "true",
+            "$": "https://api.elsevier.com/content/object/eid/1-s2.0-S0021951724005001-gr13.jpg?httpAccept=%2A%2F%2A",
+            "@multimediatype": "JPEG image file",
+            "@type": "IMAGE-DOWNSAMPLED",
+            "@size": "95779",
+            "@ref": "gr13",
+            "@mimetype": "image/jpeg"
+          },
+          {
+            "@category": "standard",
+            "@height": "245",
+            "@width": "268",
+            "@_fa": "true",
+            "$": "https://api.elsevier.com/content/object/eid/1-s2.0-S0021951724005001-ga1.jpg?httpAccept=%2A%2F%2A",
+            "@multimediatype": "JPEG image file",
+            "@type": "IMAGE-DOWNSAMPLED",
+            "@size": "25562",
+            "@ref": "ga1",
+            "@mimetype": "image/jpeg"
+          },
+          {
+            "@category": "standard",
+            "@height": "373",
+            "@width": "373",
+            "@_fa": "true",
+            "$": "https://api.elsevier.com/content/object/eid/1-s2.0-S0021951724005001-gr3.jpg?httpAccept=%2A%2F%2A",
+            "@multimediatype": "JPEG image file",
+            "@type": "IMAGE-DOWNSAMPLED",
+            "@size": "33322",
+            "@ref": "gr3",
+            "@mimetype": "image/jpeg"
+          },
+          {
+            "@category": "standard",
+            "@height": "465",
+            "@width": "778",
+            "@_fa": "true",
+            "$": "https://api.elsevier.com/content/object/eid/1-s2.0-S0021951724005001-gr4.jpg?httpAccept=%2A%2F%2A",
+            "@multimediatype": "JPEG image file",
+            "@type": "IMAGE-DOWNSAMPLED",
+            "@size": "81410",
+            "@ref": "gr4",
+            "@mimetype": "image/jpeg"
+          },
+          {
+            "@category": "standard",
+            "@height": "510",
+            "@width": "778",
+            "@_fa": "true",
+            "$": "https://api.elsevier.com/content/object/eid/1-s2.0-S0021951724005001-gr5.jpg?httpAccept=%2A%2F%2A",
+            "@multimediatype": "JPEG image file",
+            "@type": "IMAGE-DOWNSAMPLED",
+            "@size": "92317",
+            "@ref": "gr5",
+            "@mimetype": "image/jpeg"
+          },
+          {
+            "@category": "standard",
+            "@height": "388",
+            "@width": "667",
+            "@_fa": "true",
+            "$": "https://api.elsevier.com/content/object/eid/1-s2.0-S0021951724005001-gr6.jpg?httpAccept=%2A%2F%2A",
+            "@multimediatype": "JPEG image file",
+            "@type": "IMAGE-DOWNSAMPLED",
+            "@size": "53740",
+            "@ref": "gr6",
+            "@mimetype": "image/jpeg"
+          },
+          {
+            "@category": "standard",
+            "@height": "323",
+            "@width": "711",
+            "@_fa": "true",
+            "$": "https://api.elsevier.com/content/object/eid/1-s2.0-S0021951724005001-gr7.jpg?httpAccept=%2A%2F%2A",
+            "@multimediatype": "JPEG image file",
+            "@type": "IMAGE-DOWNSAMPLED",
+            "@size": "61788",
+            "@ref": "gr7",
+            "@mimetype": "image/jpeg"
+          },
+          {
+            "@category": "standard",
+            "@height": "413",
+            "@width": "787",
+            "@_fa": "true",
+            "$": "https://api.elsevier.com/content/object/eid/1-s2.0-S0021951724005001-gr8.jpg?httpAccept=%2A%2F%2A",
+            "@multimediatype": "JPEG image file",
+            "@type": "IMAGE-DOWNSAMPLED",
+            "@size": "84207",
+            "@ref": "gr8",
+            "@mimetype": "image/jpeg"
+          },
+          {
+            "@category": "standard",
+            "@height": "350",
+            "@width": "711",
+            "@_fa": "true",
+            "$": "https://api.elsevier.com/content/object/eid/1-s2.0-S0021951724005001-gr9.jpg?httpAccept=%2A%2F%2A",
+            "@multimediatype": "JPEG image file",
+            "@type": "IMAGE-DOWNSAMPLED",
+            "@size": "62712",
+            "@ref": "gr9",
+            "@mimetype": "image/jpeg"
+          },
+          {
+            "@category": "thumbnail",
+            "@height": "164",
+            "@width": "203",
+            "@_fa": "true",
+            "$": "https://api.elsevier.com/content/object/eid/1-s2.0-S0021951724005001-gr1.sml?httpAccept=%2A%2F%2A",
+            "@multimediatype": "GIF image file",
+            "@type": "IMAGE-THUMBNAIL",
+            "@size": "11501",
+            "@ref": "gr1",
+            "@mimetype": "image/gif"
+          },
+          {
+            "@category": "thumbnail",
+            "@height": "141",
+            "@width": "219",
+            "@_fa": "true",
+            "$": "https://api.elsevier.com/content/object/eid/1-s2.0-S0021951724005001-gr2.sml?httpAccept=%2A%2F%2A",
+            "@multimediatype": "GIF image file",
+            "@type": "IMAGE-THUMBNAIL",
+            "@size": "6942",
+            "@ref": "gr2",
+            "@mimetype": "image/gif"
+          },
+          {
+            "@category": "thumbnail",
+            "@height": "110",
+            "@width": "219",
+            "@_fa": "true",
+            "$": "https://api.elsevier.com/content/object/eid/1-s2.0-S0021951724005001-gr10.sml?httpAccept=%2A%2F%2A",
+            "@multimediatype": "GIF image file",
+            "@type": "IMAGE-THUMBNAIL",
+            "@size": "8121",
+            "@ref": "gr10",
+            "@mimetype": "image/gif"
+          },
+          {
+            "@category": "thumbnail",
+            "@height": "119",
+            "@width": "219",
+            "@_fa": "true",
+            "$": "https://api.elsevier.com/content/object/eid/1-s2.0-S0021951724005001-gr11.sml?httpAccept=%2A%2F%2A",
+            "@multimediatype": "GIF image file",
+            "@type": "IMAGE-THUMBNAIL",
+            "@size": "8386",
+            "@ref": "gr11",
+            "@mimetype": "image/gif"
+          },
+          {
+            "@category": "thumbnail",
+            "@height": "164",
+            "@width": "205",
+            "@_fa": "true",
+            "$": "https://api.elsevier.com/content/object/eid/1-s2.0-S0021951724005001-gr12.sml?httpAccept=%2A%2F%2A",
+            "@multimediatype": "GIF image file",
+            "@type": "IMAGE-THUMBNAIL",
+            "@size": "16871",
+            "@ref": "gr12",
+            "@mimetype": "image/gif"
+          },
+          {
+            "@category": "thumbnail",
+            "@height": "163",
+            "@width": "140",
+            "@_fa": "true",
+            "$": "https://api.elsevier.com/content/object/eid/1-s2.0-S0021951724005001-gr13.sml?httpAccept=%2A%2F%2A",
+            "@multimediatype": "GIF image file",
+            "@type": "IMAGE-THUMBNAIL",
+            "@size": "8158",
+            "@ref": "gr13",
+            "@mimetype": "image/gif"
+          },
+          {
+            "@category": "thumbnail",
+            "@height": "164",
+            "@width": "179",
+            "@_fa": "true",
+            "$": "https://api.elsevier.com/content/object/eid/1-s2.0-S0021951724005001-ga1.sml?httpAccept=%2A%2F%2A",
+            "@multimediatype": "GIF image file",
+            "@type": "IMAGE-THUMBNAIL",
+            "@size": "11474",
+            "@ref": "ga1",
+            "@mimetype": "image/gif"
+          },
+          {
+            "@category": "thumbnail",
+            "@height": "164",
+            "@width": "164",
+            "@_fa": "true",
+            "$": "https://api.elsevier.com/content/object/eid/1-s2.0-S0021951724005001-gr3.sml?httpAccept=%2A%2F%2A",
+            "@multimediatype": "GIF image file",
+            "@type": "IMAGE-THUMBNAIL",
+            "@size": "7008",
+            "@ref": "gr3",
+            "@mimetype": "image/gif"
+          },
+          {
+            "@category": "thumbnail",
+            "@height": "131",
+            "@width": "219",
+            "@_fa": "true",
+            "$": "https://api.elsevier.com/content/object/eid/1-s2.0-S0021951724005001-gr4.sml?httpAccept=%2A%2F%2A",
+            "@multimediatype": "GIF image file",
+            "@type": "IMAGE-THUMBNAIL",
+            "@size": "8296",
+            "@ref": "gr4",
+            "@mimetype": "image/gif"
+          },
+          {
+            "@category": "thumbnail",
+            "@height": "144",
+            "@width": "219",
+            "@_fa": "true",
+            "$": "https://api.elsevier.com/content/object/eid/1-s2.0-S0021951724005001-gr5.sml?httpAccept=%2A%2F%2A",
+            "@multimediatype": "GIF image file",
+            "@type": "IMAGE-THUMBNAIL",
+            "@size": "9420",
+            "@ref": "gr5",
+            "@mimetype": "image/gif"
+          },
+          {
+            "@category": "thumbnail",
+            "@height": "128",
+            "@width": "219",
+            "@_fa": "true",
+            "$": "https://api.elsevier.com/content/object/eid/1-s2.0-S0021951724005001-gr6.sml?httpAccept=%2A%2F%2A",
+            "@multimediatype": "GIF image file",
+            "@type": "IMAGE-THUMBNAIL",
+            "@size": "8180",
+            "@ref": "gr6",
+            "@mimetype": "image/gif"
+          },
+          {
+            "@category": "thumbnail",
+            "@height": "99",
+            "@width": "219",
+            "@_fa": "true",
+            "$": "https://api.elsevier.com/content/object/eid/1-s2.0-S0021951724005001-gr7.sml?httpAccept=%2A%2F%2A",
+            "@multimediatype": "GIF image file",
+            "@type": "IMAGE-THUMBNAIL",
+            "@size": "8153",
+            "@ref": "gr7",
+            "@mimetype": "image/gif"
+          },
+          {
+            "@category": "thumbnail",
+            "@height": "115",
+            "@width": "219",
+            "@_fa": "true",
+            "$": "https://api.elsevier.com/content/object/eid/1-s2.0-S0021951724005001-gr8.sml?httpAccept=%2A%2F%2A",
+            "@multimediatype": "GIF image file",
+            "@type": "IMAGE-THUMBNAIL",
+            "@size": "8725",
+            "@ref": "gr8",
+            "@mimetype": "image/gif"
+          },
+          {
+            "@category": "thumbnail",
+            "@height": "108",
+            "@width": "219",
+            "@_fa": "true",
+            "$": "https://api.elsevier.com/content/object/eid/1-s2.0-S0021951724005001-gr9.sml?httpAccept=%2A%2F%2A",
+            "@multimediatype": "GIF image file",
+            "@type": "IMAGE-THUMBNAIL",
+            "@size": "8186",
+            "@ref": "gr9",
+            "@mimetype": "image/gif"
+          },
+          {
+            "@category": "high",
+            "@height": "2302",
+            "@width": "2854",
+            "@_fa": "true",
+            "$": "https://api.elsevier.com/content/object/eid/1-s2.0-S0021951724005001-gr1_lrg.jpg?httpAccept=%2A%2F%2A",
+            "@multimediatype": "JPEG image file",
+            "@type": "IMAGE-HIGH-RES",
+            "@size": "584387",
+            "@ref": "gr1",
+            "@mimetype": "image/jpeg"
+          },
+          {
+            "@category": "high",
+            "@height": "1079",
+            "@width": "1673",
+            "@_fa": "true",
+            "$": "https://api.elsevier.com/content/object/eid/1-s2.0-S0021951724005001-gr2_lrg.jpg?httpAccept=%2A%2F%2A",
+            "@multimediatype": "JPEG image file",
+            "@type": "IMAGE-HIGH-RES",
+            "@size": "110809",
+            "@ref": "gr2",
+            "@mimetype": "image/jpeg"
+          },
+          {
+            "@category": "high",
+            "@height": "1585",
+            "@width": "3150",
+            "@_fa": "true",
+            "$": "https://api.elsevier.com/content/object/eid/1-s2.0-S0021951724005001-gr10_lrg.jpg?httpAccept=%2A%2F%2A",
+            "@multimediatype": "JPEG image file",
+            "@type": "IMAGE-HIGH-RES",
+            "@size": "399710",
+            "@ref": "gr10",
+            "@mimetype": "image/jpeg"
+          },
+          {
+            "@category": "high",
+            "@height": "1928",
+            "@width": "3544",
+            "@_fa": "true",
+            "$": "https://api.elsevier.com/content/object/eid/1-s2.0-S0021951724005001-gr11_lrg.jpg?httpAccept=%2A%2F%2A",
+            "@multimediatype": "JPEG image file",
+            "@type": "IMAGE-HIGH-RES",
+            "@size": "548228",
+            "@ref": "gr11",
+            "@mimetype": "image/jpeg"
+          },
+          {
+            "@category": "high",
+            "@height": "2443",
+            "@width": "3051",
+            "@_fa": "true",
+            "$": "https://api.elsevier.com/content/object/eid/1-s2.0-S0021951724005001-gr12_lrg.jpg?httpAccept=%2A%2F%2A",
+            "@multimediatype": "JPEG image file",
+            "@type": "IMAGE-HIGH-RES",
+            "@size": "913138",
+            "@ref": "gr12",
+            "@mimetype": "image/jpeg"
+          },
+          {
+            "@category": "high",
+            "@height": "3215",
+            "@width": "2756",
+            "@_fa": "true",
+            "$": "https://api.elsevier.com/content/object/eid/1-s2.0-S0021951724005001-gr13_lrg.jpg?httpAccept=%2A%2F%2A",
+            "@multimediatype": "JPEG image file",
+            "@type": "IMAGE-HIGH-RES",
+            "@size": "652610",
+            "@ref": "gr13",
+            "@mimetype": "image/jpeg"
+          },
+          {
+            "@category": "high",
+            "@height": "1085",
+            "@width": "1186",
+            "@_fa": "true",
+            "$": "https://api.elsevier.com/content/object/eid/1-s2.0-S0021951724005001-ga1_lrg.jpg?httpAccept=%2A%2F%2A",
+            "@multimediatype": "JPEG image file",
+            "@type": "IMAGE-HIGH-RES",
+            "@size": "194269",
+            "@ref": "ga1",
+            "@mimetype": "image/jpeg"
+          },
+          {
+            "@category": "high",
+            "@height": "1655",
+            "@width": "1654",
+            "@_fa": "true",
+            "$": "https://api.elsevier.com/content/object/eid/1-s2.0-S0021951724005001-gr3_lrg.jpg?httpAccept=%2A%2F%2A",
+            "@multimediatype": "JPEG image file",
+            "@type": "IMAGE-HIGH-RES",
+            "@size": "221047",
+            "@ref": "gr3",
+            "@mimetype": "image/jpeg"
+          },
+          {
+            "@category": "high",
+            "@height": "2061",
+            "@width": "3445",
+            "@_fa": "true",
+            "$": "https://api.elsevier.com/content/object/eid/1-s2.0-S0021951724005001-gr4_lrg.jpg?httpAccept=%2A%2F%2A",
+            "@multimediatype": "JPEG image file",
+            "@type": "IMAGE-HIGH-RES",
+            "@size": "527379",
+            "@ref": "gr4",
+            "@mimetype": "image/jpeg"
+          },
+          {
+            "@category": "high",
+            "@height": "2258",
+            "@width": "3445",
+            "@_fa": "true",
+            "$": "https://api.elsevier.com/content/object/eid/1-s2.0-S0021951724005001-gr5_lrg.jpg?httpAccept=%2A%2F%2A",
+            "@multimediatype": "JPEG image file",
+            "@type": "IMAGE-HIGH-RES",
+            "@size": "591046",
+            "@ref": "gr5",
+            "@mimetype": "image/jpeg"
+          },
+          {
+            "@category": "high",
+            "@height": "1720",
+            "@width": "2953",
+            "@_fa": "true",
+            "$": "https://api.elsevier.com/content/object/eid/1-s2.0-S0021951724005001-gr6_lrg.jpg?httpAccept=%2A%2F%2A",
+            "@multimediatype": "JPEG image file",
+            "@type": "IMAGE-HIGH-RES",
+            "@size": "342076",
+            "@ref": "gr6",
+            "@mimetype": "image/jpeg"
+          },
+          {
+            "@category": "high",
+            "@height": "1431",
+            "@width": "3150",
+            "@_fa": "true",
+            "$": "https://api.elsevier.com/content/object/eid/1-s2.0-S0021951724005001-gr7_lrg.jpg?httpAccept=%2A%2F%2A",
+            "@multimediatype": "JPEG image file",
+            "@type": "IMAGE-HIGH-RES",
+            "@size": "421741",
+            "@ref": "gr7",
+            "@mimetype": "image/jpeg"
+          },
+          {
+            "@category": "high",
+            "@height": "1828",
+            "@width": "3484",
+            "@_fa": "true",
+            "$": "https://api.elsevier.com/content/object/eid/1-s2.0-S0021951724005001-gr8_lrg.jpg?httpAccept=%2A%2F%2A",
+            "@multimediatype": "JPEG image file",
+            "@type": "IMAGE-HIGH-RES",
+            "@size": "558692",
+            "@ref": "gr8",
+            "@mimetype": "image/jpeg"
+          },
+          {
+            "@category": "high",
+            "@height": "1551",
+            "@width": "3150",
+            "@_fa": "true",
+            "$": "https://api.elsevier.com/content/object/eid/1-s2.0-S0021951724005001-gr9_lrg.jpg?httpAccept=%2A%2F%2A",
+            "@multimediatype": "JPEG image file",
+            "@type": "IMAGE-HIGH-RES",
+            "@size": "403768",
+            "@ref": "gr9",
+            "@mimetype": "image/jpeg"
+          },
+          {
+            "@category": "standard",
+            "@_fa": "true",
+            "$": "https://api.elsevier.com/content/object/eid/1-s2.0-S0021951724005001-mmc1.pdf?httpAccept=%2A%2F%2A",
+            "@multimediatype": "Acrobat PDF file",
+            "@type": "APPLICATION",
+            "@size": "3279390",
+            "@ref": "mmc1",
+            "@mimetype": "application/pdf"
+          },
+          {
+            "@category": "standard",
+            "@_fa": "true",
+            "$": "https://api.elsevier.com/content/object/eid/1-s2.0-S0021951724005001-am.pdf?httpAccept=%2A%2F%2A",
+            "@multimediatype": "Acrobat PDF file",
+            "@type": "AAM-PDF",
+            "@size": "4121613",
+            "@ref": "am",
+            "@mimetype": "application/pdf"
+          }
+        ]
+      },
+      "link": {
+        "@rel": "abstract",
+        "@href": "https://api.elsevier.com/content/abstract/scopus_id/85205992019"
+      }
+    }
+  }
+}

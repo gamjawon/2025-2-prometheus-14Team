@@ -1,0 +1,554 @@
+{
+  "metadata": {
+    "title": "Enhancing electrocatalytic nitrate/nitric oxide reduction to NH<ce:inf loc=post>3</ce:inf> on two-dimensional <ce:italic>p</ce:italic>-block InSe monolayer via defect engineering",
+    "authors": "; ; ",
+    "journal": "Molecular Catalysis",
+    "date": "2024-11-30",
+    "doi": "10.1016/j.mcat.2024.114477",
+    "abstract": "",
+    "uri": "https://api.elsevier.com/content/article/pii/S246882312400659X",
+    "pii": "S246882312400659X"
+  },
+  "fulltext": {
+    "full-text-retrieval-response": {
+      "scopus-eid": "2-s2.0-85202050075",
+      "originalText": "serial JL 315758 291210 291744 291790 291809 31 Molecular Catalysis MOLECULARCATALYSIS 2024-08-26 2024-08-26 2024-08-26 2024-08-26 2024-09-10T23:58:43 1-s2.0-S246882312400659X S2468-8231(24)00659-X S246882312400659X 10.1016/j.mcat.2024.114477 S300 S300.1 FULL-TEXT 1-s2.0-S2468823124X00140 2024-10-21T03:06:51.692813Z 0 0 20241101 20241130 2024 2024-08-26T23:30:05.530075Z absattachment articleinfo articlenumber articletitlenorm authfirstinitialnorm authfirstsurnamenorm cid cids contenttype copyright crossmark dateloaded dateloadedtxt datesearch datesort dateupdated dco docsubtype doctype doi eid ewtransactionid hubeid indexeddate issn issnnorm itemstage itemtransactionid itemweight openaccess openarchive pg pgfirst pii piinorm pubdateend pubdatestart pubdatetxt pubyr sectiontitle sortorder srctitle srctitlenorm srctype ssids alllist content subj subheadings suppl tomb volfirst volissue volumelist webpdf webpdfpagecount yearnav figure e-component body mmlmath acknowledge affil appendices articletitle auth authfirstini authfull authkeywords authlast grantnumber grantsponsor grantsponsorid highlightsabst orcid primabst ref specialabst 2468-8231 24688231 true 568 568 C Volume 568 3 114477 114477 114477 202411 November 2024 2024-11-01 2024-11-30 2024 Regular Papers article fla © 2024 Elsevier B.V. All rights are reserved, including those for text and data mining, AI training, and similar technologies. ENHANCINGELECTROCATALYTICNITRATENITRICOXIDEREDUCTIONNH3TWODIMENSIONALPBLOCKINSEMONOLAYERVIADEFECTENGINEERING KANG X 1 Introduction 2 Computational methods 3 Results and discussion 3.1 Pristine InSe ML structure 3.2 Stability of vacancy 3.3 Reduction of NO3 − and NO 3.4 Suppression of HER 4 Conclusions CRediT authorship contribution statement Acknowledgments Appendix Supplementary materials References ERISMAN 2008 636 639 J COMER 2019 1578 1605 B GOODWIN 2024 282 286 C XIONG 2023 2304021 Y LIU 2023 2303480 D CHEN 2023 2300512 W LIAO 2024 e202311752 P ZHANG 2024 2312746 H OUYANG 2023 6 44 L KANG 2022 17155 17162 X HUANG 2023 214981 Z FENG 2023 2301627 R ZHANG 2023 e202300054 G CHEN 2023 8737 8742 K LUO 2023 2304695 H HUA 2024 2314461 Y WANG 2024 13141 13149 F XIANG 2024 2401941 J ZHANG 2024 109594 N ZHANG 2024 1707 1714 Y WU 2024 245 269 Z LIU 2019 7052 7064 J LONG 2020 9711 9718 J WAN 2021 22137 22143 H WANG 2020 5702 5708 Y ZHOU 2023 10846 10854 Y WANG 2022 5407 5415 Y MURPHY 2023 4554 E ZHU 2023 4185 4191 S OU 2022 12823 12829 J SUN 2023 11684 11690 X ZANG 2022 527 535 Y ZHAO 2023 123156 T SHU 2023 2301493 Z ZANG 2023 2160 2168 Y DAI 2024 88 J LV 2022 9707 9716 P YU 2023 9616 9628 L HAN 2022 16080 16086 B LI 2023 22 J WANG 2023 108543 S WU 2024 2406917 Z WANG 2021 21237 21241 T YIN 2023 2884 2891 H LI 2022 7386 7395 S CHEN 2023 6814 6819 K FANG 2023 2410 2415 Q JIANG 2023 470 475 J WANG 2023 e202313646 X WONG 2024 196 204 L BANDURIN 2017 223 227 D KRESSE 1996 11169 G KRESSE 1999 1758 G PERDEW 1996 3865 J GRIMME 2010 154104 S SHU 2017 42688 42698 H PIZZOCHERO 2017 245402 M LING 2017 5133 5139 C LI 2021 119861 J WANG 2022 107517 S SATHISHKUMAR 2023 994 1005 N YANG 2023 130534 L KANGX2024X114477 KANGX2024X114477XX 2026-08-26T00:00:00.000Z 2026-08-26T00:00:00.000Z http://creativecommons.org/licenses/by-nc-nd/4.0/ © 2024 Elsevier B.V. All rights are reserved, including those for text and data mining, AI training, and similar technologies. 2024-09-08T12:34:47.145Z http://vtw.elsevier.com/data/voc/AddOnTypes/50.7/aggregated-refined Natural Science Foundation of China 12374061 NSFC National Natural Science Foundation of China http://data.elsevier.com/vocabulary/SciValFunders/501100001809 http://sws.geonames.org/1814991 KC Wong Magna Foundation K. C. Wong Education Foundation http://data.elsevier.com/vocabulary/SciValFunders/501100012692 http://sws.geonames.org/1819730/ Ningbo University NBU Ningbo University http://data.elsevier.com/vocabulary/SciValFunders/501100004387 http://sws.geonames.org/1814991/ High-Performance Computing Center of Ningbo University This work is supported by the Natural Science Foundation of China (Grants No. 12374061 ) and the KC Wong Magna Foundation at Ningbo University. The computations are supported by the High-Performance Computing Center of Ningbo University. https://doi.org/10.15223/policy-017 https://doi.org/10.15223/policy-037 https://doi.org/10.15223/policy-012 https://doi.org/10.15223/policy-029 https://doi.org/10.15223/policy-004 item S2468-8231(24)00659-X S246882312400659X 1-s2.0-S246882312400659X 10.1016/j.mcat.2024.114477 315758 2024-10-21T03:06:51.692813Z 2024-11-01 2024-11-30 1-s2.0-S246882312400659X-main.pdf https://s3-eu-west-1.amazonaws.com/prod-ucs-content-store-eu-west/content/pii:S246882312400659X/MAIN/application/pdf/3744c2025f88e3e08748e202db07330a/main.pdf main.pdf pdf true 3391615 MAIN 7 1-s2.0-S246882312400659X-main_1.png https://s3-eu-west-1.amazonaws.com/prod-ucs-content-store-eu-west/content/pii:S246882312400659X/PREVIEW/image/png/ca6e3481be3729bfa386ff2ed6a564d5/main_1.png main_1.png png 61207 849 656 IMAGE-WEB-PDF 1 1-s2.0-S246882312400659X-gr6.jpg https://s3-eu-west-1.amazonaws.com/prod-ucs-content-store-eu-west/content/pii:S246882312400659X/gr6/DOWNSAMPLED/image/jpeg/6961a7413a64732101ecb5bd8377f6b0/gr6.jpg gr6 gr6.jpg jpg 33159 192 565 IMAGE-DOWNSAMPLED 1-s2.0-S246882312400659X-gr2.jpg https://s3-eu-west-1.amazonaws.com/prod-ucs-content-store-eu-west/content/pii:S246882312400659X/gr2/DOWNSAMPLED/image/jpeg/b4c7353241e02d50c6e9772e9da82906/gr2.jpg gr2 gr2.jpg jpg 69498 350 565 IMAGE-DOWNSAMPLED 1-s2.0-S246882312400659X-ga1.jpg https://s3-eu-west-1.amazonaws.com/prod-ucs-content-store-eu-west/content/pii:S246882312400659X/ga1/DOWNSAMPLED/image/jpeg/83d093f54d1e94253f5e9b55d1b93b9c/ga1.jpg ga1 true ga1.jpg jpg 48680 200 263 IMAGE-DOWNSAMPLED 1-s2.0-S246882312400659X-gr3.jpg https://s3-eu-west-1.amazonaws.com/prod-ucs-content-store-eu-west/content/pii:S246882312400659X/gr3/DOWNSAMPLED/image/jpeg/0597b5e6a14a1361884541b1493a679e/gr3.jpg gr3 gr3.jpg jpg 36728 238 339 IMAGE-DOWNSAMPLED 1-s2.0-S246882312400659X-gr4.jpg https://s3-eu-west-1.amazonaws.com/prod-ucs-content-store-eu-west/content/pii:S246882312400659X/gr4/DOWNSAMPLED/image/jpeg/37c8b86dd2dc82f1abafa697c08de665/gr4.jpg gr4 gr4.jpg jpg 38680 205 565 IMAGE-DOWNSAMPLED 1-s2.0-S246882312400659X-gr5.jpg https://s3-eu-west-1.amazonaws.com/prod-ucs-content-store-eu-west/content/pii:S246882312400659X/gr5/DOWNSAMPLED/image/jpeg/0bf1fc3588a599d52a71b813c8817fc9/gr5.jpg gr5 gr5.jpg jpg 116244 572 678 IMAGE-DOWNSAMPLED 1-s2.0-S246882312400659X-gr1.jpg https://s3-eu-west-1.amazonaws.com/prod-ucs-content-store-eu-west/content/pii:S246882312400659X/gr1/DOWNSAMPLED/image/jpeg/64e1982d9e1ece89616f3a51aae5638e/gr1.jpg gr1 gr1.jpg jpg 24997 146 565 IMAGE-DOWNSAMPLED 1-s2.0-S246882312400659X-gr6.sml https://s3-eu-west-1.amazonaws.com/prod-ucs-content-store-eu-west/content/pii:S246882312400659X/gr6/THUMBNAIL/image/gif/ddb63bfec00b1065f5cece3d579c4a81/gr6.sml gr6 gr6.sml sml 8256 74 219 IMAGE-THUMBNAIL 1-s2.0-S246882312400659X-gr2.sml https://s3-eu-west-1.amazonaws.com/prod-ucs-content-store-eu-west/content/pii:S246882312400659X/gr2/THUMBNAIL/image/gif/30b5bd3a4c46bebc16e969aa2721e5a5/gr2.sml gr2 gr2.sml sml 12983 136 219 IMAGE-THUMBNAIL 1-s2.0-S246882312400659X-ga1.sml https://s3-eu-west-1.amazonaws.com/prod-ucs-content-store-eu-west/content/pii:S246882312400659X/ga1/THUMBNAIL/image/gif/1b09377941d7290d696bcc3a628262f6/ga1.sml ga1 true ga1.sml sml 28956 164 216 IMAGE-THUMBNAIL 1-s2.0-S246882312400659X-gr3.sml https://s3-eu-west-1.amazonaws.com/prod-ucs-content-store-eu-west/content/pii:S246882312400659X/gr3/THUMBNAIL/image/gif/98bd1590d65f90048723638cedbeaa01/gr3.sml gr3 gr3.sml sml 16926 154 219 IMAGE-THUMBNAIL 1-s2.0-S246882312400659X-gr4.sml https://s3-eu-west-1.amazonaws.com/prod-ucs-content-store-eu-west/content/pii:S246882312400659X/gr4/THUMBNAIL/image/gif/fd124e613d15c2516da892ac47469f88/gr4.sml gr4 gr4.sml sml 9334 79 219 IMAGE-THUMBNAIL 1-s2.0-S246882312400659X-gr5.sml https://s3-eu-west-1.amazonaws.com/prod-ucs-content-store-eu-west/content/pii:S2041488924003795/gr5/THUMBNAIL/image/gif/19cc75f66984f2fec2118c0f0ea6f0c5/gr5.sml gr5 gr5.sml sml 13640 164 194 IMAGE-THUMBNAIL 1-s2.0-S246882312400659X-gr1.sml https://s3-eu-west-1.amazonaws.com/prod-ucs-content-store-eu-west/content/pii:S204148892400599X/gr1/THUMBNAIL/image/gif/6d2e9b1a6b25980fa2706490ed168bc0/gr1.sml gr1 gr1.sml sml 6681 57 219 IMAGE-THUMBNAIL 1-s2.0-S246882312400659X-gr6_lrg.jpg https://s3-eu-west-1.amazonaws.com/prod-ucs-content-store-eu-west/content/pii:S246882312400659X/HIGHRES/image/jpeg/bf03ad39169bf898f75c2265d6c09d55/gr6_lrg.jpg gr6 gr6_lrg.jpg jpg 209768 849 2500 IMAGE-HIGH-RES 1-s2.0-S246882312400659X-gr2_lrg.jpg https://s3-eu-west-1.amazonaws.com/prod-ucs-content-store-eu-west/content/pii:S246882312400659X/HIGHRES/image/jpeg/581a9dc8ed6eafdf8ff73abb36937451/gr2_lrg.jpg gr2 gr2_lrg.jpg jpg 458117 1550 2500 IMAGE-HIGH-RES 1-s2.0-S246882312400659X-ga1_lrg.jpg https://s3-eu-west-1.amazonaws.com/prod-ucs-content-store-eu-west/content/pii:S246882312400659X/HIGHRES/image/jpeg/5c8f72cd84226995c3bd41ea4ee3a34f/ga1_lrg.jpg ga1 true ga1_lrg.jpg jpg 408253 886 1166 IMAGE-HIGH-RES 1-s2.0-S246882312400659X-gr3_lrg.jpg https://s3-eu-west-1.amazonaws.com/prod-ucs-content-store-eu-west/content/pii:S246882312400659X/HIGHRES/image/jpeg/566201e214ca7da34f5952b321cd02e9/gr3_lrg.jpg gr3 gr3_lrg.jpg jpg 254724 1055 1500 IMAGE-HIGH-RES 1-s2.0-S246882312400659X-gr4_lrg.jpg https://s3-eu-west-1.amazonaws.com/prod-ucs-content-store-eu-west/content/pii:S204148892400599X/HIGHRES/image/jpeg/2b01d9e92872a9d1454181d5bd9fc22c/gr4_lrg.jpg gr4 gr4_lrg.jpg jpg 288813 905 2500 IMAGE-HIGH-RES 1-s2.0-S246882312400659X-gr5_lrg.jpg https://s3-eu-west-1.amazonaws.com/prod-ucs-content-store-eu-west/content/pii:S2041488924001620/HIGHRES/image/jpeg/af7a52c1493d34bd2e7a6c7368c97e00/gr5_lrg.jpg gr5 gr5_lrg.jpg jpg 806342 2529 3000 IMAGE-HIGH-RES 1-s2.0-S246882312400659X-gr1_lrg.jpg https://s3-eu-west-1.amazonaws.com/prod-ucs-content-store-eu-west/content/pii:S2041488924003795/HIGHRES/image/jpeg/0773ad5ce29174e824b645a501f225e8/gr1_lrg.jpg gr1 gr1_lrg.jpg jpg 144985 645 2500 IMAGE-HIGH-RES 1-s2.0-S246882312400659X-mmc1.pdf https://s3-eu-west-1.amazonaws.com/prod-ucs-content-store-eu-west/content/pii:S246882312400659X/mmc1/MAIN/application/pdf/3e9379e771ee7d018d9dcbc2fd5c03cc/mmc1.pdf mmc1 mmc1.pdf pdf false 1081103 APPLICATION 1-s2.0-S246882312400659X-si1.svg https://s3-eu-west-1.amazonaws.com/prod-ucs-content-store-eu-west/content/pii:S246882312400659X/image/svg+xml/5f4ac122a9bd862f1cc00e0b6dd571b0/si1.svg si1 si1.svg svg 2578 ALTIMG 1-s2.0-S246882312400659X-si10.svg https://s3-eu-west-1.amazonaws.com/prod-ucs-content-store-eu-west/content/pii:S246882312400659X/image/svg+xml/2523c2b7049e488853cd562102293c35/si10.svg si10 si10.svg svg 7469 ALTIMG 1-s2.0-S246882312400659X-si11.svg https://s3-eu-west-1.amazonaws.com/prod-ucs-content-store-eu-west/content/pii:S246882312400659X/image/svg+xml/464a0c82db620f22a76a6cc3890b14bf/si11.svg si11 si11.svg svg 2322 ALTIMG 1-s2.0-S246882312400659X-si12.svg https://s3-eu-west-1.amazonaws.com/prod-ucs-content-store-eu-west/content/pii:S246882312400659X/image/svg+xml/b3c27b8c1a4e88149b6ac8e919528950/si12.svg si12 si12.svg svg 7721 ALTIMG 1-s2.0-S246882312400659X-si13.svg https://s3-eu-west-1.amazonaws.com/prod-ucs-content-store-eu-west/content/pii:S246882312400659X/image/svg+xml/075161bac6515b69165d7ba0fe2d4e04/si13.svg si13 si13.svg svg 2447 ALTIMG 1-s2.0-S246882312400659X-si14.svg https://s3-eu-west-1.amazonaws.com/prod-ucs-content-store-eu-west/content/pii:S246882312400659X/image/svg+xml/702c66e19375a34b7b5b8332a0f27825/si14.svg si14 si14.svg svg 3346 ALTIMG 1-s2.0-S246882312400659X-si15.svg https://s3-eu-west-1.amazonaws.com/prod-ucs-content-store-eu-west/content/pii:S246882312400659X/image/svg+xml/23c55a1bd310f94ca9367dac008dec69/si15.svg si15 si15.svg svg 4695 ALTIMG 1-s2.0-S246882312400659X-si16.svg https://s3-eu-west-1.amazonaws.com/prod-ucs-content-store-eu-west/content/pii:S246882312400659X/image/svg+xml/45193b409ad694be6604d4fe79ea6ef9/si16.svg si16 si16.svg svg 3689 ALTIMG 1-s2.0-S246882312400659X-si17.svg https://s3-eu-west-1.amazonaws.com/prod-ucs-content-store-eu-west/content/pii:S246882312400659X/image/svg+xml/474c07a97266218a08a5f16fe4f91f1a/si17.svg si17 si17.svg svg 193 ALTIMG 1-s2.0-S246882312400659X-si2.svg https://s3-eu-west-1.amazonaws.com/prod-ucs-content-store-eu-west/content/pii:S246882312400659X/image/svg+xml/b2b4e988814a66382600358c8c96389a/si2.svg si2 si2.svg svg 13907 ALTIMG 1-s2.0-S246882312400659X-si3.svg https://s3-eu-west-1.amazonaws.com/prod-ucs-content-store-eu-west/content/pii:S246882312400659X/image/svg+xml/75638124693966bcb16ae66e21ad7ec5/si3.svg si3 si3.svg svg 4622 ALTIMG 1-s2.0-S246882312400659X-si4.svg https://s3-eu-west-1.amazonaws.com/prod-ucs-content-store-eu-west/content/pii:S246882312400659X/image/svg+xml/eca6a5ac8a9a4d2dcf54dba4b0ffc8ff/si4.svg si4 si4.svg svg 2596 ALTIMG 1-s2.0-S246882312400659X-si5.svg https://s3-eu-west-1.amazonaws.com/prod-ucs-content-store-eu-west/content/pii:S246882312400659X/image/svg+xml/d7cd8b320a627b236f0bb65b912bdcae/si5.svg si5 si5.svg svg 4853 ALTIMG 1-s2.0-S246882312400659X-si6.svg https://s3-eu-west-1.amazonaws.com/prod-ucs-content-store-eu-west/content/pii:S246882312400659X/image/svg+xml/56cba48f023c12361d8d285ed0a15859/si6.svg si6 si6.svg svg 6308 ALTIMG 1-s2.0-S246882312400659X-si7.svg https://s3-eu-west-1.amazonaws.com/prod-ucs-content-store-eu-west/content/pii:S246882312400659X/image/svg+xml/3615bbc3700c97d8f3b9fada11689a4c/si7.svg si7 si7.svg svg 10525 ALTIMG 1-s2.0-S246882312400659X-si8.svg https://s3-eu-west-1.amazonaws.com/prod-ucs-content-store-eu-west/content/pii:S246882312400659X/image/svg+xml/b33978428d1a22841e05807ed3ea04a6/si8.svg si8 si8.svg svg 3317 ALTIMG 1-s2.0-S246882312400659X-si9.svg https://s3-eu-west-1.amazonaws.com/prod-ucs-content-store-eu-west/content/pii:S246882312400659X/image/svg+xml/7b6fa2ddb487429fe4889c13c177a420/si9.svg si9 si9.svg svg 3467 ALTIMG 1-s2.0-S246882312400659X-am.pdf am am.pdf pdf 2800004 AAM-PDF https://s3-eu-west-1.amazonaws.com/prod-ucs-content-store-eu-west/content/egi:105H93XKB53/MAIN/application/pdf/5c55ca1ea441f5bf4c4e80230c6fe42a/am.pdf MCAT 114477 114477 S2468-8231(24)00659-X 10.1016/j.mcat.2024.114477 Fig. 1 (a) Top and (b) side views of 2D InSe ML. The black dashed rhombic represents a unit cell. Pink and Green balls represent the In and Se atoms, respectively. Fig. 1 Fig. 2 The optimized atomic configurations of vacancy defects: (a) VSe, (b) VSe2, (c) VIn, (d) VIn2, and (e) VInSe. (f) The corresponding formation energies (E f) as a function of the chemical potential of Se (∆ μ Se ). Fig. 2 Fig. 3 (a) The optimized configuration for NO3 − adsorbed on VSe-InSe ML. Charge density difference before and after NO3 − adsorption. (b) and (c) are charge accumulation and depletion, respectively, where the isosurface is set to 0.01 e/Å3. Fig. 3 Fig. 4 The projected density of states (PDOS) of all atoms (a) and three In atoms around active sites (c) of pristine InSe ML, (b) and (d) for the defective system. Fig. 4 Fig. 5 (a) Schematic illustration of possible intermediates for electrocatalytic NO3RR to NH3. Free energy diagram of the electrochemical reduction of (b) NO3 − and (c) NO to NH3 on VSe-InSe ML. (d) The most favorable reaction intermediates configurations. Fig. 5 Fig. 6 (a) The possible adsorption sites for hydrogen atoms. (b) The calculated Gibbs free energy diagrams of HER on VSe-InSe ML. Fig. 6 Enhancing electrocatalytic nitrate/nitric oxide reduction to NH3 on two-dimensional p-block InSe monolayer via defect engineering Xuxin Kang Writing – original draft Visualization Methodology Investigation Formal analysis Data curation Conceptualization a b Qingchao Fang Writing – review & editing Validation b Hanqing Yin Writing – review & editing Formal analysis b c Aijun Du Writing – review & editing Supervision Conceptualization b c ⁎ Xiangmei Duan Writing – review & editing Supervision Software Resources Project administration Methodology Funding acquisition Conceptualization a ⁎ a School of Physical Science and Technology, Ningbo University, Ningbo 315211, China School of Physical Science and Technology Ningbo University Ningbo 315211 China aSchool of Physical Science and Technology, Ningbo University, Ningbo 315211, China b School of Chemistry and Physics, Queensland University of Technology, Brisbane, QLD 4001, Australia School of Chemistry and Physics Queensland University of Technology Brisbane QLD 4001 Australia bSchool of Chemistry and Physics, Queensland University of Technology, Brisbane, QLD 4001, Australia c Centre for Materials Science, Queensland University of Technology, Brisbane, QLD 4001, Australia Centre for Materials Science Queensland University of Technology Brisbane QLD 4001 Australia cCentre for Materials Science, Queensland University of Technology, Brisbane, QLD 4001, Australia ⁎ Corresponding authors. Electrochemical nitrate/nitric oxide (NO3 −/NO) reduction to ammonia (NH3) is an environmentally friendly and sustainable strategy that mitigates pollutants while synthesizing value-added products NH3. Despite the prevalence of transition metal-based catalysts, the exploration of inexpensive two-dimensional (2D) p-block materials is needed in NH3 synthesis. Based on density functional theory calculations, we proposed an InSe monolayer with single Se vacancy as an outstanding catalyst for NO3RR and NORR. The catalyst exhibits exceptional catalytic performance, characterized by a low limiting potential comparable to that of most transition metal-based catalysts, and efficaciously suppresses the formation of competitive by-products. Successful adsorption and activation of NO3 − and NO molecules are achieved, attributed to the charge rearrangement around the vacancy. The electronic structure analysis reveals that the enhancement of activity stems from the upward shift of the p-band center of unsaturated indium atoms. This work heralds a novel avenue for designing pure 2D p-block NH3 synthesis catalysts and sheds light on a deeper understanding of the catalytic mechanism at the electronic level. Graphical abstract Image, graphical abstract Keywords Electrochemical NO3 −/NO reduction p-block 2D InSe monolayer vacancy engineering first principles calculations Data availability Data will be made available on request. 1 Introduction Ammonia (NH3) is the essential compound of chemical products and raw material for the synthesis of nitrogen-based fertilizers, such as urea and ammonium nitrate [1,2]. In recent years, NH3 has also been recognized as a promising clean energy carrier and storage medium. Conventional industrial production of NH3 primarily involves the Haber–Bosch (H–B) process, where N2 and H2 react at elevated temperatures (around 500 °C) and high pressure (175 bar) [3]. However, the H–B process confronts environmental challenges as it heavily relies on H2 production from fossil fuel combustion, resulting in 1.4 % of global CO2 emissions. Among the diverse alternative strategies, the electrocatalytic conversion of NO x (x = 1, 2, 3) to NH3 is admitted as a green and sustainable solution [4-8]. On the one hand, with the excessive use of agricultural fertilizers and accelerated industrialization, NO x species have emerged as predominant pollutants in the wastewater and atmosphere. In particular, elevated nitrate (NO3 −) concentrations have profound consequences for the global nitrogen cycle and ecological balance, leading to the generation of acid rain and photochemical smog, which have substantially endangered the quality of social life and directly threaten human health. The electrochemical reduction of NO x to NH3 involves only hydrogen proton pairs derived from generated electricity by renewable energy, like solar and wind energy. On the other hand, the NH3 produced by electrochemical NO x species is characterized by a dramatic decline in energy consumption per unit mass of absolute substance, which can be attributed to the lower dissociation energy of NO x than that of the N2 molecule (941 KJ/mol) [8-12]. Consequently, beyond N2, nitrogen oxides stand as an alternative nitrogen source capable of environmentally friendly and energy-saving NH3 production, thereby contributing to a more sustainable nitrogen cycle. Since nitrite (NO2 −) is unstable in acidic conditions, most of the previous studies have been focused on electrochemical nitrate reduction reaction (NO3RR) or nitric oxide reduction reaction (NORR) to NH3 [13-16]. Despite significant breakthroughs in experiments and theoretical simulations, there remain ample opportunities for boosting the catalytic activity and selectivity of NO x RR catalysts [17-21]. For large-scale applications, it is imperative to design and tailor efficient and green catalysts for NH3 production. The electrons in the d shells play a crucial role in facilitating the injection of charges into the lowest unoccupied molecular orbital of NO3 − and NO, thereby activating the NO bonds and augmenting the catalytic performance. As a result, transition metals (TMs) with highly occupied and unoccupied d orbitals as active sites, have consistently been the research hotspots on electrocatalysis, including pure metals [22-24], alloys [25,26], single atoms catalysts (SACs) [27-32], double atoms catalysts (DACs) [33-40], and single-atom alloy catalysts (SAACs) [41,42]. Regrettably, the open d-orbitals of TMs would tend to accept electrons from H atoms, favoring the competitive hydrogen evolution reaction (HER), undermining the reduction of NO x and ultimately curtailing the Faraday efficiency. Distinct from TMs, p-block metals with closed d shells, characterized by a d 10 electronic configuration, are typically regarded catalytically inferior and have rarely been investigated. Intriguingly, p-block metals, regulated by defect, alloys, doping, and heterojunction engineering, have been demonstrated as promising candidates with enhanced activity for electrocatalytic reactions [43-47]. For instance, Jiao et al. successfully synthesized a p-block SAC composed of antimony-nitrogen-carbon (SbNC), exhibiting exceptional stability, activity, and selectivity in oxygen reduction reactions [43]. Notably, the power density of Sb-SAC for Zn-air batteries surpasses that of most TM-based SACs, including the commonly employed commercial electrodes Pt-C. Recently, Du et al. proposed that the pure p-block In3Sn alloy exhibits outstanding performance in NO3RR with a completely downhill free energy change [44]. Moreover, the application of vacancy engineering holds promise in augmenting the Faraday efficiency and current density of electrocatalytic NO3RR [45]. Thus, it should be feasible to attain selective NO x RR for NH3 production through the development of novel 2D p-block materials. Inspired by recent experiment works, the incorporation of yttrium into 2D InSe semiconductors for field-effect transistors (FETs) has exhibited performance levels surpassing state-of-the-art silicon FETs [48]. Ag-doped InSe nanosheets with Se vacancies manifested notably high current density in the electro-reduction of CO2 to ethanol [49]. Very recently, Wong et al. discovered that 2D InSe monolayer (ML) exhibits ultra-high plasticity, showcasing substantial promise for the development and design of high-performance inorganic plastic semiconductors [50]. Considering the high electron mobility of InSe [51] and the fact that Se defects can be synthesized experimentally, the catalytic behavior of pristine and defective InSe MLs for NO3RR and NORR was systematically explored with the first-principles calculations. We found that the defective InSe ML is an excellent NO3RR and NORR catalyst with a limiting potential of −0.51 V, i.e., corresponding to the reaction temperature under ambient conditions. Moreover, it effectively inhibits the formation of competitive by-products, including H2, N2, N2O, NO, and NO2. Charge density difference and Bader charge analysis revealed substantial charge accumulation at the Se-vacancy. The analysis at the electronic level unraveled that the stable adsorption and accelerated activation of NO3 − and NO molecules on the defective InSe ML are derived from the upward shift of the p-band center of unsaturated indium atoms. Hence, our work validates defect engineering as a promising strategy for boosting NO3RR/NORR on the InSe ML. 2 Computational methods All density functional theory (DFT) calculations were performed in the Vienna ab-initio simulation package (VASP) [52]. Electron-ion interactions were described by the projector-augmented wave (PAW) method [53], the Perdew–Burke–Ernzerhof (PBE) functional within the generalized gradient approximation (GGA) was employed to address exchange-correlation interactions [54]. A cutoff energy of 520 eV was set. The convergence criteria for energy and force are 1.0 × 10−5 eV and 0.03 eV/Å, respectively. The first Brillouin zones were sampled with 3 × 3 × 1 and 6 × 6 × 1 Monkhorst-Pack k-point grids for structure optimization and electronic structure calculations, respectively. To prevent artificial interactions between neighboring periodic cells, a vacuum space of 20 Å was introduced in the z-direction. For precise evaluation of small molecule adsorption, van der Waals D3 (DFT-D3) correction was considered [55]. To test the thermodynamic stability of 2D InSe with Se vacancy, ab initio molecules dynamic (AIMD) simulations were conducted within the NVT ensemble at 500 K. To evaluate the solvent effects on catalytic activity, the Poisson–Boltzmann implicit solvation model in VASPsol is employed, with a dielectric constant of 80.0 for water. The adsorption energy of NO3 − can be obtained by: E ads = E * N O 3 + 1 2 E H 2 ( g ) − E * − E HN O 3 ( g ) , where E * N O 3 and E * is the total energy of with and without NO3 − adsorption, respectively. E H 2 ( g ) and E HN O 3 ( g ) is the energy of free H2 and HNO3 molecule, respectively. Detailed calculations process can be found in the Supporting Information. 3 Results and discussion 3.1 Pristine InSe ML structure The top and side views of the 2D InSe ML are illustrated in Fig. 1 . The unit cell is outlined by a black dashed rhombic, and the Se vacancy's position is marked by a red dashed circle. As can be seen from the side view, the InSe ML consists of four atomic layers, with two indium layers in the middle and selenium layers on both sides, forming a Se-In-In-Se sequence that constructs a double honeycomb structure when two In/Se atoms overlap along the z direction. Each Se atom is bonded to three In atoms, while each In atom is coordinated with three Se atoms and one In atom. 3.2 Stability of vacancy The vacancy formation energy (E f) serves as a crucial parameter for evaluating the relative stability of materials with vacancies in thermodynamic equilibrium. Typically, the formation of vacancy is intricately linked to the synthesis environment, while the formation energy depends on the chemical potentials of the constituent elements. To introduce the point vacancy, a 4 × 4 × 1 supercell was constructed. As shown in Figs. 2 and S1, we considered five possible vacancy configurations, namely mono-selenium vacancy (VSe), di-selenium vacancy (VSe2), mono-indium vacancy (VIn), di-indium vacancy (VIn2), indium-selenium vacancy pair (VInSe). The E f is defined by the formula: E f = E d e f − E p r i + Δ n i ∑ i = 1 μ , where the E def and E pri represents the total energy of the defective and pristine InSe MLs, respectively. The variable Δn and μ denotes the change in the number of vacancy atoms and the chemical potential, respectively. The calculated results are depicted in Fig. 2(f), the lower boundary, corresponding to the In-rich condition, is given by the chemical potential of Se ( μ Se ) = ( E pri − 2 × μ In ) / 2 , where the chemical potential of In ( μ In ) is the energy per atom in the indium bulk. On the contrary, the upper boundary corresponds to the Se-rich condition, the μ Se is equal to the energy per atom in the selenium bulk, while μ In = ( E pri − 2 × μ Se ) / 2 . Consequently, the stability of InSe ML ranges from −1.1 eV < μ Se < 0 eV, which is consistent with the range of variation of the μ Se of MoSe2 [56]. As expected, the single Se vacancy under In-rich conditions is the most favorable configuration with the lowest E f of 1.24 eV. Notably, the value aligns with previously reported results of VS-MoS2 and VSe-MoSe2 [56,57]. To further assess the thermodynamic stability of the InSe ML with single Se vacancy (VSe-InSe), AIMD simulations were conducted at 500 K for 10 ps. As shown in Fig. S2, both the energy and temperature oscillate within a small and reasonable range. The above tests affirmed the high thermodynamic stability and experimental synthesis feasibility of VSe-InSe MLs. Therefore, the following discussion will focus predominantly on individual Se defect. 3.3 Reduction of NO3 − and NO The effective adsorption of NO3 −/NO is a paramount prerequisite for the subsequent hydrogenation process. Initially, we explored the adsorption of NO3 − on both clean and defective InSe MLs. In light of our calculations, nitrate fails to achieve stable adsorption on a pristine InSe ML, as evidenced by the distance between one oxygen atom of NO3 − and the substrate greater than 3 Å (see Fig. S3), indicating relatively limited nitrate catalytic activity. However, the removal of the Se atom exposes the indium active sites, inducing the activation of NO3 −. The same adsorption configurations of NO3 − were considered on VSe-InSe ML, where the configuration of three oxygen atoms interacting with three exposed indium atoms proved to be the most favorable [see Fig. 3 (a)]. The calculated adsorption energy is −0.59 eV, and the NO bond lengths of NO3 − are significantly stretched to 1.34 Å compared to 1.26 Å on perfect InSe ML. In addition, substantial charge transfer (1.35 e) from the unsaturated indium sites to NO3 − is visible in charge density difference (CDD) maps of Fig. 3(b) and (c), indicating that nitrate on VSe-InSe ML is steadily adsorbed and the bonds inside the nitrate itself are significantly weakened. Vacancy concentration may affect the stability and NO3 − adsorption, the formation energy of Vse and the adsorption energy of nitrate were compared in different supercells. As shown in Table S1, supercell size has little effect on the E f, and the difference in E ads is negligible between 4 × 4 × 1 and 5 × 5 × 1 supercells, the smaller one is sufficient to explore the intrinsic mechanism of NO3RR. From the perspective of electronic structure to reveal the impact of Se vacancies on catalytic activity, the density of states (DOS) and CDD plots of the pure and defective InSe MLs were calculated. As illustrated in Fig. S4 for the CDD maps, charge redistribution occurs around the vacancy, in contrast to the observation in the perfect case. The Bader charge analysis stated that there is 0.57 e accumulation at the vacancy. The partial density of states (PDOS) analysis in Fig. 4 (a) and (b) reveals that pristine InSe ML exhibits a noticeable band gap, while the presence of VSe induces defect states, reducing the band gap and enhancing the conductivity, which is conducive to the whole catalytic reaction. For the clean InSe ML, the valence band maximum (VBM) is dominated by orbitals of both In and Se atoms, while the conduction band minimum (CBM) is mainly dominated by Se atoms. Noteworthy, for the case of VSe-InSe, the VBM and CBM are prevailed by orbitals of the three unsaturated In atoms in proximity to the vacancy. The charge accumulation around In atoms [see Fig. 4(c) and (d)] promotes electron transfer and strengthens the adsorption of NO3 −. Vacancies necessarily affect the p-orbital center position ( ε p ) of the active site. Analogous to the effects of the d-band center on the transition metal catalysts [58], in general as well as reported, the closer the ε p is to the Fermi level, the stronger the adsorption of reactants on catalysts [59]. Specifically, for the pure InSe ML, the value of ε p is −1.04 eV, far away from the Femi level. While for the defective case, ε p is closer to the Fermi level with a value of −0.35 eV, indicating boosted catalytic activity. The electron occupation of antibonding states in the VSe-InSe ML is diminished, resulting in stronger adsorption of NO3 −, i.e., a relatively more negative adsorption energy. So far, vacancy engineering effectively regulated the electronic structure and upshifted the p-band center of the active sites, thereby enhancing the adsorption and activation of NO3 −, and facilitating the catalytic activity of the NO3RR. The reduction of NO3 − is a complicated process involving a variety of reaction intermediates and the by-products H2, NO, and NO2. All possible reaction pathways and intermediates are shown in Fig. 5 (a). Previous researches overwhelmingly indicate that the nitrogen atom in the *NO intermediate favors adsorption on surfaces over the oxygen atom [22,23,27,42]. Therefore, the reaction pathway is broadly categorized into partial deoxygenation (*NHO path) and continuous hydrogenation after total deoxygenation (*NOH path). Contrastingly, *ON and *ONH intermediates are favored in our system. The free energy diagram and the optimal intermediate structures on VSe-InSe for NO3RR are presented in Fig. 5(b) and (d). Initially, NO3 − adsorbs onto the unsaturated In site, with a slight increase in free energy by 0.002 eV. Afterward, the *NO3 specie is attacked by two hydrogen proton pairs (H+ + e−) to form the *NO2 intermediate, and an H2O molecule is released, whose free energy drops dramatically by −1.59 eV. This process proceeds with the next hydrogenation of *NO2, leading to the formation of either *NO or *ON intermediates, potentially with NO2 and NO gases as by-products. However, the desorption of NO2 and NO gases presents a challenge as the energy barrier is 1.01 eV and 0.76 eV, respectively. Proton pairs then selectively attack either the bonded O or the distal N atom, forming *OHN or *ONH intermediates, the latter being thermodynamically more favorable, evidenced by a free energy decrease of 0.85 eV. Next, the protonation of *ONH yields two more intermediates, *OHNH or *ONH2, with free energy changes of 0.80 eV and 0.33 eV, respectively. The *ONH2 intermediate is attacked by a proton-electron pair, resulting in NH3 being released, while *O continues to adsorb onto the unsaturated In site. In the subsequent hydrogenation steps (*O → *OH → *OH2), the Gibbs free energy change is 0.51 eV and 0.28 eV, respectively. During the whole process, the potential determination step (PDS) of VSe-InSe for the NO3 − reduction to NH3 is from *O hydrogenation to *OH step with a maximum energy uphill of 0.51 eV, which is comparable to recently reported transition metal-based catalysts [41,60-62]. Ideally, the nitrate electrochemical reduction pathway is identified as *NO3 → *NO2 → *ON → *ONH → *ONH2 → *O+NH3 → *OH → *OH2 → *+H2O. The geometry structures of the corresponding intermediate are presented in Fig. 5(d). Given that electrochemical NO3RR occurs in aqueous solutions, we utilized an implicit solvation model in VASPsol (with a dielectric constant of 80.0 for water) to explore the solvent's impact on the catalytic activity on VSe-InSe ML. As displayed in Fig. S5, the solvation effect minimally affects the free energy of most intermediates. Notably, the PDS remains unchanged, while the limiting potential is reduced after considering the solvation effect. Hence, the results suggest that the solvent effect has a negligible effect on the overall catalytic performance of NO3RR on VSe-InSe ML. The catalytic behavior of pristine and defective InSe MLs for the direct electrochemical synthesis of NO to NH3 was also explored. For the pure InSe ML, four potential adsorption patterns were considered, as shown in Fig. S6. Similar to NO3 −, the distance between the O or N atom of NO and the substrate is larger than 3 Å, indicating a relatively weak adsorption. Interestingly, NO can be adsorbed on V-InSe, in which NO lying flat in the defect position is the most favorable configuration, the corresponding geometry and energy difference are summarized in Fig. S6. The adsorption free energy of −0.76 eV and the significant elongation of the NO bond from 1.15 Å in the free gas to 1.31 Å, both indicate a considerable activation of the NO molecule on VSe-InSe. For NO molecule, the favorable adsorption configuration is consistent with that of the *ON intermediate in the NO3RR, and the subsequent hydrogenation process also follows the pathway, as shown in Fig. 5(c). The PDS of VSe-InSe for the NO reduction to NH3 is again from *O → *OH step with a maximum energy uphill of 0.51 eV. In addition to eminent NH3 catalytic performance, a prospective NORR catalyst should possess high NH3 selectivity to inhibit competing reactions that lead to the formation of side-products. During NORR process, N2 and N2O are the possible by-products at high NO coverages. In previous reports, *OONN and *NNOO have been identified as potential intermediates when *NO dimers co-adsorbed on the catalyst, along the *NNOO pathway, the products of N2O and N2 yields, while in the *OONN pathway, N2O is formed. Here, *OONN intermediate is more favorable, with a 1.60 eV drop in free energy, as shown in Fig. 5(c). And the free energy of the first hydrogenation from *OONN to *OOHNN rises by 0.87 eV, indicating that the N2O and N2 products are restrained. 3.4 Suppression of HER The major competitive reaction of NO3RR/NORR is the hydrogen evolution reaction, and if the active sites are occupied by hydrogen, the catalytic activity would be significantly reduced, leading to a loss of Faraday efficiency. The HER activity of catalysts is typically assessed by the Gibbs free energy of proton ( Δ G * H ), where a value closer to zero implies excellent HER performance. Therefore, for superior NO3RR and NORR catalysts, the Gibbs free energy of nitrate ( Δ G * N O 3 ) or nitric oxide ( Δ G * NO ) must be lower than that of Δ G * H to suppress HER. The calculated Δ G * H of all potential proton adsorption sites over the catalysts VSe-InSe are illustrated in Fig. 6 (a). It can be seen that the V-B site is the most favorable adsorption site with the lowest Δ G * H . Evidently, the Δ G * H value of 0.81 eV is much larger than the 0.09 eV of the commercial Pt catalyst, suggesting VSe-InSe is poor for HER. Moreover, Δ G * N O 3 (0.002 eV) and Δ G * NO (−0.76 eV) are more negative than Δ G * H (0.81 eV). These results reveal that VSe-InSe demonstrates outstanding NO3RR and NORR catalytic activity, and prevents the occurrence of HER. 4 Conclusions In summary, we carried out a systematic exploration into the possibility of both pristine and defective 2D InSe MLs toward NO3RR and NORR. It was found that individual Se vacancy on the surface is the most favorable defect configuration due to its low formation energy. In comparison to the pure InSe ML, the VSe-InSe ML can steadily adsorb NO3 − and NO, which is attributed to the charge accumulation at the Se vacancy. The density of states analysis reveals that the presence of Se vacancy introduces defective states within the band gap of pristine material, and boosts conductivity, thereby promoting the whole electrochemical process. Significantly, we identify that VSe-InSe ML is an excellent NO3RR and NORR catalyst with a low limiting potential of −0.51 V, indicating that it works under ambient conditions and effectively inhibits the competitive by-products. Given the experimental feasibility of synthesizing Se vacancy in InSe, this work presents a potential avenue for the design of NO3RR/NORR catalysts under environmental conditions using low-cost 2D p-block monolayers and could open the door for NH3 electrosynthesis. CRediT authorship contribution statement Xuxin Kang: Writing – original draft, Visualization, Methodology, Investigation, Formal analysis, Data curation, Conceptualization. Qingchao Fang: Writing – review & editing, Validation. Hanqing Yin: Writing – review & editing, Formal analysis. Aijun Du: Writing – review & editing, Supervision, Conceptualization. Xiangmei Duan: Writing – review & editing, Supervision, Software, Resources, Project administration, Methodology, Funding acquisition, Conceptualization. Declaration of competing interest The authors declare that they have no known competing financial interests or personal relationships that could have appeared to influence the work reported in this paper. Acknowledgments This work is supported by the Natural Science Foundation of China (Grants no. 12374061) and the KC Wong Magna Foundation at Ningbo University. The computations are supported by the High-Performance Computing Center of Ningbo University. Supplementary materials Supplementary material associated with this article can be found, in the online version, at doi:10.1016/j.mcat.2024.114477. Appendix Supplementary materials The Supporting Information is available free of charge Calculation details, AIMD simulation, adsorption configuration of NO3 − and NO on pristine and defective InSe ML, charge difference density maps, solvation effect VASPsol, supercells test. Image, application 1 References [1] J.W. Erisman M.A. Sutton J. Galloway Z. Klimont W. Winiwarter How a century of ammonia synthesis changed the world Nat. Geosci. 1 2008 636 639 J.W. Erisman, M.A. Sutton, J. Galloway, Z. Klimont, W. Winiwarter, How a century of ammonia synthesis changed the world, Nat. Geosci. 1 (2008) 636–639. [2] B.M. Comer P. Fuentes C.O. Dimkpa Y.H. Liu C.A. Fernandez P. Arora M. Realff U. Singh M.C. Hatzell A.J. Medford Prospects and challenges for solar fertilizers Joule 3 2019 1578 1605 B.M. Comer, P. Fuentes, C.O. Dimkpa, Y.H. Liu, C.A. Fernandez, P. Arora, M. Realff, U. Singh, M.C. Hatzell, A.J. Medford, Prospects and challenges for solar fertilizers, Joule 3 (2019) 1578–1605. [3] C.M. Goodwin P. Lömker D. Degerman B. Davies M. Shipilin F. Garcia-Martinez S. Koroidov J.K. Mathiesen R. Rameshan G.L.S. Rodrigues C. Schlueter P. Amann A. Nilsson Operando probing of the surface chemistry during the Haber–Bosch process Nature 625 2024 282 286 C.M. Goodwin, P. Lömker, D. Degerman, B. Davies, M. Shipilin, F. Garcia-Martinez, S. Koroidov, J.K. Mathiesen, R. Rameshan, G.L.S. Rodrigues, C. Schlueter, P. Amann, A. Nilsson, Operando probing of the surface chemistry during the Haber–Bosch process, Nature 625 (2024) 282–286. [4] Y. Xiong Y. Wang J. Zhou F. Liu F. Hao Z. Fan Electrochemical nitrate reduction: ammonia synthesis and the beyond Adv. Mater. 36 2023 2304021 Y. Xiong, Y. Wang, J. Zhou, F. Liu, F. Hao, Z. Fan, Electrochemical nitrate reduction: ammonia synthesis and the beyond, Adv. Mater. 36 (2023) 2304021. [5] D. Liu L. Qiao S. Peng H. Bai C. Liu W.F. Ip K.H. Lo H. Liu K.W. Ng S. Wang X. Yang H. Pan Recent advances in electrocatalysts for efficient nitrate reduction to ammonia Adv. Funct. Mater. 33 2023 2303480 D. Liu, L. Qiao, S. Peng, H. Bai, C. Liu, W.F. Ip, K.H. Lo, H. Liu, K.W. Ng, S. Wang, X. Yang, H. Pan, Recent advances in electrocatalysts for efficient nitrate reduction to ammonia, Adv. Funct. Mater. 33 (2023) 2303480. [6] W. Chen X. Yang Z. Chen Z. Ou J. Hu Y. Xu Y. Li X. Ren S. Ye J. Qiu J. Liu Q. Zhang Emerging applications, developments, prospects, and challenges of electrochemical nitrate-to-ammonia conversion Adv. Funct. Mater. 33 2023 2300512 W. Chen, X. Yang, Z. Chen, Z. Ou, J. Hu, Y. Xu, Y. Li, X. Ren, S. Ye, J. Qiu, J. Liu, Q. Zhang, Emerging applications, developments, prospects, and challenges of electrochemical nitrate-to-ammonia conversion, Adv. Funct. Mater. 33 (2023) 2300512. [7] P. Liao J. Kang R. Xiang S. Wang G. Li Electrocatalytic systems for NO x valorization in organonitrogen synthesis Angew. Chem. Int. Ed. 63 2024 e202311752 P. Liao, J. Kang, R. Xiang, S. Wang, G. Li, Electrocatalytic systems for NOx valorization in organonitrogen synthesis, Angew. Chem. Int. Ed. 63 (2024) e202311752. [8] H. Zhang H. Wang X. Cao M. Chen Y. Liu X. Zhao M. Huang L. Xia Y. Wang T. Li D. Zheng Y. Luo S. Sun X. Zhao X. Sun Unveiling cutting-edge developments in electrocatalytic nitrate-to-ammonia conversion Adv. Mater. 36 2024 2312746 H. Zhang, H. Wang, X. Cao, M. Chen, Y. Liu, X. Zhao, M. Huang, L. Xia, Y. Wang, T. Li, D. Zheng, Y. Luo, S. Sun, X. Zhao, X. Sun, Unveiling cutting-edge developments in electrocatalytic nitrate-to-ammonia conversion, Adv. Mater. 36 (2024) 2312746. [9] L. Ouyang J. Liang Y. Luo D. Zheng S. Sun Q. Liu M.S. Hamdy X. Sun B. Ying Recent advances in electrocatalytic ammonia synthesis Chin. J. Catal. 50 2023 6 44 L. Ouyang, J. Liang, Y. Luo, D. Zheng, S. Sun, Q. Liu, M.S. Hamdy, X. Sun, B. Ying, Recent advances in electrocatalytic ammonia synthesis, Chin. J. Catal. 50 (2023) 6–44. [10] X. Kang J. Huang X. Duan Computational screening of single transition-metal atoms anchored to g-C9N4 as catalysts for N2 reduction to NH3 Phys. Chem. Chem. Phys. 24 2022 17155 17162 X. Kang, J. Huang, X. Duan, Computational screening of single transition-metal atoms anchored to g-C9N4 as catalysts for N2 reduction to NH3, Phys. Chem. Chem. Phys. 24 (2022) 17155–17162. [11] Z. Huang M. Rafiq A.R. Woldu Q. Tong D. Astruc L. Hu Recent progress in electrocatalytic nitrogen reduction to ammonia (NRR) Coord. Chem. Rev. 478 2023 214981 Z. Huang, M. Rafiq, A.R. Woldu, Q. Tong, D. Astruc, L. Hu, Recent progress in electrocatalytic nitrogen reduction to ammonia (NRR), Coord. Chem. Rev. 478 (2023) 214981. [12] R. Feng H. Yin F. Jin W. Niu W. Zhang J. Liu A. Du W. Yang Z. Liu Highly selective N2 electroreduction to NH3 using a boron-vacancy-rich diatomic NbB catalyst Small. 19 2023 2301627 R. Feng, H. Yin, F. Jin, W. Niu, W. Zhang, J. Liu, A. Du, W. Yang, Z. Liu, Highly selective N2 electroreduction to NH3 using a boron-vacancy-rich diatomic NbB catalyst, Small. 19 (2023) 2301627. [13] G. Zhang X. Li K. Chen Y. Guo D. Ma K. Chu Tandem electrocatalytic nitrate reduction to ammonia on MBenes Angew. Chem. Int. Ed. 62 2023 e202300054 G. Zhang, X. Li, K. Chen, Y. Guo, D. Ma, K. Chu, Tandem electrocatalytic nitrate reduction to ammonia on MBenes, Angew. Chem. Int. Ed. 62 (2023) e202300054. [14] K. Chen G. Wang Y. Guo D. Ma K. Chu Iridium single-atom catalyst for highly efficient NO electroreduction to NH3 Nano Res. 16 2023 8737 8742 K. Chen, G. Wang, Y. Guo, D. Ma, K. Chu, Iridium single-atom catalyst for highly efficient NO electroreduction to NH3, Nano Res.. 16 (2023) 8737–8742. [15] H. Luo S. Li Z. Wu Y. Liu W. Luo W. Li D. Zhang J. Chen J. Yang Modulating the active hydrogen adsorption on Fe-N interface for boosted electrocatalytic nitrate reduction with ultra-long stability Adv. Mater. 35 2023 2304695 H. Luo, S. Li, Z. Wu, Y. Liu, W. Luo, W. Li, D. Zhang, J. Chen, J. Yang, Modulating the active hydrogen adsorption on Fe-N interface for boosted electrocatalytic nitrate reduction with ultra-long stability, Adv. Mater. 35 (2023) 2304695. [16] Y. Hua N. Song Z. Wu Y. Lan H. Luo Q. Song J. Yang Cu–Fe synergistic active sites boost kinetics of electrochemical nitrate reduction Adv. Funct. Mater. 34 2024 2314461 Y. Hua, N. Song, Z. Wu, Y. Lan, H. Luo, Q. Song, J. Yang, Cu–Fe synergistic active sites boost kinetics of electrochemical nitrate reduction, Adv. Funct. Mater. 34 (2024) 2314461. [17] F. Wang S. Shang Z. Sun X. Yang K. Chu P-block antimony–copper single-atom alloys for selective nitrite electroreduction to ammonia ACS Nano 18 2024 13141 13149 F. Wang, S. Shang, Z. Sun, X. Yang, K. Chu, P-block antimony–copper single-atom alloys for selective nitrite electroreduction to ammonia, ACS Nano 18 (2024) 13141–13149. [18] J. Xiang C. Qiang S. Shang K. Chen C. Kang K. Chu Tandem electrocatalytic reduction of nitrite to ammonia on rhodium–copper single atom alloys Adv. Funct. Mater. 2024 2401941 10.1002/adfm.202401941 J. Xiang, C. Qiang, S. Shang, K. Chen, C. Kang, K. Chu, Tandem electrocatalytic reduction of nitrite to ammonia on rhodium–copper single atom alloys, Adv. Funct. Mater. (2024) 2401941. [19] N. Zhang Y. Wan K. Chen G. Zhang K. Chu Pd hybridized In-Co dual sites promote nitrite electroreduction to ammonia at high current density Nano Energy 125 2024 109594 N. Zhang, Y. Wan, K. Chen, G. Zhang, K. Chu, Pd hybridized In-Co dual sites promote nitrite electroreduction to ammonia at high current density, Nano Energy 125 (2024) 109594. [20] Y. Zhang Z. Li W. Du K. Chen K. Chu Efficient nitrite-to-ammonia electroreduction over Zr-Ni frustrated lewis acid-base pairs Sci. China Chem. 67 2024 1707 1714 Y. Zhang, Z. Li, W. Du, K. Chen, K. Chu, Efficient nitrite-to-ammonia electroreduction over Zr-Ni frustrated lewis acid-base pairs, Sci. China Chem. 67 (2024) 1707–1714. [21] Z. Wu Y. Song H. Guo F. Xie Y. Cong M. Kuang J. Yang Tandem catalysis in electrocatalytic nitrate reduction: unlocking efficiency and mechanism Interdiscip. Mater. 3 2024 245 269 Z. Wu, Y. Song, H. Guo, F. Xie, Y. Cong, M. Kuang, J. Yang, Tandem catalysis in electrocatalytic nitrate reduction: unlocking efficiency and mechanism, Interdiscip. Mater. 3 (2024) 245–269. [22] J. Liu D. Richards N. Singh B.R. Goldsmith Activity and selectivity trends in electrocatalytic nitrate reduction on transition metals ACS Catal. 9 2019 7052 7064 J. Liu, D. Richards, N. Singh, B.R. Goldsmith, Activity and selectivity trends in electrocatalytic nitrate reduction on transition metals, ACS Catal.. 9 (2019) 7052–7064. [23] J. Long S. Chen Y. Zhang C. Guo X. Fu D. Deng J. Xiao Direct electrochemical ammonia synthesis from nitric oxide Angew. Chem. Int. Ed. 59 2020 9711 9718 J. Long, S. Chen, Y. Zhang, C. Guo, X. Fu, D. Deng, J. Xiao, Direct electrochemical ammonia synthesis from nitric oxide, Angew. Chem. Int. Ed. 59 (2020) 9711–9718. [24] H. Wan A. Bagger J. Rossmeisl Electrochemical nitric oxide reduction on metal surfaces Angew. Chem. 133 2021 22137 22143 H. Wan, A. Bagger, J. Rossmeisl, Electrochemical nitric oxide reduction on metal surfaces, Angew. Chem. 133 (2021) 22137–22143. [25] Y. Wang A. Xu Z. Wang L. Huang J. Li F. Li J. Wicks M. Luo D.H. Nam C.S. Tan Y. Ding J. Wu Y. Lum C.T. Dinh D. Sinton G. Zheng E.H. Sargent Enhanced nitrate-to-ammonia activity on copper–nickel alloys via tuning of intermediate adsorption J. Am. Chem. Soc. 142 2020 5702 5708 Y. Wang, A. Xu, Z. Wang, L. Huang, J. Li, F. Li, J. Wicks, M. Luo, D.H. Nam, C.S. Tan, Y. Ding, J. Wu, Y. Lum, C.T. Dinh, D. Sinton, G. Zheng, E.H. Sargent, Enhanced nitrate-to-ammonia activity on copper–nickel alloys via tuning of intermediate adsorption, J. Am. Chem. Soc. 142 (2020) 5702–5708. [26] Y. Zhou R. Duan H. Li M. Zhao C. Ding C. Li Boosting electrocatalytic nitrate reduction to ammonia via promoting water dissociation ACS Catal. 13 2023 10846 10854 Y. Zhou, R. Duan, H. Li, M. Zhao, C. Ding, C. Li, Boosting electrocatalytic nitrate reduction to ammonia via promoting water dissociation, ACS Catal.. 13 (2023) 10846–10854. [27] Y. Wang M. Shao Theoretical screening of transition metal–N4–doped graphene for electroreduction of nitrate ACS Catal. 12 2022 5407 5415 Y. Wang, M. Shao, Theoretical screening of transition metal–N4–doped graphene for electroreduction of nitrate, ACS Catal.. 12 (2022) 5407–5415. [28] E. Murphy Y. Liu I. Matanovic M. Rüscher Y. Huang A. Ly S. Guo W. Zang X. Yan A. Martini J. Timoshenko B.R. Cuenya I.V. Zenyuk X. Pan E.D. Spoerke P. Atanassov Elucidating electrochemical nitrate and nitrite reduction over atomically-dispersed transition metal sites Nat. Commun. 14 2023 4554 E. Murphy, Y. Liu, I. Matanovic, M. Rüscher, Y. Huang, A. Ly, S. Guo, W. Zang, X. Yan, A. Martini, J. Timoshenko, B.R. Cuenya, I.V. Zenyuk, X. Pan, E.D. Spoerke, P. Atanassov, Elucidating electrochemical nitrate and nitrite reduction over atomically-dispersed transition metal sites, Nat. Commun. 14 (2023) 4554. [29] S. Zhu M. Qin L. Chen S. Jiang Y. Zhou J. Jiang W. Zhang Theoretical investigation of electrocatalytic reduction of nitrates to ammonia on highly efficient and selective g-C2N monolayer-supported single transition-metal atoms J. Phys. Chem. Lett. 14 2023 4185 4191 S. Zhu, M. Qin, L. Chen, S. Jiang, Y. Zhou, J. Jiang, W. Zhang, Theoretical investigation of electrocatalytic reduction of nitrates to ammonia on highly efficient and selective g-C2N monolayer-supported single transition-metal atoms, J. Phys. Chem. Lett. 14 (2023) 4185–4191. [30] J. Ou X. Kang X. Duan In silico design of single transition metal atom anchored defective boron carbide monolayers as high-performance electrocatalysts for the nitrogen reduction reaction Nanoscale 14 2022 12823 12829 J. Ou, X. Kang, X. Duan, In silico design of single transition metal atom anchored defective boron carbide monolayers as high-performance electrocatalysts for the nitrogen reduction reaction, Nanoscale 14 (2022) 12823–12829. [31] X. Sun Y. Dai B. Huang W. Wei High-throughput screening of effective dual atom catalysts for the nitric oxide reduction reaction J. Phys. Chem. Lett. 14 2023 11684 11690 X. Sun, Y. Dai, B. Huang, W. Wei, High-throughput screening of effective dual atom catalysts for the nitric oxide reduction reaction, J. Phys. Chem. Lett. 14 (2023) 11684–11690. [32] Y. Zang Q. Wu S. Wang B. Huang Y. Dai Y. Ma High-throughput screening of efficient biatom catalysts based on monolayer carbon nitride for the nitric oxide reduction reaction J. Phys. Chem. Lett. 13 2022 527 535 Y. Zang, Q. Wu, S. Wang, B. Huang, Y. Dai, Y. Ma, High-throughput screening of efficient biatom catalysts based on monolayer carbon nitride for the nitric oxide reduction reaction, J. Phys. Chem. Lett. 13 (2022) 527–535. [33] T. Zhao K. Chen X. Xu X. Li X. Zhao Q. Cai K. Chu J. Zhao Homonuclear dual-atom catalysts embedded on N-doped graphene for highly efficient nitrate reduction to ammonia: from theoretical prediction to experimental validation Appl. Catal. B 339 2023 123156 T. Zhao, K. Chen, X. Xu, X. Li, X. Zhao, Q. Cai, K. Chu, J. Zhao, Homonuclear dual-atom catalysts embedded on N-doped graphene for highly efficient nitrate reduction to ammonia: from theoretical prediction to experimental validation, Appl. Catal. B 339 (2023) 123156. [34] Z. Shu H. Chen X. Liu H. Jia H. Yan Y. Cai High-throughput screening of heterogeneous transition metal dual-atom catalysts by synergistic effect for nitrate reduction to ammonia Adv. Funct. Mater. 33 2023 2301493 Z. Shu, H. Chen, X. Liu, H. Jia, H. Yan, Y. Cai, High-throughput screening of heterogeneous transition metal dual-atom catalysts by synergistic effect for nitrate reduction to ammonia, Adv. Funct. Mater. 33 (2023) 2301493. [35] Y. Zang Q. Wu S. Wang B. Huang Y. Dai Y. Ma Activating dual atomic electrocatalysts for the nitric oxide reduction reaction through the P/S element Mater. Horiz. 10 2023 2160 2168 Y. Zang, Q. Wu, S. Wang, B. Huang, Y. Dai, Y. Ma, Activating dual atomic electrocatalysts for the nitric oxide reduction reaction through the P/S element, Mater. Horiz. 10 (2023) 2160–2168. [36] J. Dai Y. Tong L. Zhao Z. Hu C. Chen C. Kuo G. Zhan J. Wang X. Zou Q. Zheng W. Hou R. Wang K. Wang R. Zhao X. Gu Y. Yao L. Zhang Spin polarized Fe1–Ti pairs for highly efficient electroreduction nitrate to ammonia Nat. Commun. 15 2024 88 J. Dai, Y. Tong, L. Zhao, Z. Hu, C. Chen, C. Kuo, G. Zhan, J. Wang, X. Zou, Q. Zheng, W. Hou, R. Wang, K. Wang, R. Zhao, X. Gu, Y. Yao, L. Zhang, Spin polarized Fe1–Ti pairs for highly efficient electroreduction nitrate to ammonia, Nat. Commun. 15 (2024) 88. [37] P. Lv D. Wu B. He X. Li R. Zhu G. Tang Z. Lu D. Ma Y. Jia An efficient screening strategy towards multifunctional catalysts for the simultaneous electroreduction of NO3 −, NO2 − and NO to NH3 J. Mater. Chem. A 10 2022 9707 9716 P. Lv, D. Wu, B. He, X. Li, R. Zhu, G. Tang, Z. Lu, D. Ma, Y. Jia, An efficient screening strategy towards multifunctional catalysts for the simultaneous electroreduction of NO3−, NO2− and NO to NH3, J. Mater. Chem. A 10 (2022) 9707–9716. [38] L. Yu F. Li J. Huang B.G. Sumpter W.E. Mustain Z. Chen Double-atom catalysts featuring inverse sandwich structure for CO2 reduction reaction: a synergetic first-principles and machine learning investigation ACS Catal. 13 2023 9616 9628 L. Yu, F. Li, J. Huang, B.G. Sumpter, W.E. Mustain, Z. Chen, Double-atom catalysts featuring inverse sandwich structure for CO2 reduction reaction: a synergetic first-principles and machine learning investigation, ACS Catal.. 13 (2023) 9616–9628. [39] B. Han H. Meng F. Li Supported bimetallic trimers Fe2M@NG: triple-atom catalysts for CO2 electroreduction ACS Omega 7 2022 16080 16086 B. Han, H. Meng, F. Li, Supported bimetallic trimers Fe2M@NG: triple-atom catalysts for CO2 electroreduction, ACS Omega 7 (2022) 16080–16086. [40] J.L. Li Y.F. Li Recent advances in the interface structure prediction for heteromaterial systems J. Mater. Inf. 3 2023 22 J.L. Li, Y.F. Li, Recent advances in the interface structure prediction for heteromaterial systems, J. Mater. Inf. 3 (2023) 22. [41] S. Wang L. Li K.S. Hui D.A. Dinh Z. Lu Q. Zhang K.N. Hui Non–noble single–atom alloy for electrocatalytic nitrate reduction using hierarchical high–throughput screening Nano Energy 113 2023 108543 S. Wang, L. Li, K.S. Hui, D.A. Dinh, Z. Lu, Q. Zhang, K.N. Hui, Non–noble single–atom alloy for electrocatalytic nitrate reduction using hierarchical high–throughput screening, Nano Energy 113 (2023) 108543. [42] Z. Wu X. Kang S. Wang Y. Song F. Xie X. Duan J. Yang Co-catalytic metal-support interactions design on single-atom alloy for boosted electro-reduction of nitrate to nitrogen Adv. Funct. Mater. 2024 2406917 Z. Wu, X. Kang, S. Wang, Y. Song, F. Xie, X. Duan, J. Yang, Co-catalytic metal-support interactions design on single-atom alloy for boosted electro-reduction of nitrate to nitrogen, Adv. Funct. Mater. (2024) 2406917. [43] T. Wang X. Cao H. Qin L. Shang S. Zheng F. Fang L. Jiao P-block atomically dispersed antimony catalyst for highly efficient oxygen reduction reaction Angew. Chem. Int. Ed. 60 2021 21237 21241 T. Wang, X. Cao, H. Qin, L. Shang, S. Zheng, F. Fang, L. Jiao, P-block atomically dispersed antimony catalyst for highly efficient oxygen reduction reaction, Angew. Chem. Int. Ed. 60 (2021) 21237–21241. [44] H. Yin X. Mao S. Bell D. Golberg A. Du Transition-metal-free, pure p-block alloy electrocatalysts for the highly efficient nitrate reduction to ammonia Chem. Mater. 35 2023 2884 2891 H. Yin, X. Mao, S. Bell, D. Golberg, A. Du, Transition-metal-free, pure p-block alloy electrocatalysts for the highly efficient nitrate reduction to ammonia, Chem. Mater. 35 (2023) 2884–2891. [45] S. Li X. Lu S. Zhao M. Ceccato X. Hu A. Roldan M. Liu K. Daasbjerg P-block indium single-atom catalyst with low-coordinated In-N motif for enhanced electrochemical CO2 reduction ACS Catal. 12 2022 7386 7395 S. Li, X. Lu, S. Zhao, M. Ceccato, X. Hu, A. Roldan, M. Liu, K. Daasbjerg, P-block indium single-atom catalyst with low-coordinated In-N motif for enhanced electrochemical CO2 reduction, ACS Catal.. 12 (2022) 7386–7395. [46] K. Chen N. Zhang F. Wang J. Kang K. Chu Main-group indium single-atom catalysts for electrocatalytic NO reduction to NH3 J. Mater. Chem. A 11 2023 6814 6819 K. Chen, N. Zhang, F. Wang, J. Kang, K. Chu, Main-group indium single-atom catalysts for electrocatalytic NO reduction to NH3, J. Mater. Chem. A 11 (2023) 6814–6819. [47] Q. Fang H. Yin X. Mao Y. Han C. Yan A.P. O'Mullane A. Du Theoretical evaluation of highly efficient nitrate reduction to ammonia on InBi J. Phys. Chem. Lett. 14 2023 2410 2415 Q. Fang, H. Yin, X. Mao, Y. Han, C. Yan, A.P. O'Mullane, A. Du, Theoretical evaluation of highly efficient nitrate reduction to ammonia on InBi, J. Phys. Chem. Lett. 14 (2023) 2410–2415. [48] J. Jiang L. Xu C. Qiu L. Peng Ballistic two-dimensional InSe transistors Nature 616 2023 470 475 J. Jiang, L. Xu, C. Qiu, L. Peng, Ballistic two-dimensional InSe transistors, Nature 616 (2023) 470–475. [49] X. Wang Z. Jiang P. Wang Z. Chen T. Sheng Z. Wu Y. Xiong Ag+-doped InSe nanosheets for membrane electrode assembly electrolyzer toward large-current electroreduction of CO2 to ethanol Angew. Chem. Int. Ed. 62 2023 e202313646 X. Wang, Z. Jiang, P. Wang, Z. Chen, T. Sheng, Z. Wu, Y. Xiong, Ag+-doped InSe nanosheets for membrane electrode assembly electrolyzer toward large-current electroreduction of CO2 to ethanol, Angew. Chem. Int. Ed. 62 (2023) e202313646. [50] L.W. Wong K. Yang W. Han X. Zheng H.Y. Wong C.S. Tsang C.S. Lee S.P. Lau T.H. Ly M. Yang J. Zhao Deciphering the ultra-high plasticity in metal monochalcogenides Nat. Mater. 23 2024 196 204 L.W. Wong, K. Yang, W. Han, X. Zheng, H.Y. Wong, C.S. Tsang, C.S. Lee, S.P. Lau, T.H. Ly, M. Yang, J. Zhao, Deciphering the ultra-high plasticity in metal monochalcogenides, Nat. Mater. 23 (2024) 196–204. [51] D.A. Bandurin A.V. Tyurnina G.L. Yu A. Mishchenko V. Zólyomi S.V. Morozov R.K. Kumar R.V. Gorbachev Z.R. Kudrynskyi S. Pezzini Z.D. Kovalyuk U. Zeitler K.S. Novoselov A. Patanè L. Eaves I.V. Grigorieva V.I. Fal'ko A.K. Geim Y. Cao High electron mobility, quantum hall effect and anomalous optical response in atomically thin InSe Nat. Nanotechnol. 12 2017 223 227 D.A. Bandurin, A.V. Tyurnina, G.L. Yu, A. Mishchenko, V. Zólyomi, S.V. Morozov, R.K. Kumar, R.V. Gorbachev, Z.R. Kudrynskyi, S. Pezzini, Z.D. Kovalyuk, U. Zeitler, K.S. Novoselov, A. Patanè, L. Eaves, I.V. Grigorieva, V.I. Fal'ko, A.K. Geim, Y. Cao, High electron mobility, quantum hall effect and anomalous optical response in atomically thin InSe, Nat. Nanotechnol. 12 (2017) 223–227. [52] G. Kresse J. Furthmüller Efficient iterative schemes for ab initio total-energy calculations using a plane-wave basis set Phys. Rev. B 54 1996 11169 G. Kresse, J. Furthmüller, Efficient iterative schemes for ab initio total-energy calculations using a plane-wave basis set, Phys. Rev. B 54 (1996) 11169. [53] G. Kresse D. Joubert From ultrasoft pseudopotentials to the projector augmented-wave method Phys. Rev. B 59 1999 1758 G. Kresse, D. Joubert, From ultrasoft pseudopotentials to the projector augmented-wave method, Phys. Rev. B 59 (1999) 1758. [54] J.P. Perdew K. Burke M. Ernzerhof Generalized gradient approximation made simple Phys. Rev. Lett. 77 1996 3865 J.P. Perdew, K. Burke, M. Ernzerhof, Generalized gradient approximation made simple, Phys. Rev. Lett. 77 (1996) 3865. [55] S. Grimme J. Antony S. Ehrlich H. Krieg A consistent and accurate ab initio parametrization of density functional dispersion correction (DFT-D) for the 94 elements H-Pu J. Chem. Phys. 132 2010 154104 S. Grimme, J. Antony, S. Ehrlich, H. Krieg, A consistent and accurate ab initio parametrization of density functional dispersion correction (DFT-D) for the 94 elements H-Pu, J. Chem. Phys. 132 (2010) 154104. [56] H. Shu D. Zhou F. Li D. Cao X. Chen Defect engineering in MoSe2 for the hydrogen evolution reaction: from point defects to edges ACS Appl. Mater. Interfaces 9 2017 42688 42698 H. Shu, D. Zhou, F. Li, D. Cao, X. Chen, Defect engineering in MoSe2 for the hydrogen evolution reaction: from point defects to edges, ACS Appl. Mater. Interfaces 9 (2017) 42688–42698. [57] M. Pizzochero O.V. Yazyev Point defects in the 1T′ and 2H phases of single-layer MoS2: a comparative first-principles study Phys. Rev. B 96 2017 245402 M. Pizzochero, O.V. Yazyev, Point defects in the 1T′ and 2H phases of single-layer MoS2: a comparative first-principles study, Phys. Rev. B 96 (2017) 245402. [58] C. Ling L. Shi Y. Ouyang X.C. Zeng J. Wang Nanosheet supported single-metal atom bifunctional catalyst for overall water splitting Nano Lett. 17 2017 5133 5139 C. Ling, L. Shi, Y. Ouyang, X.C. Zeng, J. Wang, Nanosheet supported single-metal atom bifunctional catalyst for overall water splitting, Nano Lett.. 17 (2017) 5133–5139. [59] J. Li Y. Zhou W. Tang J. Zheng X. Gao N. Wang X. Chen M. Wei X. Xiao W. Chu Cold-plasma technique enabled supported Pt single atoms with tunable coordination for hydrogen evolution reaction Appl. Catal. B 285 2021 119861 J. Li, Y. Zhou, W. Tang, J. Zheng, X. Gao, N. Wang, X. Chen, M. Wei, X. Xiao, W. Chu, Cold-plasma technique enabled supported Pt single atoms with tunable coordination for hydrogen evolution reaction, Appl. Catal. B 285 (2021) 119861. [60] S. Wang H. Gao L. Li K. San Hui D.A. Dinh S. Wu S. Kumar F. Chen Z. Shao K.N. Hui High-throughput identification of highly active and selective single-atom catalysts for electrochemical ammonia synthesis through nitrate reduction Nano Energy 100 2022 107517 S. Wang, H. Gao, L. Li, K. San Hui, D.A. Dinh, S. Wu, S. Kumar, F. Chen, Z. Shao, K.N. Hui, High-throughput identification of highly active and selective single-atom catalysts for electrochemical ammonia synthesis through nitrate reduction, Nano Energy 100 (2022) 107517. [61] N. Sathishkumar H.T. Chen Mechanistic understanding of the electrocatalytic nitrate reduction activity of double-atom catalysts J. Phys. Chem. C 127 2023 994 1005 N. Sathishkumar, H.T. Chen, Mechanistic understanding of the electrocatalytic nitrate reduction activity of double-atom catalysts, J. Phys. Chem. C 127 (2023) 994–1005. [62] L. Yang S. Feng W. Zhu Novel honeycomb-like metal organic frameworks as multifunction electrodes for nitrate degradation: a computational study J. Hazard. Mater. 445 2023 130534 L. Yang, S. Feng, W. Zhu, Novel honeycomb-like metal organic frameworks as multifunction electrodes for nitrate degradation: a computational study, J. Hazard. Mater. 445 (2023) 130534.",
+      "scopus-id": "85202050075",
+      "coredata": {
+        "eid": "1-s2.0-S246882312400659X",
+        "dc:description": "Electrochemical nitrate/nitric oxide (NO3 −/NO) reduction to ammonia (NH3) is an environmentally friendly and sustainable strategy that mitigates pollutants while synthesizing value-added products NH3. Despite the prevalence of transition metal-based catalysts, the exploration of inexpensive two-dimensional (2D) p-block materials is needed in NH3 synthesis. Based on density functional theory calculations, we proposed an InSe monolayer with single Se vacancy as an outstanding catalyst for NO3RR and NORR. The catalyst exhibits exceptional catalytic performance, characterized by a low limiting potential comparable to that of most transition metal-based catalysts, and efficaciously suppresses the formation of competitive by-products. Successful adsorption and activation of NO3 − and NO molecules are achieved, attributed to the charge rearrangement around the vacancy. The electronic structure analysis reveals that the enhancement of activity stems from the upward shift of the p-band center of unsaturated indium atoms. This work heralds a novel avenue for designing pure 2D p-block NH3 synthesis catalysts and sheds light on a deeper understanding of the catalytic mechanism at the electronic level.",
+        "openArchiveArticle": "false",
+        "prism:coverDate": "2024-11-30",
+        "openaccessUserLicense": null,
+        "prism:aggregationType": "Journal",
+        "prism:url": "https://api.elsevier.com/content/article/pii/S246882312400659X",
+        "dc:creator": [
+          {
+            "@_fa": "true",
+            "$": "Kang, Xuxin"
+          },
+          {
+            "@_fa": "true",
+            "$": "Fang, Qingchao"
+          },
+          {
+            "@_fa": "true",
+            "$": "Yin, Hanqing"
+          },
+          {
+            "@_fa": "true",
+            "$": "Du, Aijun"
+          },
+          {
+            "@_fa": "true",
+            "$": "Duan, Xiangmei"
+          }
+        ],
+        "link": [
+          {
+            "@_fa": "true",
+            "@rel": "self",
+            "@href": "https://api.elsevier.com/content/article/pii/S246882312400659X"
+          },
+          {
+            "@_fa": "true",
+            "@rel": "scidir",
+            "@href": "https://www.sciencedirect.com/science/article/pii/S246882312400659X"
+          }
+        ],
+        "dc:format": "application/json",
+        "openaccessType": null,
+        "pii": "S2468-8231(24)00659-X",
+        "prism:volume": "568",
+        "articleNumber": "114477",
+        "prism:publisher": "Elsevier B.V. All rights are reserved, including those for text and data mining, AI training, and similar technologies.",
+        "dc:title": "Enhancing electrocatalytic nitrate/nitric oxide reduction to NH3 on two-dimensional p-block InSe monolayer via defect engineering",
+        "prism:copyright": "© 2024 Elsevier B.V. All rights are reserved, including those for text and data mining, AI training, and similar technologies.",
+        "openaccess": "0",
+        "prism:issn": "24688231",
+        "dcterms:subject": [
+          {
+            "@_fa": "true",
+            "$": "Electrochemical NO3 −/NO reduction"
+          },
+          {
+            "@_fa": "true",
+            "$": "p-block"
+          },
+          {
+            "@_fa": "true",
+            "$": "2D InSe monolayer"
+          },
+          {
+            "@_fa": "true",
+            "$": "vacancy engineering"
+          },
+          {
+            "@_fa": "true",
+            "$": "first principles calculations"
+          }
+        ],
+        "openaccessArticle": "false",
+        "prism:publicationName": "Molecular Catalysis",
+        "openaccessSponsorType": null,
+        "prism:pageRange": "114477",
+        "pubType": "fla",
+        "prism:coverDisplayDate": "November 2024",
+        "prism:doi": "10.1016/j.mcat.2024.114477",
+        "prism:startingPage": "114477",
+        "dc:identifier": "doi:10.1016/j.mcat.2024.114477",
+        "openaccessSponsorName": null
+      },
+      "objects": {
+        "object": [
+          {
+            "@category": "standard",
+            "@height": "192",
+            "@width": "565",
+            "@_fa": "true",
+            "$": "https://api.elsevier.com/content/object/eid/1-s2.0-S246882312400659X-gr6.jpg?httpAccept=%2A%2F%2A",
+            "@multimediatype": "JPEG image file",
+            "@type": "IMAGE-DOWNSAMPLED",
+            "@size": "33159",
+            "@ref": "gr6",
+            "@mimetype": "image/jpeg"
+          },
+          {
+            "@category": "standard",
+            "@height": "350",
+            "@width": "565",
+            "@_fa": "true",
+            "$": "https://api.elsevier.com/content/object/eid/1-s2.0-S246882312400659X-gr2.jpg?httpAccept=%2A%2F%2A",
+            "@multimediatype": "JPEG image file",
+            "@type": "IMAGE-DOWNSAMPLED",
+            "@size": "69498",
+            "@ref": "gr2",
+            "@mimetype": "image/jpeg"
+          },
+          {
+            "@category": "standard",
+            "@height": "200",
+            "@width": "263",
+            "@_fa": "true",
+            "$": "https://api.elsevier.com/content/object/eid/1-s2.0-S246882312400659X-ga1.jpg?httpAccept=%2A%2F%2A",
+            "@multimediatype": "JPEG image file",
+            "@type": "IMAGE-DOWNSAMPLED",
+            "@size": "48680",
+            "@ref": "ga1",
+            "@mimetype": "image/jpeg"
+          },
+          {
+            "@category": "standard",
+            "@height": "238",
+            "@width": "339",
+            "@_fa": "true",
+            "$": "https://api.elsevier.com/content/object/eid/1-s2.0-S246882312400659X-gr3.jpg?httpAccept=%2A%2F%2A",
+            "@multimediatype": "JPEG image file",
+            "@type": "IMAGE-DOWNSAMPLED",
+            "@size": "36728",
+            "@ref": "gr3",
+            "@mimetype": "image/jpeg"
+          },
+          {
+            "@category": "standard",
+            "@height": "205",
+            "@width": "565",
+            "@_fa": "true",
+            "$": "https://api.elsevier.com/content/object/eid/1-s2.0-S246882312400659X-gr4.jpg?httpAccept=%2A%2F%2A",
+            "@multimediatype": "JPEG image file",
+            "@type": "IMAGE-DOWNSAMPLED",
+            "@size": "38680",
+            "@ref": "gr4",
+            "@mimetype": "image/jpeg"
+          },
+          {
+            "@category": "standard",
+            "@height": "572",
+            "@width": "678",
+            "@_fa": "true",
+            "$": "https://api.elsevier.com/content/object/eid/1-s2.0-S246882312400659X-gr5.jpg?httpAccept=%2A%2F%2A",
+            "@multimediatype": "JPEG image file",
+            "@type": "IMAGE-DOWNSAMPLED",
+            "@size": "116244",
+            "@ref": "gr5",
+            "@mimetype": "image/jpeg"
+          },
+          {
+            "@category": "standard",
+            "@height": "146",
+            "@width": "565",
+            "@_fa": "true",
+            "$": "https://api.elsevier.com/content/object/eid/1-s2.0-S246882312400659X-gr1.jpg?httpAccept=%2A%2F%2A",
+            "@multimediatype": "JPEG image file",
+            "@type": "IMAGE-DOWNSAMPLED",
+            "@size": "24997",
+            "@ref": "gr1",
+            "@mimetype": "image/jpeg"
+          },
+          {
+            "@category": "thumbnail",
+            "@height": "74",
+            "@width": "219",
+            "@_fa": "true",
+            "$": "https://api.elsevier.com/content/object/eid/1-s2.0-S246882312400659X-gr6.sml?httpAccept=%2A%2F%2A",
+            "@multimediatype": "GIF image file",
+            "@type": "IMAGE-THUMBNAIL",
+            "@size": "8256",
+            "@ref": "gr6",
+            "@mimetype": "image/gif"
+          },
+          {
+            "@category": "thumbnail",
+            "@height": "136",
+            "@width": "219",
+            "@_fa": "true",
+            "$": "https://api.elsevier.com/content/object/eid/1-s2.0-S246882312400659X-gr2.sml?httpAccept=%2A%2F%2A",
+            "@multimediatype": "GIF image file",
+            "@type": "IMAGE-THUMBNAIL",
+            "@size": "12983",
+            "@ref": "gr2",
+            "@mimetype": "image/gif"
+          },
+          {
+            "@category": "thumbnail",
+            "@height": "164",
+            "@width": "216",
+            "@_fa": "true",
+            "$": "https://api.elsevier.com/content/object/eid/1-s2.0-S246882312400659X-ga1.sml?httpAccept=%2A%2F%2A",
+            "@multimediatype": "GIF image file",
+            "@type": "IMAGE-THUMBNAIL",
+            "@size": "28956",
+            "@ref": "ga1",
+            "@mimetype": "image/gif"
+          },
+          {
+            "@category": "thumbnail",
+            "@height": "154",
+            "@width": "219",
+            "@_fa": "true",
+            "$": "https://api.elsevier.com/content/object/eid/1-s2.0-S246882312400659X-gr3.sml?httpAccept=%2A%2F%2A",
+            "@multimediatype": "GIF image file",
+            "@type": "IMAGE-THUMBNAIL",
+            "@size": "16926",
+            "@ref": "gr3",
+            "@mimetype": "image/gif"
+          },
+          {
+            "@category": "thumbnail",
+            "@height": "79",
+            "@width": "219",
+            "@_fa": "true",
+            "$": "https://api.elsevier.com/content/object/eid/1-s2.0-S246882312400659X-gr4.sml?httpAccept=%2A%2F%2A",
+            "@multimediatype": "GIF image file",
+            "@type": "IMAGE-THUMBNAIL",
+            "@size": "9334",
+            "@ref": "gr4",
+            "@mimetype": "image/gif"
+          },
+          {
+            "@category": "thumbnail",
+            "@height": "164",
+            "@width": "194",
+            "@_fa": "true",
+            "$": "https://api.elsevier.com/content/object/eid/1-s2.0-S246882312400659X-gr5.sml?httpAccept=%2A%2F%2A",
+            "@multimediatype": "GIF image file",
+            "@type": "IMAGE-THUMBNAIL",
+            "@size": "13640",
+            "@ref": "gr5",
+            "@mimetype": "image/gif"
+          },
+          {
+            "@category": "thumbnail",
+            "@height": "57",
+            "@width": "219",
+            "@_fa": "true",
+            "$": "https://api.elsevier.com/content/object/eid/1-s2.0-S246882312400659X-gr1.sml?httpAccept=%2A%2F%2A",
+            "@multimediatype": "GIF image file",
+            "@type": "IMAGE-THUMBNAIL",
+            "@size": "6681",
+            "@ref": "gr1",
+            "@mimetype": "image/gif"
+          },
+          {
+            "@category": "high",
+            "@height": "849",
+            "@width": "2500",
+            "@_fa": "true",
+            "$": "https://api.elsevier.com/content/object/eid/1-s2.0-S246882312400659X-gr6_lrg.jpg?httpAccept=%2A%2F%2A",
+            "@multimediatype": "JPEG image file",
+            "@type": "IMAGE-HIGH-RES",
+            "@size": "209768",
+            "@ref": "gr6",
+            "@mimetype": "image/jpeg"
+          },
+          {
+            "@category": "high",
+            "@height": "1550",
+            "@width": "2500",
+            "@_fa": "true",
+            "$": "https://api.elsevier.com/content/object/eid/1-s2.0-S246882312400659X-gr2_lrg.jpg?httpAccept=%2A%2F%2A",
+            "@multimediatype": "JPEG image file",
+            "@type": "IMAGE-HIGH-RES",
+            "@size": "458117",
+            "@ref": "gr2",
+            "@mimetype": "image/jpeg"
+          },
+          {
+            "@category": "high",
+            "@height": "886",
+            "@width": "1166",
+            "@_fa": "true",
+            "$": "https://api.elsevier.com/content/object/eid/1-s2.0-S246882312400659X-ga1_lrg.jpg?httpAccept=%2A%2F%2A",
+            "@multimediatype": "JPEG image file",
+            "@type": "IMAGE-HIGH-RES",
+            "@size": "408253",
+            "@ref": "ga1",
+            "@mimetype": "image/jpeg"
+          },
+          {
+            "@category": "high",
+            "@height": "1055",
+            "@width": "1500",
+            "@_fa": "true",
+            "$": "https://api.elsevier.com/content/object/eid/1-s2.0-S246882312400659X-gr3_lrg.jpg?httpAccept=%2A%2F%2A",
+            "@multimediatype": "JPEG image file",
+            "@type": "IMAGE-HIGH-RES",
+            "@size": "254724",
+            "@ref": "gr3",
+            "@mimetype": "image/jpeg"
+          },
+          {
+            "@category": "high",
+            "@height": "905",
+            "@width": "2500",
+            "@_fa": "true",
+            "$": "https://api.elsevier.com/content/object/eid/1-s2.0-S246882312400659X-gr4_lrg.jpg?httpAccept=%2A%2F%2A",
+            "@multimediatype": "JPEG image file",
+            "@type": "IMAGE-HIGH-RES",
+            "@size": "288813",
+            "@ref": "gr4",
+            "@mimetype": "image/jpeg"
+          },
+          {
+            "@category": "high",
+            "@height": "2529",
+            "@width": "3000",
+            "@_fa": "true",
+            "$": "https://api.elsevier.com/content/object/eid/1-s2.0-S246882312400659X-gr5_lrg.jpg?httpAccept=%2A%2F%2A",
+            "@multimediatype": "JPEG image file",
+            "@type": "IMAGE-HIGH-RES",
+            "@size": "806342",
+            "@ref": "gr5",
+            "@mimetype": "image/jpeg"
+          },
+          {
+            "@category": "high",
+            "@height": "645",
+            "@width": "2500",
+            "@_fa": "true",
+            "$": "https://api.elsevier.com/content/object/eid/1-s2.0-S246882312400659X-gr1_lrg.jpg?httpAccept=%2A%2F%2A",
+            "@multimediatype": "JPEG image file",
+            "@type": "IMAGE-HIGH-RES",
+            "@size": "144985",
+            "@ref": "gr1",
+            "@mimetype": "image/jpeg"
+          },
+          {
+            "@category": "standard",
+            "@_fa": "true",
+            "$": "https://api.elsevier.com/content/object/eid/1-s2.0-S246882312400659X-mmc1.pdf?httpAccept=%2A%2F%2A",
+            "@multimediatype": "Acrobat PDF file",
+            "@type": "APPLICATION",
+            "@size": "1081103",
+            "@ref": "mmc1",
+            "@mimetype": "application/pdf"
+          },
+          {
+            "@category": "thumbnail",
+            "@_fa": "true",
+            "$": "https://api.elsevier.com/content/object/eid/1-s2.0-S246882312400659X-si1.svg?httpAccept=%2A%2F%2A",
+            "@multimediatype": "Scalable Vector Graphics file",
+            "@type": "ALTIMG",
+            "@size": "2578",
+            "@ref": "si1",
+            "@mimetype": "image/svg+xml"
+          },
+          {
+            "@category": "thumbnail",
+            "@_fa": "true",
+            "$": "https://api.elsevier.com/content/object/eid/1-s2.0-S246882312400659X-si10.svg?httpAccept=%2A%2F%2A",
+            "@multimediatype": "Scalable Vector Graphics file",
+            "@type": "ALTIMG",
+            "@size": "7469",
+            "@ref": "si10",
+            "@mimetype": "image/svg+xml"
+          },
+          {
+            "@category": "thumbnail",
+            "@_fa": "true",
+            "$": "https://api.elsevier.com/content/object/eid/1-s2.0-S246882312400659X-si11.svg?httpAccept=%2A%2F%2A",
+            "@multimediatype": "Scalable Vector Graphics file",
+            "@type": "ALTIMG",
+            "@size": "2322",
+            "@ref": "si11",
+            "@mimetype": "image/svg+xml"
+          },
+          {
+            "@category": "thumbnail",
+            "@_fa": "true",
+            "$": "https://api.elsevier.com/content/object/eid/1-s2.0-S246882312400659X-si12.svg?httpAccept=%2A%2F%2A",
+            "@multimediatype": "Scalable Vector Graphics file",
+            "@type": "ALTIMG",
+            "@size": "7721",
+            "@ref": "si12",
+            "@mimetype": "image/svg+xml"
+          },
+          {
+            "@category": "thumbnail",
+            "@_fa": "true",
+            "$": "https://api.elsevier.com/content/object/eid/1-s2.0-S246882312400659X-si13.svg?httpAccept=%2A%2F%2A",
+            "@multimediatype": "Scalable Vector Graphics file",
+            "@type": "ALTIMG",
+            "@size": "2447",
+            "@ref": "si13",
+            "@mimetype": "image/svg+xml"
+          },
+          {
+            "@category": "thumbnail",
+            "@_fa": "true",
+            "$": "https://api.elsevier.com/content/object/eid/1-s2.0-S246882312400659X-si14.svg?httpAccept=%2A%2F%2A",
+            "@multimediatype": "Scalable Vector Graphics file",
+            "@type": "ALTIMG",
+            "@size": "3346",
+            "@ref": "si14",
+            "@mimetype": "image/svg+xml"
+          },
+          {
+            "@category": "thumbnail",
+            "@_fa": "true",
+            "$": "https://api.elsevier.com/content/object/eid/1-s2.0-S246882312400659X-si15.svg?httpAccept=%2A%2F%2A",
+            "@multimediatype": "Scalable Vector Graphics file",
+            "@type": "ALTIMG",
+            "@size": "4695",
+            "@ref": "si15",
+            "@mimetype": "image/svg+xml"
+          },
+          {
+            "@category": "thumbnail",
+            "@_fa": "true",
+            "$": "https://api.elsevier.com/content/object/eid/1-s2.0-S246882312400659X-si16.svg?httpAccept=%2A%2F%2A",
+            "@multimediatype": "Scalable Vector Graphics file",
+            "@type": "ALTIMG",
+            "@size": "3689",
+            "@ref": "si16",
+            "@mimetype": "image/svg+xml"
+          },
+          {
+            "@category": "thumbnail",
+            "@_fa": "true",
+            "$": "https://api.elsevier.com/content/object/eid/1-s2.0-S246882312400659X-si17.svg?httpAccept=%2A%2F%2A",
+            "@multimediatype": "Scalable Vector Graphics file",
+            "@type": "ALTIMG",
+            "@size": "193",
+            "@ref": "si17",
+            "@mimetype": "image/svg+xml"
+          },
+          {
+            "@category": "thumbnail",
+            "@_fa": "true",
+            "$": "https://api.elsevier.com/content/object/eid/1-s2.0-S246882312400659X-si2.svg?httpAccept=%2A%2F%2A",
+            "@multimediatype": "Scalable Vector Graphics file",
+            "@type": "ALTIMG",
+            "@size": "13907",
+            "@ref": "si2",
+            "@mimetype": "image/svg+xml"
+          },
+          {
+            "@category": "thumbnail",
+            "@_fa": "true",
+            "$": "https://api.elsevier.com/content/object/eid/1-s2.0-S246882312400659X-si3.svg?httpAccept=%2A%2F%2A",
+            "@multimediatype": "Scalable Vector Graphics file",
+            "@type": "ALTIMG",
+            "@size": "4622",
+            "@ref": "si3",
+            "@mimetype": "image/svg+xml"
+          },
+          {
+            "@category": "thumbnail",
+            "@_fa": "true",
+            "$": "https://api.elsevier.com/content/object/eid/1-s2.0-S246882312400659X-si4.svg?httpAccept=%2A%2F%2A",
+            "@multimediatype": "Scalable Vector Graphics file",
+            "@type": "ALTIMG",
+            "@size": "2596",
+            "@ref": "si4",
+            "@mimetype": "image/svg+xml"
+          },
+          {
+            "@category": "thumbnail",
+            "@_fa": "true",
+            "$": "https://api.elsevier.com/content/object/eid/1-s2.0-S246882312400659X-si5.svg?httpAccept=%2A%2F%2A",
+            "@multimediatype": "Scalable Vector Graphics file",
+            "@type": "ALTIMG",
+            "@size": "4853",
+            "@ref": "si5",
+            "@mimetype": "image/svg+xml"
+          },
+          {
+            "@category": "thumbnail",
+            "@_fa": "true",
+            "$": "https://api.elsevier.com/content/object/eid/1-s2.0-S246882312400659X-si6.svg?httpAccept=%2A%2F%2A",
+            "@multimediatype": "Scalable Vector Graphics file",
+            "@type": "ALTIMG",
+            "@size": "6308",
+            "@ref": "si6",
+            "@mimetype": "image/svg+xml"
+          },
+          {
+            "@category": "thumbnail",
+            "@_fa": "true",
+            "$": "https://api.elsevier.com/content/object/eid/1-s2.0-S246882312400659X-si7.svg?httpAccept=%2A%2F%2A",
+            "@multimediatype": "Scalable Vector Graphics file",
+            "@type": "ALTIMG",
+            "@size": "10525",
+            "@ref": "si7",
+            "@mimetype": "image/svg+xml"
+          },
+          {
+            "@category": "thumbnail",
+            "@_fa": "true",
+            "$": "https://api.elsevier.com/content/object/eid/1-s2.0-S246882312400659X-si8.svg?httpAccept=%2A%2F%2A",
+            "@multimediatype": "Scalable Vector Graphics file",
+            "@type": "ALTIMG",
+            "@size": "3317",
+            "@ref": "si8",
+            "@mimetype": "image/svg+xml"
+          },
+          {
+            "@category": "thumbnail",
+            "@_fa": "true",
+            "$": "https://api.elsevier.com/content/object/eid/1-s2.0-S246882312400659X-si9.svg?httpAccept=%2A%2F%2A",
+            "@multimediatype": "Scalable Vector Graphics file",
+            "@type": "ALTIMG",
+            "@size": "3467",
+            "@ref": "si9",
+            "@mimetype": "image/svg+xml"
+          },
+          {
+            "@category": "standard",
+            "@_fa": "true",
+            "$": "https://api.elsevier.com/content/object/eid/1-s2.0-S246882312400659X-am.pdf?httpAccept=%2A%2F%2A",
+            "@multimediatype": "Acrobat PDF file",
+            "@type": "AAM-PDF",
+            "@size": "2800004",
+            "@ref": "am",
+            "@mimetype": "application/pdf"
+          }
+        ]
+      },
+      "link": {
+        "@rel": "abstract",
+        "@href": "https://api.elsevier.com/content/abstract/scopus_id/85202050075"
+      }
+    }
+  }
+}

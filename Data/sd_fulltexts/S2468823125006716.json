@@ -1,0 +1,920 @@
+{
+  "metadata": {
+    "title": "Mild selective hydrogenolysis of lignin-derived aryl ethers over Ni/CeO<ce:inf loc=post>2</ce:inf> catalyst: Targeted cleavage of C-O bonds",
+    "authors": "; ; ",
+    "journal": "Molecular Catalysis",
+    "date": "2025-12-31",
+    "doi": "10.1016/j.mcat.2025.115486",
+    "abstract": "",
+    "uri": "https://api.elsevier.com/content/article/pii/S2468823125006716",
+    "pii": "S2468823125006716"
+  },
+  "fulltext": {
+    "full-text-retrieval-response": {
+      "scopus-eid": "2-s2.0-105016023125",
+      "originalText": "serial JL 315758 291210 291744 291790 291809 31 Molecular Catalysis MOLECULARCATALYSIS 2025-09-16 2025-09-16 2025-09-16 2025-09-16 2025-09-16T15:19:13 1-s2.0-S2468823125006716 S2468-8231(25)00671-6 S2468823125006716 10.1016/j.mcat.2025.115486 S250 S250.2 FULL-TEXT 1-s2.0-S2468823125X00146 2025-09-19T02:36:26.733948Z 0 0 20251201 20251231 2025 2025-09-16T13:55:29.180891Z absattachment articleinfo articlenumber articletitlenorm authfirstinitialnorm authfirstsurnamenorm cid cids contenttype copyright crossmark dateloaded dateloadedtxt datesearch datesort dateupdated dco docsubtype doctype doi eid ewtransactionid hubeid indexeddate issn issnnorm itemstage itemtransactionid itemweight openaccess openarchive pg pgfirst pii piinorm pubdateend pubdatestart pubdatetxt pubyr sectiontitle sortorder srctitle srctitlenorm srctype ssids alllist content subj subheadings suppl tomb volfirst volissue volumelist webpdf webpdfpagecount yearnav figure table e-component body mmlmath acknowledge affil appendices articletitle auth authfirstini authfull authkeywords authlast footnotes grantnumber grantsponsor grantsponsorid highlightsabst orcid primabst ref specialabst 2468-8231 24688231 false 587 587 C Volume 587 18 115486 115486 115486 202512 December 2025 2025-12-01 2025-12-31 2025 Regular Papers article fla © 2025 Elsevier B.V. All rights are reserved, including those for text and data mining, AI training, and similar technologies. MILDSELECTIVEHYDROGENOLYSISLIGNINDERIVEDARYLETHERSOVERNICEO2CATALYSTTARGETEDCLEAVAGECOBONDS LU S 1 Introduction 2 Experimental Section 2.1 Catalyst preparation 2.2 Catalytic reaction 2.3 Density functional theory (DFT) calculation 3 Results and discussion 3.1 Catalyst characterization 3.2 Catalytic hydrogenolysis of BPE 3.3 Catalytic hydrogenolysis of β-O-4 lignin model compound 3.4 DFT calculations for lignin model compounds conversion over Ni/CeO2-500 3.5 Catalytic hydrogenolysis of other lignin model compounds 4 Conclusions CRediT authorship contribution statement Acknowledgements Appendix Supplementary materials References YANG 2022 123100 Y HONG 2022 1407 1416 L KONG 2020 122582 L TELES 2021 12870 12884 C KIM 2022 126525 H LIN 2020 784 791 B KONG 2021 106869 X GUO 2021 124443 G MA 2020 123351 H LIN 2020 117552 F LI 2021 285 294 W ZHAO 2021 994 B UPTON 2016 2275 2306 B ZHOU 2022 1005 1016 Q GUAN 2020 106392 W XIE 2019 190 196 T RONG 2022 271 281 S KUAI 2021 2001 2005 Z ZHANG 2020 10090 10097 L XIE 2021 9599 9608 J OLCESE 2012 63 73 R SAIDI 2021 8267 8284 M OPRIS 2016 209 227 C ZHOU 2022 123156 M CHENG 2021 124238 C MUSTIELESMARIN 2021 2025 2036 I ZHU 2019 106126 C PARK 2019 1743 1762 J SHU 2017 7208 7213 R JIANG 2021 120635 W ZHOU 2018 735 742 L XU 2017 89 98 C SHU 2024 120036 F XIE 2023 9577 9587 J JIANG 2021 3241 3250 M LIN 2020 117552 F LEI 2020 8788 8814 L KRESSE 1994 14251 14269 G NORSKOV 2004 17886 17892 J BENDAVID 2013 26048 26059 L DU 2012 10009 10016 X ZHANG 2018 117 126 Y BECHE 2008 264 267 E LIU 2018 108 116 T WU 2010 16595 16606 Z LUO 2016 433 441 Z LUX2025X115486 LUX2025X115486XS 2027-09-16T00:00:00.000Z 2027-09-16T00:00:00.000Z http://creativecommons.org/licenses/by-nc-nd/4.0/ © 2025 Elsevier B.V. All rights are reserved, including those for text and data mining, AI training, and similar technologies. 2025-09-19T02:12:25.787Z http://vtw.elsevier.com/data/voc/AddOnTypes/50.7/aggregated-refined Natural Science Foundation of Xinjiang, China 2022D01C373 2024D01D02 Natural Science Foundation of Xinjiang Uygur Autonomous Region http://data.elsevier.com/vocabulary/SciValFunders/100009110 http://sws.geonames.org/1814991/ Natural Science Foundation of Xinjiang http://data.elsevier.com/vocabulary/SciValFunders/501100015310 http://sws.geonames.org/1814991 Priority Academic Program Development of Jiangsu Higher Education Institutions PAPD Priority Academic Program Development of Jiangsu Higher Education Institutions http://data.elsevier.com/vocabulary/SciValFunders/501100012246 http://sws.geonames.org/1814991/ National Natural Science Foundation of China 22378415 22178373 National Natural Science Foundation of China http://data.elsevier.com/vocabulary/SciValFunders/501100001809 http://sws.geonames.org/1814991 National Innovation Training Plan for College Students of China University of Mining and Technology 202310290041Z China University of Mining and Technology http://data.elsevier.com/vocabulary/SciValFunders/501100005195 http://sws.geonames.org/1814991 This work was supported by the National Natural Science Foundation of China (Grant 22178373, 22378415), Natural Science Foundation of Xinjiang, China (No. 2022D01C373, 2024D01D02), National Innovation Training Plan for College Students of China University of Mining and Technology (202310290041Z), and Priority Academic Program Development of Jiangsu Higher Education Institutions. https://doi.org/10.15223/policy-017 https://doi.org/10.15223/policy-037 https://doi.org/10.15223/policy-012 https://doi.org/10.15223/policy-029 https://doi.org/10.15223/policy-004 item S2468-8231(25)00671-6 S2468823125006716 1-s2.0-S2468823125006716 10.1016/j.mcat.2025.115486 315758 2025-09-16T14:51:12.831901Z 2025-12-01 2025-12-31 1-s2.0-S2468823125006716-main.pdf https://s3-eu-west-1.amazonaws.com/prod-ucs-content-store-eu-west/content/pii:S2468823125006716/MAIN/application/pdf/cdbf2dc32a95134bdab0aade630ed215/main.pdf main.pdf pdf true 5134894 MAIN 12 1-s2.0-S2468823125006716-main_1.png https://s3-eu-west-1.amazonaws.com/prod-ucs-content-store-eu-west/content/pii:S2468823125006716/PREVIEW/image/png/24cd72ba38177f56480ca0db77ccde2a/main_1.png main_1.png png 57814 928 656 IMAGE-WEB-PDF 1 1-s2.0-S2468823125006716-ga1.jpg https://s3-eu-west-1.amazonaws.com/prod-ucs-content-store-eu-west/content/pii:S2468823125006716/ga1/DOWNSAMPLED/image/jpeg/3638f6369f4ff59ac38c316bee589463/ga1.jpg ga1 true ga1.jpg jpg 28360 200 351 IMAGE-DOWNSAMPLED 1-s2.0-S2468823125006716-fx3.jpg https://s3-eu-west-1.amazonaws.com/prod-ucs-content-store-eu-west/content/pii:S2468823125006716/fx3/DOWNSAMPLED/image/jpeg/ad4e91d8527c9892f9e5f1a4f236ce70/fx3.jpg fx3 fx3.jpg jpg 1117 37 55 IMAGE-DOWNSAMPLED 1-s2.0-S2468823125006716-fx2.jpg https://s3-eu-west-1.amazonaws.com/prod-ucs-content-store-eu-west/content/pii:S2468823125006716/fx2/DOWNSAMPLED/image/jpeg/d8f2d90551b88248a344ad5a9df55ce3/fx2.jpg fx2 fx2.jpg jpg 1133 34 42 IMAGE-DOWNSAMPLED 1-s2.0-S2468823125006716-fx1.jpg https://s3-eu-west-1.amazonaws.com/prod-ucs-content-store-eu-west/content/pii:S2468823125006716/fx1/DOWNSAMPLED/image/jpeg/1834614c9f7ff85aa1105f0cbf4154c4/fx1.jpg fx1 fx1.jpg jpg 1016 35 45 IMAGE-DOWNSAMPLED 1-s2.0-S2468823125006716-fx7.jpg https://s3-eu-west-1.amazonaws.com/prod-ucs-content-store-eu-west/content/pii:S2468823125006716/fx7/DOWNSAMPLED/image/jpeg/1323453263ce91aff372c4eeedc60c29/fx7.jpg fx7 fx7.jpg jpg 1099 37 46 IMAGE-DOWNSAMPLED 1-s2.0-S2468823125006716-fx6.jpg https://s3-eu-west-1.amazonaws.com/prod-ucs-content-store-eu-west/content/pii:S2468823125006716/fx6/DOWNSAMPLED/image/jpeg/95e399e2d5d7caa127949e7c7e4e2c7c/fx6.jpg fx6 fx6.jpg jpg 1256 34 69 IMAGE-DOWNSAMPLED 1-s2.0-S2468823125006716-fx5.jpg https://s3-eu-west-1.amazonaws.com/prod-ucs-content-store-eu-west/content/pii:S2468823125006716/fx5/DOWNSAMPLED/image/jpeg/85580aa74f1ed96b8a96c90d29532c6c/fx5.jpg fx5 fx5.jpg jpg 983 34 30 IMAGE-DOWNSAMPLED 1-s2.0-S2468823125006716-fx4.jpg https://s3-eu-west-1.amazonaws.com/prod-ucs-content-store-eu-west/content/pii:S2468823125006716/fx4/DOWNSAMPLED/image/jpeg/6d0cd327438d56b48623c1b47abc493b/fx4.jpg fx4 fx4.jpg jpg 1206 37 57 IMAGE-DOWNSAMPLED 1-s2.0-S2468823125006716-gr4.jpg https://s3-eu-west-1.amazonaws.com/prod-ucs-content-store-eu-west/content/pii:S2468823125006716/gr4/DOWNSAMPLED/image/jpeg/4a8c50333caca41f878e82a4fd49d52e/gr4.jpg gr4 gr4.jpg jpg 69509 280 659 IMAGE-DOWNSAMPLED 1-s2.0-S2468823125006716-gr3.jpg https://s3-eu-west-1.amazonaws.com/prod-ucs-content-store-eu-west/content/pii:S2468823125006716/gr3/DOWNSAMPLED/image/jpeg/a66ea23bf4855e8df5fb0b07f5c99bbf/gr3.jpg gr3 gr3.jpg jpg 71340 467 527 IMAGE-DOWNSAMPLED 1-s2.0-S2468823125006716-gr2.jpg https://s3-eu-west-1.amazonaws.com/prod-ucs-content-store-eu-west/content/pii:S2468823125006716/gr2/DOWNSAMPLED/image/jpeg/efef35b4fe57c982d1a5e561918e7f5d/gr2.jpg gr2 gr2.jpg jpg 128516 569 565 IMAGE-DOWNSAMPLED 1-s2.0-S2468823125006716-gr10.jpg https://s3-eu-west-1.amazonaws.com/prod-ucs-content-store-eu-west/content/pii:S2468823125006716/gr10/DOWNSAMPLED/image/jpeg/9188d10635ef4a0e9fe04ad0129cfa95/gr10.jpg gr10 gr10.jpg jpg 58371 241 527 IMAGE-DOWNSAMPLED 1-s2.0-S2468823125006716-gr1.jpg https://s3-eu-west-1.amazonaws.com/prod-ucs-content-store-eu-west/content/pii:S2468823125006716/gr1/DOWNSAMPLED/image/jpeg/6937e3e2a6c84107a5aee6f87473f4ca/gr1.jpg gr1 gr1.jpg jpg 59831 254 659 IMAGE-DOWNSAMPLED 1-s2.0-S2468823125006716-gr11.jpg https://s3-eu-west-1.amazonaws.com/prod-ucs-content-store-eu-west/content/pii:S2468823125006716/gr11/DOWNSAMPLED/image/jpeg/14186da0de76c621796671fa150a8044/gr11.jpg gr11 gr11.jpg jpg 55267 408 527 IMAGE-DOWNSAMPLED 1-s2.0-S2468823125006716-fx8.jpg https://s3-eu-west-1.amazonaws.com/prod-ucs-content-store-eu-west/content/pii:S2468823125006716/fx8/DOWNSAMPLED/image/jpeg/9116957e665c52f0d4465209c75b24d5/fx8.jpg fx8 fx8.jpg jpg 48629 464 553 IMAGE-DOWNSAMPLED 1-s2.0-S2468823125006716-gr8.jpg https://s3-eu-west-1.amazonaws.com/prod-ucs-content-store-eu-west/content/pii:S2468823125006716/gr8/DOWNSAMPLED/image/jpeg/801b86ce6ce4962240a64735248634c9/gr8.jpg gr8 gr8.jpg jpg 46295 247 527 IMAGE-DOWNSAMPLED 1-s2.0-S2468823125006716-gr7.jpg https://s3-eu-west-1.amazonaws.com/prod-ucs-content-store-eu-west/content/pii:S2468823125006716/gr7/DOWNSAMPLED/image/jpeg/bb98010307baf84a8e4bf55f60fe63fb/gr7.jpg gr7 gr7.jpg jpg 72151 234 791 IMAGE-DOWNSAMPLED 1-s2.0-S2468823125006716-gr6.jpg https://s3-eu-west-1.amazonaws.com/prod-ucs-content-store-eu-west/content/pii:S2468823125006716/gr6/DOWNSAMPLED/image/jpeg/2e85a5f54f4116798ba155e6c575b069/gr6.jpg gr6 gr6.jpg jpg 67779 426 527 IMAGE-DOWNSAMPLED 1-s2.0-S2468823125006716-gr5.jpg https://s3-eu-west-1.amazonaws.com/prod-ucs-content-store-eu-west/content/pii:S2468823125006716/gr5/DOWNSAMPLED/image/jpeg/34d1f758a0843b668bdfff19d92e49d9/gr5.jpg gr5 gr5.jpg jpg 61261 265 659 IMAGE-DOWNSAMPLED 1-s2.0-S2468823125006716-gr9.jpg https://s3-eu-west-1.amazonaws.com/prod-ucs-content-store-eu-west/content/pii:S2468823125006716/gr9/DOWNSAMPLED/image/jpeg/a9af96093d628873a88f73e6cd723bb0/gr9.jpg gr9 gr9.jpg jpg 40082 317 527 IMAGE-DOWNSAMPLED 1-s2.0-S2468823125006716-ga1.sml https://s3-eu-west-1.amazonaws.com/prod-ucs-content-store-eu-west/content/pii:S2468823125006716/ga1/THUMBNAIL/image/gif/e51398cd3e92f21ea2c2fa616b50e2cb/ga1.sml ga1 true ga1.sml sml 12242 125 219 IMAGE-THUMBNAIL 1-s2.0-S2468823125006716-fx3.sml https://s3-eu-west-1.amazonaws.com/prod-ucs-content-store-eu-west/content/pii:S2468823125006716/fx3/THUMBNAIL/image/gif/08083ffa2ec2b40132229adce1c2ccb8/fx3.sml fx3 fx3.sml sml 4477 146 219 IMAGE-THUMBNAIL 1-s2.0-S2468823125006716-fx2.sml https://s3-eu-west-1.amazonaws.com/prod-ucs-content-store-eu-west/content/pii:S2468823125006716/fx2/THUMBNAIL/image/gif/278d5cd5b52cbdd4b27a891ad4dabc25/fx2.sml fx2 fx2.sml sml 4624 156 190 IMAGE-THUMBNAIL 1-s2.0-S2468823125006716-fx1.sml https://s3-eu-west-1.amazonaws.com/prod-ucs-content-store-eu-west/content/pii:S2468823125006716/fx1/THUMBNAIL/image/gif/4577f9f2bac2d3e77ae4551fea29df96/fx1.sml fx1 fx1.sml sml 3819 156 202 IMAGE-THUMBNAIL 1-s2.0-S2468823125006716-fx7.sml https://s3-eu-west-1.amazonaws.com/prod-ucs-content-store-eu-west/content/pii:S2468823125006716/fx7/THUMBNAIL/image/gif/91b12cf902ab6eecf6a8a519bb541fc3/fx7.sml fx7 fx7.sml sml 4254 165 206 IMAGE-THUMBNAIL 1-s2.0-S2468823125006716-fx6.sml https://s3-eu-west-1.amazonaws.com/prod-ucs-content-store-eu-west/content/pii:S2468823125006716/fx6/THUMBNAIL/image/gif/5eaa2966ca66d9bb35c9402d23007af1/fx6.sml fx6 fx6.sml sml 3687 108 219 IMAGE-THUMBNAIL 1-s2.0-S2468823125006716-fx5.sml https://s3-eu-west-1.amazonaws.com/prod-ucs-content-store-eu-west/content/pii:S2468823125006716/fx5/THUMBNAIL/image/gif/cd3747cf99807ace7fb6d663a3dee6be/fx5.sml fx5 fx5.sml sml 3715 152 136 IMAGE-THUMBNAIL 1-s2.0-S2468823125006716-fx4.sml https://s3-eu-west-1.amazonaws.com/prod-ucs-content-store-eu-west/content/pii:S2468823125006716/fx4/THUMBNAIL/image/gif/ed6adf7496e9fe142db4743b41a5c9c2/fx4.sml fx4 fx4.sml sml 5368 143 219 IMAGE-THUMBNAIL 1-s2.0-S2468823125006716-gr4.sml https://s3-eu-west-1.amazonaws.com/prod-ucs-content-store-eu-west/content/pii:S2468823125006716/gr4/THUMBNAIL/image/gif/9c545a2815d3c28fa825b971e8f47a6b/gr4.sml gr4 gr4.sml sml 9655 93 219 IMAGE-THUMBNAIL 1-s2.0-S2468823125006716-gr3.sml https://s3-eu-west-1.amazonaws.com/prod-ucs-content-store-eu-west/content/pii:S2468823125006716/gr3/THUMBNAIL/image/gif/f41a58f5f2945cfb6ca4048d91753d79/gr3.sml gr3 gr3.sml sml 11299 164 185 IMAGE-THUMBNAIL 1-s2.0-S2468823125006716-gr2.sml https://s3-eu-west-1.amazonaws.com/prod-ucs-content-store-eu-west/content/pii:S2468823125006716/gr2/THUMBNAIL/image/gif/cf4dbcc1004c56ef6e06e33c3ea84afa/gr2.sml gr2 gr2.sml sml 23269 164 163 IMAGE-THUMBNAIL 1-s2.0-S2468823125006716-gr10.sml https://s3-eu-west-1.amazonaws.com/prod-ucs-content-store-eu-west/content/pii:S2468823125006716/gr10/THUMBNAIL/image/gif/866580a1b34552cb48f54f5cdd54a0f2/gr10.sml gr10 gr10.sml sml 9383 100 219 IMAGE-THUMBNAIL 1-s2.0-S2468823125006716-gr1.sml https://s3-eu-west-1.amazonaws.com/prod-ucs-content-store-eu-west/content/pii:S2468823125006716/gr1/THUMBNAIL/image/gif/8e57bc7f05009e36dcad5bcfc57a86aa/gr1.sml gr1 gr1.sml sml 8037 84 219 IMAGE-THUMBNAIL 1-s2.0-S2468823125006716-gr11.sml https://s3-eu-west-1.amazonaws.com/prod-ucs-content-store-eu-west/content/pii:S2468823125006716/gr11/THUMBNAIL/image/gif/5857a2b5d752a693a5caf30370c22ad2/gr11.sml gr11 gr11.sml sml 9588 164 211 IMAGE-THUMBNAIL 1-s2.0-S2468823125006716-fx8.sml https://s3-eu-west-1.amazonaws.com/prod-ucs-content-store-eu-west/content/pii:S2468823125006716/fx8/THUMBNAIL/image/gif/a527492c0021b568885df4b5b5ba3858/fx8.sml fx8 fx8.sml sml 8123 164 195 IMAGE-THUMBNAIL 1-s2.0-S2468823125006716-gr8.sml https://s3-eu-west-1.amazonaws.com/prod-ucs-content-store-eu-west/content/pii:S2468823125006716/gr8/THUMBNAIL/image/gif/6fec468727264f764484412f17b2db12/gr8.sml gr8 gr8.sml sml 9478 103 219 IMAGE-THUMBNAIL 1-s2.0-S2468823125006716-gr7.sml https://s3-eu-west-1.amazonaws.com/prod-ucs-content-store-eu-west/content/pii:S2468823125006716/gr7/THUMBNAIL/image/gif/79102867d833d6a33c4969d97e539f0b/gr7.sml gr7 gr7.sml sml 7765 65 219 IMAGE-THUMBNAIL 1-s2.0-S2468823125006716-gr6.sml https://s3-eu-west-1.amazonaws.com/prod-ucs-content-store-eu-west/content/pii:S2468823125006716/gr6/THUMBNAIL/image/gif/6f241938c899211a478a4fa494bff547/gr6.sml gr6 gr6.sml sml 10770 164 203 IMAGE-THUMBNAIL 1-s2.0-S2468823125006716-gr5.sml https://s3-eu-west-1.amazonaws.com/prod-ucs-content-store-eu-west/content/pii:S2468823125006716/gr5/THUMBNAIL/image/gif/e47246915667de91aae6f1e8eed6ebda/gr5.sml gr5 gr5.sml sml 8650 88 219 IMAGE-THUMBNAIL 1-s2.0-S2468823125006716-gr9.sml https://s3-eu-west-1.amazonaws.com/prod-ucs-content-store-eu-west/content/pii:S2468823125006716/gr9/THUMBNAIL/image/gif/76fd6c2acb9535a9d4308804147b9696/gr9.sml gr9 gr9.sml sml 7719 132 219 IMAGE-THUMBNAIL 1-s2.0-S2468823125006716-ga1_lrg.jpg https://s3-eu-west-1.amazonaws.com/prod-ucs-content-store-eu-west/content/pii:S2468823125006716/HIGHRES/image/jpeg/7c6273f0eee854138a0f2c0217859fc1/ga1_lrg.jpg ga1 true ga1_lrg.jpg jpg 201707 886 1555 IMAGE-HIGH-RES 1-s2.0-S2468823125006716-fx3_lrg.jpg https://s3-eu-west-1.amazonaws.com/prod-ucs-content-store-eu-west/content/pii:S2468823125006716/HIGHRES/image/jpeg/8fc4376b560d1e596ab94a9ea3e536e0/fx3_lrg.jpg fx3 fx3_lrg.jpg jpg 6768 165 247 IMAGE-HIGH-RES 1-s2.0-S2468823125006716-fx2_lrg.jpg https://s3-eu-west-1.amazonaws.com/prod-ucs-content-store-eu-west/content/pii:S2468823125006716/HIGHRES/image/jpeg/9239d334e461bf5e1276272b6d074c64/fx2_lrg.jpg fx2 fx2_lrg.jpg jpg 6858 156 190 IMAGE-HIGH-RES 1-s2.0-S2468823125006716-fx1_lrg.jpg https://s3-eu-west-1.amazonaws.com/prod-ucs-content-store-eu-west/content/pii:S2468823125006716/HIGHRES/image/jpeg/f7674fce5bf442bec652404fba83e213/fx1_lrg.jpg fx1 fx1_lrg.jpg jpg 5416 156 202 IMAGE-HIGH-RES 1-s2.0-S2468823125006716-fx7_lrg.jpg https://s3-eu-west-1.amazonaws.com/prod-ucs-content-store-eu-west/content/pii:S2468823125006716/HIGHRES/image/jpeg/07767792a60c77d5f1b2386404243791/fx7_lrg.jpg fx7 fx7_lrg.jpg jpg 6411 165 206 IMAGE-HIGH-RES 1-s2.0-S2468823125006716-fx6_lrg.jpg https://s3-eu-west-1.amazonaws.com/prod-ucs-content-store-eu-west/content/pii:S2468823125006716/HIGHRES/image/jpeg/bcb6c762a442bab326d663b3f5d3afde/fx6_lrg.jpg fx6 fx6_lrg.jpg jpg 7464 152 309 IMAGE-HIGH-RES 1-s2.0-S2468823125006716-fx5_lrg.jpg https://s3-eu-west-1.amazonaws.com/prod-ucs-content-store-eu-west/content/pii:S2468823125006716/HIGHRES/image/jpeg/6950817f0651343707c772fd869711b2/fx5_lrg.jpg fx5 fx5_lrg.jpg jpg 5877 152 136 IMAGE-HIGH-RES 1-s2.0-S2468823125006716-fx4_lrg.jpg https://s3-eu-west-1.amazonaws.com/prod-ucs-content-store-eu-west/content/pii:S2468823125006716/HIGHRES/image/jpeg/10fdef1e7b3210352b3dedef0c867ebc/fx4_lrg.jpg fx4 fx4_lrg.jpg jpg 8456 165 253 IMAGE-HIGH-RES 1-s2.0-S2468823125006716-gr4_lrg.jpg https://s3-eu-west-1.amazonaws.com/prod-ucs-content-store-eu-west/content/pii:S2468823125006716/HIGHRES/image/jpeg/527b8f7b3520e3791b2f4d1116ad982f/gr4_lrg.jpg gr4 gr4_lrg.jpg jpg 552515 1239 2919 IMAGE-HIGH-RES 1-s2.0-S2468823125006716-gr3_lrg.jpg https://s3-eu-west-1.amazonaws.com/prod-ucs-content-store-eu-west/content/pii:S2468823125006716/HIGHRES/image/jpeg/a8aeca08fe605b2bea7c7e099733c56c/gr3_lrg.jpg gr3 gr3_lrg.jpg jpg 531439 2067 2333 IMAGE-HIGH-RES 1-s2.0-S2468823125006716-gr2_lrg.jpg https://s3-eu-west-1.amazonaws.com/prod-ucs-content-store-eu-west/content/pii:S2468823125006716/HIGHRES/image/jpeg/f0ddf8a7850cff8821000d00ddd84890/gr2_lrg.jpg gr2 gr2_lrg.jpg jpg 990022 2516 2500 IMAGE-HIGH-RES 1-s2.0-S2468823125006716-gr10_lrg.jpg https://s3-eu-west-1.amazonaws.com/prod-ucs-content-store-eu-west/content/pii:S2468823125006716/HIGHRES/image/jpeg/99fd47b562e085b7271a4d6439e27ad0/gr10_lrg.jpg gr10 gr10_lrg.jpg jpg 432465 1069 2333 IMAGE-HIGH-RES 1-s2.0-S2468823125006716-gr1_lrg.jpg https://s3-eu-west-1.amazonaws.com/prod-ucs-content-store-eu-west/content/pii:S2468823125006716/HIGHRES/image/jpeg/899f9c400df8cf7ec5fc4af2bce013c4/gr1_lrg.jpg gr1 gr1_lrg.jpg jpg 436812 1123 2917 IMAGE-HIGH-RES 1-s2.0-S2468823125006716-gr11_lrg.jpg https://s3-eu-west-1.amazonaws.com/prod-ucs-content-store-eu-west/content/pii:S2468823125006716/HIGHRES/image/jpeg/4dec6aa76bb3a2cd44e1c924762142bd/gr11_lrg.jpg gr11 gr11_lrg.jpg jpg 370790 1808 2333 IMAGE-HIGH-RES 1-s2.0-S2468823125006716-fx8_lrg.jpg https://s3-eu-west-1.amazonaws.com/prod-ucs-content-store-eu-west/content/pii:S2468823125006716/HIGHRES/image/jpeg/0413885a0794cdb87a61febdb2d0ada7/fx8_lrg.jpg fx8 fx8_lrg.jpg jpg 363870 2054 2449 IMAGE-HIGH-RES 1-s2.0-S2468823125006716-gr8_lrg.jpg https://s3-eu-west-1.amazonaws.com/prod-ucs-content-store-eu-west/content/pii:S2468823125006716/HIGHRES/image/jpeg/187f8c85b5dc1050963ba5fe9d675122/gr8_lrg.jpg gr8 gr8_lrg.jpg jpg 288089 1095 2333 IMAGE-HIGH-RES 1-s2.0-S2468823125006716-gr7_lrg.jpg https://s3-eu-west-1.amazonaws.com/prod-ucs-content-store-eu-west/content/pii:S2468823125006716/HIGHRES/image/jpeg/e312907949359875e7f5cbfae5204533/gr7_lrg.jpg gr7 gr7_lrg.jpg jpg 508620 1035 3500 IMAGE-HIGH-RES 1-s2.0-S2468823125006716-gr6_lrg.jpg https://s3-eu-west-1.amazonaws.com/prod-ucs-content-store-eu-west/content/pii:S2468823125006716/HIGHRES/image/jpeg/58721e993746023063acf24543683d31/gr6_lrg.jpg gr6 gr6_lrg.jpg jpg 438529 1884 2333 IMAGE-HIGH-RES 1-s2.0-S2468823125006716-gr5_lrg.jpg https://s3-eu-west-1.amazonaws.com/prod-ucs-content-store-eu-west/content/pii:S2468823125006716/HIGHRES/image/jpeg/e08bc32f9a81980aca746376c4dd5916/gr5_lrg.jpg gr5 gr5_lrg.jpg jpg 513902 1175 2917 IMAGE-HIGH-RES 1-s2.0-S2468823125006716-gr9_lrg.jpg https://s3-eu-west-1.amazonaws.com/prod-ucs-content-store-eu-west/content/pii:S2468823125006716/HIGHRES/image/jpeg/11f83f09e9564c4c03508b1e8e784f96/gr9_lrg.jpg gr9 gr9_lrg.jpg jpg 308373 1403 2333 IMAGE-HIGH-RES 1-s2.0-S2468823125006716-mmc1.docx https://s3-eu-west-1.amazonaws.com/prod-ucs-content-store-eu-west/content/pii:S2468823125006716/mmc1/MAIN/application/vnd.openxmlformats-officedocument.wordprocessingml.document/7e8fc489b17dfbaba8010e1db0557b66/mmc1.docx mmc1 mmc1.docx docx 2875401 APPLICATION 1-s2.0-S2468823125006716-si1.svg https://s3-eu-west-1.amazonaws.com/prod-ucs-content-store-eu-west/content/pii:S2468823125006716/image/svg+xml/5fc42e1a6a40e3f8352955018fc50455/si1.svg si1 si1.svg svg 19221 ALTIMG 1-s2.0-S2468823125006716-si2.svg https://s3-eu-west-1.amazonaws.com/prod-ucs-content-store-eu-west/content/pii:S2468823125006716/image/svg+xml/448f8951ac9bf0a2f622ad5d7cfdb8e3/si2.svg si2 si2.svg svg 17189 ALTIMG 1-s2.0-S2468823125006716-si3.svg https://s3-eu-west-1.amazonaws.com/prod-ucs-content-store-eu-west/content/pii:S2468823125006716/image/svg+xml/0839386e10fd26dd6f7bd19acb21337d/si3.svg si3 si3.svg svg 5042 ALTIMG 1-s2.0-S2468823125006716-si4.svg https://s3-eu-west-1.amazonaws.com/prod-ucs-content-store-eu-west/content/pii:S2468823125006716/image/svg+xml/851d466d236e918cef924c0961124188/si4.svg si4 si4.svg svg 6068 ALTIMG 1-s2.0-S2468823125006716-si5.svg https://s3-eu-west-1.amazonaws.com/prod-ucs-content-store-eu-west/content/pii:S2468823125006716/image/svg+xml/c814bac4925b16dcbc577f43a0eccf6f/si5.svg si5 si5.svg svg 12285 ALTIMG MCAT 115486 115486 S2468-8231(25)00671-6 10.1016/j.mcat.2025.115486 Elsevier B.V. Fig. 1 XRD patterns of (a) CeO2 and Ni/CeO2-T (b) Ni/CeO2-500 with different Ni loadings. Fig 1 Fig. 2 SEM (a and b) images of NiO/CeO2 and Ni/CeO2-500, TEM (c and d) images of the Ni/CeO2-500. Fig 2 Fig. 3 XPS spectra of the Ni/CeO2-500 catalyst: (a) survey, (b) Ni 2p, (c) Ce 3d, and (d) O 1s. Fig 3 Fig. 4 XPS spectra of NiO/CeO2-T catalysts (a) Ce 3d and (b) O 1s. Fig 4 Fig. 5 (a) Raman spectra of CeO2, NiO/CeO2-500, and Ni/CeO2-500. (b) NH3-TPD of Ni/CeO2-T. Fig 5 Fig. 6 Effects of (a) temperature, (b) hydrogen pressure, (c) time and (d) catalyst dosage on BPE conversion. Fig 6 Fig. 7 Effects of (a) temperature, (b) hydrogen pressure and (c) time and on 2-phenoxy-1-phenylethanol conversion. Fig 7 Fig. 8 Side view of DFT calculated reaction models in the (a) benzyl phenyl ether and (b) 2-phenoxy-1-phenylethanol over Ni/CeO2. Fig 8 Fig. 9 Energy profile of BPE conversion over Ni/CeO2 calculated by DFT. Fig 9 Fig. 10 Energy profile of 2-phenoxy-1-phenylethanol conversion over Ni/CeO2 calculated by DFT. Fig 10 Fig. 11 Possible reaction pathways for the catalytic hydrogenolysis conversion of 2-phenoxy-1-phenylethanol under the conditions of 180 °C and 0.5 MPa H2 over Ni/CeO2-500 catalyst. Fig 11 Table 1 Structural parameters of CeO2 and Ni/CeO2-T catalysts. Table 1 Sample d[CeO2(111)] (nm) a D[CeO2] (nm) b D(Ni) (nm) c CeO2 0.3115 36.21 - Ni/CeO2-400 0.3116 36.37 40.26 Ni/CeO2-500 0.3117 36.21 50.26 Ni/CeO2-600 0.3116 39.19 51.48 a d[CeO2 (111)] represents interplanar spacing of CeO2 (111), calculated by Bragg formula 2dsinθ = nλ; b D[CeO2] represents the average grain size of CeO2, calculated by Scherrer formula; c D (Ni) represents the average grain size of metal Ni, calculated by Scherrer formula at half peak width according to the peak position of Ni (111) crystal plane. Table 2 XPS analysis results of catalyst precursors prepared under different conditions. Table 2 Sample OⅠ% OⅡ% OⅢ% Ce3+% Ce4+% Ce3+/Ce4+ OⅠ/(OⅠ+OⅡ) OⅢ/(OⅠ+OⅡ) NiO/CeO2-400 11.80 33.21 54.99 25.74 74.26 0.35 0.26 1.22 NiO/CeO2-500 9.55 23.87 66.58 29.44 70.56 0.42 0.29 1.99 NiO/CeO2-600 11.69 30.19 58.12 26.89 73.11 0.37 0.28 1.39 Table 3 Catalytic hydroconversion of BPE over various catalysts. Table 3 Entry Conversion(%) Selectivity (%) Image, table 3 Image, table 3 Image, table 3 Image, table 3 Image, table 3 Image, table 3 Image, table 3 Ni/CeO2-400 a 30.5 - 50 - 50 - - - Ni/CeO2-500 a 100 - 50 - 50 - - - Ni/CeO2-600 a 85.0 - 50 - 50 - - - Ni/CeO2-700 a 82.4 - 50 - 50 - - - Ni/CeO2-800 a 75.0 - 50 - 50 - - - Ru/C b 77.3 15.24 23.05 38.29 - 11.71 11.71 - Pd/C b 100 45.98 4.02 21.59 - - - 28.41 a Reaction conditions: 50 mg BPE, 25 mg catalyst, 100 °C, 15 mL isopropanol, 1.5 MPa H2, 120 min. b Reaction conditions: 50 mg BPE, 25 mg catalyst, 120 °C, 15 mL isopropanol, 1.5 MPa H2, 120 min. Table 4 Catalytic hydrogenolysis of lignin-derived aryl ethers over Ni/CeO2-500. Table 4 Image, table 4 7a: Reaction conditions: 50 mg Substrate, 25 mg catalyst, 180 °C, 15 mL isoproponal, 0.5 MPa, 30 min. 7b: Reaction conditions: 50 mg Substrate, 25 mg catalyst, 140 °C, 15 mL isoproponal, 1.5 MPa, 30 min. Mild selective hydrogenolysis of lignin-derived aryl ethers over Ni/CeO2 catalyst: Targeted cleavage of C-O bonds Shi-Cong Lu Writing – original draft Investigation Data curation a 1 Lan Zhou Writing – original draft Investigation Data curation a 1 Xing-Wei Gao Investigation Formal analysis a Li-Ying Sun Investigation Formal analysis a Yuan-Yuan Kang Investigation Formal analysis a Xu-Hui Han-ye Investigation Formal analysis a Zong-Pin Fu Investigation Formal analysis a Jing Liang Writing – review & editing Supervision Conceptualization a c ⁎ Yue-Lun Wang Investigation Formal analysis a Le-Le Qiu Writing – review & editing a b Jian Xiao Writing – review & editing a b Yun-Peng Zhao Supervision Funding acquisition Conceptualization a b ⁎ a State Key Laboratory of Coking Coal Resources Green Exploitation, China University of Mining and Technology, Xuzhou 221116, Jiangsu, China State Key Laboratory of Coking Coal Resources Green Exploitation China University of Mining and Technology Xuzhou Jiangsu 221116 China aState Key Laboratory of Coking Coal Resources Green Exploitation, China University of Mining and Technology, Xuzhou 221116, Jiangsu, China b Jiangsu Province Engineering Research Center of Fine Utilization of Carbon Resources, China University of Mining & Technology, Xuzhou 221116, Jiangsu, China Jiangsu Province Engineering Research Center of Fine Utilization of Carbon Resources China University of Mining & Technology Xuzhou Jiangsu 221116 China bJiangsu Province Engineering Research Center of Fine Utilization of Carbon Resources, China University of Mining & Technology, Xuzhou 221116, Jiangsu, China c Xinjiang University of Technology, Hetian 848000, Xinjiang, China Xinjiang University of Technology Hetian Xinjiang 848000 China cXinjiang University of Technology, Hetian 848000, Xinjiang, China ⁎ Corresponding authors. 1 Shi-Cong Lu and Lan Zhou contributed equally to this work. Developing simple and efficient catalytic systems for cleaving bridged linkages in lignin has emerged as a promising valorization strategy. In this work, a series of Ni/CeO2 catalysts calcined at 400-800 °C were prepared and evaluated for the selective hydrogenolysis of lignin-derived aryl ethers. Among them, Ni/CeO2-500 demonstrated optimal activity, achieving complete conversion of benzyl phenyl ether (BPE) at 100 °C with 100% selectivity to toluene and phenol (no detectable arene hydrogenation byproducts). For the more robust β-O-4 and 4-O-5 model compounds, 71%-100% conversion with 81.22%-100% selectivity to aromatic monomers were attained at 180°C. Catalyst characterization revealed that calcination at 500 °C optimized oxygen vacancy (Ov) concentration as evidenced by XPS analysis of OIII/OI+OII ratio and Ce³⁺/Ce⁴⁺ ratio. Furthermore, density functional theory (DFT) calculations elucidated a dual-site mechanism: Ni sites facilitate H₂ dissociation and interaction with aromatic rings, and adjacent Ov sites activate C-O bonds via coordination to oxygen-containing functional groups. The synergistic Ni-Ov cooperation enhances substrate adsorption and lowers the C-O bond dissociation energy by 1.04-1.32 eV, thereby promoting selective hydrogenolysis over arene hydrogenation at lower temperatures. The Ni/CeO₂-500 system demonstrates significant potential for efficient lignin depolymerization under mild conditions, offering new insights for designing non-noble metal catalysts in biomass valorization. Graphical abstract Image, graphical abstract Keywords Selective hydrogenolysis Arene hydrogenation Ni/CeO2 α-O-4 bonds β-O-4 bonds Data availability Data will be made available on request. 1 Introduction With the increasing risk of depletion and environmental problems caused by the overuse of traditional fossil fuels, it is imperative to promote the diversification of energy development [1,2]. Biomass, with advantages including abundant reserves, natural renewability and low environmental footprint, owns the potential to replace traditional fossil feedstocks in producing bulk chemicals and fuels in the future [3]. As one of the three major components of lignocellulose biomass [4], lignin accounts for about 15-30 wt% but remains underutilized due to the robust and complex macromolecular architecture [5]. The natural three-dimensional organic polymer consists of phenylpropane structural units [6–8] interconnected by C-C and C-O bridge bonds, where C-O bonds comprise approximately two thirds of total inter-unit connections, mainly including α-O-4, β-O-4 and 4-O-5 linkages. Selective breakage of these ubiquitous C-O bonds is crucial for lignin depolymerization. Current strategies include pyrolysis [9], hydrogenolysis [10] and oxidation [11], and among them catalytic hydrogenolysis is considered the most promising method for high conversion and aromatic monomer selectivity [12,13]. Hydrogenolysis is typically performed over noble metals (eg., Ru [14], Rh [15], Pd [16,17] and Pt [18]) or non-noble metals (eg., Ni [19,20], Fe [21], Cu [22] and Co, etc. [23]). Although noble metal-based catalysts exhibit high catalytic activity for lignin and model compounds, they often cause aromatic ring over-hydrogenation and thus compromise lignin’s potential as feedstocks for functionalized aromatics. Additionally, high cost and sulfur sensitivity limit their industrial application. Consequently, non-noble nickel-based catalysts have garnered considerable interests due to low cost and tunability [24,25]. However, the lower intrinsic activity of Ni catalysts makes the development of efficient Ni-based catalysts for low-temperature and low-pressure application highly challenging yet promising. Bimetallic modification represents a key strategy to boost the performance of Ni-based catalysts. Marin et al. [26] reported that hydrogenolysis of benzyl phenyl ether (BPE) over Fe-Ni catalysts at 170 °C, yielding sustained 50% selectivity for both toluene and cyclohexanol. Zhu et al. [27] achieved near-complete BPE cleavage (96.8% toluene and 90.3% phenol) over Ni-Ru bimetallic catalyst under milder conditions (120 °C and 0.5 MPa H2), which effectively suppressed phenol hydrogenation to cyclohexanol, implying a synergistic Ni-Ru interactions. Metal oxides supported Ni-based catalysts represent another prevalent strategy for modulating the electronic structure and enhancing catalytic performance through Ni-support interactions. Besides excellent structural stability, these oxides improve Ni dispersion and provide Brönsted acid and/or Lewis acid sites, which polarize C-O bonds thus facilitating cleavage and enabling an energy-efficient hydrogenolysis process. Therefore, a variety of metal oxides or their combinations, including Al2O3[28], SiO2[29], Nb2O5[30], SiO2-Al2O3[31], ZnO-Al2O3[32], ZrO2-MoO3[33], CeO2[34–36], etc. have been used as supports for Ni-based catalysts in the depolymerization of lignin or lignin models. Among them, CeO2, with abundant oxygen vacancies arising from the redox cycle of Ce4+/Ce3+, exhibits a strong oxophilicity which enhances adsorption and activation of oxygen-containing lignin models and lignin [37], and hence promotes the rupture of C-O linkages. Given the critical role of oxygen vacancies in governing the performance of CeO₂-supported catalysts, we used calcination, a simple but facile method for Ov generation, to systematically investigated the effects of calcination temperature (400-800°C) on Oᵥ concentration in Ni/CeO₂ catalysts. Comprehensive characterization of XRD, XPS, SEM, TEM, and Raman spectroscopy revealed Ni/CeO₂-500 possesses maximal Oᵥ density. Catalytic evaluation using lignin model compounds (benzyl phenyl ether, BPE; 2-phenoxy-1-phenylethanol, 2-PPE) demonstrated that Ni/CeO₂-500 catalyst exhibited optimal performance, outperforming both Ni/CeO₂-T counterparts calcinated at other temperatures and commercial Ru/C and Pd/C catalysts. Density functional theory (DFT) calculations mechanistically confirmed that Ni and neighboring Oᵥ sites synergistically lower the C-O bond dissociation energy barrier by 1.04-1.32 ev [34], thereby preferentially facilitating C-O cleavage over arene hydrogenation. 2 Experimental Section 2.1 Catalyst preparation Ni/CeO2 catalysts were prepared via incipient wetness impregnation followed by calcination at controlled temperatures. First, CeO₂ support was prepared by thermal decomposition of Ce(NO3)3·6H2O in a muffle furnace, heating from ambient temperature to 800 °C at 3 °C•min-1 under static air with a 4 h isothermal hold. Then, 0.8 g activated CeO2 was impregnated with an aqueous solution containing 0.6 g Ni(NO₃)₂·6H₂O and 0.14 g polyethylene glycol in 50 mL of deionized water. The mixture was magnetically stirred (600 rpm, 12 h), rotary-evaporated at 75 °C, and then vacuum-dried (120 °C, 24 h). The dried precursor was ground and calcined in air (3 °C min⁻¹) to target temperature (400∼800 °C, 4 h). Final activation involved temperature-programmed reduction in H2: ramped at 3 °C·min⁻¹ to 500 °C with 4 h hold, yielding Ni/CeO2-T catalysts (T = calcination temperature). 2.2 Catalytic reaction Reactions were performed in a 50-mL stainless steel autoclave (Yanzheng Shanghai Experimental Instrument Co., Ltd). Typically, 50 mg model compounds, 5-45 mg catalyst and 15 mL isopropanol were loaded. The reactor was purged with H2 five times to evacuate air, then pressurized to 0.5-2.5 MPa hydrogen pressure. After sealing, the reactor was heated to target temperature at 500 rpm stirring and held isothermally for 0.5-2.5 h. Reactions were quenched by rapid cooling with an electric fan. Upon reaching room temperature, residual H₂ was slowly vented through a pressure-release valve, and the catalyst was removed by a magnetic rod. Then, the liquid phase was mixed with 30 μL n-dodecane (internal standard) and diluted to 15 mL with isopropanol. Product analysis employed GC-MS (Agilent 7890B/5977A) with 1 μL splitless injection. The conversion and selectivity were calculated as: (1) Conversion = ( moles of substrate reacted / moles of substrate supplied ) × 100 % (2) Selectivity = ( moles of producti / ∑ moles of products ) × 100 % 2.3 Density functional theory (DFT) calculation All the quantum chemical calculations for BPE and 2-PPE reactions over Ni/CeO2-500 were performed using the Vienna Ab inito Simulation Package (VASP) [38]. Take 15 Å as the vacuum layer in the z-direction to minimize periodic interactions. Structural optimizations converged at energy and force thresholds of 1.0×10-4 eV and 0.02 eV•Å-1, respectively. The Gibbs free energy change (ΔG) for each elementary step was defined as (3) Δ G = Δ E + Δ ZPE − T Δ S Where ΔE represents electronic energy difference, T means temperature and ΔS means entropy change, and ΔZPE denotes zero-point energy difference. Zero-point energy (ZPE) was calculated as [39] (4) ZPE = 1 2 ∑ h v i The TS (transition state) energy of adsorbed species was given according to the vibrational frequencies [40]: (5) TS = k B T [ ∑ k ln ( 1 1 − e − hv / k B T ) + ∑ k hv k B T 1 ( e hv / k B T − 1 ) + 1 ] 3 Results and discussion 3.1 Catalyst characterization Fig. 1a shows XRD patterns of CeO2 and Ni/CeO2-T catalysts. Both the support and Ni/CeO2-T samples exhibit nine distinct diffraction peaks characteristic of fluorite-structured CeO2 (PDF No. 34-0394) [41], confirming the retention of the cubic phase even after Ni loading. Additional peaks at 44.5° and 51.7°, correspond to the (111) and (200) planes of face-centered cubic Ni0 (PDF No. 04-0850), indicating successful reduction of Ni2+ to Ni0 after hydrogen treatment. Moreover, as the calcination temperature increases, the diffraction peaks of both Ni0 and CeO2 become sharper and more intense, suggesting that high calcination temperatures induce the phase transition from amorphous phase to well-defined crystalline phases. An optimal crystalline-amorphous phase balance is crucial for catalytic performance, as abundant oxygen vacancy defects (OVDs) predominantly form at amorphous regions or crystalline-amorphous interfaces. Given the correlation between oxygen vacancy density and catalytic activity, calcination temperature significantly influences Ni/CeO₂-T catalytic behavior. Fig. 1b reveals that for Ni/CeO2-500 catalysts with varying Ni loadings, the diffraction intensity of Ni0 species increases as the Ni loading rises from 5 to 15 wt%, while a further increase to 20 wt% attenuates the signal. Obviously, an excessively high Ni loading inhibits crystalline phase formation due to particle aggregation, hence 15 wt% is identified as the optimal loading. As summarized in Table 1 , the interplanar spacing of CeO2 increases slightly after H2 reduction due to partial reduction of Ce4+ to the larger Ce3+. Based on the Scherrer formula and Ni (111) diffraction peak parameters, the average diameters of Ni nanoparticles in Ni/CeO2-400, Ni/CeO2-500 and Ni/CeO2-600 were calculated to be 40.26 nm, 50.26 nm and 51.48 nm, respectively. This progressive increase confirms that higher calcination temperatures promote the growth of Ni nanoparticles. Furthermore, the sharper and more intense metallic Ni0 diffraction peaks indicate enhanced crystallinity and higher concentration of Ni0 species, which could lead to a higher density of accessible active sites and improved catalytic performance. SEM and TEM images provided insights into the morphology of Ni/CeO2-T. Fig. 2a and 2b show the morphological evolution of Ni/CeO2-500 from irregular, uneven surfaces to smooth, uniform block-shaped particles after H2 reduction (500 °C). This transition suggests that significant densification and partial aggregation occur during reduction. TEM imaging (Fig. 2c) reveals homogeneous dispersion of Ni nanoparticles on CeO2 with an average size of 12.15 nm, significantly smaller than the crystallite sizes estimated by XRD (Table 1). This discrepancy stems from the intrinsic limitations of XRD to underestimate the small, low-crystallinity particles while over-representing larger, high-ordered crystallites that dominate the diffraction signal, thereby resulting in a size overestimation [42]. HRTEM imaging (Fig. 2d) further confirms lattice fringes with spacings of 0.3106 nm and 0.2040 nm, corresponding to CeO2 (111) and Ni (111) planes, respectively. The close interfacial contact between Ni and CeO2 indicates a potential synergistic effect that may enhance catalytic performance. XPS analysis was conducted to investigate the surface chemical composition and oxidation states of Ni/CeO2-500. The survey spectrum (Fig. 3a ) identifies the presence of Ni, Ce and O, consistent with the expected catalyst composition. Deconvolution of the Ni 2p region (Fig. 3b) reveals four characteristic peaks: a satellite at around 861.0 eV, a peak at 855.7 eV related to Ni2+ in Ni(OH)2, a peak at 854.1 eV assigned to Ni2+ in NiO, and a peak at 852.2 eV indicative of Ni0 species. The observed surface Ni²⁺ species primarily originate from surface oxidation of metallic Ni⁰ upon air exposure during storage. Based on the integrated areas of the deconvoluted peaks, the relative concentrations of Ni²⁺and Ni⁰ were determined to be 88% and 12%, respectively. Despite the high proportion of Ni²⁺, the majority of these species can be reduced to active Ni⁰ under reaction conditions (H2 atmosphere), resulting in catalytic activity comparable to that of the fresh catalyst, as supported by control experiments of the long-term stored and fresh Ni/CeO2-500. The Ce 3d spectrum of Ni/CeO2-500 catalysts (Fig. 3c) can be deconvoluted into ten subpeaks. Peaks at 881.4 eV, 885.1 eV, 900.5 eV and 903.4 eV are assigned to Ce3+ species, while those at 882.2 eV, 887.4 eV, 898.1 eV, 901.2 eV, 907.1 eV and 916.4 eV correspond to Ce4+ species. The confirmed co-existence of Ce3+/Ce4+ redox pairs on the surface of the catalyst [43] facilitates oxygen vacancy formation, leading to superior catalytic performance. The O 1s XPS spectrum (Fig. 3d) reveals three distinct oxygen species: lattice oxygen (O²⁻) coordinated to Ce⁴⁺ at 529.4 eV, lattice oxygen bound to Ce³⁺ at 528.8 eV, and surface adsorbed -OH or -CO groups onto oxygen vacancies at 531.4 eV. The coexistence of Ce³⁺ and Ce⁴⁺-related lattice oxygen demonstrates the mixed valence states of Ce in Ni/CeO₂-500. When Ni is incorporated into CeO2 lattice, Ce4+ is reduced to Ce3+ which disrupts the long-term periodicity of lattice oxygen and generates oxygen vacancies for charge balance. Additionally, hydrogen reduction simultaneously generates Ce3+ species and oxygen vacancies. To further understand the effect of calcination temperature on oxygen vacancy concentration, we performed XPS analysis on catalyst precursors calcinated at different temperatures. As defined in Fig. 4a , OI and OII peaks are attributed to lattice oxygen connected to Ce3+ and Ce4+, respectively, while OIII peaks represent chemisorbed oxygen species (-OH/-COₓ) on oxygen vacancies. Then we employed two established quantitative analysis to evaluate the Ov concentration of Ni/CeO2-T [44]: the OIII/(OI+OII) ratio as a direct indicator, and the OI/(OI+OII) ratio, which is proportional to Ce³⁺ concentration and thus serve as an indirect index for Ov concentration. As summarized in Table 2 , NiO/CeO2-500 exhibits the highest OIII/(OI+OII) ratio (1.99), indicating its maximal Ov density. This is corroborated by its concurrently elevated OI/(OI+OII) ratio (0.29). These complementary metrics provide mutually consistent characterization of oxygen vacancy concentration, jointly demonstrating 500°C as the optimal calcination temperature for oxygen vacancy generation. Since the reduction of Ce4+ to Ce3+ species contributes to oxygen vacancy formation, we quantified Ce³⁺/Ce⁴⁺ratios by integrating the areas of the four Ce3+ peaks and six Ce4+ peaks and calculating their relative proportions in the Ce 3d XPS spectra (Fig. 4b). Significantly, NiO/CeO2-500 still exhibits the highest Ce3+/Ce4+ ratio (0.42, Table 2), in line with O 1s analysis, reconfirming 500 °C as the optimal calcination temperature for oxygen vacancy maximization. Raman spectroscopy was employed to probe the structural evolution of CeO2, NiO/CeO2-500 and Ni/CeO2-500, as depicted in Fig. 5a . The dominant peak at 466 cm-1 is related to the F2g mode of fluorite-structured CeO2. Weak bands at 600 cm-1 and 1200 cm-1 represent the defect- associated (D) mode and second-order longitudinal optical (2LO) mode, respectively [45]. Compared to pristine CeO2, both NiO/CeO2-500 and Ni/CeO2-500 exhibit downshifted, broadened, and intensity-reduced F2g bands, suggesting the symmetric Ce-O-Ce vibration distortion caused by oxygen vacancies defects. Concurrently, enhanced D-band and 2LO-band intensities confirm elevated oxygen vacancy concentration induced by calcination and Ni incorporation. NH3-TPD profiles of 15% Ni/CeO2-T series (Fig. 5b) reveal distinct acid site distributions. Ni/CeO2-500 exhibits three desorption peaks: a weak, broad peak at 134.5 °C attributed to weak acid sites, a pronounced medium-strength acid peak at 397.3 °C, and a unique high-temperature peak at 687.1 °C absent in other samples. Quantitative analysis (Table S2) confirms Ni/CeO2-500 possesses the highest concentration of medium-strength acid sites (0.035 mmol/g). This enhanced acidity originates from abundant oxygen vacancies generated under optimized calcination conditions. The 687.1°C desorption peak is correlated with proton-donating hydroxyls adsorbed onto oxygen vacancy sites, a configuration supposed to facilitate C-O bond activation in lignin model compounds. 3.2 Catalytic hydrogenolysis of BPE To evaluate the effect of calcination temperature on catalyst performance, the hydrogenolysis of benzyl phenyl ether (BPE) was conducted over Ni/CeO2-T catalysts under mild conditions (100 °C, 1.5 MPa H2, 2 h). As listed in Table 3 , Ni/CeO2-500 achieved complete BPE conversion (100%) with exclusive formation of toluene and phenol in a 1:1 molar ratio. No arene hydrogenation byproducts (e.g., methylcyclohexane, cyclohexanol, cyclohexanone) were detected. Other Ni/CeO₂-T catalysts exhibited lower BPE conversions (30.5%–85.0%), yet maintained exclusive selectivity to toluene and phenol in a 1:1 ratio. In contrast, commercial Ru/C and Pd/C catalysts achieved 77.3%-100% BPE conversion (entries 7-8) but produced complexed products mixtures including toluene, methylcyclohexane, cyclohexanol and either benzene and cyclohexylmethanol or cyclohexanone. Thus, the synthesized Ni/CeO2-T catalysts selectively cleave C-O bond in BPE instead of hydrogenating arenes, demonstrating superior selectivity over commercial catalysts. Given the nearly identical Ni loadings across all synthesized Ni/CeO2-T catalysts (11.25∼12.48 wt%, Table S1), the observed performance differences are primarily attributed to calcination-induced variations in oxygen vacancy concentrations, as quantitatively confirmed by XPS. Hydrogenolysis proceeds exclusively on the catalyst surface via an adsorbed-phase mechanism. As electron-deficient centers, these oxygen vacancies facilitate BPE adsorption via coordination to its oxygen-containing groups, generate Lewis acid sites and Brønsted acid sites that polarize, elongate and distort C-O bonds, ultimately enabling selective C-O cleavage via hydrogen transfer from activated H2. Additionally, oxygen vacancies serve as nucleation sites for Ni particles, anchoring them onto the support surface. This inhibits Ni sintering while enhancing Ni dispersion, as evidenced by SEM-EDS analysis (Fig. S1). Moreover, the ferromagnetic properties of Ni/CeO2-500 enabled facile magnetic separation from the reaction mixture for catalyst recycling. BPE conversion remained at 100% over four consecutive reaction cycles, and decreased only slightly to 92.7% in the fifth run owing to the formation of minimal, graphitic coke (Fig. S2-S4), demonstrating excellent catalyst stability. Therefore, given the high BPE conversion and exceptional selectivity toward aromatic monomers, Ni/CeO2-500 was selected as the optimal catalyst for subsequent hydrogenolysis. Then a series of solvent screening experiments for BPE hydrogenolysis were carried out in isopropanol, ethanol, methanol and n-hexane at 120 °C under 1.5 MPa H2. The resulting BPE conversions were 100%, 85.0%, 70.5%, and 87.2%, respectively (Table S3). However, BPE showed no reaction in isopropanol under 1.5 MPa N₂. These results indicate that the hydrogen for BPE hydrogenolysis comes primarily from external H2, not the solvent. Therefore, the superiority of isopropanol is attributed to its good solubility toward the substrate rather than its hydrogen-donating capacity. Therefore, isopropanol and external H2 were adopted as the standard conditions in all subsequent experiments. Fig. 6 illustrates the effects of reaction conditions on BPE conversion and product distribution during hydrogenolysis. As shown in Fig. 6a, increasing the reaction temperature from 80 °C to 100 °C dramatically improved BPE conversion from negligible levels to 100%, accompanied by exclusive cleavage of the benzylic C-O bond to yield only toluene and phenol. Further elevation beyond 100 °C maintained complete conversion but reduced phenol selectivity, as indicated by the formation of minor cyclohexanol. Hydrogenolysis of C-O bonds and hydrogenation of aromatic rings are two mutually competitive pathways during BPE hydroconversion. Lower temperatures favor hydrogenolysis while elevated temperatures favor arene hydrogenation. The electron-donating hydroxyl substituent of phenol increases the susceptibility of its aromatic ring to hydrogenation relative to toluene, as evidenced by cyclohexanol formation above 100 °C. Evidently, higher temperature could also facilitate the hydrogenation of toluene to methylcyclohexane. Based on the dual criteria of complete BPE conversion (100%) and maximum aromatic monomer selectivity, 100 °C was identified as the optimal temperature for selective C-O bond cleavage in BPE. Fig. 6b shows the dependence of BPE hydrogenolysis on H2 pressure. Conversion increased from 71.3% to 100% as initial H2 pressure rose from 0.5 MPa to 1.5 MPa, plateauing between 1.5-2.5 MPa. Surprisingly, cyclohexanol, indicative of arene hydrogenation, was detected only at lower pressures (0.5-1.0 MPa), disappearing completely above 1.5 MPa. This inverse pressure dependence suggests that for BPE elevated H2 pressure may suppress arene hydrogenation. Therefore, 1.5 MPa was selected as the optimal initial H2 pressure, ensuring complete BPE conversion while maintaining exclusive hydrogenolysis selectivity. Fig. 6c depicts the temporal evolution of BPE hydrogenolysis over Ni/CeO2-500 at 100 °C and 1.5 MPa H2. BPE conversion reached 39.11% within 1.5 h and achieved completion (100%) at 2h. Extending the reaction time to 2.5 h maintained complete conversion with no detectable side products, as confirmed by sustained >99% selectivity to toluene/phenol and absence of hydrogenated species (e.g., cyclohexanol). Therefore, 2 h was identified as the optimal reaction time, balancing complete BPE conversion with uncompromised hydrogenolysis selectivity. Finally, the effects of catalyst loading on BPE hydrogenolysis were investigated under optimized conditions (100 °C, 1.5 MPa H2, 2 h). Fig. 6d reveals a pronounced loading-activity dependence: BPE conversion increased from negligible levels to 84.7% as the Ni/CeO2-500 dosage rose from 5 mg to 15 mg, reaching full conversion (100%) at 25 mg. Moreover, even at higher loadings (35 mg), no hydrogenated byproducts (e.g. cyclohexanol or methylcyclohexane) were detected, confirming the exceptional selectivity of Ni/CeO2-500 for C-O bond cleavage over competitive arene hydrogenation. 3.3 Catalytic hydrogenolysis of β-O-4 lignin model compound The hydrogenolysis of 2-phenoxy-1-phenylethanol (2-PPE), a β-O-4 lignin model compound, was systematically investigated over Ni/CeO2-T catalysts. At 120 °C (Fig. 7a ), only 5.8% conversion was observed with phenol and 1-phenylethanol as primary products (43.6% each), and phenethyl phenyl ether as a minor product (12.9%). Remarkably, increasing the temperature to 180 °C achieved complete conversion and triggered product redistribution: ethylbenzene (47.8%) and cyclohexanol (34.2%) dominated, while phenol and 1-phenylethanol decreased to 15.8% and 2.2%, respectively. At 200 °C, quantitative conversion yielded exclusive ethylbenzene and cyclohexanol in equimolar ratio (50% each), indicating that elevated temperatures concurrently promote C-O bond cleavage, arene hydrogenation and side-chain hydrodeoxygenation. Balancing aromatic monomer yield against conversion efficiency, 180 °C was selected for subsequent experiments of 2-PPE. Fig. 7b depicts the effects of initial H2 pressure on 2-PPE hydrogenolysis at 180 °C (0.5-2.5 MPa). Complete conversion occurred across all pressures, yet product distribution shifted significantly. Increasing H2 pressure from 0.5 to 2.0 MPa decreased phenol selectivity from 22.5% to 15.5% and 1-phenylethanol selectivity from 10.7% to 4.5%, while cyclohexanol selectivity increased slightly from 27.5% to 30.0%. This trend indicates enhanced arene hydrogenation and hydrodeoxygenation (HDO) at elevated H2 pressure. Consequently, 0.5 MPa H2 pressure maximized aromatic monomer yield by favoring C-O bond cleavage over ring saturation, thus establishing it as the optimal pressure for selective hydrogenolysis of 2-PPE. As shown in Fig. 7c, complete 2-PPE conversion (100%) persisted across 0.5-2.5 h at 180 °C and 0.5 MPa H₂, while product distribution evolved with reaction time. Phenol selectivity decreased sharply from 37.1% to 13.8% and 1-phenylethanol from 29.7% to 3.8%, whereas cyclohexanol selectivity increased from 18.8% to 46.2% and ethylbenzene rose from 11.4% to 36.3%. Product redistribution reflects progressive arene hydrogenation (e.g., phenol to cyclohexanol) and side-chain hydrodeoxygenation (e.g., 1-phenylethanol to ethylbenzene), revealing kinetic competition between initial C-O cleavage and consecutive arene hydrogenation/HDO pathways. 3.4 DFT calculations for lignin model compounds conversion over Ni/CeO2-500 To elucidate the reaction mechanism, we performed radical trapping experiments by introducing TEMPO (2,2,6,6-tetramethylpiperidin-1-oxyl) into the reaction system. As shown in Fig. S5, complete BPE conversion to toluene and phenol was achieved in the absence of TEMPO, whereas minimal conversion occurred in the presence of TEMPO. This significant suppression effect indicates that C-O bond cleavage of BPE and related lignin models over Ni/CeO₂-500 proceeds via radical-mediated pathway. To further unravel the pathways of C-O bond cleavage, systematic density functional theory (DFT) calculations were performed on BPE and 2-PPE conversion over Ni/CeO2-500. Computational models revealed that oxygen vacancies (Ov) in CeO2, primarily generated during high-temperature calcination, serve as nucleation sites for Ni clusters. DFT-optimized structures revealed that tetrahedral Ni4 clusters preferentially anchored on CeO2 (111) surfaces (Fig. 8a ), forming interfacial Ni-Ov-Ce sites. Ni incorporation induces partial reduction of Ce4+ to Ce3+, creating additional Ov sites to maintain charge balance. The incorporated Ni2+ ions then replace Ce4+/Ce3+ in the lattice, driving charge-compensating isovalent doping that generates multi-phase interfaces and further concentrates Ov sites near Ni clusters. Therefore, aromatic rings in BPE and 2-PPE adsorb onto nickel clusters, while ether oxygen atoms coordinate with adjacent oxygen vacancies at Ni-CeO₂ interfaces. This synergistic dual-active-center mechanism facilitates substrate adsorption, as confirmed by DFT calculations showing adsorption energies of -1.26 eV for BPE and -2.23 eV for 2-PPE on Ni/CeO2-500 (Fig. 8), 0.7-1.2 eV enhancements versus adsorption on oxygen-deficient CeO₂. H2 undergoes dissociative adsorption on highly dispersed nickel clusters, forming activated hydrogen species (H⋯H) that evolve into hydrogen radicals (H•). These electrophilic H• radicals are stabilized by electronic interactions with oxygen-containing groups in the substrates, thus facilitating C-O bond cleavage [46]. As depicted in Fig. 9 , DFT calculations revealed that the homolytic cleavage of C-O bond in BPE to generate benzyl and phenoxy radicals has an activation barrier of +1.2 eV, much lower than the α-O-4 bond dissociation energy (BDE: 2.24-2.50 eV), demonstrating that Ni-Ov dual sites not only enhance substrate adsorption but also weaken C-O bonds. The reduced dissociation energy barrier enables hydrogenolysis to proceed under mild conditions (100 °C). The resultant benzyl and phenoxy radicals subsequently undergo rapid hydrogenation with H• to form toluene (3) and phenol (4). Further hydrogenation of phenol (4) to cyclohexanol (5) has a higher activation barrier of +1.83 eV, which aligns with the experimentally observed temperature-dependent increase in cyclohexanol formation. DFT-calculated energy profiles (Fig. 10 ) and mechanistic pathways (Fig. 11 ) reveal three competing routes for 2-PPE conversion over Ni/CeO₂-500. Direct C-O bond cleavage (red pathway) has the lowest activation energy of +1.68 eV, forming 1-phenylethanol and phenoxy radicals. This barrier is 1.08 eV lower than that of dehydration/hydrogenation pathway (E a = +2.76 eV) and 0.35 eV lower than that of dehydroxylation pathway (E a = +2.03 eV, blue pathway), establishing direct cleavage as the kinetically dominant pathway. The resulting radicals undergo rapid hydrogenation to form 1-phenylethanol (6) and phenol (8). Subsequent dehydration and hydrogenation of 1-phenylethanol to ethylbenzene (7) are kinetically favored relative to phenol hydrogenation to cyclohexanol (9), with activation energies of +0.11 eV and +0.82 eV, respectively. This energy difference is consistent with experimental observation of ethylbenzene/cyclohexanol selectivity (1.4:1 at 180°C). The alternative pathway for 1-phenylethanol formation, involving benzylic hydrogen abstraction, C-O bond cleavage, and double-bond hydrogenation (E a = +2.76 eV, green pathway), exhibits a significantly higher energy barrier than direct cleavage (+1.68 eV). The energy difference explains the negligible contribution of blue pathway, as confirmed by the absence of acetophenone in GC-MS analysis. Consistent with this trend, the minor pathway involving benzyl hydrogen abstraction in PPE (phenethyl phenyl ether) exhibits a significantly higher activation energy (E a = +2.40 eV, orange pathway in Fig. 10) than direct C-O bond hydrocracking (E a = +1.47 eV, blue pathway). This 0.93 eV energy difference rationalizes the dominance of C-O cleavage pathway, which generates phenethyl and phenoxy radicals as key intermediates for subsequent ethylbenzene and cyclohexanol formation. Consequently, DFT calculations establish that C-O bond dissociation is energetically favored over arene hydrogenation in both major and minor reaction pathways over Ni/CeO2-500. 3.5 Catalytic hydrogenolysis of other lignin model compounds Given the structural diversity of C-O bonds in lignin (e.g., α-O-4, β-O-4, 4-O-5), we evaluated the hydrogenolysis of other lignin model compounds over Ni/CeO2-500 under optimized condition (180 °C, 0.5 MPa H2, 0.5 h). As listed in Table 4 , the β-O-4 model compound, 2-(2-methoxyphenoxy)-1-(4-methoxyphenyl) ethenone (entry 1), underwent selective cleavage with 100% aromatic monomer selectivity. Notably, under reduced temperature (140 °C) and elevated H2 pressure (1.5 MPa, entry 2), the substrate was completely converted to 1-methoxy-4-vinylbenzene and guaiacol in a 1:1 molar ratio, with no detectable arene hydrogenation byproducts. These findings further confirm the catalyst's exclusive selectivity toward C-O bond scission. Even for substrates with electron-rich aromatic moieties which are prone to arene hydrogenation, hydrogenolysis remains the exclusive pathway. Diphenyl ether (4-O-5 model) achieved 81.2% aromatic monomer selectivity at 71% conversion, yielding benzene, phenol and cyclohexanol. In contrast, the α-O-4 model compound dibenzyl ether exclusively produced toluene via sequential C-O cleavage to toluene and benzyl alcohol followed by efficient hydrodeoxygenation (HDO) of benzyl alcohol. Control experiment with benzyl alcohol under identical conditions revealed 93.5% HDO pathway to toluene, versus 6.5% arene hydrogenation to cyclohexyl methanol. This preferential HDO pathway is attributed to Ni-Ov-mediated dual adsorption, which elongates C-OH bonds and lowers the HDO activation barrier. For benzyl-2-naphthyl ether, complete conversion was achieved, yielding toluene and naphthalene-derived products through efficient C-O cleavage. Nevertheless, Ni/CeO2-500 with abundant oxygen vacancies efficiently cleaved diverse C-O bonds spanning α-O-4, β-O-4 and 4-O-5 motifs, highlighting the significant potential for natural lignin valorization. 4 Conclusions In summary, Ni/CeO₂-500 catalyst enables highly selective hydrogenolysis of C–O bonds in lignin-derived aryl ethers under mild conditions (100-180 °C), achieving near-quantitative conversion of model compounds (e.g., BPE converted to toluene and phenol) while preserving aromatic rings. Synergistic effects of Ni nanoparticles and neighboring oxygen vacancies were unequivocally established through combined experimental and DFT studies. Ni active sites mediate H₂ adsorption/dissociation into H• radicals while facilitating substrate adsorption through Ni-arene interaction. Oxygen vacancies enhance substrate adsorption via the coordination of Ov to oxygen containing groups, elongate C-O bonds, and facilitate H•-companied C-O bond cleavage. This work establishes a robust strategy for lignin valorization, bridging the gap between model reactions and real lignin depolymerization. CRediT authorship contribution statement Shi-Cong Lu: Writing – original draft, Investigation, Data curation. Lan Zhou: Writing – original draft, Investigation, Data curation. Xing-Wei Gao: Investigation, Formal analysis. Li-Ying Sun: Investigation, Formal analysis. Yuan-Yuan Kang: Investigation, Formal analysis. Xu-Hui Han-ye: Investigation, Formal analysis. Zong-Pin Fu: Investigation, Formal analysis. Jing Liang: Writing – review & editing, Supervision, Conceptualization. Yue-Lun Wang: Investigation, Formal analysis. Le-Le Qiu: Writing – review & editing. Jian Xiao: Writing – review & editing. Yun-Peng Zhao: Supervision, Funding acquisition, Conceptualization. Declaration of competing interest The authors declare the following financial interests/personal relationships which may be considered as potential competing interests: Yun-Peng Zhao reports financial support was provided by the National Natural Science Foundation of China. Yun-Peng Zhao reports financial support was provided by Natural Science Foundation of Xinjiang. Jing Liang reports financial support was provided by National Innovation Training Plan for College Students of China University of Mining and Technology. Reports a relationship with that includes:. Has patent pending to. If there are other authors, they declare that they have no known competing financial interests or personal relationships that could have appeared to influence the work reported in this paper. Acknowledgements This work was supported by the National Natural Science Foundation of China (Grant 22178373, 22378415), Natural Science Foundation of Xinjiang, China (No. 2022D01C373, 2024D01D02), National Innovation Training Plan for College Students of China University of Mining and Technology (202310290041Z), and Priority Academic Program Development of Jiangsu Higher Education Institutions. Supplementary materials Supplementary material associated with this article can be found, in the online version, at doi:10.1016/j.mcat.2025.115486. Appendix Supplementary materials Image, application 1 References [1] Y. Yang L. Xiao W. Xiao X. Li Q. Wang R. Sun Nitrogen-doped carbon anchored ruthenium nanoparticles for biofuel upgrade Fuel 314 2022 123100 Y. Yang, L. Xiao, W. Xiao, X. Li, Q. Wang, R. Sun, Nitrogen-doped carbon anchored ruthenium nanoparticles for biofuel upgrade, Fuel 314 (2022) 123100. [2] L. Hong J. Yang Y. Li X. Gao W. Song H. Zhang Highly efficient hydrogenation of bio-oil by using vermiculite-supported Pd–Ni catalyst Catal. Lett 152 2022 1407 1416 L. Hong, J. Yang, Y. Li, X. Gao, W. Song, H. Zhang. Highly efficient hydrogenation of bio-oil by using vermiculite-supported Pd–Ni catalyst, Catal. Lett 152 (2022) 1407-1416. [3] L. Kong L. Zhang J. Gu L. Gou L. Xie Y. Wang L. Dai Catalytic hydrotreatment of kraft lignin into aromatic alcohols over nickel-rhenium supported on niobium oxide catalyst Bioresour. Technol 299 2020 122582 L. Kong, L. Zhang, J. Gu, L. Gou, L. Xie, Y. Wang, L. Dai, Catalytic hydrotreatment of kraft lignin into aromatic alcohols over nickel-rhenium supported on niobium oxide catalyst, Bioresour. Technol 299 (2020) 122582. [4] C.A. Teles P.M. de Souza R.C. Rabelo-Neto A. Teran G. Jacobs D.E. Resasco F.B. Noronha Hydrodeoxygenation of lignin-derived compound mixtures on Pd-supported on various oxides ACS. Sustain. Chem. Eng 9 2021 12870 12884 C.A. Teles, P.M. de Souza, R.C. Rabelo-Neto, A. Teran, G. Jacobs, D.E. Resasco, F.B. Noronha, Hydrodeoxygenation of lignin-derived compound mixtures on Pd-supported on various oxides, ACS. Sustain. Chem. Eng 9 (2021) 12870-12884. [5] H. Kim S. Yang Y.H. Lim J. Ha D.H. Kim Upgrading bio-oil model compound over bifunctional Ru/HZSM-5 catalysts in biphasic system: complete hydrodeoxygenation of vanillin J. Hazard. Mater 423 2022 126525 H. Kim, S. Yang, Y.H. Lim, J. Ha, D.H. Kim, Upgrading bio-oil model compound over bifunctional Ru/HZSM-5 catalysts in biphasic system: complete hydrodeoxygenation of vanillin, J. Hazard. Mater 423 (2022) 126525. [6] B. Lin R. Li R. Shu C. Wang Z. Cheng Y. Chen Hydrogenolysis and hydrodeoxygenation of lignin in a two-step process to produce hydrocarbons and alkylphenols J. Energy. Inst 93 2020 784 791 B. Lin, R. Li, R. Shu, C. Wang, Z. Cheng, Y. Chen, Hydrogenolysis and hydrodeoxygenation of lignin in a two-step process to produce hydrocarbons and alkylphenols, J. Energy. Inst 93 (2020) 784-791. [7] X. Kong C. Liu W. Xu Y. Han Y. Fan M. Lei M. Li R. Xiao Catalytic hydroprocessing of stubborn lignin in supercritical methanol with Cu/CuMgAlOx catalyst Fuel. Process. Technol 218 2021 106869 X. Kong, C. Liu, W. Xu, Y. Han, Y. Fan, M. Lei, M. Li, R. Xiao, Catalytic hydroprocessing of stubborn lignin in supercritical methanol with Cu/CuMgAlOx catalyst, Fuel. Process. Technol 218 (2021) 106869. [8] G. Guo W. Li X. Dou A.T. Ogunbiyi T. Ahmed B. Zhang M. Wu Hydroconversion of Kraft lignin for biofuels production using bifunctional rhenium-molybdenum supported zeolitic imidazolate framework nanocatalyst Bioresour. Technol 321 2021 124443 G. Guo, W. Li, X. Dou, A.T. Ogunbiyi, T. Ahmed, B. Zhang, M. Wu, Hydroconversion of Kraft lignin for biofuels production using bifunctional rhenium-molybdenum supported zeolitic imidazolate framework nanocatalyst, Bioresour. Technol 321 (2021) 124443. [9] H. Ma T. Li S. Wu X. Zhang Effect of the interaction of phenolic hydroxyl with the benzene rings on lignin pyrolysis Bioresour. Technol 309 2020 123351 H. Ma, T. Li, S. Wu, X. Zhang, Effect of the interaction of phenolic hydroxyl with the benzene rings on lignin pyrolysis, Bioresour. Technol 309 (2020) 123351. [10] F. Lin Y. Ma Y. Sun X. Men Y. Zhu T. Gao K. Zhao Identification of the cleavage mechanisms and hydrogenation activity of the β-O-4 linkage in a lignin model compound over Ni-CeO2/H-ZSM-5 Appl,. Catal,. A 598 2020 117552 F. Lin, Y. Ma, Y. Sun, X. Men, Y. Zhu, T. Gao, K. Zhao, Identification of the cleavage mechanisms and hydrogenation activity of the β-O-4 linkage in a lignin model compound over Ni-CeO2/H-ZSM-5, Appl,. Catal,. A 598 (2020) 117552. [11] W. Li Y. Wang D. Li J. Jiang K. Li K. Zhang Q. An S. Zhai L. Wei 1-Ethyl-3-methylimidazolium acetate ionic liquid as simple and efficient catalytic system for the oxidative depolymerization of alkali lignin Int,. J. Biol,. Macromol 183 2021 285 294 W. Li, Y. Wang, D. Li, J. Jiang, K. Li, K. Zhang, Q. An, S. Zhai, L. Wei, 1-Ethyl-3-methylimidazolium acetate ionic liquid as simple and efficient catalytic system for the oxidative depolymerization of alkali lignin, Int,. J. Biol,. Macromol 183 (2021) 285-294. [12] B. Zhao G. Zhang J. Mao Y. Wang H. Yang X. Guo The effect of gold nanoparticles on the catalytic activity of NiTiO3 for hydrodeoxygenation of guaiacol Catalysts 11 2021 994 B. Zhao, G. Zhang, J. Mao, Y. Wang, H. Yang, X. Guo, The effect of gold nanoparticles on the catalytic activity of NiTiO3 for hydrodeoxygenation of guaiacol, Catalysts 11 (2021) 994. [13] B.M. Upton A.M. Kasko Strategies for the conversion of lignin to high-value polymeric materials: review and perspective Chem,. Rev 116 2016 2275 2306 B.M. Upton, A.M. Kasko, Strategies for the conversion of lignin to high-value polymeric materials: review and perspective, Chem,. Rev 116 (2016) 2275-2306. [14] Q. Zhou Z. Zhao Z. Yao Z. Wei S. Huang F. Shao A. Li J. Wang Engineering the geometric and electronic structure of Ru via Ru-TiO2 interaction for enhanced selective hydrogenation Catal,. Sci,. Technol 12 2022 1005 1016 Q. Zhou, Z. Zhao, Z. Yao, Z. Wei, S. Huang, F. Shao, A. Li, J. Wang, Engineering the geometric and electronic structure of Ru via Ru-TiO2 interaction for enhanced selective hydrogenation, Catal,. Sci,. Technol 12 (2022) 1005-1016. [15] W. Guan X. Chen H. Hu C. Tsang J. Zhang C.S.K. Lin C. Liang Catalytic hydrogenolysis of lignin β-O-4 aryl ether compound and lignin to aromatics over Rh/Nb2O5 under low H2 pressure Fuel. Process,. Technol 203 2020 106392 W. Guan, X. Chen, H. Hu, C. Tsang, J. Zhang, C.S.K. Lin, C. Liang, Catalytic hydrogenolysis of lignin β-O-4 aryl ether compound and lignin to aromatics over Rh/Nb2O5 under low H2 pressure, Fuel. Process,. Technol 203 (2020) 106392. [16] T. Xie J. Cao C. Zhu X. Zhao M. Zhao Y. Zhao X. Wei Selective cleavage of C-O bond in benzyl phenyl ether over Pd/AC at room temperature Fuel. Process,. Technol 188 2019 190 196 T. Xie, J. Cao, C. Zhu, X. Zhao, M. Zhao, Y. Zhao, X. Wei, Selective cleavage of C-O bond in benzyl phenyl ether over Pd/AC at room temperature, Fuel. Process,. Technol 188 (2019) 190-196. [17] S. Rong H. Tan Z. Pang Z. Zong R. Zhao Z. Li Z. Chen N. Zhang W. Yi H. Cui Synergetic effect between Pd clusters and oxygen vacancies in hierarchical Nb2O5 for lignin-derived phenol hydrodeoxygenation into benzene Renew. Energy 187 2022 271 281 S. Rong, H. Tan, Z. Pang, Z. Zong, R. Zhao, Z. Li, Z. Chen, N. Zhang, W. Yi, H. Cui, Synergetic effect between Pd clusters and oxygen vacancies in hierarchical Nb2O5 for lignin-derived phenol hydrodeoxygenation into benzene, Renew. Energy 187 (2022) 271-281. [18] Z. Kuai T. Xiao C. Xu Z. Wang J. Wang S. Zhou Pt nanoparticles confined in hollow mesoporous silica nanoreactors for phenol selective hydrogenation to cyclohexanol Chem,. Lett 50 2021 2001 2005 Z. Kuai, T. Xiao, C. Xu, Z. Wang, J. Wang, S. Zhou, Pt nanoparticles confined in hollow mesoporous silica nanoreactors for phenol selective hydrogenation to cyclohexanol, Chem,. Lett 50 (2021) 2001-2005. [19] L. Zhang J. Feng B. Cai H. Zhu Y. Zhu H. Pan Efficient Ni-Cu/AC bimetal catalyst for hydrogenolysis of lignin to produce high-value-added chemicals Chemistryselect 5 2020 10090 10097 L. Zhang, J. Feng, B. Cai, H. Zhu, Y. Zhu, H. Pan, Efficient Ni-Cu/AC bimetal catalyst for hydrogenolysis of lignin to produce high-value-added chemicals, Chemistryselect 5 (2020) 10090-10097. [20] J. Xie J. Cao X. Zhao W. Jiang L. Zhao M. Zhao H. Bai Selective cleavage of the diphenyl ether C-O bond over a Ni catalyst supported on AC with different pore structures and hydrophilicities Energy. Fuel 35 2021 9599 9608 J. Xie, J. Cao, X. Zhao, W. Jiang, L. Zhao, M. Zhao, H. Bai, Selective cleavage of the diphenyl ether C-O bond over a Ni catalyst supported on AC with different pore structures and hydrophilicities, Energy. Fuel. 35 (2021) 9599-9608. [21] R.N. Olcese M. Bettahar D. Petitjean B. Malaman F. Giovanella A. Dufour Gas-phase hydrodeoxygenation of guaiacol over Fe/SiO2 catalyst Appl,. Catal,. B 115 2012 63 73 R.N. Olcese, M. Bettahar, D. Petitjean, B. Malaman, F. Giovanella, A. Dufour, Gas-phase hydrodeoxygenation of guaiacol over Fe/SiO2 catalyst, Appl,. Catal,. B 115 (2012) 63-73. [22] M. Saidi P. Moradi Catalytic hydrotreatment of lignin-derived pyrolysis bio-oils using Cu/γ-Al2O3 catalyst: reaction network development and kinetic study of anisole upgrading Int,. J. Energy. Res 45 2021 8267 8284 M. Saidi, P. Moradi, Catalytic hydrotreatment of lignin-derived pyrolysis bio-oils using Cu/γ-Al2O3 catalyst: reaction network development and kinetic study of anisole upgrading, Int,. J. Energy. Res 45 (2021) 8267-8284. [23] C. Opris B. Cojocaru N. Gheorghe M. Tudorache S.M. Coman V.I. Parvulescu B. Duraki F. Krumeich J.A. van Bokhoven Lignin fragmentation over magnetically recyclable composite Co@Nb2O5@Fe3O4 catalysts J. Catal 339 2016 209 227 C. Opris, B. Cojocaru, N. Gheorghe, M. Tudorache, S.M. Coman, V.I. Parvulescu, B. Duraki, F. Krumeich, J.A. van Bokhoven, Lignin fragmentation over magnetically recyclable composite Co@Nb2O5@Fe3O4 catalysts, J. Catal 339 (2016) 209-227. [24] M. Zhou C. Tang J. Li H. Xia P. Liu J. Xu C. Chen J. Jiang Spherical NiCo-MOFs catalytic hydrogenolysis of lignin dimers and enzymatic lignin to value-added liquid fuels under nitrogen atmosphere Fuel 315 2022 123156 M. Zhou, C. Tang, J. Li, H. Xia, P. Liu, J. Xu, C. Chen, J. Jiang, Spherical NiCo-MOFs catalytic hydrogenolysis of lignin dimers and enzymatic lignin to value-added liquid fuels under nitrogen atmosphere, Fuel 315 (2022) 123156. [25] C. Cheng P. Li W. Yu D. Shen S. Gu Catalytic hydrogenolysis of lignin in ethanol/isopropanol over an activated carbon supported nickel-copper catalyst Bioresour,. Technol 319 2021 124238 C. Cheng, P. Li, W. Yu, D. Shen, S. Gu, Catalytic hydrogenolysis of lignin in ethanol/isopropanol over an activated carbon supported nickel-copper catalyst, Bioresour,. Technol 319 (2021) 124238. [26] I. Mustieles Marin D. De Masi L. Lacroix P. Fazzini P.W.N.M. van Leeuwen J.M. Asensio B. Chaudret Hydrodeoxygenation and hydrogenolysis of biomass-based materials using FeNi catalysts and magnetic induction Green. Chem 23 2021 2025 2036 I. Mustieles Marin, D. De Masi, L. Lacroix, P. Fazzini, P.W.N.M. van Leeuwen, J.M. Asensio, B. Chaudret, Hydrodeoxygenation and hydrogenolysis of biomass-based materials using FeNi catalysts and magnetic induction, Green. Chem. 23 (2021) 2025-2036. [27] C. Zhu J. Cao X. Zhao T. Xie M. Zhao X. Wei Bimetallic effects in the catalytic hydrogenolysis of lignin and its model compounds on Nickel-Ruthenium catalysts Fuel. Process,. Technol 194 2019 106126 C. Zhu, J. Cao, X. Zhao, T. Xie, M. Zhao, X. Wei, Bimetallic effects in the catalytic hydrogenolysis of lignin and its model compounds on Nickel-Ruthenium catalysts, Fuel. Process,. Technol 194 (2019) 106126. [28] J. Park A. Riaz D. Verma H. Lee H. Woo J. Kim Fractionation of lignocellulosic biomass over core-shell Ni@Al2O3 catalysts with formic acid as a cocatalyst and hydrogen source Chemsuschem 12 2019 1743 1762 J. Park, A. Riaz, D. Verma, H. Lee, H. Woo, J. Kim, Fractionation of lignocellulosic biomass over core-shell Ni@Al2O3 catalysts with formic acid as a cocatalyst and hydrogen source, Chemsuschem 12 (2019) 1743-1762. [29] R. Shu Y. Xu P. Chen L. Ma Q. Zhang L. Zhou C. Wang Mild hydrogenation of lignin depolymerization products over Ni/SiO2 catalyst Energy. Fuel 31 2017 7208 7213 R. Shu, Y. Xu, P. Chen, L. Ma, Q. Zhang, L. Zhou, C. Wang, Mild hydrogenation of lignin depolymerization products over Ni/SiO2 catalyst, Energy. Fuel. 31 (2017) 7208-7213. [30] W. Jiang J. Cao C. Zhu T. Xie X. Zhao M. Zhao Y. Zhao H. Bai Selective cleavage of lignin-derived diphenyl ether C-O bond over weakly acidic Ni/Nb2O5 catalyst Fuel 295 2021 120635 W. Jiang, J. Cao, C. Zhu, T. Xie, X. Zhao, M. Zhao, Y. Zhao, H. Bai, Selective cleavage of lignin-derived diphenyl ether C-O bond over weakly acidic Ni/Nb2O5 catalyst, Fuel 295 (2021) 120635. [31] L. Zhou Q. Wu Y. Xu C. Wang L. Ma W. Li P. Chen Depolymerization of the alkali lignin for aromatic compounds over Ni/SiO2-A12O3 solid acid catalysts Chem,. J. Chin. U 39 2018 735 742 L. Zhou, Q. Wu, Y. Xu, C. Wang, L. Ma, W. Li, P. Chen, Depolymerization of the alkali lignin for aromatic compounds over Ni/SiO2-A12O3 solid acid catalysts, Chem,. J. Chin. U 39 (2018) 735-742. [32] C. Xu S. Tang X. Sun Y. Sun G. Li J. Qi X. Li X. Li Investigation on the cleavage of β-O-4 linkage in dimeric lignin model compound over nickel catalysts supported on ZnO-Al2O3 composite oxides with varying Zn/Al ratios Catal. Today 298 2017 89 98 C. Xu, S. Tang, X. Sun, Y. Sun, G. Li, J. Qi, X. Li, X. Li, Investigation on the cleavage of β-O-4 linkage in dimeric lignin model compound over nickel catalysts supported on ZnO-Al2O3 composite oxides with varying Zn/Al ratios, Catal. Today 298 (2017) 89-98. [33] F. Shu G. Long Y. Chen Y. Gao M. Jiang J. Long Boosting catalytic activity of Ni/ZrO2 by introducing MoO3 on selective hydrogenolysis of lignin Chem,. Eng,. Sci 293 2024 120036 F. Shu, G. Long, Y. Chen, Y. Gao, M. Jiang, J. Long, Boosting catalytic activity of Ni/ZrO2 by introducing MoO3 on selective hydrogenolysis of lignin, Chem,. Eng,. Sci 293 (2024) 120036. [34] J. Xie Y. Xi W. Gao H. Zhang Y. Wu R. Zhang H. Yang Y. Peng F. Li Z. Li C. Li Hydrogenolysis of lignin model compounds on Ni nanoparticles surrounding the oxygen vacancy of CeO2 ACS. Catal 13 2023 9577 9587 J. Xie, Y. Xi, W. Gao, H. Zhang, Y. Wu, R. Zhang, H. Yang, Y. Peng, F. Li, Z. Li, C. Li, Hydrogenolysis of lignin model compounds on Ni nanoparticles surrounding the oxygen vacancy of CeO2, ACS. Catal. 13 (2023) 9577-9587. [35] M. Jiang X. Chen L. Wang J. Liang X. Wei Selective hydrogenolysis of aryl ethers over a nitrogen-doped porous carbon supported Ni–CeO2 catalyst at low temperature Catal,. Sci,. Technol 11 2021 3241 3250 M. Jiang, X. Chen, L. Wang, J. Liang, X. Wei, Selective hydrogenolysis of aryl ethers over a nitrogen-doped porous carbon supported Ni–CeO2 catalyst at low temperature, Catal,. Sci,. Technol 11(2021) 3241-3250. [36] F. Lin Y. Ma Y. Sun X. Men Y. Zhu T. Gao K. Zhao Identification of the cleavage mechanisms and hydrogenation activity of the β-O-4 linkage in a lignin model compound over Ni-CeO2/H-ZSM-5 Appl,. Catal,. A 598 2020 117552 F. Lin, Y. Ma, Y. Sun, X. Men, Y. Zhu, T. Gao, K. Zhao, Identification of the cleavage mechanisms and hydrogenation activity of the β-O-4 linkage in a lignin model compound over Ni-CeO2/H-ZSM-5, Appl,. Catal,. A 598 (2020) 117552. [37] L. Lei Y. Wang Z. Zhang J. An F. Wang Transformations of Biomass, its derivatives, and downstream chemicals over Ceria catalysts ACS. Catal 10 2020 8788 8814 L. Lei, Y. Wang, Z. Zhang, J. An, F. Wang, Transformations of Biomass, its derivatives, and downstream chemicals over Ceria catalysts, ACS. Catal. 10 (2020) 8788-8814. [38] G. Kresse J. Hafner Ab initio molecular-dynamics simulation of the liquid-metal–amorphous-semiconductor transition in germanium Phys,. Rev 49 1994 14251 14269 G. Kresse, J. Hafner, Ab initio molecular-dynamics simulation of the liquid-metal–amorphous-semiconductor transition in germanium, Phys,. Rev 49 (1994) 14251-14269. [39] J.K. Nørskov J. Rossmeisl A. Logadottir L. Lindqvist J.R. Kitchin T. Bligaard H. Jónsson Origin of the overpotential for oxygen reduction at a fuel-cell cathode J. Phys. Chem. B 108 2004 17886 17892 J.K. Nørskov, J. Rossmeisl, A. Logadottir, L. Lindqvist, J.R. Kitchin, T. Bligaard, H. Jónsson, Origin of the overpotential for oxygen reduction at a fuel-cell cathode, J. Phys. Chem. B 108 (2004) 17886-17892. [40] L.I. Bendavid E.A. Carter CO2 adsorption on Cu2O (111): A DFT+U and DFT-D study J. Phys. Chem. C 117 2013 26048 26059 L.I. Bendavid, E.A. Carter, CO2 adsorption on Cu2O (111): A DFT+U and DFT-D study, J. Phys. Chem. C 117 (2013) 26048-26059. [41] X. Du D. Zhang L. Shi R. Gao J. Zhang Morphology dependence of catalytic properties of Ni/CeO2 nanostructures for carbon dioxide reforming of methane J. Phys. Chem. C 116 2012 10009 10016 X. Du, D. Zhang, L. Shi, R. Gao, J. Zhang, Morphology dependence of catalytic properties of Ni/CeO2 nanostructures for carbon dioxide reforming of methane, J. Phys. Chem. C 116 (2012) 10009-10016. [42] Y. Zhang G. Fan L. Yang F. Li Efficient conversion of furfural into cyclopentanone over high performing and stable Cu/ZrO2 catalysts Appl,. Catal,. A 561 2018 117 126 Y. Zhang, G. Fan, L. Yang, F. Li, Efficient conversion of furfural into cyclopentanone over high performing and stable Cu/ZrO2 catalysts, Appl,. Catal,. A 561 (2018) 117-126. [43] E. Bêche P. Charvin D. Perarnau S. Abanades G. Flamant Ce 3d XPS investigation of cerium oxides and mixed cerium oxide (CexTiyOz) Surf,. Interface. Anal 40 2008 264 267 E. Bêche, P. Charvin, D. Perarnau, S. Abanades, & Flamant, G, Ce 3d XPS investigation of cerium oxides and mixed cerium oxide (CexTiyOz), Surf,. Interface. Anal 40 (2008) 264-267. [44] T. Liu Q. Li Y. Xin Z. Zhang X. Tang L. Zheng P. Gao Quasi free K cations confined in hollandite-type tunnels for catalytic solid (catalyst)-solid (reactant) oxidation reactions Appl,. Catal,. B 232 2018 108 116 T. Liu, Q. Li, Y. Xin, Z. Zhang, X. Tang, L. Zheng, P. Gao, Quasi free K cations confined in hollandite-type tunnels for catalytic solid (catalyst)-solid (reactant) oxidation reactions, Appl,. Catal,. B 232 (2018) 108-116. [45] Z. Wu M. Li J. Howe H.M. Meyer S.H. Overbury Probing defect sites on CeO2 nanocrystals with well-defined surface planes by Raman spectroscopy and O2 adsorption Langmuir 26 2010 16595 16606 Z. Wu, M. Li, J. Howe, H.M. Meyer, S.H. Overbury, Probing defect sites on CeO2 nanocrystals with well-defined surface planes by Raman spectroscopy and O2 adsorption, Langmuir 26 (2010) 16595-16606. [46] Z. Luo Y. Wang M. He C. Zhao Precise oxygen scission of lignin derived aryl ethers to quantitatively produce aromatic hydrocarbons in water Green. Chem 18 2016 433 441 Z. Luo, Y. Wang, M. He, C. Zhao, Precise oxygen scission of lignin derived aryl ethers to quantitatively produce aromatic hydrocarbons in water, Green. Chem. 18 (2016) 433-441.",
+      "scopus-id": "105016023125",
+      "coredata": {
+        "eid": "1-s2.0-S2468823125006716",
+        "dc:description": "Developing simple and efficient catalytic systems for cleaving bridged linkages in lignin has emerged as a promising valorization strategy. In this work, a series of Ni/CeO2 catalysts calcined at 400-800 °C were prepared and evaluated for the selective hydrogenolysis of lignin-derived aryl ethers. Among them, Ni/CeO2-500 demonstrated optimal activity, achieving complete conversion of benzyl phenyl ether (BPE) at 100 °C with 100% selectivity to toluene and phenol (no detectable arene hydrogenation byproducts). For the more robust β-O-4 and 4-O-5 model compounds, 71%-100% conversion with 81.22%-100% selectivity to aromatic monomers were attained at 180°C. Catalyst characterization revealed that calcination at 500 °C optimized oxygen vacancy (Ov) concentration as evidenced by XPS analysis of OIII/OI+OII ratio and Ce³⁺/Ce⁴⁺ ratio. Furthermore, density functional theory (DFT) calculations elucidated a dual-site mechanism: Ni sites facilitate H₂ dissociation and interaction with aromatic rings, and adjacent Ov sites activate C-O bonds via coordination to oxygen-containing functional groups. The synergistic Ni-Ov cooperation enhances substrate adsorption and lowers the C-O bond dissociation energy by 1.04-1.32 eV, thereby promoting selective hydrogenolysis over arene hydrogenation at lower temperatures. The Ni/CeO₂-500 system demonstrates significant potential for efficient lignin depolymerization under mild conditions, offering new insights for designing non-noble metal catalysts in biomass valorization.",
+        "openArchiveArticle": "false",
+        "prism:coverDate": "2025-12-31",
+        "openaccessUserLicense": null,
+        "prism:aggregationType": "Journal",
+        "prism:url": "https://api.elsevier.com/content/article/pii/S2468823125006716",
+        "dc:creator": [
+          {
+            "@_fa": "true",
+            "$": "Lu, Shi-Cong"
+          },
+          {
+            "@_fa": "true",
+            "$": "Zhou, Lan"
+          },
+          {
+            "@_fa": "true",
+            "$": "Gao, Xing-Wei"
+          },
+          {
+            "@_fa": "true",
+            "$": "Sun, Li-Ying"
+          },
+          {
+            "@_fa": "true",
+            "$": "Kang, Yuan-Yuan"
+          },
+          {
+            "@_fa": "true",
+            "$": "Han-ye, Xu-Hui"
+          },
+          {
+            "@_fa": "true",
+            "$": "Fu, Zong-Pin"
+          },
+          {
+            "@_fa": "true",
+            "$": "Liang, Jing"
+          },
+          {
+            "@_fa": "true",
+            "$": "Wang, Yue-Lun"
+          },
+          {
+            "@_fa": "true",
+            "$": "Qiu, Le-Le"
+          },
+          {
+            "@_fa": "true",
+            "$": "Xiao, Jian"
+          },
+          {
+            "@_fa": "true",
+            "$": "Zhao, Yun-Peng"
+          }
+        ],
+        "link": [
+          {
+            "@_fa": "true",
+            "@rel": "self",
+            "@href": "https://api.elsevier.com/content/article/pii/S2468823125006716"
+          },
+          {
+            "@_fa": "true",
+            "@rel": "scidir",
+            "@href": "https://www.sciencedirect.com/science/article/pii/S2468823125006716"
+          }
+        ],
+        "dc:format": "application/json",
+        "openaccessType": null,
+        "pii": "S2468-8231(25)00671-6",
+        "prism:volume": "587",
+        "articleNumber": "115486",
+        "prism:publisher": "Elsevier B.V. All rights are reserved, including those for text and data mining, AI training, and similar technologies.",
+        "dc:title": "Mild selective hydrogenolysis of lignin-derived aryl ethers over Ni/CeO2 catalyst: Targeted cleavage of C-O bonds",
+        "prism:copyright": "© 2025 Elsevier B.V. All rights are reserved, including those for text and data mining, AI training, and similar technologies.",
+        "openaccess": "0",
+        "prism:issn": "24688231",
+        "dcterms:subject": [
+          {
+            "@_fa": "true",
+            "$": "Selective hydrogenolysis"
+          },
+          {
+            "@_fa": "true",
+            "$": "Arene hydrogenation"
+          },
+          {
+            "@_fa": "true",
+            "$": "Ni/CeO2"
+          },
+          {
+            "@_fa": "true",
+            "$": "α-O-4 bonds"
+          },
+          {
+            "@_fa": "true",
+            "$": "β-O-4 bonds"
+          }
+        ],
+        "openaccessArticle": "false",
+        "prism:publicationName": "Molecular Catalysis",
+        "openaccessSponsorType": null,
+        "prism:pageRange": "115486",
+        "pubType": "fla",
+        "prism:coverDisplayDate": "December 2025",
+        "prism:doi": "10.1016/j.mcat.2025.115486",
+        "prism:startingPage": "115486",
+        "dc:identifier": "doi:10.1016/j.mcat.2025.115486",
+        "openaccessSponsorName": null
+      },
+      "objects": {
+        "object": [
+          {
+            "@category": "standard",
+            "@height": "200",
+            "@width": "351",
+            "@_fa": "true",
+            "$": "https://api.elsevier.com/content/object/eid/1-s2.0-S2468823125006716-ga1.jpg?httpAccept=%2A%2F%2A",
+            "@multimediatype": "JPEG image file",
+            "@type": "IMAGE-DOWNSAMPLED",
+            "@size": "28360",
+            "@ref": "ga1",
+            "@mimetype": "image/jpeg"
+          },
+          {
+            "@category": "standard",
+            "@height": "37",
+            "@width": "55",
+            "@_fa": "true",
+            "$": "https://api.elsevier.com/content/object/eid/1-s2.0-S2468823125006716-fx3.jpg?httpAccept=%2A%2F%2A",
+            "@multimediatype": "JPEG image file",
+            "@type": "IMAGE-DOWNSAMPLED",
+            "@size": "1117",
+            "@ref": "fx3",
+            "@mimetype": "image/jpeg"
+          },
+          {
+            "@category": "standard",
+            "@height": "34",
+            "@width": "42",
+            "@_fa": "true",
+            "$": "https://api.elsevier.com/content/object/eid/1-s2.0-S2468823125006716-fx2.jpg?httpAccept=%2A%2F%2A",
+            "@multimediatype": "JPEG image file",
+            "@type": "IMAGE-DOWNSAMPLED",
+            "@size": "1133",
+            "@ref": "fx2",
+            "@mimetype": "image/jpeg"
+          },
+          {
+            "@category": "standard",
+            "@height": "35",
+            "@width": "45",
+            "@_fa": "true",
+            "$": "https://api.elsevier.com/content/object/eid/1-s2.0-S2468823125006716-fx1.jpg?httpAccept=%2A%2F%2A",
+            "@multimediatype": "JPEG image file",
+            "@type": "IMAGE-DOWNSAMPLED",
+            "@size": "1016",
+            "@ref": "fx1",
+            "@mimetype": "image/jpeg"
+          },
+          {
+            "@category": "standard",
+            "@height": "37",
+            "@width": "46",
+            "@_fa": "true",
+            "$": "https://api.elsevier.com/content/object/eid/1-s2.0-S2468823125006716-fx7.jpg?httpAccept=%2A%2F%2A",
+            "@multimediatype": "JPEG image file",
+            "@type": "IMAGE-DOWNSAMPLED",
+            "@size": "1099",
+            "@ref": "fx7",
+            "@mimetype": "image/jpeg"
+          },
+          {
+            "@category": "standard",
+            "@height": "34",
+            "@width": "69",
+            "@_fa": "true",
+            "$": "https://api.elsevier.com/content/object/eid/1-s2.0-S2468823125006716-fx6.jpg?httpAccept=%2A%2F%2A",
+            "@multimediatype": "JPEG image file",
+            "@type": "IMAGE-DOWNSAMPLED",
+            "@size": "1256",
+            "@ref": "fx6",
+            "@mimetype": "image/jpeg"
+          },
+          {
+            "@category": "standard",
+            "@height": "34",
+            "@width": "30",
+            "@_fa": "true",
+            "$": "https://api.elsevier.com/content/object/eid/1-s2.0-S2468823125006716-fx5.jpg?httpAccept=%2A%2F%2A",
+            "@multimediatype": "JPEG image file",
+            "@type": "IMAGE-DOWNSAMPLED",
+            "@size": "983",
+            "@ref": "fx5",
+            "@mimetype": "image/jpeg"
+          },
+          {
+            "@category": "standard",
+            "@height": "37",
+            "@width": "57",
+            "@_fa": "true",
+            "$": "https://api.elsevier.com/content/object/eid/1-s2.0-S2468823125006716-fx4.jpg?httpAccept=%2A%2F%2A",
+            "@multimediatype": "JPEG image file",
+            "@type": "IMAGE-DOWNSAMPLED",
+            "@size": "1206",
+            "@ref": "fx4",
+            "@mimetype": "image/jpeg"
+          },
+          {
+            "@category": "standard",
+            "@height": "280",
+            "@width": "659",
+            "@_fa": "true",
+            "$": "https://api.elsevier.com/content/object/eid/1-s2.0-S2468823125006716-gr4.jpg?httpAccept=%2A%2F%2A",
+            "@multimediatype": "JPEG image file",
+            "@type": "IMAGE-DOWNSAMPLED",
+            "@size": "69509",
+            "@ref": "gr4",
+            "@mimetype": "image/jpeg"
+          },
+          {
+            "@category": "standard",
+            "@height": "467",
+            "@width": "527",
+            "@_fa": "true",
+            "$": "https://api.elsevier.com/content/object/eid/1-s2.0-S2468823125006716-gr3.jpg?httpAccept=%2A%2F%2A",
+            "@multimediatype": "JPEG image file",
+            "@type": "IMAGE-DOWNSAMPLED",
+            "@size": "71340",
+            "@ref": "gr3",
+            "@mimetype": "image/jpeg"
+          },
+          {
+            "@category": "standard",
+            "@height": "569",
+            "@width": "565",
+            "@_fa": "true",
+            "$": "https://api.elsevier.com/content/object/eid/1-s2.0-S2468823125006716-gr2.jpg?httpAccept=%2A%2F%2A",
+            "@multimediatype": "JPEG image file",
+            "@type": "IMAGE-DOWNSAMPLED",
+            "@size": "128516",
+            "@ref": "gr2",
+            "@mimetype": "image/jpeg"
+          },
+          {
+            "@category": "standard",
+            "@height": "241",
+            "@width": "527",
+            "@_fa": "true",
+            "$": "https://api.elsevier.com/content/object/eid/1-s2.0-S2468823125006716-gr10.jpg?httpAccept=%2A%2F%2A",
+            "@multimediatype": "JPEG image file",
+            "@type": "IMAGE-DOWNSAMPLED",
+            "@size": "58371",
+            "@ref": "gr10",
+            "@mimetype": "image/jpeg"
+          },
+          {
+            "@category": "standard",
+            "@height": "254",
+            "@width": "659",
+            "@_fa": "true",
+            "$": "https://api.elsevier.com/content/object/eid/1-s2.0-S2468823125006716-gr1.jpg?httpAccept=%2A%2F%2A",
+            "@multimediatype": "JPEG image file",
+            "@type": "IMAGE-DOWNSAMPLED",
+            "@size": "59831",
+            "@ref": "gr1",
+            "@mimetype": "image/jpeg"
+          },
+          {
+            "@category": "standard",
+            "@height": "408",
+            "@width": "527",
+            "@_fa": "true",
+            "$": "https://api.elsevier.com/content/object/eid/1-s2.0-S2468823125006716-gr11.jpg?httpAccept=%2A%2F%2A",
+            "@multimediatype": "JPEG image file",
+            "@type": "IMAGE-DOWNSAMPLED",
+            "@size": "55267",
+            "@ref": "gr11",
+            "@mimetype": "image/jpeg"
+          },
+          {
+            "@category": "standard",
+            "@height": "464",
+            "@width": "553",
+            "@_fa": "true",
+            "$": "https://api.elsevier.com/content/object/eid/1-s2.0-S2468823125006716-fx8.jpg?httpAccept=%2A%2F%2A",
+            "@multimediatype": "JPEG image file",
+            "@type": "IMAGE-DOWNSAMPLED",
+            "@size": "48629",
+            "@ref": "fx8",
+            "@mimetype": "image/jpeg"
+          },
+          {
+            "@category": "standard",
+            "@height": "247",
+            "@width": "527",
+            "@_fa": "true",
+            "$": "https://api.elsevier.com/content/object/eid/1-s2.0-S2468823125006716-gr8.jpg?httpAccept=%2A%2F%2A",
+            "@multimediatype": "JPEG image file",
+            "@type": "IMAGE-DOWNSAMPLED",
+            "@size": "46295",
+            "@ref": "gr8",
+            "@mimetype": "image/jpeg"
+          },
+          {
+            "@category": "standard",
+            "@height": "234",
+            "@width": "791",
+            "@_fa": "true",
+            "$": "https://api.elsevier.com/content/object/eid/1-s2.0-S2468823125006716-gr7.jpg?httpAccept=%2A%2F%2A",
+            "@multimediatype": "JPEG image file",
+            "@type": "IMAGE-DOWNSAMPLED",
+            "@size": "72151",
+            "@ref": "gr7",
+            "@mimetype": "image/jpeg"
+          },
+          {
+            "@category": "standard",
+            "@height": "426",
+            "@width": "527",
+            "@_fa": "true",
+            "$": "https://api.elsevier.com/content/object/eid/1-s2.0-S2468823125006716-gr6.jpg?httpAccept=%2A%2F%2A",
+            "@multimediatype": "JPEG image file",
+            "@type": "IMAGE-DOWNSAMPLED",
+            "@size": "67779",
+            "@ref": "gr6",
+            "@mimetype": "image/jpeg"
+          },
+          {
+            "@category": "standard",
+            "@height": "265",
+            "@width": "659",
+            "@_fa": "true",
+            "$": "https://api.elsevier.com/content/object/eid/1-s2.0-S2468823125006716-gr5.jpg?httpAccept=%2A%2F%2A",
+            "@multimediatype": "JPEG image file",
+            "@type": "IMAGE-DOWNSAMPLED",
+            "@size": "61261",
+            "@ref": "gr5",
+            "@mimetype": "image/jpeg"
+          },
+          {
+            "@category": "standard",
+            "@height": "317",
+            "@width": "527",
+            "@_fa": "true",
+            "$": "https://api.elsevier.com/content/object/eid/1-s2.0-S2468823125006716-gr9.jpg?httpAccept=%2A%2F%2A",
+            "@multimediatype": "JPEG image file",
+            "@type": "IMAGE-DOWNSAMPLED",
+            "@size": "40082",
+            "@ref": "gr9",
+            "@mimetype": "image/jpeg"
+          },
+          {
+            "@category": "thumbnail",
+            "@height": "125",
+            "@width": "219",
+            "@_fa": "true",
+            "$": "https://api.elsevier.com/content/object/eid/1-s2.0-S2468823125006716-ga1.sml?httpAccept=%2A%2F%2A",
+            "@multimediatype": "GIF image file",
+            "@type": "IMAGE-THUMBNAIL",
+            "@size": "12242",
+            "@ref": "ga1",
+            "@mimetype": "image/gif"
+          },
+          {
+            "@category": "thumbnail",
+            "@height": "146",
+            "@width": "219",
+            "@_fa": "true",
+            "$": "https://api.elsevier.com/content/object/eid/1-s2.0-S2468823125006716-fx3.sml?httpAccept=%2A%2F%2A",
+            "@multimediatype": "GIF image file",
+            "@type": "IMAGE-THUMBNAIL",
+            "@size": "4477",
+            "@ref": "fx3",
+            "@mimetype": "image/gif"
+          },
+          {
+            "@category": "thumbnail",
+            "@height": "156",
+            "@width": "190",
+            "@_fa": "true",
+            "$": "https://api.elsevier.com/content/object/eid/1-s2.0-S2468823125006716-fx2.sml?httpAccept=%2A%2F%2A",
+            "@multimediatype": "GIF image file",
+            "@type": "IMAGE-THUMBNAIL",
+            "@size": "4624",
+            "@ref": "fx2",
+            "@mimetype": "image/gif"
+          },
+          {
+            "@category": "thumbnail",
+            "@height": "156",
+            "@width": "202",
+            "@_fa": "true",
+            "$": "https://api.elsevier.com/content/object/eid/1-s2.0-S2468823125006716-fx1.sml?httpAccept=%2A%2F%2A",
+            "@multimediatype": "GIF image file",
+            "@type": "IMAGE-THUMBNAIL",
+            "@size": "3819",
+            "@ref": "fx1",
+            "@mimetype": "image/gif"
+          },
+          {
+            "@category": "thumbnail",
+            "@height": "165",
+            "@width": "206",
+            "@_fa": "true",
+            "$": "https://api.elsevier.com/content/object/eid/1-s2.0-S2468823125006716-fx7.sml?httpAccept=%2A%2F%2A",
+            "@multimediatype": "GIF image file",
+            "@type": "IMAGE-THUMBNAIL",
+            "@size": "4254",
+            "@ref": "fx7",
+            "@mimetype": "image/gif"
+          },
+          {
+            "@category": "thumbnail",
+            "@height": "108",
+            "@width": "219",
+            "@_fa": "true",
+            "$": "https://api.elsevier.com/content/object/eid/1-s2.0-S2468823125006716-fx6.sml?httpAccept=%2A%2F%2A",
+            "@multimediatype": "GIF image file",
+            "@type": "IMAGE-THUMBNAIL",
+            "@size": "3687",
+            "@ref": "fx6",
+            "@mimetype": "image/gif"
+          },
+          {
+            "@category": "thumbnail",
+            "@height": "152",
+            "@width": "136",
+            "@_fa": "true",
+            "$": "https://api.elsevier.com/content/object/eid/1-s2.0-S2468823125006716-fx5.sml?httpAccept=%2A%2F%2A",
+            "@multimediatype": "GIF image file",
+            "@type": "IMAGE-THUMBNAIL",
+            "@size": "3715",
+            "@ref": "fx5",
+            "@mimetype": "image/gif"
+          },
+          {
+            "@category": "thumbnail",
+            "@height": "143",
+            "@width": "219",
+            "@_fa": "true",
+            "$": "https://api.elsevier.com/content/object/eid/1-s2.0-S2468823125006716-fx4.sml?httpAccept=%2A%2F%2A",
+            "@multimediatype": "GIF image file",
+            "@type": "IMAGE-THUMBNAIL",
+            "@size": "5368",
+            "@ref": "fx4",
+            "@mimetype": "image/gif"
+          },
+          {
+            "@category": "thumbnail",
+            "@height": "93",
+            "@width": "219",
+            "@_fa": "true",
+            "$": "https://api.elsevier.com/content/object/eid/1-s2.0-S2468823125006716-gr4.sml?httpAccept=%2A%2F%2A",
+            "@multimediatype": "GIF image file",
+            "@type": "IMAGE-THUMBNAIL",
+            "@size": "9655",
+            "@ref": "gr4",
+            "@mimetype": "image/gif"
+          },
+          {
+            "@category": "thumbnail",
+            "@height": "164",
+            "@width": "185",
+            "@_fa": "true",
+            "$": "https://api.elsevier.com/content/object/eid/1-s2.0-S2468823125006716-gr3.sml?httpAccept=%2A%2F%2A",
+            "@multimediatype": "GIF image file",
+            "@type": "IMAGE-THUMBNAIL",
+            "@size": "11299",
+            "@ref": "gr3",
+            "@mimetype": "image/gif"
+          },
+          {
+            "@category": "thumbnail",
+            "@height": "164",
+            "@width": "163",
+            "@_fa": "true",
+            "$": "https://api.elsevier.com/content/object/eid/1-s2.0-S2468823125006716-gr2.sml?httpAccept=%2A%2F%2A",
+            "@multimediatype": "GIF image file",
+            "@type": "IMAGE-THUMBNAIL",
+            "@size": "23269",
+            "@ref": "gr2",
+            "@mimetype": "image/gif"
+          },
+          {
+            "@category": "thumbnail",
+            "@height": "100",
+            "@width": "219",
+            "@_fa": "true",
+            "$": "https://api.elsevier.com/content/object/eid/1-s2.0-S2468823125006716-gr10.sml?httpAccept=%2A%2F%2A",
+            "@multimediatype": "GIF image file",
+            "@type": "IMAGE-THUMBNAIL",
+            "@size": "9383",
+            "@ref": "gr10",
+            "@mimetype": "image/gif"
+          },
+          {
+            "@category": "thumbnail",
+            "@height": "84",
+            "@width": "219",
+            "@_fa": "true",
+            "$": "https://api.elsevier.com/content/object/eid/1-s2.0-S2468823125006716-gr1.sml?httpAccept=%2A%2F%2A",
+            "@multimediatype": "GIF image file",
+            "@type": "IMAGE-THUMBNAIL",
+            "@size": "8037",
+            "@ref": "gr1",
+            "@mimetype": "image/gif"
+          },
+          {
+            "@category": "thumbnail",
+            "@height": "164",
+            "@width": "211",
+            "@_fa": "true",
+            "$": "https://api.elsevier.com/content/object/eid/1-s2.0-S2468823125006716-gr11.sml?httpAccept=%2A%2F%2A",
+            "@multimediatype": "GIF image file",
+            "@type": "IMAGE-THUMBNAIL",
+            "@size": "9588",
+            "@ref": "gr11",
+            "@mimetype": "image/gif"
+          },
+          {
+            "@category": "thumbnail",
+            "@height": "164",
+            "@width": "195",
+            "@_fa": "true",
+            "$": "https://api.elsevier.com/content/object/eid/1-s2.0-S2468823125006716-fx8.sml?httpAccept=%2A%2F%2A",
+            "@multimediatype": "GIF image file",
+            "@type": "IMAGE-THUMBNAIL",
+            "@size": "8123",
+            "@ref": "fx8",
+            "@mimetype": "image/gif"
+          },
+          {
+            "@category": "thumbnail",
+            "@height": "103",
+            "@width": "219",
+            "@_fa": "true",
+            "$": "https://api.elsevier.com/content/object/eid/1-s2.0-S2468823125006716-gr8.sml?httpAccept=%2A%2F%2A",
+            "@multimediatype": "GIF image file",
+            "@type": "IMAGE-THUMBNAIL",
+            "@size": "9478",
+            "@ref": "gr8",
+            "@mimetype": "image/gif"
+          },
+          {
+            "@category": "thumbnail",
+            "@height": "65",
+            "@width": "219",
+            "@_fa": "true",
+            "$": "https://api.elsevier.com/content/object/eid/1-s2.0-S2468823125006716-gr7.sml?httpAccept=%2A%2F%2A",
+            "@multimediatype": "GIF image file",
+            "@type": "IMAGE-THUMBNAIL",
+            "@size": "7765",
+            "@ref": "gr7",
+            "@mimetype": "image/gif"
+          },
+          {
+            "@category": "thumbnail",
+            "@height": "164",
+            "@width": "203",
+            "@_fa": "true",
+            "$": "https://api.elsevier.com/content/object/eid/1-s2.0-S2468823125006716-gr6.sml?httpAccept=%2A%2F%2A",
+            "@multimediatype": "GIF image file",
+            "@type": "IMAGE-THUMBNAIL",
+            "@size": "10770",
+            "@ref": "gr6",
+            "@mimetype": "image/gif"
+          },
+          {
+            "@category": "thumbnail",
+            "@height": "88",
+            "@width": "219",
+            "@_fa": "true",
+            "$": "https://api.elsevier.com/content/object/eid/1-s2.0-S2468823125006716-gr5.sml?httpAccept=%2A%2F%2A",
+            "@multimediatype": "GIF image file",
+            "@type": "IMAGE-THUMBNAIL",
+            "@size": "8650",
+            "@ref": "gr5",
+            "@mimetype": "image/gif"
+          },
+          {
+            "@category": "thumbnail",
+            "@height": "132",
+            "@width": "219",
+            "@_fa": "true",
+            "$": "https://api.elsevier.com/content/object/eid/1-s2.0-S2468823125006716-gr9.sml?httpAccept=%2A%2F%2A",
+            "@multimediatype": "GIF image file",
+            "@type": "IMAGE-THUMBNAIL",
+            "@size": "7719",
+            "@ref": "gr9",
+            "@mimetype": "image/gif"
+          },
+          {
+            "@category": "high",
+            "@height": "886",
+            "@width": "1555",
+            "@_fa": "true",
+            "$": "https://api.elsevier.com/content/object/eid/1-s2.0-S2468823125006716-ga1_lrg.jpg?httpAccept=%2A%2F%2A",
+            "@multimediatype": "JPEG image file",
+            "@type": "IMAGE-HIGH-RES",
+            "@size": "201707",
+            "@ref": "ga1",
+            "@mimetype": "image/jpeg"
+          },
+          {
+            "@category": "high",
+            "@height": "165",
+            "@width": "247",
+            "@_fa": "true",
+            "$": "https://api.elsevier.com/content/object/eid/1-s2.0-S2468823125006716-fx3_lrg.jpg?httpAccept=%2A%2F%2A",
+            "@multimediatype": "JPEG image file",
+            "@type": "IMAGE-HIGH-RES",
+            "@size": "6768",
+            "@ref": "fx3",
+            "@mimetype": "image/jpeg"
+          },
+          {
+            "@category": "high",
+            "@height": "156",
+            "@width": "190",
+            "@_fa": "true",
+            "$": "https://api.elsevier.com/content/object/eid/1-s2.0-S2468823125006716-fx2_lrg.jpg?httpAccept=%2A%2F%2A",
+            "@multimediatype": "JPEG image file",
+            "@type": "IMAGE-HIGH-RES",
+            "@size": "6858",
+            "@ref": "fx2",
+            "@mimetype": "image/jpeg"
+          },
+          {
+            "@category": "high",
+            "@height": "156",
+            "@width": "202",
+            "@_fa": "true",
+            "$": "https://api.elsevier.com/content/object/eid/1-s2.0-S2468823125006716-fx1_lrg.jpg?httpAccept=%2A%2F%2A",
+            "@multimediatype": "JPEG image file",
+            "@type": "IMAGE-HIGH-RES",
+            "@size": "5416",
+            "@ref": "fx1",
+            "@mimetype": "image/jpeg"
+          },
+          {
+            "@category": "high",
+            "@height": "165",
+            "@width": "206",
+            "@_fa": "true",
+            "$": "https://api.elsevier.com/content/object/eid/1-s2.0-S2468823125006716-fx7_lrg.jpg?httpAccept=%2A%2F%2A",
+            "@multimediatype": "JPEG image file",
+            "@type": "IMAGE-HIGH-RES",
+            "@size": "6411",
+            "@ref": "fx7",
+            "@mimetype": "image/jpeg"
+          },
+          {
+            "@category": "high",
+            "@height": "152",
+            "@width": "309",
+            "@_fa": "true",
+            "$": "https://api.elsevier.com/content/object/eid/1-s2.0-S2468823125006716-fx6_lrg.jpg?httpAccept=%2A%2F%2A",
+            "@multimediatype": "JPEG image file",
+            "@type": "IMAGE-HIGH-RES",
+            "@size": "7464",
+            "@ref": "fx6",
+            "@mimetype": "image/jpeg"
+          },
+          {
+            "@category": "high",
+            "@height": "152",
+            "@width": "136",
+            "@_fa": "true",
+            "$": "https://api.elsevier.com/content/object/eid/1-s2.0-S2468823125006716-fx5_lrg.jpg?httpAccept=%2A%2F%2A",
+            "@multimediatype": "JPEG image file",
+            "@type": "IMAGE-HIGH-RES",
+            "@size": "5877",
+            "@ref": "fx5",
+            "@mimetype": "image/jpeg"
+          },
+          {
+            "@category": "high",
+            "@height": "165",
+            "@width": "253",
+            "@_fa": "true",
+            "$": "https://api.elsevier.com/content/object/eid/1-s2.0-S2468823125006716-fx4_lrg.jpg?httpAccept=%2A%2F%2A",
+            "@multimediatype": "JPEG image file",
+            "@type": "IMAGE-HIGH-RES",
+            "@size": "8456",
+            "@ref": "fx4",
+            "@mimetype": "image/jpeg"
+          },
+          {
+            "@category": "high",
+            "@height": "1239",
+            "@width": "2919",
+            "@_fa": "true",
+            "$": "https://api.elsevier.com/content/object/eid/1-s2.0-S2468823125006716-gr4_lrg.jpg?httpAccept=%2A%2F%2A",
+            "@multimediatype": "JPEG image file",
+            "@type": "IMAGE-HIGH-RES",
+            "@size": "552515",
+            "@ref": "gr4",
+            "@mimetype": "image/jpeg"
+          },
+          {
+            "@category": "high",
+            "@height": "2067",
+            "@width": "2333",
+            "@_fa": "true",
+            "$": "https://api.elsevier.com/content/object/eid/1-s2.0-S2468823125006716-gr3_lrg.jpg?httpAccept=%2A%2F%2A",
+            "@multimediatype": "JPEG image file",
+            "@type": "IMAGE-HIGH-RES",
+            "@size": "531439",
+            "@ref": "gr3",
+            "@mimetype": "image/jpeg"
+          },
+          {
+            "@category": "high",
+            "@height": "2516",
+            "@width": "2500",
+            "@_fa": "true",
+            "$": "https://api.elsevier.com/content/object/eid/1-s2.0-S2468823125006716-gr2_lrg.jpg?httpAccept=%2A%2F%2A",
+            "@multimediatype": "JPEG image file",
+            "@type": "IMAGE-HIGH-RES",
+            "@size": "990022",
+            "@ref": "gr2",
+            "@mimetype": "image/jpeg"
+          },
+          {
+            "@category": "high",
+            "@height": "1069",
+            "@width": "2333",
+            "@_fa": "true",
+            "$": "https://api.elsevier.com/content/object/eid/1-s2.0-S2468823125006716-gr10_lrg.jpg?httpAccept=%2A%2F%2A",
+            "@multimediatype": "JPEG image file",
+            "@type": "IMAGE-HIGH-RES",
+            "@size": "432465",
+            "@ref": "gr10",
+            "@mimetype": "image/jpeg"
+          },
+          {
+            "@category": "high",
+            "@height": "1123",
+            "@width": "2917",
+            "@_fa": "true",
+            "$": "https://api.elsevier.com/content/object/eid/1-s2.0-S2468823125006716-gr1_lrg.jpg?httpAccept=%2A%2F%2A",
+            "@multimediatype": "JPEG image file",
+            "@type": "IMAGE-HIGH-RES",
+            "@size": "436812",
+            "@ref": "gr1",
+            "@mimetype": "image/jpeg"
+          },
+          {
+            "@category": "high",
+            "@height": "1808",
+            "@width": "2333",
+            "@_fa": "true",
+            "$": "https://api.elsevier.com/content/object/eid/1-s2.0-S2468823125006716-gr11_lrg.jpg?httpAccept=%2A%2F%2A",
+            "@multimediatype": "JPEG image file",
+            "@type": "IMAGE-HIGH-RES",
+            "@size": "370790",
+            "@ref": "gr11",
+            "@mimetype": "image/jpeg"
+          },
+          {
+            "@category": "high",
+            "@height": "2054",
+            "@width": "2449",
+            "@_fa": "true",
+            "$": "https://api.elsevier.com/content/object/eid/1-s2.0-S2468823125006716-fx8_lrg.jpg?httpAccept=%2A%2F%2A",
+            "@multimediatype": "JPEG image file",
+            "@type": "IMAGE-HIGH-RES",
+            "@size": "363870",
+            "@ref": "fx8",
+            "@mimetype": "image/jpeg"
+          },
+          {
+            "@category": "high",
+            "@height": "1095",
+            "@width": "2333",
+            "@_fa": "true",
+            "$": "https://api.elsevier.com/content/object/eid/1-s2.0-S2468823125006716-gr8_lrg.jpg?httpAccept=%2A%2F%2A",
+            "@multimediatype": "JPEG image file",
+            "@type": "IMAGE-HIGH-RES",
+            "@size": "288089",
+            "@ref": "gr8",
+            "@mimetype": "image/jpeg"
+          },
+          {
+            "@category": "high",
+            "@height": "1035",
+            "@width": "3500",
+            "@_fa": "true",
+            "$": "https://api.elsevier.com/content/object/eid/1-s2.0-S2468823125006716-gr7_lrg.jpg?httpAccept=%2A%2F%2A",
+            "@multimediatype": "JPEG image file",
+            "@type": "IMAGE-HIGH-RES",
+            "@size": "508620",
+            "@ref": "gr7",
+            "@mimetype": "image/jpeg"
+          },
+          {
+            "@category": "high",
+            "@height": "1884",
+            "@width": "2333",
+            "@_fa": "true",
+            "$": "https://api.elsevier.com/content/object/eid/1-s2.0-S2468823125006716-gr6_lrg.jpg?httpAccept=%2A%2F%2A",
+            "@multimediatype": "JPEG image file",
+            "@type": "IMAGE-HIGH-RES",
+            "@size": "438529",
+            "@ref": "gr6",
+            "@mimetype": "image/jpeg"
+          },
+          {
+            "@category": "high",
+            "@height": "1175",
+            "@width": "2917",
+            "@_fa": "true",
+            "$": "https://api.elsevier.com/content/object/eid/1-s2.0-S2468823125006716-gr5_lrg.jpg?httpAccept=%2A%2F%2A",
+            "@multimediatype": "JPEG image file",
+            "@type": "IMAGE-HIGH-RES",
+            "@size": "513902",
+            "@ref": "gr5",
+            "@mimetype": "image/jpeg"
+          },
+          {
+            "@category": "high",
+            "@height": "1403",
+            "@width": "2333",
+            "@_fa": "true",
+            "$": "https://api.elsevier.com/content/object/eid/1-s2.0-S2468823125006716-gr9_lrg.jpg?httpAccept=%2A%2F%2A",
+            "@multimediatype": "JPEG image file",
+            "@type": "IMAGE-HIGH-RES",
+            "@size": "308373",
+            "@ref": "gr9",
+            "@mimetype": "image/jpeg"
+          },
+          {
+            "@category": "standard",
+            "@_fa": "true",
+            "$": "https://api.elsevier.com/content/object/eid/1-s2.0-S2468823125006716-mmc1.docx?httpAccept=%2A%2F%2A",
+            "@multimediatype": "Microsoft Word file",
+            "@type": "APPLICATION",
+            "@size": "2875401",
+            "@ref": "mmc1",
+            "@mimetype": "application/word"
+          },
+          {
+            "@category": "thumbnail",
+            "@_fa": "true",
+            "$": "https://api.elsevier.com/content/object/eid/1-s2.0-S2468823125006716-si1.svg?httpAccept=%2A%2F%2A",
+            "@multimediatype": "Scalable Vector Graphics file",
+            "@type": "ALTIMG",
+            "@size": "19221",
+            "@ref": "si1",
+            "@mimetype": "image/svg+xml"
+          },
+          {
+            "@category": "thumbnail",
+            "@_fa": "true",
+            "$": "https://api.elsevier.com/content/object/eid/1-s2.0-S2468823125006716-si2.svg?httpAccept=%2A%2F%2A",
+            "@multimediatype": "Scalable Vector Graphics file",
+            "@type": "ALTIMG",
+            "@size": "17189",
+            "@ref": "si2",
+            "@mimetype": "image/svg+xml"
+          },
+          {
+            "@category": "thumbnail",
+            "@_fa": "true",
+            "$": "https://api.elsevier.com/content/object/eid/1-s2.0-S2468823125006716-si3.svg?httpAccept=%2A%2F%2A",
+            "@multimediatype": "Scalable Vector Graphics file",
+            "@type": "ALTIMG",
+            "@size": "5042",
+            "@ref": "si3",
+            "@mimetype": "image/svg+xml"
+          },
+          {
+            "@category": "thumbnail",
+            "@_fa": "true",
+            "$": "https://api.elsevier.com/content/object/eid/1-s2.0-S2468823125006716-si4.svg?httpAccept=%2A%2F%2A",
+            "@multimediatype": "Scalable Vector Graphics file",
+            "@type": "ALTIMG",
+            "@size": "6068",
+            "@ref": "si4",
+            "@mimetype": "image/svg+xml"
+          },
+          {
+            "@category": "thumbnail",
+            "@_fa": "true",
+            "$": "https://api.elsevier.com/content/object/eid/1-s2.0-S2468823125006716-si5.svg?httpAccept=%2A%2F%2A",
+            "@multimediatype": "Scalable Vector Graphics file",
+            "@type": "ALTIMG",
+            "@size": "12285",
+            "@ref": "si5",
+            "@mimetype": "image/svg+xml"
+          }
+        ]
+      },
+      "link": {
+        "@rel": "abstract",
+        "@href": "https://api.elsevier.com/content/abstract/scopus_id/105016023125"
+      }
+    }
+  }
+}
