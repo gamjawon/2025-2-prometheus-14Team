@@ -6,13 +6,15 @@ import sys
 import sqlite3
 import hashlib
 import secrets
+from datetime import datetime, timedelta
 from contextlib import contextmanager
 from pathlib import Path
 from typing import Optional
 
 import torch
-from fastapi import FastAPI, HTTPException
-from fastapi.security import HTTPBearer
+from fastapi import FastAPI, HTTPException, Depends, status
+from fastapi.security import HTTPBearer, HTTPAuthorizationCredentials
+from jose import JWTError, jwt
 from pydantic import BaseModel
 
 # Safety_Check_Model 경로를 sys.path에 추가
@@ -49,6 +51,11 @@ model_config = None
 # 데이터베이스 설정
 DB_PATH = Path(__file__).parent / "users.db"
 security = HTTPBearer()
+
+# JWT 설정
+SECRET_KEY = os.getenv("SECRET_KEY", "your-secret-key-change-this-in-production")
+ALGORITHM = "HS256"
+ACCESS_TOKEN_EXPIRE_HOURS = 24
 
 
 def init_db():
@@ -121,6 +128,43 @@ def get_user_id(username: str) -> Optional[int]:
     result = cursor.fetchone()
     conn.close()
     return result[0] if result else None
+
+
+def create_access_token(data: dict, expires_delta: Optional[timedelta] = None):
+    """JWT 액세스 토큰 생성"""
+    to_encode = data.copy()
+    if expires_delta:
+        expire = datetime.utcnow() + expires_delta
+    else:
+        expire = datetime.utcnow() + timedelta(hours=ACCESS_TOKEN_EXPIRE_HOURS)
+    to_encode.update({"exp": expire})
+    encoded_jwt = jwt.encode(to_encode, SECRET_KEY, algorithm=ALGORITHM)
+    return encoded_jwt
+
+
+def verify_token(token: str) -> Optional[str]:
+    """JWT 토큰 검증 및 사용자명 반환"""
+    try:
+        payload = jwt.decode(token, SECRET_KEY, algorithms=[ALGORITHM])
+        username: str = payload.get("sub")
+        if username is None:
+            return None
+        return username
+    except JWTError:
+        return None
+
+
+async def get_current_user(credentials: HTTPAuthorizationCredentials = Depends(security)) -> str:
+    """현재 인증된 사용자 반환 (의존성 함수)"""
+    token = credentials.credentials
+    username = verify_token(token)
+    if username is None:
+        raise HTTPException(
+            status_code=status.HTTP_401_UNAUTHORIZED,
+            detail="Invalid authentication credentials",
+            headers={"WWW-Authenticate": "Bearer"},
+        )
+    return username
 
 
 def load_model():
@@ -275,7 +319,7 @@ async def login(request: LoginRequest):
     Returns:
     - **message**: 로그인 성공 메시지
     - **username**: 로그인한 사용자명
-    - **token**: 인증 토큰 (간단한 토큰, 실제로는 JWT 사용 권장)
+    - **token**: JWT 인증 토큰 (24시간 유효)
     """
     if not request.username or not request.password:
         raise HTTPException(status_code=400, detail="Username and password are required")
@@ -283,23 +327,31 @@ async def login(request: LoginRequest):
     if not authenticate_user(request.username, request.password):
         raise HTTPException(status_code=401, detail="Invalid username or password")
     
-    # 간단한 토큰 생성 (실제로는 JWT 사용 권장)
-    token = secrets.token_urlsafe(32)
+    # JWT 토큰 생성
+    access_token_expires = timedelta(hours=ACCESS_TOKEN_EXPIRE_HOURS)
+    access_token = create_access_token(
+        data={"sub": request.username}, expires_delta=access_token_expires
+    )
     
     return LoginResponse(
         message="Login successful",
         username=request.username,
-        token=token
+        token=access_token
     )
 
 
 @app.post("/predict", response_model=SafetyCheckResponse)
-async def predict(request: SafetyCheckRequest):
+async def predict(
+    request: SafetyCheckRequest,
+    current_user: str = Depends(get_current_user)
+):
     """
-    화학식의 위험성을 예측하는 엔드포인트
+    화학식의 위험성을 예측하는 엔드포인트 (인증 필요)
     
     - **formula**: 화학식 문자열 (예: "Al2O3", "H2O")
     - **verbose**: 디버그 정보 출력 여부 (기본값: False)
+    
+    **인증 필요**: Authorization 헤더에 Bearer 토큰 필요
     
     Returns:
     - **is_risky**: 위험 여부 (True: 위험, False: 안전)
