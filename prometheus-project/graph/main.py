@@ -40,14 +40,50 @@ def merge_builders(builders):
     
     return merged
 
+from typing import Any, Dict, List, Union
 
-def wrap_item_for_converter(item):
+def wrap_item_for_converter(item: Any, item_index: int=0) -> Dict[str, Any]:
     """
-    각 항목을 converter가 기대하는 형태로 변환
-    {'InorganicMaterial': [...], 'Precursor': [...]} 
-    -> {'extracted': {'InorganicMaterial': [...], 'Precursor': [...]}}
+    converter가 기대하는 형태로 변환:
+      {"extracted": <item_dict>, "item_index": <int>}
+
+    원칙:
+    - raw(원본) dict를 절대 변형하지 않음 (no mutation)
+    - item이 list로 들어오면 첫 dict만 최대한 사용
+    - 이미 wrapped({"extracted": {...}}) 형태면 복사본을 만들어 item_index만 주입
+
+    Args:
+        item: dict / wrapped dict / list / 기타
+        item_index: item 네임스페이스 prefix 생성을 위한 인덱스
+
+    Returns:
+        {"extracted": <dict>, "item_index": <int>}
     """
-    return {'extracted': item}
+    # None 방어
+    if item is None:
+        extracted: Dict[str, Any] = {}
+        return {"extracted": extracted, "item_index": item_index}
+
+    # list 방어: 첫 dict를 사용
+    if isinstance(item, list):
+        first_dict = next((x for x in item if isinstance(x, dict)), None)
+        item = first_dict if first_dict is not None else {}
+
+    # dict가 아니면 빈 dict로
+    if not isinstance(item, dict):
+        return {"extracted": {}, "item_index": item_index}
+
+    # 이미 wrapped라면: 원본을 건드리지 않도록 얕은 복사 + item_index 주입
+    extracted_val = item.get("extracted")
+    if isinstance(extracted_val, dict):
+        wrapped = dict(item)                 # shallow copy (원본 dict 수정 방지)
+        wrapped["item_index"] = item_index
+        # extracted 내부도 혹시 원본 공유가 싫다면 dict(extracted_val)로 한 번 더 복사 가능
+        # wrapped["extracted"] = dict(extracted_val)
+        return wrapped
+
+    # 일반 dict면: extracted에 dict(item)로 복사해서 원본 수정 방지
+    return {"extracted": dict(item), "item_index": item_index}
 
 
 def main():
@@ -61,7 +97,7 @@ def main():
     if len(sys.argv) > 1:
         json_file = sys.argv[1]
     else:
-        json_file = "/Users/gamjawon/2025-2-prometheus-14Team/Data/merged_all.json"
+        json_file = "C:/Users/장나래/OneDrive/바탕 화면/go/graph/merged_all.json"
         print(f"\n💡 사용법: python convert_large_json.py <json_file>")
         print(f"   기본 파일 사용: {json_file}")
     
@@ -70,7 +106,10 @@ def main():
         return
     
     # 2. 온톨로지 파일 확인
-    ontology_file = "/Users/gamjawon/2025-2-prometheus-14Team/prometheus-project/ontology/aitom_inorganic.rdf"
+    ontology_file = os.path.abspath(
+        os.path.join(os.path.dirname(__file__), "..", "ontology", "aitom_inorganic.rdf")
+    )
+
     if not os.path.exists(ontology_file):
         print(f"\n❌ 오류: 온톨로지 파일이 없습니다: {ontology_file}")
         return
@@ -122,7 +161,7 @@ def main():
         
         # 임시 파일로 저장 (wrapped 형태)
         temp_file = f"temp_item_{idx}.json"
-        wrapped_item = wrap_item_for_converter(item)
+        wrapped_item = wrap_item_for_converter(item, item_index=idx)
         
         with open(temp_file, 'w', encoding='utf-8') as f:
             json.dump(wrapped_item, f, ensure_ascii=False, indent=2)
