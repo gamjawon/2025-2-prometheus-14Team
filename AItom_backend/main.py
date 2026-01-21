@@ -9,7 +9,7 @@ import secrets
 from datetime import datetime, timedelta
 from contextlib import contextmanager
 from pathlib import Path
-from typing import Optional
+from typing import Optional, List
 
 import torch
 from fastapi import FastAPI, HTTPException, Depends, status
@@ -25,6 +25,13 @@ if str(SAFETY_MODEL_DIR) not in sys.path:
 from utils.multi_property_embedding import get_combined_embedding, DEFAULT_PROPERTIES
 from model import RiskClassifier
 
+# Prometheus GraphRAG 경로를 sys.path에 추가
+PROMETHEUS_GRAPH_DIR = Path(__file__).parent.parent / "prometheus-project" / "graph"
+if str(PROMETHEUS_GRAPH_DIR) not in sys.path:
+    sys.path.insert(0, str(PROMETHEUS_GRAPH_DIR))
+
+from llm_rag import LLMSynthesisRAG
+
 
 @contextmanager
 def change_working_dir(path: Path):
@@ -38,8 +45,8 @@ def change_working_dir(path: Path):
 
 # FastAPI 앱 생성
 app = FastAPI(
-    title="Safety Check API",
-    description="화학식의 위험성을 이진 분류하는 API",
+    title="AItom API",
+    description="무기물 합성법 제공 챗봇",
     version="1.0.0"
 )
 
@@ -47,6 +54,7 @@ app = FastAPI(
 model = None
 device = None
 model_config = None
+rag_system = None  # GraphRAG 시스템
 
 # 데이터베이스 설정
 DB_PATH = Path(__file__).parent / "users.db"
@@ -225,11 +233,48 @@ def load_model():
     print(f"Model config: {model_config}")
 
 
+def load_rag_system():
+    """GraphRAG 시스템 로드"""
+    global rag_system
+    
+    # RDF 파일 경로 설정 (프로젝트 루트의 Data 폴더)
+    rdf_file = Path(__file__).parent.parent / "Data" / "merged_all_output_35127items.rdf"
+    
+    if not rdf_file.exists():
+        print(f"Warning: RDF file not found at {rdf_file}. GraphRAG API will not be available.")
+        return
+    
+    try:
+        # LLM 타입 및 API 키 설정 (환경변수에서 읽음)
+        llm_type = os.getenv("LLM_TYPE", "openai")  # "openai" or "claude"
+        api_key = None
+        if llm_type == "openai":
+            api_key = os.getenv("OPENAI_API_KEY")
+        elif llm_type == "claude":
+            api_key = os.getenv("ANTHROPIC_API_KEY")
+        
+        if not api_key:
+            print(f"Warning: {llm_type.upper()} API key not found. GraphRAG API will not be available.")
+            return
+        
+        rag_system = LLMSynthesisRAG(
+            rdf_file=str(rdf_file),
+            llm_type=llm_type,
+            api_key=api_key
+        )
+        print(f"GraphRAG system loaded successfully from {rdf_file}")
+    except Exception as e:
+        print(f"Error loading GraphRAG system: {e}")
+        import traceback
+        traceback.print_exc()
+
+
 # 앱 시작 시 모델 로드 및 DB 초기화
 @app.on_event("startup")
 async def startup_event():
     init_db()
     load_model()
+    load_rag_system()
 
 
 # Request/Response 모델
@@ -265,6 +310,26 @@ class LoginResponse(BaseModel):
     message: str
     username: str
     token: str
+
+
+class SynthesisQuestionRequest(BaseModel):
+    question: str
+
+
+class SynthesisAnswerResponse(BaseModel):
+    answer: str
+    context: List[str]
+    confidence: str
+    source: str
+    target_material: Optional[str] = None
+    extracted_formulas: Optional[List[str]] = None
+    chosen_method_index: Optional[int] = None
+    chosen_method_label: Optional[str] = None
+    method_count: Optional[int] = None
+    synthesis_type: Optional[str] = None
+    synthesis_type_confidence: Optional[str] = None
+    synthesis_type_reason: Optional[str] = None
+    available_materials: Optional[List[str]] = None
 
 
 @app.get("/")
@@ -400,6 +465,70 @@ async def predict(
         raise HTTPException(
             status_code=500,
             detail=f"Prediction failed: {str(e)}"
+        )
+
+
+@app.post("/synthesis/answer", response_model=SynthesisAnswerResponse)
+async def answer_synthesis_question(
+    request: SynthesisQuestionRequest
+):
+    """
+    화학 물질 합성법 질문에 답변하는 엔드포인트 (인증 불필요)
+    
+    - **question**: 사용자 질문 (예: "NiO 합성법을 단계별로 설명해주세요")
+    
+    **인증 불필요**: 로그인 없이 사용 가능
+    
+    Returns:
+    - **answer**: LLM이 생성한 답변
+    - **context**: RAG 컨텍스트 (합성법 정보)
+    - **confidence**: 신뢰도 ("high", "none" 등)
+    - **source**: 출처 ("knowledge_graph" 등)
+    - **target_material**: 추출된 타겟 물질명
+    - **extracted_formulas**: 추출된 화학식 목록
+    - **chosen_method_index**: 선택된 합성법 인덱스 (1부터 시작)
+    - **chosen_method_label**: 선택된 합성법 라벨
+    - **method_count**: 전체 합성법 개수
+    - **synthesis_type**: 합성 타입 ("hydrothermal", "precipitation" 등)
+    - **synthesis_type_confidence**: 합성 타입 분류 신뢰도
+    - **synthesis_type_reason**: 합성 타입 분류 근거
+    - **available_materials**: 사용 가능한 물질 목록 (오류 시에만 포함)
+    """
+    if rag_system is None:
+        raise HTTPException(
+            status_code=503,
+            detail="GraphRAG system is not available. Please check RDF file path and API keys."
+        )
+    
+    if not request.question or not request.question.strip():
+        raise HTTPException(
+            status_code=400,
+            detail="Question is required"
+        )
+    
+    try:
+        result = rag_system.answer_question(request.question.strip())
+        
+        return SynthesisAnswerResponse(
+            answer=result.get("answer", ""),
+            context=result.get("context", []),
+            confidence=result.get("confidence", "none"),
+            source=result.get("source", "none"),
+            target_material=result.get("target_material"),
+            extracted_formulas=result.get("extracted_formulas"),
+            chosen_method_index=result.get("chosen_method_index"),
+            chosen_method_label=result.get("chosen_method_label"),
+            method_count=result.get("method_count"),
+            synthesis_type=result.get("synthesis_type"),
+            synthesis_type_confidence=result.get("synthesis_type_confidence"),
+            synthesis_type_reason=result.get("synthesis_type_reason"),
+            available_materials=result.get("available_materials")
+        )
+    
+    except Exception as e:
+        raise HTTPException(
+            status_code=500,
+            detail=f"Failed to answer question: {str(e)}"
         )
 
 
