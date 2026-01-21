@@ -50,8 +50,20 @@ class LLMSynthesisRAG:
         if self.llm_type == "openai":
             try:
                 import openai
-                self.client = openai.OpenAI(api_key=self.api_key)
-                print(f"✓ OpenAI 클라이언트 초기화 완료")
+                # 환경변수에서 proxy 설정을 임시로 제거하여 proxies 인자 오류 방지
+                proxy_vars = ['HTTP_PROXY', 'HTTPS_PROXY', 'http_proxy', 'https_proxy']
+                saved_proxies = {}
+                for var in proxy_vars:
+                    if var in os.environ:
+                        saved_proxies[var] = os.environ.pop(var)
+                
+                try:
+                    self.client = openai.OpenAI(api_key=self.api_key)
+                    print(f"✓ OpenAI 클라이언트 초기화 완료")
+                finally:
+                    # 환경변수 복원
+                    for var, value in saved_proxies.items():
+                        os.environ[var] = value
             except ImportError:
                 raise ImportError("openai 패키지를 설치하세요: pip install openai")
     
