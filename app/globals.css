@@ -1,0 +1,41 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@layer base {
+  button,
+  input,
+  select,
+  textarea {
+    @apply appearance-none bg-transparent border-0 outline-none;
+  }
+}
+/* app/globals.css */
+
+:root {
+  /* Figma colors (RGB triplets) */
+  --blue: 79 170 255;
+  --blue-10: 226 241 255;
+  --blue-50: 204 231 255;
+
+  --coolgray-05: 246 248 250;
+  --coolgray-10: #F2F4F8;
+  --coolgray-20: 226 233 242;
+  --coolgray-30: 209 213 219;
+  --coolgray-40: 162 169 176;
+  --coolgray-60: 105 112 119;
+  --coolgray-80: 52 58 63;
+  --coolgray-90: 33 39 42;
+
+  --white: 255 255 255;
+
+  /* Figma section gradient exact */
+  --section-grad-0: 242 248 248; /* rgba(242,248,248,1) */
+  --section-grad-50: 242 252 255; /* rgba(242,252,255,1) */
+  --section-grad-100: 229 243 243; /* rgba(229,243,243,1) */
+}
+:root {
+  --landing-grad-0: 242 248 248; /* #F2F8F8 */
+  --landing-grad-50: 242 252 255; /* #F2FCFF */
+  --landing-grad-100: 229 243 243; /* #E5F3F3 */
+}
