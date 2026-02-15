@@ -1,6 +1,6 @@
-# AItom(작업 중)
+<h1 align="center"> AITom </h1> <br>
 
-* 촉매 합성법 제공 챗봇
+* Inorganic Material Synthesis Method Chatbot
 
 ## 0. OpenAI API Key & 가상환경 생성
 
