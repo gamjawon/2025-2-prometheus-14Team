@@ -119,9 +119,24 @@ hasNote (SynthesisStep → xsd:string)
 # 🕸 GraphDB
 
 
+
+
 # 🤖 Safety Check
 * Transformer + MLP Architecture
 * Transformer: [CrabNet](https://github.com/anthony-wang/CrabNet)
+
+```
+pick top12 properties (LightGBM using)
+↓
+12 checkpoints of CrabNet loading
+↓
+concat 12 x embedding vector to single embedding vector
+↓
+MLP Design
+↓
+Safe / Unsafe Prediction
+```
+
 
 
 
