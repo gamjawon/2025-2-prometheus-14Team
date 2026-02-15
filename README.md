@@ -142,9 +142,10 @@ Safe / Unsafe Prediction
 
 <img alt="AItom" title="AItom" src="asset/safety.png" width="450">
 
+
 # 👤 Member
 | 강지영 (개발)      | 김지원 (개발)     | 장나래 (개발)     | 조현진 (팀장, 개발)  || 김서현 (디자인) |
-|:-----------------:|:----------------:|:-----------------:|:--------------------:|:------------:|
+|:-----------------:|:----------------:|:-----------------:|:--------------------:|:------------:|-------------:|
 | [use08174](https://github.com/use08174)        |  [vivamini7](https://github.com/vivamini7)  |  [BETONM](https://github.com/BETONM)    | [FrozenAdrnln](https://github.com/FrozenAdrnln)|  [hyun-jin891](https://github.com/hyun-jin891)| [yun31](https://github.com/yun31)|
 
 
