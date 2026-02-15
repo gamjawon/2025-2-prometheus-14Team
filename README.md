@@ -116,9 +116,12 @@ hasNote (SynthesisStep → xsd:string)
 
 ```
 
+# 🕸 GraphDB
 
 
-
+# 🤖 Safety Check
+* Transformer + MLP Architecture
+* Transformer: [CrabNet](https://github.com/anthony-wang/CrabNet)
 
 
 
