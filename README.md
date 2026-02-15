@@ -2,7 +2,7 @@
 
 <p align="center">
   <a href="https://github.com/hyun-jin891/AItom/tree/main">
-    <img alt="AItom" title="AItom" src="https://imgur.com/a/k0CcvPj" width="450">
+    <img alt="AItom" title="AItom" src="https://i.imgur.com/a/k0CcvPj" width="450">
   </a>
 </p>
 
