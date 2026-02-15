@@ -105,8 +105,11 @@ hasReaction(InorganicMaterial → xsd:string)
 hasID (SynthesisMethod → xsd:integer)
 
 hasTemperature (Condition → xsd:string)
+
 hasTime (Condition → xsd:string)
+
 haspH (Condition → xsd:string)
+
 hasPressure (Condition → xsd:string)
 
 hasAction(SynthesisStep → xsd:string)
@@ -140,6 +143,10 @@ Safe / Unsafe Prediction
 <img alt="AItom" title="AItom" src="asset/safety.png" width="450">
 
 
+# 👤 Member
+| 강지영 (개발)      | 김지원 (개발)     | 장나래 (개발)     | 조현진 (팀장, 개발)  | 김서현 (디자인) |
+|:-----------------:|:----------------:|:--------------------:|:--------------------:|:-------------------:|
+| [Jiyoung0219](https://github.com/Jiyoung0219)        |  [gamjawon](https://github.com/gamjawon)  |  [brandnewwwnarae](https://github.com/brandnewwwnarae)    | [hyun-jin891](https://github.com/hyun-jin891)||
 
 
 
