@@ -117,7 +117,7 @@ hasNote (SynthesisStep → xsd:string)
 ```
 
 # 🕸 GraphDB
-
+<img alt="AItom" title="AItom" src="asset/graphdb.png" width="450">
 
 
 
@@ -137,6 +137,7 @@ MLP Design
 Safe / Unsafe Prediction
 ```
 
+<img alt="AItom" title="AItom" src="asset/safety.png" width="450">
 
 
 
