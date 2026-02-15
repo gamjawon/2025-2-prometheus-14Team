@@ -1,4 +1,4 @@
-<h1 align="center"> AItom </h1> <br>
+
 
 <p align="center">
   <a href="https://github.com/hyun-jin891/AItom/tree/main">
