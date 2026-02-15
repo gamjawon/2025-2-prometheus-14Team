@@ -6,7 +6,7 @@
   </a>
 </p>
 
-* Inorganic Material Synthesis Method Chatbot
+<h1 align="center"> Inorganic Material Synthesis Method Chatbot </h1> <br>
 
 ## 0. OpenAI API Key & 가상환경 생성
 
