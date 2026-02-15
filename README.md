@@ -13,10 +13,29 @@ AItom consists of three core layers:
 1. **LLM-Based Structured Extraction**
 2. **Ontology-Aligned Knowledge Graph Construction**
 3. **Graph Retrieval-Augmented Generation (Graph RAG)**
+4. **Transformer-MLP Architecture for Safety Check**
 
 The system enables an end-to-end pipeline:
 
-> Raw synthesis text → Ontology-aligned triples → Graph database → Context-grounded scientific QA
+```
+Raw Literature (PMID: 35614129)
+↓
+Ontology Design
+↓
+LLM Extraction
+↓
+Ontology Mapping
+↓
+Graph Database
+↓
+Graph Retrieval
+↓
+LLM Generation (Graph RAG) + Safety Check (Transformer-MLP)
+```
 
----
+
+
+
+
+
 
