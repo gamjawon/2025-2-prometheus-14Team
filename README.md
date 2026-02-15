@@ -105,8 +105,11 @@ hasReaction(InorganicMaterial → xsd:string)
 hasID (SynthesisMethod → xsd:integer)
 
 hasTemperature (Condition → xsd:string)
+
 hasTime (Condition → xsd:string)
+
 haspH (Condition → xsd:string)
+
 hasPressure (Condition → xsd:string)
 
 hasAction(SynthesisStep → xsd:string)
