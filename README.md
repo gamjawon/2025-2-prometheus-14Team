@@ -1,4 +1,10 @@
-<h1 align="center"> AITom </h1> <br>
+<h1 align="center"> AItom </h1> <br>
+
+<p align="center">
+  <a href="https://github.com/hyun-jin891/AItom/tree/main">
+    <img alt="AItom" title="AItom" src="https://ibb.co/jvt11fRy" width="450">
+  </a>
+</p>
 
 * Inorganic Material Synthesis Method Chatbot
 
